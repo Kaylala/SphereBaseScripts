@@ -2,59 +2,59 @@
 What do you want to Summon ?
 
 On=iGiantScorpionIcon <Name>
-Test=MAGERY 75.0
+Test=Magery 750
 Summon=cGiantScorpion
 
 On=iBrownBearIcon <Name>
-Test=MAGERY 50.0
+Test=Magery 500
 Summon=cBrownBear
 
 On=iGiantRatIcon <Name>
-Test=MAGERY 35.0
+Test=Magery 350
 Summon=cGiantRat
 
 On=iChickenIcon <Name>
-Test=MAGERY 35.0
-Summon=cChickenIcon
+Test=Magery 350
+Summon=cChicken
 
 On=iDeerIcon <Name>
-Test=MAGERY 35.0
+Test=Magery 350
 Summon=cGreatHart
 
 On=iDeerIcon <Name>
-Test=MAGERY 35.0
+Test=Magery 350
 Summon=cHind
 
 On=iDogIcon <Name>
-Test=MAGERY 35.0
+Test=Magery 350
 Summon=cDog
 
 //On=iSheepIcon <Name>
-//Test=MAGERY 35.0
+//Test=Magery 350
 //Summon=cShornSheep
 
 On=iAlligatorIcon <Name>
-Test=MAGERY 35.0
+Test=Magery 350
 Summon=cAlligator
 
 On=iGrizzlyBearIcon <Name>
-Test=MAGERY 35.0
+Test=Magery 350
 Summon=cGrizzlyBear
 
 On=i_pet_horse_brown_lt <Name>
-Test=MAGERY 35.0
+Test=Magery 350
 Summon=HORSES
 
 On=iPolarBearIcon <Name>
-Test=MAGERY 75.0
+Test=Magery 750
 Summon=cPolarBear
 
 On=iRabbitIcon <Name>
-Test=MAGERY 20.0
+Test=Magery 200
 Summon=cRabbit
 
 On=iSnakeIcon <Name>
-Test=MAGERY 25.0
+Test=Magery 250
 Summon=cSnake
 
 [EOF]

@@ -1,29 +1,36 @@
 [SkillMenu smAlchemy]
-What sort of potion do you want to make?
+Alchemy
 
-On=iAgilityPotion <Name> (<ResMake>)
-MakeItem=iAgilityPotion
+On=iHealingPotion Healing and Curative
+SkillMenu smHealingAndCurative
 
-On=iGreaterAgilityPotion <Name> (<ResMake>)
-MakeItem=iGreaterAgilityPotion
+On=iAgilityPotion Enhancement
+SkillMenu smEnhancement
 
-On=iLesserCurePotion <Name> (<ResMake>)
-MakeItem=iLesserCurePotion
+On=iLesserPoisonPotion Toxic
+SkillMenu smToxic
 
-On=iCurePotion <Name> (<ResMake>)
-MakeItem=iCurePotion
+On=iLesserExplosionPotion Explosive
+SkillMenu smExplosive
 
-On=iGreaterCurePotion <Name> (<ResMake>)
-MakeItem=iGreaterCurePotion
+//On=iEmptyBottle Strange Brew
+//SkillMenu smStrangeBrew
 
-On=iExplosionLessPotion <Name> (<ResMake>)
-MakeItem=iLesserExplosionPotion
+//On=iEmptyBottle Ingredients
+//SkillMenu smIngredients
 
-On=iExplosionPotion <Name> (<ResMake>)
-MakeItem=iExplosionPotion
+On=iEmptyBottle Sphere Potions
+SkillMenu smSpherePotions
 
-On=iGreaterExplosionPotion <Name> (<ResMake>)
-MakeItem=iGreaterExplosionPotion
+// Healing and Curative
+[SkillMenu smHealingAndCurative]
+Healing and Curative
+
+On=iRefreshPotion <Name> (<ResMake>)
+MakeItem=iRefreshPotion
+
+On=iTotalRefreshPotion <Name> (<ResMake>)
+MakeItem=iTotalRefreshPotion
 
 On=iLesserHealPotion <Name> (<ResMake>)
 MakeItem=iLesserHealPotion
@@ -34,8 +41,43 @@ MakeItem=iHealPotion
 On=iGreaterHealPotion <Name> (<ResMake>)
 MakeItem=iGreaterHealPotion
 
+On=iLesserCurePotion <Name> (<ResMake>)
+MakeItem=iLesserCurePotion
+
+On=iCurePotion <Name> (<ResMake>)
+MakeItem=iCurePotion
+
+On=iGreaterCurePotion <Name> (<ResMake>)
+MakeItem=iGreaterCurePotion
+
+//On=iElixirORebirth <Name> (<ResMake>)
+//MakeItem=iElixirOfRebirth
+
+// Enhancement
+[SkillMenu smEnhancement]
+Enhancement
+
+On=iAgilityPotion <Name> (<ResMake>)
+MakeItem=iAgilityPotion
+
+On=iGreaterAgilityPotion <Name> (<ResMake>)
+MakeItem=iGreaterAgilityPotion
+
 On=iNightsightPotion <Name> (<ResMake>)
 MakeItem=iNightsightPotion
+
+On=iStrengthPotion <Name> (<ResMake>)
+MakeItem=iStrengthPotion
+
+On=iGreaterStrengthPotion <Name> (<ResMake>)
+MakeItem=iGreaterStrengthPotion
+
+On=iInvisibilityPotion <Name> (<ResMake>)
+MakeItem=iInvisibilityPotion
+
+// Toxic
+[SkillMenu smToxic]
+Toxic
 
 On=iLesserPoisonPotion <Name> (<ResMake>)
 MakeItem=iLesserPoisonPotion
@@ -49,23 +91,102 @@ MakeItem=iGreaterPoisonPotion
 On=iDeadlyPoisonPotion <Name> (<ResMake>)
 MakeItem=iDeadlyPoisonPotion
 
-On=iRefreshPotion <Name> (<ResMake>)
-MakeItem=iRefreshPotion
+//On=iParasiticPotion <Name> (<ResMake>)
+//MakeItem=iPrarasiticPotion
 
-On=iTotalRefreshPotion <Name> (<ResMake>)
-MakeItem=iTotalRefreshPotion
+//On=iDarkglowPotion <Name> (<ResMake>)
+//MakeItem=iDarkglowPotion
 
-On=iStrengthPotion <Name> (<ResMake>)
-MakeItem=iStrengthPotion
+//On=iScouringToxin <Name> (<ResMake>)
+//MakeItem=iScouringToxin
 
-On=iGreaterStrengthPotion <Name> (<ResMake>)
-MakeItem=iGreaterStrengthPotion
+// Explosive
+[SkillMenu smExplosive]
+Explosive
+
+On=iLesserExplosionPotion <Name> (<ResMake>)
+MakeItem=iLesserExplosionPotion
+
+On=iExplosionPotion <Name> (<ResMake>)
+MakeItem=iExplosionPotion
+
+On=iGreaterExplosionPotion <Name> (<ResMake>)
+MakeItem=iGreaterExplosionPotion
+
+//On=iConflagrationPotion <Name> (<ResMake>)
+//MakeItem=iConflagrationPotion
+
+//On=iGreaterConflagrationPotion <Name> (<ResMake>)
+//MakeItem=iGreaterConflagrationPotion
+
+//On=iConfusionBlast <Name> (<ResMake>)
+//MakeItem=iConfusionBlast
+
+//On=iGreaterConfusionBlast <Name> (<ResMake>)
+//MakeItem=iGreaterConfusionBlast
+
+//On=iBlackPowder <Name> (<ResMake>)
+//MakeItem=iBlackPowder
+
+//On=iMatchCord <Name> (<ResMake>)
+//MakeItem=iMatchCord
+
+//On=iFuseCord <Name> (<ResMake>)
+//MakeItem=iFuseCord
+
+// Strange Brew
+//[SkillMenu smStrangeBrew]
+//Strange Brew
+
+//On=iSmokeBomb <Name> (<ResMake>)
+//MakeItem=iSmokeBomb
+
+//On=iHoveringWisp <Name> (<ResMake>)
+//MakeItem=iHoveringWisp
+
+//On=iNaturalDye <Name> (<ResMake>)
+//MakeItem=iNaturalDye
+
+//On=iNexusCore <Name> (<ResMake>)
+//MakeItem=iNexusCore
+
+// Ingredients
+//[SkillMenu smIngredients]
+//Ingredients
+
+//On=iPlantPigment <Name> (<ResMake>)
+//MakeItem=iPlantPigment
+
+//On=iColorFixative <Name> (<ResMake>)
+//MakeItem=iColorFixative
+
+//On=iCrystalGranules <Name> (<ResMake>)
+//MakeItem=iCrystalGranules
+
+//On=iCrystalDust <Name> (<ResMake>)
+//MakeItem=iCrystalDust
+
+//On=iSoftenedReeds <Name> (<ResMake>)
+//MakeItem=iSoftenedReeds
+
+//On=iVialOfVitriol <Name> (<ResMake>)
+//MakeItem=iVialOfVitriol
+
+//On=iBottleOfIchor <Name> (<ResMake>)
+//MakeItem=iBottleOfIchor
+
+//On=iPotash <Name> (<ResMake>)
+//MakeItem=iPotash
+
+//On=iGoldDust <Name> (<ResMake>)
+//MakeItem=iGoldDust
+
+// Sphere Potions
+[SkillMenu smSpherePotions]
+Sphere Potions
 
 On=iShrinkPotion <Name> (<ResMake>)
 MakeItem=iShrinkPotion
-
-On=iInvisibilityPotion <Name> (<ResMake>)
-MakeItem=iInvisibilityPotion
 
 On=iManaPotion <Name> (<ResMake>)
 MakeItem=iManaPotion

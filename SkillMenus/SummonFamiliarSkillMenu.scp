@@ -2,23 +2,23 @@
 What do you want to Summon ?
 
 On=iHordeDaemonIcon <Name>
-Test=NECROMANCY 30.0,SPIRITSPEAK 30.0
+Test=Necromancy 300,SpiritSpeak 300
 Summon=cSmallHordeDaemon
 
 On=iWispIcon <Name>
-Test=NECROMANCY 50.0,SPIRITSPEAK 50.0
+Test=Necromancy 500,SpiritSpeak 500
 Summon=cDarkWisp	//Should be c_wisp_shadow ?
 
 On=iDarkWolfIcon <Name>
-Test=NECROMANCY 60.0,SPIRITSPEAK 60.0
-Summon=cDarkWolfIcon
+Test=Necromancy 600,SpiritSpeak 600
+Summon=cDarkWolf
 
 //On=iGiantSerpentIcon <Name>
-//Test=NECROMANCY 80.0,SPIRITSPEAK 80.0
+//Test=Necromancy 800,SpiritSpeak 800
 //Summon=cDeathAdder
 
 On=iVampireBatIcon <Name>
-Test=NECROMANCY 100.0,SPIRITSPEAK 100.0
+Test=Necromancy 1000,SpiritSpeak 1000
 Summon=cVampireBat
 
 [EOF]
