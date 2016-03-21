@@ -1,0 +1,350 @@
+///////////////////////////////////////////
+// Beginning of Carpentry section
+
+[SkillMenu smCarpentry]
+Carpentry
+
+On=i_board boards
+MakeItem=i_board
+
+On=i_chair_throne Chairs
+SkillMenu=smWood_chairs
+
+On=i_chest_wooden_brass Containers & Shields
+SkillMenu=smWood_containers_shields
+
+On=i_table_nightstand Table
+SkillMenu=smWood_tables
+
+On=i_staff_gnarled Weapons & Tools
+SkillMenu=smWood_weapons_tools
+
+On=i_armoir_dk Furniture
+SkillMenu=smWood_furniture
+
+On=i_portrait_7 Paintings
+SkillMenu=smWood_paintings
+
+On=i_trophy_deerhead Trophies
+SkillMenu=smWood_trophies
+
+On=i_saddle Rancher Types
+SkillMenu=smWood_rancher
+
+On=i_BED_9 Beds
+SkillMenu=smWood_beds
+
+On=i_bulletin_board Miscellaneous
+SkillMenu=smWood_misc
+
+[SkillMenu smWood_chairs]
+Chairs
+
+On=i_chair_throne <Name> (<ResMake>)
+MakeItem=i_chair_throne
+
+On=i_chair_wood_rough_dark <Name> (<ResMake>)
+MakeItem=i_chair_wood_rough_dark
+
+On=i_chair_wood_fancy_cushion <Name> (<ResMake>)
+MakeItem=i_chair_wood_fancy_cushion
+
+On=i_chair_wood_cushion <Name> (<ResMake>)
+MakeItem=i_chair_wood_cushion
+
+On=i_chair_wood <Name> (<ResMake>)
+MakeItem=i_chair_wood
+
+On=i_chair_wood_bamboo <Name> (<ResMake>)
+MakeItem=i_chair_wood_bamboo
+
+On=i_chair_stool_BAR <Name> (<ResMake>)
+MakeItem=i_chair_stool_BAR
+
+On=i_chair_stool <Name> (<ResMake>)
+MakeItem=i_chair_stool
+
+On=i_bench_wood_dark <Name> (<ResMake>)
+MakeItem=i_bench_wood_dark
+
+[SkillMenu smWood_containers_shields]
+Containers & Shields
+
+On=i_CHEST_WOODEN_BRASS <Name> (<ResMake>)
+MakeItem=i_CHEST_WOODEN_BRASS
+
+On=i_BOX_WOOD <Name> (<ResMake>)
+MakeItem=i_BOX_WOOD
+
+On=i_CRATE_SMALL <Name> (<ResMake>)
+MakeItem=i_CRATE_SMALL
+
+On=i_CRATE_MD <Name> (<ResMake>)
+MakeItem=i_CRATE_MD
+
+On=i_CRATE_LG <Name> (<ResMake>)
+MakeItem=i_CRATE_LG
+
+On=i_SHIELD_WOOD <Name> (<ResMake>)
+MakeItem=i_SHIELD_WOOD
+
+[SkillMenu smWood_tables]
+Tables
+
+On=i_BAR_PIECE Bars
+SkillMenu=smWood_bars
+
+On=i_TABLE_NIGHTSTAND <Name> (<ResMake>)
+MakeItem=i_TABLE_NIGHTSTAND
+
+On=i_TABLE_WOOD_ROUGH_SMALL <Name> (<ResMake>)
+MakeItem=i_TABLE_WOOD_ROUGH_SMALL
+
+On=i_table_wood_rough_board <Name> (<ResMake>)
+MakeItem=i_table_wood_rough_board
+
+On=i_bench_woodworker_end Woodworkers Bench
+SkillMenu=smWood_woodworkers
+
+On=i_table_runner_plaid_blue <Name> (<ResMake>)
+MakeItem=i_table_runner_plaid_blue
+
+On=i_table_runner_purple <Name> (<ResMake>)
+MakeItem=i_table_runner_purple
+
+On=i_table_runner_red <Name> (<ResMake>)
+MakeItem=i_table_runner_red
+
+On=i_table_runner_snowflake <Name> (<ResMake>)
+MakeItem=i_table_runner_snowflake
+
+[SkillMenu smWood_weapons_tools]
+Weapons & Tools
+
+On=i_FISHING_POLE <Name> (<ResMake>)
+MakeItem=i_FISHING_POLE
+
+On=i_DYE_TUB <Name> (<ResMake>)
+MakeItem=i_DYE_TUB
+
+On=i_DYES <Name> (<ResMake>)
+MakeItem=i_DYES
+
+On=i_CLUB <Name> (<ResMake>)
+MakeItem=i_CLUB
+
+On=i_staff_gnarled <Name> (<ResMake>)
+MakeItem=i_staff_gnarled
+
+On=i_staff_quarter <Name> (<ResMake>)
+MakeItem=i_staff_quarter
+
+On=i_CROOK_THIN <Name> (<ResMake>)
+MakeItem=i_CROOK_THIN
+
+On=i_STAFF_BLACK <Name> (<ResMake>)
+MakeItem=i_STAFF_BLACK
+
+[SkillMenu smWood_furniture]
+Furniture
+
+On=i_table_writing <Name> (<ResMake>)
+MakeItem=i_table_writing
+
+On=i_ARMOIR_DK <Name> (<ResMake>)
+MakeItem=i_ARMOIR_DK
+
+On=i_ARMOIR_LT <Name> (<ResMake>)
+MakeItem=i_ARMOIR_LT
+
+On=i_BOOKCASE <Name> (<ResMake>)
+MakeItem=i_BOOKCASE
+
+On=i_BOOKCASE_FULL <Name> (<ResMake>)
+MakeItem=i_BOOKCASE_FULL
+
+On=i_MUSIC_STAND <Name> (<ResMake>)
+MakeItem=i_MUSIC_STAND
+
+On=i_MUSIC_STAND_BOOK <Name> (<ResMake>)
+MakeItem=i_MUSIC_STAND_BOOK
+
+On=i_MUSIC_STAND_TALL <Name> (<ResMake>)
+MakeItem=i_MUSIC_STAND_TALL
+
+On=i_MUSIC_STAND_TALL_BOOK <Name> (<ResMake>)
+MakeItem=i_MUSIC_STAND_TALL_BOOK
+
+On=i_BUREAU_2 <Name> (<ResMake>)
+MakeItem=i_BUREAU_2
+
+[SkillMenu smWood_misc]
+Miscellaneous
+
+On=i_PAPER <Name> (<ResMake>)
+MakeItem=i_PAPER
+
+On=i_PARCHMENT <Name> (<ResMake>)
+MakeItem=i_PARCHMENT
+
+On=i_SCROLL_BLANK <Name> (<ResMake>)
+MakeItem=i_SCROLL_BLANK
+
+On=i_DARTBOARD <Name> (<ResMake>)
+MakeItem=i_DARTBOARD
+
+On=i_DRESS_FORM <Name> (<ResMake>)
+MakeItem=i_DRESS_FORM
+
+On=i_TRAINING_DUMMY <Name> (<ResMake>)
+MakeItem=i_DEED_DUMMYW
+
+On=i_DEED_DUMMYN <Name> (<ResMake>)
+MakeItem=i_DEED_DUMMYN
+
+On=i_DEED_PICKPOCKW <Name> (<ResMake>)
+MakeItem=i_DEED_PICKPOCKN
+
+On=i_DEED_PICKPOCKN <Name> (<ResMake>)
+MakeItem=i_DEED_PICKPOCKN
+
+On=i_DEED_ARCHBUTTEW <Name> (<ResMake>)
+MakeItem=i_DEED_ARCHBUTTEW
+
+On=i_DEED_ARCHBUTTEN <Name> (<ResMake>)
+MakeItem=i_DEED_ARCHBUTTEN
+
+On=i_DEED_SPINWHEEL <Name> (<ResMake>)
+MakeItem=i_DEED_SPINWHEEL
+
+On=i_MODEL_SHIP <Name> (<ResMake>)
+MakeItem=i_MODEL_SHIP
+
+On=i_LANTERN <Name> (<ResMake>)
+MakeItem=i_LANTERN
+
+On=i_GLOBE <Name> (<ResMake>)
+MakeItem=i_GLOBE
+
+On=i_BARREL_open <Name> (<ResMake>)
+MakeItem=i_BARREL_open
+
+On=i_tub_empty <Name> (<ResMake>)
+MakeItem=i_tub_empty
+
+On=I_DEED_BBOARDW <Name> (<ResMake>)
+MakeItem=i_DEED_BBOARDW
+
+On=i_DEED_BBOARDN <Name> (<ResMake>)
+MakeItem=i_DEED_BBOARDN
+
+[SkillMenu smWood_paintings]
+Paintings
+
+On=i_portrait_1 <Name> (<ResMake>)
+MakeItem=i_portrait_1
+
+On=i_portrait_3 <Name> (<ResMake>)
+MakeItem=i_portrait_3
+
+On=i_portrait_4 <Name> (<ResMake>)
+MakeItem=i_portrait_4
+
+On=i_portrait_7 <Name> (<ResMake>)
+MakeItem=i_portrait_7
+
+On=i_portrait_big <Name> (<ResMake>)
+MakeItem=i_portrait_big
+
+On=i_portrait_5 <Name> (<ResMake>)
+MakeItem=i_portrait_5
+
+On=i_portrait_6 <Name> (<ResMake>)
+MakeItem=i_portrait_6
+
+[SkillMenu smWood_trophies]
+Trophies
+
+On=i_trophy_bearhead <Name> (<ResMake>)
+MakeItem=i_trophy_bearhead
+
+On=i_trophy_deerhead <Name> (<ResMake>)
+MakeItem=i_trophy_deerhead
+
+On=i_trophy_fish <Name> (<ResMake>)
+MakeItem=i_trophy_fish
+
+On=i_trophy_gorillahead <Name> (<ResMake>)
+MakeItem=i_trophy_gorillahead
+
+On=i_trophy_orchead <Name> (<ResMake>)
+MakeItem=i_trophy_orchead
+
+On=i_trophy_polarbearhead <Name> (<ResMake>)
+MakeItem=i_trophy_polarbearhead
+
+On=i_trophy_trollhead <Name> (<ResMake>)
+MakeItem=i_trophy_trollhead
+
+[SkillMenu smWood_bars]
+Bar
+
+On=i_bar_door_ne <Name> (<ResMake>)
+MakeItem=i_bar_door_ne
+
+On=i_bar_piece <Name> (<ResMake>)
+MakeItem=i_bar_piece
+
+[SkillMenu smWood_woodworkers]
+Woodworkers Bench
+
+On=i_bench_woodworker_end <Name> (<ResMake>)
+MakeItem=i_bench_woodworker_end
+
+On=i_vise <Name> (<ResMake>)
+MakeItem=i_vise
+
+On=i_bench_cooper <Name> (<ResMake>)
+MakeItem=i_bench_cooper
+
+[SkillMenu smWood_rancher]
+Rancher Types
+
+On=i_trough_water <Name> (<ResMake>)
+MakeItem=i_trough_water
+
+On=i_saddle <Name> (<ResMake>)
+MakeItem=i_saddle
+
+[SkillMenu smWood_beds]
+Beds
+
+On=i_BED_9 <Name> (<ResMake>)
+MakeItem=i_BED_9
+
+On=i_BED_11 <Name> (<ResMake>)
+MakeItem=i_BED_11
+
+On=i_BED_16 <Name> (<ResMake>)
+MakeItem=i_BED_16
+
+On=i_BED_17 <Name> (<ResMake>)
+MakeItem=i_BED_17
+
+On=i_BED_18 <Name> (<ResMake>)
+MakeItem=i_BED_18
+
+On=i_BED_19 <Name> (<ResMake>)
+MakeItem=i_BED_19
+
+On=i_BED_7 <Name> (<ResMake>)
+MakeItem=i_BED_7
+
+On=i_BED_8 <Name> (<ResMake>)
+MakeItem=i_BED_8
+
+// End of Carpentry section
+///////////////////////////////////////////
+// Beginning of Tailoring section
+
+[EOF]

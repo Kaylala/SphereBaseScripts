@@ -1,0 +1,63 @@
+
+// Dragon Turtle
+// Dragon Turtle Champion Spawn
+[CharDef 050D]
+DefName=cDragonTurtle
+Name=Dragon Turtle
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=25,37
+Icon=iDragonTurtleIcon
+Sound=sndDragon1
+Resources=18 iDragonTurtleScute,33 iPlainHides,1 iCutOfRawRibs
+FoodType=tFruit,tVegetable
+Aversions=rCivilization
+Desires=tFruit,tVegetable,rJungle,tWater,rwater
+BloodColor=0
+
+Category=Bosses
+SubsectiOn=Champions
+DescriptiOn=Dragon Turtle
+
+On=@Create
+NPC=BrainDragon
+SlayerSuper=EodonSlayer|Dinosaur
+BreathAnim=iFXExplode
+BreathType=3
+
+Fame=40000
+Karma=-40000
+Alignment=Evil
+
+Ability1=s_dismount
+
+DamPhysical=50
+DamFire=0
+DamCold=0
+DamPoison=50
+DamEnergy=0
+
+ResPhysical=75,80
+ResFire=65,75
+ResCold=70,75
+ResPoison=100
+ResEnergy=65,75
+
+OStr={750 800}
+ODex={185 240}
+OInt={480 580}
+MaxHits={80000 100000}    // no clue Estimate based on other high end bosses
+MaxStam=100
+
+Wrestling={2250 2300}
+Tactics={1000 1100}
+MagicResistance={900 1200}
+Parrying={1000 1100}
+
+On=@NPCRestock
+NewGold={8000 10000}
+
+On=@DeathCorpse
+//NewItem=iDragonTurtleEgg    // 1 randomly dropped per kill
+
+[EOF]

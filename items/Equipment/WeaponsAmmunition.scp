@@ -1,0 +1,69 @@
+[Comment Notes]
+* Oddity: 0F3E; if anyone has information pertaining to last client it is seen as rock. Let me know. It can be coded to the last change.
+
+[ItemDef 0F3E]
+//arrow (its a rock in older clients)
+DefName=iArrowOddity
+Name=arrow%s
+Type=tArrow
+Can=CanIReplicate
+Weight=0.1
+//SkillMake=Bowcrafting 0
+//Resources=1 iShaft,1 iFeather
+
+Category=Equipment
+Subsection=Weapons: Ammunition
+Description=Arrow/Rock (Depends on Client)
+
+[ItemDef 0F3F]
+DefName=iArrow
+Name=arrow%s
+Type=tArrow
+Can=CanIReplicate
+Weight=0.1
+SkillMake=Bowcrafting 0
+Resources=1 iShaft,1 iFeather
+
+Category=Equipment
+Subsection=Weapons: Ammunition
+Description=Arrow
+
+[ItemDef 01BFB]
+DefName=iBolt
+Type=tBolt
+Can=CanIReplicate
+Weight=0.1
+SkillMake=Bowcrafting 0
+Resources=1 iShaft,1 iFeather
+
+Category=Equipment
+Subsection=Weapons: Ammunition
+Description=Bolt
+
+[ItemDef 027ac]
+DefName=iShuriken
+Name=shuriken
+Type=tShuriken
+Can=CanIStack
+Weight=1
+SkillMake=Blacksmithing 450
+Resources=5 iIronIngot
+
+Category=Equipment
+Subsection=Weapons: Ammunition
+Description=Shuriken
+
+[ItemDef 02806]
+DefName=iFukiyaDart
+Name=fukiya dart%s
+Type=tFukiyaDart
+Can=CanIStack|CanIReplicate
+Weight=1
+SkillMake=Bowcrafting 500
+Resources=1 iBoard
+
+Category=Equipment
+Subsection=Weapons: Ammunition
+Description=Fukiya Dart
+
+[EOF]

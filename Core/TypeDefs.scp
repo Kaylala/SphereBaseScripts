@@ -1,0 +1,116 @@
+[TypeDef tSmokeBomb]
+// Needs to be coded.
+
+//
+[TypeDef tAlchemyTool]
+On=@DClick
+SkillMenu smAlchemy
+
+// Tool TypeDefs
+// Masonry Tool
+[TypeDef tMasonryTool]
+SkillMenu smMasonry
+
+// Fletching Tool
+[TypeDef tBowcraftingTool]
+On=@DClick
+SkillMenu smBowcrafting
+
+// Blacksmithing
+[TypeDef tHammerWeapon]
+On=@DClick
+SkillMenu smBlacksmithing
+
+// Cartography
+[TypeDef tCartographyTool]
+On=@DClick
+SkillMenu smCartography
+
+// Carpentry
+[TypeDef tCarpentryTool]
+On=@DClick
+SkillMenu smCarpentry
+
+// Tinkering
+[TypeDef tTinkeringTools]
+On=@DClick
+SkillMenu smTinkering
+
+// Tailoring Tool
+[TypeDef tTailoringTool]
+On=@DClick
+SkillMenu smTailoring
+
+// Inscription Tool
+[TypeDef tInscriptionTool]
+On=@DClick
+SkillMenu smInscription
+
+//
+[TypeDef tCookingTool]
+On=@DClick
+SkillMenu smCooking
+
+// Ammunition Menu
+[TypeDef tShaft]
+On=@DClick
+SkillMenu sm
+
+// Armor TypeDefs
+[TypeDef tLeatherArmor]
+On=@Create
+Can |= CanIRegenMana|CanIRegenHits|CanIRegenStam
+
+[TypeDef tStuddedArmor]
+On=@Create
+Can |= CanIRegenHits|CanIRegenStam
+
+[TypeDef tClothArmor]
+On=@Create
+Can |= CanIRegenMana|CanIRegenHits|CanIRegenStam
+
+[TypeDef tBoneArmor]
+On=@Create
+Can |= CanIRegenHits|CanIRegenStam
+
+[TypeDef tPlatemailArmor]
+On=@Create
+Can |= CanIRegenHits|CanIRegenStam
+
+[TypeDef tRingmailArmor]
+On=@Create
+Can |= CanIRegenHits|CanIRegenStam
+
+[TypeDef tChainmailArmor]
+On=@Create
+Can |= CanIRegenHits|CanIRegenStam
+
+[TypeDef tLeafArmor]
+On=@Create
+Can |= CanIRegenMana|CanIRegenHits|CanIRegenStam
+
+[TypeDef tHideArmor]
+On=@Create
+Can |= CanIRegenHits|CanIRegenStam
+
+[TypeDef tWoodlandArmor]
+On=@Create
+Can |= CanIRegenHits|CanIRegenStam
+
+[TypeDef tDragonArmor]
+On=@Create
+Can |= CanIRegenHits|CanIRegenStam
+
+[TypeDef tStoneArmor]
+On=@Create
+Can |= CanIRegenHits|CanIRegenStam
+
+[TypeDef tFurArmor]
+On=@Create
+Can |= CanIRegenMana|CanIRegenHits|CanIRegenStam
+
+[TypeDef tScuteArmor]
+On=@Create
+Can |= CanIRegenMana|CanIRegenHits|CanIRegenStam
+
+[EOF]

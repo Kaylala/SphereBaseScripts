@@ -1,0 +1,68 @@
+21-3-2016
+- Changed: all multi files to follow the new structures.
+- Added: Compatibility reverse defnames for things using <DefName>1
+
+20-3-2016
+- Changed: Complete rescript of all Icons. Corpses done as well.
+- Updated: Undead.scp; Fixed bad BaseID from SphereServer basepacks. Adjusted a Hue for Dark Guardians. Added DispID to ShadeTypes.
+- Added: TraditionalMinorArtifacts.scp; Phillip's Wooden Steed was moved here from Character Icons. It isn't an icon...
+- Added: Xun's MountNPC functon; Still needs testing.
+- Updated: Minor Syntax appropriations.
+- Added: Several new functions and removed IsGargoyle in MountItem (Which is now MountNPC)
+- Added: Renowned.scp; Renowned Elemental mini-champions added.
+
+19-3-2016
+- Added: SlayerSystem.scp in Core/Combat/ Optional to attach on players.
+- Added: tShrine code that was given out to players by mysef on the forums.
+- Updated: More folder structuring. (Moved spawns to Spawn folder), cleaned more code.
+- Updated: MapPoints 0 - 3 and Maps 2 - 5. (Still need to work on Flags and Events more).
+- Added: NPCs/Summoned.scp; Magery creatures are currently inside.
+- Changed: Sphere_Items_Provisions_Weapons.scp -> Weapons.scp; All weapons are redone to EA current standards.
+- Updated: Sphere_Defs.scp; Added several new material types.
+- Moved: Weapons.scp (Ammunition) -> WeaponsAmmunition.scp.
+- Moved: Weapons.scp (Ammo Anims) -> Effects/WeaponEffects.scp.
+- Updated: Sphere_Defs.scp; Notes:
+  - LayerWallSafe, LayerBossLoot, LayerMovingCrate added.
+  - New TypeDefs for a few material resources, ammunition types, tNinjaBelt, and tFukiya added.
+- Added: ItemPropFunctions.scp; Functions for the new item props. Corresponding IsFunctions for the props added to IsFunctions.scp
+
+18-3-2016
+- Created GitHub respository. Lost a lot in the HDD crash two weeks ago. (Will be updating this with everything not listed that has been changed.)
+- Updated: Sphere_Defs.scp: Tons of changes here. Underscores are gone in most files for cleanup and to parse less with
+  script profiler. 
+  - Sounds: Are being updated! A few have changed. Some have been added. It looks messy right now.
+  - CanIRegen*: Added to the code for Hits,Mana, and Stam. This will be now added to armor (Don't worry, adding it in a Typedef for
+    slowly converting over.
+  - CanI*: Small clean up and some backwards compat done. Take note of the changes.
+  - Layer_*: Parsed out the underscore and did EA naming conventions with 'some' backwards compatibility.
+  - TypeDefs: Parsed out about 6 deprecated TypeDefs. Added about 40. Take note of changes.
+  - Added: Ancient Hell Hound mount added/
+  - Changed: Color(s)* to h(hue)Hue(s).
+- Removed: Most template files had their i_Gold removed. It is going to be parsed in @NPCRestock on NPC's. Changed some conventions.
+- Changed: SphereMonsters.scp; Moved Undead to Undead.scp. Moved Elementals to Elementals.scp.
+- Added: TemplateNPCLoot.scp; Moving all NPC loot templates to this file as time goes on. Contains some of the elemental code as is.
+- Added: Elementals.scp; All known elementals are now coded (Minus Covetous revamp).
+- Added: Undead.scp; Most undead have been moved and are properly done. Still need Khaldun undead and Interred Grizzle yet.
+- Added: Dinosaurs.scp; Grabbed my code from forums and cleaned it up some. Added to NPCs folder.
+- Added: GlobalItemBehavior.scp; Now uses CanUse. This will now be the update file for global players events.
+- Added: GlobalPlayerBehavior.scp, GlobalRegionBehavior.scp,GlobalNPCBehavior.scp; These will be used for global applications via INI.
+- Updated: SphereTables.scp; Reflect proper Hierarchy to the integral structure of sphere.
+- Added: SpawnsGeneric.scp & SpawnsBritannia.scp; Holds basic generic spawns and Trammel/Felucca Spawns (Needs more updating).
+- Changed: Most touched files have had their " . " decimal points removed. Sphere will love you more memory wise if you don't use
+  them in any form of parsing.
+- Updated: Sphere_Regions.scp; Changed a few structures. Made some plurals singular.
+- Note: Need to remove Sphere_* prefixes where applicable. Most things will be categorized into folders as time moves on.
+  Anything not noted, I am sorry. This was last minute and the past two weeks I have not kept a changelog as usually is done on my end.
+- Added: BaseBodies.scp; Moved cElfMale, cElfFemale,cHumanMale, cHumanFemale, cGargoyleMale, cGargoyleFemale from SphereMonsters.scp
+  Moved over all ghost pChar mobile objects as well. All rescripted.
+  Changed a lot in their definitions.
+- Updated: Sphere_Names.scp; Changed the Name structures and added to nFemaleGargoyleNames
+- Fixed: Undead.txt; it is now Undead.scp; Added Interred Grizzle.
+- Updated: Removed more underscore structures in Brain* in a few files.
+- Updated: Maps1.scp; brought over all areas and rooms from map0 and changed their definition names to match
+  for areas in map1. Cleaned up naming structures, flags, etc. This is refected in sphere_defs.scp as well.
+- Added: Avians.scp; Moved greater phoenix over and added phoenix.
+- Changed: Split more NPCs and made some new folder structures for fies. Check git changes to see the changes.
+- Added: TypeDefs.scp; contains the new armor TypeDefs.
+
+

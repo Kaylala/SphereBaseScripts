@@ -1,0 +1,19 @@
+[Comment Notes]
+* Phillip's Wooden Steed: Needs weight added yet. Needs a TypeDef to make sounds like a statuette.
+
+[ItemDef 03FFE]
+DefName=iPhillipsWoodenSteed
+Name=Phillip's Wooden Steed
+Type=tNormal
+
+Category=Artifacts
+Subsection=Traditional Minor Artifacts
+Description=Phillip's Wooden Steed
+
+On=@Create
+Attr=AttrArtifact
+//SoundSet=
+
+
+
+[EOF]

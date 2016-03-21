@@ -1,0 +1,39 @@
+//****************************************************************************
+// SPHERE by : Menasoft ©1997-2014
+// www.sphereserver.net
+// All SPHERE script files and formats are copyright Menasoft & Partners.
+// This file may be freely edited for personal use, but may not be distributed
+// in whole or in part, in any format without express written permission from
+// Menasoft & Partners.  All donations and contributions
+// become the property of Menasoft & Partners.
+//****************************************************************************
+// FILE LAST UPDATED: Saturday, Sept 6, 2014
+//
+VERSION=0.56c
+
+
+////////////////////////////////////////
+// Malas
+////////////////////////////////////////
+
+//Mondain's Legacy regions
+
+[AreaDef aLabyrinth]
+Name=Labyrinth
+Group=Malas: ML Dungeons
+P=329,1973,2,3
+Rect=256,1792,511,2047,3
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.Music=MidiDungeon9
+
+[AreaDef aBedlam]
+Name=Bedlam
+Group=Malas: ML Dungeons
+P=121,1684,0,3
+Rect=60,1580,216,1703,3
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.Music=MidiGrizzleDungeon
+
+[EOF]

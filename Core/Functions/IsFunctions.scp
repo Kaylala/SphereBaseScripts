@@ -1,0 +1,86 @@
+// Checks <ArgS> radius for Player's Corpse.
+[Function IsNearCorpse]
+Ref12 = <UID>
+ForItems <ArgS>
+ If (<Type> == tCorpse)
+  If (<Link.UID> == <Ref12.UID>)
+   Return 1
+  EndIf
+ EndIf
+EndFor
+Return 0
+
+[Function IsAlterable]
+Return <Qval (<AlterItem> != 0) ? 1 : 0>
+
+// Player IsDead
+[Function IsDead]
+Return <Qval (<Flags> &StatFDead) ? 1 : 0 >
+
+// Racial/Gender Functions
+[Function IsHuman]
+Return <Qval ((<DispID> == cHumanMale) || (<DispID> == cHumanFemale)) ? 1 : 0 >
+
+[Function IsElf]
+Return <Qval ((<DispID> == cElfMale) || (<DispID> == cElfFemale)) ? 1 : 0 >
+
+[Function IsGargoyle]
+Return <Qval ((<DispID> == cGargoyleMale) || (<DispID> == cGargoyleFemale)) ? 1 : 0 >
+
+[Function IsMale]
+Return <Qval (<Can> &CanMale) ? 1 : 0 >
+
+[Function IsFemale]
+Return <Qval (<Can> &CanFemale) ? 1 : 0 >
+
+//
+// Is* for new Armor TypeDefs
+//
+
+// IsArmor will be updated in Hard Code. We are adding Armor Categories now. Better control over each type.
+[Function IsTypeArmor]
+Return <Qval ((<Type> == tLeatherArmor) || (<Type> == tStuddedArmor) || (<Type> == tLeafArmor) || (<Type> == tHideArmor) || (<Type> == tClothArmor) || (<Type> == tChainmailArmor) || (<Type> == tRingmailArmor) || (<Type> == tPlatemailArmor) || (<Type> == tDragonArmor) || (<Type> == tStoneArmor) || (<Type> == tWoodlandArmor) || (<Type> == tBoneArmor))? 1 : 0>
+
+[Function IsLeatherArmor]
+Return <Qval (<Type> == tLeatherArmor) ? 1 :0>
+
+[Function IsLeafArmor]
+Return <Qval (<Type> == tLeafArmor) ? 1 :0>
+
+[Function IsFurArmor]
+Return <Qval (<Type> == tFurArmor) ? 1 :0>
+
+[Function IsScuteArmor]
+Return <Qval (<Type> == tScuteArmor) ? 1 :0>
+
+[Function IsClothArmor]
+Return <Qval (<Type> == tClothArmor) ? 1 :0>
+
+[Function IsStuddedArmor]
+Return <Qval (<Type> == tStuddedArmor) ? 1 :0>
+
+[Function IsBoneArmor]
+Return <Qval (<Type> == tBoneArmor) ? 1 :0>
+
+[Function IsHideArmor]
+Return <Qval (<Type> == tHideArmor) ? 1 :0>
+
+[Function IsChainmailArmor]
+Return <Qval (<Type> == tChainmailArmor) ? 1 :0>
+
+[Function IsRingmailArmor]
+Return <Qval (<Type> == tRingmailArmor) ? 1 :0>
+
+[Function IsPlatemailArmor]
+Return <Qval (<Type> == tPlatemailArmor) ? 1 :0>
+
+[Function IsDragonArmor]
+Return <Qval (<Type> == tDragonArmor) ? 1 :0>
+
+[Function IsStoneArmor]
+Return <Qval (<Type> == tStoneArmor) ? 1 :0>
+
+[Function IsWoodlandArmor]
+Return <Qval (<Type> == tWoodlandArmor) ? 1 :0>
+
+[EOF]

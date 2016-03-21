@@ -1,0 +1,1786 @@
+[DefName dSpawns]
+dSpawn_Brigands={Spawns_HBrigands 1 Spawns_EBrigands 1}
+dSpawn_HBrigands={cHFBrigand 1 cHMBrigand 1}
+dSpawn_EBrigands={cEFBrigand 1 cEMBrigand 1}
+
+dSpawn_Cows={cCow 1 cCow1 1}
+dSpawn_Bulls={cBull 1 cBull1 1}
+
+dSpawn_Dragons={cDragon 1 cDragon1 1 cGreaterDragon 1 cGreaterDragon1 1}
+dSpawn_Drakes={cDrake 1 cDrake1 1}
+
+dSpawn_Ettins={cEttin 1 cEttinWAxe 1}
+dSpawn_Trolls={cTroll 1 cTrollWMace 1}
+dSpawn_Trolls={cLizardman 1 cLizardmanWMace 1 cLizardmanWSpear 1}
+dSpawn_BloodElementals={cBloodElemental 1 cBloodElemental11}
+
+dSpawn_Skeletons={cSkeleton 1 cSkeletonWAxe 1 cSkeletonWSword 1}
+dSpawn_SkeletalKnights={cBoneKnight 1 cSkeletalKnight 1}
+dSpawn_SkeletalMages={cBoneMage 1 cSkeletalMage 1}
+dSpawn_Spectres={cShade 1 cSpectre 1 cWraith 1}
+dSpawn_Orcs={cOrc 1 cOrcWClub 1}
+
+dSpawn_HAlchemists={cHFAlchemist 1 cHMAlchemist 1}
+dSpawn_HArmourers={cHFArmourer 1 cHMArmourer 1}
+dSpawn_HBakers={cHFBaker 1 cHMBaker 1}
+dSpawn_HBankers={cHFBanker 1 cHMBanker 1}
+dSpawn_HBlacksmiths={cHFBlacksmith 1 cHMBlacksmith 1}
+dSpawn_HButchers={cHFButcher 1 cHMButcher 1}
+dSpawn_HCobblers={cHFCobbler 1 cHMCobbler 1}
+dSpawn_HFishermans={cHFFisherman 1 cHMFisherman 1}
+dSpawn_HHealers={cHFHealer 1 cHMHealer 1}
+dSpawn_HHerbalists={cHFHerbalist 1 cHMHerbalist 1}
+dSpawn_HInnkeepers={cHFInnkeeper 1 cHMInnkeeper 1}
+dSpawn_HMages={cHFMage 1 cHMMage 1}
+dSpawn_HMinters={cHFMinter 1 cHMMinter 1}
+dSpawn_HProvisioners={cHFProvisioner 1 cHMProvisioner 1}
+dSpawn_HScribes={cHFScribe 1 cHMScribe 1}
+dSpawn_HShipwrights={cHFShipwright 1 cHMShipwright 1}
+dSpawn_HTailors={cHFTailor 1 cHMTailor 1}
+dSpawn_HTanners={cHFTanner 1 cHMTanner 1}
+dSpawn_HTavernkeepers={cHFTavernKeeper 1 cHMTavernKeeper 1}
+dSpawn_HTinkers={cHFTinker 1 cHMTinker 1}
+dSpawn_HTownCriers={cHFTownCrier 1 cHMTownCrier 1}
+dSpawn_HWaiters={cHFWaiter 1 cHMWaiter 1}
+dSpawn_HWeavers={cHFWeaver 1 cHMWeaver 1}
+
+[Spawn SpawnSoulbinderIsland]
+Category=Spawns: Britannia
+Subsection=Islands
+Description=Soulbinder Island
+ID=cBoundSoul
+ID=cSoulboundApprenticeMage
+ID=cSoulboundBattleMage
+ID=cSoulboundPirateCaptain
+ID=cSoulboundPirateRaider
+ID=cSpellslinger
+ID=cSwashbuckler
+
+[Spawn SpawnSoulbinderIsland1]
+Category=Spawns: Britannia
+Subsection=Islands
+Description=Soulbinder Island (Boss)
+ID=cCorgulTheSoulbinder
+
+// Generalized, nothing given but "Jungle Inhabitants"
+[Spawn SpawnAmoebaIsland]
+Category=Spawns: Britannia
+Subsection=Islands
+Description=Amoeba Island
+ID=cGorilla
+ID=cTropicalBird
+ID=cAlligator
+ID=cSmallAlligator
+ID=cSnake
+ID=cGiantSerpent
+ID=cCorpser
+
+[Spawn SpawnBaldIsle]
+Category=Spawns: Britannia
+Subsection=Islands
+Description=Bald Isle
+ID=c
+
+[Spawn SpawnBarrierIsle]
+Category=Spawns: Britannia
+Subsection=Islands
+Description=Barrier Isle
+ID=dSpawn_Brigands
+ID=dSpawn_Bulls
+ID=dSpawn_Cows
+ID=cGoat
+ID=cGreatHart
+ID=cHind
+ID=cLlama
+
+// Forest Animals?
+[Spawn SpawnBlancheIsland]
+Category=Spawns: Britannia
+Subsection=Islands
+Description=Blanch Island
+ID=cBird
+ID=
+
+[Spawn SpawnDaggerIsle]
+Category=Spawns: Britannia
+Subsection=Islands
+Description=Dagger Island
+ID=cFrostTroll
+ID=dSpawn_Orcs
+ID=cOrcCaptain
+ID=cPolarBear
+ID=cSnowLeopard
+ID=cWalrus
+ID=cWhiteWolf
+
+// Too small for denizens
+[Spawn SpawnDotIslands]
+Category=Spawns: Britannia
+Subsection=Islands
+Description=Dot Island
+//ID=
+
+// Jungle Creatures
+[Spawn SpawnDragonIsle]
+Category=Spawns: Britannia
+Subsection=Islands
+Description=Dragon Isle
+ID=c
+
+// Forest
+[Spawn SpawnEiffelIsland]
+Category=Spawns: Britannia
+Subsection=Islands
+Description=Eiffel Island
+ID=c
+
+// Fire Temple. Rock Ridge, Hythloth, Humility Shrine
+// Forests?
+[Spawn SpawnFireIsland]
+Category=Spawns: Britannia
+Subsection=Islands
+Description=Fire Island
+ID=c
+
+// Forest Island
+[Spawn SpawnHorseshoeIsland]
+Category=Spawns: Britannia
+Subsection=Islands
+Description=Horseshoe Island
+ID=c
+
+// Forest
+[Spawn SpawnIversRounding]
+Category=Spawns: Britannia
+Subsection=Islands
+Description=Iver's Rounding
+ID=c
+
+// Hard to get to. Can't swim or sail to.
+// Runes only way to get here? (inhabited somehow on EA)
+[Spawn SpawnJusticeIsland]
+Category=Spawns: Britannia
+Subsection=Islands
+Description=Justice Island
+ID=c
+
+// Two Marble houses (One is passage to Lost Lands)
+[Spawn SpawnMarbleIsland]
+Category=Spawns: Britannia
+Subsection=Islands
+Description=Justice Island
+ID=c
+
+// Jungle
+[Spawn SpawnNorthJhelomIsland]
+Category=Spawns: Britannia
+Subsection=Islands
+Description=North Jhelom Island
+ID=c
+
+// Forest
+[Spawn SpawnOcarinaIsle]
+Category=Spawns: Britannia
+Subsection=Islands
+Description=Ocarina Isle
+ID=c
+
+// 
+[Spawn SpawnSeaMarket]
+Category=Spawns: Britannia
+Subsection=Islands
+Description=Sea Market
+ID=dSpawn_HAlchemists
+ID=dSpawn_HBankers
+ID=dSpawn_HBlacksmiths
+ID=dSpawn_HFishermans
+ID=dSpawn_HHealers
+ID=dSpawn_HProvisioners
+ID=dSpawn_HShipwrights
+ID=dSpawn_HTailors
+ID=dSpawn_HTanners
+ID=dSpawn_HTavernkeepers
+ID=dSpawn_HTinkers
+ID=dSpawn_HWaiters
+
+// Jungle Creatures
+[Spawn SpawnSkullIsland]
+Category=Spawns: Britannia
+Subsection=Islands
+Description=Skull Island
+ID=c
+
+// Jungle Creatures
+[Spawn SpawnTempleIsland]
+Category=Spawns: Britannia
+Subsection=Islands
+Description=Temple Island
+ID=c
+
+// Tropical/Jungle
+[Spawn SpawnValorIsland]
+Category=Spawns: Britannia
+Subsection=Islands
+Description=Valor Island
+ID=cAlligator
+ID=Corpser
+ID=GiantSerpent
+ID=Gorilla
+ID=GreaterMongbat
+
+// Forest
+[Spawn SpawnVerityIsle]
+
+Category=Spawns: Britannia
+Subsection=Islands
+Description=Verity Isle
+ID=cBrownBear
+ID=cMongbat
+
+[Spawn SpawnBlightedGrove]
+Category=Spawns: Britannia
+Subsection=Dungeons
+Description=Blighted Grove
+ID=cAbscess
+ID=cBog Thing
+ID=cBogling
+ID=cChangeling
+ID=cCoil
+ID=cCorpser
+ID=cGiantSerpent
+ID=cGiantToad
+ID=cHarpy
+ID=cHydra
+ID=cInsaneDryad
+ID=cReaper
+ID=cSaliva
+ID=cSilverSerpent
+ID=cTangle
+ID=cThrasher
+ID=cWhippingVine
+
+[Spawn SpawnTrammelBritainSewers]
+Category=Spawns: Britannia
+Subsection=Dungeons: Trammel
+Description=Britain Sewers
+ID=cBullfrog
+ID=cGiantRat
+ID=cRat
+ID=cSewerRat
+
+[Spawn SpawnTrammelCovetous1]
+Category=Spawns: Britannia
+Subsection=Dungeons: Trammel
+Description=Covetous (Level 1)
+ID=cCorpser
+ID=cGazer
+ID=cGazerLarva
+ID=cHarpy
+ID=cHeadless One
+ID=cStone Harpy
+
+[Spawn SpawnFeluccaCovetous1]
+Category=Spawns: Britannia
+Subsection=Dungeons: Felucca
+Description=Covetous (Level 1)
+ID=cEvilMageLord
+ID=cStoneHarpy
+ID=cSwampTentacle
+
+[Spawn SpawnTrammelCovetous2]
+Category=Spawns: Britannia
+Subsection=Dungeons: Trammel
+Description=Covetous (Level 2)
+ID=cCorpser
+ID=cDreadSpider
+ID=cGazer
+ID=cGazerLarva
+ID=cHarpy
+ID=cHeadlessOne
+ID=cWaterElemental
+
+[Spawn SpawnFeluccaCovetous2]
+Category=Spawns: Britannia
+Subsection=Dungeons: Felucca
+Description=Covetous (Level 2)
+ID=cDreadSpider
+ID=cElderGazer
+ID=cNightmare
+ID=cStoneGargoyle
+ID=cSwampTentacle
+ID=cWaterElemental
+
+[Spawn SpawnTrammelCovetous3]
+Category=Spawns: Britannia
+Subsection=Dungeons: Trammel
+Description=Covetous (Level 3)
+ID=dSpawn_SkeletalKnights
+ID=cGhoul
+ID=cLich
+ID=cMummy
+ID=dSpawn_Skeletons
+ID=dSpawn_Spectres
+ID=cZombie
+
+[Spawn SpawnFeluccaCovetous3]
+Category=Spawns: Britannia
+Subsection=Dungeons: Felucca
+Description=Covetous (Level 3)
+ID=dSpawn_SkeletalKnights
+ID=cLich
+ID=cLichLord
+
+[Spawn SpawnTrammelCovetous4]
+Category=Spawns: Britannia
+Subsection=Dungeons: Trammel
+Description=Covetous (Level 4)
+ID=cGhoul
+ID=cMummy
+ID=cRotting Corpse
+ID=dSpawn_Spectres
+ID=cZombie
+
+[Spawn SpawnFeluccaCovetous4]
+Category=Spawns: Britannia
+Subsection=Dungeons: Felucca
+Description=Covetous (Level 4)
+ID=cMummy
+ID=cRottingCorpse
+
+[Spawn SpawnTrammelCovetous5]
+Category=Spawns: Britannia
+Subsection=Dungeons: Trammel
+Description=Covetous (Level 5)
+ID=dSpawn_Dragons
+ID=dSpawn_Drakes
+
+[Spawn SpawnFeluccaCovetous5]
+Category=Spawns: Britannia
+Subsection=Dungeons: Felucca
+Description=Covetous (Level 5)
+ID=dSpawn_Dragons
+ID=dSpawn_Drakes
+
+[Spawn SpawnTrammelDeceit1]
+Category=Spawns: Britannia
+Subsection=Dungeons: Trammel
+Description=Deceit (Level 1)
+ID=cGhoul
+ID=cMummy
+ID=dSpawn_Skeletons
+ID=dSpawn_Spectres
+ID=cZombie
+
+[Spawn SpawnFeluccaDeceit1]
+Category=Spawns: Britannia
+Subsection=Dungeons: Felucca
+Description=Deceit (Level 1)
+ID=cHMExecutioner
+ID=cMummy
+ID=dSpawn_SkeletalKnights
+ID=dSpawn_Skeletons
+ID=cZombie
+
+[Spawn SpawnTrammelDeceit2]
+Category=Spawns: Britannia
+Subsection=Dungeons: Trammel
+Description=Deceit (Level 2)
+ID=cGhoul
+ID=cMummy
+ID=dSpawn_SkeletalKnights
+ID=dSpawn_SkeletalMages
+ID=dSpawn_Skeletons
+ID=dSpawn_Spectres
+ID=cZombie
+
+[Spawn SpawnFeluccaDeceit2]
+Category=Spawns: Britannia
+Subsection=Dungeons: Felucca
+Description=Deceit (Level 2)
+ID=cGhoul
+ID=cMummy
+ID=dSpawn_SkeletalKnights
+ID=dSpawn_SkeletalMages
+ID=dSpawn_Skeletons
+ID=dSpawn_Spectres
+ID=cZombie
+
+[Spawn SpawnTrammelDeceit3]
+Category=Spawns: Britannia
+Subsection=Dungeons: Trammel
+Description=Deceit (Level 3)
+ID=cGhoul
+ID=cLich
+ID=dSpawn_Spectres
+
+// Unholy Terror Champion Spawn
+[Spawn SpawnFeluccaDeceit3]
+Category=Spawns: Britannia
+Subsection=Dungeons: Felucca
+Description=Deceit (Level 3)
+//ID=c
+
+[Spawn SpawnTrammelDeceit4]
+Category=Spawns: Britannia
+Subsection=Dungeons: Trammel
+Description=Deceit (Level 4)
+ID=cFireElemental
+ID=cLich
+ID=cLichLord
+ID=cSilverSerpent
+
+[Spawn SpawnFeluccaDeceit4]
+Category=Spawns: Britannia
+Subsection=Dungeons: Felucca
+Description=Deceit (Level 4)
+ID=cFireElemental
+ID=cLich
+ID=cLichLord
+
+[Spawn SpawnDeluciaPassage]
+Category=Spawns: Britannia
+Subsection=Dungeons
+Description=Delucia Passage
+ID=cDreadSpider
+ID=cEfreet
+ID=cFireElemental
+ID=cLargeHellcat
+ID=cLavaLizard
+ID=cLavaSnake
+ID=cPhoenix
+
+[Spawn SpawnTrammelDespise1Revamp]
+Category=Spawns: Britannia
+Subsection=Dungeons: Trammel
+Description=Despise:Level 1 (Revamp)
+ID=cDendrite
+ID=cDivine Guardian
+ID=cFairy
+ID=cNymph
+ID=cSagitari
+ID=cSileni
+ID=cUnicornDespise
+ID=cUrsadane
+
+[Spawn SpawnTrammelDespise1]
+Category=Spawns: Britannia
+Subsection=Dungeons: Trammel
+Description=Despise (Level 1)
+ID=dSpawn_Lizardman
+
+[Spawn SpawnFeluccaDespise1]
+Category=Spawns: Britannia
+Subsection=Dungeons: Felucca
+Description=Despise (Level 1)
+ID=dSpawn_Lizardman
+
+[Spawn SpawnTrammelDespise2]
+Category=Spawns: Britannia
+Subsection=Dungeons: Trammel
+Description=Despise (Level 2)
+//ID=c
+
+[Spawn SpawnFeluccaDespise2]
+Category=Spawns: Britannia
+Subsection=Dungeons: Felucca
+Description=Despise (Level 2)
+//ID=c
+
+[Spawn SpawnTrammelDespise3Revamp]
+Category=Spawns: Britannia
+Subsection=Dungeons: Trammel
+Description=Despise: Level 3 (Revamp)
+ID=cBirlingBlades
+ID=cDarkmane
+ID=cEchidnite
+ID=cHellion
+ID=cNaba
+ID=cPhantom
+ID=cPrometheoid
+ID=cSkeletrex
+
+[Spawn SpawnTrammelDespise3]
+Category=Spawns: Britannia
+Subsection=Dungeons: Trammel
+Description=Despise (Level 3)
+ID=dSpawn_Trolls
+ID=dSpawn_Ettins
+
+[Spawn SpawnFeluccaDespise3]
+Category=Spawns: Britannia
+Subsection=Dungeons: Felucca
+Description=Despise (Level 3)
+ID=cEarthElemental
+ID=cEttin
+
+[Spawn SpawnTrammelDespise4Revamp]
+Category=Spawns: Britannia
+Subsection=Dungeons: Trammel
+Description=Despise: Level 4 (Revamp)
+ID=c
+
+[Spawn SpawnTrammelDespise4]
+Category=Spawns: Britannia
+Subsection=Dungeons: Trammel
+Description=Despise (Level 4)
+ID=cAcidElemental
+ID=cCyclopeanWarrior
+ID=dSpawn_Ettins
+ID=cTitan
+ID=cOgre
+ID=cOgreLord
+ID=dSpawn_Trolls
+
+// Vermin Horde Champion as Well
+[Spawn SpawnFeluccaDespise4]
+Category=Spawns: Britannia
+Subsection=Dungeons: Felucca
+Description=Despise (Level 4)
+ID=cAcidElemental
+ID=cCyclopeanWarrior
+ID=dSpawn_Ettins
+ID=cTitan
+ID=dSpawn_Trolls
+
+[Spawn SpawnTrammelDestard1]
+Category=Spawns: Britannia
+Subsection=Dungeons: Trammel
+Description=Destard: Level 1
+ID=dSpawn_Dragons
+ID=dSpawn_Drakes
+ID=cGiantSerpent
+ID=cWaterElemental
+ID=cWyvern
+
+// Cold Blood Champion Spawn
+[Spawn SpawnFeluccaDestard1]
+Category=Spawns: Britannia
+Subsection=Dungeons: Felucca
+Description=Destard: Level 1
+ID=dSpawn_Dragons
+ID=cWaterElemental
+
+[Spawn SpawnTrammelDestard2]
+Category=Spawns: Britannia
+Subsection=Dungeons: Trammel
+Description=Destard: Level 2
+ID=cDaemon
+ID=dSpawn_Drakes
+ID=cEvilMageLord
+ID=cShadowWyrm
+ID=cWyvern
+
+[Spawn SpawnFeluccaDestard2]
+Category=Spawns: Britannia
+Subsection=Dungeons: Felucca
+Description=Destard: Level 2
+ID=cDaemon
+ID=cEvilMageLord
+ID=cShadowWyrm
+
+[Spawn SpawnTrammelDestard3]
+Category=Spawns: Britannia
+Subsection=Dungeons: Trammel
+Description=Destard: Level 3
+ID=cAncientWyrm
+ID=cWyvern
+
+[Spawn SpawnFeluccaDestard3]
+Category=Spawns: Britannia
+Subsection=Dungeons: Felucca
+Description=Destard: Level 3
+ID=cAncientWyrm
+ID=cFireElemental
+ID=cWyvern
+
+[Spawn SpawnTrammelFire1]
+Category=Spawns: Britannia
+Subsection=Dungeons: Trammel
+Description=Fire: Level 1
+ID=cEfreet
+ID=cEvilMage
+ID=cEvilMageLord
+ID=cFireElemental
+ID=cFireSteed
+ID=cGiantRat
+ID=cHellHound
+ID=cSmallHellcat
+ID=cLavaLizard
+ID=cLavaSerpent
+ID=cLavaSnake
+ID=cLich
+ID=dSpawn_SkeletalMages
+ID=cSlime
+
+// Abyss Champion Spawn
+[Spawn SpawnFeluccaFire1]
+Category=Spawns: Britannia
+Subsection=Dungeons: Felucca
+Description=Fire: Level 1
+ID=cEvilMage
+ID=cEvilMageLord
+ID=cFireElemental
+ID=cLichLord
+
+[Spawn SpawnTrammelFire1]
+Category=Spawns: Britannia
+Subsection=Dungeons: Trammel
+Description=Fire: Level 2
+ID=cDaemon
+ID=cEfreet
+ID=cEvilMage
+ID=cEvilMageLord
+ID=cFireElemental
+ID=cFireSteed
+ID=cHellHound
+ID=cSmallHellcat
+ID=cLavaLizard
+ID=cLavaSerpent
+ID=cLavaSnake
+ID=cLich
+ID=cLichLord
+
+[Spawn SpawnFeluccaFire1]
+Category=Spawns: Britannia
+Subsection=Dungeons: Felucca
+Description=Fire: Level 2
+ID=cDaemon
+ID=cEvilMage
+ID=cEvilMageLord
+ID=cFireElemental
+ID=cLich
+ID=cLichLord
+
+[Spawn SpawnTrammelHythloth1]
+Category=Spawns: Britannia
+Subsection=Dungeons: Trammel
+Description=Hythloth: Level 1
+ID=cFireGargoyle
+ID=cGargoyle
+ID=cHellHound
+ID=cImp
+
+[Spawn SpawnFeluccaHythloth1]
+Category=Spawns: Britannia
+Subsection=Dungeons: Felucca
+Description=Hythloth: Level 1
+ID=cFireGargoyle
+ID=cGargoyle
+ID=cHellHound
+
+[Spawn SpawnTrammelHythloth2]
+Category=Spawns: Britannia
+Subsection=Dungeons: Trammel
+Description=Hythloth: Level 2
+ID=cDaemon
+ID=cGargoyle
+ID=cGazer
+ID=cGazerLarva
+ID=cHellHound
+ID=cImp
+
+[Spawn SpawnFeluccaHythloth2]
+Category=Spawns: Britannia
+Subsection=Dungeons: Felucca
+Description=Hythloth: Level 2
+ID=cDaemon
+ID=cElderGazer
+ID=cGargoyle
+ID=cHellHound
+ID=cStoneGargoyle
+
+[Spawn SpawnTrammelHythloth3]
+Category=Spawns: Britannia
+Subsection=Dungeons: Trammel
+Description=Hythloth: Level 3
+ID=cBalron
+ID=cDaemon
+ID=cElderGazer
+ID=cGargoyle
+ID=cGazer
+ID=cGazerLarva
+ID=cHellHound
+ID=cImp
+ID=cStoneGargoyle
+
+[Spawn SpawnFeluccaHythloth3]
+Category=Spawns: Britannia
+Subsection=Dungeons: Felucca
+Description=Hythloth: Level 3
+ID=cBalron
+ID=cDaemon
+ID=cElderGazer
+ID=cGazer
+ID=cStoneGargoyle
+
+[Spawn SpawnTrammelHythloth4]
+Category=Spawns: Britannia
+Subsection=Dungeons: Trammel
+Description=Hythloth: Level 4
+ID=cBalron
+ID=cDaemon
+ID=cFireGargoyle
+ID=cGargoyle
+ID=cGazer
+ID=cHellHound
+ID=cImp
+ID=cStoneGargoyle
+
+[Spawn SpawnFeluccaHythloth4]
+Category=Spawns: Britannia
+Subsection=Dungeons: Felucca
+Description=Hythloth: Level 4
+ID=cBalron
+ID=cDaemon
+ID=cFireGargoyle
+ID=cGargoyle
+ID=cGazer
+ID=cStoneGargoyle
+
+[Spawn SpawnTrammelIce1]
+Category=Spawns: Britannia
+Subsection=Dungeons: Shared
+Description=Ice: Level 1
+ID=cArcticOgreLord
+ID=cFrostOoze
+ID=cFrostSpider
+ID=cFrostTroll
+ID=cGiantIceSerpent
+ID=cIceElemental
+ID=cIceFiend
+ID=cIceSnake
+ID=cSnowElemental
+ID=cWhiteWyrm
+
+[Spawn SpawnTrammelIce2]
+Category=Spawns: Britannia
+Subsection=Dungeons: Shared
+Description=Ice: Level 2
+ID=cRatman
+ID=cRatmanArcher
+ID=cRatmanMage
+
+[Spawn SpawnTrammelIce3]
+Category=Spawns: Britannia
+Subsection=Dungeons: Shared
+Description=Ice: Level 3
+ID=cIceFiend
+
+[Spawn SpawnOrcCave1]
+Category=Spawns: Britannia
+Subsection=Dungeons: Shared
+Description=Orc Cave: Level 1
+ID=cDireWolf
+ID=dSpawn_Orcs
+ID=cOrcChopper
+ID=cOrcScout
+ID=cOrcishLord
+
+[Spawn SpawnOrcCave2]
+Category=Spawns: Britannia
+Subsection=Dungeons: Shared
+Description=Orc Cave: Level 2
+ID=cCorpser
+ID=cDireWolf
+ID=cGiantRat
+ID=cGiantSpider
+ID=dSpawn_Orcs
+ID=cOrcBomber
+ID=cOrcChopper
+ID=cOrcScout
+ID=cOrcishLord
+ID=cOrcishMage
+
+[Spawn SpawnOrcCave3]
+Category=Spawns: Britannia
+Subsection=Dungeons: Shared
+Description=Orc Cave: Level 3
+ID=cEarthElemental
+ID=dSpawn_Orcs
+ID=cOrcBomber
+ID=cOrcBrute
+
+[Spawn SpawnPaintedCaves]
+Category=Spawns: Britannia
+Subsection=Dungeons: Shared
+Description=Painted Caves
+ID=cCat
+ID=cDog
+ID=cGiantRat
+ID=cGrobu
+ID=cLurg
+ID=cRat
+ID=cTroglodyte
+
+[Spawn SpawnPalaceOfParoxysmus]
+Category=Spawns: Britannia
+Subsection=Dungeons: Shared
+Description=Palace of Paroxysmus
+ID=cAcidElemental
+ID=cArcaneDaemon
+ID=cBalron
+ID=cChaosDaemon
+ID=cChiefParoxysmus
+ID=cDaemon
+ID=cEarthElemental
+ID=cMoloch
+ID=cPlagueBeast
+ID=cPlagueBeastLord
+ID=cPlagueSpawn
+ID=cPoisonElemental
+ID=cSuccubus
+
+[Spawn SpawnSanctuary]
+Category=Spawns: Britannia
+Subsection=Dungeons: Shared
+Description=Sanctuary
+ID=cBird
+ID=cChangeling
+ID=cChicken
+ID=cChiikkahaTheToothed
+ID=dSpawn_Cows
+ID=cCyclopeanWarrior
+ID=cDoppleganger
+ID=dSpawn_Ettins
+ID=cGargoyle
+ID=cGargoyleDestroyer
+ID=cGoat
+ID=cImp
+ID=cMougGuur
+ID=cOgre
+ID=cOgreLord
+ID=dSpawn_Orcs
+ID=cOrcBomber
+ID=cOrcBrute
+ID=cOrcChopper
+ID=cOrcishLord
+ID=cOrcishMage
+ID=cRat
+ID=cRatman
+ID=cRatmanArcher
+ID=cRatmanMage
+ID=cSnake
+ID=cSuccubus
+ID=cSzavetra
+ID=cTitan
+
+[Spawn SpawnSanctuaryCaves]
+Category=Spawns: Britannia
+Subsection=Dungeons: Shared
+Description=Sanctuary Caves
+ID=cRat
+ID=cRatman
+ID=cRatmanArcher
+ID=cRatmanMage
+
+[Spawn SpawnShame1]
+Category=Spawns: Britannia
+Subsection=Dungeons: Shared
+Description=Shame: Level 1
+ID=cCaveTroll
+ID=cEarthElementalShame
+ID=cMudPie
+ID=cQuartzElementalGuardian
+ID=cScorpion
+ID=cStoneElemental
+
+[Spawn SpawnShame2]
+Category=Spawns: Britannia
+Subsection=Dungeons: Shared
+Description=Shame: Level 2
+ID=cCaveTroll
+ID=cClayGolem
+ID=cFlameElementalGuardian
+ID=cGreaterEarthElemental
+ID=cKraken
+ID=cMudElemental
+ID=cSeaSerpent
+ID=cWaterElementalShame
+
+[Spawn SpawnShame3]
+Category=Spawns: Britannia
+Subsection=Dungeons: Shared
+Description=Shame: Level 3
+ID=cAirElementalShame
+ID=cBloodElementalShame
+ID=cCorrupted Mage
+ID=cFlameElemental
+ID=cKraken
+ID=cMoltenEarthElemental
+ID=cPoisonElementalShame
+ID=cScorpion
+ID=cSeaSerpent
+ID=cVileMage
+ID=cWindElementalGuardian
+
+[Spawn SpawnShame4]
+Category=Spawns: Britannia
+Subsection=Dungeons: Shared
+Description=Shame: Level 4
+ID=cEternalGazer
+
+[Spawn SpawnShame5]
+Category=Spawns: Britannia
+Subsection=Dungeons: Shared
+Description=Shame: Level 5
+ID=cTheBurning
+ID=cTheCrazed
+ID=cChaosVortex
+ID=cDiseasedBloodElemental
+ID=cEternalGazer
+ID=cKraken
+ID=cMoltenEarthElemental
+ID=cSeaSerpent
+ID=cUnboundEnergyVortex
+ID=cWindElemental
+
+[Spawn SpawnTrammelSolenHiveCenter]
+Category=Spawns: Britannia
+Subsection=Dungeons: Trammel
+Description=Solen Hive Center
+ID=cRedSolenMatriarch
+
+[Spawn SpawnFeluccaSolenHiveCenter]
+Category=Spawns: Britannia
+Subsection=Dungeons: Felucca
+Description=Solen Hive Center
+ID=cBlackSolenMatriarch
+
+[Spawn SpawnTrammelSolenHiveNE]
+Category=Spawns: Britannia
+Subsection=Dungeons: Trammel
+Description=Solen Hive NE
+ID=cAntLion
+ID=cGiantBeetle
+
+[Spawn SpawnFeluccaSolenHiveNE]
+Category=Spawns: Britannia
+Subsection=Dungeons: Felucca
+Description=Solen Hive NE
+ID=cAntLion
+ID=cBlackSolenQueen
+ID=cBlackSolenWarrior
+ID=cBlackSolenWorker
+ID=cGiantBeetle
+
+[Spawn SpawnTrammelSolenHiveNW]
+Category=Spawns: Britannia
+Subsection=Dungeons: Trammel
+Description=Solen Hive NW
+ID=cRedSolenWarrior
+ID=cRedSolenWorker
+
+[Spawn SpawnFeluccaSolenHiveNW]
+Category=Spawns: Britannia
+Subsection=Dungeons: Felucca
+Description=Solen Hive NW
+ID=cBlackSolenWarrior
+ID=cBlackSolenWorker
+
+[Spawn SpawnTrammelSolenHiveSE]
+Category=Spawns: Britannia
+Subsection=Dungeons: Trammel
+Description=Solen Hive SE
+ID=cRedAmbitiousSolenQueen
+ID=cAntLion
+ID=cGiantBeetle
+ID=cRedSolenWarrior
+ID=cRedSolenWorker
+
+[Spawn SpawnFeluccaSolenHiveSE]
+Category=Spawns: Britannia
+Subsection=Dungeons: Felucca
+Description=Solen Hive SE
+ID=cBlackAmbitiousSolenQueen
+ID=cAntLion
+ID=cGiantBeetle
+ID=cBlackSolenWarrior
+ID=cBlackSolenWorker
+
+[Spawn SpawnTrammelSolenHiveSW]
+Category=Spawns: Britannia
+Subsection=Dungeons: Trammel
+Description=Solen Hive SW
+ID=cRedSolenQueen
+ID=cDreadSpider
+ID=cAntLion
+ID=cRedSolenWarrior
+ID=cRedSolenWorker
+
+[Spawn SpawnFeluccaSolenHiveSW]
+Category=Spawns: Britannia
+Subsection=Dungeons: Felucca
+Description=Solen Hive SW
+ID=cBlackSolenQueen
+ID=cDreadSpider
+ID=cAntLion
+ID=cBlackSolenWarrior
+ID=cBlackSolenWorker
+
+[Spawn SpawnTrammelSolenSecretHive]
+Category=Spawns: Britannia
+Subsection=Dungeons: Trammel
+Description=Solen Secret Hive
+ID=cAntLion
+
+[Spawn SpawnFeluccaSolenSecretHive]
+Category=Spawns: Britannia
+Subsection=Dungeons: Felucca
+Description=Solen Secret Hive
+ID=cAntLion
+
+[Spawn SpawnTrammelTerathanKeepUnderground]
+Category=Spawns: Britannia
+Subsection=Dungeons: Trammel
+Description=Terathan Keep Underground
+ID=cBalron
+ID=dSpawn_Dragons
+ID=dSpawn_Drakes
+ID=cGiantSpider
+ID=cNightmare
+ID=cOphidianApprenticeMage
+ID=cOphidianAvenger
+ID=cOphidianEnforcer
+ID=cOphidianJusticar
+ID=cOphidianKnightErrant
+ID=cOphidianMatriarch
+ID=cOphidianShaman
+ID=cOphidianWarrior
+ID=cOphidianZealot
+ID=cTerathanAvenger
+ID=cTerathanDrone
+ID=cTerathanMatriarch
+ID=cTerathanWarrior
+
+// Arachnid Champion Spawn
+[Spawn SpawnFeluccaTerathanKeepUnderground]
+Category=Spawns: Britannia
+Subsection=Dungeons: Felucca
+Description=Terathan Keep Underground
+ID=cBalron
+ID=dSpawn_Dragons
+ID=dSpawn_Drakes
+ID=cNightmare
+ID=cOphidianApprenticeMage
+ID=cOphidianAvenger
+ID=cOphidianEnforcer
+ID=cOphidianJusticar
+ID=cOphidianKnightErrant
+ID=cOphidianMatriarch
+ID=cOphidianShaman
+ID=cOphidianWarrior
+ID=cOphidianZealot
+ID=cTerathanAvenger
+ID=cTerathanDrone
+ID=cTerathanMatriarch
+ID=cTerathanWarrior
+
+[Spawn SpawnTrammelWind]
+Category=Spawns: Britannia
+Subsection=Dungeons: Trammel
+Description=Wind
+ID=cAcidElemental
+ID=cAirElemental
+ID=cDaemon
+ID=dSpawn_Dragons
+ID=dSpawn_Drakes
+ID=cGargoyle
+ID=cImp
+ID=cKraken
+ID=cLich
+ID=cNaturalist
+ID=cStoneGargoyle
+
+[Spawn SpawnFeluccaWind]
+Category=Spawns: Britannia
+Subsection=Dungeons: Felucca
+Description=Wind
+ID=cAirElemental
+ID=dSpawn_BloodElementals
+ID=cDaemon
+ID=dSpawn_Dragons
+ID=dSpawn_Drakes
+ID=cKraken
+ID=cLich
+ID=cNaturalist
+ID=cNightmare
+ID=cStoneGargoyle
+
+[Spawn SpawnWind]
+Category=Spawns: Britannia
+Subsection=Dungeons: Shared
+Description=Wind: Vendors
+ID=dSpawn_HAlchemist
+ID=dSpawn_HArmourer
+ID=dSpawn_HBaker
+ID=dSpawn_HBanker
+ID=dSpawn_HButcher
+ID=dSpawn_HCobbler
+ID=dSpawn_HHealer
+ID=dSpawn_HHerbalist
+ID=dSpawn_HInnkeeper
+ID=dSpawn_HMage
+ID=dSpawn_HMinter
+ID=dSpawn_HProvisioner
+ID=dSpawn_HScribe
+ID=dSpawn_HTailor
+ID=dSpawn_HTownCrier
+ID=dSpawn_HWeaver
+
+[Spawn SpawnWrong1Revamp]
+Category=Spawns: Britannia
+Subsection=Dungeons: Shared
+Description=Wrong: Level 1 (Revamp)
+ID=cArchMage
+ID=cCaveTrollWrong
+ID=cHMExecutioner
+ID=cHungryOgre
+ID=cLizardmanDefender
+ID=cLizardmanSquatter
+
+[Spawn SpawnWrong2Revamp]
+Category=Spawns: Britannia
+Subsection=Dungeons: Shared
+Description=Wrong: Level 2 (Revamp)
+ID=cArchMage
+ID=dSpawn_HBrigands
+ID=cBrigandCannibal
+ID=cBrigandCannibalMage
+ID=cDemonicJailor
+ID=cHMExecutioner
+ID=cFezzikTheOgreCook
+ID=cGooeyMaggots
+ID=cPrisonRat
+ID=cSavagePackWolf
+
+[Spawn SpawnWrong3Revamp]
+Category=Spawns: Britannia
+Subsection=Dungeons: Shared
+Description=Wrong: Level 3 (Revamp)
+//ID=cDemonicJailer
+
+[Spawn SpawnFeluccaKhaldun]
+Category=Spawns: Britannia
+Subsection=Dungeons: Felucca
+Description=Khaldun
+ID=cAncientLich
+ID=cCursed
+ID=cGrimmochDrummel
+ID=cLysanderGathenwale
+ID=cMorgBergen
+ID=cRevenant
+ID=cShadowFiend
+ID=dSpawn_SkeletalKnights
+ID=dSpawn_SkeletalMages
+ID=dSpawn_Skeletons
+ID=cSpectralArmor
+ID=cTavara Sewel
+ID=cTentaclesOfTheHarrower
+ID=cZealotOfKhaldunKnight
+ID=cZealotOfKhaldunSummoner
+
+[Spawn SpawnTrammelCityOfTheDead]
+Category=Spawns: Britannia
+Subsection=Lost Lands: Trammel
+Description=City of the Dead
+ID=cGhoul
+ID=cLich
+ID=dSpawn_SkeletalKnights
+ID=dSpawn_SkeletalMages
+ID=dSpawn_Skeletons
+ID=cSnake
+ID=cSpectre
+
+[Spawn SpawnFeluccaCityOfTheDead]
+Category=Spawns: Britannia
+Subsection=Lost Lands: Felucca
+Description=City of the Dead
+//ID=cAbyss Champion Spawn
+//ID=cArachnid Champion Spawn
+//ID=cCold Blood Champion Spawn
+//ID=cUnholy Terror Champion Spawn
+//ID=cVermin Horde Champion Spawn
+
+[Spawn SpawnCyclopsValley]
+Category=Spawns: Britannia
+Subsection=Lost Lands: Shared
+Description=Cyclops Valley
+ID=cCyclopeanWarrior
+ID=dSpawn_Ettins
+ID=cGazer
+ID=cHarpy
+ID=cImp
+ID=cGreaterMongbat
+ID=cScorpion
+ID=cTitan
+ID=dSpawn_Troll
+ID=cWyvern
+
+[Spawn SpawnTrammelDeluciaOrcFort]
+Category=Spawns: Britannia
+Subsection=Lost Lands: Trammel
+Description=Delucia Orc Fort
+ID=cSavageRider
+ID=cSavageRidgeback
+ID=cSavageShaman
+ID=cHFSavageWarrior
+ID=cHMSavageWarrior
+
+// Abandoned
+[Spawn SpawnFeluccaDeluciaOrcFort]
+Category=Spawns: Britannia
+Subsection=Lost Lands: Felucca
+Description=Delucia Orc Fort
+//ID=
+
+[Spawn SpawnTrammelHoppersBog]
+Category=Spawns: Britannia
+Subsection=Lost Lands: Trammel
+Description=Hoppers Bog
+ID=cAlligator
+ID=cBogThing
+ID=cBogling
+ID=cBullfrog
+ID=cGiantRat
+ID=cGiantSpider
+ID=cGiantToad
+ID=cGreaterMongbat
+ID=cPlagueBeast
+ID=cPlagueBeastLord
+ID=cPlagueSpawn
+ID=cSewerRat
+ID=cSnake
+ID=cSwampDragon
+ID=cSwampTentacle
+
+[Spawn SpawnFeluccaHoppersBog]
+Category=Spawns: Britannia
+Subsection=Lost Lands: Felucca
+Description=Hoppers Bog
+ID=cPlagueBeast
+ID=cPlagueBeastLord
+ID=cPlagueSpawn
+
+[Spawn SpawnKosHebEast]
+Category=Spawns: Britannia
+Subsection=Lost Lands: Shared
+Description=Kos Heb East
+ID=cFrostTroll
+ID=cGiantIceSerpent
+ID=cIceSnake
+ID=cPolarBear
+ID=cSnowElemental
+ID=cSnowLeopard
+ID=cWalrus
+ID=cWhiteWolf
+
+[Spawn SpawnKosHebWest]
+Category=Spawns: Britannia
+Subsection=Lost Lands: Shared
+Description=Kos Heb West
+ID=cFrostTroll
+ID=cGiantIceSerpent
+ID=cIceSnake
+ID=cPolarBear
+ID=cSnowElemental
+ID=cSnowLeopard
+ID=cWalrus
+ID=cWhiteWolf
+
+// Forest creatures by water
+[Spawn SpawnTrammelLostLandsDesert]
+Category=Spawns: Britannia
+Subsection=Lost Lands: Trammel
+Description=Lost Lands Desert
+ID=cCyclopeanWarrior
+ID=cDesertOstard
+ID=dSpawn_Ettins
+ID=cImp
+ID=cMummy
+ID=dSpawn_Orcs
+ID=cOrcCaptain
+ID=cOrcishMage
+ID=cScorpion
+ID=cSphynx
+ID=cStoneGargoyle
+ID=cStoneHarpy
+ID=cTitan
+ID=cWyvern
+
+// Forest creatures by water
+[Spawn SpawnFeluccaLostLandsDesert]
+Category=Spawns: Britannia
+Subsection=Lost Lands: Felucca
+Description=Lost Lands Desert
+ID=cSphinx
+
+[Spawn SpawnTrammelOasis]
+Category=Spawns: Britannia
+Subsection=Lost Lands: Trammel
+Description=Oasis
+ID=cCorpser
+ID=dSpawn_Ettins
+ID=cGazer
+ID=cGiantSpider
+ID=cHarpy
+ID=cRatman
+ID=cReaper
+ID=cTroll
+
+[Spawn SpawnOphidianLair]
+Category=Spawns: Britannia
+Subsection=Lost Lands: Shared
+Description=Ophidian Lair
+ID=cOphidianApprenticeMage
+ID=cOphidianAvenger
+ID=cOphidianEnforcer
+ID=cOphidianJusticar
+ID=cOphidianKnightErrant
+ID=cOphidianMatriarch
+ID=cOphidianShaman
+ID=cOphidianWarrior
+ID=cOphidianZealot
+
+[Spawn SpawnTrammelSakTeb]
+Category=Spawns: Britannia
+Subsection=Lost Lands: Trammel
+Description=Sak Teb
+ID=cAlligator
+ID=cBullfrog
+ID=cEfreet
+ID=cFireElemental
+ID=cGiantSerpent
+ID=cGiantToad
+ID=cHellHound
+ID=cSmallHellcat
+ID=cLavaLizard
+ID=cLavaSerpent
+ID=cLavaSnake
+ID=cGreaterMongbat
+ID=cSnake
+ID=cSwampTentacle
+
+[Spawn SpawnFeluccaSakTeb]
+Category=Spawns: Britannia
+Subsection=Lost Lands: Felucca
+Description=Sak Teb
+ID=cAlligator
+ID=cBullfrog
+ID=cGiantSerpent
+ID=cGiantToad
+ID=cGreaterMongbat
+ID=cSnake
+ID=cSwampTentacle
+
+[Spawn SpawnTerathanKeep]
+Category=Spawns: Britannia
+Subsection=Lost Lands: Shared
+Description=Terathan Keep
+ID=cOphidianApprentice Mage
+ID=cOphidianAvenger
+ID=cOphidianEnforcer
+ID=cOphidianJusticar
+ID=cOphidianKnight-Errant
+ID=cOphidianMatriarch
+ID=cOphidianShaman
+ID=cOphidianWarrior
+ID=cOphidianZealot
+ID=cTerathanAvenger
+ID=cTerathanDrone
+ID=cTerathanMatriarch
+ID=cTerathanWarrior
+
+[Spawn SpawnTrammelTerraSanctum]
+Category=Spawns: Britannia
+Subsection=Lost Lands: Trammel
+Description=Terra Sanctum
+ID=cCorpser
+ID=cGiantSerpent
+ID=cGorilla
+ID=cPanther
+ID=cSilverSerpent
+
+[Spawn SpawnFeluccaTerraSanctum]
+Category=Spawns: Britannia
+Subsection=Lost Lands: Felucca
+Description=Terra Sanctum
+//ID=cAbyss Champion Spawn
+//ID=cArachnid Champion Spawn
+//ID=cCold Blood Champion Spawn
+//ID=cUnholy Terror Champion Spawn
+//ID=cVermin Horde Champion Spawn
+
+[Spawn SpawnWyvernIsle]
+Category=Spawns: Britannia
+Subsection=Lost Lands: Shared
+Description=Wyvern Isle
+ID=cWyvern
+
+[Spawn SpawnWyvernPoint]
+Category=Spawns: Britannia
+Subsection=Lost Lands: Shared
+Description=Wyvern Point
+ID=cWyvern
+ID=cScorpion
+ID=cImp
+
+[Spawn SpawnBogOfDesolation]
+Category=Spawns: Britannia
+Subsection=Miscellaneous: Shared
+Description=Bog of Desolation
+ID=cAcidElemental
+ID=cAlligator
+ID=cBogThing
+ID=cBogling
+ID=cCorpser
+ID=cGiantSerpent
+ID=dSpawn_Lizardman
+ID=cGreaterMongbat
+ID=cPlagueBeast
+ID=cPlagueBeastLord
+ID=cPlagueSpawn
+ID=cRatman
+ID=cSewerRat
+ID=cSlime
+ID=cSnake
+ID=cWisp
+
+[Spawn SpawnBrigandCamp]
+Category=Spawns: Britannia
+Subsection=Miscellaneous: Shared
+Description=Brigand Camp
+ID=dSpawn_HBrigands
+
+[Spawn SpawnBritainCemetary]
+Category=Spawns: Britannia
+Subsection=Miscellaneous: Shared
+Description=Britain Cemetary
+ID=cGhoul
+ID=dSpawn_Skeletons
+ID=cZombie
+
+[Spawn SpawnCoveCemetary]
+Category=Spawns: Britannia
+Subsection=Miscellaneous: Shared
+Description=Cove Cemetary
+ID=cGhoul
+ID=cLich
+ID=dSpawn_Skeletons
+ID=dSpawn_Spectres
+ID=cZombie
+
+[Spawn SpawnCoveOrcFort]
+Category=Spawns: Britannia
+Subsection=Miscellaneous: Shared
+Description=Cove Orc Fort
+ID=dSpawn_Orcs
+ID=cOrcBomber
+ID=cOrcBrute
+ID=cOrcCaptain
+ID=cOrcChopper
+ID=cOrcScout
+ID=cOrcishLord
+ID=cOrcishMage
+
+[Spawn SpawnDesertOfCompassion]
+Category=Spawns: Britannia
+Subsection=Miscellaneous: Shared
+Description=Desert of Compassion
+ID=cDullCopperElemental
+ID=cEarthElemental
+ID=dSpawn_Ettins
+ID=cHarpy
+ID=dSpawn_Orcs
+ID=cOrcCaptain
+ID=cOrcishMage
+ID=cSandVortex
+ID=cScorpion
+ID=cSnake
+
+[Spawn SpawnDestardSwamps]
+Category=Spawns: Britannia
+Subsection=Miscellaneous: Shared
+Description=Destard Swamps
+ID=cAcidElemental
+ID=cAlligator
+ID=cBog hing
+ID=cBogling
+ID=cCorpser
+ID=cGiantRat
+ID=cGiantSerpent
+ID=dSpawn_Lizardman
+ID=cGreaterMongbat
+ID=cPlagueBeast
+ID=cPlagueBeastLord
+ID=cPlagueSpawn
+ID=cRatman
+ID=cSewerRat
+ID=cSnake
+ID=cWisp
+
+[Spawn SpawnFensOfTheDead]
+Category=Spawns: Britannia
+Subsection=Miscellaneous: Shared
+Description=Fens of the Dead
+ID=cAcidElemental
+ID=cAlligator
+ID=cBogThing
+ID=cBogling
+ID=cGiantRat
+ID=dSpawn_Lizardman
+ID=cPlagueBeast
+ID=cPlagueBeastLord
+ID=cPlagueSpawn
+ID=cSlime
+ID=cSwampDragon
+
+[Spawn SpawnFireTemple]
+Category=Spawns: Britannia
+Subsection=Miscellaneous: Shared
+Description=Fire Temple
+ID=cDaemon
+ID=dSpawn_Dragons
+ID=dSpawn_Drakes
+
+[Spawn SpawnHedgeMaze]
+Category=Spawns: Britannia
+Subsection=Miscellaneous: Shared
+Description=Hedge Maze
+ID=cDaemon
+ID=cImp
+
+[Spawn SpawnHiddenValley]
+Category=Spawns: Britannia
+Subsection=Miscellaneous: Shared
+Description=Hidden Valley
+ID=dSpawn_Alchemists
+ID=dSpawn_Mages
+ID=dSpawn_Herbalists
+
+[Spawn SpawnJhelomCemetary]
+Category=Spawns: Britannia
+Subsection=Miscellaneous: Shared
+Description=Jhelom Cemetary
+ID=cGhoul
+ID=dSpawn_Skeletons
+ID=dSpawn_Spectres
+ID=cZombie
+
+[Spawn SpawnLizardmanFort]
+Category=Spawns: Britannia
+Subsection=Miscellaneous: Shared
+Description=Lizardman Fort
+ID=cSavageRider
+ID=cSavageRidgeback
+ID=cSavageShaman
+ID=cHFSavageWarrior
+ID=cHMSavageWarrior
+
+[Spawn SpawnLycaeum]
+Category=Spawns: Britannia
+Subsection=Miscellaneous: Shared
+Description=Lycaeum
+ID=cNaturalist
+ID=dSpawn_Scribes
+
+[Spawn SpawnTrammelMoonglowCemetary]
+Category=Spawns: Britannia
+Subsection=Miscellaneous: Trammel
+Description=Moonglow Cemetary
+ID=cGhoul
+ID=dSpawn_Skeletons
+ID=dSpawn_Spectres
+ID=cZombie
+
+[Spawn SpawnFeluccaMoonglowCemetary]
+Category=Spawns: Britannia
+Subsection=Miscellaneous: Felucca
+Description=Moonglow Cemetary
+ID=cGhoul
+ID=cLich
+ID=dSpawn_Skeletons
+ID=dSpawn_Spectres
+ID=cZombie
+
+[Spawn SpawnMountainsOfAvarice]
+Category=Spawns: Britannia
+Subsection=Miscellaneous: Shared
+Description=Mountains of Avarice
+ID=dSpawn_Skeletons
+
+[Spawn SpawnRatValley]
+Category=Spawns: Britannia
+Subsection=Miscellaneous: Shared
+Description=Rat Valley
+ID=cEttin
+ID=cHeadlessOne
+ID=cOrc
+ID=cOrcCaptain
+ID=cOrcishLord
+ID=cOrcishMage
+
+[Spawn SpawnRockRidge]
+Category=Spawns: Britannia
+Subsection=Miscellaneous: Shared
+Description=Rock Ridge
+ID=cGiantSpider
+
+[Spawn SpawnTrammelTrinsicJungles]
+Category=Spawns: Britannia
+Subsection=Miscellaneous: Trammel
+Description=Trinsic Jungles
+ID=cBlackSolenInfiltratorQueen
+ID=cBlackSolenInfiltratorWarrior
+
+[Spawn SpawnFeluccaTrinsicJungles]
+Category=Spawns: Britannia
+Subsection=Miscellaneous: Felucca
+Description=Trinsic Jungles
+ID=cRedSolenInfiltratorQueen
+ID=cRedSolenInfiltratorWarrior
+
+[Spawn SpawnVesperCemetary]
+Category=Spawns: Britannia
+Subsection=Miscellaneous: Shared
+Description=Vesper Cemetary
+ID=cGhoul
+ID=dSpawn_Skeletons
+ID=dSpawn_Spectres
+ID=cZombie
+
+[Spawn SpawnTrammelWindemereWoods]
+Category=Spawns: Britannia
+Subsection=Miscellaneous: Trammel
+Description=Windemere Woods
+ID=cBlackSolenInfiltratorQueen
+ID=cBlackSolenInfiltratorWarrior
+
+[Spawn SpawnFeluccaWindemereWoods]
+Category=Spawns: Britannia
+Subsection=Miscellaneous: Felucca
+Description=Windemere Woods
+ID=cRedSolenInfiltratorQueen
+ID=cRedSolenInfiltratorWarrior
+
+[Spawn SpawnWispCircle]
+Category=Spawns: Britannia
+Subsection=Miscellaneous: Shared
+Description=Wisp Circle
+ID=cWisp
+
+[Spawn SpawnYewCemetary]
+Category=Spawns: Britannia
+Subsection=Miscellaneous: Shared
+Description=Yew Cemetary
+ID=dSpawn_Skeletons
+
+[Spawn SpawnTrammelYewCrypts]
+Category=Spawns: Britannia
+Subsection=Miscellaneous: Trammel
+Description=Yew Crypts
+ID=cGhoul
+ID=dSpawn_Skeletons
+ID=dSpawn_Spectres
+
+[Comment Spawn SpawnYewLichRuin]
+Category=Spawns: Britannia
+Subsection=Miscellaneous: Shared
+Description=Yew Lich Ruin
+ID=cLich
+ID=cLichLord
+
+[Spawn SpawnYewOrcFort]
+Category=Spawns: Britannia
+Subsection=Miscellaneous: Shared
+Description=Yew Orc Fort
+ID=cOrc
+ID=cOrcCaptain
+ID=cOrcishLord
+ID=cOrcishMage
+
+[Spawn SpawnTrammelHavenIsland]
+Category=Spawns: Britannia
+Subsection=Haven: Trammel
+Description=Haven Island
+ID=cBogling
+ID=cChestGuardian
+ID=cCorpser
+ID=cEttin
+ID=cHordeMinion
+ID=cLizardman
+ID=cMilitiaFighter
+ID=cMongbat
+ID=cOrc
+ID=cSkeleton
+ID=cZombie
+
+[Spawn SpawnTrammelHaven]
+Category=Spawns: Britannia
+Subsection=Haven: Trammel
+Description=Haven
+ID=cSkeleton
+ID=cZombie
+
+[Spawn SpawnTrammelHavenMine]
+Category=Spawns: Britannia
+Subsection=Haven: Trammel
+Description=Haven Mine
+ID=cEarthElemental
+ID=cLizardman
+ID=cOgreLord
+
+[Spawn SpawnTrammelHavenMoongate]
+Category=Spawns: Britannia
+Subsection=Haven: Trammel
+Description=Haven Moongate
+ID=cMongbat
+
+[Spawn SpawnTrammelNewHavenIsland]
+Category=Spawns: Britannia
+Subsection=Haven: Trammel
+Description=New Haven Island
+ID=c
+
+[Spawn SpawnTrammelNewHavem]
+Category=Spawns: Britannia
+Subsection=Haven: Trammel
+Description=New Haven
+ID=cAlchemist
+ID=cAnimal Trainer
+ID=cArchitect
+ID=cArmourer
+ID=cBaker
+ID=cBanker
+ID=cBard
+ID=cBarkeep
+ID=cBlacksmith
+ID=cBowyer
+ID=cButcher
+ID=cCarpenter
+ID=cCook
+ID=cHealer
+ID=cHerbalist
+ID=cInnkeeper
+ID=cMage
+ID=cMapmaker
+ID=cMinter
+ID=cNecromancer
+ID=cProvisioner
+ID=cReal Estate Broker
+ID=cScribe
+ID=cShipwright
+ID=cTailor
+ID=cTavernkeeper
+ID=cThief
+ID=cTinker
+ID=cTown Crier
+ID=cVet
+ID=cWaiter
+ID=cWeaponsmith
+ID=cWeaver
+
+[Comment Spawn SpawnTrammelSouthHavenIsland]
+Category=Spawns: Britannia
+Subsection=Haven: Trammel
+Description=South Haven Island
+ID=c

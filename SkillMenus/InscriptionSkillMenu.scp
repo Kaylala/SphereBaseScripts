@@ -1,0 +1,244 @@
+[SkillMenu smInscription]
+Spell Circles
+On=i_spell_circle_1
+SkillMenu=smInscrip_1
+On=i_spell_circle_2
+SkillMenu=smInscrip_2
+On=i_spell_circle_3
+SkillMenu=smInscrip_3
+On=i_spell_circle_4
+SkillMenu=smInscrip_4
+On=i_spell_circle_5
+SkillMenu=smInscrip_5
+On=i_spell_circle_6
+SkillMenu=smInscrip_6
+On=i_spell_circle_7
+SkillMenu=smInscrip_7
+On=i_spell_circle_8
+SkillMenu=smInscrip_8
+
+[SkillMenu smInscrip_1]
+Spell Circle 1
+
+On=i_rune_clumsy
+TestIf=<CanCast s_clumsy 00>
+MakeItem=i_scroll_clumsy
+
+On=i_rune_create_food
+TestIf=<CanCast s_create_food 00>
+MakeItem=i_scroll_create_food
+
+On=i_rune_feeblemind
+TestIf=<CanCast s_feeblemind 00>
+MakeItem=i_scroll_feeblemind
+
+On=i_rune_heal
+TestIf=<CanCast s_heal 00>
+MakeItem=i_scroll_heal
+
+On=i_rune_magic_arrow
+TestIf=<CanCast s_magic_arrow 00>
+MakeItem=i_scroll_magic_arrow
+
+On=i_rune_night_sight
+TestIf=<CanCast s_night_sight 00>
+MakeItem=i_scroll_night_sight
+
+On=i_rune_reactive_armor
+TestIf=<CanCast s_reactive_armor 00>
+MakeItem=i_scroll_reactive_armor
+
+On=i_rune_weaken
+TestIf=<CanCast s_weaken 00>
+MakeItem=i_scroll_weaken
+
+[SkillMenu sminscrip_2]
+Spell Circle 2
+On=i_rune_agility
+TestIf=<CanCast s_agility 00>
+MakeItem=i_scroll_agility
+On=i_rune_cunning
+TestIf=<CanCast s_cunning 00>
+MakeItem=i_scroll_cunning
+On=i_rune_cure
+TestIf=<CanCast s_cure 00>
+MakeItem=i_scroll_cure
+On=i_rune_harm
+TestIf=<CanCast s_harm 00>
+MakeItem=i_scroll_harm
+On=i_rune_magic_trap
+TestIf=<CanCast s_magic_trap 00>
+MakeItem=i_scroll_magic_trap
+On=i_rune_magic_untrap
+TestIf=<CanCast s_magic_untrap 00>
+MakeItem=i_scroll_magic_untrap
+On=i_rune_protection
+TestIf=<CanCast s_protection 00>
+MakeItem=i_scroll_protection
+On=i_rune_strength
+TestIf=<CanCast s_strength 00>
+MakeItem=i_scroll_strength
+
+[SkillMenu sminscrip_3]
+Spell Circle 3
+On=i_rune_bless
+TestIf=<CanCast s_bless 00>
+MakeItem=i_scroll_bless
+On=i_rune_fireball
+TestIf=<CanCast s_fireball 00>
+MakeItem=i_scroll_fireball
+On=i_rune_magic_lock
+TestIf=<CanCast s_magic_lock 00>
+MakeItem=i_scroll_magic_lock
+On=i_rune_poison
+TestIf=<CanCast s_poison 00>
+MakeItem=i_scroll_poison
+On=i_rune_telekinesis
+TestIf=<CanCast s_telekinesis 00>
+MakeItem=i_scroll_telekinesis
+On=i_rune_teleport
+TestIf=<CanCast s_teleport 00>
+MakeItem=i_scroll_teleport
+On=i_rune_unlock
+TestIf=<CanCast s_unlock 00>
+MakeItem=i_scroll_unlock
+On=i_rune_wall_of_stone
+TestIf=<CanCast s_wall_of_stone 00>
+MakeItem=i_scroll_wall_of_stone
+
+[SkillMenu sminscrip_4]
+Spell Circle 4
+On=i_rune_archcure
+TestIf=<CanCast s_archcure 00>
+MakeItem=i_scroll_archcure
+On=i_rune_archprotection
+TestIf=<CanCast s_archprotection 00>
+MakeItem=i_scroll_archprotection
+On=i_rune_curse
+TestIf=<CanCast s_curse 00>
+MakeItem=i_scroll_curse
+On=i_rune_fire_field
+TestIf=<CanCast s_fire_field 00>
+MakeItem=i_scroll_fire_field
+On=i_rune_greater_heal
+TestIf=<CanCast s_greater_heal 00>
+MakeItem=i_scroll_greater_heal
+On=i_rune_lightning
+TestIf=<CanCast s_lightning 00>
+MakeItem=i_scroll_lightning
+On=i_rune_mana_drain
+TestIf=<CanCast s_mana_drain 00>
+MakeItem=i_scroll_mana_drain
+On=i_rune_recall
+TestIf=<CanCast s_recall 00>
+MakeItem=i_scroll_recall
+
+[SkillMenu sminscrip_5]
+Spell Circle 5
+On=i_rune_blade_spirits
+TestIf=<CanCast s_blade_spirits 00>
+MakeItem=i_scroll_blade_spirits
+On=i_rune_dispel_field
+TestIf=<CanCast s_dispel_field 00>
+MakeItem=i_scroll_dispel_field
+On=i_rune_incognito
+TestIf=<CanCast s_incognito 00>
+MakeItem=i_scroll_incognito
+On=i_rune_magic_reflection
+TestIf=<CanCast s_magic_reflection 00>
+MakeItem=i_scroll_magic_reflection
+On=i_rune_mind_blast
+TestIf=<CanCast s_mind_blast 00>
+MakeItem=i_scroll_mind_blast
+On=i_rune_paralyze
+TestIf=<CanCast s_paralyze 00>
+MakeItem=i_scroll_paralyze
+On=i_rune_poison_field
+TestIf=<CanCast s_poison_field 00>
+MakeItem=i_scroll_poison_field
+On=i_rune_summon_creature
+TestIf=<CanCast s_summon_creature 00>
+MakeItem=i_scroll_summon_creature
+
+[SkillMenu smInscrip_6]
+Spell Circle 6
+On=i_rune_dispel
+TestIf=<CanCast s_dispel 00>
+MakeItem=i_scroll_dispel
+On=i_rune_energy_bolt
+TestIf=<CanCast s_energy_bolt 00>
+MakeItem=i_scroll_energy_bolt
+On=i_rune_explosion
+TestIf=<CanCast s_explosion 00>
+MakeItem=i_scroll_explosion
+On=i_rune_invisibility
+TestIf=<CanCast s_invisibility 00>
+MakeItem=i_scroll_invisibility
+On=i_rune_mark
+TestIf=<CanCast s_mark 00>
+MakeItem=i_scroll_mark
+On=i_rune_mass_curse
+TestIf=<CanCast s_mass_curse 00>
+MakeItem=i_scroll_mass_curse
+On=i_rune_paralyze_field
+TestIf=<CanCast s_paralyzation_field 00>
+MakeItem=i_scroll_paralyze_field
+On=i_rune_reveal
+TestIf=<CanCast s_reveal 00>
+MakeItem=i_scroll_reveal
+
+[SkillMenu smInscrip_7]
+Spell Circle 7
+On=i_rune_chain_lightning
+TestIf=<CanCast s_chain_lightning 00>
+MakeItem=i_scroll_chain_lightning
+On=i_rune_energy_field
+TestIf=<CanCast s_energy_field 00>
+MakeItem=i_scroll_energy_field
+On=i_rune_flamestrike
+TestIf=<CanCast s_flamestrike 00>
+MakeItem=i_scroll_flamestrike
+On=i_rune_gate_travel
+TestIf=<CanCast s_gate_travel 00>
+MakeItem=i_scroll_gate_travel
+On=i_rune_mana_vampire
+TestIf=<CanCast s_mana_vampire 00>
+MakeItem=i_scroll_mana_vampire
+On=i_rune_mass_dispel
+TestIf=<CanCast s_mass_dispel 00>
+MakeItem=i_scroll_mass_dispel
+On=i_rune_meteor_swarm
+TestIf=<CanCast s_meteor_swarm 00>
+MakeItem=i_scroll_meteor_swarm
+On=i_rune_polymorph
+TestIf=<CanCast s_polymorph 00>
+MakeItem=i_scroll_polymorph
+
+[SkillMenu smInscrip_8]
+Spell Circle 8
+On=i_rune_earthquake
+TestIf=<CanCast s_earthquake 00>
+MakeItem=i_scroll_earthquake
+On=i_rune_energy_vortex
+TestIf=<CanCast s_energy_vortex 00>
+MakeItem=i_scroll_energy_vortex
+On=i_rune_resurrection
+TestIf=<CanCast s_resurrection 00>
+MakeItem=i_scroll_resurrection
+On=i_rune_summon_elem_air
+TestIf=<CanCast s_summon_elem_air 00>
+MakeItem=i_scroll_summon_elem_air
+On=i_rune_summon_daemon
+TestIf=<CanCast s_summon_daemon 00>
+MakeItem=i_scroll_summon_daemon
+On=i_rune_summon_elem_earth
+TestIf=<CanCast s_summon_elem_earth 00>
+MakeItem=i_scroll_summon_elem_earth
+On=i_rune_summon_elem_fire
+TestIf=<CanCast s_summon_elem_fire 00>
+MakeItem=i_scroll_summon_elem_fire
+On=i_rune_summon_elem_water
+TestIf=<CanCast s_summon_elem_water 00>
+MakeItem=i_scroll_summon_elem_water
+
+[EOF]

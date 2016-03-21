@@ -1,0 +1,3064 @@
+[Comment Notes]
+Tons of annotations in Ability# slots. Please do not use. This will be going to AI.
+
+[DefName Compaibitility]
+SkeletonKnight=SkeletalKnight
+BoneKnight=SkeletalKnight
+SkeletonMage=SkeletalMage
+BoneMage=SkeletalMage
+BoneMagi=SkeletalMage
+
+// Zombie
+[CharDef 03]
+DefName=cZombie
+Name=zombie
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=3,7
+Icon=iZombieIcon
+Sound=sndZombie1
+Resources=1 RandomBone
+FoodType=tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=rGraveyard,rDungeon
+BloodColor=0
+TEvents=eAIUndead
+
+Category=Monsters
+Subsection=Undead
+Description=Zombie
+
+On=@Create
+NPC=BrainMonster
+CanDefend=03
+SlayerSuper=UndeadSlayer
+
+Fame=600
+Karma=-600
+Alignment=Evil
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=15,20
+ResFire=0
+ResCold=20,30
+ResPoison=5,10
+ResEnergy=0
+
+OStr={46 70}
+ODex={31 50}
+OInt={26 40}
+MaxHits={28 42}
+
+Wrestling={351 500}
+Tactics={351 500}
+MagicResistance={151 400}
+Parrying={351 500}
+
+On=@NPCRestock
+NewGold={50 100}
+
+On=@DeathCorpse
+NewItem={RandomBone 1 RandomBodyPart 1}
+NewItem={RandomBone 1 RandomBodyPart 1}
+NewItem={RandomBone 1 RandomBodyPart 1}
+NewItem={RandomBone 1 RandomBodyPart 1}
+
+// Rotting Corpse
+[CharDef 09B]
+DefName=cRottingCorpse
+Name=rotting corpse
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=8,10
+Icon=iRottingCorpseIcon
+Sound=sndZombie1
+Resources=1 RandomBone
+FoodType=tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=rGraveyard,rDungeon
+BloodColor=0
+TEvents=eAIUndead
+
+Category=Monsters
+Subsection=Undead
+Description=Rotting Corpse
+
+On=@Create
+NPC=BrainMonster
+CanDefend=01F
+SlayerSuper=UndeadSlayer
+
+Fame=12500
+Karma=-12500
+Alignment=Evil
+
+DamPhysical=0
+DamFire=0
+DamCold=50
+DamPoison=50
+DamEnergy=0
+
+ResPhysical=35,45
+ResFire=20,30
+ResCold=50,70
+ResPoison=40,50
+ResEnergy=20,30
+
+OStr={301 350}
+ODex=75
+OInt={151 200}
+MaxHits=1200
+MaxStam=150
+MaxMana=0
+
+Wrestling={901 1000}
+Tactics=1000
+MagicResistance=2500
+Parrying=1000
+Poisoning=1200
+
+On=@Hit
+If !(<R4>)
+ Src.SpellEffect sPoison,<Poisoning>,<Src>
+EndIf
+
+On=@NPCRestock
+NewGold={1000 1250}
+
+On=@DeathCorpse
+NewTMap=5
+
+// Ghoul
+[CharDef 099]
+DefName=cGhoul
+Name=ghoul
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=7,9
+Icon=iGhoulIcon
+Sound=sndGhoul1
+Resources=1 RandomBone,1 RandomBodyPart
+FoodType=tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=rGraveyard
+BloodColor=0
+TEvents=eAIUndead
+
+Category=Monsters
+Subsection=Undead
+Description=Ghoul
+
+On=@Create
+NPC=BrainMonster
+CanDefend=03
+SlayerSuper=UndeadSlayer
+
+Fame=2500
+Karma=-2500
+Alignment=Evil
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=25,30
+ResFire=0
+ResCold=20,30
+ResPoison=5,10
+ResEnergy=10,20
+
+OStr={76 100}
+ODex={76 95}
+OInt={36 60}
+MaxHits={46 70}
+MaxMana=0
+
+Wrestling={451 550}
+Tactics={4514 600}
+MagicResistance={451 600}
+Parrying={451 600}
+
+On=@NPCRestock
+NewGold={50 100}
+
+// Bogle
+[CharDef cBogle]
+ID=cGhoul
+Name=ghoul
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=7,9
+Icon=iGhoulIcon
+Sound=sndGhoul1
+Resources=1 RandomBone,1 RandomBodyPart
+FoodType=tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=rGraveyard
+BloodColor=0
+TEvents=eAIUndead
+
+Category=Monsters
+Subsection=Undead
+Description=Bogle
+
+On=@Create
+NPC=BrainMonster
+CanDefend=03
+SlayerSuper=UndeadSlayer
+
+Fame=2500
+Karma=-2500
+Alignment=Evil
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=25,30
+ResFire=0
+ResCold=20,30
+ResPoison=5,10
+ResEnergy=10,20
+
+OStr={76 100}
+ODex={76 95}
+OInt={36 60}
+MaxHits={46 70}
+MaxMana=0
+
+Wrestling={451 550}
+Tactics={4514 600}
+MagicResistance={451 600}
+Parrying={451 600}
+
+On=@NPCRestock
+NewGold={50 100}
+
+// Spectre
+[CharDef 01A]
+DefName=cSpectre
+Name=spectre
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=7,11
+Icon=iSpectreIcon
+Sound=sndGhoul1
+Resources=0
+FoodType=tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=rGraveyard
+BloodColor=0
+TEvents=eAIUndead
+
+Category=Monsters
+Subsection=Undead
+Description=Spectre
+
+On=@Create
+NPC=BrainMonster
+Color=hSpectralHue
+CanDefend=0
+SlayerSuper=UndeadSlayer
+DispID=02EC
+
+Fame=4000
+Karma=-4000
+Alignment=Evil
+
+DamPhysical=50
+DamFire=0
+DamCold=50
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=25,35
+ResFire=0
+ResCold=15,25
+ResPoison=10,20
+ResEnergy=0
+
+OStr={76 100}
+ODex={76 95}
+OInt={36 60}
+MaxHits={46 60}
+
+Wrestling={451 550}
+Tactics={451 600}
+MagicResistance={451 600}
+Parrying={451 600}
+Magery={551 700}
+EvaluatingIntel={551 700}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={50 100}
+
+On=@DeathCorpse
+NewItem=RandomMageryReagent,10
+
+[CharDef cShade]
+ID=cSpectre
+Name=shade
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=7,11
+Icon=iSpectreIcon
+Sound=sndGhoul1
+Resources=0
+FoodType=tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=rGraveyard
+BloodColor=0
+TEvents=eAIUndead
+
+Category=Monsters
+Subsection=Undead
+Description=Shade
+
+On=@Create
+NPC=BrainMonster
+Color=hSpectralHue
+CanDefend=0
+SlayerSuper=UndeadSlayer
+DispID=02EC
+
+Fame=4000
+Karma=-4000
+Alignment=Evil
+
+DamPhysical=50
+DamFire=0
+DamCold=50
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=25,35
+ResFire=0
+ResCold=15,25
+ResPoison=10,20
+ResEnergy=0
+
+OStr={76 100}
+ODex={76 95}
+OInt={36 60}
+MaxHits={46 60}
+
+Wrestling={451 550}
+Tactics={451 600}
+MagicResistance={451 600}
+Parrying={451 600}
+Magery={551 700}
+EvaluatingIntel={551 700}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={50 100}
+
+On=@DeathCorpse
+NewItem=RandomMageryReagent,10
+
+[CharDef cWraith]
+ID=cSpectre
+Name=wraith
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=7,11
+Icon=iSpectreIcon
+Sound=sndGhoul1
+Resources=0
+FoodType=tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=rGraveyard
+BloodColor=0
+TEvents=eAIUndead
+
+Category=Monsters
+Subsection=Undead
+Description=Wraith
+
+On=@Create
+NPC=BrainMonster
+Color=hSpectralHue
+CanDefend=0
+SlayerSuper=UndeadSlayer
+DispID=02EC
+
+Fame=4000
+Karma=-4000
+Alignment=Evil
+
+DamPhysical=50
+DamFire=0
+DamCold=50
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=25,35
+ResFire=0
+ResCold=15,25
+ResPoison=10,20
+ResEnergy=0
+
+OStr={76 100}
+ODex={76 95}
+OInt={36 60}
+MaxHits={46 60}
+
+Wrestling={451 550}
+Tactics={451 600}
+MagicResistance={451 600}
+Parrying={451 600}
+Magery={551 700}
+EvaluatingIntel={551 700}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={50 100}
+
+On=@DeathCorpse
+NewItem=RandomMageryReagent,10
+
+[CharDef cSpectralSpellbinder]
+ID=cSpectre
+Name=spectral spellbinder
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=3,6
+Icon=iSpectre
+Sound=sndGhoul1
+Resources=0
+FoodType=tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=rGraveyard
+BloodColor=0
+TEvents=eAIUndead
+
+Category=Monsters
+Subsection=Undead
+Description=Spectral Spellbinder
+
+On=@Create
+NPC=BrainMonster
+CanDefend=0
+SlayerSuper=UndeadSlayer
+
+Fame=2000
+Karma=-2000
+Alignment=Neutral
+
+DamPhysical=50
+DamFire=0
+DamCold=50
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=25,30
+ResFire=0
+ResCold=15,25
+ResPoison=10,20
+ResEnergy=0
+
+OStr={46 70}
+ODex={46 65}
+OInt={186 210}
+MaxHits={36 50}
+
+Wrestling={351 450}
+Tactics={351 500}
+MagicResistance={351 500}
+Magery={351 500}
+EvaluatingIntel={351 500}
+Meditation={351 500}
+Parrying={351 500}
+
+ItemNewbie=iSpellbook
+AddSpell=sClumsy
+AddSpell=sFeeblemind
+AddSpell=sWeaken
+AddSpell=sCurse
+
+On=@NPCRestock
+NewGold={50 100}
+
+On=@DeathCorpse
+NewItem=RandomMageryReagent,10
+NewItem={iFirehorn 1 0 19}
+
+// Skeleton
+[CharDef 032]
+DefName=cSkeleton
+Name=skeleton
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=3,7
+Icon=iSkeletonIcon
+Sound=sndSkeleton1
+Resources=1 RandomBone
+FoodType=tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=rGraveyard
+BloodColor=0
+TEvents=eAIUndead
+
+Category=Monsters
+Subsection=Undead
+Description=Skeleton
+
+On=@Create
+NPC=BrainMonster
+CanDefend=01
+SlayerSuper=UndeadSlayer
+
+Fame=450
+Karma=-450
+Alignment=Evil
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=15,20
+ResFire=5,10
+ResCold=25,40
+ResPoison=25,35
+ResEnergy=5,15
+
+OStr={56 80}
+ODex={56 75}
+OInt={16 40}
+MaxHits={34 48}
+
+Wrestling={451 550}
+Tactics={451 600}
+MagicResistance={451 600}
+Parrying={451 600}
+
+On=@NPCRestock
+NewGold={25 50}
+
+// Skeleton (w/ Axe)
+[CharDef 038]
+DefName=cSkeletonWAxe
+Name=skeleton
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=3,7
+Icon=iSkeletonIcon
+Sound=sndSkeleton1
+Resources=1 RandomBone
+FoodType=tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=rGraveyard
+BloodColor=0
+TEvents=eAIUndead
+
+Category=Monsters
+Subsection=Undead
+Description=Skeleton (w/ Axe)
+
+On=@Create
+NPC=BrainMonster
+CanDefend=01
+SlayerSuper=UndeadSlayer
+
+Fame=450
+Karma=-450
+Alignment=Evil
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=15,20
+ResFire=5,10
+ResCold=25,40
+ResPoison=25,35
+ResEnergy=5,15
+
+OStr={56 80}
+ODex={56 75}
+OInt={16 40}
+MaxHits={34 48}
+
+Wrestling={451 550}
+Tactics={451 600}
+MagicResistance={451 600}
+Parrying={451 600}
+
+On=@NPCRestock
+NewGold={25 50}
+
+On=@DeathCorpse
+NewItem=RandomWeapon
+
+// Skeleton (w/ Sword)
+[CharDef 039]
+DefName=cSkeletonWSword
+Name=skeleton
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=3,7
+Icon=iSkeletonIcon
+Sound=sndSkeleton1
+Resources=1 RandomBone
+FoodType=tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=rGraveyard
+BloodColor=0
+TEvents=eAIUndead
+
+Category=Monsters
+Subsection=Undead
+Description=Skeleton (w/ Axe)
+
+On=@Create
+NPC=BrainMonster
+CanDefend=01
+SlayerSuper=UndeadSlayer
+
+Fame=450
+Karma=-450
+Alignment=Evil
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=15,20
+ResFire=5,10
+ResCold=25,40
+ResPoison=25,35
+ResEnergy=5,15
+
+OStr={56 80}
+ODex={56 75}
+OInt={16 40}
+MaxHits={34 48}
+
+Wrestling={451 550}
+Tactics={451 600}
+MagicResistance={451 600}
+Parrying={451 600}
+
+On=@NPCRestock
+NewGold={25 50}
+
+On=@DeathCorpse
+NewItem=RandomWeapon
+
+// Bone Knight
+[CharDef 093]
+DefName=cBoneKnight
+Name=bone knight
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=8,18
+Icon=iBoneKnightIcon
+Sound=sndSkeleton1
+Resources=1 RandomBone
+FoodType=tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=rGraveyard
+BloodColor=0
+TEvents=eAIUndead
+
+Category=Monsters
+Subsection=Undead
+Description=Bone Knight
+
+On=@Create
+NPC=BrainMonster
+CanDefend=0
+SlayerSuper=UndeadSlayer
+
+Fame=3000
+Karma=-3000
+Alignment=Evil
+
+DamPhysical=40
+DamFire=0
+DamCold=60
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=35,45
+ResFire=20,30
+ResCold=50,60
+ResPoison=20,30
+ResEnergy=30,40
+
+OStr={196 250}
+ODex={76 95}
+OInt={36 60}
+MaxHits={118 150}
+
+Wrestling={851 950}
+Tactics={951 1000}
+MagicResistance={651 800}
+Parrying={951 1000}
+
+On=@NPCRestock
+NewGold={175 275}
+
+On=@DeathCorpse
+NewItem=RandomPlatemailArmor
+NewItem={RandomBone 1 RandomBodyPart 1}
+NewItem={RandomBone 1 RandomBodyPart 1}
+
+[CharDef cSkeletalKnight]
+DefName=cSkeletonKnight
+ID=cBoneKnight
+Name=skeletal knight
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=8,18
+Icon=iBoneKnightIcon
+Sound=sndSkeleton1
+Resources=1 RandomBone
+FoodType=tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=rGraveyard
+BloodColor=0
+TEvents=eAIUndead
+
+Category=Monsters
+Subsection=Undead
+Description=Skeletal Knight
+
+On=@Create
+NPC=BrainMonster
+CanDefend=0
+SlayerSuper=UndeadSlayer
+
+Fame=3000
+Karma=-3000
+Alignment=Evil
+
+DamPhysical=40
+DamFire=0
+DamCold=60
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=35,45
+ResFire=20,30
+ResCold=50,60
+ResPoison=20,30
+ResEnergy=30,40
+
+OStr={196 250}
+ODex={76 95}
+OInt={36 60}
+MaxHits={118 150}
+
+Wrestling={851 950}
+Tactics={951 1000}
+MagicResistance={651 800}
+Parrying={951 1000}
+
+On=@NPCRestock
+NewGold={175 275}
+
+On=@DeathCorpse
+NewItem=RandomPlatemailArmor
+NewItem={RandomBone 1 RandomBodyPart 1}
+NewItem={RandomBone 1 RandomBodyPart 1}
+
+// Bone Mage
+[CharDef 094]
+DefName=cBoneMage
+Name=bone mage
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=3,7
+Icon=iBoneMageIcon
+Sound=sndSkeleton1
+Resources=1 RandomBone
+FoodType=tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=rGraveyard
+BloodColor=0
+TEvents=eAIUndead
+
+Category=Monsters
+Subsection=Undead
+Description=Bone Mage
+
+On=@Create
+NPC=BrainMonster
+CanDefend=03
+SlayerSuper=UndeadSlayer|MageSlayer
+
+Fame=3000
+Karma=-3000
+Alignment=Evil
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=35,40
+ResFire=20,30
+ResCold=50,60
+ResPoison=20,30
+ResEnergy=30,40
+
+OStr={76 100}
+ODex={56 75}
+OInt={186 210}
+MaxHits={46 60}
+
+Wrestling={451 550}
+Tactics={451 600}
+MagicResistance={551 700}
+Magery={601 700}
+EvaluatingIntel={601 700}
+Parrying={451 600}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={125 175}
+
+On=@DeathCorpse
+NewItem=RandomMageryReagent,3
+NewItem=RandomNecromancyReagent,{3 10}
+NewItem={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1}
+NewItem={RandomBone 1 RandomBodyPart 1}
+NewItem={RandomBone 1 RandomBodyPart 1}
+
+// Skeletal Mage
+[CharDef cSkeletalMage]
+DefName=SkeletonMage
+ID=cBoneMage
+Name=skeletal mage
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=3,7
+Icon=iBoneMageIcon
+Sound=sndSkeleton1
+Resources=1 RandomBone
+FoodType=tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=rGraveyard
+BloodColor=0
+TEvents=eAIUndead
+
+Category=Monsters
+Subsection=Undead
+Description=Skeletal Mage
+
+On=@Create
+NPC=BrainMonster
+CanDefend=03
+SlayerSuper=UndeadSlayer|MageSlayer
+
+Fame=3000
+Karma=-3000
+Alignment=Evil
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=35,40
+ResFire=20,30
+ResCold=50,60
+ResPoison=20,30
+ResEnergy=30,40
+
+OStr={76 100}
+ODex={56 75}
+OInt={186 210}
+MaxHits={46 60}
+
+Wrestling={451 550}
+Tactics={451 600}
+MagicResistance={551 700}
+Magery={601 700}
+EvaluatingIntel={601 700}
+Parrying={451 600}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={125 175}
+
+On=@DeathCorpse
+NewItem=RandomMageryReagent,3
+NewItem=RandomNecromancyReagent,{3 10}
+NewItem={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1}
+NewItem={RandomBone 1 RandomBodyPart 1}
+NewItem={RandomBone 1 RandomBodyPart 1}
+
+// Lich
+[CharDef 018]
+DefName=cLich
+Name=lich
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=24,26
+Icon=iLichIcon
+Sound=sndLich1
+Resources=1 RandomBone
+FoodType=tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=rGraveyard
+BloodColor=0
+TEvents=eAIUndead
+
+Category=Monsters
+Subsection=Undead
+Description=Lich
+
+On=@Create
+NPC=BrainMonster
+CanDefend=01F
+SlayerSuper=UndeadSlayer|MageSlayer
+
+Fame=8000
+Karma=-8000
+Alignment=Evil
+
+DamPhysical=10
+DamFire=0
+DamCold=40
+DamPoison=0
+DamEnergy=50
+
+ResPhysical=40,60
+ResFire=20,30
+ResCold=50,60
+ResPoison=55,65
+ResEnergy=40,50
+
+OStr={171 200}
+ODex={126 145}
+OInt={276 305}
+MaxHits={103 120}
+
+Wrestling={601 800}
+Tactics={701 900}
+MagicResistance={801 1000}
+Magery={701 800}
+EvaluatingIntel=1000
+Meditation={851 950}
+Necromancy={701 800}
+SpiritSpeak=1000
+Parrying={701 900}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={275 325}
+
+On=@DeathCorpse
+NewTMap=3
+NewItem={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1}
+NewItem=RandomNecromancyReagent,{15 25}
+NewItem={RandomBone 1 RandomBodyPart 1}
+NewItem={RandomBone 1 RandomBodyPart 1}
+
+// Lich Lord
+[CharDef 04F]
+DefName=cLichLord
+Name=lich lord
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=24,26	// 11,13?
+Icon=iLichIcon
+Sound=sndLich1
+Resources=0
+FoodType=tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=rGraveyard
+BloodColor=0
+TEvents=eAIUndead
+
+Category=Monsters
+Subsection=Undead
+Description=Lich Lord
+
+On=@Create
+NPC=BrainMonster
+CanDefend=01F
+SlayerSuper=UndeadSlayer|MageSlayer
+
+Fame=18000
+Karma=-18000
+Alignment=Evil
+
+DamPhysical=0
+DamFire=0
+DamCold=60
+DamPoison=0
+DamEnergy=40
+
+ResPhysical=40,50
+ResFire=30,40
+ResCold=50,60
+ResPoison=50,60
+ResEnergy=40,50
+
+OStr={416 505}
+ODex={146 165}
+OInt={566 655}
+MaxHits={250 303}
+
+Wrestling={601 800}
+Tactics={501 700}
+MagicResistance={1501 2000}
+Magery={901 1000}
+EvaluatingIntel={901 1000}
+Necromancy={901 1000}
+SpiritSpeak={901 1000}
+Parrying={501 700}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={450 600}
+
+On=@DeathCorpse
+NewTMap=4
+NewItem={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1}
+NewItem={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1}
+NewItem=RandomNecromancyReagent,{10 16}
+NewItem=RandomNecromancyReagent,{10 16}
+NewItem=RandomNecromancyReagent,{10 16}
+NewItem=RandomNecromancyReagent,{10 16}
+NewItem=RandomNecromancyReagent,{10 16}
+NewItem={RandomBone 1 RandomBodyPart 1}
+NewItem={RandomBone 1 RandomBodyPart 1}
+
+// Ancient Lich
+[CharDef 04E]
+DefName=cAncientLich
+Name=ancient lich
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=15,27
+Icon=iLichIcon
+Sound=sndLich1
+Resources=0
+FoodType=tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=rGraveyard
+BloodColor=0
+TEvents=eAIUndead
+
+Category=Monsters
+Subsection=Undead
+Description=Ancient Lich
+
+On=@Create
+NPC=BrainMonster
+CanDefend=03F
+SlayerSuper=UndeadSlayer|MageSlayer
+
+DoRand 5
+ Begin
+  Name=Almonjin
+  Title=The Forseeing Eye
+ End
+ Begin
+  Name=Baratoz
+  Title=Keeper of the Pit
+ End
+ Begin
+  Name=Anshu
+  Title=The Breath of Life
+ End
+ Begin
+  Name=Maliel
+  Title=The Hand of Fate
+ End
+ Begin
+  Name=Kaltivel
+  Title=The Lorekeeper
+ End
+EndDo
+
+Tag.Name.Suffix=" <Title>"
+
+Fame=23000
+Karma=-23000
+Alignment=Evil
+
+DamPhysical=20
+DamFire=0
+DamCold=40
+DamPoison=0
+DamEnergy=40
+
+ResPhysical=55,65
+ResFire=25,30
+ResCold=50,60
+ResPoison=50,60
+ResEnergy=25,30
+
+OStr={216 305}
+ODex={96 115}
+OInt={966 1045}
+MaxHits={560 595}
+
+Wrestling={751 1000}
+Tactics={901 1000}
+MagicResistance={1751 2000}
+Magery={1201 1300}
+EvaluatingIntel={1201 1300}
+Meditation={1001 1200}
+Necromancy={1201 1300}
+SpiritSpeak={1201 1300}
+Parrying={901 1000}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={1500 1700}
+
+On=@DeathCorpse
+NewTMap=5
+NewItem={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1}
+NewItem={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1}
+NewItem=RandomNecromancyReagent,{15 20}
+NewItem=RandomNecromancyReagent,{15 20}
+NewItem=RandomNecromancyReagent,{15 20}
+NewItem=RandomNecromancyReagent,{15 20}
+NewItem=RandomNecromancyReagent,{15 20}
+NewItem=RandomNecromancyReagent,{15 20}
+NewItem=RandomNecromancyReagent,{15 20}
+NewItem=RandomNecromancyReagent,{15 20}
+NewItem=RandomNecromancyReagent,{15 20}
+NewItem=RandomNecromancyReagent,{15 20}
+NewItem={RandomBone 1 RandomBodyPart 1}
+NewItem={RandomBone 1 RandomBodyPart 1}
+
+// Dark Guardian
+[CharDef 052]
+DefName=cDarkGuardian
+Name=dark guardian
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=24,26
+Icon=iLichIcon
+Sound=sndLich1
+Resources=0
+FoodType=tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=rGraveyard
+BloodColor=0
+TEvents=eAIUndead
+
+Category=Monsters
+Subsection=Undead
+Description=Dark Guardian
+
+On=@Create
+NPC=BrainMonster
+Color=2101
+CanDefend=03F
+SlayerSuper=UndeadSlayer|MageSlayer
+
+Fame=8000
+Karma=-8000
+Alignment=Evil
+
+DamPhysical=10
+DamFire=0
+DamCold=40
+DamPoison=0
+DamEnergy=50
+
+ResPhysical=40,50
+ResFire=20,45
+ResCold=50,60
+ResPoison=20,45
+ResEnergy=30,40
+
+OStr={126 150}
+ODex={101 120}
+OInt={201 235}
+MaxHits={153 179}
+
+Wrestling={501 700}
+Tactics={501 700}
+MagicResistance={501 700}
+Magery={501 600}
+EvaluatingIntel={401 500}
+Meditation={851 950}
+Necromancy={501 600}
+SpiritSpeak={401 500}
+Parrying={501 700}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+DoRand 2
+ NewGold={400 500}
+ NewGold={600 700}
+EndDo
+
+On=@DeathCorpse
+NewTMap={1 3}
+NewItem={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1}
+NewItem={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1}
+NewItem=RandomNecromancyReagent,{15 25}
+NewItem=iDaemonBone,30
+NewItem={RandomBone 1 RandomBodyPart 1}
+NewItem={RandomBone 1 RandomBodyPart 1}
+
+// Flesh Golem
+[CharDef 0130]
+DefName=cFleshGolem
+Name=flesh golem
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=18,22
+Icon=iFleshGolemIcon
+Sound=sndZombie1
+Resources=0
+FoodType=tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=rGraveyard
+BloodColor=0
+TEvents=eAIUndead
+
+Category=Monsters
+Subsection=Undead
+Description=Flesh Golem
+
+On=@Create
+NPC=BrainMonster
+CanDefend=0
+SlayerSuper=UndeadSlayer
+
+Fame=1800
+Karma=-1800
+Alignment=Evil
+
+Ability1=s_BleedAttack
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=50,60
+ResFire=25,35
+ResCold=15,25
+ResPoison=60,70
+ResEnergy=30,40
+
+OStr={176 200}
+ODex={51 75}
+OInt={46 70}
+MaxHits={106 120}
+
+Wrestling={601 700}
+Tactics={551 800}
+MagicResistance={501 750}
+Parrying={551 800}
+
+On=@NPCActFight
+// Bleed attack
+//   IF (<MANA> >= 25) && !(<SRC.FINDID.i_bleed_timer>)
+//      MANA -= 25
+//      SERV.NEWITEM=i_bleed_timer
+//      NEW.LINK=<UID>
+//      SRC.EQUIP <NEW>
+//   ENDIF
+
+On=@NPCRestock
+NewGold={125 175}
+
+On=@DeathCorpse
+NewTMap=4
+NewItem={RandomBone 1 RandomBodyPart 1}
+NewItem={RandomBone 1 RandomBodyPart 1}
+
+// Gore Fiend
+[CharDef 0131]
+DefName=cGoreFiend
+Name=gore fiend
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=15,21
+Icon=iGoreFiendIcon
+Sound=sndZombie1
+Resources=0
+FoodType=tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=rGraveyard
+BloodColor=0
+TEvents=eAIUndead
+
+Category=Monsters
+Subsection=Undead
+Description=Gore Fiend
+
+On=@Create
+NPC=BrainMonster
+CanDefend=0
+SlayerSuper=UndeadSlayer
+
+Fame=1500
+Karma=-1500
+Alignment=Evil
+
+DamPhysical=85
+DamFire=0
+DamCold=0
+DamPoison=15
+DamEnergy=0
+
+ResPhysical=35,45
+ResFire=25,35
+ResCold=15,25
+ResPoison=5,10
+ResEnergy=30,40
+
+OStr={161 185}
+ODex={41 65}
+OInt={46 70}
+MaxHits={97 111}
+
+Wrestling={501 700}
+Tactics={451 700}
+MagicResistance={401 550}
+Parrying={451 700}
+
+On=@NPCActFight
+// Concussion Blow
+
+On=@NPCRestock
+NewGold={125 175}
+
+On=@DeathCorpse
+NewItem={RandomBone 1 RandomBodyPart 1}
+NewItem={RandomBone 1 RandomBodyPart 1}
+
+// Patchwork Skeleton
+[CharDef 0135]
+DefName=cPatchworkSkeleton
+Name=patchwork skeleton
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=18,22
+Icon=iPatchworkSkeletonIcon
+Sound=sndSkeleton1
+Resources=1 RandomBone
+FoodType=tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=rGraveyard
+BloodColor=0
+TEvents=eAIUndead
+
+Category=Monsters
+Subsection=Undead
+Description=Patchwork Skeleton
+
+On=@Create
+NPC=BrainMonster
+CanDefend=0
+SlayerSuper=UndeadSlayer
+
+Fame=500
+Karma=-500
+Alignment=Evil
+
+Ability1=s_Dismount
+
+DamPhysical=85
+DamFire=0
+DamCold=15
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=55,65
+ResFire=50,60
+ResCold=70,80
+ResPoison=100
+ResEnergy=40,50
+
+OStr={96 120}
+ODex={71 95}
+OInt={16 40}
+MaxHits={58 72}
+
+Wrestling={501 700}
+Tactics={551 800}
+MagicResistance={701 950}
+Parrying={551 800}
+
+On=@NPCActFight
+// Dismount
+
+On=@NPCRestock
+NewGold={50 100}
+
+On=@DeathCorpse
+NewItem={RandomBone 1 RandomBodyPart 1}
+NewItem={RandomBone 1 RandomBodyPart 1}
+
+// Mummy
+[CharDef 09A]
+DefName=cMummy
+Name=mummy
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=13,23
+Icon=iMummyIcon
+Sound=sndZombie1
+Resources=1 RandomBone
+FoodType=tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=rGraveyard
+BloodColor=0
+TEvents=eAIUndead
+
+Category=Monsters
+Subsection=Undead
+Description=Mummy
+
+On=@Create
+NPC=BrainMonster
+CanDefend=01
+SlayerSuper=UndeadSlayer
+
+Fame=4000
+Karma=-4000
+Alignment=Evil
+
+DamPhysical=40
+DamFire=0
+DamCold=60
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=45,55
+ResFire=10,20
+ResCold=50,60
+ResPoison=20,30
+ResEnergy=20,30
+
+OStr={346 370}
+ODex={71 90}
+OInt={26 40}
+MaxHits={208 222}
+
+Wrestling={351 500}
+Tactics={351 500}
+MagicResistance={151 400}
+Parrying={351 500}
+
+On=@NPCRestock
+NewGold={275 325}
+
+On=@DeathCorpse
+NewTMap=1
+NewItem=RandomPotion
+NewItem=RandomCommonGem
+NewItem=iGarlic,5
+NewItem=iBandage,10
+NewItem={{iPeculiarSeed2 19 iFragrantSeed 1} 1 0 9}
+NewItem={RandomBone 1 RandomBodyPart 1}
+NewItem={RandomBone 1 RandomBodyPart 1}
+
+// Pestilent Bandage
+[CharDef cPestilentBandage]
+ID=cMummy
+Name=pestilent bandage
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=13,23
+Icon=iMummyIcon
+Sound=sndZombie1
+Resources=1 RandomBone
+FoodType=tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=rGraveyard
+BloodColor=0
+TEvents=eAIUndead
+
+Category=Monsters
+Subsection=Undead
+Description=Pestilent Bandage
+
+On=@Create
+NPC=BrainMonster
+Color=0482
+CanDefend=01
+SlayerSuper=UndeadSlayer
+
+Fame=4000
+Karma=-4000
+Alignment=Evil
+
+DamPhysical=40
+DamFire=0
+DamCold=20
+DamPoison=40
+DamEnergy=0
+
+ResPhysical=45,55
+ResFire=10,20
+ResCold=50,60
+ResPoison=20,30
+ResEnergy=20,30
+
+OStr={691 740}
+ODex={141 180}
+OInt={51 80}
+MaxHits={415 444}
+
+Wrestling={701 1000}
+Tactics={701 1000}
+MagicResistance={301 800}
+Parrying={701 1000}
+
+On=@NPCRestock
+NewGold={500 700}
+
+On=@DeathCorpse
+NewItem=RandomPotion
+NewItem=RandomCommonGem
+NewItem=iGarlic,5
+NewItem=iBandage,10
+NewItem={RandomBone 1 RandomBodyPart 1}
+NewItem={RandomBone 1 RandomBodyPart 1}
+
+// Pestilent Bandage
+[CharDef cUnfrozenMummy]
+ID=cMummy
+Name=unfrozen mummy
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=16,20
+Icon=iMummyIcon
+Sound=sndZombie1
+Resources=1 RandomBone
+FoodType=tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=rGraveyard
+BloodColor=0
+TEvents=eAIUndead
+
+Category=Monsters
+Subsection=Undead
+Description=Unfrozen Mummy
+
+On=@Create
+NPC=BrainMonster
+Color=0480
+CanDefend=01
+SlayerSuper=UndeadSlayer|IceSlayer
+
+Fame=12500
+Karma=-12500
+Alignment=Evil
+
+DamPhysical=0
+DamFire=0
+DamCold=50
+DamPoison=00
+DamEnergy=50
+
+ResPhysical=45,45
+ResFire=20,30
+ResCold=60,80
+ResPoison=20,30
+ResEnergy=60,80
+
+OStr={451 500}
+ODex={211 240}
+OInt={801 850}
+MaxHits=1500
+MaxStam=150
+
+Wrestling={901 1000}
+Tactics=1000
+MagicResistance=2500
+Magery={501 600}
+EvaluatingIntel={501 600}
+Meditation={800 900}
+Parrying=1000
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={1000 1200}
+
+On=@DeathCorpse
+NewItem=RandomPotion
+NewItem=RandomCommonGem
+NewItem=iGarlic,5
+NewItem=iBandage,10
+NewItem={iBrokenCrystal 1 0 9}
+NewItem={RandomBone 1 RandomBodyPart 1}
+NewItem={RandomBone 1 RandomBodyPart 1}
+
+// Lady of the Snow
+[CharDef 0FC]
+DefName=cLadyoftheSnow
+Name=Lady of the Snow
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=13,20
+Icon=iLadyoftheSnow
+Sound=sndGhoul1
+Resources=1 RandomBone
+FoodType=tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=rGraveyard
+BloodColor=0
+TEvents=eAIUndead
+
+Category=Monsters
+Subsection=Undead
+Description=Lady of the Snow
+
+On=@Create
+NPC=BrainMonster
+CanDefend=0
+SlayerSuper=UndeadSlayer
+
+Fame=15000
+Karma=-15000
+Alignment=Evil
+
+Ability1=s_SummonRevenant
+Ability2=s_IcyWind
+Ability3=sSnowballRangedDefense
+
+DamPhysical=20
+DamFire=0
+DamCold=80
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=45,55
+ResFire=40,55
+ResCold=70,90
+ResPoison=60,70
+ResEnergy=70,85
+
+OStr={275 305}
+ODex={105 125}
+OInt={470 490}
+MaxHits={595 625}
+
+Wrestling={851 1000}
+Tactics={851 1000}
+MagicResistance={901 1050}
+Parrying={851 1000}
+Magery={951 1100}
+Meditation={851 900]
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={800 1000}
+
+On=@DeathCorpse
+NewItem=RandomMageryReagent,3
+NewItem={RandomSeed 1 0 9}
+NewItem={RandomBone 1 RandomBodyPart 1}
+NewItem={RandomBone 1 RandomBodyPart 1}
+
+// Wight
+[CharDef cWight]
+ID=cLadyoftheSnow
+Name=Lady of the Snow
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=13,20
+Icon=iLadyoftheSnow
+Sound=sndGhoul1
+Resources=1 RandomBone
+FoodType=tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=rGraveyard
+BloodColor=0
+TEvents=eAIUndead
+
+Category=Monsters
+Subsection=Undead
+Description=Wight
+
+On=@Create
+NPC=BrainMonster
+Color=0482
+CanDefend=0
+SlayerSuper=UndeadSlayer
+
+Fame=15000
+Karma=-15000
+Alignment=Evil
+
+Ability1=s_SummonRevenant
+Ability2=s_IcyWind
+Ability3=sSnowballRangedDefense
+
+DamPhysical=20
+DamFire=0
+DamCold=80
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=35,45
+ResFire=30,40
+ResCold=50,60
+ResPoison=40,50
+ResEnergy=50,60
+
+OStr={150 250}
+ODex={50 60}
+OInt={150 200}
+MaxHits={150 250}
+
+Wrestling={501 600}
+Tactics={451 550}
+MagicResistance={401 500}
+Parrying={451 550}
+Magery={601 800}
+Meditation={501 600]
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={500 600}
+
+On=@DeathCorpse
+NewItem={RandomSeed 1 0 9}
+NewItem={RandomBone 1 RandomBodyPart 1}
+NewItem={RandomBone 1 RandomBodyPart 1}
+
+// Revenant Lion
+[CharDef 0FB]
+DefName=cRevenantLion
+Name=Revenant Lion
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=18,24
+Icon=iRevenantLionIcon
+Sound=sndLion1
+Resources=1 RandomBone
+FoodType=tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=rGraveyard
+BloodColor=0
+TEvents=eAIUndead
+
+Category=Monsters
+Subsection=Undead
+Description=Revenant Lion
+
+On=@Create
+NPC=BrainMonster
+CanDefend=0
+SlayerSuper=UndeadSlayer
+
+Fame=4000
+Karma=-4000
+Alignment=Evil
+
+Ability1=s_BleedAttack
+
+DamPhysical=30
+DamFire=0
+DamCold=30
+DamPoison=10
+DamEnergy=30
+
+ResPhysical=40,60
+ResFire=20,30
+ResCold=50,60
+ResPoison=55,65
+ResEnergy=40,50
+
+OStr={275 320}
+ODex={155 175}
+OInt={75 105}
+MaxHits={250 280}
+
+Wrestling={801 900}
+Tactics={601 800}
+MagicResistance={701 900}
+Poisoning={1201 1300}
+Magery={801 900}
+EvaluatingIntel={801 900}
+Meditation={851 950}
+Parrying={601 800}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={550 700}
+
+On=@DeathCorpse
+NewItem={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1}
+NewItem={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1}
+NewItem=RandomNecromancyReagent,{6 8}
+NewItem={RandomBone 1 RandomBodyPart 1}
+NewItem={RandomBone 1 RandomBodyPart 1}
+NewItem={RandomBone 1 RandomBodyPart 1}
+NewItem={RandomBone 1 RandomBodyPart 1}
+
+[CharDef 03CA]
+DefName=cRevenant
+Name=revenant
+Can=CanWalk|CanRun|CanGhost|CanUseHands
+MoveRate=100
+Dam=20,30
+Icon=iManicon
+Sound=sndGhoul1
+Resources=0
+FoodType=tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=rGraveyard
+BloodColor=0
+TEvents=eAIUndead
+
+Category=Monsters
+Subsection=Undead
+Description=Revenant (Needs complete bard immunity)
+
+On=@Create
+NPC=BrainMonster
+Color=fSpectralHue
+CanDefend=01F
+SlayerSuper=UndeadSlayer
+
+Fame=0
+Karma=0
+Alignment=Evil
+
+Ability1=s_Teleport
+
+DamPhysical=50
+DamFire=0
+DamCold=50
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=55,65
+ResFire=30,40
+ResCold=60,70
+ResPoison=20,30
+ResEnergy=20,30
+
+OStr={401 500}
+ODex={296 315}
+OInt={101 200}
+MaxHits={241 300}
+MaxStam={242 280}
+
+Wrestling={901 1000}
+Tactics={901 1000}
+MagicResistance={1001 1500}
+Parrying={901 1000}
+Swordsmanship={901 1000}
+
+ItemNewbie=iHalberd
+Color=hSpectralHue
+
+// Dream Wraith
+[CharDef 02E4]
+DefName=cDreamWraith
+Name=dream wraith
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=18,25
+Icon=iDreamWraithIcon
+Sound=sndGhoul1
+Resources=0
+FoodType=tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=rGraveyard
+BloodColor=0
+TEvents=eAIUndead
+
+Category=Monsters
+Subsection=Undead
+Description=Dream Wraith (Immune to all bardic abilities)
+
+On=@Create
+NPC=BrainMonster
+CanDefend=01F
+SlayerSuper=UndeadSlayer
+
+Fame=18000
+Karma=-18000
+Alignment=Evil
+
+DamPhysical=10
+DamFire=0
+DamCold=45
+DamPoison=0
+DamEnergy=45
+
+ResPhysical=45,60
+ResFire=40,50
+ResCold=40,50
+ResPoison=40,50
+ResEnergy=25,30
+
+OStr={200 300}
+ODex={100 200}
+OInt={600 700}
+MaxHits={550 650}
+
+Wrestling={901 1000}
+Tactics={701 800}
+MagicResistance={1201 1500}
+Anatomy={00 100}
+Magery={1001 1200}
+EvaluatingIntel={1001 1200}
+Meditation={1001 1100}
+Parrying={701 800}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={1000 1200}
+
+// Skeletal Dragon
+[CharDef 068]
+DefName=cSkeletalDragon
+Name=skeletal dragon
+Can=CanNonHum|CanWalk|CanFly|CanUseHands
+MoveRate=100
+Dam=29,35
+Icon=iSkeletalDragonIcon
+Sound=sndDragon1
+Resources=20 iBarbedHides,19 iCutOfRawRibs
+FoodType=tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=rGraveyard
+BloodColor=0
+TEvents=eAIUndead
+
+Category=Monsters
+Subsection=Undead
+Description=Skeletal Dragon (Add in 3x damage to pets)
+
+On=@Create
+NPC=BrainDragon
+CanDefend=07F
+SlayerSuper=UndeadSlayer|DragonSlayer|ReptileSlayer
+Breath.Anim=
+Breath.Dam=
+
+Fame=22500
+Karma=-22500
+Alignment=Evil
+
+DamPhysical=75
+DamFire=25	// Should this not be set to cold?
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=75,80
+ResFire=40,60
+ResCold=40,60
+ResPoison=70,80
+ResEnergy=40,60
+
+OStr={898 1030}
+ODex={68 200}
+OInt={488 620}
+MaxHits={558 599}
+
+Wrestling={976 1000}
+Tactics={976 1000}
+MagicResistance={1001 1300}
+Magery={801 1000}
+EvaluatingIntel={801 1000}
+Parrying={976 1000}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={1600 1800}
+
+On=@DeathCorpse
+NewTMap=5
+NewItem=RandomCommonGem,5
+NewItem={RandomBone 1 RandomBodyPart 1}
+NewItem={RandomBone 1 RandomBodyPart 1}
+
+// Skeletal Drake
+[CharDef cSkeletalDrake]
+ID=cSkeletalDragon
+Name=skeletal drake
+Can=CanNonHum|CanWalk|CanFly|CanUseHands
+MoveRate=100
+Dam=29,35
+Icon=iSkeletalDragonIcon
+Sound=sndDragon1
+Resources=20 iBarbedHides,19 iCutOfRawRibs
+FoodType=tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=rGraveyard
+BloodColor=0
+TEvents=eAIUndead
+
+Category=Monsters
+Subsection=Undead
+Description=Skeletal Drake (Add in 3x damage to pets, Needs hue)
+
+On=@Create
+NPC=BrainDragon
+Color=
+CanDefend=07F
+SlayerSuper=UndeadSlayer|DragonSlayer
+Breath.Anim=
+Breath.Dam=
+
+Fame=22500
+Karma=-22500
+Alignment=Evil
+
+DamPhysical=75
+DamFire=25	// Should this not be set to cold?
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=70,80
+ResFire=50,60
+ResCold=50,60
+ResPoison=70,80
+ResEnergy=50,60
+
+OStr={600 700}
+ODex={80 100}
+OInt={300 350}
+MaxHits={300 400}
+
+Wrestling={651 750}
+Tactics={751 850}
+MagicResistance={801 1000}
+Magery={601 700}
+EvaluatingIntel={501 600}
+Parrying={751 850}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={1600 1800}
+
+On=@DeathCorpse
+NewItem=RandomCommonGem,5
+NewItem={RandomBone 1 RandomBodyPart 1}
+NewItem={RandomBone 1 RandomBodyPart 1}
+
+// Skeletal Steed
+[CharDef 0319]
+DefName=cSkeletalSteed
+Name=skeletal steed
+Can=CanNonHum|CanWalk|CanRun
+MoveRate=100
+Dam=5,12
+Icon=iSkeletalSteedIcon
+Sound=sndHorse1
+Resources=0
+FoodType=tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=rGraveyard
+BloodColor=0
+TEvents=eAIUndead
+
+Category=Monsters
+Subsection=Undead
+Description=Skeletal Steed
+
+On=@Create
+NPC=BrainMonster
+FollowerSlots=1
+CanDefend=03F
+SlayerSuper=UndeadSlayer
+
+Fame=0
+Karma=0
+Alignment=Neutral
+
+DamPhysical=50
+DamFire=0
+DamCold=50
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=50,60
+ResFire=0
+ResCold=90,95
+ResPoison=100
+ResEnergy=10,15
+
+OStr={91 100}
+ODex={46 55}
+OInt={46 60}
+MaxHits={41 50}
+
+Wrestling={701 800}
+Tactics=500
+MagicResistance={951 1000}
+Parrying=500
+
+// Hellsteed
+[CharDef cHellsteed]
+ID=cSkeletalSteed
+Name=hellsteed
+Can=CanNonHum|CanWalk|CanRun
+MoveRate=100
+Dam=20,24
+Icon=iSkeletalSteedIcon
+Sound=sndHorse1
+Resources=0
+FoodType=tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=rGraveyard
+BloodColor=0
+TEvents=eAIUndead
+
+Category=Monsters
+Subsection=Undead
+Description=Hellsteed
+
+On=@Create
+NPC=BrainDragon
+FollowerSlots=2
+CanDefend=03F
+SlayerSuper=UndeadSlayer
+Breath.Type=
+Breath.Anim=
+Breath.Dam=
+
+Fame=0
+Karma=0
+Alignment=Neutral
+
+DamPhysical=50
+DamFire=0
+DamCold=50
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=60,70
+ResFire=90
+ResCold=0
+ResPoison=100
+ResEnergy=0
+
+OStr={201 210}
+ODex={101 110}
+OInt={101 115}
+MaxHits={201 220}
+
+Wrestling={901 1100}
+Tactics=500
+MagicResistance={901 1100}
+Parrying=500
+
+// Grizzled Mare
+[CharDef cGrizzledMare]
+ID=cSkeletalSteed
+Name=grizzled mare
+Can=CanNonHum|CanWalk|CanRun
+MoveRate=100
+Dam=20,24
+Icon=iSkeletalSteedIcon
+Sound=sndHorse1
+Resources=0
+FoodType=tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=rGraveyard
+BloodColor=0
+TEvents=eAIUndead
+
+Category=Monsters
+Subsection=Undead
+Description=Grizzled Mare
+
+On=@Create
+NPC=BrainDragon
+FollowerSlots=2
+CanDefend=03F
+SlayerSuper=UndeadSlayer
+Breath.Type=
+Breath.Anim=
+Breath.Dam=
+
+Fame=0
+Karma=0
+Alignment=Neutral
+
+DamPhysical=50
+DamFire=0
+DamCold=50
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=60,70
+ResFire=90
+ResCold=0
+ResPoison=100
+ResEnergy=0
+
+OStr={201 210}
+ODex={101 110}
+OInt={101 115}
+MaxHits={201 220}
+
+Wrestling={901 1100}
+Tactics=500
+MagicResistance={901 1100}
+Parrying=500
+
+// Wailing Banshee
+[CharDef 0136]
+DefName=cWailingBanshee
+Name=howling banshee
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=10,14
+Icon=iHowlingBasheeIcon
+Sound=sndGhoul1
+Resources=0
+FoodType=tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=rGraveyard
+BloodColor=0
+TEvents=eAIUndead
+
+Category=Monsters
+Subsection=Undead
+Description=Howling Banshee
+
+On=@Create
+NPC=BrainMonster
+CanDefend=0
+SlayerSuper=UndeadSlayer
+
+Fame=1500
+Karma=-1500
+Alignment=Evil
+
+Ability1=s_MortalStrike
+Ability2=s_LifeLeech
+
+DamPhysical=20
+DamFire=0
+DamCold=60
+DamPoison=20
+DamEnergy=0
+
+ResPhysical=50,60
+ResFire=25,30
+ResCold=70,80
+ResPoison=30,40
+ResEnergy=40,50
+
+OStr={126 150}
+ODex={76 100}
+OInt={86 110}
+MaxHits={76 90}
+
+Wrestling={301 550}
+Tactics={551 800}
+MagicResistance={701 950}
+Parrying={551 800}
+
+On=@NPCRestock
+NewGold={50 100}
+
+// Undead Gargoyle
+[CharDef 02D2]
+DefName=cUndeadGargoyle
+Name=undead gargoyle
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=15,27
+Icon=iUndeadGargoyleIcon
+Sound=sndZombie1
+Resources=1 iCutOfRawRibs
+FoodType=tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=rGraveyard
+BloodColor=0
+TEvents=eAIUndead
+
+Category=Monsters
+Subsection=Undead
+Description=Undead Gargoyle
+
+On=@Create
+NPC=BrainMonster
+CanDefend=0
+SlayerSuper=UndeadSlayer|GargoyleSlayer
+
+Fame=18000
+Karma=-18000
+Alignment=Evil
+
+DamPhysical=0
+DamFire=0
+DamCold=60
+DamPoison=0
+DamEnergy=40
+
+ResPhysical=40,50
+ResFire=30,40
+ResCold=50,60
+ResPoison=50,60
+ResEnergy=40,50
+
+OStr={250 350}
+ODex={120 140}
+OInt={250 350}
+MaxHits={200 300}
+
+Wrestling={601 700}
+Tactics={601 700}
+MagicResistance={1001 1200}
+Magery=1200
+EvaluatingIntel={901 1100}
+Necromancy=1200
+SpiritSpeak={901 1100}
+Parrying={601 700}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={1000 1200}
+
+On=@DeathCorpse
+NewItem=RandomMysticismScroll
+NewItem=RandomMysticismScroll
+NewItem=RandomNecromancyReagents,{10 15}
+NewItem=RandomNecromancyReagents,{10 15}
+NewItem=RandomNecromancyReagents,{10 15}
+NewItem=RandomNecromancyReagents,{10 15}
+NewItem=RandomNecromancyReagents,{10 15}
+NewItem={RandomBone 1 RandomBodyPart 1}
+NewItem={RandomBone 1 RandomBodyPart 1}
+NewItem={RandomBone 1 RandomBodyPart 1}
+NewItem={RandomBone 1 RandomBodyPart 1}
+
+// Undead Gargoyle (Medusa's Lair)
+[CharDef cUndeadGargoyle1]
+ID=cUndeadGargoyle
+Name=undead gargoyle
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=15,27
+Icon=iUndeadGargoyleIcon
+Sound=sndZombie1
+Resources=1 iCutOfRawRibs
+FoodType=tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=rGraveyard
+BloodColor=0
+TEvents=eAIUndead
+
+Category=Monsters
+Subsection=Undead
+Description=Undead Gargoyle (Medusa's Lair)
+
+On=@Create
+NPC=BrainMonster
+CanDefend=0
+SlayerSuper=UndeadSlayer|GargoyleSlayer
+
+Fame=18000
+Karma=-18000
+Alignment=Evil
+
+DamPhysical=0
+DamFire=0
+DamCold=60
+DamPoison=0
+DamEnergy=40
+
+ResPhysical=40,50
+ResFire=30,40
+ResCold=50,60
+ResPoison=50,60
+ResEnergy=40,50
+
+OStr={250 350}
+ODex={160 180}
+OInt={550 650}
+MaxHits={400 500}
+
+Wrestling={501 700}
+Tactics={501 700}
+MagicResistance={1501 2000}
+Magery=1200
+EvaluatingIntel={901 1100}
+Necromancy=1200
+SpiritSpeak={901 1100}
+Parrying={601 700}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={1000 1200}
+
+On=@DeathCorpse
+NewItem=RandomMysticismScroll
+NewItem=RandomMysticismScroll
+NewItem=RandomNecromancyReagents,{10 15}
+NewItem=RandomNecromancyReagents,{10 15}
+NewItem=RandomNecromancyReagents,{10 15}
+NewItem=RandomNecromancyReagents,{10 15}
+NewItem=RandomNecromancyReagents,{10 15}
+NewItem={RandomBone 1 RandomBodyPart 1}
+NewItem={RandomBone 1 RandomBodyPart 1}
+NewItem={RandomBone 1 RandomBodyPart 1}
+NewItem={RandomBone 1 RandomBodyPart 1}
+NewItem={iUndeadGargoyleMedallion 1 0 9}
+NewItem={iUndamagedUndeadGargoyleHorns 1 0 9}
+
+// Effete Undead Gargoyle
+[CharDef cEffeteUndeadGargoyle]
+ID=cUndeadGargoyle
+Name=effete undead gargoyle
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=3,7
+Icon=iUndeadGargoyleIcon
+Sound=sndZombie1
+Resources=1 iCutOfRawRibs
+FoodType=tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=rGraveyard
+BloodColor=0
+TEvents=eAIUndead
+
+Category=Monsters
+Subsection=Undead
+Description=Effete Undead Gargoyle
+
+On=@Create
+NPC=BrainMonster
+CanDefend=0
+SlayerSuper=UndeadSlayer|GargoyleSlayer
+
+Fame=500
+Karma=-500
+Alignment=Evil
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=15,20
+ResFire=5,10
+ResCold=25,35
+ResPoison=25,35
+ResEnergy=5,15
+
+OStr={60 80}
+ODex={55 65}
+OInt={15 40}
+MaxHits={66 88}
+
+Wrestling={451 600}
+Tactics={451 600}
+MagicResistance={451 600}
+Parrying={451 600}
+
+On=@NPCRestock
+NewGold={25 50}
+
+On=@DeathCorpse
+NewItem={RandomBone 1 RandomBodyPart 1}
+NewItem={RandomBone 1 RandomBodyPart 1}
+NewItem={RandomBone 1 RandomBodyPart 1}
+NewItem={RandomBone 1 RandomBodyPart 1}
+NewItem={iUndyingFlesh 1 0 9} 
+
+// Undead Guardian
+[CharDef cUndeadGuardian]
+ID=cUndeadGargoyle
+Name=putrid undead gargoyle
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=21,30
+Icon=iUndeadGargoyleIcon
+Sound=sndZombie1
+Resources=1 iCutOfRawRibs
+FoodType=tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=rGraveyard
+BloodColor=0
+TEvents=eAIUndead
+
+Category=Monsters
+Subsection=Undead
+Description=Putrid Undead Gargoyle
+
+On=@Create
+NPC=BrainMonster
+Color=0485
+CanDefend=0
+SlayerSuper=UndeadSlayer|GargoyleSlayer
+
+Fame=23000
+Karma=-23000
+Alignment=Evil
+
+DamPhysical=20
+DamFire=0
+DamCold=40
+DamPoison=0
+DamEnergy=40
+
+ResPhysical=55,65
+ResFire=30,40
+ResCold=50,60
+ResPoison=50,60
+ResEnergy=35,50
+
+OStr={510 600}
+ODex={110 150}
+OInt={1000 1200}
+MaxHits={630 750}
+
+Wrestling={951 1100}
+Tactics={951 1100}
+MagicResistance={1751 2000}
+Parrying={951 1100}
+Magery={1201 1300}
+EvaluatingIntel={1201 1300}
+Meditation={1001 1200}
+Mysticism={1201 1300}
+
+On=@NPCRestock
+NewGold={1400 1800}
+
+On=@DeathCorpse
+NewItem=RandomMysticismReagents,{10 15}
+NewItem=RandomMysticismReagents,{10 15}
+NewItem=RandomMysticismReagents,{10 15}
+NewItem=RandomMysticismReagents,{10 15}
+NewItem=RandomMysticismReagents,{10 15}
+NewItem={RandomBone 1 RandomBodyPart 1}
+NewItem={RandomBone 1 RandomBodyPart 1}
+NewItem={RandomBone 1 RandomBodyPart 1}
+NewItem={RandomBone 1 RandomBodyPart 1}
+NewItem={iUndyingFlesh 1 0 9}
+NewItem={iAncientPotteryFragments 1 0 9}
+NewItem={iTatteredRemnantsofanAncientScroll 1 0 9}
+NewItem={iInfusedGlassStaff 1 0 9}
+
+// Effete Putrid Gargoyle
+[CharDef cEffetePutridGargoyle]
+ID=cGargoyle
+Name=effete putrid gargoyle
+Can=CanWalk|CanUseHands|CanFly|CanHover
+MoveRate=100
+Dam=8,18
+Icon=iGargoyleIcon
+Sound=sndZombie1
+Resources=1 iCutOfRawRibs
+FoodType=tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=rGraveyard
+BloodColor=0
+TEvents=eAIUndead
+
+Category=Monsters
+Subsection=Undead
+Description=Effete Putrid Gargoyle
+
+On=@Create
+NPC=BrainMonster
+CanDefend=0
+SlayerSuper=UndeadSlayer|GargoyleSlayer
+
+Fame=3000
+Karma=-3000
+Alignment=Evil
+
+DamPhysical=40
+DamFire=0
+DamCold=60
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=42
+ResFire=22
+ResCold=59
+ResPoison=21
+ResEnergy=32
+
+OStr={210 260}
+ODex={90 95}
+OInt={40 60}
+MaxHits={105 130}
+
+Wrestling={651 750}
+Tactics={651 750}
+MagicResistance={601 700}
+Anatomy={00 200}
+Parrying={651 750}
+
+On=@NPCRestock
+NewGold={200 250}
+
+On=@DeathCorpse
+NewItem={RandomBone 1 RandomBodyPart 1}
+NewItem={RandomBone 1 RandomBodyPart 1}
+NewItem={RandomBone 1 RandomBodyPart 1}
+NewItem={RandomBone 1 RandomBodyPart 1}
+NewItem=RandomNecromancyReagent,{10 15}
+NewItem=RandomNecromancyReagent,{10 15}
+NewItem=RandomNecromancyReagent,{10 15}
+NewItem={iUndyingFlesh 1 0 9} 
+
+// Undead Guardian
+[CharDef cUndeadGuardian]
+ID=cUndeadGargoyle
+Name=undead guardian
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=8,18
+Icon=iUndeadGargoyleIcon
+Sound=sndZombie1
+Resources=1 iCutOfRawRibs
+FoodType=tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=rGraveyard
+BloodColor=0
+TEvents=eAIUndead
+
+Category=Monsters
+Subsection=Undead
+Description=Undead Guardian
+
+On=@Create
+NPC=BrainMonster
+CanDefend=0
+SlayerSuper=UndeadSlayer|GargoyleSlayer
+
+Fame=3000
+Karma=-3000
+Alignment=Evil
+
+DamPhysical=0
+DamFire=0
+DamCold=60
+DamPoison=0
+DamEnergy=40
+
+ResPhysical=35,45
+ResFire=20,30
+ResCold=50,60
+ResPoison=20,30
+ResEnergy=30,40
+
+OStr={200 250}
+ODex={75 100}
+OInt={35 65}
+MaxHits={100 150}
+
+Wrestling={851 1000}
+Tactics={851 1000}
+MagicResistance={651 800}
+Parrying={851 1000}
+
+On=@NPCRestock
+NewGold={1000 1200}
+
+On=@DeathCorpse
+NewItem=RandomNecromancyReagents,{10 15}
+NewItem=RandomNecromancyReagents,{10 15}
+NewItem=RandomNecromancyReagents,{10 15}
+NewItem=RandomNecromancyReagents,{10 15}
+NewItem=RandomNecromancyReagents,{10 15}
+NewItem={RandomBone 1 RandomBodyPart 1}
+NewItem={RandomBone 1 RandomBodyPart 1}
+NewItem={RandomBone 1 RandomBodyPart 1}
+NewItem={RandomBone 1 RandomBodyPart 1}
+NewItem={iUndyingFlesh 1 0 9}
+NewItem={iAncientPotteryFragments 1 0 9}
+NewItem={iTatteredRemnantsofanAncientScroll 1 0 9}
+NewItem=RandomBoneArmor
+NewColor=hBlueHues
+
+// Putrid Undead Guardian
+[CharDef cPutridUndeadGuardian]
+ID=cUndeadGargoyle
+Name=putrid undead guardian
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=3,7
+Icon=iUndeadGargoyleIcon
+Sound=sndZombie1
+Resources=1 iCutOfRawRibs
+FoodType=tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=rGraveyard
+BloodColor=0
+TEvents=eAIUndead
+
+Category=Monsters
+Subsection=Undead
+Description=Putrid Undead Guardian
+
+On=@Create
+NPC=BrainMonster
+CanDefend=0
+SlayerSuper=UndeadSlayer|GargoyleSlayer
+
+Fame=3000
+Karma=-3000
+Alignment=Evil
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=35,40
+ResFire=20,30
+ResCold=50,60
+ResPoison=20,30
+ResEnergy=35,40
+
+OStr={86 100}
+ODex={55 70}
+OInt={186 205}
+MaxHits={46 60}
+
+Wrestling={451 550}
+Tactics={451 600}
+MagicResistance={551 700}
+Parrying={451 600}
+
+On=@NPCRestock
+NewGold={1000 1200}
+
+On=@DeathCorpse
+NewItem=RandomNecromancyReagents,{10 15}
+NewItem=RandomNecromancyReagents,{10 15}
+NewItem=RandomNecromancyReagents,{10 15}
+NewItem=RandomNecromancyReagents,{10 15}
+NewItem=RandomNecromancyReagents,{10 15}
+NewItem={RandomBone 1 RandomBodyPart 1}
+NewItem={RandomBone 1 RandomBodyPart 1}
+NewItem={RandomBone 1 RandomBodyPart 1}
+NewItem={RandomBone 1 RandomBodyPart 1}
+NewItem={iUndyingFlesh 1 0 9}
+
+// Gargoyle Shade
+[CharDef cGargoyleShade]
+ID=cGargoyle
+Name=gargoyle shade
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=7,14
+Icon=iGargoyleIcon
+Sound=sndGargoyle1
+Resources=1 iCutOfRawRibs
+FoodType=tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=rGraveyard
+BloodColor=0
+TEvents=eAIUndead
+
+Category=Monsters
+Subsection=Undead
+Description=Gargoyle Shade
+
+On=@Create
+NPC=BrainMonster
+Color=hSpectralHue
+CanDefend=0
+SlayerSuper=UndeadSlayer|GargoyleSlayer
+
+Fame=2500
+Karma=-2500
+Alignment=Evil
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=40,55
+ResFire=35,45
+ResCold=15,20
+ResPoison=25,35
+ResEnergy=0
+
+OStr={75 105}
+ODex={75 95}
+OInt={40 80}
+MaxHits={60 80}
+
+Wrestling={401 550}
+Tactics={401 600}
+MagicResistance={501 650}
+Parrying={401 600}
+Magery={501 650}
+EvaluatingIntel={501 650}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={100 200}
+
+On=@DeathCorpse
+NewItem=RandomMageryReagent,{10 15}
+NewItem=RandomMageryReagent,{10 15}
+NewItem={RandomBone 1 RandomBodyPart 1}
+NewItem={RandomBone 1 RandomBodyPart 1}
+
+// Skeletal Lich
+[CharDef cSkeletalLich]
+ID=cBoneDaemon
+Name=skeletal lich
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=7,14
+Icon=iBoneDaemonIcon
+Sound=sndLich1
+Resources=1 RandomBone
+FoodType=tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=rGraveyard
+BloodColor=0
+TEvents=eAIUndead
+
+Category=Monsters
+Subsection=Undead
+Description=Skeletal Lich (Add in barding immunity)
+
+On=@Create
+NPC=BrainMonster
+Color=0455
+CanDefend=01F
+SlayerSuper=UndeadSlayer|DaemonSlayer
+
+Fame=15000
+Karma=-15000
+Alignment=Evil
+
+Ability1=s_TeleportTarget
+
+DamPhysical=50
+DamFire=0
+DamCold=50
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=40,50
+ResFire=25,35
+ResCold=50,60
+ResPoison=0
+ResEnergy=40,50
+
+OStr=450
+ODex={150 180}
+OInt={180 200}
+MaxHits={1500 2000}
+
+Wrestling={701 900}
+Tactics={701 750}
+MagicResistance={651 750}
+Parrying={701 750}
+Magery={751 900}
+EvaluatingIntel={801 900}
+Meditation={1000 1100}
+Necromancy={801 900}
+SpiritSpeak={1000 1100}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={1800 2000}
+
+On=@DeathCorpse
+NewItem=RandomMageryReagent,{10 15}
+NewItem=RandomMageryReagent,{10 15}
+NewItem=RandomMageryReagent,{10 15}
+NewItem=RandomMageryReagent,{10 15}
+NewItem=RandomMageryReagent,{10 15}
+NewItem=RandomNecromancyReagent,{10 15}
+NewItem=RandomNecromancyReagent,{10 15}
+NewItem=RandomNecromancyReagent,{10 15}
+NewItem=RandomNecromancyReagent,{10 15}
+NewItem=RandomNecromancyReagent,{10 15}
+NewItem={RandomBone 1 RandomBodyPart 1}
+NewItem={RandomBone 1 RandomBodyPart 1}
+//NewItem={{iConjurersGrimoire 1 iConjurersTrinket 1} 1 0 19}
+// Interred Grizzle
+[CharDef 0103]
+DefName=cInterredGrizzle
+Name=interred grizzle
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=16,19
+Icon=iInterredGrizzleIcon
+Sound=sndInterredGrizzle1
+Resources=0
+FoodType=tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=rGraveyard,rDungeon
+BloodColor=0
+TEvents=eAIUndead
+
+Category=Monsters
+Subsection=Undead
+Description=Interred Grizzle
+
+On=@Create
+NPC=BrainMonster
+SlayerSuper=UndeadSlayer
+
+Fame=11000
+Karma=-11000
+Alignment=Evil
+
+DamPhysical=30
+DamFire=70
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=35,45
+ResFire=20,30
+ResCold=60,80
+ResPoison=20,30
+ResEnergy=60,80
+
+OStr={450 500}
+ODex={200 250}
+OInt={800 850}
+MaxHits=1500
+MaxStam=150
+
+Wrestling={1000 1100}
+Tactics={1000 1100}
+MagicResistance={800 900}
+Parrying={1000 1100}
+Magery={800 1000}
+EvaluatingIntel={700 900}
+Meditation={700 900}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={1000 1200}
+
+On=@DeathCorpse
+NewItem={RandomBone 1 RandomBodyPart 1}
+NewItem={RandomBone 1 RandomBodyPart 1}
+NewItem={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1},1
+NewItem={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1},1
+NewItem={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1},1
+NewItem={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1},1
+NewItem={RandomMageryReagent 1 RandomNecromancyReagent 1},{4 6}
+NewItem={RandomMageryReagent 1 RandomNecromancyReagent 1},{4 6}
+NewItem=RandomMageryWand,1,R19
+
+[EOF]

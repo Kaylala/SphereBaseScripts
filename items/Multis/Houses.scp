@@ -1,0 +1,534 @@
+[Comment Notes]
+DupeList=<Val> MUST be removed. Need to get component lists for housing. These wont work.
+VERSION=0.56c
+
+[MultiDef 064]
+DefName=mStoneAndPlasterHouse
+Name=Stone and plaster house
+NameLoc=1011303// Stone and plaster house
+Type=tMulti
+Value=37000
+dupelist=065
+TSpeech=spkHouseCommands
+
+Category=Multis
+Subsection=Houses
+Description=Stone and Plaster House
+
+MultiRegion=-3,-3,3,4
+Component=iWoodDoor,0,3,7
+Component=iBrassSign2,2,4,5
+
+[MultiDef 065]
+//Small Stone and Plaster House
+dupeitem=064
+
+[MultiDef 066]
+DefName=mFieldStoneHouse
+Name=Field stone house
+NameLoc=1011304// Field stone house
+Type=tMulti
+Value=37000
+dupelist=067
+TSpeech=spkHouseCommands
+
+Category=Multis
+Subsection=Houses
+Description=Field Stone House
+
+MultiRegion=-3,-3,3,4
+Component=iWoodDoor,0,3,7
+Component=iBrassSign2,2,4,5
+
+[MultiDef 067]
+//Field Stone House
+dupeitem=066
+
+[MultiDef 068]
+DefName=mSmallBrickHouse
+Name=Small brick house
+NameLoc=1011305// Small brick house
+Type=tMulti
+Value=36750
+dupelist=069
+TSpeech=spkHouseCommands
+
+Category=Multis
+Subsection=Houses
+Description=Small Brick House
+
+MultiRegion=-3,-3,3,4
+Component=iWoodDoor,0,3,7
+Component=iBrassSign2,2,4,5
+
+[MultiDef 069]
+//Small Brick House
+dupeitem=068
+
+[MultiDef 06a]
+DefName=mWoodenHouse
+Name=Wooden house
+NameLoc=1011306// Wooden house
+Type=tMulti
+Value=36750
+dupelist=06b
+TSpeech=spkHouseCommands
+
+Category=Multis
+Subsection=Houses
+Description=Wooden House
+
+MultiRegion=-3,-3,3,4
+Component=iWoodDoor,0,3,7
+Component=iBrassSign2,2,4,5
+
+[MultiDef 06b]
+//Wooden House
+dupeitem=06a
+
+[MultiDef 06c]
+DefName=mWoodAndPlasterHouse
+Name=Wood and plaster house
+NameLoc=1011307// Wood and plaster house
+Type=tMulti
+Value=36750
+dupelist=06d
+TSpeech=spkHouseCommands
+
+Category=Multis
+Subsection=Houses
+Description=Wood and Plaster House
+
+MultiRegion=-3,-3,3,4
+Component=iWoodDoor,0,3,7
+Component=iBrassSign2,2,4,5
+
+[MultiDef 06d]
+//Wood and Plaster House
+dupeitem=0406c
+
+[MultiDef 06e]
+DefName=mThatchedRoofCottage
+Name=Thatched-roof cottage
+NameLoc=1011308// Thatched-roof cottage
+Type=tMulti
+Value=36750
+dupelist=06f
+TSpeech=spkHouseCommands
+
+Category=Multis
+Subsection=Houses
+Description=Thatched-Roof Cottage
+
+MultiRegion=-3,-3,3,4
+Component=iWoodDoor,0,3,7
+Component=iBrassSign2,2,4,5
+
+[MultiDef 06f]
+// Thatched-roof cottage
+dupeitem=0406e
+
+[MultiDef 070]
+DefName=mBlueTent
+Name=Blue Tent
+Type=tMulti
+Value=22000
+dupelist=071
+TSpeech=spkHouseCommands
+
+Category=Multis
+Subsection=Tents
+Description=Blue Tent
+
+MultiRegion=-3,-3,4,4
+Component=0e43,0,-1,7
+
+[MultiDef 071]
+//Blue Tent
+dupeitem=04070
+
+[MultiDef mBlueTent1]
+id=mBlueTent
+Name=Blue Tent
+Type=tMulti
+Value=22000
+TSpeech=spkHouseCommands
+
+Category=Multis
+Subsection=Tents
+Description=Blue Tent (with Sign and Doors)
+
+MultiRegion=-3,-3,4,4
+Component=0675,0,3,0
+Component=0677,1,3,0
+Component=iBrassSign2,2,4,1
+
+[MultiDef 072]
+DefName=mGreenTent
+Name=Green Tent
+Type=tMulti
+Value=22000
+TSpeech=spkHouseCommands
+
+Category=Multis
+Subsection=Tents
+Description=Green Tent
+
+MultiRegion=-3,-3,4,4
+Component=0e43,0,-1,7// box
+dupelist=073
+
+[MultiDef 073]
+//Green Tent
+dupeitem=04072
+
+[MultiDef mGreenTent1]
+id=mGreenTent
+Name=Green Tent
+Type=tMulti
+Value=22000
+TSpeech=spkHouseCommands
+
+Category=Multis
+Subsection=Tents
+Description=Green Tent (with Sign and Doors)
+
+MultiRegion=-3,-3,4,4
+Component=0675,0,3,0
+Component=0677,1,3,0
+Component=iBrassSign2,2,4,1
+
+[MultiDef 074]
+DefName=mBrickHouse
+Name=Brick house
+NameLoc=1011309// Brick house
+Type=tMulti
+Value=131500
+dupelist=075
+TSpeech=spkHouseCommands
+
+Category=Multis
+Subsection=Houses
+Description=Brick House
+
+MultiRegion=-7,-7,6,6
+Component=iWoodDoor,-1,6,7
+Component=06A7,0,6,7
+Component=iWoodDoor,-3,-1,7
+Component=iWoodDoor,3,-1,7// Front door.
+Component=iBrassSign2,3,7,5// Place the sign.
+
+[MultiDef 075]
+//Three Room House
+dupeitem=04074
+
+[MultiDef 076]
+DefName=mTwoStoryWoodAndPlasterHouse
+Name=Two-story wood and plaster house
+NameLoc=1011310// Two-story wood and plaster house
+Type=tMulti
+Value=162750
+dupelist=077
+TSpeech=spkHouseCommands
+
+Category=Multis
+Subsection=Houses
+Description=Two-Story Wood and Plaster House
+
+MultiRegion=-7,-7,6,7
+Component=iWoodDoor,-3,6,7
+Component=06A7,-2,6,7
+Component=iWoodDoor,-2,0,27
+Component=iWoodDoor,-3,0,7// Front door.
+Component=iBrassSign2,1,7,5// Place the sign.
+
+[MultiDef 077]
+//Two Story Wood and Plaster House
+dupeitem=04076
+
+[MultiDef 078]
+DefName=mTwoStoryStoneAndPlasterHouse
+Name=Two-story stone and plaster house
+NameLoc=1011311// Two-story stone and plaster house
+Type=tMulti
+Value=162000
+dupelist=079
+TSpeech=spkHouseCommands
+
+Category=Multis
+Subsection=Houses
+Description=Two-Story Stone and Plaster House
+
+MultiRegion=-7,-7,6,7
+Component=iWoodDoor,-3,6,7
+Component=06A7,-2,6,7
+Component=iWoodDoor,-3,0,27
+Component=iWoodDoor,-3,0,7 // Front door.
+Component=iBrassSign2,1,7,5 // Place the sign.
+
+[MultiDef 079]
+//Two Story Stone and Plaster House
+dupeitem=04078
+
+[MultiDef 07a]
+DefName=mTower
+Name=Tower
+NameLoc=1011312// Tower
+Type=tMulti
+Value=366500
+dupelist=07b
+TSpeech=spkHouseCommands
+
+Category=Multis
+Subsection=Houses
+Description=Tower
+
+MultiRegion=-11,-7,12,8
+Component=067D,1,4,46
+Component=067D,1,4,26
+Component=iMetalDoor,3,-2,7
+Component=0677,1,6,7// Front door 2.
+Component=iMetalDoor,0,6,7// Front door 1.
+Component=iBrassSign2,4,7,5// Place the sign.
+
+[MultiDef 07b]
+//Tower
+dupeitem=0407a
+
+[MultiDef 07c]
+DefName=mSmallStoneKeep
+Name=Small stone keep
+NameLoc=1011313// Small stone keep
+Type=tMulti
+Value=562750
+dupelist=07d
+TSpeech=spkHouseCommands
+
+Category=Multis
+Subsection=Houses
+Description=Small Stone Keep
+
+MultiRegion=-11,-11,12,12
+Component=0677,1,10,7// Front door 2.
+Component=iMetalDoor,0,10,7// Front door 1.
+Component=iBrassSign2,4,11,5// Place the sign.
+
+[MultiDef 07d]
+//small stone keep
+dupeitem=0407c
+
+[MultiDef 07e]
+DefName=mCastle
+Name=Castle
+NameLoc=1011314// Castle
+Type=tMulti
+Value=865250
+dupelist=07f
+TSpeech=spkHouseCommands
+
+Category=Multis
+Subsection=Houses
+Description=Castle
+
+MultiRegion=-15,-15,15,16
+Component=0677,1,5,7
+Component=iMetalDoor,0,5,7
+Component=0677,1,15,7// Front door 2.
+Component=iMetalDoor,0,15,7// Front door 1.
+Component=iBrassSign2,4,16,5// Place the sign.
+Component=0677,1,11,6
+Component=iMetalDoor,0,11,6
+Component=0677,0,-11,6
+Component=iMetalDoor,-1,-11,6
+
+[MultiDef 07f]
+//Name=Castle
+dupeitem=0407e
+
+[MultiDef 087]
+DefName=mLargeHouseWithPatio2
+Name=Large house with patio
+NameLoc=1011315// Large house with patio
+Type=tMulti
+Value=129250
+TSpeech=spkHouseCommands
+
+Category=Multis
+Subsection=Houses
+Description=Large House with Patio
+
+MultiRegion=-7,-7,7,7
+Component=iWoodDoor,4,-1,7
+Component=06ad,1,4,7
+Component=06ad,1,-4,7
+Component=06A7,-3,6,7// Front door 2.
+Component=iWoodDoor,-4,6,7// Front door 1.
+Component=iBrassSign2,0,7,5// Place the sign.
+
+[MultiDef 08c]
+// minor support diff from 4087
+DefName=mLargeHouseWithPatio
+Name=Large house with patio
+NameLoc=1011315// Large house with patio
+Type=tMulti
+Value=129250
+dupelist=08d
+TSpeech=spkHouseCommands
+
+Category=Multis
+Subsection=Houses
+Description=Large House with Patio
+
+MultiRegion=-7,-7,7,7
+Component=iWoodDoor,4,-1,7
+Component=06ad,1,4,7
+Component=06ad,1,-4,7
+Component=06A7,-3,6,7// Front door 2.
+Component=iWoodDoor,-4,6,7// Front door 1.
+Component=iBrassSign2,0,7,5// Place the sign.
+
+[MultiDef 08d]
+//Large House with Patio
+dupeitem=0408c
+
+// Marble House with Patio
+// aka Villa.
+[MultiDef 096]
+DefName=mMarbleHouseWithPatio
+Name=Marble house with patio
+NameLoc=1011316// Marble house with patio
+Type=tMulti
+Value=160500
+TSpeech=spkHouseCommands
+
+Category=Multis
+Subsection=Houses
+Description=Marble House with Patio
+
+MultiRegion=-7,-7,7,7
+Component=iMetalDoor,-4,3,4
+Component=0677,-3,3,4
+Component=iBrassSign2,0,7,0
+
+[MultiDef 098]
+// Small Stone Tower
+DefName=mSmallStoneTower
+Name=Small stone tower
+NameLoc=1011317// Small stone tower
+Type=tMulti
+Value=73500
+TSpeech=spkHouseCommands
+
+Category=Multis
+Subsection=Houses
+Description=Small Stone Tower
+
+MultiRegion=-3,-3,4,4
+Component=iMetalDoor,3,3,6
+Component=iBrassSign2,1,4,5
+
+// Two-Story Log Cabin
+// aka Log Cabin
+[MultiDef 09a]
+DefName=mTwoStoryLogCabin
+Name=Two-story log cabin
+NameLoc=1011318// Two-story log cabin
+Type=tMulti
+Value=81750
+TSpeech=spkHouseCommands
+
+Category=Multis
+Subsection=Houses
+Description=Two-Story Log Cabin
+
+MultiRegion=-3,-6,4,7
+Component=06e5,1,4,8
+Component=06e5,1,0,29
+Component=iBrassSign2,4,7,9
+//Component=08a4,3,-3,8 //temp wood ladder,rope not working
+//Component=08a2,3,-4,20 //temp wood ladder,rope not working
+
+[MultiDef 09c]
+DefName=mSandstoneHouseWithPatio
+Name=Sandstone house with patio
+NameLoc=1011320// Sandstone house with patio
+Type=tMulti
+Value=76500
+TSpeech=spkHouseCommands
+
+Category=Multis
+Subsection=Houses
+Description=Sandstone House with Patio
+
+MultiRegion=-5,-4,6,4
+Component=iWoodDoor2,-1,3,6
+Component=iBrassSign2,2,4,1
+
+[MultiDef 09e]
+DefName=mTwoStoryVilla
+Name=Two-story villa
+NameLoc=1011319// Two-story villa
+Type=tMulti
+Value=113750
+TSpeech=spkHouseCommands
+
+Category=Multis
+Subsection=Houses
+Description=Two-Story Villa
+
+MultiRegion=-5,-5,5,6
+Component=iWoodDoor,-3,-1,25
+Component=06b3,1,0,25
+Component=iWoodDoor,3,1,5
+Component=06a7,4,1,5
+Component=iBrassSign2,1,6,2
+
+[MultiDef 0a0]
+DefName=mSmallStoneWorkshop
+Name=Small Stone Workshop
+NameLoc=1011321// Small stone workshop
+Type=tMulti
+Value=50500
+TSpeech=spkHouseCommands
+
+Category=Multis
+Subsection=Houses
+Description=Small Stone Shop
+
+MultiRegion=-3,-3,3,4
+Component=067b,-2,0,27
+Component=iBrassSign2,3,4,7
+
+[MultiDef 0a2]
+DefName=mSmallMarbleWorkshop
+Name=Small Marble Workshop
+NameLoc=1011322// Small marble workshop
+Type=tMulti
+Value=52500
+TSpeech=spkHouseCommands
+
+Category=Multis
+Subsection=Houses
+Description=Small Marble Shop
+
+MultiRegion=-3,-3,3,4
+Component=067b,-2,0,24
+Component=iBrassSign2,3,4,5
+
+[MultiDef 0bb8]
+DefName=mWheatCottage
+Name=Wheat Cottage
+Type=tMulti
+Value=76500
+TSpeech=spkHouseCommands
+
+Category=Multis
+Subsection=Houses
+Description=Wheat Cottage
+
+MultiRegion=-4,-5,4,5
+Component=06ad,4,0,0
+Component=0b9b,5,-4,1
+Component=iBrassSign2,5,-4,0
+
+[eof]

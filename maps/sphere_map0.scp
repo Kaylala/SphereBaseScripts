@@ -1,0 +1,1786 @@
+//****************************************************************************
+// SPHERE by : Menasoft ©1997-2014
+// www.sphereserver.net
+// All SPHERE script files and formats are copyright Menasoft & Partners.
+// This file may be freely edited for personal use, but may not be distributed
+// in whole or in part, in any format without express written permission from
+// Menasoft & Partners.  All donations and contributions
+// become the property of Menasoft & Partners.
+//****************************************************************************
+// FILE LAST UPDATED: Sunday, Nov 30, 2014
+//
+VERSION=0.56c
+
+[COMMENT sphere_map0]
+This file (and other map files like it) define map areas (also known as
+AreaDef and RoomDef, and typically Named a_something) using one or more
+Rect= properties that describe a Rectangle.  The Rect= property uses 5 values
+to describe the Rectangle:  The first two numbers are the coordinate of the
+upper left corner of the region, and the second two are the coordinates of
+the lower right, the last number is the map.
+
+If an area of the map is NOT covered by a Rectangle, that area is unusable
+(nothing can move there) which is why each map file typically first defines
+a Rectangle covering "the entire map".
+
+The order of the map regions in this file can be important when Rectangles
+overlap each others perimiter (as opposed to being fully enclosed.)
+Because of this situation you may need to shuffle specific regions up or
+down in the file to properly define partially overlapping regions.
+
+WARNING: NEVER edit a map file on a running server!
+
+
+////////////////////////////////////////
+// Facet
+////////////////////////////////////////
+
+[AreaDef aFelucca]
+Name=Felucca
+Group=Felucca: ALLMAP
+P=1323,1624,55,0
+Rect=0,0,7168,4096,0
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaLostLands]	//T2A
+Name=Lost Lands
+Group=Felucca: ALLMAP
+P=5729,3209,-1,0
+Rect=5119,2303,6144,4095,0
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+////////////////////////////////////////
+// Sphere custom regions
+////////////////////////////////////////
+
+[AreaDef aFeluccaGreenAcres]
+Name=Green Acres
+Group=Felucca: Green Acres
+P=5454,1103,0,0
+Rect=5374,1079,5631,1280,0
+Rect=5630,1023,6143,1279,0
+Rect=5887,511,6143,1024,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicAll|RegionFlagInstaLogout|RegionFlagSafe
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaGreenAcres2]
+Name=Green Acres 2
+Group=Felucca: Green Acres
+P=5250,392,15,0
+Rect=5120,256,5376,516,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicAll|RegionFlagInstaLogout|RegionFlagSafe
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaGreenAcres3]
+Name=Green Acres 3
+Group=Felucca: Green Acres
+P=5932,1945,0,0
+Rect=5121,2049,6143,2303,0
+Rect=5375,1535,5424,1792,0
+Rect=5423,1536,6144,1791,0
+Rect=5633,1777,6144,2049,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicAll|RegionFlagInstaLogout|RegionFlagSafe
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaJail]
+Name=Jail
+Group=Felucca: Jails
+P=5295,1187,0,0
+Rect=5269,1157,5314,1194,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicAll|RegionFlagInstaLogout|RegionFlagSafe
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[RoomDef aFeluccaJailCell1]
+Name=Jail Cell 1
+Group=Felucca: Jails
+P=5276,1164,0,0
+Rect=5272,1160,5281,1169,0
+
+[RoomDef aFeluccaJailCell2]
+Name=Jail Cell 2
+Group=Felucca: Jails
+P=5286,1164,0,0
+Rect=5282,1160,5291,1169,0
+
+[RoomDef aFeluccaJailCell3]
+Name=Jail Cell 3
+Group=Felucca: Jails
+P=5296,1164,0,0
+Rect=5292,1160,5301,1169,0
+
+[RoomDef aFeluccaJailCell4]
+Name=Jail Cell 4
+Group=Felucca: Jails
+P=5306,1164,0,0
+Rect=5302,1160,5311,1169,0
+
+[RoomDef aFeluccaJailCell5]
+Name=Jail Cell 5
+Group=Felucca: Jails
+P=5276,1174,0,0
+Rect=5272,1170,5281,1179,0
+
+[RoomDef aFeluccaJailCell6]
+Name=Jail Cell 6
+Group=Felucca: Jails
+P=5286,1174,0,0
+Rect=5282,1170,5291,1179,0
+
+[RoomDef aFeluccaJailCell7]
+Name=Jail Cell 7
+Group=Felucca: Jails
+P=5296,1174,0,0
+Rect=5292,1170,5301,1179,0
+
+[RoomDef aFeluccaJailCell8]
+Name=Jail Cell 8
+Group=Felucca: Jails
+P=5306,1174,0,0
+Rect=5302,1170,5311,1179,0
+
+[RoomDef aFeluccaJailCell9]
+Name=Jail Cell 9
+Group=Felucca: Jails
+P=5283,1184,0,0
+Rect=5272,1180,5291,1191,0
+
+[RoomDef aFeluccaJailCell10]
+Name=Jail Cell 10
+Group=Felucca: Jails
+P=5304,1184,0,0
+Rect=5292,1180,5311,1191,0
+
+////////////////////////////////////////
+// Cities and nearby regions
+////////////////////////////////////////
+
+//Britain
+
+[AreaDef aFeluccaBritainTerritory]
+Name=Britain Territory
+Group=Felucca: Britain
+P=1261,1666,0,0
+Rect=1157,1391,1790,2048,0
+Rect=925,1503,1158,2047,0
+Rect=1152,1170,2126,1397,0
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaBritain]
+Name=Britain
+Group=Felucca: Britain
+P=1495,1629,10,0
+Rect=1408,1517,1691,1778,0
+Rect=1436,1502,1670,1517,0
+Rect=1522,1778,1641,1794,0
+Rect=1691,1532,1721,1593,0
+Rect=1388,1697,1410,1743,0
+Rect=1397,1743,1410,1766,0
+Rect=1399,1622,1410,1629,0
+Rect=1377,1743,1397,1756,0	//West Bridge
+Flags=RegionFlagNoBuilding|RegionFlagGuarded
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.GuardOwner=the city
+Tag.Music=MidiBritain1
+
+[AreaDef aFeluccaLordBritishsCastle]
+Name=Lord British's Castle
+Group=Felucca: Britain
+P=1392,1625,30,0
+Rect=1296,1560,1407,1695,0
+Flags=RegionFlagNoBuilding|RegionFlagGuarded
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.Music=MidiLBCastle
+
+[AreaDef aFeluccaLordBlackthornesCastle]
+Name=Lord Blackthorne's Castle
+Group=Felucca: Britain
+P=1523,1449,15,0
+Rect=1500,1405,1550,1478,0
+Rect=1520,1468,1526,1505,0
+Flags=RegionFlagNoBuilding|RegionFlagGuarded
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.Music=MidiBtCastle
+
+[AreaDef aFeluccaBritainGraveyard]
+Name=Britain Graveyard
+Group=Felucca: Britain
+P=1384,1492,10,0
+Rect=1336,1443,1391,1494,0
+Rect=1336,1494,1376,1511,0
+Flags=RegionFlagNoBuilding
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[RoomDef aFeluccaChamberOfVirtue]
+Name=Chamber of Virtue
+Group=Felucca: Britain
+P=1544,1613,10,0
+Rect=1536,1582,1552,1616,0
+Rect=1552,1591,1560,1608,0
+Flags=RegionFlagNoBuilding
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaBritainSewers]
+Name=Britain Sewers
+Group=Felucca: Britain
+P=6032,1499,37,0
+Rect=6025,1423,6143,1528,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+//Minoc
+
+[AreaDef aFeluccaMinocTerritory]
+Name=Minoc Territory
+Group=Felucca: Minoc
+P=2623,466,14,0
+Rect=2389,2,2723,628,0
+Rect=2464,628,2723,708,0
+Rect=2280,1,2389,232,0
+Rect=2723,2,2809,572,0
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaMinoc]
+Name=Minoc
+Group=Felucca: Minoc
+P=2466,544,0,0
+Rect=2390,366,2546,498,0
+Rect=2390,498,2531,504,0
+Rect=2390,504,2546,570,0
+Rect=2460,555,2567,628,0
+Rect=2567,574,2592,628,0	//South houses
+Rect=2580,592,2628,646,0	//South houses
+Rect=2498,627,2567,690,0	//South camp
+Rect=2530,477,2620,550,0	//East mining camp
+Flags=RegionFlagNoBuilding|RegionFlagGuarded
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.GuardOwner=the town
+Tag.Music=MidiMinoc
+
+[AreaDef aFeluccaMinocMiningCamp]
+Name=Minoc Mining Camp
+Group=Felucca: Minoc
+P=2583,529,15,0
+Rect=2559,515,2602,543,0
+Flags=RegionFlagNoBuilding
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+//Serpent's Hold
+
+[AreaDef aFeluccaSerpentsHoldTerritory]
+Name=Serpent's Hold Territory
+Group=Felucca: Serpent's Hold
+P=2863,3518,8,0
+Rect=2717,3243,3196,3678,0
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaSerpentsHold]
+Name=Serpent's Hold
+Group=Felucca: Serpent's Hold
+P=3010,3371,15,0
+Rect=2930,3337,3068,3485,0
+Rect=3051,3331,3074,3357,0
+Rect=2867,3388,2931,3524,0
+Rect=2931,3485,3028,3542,0
+Rect=2891,3524,2916,3534,0
+Flags=RegionFlagNoBuilding
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.Music=MidiSerpents
+
+//Cove
+
+[AreaDef aFeluccaCoveTerritory]
+Name=Cove Territory
+Group=Felucca: Cove
+P=2360,1184,10,0
+Rect=2133,1031,2301,1434,0
+Rect=2264,710,2720,1094,0
+Rect=2299,1073,2720,1279,0
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaCove]
+Name=Cove
+Group=Felucca: Cove
+P=2275,1210,0,0
+Rect=2203,1166,2256,1245,0
+Rect=2284,1219,2292,1235,0
+Rect=2256,1181,2284,1245,0
+Rect=2256,1166,2260,1181,0
+Rect=2203,1108,2243,1166,0
+Flags=RegionFlagNoBuilding|RegionFlagGuarded
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.GuardOwner=the town
+Tag.Music=MidiCove
+
+[AreaDef aFeluccaCoveGraveyard]
+Name=Cove Graveyard
+Group=Felucca: Cove
+P=2442,1117,8,0
+Rect=2423,1098,2455,1120,0
+Rect=2431,1080,2455,1099,0
+Flags=RegionFlagNoBuilding
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaCoveOrcFort]
+Name=Cove Orc Fort
+Group=Felucca: Cove
+P=2171,1318,0,0
+Rect=2151,1343,2193,1374,0
+Rect=2159,1374,2193,1384,0
+Rect=2167,1384,2193,1392,0
+Rect=2175,1391,2200,1400,0
+Rect=2193,1358,2208,1384,0
+Rect=2183,1400,2192,1426,0
+Rect=2159,1319,2184,1343,0
+Flags=RegionFlagNoBuilding
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+//Wind
+
+[AreaDef aFeluccaWind]
+Name=Wind
+Group=Felucca: Wind
+P=5223,190,5,0
+Rect=5121,4,5373,255,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn|RegionFlagNoPVP|RegionFlagGuarded
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.GuardOwner=the town
+Tag.Music=MidiWind
+
+[AreaDef aFeluccaWindEntrance]
+Name=Wind Entrance
+Group=Felucca: Wind
+P=1465,989,0,0
+Rect=1347,881,1456,1010,0
+Rect=1375,847,1431,881,0
+Rect=1456,979,1466,1000,0
+Flags=RegionFlagNoBuilding
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaWindTunnels]
+Name=Wind Tunnels
+Group=Felucca: Wind
+P=5176,185,25,0
+Rect=5122,124,5199,162,0
+Rect=5122,160,5196,252,0
+Rect=5195,201,5268,249,0
+Rect=5253,189,5301,201,0
+Rect=5261,177,5300,189,0
+Rect=5284,151,5313,177,0
+Rect=5291,138,5316,156,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaWindCourtyard]
+Name=Wind Courtyard
+Group=Felucca: Wind
+P=5247,24,15,0
+Rect=5201,8,5286,58,0
+Rect=5213,56,5278,99,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+//Yew
+
+[AreaDef aFeluccaYewTerritory]
+Name=Yew Territory
+Group=Felucca: Yew
+P=823,1060
+Rect=47,21,918,2001,0
+Rect=917,260,1143,1493,0
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaYew]
+Name=Yew
+Group=Felucca: Yew
+P=546,992,0,0
+Rect=306,1144,393,1264,0
+Rect=393,799,680,1264,0
+Rect=680,867,756,1031,0
+Rect=229,929,396,1095,0
+Rect=312,835,393,929,0
+Rect=190,704,395,859,0
+Rect=394,760,621,800,0
+Rect=678,1160,697,1229,0
+Flags=RegionFlagNoBuilding|RegionFlagGuarded
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.GuardOwner=the town
+Tag.Music=MidiYew
+
+[AreaDef aFeluccaYewGraveyard]
+Name=Yew Graveyard
+Group=Felucca: Yew
+P=724,1134,0,0
+Rect=711,1103,736,1136,0
+Flags=RegionFlagNoBuilding
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[RoomDef aFeluccaEmpathAbbey]
+Name=Empath Abbey
+Group=Felucca: Yew
+P=634,851,0,0
+Rect=599,807,623,833,0
+Rect=623,815,648,856,0
+Rect=647,807,672,833,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionFlagInstaLogout
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaYewLichRuin]
+Name=Yew Lich Ruin
+Group=Felucca: Yew
+P=758,1403,0,0
+Rect=740,1406,778,1400,0
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaYewCrypts]
+Name=Yew Crypts
+Group=Felucca: Yew
+P=971,766,0,0
+Rect=941,685,1025,838,0
+Flags=RegionFlagNoBuilding
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+//Vesper
+
+[AreaDef aFeluccaVesperTerritory]
+Name=Vesper Territory
+Group=Felucca: Vesper
+P=3172,607,8,0
+Rect=2724,575,3595,1019,0
+Rect=2814,5,3593,577,0
+Rect=2725,1015,2839,1144,0
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaVesper]
+Name=Vesper
+Group=Felucca: Vesper
+P=2899,676,0,0
+Rect=2730,948,2826,999,0
+Rect=2820,773,2953,1011,0
+Rect=2844,608,2915,773,0
+Rect=2915,608,2983,657,0
+Rect=2983,623,3008,657,0
+Rect=2915,657,2963,773,0
+Rect=2953,738,3042,868,0
+Rect=2963,687,2993,738,0
+Rect=3042,808,3057,849,0
+Rect=2953,868,2992,962,0
+Rect=2828,692,2846,772,0
+Flags=RegionFlagNoBuilding|RegionFlagGuarded
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.GuardOwner=the town
+Tag.Music=MidiVesper
+
+[AreaDef aFeluccaVesperCemetery]
+Name=Vesper Cemetery
+Group=Felucca: Vesper
+P=2781,867,0,0
+Rect=2727,839,2785,896,0
+Flags=RegionFlagNoBuilding
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+//Trinsic
+
+[AreaDef aFeluccaTrinsicTerritory]
+Name=Trinsic Territory
+Group=Felucca: Trinsic
+P=1559,2647,0,0
+Rect=1495,2929,2267,3348,0
+Rect=1550,3344,2606,3692,0
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaTrinsic]
+Name=Trinsic
+Group=Felucca: Trinsic
+P=1867,2780,0,0
+Rect=1791,2691,2066,2768,0
+Rect=1971,2875,2068,2924,0
+Rect=1811,2659,1983,2691,0
+Rect=1850,2631,1928,2659,0
+Rect=1831,2766,2072,2800,0
+Rect=1795,2792,2070,2875,0
+Rect=1811,2874,1939,2890,0
+Rect=1858,2890,1939,2899,0
+Rect=2055,2846,2089,2865,0
+Flags=RegionFlagNoBuilding|RegionFlagGuarded
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.GuardOwner=the town
+Tag.Music=MidiTrinsic
+
+//Skara Brae
+
+[AreaDef aFeluccaSkaraBraeTerritory]
+Name=Skara Brae Territory
+Group=Felucca: Skara Brae
+P=608,2092,0,0
+Rect=429,2008,924,2454,0
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaSkaraBrae]
+Name=Skara Brae
+Group=Felucca: Skara Brae
+P=632,2233,0,0
+Rect=541,2108,645,2227,0
+Rect=714,2132,767,2366,0
+Rect=873,2372,913,2429,0
+Rect=868,2304,885,2388,0
+Rect=645,2128,682,2220,0
+Rect=767,2150,837,2305,0
+Rect=632,2220,714,2259,0
+Rect=560,2222,633,2264,0
+Rect=571,2258,627,2300,0
+Rect=803,2305,868,2371,0
+Rect=767,2305,804,2327,0
+Flags=RegionFlagNoBuilding|RegionFlagGuarded
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.GuardOwner=the town
+Tag.Music=MidiSkaraBrae
+
+//Occlo
+
+[AreaDef aFeluccaOclloTerritory]
+Name=Ocllo Island
+Group=Felucca: Ocllo
+P=3544,2518,16,0
+Rect=3287,2332,3874,2963,0
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaTownOcclo]
+Name=Ocllo
+Group=Felucca: Ocllo
+P=3650,2519,0,0
+Rect=3588,2460,3707,2685,0
+Rect=3695,2558,3760,2705,0
+Flags=RegionFlagNoBuilding
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.Music=MidiOcllo
+
+//Nujel'm
+
+[AreaDef aFeluccaNujelmTerritory]
+Name=Nujel'm Territory
+Group=Felucca: Nujel'm
+P=3730,1279,0,0
+Rect=3429,1023,4060,1537,0
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaNujelm]
+Name=Nujel'm
+Group=Felucca: Nujel'm
+P=3732,1279,0,0
+Rect=3644,1178,3718,1346,0
+Rect=3644,1092,3718,1178,0
+Rect=3652,1050,3698,1092,0
+Rect=3605,1199,3644,1274,0
+Rect=3588,1177,3606,1246,0
+Rect=3534,1157,3588,1222,0
+Rect=3630,1293,3644,1346,0
+Rect=3696,1346,3770,1424,0
+Rect=3718,1175,3798,1347,0
+Rect=3758,1116,3798,1175,0
+Rect=3797,1240,3822,1310,0
+Flags=RegionFlagNoBuilding|RegionFlagGuarded
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.GuardOwner=the town
+Tag.Music=MidiNujelm
+
+[AreaDef aFeluccaNujelmCemetery]
+Name=Nujel'm Cemetery
+Group=Felucca: Nujel'm
+P=3536,1151,20,0
+Rect=3502,1139,3532,1163,0
+Rect=3530,1142,3553,1152,0
+Rect=3530,1127,3543,1143,0
+Rect=3517,1121,3540,1140,0
+Flags=RegionFlagNoBuilding
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+//Magincia
+
+[AreaDef aFeluccaMaginciaTerritory]
+Name=Magincia Territory
+Group=Felucca: Magincia
+P=3647,2145,33,0
+Rect=3502,1988,3865,2322,0
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaMagincia]
+Name=Magincia
+Group=Felucca: Magincia
+P=3714,2220,20,0
+Rect=3654,2094,3746,2263,0
+Rect=3746,2094,3783,2128,0
+Rect=3677,2016,3752,2094,0
+Rect=3746,2207,3814,2281,0
+Rect=3653,2263,3696,2300,0
+Flags=RegionFlagNoBuilding|RegionFlagGuarded
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.GuardOwner=the town
+Tag.Music=MidiMagincia
+
+//Jhelom
+
+[AreaDef aFeluccaJhelomTerritory]
+Name=Jhelom Territory
+Group=Felucca: Jhelom
+P=1414,3824,0,0
+Rect=987,3353,1545,4076,0
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaJhelomIslands]
+Name=Jhelom Islands
+Group=Felucca: Jhelom
+P=1383,3815,0,0
+Rect=1111,3567,1144,3588,0
+Rect=1078,3588,1202,3709,0
+Rect=1224,3592,1533,4065,0
+Flags=RegionFlagNoBuilding
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.Music=MidiJhelom
+
+[AreaDef aFeluccaJhelom]
+Name=Jhelom
+Group=Felucca: Jhelom
+P=1383,3815,0,0
+Rect=1303,3670,1492,3895,0
+Rect=1338,3895,1412,3923,0
+Rect=1383,3951,1492,4045,0
+Flags=RegionFlagNoBuilding|RegionFlagGuarded
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.GuardOwner=the town
+Tag.Music=MidiJhelom
+
+[AreaDef aFeluccaJhelomCemetery]
+Name=Jhelom Cemetery
+Group=Felucca: Jhelom
+P=1291,3719,0,0
+Rect=1271,3711,1293,3743,0
+Rect=1279,3736,1296,3752,0
+Rect=1293,3722,1301,3736,0
+Flags=RegionFlagNoBuilding
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+//Buccaneer's Den
+
+[AreaDef aFeluccaBuccaneersDenTerritory]
+Name=Buccaneer's Den Territory
+Group=Felucca: Buccaneer's Den
+P=2706,2163,0,0
+Rect=2562,1918,3008,2380,0
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaBuccaneersDen]
+Name=Buccaneer's Den
+Group=Felucca: Buccaneer's Den
+P=2706,2163,0,0
+Rect=2612,2057,2776,2267,0
+Rect=2604,2065,2612,2254,0
+Flags=RegionFlagNoBuilding
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.Music=MidiBuccaneersDen
+
+//Moonglow
+
+[AreaDef aFeluccaMoonglowTerritory]
+Name=Moonglow Territory
+Group=Felucca: Moonglow
+P=4456,1235,0,0
+Rect=4104,774,5112,1582,0
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaMoonglow]
+Name=Moonglow
+Group=Felucca: Moonglow
+P=4442,1172,0,0
+Rect=4379,1045,4439,1176,0
+Rect=4383,1021,4430,1045,0
+Rect=4439,1048,4497,1142,0
+Rect=4379,1176,4399,1181,0
+Rect=4439,1142,4489,1176,0
+Rect=4459,1176,4485,1184,0
+Flags=RegionFlagNoBuilding|RegionFlagGuarded
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.GuardOwner=the town
+Tag.Music=MidiMoonglow
+
+[AreaDef aFeluccaMoonglowCemetery]
+Name=Moonglow Cemetery
+Group=Felucca: Moonglow
+P=4546,1333,8,0
+Rect=4527,1313,4558,1336,0
+Rect=4535,1296,4558,1313,0
+Flags=RegionFlagNoBuilding
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaMoonglowZoo]
+Name=Moonglow Zoo
+Group=Felucca: Moonglow
+P=4540,1378,20,0
+Rect=4479,1375,4525,1400,0
+Rect=4487,1353,4537,1375,0
+Rect=4525,1375,4537,1393,0
+Flags=RegionFlagNoBuilding
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaLycaeum]
+Name=Lycaeum
+Group=Felucca: Moonglow
+P=4310,1009,0,0
+Rect=4285,947,4336,1012,0
+Flags=RegionFlagNoBuilding
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+//Papua
+
+[AreaDef aFeluccaPapua]		//T2A
+Name=Papua
+Group=Felucca: Papua
+P=5729,3209,-1,0
+Rect=5639,3095,5831,3318,0
+Rect=5831,3237,5851,3267,0
+Flags=RegionFlagNoBuilding|RegionFlagGuarded
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+//Delucia
+
+[AreaDef aFeluccaDelucia]		//T2A
+Name=Delucia
+Group=Felucca: Delucia
+P=5272,3995,37,0
+Rect=5123,3942,5314,4064,0
+Rect=5147,4064,5272,4084,0
+Rect=5235,3930,5314,3942,0
+Flags=RegionFlagNoBuilding|RegionFlagGuarded
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaDeluciaOrcFort]	//T2A
+Name=Delucia Orc Fort
+Group=Felucca: Delucia
+P=5211,3629,-2,0
+Rect=5199,3606,5230,3630,0
+Flags=RegionFlagNoBuilding
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaDeluciaPassage]	//T2A
+Name=Delucia Passage
+Group=Felucca: Delucia
+P=5955,1352,0,0
+Rect=5889,1283,6037,1415,0
+Rect=6037,1298,6050,1325,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+////////////////////////////////////////
+// Dungeons
+////////////////////////////////////////
+
+[AreaDef aFeluccaWrongLevel1]
+Name=Wrong Level 1
+Group=Felucca: Wrong
+P=5825,630,0,0
+Rect=5773,513,5884,636,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.Music=MidiDungeon9
+
+[AreaDef aFeluccaWrongLevel2]
+Name=Wrong Level 2
+Group=Felucca: Wrong
+P=5690,568,25,0
+Rect=5641,516,5742,586,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.Music=MidiDungeon9
+
+[AreaDef aFeluccaWrongLevel3]
+Name=Wrong Level 3
+Group=Felucca: Wrong
+P=5703,639,0,0
+Rect=5685,623,5722,668,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.Music=MidiDungeon9
+
+[AreaDef aFeluccaShameLevel1]
+Name=Shame Level 1
+Group=Felucca: Shame
+P=5395,126,0,0
+Rect=5379,5,5498,131,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.Music=MidiDungeon9
+
+[AreaDef aFeluccaShameLevel2]
+Name=Shame Level 2
+Group=Felucca: Shame
+P=5515,15,5,0
+Rect=5507,3,5632,126,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.Music=MidiDungeon9
+
+[AreaDef aFeluccaShameLevel3]
+Name=Shame Level 3
+Group=Felucca: Shame
+P=5516,142,25,0
+Rect=5379,133,5626,261,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.Music=MidiDungeon9
+
+[AreaDef aFeluccaShameLevel4]
+Name=Shame Level 4
+Group=Felucca: Shame
+P=5506,180,0,0
+Rect=5495,157,5520,194,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.Music=MidiDungeon9
+
+[AreaDef aFeluccaShameLevel5]
+Name=Shame Level 5
+Group=Felucca: Shame
+P=5876,22,-10,0
+Rect=5638,2,5889,122,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.Music=MidiDungeon9
+
+[AreaDef aFeluccaHythlothLevel1]
+Name=Hythloth Level 1
+Group=Felucca: Hythloth
+P=5906,22,44,0
+Rect=5902,15,6001,114,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.Music=MidiDungeon9
+
+[AreaDef aFeluccaHythlothLevel2]
+Name=Hythloth Level 2
+Group=Felucca: Hythloth
+P=5978,171,0,0
+Rect=5911,143,6002,243,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.Music=MidiDungeon9
+
+[AreaDef aFeluccaHythlothLevel3]
+Name=Hythloth Level 3
+Group=Felucca: Hythloth
+P=6083,148,-22,0
+Rect=6021,141,6130,235,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.Music=MidiDungeon9
+
+[AreaDef aFeluccaHythlothLevel4]
+Name=Hythloth Level 4
+Group=Felucca: Hythloth
+P=6059,92,22,0
+Rect=6047,28,6122,107,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.Music=MidiDungeon9
+
+[AreaDef aFeluccaDestardLevel1]
+Name=Destard Level 1
+Group=Felucca: Destard
+P=5243,1004,0,0
+Rect=5121,771,5366,1025,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.Music=MidiDungeon9
+
+[AreaDef aFeluccaDestardLevel2]
+Name=Destard Level 2
+Group=Felucca: Destard
+P=5144,802,5,0
+Rect=5123,794,5186,885,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.Music=MidiDungeon9
+
+[AreaDef aFeluccaDestardLevel3]
+Name=Destard Level 3
+Group=Felucca: Destard
+P=5136,985,10,0
+Rect=5125,954,5154,1020,0
+Rect=5153,982,5198,1020,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.Music=MidiDungeon9
+
+[AreaDef aFeluccaDespiseLevel1]
+Name=Despise Level 1
+Group=Felucca: Despise
+P=5501,570,59,0
+Rect=5378,517,5515,637,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.Music=MidiDungeon9
+
+[AreaDef aFeluccaDespiseLevel2]
+Name=Despise Level 2
+Group=Felucca: Despise
+P=5583,632,30,0
+Rect=5566,622,5591,643,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.Music=MidiDungeon9
+
+[AreaDef aFeluccaDespiseLevel3]
+Name=Despise Level 3
+Group=Felucca: Despise
+P=5518,673,20,0
+Rect=5378,644,5530,767,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.Music=MidiDungeon9
+
+[AreaDef aFeluccaDespiseLevel4]
+Name=Despise Level 4
+Group=Felucca: Despise
+P=5405,860,45,0
+Rect=5381,774,5627,1020,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.Music=MidiDungeon9
+
+[AreaDef aFeluccaDeceitLevel1]
+Name=Deceit Level 1
+Group=Felucca: Deceit
+P=5187,635,0,0
+Rect=5135,526,5235,642,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.Music=MidiDungeon9
+
+[AreaDef aFeluccaDeceitLevel2]
+Name=Deceit Level 2
+Group=Felucca: Deceit
+P=5307,536,0,0
+Rect=5275,525,5355,634,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.Music=MidiDungeon9
+
+[AreaDef aFeluccaDeceitLevel3]
+Name=Deceit Level 3
+Group=Felucca: Deceit
+P=5138,653,0,0
+Rect=5124,644,5234,769,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.Music=MidiDungeon9
+
+[AreaDef aFeluccaDeceitLevel4]
+Name=Deceit Level 4
+Group=Felucca: Deceit
+P=5307,655,0,0
+Rect=5252,644,5339,765,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.Music=MidiDungeon9
+
+[AreaDef aFeluccaCovetousLevel1]
+Name=Covetous Level 1
+Group=Felucca: Covetous
+P=5456,1862,0,0
+Rect=5380,1848,5421,1963,0
+Rect=5421,1848,5510,1943,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.Music=MidiDungeon9
+
+[AreaDef aFeluccaCovetousLevel2]
+Name=Covetous Level 2
+Group=Felucca: Covetous
+P=5613,1998,0,0
+Rect=5425,1948,5624,2044,0
+Rect=5384,1964,5425,2030,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.Music=MidiDungeon9
+
+[AreaDef aFeluccaCovetousLevel3]
+Name=Covetous Level 3
+Group=Felucca: Covetous
+P=5579,1925,0,0
+Rect=5532,1821,5630,1930,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.Music=MidiDungeon9
+
+[AreaDef aFeluccaCovetousLevel4]
+Name=Covetous Level 4
+Group=Felucca: Covetous
+P=5539,1808,0,0
+Rect=5498,1797,5565,1821,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.Music=MidiDungeon9
+
+[AreaDef aFeluccaCovetousLevel5]
+Name=Covetous Level 5
+Group=Felucca: Covetous
+P=5467,1809,0,0
+Rect=5400,1794,5489,1834,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.Music=MidiDungeon9
+
+[AreaDef aFeluccaIceDungeonLevel1]		//T2A
+Name=Ice Dungeon Level 1
+Group=Felucca: Ice Dungeon
+P=5875,150,15,0
+Rect=5663,130,5891,274,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.Music=MidiDungeon9
+
+[AreaDef aFeluccaIceDungeonLevel2]		//T2A
+Name=Ice Dungeon Level 2
+Group=Felucca: Ice Dungeon
+P=5833,328,19,0
+Rect=5799,316,5870,381,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.Music=MidiDungeon9
+
+[AreaDef aFeluccaIceDungeonLevel3]		//T2A
+Name=Ice Dungeon Level 3
+Group=Felucca: Ice Dungeon
+P=5702,305,0,0
+Rect=5649,294,5713,350,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.Music=MidiDungeon9
+
+[AreaDef aFeluccaFireDungeonLevel1]	//T2A
+Name=Fire Dungeon Level 1
+Group=Felucca: Fire Dungeon
+P=5790,1416,40,0
+Rect=5663,1402,5884,1519,0
+Rect=5764,1284,5884,1408,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.Music=MidiDungeon9
+
+[AreaDef aFeluccaFireDungeonLevel2]	//T2A
+Name=Fire Dungeon Level 2
+Group=Felucca: Fire Dungeon
+P=5702,1315,1,0
+Rect=5630,1284,5763,1401,0
+Rect=5630,1397,5662,1456,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.Music=MidiDungeon9
+
+////////////////////////////////////////
+// Lost Lands - T2A
+////////////////////////////////////////
+
+[AreaDef aFeluccaTerathanKeep]
+Name=Terathan Keep
+Group=Felucca: Lost Lands
+P=5451,3140,-60,0
+Rect=5404,3099,5481,3167,0
+Rect=5120,1530,5374,1788,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.Music=MidiDungeon9
+
+[AreaDef aFeluccaOphidianLair]
+Name=Ophidian Lair
+Group=Felucca: Lost Lands
+P=5767,2633,46,0
+Rect=5750,2607,5785,2625,0
+Rect=5756,2624,5779,2635,0
+Rect=5752,2635,5771,2646,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaCyclopsValley]
+Name=Cyclops Valley
+Group=Felucca: Lost Lands
+P=5142,2904,51,0
+Rect=5121,2826,5219,3072,0
+Flags=RegionFlagNoBuilding
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaCityOfTheDead]
+Name=City of the Dead
+Group=Felucca: Lost Lands
+P=5220,3665,-3,0
+Rect=5194,3644,5247,3686,0
+Flags=RegionFlagNoBuilding
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+// Orc Fort
+[AreaDef aFeluccaOrcishLands]
+Name=Orcish Lands
+Group=Felucca: Lost Lands
+P=6003,3254,-4,0
+Rect=5889,3188,6135,3326,0
+Flags=RegionFlagNoBuilding
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaHoppersBog]
+Name=Hopper's Bog
+Group=Felucca: Lost Lands
+P=6006,3464,6,0
+Rect=5890,3328,6134,3574,0
+Flags=RegionFlagNoBuilding
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaSakTeb]
+Name=Sak Teb
+Group=Felucca: Lost Lands
+P=5766,2920,37,0
+Rect=5644,2824,5864,3030,0
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+////////////////////////////////////////
+// Misc
+////////////////////////////////////////
+
+[AreaDef aFeluccaOrcCave1]
+Name=Orc Cave Level 1
+Group=Felucca: Orc Cave
+P=5144,1982,0,0
+Rect=5131,1945,5162,2021,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.Music=MidiDungeon9
+
+[AreaDef aFeluccaOrcCave2]
+Name=Orc Cave Level 2
+Group=Felucca: Orc Cave
+P=5354,1307,0,0
+Rect=5284,1284,5371,1388,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.Music=MidiDungeon9
+
+[AreaDef aFeluccaOrcCave3]
+Name=Orc Cave Level 3
+Group=Felucca: Orc Cave
+P=5304,2012,0,0
+Rect=5267,1953,5363,2045,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.Music=MidiDungeon9
+
+[AreaDef aFeluccaKhaldun]
+Name=Khaldun
+Group=Felucca: Khaldun
+P=5571,1302,0,0
+Rect=5381,1284,5628,1509,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.Music=MidiDungeon9
+
+[AreaDef aFeluccaDungeon1]
+Name=Dungeon
+Group=Felucca: Other Dungeons
+P=6091,1313,15,0
+Rect=6057,1285,6137,1327,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaDungeon2]
+Name=Dungeon
+Group=Felucca: Other Dungeons
+P=5248,1462,0,0
+Rect=5125,1409,5372,1516,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaDungeon3]
+Name=Dungeon
+Group=Felucca: Other Dungeons
+P=5132,1324,0,0
+Rect=5124,1284,5230,1390,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaDungeon4]
+Name=Dungeon
+Group=Felucca: Other Dungeons
+P=5296,1905,0,0
+Rect=5259,1873,5333,1937,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaDungeon5]
+Name=Dungeon
+Group=Felucca: Other Dungeons
+P=5230,1963,0,0
+Rect=5194,1942,5266,1984,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaDungeon6]
+Name=Dungeon
+Group=Felucca: Other Dungeons
+P=5217,2024,0,0
+Rect=5185,2006,5249,2042,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaDungeon7]
+Name=Dungeon
+Group=Felucca: Other Dungeons
+P=5185,1940,0,0
+Rect=5172,1876,5222,1919,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaDungeon8]
+Name=Dungeon
+Group=Felucca: Other Dungeons
+P=5144,1879,0,0
+Rect=5126,1863,5171,1917,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaDungeon9]
+Name=Dungeon
+Group=Felucca: Other Dungeons
+P=5305,1857,0,0
+Rect=5297,1805,5345,1863,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaDungeon10]
+Name=Dungeon
+Group=Felucca: Other Dungeons
+P=5221,1862,0,0
+Rect=5200,1813,5271,1865,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaDungeon11]
+Name=Dungeon
+Group=Felucca: Other Dungeons
+P=5164,1829,0,0
+Rect=5130,1810,5169,1847,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaDungeon12]
+Name=Dungeon
+Group=Felucca: Other Dungeons
+P=5268,1755,0,0
+Rect=5244,1748,5276,1780,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaDungeon13]
+Name=Dungeon
+Group=Felucca: Other Dungeons
+P=5212,1748,0,0
+Rect=5197,1725,5227,1763,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaDungeon14]
+Name=Dungeon
+Group=Felucca: Other Dungeons
+P=5187,1777,0,0
+Rect=5179,1765,5228,1788,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaDungeon15]
+Name=Dungeon
+Group=Felucca: Other Dungeons
+P=5954,318,0,0
+Rect=5902,263,6007,374,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaDungeon16]
+Name=Dungeon
+Group=Felucca: Other Dungeons
+P=5951,447,22,0
+Rect=5895,392,6008,502,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaDungeon17]
+Name=Dungeon
+Group=Felucca: Other Dungeons
+P=6079,447,0,0
+Rect=6027,391,6132,504,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaDungeon18]
+Name=Dungeon
+Group=Felucca: Other Dungeons
+P=6078,317,0,0
+Rect=6020,260,6137,374,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaDungeon19]
+Name=Dungeon
+Group=Felucca: Other Dungeons
+P=5505,446,0,0
+Rect=5380,384,5631,509,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaDungeon20]
+Name=Dungeon
+Group=Felucca: Other Dungeons
+P=5504,322,0,0
+Rect=5381,262,5628,382,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaDungeon21]
+Name=Dungeon
+Group=Felucca: Other Dungeons
+P=5732,853,0,0
+Rect=5670,785,5795,1011,0
+Rect=5794,905,5868,954,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaFensOfTheDead]
+Name=The Fens of the Dead
+Group=Felucca: Misc
+P=1864,2323,0,0
+Rect=1805,2244,1910,2402,0
+Rect=1910,2280,2123,2361,0
+Rect=1910,2361,1940,2389,0
+Rect=1841,2402,1899,2455,0
+Flags=RegionFlagNoBuilding
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaDestardSwamps]
+Name=Destard Swamps
+Group=Felucca: Misc
+P=2032,1007,0,0
+Rect=2000,928,2065,1075,0
+Rect=1975,953,2001,1065,0
+Rect=2064,966,2095,1074,0
+Rect=2036,1074,2065,1105,0
+Flags=RegionFlagNoBuilding
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaFireIsland]
+Name=Fire Island
+Group=Felucca: Misc
+P=4593,3507,20,0
+Rect=4094,3000,4917,4025,0
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaFireTemple]
+Name=Fire Temple
+P=4594,3603,30,0
+Rect=4561,3548,4616,3586,0
+Rect=4576,3586,4615,3625,0
+Rect=4616,3548,4636,3580,0
+Flags=RegionFlagNoBuilding
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaHedgeMaze]
+Name=Hedge Maze
+Group=Felucca: Misc
+P=1152,2228,16,0
+Rect=1031,2158,1257,2304,0
+Flags=RegionFlagNoBuilding|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaTempleIsland]
+Name=Temple Island
+P=2493,3604,0,0
+Rect=2431,3528,2562,3672,0
+Flags=RegionFlagNoBuilding
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaStarChamber]
+Name=Star Chamber
+P=5147,1767,31,0
+Rect=5123,1743,5171,1792,0
+Flags=RegionFlagNoBuilding|RegionFlagSafe|RegionAntiMagicAll
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaIceIsland]
+Name=Ice Island
+P=4038,529,0,0
+Rect=3839,167,4309,773,0
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+RainChance=100
+ColdChance=100
+
+[RoomDef aFeluccaHiddenValley]
+Name=Hidden Valley
+Group=Felucca: Hidden Valley
+P=1671,2971,0,0
+Rect=1648,2937,1685,3006,0
+Rect=1685,2960,1698,3006,0
+Rect=1644,2892,1652,2938,0
+Rect=1652,2918,1664,2938,0
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[RoomDef aFeluccaCovetousOfPassage]
+Name=Covetous Passage
+Group=Felucca: Covetous
+P=2395,856,0,0
+Rect=2379,828,2412,885,0
+Rect=2349,885,2408,899,0
+Rect=2349,899,2370,917,0
+Rect=2396,883,2428,903,0
+Rect=2444,854,2480,890,0
+Rect=2481,853,2559,904,0
+Flags=RegionFlagNoBuilding
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaBogOfDesolation]
+Name=Bog of Desolation
+Group=Felucca: Misc
+P=2047,999,0,0
+Rect=1956,934,2098,1099,0
+Flags=RegionFlagNoBuilding
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaDestardSwamps]
+Name=Destard Swamps
+Group=Felucca: Destard
+P=1162,2870,0,0
+Rect=1088,2735,1268,3026,0
+Flags=RegionFlagNoBuilding
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaWindemereWoods]
+Name=Windemere Woods
+Group=Felucca: Misc
+P=3212,348,9,0
+Rect=3204,84,3520,848,0
+Rect=3236,116,3104,808,0
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaDesertOfCompassion]
+Name=Desert of Compassion
+Group=Felucca: Shrines
+P=1858,876,-1,0
+Rect=1801,805,2036,871,0
+Rect=2036,870,1814,902,0
+Rect=1814,901,1959,962,0
+Rect=1942,860,2020,915,0
+Rect=1919,895,2012,928,0
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+////////////////////////////////////////
+// Shrines
+////////////////////////////////////////
+
+[AreaDef aFeluccaShrineOfHumility]
+Name=Shrine Of Humility
+Group=Felucca: Shrines
+P=4273,3702,0,0
+Rect=4268,3690,4280,3703,0
+Flags=RegionFlagNoBuilding
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaShrineOfChaos]
+Name=Shrine Of Chaos
+Group=Felucca: Shrines
+P=1451,855,0,0
+Rect=1446,852,1451,859,0
+Flags=RegionFlagNoBuilding
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaShrineOfHonesty]
+Name=Shrine Of Honesty
+Group=Felucca: Shrines
+P=4215,563,41,0
+Rect=4207,560,4215,568,0
+Flags=RegionFlagNoBuilding
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaShrineOfSacrifice]
+Name=Shrine Of Sacrifice
+Group=Felucca: Shrines
+P=3354,299,9,0
+Rect=3349,283,3361,299,0
+Flags=RegionFlagNoBuilding
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaShrineOfValor]
+Name=Shrine Of Valor
+Group=Felucca: Shrines
+P=2491,3930,0,0
+Rect=2487,3926,2496,3936,0
+Flags=RegionFlagNoBuilding
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaShrineOfSpirituality]
+Name=Shrine Of Spirituality
+Group=Felucca: Shrines
+P=1601,2489,9,0
+Rect=1588,2484,1603,2497,0
+Flags=RegionFlagNoBuilding
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaShrineOfJustice]
+Name=Shrine of Justice
+Group=Felucca: Shrines
+P=1301,639,16,0
+Rect=1295,626,1307,640,0
+Flags=RegionFlagNoBuilding
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaShrineOfHonor]
+Name=Shrine of Honor
+Group=Felucca: Shrines
+P=1729,3528,3,0
+Rect=1721,3524,1729,3531,0
+Flags=RegionFlagNoBuilding
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+////////////////////////////////////////
+// Caves and Mines
+////////////////////////////////////////
+
+[AreaDef aFeluccaCave1]
+Name=Cave 1
+Group=Felucca: Mines & Caves
+P=2367,942,0,0
+Rect=2373,900,2395,928,0
+Rect=2395,903,2409,919,0
+Rect=2373,928,2383,937,0
+Rect=2359,927,2373,945,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaCave2]
+Name=Cave 2
+Group=Felucca: Mines & Caves
+P=1903,365,0,0
+Rect=1887,354,1920,377,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaCave3]
+Name=Cave 3
+Group=Felucca: Mines & Caves
+P=1934,316,0,0
+Rect=1925,307,1943,325,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaFireIslandCave]
+Name=Fire Island Cave
+//Name=Avatar Isle
+Group=Felucca: Mines & Caves
+P=4605,3815,0,0
+Rect=4594,3807,4617,3824,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaIceIslandCave1]
+Name=Ice Island Cave 1
+Group=Felucca: Mines & Caves
+P=4054,440,3,0
+Rect=4018,421,4067,470,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaIceIslandCave2]
+Name=Ice Island Cave 2
+Group=Felucca: Mines & Caves
+P=4030,325,0,0
+Rect=4002,310,4045,351,0
+Rect=4005,298,4027,310,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaMinocCave1]
+Name=Minoc Cave 1
+Group=Felucca: Mines & Caves
+P=2426,177,0,0
+Rect=2406,168,2428,184,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaMinocCave2]
+Name=Minoc Cave 2
+Group=Felucca: Mines & Caves
+P=2440,94,0,0
+Rect=2418,81,2442,113,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaMinocCave3]
+Name=Minoc Cave 3
+Group=Felucca: Mines & Caves
+P=2471,64,0,0
+Rect=2447,39,2489,67,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaMtKendall]
+Name=Mt Kendall		//Minoc Mine
+Group=Felucca: Mines & Caves
+P=2593,477,60,0
+Rect=2554,470,2585,501,0
+Rect=2612,448,2563,492,0
+Rect=2563,492,2596,501,0
+Rect=2592,505,2569,497,0
+Rect=2595,499,2608,485,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionFlagGuarded
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaYewCave]
+Name=Yew Cave
+Group=Felucca: Mines & Caves
+P=773,1684,0,0
+Rect=766,1683,778,1697,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaNorthernTerritoryCave]
+Name=Northern Territory Cave
+Group=Felucca: Mines & Caves
+P=1984,262,8,0
+Rect=1973,251,1994,274,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaNorthernTerritoryMine1]
+Name=Northern Territory Mine 1
+Group=Felucca: Mines & Caves
+P=1723,1065,0,0
+Rect=1713,1055,1753,1080,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaNorthernTerritoryMine2]
+Name=Northern Territory Mine 2
+Group=Felucca: Mines & Caves
+P=1638,974,0,0
+Rect=1604,958,1650,1009,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaBritainMine]
+Name=Britain Mine
+Group=Felucca: Mines & Caves
+P=1443,1228,0,0
+Rect=1436,1215,1465,1252,0
+Rect=1611,1175,1662,1204,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFeluccaCovetousMine]
+Name=Covetous Mine
+Group=Felucca: Mines & Caves
+P=2438,888,0,0
+Rect=2323,809,2368,851,0
+Rect=2429,866,2448,911,0
+Rect=2448,879,2475,907,0
+Rect=2456,907,2475,941,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+////////////////////////////////////////
+// Islands
+////////////////////////////////////////
+
+[AreaDef aFeluccaOcarinaIsland]
+Name=Ocarina Island
+Group=Felucca: Islands
+P=2073,1973,0,0
+Rect=1997,2045,2162,1912,0
+
+[AreaDef aFeluccaAmoebaIsland]
+Name=Amoeba Island
+Group=Felucca: Islands
+P=2145,3961,6,0
+Rect=2205,4015,2091,3874,0
+
+[AreaDef aFeluccaBaldIsle]
+Name=Bald Isle
+Group=Felucca: Islands
+P=2368,3472,3,0
+Rect=2416,3360,2288,3551,0
+
+[AreaDef aFeluccaBlancheIsland]
+Name=Blanche Island
+Group=Felucca: Islands
+P=2189,1985,0,0
+Rect=2215,1957,2161,2014,0
+
+[AreaDef aFeluccaDotIsland]
+Name=Dot Island
+Group=Felucca: Islands
+P= 1504,365,0,0
+Rect=1516,387,1494,348,0
+
+[AreaDef aFeluccaBarrierIsle]
+Name=Barrier Isle
+Group=Felucca: Islands
+P=2118,2736,10,0
+Rect=2091,2844,2164,2740,0
+Rect=2151,2748,2056,2629,0
+
+[AreaDef aFeluccaDragonIsle]
+Name=Dragon Isle
+Group=Felucca: Islands
+P=1081,3155,0,0
+Rect=1145,3081,1003,3233,0
+
+[AreaDef aFeluccaEiffelIsland]
+Name=Eiffel Island
+Group=Felucca: Islands
+P=1704,1996,0,0
+Rect=1785,2046,1663,1921,0
+Rect=1718,1997,1636,2053,0
+
+[AreaDef aFeluccaHorseshoeIsland]
+Name=Horseshoe Island
+Group=Felucca: Islands
+P=2118,2108,0,0
+Rect=2000,2053,2237,2215,0
+
+[AreaDef aFeluccaIversRounding]
+Name=Iver's Rounding
+Group=Felucca: Islands
+P=466,2067,8,0
+Rect=513,2004,425,2146,0
+
+[AreaDef aFeluccaJusticeIsland]
+Name=Justice Island
+Group=Felucca: Islands
+P=1274,534,30,0
+Rect=1289,557,1255,509,0
+
+[AreaDef aFeluccaMarbleIsland]
+Name=Marble Island
+Group=Felucca: Islands
+P=1916,2092,0,0
+Rect=1822,2048,1994,2164,0
+
+[AreaDef aFeluccaSkullIsland]
+Name=Skull Island
+Group=Felucca: Islands
+P=2957,2180,52,0
+Rect=3004,2110,2912,2274,0
+
+[AreaDef aFeluccaValorIsland]
+Name=Valor Island
+Group=Felucca: Islands
+P=2481,3967,0,0
+Rect=2497,4087,2552,3864,0
+
+[AreaDef aFeluccaWyvernIsle]
+Name=Wyvern Isle
+Group=Felucca: Islands
+P=5862,2468,45,0
+Rect=5830,2445,5883,2502,0
+
+[EOF]

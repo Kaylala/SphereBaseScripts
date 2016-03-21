@@ -1,0 +1,29 @@
+[Comment CalculateLuck]
+DO NOT USE UNTIL SPHERE IS FIXED. SPHERE HAS A HUGE MATHEMATICAL ISSUE ATM.
+IT CANNOT. I repeat CANNOT parse ^ operator correctly when doing fractions.
+Float won't even accept it.
+
+[Comment Function CalculateLuck]
+If (<Luck> > 0)
+ Float.Luck=<FloatVal (<Luck>^(5/9))>
+ Local.dVal=<StrPos 0 . <Float.Luck>>
+ Return <StrSub 0 <Eval (<Local.dVal>-1)> <Float.Luck>>
+Else
+ Return 0
+EndIf
+
+// But this works the exact same!!! YAY me :D
+[Function CalculateLuck]
+Return <Qval (<Luck> > 0) ? <Eval (((<Luck>/9)*5)/20)> : 0>
+
+[Function AllStats]
+OStr=<ArgN>
+ODex=<ArgN>
+OInt=<ArgN>
+Hits=<MaxHits>
+Stam=<MaxStam>
+Mana=<MaxMana>
+
+
+
+[EOF]

@@ -1,0 +1,96 @@
+//****************************************************************************
+// SPHERE by : Menasoft ©1997-2014
+// www.sphereserver.net
+// All SPHERE script files and formats are copyright Menasoft & Partners.
+// This file may be freely edited for personal use, but may not be distributed
+// in whole or in part, in any format without express written permission from
+// Menasoft & Partners.  All donations and contributions
+// become the property of Menasoft & Partners.
+//****************************************************************************
+// FILE LAST UPDATED: Monday, April 14, 2014
+//
+VERSION=0.56c
+
+//Trammel
+
+[Teleporters]
+1714,2997,0,1=6310,892,0,1=tpTrammelPaintedCavesEntrance
+6310,892,0,1=1714,2997,0,1=tpTrammelPaintedCavesExit1
+6310,893,0,1=1714,2997,0,1=tpTrammelPaintedCavesExit2
+6310,891,0,1=1714,2997,0,1=tpTrammelPaintedCavesExit3
+
+588,1637,0,1=6476,861,8,1=tpTrammelBlightedGroveEntrance
+6476,861,8,1=588,1637,0,1=tpTrammelBlightedGroveExit
+6472,868,24,1=6511,951,14,1=tpTrammelBlightedGroveBranchEntrance
+6511,951,4,1=6472,868,24,1=tpTrammelBlightedGroveBranchExit
+6488,853,0,1=6587,867,0,1=tpTrammelBlightedGroveCaveEntrance
+6587,867,0,1=6488,853,0,1=tpTrammelBlightedGroveCaveExit
+
+6471,187,20,1=3784,1100,-11,1=tpTrammelPrismOflightExit1
+6472,187,20,1=3785,1100,-11,1=tpTrammelPrismOflightExit2
+3784,1100,-11,1=6471,187,20,1=tpTrammelPrismOflightEntrance1
+3785,1100,-11,1=6472,187,20,1=tpTrammelPrismOflightEntrance2
+6469,97,-50,1=6471,75,-23,1=tpTrammelPrismOflightSecret1
+6471,75,-23,1=6469,97,-50,1=tpTrammelPrismOflightSecret1Exit
+6477,94,-50,1=6568,77,-10,1=tpTrammelPrismOflightSecret2
+6568,77,-10,1=6477,94,-50,1=tpTrammelPrismOflightSecret2Exit
+6486,122,-35,1=6501,101,-4,1=tpTrammelPrismOflightSecret3
+6501,101,-4,1=6486,122,-35,1=tpTrammelPrismOflightSecret3Exit
+6476,150,1,1=6576,72,0,1=tpTrammelPrismOflightSecret4
+6576,72,0,1=6476,150,1,1=tpTrammelPrismOflightSecret4Exit
+6582,109,0,1=6554,104,0,1=tpTrammelPrismOfLightSecret5
+6554,104,0,1=6582,109,0,1=tpTrammelPrismOfLightSecret5Exit
+6474,75,-33,1=6513,182,1,1=tpTrammelPrismOfLightFirstChamber
+6513,182,1,1=6474,75,-33,1=tpTrammelPrismOfLightFirstChamberExit
+6507,146,1,1=6501,138,-19,1=tpTrammelPrismOfLightHallway
+6501,138,-19,1=6507,146,1,1=tpTrammelPrismOfLightHallwayExit
+6541,116,-15,1=6540,138,-15,1=tpTrammelPrismOfLightInnerChamberEntrance1
+6541,117,-15,1=6540,139,-15,1=tpTrammelPrismOfLightInnerChamberEntrance1
+6540,138,-15,1=6541,116,-15,1=tpTrammelPrismOfLightInnerChamberExit1
+6540,139,-15,1=6541,117,-15,1=tpTrammelPrismOfLightInnerChamberExit1
+6503,114,-19,1=6589,178,26,1=tpTrammelPrismOfLightBeachCamp
+6589,178,26,1=6503,114,-19,1=tpTrammelPrismOfLightBeachCampExit
+6579,160,9,1=6577,176,29,1=tpTrammelPrismOflightCrystalChamber
+6577,176,29,1=6579,160,9,1=tpTrammelPrismOflightCrystalChamberExit
+
+5577,3017,25,1=6303,327,81,1=tpTrammelParoxysmusEntrance1
+5578,3017,25,1=6303,327,81,1=tpTrammelParoxysmusEntrance2
+5579,3017,25,1=6303,327,81,1=tpTrammelParoxysmusEntrance3
+5577,3018,25,1=6303,327,81,1=tpTrammelParoxysmusEntrance4
+5578,3018,25,1=6303,327,81,1=tpTrammelParoxysmusEntrance5
+5579,3018,25,1=6303,327,81,1=tpTrammelParoxysmusEntrance6
+5577,3019,25,1=6303,327,81,1=tpTrammelParoxysmusEntrance7
+5578,3019,25,1=6303,327,81,1=tpTrammelParoxysmusEntrance8
+5579,3019,25,1=6303,327,81,1=tpTrammelParoxysmusEntrance9
+6303,327,82,1=5578,3017,25,1=tpTrammelParoxysmusExit1
+6304,327,79,1=5578,3017,25,1=tpTrammelParoxysmusExit2
+
+766,1647,0,1=6172,23,0,1=tpTrammelSanctuaryEntrance1
+766,1646,0,1=6172,23,0,1=tpTrammelSanctuaryEntrance2
+6172,23,0,1=766,1646,0,1=tpTrammelSanctuaryExit1
+6172,22,0,1=766,1646,0,1=tpTrammelSanctuaryExit2
+6159,130,-1,1=6164,73,0,1=tpTrammelSanctuarySecret11
+6164,73,0,1=6159,130,-1,1=tpTrammelSanctuarySecret12
+6211,106,0,1=6251,69,-10,1=tpTrammelSanctuarySecret21
+6251,69,-10,1=6211,106,0,1=tpTrammelSanctuarySecret22
+6223,25,0,1=6276,40,-10,1=tpTrammelSanctuarySecret31
+6276,40,-10,1=6223,25,0,1=tpTrammelSanctuarySecret32
+6173,176,-10,1=6233,14,-10,1=tpTrammelSanctuarySouth1
+6174,176,-10,1=6234,14,-10,1=tpTrammelSanctuarySouth2
+6175,176,-10,1=6235,14,-10,1=tpTrammelSanctuarySouth3
+6176,176,-10,1=6236,14,-10,1=tpTrammelSanctuarySouth4
+6177,176,-10,1=6237,14,-10,1=tpTrammelSanctuarySouth5
+6178,176,-10,1=6238,14,-10,1=tpTrammelSanctuarySouth6
+6179,176,-10,1=6239,14,-10,1=tpTrammelSanctuarySouth7
+6233,14,-10,1=6173,176,-10,1=tpTrammelSanctuaryNorth1
+6234,14,-10,1=6174,176,-10,1=tpTrammelSanctuaryNorth2
+6235,14,-10,1=6175,176,-10,1=tpTrammelSanctuaryNorth3
+6236,14,-10,1=6176,176,-10,1=tpTrammelSanctuaryNorth4
+6237,14,-10,1=6177,176,-10,1=tpTrammelSanctuaryNorth5
+6238,14,-10,1=6178,176,-10,1=tpTrammelSanctuaryNorth6
+6239,14,-10,1=6179,176,-10,1=tpTrammelSanctuaryNorth7
+
+535,992,0,1=7046,332,10,1=tpTrammelElvenCityEntrance
+7046,332,10,1=535,992,0,1=tpTrammelElvenCityExit
+
+[EOF]

@@ -1,0 +1,112 @@
+//****************************************************************************
+// SPHERE by : Menasoft ©1997-2014
+// www.sphereserver.net
+// All SPHERE script files and formats are copyright Menasoft & Partners.
+// This file may be freely edited for personal use, but may not be distributed
+// in whole or in part, in any format without express written permission from
+// Menasoft & Partners.  All donations and contributions
+// become the property of Menasoft & Partners.
+//****************************************************************************
+// FILE LAST UPDATED: Tuesday, October 7, 2014
+//
+VERSIOn=0.56c
+
+
+[COMMENT sphere_SkillMenu]
+
+The sphereserver has a number of hardcoded SkillMenu's, this file contains
+the softcoded component.  The prupose of each is as follows:
+
+  smAlchemy			= Triggered by DClicking a alchemy tool
+  smSummon			= Triggered by the Magery "Summoning" spell
+  smSummonFamiliar	= Triggered by the Necromancy "Summon Familiar" spell
+  smPolymorph			= Triggered by the Magery Polymorph spell
+  smCartography		= Triggered by DClicking a cartography tool
+  smBowcrafting		= Triggered by DClicking a knife and using it on wood
+  smAmmunition			= Triggered by DClicking arrows or shafts
+  smBlacksmithing		= Triggered by DClicking a blacksmithing hammer
+  smCarpentry			= Triggered by DClicking a carpentry tool
+  smTailoring		= Triggered by DClicking a sewing kit
+  smTinkering			= Triggered by DClicking tinker tools
+  smInscription		= Triggered by DClicking a blank scroll
+  smCooking			= Triggered by DClicking a skillet, rolling pin or flour sifter
+
+
+
+
+
+
+
+
+
+
+
+
+
+//////////////////////////////////////////////
+// Begin Cooking Menu
+
+[SkillMenu smCooking]
+Cooking
+
+On=i_dough Ingredients
+SkillMenu=smCooking_ingredients
+
+On=i_bread_loaf Baking
+SkillMenu=smCooking_baking
+
+On=i_ribs_cooked Barbecue
+SkillMenu=smCooking_barbecue
+
+
+[SkillMenu smCooking_ingredients]
+Ingredients
+
+On=i_dough <Name> (<ResMake>)
+MakeItem=i_dough
+
+
+[SkillMenu smCooking_baking]
+Baking
+
+On=i_bread_loaf <Name> (<ResMake>)
+MakeItem=i_bread_loaf
+
+On=i_pan_cookies <Name> (<ResMake>)
+MakeItem=i_pan_cookies
+
+On=i_cake <Name> (<ResMake>)
+MakeItem=i_cake
+
+On=i_muffin_3 <Name> (<ResMake>)
+MakeItem=i_muffin_3
+
+On=i_pie_baked <Name> (<ResMake>)
+MakeItem=i_pie_baked
+
+On=i_pizza <Name> (<ResMake>)
+MakeItem=i_pizza
+
+
+[SkillMenu smCooking_barbecue]
+Barbecue
+
+On=iCookedBird <Name> (<ResMake>)
+MakeItem=iCookedBird
+
+On=iChickenLeg <Name> (<ResMake>)
+MakeItem=i_chicken_leg
+
+On=iFishSteak <Name> (<ResMake>)
+MakeItem=iFishSteak
+
+On=iFriedEggs <Name> (<ResMake>)
+MakeItem=iFriedEggs
+
+On=i_lamb_leg <Name> (<ResMake>)
+MakeItem=iLegOfLamb
+
+On=i_ribs_cooked <Name> (<ResMake>)
+MakeItem=iCutOfRibs
+
+[EOF]

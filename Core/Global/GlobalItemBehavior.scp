@@ -1,0 +1,30 @@
+[Events eGlobalItemBehavior]
+On=@EquipTest
+// GMs Can equip anything
+// Gargoyle GMs still Cant use human/elf items and vice versa.
+If <Src.IsGm>
+ If (<Src.IsGargoyle>) && !(<CanUse> &CanUGargoyle)
+  Return 1
+ ElIf (<Src.IsElf>) || (<Src.IsHuman>) && (<CanUse> &CanUGargoyle)
+  Return 1
+ Else
+  Return 0
+ EndIf
+EndIf
+
+If (<CanUse> &CanUNone)
+ Return 1
+ElIf (<Src.IsHuman>) && !(<CanUse> &CanUhuman)
+ Return 1
+ElIf (<Src.IsElf>) && !(<CanUse> &CanUelf)
+ Return 1
+ElIf (<Src.IsGargoyle>) && !(<CanUse> &CanUgargoyle)
+ Return 1
+ElIf (<Src.IsMale>) && !(<CanUse> &CanUmale)
+ Return 1
+ElIf (<Src.IsFemale>) && !(<CanUse> &CanUfemale)
+ Return 1
+EndIf
+
+
+[EOF]

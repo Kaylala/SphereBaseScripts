@@ -1,0 +1,265 @@
+//////////////////////////////////////////////
+// Begin Tinkering Menu
+[SkillMenu smTinkering]
+Tinkering
+
+On=i_barrel_open Containers
+SkillMenu=smContainers
+
+On=i_clock_parts Parts
+SkillMenu=smParts
+
+On=i_shovel Tools
+SkillMenu=smTools
+
+On=i_key_iron Keys
+SkillMenu=smKeys
+
+On=i_lute Instruments
+SkillMenu=smInstruments
+
+On=i_necklace_gold Jewelry
+SkillMenu=smJewelry
+
+On=i_KEG_WOOD Tavern Types
+SkillMenu=smTavern_stuff
+
+On=i_plane_smoothing Wooden Items
+SkillMenu=smWood_stuff
+
+[SkillMenu smContainers]
+Containers
+
+On=i_box_brass <Name> (<ResMake>)
+MakeItem=i_box_brass
+
+On=i_keg_small <Name> (<ResMake>)
+MakeItem=i_keg_small
+
+On=i_keg_potion <Name> (<ResMake>)
+MakeItem=i_keg_potion
+
+On=i_barrel_open <Name> (<ResMake>)
+MakeItem=i_barrel_open
+
+On=i_barrel <Name> (<ResMake>)
+MakeItem=i_barrel
+
+On=i_chest_wooden_brass <Name> (<ResMake>)
+MakeItem=i_chest_wooden_brass
+
+On=i_chest_metal <Name> (<ResMake>)
+MakeItem=i_chest_metal
+
+On=i_chest_metal_brass <Name> (<ResMake>)
+MakeItem=i_chest_metal_brass
+
+[SkillMenu smInstruments]
+Instruments
+
+On=i_tambourine <Name> (<ResMake>)
+MakeItem=i_tambourine
+
+On=i_tambourine_tas <Name> (<ResMake>)
+MakeItem=i_tambourine_tas
+
+On=i_drum <Name> (<ResMake>)
+MakeItem=i_drum
+
+On=i_lute <Name> (<ResMake>)
+MakeItem=i_lute
+
+On=i_lyre <Name> (<ResMake>)
+MakeItem=i_lyre
+
+On=i_HARP_LARGE <Name> (<ResMake>)
+MakeItem=i_HARP_LARGE
+
+[SkillMenu smTools]
+Tools
+
+On=iShovel <Name> (<ResMake>)
+MakeItem=iShovel
+
+On=iDovetailSaw <Name> (<ResMake>)
+MakeItem=iDovetailSaw
+
+On=iEmptyBottle <Name> (<ResMake>)
+MakeItem=iEmptyBottle
+
+On=iHatchet <Name> (<ResMake>)
+MakeItem=iHatchet
+
+On=iLockpick <Name> (<ResMake>)
+MakeItem=iLockpick
+
+On=iMortarAndPestle <Name> (<ResMake>)
+MakeItem=iMortarAndPestle
+
+On=iPickaxe <Name> (<ResMake>)
+MakeItem=iPickaxe
+
+On=iSaw <Name> (<ResMake>)
+MakeItem=iSaw
+
+On=iScissors <Name> (<ResMake>)
+MakeItem=iScissors
+
+On=iSewingKit <Name> (<ResMake>)
+MakeItem=iSewingKit
+
+On=iSextant <Name> (<ResMake>)
+MakeItem=iSextant
+
+On=iSledgeHammer <Name> (<ResMake>)
+MakeItem=iSledgeHammer
+
+On=iSmithsHammer <Name> (<ResMake>)
+MakeItem=iSmithsHammer
+
+On=iTinkersTools <Name> (<ResMake>)
+MakeItem=iTinkersTools
+
+On=iTinkersToolkit <Name> (<ResMake>)
+MakeItem=iTinkersToolkit
+
+[SkillMenu smJewelry]
+Jewelry
+
+On=i_beads <Name> (<ResMake>)
+MakeItem=i_beads
+
+On=i_necklace_metal_beads <Name> (<ResMake>)
+MakeItem=i_necklace_metal_beads
+
+On=i_necklace_gold <Name> (<ResMake>)
+MakeItem=i_necklace_gold
+
+On=i_necklace_gold_beads <Name> (<ResMake>)
+MakeItem=i_necklace_gold_beads
+
+On=i_earrings_gold <Name> (<ResMake>)
+MakeItem=i_earrings_gold
+
+On=i_ring_gold <Name> (<ResMake>)
+MakeItem=i_ring_gold
+
+On=i_bracelet_gold <Name> (<ResMake>)
+MakeItem=i_bracelet_gold
+
+On=i_necklace_silver <Name> (<ResMake>)
+MakeItem=i_necklace_silver
+
+On=i_necklace_silver_beads <Name> (<ResMake>)
+MakeItem=i_necklace_silver_beads
+
+On=i_earrings_silver <Name> (<ResMake>)
+MakeItem=i_earrings_silver
+
+On=i_ring_silver <Name> (<ResMake>)
+MakeItem=i_ring_silver
+
+On=i_bracelet_silver <Name> (<ResMake>)
+MakeItem=i_bracelet_silver 
+
+[SkillMenu smWood_stuff]
+Wooden Items
+
+On=i_axle <Name> (<ResMake>)
+MakeItem=i_axle
+
+On=i_clock_frame <Name> (<ResMake>)
+MakeItem=i_clock_frame
+
+On=i_plane_jointing <Name> (<ResMake>)
+MakeItem=i_plane_jointing
+
+On=i_plane_moulding <Name> (<ResMake>)
+MakeItem=i_plane_moulding
+
+On=i_plane_smoothing <Name> (<ResMake>)
+MakeItem=i_plane_smoothing
+
+On=i_clock <Name> (<ResMake>)
+MakeItem=i_clock
+
+[SkillMenu smParts]
+Parts
+
+On=i_wire_iron <Name> (<ResMake>)
+MakeItem=i_wire_iron
+
+On=i_CLOCK_PARTS <Name> (<ResMake>)
+MakeItem=i_CLOCK_PARTS
+
+On=i_gears <Name> (<ResMake>)
+MakeItem=i_gears
+
+On=i_hinge <Name> (<ResMake>)
+MakeItem=i_hinge
+
+On=i_barrel_tap <Name> (<ResMake>)
+MakeItem=i_barrel_tap
+
+On=i_barrel_hoops <Name> (<ResMake>)
+MakeItem=i_barrel_hoops
+
+On=i_SEXTANT_PARTS <Name> (<ResMake>)
+MakeItem=i_SEXTANT_PARTS
+
+On=i_springs <Name> (<ResMake>)
+MakeItem=i_springs
+
+[SkillMenu smTavern_stuff]
+Tavern Types
+
+On=i_mug_ceramic <Name> (<ResMake>)
+MakeItem=i_mug_ceramic
+
+On=i_goblet <Name> (<ResMake>)
+MakeItem=i_goblet
+
+On=i_mug_pewter <Name> (<ResMake>)
+MakeItem=i_mug_pewter
+
+On=i_goblet_2 <Name> (<ResMake>)
+MakeItem=i_goblet_2
+
+On=i_skull_mug <Name> (<ResMake>)
+MakeItem=i_skull_mug
+
+On=i_PITCHER <Name> (<ResMake>)
+MakeItem=i_PITCHER
+
+On=i_spittoon <Name> (<ResMake>)
+MakeItem=i_spittoon
+
+On=i_backgammon_game <Name> (<ResMake>)
+MakeItem=i_backgammon_game
+
+On=i_game_board <Name> (<ResMake>)
+MakeItem=i_game_board
+
+On=i_dice_cup <Name> (<ResMake>)
+MakeItem=i_dice_cup
+
+[SkillMenu smKeys]
+Keys
+
+On=iKeyRing <Name> (<ResMake>)
+MakeItem=iKeyRing
+
+On=iCopperKey <Name> (<ResMake>)
+MakeItem=iCopperKey
+
+On=iGoldKey <Name> (<ResMake>)
+MakeItem=iGoldKey
+
+On=iIronKey <Name> (<ResMake>)
+MakeItem=iIronKey
+
+On=iMagicKey <Name> (<ResMake>)
+MakeItem=iMagicKey
+
+
+[EOF]

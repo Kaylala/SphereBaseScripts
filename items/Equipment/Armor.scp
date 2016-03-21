@@ -1,0 +1,3876 @@
+// Leather Gorget
+[ItemDef 013C7]
+DefName=iLeatherGorget
+Name=leather gorget
+Type=tLeatherArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=1
+ReqStr=20
+SkillMake=Tailoring 539
+Resources=4 tLeather
+AlterItem=0
+
+Category=Equipment
+Subsection=Armor: Leather Armor
+Description=Leather Gorget
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+// Leather Cap
+[ItemDef 01DB9]
+DefName=iLeatherCap
+Name=leather cap
+Type=tLeatherArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=2
+ReqStr=20
+SkillMake=Tailoring 62
+Resources=2 tLeather
+AlterItem=0
+DupeList=01DBA
+
+Category=Equipment
+Subsection=Armor: Leather Armor
+Description=Leather Cap
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+[ItemDef 01DBA]
+DupeItem=01DB9
+
+// Leather Gloves
+[ItemDef 013C6]
+DefName=iLeatherGloves
+Name=leather gloves
+Type=tLeatherArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=1
+ReqStr=20
+SkillMake=Tailoring 518
+Resources=3 tLeather
+AlterItem={iGargishLeatherKilt 1 iGargishLeatherKilt1 1}
+DupeList=013CE
+
+Category=Equipment
+Subsection=Armor: Leather Armor
+Description=Leather Gloves
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+[ItemDef 013CE]
+DupeItem=013C6
+
+// Leather Sleeves
+[ItemDef 013C5]
+DefName=iLeatherSleeves
+Name=leather sleeves
+Type=tLeatherArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=2
+ReqStr=20
+SkillMake=Tailoring 539
+Resources=4 tLeather
+AlterItem={iGargishLeatherArms 1 iGargishLeatherArms1 1}
+DupeList=013CD
+
+Category=Equipment
+Subsection=Armor: Leather Armor
+Description=Leather Sleeves
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+[ItemDef 013CD]
+DupeItem=013C5
+
+// Leather Sleeves (Decorative)
+[ItemDef 013C8]
+DefName=iLeatherSleeves1
+Name=leather sleeves
+Type=tLeatherArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=2
+ReqStr=20
+SkillMake=Tailoring 539
+Resources=4 tLeather
+AlterItem={iGargishLeatherArms 1 iGargishLeatherArms1 1}
+DupeList=013CF
+
+Category=Equipment
+Subsection=Armor: Leather Armor
+Description=Leather Sleeves
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+[ItemDef 013CF]
+DupeItem=013C8
+
+// Leather Leggings (Decorative)
+[ItemDef 013C9]
+DefName=iLeatherLeggings
+Name=leather leggings
+Type=tLeatherArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=4
+ReqStr=20
+SkillMake=Tailoring 663
+Resources=10 tLeather
+AlterItem={iGargishLeatherLeggings 1 iGargishLeatherLeggings1 1}
+DupeList=013D0
+
+Category=Equipment
+Subsection=Armor: Leather Armor
+Description=Leather Leggings
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+[ItemDef 013D0]
+DupeItem=013C9
+
+// Leather Leggings
+[ItemDef 013CB]
+DefName=iLeatherLeggings
+Name=leather leggings
+Type=tLeatherArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=4
+ReqStr=20
+SkillMake=Tailoring 663
+Resources=10 tLeather
+AlterItem={iGargishLeatherLeggings 1 iGargishLeatherLeggings1 1}
+DupeList=013D2
+
+Category=Equipment
+Subsection=Armor: Leather Armor
+Description=Leather Leggings
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+[ItemDef 013D2]
+DupeItem=013CB
+
+// Leather Tunic (Decorative)
+[ItemDef 013CA]
+DefName=iLeatherTunic1
+Name=leather tunic
+Type=tLeatherArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=6
+ReqStr=25
+SkillMake=Tailoring 705
+Resources=12 tLeather
+AlterItem={iGargishLeatherChest 1 iGargishLeatherChest1 1}
+DupeList=013D1
+
+Category=Equipment
+Subsection=Armor: Leather Armor
+Description=Leather Tunic
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+[ItemDef 013D1]
+DupeItem=013CA
+
+// Leather Tunic
+[ItemDef 013CC]
+DefName=iLeatherTunic
+Name=leather tunic
+Type=tLeatherArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=6
+ReqStr=25
+SkillMake=Tailoring 705
+Resources=12 tLeather
+AlterItem={iGargishLeatherChest 1 iGargishLeatherChest1 1}
+DupeList=013D3
+
+Category=Equipment
+Subsection=Armor: Leather Armor
+Description=Leather Tunic
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+[ItemDef 013D3]
+DupeItem=013CC
+
+// Leather Shorts
+[ItemDef 01C00]
+DefName=iLeatherShorts
+Name=leather shorts
+Type=tLeatherArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf|CanUFemale
+Weight=3
+ReqStr=20
+SkillMake=Tailoring 622
+Resources=8 tLeather
+AlterItem={iGargishLeatherLeggings 1 iGargishLeatherLeggings1 1}
+DupeList=01C01
+
+Category=Equipment
+Subsection=Armor: Leather Armor
+Description=Leather Shorts
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+[ItemDef 01C01]
+DupeItem=01C00
+
+// Leather Skirt
+[ItemDef 01C08]
+DefName=iLeatherSkirt
+Name=leather skirt
+Type=tLeatherArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf|CanUFemale
+Weight=1
+ReqStr=20
+SkillMake=Tailoring 580
+Resources=6 tLeather
+AlterItem={iGargishLeatherLeggings 1 iGargishLeatherLeggings1 1}
+DupeList=01C09
+
+Category=Equipment
+Subsection=Armor: Leather Armor
+Description=Leather Skirt
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+[ItemDef 01C09]
+DupeItem=01C08
+
+// Leather Bustier
+[ItemDef 01C0A]
+DefName=iLeatherBustier
+Name=leather bustier
+Type=tLeatherArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf|CanUFemale
+Weight=1
+ReqStr=20
+SkillMake=Tailoring 580
+Resources=6 tLeather
+AlterItem={iGargishLeatherChest 1 iGargishLeatherChest1 1}
+DupeList=01C0B
+
+Category=Equipment
+Subsection=Armor: Leather Armor
+Description=Leather Bustier
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+[ItemDef 01C0B]
+DupeItem=01C0A
+
+// Female Leather Armor
+[ItemDef 01C06]
+DefName=iFemaleLeatherArmor
+Name=leather 
+Type=tLeatherArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf|CanUFemale
+Weight=1
+ReqStr=25
+SkillMake=Tailoring 622
+Resources=8 tLeather
+AlterItem={iGargishLeatherChest 1 iGargishLeatherChest1 1}
+DupeList=01C07
+
+Category=Equipment
+Subsection=Armor: Leather Armor
+Description=Female Leather Armor
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+[ItemDef 01C07]
+DupeItem=01C06
+
+// Leather Ninja Pants
+[ItemDef 02791]
+DefName=iLeatherNinjaPants
+Name=leather ninja pants
+Type=tLeatherArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=3
+ReqStr=10
+SkillMake=Tailoring 800
+Resources=13 tLeather
+AlterItem={iGargishLeatherLeggings 1 iGargishLeatherLeggings1 1}
+DupeList=027DC
+
+Category=Equipment
+Subsection=Armor: Leather Ninja Armor
+Description=Leather Ninja Pants
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+[ItemDef 027DC]
+DupeItem=02791
+
+// Leather Ninja Jacket
+[ItemDef 02793]
+DefName=iLeatherNinjaJacket
+Name=leather ninja jacket
+Type=tLeatherArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=5
+ReqStr=10
+SkillMake=Tailoring 850
+Resources=13 tLeather
+AlterItem={iGargishLeatherChest 1 iGargishLeatherChest1 1}
+DupeList=027DE
+
+Category=Equipment
+Subsection=Armor: Leather Ninja Armor
+Description=Leather Ninja Jacket
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+[ItemDef 027DE]
+DupeItem=02793
+
+// Leather Ninja Mitts
+[ItemDef 02792]
+DefName=iLeatherNinjaMitts
+Name=leather ninja mitts
+Type=tLeatherArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=2
+ReqStr=10
+SkillMake=Tailoring 650
+Resources=12 tLeather
+AlterItem={iGargishLeatherKilt 1 iGargishLeatherKilt1 1}
+DupeList=027DD
+
+Category=Equipment
+Subsection=Armor: Leather Ninja Armor
+Description=Leather Ninja Mitts
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+[ItemDef 027DD]
+DupeItem=02792
+
+// Leather Ninja Hood
+[ItemDef 0278E]
+DefName=iLeatherNinjaHood
+Name=leather ninja hood
+Type=tLeatherArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=2
+ReqStr=10
+SkillMake=Tailoring 900
+Resources=14 tLeather
+AlterItem=0
+DupeList=027D9
+
+Category=Equipment
+Subsection=Armor: Leather Ninja Armor
+Description=Leather Ninja Hood
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+[ItemDef 027D9]
+DupeItem=0278E
+
+// Leather Mempo
+[ItemDef 0277A]
+DefName=iLeatherMempo
+Name=leather mempo
+Type=tLeatherArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=2
+ReqStr=30
+SkillMake=Tailoring 800
+Resources=8 tLeather
+AlterItem=0
+DupeList=027C5
+
+Category=Equipment
+Subsection=Armor: Leather Samurai Armor
+Description=Leather Mempo
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+[ItemDef 027C5]
+DupeItem=0277A
+
+// Leather Do
+[ItemDef 0277B]
+DefName=iLeatherDo
+Name=leather do
+Type=tLeatherArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=6
+ReqStr=40
+SkillMake=Tailoring 750
+Resources=12 tLeather
+AlterItem={iGargishLeatherChest 1 iGargishLeatherChest1 1}
+DupeList=027C6
+
+Category=Equipment
+Subsection=Armor: Leather Samurai Armor
+Description=Leather Do
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+[ItemDef 027C6]
+DupeItem=0277B
+
+// Leather Hiro Sode
+[ItemDef 0277E]
+DefName=iLeatherHiroSode
+Name=leather hiro sode
+Type=tLeatherArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=1
+ReqStr=25
+SkillMake=Tailoring 550
+Resources=5 tLeather
+AlterItem={iGargishLeatherArms 1 iGargishLeatherArms1 1}
+DupeList=027C9
+
+Category=Equipment
+Subsection=Armor: Leather Samurai Armor
+Description=Leather Hiro Sode
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+[ItemDef 027C9]
+DupeItem=027EE
+
+// Leather Suneate
+[ItemDef 02786]
+DefName=iLeatherSuneate
+Name=leather suneate
+Type=tLeatherArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=4
+ReqStr=20
+SkillMake=Tailoring 680
+Resources=12 tLeather
+AlterItem={iGargishLeatherLeggings 1 iGargishLeatherLeggings1 1}
+DupeList=027D1
+
+Category=Equipment
+Subsection=Armor: Leather Samurai Armor
+Description=Leather Suneate
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+[ItemDef 027D1]
+DupeItem=02786
+
+// Leather Haidate
+[ItemDef 0278A]
+DefName=iLeatherHaidate
+Name=leather haidate
+Type=tLeatherArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=4
+ReqStr=20
+SkillMake=Tailoring 680
+Resources=12 tLeather
+AlterItem={iGargishLeatherLeggings 1 iGargishLeatherLeggings1 1}
+DupeList=027D5
+
+Category=Equipment
+Subsection=Armor: Leather Samurai Armor
+Description=Leather Haidate
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+[ItemDef 027D5]
+DupeItem=0278A
+
+// Leaf Tunic
+[ItemDef 02FC5]
+DefName=iLeafTunic
+Name=leaf tunic
+Type=tLeatherArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUElf
+Weight=2
+ReqStr=20
+SkillMake=Tailoring 750
+Resources=15 tLeather
+AlterItem={iGargishLeatherChest 1 iGargishLeatherChest1 1}
+DupeList=0317B
+
+Category=Equipment
+Subsection=Armor: Leaf Armor
+Description=Leaf Tunic
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=3
+ResCold=2
+ResPoison=4
+ResEnergy=4
+
+[ItemDef 0317B]
+DupeItem=02FC5
+
+// Leaf Arms
+[ItemDef 02FC8]
+DefName=iLeafArms
+Name=leaf arms
+Type=tLeafArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUElf
+Weight=2
+ReqStr=15
+SkillMake=Tailoring 600
+Resources=12 tLeather
+AlterItem={iGargishLeatherArms 1 iGargishLeatherArms1 1}
+DupeList=0317E
+
+Category=Equipment
+Subsection=Armor: Leaf Armor
+Description=Leaf Arms
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=3
+ResCold=2
+ResPoison=4
+ResEnergy=4
+
+[ItemDef 0317E]
+DupeItem=02FC8
+
+// Leaf Gloves
+[ItemDef ]
+DefName=iLeafGloves
+Name=leaf gloves
+Type=tLeafArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUElf
+Weight=2
+ReqStr=10
+SkillMake=Tailoring 600
+Resources=10 tLeather
+AlterItem={iGargishLeatherKilt 1 iGargishLeatherKilt1 1}
+DupeList=0
+
+Category=Equipment
+Subsection=Armor: Leaf Armor
+Description=Leaf Gloves
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=3
+ResCold=2
+ResPoison=4
+ResEnergy=4
+
+[ItemDef 0]
+DupeItem=0
+
+// Leaf Leggings
+// Success:
+// Exceptional: 
+[ItemDef ]
+DefName=iLeafLeggings
+Name=leaf leggings
+Type=tLeafArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUElf
+Weight=2
+ReqStr=20
+SkillMake=Tailoring 750
+Resources=15 tLeather
+AlterItem={iGargishLeatherLeggings 1 iGargishLeatherLeggings1 1}
+DupeList=0
+
+Category=Equipment
+Subsection=Armor: Leaf Armor
+Description=Leaf Leggings
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=3
+ResCold=2
+ResPoison=4
+ResEnergy=4
+
+[ItemDef 0]
+DupeItem=0
+
+// Leaf Gorget
+// Success:
+// Exceptional: 
+[ItemDef ]
+DefName=iLeafGorget
+Name=leaf gorget
+Type=tLeafArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUElf
+Weight=2
+ReqStr=10
+SkillMake=Tailoring 650
+Resources=12 tLeather
+AlterItem=0
+DupeList=0
+
+Category=Equipment
+Subsection=Armor: Leaf Armor
+Description=Leaf Gorget
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=3
+ResCold=2
+ResPoison=4
+ResEnergy=4
+
+[ItemDef 0]
+DupeItem=0
+
+// Leaf Tonlet
+// Success:
+// Exceptional: 
+[ItemDef ]
+DefName=iLeafTonlet
+Name=leaf tonlet
+Type=tLeafArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUElf	// Should this be female only?
+Weight=2
+ReqStr=10
+SkillMake=Tailoring 700
+Resources=15 tLeather
+AlterItem={iGargishLeatherLeggings 1 iGargishLeatherLeggings1 1}
+DupeList=0
+
+Category=Equipment
+Subsection=Armor: Leaf Armor
+Description=Leaf Tonlet
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=3
+ResCold=2
+ResPoison=4
+ResEnergy=4
+
+[ItemDef 0]
+DupeItem=0
+
+// Studded Gorget
+// Success:
+// Exceptional: 
+[ItemDef ]
+DefName=iStuddedGorget
+Name=studded gorget
+Type=tStuddedArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=1
+ReqStr=25
+SkillMake=Tailoring 788
+Resources=6 tLeather
+AlterItem=0
+DupeList=0
+
+Category=Equipment
+Subsection=Armor: Studded Armor
+Description=Studded Gorget
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=4
+
+[ItemDef 0]
+DupeItem=0
+
+// Studded Gloves
+// Success:
+// Exceptional: 
+[ItemDef ]
+DefName=iStuddedGloves
+Name=studded gloves
+Type=tStuddedArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=1
+ReqStr=25
+SkillMake=Tailoring 829
+Resources=8 tLeather
+AlterItem=0
+DupeList=0
+
+Category=Equipment
+Subsection=Armor: Studded Armor
+Description=Studded Gloves
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=4
+
+[ItemDef 0]
+DupeItem=0
+
+// Studded Sleeves
+// Success:
+// Exceptional: 
+[ItemDef ]
+DefName=iStuddedSleeves
+Name=studded sleeves
+Type=tStuddedArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=4
+ReqStr=25
+SkillMake=Tailoring 871
+Resources=10 tLeather
+AlterItem=0
+DupeList=0
+
+Category=Equipment
+Subsection=Armor: Studded Armor
+Description=Studded Sleeves
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=4
+
+[ItemDef 0]
+DupeItem=0
+
+// Studded Leggings
+// Success: 
+// Exceptional: 
+[ItemDef ]
+DefName=iStuddedLeggings
+Name=studded leggings
+Type=tStuddedArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=5
+ReqStr=30
+SkillMake=Tailoring 912
+Resources=12 tLeather
+AlterItem=0
+DupeList=0
+
+Category=Equipment
+Subsection=Armor: Studded Armor
+Description=Studded Leggings
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=4
+
+[ItemDef 0]
+DupeItem=0
+
+// Studded Tunic
+// Success:
+// Exceptional: 
+[ItemDef ]
+DefName=iStuddedTunic
+Name=studded tunic
+Type=tStuddedArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=8
+ReqStr=35
+SkillMake=Tailoring 940
+Resources=14 tLeather
+AlterItem=0
+DupeList=0
+
+Category=Equipment
+Subsection=Armor: Studded Armor
+Description=Studded Tunic
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=4
+
+[ItemDef 0]
+DupeItem=0
+
+// Studded Bustier
+// Success:
+// Exceptional: 
+[ItemDef ]
+DefName=iStuddedBustier
+Name=studded bustier
+Type=tStuddedArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf|CanUFemale
+Weight=1
+ReqStr=35
+SkillMake=Tailoring 829
+Resources=8 tLeather
+AlterItem=0
+DupeList=0
+
+Category=Equipment
+Subsection=Armor: Studded Armor
+Description=Studded Bustier
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=4
+
+[ItemDef 0]
+DupeItem=0
+
+// Studded Armor
+// Success:
+// Exceptional: 
+[ItemDef ]
+DefName=iStuddedArmor
+Name=studded armor
+Type=tStuddedArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf|CanUFemale
+Weight=6
+ReqStr=35
+SkillMake=Tailoring 871
+Resources=10 tLeather
+AlterItem=0
+DupeList=0
+
+Category=Equipment
+Subsection=Armor: Studded Armor
+Description=Studded Armor
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=4
+
+[ItemDef 0]
+DupeItem=0
+
+// Studded Mempo
+// Success:
+// Exceptional: 
+[ItemDef ]
+DefName=iStuddedMempo
+Name=studded mempo
+Type=tStuddedArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=2
+ReqStr=30
+SkillMake=Tailoring 800
+Resources=8 tLeather
+AlterItem=0
+DupeList=0
+
+Category=Equipment
+Subsection=Armor: Studded Samurai Armor
+Description=Studded Mempo
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=4
+
+[ItemDef 0]
+DupeItem=0
+
+// Studded Do
+// Success:
+// Exceptional: 
+[ItemDef ]
+DefName=iStuddedDo
+Name=studded do
+Type=tStuddedArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=8
+ReqStr=55
+SkillMake=Tailoring 950
+Resources=14 tLeather
+AlterItem=0
+DupeList=0
+
+Category=Equipment
+Subsection=Armor: Studded Samurai Armor
+Description=Studded Do
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=4
+
+[ItemDef 0]
+DupeItem=0
+
+// Studded Hiro Sode
+// Success:
+// Exceptional: 
+[ItemDef ]
+DefName=iStuddedHiroSode
+Name=studded hiro sode
+Type=tStuddedArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=1
+ReqStr=30
+SkillMake=Tailoring 850
+Resources=8 tLeather
+AlterItem=0
+DupeList=0
+
+Category=Equipment
+Subsection=Armor: Studded Samurai Armor
+Description=Studded Hiro Sode
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=4
+
+[ItemDef 0]
+DupeItem=0
+
+// Studded Suneate
+// Success:
+// Exceptional: 
+[ItemDef ]
+DefName=iStuddedSuneate
+Name=studded suneate
+Type=tStuddedArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=5
+ReqStr=30
+SkillMake=Tailoring 920
+Resources=14 tLeather
+AlterItem=0
+DupeList=0
+
+Category=Equipment
+Subsection=Armor: Studded Samurai Armor
+Description=Studded Suneate
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=4
+
+[ItemDef 0]
+DupeItem=0
+
+// Studded Haidate
+// Success:
+// Exceptional: 
+[ItemDef ]
+DefName=iStuddedHaidate
+Name=studded haidate
+Type=tStuddedArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=5
+ReqStr=30
+SkillMake=Tailoring 920
+Resources=14 tLeather
+AlterItem=0
+DupeList=0
+
+Category=Equipment
+Subsection=Armor: Studded Samurai Armor
+Description=Studded Haidate
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=4
+
+[ItemDef 0]
+DupeItem=0
+
+// Hide Tunic
+// Success:
+// Exceptional: 
+[ItemDef ]
+DefName=iHideTunic
+Name=hide tunic
+Type=tHideArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUElf
+Weight=6
+ReqStr=25
+SkillMake=Tailoring 850
+Resources=15 tLeather
+AlterItem=0
+DupeList=0
+
+Category=Equipment
+Subsection=Armor: Hide Armor
+Description=Hide Tunic
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=3
+ResFire=3
+ResCold=4
+ResPoison=3
+ResEnergy=2
+
+[ItemDef 0]
+DupeItem=0
+
+// Hide Pauldrons
+// Success:
+// Exceptional: 
+[ItemDef ]
+DefName=iHidePauldrons
+Name=hide pauldrons
+Type=tHideArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUElf
+Weight=4
+ReqStr=20
+SkillMake=Tailoring 750
+Resources=12 tLeather
+AlterItem=0
+DupeList=0
+
+Category=Equipment
+Subsection=Armor: Hide Armor
+Description=Hide Pauldrons
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=3
+ResFire=3
+ResCold=4
+ResPoison=3
+ResEnergy=2
+
+[ItemDef 0]
+DupeItem=0
+
+// Hide Gloves
+// Success:
+// Exceptional: 
+[ItemDef ]
+DefName=iHideGloves
+Name=hide gloves
+Type=tHideArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUElf
+Weight=2
+ReqStr=15
+SkillMake=Tailoring 750
+Resources=10 tLeather
+AlterItem=0
+DupeList=0
+
+Category=Equipment
+Subsection=Armor: Hide Armor
+Description=Hide Gloves
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=3
+ResFire=3
+ResCold=4
+ResPoison=3
+ResEnergy=2
+
+[ItemDef 0]
+DupeItem=0
+
+// Hide Pants
+// Success:
+// Exceptional: 
+[ItemDef ]
+DefName=iHidePants
+Name=hide pants
+Type=tHideArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUElf
+Weight=5
+ReqStr=25
+SkillMake=Tailoring 920
+Resources=15 tLeather
+AlterItem=0
+DupeList=0
+
+Category=Equipment
+Subsection=Armor: Hide Armor
+Description=Hide Pants
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=3
+ResFire=3
+ResCold=4
+ResPoison=3
+ResEnergy=2
+
+[ItemDef 0]
+DupeItem=0
+
+// Hide Gorget
+// Success:
+// Exceptional: 
+[ItemDef ]
+DefName=iHideGorget
+Name=hide gorget
+Type=tHideArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUElf
+Weight=3
+ReqStr=15
+SkillMake=Tailoring 900
+Resources=12 tLeather
+AlterItem=0
+DupeList=0
+
+Category=Equipment
+Subsection=Armor: Hide Armor
+Description=Hide Gorget
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=3
+ResFire=3
+ResCold=4
+ResPoison=3
+ResEnergy=2
+
+[ItemDef 0]
+DupeItem=0
+
+// Bone Helmet
+// Success:
+// Exceptional: 
+[ItemDef ]
+DefName=iBoneHelmet
+Name=bone helmet
+Type=tBoneArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=3
+ReqStr=20
+SkillMake=Tailoring 850
+Resources=4 tLeather,2 iBone
+AlterItem=0
+DupeList=0
+
+Category=Equipment
+Subsection=Armor: Bone Armor
+Description=Bone Helmet
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=3
+ResFire=3
+ResCold=4
+ResPoison=2
+ResEnergy=4
+
+[ItemDef 0]
+DupeItem=0
+
+// Bone Gloves
+// Success:
+// Exceptional: 
+[ItemDef ]
+DefName=iBoneGloves
+Name=bone gloves
+Type=tBoneArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=2
+ReqStr=55
+SkillMake=Tailoring 890
+Resources=6 tLeather,2 iBone
+AlterItem=0
+DupeList=0
+
+Category=Equipment
+Subsection=Armor: Bone Armor
+Description=Bone Gloves
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=3
+ResFire=3
+ResCold=4
+ResPoison=2
+ResEnergy=4
+
+[ItemDef 0]
+DupeItem=0
+
+// Bone Arms
+// Success:
+// Exceptional: 
+[ItemDef ]
+DefName=iBoneArms
+Name=bone arms
+Type=tBoneArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=2
+ReqStr=55
+SkillMake=Tailoring 920
+Resources=8 tLeather,4 iBone
+AlterItem=0
+DupeList=0
+
+Category=Equipment
+Subsection=Armor: Bone Armor
+Description=Bone Arms
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=3
+ResFire=3
+ResCold=4
+ResPoison=2
+ResEnergy=4
+
+[ItemDef 0]
+DupeItem=0
+
+// Bone Leggings
+// Success:
+// Exceptional: 
+[ItemDef ]
+DefName=iBoneLeggings
+Name=bone leggings
+Type=tBoneArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=3
+ReqStr=55
+SkillMake=Tailoring 950
+Resources=10 tLeather,6 iBone
+AlterItem=0
+DupeList=0
+
+Category=Equipment
+Subsection=Armor: Bone Armor
+Description=Bone Leggings
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=3
+ResFire=3
+ResCold=4
+ResPoison=2
+ResEnergy=4
+
+[ItemDef 0]
+DupeItem=0
+
+// Bone Armor
+// Success:
+// Exceptional: 
+[ItemDef ]
+DefName=iBoneArmor
+Name=bone armor
+Type=tBoneArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=6
+ReqStr=60
+SkillMake=Tailoring 960
+Resources=12 tLeather,10 iBone
+AlterItem=0
+DupeList=0
+
+Category=Equipment
+Subsection=Armor: Bone Armor
+Description=Bone Armor
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=3
+ResFire=3
+ResCold=4
+ResPoison=2
+ResEnergy=4
+
+[ItemDef 0]
+DupeItem=0
+
+// Gargish Cloth Arms
+// Success:
+// Exceptional: 
+[ItemDef 0403]
+DefName=iGargishClothArms
+Name=gargish cloth arms
+Type=tClothArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUGargoyle
+Weight=2
+ReqStr=20
+SkillMake=Tailoring 871
+Resources=8 tCloth
+DupeList=0405F
+
+Category=Equipment
+Subsection=Armor: Gargish Cloth Armor
+Description=Gargish Cloth Arms
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=7
+ResCold=6
+ResPoison=6
+ResEnergy=6
+
+[ItemDef 0405F]
+DupeItem=0403
+
+// Gargish Cloth Arms (Variant 1)
+// Success:
+// Exceptional: 
+[ItemDef 0404]
+DefName=iGargishClothArms1
+Name=gargish cloth arms
+Type=tClothArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUGargoyle
+Weight=2
+ReqStr=20
+SkillMake=Tailoring 871
+Resources=8 tCloth
+DupeList=04060
+
+Category=Equipment
+Subsection=Armor: Gargish Cloth Armor
+Description=Gargish Cloth Arms (1)
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=7
+ResCold=6
+ResPoison=6
+ResEnergy=6
+
+[ItemDef 04060]
+DupeItem=0404
+
+// Gargish Cloth Chest
+// Success:
+// Exceptional: 
+[ItemDef 0405]
+DefName=iGargishClothChest
+Name=gargish cloth chest
+Type=tClothArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUGargoyle
+Weight=6
+ReqStr=25
+SkillMake=Tailoring 940
+Resources=12 tCloth
+DupeList=04061
+
+Category=Equipment
+Subsection=Armor: Gargish Cloth Armor
+Description=Gargish Cloth Chest
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=7
+ResCold=6
+ResPoison=6
+ResEnergy=6
+
+[ItemDef 04061]
+DupeItem=0405
+
+// Gargish Cloth Chest (Variant 1)
+// Success:
+// Exceptional: 
+[ItemDef 0406]
+DefName=iGargishClothChest1
+Name=gargish cloth chest
+Type=tClothArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUGargoyle
+Weight=6
+ReqStr=25
+SkillMake=Tailoring 940
+Resources=12 tCloth
+DupeList=04062
+
+Category=Equipment
+Subsection=Armor: Gargish Cloth Armor
+Description=Gargish Cloth Chest (1)
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=7
+ResCold=6
+ResPoison=6
+ResEnergy=6
+
+[ItemDef 04062]
+DupeItem=0406
+
+// Gargish Cloth Leggings
+// Success:
+// Exceptional: 
+[ItemDef 0409]
+DefName=iGargishClothLeggings
+Name=gargish cloth leggings
+Type=tClothArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUGargoyle
+Weight=4
+ReqStr=20
+SkillMake=Tailoring 912
+Resources=10 tCloth
+DupeList=04065
+
+Category=Equipment
+Subsection=Armor: Gargish Cloth Armor
+Description=Gargish Cloth Leggings
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=7
+ResCold=6
+ResPoison=6
+ResEnergy=6
+
+[ItemDef 04065]
+DupeItem=0409
+
+// Gargish Cloth Leggings (Variant 1)
+// Success:
+// Exceptional: 
+[ItemDef 040A]
+DefName=iGargishClothLeggings1
+Name=gargish cloth leggings
+Type=tClothArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUGargoyle
+Weight=4
+ReqStr=20
+SkillMake=Tailoring 912
+Resources=10 tCloth
+DupeList=04066
+
+Category=Equipment
+Subsection=Armor: Gargish Cloth Armor
+Description=Gargish Cloth Leggings (1)
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=7
+ResCold=6
+ResPoison=6
+ResEnergy=6
+
+[ItemDef 04066]
+DupeItem=040A
+
+// Gargish Cloth Kilt
+// Success:
+// Exceptional: 
+[ItemDef 0407]
+DefName=iGargishClothKilt
+Name=gargish cloth kilt
+Type=tClothArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUGargoyle
+Weight=2
+ReqStr=20
+SkillMake=Tailoring 829
+Resources=6 tCloth
+DupeList=04063
+
+Category=Equipment
+Subsection=Armor: Gargish Cloth Armor
+Description=Gargish Cloth Kilt
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=7
+ResCold=6
+ResPoison=6
+ResEnergy=6
+
+[ItemDef 04063]
+DupeItem=0407
+
+// Gargish Cloth Kilt (Variant 1)
+// Success:
+// Exceptional: 
+[ItemDef 0408]
+DefName=iGargishClothKilt1
+Name=gargish cloth kilt
+Type=tClothArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUGargoyle
+Weight=2
+ReqStr=20
+SkillMake=Tailoring 829
+Resources=6 tCloth
+DupeList=04064
+
+Category=Equipment
+Subsection=Armor: Gargish Cloth Armor
+Description=Gargish Cloth Kilt (1)
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=7
+ResCold=6
+ResPoison=6
+ResEnergy=6
+
+[ItemDef 04064]
+DupeItem=0408
+
+// Gargish Cloth Wing Armor
+// Success:
+// Exceptional: 
+[ItemDef ]
+DefName=iGargishClothWingArmor
+Name=gargish cloth wing armor
+Type=tClothArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUGargoyle
+Weight=2
+ReqStr=10
+SkillMake=Tailoring 650
+Resources=12 tCloth
+DupeList=0
+
+Category=Equipment
+Subsection=Armor: Gargish Cloth Armor
+Description=Gargish Cloth Wing Armor
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=7
+ResCold=6
+ResPoison=6
+ResEnergy=6
+
+// Gargish Leather Arms
+// Success:
+// Exceptional: 
+[ItemDef ]
+DefName=iGargishLeatherArms
+Name=gargish leather arms
+Type=tLeatherArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUGargoyle
+Weight=4
+ReqStr=25
+SkillMake=Tailoring 539
+Resources=8 tLeather
+DupeList=0
+
+Category=Equipment
+Subsection=Armor: Gargish Leather Armor
+Description=Gargish Leather Arms
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=6
+ResCold=7
+ResPoison=6
+ResEnergy=6
+
+// Gargish Leather Arms (Variant 1)
+// Success:
+// Exceptional: 
+[ItemDef ]
+DefName=iGargishLeatherArms1
+Name=gargish leather arms
+Type=tLeatherArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUGargoyle
+Weight=4
+ReqStr=25
+SkillMake=Tailoring 539
+Resources=8 tLeather
+DupeList=0
+
+Category=Equipment
+Subsection=Armor: Gargish Leather Armor
+Description=Gargish Leather Arms (1)
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=6
+ResCold=7
+ResPoison=6
+ResEnergy=6
+
+// Gargish Leather Chest
+// Success:
+// Exceptional: 
+[ItemDef ]
+DefName=iGargishLeatherChest
+Name=gargish leather chest
+Type=tLeatherArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUGargoyle
+Weight=4
+ReqStr=25
+SkillMake=Tailoring 705
+Resources=8 tLeather
+DupeList=0
+
+Category=Equipment
+Subsection=Armor: Gargish Leather Armor
+Description=Gargish Leather Chest
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=6
+ResCold=7
+ResPoison=6
+ResEnergy=6
+
+// Gargish Leather Chest (Variant 1)
+// Success:
+// Exceptional: 
+[ItemDef ]
+DefName=iGargishLeatherChest1
+Name=gargish leather chest
+Type=tLeatherArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUGargoyle
+Weight=4
+ReqStr=25
+SkillMake=Tailoring 705
+Resources=8 tLeather
+DupeList=0
+
+Category=Equipment
+Subsection=Armor: Gargish Leather Armor
+Description=Gargish Leather Chest (1)
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=6
+ResCold=7
+ResPoison=6
+ResEnergy=6
+
+// Gargish Leather Leggings
+// Success:
+// Exceptional: 
+[ItemDef ]
+DefName=iGargishLeatherLeggings
+Name=gargish leather leggings
+Type=tLeatherArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUGargoyle
+Weight=5
+ReqStr=20
+SkillMake=Tailoring 663
+Resources=10 tLeather
+DupeList=0
+
+Category=Equipment
+Subsection=Armor: Gargish Leather Armor
+Description=Gargish Leather Leggings
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=6
+ResCold=7
+ResPoison=6
+ResEnergy=6
+
+// Gargish Leather Leggings (Variant 1)
+// Success:
+// Exceptional: 
+[ItemDef ]
+DefName=iGargishLeatherLeggings1
+Name=gargish leather leggings
+Type=tLeatherArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUGargoyle
+Weight=5
+ReqStr=20
+SkillMake=Tailoring 663
+Resources=10 tLeather
+DupeList=0
+
+Category=Equipment
+Subsection=Armor: Gargish Leather Armor
+Description=Gargish Leather Leggings (1)
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=6
+ResCold=7
+ResPoison=6
+ResEnergy=6
+
+// Gargish Leather Kilt
+// Success:
+// Exceptional: 
+[ItemDef ]
+DefName=iGargishLeatherKilt
+Name=gargish leather kilt
+Type=tLeatherArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUGargoyle
+Weight=5
+ReqStr=25
+SkillMake=Tailoring 580
+Resources=6 tLeather
+DupeList=0
+
+Category=Equipment
+Subsection=Armor: Gargish Leather Armor
+Description=Gargish Leather Kilt
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=6
+ResCold=7
+ResPoison=6
+ResEnergy=6
+
+// Gargish Leather Kilt (Variant 1)
+// Success:
+// Exceptional: 
+[ItemDef ]
+DefName=iGargishLeatherKilt1
+Name=gargish leather kilt
+Type=tLeatherArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUGargoyle
+Weight=5
+ReqStr=25
+SkillMake=Tailoring 580
+Resources=6 tLeather
+DupeList=0
+
+Category=Equipment
+Subsection=Armor: Gargish Leather Armor
+Description=Gargish Leather Kilt (1)
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=6
+ResCold=7
+ResPoison=6
+ResEnergy=6
+
+// Gargish Leather Wing Armor
+// Success:
+// Exceptional: 
+[ItemDef ]
+DefName=iGargishLeatherWingArmor
+Name=gargish leather wing armor
+Type=tLeatherArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUGargoyle
+Weight=2
+ReqStr=10
+SkillMake=Tailoring 650
+Resources=12 tLeather
+DupeList=0
+
+Category=Equipment
+Subsection=Armor: Gargish Leather Armor
+Description=Gargish Leather Wing Armor
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=6
+ResCold=7
+ResPoison=6
+ResEnergy=6
+
+// Ringmail Gloves
+// Success:
+// Exceptional: 
+[ItemDef ]
+DefName=iRingmailGloves
+Name=ringmail gloves
+Type=tRingmailArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=2
+ReqStr=40
+SkillMake=Blacksmithing 120
+Resources=10 tIngot
+AlterItem=0
+DupeList=0
+
+Category=Equipment
+Subsection=Armor: Ringmail Armor
+Description=Ringmail Gloves
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=3
+ResFire=3
+ResCold=1
+ResPoison=5
+ResEnergy=3
+
+// Ringmail Leggings
+// Success:
+// Exceptional: 
+[ItemDef ]
+DefName=iRingmailLeggings
+Name=ringmail leggings
+Type=tRingmailArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=15
+ReqStr=40
+SkillMake=Blacksmithing 194
+Resources=16 tIngot
+AlterItem=0
+DupeList=0
+
+Category=Equipment
+Subsection=Armor: Ringmail Armor
+Description=Ringmail Leggings
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=3
+ResFire=3
+ResCold=1
+ResPoison=5
+ResEnergy=3
+
+// Ringmail Gloves
+// Success:
+// Exceptional: 
+[ItemDef ]
+DefName=iRingmailGloves
+Name=ringmail gloves
+Type=tRingmailArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=2
+ReqStr=40
+SkillMake=Blacksmithing 120
+Resources=10 tIngot
+AlterItem=0
+DupeList=0
+
+Category=Equipment
+Subsection=Armor: Ringmail Armor
+Description=Ringmail Gloves
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=3
+ResFire=3
+ResCold=1
+ResPoison=5
+ResEnergy=3
+
+// Ringmail Leggings
+// Success:
+// Exceptional: 
+[ItemDef ]
+DefName=iRingmailLeggings
+Name=ringmail leggings
+Type=tRingmailArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=15
+ReqStr=40
+SkillMake=Blacksmithing 194
+Resources=16 tIngot
+AlterItem=0
+DupeList=0
+
+Category=Equipment
+Subsection=Armor: Ringmail Armor
+Description=Ringmail Leggings
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=3
+ResFire=3
+ResCold=1
+ResPoison=5
+ResEnergy=3
+
+// Ringmail Sleeves
+// Success:
+// Exceptional: 
+[ItemDef ]
+DefName=iRingmailSleeves
+Name=ringmail sleeves
+Type=tRingmailArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=15
+ReqStr=40
+SkillMake=Blacksmithing 169
+Resources=14 tIngot
+AlterItem=0
+DupeList=0
+
+Category=Equipment
+Subsection=Armor: Ringmail Armor
+Description=Ringmail Sleeves
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=3
+ResFire=3
+ResCold=1
+ResPoison=5
+ResEnergy=3
+
+// Ringmail Tunic
+// Success:
+// Exceptional: 
+[ItemDef ]
+DefName=iRingmailTunic
+Name=ringmail tunic
+Type=tRingmailArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=15
+ReqStr=40
+SkillMake=Blacksmithing 219
+Resources=18 tIngot
+AlterItem=0
+DupeList=0
+
+Category=Equipment
+Subsection=Armor: Ringmail Armor
+Description=Ringmail Tunic
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=3
+ResFire=3
+ResCold=1
+ResPoison=5
+ResEnergy=3
+
+// Chainmail Coif
+// Success:
+// Exceptional: 
+[ItemDef 13BB]
+DefName=iChainmailCoif
+Name=chainmail coif
+Type=tChainmailArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=7
+ReqStr=60
+SkillMake=Blacksmithing 145
+Resources=10 tIngot
+AlterItem=0
+DupeList=013C0
+
+Category=Equipment
+Subsection=Armor: Chainmail Armor
+Description=Chainmail Coif
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=4
+ResFire=4
+ResCold=4
+ResPoison=1
+ResEnergy=2
+
+[ItemDef 013C0]
+DupeItem=013BB
+
+// Chainmail Leggings (Decorative)
+[ItemDef 013BC]
+DefName=iChainmailLeggings1
+Name=chainmail leggings
+Type=tChainmailArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=7
+ReqStr=60
+SkillMake=Blacksmithing 367
+Resources=18 tIngot
+AlterItem=0
+DupeList=013C1
+
+Category=Equipment
+Subsection=Armor: Chainmail Armor
+Description=Chainmail Leggings
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=4
+ResFire=4
+ResCold=4
+ResPoison=1
+ResEnergy=2
+
+[ItemDef 013C1]
+DupeItem=013BC
+
+// Chainmail Leggings
+// Success:
+// Exceptional: 
+[ItemDef 013BE]
+DefName=iChainmailLeggings
+Name=chainmail leggings
+Type=tChainmailArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=7
+ReqStr=60
+SkillMake=Blacksmithing 367
+Resources=18 tIngot
+AlterItem=0
+DupeList=013C3
+
+Category=Equipment
+Subsection=Armor: Chainmail Armor
+Description=Chainmail Leggings
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=4
+ResFire=4
+ResCold=4
+ResPoison=1
+ResEnergy=2
+
+[ItemDef 013C3]
+DupeItem=013BE
+
+// Chainmail Tunic (Decorative)
+[ItemDef 013BD]
+DefName=iChainmailTunic1
+Name=chainmail tunic
+Type=tChainmailArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=7
+ReqStr=60
+SkillMake=Blacksmithing 391
+Resources=20 tIngot
+AlterItem=0
+DupeList=013C2
+
+Category=Equipment
+Subsection=Armor: Chainmail Armor
+Description=Chainmail Tunic
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=4
+ResFire=4
+ResCold=4
+ResPoison=1
+ResEnergy=2
+
+[ItemDef 013C2]
+DupeItem=013BD
+
+// Chainmail Tunic
+// Success:
+// Exceptional: 
+[ItemDef 013BF]
+DefName=iChainmailTunic
+Name=chainmail tunic
+Type=tChainmailArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=7
+ReqStr=60
+SkillMake=Blacksmithing 391
+Resources=20 tIngot
+AlterItem=0
+DupeList=013C4
+
+Category=Equipment
+Subsection=Armor: Chainmail Armor
+Description=Chainmail Tunic
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=4
+ResFire=4
+ResCold=4
+ResPoison=1
+ResEnergy=2
+
+[ItemDef 013C4]
+DupeItem=013BF
+
+// Plate Helm
+// Success:
+// Exceptional: 
+[ItemDef ]
+DefName=iPlateHelm
+Name=plate helm
+Type=tPlatemailArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=5
+ReqStr=80
+SkillMake=Blacksmithing 626
+Resources=15 tIngot
+AlterItem=0
+DupeList=0
+
+Category=Equipment
+Subsection=Armor: Platemail Armor
+Description=Plate Helm
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=3
+ResCold=2
+ResPoison=3
+ResEnergy=2
+
+// Platemail Arms
+// Success:
+// Exceptional: 
+[ItemDef ]
+DefName=iPlatemailArms
+Name=platemail arms
+Type=tPlatemailArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=5
+ReqStr=80
+SkillMake=Blacksmithing 663
+Resources=18 tIngot
+AlterItem={iGargishPlatemailArms 1 iGargishPlatemailArms1 1}
+DupeList=0
+
+Category=Equipment
+Subsection=Armor: Platemail Armor
+Description=Platemail Arms
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=3
+ResCold=2
+ResPoison=3
+ResEnergy=2
+
+// Platemail Gloves
+// Success:
+// Exceptional: 
+[ItemDef ]
+DefName=iPlatemailGloves
+Name=platemail gloves
+Type=tPlatemailArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=2
+ReqStr=70
+SkillMake=Blacksmithing 589
+Resources=12 tIngot
+AlterItem={iGargishPlatemailKilt 1 iGargishPlatemailKilt1 1}
+DupeList=0
+
+Category=Equipment
+Subsection=Armor: Platemail Armor
+Description=Platemail Gloves
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=3
+ResCold=2
+ResPoison=3
+ResEnergy=2
+
+// Platemail Gorget
+// Success:
+// Exceptional: 
+[ItemDef ]
+DefName=iPlatemailGorget
+Name=platemail gorget
+Type=tPlatemailArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=2
+ReqStr=45
+SkillMake=Blacksmithing 564
+Resources=10 tIngot
+AlterItem=0
+DupeList=0
+
+Category=Equipment
+Subsection=Armor: Platemail Armor
+Description=Platemail Gorget
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=3
+ResCold=2
+ResPoison=3
+ResEnergy=2
+
+// Platemail Legs
+// Success:
+// Exceptional: 
+[ItemDef ]
+DefName=iPlatemailLegs
+Name=platemail legs
+Type=tPlatemailArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=7
+ReqStr=90
+SkillMake=Blacksmithing 688
+Resources=20 tIngot
+AlterItem={iGargishPlatemailLeggings 1 iGargishPlatemailLeggings1 1}
+DupeList=0
+
+Category=Equipment
+Subsection=Armor: Platemail Armor
+Description=Platemail Legs
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=3
+ResCold=2
+ResPoison=3
+ResEnergy=2
+
+// Platemail Tunic
+// Success:
+// Exceptional: 
+[ItemDef ]
+DefName=iPlatemailTunic
+Name=platemail tunic
+Type=tPlatemailArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=10
+ReqStr=95
+SkillMake=Blacksmithing 750
+Resources=25 tIngot
+AlterItem={iGargishPlatemailChest 1 iGargishPlatemailChest1 1}
+DupeList=0
+
+Category=Equipment
+Subsection=Armor: Platemail Armor
+Description=Platemail Tunic
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=3
+ResCold=2
+ResPoison=3
+ResEnergy=2
+
+// Female Plate
+// Success:
+// Exceptional: 
+[ItemDef ]
+DefName=iFemalePlate
+Name=female plate
+Type=tPlatemailArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf|CanUFemale
+Weight=4
+ReqStr=95
+SkillMake=Blacksmithing 441
+Resources=20 tIngot
+AlterItem={iGargishPlatemailChest 1 iGargishPlatemailChest1 1}
+DupeList=0
+
+Category=Equipment
+Subsection=Armor: Platemail Armor
+Description=Female Plate
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=3
+ResCold=2
+ResPoison=3
+ResEnergy=2
+
+// Platemail Mempo
+// Success:
+// Exceptional: 
+[ItemDef ]
+DefName=iPlatemailMempo
+Name=platemail mempo
+Type=tPlatemailArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=3
+ReqStr=50
+SkillMake=Blacksmithing 800
+Resources=18 tIngot
+AlterItem=0
+DupeList=0
+
+Category=Equipment
+Subsection=Armor: Platemail Armor
+Description=Platemail Mempo
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=3
+ResCold=2
+ResPoison=3
+ResEnergy=2
+
+// Platemail Do
+// Success:
+// Exceptional: 
+[ItemDef ]
+DefName=iPlatemailDo
+Name=platemail do
+Type=tPlatemailArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=10
+ReqStr=85
+SkillMake=Blacksmithing 870
+Resources=28 tIngot
+AlterItem={iGargishPlatemailChest 1 iGargishPlatemailChest1 1}
+DupeList=0
+
+Category=Equipment
+Subsection=Armor: Platemail Armor
+Description=Platemail Do
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=3
+ResCold=2
+ResPoison=3
+ResEnergy=2
+
+// Platemail Hiro Sode
+// Success:
+// Exceptional: 
+[ItemDef ]
+DefName=iPlatemailHiroSode
+Name=platemail hiro sode
+Type=tPlatemailArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=2
+ReqStr=75
+SkillMake=Blacksmithing 800
+Resources=16 tIngot
+AlterItem={iGargishPlatemailArms 1 iGargishPlatemailArms1 1}
+DupeList=0
+
+Category=Equipment
+Subsection=Armor: Platemail Armor
+Description=Platemail Hiro Sode
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=3
+ResCold=2
+ResPoison=3
+ResEnergy=2
+
+// Platemail Suneate
+// Success:
+// Exceptional: 
+[ItemDef ]
+DefName=iPlatemailSuneate
+Name=platemail suneate
+Type=tPlatemailArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=7
+ReqStr=80
+SkillMake=Blacksmithing 650
+Resources=20 tIngot
+AlterItem={iGargishPlatemailLeggings 1 iGargishPlatemailLeggings1 1}
+DupeList=0
+
+Category=Equipment
+Subsection=Armor: Platemail Armor
+Description=Platemail Suneate
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=3
+ResCold=2
+ResPoison=3
+ResEnergy=2
+
+// Platemail Haidate
+// Success:
+// Exceptional: 
+[ItemDef ]
+DefName=iPlatemailHaidate
+Name=platemail haidate
+Type=tPlatemailArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=7
+ReqStr=80
+SkillMake=Blacksmithing 650
+Resources=20 tIngot
+AlterItem={iGargishPlatemailLeggings 1 iGargishPlatemailLeggings1 1}
+DupeList=0
+
+Category=Equipment
+Subsection=Armor: Platemail Armor
+Description=Platemail Haidate
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=3
+ResCold=2
+ResPoison=3
+ResEnergy=2
+
+// Dragon Gloves
+// Success:
+// Exceptional: 
+[ItemDef ]
+DefName=iDragonGloves
+Name=dragon gloves
+Type=tDragonArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=2
+ReqStr=75
+SkillMake=Blacksmithing 689
+Resources=16 tDragonScales
+AlterItem=0
+DupeList=0
+
+Category=Equipment
+Subsection=Armor: Dragon Armor
+Description=Dragon Gloves
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=3
+ResFire=3
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+// Dragon Helm
+// Success:
+// Exceptional: 
+[ItemDef ]
+DefName=iDragonHelm
+Name=dragon helm
+Type=tDragonArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=5
+ReqStr=75
+SkillMake=Blacksmithing 726
+Resources=20 tDragonScales
+AlterItem=0
+DupeList=0
+
+Category=Equipment
+Subsection=Armor: Dragon Armor
+Description=Dragon Helm
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=3
+ResFire=3
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+// Dragon Leggings
+// Success:
+// Exceptional: 
+[ItemDef ]
+DefName=iDragonLeggings
+Name=dragon leggings
+Type=tDragonArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=6
+ReqStr=75
+SkillMake=Blacksmithing 788
+Resources=28 tDragonScales
+AlterItem=0
+DupeList=0
+
+Category=Equipment
+Subsection=Armor: Dragon Armor
+Description=Dragon Leggings
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=3
+ResFire=3
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+// Dragon Sleeves
+// Success:
+// Exceptional: 
+[ItemDef ]
+DefName=iDragonSleeves
+Name=dragon sleeves
+Type=tDragonArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=2
+ReqStr=75
+SkillMake=Blacksmithing 763
+Resources=24 tDragonScales
+AlterItem=0
+DupeList=0
+
+Category=Equipment
+Subsection=Armor: Dragon Armor
+Description=Dragon Sleeves
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=3
+ResFire=3
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+// Dragon Breastplate
+// Success:
+// Exceptional: 
+[ItemDef ]
+DefName=iDragonBreastplate
+Name=dragon breastplate
+Type=tDragonArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=10
+ReqStr=75
+SkillMake=Blacksmithing 850
+Resources=36 tDragonScales
+AlterItem=0
+DupeList=0
+
+Category=Equipment
+Subsection=Armor: Dragon Armor
+Description=Dragon Breastplate
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=3
+ResFire=3
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+// Gargish Platemail Arms
+// Success:
+// Exceptional: 
+[ItemDef 0307]
+DefName=iGargishPlatemailArms
+Name=gargish platemail arms
+Type=tPlatemailArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUGargoyle
+Weight=5
+ReqStr=80
+SkillMake=Blacksmithing 663
+Resources=18 tIngot
+DupeList=0404F
+
+Category=Equipment
+Subsection=Armor: Gargish Platemail Armor
+Description=Gargish Platemail Arms
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=8
+ResFire=6
+ResCold=5
+ResPoison=6
+ResEnergy=5
+
+[ItemDef 0404F]
+DupeItem=0307
+
+// Gargish Platemail Arms (Variant 1)
+// Success:
+// Exceptional: 
+[ItemDef 0308]
+DefName=iGargishPlatemailArms1
+Name=gargish platemail arms
+Type=tPlatemailArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUGargoyle
+Weight=5
+ReqStr=80
+SkillMake=Blacksmithing 663
+Resources=18 tIngot
+DupeList=04050
+
+Category=Equipment
+Subsection=Armor: Gargish Platemail Armor
+Description=Gargish Platemail Arms (1)
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=8
+ResFire=6
+ResCold=5
+ResPoison=6
+ResEnergy=5
+
+[ItemDef 04050]
+DupeItem=0308
+
+// Gargish Platemail Leggings
+// Success:
+// Exceptional: 
+[ItemDef 030D]
+DefName=iGargishPlatemailLeggings
+Name=gargish platemail leggings
+Type=tPlatemailArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUGargoyle
+Weight=7
+ReqStr=20
+SkillMake=Blacksmithing 688
+Resources=20 tIngot
+DupeList=04055
+
+Category=Equipment
+Subsection=Armor: Gargish Platemail Armor
+Description=Gargish Platemail Leggings
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=8
+ResFire=6
+ResCold=5
+ResPoison=6
+ResEnergy=5
+
+[ItemDef 04055]
+DupeItem=030D
+
+// Gargish Platemail Leggings (Variant 1)
+// Success:
+// Exceptional: 
+[ItemDef 030E]
+DefName=iGargishPlatemailLeggings1
+Name=gargish platemail leggings
+Type=tPlatemailArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUGargoyle
+Weight=7
+ReqStr=20
+SkillMake=Blacksmithing 688
+Resources=20 tIngot
+DupeList=04056
+
+Category=Equipment
+Subsection=Armor: Gargish Platemail Armor
+Description=Gargish Platemail Leggings (1)
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=8
+ResFire=6
+ResCold=5
+ResPoison=6
+ResEnergy=5
+
+[ItemDef 04056]
+DupeItem=030E
+
+// Gargish Platemail Chest
+// Success:
+// Exceptional: 
+[ItemDef 0309]
+DefName=iGargishPlatemailChest
+Name=gargish platemail chest
+Type=tPlatemailArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUGargoyle
+Weight=10
+ReqStr=95
+SkillMake=Blacksmithing 750
+Resources=25 tIngot
+DupeList=04051
+
+Category=Equipment
+Subsection=Armor: Gargish Platemail Armor
+Description=Gargish Platemail Chest
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=8
+ResFire=6
+ResCold=5
+ResPoison=6
+ResEnergy=5
+
+[ItemDef 04051]
+DupeItem=0309
+
+// Gargish Platemail Chest (Variant 1)
+// Success:
+// Exceptional: 
+[ItemDef 030A]
+DefName=iGargishPlatemailChest1
+Name=gargish platemail chest
+Type=tPlatemailArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUGargoyle
+Weight=10
+ReqStr=95
+SkillMake=Blacksmithing 750
+Resources=25 tIngot
+DupeList=04052
+
+Category=Equipment
+Subsection=Armor: Gargish Platemail Armor
+Description=Gargish Platemail Chest (1)
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=8
+ResFire=6
+ResCold=5
+ResPoison=6
+ResEnergy=5
+
+[ItemDef 04052]
+DupeItem=030A
+
+// Gargish Platemail Kilt
+// Success:
+// Exceptional: 
+[ItemDef 030B]
+DefName=iGargishPlatemailKilt
+Name=gargish platemail kilt
+Type=tPlatemailArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUGargoyle
+Weight=5
+ReqStr=80
+SkillMake=Blacksmithing 589
+Resources=12 tIngot
+DupeList=04053
+
+Category=Equipment
+Subsection=Armor: Gargish Platemail Armor
+Description=Gargish Platemail Kilt
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=8
+ResFire=6
+ResCold=5
+ResPoison=6
+ResEnergy=5
+
+[ItemDef 04053]
+DupeItem=030B
+
+// Gargish Platemail Kilt (Variant 1)
+// Success:
+// Exceptional: 
+[ItemDef 030C]
+DefName=iGargishPlatemailKilt1
+Name=gargish platemail kilt
+Type=tPlatemailArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUGargoyle
+Weight=5
+ReqStr=80
+SkillMake=Blacksmithing 589
+Resources=12 tIngot
+DupeList=04054
+
+Category=Equipment
+Subsection=Armor: Gargish Platemail Armor
+Description=Gargish Platemail Kilt (1)
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=8
+ResFire=6
+ResCold=5
+ResPoison=6
+ResEnergy=5
+
+[ItemDef 04054]
+DupeItem=030C
+
+// Woodland Chest
+// Success:
+// Exceptional: 
+[ItemDef ]
+DefName=iWoodlandChest
+Name=woodland chest
+Type=tWoodlandArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUElf
+Weight=8
+ReqStr=95
+SkillMake=Carpentry 900
+Resources=20 tWood,6 iBarkFragment
+AlterItem=0
+DupeList=0
+
+Category=Equipment
+Subsection=Armor: Woodland Armor
+Description=Woodland Chest
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=3
+ResCold=2
+ResPoison=3
+ResEnergy=2
+
+// Woodland Arms
+// Success:
+// Exceptional: 
+[ItemDef ]
+DefName=iWoodlandArms
+Name=woodland arms
+Type=tWoodlandArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUElf
+Weight=5
+ReqStr=80
+SkillMake=Carpentry 850
+Resources=15 tWood,4 iBarkFragment
+AlterItem=0
+DupeList=0
+
+Category=Equipment
+Subsection=Armor: Woodland Armor
+Description=Woodland Arms
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=3
+ResCold=2
+ResPoison=3
+ResEnergy=2
+
+// Woodland Gauntlets
+// Success:
+// Exceptional: 
+[ItemDef ]
+DefName=iWoodlandGauntlets
+Name=woodland gauntlets
+Type=tWoodlandArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUElf
+Weight=2
+ReqStr=70
+SkillMake=Carpentry 900
+Resources=15 tWood,4 iBarkFragment
+AlterItem=0
+DupeList=0
+
+Category=Equipment
+Subsection=Armor: Woodland Armor
+Description=Woodland Gauntlets
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=3
+ResCold=2
+ResPoison=3
+ResEnergy=2
+
+// Woodland Leggings
+// Success:
+// Exceptional: 
+[ItemDef ]
+DefName=iWoodlandLeggings
+Name=woodland leggings
+Type=tWoodlandArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUElf
+Weight=8
+ReqStr=90
+SkillMake=Carpentry 850
+Resources=15 tWood,4 iBarkFragment
+AlterItem=0
+DupeList=0
+
+Category=Equipment
+Subsection=Armor: Woodland Armor
+Description=Woodland Leggings
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=3
+ResCold=2
+ResPoison=3
+ResEnergy=2
+
+// Woodland Gorget
+// Success:
+// Exceptional: 
+[ItemDef ]
+DefName=iWoodlandGorget
+Name=woodland gorget
+Type=tWoodlandArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUElf
+Weight=3
+ReqStr=45
+SkillMake=Carpentry 850
+Resources=15 tWood,4 iBarkFragment
+AlterItem=0
+DupeList=0
+
+Category=Equipment
+Subsection=Armor: Woodland Armor
+Description=Woodland Gorget
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=3
+ResCold=2
+ResPoison=3
+ResEnergy=2
+
+// Gargish Stone Arms
+// Success:
+// Exceptional: 
+[ItemDef 0283]
+DefName=iGargishStoneArms
+Name=gargish stone arms
+Type=tStoneArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUGargoyle
+Weight=10
+ReqStr=40
+SkillMake=Carpentry 563
+Resources=8 tGranite
+DupeList=04057
+
+Category=Equipment
+Subsection=Armor: Gargish Stone Armor
+Description=Gargish Stone Arms
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=6
+ResFire=6
+ResCold=4
+ResPoison=8
+ResEnergy=6
+
+[ItemDef 04057]
+DupeItem=0283
+
+// Gargish Stone Arms (Variant 1)
+// Success:
+// Exceptional: 
+[ItemDef 0284]
+DefName=iGargishStoneArms1
+Name=gargish stone arms
+Type=tStoneArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUGargoyle
+Weight=10
+ReqStr=40
+SkillMake=Carpentry 563
+Resources=8 tGranite
+DupeList=04058
+
+Category=Equipment
+Subsection=Armor: Gargish Stone Armor
+Description=Gargish Stone Arms (1)
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=6
+ResFire=6
+ResCold=4
+ResPoison=8
+ResEnergy=6
+
+[ItemDef 04058]
+DupeItem=284
+
+// Gargish Stone Chest
+// Success:
+// Exceptional: 
+[ItemDef 0285]
+DefName=iGargishStoneChest
+Name=gargish stone chest
+Type=tStoneArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUGargoyle
+Weight=15
+ReqStr=40
+SkillMake=Carpentry 650	// use 550 for base 50%
+Resources=12 tGranite
+DupeList=04059
+
+Category=Equipment
+Subsection=Armor: Gargish Stone Armor
+Description=Gargish Stone Chest
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=6
+ResFire=6
+ResCold=4
+ResPoison=8
+ResEnergy=6
+
+[ItemDef 04059]
+DupeItem=0285
+
+// Gargish Stone Chest (Variant 1)
+// Success:
+// Exceptional: 
+[ItemDef 0286]
+DefName=iGargishStoneChest1
+Name=gargish stone chest
+Type=tStoneArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUGargoyle
+Weight=15
+ReqStr=40
+SkillMake=Carpentry 650	// use 550 for base 50%
+Resources=12 tGranite
+DupeList=0405A
+
+Category=Equipment
+Subsection=Armor: Gargish Stone Armor
+Description=Gargish Stone Chest (1)
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=6
+ResFire=6
+ResCold=4
+ResPoison=8
+ResEnergy=6
+
+[ItemDef 0286]
+DupeItem=0405A
+
+// Gargish Stone Leggings
+// Success: 
+// Exceptional: 
+[ItemDef 0289]
+DefName=iGargishStoneLeggings
+Name=gargish stone leggings
+Type=tStoneArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUGargoyle
+Weight=15
+ReqStr=40
+SkillMake=Carpentry 588
+Resources=10 tGranite
+DupeList=0405D
+
+Category=Equipment
+Subsection=Armor: Gargish Stone Armor
+Description=Gargish Stone Leggings
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=6
+ResFire=6
+ResCold=4
+ResPoison=8
+ResEnergy=6
+
+[ItemDef 0405D]
+DupeItem=0289
+
+// Gargish Stone Leggings (Variant 1)
+// Success: 
+// Exceptional: 
+[ItemDef 028A]
+DefName=iGargishStoneLeggings1
+Name=gargish stone leggings
+Type=tStoneArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUGargoyle
+Weight=15
+ReqStr=40
+SkillMake=Carpentry 588
+Resources=10 tGranite
+DupeList=0405E
+
+Category=Equipment
+Subsection=Armor: Gargish Stone Armor
+Description=Gargish Stone Leggings (1)
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=6
+ResFire=6
+ResCold=4
+ResPoison=8
+ResEnergy=6
+
+[ItemDef 0405E]
+DupeItem=028A
+
+// Gargish Stone Kilt
+// Success: 
+// Exceptional: 
+[ItemDef 0287]
+DefName=iGargishStoneKilt
+Name=gargish stone kilt
+Type=tStoneArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUGargoyle
+Weight=10
+ReqStr=40
+SkillMake=Carpentry 489
+Resources=6 tGranite
+DupeList=0405B
+
+Category=Equipment
+Subsection=Armor: Gargish Stone Armor
+Description=Gargish Stone Kilt
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=6
+ResFire=6
+ResCold=4
+ResPoison=8
+ResEnergy=6
+
+[ItemDef 0405B]
+DupeItem=0287
+
+// Gargish Stone Kilt (Variant 1)
+// Success: 
+// Exceptional: 
+[ItemDef 0288]
+DefName=iGargishStoneKilt1
+Name=gargish stone kilt
+Type=tStoneArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUGargoyle
+Weight=10
+ReqStr=40
+SkillMake=Carpentry 489
+Resources=6 tGranite
+DupeList=0405C
+
+Category=Equipment
+Subsection=Armor: Gargish Stone Armor
+Description=Gargish Stone Kilt (1)
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=6
+ResFire=6
+ResCold=4
+ResPoison=8
+ResEnergy=6
+
+[ItemDef 0405C]
+DupeItem=0288
+
+[ItemDef 07822]
+DefName=iTigerPeltChest
+Name=tiger pelt chest
+NameLoc=1109626
+Type=tFurArmor
+Can=CanIRepair|CanIRecycle|CanIRetainColor|CanIExceptional|CanIMakersMark|CanIEnhance|CanIImbue|CanIReforge||CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=0
+Weight=6
+ReqStr=25
+SkillMake=Tailoring 900
+Resources=8 tLeather,4 iTigerPelt
+AlterItem={iGargishLeatherChest 1 iGargishLeatherChest1 1}
+
+Category=Equipment
+Subsection=Armor: Tiger Pelt Armor
+Description=Tiger Pelt Chest
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+[ItemDef 07823]
+DefName=iTigerPeltBustier
+NameLoc=1109627
+Name=tiger pelt bustier
+Can=CanIRepair|CanIRecycle|CanIRetainColor|CanIExceptional|CanIMakersMark|CanIEnhance|CanIImbue|CanIReforge||CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUFemale
+Weight=6
+ReqStr=20
+SkillMake=Tailoring 900
+Resources=6 tLeather,3 iTigerPelt
+AlterItem={iGargishLeatherChest 1 iGargishLeatherChest1 1}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+Category=Equipment
+Subsection=Armor: Tiger Pelt Armor
+Description=Tiger Pelt Bustier
+
+On=@Create
+HitPoints={36 48}
+
+[ItemDef 07824]
+DefName=iTigerPeltLeggings
+Name=tiger pelt leggings
+NameLoc=1109628
+Type=tFurArmor
+Can=CanIRepair|CanIRecycle|CanIRetainColor|CanIExceptional|CanIMakersMark|CanIEnhance|CanIImbue|CanIReforge||CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=0
+Weight=4
+ReqStr=20
+SkillMake=Tailoring 900
+Resources=8 tLeather,4 iTigerPelt
+AlterItem={iGargishLeatherLeggings 1 iGargishLeatherLeggings1 1}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+Category=Equipment
+Subsection=Armor: Tiger Pelt Armor
+Description=Tiger Pelt Leggings
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+[ItemDef 07825]
+DefName=iTigerPeltShorts
+Name=tiger shorts
+NameLoc=1109629
+Type=tFurArmor
+Can=CanIRepair|CanIRecycle|CanIRetainColor|CanIExceptional|CanIMakersMark|CanIEnhance|CanIImbue|CanIReforge||CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=0
+Weight=3
+ReqStr=20
+SkillMake=Tailoring 900
+Resources=4 tLeather,2 iTigerPelt
+AlterItem={iGargishLeatherLeggings 1 iGargishLeatherLeggings1 1}
+
+Category=Equipment
+Subsection=Armor: Tiger Pelt Armor
+Description=Tiger Pelt Shorts
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+[ItemDef 07826]
+DefName=iTigerPeltLongSkirt
+Name=tiger pelt long skirt
+NameLoc=1109630
+Type=tFurArmor
+Can=CanIRepair|CanIRecycle|CanIRetainColor|CanIExceptional|CanIMakersMark|CanIEnhance|CanIImbue|CanIReforge||CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUFemale
+Weight=1
+ReqStr=20
+SkillMake=Tailoring 900
+Resources=4 tLeather,2 iTigerPelt
+AlterItem={iGargishLeatherLeggings 1 iGargishLeatherLeggings1 1}
+
+Category=Equipment
+Subsection=Armor: Tiger Pelt Armor
+Description=Tiger Pelt Long Skirt
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+[ItemDef 07827]
+DefName=iTigerPeltSkirt
+Name=tiger pelt skirt
+NameLoc=1109631
+Type=tFurArmor
+Can=CanIRepair|CanIRecycle|CanIRetainColor|CanIExceptional|CanIMakersMark|CanIEnhance|CanIImbue|CanIReforge||CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUFemale
+Weight=1
+ReqStr=20
+SkillMake=Tailoring 900
+Resources=4 tLeather,2 iTigerPelt
+AlterItem={iGargishLeatherLeggings 1 iGargishLeatherLeggings1 1}
+
+Category=Equipment
+Subsection=Armor: Tiger Pelt Armor
+Description=Tiger Pelt Skirt
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+[ItemDef 07828]
+DefName=iTigerPeltHelm
+Name=tiger pelt helm
+NameLoc=1109632
+Type=tFurArmor
+Can=CanIRepair|CanIRecycle|CanIRetainColor|CanIExceptional|CanIMakersMark|CanIEnhance|CanIImbue|CanIReforge||CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=0
+Weight=4
+ReqStr=20
+SkillMake=Tailoring 900
+Resources=2 tLeather,1 iTigerPelt
+AlterItem=0
+
+Category=Equipment
+Subsection=Armor: Tiger Pelt Armor
+Description=Tiger Pelt Helm
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+[ItemDef 07829]
+DefName=iTigerPeltCollar
+Name=tiger pelt collar
+NameLoc=1109633
+Type=tFurArmor
+Can=CanIRepair|CanIRecycle|CanIRetainColor|CanIExceptional|CanIMakersMark|CanIEnhance|CanIImbue|CanIReforge||CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=0
+Weight=2
+ReqStr=20
+SkillMake=Tailoring 900
+Resources=2 tLeather,1 iTigerPelt
+AlterItem=0
+
+Category=Equipment
+Subsection=Armor: Tiger Pelt Armor
+Description=Tiger Pelt Collar
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+[ItemDef 0782A]
+DefName=iDragonTurtleHideChest
+Name=dragon turtle hide chest
+NameLoc=1109634
+Type=tScuteArmor
+Can=CanIRepair|CanIRecycle|CanIRetainColor|CanIExceptional|CanIMakersMark|CanIEnhance|CanIImbue|CanIReforge||CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=0
+Weight=8
+ReqStr=25
+SkillMake=Tailoring 1015
+Resources=8 tLeather,4 iDragonTurtleScute
+AlterItem={iGargishLeatherChest 1 iGargishLeatherChest1 1}
+
+Category=Equipment
+Subsection=Armor: Dragon Turtle Hide Armor
+Description=Dragon Turtle Hide Chest
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+[ItemDef 0782B]
+DefName=iDragonTurtleHideBustier
+Name=dragon turtle hide bustier
+NameLoc=1109635
+Type=tScuteArmor
+Can=CanIRepair|CanIRecycle|CanIRetainColor|CanIExceptional|CanIMakersMark|CanIEnhance|CanIImbue|CanIReforge||CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUFemale
+Weight=6
+ReqStr=20
+SkillMake=Tailoring 1015
+Resources=6 tLeather,3 iDragonTurtleScute
+AlterItem={iGargishLeatherChest 1 iGargishLeatherChest1 1}
+
+Category=Equipment
+Subsection=Armor: Dragon Turtle Hide Armor
+Description=Dragon Turtle Hide Bustier
+
+On=@Create
+HitPoints={36 48}
+
+[ItemDef 0782C]
+DefName=iDragonTurtleHideLeggings
+Name=dragon turtle hide leggings
+NameLoc=1109636
+Type=tScuteArmor
+Can=CanIRepair|CanIRecycle|CanIRetainColor|CanIExceptional|CanIMakersMark|CanIEnhance|CanIImbue|CanIReforge||CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=0
+Weight=6
+ReqStr=20
+SkillMake=Tailoring 1015
+Resources=8 tLeather,4 iDragonTurtleScute
+AlterItem={iGargishLeatherLeggings 1 iGargishLeatherLeggings1 1}
+
+Category=Equipment
+Subsection=Armor: Dragon Turtle Hide Armor
+Description=Dragon Turtle Hide Leggings
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+[ItemDef 0782D]
+DefName=iDragonTurtleHideHelm
+Name=dragon turtle hide helm
+NameLoc=1109637
+Type=tScuteArmor
+Can=CanIRepair|CanIRecycle|CanIRetainColor|CanIExceptional|CanIMakersMark|CanIEnhance|CanIImbue|CanIReforge||CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=0
+Weight=4
+ReqStr=20
+SkillMake=Tailoring 1015
+Resources=2 tLeather,1 iDragonTurtleScute
+AlterItem=0
+
+Category=Equipment
+Subsection=Armor: Dragon Turtle Hide Armor
+Description=Dragon Turtle Hide Helm
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+[ItemDef 0782E]
+DefName=iDragonTurtleHideArms    // bracers
+Name=dragon turtle hide arms
+NameLoc=1109638
+Type=tScuteArmor
+Can=CanIRepair|CanIRecycle|CanIRetainColor|CanIExceptional|CanIMakersMark|CanIEnhance|CanIImbue|CanIReforge||CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=0
+Weight=2
+ReqStr=20
+SkillMake=Tailoring 1015
+Resources=4 tLeather,2 iDragonTurtleScute
+AlterItem={iGargishLeatherArms 1 iGargishLeatherArms1 1}
+
+Category=Equipment
+Subsection=Armor: Dragon Turtle Hide Armor
+Description=Dragon Turtle Hide Arms
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+[EOF]

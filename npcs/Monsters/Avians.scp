@@ -1,0 +1,122 @@
+// Phoenix
+[CharDef 0340]
+DefName=cPhoenix
+Name=phoenix
+Can=CanWalk|CanFly|CanUseHands
+MoveRate=100
+Dam=25
+Icon=iPhoenixIcon
+Sound=sndEagle1
+Resources=36 iFeather,1 iRawBird
+FoodType=tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=tMeat
+BloodColor=0
+//TEvents=e_fire_aura
+
+Category=Monsters
+SubsectiOn=Avians
+DescriptiOn=Phoenix
+
+On=@Create
+NPC=BrainMonster
+SlayerSuper=BirdSlayer|FlameSlayer
+
+Fame=15000
+Karma=-15000
+Alignment=Evil
+
+DamPhysical=50
+DamFire=50
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=45,55
+ResFire=60,70
+ResCold=0
+ResPoison=25,35
+ResEnergy=40,50
+
+OStr={500 700}
+ODex={200 300}
+OInt={500 700}
+MaxHits={340 383}
+
+Wrestling={900 1000}
+Tactics={800 900}
+MagicResistance={850 1350}
+Magery={900 1000}
+EvaluatingIntel={900 1000}
+Meditation={750 1000}
+Parrying={800 900}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={800 900}
+
+// Greater Phoenix
+// Dragon Turtle Champion Spawn
+// Note: Bump this thing up for outside that spawn It is weaker than a normal phoenix
+[CharDef cGreaterPhoenix]
+ID=cPhoenix
+Name=greater phoenix
+Can=CanWalk|CanFly|CanUseHands
+MoveRate=100
+Dam=11,14
+Icon=iGreaterPhoenixIcon
+Sound=sndEagle1
+Resources=36 iFeather,1 iRawBird
+FoodType=tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=tRawMeat
+BloodColor=0
+//TEvents=e_fire_aura
+
+Category=Monsters
+SubsectiOn=Avians
+DescriptiOn=Greater Phoenix
+
+On=@Create
+NPC=BrainMonster
+SlayerSuper=EodonSlayer|BirdSlayer|FlameSlayer
+
+Fame=10000
+Karma=-10000
+Alignment=Evil
+
+DamPhysical=40
+DamFire=60
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=45,55
+ResFire=70,80
+ResCold=20,30
+ResPoison=40,50
+ResEnergy=35,45
+
+OStr={330 390}
+ODex={90 120}
+OInt={180 260}
+MaxHits={100 240}
+
+Wrestling={500 800}
+Tactics={500 700}
+MagicResistance={900 1000}
+Magery={900 1000}
+EvaluatingIntel={900 1000}
+Parrying={500 700}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={600 700}
+
+[EOF]

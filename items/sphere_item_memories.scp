@@ -1,0 +1,230 @@
+//****************************************************************************
+// SPHERE by : Menasoft ©1997-2007
+// www.sphereserver.net
+// All SPHERE script files and formats are copyright Menasoft & Partners.
+// This file may be freely edited for personal use, but may not be distributed
+// in whole or in part, in any format without express written permission from
+// Menasoft & Partners. All donations and contributions
+// become the property of Menasoft & Partners.
+//****************************************************************************
+// FILE LAST UPDATED: Monday, October 14, 2013
+//
+VERSION=0.56c
+
+
+[ITEMDEF 01964]
+DEFNAME=iRegionCaves
+
+[ITEMDEF 01965]
+DEFNAME=iRegionForest
+
+[ITEMDEF 01966]
+DEFNAME=iRegionGrass
+
+[ITEMDEF 01967]
+DEFNAME=iRegionJungle
+
+[ITEMDEF 01968]
+DEFNAME=iRegionMountain
+
+[ITEMDEF 01969]
+DEFNAME=iRegionSand
+
+[ITEMDEF 0196a]
+DEFNAME=iRegionSnow
+
+[ITEMDEF 0196b]
+DEFNAME=iRegionSwamp
+
+[ITEMDEF 0196c]
+DEFNAME=iRegionWater
+
+[ITEMDEF 0196d]
+DEFNAME=iGateBlue
+
+[ITEMDEF 0196e]
+DEFNAME=iGateRed
+
+[ITEMDEF 0196f]
+//map (detailed)
+DEFNAME=iMapadd1
+
+[ITEMDEF 01970]
+//map (regional)
+DEFNAME=iMapadd2
+
+[ITEMDEF 01971]
+//map (sea chart)
+DEFNAME=iMapadd3
+
+[ITEMDEF 01972]
+//map (full world)
+DEFNAME=iMapadd4
+
+[ITEMDEF 01973]
+//quest egg
+DEFNAME=iQuest
+
+[ITEMDEF 01977]
+DEFNAME=iRegionDirt
+
+[ITEMDEF 01978]
+DEFNAME=iRegionFurrows
+
+[ITEMDEF 01979]
+DEFNAME=iRegionLava
+
+
+[ITEMDEF 02007]
+//Used as the default memory object
+DEFNAME=iMemory
+TYPE=tEqMemoryObj
+LAYER=layer_special
+CATEGORY=Miscellaneous
+SUBSECTION=Special Tiles
+DESCRIPTION=NonGen (Memory) Object
+
+
+[ITEMDEF 02008]
+DEFNAME=iCharacterPeasant
+
+[ITEMDEF 02009]
+DEFNAME=iCharacterNoble
+
+[ITEMDEF 0200a]
+DEFNAME=iCharacterArmourer
+
+[ITEMDEF 0200b]
+DEFNAME=iCharacterBaker
+
+[ITEMDEF 0200c]
+DEFNAME=iCharacterBowyer
+
+[ITEMDEF 0200d]
+DEFNAME=iCharacterButcher
+
+[ITEMDEF 0200e]
+DEFNAME=iCharacterGuard
+
+[ITEMDEF 0200f]
+DEFNAME=iCharacterHealer
+
+[ITEMDEF 02010]
+DEFNAME=iCharacterInnkeeper
+
+[ITEMDEF 02011]
+DEFNAME=iCharacterJailer
+
+[ITEMDEF 02012]
+DEFNAME=iCharacterJeweler
+
+[ITEMDEF 02013]
+DEFNAME=iCharacterLeatherworker
+
+[ITEMDEF 02014]
+DEFNAME=iCharacterMage
+
+[ITEMDEF 02015]
+DEFNAME=iCharacterPirate
+
+[ITEMDEF 02016]
+DEFNAME=iCharacterProvisioner
+
+[ITEMDEF 02017]
+DEFNAME=iCharacterSailor
+
+[ITEMDEF 02018]
+DEFNAME=iCharacterShipwright
+
+[ITEMDEF 02019]
+DEFNAME=iCharacterTailor
+
+[ITEMDEF 0201a]
+DEFNAME=iCharacterSpinner
+
+[ITEMDEF 0201b]
+DEFNAME=iCharacterTavernkeeper
+
+[ITEMDEF 0201c]
+DEFNAME=iCharacterThief
+
+[ITEMDEF 0201d]
+DEFNAME=iCharacterTinker
+
+[ITEMDEF 0201e]
+DEFNAME=iCharacterWeapontrainer
+
+[ITEMDEF 0201f]
+DEFNAME=iCharacterWeaponsmith
+
+[ITEMDEF 02020]
+DEFNAME=iCharacterWoodworker
+
+[ITEMDEF 02021]
+DEFNAME=iCharacterSculptor
+
+[ITEMDEF 02022]
+DEFNAME=iCharacterArtist
+
+[ITEMDEF 02023]
+DEFNAME=iCharacterAlchemist
+
+[ITEMDEF 02024]
+DEFNAME=iCharacterGlassblower
+
+[ITEMDEF 02025]
+DEFNAME=iCharacterMusician
+
+[ITEMDEF 02026]
+DEFNAME=iCharacterFisherman
+
+[ITEMDEF 02027]
+DEFNAME=iCharacterWaiter
+
+[ITEMDEF 02028]
+DEFNAME=iCharacterAnimaltrainer
+
+[ITEMDEF 02029]
+DEFNAME=iCharacterRancher
+
+[ITEMDEF 0202a]
+DEFNAME=iCharacterCobbler
+
+[ITEMDEF 0202b]
+DEFNAME=iCharacterBeggar
+
+[ITEMDEF 0202c]
+DEFNAME=iCharacterScribe
+
+[ITEMDEF 0202d]
+DEFNAME=iCharacterMiner
+
+[ITEMDEF 0202e]
+DEFNAME=iCharacterMayor
+
+[ITEMDEF 0202f]
+DEFNAME=iCharacterGambler
+
+[ITEMDEF 02030]
+DEFNAME=iCharacterBrigand
+
+[ITEMDEF 02031]
+DEFNAME=iCharacterArchitect
+
+[ITEMDEF 02032]
+DEFNAME=iCharacterCartographer
+
+[ITEMDEF 02033]
+DEFNAME=iCharacterGypsy
+
+[ITEMDEF 02034]
+DEFNAME=iCharacterHerbalist
+
+[ITEMDEF 02035]
+DEFNAME=iCharacterJudge
+
+[ITEMDEF 02036]
+DEFNAME=iCharacterCook
+
+
+[EOF]

@@ -1,0 +1,614 @@
+//****************************************************************************
+// SPHERE by : Menasoft ©1997-2015
+// www.sphereserver.net
+// All SPHERE script files and formats are copyright Menasoft & Partners.
+// This file may be freely edited for personal use, but may not be distributed
+// in whole or in part, in any format without express written permission from
+// Menasoft & Partners.  All donations and contributions
+// become the property of Menasoft & Partners.
+//****************************************************************************
+// FILE LAST UPDATED: Thursday, Mar 5, 2015
+//
+VERSION=0.56c
+
+[COMMENT sphere_newb]
+Newbie templates are Item templates used to create all the
+starting stuff on the account based on which profession/skills
+the player choose on character creation menu.
+
+Default MALE_DEFAULT / FEMALE_DEFAULT templates are always used
+no matter what the player choose. Useful to set default starting
+Items common to all templates.
+
+Each profession/skill template can have optional
+variants to human, elf and gargoyle races. Example:
+  [Newbie Alchemy]
+  [Newbie Alchemy Elf]
+  [Newbie Alchemy Gargoyle]
+
+If the player choose an race which has no template set, the
+default human template will be used by default.
+
+
+///////////////////////
+// Generic templates //
+///////////////////////
+
+[Newbie Male_Default]
+Item=iPlainShirt,1
+Color=ColorsAll
+Item=RandomHumanPants,1
+Color=ColorsNeutral
+Item=RandomHumanFootwear,1
+Color=ColorsNeutral
+Item=iDagger,1
+Item=iCandle,1
+Item=iBook_sm
+Item=iGold,1000
+
+[Newbie Male_Default Elf]
+Item={iElvenShirt iElvenShirt1},1
+Color=ColorsAll
+Item=iElvenPants,1
+Color=ColorsNeutral
+Item=iElvenBoots,1
+Color=ColorsNeutral
+Item=iElvenRobe,1
+Item=iDagger,1
+Item=iCandle,1
+Item=iBook_sm
+Item=iGold,1000
+
+[Newbie Male_Default Gargoyle]
+Item=iGargishRobe,1
+Color=ColorsNeutral
+Item=iGargishLeatherTalons,1
+Color=ColorsNeutral
+Item=iDagger,1
+Item=iCandle,1
+Item=iBook_sm
+Item=iGold,1000
+
+[Newbie Female_Default]
+Item=iPlainShirt,1
+Color=ColorsAll
+Item=RandomHumanSkirts,1
+Color=ColorsNeutral
+Item=RandomHumanFootwear,1
+Color=ColorsNeutral
+Item=iDagger,1
+Item=iCandle,1
+Item=iBook_sm
+Item=iGold,1000
+
+[Newbie Female_Default Elf]
+Item={iElvenShirt iElvenShirt1},1
+Color=ColorsAll
+Item=iElvenPants,1
+Color=ColorsNeutral
+Item=iElvenBoots,1
+Color=ColorsNeutral
+Item=iFemaleElvenRobe,1
+Item=iDagger,1
+Item=iCandle,1
+Item=iBook_sm
+Item=iGold,1000
+
+[Newbie Female_Default Gargoyle]
+Item=iGargishRobe,1
+Color=ColorsNeutral
+Item=iGargishLeatherTalons,1
+Color=ColorsNeutral
+Item=iDagger,1
+Item=iCandle,1
+Item=iBook_sm
+Item=iGold,1000
+
+//////////////////////////
+// Profession templates //
+//////////////////////////
+
+[Newbie Profession_Warrior]
+Item=iLeatherTunic
+
+[Newbie Profession_Warrior Elf]
+Item=iLeafTunic
+
+[Newbie Profession_Necromancer]
+Item=iNecromancySpellbook	// Empty
+Item=i_bone_helmet
+Item=iBoneHarvester
+Item=iLeatherTunic
+Color=02c3
+Item=iLeatherSleeves
+Color=02c3
+Item=iLeatherGloves
+Color=02c3
+Item=iLeatherGorget
+Color=02c3
+Item=iLeatherLeggings
+Color=02c3
+Item=iLongSkirt
+Color=02c3
+Item=iSandals
+Color=08fd
+
+[Newbie PROFESSION_NECROMANCER ELF]
+Item=i_spellbook_necromancy	//TO-DO: add spells Animate Dead, Evil Omen, Pain Spike, Summon Familiar, Wraith Form
+Item=i_bone_helmet
+Item=i_elven_machete
+Item=i_leaf_chest
+Color=02c3
+Item=i_leaf_arms
+Color=02c3
+Item=i_leaf_gloves
+Color=02c3
+Item=i_leaf_gorget
+Color=02c3
+Item=i_leaf_leggings
+Color=02c3
+Item=i_elven_pants
+Color=02c3
+Item=i_elven_boots
+
+[Newbie PROFESSION_PALADIN]
+Item=i_spellbook_chivalry
+Item=i_sword_broad
+Item=i_helm_open
+Item=i_platemail_gorget
+Item=i_ringmail_sleeves
+Item=i_ringmail_tunic
+Item=i_ringmail_leggings
+Item=i_boots_thigh
+Color=0748
+Item=i_Cloak
+Color=0cf
+Item=i_sash
+Color=0cf
+
+[Newbie PROFESSION_PALADIN ELF]
+Item=i_spellbook_chivalry
+Item=i_elven_machete
+Item=i_helm_winged_2
+Item=i_leaf_gorget
+Item=i_leaf_arms
+Item=i_leaf_chest
+Item=i_leaf_leggings
+Item=i_elven_boots
+
+[Newbie PROFESSION_SAMURAI]
+Item=i_spellbook_bushido
+Item=i_hakama_shita
+Color=02c3
+Item=i_hakama
+Color=02c3
+Item=i_shoes_tabi
+Color=02c3
+Item=i_hakama_tattsuke
+Color=022d
+Item=i_bokuto
+Item=i_scissors
+Item=i_bandage,50
+Item=i_leather_jingasa
+
+[Newbie PROFESSION_SAMURAI ELF]
+Item=i_spellbook_bushido
+Item=i_hakama_shita
+Color=02c3
+Item=i_hakama
+Color=02c3
+Item=i_shoes_tabi
+Color=02c3
+Item=i_hakama_tattsuke
+Color=022d
+Item=i_bokuto
+Item=i_scissors
+Item=i_bandage,50
+Item=i_helm_raven
+
+[Newbie PROFESSION_NINJA]
+Item=i_spellbook_ninjitsu
+Item=i_hat_kasa
+Item=i_hakama_tattsuke
+Color={089 1 090 1 099 1 0b5 1 0ec 1 01a8 1 0336 1}
+Item=i_hakama_shita
+Color=02c3
+Item=i_boots_tabi
+Color=02c3
+Item=i_bomb_smoke
+Item=i_tekagi
+
+[Newbie PROFESSION_NINJA ELF]
+Item=i_spellbook_ninjitsu
+Item=i_hat_kasa
+Item=i_hakama_tattsuke
+Color={089 1 090 1 099 1 0b5 1 0ec 1 01a8 1 0336 1}
+Item=i_hakama_shita
+Color=02c3
+Item=i_boots_tabi
+Color=02c3
+Item=i_bomb_smoke
+Item=i_sword_assassin_spike
+
+/////////////////////
+// Skill templates //
+/////////////////////
+
+// NOTE: Skill templates are not used if the player select Necromancer,
+//       Paladin, Samurai and Ninja profession on character creation
+
+[Newbie Alchemy]
+Item=iEmptyBottle,20
+Item=iMortarAndPestle,1
+Item=iRobe,1
+Color=ColorsPink
+
+[Newbie Alchemy Elf Female]
+Item=iEmptyBttle,20
+Item=iMortarAndPestle,1
+Item=iFemaleElvenRobe,1
+Color=ColorsPink
+
+[Newbie Alchemy Elf Male]
+Item=iEmptyBttle,20
+Item=iMortarAndPestle,1
+Item=iElvenRobe,1
+Color=ColorsPink
+
+[Newbie Alchemy Gargoyle]
+Item=iEmptyBottle,20
+Item=iMortarAndPestle,1
+Item=iGargishRobe,1
+Color=ColorsPink
+
+[Newbie Anatomy]
+Item=iBandage,3
+Item=iRobe,1
+Color=ColorsYellow
+
+[Newbie Anatomy Elf Female]
+Item=iBandage,3
+Item=iFemaleElvenRobe,1
+Color=ColorsYellow
+
+[Newbie Anatomy Elf Male]
+Item=iBandage,3
+Item=iElvenRobe,1
+Color=ColorsYellow
+
+[Newbie AnimalLore]
+Item=iShepherdsCrook,1
+Item=iRobe,1
+Color=ColorsBlue
+
+[Newbie AnimalLore Elf Female]
+Item=iShepherdsCrook,1
+Item=iFemaleElvenRobe,1
+Color=ColorsBlue
+
+[Newbie AnimalLore Elf Male]
+Item=iShepherdsCrook,1
+Item=iElvenRobe,1
+Color=ColorsBlue
+
+[Newbie AnimalLore Gargoyle]
+Item=iShepherdsCrook,1
+Item=iGargishRobe,1
+Color=ColorsBlue
+
+[Newbie Archery]
+Item=iArrow,25
+Item=iBow,1
+
+[Newbie Archery Elf]
+Item=iArrow,25
+Item=iElvenCompositeLongbow,1
+
+[Newbie ArmsLore]
+Item={iKryss 1 iKatana 1 iClub 1},1
+
+[Newbie ArmsLore Elf]
+Item={iLeafblade 1 iRuneBlade 1 iDiamondMace 1},1
+
+[Newbie ArmsLore Gargoyle]
+Item={iGargishKryss 1 iGargishKatana 1 iDiscMace 1},1
+
+[Newbie Begging]
+Item=iGnarledStaff,1
+
+[Newbie Begging Elf]
+Item=iWildStaff,1
+
+[Newbie Begging Gargoyle]
+Item=iGargishGnarledStaff,1
+
+[Newbie Blacksmithing]
+Item=iTongs,1
+Item=iIronIngot,50
+Item=iHalfApron,1
+Color=ColorsYellow
+
+[Newbie Blacksmithing Gargoyle]
+Item=iTongs,1
+Item=iIronIngot,50
+Item=iGargishHalfApron,1
+Color=ColorsYellow
+
+[Newbie Bushido]
+Item=iBushidoSpellbook,1
+Item=iHakamaShita,1
+Item=iKasa,1
+
+[Newbie Bowcrafting]
+Item=iFletchersTools,1
+Item=iBoard,25
+Item=iFeather,25
+Item=iShaft,25
+
+[Newbie Camping]
+Item=iBedroll,1
+Item=iKindling,5
+
+[Newbie Carpentry]
+Item=iBoard,50
+Item=iSaw,1
+Item=iHalfApron,1
+Color=ColorsYellow
+
+[Newbie Cartography]
+Item=iMapmakersPen
+Item=iBlankMap,1
+Item=iBlankMap,1
+Item=iBlankMap,1
+Item=iBlankMap,1
+Item=iSextant,1
+
+[Newbie Cooking]
+Item=iKindling,2
+Item=iRawLegOfLamb,1
+Item=iRawChickenLeg,1
+Item=iRawFishSteak,1
+Item=iFlourSack,1
+Item=iPitcherOfWater,1
+
+[Newbie Chivalry]
+Item=i_ChivalrySpellbook,1
+
+[Newbie DetectingHidden]
+Item=iCloak,1
+Color=0455
+
+[Newbie DetectingHidden Gargoyle]
+Item=iGargishClothWingArmor,1
+Color=0455
+
+[Newbie Discordance]
+Item=RandomMusicalInstrument,1
+
+[Newbie Discordance Gargoyle]
+Item=RandomMusicalInstrument,1
+
+[Newbie EvaluatingIntel]
+//empty
+
+[Newbie Fencing]
+Item=iKryss,1
+
+[Newbie Fencing Elf]
+Item=iLeafblade,1
+
+[Newbie Fencing Gargoyle]
+Item=iGargishKryss,1
+
+[Newbie Fishing]
+Item=iFishingPole,1
+Item=iFloppyHat,1
+Color=ColorsYellow
+
+[Newbie Fishing Elf]
+Item=iFishingPole,1
+Item=iCirclet,1
+
+[Newbie Fishing Gargoyle]
+Item=iFishingPole,1
+Item=iGargishEarrings,1
+
+[Newbie Forensics]
+//empty
+
+[Newbie Healing]
+Item=iBandage,50
+Item=iScissors,1
+
+[Newbie Herding]
+Item=iShepherdsCrook,1
+
+[Newbie Hiding]
+Item=iCloak,1
+Color=0455
+
+[Newbie Hiding Gargoyle]
+Item=iGargishClothWingArmor,1
+Color=0455
+
+[Newbie Imbuing]
+// Empty
+
+[Newbie Inscription]
+Item=iScribesPen
+Item=iBlankScroll,50
+Item=i_book_lg
+
+[Newbie ItemID]
+Item=iGnarledStaff,1
+
+[Newbie ItemID Elf]
+Item=iWildStaff,1
+
+[Newbie ItemID Gargoyle]
+Item=iGargishGnarledStaff,1
+
+[Newbie LockPicking]
+Item=iLockpick,20
+
+[Newbie Lumberjacking]
+Item=iHatchet,1
+
+[Newbie MaceFighting]
+Item=iClub,1
+
+[Newbie MaceFighting Elf]
+Item=iDiamondMace,1
+
+[Newbie MaceFighting Gargoyle]
+Item=iDiscMace,1
+
+[Newbie Magery]
+Item=iSpellbook,1
+More1=0382a8c38
+//3 spells on circle 1-4 (to enable full spellbook just set MORE1=0ffffffff and MORE2=0ffffffff)
+Item=RandomFirstCircle,1
+Item=RandomSecondCircle,1
+Item=RandomThirdCircle,1
+Item=iWizardsHat,1
+Item=iRobe,1
+Color=ColorsBlue
+
+[Newbie Magery Elf Female]
+Item=iSpellbook,1
+More1=0382a8c38
+//3 spells on circle 1-4 (to enable full spellbook just set MORE1=0ffffffff and MORE2=0ffffffff)
+Item=RandomFirstCircle,1
+Item=RandomSecondCircle,1
+Item=RandomThirdCircle,1
+Item=iCirclet,1
+Item=iFemaleElveneRobe,1
+Color=ColorsBlue
+
+[Newbie Magery Elf Male]
+Item=iSpellbook,1
+More1=0382a8c38
+//3 spells on circle 1-4 (to enable full spellbook just set MORE1=0ffffffff and MORE2=0ffffffff)
+Item=RandomFirstCircle,1
+Item=RandomSecondCircle,1
+Item=RandomThirdCircle,1
+Item=iCirclet,1
+Item=iElveneRobe,1
+Color=ColorsBlue
+
+[Newbie Magery Gargoyle]
+Item=iSpellbook
+More1=0382a8c38
+//3 spells on circle 1-4 (to enable full spellbook just set MORE1=0ffffffff and MORE2=0ffffffff)
+Item=RandomFirstCircle,1
+Item=RandomSecondCircle,1
+Item=RandomThirdCircle,1
+Item=iGargishEarrings,1
+Item={iGargishRobe 1 iGargishRobe1 1}
+Color=ColorsBlue
+
+[Newbie MagicResistance]
+//empty
+
+[Newbie Mining]
+Item=iPickaxe,1
+Item=iIronIngot,50
+
+[Newbie Musicianship]
+Item=RandomMusicalInstrument,1
+
+[Newbie Mysticism]
+Item=iMysticismSpellbook,1
+
+[Newbie Necromancy]
+//empty
+
+[Newbie Ninjitsu]
+Item=iNinjitsuSpellbook,1
+Item=iHakamaShita,1
+Color=02c3
+Item=iKasa,1
+
+[Newbie Parrying]
+Item=iWoodenShield,1
+
+[Newbie Parrying Gargoyle]
+Item=iGargishWoodenShield,1
+
+[Newbie Peacemaking]
+Item=RandomMusicalInstrument,1
+
+[Newbie Poisoning]
+Item=iLesserPoisonPotion,5
+
+[Newbie Provocation]
+Item=RandomMusicalInstrument,1
+
+[Newbie Snooping]
+Item=iLockpick,20
+
+[Newbie SpiritSpeak]
+Item=iCloak,1
+Color=0455
+
+[Newbie Stealing]
+Item=iLockpick,20
+
+[Newbie Swordsmanship]
+Item=iKatana,1
+
+[Newbie Swordsmanship Elf]
+Item=iRuneBlade,1
+
+[Newbie Swordsmanship Gargoyle]
+Item=iGargishKatana,1
+
+[Newbie Tactics]
+Item=iKatana,1
+
+[Newbie Tactics Elf]
+Item=iRuneBlade,1
+
+[Newbie Tactics Gargoyle]
+Item=iGargishKatana,1
+
+[Newbie Tailoring]
+Item=iClothBolt,1
+Item=iSewingKit,1
+
+[Newbie Taming]
+//empty
+
+[Newbie TasteID]
+//empty
+
+[Newbie Tinkering]
+Item=iTinkersTools,1
+Item=iIronIngot,50
+
+[Newbie Tracking]
+Item=iSkinningKnife,1
+Item=iBoots,1
+
+[Newbie Tracking Elf]
+Item=iSkinningKnife,1
+Item=iElvenBoots,1
+
+[Newbie Tracking Gargoyle]
+Item=iGargishDagger,1
+Item=iGargishLeatherTalons,1
+
+[Newbie Veterinary]
+Item=iBandage,50
+Item=iScissors,1
+
+[Newbie Wrestling]
+Item=iLeatherGloves,1
+
+[Newbie Wrestling Elf]
+Item=iLeafGloves,1
+
+[Newbie Wrestling Gargoyle]
+Item=iGargishClothKilt,1
+
+[EOF]

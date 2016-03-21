@@ -1,0 +1,958 @@
+//****************************************************************************
+// SPHERE by : Menasoft ©1997-2007
+// www.sphereserver.net
+// All SPHERE script files and formats are copyright Menasoft & Partners.
+// This file may be freely edited for personal use, but may not be distributed
+// in whole or in part, in any format without express written permission from
+// Menasoft & Partners. All donations and contributions
+// become the property of Menasoft & Partners.
+//****************************************************************************
+// FILE LAST UPDATED: FrIDay, September 20, 2013
+//
+VERSION=0.56c
+
+[MultIDef 0c8]
+DefName=mCarpetedBooth
+Name=carpeted vendor booth
+Type=tMulti
+
+Category=Multis
+Subsection=Vendor Booth
+Description=Carpeted Vendor Booth
+
+MultiRegion=-1,-1,2,2
+
+[MultIDef 0c9]
+DefName=mFencedBooth
+Name=fenced vendor booth
+Type=tMulti
+
+Category=Multis
+Subsection=Vendor Booth
+Description=Fenced Vendor Booth
+
+MultiRegion=-1,-1,2,2
+
+[MultIDef 0ca]
+DefName=mWoodenBooth
+Name=vendor booth
+Type=tMulti
+
+Category=Multis
+Subsection=Vendor Booth
+Description=Vendor Booth with Wood Floor
+
+MultiRegion=-1,-1,2,2
+
+[MultIDef 03e8]
+DefName=mTreasure
+Name=Treasure
+Type=tMulti
+
+Category=Multis
+Subsection=Treasure
+Description=Treasure
+
+MultiRegion=-4,-5,4,5
+Component=6992, 1, -1, 0
+Component=6991, 1, 0, 0
+Component=6986, 0, 1, 0
+Component=6987, -1, 1, 0
+Component=6989, -1, -1, 0
+Component=6993, 0, -1, 0
+Component=6988, -1, 0, 0
+Component=6990, 0, 0, 0
+
+[MultIDef 03e9]
+DefName=mTreasure1
+Name=Treasure
+Type=tMulti
+
+Category=Multis
+Subsection=Treasure
+Description=Treasure
+
+MultiRegion=-4,-5,4,5
+Component=6984, 1, -1, 0
+Component=6978, -1, 0, 0
+Component=6977, -1, 1, 0
+Component=6982, -1, -1, 0
+Component=6976, 0, 1, 0
+Component=6983, 0, -1, 0
+Component=6975, 1, 1, 0
+Component=6980, 1, 0, 0
+Component=6979, 0, 0, 0
+
+[MultIDef 03ea]
+// Treasure multi's don't work
+DefName=mTreasure2
+Name=Treasure
+Type=tMulti
+
+Category=Multis
+Subsection=Treasure
+Description=Treasure
+
+MultiRegion=-4,-5,4,5
+Component=7014, -1, 0, 0
+Component=7012, -1, 2, 0
+Component=7013, -1, 1, 0
+Component=7016, 0, 0, 0
+Component=7011, 0, 2, 0
+Component=7018, 2, 0, 0
+Component=7017, 1, 0, 0
+Component=7008, 2, 1, 0
+Component=7010, 1, 2, 0
+Component=7009, 1, 1, 0
+Component=7015, 0, 1, 0
+
+[MultIDef 03eb]
+DefName=mTreasure3
+Name=Treasure
+Type=tMulti
+
+Category=Multis
+Subsection=Treasure
+Description=Treasure
+
+MultiRegion=-4,-5,4,5
+Component=6996, 0, 1, 0
+Component=6997, -1, 1, 0
+Component=6995, 1, 1, 0
+Component=6999, -1, -1, 0
+Component=7003, 2, 0, 0
+Component=7004, 1, 0, 0
+Component=6998, -1, 0, 0
+Component=7005, 0, 0, 0
+Component=7000, 0, -1, 0
+Component=7002, 2, -1, 0
+Component=7001, 1, -1, 0
+
+[MultIDef 07d0]
+DefName=mLattice
+Name=Lattice
+Type=tMulti
+dupelist=047d1,047d2,047d3,047d4,047d5,047d6
+
+Category=Multis
+Subsection=Other
+Description=Lattice 1
+
+MultiRegion=-4,-5,4,5
+
+[MultIDef 07d1]
+//lattice 2
+DUPEITEM=07d0
+
+[MultIDef 07d2]
+//lattice 3
+DUPEITEM=07d0
+
+[MultIDef 07d3]
+//lattice 4
+DUPEITEM=07d0
+
+[MultIDef 07d4]
+//lattice 5
+DUPEITEM=07d0
+
+[MultIDef 07d5]
+//lattice 6
+DUPEITEM=07d0
+
+[MultIDef 07d6]
+//lattice 7
+DUPEITEM=07d0
+
+[MultIDef 07d7]
+DefName=mLattice2
+Name=Lattice
+Type=tMulti
+value=1000
+
+Category=Multis
+Subsection=Other
+Description=Lattice
+
+MultiRegion=-4,-5,4,5
+
+[MultIDef 0fa0]
+DefName=mExodusGenerator
+Name=exodus generator
+Type=tMulti
+
+Category=Multis
+Subsection=Exodus
+Description=Exodus Generator
+
+MultiRegion=-1,-1,1,1
+
+[MultIDef 0fa1]
+DefName=mExodusGenerator1
+Name=exodus generator
+Type=tMulti
+
+Category=Multis
+Subsection=Exodus
+Description=Exodus Generator
+
+MultiRegion=-1,-1,1,1
+
+[MultIDef 0fa2]
+DefName=mExodusControlPylon
+Name=exodus control pylon
+Type=tMulti
+value=166
+
+Category=Multis
+Subsection=Exodus
+Description=Exodus Control Pylon
+
+MultiRegion=-1,-1,1,1
+
+[MultIDef 0fa3]
+DefName=mNystulsTower
+Name=Nystul's Tower
+Type=tMulti
+
+Category=Multis
+Subsection=Houses
+Description=Nystul's Tower (Stage 1)
+
+MultiRegion=-3,-3,3,3
+
+[MultIDef 0fa4]
+DefName=mNystulsTower1
+Name=Nystul's Tower
+Type=tMulti
+
+Category=Multis
+Subsection=Houses
+Description=Nystul's Tower (Stage 2)
+
+MultiRegion=-3,-3,3,3
+
+[MultIDef 0fa5]
+DefName=mNystulsTower2
+Name=Nystul's Tower
+Type=tMulti
+
+Category=Multis
+Subsection=Houses
+Description=Nystul's Tower (Stage 3)
+
+MultiRegion=-3,-3,3,3
+
+[MultIDef 0fa6]
+DefName=mNystulsTower3
+Name=Nystul's Tower
+Type=tMulti
+
+Category=Multis
+Subsection=Houses
+Description=Nystul's Tower (Stage 4)
+
+MultiRegion=-3,-3,3,3
+
+[MultIDef 0fa7]
+DefName=mNystulsTower4
+Name=Nystul's Tower
+Type=tMulti
+
+Category=Multis
+Subsection=Houses
+Description=Nystul's Tower (Stage 5)
+
+MultiRegion=-3,-3,3,3
+
+[MultIDef 0fa8]
+DefName=mNystulsTower5
+Name=Nystul's Tower
+Type=tMulti
+
+Category=Multis
+Subsection=Houses
+Description=Nystul's Tower (Stage 6)
+
+MultiRegion=-3,-3,3,3
+
+[MultIDef 0fa9]
+DefName=mScaffoldAndTrailer
+Name=scaffold and trailer
+Type=tMulti
+
+Category=Multis
+Subsection=Misc
+Description=Scaffold and Trailer
+
+MultiRegion=-2,-1,2,2
+
+[MultIDef 0faa]
+DefName=mExodusEnergyTower
+Name=exodus energy tower
+Type=tMulti
+
+Category=Multis
+Subsection=Exodus
+Description=Exodus Energy Tower
+
+MultiRegion=-1,-1,1,1
+
+[MultIDef 0fab]
+DefName=mExodusBarrier
+Name=exodus barrier
+Type=tMulti
+
+Category=Multis
+Subsection=Exodus
+Description=Exodus Barrier
+
+MultiRegion=0,0,0,0
+
+[MultIDef 0fac]
+DefName=mExodusControlDevice
+Name=exodus control device
+Type=tMulti
+
+Category=Multis
+Subsection=Exodus
+Description=Exodus Control Device
+
+MultiRegion=-1,-1,1,1
+
+[MultIDef 01388]
+DefName=mEvilCompound
+Name=Evil Compound
+Type=tMulti
+value=10000000
+
+Category=Multis
+Subsection=Misc
+Description=Evil Compound
+
+MultiRegion=-24,-12,24,13
+
+[MultIDef mEvilCompound1]
+ID=m_evil_compound
+Name=Evil Compound
+Type=tMulti
+value=10000000
+
+Category=Multis
+Subsection=Misc
+Description=Evil Compound (with Doors and Sign)
+
+MultiRegion=-24,-12,24,13
+
+Component=0cb, 23, -1, 0
+Component=067f, 23, -3, 0
+Component=067d, 23, -2, 0
+Component=067f, 23, 0, 0
+Component=067d, 23, 1, 0
+Component=0dd, 23, -1, 20
+Component=0dd, 23, -3, 20
+Component=0dd, 23, -2, 20
+Component=0dd, 23, 0, 20
+Component=0dd, 23, 1, 20
+Component=0dd, 23, -1, 23
+Component=0dd, 23, -3, 23
+Component=0dd, 23, -2, 23
+Component=0dd, 23, 0, 23
+Component=0dd, 23, 1, 23
+Component=0b9b, 25, -4, 1
+Component=iSignBrass2, 25, -4, 0
+
+[MultIDef 01d4c]
+DefName=mPrisonerCamp
+Name=prisoner camp
+Type=tMulti
+
+Category=Multis
+Subsection=Misc
+Description=Prisoner Camp
+
+MultiRegion=-3,-3,4,4
+
+
+//************************
+// Pure custom multis, MultiRegion=0,0,0,0 is just fine. It will automatically union the items.
+
+[MultIDef mMagicCarpetN]
+ID=0ac1
+Name=magic carpet
+Type=tShipMulti
+TSpeech=spkShipCommands
+
+Category=Multis
+Subsection=Magic Carpet
+Description=Carpet
+
+MultiRegion=0,0,0,0
+Component=0ac3,-1,-1
+Component=0af7,0,-1
+Component=0ac5,1,-1
+Component=0af8,1,0
+Component=0ac2,1,1
+Component=0af9,0,1
+Component=0ac4,-1,1
+Component=0af6,-1,0
+
+On=@Create
+Attr=AttrMagic
+
+[MultIDef mMagicCarpetE]
+ID=0ac1
+Name=magic carpet
+Type=tShipMulti
+TSpeech=spkShipCommands
+
+Category=Multis
+Subsection=Magic Carpet
+Description=Magic Carpet
+
+MultiRegion=0,0,0,0
+Component=0ac3,-1,-1
+Component=0af7,0,-1
+Component=0ac5,1,-1
+Component=0af8,1,0
+Component=0ac2,1,1
+Component=0af9,0,1
+Component=0ac4,-1,1
+Component=0af6,-1,0
+
+On=@Create
+Attr=AttrMagic
+
+[MultIDef mMagicCarpetS]
+ID=0ac1
+Name=magic carpet
+Type=tShipMulti
+TSpeech=spkShipCommands
+
+Category=Multis
+Subsection=Magic Carpet
+Description=Magic Carpet
+
+MultiRegion=0,0,0,0
+Component=0ac3,-1,-1
+Component=0af7,0,-1
+Component=0ac5,1,-1
+Component=0af8,1,0
+Component=0ac2,1,1
+Component=0af9,0,1
+Component=0ac4,-1,1
+Component=0af6,-1,0
+
+on=@Create
+attr=attr_magic
+
+[MultIDef mMagicCarpetW]
+ID=0ac1
+Name=magic carpet
+Type=tShipMulti
+TSpeech=spkShipCommands
+
+Category=Multis
+Subsection=Magic Carpet
+Description=Magic Carpet
+
+MultiRegion=0,0,0,0
+Component=0ac3,-1,-1
+Component=0af7,0,-1
+Component=0ac5,1,-1
+Component=0af8,1,0
+Component=0ac2,1,1
+Component=0af9,0,1
+Component=0ac4,-1,1
+Component=0af6,-1,0
+
+on=@Create
+attr=attr_magic
+
+[ITEMDEF m_cage]
+Name=Cage
+Type=tMulti
+
+Category=Multis
+Subsection=Misc
+Description=Cage
+
+MultiRegion=0,0,0,0
+Component=iFenceIron,-1, 0, 0
+Component=0822, 1, 1, 0
+Component=iFenceIron, -1, 1, 0
+Component=iFenceIron, 1, 0, 0
+Component=0823, 0, -1, 0
+Component=0823, 0, 1, 0
+Component=0823, 1, -1, 0
+
+[ITEMDEF mBrownFountain]
+ID=019d3
+Name=fountain
+Type=tMulti
+
+Category=Multis
+Subsection=Misc
+Description=Fountain (Brown)
+
+MultiRegion=0,0,0,0
+Component=019cf,0, 1, 0
+Component=019ce,0, 2, 0
+Component=iFountain2,0, 3, 0
+Component=019d1,1, 0, 0
+Component=019d0,1, 1, 0
+Component=019cd,1, 2, 0
+Component=019c4,1, 3, 0
+Component=019ca,2, 0, 0
+Component=019cb,2, 1, 0
+Component=019cc,2, 2, 0
+Component=019c5,2, 3, 0
+Component=019c9,3, 0, 0
+Component=019c8,3, 1, 0
+Component=019c7,3, 2, 0
+Component=019c6,3, 3, 0
+
+On=@Create
+//sector.allclients sound 42
+
+[ITEMDEF mWhiteFountain]
+ID=5950
+Name=fountain
+Type=tMulti
+
+Category=Multis
+Subsection=Misc
+Description=Fountain (White)
+
+MultiRegion=0,0,0,0
+Component=5953,-1,-1,0,0
+Component=5949,-1,0,0,0
+Component=5948,-1,1,0,0
+Component=5937,-1,2,0,0
+Component=5951,0,-1,0,0
+Component=5947,0,1,0,0
+Component=5938,0,2,0,0
+Component=5944,1,-1,0,0
+Component=5945,1,0,0,0
+Component=5946,1,1,0,0
+Component=5939,1,2,0,0
+Component=5943,2,-1,0,0
+Component=5942,2,0,0,0
+Component=5941,2,1,0,0
+
+on=@Create
+//sector.allclients sound 42
+
+[itemdef mPentagram]
+ID=0fea
+Name=pentagram
+Type=tMulti
+
+Category=Multis
+Subsection=Misc
+Description=Pentagram
+
+MultiRegion=0,0,0,0
+Component=0fe6,-1, 0, 0
+Component=0fe7,-1, -1, 0
+Component=0fe8, 0, -1, 0
+Component=0fe9,-1, 1, 0
+Component=0feb, 1, -1, 0
+Component=0fec, 0, 1, 0
+Component=0fed, 1, 1, 0
+Component=0fee, 1, 0, 0
+
+[itemdef mBloodPentagram]
+ID=01d11
+Name=blood pentagram
+Type=tMulti
+
+Category=Multis
+Subsection=Misc
+Description=Blood Pentagram
+
+MultiRegion=0,0,0,0
+Component=01d09,-1,0
+Component=01cfa,-1,-1
+Component=01d0a,0,-1
+Component=01d08,-1,1
+Component=01d0b,1,-1
+Component=01d12,1,0
+Component=01d0f,1,1
+Component=01d07,-1,2
+Component=01d10,0,1
+Component=01cf9,-1,-2
+Component=01cfc,0,-2
+Component=01cfd,1,-2
+Component=01cfe,2,-2
+Component=01cff,3,-2
+Component=01cf9,-2,-1
+Component=01d0c,2,-1
+Component=01d00,3,-1
+Component=01cf8,-2,0
+Component=01d0d,2,0
+Component=01d01,3,0
+Component=01cf7,-2,1
+Component=01d0e,2,1
+Component=01d02,3,1
+Component=01cf6,-2,2
+//Component=01d08,-1,1
+Component=01d06,0,2
+Component=01d05,1,2
+Component=01d04,2,2
+Component=01d03,3,2
+Component=01cf5,-2,3
+Component=01cf4,-1,3
+Component=01cf3,0,3
+Component=01cf2,1,3
+Component=01cf1,2,3
+
+[itemdef mCatapultS]
+ID=5705
+Name=catapult
+Type=tMulti
+
+Category=Multis
+Subsection=Siege Weapons
+Description=Catapult (South)
+
+MultiRegion=0,0,0,0
+Component=5708,-1,-1,0,0
+Component=5723,-1,0,0,0
+Component=5707,-1,1,0,0
+Component=5726,-1,2,0,0
+Component=5709,0,-1,0,0
+Component=5705,0,2,0,0
+Component=5710,1,-1,0,0
+Component=5717,1,0,0,0
+Component=5710,1,1,0,0
+Component=5731,1,2,0,0
+Component=5711,1,2,0,0
+
+[itemdef mSerpentPillar]
+ID=9032
+Name=Serpent Pillar
+Type=tMulti
+
+Category=Multis
+Subsection=Misc
+Description=Serpent Pillar
+
+MultiRegion=0,0,0,0
+Component=9022,-2,0,0,0
+Component=9021,-2,1,0,0
+Component=9020,-2,2,0,0
+Component=9024,-1,-1,0,0
+Component=9029,-1,0,0,0
+Component=9028,-1,1,0,0
+Component=9027,-1,2,0,0
+Component=9025,0,-1,0,0
+Component=9031,0,1,0,0
+Component=9030,0,2,0,0
+Component=9026,1,-1,0,0
+Component=9034,1,0,0,0
+Component=9033,1,1,0,0
+Component=0233f,-1,0,11,0
+
+[ITEMDEF mLightHouse]
+ID=iGold
+Name=light house
+Type=tMulti
+
+Category=Multis
+Subsection=Misc
+Description=Light House
+
+MultiRegion=0,0,0,0
+Component=6843 -4 -4 0 0
+Component=6844 -4 -3 0 0
+Component=6845 -4 -2 0 0
+Component=6842 -3 -4 0 0
+Component=6862 -3 -3 0 0
+Component=6861 -3 -2 0 0
+Component=6847 -3 -1 0 0
+Component=6849 -3 0 0 0
+Component=6841 -2 -4 0 0
+Component=6863 -2 -3 0 0
+Component=6859 -2 -2 0 0
+Component=6858 -2 -1 0 0
+Component=6855 -2 0 0 0
+Component=6852 -2 1 0 0
+Component=6820 -2 2 0 0
+Component=6839 -1 -3 0 0
+Component=6860 -1 -2 0 0
+Component=6821 -1 2 0 0
+Component=6835 0 -3 0 0
+Component=6832 0 -2 0 0
+Component=6822 0 2 0 0
+Component=6829 1 -2 0 0
+Component=6864 1 1 0 0
+Component=6823 1 2 0 0
+Component=6828 2 -2 0 0
+Component=6827 2 -1 0 0
+Component=6826 2 0 0 0
+Component=6825 2 1 0 0
+Component=6824 2 2 0 0
+
+[itemdef mPineTree]
+ID=3288
+Name=pine tree
+
+Type=tMulti
+Category=Multis
+Subsection=Flora
+Description=Pine Tree
+
+MultiRegion=0,0,0,0
+Component=3289 0 0 0 0
+
+[itemdef mYewTree]
+ID=4803
+Name=yew tree
+Type=tMulti
+
+Category=Multis
+Subsection=Flora
+Description=Yew Tree
+
+MultiRegion=0,0,0,0
+Component=4798 -5 5
+Component=4799 -4 4
+Component=4790 -4 4
+Component=4800 -3 3
+Component=4791 -3 3
+Component=4801 -2 2
+Component=4792 -2 2
+Component=4802 -1 1
+Component=4793 -1 1
+Component=4794 0 0
+Component=4804 1 -1
+Component=4795 1 -1
+Component=4805 2 -2
+Component=4796 2 -2
+Component=4806 3 -3
+Component=4797 3 -3
+Component=4807 4 -4
+
+[itemdef mStatue]
+ID=5022
+Name=statue
+Type=tMulti
+
+Category=Multis
+Subsection=Misc
+Description=Statue
+
+MultiRegion=0,0,0,0
+Component=5023,-1,0,0,0
+Component=5024,0,-1,0,0
+
+[itemdef mAltar]
+ID=01216
+Name=altar
+Type=tMulti
+
+Category=Multis
+Subsection=Misc
+Description=Altar
+
+MultiRegion=0,0,0,0
+Component=4622 -1 -1 0 0
+Component=4629 -1 0 0 0
+Component=4628 -1 1 0 0
+Component=4623 0 -1 0 0
+Component=4627 0 1 0 0
+Component=4624 1 -1 0 0
+Component=4625 1 0 0 0
+Component=4626 1 1 0 0
+
+[ITEMDEF mTelescope]
+// telescope
+ID=iGold
+Name=telescope
+Type=tMulti
+
+Category=Multis
+Subsection=Misc
+Description=Telescope
+
+MultiRegion=0,0,0,0
+Component=5268 -4 0 2 0
+Component=5211 -4 1 2 0
+Component=5210 -4 2 2 0
+Component=5269 -3 -1 2 0
+Component=5212 -3 2 2 0
+Component=5213 -3 3 2 0
+Component=5270 -2 -2 2 0
+Component=5273 -2 -1 2 0
+Component=5262 -2 1 2 0
+Component=5267 -2 2 2 0
+Component=5266 -2 3 2 0
+Component=5214 -2 4 2 0
+Component=5209 -2 5 2 0
+Component=5271 -1 -3 2 0
+Component=5215 -1 4 2 0
+Component=5217 -1 5 2 0
+Component=5274 0 -4 2 0
+Component=5272 0 -3 2 0
+Component=5263 0 -1 2 0
+Component=5261 0 1 2 0
+Component=5256 0 3 2 0
+Component=5216 0 4 2 0
+Component=5218 0 5 2 0
+Component=5264 1 -1 2 0
+Component=5259 1 0 2 0
+Component=5258 1 1 2 0
+Component=5254 1 2 2 0
+Component=5253 1 3 2 0
+Component=5244 2 -5 2 0
+Component=5265 2 -1 2 0
+Component=5260 2 0 2 0
+Component=5257 2 1 2 0
+Component=5255 2 2 2 0
+Component=5252 2 3 2 0
+Component=5219 2 5 2 0
+Component=5243 3 -5 2 0
+Component=5247 3 -2 2 0
+Component=5248 3 -1 2 0
+Component=5250 3 0 2 0
+Component=5225 3 1 2 0
+Component=5224 3 2 2 0
+Component=5221 3 3 2 0
+Component=5220 3 4 2 0
+Component=5242 4 -5 2 0
+Component=5241 4 -4 2 0
+Component=5239 4 -3 2 0
+Component=5246 4 -2 2 0
+Component=5249 4 -1 2 0
+Component=5251 4 0 2 0
+Component=5226 4 1 2 0
+Component=5223 4 2 2 0
+Component=5222 4 3 2 0
+Component=5240 5 -4 2 0
+Component=5237 5 -3 2 0
+Component=5236 5 -2 2 0
+Component=5231 5 -1 2 0
+Component=5230 5 0 2 0
+Component=5229 5 1 2 0
+Component=5228 5 2 2 0
+Component=5238 6 -3 2 0
+Component=5235 6 -2 2 0
+Component=5232 6 -1 2 0
+Component=5233 6 0 2 0
+Component=5234 6 1 2 0
+
+[itemdef mSkullPile]
+ID=6875
+Name=skull pile
+Type=tMulti
+
+Category=Multis
+Subsection=Misc
+Description=Skull Pile
+
+MultiRegion=0,0,0,0
+Component=6874 -1 1 0 0
+Component=6873 0 1 0 0
+Component=6877 1 -1 0 0
+Component=6876 1 0 0 0
+Component=6872 1 1 0 0
+Component=6878 2 -1 0 0
+Component=6879 2 0 0 0
+
+[itemdef mClosedCoffinE]
+// east west facing
+ID=7288
+Name=closed coffin
+Type=tMulti
+
+Category=Multis
+Subsection=Misc
+Description=Closed Coffin
+
+MultiRegion=0,0,0,0
+Component=7287 1 0 0 0
+Component=7292 1 -1 0 0
+Component=7291 0 -1 0 0
+Component=7289 -1 0 0 0
+Component=7290 -1 -1 0 0
+
+[itemdef mOpenCoffinE]
+// east west facing open
+ID=7304
+Name=open coffin
+Type=tMulti
+
+Category=Multis
+Subsection=Misc
+Description=Open Coffin
+
+MultiRegion=0,0,0,0
+Component=7302 2 0 0 0
+Component=7311 2 -1 0 0
+Component=7303 1 0 0 0
+Component=7310 1 -1 0 0
+Component=7309 0 -1 0 0
+Component=7305 -1 0 0 0
+Component=7308 -1 -1 0 0
+Component=7306 -2 0 0 0
+Component=7307 -2 -1 0 0
+
+[itemdef mClosedCoffin1E]
+// east west facing
+ID=7268
+Name=closed coffin
+Type=tMulti
+
+Category=Multis
+Subsection=Misc
+Description=Closed Coffin
+
+MultiRegion=0,0,0,0
+Component=7264 1 1 0 0
+Component=7269 1 0 0 0
+Component=7265 0 1 0 0
+Component=7266 -1 1 0 0
+Component=7267 -1 0 0 0
+
+[itemdef mOpenCoffin1E]
+// east west facing open
+ID=7273
+Name=open coffin
+Type=tMulti
+
+Category=Multis
+Subsection=Misc
+Description=Open Coffin
+
+MultiRegion=0,0,0,0
+Component=7272 1 1 0 0
+Component=7271 0 1 0 0
+Component=7563 0 0 6 0
+Component=7278 0 -1 0 0
+Component=7270 -1 1 0 0
+Component=7274 -1 0 0 0
+Component=7562 -1 0 6 0
+Component=7277 -1 -1 0 0
+Component=7275 -2 0 0 0
+Component=7276 -2 -1 0 0
+
+[itemdef mClosedCoffin1S]
+// north south facing
+ID=7313
+Name=closed coffin
+Type=tMulti
+
+Category=Multis
+Subsection=Misc
+Description=Closed Coffin
+
+MultiRegion=0,0,0,0
+Component=7312 0 1 0 0
+Component=7314 0 -1 0 0
+Component=7317 -1 1 0 0
+Component=7316 -1 0 0 0
+Component=7315 -1 -1 0 0
+
+
+[EOF]

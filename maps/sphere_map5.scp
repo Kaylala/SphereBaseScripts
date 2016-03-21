@@ -1,0 +1,276 @@
+//****************************************************************************
+// SPHERE by : Menasoft ©1997-2015
+// www.sphereserver.net
+// All SPHERE script files and formats are copyright Menasoft & Partners.
+// This file may be freely edited for personal use, but may not be distributed
+// in whole or in part, in any format without express written permission from
+// Menasoft & Partners.  All donations and contributions
+// become the property of Menasoft & Partners.
+//****************************************************************************
+// FILE LAST UPDATED: Saturday, Oct 3, 2015
+//
+VERSION=0.56c
+
+[COMMENT sphere_map5]
+Ter Mur and Stygian Abyss (SA, map5,statics5,staidx5), map #5
+MAP5=1280,4096,-1,5,5	//1280 sectors of size 64x64
+
+
+////////////////////////////////////////
+// Facet
+////////////////////////////////////////
+
+[AreaDef aTerMur]
+Name=Ter Mur
+Group=Ter Mur: ALLMAP
+P=751,3402,-65,5
+Rect=0,0,1280,4096,5
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+////////////////////////////////////////
+// Cities and nearby regions
+////////////////////////////////////////
+
+[AreaDef aTerMurRoyalCity]
+Name=Royal City
+Group=Ter Mur: Royal City
+P=750,3450,-20,5
+Rect=662,3316,962,3716,5
+Flags=RegionFlagNoBuilding|RegionFlagGuarded
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.Music=MidiRoyalCity
+
+[AreaDef aTerMurholy_city]
+Name=Holy City
+Group=Ter Mur: Holy City
+P=995,3898,-42,5
+Rect=930,3840,1180,4090,5
+Flags=RegionFlagNoBuilding|RegionFlagGuarded
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.Music=midi_HolyCity
+
+////////////////////////////////////////
+// Dungeons
+////////////////////////////////////////
+
+[AreaDef aTerMurTombOfKings]
+Name=Tomb of Kings
+Group=Ter Mur: Ter Mur
+P=35,100,0,5
+Rect=3,18,181,242,5
+Flags=RegionFlagNoBuilding|RegionAntiMagicRecallIn|RegionAntiMagicGate
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aTerMurUnderworld]
+Name=Underworld
+Group=Ter Mur: Dungeons
+P=1143,1085,-37,5
+Rect=1003,935,1303,1235,5
+Flags=RegionFlagNoBuilding|RegionAntiMagicRecallIn|RegionAntiMagicGate
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aTerMurStygianAbyss]
+Name=Stygian Abyss
+Group=Ter Mur: Dungeons
+P=520,522,31,5
+Rect=235,40,1155,1040,5
+Flags=RegionFlagNoBuilding|RegionAntiMagicRecallIn|RegionAntiMagicGate
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.Music=MidiStygianAbyss
+
+[AreaDef aTerMurMedusasLair]
+Name=Medusa's Lair
+Group=Ter Mur: Dungeons
+P=771,928,0,5
+Rect=764,894,833,983,5
+Rect=816,749,829,765,5
+Flags=RegionFlagNoBuilding|RegionAntiMagicRecallIn|RegionAntiMagicGate
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aTerMurStygianDragonLair]
+Name=Stygian Dragon's Lair
+Group=Ter Mur: Dungeons
+P=433,158,0,5
+Rect=294,112,386,290,5
+Flags=RegionFlagNoBuilding|RegionAntiMagicRecallIn|RegionAntiMagicGate
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.Music=midi_StygianDragon
+
+////////////////////////////////////////
+// Misc
+////////////////////////////////////////
+
+[AreaDef aTerMurNavreyLair]
+Name=Navrey's Lair
+Group=Ter Mur: Misc
+P=1054,862,-32,5
+Rect=1013,823,1107,911,5
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aTerMurShrineOfTruth]
+Name=Shrine of Truth
+Group=Ter Mur: Misc
+P=1180,875,0,5
+Rect=1152,834,1210,897,5
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aTerMurGreatStygianAbyss]
+Name=The Great Stygian Abyss
+Group=Ter Mur: Misc
+P=521,923,29,5
+Rect=297,547,724,971,5
+Rect=556,44,1102,715,5
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aTerMurAtollBend]
+Name=Atoll Bend
+Group=Ter Mur: Misc
+P=1118,3408,-42,5
+Rect=1027,3311,1224,3514,5
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aTerMurChickenChase]
+Name=Chicken Chase
+Group=Ter Mur: Misc
+P=560,3412,37,5
+Rect=448,3352,613,3480,5
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aTerMurFishermansReach]
+Name=Fishermans Reach
+Group=Ter Mur: Misc
+P=631,3035,36,5
+Rect=547,2835,745,3102,5
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aTerMurGatedIsle]
+Name=Gated Isle
+Group=Ter Mur: Misc
+P=703,3934,-31,5
+Rect=603,3836,815,4043,5
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aTerMurHighPlain]
+Name=High Plain
+Group=Ter Mur: Misc
+P=863,2931,38,5
+Rect=748,2843,981,3050,5
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aTerMurKepetchWaste]
+Name=Kepetch Waste
+Group=Ter Mur: Misc
+P=447,3188,20,5
+Rect=356,3143,523,3224,5
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aTerMurLostSettlement]
+Name=Lost Settlement
+Group=Ter Mur: Misc
+P=526,3822,-44,5
+Rect=454,3708,648,3957,5
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aTerMurNorthernSteppes]
+Name=Northern Steppes
+Group=Ter Mur: Misc
+P=822,3063,61,5
+Rect=694,3020,954,3148,5
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aTerMurRaptorIsland]
+Name=Raptor Island
+Group=Ter Mur: Misc
+P=816,3778,-42,5
+Rect=712,3765,879,3829,5
+Rect=728,3809,839,3923,5
+Rect=769,3721,972,3768,5
+Rect=808,3692,930,3732,5
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aTerMurRoyalPark]
+Name=Royal Park
+Group=Ter Mur: Misc
+P=711,3255,-42,5
+Rect=632,3233,808,3268,5
+Rect=753,3161,990,3292,5
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aTerMurSlithValley]
+Name=Slith Valley
+Group=Ter Mur: Misc
+P=1078,3331,-42,5
+Rect=1028,3263,1221,3404,5
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aTerMurSpiderIsland]
+Name=Spider Island
+Group=Ter Mur: Misc
+P=1115,3730,-42,5
+Rect=1063,3695,1181,3779,5
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aTerMurTalonPoint]
+Name=Talon Point
+Group=Ter Mur: Misc
+P=676,3831,-39,5
+Rect=632,3830,730,3885,5
+Rect=629,3786,705,3826,5
+Rect=656,3750,707,3791,5
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aTerMurToxicDesert]
+Name=Toxic Desert
+Group=Ter Mur: Misc
+P=1047,2980,62,5
+Rect=1010,2929,1156,3049,5
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aTerMurVoidIsle]
+Name=Void Isle
+Group=Ter Mur: Misc
+P=440,3577,38,5
+Rect=314,3473,581,3699,5
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.Music=MidiVoid
+
+[AreaDef aTerMurVolcano]
+Name=Volcano
+Group=Ter Mur: Misc
+P=407,3010,-24,5
+Rect=298,2895,499,3117,5
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aTerMurWalledCircus]
+Name=Walled Circus
+Group=Ter Mur: Misc
+P=370,3273,0,5
+Rect=291,3207,445,3354,5
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aTerMurWaterfallPoint]
+Name=Waterfall Point
+Group=Ter Mur: Misc
+P=661,2894,39,5
+Rect=635,2862,731,2926,5
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+// Time of Legends
+
+[AreaDef aTerMurValleyOfEodon]
+Name=Valley of Eodon
+Group=Eodon: ALLMAP
+P=590,1855,45,5
+Rect=63,1343,896,1984,5
+Rect=574,1855,960,2240,5
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aTerMurShadowguard]
+Name=Shadowguard
+Group=Ter Mur: Dungeons
+P=525,2190,25,5
+Rect=32,1984,574,2272,5
+Rect=0,2271,224,2496,5
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[EOF]

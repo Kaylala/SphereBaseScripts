@@ -1,0 +1,222 @@
+[ItemDef 02006]
+//corpse (all corpses normally are here)
+DefName=iCorpse
+Type=tCorpse
+TData2=09
+
+Category=Miscellaneous
+Subsection=Corpses: Default
+Description=All Corpses (Ogre/Default)
+
+[ItemDef 03D64]
+//dead orc captain
+DefName=iOrcCaptainCorpse
+Type=tCorpse
+TData2=09
+
+Category=Miscellaneous
+Subsection=Corpses: Alpha
+Description=Orc Captain
+
+[ItemDef 03D65]
+//corpse of orc
+DefName=iOrcCorpse
+Type=tCorpse
+TData2=09
+
+Category=Miscellaneous
+Subsection=Corpses: Alpha
+Description=Orc
+
+[ItemDef 03D66]
+//corpse of skeleton
+DefName=iSkeletonCorpse
+Type=tCorpse
+TData2=09
+
+Category=Miscellaneous
+Subsection=Corpses: Alpha
+Description=Skeleton
+
+[ItemDef 03D67]
+DefName=icorpseblank
+Type=tCorpse
+TData2=09
+Value=100
+
+Category=Miscellaneous
+Subsection=Corpses: Alpha
+Description=Human
+
+[ItemDef 03D68]
+//corpse
+Type=tCorpse
+TData2=09
+
+Category=Miscellaneous
+Subsection=Corpses: Alpha
+Description=Human
+
+[ItemDef 03D69]
+DefName=iDeerCorpse
+Name=dead deer
+//Type=tCorpse
+//TData2=09
+Type=tRawMeat
+TData1=40 iCutOfRibs
+Value=14
+Weight=200.0
+
+Category=Miscellaneous
+Subsection=Corpses: Alpha
+Description=Deer
+
+[ItemDef 03D6A]
+DefName=iWolfCorpse
+Name=dead wolf
+//Type=tCorpse
+//TData2=09
+Type=tRawMeat
+TData1=20 iCutOfRibs
+Value=14
+Weight=100.0
+
+Category=Miscellaneous
+Subsection=Corpses: Alpha
+Description=Wolf
+
+[ItemDef 03d6b]
+DefName=iRabbitCorpse
+Name=dead rabbit
+//Type=tCorpse
+//TData2=09
+Type=tRawMeat
+TData1=3 iCutOfRibs
+Value=14
+Weight=15.0
+
+Category=Miscellaneous
+Subsection=Corpses: Alpha
+Description=Rabbit
+
+[ItemDef 04aae]
+Name=Juka corpse
+Type=tCorpse
+TData2=09
+Weight=255
+
+Category=Miscellaneous
+Subsection=Corpses:Juka
+Description: Juka Corpse
+
+[ItemDef 04aaf]
+Name=Juka corpse
+Type=tCorpse
+TData2=09
+Weight=255
+
+Category=Miscellaneous
+Subsection=Corpses:Juka
+Description: Juka Corpse
+
+[ItemDef 04ab0]
+Name=Juka corpse
+Type=tCorpse
+TData2=09
+Weight=255
+
+Category=Miscellaneous
+Subsection=Corpses:Juka
+Description: Juka Corpse
+
+[ItemDef 04ab1]
+Name=Juka corpse
+Type=tCorpse
+TData2=09
+Weight=255
+
+Category=Miscellaneous
+Subsection=Corpses:Juka
+Description: Juka Corpse
+
+[ItemDef 04ab2]
+Name=Juka corpse
+Type=tCorpse
+TData2=09
+Weight=255
+
+Category=Miscellaneous
+Subsection=Corpses:Juka
+Description: Juka Corpse
+
+[ItemDef 04ab3]
+Name=Juka corpse
+Type=tCorpse
+TData2=09
+Weight=255
+
+Category=Miscellaneous
+Subsection=Corpses:Juka
+Description: Juka Corpse
+
+[ItemDef 04b5c]
+Name=Meer corpse
+Type=tCorpse
+TData2=09
+Weight=255
+
+Category=Miscellaneous
+Subsection=Corpses: Meer
+Description: Juka Corpse
+
+[ItemDef 04b5d]
+Name=Meer corpse
+Type=tCorpse
+TData2=09
+Weight=255
+
+Category=Miscellaneous
+Subsection=Corpses: Meer
+Description: Juka Corpse
+
+[ItemDef 04b5e]
+Name=Meer corpse
+Type=tCorpse
+TData2=09
+Weight=255
+
+Category=Miscellaneous
+Subsection=Corpses: Meer
+Description: Juka Corpse
+
+[ItemDef 04b5f]
+Name=Meer corpse
+Type=tCorpse
+TData2=09
+Weight=255
+
+Category=Miscellaneous
+Subsection=Corpses: Meer
+Description: Juka Corpse
+
+[ItemDef 04b60]
+Name=Meer corpse
+Type=tCorpse
+TData2=09
+Weight=255
+
+Category=Miscellaneous
+Subsection=Corpses: Meer
+Description: Juka Corpse
+
+[ItemDef 04b61]
+Name=Meer corpse
+Type=tCorpse
+TData2=09
+Weight=255
+
+Category=Miscellaneous
+Subsection=Corpses: Meer
+Description: Juka Corpse
+
+[EOF]

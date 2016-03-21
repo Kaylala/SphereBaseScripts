@@ -1,0 +1,139 @@
+[SkillMenu smAlchemy]
+What sort of potion do you want to make?
+
+On=iAgilityPotion <Name> (<ResMake>)
+MakeItem=iAgilityPotion
+
+On=iGreaterAgilityPotion <Name> (<ResMake>)
+MakeItem=iGreaterAgilityPotion
+
+On=iLesserCurePotion <Name> (<ResMake>)
+MakeItem=iLesserCurePotion
+
+On=iCurePotion <Name> (<ResMake>)
+MakeItem=iCurePotion
+
+On=iGreaterCurePotion <Name> (<ResMake>)
+MakeItem=iGreaterCurePotion
+
+On=iExplosionLessPotion <Name> (<ResMake>)
+MakeItem=iLesserExplosionPotion
+
+On=iExplosionPotion <Name> (<ResMake>)
+MakeItem=iExplosionPotion
+
+On=iGreaterExplosionPotion <Name> (<ResMake>)
+MakeItem=iGreaterExplosionPotion
+
+On=iLesserHealPotion <Name> (<ResMake>)
+MakeItem=iLesserHealPotion
+
+On=iHealPotion <Name> (<ResMake>)
+MakeItem=iHealPotion
+
+On=iGreaterHealPotion <Name> (<ResMake>)
+MakeItem=iGreaterHealPotion
+
+On=iNightsightPotion <Name> (<ResMake>)
+MakeItem=iNightsightPotion
+
+On=iLesserPoisonPotion <Name> (<ResMake>)
+MakeItem=iLesserPoisonPotion
+
+On=iPoisonPotion <Name> (<ResMake>)
+MakeItem=iPoisonPotion
+
+On=iGreaterPoisonPotion <Name> (<ResMake>)
+MakeItem=iGreaterPoisonPotion
+
+On=iDeadlyPoisonPotion <Name> (<ResMake>)
+MakeItem=iDeadlyPoisonPotion
+
+On=iRefreshPotion <Name> (<ResMake>)
+MakeItem=iRefreshPotion
+
+On=iTotalRefreshPotion <Name> (<ResMake>)
+MakeItem=iTotalRefreshPotion
+
+On=iStrengthPotion <Name> (<ResMake>)
+MakeItem=iStrengthPotion
+
+On=iGreaterStrengthPotion <Name> (<ResMake>)
+MakeItem=iGreaterStrengthPotion
+
+On=iShrinkPotion <Name> (<ResMake>)
+MakeItem=iShrinkPotion
+
+On=iInvisibilityPotion <Name> (<ResMake>)
+MakeItem=iInvisibilityPotion
+
+On=iManaPotion <Name> (<ResMake>)
+MakeItem=iManaPotion
+
+On=iTotalManaPotion <Name> (<ResMake>)
+MakeItem=iTotalManaPotion
+
+On=iBeastformPotion <Name> (<ResMake>)
+MakeItem=iBeastformPotion
+
+On=iChameleonPotion <Name> (<ResMake>)
+MakeItem=iChameleonPotion
+
+On=iCleverPotion <Name> (<ResMake>)
+MakeItem=iCleverPotion
+
+On=iGreaterCleverPotion <Name> (<ResMake>)
+MakeItem=iGreaterCleverPotion
+
+On=iClumsinessPotion <Name> (<ResMake>)
+MakeItem=iClumsinessPotion
+
+On=iConfusionPotion <Name> (<ResMake>)
+MakeItem=iConfusionPotion
+
+On=iLesserForgetPotion <Name> (<ResMake>)
+MakeItem=iLesserForgetPotion
+
+On=iForgetPotion <Name> (<ResMake>)
+MakeItem=iForgetPotion
+
+On=iGreaterForgetPotion <Name> (<ResMake>)
+MakeItem=iGreaterForgetPotion
+
+On=iGenderPotion <Name> (<ResMake>)
+MakeItem=iGenderPotion
+
+On=iTrancePotion <Name> (<ResMake>)
+MakeItem=iTrancePotion
+
+On=iGreaterTrancePotion <Name> (<ResMake>)
+MakeItem=iGreaterTrancePotion
+
+On=iRestorePotion <Name> (<ResMake>)
+MakeItem=iRestorePotion
+
+On=iGreaterRestorePotion <Name> (<ResMake>)
+MakeItem=iGreaterRestorePotion
+
+On=iSustenancePotion <Name> (<ResMake>)
+MakeItem=iSustenancePotion
+
+On=iMonsterPotion <Name> (<ResMake>)
+MakeItem=iMonsterPotion
+
+On=iParticlePotion <Name> (<ResMake>)
+MakeItem=iParticlePotion
+
+On=iShieldPotion <Name> (<ResMake>)
+MakeItem=iShieldPotion
+
+On=iSteelskinPotion <Name> (<ResMake>)
+MakeItem=iSteelskinPotion
+
+On=iStoneskinPotion <Name> (<ResMake>)
+MakeItem=iStoneskinPotion
+
+On=iWeaknessPotion <Name> (<ResMake>)
+MakeItem=iWeaknessPotion
+
+[EOF]

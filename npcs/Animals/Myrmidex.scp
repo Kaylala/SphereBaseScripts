@@ -1,0 +1,123 @@
+
+// Myrmidex Drone
+// Hued terathan drone
+// Dragon Turtle Champion Spawn
+[CharDef cMyrmidexDrone]
+ID=cTerathanDrone
+Name=myrmidex drone
+Can=CanWalk
+MoveRate=100
+Dam=6,12
+Icon=iMyrmidexDroneIcon
+Sound=sndTerathanDrone1
+Resources=4 iCutOfRawRibs
+FoodType=tMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=tMeat,rJungle
+BloodColor=0
+
+Category=Animals
+SubsectiOn=Myrmidex
+DescriptiOn=Myrmidex Drone (Needs Hue/Fame/Karma)
+
+On=@Create
+NPC=BrainAnimal
+Color=0
+SlayerSuper=EodonSlayer
+SlayerLesser=MyrmidexSlayer
+
+Fame=
+Karma=
+Alignment=Evil
+
+Ability1=
+
+DamPhysical=50
+DamFire=0
+DamCold=0
+DamPoison=50
+DamEnergy=0
+
+ResPhysical=0,10
+ResFire=0,10
+ResCold=0,10
+ResPoison=0,10
+ResEnergy=0,10
+
+OStr={75 110}
+ODex={90 140}
+OInt={25 45}
+MaxHits={450 660}
+MaxMana=0
+
+Wrestling={400 500}
+Tactics={300 500}
+MagicResistance={300 500}
+Parrying={300 500}
+
+On=@NPCRestock
+NewGold={50 100}
+
+// Myrmidex Larvae
+// Note: This thing is so weak
+// Dragon Turtle Champion Spawn
+[CharDef 050D]
+DefName=cMyrmidexLarvae
+Name=myrmidex larvae
+Can=CanWalk
+MoveRate=100
+Dam=5,13
+Icon=iMyrmidexLarvaeIcon
+Sound=sndAcidSlug1
+Resources=0
+FoodType=tMeat
+MaxFood=35
+Aversions=0
+Desires=0
+BloodColor=0
+TEvents=
+
+Category=Animals
+SubsectiOn=Myrmidex
+DescriptiOn=Myrmidex Larvae (Needs Hue/Fame/Karma)
+
+On=@Create
+NPC=BrainAnimal
+SlayerSuper=EodonSlayer
+SlayerLesser=MyrmidexSlayer
+
+Fame=
+Karma=
+Alignment=Evil
+
+Ability1=
+
+DamPhysical=50
+DamFire=0
+DamCold=0
+DamPoison=50
+DamEnergy=0
+
+ResPhysical=0,10
+ResFire=0
+ResCold=0
+ResPoison=50
+ResEnergy=0
+
+OStr={75 100}
+ODex={80 95}
+OInt={35 60}
+MaxHits={440 600}
+MaxMana=0
+
+Wrestling={500 650}
+Tactics={350 500}
+MagicResistance={250 400}
+Poisoning={600 800}
+Parrying={350 500}
+
+On=@NPCRestock
+NewGold={25 50}
+
+[EOF]

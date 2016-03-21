@@ -1,0 +1,3253 @@
+// Need hue for crystal vortex
+[DefName Compatibility]
+cBloodElemental=cBloodElemental1
+
+// Air Elemental
+[CharDef 0D]
+DefName=cAirElemental
+Name=air elemental
+Can=CanWalk|CanUseHands|CanFly
+MoveRate=100
+Dam=8,10
+Icon=iAirElementalIcon
+Sound=sndAirElemental1
+Resources=0
+FoodType=tMagic
+MaxFood=35
+Aversions=rCivilization
+Desires=tMagic
+BloodColor=-1
+
+Category=Monsters
+Subsection=Elementals
+Description=Air Elemental
+
+On=@Create
+NPC=BrainMonster
+Color={0 1 04FFF 1}
+SlayerSuper=ElementalSlayer
+SlayerLesser=AirElementalSlayer
+
+Fame=4500
+Karma=-4500
+Alignment=Evil
+
+DamPhysical=20
+DamFire=0
+DamCold=40
+DamPoison=0
+DamEnergy=40
+
+ResPhysical=35,45
+ResFire=15,25
+ResCold=10,20
+ResPoison=10,20
+ResEnergy=25,35
+
+OStr={126 155}
+ODex={166 185}
+OInt={101 125}
+MaxHits={76 93}
+
+Wrestling={600 800}
+Tactics={600 800}
+MagicResistance={600 750}
+Parrying={600 800}
+Magery={600 750}
+EvaluatingIntel={600 750}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={175 225}
+
+On=@DeathCorpse
+NewTMap=1
+NewItem={RandomLowMageryScroll 1 RandomLowNecromancyScroll 1 RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1},1
+NewItem={RandomLowMageryScroll 1 RandomLowNecromancyScroll 1 RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1},1
+
+// Air Elemental (Shame)
+[CharDef cAirElementalShame]
+ID=cAirElemental
+Name=air elemental
+Can=CanWalk|CanUseHands|CanFly
+MoveRate=100
+Dam=15,17
+Icon=iAirElementalIcon
+Sound=sndAirElemental1
+Resources=0
+FoodType=tMagic
+MaxFood=35
+Aversions=rCivilization
+Desires=tMagic
+BloodColor=-1
+
+Category=Monsters
+Subsection=Elementals
+Description=Air Elemental (Shame)
+
+On=@Create
+NPC=BrainMonster
+Color={0 1 04FFF 1}
+CanDefend=Can_D_Dispel
+SlayerSuper=ElementalSlayer
+SlayerLesser=AirElementalSlayer
+
+Fame=6000
+Karma=-6000
+Alignment=Evil
+
+DamPhysical=20
+DamFire=0
+DamCold=40
+DamPoison=0
+DamEnergy=40
+
+ResPhysical=80,90
+ResFire=55,65
+ResCold=55,65
+ResPoison=55,65
+ResEnergy=50,60
+
+OStr={276 315}
+ODex={196 200}
+OInt={151 175}
+MaxHits={750 780}
+
+Wrestling={900 1100}
+Tactics={900 1100}
+MagicResistance={900 1000}
+Parrying={900 1100}
+Magery={1000 1100}
+EvaluatingIntel={1000 1100}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={400 600}
+
+On=@DeathCorpse
+NewItem={RandomLowMageryScroll 1 RandomLowNecromancyScroll 1 RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1},1
+NewItem={RandomLowMageryScroll 1 RandomLowNecromancyScroll 1 RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1}
+NewItem=iShameDungeonCrystal,1
+
+// Wind Elemental
+[CharDef cWindElemental]
+ID=cAirElemental
+Name=wind elemental
+Can=CanWalk|CanUseHands|CanFly
+MoveRate=100
+Dam=15,17
+Icon=iAirElementalIcon
+Sound=sndAirElemental1
+Resources=0
+FoodType=tMagic
+MaxFood=35
+Aversions=rCivilization
+Desires=tMagic
+BloodColor=-1
+
+Category=Monsters
+Subsection=Elementals
+Description=Wind Elemental
+
+On=@Create
+NPC=BrainMonster
+Color=04FFF
+SlayerSuper=ElementalSlayer
+SlayerLesser=AirElementalSlayer
+
+Fame=6000
+Karma=-6000
+Alignment=Evil
+
+DamPhysical=20
+DamFire=0
+DamCold=40
+DamPoison=0
+DamEnergy=40
+
+ResPhysical=65,75
+ResFire=55,65
+ResCold=55,65
+ResPoison=100
+ResEnergy=55,65
+
+OStr={375 415}
+ODex={180 230}
+OInt={165 225}
+MaxHits={2500 2625}
+MaxStam=200
+MaxMana={875 1160}
+
+Wrestling={600 750}
+Tactics={600 750}
+MagicResistance={600 750}
+Parrying={600 750}
+Magery={650 750}
+EvaluatingIntel={650 750}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={400 600}
+
+On=@DeathCorpse
+NewItem={RandomLowMageryScroll 1 RandomLowNecromancyScroll 1 RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1},{1 2)
+NewItem={RandomLowMageryScroll 1 RandomLowNecromancyScroll 1 RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1},{1 2}
+NewItem={RandomLowMageryScroll 1 RandomLowNecromancyScroll 1 RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1}
+NewItem=iShameDungeonCrystal,1
+
+// Wind Elemental (Shame Guardian)
+[CharDef cWindElementalGuardian]
+ID=cAirElemental
+Name=wind elemental
+Can=CanWalk|CanUseHands|CanFly
+MoveRate=100
+Dam=20,22
+Icon=iAirElementalIcon
+Sound=sndAirElemental1
+Resources=0
+FoodType=0
+MaxFood=35
+Aversions=rCivilization
+Desires=tMagic
+BloodColor=-1
+
+Category=Monsters
+Subsection=Elementals: Shame Guardians
+Description=Wind Elemental (Level 3)
+
+On=@Create
+NPC=BrainMonster
+Color=0451
+CanDefend=Can_D_Dispel
+Tag.Name.Suffix=" the Guardian"
+SlayerSuper=ElementalSlayer
+SlayerLesser=AirElementalSlayer
+
+Fame=6000
+Karma=-6000
+Alignment=Evil
+
+DamPhysical=20
+DamFire=0
+DamCold=40
+DamPoison=0
+DamEnergy=40
+
+ResPhysical=65,75
+ResFire=55,65
+ResCold=55,65
+ResPoison=100
+ResEnergy=55,65
+
+OStr={375 415}
+ODex={180 230}
+OInt={165 225}
+MaxHits={2500 2625}
+MaxStam={200 250}
+MaxMana={875 1160}
+
+Wrestling={700 950}
+Tactics={700 950}
+MagicResistance={700 950}
+Parrying={700 950}
+Magery={750 850}
+EvaluatingIntel={750 850}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={500 900}
+
+On=@DeathCorpse
+NewItem={RandomLowMageryScroll 1 RandomLowNecromancyScroll 1 RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1},{1 2)
+NewItem={RandomLowMageryScroll 1 RandomLowNecromancyScroll 1 RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1},{1 2}
+NewItem={RandomLowMageryScroll 1 RandomLowNecromancyScroll 1 RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1}
+NewItem=iCursedOil
+
+// Crystal Vortex
+[CharDef cCrystalVortex]
+ID=cAirElemental
+Name=crystal vortex
+Can=CanWalk|CanUseHands|CanFly
+MoveRate=100
+Dam=20,30
+Icon=iAirElementalIcon
+Sound=sndAirElemental1
+Resources=0
+FoodType=tMagic
+MaxFood=35
+Aversions=rCivilization
+Desires=tMagic
+BloodColor=-1
+
+Category=Monsters
+Subsection=Elementals
+Description=Crystal Vortex
+
+On=@Create
+NPC=BrainMonster
+SlayerSuper=ElementalSlayer
+SlayerLesser=AirElementalSlayer
+
+Fame=7000
+Karma=-7000
+Alignment=Evil
+
+DamPhysical=20
+DamFire=0
+DamCold=40
+DamPoison=0
+DamEnergy=40
+
+ResPhysical=60,70
+ResFire=0,10
+ResCold=65,75
+ResPoison=45,55
+ResEnergy=60,70
+
+OStr={826 855}
+ODex={566 585}
+OInt=200
+MaxHits={358 398}
+MaxStam=450
+MaxMana=0
+
+Wrestling=1200
+Tactics=1200
+MagicResistance=1200
+Parrying=1200
+
+On=@NPCRestock
+NewGold={400 500}
+
+On=@DeathCorpse
+NewItem={RandomLowMageryScroll 1 RandomLowNecromancyScroll 1 RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1},{1 2)
+NewItem={RandomLowMageryScroll 1 RandomLowNecromancyScroll 1 RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1},{1 2}
+
+// Chaos Vortex
+[CharDef cChaosVortex]
+ID=cAirElemental
+Name=chaos vortex
+Can=CanWalk|CanUseHands|CanFly
+MoveRate=100
+Dam=20,21
+Icon=iAirElementalIcon
+Sound=sndAirElemental1
+Resources=0
+FoodType=0
+MaxFood=35
+Aversions=rCivilization
+Desires=tMagic
+BloodColor=0
+TEvents=eAIVortex
+
+Category=Monsters
+Subsection=Elementals
+Description=Chaos Vortex
+
+On=@Create
+NPC=BrainMonster
+Color=0850
+SlayerSuper=ElementalSlayer
+SlayerLesser=AirElementalSlayer
+
+Fame=18000
+Karma=-18000
+Alignment=Evil
+
+DamPhysical=20
+DamFire=20
+DamCold=20
+DamPoison=20
+DamEnergy=20
+
+ResPhysical=65,75
+ResFire=65,75
+ResCold=65,75
+ResPoison=65,75
+ResEnergy=65,75
+
+OStr=450
+ODex=200
+OInt=100
+MaxHits=25000
+MaxStam=250
+MaxMana=0
+
+Wrestling={1200 1400}
+Tactics={1000 1300}
+MagicResistance={1000 1200}
+Parrying={1000 1300}
+
+On=@NPCRestock
+NewGold={900 1000}
+
+On=@DeathCorpse
+NewItem=iChagaMushroom,{1 3}
+NewItem=iUndyingFlesh,{1 3}
+NewItem=iFaeryDust,{1 2}
+NewItem=iShameDungeonCrystal,4
+
+// Unbound Energy Vortex
+[CharDef cUnboundEnergyVortex]
+ID=cAirElemental
+Name=unbound energy vortex
+Can=CanWalk|CanUseHands|CanFly
+MoveRate=100
+Dam=21,23
+Icon=iAirElementalIcon
+Sound=sndAirElemental1
+Resources=0
+FoodType=0
+MaxFood=35
+Aversions=rCivilization
+Desires=tMagic
+BloodColor=0
+TEvents=eAIVortex
+
+Category=Monsters
+Subsection=Elementals
+Description=Unbound Energy Vortex
+
+On=@Create
+NPC=BrainMonster
+Color=hEnergyVortexHue
+SlayerSuper=ElementalSlayer
+SlayerLesser=AirElementalSlayer
+
+Fame=22500
+Karma=-22500
+Alignment=Evil
+
+DamPhysical=0
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=100
+
+ResPhysical=60,70
+ResFire=65,75
+ResCold=65,75
+ResPoison=55,65
+ResEnergy=100
+
+OStr=450
+ODex=200
+OInt=100
+MaxHits=20000
+MaxStam=250
+MaxMana=0
+
+Wrestling={1200 1400}
+Tactics={1000 1300}
+MagicResistance={1000 1200}
+Parrying={1000 1300}
+
+On=@NPCRestock
+NewGold={700 950}
+
+On=@DeathCorpse
+NewItem=RandomImbuingIngredient,1
+NewItem=iVoidCore,4
+NewItem=iShameDungeonCrystal,5
+
+// Nether Vortex
+[CharDef cNetherVortex]
+ID=cAirElemental
+Name=nether vortex
+Can=CanWalk|CanUseHands|CanFly
+MoveRate=100
+Dam=20
+Icon=iAirElementalIcon
+Sound=sndAirElemental1
+Resources=0
+FoodType=0
+MaxFood=35
+Aversions=rCivilization
+Desires=tMagic
+BloodColor=-1
+
+Category=Monsters
+Subsection=Elementals
+Description=Nether Vortex
+
+On=@Create
+NPC=BrainMonster
+Color=hBlackrockHue
+SlayerSuper=ElementalSlayer
+
+Fame=18000
+Karma=-18000
+Alignment=Evil
+
+Ability1=AuraEnergyDamage
+Ability2=AuraLifeDrain
+ReflectPhysicDamage=50
+HitPointRegeneration=50
+
+DamPhysical=10
+DamFire=25
+DamCold=25
+DamPoison=10
+DamEnergy=30
+
+ResPhysical=65,75
+ResFire=55,65
+ResCold=55,65
+ResPoison=55,65
+ResEnergy=50,60
+
+OStr=150
+ODex=185
+OInt=300
+MaxHits={2000 2200}
+
+Wrestling={800 1000}
+Tactics={900 1000}
+MagicResistance={1000 1200}
+Parrying={900 1000}
+Magery=1200
+EvaluatingIntel=1200
+Meditation=1200
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={1400 1600}
+
+On=@DeathCorpse
+NewItem={RandomLowMageryScroll 1 RandomLowNecromancyScroll 1 RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1}
+NewItem={RandomLowMageryScroll 1 RandomLowNecromancyScroll 1 RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1}
+
+// Earth Elemental
+[CharDef 0E]
+DefName=cEarthElemental
+Name=earth elemental
+Can=CanWalk
+MoveRate=100
+Dam=9,16
+Icon=iEarthElementalIcon
+Sound=sndEarthElemental1
+Resources=
+FoodType=tOre,tIngot,tGem,tRock,tDirt
+MaxFood=35
+Aversions=rCivilization
+Desires=tMagic
+BloodColor=hBrownHues
+
+Category=Monsters
+Subsection=Elementals
+Description=Earth Elemental
+
+On=@Create
+NPC=BrainMonster
+SlayerSuper=ElementalSlayer
+SlayerLesser=EarthElementalSlayer
+
+Fame=3500
+Karma=-3500
+Alignment=Evil
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=30,35
+ResFire=10,20
+ResCold=10,20
+ResPoison=15,25
+ResEnergy=15,25
+
+OStr={126 155}
+ODex={66 85}
+OInt={71 92}
+MaxHits={76 93}
+
+Wrestling={600 1000}
+Tactics={600 1000}
+MagicResistance={500 950}
+Parrying={600 1000}
+
+On=@NPCRestock
+NewGold={175 225}
+
+On=@DeathCorpse
+NewTMap=1
+NewItem=iFertileDirt,{1 4}
+NewItem=iMandrakeRoot,1
+NewItem=RandomCommonGem,{1 2}
+NewItem=iIronOre,5	// Small
+
+// Earth Elemental (Shame)
+[CharDef cEarthElementalShame]
+ID=cEarthElemental
+Name=earth elemental
+Can=CanWalk
+MoveRate=100
+Dam=11,13
+Icon=iEarthElementalIcon
+Sound=sndEarthElemental1
+Resources=
+FoodType=tOre,tIngot,tGem,tRock,tDirt
+MaxFood=35
+Aversions=rCivilization
+Desires=tMagic
+BloodColor=hBrownHues
+
+Category=Monsters
+Subsection=Elementals
+Description=Earth Elemental (Shame)
+
+On=@Create
+NPC=BrainMonster
+SlayerSuper=ElementalSlayer
+SlayerLesser=EarthElementalSlayer
+
+Fame=3500
+Karma=-3500
+Alignment=Evil
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=30,35
+ResFire=25,30
+ResCold=25,30
+ResPoison=25,30
+ResEnergy=20,25
+
+OStr={130 155}
+ODex={65 75}
+OInt={75 95}
+MaxHits={320 350}
+
+Wrestling={800 850}
+Tactics={650 900}
+MagicResistance={650 850}
+Parrying={650 900}
+
+On=@NPCRestock
+NewGold={250 350}
+
+On=@DeathCorpse
+NewTMap=1
+NewItem=iFertileDirt,{1 4}
+NewItem=iMandrakeRoot,1
+NewItem=RandomCommonGem,1
+NewItem=iIronOre,5	// Small
+NewItem=iShameDungeonCrystal,1
+
+// Greater Earth Elemental
+[CharDef cGreaterEarthElemental]
+ID=cEarthElemental
+Name=greater earth elemental
+Can=CanWalk
+MoveRate=100
+Dam=9,16
+Icon=iEarthElementalIcon
+Sound=sndEarthElemental1
+Resources=
+FoodType=tOre,tIngot,tGem,tRock,tDirt
+MaxFood=35
+Aversions=rCivilization
+Desires=tMagic
+BloodColor=hBrownHues
+
+Category=Monsters
+Subsection=Elementals
+Description=Greater Earth Elemental
+
+On=@Create
+NPC=BrainMonster
+Color=0475
+SlayerSuper=ElementalSlayer
+SlayerLesser=EarthElementalSlayer
+
+Fame=3500
+Karma=-3500
+Alignment=Evil
+
+Ability1=FrenziedRage	// 35% life. Deal 5sec "stunning force" hits
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=50,65
+ResFire=35,45
+ResCold=35,40
+ResPoison=45,55
+ResEnergy=25,35
+
+OStr={126 155}
+ODex={76 95}
+OInt={91 120}
+MaxHits={537 582}
+
+Wrestling={800 950}
+Tactics={700 850}
+MagicResistance={450 650}
+Parrying={700 850}
+
+On=@NPCRestock
+NewGold={250 450}
+
+On=@DeathCorpse
+NewItem=iFertileDirt,{1 4}
+NewItem=iMandrakeRoot,1
+NewItem=RandomCommonGem,1
+NewItem=RandomOre,{3 7}
+NewItem=iShameDungeonCrystal,1
+
+// Molten Earth Elemental
+[CharDef cMoltenEarthElemental]
+ID=cEarthElemental
+Name=molten earth elemental
+Can=CanWalk
+MoveRate=100
+Dam=17,19
+Icon=iEarthElementalIcon
+Sound=sndEarthElemental1
+Resources=
+FoodType=tOre,tIngot,tGem,tRock,tDirt
+MaxFood=35
+Aversions=rCivilization
+Desires=tMagic,tFire,tLava
+BloodColor=hBrownHues
+
+Category=Monsters
+Subsection=Elementals
+Description=Molten Earth Elemental
+
+On=@Create
+NPC=BrainDragon
+Color=05E5
+CanDefend=Can_D_Dispel
+SlayerSuper=ElementalSlayer
+SlayerLesser=EarthElementalSlayer
+Breath.Dam=
+Breath.Type=
+Breath.Anim=
+Brath.Hue=
+
+Fame=6000
+Karma=-6000
+Alignment=Evil
+
+Ability1=FrenziedRage	// 35% life. Deal 5sec "stunning force" hits
+
+DamPhysical=50
+DamFire=50
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=50,65
+ResFire=50,60
+ResCold=40,50
+ResPoison=55,65
+ResEnergy=50,60
+
+OStr={460 498}
+ODex={76 95}
+OInt={91 120}
+MaxHits={1276 1351}
+
+Wrestling=1200
+Tactics=1000
+MagicResistance=1000
+Parrying=1000
+Anatomy={0 200}
+
+On=@NPCRestock
+NewGold={350 650}
+
+On=@DeathCorpse
+NewItem=iFertileDirt,{1 4}
+NewItem=iMandrakeRoot,1
+NewItem=RandomCommonGem,{1 3}
+NewItem=RandomOre,{6 8}
+NewItem=iShameDungeonCrystal,2
+
+// Mud Elemental
+[CharDef cMudElemental]
+ID=cEarthElemental
+Name=mud elemental
+Can=CanWalk
+MoveRate=100
+Dam=17,19
+Icon=iEarthElementalIcon
+Sound=sndEarthElemental1
+Resources=
+FoodType=tOre,tIngot,tGem,tRock,tDirt
+MaxFood=35
+Aversions=rCivilization
+Desires=tMagic
+BloodColor=hBrownHues
+
+Category=Monsters
+Subsection=Elementals
+Description=Mud Elemental
+
+On=@Create
+NPC=BrainMonster
+Color=0475
+SlayerSuper=ElementalSlayer
+SlayerLesser=EarthElementalSlayer
+
+Fame=7000
+Karma=-7000
+Alignment=Evil
+
+DamPhysical=50
+DamFire=50
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=50,65
+ResFire=55,65
+ResCold=45,55
+ResPoison=55,65
+ResEnergy=50,60
+
+OStr={448 523}
+ODex={76 95}
+OInt={91 120}
+MaxHits={690 828}
+
+Wrestling=1200
+Tactics=1000
+MagicResistance=1000
+Parrying=1000
+
+On=@NPCRestock
+NewGold={250 500}
+
+On=@DeathCorpse
+NewItem=iFertileDirt,{1 4}
+NewItem=iExecutionersCap,1
+NewItem=RandomCommonGem,{1 3}
+NewItem=RandomNecromancyReagent,{5 8}
+NewItem=RandomNecromancyReagent,{5 8}
+NewItem=iShameDungeonCrystal,1
+
+// Stone Elemental
+[CharDef cStoneElemental]
+ID=cEarthElemental
+Name=stone elemental
+Can=CanWalk
+MoveRate=100
+Dam=15,17
+Icon=iEarthElementalIcon
+Sound=sndEarthElemental1
+Resources=
+FoodType=tOre,tIngot,tGem,tRock,tDirt
+MaxFood=35
+Aversions=rCivilization
+Desires=tMagic
+BloodColor=0
+
+Category=Monsters
+Subsection=Elementals
+Description=Stone Elemental
+
+On=@Create
+NPC=BrainMonster
+Color=0835
+SlayerSuper=ElementalSlayer
+SlayerLesser=EarthElementalSlayer
+
+Fame=4000
+Karma=-4000
+Alignment=Evil
+
+Ability1=FrenziedRage	// 35% life. Deal 5sec "stunning force" hits
+
+DamPhysical=100
+DamFire=00
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=50,65
+ResFire=55,65
+ResCold=45,55
+ResPoison=55,65
+ResEnergy=45,55
+
+OStr={163 184}
+ODex={85 105}
+OInt={91 120}
+MaxHits={925 975}
+
+Wrestling={800 950}
+Tactics={850 950}
+MagicResistance=1000
+Parrying={850 950}
+
+On=@NPCRestock
+NewGold={400 500}
+
+On=@DeathCorpse
+NewItem=iSand,{3 4}
+NewItem=RandomCommonGem,{1 3}
+NewItem=iHighQualityGranite,{3 7}
+NewItem=iShameDungeonCrystal,1
+
+// Quartz Elemental (Shame Guardian Level 1)
+[CharDef cQuartzElementalGuardian]
+ID=cEarthElemental
+Name=quartz elemental
+Can=CanWalk
+MoveRate=100
+Dam=14,21
+Icon=iEarthElementalIcon
+Sound=sndEarthElemental1
+Resources=
+FoodType=tOre,tIngot,tGem,tRock,tDirt
+MaxFood=35
+Aversions=rCivilization
+Desires=tMagic
+BloodColor=0
+
+Category=Monsters
+Subsection=Elementals: Shame Guardians
+Description=Quartz Elemental (Level 1)
+
+On=@Create
+NPC=BrainMonster
+Color=0495
+Tag.Name.Suffix=" the Guardian"
+SlayerSuper=ElementalSlayer
+SlayerLesser=EarthElementalSlayer
+
+Fame=4000
+Karma=-4000
+Alignment=Evil
+
+Ability1=FrenziedRage	// 35% life. Deal 5sec "stunning force" hits
+
+DamPhysical=60
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=40
+
+ResPhysical=30,35
+ResFire=20,30
+ResCold=20,30
+ResPoison=20,30
+ResEnergy=15,25
+
+OStr={220 240}
+ODex={85 105}
+OInt={90 120}
+MaxHits={1078 1176}
+
+Wrestling={950 1150}
+Tactics={950 1150}
+MagicResistance={700 1150}
+Parrying={950 1150}
+
+On=@NPCRestock
+NewGold={400 500}
+
+On=@DeathCorpse
+NewItem=RandomCommonGem,2
+NewItem=RandomOre,{5 8}
+NewItem=iQuartzGrit,1
+
+// Enraged Earth Elemental
+[CharDef cEnragedEarthElemental]
+ID=cEarthElemental
+Name=enraged earth elemental
+Can=CanWalk
+MoveRate=100
+Dam=9,16
+Icon=iEarthElementalIcon
+Sound=sndEarthElemental1
+Resources=
+FoodType=tOre,tIngot,tGem,tRock,tDirt
+MaxFood=35
+Aversions=rCivilization
+Desires=tMagic
+BloodColor=0
+
+Category=Monsters
+Subsection=Elementals
+Description=Enraged Earth Elemental
+
+On=@Create
+NPC=BrainMonster
+Color=0468
+SlayerSuper=ElementalSlayer
+SlayerLesser=EarthElementalSlayer
+
+Fame=20000
+Karma=-20000
+Alignment=Evil
+
+Ability1=FrenziedRage	// 35% life. Deal 5sec "stunning force" hits
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=55,65
+ResFire=20,30
+ResCold=20,30
+ResPoison=45,55
+ResEnergy=25,35
+
+OStr={145 155}
+ODex={75 95}
+OInt={90 110}
+MaxHits={500 550}
+
+Wrestling=1200
+Tactics=1000
+MagicResistance=1000
+Parrying=1000
+
+On=@NPCRestock
+NewGold={2200 2600}
+
+On=@GetHit
+// Enraged Elemental Frenzied Rage Stats
+If (<Hits> <= <MulDiv <Hits>,35,100>)
+ OStr *= 20
+ ODex *= 4
+ OInt *= 3
+ Maxhits *= 6
+ Hits *= 6
+EndIf 
+
+On=@DeathCorpse
+NewItem=iFertileDirt,2
+NewItem=iMandrakeRoot,2
+NewItem=RandomCommonGem,2
+NewItem=RandomOre,{5 8}
+
+// Blackrock Elemental
+[CharDef cBlackrockElemental]
+ID=cEarthElemental
+Name=blackrock elemental
+Can=CanWalk
+MoveRate=100
+Dam=28
+Icon=iEarthElementalIcon
+Sound=sndEarthElemental1
+Resources=
+FoodType=tOre,tIngot,tGem,tRock,tDirt
+MaxFood=35
+Aversions=rCivilization
+Desires=tMagic
+BloodColor=hBlackrockHue
+
+Category=Monsters
+Subsection=Elementals
+Description=Blackrock Elemental
+
+On=@Create
+NPC=BrainMonster
+Color=hBlackrockHue
+SlayerSuper=ElementalSlayer
+
+Fame=20000
+Karma=-20000
+Alignment=Evil
+
+Ability1=AuraEnergyDamage
+Ability2=AuraLifeDrain
+ReflectPhysicDamage=50
+HitPointRegeneration=50
+
+DamPhysical=25
+DamFire=25
+DamCold=25
+DamPoison=0
+DamEnergy=25
+
+ResPhysical=65,75
+ResFire=45,55
+ResCold=55,65
+ResPoison=55,65
+ResEnergy=35,45
+
+OStr=300
+ODex=185
+OInt=150
+MaxHits={2400 2600}
+
+Wrestling=1200
+Tactics=1200
+MagicResistance=1200
+Parrying=1200
+Anatomy=1200
+
+On=@NPCRestock
+NewGold={2000 2500}
+
+On=@DeathCorpse
+NewItem=RandomCommonGem,2
+NewItem=RandomCommonGem,2
+
+On=@Kill
+Hits += <ArgO.MaxHits>
+If (<Hits> > <MaxHits>)
+ Hits=<MaxHits>
+EndIf
+
+// Fire Elemental
+[CharDef 0F]
+DefName=cFireElemental
+Name=fire elemental
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=7,9
+Icon=iFireElementalIcon
+Sound=sndFireElemental1
+Resources=0
+FoodType=tMagic
+MaxFood=35
+Aversions=rCivilization
+Desires=cFireElemental,tMagic
+BloodColor=0
+
+Category=Monsters
+Subsection=Elementals
+Description=Fire Elemental
+
+On=@Create
+NPC=BrainMonster
+SlayerSuper=ElementalSlayer|FlameSlayer
+SlayerLesser=FireElementalSlayer
+
+Fame=4500
+Karma=-4500
+Alignment=Evil
+
+DamPhysical=25
+DamFire=75
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=35,45
+ResFire=60,80
+ResCold=5,10
+ResPoison=30,40
+ResEnergy=30,40
+
+OStr={126 155}
+ODex={166 185}
+OInt={101 125}
+MaxHits={76 93}
+
+Wrestling={700 1000}
+Tactics={800 1000}
+MagicResistance={750 1050}
+Parrying={800 1000}
+Magery={600 750}
+EvaluatingIntel={600 750}
+
+ItemNewbie=iSpellbook
+AddSpell=7,1
+
+On=@NPCRestock
+NewGold={175 225}
+
+On=@DeathCorpse
+NewTMap=2
+NewItem=RandomCommonGem
+NewItem=iSulfurousAsh,3
+
+// Flame Elemental
+[CharDef cFlameElemental]
+ID=cFireElemental
+Name=flame elemental
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=13,15
+Icon=iFireElementalIcon
+Sound=sndFireElemental1
+Resources=0
+FoodType=tMagic
+MaxFood=35
+Aversions=rCivilization
+Desires=cFireElemental,tMagic
+BloodColor=0
+
+Category=Monsters
+Subsection=Elementals
+Description=Flame Elemental (Check Hue)
+
+On=@Create
+NPC=BrainDragon
+Color=hFireSteedHue	// Not sure.
+CanDefend=Can_D_Dispel
+SlayerSuper=ElementalSlayer|FlameSlayer
+SlayerLesser=FireElementalSlayer
+Breath.Type=
+Breath.Anim=
+Breath.Dam=
+Breath.Color=
+
+Fame=4500
+Karma=-4500
+Alignment=Evil
+
+Ability1=AutoDispel
+Ability2=FireAura
+
+DamPhysical=25
+DamFire=75
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=45,55
+ResFire=100
+ResCold=30,40
+ResPoison=60,70
+ResEnergy=60,70
+
+OStr={435 460}
+ODex={165 185}
+OInt={130 165}
+MaxHits={720 780}
+MaxMana={1130 1180}
+
+Wrestling={950 1100}
+Tactics={900 1100}
+MagicResistance={1100 1200}
+Parrying={900 1100}
+Magery={1000 1200}
+EvaluatingIntel={1100 1300}
+Meditation={800 1000}
+
+ItemNewbie=iSpellbook
+AddSpell=7,1
+
+On=@NPCRestock
+NewGold={450 600}
+
+On=@DeathCorpse
+NewItem=RandomCommonGem,{1 2}
+NewItem=iSulfurousAsh,3
+NewItem=iShameDungeonCrystal,1
+
+// Flame Elemental (Shame Guardian Level 2)
+[CharDef cFlameElementalGuardian]
+ID=cFireElemental
+Name=flame elemental
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=13,15
+Icon=iFireElementalIcon
+Sound=sndFireElemental1
+Resources=0
+FoodType=tMagic
+MaxFood=35
+Aversions=rCivilization
+Desires=cFireElemental,tMagic
+BloodColor=0
+
+Category=Monsters
+Subsection=Elementals: Shame Guardians
+Description=Flame Elemental (Check Hue) (Level 2)
+
+On=@Create
+NPC=BrainDragon
+Color=hFireSteedHue
+CanDefend=Can_D_Dispel
+SlayerSuper=ElementalSlayer|FlameSlayer
+SlayerLesser=FireElementalSlayer
+Breath.Type=
+Breath.Anim=
+Breath.Dam=
+Breath.Color=
+
+Fame=4500
+Karma=-4500
+Alignment=Evil
+
+Ability1=AutoDispel
+Ability2=FireAura
+
+DamPhysical=25
+DamFire=75
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=45,55
+ResFire=100
+ResCold=30,40
+ResPoison=60,70
+ResEnergy=60,70
+
+OStr={455 480}
+ODex={185 225}
+OInt={165 185}
+MaxHits={720 780}
+MaxMana={1330 1380}
+
+Wrestling={950 1100}
+Tactics={900 1100}
+MagicResistance={1100 1200}
+Parrying={900 1100}
+Magery={1000 1200}
+EvaluatingIntel={1100 1300}
+Meditation={800 1000}
+
+ItemNewbie=iSpellbook
+AddSpell=7,1
+
+On=@NPCRestock
+NewGold={500 900}
+
+On=@DeathCorpse
+NewItem=RandomCommonGem,{1 2}
+NewItem=iSulfurousAsh,3
+NewItem=iCorrosiveAsh,1
+
+// Water Elemental
+[CharDef 010]
+DefName=cWaterElemental
+Name=water elemental
+Can=CanWalk|CanUseHands|CanSwim
+MoveRate=100
+Dam=7,9
+Icon=iWaterElementalIcon
+Sound=sndWaterElemental1
+Resources=0
+FoodType=tMagic
+MaxFood=35
+Aversions=rCivilization
+Desires=cWaterElemental,tMagic
+BloodColor=hBlueHues
+
+Category=Monsters
+Subsection=Elementals
+Description=Water Elemental
+
+On=@Create
+NPC=BrainMonster
+SlayerSuper=ElementalSlayer
+SlayerLesser=WaterElementalSlayer
+
+Fame=4500
+Karma=-4500
+Alignment=Evil
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=35,45
+ResFire=15,25
+ResCold=10,25
+ResPoison=60,70
+ResEnergy=5,15
+
+OStr={126 155}
+ODex={66 85}
+OInt={101 125}
+MaxHits={76 93}
+
+Wrestling={500 700}
+Tactics={500 700}
+MagicResistance={1000 1150}
+Parrying={500 700}
+Magery={600 750}
+EvaluatingIntel={600 750}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={175 225}
+
+On=@DeathCorpse
+NewTMap=2
+NewItem=RandomPotion
+NewItem={RandomLowMageryScroll 1 RandomLowNecromancyScroll 1}
+NewItem=iAncientPotteryFragments,1,R19
+
+// Water Elemental (Shame)
+[CharDef cWaterElementalShame]
+ID=cWaterElemental
+Name=water elemental
+Can=CanWalk|CanUseHands|CanSwim
+MoveRate=100
+Dam=14,16
+Icon=iWaterElementalIcon
+Sound=sndWaterElemental1
+Resources=0
+FoodType=tMagic
+MaxFood=35
+Aversions=rCivilization
+Desires=cWaterElemental,tMagic
+BloodColor=hBlueHues
+
+Category=Monsters
+Subsection=Elementals
+Description=Water Elemental (Shame)
+
+On=@Create
+NPC=BrainMonster
+CanDefend=Can_D_Dispel
+SlayerSuper=ElementalSlayer
+SlayerLesser=WaterElementalSlayer
+
+Fame=4500
+Karma=-4500
+Alignment=Evil
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=35,45
+ResFire=15,25
+ResCold=10,25
+ResPoison=60,70
+ResEnergy=5,15
+
+OStr={445 495}
+ODex={150 155}
+OInt={120 140}
+MaxHits={545 595}
+MaxMana={620 640}
+
+Wrestling={900 1100}
+Tactics={900 1100}
+MagicResistance={1000 1250}
+Parrying={900 1100}
+Magery={900 1100}
+EvaluatingIntel={900 1100}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={400 600}
+
+On=@DeathCorpse
+NewTMap=2
+NewItem=RandomPotion
+NewItem=iBlackPearl,3
+NewItem={RandomLowMageryScroll 1 RandomLowNecromancyScroll 1}
+
+// Void Manifestation
+[CharDef cVoidManifestation]
+ID=cWaterElemental
+Name=void manifestation
+Can=CanWalk|CanUseHands|CanSwim
+MoveRate=100
+Dam=19,22
+Icon=iWaterElementalIcon
+Sound=sndWaterElemental1
+Resources=0
+FoodType=tMagic
+MaxFood=35
+Aversions=rCivilization
+Desires=tMagic
+BloodColor=0
+
+Category=Monsters
+Subsection=Elementals
+Description=Void Manifestation (Needs hue)
+
+On=@Create
+NPC=BrainMonster
+Color=
+SlayerSuper=ElementalSlayer
+//SlayerLesser=WaterElementalSlayer
+
+Fame=16000
+Karma=-16000
+Alignment=Evil
+
+DamPhysical=20
+DamFire=20
+DamCold=20
+DamPoison=20
+DamEnergy=20
+
+ResPhysical=65,75
+ResFire=60,70
+ResCold=70,80
+ResPoison=60,70
+ResEnergy=60,70
+
+OStr=500
+ODex=150
+OInt=105
+MaxHits=2400
+MaxStam=200
+MaxMana=10000
+
+Wrestling=1300
+Tactics=1300
+MagicResistance=1200
+Parrying=1300
+Magery=1300
+EvaluatingIntel=1300
+Meditation=1200
+Necromancy=1300
+SpiritSpeak=1200
+Mysticism=1300
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={1700 2000}
+
+On=@DeathCorpse
+NewTMap=2
+NewItem=RandomPotion
+NewItem={RandomLowMageryScroll 1 RandomLowNecromancyScroll 1}
+NewItem=iAncientPotteryFragments,1,R19
+NewItem={iVoidCrystalOfCorruptedArcaneEssence 1 iVoidCrystalOfCorruptedMysticalEssence 1 iVoidCrystalOfCorruptedSpiritualEssence 1},1,R19
+
+// Acid Elemental
+[CharDef 09E]
+DefName=cAcidElemental
+Name=acid elemental
+Can=CanWalk|CanUseHands|CanSwim
+MoveRate=100
+Dam=9,15
+Icon=iAcidElementalIcon
+Sound=sndWaterElemental1
+Resources=0
+FoodType=tMagic
+MaxFood=35
+Aversions=rCivilization
+Desires=cAcidElemental,tMagic
+BloodColor=hGreenHues
+TEvents=eAIAcidElemental
+
+Category=Monsters
+Subsection=Elementals
+Description=Acid Elemental
+
+On=@Create
+NPC=BrainMonster
+SlayerSuper=ElementalSlayer
+
+Fame=10000
+Karma=-10000
+Alignment=Evil
+
+DamPhysical=25
+DamFire=50
+DamCold=0
+DamPoison=0
+DamEnergy=25
+
+ResPhysical=45,55
+ResFire=40,50
+ResCold=20,30
+ResPoison=10,20
+ResEnergy=30,40
+
+OStr={325 355}
+ODex={65 85}
+OInt={270 295}
+MaxHits={195 213}
+
+Wrestling={700 900}
+Tactics={800 900}
+MagicResistance={600 750}
+Parrying={800 900}
+Magery={700 850}
+EvaluatingIntel={700 850}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={400 500}
+
+On=@DeathCorpse
+NewTMap=2
+NewItem=RandomPotion
+
+// Blood Elemental
+[CharDef 09F]
+DefName=cBloodElemental1
+Name=blood elemental
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=9,15
+Icon=iBloodElementalIcon
+Sound=sndWaterElemental1
+Resources=0
+FoodType=tMagic
+MaxFood=35
+Aversions=rCivilization
+Desires=cBloodElemental,tMagic
+BloodColor=0
+
+Category=Monsters
+Subsection=Elementals
+Description=Blood Elemental
+
+On=@Create
+NPC=BrainMonster
+SlayerSuper=ElementalSlayer
+SlayerLesser=BloodElementalSlayer
+
+Fame=12500
+Karma=-12500
+Alignment=Evil
+
+DamPhysical=0
+DamFire=0
+DamCold=0
+DamPoison=50
+DamEnergy=50
+
+ResPhysical=55,65
+ResFire=20,30
+ResCold=40,50
+ResPoison=50,60
+ResEnergy=30,40
+
+OStr={525 615}
+ODex={65 85}
+OInt={225 350}
+MaxHits={315 370}
+
+Wrestling={800 1000}
+Tactics={800 1000}
+MagicResistance={800 950}
+Parrying={800 1000}
+Magery={850 1000}
+EvaluatingIntel={850 1000}
+Meditation={100 500}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={700 900}
+
+On=@DeathCorpse
+NewTMap=5
+NewItem=RandomPotion
+NewItem={RandomNecromancyReagent 1 RandomMageryReagent 1},{7 11}
+NewItem={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1},1
+NewItem={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1},1
+NewItem={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1},1
+NewItem={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1},1
+NewItem={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1},1,R1
+NewItem={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1},1,R1
+
+// Blood Elemental (Old Hued Variant)
+[CharDef 0A0]
+DefName=cBloodElemental2
+Name=blood elemental
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=9,15
+Icon=iBloodElementalIcon
+Sound=sndWaterElemental1
+Resources=0
+FoodType=tMagic
+MaxFood=35
+Aversions=rCivilization
+Desires=cBloodElemental,tMagic
+BloodColor=0
+
+Category=Monsters
+Subsection=Elementals
+Description=Blood Elemental
+
+On=@Create
+NPC=BrainMonster
+SlayerSuper=ElementalSlayer
+SlayerLesser=BloodElementalSlayer
+
+Fame=12500
+Karma=-12500
+Alignment=Evil
+
+DamPhysical=0
+DamFire=0
+DamCold=0
+DamPoison=50
+DamEnergy=50
+
+ResPhysical=55,65
+ResFire=20,30
+ResCold=40,50
+ResPoison=50,60
+ResEnergy=30,40
+
+OStr={525 615}
+ODex={65 85}
+OInt={225 350}
+MaxHits={315 370}
+
+Wrestling={800 1000}
+Tactics={800 1000}
+MagicResistance={800 950}
+Parrying={800 1000}
+Magery={850 1000}
+EvaluatingIntel={850 1000}
+Meditation={100 500}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={700 900}
+
+On=@DeathCorpse
+NewTMap=5
+NewItem=RandomPotion
+NewItem={RandomNecromancyReagent 1 RandomMageryReagent 1},{7 11}
+NewItem={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1}
+NewItem={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1}
+NewItem={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1}
+NewItem={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1}
+NewItem={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1 0 2}
+NewItem={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1 0 2}
+
+// Blood Elemental  (Shame)
+[CharDef cBloodElementalShame]
+ID=cBloodElemental
+Name=blood elemental1
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=17,27
+Icon=iBloodElementalIcon
+Sound=sndWaterElemental1
+Resources=0
+FoodType=tMagic
+MaxFood=35
+Aversions=rCivilization
+Desires=cBloodElemental,tMagic
+BloodColor=0
+
+Category=Monsters
+Subsection=Elementals
+Description=Blood Elemental (Shame)
+
+On=@Create
+NPC=BrainMonster
+SlayerSuper=ElementalSlayer
+SlayerLesser=BloodElementalSlayer
+
+Fame=12500
+Karma=-12500
+Alignment=Evil
+
+DamPhysical=0
+DamFire=0
+DamCold=0
+DamPoison=50
+DamEnergy=50
+
+ResPhysical=55,65
+ResFire=40,50
+ResCold=40,50
+ResPoison=50,60
+ResEnergy=40,50
+
+OStr={525 615}
+ODex={65 85}
+OInt={225 350}
+MaxHits={1390 1450}
+MaxMana={900 1400}
+
+Wrestling={1000 1200}
+Tactics={1000 1200}
+MagicResistance={1000 1200}
+Parrying={1000 1200}
+Magery={850 1000}
+EvaluatingIntel={1000 1200}
+Meditation={1200 1400}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={6	00 800}
+
+On=@DeathCorpse
+NewTMap=5
+NewItem=RandomPotion
+NewItem={RandomNecromancyReagent 1 RandomMageryReagent 1},{7 11}
+NewItem={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1}
+NewItem={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1}
+NewItem={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1}
+NewItem={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1}
+NewItem={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1 0 2}
+NewItem={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1 0 2}
+NewItem=iShameDungeonCrystal
+
+// Diseased Blood Elemental
+[CharDef cDiseasedBloodElemental]
+ID=cBloodElemental1
+Name=diseased blood elemental
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=19,27
+Icon=iBloodElementalIcon
+Sound=sndWaterElemental1
+Resources=0
+FoodType=tMagic
+MaxFood=35
+Aversions=rCivilization
+Desires=cBloodElemental,tMagic
+BloodColor=0
+
+Category=Monsters
+Subsection=Elementals
+Description=Diseased Blood Elemental
+
+On=@Create
+NPC=BrainMonster
+Color=hRed1Hue
+CanDefend=Can_D_Dispel
+SlayerSuper=ElementalSlayer
+SlayerLesser=BloodElementalSlayer
+
+Fame=8500
+Karma=-8500
+Alignment=Evil
+
+DamPhysical=0
+DamFire=0
+DamCold=0
+DamPoison=50
+DamEnergy=50
+
+ResPhysical=65,75
+ResFire=55,65
+ResCold=50,60
+ResPoison=60,70
+ResEnergy=50,60
+
+OStr={665 725}
+ODex={65 85}
+OInt={300 375}
+MaxHits={2550 2750}
+MaxMana={1450 1550}
+
+Wrestling={1200 1400}
+Tactics={1200 1400}
+MagicResistance={1100 1300}
+Parrying={1200 1400}
+Poisoning=100.0
+Magery={1100 1300}
+EvaluatingIntel={1100 1300}
+Meditation={1350 1550}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={600 800}
+
+On=@DeathCorpse
+NewTMap=5
+NewItem=RandomPotion
+NewItem={RandomNecromancyReagent 1 RandomMageryReagent 1},{7 11}
+NewItem={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1}
+NewItem={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1}
+NewItem={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1}
+NewItem={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1}
+NewItem={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1 0 2}
+NewItem={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1 0 2}
+NewItem=iShameDungeonCrystal,1
+
+// Purifying Blood Elemental
+[CharDef cPurifyingBloodElemental]
+ID=cBloodElemental1
+Name=purifying blood elemental
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=17,27
+Icon=iBloodElementalIcon
+Sound=sndWaterElemental1
+Resources=0
+FoodType=tMagic
+MaxFood=35
+Aversions=rCivilization
+Desires=cBloodElemental,tMagic
+BloodColor=0
+
+Category=Monsters
+Subsection=Elementals
+Description=Purifying Blood Elemental
+
+On=@Create
+NPC=BrainMonster
+Color=054E
+SlayerSuper=ElementalSlayer
+SlayerLesser=BloodElementalSlayer
+
+Fame=12500
+Karma=-12500
+Alignment=Evil
+
+DamPhysical=50
+DamFire=0
+DamCold=30
+DamPoison=20
+DamEnergy=0
+
+ResPhysical=50,70
+ResFire=20,30
+ResCold=20,30
+ResPoison=55,65
+ResEnergy=60,70
+
+OStr={900 975}
+ODex={965 1000}
+OInt={825 950}
+MaxHits={3015 3070}
+MaxMana={100 120}
+
+Wrestling={800 1000}
+Tactics={800 1000}
+MagicResistance={800 950}
+Parrying={800 1000}
+Magery={850 1000}
+EvaluatingIntel={850 1000}
+Meditation={300 500}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={800 1000}
+
+On=@DeathCorpse
+NewTMap=5
+NewItem=RandomPotion
+NewItem={RandomNecromancyReagent 1 RandomMageryReagent 1},{7 11}
+NewItem={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1}
+NewItem={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1}
+NewItem={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1}
+NewItem={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1}
+NewItem={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1 0 2}
+NewItem={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1 0 2}
+NewItem=iSamplesOfPurifiedBlood
+
+// Ice Elemental
+[CharDef 0A1]
+DefName=cIceElemental
+Name=ice elemental
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=10,21
+Icon=iIceElementalIcon
+Sound=sndEarthElemental1
+Resources=0
+FoodType=tMagic
+MaxFood=35
+Aversions=rCivilization
+Desires=tMagic
+BloodColor=0
+
+Category=Monsters
+Subsection=Elementals
+Description=Ice Elemental
+
+On=@Create
+NPC=BrainMonster
+SlayerSuper=ElementalSlayer|IceSlayer
+SlayerLesser=SnowElementalSlayer
+
+Fame=4000
+Karma=-4000
+Alignment=Evil
+
+Ability1=IceAura	// 2 tiles
+
+DamPhysical=25
+DamFire=0
+DamCold=75
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=35,45
+ResFire=5,10
+ResCold=50,60
+ResPoison=20,30
+ResEnergy=20,30
+
+OStr={155 185}
+ODex={95 115}
+OInt={171 192}
+MaxHits={94 111}
+
+Wrestling={600 1000}
+Tactics={700 1000}
+MagicResistance={300 800}
+Parrying={700 1000}
+Magery={100 600}
+EvaluatingIntel={100 600}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={275 325}
+
+On=@DeathCorpse
+NewItem=RandomCommonGem,{1 2}
+NewItem=RandomCommonGem,{1 2}
+NewItem=RandomMageryReagent,{4 8}
+NewItem=RandomMageryReagent,{4 8}
+
+// Poison Elemental
+[CharDef 0A2]
+DefName=cPoisonElemental
+Name=poison elemental
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=12,18
+Icon=iPoisonElementalIcon
+Sound=sndAirElemental1
+Resources=0
+FoodType=tMagic
+MaxFood=35
+Aversions=rCivilization
+Desires=tMagic
+BloodColor=0
+
+Category=Monsters
+Subsection=Elementals
+Description=Poison Elemental
+
+On=@Create
+NPC=BrainMonster
+CanDefend=01F
+SlayerSuper=ElementalSlayer
+SlayerLesser=PoisonElementalSlayer
+
+Fame=12500
+Karma=-12500
+Alignment=Evil
+
+DamPhysical=10
+DamFire=0
+DamCold=0
+DamPoison=90
+DamEnergy=0
+
+ResPhysical=60,70
+ResFire=20,30
+ResCold=20,30
+ResPoison=100
+ResEnergy=40,50
+
+OStr={426 515}
+ODex={166 185}
+OInt={361 435}
+MaxHits={256 309}
+
+Wrestling={700 900}
+Tactics={800 1000}
+MagicResistance={850 1150}
+Parrying={800 1000}
+Poisoning={900 1000}
+Magery={800 950}
+EvaluatingIntel={800 950}
+Meditation={800 1200}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={750 950}
+
+On=@DeathCorpse
+NewTMap=5
+NewItem=iNightshade,4
+NewItem={RandomMediumNecromancyScroll 1 RandomMediumMageryScroll 1},1
+NewItem=iLesserPoisonPotion,1
+
+On=@Hit
+If !(<R9>)
+ Src.SpellEffect s_Poison,<Poisoning>,<UID>
+EndIf
+
+// Poison Elemental (Shame)
+[CharDef cPoisonElementalShame]
+ID=cPoisonElemental
+Name=poison elemental
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=16,19
+Icon=iPoisonElementalIcon
+Sound=sndAirElemental1
+Resources=0
+FoodType=tMagic
+MaxFood=35
+Aversions=rCivilization
+Desires=tMagic
+BloodColor=0
+
+Category=Monsters
+Subsection=Elementals
+Description=Poison Elemental (Shame)
+
+On=@Create
+NPC=BrainMonster
+Color=07C8
+CanDefend=01F
+SlayerSuper=ElementalSlayer
+SlayerLesser=PoisonElementalSlayer
+
+Fame=12500
+Karma=-12500
+Alignment=Evil
+
+DamPhysical=10
+DamFire=0
+DamCold=0
+DamPoison=90
+DamEnergy=0
+
+ResPhysical=60,70
+ResFire=50,60
+ResCold=45,55
+ResPoison=100
+ResEnergy=40,50
+
+OStr={426 515}
+ODex={166 185}
+OInt={360 435}
+MaxHits={960 1020}
+
+Wrestling={900 1200}
+Tactics={900 1200}
+MagicResistance={1000 1200}
+Parrying={900 1200}
+Poisoning={900 1000}
+Magery={900 1100}
+EvaluatingIntel={900 1100}
+Meditation={1000 1200}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={750 950}
+
+On=@DeathCorpse
+NewTMap=5
+NewItem=iNightshade,4
+NewItem={RandomMediumNecromancyScroll 1 RandomMediumMageryScroll 1}
+NewItem=iLesserPoisonPotion
+
+On=@Hit
+If !(<R9>)
+ Src.SpellEffect s_Poison,<Poisoning>,<UID>
+EndIf
+
+// Greater Poison Elemental
+[CharDef cGreaterPoisonElemental]
+ID=cPoisonElemental
+Name=poison elemental
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=12,18
+Icon=iPoisonElementalIcon
+Sound=sndAirElemental1
+Resources=0
+FoodType=tMagic
+MaxFood=35
+Aversions=rCivilization
+Desires=tMagic
+BloodColor=0
+
+Category=Monsters
+Subsection=Elementals
+Description=Greater Poison Elemental
+
+On=@Create
+NPC=BrainMonster
+Color=0591
+CanDefend=01F|CanDDispel
+SlayerSuper=ElementalSlayer
+SlayerLesser=PoisonElementalSlayer
+
+Fame=12500
+Karma=-12500
+Alignment=Evil
+
+DamPhysical=10
+DamFire=0
+DamCold=0
+DamPoison=90
+DamEnergy=0
+
+ResPhysical=60,70
+ResFire=20,30
+ResCold=20,30
+ResPoison=100
+ResEnergy=40,50
+
+OStr={650 780}
+ODex={180 200}
+OInt={530 640}
+MaxHits={660 760}
+
+Wrestling={700 900}
+Tactics={800 1000}
+MagicResistance={850 1150}
+Parrying={800 1000}
+Anatomy={0 200}
+Poisoning={1000 1200}
+Magery={950 1100}
+EvaluatingIntel={1000 1200}
+Meditation={1000 1200}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={1100 1300}
+
+On=@DeathCorpse
+NewTMap=5
+NewItem=iNightshade,4
+NewItem={RandomMediumNecromancyScroll 1 RandomMediumMageryScroll 1}
+NewItem=iLesserPoisonPotion
+NewItem=iAncientPotteryFragments,1,R19
+NewItem=iTatteredRemnantOfAnAncientScroll,1,R19
+
+On=@Hit
+If !(<R9>)
+ Src.SpellEffect s_Poison,<Poisoning>,<UID>
+EndIf
+
+// Snow Elemental
+[CharDef 0A3]
+DefName=cSnowElemental
+Name=snow elemental
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=11,17
+Icon=iSnowElementalIcon
+Sound=sndAirElemental1
+Resources=0
+FoodType=0
+MaxFood=35
+Aversions=rCivilization
+Desires=tMagic
+BloodColor=-1
+
+Category=Monsters
+Subsection=Elementals
+Description=Snow Elemental
+
+On=@Create
+NPC=BrainMonster
+SlayerSuper=ElementalSlayer
+SlayerLesser=SnowElementalSlayer
+
+Fame=5000
+Karma=-5000
+Alignment=Evil
+
+Ability1=FrostAura
+
+DamPhysical=20
+DamFire=0
+DamCold=80
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=45,55
+ResFire=10,15
+ResCold=60,70
+ResPoison=25,35
+ResEnergy=25,35
+
+OStr={326 355}
+ODex={166 185}
+OInt={71 95}
+MaxHits={196 213}
+
+Wrestling={800 1000}
+Tactics={800 1000}
+MagicResistance={500 650}
+Parrying={800 1000}
+
+On=@NPCRestock
+NewGold={250 350}
+
+On=@DeathCorpse
+NewTMap=2
+NewItem=iIronOre,3	// Medium
+NewItem=iBlackPearl,3
+
+// Efreet
+[CharDef 083]
+DefName=cEfreet
+Name=efreet
+Can=CanWalk|CanUseHands|CanFly
+MoveRate=100
+Dam=11,13
+Icon=iEfreetIcon
+Sound=sndAirElemental1
+Resources=0
+FoodType=0
+MaxFood=35
+Aversions=rCivilization
+Desires=cAirElemental,tMagic
+BloodColor=0
+
+Category=Monsters
+Subsection=Elementals
+Description=Efreet
+
+On=@Create
+NPC=BrainMonster
+SlayerSuper=ElementalSlayer
+
+Fame=10000
+Karma=-10000
+Alignment=Evil
+
+DamPhysical=0
+DamFire=50
+DamCold=0
+DamPoison=0
+DamEnergy=50
+
+ResPhysical=50,60
+ResFire=60,70
+ResCold=0
+ResPoison=30,40
+ResEnergy=40,50
+
+OStr={326 355}
+ODex={266 285}
+OInt={171 195}
+MaxHits={196 213}
+
+Wrestling={600 800}
+Tactics={600 800}
+MagicResistance={600 750}
+Parrying={600 800}
+Magery={600 750}
+EvaluatingIntel={600 750}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={400 500}
+
+On=@DeathCorpse
+NewTMap=4
+NewItem=RandomDaemonBoneArmor,1,R99
+
+// Sand Vortex
+[CharDef 0316]
+DefName=cSandVortex
+Name=sand vortex
+Can=CanWalk|CanUseHands|CanFly
+MoveRate=100
+Dam=3,16
+Icon=iSandVortexIcon
+Sound=sndAirElemental1
+Resources=0
+FoodType=tMagic
+MaxFood=35
+Aversions=rCivilization
+Desires=tMagic
+BloodColor=hYellowHues
+
+Category=Monsters
+Subsection=Elementals
+Description=Sand Vortex
+
+On=@Create
+NPC=BrainMonster
+SlayerSuper=ElementalSlayer
+Throw.Obj=
+Throw.Anim=
+Throw.Dam=<Dam.Min>,<Dam.Max>
+
+Fame=4500
+Karma=-4500
+Alignment=Evil
+
+DamPhysical=90
+DamFire=10
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=80,90
+ResFire=60,70
+ResCold=60,70
+ResPoison=60,70
+ResEnergy=60,70
+
+OStr={96 120}
+ODex={171 195}
+OInt={76 100}
+MaxHits={51 62}
+
+Wrestling=800
+Tactics=700
+MagicResistance=1500
+Parrying=700
+
+On=@NPCRestock
+NewGold={100 150}
+
+On=@DeathCorpse
+NewTMap=4
+NewItem=RandomBone,1
+NewItem=RandomBone,1
+
+// Crystal Elemental
+[CharDef 012C]
+DefName=cCrystalElemental
+Name=crystal elemental
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=10,15
+Icon=iCrystalElementalIcon
+Sound=sndCrystalElemental1
+Resources=0
+FoodType=tMagic
+MaxFood=35
+Aversions=rCivilization
+Desires=tMagic
+BloodColor=hYellowHues
+
+Category=Monsters
+Subsection=Elementals
+Description=Crystal Elemental
+
+On=@Create
+NPC=BrainMonster
+SlayerSuper=ElementalSlayer
+
+Fame=6500
+Karma=-6500
+Alignment=Evil
+
+Ability1=s_Bleed_Attack
+
+DamPhysical=80
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=20
+
+ResPhysical=50,60
+ResFire=40,50
+ResCold=40,50
+ResPoison=100
+ResEnergy=55,70
+
+OStr={136 160}
+ODex={51 65}
+OInt={86 110}
+MaxHits=150
+
+Wrestling={650 750}
+Tactics={750 850}
+MagicResistance={800 900}
+Parrying={750 850}
+Magery={700 750}
+EvaluatingIntel={700 750}
+Meditation={650 750}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={400 500}
+
+On=@DeathCorpse
+NewItem=RandomCommonGem,2
+NewItem=RandomCommonGem,2
+
+// Lava Elemental
+[CharDef 02D0]
+DefName=cLavaElemental
+Name=lava elemental
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=12,18
+Icon=iLavaElementalIcon
+Sound=sndLavaElemental1
+Resources=0
+FoodType=tMagic
+MaxFood=35
+Aversions=rCivilization
+Desires=tMagic
+BloodColor=0
+
+Category=Monsters
+Subsection=Elementals
+Description=Lava Elemental
+
+On=@Create
+NPC=BrainMonster
+Loyalty=20
+SlayerSuper=ElementalSlayer|FlamerSlayer
+
+Fame=12500
+Karma=-12500
+Alignment=Evil
+
+DamPhysical=10
+DamFire=90
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=60,70
+ResFire=20,30
+ResCold=20,30
+ResPoison=100
+ResEnergy=40,50
+
+OStr={440 510}
+ODex={170 195}
+OInt={365 410}
+MaxHits={264 300}
+
+Wrestling={700 900}
+Tactics={800 1000}
+MagicResistance={1000 1200}
+Parrying={800 1000}
+Magery={900 1000}
+EvaluatingIntel={800 1000}
+Meditation={900 1100}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={400 500}
+
+On=@DeathCorpse
+NewTMap=5
+NewItem=RandomCommonGem,2
+NewItem={RandomMediumNecromancyScroll 1 RandomMediumMageryScroll 1}
+NewItem=RandomReagent,{4 8}
+NewItem=RandomReagent,{4 8}
+NewItem=iLesserPoisonPotion,1
+NewItem=iLavaSerpentCrust,1,R19
+NewItem={iEssenceOfPrecision 1 iEssenceOfOrder 1 iEssenceOfPower 1},1,R19
+NewItem=iAncientPotteryFragments,1,R19
+NewItem=iTatteredRemnantsOfAnAncientScroll,1,R19
+
+// Kaze Kemono
+[CharDef 0C4]
+DefName=cKazeKemono
+Name=kaze kemono
+Can=CanWalk|CanUseHands|CanFly
+MoveRate=100
+Dam=15,20	//11,16 tweak down?
+Icon=iKazeKemonoIcon
+Sound=sndKazeKemono1
+Resources=0
+FoodType=tMagic
+MaxFood=35
+Aversions=rCivilization
+Desires=tMagic
+BloodColor=0
+
+Category=Monsters
+Subsection=Elementals
+Description=Kaze Kemono
+
+On=@Create
+NPC=BrainMonster
+SlayerSuper=ElementalSlayer
+
+Fame=8000
+Karma=-8000
+Alignment=Evil
+
+Ability1=FlurryOfTwigs; -15% ResPhysical for 5 seconds
+Ability2=ChlorophylBlast; -50% ResEnergy for 10 seconds
+
+DamPhysical=70
+DamFire=10
+DamCold=10
+DamPoison=10
+DamEnergy=0
+
+ResPhysical=50,70
+ResFire=30,60
+ResCold=30,60
+ResPoison=50,70
+ResEnergy=60,80
+
+OStr={205 275}
+ODex={100 155}
+OInt={100 110}
+MaxHits={250 310}
+
+Wrestling={850 950}
+Tactics={550 650}
+MagicResistance={1100 1200}
+Parrying={550 650}
+Anatomy={250 350}
+Magery={950 1050}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={550 650}
+
+On=@DeathCorpse
+NewItem=RandomCommonGem,2
+
+// Rai-Ju
+[CharDef 0C7]
+DefName=cRaiJu
+Name=rai-ju
+Can=CanWalk|CanUseHands|CanFly
+MoveRate=100
+Dam=12,15
+Icon=iRaiJuIcon
+Sound=sndRaiJu1
+Resources=0
+FoodType=tMagic
+MaxFood=35
+Aversions=rCivilization
+Desires=tMagic
+BloodColor=0
+
+Category=Monsters
+Subsection=Elementals
+Description=Rai-ju
+
+On=@Create
+NPC=BrainMonster
+SlayerSuper=ElementalSlayer
+
+Fame=8000
+Karma=-8000
+Alignment=Evil
+
+Ability1=LightningFist;35-65dam;100%EnergyDam,4s Stun
+
+DamPhysical=10
+DamFire=60
+DamCold=10
+DamPoison=10
+DamEnergy=10
+
+ResPhysical=45,65
+ResFire=70,85
+ResCold=30,60
+ResPoison=50,70
+ResEnergy=60,80
+
+OStr={155 225}
+ODex={85 135}
+OInt={175 180}
+MaxHits={200 280}
+
+Wrestling={850 950}
+Tactics={550 650}
+MagicResistance={1100 1200}
+Parrying={550 650}
+Anatomy={250 350}
+
+On=@NPCRestock
+NewGold={550 650}
+
+On=@DeathCorpse
+NewItem=RandomCommonGem,2
+
+// Dull Copper Elemental
+[CharDef 06E]
+DefName=cDullCopperElemental
+Name=dull copper elemental
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=9,16
+Icon=iDullCopperElementalIcon
+Sound=sndEarthElemental1
+Resources=0
+FoodType=tMagic
+MaxFood=35
+Aversions=rCivilization
+Desires=tMagic
+BloodColor=0
+TEvents=eAIDullCopperElemental
+
+Category=Monsters
+Subsection=Elementals: Ore Elementals
+Description=Dull Copper Elemental
+
+On=@Create
+NPC=BrainMonster
+CanDefend=0F
+SlayerSuper=ElementalSlayer
+SlayerLesser=EarthElementalSlayer
+
+Fame=3500
+Karma=-3500
+Alignment=Evil
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=30,40
+ResFire=30,40
+ResCold=10,20
+ResPoison=20,30
+ResEnergy=20,30
+
+OStr={225 255}
+ODex={125 145}
+OInt={70 92}
+MaxHits={135 153}
+
+Wrestling={600 1000}
+Tactics={600 1000}
+MagicResistance={500 950}
+Parrying={600 1000}
+
+On=@NPCRestock
+NewGold={125 175}
+
+On=@DeathCorpse
+NewTMap=1
+NewItem=iDullCopperOre,25	// Large
+Item=RandomCommonGem,2
+Item=iCrystallineBlackrock,1,R19
+
+// Shadow Iron Elemental
+[CharDef 06F]
+DefName=cShadowIronElemental
+Name=shadow iron elemental
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=9,16
+Icon=iShadowIronElementalIcon
+Sound=sndEarthElemental1
+Resources=0
+FoodType=tMagic
+MaxFood=35
+Aversions=rCivilization
+Desires=tMagic
+BloodColor=0
+TEvents=eAIShadowIronElemental
+
+Category=Monsters
+Subsection=Elementals: Ore Elementals
+Description=Shadow Iron Elemental
+
+On=@Create
+NPC=BrainMonster
+CanDefend=0F
+SlayerSuper=ElementalSlayer
+SlayerLesser=EarthElementalSlayer
+
+Fame=4500
+Karma=-4500
+Alignment=Evil
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=30,40
+ResFire=30,40
+ResCold=20,30
+ResPoison=10,20
+ResEnergy=30,40
+
+OStr={225 255}
+ODex={125 145}
+OInt={70 92}
+MaxHits={135 153}
+
+Wrestling={600 1000}
+Tactics={600 1000}
+MagicResistance={500 950}
+Parrying={600 1000}
+
+On=@NPCRestock
+NewGold={125 150}
+
+On=@DeathCorpse
+NewTMap=1
+NewItem=iShadowIronOre,25	// Large
+Item=RandomCommonGem,2
+Item=iCrystallineBlackrock,1,R19
+
+// Copper Elemental
+[CharDef 06D]
+DefName=cCopperElemental
+Name=copper elemental
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=9,16
+Icon=iCopperElementalIcon
+Sound=sndEarthElemental1
+Resources=0
+FoodType=tMagic
+MaxFood=35
+Aversions=rCivilization
+Desires=tMagic
+BloodColor=0
+TEvents=eAICopperElemental
+
+Category=Monsters
+Subsection=Elementals: Ore Elementals
+Description=Copper Elemental
+
+On=@Create
+NPC=BrainMonster
+CanDefend=0F
+SlayerSuper=ElementalSlayer
+SlayerLesser=EarthElementalSlayer
+
+Fame=3500
+Karma=-3500
+Alignment=Evil
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=30,40
+ResFire=30,40
+ResCold=30,40
+ResPoison=20,30
+ResEnergy=10,20
+
+OStr={225 255}
+ODex={125 145}
+OInt={70 92}
+MaxHits={135 153}
+
+Wrestling={600 1000}
+Tactics={600 1000}
+MagicResistance={500 950}
+Parrying={600 1000}
+
+On=@NPCRestock
+NewGold={125 175}
+
+On=@DeathCorpse
+NewTMap=1
+NewItem=iCopperOre,25	// Large
+Item=RandomCommonGem,2
+Item=iCrystallineBlackrock,1,R19
+
+// Bronze Elemental
+[CharDef 06C]
+DefName=cBronzeElemental
+Name=bronze elemental
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=9,16
+Icon=iBronzeElementalIcon
+Sound=sndEarthElemental1
+Resources=0
+FoodType=tMagic
+MaxFood=35
+Aversions=rCivilization
+Desires=tMagic
+BloodColor=0
+TEvents=eAIBronzeElemental
+
+Category=Monsters
+Subsection=Elementals: Ore Elementals
+Description=Bronze Elemental
+
+On=@Create
+NPC=BrainMonster
+CanDefend=0F
+SlayerSuper=ElementalSlayer
+SlayerLesser=EarthElementalSlayer
+
+Fame=5000
+Karma=-5000
+Alignment=Evil
+
+DamPhysical=30
+DamFire=70
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=30,40
+ResFire=30,40
+ResCold=10,20
+ResPoison=70,80
+ResEnergy=20,30
+
+OStr={225 255}
+ODex={125 145}
+OInt={70 92}
+MaxHits={135 153}
+
+Wrestling={600 1000}
+Tactics={600 1000}
+MagicResistance={500 950}
+Parrying={600 1000}
+
+On=@NPCRestock
+NewGold={125 175}
+
+On=@DeathCorpse
+NewTMap=1
+NewItem=iBronzeOre,25	// Large
+Item=RandomCommonGem,2
+Item=iCrystallineBlackrock,1,R19
+
+// Golden Elemental
+[CharDef 0A6]
+DefName=cGoldenElemental
+Name=golden elemental
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=9,16
+Icon=iGoldenElementalIcon
+Sound=sndEarthElemental1
+Resources=0
+FoodType=tMagic
+MaxFood=35
+Aversions=rCivilization
+Desires=tMagic
+BloodColor=0
+
+Category=Monsters
+Subsection=Elementals: Ore Elementals
+Description=Golden Elemental
+
+On=@Create
+NPC=BrainMonster
+CanDefend=0F
+SlayerSuper=ElementalSlayer
+SlayerLesser=EarthElementalSlayer
+
+Fame=3500
+Karma=-3500
+Alignment=Evil
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=60,75
+ResFire=10,20
+ResCold=30,40
+ResPoison=30,40
+ResEnergy=30,40
+
+OStr={225 255}
+ODex={125 145}
+OInt={70 92}
+MaxHits={135 153}
+
+Wrestling={600 1000}
+Tactics={600 1000}
+MagicResistance={500 950}
+Parrying={600 1000}
+
+On=@NPCRestock
+NewGold={125 175}
+
+On=@DeathCorpse
+NewTMap=1
+NewItem=iGoldOre,25	// Large
+Item=RandomCommonGem,2
+Item=iCrystallineBlackrock,1,R19
+
+// Agapite Elemental
+[CharDef 06B]
+DefName=cAgapiteElemental
+Name=agapite elemental
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=28
+Icon=iAgapiteElementalIcon
+Sound=sndEarthElemental1
+Resources=0
+FoodType=tMagic
+MaxFood=35
+Aversions=rCivilization
+Desires=tMagic
+BloodColor=0
+
+Category=Monsters
+Subsection=Elementals: Ore Elementals
+Description=Agapite Elemental
+
+On=@Create
+NPC=BrainMonster
+CanDefend=0F
+SlayerSuper=ElementalSlayer
+SlayerLesser=EarthElementalSlayer
+
+Fame=3500
+Karma=-3500
+Alignment=Evil
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=30,40
+ResFire=40,50
+ResCold=40,50
+ResPoison=30,40
+ResEnergy=10,20
+
+OStr={225 255}
+ODex={125 145}
+OInt={70 92}
+MaxHits={135 153}
+
+Wrestling={600 1000}
+Tactics={600 1000}
+MagicResistance={500 950}
+Parrying={600 1000}
+
+On=@NPCRestock
+NewGold={125 175}
+
+On=@DeathCorpse
+NewTMap=1
+NewItem=iAgapiteOre,25	// Large
+Item=RandomCommonGem,2
+Item=iCrystallineBlackrock,1,R19
+
+// Verite Elemental
+[CharDef 071]
+DefName=cVeriteElemental
+Name=verite elemental
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=9,16
+Icon=iVeriteElementalIcon
+Sound=sndEarthElemental1
+Resources=0
+FoodType=tMagic
+MaxFood=35
+Aversions=rCivilization
+Desires=tMagic
+BloodColor=0
+TEvents=eAIVeriteElemental
+
+Category=Monsters
+Subsection=Elementals: Ore Elementals
+Description=Verite Elemental
+
+On=@Create
+NPC=BrainMonster
+CanDefend=0F
+SlayerSuper=ElementalSlayer
+SlayerLesser=EarthElementalSlayer
+
+Fame=3500
+Karma=-3500
+Alignment=Evil
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=30,40
+ResFire=10,20
+ResCold=50,60
+ResPoison=50,60
+ResEnergy=50,60
+
+OStr={225 255}
+ODex={125 145}
+OInt={70 92}
+MaxHits={135 153}
+
+Wrestling={600 1000}
+Tactics={600 1000}
+MagicResistance={500 950}
+Parrying={600 1000}
+
+On=@NPCRestock
+NewGold={125 175}
+
+On=@DeathCorpse
+NewTMap=1
+NewItem=iVeriteOre,25	// Large
+Item=RandomCommonGem,2
+Item=iCrystallineBlackrock,1,R19
+
+// Valorite Elemental
+[CharDef 070]
+DefName=cValoriteElemental
+Name=valorite elemental
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=28
+Icon=iValoriteElementalIcon
+Sound=sndEarthElemental1
+Resources=0
+FoodType=tMagic
+MaxFood=35
+Aversions=rCivilization
+Desires=tMagic
+BloodColor=0
+TEvents=eAIValoriteElemental
+
+Category=Monsters
+Subsection=Elementals: Ore Elementals
+Description=Valorite Elemental
+
+On=@Create
+NPC=BrainMonster
+CanDefend=0F
+SlayerSuper=ElementalSlayer
+SlayerLesser=EarthElementalSlayer
+
+Fame=3500
+Karma=-3500
+Alignment=Evil
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=65,75
+ResFire=50,60
+ResCold=50,60
+ResPoison=50,60
+ResEnergy=40,50
+
+OStr={225 255}
+ODex={125 145}
+OInt={70 92}
+MaxHits={135 153}
+
+Wrestling={600 1000}
+Tactics={600 1000}
+MagicResistance={500 950}
+Parrying={600 1000}
+
+On=@NPCRestock
+NewGold={125 175}
+
+On=@DeathCorpse
+NewTMap=1
+NewItem=iValoriteOre,25	// Large
+Item=RandomCommonGem,2
+Item=iCrystallineBlackrock,1,R19
+
+// Infernus
+// Champion Spawn (Water Elemental in appearance, just hued)
+// Sphere: Rai Ju?
+[CharDef cInfernus]
+ID=cWaterElemental
+Name=infernus
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=11,14
+Icon=iInfernusIcon
+Sound=sndWaterElemental1
+Resources=0
+FoodType=tMeat
+MaxFood=35
+Aversions=tWater,rCivilization
+Desires=rlava,rJungle,tlava,tfire
+BloodColor=0
+
+Category=Monsters
+SubsectiOn=Elementals: Fire
+DescriptiOn=Infernus (Needs hue)
+
+On=@Create
+NPC=BrainMonster
+SlayerSuper=ElementalSlayer|EodonSlayer|FlameSlayer
+SlayerLesser=FireElementalSlayer        // ??? Might be water
+
+Fame=10000
+Karma=-10000
+Alignment=Evil
+
+Ability1=
+
+DamPhysical=0
+DamFire=100
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=45,55
+ResFire=80,90
+ResCold=25,35
+ResPoison=40,50
+ResEnergy=35,45
+
+OStr={300 400}
+ODex={95 115}
+OInt={180 280}
+MaxHits={200 250}
+
+Wrestling={650 800}
+Tactics={550 700}
+MagicResistance={900 1000}
+Parrying={550 700}
+
+On=@NPCRestock
+NewGold={500 600}
+
+[EOF]

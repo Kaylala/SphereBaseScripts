@@ -1,0 +1,267 @@
+// Yomotsu Elder
+// Yomotsu Mines
+[CharDef 255]
+DefName=cYomotsuElder
+Name=yomotsu elder
+Can=CanMale|CanWalk|CanUseHands
+MoveRate=100
+Dam=19,27
+Icon=iYomotsuElderIcon
+Sound=0452
+Resources=1 iCutofRawRibs
+FoodType=tFish,tFruit
+MaxFood=35
+Aversions=rCivilization,tTrap
+Desires=iGourd,tGold
+BloodColor=0
+TEvents=
+
+Category=Monsters
+Subsection=Yomotsu
+Description=Yomotsu Elder
+
+On=@Create
+NPC=BrainMonster
+CanDefend=0
+SoundSet=0452,042A,0435,0436,043A
+
+Fame=12000
+Karma=-12000
+Alignment=Evil,Grey
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=65,85
+ResFire=30,50
+ResCold=45,65
+ResPoison=35,55
+ResEnergy=25,50
+
+OStr={695 825}
+ODex={250 365}
+OInt={15 40}
+MaxHits={820 895}
+
+Wrestling={1100 1300}
+Tactics={1150 1300}
+MagicResistance={1000 1150}
+Anatomy={1150 1300}
+Parrying={1150 1300}
+
+On=@Hit
+If !(<R4>)
+ DoRand 2
+  Begin
+   If (<Mana> >= 10)
+    SpellEffect s_LightningStrike,<Tactics>,<UID>
+   EndIf
+  End
+  Begin
+   If (<Mana> >= 30)
+    Src.SpellEffect s_ParalyzingBlow,<Tactics>,<Src.UID>
+    Src.SMsgLoc -1,1070840	// You are frozen as the creature laughs maniacally.
+   EndIf
+  End
+ EndDo
+EndIf
+
+On=@GetHit
+If (<Src.Action> == Skill_Archery)
+ If !(<R4>)
+  TrySrc <Src> Effect 1,iExecutionersAxe,1,16,0,0,
+  Src.Damage {<Dam.Min> <Dam.Max>},DamGod,<Src.UID>
+ EndIf
+EndIf
+
+On=@NPCRestock
+NewGold={1500 1800}
+
+On=@DeathCorpse
+ArgO.Name="a wrinkly yomotsu corpse"
+NewItem=iGourd,1
+NewItem=RandomPants,1
+NewItem=RandomFootwear,1
+NewItem=RandomCommonGem,2
+NewItem=iExecutionersAxe,1
+NewItem=RandomProvision,1
+NewItem=RandomBonsaiSeed,1,R9
+
+[CharDef 253]
+DefName=cYomotsuPriest
+Name=yomotsu priest
+Can=CanMale|CanWalk|CanUseHands
+MoveRate=100
+Dam=8,10
+Icon=iYomotsuPriestIcon
+Sound=0452
+Resources=1 iCutOfRawRibs
+FoodType=tFish
+MaxFood=35
+Aversions=rCivilization,tTrap
+Desires=iGourd,tGold
+BloodColor=0
+TEvents=
+
+Category=Monsters
+Subsection=Yomotsu
+Description=Yomotsu Priest
+
+On=@Create
+NPC=BrainMonster
+CanDefend=0
+SoundSet=0452,042A,0435,0436,043A
+
+Fame=9000
+Karma=-9000
+Alignment=Evil,Grey
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=65,85
+ResFire=30,50
+ResCold=45,65
+ResPoison=35,55
+ResEnergy=25,50
+
+OStr={480 530}
+ODex={100 115}
+OInt={600 670}
+MaxHits={480 530}
+
+Wrestling={480 580}
+Tactics={550 600}
+MagicResistance={1120 1220}
+Magery={1050 1150}
+EvaluatingIntel={930 1080}
+Meditation={950 1100}
+Parrying={550 600}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@Hit
+If !(<R4>) && (<Mana> >= 10)
+ SpellEffect s_LightningStrike,<Tactics>,<UID>
+EndIf
+
+On=@NPCActFight
+If !(<R10>)
+ If (<Body> == cYomotsuPriest)
+  Body={cDeathwatchBeetle 1 cDeathwatchBeetleHatchling 1 cRuneBeetle 1 cKappa 1 cRaiJu 1 cKazeKemono 1 cYomotsuWarrior 1 cYomotsuElder 1 cCrane 1 cRevenantLion 1 cLadyoftheSnow 1 cFanDancer 1 cReptalon 1 cHiryu 1 cLesserHiryu 1 cOni 1 cYamandon 1 cFireBeetle 1}
+ Else
+  Body=cYomotsuPriest
+ EndIf
+ UpdateX
+EndIf
+
+On=@NPCRestock
+NewGold={700 1000}
+
+On=@DeathCorpse
+ArgO.Name="a glowing yomotsu corpse"
+NewItem=iGourd,1
+NewItem=RandomPants,1
+NewItem=RandomFootwear,1
+NewItem=RandomCommonGem,2
+NewItem=RandomCommonGem,2
+NewItem=iExecutionersAxe,1
+NewItem=RandomProvision,1
+NewItem=RandomBonsaiSeed,1,<R9>
+
+[CharDef 245]
+DefName=cYomotsuwarrior
+Name=yomotsu warrior
+Can=CanMale|CanWalk|CanUseHands
+MoveRate=100
+Dam=8,10
+Icon=iYomotsuWarriorIcon
+Sound=0452
+Resources=1 iCutofRawRibs
+FoodType=iGourd,tFish
+MaxFood=35
+Aversions=rCivilization,tTrap
+Desires=iGourd,tGold
+BloodColor=0
+TEvents=
+
+Category=Monsters
+Subsection=Yomotsu
+Description=Yomotsu Warrior
+
+On=@Create
+NPC=BrainMonster
+CanDefend=0
+SoundSet=0452,042A,0435,0436,043A
+
+Fame=4200
+Karma=-4200
+Alignment=Evil,Grey
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=65,85
+ResFire=30,50
+ResCold=45,65
+ResPoison=40,55
+ResEnergy=30,50
+
+OStr={480 530}
+ODex={150 165}
+OInt={15 35}
+MaxHits={480 530}
+
+Wrestling={980 1080}
+Tactics={950 1050}
+MagicResistance={800 900}
+Anatomy={850 950}
+Parrying={950 1050}
+
+On=@Hit
+If !(<R4>)
+ DoRand 2
+  Begin
+   If (<Mana> >= 10)
+    SpellEffect s_LightningStrike,<Tactics>,<UID>
+   EndIf
+  End
+  Begin
+   If (<Mana> >= 30)
+    Src.SpellEffect s_ParalyzingBlow,<Tactics>,<Src.UID>
+    Src.SMsgLoc -1,1070840	// You are frozen as the creature laughs maniacally.
+   EndIf
+  End
+ EndDo
+EndIf
+
+On=@GetHit
+If (<Src.Action> == Skill_Archery)
+ If !(<R4>)
+  TrySrc <Src> Effect 1,iDagger,1,16,0,0,
+  Src.Damage {<Dam.Min> <Dam.Max>},DamGod,<Src.UID>
+ EndIf
+EndIf
+
+On=@NPCRestock
+NewGold={600 700}
+
+On=@DeathCorpse
+NewTMap=3
+NewItem=iGourd,1
+NewItem=RandomPants,1
+NewItem=RandomFootwear,1
+NewItem=RandomGem,2
+NewItem=iExecutionersAxe,1
+NewItem=RandomProvision,1
+NewItem=RandomBonsaiSeed,1,<R9>

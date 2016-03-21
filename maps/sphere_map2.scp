@@ -1,0 +1,667 @@
+﻿//****************************************************************************
+// SPHERE by : Menasoft ©1997-2014
+// www.sphereserver.net
+// All SPHERE script files and formats are copyright Menasoft & Partners.
+// This file may be freely edited for personal use, but may not be distributed
+// in whole or in part, in any format without express written permission from
+// Menasoft & Partners.  All donations and contributions
+// become the property of Menasoft & Partners.
+//****************************************************************************
+// FILE LAST UPDATED: Saturday, Sept 6, 2014
+//
+VERSION=0.56c
+
+[COMMENT sphere_map2]
+Ilshenar
+MAP2=2304,1600,-1,2,2	//900 sectors of size 64x64
+
+
+////////////////////////////////////////
+// Facet
+////////////////////////////////////////
+
+[AreaDef aIlshenar]
+Name=Ilshenar
+P=930,641,-80,2
+Rect=0,0,2299,1599,2
+Group=Ilshenar: ALLMAP
+Flags=RegionFlagNoBuilding|RegionAntiMagicRecallIn|RegionAntiMagicGate
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+////////////////////////////////////////
+// Cities and nearby regions
+////////////////////////////////////////
+
+[AreaDef aIlshenarVerLorReg]
+Name=Ver Lor Reg
+P=840,571,0,2
+Rect=824,552,856,728,2
+Rect=752,576,824,704,2
+Rect=856,576,896,704,2
+Rect=904,624,928,656,2
+Group=Ilshenar: Ilshenar Towns
+Flags=RegionFlagNoBuilding|RegionFlagGuarded
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarMistas]
+Name=Mistas
+P=818,1073,-30,2
+Rect=744,984,912,1152,2
+Rect=744,1152,792,1176,2
+Group=Ilshenar: Mistas
+Flags=RegionFlagNoBuilding
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+////////////////////////////////////////
+// Misc
+////////////////////////////////////////
+
+[AreaDef aIlshenarEntranceToCentralIlshenar1]
+Name=Entrance to Central Ilshenar 1
+P=1141,594,-80,2
+Rect=1136,584,1152,600,2
+Group=Ilshenar: Ilshenar Dungeons
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarEntranceToCentralIlshenar2]
+Name=Entrance to Central Ilshenar 2
+P=1238,583,-19,2
+Rect=1232,576,1240,592,2
+Group=Ilshenar: Ilshenar Misc
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarTerortSkitas]
+Name=Terort Skitas
+P=568,430,41,2
+Rect=528,376,624,464,2
+Group=Ilshenar: Ilshenar Towns
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarPormirHarm]
+Name=Pormir Harm
+P=745,492,-66,2
+Rect=736,480,768,504,2
+Group=Ilshenar: Pormir Harm
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.Music=midiStones1
+
+[AreaDef aIlshenarPormirFelwis]
+Name=Pormir Felwis
+P=472,352,-78,2
+Rect=472,336,512,368,2
+Group=Ilshenar: Pormir Felwis
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarCyclopsTemple]
+Name=Cyclops Temple
+P=901,1297,-71,2
+Rect=880,1256,936,1368,2
+Group=Ilshenar: Cyclops Temple
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarRatFort]
+Name=Rat Fort
+P=642,845,-58,2
+Rect=616,792,672,848,2
+Group=Ilshenar: Rat Fort
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarRatFortCellar]
+Name=Rat Fort Cellar
+P=171,750,-28,2
+Rect=160,736,192,768,2
+Group=Ilshenar: Rat Fort
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarMontor]
+Name=Montor
+P=1648,320,0,2
+Rect=1576,272,1720,368,2
+Rect=1616,200,1696,272,2
+Rect=1696,144,1736,272,2
+Rect=1736,144,1768,208,2
+Group=Ilshenar: Montor
+Flags=RegionFlagNoBuilding
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarMontorAbyss]
+Name=Abyss
+P=1729,173,103,2
+Rect=1724,159,1763,192,2
+Group=Ilshenar: Montor
+Flags=RegionFlagNoBuilding
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenArtermirFlam]
+Name=Termir Flam
+P=1636,432,0,2
+Rect=1520,368,1752,496,2
+Rect=1520,296,1576,368,2
+Rect=1752,440,1776,480,2
+Group=Ilshenar: Third Dawn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarAncientCitadel]
+Name=Ancient Citadel
+P=1518,568,-14,2
+Rect=1488,502,1547,578,2
+Group=Ilshenar: Ilshenar Towns
+Flags=RegionFlagNoBuilding
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarAlexandrettaBowl]
+Name=Alexandretta's Bowl
+P=1396,432,-17,2
+Rect=1272,352,1440,592,2
+Group=Ilshenar: Ilshenar Towns
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarLenmirAnfinmotas]
+Name=Lenmir Anfinmotas
+P=1673,876,-25,2
+Rect=1560,792,1792,912,2
+CLASS=5
+Group=Ilshenar: Ilshenar Towns
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarTwinOaks]
+Name=Twin Oaks
+P=1560,1052,0,2
+Rect=1536,1032,1584,1072,2
+Group=Ilshenar: Third Dawn Towns
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarRegVolon]
+Name=Reg Volon
+P=1364,1056,0,2
+Rect=1328,1008,1408,1120,2
+Group=Ilshenar: Third Dawn Towns
+Flags=RegionFlagNoBuilding
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarLakeShire]
+Name=Lake Shire
+P=1212,1144,-25,2
+Rect=1144,1072,1264,1200,2
+Group=Ilshenar: Lake Shire
+Flags=RegionFlagNoBuilding
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarBetlemReg]
+Name=Bet-Lem Reg
+P=1238,974,-33,2
+Rect=1232,936,1272,984,2
+Group=Ilshenar: Bet-Lem Reg
+Flags=RegionFlagNoBuilding
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarSerpentinePassage]
+Name=Serpentine Passage
+P=533,1526,-25,2
+Rect=368,1488,560,1592,2
+Group=Ilshenar: Ankh Dungeon
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarKiRinPassage]
+Name=Ki-Rin passage
+P=11,881,-29,2
+Rect=0,800,192,1200,2
+Group=Ilshenar: Ankh Dungeon
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarLizardsPassageEntrance]
+Name=Lizards Passage Entrance
+P=314,1331,-37,2
+Rect=312,1328,320,1336,2
+Group=Ilshenar: Ilshenar Dungeons
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarLizardPassage]
+Name=Lizard Passage
+P=285,1585,-27,2
+Rect=256,1560,336,1592,2
+Group=Ilshenar: UOTD Dungeons
+Flags=RegionFlagUnderground|RegionFlagNoBuilding|RegionAntiMagicRecallIn|RegionAntiMagicGate
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarLizardmanHuts]
+Name=Lizardman's Huts
+P=298,1336,-24,2
+Rect=264,1280,320,1376,2
+Group=Ilshenar: Lizard Man's Huts
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarNoxTereg]
+Name=Nox Tereg
+P=416,1176,0,2
+Rect=344,1112,488,1240,2
+Group=Ilshenar: Nox Tereg
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarAncientLairEntrance]
+Name=Ancient Lair Entrance
+P=940,503,-30,2
+Rect=936,488,944,496,2
+Group=Ilshenar: Ancient Lair
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarAncientLair]
+Name=Ancient Lair
+P=86,744,-27,2
+Rect=24,664,136,760,2
+Group=Ilshenar: Ancient Lair
+Flags=RegionFlagUnderground|RegionFlagNoBuilding|RegionAntiMagicRecallIn|RegionAntiMagicGate
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarSavageVillage]
+Name=Savage Village
+P=1248,724,0,2
+Rect=1192,656,1304,792,2
+Group=Ilshenar: Third Dawn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarGypsyCamp1]
+Name=Gypsy Camp 1
+P=948,428,0,2
+Rect=928,408,968,448,2
+Group=Ilshenar: Ilshenar Gypsy Camp
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarGypsyCamp2]
+Name=Gypsy Camp 2
+P=860,464,0,2
+Rect=840,440,880,488,2
+Group=Ilshenar: Ilshenar Gypsy Camp
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarGypsyCamp3]
+Name=Gypsy Camp 3
+P=1228,544,0,2
+Rect=1216,520,1240,568,2
+Rect=1248,568,1264,592,2
+Group=Ilshenar: Ilshenar Gypsy Camp
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarGypsyCamp4]
+Name=Gypsy Camp 4
+P=1392,432,0,2
+Rect=1376,416,1408,448,2
+Group=Ilshenar: Ilshenar Gypsy Camp
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarGypsyCamp5]
+Name=Gypsy Camp 5
+P=504,536,-60,2
+Rect=480,520,536,568,2
+Group=Ilshenar: Ilshenar Gypsy Camp
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarGypsyCamp6]
+Name=Gypsy Camp 6
+P=1508,620,0,2
+Rect=1480,600,1536,640,2
+Group=Ilshenar: Ilshenar Gypsy Camp
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarGypsyCamp7]
+Name=Gypsy Camp 7
+P=1612,548,0,2
+Rect=1592,528,1632,568,2
+Group=Ilshenar: Ilshenar Gypsy Camp
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarLordBlackthornsCastle]
+Name=Lord Blackthorn's Castle
+P=1084,652,0,2
+Rect=1048,616,1120,688,2
+Rect=1080,688,1104,712,2
+Flags=RegionFlagNoBuilding
+Group=Ilshenar: Third Dawn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarPassOfKarnaugh]
+Name=Pass of Karnaugh
+P=908,312,0,2
+Rect=848,288,968,336,2
+Rect=936,232,968,288,2
+Rect=968,248,1088,304,2
+Rect=1000,304,1024,320,2
+Rect=1048,304,1184,360,2
+Rect=1184,336,1248,392,2
+Group=Ilshenar: Third Dawn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarPassageToCentralIlshenar]
+Name=Passage to Central Ilshenar
+P=710,668,-39,2
+Rect=704,668,717,670,2
+Group=Ilshenar: Ilshenar Passage
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarPassage]
+Name=Passage
+P=915,451,-80,2
+Rect=912,448,920,456,2
+Group=Ilshenar: Ilshenar Passage
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarEvilMageOutpost]
+Name=Evil Mage Outpost
+P=664,679,-35,2
+Rect=656,648,680,680,2
+Group=Ilshenar: Ilshenar Unknown
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarLizardsAltar]
+Name=Lizards Altar
+P=228,1356,-12,2
+Rect=200,1328,256,1384,2
+Group=Ilshenar: Ilshenar Mountain
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarPassageToBloodDungeon]
+Name=Passage to Blood Dungeon
+P=1748,1212,-1,2
+Rect=1712,1176,1784,1248,2
+Group=Ilshenar: Ilshenar Dungeon
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarDesertOutpost]
+Name=Desert Outpost
+P=1620,596,0,2
+Rect=1487,587,1550,690,2
+Rect=1750,506,1550,690,2
+Flags=080
+Group=Ilshenar: Ilshenar
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarMeerCatacombs]
+Name=Meer Catacombs
+P=1788,75,-28,2
+Rect=1750,38,1824,96,2
+Flags=080
+Group=Ilshenar: Ilshenar Dungeon
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarSpiderCave]
+Name=Spider Cave
+P=1785,991,-28,2
+Rect=1752,952,1864,1000,2
+Group=Ilshenar: Dungeons
+Flags=RegionFlagUnderground|RegionFlagNoBuilding|RegionAntiMagicRecallIn|RegionAntiMagicGate
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarSpiderValley]
+Name=Spider Valley
+P=1491,880,10,2
+Rect=1480,864,1528,896,2
+Group=Ilshenar: Spider Cave
+Flags=RegionFlagUnderground|RegionFlagNoBuilding|RegionAntiMagicRecallIn|RegionAntiMagicGate
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarRatmanCaveLevel1]
+Name=Ratman Cave Level 1
+P=1348,1511,-3,2
+Rect=1264,1448,1360,1576,2
+Group=Ilshenar: Ratman Cave
+Flags=RegionFlagUnderground|RegionFlagNoBuilding|RegionAntiMagicRecallIn|RegionAntiMagicGate
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarRatmanCaveLevel2]
+Name=Ratman Cave level 2
+P=1246,1510,-28,2
+Rect=1152,1456,1256,1560,2
+Group=Ilshenar: Ratman Cave
+Flags=RegionFlagUnderground|RegionFlagNoBuilding|RegionAntiMagicRecallIn|RegionAntiMagicGate
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+////////////////////////////////////////
+// Dungeons
+////////////////////////////////////////
+
+[AreaDef aIlshenarRockDungeonLevel1]
+Name=Rock Dungeon Level 1
+P=2187,316,-7,2
+Rect=2176,288,2200,328,2
+Group=Ilshenar: Rock Dungeon
+Flags=RegionFlagUnderground|RegionFlagNoBuilding|RegionAntiMagicRecallIn|RegionAntiMagicGate
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarRockDungeonLevel2]
+Name=Rock Dungeon Level 2
+P=2188,31,-27,2
+Rect=2088,8,2248,184,2
+Group=Ilshenar: Rock Dungeon
+Flags=RegionFlagUnderground|RegionFlagNoBuilding|RegionAntiMagicRecallIn|RegionAntiMagicGate
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarSpectreDungeon]
+Name=Spectre Dungeon
+P=1983,1107,-18,2
+Rect=1936,1000,2032,1120,2
+Group=Ilshenar: Spectre Dungeon
+Flags=RegionFlagUnderground|RegionFlagNoBuilding|RegionAntiMagicRecallIn|RegionAntiMagicGate
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarBloodDungeonEntrance]
+Name=Blood Dungeon Entrance
+P=1747,1227,-1,2
+Rect=1736,1224,1760,1240,2
+Group=Ilshenar: Blood Dungeon
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarBloodDungeon]
+Name=Blood Dungeon
+P=2114,839,-28,2
+Rect=2032,808,2200,1064,2
+Group=Ilshenar: Blood Dungeon
+Flags=RegionFlagUnderground|RegionFlagNoBuilding|RegionAntiMagicRecallIn|RegionAntiMagicGate
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarAnkhDungeon]
+Name=Ankh Dungeon
+P=156,1484,-28,2
+Rect=0,1248,176,1592,2
+Group=Ilshenar: Ankh Dungeon
+Flags=RegionFlagUnderground|RegionFlagNoBuilding|RegionAntiMagicRecallIn|RegionAntiMagicGate
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarWispDungeonEntrance]
+Name=Wisp Dungeon Entrance
+P=651,1302,-58,2
+Rect=648,1296,656,1304,2
+Group=Ilshenar: Wisp Dungeon
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarWispDungeonLevel1]
+Name=Wisp Dungeon Level 1
+P=628,1524,-28,2
+Rect=616,1480,704,1576,2
+Rect=704,1544,728,1576,2
+Group=Ilshenar: Wisp Dungeon
+Flags=RegionFlagUnderground|RegionFlagNoBuilding|RegionAntiMagicRecallIn|RegionAntiMagicGate
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarWispDungeonLevel2]
+Name=Wisp Dungeon Level 2
+P=899,1451,-28,2
+Rect=816,1448,912,1584,2
+Group=Ilshenar: Wisp Dungeon
+Flags=RegionFlagUnderground|RegionFlagNoBuilding|RegionAntiMagicRecallIn|RegionAntiMagicGate
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarWispDungeonLevel3]
+Name=Wisp Dungeon Level 3
+P=798,1547,-28,2
+Rect=744,1504,816,1584,2
+Group=Ilshenar: Wisp Dungeon
+Flags=RegionFlagUnderground|RegionFlagNoBuilding|RegionAntiMagicRecallIn|RegionAntiMagicGate
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarWispDungeonLevel4]
+Name=Wisp Dungeon Level 4
+P=750,1479,-28,2
+Rect=744,1456,800,1504,2
+Group=Ilshenar: Wisp Dungeon
+Flags=RegionFlagUnderground|RegionFlagNoBuilding|RegionAntiMagicRecallIn|RegionAntiMagicGate
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarWispDungeonPassages]
+Name=Wisp Dungeon Passage
+P=715,1491,-18,2
+Rect=704,1480,744,1520,2
+Rect=944,1416,1000,1456,2
+Rect=832,1424,880,1448,2
+Group=Ilshenar: Wisp Dungeon
+Flags=RegionFlagUnderground|RegionFlagNoBuilding|RegionAntiMagicRecallIn|RegionAntiMagicGate
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarCyclopsDungeon]
+Name=Cyclops Dungeon
+P=1011,1508,0,2
+Rect=912,1456,1024,1584,2
+Group=Ilshenar: Cyclops Dungeon
+Flags=RegionFlagUnderground|RegionFlagNoBuilding|RegionAntiMagicRecallIn|RegionAntiMagicGate
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarExodusDungeonEntrance]
+Name=Exodus Dungeon Entrance
+P=850,778,-80,2
+Rect=800,752,864,808,2
+Group=Ilshenar: Exodus Dungeon
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarExodusDungeon]
+Name=Exodus Dungeon
+P=1966,117,-28,2
+Rect=1832,16,2080,216,2
+Group=Ilshenar: Exodus Dungeon
+Flags=RegionFlagUnderground|RegionFlagNoBuilding|RegionAntiMagicRecallIn|RegionAntiMagicGate
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarSorcerersDungeonLevel1]
+Name=Sorcerer's Dungeon Level 1
+P=429,108,-28,2
+Rect=368,0,488,120,2
+Group=Ilshenar: Sorcerer's Dungeon
+Flags=RegionFlagUnderground|RegionFlagNoBuilding|RegionAntiMagicRecallIn|RegionAntiMagicGate
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarSorcerersDungeonLevel2]
+Name=Sorcerer's Dungeon Level 2
+P=241,27,-18,2
+Rect=200,0,368,112,2
+Group=Ilshenar: Sorcerer's Dungeon
+Flags=RegionFlagUnderground|RegionFlagNoBuilding|RegionAntiMagicRecallIn|RegionAntiMagicGate
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarSorcerersDungeonLevel3]
+Name=Sorcerer's Dungeon Level 3
+P=132,123,-28,2
+Rect=48,0,184,136,2
+Group=Ilshenar: Sorcerer's Dungeon
+Flags=RegionFlagUnderground|RegionFlagNoBuilding|RegionAntiMagicRecallIn|RegionAntiMagicGate
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarSorcerersDungeonLevel4]
+Name=Sorcerer's Dungeon Level 4
+P=237,125,-28,2
+Rect=224,112,248,144,2
+Group=Ilshenar: Sorcerer's Dungeon
+Flags=RegionFlagUnderground|RegionFlagNoBuilding|RegionAntiMagicRecallIn|RegionAntiMagicGate
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarSorcerersDungeonPassage]
+Name=Sorcerer's Dungeon Passage
+P=266,132,-28,2
+Rect=256,120,288,152,2
+Group=Ilshenar: Sorcerer's Dungeon
+Flags=RegionFlagUnderground|RegionFlagNoBuilding|RegionAntiMagicRecallIn|RegionAntiMagicGate 
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+////////////////////////////////////////
+// Caves and Mines
+////////////////////////////////////////
+
+[AreaDef aIlshenarMushroomCave]
+Name=Mushroom Cave
+P=1476,1494,-28,2
+Rect=1392,1448,1496,1568,2
+Group=Ilshenar: Mines & Caves (Ilshenar)
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+////////////////////////////////////////
+// Shrines
+////////////////////////////////////////
+
+[AreaDef aIlshenarShrineOfVirtues]
+Name=Shrine of the Virtues
+P=1104,404,0,2
+Rect=1072,376,1136,432,2
+Group=Ilshenar: Shrines (Ilshenar)
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarShrineOfValor]
+Name=Shrine of Valor
+P=539,221,-36,2
+Rect=512,200,544,232,2
+Group=Ilshenar: Shrines (Ilshenar)
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarShrineOfChaos]
+Name=Shrine of Chaos
+P=1748,236,0,2
+Rect=1736,224,1760,248,2
+Group=Ilshenar: Shrines (Ilshenar)
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarShrineOfSacrifice]
+Name=Shrine of Sacrifice
+P=1196,1290,-25,2
+Rect=1160,1280,1192,1296,2
+Group=Ilshenar: Shrines (Ilshenar)
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarShrineOfHonesty]
+Name=Shrine of Honesty
+P=725,1355,-61,2
+Rect=712,1344,736,1376,2
+Group=Ilshenar: Shrines (Ilshenar)
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarShrineOfCompassion]
+Name=Shrine of Compassion
+P=1223,475,-16,2
+Rect=1200,448,1232,488,2
+Group=Ilshenar: Shrines (Ilshenar)
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarShrineOfSpirituality]
+Name=Shrine of Spirituality
+P=1528,1344,0,2
+Rect=1520,1336,1536,1352,2
+Group=Ilshenar: Shrines (Ilshenar)
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarShrineOfHumility]
+Name=Shrine of Humility
+P=284,1016,0,2
+Rect=272,1008,296,1024,2
+Group=Ilshenar: Shrines (Ilshenar)
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarShrineOfHonor]
+Name=Shrine of Honor
+P=748,728,0,2
+Rect=736,712,760,744,2
+Group=Ilshenar: Shrines (Ilshenar)
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aIlshenarShrineOfJustice]
+Name=Shrine of Justice
+P=984,1008,-37,2
+Rect=979,991,991,1013,2
+Group=Ilshenar: Shrines (Ilshenar)
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[EOF]

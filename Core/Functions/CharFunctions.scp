@@ -1,0 +1,61 @@
+[Comment NewTMap]
+Sets a TMap level to spawn with a 5% chance.
+
+[Function NewTMap]
+// We are not a number. Fail.
+If (!<ArgN>)
+ Return
+endif
+
+// We are less than 1 and greater than 7. Fail.
+If (<ArgN> > 7) && (<ArgN> < 1)
+ Return
+EndIf
+
+// Roll 1 - 100. Values over 5% fail.
+// 5% and less gives a map of <argn> level value.
+Local.Chance=<R1,100>
+If <Local.Chance> > 5)
+ Return
+Else
+ NewItem=iTreasureMapLevel<ArgB>,1,<Bounce>
+ Return
+EndIf
+
+[Comment Alignment]
+For AI handling.
+
+[DefName Alignment]
+Evil			0	// Attacks players on Sight and Blue mobiles
+Neutral			1	// Does nothing unless attacked.
+Good			2	// Attacks red playersand mobiles on sight
+
+// Mobile Alignment
+[Function Alignment]
+If !(<IsNum <ArgS>>)
+ Tag.Alignment=<dDef.ArgS>
+Else
+ Tag.Alignment=<ArgN>
+EndIf
+
+[Function MountNPC]
+If !(<Serv.CharDef.<ArgS>>)
+ Serv.Log UID:<UID> Name:<UID.Name> Mount:<ArgS> -  failed. Invalid CharDef.
+ Return
+EndIf
+Serv.NewNpc=<ArgS>
+New.P=<P>
+Mount=<New>
+Ref1=<New>
+If !(<FindLayer.25>)
+ Serv.Log UID:<UID> Name:<UID.Name> Mount:<New.Name> - failed. Invalid mount.
+ Ref1.Remove
+EndIf
+
+//Events +eRemoveMountOnDismount
+
+[Events eRemoveMountOnDismount]
+On=@Dismount
+ArgO.Remove
+
+[EOF]

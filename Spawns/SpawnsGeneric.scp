@@ -1,0 +1,91 @@
+[Spawn SpawnGenericSkeletons]
+Categpry=Spawns: Generic
+Subsection=Monsters: Undead
+Description=Generic Skeletons
+ID=cSkeleton
+ID=cSkeletonWAxe
+ID=cSkeletonWSword
+
+[Spawn SpawnMalasSkeletons]
+Categpry=Spawns: Generic
+Subsection=Monsters: Undead
+Description=Malas Skeletons
+ID=cPatchworkSkeleton
+
+[Spawn SpawnBritanniaSkeletons]
+Categpry=Spawns: Generic
+Subsection=Monsters: Undead
+Description=Britannia Skeletona
+ID=cSkeleton
+ID=cSkeletonWAxe
+ID=cSkeletonWSword
+ID=cSkeletalKnight
+ID=cBoneKnight
+ID=cSkeletalMage
+ID=cBoneMage
+
+[Spawn SpawnSkeletonKnights]
+Categpry=Spawns: Generic
+Subsection=Monsters: Undead
+Description=Skeleton Knights
+ID=cSkeletalKnight
+ID=cBoneKnight
+
+[Spawn SpawnSkeletonMages]
+Categpry=Spawns: Generic
+Subsection=Monsters: Undead
+Description=Skeleton Mages
+ID=cSkeletalMage
+ID=cBoneMage
+
+[Spawn SpawnSkeletons]
+Categpry=Spawns: Generic
+Subsection=Monsters: Undead
+Description=Skeletons
+ID=cSkeleton
+ID=cSkeletonWAxe
+ID=cSkeletonWSword
+ID=cSkeletalKnight
+ID=cBoneKnight
+ID=cSkeletalMage
+ID=cBoneMage
+ID=cPatchworkSkeleton
+
+[Spawn SpawnGhouls]
+Categpry=Spawns: Generic
+Subsection=Monsters: Undead
+Description=Ghouls
+ID=cGhoul
+ID=cBogle
+
+[Spawn SpawnShades]
+Categpry=Spawns: Generic
+Subsection=Monsters: Undead
+Description=Shades
+ID=cShade
+ID=cSpectre
+ID=cWraith
+
+[Spawn SpawnLiches]
+Categpry=Spawns: Generic
+Subsection=Monsters: Undead
+Description=Liches
+ID=cLich
+ID=cLichLord
+
+[Spawn SpawnLiches1]
+Categpry=Spawns: Generic
+Subsection=Monsters: Undead
+Description=Liches: All
+ID=cLich
+ID=cLichLord
+ID=cAncientLich
+ID=cDarkGuardian
+
+[Spawn SpawnMummies]
+Categpry=Spawns: Generic
+Subsection=Monsters: Undead
+Description=Mummies
+ID=cMummy
+ID=cUnfrozenMummy
+ID=cPestilentBandages

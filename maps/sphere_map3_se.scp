@@ -1,0 +1,78 @@
+//****************************************************************************
+// SPHERE by : Menasoft ©1997-2014
+// www.sphereserver.net
+// All SPHERE script files and formats are copyright Menasoft & Partners.
+// This file may be freely edited for personal use, but may not be distributed
+// in whole or in part, in any format without express written permission from
+// Menasoft & Partners.  All donations and contributions
+// become the property of Menasoft & Partners.
+//****************************************************************************
+// FILE LAST UPDATED: Saturday, Sept 6, 2014
+//
+VERSION=0.56c
+
+
+////////////////////////////////////////
+// Malas
+////////////////////////////////////////
+
+////////////////////////////////////////
+// Malas
+////////////////////////////////////////
+
+//Samurai Empire regions
+
+[AreaDef aYomotsuMines]
+Name=Yomotsu Mines
+Group=Malas: SE Caves
+P=6,118,0,3
+Rect=0,0,129,129,3
+Flags=RegionFlagNoBuilding|RegionFlagUnderground
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.Music=MidiTokunoDungeon
+
+[AreaDef aNinjaCave]
+Name=Ninja Cave
+Group=Malas: SE Caves
+P=404,1167,0,3
+Rect=360,960,460,1175,3
+Flags=RegionFlagNoBuilding|RegionFlagUnderground
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+[AreaDef aFanDancersDojo]
+Name=Fan Dancer's Dojo
+Group=Malas: SE Dungeons
+P=71,337,0,3
+Rect=40,320,210,720,3
+Flags=RegionFlagNoBuilding|RegionFlagUnderground
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.Music=MidiTokunoDungeon
+
+[AreaDef aCitadel]
+Name=Citadel
+Group=Malas: SE Dungeons
+P=106,1884,0,3
+Rect=65,1865,195,1990,3
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.Music=MidiDungeon9
+
+[AreaDef aSamuraiStart]
+Name=Samurai Start Location
+Group=Malas: SE Misc
+P=392,776,-1,3
+Rect=320,690,435,790,3
+Flags=RegionFlagNoBuilding
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.Music=MidiZento
+
+[AreaDef aNinjaStart]
+Name=Ninja Start Location
+Group=Malas: SE Misc
+P=416,823,-1,3
+Rect=360,795,440,835,3
+Flags=RegionFlagNoBuilding
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.Music=MidiZento
+
+[EOF]

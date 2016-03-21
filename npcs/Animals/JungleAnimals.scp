@@ -1,0 +1,303 @@
+// Silverback Gorilla
+// Dragon Turtle Champion Spawn
+[CharDef cSilverbackGorilla]
+ID=cGorilla
+Name=silverback gorilla
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=5,10
+Icon=iSilverbackGorillaIcon
+Sound=0
+Resources=1 iCutOfRawRibs,7 iPlainHides
+FoodType=tFruit,tVegetable
+Aversions=0
+Desires=0
+BloodColor=0
+
+Category=Animals
+SubsectiOn=Primates
+DescriptiOn=Silverback Gorilla
+
+On=@Create
+NPC=BrainAnimal
+SlayerSuper=SlayerEodon
+ThrowObj=iBanana
+ThrowRange=12
+ThrowDam=<DamMin>,<DamMax>
+
+Fame=450
+Karma=-450
+Alignment=Evil
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=20,25
+ResFire=10,15
+ResCold=20,25
+ResPoison=40,50
+ResEnergy=10,15
+
+OStr={75 110}
+ODex={75 100}
+OInt={16 30}
+MaxHits={40 66}
+MaxMana=0
+
+Wrestling={500 650}
+Tactics={600 750}
+MagicResistance={300 400}
+Parrying={600 750}
+
+On=@NPCRestock
+NewGold={50 100}
+
+On=@DeathCorpse
+Item=iBanana,{10 20}
+
+// Wild Tiger
+// Valley of Eodon, Dragon Turtle Spawn
+[CharDef 04E6]
+DefName=cWildTiger
+Name=wild tiger
+Can=CanWalk|CanRun
+MoveRate=100
+Dam=18,24
+Icon=iWildTigerIcon
+Sound=sndLion1
+Resources=4 iTigerPelt,2 iCutOfRawRibs
+FoodType=tMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=rJungle,tMeat,tWater
+BloodColor=0
+
+Category=Animals
+SubsectiOn=Felines: Tigers
+DescriptiOn=Wild Tiger
+
+On=@Create
+NPC=BrainAnimal
+FollowerSlots=2
+SlayerSuper=EodonSlayer|FelineSlayer
+
+Fame=16000
+Karma=-16000
+Alignment=Evil
+
+Ability1=s_Bleed_Attack
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=55,75
+ResFire=20,40
+ResCold=55,65
+ResPoison=30,40
+ResEnergy=25,35
+
+OStr={496 554}
+ODex={88 124}
+OInt={94 163}
+MaxHits={352 450}
+
+Wrestling={900 1000}
+Tactics={1000 1100}
+MagicResistance={900 1000}
+Parrying={1000 1100}
+Taming=1011
+
+On=@NPCRestock
+NewGold={100 200}
+
+On=@Death
+NewItem=RandomRareSeed5,1,R9
+
+// Wild White Tiger
+// Valley of Eodon, Dragon Turtle Spawn
+[CharDef cWildWhiteTiger]
+ID=cwild_tiger
+Name=wild white tiger
+Can=CanWalk|CanRun
+MoveRate=100
+Dam=18,24
+Icon=iWildTigerIcon
+Sound=sndLion1
+Resources=4 iWhiteTigerPelt,2 iCutOfRawRibs
+FoodType=tMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=rJungle,tMeat,tWater
+BloodColor=0
+
+Category=Animals
+SubsectiOn=Felines: Tigers
+DescriptiOn=Wild White Tiger
+
+On=@Create
+NPC=BrainAnimal
+Color=ColorWhite
+FollowerSlots=2
+SlayerSuper=EodonSlayer|FelineSlayer
+
+Fame=16000
+Karma=-16000
+Alignment=Evil
+
+Ability1=s_bleed_attack
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=55,75
+ResFire=20,40
+ResCold=55,65
+ResPoison=30,40
+ResEnergy=25,35
+
+OStr={496 554}
+ODex={88 124}
+OInt={94 163}
+MaxHits={352 450}
+
+Wrestling={900 1000}
+Tactics={1000 1100}
+MagicResistance={900 1000}
+Parrying={1000 1100}
+Taming=1011
+
+On=@NPCRestock
+NewGold={100 200}
+
+On=@Death
+NewItem=RandomRareSeed5,1,R9
+
+// Wild Black Tiger
+// Valley of Eodon, Dragon Turtle Spawn
+[CharDef cWildBlackTiger]
+ID=cWildTiger
+Name=wild black tiger
+Can=CanWalk|CanRun
+MoveRate=100
+Dam=18,24
+Icon=iWildTigerIcon
+Sound=sndLion1
+Resources=4 iWhiteTigerPelt,2 iCutOfRawRibs
+FoodType=tMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=rJungle,tMeat,tWater
+BloodColor=0
+
+Category=Animals
+SubsectiOn=Felines: Tigers
+DescriptiOn=Wild Black Tiger
+
+On=@Create
+NPC=BrainAnimal
+Color=ColorShadowIron
+FollowerSlots=2
+SlayerSuper=EodonSlayer|FelineSlayer
+
+Fame=16000
+Karma=-16000
+Alignment=Evil
+
+Ability1=s_bleed_attack
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=55,75
+ResFire=20,40
+ResCold=55,65
+ResPoison=30,40
+ResEnergy=25,35
+
+OStr={496 554}
+ODex={88 124}
+OInt={94 163}
+MaxHits={352 450}
+
+Wrestling={900 1000}
+Tactics={1000 1100}
+MagicResistance={900 1000}
+Parrying={1000 1100}
+Taming=1011
+
+On=@NPCRestock
+NewGold={100 200}
+
+On=@Death
+NewItem=RandomRareSeed5,1,R9
+
+// Tiger Cub
+[CharDef 051D]
+ID=cTigerCub
+Name=tiger cub
+Can=CanWalk|CanRun|CanNonHum
+MoveRate=100
+Dam=18,24
+Icon=iTigerCubIcon
+Sound=sndLion1
+Resources=4 iTigerPelt,2 iCutOfRawRibs
+FoodType=tMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=rJungle,tMeat,tWater
+BloodColor=0
+
+Category=Animals
+SubsectiOn=Felines: Tigers
+DescriptiOn=Tiger Cub
+
+On=@Create
+NPC=BrainAnimal
+FollowerSlots=1
+SlayerSuper=EodonSlayer|FelineSlayer
+
+Fame=10000
+Karma=-10000
+Alignment=Neutral
+
+Ability1=s_bleed_attack
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=45,65
+ResFire=10,30
+ResCold=45,55
+ResPoison=20,30
+ResEnergy=15,25
+
+OStr={396 454}
+ODex={88 124}
+OInt={90 125}
+MaxHits={252 350}
+
+Wrestling={700 800}
+Tactics={800 900}
+MagicResistance={700 800}
+Parrying={800 900}
+Taming=811
+
+On=@NPCRestock
+NewGold={100 200}
+
+[EOF]

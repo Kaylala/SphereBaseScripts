@@ -1,0 +1,70 @@
+[ItemDef 0F40]
+DefName=iPileOfArrows1
+Name=pile of arrows
+Type=tNormal
+Can=0
+Weight=1
+
+Category=Decorations
+Subsection=Miscellaneous: Resources
+Description=Pile of Arrows (5)
+
+[ItemDef 0F41]
+DefName=iPileOfArrows2
+Name=pile of arrows
+Type=tNormal
+Can=0
+Weight=1
+
+Category=Decorations
+Subsection=Miscellaneous: Resources
+Description=Pile of Arrows (20)
+
+[ItemDef 01BFC]
+DefName=iPileOfBolt1
+Name=pile of bolts
+Type=tNormal
+Can=0
+Weight=1
+
+Category=Decorations
+Subsection=Miscellaneous: Resources
+Description=Pile of Arrows (5)
+
+[ItemDef 01bfd]
+DefName=iPileOfBolt2
+Name=pile of bolts
+Type=tNormal
+Can=0
+Weight=1
+
+Category=Decorations
+Subsection=Miscellaneous: Resources
+Description=Pile of Arrows (20)
+
+[ItemDef 02808]
+//This weapon is not equiped, it is thrown
+DefName=iSmokeBomb
+Name=smoke bomb
+Type=tSmokeBomb
+Weight=1
+SkillMake=Alchemy 900
+Resources=3 iGinseng,1 iEggs
+
+Category=Provisions
+Subsection=Miscellaneous
+Description=Smoke Bomb
+
+[ItemDef 02809]
+DefName=iEggBomb
+Name=egg bomb
+Type=tSmokeBomb
+Weight=1
+SkillMake=Cooking 900
+Resources=3 iSackOfFlour,1 iEggs
+
+Category=Provisions
+Subsection=Miscellaneous
+Description=Egg Bomb
+
+[EOF]

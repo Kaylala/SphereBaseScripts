@@ -1,0 +1,3805 @@
+[Comment Icons]
+* Replaced iPet<name>
+* No longer holds a <Value>; (Stable sales get their own stuff now).
+* Broken into categories:
+* Unused/Unknown
+* Base (iHumanFemaleIcon,iHumanMaleIcon)
+* Animals
+* Monsters
+* Bosses
+
+////////////////////
+// Unused/Unknown //
+////////////////////
+
+[ItemDef 02d86]
+DefName=iTravestyIcon
+Name=Travesty
+Type=tFigurine
+TData3=cTravesty
+
+Category=Miscellaneous
+Subsection=Icons: Unknown/Unused
+Description=Travesty
+
+[ItemDef 02d8e]
+DefName=iThornBatIcon
+Name=Thorn Bat
+Type=tFigurine
+TData3=cThornNBat
+
+Category=Miscellaneous
+Subsection=Icons: Unknown/Unused
+Description=Thorn Bat
+
+[ItemDef 02d8f]
+DefName=iBulbousPutrificationIcon
+Name=Bulbous Putrification
+Type=tFigurine
+TData3=cBulbousPutrification
+
+Category=Miscellaneous
+Subsection=Icons: Unknown/Unused
+Description=Bulbous Putrification
+
+[ItemDef 02d91]
+DefName=iInterredGrizzleIcon
+Name=Interred Grizzle
+Type=tFigurine
+TData3=cInterredGrizzle
+
+Category=Miscellaneous
+Subsection=Icons: Unknown/Unused
+Description=Interred Grizzle
+
+[ItemDef 02593]
+DefName=iGreatWyrmIcon
+Name=great wyrm
+Type=tFigurine
+TData3=
+
+Category=Miscellaneous
+Subsection=Icons: Unknown/Unused
+Description=Great Wyrm
+
+[ItemDef 025f9]
+DefName=iBlackthornTheBetrayerIcon
+Name=Lord Blackthorn
+Type=tFigurine
+TData3=cBlackthornTheBetrayer
+
+Category=Miscellaneous
+Subsection=Icons: Unknown/Unused
+Description=Blackthorn the Betrayer
+
+[ItemDef 025fb]
+DefName=iQueenDawnIcon
+Name=Dawn
+Type=tFigurine
+TData3=cQueenDawn
+
+Category=Miscellaneous
+Subsection=Icons: Unknown/Unused
+Description=Queen Dawn
+
+[ItemDef 0260a]
+DefName=iChariotIcon
+Name=chariot
+Type=tFigurine
+TData3=
+
+Category=Miscellaneous
+Subsection=Icons: Unknown/Unused
+Description=Chariot
+
+//////////
+// Base //
+//////////
+
+[ItemDef 020CD]
+DefName=iNakedHumanMaleIcon
+Name=human male
+Type=tFigurine
+TData3=cHumanMale
+
+Category=Miscellaneous
+Subsection=Icons: Base
+Description=Naked Human Male
+
+[ItemDef 02106]
+DefName=iHumanMaleIcon
+Name=human male
+Type=tFigurine
+TData3=cHumanMale
+
+Category=Miscellaneous
+Subsection=Icons: Base
+Description=Human Male
+
+[ItemDef 020CE]
+DefName=iNakedHumanFemaleIcon
+Name=woman
+Type=tFigurine
+TData3=cHumanFemale
+
+Category=Miscellaneous
+Subsection=Icons: Base
+Description=Naked Human Female
+
+[ItemDef 02107]
+DefName=iHumanFemaleIcon
+Name=woman
+Type=tFigurine
+TData3=cHumanFemale
+
+Category=Miscellaneous
+Subsection=Icons: Base
+Description=Human Female
+
+[ItemDef 0210c]
+DefName=iElfMaleIcon
+Name=elf male
+Type=tFigurine
+TData3=cElfMale
+
+Category=Miscellaneous
+Subsection=Icons: Base
+Description=Elf (Male)
+
+[ItemDef 0210d]
+DefName=iElfFemaleIcon
+Name=elf female
+Type=tFigurine
+TData3=cElfFemale
+
+Category=Miscellaneous
+Subsection=Icons: Base
+Description=Elf (Female)
+
+[ItemDef 0422D]
+DefName=iGargoyleMaleIcon
+Name=Gargoyle
+Type=tFigurine
+TData3=cGargoyleMale
+
+Category=Miscellaneous
+Subsection=Icons: Base
+Description=Gargoyle (Male)
+
+[ItemDef 0422E]
+DefName=iGargoyleFemaleIcon
+Name=Gargoyle
+Type=tFigurine
+TData3=cGargoyleFemale
+
+Category=Miscellaneous
+Subsection=Icons: Base
+Description=Gargoyle (Female)
+
+/////////////
+// Animals //
+/////////////
+
+[ItemDef 02615]
+DefName=iRidgebackIcon
+Name=ridgeback
+Type=tFigurine
+TData3=cRidgeback
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Ridgeback
+
+[ItemDef 020dd]
+DefName=iHorseFrameIcon
+Name=horse
+Type=tFigurine
+TData3=0
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Horse (Frame)
+
+[ItemDef 0211f]
+DefName=iGreyHorseIcon2
+Name=gray horse
+Type=tFigurine
+TData3=cGreyHorse
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Grey Horse
+
+[ItemDef 02120]
+DefName=iDappledBrownHorseIcon2
+Name=dappled brown horse
+Type=tFigurine
+TData3=cDappledBrownHorse
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Dappled Brown Horse
+
+[ItemDef 02121]
+DefName=iDarkBrownHorseIcon2
+Name=dark brown horse
+Type=tFigurine
+TData3=cDarkBrownHorse
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Dark Brown Horse
+
+[ItemDef 02124]
+DefName=iTanHorseIcon2
+Name=tan horse
+Type=tFigurine
+TData3=cTanHorse
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Tan Horse
+
+[ItemDef 02598]
+DefName=iDappledBrownHorseIcon
+Name=dappled brown horse
+Type=tFigurine
+TData3=cDappledBrownHorse
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Dappled Brown Horse
+
+[ItemDef 02599]
+DefName=iDappledGreyHorseIcon
+Name=dappled grey horse
+Type=tFigurine
+TData3=cDappledGreyHorse
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Dappled Grey Horse
+
+[ItemDef 0259a]
+DefName=iDarkBrownHorseIcon
+Name=dark brown horse
+Type=tFigurine
+TData3=cDarkBrownHorse
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Dark Brown Horse
+
+[ItemDef 0259e]
+DefName=iTanHorseIcon
+Name=tan horse
+Type=tFigurine
+TData3=cTanHorse
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Tan Horse
+
+[ItemDef 0259d]
+DefName=iSilverSteedIcon
+Name=silver steed
+Type=tFigurine
+TData3=cSilverSteed
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Silver Steed
+
+[ItemDef 02122]
+DefName=iGreyWolfIcon2
+Name=grey wolf
+Type=tFigurine
+TData3=cGreyWolf
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Grey Wolf
+
+[ItemDef 020EA]
+DefName=iTimberWolfIcon2
+Name=timber wolf
+Type=tFigurine
+TData3=cTimberWolf
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Timber Wolf
+
+[ItemDef 025cf]
+DefName=iDarkWolfIcon
+Name=timber wolf
+Type=tFigurine
+TData3=cDarkWolf
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Dark Wolf
+
+[ItemDef 025d0]
+DefName=iDireWolfIcon
+Name=dire wolf
+Type=tFigurine
+TData3=cDireWolf
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Dire Wolf
+
+[ItemDef 025d1]
+DefName=iGreyWolfIcon
+Name=grey wolf
+Type=tFigurine
+TData3=cGreyWolf
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Wolf (grey new)
+
+[ItemDef 025d2]
+DefName=iSilverWolfIcon
+Name=white wolf
+Type=tFigurine
+TData3=cSilverWolf
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Silver Wolf
+
+[ItemDef 025d3]
+DefName=iTimberWolfIcon
+Name=timber wolf
+Type=tFigurine
+TData3=cTimberWolf
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Timber Wolf
+
+[ItemDef 020f1]
+DefName=iDolphinIcon
+Name=dolphin
+Type=tFigurine
+TData3=cDolphin
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Dolphin
+
+[ItemDef 020fc]
+DefName=iSnakeIcon
+Name=snake
+Type=tFigurine
+TData3=cSnake
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Snake
+
+[ItemDef 020e5]
+DefName=iSnakeIcon2
+Name=serpent
+Type=tFigurine
+TData3=cSnake
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Snake
+
+[ItemDef 02103]
+DefName=iCowIcon
+Name=cow
+TData3=cCow1
+Type=tFigurine
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Cow (black & white)
+
+[ItemDef 020ef]
+DefName=iBull1Icon
+Name=bull
+Type=tFigurine
+TData3=cBull1
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Bull (Light Brown)
+
+[ItemDef 020f0]
+DefName=iBull2Icon
+Name=bull
+Type=tFigurine
+TData3=cbullbrowndk
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Bull (Dark Brown (Grey))
+
+[ItemDef 0211c]
+DefName=iDogIcon2
+Name=dog
+Type=tFigurine
+TData3=cDog
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Dog
+
+[ItemDef 02588]
+DefName=iDogIcon
+Name=dog
+Type=tFigurine
+TData3=cDog
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Dog
+
+[ItemDef 0211e]
+DefName=iGrizzlyBearIcon
+Name=grizzly bear
+Type=tFigurine
+TData3=cGrizzlyBear
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Grizzly Bear
+
+[ItemDef 0211b]
+DefName=iCatIcon
+Name=cat
+Type=tFigurine
+TData3=cCat
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Cat
+
+[ItemDef 020f6]
+DefName=iLlamaIcon
+Name=llama
+Type=tFigurine
+TData3=cRideableLlama
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Llama
+
+[ItemDef 020ff]
+DefName=iWalrusIcon
+Name=walrus
+Type=tFigurine
+TData3=cWalrus
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Walrus
+
+[ItemDef 02101]
+DefName=iPigIcon
+Name=pig
+Type=tFigurine
+TData3=cPig
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Pig
+
+[ItemDef 02108]
+DefName=iGoatIcon
+Name=goat
+Type=tFigurine
+TData3=cGoat
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Goat
+
+[ItemDef 02580]
+DefName=iMountainGoatIcon
+Name=Mountain Goat
+Type=tFigurine
+TData3=cMountainGoat
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Mountain Goat (Billy Goat)
+
+[ItemDef 02118]
+DefName=iBlackBearIcon
+Name=black bear
+Type=tFigurine
+TData3=cBlackBear
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Black Bear
+
+[ItemDef 0211a]
+DefName=iRavenIcon
+Name=bird
+Type=tFigurine
+TData3=cRaven
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Raven
+
+[ItemDef 020F5]
+DefName=iGorillaIcon
+Name=gorilla
+Type=tFigurine
+TData3=cGorilla
+Value={300 350}
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Gorilla
+
+[ItemDef 020c9]
+DefName=iGorillaIcon2
+Name=gorilla
+Type=tFigurine
+TData3=cGorilla
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Gorilla (Terrible Frame)
+
+[ItemDef 02592]
+DefName=iSilverbackGorillaIcon
+Name=silverback gorilla
+Type=tFigurine
+TData3=cGorilla
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Silverback Gorilla
+
+[ItemDef 020D1]
+DefName=iChickenIcon
+Name=chicken
+Type=tFigurine
+TData3=cChicken
+Value={25 50}
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Chicken
+
+[ItemDef 020EE]
+DefName=iBirdIcon
+Name=bird
+Type=tFigurine
+TData3=cbird
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Bird (flying)
+
+[ItemDef 0211D]
+DefName=iEagleIcon2
+Name=eagle
+Type=tFigurine
+TData3=cEagle
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Eagle
+
+[ItemDef 020F2]
+DefName=iEagleIcon1
+Name=eagle
+Type=tFigurine
+TData3=cEagle
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Eagle (Flying)
+
+[ItemDef 020cf]
+DefName=iBrownBearIcon
+Name=brown bear
+Type=tFigurine
+TData3=cBrownBear
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Bear
+
+[ItemDef 020D0]
+DefName=iGiantRatIcon
+Name=Giant Rat
+Type=tFigurine
+TData3=cGiantRat
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Giant Rat
+
+[ItemDef 02123]
+DefName=iRatIcon
+Name=Rat
+Type=tFigurine
+TData3=cRat
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Rat
+
+[ItemDef 025ba]
+DefName=iSeaHorseIcon
+Name=sea horse
+Type=tFigurine
+TData3=cSeaHorse
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Sea Horse
+
+[ItemDef 025bf]
+DefName=iGiantSerpentIcon
+Name=giant serpent
+Type=tFigurine
+TData3=cGiantSerpent
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Giant Serpent
+
+[ItemDef 025c0]
+DefName=iGiantIceSerpentIcon
+Name=giant ice serpent
+Type=tFigurine
+TData3=cGiantIceSerpent
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Giant Ice Serpent
+
+[ItemDef 025c1]
+DefName=iLavaSerpentIcon
+Name=lava serpent
+Type=tFigurine
+TData3=cLavaSerpent
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Lava Serpent
+
+[ItemDef 025c2]
+DefName=iSilverSerpentIcon
+Name=silver serpent
+Type=tFigurine
+TData3=cSilverSerpent
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Silver Serpent
+
+[ItemDef 02125]
+DefName=iRabbitIcon
+Name=rabbit
+Type=tFigurine
+TData3=cRabbit
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Rabbit
+
+[ItemDef 02126]
+DefName=iPackHorseIcon
+Name=pack horse
+Type=tFigurine
+TData3=cPackHorse
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Pack Horse
+
+[ItemDef 02127]
+DefName=iPackLlamaIcon
+Name=pack llama
+Type=tFigurine
+TData3=cPackLlama
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Pack Llama
+
+[ItemDef 025a3]
+DefName=iSnowLeopardIcon
+Name=snow leopard
+Type=tFigurine
+TData3=cSnowLeopard
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Snow Leopard
+
+[ItemDef 02583]
+DefName=iCougarIcon
+Name=cougar
+Type=tFigurine
+TData3=ccougar
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Cougar
+
+[ItemDef 025b5]
+DefName=iPantherIcon
+Name=panther
+Type=tFigurine
+TData3=cPanther
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Panther (new)
+
+[ItemDef 02119]
+DefName=iPantherIcon2
+Name=panther
+Type=tFigurine
+TData3=cPanther
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Panther (big cat)
+
+[ItemDef 02102]
+DefName=iPantherIcon2
+Name=panther
+Type=tFigurine
+TData3=cPanther
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Panther 2
+
+[ItemDef 020f7]
+DefName=iCougarIcon2
+Type=tFigurine
+TData3=cCougar
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Cougar (Junk)
+
+[ItemDef 020EB]
+DefName=iSheepIcon
+Name=sheep
+Type=tFigurine
+TData3=cSheep
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Sheep
+
+[ItemDef 020e6]
+DefName=iShornSheepIcon
+Name=sheep
+Type=tFigurine
+TData3=cShornSheep
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Sheep (Shorn)
+
+[ItemDef 02d9c]
+DefName=iChargerOfTheFallenIcon
+Name=ChargerOfTheFallen
+Type=tFigurine
+TData3=cChargerOfTheFallen
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Charger of the Fallen
+
+[ItemDef 020d4]
+DefName=iDeerIcon
+Name=deer
+Type=tFigurine
+TData3=cHind
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Deer
+
+[ItemDef 020d5]
+DefName=iDogIcon2
+Name=dog
+Type=tFigurine
+TData3=cDog
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Dog
+
+[ItemDef 020db]
+DefName=iGrizzlyBearIcon
+Name=grizzly bear
+Type=tFigurine
+TData3=cGrizzlyBear
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Grizzly Bear
+
+[ItemDef 020e1]
+DefName=iPolarBearIcon
+Name=polar bear
+Type=tFigurine
+TData3=cPolarBear
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Polar Bear
+
+[ItemDef 020e2]
+DefName=iRabbitIcon2
+Type=tFigurine
+Name=rabbit
+TData3=cRabbit
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Rabbit
+
+[ItemDef 02D9B]
+DefName=iParrotIcon
+Name=Parrot
+Type=tFigurine
+TData3=cParrot
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Parrot
+
+[ItemDef 025B2]
+DefName=iDesertOstardIcon
+Name=desert ostard
+Type=tFigurine
+TData3=cDesertOstard
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Desert Ostard
+
+[ItemDef 02135]
+DefName=iDesertOstardIcon2
+Name=desert ostard
+Type=tFigurine
+TData3=cDesertOstard
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Desert Ostard
+
+[ItemDef 025B4]
+DefName=iFrenziedOstard1Icon
+Name=frenzied ostard
+Type=tFigurine
+TData3=cFrenziedOstard
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Frenzied Ostard
+
+[ItemDef 02136]
+DefName=iFrenziedOstardIcon2
+Name=frenzied ostard
+Type=tFigurine
+TData3=cFrenziedOstard
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Frenzied Ostard
+
+[ItemDef 025b3]
+DefName=iForestOstardIcon
+Name=forest ostard
+Type=tFigurine
+TData3=cForestOstard
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Forest Ostard
+
+[ItemDef 02137]
+DefName=iForestOstardIcon2
+Name=forest ostard
+Type=tFigurine
+TData3=cForestOstard
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Forest Ostard
+
+// Originally named Crocodile
+[ItemDef 020DA]
+DefName=iAlligatorIcon
+Name=alligator
+Type=tFigurine
+TData3=cAlligator
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Alligator
+
+[ItemDef 02130]
+DefName=iBullfrogIcon
+Name=bullfrog
+Type=tFigurine
+TData3=cBullfrog
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Bullfrog
+
+[ItemDef 0258c]
+DefName=iGiantToadIcon2
+Name=giant frog
+Type=tFigurine
+TData3=cGiantToad
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Giant Toad
+
+[ItemDef 0212F]
+DefName=iGiantToadIcon
+Name=giant toad
+Type=tFigurine
+TData3=ctoadgiant
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Giant Toad
+
+[ItemDef 0210F]
+DefName=iIronBeetleIcon
+Name=Iron Beetle
+Type=tFigurine
+TData3=cIronBeetle
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Iron Beetle
+
+[ItemDef 04288]
+DefName=iIronBeetleIcon2
+Name=Iron Beetle
+Type=tFigurine
+TData3=cIronBeetle
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Iron Beetle
+
+[ItemDef 02110]
+DefName=iBouraIcon
+Name=Boura
+Type=tFigurine
+TData3=cBoura
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Boura
+
+[ItemDef 04289]
+DefName=iBouraIcon2
+Name=Boura
+Type=tFigurine
+TData3=cBoura
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Boura
+
+[ItemDef 02111]
+DefName=iChickenLizardIcon
+Name=Chicken Lizard
+Type=tFigurine
+TData3=cChickenLizard
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Chicken Lizard
+
+[ItemDef 0428A]
+DefName=iChickenLizardIcon2
+Name=Chicken Lizard
+Type=tFigurine
+TData3=cChickenLizard
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Chicken Lizard
+
+[ItemDef 046F8]
+DefName=iArmouredBouraIcon
+Name=Armoured Boura
+Type=tFigurine
+Can=CanIFlip
+TData3=cArmouredBoura
+DupeList=046F9
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Armoured Boura
+
+[ItemDef 046F9]
+//armoured boura
+DupeItem=046F8
+
+[ItemDef 09844]
+DefName=iWildTigerIcon
+Name=wild tiger
+Type=tFigurine
+TData3=cWildTiger
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Wild Tiger
+
+[ItemDef 09845]
+DefName=iDimetrosaurIcon
+Name=dimetrosaur
+Type=tFigurine
+TData3=cDimetrosaur
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Dimetrosaur
+
+[ItemDef 09846]
+DefName=iGallusaurusIcon
+Name=gallusaurus
+Type=tFigurine
+TData3=cGallusaurus
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Gallusaurus
+
+[ItemDef 09847]
+DefName=iArchaeosaurusIcon
+Name=archaeosaurus
+Type=tFigurine
+TData3=cArchaeosaurus
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Archaeosaurus
+
+[ItemDef 09849]
+DefName=iNajasaurusIcon
+Name=najasaurus
+Type=tFigurine
+TData3=cNajasaurus
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Najasaurus
+
+[ItemDef 0984A]
+DefName=iAllosaurusIcon
+Name=allosaurus
+Type=tFigurine
+TData3=cAllosaurus
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Allosaurus
+
+[ItemDef 0984B]
+DefName=iSaurosaurusIcon
+Name=saurosaurus
+Type=tFigurine
+TData3=cSaurosaurus
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Saurosaurus
+
+[ItemDef 0984C]
+DefName=iAnchisaurIcon
+Name=anchisaur
+Type=tFigurine
+TData3=cAnchisaur
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Anchisaur
+
+[ItemDef 0984D]
+DefName=iMyrmidexLarvaeIcon
+Name=myrmidex larvae
+Type=tFigurine
+TData3=cMyrmidexLarvae
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Myrmidex Larvae
+
+[ItemDef 0984E]
+DefName=iDragonTurtleHatchlingIcon
+Name=dragon turtle hatchling
+Type=tFigurine
+TData3=cDragonTurtleHatchling
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Dragon Turtle Hatchling
+
+[ItemDef 09CA7]
+DefName=iTigerCubIcon
+Name=tiger cub
+Type=tFigurine
+TData3=cTigerCub
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Tiger Cub
+
+[ItemDef 02622]
+DefName=iSkitteringHopperIcon
+Name=skittering hopper
+Type=tFigurine
+TData3=cSkitteringHopper
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Skittering Hopper
+
+[ItemDef 02764]
+DefName=iCraneIcon
+Name=crane
+Type=tFigurine
+TData3=cCrane
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Crane
+
+[ItemDef 02d97]
+DefName=iSquirrelIcon
+Name=Squirrel
+Type=tFigurine
+TData3=cSquirrel
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Squirrel
+
+[ItemDef 02d98]
+DefName=iFerretIcon
+Name=Ferret
+Type=tFigurine
+TData3=cFerret
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Ferret
+
+[ItemDef 025b9]
+DefName=iGiantScorpionIcon
+Name=giant scorpion
+Type=tFigurine
+TData3=cGiantScorpion
+
+Category=Miscellaneous
+Subsection=Icons: Animals
+Description=Scorpion (New)
+
+//////////////
+// Monsters //
+//////////////
+
+[ItemDef 020f8]
+DefName=iLichIcon2
+Name=lich
+Type=tFigurine
+TData3=cLich
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Lich
+
+[ItemDef 020f9]
+DefName=iMongbatIcon
+Name=mongbat
+Type=tFigurine
+TData3=cMongbat
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Mongbat
+
+[ItemDef 020fa]
+DefName=iReaperIcon
+Name=reaper
+Type=tFigurine
+TData3=cReaper
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Reaper
+
+[ItemDef 020e0]
+DefName=iOrcIcon2
+Name=orc
+Type=tFigurine
+TData3=corc
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Orc
+
+[ItemDef 020e3]
+DefName=iRatmanIcon2
+Name=ratman
+Type=tFigurine
+TData3=cRatman
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Ratman
+
+[ItemDef 020e4]
+DefName=iGiantScorpionIcon2
+Name=scorpion
+Type=tFigurine
+TData3=cGiantScorpion
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Giant Scorpion
+
+[ItemDef 020d7]
+DefName=iEarthElementalIcon
+Name=earth elemental
+Type=tFigurine
+TData3=cEarthElemental
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Earth Elemental
+
+[ItemDef 020d9]
+DefName=iGargoyleIcon
+Name=gargoyle
+Type=tFigurine
+TData3=cGargoyle
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Gargoyle
+
+[ItemDef 020D2]
+DefName=iCorpserIcon2
+Name=corpser
+Type=tFigurine
+TData3=cCorpser
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Corpser
+
+[ItemDef 025ce]
+DefName=iUnicornIcon
+Name=unicorn
+Type=tFigurine
+TData3=cUnicorn
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Unicorn
+
+[ItemDef 0259b]
+DefName=iDarkSteedIcon
+Name=dark steed
+Type=tFigurine
+TData3=cDarkSteed
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Dark Steed
+
+[ItemDef 0259c]
+DefName=iNightmareIcon
+Name=nightmare
+Type=tFigurine
+TData3=cNightmare
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Nightmare
+
+[ItemDef 020D3]
+DefName=iDaemonIcon2
+Name=demon
+Type=tFigurine
+TData3=cDaemon
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Daemon
+
+[ItemDef 020d6]
+DefName=iDragonIcon
+Name=dragon
+Type=tFigurine
+TData3=cDragon1
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Dragon
+
+[ItemDef 020dc]
+DefName=iHarpyIcon
+Name=harpy
+Type=tFigurine
+TData3=charpy
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Harpy
+
+[ItemDef 020fb]
+DefName=iSeaSerpentIcon
+Name=sea serpent
+Type=tFigurine
+TData3=cSeaSerpent
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Sea Serpent
+
+[ItemDef 02589]
+DefName=iEtherealWarriorIcon
+Name=ethereal warrior
+Type=tFigurine
+TData3=cEtherealWarrior
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Ethereal Warrior
+
+[ItemDef 0258a]
+DefName=iEvilMageIcon
+Name=evil mage
+Type=tFigurine
+TData3=cEvilMage
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Evil Mage
+
+[ItemDef 0258b]
+DefName=iEvilMageLordIcon
+Name=evil mage lord
+Type=tFigurine
+TData3=cEvilMageLord
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Evil Mage Lord
+
+[ItemDef 0258d]
+DefName=iFireGargoyleIcon
+Name=fire gargoyle
+Type=tFigurine
+TData3=cFireGargoyle
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Fire Gargoyle
+
+[ItemDef 0258e]
+DefName=iStoneGargoyleIcon
+Name=stone gargoyle
+Type=tFigurine
+TData3=cStoneGargoyle
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Stone Gargoyle
+
+[ItemDef 0258f]
+DefName=iElderGazerIcon
+Name=elder gazer
+Type=tFigurine
+TData3=cElderGazer
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Elder Gazer
+
+[ItemDef 02590]
+DefName=iEfreetIcon
+Name=efreet
+Type=tFigurine
+TData3=cEfreet
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Efreet
+
+[ItemDef 02591]
+DefName=iGhoulIcon
+Name=ghoul
+Type=tFigurine
+TData3=cGhoul
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Ghoul
+
+[ItemDef 0259f]
+DefName=iImpIcon
+Name=imp
+Type=tFigurine
+TData3=cImp
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Imp
+
+[ItemDef 025a0]
+DefName=iKiRinIcon
+Name=ki-rin
+Type=tFigurine
+TData3=cKiRin
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Ki-Rin
+
+[ItemDef 025a2]
+DefName=iKrakenIcon
+Name=kraken
+Type=tFigurine
+TData3=cKraken
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Kraken
+
+[ItemDef 02594]
+DefName=iStoneHarpyIcon
+Name=stone harpy
+Type=tFigurine
+TData3=cStoneHarpy
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Stone Harpy
+
+[ItemDef 02595]
+DefName=iHeadlessIcon
+Name=headless
+Type=tFigurine
+TData3=cHeadless
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Headless (new)
+
+[ItemDef 02596]
+DefName=iHellHoundIcon
+Name=hell hound
+Type=tFigurine
+TData3=cHellHound
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Hell Hound
+
+[ItemDef 02597]
+DefName=iHellcatIcon
+Name=hellcat
+Type=tFigurine
+TData3=cHellcatLarge
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Hellcat
+
+[ItemDef 025b6]
+DefName=iPixieIcon
+Name=pixie
+Type=tFigurine
+TData3=cPixie
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Pixie
+
+[ItemDef 025b7]
+DefName=iRatmanIcon
+Name=ratman
+Type=tFigurine
+TData3=cRatman
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Ratman (new)
+
+[ItemDef 025b8]
+DefName=iRottingCorpseIcon
+Name=rotting corpse
+Type=tFigurine
+TData3=cRottingCorpse
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Rotting Corpse
+
+[ItemDef 02581]
+DefName=iCentaurIcon
+Name=centaur
+Type=tFigurine
+TData3=cCentaur
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Centaur
+
+[ItemDef 02582]
+DefName=iCorpserIcon
+Name=corpser
+Type=tFigurine
+TData3=cCorpser
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Corpser
+
+[ItemDef 02584]
+DefName=iDaemonIcon
+Name=demon
+Type=tFigurine
+TData3=cDaemon
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Daemon (New)
+
+[ItemDef 02585]
+DefName=iBlackGateDaemonIcon
+Name=black gate demon
+Type=tFigurine
+TData3=cBlackGateDaemon
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Black Gate Demon
+
+[ItemDef 02586]
+DefName=iBalronIcon
+Name=balron
+Type=tFigurine
+TData3=cBalron
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Balron
+
+[ItemDef 02587]
+DefName=iIceFiendIcon
+Name=ice fiend
+Type=tFigurine
+TData3=cIceFiend
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Ice Fiend
+
+[ItemDef 025a4]
+DefName=iLichIcon
+Name=lich
+Type=tFigurine
+TData3=cLich
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Lich (New)
+
+[ItemDef 025a5]
+DefName=iLichLordIcon
+Name=lich lord
+Type=tFigurine
+TData3=cLichLord
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Lich Lord
+
+[ItemDef 025a6]
+DefName=iGreaterMongbatIcon
+Name=greater mongbat
+Type=tFigurine
+TData3=cGreaterMongbat
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Greater Mongbat (New)
+
+[ItemDef 025a7]
+DefName=iMummyIcon
+Name=mummy
+Type=tFigurine
+TData3=cMummy
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Mummy
+
+[ItemDef 0212a]
+DefName=iTerathanWarriorIcon
+Name=terathan
+Type=tFigurine
+TData3=cTerathanWarrior
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Terathan
+
+[ItemDef 0212b]
+DefName=iTerathanDroneIcon
+Name=terathan
+Type=tFigurine
+TData3=cTerathanDrone
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Terathan Drone
+
+[ItemDef 0212c]
+DefName=iTerathanMatriarchIcon2
+Name=terathan
+Type=tFigurine
+TData3=cTerathanMatriarch
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Terathan Matriarch
+
+[ItemDef 0212d]
+DefName=iTitanIcon2
+Name=titan
+Type=tFigurine
+TData3=cTitan
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Titan
+
+[ItemDef 0212e]
+DefName=iCyclopeanWarriorIcon
+Name=cyclopean warrior
+Type=tFigurine
+TData3=cCyclopeanWarrior
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Cyclopean Warrior
+
+[ItemDef 02131]
+DefName=iKomodoDragonIcon
+Name=alligator
+Type=tFigurine
+TData3=cKomodoDragon
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Komodo Dragon
+
+[ItemDef 025a1]
+DefName=iKomodoDragonIcon2
+Name=komodo dragon
+Type=tFigurine
+TData3=cKomodoDragon
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Komodo Dragon
+
+[ItemDef 021f1]
+DefName=iFireSteedIcon
+Name=fire steed
+Type=tFigurine
+TData3=cFireSteed
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Fire Steed
+
+[ItemDef 020FD]
+DefName=iGiantSpiderIcon
+Name=giant spider
+Type=tFigurine
+TData3=cGiantSpider
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Giant Spider
+
+[ItemDef 025C6]
+DefName=iGiantSpiderIcon2
+Name=giant spider
+Type=tFigurine
+TData3=cGiantSpider
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Giant Spider
+
+[ItemDef 020fe]
+DefName=iGiantSerpentIcon2
+Name=giant serpent
+Type=tFigurine
+TData3=cGiantSerpent
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Giant Serpent
+
+[ItemDef 02100]
+DefName=iWispIcon
+Name=wisp
+Type=tFigurine
+TData3=cWisp
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Wisp
+
+[ItemDef 02109]
+DefName=iGhoulIcon2
+Name=ghoul
+Type=tFigurine
+TData3=cGhoul
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Ghoul
+
+[ItemDef 0210a]
+DefName=iHeadlessIcon2
+Name=headless
+Type=tFigurine
+TData3=cHeadless
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Headless
+
+[ItemDef 0210b]
+DefName=iWaterElementalIcon2
+Name=water elemental
+Type=tFigurine
+TData3=cWaterElemental
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Water Elemental
+
+[ItemDef 02104]
+DefName=iDaemonIcon3
+Name=demon
+Type=tFigurine
+TData3=cDaemon
+DupeList=02105
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Daemon (large)
+
+[ItemDef 02105]
+//Demon (large)
+DupeItem=02104
+
+[ItemDef 02132]
+DefName=iOphidianShamanIcon
+Name=ophidian shaman
+Type=tFigurine
+TData3=cOphidianShaman
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Ophidian Shaman
+
+[ItemDef 02133]
+DefName=iOphidianWarriorIcon
+Name=ophidian warrior
+Type=tFigurine
+TData3=cOphidianWarrior
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Ophidian Warrior
+
+[ItemDef 02134]
+DefName=iOphidianMatriarchIcon2
+Name=ophidian matriarch
+Type=tFigurine
+TData3=cOphidianMatriarch
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Ophidian Matriarch
+
+[ItemDef 025a9]
+DefName=iOphidianApprenticeMageIcon
+Name=ophidian apprentice mage
+Type=tFigurine
+TData3=cOphidianApprenticeMage
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Ophidian Apprentice Mage (Blueish Archmage)
+
+[ItemDef 025aa]
+DefName=iOphidianKnightErrantIcon
+Name=ophidian knight-errant
+Type=tFigurine
+TData3=cOphidianKnightErrant (Knight)
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Ophidian Knight-Errant
+
+[ItemDef 025AB]
+DefName=iOphidianZealotIcon
+Name=ophidian zealot
+Type=tFigurine
+TData3=cOphidianZealot
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Ophidian Zealot (Greenish Mage)
+
+[ItemDef 025AC]
+DefName=iOphidianMatriarchIcon
+Name=ophidian matriarch
+Type=tFigurine
+TData3=cOphidianMatriarch
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Ophidian Matriarch (new)
+
+[ItemDef 025AD]
+DefName=iOphidianJusticarIcon
+Name=ophidian justicar
+Type=tFigurine
+TData3=cOphidianJusticar
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Ophidian Justicar (Greenish, red chest warrior)
+
+[ItemDef 025AE]
+DefName=iOrcIcon
+Name=orc
+Type=tFigurine
+TData3=cOrc
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Orc (New)
+
+[ItemDef 025AF]
+DefName=iOrcCaptainIcon
+Name=orc captain
+Type=tFigurine
+TData3=cOrcCaptain
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Orc Captain
+
+[ItemDef 025B0]
+DefName=iOrcishLordIcon
+Name=orcish lord
+Type=tFigurine
+TData3=cOrcishLord
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Orcish Lord
+
+[ItemDef 025B1]
+DefName=iOrcishMageIcon
+Name=orcish mage
+Type=tFigurine
+TData3=cOrcishMage
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Orcish Mage
+
+[ItemDef 025f8]
+DefName=iMeerEternalIcon
+Name=meer eternal
+Type=tFigurine
+TData3=cMeerEternal
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Meer Eternal (Adranath)
+
+[ItemDef 025fc]
+DefName=iJukaLordIcon
+Name=juka lord
+Type=tFigurine
+TData3=cJukaLord
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Juka Lord (Warlord Kabur)
+
+[ItemDef 0260f]
+DefName=iGiantBeetleIcon
+Name=giant beetle
+Type=tFigurine
+TData3=cGiantBeetle
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Giant Beetle
+
+[ItemDef 02611]
+DefName=iHordeDaemonIcon
+Name=horde demon
+Type=tFigurine
+TData3=cSmallHordeDaemon
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Horde Daemon (Small)
+
+[ItemDef 02617]
+DefName=iSkekeletalSteedIcon
+Name=skeletal steed
+Type=tFigurine
+TData3=cSkeletalSteed
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Skeletal Steed
+
+[ItemDef 025fa]
+DefName=iMeerCaptainIcon
+Name=Captain Dasha
+Type=tFigurine
+TData3=cMeerCaptain
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Meer Captain (Captain Dasha)
+
+[ItemDef 025ca]
+DefName=iTerathanAvengerIcon
+Name=terathan avenger
+Type=tFigurine
+TData3=cTerathanAvenger
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Terathan Avenger
+
+[ItemDef 025cb]
+DefName=iTerathanMatriarchIcon
+Name=terathan queen
+Type=tFigurine
+TData3=cTerathanMatriarch
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Terathan Queen (new)
+
+[ItemDef 025cc]
+DefName=iTerathanWarriorIcon
+Name=terathan warrior
+Type=tFigurine
+TData3=cTerathanWarrior
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Terathan Warrior (new)
+
+[ItemDef 025CD]
+DefName=iTitanIcon
+Name=titan
+Type=tFigurine
+TData3=cTitan
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Titan (new)
+
+[ItemDef 025C4]
+DefName=iDreadSpiderIcon
+Name=dread spider
+Type=tFigurine
+TData3=cDreadSpider
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Dread Spider
+
+[ItemDef 025C5]
+DefName=iFrostSpiderIcon
+Name=frost spider
+Type=tFigurine
+TData3=cFrostSpider
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Frost Spider
+
+[ItemDef 025c7]
+DefName=iSpectreIcon
+Name=spectre
+Type=tFigurine
+TData3=cSpectre
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Spectre
+
+[ItemDef 025c8]
+DefName=iSwampTentaclesIcon
+Name=swamp tentacles
+Type=tFigurine
+TData3=cSwampTentacles
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Tentacles (swamp)
+
+[ItemDef 025c9]
+DefName=iTerathanDroneIcon
+Name=terathan drone
+Type=tFigurine
+TData3=cTerathanDrone
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Terathan Drone (new)
+
+[ItemDef 025bc]
+DefName=iSkeletonIcon
+Name=skeleton
+Type=tFigurine
+TData3=cSkeleton
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Skeleton (new)
+
+[ItemDef 025bd]
+DefName=iBoneKnightIcon
+Name=bone knight
+Type=tFigurine
+TData3=cBoneKnight
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Bone Knight (Skeleton Knight)
+
+[ItemDef 025be]
+DefName=iBoneMageIcon
+Name=bone mage
+Type=tFigurine
+TData3=cBoneMage
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Bone Mage (Skeleton Mage)
+
+[ItemDef 0261a]
+DefName=iGazerLarvaIcon
+Name=gazer larva
+Type=tFigurine
+TData3=cGazerLarva
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Gazer Larva
+
+[ItemDef 02633]
+DefName=iMoundOfMaggotsIcon
+Name=mound of maggots
+Type=tFigurine
+TData3=cMoundOfMaggots
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Mound of Maggots
+
+[ItemDef 02763]
+DefName=iBakeKitsuneIcon
+Name=bake kitsune
+Type=tFigurine
+TData3=cBakeKitsune
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Bake Kitsune
+
+[ItemDef 0262e]
+DefName=iRavagerIcon
+Name=ravager
+Type=tFigurine
+TData3=cRavager
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Ravager
+
+[ItemDef 02630]
+DefName=iWandererOfTheVoidIcon
+Name=wanderer of the void
+Type=tFigurine
+TData3=cWandererOfTheVoid
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Wanderer of the Void
+
+[ItemDef 02631]
+DefName=iVampireBatIcon
+Name=vampire bat
+Type=tFigurine
+TData3=cVampireBat
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Vampire Bat
+
+[ItemDef 02618]
+DefName=iSphynxIcon
+Name=sphynx
+Type=tFigurine
+TData3=cSphynx
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Sphynx
+[ItemDef 025D4]
+DefName=iWyvernIcon
+Name=wyvern
+Type=tFigurine
+TData3=cWyvern
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Wyvern
+
+[ItemDef 025d5]
+DefName=iZombieIcon
+Name=zombie
+Type=tFigurine
+TData3=cZombie
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Zombie
+
+[ItemDef 025d6]
+DefName=iAcidElementalIcon
+Name=acid elemental
+Type=tFigurine
+TData3=cAcidElemental
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Acid Elemental
+
+[ItemDef 025d7]
+DefName=iAirElementalIcon
+Name=air elemental
+Type=tFigurine
+TData3=cAirElemental
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Air Elemental
+
+[ItemDef 025d8]
+DefName=iBloodElementalIcon
+Name=blood elemental
+Type=tFigurine
+TData3=cBloodElemental
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Blood Elemental
+
+[ItemDef 025d9]
+DefName=iFireElementalIcon
+Name=fire elemental
+Type=tFigurine
+TData3=cFireElemental
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Fire Elemental
+
+[ItemDef 025da]
+DefName=iIceElementalIcon
+Name=ice elemental
+Type=tFigurine
+TData3=cIceElemental
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Ice Elemental
+
+[ItemDef 025db]
+DefName=iPoisonElementalIcon
+Name=poison elemental
+Type=tFigurine
+TData3=cPoisonElemental
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Poison Elemental
+
+[ItemDef 025dc]
+DefName=iSnowElementalIcon
+Name=snow elemental
+Type=tFigurine
+TData3=cSnowElemental
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Snow Elemental
+
+[ItemDef 025dd]
+DefName=iWaterElementalIcon
+Name=water elemental
+Type=tFigurine
+TData3=cWaterElemental
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Water Elemental
+
+[ItemDef 02619]
+DefName=iSwampDragonIcon
+Name=swamp dragon
+Type=tFigurine
+TData3=cSwampDragon
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Swamp Dragon
+
+[ItemDef 0261B]
+DefName=iPlagueBeastlordIcon
+Name=plague beast lord
+Type=tFigurine
+TData3=cPlagueBeastLord
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Plague Beast Lord
+
+[ItemDef 02616]
+DefName=iSandVortexIcon
+Name=sand vortex
+Type=tFigurine
+TData3=cSandVortex
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Sand Vortex
+
+[ItemDef 02613]
+DefName=iPlagueBeastIcon
+Name=plague beast
+Type=tFigurine
+TData3=cPlagueBeast
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Plague Beast
+
+[ItemDef 02614]
+DefName=iQuagmireIcon
+Name=quagmire
+Type=tFigurine
+TData3=cQuagmire
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Quagmire
+
+[ItemDef 02621]
+DefName=iTreefellowIcon
+Name=treefellow
+Type=tFigurine
+TData3=cTreeFellow
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Tree Fellow
+
+[ItemDef 02623]
+DefName=iDevourerOfSoulsIcon
+Name=devourer of souls
+Type=tFigurine
+TData3=cDevourerOfSouls
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Devourer of Souls
+
+[ItemDef 02624]
+DefName=iFleshGolemIcon
+Name=flesh golem
+Type=tFigurine
+TData3=cFleshGolem
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Flesh Golem
+
+[ItemDef 02625]
+DefName=iGoreFiendIcon
+Name=gore fiend
+Type=tFigurine
+TData3=cGoreFiend
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Gore Fiend
+
+[ItemDef 02627]
+DefName=iGibberlingIcon
+Name=gibberling
+Type=tFigurine
+TData3=cGibberling
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Gibberling
+
+[ItemDef 02629]
+DefName=iPatchworkSkeletonIcon
+Name=patchwork skeleton
+Type=tFigurine
+TData3=cPatchworkSkeleton
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Patchwork Skeleton
+
+[ItemDef 020e7]
+DefName=iSkeletonIcon2
+Name=skeleton
+Type=tFigurine
+TData3=cSkeleton
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Skeleton
+
+[ItemDef 020e8]
+DefName=iSlimeIcon
+Name=slime
+Type=tFigurine
+TData3=cSlime
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Slime
+
+[ItemDef 020ec]
+DefName=iZombieIcon2
+Name=zombie
+Type=tFigurine
+TData3=cZombie
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Zombie
+
+[ItemDef 020f3]
+DefName=iFireElementalIcon2
+Name=fire elemental
+Type=tFigurine
+TData3=cFireElemental
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Fire Elemental
+
+[ItemDef 020f4]
+DefName=iGazerIcon
+Name=gazer
+Type=tFigurine
+TData3=cGazer
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Gazer
+
+[ItemDef 02d90]
+DefName=iSatyrIcon
+Name=Satyr
+Type=tFigurine
+TData3=cSatyr
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Satyr
+
+[ItemDef 02d92]
+DefName=iFetidEssenceIcon
+Name=Fetid Essence
+Type=tFigurine
+TData3=cFetidEssence
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Fetid Essence
+
+[ItemDef 02d93]
+DefName=iMantraEffervescentIcon
+Name=Mantra Effervescent
+Type=tFigurine
+TData3=cMantraEffervescent
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Mantra Effervescent
+
+[ItemDef 02d94]
+DefName=iCorporealBrumeIcon
+Name=Corporeal Brume
+Type=tFigurine
+TData3=cCorporealBrume
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Corporeal Brume
+
+[ItemDef 02d95]
+DefName=iReptalonIcon
+Name=Reptalon
+Type=tFigurine
+TData3=cReptalon
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Reptalon
+
+[ItemDef 02d96]
+DefName=iCuSidheIcon
+Name=Cu Sidhe
+Type=tFigurine
+TData3=cCuSidhe
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Cu Sidhe
+
+[ItemDef 02765]
+DefName=iDeathwatchBeetleIcon
+Name=deathwatch beetle
+Type=tFigurine
+TData3=cDeathwatchBeetle
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Deathwatch Beetle
+
+[ItemDef 02766]
+DefName=iRaiJuIcon
+//DefName=idenkouyajuu
+Name=rai-ju
+Type=tFigurine
+TData3=cRaiJu
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Rai-Ju
+//Description=Denkou Rajuu
+
+[ItemDef 02767]
+DefName=iFanDancerIcon
+Name=fan dancer
+Type=tFigurine
+TData3=cFanDancer
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Fan Dancer
+
+[ItemDef 02768]
+DefName=iGamanIcon
+Name=gaman
+Type=tFigurine
+TData3=cGaman
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Gaman
+
+[ItemDef 02769]
+DefName=iKazeKemonoIcon
+Name=kaze kemono
+Type=tFigurine
+TData3=cKazeKemono
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Kaze Kemono
+
+[ItemDef 0276a]
+DefName=iHiryuIcon
+Name=hiryu
+Type=tFigurine
+TData3=cHiryu
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Hiryu
+
+[ItemDef 0276b]
+DefName=iKappaIcon
+Name=kappa
+Type=tFigurine
+TData3=cKappa
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Kappa
+
+[ItemDef 0276c]
+DefName=iLadyOfTheSnowIcon
+Name=lady of the snow
+Type=tFigurine
+TData3=cLadyOfTheSnow
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Lady of the Snow
+
+[ItemDef 0276d]
+DefName=iOniIcon
+Name=oni
+Type=tFigurine
+TData3=cOni
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Oni
+
+[ItemDef 0276e]
+DefName=iRevenantLionIcon
+Name=revenant lion
+Type=tFigurine
+TData3=cRevenantLion
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Revenant Lion
+
+[ItemDef 0276f]
+DefName=iRuneBeetleIcon
+Name=rune beetle
+Type=tFigurine
+TData3=cRuneBeetle
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Rune Beetle
+
+[ItemDef 02770]
+DefName=iTsukiWolfIcon
+Name=tsuki wolf
+Type=tFigurine
+TData3=cTsukiWolf
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Tsuki Wolf
+
+[ItemDef 02771]
+DefName=iYamandonIcon
+Name=yamandon
+Type=tFigurine
+TData3=cYamandon
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Yamandon
+
+[ItemDef 02772]
+DefName=iYomotsuElderIcon
+Name=yomotsu elder
+Type=tFigurine
+TData3=cYomotsuElder
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Yomotsu Elder
+
+[ItemDef 02773]
+DefName=iYomotsuPriestIcon
+Name=yomotsu priest
+Type=tFigurine
+TData3=cYomotsuPriest
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Yomotsu Priest
+
+[ItemDef 0281B]
+DefName=iYomotsuWarriorIcon
+Name=yomotsu warrior
+Type=tFigurine
+TData3=cYomotsuWarrior
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Yomotsu Warrior
+
+[ItemDef 0281c]
+DefName=iFireBeetleIcon
+Name=fire beetle
+Type=tFigurine
+TData3=cFireBeetle
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Beetle (fire)
+
+[ItemDef 02d99]
+DefName=iMinotaurScoutIcon
+Name=Minotaur Scout
+Type=tFigurine
+TData3=cMinotaurScout
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Minotaur Scout
+
+[ItemDef 02d9a]
+DefName=iMinotaurCaptainIcon
+Name=Minotaur Captain
+Type=tFigurine
+TData3=cMinotaurCaptain
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Minotaur Captain
+
+[ItemDef 02d88]
+DefName=iTormentedMinotaurIcon
+Name=Tormented Minotaur
+Type=tFigurine
+TData3=cTormentedMinotaur
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Tormented Minotaur
+
+[ItemDef 02d89]
+DefName=iMinotaurIcon
+Name=Minotaur
+Type=tFigurine
+TData3=cMinotaur
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Minotaur
+
+[ItemDef 02d8a]
+DefName=iChangelingIcon
+Name=Changeling
+Type=tFigurine
+TData3=cChangeling
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Changeling
+
+[ItemDef 02d8b]
+DefName=iHydraIcon
+Name=Hydra
+Type=tFigurine
+TData3=cHydra
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Hydra
+
+[ItemDef 02d8c]
+DefName=iDryadIcon
+Name=Dryad
+Type=tFigurine
+TData3=cDryad
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Dryad
+
+[ItemDef 02d8d]
+DefName=iTroglodyteIcon
+Name=Troglodyte
+Type=tFigurine
+TData3=cTroglodyte
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Trodlodyte
+
+[ItemDef 020ed]
+DefName=iAirElementalIcon2
+Name=air elemental
+Type=tFigurine
+TData3=cAirElemental
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Air Elemental
+
+[ItemDef 0262a]
+DefName=iWailingBansheeIcon
+Name=wailing banshee
+Type=tFigurine
+TData3=cWailingBanshee
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Wailing Banshee
+
+[ItemDef 0260D]
+DefName=iDopplegangerIcon
+Name=doppleganger
+Type=tFigurine
+TData3=cDoppleganger
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Doppleganger
+
+[ItemDef 0260E]
+DefName=iMolochIcon
+Name=moloch
+Type=tFigurine
+TData3=cMoloch
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Moloch
+
+[ItemDef 02602]
+DefName=iRedSolenQueenIcon
+Name=red solen queen
+Type=tFigurine
+TData3=cRedSolenQueen
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Red Solen Queen
+
+[ItemDef 02603]
+DefName=iRedSolenWarriorIcon
+Name=red solen warrior
+Type=tFigurine
+TData3=cSolenWarrior
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Red Solen Warrior
+
+[ItemDef 02604]
+DefName=iRedSolenWorkerIcon
+Name=red solen worker
+Type=tFigurine
+TData3=cRedSolenWorker
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Red Solen Worker
+
+[ItemDef 02605]
+DefName=iArcaneDaemonIcon
+Name=arcane daemon
+Type=tFigurine
+TData3=cArcaneDaemon
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Arcane Daemon
+
+[ItemDef 02607]
+DefName=iBoglingIcon
+Name=bogling
+Type=tFigurine
+TData3=cBogling
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Bogling
+
+[ItemDef 02608]
+DefName=iBogThingIcon
+Name=bog thing
+Type=tFigurine
+TData3=cBogThing
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Bog Thing
+
+[ItemDef 02609]
+DefName=iChaosDemonIcon
+Name=chaos demon
+Type=tFigurine
+TData3=cChaosDemon
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Chaos Demon
+
+[ItemDef 0261C]
+DefName=iMeerMageIcon
+Name=meer mage
+Type=tFigurine
+TData3=cMeerMage
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Meer Mage
+
+[ItemDef 0261D]
+DefName=iMeerWarriorIcon
+Name=meer warrior
+Type=tFigurine
+TData3=cMeerWarrior
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Meer Warrior
+
+[ItemDef 0261E]
+DefName=iJukaMageIcon
+Name=juka mage
+Type=tFigurine
+TData3=cJukaMage
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Juka Mage
+
+[ItemDef 0261F]
+DefName=iJukaWarriorIcon
+Name=juka warrior
+Type=tFigurine
+TData3=cJukaWarrior
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Juka Warrior
+
+[ItemDef 02620]
+DefName=iCrystalElementalIcon
+Name=crystal elemental
+Type=tFigurine
+TData3=cCrystalElemental
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Crystal Elemental
+
+[ItemDef 020D8]
+DefName=iEttinIcon
+Name=ettin
+Type=tFigurine
+TData3=cEttin
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Ettin
+
+[ItemDef 020c8]
+DefName=iEttinIcon2
+Name=ettin
+Type=tFigurine
+TData3=cEttin
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Ettin (Large Frame)
+
+[ItemDef 020DE]
+DefName=iLizardmanIcon
+Name=lizardman
+Type=tFigurine
+TData3=cLizardman
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Lizardman
+
+[ItemDef 020CA]
+DefName=iLizardmanIcon2
+Name=lizardman
+Type=tFigurine
+TData3=cLizardman
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Lizardman (Large Frame)
+
+[ItemDef 020DF]
+DefName=iOgreIcon
+Name=ogre
+Type=tFigurine
+TData3=cOgre
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Ogre
+
+[ItemDef 020cb]
+DefName=iOgreIcon2
+Name=ogre
+Type=tFigurine
+TData3=cOgre
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Ogre (Large Frame)
+
+[ItemDef 025A8]
+DefName=iOgreLordIcon
+Name=ogre lord
+Type=tFigurine
+TData3=cOgreLord
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Ogre Lord
+
+[ItemDef 020E9]
+DefName=iTrollIcon
+Name=troll
+Type=tFigurine
+TData3=cTroll
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Troll
+
+[ItemDef 020CC]
+DefName=iTrollIcon2
+Name=troll
+Type=tFigurine
+TData3=cTroll
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Troll (Large Frame)
+
+[ItemDef 0260B]
+DefName=iExodusMinionIcon
+Name=exodus minion
+Type=tFigurine
+TData3=cExodusMinion
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Exodus Minion
+
+[ItemDef 0260C]
+DefName=iExodusOverseerIcon
+Name=exodus overseer
+Type=tFigurine
+TData3=cExodusOverseer
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Exodus Overseer
+
+[ItemDef 02612]
+DefName=iBlackthornJuggernautIcon
+Name=blackthorn juggernaut
+Type=tFigurine
+TData3=cBlackthornJuggernaut
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Blackthorn Juggernaut
+
+[ItemDef 02606]
+DefName=iBetrayerIcon
+Name=betrayer
+Type=tFigurine
+TData3=cBetrayer
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Betrayer
+
+[ItemDef 02610]
+DefName=iGolemIcon
+Name=Golem
+Type=tFigurine
+TData3=cGolem
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Golem
+
+[ItemDef 02117]
+DefName=iVollemIcon
+Name=Vollem
+Type=tFigurine
+TData3=cVollem
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Vollem
+
+[ItemDef 04290]
+DefName=iVollemIcon2
+Name=Vollem
+Type=tFigurine
+TData3=cVollem
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Vollem
+
+[ItemDef 04295]
+DefName=iHomunculusIcon
+Name=Homunculus
+Type=tFigurine
+TData3=cHomunculus
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Homunculus
+
+[ItemDef 0429C]
+DefName=iRisingColossusIcon
+Name=rising colossus
+Type=tFigurine
+TData3=cRisingColossus
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Rising Colossus
+
+[ItemDef 042A5]
+DefName=iStoneFormIcon
+Name=Stone Form
+Type=tFigurine
+TData3=cStoneForm
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Stone Form
+
+[ItemDef 02112]
+DefName=iClockworkScorpionIcon
+Name=Clockwork Scorpion
+Type=tFigurine
+TData3=cClockworkScorpion
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Clockwork Scorpion
+
+[ItemDef 0428B]
+DefName=iClockworkScorpionIcon2
+Name=Clockwork Scorpion
+Type=tFigurine
+TData3=cClockworkScorpion
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Clockwork Scorpion
+
+[ItemDef 02113]
+DefName=iFairyDragonIcon
+Name=Fairy Dragon
+Type=tFigurine
+TData3=cFairyDragon
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Fairy Dragon
+
+[ItemDef 0428C]
+DefName=iFairyDragonIcon2
+Name=Fairy Dragon
+Type=tFigurine
+TData3=cFairyDragon
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Fairy Dragon
+
+[ItemDef 02114]
+DefName=iDragonWolfIcon
+Name=dragon wolf
+Type=tFigurine
+TData3=cDragonWolf
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Dragon Wolf
+
+[ItemDef 0428D]
+DefName=iDragonWolfIcon2
+Name=dragon wolf
+Type=tFigurine
+TData3=cDragonWolf
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Dragon Wolf
+
+[ItemDef 02115]
+DefName=iLavaElementalIcon
+Name=Lava Elemental
+Type=tFigurine
+TData3=cLavaElemental
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Lava Elemental
+
+[ItemDef 0428E]
+DefName=iLavaElementalIcon2
+Name=Lava Elemental
+Type=tFigurine
+TData3=cLavaElemental
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Lava Elemental
+
+[ItemDef 02116]
+DefName=iMaddeningHorrorIcon
+Name=Maddening Horror
+Type=tFigurine
+TData3=cMaddeningHorror
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Maddening Horror
+
+[ItemDef 0428F]
+DefName=iMaddeningHorrorIcon2
+Name=Maddening Horror
+Type=tFigurine
+TData3=cMaddeningHorror
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Maddening Horror
+
+[ItemDef 0422F]
+DefName=iPhoenixIcon
+Name=Phoenix
+Type=tFigurine
+TData3=cPhoenix
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Phoenix
+
+[ItemDef 04230]
+DefName=iGreaterPhoenixIcon
+Name=Phoenix
+Type=tFigurine
+TData3=cGreaterPhoenix
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Greater Phoenix
+
+[ItemDef 04291]
+DefName=iUndeadGargoyleIcon
+Name=undead gargoyle
+Type=tFigurine
+TData3=cUndeadGargoyle
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Undead Gargoyle
+
+[ItemDef 04294]
+DefName=iGremlinIcon
+Name=gremlin
+Type=tFigurine
+TData3=cGremlin
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Gremlin
+
+[ItemDef 02139]
+DefName=iGreenGoblinIcon
+Name=Green Goblin
+Type=tFigurine
+TData3=cGreenGoblin
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Green Goblin
+
+[ItemDef 04292]
+DefName=iGreenGoblinIcon2
+Name=Green Goblin
+Type=tFigurine
+TData3=cGreenGoblin
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Green Goblin
+
+[ItemDef 02138]
+DefName=iGreyGoblinIcon
+Name=Grey Goblin
+Type=tFigurine
+TData3=cGreyGoblin
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Grey Goblin
+
+[ItemDef 04293]
+DefName=iGreyGoblinIcon2
+Name=Grey Goblin
+Type=tFigurine
+TData3=cGreyGoblin
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Grey Goblin
+
+[ItemDef 0213B]
+DefName=iKepetchIcon
+Name=Kepetch
+Type=tFigurine
+TData3=cKepetch
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Kepetch
+
+[ItemDef 04296]
+DefName=iKepetchIcon2
+Name=Kepetch
+Type=tFigurine
+TData3=cKepetch
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Kepetch
+
+[ItemDef 0213C]
+DefName=iShornKepetchIcon
+Name=Shorn Kepetch
+Type=tFigurine
+TData3=cShornKepetch
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Kepetch (Shorn)
+
+[ItemDef 04297]
+DefName=iShornKepetchIcon2
+Name=Shorn Kepetch
+Type=tFigurine
+TData3=cShornKepetch
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Kepetch (Shorn)
+
+[ItemDef 04299]
+DefName=iMimicIcon
+Name=Mimic
+Type=tFigurine
+TData3=cMimic
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Mimic
+
+[ItemDef 0213E]
+DefName=iRaptorIcon
+Name=Raptor
+Type=tFigurine
+TData3=cRaptor
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Raptor
+
+[ItemDef 0429B]
+DefName=iRaptorIcon2
+Name=Raptor
+Type=tFigurine
+TData3=cRaptor
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Raptor
+
+[ItemDef 02150]
+DefName=iRotwormIcon
+Name=Rotworm
+Type=tFigurine
+TData3=cRotworm
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Rotworm
+
+[ItemDef 0429D]
+DefName=iRotwormIcon2
+Name=Rotworm
+Type=tFigurine
+TData3=cRotworm
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Rotworm
+
+[ItemDef 0429E]
+DefName=iDreamWraithIcon
+Name=dream wraith
+Type=tFigurine
+TData3=cDreamWraith
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Dream Wraith
+
+[ItemDef 02151]
+DefName=iSkreeIcon
+Name=skree
+Type=tFigurine
+TData3=cSkree
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Skree
+
+[ItemDef 0429F]
+DefName=iSkreeIcon2
+Name=skree
+Type=tFigurine
+TData3=cSkree
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Skree
+
+[ItemDef 02152]
+DefName=iSlithIcon
+Name=slith
+Type=tFigurine
+TData3=cSlith
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Slith
+
+[ItemDef 042A1]
+DefName=iSlithIcon2
+Name=slith
+Type=tFigurine
+TData3=cSlith
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Slith
+
+[ItemDef 02154]
+DefName=iWolfSpiderIcon
+Name=wolf spider
+Type=tFigurine
+TData3=cWolfSpider
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Wolf Spider
+
+[ItemDef 042A3]
+DefName=iWolfSpiderIcon2
+Name=wolf spider
+Type=tFigurine
+TData3=cWolfSpider
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Wolf Spider
+
+[ItemDef 042A4]
+DefName=iTrapDoorSpiderIcon
+Name=Trap Door Spider
+Type=tFigurine
+TData3=cTrapDoorSpider
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Trap Door Spider
+
+[ItemDef 02156]
+DefName=iFireAntIcon
+Name=Fire Ant
+Type=tFigurine
+TData3=cFireAnt
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Fire Ant
+
+[ItemDef 042A7]
+DefName=iFireAntIcon2
+Name=Fire Ant
+Type=tFigurine
+TData3=cFireAnt
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Fire Ant
+
+[ItemDef 042A8]
+DefName=iTunnelSpiritIcon
+Name=tunnel spirit
+Type=tFigurine
+TData3=cTunnelSpirit
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Tunnel Spirit
+
+[ItemDef 02157]
+DefName=iLeatherWolfIcon
+Name=Leather Wolf
+Type=tFigurine
+TData3=cLeatherWolf
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Leather Wolf
+
+[ItemDef 042A9]
+DefName=iLeatherWolfIcon2
+Name=Leather Wolf
+Type=tFigurine
+TData3=cLeatherWolf
+
+Category=Miscellaneous
+Subsection=Icons: Monsters
+Description=Leather Wolf
+
+////////////
+// Bosses //
+////////////
+
+[ItemDef 025bb]
+DefName=iHarrowerIcon
+Name=Harrower
+Type=tFigurine
+TData3=cHarrower
+
+Category=Miscellaneous
+Subsection=Icons: Bosses
+Description=Harrower
+
+[ItemDef 025c3]
+DefName=iMephitisIcon
+Name=Mephitis
+Type=tFigurine
+TData3=cMephitis
+
+Category=Miscellaneous
+Subsection=Icons: Bosses
+Description=Mephitis
+
+[ItemDef 02626]
+DefName=iImpalerIcon
+Name=impaler
+Type=tFigurine
+TData3=cImpaler
+
+Category=Miscellaneous
+Subsection=Icons: Bosses
+Description=Impaler
+
+[ItemDef 02628]
+DefName=iDaemonBoneIcon
+Name=bone demon
+Type=tFigurine
+TData3=cBoneDaemon
+
+Category=Miscellaneous
+Subsection=Icons: Bosses
+Description=Bone Daemon
+
+[ItemDef 0262b]
+DefName=iShadowKnightIcon
+Name=shadow knight
+Type=tFigurine
+TData3=cShadowKnight
+
+Category=Miscellaneous
+Subsection=Icons: Bosses
+Description=Shadow Knight
+
+[ItemDef 0262c]
+DefName=iAbyssmalHorrorIcon
+Name=abyssmal horror
+Type=tFigurine
+TData3=cAbyssmalHorror
+
+Category=Miscellaneous
+Subsection=Icons: Bosses
+Description=Abyssmal Horror
+
+[ItemDef 0262d]
+DefName=iDarknightCreeperIcon
+Name=darknight creeper
+Type=tFigurine
+TData3=cDarknightCreeper
+
+Category=Miscellaneous
+Subsection=Icons: Bosses
+Description=Darknight Creeper
+
+[ItemDef 0262f]
+DefName=iFleshRendererIcon
+Name=flesh renderer
+Type=tFigurine
+TData3=cFleshRenderer
+
+Category=Miscellaneous
+Subsection=Icons: Bosses
+Description=Flesh Renderer
+
+[ItemDef 02632]
+DefName=iDaemonKnightIcon
+Name=daemon knight
+Type=tFigurine
+TData3=cDaemonKnight
+
+Category=Miscellaneous
+Subsection=Icons: Bosses
+Description=Daemon Knight (Dark Father)
+
+[ItemDef 02d82]
+DefName=iChiefParoxysmusIcon
+Name=chief Paroxysmus
+Type=tFigurine
+TData3=cChiefParoxysmus
+
+Category=Miscellaneous
+Subsection=Icons: Bosses
+Description=Chief Paroxysmus
+
+[ItemDef 02d83]
+DefName=iDreadHornIcon
+Name=dread horn
+Type=tFigurine
+TData3=cDreadHorn
+
+Category=Miscellaneous
+Subsection=Icons: Bosses
+Description=Dread Horn
+
+[ItemDef 02d84]
+DefName=iLadyMelisandeIcon
+Name=Lady Melisande
+Type=tFigurine
+TData3=cLadyMelisande
+
+Category=Miscellaneous
+Subsection=Icons: Bosses
+Description=Lady Melisande
+
+[ItemDef 02d85]
+DefName=iMonstrousInterredGrizzleIcon
+Name=Monsterous Interred Grizzle
+Type=tFigurine
+TData3=cMonstrousInterredGrizzle
+
+Category=Miscellaneous
+Subsection=Icons: Bosses
+Description=Monsterous Interred Grizzle
+
+[ItemDef 02d87]
+DefName=iShimmeringEffusionIcon
+Name=Shimmering Effusion
+Type=tFigurine
+TData3=cShimmeringEffusion
+
+Category=Miscellaneous
+Subsection=Icons: Bosses
+Description=Shimmering Effusion
+
+[ItemDef 042A6]
+DefName=iStygianDragonIcon
+Name=Stygian Dragon
+Type=tFigurine
+TData3=cStygianDragon
+
+Category=Miscellaneous
+Subsection=Icons: Bosses
+Description=Stygian Dragon
+
+[ItemDef 02634]
+DefName=iCrimsonDragonIcon
+Name=Crimson Dragon
+Type=tFigurine
+TData3=cCrimsonDragon
+
+Category=Miscellaneous
+Subsection=Icons: Bosses
+Description=Crimson Dragon
+
+[ItemDef 02635]
+DefName=iPlatinumDragonIcon
+Name=Platinum Dragon
+Type=tFigurine
+TData3=cPlatinumDragon
+
+Category=Miscellaneous
+Subsection=Icons: Bosses
+Description=Platinum Dragon
+
+[ItemDef 03FFD]
+DefName=iAncientHellhoundIcon
+Name=ancient hellhound
+Type=tFigurine
+TData3=cAncientHellhound
+
+Category=Miscellaneous
+Subsection=Icons: Bosses
+Description=Ancient Hellhound
+
+[ItemDef 04C06]
+DefName=iVirtuebaneIcon
+Name=Virtuebane
+Type=tFigurine
+TData3=cCirtuebane
+
+category=Miscellaneous
+subsection=Icons: Bosses
+description=Virtuebane
+
+[ItemDef 0210E]
+DefName=iAbyssalInfernalIcon
+Name=Abyssal Infernal
+Type=tFigurine
+TData3=cAbyssalInfernal
+
+Category=Miscellaneous
+Subsection=Icons: Bosses
+Description=Abyssal Infernal
+
+[ItemDef 04287]
+DefName=iAbyssalInfernalIcon2
+Name=Abyssal Infernal
+Type=tFigurine
+TData3=cAbyssalInfernal
+
+Category=Miscellaneous
+Subsection=Icons: Bosses
+Description=Abyssal Infernal
+
+[ItemDef 0213D]
+DefName=iMedusaIcon
+Name=Medusa
+Type=tFigurine
+TData3=cMedusa
+
+Category=Miscellaneous
+Subsection=Icons: Bosses
+Description=Medusa
+
+[ItemDef 04298]
+DefName=iMedusaIcon2
+Name=Medusa
+Type=tFigurine
+TData3=cMedusa
+
+Category=Miscellaneous
+Subsection=Icons: Bosses
+Description=Medusa
+
+[ItemDef 0429A]
+DefName=iPrimevalLichIcon
+Name=Primeval Lich
+Type=tFigurine
+TData3=cPrimevalLich
+
+Category=Miscellaneous
+Subsection=Icons: Bosses
+Description=Primeval Lich
+
+[ItemDef 042A0]
+DefName=iSlasherofVeilsIcon
+Name=Slasher of Veils
+Type=tFigurine
+TData3=cSlasherofVeils
+
+Category=Miscellaneous
+Subsection=Icons: Bosses
+Description=Slasher of Veils
+
+[ItemDef 02153]
+DefName=iNavreyNightEyesIcon
+Name=Navrey Night-Eyes
+Type=tFigurine
+TData3=cNavreyNightEyes
+
+Category=Miscellaneous
+Subsection=Icons: Bosses
+Description=Navrey Night-Eyes
+
+[ItemDef 042A2]
+DefName=iNavreyNightEyesIcon2
+Name=Navrey Night-Eyes
+Type=tFigurine
+TData3=cNavreyNightEyes
+
+Category=Miscellaneous
+Subsection=Icons: Bosses
+Description=Navrey Night-Eyes
+
+[ItemDef 04C07]
+DefName=iNavreyNightEyesIcon3
+Name=Navrey Night-Eyes
+Type=tFigurine
+TData3=cNavreyNightEyes
+
+category=Miscellaneous
+subsection=Icons: Bosses
+description=Navrey Night-Eyes
+
+[ItemDef 04C08]
+DefName=iClockworkExodusIcon
+Name=Clockwork Exodus
+Type=tFigurine
+TData3=cClockworkExodus
+
+Category=Miscellaneous
+Subsection=Icons: Bosses
+Description=Clockwork Exodus
+
+[ItemDef 09848]
+DefName=iDragonTurtleIcon
+Name=dragon turtle
+Type=tFigurine
+TData3=cDragonTurtle
+
+Category=Miscellaneous
+Subsection=Icons: Bosses
+Description=Dragon Turtle
+
+[EOF]

@@ -1,0 +1,696 @@
+//****************************************************************************
+// SPHERE by : Menasoft ©1997-2007
+// www.sphereserver.com
+// All SPHERE script files and formats are copyright Menasoft & Partners.
+// This file may be freely edited for personal use, but may not be distributed
+// in whole or in part, in any format without express written permission from
+// Menasoft & Partners. All donations and contributions
+// become the property of Menasoft & Partners.
+//****************************************************************************
+// FILE LAST UPDATED: Wednesday, October 16, 2013
+//
+VERSION=0.56c
+
+
+[MultiDef 01db0]
+DefName=mWoodenStairsSN
+Type=tMulti
+Name=wooden stairs
+MultiRegion=0,-3,0,0
+
+Category=Multis
+Subsection=Stairs
+Description=Wooden Stairs (s->n)
+
+[MultiDef 01db1]
+DefName=mWoodenStairsWE
+Type=tMulti
+Name=wooden stairs
+MultiRegion=0,0,3,0
+
+Category=Multis
+Subsection=Stairs
+Description=Wooden Stairs (w->e)
+
+[MultiDef 01db2]
+DefName=mWoodenStairsNS
+Type=tMulti
+Name=wooden stairs
+MultiRegion=0,0,0,3
+
+Category=Multis
+Subsection=Stairs
+Description=Wooden Stairs (n->s)
+
+[MultiDef 01db3]
+DefName=mWoodenStairsEW
+Type=tMulti
+Name=wooden stairs
+MultiRegion=-3,0,0,0
+Category=Multis
+Subsection=Stairs
+Description=Wooden Stairs (e->w)
+
+[MultiDef 01db4]
+DefName=mStoneStairsSN
+Type=tMulti
+Name=stone stairs
+MultiRegion=0,-3,0,0
+
+Category=Multis
+Subsection=Stairs
+Description=Stone Stairs (s->n)
+
+[MultiDef 01db5]
+DefName=mStoneStairsWE
+Type=tMulti
+Name=stone stairs
+MultiRegion=0,0,3,0
+
+Category=Multis
+Subsection=Stairs
+Description=Stone Stairs (w->e)
+
+[MultiDef 01db6]
+DefName=mStoneStairsNS
+Type=tMulti
+Name=stone stairs
+MultiRegion=0,0,0,3
+
+Category=Multis
+Subsection=Stairs
+Description=Stone Stairs (n->s)
+
+[MultiDef 01db7]
+DefName=mStoneStairsEW
+Type=tMulti
+Name=stone stairs
+MultiRegion=-3,0,0,0
+
+Category=Multis
+Subsection=Stairs
+Description=Stone Stairs (e->w)
+
+[MultiDef 01db8]
+DefName=mStoneStairs1SN
+Type=tMulti
+Name=stone stairs
+MultiRegion=0,-3,0,0
+
+Category=Multis
+Subsection=Stairs
+Description=Stone Stairs (s->n)
+
+[MultiDef 01db9]
+DefName=mStoneStairs1WE
+Type=tMulti
+Name=stone stairs
+MultiRegion=0,0,3,0
+
+Category=Multis
+Subsection=Stairs
+Description=Stone Stairs (w->e)
+
+[MultiDef 01dba]
+DefName=mStoneStairs1NS
+Type=tMulti
+Name=stone stairs
+MultiRegion=0,0,0,3
+
+Category=Multis
+Subsection=Stairs
+Description=Stone Stairs (n->s)
+
+[MultiDef 01dbb]
+DefName=mStoneStairs1EW
+Type=tMulti
+Name=stone stairs
+MultiRegion=-3,0,0,0
+
+Category=Multis
+Subsection=Stairs
+Description=Stone Stairs (e->w)
+
+[MultiDef 01dbc]
+DefName=mWoodenStairs1SN
+Type=tMulti
+Name=wooden stairs
+MultiRegion=0,-3,0,0
+
+Category=Multis
+Subsection=Stairs
+Description=Wooden Stairs (s->n)
+
+[MultiDef 01dbd]
+DefName=mWoodenStairs1WE
+Type=tMulti
+Name=wooden stairs
+MultiRegion=0,0,3,0
+
+Category=Multis
+Subsection=Stairs
+Description=Wooden Stairs (w->e)
+
+[MultiDef 01dbe]
+DefName=mWoodenStairs1NS
+Type=tMulti
+Name=wooden stairs
+MultiRegion=0,0,0,3
+
+Category=Multis
+Subsection=Stairs
+Description=Wooden Stairs (n->s)
+
+[MultiDef 01dbf]
+DefName=mWoodenStairs1EW
+Type=tMulti
+Name=wooden stairs
+MultiRegion=-3,0,0,0
+
+Category=Multis
+Subsection=Stairs
+Description=Wooden Stairs (e->w)
+
+[MultiDef 01dc0]
+DefName=mStoneStairs2SN
+Type=tMulti
+Name=stone stairs
+MultiRegion=0,-3,0,0
+
+Category=Multis
+Subsection=Stairs
+Description=Stone Stairs (s->n)
+
+[MultiDef 01dc1]
+DefName=mStoneStairs2WE
+Type=tMulti
+Name=stone stairs
+MultiRegion=0,0,3,0
+
+Category=Multis
+Subsection=Stairs
+Description=Stone Stairs (w->e)
+
+[MultiDef 01dc2]
+DefName=mStoneStairs2NS
+Type=tMulti
+Name=stone stairs
+MultiRegion=0,0,0,3
+
+Category=Multis
+Subsection=Stairs
+Description=Stone Stairs (n->s)
+
+[MultiDef 01dc3]
+DefName=mStoneStairs2EW
+Type=tMulti
+Name=stone stairs
+MultiRegion=-3,0,0,0
+
+Category=Multis
+Subsection=Stairs
+Description=Stone Stairs (e->w)
+
+[MultiDef 01dc4]
+DefName=mMarbleStairsSN
+Type=tMulti
+Name=marble stairs
+MultiRegion=0,-3,0,0
+
+Category=Multis
+Subsection=Stairs
+Description=Marble Stairs (s->n)
+
+[MultiDef 01dc5]
+DefName=mMarbleStairsWE
+Type=tMulti
+Name=marble stairs
+MultiRegion=0,0,3,0
+
+Category=Multis
+Subsection=Stairs
+Description=Marble Stairs (w->e)
+
+[MultiDef 01dc6]
+DefName=mMarbleStairsNS
+Type=tMulti
+Name=marble stairs
+MultiRegion=0,0,0,3
+
+Category=Multis
+Subsection=Stairs
+Description=Marble Stairs (n->s)
+
+[MultiDef 01dc7]
+DefName=mMarbleStairsEW
+Type=tMulti
+Name=marble stairs
+MultiRegion=-3,0,0,0
+
+Category=Multis
+Subsection=Stairs
+Description=Marble Stairs (e->w)
+
+[MultiDef 01dc8]
+DefName=mStoneStairs3SN
+Type=tMulti
+Name=stone stairs
+MultiRegion=0,-3,0,0
+
+Category=Multis
+Subsection=Stairs
+Description=Stone Stairs (s->n)
+
+[MultiDef 01dc9]
+DefName=mStoneStairs3WE
+Type=tMulti
+Name=stone stairs
+MultiRegion=0,0,3,0
+
+Category=Multis
+Subsection=Stairs
+Description=Stone Stairs (w->e)
+
+[MultiDef 01dca]
+DefName=mStoneStairs3NS
+Type=tMulti
+Name=stone stairs
+MultiRegion=0,0,0,3
+
+Category=Multis
+Subsection=Stairs
+Description=Stone Stairs (n->s)
+
+[MultiDef 01dcb]
+DefName=mStoneStairs3EW
+Type=tMulti
+Name=stone stairs
+MultiRegion=-3,0,0,0
+
+Category=Multis
+Subsection=Stairs
+Description=Stone Stairs (e->w)
+
+[MultiDef 01dcc]
+DefName=mSandstoneStairsSN
+Type=tMulti
+Name=sandstone stairs
+MultiRegion=0,-3,0,0
+
+Category=Multis
+Subsection=Stairs
+Description=Sandstone Stairs (s->n)
+
+[MultiDef 01dcd]
+DefName=mSandstoneStairsWE
+Type=tMulti
+Name=sandstone stairs
+MultiRegion=0,0,3,0
+
+Category=Multis
+Subsection=Stairs
+Description=Sandstone Stairs (w->e)
+
+[MultiDef 01dce]
+DefName=mSandstoneStairsNS
+Type=tMulti
+Name=sandstone stairs
+MultiRegion=0,0,0,3
+
+Category=Multis
+Subsection=Stairs
+Description=Sandstone Stairs (n->s)
+
+[MultiDef 01dcf]
+DefName=mSandstoneStairsEW
+Type=tMulti
+Name=sandstone stairs
+MultiRegion=-3,0,0,0
+
+Category=Multis
+Subsection=Stairs
+Description=Sandstone Stairs (e->w)
+
+[MultiDef 01dd0]
+DefName=mStoneStairs4SN
+Type=tMulti
+Name=stone stairs
+MultiRegion=0,-3,0,0
+
+Category=Multis
+Subsection=Stairs
+Description=Stone Stairs (s->n)
+
+[MultiDef 01dd1]
+DefName=mStoneStairs4WE
+Type=tMulti
+Name=stone stairs
+MultiRegion=0,0,3,0
+
+Category=Multis
+Subsection=Stairs
+Description=Stone Stairs (w->e)
+
+[MultiDef 01dd2]
+DefName=mStoneStairs4NS
+Type=tMulti
+Name=stone stairs
+MultiRegion=0,0,0,3
+
+Category=Multis
+Subsection=Stairs
+Description=Stone Stairs (n->s)
+
+[MultiDef 01dd3]
+DefName=mStoneStairs4EW
+Type=tMulti
+Name=stone stairs
+MultiRegion=-3,0,0,0
+
+Category=Multis
+Subsection=Stairs
+Description=Stone Stairs (e->w)
+
+[MultiDef 01dd4]
+DefName=mCarpetedStairsSN
+Type=tMulti
+Name=carpeted stairs
+MultiRegion=0,-3,0,0
+
+Category=Multis
+Subsection=Stairs
+Description=Carpeted Stairs (s->n)
+
+[MultiDef 01dd5]
+DefName=mCarpetedStairsWE
+Type=tMulti
+Name=carpeted stairs
+MultiRegion=0,0,3,0
+
+Category=Multis
+Subsection=Stairs
+Description=Carpeted Stairs (w->e)
+
+[MultiDef 01dd6]
+DefName=mCarpetedStairsNS
+Type=tMulti
+Name=carpeted stairs
+MultiRegion=0,0,0,3
+
+Category=Multis
+Subsection=Stairs
+Description=Carpeted Stairs (n->s)
+
+[MultiDef 01dd7]
+DefName=mCarpetedStairsEW
+Type=tMulti
+Name=carpeted stairs
+MultiRegion=-3,0,0,0
+
+Category=Multis
+Subsection=Stairs
+Description=Carpeted Stairs (e->w)
+
+[MultiDef 01dd8]
+DefName=mCrystalStairsSN
+Type=tMulti
+Name=crystal stairs
+MultiRegion=0,-3,0,0
+
+Category=Multis
+Subsection=Stairs
+Description=Crystal Stairs (s->n)
+
+[MultiDef 01dd9]
+DefName=mCrystalStairsWE
+Type=tMulti
+Name=crystal stairs
+MultiRegion=0,0,3,0
+
+Category=Multis
+Subsection=Stairs
+Description=Crystal Stairs (w->e)
+
+[MultiDef 01dda]
+DefName=mCrystalStairsNS
+Type=tMulti
+Name=crystal stairs
+MultiRegion=0,0,0,3
+
+Category=Multis
+Subsection=Stairs
+Description=Crystal Stairs (n->s)
+
+[MultiDef 01ddb]
+DefName=mCrystalStairsEW
+Type=tMulti
+Name=crystal stairs
+MultiRegion=-3,0,0,0
+
+Category=Multis
+Subsection=Stairs
+Description=Crystal Stairs (e->w)
+
+[MultiDef 01ddc]
+DefName=mShadowStairsSN
+Type=tMulti
+Name=shadow stairs
+MultiRegion=0,-3,0,0
+
+Category=Multis
+Subsection=Stairs
+Description=Shadow Stairs (s->n)
+
+[MultiDef 01ddd]
+DefName=mShadowStairsWE
+Type=tMulti
+Name=shadow stairs
+MultiRegion=0,0,3,0
+
+Category=Multis
+Subsection=Stairs
+Description=Shadow Stairs (w->e)
+
+[MultiDef 01dde]
+DefName=mShadowStairsNS
+Type=tMulti
+Name=shadow stairs
+MultiRegion=0,0,0,3
+
+Category=Multis
+Subsection=Stairs
+Description=Shadow Stairs (n->s)
+
+[MultiDef 01ddf]
+DefName=mShadowStairsEW
+Type=tMulti
+Name=shadow stairs
+MultiRegion=-3,0,0,0
+
+Category=Multis
+Subsection=Stairs
+Description=Shadow Stairs (e->w)
+
+
+[MultiDef 01de0]
+DefName=mGargoyleStairs1SN
+Name=gargoyle stairs
+Type=tMulti
+MultiRegion=0,-3,0,0
+
+Category=Multis
+Subsection=Stairs
+Description=Gargoyle Stairs (s->n)
+
+[MultiDef 01de1]
+DefName=mGargoyleStairs1WE
+Name=gargoyle stairs
+Type=tMulti
+MultiRegion=0,0,3,0
+
+Category=Multis
+Subsection=Stairs
+Description=Gargoyle Stairs (w->e)
+
+[MultiDef 01de2]
+DefName=mGargoyleStairs1NS
+Name=gargoyle stairs
+Type=tMulti
+MultiRegion=0,0,0,3
+
+Category=Multis
+Subsection=Stairs
+Description=Gargoyle Stairs (n->s)
+
+[MultiDef 01de3]
+DefName=mGargoyleStairs1EW
+Name=gargoyle stairs
+Type=tMulti
+MultiRegion=-3,0,0,0
+
+Category=Multis
+Subsection=Stairs
+Description=Gargoyle Stairs (e->w)
+
+[MultiDef 01de4]
+DefName=mGargoyleStairs2SN
+Name=gargoyle stairs
+Type=tMulti
+MultiRegion=0,-3,0,0
+
+Category=Multis
+Subsection=Stairs
+Description=Gargoyle Stairs L (s->n)
+
+[MultiDef 01de5]
+DefName=mGargoyleStairs2WE
+Name=gargoyle stairs
+Type=tMulti
+MultiRegion=0,0,3,0
+
+Category=Multis
+Subsection=Stairs
+Description=Gargoyle Stairs L (w->e)
+
+[MultiDef 01de6]
+DefName=mGargoyleStairs2NS
+Name=gargoyle stairs
+Type=tMulti
+MultiRegion=0,0,0,3
+
+Category=Multis
+Subsection=Stairs
+Description=Gargoyle Stairs L (n->s)
+
+[MultiDef 01de7]
+DefName=mGargoyleStairs2EW
+Name=gargoyle stairs
+Type=tMulti
+MultiRegion=-3,0,0,0
+
+Category=Multis
+Subsection=Stairs
+Description=Gargoyle Stairs L (e->w)
+
+[MultiDef 01de8]
+DefName=mGargoyleStairs3SN
+Name=gargoyle stairs
+Type=tMulti
+MultiRegion=0,-3,0,0
+
+Category=Multis
+Subsection=Stairs
+Description=Gargoyle Stairs L (s->n)
+
+[MultiDef 01de9]
+DefName=mGargoyleStairs3WE
+Name=gargoyle stairs
+Type=tMulti
+MultiRegion=0,0,3,0
+
+Category=Multis
+Subsection=Stairs
+Description=Gargoyle Stairs L (w->e)
+
+[MultiDef 01dea]
+DefName=mGargoyleStairs3NS
+Name=gargoyle stairs
+Type=tMulti
+MultiRegion=0,0,0,3
+
+Category=Multis
+Subsection=Stairs
+Description=Gargoyle Stairs L (n->s)
+
+[MultiDef 01deb]
+DefName=mGargoyleStairs3EW
+Name=gargoyle stairs
+Type=tMulti
+MultiRegion=-3,0,0,0
+
+Category=Multis
+Subsection=Stairs
+Description=Gargoyle Stairs L (e->w)
+
+[MultiDef 01dec]
+DefName=mGothicStairsSN
+Name=gothic stairs
+Type=tMulti
+MultiRegion=0,-3,0,0
+
+Category=Multis
+Subsection=Stairs
+Description=Gothic Stairs (s->n)
+
+[MultiDef 01ded]
+DefName=mGothicStairsWE
+Name=gothic stairs
+Type=tMulti
+MultiRegion=0,0,3,0
+
+Category=Multis
+Subsection=Stairs
+Description=Gothic Stairs (w->e)
+
+[MultiDef 01dee]
+DefName=mGothicStairsNS
+Name=gothic stairs
+Type=tMulti
+MultiRegion=0,0,0,3
+
+Category=Multis
+Subsection=Stairs
+Description=Gothic Stairs (n->s)
+
+[MultiDef 01def]
+DefName=mGothicStairsEW
+Name=gothic stairs
+Type=tMulti
+MultiRegion=-3,0,0,0
+
+Category=Multis
+Subsection=Stairs
+Description=Gothic Stairs (e->w)
+
+[MultiDef 01df0]
+DefName=mBattenStairsSN
+Name=batten stairs
+Type=tMulti
+MultiRegion=0,-3,0,0
+
+Category=Multis
+Subsection=Stairs
+Description=Batten Stairs (s->n)
+
+[MultiDef 01df1]
+DefName=mBattenStairsWE
+Name=batten stairs
+Type=tMulti
+MultiRegion=0,0,3,0
+
+Category=Multis
+Subsection=Stairs
+Description=Batten Stairs (w->e)
+
+[MultiDef 01df2]
+DefName=mBattenStairsNS
+Name=batten stairs
+Type=tMulti
+MultiRegion=0,0,0,3
+
+Category=Multis
+Subsection=Stairs
+Description=Batten Stairs (n->s)
+
+[MultiDef 01df3]
+DefName=mBattenStairsEW
+Name=batten stairs
+Type=tMulti
+MultiRegion=-3,0,0,0
+
+Category=Multis
+Subsection=Stairs
+Description=Batten Stairs (e->w)
+
+
+[EOF]

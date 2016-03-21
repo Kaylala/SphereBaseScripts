@@ -1,0 +1,22 @@
+// Medable. Self explanatory.
+[Function Medable]
+If !(<ArgN>)
+ Return <Tag.Medable>
+EndIf
+Tag.Medable=<ArgN>
+
+// Being added for better crafting structures.
+[Function Material]
+If !(<ArgS>)
+ Return <Tag.Material>
+EndIf
+Tag.Material=<ArgS>
+
+// Being used on items that are Human/Elf to modify into Gargoyle.
+[Funtion AlterItem]
+If !(<ArgS>)
+ Return <Tag.AlterItem>
+EndIf
+Tag.AlterItem=<ArgS>
+
+[EOF]

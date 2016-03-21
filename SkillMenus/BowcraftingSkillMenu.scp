@@ -1,0 +1,59 @@
+[SkillMenu smBowcrafting]
+Bowcrafting
+
+On=i_KINDLING <Name> (<ResMake>)
+MakeItem=i_KINDLING
+
+On=i_TORCH <Name> (<ResMake>)
+MakeItem=i_TORCH
+
+On=i_ARROW_SHAFT <Name> (<ResMake>)
+MakeItem=i_ARROW_SHAFT
+
+On=i_bow <Name> (<ResMake>)
+MakeItem=iBow
+
+On=i_CROSSBOW <Name> (<ResMake>)
+MakeItem=iCrossbow
+
+On=i_crossbow_heavy <Name> (<ResMake>)
+MakeItem=iHeavyCrossbow
+
+On=i_bow Exceptional Bows
+SkillMenu=smbows_excep
+
+[SkillMenu smAmmunition]
+// combine shafts with feathers.
+Select arrow type
+
+On=i_xbolt <Name> (<ResMake>)
+MakeItem=i_xbolt
+
+On=i_arrow <Name> (<ResMake>)
+MakeItem=i_arrow
+
+[SkillMenu smBows_excep] // Exceptional Bows
+Exceptional Bows
+
+On=i_BOW_SUP <Name> (<ResMake>)
+MakeItem=i_BOW_SUP
+
+On=i_XBOW_SUP <Name> (<ResMake>)
+MakeItem=i_XBOW_SUP
+
+On=i_HXBOW_SUP <Name> (<ResMake>)
+MakeItem=i_HXBOW_SUP
+
+On=i_BOW_EXCEP <Name> (<ResMake>)
+MakeItem=i_BOW_EXCEP
+
+On=i_XBOW_EXCEP <Name> (<ResMake>)
+MakeItem=i_XBOW_EXCEP
+
+On=i_HXBOW_EXCEP <Name> (<ResMake>)
+MakeItem=i_HXBOW_EXCEP
+
+On=i_bow_elven <Name> (<ResMake>)
+MakeItem=i_bow_elven
+
+[EOF]

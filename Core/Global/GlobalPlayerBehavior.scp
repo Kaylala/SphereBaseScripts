@@ -1,0 +1,27 @@
+[Events eGlobalPlayerBehavior]
+On=@Mount
+// GM's Can mount anything; unless the GM is a gargoyle.
+If (<Src.IsGm>) && !(<Src.IsGargoyle>)
+ Return 0
+EndIf
+
+// Gargoyles Cannot mount creatures.
+If <Src.IsGargoyle>
+ Return 1
+EndIf
+
+If (<CanUse> &CanUNone)
+ Return 1
+ElIf (<Src.IsHuman>) && !(<CanUse> &CanUHuman)
+ Return 1
+ElIf (<Src.IsElf>) && !(<CanUse> &CanUElf)
+ Return 1
+ElIf (<Src.IsMale>) && !(<CanUse> &CanUMale)
+ Return 1
+ElIf (<Src.IsFemale>) && !(<CanUse> &CanUFemale)
+ Return 1
+EndIf
+
+
+
+[EOF]

@@ -1,0 +1,85 @@
+//****************************************************************************
+// SPHERE by : Menasoft ©1997-2014
+// www.sphereserver.net
+// All SPHERE script files and formats are copyright Menasoft & Partners.
+// This file may be freely edited for personal use, but may not be distributed
+// in whole or in part, in any format without express written permission from
+// Menasoft & Partners.  All donations and contributions
+// become the property of Menasoft & Partners.
+//****************************************************************************
+// FILE LAST UPDATED: Saturday, Sept 6, 2014
+//
+VERSION=0.56c
+
+////////////////////////////////////////
+// Felucca
+////////////////////////////////////////
+
+//Mondain's Legacy regions
+
+[AreaDef aFeluccaHeartwood]
+Name=The Heartwood
+Group=Felucca: ML Cities
+P=7035,409,12,0
+Rect=6907,253,7166,512,0
+Flags=RegionFlagNoBuilding|RegionFlagGuarded
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.Music=MidiElfCity1
+
+[AreaDef aFeluccaSanctuary]
+Name=Sanctuary
+Group=Felucca: ML Dungeons
+P=6170,195,-10,0
+Rect=6141,0,6401,257,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.Music=midi_dungeon9
+
+[AreaDef aFeluccaPrismOfLight]
+Name=Prism of Light
+Group=Felucca: ML Dungeons
+P=6475,188,-2,0
+Rect=6448,17,6656,256,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.Music=MidiDungeon9
+
+[AreaDef aFeluccaPalaceOfParoxysmus]
+Name=Palace of Paroxysmus
+Group=Felucca: ML Dungeons
+P=6306,403,60,0
+Rect=6198,316,6563,676,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.Music=MidiParoxysmusLair
+
+[AreaDef aFeluccaBlightedGrove]
+Name=Blighted Grove
+Group=Felucca: ML Dungeons
+P=6500,890,2,0
+Rect=6446,814,6596,974,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.Music=MidiMelisandesLair
+
+[AreaDef aFeluccaPaintedCaves]
+Name=Painted Caves
+Group=Felucca: ML Caves
+P=6308,892,0,0
+Rect=6243,846,6315,919,0
+Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+Tag.Music=MidiDungeon9
+
+//High Seas regions
+
+[AreaDef aFeluccaSeaMarket]
+Name=Sea Market
+Group=Felucca: HS Cities
+Rect=4500,2250,4600,2450,0
+P=4551,2313,-2,0
+Flags=RegionFlagNoBuilding|RegionFlagGuarded
+Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
+
+[EOF]

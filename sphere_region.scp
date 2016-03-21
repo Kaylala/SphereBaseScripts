@@ -1,0 +1,389 @@
+//****************************************************************************
+// SPHERE by : Menasoft ©1997-2014
+// www.sphereserver.net
+// All SPHERE script files and formats are copyright Menasoft & Partners.
+// This file may be freely edited for personal use, but may not be distributed
+// in whole or in part, in any format without express written permission from
+// Menasoft & Partners.  All donations and contributions
+// become the property of Menasoft & Partners.
+//****************************************************************************
+// FILE LAST UPDATED: Sunday, Nov 30, 2014
+//
+VERSION=0.56c
+
+[COMMENT sphereresource]
+A RegionResource (usually named mrsomething) describes how a map resource
+can be harvested by using the following properties:
+
+ Amount=     The Amount of Resources that can be Reaped.
+ Reap=       The itemdef that will be Reaped.
+ ReapAmount= The Amount that can be gathered in one use of Skill.
+ Skill=      The Skill required to gather that resource.
+ Regen=      The time that must pass before that location can be mined again.
+
+A RegionType (usually named rSomething) is an EVENT that affects players
+and/or creatures in a map region.
+
+A map region (also known as AREADEF or ROOMDEF, and usually named asomething)
+can be assigned one or more RegionTypes through its EVENT= property.
+
+In order for harvesting Skills like mining, lumberjacking, and fishing to
+work in a map region, the RegionType must be linked to a Terrain TYPEDEF,
+and that RegionType needs one or more RESOURCE= properties linked to a map
+resource.
+
+A terrain TYPEDEF (usually named tsomething) is linked to terrain through
+it's TERRAIN= property.
+
+* RegionResource and RegionType are defined in the sphereregion.scp file.
+* Terrain TYPEDEFs are defined in the sphereterraintypes.scp file.
+* Regions (AREADEF and ROOMDEF) are defined in spheremap*.scp files.
+
+
+////////////////////////////////
+// The "nothing" map resource //
+////////////////////////////////
+
+[RegionResource mrNothing]
+Reap=iUnused
+Regen=60*60 // Nothing can be found at this location for this many seconds.
+
+/////////////////////////////////////
+// Resources for herbivores to eat //
+/////////////////////////////////////
+
+[RegionResource mrGrass]
+Amount=9,30        // This many...
+Reap=ihaysheaf   // ...of this item...
+ReapAmount=1       // ...can be harvested this many at a time...
+//Skill=00        // ...and it takes no Skill to do it.
+Regen=60*60
+
+[RegionType rDefaultGrass tGrass]
+// All grass can be eaten by default.
+Resources=10 mrgrass
+
+
+/////////////////////////////////
+// Resources for fishing Skill //
+/////////////////////////////////
+
+[RegionResource mrFish1]
+Amount=9,30        // This many...
+Reap=iFish1  // ...of this item...
+ReapAmount=1,3
+Skill=10,1000    // ...can be harvested if the player has this much Skill.
+Regen=60*60
+
+[RegionResource mrFish2]
+Amount=9,30
+Reap=iFish2
+ReapAmount=1,3
+Skill=10,1000
+Regen=60*60
+
+[RegionResource mrFish3]
+Amount=9,30
+Reap=iFish3
+ReapAmount=1,3
+Skill=10,1000
+Regen=60*60
+
+[RegionResource mrFish4]
+Amount=9,30
+Reap=iFish4
+ReapAmount=1,3
+Skill=10,1000
+Regen=60*60
+
+[RegionType rDefaultWater tWater]
+Resources=600 mrNothing  // Most of the time fishing produces nothing.
+Resources=100 mrFish1
+Resources=100 mrFish2
+Resources=100 mrFish3
+Resources=100 mrFish4
+
+[RegionType rWater tWater]
+Resources=600 mrNothing
+Resources=100 mrFish1
+Resources=100 mrFish2
+Resources=100 mrFish3
+Resources=100 mrFish4
+
+ON=@RegPeriodic
+// Water/Ocean boat sounds
+SRC.SOUND={025 1 026 1 027 1 010 1 011 1 012 1 013 1}
+
+
+///////////////////////////////////////
+// Resources for lumberjacking Skill //
+///////////////////////////////////////
+
+[RegionResource mrTree]
+Amount=9,30
+Reap=ilog
+ReapAmount=1,3
+Skill=10,800
+Regen=60*60
+
+[RegionType rDefaultTree tTree]
+// All trees produce wood by default.
+Resources=600 mrNothing
+Resources=400 mrTree
+
+////////////////////////////////
+// Resources for mining Skill //
+////////////////////////////////
+
+[RegionResource mrIron]
+Amount=9,30
+Reap=ioreiron
+ReapAmount=1,3
+Skill=10,300
+Regen=60*60
+
+[RegionResource mrRusty]
+Amount=8,21
+Reap=iorerusty
+ReapAmount=1,3
+Skill=10,300
+Regen=60*60
+
+[RegionResource mrBronze]
+Amount=4,12
+Reap=iorebronze
+ReapAmount=1,3
+Skill=10,300
+Regen=60*60
+
+[RegionResource mrOldCopper]
+Amount=7,18
+Reap=ioreoldcopper
+ReapAmount=1,3
+Skill=10,300
+Regen=60*60
+
+[RegionResource mrDullCopper]
+Amount=5,25
+Reap=ioredullcopper
+ReapAmount=1,3
+Skill=10,300
+Regen=60*60
+
+[RegionResource mrShadow]
+Amount=5,16
+Reap=ioreshadow
+ReapAmount=1,3
+Skill=300,600
+Regen=60*60
+
+[RegionResource mrCopper]
+Amount=5,20
+Reap=iorecopper
+ReapAmount=1,3
+Skill=300,600
+Regen=60*60
+
+[RegionResource mrGold]
+Amount=3,10
+Reap=ioregold
+ReapAmount=1,3
+Skill=300,600
+Regen=60*60
+
+[RegionResource mrRose]
+Amount=3,9
+Reap=iorerose
+ReapAmount=1,3
+Skill=300,600
+Regen=60*60
+
+[RegionResource mrAgapite]
+Amount=3,8
+Reap=ioreagapite
+ReapAmount=1,3
+Skill=300,600
+Regen=60*60
+
+[RegionResource mrBloodrock]
+Amount=3,6
+Reap=iorebloodrock
+ReapAmount=1,3
+Skill=300,600
+Regen=60*60
+
+[RegionResource mrSilver]
+Amount=1,2
+Reap=ioresilver
+ReapAmount=1,3
+Skill=300,600
+Regen=60*60
+
+[RegionResource mrVerite]
+Amount=2,6
+Reap=ioreverite
+ReapAmount=1,3
+Skill=300,600
+Regen=60*60
+
+[RegionResource mrValorite]
+Amount=2,4
+Reap=ioreValorite
+ReapAmount=1,3
+Skill=600,1100
+Regen=60*60
+
+[RegionResource mrMytheril]
+Amount=2,3
+Reap=ioremytheril
+ReapAmount=1,3
+Skill=600,1100
+Regen=60*60
+
+[RegionResource mrBlackrock]
+Amount=1,3
+Reap=ioreblackrock
+ReapAmount=1,3
+Skill=600,1100
+Regen=60*60
+
+[RegionResource mrDiamond]
+Amount=1,4
+Reap=igemdiamond
+ReapAmount=1,3
+Skill=600,1100
+Regen=60*60
+
+[RegionResource mrRuby]
+Amount=1,4
+Reap=igemruby
+ReapAmount=1,3
+Skill=600,1100
+Regen=60*60
+
+[RegionResource mrCitrine]
+Amount=1,4
+Reap=igemcitrine
+ReapAmount=1,3
+Skill=600,1100
+Regen=60*60
+
+[RegionResource mrEmerald]
+Amount=1,4
+Reap=igemEmerald
+ReapAmount=1,3
+Skill=600,1100
+Regen=60*60
+
+[RegionResource mrStarSapphire]
+Amount=1,4
+Reap=igemStarSapphire
+ReapAmount=1,3
+Skill=600,1100
+Regen=60*60
+
+[RegionResource mrSapphire]
+Amount=1,4
+Reap=igemSapphire
+ReapAmount=1,3
+Skill=600,1100
+Regen=60*60
+
+[RegionResource mrAmethyst]
+Amount=1,4
+Reap=igemAmethyst
+ReapAmount=1,3
+Skill=600,1100
+Regen=60*60
+
+[RegionResource mrTourmaline]
+Amount=1,4
+Reap=igemTourmaline
+ReapAmount=1,3
+Skill=600,1100
+Regen=60*60
+
+[RegionType rDefaultRock tRock]
+// By default, iron is most common, sometimes nothing can be mined, but there
+// is a small chance of a rare diamond.  Shadow ore is cannot be mined.
+Resources=500 mrNothing    // This large number makes this very common.
+Resources=100 mrIron
+Resources=8.0 mrRusty
+Resources=6.0 mrOldCopper
+Resources=6.0 mrDullCopper
+Resources=60 mrShadowIron
+Resources=5.0 mrBronze
+Resources=5.0 mrCopper
+Resources=2.0 mrGold
+Resources=2.0 mrRose
+Resources=2.0 mrAgapite
+Resources=10 mrBloodrock
+Resources=10 mrSilver
+Resources=0.5 mrVerite
+Resources=0.2 mrValorite
+Resources=0.1 mrMytheril
+Resources=0.1 mrBlackrock
+Resources=0.1 mrDiamond    // The small number means this is very rare.
+
+[RegionType rDungeon tRock]
+// Usually Iron, but sometimes Shadow ore can be mined in dungeons.
+Resources=1000 mrNothing
+Resources=300 mrIron
+Resources=5.0 mrShadowIron
+
+ON=@RegPeriodic
+SRC.SOUND={021f 1 0243 1 0244 1 0245 1}
+
+[RegionType rSpooky tRock]
+// Iron and Shadow ore are very rarely mined in a spooky region.
+Resources=65.0 mrnothing  // Usually there is nothing here.
+Resources=300 mrIron
+Resources=5.0 mrShadowIron
+
+[RegionType rSwamp tRock]
+// There is nothing to mine in a swamp.
+Resources=1000 mrnothing
+
+ON=@RegPeriodic
+SRC.SOUND={0e 10 0f 10 022 1 023 1 024 1 0267 1}
+
+/////////////////////
+// Generic Regions //
+/////////////////////
+
+[RegionType rDefault]
+ON=@Enter
+IF (<SRC.ISPLAYER>)
+ IF !(<isempty <TAG.MUSIC>>)
+  SRC.MIDILIST=<TAG.MUSIC>
+ ELSE
+  SRC.MIDILIST=midibritain1,midiForestA,midiJungleA,midiMountainA,midiPlains,midiVictory
+ ENDIF
+ENDIF
+
+//ON=@CliPeriodic
+//IF (<SRC.ISPLAYER>)
+// SRC.MIDILIST=midibritain1,midiForestA,midiJungleA,midiMountainA,midiPlains,midiVictory
+//ENDIF
+
+[RegionType rGraveyard]
+ON=@RegPeriodic
+SRC.SOUND={0a 1 0b 1}
+
+[RegionType rForest]
+ON=@RegPeriodic
+IF (<SRC.SECTOR.ISNIGHTTIME>)
+ SRC.SOUND={00 2 01 2 02 2 07d 1}	//Play these sounds at night.
+ELSE
+ SRC.SOUND={08 10 09 10 0219 1 07d 1}	//Play these sounds during the day.
+ENDIF
+
+[RegionType rJungle]
+ON=@RegPeriodic
+IF (<SRC.SECTOR.ISNIGHTTIME>)
+ SRC.SOUND={0c 2 0d 2 0b3 1}
+ELSE
+ SRC.SOUND={03 2 04 2 05 2 0b3 1}
+ENDIF
+
+[EOF]

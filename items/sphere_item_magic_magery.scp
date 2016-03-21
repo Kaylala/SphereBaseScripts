@@ -1,0 +1,2889 @@
+//****************************************************************************
+// SPHERE by : Menasoft ©1997-2007
+// www.sphereserver.net
+// All SPHERE script files and formats are copyright Menasoft & Partners.
+// This file may be freely edited for personal use, but may not be distributed
+// in whole or in part, in any format without express written permission from
+// Menasoft & Partners. All donations and contributions
+// become the property of Menasoft & Partners.
+//****************************************************************************
+// FILE LAST UPDATED: Tuesday, October 15, 2013
+//
+VERSION=0.56c
+
+
+[COMMENT sphere_item_magic_magery]
+
+This file contains all things relating to Magery, such as:
+
+* Scrolls
+* Spellbooks
+* Recall runes
+* Spell rune icons
+* Wands
+
+
+[ITEMDEF 0e34]
+DEFNAME=iScrollBlank
+TYPE=tScrollBlank
+FLIP=1
+VALUE=9
+WEIGHT=0.2
+RESOURCES=1 iParchment
+SKILLMAKE=Carpentry 25.7,tCarpentry
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - Blank
+DESCRIPTION=Blank Scroll
+DUPELIST=0ef3
+
+[ITEMDEF 0e35]
+DEFNAME=iScrollXRed
+TYPE=tScroll
+FLIP=1
+WEIGHT=0.2
+RESOURCES=1 iScrollBlank,1 iRibbon
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - Unnamed
+DESCRIPTION=Unnamed scroll (red ribbon)
+DUPELIST=0ef4
+
+[ITEMDEF 0e36]
+DEFNAME=iScrollXBlue
+TYPE=tScroll
+FLIP=1
+WEIGHT=0.2
+RESOURCES=1 iScrollBlank,1 iRibbon
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - Unnamed
+DESCRIPTION=Unnamed scroll (blue ribbon)
+DUPELIST=0ef5
+
+[ITEMDEF 0e37]
+DEFNAME=iScrollXGreen
+TYPE=tScroll
+FLIP=1
+WEIGHT=0.2
+RESOURCES=1 iScrollBlank,1 iRibbon
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - Unnamed
+DESCRIPTION=Unnamed scroll (green ribbon)
+DUPELIST=0ef6
+
+[ITEMDEF 0e38]
+DEFNAME=iScrollXTeal
+TYPE=tScroll
+FLIP=1
+WEIGHT=0.2
+RESOURCES=1 iScrollBlank,1 iRibbon
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - Unnamed
+DESCRIPTION=Unnamed scroll (teal ribbon)
+DUPELIST=0ef7
+
+[ITEMDEF 0e39]
+DEFNAME=iScrollXBrown
+TYPE=tScroll
+FLIP=1
+WEIGHT=0.2
+RESOURCES=1 iScrollBlank,1 iRibbon
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - Unnamed
+DESCRIPTION=Unnamed scroll (brown ribbon)
+DUPELIST=0ef8
+
+[ITEMDEF 0e3a]
+DEFNAME=iScrollXPurp
+TYPE=tScroll
+FLIP=1
+WEIGHT=0.2
+RESOURCES=1 iScrollBlank,1 iRibbon
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - Unnamed
+DESCRIPTION=Unnamed scroll (purple ribbon)
+DUPELIST=0ef9
+
+[ITEMDEF 0e3b]
+DEFNAME=iSpellbookBad
+LAYER=layer_hand1
+//Client Anomaly requires this out of order dupeitem with 0e3b
+//Do not DUPEITEM=0efa //
+
+[ITEMDEF 0efa]
+DEFNAME=iSpellbook
+TYPE=tSpellbook
+LAYER=layer_hand1
+//DAM=8,10
+//SKILL=Wrestling
+//SPEED=30
+//VALUE=160
+WEIGHT=1.0
+//TWOHANDS=Y
+RESOURCES=80 iParchment,1 iHidesCut,1 iCloth
+SKILLMAKE=Inscription 50.0,iPenAndInk
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Books
+DESCRIPTION=Magery Spellbook
+ReqStr=20
+ON=@Create
+ATTR=attr_magic|attr_newbie
+
+
+[ITEMDEF 0ef3]
+//blank scroll (red ribbon)
+DUPEITEM=0e34
+
+[ITEMDEF 0ef4]
+//blank scroll (blue ribbon)
+DUPEITEM=0e35
+
+[ITEMDEF 0ef5]
+//blank scroll (green ribbon)
+DUPEITEM=0e36
+
+[ITEMDEF 0ef6]
+//blank scroll (teal ribbon)
+DUPEITEM=0e37
+
+[ITEMDEF 0ef7]
+//blank scroll (brown ribbon)
+DUPEITEM=0e38
+
+[ITEMDEF 0ef8]
+//blank scroll (brown ribbon)
+DUPEITEM=0e39
+
+[ITEMDEF 0ef9]
+//blank scroll (purple ribbon)
+DUPEITEM=0e3a
+
+
+[ITEMDEF 01f14]
+DEFNAME=iRuneMarker
+TYPE=tRune
+FLIP=1
+VALUE=62
+WEIGHT=2.5
+RESOURCES=1 iIngotGold,1 iScrollMark
+SKILLMAKE=Tinkering 90.0,Magery 90.0,tTinkerTools
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Magical Items
+DESCRIPTION=Recall Rune
+DUPELIST=01f15,01f16,01f17
+ON=@Create
+MORE1=50
+ON=@ClientToolTip
+SRC.ADDCLILOC 1075217,<dMORE1>//"~ charges remaining"
+
+[ITEMDEF 01f15]
+//recall rune
+DUPEITEM=01f14
+
+[ITEMDEF 01f16]
+//recall rune
+DUPEITEM=01f14
+
+[ITEMDEF 01f17]
+//Recall Rune
+DUPEITEM=01f14
+
+
+[ITEMDEF 01f2d]
+DEFNAME=iScrollReactiveArmor
+NAME=Reactive Armor Scroll
+TYPE=tScroll
+VALUE=20
+WEIGHT=0.1
+RESOURCES=1 iScrollBlank,1 iReagGarlic,1 iReagSpiderSilk,1 i_reag_sulfur_ash
+SKILLMAKE=Inscription 10.0,Magery 5.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - 1st Circle
+DESCRIPTION=Reactive Armor
+ON=@Create
+ATTR=attr_magic
+MOREX=s_reactive_armor
+MOREY={10 60}
+
+[ITEMDEF 01f2e]
+DEFNAME=iScrollClumsy
+TYPE=tScroll
+VALUE=17
+WEIGHT=0.1
+RESOURCES=1 iScrollBlank,1 iReagBloodMoss,1 iReagNightshade
+SKILLMAKE=Inscription 10.0,Magery 5.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - 1st Circle
+DESCRIPTION=Clumsy Scroll
+ON=@Create
+ATTR=attr_magic
+MOREX=s_clumsy
+MOREY={10 60}
+
+[ITEMDEF 01f2f]
+DEFNAME=iScrollCreateFood
+TYPE=tScroll
+VALUE=20
+WEIGHT=0.1
+RESOURCES=1 iScrollBlank,1 iReagGarlic,1 iReagGinseng,1 i_reag_mandrake_root
+SKILLMAKE=Inscription 10.0,Magery 5.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - 1st Circle
+DESCRIPTION=Create Food Scroll
+ON=@Create
+ATTR=attr_magic
+MOREX=s_create_food
+MOREY={10 60}
+
+[ITEMDEF 01f30]
+DEFNAME=iScrollFeeblemind
+TYPE=tScroll
+VALUE=17
+WEIGHT=0.1
+RESOURCES=1 iScrollBlank,1 iReagNightshade,1 iReagGinseng
+SKILLMAKE=Inscription 10.0,Magery 5.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - 1st Circle
+DESCRIPTION=Feeblemind Scroll
+ON=@Create
+ATTR=attr_magic
+MOREX=s_feeblemind
+MOREY={10 60}
+
+[ITEMDEF 01f31]
+DEFNAME=iScrollHeal
+TYPE=tScroll
+VALUE=20
+WEIGHT=0.1
+RESOURCES=1 iScrollBlank,1 iReagGarlic,1 iReagGinseng,1 i_reag_spider_silk
+SKILLMAKE=Inscription 10.0,Magery 5.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - 1st Circle
+DESCRIPTION=Heal Scroll
+ON=@Create
+ATTR=attr_magic
+MOREX=s_heal
+MOREY={10 60}
+
+[ITEMDEF 01f32]
+DEFNAME=iScrollMagicArrow
+TYPE=tScroll
+VALUE=17
+WEIGHT=0.1
+RESOURCES=1 iScrollBlank,1 iReagSulfurAsh
+SKILLMAKE=Inscription 10.0,Magery 5.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - 1st Circle
+DESCRIPTION=Magic Arrow Scroll
+ON=@Create
+ATTR=attr_magic
+MOREX=s_magic_arrow
+MOREY={10 60}
+
+[ITEMDEF 01f33]
+DEFNAME=iScrollNightSight
+TYPE=tScroll
+VALUE=17
+WEIGHT=0.1
+RESOURCES=1 iScrollBlank,1 iReagSpiderSilk,1 iReagSulfurAsh
+SKILLMAKE=Inscription 10.0,Magery 5.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - 1st Circle
+DESCRIPTION=Night Sight Scroll
+ON=@Create
+ATTR=attr_magic
+MOREX=s_nightSight
+MOREY={10 60}
+
+[ITEMDEF 01f34]
+DEFNAME=iScrollWeaken
+TYPE=tScroll
+VALUE=17
+WEIGHT=0.1
+RESOURCES=1 iScrollBlank,1 iReagGarlic,1 iReagNightshade
+SKILLMAKE=Inscription 10.0,Magery 5.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - 1st Circle
+DESCRIPTION=Weaken Scroll
+ON=@Create
+ATTR=attr_magic
+MOREX=s_weaken
+MOREY={10 60}
+
+[ITEMDEF 01f35]
+DEFNAME=iScrollAgility
+TYPE=tScroll
+VALUE=18
+WEIGHT=0.1
+RESOURCES=1 iScrollBlank,1 iReagBloodMoss,1 iReagMandrakeRoot
+SKILLMAKE=Inscription 20.0,Magery 10.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - 2nd Circle
+DESCRIPTION=Agility Scroll
+ON=@Create
+ATTR=attr_magic
+MOREX=s_agility
+MOREY={20 60}
+
+[ITEMDEF 01f36]
+DEFNAME=iScrollCunning
+TYPE=tScroll
+VALUE=18
+WEIGHT=0.1
+RESOURCES=1 iScrollBlank,1 iReagMandrakeRoot,1 iReagNightshade
+SKILLMAKE=Inscription 20.0,Magery 10.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - 2nd Circle
+DESCRIPTION=Cunning Scroll
+ON=@Create
+ATTR=attr_magic
+MOREX=s_cunning
+MOREY={20 60}
+
+[ITEMDEF 01f37]
+DEFNAME=iScrollCure
+TYPE=tScroll
+VALUE=18
+WEIGHT=0.1
+RESOURCES=1 iScrollBlank,1 iReagGarlic,1 iReagGinseng
+SKILLMAKE=Inscription 20.0,Magery 10.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - 2nd Circle
+DESCRIPTION=Cure Scroll
+ON=@Create
+ATTR=attr_magic
+MOREX=s_cure
+MOREY={20 60}
+
+[ITEMDEF 01f38]
+DEFNAME=iScrollHarm
+TYPE=tScroll
+VALUE=18
+WEIGHT=0.1
+RESOURCES=1 iScrollBlank,1 iReagNightshade,1 iReagSpiderSilk
+SKILLMAKE=Inscription 20.0,Magery 10.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - 2nd Circle
+DESCRIPTION=Harm Scroll
+ON=@Create
+ATTR=attr_magic
+MOREX=s_harm
+MOREY={20 60}
+
+[ITEMDEF 01f39]
+DEFNAME=iScrollMagicTrap
+TYPE=tScroll
+VALUE=21
+WEIGHT=0.1
+RESOURCES=1 iScrollBlank,1 iReagGarlic,1 iReagSpiderSilk,1 i_reag_sulfur_ash
+SKILLMAKE=Inscription 20.0,Magery 10.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - 2nd Circle
+DESCRIPTION=Magic Trap Scroll
+ON=@Create
+ATTR=attr_magic
+MOREX=s_magic_trap
+MOREY={20 60}
+
+[ITEMDEF 01f3a]
+DEFNAME=iScrollMagicUntrap
+NAME=Magic Untrap Scroll
+TYPE=tScroll
+VALUE=18
+WEIGHT=0.1
+RESOURCES=1 iScrollBlank,1 iReagBloodMoss,1 iReagSulfurAsh
+SKILLMAKE=Inscription 20.0,Magery 10.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - 2nd Circle
+DESCRIPTION=Magic Untrap Scroll
+ON=@Create
+ATTR=attr_magic
+MOREX=s_magic_untrap
+MOREY={20 60}
+
+[ITEMDEF 01f3b]
+DEFNAME=iScrollProtection
+TYPE=tScroll
+VALUE=21
+WEIGHT=0.1
+RESOURCES=1 iScrollBlank,1 iReagGarlic,1 iReagGinseng,1 i_reag_sulfur_ash
+SKILLMAKE=Inscription 20.0,Magery 10.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - 2nd Circle
+DESCRIPTION=Protection Scroll
+ON=@Create
+ATTR=attr_magic
+MOREX=s_protection
+MOREY={20 60}
+
+[ITEMDEF 01f3c]
+DEFNAME=iScrollStrength
+TYPE=tScroll
+VALUE=18
+WEIGHT=0.1
+RESOURCES=1 iScrollBlank,1 iReagMandrakeRoot,1 iReagNightshade
+SKILLMAKE=Inscription 20.0,Magery 10.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - 2nd Circle
+DESCRIPTION=Strength Scroll
+ON=@Create
+ATTR=attr_magic
+MOREX=s_strength
+MOREY={20 60}
+
+[ITEMDEF 01f3d]
+DEFNAME=iScrollBless
+TYPE=tScroll
+VALUE=20
+WEIGHT=0.1
+RESOURCES=1 iScrollBlank,1 iReagGarlic,1 iReagMandrakeRoot
+SKILLMAKE=Inscription 30.0,Magery 20.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - 3rd Circle
+DESCRIPTION=Bless Scroll
+ON=@Create
+ATTR=attr_magic
+MOREX=s_bless
+MOREY={30 70}
+
+[ITEMDEF 01f3e]
+DEFNAME=iScrollFireball
+TYPE=tScroll
+VALUE=20
+WEIGHT=0.1
+RESOURCES=1 iScrollBlank,1 iReagBlackPearl
+SKILLMAKE=Inscription 30.0,Magery 20.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - 3rd Circle
+DESCRIPTION=Fireball Scroll
+ON=@Create
+ATTR=attr_magic
+MOREX=s_fireball
+MOREY={30 70}
+
+[ITEMDEF 01f3f]
+DEFNAME=iScrollMagicLock
+TYPE=tScroll
+VALUE=33
+WEIGHT=0.1
+RESOURCES=1 iScrollBlank,1 iReagBloodMoss,1 iReagGarlic,1 i_reag_ginseng,1 i_reag_mandrake_root,1 i_reag_nightshade,1 i_reag_spider_silk,1 i_reag_sulfur_ash
+SKILLMAKE=Inscription 30.0,Magery 20.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - 3rd Circle
+DESCRIPTION=Magic Lock Scroll
+ON=@Create
+ATTR=attr_magic
+MOREX=s_magic_lock
+MOREY={30 70}
+
+[ITEMDEF 01f40]
+DEFNAME=iScrollPoison
+TYPE=tScroll
+VALUE=17
+WEIGHT=0.1
+RESOURCES=1 iScrollBlank,1 iReagNightshade
+SKILLMAKE=Inscription 30.0,Magery 20.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - 3rd Circle
+DESCRIPTION=Poison Scroll
+ON=@Create
+ATTR=attr_magic
+MOREX=s_poison
+MOREY={30 70}
+
+[ITEMDEF 01f41]
+DEFNAME=iScrollTelekinesis
+TYPE=tScroll
+VALUE=20
+WEIGHT=0.1
+RESOURCES=1 iScrollBlank,1 iReagBloodMoss,1 iReagMandrakeRoot
+SKILLMAKE=Inscription 30.0,Magery 20.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - 3rd Circle
+DESCRIPTION=telekinesis Scroll
+ON=@Create
+ATTR=attr_magic
+MOREX=s_telekinesis
+MOREY={30 70}
+
+[ITEMDEF 01f42]
+DEFNAME=iScrollTeleport
+TYPE=tScroll
+VALUE=20
+WEIGHT=0.1
+RESOURCES=1 iScrollBlank,1 iReagBloodMoss,1 iReagMandrakeRoot
+SKILLMAKE=Inscription 30.0,Magery 20.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - 3rd Circle
+DESCRIPTION=Teleport Scroll
+ON=@Create
+ATTR=attr_magic
+MOREX=s_teleport
+MOREY={30 70}
+
+[ITEMDEF 01f43]
+DEFNAME=iScrollUnlock
+TYPE=tScroll
+VALUE=20
+WEIGHT=0.1
+RESOURCES=1 iScrollBlank,1 iReagBloodMoss,1 iReagSulfurAsh
+SKILLMAKE=Inscription 30.0,Magery 20.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - 3rd Circle
+DESCRIPTION=Unlock Scroll
+ON=@Create
+ATTR=attr_magic
+MOREX=s_unlock
+MOREY={30 70}
+
+[ITEMDEF 01f44]
+DEFNAME=iScrollWallOfStone
+NAME=Wall of Stone Scroll
+TYPE=tScroll
+VALUE=20
+WEIGHT=0.1
+RESOURCES=1 iScrollBlank,1 iReagBloodMoss,1 iReagGarlic
+SKILLMAKE=Inscription 30.0,Magery 20.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - 3rd Circle
+DESCRIPTION=Wall of Stone Scroll
+ON=@Create
+ATTR=attr_magic
+MOREX=s_wall_of_stone
+MOREY={30 70}
+
+[ITEMDEF 01f45]
+DEFNAME=iScrollArchcure
+TYPE=tScroll
+VALUE=25
+WEIGHT=0.1
+RESOURCES=1 iScrollBlank,1 iReagGarlic,1 iReagGinseng,1 i_reag_mandrake_root
+SKILLMAKE=Inscription 40.0,Magery 30.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - 4th Circle
+DESCRIPTION=Archcure Scroll
+ON=@Create
+ATTR=attr_magic
+MOREX=s_archcure
+MOREY={40 75}
+
+[ITEMDEF 01f46]
+DEFNAME=iScrollArchprotection
+NAME=Arch Protection Scroll
+TYPE=tScroll
+VALUE=28
+WEIGHT=0.1
+RESOURCES=1 iScrollBlank,1 iReagGarlic,1 iReagGinseng,1 i_reag_mandrake_root,1 i_reag_sulfur_ash
+SKILLMAKE=Inscription 40.0,Magery 30.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - 4th Circle
+DESCRIPTION=Arch Protection Scroll
+ON=@Create
+ATTR=attr_magic
+MOREX=s_archprotection
+MOREY={40 75}
+
+[ITEMDEF 01f47]
+DEFNAME=iScrollCurse
+TYPE=tScroll
+VALUE=25
+WEIGHT=0.1
+RESOURCES=1 iScrollBlank,1 iReagGarlic,1 iReagNightshade,1 i_reag_sulfur_ash
+SKILLMAKE=Inscription 40.0,Magery 30.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - 4th Circle
+DESCRIPTION=Curse Scroll
+ON=@Create
+ATTR=attr_magic
+MOREX=s_curse
+MOREY={40 75}
+
+[ITEMDEF 01f48]
+DEFNAME=iScrollFireField
+NAME=Fire Field Scroll
+TYPE=tScroll
+VALUE=25
+WEIGHT=0.1
+RESOURCES=1 iScrollBlank,1 iReagBlackPearl,1 iReagSpiderSilk,1 i_reag_sulfur_ash
+SKILLMAKE=Inscription 40.0,Magery 30.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - 4th Circle
+DESCRIPTION=Fire Field Scroll
+ON=@Create
+ATTR=attr_magic
+MOREX=s_fire_field
+MOREY={40 75}
+
+[ITEMDEF 01f49]
+DEFNAME=iScrollGreaterHeal
+NAME=Greater Heal Scroll
+TYPE=tScroll
+VALUE=28
+WEIGHT=0.1
+RESOURCES=1 iScrollBlank,1 iReagGarlic,1 iReagGinseng,1 i_reag_mandrake_root,1 i_reag_spider_silk
+SKILLMAKE=Inscription 40.0,Magery 30.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - 4th Circle
+DESCRIPTION=Greater Heal Scroll
+ON=@Create
+ATTR=attr_magic
+MOREX=s_greater_heal
+MOREY={40 75}
+
+[ITEMDEF 01f4a]
+DEFNAME=iScrollLightning
+TYPE=tScroll
+VALUE=25
+WEIGHT=0.1
+RESOURCES=1 iScrollBlank,1 iReagMandrakeRoot,1 iReagSulfurAsh
+SKILLMAKE=Inscription 40.0,Magery 30.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - 4th Circle
+DESCRIPTION=Lightning Scroll
+ON=@Create
+ATTR=attr_magic
+MOREX=s_lightning
+MOREY={40 75}
+
+[ITEMDEF 01f4b]
+DEFNAME=iScrollManaDrain
+NAME=Mana Drain Scroll
+TYPE=tScroll
+VALUE=25
+WEIGHT=0.1
+RESOURCES=1 iScrollBlank,1 iReagBlackPearl,1 iReagMandrakeRoot,1 i_reag_spider_silk
+SKILLMAKE=Inscription 40.0,Magery 30.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - 4th Circle
+DESCRIPTION=Mana Drain Scroll
+ON=@Create
+ATTR=attr_magic
+MOREX=s_mana_drain
+MOREY={40 75}
+
+[ITEMDEF 01f4c]
+DEFNAME=iScrollRecall
+NAME=Recall Scroll
+TYPE=tScroll
+VALUE=25
+WEIGHT=0.1
+RESOURCES=1 iScrollBlank,1 iReagBlackPearl,1 iReagBloodMoss,1 i_reag_mandrake_root
+SKILLMAKE=Inscription 40.0,Magery 30.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - 4th Circle
+DESCRIPTION=Recall Scroll
+ON=@Create
+ATTR=attr_magic
+MOREX=s_recall
+MOREY={40 75}
+
+[ITEMDEF 01f4d]
+DEFNAME=iScrollBladeSpirits
+NAME=Blade Spirits Scroll
+TYPE=tScroll
+VALUE=27
+WEIGHT=0.1
+RESOURCES=1 iScrollBlank,1 iReagBlackPearl,1 iReagMandrakeRoot,1 i_reag_nightshade
+SKILLMAKE=Inscription 50.0,Magery 40.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - 5th Circle
+DESCRIPTION=Blade Spirits Scroll
+ON=@Create
+ATTR=attr_magic
+MOREX=s_blade_spirits
+MOREY={50 80}
+
+[ITEMDEF 01f4e]
+DEFNAME=iScrollDispelField
+NAME=Dispel Field Scroll
+TYPE=tScroll
+VALUE=30
+WEIGHT=0.1
+RESOURCES=1 iScrollBlank,1 iReagBlackPearl,1 iReagGarlic,1 i_reag_spider_silk,1 i_reag_sulfur_ash
+SKILLMAKE=Inscription 50.0,Magery 40.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - 5th Circle
+DESCRIPTION=Dispel Field Scroll
+ON=@Create
+ATTR=attr_magic
+MOREX=s_dispel_field
+MOREY={50 80}
+
+[ITEMDEF 01f4f]
+DEFNAME=iScrollIncognito
+TYPE=tScroll
+VALUE=27
+WEIGHT=0.1
+RESOURCES=1 iScrollBlank,1 iReagBloodMoss,1 iReagGarlic,1 i_reag_nightshade
+SKILLMAKE=Inscription 50.0,Magery 40.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - 5th Circle
+DESCRIPTION=Incognito Scroll
+ON=@Create
+ATTR=attr_magic
+MOREX=s_incognito
+MOREY={50 80}
+
+[ITEMDEF 01f50]
+DEFNAME=iScrollMagicReflection
+NAME=Magic Reflection Scroll
+TYPE=tScroll
+VALUE=27
+WEIGHT=0.1
+RESOURCES=1 iScrollBlank,1 iReagGarlic,1 iReagMandrakeRoot,1 i_reag_spider_silk
+SKILLMAKE=Inscription 50.0,Magery 40.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - 5th Circle
+DESCRIPTION=Magic Reflection Scroll
+ON=@Create
+ATTR=attr_magic
+MOREX=s_magic_reflection
+MOREY={50 80}
+
+[ITEMDEF 01f51]
+DEFNAME=iScrollMindBlast
+TYPE=tScroll
+VALUE=30
+WEIGHT=0.1
+RESOURCES=1 iScrollBlank,1 iReagBlackPearl,1 iReagMandrakeRoot,1 i_reag_nightshade,1 i_reag_sulfur_ash
+SKILLMAKE=Inscription 50.0,Magery 40.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - 5th Circle
+DESCRIPTION=Mind Blast Scroll
+ON=@Create
+ATTR=attr_magic
+MOREX=s_mind_blast
+MOREY={50 80}
+
+[ITEMDEF 01f52]
+DEFNAME=iScrollParalyze
+TYPE=tScroll
+VALUE=27
+WEIGHT=0.1
+RESOURCES=1 iScrollBlank,1 iReagGarlic,1 iReagMandrakeRoot,1 i_reag_spider_silk
+SKILLMAKE=Inscription 50.0,Magery 40.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - 5th Circle
+DESCRIPTION=Paralyze Scroll
+ON=@Create
+ATTR=attr_magic
+MOREX=s_paralyze
+MOREY={50 80}
+
+[ITEMDEF 01f53]
+DEFNAME=iScrollPoisonField
+NAME=Poison Field Scroll
+TYPE=tScroll
+VALUE=27
+WEIGHT=0.1
+RESOURCES=1 iScrollBlank,1 iReagBlackPearl,1 iReagNightshade,1 i_reag_spider_silk
+SKILLMAKE=Inscription 50.0,Magery 40.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - 5th Circle
+DESCRIPTION=Poison Field Scroll
+ON=@Create
+ATTR=attr_magic
+MOREX=s_poison_field
+MOREY={50 80}
+
+[ITEMDEF 01f54]
+DEFNAME=iScrollSummonCreature
+NAME=Summon Creature Scroll
+TYPE=tScroll
+VALUE=27
+WEIGHT=0.1
+RESOURCES=1 iScrollBlank,1 iReagBloodMoss,1 iReagMandrakeRoot,1 i_reag_spider_silk
+SKILLMAKE=Inscription 50.0,Magery 40.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - 5th Circle
+DESCRIPTION=Summon Creature Scroll
+ON=@Create
+ATTR=attr_magic
+MOREX=s_summon_creature
+MOREY={50 80}
+
+[ITEMDEF 01f55]
+DEFNAME=iScrollDispel
+TYPE=tScroll
+VALUE=29
+WEIGHT=0.1
+RESOURCES=1 iScrollBlank,1 iReagGarlic,1 iReagMandrakeRoot,1 i_reag_sulfur_ash
+SKILLMAKE=Inscription 60.0,Magery 50.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - 6th Circle
+DESCRIPTION=Dispel Scroll
+ON=@Create
+ATTR=attr_magic
+MOREX=s_dispel
+MOREY={60 85}
+
+[ITEMDEF 01f56]
+DEFNAME=iScrollEnergyBolt
+TYPE=tScroll
+VALUE=26
+WEIGHT=0.1
+RESOURCES=1 iScrollBlank,1 iReagBlackPearl,1 iReagNightshade
+SKILLMAKE=Inscription 60.0,Magery 50.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - 6th Circle
+DESCRIPTION=Energy Bolt Scroll
+ON=@Create
+ATTR=attr_magic
+MOREX=s_energy_bolt
+MOREY={60 85}
+
+[ITEMDEF 01f57]
+DEFNAME=iScrollExplosion
+TYPE=tScroll
+VALUE=29
+WEIGHT=0.1
+RESOURCES=1 iScrollBlank,1 iReagBloodMoss,1 iReagMandrakeRoot
+SKILLMAKE=Inscription 60.0,Magery 50.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - 6th Circle
+DESCRIPTION=Explosion Scroll
+ON=@Create
+ATTR=attr_magic
+MOREX=s_explosion
+MOREY={60 85}
+
+[ITEMDEF 01f58]
+DEFNAME=iScrollInvisibility
+NAME=Invisibility Scroll
+TYPE=tScroll
+VALUE=26
+WEIGHT=0.1
+RESOURCES=1 iScrollBlank,1 iReagBloodMoss,1 iReagNightshade
+SKILLMAKE=Inscription 60.0,Magery 50.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - 6th Circle
+DESCRIPTION=Invisibility Scroll
+ON=@Create
+ATTR=attr_magic
+MOREX=s_invisibility
+MOREY={60 85}
+
+[ITEMDEF 01f59]
+DEFNAME=iScrollMark
+TYPE=tScroll
+VALUE=29
+WEIGHT=0.1
+RESOURCES=1 iScrollBlank,1 iReagBlackPearl,1 iReagBloodMoss,1 i_reag_mandrake_root
+SKILLMAKE=Inscription 60.0,Magery 50.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - 6th Circle
+DESCRIPTION=Mark Scroll
+ON=@Create
+ATTR=attr_magic
+MOREX=s_mark
+MOREY={60 85}
+
+[ITEMDEF 01f5a]
+DEFNAME=iScrollMassCurse
+TYPE=tScroll
+VALUE=32
+WEIGHT=0.1
+RESOURCES=1 iScrollBlank,1 iReagGarlic,1 iReagMandrakeRoot,1 i_reag_nightshade,1 i_reag_sulfur_ash
+SKILLMAKE=Inscription 60.0,Magery 50.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - 6th Circle
+DESCRIPTION=Mass Curse Scroll
+ON=@Create
+ATTR=attr_magic
+MOREX=s_mass_curse
+MOREY={60 85}
+
+[ITEMDEF 01f5b]
+DEFNAME=iScrollParalyzeField
+NAME=Paralyze Field Scroll
+TYPE=tScroll
+VALUE=29
+WEIGHT=0.1
+RESOURCES=1 iScrollBlank,1 iReagBlackPearl,1 iReagGinseng,1 i_reag_spider_silk
+SKILLMAKE=Inscription 60.0,Magery 50.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - 6th Circle
+DESCRIPTION=Paralyze Field Scroll
+ON=@Create
+ATTR=attr_magic
+MOREX=s_paralyzation_field
+MOREY={60 85}
+
+[ITEMDEF 01f5c]
+DEFNAME=iScrollReveal
+TYPE=tScroll
+VALUE=26
+WEIGHT=0.1
+RESOURCES=1 iScrollBlank,1 iReagBloodMoss,1 iReagSulfurAsh
+SKILLMAKE=Inscription 60.0,Magery 50.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - 6th Circle
+DESCRIPTION=Reveal Scroll
+ON=@Create
+ATTR=attr_magic
+MOREX=s_reveal
+MOREY={60 85}
+
+[ITEMDEF 01f5d]
+DEFNAME=iScrollChainLightning
+NAME=Chain Lightning Scroll
+TYPE=tScroll
+VALUE=34
+WEIGHT=0.1
+RESOURCES=1 iScrollBlank,1 iReagBlackPearl,1 iReagBloodMoss,1 i_reag_mandrake_root,1 i_reag_sulfur_ash
+SKILLMAKE=Inscription 70.0,Magery 60.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - 7th Circle
+DESCRIPTION=Chain Lightning Scroll
+ON=@Create
+ATTR=attr_magic
+MOREX=s_chain_lightning
+MOREY={70 90}
+
+[ITEMDEF 01f5e]
+DEFNAME=iScrollEnergyField
+NAME=Energy Field Scroll
+TYPE=tScroll
+VALUE=34
+WEIGHT=0.1
+RESOURCES=1 iScrollBlank,1 iReagBlackPearl,1 iReagMandrakeRoot,1 i_reag_spider_silk,1 i_reag_sulfur_ash
+SKILLMAKE=Inscription 70.0,Magery 60.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - 7th Circle
+DESCRIPTION=Energy Field Scroll
+ON=@Create
+ATTR=attr_magic
+MOREX=s_energy_field
+MOREY={70 90}
+
+[ITEMDEF 01f5f]
+DEFNAME=iScrollFlamestrike
+TYPE=tScroll
+VALUE=28
+WEIGHT=0.1
+RESOURCES=1 iScrollBlank,1 iReagSpiderSilk,1 iReagSulfurAsh
+SKILLMAKE=Inscription 70.0,Magery 60.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - 7th Circle
+DESCRIPTION=Flame Strike Scroll
+ON=@Create
+ATTR=attr_magic
+MOREX=s_flamestrike
+MOREY={70 90}
+
+[ITEMDEF 01f60]
+DEFNAME=iScrollGateTravel
+TYPE=tScroll
+VALUE=31
+WEIGHT=0.1
+RESOURCES=1 iScrollBlank,1 iReagBlackPearl,1 iReagMandrakeRoot,1 i_reag_sulfur_ash
+SKILLMAKE=Inscription 70.0,Magery 60.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - 7th Circle
+DESCRIPTION=Gate Travel Scroll
+ON=@Create
+ATTR=attr_magic
+MOREX=s_gate_travel
+MOREY={70 90}
+
+[ITEMDEF 01f61]
+DEFNAME=iScrollManaVampire
+NAME=Mana Vampire Scroll
+TYPE=tScroll
+VALUE=34
+WEIGHT=0.1
+RESOURCES=1 iScrollBlank,1 iReagBlackPearl,1 iReagBloodMoss,1 i_reag_mandrake_root,1 i_reag_spider_silk
+SKILLMAKE=Inscription 70.0,Magery 60.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - 7th Circle
+DESCRIPTION=Mana Vampire Scroll
+ON=@Create
+ATTR=attr_magic
+MOREX=s_mana_vampire
+MOREY={70 90}
+
+[ITEMDEF 01f62]
+DEFNAME=iScrollMassDispel
+NAME=Mass Dispel Scroll
+TYPE=tScroll
+VALUE=34
+WEIGHT=0.1
+RESOURCES=1 iScrollBlank,1 iReagBlackPearl,1 iReagGarlic,1 i_reag_mandrake_root,1 i_reag_sulfur_ash
+SKILLMAKE=Inscription 70.0,Magery 60.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - 7th Circle
+DESCRIPTION=Mass Dispel Scroll
+ON=@Create
+ATTR=attr_magic
+MOREX=s_mass_dispel
+MOREY={70 90}
+
+[ITEMDEF 01f63]
+DEFNAME=iScrollMeteorSwarm
+NAME=Meteor Storm Scroll
+TYPE=tScroll
+VALUE=34
+WEIGHT=0.1
+RESOURCES=1 iScrollBlank,1 iReagBloodMoss,1 iReagMandrakeRoot,1 i_reag_spider_silk,1 i_reag_sulfur_ash
+SKILLMAKE=Inscription 70.0,Magery 60.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - 7th Circle
+DESCRIPTION=Meteor Storm Scroll
+ON=@Create
+ATTR=attr_magic
+MOREX=s_meteor_swarm
+MOREY={70 90}
+
+[ITEMDEF 01f64]
+DEFNAME=iScrollPolymorph
+TYPE=tScroll
+VALUE=31
+WEIGHT=0.1
+RESOURCES=1 iScrollBlank,1 iReagBloodMoss,1 iReagMandrakeRoot,1 i_reag_spider_silk
+SKILLMAKE=Inscription 70.0,Magery 60.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - 7th Circle
+DESCRIPTION=Polymorph Scroll
+ON=@Create
+ATTR=attr_magic
+MOREX=s_polymorph
+MOREY={70 90}
+
+[ITEMDEF 01f65]
+DEFNAME=iScrollEarthquake
+TYPE=tScroll
+VALUE=36
+WEIGHT=0.1
+RESOURCES=1 iScrollBlank,1 iReagBloodMoss,1 iReagGinseng,1 i_reag_mandrake_root,1 i_reag_sulfur_ash
+SKILLMAKE=Inscription 80.0,Magery 70.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - 8th Circle
+DESCRIPTION=Earthquake Scroll
+ON=@Create
+ATTR=attr_magic
+MOREX=s_earthquake
+MOREY={80 100}
+
+[ITEMDEF 01f66]
+DEFNAME=iScrollEnergyVortex
+NAME=Energy Vortex Scroll
+TYPE=tScroll
+VALUE=36
+WEIGHT=0.1
+RESOURCES=1 iScrollBlank,1 iReagBlackPearl,1 iReagBloodMoss,1 i_reag_mandrake_root,1 i_reag_nightshade
+SKILLMAKE=Inscription 80.0,Magery 70.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - 8th Circle
+DESCRIPTION=Energy Vortex Scroll
+ON=@Create
+ATTR=attr_magic
+MOREX=s_energy_vortex
+MOREY={80 100}
+
+[ITEMDEF 01f67]
+DEFNAME=iScrollResurrection
+NAME=Resurrection Scroll
+TYPE=tScroll
+VALUE=33
+WEIGHT=0.1
+RESOURCES=1 iScrollBlank,1 iReagBloodMoss,1 iReagGarlic,1 i_reag_ginseng
+SKILLMAKE=Inscription 80.0,Magery 70.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - 8th Circle
+DESCRIPTION=Resurrection Scroll
+ON=@Create
+ATTR=attr_magic
+MOREX=s_resurrection
+MOREY={80 100}
+
+[ITEMDEF 01f68]
+DEFNAME=iScrollSummonElemAir
+NAME=Summon Air Elemental Scroll
+TYPE=tScroll
+VALUE=33
+WEIGHT=0.1
+RESOURCES=1 iScrollBlank,1 iReagBloodMoss,1 iReagMandrakeRoot,1 i_reag_spider_silk
+SKILLMAKE=Inscription 80.0,Magery 70.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - 8th Circle
+DESCRIPTION=Summon Air Elemental Scroll
+ON=@Create
+ATTR=attr_magic
+MOREX=s_summon_elem_air
+MOREY={80 100}
+
+[ITEMDEF 01f69]
+DEFNAME=iScrollSummonDaemon
+NAME=Summon Daemon Scroll
+TYPE=tScroll
+VALUE=36
+WEIGHT=0.1
+RESOURCES=1 iScrollBlank,1 iReagBloodMoss,1 iReagMandrakeRoot,1 i_reag_spider_silk,1 i_reag_sulfur_ash
+SKILLMAKE=Inscription 80.0,Magery 70.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - 8th Circle
+DESCRIPTION=Summon Daemon Scroll
+ON=@Create
+ATTR=attr_magic
+MOREX=s_summon_daemon
+MOREY={80 100}
+
+[ITEMDEF 01f6a]
+DEFNAME=iScrollSummonElemEarth
+NAME=Summon Earth Elemental Scroll
+TYPE=tScroll
+VALUE=33
+WEIGHT=0.1
+RESOURCES=1 iScrollBlank,1 iReagBloodMoss,1 iReagMandrakeRoot,1 i_reag_spider_silk
+SKILLMAKE=Inscription 80.0,Magery 70.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - 8th Circle
+DESCRIPTION=Summon Earth Elemental Scroll
+ON=@Create
+ATTR=attr_magic
+MOREX=s_summon_elem_earth
+MOREY={80 100}
+
+[ITEMDEF 01f6b]
+DEFNAME=iScrollSummonElemFire
+NAME=Summon Fire Elemental Scroll
+TYPE=tScroll
+VALUE=36
+WEIGHT=0.1
+RESOURCES=1 iScrollBlank,1 iReagBloodMoss,1 iReagMandrakeRoot,1 i_reag_spider_silk,1 i_reag_sulfur_ash
+SKILLMAKE=Inscription 80.0,Magery 70.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - 8th Circle
+DESCRIPTION=Summon Fire Elemental Scroll
+ON=@Create
+ATTR=attr_magic
+MOREX=s_summon_elem_fire
+MOREY={80 100}
+
+[ITEMDEF 01f6c]
+DEFNAME=iScrollSummonElemWater
+NAME=Summon Water Elemental Scroll
+TYPE=tScroll
+VALUE=33
+WEIGHT=0.1
+RESOURCES=1 iScrollBlank,1 iReagBloodMoss,1 iReagMandrakeRoot,1 i_reag_spider_silk
+SKILLMAKE=Inscription 80.0,Magery 70.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - 8th Circle
+DESCRIPTION=Summon Water Elemental Scroll
+ON=@Create
+ATTR=attr_magic
+MOREX=s_summon_elem_water
+MOREY={80 100}
+
+[ITEMDEF 01f6d]
+DEFNAME=iScrollXGreen2
+TYPE=tScroll
+WEIGHT=0.1
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - Unnamed
+DESCRIPTION=Unnamed scroll
+DUPELIST=01f6e
+
+[ITEMDEF 01f6e]
+//unnamed scroll dark green border
+DUPEITEM=01f6d
+
+[ITEMDEF 01f6f]
+DEFNAME=iScrollXTeal2
+TYPE=tScroll
+WEIGHT=0.1
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - Unnamed
+DESCRIPTION=Unnamed scroll
+DUPELIST=01f70
+
+[ITEMDEF 01f70]
+//unnamed scroll teal border
+DUPEITEM=01f6f
+
+[ITEMDEF 01f71]
+DEFNAME=iScrollXBrown2
+TYPE=tScroll
+WEIGHT=0.1
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Scrolls - Unnamed
+DESCRIPTION=Unnamed scroll
+DUPELIST=01f72
+
+[ITEMDEF 01f72]
+//unnamed scroll brown border
+DUPEITEM=01f71
+
+
+[ITEMDEF 02080]
+DEFNAME=iRuneClumsy
+NAME=clumsy
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery First Circle
+
+[ITEMDEF 02081]
+DEFNAME=iRuneCreateFood
+NAME=create food
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery First Circle
+
+[ITEMDEF 02082]
+DEFNAME=iRuneFeeblemind
+NAME=feeblemind
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery First Circle
+
+[ITEMDEF 02083]
+DEFNAME=iRuneHeal
+NAME=heal
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery First Circle
+
+[ITEMDEF 02084]
+DEFNAME=iRuneMagicArrow
+NAME=magic arrow
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery First Circle
+
+[ITEMDEF 02085]
+DEFNAME=iRuneNightSight
+NAME=night sight
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery First Circle
+
+[ITEMDEF 02086]
+DEFNAME=iRuneReactiveArmor
+NAME=reactive armor
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery First Circle
+
+[ITEMDEF 02087]
+DEFNAME=iRuneWeaken
+NAME=weaken
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery First Circle
+
+[ITEMDEF 02088]
+DEFNAME=iRuneAgility
+NAME=agility
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery Second Circle
+
+[ITEMDEF 02089]
+DEFNAME=iRuneCunning
+NAME=cunning
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery Second Circle
+
+[ITEMDEF 0208a]
+DEFNAME=iRuneCure
+NAME=cure
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery Second Circle
+
+[ITEMDEF 0208b]
+DEFNAME=iRuneHarm
+NAME=harm
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery Second Circle
+
+[ITEMDEF 0208c]
+DEFNAME=iRuneMagicTrap
+NAME=magic trap
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery Second Circle
+
+[ITEMDEF 0208d]
+DEFNAME=iRuneMagicUntrap
+NAME=magic untrap
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery Second Circle
+
+[ITEMDEF 0208e]
+DEFNAME=iRuneProtection
+NAME=protection
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery Second Circle
+
+[ITEMDEF 0208f]
+DEFNAME=iRuneStrength
+NAME=strength
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery Second Circle
+
+[ITEMDEF 02090]
+DEFNAME=iRuneBless
+NAME=bless
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery Third Circle
+
+[ITEMDEF 02091]
+DEFNAME=iRuneFireball
+NAME=fireball
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery Third Circle
+
+[ITEMDEF 02092]
+DEFNAME=iRuneMagicLock
+NAME=magic lock
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery Third Circle
+
+[ITEMDEF 02093]
+DEFNAME=iRunePoison
+NAME=poison
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery Third Circle
+
+[ITEMDEF 02094]
+DEFNAME=iRuneTelekinesis
+NAME=telekinesis
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery Third Circle
+
+[ITEMDEF 02095]
+DEFNAME=iRuneTeleport
+NAME=teleport
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery Third Circle
+
+[ITEMDEF 02096]
+DEFNAME=iRuneUnlock
+NAME=magic unlock
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery Third Circle
+
+[ITEMDEF 02097]
+DEFNAME=iRuneWallOfStone
+NAME=wall of stone
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery Third Circle
+
+[ITEMDEF 02098]
+DEFNAME=iRuneArchcure
+NAME=archcure
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery Fourth Circle
+
+[ITEMDEF 02099]
+DEFNAME=iRuneArchprotection
+NAME=archprotection
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery Fourth Circle
+
+[ITEMDEF 0209a]
+DEFNAME=iRuneCurse
+NAME=curse
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery Fourth Circle
+
+[ITEMDEF 0209b]
+DEFNAME=iRuneFireField
+NAME=fire field
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery Fourth Circle
+
+[ITEMDEF 0209c]
+DEFNAME=iRuneGreaterHeal
+NAME=greater heal
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery Fourth Circle
+
+[ITEMDEF 0209d]
+DEFNAME=iRuneLightning
+NAME=lightning
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery Fourth Circle
+
+[ITEMDEF 0209e]
+DEFNAME=iRuneManaDrain
+NAME=mana drain
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery Fourth Circle
+
+[ITEMDEF 0209f]
+DEFNAME=iRuneRecall
+NAME=recall
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery Fourth Circle
+
+[ITEMDEF 020a0]
+DEFNAME=iRuneBladeSpirits
+NAME=blade spirits
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery Fifth Circle
+
+[ITEMDEF 020a1]
+DEFNAME=iRuneDispelField
+NAME=dispel field
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery Fifth Circle
+
+[ITEMDEF 020a2]
+DEFNAME=iRuneIncognito
+NAME=incognito
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery Fifth Circle
+
+[ITEMDEF 020a3]
+DEFNAME=iRuneMagicReflection
+NAME=magic reflection
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery Fifth Circle
+
+[ITEMDEF 020a4]
+DEFNAME=iRuneMindBlast
+NAME=mind blast
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery Fifth Circle
+
+[ITEMDEF 020a5]
+DEFNAME=iRuneParalyze
+NAME=paralyze
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery Fifth Circle
+
+[ITEMDEF 020a6]
+DEFNAME=iRunePoisonField
+NAME=poison field
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery Fifth Circle
+
+[ITEMDEF 020a7]
+DEFNAME=iRuneSummonCreature
+NAME=summon creature
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery Fifth Circle
+
+[ITEMDEF 020a8]
+DEFNAME=iRuneDispel
+NAME=dispel
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery Sixth Circle
+
+[ITEMDEF 020a9]
+DEFNAME=iRuneEnergyBolt
+NAME=energy bolt
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery Sixth Circle
+
+[ITEMDEF 020aa]
+DEFNAME=iRuneExplosion
+NAME=explosion
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery Sixth Circle
+
+[ITEMDEF 020ab]
+DEFNAME=iRuneInvisibility
+NAME=invisibility
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery Sixth Circle
+
+[ITEMDEF 020ac]
+DEFNAME=iRuneMark
+NAME=mark
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery Sixth Circle
+
+[ITEMDEF 020ad]
+DEFNAME=iRuneMassCurse
+NAME=mass curse
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery Sixth Circle
+
+[ITEMDEF 020ae]
+DEFNAME=iRuneParalyzeField
+NAME=paralyze field
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery Sixth Circle
+
+[ITEMDEF 020af]
+DEFNAME=iRuneReveal
+NAME=reveal
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery Sixth Circle
+
+[ITEMDEF 020b0]
+DEFNAME=iRuneChainLightning
+NAME=chain lightning
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery Seventh Circle
+
+[ITEMDEF 020b1]
+DEFNAME=iRuneEnergyField
+NAME=energy field
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery Seventh Circle
+
+[ITEMDEF 020b2]
+DEFNAME=iRuneFlamestrike
+NAME=flamestrike
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery Seventh Circle
+
+[ITEMDEF 020b3]
+DEFNAME=iRuneGateTravel
+NAME=gate travel
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery Seventh Circle
+
+[ITEMDEF 020b4]
+DEFNAME=iRuneManaVampire
+NAME=mana vampire
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery Seventh Circle
+
+[ITEMDEF 020b5]
+DEFNAME=iRuneMassDispel
+NAME=mass dispell
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery Seventh Circle
+
+[ITEMDEF 020b6]
+DEFNAME=iRuneMeteorSwarm
+NAME=meteor swarm
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery Seventh Circle
+
+[ITEMDEF 020b7]
+DEFNAME=iRunePolymorph
+NAME=polymorph
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery Seventh Circle
+
+[ITEMDEF 020b8]
+DEFNAME=iRuneEarthquake
+NAME=earthquake
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery Eighth Circle
+
+[ITEMDEF 020b9]
+DEFNAME=iRuneEnergyVortex
+NAME=energy vortex
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery Eighth Circle
+
+[ITEMDEF 020ba]
+DEFNAME=iRuneResurrection
+NAME=resurrection
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery Eighth Circle
+
+[ITEMDEF 020bb]
+DEFNAME=iRuneSummonElemAir
+NAME=summon air elemental
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery Eighth Circle
+
+[ITEMDEF 020bc]
+DEFNAME=iRuneSummonDaemon
+NAME=summon demon
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery Eighth Circle
+
+[ITEMDEF 020bd]
+DEFNAME=iRuneSummonElemEarth
+NAME=summon earth elemental
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery Eighth Circle
+
+[ITEMDEF 020be]
+DEFNAME=iRuneSummonElemFire
+NAME=summon fire elemental
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery Eighth Circle
+
+[ITEMDEF 020bf]
+DEFNAME=iRuneSummonElemWater
+NAME=summon water elemental
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery Eighth Circle
+
+[ITEMDEF 020c0]
+DEFNAME=iSpellCircle1
+NAME=first circle
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery Circles
+DESCRIPTION=First Circle
+
+[ITEMDEF 020c1]
+DEFNAME=iSpellCircle2
+NAME=second circle
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery Circles
+DESCRIPTION=Second Circle
+
+[ITEMDEF 020c2]
+DEFNAME=iSpellCircle3
+NAME=third circle
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery Circles
+DESCRIPTION=Third Circle
+
+[ITEMDEF 020c3]
+DEFNAME=iSpellCircle4
+NAME=fourth circle
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery Circles
+DESCRIPTION=Fourth Circle
+
+[ITEMDEF 020c4]
+DEFNAME=iSpellCircle5
+NAME=fifth circle
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery Circles
+DESCRIPTION=Fifth Circle
+
+[ITEMDEF 020c5]
+DEFNAME=iSpellCircle6
+NAME=sixth circle
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery Circles
+DESCRIPTION=Sixth Circle
+
+[ITEMDEF 020c6]
+DEFNAME=iSpellCircle7
+NAME=seventh circle
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery Circles
+DESCRIPTION=Seventh Circle
+
+[ITEMDEF 020c7]
+DEFNAME=iSpellCircle8
+NAME=eighth circle
+TYPE=tSpellicon
+CATEGORY=Spell Icons
+SUBSECTION=Magery Circles
+DESCRIPTION=Eighth Circle
+
+
+//////////////////
+// Custom Items //
+//////////////////
+
+[ITEMDEF iWandReactArmor]
+ID=iWand3
+NAME=Wand of Reactive Armor
+TYPE=tWand
+VALUE=259
+WEIGHT=4.1
+RESOURCES=iWand3,10 iScrollReactiveArmor
+SKILLMAKE=Inscription 10.0,1 iPenAndInk,magery 10.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Wands
+DESCRIPTION=Wand of Reactive Armor
+ON=@Create
+HITPOINTS={36 48}
+ATTR=attr_magic
+MOREX=s_reactive_armor
+MOREY=50.0
+MORE2={5 15}
+
+[ITEMDEF iWandClumsy]
+ID=iWand1
+NAME=Wand of Clumsiness
+TYPE=tWand
+VALUE=259
+WEIGHT=4.1
+RESOURCES=iWand1,10 iScrollClumsy
+SKILLMAKE=Inscription 10.0,1 iPenAndInk,magery 10.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Wands
+DESCRIPTION=Wand of Clumsiness
+ON=@Create
+HITPOINTS={36 48}
+ATTR=attr_magic
+MOREX=s_clumsy
+MOREY=50.0
+MORE2={5 15}
+
+[ITEMDEF iWandCreateFood]
+ID=iWand2
+NAME=Wand of Create Food
+TYPE=tWand
+VALUE=259
+WEIGHT=4.1
+RESOURCES=iWand2,10 iScrollCreateFood
+SKILLMAKE=Inscription 10.0,1 iPenAndInk,magery 10.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Wands
+DESCRIPTION=Wand of Create Food
+ON=@Create
+HITPOINTS={36 48}
+ATTR=attr_magic
+MOREX=s_create_food
+MOREY=50.0
+MORE2={5 15}
+
+[ITEMDEF iWandFeeblemind]
+ID=iWand3
+NAME=Wand of Feeblemindness
+TYPE=tWand
+VALUE=259
+WEIGHT=4.1
+RESOURCES=iWand3,10 iScrollFeeblemind
+SKILLMAKE=Inscription 10.0,1 iPenAndInk,magery 10.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Wands
+DESCRIPTION=Wand of Feeblemindness
+ON=@Create
+HITPOINTS={36 48}
+ATTR=attr_magic
+MOREX=s_Feeblemind
+MOREY=50.0
+MORE2={5 15}
+
+[ITEMDEF iWandHeal]
+ID=iWand4
+NAME=Wand of Healing
+TYPE=tWand
+VALUE=259
+WEIGHT=4.1
+RESOURCES=iWand4,10 iScrollHeal
+SKILLMAKE=Inscription 10.0,1 iPenAndInk,magery 10.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Wands
+DESCRIPTION=Wand of Healing
+ON=@Create
+HITPOINTS={36 48}
+ATTR=attr_magic
+MOREX=s_heal
+MOREY=50.0
+MORE2={5 15}
+
+[ITEMDEF iWandMagicArrow]
+ID=iWand1
+NAME=Wand of Magic Arrow
+TYPE=tWand
+VALUE=259
+WEIGHT=4.1
+RESOURCES=iWand1,10 iScrollMagicArrow
+SKILLMAKE=Inscription 10.0,1 iPenAndInk,magery 10.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Wands
+DESCRIPTION=Wand of Magic Arrow
+ON=@Create
+HITPOINTS={36 48}
+ATTR=attr_magic
+MOREX=s_magic_arrow
+MOREY=50.0
+MORE2={5 15}
+
+[ITEMDEF iWandNightSight]
+ID=iWand2
+NAME=Wand of Night Sight
+TYPE=tWand
+VALUE=259
+WEIGHT=4.1
+RESOURCES=iWand2,10 iScrollNightSight
+SKILLMAKE=Inscription 10.0,1 iPenAndInk,magery 10.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Wands
+DESCRIPTION=Wand of Night Sight
+ON=@Create
+HITPOINTS={36 48}
+ATTR=attr_magic
+MOREX=s_nightSight
+MOREY=50.0
+MORE2={5 15}
+
+[ITEMDEF iWandWeaken]
+ID=iWand4
+NAME=Wand of Weaken
+TYPE=tWand
+VALUE=259
+WEIGHT=4.1
+RESOURCES=iWand4,10 iScrollWeaken
+SKILLMAKE=Inscription 10.0,1 iPenAndInk,magery 10.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Wands
+DESCRIPTION=Wand of Weaken
+ON=@Create
+HITPOINTS={36 48}
+ATTR=attr_magic
+MOREX=s_weaken
+MOREY=50.0
+MORE2={5 15}
+
+[ITEMDEF iWandAgility]
+ID=iWand1
+NAME=Wand of Agility
+TYPE=tWand
+VALUE=294
+WEIGHT=4.1
+RESOURCES=iWand1,10 iScrollAgility
+SKILLMAKE=Inscription 20.0,1 iPenAndInk,magery 20.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Wands
+DESCRIPTION=Wand of Agility
+ON=@Create
+HITPOINTS={36 48}
+ATTR=attr_magic
+MOREX=s_Agility
+MOREY=50.0
+MORE2={5 15}
+
+[ITEMDEF iWandCunning]
+ID=iWand2
+NAME=Wand of Cunning
+TYPE=tWand
+VALUE=294
+WEIGHT=4.1
+RESOURCES=iWand2,10 iScrollCunning
+SKILLMAKE=Inscription 20.0,1 iPenAndInk,magery 20.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Wands
+DESCRIPTION=Wand of Cunning
+ON=@Create
+HITPOINTS={36 48}
+ATTR=attr_magic
+MOREX=s_Cunning
+MOREY=50.0
+MORE2={5 15}
+
+[ITEMDEF iWandCure]
+ID=iWand3
+NAME=Wand of Cure
+TYPE=tWand
+VALUE=294
+WEIGHT=4.1
+RESOURCES=iWand3,10 iScrollCure
+SKILLMAKE=Inscription 20.0,1 iPenAndInk,magery 20.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Wands
+DESCRIPTION=Wand of Cure
+ON=@Create
+HITPOINTS={36 48}
+ATTR=attr_magic
+MOREX=s_cure
+MOREY=50.0
+MORE2={5 15}
+ON=@ClientToolTip
+SRC.ADDCLILOC 1044391
+
+[ITEMDEF iWandHarm]
+ID=iWand4
+NAME=Wand of Harm
+TYPE=tWand
+VALUE=294
+WEIGHT=4.1
+RESOURCES=iWand4,10 iScrollHarm
+SKILLMAKE=Inscription 20.0,1 iPenAndInk,magery 20.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Wands
+DESCRIPTION=Wand of Harm
+ON=@Create
+HITPOINTS={36 48}
+ATTR=attr_magic
+MOREX=s_harm
+MOREY=50.0
+MORE2={5 15}
+
+[ITEMDEF iWandMagicTrap]
+ID=iWand1
+NAME=Wand of Magic Trap
+TYPE=tWand
+VALUE=294
+WEIGHT=4.1
+RESOURCES=iWand1,10 iScrollMagicTrap
+SKILLMAKE=Inscription 20.0,1 iPenAndInk,magery 20.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Wands
+DESCRIPTION=Wand of Magic Trap
+ON=@Create
+HITPOINTS={36 48}
+ATTR=attr_magic
+MOREX=s_magic_trap
+MOREY=50.0
+MORE2={5 15}
+
+[ITEMDEF iWandMagicUntrap]
+ID=iWand2
+NAME=Wand of Magic Untrap
+TYPE=tWand
+VALUE=294
+WEIGHT=4.1
+RESOURCES=iWand2,10 iScrollMagicUntrap
+SKILLMAKE=Inscription 20.0,1 iPenAndInk,magery 20.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Wands
+DESCRIPTION=Wand of Magic Untrap
+ON=@Create
+HITPOINTS={36 48}
+ATTR=attr_magic
+MOREX=s_magic_untrap
+MOREY=50.0
+MORE2={5 15}
+
+[ITEMDEF iWandProtection]
+ID=iWand3
+NAME=Wand of Protection
+TYPE=tWand
+VALUE=294
+WEIGHT=4.1
+RESOURCES=iWand3,10 iScrollProtection
+SKILLMAKE=Inscription 20.0,1 iPenAndInk,magery 20.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Wands
+DESCRIPTION=Wand of Protection
+ON=@Create
+HITPOINTS={36 48}
+ATTR=attr_magic
+MOREX=s_protection
+MOREY=50.0
+MORE2={5 15}
+
+[ITEMDEF iWandStrength]
+ID=iWand4
+NAME=Wand of Strength
+TYPE=tWand
+VALUE=294
+WEIGHT=4.1
+RESOURCES=iWand4,10 iScrollStrength
+SKILLMAKE=Inscription 20.0,1 iPenAndInk,magery 20.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Wands
+DESCRIPTION=Wand of Strength
+ON=@Create
+HITPOINTS={36 48}
+ATTR=attr_magic
+MOREX=s_strength
+MOREY=50.0
+MORE2={5 15}
+
+[ITEMDEF iWandBless]
+ID=iWand1
+NAME=Wand of Blessing
+TYPE=tWand
+VALUE=345
+WEIGHT=4.1
+RESOURCES=iWand1,10 iScrollBless
+SKILLMAKE=Inscription 30.0,1 iPenAndInk,magery 30.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Wands
+DESCRIPTION=Wand of Blessing
+ON=@Create
+HITPOINTS={36 48}
+ATTR=attr_magic
+MOREX=s_bless
+MOREY=50.0
+MORE2={5 15}
+
+[ITEMDEF iWandFireball]
+ID=iWand2
+NAME=Wand of Fireballs
+TYPE=tWand
+VALUE=345
+WEIGHT=4.1
+RESOURCES=iWand2,10 iScrollFireball
+SKILLMAKE=Inscription 30.0,1 iPenAndInk,magery 30.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Wands
+DESCRIPTION=Wand of Fireballs
+ON=@Create
+HITPOINTS={36 48}
+ATTR=attr_magic
+MOREX=s_fireball
+MOREY=50.0
+MORE2={5 15}
+
+[ITEMDEF iWandMagicLock]
+ID=iWand3
+NAME=Wand of Magic Lock
+TYPE=tWand
+VALUE=345
+WEIGHT=4.1
+RESOURCES=iWand3,10 iScrollMagicLock
+SKILLMAKE=Inscription 30.0,1 iPenAndInk,magery 30.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Wands
+DESCRIPTION=Wand of Magic Lock
+ON=@Create
+HITPOINTS={36 48}
+ATTR=attr_magic
+MOREX=s_magic_lock
+MOREY=50.0
+MORE2={5 15}
+
+[ITEMDEF iWandPoison]
+ID=iWand4
+NAME=Wand of Poison
+TYPE=tWand
+VALUE=345
+WEIGHT=4.1
+RESOURCES=iWand4,10 iScrollPoison
+SKILLMAKE=Inscription 30.0,1 iPenAndInk,magery 30.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Wands
+DESCRIPTION=Wand of Poison
+ON=@Create
+HITPOINTS={36 48}
+ATTR=attr_magic
+MOREX=s_poison
+MOREY=50.0
+MORE2={5 15}
+
+[ITEMDEF iWandTelekinesis]
+ID=iWand1
+NAME=Wand of telekinesis
+TYPE=tWand
+VALUE=345
+WEIGHT=4.1
+RESOURCES=iWand1,10 iScrollTelekinesis
+SKILLMAKE=Inscription 30.0,1 iPenAndInk,magery 30.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Wands
+DESCRIPTION=Wand of telekinesis
+ON=@Create
+HITPOINTS={36 48}
+ATTR=attr_magic
+MOREX=s_telekinesis
+MOREY=50.0
+MORE2={5 15}
+
+[ITEMDEF iWandTeleport]
+ID=iWand2
+NAME=Wand of Teleport
+TYPE=tWand
+VALUE=345
+WEIGHT=4.1
+RESOURCES=iWand2,10 iScrollTeleport
+SKILLMAKE=Inscription 30.0,1 iPenAndInk,magery 30.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Wands
+DESCRIPTION=Wand of Teleport
+ON=@Create
+HITPOINTS={36 48}
+ATTR=attr_magic
+MOREX=s_teleport
+MOREY=50.0
+MORE2={5 15}
+
+[ITEMDEF iWandUnlock]
+ID=iWand3
+NAME=Wand of Unlock
+TYPE=tWand
+VALUE=345
+WEIGHT=4.1
+RESOURCES=iWand3,10 iScrollUnlock
+SKILLMAKE=Inscription 30.0,1 iPenAndInk,magery 30.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Wands
+DESCRIPTION=Wand of Unlock
+ON=@Create
+HITPOINTS={36 48}
+ATTR=attr_magic
+MOREX=s_unlock
+MOREY=50.0
+MORE2={5 15}
+
+[ITEMDEF iWandWallOfStone]
+ID=iWand4
+NAME=Wand of Wall of Stone
+TYPE=tWand
+VALUE=345
+WEIGHT=4.1
+RESOURCES=iWand4,10 iScrollWallOfStone
+SKILLMAKE=Inscription 30.0,1 iPenAndInk,magery 30.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Wands
+DESCRIPTION=Wand of Wall of Stone
+ON=@Create
+HITPOINTS={36 48}
+ATTR=attr_magic
+MOREX=s_wall_of_stone
+MOREY=50.0
+MORE2={5 15}
+
+[ITEMDEF iWandArchcure]
+ID=iWand1
+NAME=Wand of Wall of Arch Cure
+TYPE=tWand
+VALUE=441
+WEIGHT=4.1
+RESOURCES=iWand1,10 iScrollArchcure
+SKILLMAKE=Inscription 40.0,1 iPenAndInk,magery 40.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Wands
+DESCRIPTION=Wand of Arch Cure
+ON=@Create
+HITPOINTS={36 48}
+ATTR=attr_magic
+MOREX=s_archcure
+MOREY=50.0
+MORE2={5 15}
+
+[ITEMDEF iWandArchprotection]
+ID=iWand2
+NAME=Wand of Arch Protection
+TYPE=tWand
+VALUE=441
+WEIGHT=4.1
+RESOURCES=iWand2,10 iScrollArchprotection
+SKILLMAKE=Inscription 40.0,1 iPenAndInk,magery 40.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Wands
+DESCRIPTION=Wand of Arch Protection
+ON=@Create
+HITPOINTS={36 48}
+ATTR=attr_magic
+MOREX=s_archprotection
+MOREY=50.0
+MORE2={5 15}
+
+[ITEMDEF iWandCurse]
+ID=iWand3
+NAME=Wand of Curse
+TYPE=tWand
+VALUE=441
+WEIGHT=4.1
+RESOURCES=iWand3,10 iScrollCurse
+SKILLMAKE=Inscription 40.0,1 iPenAndInk,magery 40.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Wands
+DESCRIPTION=Wand of Curse
+ON=@Create
+HITPOINTS={36 48}
+ATTR=attr_magic
+MOREX=s_curse
+MOREY=50.0
+MORE2={5 15}
+
+[ITEMDEF iWandFireField]
+ID=iWand4
+NAME=Wand of Fire Field
+TYPE=tWand
+VALUE=441
+WEIGHT=4.1
+RESOURCES=iWand4,10 iScrollFireField
+SKILLMAKE=Inscription 40.0,1 iPenAndInk,magery 40.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Wands
+DESCRIPTION=Wand of Fire Field
+ON=@Create
+HITPOINTS={36 48}
+ATTR=attr_magic
+MOREX=s_fire_field
+MOREY=50.0
+MORE2={5 15}
+
+[ITEMDEF iWandGreaterHeal]
+ID=iWand1
+NAME=Wand of Greater Heal
+TYPE=tWand
+VALUE=441
+WEIGHT=4.1
+RESOURCES=iWand1,10 iScrollGreaterHeal
+SKILLMAKE=Inscription 40.0,1 iPenAndInk,magery 40.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Wands
+DESCRIPTION=Wand of Greater Heal
+ON=@Create
+HITPOINTS={36 48}
+ATTR=attr_magic
+MOREX=s_greater_heal
+MOREY=50.0
+MORE2={5 15}
+
+[ITEMDEF iWandLightning]
+ID=iWand2
+NAME=Wand of Lightning
+TYPE=tWand
+VALUE=441
+WEIGHT=4.1
+RESOURCES=iWand2,10 iScrollLightning
+SKILLMAKE=Inscription 40.0,1 iPenAndInk,magery 40.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Wands
+DESCRIPTION=Wand of Lightning
+ON=@Create
+HITPOINTS={36 48}
+ATTR=attr_magic
+MOREX=s_lightning
+MOREY=50.0
+MORE2={5 15}
+
+[ITEMDEF iWandManaDrain]
+ID=iWand3
+NAME=Wand of Mana Drain
+TYPE=tWand
+VALUE=441
+WEIGHT=4.1
+RESOURCES=iWand3,10 iScrollManaDrain
+SKILLMAKE=Inscription 40.0,1 iPenAndInk,magery 40.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Wands
+DESCRIPTION=Wand of Mana Drain
+ON=@Create
+HITPOINTS={36 48}
+ATTR=attr_magic
+MOREX=s_mana_drain
+MOREY=50.0
+MORE2={5 15}
+
+[ITEMDEF iWandRecall]
+ID=iWand4
+NAME=Wand of Recall
+TYPE=tWand
+VALUE=441
+WEIGHT=4.1
+RESOURCES=iWand4,10 iScrollRecall
+SKILLMAKE=Inscription 40.0,1 iPenAndInk,magery 40.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Wands
+DESCRIPTION=Wand of Recall
+ON=@Create
+HITPOINTS={36 48}
+ATTR=attr_magic
+MOREX=s_recall
+MOREY=50.0
+MORE2={5 15}
+
+[ITEMDEF iWandBladeSpirits]
+ID=iWand1
+NAME=Wand of Blade Spirits
+TYPE=tWand
+VALUE=503
+WEIGHT=4.1
+RESOURCES=iWand1,10 iScrollBladeSpirits
+SKILLMAKE=Inscription 50.0,1 iPenAndInk,magery 50.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Wands
+DESCRIPTION=Wand of Blade Spirits
+ON=@Create
+HITPOINTS={36 48}
+ATTR=attr_magic
+MOREX=s_blade_spirits
+MOREY=50.0
+MORE2={5 15}
+
+[ITEMDEF iWandDispelField]
+ID=iWand2
+NAME=Wand of Dispel Field
+TYPE=tWand
+VALUE=503
+WEIGHT=4.1
+RESOURCES=iWand2,10 iScrollDispelField
+SKILLMAKE=Inscription 50.0,1 iPenAndInk,magery 50.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Wands
+DESCRIPTION=Wand of Dispel Field
+ON=@Create
+HITPOINTS={36 48}
+ATTR=attr_magic
+MOREX=s_dispel_field
+MOREY=50.0
+MORE2={5 15}
+
+[ITEMDEF iWandIncognito]
+ID=iWand3
+NAME=Wand of Incognito
+TYPE=tWand
+VALUE=503
+WEIGHT=4.1
+RESOURCES=iWand3,10 iScrollIncognito
+SKILLMAKE=Inscription 50.0,1 iPenAndInk,magery 50.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Wands
+DESCRIPTION=Wand of Incognito
+ON=@Create
+HITPOINTS={36 48}
+ATTR=attr_magic
+MOREX=s_incognito
+MOREY=50.0
+MORE2={5 15}
+
+[ITEMDEF iWandMagicReflection]
+ID=iWand4
+NAME=Wand of Magic Reflect
+TYPE=tWand
+VALUE=503
+WEIGHT=4.1
+RESOURCES=iWand4,10 iScrollMagicReflection
+SKILLMAKE=Inscription 50.0,1 iPenAndInk,magery 50.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Wands
+DESCRIPTION=Wand of Magic Reflect
+ON=@Create
+HITPOINTS={36 48}
+ATTR=attr_magic
+MOREX=s_magic_reflection
+MOREY=50.0
+MORE2={5 15}
+
+[ITEMDEF iWandMindBlast]
+ID=iWand1
+NAME=Wand of Mind Blast
+TYPE=tWand
+VALUE=503
+WEIGHT=4.1
+RESOURCES=iWand1,10 iScrollMindBlast
+SKILLMAKE=Inscription 50.0,1 iPenAndInk,magery 50.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Wands
+DESCRIPTION=Wand of Mind Blast
+ON=@Create
+HITPOINTS={36 48}
+ATTR=attr_magic
+MOREX=s_mind_blast
+MOREY=50.0
+MORE2={5 15}
+
+[ITEMDEF iWandParalyze]
+ID=iWand2
+NAME=Wand of Paralyzation
+TYPE=tWand
+VALUE=503
+WEIGHT=4.1
+RESOURCES=iWand2,10 iScrollParalyze
+SKILLMAKE=Inscription 50.0,1 iPenAndInk,magery 50.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Wands
+DESCRIPTION=Wand of Paralyzation
+ON=@Create
+HITPOINTS={36 48}
+ATTR=attr_magic
+MOREX=s_paralyze
+MOREY=50.0
+MORE2={5 15}
+
+[ITEMDEF iWandPoisonField]
+ID=iWand3
+NAME=Wand of Poison Field
+TYPE=tWand
+VALUE=503
+WEIGHT=4.1
+RESOURCES=iWand3,10 iScrollPoisonField
+SKILLMAKE=Inscription 50.0,1 iPenAndInk,magery 50.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Wands
+DESCRIPTION=Wand of Poison Field
+ON=@Create
+HITPOINTS={36 48}
+ATTR=attr_magic
+MOREX=s_poison_field
+MOREY=50.0
+MORE2={5 15}
+
+[ITEMDEF iWandSummonCreature]
+ID=iWand4
+NAME=Wand of Summon Creature
+TYPE=tWand
+VALUE=503
+WEIGHT=4.1
+RESOURCES=iWand4,10 iScrollSummonCreature
+SKILLMAKE=Inscription 50.0,1 iPenAndInk,magery 50.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Wands
+DESCRIPTION=Wand of Summon Creature
+ON=@Create
+HITPOINTS={36 48}
+ATTR=attr_magic
+MOREX=s_summon_creature
+MOREY=50.0
+MORE2={5 15}
+
+[ITEMDEF iWandDispel]
+ID=iWand1
+NAME=Wand of Dispel
+TYPE=tWand
+VALUE=568
+WEIGHT=4.1
+RESOURCES=iWand1,10 iScrollDispel
+SKILLMAKE=Inscription 60.0,1 iPenAndInk,magery 60.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Wands
+DESCRIPTION=Wand of Dispel
+ON=@Create
+HITPOINTS={36 48}
+ATTR=attr_magic
+MOREX=s_dispel
+MOREY=50.0
+MORE2={5 15}
+
+[ITEMDEF iWandEnergyBolt]
+ID=iWand2
+NAME=Wand of Energy Bolt
+TYPE=tWand
+VALUE=568
+WEIGHT=4.1
+RESOURCES=iWand2,10 iScrollEnergyBolt
+SKILLMAKE=Inscription 60.0,1 iPenAndInk,magery 60.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Wands
+DESCRIPTION=Wand of Energy Bolt
+ON=@Create
+HITPOINTS={36 48}
+ATTR=attr_magic
+MOREX=s_energy_bolt
+MOREY=50.0
+MORE2={5 15}
+
+[ITEMDEF iWandExplosion]
+ID=iWand3
+NAME=Wand of Explosion
+TYPE=tWand
+VALUE=568
+WEIGHT=4.1
+RESOURCES=iWand3,10 iScrollExplosion
+SKILLMAKE=Inscription 60.0,1 iPenAndInk,magery 60.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Wands
+DESCRIPTION=Wand of Explosion
+ON=@Create
+HITPOINTS={36 48}
+ATTR=attr_magic
+MOREX=s_explosion
+MOREY=50.0
+MORE2={5 15}
+
+[ITEMDEF iWandInvisibility]
+ID=iWand4
+NAME=Wand of Invisibility
+TYPE=tWand
+VALUE=568
+WEIGHT=4.1
+RESOURCES=iWand4,10 iScrollInvisibility
+SKILLMAKE=Inscription 60.0,1 iPenAndInk,magery 60.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Wands
+DESCRIPTION=Wand of Invisibility
+ON=@Create
+HITPOINTS={36 48}
+ATTR=attr_magic
+MOREX=s_invisibility
+MOREY=50.0
+MORE2={5 15}
+
+[ITEMDEF iWandMark]
+ID=iWand1
+NAME=Wand of Mark
+TYPE=tWand
+VALUE=568
+WEIGHT=4.1
+RESOURCES=iWand1,10 iScrollMark
+SKILLMAKE=Inscription 60.0,1 iPenAndInk,magery 60.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Wands
+DESCRIPTION=Wand of Mark
+ON=@Create
+HITPOINTS={36 48}
+ATTR=attr_magic
+MOREX=s_mark
+MOREY=50.0
+MORE2={5 15}
+
+[ITEMDEF iWandMassCurse]
+ID=iWand2
+NAME=Wand of Mass Curse
+TYPE=tWand
+VALUE=568
+WEIGHT=4.1
+RESOURCES=iWand2,10 iScrollMassCurse
+SKILLMAKE=Inscription 60.0,1 iPenAndInk,magery 60.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Wands
+DESCRIPTION=Wand of Mass Curse
+ON=@Create
+HITPOINTS={36 48}
+ATTR=attr_magic
+MOREX=s_mass_curse
+MOREY=50.0
+MORE2={5 15}
+
+[ITEMDEF iWandParalyzeField]
+ID=iWand3
+NAME=Wand of Paralyze Field
+TYPE=tWand
+VALUE=568
+WEIGHT=4.1
+RESOURCES=iWand3,10 iScrollParalyzeField
+SKILLMAKE=Inscription 60.0,1 iPenAndInk,magery 60.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Wands
+DESCRIPTION=Wand of Paralyze Field
+ON=@Create
+HITPOINTS={36 48}
+ATTR=attr_magic
+MOREX=s_paralyzation_field
+MOREY=50.0
+MORE2={5 15}
+
+[ITEMDEF iWandReveal]
+ID=iWand4
+NAME=Wand of Reveal
+TYPE=tWand
+VALUE=568
+WEIGHT=4.1
+RESOURCES=iWand4,10 iScrollReveal
+SKILLMAKE=Inscription 60.0,1 iPenAndInk,magery 60.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Wands
+DESCRIPTION=Wand of Reveal
+ON=@Create
+HITPOINTS={36 48}
+ATTR=attr_magic
+MOREX=s_reveal
+MOREY=50.0
+MORE2={5 15}
+
+[ITEMDEF iWandChainLightning]
+ID=iWand1
+NAME=Wand of Chain Lightning
+TYPE=tWand
+VALUE=658
+WEIGHT=4.1
+RESOURCES=iWand1,10 iScrollChainLightning
+SKILLMAKE=Inscription 70.0,1 iPenAndInk,magery 70.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Wands
+DESCRIPTION=Wand of Chain Lightning
+ON=@Create
+HITPOINTS={36 48}
+ATTR=attr_magic
+MOREX=s_chain_lightning
+MOREY=50.0
+MORE2={5 15}
+
+[ITEMDEF iWandEnergyField]
+ID=iWand2
+NAME=Wand of Energy Field
+TYPE=tWand
+VALUE=658
+WEIGHT=4.1
+RESOURCES=iWand2,10 iScrollEnergyField
+SKILLMAKE=Inscription 70.0,1 iPenAndInk,magery 70.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Wands
+DESCRIPTION=Wand of Energy Field
+ON=@Create
+HITPOINTS={36 48}
+ATTR=attr_magic
+MOREX=s_energy_field
+MOREY=50.0
+MORE2={5 15}
+
+[ITEMDEF iWandFlamestrike]
+ID=iWand3
+NAME=Wand of Flame Strike
+TYPE=tWand
+VALUE=658
+WEIGHT=4.1
+RESOURCES=iWand3,10 iScrollFlamestrike
+SKILLMAKE=Inscription 70.0,1 iPenAndInk,magery 70.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Wands
+DESCRIPTION=Wand of Flame Strike
+ON=@Create
+HITPOINTS={36 48}
+ATTR=attr_magic
+MOREX=s_flamestrike
+MOREY=50.0
+MORE2={5 15}
+
+[ITEMDEF iWandGateTravel]
+ID=iWand4
+NAME=Wand of Gate Travel
+TYPE=tWand
+VALUE=658
+WEIGHT=4.1
+RESOURCES=iWand4,10 iScrollGateTravel
+SKILLMAKE=Inscription 70.0,1 iPenAndInk,magery 70.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Wands
+DESCRIPTION=Wand of Gate Travel
+ON=@Create
+HITPOINTS={36 48}
+ATTR=attr_magic
+MOREX=s_gate_travel
+MOREY=50.0
+MORE2={5 15}
+
+[ITEMDEF iWandManaVampire]
+ID=iWand1
+NAME=Wand of Mana Vampire
+TYPE=tWand
+VALUE=658
+WEIGHT=4.1
+RESOURCES=iWand1,10 iScrollManaVampire
+SKILLMAKE=Inscription 70.0,1 iPenAndInk,magery 70.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Wands
+DESCRIPTION=Wand of Mana Vampire
+ON=@Create
+HITPOINTS={36 48}
+ATTR=attr_magic
+MOREX=s_mana_vampire
+MOREY=50.0
+MORE2={5 15}
+
+[ITEMDEF iWandMassDispel]
+ID=iWand2
+NAME=Wand of Mass Dispel
+TYPE=tWand
+VALUE=658
+WEIGHT=4.1
+RESOURCES=iWand2,10 iScrollMassDispel
+SKILLMAKE=Inscription 70.0,1 iPenAndInk,magery 70.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Wands
+DESCRIPTION=Wand of Mass Dispel
+ON=@Create
+HITPOINTS={36 48}
+ATTR=attr_magic
+MOREX=s_mass_dispel
+MOREY=50.0
+MORE2={5 15}
+
+[ITEMDEF iWandMeteorSwarm]
+ID=iWand3
+NAME=Wand of Meteor Storm
+TYPE=tWand
+VALUE=658
+WEIGHT=4.1
+RESOURCES=iWand3,10 iScrollMeteorSwarm
+SKILLMAKE=Inscription 70.0,1 iPenAndInk,magery 70.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Wands
+DESCRIPTION=Wand of Meteor Storm
+ON=@Create
+HITPOINTS={36 48}
+ATTR=attr_magic
+MOREX=s_meteor_swarm
+MOREY=50.0
+MORE2={5 15}
+
+[ITEMDEF iWandPolymorph]
+ID=iWand4
+NAME=Wand of Polymorph
+TYPE=tWand
+VALUE=658
+WEIGHT=4.1
+RESOURCES=iWand4,10 iScrollPolymorph
+SKILLMAKE=Inscription 70.0,1 iPenAndInk,magery 70.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Wands
+DESCRIPTION=Wand of Polymorph
+ON=@Create
+HITPOINTS={36 48}
+ATTR=attr_magic
+MOREX=s_polymorph
+MOREY=50.0
+MORE2={5 15}
+
+[ITEMDEF iWandEarthquake]
+ID=iWand1
+NAME=Wand of Earthquake
+TYPE=tWand
+VALUE=700
+WEIGHT=4.1
+RESOURCES=iWand1,10 iScrollEarthquake
+SKILLMAKE=Inscription 80.0,1 iPenAndInk,magery 80.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Wands
+DESCRIPTION=Wand of Earthquake
+ON=@Create
+HITPOINTS={36 48}
+ATTR=attr_magic
+MOREX=s_earthquake
+MOREY=50.0
+MORE2={5 15}
+
+[ITEMDEF iWandEnergyVortex]
+ID=iWand2
+NAME=Wand of Energy Vortex
+TYPE=tWand
+VALUE=700
+WEIGHT=4.1
+RESOURCES=iWand2,10 iScrollEnergyVortex
+SKILLMAKE=Inscription 80.0,1 iPenAndInk,magery 80.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Wands
+DESCRIPTION=Wand of Energy Vortex
+ON=@Create
+HITPOINTS={36 48}
+ATTR=attr_magic
+MOREX=s_energy_vortex
+MOREY=50.0
+MORE2={5 15}
+
+[ITEMDEF iWandResurrection]
+ID=iWand3
+NAME=Wand of Resurrection
+TYPE=tWand
+VALUE=700
+WEIGHT=4.1
+RESOURCES=iWand3,10 iScrollResurrection
+SKILLMAKE=Inscription 80.0,1 iPenAndInk,magery 80.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Wands
+DESCRIPTION=Wand of Resurrection
+ON=@Create
+HITPOINTS={36 48}
+ATTR=attr_magic
+MOREX=s_resurrection
+MOREY=50.0
+MORE2={5 15}
+
+[ITEMDEF iWandSummonElemAir]
+ID=iWand4
+NAME=Wand of Summon Air Elemental
+TYPE=tWand
+VALUE=700
+WEIGHT=4.1
+RESOURCES=iWand4,10 iScrollSummonElemAir
+SKILLMAKE=Inscription 80.0,1 iPenAndInk,magery 80.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Wands
+DESCRIPTION=Wand of Summon Air Elemental
+ON=@Create
+HITPOINTS={36 48}
+ATTR=attr_magic
+MOREX=s_summon_elem_air
+MOREY=50.0
+MORE2={5 15}
+
+[ITEMDEF iWandSummonDaemon]
+ID=iWand1
+NAME=Wand of Summon Daemon
+TYPE=tWand
+VALUE=700
+WEIGHT=4.1
+RESOURCES=iWand1,10 iScrollSummonDaemon
+SKILLMAKE=Inscription 80.0,1 iPenAndInk,magery 80.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Wands
+DESCRIPTION=Wand of Summon Daemon
+ON=@Create
+HITPOINTS={36 48}
+ATTR=attr_magic
+MOREX=s_summon_daemon
+MOREY=50.0
+MORE2={5 15}
+
+[ITEMDEF iWandSummonElemEarth]
+ID=iWand2
+NAME=Wand of Summon Earth Elemental
+TYPE=tWand
+VALUE=700
+WEIGHT=4.1
+RESOURCES=iWand2,10 iScrollSummonElemEarth
+SKILLMAKE=Inscription 80.0,1 iPenAndInk,magery 80.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Wands
+DESCRIPTION=Wand of Summon Earth Elemental
+ON=@Create
+HITPOINTS={36 48}
+ATTR=attr_magic
+MOREX=s_summon_elem_earth
+MOREY=50.0
+MORE2={5 15}
+
+[ITEMDEF iWandSummonElemFire]
+ID=iWand3
+NAME=Wand of Summon Fire Elemental
+TYPE=tWand
+VALUE=700
+WEIGHT=4.1
+RESOURCES=iWand3,10 iScrollSummonElemFire
+SKILLMAKE=Inscription 80.0,1 iPenAndInk,magery 80.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Wands
+DESCRIPTION=Wand of Summon Fire Elemental
+ON=@Create
+HITPOINTS={36 48}
+ATTR=attr_magic
+MOREX=s_summon_elem_fire
+MOREY=50.0
+MORE2={5 15}
+
+[ITEMDEF iWandSummonElemWater]
+ID=iWand4
+NAME=Wand of Summon Water Elemental
+TYPE=tWand
+VALUE=700
+WEIGHT=4.1
+RESOURCES=iWand4,10 iScrollSummonElemWater
+SKILLMAKE=Inscription 80.0,1 iPenAndInk,magery 80.0
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Wands
+DESCRIPTION=Wand of Summon Water Elemental
+ON=@Create
+HITPOINTS={36 48}
+ATTR=attr_magic
+MOREX=s_summon_elem_water
+MOREY=50.0
+MORE2={5 15}
+
+
+[EOF]

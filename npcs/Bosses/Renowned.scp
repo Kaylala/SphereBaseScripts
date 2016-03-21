@@ -1,0 +1,136 @@
+
+// Acid Elemental [Renowned]
+[CharDef cAcidElementalRenowned]
+ID=cAcidElemental
+Name=acid elemental
+Can=CanWalk|CanUseHands|CanSwim
+MoveRate=100
+Dam=9,15
+Icon=iAcidElementalIcon
+Sound=sndWaterElemental1
+Resources=0
+FoodType=t_Magic
+MaxFood=35
+Aversions=r_Civilization
+Desires=cAcidElemental,t_Magic
+BloodColor=ColorsGreen
+TEvents=eAIAcidElemental
+
+Category=Bosses
+Subsection=Renowned
+Description=Acid Elemental
+
+On=@Create
+NPC=Brain_Monster
+Color=029F
+Tag.Name.Suffix=" [Renowned]"
+SlayerSuper=ElementalSlayer
+
+Fame=10000
+Karma=-10000
+Alignment=Evil
+
+DamPhysical=25
+DamFire=50
+DamCold=0
+DamPoison=0
+DamEnergy=25
+
+ResPhysical=45,55
+ResFire=40,50
+ResCold=20,30
+ResPoison=10,20
+ResEnergy=30,40
+
+OStr={525 590}
+ODex={125 150}
+OInt={370 420}
+MaxHits={2100 2300}
+
+Wrestling={800 1000}
+Tactics={900 1100}
+MagicResistance={700 850}
+Anatomy={600 1000}
+Parrying={900 1100}
+Magery={800 950}
+EvaluatingIntel={800 950}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={800 1000}
+
+On=@DeathCorpse
+NewTMap=2
+NewItem=RandomPotion
+NewItem=RandomRareGem,1,R19
+NewItem={{RandomCostume 1 iBreastplateOfTheBerserker 1 iMysticsGarb 1} 30 0 70}
+
+// Fire Elemental
+[CharDef iFireElementalRenowned]
+ID=cFireElemental
+Name=fire elemental
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=7,9
+Icon=iFireElementalIcon
+Sound=sndFireElemental1
+Resources=0
+FoodType=t_Magic
+MaxFood=35
+Aversions=r_Civilization
+Desires=cFireElemental,t_Magic
+BloodColor=0
+
+Category=Bosses
+Subsection=Renowned
+Description=Fire Elemental
+
+On=@Create
+NPC=Brain_Monster
+Color=04EC
+Tag.Name.Suffix=" [Renowned]"
+SlayerSuper=ElementalSlayer|FlameSlayer
+SlayerLesser=FireElementalSlayer
+
+Fame=4500
+Karma=-4500
+Alignment=Evil
+
+DamPhysical=25
+DamFire=75
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=45,55
+ResFire=60,80
+ResCold=5,10
+ResPoison=40,50
+ResEnergy=40,50
+
+OStr={126 155}
+ODex={166 185}
+OInt={101 125}
+MaxHits={76 93}
+
+Wrestling={800 1100}
+Tactics={900 1100}
+MagicResistance={950 1250}
+Parrying={900 1100}
+Magery={1000 1250}
+EvaluatingIntel={1000 1250}
+
+ItemNewbie=iSpellbook
+AddSpell=7,1
+
+On=@NPCRestock
+NewGold={800 1000}
+
+On=@DeathCorpse
+NewTMap=2
+NewItem=RandomCommonGem
+NewItem=iSulfurousAsh,3
+NewItem=RandomRareGem,1,R19
+NewItem={{iJadeWarAxe 1 iTokenOfHolyFavor 1 iSwordOfShatteredHopes 1} 30 0 70}

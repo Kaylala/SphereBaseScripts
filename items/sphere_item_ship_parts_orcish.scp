@@ -1,0 +1,11204 @@
+//****************************************************************************
+// SPHERE by : Menasoft ©1997-2011
+// www.sphereserver.net
+// All SPHERE script files and formats are copyright Menasoft & Partners.
+// This file may be freely edited for personal use, but may not be distributed
+// in whole or in part, in any format without express written permission from
+// Menasoft & Partners. All donations and contributions
+// become the property of Menasoft & Partners.
+//****************************************************************************
+// FILE LAST UPDATED: Tuesday, March 24, 2015
+//
+VERSION=0.56b
+
+[ITEMDEF 07530]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout
+TYPE=tNormal
+
+[ITEMDEF 07531]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout2
+TYPE=tNormal
+
+[ITEMDEF 07532]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout3
+TYPE=tNormal
+
+[ITEMDEF 07533]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout4
+TYPE=tNormal
+
+[ITEMDEF 07534]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout5
+TYPE=tNormal
+
+[ITEMDEF 07535]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout6
+TYPE=tNormal
+
+[ITEMDEF 07536]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout7
+TYPE=tNormal
+
+[ITEMDEF 07537]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout8
+TYPE=tNormal
+
+[ITEMDEF 07538]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout9
+TYPE=tNormal
+
+[ITEMDEF 07539]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout10
+TYPE=tNormal
+
+[ITEMDEF 0753a]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout11
+TYPE=tNormal
+
+[ITEMDEF 0753b]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout12
+TYPE=tNormal
+
+[ITEMDEF 0753c]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout13
+TYPE=tNormal
+
+[ITEMDEF 0753d]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout14
+TYPE=tNormal
+
+[ITEMDEF 0753e]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout15
+TYPE=tNormal
+
+[ITEMDEF 0753f]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout16
+TYPE=tNormal
+
+[ITEMDEF 07540]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout17
+TYPE=tNormal
+
+[ITEMDEF 07541]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout18
+TYPE=tNormal
+
+[ITEMDEF 07542]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout19
+TYPE=tNormal
+
+[ITEMDEF 07543]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout20
+TYPE=tNormal
+
+[ITEMDEF 07544]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout21
+TYPE=tNormal
+
+[ITEMDEF 07545]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout22
+TYPE=tNormal
+
+[ITEMDEF 07546]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout23
+TYPE=tNormal
+
+[ITEMDEF 07547]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout24
+TYPE=tNormal
+
+[ITEMDEF 07548]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout25
+TYPE=tNormal
+
+[ITEMDEF 07549]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout26
+TYPE=tNormal
+
+[ITEMDEF 0754a]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout27
+TYPE=tNormal
+
+[ITEMDEF 0754b]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout28
+TYPE=tNormal
+
+[ITEMDEF 0754c]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout29
+TYPE=tNormal
+
+[ITEMDEF 0754d]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout30
+TYPE=tNormal
+
+[ITEMDEF 0754e]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout31
+TYPE=tNormal
+
+[ITEMDEF 0754f]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout32
+TYPE=tNormal
+
+[ITEMDEF 07550]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout33
+TYPE=tNormal
+
+[ITEMDEF 07551]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout34
+TYPE=tNormal
+
+[ITEMDEF 07552]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout35
+TYPE=tNormal
+
+[ITEMDEF 07553]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout36
+TYPE=tNormal
+
+[ITEMDEF 07554]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout37
+TYPE=tNormal
+
+[ITEMDEF 07555]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout38
+TYPE=tNormal
+
+[ITEMDEF 07556]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout39
+TYPE=tNormal
+
+[ITEMDEF 07557]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout40
+TYPE=tNormal
+
+[ITEMDEF 07558]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout41
+TYPE=tNormal
+
+[ITEMDEF 07559]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout42
+TYPE=tNormal
+
+[ITEMDEF 0755a]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout43
+TYPE=tNormal
+
+[ITEMDEF 0755b]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout44
+TYPE=tNormal
+
+[ITEMDEF 0755c]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout45
+TYPE=tNormal
+
+[ITEMDEF 0755d]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout46
+TYPE=tNormal
+
+[ITEMDEF 0755e]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout47
+TYPE=tNormal
+
+[ITEMDEF 0755f]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout48
+TYPE=tNormal
+
+[ITEMDEF 07560]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout49
+TYPE=tNormal
+
+[ITEMDEF 07561]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout50
+TYPE=tNormal
+
+[ITEMDEF 07562]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout51
+TYPE=tNormal
+
+[ITEMDEF 07563]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout52
+TYPE=tNormal
+
+[ITEMDEF 07564]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout53
+TYPE=tNormal
+
+[ITEMDEF 07565]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout54
+TYPE=tNormal
+
+[ITEMDEF 07566]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout55
+TYPE=tNormal
+
+[ITEMDEF 07567]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout56
+TYPE=tNormal
+
+[ITEMDEF 07568]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout57
+TYPE=tNormal
+
+[ITEMDEF 07569]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout58
+TYPE=tNormal
+
+[ITEMDEF 0756a]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout59
+TYPE=tNormal
+
+[ITEMDEF 0756b]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout60
+TYPE=tNormal
+
+[ITEMDEF 0756c]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout61
+TYPE=tNormal
+
+[ITEMDEF 0756d]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout62
+TYPE=tNormal
+
+[ITEMDEF 0756e]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout63
+TYPE=tNormal
+
+[ITEMDEF 0756f]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout64
+TYPE=tNormal
+
+[ITEMDEF 07570]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout65
+TYPE=tNormal
+
+[ITEMDEF 07571]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout66
+TYPE=tNormal
+
+[ITEMDEF 07572]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout67
+TYPE=tNormal
+
+[ITEMDEF 07573]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout68
+TYPE=tNormal
+
+[ITEMDEF 07574]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout69
+TYPE=tNormal
+
+[ITEMDEF 07575]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout70
+TYPE=tNormal
+
+[ITEMDEF 07576]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout71
+TYPE=tNormal
+
+[ITEMDEF 07577]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout72
+TYPE=tNormal
+
+[ITEMDEF 07578]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout73
+TYPE=tNormal
+
+[ITEMDEF 07579]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout74
+TYPE=tNormal
+
+[ITEMDEF 0757a]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout75
+TYPE=tNormal
+
+[ITEMDEF 0757b]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout76
+TYPE=tNormal
+
+[ITEMDEF 0757c]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout77
+TYPE=tNormal
+
+[ITEMDEF 0757d]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout78
+TYPE=tNormal
+
+[ITEMDEF 0757e]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout79
+TYPE=tNormal
+
+[ITEMDEF 0757f]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout80
+TYPE=tNormal
+
+[ITEMDEF 07580]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout81
+TYPE=tNormal
+
+[ITEMDEF 07581]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout82
+TYPE=tNormal
+
+[ITEMDEF 07582]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout83
+TYPE=tNormal
+
+[ITEMDEF 07583]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout84
+TYPE=tNormal
+
+[ITEMDEF 07584]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout85
+TYPE=tNormal
+
+[ITEMDEF 07585]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout86
+TYPE=tNormal
+
+[ITEMDEF 07586]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout87
+TYPE=tNormal
+
+[ITEMDEF 07587]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout88
+TYPE=tNormal
+
+[ITEMDEF 07588]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout89
+TYPE=tNormal
+
+[ITEMDEF 07589]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout90
+TYPE=tNormal
+
+[ITEMDEF 0758a]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout91
+TYPE=tNormal
+
+[ITEMDEF 0758b]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout92
+TYPE=tNormal
+
+[ITEMDEF 0758c]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout93
+TYPE=tNormal
+
+[ITEMDEF 0758d]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout94
+TYPE=tNormal
+
+[ITEMDEF 0758e]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout95
+TYPE=tNormal
+
+[ITEMDEF 0758f]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout96
+TYPE=tNormal
+
+[ITEMDEF 07590]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout97
+TYPE=tNormal
+
+[ITEMDEF 07591]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout98
+TYPE=tNormal
+
+[ITEMDEF 07592]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout99
+TYPE=tNormal
+
+[ITEMDEF 07593]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout100
+TYPE=tNormal
+
+[ITEMDEF 07594]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout101
+TYPE=tNormal
+
+[ITEMDEF 07595]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout102
+TYPE=tNormal
+
+[ITEMDEF 07596]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout103
+TYPE=tNormal
+
+[ITEMDEF 07597]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout104
+TYPE=tNormal
+
+[ITEMDEF 07598]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout105
+TYPE=tNormal
+
+[ITEMDEF 07599]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout106
+TYPE=tNormal
+
+[ITEMDEF 0759a]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout107
+TYPE=tNormal
+
+[ITEMDEF 0759b]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout108
+TYPE=tNormal
+
+[ITEMDEF 0759c]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout109
+TYPE=tNormal
+
+[ITEMDEF 0759d]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout110
+TYPE=tNormal
+
+[ITEMDEF 0759e]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout111
+TYPE=tNormal
+
+[ITEMDEF 0759f]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout112
+TYPE=tNormal
+
+[ITEMDEF 075a0]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout113
+TYPE=tNormal
+
+[ITEMDEF 075a1]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout114
+TYPE=tNormal
+
+[ITEMDEF 075a2]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout115
+TYPE=tNormal
+
+[ITEMDEF 075a3]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout116
+TYPE=tNormal
+
+[ITEMDEF 075a4]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout117
+TYPE=tNormal
+
+[ITEMDEF 075a5]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout118
+TYPE=tContainer
+
+[ITEMDEF 075a6]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout119
+TYPE=tNormal
+
+[ITEMDEF 075a7]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout120
+TYPE=tNormal
+
+[ITEMDEF 075a8]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout121
+TYPE=tNormal
+
+[ITEMDEF 075a9]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout122
+TYPE=tNormal
+
+[ITEMDEF 075aa]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout123
+TYPE=tNormal
+
+[ITEMDEF 075ab]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout124
+TYPE=tNormal
+
+[ITEMDEF 075ac]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout125
+TYPE=tNormal
+
+[ITEMDEF 075ad]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout126
+TYPE=tNormal
+
+[ITEMDEF 075ae]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout127
+TYPE=tNormal
+
+[ITEMDEF 075af]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout128
+TYPE=tNormal
+
+[ITEMDEF 075b0]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout129
+TYPE=tNormal
+
+[ITEMDEF 075b1]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout130
+TYPE=tNormal
+
+[ITEMDEF 075b2]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout131
+TYPE=tNormal
+
+[ITEMDEF 075b3]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout132
+TYPE=tNormal
+
+[ITEMDEF 075b4]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout133
+TYPE=tNormal
+
+[ITEMDEF 075b5]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout134
+TYPE=tNormal
+
+[ITEMDEF 075b6]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout135
+TYPE=tNormal
+
+[ITEMDEF 075b7]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout136
+TYPE=tNormal
+
+[ITEMDEF 075b8]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout137
+TYPE=tNormal
+
+[ITEMDEF 075b9]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout138
+TYPE=tNormal
+
+[ITEMDEF 075ba]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout139
+TYPE=tNormal
+
+[ITEMDEF 075bb]
+// OrcShipMainHull SOUT
+DEFNAME=iOrcshipmainhullSout140
+TYPE=tNormal
+
+[ITEMDEF 07724]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest
+TYPE=tNormal
+
+[ITEMDEF 07725]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest2
+TYPE=tNormal
+
+[ITEMDEF 07726]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest3
+TYPE=tNormal
+
+[ITEMDEF 07727]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest4
+TYPE=tNormal
+
+[ITEMDEF 07728]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest5
+TYPE=tNormal
+
+[ITEMDEF 07729]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest6
+TYPE=tNormal
+
+[ITEMDEF 0772a]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest7
+TYPE=tNormal
+
+[ITEMDEF 0772b]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest8
+TYPE=tNormal
+
+[ITEMDEF 0772c]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest9
+TYPE=tNormal
+
+[ITEMDEF 0772d]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest10
+TYPE=tNormal
+
+[ITEMDEF 0772e]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest11
+TYPE=tNormal
+
+[ITEMDEF 0772f]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest12
+TYPE=tNormal
+
+[ITEMDEF 07730]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest13
+TYPE=tNormal
+
+[ITEMDEF 07731]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest14
+TYPE=tNormal
+
+[ITEMDEF 07732]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest15
+TYPE=tNormal
+
+[ITEMDEF 07733]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest16
+TYPE=tNormal
+
+[ITEMDEF 07734]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest17
+TYPE=tNormal
+
+[ITEMDEF 07735]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest18
+TYPE=tNormal
+
+[ITEMDEF 07736]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest19
+TYPE=tNormal
+
+[ITEMDEF 07737]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest20
+TYPE=tNormal
+
+[ITEMDEF 07738]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest21
+TYPE=tNormal
+
+[ITEMDEF 07739]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest22
+TYPE=tNormal
+
+[ITEMDEF 0773a]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest23
+TYPE=tNormal
+
+[ITEMDEF 0773b]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest24
+TYPE=tNormal
+
+[ITEMDEF 0773c]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest25
+TYPE=tNormal
+
+[ITEMDEF 0773d]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest26
+TYPE=tNormal
+
+[ITEMDEF 0773e]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest27
+TYPE=tNormal
+
+[ITEMDEF 0773f]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest28
+TYPE=tNormal
+
+[ITEMDEF 07740]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest29
+TYPE=tNormal
+
+[ITEMDEF 07741]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest30
+TYPE=tNormal
+
+[ITEMDEF 07742]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest31
+TYPE=tNormal
+
+[ITEMDEF 07743]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest32
+TYPE=tNormal
+
+[ITEMDEF 07744]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest33
+TYPE=tNormal
+
+[ITEMDEF 07745]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest34
+TYPE=tNormal
+
+[ITEMDEF 07746]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest35
+TYPE=tNormal
+
+[ITEMDEF 07747]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest36
+TYPE=tNormal
+
+[ITEMDEF 07748]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest37
+TYPE=tNormal
+
+[ITEMDEF 07749]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest38
+TYPE=tNormal
+
+[ITEMDEF 0774a]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest39
+TYPE=tNormal
+
+[ITEMDEF 0774b]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest40
+TYPE=tNormal
+
+[ITEMDEF 0774c]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest41
+TYPE=tNormal
+
+[ITEMDEF 0774d]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest42
+TYPE=tNormal
+
+[ITEMDEF 0774e]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest43
+TYPE=tNormal
+
+[ITEMDEF 0774f]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest44
+TYPE=tNormal
+
+[ITEMDEF 07750]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest45
+TYPE=tNormal
+
+[ITEMDEF 07751]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest46
+TYPE=tNormal
+
+[ITEMDEF 07752]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest47
+TYPE=tNormal
+
+[ITEMDEF 07753]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest48
+TYPE=tNormal
+
+[ITEMDEF 07754]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest49
+TYPE=tNormal
+
+[ITEMDEF 07755]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest50
+TYPE=tNormal
+
+[ITEMDEF 07756]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest51
+TYPE=tNormal
+
+[ITEMDEF 07757]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest52
+TYPE=tNormal
+
+[ITEMDEF 07758]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest53
+TYPE=tNormal
+
+[ITEMDEF 07759]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest54
+TYPE=tNormal
+
+[ITEMDEF 0775a]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest55
+TYPE=tNormal
+
+[ITEMDEF 0775b]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest56
+TYPE=tNormal
+
+[ITEMDEF 0775c]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest57
+TYPE=tNormal
+
+[ITEMDEF 0775d]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest58
+TYPE=tNormal
+
+[ITEMDEF 0775e]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest59
+TYPE=tNormal
+
+[ITEMDEF 0775f]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest60
+TYPE=tNormal
+
+[ITEMDEF 07760]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest61
+TYPE=tNormal
+
+[ITEMDEF 07761]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest62
+TYPE=tNormal
+
+[ITEMDEF 07762]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest63
+TYPE=tNormal
+
+[ITEMDEF 07763]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest64
+TYPE=tNormal
+
+[ITEMDEF 07764]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest65
+TYPE=tNormal
+
+[ITEMDEF 07765]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest66
+TYPE=tNormal
+
+[ITEMDEF 07766]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest67
+TYPE=tNormal
+
+[ITEMDEF 07767]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest68
+TYPE=tNormal
+
+[ITEMDEF 07768]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest69
+TYPE=tNormal
+
+[ITEMDEF 07769]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest70
+TYPE=tNormal
+
+[ITEMDEF 0776a]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest71
+TYPE=tNormal
+
+[ITEMDEF 0776b]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest72
+TYPE=tNormal
+
+[ITEMDEF 0776c]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest73
+TYPE=tNormal
+
+[ITEMDEF 0776d]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest74
+TYPE=tNormal
+
+[ITEMDEF 0776e]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest75
+TYPE=tNormal
+
+[ITEMDEF 0776f]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest76
+TYPE=tNormal
+
+[ITEMDEF 07770]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest77
+TYPE=tNormal
+
+[ITEMDEF 07771]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest78
+TYPE=tNormal
+
+[ITEMDEF 07772]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest79
+TYPE=tNormal
+
+[ITEMDEF 07773]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest80
+TYPE=tNormal
+
+[ITEMDEF 07774]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest81
+TYPE=tNormal
+
+[ITEMDEF 07775]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest82
+TYPE=tNormal
+
+[ITEMDEF 07776]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest83
+TYPE=tNormal
+
+[ITEMDEF 07777]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest84
+TYPE=tNormal
+
+[ITEMDEF 07778]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest85
+TYPE=tNormal
+
+[ITEMDEF 07779]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest86
+TYPE=tNormal
+
+[ITEMDEF 0777a]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest87
+TYPE=tNormal
+
+[ITEMDEF 0777b]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest88
+TYPE=tNormal
+
+[ITEMDEF 0777c]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest89
+TYPE=tNormal
+
+[ITEMDEF 0777d]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest90
+TYPE=tNormal
+
+[ITEMDEF 0777e]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest91
+TYPE=tNormal
+
+[ITEMDEF 0777f]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest92
+TYPE=tNormal
+
+[ITEMDEF 07780]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest93
+TYPE=tNormal
+
+[ITEMDEF 07781]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest94
+TYPE=tNormal
+
+[ITEMDEF 07782]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest95
+TYPE=tNormal
+
+[ITEMDEF 07783]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest96
+TYPE=tNormal
+
+[ITEMDEF 07784]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest97
+TYPE=tNormal
+
+[ITEMDEF 07785]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest98
+TYPE=tNormal
+
+[ITEMDEF 07786]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest99
+TYPE=tNormal
+
+[ITEMDEF 07787]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest100
+TYPE=tNormal
+
+[ITEMDEF 07788]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest101
+TYPE=tNormal
+
+[ITEMDEF 07789]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest102
+TYPE=tNormal
+
+[ITEMDEF 0778a]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest103
+TYPE=tNormal
+
+[ITEMDEF 0778b]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest104
+TYPE=tNormal
+
+[ITEMDEF 0778c]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest105
+TYPE=tNormal
+
+[ITEMDEF 0778d]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest106
+TYPE=tNormal
+
+[ITEMDEF 0778e]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest107
+TYPE=tNormal
+
+[ITEMDEF 0778f]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest108
+TYPE=tNormal
+
+[ITEMDEF 07790]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest109
+TYPE=tNormal
+
+[ITEMDEF 07791]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest110
+TYPE=tNormal
+
+[ITEMDEF 07792]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest111
+TYPE=tNormal
+
+[ITEMDEF 07793]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest112
+TYPE=tNormal
+
+[ITEMDEF 07794]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest113
+TYPE=tNormal
+
+[ITEMDEF 07795]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest114
+TYPE=tNormal
+
+[ITEMDEF 07796]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest115
+TYPE=tNormal
+
+[ITEMDEF 07797]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest116
+TYPE=tNormal
+
+[ITEMDEF 07798]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest117
+TYPE=tNormal
+
+[ITEMDEF 07799]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest118
+TYPE=tContainer
+
+[ITEMDEF 0779a]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest119
+TYPE=tNormal
+
+[ITEMDEF 0779b]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest120
+TYPE=tNormal
+
+[ITEMDEF 0779c]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest121
+TYPE=tNormal
+
+[ITEMDEF 0779d]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest122
+TYPE=tNormal
+
+[ITEMDEF 0779e]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest123
+TYPE=tNormal
+
+[ITEMDEF 0779f]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest124
+TYPE=tNormal
+
+[ITEMDEF 077a0]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest125
+TYPE=tNormal
+
+[ITEMDEF 077a1]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest126
+TYPE=tNormal
+
+[ITEMDEF 077a2]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest127
+TYPE=tNormal
+
+[ITEMDEF 077a3]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest128
+TYPE=tNormal
+
+[ITEMDEF 077a4]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest129
+TYPE=tNormal
+
+[ITEMDEF 077a5]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest130
+TYPE=tNormal
+
+[ITEMDEF 077a6]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest131
+TYPE=tNormal
+
+[ITEMDEF 077a7]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest132
+TYPE=tNormal
+
+[ITEMDEF 077a8]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest133
+TYPE=tNormal
+
+[ITEMDEF 077a9]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest134
+TYPE=tNormal
+
+[ITEMDEF 077aa]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest135
+TYPE=tNormal
+
+[ITEMDEF 077ab]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest136
+TYPE=tNormal
+
+[ITEMDEF 077ac]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest137
+TYPE=tNormal
+
+[ITEMDEF 077ad]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest138
+TYPE=tNormal
+
+[ITEMDEF 077ae]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest139
+TYPE=tNormal
+
+[ITEMDEF 077af]
+// OrcShipMainHull WEST
+DEFNAME=iOrcshipmainhullWest140
+TYPE=tNormal
+
+[ITEMDEF 07918]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort
+TYPE=tNormal
+
+[ITEMDEF 07919]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort2
+TYPE=tNormal
+
+[ITEMDEF 0791a]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort3
+TYPE=tNormal
+
+[ITEMDEF 0791b]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort4
+TYPE=tNormal
+
+[ITEMDEF 0791c]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort5
+TYPE=tNormal
+
+[ITEMDEF 0791d]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort6
+TYPE=tNormal
+
+[ITEMDEF 0791e]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort7
+TYPE=tNormal
+
+[ITEMDEF 0791f]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort8
+TYPE=tNormal
+
+[ITEMDEF 07920]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort9
+TYPE=tNormal
+
+[ITEMDEF 07921]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort10
+TYPE=tNormal
+
+[ITEMDEF 07922]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort11
+TYPE=tNormal
+
+[ITEMDEF 07923]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort12
+TYPE=tNormal
+
+[ITEMDEF 07924]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort13
+TYPE=tNormal
+
+[ITEMDEF 07925]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort14
+TYPE=tNormal
+
+[ITEMDEF 07926]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort15
+TYPE=tNormal
+
+[ITEMDEF 07927]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort16
+TYPE=tNormal
+
+[ITEMDEF 07928]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort17
+TYPE=tNormal
+
+[ITEMDEF 07929]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort18
+TYPE=tNormal
+
+[ITEMDEF 0792a]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort19
+TYPE=tNormal
+
+[ITEMDEF 0792b]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort20
+TYPE=tNormal
+
+[ITEMDEF 0792c]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort21
+TYPE=tNormal
+
+[ITEMDEF 0792d]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort22
+TYPE=tNormal
+
+[ITEMDEF 0792e]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort23
+TYPE=tNormal
+
+[ITEMDEF 0792f]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort24
+TYPE=tNormal
+
+[ITEMDEF 07930]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort25
+TYPE=tNormal
+
+[ITEMDEF 07931]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort26
+TYPE=tNormal
+
+[ITEMDEF 07932]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort27
+TYPE=tNormal
+
+[ITEMDEF 07933]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort28
+TYPE=tNormal
+
+[ITEMDEF 07934]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort29
+TYPE=tNormal
+
+[ITEMDEF 07935]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort30
+TYPE=tNormal
+
+[ITEMDEF 07936]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort31
+TYPE=tNormal
+
+[ITEMDEF 07937]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort32
+TYPE=tNormal
+
+[ITEMDEF 07938]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort33
+TYPE=tNormal
+
+[ITEMDEF 07939]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort34
+TYPE=tNormal
+
+[ITEMDEF 0793a]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort35
+TYPE=tNormal
+
+[ITEMDEF 0793b]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort36
+TYPE=tNormal
+
+[ITEMDEF 0793c]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort37
+TYPE=tNormal
+
+[ITEMDEF 0793d]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort38
+TYPE=tNormal
+
+[ITEMDEF 0793e]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort39
+TYPE=tNormal
+
+[ITEMDEF 0793f]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort40
+TYPE=tNormal
+
+[ITEMDEF 07940]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort41
+TYPE=tNormal
+
+[ITEMDEF 07941]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort42
+TYPE=tNormal
+
+[ITEMDEF 07942]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort43
+TYPE=tNormal
+
+[ITEMDEF 07943]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort44
+TYPE=tNormal
+
+[ITEMDEF 07944]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort45
+TYPE=tNormal
+
+[ITEMDEF 07945]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort46
+TYPE=tNormal
+
+[ITEMDEF 07946]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort47
+TYPE=tNormal
+
+[ITEMDEF 07947]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort48
+TYPE=tNormal
+
+[ITEMDEF 07948]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort49
+TYPE=tNormal
+
+[ITEMDEF 07949]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort50
+TYPE=tNormal
+
+[ITEMDEF 0794a]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort51
+TYPE=tNormal
+
+[ITEMDEF 0794b]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort52
+TYPE=tNormal
+
+[ITEMDEF 0794c]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort53
+TYPE=tNormal
+
+[ITEMDEF 0794d]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort54
+TYPE=tNormal
+
+[ITEMDEF 0794e]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort55
+TYPE=tNormal
+
+[ITEMDEF 0794f]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort56
+TYPE=tNormal
+
+[ITEMDEF 07950]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort57
+TYPE=tNormal
+
+[ITEMDEF 07951]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort58
+TYPE=tNormal
+
+[ITEMDEF 07952]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort59
+TYPE=tNormal
+
+[ITEMDEF 07953]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort60
+TYPE=tNormal
+
+[ITEMDEF 07954]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort61
+TYPE=tNormal
+
+[ITEMDEF 07955]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort62
+TYPE=tNormal
+
+[ITEMDEF 07956]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort63
+TYPE=tNormal
+
+[ITEMDEF 07957]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort64
+TYPE=tNormal
+
+[ITEMDEF 07958]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort65
+TYPE=tNormal
+
+[ITEMDEF 07959]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort66
+TYPE=tNormal
+
+[ITEMDEF 0795a]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort67
+TYPE=tNormal
+
+[ITEMDEF 0795b]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort68
+TYPE=tNormal
+
+[ITEMDEF 0795c]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort69
+TYPE=tNormal
+
+[ITEMDEF 0795d]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort70
+TYPE=tNormal
+
+[ITEMDEF 0795e]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort71
+TYPE=tNormal
+
+[ITEMDEF 0795f]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort72
+TYPE=tNormal
+
+[ITEMDEF 07960]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort73
+TYPE=tNormal
+
+[ITEMDEF 07961]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort74
+TYPE=tNormal
+
+[ITEMDEF 07962]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort75
+TYPE=tNormal
+
+[ITEMDEF 07963]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort76
+TYPE=tNormal
+
+[ITEMDEF 07964]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort77
+TYPE=tNormal
+
+[ITEMDEF 07965]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort78
+TYPE=tNormal
+
+[ITEMDEF 07966]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort79
+TYPE=tNormal
+
+[ITEMDEF 07967]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort80
+TYPE=tNormal
+
+[ITEMDEF 07968]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort81
+TYPE=tNormal
+
+[ITEMDEF 07969]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort82
+TYPE=tNormal
+
+[ITEMDEF 0796a]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort83
+TYPE=tNormal
+
+[ITEMDEF 0796b]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort84
+TYPE=tNormal
+
+[ITEMDEF 0796c]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort85
+TYPE=tNormal
+
+[ITEMDEF 0796d]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort86
+TYPE=tNormal
+
+[ITEMDEF 0796e]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort87
+TYPE=tNormal
+
+[ITEMDEF 0796f]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort88
+TYPE=tNormal
+
+[ITEMDEF 07970]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort89
+TYPE=tNormal
+
+[ITEMDEF 07971]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort90
+TYPE=tNormal
+
+[ITEMDEF 07972]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort91
+TYPE=tNormal
+
+[ITEMDEF 07973]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort92
+TYPE=tNormal
+
+[ITEMDEF 07974]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort93
+TYPE=tNormal
+
+[ITEMDEF 07975]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort94
+TYPE=tNormal
+
+[ITEMDEF 07976]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort95
+TYPE=tNormal
+
+[ITEMDEF 07977]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort96
+TYPE=tNormal
+
+[ITEMDEF 07978]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort97
+TYPE=tNormal
+
+[ITEMDEF 07979]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort98
+TYPE=tNormal
+
+[ITEMDEF 0797a]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort99
+TYPE=tNormal
+
+[ITEMDEF 0797b]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort100
+TYPE=tNormal
+
+[ITEMDEF 0797c]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort101
+TYPE=tNormal
+
+[ITEMDEF 0797d]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort102
+TYPE=tNormal
+
+[ITEMDEF 0797e]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort103
+TYPE=tNormal
+
+[ITEMDEF 0797f]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort104
+TYPE=tNormal
+
+[ITEMDEF 07980]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort105
+TYPE=tNormal
+
+[ITEMDEF 07981]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort106
+TYPE=tNormal
+
+[ITEMDEF 07982]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort107
+TYPE=tNormal
+
+[ITEMDEF 07983]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort108
+TYPE=tNormal
+
+[ITEMDEF 07984]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort109
+TYPE=tNormal
+
+[ITEMDEF 07985]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort110
+TYPE=tNormal
+
+[ITEMDEF 07986]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort111
+TYPE=tNormal
+
+[ITEMDEF 07987]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort112
+TYPE=tNormal
+
+[ITEMDEF 07988]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort113
+TYPE=tNormal
+
+[ITEMDEF 07989]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort114
+TYPE=tNormal
+
+[ITEMDEF 0798a]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort115
+TYPE=tNormal
+
+[ITEMDEF 0798b]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort116
+TYPE=tNormal
+
+[ITEMDEF 0798c]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort117
+TYPE=tNormal
+
+[ITEMDEF 0798d]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort118
+TYPE=tContainer
+
+[ITEMDEF 0798e]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort119
+TYPE=tNormal
+
+[ITEMDEF 0798f]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort120
+TYPE=tNormal
+
+[ITEMDEF 07990]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort121
+TYPE=tNormal
+
+[ITEMDEF 07991]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort122
+TYPE=tNormal
+
+[ITEMDEF 07992]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort123
+TYPE=tNormal
+
+[ITEMDEF 07993]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort124
+TYPE=tNormal
+
+[ITEMDEF 07994]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort125
+TYPE=tNormal
+
+[ITEMDEF 07995]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort126
+TYPE=tNormal
+
+[ITEMDEF 07996]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort127
+TYPE=tNormal
+
+[ITEMDEF 07997]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort128
+TYPE=tNormal
+
+[ITEMDEF 07998]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort129
+TYPE=tNormal
+
+[ITEMDEF 07999]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort130
+TYPE=tNormal
+
+[ITEMDEF 0799a]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort131
+TYPE=tNormal
+
+[ITEMDEF 0799b]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort132
+TYPE=tNormal
+
+[ITEMDEF 0799c]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort133
+TYPE=tNormal
+
+[ITEMDEF 0799d]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort134
+TYPE=tNormal
+
+[ITEMDEF 0799e]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort135
+TYPE=tNormal
+
+[ITEMDEF 0799f]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort136
+TYPE=tNormal
+
+[ITEMDEF 079a0]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort137
+TYPE=tNormal
+
+[ITEMDEF 079a1]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort138
+TYPE=tNormal
+
+[ITEMDEF 079a2]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort139
+TYPE=tNormal
+
+[ITEMDEF 079a3]
+// OrcShipMainHull NORT
+DEFNAME=iOrcshipmainhullNort140
+TYPE=tNormal
+
+[ITEMDEF 07b0c]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast
+TYPE=tNormal
+
+[ITEMDEF 07b0d]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast2
+TYPE=tNormal
+
+[ITEMDEF 07b0e]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast3
+TYPE=tNormal
+
+[ITEMDEF 07b0f]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast4
+TYPE=tNormal
+
+[ITEMDEF 07b10]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast5
+TYPE=tNormal
+
+[ITEMDEF 07b11]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast6
+TYPE=tNormal
+
+[ITEMDEF 07b12]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast7
+TYPE=tNormal
+
+[ITEMDEF 07b13]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast8
+TYPE=tNormal
+
+[ITEMDEF 07b14]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast9
+TYPE=tNormal
+
+[ITEMDEF 07b15]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast10
+TYPE=tNormal
+
+[ITEMDEF 07b16]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast11
+TYPE=tNormal
+
+[ITEMDEF 07b17]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast12
+TYPE=tNormal
+
+[ITEMDEF 07b18]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast13
+TYPE=tNormal
+
+[ITEMDEF 07b19]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast14
+TYPE=tNormal
+
+[ITEMDEF 07b1a]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast15
+TYPE=tNormal
+
+[ITEMDEF 07b1b]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast16
+TYPE=tNormal
+
+[ITEMDEF 07b1c]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast17
+TYPE=tNormal
+
+[ITEMDEF 07b1d]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast18
+TYPE=tNormal
+
+[ITEMDEF 07b1e]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast19
+TYPE=tNormal
+
+[ITEMDEF 07b1f]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast20
+TYPE=tNormal
+
+[ITEMDEF 07b20]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast21
+TYPE=tNormal
+
+[ITEMDEF 07b21]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast22
+TYPE=tNormal
+
+[ITEMDEF 07b22]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast23
+TYPE=tNormal
+
+[ITEMDEF 07b23]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast24
+TYPE=tNormal
+
+[ITEMDEF 07b24]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast25
+TYPE=tNormal
+
+[ITEMDEF 07b25]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast26
+TYPE=tNormal
+
+[ITEMDEF 07b26]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast27
+TYPE=tNormal
+
+[ITEMDEF 07b27]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast28
+TYPE=tNormal
+
+[ITEMDEF 07b28]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast29
+TYPE=tNormal
+
+[ITEMDEF 07b29]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast30
+TYPE=tNormal
+
+[ITEMDEF 07b2a]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast31
+TYPE=tNormal
+
+[ITEMDEF 07b2b]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast32
+TYPE=tNormal
+
+[ITEMDEF 07b2c]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast33
+TYPE=tNormal
+
+[ITEMDEF 07b2d]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast34
+TYPE=tNormal
+
+[ITEMDEF 07b2e]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast35
+TYPE=tNormal
+
+[ITEMDEF 07b2f]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast36
+TYPE=tNormal
+
+[ITEMDEF 07b30]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast37
+TYPE=tNormal
+
+[ITEMDEF 07b31]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast38
+TYPE=tNormal
+
+[ITEMDEF 07b32]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast39
+TYPE=tNormal
+
+[ITEMDEF 07b33]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast40
+TYPE=tNormal
+
+[ITEMDEF 07b34]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast41
+TYPE=tNormal
+
+[ITEMDEF 07b35]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast42
+TYPE=tNormal
+
+[ITEMDEF 07b36]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast43
+TYPE=tNormal
+
+[ITEMDEF 07b37]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast44
+TYPE=tNormal
+
+[ITEMDEF 07b38]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast45
+TYPE=tNormal
+
+[ITEMDEF 07b39]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast46
+TYPE=tNormal
+
+[ITEMDEF 07b3a]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast47
+TYPE=tNormal
+
+[ITEMDEF 07b3b]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast48
+TYPE=tNormal
+
+[ITEMDEF 07b3c]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast49
+TYPE=tNormal
+
+[ITEMDEF 07b3d]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast50
+TYPE=tNormal
+
+[ITEMDEF 07b3e]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast51
+TYPE=tNormal
+
+[ITEMDEF 07b3f]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast52
+TYPE=tNormal
+
+[ITEMDEF 07b40]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast53
+TYPE=tNormal
+
+[ITEMDEF 07b41]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast54
+TYPE=tNormal
+
+[ITEMDEF 07b42]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast55
+TYPE=tNormal
+
+[ITEMDEF 07b43]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast56
+TYPE=tNormal
+
+[ITEMDEF 07b44]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast57
+TYPE=tNormal
+
+[ITEMDEF 07b45]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast58
+TYPE=tNormal
+
+[ITEMDEF 07b46]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast59
+TYPE=tNormal
+
+[ITEMDEF 07b47]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast60
+TYPE=tNormal
+
+[ITEMDEF 07b48]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast61
+TYPE=tNormal
+
+[ITEMDEF 07b49]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast62
+TYPE=tNormal
+
+[ITEMDEF 07b4a]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast63
+TYPE=tNormal
+
+[ITEMDEF 07b4b]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast64
+TYPE=tNormal
+
+[ITEMDEF 07b4c]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast65
+TYPE=tNormal
+
+[ITEMDEF 07b4d]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast66
+TYPE=tNormal
+
+[ITEMDEF 07b4e]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast67
+TYPE=tNormal
+
+[ITEMDEF 07b4f]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast68
+TYPE=tNormal
+
+[ITEMDEF 07b50]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast69
+TYPE=tNormal
+
+[ITEMDEF 07b51]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast70
+TYPE=tNormal
+
+[ITEMDEF 07b52]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast71
+TYPE=tNormal
+
+[ITEMDEF 07b53]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast72
+TYPE=tNormal
+
+[ITEMDEF 07b54]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast73
+TYPE=tNormal
+
+[ITEMDEF 07b55]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast74
+TYPE=tNormal
+
+[ITEMDEF 07b56]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast75
+TYPE=tNormal
+
+[ITEMDEF 07b57]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast76
+TYPE=tNormal
+
+[ITEMDEF 07b58]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast77
+TYPE=tNormal
+
+[ITEMDEF 07b59]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast78
+TYPE=tNormal
+
+[ITEMDEF 07b5a]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast79
+TYPE=tNormal
+
+[ITEMDEF 07b5b]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast80
+TYPE=tNormal
+
+[ITEMDEF 07b5c]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast81
+TYPE=tNormal
+
+[ITEMDEF 07b5d]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast82
+TYPE=tNormal
+
+[ITEMDEF 07b5e]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast83
+TYPE=tNormal
+
+[ITEMDEF 07b5f]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast84
+TYPE=tNormal
+
+[ITEMDEF 07b60]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast85
+TYPE=tNormal
+
+[ITEMDEF 07b61]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast86
+TYPE=tNormal
+
+[ITEMDEF 07b62]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast87
+TYPE=tNormal
+
+[ITEMDEF 07b63]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast88
+TYPE=tNormal
+
+[ITEMDEF 07b64]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast89
+TYPE=tNormal
+
+[ITEMDEF 07b65]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast90
+TYPE=tNormal
+
+[ITEMDEF 07b66]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast91
+TYPE=tNormal
+
+[ITEMDEF 07b67]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast92
+TYPE=tNormal
+
+[ITEMDEF 07b68]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast93
+TYPE=tNormal
+
+[ITEMDEF 07b69]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast94
+TYPE=tNormal
+
+[ITEMDEF 07b6a]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast95
+TYPE=tNormal
+
+[ITEMDEF 07b6b]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast96
+TYPE=tNormal
+
+[ITEMDEF 07b6c]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast97
+TYPE=tNormal
+
+[ITEMDEF 07b6d]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast98
+TYPE=tNormal
+
+[ITEMDEF 07b6e]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast99
+TYPE=tNormal
+
+[ITEMDEF 07b6f]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast100
+TYPE=tNormal
+
+[ITEMDEF 07b70]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast101
+TYPE=tNormal
+
+[ITEMDEF 07b71]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast102
+TYPE=tNormal
+
+[ITEMDEF 07b72]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast103
+TYPE=tNormal
+
+[ITEMDEF 07b73]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast104
+TYPE=tNormal
+
+[ITEMDEF 07b74]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast105
+TYPE=tNormal
+
+[ITEMDEF 07b75]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast106
+TYPE=tNormal
+
+[ITEMDEF 07b76]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast107
+TYPE=tNormal
+
+[ITEMDEF 07b77]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast108
+TYPE=tNormal
+
+[ITEMDEF 07b78]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast109
+TYPE=tNormal
+
+[ITEMDEF 07b79]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast110
+TYPE=tNormal
+
+[ITEMDEF 07b7a]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast111
+TYPE=tNormal
+
+[ITEMDEF 07b7b]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast112
+TYPE=tNormal
+
+[ITEMDEF 07b7c]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast113
+TYPE=tNormal
+
+[ITEMDEF 07b7d]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast114
+TYPE=tNormal
+
+[ITEMDEF 07b7e]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast115
+TYPE=tNormal
+
+[ITEMDEF 07b7f]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast116
+TYPE=tNormal
+
+[ITEMDEF 07b80]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast117
+TYPE=tNormal
+
+[ITEMDEF 07b81]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast118
+TYPE=tContainer
+
+[ITEMDEF 07b82]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast119
+TYPE=tNormal
+
+[ITEMDEF 07b83]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast120
+TYPE=tNormal
+
+[ITEMDEF 07b84]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast121
+TYPE=tNormal
+
+[ITEMDEF 07b85]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast122
+TYPE=tNormal
+
+[ITEMDEF 07b86]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast123
+TYPE=tNormal
+
+[ITEMDEF 07b87]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast124
+TYPE=tNormal
+
+[ITEMDEF 07b88]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast125
+TYPE=tNormal
+
+[ITEMDEF 07b89]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast126
+TYPE=tNormal
+
+[ITEMDEF 07b8a]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast127
+TYPE=tNormal
+
+[ITEMDEF 07b8b]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast128
+TYPE=tNormal
+
+[ITEMDEF 07b8c]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast129
+TYPE=tNormal
+
+[ITEMDEF 07b8d]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast130
+TYPE=tNormal
+
+[ITEMDEF 07b8e]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast131
+TYPE=tNormal
+
+[ITEMDEF 07b8f]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast132
+TYPE=tNormal
+
+[ITEMDEF 07b90]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast133
+TYPE=tNormal
+
+[ITEMDEF 07b91]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast134
+TYPE=tNormal
+
+[ITEMDEF 07b92]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast135
+TYPE=tNormal
+
+[ITEMDEF 07b93]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast136
+TYPE=tNormal
+
+[ITEMDEF 07b94]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast137
+TYPE=tNormal
+
+[ITEMDEF 07b95]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast138
+TYPE=tNormal
+
+[ITEMDEF 07b96]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast139
+TYPE=tNormal
+
+[ITEMDEF 07b97]
+// OrcShipMainHull EAST
+DEFNAME=iOrcshipmainhullEast140
+TYPE=tNormal
+
+[ITEMDEF 07bd4]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD
+TYPE=tNormal
+
+[ITEMDEF 07bd5]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD2
+TYPE=tNormal
+
+[ITEMDEF 07bd6]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD3
+TYPE=tNormal
+
+[ITEMDEF 07bd7]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD4
+TYPE=tNormal
+
+[ITEMDEF 07bd8]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD5
+TYPE=tNormal
+
+[ITEMDEF 07bd9]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD6
+TYPE=tNormal
+
+[ITEMDEF 07bda]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD7
+TYPE=tNormal
+
+[ITEMDEF 07bdb]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD8
+TYPE=tNormal
+
+[ITEMDEF 07bdc]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD9
+TYPE=tNormal
+
+[ITEMDEF 07bdd]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD10
+TYPE=tNormal
+
+[ITEMDEF 07bde]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD11
+TYPE=tNormal
+
+[ITEMDEF 07bdf]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD12
+TYPE=tNormal
+
+[ITEMDEF 07be0]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD13
+TYPE=tNormal
+
+[ITEMDEF 07be1]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD14
+TYPE=tNormal
+
+[ITEMDEF 07be2]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD15
+TYPE=tNormal
+
+[ITEMDEF 07be3]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD16
+TYPE=tNormal
+
+[ITEMDEF 07be4]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD17
+TYPE=tNormal
+
+[ITEMDEF 07be5]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD18
+TYPE=tNormal
+
+[ITEMDEF 07be6]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD19
+TYPE=tNormal
+
+[ITEMDEF 07be7]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD20
+TYPE=tNormal
+
+[ITEMDEF 07be8]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD21
+TYPE=tNormal
+
+[ITEMDEF 07be9]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD22
+TYPE=tNormal
+
+[ITEMDEF 07bea]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD23
+TYPE=tNormal
+
+[ITEMDEF 07beb]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD24
+TYPE=tNormal
+
+[ITEMDEF 07bec]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD25
+TYPE=tNormal
+
+[ITEMDEF 07bed]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD26
+TYPE=tNormal
+
+[ITEMDEF 07bee]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD27
+TYPE=tNormal
+
+[ITEMDEF 07bef]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD28
+TYPE=tNormal
+
+[ITEMDEF 07bf0]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD29
+TYPE=tNormal
+
+[ITEMDEF 07bf1]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD30
+TYPE=tNormal
+
+[ITEMDEF 07bf2]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD31
+TYPE=tNormal
+
+[ITEMDEF 07bf3]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD32
+TYPE=tNormal
+
+[ITEMDEF 07bf4]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD33
+TYPE=tNormal
+
+[ITEMDEF 07bf5]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD34
+TYPE=tNormal
+
+[ITEMDEF 07bf6]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD35
+TYPE=tNormal
+
+[ITEMDEF 07bf7]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD36
+TYPE=tNormal
+
+[ITEMDEF 07bf8]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD37
+TYPE=tNormal
+
+[ITEMDEF 07bf9]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD38
+TYPE=tNormal
+
+[ITEMDEF 07bfa]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD39
+TYPE=tNormal
+
+[ITEMDEF 07bfb]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD40
+TYPE=tNormal
+
+[ITEMDEF 07bfc]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD41
+TYPE=tNormal
+
+[ITEMDEF 07bfd]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD42
+TYPE=tNormal
+
+[ITEMDEF 07bfe]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD43
+TYPE=tNormal
+
+[ITEMDEF 07bff]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD44
+TYPE=tNormal
+
+[ITEMDEF 07c00]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD45
+TYPE=tNormal
+
+[ITEMDEF 07c01]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD46
+TYPE=tNormal
+
+[ITEMDEF 07c02]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD47
+TYPE=tNormal
+
+[ITEMDEF 07c03]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD48
+TYPE=tNormal
+
+[ITEMDEF 07c04]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD49
+TYPE=tNormal
+
+[ITEMDEF 07c05]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD50
+TYPE=tNormal
+
+[ITEMDEF 07c06]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD51
+TYPE=tNormal
+
+[ITEMDEF 07c07]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD52
+TYPE=tNormal
+
+[ITEMDEF 07c08]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD53
+TYPE=tNormal
+
+[ITEMDEF 07c09]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD54
+TYPE=tNormal
+
+[ITEMDEF 07c0a]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD55
+TYPE=tNormal
+
+[ITEMDEF 07c0b]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD56
+TYPE=tNormal
+
+[ITEMDEF 07c0c]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD57
+TYPE=tNormal
+
+[ITEMDEF 07c0d]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD58
+TYPE=tNormal
+
+[ITEMDEF 07c0e]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD59
+TYPE=tNormal
+
+[ITEMDEF 07c0f]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD60
+TYPE=tNormal
+
+[ITEMDEF 07c10]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD61
+TYPE=tNormal
+
+[ITEMDEF 07c11]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD62
+TYPE=tNormal
+
+[ITEMDEF 07c12]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD63
+TYPE=tNormal
+
+[ITEMDEF 07c13]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD64
+TYPE=tNormal
+
+[ITEMDEF 07c14]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD65
+TYPE=tNormal
+
+[ITEMDEF 07c15]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD66
+TYPE=tNormal
+
+[ITEMDEF 07c16]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD67
+TYPE=tNormal
+
+[ITEMDEF 07c17]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD68
+TYPE=tNormal
+
+[ITEMDEF 07c18]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD69
+TYPE=tNormal
+
+[ITEMDEF 07c19]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD70
+TYPE=tNormal
+
+[ITEMDEF 07c1a]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD71
+TYPE=tNormal
+
+[ITEMDEF 07c1b]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD72
+TYPE=tNormal
+
+[ITEMDEF 07c1c]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD73
+TYPE=tNormal
+
+[ITEMDEF 07c1d]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD74
+TYPE=tNormal
+
+[ITEMDEF 07c1e]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD75
+TYPE=tNormal
+
+[ITEMDEF 07c1f]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD76
+TYPE=tNormal
+
+[ITEMDEF 07c20]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD77
+TYPE=tNormal
+
+[ITEMDEF 07c21]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD78
+TYPE=tNormal
+
+[ITEMDEF 07c22]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD79
+TYPE=tNormal
+
+[ITEMDEF 07c23]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD80
+TYPE=tNormal
+
+[ITEMDEF 07c24]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD81
+TYPE=tNormal
+
+[ITEMDEF 07c25]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD82
+TYPE=tNormal
+
+[ITEMDEF 07c26]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD83
+TYPE=tNormal
+
+[ITEMDEF 07c27]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD84
+TYPE=tNormal
+
+[ITEMDEF 07c28]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD85
+TYPE=tNormal
+
+[ITEMDEF 07c29]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD86
+TYPE=tNormal
+
+[ITEMDEF 07c2a]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD87
+TYPE=tNormal
+
+[ITEMDEF 07c2b]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD88
+TYPE=tNormal
+
+[ITEMDEF 07c2c]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD89
+TYPE=tNormal
+
+[ITEMDEF 07c2d]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD90
+TYPE=tNormal
+
+[ITEMDEF 07c2e]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD91
+TYPE=tNormal
+
+[ITEMDEF 07c2f]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD92
+TYPE=tNormal
+
+[ITEMDEF 07c30]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD93
+TYPE=tNormal
+
+[ITEMDEF 07c31]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD94
+TYPE=tNormal
+
+[ITEMDEF 07c32]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD95
+TYPE=tNormal
+
+[ITEMDEF 07c33]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD96
+TYPE=tNormal
+
+[ITEMDEF 07c34]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD97
+TYPE=tNormal
+
+[ITEMDEF 07c35]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD98
+TYPE=tNormal
+
+[ITEMDEF 07c36]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD99
+TYPE=tNormal
+
+[ITEMDEF 07c37]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD100
+TYPE=tNormal
+
+[ITEMDEF 07c38]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD101
+TYPE=tNormal
+
+[ITEMDEF 07c39]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD102
+TYPE=tNormal
+
+[ITEMDEF 07c3a]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD103
+TYPE=tNormal
+
+[ITEMDEF 07c3b]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD104
+TYPE=tNormal
+
+[ITEMDEF 07c3c]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD105
+TYPE=tNormal
+
+[ITEMDEF 07c3d]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD106
+TYPE=tNormal
+
+[ITEMDEF 07c3e]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD107
+TYPE=tNormal
+
+[ITEMDEF 07c3f]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD108
+TYPE=tNormal
+
+[ITEMDEF 07c40]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD109
+TYPE=tNormal
+
+[ITEMDEF 07c41]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD110
+TYPE=tNormal
+
+[ITEMDEF 07c42]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD111
+TYPE=tNormal
+
+[ITEMDEF 07c43]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD112
+TYPE=tNormal
+
+[ITEMDEF 07c44]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD113
+TYPE=tNormal
+
+[ITEMDEF 07c45]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD114
+TYPE=tNormal
+
+[ITEMDEF 07c46]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD115
+TYPE=tNormal
+
+[ITEMDEF 07c47]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD116
+TYPE=tNormal
+
+[ITEMDEF 07c48]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD117
+TYPE=tNormal
+
+[ITEMDEF 07c49]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD118
+TYPE=tContainer
+
+[ITEMDEF 07c4a]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD119
+TYPE=tNormal
+
+[ITEMDEF 07c4b]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD120
+TYPE=tNormal
+
+[ITEMDEF 07c4c]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD121
+TYPE=tNormal
+
+[ITEMDEF 07c4d]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD122
+TYPE=tNormal
+
+[ITEMDEF 07c4e]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD123
+TYPE=tNormal
+
+[ITEMDEF 07c4f]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD124
+TYPE=tNormal
+
+[ITEMDEF 07c50]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD125
+TYPE=tNormal
+
+[ITEMDEF 07c51]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD126
+TYPE=tNormal
+
+[ITEMDEF 07c52]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD127
+TYPE=tNormal
+
+[ITEMDEF 07c53]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD128
+TYPE=tNormal
+
+[ITEMDEF 07c54]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD129
+TYPE=tNormal
+
+[ITEMDEF 07c55]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD130
+TYPE=tNormal
+
+[ITEMDEF 07c56]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD131
+TYPE=tNormal
+
+[ITEMDEF 07c57]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD132
+TYPE=tNormal
+
+[ITEMDEF 07c58]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD133
+TYPE=tNormal
+
+[ITEMDEF 07c59]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD134
+TYPE=tNormal
+
+[ITEMDEF 07c5a]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD135
+TYPE=tNormal
+
+[ITEMDEF 07c5b]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD136
+TYPE=tNormal
+
+[ITEMDEF 07c5c]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD137
+TYPE=tNormal
+
+[ITEMDEF 07c5d]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD138
+TYPE=tNormal
+
+[ITEMDEF 07c5e]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD139
+TYPE=tNormal
+
+[ITEMDEF 07c5f]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD140
+TYPE=tNormal
+
+//
+[ITEMDEF 07c9c]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD141
+TYPE=tNormal
+
+[ITEMDEF 07c9d]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD142
+TYPE=tNormal
+
+[ITEMDEF 07c9e]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD143
+TYPE=tNormal
+
+[ITEMDEF 07c9f]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD144
+TYPE=tNormal
+
+[ITEMDEF 07ca0]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD145
+TYPE=tNormal
+
+[ITEMDEF 07ca1]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD146
+TYPE=tNormal
+
+[ITEMDEF 07ca2]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD147
+TYPE=tNormal
+
+[ITEMDEF 07ca3]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD148
+TYPE=tNormal
+
+[ITEMDEF 07ca4]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD149
+TYPE=tNormal
+
+[ITEMDEF 07ca5]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD150
+TYPE=tNormal
+
+[ITEMDEF 07ca6]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD151
+TYPE=tNormal
+
+[ITEMDEF 07ca7]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD152
+TYPE=tNormal
+
+[ITEMDEF 07ca8]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD153
+TYPE=tNormal
+
+[ITEMDEF 07ca9]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD154
+TYPE=tNormal
+
+[ITEMDEF 07caa]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD155
+TYPE=tNormal
+
+[ITEMDEF 07cab]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD156
+TYPE=tNormal
+
+[ITEMDEF 07cac]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD157
+TYPE=tNormal
+
+[ITEMDEF 07cad]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD158
+TYPE=tNormal
+
+[ITEMDEF 07cae]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD159
+TYPE=tNormal
+
+[ITEMDEF 07caf]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD160
+TYPE=tNormal
+
+[ITEMDEF 07cb0]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD161
+TYPE=tNormal
+
+[ITEMDEF 07cb1]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD162
+TYPE=tNormal
+
+[ITEMDEF 07cb2]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD163
+TYPE=tNormal
+
+[ITEMDEF 07cb3]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD164
+TYPE=tNormal
+
+[ITEMDEF 07cb4]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD165
+TYPE=tNormal
+
+[ITEMDEF 07cb5]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD166
+TYPE=tNormal
+
+[ITEMDEF 07cb6]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD167
+TYPE=tNormal
+
+[ITEMDEF 07cb7]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD168
+TYPE=tNormal
+
+[ITEMDEF 07cb8]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD169
+TYPE=tNormal
+
+[ITEMDEF 07cb9]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD170
+TYPE=tNormal
+
+[ITEMDEF 07cba]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD171
+TYPE=tNormal
+
+[ITEMDEF 07cbb]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD172
+TYPE=tNormal
+
+[ITEMDEF 07cbc]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD173
+TYPE=tNormal
+
+[ITEMDEF 07cbd]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD174
+TYPE=tNormal
+
+[ITEMDEF 07cbe]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD175
+TYPE=tNormal
+
+[ITEMDEF 07cbf]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD176
+TYPE=tNormal
+
+[ITEMDEF 07cc0]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD177
+TYPE=tNormal
+
+[ITEMDEF 07cc1]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD178
+TYPE=tNormal
+
+[ITEMDEF 07cc2]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD179
+TYPE=tNormal
+
+[ITEMDEF 07cc3]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD180
+TYPE=tNormal
+
+[ITEMDEF 07cc4]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD181
+TYPE=tNormal
+
+[ITEMDEF 07cc5]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD182
+TYPE=tNormal
+
+[ITEMDEF 07cc6]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD183
+TYPE=tNormal
+
+[ITEMDEF 07cc7]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD184
+TYPE=tNormal
+
+[ITEMDEF 07cc8]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD185
+TYPE=tNormal
+
+[ITEMDEF 07cc9]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD186
+TYPE=tNormal
+
+[ITEMDEF 07cca]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD187
+TYPE=tNormal
+
+[ITEMDEF 07ccb]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD188
+TYPE=tNormal
+
+[ITEMDEF 07ccc]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD189
+TYPE=tNormal
+
+[ITEMDEF 07ccd]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD190
+TYPE=tNormal
+
+[ITEMDEF 07cce]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD191
+TYPE=tNormal
+
+[ITEMDEF 07ccf]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD192
+TYPE=tNormal
+
+[ITEMDEF 07cd0]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD193
+TYPE=tNormal
+
+[ITEMDEF 07cd1]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD194
+TYPE=tNormal
+
+[ITEMDEF 07cd2]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD195
+TYPE=tNormal
+
+[ITEMDEF 07cd3]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD196
+TYPE=tNormal
+
+[ITEMDEF 07cd4]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD197
+TYPE=tNormal
+
+[ITEMDEF 07cd5]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD198
+TYPE=tNormal
+
+[ITEMDEF 07cd6]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD199
+TYPE=tNormal
+
+[ITEMDEF 07cd7]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD200
+TYPE=tNormal
+
+[ITEMDEF 07cd8]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD201
+TYPE=tNormal
+
+[ITEMDEF 07cd9]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD202
+TYPE=tNormal
+
+[ITEMDEF 07cda]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD203
+TYPE=tNormal
+
+[ITEMDEF 07cdb]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD204
+TYPE=tNormal
+
+[ITEMDEF 07cdc]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD205
+TYPE=tNormal
+
+[ITEMDEF 07cdd]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD206
+TYPE=tNormal
+
+[ITEMDEF 07cde]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD207
+TYPE=tNormal
+
+[ITEMDEF 07cdf]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD208
+TYPE=tNormal
+
+[ITEMDEF 07ce0]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD209
+TYPE=tNormal
+
+[ITEMDEF 07ce1]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD210
+TYPE=tNormal
+
+[ITEMDEF 07ce2]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD211
+TYPE=tNormal
+
+[ITEMDEF 07ce3]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD212
+TYPE=tNormal
+
+[ITEMDEF 07ce4]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD213
+TYPE=tNormal
+
+[ITEMDEF 07ce5]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD214
+TYPE=tNormal
+
+[ITEMDEF 07ce6]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD215
+TYPE=tNormal
+
+[ITEMDEF 07ce7]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD216
+TYPE=tNormal
+
+[ITEMDEF 07ce8]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD217
+TYPE=tNormal
+
+[ITEMDEF 07ce9]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD218
+TYPE=tNormal
+
+[ITEMDEF 07cea]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD219
+TYPE=tNormal
+
+[ITEMDEF 07ceb]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD220
+TYPE=tNormal
+
+[ITEMDEF 07cec]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD221
+TYPE=tNormal
+
+[ITEMDEF 07ced]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD222
+TYPE=tNormal
+
+[ITEMDEF 07cee]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD223
+TYPE=tNormal
+
+[ITEMDEF 07cef]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD224
+TYPE=tNormal
+
+[ITEMDEF 07cf0]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD225
+TYPE=tNormal
+
+[ITEMDEF 07cf1]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD226
+TYPE=tNormal
+
+[ITEMDEF 07cf2]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD227
+TYPE=tNormal
+
+[ITEMDEF 07cf3]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD228
+TYPE=tNormal
+
+[ITEMDEF 07cf4]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD229
+TYPE=tNormal
+
+[ITEMDEF 07cf5]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD230
+TYPE=tNormal
+
+[ITEMDEF 07cf6]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD231
+TYPE=tNormal
+
+[ITEMDEF 07cf7]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD232
+TYPE=tNormal
+
+[ITEMDEF 07cf8]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD233
+TYPE=tNormal
+
+[ITEMDEF 07cf9]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD234
+TYPE=tNormal
+
+[ITEMDEF 07cfa]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD235
+TYPE=tNormal
+
+[ITEMDEF 07cfb]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD236
+TYPE=tNormal
+
+[ITEMDEF 07cfc]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD237
+TYPE=tNormal
+
+[ITEMDEF 07cfd]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD238
+TYPE=tNormal
+
+[ITEMDEF 07cfe]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD239
+TYPE=tNormal
+
+[ITEMDEF 07cff]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD240
+TYPE=tNormal
+
+[ITEMDEF 07d00]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD241
+TYPE=tNormal
+
+[ITEMDEF 07d01]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD242
+TYPE=tNormal
+
+[ITEMDEF 07d02]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD243
+TYPE=tNormal
+
+[ITEMDEF 07d03]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD244
+TYPE=tNormal
+
+[ITEMDEF 07d04]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD245
+TYPE=tNormal
+
+[ITEMDEF 07d05]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD246
+TYPE=tNormal
+
+[ITEMDEF 07d06]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD247
+TYPE=tNormal
+
+[ITEMDEF 07d07]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD248
+TYPE=tNormal
+
+[ITEMDEF 07d08]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD249
+TYPE=tNormal
+
+[ITEMDEF 07d09]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD250
+TYPE=tNormal
+
+[ITEMDEF 07d0a]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD251
+TYPE=tNormal
+
+[ITEMDEF 07d0b]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD252
+TYPE=tNormal
+
+[ITEMDEF 07d0c]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD253
+TYPE=tNormal
+
+[ITEMDEF 07d0d]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD254
+TYPE=tNormal
+
+[ITEMDEF 07d0e]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD255
+TYPE=tNormal
+
+[ITEMDEF 07d0f]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD256
+TYPE=tNormal
+
+[ITEMDEF 07d10]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD257
+TYPE=tNormal
+
+[ITEMDEF 07d11]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD258
+TYPE=tNormal
+
+[ITEMDEF 07d12]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD259
+TYPE=tContainer
+
+[ITEMDEF 07d13]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD260
+TYPE=tNormal
+
+[ITEMDEF 07d14]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD261
+TYPE=tNormal
+
+[ITEMDEF 07d15]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD262
+TYPE=tNormal
+
+[ITEMDEF 07d16]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD263
+TYPE=tNormal
+
+[ITEMDEF 07d17]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD264
+TYPE=tNormal
+
+[ITEMDEF 07d18]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD265
+TYPE=tNormal
+
+[ITEMDEF 07d19]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD266
+TYPE=tNormal
+
+[ITEMDEF 07d1a]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD267
+TYPE=tNormal
+
+[ITEMDEF 07d1b]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD268
+TYPE=tNormal
+
+[ITEMDEF 07d1c]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD269
+TYPE=tNormal
+
+[ITEMDEF 07d1d]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD270
+TYPE=tNormal
+
+[ITEMDEF 07d1e]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD271
+TYPE=tNormal
+
+[ITEMDEF 07d1f]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD272
+TYPE=tNormal
+
+[ITEMDEF 07d20]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD273
+TYPE=tNormal
+
+[ITEMDEF 07d21]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD274
+TYPE=tNormal
+
+[ITEMDEF 07d22]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD275
+TYPE=tNormal
+
+[ITEMDEF 07d23]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD276
+TYPE=tNormal
+
+[ITEMDEF 07d24]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD277
+TYPE=tNormal
+
+[ITEMDEF 07d25]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD278
+TYPE=tNormal
+
+[ITEMDEF 07d26]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD279
+TYPE=tNormal
+
+[ITEMDEF 07d27]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD280
+TYPE=tNormal
+
+//
+[ITEMDEF 07d64]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD281
+TYPE=tNormal
+
+[ITEMDEF 07d65]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD282
+TYPE=tNormal
+
+[ITEMDEF 07d66]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD283
+TYPE=tNormal
+
+[ITEMDEF 07d67]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD284
+TYPE=tNormal
+
+[ITEMDEF 07d68]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD285
+TYPE=tNormal
+
+[ITEMDEF 07d69]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD286
+TYPE=tNormal
+
+[ITEMDEF 07d6a]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD287
+TYPE=tNormal
+
+[ITEMDEF 07d6b]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD288
+TYPE=tNormal
+
+[ITEMDEF 07d6c]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD289
+TYPE=tNormal
+
+[ITEMDEF 07d6d]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD290
+TYPE=tNormal
+
+[ITEMDEF 07d6e]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD291
+TYPE=tNormal
+
+[ITEMDEF 07d6f]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD292
+TYPE=tNormal
+
+[ITEMDEF 07d70]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD293
+TYPE=tNormal
+
+[ITEMDEF 07d71]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD294
+TYPE=tNormal
+
+[ITEMDEF 07d72]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD295
+TYPE=tNormal
+
+[ITEMDEF 07d73]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD296
+TYPE=tNormal
+
+[ITEMDEF 07d74]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD297
+TYPE=tNormal
+
+[ITEMDEF 07d75]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD298
+TYPE=tNormal
+
+[ITEMDEF 07d76]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD299
+TYPE=tNormal
+
+[ITEMDEF 07d77]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD300
+TYPE=tNormal
+
+[ITEMDEF 07d78]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD301
+TYPE=tNormal
+
+[ITEMDEF 07d79]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD302
+TYPE=tNormal
+
+[ITEMDEF 07d7a]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD303
+TYPE=tNormal
+
+[ITEMDEF 07d7b]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD304
+TYPE=tNormal
+
+[ITEMDEF 07d7c]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD305
+TYPE=tNormal
+
+[ITEMDEF 07d7d]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD306
+TYPE=tNormal
+
+[ITEMDEF 07d7e]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD307
+TYPE=tNormal
+
+[ITEMDEF 07d7f]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD308
+TYPE=tNormal
+
+[ITEMDEF 07d80]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD309
+TYPE=tNormal
+
+[ITEMDEF 07d81]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD310
+TYPE=tNormal
+
+[ITEMDEF 07d82]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD311
+TYPE=tNormal
+
+[ITEMDEF 07d83]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD312
+TYPE=tNormal
+
+[ITEMDEF 07d84]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD313
+TYPE=tNormal
+
+[ITEMDEF 07d85]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD314
+TYPE=tNormal
+
+[ITEMDEF 07d86]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD315
+TYPE=tNormal
+
+[ITEMDEF 07d87]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD316
+TYPE=tNormal
+
+[ITEMDEF 07d88]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD317
+TYPE=tNormal
+
+[ITEMDEF 07d89]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD318
+TYPE=tNormal
+
+[ITEMDEF 07d8a]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD319
+TYPE=tNormal
+
+[ITEMDEF 07d8b]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD320
+TYPE=tNormal
+
+[ITEMDEF 07d8c]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD321
+TYPE=tNormal
+
+[ITEMDEF 07d8d]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD322
+TYPE=tNormal
+
+[ITEMDEF 07d8e]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD323
+TYPE=tNormal
+
+[ITEMDEF 07d8f]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD324
+TYPE=tNormal
+
+[ITEMDEF 07d90]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD325
+TYPE=tNormal
+
+[ITEMDEF 07d91]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD326
+TYPE=tNormal
+
+[ITEMDEF 07d92]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD327
+TYPE=tNormal
+
+[ITEMDEF 07d93]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD328
+TYPE=tNormal
+
+[ITEMDEF 07d94]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD329
+TYPE=tNormal
+
+[ITEMDEF 07d95]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD330
+TYPE=tNormal
+
+[ITEMDEF 07d96]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD331
+TYPE=tNormal
+
+[ITEMDEF 07d97]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD332
+TYPE=tNormal
+
+[ITEMDEF 07d98]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD333
+TYPE=tNormal
+
+[ITEMDEF 07d99]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD334
+TYPE=tNormal
+
+[ITEMDEF 07d9a]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD335
+TYPE=tNormal
+
+[ITEMDEF 07d9b]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD336
+TYPE=tNormal
+
+[ITEMDEF 07d9c]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD337
+TYPE=tNormal
+
+[ITEMDEF 07d9d]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD338
+TYPE=tNormal
+
+[ITEMDEF 07d9e]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD339
+TYPE=tNormal
+
+[ITEMDEF 07d9f]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD340
+TYPE=tNormal
+
+[ITEMDEF 07da0]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD341
+TYPE=tNormal
+
+[ITEMDEF 07da1]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD342
+TYPE=tNormal
+
+[ITEMDEF 07da2]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD343
+TYPE=tNormal
+
+[ITEMDEF 07da3]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD344
+TYPE=tNormal
+
+[ITEMDEF 07da4]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD345
+TYPE=tNormal
+
+[ITEMDEF 07da5]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD346
+TYPE=tNormal
+
+[ITEMDEF 07da6]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD347
+TYPE=tNormal
+
+[ITEMDEF 07da7]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD348
+TYPE=tNormal
+
+[ITEMDEF 07da8]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD349
+TYPE=tNormal
+
+[ITEMDEF 07da9]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD350
+TYPE=tNormal
+
+[ITEMDEF 07daa]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD351
+TYPE=tNormal
+
+[ITEMDEF 07dab]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD352
+TYPE=tNormal
+
+[ITEMDEF 07dac]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD353
+TYPE=tNormal
+
+[ITEMDEF 07dad]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD354
+TYPE=tNormal
+
+[ITEMDEF 07dae]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD355
+TYPE=tNormal
+
+[ITEMDEF 07daf]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD356
+TYPE=tNormal
+
+[ITEMDEF 07db0]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD357
+TYPE=tNormal
+
+[ITEMDEF 07db1]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD358
+TYPE=tNormal
+
+[ITEMDEF 07db2]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD359
+TYPE=tNormal
+
+[ITEMDEF 07db3]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD360
+TYPE=tNormal
+
+[ITEMDEF 07db4]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD361
+TYPE=tNormal
+
+[ITEMDEF 07db5]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD362
+TYPE=tNormal
+
+[ITEMDEF 07db6]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD363
+TYPE=tNormal
+
+[ITEMDEF 07db7]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD364
+TYPE=tNormal
+
+[ITEMDEF 07db8]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD365
+TYPE=tNormal
+
+[ITEMDEF 07db9]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD366
+TYPE=tNormal
+
+[ITEMDEF 07dba]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD367
+TYPE=tNormal
+
+[ITEMDEF 07dbb]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD368
+TYPE=tNormal
+
+[ITEMDEF 07dbc]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD369
+TYPE=tNormal
+
+[ITEMDEF 07dbd]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD370
+TYPE=tNormal
+
+[ITEMDEF 07dbe]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD371
+TYPE=tNormal
+
+[ITEMDEF 07dbf]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD372
+TYPE=tNormal
+
+[ITEMDEF 07dc0]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD373
+TYPE=tNormal
+
+[ITEMDEF 07dc1]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD374
+TYPE=tNormal
+
+[ITEMDEF 07dc2]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD375
+TYPE=tNormal
+
+[ITEMDEF 07dc3]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD376
+TYPE=tNormal
+
+[ITEMDEF 07dc4]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD377
+TYPE=tNormal
+
+[ITEMDEF 07dc5]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD378
+TYPE=tNormal
+
+[ITEMDEF 07dc6]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD379
+TYPE=tNormal
+
+[ITEMDEF 07dc7]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD380
+TYPE=tNormal
+
+[ITEMDEF 07dc8]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD381
+TYPE=tNormal
+
+[ITEMDEF 07dc9]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD382
+TYPE=tNormal
+
+[ITEMDEF 07dca]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD383
+TYPE=tNormal
+
+[ITEMDEF 07dcb]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD384
+TYPE=tNormal
+
+[ITEMDEF 07dcc]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD385
+TYPE=tNormal
+
+[ITEMDEF 07dcd]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD386
+TYPE=tNormal
+
+[ITEMDEF 07dce]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD387
+TYPE=tNormal
+
+[ITEMDEF 07dcf]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD388
+TYPE=tNormal
+
+[ITEMDEF 07dd0]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD389
+TYPE=tNormal
+
+[ITEMDEF 07dd1]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD390
+TYPE=tNormal
+
+[ITEMDEF 07dd2]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD391
+TYPE=tNormal
+
+[ITEMDEF 07dd3]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD392
+TYPE=tNormal
+
+[ITEMDEF 07dd4]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD393
+TYPE=tNormal
+
+[ITEMDEF 07dd5]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD394
+TYPE=tNormal
+
+[ITEMDEF 07dd6]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD395
+TYPE=tNormal
+
+[ITEMDEF 07dd7]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD396
+TYPE=tNormal
+
+[ITEMDEF 07dd8]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD397
+TYPE=tNormal
+
+[ITEMDEF 07dd9]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD398
+TYPE=tContainer
+
+[ITEMDEF 07dda]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD399
+TYPE=tNormal
+
+[ITEMDEF 07ddb]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD400
+TYPE=tNormal
+
+[ITEMDEF 07ddc]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD401
+TYPE=tNormal
+
+[ITEMDEF 07ddd]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD402
+TYPE=tNormal
+
+[ITEMDEF 07dde]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD403
+TYPE=tNormal
+
+[ITEMDEF 07ddf]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD404
+TYPE=tNormal
+
+[ITEMDEF 07de0]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD405
+TYPE=tNormal
+
+[ITEMDEF 07de1]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD406
+TYPE=tNormal
+
+[ITEMDEF 07de2]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD407
+TYPE=tNormal
+
+[ITEMDEF 07de3]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD408
+TYPE=tNormal
+
+[ITEMDEF 07de4]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD409
+TYPE=tNormal
+
+[ITEMDEF 07de5]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD410
+TYPE=tNormal
+
+[ITEMDEF 07de6]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD411
+TYPE=tNormal
+
+[ITEMDEF 07de7]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD412
+TYPE=tNormal
+
+[ITEMDEF 07de8]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD413
+TYPE=tNormal
+
+[ITEMDEF 07de9]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD414
+TYPE=tNormal
+
+[ITEMDEF 07dea]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD415
+TYPE=tNormal
+
+[ITEMDEF 07deb]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD416
+TYPE=tNormal
+
+[ITEMDEF 07dec]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD417
+TYPE=tNormal
+
+[ITEMDEF 07ded]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD418
+TYPE=tNormal
+
+[ITEMDEF 07dee]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD419
+TYPE=tNormal
+
+[ITEMDEF 07def]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD420
+TYPE=tNormal
+
+[ITEMDEF 07e2c]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD421
+TYPE=tNormal
+
+[ITEMDEF 07e2d]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD422
+TYPE=tNormal
+
+[ITEMDEF 07e2e]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD423
+TYPE=tNormal
+
+[ITEMDEF 07e2f]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD424
+TYPE=tNormal
+
+[ITEMDEF 07e30]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD425
+TYPE=tNormal
+
+[ITEMDEF 07e31]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD426
+TYPE=tNormal
+
+[ITEMDEF 07e32]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD427
+TYPE=tNormal
+
+[ITEMDEF 07e33]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD428
+TYPE=tNormal
+
+[ITEMDEF 07e34]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD429
+TYPE=tNormal
+
+[ITEMDEF 07e35]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD430
+TYPE=tNormal
+
+[ITEMDEF 07e36]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD431
+TYPE=tNormal
+
+[ITEMDEF 07e37]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD432
+TYPE=tNormal
+
+[ITEMDEF 07e38]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD433
+TYPE=tNormal
+
+[ITEMDEF 07e39]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD434
+TYPE=tNormal
+
+[ITEMDEF 07e3a]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD435
+TYPE=tNormal
+
+[ITEMDEF 07e3b]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD436
+TYPE=tNormal
+
+[ITEMDEF 07e3c]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD437
+TYPE=tNormal
+
+[ITEMDEF 07e3d]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD438
+TYPE=tNormal
+
+[ITEMDEF 07e3e]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD439
+TYPE=tNormal
+
+[ITEMDEF 07e3f]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD440
+TYPE=tNormal
+
+[ITEMDEF 07e40]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD441
+TYPE=tNormal
+
+[ITEMDEF 07e41]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD442
+TYPE=tNormal
+
+[ITEMDEF 07e42]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD443
+TYPE=tNormal
+
+[ITEMDEF 07e43]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD444
+TYPE=tNormal
+
+[ITEMDEF 07e44]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD445
+TYPE=tNormal
+
+[ITEMDEF 07e45]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD446
+TYPE=tNormal
+
+[ITEMDEF 07e46]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD447
+TYPE=tNormal
+
+[ITEMDEF 07e47]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD448
+TYPE=tNormal
+
+[ITEMDEF 07e48]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD449
+TYPE=tNormal
+
+[ITEMDEF 07e49]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD450
+TYPE=tNormal
+
+[ITEMDEF 07e4a]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD451
+TYPE=tNormal
+
+[ITEMDEF 07e4b]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD452
+TYPE=tNormal
+
+[ITEMDEF 07e4c]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD453
+TYPE=tNormal
+
+[ITEMDEF 07e4d]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD454
+TYPE=tNormal
+
+[ITEMDEF 07e4e]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD455
+TYPE=tNormal
+
+[ITEMDEF 07e4f]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD456
+TYPE=tNormal
+
+[ITEMDEF 07e50]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD457
+TYPE=tNormal
+
+[ITEMDEF 07e51]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD458
+TYPE=tNormal
+
+[ITEMDEF 07e52]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD459
+TYPE=tNormal
+
+[ITEMDEF 07e53]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD460
+TYPE=tNormal
+
+[ITEMDEF 07e54]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD461
+TYPE=tNormal
+
+[ITEMDEF 07e55]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD462
+TYPE=tNormal
+
+[ITEMDEF 07e56]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD463
+TYPE=tNormal
+
+[ITEMDEF 07e57]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD464
+TYPE=tNormal
+
+[ITEMDEF 07e58]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD465
+TYPE=tNormal
+
+[ITEMDEF 07e59]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD466
+TYPE=tNormal
+
+[ITEMDEF 07e5a]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD467
+TYPE=tNormal
+
+[ITEMDEF 07e5b]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD468
+TYPE=tNormal
+
+[ITEMDEF 07e5c]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD469
+TYPE=tNormal
+
+[ITEMDEF 07e5d]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD470
+TYPE=tNormal
+
+[ITEMDEF 07e5e]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD471
+TYPE=tNormal
+
+[ITEMDEF 07e5f]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD472
+TYPE=tNormal
+
+[ITEMDEF 07e60]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD473
+TYPE=tNormal
+
+[ITEMDEF 07e61]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD474
+TYPE=tNormal
+
+[ITEMDEF 07e62]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD475
+TYPE=tNormal
+
+[ITEMDEF 07e63]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD476
+TYPE=tNormal
+
+[ITEMDEF 07e64]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD477
+TYPE=tNormal
+
+[ITEMDEF 07e65]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD478
+TYPE=tNormal
+
+[ITEMDEF 07e66]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD479
+TYPE=tNormal
+
+[ITEMDEF 07e67]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD480
+TYPE=tNormal
+
+[ITEMDEF 07e68]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD481
+TYPE=tNormal
+
+[ITEMDEF 07e69]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD482
+TYPE=tNormal
+
+[ITEMDEF 07e6a]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD483
+TYPE=tNormal
+
+[ITEMDEF 07e6b]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD484
+TYPE=tNormal
+
+[ITEMDEF 07e6c]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD485
+TYPE=tNormal
+
+[ITEMDEF 07e6d]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD486
+TYPE=tNormal
+
+[ITEMDEF 07e6e]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD487
+TYPE=tNormal
+
+[ITEMDEF 07e6f]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD488
+TYPE=tNormal
+
+[ITEMDEF 07e70]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD489
+TYPE=tNormal
+
+[ITEMDEF 07e71]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD490
+TYPE=tNormal
+
+[ITEMDEF 07e72]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD491
+TYPE=tNormal
+
+[ITEMDEF 07e73]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD492
+TYPE=tNormal
+
+[ITEMDEF 07e74]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD493
+TYPE=tNormal
+
+[ITEMDEF 07e75]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD494
+TYPE=tNormal
+
+[ITEMDEF 07e76]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD495
+TYPE=tNormal
+
+[ITEMDEF 07e77]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD496
+TYPE=tNormal
+
+[ITEMDEF 07e78]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD497
+TYPE=tNormal
+
+[ITEMDEF 07e79]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD498
+TYPE=tNormal
+
+[ITEMDEF 07e7a]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD499
+TYPE=tNormal
+
+[ITEMDEF 07e7b]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD500
+TYPE=tNormal
+
+[ITEMDEF 07e7c]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD501
+TYPE=tNormal
+
+[ITEMDEF 07e7d]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD502
+TYPE=tNormal
+
+[ITEMDEF 07e7e]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD503
+TYPE=tNormal
+
+[ITEMDEF 07e7f]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD504
+TYPE=tNormal
+
+[ITEMDEF 07e80]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD505
+TYPE=tNormal
+
+[ITEMDEF 07e81]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD506
+TYPE=tNormal
+
+[ITEMDEF 07e82]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD507
+TYPE=tNormal
+
+[ITEMDEF 07e83]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD508
+TYPE=tNormal
+
+[ITEMDEF 07e84]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD509
+TYPE=tNormal
+
+[ITEMDEF 07e85]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD510
+TYPE=tNormal
+
+[ITEMDEF 07e86]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD511
+TYPE=tNormal
+
+[ITEMDEF 07e87]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD512
+TYPE=tNormal
+
+[ITEMDEF 07e88]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD513
+TYPE=tNormal
+
+[ITEMDEF 07e89]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD514
+TYPE=tNormal
+
+[ITEMDEF 07e8a]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD515
+TYPE=tNormal
+
+[ITEMDEF 07e8b]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD516
+TYPE=tNormal
+
+[ITEMDEF 07e8c]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD517
+TYPE=tNormal
+
+[ITEMDEF 07e8d]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD518
+TYPE=tNormal
+
+[ITEMDEF 07e8e]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD519
+TYPE=tNormal
+
+[ITEMDEF 07e8f]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD520
+TYPE=tNormal
+
+[ITEMDEF 07e90]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD521
+TYPE=tNormal
+
+[ITEMDEF 07e91]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD522
+TYPE=tNormal
+
+[ITEMDEF 07e92]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD523
+TYPE=tNormal
+
+[ITEMDEF 07e93]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD524
+TYPE=tNormal
+
+[ITEMDEF 07e94]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD525
+TYPE=tNormal
+
+[ITEMDEF 07e95]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD526
+TYPE=tNormal
+
+[ITEMDEF 07e96]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD527
+TYPE=tNormal
+
+[ITEMDEF 07e97]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD528
+TYPE=tNormal
+
+[ITEMDEF 07e98]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD529
+TYPE=tNormal
+
+[ITEMDEF 07e99]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD530
+TYPE=tNormal
+
+[ITEMDEF 07e9a]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD531
+TYPE=tNormal
+
+[ITEMDEF 07e9b]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD532
+TYPE=tNormal
+
+[ITEMDEF 07e9c]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD533
+TYPE=tNormal
+
+[ITEMDEF 07e9d]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD534
+TYPE=tNormal
+
+[ITEMDEF 07e9e]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD535
+TYPE=tNormal
+
+[ITEMDEF 07e9f]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD536
+TYPE=tNormal
+
+[ITEMDEF 07ea0]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD537
+TYPE=tNormal
+
+[ITEMDEF 07ea1]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD538
+TYPE=tContainer
+
+[ITEMDEF 07ea2]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD539
+TYPE=tNormal
+
+[ITEMDEF 07ea3]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD540
+TYPE=tNormal
+
+[ITEMDEF 07ea4]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD541
+TYPE=tNormal
+
+[ITEMDEF 07ea5]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD542
+TYPE=tNormal
+
+[ITEMDEF 07ea6]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD543
+TYPE=tNormal
+
+[ITEMDEF 07ea7]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD544
+TYPE=tNormal
+
+[ITEMDEF 07ea8]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD545
+TYPE=tNormal
+
+[ITEMDEF 07ea9]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD546
+TYPE=tNormal
+
+[ITEMDEF 07eaa]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD547
+TYPE=tNormal
+
+[ITEMDEF 07eab]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD548
+TYPE=tNormal
+
+[ITEMDEF 07eac]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD549
+TYPE=tNormal
+
+[ITEMDEF 07ead]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD550
+TYPE=tNormal
+
+[ITEMDEF 07eae]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD551
+TYPE=tNormal
+
+[ITEMDEF 07eaf]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD552
+TYPE=tNormal
+
+[ITEMDEF 07eb0]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD553
+TYPE=tNormal
+
+[ITEMDEF 07eb1]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD554
+TYPE=tNormal
+
+[ITEMDEF 07eb2]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD555
+TYPE=tNormal
+
+[ITEMDEF 07eb3]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD556
+TYPE=tNormal
+
+[ITEMDEF 07eb4]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD557
+TYPE=tNormal
+
+[ITEMDEF 07eb5]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD558
+TYPE=tNormal
+
+[ITEMDEF 07eb6]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD559
+TYPE=tNormal
+
+[ITEMDEF 07eb7]
+// OrcShip MainHull D1
+DEFNAME=iOrcshipMainhullD560
+TYPE=tNormal
+
+[ITEMDEF 07ef4]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull
+TYPE=tNormal
+
+[ITEMDEF 07ef5]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull2
+TYPE=tNormal
+
+[ITEMDEF 07ef6]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull3
+TYPE=tNormal
+
+[ITEMDEF 07ef7]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull4
+TYPE=tNormal
+
+[ITEMDEF 07ef8]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull5
+TYPE=tNormal
+
+[ITEMDEF 07ef9]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull6
+TYPE=tNormal
+
+[ITEMDEF 07efa]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull7
+TYPE=tNormal
+
+[ITEMDEF 07efb]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull8
+TYPE=tNormal
+
+[ITEMDEF 07efc]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull9
+TYPE=tNormal
+
+[ITEMDEF 07efd]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull10
+TYPE=tNormal
+
+[ITEMDEF 07efe]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull11
+TYPE=tNormal
+
+[ITEMDEF 07eff]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull12
+TYPE=tNormal
+
+[ITEMDEF 07f00]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull13
+TYPE=tNormal
+
+[ITEMDEF 07f01]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull14
+TYPE=tNormal
+
+[ITEMDEF 07f02]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull15
+TYPE=tNormal
+
+[ITEMDEF 07f03]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull16
+TYPE=tNormal
+
+[ITEMDEF 07f04]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull17
+TYPE=tNormal
+
+[ITEMDEF 07f05]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull18
+TYPE=tNormal
+
+[ITEMDEF 07f06]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull19
+TYPE=tNormal
+
+[ITEMDEF 07f07]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull20
+TYPE=tNormal
+
+[ITEMDEF 07f08]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull21
+TYPE=tNormal
+
+[ITEMDEF 07f09]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull22
+TYPE=tNormal
+
+[ITEMDEF 07f0a]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull23
+TYPE=tNormal
+
+[ITEMDEF 07f0b]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull24
+TYPE=tNormal
+
+[ITEMDEF 07f0c]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull25
+TYPE=tNormal
+
+[ITEMDEF 07f0d]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull26
+TYPE=tNormal
+
+[ITEMDEF 07f0e]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull27
+TYPE=tNormal
+
+[ITEMDEF 07f0f]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull28
+TYPE=tNormal
+
+[ITEMDEF 07f10]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull29
+TYPE=tNormal
+
+[ITEMDEF 07f11]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull30
+TYPE=tNormal
+
+[ITEMDEF 07f12]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull31
+TYPE=tNormal
+
+[ITEMDEF 07f13]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull32
+TYPE=tNormal
+
+[ITEMDEF 07f14]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull33
+TYPE=tNormal
+
+[ITEMDEF 07f15]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull34
+TYPE=tNormal
+
+[ITEMDEF 07f16]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull35
+TYPE=tNormal
+
+[ITEMDEF 07f17]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull36
+TYPE=tNormal
+
+[ITEMDEF 07f18]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull37
+TYPE=tNormal
+
+[ITEMDEF 07f19]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull38
+TYPE=tNormal
+
+[ITEMDEF 07f1a]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull39
+TYPE=tNormal
+
+[ITEMDEF 07f1b]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull40
+TYPE=tNormal
+
+[ITEMDEF 07f1c]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull41
+TYPE=tNormal
+
+[ITEMDEF 07f1d]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull42
+TYPE=tNormal
+
+[ITEMDEF 07f1e]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull43
+TYPE=tNormal
+
+[ITEMDEF 07f1f]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull44
+TYPE=tNormal
+
+[ITEMDEF 07f20]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull45
+TYPE=tNormal
+
+[ITEMDEF 07f21]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull46
+TYPE=tNormal
+
+[ITEMDEF 07f22]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull47
+TYPE=tNormal
+
+[ITEMDEF 07f23]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull48
+TYPE=tNormal
+
+[ITEMDEF 07f24]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull49
+TYPE=tNormal
+
+[ITEMDEF 07f25]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull50
+TYPE=tNormal
+
+[ITEMDEF 07f26]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull51
+TYPE=tNormal
+
+[ITEMDEF 07f27]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull52
+TYPE=tNormal
+
+[ITEMDEF 07f28]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull53
+TYPE=tNormal
+
+[ITEMDEF 07f29]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull54
+TYPE=tNormal
+
+[ITEMDEF 07f2a]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull55
+TYPE=tNormal
+
+[ITEMDEF 07f2b]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull56
+TYPE=tNormal
+
+[ITEMDEF 07f2c]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull57
+TYPE=tNormal
+
+[ITEMDEF 07f2d]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull58
+TYPE=tNormal
+
+[ITEMDEF 07f2e]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull59
+TYPE=tNormal
+
+[ITEMDEF 07f2f]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull60
+TYPE=tNormal
+
+[ITEMDEF 07f30]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull61
+TYPE=tNormal
+
+[ITEMDEF 07f31]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull62
+TYPE=tNormal
+
+[ITEMDEF 07f32]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull63
+TYPE=tNormal
+
+[ITEMDEF 07f33]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull64
+TYPE=tNormal
+
+[ITEMDEF 07f34]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull65
+TYPE=tNormal
+
+[ITEMDEF 07f35]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull66
+TYPE=tNormal
+
+[ITEMDEF 07f36]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull67
+TYPE=tNormal
+
+[ITEMDEF 07f37]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull68
+TYPE=tNormal
+
+[ITEMDEF 07f38]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull69
+TYPE=tNormal
+
+[ITEMDEF 07f39]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull70
+TYPE=tNormal
+
+[ITEMDEF 07f3a]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull71
+TYPE=tNormal
+
+[ITEMDEF 07f3b]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull72
+TYPE=tNormal
+
+[ITEMDEF 07f3c]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull73
+TYPE=tNormal
+
+[ITEMDEF 07f3d]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull74
+TYPE=tNormal
+
+[ITEMDEF 07f3e]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull75
+TYPE=tNormal
+
+[ITEMDEF 07f3f]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull76
+TYPE=tNormal
+
+[ITEMDEF 07f40]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull77
+TYPE=tNormal
+
+[ITEMDEF 07f41]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull78
+TYPE=tNormal
+
+[ITEMDEF 07f42]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull79
+TYPE=tNormal
+
+[ITEMDEF 07f43]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull80
+TYPE=tNormal
+
+[ITEMDEF 07f44]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull81
+TYPE=tNormal
+
+[ITEMDEF 07f45]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull82
+TYPE=tNormal
+
+[ITEMDEF 07f46]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull83
+TYPE=tNormal
+
+[ITEMDEF 07f47]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull84
+TYPE=tNormal
+
+[ITEMDEF 07f48]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull85
+TYPE=tNormal
+
+[ITEMDEF 07f49]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull86
+TYPE=tNormal
+
+[ITEMDEF 07f4a]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull87
+TYPE=tNormal
+
+[ITEMDEF 07f4b]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull88
+TYPE=tNormal
+
+[ITEMDEF 07f4c]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull89
+TYPE=tNormal
+
+[ITEMDEF 07f4d]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull90
+TYPE=tNormal
+
+[ITEMDEF 07f4e]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull91
+TYPE=tNormal
+
+[ITEMDEF 07f4f]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull92
+TYPE=tNormal
+
+[ITEMDEF 07f50]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull93
+TYPE=tNormal
+
+[ITEMDEF 07f51]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull94
+TYPE=tNormal
+
+[ITEMDEF 07f52]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull95
+TYPE=tNormal
+
+[ITEMDEF 07f53]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull96
+TYPE=tNormal
+
+[ITEMDEF 07f54]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull97
+TYPE=tNormal
+
+[ITEMDEF 07f55]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull98
+TYPE=tNormal
+
+[ITEMDEF 07f56]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull99
+TYPE=tNormal
+
+[ITEMDEF 07f57]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull100
+TYPE=tNormal
+
+[ITEMDEF 07f58]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull101
+TYPE=tNormal
+
+[ITEMDEF 07f59]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull102
+TYPE=tNormal
+
+[ITEMDEF 07f5a]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull103
+TYPE=tNormal
+
+[ITEMDEF 07f5b]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull104
+TYPE=tNormal
+
+[ITEMDEF 07f5c]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull105
+TYPE=tNormal
+
+[ITEMDEF 07f5d]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull106
+TYPE=tNormal
+
+[ITEMDEF 07f5e]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull107
+TYPE=tNormal
+
+[ITEMDEF 07f5f]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull108
+TYPE=tNormal
+
+[ITEMDEF 07f60]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull109
+TYPE=tNormal
+
+[ITEMDEF 07f61]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull110
+TYPE=tNormal
+
+[ITEMDEF 07f62]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull111
+TYPE=tNormal
+
+[ITEMDEF 07f63]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull112
+TYPE=tNormal
+
+[ITEMDEF 07f64]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull113
+TYPE=tNormal
+
+[ITEMDEF 07f65]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull114
+TYPE=tNormal
+
+[ITEMDEF 07f66]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull115
+TYPE=tNormal
+
+[ITEMDEF 07f67]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull116
+TYPE=tNormal
+
+[ITEMDEF 07f68]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull117
+TYPE=tNormal
+
+[ITEMDEF 07f69]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull118
+TYPE=tContainer
+
+[ITEMDEF 07f6a]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull119
+TYPE=tNormal
+
+[ITEMDEF 07f6b]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull120
+TYPE=tNormal
+
+[ITEMDEF 07f6c]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull121
+TYPE=tNormal
+
+[ITEMDEF 07f6d]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull122
+TYPE=tNormal
+
+[ITEMDEF 07f6e]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull123
+TYPE=tNormal
+
+[ITEMDEF 07f6f]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull124
+TYPE=tNormal
+
+[ITEMDEF 07f70]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull125
+TYPE=tNormal
+
+[ITEMDEF 07f71]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull126
+TYPE=tNormal
+
+[ITEMDEF 07f72]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull127
+TYPE=tNormal
+
+[ITEMDEF 07f73]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull128
+TYPE=tNormal
+
+[ITEMDEF 07f74]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull129
+TYPE=tNormal
+
+[ITEMDEF 07f75]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull130
+TYPE=tNormal
+
+[ITEMDEF 07f76]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull131
+TYPE=tNormal
+
+[ITEMDEF 07f77]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull132
+TYPE=tNormal
+
+[ITEMDEF 07f78]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull133
+TYPE=tNormal
+
+[ITEMDEF 07f7a]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull134
+TYPE=tNormal
+
+[ITEMDEF 07f7b]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull135
+TYPE=tNormal
+
+[ITEMDEF 07f7c]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull136
+TYPE=tNormal
+
+[ITEMDEF 07f7d]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull137
+TYPE=tNormal
+
+[ITEMDEF 07f7e]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull138
+TYPE=tNormal
+
+[ITEMDEF 07f7f]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull139
+TYPE=tNormal
+
+[ITEMDEF 07fbc]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull140
+TYPE=tNormal
+
+[ITEMDEF 07fbd]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull141
+TYPE=tNormal
+
+[ITEMDEF 07fbe]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull142
+TYPE=tNormal
+
+[ITEMDEF 07fbf]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull143
+TYPE=tNormal
+
+[ITEMDEF 07fc0]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull144
+TYPE=tNormal
+
+[ITEMDEF 07fc1]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull145
+TYPE=tNormal
+
+[ITEMDEF 07fc2]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull146
+TYPE=tNormal
+
+[ITEMDEF 07fc3]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull147
+TYPE=tNormal
+
+[ITEMDEF 07fc4]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull148
+TYPE=tNormal
+
+[ITEMDEF 07fc5]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull149
+TYPE=tNormal
+
+[ITEMDEF 07fc6]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull150
+TYPE=tNormal
+
+[ITEMDEF 07fc7]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull151
+TYPE=tNormal
+
+[ITEMDEF 07fc8]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull152
+TYPE=tNormal
+
+[ITEMDEF 07fc9]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull153
+TYPE=tNormal
+
+[ITEMDEF 07fca]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull154
+TYPE=tNormal
+
+[ITEMDEF 07fcb]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull155
+TYPE=tNormal
+
+[ITEMDEF 07fcc]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull156
+TYPE=tNormal
+
+[ITEMDEF 07fcd]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull157
+TYPE=tNormal
+
+[ITEMDEF 07fce]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull158
+TYPE=tNormal
+
+[ITEMDEF 07fcf]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull159
+TYPE=tNormal
+
+[ITEMDEF 07fd0]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull160
+TYPE=tNormal
+
+[ITEMDEF 07fd1]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull161
+TYPE=tNormal
+
+[ITEMDEF 07fd2]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull162
+TYPE=tNormal
+
+[ITEMDEF 07fd3]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull163
+TYPE=tNormal
+
+[ITEMDEF 07fd4]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull164
+TYPE=tNormal
+
+[ITEMDEF 07fd5]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull165
+TYPE=tNormal
+
+[ITEMDEF 07fd6]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull166
+TYPE=tNormal
+
+[ITEMDEF 07fd7]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull167
+TYPE=tNormal
+
+[ITEMDEF 07fd8]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull168
+TYPE=tNormal
+
+[ITEMDEF 07fd9]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull169
+TYPE=tNormal
+
+[ITEMDEF 07fda]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull170
+TYPE=tNormal
+
+[ITEMDEF 07fdb]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull171
+TYPE=tNormal
+
+[ITEMDEF 07fdc]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull172
+TYPE=tNormal
+
+[ITEMDEF 07fdd]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull173
+TYPE=tNormal
+
+[ITEMDEF 07fde]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull174
+TYPE=tNormal
+
+[ITEMDEF 07fdf]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull175
+TYPE=tNormal
+
+[ITEMDEF 07fe0]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull176
+TYPE=tNormal
+
+[ITEMDEF 07fe1]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull177
+TYPE=tNormal
+
+[ITEMDEF 07fe2]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull178
+TYPE=tNormal
+
+[ITEMDEF 07fe3]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull179
+TYPE=tNormal
+
+[ITEMDEF 07fe4]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull180
+TYPE=tNormal
+
+[ITEMDEF 07fe5]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull181
+TYPE=tNormal
+
+[ITEMDEF 07fe6]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull182
+TYPE=tNormal
+
+[ITEMDEF 07fe7]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull183
+TYPE=tNormal
+
+[ITEMDEF 07fe8]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull184
+TYPE=tNormal
+
+[ITEMDEF 07fe9]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull185
+TYPE=tNormal
+
+[ITEMDEF 07fea]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull186
+TYPE=tNormal
+
+[ITEMDEF 07feb]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull187
+TYPE=tNormal
+
+[ITEMDEF 07fec]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull188
+TYPE=tNormal
+
+[ITEMDEF 07fed]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull189
+TYPE=tNormal
+
+[ITEMDEF 07fee]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull190
+TYPE=tNormal
+
+[ITEMDEF 07fef]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull191
+TYPE=tNormal
+
+[ITEMDEF 07ff0]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull192
+TYPE=tNormal
+
+[ITEMDEF 07ff1]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull193
+TYPE=tNormal
+
+[ITEMDEF 07ff2]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull194
+TYPE=tNormal
+
+[ITEMDEF 07ff3]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull195
+TYPE=tNormal
+
+[ITEMDEF 07ff4]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull196
+TYPE=tNormal
+
+[ITEMDEF 07ff5]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull197
+TYPE=tNormal
+
+[ITEMDEF 07ff6]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull198
+TYPE=tNormal
+
+[ITEMDEF 07ff7]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull199
+TYPE=tNormal
+
+[ITEMDEF 07ff8]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull200
+TYPE=tNormal
+
+[ITEMDEF 07ff9]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull201
+TYPE=tNormal
+
+[ITEMDEF 07ffa]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull202
+TYPE=tNormal
+
+[ITEMDEF 07ffb]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull203
+TYPE=tNormal
+
+[ITEMDEF 07ffc]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull204
+TYPE=tNormal
+
+[ITEMDEF 07ffd]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull205
+TYPE=tNormal
+
+[ITEMDEF 07ffe]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull206
+TYPE=tNormal
+
+[ITEMDEF 07fff]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull207
+TYPE=tNormal
+
+[ITEMDEF 08000]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull208
+TYPE=tNormal
+
+[ITEMDEF 08001]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull209
+TYPE=tNormal
+
+[ITEMDEF 08002]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull210
+TYPE=tNormal
+
+[ITEMDEF 08003]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull211
+TYPE=tNormal
+
+[ITEMDEF 08004]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull212
+TYPE=tNormal
+
+[ITEMDEF 08005]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull213
+TYPE=tNormal
+
+[ITEMDEF 08006]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull214
+TYPE=tNormal
+
+[ITEMDEF 08007]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull215
+TYPE=tNormal
+
+[ITEMDEF 08008]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull216
+TYPE=tNormal
+
+[ITEMDEF 08009]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull217
+TYPE=tNormal
+
+[ITEMDEF 0800a]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull218
+TYPE=tNormal
+
+[ITEMDEF 0800b]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull219
+TYPE=tNormal
+
+[ITEMDEF 0800c]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull220
+TYPE=tNormal
+
+[ITEMDEF 0800d]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull221
+TYPE=tNormal
+
+[ITEMDEF 0800e]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull222
+TYPE=tNormal
+
+[ITEMDEF 0800f]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull223
+TYPE=tNormal
+
+[ITEMDEF 08010]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull224
+TYPE=tNormal
+
+[ITEMDEF 08011]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull225
+TYPE=tNormal
+
+[ITEMDEF 08012]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull226
+TYPE=tNormal
+
+[ITEMDEF 08013]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull227
+TYPE=tNormal
+
+[ITEMDEF 08014]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull228
+TYPE=tNormal
+
+[ITEMDEF 08015]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull229
+TYPE=tNormal
+
+[ITEMDEF 08016]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull230
+TYPE=tNormal
+
+[ITEMDEF 08017]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull231
+TYPE=tNormal
+
+[ITEMDEF 08018]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull232
+TYPE=tNormal
+
+[ITEMDEF 08019]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull233
+TYPE=tNormal
+
+[ITEMDEF 0801a]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull234
+TYPE=tNormal
+
+[ITEMDEF 0801b]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull235
+TYPE=tNormal
+
+[ITEMDEF 0801c]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull236
+TYPE=tNormal
+
+[ITEMDEF 0801d]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull237
+TYPE=tNormal
+
+[ITEMDEF 0801e]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull238
+TYPE=tNormal
+
+[ITEMDEF 0801f]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull239
+TYPE=tNormal
+
+[ITEMDEF 08020]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull240
+TYPE=tNormal
+
+[ITEMDEF 08021]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull241
+TYPE=tNormal
+
+[ITEMDEF 08022]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull242
+TYPE=tNormal
+
+[ITEMDEF 08023]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull243
+TYPE=tNormal
+
+[ITEMDEF 08024]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull244
+TYPE=tNormal
+
+[ITEMDEF 08025]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull245
+TYPE=tNormal
+
+[ITEMDEF 08026]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull246
+TYPE=tNormal
+
+[ITEMDEF 08027]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull247
+TYPE=tNormal
+
+[ITEMDEF 08028]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull248
+TYPE=tNormal
+
+[ITEMDEF 08029]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull249
+TYPE=tNormal
+
+[ITEMDEF 0802a]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull250
+TYPE=tNormal
+
+[ITEMDEF 0802b]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull251
+TYPE=tNormal
+
+[ITEMDEF 0802c]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull252
+TYPE=tNormal
+
+[ITEMDEF 0802d]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull253
+TYPE=tNormal
+
+[ITEMDEF 0802e]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull254
+TYPE=tNormal
+
+[ITEMDEF 0802f]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull255
+TYPE=tNormal
+
+[ITEMDEF 08030]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull256
+TYPE=tNormal
+
+[ITEMDEF 08031]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull257
+TYPE=tContainer
+
+[ITEMDEF 08032]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull258
+TYPE=tNormal
+
+[ITEMDEF 08033]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull259
+TYPE=tNormal
+
+[ITEMDEF 08034]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull260
+TYPE=tNormal
+
+[ITEMDEF 08035]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull261
+TYPE=tNormal
+
+[ITEMDEF 08036]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull262
+TYPE=tNormal
+
+[ITEMDEF 08037]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull263
+TYPE=tNormal
+
+[ITEMDEF 08038]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull264
+TYPE=tNormal
+
+[ITEMDEF 08039]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull265
+TYPE=tNormal
+
+[ITEMDEF 0803a]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull266
+TYPE=tNormal
+
+[ITEMDEF 0803b]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull267
+TYPE=tNormal
+
+[ITEMDEF 0803c]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull268
+TYPE=tNormal
+
+[ITEMDEF 0803d]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull269
+TYPE=tNormal
+
+[ITEMDEF 0803e]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull270
+TYPE=tNormal
+
+[ITEMDEF 0803f]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull271
+TYPE=tNormal
+
+[ITEMDEF 08040]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull272
+TYPE=tNormal
+
+[ITEMDEF 08042]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull273
+TYPE=tNormal
+
+[ITEMDEF 08043]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull274
+TYPE=tNormal
+
+[ITEMDEF 08044]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull275
+TYPE=tNormal
+
+[ITEMDEF 08045]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull276
+TYPE=tNormal
+
+[ITEMDEF 08046]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull277
+TYPE=tNormal
+
+[ITEMDEF 08047]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull278
+TYPE=tNormal
+
+[ITEMDEF 08084]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull279
+TYPE=tNormal
+
+[ITEMDEF 08085]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull280
+TYPE=tNormal
+
+[ITEMDEF 08086]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull281
+TYPE=tNormal
+
+[ITEMDEF 08087]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull282
+TYPE=tNormal
+
+[ITEMDEF 08088]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull283
+TYPE=tNormal
+
+[ITEMDEF 08089]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull284
+TYPE=tNormal
+
+[ITEMDEF 0808a]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull285
+TYPE=tNormal
+
+[ITEMDEF 0808b]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull286
+TYPE=tNormal
+
+[ITEMDEF 0808c]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull287
+TYPE=tNormal
+
+[ITEMDEF 0808d]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull288
+TYPE=tNormal
+
+[ITEMDEF 0808e]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull289
+TYPE=tNormal
+
+[ITEMDEF 0808f]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull290
+TYPE=tNormal
+
+[ITEMDEF 08090]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull291
+TYPE=tNormal
+
+[ITEMDEF 08091]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull292
+TYPE=tNormal
+
+[ITEMDEF 08092]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull293
+TYPE=tNormal
+
+[ITEMDEF 08093]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull294
+TYPE=tNormal
+
+[ITEMDEF 08094]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull295
+TYPE=tNormal
+
+[ITEMDEF 08095]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull296
+TYPE=tNormal
+
+[ITEMDEF 08096]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull297
+TYPE=tNormal
+
+[ITEMDEF 08097]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull298
+TYPE=tNormal
+
+[ITEMDEF 08098]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull299
+TYPE=tNormal
+
+[ITEMDEF 08099]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull300
+TYPE=tNormal
+
+[ITEMDEF 0809a]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull301
+TYPE=tNormal
+
+[ITEMDEF 0809b]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull302
+TYPE=tNormal
+
+[ITEMDEF 0809c]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull303
+TYPE=tNormal
+
+[ITEMDEF 0809d]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull304
+TYPE=tNormal
+
+[ITEMDEF 0809e]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull305
+TYPE=tNormal
+
+[ITEMDEF 0809f]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull306
+TYPE=tNormal
+
+[ITEMDEF 080a0]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull307
+TYPE=tNormal
+
+[ITEMDEF 080a1]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull308
+TYPE=tNormal
+
+[ITEMDEF 080a2]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull309
+TYPE=tNormal
+
+[ITEMDEF 080a3]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull310
+TYPE=tNormal
+
+[ITEMDEF 080a4]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull311
+TYPE=tNormal
+
+[ITEMDEF 080a5]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull312
+TYPE=tNormal
+
+[ITEMDEF 080a6]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull313
+TYPE=tNormal
+
+[ITEMDEF 080a7]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull314
+TYPE=tNormal
+
+[ITEMDEF 080a8]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull315
+TYPE=tNormal
+
+[ITEMDEF 080a9]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull316
+TYPE=tNormal
+
+[ITEMDEF 080aa]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull317
+TYPE=tNormal
+
+[ITEMDEF 080ab]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull318
+TYPE=tNormal
+
+[ITEMDEF 080ac]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull319
+TYPE=tNormal
+
+[ITEMDEF 080ad]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull320
+TYPE=tNormal
+
+[ITEMDEF 080ae]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull321
+TYPE=tNormal
+
+[ITEMDEF 080af]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull322
+TYPE=tNormal
+
+[ITEMDEF 080b0]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull323
+TYPE=tNormal
+
+[ITEMDEF 080b1]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull324
+TYPE=tNormal
+
+[ITEMDEF 080b2]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull325
+TYPE=tNormal
+
+[ITEMDEF 080b3]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull326
+TYPE=tNormal
+
+[ITEMDEF 080b4]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull327
+TYPE=tNormal
+
+[ITEMDEF 080b5]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull328
+TYPE=tNormal
+
+[ITEMDEF 080b6]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull329
+TYPE=tNormal
+
+[ITEMDEF 080b7]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull330
+TYPE=tNormal
+
+[ITEMDEF 080b8]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull331
+TYPE=tNormal
+
+[ITEMDEF 080b9]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull332
+TYPE=tNormal
+
+[ITEMDEF 080ba]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull333
+TYPE=tNormal
+
+[ITEMDEF 080bb]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull334
+TYPE=tNormal
+
+[ITEMDEF 080bc]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull335
+TYPE=tNormal
+
+[ITEMDEF 080bd]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull336
+TYPE=tNormal
+
+[ITEMDEF 080be]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull337
+TYPE=tNormal
+
+[ITEMDEF 080bf]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull338
+TYPE=tNormal
+
+[ITEMDEF 080c0]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull339
+TYPE=tNormal
+
+[ITEMDEF 080c1]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull340
+TYPE=tNormal
+
+[ITEMDEF 080c2]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull341
+TYPE=tNormal
+
+[ITEMDEF 080c3]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull342
+TYPE=tNormal
+
+[ITEMDEF 080c4]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull343
+TYPE=tNormal
+
+[ITEMDEF 080c5]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull344
+TYPE=tNormal
+
+[ITEMDEF 080c6]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull345
+TYPE=tNormal
+
+[ITEMDEF 080c7]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull346
+TYPE=tNormal
+
+[ITEMDEF 080c8]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull347
+TYPE=tNormal
+
+[ITEMDEF 080c9]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull348
+TYPE=tNormal
+
+[ITEMDEF 080ca]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull349
+TYPE=tNormal
+
+[ITEMDEF 080cb]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull350
+TYPE=tNormal
+
+[ITEMDEF 080cc]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull351
+TYPE=tNormal
+
+[ITEMDEF 080cd]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull352
+TYPE=tNormal
+
+[ITEMDEF 080ce]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull353
+TYPE=tNormal
+
+[ITEMDEF 080cf]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull354
+TYPE=tNormal
+
+[ITEMDEF 080d0]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull355
+TYPE=tNormal
+
+[ITEMDEF 080d1]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull356
+TYPE=tNormal
+
+[ITEMDEF 080d2]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull357
+TYPE=tNormal
+
+[ITEMDEF 080d3]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull358
+TYPE=tNormal
+
+[ITEMDEF 080d4]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull359
+TYPE=tNormal
+
+[ITEMDEF 080d5]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull360
+TYPE=tNormal
+
+[ITEMDEF 080d6]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull361
+TYPE=tNormal
+
+[ITEMDEF 080d7]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull362
+TYPE=tNormal
+
+[ITEMDEF 080d8]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull363
+TYPE=tNormal
+
+[ITEMDEF 080d9]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull364
+TYPE=tNormal
+
+[ITEMDEF 080da]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull365
+TYPE=tNormal
+
+[ITEMDEF 080db]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull366
+TYPE=tNormal
+
+[ITEMDEF 080dc]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull367
+TYPE=tNormal
+
+[ITEMDEF 080dd]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull368
+TYPE=tNormal
+
+[ITEMDEF 080de]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull369
+TYPE=tNormal
+
+[ITEMDEF 080df]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull370
+TYPE=tNormal
+
+[ITEMDEF 080e0]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull371
+TYPE=tNormal
+
+[ITEMDEF 080e1]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull372
+TYPE=tNormal
+
+[ITEMDEF 080e2]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull373
+TYPE=tNormal
+
+[ITEMDEF 080e3]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull374
+TYPE=tNormal
+
+[ITEMDEF 080e4]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull375
+TYPE=tNormal
+
+[ITEMDEF 080e5]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull376
+TYPE=tNormal
+
+[ITEMDEF 080e6]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull377
+TYPE=tNormal
+
+[ITEMDEF 080e7]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull378
+TYPE=tNormal
+
+[ITEMDEF 080e8]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull379
+TYPE=tNormal
+
+[ITEMDEF 080e9]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull380
+TYPE=tNormal
+
+[ITEMDEF 080ea]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull381
+TYPE=tNormal
+
+[ITEMDEF 080eb]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull382
+TYPE=tNormal
+
+[ITEMDEF 080ec]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull383
+TYPE=tNormal
+
+[ITEMDEF 080ed]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull384
+TYPE=tNormal
+
+[ITEMDEF 080ee]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull385
+TYPE=tNormal
+
+[ITEMDEF 080ef]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull386
+TYPE=tNormal
+
+[ITEMDEF 080f0]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull387
+TYPE=tNormal
+
+[ITEMDEF 080f1]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull388
+TYPE=tNormal
+
+[ITEMDEF 080f2]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull389
+TYPE=tNormal
+
+[ITEMDEF 080f3]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull390
+TYPE=tNormal
+
+[ITEMDEF 080f4]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull391
+TYPE=tNormal
+
+[ITEMDEF 080f5]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull392
+TYPE=tNormal
+
+[ITEMDEF 080f6]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull393
+TYPE=tNormal
+
+[ITEMDEF 080f7]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull394
+TYPE=tNormal
+
+[ITEMDEF 080f8]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull395
+TYPE=tNormal
+
+[ITEMDEF 080f9]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull396
+TYPE=tContainer
+
+[ITEMDEF 080fa]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull397
+TYPE=tNormal
+
+[ITEMDEF 080fb]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull398
+TYPE=tNormal
+
+[ITEMDEF 080fc]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull399
+TYPE=tNormal
+
+[ITEMDEF 080fd]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull400
+TYPE=tNormal
+
+[ITEMDEF 080fe]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull401
+TYPE=tNormal
+
+[ITEMDEF 080ff]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull402
+TYPE=tNormal
+
+[ITEMDEF 08100]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull403
+TYPE=tNormal
+
+[ITEMDEF 08101]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull404
+TYPE=tNormal
+
+[ITEMDEF 08102]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull405
+TYPE=tNormal
+
+[ITEMDEF 08103]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull406
+TYPE=tNormal
+
+[ITEMDEF 08104]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull407
+TYPE=tNormal
+
+[ITEMDEF 08105]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull408
+TYPE=tNormal
+
+[ITEMDEF 08106]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull409
+TYPE=tNormal
+
+[ITEMDEF 08107]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull410
+TYPE=tNormal
+
+[ITEMDEF 08108]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull411
+TYPE=tNormal
+
+[ITEMDEF 0810a]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull412
+TYPE=tNormal
+
+[ITEMDEF 0810b]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull413
+TYPE=tNormal
+
+[ITEMDEF 0810c]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull414
+TYPE=tNormal
+
+[ITEMDEF 0810d]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull415
+TYPE=tNormal
+
+[ITEMDEF 0810e]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull416
+TYPE=tNormal
+
+[ITEMDEF 0810f]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull417
+TYPE=tNormal
+
+[ITEMDEF 0814c]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull418
+TYPE=tNormal
+
+[ITEMDEF 0814d]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull419
+TYPE=tNormal
+
+[ITEMDEF 0814e]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull420
+TYPE=tNormal
+
+[ITEMDEF 0814f]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull421
+TYPE=tNormal
+
+[ITEMDEF 08150]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull422
+TYPE=tNormal
+
+[ITEMDEF 08151]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull423
+TYPE=tNormal
+
+[ITEMDEF 08152]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull424
+TYPE=tNormal
+
+[ITEMDEF 08153]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull425
+TYPE=tNormal
+
+[ITEMDEF 08154]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull426
+TYPE=tNormal
+
+[ITEMDEF 08155]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull427
+TYPE=tNormal
+
+[ITEMDEF 08156]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull428
+TYPE=tNormal
+
+[ITEMDEF 08157]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull429
+TYPE=tNormal
+
+[ITEMDEF 08158]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull430
+TYPE=tNormal
+
+[ITEMDEF 08159]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull431
+TYPE=tNormal
+
+[ITEMDEF 0815a]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull432
+TYPE=tNormal
+
+[ITEMDEF 0815b]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull433
+TYPE=tNormal
+
+[ITEMDEF 0815c]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull434
+TYPE=tNormal
+
+[ITEMDEF 0815d]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull435
+TYPE=tNormal
+
+[ITEMDEF 0815e]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull436
+TYPE=tNormal
+
+[ITEMDEF 0815f]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull437
+TYPE=tNormal
+
+[ITEMDEF 08160]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull438
+TYPE=tNormal
+
+[ITEMDEF 08161]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull439
+TYPE=tNormal
+
+[ITEMDEF 08162]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull440
+TYPE=tNormal
+
+[ITEMDEF 08163]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull441
+TYPE=tNormal
+
+[ITEMDEF 08164]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull442
+TYPE=tNormal
+
+[ITEMDEF 08165]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull443
+TYPE=tNormal
+
+[ITEMDEF 08166]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull444
+TYPE=tNormal
+
+[ITEMDEF 08167]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull445
+TYPE=tNormal
+
+[ITEMDEF 08168]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull446
+TYPE=tNormal
+
+[ITEMDEF 08169]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull447
+TYPE=tNormal
+
+[ITEMDEF 0816a]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull448
+TYPE=tNormal
+
+[ITEMDEF 0816b]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull449
+TYPE=tNormal
+
+[ITEMDEF 0816c]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull450
+TYPE=tNormal
+
+[ITEMDEF 0816d]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull451
+TYPE=tNormal
+
+[ITEMDEF 0816e]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull452
+TYPE=tNormal
+
+[ITEMDEF 0816f]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull453
+TYPE=tNormal
+
+[ITEMDEF 08170]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull454
+TYPE=tNormal
+
+[ITEMDEF 08171]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull455
+TYPE=tNormal
+
+[ITEMDEF 08172]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull456
+TYPE=tNormal
+
+[ITEMDEF 08173]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull457
+TYPE=tNormal
+
+[ITEMDEF 08174]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull458
+TYPE=tNormal
+
+[ITEMDEF 08175]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull459
+TYPE=tNormal
+
+[ITEMDEF 08176]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull460
+TYPE=tNormal
+
+[ITEMDEF 08177]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull461
+TYPE=tNormal
+
+[ITEMDEF 08178]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull462
+TYPE=tNormal
+
+[ITEMDEF 08179]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull463
+TYPE=tNormal
+
+[ITEMDEF 0817a]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull464
+TYPE=tNormal
+
+[ITEMDEF 0817b]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull465
+TYPE=tNormal
+
+[ITEMDEF 0817c]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull466
+TYPE=tNormal
+
+[ITEMDEF 0817d]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull467
+TYPE=tNormal
+
+[ITEMDEF 0817e]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull468
+TYPE=tNormal
+
+[ITEMDEF 0817f]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull469
+TYPE=tNormal
+
+[ITEMDEF 08180]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull470
+TYPE=tNormal
+
+[ITEMDEF 08181]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull471
+TYPE=tNormal
+
+[ITEMDEF 08182]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull472
+TYPE=tNormal
+
+[ITEMDEF 08183]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull473
+TYPE=tNormal
+
+[ITEMDEF 08184]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull474
+TYPE=tNormal
+
+[ITEMDEF 08185]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull475
+TYPE=tNormal
+
+[ITEMDEF 08186]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull476
+TYPE=tNormal
+
+[ITEMDEF 08187]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull477
+TYPE=tNormal
+
+[ITEMDEF 08188]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull478
+TYPE=tNormal
+
+[ITEMDEF 08189]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull479
+TYPE=tNormal
+
+[ITEMDEF 0818a]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull480
+TYPE=tNormal
+
+[ITEMDEF 0818b]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull481
+TYPE=tNormal
+
+[ITEMDEF 0818c]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull482
+TYPE=tNormal
+
+[ITEMDEF 0818d]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull483
+TYPE=tNormal
+
+[ITEMDEF 0818e]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull484
+TYPE=tNormal
+
+[ITEMDEF 0818f]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull485
+TYPE=tNormal
+
+[ITEMDEF 08190]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull486
+TYPE=tNormal
+
+[ITEMDEF 08191]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull487
+TYPE=tNormal
+
+[ITEMDEF 08192]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull488
+TYPE=tNormal
+
+[ITEMDEF 08193]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull489
+TYPE=tNormal
+
+[ITEMDEF 08194]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull490
+TYPE=tNormal
+
+[ITEMDEF 08195]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull491
+TYPE=tNormal
+
+[ITEMDEF 08196]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull492
+TYPE=tNormal
+
+[ITEMDEF 08197]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull493
+TYPE=tNormal
+
+[ITEMDEF 08198]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull494
+TYPE=tNormal
+
+[ITEMDEF 08199]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull495
+TYPE=tNormal
+
+[ITEMDEF 0819a]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull496
+TYPE=tNormal
+
+[ITEMDEF 0819b]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull497
+TYPE=tNormal
+
+[ITEMDEF 0819c]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull498
+TYPE=tNormal
+
+[ITEMDEF 0819d]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull499
+TYPE=tNormal
+
+[ITEMDEF 0819e]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull500
+TYPE=tNormal
+
+[ITEMDEF 0819f]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull501
+TYPE=tNormal
+
+[ITEMDEF 081a0]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull502
+TYPE=tNormal
+
+[ITEMDEF 081a1]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull503
+TYPE=tNormal
+
+[ITEMDEF 081a2]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull504
+TYPE=tNormal
+
+[ITEMDEF 081a3]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull505
+TYPE=tNormal
+
+[ITEMDEF 081a4]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull506
+TYPE=tNormal
+
+[ITEMDEF 081a5]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull507
+TYPE=tNormal
+
+[ITEMDEF 081a6]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull508
+TYPE=tNormal
+
+[ITEMDEF 081a7]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull509
+TYPE=tNormal
+
+[ITEMDEF 081a8]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull510
+TYPE=tNormal
+
+[ITEMDEF 081a9]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull511
+TYPE=tNormal
+
+[ITEMDEF 081aa]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull512
+TYPE=tNormal
+
+[ITEMDEF 081ab]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull513
+TYPE=tNormal
+
+[ITEMDEF 081ac]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull514
+TYPE=tNormal
+
+[ITEMDEF 081ad]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull515
+TYPE=tNormal
+
+[ITEMDEF 081ae]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull516
+TYPE=tNormal
+
+[ITEMDEF 081af]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull517
+TYPE=tNormal
+
+[ITEMDEF 081b0]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull518
+TYPE=tNormal
+
+[ITEMDEF 081b1]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull519
+TYPE=tNormal
+
+[ITEMDEF 081b2]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull520
+TYPE=tNormal
+
+[ITEMDEF 081b3]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull521
+TYPE=tNormal
+
+[ITEMDEF 081b4]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull522
+TYPE=tNormal
+
+[ITEMDEF 081b5]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull523
+TYPE=tNormal
+
+[ITEMDEF 081b6]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull524
+TYPE=tNormal
+
+[ITEMDEF 081b7]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull525
+TYPE=tNormal
+
+[ITEMDEF 081b8]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull526
+TYPE=tNormal
+
+[ITEMDEF 081b9]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull527
+TYPE=tNormal
+
+[ITEMDEF 081ba]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull528
+TYPE=tNormal
+
+[ITEMDEF 081bb]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull529
+TYPE=tNormal
+
+[ITEMDEF 081bc]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull530
+TYPE=tNormal
+
+[ITEMDEF 081bd]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull531
+TYPE=tNormal
+
+[ITEMDEF 081be]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull532
+TYPE=tNormal
+
+[ITEMDEF 081bf]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull533
+TYPE=tNormal
+
+[ITEMDEF 081c0]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull534
+TYPE=tNormal
+
+[ITEMDEF 081c1]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull535
+TYPE=tContainer
+
+[ITEMDEF 081c2]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull536
+TYPE=tNormal
+
+[ITEMDEF 081c3]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull537
+TYPE=tNormal
+
+[ITEMDEF 081c4]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull538
+TYPE=tNormal
+
+[ITEMDEF 081c5]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull539
+TYPE=tNormal
+
+[ITEMDEF 081c6]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull540
+TYPE=tNormal
+
+[ITEMDEF 081c7]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull541
+TYPE=tNormal
+
+[ITEMDEF 081c8]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull542
+TYPE=tNormal
+
+[ITEMDEF 081c9]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull543
+TYPE=tNormal
+
+[ITEMDEF 081ca]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull544
+TYPE=tNormal
+
+[ITEMDEF 081cb]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull545
+TYPE=tNormal
+
+[ITEMDEF 081cc]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull546
+TYPE=tNormal
+
+[ITEMDEF 081cd]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull547
+TYPE=tNormal
+
+[ITEMDEF 081ce]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull548
+TYPE=tNormal
+
+[ITEMDEF 081cf]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull549
+TYPE=tNormal
+
+[ITEMDEF 081d0]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull550
+TYPE=tNormal
+
+[ITEMDEF 081d2]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull551
+TYPE=tNormal
+
+[ITEMDEF 081d3]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull552
+TYPE=tNormal
+
+[ITEMDEF 081d4]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull553
+TYPE=tNormal
+
+[ITEMDEF 081d5]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull554
+TYPE=tNormal
+
+[ITEMDEF 081d6]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull555
+TYPE=tNormal
+
+[ITEMDEF 081d7]
+// OrcShip D2 MainHull
+DEFNAME=iOrcshipDMainhull556
+TYPE=tNormal
+
+[ITEMDEF 075c6]
+// OrcShipMainMast SOUT
+DEFNAME=iOrcshipmainmastSout
+TYPE=tNormal
+
+[ITEMDEF 075c7]
+// OrcShipMainMast SOUT
+DEFNAME=iOrcshipmainmastSout2
+TYPE=tNormal
+
+[ITEMDEF 075c8]
+// OrcShipMainMast SOUT
+DEFNAME=iOrcshipmainmastSout3
+TYPE=tNormal
+
+[ITEMDEF 075c9]
+// OrcShipMainMast SOUT
+DEFNAME=iOrcshipmainmastSout4
+TYPE=tNormal
+
+[ITEMDEF 075ca]
+// OrcShipMainMast SOUT
+DEFNAME=iOrcshipmainmastSout5
+TYPE=tNormal
+
+[ITEMDEF 075cb]
+// OrcShipMainMast SOUT
+DEFNAME=iOrcshipmainmastSout6
+TYPE=tNormal
+
+[ITEMDEF 075cc]
+// OrcShipMainMast SOUT
+DEFNAME=iOrcshipmainmastSout7
+TYPE=tNormal
+
+[ITEMDEF 075cd]
+// OrcShipMainMast SOUT
+DEFNAME=iOrcshipmainmastSout8
+TYPE=tNormal
+
+[ITEMDEF 075ce]
+// OrcShipMainMast SOUT
+DEFNAME=iOrcshipmainmastSout9
+TYPE=tNormal
+
+[ITEMDEF 075cf]
+// OrcShipMainMast SOUT
+DEFNAME=iOrcshipmainmastSout10
+TYPE=tNormal
+
+[ITEMDEF 075d0]
+// OrcShipMainMast SOUT
+DEFNAME=iOrcshipmainmastSout11
+TYPE=tNormal
+
+[ITEMDEF 075d1]
+// OrcShipMainMast SOUT
+DEFNAME=iOrcshipmainmastSout12
+TYPE=tNormal
+
+[ITEMDEF 075d2]
+// OrcShipMainMast SOUT
+DEFNAME=iOrcshipmainmastSout13
+TYPE=tNormal
+
+[ITEMDEF 075d3]
+// OrcShipMainMast SOUT
+DEFNAME=iOrcshipmainmastSout14
+TYPE=tNormal
+
+[ITEMDEF 075d4]
+// OrcShipMainMast SOUT
+DEFNAME=iOrcshipmainmastSout15
+TYPE=tNormal
+
+[ITEMDEF 075d5]
+// OrcShipMainMast SOUT
+DEFNAME=iOrcshipmainmastSout16
+TYPE=tNormal
+
+[ITEMDEF 075d6]
+// OrcShipMainMast SOUT
+DEFNAME=iOrcshipmainmastSout17
+TYPE=tNormal
+
+[ITEMDEF 075d7]
+// OrcShipMainMast SOUT
+DEFNAME=iOrcshipmainmastSout18
+TYPE=tNormal
+
+[ITEMDEF 075d8]
+// OrcShipMainMast SOUT
+DEFNAME=iOrcshipmainmastSout19
+TYPE=tNormal
+
+[ITEMDEF 075d9]
+// OrcShipMainMast SOUT
+DEFNAME=iOrcshipmainmastSout20
+TYPE=tNormal
+
+[ITEMDEF 075da]
+// OrcShipMainMast SOUT
+DEFNAME=iOrcshipmainmastSout21
+TYPE=tNormal
+
+[ITEMDEF 075db]
+// OrcShipMainMast SOUT
+DEFNAME=iOrcshipmainmastSout22
+TYPE=tNormal
+
+[ITEMDEF 075dc]
+// OrcShipMainMast SOUT
+DEFNAME=iOrcshipmainmastSout23
+TYPE=tNormal
+
+[ITEMDEF 075dd]
+// OrcShipMainMast SOUT
+DEFNAME=iOrcshipmainmastSout24
+TYPE=tNormal
+
+[ITEMDEF 075de]
+// OrcShipMainMast SOUT
+DEFNAME=iOrcshipmainmastSout25
+TYPE=tNormal
+
+[ITEMDEF 075df]
+// OrcShipMainMast SOUT
+DEFNAME=iOrcshipmainmastSout26
+TYPE=tNormal
+
+[ITEMDEF 075e0]
+// OrcShipMainMast SOUT
+DEFNAME=iOrcshipmainmastSout27
+TYPE=tNormal
+
+[ITEMDEF 075e1]
+// OrcShipMainMast SOUT
+DEFNAME=iOrcshipmainmastSout28
+TYPE=tNormal
+
+[ITEMDEF 075e2]
+// OrcShipMainMast SOUT
+DEFNAME=iOrcshipmainmastSout29
+TYPE=tNormal
+
+[ITEMDEF 075e3]
+// OrcShipMainMast SOUT
+DEFNAME=iOrcshipmainmastSout30
+TYPE=tNormal
+
+[ITEMDEF 075e4]
+// OrcShipMainMast SOUT
+DEFNAME=iOrcshipmainmastSout31
+TYPE=tNormal
+
+[ITEMDEF 075e5]
+// OrcShipMainMast SOUT
+DEFNAME=iOrcshipmainmastSout32
+TYPE=tNormal
+
+[ITEMDEF 075e6]
+// OrcShipMainMast SOUT
+DEFNAME=iOrcshipmainmastSout33
+TYPE=tNormal
+
+[ITEMDEF 075e7]
+// OrcShipMainMast SOUT
+DEFNAME=iOrcshipmainmastSout34
+TYPE=tNormal
+
+[ITEMDEF 075e8]
+// OrcShipMainMast SOUT
+DEFNAME=iOrcshipmainmastSout35
+TYPE=tNormal
+
+[ITEMDEF 075e9]
+// OrcShipMainMast SOUT
+DEFNAME=iOrcshipmainmastSout36
+TYPE=tNormal
+
+[ITEMDEF 075ea]
+// OrcShipMainMast SOUT
+DEFNAME=iOrcshipmainmastSout37
+TYPE=tNormal
+
+[ITEMDEF 075eb]
+// OrcShipMainMast SOUT
+DEFNAME=iOrcshipmainmastSout38
+TYPE=tNormal
+
+[ITEMDEF 075ec]
+// OrcShipMainMast SOUT
+DEFNAME=iOrcshipmainmastSout39
+TYPE=tNormal
+
+[ITEMDEF 075ed]
+// OrcShipMainMast SOUT
+DEFNAME=iOrcshipmainmastSout40
+TYPE=tNormal
+
+[ITEMDEF 075ee]
+// OrcShipMainMast SOUT
+DEFNAME=iOrcshipmainmastSout41
+TYPE=tNormal
+
+[ITEMDEF 075ef]
+// OrcShipMainMast SOUT
+DEFNAME=iOrcshipmainmastSout42
+TYPE=tNormal
+
+[ITEMDEF 075f0]
+// OrcShipMainMast SOUT
+DEFNAME=iOrcshipmainmastSout43
+TYPE=tNormal
+
+[ITEMDEF 075f1]
+// OrcShipMainMast SOUT
+DEFNAME=iOrcshipmainmastSout44
+TYPE=tNormal
+
+[ITEMDEF 077ba]
+// OrcShipMainMast WEST
+DEFNAME=iOrcshipmainmastWest
+TYPE=tNormal
+
+[ITEMDEF 077bb]
+// OrcShipMainMast WEST
+DEFNAME=iOrcshipmainmastWest2
+TYPE=tNormal
+
+[ITEMDEF 077bc]
+// OrcShipMainMast WEST
+DEFNAME=iOrcshipmainmastWest3
+TYPE=tNormal
+
+[ITEMDEF 077bd]
+// OrcShipMainMast WEST
+DEFNAME=iOrcshipmainmastWest4
+TYPE=tNormal
+
+[ITEMDEF 077be]
+// OrcShipMainMast WEST
+DEFNAME=iOrcshipmainmastWest5
+TYPE=tNormal
+
+[ITEMDEF 077bf]
+// OrcShipMainMast WEST
+DEFNAME=iOrcshipmainmastWest6
+TYPE=tNormal
+
+[ITEMDEF 077c0]
+// OrcShipMainMast WEST
+DEFNAME=iOrcshipmainmastWest7
+TYPE=tNormal
+
+[ITEMDEF 077c1]
+// OrcShipMainMast WEST
+DEFNAME=iOrcshipmainmastWest8
+TYPE=tNormal
+
+[ITEMDEF 077c2]
+// OrcShipMainMast WEST
+DEFNAME=iOrcshipmainmastWest9
+TYPE=tNormal
+
+[ITEMDEF 077c3]
+// OrcShipMainMast WEST
+DEFNAME=iOrcshipmainmastWest10
+TYPE=tNormal
+
+[ITEMDEF 077c4]
+// OrcShipMainMast WEST
+DEFNAME=iOrcshipmainmastWest11
+TYPE=tNormal
+
+[ITEMDEF 077c5]
+// OrcShipMainMast WEST
+DEFNAME=iOrcshipmainmastWest12
+TYPE=tNormal
+
+[ITEMDEF 077c6]
+// OrcShipMainMast WEST
+DEFNAME=iOrcshipmainmastWest13
+TYPE=tNormal
+
+[ITEMDEF 077c7]
+// OrcShipMainMast WEST
+DEFNAME=iOrcshipmainmastWest14
+TYPE=tNormal
+
+[ITEMDEF 077c8]
+// OrcShipMainMast WEST
+DEFNAME=iOrcshipmainmastWest15
+TYPE=tNormal
+
+[ITEMDEF 077c9]
+// OrcShipMainMast WEST
+DEFNAME=iOrcshipmainmastWest16
+TYPE=tNormal
+
+[ITEMDEF 077ca]
+// OrcShipMainMast WEST
+DEFNAME=iOrcshipmainmastWest17
+TYPE=tNormal
+
+[ITEMDEF 077cb]
+// OrcShipMainMast WEST
+DEFNAME=iOrcshipmainmastWest18
+TYPE=tNormal
+
+[ITEMDEF 077cc]
+// OrcShipMainMast WEST
+DEFNAME=iOrcshipmainmastWest19
+TYPE=tNormal
+
+[ITEMDEF 077cd]
+// OrcShipMainMast WEST
+DEFNAME=iOrcshipmainmastWest20
+TYPE=tNormal
+
+[ITEMDEF 077ce]
+// OrcShipMainMast WEST
+DEFNAME=iOrcshipmainmastWest21
+TYPE=tNormal
+
+[ITEMDEF 077cf]
+// OrcShipMainMast WEST
+DEFNAME=iOrcshipmainmastWest22
+TYPE=tNormal
+
+[ITEMDEF 077d0]
+// OrcShipMainMast WEST
+DEFNAME=iOrcshipmainmastWest23
+TYPE=tNormal
+
+[ITEMDEF 077d1]
+// OrcShipMainMast WEST
+DEFNAME=iOrcshipmainmastWest24
+TYPE=tNormal
+
+[ITEMDEF 077d2]
+// OrcShipMainMast WEST
+DEFNAME=iOrcshipmainmastWest25
+TYPE=tNormal
+
+[ITEMDEF 077d3]
+// OrcShipMainMast WEST
+DEFNAME=iOrcshipmainmastWest26
+TYPE=tNormal
+
+[ITEMDEF 077d4]
+// OrcShipMainMast WEST
+DEFNAME=iOrcshipmainmastWest27
+TYPE=tNormal
+
+[ITEMDEF 077d5]
+// OrcShipMainMast WEST
+DEFNAME=iOrcshipmainmastWest28
+TYPE=tNormal
+
+[ITEMDEF 077d6]
+// OrcShipMainMast WEST
+DEFNAME=iOrcshipmainmastWest29
+TYPE=tNormal
+
+[ITEMDEF 077d7]
+// OrcShipMainMast WEST
+DEFNAME=iOrcshipmainmastWest30
+TYPE=tNormal
+
+[ITEMDEF 077d8]
+// OrcShipMainMast WEST
+DEFNAME=iOrcshipmainmastWest31
+TYPE=tNormal
+
+[ITEMDEF 077d9]
+// OrcShipMainMast WEST
+DEFNAME=iOrcshipmainmastWest32
+TYPE=tNormal
+
+[ITEMDEF 077da]
+// OrcShipMainMast WEST
+DEFNAME=iOrcshipmainmastWest33
+TYPE=tNormal
+
+[ITEMDEF 077db]
+// OrcShipMainMast WEST
+DEFNAME=iOrcshipmainmastWest34
+TYPE=tNormal
+
+[ITEMDEF 077dc]
+// OrcShipMainMast WEST
+DEFNAME=iOrcshipmainmastWest35
+TYPE=tNormal
+
+[ITEMDEF 077dd]
+// OrcShipMainMast WEST
+DEFNAME=iOrcshipmainmastWest36
+TYPE=tNormal
+
+[ITEMDEF 077de]
+// OrcShipMainMast WEST
+DEFNAME=iOrcshipmainmastWest37
+TYPE=tNormal
+
+[ITEMDEF 077df]
+// OrcShipMainMast WEST
+DEFNAME=iOrcshipmainmastWest38
+TYPE=tNormal
+
+[ITEMDEF 077e0]
+// OrcShipMainMast WEST
+DEFNAME=iOrcshipmainmastWest39
+TYPE=tNormal
+
+[ITEMDEF 077e1]
+// OrcShipMainMast WEST
+DEFNAME=iOrcshipmainmastWest40
+TYPE=tNormal
+
+[ITEMDEF 077e2]
+// OrcShipMainMast WEST
+DEFNAME=iOrcshipmainmastWest41
+TYPE=tNormal
+
+[ITEMDEF 077e3]
+// OrcShipMainMast WEST
+DEFNAME=iOrcshipmainmastWest42
+TYPE=tNormal
+
+[ITEMDEF 077e4]
+// OrcShipMainMast WEST
+DEFNAME=iOrcshipmainmastWest43
+TYPE=tNormal
+
+[ITEMDEF 077e5]
+// OrcShipMainMast WEST
+DEFNAME=iOrcshipmainmastWest44
+TYPE=tNormal
+
+[ITEMDEF 079ae]
+// OrcShipMainMast NORT
+DEFNAME=iOrcshipmainmastNort
+TYPE=tNormal
+
+[ITEMDEF 079af]
+// OrcShipMainMast NORT
+DEFNAME=iOrcshipmainmastNort2
+TYPE=tNormal
+
+[ITEMDEF 079b0]
+// OrcShipMainMast NORT
+DEFNAME=iOrcshipmainmastNort3
+TYPE=tNormal
+
+[ITEMDEF 079b1]
+// OrcShipMainMast NORT
+DEFNAME=iOrcshipmainmastNort4
+TYPE=tNormal
+
+[ITEMDEF 079b2]
+// OrcShipMainMast NORT
+DEFNAME=iOrcshipmainmastNort5
+TYPE=tNormal
+
+[ITEMDEF 079b3]
+// OrcShipMainMast NORT
+DEFNAME=iOrcshipmainmastNort6
+TYPE=tNormal
+
+[ITEMDEF 079b4]
+// OrcShipMainMast NORT
+DEFNAME=iOrcshipmainmastNort7
+TYPE=tNormal
+
+[ITEMDEF 079b5]
+// OrcShipMainMast NORT
+DEFNAME=iOrcshipmainmastNort8
+TYPE=tNormal
+
+[ITEMDEF 079b6]
+// OrcShipMainMast NORT
+DEFNAME=iOrcshipmainmastNort9
+TYPE=tNormal
+
+[ITEMDEF 079b7]
+// OrcShipMainMast NORT
+DEFNAME=iOrcshipmainmastNort10
+TYPE=tNormal
+
+[ITEMDEF 079b8]
+// OrcShipMainMast NORT
+DEFNAME=iOrcshipmainmastNort11
+TYPE=tNormal
+
+[ITEMDEF 079b9]
+// OrcShipMainMast NORT
+DEFNAME=iOrcshipmainmastNort12
+TYPE=tNormal
+
+[ITEMDEF 079ba]
+// OrcShipMainMast NORT
+DEFNAME=iOrcshipmainmastNort13
+TYPE=tNormal
+
+[ITEMDEF 079bb]
+// OrcShipMainMast NORT
+DEFNAME=iOrcshipmainmastNort14
+TYPE=tNormal
+
+[ITEMDEF 079bc]
+// OrcShipMainMast NORT
+DEFNAME=iOrcshipmainmastNort15
+TYPE=tNormal
+
+[ITEMDEF 079bd]
+// OrcShipMainMast NORT
+DEFNAME=iOrcshipmainmastNort16
+TYPE=tNormal
+
+[ITEMDEF 079be]
+// OrcShipMainMast NORT
+DEFNAME=iOrcshipmainmastNort17
+TYPE=tNormal
+
+[ITEMDEF 079bf]
+// OrcShipMainMast NORT
+DEFNAME=iOrcshipmainmastNort18
+TYPE=tNormal
+
+[ITEMDEF 079c0]
+// OrcShipMainMast NORT
+DEFNAME=iOrcshipmainmastNort19
+TYPE=tNormal
+
+[ITEMDEF 079c1]
+// OrcShipMainMast NORT
+DEFNAME=iOrcshipmainmastNort20
+TYPE=tNormal
+
+[ITEMDEF 079c2]
+// OrcShipMainMast NORT
+DEFNAME=iOrcshipmainmastNort21
+TYPE=tNormal
+
+[ITEMDEF 079c3]
+// OrcShipMainMast NORT
+DEFNAME=iOrcshipmainmastNort22
+TYPE=tNormal
+
+[ITEMDEF 079c4]
+// OrcShipMainMast NORT
+DEFNAME=iOrcshipmainmastNort23
+TYPE=tNormal
+
+[ITEMDEF 079c5]
+// OrcShipMainMast NORT
+DEFNAME=iOrcshipmainmastNort24
+TYPE=tNormal
+
+[ITEMDEF 079c6]
+// OrcShipMainMast NORT
+DEFNAME=iOrcshipmainmastNort25
+TYPE=tNormal
+
+[ITEMDEF 079c7]
+// OrcShipMainMast NORT
+DEFNAME=iOrcshipmainmastNort26
+TYPE=tNormal
+
+[ITEMDEF 079c8]
+// OrcShipMainMast NORT
+DEFNAME=iOrcshipmainmastNort27
+TYPE=tNormal
+
+[ITEMDEF 079c9]
+// OrcShipMainMast NORT
+DEFNAME=iOrcshipmainmastNort28
+TYPE=tNormal
+
+[ITEMDEF 079ca]
+// OrcShipMainMast NORT
+DEFNAME=iOrcshipmainmastNort29
+TYPE=tNormal
+
+[ITEMDEF 079cb]
+// OrcShipMainMast NORT
+DEFNAME=iOrcshipmainmastNort30
+TYPE=tNormal
+
+[ITEMDEF 079cc]
+// OrcShipMainMast NORT
+DEFNAME=iOrcshipmainmastNort31
+TYPE=tNormal
+
+[ITEMDEF 079cd]
+// OrcShipMainMast NORT
+DEFNAME=iOrcshipmainmastNort32
+TYPE=tNormal
+
+[ITEMDEF 079ce]
+// OrcShipMainMast NORT
+DEFNAME=iOrcshipmainmastNort33
+TYPE=tNormal
+
+[ITEMDEF 079cf]
+// OrcShipMainMast NORT
+DEFNAME=iOrcshipmainmastNort34
+TYPE=tNormal
+
+[ITEMDEF 079d0]
+// OrcShipMainMast NORT
+DEFNAME=iOrcshipmainmastNort35
+TYPE=tNormal
+
+[ITEMDEF 079d1]
+// OrcShipMainMast NORT
+DEFNAME=iOrcshipmainmastNort36
+TYPE=tNormal
+
+[ITEMDEF 079d2]
+// OrcShipMainMast NORT
+DEFNAME=iOrcshipmainmastNort37
+TYPE=tNormal
+
+[ITEMDEF 079d3]
+// OrcShipMainMast NORT
+DEFNAME=iOrcshipmainmastNort38
+TYPE=tNormal
+
+[ITEMDEF 079d4]
+// OrcShipMainMast NORT
+DEFNAME=iOrcshipmainmastNort39
+TYPE=tNormal
+
+[ITEMDEF 079d5]
+// OrcShipMainMast NORT
+DEFNAME=iOrcshipmainmastNort40
+TYPE=tNormal
+
+[ITEMDEF 079d6]
+// OrcShipMainMast NORT
+DEFNAME=iOrcshipmainmastNort41
+TYPE=tNormal
+
+[ITEMDEF 079d7]
+// OrcShipMainMast NORT
+DEFNAME=iOrcshipmainmastNort42
+TYPE=tNormal
+
+[ITEMDEF 079d8]
+// OrcShipMainMast NORT
+DEFNAME=iOrcshipmainmastNort43
+TYPE=tNormal
+
+[ITEMDEF 079d9]
+// OrcShipMainMast NORT
+DEFNAME=iOrcshipmainmastNort44
+TYPE=tNormal
+
+[ITEMDEF 07ba2]
+// OrcShipMainMast EAST
+DEFNAME=iOrcshipmainmastEast
+TYPE=tNormal
+
+[ITEMDEF 07ba3]
+// OrcShipMainMast EAST
+DEFNAME=iOrcshipmainmastEast2
+TYPE=tNormal
+
+[ITEMDEF 07ba4]
+// OrcShipMainMast EAST
+DEFNAME=iOrcshipmainmastEast3
+TYPE=tNormal
+
+[ITEMDEF 07ba5]
+// OrcShipMainMast EAST
+DEFNAME=iOrcshipmainmastEast4
+TYPE=tNormal
+
+[ITEMDEF 07ba6]
+// OrcShipMainMast EAST
+DEFNAME=iOrcshipmainmastEast5
+TYPE=tNormal
+
+[ITEMDEF 07ba7]
+// OrcShipMainMast EAST
+DEFNAME=iOrcshipmainmastEast6
+TYPE=tNormal
+
+[ITEMDEF 07ba8]
+// OrcShipMainMast EAST
+DEFNAME=iOrcshipmainmastEast7
+TYPE=tNormal
+
+[ITEMDEF 07ba9]
+// OrcShipMainMast EAST
+DEFNAME=iOrcshipmainmastEast8
+TYPE=tNormal
+
+[ITEMDEF 07baa]
+// OrcShipMainMast EAST
+DEFNAME=iOrcshipmainmastEast9
+TYPE=tNormal
+
+[ITEMDEF 07bab]
+// OrcShipMainMast EAST
+DEFNAME=iOrcshipmainmastEast10
+TYPE=tNormal
+
+[ITEMDEF 07bac]
+// OrcShipMainMast EAST
+DEFNAME=iOrcshipmainmastEast11
+TYPE=tNormal
+
+[ITEMDEF 07bad]
+// OrcShipMainMast EAST
+DEFNAME=iOrcshipmainmastEast12
+TYPE=tNormal
+
+[ITEMDEF 07bae]
+// OrcShipMainMast EAST
+DEFNAME=iOrcshipmainmastEast13
+TYPE=tNormal
+
+[ITEMDEF 07baf]
+// OrcShipMainMast EAST
+DEFNAME=iOrcshipmainmastEast14
+TYPE=tNormal
+
+[ITEMDEF 07bb0]
+// OrcShipMainMast EAST
+DEFNAME=iOrcshipmainmastEast15
+TYPE=tNormal
+
+[ITEMDEF 07bb1]
+// OrcShipMainMast EAST
+DEFNAME=iOrcshipmainmastEast16
+TYPE=tNormal
+
+[ITEMDEF 07bb2]
+// OrcShipMainMast EAST
+DEFNAME=iOrcshipmainmastEast17
+TYPE=tNormal
+
+[ITEMDEF 07bb3]
+// OrcShipMainMast EAST
+DEFNAME=iOrcshipmainmastEast18
+TYPE=tNormal
+
+[ITEMDEF 07bb4]
+// OrcShipMainMast EAST
+DEFNAME=iOrcshipmainmastEast19
+TYPE=tNormal
+
+[ITEMDEF 07bb5]
+// OrcShipMainMast EAST
+DEFNAME=iOrcshipmainmastEast20
+TYPE=tNormal
+
+[ITEMDEF 07bb6]
+// OrcShipMainMast EAST
+DEFNAME=iOrcshipmainmastEast21
+TYPE=tNormal
+
+[ITEMDEF 07bb7]
+// OrcShipMainMast EAST
+DEFNAME=iOrcshipmainmastEast22
+TYPE=tNormal
+
+[ITEMDEF 07bb8]
+// OrcShipMainMast EAST
+DEFNAME=iOrcshipmainmastEast23
+TYPE=tNormal
+
+[ITEMDEF 07bb9]
+// OrcShipMainMast EAST
+DEFNAME=iOrcshipmainmastEast24
+TYPE=tNormal
+
+[ITEMDEF 07bba]
+// OrcShipMainMast EAST
+DEFNAME=iOrcshipmainmastEast25
+TYPE=tNormal
+
+[ITEMDEF 07bbb]
+// OrcShipMainMast EAST
+DEFNAME=iOrcshipmainmastEast26
+TYPE=tNormal
+
+[ITEMDEF 07bbc]
+// OrcShipMainMast EAST
+DEFNAME=iOrcshipmainmastEast27
+TYPE=tNormal
+
+[ITEMDEF 07bbd]
+// OrcShipMainMast EAST
+DEFNAME=iOrcshipmainmastEast28
+TYPE=tNormal
+
+[ITEMDEF 07bbe]
+// OrcShipMainMast EAST
+DEFNAME=iOrcshipmainmastEast29
+TYPE=tNormal
+
+[ITEMDEF 07bbf]
+// OrcShipMainMast EAST
+DEFNAME=iOrcshipmainmastEast30
+TYPE=tNormal
+
+[ITEMDEF 07bc0]
+// OrcShipMainMast EAST
+DEFNAME=iOrcshipmainmastEast31
+TYPE=tNormal
+
+[ITEMDEF 07bc1]
+// OrcShipMainMast EAST
+DEFNAME=iOrcshipmainmastEast32
+TYPE=tNormal
+
+[ITEMDEF 07bc2]
+// OrcShipMainMast EAST
+DEFNAME=iOrcshipmainmastEast33
+TYPE=tNormal
+
+[ITEMDEF 07bc3]
+// OrcShipMainMast EAST
+DEFNAME=iOrcshipmainmastEast34
+TYPE=tNormal
+
+[ITEMDEF 07bc4]
+// OrcShipMainMast EAST
+DEFNAME=iOrcshipmainmastEast35
+TYPE=tNormal
+
+[ITEMDEF 07bc5]
+// OrcShipMainMast EAST
+DEFNAME=iOrcshipmainmastEast36
+TYPE=tNormal
+
+[ITEMDEF 07bc6]
+// OrcShipMainMast EAST
+DEFNAME=iOrcshipmainmastEast37
+TYPE=tNormal
+
+[ITEMDEF 07bc7]
+// OrcShipMainMast EAST
+DEFNAME=iOrcshipmainmastEast38
+TYPE=tNormal
+
+[ITEMDEF 07bc8]
+// OrcShipMainMast EAST
+DEFNAME=iOrcshipmainmastEast39
+TYPE=tNormal
+
+[ITEMDEF 07bc9]
+// OrcShipMainMast EAST
+DEFNAME=iOrcshipmainmastEast40
+TYPE=tNormal
+
+[ITEMDEF 07bca]
+// OrcShipMainMast EAST
+DEFNAME=iOrcshipmainmastEast41
+TYPE=tNormal
+
+[ITEMDEF 07bcb]
+// OrcShipMainMast EAST
+DEFNAME=iOrcshipmainmastEast42
+TYPE=tNormal
+
+[ITEMDEF 07bcc]
+// OrcShipMainMast EAST
+DEFNAME=iOrcshipmainmastEast43
+TYPE=tNormal
+
+[ITEMDEF 07bcd]
+// OrcShipMainMast EAST
+DEFNAME=iOrcshipmainmastEast44
+TYPE=tNormal
+
+[ITEMDEF 07c60]
+// OrcShip Mast D1 SOUT
+DEFNAME=iOrcshipMastDSout
+TYPE=tNormal
+
+[ITEMDEF 07c61]
+// OrcShip Mast D1 SOUT
+DEFNAME=iOrcshipMastDSout2
+TYPE=tNormal
+
+[ITEMDEF 07c62]
+// OrcShip Mast D1 SOUT
+DEFNAME=iOrcshipMastDSout3
+TYPE=tNormal
+
+[ITEMDEF 07c63]
+// OrcShip Mast D1 SOUT
+DEFNAME=iOrcshipMastDSout4
+TYPE=tNormal
+
+[ITEMDEF 07c64]
+// OrcShip Mast D1 SOUT
+DEFNAME=iOrcshipMastDSout5
+TYPE=tNormal
+
+[ITEMDEF 07c65]
+// OrcShip Mast D1 SOUT
+DEFNAME=iOrcshipMastDSout6
+TYPE=tNormal
+
+[ITEMDEF 07c66]
+// OrcShip Mast D1 SOUT
+DEFNAME=iOrcshipMastDSout7
+TYPE=tNormal
+
+[ITEMDEF 07c67]
+// OrcShip Mast D1 SOUT
+DEFNAME=iOrcshipMastDSout8
+TYPE=tNormal
+
+[ITEMDEF 07c68]
+// OrcShip Mast D1 SOUT
+DEFNAME=iOrcshipMastDSout9
+TYPE=tNormal
+
+[ITEMDEF 07c69]
+// OrcShip Mast D1 SOUT
+DEFNAME=iOrcshipMastDSout10
+TYPE=tNormal
+
+[ITEMDEF 07c6a]
+// OrcShip Mast D1 SOUT
+DEFNAME=iOrcshipMastDSout11
+TYPE=tNormal
+
+[ITEMDEF 07c6b]
+// OrcShip Mast D1 SOUT
+DEFNAME=iOrcshipMastDSout12
+TYPE=tNormal
+
+[ITEMDEF 07c6c]
+// OrcShip Mast D1 SOUT
+DEFNAME=iOrcshipMastDSout13
+TYPE=tNormal
+
+[ITEMDEF 07c6d]
+// OrcShip Mast D1 SOUT
+DEFNAME=iOrcshipMastDSout14
+TYPE=tNormal
+
+[ITEMDEF 07c6e]
+// OrcShip Mast D1 SOUT
+DEFNAME=iOrcshipMastDSout15
+TYPE=tNormal
+
+[ITEMDEF 07c6f]
+// OrcShip Mast D1 SOUT
+DEFNAME=iOrcshipMastDSout16
+TYPE=tNormal
+
+[ITEMDEF 07c70]
+// OrcShip Mast D1 SOUT
+DEFNAME=iOrcshipMastDSout17
+TYPE=tNormal
+
+[ITEMDEF 07c71]
+// OrcShip Mast D1 SOUT
+DEFNAME=iOrcshipMastDSout18
+TYPE=tNormal
+
+[ITEMDEF 07c72]
+// OrcShip Mast D1 SOUT
+DEFNAME=iOrcshipMastDSout19
+TYPE=tNormal
+
+[ITEMDEF 07c73]
+// OrcShip Mast D1 SOUT
+DEFNAME=iOrcshipMastDSout20
+TYPE=tNormal
+
+[ITEMDEF 07c74]
+// OrcShip Mast D1 SOUT
+DEFNAME=iOrcshipMastDSout21
+TYPE=tNormal
+
+[ITEMDEF 07c75]
+// OrcShip Mast D1 SOUT
+DEFNAME=iOrcshipMastDSout22
+TYPE=tNormal
+
+[ITEMDEF 07c76]
+// OrcShip Mast D1 SOUT
+DEFNAME=iOrcshipMastDSout23
+TYPE=tNormal
+
+[ITEMDEF 07c77]
+// OrcShip Mast D1 SOUT
+DEFNAME=iOrcshipMastDSout24
+TYPE=tNormal
+
+[ITEMDEF 07c78]
+// OrcShip Mast D1 SOUT
+DEFNAME=iOrcshipMastDSout25
+TYPE=tNormal
+
+[ITEMDEF 07c79]
+// OrcShip Mast D1 SOUT
+DEFNAME=iOrcshipMastDSout26
+TYPE=tNormal
+
+[ITEMDEF 07c7a]
+// OrcShip Mast D1 SOUT
+DEFNAME=iOrcshipMastDSout27
+TYPE=tNormal
+
+[ITEMDEF 07c7b]
+// OrcShip Mast D1 SOUT
+DEFNAME=iOrcshipMastDSout28
+TYPE=tNormal
+
+[ITEMDEF 07c7c]
+// OrcShip Mast D1 SOUT
+DEFNAME=iOrcshipMastDSout29
+TYPE=tNormal
+
+[ITEMDEF 07c7d]
+// OrcShip Mast D1 SOUT
+DEFNAME=iOrcshipMastDSout30
+TYPE=tNormal
+
+[ITEMDEF 07c7e]
+// OrcShip Mast D1 SOUT
+DEFNAME=iOrcshipMastDSout31
+TYPE=tNormal
+
+[ITEMDEF 07c7f]
+// OrcShip Mast D1 SOUT
+DEFNAME=iOrcshipMastDSout32
+TYPE=tNormal
+
+[ITEMDEF 07c80]
+// OrcShip Mast D1 SOUT
+DEFNAME=iOrcshipMastDSout33
+TYPE=tNormal
+
+[ITEMDEF 07c81]
+// OrcShip Mast D1 SOUT
+DEFNAME=iOrcshipMastDSout34
+TYPE=tNormal
+
+[ITEMDEF 07c82]
+// OrcShip Mast D1 SOUT
+DEFNAME=iOrcshipMastDSout35
+TYPE=tNormal
+
+[ITEMDEF 07c83]
+// OrcShip Mast D1 SOUT
+DEFNAME=iOrcshipMastDSout36
+TYPE=tNormal
+
+[ITEMDEF 07c84]
+// OrcShip Mast D1 SOUT
+DEFNAME=iOrcshipMastDSout37
+TYPE=tNormal
+
+[ITEMDEF 07c85]
+// OrcShip Mast D1 SOUT
+DEFNAME=iOrcshipMastDSout38
+TYPE=tNormal
+
+[ITEMDEF 07c86]
+// OrcShip Mast D1 SOUT
+DEFNAME=iOrcshipMastDSout39
+TYPE=tNormal
+
+[ITEMDEF 07c87]
+// OrcShip Mast D1 SOUT
+DEFNAME=iOrcshipMastDSout40
+TYPE=tNormal
+
+[ITEMDEF 07c88]
+// OrcShip Mast D1 SOUT
+DEFNAME=iOrcshipMastDSout41
+TYPE=tNormal
+
+[ITEMDEF 07c89]
+// OrcShip Mast D1 SOUT
+DEFNAME=iOrcshipMastDSout42
+TYPE=tNormal
+
+[ITEMDEF 07c8a]
+// OrcShip Mast D1 SOUT
+DEFNAME=iOrcshipMastDSout43
+TYPE=tNormal
+
+[ITEMDEF 07c8b]
+// OrcShip Mast D1 SOUT
+DEFNAME=iOrcshipMastDSout44
+TYPE=tNormal
+
+[ITEMDEF 07d28]
+// OrcShip Mast D1 WEST
+DEFNAME=iOrcshipMastDWest
+TYPE=tNormal
+
+[ITEMDEF 07d29]
+// OrcShip Mast D1 WEST
+DEFNAME=iOrcshipMastDWest2
+TYPE=tNormal
+
+[ITEMDEF 07d2a]
+// OrcShip Mast D1 WEST
+DEFNAME=iOrcshipMastDWest3
+TYPE=tNormal
+
+[ITEMDEF 07d2b]
+// OrcShip Mast D1 WEST
+DEFNAME=iOrcshipMastDWest4
+TYPE=tNormal
+
+[ITEMDEF 07d2c]
+// OrcShip Mast D1 WEST
+DEFNAME=iOrcshipMastDWest5
+TYPE=tNormal
+
+[ITEMDEF 07d2d]
+// OrcShip Mast D1 WEST
+DEFNAME=iOrcshipMastDWest6
+TYPE=tNormal
+
+[ITEMDEF 07d2e]
+// OrcShip Mast D1 WEST
+DEFNAME=iOrcshipMastDWest7
+TYPE=tNormal
+
+[ITEMDEF 07d2f]
+// OrcShip Mast D1 WEST
+DEFNAME=iOrcshipMastDWest8
+TYPE=tNormal
+
+[ITEMDEF 07d30]
+// OrcShip Mast D1 WEST
+DEFNAME=iOrcshipMastDWest9
+TYPE=tNormal
+
+[ITEMDEF 07d31]
+// OrcShip Mast D1 WEST
+DEFNAME=iOrcshipMastDWest10
+TYPE=tNormal
+
+[ITEMDEF 07d32]
+// OrcShip Mast D1 WEST
+DEFNAME=iOrcshipMastDWest11
+TYPE=tNormal
+
+[ITEMDEF 07d33]
+// OrcShip Mast D1 WEST
+DEFNAME=iOrcshipMastDWest12
+TYPE=tNormal
+
+[ITEMDEF 07d34]
+// OrcShip Mast D1 WEST
+DEFNAME=iOrcshipMastDWest13
+TYPE=tNormal
+
+[ITEMDEF 07d35]
+// OrcShip Mast D1 WEST
+DEFNAME=iOrcshipMastDWest14
+TYPE=tNormal
+
+[ITEMDEF 07d36]
+// OrcShip Mast D1 WEST
+DEFNAME=iOrcshipMastDWest15
+TYPE=tNormal
+
+[ITEMDEF 07d37]
+// OrcShip Mast D1 WEST
+DEFNAME=iOrcshipMastDWest16
+TYPE=tNormal
+
+[ITEMDEF 07d38]
+// OrcShip Mast D1 WEST
+DEFNAME=iOrcshipMastDWest17
+TYPE=tNormal
+
+[ITEMDEF 07d39]
+// OrcShip Mast D1 WEST
+DEFNAME=iOrcshipMastDWest18
+TYPE=tNormal
+
+[ITEMDEF 07d3a]
+// OrcShip Mast D1 WEST
+DEFNAME=iOrcshipMastDWest19
+TYPE=tNormal
+
+[ITEMDEF 07d3b]
+// OrcShip Mast D1 WEST
+DEFNAME=iOrcshipMastDWest20
+TYPE=tNormal
+
+[ITEMDEF 07d3c]
+// OrcShip Mast D1 WEST
+DEFNAME=iOrcshipMastDWest21
+TYPE=tNormal
+
+[ITEMDEF 07d3d]
+// OrcShip Mast D1 WEST
+DEFNAME=iOrcshipMastDWest22
+TYPE=tNormal
+
+[ITEMDEF 07d3e]
+// OrcShip Mast D1 WEST
+DEFNAME=iOrcshipMastDWest23
+TYPE=tNormal
+
+[ITEMDEF 07d3f]
+// OrcShip Mast D1 WEST
+DEFNAME=iOrcshipMastDWest24
+TYPE=tNormal
+
+[ITEMDEF 07d40]
+// OrcShip Mast D1 WEST
+DEFNAME=iOrcshipMastDWest25
+TYPE=tNormal
+
+[ITEMDEF 07d41]
+// OrcShip Mast D1 WEST
+DEFNAME=iOrcshipMastDWest26
+TYPE=tNormal
+
+[ITEMDEF 07d42]
+// OrcShip Mast D1 WEST
+DEFNAME=iOrcshipMastDWest27
+TYPE=tNormal
+
+[ITEMDEF 07d43]
+// OrcShip Mast D1 WEST
+DEFNAME=iOrcshipMastDWest28
+TYPE=tNormal
+
+[ITEMDEF 07d44]
+// OrcShip Mast D1 WEST
+DEFNAME=iOrcshipMastDWest29
+TYPE=tNormal
+
+[ITEMDEF 07d45]
+// OrcShip Mast D1 WEST
+DEFNAME=iOrcshipMastDWest30
+TYPE=tNormal
+
+[ITEMDEF 07d46]
+// OrcShip Mast D1 WEST
+DEFNAME=iOrcshipMastDWest31
+TYPE=tNormal
+
+[ITEMDEF 07d47]
+// OrcShip Mast D1 WEST
+DEFNAME=iOrcshipMastDWest32
+TYPE=tNormal
+
+[ITEMDEF 07d48]
+// OrcShip Mast D1 WEST
+DEFNAME=iOrcshipMastDWest33
+TYPE=tNormal
+
+[ITEMDEF 07d49]
+// OrcShip Mast D1 WEST
+DEFNAME=iOrcshipMastDWest34
+TYPE=tNormal
+
+[ITEMDEF 07d4a]
+// OrcShip Mast D1 WEST
+DEFNAME=iOrcshipMastDWest35
+TYPE=tNormal
+
+[ITEMDEF 07d4b]
+// OrcShip Mast D1 WEST
+DEFNAME=iOrcshipMastDWest36
+TYPE=tNormal
+
+[ITEMDEF 07d4c]
+// OrcShip Mast D1 WEST
+DEFNAME=iOrcshipMastDWest37
+TYPE=tNormal
+
+[ITEMDEF 07d4d]
+// OrcShip Mast D1 WEST
+DEFNAME=iOrcshipMastDWest38
+TYPE=tNormal
+
+[ITEMDEF 07d4e]
+// OrcShip Mast D1 WEST
+DEFNAME=iOrcshipMastDWest39
+TYPE=tNormal
+
+[ITEMDEF 07d4f]
+// OrcShip Mast D1 WEST
+DEFNAME=iOrcshipMastDWest40
+TYPE=tNormal
+
+[ITEMDEF 07d50]
+// OrcShip Mast D1 WEST
+DEFNAME=iOrcshipMastDWest41
+TYPE=tNormal
+
+[ITEMDEF 07d51]
+// OrcShip Mast D1 WEST
+DEFNAME=iOrcshipMastDWest42
+TYPE=tNormal
+
+[ITEMDEF 07d52]
+// OrcShip Mast D1 WEST
+DEFNAME=iOrcshipMastDWest43
+TYPE=tNormal
+
+[ITEMDEF 07d53]
+// OrcShip Mast D1 WEST
+DEFNAME=iOrcshipMastDWest44
+TYPE=tNormal
+
+[ITEMDEF 07df0]
+// OrcShip Mast D1 NORT
+DEFNAME=iOrcshipMastDNort
+TYPE=tNormal
+
+[ITEMDEF 07df1]
+// OrcShip Mast D1 NORT
+DEFNAME=iOrcshipMastDNort2
+TYPE=tNormal
+
+[ITEMDEF 07df2]
+// OrcShip Mast D1 NORT
+DEFNAME=iOrcshipMastDNort3
+TYPE=tNormal
+
+[ITEMDEF 07df3]
+// OrcShip Mast D1 NORT
+DEFNAME=iOrcshipMastDNort4
+TYPE=tNormal
+
+[ITEMDEF 07df4]
+// OrcShip Mast D1 NORT
+DEFNAME=iOrcshipMastDNort5
+TYPE=tNormal
+
+[ITEMDEF 07df5]
+// OrcShip Mast D1 NORT
+DEFNAME=iOrcshipMastDNort6
+TYPE=tNormal
+
+[ITEMDEF 07df6]
+// OrcShip Mast D1 NORT
+DEFNAME=iOrcshipMastDNort7
+TYPE=tNormal
+
+[ITEMDEF 07df7]
+// OrcShip Mast D1 NORT
+DEFNAME=iOrcshipMastDNort8
+TYPE=tNormal
+
+[ITEMDEF 07df8]
+// OrcShip Mast D1 NORT
+DEFNAME=iOrcshipMastDNort9
+TYPE=tNormal
+
+[ITEMDEF 07df9]
+// OrcShip Mast D1 NORT
+DEFNAME=iOrcshipMastDNort10
+TYPE=tNormal
+
+[ITEMDEF 07dfa]
+// OrcShip Mast D1 NORT
+DEFNAME=iOrcshipMastDNort11
+TYPE=tNormal
+
+[ITEMDEF 07dfb]
+// OrcShip Mast D1 NORT
+DEFNAME=iOrcshipMastDNort12
+TYPE=tNormal
+
+[ITEMDEF 07dfc]
+// OrcShip Mast D1 NORT
+DEFNAME=iOrcshipMastDNort13
+TYPE=tNormal
+
+[ITEMDEF 07dfd]
+// OrcShip Mast D1 NORT
+DEFNAME=iOrcshipMastDNort14
+TYPE=tNormal
+
+[ITEMDEF 07dfe]
+// OrcShip Mast D1 NORT
+DEFNAME=iOrcshipMastDNort15
+TYPE=tNormal
+
+[ITEMDEF 07dff]
+// OrcShip Mast D1 NORT
+DEFNAME=iOrcshipMastDNort16
+TYPE=tNormal
+
+[ITEMDEF 07e00]
+// OrcShip Mast D1 NORT
+DEFNAME=iOrcshipMastDNort17
+TYPE=tNormal
+
+[ITEMDEF 07e01]
+// OrcShip Mast D1 NORT
+DEFNAME=iOrcshipMastDNort18
+TYPE=tNormal
+
+[ITEMDEF 07e02]
+// OrcShip Mast D1 NORT
+DEFNAME=iOrcshipMastDNort19
+TYPE=tNormal
+
+[ITEMDEF 07e03]
+// OrcShip Mast D1 NORT
+DEFNAME=iOrcshipMastDNort20
+TYPE=tNormal
+
+[ITEMDEF 07e04]
+// OrcShip Mast D1 NORT
+DEFNAME=iOrcshipMastDNort21
+TYPE=tNormal
+
+[ITEMDEF 07e05]
+// OrcShip Mast D1 NORT
+DEFNAME=iOrcshipMastDNort22
+TYPE=tNormal
+
+[ITEMDEF 07e06]
+// OrcShip Mast D1 NORT
+DEFNAME=iOrcshipMastDNort23
+TYPE=tNormal
+
+[ITEMDEF 07e07]
+// OrcShip Mast D1 NORT
+DEFNAME=iOrcshipMastDNort24
+TYPE=tNormal
+
+[ITEMDEF 07e08]
+// OrcShip Mast D1 NORT
+DEFNAME=iOrcshipMastDNort25
+TYPE=tNormal
+
+[ITEMDEF 07e09]
+// OrcShip Mast D1 NORT
+DEFNAME=iOrcshipMastDNort26
+TYPE=tNormal
+
+[ITEMDEF 07e0a]
+// OrcShip Mast D1 NORT
+DEFNAME=iOrcshipMastDNort27
+TYPE=tNormal
+
+[ITEMDEF 07e0b]
+// OrcShip Mast D1 NORT
+DEFNAME=iOrcshipMastDNort28
+TYPE=tNormal
+
+[ITEMDEF 07e0c]
+// OrcShip Mast D1 NORT
+DEFNAME=iOrcshipMastDNort29
+TYPE=tNormal
+
+[ITEMDEF 07e0d]
+// OrcShip Mast D1 NORT
+DEFNAME=iOrcshipMastDNort30
+TYPE=tNormal
+
+[ITEMDEF 07e0e]
+// OrcShip Mast D1 NORT
+DEFNAME=iOrcshipMastDNort31
+TYPE=tNormal
+
+[ITEMDEF 07e0f]
+// OrcShip Mast D1 NORT
+DEFNAME=iOrcshipMastDNort32
+TYPE=tNormal
+
+[ITEMDEF 07e10]
+// OrcShip Mast D1 NORT
+DEFNAME=iOrcshipMastDNort33
+TYPE=tNormal
+
+[ITEMDEF 07e11]
+// OrcShip Mast D1 NORT
+DEFNAME=iOrcshipMastDNort34
+TYPE=tNormal
+
+[ITEMDEF 07e12]
+// OrcShip Mast D1 NORT
+DEFNAME=iOrcshipMastDNort35
+TYPE=tNormal
+
+[ITEMDEF 07e13]
+// OrcShip Mast D1 NORT
+DEFNAME=iOrcshipMastDNort36
+TYPE=tNormal
+
+[ITEMDEF 07e14]
+// OrcShip Mast D1 NORT
+DEFNAME=iOrcshipMastDNort37
+TYPE=tNormal
+
+[ITEMDEF 07e15]
+// OrcShip Mast D1 NORT
+DEFNAME=iOrcshipMastDNort38
+TYPE=tNormal
+
+[ITEMDEF 07e16]
+// OrcShip Mast D1 NORT
+DEFNAME=iOrcshipMastDNort39
+TYPE=tNormal
+
+[ITEMDEF 07e17]
+// OrcShip Mast D1 NORT
+DEFNAME=iOrcshipMastDNort40
+TYPE=tNormal
+
+[ITEMDEF 07e18]
+// OrcShip Mast D1 NORT
+DEFNAME=iOrcshipMastDNort41
+TYPE=tNormal
+
+[ITEMDEF 07e19]
+// OrcShip Mast D1 NORT
+DEFNAME=iOrcshipMastDNort42
+TYPE=tNormal
+
+[ITEMDEF 07e1a]
+// OrcShip Mast D1 NORT
+DEFNAME=iOrcshipMastDNort43
+TYPE=tNormal
+
+[ITEMDEF 07e1b]
+// OrcShip Mast D1 NORT
+DEFNAME=iOrcshipMastDNort44
+TYPE=tNormal
+
+[ITEMDEF 07eb8]
+// OrcShip Mast D1 EAST
+DEFNAME=iOrcshipMastDEast
+TYPE=tNormal
+
+[ITEMDEF 07eb9]
+// OrcShip Mast D1 EAST
+DEFNAME=iOrcshipMastDEast2
+TYPE=tNormal
+
+[ITEMDEF 07eba]
+// OrcShip Mast D1 EAST
+DEFNAME=iOrcshipMastDEast3
+TYPE=tNormal
+
+[ITEMDEF 07ebb]
+// OrcShip Mast D1 EAST
+DEFNAME=iOrcshipMastDEast4
+TYPE=tNormal
+
+[ITEMDEF 07ebc]
+// OrcShip Mast D1 EAST
+DEFNAME=iOrcshipMastDEast5
+TYPE=tNormal
+
+[ITEMDEF 07ebd]
+// OrcShip Mast D1 EAST
+DEFNAME=iOrcshipMastDEast6
+TYPE=tNormal
+
+[ITEMDEF 07ebe]
+// OrcShip Mast D1 EAST
+DEFNAME=iOrcshipMastDEast7
+TYPE=tNormal
+
+[ITEMDEF 07ebf]
+// OrcShip Mast D1 EAST
+DEFNAME=iOrcshipMastDEast8
+TYPE=tNormal
+
+[ITEMDEF 07ec0]
+// OrcShip Mast D1 EAST
+DEFNAME=iOrcshipMastDEast9
+TYPE=tNormal
+
+[ITEMDEF 07ec1]
+// OrcShip Mast D1 EAST
+DEFNAME=iOrcshipMastDEast10
+TYPE=tNormal
+
+[ITEMDEF 07ec2]
+// OrcShip Mast D1 EAST
+DEFNAME=iOrcshipMastDEast11
+TYPE=tNormal
+
+[ITEMDEF 07ec3]
+// OrcShip Mast D1 EAST
+DEFNAME=iOrcshipMastDEast12
+TYPE=tNormal
+
+[ITEMDEF 07ec4]
+// OrcShip Mast D1 EAST
+DEFNAME=iOrcshipMastDEast13
+TYPE=tNormal
+
+[ITEMDEF 07ec5]
+// OrcShip Mast D1 EAST
+DEFNAME=iOrcshipMastDEast14
+TYPE=tNormal
+
+[ITEMDEF 07ec6]
+// OrcShip Mast D1 EAST
+DEFNAME=iOrcshipMastDEast15
+TYPE=tNormal
+
+[ITEMDEF 07ec7]
+// OrcShip Mast D1 EAST
+DEFNAME=iOrcshipMastDEast16
+TYPE=tNormal
+
+[ITEMDEF 07ec8]
+// OrcShip Mast D1 EAST
+DEFNAME=iOrcshipMastDEast17
+TYPE=tNormal
+
+[ITEMDEF 07ec9]
+// OrcShip Mast D1 EAST
+DEFNAME=iOrcshipMastDEast18
+TYPE=tNormal
+
+[ITEMDEF 07eca]
+// OrcShip Mast D1 EAST
+DEFNAME=iOrcshipMastDEast19
+TYPE=tNormal
+
+[ITEMDEF 07ecb]
+// OrcShip Mast D1 EAST
+DEFNAME=iOrcshipMastDEast20
+TYPE=tNormal
+
+[ITEMDEF 07ecc]
+// OrcShip Mast D1 EAST
+DEFNAME=iOrcshipMastDEast21
+TYPE=tNormal
+
+[ITEMDEF 07ecd]
+// OrcShip Mast D1 EAST
+DEFNAME=iOrcshipMastDEast22
+TYPE=tNormal
+
+[ITEMDEF 07ece]
+// OrcShip Mast D1 EAST
+DEFNAME=iOrcshipMastDEast23
+TYPE=tNormal
+
+[ITEMDEF 07ecf]
+// OrcShip Mast D1 EAST
+DEFNAME=iOrcshipMastDEast24
+TYPE=tNormal
+
+[ITEMDEF 07ed0]
+// OrcShip Mast D1 EAST
+DEFNAME=iOrcshipMastDEast25
+TYPE=tNormal
+
+[ITEMDEF 07ed1]
+// OrcShip Mast D1 EAST
+DEFNAME=iOrcshipMastDEast26
+TYPE=tNormal
+
+[ITEMDEF 07ed2]
+// OrcShip Mast D1 EAST
+DEFNAME=iOrcshipMastDEast27
+TYPE=tNormal
+
+[ITEMDEF 07ed3]
+// OrcShip Mast D1 EAST
+DEFNAME=iOrcshipMastDEast28
+TYPE=tNormal
+
+[ITEMDEF 07ed4]
+// OrcShip Mast D1 EAST
+DEFNAME=iOrcshipMastDEast29
+TYPE=tNormal
+
+[ITEMDEF 07ed5]
+// OrcShip Mast D1 EAST
+DEFNAME=iOrcshipMastDEast30
+TYPE=tNormal
+
+[ITEMDEF 07ed6]
+// OrcShip Mast D1 EAST
+DEFNAME=iOrcshipMastDEast31
+TYPE=tNormal
+
+[ITEMDEF 07ed7]
+// OrcShip Mast D1 EAST
+DEFNAME=iOrcshipMastDEast32
+TYPE=tNormal
+
+[ITEMDEF 07ed8]
+// OrcShip Mast D1 EAST
+DEFNAME=iOrcshipMastDEast33
+TYPE=tNormal
+
+[ITEMDEF 07ed9]
+// OrcShip Mast D1 EAST
+DEFNAME=iOrcshipMastDEast34
+TYPE=tNormal
+
+[ITEMDEF 07eda]
+// OrcShip Mast D1 EAST
+DEFNAME=iOrcshipMastDEast35
+TYPE=tNormal
+
+[ITEMDEF 07edb]
+// OrcShip Mast D1 EAST
+DEFNAME=iOrcshipMastDEast36
+TYPE=tNormal
+
+[ITEMDEF 07edc]
+// OrcShip Mast D1 EAST
+DEFNAME=iOrcshipMastDEast37
+TYPE=tNormal
+
+[ITEMDEF 07edd]
+// OrcShip Mast D1 EAST
+DEFNAME=iOrcshipMastDEast38
+TYPE=tNormal
+
+[ITEMDEF 07ede]
+// OrcShip Mast D1 EAST
+DEFNAME=iOrcshipMastDEast39
+TYPE=tNormal
+
+[ITEMDEF 07edf]
+// OrcShip Mast D1 EAST
+DEFNAME=iOrcshipMastDEast40
+TYPE=tNormal
+
+[ITEMDEF 07ee0]
+// OrcShip Mast D1 EAST
+DEFNAME=iOrcshipMastDEast41
+TYPE=tNormal
+
+[ITEMDEF 07ee1]
+// OrcShip Mast D1 EAST
+DEFNAME=iOrcshipMastDEast42
+TYPE=tNormal
+
+[ITEMDEF 07ee2]
+// OrcShip Mast D1 EAST
+DEFNAME=iOrcshipMastDEast43
+TYPE=tNormal
+
+[ITEMDEF 07ee3]
+// OrcShip Mast D1 EAST
+DEFNAME=iOrcshipMastDEast44
+TYPE=tNormal
+
+[ITEMDEF 07f80]
+// OrcShip Mast D2 SOUT
+DEFNAME=iOrcshipMastDSout45
+TYPE=tNormal
+
+[ITEMDEF 07f81]
+// OrcShip Mast D2 SOUT
+DEFNAME=iOrcshipMastDSout46
+TYPE=tNormal
+
+[ITEMDEF 07f82]
+// OrcShip Mast D2 SOUT
+DEFNAME=iOrcshipMastDSout47
+TYPE=tNormal
+
+[ITEMDEF 07f83]
+// OrcShip Mast D2 SOUT
+DEFNAME=iOrcshipMastDSout48
+TYPE=tNormal
+
+[ITEMDEF 07f84]
+// OrcShip Mast D2 SOUT
+DEFNAME=iOrcshipMastDSout49
+TYPE=tNormal
+
+[ITEMDEF 07f85]
+// OrcShip Mast D2 SOUT
+DEFNAME=iOrcshipMastDSout50
+TYPE=tNormal
+
+[ITEMDEF 07f86]
+// OrcShip Mast D2 SOUT
+DEFNAME=iOrcshipMastDSout51
+TYPE=tNormal
+
+[ITEMDEF 07f87]
+// OrcShip Mast D2 SOUT
+DEFNAME=iOrcshipMastDSout52
+TYPE=tNormal
+
+[ITEMDEF 07f88]
+// OrcShip Mast D2 SOUT
+DEFNAME=iOrcshipMastDSout53
+TYPE=tNormal
+
+[ITEMDEF 07f89]
+// OrcShip Mast D2 SOUT
+DEFNAME=iOrcshipMastDSout54
+TYPE=tNormal
+
+[ITEMDEF 07f8a]
+// OrcShip Mast D2 SOUT
+DEFNAME=iOrcshipMastDSout55
+TYPE=tNormal
+
+[ITEMDEF 07f8b]
+// OrcShip Mast D2 SOUT
+DEFNAME=iOrcshipMastDSout56
+TYPE=tNormal
+
+[ITEMDEF 07f8c]
+// OrcShip Mast D2 SOUT
+DEFNAME=iOrcshipMastDSout57
+TYPE=tNormal
+
+[ITEMDEF 07f8d]
+// OrcShip Mast D2 SOUT
+DEFNAME=iOrcshipMastDSout58
+TYPE=tNormal
+
+[ITEMDEF 07f8e]
+// OrcShip Mast D2 SOUT
+DEFNAME=iOrcshipMastDSout59
+TYPE=tNormal
+
+[ITEMDEF 07f8f]
+// OrcShip Mast D2 SOUT
+DEFNAME=iOrcshipMastDSout60
+TYPE=tNormal
+
+[ITEMDEF 07f90]
+// OrcShip Mast D2 SOUT
+DEFNAME=iOrcshipMastDSout61
+TYPE=tNormal
+
+[ITEMDEF 07f91]
+// OrcShip Mast D2 SOUT
+DEFNAME=iOrcshipMastDSout62
+TYPE=tNormal
+
+[ITEMDEF 07f92]
+// OrcShip Mast D2 SOUT
+DEFNAME=iOrcshipMastDSout63
+TYPE=tNormal
+
+[ITEMDEF 07f93]
+// OrcShip Mast D2 SOUT
+DEFNAME=iOrcshipMastDSout64
+TYPE=tNormal
+
+[ITEMDEF 07f94]
+// OrcShip Mast D2 SOUT
+DEFNAME=iOrcshipMastDSout65
+TYPE=tNormal
+
+[ITEMDEF 07f95]
+// OrcShip Mast D2 SOUT
+DEFNAME=iOrcshipMastDSout66
+TYPE=tNormal
+
+[ITEMDEF 07f96]
+// OrcShip Mast D2 SOUT
+DEFNAME=iOrcshipMastDSout67
+TYPE=tNormal
+
+[ITEMDEF 07f97]
+// OrcShip Mast D2 SOUT
+DEFNAME=iOrcshipMastDSout68
+TYPE=tNormal
+
+[ITEMDEF 07f98]
+// OrcShip Mast D2 SOUT
+DEFNAME=iOrcshipMastDSout69
+TYPE=tNormal
+
+[ITEMDEF 07f99]
+// OrcShip Mast D2 SOUT
+DEFNAME=iOrcshipMastDSout70
+TYPE=tNormal
+
+[ITEMDEF 07f9a]
+// OrcShip Mast D2 SOUT
+DEFNAME=iOrcshipMastDSout71
+TYPE=tNormal
+
+[ITEMDEF 07f9b]
+// OrcShip Mast D2 SOUT
+DEFNAME=iOrcshipMastDSout72
+TYPE=tNormal
+
+[ITEMDEF 07f9c]
+// OrcShip Mast D2 SOUT
+DEFNAME=iOrcshipMastDSout73
+TYPE=tNormal
+
+[ITEMDEF 07f9d]
+// OrcShip Mast D2 SOUT
+DEFNAME=iOrcshipMastDSout74
+TYPE=tNormal
+
+[ITEMDEF 07f9e]
+// OrcShip Mast D2 SOUT
+DEFNAME=iOrcshipMastDSout75
+TYPE=tNormal
+
+[ITEMDEF 07f9f]
+// OrcShip Mast D2 SOUT
+DEFNAME=iOrcshipMastDSout76
+TYPE=tNormal
+
+[ITEMDEF 07fa0]
+// OrcShip Mast D2 SOUT
+DEFNAME=iOrcshipMastDSout77
+TYPE=tNormal
+
+[ITEMDEF 07fa1]
+// OrcShip Mast D2 SOUT
+DEFNAME=iOrcshipMastDSout78
+TYPE=tNormal
+
+[ITEMDEF 07fa2]
+// OrcShip Mast D2 SOUT
+DEFNAME=iOrcshipMastDSout79
+TYPE=tNormal
+
+[ITEMDEF 07fa3]
+// OrcShip Mast D2 SOUT
+DEFNAME=iOrcshipMastDSout80
+TYPE=tNormal
+
+[ITEMDEF 07fa4]
+// OrcShip Mast D2 SOUT
+DEFNAME=iOrcshipMastDSout81
+TYPE=tNormal
+
+[ITEMDEF 07fa5]
+// OrcShip Mast D2 SOUT
+DEFNAME=iOrcshipMastDSout82
+TYPE=tNormal
+
+[ITEMDEF 07fa6]
+// OrcShip Mast D2 SOUT
+DEFNAME=iOrcshipMastDSout83
+TYPE=tNormal
+
+[ITEMDEF 07fa7]
+// OrcShip Mast D2 SOUT
+DEFNAME=iOrcshipMastDSout84
+TYPE=tNormal
+
+[ITEMDEF 07fa8]
+// OrcShip Mast D2 SOUT
+DEFNAME=iOrcshipMastDSout85
+TYPE=tNormal
+
+[ITEMDEF 07fa9]
+// OrcShip Mast D2 SOUT
+DEFNAME=iOrcshipMastDSout86
+TYPE=tNormal
+
+[ITEMDEF 07faa]
+// OrcShip Mast D2 SOUT
+DEFNAME=iOrcshipMastDSout87
+TYPE=tNormal
+
+[ITEMDEF 07fab]
+// OrcShip Mast D2 SOUT
+DEFNAME=iOrcshipMastDSout88
+TYPE=tNormal
+
+[ITEMDEF 08048]
+// OrcShipMainMast D2 W
+DEFNAME=iOrcshipmainmastDW
+TYPE=tNormal
+
+[ITEMDEF 08049]
+// OrcShipMainMast D2 W
+DEFNAME=iOrcshipmainmastDW2
+TYPE=tNormal
+
+[ITEMDEF 0804a]
+// OrcShipMainMast D2 W
+DEFNAME=iOrcshipmainmastDW3
+TYPE=tNormal
+
+[ITEMDEF 0804b]
+// OrcShipMainMast D2 W
+DEFNAME=iOrcshipmainmastDW4
+TYPE=tNormal
+
+[ITEMDEF 0804c]
+// OrcShipMainMast D2 W
+DEFNAME=iOrcshipmainmastDW5
+TYPE=tNormal
+
+[ITEMDEF 0804d]
+// OrcShipMainMast D2 W
+DEFNAME=iOrcshipmainmastDW6
+TYPE=tNormal
+
+[ITEMDEF 0804e]
+// OrcShipMainMast D2 W
+DEFNAME=iOrcshipmainmastDW7
+TYPE=tNormal
+
+[ITEMDEF 0804f]
+// OrcShipMainMast D2 W
+DEFNAME=iOrcshipmainmastDW8
+TYPE=tNormal
+
+[ITEMDEF 08050]
+// OrcShipMainMast D2 W
+DEFNAME=iOrcshipmainmastDW9
+TYPE=tNormal
+
+[ITEMDEF 08051]
+// OrcShipMainMast D2 W
+DEFNAME=iOrcshipmainmastDW10
+TYPE=tNormal
+
+[ITEMDEF 08052]
+// OrcShipMainMast D2 W
+DEFNAME=iOrcshipmainmastDW11
+TYPE=tNormal
+
+[ITEMDEF 08053]
+// OrcShipMainMast D2 W
+DEFNAME=iOrcshipmainmastDW12
+TYPE=tNormal
+
+[ITEMDEF 08054]
+// OrcShipMainMast D2 W
+DEFNAME=iOrcshipmainmastDW13
+TYPE=tNormal
+
+[ITEMDEF 08055]
+// OrcShipMainMast D2 W
+DEFNAME=iOrcshipmainmastDW14
+TYPE=tNormal
+
+[ITEMDEF 08056]
+// OrcShipMainMast D2 W
+DEFNAME=iOrcshipmainmastDW15
+TYPE=tNormal
+
+[ITEMDEF 08057]
+// OrcShipMainMast D2 W
+DEFNAME=iOrcshipmainmastDW16
+TYPE=tNormal
+
+[ITEMDEF 08058]
+// OrcShipMainMast D2 W
+DEFNAME=iOrcshipmainmastDW17
+TYPE=tNormal
+
+[ITEMDEF 08059]
+// OrcShipMainMast D2 W
+DEFNAME=iOrcshipmainmastDW18
+TYPE=tNormal
+
+[ITEMDEF 0805a]
+// OrcShipMainMast D2 W
+DEFNAME=iOrcshipmainmastDW19
+TYPE=tNormal
+
+[ITEMDEF 0805b]
+// OrcShipMainMast D2 W
+DEFNAME=iOrcshipmainmastDW20
+TYPE=tNormal
+
+[ITEMDEF 0805c]
+// OrcShipMainMast D2 W
+DEFNAME=iOrcshipmainmastDW21
+TYPE=tNormal
+
+[ITEMDEF 0805d]
+// OrcShipMainMast D2 W
+DEFNAME=iOrcshipmainmastDW22
+TYPE=tNormal
+
+[ITEMDEF 0805e]
+// OrcShipMainMast D2 W
+DEFNAME=iOrcshipmainmastDW23
+TYPE=tNormal
+
+[ITEMDEF 0805f]
+// OrcShipMainMast D2 W
+DEFNAME=iOrcshipmainmastDW24
+TYPE=tNormal
+
+[ITEMDEF 08060]
+// OrcShipMainMast D2 W
+DEFNAME=iOrcshipmainmastDW25
+TYPE=tNormal
+
+[ITEMDEF 08061]
+// OrcShipMainMast D2 W
+DEFNAME=iOrcshipmainmastDW26
+TYPE=tNormal
+
+[ITEMDEF 08062]
+// OrcShipMainMast D2 W
+DEFNAME=iOrcshipmainmastDW27
+TYPE=tNormal
+
+[ITEMDEF 08063]
+// OrcShipMainMast D2 W
+DEFNAME=iOrcshipmainmastDW28
+TYPE=tNormal
+
+[ITEMDEF 08064]
+// OrcShipMainMast D2 W
+DEFNAME=iOrcshipmainmastDW29
+TYPE=tNormal
+
+[ITEMDEF 08066]
+// OrcShipMainMast D2 W
+DEFNAME=iOrcshipmainmastDW30
+TYPE=tNormal
+
+[ITEMDEF 08067]
+// OrcShipMainMast D2 W
+DEFNAME=iOrcshipmainmastDW31
+TYPE=tNormal
+
+[ITEMDEF 08068]
+// OrcShipMainMast D2 W
+DEFNAME=iOrcshipmainmastDW32
+TYPE=tNormal
+
+[ITEMDEF 08069]
+// OrcShipMainMast D2 W
+DEFNAME=iOrcshipmainmastDW33
+TYPE=tNormal
+
+[ITEMDEF 0806a]
+// OrcShipMainMast D2 W
+DEFNAME=iOrcshipmainmastDW34
+TYPE=tNormal
+
+[ITEMDEF 0806b]
+// OrcShipMainMast D2 W
+DEFNAME=iOrcshipmainmastDW35
+TYPE=tNormal
+
+[ITEMDEF 0806c]
+// OrcShipMainMast D2 W
+DEFNAME=iOrcshipmainmastDW36
+TYPE=tNormal
+
+[ITEMDEF 0806d]
+// OrcShipMainMast D2 W
+DEFNAME=iOrcshipmainmastDW37
+TYPE=tNormal
+
+[ITEMDEF 0806e]
+// OrcShipMainMast D2 W
+DEFNAME=iOrcshipmainmastDW38
+TYPE=tNormal
+
+[ITEMDEF 0806f]
+// OrcShipMainMast D2 W
+DEFNAME=iOrcshipmainmastDW39
+TYPE=tNormal
+
+[ITEMDEF 08070]
+// OrcShipMainMast D2 W
+DEFNAME=iOrcshipmainmastDW40
+TYPE=tNormal
+
+[ITEMDEF 08071]
+// OrcShipMainMast D2 W
+DEFNAME=iOrcshipmainmastDW41
+TYPE=tNormal
+
+[ITEMDEF 08072]
+// OrcShipMainMast D2 W
+DEFNAME=iOrcshipmainmastDW42
+TYPE=tNormal
+
+[ITEMDEF 08073]
+// OrcShipMainMast D2 W
+DEFNAME=iOrcshipmainmastDW43
+TYPE=tNormal
+
+[ITEMDEF 08110]
+// OrcShipMainMast D2 N
+DEFNAME=iOrcshipmainmastDN
+TYPE=tNormal
+
+[ITEMDEF 08111]
+// OrcShipMainMast D2 N
+DEFNAME=iOrcshipmainmastDN2
+TYPE=tNormal
+
+[ITEMDEF 08112]
+// OrcShipMainMast D2 N
+DEFNAME=iOrcshipmainmastDN3
+TYPE=tNormal
+
+[ITEMDEF 08113]
+// OrcShipMainMast D2 N
+DEFNAME=iOrcshipmainmastDN4
+TYPE=tNormal
+
+[ITEMDEF 08114]
+// OrcShipMainMast D2 N
+DEFNAME=iOrcshipmainmastDN5
+TYPE=tNormal
+
+[ITEMDEF 08115]
+// OrcShipMainMast D2 N
+DEFNAME=iOrcshipmainmastDN6
+TYPE=tNormal
+
+[ITEMDEF 08116]
+// OrcShipMainMast D2 N
+DEFNAME=iOrcshipmainmastDN7
+TYPE=tNormal
+
+[ITEMDEF 08117]
+// OrcShipMainMast D2 N
+DEFNAME=iOrcshipmainmastDN8
+TYPE=tNormal
+
+[ITEMDEF 08118]
+// OrcShipMainMast D2 N
+DEFNAME=iOrcshipmainmastDN9
+TYPE=tNormal
+
+[ITEMDEF 08119]
+// OrcShipMainMast D2 N
+DEFNAME=iOrcshipmainmastDN10
+TYPE=tNormal
+
+[ITEMDEF 0811a]
+// OrcShipMainMast D2 N
+DEFNAME=iOrcshipmainmastDN11
+TYPE=tNormal
+
+[ITEMDEF 0811b]
+// OrcShipMainMast D2 N
+DEFNAME=iOrcshipmainmastDN12
+TYPE=tNormal
+
+[ITEMDEF 0811c]
+// OrcShipMainMast D2 N
+DEFNAME=iOrcshipmainmastDN13
+TYPE=tNormal
+
+[ITEMDEF 0811d]
+// OrcShipMainMast D2 N
+DEFNAME=iOrcshipmainmastDN14
+TYPE=tNormal
+
+[ITEMDEF 0811e]
+// OrcShipMainMast D2 N
+DEFNAME=iOrcshipmainmastDN15
+TYPE=tNormal
+
+[ITEMDEF 0811f]
+// OrcShipMainMast D2 N
+DEFNAME=iOrcshipmainmastDN16
+TYPE=tNormal
+
+[ITEMDEF 08120]
+// OrcShipMainMast D2 N
+DEFNAME=iOrcshipmainmastDN17
+TYPE=tNormal
+
+[ITEMDEF 08121]
+// OrcShipMainMast D2 N
+DEFNAME=iOrcshipmainmastDN18
+TYPE=tNormal
+
+[ITEMDEF 08122]
+// OrcShipMainMast D2 N
+DEFNAME=iOrcshipmainmastDN19
+TYPE=tNormal
+
+[ITEMDEF 08123]
+// OrcShipMainMast D2 N
+DEFNAME=iOrcshipmainmastDN20
+TYPE=tNormal
+
+[ITEMDEF 08124]
+// OrcShipMainMast D2 N
+DEFNAME=iOrcshipmainmastDN21
+TYPE=tNormal
+
+[ITEMDEF 08125]
+// OrcShipMainMast D2 N
+DEFNAME=iOrcshipmainmastDN22
+TYPE=tNormal
+
+[ITEMDEF 08126]
+// OrcShipMainMast D2 N
+DEFNAME=iOrcshipmainmastDN23
+TYPE=tNormal
+
+[ITEMDEF 08127]
+// OrcShipMainMast D2 N
+DEFNAME=iOrcshipmainmastDN24
+TYPE=tNormal
+
+[ITEMDEF 08128]
+// OrcShipMainMast D2 N
+DEFNAME=iOrcshipmainmastDN25
+TYPE=tNormal
+
+[ITEMDEF 08129]
+// OrcShipMainMast D2 N
+DEFNAME=iOrcshipmainmastDN26
+TYPE=tNormal
+
+[ITEMDEF 0812a]
+// OrcShipMainMast D2 N
+DEFNAME=iOrcshipmainmastDN27
+TYPE=tNormal
+
+[ITEMDEF 0812b]
+// OrcShipMainMast D2 N
+DEFNAME=iOrcshipmainmastDN28
+TYPE=tNormal
+
+[ITEMDEF 0812c]
+// OrcShipMainMast D2 N
+DEFNAME=iOrcshipmainmastDN29
+TYPE=tNormal
+
+[ITEMDEF 0812d]
+// OrcShipMainMast D2 N
+DEFNAME=iOrcshipmainmastDN30
+TYPE=tNormal
+
+[ITEMDEF 0812e]
+// OrcShipMainMast D2 N
+DEFNAME=iOrcshipmainmastDN31
+TYPE=tNormal
+
+[ITEMDEF 0812f]
+// OrcShipMainMast D2 N
+DEFNAME=iOrcshipmainmastDN32
+TYPE=tNormal
+
+[ITEMDEF 08130]
+// OrcShipMainMast D2 N
+DEFNAME=iOrcshipmainmastDN33
+TYPE=tNormal
+
+[ITEMDEF 08131]
+// OrcShipMainMast D2 N
+DEFNAME=iOrcshipmainmastDN34
+TYPE=tNormal
+
+[ITEMDEF 08132]
+// OrcShipMainMast D2 N
+DEFNAME=iOrcshipmainmastDN35
+TYPE=tNormal
+
+[ITEMDEF 08133]
+// OrcShipMainMast D2 N
+DEFNAME=iOrcshipmainmastDN36
+TYPE=tNormal
+
+[ITEMDEF 08134]
+// OrcShipMainMast D2 N
+DEFNAME=iOrcshipmainmastDN37
+TYPE=tNormal
+
+[ITEMDEF 08135]
+// OrcShipMainMast D2 N
+DEFNAME=iOrcshipmainmastDN38
+TYPE=tNormal
+
+[ITEMDEF 08136]
+// OrcShipMainMast D2 N
+DEFNAME=iOrcshipmainmastDN39
+TYPE=tNormal
+
+[ITEMDEF 08137]
+// OrcShipMainMast D2 N
+DEFNAME=iOrcshipmainmastDN40
+TYPE=tNormal
+
+[ITEMDEF 08138]
+// OrcShipMainMast D2 N
+DEFNAME=iOrcshipmainmastDN41
+TYPE=tNormal
+
+[ITEMDEF 08139]
+// OrcShipMainMast D2 N
+DEFNAME=iOrcshipmainmastDN42
+TYPE=tNormal
+
+[ITEMDEF 0813a]
+// OrcShipMainMast D2 N
+DEFNAME=iOrcshipmainmastDN43
+TYPE=tNormal
+
+[ITEMDEF 0813b]
+// OrcShipMainMast D2 N
+DEFNAME=iOrcshipmainmastDN44
+TYPE=tNormal
+
+[ITEMDEF 081d8]
+// OrcShipMainMast D2 E
+DEFNAME=iOrcshipmainmastDE
+TYPE=tNormal
+
+[ITEMDEF 081d9]
+// OrcShipMainMast D2 E
+DEFNAME=iOrcshipmainmastDE2
+TYPE=tNormal
+
+[ITEMDEF 081da]
+// OrcShipMainMast D2 E
+DEFNAME=iOrcshipmainmastDE3
+TYPE=tNormal
+
+[ITEMDEF 081db]
+// OrcShipMainMast D2 E
+DEFNAME=iOrcshipmainmastDE4
+TYPE=tNormal
+
+[ITEMDEF 081dc]
+// OrcShipMainMast D2 E
+DEFNAME=iOrcshipmainmastDE5
+TYPE=tNormal
+
+[ITEMDEF 081dd]
+// OrcShipMainMast D2 E
+DEFNAME=iOrcshipmainmastDE6
+TYPE=tNormal
+
+[ITEMDEF 081de]
+// OrcShipMainMast D2 E
+DEFNAME=iOrcshipmainmastDE7
+TYPE=tNormal
+
+[ITEMDEF 081df]
+// OrcShipMainMast D2 E
+DEFNAME=iOrcshipmainmastDE8
+TYPE=tNormal
+
+[ITEMDEF 081e0]
+// OrcShipMainMast D2 E
+DEFNAME=iOrcshipmainmastDE9
+TYPE=tNormal
+
+[ITEMDEF 081e1]
+// OrcShipMainMast D2 E
+DEFNAME=iOrcshipmainmastDE10
+TYPE=tNormal
+
+[ITEMDEF 081e2]
+// OrcShipMainMast D2 E
+DEFNAME=iOrcshipmainmastDE11
+TYPE=tNormal
+
+[ITEMDEF 081e3]
+// OrcShipMainMast D2 E
+DEFNAME=iOrcshipmainmastDE12
+TYPE=tNormal
+
+[ITEMDEF 081e4]
+// OrcShipMainMast D2 E
+DEFNAME=iOrcshipmainmastDE13
+TYPE=tNormal
+
+[ITEMDEF 081e5]
+// OrcShipMainMast D2 E
+DEFNAME=iOrcshipmainmastDE14
+TYPE=tNormal
+
+[ITEMDEF 081e6]
+// OrcShipMainMast D2 E
+DEFNAME=iOrcshipmainmastDE15
+TYPE=tNormal
+
+[ITEMDEF 081e7]
+// OrcShipMainMast D2 E
+DEFNAME=iOrcshipmainmastDE16
+TYPE=tNormal
+
+[ITEMDEF 081e8]
+// OrcShipMainMast D2 E
+DEFNAME=iOrcshipmainmastDE17
+TYPE=tNormal
+
+[ITEMDEF 081e9]
+// OrcShipMainMast D2 E
+DEFNAME=iOrcshipmainmastDE18
+TYPE=tNormal
+
+[ITEMDEF 081ea]
+// OrcShipMainMast D2 E
+DEFNAME=iOrcshipmainmastDE19
+TYPE=tNormal
+
+[ITEMDEF 081eb]
+// OrcShipMainMast D2 E
+DEFNAME=iOrcshipmainmastDE20
+TYPE=tNormal
+
+[ITEMDEF 081ec]
+// OrcShipMainMast D2 E
+DEFNAME=iOrcshipmainmastDE21
+TYPE=tNormal
+
+[ITEMDEF 081ed]
+// OrcShipMainMast D2 E
+DEFNAME=iOrcshipmainmastDE22
+TYPE=tNormal
+
+[ITEMDEF 081ee]
+// OrcShipMainMast D2 E
+DEFNAME=iOrcshipmainmastDE23
+TYPE=tNormal
+
+[ITEMDEF 081ef]
+// OrcShipMainMast D2 E
+DEFNAME=iOrcshipmainmastDE24
+TYPE=tNormal
+
+[ITEMDEF 081f0]
+// OrcShipMainMast D2 E
+DEFNAME=iOrcshipmainmastDE25
+TYPE=tNormal
+
+[ITEMDEF 081f1]
+// OrcShipMainMast D2 E
+DEFNAME=iOrcshipmainmastDE26
+TYPE=tNormal
+
+[ITEMDEF 081f2]
+// OrcShipMainMast D2 E
+DEFNAME=iOrcshipmainmastDE27
+TYPE=tNormal
+
+[ITEMDEF 081f3]
+// OrcShipMainMast D2 E
+DEFNAME=iOrcshipmainmastDE28
+TYPE=tNormal
+
+[ITEMDEF 081f4]
+// OrcShipMainMast D2 E
+DEFNAME=iOrcshipmainmastDE29
+TYPE=tNormal
+
+[ITEMDEF 081f6]
+// OrcShipMainMast D2 E
+DEFNAME=iOrcshipmainmastDE30
+TYPE=tNormal
+
+[ITEMDEF 081f7]
+// OrcShipMainMast D2 E
+DEFNAME=iOrcshipmainmastDE31
+TYPE=tNormal
+
+[ITEMDEF 081f8]
+// OrcShipMainMast D2 E
+DEFNAME=iOrcshipmainmastDE32
+TYPE=tNormal
+
+[ITEMDEF 081f9]
+// OrcShipMainMast D2 E
+DEFNAME=iOrcshipmainmastDE33
+TYPE=tNormal
+
+[ITEMDEF 081fa]
+// OrcShipMainMast D2 E
+DEFNAME=iOrcshipmainmastDE34
+TYPE=tNormal
+
+[ITEMDEF 081fb]
+// OrcShipMainMast D2 E
+DEFNAME=iOrcshipmainmastDE35
+TYPE=tNormal
+
+[ITEMDEF 081fc]
+// OrcShipMainMast D2 E
+DEFNAME=iOrcshipmainmastDE36
+TYPE=tNormal
+
+[ITEMDEF 081fd]
+// OrcShipMainMast D2 E
+DEFNAME=iOrcshipmainmastDE37
+TYPE=tNormal
+
+[ITEMDEF 081fe]
+// OrcShipMainMast D2 E
+DEFNAME=iOrcshipmainmastDE38
+TYPE=tNormal
+
+[ITEMDEF 081ff]
+// OrcShipMainMast D2 E
+DEFNAME=iOrcshipmainmastDE39
+TYPE=tNormal
+
+[ITEMDEF 08200]
+// OrcShipMainMast D2 E
+DEFNAME=iOrcshipmainmastDE40
+TYPE=tNormal
+
+[ITEMDEF 08201]
+// OrcShipMainMast D2 E
+DEFNAME=iOrcshipmainmastDE41
+TYPE=tNormal
+
+[ITEMDEF 08202]
+// OrcShipMainMast D2 E
+DEFNAME=iOrcshipmainmastDE42
+TYPE=tNormal
+
+[ITEMDEF 08203]
+// OrcShipMainMast D2 E
+DEFNAME=iOrcshipmainmastDE43
+TYPE=tNormal
+
+[ITEMDEF 075bc]
+// OrcShipShipsWheel SO
+DEFNAME=iOrcshipshipswheelSo
+TYPE=tNormal
+
+[ITEMDEF 075bd]
+// OrcShipShipsWheel SO
+DEFNAME=iOrcshipshipswheelSo2
+TYPE=tPilot
+
+[ITEMDEF 075be]
+// OrcShipShipsWheel SO
+DEFNAME=iOrcshipshipswheelSo3
+TYPE=tNormal
+
+[ITEMDEF 077b0]
+// OrcShipShipsWheel WE
+DEFNAME=iOrcshipshipswheelWe
+TYPE=tNormal
+
+[ITEMDEF 077b1]
+// OrcShipShipsWheel WE
+DEFNAME=iOrcshipshipswheelWe2
+TYPE=tPilot
+
+[ITEMDEF 077b2]
+// OrcShipShipsWheel WE
+DEFNAME=iOrcshipshipswheelWe3
+TYPE=tNormal
+
+[ITEMDEF 079a4]
+// OrcShipShipsWheel NO
+DEFNAME=iOrcshipshipswheelNo
+TYPE=tNormal
+
+[ITEMDEF 079a5]
+// OrcShipShipsWheel NO
+DEFNAME=iOrcshipshipswheelNo2
+TYPE=tPilot
+
+[ITEMDEF 079a6]
+// OrcShipShipsWheel NO
+DEFNAME=iOrcshipshipswheelNo3
+TYPE=tNormal
+
+[ITEMDEF 07b99]
+// OrcShipsWheel EAST
+DEFNAME=iOrcshipswheelEast
+TYPE=tNormal
+
+[ITEMDEF 07b9a]
+// OrcShipsWheel EAST
+DEFNAME=iOrcshipswheelEast2
+TYPE=tPilot
+
+[ITEMDEF 07b9b]
+// OrcShipsWheel EAST
+DEFNAME=iOrcshipswheelEast3
+TYPE=tNormal
+
+[ITEMDEF 07c92]
+// OrcShip ShipWheel D1
+DEFNAME=iOrcshipShipwheelD
+TYPE=tNormal
+
+[ITEMDEF 07c93]
+// OrcShip ShipWheel D1
+DEFNAME=iOrcshipShipwheelD2
+TYPE=tNormal
+
+[ITEMDEF 07c94]
+// OrcShip ShipWheel D1
+DEFNAME=iOrcshipShipwheelD3
+TYPE=tNormal
+
+[ITEMDEF 07d5a]
+// OrcShip ShipWheel D1
+DEFNAME=iOrcshipShipwheelD4
+TYPE=tNormal
+
+[ITEMDEF 07d5b]
+// OrcShip ShipWheel D1
+DEFNAME=iOrcshipShipwheelD5
+TYPE=tNormal
+
+[ITEMDEF 07d5d]
+// OrcShip ShipWheel D1
+DEFNAME=iOrcshipShipwheelD6
+TYPE=tNormal
+
+[ITEMDEF 07e22]
+// OrcShip ShipWheel D1
+DEFNAME=iOrcshipShipwheelD7
+TYPE=tNormal
+
+[ITEMDEF 07e23]
+// OrcShip ShipWheel D1
+DEFNAME=iOrcshipShipwheelD8
+TYPE=tNormal
+
+[ITEMDEF 07e25]
+// OrcShip ShipWheel D1
+DEFNAME=iOrcshipShipwheelD9
+TYPE=tNormal
+
+[ITEMDEF 07eeb]
+// OrcShip ShipWheel D1
+DEFNAME=iOrcshipShipwheelD10
+TYPE=tNormal
+
+[ITEMDEF 07eec]
+// OrcShip ShipWheel D1
+DEFNAME=iOrcshipShipwheelD11
+TYPE=tNormal
+
+[ITEMDEF 07eed]
+// OrcShip ShipWheel D1
+DEFNAME=iOrcshipShipwheelD12
+TYPE=tNormal
+
+[ITEMDEF 07fb3]
+// OrcShip ShipWheel D2
+DEFNAME=iOrcshipShipwheelD13
+TYPE=tNormal
+
+[ITEMDEF 07fb4]
+// OrcShip ShipWheel D2
+DEFNAME=iOrcshipShipwheelD14
+TYPE=tNormal
+
+[ITEMDEF 07fb5]
+// OrcShip ShipWheel D2
+DEFNAME=iOrcshipShipwheelD15
+TYPE=tNormal
+
+[ITEMDEF 0807b]
+// ShipsWheel D2 WEST
+DEFNAME=iShipswheelDWest
+TYPE=tNormal
+
+[ITEMDEF 0807c]
+// ShipsWheel D2 WEST
+DEFNAME=iShipswheelDWest2
+TYPE=tNormal
+
+[ITEMDEF 0807d]
+// ShipsWheel D2 WEST
+DEFNAME=iShipswheelDWest3
+TYPE=tNormal
+
+[ITEMDEF 08142]
+// ShipsWheel D2 NORTH
+DEFNAME=iShipswheelDNorth
+TYPE=tNormal
+
+[ITEMDEF 08144]
+// ShipsWheel D2 NORTH
+DEFNAME=iShipswheelDNorth2
+TYPE=tNormal
+
+[ITEMDEF 08145]
+// ShipsWheel D2 NORTH
+DEFNAME=iShipswheelDNorth3
+TYPE=tNormal
+
+[ITEMDEF 0820a]
+// ShipsWheel D2 EAST
+DEFNAME=iShipswheelDEast
+TYPE=tNormal
+
+[ITEMDEF 0820b]
+// ShipsWheel D2 EAST
+DEFNAME=iShipswheelDEast2
+TYPE=tNormal
+
+[ITEMDEF 0820d]
+// ShipsWheel D2 EAST
+DEFNAME=iShipswheelDEast3
+TYPE=tNormal

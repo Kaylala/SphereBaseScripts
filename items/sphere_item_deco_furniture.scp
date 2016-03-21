@@ -1,0 +1,4608 @@
+//****************************************************************************
+// SPHERE by : Menasoft ©1997-2014
+// www.sphereserver.net
+// All SPHERE script files and formats are copyright Menasoft & Partners.
+// This file may be freely edited for personal use, but may not be distributed
+// in whole or in part, in any format without express written permission from
+// Menasoft & Partners. All donations and contributions
+// become the property of Menasoft & Partners.
+//****************************************************************************
+// FILE LAST UPDATED: Tuesday, May 6, 2014
+//
+VERSION=0.56c
+
+
+[ItemDef 0459]
+DefName=iMarbleBench
+Type=tChair
+Can=CanIFlip
+Weight=100
+DupeList=045A
+
+Category=Decoration - Furniture
+Subsection=Chairs
+Description=Marble Bench
+
+[ItemDef 045A]
+DupeItem=0459
+
+[ItemDef 045b]
+DefName=iSandstoneBench
+Type=tChair
+Can=CanIFlip
+Weight=100
+DupeList=045c
+
+Category=Decoration - Furniture
+Subsection=Chairs
+Description=Bench (Sandstone)
+
+[ItemDef 045c]
+DupeItem=045b
+
+[ItemDef 0a2a]
+DefName=iBarstool
+Type=tChair
+Weight=10
+
+Category=Decoration - Furniture
+Subsection=Chairs
+Description=Barstool
+
+[ItemDef 0a2b]
+DefName=iStool
+Type=tChair
+Can=CanIFlip
+Weight=10
+DupeList=0b5e
+
+Category=Decoration - Furniture
+Subsection=Chairs
+Description=Barstool
+
+[ItemDef 0a2c]
+DefName=iChestOfDrawers
+Type=tContainer
+TDATA2=051
+Can=CanIFlip
+Value=102
+Weight=21.6
+Resources=5 iBoard,10 iNails,3 iDrawer
+SkillMake=Carpentry 76.3,tCarpentry
+Category=Decoration - Furniture
+Subsection=Bedroom Furniture
+Description=Chest of Drawers (Light Wood)
+DupeList=0a34
+
+[ItemDef 0a2d]
+DefName=iDrawer
+Name=bureau drawer
+Type=tContainer
+//TDATA2=051
+TDATA2=0106
+Can=CanIFlip
+Value=20
+Weight=5.2
+Resources=5 iBoard,2 iNails
+SkillMake=Carpentry 68.9,tCarpentry
+Category=Decoration - Furniture
+Subsection=Bedroom Furniture
+Description=Drawer (Light Wood)
+DupeList=0a2e,0a2f,0a35,0a36,0a37
+
+[ItemDef 0a2e]
+//drawer
+DupeItem=0a2d
+
+[ItemDef 0a2f]
+//drawer
+DupeItem=0a2d
+
+[ItemDef 0a30]
+DefName=iBureau2
+Type=tContainer
+TDATA2=048
+Can=CanIFlip
+Value=105
+Weight=26.6
+Resources=25 iLog
+SkillMake=Carpentry 85.0,tCarpentry
+Category=Decoration - Furniture
+Subsection=Bedroom Furniture
+Description=Chest of Drawers (Dark Wood) (SW)
+DupeList=0a38
+
+[ItemDef 0a31]
+DefName=iDrawer2
+Name=cherry bureau drawer
+Type=tContainer
+//TDATA2=048
+TDATA2=0105
+Can=CanIFlip
+Value=21
+Weight=5.2
+Resources=5 iBoard,2 iNails
+SkillMake=Carpentry 81.2,tCarpentry
+Category=Decoration - Furniture
+Subsection=Bedroom Furniture
+Description=Drawer (Dark Wood)
+DupeList=0a32,0a33,0a39,0a3a,0a3b
+
+[ItemDef 0a32]
+//drawer 2
+DupeItem=0a31
+
+[ItemDef 0a33]
+//drawer 2
+DupeItem=0a31
+
+[ItemDef 0a34]
+//bureau
+DupeItem=0a2c
+
+[ItemDef 0a35]
+//drawer
+DupeItem=0a2d
+
+[ItemDef 0a36]
+//drawer
+DupeItem=0a2d
+
+[ItemDef 0a37]
+//drawer
+DupeItem=0a2d
+
+[ItemDef 0a38]
+//bureau 2
+DupeItem=0a30
+
+[ItemDef 0a39]
+//drawer 2
+DupeItem=0a31
+
+[ItemDef 0a3a]
+//drawer 2
+DupeItem=0a31
+
+[ItemDef 0a3b]
+//drawer 2
+DupeItem=0a31
+
+[ItemDef 0a3c]
+DefName=iDresser
+Name=vanity dresser
+Type=tContainer
+TDATA2=051
+Can=CanIFlip
+Value=193
+Weight=28.9
+Resources=8 iBoard,20 iNails,6 iDresserDrawer,1 i_wire_silver,5 i_glass_raw
+SkillMake=Carpentry 87.3,tCarpentry
+Category=Decoration - Furniture
+Subsection=Bedroom Furniture
+Description=Dresser (Vanity)
+DupeList=0a3d,0a44,0a45
+
+[ItemDef 0a3d]
+//vanity dresser
+DupeItem=0a3c
+
+[ItemDef 0a3e]
+DefName=iDresserDrawer
+Name=vanity dresser drawer
+Type=tContainer
+TDATA2=051
+Can=CanIFlip
+Value=20
+Weight=2.2
+Resources=2 iBoard,2 iNails
+SkillMake=Carpentry 71.6,tCarpentry
+Category=Decoration - Furniture
+Subsection=Bedroom Furniture
+Description=Drawer (Vanity)
+DupeList=0a3f,0a40,0a41,0a42,0a43,0a46,0a47,0a48,0a49,0a4a,0a4b
+
+[ItemDef 0a3f]
+//vanity dresser drawer
+DupeItem=0a3e
+
+[ItemDef 0a40]
+//vanity dresser drawer
+DupeItem=0a3e
+
+[ItemDef 0a41]
+//vanity dresser drawer
+DupeItem=0a3e
+
+[ItemDef 0a42]
+//vanity dresser drawer
+DupeItem=0a3e
+
+[ItemDef 0a43]
+//vanity dresser drawer
+DupeItem=0a3e
+
+[ItemDef 0a44]
+//vanity dresser
+DupeItem=0a3c
+
+[ItemDef 0a45]
+//vanity dresser
+DupeItem=0a3c
+
+[ItemDef 0a46]
+//vanity dresser drawer
+DupeItem=0a3e
+
+[ItemDef 0a47]
+//vanity dresser drawer
+DupeItem=0a3e
+
+[ItemDef 0a48]
+//vanity dresser drawer
+DupeItem=0a3e
+
+[ItemDef 0a49]
+//vanity dresser drawer
+DupeItem=0a3e
+
+[ItemDef 0a4a]
+//vanity dresser drawer
+DupeItem=0a3e
+
+[ItemDef 0a4b]
+//vanity dresser drawer
+DupeItem=0a3e
+
+[ItemDef 0a4c]
+//dark armoire (open)
+DupeList=0a50
+
+[ItemDef 0a4d]
+//dark armoire (closed)
+DefName=iArmoirLt
+Type=tContainer
+TDATA2=04e
+Can=CanIFlip
+Value=128
+Weight=36.0
+Resources=35 iBoard,6 iNails,4 iHinge
+SkillMake=Carpentry 84.2,tCarpentry
+Category=Decoration - Furniture
+Subsection=Cabinetry
+Description=Dark Armoire
+DupeList=0a51
+//to-do: change to DISPID=0a4c when opened
+
+[ItemDef 0a4e]
+//armoire (open)
+DupeList=0a52
+
+[ItemDef 0a4f]
+//armoire (closed)
+DefName=iArmoirDk
+Type=tContainer
+TDATA2=04f
+Can=CanIFlip
+Weight=25
+Resources=35 iLog
+SkillMake=CARPENTRY 84.2, tCarpentry
+Category=Decoration - Furniture
+Subsection=Cabinetry
+Description=Armoire
+DupeList=0a53
+//to-do: change to DISPID=0a4e when opened
+
+[ItemDef 0a50]
+//dark armoire (open)
+DupeList=0a4c
+
+[ItemDef 0a51]
+//dark armoire (closed)
+DupeItem=0a4d
+//to-do: change to DISPID=0a50 when opened
+
+[ItemDef 0a52]
+//armoire (open)
+DupeItem=0a4e
+
+[ItemDef 0a53]
+//armoire (closed)
+DupeItem=0a4f
+//to-do: change to DISPID=0a52 when opened
+
+[ItemDef 0a55]
+DefName=iBedroll
+Type=tBedroll
+Can=CanIFlip
+Value=95
+Weight=12.5
+Resources=5 iCloth,1 iCanvas,50 iFeather,1 i_hides_cut,5 i_thread
+SkillMake=Tailoring 84.2,tSewingKit
+Category=Decoration - Furniture
+Subsection=Beds
+Description=Bed Roll (Unrolled)
+DupeList=0a56
+
+[ItemDef 0a56]
+//bedroll
+DupeItem=0a55
+
+[ItemDef 0a57]
+DefName=iBedroll2
+Type=tBedroll
+Can=CanIFlip
+Weight=12.5
+Resources=1 iBedroll
+Category=Decoration - Furniture
+Subsection=Beds
+Description=Bedroll (Rolled Up)
+DupeList=0a58,0a59
+
+[ItemDef 0a58]
+//bedroll
+DupeItem=0a57
+
+[ItemDef 0a59]
+//bedroll
+DupeItem=0a57
+
+[ItemDef 0a5a]
+DefName=iBedSmallUnmade
+Name=small unmade bed
+Type=tBed
+TDATA1=0
+Can=CanIFlip
+Value=183
+Weight=43.5
+Resources=30 iBoard,10 iNails,1 iBedroll
+SkillMake=Carpentry 81.3,tCarpentry
+Category=Decoration - Furniture
+Subsection=Beds
+Description=Small Bed (unmade)
+DupeList=0a5b
+
+[ItemDef 0a5b]
+//small bed (unmade)
+DupeItem=0a5a
+
+[ItemDef 0a5c]
+DefName=iBedSmallMade
+Name=small bed
+Type=tBed
+TDATA1=0
+Can=CanIFlip
+Value=301
+Weight=64.0
+Resources=1 iBedSmallSheet,1 iBlanket,1 iPillow11
+SkillMake=Carpentry 81.3,Tailoring 35.0,tCarpentry,tSewingKit
+Category=Decoration - Furniture
+Subsection=Beds
+Description=Small Bed (made)
+DupeList=0a5d,0a62,0a63,0a66,0a67,0a68,0a69,0a6a,0a6b
+
+[ItemDef 0a5d]
+//small bed (made)
+DupeItem=0a5c
+
+[ItemDef 0a5e]
+DefName=iBedSmallSheet
+Name=small bed with sheets
+Type=tBed
+TDATA1=0
+Can=CanIFlip
+Value=223
+Weight=48.5
+Resources=1 iBedSmallUnmade,1 iSheet
+SkillMake=Carpentry 81.3,tCarpentry
+Category=Decoration - Furniture
+Subsection=Beds
+Description=Small Bed (sheet only)
+DupeList=0a5f,0a60,0a61
+
+[ItemDef 0a5f]
+//small bed (sheet only)
+DupeItem=0a5e
+
+[ItemDef 0a60]
+//small bed (sheet only)
+DupeItem=0a5e
+
+[ItemDef 0a61]
+//small bed (sheet only)
+DupeItem=0a5e
+
+[ItemDef 0a62]
+//small bed (made)
+DupeItem=0a5c
+
+[ItemDef 0a63]
+//small bed (made)
+DupeItem=0a5c
+
+[ItemDef 0a64]
+//brown bed (duplicate of 0a5a)
+DefName=iBedSmallUnmade2
+Name=small unmade bed
+Type=tBed
+TDATA1=0
+Can=CanIFlip
+Value=183
+Weight=37.1
+Resources=30 iBoard,1 iBedroll,10 iNails,1 i_cloth
+SkillMake=Carpentry 81.3,tCarpentry
+Category=Decoration - Furniture
+Subsection=Beds
+Description=Small Bed (unmade duplicate)
+DupeList=0a65
+
+[ItemDef 0a65]
+//small bed (unmade duplicate)
+DupeItem=0a64
+
+[ItemDef 0a66]
+//small bed (made)
+DupeItem=0a5c
+
+[ItemDef 0a67]
+//small bed (made)
+DupeItem=0a5c
+
+[ItemDef 0a68]
+//small bed (made)
+DupeItem=0a5c
+
+[ItemDef 0a69]
+//small bed (made)
+DupeItem=0a5c
+
+[ItemDef 0a6a]
+//small bed (made)
+DupeItem=0a5c
+
+[ItemDef 0a6b]
+//small bed (made)
+DupeItem=0a5c
+
+[ItemDef 0a6c]
+DefName=iBlanket
+Name=folded blanket
+DYE=1
+Can=CanIFlip
+Value=50
+Weight=12.5
+Resources=10 iCloth,2 iWool,5 iThread
+SkillMake=Tailoring 35.0,tSewingKit
+Category=Decoration - Furniture
+Subsection=Bedding
+Description=Folded Blanket
+DupeList=0a6d,0a6e,0a6f
+
+[ItemDef 0a6d]
+//folded blanket
+DupeItem=0a6c
+
+[ItemDef 0a6e]
+//folded blanket
+DupeItem=0a6c
+
+[ItemDef 0a6f]
+//folded blanket
+DupeItem=0a6c
+
+[ItemDef 0a70]
+DefName=iBedLargeUnmade
+Name=large unmade bed
+Type=tBed
+TDATA1=0
+DYE=1
+Can=CanIFlip
+Value=560
+Weight=149.5
+Resources=120 iBoard,15 iCloth,20 iNails,2 i_bedroll
+SkillMake=Carpentry 94.7,Tailoring 75.0,tCarpentry,tSewingKit
+Category=Decoration - Furniture
+Subsection=Beds
+Description=Large Bed (unmade)
+DupeList=0a71,0a72,0a73,0a74,0a75,0a76,0a77
+
+[ItemDef 0a71]
+//large unmade bed
+DupeItem=0a70
+
+[ItemDef 0a72]
+//large unmade bed
+DupeItem=0a70
+
+[ItemDef 0a73]
+//large unmade bed
+DupeItem=0a70
+
+[ItemDef 0a74]
+//large unmade bed
+DupeItem=0a70
+
+[ItemDef 0a75]
+//large unmade bed
+DupeItem=0a70
+
+[ItemDef 0a76]
+//large unmade bed
+DupeItem=0a70
+
+[ItemDef 0a77]
+//large unmade bed
+DupeItem=0a70
+
+[ItemDef 0a78]
+DefName=iBedLargeMade
+Name=large bed
+Type=tBed
+TDATA1=0
+DYE=1
+Can=CanIFlip
+Value=650
+Weight=191.0
+Resources=1 iBedLargeSheet,2 iBlanket,2 iPillow11
+SkillMake=Carpentry 94.7,Tailoring 75.0,tCarpentry,tSewingKit
+Category=Decoration - Furniture
+Subsection=Beds
+Description=Large Bed (made)
+DupeList=0a79,0a7a,0a7b,0a7c,0a7d,0a7e,0a7f,0a80,0a81,0a82,0a83,0a8c,0a8d,0a8e,0a8f,0a90,0a91,0db0,0db1,0db2,0db3,0db4,0db5
+
+[ItemDef 0a79]
+//large made bed
+DupeItem=0a78
+
+[ItemDef 0a7a]
+//large made bed
+DupeItem=0a78
+
+[ItemDef 0a7b]
+//large made bed
+DupeItem=0a78
+
+[ItemDef 0a7c]
+//large made bed
+DupeItem=0a78
+
+[ItemDef 0a7d]
+//large made bed
+DupeItem=0a78
+
+[ItemDef 0a7e]
+//large made bed
+DupeItem=0a78
+
+[ItemDef 0a7f]
+//large made bed
+DupeItem=0a78
+
+[ItemDef 0a80]
+//large made bed
+DupeItem=0a78
+
+[ItemDef 0a81]
+//large made bed
+DupeItem=0a78
+
+[ItemDef 0a82]
+//large made bed
+DupeItem=0a78
+
+[ItemDef 0a83]
+//large made bed
+DupeItem=0a78
+
+[ItemDef 0a84]
+DefName=iBedLargeSheet
+Name=large bed with sheets
+Type=tBed
+TDATA1=0
+DYE=1
+Can=CanIFlip
+Value=600
+Weight=160.0
+Resources=1 iBedLargeUnmade,2 iSheet
+SkillMake=Carpentry 94.7,Tailoring 75.0,tCarpentry,tSewingKit
+Category=Decoration - Furniture
+Subsection=Beds
+Description=Large Bed (sheet only)
+DupeList=0a85,0a86,0a87,0a88,0a89,0a8a,0a8b
+
+[ItemDef 0a85]
+//large bed (sheet only)
+DupeItem=0a84
+
+[ItemDef 0a86]
+//large bed (sheet only)
+DupeItem=0a84
+
+[ItemDef 0a87]
+//large bed (sheet only)
+DupeItem=0a84
+
+[ItemDef 0a88]
+//large bed (sheet only)
+DupeItem=0a84
+
+[ItemDef 0a89]
+//large bed (sheet only)
+DupeItem=0a84
+
+[ItemDef 0a8a]
+//large bed (sheet only)
+DupeItem=0a84
+
+[ItemDef 0a8b]
+//large bed (sheet only)
+DupeItem=0a84
+
+[ItemDef 0a8c]
+//large made bed
+DupeItem=0a78
+
+[ItemDef 0a8d]
+//large made bed
+DupeItem=0a78
+
+[ItemDef 0a8e]
+//large made bed
+DupeItem=0a78
+
+[ItemDef 0a8f]
+//large made bed
+DupeItem=0a78
+
+[ItemDef 0a90]
+//large made bed
+DupeItem=0a78
+
+[ItemDef 0a91]
+//large made bed
+DupeItem=0a78
+
+[ItemDef 0a92]
+DefName=iSheet
+Name=folded sheet
+DYE=1
+Can=CanIFlip
+Value=32
+Weight=5.5
+Resources=5 iCloth,5 iThread
+SkillMake=Tailoring 35.0,tSewingKit
+Category=Decoration - Furniture
+Subsection=Bedding
+Description=Folded Sheet
+DupeList=0a93,0a94,0a95
+
+[ItemDef 0a93]
+//folded sheet
+DupeItem=0a92
+
+[ItemDef 0a94]
+//folded sheet
+DupeItem=0a92
+
+[ItemDef 0a95]
+//folded sheet
+DupeItem=0a92
+
+[ItemDef 0a97]
+DefName=iBookcaseFull
+Type=tContainer
+TDATA2=04d
+Can=CanIFlip
+Value=140
+Weight=94.2
+Resources=25 iLog, 20 iBookSm
+SkillMake=Carpentry 31.5,tCarpentry
+Category=Decoration - Furniture
+Subsection=Bookcases
+Description=Bookcase (Dark Wood) (Full)
+DupeList=0a98,0a99,0a9a,0a9b,0a9c
+
+[ItemDef 0a98]
+//bookcase
+DupeItem=0a97
+
+[ItemDef 0a99]
+//bookcase
+DupeItem=0a97
+
+[ItemDef 0a9a]
+//bookcase
+DupeItem=0a97
+
+[ItemDef 0a9b]
+//bookcase
+DupeItem=0a97
+
+[ItemDef 0a9c]
+//bookcase
+DupeItem=0a97
+
+[ItemDef 0a9d]
+DefName=iBookcase
+Type=tContainer
+TDATA2=04d
+Can=CanIFlip
+Value=35
+Weight=24.2
+Resources=25 iLog
+SkillMake=Carpentry 31.5, tCarpentry
+Category=Decoration - Furniture
+Subsection=Bookcases
+Description=Bookcase (Dark Wood) (Empty)
+DupeList=0a9e
+
+[ItemDef 0a9e]
+//bookcase
+DupeItem=0a9d
+
+[ItemDef 0a9f]
+DefName=iDisplaycaseRailCustomEdge
+Weight=8.1
+Resources=2 iBoard,1 iNails,6 iGlassRaw
+Category=Decoration - Furniture
+Subsection=Display Case
+Description=Display Case
+DupeList=0aa0,0aa1,0aa2
+
+[ItemDef 0aa0]
+//displaycase
+DupeItem=0a9f
+
+[ItemDef 0aa1]
+//displaycase
+DupeItem=0a9f
+
+[ItemDef 0aa2]
+//displaycase
+DupeItem=0a9f
+
+[ItemDef 0aa3]
+DefName=iDisplaycaseRailCustomCorner
+Weight=8.1
+Resources=2 iBoard,1 iNails,6 iGlassRaw
+Category=Decoration - Furniture
+Subsection=Display Case
+Description=Display Case
+DupeList=0aa4,0aa5,0b18
+
+[ItemDef 0aa4]
+//displaycase
+DupeItem=0aa3
+
+[ItemDef 0aa5]
+//displaycase
+DupeItem=0aa3
+
+[ItemDef 0afd]
+DefName=iDisplaycaseRailLongEnd
+Weight=8.1
+Resources=2 iBoard,1 iNails,6 iGlassRaw
+Category=Decoration - Furniture
+Subsection=Display Case
+Description=Display Case
+DupeList=0aff,0b03,0b05
+
+[ItemDef 0afe]
+DefName=iDisplaycaseRailLongCenter
+Weight=8.1
+Resources=2 iBoard,1 iNails,6 iGlassRaw
+Category=Decoration - Furniture
+Subsection=Display Case
+Description=Display Case
+DupeList=0b04
+
+[ItemDef 0aff]
+//displaycase
+DupeItem=0afd
+
+[ItemDef 0b00]
+DefName=iDisplaycaseBaseLongEnd
+Weight=27.2
+Resources=25 iBoard,2 iNails,2 iCloth
+Category=Decoration - Furniture
+Subsection=Display Case
+Description=Display Case
+DupeList=0b02,0b06,0b08
+
+[ItemDef 0b01]
+DefName=iDisplaycaseBaseLongCenter
+Weight=27.2
+Resources=25 iBoard,2 iNails,2 iCloth
+Category=Decoration - Furniture
+Subsection=Display Case
+Description=Display Case
+DupeList=0b07
+
+[ItemDef 0b02]
+//displaycase
+DupeItem=0b00
+
+[ItemDef 0b03]
+//displaycase
+DupeItem=0afd
+
+[ItemDef 0b04]
+//displaycase
+DupeItem=0afe
+
+[ItemDef 0b05]
+//displaycase
+DupeItem=0afd
+
+[ItemDef 0b06]
+//displaycase
+DupeItem=0b00
+
+[ItemDef 0b07]
+//displaycase
+DupeItem=0b01
+
+[ItemDef 0b08]
+//displaycase
+DupeItem=0b00
+
+[ItemDef 0b09]
+DefName=iDisplaycase1Base
+Weight=27.2
+Resources=25 iBoard,2 iNails,2 iCloth
+Category=Decoration - Furniture
+Subsection=Display Case
+Description=Display Case
+DupeList=0b0a
+
+[ItemDef 0b0a]
+//displaycase
+DupeItem=0b09
+
+[ItemDef 0b0b]
+DefName=iDisplaycase1Rail
+Weight=8.1
+Resources=2 iBoard,1 iNails,6 iGlassRaw
+Category=Decoration - Furniture
+Subsection=Display Case
+Description=Display Case
+DupeList=0b0c
+
+[ItemDef 0b0c]
+//displaycase
+DupeItem=0b0b
+
+[ItemDef 0b0d]
+DefName=iDisplaycase2Base
+Weight=27.2
+Resources=25 iBoard,2 iNails,2 iCloth
+Category=Decoration - Furniture
+Subsection=Display Case
+Description=Display Case
+DupeList=0b0e
+
+[ItemDef 0b0e]
+//displaycase
+DupeItem=0b0d
+
+[ItemDef 0b0f]
+DefName=iDisplaycaseBaseCustomBlock
+Weight=27.2
+Resources=25 iBoard,2 iNails,2 iCloth
+Category=Decoration - Furniture
+Subsection=Display Case
+Description=Display Case
+
+[ItemDef 0b10]
+DefName=iDisplaycaseBaseCustomCorner
+Weight=27.2
+Resources=25 iBoard,2 iNails,2 iCloth
+Category=Decoration - Furniture
+Subsection=Display Case
+Description=Display Case
+DupeList=0b11,0b12,0b13
+
+[ItemDef 0b11]
+//displaycase
+DupeItem=0b10
+
+[ItemDef 0b12]
+//displaycase
+DupeItem=0b10
+
+[ItemDef 0b13]
+//displaycase
+DupeItem=0b10
+
+[ItemDef 0b14]
+DefName=iDisplaycaseBaseCustomEdge
+Weight=27.2
+Resources=25 iBoard,2 iNails,2 iCloth
+Category=Decoration - Furniture
+Subsection=Display Case
+Description=Display Case
+DupeList=0b15,0b16,0b17
+
+[ItemDef 0b15]
+//displaycase
+DupeItem=0b14
+
+[ItemDef 0b16]
+//displaycase
+DupeItem=0b14
+
+[ItemDef 0b17]
+//displaycase
+DupeItem=0b14
+
+[ItemDef 0b18]
+//displaycase
+DupeItem=0aa3
+
+[ItemDef 0b2c]
+DefName=iBenchWoodDark
+Type=tChair
+Can=CanIFlip
+Value=32
+Weight=17.4
+Resources=17 iBoard,4 iNails
+SkillMake=Carpentry 52.6,tCarpentry
+Category=Decoration - Furniture
+Subsection=Chairs
+Description=Bench (Dark Wood)
+DupeList=0b2d
+
+[ItemDef 0b2d]
+//Bench (Dark Wood)
+DupeItem=0b2c
+
+[ItemDef 0b2e]
+DefName=iChairWoodRoughDark
+Type=tChair
+Can=CanIFlip
+Value=28
+Weight=17.4
+Resources=17 iBoard,4 iNails
+SkillMake=Carpentry 25.0,tCarpentry
+Category=Decoration - Furniture
+Subsection=Chairs
+Description=Wooden Chair (Dark)
+DupeList=0b2f,0b30,0b31
+
+[ItemDef 0b2f]
+//Wooden Chair (Dark)
+DupeItem=0b2e
+
+[ItemDef 0b30]
+//Wooden Chair (Dark)
+DupeItem=0b2e
+
+[ItemDef 0b31]
+//Wooden Chair (Dark)
+DupeItem=0b2e
+
+[ItemDef 0b32]
+DefName=iChairThrone
+Type=tChair
+Can=CanIFlip
+Value=79
+Weight=48.5
+Resources=20 iBoard,4 iCloth,4 iCotton,1 i_nails,4 i_ingotGold
+SkillMake=Carpentry 52.6,tCarpentry
+Category=Decoration - Furniture
+Subsection=Chairs
+Description=Throne
+DupeList=0b33
+
+[ItemDef 0b33]
+// chair - throne - W
+DupeItem=0b32
+
+[ItemDef 0b34]
+DefName=iTableNightstand
+Type=tTable
+Can=CanIFlip
+Value=29
+Weight=17.4
+Resources=17 iBoard,4 iNails
+SkillMake=Carpentry 42.1,tCarpentry
+Category=Decoration - Furniture
+Subsection=Tables
+Description=Nightstand (end piece)
+DupeList=0b35,0b36,0b37,0b38,0b39,0b3a,0b3c
+
+[ItemDef 0b35]
+//nightstand
+DupeItem=0b34
+
+[ItemDef 0b36]
+//nightstand
+DupeItem=0b34
+
+[ItemDef 0b37]
+//nightstand
+DupeItem=0b34
+
+[ItemDef 0b38]
+//nightstand
+DupeItem=0b34
+
+[ItemDef 0b39]
+//nightstand
+DupeItem=0b34
+
+[ItemDef 0b3a]
+//nightstand
+DupeItem=0b34
+
+[ItemDef 0b3c]
+//nightstand
+DupeItem=0b34
+
+[ItemDef 0b3d]
+DefName=iTableCounter
+Can=CanIFlip
+Value=32
+Weight=10.4
+Resources=10 iBoard,4 iNails
+SkillMake=Carpentry 41.1,tCarpentry
+Category=Decoration - Furniture
+Subsection=Tables
+Description=Counter
+DupeList=0b3e,0b3f,0b40
+
+[ItemDef 0b3e]
+//counter
+DupeItem=0b3d
+
+[ItemDef 0b3f]
+//counter
+DupeItem=0b3d
+
+[ItemDef 0b40]
+//counter
+DupeItem=0b3d
+
+[ItemDef 0b49]
+DefName=iTableWriting
+Type=tTable
+Can=CanIFlip
+Value=60
+Weight=26.2
+Resources=26 iBoard,2 iNails
+SkillMake=Carpentry 63.1,tCarpentry
+Category=Decoration - Furniture
+Subsection=Tables
+Description=Writing Table
+DupeList=0b4a,0b4b,0b4c
+
+[ItemDef 0b4a]
+//writing table
+DupeItem=0b49
+
+[ItemDef 0b4b]
+//writing table
+DupeItem=0b49
+
+[ItemDef 0b4c]
+//writing table
+DupeItem=0b49
+
+[ItemDef 0b4e]
+DefName=iChairWoodFancyCushion
+Type=tChair
+DYE=1
+Can=CanIFlip
+Value=52
+Weight=27.2
+Resources=20 iBoard,3 iCloth,4 iCotton,2 i_nails
+SkillMake=Carpentry 72.8,tCarpentry
+Category=Decoration - Furniture
+Subsection=Chairs
+Description=Chair (Gray Cushion)
+DupeList=0b4f,0b50,0b51
+
+[ItemDef 0b4f]
+//Chair (Gray Cushion)
+DupeItem=0b4e
+
+[ItemDef 0b50]
+//Chair (Gray Cushion)
+DupeItem=0b4e
+
+[ItemDef 0b51]
+//Chair (Gray Cushion)
+DupeItem=0b4e
+
+[ItemDef 0b52]
+DefName=iChairWoodCushion
+Type=tChair
+DYE=1
+Can=CanIFlip
+Value=49
+Weight=27.2
+Resources=20 iBoard,3 iCloth,4 iCotton,2 i_nails
+SkillMake=Carpentry 42.1,tCarpentry
+Category=Decoration - Furniture
+Subsection=Chairs
+Description=Chair (Gray Cushion)
+DupeList=0b53,0b54,0b55
+
+[ItemDef 0b53]
+// chair - Wood chair with gray cushion, dyeable - N
+DupeItem=0b52
+
+[ItemDef 0b54]
+// chair - Wood chair with gray cushion, dyeable - S
+DupeItem=0b52
+
+[ItemDef 0b55]
+// chair - Wood chair with gray cushion, dyeable - E
+DupeItem=0b52
+
+[ItemDef 0b56]
+DefName=iChairWood
+Type=tChair
+Can=CanIFlip
+Value=20
+Weight=13.2
+Resources=13 iBoard,2 iNails
+SkillMake=Carpentry 29.3,tCarpentry
+Category=Decoration - Furniture
+Subsection=Chairs
+Description=Chair (Light Wood)
+DupeList=0b57,0b58,0b59
+
+[ItemDef 0b57]
+// chair - light wood chair - N
+DupeItem=0b56
+
+[ItemDef 0b58]
+// chair - light wood chair - E
+DupeItem=0b56
+
+[ItemDef 0b59]
+// chair - light wood chair - S
+DupeItem=0b56
+
+[ItemDef 0b5a]
+DefName=iChairWood2
+Type=tChair
+Can=CanIFlip
+Value=34
+Weight=14.2
+Resources=13 iBoard,1 iStraw,2 iNails
+SkillMake=Carpentry 25.5,tCarpentry
+Category=Decoration - Furniture
+Subsection=Chairs
+Description=Chair (wicker seat)
+DupeList=0b5b,0b5c,0b5d
+
+[ItemDef 0b5b]
+// chair wood bamboo
+DupeItem=0b5a
+
+[ItemDef 0b5c]
+// chair wood bamboo
+DupeItem=0b5a
+
+[ItemDef 0b5d]
+// chair wood bamboo
+DupeItem=0b5a
+
+[ItemDef 0b5e]
+// chair - light stool
+DupeItem=0a2b
+
+[ItemDef 0b5f]
+DefName=iBenchBoardRoughEnd
+Type=tChair
+Can=CanIFlip
+Value=14
+Weight=4.2
+Resources=4 iBoard,2 iNails
+SkillMake=Carpentry 21.0,tCarpentry
+Category=Decoration - Furniture
+Subsection=Chairs
+Description=Bench (rough wood)
+DupeList=0b60,0b61,0b65,0b66,0b67
+
+[ItemDef 0b60]
+// bench board rough
+DupeItem=0b5f
+
+[ItemDef 0b61]
+// bench board rough
+DupeItem=0b5f
+
+[ItemDef 0b62]
+DefName=iBenchWoodSmooth
+Type=tChair
+Can=CanIFlip
+Value=14
+Weight=4.2
+Resources=4 iBoard,2 iNails
+SkillMake=Carpentry 44.3,tCarpentry
+Category=Decoration - Furniture
+Subsection=Chairs
+Description=Bench (smooth wood)
+DupeList=0b63,0b64,0b68,0b69,0b6a
+
+[ItemDef 0b63]
+// bench wood smooth
+DupeItem=0b62
+
+[ItemDef 0b64]
+// bench wood smooth
+DupeItem=0b62
+
+[ItemDef 0b65]
+// bench board rough
+DupeItem=0b5f
+
+[ItemDef 0b66]
+// bench board rough
+DupeItem=0b5f
+
+[ItemDef 0b67]
+// bench board rough
+DupeItem=0b5f
+
+[ItemDef 0b68]
+// bench wood smooth
+DupeItem=0b62
+
+[ItemDef 0b69]
+// bench wood smooth
+DupeItem=0b62
+
+[ItemDef 0b6a]
+// bench wood smooth
+DupeItem=0b62
+
+[ItemDef 0b6b]
+DefName=iTableWoodSmoothNarrowEnd
+Type=tTable
+Can=CanIFlip
+Value=45
+Weight=16.3
+Resources=16 iBoard,3 iNails
+SkillMake=Carpentry 73.1,tCarpentry
+Category=Decoration - Furniture
+Subsection=Tables
+Description=Table (smooth wood narrow)
+DupeList=0b6c,0b6d,0b7e,0b7f,0b80
+
+[ItemDef 0b6c]
+// table narrow smooth
+DupeItem=0b6b
+
+[ItemDef 0b6d]
+// table narrow smooth
+DupeItem=0b6b
+
+[ItemDef 0b6e]
+DefName=iTableWoodSolidNarrowEnd
+Type=tTable
+Can=CanIFlip
+Value=43
+Weight=16.3
+Resources=16 iBoard,3 iNails
+SkillMake=Carpentry 47.3,tCarpentry
+Category=Decoration - Furniture
+Subsection=Tables
+Description=Table (solid wood narrow)
+DupeList=0b6f,0b81,0b82
+
+[ItemDef 0b6f]
+// table solid wood
+DupeItem=0b6e
+
+[ItemDef 0b70]
+DefName=iTableWoodSmoothLarge
+Type=tTable
+Can=CanIFlip
+Value=42
+Weight=14.3
+Resources=14 iBoard,3 iNails
+SkillMake=Carpentry 81.9,tCarpentry
+Category=Decoration - Furniture
+Subsection=Tables
+Description=Table (smooth large)
+DupeList=0b71,0b72,0b73,0b74,0b83,0b84,0b85,0b86,0b87
+
+[ItemDef 0b71]
+//table (smooth large)
+DupeItem=0b70
+
+[ItemDef 0b72]
+//table (smooth large)
+DupeItem=0b70
+
+[ItemDef 0b73]
+//table (smooth large)
+DupeItem=0b70
+
+[ItemDef 0b74]
+//table (smooth large)
+DupeItem=0b70
+
+[ItemDef 0b75]
+DefName=iTableBoardRoughEnd
+Type=tTable
+Can=CanIFlip
+Value=36
+Weight=12.3
+Resources=12 iBoard,3 iNails
+SkillMake=Carpentry 63.1,tCarpentry
+Category=Decoration - Furniture
+Subsection=Tables
+Description=Table (picnic)
+DupeList=0b76,0b88,0b89
+
+[ItemDef 0b76]
+//table (picnic)
+DupeItem=0b75
+
+[ItemDef 0b77]
+DefName=iTableBoardRoughLarge
+Type=tTable
+Can=CanIFlip
+Value=38
+Weight=12.3
+Resources=12 iBoard,3 iNails
+SkillMake=Carpentry 78.5,tCarpentry
+Category=Decoration - Furniture
+Subsection=Tables
+Description=Table (rough large)
+DupeList=0b78,0b79,0b7a,0b77,0b8a,0b8b,0b8c,0b8d,0b8e
+
+[ItemDef 0b78]
+//table (rough large)
+DupeItem=0b77
+
+[ItemDef 0b79]
+//table (rough large)
+DupeItem=0b77
+
+[ItemDef 0b7a]
+//table (rough large)
+DupeItem=0b77
+
+[ItemDef 0b7b]
+//table (rough large)
+DupeItem=0b77
+
+[ItemDef 0b7c]
+DefName=iTableWoodRoughSmall
+Type=tTable
+Can=CanIFlip
+Value=16
+Weight=16.2
+Resources=8 iBoard,2 iNails
+SkillMake=Carpentry 43.1,tCarpentry
+Category=Decoration - Furniture
+Subsection=Tables
+Description=Table (rough small)
+DupeList=0b8f
+
+[ItemDef 0b7d]
+DefName=iTableWoodRoughBoard
+Type=tTable
+Can=CanIFlip
+Value=19
+Weight=22.2
+Resources=11 iBoard,2 iNails
+SkillMake=Carpentry 40.0,tCarpentry
+Category=Decoration - Furniture
+Subsection=Tables
+Description=Table (rough board)
+DupeList=0b90
+
+[ItemDef 0b7e]
+// table narrow smooth
+DupeItem=0b6b
+
+[ItemDef 0b7f]
+// table narrow smooth
+DupeItem=0b6b
+
+[ItemDef 0b80]
+// table narrow smooth
+DupeItem=0b6b
+
+[ItemDef 0b81]
+// table solid wood
+DupeItem=0b6e
+
+[ItemDef 0b82]
+// table solid wood
+DupeItem=0b6e
+
+[ItemDef 0b83]
+//table (smooth large)
+DupeItem=0b70
+
+[ItemDef 0b84]
+//table (smooth large)
+DupeItem=0b70
+
+[ItemDef 0b85]
+//table (smooth large)
+DupeItem=0b70
+
+[ItemDef 0b86]
+//table (smooth large)
+DupeItem=0b70
+
+[ItemDef 0b87]
+//table (smooth large)
+DupeItem=0b70
+
+[ItemDef 0b88]
+//table (picnic)
+DupeItem=0b75
+
+[ItemDef 0b89]
+//table (picnic)
+DupeItem=0b75
+
+[ItemDef 0b8a]
+//table (rough large)
+DupeItem=0b77
+
+[ItemDef 0b8b]
+//table (rough large)
+DupeItem=0b77
+
+[ItemDef 0b8c]
+//table (rough large)
+DupeItem=0b77
+
+[ItemDef 0b8d]
+//table (rough large)
+DupeItem=0b77
+
+[ItemDef 0b8e]
+//table (rough large)
+DupeItem=0b77
+
+[ItemDef 0b8f]
+// table (rough small)
+DupeItem=0b7c
+
+[ItemDef 0b90]
+// table (rough board)
+DupeItem=0b7d
+
+[ItemDef 0b91]
+DefName=iBenchWoodHighback
+Type=tChair
+Can=CanIFlip
+Value=57
+Weight=20.6
+Resources=20 iBoard,6 iNails
+SkillMake=Carpentry 47.2,tCarpentry
+Category=Decoration - Furniture
+Subsection=Chairs
+Description=Bench (High Back)
+DupeList=0b92,0b93,0b94
+
+[ItemDef 0b92]
+// bench wood highback
+DupeItem=0b91
+
+[ItemDef 0b93]
+// bench wood highback
+DupeItem=0b91
+
+[ItemDef 0b94]
+// bench wood highback
+DupeItem=0b91
+
+
+[ItemDef 0c10]
+DefName=iChairWoodBambooBroken
+Can=CanIFlip
+Weight=14.2
+Resources=13 iLogBamboo,1 iStraw,2 iNails
+Category=Decoration - Furniture
+Subsection=Broken Furniture
+Description=Chair
+DupeList=0c11
+
+[ItemDef 0c11]
+//chair broken
+DupeItem=0c10
+
+[ItemDef 0c12]
+//broken armoire
+DefName=iArmoireBroken
+Can=CanIFlip
+Weight=36.0
+Resources=35 iBoard,6 iNails,4 iHinge
+Category=Decoration - Furniture
+Subsection=Broken Furniture
+Description=Armoire
+DupeList=0c13
+
+[ItemDef 0c13]
+//broken armoire
+DupeItem=0c12
+
+[ItemDef 0c14]
+DefName=iBookcaseRuined
+Can=CanIFlip
+Weight=94.2
+Resources=1 iBookcase,20 iBookSm
+Category=Decoration - Furniture
+Subsection=Broken Furniture
+Description=Bookcase
+DupeList=0c15
+
+[ItemDef 0c15]
+//ruined bookcase
+DupeItem=0c14
+
+[ItemDef 0c16]
+DefName=iBookDamaged
+Weight=2.2
+Resources=20 iPaper,1 iThread,1 iHidesCut
+Category=Decoration - Furniture
+Subsection=Broken Furniture
+Description=Books
+
+[ItemDef 0c17]
+DefName=iChairCovered
+Can=CanIFlip
+Weight=18.2
+Resources=1 iChairWood,1 iSheet
+Category=Decoration - Furniture
+Subsection=Chairs
+Description=Chair (Covered)
+DupeList=0c18
+
+[ItemDef 0c18]
+//chair covered
+DupeItem=0c17
+
+[ItemDef 0c19]
+DefName=iChairWoodBambooBrokenNoseat
+Can=CanIFlip
+Weight=13.2
+Resources=13 iLog,2 iNails
+Category=Decoration - Furniture
+Subsection=Broken Furniture
+Description=Chair
+DupeList=0c1a
+
+[ItemDef 0c1a]
+//chair broken seat
+DupeItem=0c19
+
+[ItemDef 0c1b]
+DefName=iChairWoodFancyCushionBroken
+Can=CanIFlip
+Weight=27.2
+Resources=20 iLog,3 iCloth,4 iCotton,2 i_nails
+Category=Decoration - Furniture
+Subsection=Broken Furniture
+Description=Chair
+DupeList=0c1c,0c1d,0c1e
+
+[ItemDef 0c1c]
+//broken fancy wooden chair
+DupeItem=0c1b
+
+[ItemDef 0c1d]
+//broken fancy wooden chair
+DupeItem=0c1b
+
+[ItemDef 0c1e]
+//broken fancy wooden chair
+DupeItem=0c1b
+
+[ItemDef 0c1f]
+DefName=iClockBroken
+Weight=9.2
+Resources=1 iClockFrame,1 iPaper,1 iBoard
+Category=Decoration - Furniture
+Subsection=Broken Furniture
+Description=Clock
+
+[ItemDef 0c20]
+DefName=iDresserBroken
+Can=CanIFlip
+Weight=28.9
+Resources=8 iBoard,20 iNails,6 iDresserDrawer,1 i_ingotSilver,5 i_glass_raw
+Category=Decoration - Furniture
+Subsection=Broken Furniture
+Description=Dresser (Vanity)
+DupeList=0c21,0c22,0c23
+
+[ItemDef 0c21]
+//broken dresser
+DupeItem=0c20
+
+[ItemDef 0c22]
+//broken dresser
+DupeItem=0c20
+
+[ItemDef 0c23]
+//broken dresser
+DupeItem=0c20
+
+[ItemDef 0c24]
+DefName=iDresserBroken2
+Can=CanIFlip
+Weight=11.2
+Resources=5 iBoard,10 iNails,1 iDrawer2
+Category=Decoration - Furniture
+Subsection=Broken Furniture
+Description=Dresser
+DupeList=0c25
+
+[ItemDef 0c25]
+//broken furniture
+DupeItem=0c24
+
+[ItemDef 0c26]
+Name=ruined bed
+Type=tBed
+Category=Decoration - Furniture
+Subsection=Broken Furniture
+Description=Ruined Large Bed (flawed graphics)
+DupeList=0c27,0c28,0c29,0c2a,0c2b
+
+[ItemDef 0c27]
+//Bed (flawed graphics)
+DupeItem=0c26
+
+[ItemDef 0c28]
+//Bed (flawed graphics)
+DupeItem=0c26
+
+[ItemDef 0c29]
+//Bed (flawed graphics)
+DupeItem=0c26
+
+[ItemDef 0c2a]
+//Bed (flawed graphics)
+DupeItem=0c26
+
+[ItemDef 0c2b]
+//Bed (flawed graphics)
+DupeItem=0c26
+
+[ItemDef 0c2c]
+DefName=iPaintingRuined
+Weight=6.1
+Resources=5 iBoard,1 iCanvas,1 iNails
+Category=Decoration - Wall Hangings
+Subsection=Paintings
+Description=Ruined Painting
+
+[ItemDef 0c2d]
+DefName=iDebris
+Resources=3 iBoard,1 iNails,2 iDirt
+Category=Decoration - Furniture
+Subsection=Broken Furniture
+Description=Debris
+
+[ItemDef 0c2e]
+DefName=iDebris2
+Resources=3 iBoard,1 iNails,2 iDirt
+Category=Decoration - Furniture
+Subsection=Broken Furniture
+Description=Debris
+
+[ItemDef 0c2f]
+DefName=iDebris3
+Resources=3 iBoard,1 iNails,2 iDirt
+Category=Decoration - Furniture
+Subsection=Broken Furniture
+Description=Debris
+
+[ItemDef 0c30]
+DefName=iDebris4
+Resources=3 iBoard,1 iNails,2 iDirt
+Category=Decoration - Furniture
+Subsection=Broken Furniture
+Description=Debris
+
+[ItemDef 0c31]
+DefName=iTableCovered
+Name=covered table
+DYE=1
+Can=CanIFlip
+Weight=18.2
+Resources=1 iTableNightstand,1 iCloth
+Category=Decoration - Furniture
+Subsection=Broken Furniture
+Description=Covered Table
+DupeList=0c32,0c33,0c34,0c35,0c36
+
+[ItemDef 0c32]
+//covered table
+DupeItem=0c31
+
+[ItemDef 0c33]
+//covered table
+DupeItem=0c31
+
+[ItemDef 0c34]
+//covered table
+DupeItem=0c31
+
+[ItemDef 0c35]
+//covered table
+DupeItem=0c31
+
+[ItemDef 0c36]
+//covered table
+DupeItem=0c31
+
+[ItemDef 0c39]
+DefName=iPegboard
+Weight=2.0
+Resources=2 iBoard
+Category=Decoration - Furniture
+Subsection=Hangers
+Description=Peg Board
+DupeList=0c3a
+
+[ItemDef 0c3a]
+//pegboard
+DupeItem=0c39
+
+[ItemDef 0db0]
+//large made bed
+DupeItem=0a78
+
+[ItemDef 0db1]
+//large made bed
+DupeItem=0a78
+
+[ItemDef 0db2]
+//large made bed
+DupeItem=0a78
+
+[ItemDef 0db3]
+//large made bed
+DupeItem=0a78
+
+[ItemDef 0db4]
+//large made bed
+DupeItem=0a78
+
+[ItemDef 0db5]
+//large made bed
+DupeItem=0a78
+
+
+[ItemDef 0e50]
+DefName=iBenchWoodLight
+Name=light wood bench
+Type=tChair
+Can=CanIFlip
+Value=32
+Weight=17.4
+Resources=17 iBoard,4 iNails
+SkillMake=Carpentry 52.6,tCarpentry
+Category=Decoration - Furniture
+Subsection=Chairs
+Description=Bench (light wood)
+DupeList=0e51,0e52,0e53
+
+[ItemDef 0e51]
+//Bench (light wood)
+DupeItem=0e50
+
+[ItemDef 0e52]
+//Bench (light wood)
+DupeItem=0e50
+
+[ItemDef 0e53]
+//Bench (light wood)
+DupeItem=0e50
+
+[ItemDef 0118b]
+DefName=iTableRunnerPurple
+Name=table with purple runner
+Type=tTable
+Can=CanIFlip
+Value=139
+Weight=47.2
+Resources=27 iBoard,20 iCloth,2 iNails
+SkillMake=Carpentry 89.0,Tailoring 60.0,tCarpentry,tSewingKit
+Category=Decoration - Furniture
+Subsection=Tables
+Description=Table (Purple Runner)
+DupeList=0118c
+
+[ItemDef 0118c]
+// table - purple runner
+DupeItem=0118b
+
+[ItemDef 0118d]
+DefName=iTableRunnerRed
+Name=table with red runner
+Type=tTable
+Can=CanIFlip
+Value=139
+Weight=47.2
+Resources=27 iBoard,20 iCloth,2 iNails
+SkillMake=Carpentry 89.0,Tailoring 60.0,tCarpentry,tSewingKit
+Category=Decoration - Furniture
+Subsection=Tables
+Description=Table (Red Runner)
+DupeList=0118e
+
+[ItemDef 0118e]
+// table - red runner
+DupeItem=0118d
+
+[ItemDef 0118f]
+DefName=iTableRunnerBlue
+Name=table with blue runner
+Type=tTable
+Can=CanIFlip
+Value=136
+Weight=47.2
+Resources=26 iBoard,20 iCloth,2 iNails
+SkillMake=Carpentry 83.0,Tailoring 60.0,tCarpentry,tSewingKit
+Category=Decoration - Furniture
+Subsection=Tables
+Description=Table (Blue Runner)
+DupeList=01190,01191,01192
+
+[ItemDef 01190]
+// table - blue runner
+DupeItem=0118f
+
+[ItemDef 01191]
+// table - blue runner
+DupeItem=0118f
+
+[ItemDef 01192]
+// table - blue runner
+DupeItem=0118f
+
+[ItemDef 011ce]
+DefName=iBedDouble1
+Type=tBed
+TDATA1=0
+Can=CanIFlip
+Weight=200.0
+Resources=150 iBoard,20 iCloth,25 iNails,3 i_bedroll
+Category=Decoration - Furniture
+Subsection=Beds
+Description=King Sized Bed
+DupeList=011cf,011d0,011d1,011d2,011d3,011d4,011d5
+
+[ItemDef 011cf]
+//king sized bed
+DupeItem=011ce
+
+[ItemDef 011d0]
+//king sized bed
+DupeItem=011ce
+
+[ItemDef 011d1]
+//king sized bed
+DupeItem=011ce
+
+[ItemDef 011d2]
+//king sized bed
+DupeItem=011ce
+
+[ItemDef 011d3]
+//king sized bed
+DupeItem=011ce
+
+[ItemDef 011d4]
+//king sized bed
+DupeItem=011ce
+
+[ItemDef 011d5]
+//king sized bed
+DupeItem=011ce
+
+[ItemDef 011d6]
+DefName=iTableBamboo
+Type=tTable
+Can=CanIFlip
+Value=104
+Weight=30.4
+Resources=30 iLogBamboo,4 iNails
+SkillMake=Carpentry 36.7,tCarpentry
+Category=Decoration - Furniture
+Subsection=Tables
+Description=Table (Bamboo)
+DupeList=011d7,011d8,011d9,011da,011db
+
+[ItemDef 011d7]
+//bamboo table
+DupeItem=011d6
+
+[ItemDef 011d8]
+//bamboo table
+DupeItem=011d6
+
+[ItemDef 011d9]
+//bamboo table
+DupeItem=011d6
+
+[ItemDef 011da]
+//bamboo table
+DupeItem=011d6
+
+[ItemDef 011db]
+//bamboo table
+DupeItem=011d6
+
+[ItemDef 011dc]
+DefName=iTableLogEnd
+Type=tTable
+Can=CanIFlip
+Value=42
+Weight=30.4
+Resources=15 iLog,4 iNails
+SkillMake=Carpentry 39.4,tCarpentry
+Category=Decoration - Furniture
+Subsection=Tables
+Description=Log Table
+DupeList=011dd,011de,011df,011e0,011e1
+
+[ItemDef 011dd]
+//log table
+DupeItem=011dc
+
+[ItemDef 011de]
+//log table
+DupeItem=011dc
+
+[ItemDef 011df]
+//log table
+DupeItem=011dc
+
+[ItemDef 011e0]
+//log table
+DupeItem=011dc
+
+[ItemDef 011e1]
+//log table
+DupeItem=011dc
+
+[ItemDef 011ea]
+DefName=iPillowStraw
+Can=CanIFlip
+Value=13
+Weight=3.1
+Resources=1 iStraw,1 iCloth,1 iThread
+SkillMake=Tailoring 27.1,tSewingKit
+Category=Decoration - Furniture
+Subsection=Bedding
+Description=Straw Pillow
+DupeList=011eb
+
+[ItemDef 011eb]
+//straw pillow
+DupeItem=011ea
+
+
+[ItemDef 011f0]
+DefName=iHammock
+Can=CanIFlip
+Weight=5.0
+Resources=1 iRope,2 iLogBamboo,2 iCanvas
+Category=Decoration - Furniture
+Subsection=Beds
+Description=Hammock
+DupeList=011f1,011f2,011f3
+
+[ItemDef 011f1]
+//hammock
+DupeItem=011f0
+
+[ItemDef 011f2]
+//hammock
+DupeItem=011f0
+
+[ItemDef 011f3]
+//hammock
+DupeItem=011f0
+
+[ItemDef 011fc]
+DefName=iChairStoolBamboo
+Type=tChair
+Value=61
+Weight=17.1
+Resources=14 iLogBamboo,3 iCanvas,1 iNails
+SkillMake=Carpentry 40.0,tCarpentry
+Category=Decoration - Furniture
+Subsection=Chairs
+Description=Bamboo Stool
+
+[ItemDef 011fd]
+DefName=iCot
+Type=tBed
+TDATA1=2
+Can=CanIFlip
+Weight=17.0
+Resources=14 iLogBamboo,3 iCanvas,4 iRope
+SkillMake=Carpentry 40.0,tCarpentry
+Category=Decoration - Furniture
+Subsection=Beds
+Description=Cot
+DupeList=011fe,011ff,01200
+
+[ItemDef 011fe]
+//cot
+DupeItem=011fd
+
+[ItemDef 011ff]
+//cot
+DupeItem=011fd
+
+[ItemDef 01200]
+//cot
+DupeItem=011fd
+
+[ItemDef 01201]
+DefName=iTableStoneEnd
+Type=tTable
+Can=CanIFlip
+Value=100
+Weight=300.0
+Resources=30 iRockPlain
+Category=Decoration - Furniture
+Subsection=Tables
+Description=Table (Stone)
+DupeList=01202,01203,01204,01205,01206
+
+[ItemDef 01202]
+// table - stone
+DupeItem=01201
+
+[ItemDef 01203]
+// table - stone
+DupeItem=01201
+
+[ItemDef 01204]
+// table - stone
+DupeItem=01201
+
+[ItemDef 01205]
+// table - stone
+DupeItem=01201
+
+[ItemDef 01206]
+// table - stone
+DupeItem=01201
+
+[ItemDef 01207]
+DefName=iBenchStone1
+Type=tChair
+Can=CanIFlip
+Value=30
+Weight=40.0
+Resources=4 iRockPlain
+Category=Decoration - Furniture
+Subsection=Chairs
+Description=Stone Bench (cannot sit or walk over)
+DupeList=01208,01209,0120a,0120b,0120c
+
+[ItemDef 01208]
+//stone bench
+DupeItem=01207
+
+[ItemDef 01209]
+//stone bench
+DupeItem=01207
+
+[ItemDef 0120a]
+//stone bench
+DupeItem=01207
+
+[ItemDef 0120b]
+//stone bench
+DupeItem=01207
+
+[ItemDef 0120c]
+//stone bench
+DupeItem=01207
+
+
+[ItemDef 01218]
+DefName=iChairStone
+Type=tChair
+Can=CanIFlip
+Value=55
+Weight=100.0
+Resources=10 iRockPlain
+SkillMake=Carpentry 45.0
+Category=Decoration - Furniture
+Subsection=Chairs
+Description=Chair (Stone)
+DupeList=01219,0121a,0121b
+
+[ItemDef 01219]
+//gray stone chair
+DupeItem=01218
+
+[ItemDef 0121a]
+//gray stone chair
+DupeItem=01218
+
+[ItemDef 0121b]
+//gray stone chair
+DupeItem=01218
+
+
+[ItemDef 01397]
+DefName=iPillow
+Can=CanIFlip
+Value=24
+Weight=6.1
+Resources=4 iCloth,2 iWool,1 iThread
+SkillMake=Tailoring 39.0,tSewingKit
+Category=Decoration - Furniture
+Subsection=Bedding
+Description=Pillow
+DupeList=013a6
+
+[ItemDef 013a4]
+DefName=iPillow2
+Name=bed pillow
+DYE=1
+Can=CanIFlip
+Value=24
+Weight=6.1
+Resources=4 iCloth,2 iWool,1 iThread
+SkillMake=Tailoring 39.0,tSewingKit
+Category=Decoration - Furniture
+Subsection=Bedding
+Description=Bed Pillow
+DupeList=013a5
+
+[ItemDef 013a5]
+//pillow
+DupeItem=013a4
+
+[ItemDef 013a6]
+//pillow
+DupeItem=01397
+
+[ItemDef 013a7]
+DefName=iPillow3
+Name=small round pillow
+DYE=1
+Value=24
+Weight=6.1
+Resources=4 iCloth,2 iWool,1 iThread
+SkillMake=Tailoring 39.0,tSewingKit
+Category=Decoration - Furniture
+Subsection=Bedding
+Description=Pillow
+
+[ItemDef 013a8]
+DefName=iPillow4
+Name=round pillow
+DYE=1
+Value=24
+Weight=6.1
+Resources=4 iCloth,2 iWool,1 iThread
+SkillMake=Tailoring 39.0,tSewingKit
+Category=Decoration - Furniture
+Subsection=Bedding
+Description=Pillow
+
+[ItemDef 013a9]
+DefName=iPillow5
+Name=fluffy pillow
+DYE=1
+Can=CanIFlip
+Value=33
+Weight=6.1
+Resources=6 iCloth,3 iWool,1 iThread
+SkillMake=Tailoring 39.0,tSewingKit
+Category=Decoration - Furniture
+Subsection=Bedding
+Description=Pillow
+DupeList=013aa
+
+[ItemDef 013aa]
+//pillow
+DupeItem=013a9
+
+[ItemDef 013ab]
+DefName=iPillow6
+Name=square pillow
+DYE=1
+Value=24
+Weight=6.1
+Resources=4 iCloth,2 iWool,1 iThread
+SkillMake=Tailoring 39.0,tSewingKit
+Category=Decoration - Furniture
+Subsection=Bedding
+Description=Pillow
+
+[ItemDef 013ac]
+DefName=iPillow7
+Name=pillow with tassles
+DYE=1
+Value=24
+Weight=6.1
+Resources=4 iCloth,2 iWool,1 iThread
+SkillMake=Tailoring 39.0,tSewingKit
+Category=Decoration - Furniture
+Subsection=Bedding
+Description=Pillow
+
+[ItemDef 013ad]
+DefName=iPillow8
+Name=soft pillow
+DYE=1
+Can=CanIFlip
+Value=33
+Weight=6.1
+Resources=6 iCloth,3 iWool,1 iThread
+SkillMake=Tailoring 39.0,tSewingKit
+Category=Decoration - Furniture
+Subsection=Bedding
+Description=Pillow
+DupeList=013ae
+
+[ItemDef 013ae]
+//pillow
+DupeItem=013ad
+
+
+[ItemDef 01941]
+DefName=iMugsGlassBartop
+Weight=39.2
+Resources=9 iMug,1 iBarPiece
+Category=Decoration - Furniture
+Subsection=Bar
+Description=Mugs (Glass)
+
+[ItemDef 01942]
+DefName=iGobletsPewterBartop
+Weight=39.2
+Resources=9 iGoblet,1 iBarPiece
+Category=Decoration - Furniture
+Subsection=Bar
+Description=Goblets
+
+[ItemDef 01943]
+DefName=iTankardsPewterBartop
+Weight=42.2
+Resources=12 iMugPewter,1 iBarPiece
+Category=Decoration - Furniture
+Subsection=Bar
+Description=Tankards
+
+
+[ItemDef 01526]
+DefName=iChairThroneLb
+Type=tChair
+Can=CanIFlip
+Value=204
+Weight=120.0
+Resources=10 iRockPlain,5 iIngotGold,5 iVelvet,100 i_feather
+//SkillMake=Carpentry 89.4,t_carpentry
+Category=Decoration - Furniture
+Subsection=Chairs
+Description=Throne
+DupeList=01527
+
+[ItemDef 01527]
+//chair throne lb
+DupeItem=01526
+
+[ItemDef 0163a]
+DefName=iPillowLarge
+Name=large diamond pillow
+Value=39
+Weight=10.2
+Resources=6 iCloth,4 iWool,2 iThread
+SkillMake=Tailoring 49.0,tSewingKit
+Category=Decoration - Furniture
+Subsection=Bedding
+Description=Pillow
+
+[ItemDef 0163b]
+DefName=iPillow9
+Name=large square pillow
+Value=30
+Weight=10.2
+Resources=4 iCloth,2 iWool,4 iThread
+SkillMake=Tailoring 39.0,tSewingKit
+Category=Decoration - Furniture
+Subsection=Bedding
+Description=Pillow
+
+[ItemDef 0163c]
+DefName=iPillow10
+Name=small diamond pillow
+Value=30
+Weight=6.4
+Resources=4 iCloth,2 iWool,4 iThread
+SkillMake=Tailoring 39.0,tSewingKit
+Category=Decoration - Furniture
+Subsection=Bedding
+Description=Pillow
+
+
+[ItemDef 01667]
+DefName=iTableRunnerCheckered
+Name=table with checkered runner
+Type=tTable
+Can=CanIFlip
+Value=150
+Weight=52.2
+Resources=26 iBoard,2 iNails,26 iCloth
+SkillMake=Carpentry 61.3,Tailoring 43.1,tCarpentry,tSewingKit
+Category=Decoration - Furniture
+Subsection=Tables
+Description=Table (checkered runner)
+DupeList=01668,01669,0166a,0166b,0166c
+
+[ItemDef 01668]
+//table (checkered runner)
+DupeItem=01667
+
+[ItemDef 01669]
+//table (checkered runner)
+DupeItem=01667
+
+[ItemDef 0166a]
+//table (checkered runner)
+DupeItem=01667
+
+[ItemDef 0166b]
+//table (checkered runner)
+DupeItem=01667
+
+[ItemDef 0166c]
+//table (checkered runner)
+DupeItem=01667
+
+
+[ItemDef 01894]
+DefName=iBedRuined7
+Type=tBed
+TDATA1=0
+Can=CanIFlip
+Weight=149.5
+Resources=120 iBoard,15 iCloth,20 iNails,2 i_bedroll
+Category=Decoration - Furniture
+Subsection=Broken Furniture
+Description=Ruined Bed
+DupeList=01895,01896,01897,01898,01899,0189a,0189b
+
+[ItemDef 01895]
+//ruined bed
+DupeItem=01894
+
+[ItemDef 01896]
+//ruined bed
+DupeItem=01894
+
+[ItemDef 01897]
+//ruined bed
+DupeItem=01894
+
+[ItemDef 01898]
+//ruined bed
+DupeItem=01894
+
+[ItemDef 01899]
+//ruined bed
+DupeItem=01894
+
+[ItemDef 0189a]
+//ruined bed
+DupeItem=01894
+
+[ItemDef 0189b]
+//ruined bed
+DupeItem=01894
+
+
+[ItemDef 0190e]
+// Not really a door.
+DefName=iBarDoorNe
+Type=tNormal
+Can=CanIFlip
+Value=78
+Weight=30.2
+Resources=30 iBoard,1 iNails,1 iHinge
+SkillMake=Carpentry 80.0,tCarpentry
+Category=Decoration - Furniture
+Subsection=Bar
+Description=Bar Door
+DupeList=0190f
+
+[ItemDef 0190f]
+DefName=iBarDoorNw
+DupeItem=0190e
+
+[ItemDef 01910]
+DefName=iBarPiece
+Can=CanIFlip
+Value=73
+Weight=30.2
+Resources=30 iBoard,1 iNails
+SkillMake=Carpentry 80.0,tCarpentry
+Category=Decoration - Furniture
+Subsection=Bar
+Description=Bar
+DupeList=01911,01912,01913,01918,01919,0191a,0191b,0191c,0191d,0191e,0191f
+
+[ItemDef 01911]
+//bar
+DupeItem=01910
+
+[ItemDef 01912]
+//bar
+DupeItem=01910
+
+[ItemDef 01913]
+//bar
+DupeItem=01910
+
+[ItemDef 01914]
+DefName=iTowel
+Value=14
+Weight=3.1
+Resources=3 iCloth,1 iThread
+SkillMake=Tailoring 33.0,tSewingKit
+Category=Decoration - Furniture
+Subsection=Bedding
+Description=Towel
+
+[ItemDef 01915]
+DefName=iPillow11
+Name=small bedding pillow
+Value=15
+Weight=3.1
+Resources=2 iCloth,1 iWool,1 iThread
+SkillMake=Tailoring 39.0,tSewingKit
+Category=Decoration - Furniture
+Subsection=Bedding
+Description=Pillow
+
+[ItemDef 01916]
+DefName=iTableMassageEnd
+Type=tTable
+Can=CanIFlip
+Value=46
+Weight=12.1
+Resources=4 iBoard,2 iLog,1 iNails,4 i_canvas
+SkillMake=Carpentry 51.8,tCarpentry,tailoring 19.7,tSewingKit
+Category=Decoration - Furniture
+Subsection=Massage Table
+Description=Massage Table
+DupeList=01917
+
+[ItemDef 01917]
+//massage table
+DupeItem=01916
+
+[ItemDef 01918]
+//bar
+DupeItem=01910
+
+[ItemDef 01919]
+//bar
+DupeItem=01910
+
+[ItemDef 0191a]
+//bar
+DupeItem=01910
+
+[ItemDef 0191b]
+//bar
+DupeItem=01910
+
+[ItemDef 0191c]
+//bar
+DupeItem=01910
+
+[ItemDef 0191d]
+//bar
+DupeItem=01910
+
+[ItemDef 0191e]
+//bar
+DupeItem=01910
+
+[ItemDef 0191f]
+//bar
+DupeItem=01910
+
+
+[ItemDef 01944]
+DefName=iPillowFancy
+Name=fancy pillow
+DYE=1
+Value=34
+Weight=4.3
+Resources=4 iCloth,2 iWool,1 iThread
+SkillMake=Tailoring 79.0,tSewingKit
+Category=Decoration - Furniture
+Subsection=Bedding
+Description=Fancy Pillow
+
+[ItemDef 01945]
+DefName=iScreenWoodenCarved
+Name=carved wooden screen
+Can=CanIFlip
+Value=76
+Weight=24.4
+Resources=24 iLog,4 iHinge
+SkillMake=Carpentry 81.4,tCarpentry
+Category=Decoration - Furniture
+Subsection=Screens
+Description=Carved Wooden Screen
+DupeList=01946
+
+[ItemDef 01946]
+//carved wooden screen
+DupeItem=01945
+
+
+[ItemDef 01da5]
+DefName=iTableWoodRoughSmallEnd
+Type=tTable
+Can=CanIFlip
+Value=24
+Weight=16.2
+Resources=8 iBoard,2 iNails
+SkillMake=Carpentry 56.3,tCarpentry
+Category=Decoration - Furniture
+Subsection=Tables
+Description=Table (rough small)
+DupeList=01da6,01da9,01daa
+
+[ItemDef 01da6]
+// table - Small rough
+DupeItem=01da5
+
+[ItemDef 01da7]
+DefName=iTableBoardRoughSmallEnd
+Type=tTable
+Can=CanIFlip
+Value=26
+Weight=22.2
+Resources=11 iBoard,2 iNails
+SkillMake=Carpentry 46.3,tCarpentry
+Category=Decoration - Furniture
+Subsection=Tables
+Description=Table (rough board)
+DupeList=01da8,01dab,01dac
+
+[ItemDef 01da8]
+// table - Small rough board
+DupeItem=01da7
+
+[ItemDef 01da9]
+// table - Small rough
+DupeItem=01da5
+
+[ItemDef 01daa]
+// table - Small rough
+DupeItem=01da5
+
+[ItemDef 01dab]
+// table - Small rough board
+DupeItem=01da7
+
+[ItemDef 01dac]
+// table - Small rough board
+DupeItem=01da7
+
+[ItemDef 01dbb]
+DefName=iTableSandstoneEnd
+Type=tTable
+Can=CanIFlip
+Value=160
+Weight=300.0
+Resources=30 iRockSandstone
+Category=Decoration - Furniture
+Subsection=Tables
+Description=Table (Sandstone)
+DupeList=01dbc,01dbd,01dbe,01dbf,01dc0
+
+[ItemDef 01dbc]
+// table - sandstone table end - N
+DupeItem=01dbb
+
+[ItemDef 01dbd]
+// table - sandstone table extention n-s
+DefName=iTableSandstoneExt
+DupeItem=01dbb
+
+[ItemDef 01dbe]
+// table - sandstone table end - E
+DupeItem=01dbb
+
+[ItemDef 01dbf]
+// table - sandstone table end - W
+DupeItem=01dbb
+
+[ItemDef 01dc0]
+// table - sandstone table extention e-w
+DupeItem=01dbb
+
+[ItemDef 01dc1]
+DefName=iTableMarbleEnd
+Type=tTable
+Can=CanIFlip
+Value=160
+Weight=300.0
+Resources=30 iRockMarble
+Category=Decoration - Furniture
+Subsection=Tables
+Description=Table (Marble)
+DupeList=01dc2,01dc3,01dc4,01dc5,01dc6
+
+[ItemDef 01dc2]
+// table - marble table end - N
+DupeItem=01dc1
+
+[ItemDef 01dc3]
+DefName=iTableMarbleExt
+// table - marble table extention n-s
+DupeItem=01dc1
+
+[ItemDef 01dc4]
+// table - marble table end - E
+DupeItem=01dc1
+
+[ItemDef 01dc5]
+// table - marble table end - W
+DupeItem=01dc1
+
+[ItemDef 01dc6]
+// table - marble table extention e-w
+DupeItem=01dc1
+
+[ItemDef 01dc7]
+DefName=iBenchSandstoneEnd
+Type=tChair
+Can=CanIFlip
+Value=35
+Weight=60.0
+Resources=6 iRockSandstone
+SkillMake=Carpentry 35.0
+Category=Decoration - Furniture
+Subsection=Chairs
+Description=Bench (Sandstone - Long)
+DupeList=01dc8,01dc9,01dca,01dcb,01dcc
+
+[ItemDef 01dc8]
+//sandstone bench
+DupeItem=01dc7
+
+[ItemDef 01dc9]
+//sandstone bench
+DefName=iBenchSandstoneExt
+DupeItem=01dc7
+
+[ItemDef 01dca]
+//sandstone bench
+DupeItem=01dc7
+
+[ItemDef 01dcb]
+//sandstone bench
+DupeItem=01dc7
+
+[ItemDef 01dcc]
+//sandstone bench
+DupeItem=01dc7
+
+[ItemDef 01dcd]
+DefName=iBenchMarbleEnd
+Type=tChair
+Can=CanIFlip
+Value=35
+Weight=60.0
+Resources=6 iRockMarble
+SkillMake=Carpentry 55.0
+Category=Decoration - Furniture
+Subsection=Chairs
+Description=Marble Bench
+DupeList=01dce,01dcf,01dd0,01dd1,01dd2
+
+[ItemDef 01dce]
+//Marble Bench
+DupeItem=01dcd
+
+[ItemDef 01dcf]
+//Marble Bench
+DefName=iBenchMarbleExt
+DupeItem=01dcd
+
+[ItemDef 01dd0]
+//Marble Bench
+DupeItem=01dcd
+
+[ItemDef 01dd1]
+//Marble Bench
+DupeItem=01dcd
+
+[ItemDef 01dd2]
+//Marble Bench
+DupeItem=01dcd
+
+
+[ItemDef 0207e]
+DefName=iTableKeyed
+Type=tTable
+Weight=17.4
+Resources=17 iLog,4 iNails
+Category=Quest
+Subsection=Citadel
+Description=Keyed Table
+
+[ItemDef 0207f]
+DefName=iBookstandElven
+Name=elven bookstand
+Type=tNormal
+Value=16
+Weight=4.1
+Resources=4 iBoard,1 iNails
+SkillMake=Carpentry 32.1,tCarpentry
+Category=Decoration - Furniture
+Subsection=Bookstands
+Description=Elven Bookstand
+
+
+[ItemDef 024cb]
+DefName=iScreenPaper1
+Type=tNormal
+Can=CanIFlip
+Value=130
+Weight=15.0
+Resources=50 iPaper,10 iLogBamboo
+SkillMake=Carpentry 73.9,tCarpentry
+Category=Decoration - Furniture
+Subsection=Screens
+Description=Paper Screen 1
+DupeList=024cc
+
+[ItemDef 024cc]
+//paper screen
+DupeItem=024cb
+
+[ItemDef 024cd]
+DefName=iScreenPaper2
+Type=tNormal
+Can=CanIFlip
+Value=130
+Weight=15.0
+Resources=50 iPaper,10 iLogBamboo
+SkillMake=Carpentry 73.9,tCarpentry
+Category=Decoration - Furniture
+Subsection=Screens
+Description=Paper Screen 2
+DupeList=024ce,024cf
+
+[ItemDef 024ce]
+//paper screen
+DupeItem=024cd
+
+[ItemDef 024cf]
+//paper screen
+DupeItem=024cd
+
+[ItemDef 024d0]
+DefName=iScreenBamboo1
+Type=tNormal
+Can=CanIFlip
+Value=130
+Weight=15.0
+Resources=50 iLogBamboo,10 iString
+SkillMake=Carpentry 73.9,tCarpentry
+Category=Decoration - Furniture
+Subsection=Screens
+Description=Bamboo Screen 1
+DupeList=024d1
+
+[ItemDef 024d1]
+//bamboo screen 1
+DupeItem=024d0
+
+[ItemDef 024d2]
+DefName=iScreenBamboo2
+Type=tNormal
+Can=CanIFlip
+Value=130
+Weight=15.0
+Resources=50 iLogBamboo,10 iString
+SkillMake=Carpentry 73.9,tCarpentry
+Category=Decoration - Furniture
+Subsection=Screens
+Description=Bamboo Screen 2
+DupeList=024d3,024d4
+
+[ItemDef 024d3]
+//bamboo screen 2
+DupeItem=024d2
+
+[ItemDef 024d4]
+//bamboo screen 2
+DupeItem=024d2
+
+
+[ItemDef 024ec]
+DefName=iStairCabinet
+Type=tContainer
+TDATA2=0107
+Resources=50 iBoard
+Category=Decoration - Furniture
+Subsection=Cabinetry
+Description=Stair Cabinet
+DupeList=024ed,024ee,024ef,024f0,024f1,024f2,024f3
+
+[ItemDef 024ed]
+//stair with cabinet
+DupeItem=024ec
+
+[ItemDef 024ee]
+//stair with cabinet
+DupeItem=024ec
+
+[ItemDef 024ef]
+//stair with cabinet
+DupeItem=024ec
+
+[ItemDef 024f0]
+//stair with cabinet
+DupeItem=024ec
+
+[ItemDef 024f1]
+//stair with cabinet
+DupeItem=024ec
+
+[ItemDef 024f2]
+//stair with cabinet
+DupeItem=024ec
+
+[ItemDef 024f3]
+//stair with cabinet
+DupeItem=024ec
+
+
+[ItemDef 0280b]
+DefName=iWoodenChestPlain
+Name=plain wooden chest
+Type=tContainer
+TDATA2=0109
+Can=CanIFlip
+Value=175
+Weight=15.0
+Resources=20 iBoard,2 iHinge,10 iNails
+SkillMake=Carpentry 85.3,tCarpentry
+Category=Decoration - Furniture
+Subsection=Cabinetry
+Description=Plain Wooden Chest
+DupeList=0280c
+
+[ItemDef 0280c]
+//plain wooden chest
+DupeItem=0280b
+
+[ItemDef 0280d]
+DefName=iWoodenChestOrnate
+Name=ornate wooden chest
+Type=tContainer
+TDATA2=010b
+Can=CanIFlip
+Value=185
+Weight=15.0
+Resources=20 iBoard,2 iHinge,2 iWireIron,10 i_nails
+SkillMake=Carpentry 85.3,tCarpentry
+Category=Decoration - Furniture
+Subsection=Cabinetry
+Description=Ornate Wooden Chest
+DupeList=0280e
+
+[ItemDef 0280e]
+//ornate wooden chest
+DupeItem=0280d
+
+[ItemDef 0280f]
+DefName=iWoodenChestGilded
+Name=gilded wooden chest
+Type=tContainer
+TDATA2=010a
+Can=CanIFlip
+Value=195
+Weight=15.0
+Resources=20 iBoard,2 iHinge,2 iWireGold,10 i_nails
+SkillMake=Carpentry 85.3,tCarpentry
+Category=Decoration - Furniture
+Subsection=Cabinetry
+Description=Gilded Wooden Chest
+DupeList=02810
+
+[ItemDef 02810]
+//gilded wooden chest
+DupeItem=0280f
+
+[ItemDef 02811]
+DefName=iWoodenFootLocker
+Name=wooden footlocker
+Type=tContainer
+TDATA2=010c
+Can=CanIFlip
+Value=155
+Weight=15.0
+Resources=15 iBoard,2 iHinge,1 iWireIron,6 i_nails
+SkillMake=Carpentry 85.3,tCarpentry
+Category=Decoration - Furniture
+Subsection=Cabinetry
+Description=Wooden Footlocker
+DupeList=02812
+
+[ItemDef 02812]
+//wooden footlocker
+DupeItem=02811
+
+[ItemDef 02813]
+DefName=iWoodenChestFinished
+Name=finished wooden chest
+Type=tContainer
+TDATA2=010d
+Can=CanIFlip
+Value=175
+Weight=15.0
+Resources=20 iBoard,2 iHinge,10 iNails
+SkillMake=Carpentry 85.3,tCarpentry
+Category=Decoration - Furniture
+Subsection=Cabinetry
+Description=Finished Wooden Chest
+DupeList=02814
+
+[ItemDef 02814]
+//finished wooden chest
+DupeItem=02813
+
+[ItemDef 02815]
+DefName=iCabinetTall
+Name=tall cabinet
+Type=tContainer
+TDATA2=010c
+Can=CanIFlip
+Value=180
+Weight=41.2
+Resources=20 iLogBamboo,2 iHinge,10 iNails
+SkillMake=Carpentry 92.4,tCarpentry
+Category=Decoration - Furniture
+Subsection=Cabinetry
+Description=Tall Cabinet
+DupeList=02816
+
+[ItemDef 02816]
+//tall cabinet
+DupeItem=02815
+
+[ItemDef 02817]
+DefName=iCabinetShort
+Name=short cabinet
+Type=tContainer
+TDATA2=010c
+Can=CanIFlip
+Value=170
+Weight=30.8
+Resources=15 iLogBamboo,2 iHinge,6 iNails
+SkillMake=Carpentry 92.4,tCarpentry
+Category=Decoration - Furniture
+Subsection=Cabinetry
+Description=Short Cabinet
+DupeList=02818
+
+[ItemDef 02818]
+//short cabinet
+DupeItem=02817
+
+[ItemDef 02819]
+DefName=iTableLow1
+Type=tTable
+Value=75
+Weight=28.2
+Resources=14 iBoard,2 iNails
+SkillMake=Carpentry 92.4,tCarpentry
+Category=Decoration - Furniture
+Subsection=Tables
+Description=Table 1
+
+[ItemDef 0281a]
+DefName=iTableLow2
+Type=tTable
+Value=75
+Weight=28.2
+Resources=14 iBoard,2 iNails
+SkillMake=Carpentry 92.4,tCarpentry
+Category=Decoration - Furniture
+Subsection=Tables
+Description=Table 2
+
+[ItemDef 02857]
+DefName=iArmoireRed
+Name=red armoire
+Type=tContainer
+TDATA2=0105
+Can=CanIFlip
+Value=175
+Weight=31.0
+Resources=15 iBoard,6 iNails,4 iHinge
+SkillMake=Carpentry 84.2,tCarpentry
+Category=Decoration - Furniture
+Subsection=Cabinetry
+Description=Red Armoire
+DupeList=02858
+
+[ItemDef 02858]
+//red armoire
+DupeItem=02857
+
+[ItemDef 02859]
+DefName=iArmoireElegant
+Name=elegant armoire
+Type=tContainer
+TDATA2=0107
+Can=CanIFlip
+Value=175
+Weight=31.0
+Resources=15 iBoard,6 iNails,4 iHinge
+SkillMake=Carpentry 84.2,tCarpentry
+Category=Decoration - Furniture
+Subsection=Cabinetry
+Description=Elegant Armoire
+DupeList=0285a
+
+[ItemDef 0285a]
+//elegant armoire
+DupeItem=02859
+
+[ItemDef 0285b]
+DefName=iArmoireMaple
+Name=maple armoire
+Type=tContainer
+TDATA2=0106
+Can=CanIFlip
+Value=175
+Weight=31.0
+Resources=15 iBoard,6 iNails,4 iHinge
+SkillMake=Carpentry 84.2,tCarpentry
+Category=Decoration - Furniture
+Subsection=Cabinetry
+Description=Maple Armoire
+DupeList=0285c
+
+[ItemDef 0285c]
+//maple armoire
+DupeItem=0285b
+
+[ItemDef 0285d]
+DefName=iArmoireCherry
+Name=cherry armoire
+Type=tContainer
+TDATA2=0107
+Can=CanIFlip
+Value=175
+Weight=31.0
+Resources=15 iBoard,6 iNails,4 iHinge
+SkillMake=Carpentry 84.2,tCarpentry
+Category=Decoration - Furniture
+Subsection=Cabinetry
+Description=Cherry Armoire
+DupeList=0285e
+
+[ItemDef 0285e]
+//cherry armoire
+DupeItem=0285d
+
+[ItemDef 0295c]
+DefName=iFuton
+Type=tNormal
+Can=CanIFlip
+Value=100
+Weight=18.4
+Resources=4 iCanvas,4 iCloth,10 iWool,4 i_thread
+Category=Decoration - Furniture
+Subsection=Beds
+Description=Futon
+DupeList=0295d
+
+[ItemDef 0295d]
+//futon
+DupeItem=0295c
+
+[ItemDef 0295e]
+DefName=iFuton2
+Type=tNormal
+Can=CanIFlip
+Value=100
+Weight=18.4
+Resources=4 iCanvas,4 iCloth,10 iWool,4 i_thread
+Category=Decoration - Furniture
+Subsection=Beds
+Description=Futon 2
+DupeList=0295f
+
+[ItemDef 0295f]
+//futon 2
+DupeItem=0295e
+
+
+[ItemDef 02a58]
+DefName=iThroneBone
+Name=throne of bones
+Type=tChair
+Can=CanIFlip
+Value=159
+Weight=22.4
+Resources=5 iBoneSkull,50 iBone,2 iHide,1 i_thread
+SkillMake=Carpentry 82.1,tCarpentry,tailoring 31.7,tSewingKit,necromancy 75.0
+Category=Decoration - Dungeons and The Dead
+Subsection=Evil Home Decor
+Description=Bone Throne
+DupeList=02a59
+
+[ItemDef 02a59]
+//bone throne
+DupeItem=02a58
+
+[ItemDef 02a5a]
+DefName=iCouchBone
+Name=bone couch
+Type=tChair
+Can=CanIFlip
+Value=110
+Weight=12.8
+Resources=25 iBone,2 iBoneSkull,4 iHide,1 i_thread
+SkillMake=Carpentry 94.7,tCarpentry,tailoring 36.1,tSewingKit,necromancy 75.0
+Category=Decoration - Dungeons and The Dead
+Subsection=Evil Home Decor
+Description=Bone Couch
+DupeList=02a5b,02a7f,02a80
+
+[ItemDef 02a5b]
+//bone couch
+DupeItem=02a5a
+
+[ItemDef 02a5c]
+DefName=iTableBone
+Name=bone table
+Type=tTable
+Value=64
+Weight=14.8
+Resources=27 iBone,1 iThread,4 iBoneSkull
+SkillMake=Carpentry 42.1,tCarpentry,necromancy 75.0
+Category=Decoration - Dungeons and The Dead
+Subsection=Evil Home Decor
+Description=Bone Table
+
+
+[ItemDef 02a7b]
+DefName=iHauntedMirror
+Name=haunted mirror
+Can=CanIFlip
+Value=87
+Weight=20.2
+Resources=1 iBoneSkull,12 iBone,4 iIngotIron,12 i_glass_raw
+SkillMake=Alchemy 72.0,Carpentry 60.0,Necromancy 75.0,tCarpentry
+Category=Decoration - Dungeons and The Dead
+Subsection=Evil Home Decor
+Description=Haunted Mirror
+DupeList=02a7d
+ON=@Create
+TAG.Voice={0 1}
+ON=@DClick
+//FIXME: Change the dispid to either 02a7c or 02a7e for a few seconds
+IF (<TAG.Voice>==1)
+DORAND 3
+SRC.SOUND 054f//"You've never looked betta!....Well....that ain't sayin much."
+SRC.SOUND 0550//"You gettin enough sleep?"
+SRC.SOUND 0551//"Hey! Look over here! I'm lookin in my crystal ball, and.. the future is.... you're ugly!"
+ENDDO
+ELSE
+DORAND 3
+SRC.SOUND 0552//"You've never looked better, although thats not saying much."
+SRC.SOUND 0553//"Are you getting enough sleep?"
+SRC.SOUND 0554//"Don't worry dear, its nothing a floppy hat or a mask wouldn't cover up."
+ENDDO
+ENDIF
+RETURN 1
+
+[ItemDef 02a7c]
+//haunted mirror (face showing)
+
+[ItemDef 02a7d]
+//haunted mirror
+DupeItem=02a7b
+
+[ItemDef 02a7e]
+//haunted mirror (face showing)
+
+[ItemDef 02a7f]
+//bone couch
+DupeItem=02a5a
+
+[ItemDef 02a80]
+//bone couch
+DupeItem=02a5a
+
+[ItemDef 02a81]
+//FIXME: combine this with the other bed of nails
+DefName=iBedOfNailsNs
+Name=bed of nails
+Can=CanIFlip
+Weight=63.6
+Resources=10 iBoard,1 iBoneSkull,6 iBone,40 i_ingotIron
+SkillMake=Carpentry 81.3,tCarpentry
+Category=Decoration - Dungeons and The Dead
+Subsection=Evil Home Decor
+Description=Bed of Nails (ns)
+DupeList=02a82,02a83,02a84,02a85,02a86,02a87,02a88
+
+[ItemDef 02a82]
+//bed of nails
+DupeItem=02a81
+
+[ItemDef 02a83]
+//bed of nails
+DupeItem=02a81
+
+[ItemDef 02a84]
+//bed of nails
+DupeItem=02a81
+
+[ItemDef 02a85]
+//bed of nails
+DupeItem=02a81
+
+[ItemDef 02a86]
+//bed of nails
+DupeItem=02a81
+
+[ItemDef 02a87]
+//bed of nails
+DupeItem=02a81
+
+[ItemDef 02a88]
+//bed of nails
+DupeItem=02a81
+
+[ItemDef 02a89]
+DefName=iBedOfNails
+Name=bed of nails
+Can=CanIFlip
+Weight=63.6
+Resources=10 iBoard,1 iBoneSkull,6 iBone,40 i_ingotIron
+SkillMake=Carpentry 81.3,tCarpentry
+Category=Decoration - Dungeons and The Dead
+Subsection=Evil Home Decor
+Description=Bed of Nails
+DupeList=02a8a,02a8b,02a8c,02a8d,02a8e,02a8f,02a90
+
+[ItemDef 02a8a]
+//bed of nails
+DupeItem=02a89
+
+[ItemDef 02a8b]
+//bed of nails
+DupeItem=02a89
+
+[ItemDef 02a8c]
+//bed of nails
+DupeItem=02a89
+
+[ItemDef 02a8d]
+//bed of nails
+DupeItem=02a89
+
+[ItemDef 02a8e]
+//bed of nails
+DupeItem=02a89
+
+[ItemDef 02a8f]
+//bed of nails
+DupeItem=02a89
+
+[ItemDef 02a90]
+//bed of nails
+DupeItem=02a89
+
+
+[ItemDef 02a9a]
+DefName=iSacrificialAltar
+Name=sacrificial altar
+Can=CanIFlip
+Value=225
+Weight=260.2
+Resources=20 iRockPlain,20 iLog,20 iIngotIron,2 i_candle
+Category=Decoration - Dungeons and The Dead
+Subsection=Evil Home Decor
+Description=Sacrificial Altar
+DupeList=02a9b,02a9c,02a9d
+
+[ItemDef 02a9b]
+//sacrificial altar
+DupeItem=02a9a
+
+[ItemDef 02a9c]
+//sacrificial altar
+DupeItem=02a9a
+
+[ItemDef 02a9d]
+//sacrificial altar
+DupeItem=02a9a
+
+
+[ItemDef 02bd1]
+DefName=iDresserDrawer2
+Type=tContainer
+TDATA2=051
+Can=CanIFlip
+Value=21
+Weight=2.2
+Resources=2 iBoard,2 iNails
+SkillMake=Carpentry 71.6,tCarpentry
+Category=Decoration - Furniture
+Subsection=Bedroom Furniture
+Description=Drawer (Vanity 2)
+DupeList=02bd2,02bd3,02bd4,02bd5,02bd6
+
+[ItemDef 02bd2]
+//drawer 2
+DupeItem=02bd1
+
+[ItemDef 02bd3]
+//drawer 2
+DupeItem=02bd1
+
+[ItemDef 02bd4]
+//drawer 2
+DupeItem=02bd1
+
+[ItemDef 02bd5]
+//drawer 2
+DupeItem=02bd1
+
+[ItemDef 02bd6]
+//drawer 2
+DupeItem=02bd1
+
+[ItemDef 02bd7]
+DefName=iDresser2
+Type=tContainer
+TDATA2=051
+Can=CanIFlip
+Value=272
+Weight=28.9
+Resources=8 iBoard,20 iNails,6 iDresserDrawer,1 i_wire_silver,5 i_glass_raw
+SkillMake=Carpentry 87.3,tCarpentry
+Category=Decoration - Furniture
+Subsection=Bedroom Furniture
+Description=Dresser (Vanity 2)
+DupeList=02bd8
+
+[ItemDef 02bd8]
+//dresser
+DupeItem=02bd7
+
+
+[ItemDef 02d05]
+DefName=iElvenArmoireSimple
+Name=simple elven armoir
+Type=tContainer
+TDATA2=04f
+Can=CanIFlip
+Value=136
+Weight=51.0
+Resources=25 iBoard,6 iNails,4 iHinge
+SkillMake=Carpentry 84.2,tCarpentry
+Category=Decoration - Furniture
+Subsection=Cabinetry
+Description=Simple Elven Armoir
+DupeList=02d06
+
+[ItemDef 02d06]
+//simple elven armoir
+DupeItem=02d05
+
+[ItemDef 02d07]
+DefName=iElvenArmoireFancy
+Name=fancy elven armoir
+Type=tContainer
+TDATA2=04e
+Can=CanIFlip
+Value=178
+Weight=51.4
+Resources=25 iBoard,6 iNails,4 iHinge,4 i_wire_silver
+SkillMake=Carpentry 84.2,tCarpentry
+Category=Decoration - Furniture
+Subsection=Cabinetry
+Description=Fancy Elven Armoir
+DupeList=02d08
+
+[ItemDef 02d08]
+//fancy elven armoir
+DupeItem=02d07
+
+[ItemDef 02d09]
+DefName=iElvenDresser
+Name=elven dresser
+Type=tContainer
+TDATA2=010e
+Can=CanIFlip
+Value=272
+Weight=28.8
+Resources=9 iBoard,20 iNails,6 iDresserDrawer
+SkillMake=Carpentry 87.3,tCarpentry
+Category=Decoration - Furniture
+Subsection=Bedroom Furniture
+Description=Elven Dresser
+DupeList=02d0a
+
+[ItemDef 02d0a]
+//elven dresser
+DupeItem=02d09
+
+[ItemDef 02d0b]
+DefName=iElvenWashbasin
+Name=elven wash basin
+Type=tWater
+TDATA2=051
+Can=CanIFlip
+Value=154
+Weight=38.0
+Resources=15 iBoard,4 iWireIron,4 iClay
+SkillMake=Carpentry 87.3,tCarpentry
+Category=Decoration - Furniture
+Subsection=Bedroom Furniture
+Description=Elven Wash Basin
+DupeList=02d0c
+
+[ItemDef 02d0c]
+//elven wash basin
+DupeItem=02d0b
+
+
+[ItemDef 02ddd]
+DefName=iPodium
+Name=elven podium
+Type=tNormal
+Can=CanIFlip
+Value=56
+Weight=20.0
+Resources=20 iBoard
+SkillMake=Carpentry 80.0,tCarpentry
+Category=Decoration - Furniture
+Subsection=Bookstands
+Description=Elven Podium
+DupeList=02dde
+
+[ItemDef 02dde]
+//elven podium
+DupeItem=02ddd
+
+[ItemDef 02ddf]
+DefName=iLoveseat
+Name=elven loveseat
+Type=tChair
+Can=CanIFlip
+Value=92
+Weight=33.5
+Resources=15 iBoard,2 iCloth,1 iWireGold
+SkillMake=Carpentry 80.0,Tailoring 40.0,tCarpentry,tSewingKit
+Category=Decoration - Furniture
+Subsection=Chairs
+Description=Elven Loveseat
+DupeList=02de0,03088,03089,0308a,0308b
+
+[ItemDef 02de0]
+//elven loveseat
+DupeItem=02ddf
+
+[ItemDef 02de1]
+DefName=iTableElvenOrnate
+Name=ornate elven table
+Type=tNormal
+Can=CanIFlip
+Value=98
+Weight=50.6
+Resources=25 iBoard,6 iNails
+SkillMake=Carpentry 85.0,tCarpentry
+Category=Decoration - Furniture
+Subsection=Tables
+Description=Ornate Elven Table
+DupeList=02de2,0308c,0308d,0308e,0308f,03090,03091
+
+[ItemDef 02de2]
+//ornate elven table
+DupeItem=02de1
+
+[ItemDef 02de3]
+DefName=iChairElvenOrnate
+Name=ornate elven chair
+Type=tChair
+Can=CanIFlip
+Value=85
+Weight=33.4
+Resources=15 iBoard,2 iCloth,1 iWool,4 i_nails
+SkillMake=Carpentry 80.0,Tailoring 40.0,tCarpentry,tSewingKit
+Category=Decoration - Furniture
+Subsection=Chairs
+Description=Ornate Elven Chair
+DupeList=02de4,02de5,02de6
+
+[ItemDef 02de4]
+//ornate elven chair
+DupeItem=02de3
+
+[ItemDef 02de5]
+//ornate elven chair
+DupeItem=02de3
+
+[ItemDef 02de6]
+//ornate elven chair
+DupeItem=02de3
+
+[ItemDef 02de7]
+DefName=iTableElvenOrnate2
+Name=ornate elven table
+Type=tNormal
+Can=CanIFlip
+Value=108
+Weight=40.6
+Resources=20 iBoard,6 iNails
+SkillMake=Carpentry 88.8,tCarpentry
+Category=Decoration - Furniture
+Subsection=Tables
+Description=Ornate Elven Table
+DupeList=02de8,03092,03093,03094,03095,03096,03097
+
+[ItemDef 02de8]
+//ornate elven table
+DupeItem=02de7
+
+[ItemDef 02de9]
+//FIXME: this container does not open
+DefName=iTableElvenStorage
+Name=elven storage table
+Type=tTable
+TDATA2=0107
+Can=CanIFlip
+Value=94
+Weight=60.0
+Resources=60 iBoard,4 iIngotIron
+SkillMake=Carpentry 94.7,tCarpentry
+Category=Decoration - Furniture
+Subsection=Tables
+Description=Elven Storage Table
+DupeList=02dea,03098,03099,0309a,0309b
+
+[ItemDef 02dea]
+//elven storage table
+DupeItem=02de9
+
+[ItemDef 02deb]
+DefName=iChairElvenBig
+Name=big elven chair
+Type=tChair
+Can=CanIFlip
+Value=79
+Weight=42.4
+Resources=16 iBoard,8 iCloth,2 iWool,4 i_nails
+SkillMake=Carpentry 85.0,Tailoring 40.0,tCarpentry,tSewingKit
+Category=Decoration - Furniture
+Subsection=Chairs
+Description=Big Elven Chair
+DupeList=02dec,02ded,02dee
+
+[ItemDef 02dec]
+//elven chair
+DupeItem=02deb
+
+[ItemDef 02ded]
+//elven chair
+DupeItem=02deb
+
+[ItemDef 02dee]
+//elven chair
+DupeItem=02deb
+
+[ItemDef 02def]
+DefName=iBookshelfElven
+Name=elven bookshelf
+Type=tContainer
+TDATA2=04d
+Can=CanIFlip
+Value=119
+Weight=51.0
+Resources=25 iBoard,10 iNails
+SkillMake=Carpentry 94.2,tCarpentry
+Category=Decoration - Furniture
+Subsection=Bookcases
+Description=Elven Bookshelf
+DupeList=02df0,03084,03085,03086,03087
+
+[ItemDef 02df0]
+//elven bookshelf
+DupeItem=02def
+
+[ItemDef 02df5]
+DefName=iChairReading
+Name=elven reading chair
+Type=tChair
+Can=CanIFlip
+Value=75
+Weight=33.4
+Resources=16 iBoard,4 iNails,1 iWireSilver
+SkillMake=Carpentry 86.0,tCarpentry
+Category=Decoration - Furniture
+Subsection=Chairs
+Description=Elven Reading Chair
+DupeList=02df6
+
+[ItemDef 02df6]
+//elven reading chair
+DupeItem=02df5
+
+[ItemDef 02fea]
+DefName=iDisplaycaseElven
+Name=elven displaycase
+Can=CanIFlip
+Weight=8.1
+Resources=2 iBoard,1 iNails,6 iGlassRaw
+Category=Decoration - Furniture
+Subsection=Display Case
+Description=Elven Display Case
+DupeList=02feb
+
+[ItemDef 02feb]
+//elven displaycase
+DupeItem=02fea
+
+[ItemDef 0304c]
+DefName=iBedSmallElven
+Name=small elven bed
+Type=tBed
+TDATA1=0
+Can=CanIFlip
+Value=178
+Weight=73.7
+Resources=30 iBoard,10 iNails,1 iBedroll,2 i_wire_silver
+SkillMake=Carpentry 89.8,Tailoring 65.0,tCarpentry,tSewingKit
+Category=Decoration - Furniture
+Subsection=Beds
+Description=Small Bed (elven)
+DupeList=0304d,03050,03051
+
+[ItemDef 0304d]
+//small bed (elven)
+DupeItem=0304c
+
+[ItemDef 0304e]
+Category=Miscellaneous
+Subsection=Bad Tiles
+Description=Elven Bed Assets 0304e
+
+[ItemDef 0304f]
+Category=Miscellaneous
+Subsection=Bad Tiles
+Description=Elven Bed Assets 0304f
+
+[ItemDef 03050]
+//small bed (elven)
+DupeItem=0304c
+
+[ItemDef 03051]
+//small bed (elven)
+DupeItem=0304c
+
+[ItemDef 03052]
+DefName=iBedLargeElvenMade
+Name=large elven bed
+Type=tBed
+TDATA1=0
+DYE=1
+Can=CanIFlip
+Value=775
+Weight=191.0
+Resources=1 iBedLargeSheet,2 iBlanket,2 iPillow11
+SkillMake=Carpentry 100.1,Tailoring 75.0,tCarpentry,tSewingKit
+Category=Decoration - Furniture
+Subsection=Beds
+Description=Large Elven Bed (made)
+DupeList=03053,03054,03055,03056,03057,03058,03059
+
+[ItemDef 03053]
+//large elven bed (made)
+DupeItem=03052
+
+[ItemDef 03054]
+//large elven bed (made)
+DupeItem=03052
+
+[ItemDef 03055]
+//large elven bed (made)
+DupeItem=03052
+
+[ItemDef 03056]
+//large elven bed (made)
+DupeItem=03052
+
+[ItemDef 03057]
+//large elven bed (made)
+DupeItem=03052
+
+[ItemDef 03058]
+//large elven bed (made)
+DupeItem=03052
+
+[ItemDef 03059]
+//large elven bed (made)
+DupeItem=03052
+
+
+[ItemDef 03060]
+DefName=iAquarium
+Name=aquarium
+Type=tContainer
+TDATA2=02c96
+TDATA3=010001
+TDATA4=015c00c6
+Can=CanIFlip
+Value=321
+Weight=156.1
+Resources=8 iBoard,1 iNails,48 iGlassRaw,100 i_water
+Category=Decoration - Furniture
+Subsection=Aquarium
+Description=Aquarium
+DupeList=03061,03062,03063
+
+[ItemDef 03061]
+//aquarium
+DupeItem=03060
+
+[ItemDef 03062]
+//aquarium
+DupeItem=03060
+
+[ItemDef 03063]
+//aquarium
+DupeItem=03060
+
+[ItemDef 03066]
+DefName=iDisplaycaseMonster
+Name=monster displaycase
+Can=CanIFlip
+Weight=36.4
+Resources=12 iBoard,4 iNails,24 iGlassRaw
+Category=Decoration - Furniture
+Subsection=Display Case
+Description=Monster Display Case
+DupeList=03067,03068,03069,0306a,0306b
+
+[ItemDef 03067]
+//monster displaycase
+DupeItem=03066
+
+[ItemDef 03068]
+//monster displaycase
+DupeItem=03066
+
+[ItemDef 03069]
+//monster displaycase
+DupeItem=03066
+
+[ItemDef 0306a]
+//monster displaycase
+DupeItem=03066
+
+[ItemDef 0306b]
+//monster displaycase
+DupeItem=03066
+
+
+[ItemDef 03084]
+//elven bookshelf
+DupeItem=02def
+
+[ItemDef 03085]
+//elven bookshelf
+DupeItem=02def
+
+[ItemDef 03086]
+//elven bookshelf
+DupeItem=02def
+
+[ItemDef 03087]
+//elven bookshelf
+DupeItem=02def
+
+[ItemDef 03088]
+//elven loveseat
+DupeItem=02ddf
+
+[ItemDef 03089]
+//elven loveseat
+DupeItem=02ddf
+
+[ItemDef 0308a]
+//elven loveseat
+DupeItem=02ddf
+
+[ItemDef 0308b]
+//elven loveseat
+DupeItem=02ddf
+
+[ItemDef 0308c]
+//ornate elven table
+DupeItem=02de1
+
+[ItemDef 0308d]
+//ornate elven table
+DupeItem=02de1
+
+[ItemDef 0308e]
+//ornate elven table
+DupeItem=02de1
+
+[ItemDef 0308f]
+//ornate elven table
+DupeItem=02de1
+
+[ItemDef 03090]
+//ornate elven table
+DupeItem=02de1
+
+[ItemDef 03091]
+//ornate elven table
+DupeItem=02de1
+
+[ItemDef 03092]
+//ornate elven table
+DupeItem=02de7
+
+[ItemDef 03093]
+//ornate elven table
+DupeItem=02de7
+
+[ItemDef 03094]
+//ornate elven table
+DupeItem=02de7
+
+[ItemDef 03095]
+//ornate elven table
+DupeItem=02de7
+
+[ItemDef 03096]
+//ornate elven table
+DupeItem=02de7
+
+[ItemDef 03097]
+//ornate elven table
+DupeItem=02de7
+
+[ItemDef 03098]
+//elven storage table
+DupeItem=02de9
+
+[ItemDef 03099]
+//elven storage table
+DupeItem=02de9
+
+[ItemDef 0309a]
+//elven storage table
+DupeItem=02de9
+
+[ItemDef 0309b]
+//elven storage table
+DupeItem=02de9
+
+[ItemDef 030df]
+DefName=iElvenWashbasinParts
+Type=tWater
+Can=CanIFlip
+Weight=48.0
+Resources=40 iBoard,4 iIngotIron,4 iClay
+Category=Decoration - Furniture
+Subsection=Bedroom Furniture
+Description=Elven Wash Basin Parts
+DupeList=030e0,030e1,030e2
+
+[ItemDef 030e0]
+//elven washbasin
+DupeItem=030df
+
+[ItemDef 030e1]
+//elven washbasin
+DupeItem=030df
+
+[ItemDef 030e2]
+//elven washbasin
+DupeItem=030df
+
+[ItemDef 030e3]
+DefName=iElvenDresserParts
+Type=tContainer
+TDATA2=010e
+Can=CanIFlip
+Weight=28.9
+Resources=8 iBoard,20 iNails,6 iDresserDrawer,1 i_ingotSilver,5 i_glass_raw
+SkillMake=Carpentry 87.3,tCarpentry
+Category=Decoration - Furniture
+Subsection=Bedroom Furniture
+Description=Elven Dresser (multi-part)
+DupeList=030e4,030e5,030e6
+
+[ItemDef 030e4]
+//elven dresser
+DupeItem=030e3
+
+[ItemDef 030e5]
+//elven dresser
+DupeItem=030e3
+
+[ItemDef 030e6]
+//elven dresser
+DupeItem=030e3
+
+[ItemDef 035ed]
+DefName=iThroneCrystal
+Name=crystal throne
+Type=tChair
+Can=CanIFlip
+Value=5000
+Weight=50.0
+Resources=50 iCrystalShards
+SkillMake=Carpentry 82.1,tCarpentry
+Category=Decoration - Furniture
+Subsection=Chairs
+Description=Crystal Throne
+DupeList=035ee
+
+[ItemDef 035ee]
+//Crystal throne
+DupeItem=035ed
+
+[ItemDef 03605]
+DefName=iTableCrystal
+Name=crystal table
+Type=tTable
+Can=CanIFlip
+Value=2503
+Weight=25.0
+Resources=25 iCrystalShards,1 iCloth
+SkillMake=Carpentry 42.1,tCarpentry
+Category=Decoration - Furniture
+Subsection=Tables
+Description=Crystal Table (multi-part)
+DupeList=03606,03607,03608
+
+[ItemDef 03606]
+//Crystal Table (multi-part)
+DupeItem=03605
+
+[ItemDef 03607]
+//Crystal Table (multi-part)
+DupeItem=03605
+
+[ItemDef 03608]
+//Crystal Table (multi-part)
+DupeItem=03605
+
+[ItemDef 03d8a]
+DefName=iBedRuined
+Name=ruined bed
+Type=tBed
+Weight=149.5
+Resources=120 iBoard,15 iCloth,20 iNails,2 i_bedroll
+Category=Decoration - Furniture
+Subsection=Broken Furniture
+Description=Ruined Large Bed
+DupeList=03d8b,03d8c,03d8d,03d90,03d91,03d92,03d93
+
+[ItemDef 03d8b]
+//Ruined Large Bed
+DupeItem=03d8a
+
+[ItemDef 03d8c]
+//Ruined Large Bed
+DupeItem=03d8a
+
+[ItemDef 03d8d]
+//Ruined Large Bed
+DupeItem=03d8a
+
+[ItemDef 03d90]
+//Ruined Large Bed
+DupeItem=03d8a
+
+[ItemDef 03d91]
+//Ruined Large Bed
+DupeItem=03d8a
+
+[ItemDef 03d92]
+//Ruined Large Bed
+DupeItem=03d8a
+
+[ItemDef 03d93]
+//Ruined Large Bed
+DupeItem=03d8a
+
+[ItemDef 03dff]
+DefName=iBenchStone
+Type=tChair
+Can=CanIFlip
+Value=50
+Weight=100.0
+Resources=10 iRockObsidian
+SkillMake=Carpentry 65.0
+Category=Decoration - Furniture
+Subsection=Chairs
+Description=Bench (Dark Stone)
+DupeList=03e00
+
+[ItemDef 03e00]
+//bench dark stone
+DupeItem=03dff
+
+
+[ItemDef 0400c]
+DefName=iBedSmallGargish
+Name=Gargish single bed
+Type=tBed
+TDATA1=0
+Can=CanIFlip
+Value=301
+Weight=64.0
+Resources=20 iRockGranite,1 iBlanket,1 iPillow11
+SkillMake=Carpentry 81.3
+Category=Decoration - Furniture
+Subsection=Beds
+Description=Gargish Single Bed
+DupeList=0400d,0400e,0400f
+
+[ItemDef 0400d]
+//Gargish single bed
+DupeItem=0400c
+
+[ItemDef 0400e]
+//Gargish single bed
+DupeItem=0400c
+
+[ItemDef 0400f]
+//Gargish single bed
+DupeItem=0400c
+
+[ItemDef 04010]
+DefName=iBedLargeGargish
+Name=Gargish double bed
+Type=tBed
+TDATA1=0
+Can=CanIFlip
+Value=301
+Weight=64.0
+Resources=40 iRockGranite,1 iBlanket,1 iPillow11
+SkillMake=Carpentry 81.3
+Category=Decoration - Furniture
+Subsection=Beds
+Description=Gargish Double Bed
+DupeList=04011,04012,04013,04014,04015,04016,04017,04018,04019,0401a,0401b,0401c,0401d,0401e,0401f,04020,04021
+
+[ItemDef 04011]
+//Gargish double bed
+DupeItem=04010
+
+[ItemDef 04012]
+//Gargish double bed
+DupeItem=04010
+
+[ItemDef 04013]
+//Gargish double bed
+DupeItem=04010
+
+[ItemDef 04014]
+//Gargish double bed
+DupeItem=04010
+
+[ItemDef 04015]
+//Gargish double bed
+DupeItem=04010
+
+[ItemDef 04016]
+//Gargish double bed
+DupeItem=04010
+
+[ItemDef 04017]
+//Gargish double bed
+DupeItem=04010
+
+[ItemDef 04018]
+//Gargish double bed
+DupeItem=04010
+
+[ItemDef 04019]
+//Gargish double bed
+DupeItem=04010
+
+[ItemDef 0401a]
+//Gargish double bed
+DupeItem=04010
+
+[ItemDef 0401b]
+//Gargish double bed
+DupeItem=04010
+
+[ItemDef 0401c]
+//Gargish double bed
+DupeItem=04010
+
+[ItemDef 0401d]
+//Gargish double bed
+DupeItem=04010
+
+[ItemDef 0401e]
+//Gargish double bed
+DupeItem=04010
+
+[ItemDef 0401f]
+//Gargish double bed
+DupeItem=04010
+
+[ItemDef 04020]
+//Gargish double bed
+DupeItem=04010
+
+[ItemDef 04021]
+//Gargish double bed
+DupeItem=04010
+
+
+[ItemDef 04023]
+DefName=iChairTerMur
+Name=Ter-Mur style chair
+Type=tChair
+Can=CanIFlip
+Value=79
+Weight=48.5
+Resources=20 iBoard,4 iCloth,4 iCotton,1 i_nails,4 i_ingotGold
+SkillMake=Carpentry 85.6,tCarpentry
+Category=Decoration - Furniture
+Subsection=Chairs
+Description=Ter-Mur Style Chair
+DupeList=04024
+
+[ItemDef 04024]
+//Ter-Mur Style Chair
+DupeItem=04023
+
+[ItemDef 04025]
+DefName=iChestGargoyle
+Name=gargoyle chest
+Type=tContainer
+TDATA2=0107//FIXME
+Can=CanIFlip
+Value=79
+Weight=24.6
+Resources=12 iBoard,4 iNails,2 iHinge
+SkillMake=Carpentry 94.2,tCarpentry
+Category=Provisions - Miscellaneous
+Subsection=Containers
+Description=Gargoyle Chest
+DupeList=04026
+
+[ItemDef 04026]
+//gargoyle chest
+DupeItem=04025
+
+[ItemDef 04027]
+DefName=iGargishCouch
+Name=Gargish couch
+Type=tChair
+Can=CanIFlip
+Weight=50
+Resources=20 iRockPlain
+SkillMake=Carpentry 85.6
+Category=Decoration - Furniture
+Subsection=Chairs
+Description=Gargish Couch
+DupeList=04028,04029,0402a
+
+[ItemDef 04028]
+//Gargish Couch
+DupeItem=04027
+
+[ItemDef 04029]
+//Gargish Couch
+DupeItem=04027
+
+[ItemDef 0402a]
+//Gargish Couch
+DupeItem=04027
+
+[ItemDef 0402b]
+DefName=iGargishDresser
+Name=Gargish dresser
+Type=tContainer
+Can=CanIFlip
+Weight=50
+Resources=20 iRockPlain
+SkillMake=Carpentry 85.6
+Category=Decoration - Furniture
+Subsection=Bedroom Furniture
+Description=Gargish Dresser
+DupeList=0402c,0402d,0402e
+
+[ItemDef 0402c]
+//Gargish dresser
+DupeItem=0402b
+
+[ItemDef 0402d]
+//Gargish dresser
+DupeItem=0402b
+
+[ItemDef 0402e]
+//Gargish dresser
+DupeItem=0402b
+
+[ItemDef 0402f]
+DefName=iTableGargishLong
+Name=long table
+Type=tTable
+Weight=30.0
+Resources=30 iRockPlain
+SkillMake=Carpentry 81.0
+Category=Decoration - Furniture
+Subsection=Tables
+Description=Gargish Long Table
+DupeList=04030,04031,04032
+
+[ItemDef 04030]
+//Gargish Long Table
+DupeItem=0402f
+
+[ItemDef 04031]
+//Gargish Long Table
+DupeItem=0402f
+
+[ItemDef 04032]
+//Gargish Long Table
+DupeItem=0402f
+
+[ItemDef 04033]
+DefName=iTableGargishShort
+Name=Gargish short table
+Type=tTable
+Weight=30.0
+Resources=30 iRockPlain
+SkillMake=Carpentry 81.0
+Category=Decoration - Furniture
+Subsection=Tables
+Description=Gargish Short Table
+DupeList=04034,04035,04036
+
+[ItemDef 04034]
+//Gargish Short Table
+DupeItem=04033
+
+[ItemDef 04035]
+//Gargish Short Table
+DupeItem=04033
+
+[ItemDef 04036]
+//Gargish Short Table
+DupeItem=04033
+
+
+[ItemDef 0403a]
+DefName=iGargishMirror
+Name=Gargish floor mirror
+Can=CanIFlip
+Weight=20.2
+Resources=12 iRockPlain,12 iGlassRaw
+SkillMake=Alchemy 72.0,Carpentry 60.0
+Category=Decoration - Furniture
+Subsection=Bedroom Furniture
+Description=Gargish Mirror
+DupeList=04046
+
+
+[ItemDef 04041]
+DefName=iTableTerMur
+Name=Ter-Mur style table
+Type=tTable
+Weight=25
+Resources=50 iBoard
+SkillMake=Carpentry 75.0,tCarpentry
+Category=Decoration - Furniture
+Subsection=Tables
+Description=Ter-Mur Style Table
+
+
+[ItemDef 04982]
+DefName=iTableCthulu
+Name=Cthulu table
+Type=tTable
+Can=CanIFlip
+Value=29
+Weight=17.4
+Resources=17 iRockPlain
+SkillMake=Carpentry 42.1
+Category=Decoration - Furniture
+Subsection=Tables
+Description=Cthulu Table
+DupeList=04983,04984,04985
+
+[ItemDef 04983]
+//Cthulu table
+DupeItem=04982
+
+[ItemDef 04984]
+//Cthulu table
+DupeItem=04982
+
+[ItemDef 04985]
+//Cthulu table
+DupeItem=04982
+
+[ItemDef iMultiTableCthulu]
+Name=Cthulu table
+Type=tMulti
+Category=Multis
+Subsection=Furniture
+Description=Cthulu Table
+MULTIREGION=0,0,0,0
+COMPONENT=04982,0,0,0
+COMPONENT=04983,0,-1,0
+COMPONENT=04984,-1,0,0
+COMPONENT=04985,-1,-1,0
+
+
+[ItemDef 04b58]
+//FIXME: The usable area on gump 087c is too small
+DefName=iSeedOrganizer
+Name=seed organizer
+Can=CanIFlip
+Type=tContainer
+TDATA2=087c
+Weight=27.2
+Resources=25 iBoard,2 iNails
+SkillMake=Carpentry 41.0,tCarpentry
+Category=Decoration - Furniture
+Subsection=Display Case
+Description=Seed Organizer
+DupeList=04b5a
+
+[ItemDef 04b59]
+DefName=iSeedOrganizerFull
+Name=seed organizer
+Can=CanIFlip
+Type=tContainer
+TDATA2=087c
+Weight=27.2
+Resources=25 iBoard,2 iNails
+Category=Decoration - Furniture
+Subsection=Display Case
+Description=Seed Organizer (full)
+DupeList=04b5b
+
+[ItemDef 04b5a]
+//Seed Organizer
+DupeItem=04b58
+
+[ItemDef 04b5b]
+//Seed Organizer (full)
+DupeItem=04b58
+
+
+[ItemDef 04bdb]
+DefName=iChairThroneBlackthorn
+Name=Throne of Blackthorn
+Type=tChair
+Can=CanIFlip
+Value=420
+Weight=68.5
+Resources=60 iBoard,4 iCloth,4 iCotton,1 i_nails,4 i_ingotGold
+SkillMake=Carpentry 52.6,tCarpentry
+Category=Decoration - Furniture
+Subsection=Chairs
+Description=Throne of Blackthorn
+DupeList=04bdc,04bdd,04c1a,04c1b,04c1c,04c1d,04c1e,04c1f
+
+[ItemDef 04bdc]
+//Throne of Blackthorn
+DupeItem=04bdb
+
+[ItemDef 04bdd]
+//Throne of Blackthorn
+DupeItem=04bdb
+
+[ItemDef iMultiThroneBlackthornSouth]
+Name=Blackthorn's Throne
+Type=tMulti
+Category=Multis
+Subsection=Furniture
+Description=Blackthorn's Throne S (loaded)
+MULTIREGION=0,0,0,0
+COMPONENT=04bdb,-1,0,0
+COMPONENT=04bdc,0,0,0
+COMPONENT=04bdd,1,0,0
+
+
+[ItemDef 04bf6]
+DefName=iTableBritanniaEast
+Name=Britannia Maptable
+Type=tTable
+Can=CanIFlip
+Value=29
+Weight=17.4
+Resources=17 iBoard,4 iNails
+SkillMake=Carpentry 42.1,tCarpentry
+Category=Decoration - Furniture
+Subsection=Tables
+Description=Britannia Maptable (east)
+DupeList=04bf7,04bf8,04bf9,04bfa,04bfb
+
+[ItemDef 04bf7]
+//Britannia Maptable (east)
+DupeItem=04bf6
+
+[ItemDef 04bf8]
+//Britannia Maptable (east)
+DupeItem=04bf6
+
+[ItemDef 04bf9]
+//Britannia Maptable (east)
+DupeItem=04bf6
+
+[ItemDef 04bfa]
+//Britannia Maptable (east)
+DupeItem=04bf6
+
+[ItemDef 04bfb]
+//Britannia Maptable (east)
+DupeItem=04bf6
+
+[ItemDef iMultiMaptableEast]
+Name=Britannia Maptable
+Type=tMulti
+Category=Multis
+Subsection=Furniture
+Description=Britannia Maptable (east)
+MULTIREGION=0,0,0,0
+COMPONENT=04bf6,1,1,0
+COMPONENT=04bf7,1,0,0
+COMPONENT=04bf8,1,-1,0
+COMPONENT=04bf9,0,-1,0
+COMPONENT=04bfa,0,0,0
+COMPONENT=04bfb,0,1,0
+
+[ItemDef 04bfc]
+DefName=iTableBritanniaSouth
+Name=Britannia Maptable
+Type=tTable
+Can=CanIFlip
+Value=29
+Weight=17.4
+Resources=17 iBoard,4 iNails
+SkillMake=Carpentry 42.1,tCarpentry
+Category=Decoration - Furniture
+Subsection=Tables
+Description=Britannia Maptable (south)
+DupeList=04bfd,04bfe,04bff,04c00,04c01
+
+[ItemDef 04bfd]
+//Britannia Maptable (south)
+DupeItem=04bfc
+
+[ItemDef 04bfe]
+//Britannia Maptable (south)
+DupeItem=04bfc
+
+[ItemDef 04bff]
+//Britannia Maptable (south)
+DupeItem=04bfc
+
+[ItemDef 04c00]
+//Britannia Maptable (south)
+DupeItem=04bfc
+
+[ItemDef 04c01]
+//Britannia Maptable (south)
+DupeItem=04bfc
+
+[ItemDef iMultiMaptableSouth]
+Name=Britannia Maptable
+Type=tMulti
+Category=Multis
+Subsection=Furniture
+Description=Britannia Maptable (south)
+MULTIREGION=0,0,0,0
+COMPONENT=04bfd,-1,1,0
+COMPONENT=04bfc,0,1,0
+COMPONENT=04bfe,1,1,0
+COMPONENT=04bff,-1,0,0
+COMPONENT=04c00,0,0,0
+COMPONENT=04c01,1,0,0
+
+
+[ItemDef 04c1a]
+//Throne of Blackthorn
+DupeItem=04bdb
+
+[ItemDef 04c1b]
+//Throne of Blackthorn
+DupeItem=04bdb
+
+[ItemDef 04c1c]
+//Throne of Blackthorn
+DupeItem=04bdb
+
+[ItemDef iMultiThroneBlackthornSouthEmpty]
+Name=Blackthorn's Throne
+Type=tMulti
+Category=Multis
+Subsection=Furniture
+Description=Blackthorn's Throne S (empty)
+MULTIREGION=0,0,0,0
+COMPONENT=04c1a,-1,0,0//fixme
+COMPONENT=04c1b,0,0,0
+COMPONENT=04c1c,1,0,0
+
+[ItemDef 04c1d]
+//Throne of Blackthorn
+DupeItem=04bdb
+
+[ItemDef 04c1e]
+//Throne of Blackthorn
+DupeItem=04bdb
+
+[ItemDef 04c1f]
+//Throne of Blackthorn
+DupeItem=04bdb
+
+[ItemDef iMultiThroneBlackthornWestEmpty]
+Name=Blackthorn's Throne
+Type=tMulti
+Category=Multis
+Subsection=Furniture
+Description=Blackthorn's Throne W (empty)
+MULTIREGION=0,0,0,0
+COMPONENT=04c1d,0,-1,0//fixme
+COMPONENT=04c1e,0,0,0
+COMPONENT=04c1f,0,1,0
+
+
+[ItemDef 04d0d]
+DefName=iChestKingsCollection
+Name=Kings Collection Box
+Type=tContainer
+TDATA2=04a
+Can=CanIFlip
+Value=93
+Weight=22.0
+Resources=22 iBoard,2 iIngotIron,1 iNails
+SkillMake=Tinkering 75.0,tTinkerTools
+Category=Provisions - Miscellaneous
+Subsection=Containers
+Description=Kings Collection Box
+DupeList=04d0e
+
+[ItemDef 04d0e]
+//Kings Collection Box
+DupeItem=04d0d
+
+
+[EOF]

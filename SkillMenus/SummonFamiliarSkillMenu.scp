@@ -1,0 +1,24 @@
+[SkillMenu smSummonFamiliar]
+What do you want to Summon ?
+
+On=iHordeDaemonIcon <Name>
+Test=NECROMANCY 30.0,SPIRITSPEAK 30.0
+Summon=cSmallHordeDaemon
+
+On=iWispIcon <Name>
+Test=NECROMANCY 50.0,SPIRITSPEAK 50.0
+Summon=cDarkWisp	//Should be c_wisp_shadow ?
+
+On=iDarkWolfIcon <Name>
+Test=NECROMANCY 60.0,SPIRITSPEAK 60.0
+Summon=cDarkWolfIcon
+
+//On=iGiantSerpentIcon <Name>
+//Test=NECROMANCY 80.0,SPIRITSPEAK 80.0
+//Summon=cDeathAdder
+
+On=iVampireBatIcon <Name>
+Test=NECROMANCY 100.0,SPIRITSPEAK 100.0
+Summon=cVampireBat
+
+[EOF]

@@ -1,0 +1,389 @@
+//****************************************************************************
+// SPHERE by : Menasoft ©1997-2007
+// www.sphereserver.net
+// All SPHERE script files and formats are copyright Menasoft & Partners.
+// This file may be freely edited for personal use, but may not be distributed
+// in whole or in part, in any format without express written permission from
+// Menasoft & Partners. All donations and contributions
+// become the property of Menasoft & Partners.
+//****************************************************************************
+// FILE LAST UPDATED: Friday, September 20, 2013
+//
+VERSION=0.56c
+
+
+[ITEMDEF 01085]
+DEFNAME=iNecklaceMetalBeads
+NAME=bead necklace
+TYPE=tJewelry
+FLIP=1
+VALUE=72
+WEIGHT=0.1
+RESOURCES=1 iIngotIron,1 iBeads
+SKILLMAKE=Tinkering 61.0,tTinkerTools
+CATEGORY=Provisions - Jewels and Jewelry
+SUBSECTION=Jewelry
+DESCRIPTION=Necklace
+DUPELIST=01f05
+
+[ITEMDEF 01086]
+DEFNAME=iBraceletGold
+NAME=gold bracelet
+TYPE=tJewelry
+VALUE=34
+WEIGHT=0.1
+RESOURCES=3 iIngotGold
+SKILLMAKE=Tinkering 63.5,tTinkerTools
+CATEGORY=Provisions - Jewels and Jewelry
+SUBSECTION=Jewelry
+DESCRIPTION=Bracelet (Gold)
+
+[ITEMDEF 01087]
+DEFNAME=iEarringsGold
+NAME=gold earrings
+TYPE=tJewelry
+VALUE=12
+WEIGHT=0.1
+RESOURCES=1 iIngotGold
+SKILLMAKE=Tinkering 62.5,tTinkerTools
+CATEGORY=Provisions - Jewels and Jewelry
+SUBSECTION=Jewelry
+DESCRIPTION=Earrings (Gold)
+
+[ITEMDEF 01088]
+DEFNAME=iNecklaceGold
+NAME=gold necklace
+TYPE=tJewelry
+VALUE=11
+WEIGHT=0.1
+RESOURCES=1 iIngotGold
+SKILLMAKE=Tinkering 61.0,tTinkerTools
+CATEGORY=Provisions - Jewels and Jewelry
+SUBSECTION=Jewelry
+DESCRIPTION=Necklace
+
+[ITEMDEF 01089]
+DEFNAME=iNecklaceGoldBeads
+NAME=gold bead necklace
+TYPE=tJewelry
+VALUE=77
+WEIGHT=0.1
+RESOURCES=1 iIngotGold,1 iBeads
+SKILLMAKE=Tinkering 62.0,tTinkerTools
+CATEGORY=Provisions - Jewels and Jewelry
+SUBSECTION=Jewelry
+DESCRIPTION=Necklace (Gold Bead)
+
+[ITEMDEF 0108a]
+DEFNAME=iRingGold
+NAME=gold ring
+TYPE=tJewelry
+VALUE=13
+WEIGHT=0.1
+RESOURCES=1 iIngotGold
+SKILLMAKE=Tinkering 63.0,tTinkerTools
+CATEGORY=Provisions - Jewels and Jewelry
+SUBSECTION=Jewelry
+DESCRIPTION=Ring (Gold)
+
+[ITEMDEF 0108b]
+DEFNAME=iBeads
+TYPE=tJewelry
+VALUE=41
+WEIGHT=0.5
+RESOURCES=1 iIngotIron,3 iGemAmber,1 iGlassRaw
+SKILLMAKE=Tinkering 60.0,tTinkerTools
+CATEGORY=Provisions - Jewels and Jewelry
+SUBSECTION=Jewels
+DESCRIPTION=Beads
+
+
+
+
+[ITEMDEF 01096]
+DEFNAME=iTalisman
+TYPE=tJewelry
+//ARMOR=20
+LAYER=layer_talisman
+WEIGHT=0.1
+RESOURCES=1 iIngotIron,1 iWireIron,1 iScrollProtection
+CATEGORY=Provisions - Talismans
+SUBSECTION=Talismans
+DESCRIPTION=Talisman
+
+
+[ITEMDEF 01f05]
+//beaded necklace
+DUPEITEM=01085
+
+[ITEMDEF 01f06]
+DEFNAME=iBraceletSilver
+NAME=silver bracelet
+TYPE=tJewelry
+//LAYER=layer_wrist
+VALUE=30
+WEIGHT=1.0
+RESOURCES=3 iIngotSilver
+SKILLMAKE=Tinkering 62.0,tTinkerTools
+CATEGORY=Provisions - Jewels and Jewelry
+SUBSECTION=Jewelry
+DESCRIPTION=Silver Bracelet
+
+[ITEMDEF 01f07]
+DEFNAME=iEarringsSilver
+NAME=silver earrings
+TYPE=tJewelry
+//LAYER=layer_ears
+VALUE=15
+WEIGHT=1.0
+RESOURCES=1 iIngotSilver
+SKILLMAKE=Tinkering 62.0,tTinkerTools
+CATEGORY=Provisions - Jewels and Jewelry
+SUBSECTION=Jewelry
+DESCRIPTION=Silver Earrings
+
+[ITEMDEF 01f08]
+DEFNAME=iNecklaceSilver
+NAME=silver necklace
+TYPE=tJewelry
+//LAYER=layer_collar
+VALUE=22
+WEIGHT=2.0
+RESOURCES=2 iIngotSilver
+SKILLMAKE=Tinkering 62.0,tTinkerTools
+CATEGORY=Provisions - Jewels and Jewelry
+SUBSECTION=Jewelry
+DESCRIPTION=Silver Necklace
+
+[ITEMDEF 01f09]
+DEFNAME=iRingSilver
+NAME=silver ring
+TYPE=tJewelry
+//LAYER=layer_ring
+VALUE=15
+WEIGHT=1.0
+RESOURCES=1 iIngotSilver
+SKILLMAKE=Tinkering 62.0,tTinkerTools
+CATEGORY=Provisions - Jewels and Jewelry
+SUBSECTION=Jewelry
+DESCRIPTION=Silver Ring
+
+[ITEMDEF 01f0a]
+DEFNAME=iNecklaceSilverBeads
+NAME=silver bead necklace
+TYPE=tJewelry
+//LAYER=layer_collar
+VALUE=63
+WEIGHT=2.1
+RESOURCES=2 iIngotSilver,1 iBeads
+SKILLMAKE=Tinkering 62.0,tTinkerTools
+CATEGORY=Provisions - Jewels and Jewelry
+SUBSECTION=Jewelry
+DESCRIPTION=Silver Beads
+
+
+[ITEMDEF 02f58]
+DEFNAME=iTalisman1
+NAME=talisman
+TYPE=tJewelry
+//ARMOR=20
+LAYER=layer_talisman
+WEIGHT=0.1
+RESOURCES=1 iIngotIron,1 iWireIron,1 iScrollProtection
+CATEGORY=Provisions - Talismans
+SUBSECTION=Talismans
+DESCRIPTION=Talisman 1
+
+[ITEMDEF 02f59]
+DEFNAME=iTalisman2
+NAME=talisman
+TYPE=tJewelry
+//ARMOR=20
+LAYER=layer_talisman
+WEIGHT=0.1
+RESOURCES=1 iIngotIron,1 iWireIron,1 iScrollProtection
+CATEGORY=Provisions - Talismans
+SUBSECTION=Talismans
+DESCRIPTION=Talisman 2
+
+[ITEMDEF 02f5a]
+DEFNAME=iTalisman3
+NAME=talisman
+TYPE=tJewelry
+//ARMOR=20
+LAYER=layer_talisman
+WEIGHT=0.1
+RESOURCES=1 iIngotIron,1 iWireIron,1 iScrollProtection
+CATEGORY=Provisions - Talismans
+SUBSECTION=Talismans
+DESCRIPTION=Talisman 3
+
+[ITEMDEF 02f5b]
+DEFNAME=iTalisman4
+NAME=Talisman
+TYPE=tJewelry
+//ARMOR=20
+LAYER=layer_talisman
+WEIGHT=0.1
+RESOURCES=1 iIngotIron,1 iWireIron,1 iScrollProtection
+CATEGORY=Provisions - Talismans
+SUBSECTION=Talismans
+DESCRIPTION=Talisman 4
+
+
+[ITEMDEF 02fb8]
+DEFNAME=iElvenGlasses
+NAME=elven glasses
+TYPE=tJewelry
+FLIP=1
+//ARMOR=2
+VALUE=30
+WEIGHT=2.2
+RESOURCES=1 iIngotIron,2 iHinge,2 iGlassRaw
+SKILLMAKE=Tinkering 59.0,tTinkerTools
+CATEGORY=Provisions - Jewels and Jewelry
+SUBSECTION=Glasses
+DESCRIPTION=Elven Glasses
+ReqStr=45
+DUPELIST=03172
+ON=@Create
+//HITPOINTS={36 48}
+RESCOLD=4
+RESENERGY=2
+RESFIRE=4
+RESPHYSICAL=2
+RESPOISON=3
+
+
+[ITEMDEF 03172]
+//elven glasses
+DUPEITEM=02fb8
+
+
+[ITEMDEF 03bb5]
+DEFNAME=iPendantAnkh
+NAME=ankh pendant
+TYPE=tJewelry
+VALUE=72
+WEIGHT=0.1
+RESOURCES=1 iIngotSilver
+SKILLMAKE=Tinkering 91.0,tTinkerTools
+CATEGORY=Provisions - Jewels and Jewelry
+SUBSECTION=Jewelry
+DESCRIPTION=Ankh Pendant
+
+
+[ITEMDEF 04210]
+DEFNAME=iNecklaceGargoyle
+NAME=Gargish necklace
+TYPE=tJewelry
+VALUE=24
+WEIGHT=0.2
+RESOURCES=2 iIngotGold
+SKILLMAKE=Tinkering 75.0,tTinkerTools
+CATEGORY=Provisions - Jewels and Jewelry
+SUBSECTION=Jewelry
+DESCRIPTION=Gargish Necklace
+canuse=CanUGargoyle
+
+[ITEMDEF 04211]
+DEFNAME=iBraceletGargoyle
+NAME=Gargish bracelet
+TYPE=tJewelry
+VALUE=48
+WEIGHT=0.4
+RESOURCES=4 iIngotGold
+SKILLMAKE=Tinkering 73.5,tTinkerTools
+CATEGORY=Provisions - Jewels and Jewelry
+SUBSECTION=Jewelry
+DESCRIPTION=Gargish Bracelet
+canuse=CanUGargoyle
+
+[ITEMDEF 04212]
+DEFNAME=iRingGargoyle
+NAME=Gargish ring
+TYPE=tJewelry
+VALUE=24
+WEIGHT=0.2
+RESOURCES=2 iIngotGold
+SKILLMAKE=Tinkering 73.0,tTinkerTools
+CATEGORY=Provisions - Jewels and Jewelry
+SUBSECTION=Jewelry
+DESCRIPTION=Gargoyle Ring
+canuse=CanUGargoyle
+
+[ITEMDEF 04213]
+DEFNAME=iEarringsGargoyle
+NAME=Gargish earrings
+TYPE=tJewelry
+VALUE=24
+WEIGHT=0.2
+RESOURCES=2 iIngotGold
+SKILLMAKE=Tinkering 72.5,tTinkerTools
+CATEGORY=Provisions - Jewels and Jewelry
+SUBSECTION=Jewelry
+DESCRIPTION=Gargish Earrings
+canuse=CanUGargoyle
+
+
+[ITEMDEF 045b1]
+DEFNAME=iGargishGlassesFemale
+NAME=Gargish female glasses
+TYPE=tJewelry
+FLIP=1
+//ARMOR=2
+VALUE=30
+WEIGHT=2.2
+RESOURCES=1 iIngotIron,2 iHinge,2 iGlassRaw
+SKILLMAKE=Tinkering 59.0,tTinkerTools
+CATEGORY=Provisions - Jewels and Jewelry
+SUBSECTION=Glasses
+DESCRIPTION=Gargish Female Glasses
+canuse=CanUGargoyle|CanUFemale
+ReqStr=45
+DUPELIST=045b3
+ON=@Create
+//HITPOINTS={36 48}
+RESCOLD=4
+RESENERGY=2
+RESFIRE=4
+RESPHYSICAL=2
+RESPOISON=3
+
+
+[ITEMDEF 045b3]
+//Gargish female glasses
+DUPEITEM=045b1
+
+
+[ITEMDEF 04644]
+DEFNAME=iGargishGlasses
+NAME=Gargish glasses
+TYPE=tJewelry
+FLIP=1
+//ARMOR=2
+VALUE=30
+WEIGHT=2.2
+RESOURCES=1 iIngotIron,2 iHinge,2 iGlassRaw
+SKILLMAKE=Tinkering 59.0,tTinkerTools
+CATEGORY=Provisions - Jewels and Jewelry
+SUBSECTION=Glasses
+DESCRIPTION=Gargish Glasses
+canuse=CanUGargoyle
+//TAG.MaleOnly=1
+ReqStr=45
+DUPELIST=04645
+ON=@Create
+//HITPOINTS={36 48}
+RESCOLD=4
+RESENERGY=2
+RESFIRE=4
+RESPHYSICAL=2
+RESPOISON=3
+
+[ITEMDEF 04645]
+//gargish glasses
+DUPEITEM=04644
+
+
+[EOF]

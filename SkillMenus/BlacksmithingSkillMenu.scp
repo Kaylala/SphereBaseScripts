@@ -1,0 +1,1662 @@
+// Blacksmithing section
+
+[SkillMenu smBlacksmithing]
+Blacksmithing
+
+On=i_ANVIL Repair	// pretty much anyone can attempt to repair.
+Test=BLACKSMITHING 1.0
+REPAIR
+
+On=i_shield_round_bronze Shields
+SkillMenu=smShields
+
+On=i_platemail_chest Armor
+SkillMenu=smArmor
+
+On=i_sword_viking Weapons
+SkillMenu=smWeapons
+
+On=i_decorative_armor Colored Armor
+SkillMenu=smColored_armor
+
+On=i_decorative_armor Magic Armor
+SkillMenu=smMagic_armor
+
+[SkillMenu smShields]
+Shields
+
+On=i_shield_buckler <Name> (<ResMake>)
+MakeItem=i_shield_buckler
+
+On=i_shield_round_bronze <Name> (<ResMake>)
+MakeItem=i_shield_round_bronze
+
+On=i_shield_round_metal <Name> (<ResMake>)
+MakeItem=i_shield_round_metal
+
+On=i_shield_kite_metal <Name> (<ResMake>)
+MakeItem=i_shield_kite_metal
+
+On=i_shield_heater <Name> (<ResMake>)
+MakeItem=i_shield_heater
+
+[SkillMenu smArmor]
+Armor
+
+On=i_platemail_chest Plate Mail
+SkillMenu=smPlatemail_armor
+
+On=i_chainmail_tunic Chain Mail
+SkillMenu=smChainmail_armor
+
+On=i_ringmail_tunic Ring Mail
+SkillMenu=smRingmail_armor
+
+On=i_bascinet Helmets
+SkillMenu=smHelmets
+
+[SkillMenu smWeapons]
+Weapons
+
+On=i_sword_viking Swords & Blades
+SkillMenu=smSwords_blades
+
+On=i_axe_battle Axes
+SkillMenu=smAxes
+
+On=i_mace Maces & Hammers
+SkillMenu=smMaces_hammers
+
+On=i_pitchfork Spears and Forks
+SkillMenu=smSpears_forks
+
+On=i_halberd Pole Arms
+SkillMenu=smPole_arms
+
+[SkillMenu smPlatemail_armor]
+Plate Mail
+
+On=i_platemail_chest <Name> (<ResMake>)
+MakeItem=i_platemail_chest
+
+On=i_armor_female_plate <Name> (<ResMake>)
+MakeItem=i_armor_female_plate
+
+On=i_armor_female_studded <Name> (<ResMake>)
+MakeItem=i_armor_female_studded
+
+On=i_platemail_gorget <Name> (<ResMake>)
+MakeItem=i_platemail_gorget
+
+On=i_platemail_gloves <Name> (<ResMake>)
+MakeItem=i_platemail_gloves
+
+On=i_platemail_helm <Name> (<ResMake>)
+MakeItem=i_platemail_helm
+
+On=i_platemail_leggings <Name> (<ResMake>)
+MakeItem=i_platemail_leggings
+
+On=i_platemail_arms <Name> (<ResMake>)
+MakeItem=i_platemail_arms
+
+[SkillMenu smChainmail_armor]
+Chain Mail
+
+On=i_chainmail_tunic <Name> (<ResMake>)
+MakeItem=i_chainmail_tunic
+
+On=i_chainmail_leggings <Name> (<ResMake>)
+MakeItem=i_chainmail_leggings
+
+On=i_chainmail_coif <Name> (<ResMake>)
+MakeItem=i_chainmail_coif
+
+[SkillMenu smRingmail_armor]
+Ring Mail
+
+On=i_ringmail_tunic <Name> (<ResMake>)
+MakeItem=i_ringmail_tunic
+
+On=i_ringmail_sleeves <Name> (<ResMake>)
+MakeItem=i_ringmail_sleeves
+
+On=i_ringmail_leggings <Name> (<ResMake>)
+MakeItem=i_ringmail_leggings
+
+On=i_ringmail_gloves <Name> (<ResMake>)
+MakeItem=i_ringmail_gloves
+
+[SkillMenu smHelmets]
+Helmets
+
+On=i_helm_closed <Name> (<ResMake>)
+MakeItem=i_helm_closed
+
+On=i_helm_open <Name> (<ResMake>)
+MakeItem=i_helm_open
+
+On=i_bascinet <Name> (<ResMake>)
+MakeItem=i_bascinet
+
+On=i_helm_nose <Name> (<ResMake>)
+MakeItem=i_helm_nose
+
+[SkillMenu smSwords_blades]
+Swords & Blades
+
+On=i_sword_broad <Name> (<ResMake>)
+MakeItem=i_sword_broad
+
+On=i_cutlass <Name> (<ResMake>)
+MakeItem=i_cutlass
+
+On=i_dagger <Name> (<ResMake>)
+MakeItem=i_dagger
+
+On=i_katana <Name> (<ResMake>)
+MakeItem=i_katana
+
+On=i_kryss <Name> (<ResMake>)
+MakeItem=i_kryss
+
+On=i_sword_long <Name> (<ResMake>)
+MakeItem=i_sword_long
+
+On=i_scimitar <Name> (<ResMake>)
+MakeItem=i_scimitar
+
+On=i_sword_viking <Name> (<ResMake>)
+MakeItem=i_sword_viking
+
+[SkillMenu smAxes]
+Axes
+
+On=i_axe_exec <Name> (<ResMake>)
+MakeItem=i_axe_exec
+
+On=i_axe <Name> (<ResMake>)
+MakeItem=i_axe
+
+On=i_axe_double <Name> (<ResMake>)
+MakeItem=i_axe_double
+
+On=i_axe_battle <Name> (<ResMake>)
+MakeItem=i_axe_battle
+
+On=i_axe_battle_large <Name> (<ResMake>)
+MakeItem=i_axe_battle_large
+
+On=i_axe_war <Name> (<ResMake>)
+MakeItem=i_axe_war
+
+On=i_axe_two_hand <Name> (<ResMake>)
+MakeItem=i_axe_two_hand
+
+[SkillMenu smMaces_hammers]
+Maces & Hammers
+
+On=i_hammer_pick <Name> (<ResMake>)
+MakeItem=i_hammer_pick
+
+On=i_mace <Name> (<ResMake>)
+MakeItem=i_mace
+
+On=i_maul <Name> (<ResMake>)
+MakeItem=i_maul
+
+On=i_hammer_smith <Name> (<ResMake>)
+MakeItem=i_hammer_smith
+
+On=i_hammer_war <Name> (<ResMake>)
+MakeItem=i_hammer_war
+
+On=i_mace_war <Name> (<ResMake>)
+MakeItem=i_mace_war
+
+[SkillMenu smSpears_forks]
+Spears & Forks
+
+On=i_spear_short <Name> (<ResMake>)
+MakeItem=i_spear_short
+
+On=i_spear <Name> (<ResMake>)
+MakeItem=i_spear
+
+On=i_war_fork <Name> (<ResMake>)
+MakeItem=i_war_fork
+
+[SkillMenu smPole_arms]
+Pole Arms
+
+On=i_bardiche <Name> (<ResMake>)
+MakeItem=i_bardiche
+
+On=i_halberd <Name> (<ResMake>)
+MakeItem=i_halberd
+
+[SkillMenu smColored_armor]
+Colored Armor & Shields
+
+On=i_platemail_chest Bronze Plate Armor
+SkillMenu=smBronze_armor
+
+On=i_decorative_armor Rusty Armor
+SkillMenu=smRusty_armor
+
+On=i_decorative_armor Old Copper Armor
+SkillMenu=smOld_copper_armor
+
+On=i_decorative_armor Dull Copper Armor
+SkillMenu=smDull_copper_armor
+
+On=i_decorative_armor Copper Armor
+SkillMenu=smCopper_armor
+
+On=i_decorative_armor Silver Armor
+SkillMenu=smSilver_armor
+
+On=i_decorative_armor Golden Armor
+SkillMenu=smGolden_armor
+
+On=i_decorative_armor Black Rock Armor
+SkillMenu=smBlackrock_armor
+
+On=i_decorative_armor Blood Rock Armor
+SkillMenu=smBloodrock_armor
+
+On=i_decorative_armor Mytheril Armor
+SkillMenu=smMytheril_armor
+
+On=i_decorative_armor Verite Armor
+SkillMenu=smVerite_armor
+
+On=i_decorative_armor Valorite Armor
+SkillMenu=smValorite_armor
+
+On=i_decorative_armor Rose Armor
+SkillMenu=smRose_armor
+
+On=i_decorative_armor Agapite Armor
+SkillMenu=smAgapite_armor
+
+On=i_decorative_armor Shadow Armor
+SkillMenu=smShadow_armor
+
+[SkillMenu smGolden_armor]
+Golden Armor
+
+On=i_GOLDEN_PLATE_HELM <Name> (<ResMake>)
+MakeItem=i_GOLDEN_PLATE_HELM
+
+On=i_GOLDEN_PLATEMAIL_GORGET <Name> (<ResMake>)
+MakeItem=i_GOLDEN_PLATEMAIL_GORGET
+
+On=i_GOLDEN_PLATEMAIL_GAUNTLETS <Name> (<ResMake>)
+MakeItem=i_GOLDEN_PLATEMAIL_GAUNTLETS
+
+On=i_GOLDEN_PLATEMAIL_ARMS <Name> (<ResMake>)
+MakeItem=i_GOLDEN_PLATEMAIL_ARMS
+
+On=i_GOLDEN_PLATEMAIL_leggings <Name> (<ResMake>)
+MakeItem=i_GOLDEN_PLATEMAIL_leggings
+
+On=i_GOLDEN_FEMALE_PLATEMAIL <Name> (<ResMake>)
+MakeItem=i_GOLDEN_FEMALE_PLATEMAIL
+
+On=i_GOLDEN_PLATEMAIL <Name> (<ResMake>)
+MakeItem=i_GOLDEN_PLATEMAIL
+
+On=i_GOLDEN_CHAINMAIL_COIF <Name> (<ResMake>)
+MakeItem=i_GOLDEN_CHAINMAIL_COIF
+
+On=i_GOLDEN_CHAINMAIL_LEGGINGS <Name> (<ResMake>)
+MakeItem=i_GOLDEN_CHAINMAIL_LEGGINGS
+
+On=i_GOLDEN_CHAINMAIL_TUNIC <Name> (<ResMake>)
+MakeItem=i_GOLDEN_CHAINMAIL_TUNIC
+
+On=i_GOLDEN_RINGMAIL_GLOVES <Name> (<ResMake>)
+MakeItem=i_GOLDEN_RINGMAIL_GLOVES
+
+On=i_GOLDEN_RINGMAIL_SLEEVES <Name> (<ResMake>)
+MakeItem=i_GOLDEN_RINGMAIL_SLEEVES
+
+On=i_GOLDEN_RINGMAIL_LEGGINGS <Name> (<ResMake>)
+MakeItem=i_GOLDEN_RINGMAIL_LEGGINGS
+
+On=i_GOLDEN_RINGMAIL_TUNIC <Name> (<ResMake>)
+MakeItem=i_GOLDEN_RINGMAIL_TUNIC
+
+On=i_GOLDEN_BUCKLER_SHIELD <Name> (<ResMake>)
+MakeItem=i_GOLDEN_BUCKLER_SHIELD
+
+On=i_GOLDEN_METAL_SHIELD <Name> (<ResMake>)
+MakeItem=i_GOLDEN_METAL_SHIELD
+
+On=i_GOLDEN_HEATER_SHIELD <Name> (<ResMake>)
+MakeItem=i_GOLDEN_HEATER_SHIELD
+
+On=i_GOLDEN_CLOSED_HELM <Name> (<ResMake>)
+MakeItem=i_GOLDEN_CLOSED_HELM
+
+On=i_GOLDEN_HELMET <Name> (<ResMake>)
+MakeItem=i_GOLDEN_HELMET
+
+On=i_GOLDEN_BASCINET <Name> (<ResMake>)
+MakeItem=i_GOLDEN_BASCINET
+
+On=i_GOLDEN_NOSE_HELM <Name> (<ResMake>)
+MakeItem=i_GOLDEN_NOSE_HELM
+
+[SkillMenu smCopper_armor]
+Copper Armor
+
+On=i_Copper_PLATE_HELM <Name> (<ResMake>)
+MakeItem=i_Copper_PLATE_HELM
+
+On=i_Copper_PLATEMAIL_GORGET <Name> (<ResMake>)
+MakeItem=i_Copper_PLATEMAIL_GORGET
+
+On=i_Copper_PLATEMAIL_GAUNTLETS <Name> (<ResMake>)
+MakeItem=i_Copper_PLATEMAIL_GAUNTLETS
+
+On=i_Copper_PLATEMAIL_ARMS <Name> (<ResMake>)
+MakeItem=i_Copper_PLATEMAIL_ARMS
+
+On=i_Copper_PLATEMAIL_leggings <Name> (<ResMake>)
+MakeItem=i_Copper_PLATEMAIL_leggings
+
+On=i_Copper_FEMALE_PLATEMAIL <Name> (<ResMake>)
+MakeItem=i_Copper_FEMALE_PLATEMAIL
+
+On=i_Copper_PLATEMAIL <Name> (<ResMake>)
+MakeItem=i_Copper_PLATEMAIL
+
+On=i_Copper_CHAINMAIL_COIF <Name> (<ResMake>)
+MakeItem=i_Copper_CHAINMAIL_COIF
+
+On=i_Copper_CHAINMAIL_LEGGINGS <Name> (<ResMake>)
+MakeItem=i_Copper_CHAINMAIL_LEGGINGS
+
+On=i_Copper_CHAINMAIL_TUNIC <Name> (<ResMake>)
+MakeItem=i_Copper_CHAINMAIL_TUNIC
+
+On=i_Copper_RINGMAIL_GLOVES <Name> (<ResMake>)
+MakeItem=i_Copper_RINGMAIL_GLOVES
+
+On=i_Copper_RINGMAIL_SLEEVES <Name> (<ResMake>)
+MakeItem=i_Copper_RINGMAIL_SLEEVES
+
+On=i_Copper_RINGMAIL_LEGGINGS <Name> (<ResMake>)
+MakeItem=i_Copper_RINGMAIL_LEGGINGS
+
+On=i_Copper_RINGMAIL_TUNIC <Name> (<ResMake>)
+MakeItem=i_Copper_RINGMAIL_TUNIC
+
+On=i_Copper_BUCKLER_SHIELD <Name> (<ResMake>)
+MakeItem=i_Copper_BUCKLER_SHIELD
+
+On=i_Copper_METAL_SHIELD <Name> (<ResMake>)
+MakeItem=i_Copper_METAL_SHIELD
+
+On=i_Copper_HEATER_SHIELD <Name> (<ResMake>)
+MakeItem=i_Copper_HEATER_SHIELD
+
+On=i_Copper_CLOSED_HELM <Name> (<ResMake>)
+MakeItem=i_Copper_CLOSED_HELM
+
+On=i_Copper_HELMET <Name> (<ResMake>)
+MakeItem=i_Copper_HELMET
+
+On=i_Copper_BASCINET <Name> (<ResMake>)
+MakeItem=i_Copper_BASCINET
+
+On=i_Copper_NOSE_HELM <Name> (<ResMake>)
+MakeItem=i_Copper_NOSE_HELM
+
+[SkillMenu smSilver_armor]
+Silver Armor
+
+On=i_SILVER_PLATE_HELM <Name> (<ResMake>)
+MakeItem=i_SILVER_PLATE_HELM
+
+On=i_SILVER_PLATEMAIL_GORGET <Name> (<ResMake>)
+MakeItem=i_SILVER_PLATEMAIL_GORGET
+
+On=i_SILVER_PLATEMAIL_GAUNTLETS <Name> (<ResMake>)
+MakeItem=i_SILVER_PLATEMAIL_GAUNTLETS
+
+On=i_SILVER_PLATEMAIL_ARMS <Name> (<ResMake>)
+MakeItem=i_SILVER_PLATEMAIL_ARMS
+
+On=i_SILVER_PLATEMAIL_leggings <Name> (<ResMake>)
+MakeItem=i_SILVER_PLATEMAIL_leggings
+
+On=i_SILVER_FEMALE_PLATEMAIL <Name> (<ResMake>)
+MakeItem=i_SILVER_FEMALE_PLATEMAIL
+
+On=i_SILVER_PLATEMAIL <Name> (<ResMake>)
+MakeItem=i_SILVER_PLATEMAIL
+
+On=i_SILVER_CHAINMAIL_COIF <Name> (<ResMake>)
+MakeItem=i_SILVER_CHAINMAIL_COIF
+
+On=i_SILVER_CHAINMAIL_LEGGINGS <Name> (<ResMake>)
+MakeItem=i_SILVER_CHAINMAIL_LEGGINGS
+
+On=i_SILVER_CHAINMAIL_TUNIC <Name> (<ResMake>)
+MakeItem=i_SILVER_CHAINMAIL_TUNIC
+
+On=i_SILVER_RINGMAIL_GLOVES <Name> (<ResMake>)
+MakeItem=i_SILVER_RINGMAIL_GLOVES
+
+On=i_SILVER_RINGMAIL_SLEEVES <Name> (<ResMake>)
+MakeItem=i_SILVER_RINGMAIL_SLEEVES
+
+On=i_SILVER_RINGMAIL_LEGGINGS <Name> (<ResMake>)
+MakeItem=i_SILVER_RINGMAIL_LEGGINGS
+
+On=i_SILVER_RINGMAIL_TUNIC <Name> (<ResMake>)
+MakeItem=i_SILVER_RINGMAIL_TUNIC
+
+On=i_SILVER_BUCKLER_SHIELD <Name> (<ResMake>)
+MakeItem=i_SILVER_BUCKLER_SHIELD
+
+On=i_SILVER_METAL_SHIELD <Name> (<ResMake>)
+MakeItem=i_SILVER_METAL_SHIELD
+
+On=i_SILVER_HEATER_SHIELD Silver <Name> (<ResMake>)
+MakeItem=i_SILVER_HEATER_SHIELD
+
+On=i_SILVER_CLOSED_HELM <Name> (<ResMake>)
+MakeItem=i_SILVER_CLOSED_HELM
+
+On=i_SILVER_HELMET <Name> (<ResMake>)
+MakeItem=i_SILVER_HELMET
+
+On=i_SILVER_BASCINET <Name> (<ResMake>)
+MakeItem=i_SILVER_BASCINET
+
+On=i_SILVER_NOSE_HELM <Name> (<ResMake>)
+MakeItem=i_SILVER_NOSE_HELM
+
+[SkillMenu smBloodrock_armor]
+Blood Rock Armor
+
+On=i_BLOODROCK_PLATE_HELM <Name> (<ResMake>)
+MakeItem=i_BLOODROCK_PLATE_HELM
+
+On=i_BLOODROCK_PLATEMAIL_GORGET <Name> (<ResMake>)
+MakeItem=i_BLOODROCK_PLATEMAIL_GORGET
+
+On=i_BLOODROCK_PLATEMAIL_GAUNTLETS <Name> (<ResMake>)
+MakeItem=i_BLOODROCK_PLATEMAIL_GAUNTLETS
+
+On=i_BLOODROCK_PLATEMAIL_ARMS <Name> (<ResMake>)
+MakeItem=i_BLOODROCK_PLATEMAIL_ARMS
+
+On=i_BLOODROCK_PLATEMAIL_LEGGINGS <Name> (<ResMake>)
+MakeItem=i_BLOODROCK_PLATEMAIL_LEGGINGS
+
+On=i_BLOODROCK_FEMALE_PLATEMAIL <Name> (<ResMake>)
+MakeItem=i_BLOODROCK_FEMALE_PLATEMAIL
+
+On=i_BLOODROCK_PLATEMAIL <Name> (<ResMake>)
+MakeItem=i_BLOODROCK_PLATEMAIL
+
+On=i_BLOODROCK_CHAINMAIL_COIF <Name> (<ResMake>)
+MakeItem=i_BLOODROCK_CHAINMAIL_COIF
+
+On=i_BLOODROCK_CHAINMAIL_LEGGINGS <Name> (<ResMake>)
+MakeItem=i_BLOODROCK_CHAINMAIL_LEGGINGS
+
+On=i_BLOODROCK_CHAINMAIL_TUNIC <Name> (<ResMake>)
+MakeItem=i_BLOODROCK_CHAINMAIL_TUNIC
+
+On=i_BLOODROCK_RINGMAIL_GLOVES <Name> (<ResMake>)
+MakeItem=i_BLOODROCK_RINGMAIL_GLOVES
+
+On=i_BLOODROCK_RINGMAIL_SLEEVES <Name> (<ResMake>)
+MakeItem=i_BLOODROCK_RINGMAIL_SLEEVES
+
+On=i_BLOODROCK_RINGMAIL_LEGGINGS <Name> (<ResMake>)
+MakeItem=i_BLOODROCK_RINGMAIL_LEGGINGS
+
+On=i_BLOODROCK_RINGMAIL_TUNIC <Name> (<ResMake>)
+MakeItem=i_BLOODROCK_RINGMAIL_TUNIC
+
+On=i_BLOODROCK_BUCKLER_SHIELD <Name> (<ResMake>)
+MakeItem=i_BLOODROCK_BUCKLER_SHIELD
+
+On=i_BLOODROCK_METAL_SHIELD <Name> (<ResMake>)
+MakeItem=i_BLOODROCK_METAL_SHIELD
+
+On=i_BLOODROCK_HEATER_SHIELD <Name> (<ResMake>)
+MakeItem=i_BLOODROCK_HEATER_SHIELD
+
+On=i_BLOODROCK_CLOSED_HELM <Name> (<ResMake>)
+MakeItem=i_BLOODROCK_CLOSED_HELM
+
+On=i_BLOODROCK_HELMET <Name> (<ResMake>)
+MakeItem=i_BLOODROCK_HELMET
+
+On=i_BLOODROCK_BASCINET <Name> (<ResMake>)
+MakeItem=i_BLOODROCK_BASCINET
+
+On=i_BLOODROCK_NOSE_HELM <Name> (<ResMake>)
+MakeItem=i_BLOODROCK_NOSE_HELM
+
+[SkillMenu smBlackrock_armor]
+Black Rock Armor
+
+On=i_BLACKROCK_PLATE_HELM <Name> (<ResMake>)
+MakeItem=i_BLACKROCK_PLATE_HELM
+
+On=i_BLACKROCK_PLATEMAIL_GORGET <Name> (<ResMake>)
+MakeItem=i_BLACKROCK_PLATEMAIL_GORGET
+
+On=i_BLACKROCK_PLATEMAIL_GAUNTLETS <Name> (<ResMake>)
+MakeItem=i_BLACKROCK_PLATEMAIL_GAUNTLETS
+
+On=i_BLACKROCK_PLATEMAIL_ARMS <Name> (<ResMake>)
+MakeItem=i_BLACKROCK_PLATEMAIL_ARMS
+
+On=i_BLACKROCK_PLATEMAIL_LEGGINGS <Name> (<ResMake>)
+MakeItem=i_BLACKROCK_PLATEMAIL_LEGGINGS
+
+On=i_BLACKROCK_FEMALE_PLATEMAIL <Name> (<ResMake>)
+MakeItem=i_BLACKROCK_FEMALE_PLATEMAIL
+
+On=i_BLACKROCK_PLATEMAIL <Name> (<ResMake>)
+MakeItem=i_BLACKROCK_PLATEMAIL
+
+On=i_BLACKROCK_CHAINMAIL_COIF <Name> (<ResMake>)
+MakeItem=i_BLACKROCK_CHAINMAIL_COIF
+
+On=i_BLACKROCK_CHAINMAIL_LEGGINGS <Name> (<ResMake>)
+MakeItem=i_BLACKROCK_CHAINMAIL_LEGGINGS
+
+On=i_BLACKROCK_CHAINMAIL_TUNIC <Name> (<ResMake>)
+MakeItem=i_BLACKROCK_CHAINMAIL_TUNIC
+
+On=i_BLACKROCK_RINGMAIL_GLOVES <Name> (<ResMake>)
+MakeItem=i_BLACKROCK_RINGMAIL_GLOVES
+
+On=i_BLACKROCK_RINGMAIL_SLEEVES <Name> (<ResMake>)
+MakeItem=i_BLACKROCK_RINGMAIL_SLEEVES
+
+On=i_BLACKROCK_RINGMAIL_LEGGINGS <Name> (<ResMake>)
+MakeItem=i_BLACKROCK_RINGMAIL_LEGGINGS
+
+On=i_BLACKROCK_RINGMAIL_TUNIC <Name> (<ResMake>)
+MakeItem=i_BLACKROCK_RINGMAIL_TUNIC
+
+On=i_BLACKROCK_BUCKLER_SHIELD <Name> (<ResMake>)
+MakeItem=i_BLACKROCK_BUCKLER_SHIELD
+
+On=i_BLACKROCK_METAL_SHIELD <Name> (<ResMake>)
+MakeItem=i_BLACKROCK_METAL_SHIELD
+
+On=i_BLACKROCK_HEATER_SHIELD <Name> (<ResMake>)
+MakeItem=i_BLACKROCK_HEATER_SHIELD
+
+On=i_BLACKROCK_CLOSED_HELM <Name> (<ResMake>)
+MakeItem=i_BLACKROCK_CLOSED_HELM
+
+On=i_BLACKROCK_HELMET <Name> (<ResMake>)
+MakeItem=i_BLACKROCK_HELMET
+
+On=i_BLACKROCK_BASCINET <Name> (<ResMake>)
+MakeItem=i_BLACKROCK_BASCINET
+
+On=i_BLACKROCK_NOSE_HELM <Name> (<ResMake>)
+MakeItem=i_BLACKROCK_NOSE_HELM
+
+[SkillMenu smMytheril_armor]
+Mytheril Armor
+
+On=i_MYTHERIL_PLATE_HELM <Name> (<ResMake>)
+MakeItem=i_MYTHERIL_PLATE_HELM
+
+On=i_MYTHERIL_PLATEMAIL_GORGET <Name> (<ResMake>)
+MakeItem=i_MYTHERIL_PLATEMAIL_GORGET
+
+On=i_MYTHERIL_PLATEMAIL_GAUNTLETS <Name> (<ResMake>)
+MakeItem=i_MYTHERIL_PLATEMAIL_GAUNTLETS
+
+On=i_MYTHERIL_PLATEMAIL_ARMS <Name> (<ResMake>)
+MakeItem=i_MYTHERIL_PLATEMAIL_ARMS
+
+On=i_MYTHERIL_PLATEMAIL_LEGGINGS <Name> (<ResMake>)
+MakeItem=i_MYTHERIL_PLATEMAIL_LEGGINGS
+
+On=i_MYTHERIL_FEMALE_PLATEMAIL <Name> (<ResMake>)
+MakeItem=i_MYTHERIL_FEMALE_PLATEMAIL
+
+On=i_MYTHERIL_PLATEMAIL <Name> (<ResMake>)
+MakeItem=i_MYTHERIL_PLATEMAIL
+
+On=i_MYTHERIL_CHAINMAIL_COIF <Name> (<ResMake>)
+MakeItem=i_MYTHERIL_CHAINMAIL_COIF
+
+On=i_MYTHERIL_CHAINMAIL_LEGGINGS <Name> (<ResMake>)
+MakeItem=i_MYTHERIL_CHAINMAIL_LEGGINGS
+
+On=i_MYTHERIL_CHAINMAIL_TUNIC <Name> (<ResMake>)
+MakeItem=i_MYTHERIL_CHAINMAIL_TUNIC
+
+On=i_MYTHERIL_RINGMAIL_GLOVES <Name> (<ResMake>)
+MakeItem=i_MYTHERIL_RINGMAIL_GLOVES
+
+On=i_MYTHERIL_RINGMAIL_SLEEVES <Name> (<ResMake>)
+MakeItem=i_MYTHERIL_RINGMAIL_SLEEVES
+
+On=i_MYTHERIL_RINGMAIL_LEGGINGS <Name> (<ResMake>)
+MakeItem=i_MYTHERIL_RINGMAIL_LEGGINGS
+
+On=i_MYTHERIL_RINGMAIL_TUNIC <Name> (<ResMake>)
+MakeItem=i_MYTHERIL_RINGMAIL_TUNIC
+
+On=i_MYTHERIL_BUCKLER_SHIELD <Name> (<ResMake>)
+MakeItem=i_MYTHERIL_BUCKLER_SHIELD
+
+On=i_MYTHERIL_METAL_SHIELD <Name> (<ResMake>)
+MakeItem=i_MYTHERIL_METAL_SHIELD
+
+On=i_MYTHERIL_HEATER_SHIELD <Name> (<ResMake>)
+MakeItem=i_MYTHERIL_HEATER_SHIELD
+
+On=i_MYTHERIL_CLOSED_HELM <Name> (<ResMake>)
+MakeItem=i_MYTHERIL_CLOSED_HELM
+
+On=i_MYTHERIL_HELMET <Name> (<ResMake>)
+MakeItem=i_MYTHERIL_HELMET
+
+On=i_MYTHERIL_BASCINET <Name> (<ResMake>)
+MakeItem=i_MYTHERIL_BASCINET
+
+On=i_MYTHERIL_NOSE_HELM <Name> (<ResMake>)
+MakeItem=i_MYTHERIL_NOSE_HELM
+
+[SkillMenu smRose_armor]
+Rose Armor
+
+On=i_ROSE_PLATE_HELM <Name> (<ResMake>)
+MakeItem=i_ROSE_PLATE_HELM
+
+On=i_ROSE_PLATEMAIL_GORGET <Name> (<ResMake>)
+MakeItem=i_ROSE_PLATEMAIL_GORGET
+
+On=i_ROSE_PLATEMAIL_GAUNTLETS <Name> (<ResMake>)
+MakeItem=i_ROSE_PLATEMAIL_GAUNTLETS
+
+On=i_ROSE_PLATEMAIL_ARMS <Name> (<ResMake>)
+MakeItem=i_ROSE_PLATEMAIL_ARMS
+
+On=i_ROSE_PLATEMAIL_LEGGINGS <Name> (<ResMake>)
+MakeItem=i_ROSE_PLATEMAIL_LEGGINGS
+
+On=i_ROSE_FEMALE_PLATEMAIL <Name> (<ResMake>)
+MakeItem=i_ROSE_FEMALE_PLATEMAIL
+
+On=i_ROSE_PLATEMAIL <Name> (<ResMake>)
+MakeItem=i_ROSE_PLATEMAIL
+
+On=i_ROSE_CHAINMAIL_COIF <Name> (<ResMake>)
+MakeItem=i_ROSE_CHAINMAIL_COIF
+
+On=i_ROSE_CHAINMAIL_LEGGINGS <Name> (<ResMake>)
+MakeItem=i_ROSE_CHAINMAIL_LEGGINGS
+
+On=i_ROSE_CHAINMAIL_TUNIC <Name> (<ResMake>)
+MakeItem=i_ROSE_CHAINMAIL_TUNIC
+
+On=i_ROSE_RINGMAIL_GLOVES <Name> (<ResMake>)
+MakeItem=i_ROSE_RINGMAIL_GLOVES
+
+On=i_ROSE_RINGMAIL_SLEEVES <Name> (<ResMake>)
+MakeItem=i_ROSE_RINGMAIL_SLEEVES
+
+On=i_ROSE_RINGMAIL_LEGGINGS <Name> (<ResMake>)
+MakeItem=i_ROSE_RINGMAIL_LEGGINGS
+
+On=i_ROSE_RINGMAIL_TUNIC <Name> (<ResMake>)
+MakeItem=i_ROSE_RINGMAIL_TUNIC
+
+On=i_ROSE_BUCKLER_SHIELD <Name> (<ResMake>)
+MakeItem=i_ROSE_BUCKLER_SHIELD
+
+On=i_ROSE_METAL_SHIELD <Name> (<ResMake>)
+MakeItem=i_ROSE_METAL_SHIELD
+
+On=i_ROSE_HEATER_SHIELD <Name> (<ResMake>)
+MakeItem=i_ROSE_HEATER_SHIELD
+
+On=i_ROSE_CLOSED_HELM <Name> (<ResMake>)
+MakeItem=i_ROSE_CLOSED_HELM
+
+On=i_ROSE_HELMET <Name> (<ResMake>)
+MakeItem=i_ROSE_HELMET
+
+On=i_ROSE_BASCINET <Name> (<ResMake>)
+MakeItem=i_ROSE_BASCINET
+
+On=i_ROSE_NOSE_HELM <Name> (<ResMake>)
+MakeItem=i_ROSE_NOSE_HELM
+
+[SkillMenu smShadow_armor]
+Shadow Armor
+
+On=i_SHADOW_PLATE_HELM <Name> (<ResMake>)
+MakeItem=i_SHADOW_PLATE_HELM
+
+On=i_SHADOW_PLATEMAIL_GORGET <Name> (<ResMake>)
+MakeItem=i_SHADOW_PLATEMAIL_GORGET
+
+On=i_SHADOW_PLATEMAIL_GAUNTLETS <Name> (<ResMake>)
+MakeItem=i_SHADOW_PLATEMAIL_GAUNTLETS
+
+On=i_SHADOW_PLATEMAIL_ARMS <Name> (<ResMake>)
+MakeItem=i_SHADOW_PLATEMAIL_ARMS
+
+On=i_SHADOW_PLATEMAIL_LEGGINGS <Name> (<ResMake>)
+MakeItem=i_SHADOW_PLATEMAIL_LEGGINGS
+
+On=i_SHADOW_FEMALE_PLATEMAIL <Name> (<ResMake>)
+MakeItem=i_SHADOW_FEMALE_PLATEMAIL
+
+On=i_SHADOW_PLATEMAIL <Name> (<ResMake>)
+MakeItem=i_SHADOW_PLATEMAIL
+
+On=i_SHADOW_CHAINMAIL_COIF <Name> (<ResMake>)
+MakeItem=i_SHADOW_CHAINMAIL_COIF
+
+On=i_SHADOW_CHAINMAIL_LEGGINGS <Name> (<ResMake>)
+MakeItem=i_SHADOW_CHAINMAIL_LEGGINGS
+
+On=i_SHADOW_CHAINMAIL_TUNIC <Name> (<ResMake>)
+MakeItem=i_SHADOW_CHAINMAIL_TUNIC
+
+On=i_SHADOW_RINGMAIL_GLOVES <Name> (<ResMake>)
+MakeItem=i_SHADOW_RINGMAIL_GLOVES
+
+On=i_SHADOW_RINGMAIL_SLEEVES <Name> (<ResMake>)
+MakeItem=i_SHADOW_RINGMAIL_SLEEVES
+
+On=i_SHADOW_RINGMAIL_LEGGINGS <Name> (<ResMake>)
+MakeItem=i_SHADOW_RINGMAIL_LEGGINGS
+
+On=i_SHADOW_RINGMAIL_TUNIC <Name> (<ResMake>)
+MakeItem=i_SHADOW_RINGMAIL_TUNIC
+
+On=i_SHADOW_BUCKLER_SHIELD <Name> (<ResMake>)
+MakeItem=i_SHADOW_BUCKLER_SHIELD
+
+On=i_SHADOW_METAL_SHIELD <Name> (<ResMake>)
+MakeItem=i_SHADOW_METAL_SHIELD
+
+On=i_SHADOW_HEATER_SHIELD <Name> (<ResMake>)
+MakeItem=i_SHADOW_HEATER_SHIELD
+
+On=i_SHADOW_CLOSED_HELM <Name> (<ResMake>)
+MakeItem=i_SHADOW_CLOSED_HELM
+
+On=i_SHADOW_HELMET <Name> (<ResMake>)
+MakeItem=i_SHADOW_HELMET
+
+On=i_SHADOW_BASCINET <Name> (<ResMake>)
+MakeItem=i_SHADOW_BASCINET
+
+On=i_SHADOW_NOSE_HELM <Name> (<ResMake>)
+MakeItem=i_SHADOW_NOSE_HELM
+
+[SkillMenu smVerite_armor]
+Verite Armor
+
+On=i_VERITE_PLATE_HELM <Name> (<ResMake>)
+MakeItem=i_VERITE_PLATE_HELM
+
+On=i_VERITE_PLATEMAIL_GORGET <Name> (<ResMake>)
+MakeItem=i_VERITE_PLATEMAIL_GORGET
+
+On=i_VERITE_PLATEMAIL_GAUNTLETS <Name> (<ResMake>)
+MakeItem=i_VERITE_PLATEMAIL_GAUNTLETS
+
+On=i_VERITE_PLATEMAIL_ARMS <Name> (<ResMake>)
+MakeItem=i_VERITE_PLATEMAIL_ARMS
+
+On=i_VERITE_PLATEMAIL_LEGGINGS <Name> (<ResMake>)
+MakeItem=i_VERITE_PLATEMAIL_LEGGINGS
+
+On=i_VERITE_FEMALE_PLATEMAIL <Name> (<ResMake>)
+MakeItem=i_VERITE_FEMALE_PLATEMAIL
+
+On=i_VERITE_PLATEMAIL <Name> (<ResMake>)
+MakeItem=i_VERITE_PLATEMAIL
+
+On=i_VERITE_CHAINMAIL_COIF <Name> (<ResMake>)
+MakeItem=i_VERITE_CHAINMAIL_COIF
+
+On=i_VERITE_CHAINMAIL_LEGGINGS <Name> (<ResMake>)
+MakeItem=i_VERITE_CHAINMAIL_LEGGINGS
+
+On=i_VERITE_CHAINMAIL_TUNIC <Name> (<ResMake>)
+MakeItem=i_VERITE_CHAINMAIL_TUNIC
+
+On=i_VERITE_RINGMAIL_GLOVES <Name> (<ResMake>)
+MakeItem=i_VERITE_RINGMAIL_GLOVES
+
+On=i_VERITE_RINGMAIL_SLEEVES <Name> (<ResMake>)
+MakeItem=i_VERITE_RINGMAIL_SLEEVES
+
+On=i_VERITE_RINGMAIL_LEGGINGS <Name> (<ResMake>)
+MakeItem=i_VERITE_RINGMAIL_LEGGINGS
+
+On=i_VERITE_RINGMAIL_TUNIC <Name> (<ResMake>)
+MakeItem=i_VERITE_RINGMAIL_TUNIC
+
+On=i_VERITE_BUCKLER_SHIELD <Name> (<ResMake>)
+MakeItem=i_VERITE_BUCKLER_SHIELD
+
+On=i_VERITE_METAL_SHIELD <Name> (<ResMake>)
+MakeItem=i_VERITE_METAL_SHIELD
+
+On=i_VERITE_HEATER_SHIELD <Name> (<ResMake>)
+MakeItem=i_VERITE_HEATER_SHIELD
+
+On=i_VERITE_CLOSED_HELM <Name> (<ResMake>)
+MakeItem=i_VERITE_CLOSED_HELM
+
+On=i_VERITE_HELMET <Name> (<ResMake>)
+MakeItem=i_VERITE_HELMET
+
+On=i_VERITE_BASCINET <Name> (<ResMake>)
+MakeItem=i_VERITE_BASCINET
+
+On=i_VERITE_NOSE_HELM <Name> (<ResMake>)
+MakeItem=i_VERITE_NOSE_HELM
+
+[SkillMenu smAgapite_armor]
+Agapite Armor
+
+On=i_AGAPITE_PLATE_HELM <Name> (<ResMake>)
+MakeItem=i_AGAPITE_PLATE_HELM
+
+On=i_AGAPITE_PLATEMAIL_GORGET <Name> (<ResMake>)
+MakeItem=i_AGAPITE_PLATEMAIL_GORGET
+
+On=i_AGAPITE_PLATEMAIL_GAUNTLETS <Name> (<ResMake>)
+MakeItem=i_AGAPITE_PLATEMAIL_GAUNTLETS
+
+On=i_AGAPITE_PLATEMAIL_ARMS <Name> (<ResMake>)
+MakeItem=i_AGAPITE_PLATEMAIL_ARMS
+
+On=i_AGAPITE_PLATEMAIL_LEGGINGS <Name> (<ResMake>)
+MakeItem=i_AGAPITE_PLATEMAIL_leggings
+
+On=i_AGAPITE_FEMALE_PLATEMAIL <Name> (<ResMake>)
+MakeItem=i_AGAPITE_FEMALE_PLATEMAIL
+
+On=i_AGAPITE_PLATEMAIL <Name> (<ResMake>)
+MakeItem=i_AGAPITE_PLATEMAIL
+
+On=i_AGAPITE_CHAINMAIL_COIF <Name> (<ResMake>)
+MakeItem=i_AGAPITE_CHAINMAIL_COIF
+
+On=i_AGAPITE_CHAINMAIL_LEGGINGS <Name> (<ResMake>)
+MakeItem=i_AGAPITE_CHAINMAIL_LEGGINGS
+
+On=i_AGAPITE_CHAINMAIL_TUNIC <Name> (<ResMake>)
+MakeItem=i_AGAPITE_CHAINMAIL_TUNIC
+
+On=i_AGAPITE_RINGMAIL_GLOVES <Name> (<ResMake>)
+MakeItem=i_AGAPITE_RINGMAIL_GLOVES
+
+On=i_AGAPITE_RINGMAIL_SLEEVES <Name> (<ResMake>)
+MakeItem=i_AGAPITE_RINGMAIL_SLEEVES
+
+On=i_AGAPITE_RINGMAIL_LEGGINGS <Name> (<ResMake>)
+MakeItem=i_AGAPITE_RINGMAIL_LEGGINGS
+
+On=i_AGAPITE_RINGMAIL_TUNIC <Name> (<ResMake>)
+MakeItem=i_AGAPITE_RINGMAIL_TUNIC
+
+On=i_AGAPITE_BUCKLER_SHIELD <Name> (<ResMake>)
+MakeItem=i_AGAPITE_BUCKLER_SHIELD
+
+On=i_AGAPITE_METAL_SHIELD <Name> (<ResMake>)
+MakeItem=i_AGAPITE_METAL_SHIELD
+
+On=i_AGAPITE_HEATER_SHIELD <Name> (<ResMake>)
+MakeItem=i_AGAPITE_HEATER_SHIELD
+
+On=i_AGAPITE_CLOSED_HELM <Name> (<ResMake>)
+MakeItem=i_AGAPITE_CLOSED_HELM
+
+On=i_AGAPITE_HELMET <Name> (<ResMake>)
+MakeItem=i_AGAPITE_HELMET
+
+On=i_AGAPITE_BASCINET <Name> (<ResMake>)
+MakeItem=i_AGAPITE_BASCINET
+
+On=i_AGAPITE_NOSE_HELM <Name> (<ResMake>)
+MakeItem=i_AGAPITE_NOSE_HELM
+
+[SkillMenu smRusty_armor]
+Rusty Armor
+
+On=i_RUSTY_PLATE_HELM <Name> (<ResMake>)
+MakeItem=i_RUSTY_PLATE_HELM
+
+On=i_RUSTY_PLATEMAIL_GORGET <Name> (<ResMake>)
+MakeItem=i_RUSTY_PLATEMAIL_GORGET
+
+On=i_RUSTY_PLATEMAIL_GAUNTLETS <Name> (<ResMake>)
+MakeItem=i_RUSTY_PLATEMAIL_GAUNTLETS
+
+On=i_RUSTY_PLATEMAIL_ARMS <Name> (<ResMake>)
+MakeItem=i_RUSTY_PLATEMAIL_ARMS
+
+On=i_RUSTY_PLATEMAIL_LEGGINGS <Name> (<ResMake>)
+MakeItem=i_RUSTY_PLATEMAIL_LEGGINGS
+
+On=i_RUSTY_FEMALE_PLATEMAIL <Name> (<ResMake>)
+MakeItem=i_RUSTY_FEMALE_PLATEMAIL
+
+On=i_RUSTY_PLATEMAIL <Name> (<ResMake>)
+MakeItem=i_RUSTY_PLATEMAIL
+
+On=i_RUSTY_CHAINMAIL_COIF <Name> (<ResMake>)
+MakeItem=i_RUSTY_CHAINMAIL_COIF
+
+On=i_RUSTY_CHAINMAIL_LEGGINGS <Name> (<ResMake>)
+MakeItem=i_RUSTY_CHAINMAIL_LEGGINGS
+
+On=i_RUSTY_CHAINMAIL_TUNIC <Name> (<ResMake>)
+MakeItem=i_RUSTY_CHAINMAIL_TUNIC
+
+On=i_RUSTY_RINGMAIL_GLOVES <Name> (<ResMake>)
+MakeItem=i_RUSTY_RINGMAIL_GLOVES
+
+On=i_RUSTY_RINGMAIL_SLEEVES <Name> (<ResMake>)
+MakeItem=i_RUSTY_RINGMAIL_SLEEVES
+
+On=i_RUSTY_RINGMAIL_LEGGINGS <Name> (<ResMake>)
+MakeItem=i_RUSTY_RINGMAIL_LEGGINGS
+
+On=i_RUSTY_RINGMAIL_TUNIC <Name> (<ResMake>)
+MakeItem=i_RUSTY_RINGMAIL_TUNIC
+
+On=i_RUSTY_BUCKLER_SHIELD <Name> (<ResMake>)
+MakeItem=i_RUSTY_BUCKLER_shield
+
+On=i_RUSTY_METAL_SHIELD <Name> (<ResMake>)
+MakeItem=i_RUSTY_METAL_SHIELD
+
+On=i_RUSTY_HEATER_SHIELD <Name> (<ResMake>)
+MakeItem=i_RUSTY_HEATER_SHIELD
+
+On=i_RUSTY_CLOSED_HELM <Name> (<ResMake>)
+MakeItem=i_RUSTY_CLOSED_HELM
+
+On=i_RUSTY_HELMET <Name> (<ResMake>)
+MakeItem=i_RUSTY_HELMET
+
+On=i_RUSTY_BASCINET <Name> (<ResMake>)
+MakeItem=i_RUSTY_BASCINET
+
+On=i_RUSTY_NOSE_HELM <Name> (<ResMake>)
+MakeItem=i_RUSTY_NOSE_HELM
+
+[SkillMenu smOld_copper_armor]
+Old Copper Armor
+
+On=i_OLD_COPPER_PLATE_HELM <Name> (<ResMake>)
+MakeItem=i_OLD_COPPER_PLATE_HELM
+
+On=i_OLD_COPPER_PLATEMAIL_GORGET <Name> (<ResMake>)
+MakeItem=i_OLD_COPPER_PLATEMAIL_GORGET
+
+On=i_OLD_COPPER_PLATEMAIL_GAUNTLETS <Name> (<ResMake>)
+MakeItem=i_OLD_COPPER_PLATEMAIL_GAUNTLETS
+
+On=i_OLD_COPPER_PLATEMAIL_ARMS <Name> (<ResMake>)
+MakeItem=i_OLD_COPPER_PLATEMAIL_ARMS
+
+On=i_OLD_COPPER_PLATEMAIL_LEGGINGS <Name> (<ResMake>)
+MakeItem=i_OLD_COPPER_PLATEMAIL_LEGGINGS
+
+On=i_OLD_COPPER_FEMALE_PLATEMAIL <Name> (<ResMake>)
+MakeItem=i_OLD_COPPER_FEMALE_PLATEMAIL
+
+On=i_OLD_COPPER_PLATEMAIL <Name> (<ResMake>)
+MakeItem=i_OLD_COPPER_PLATEMAIL
+
+On=i_OLD_COPPER_CHAINMAIL_COIF <Name> (<ResMake>)
+MakeItem=i_OLD_COPPER_CHAINMAIL_COIF
+
+On=i_OLD_COPPER_CHAINMAIL_LEGGINGS <Name> (<ResMake>)
+MakeItem=i_OLD_COPPER_CHAINMAIL_LEGGINGS
+
+On=i_OLD_COPPER_CHAINMAIL_TUNIC <Name> (<ResMake>)
+MakeItem=i_OLD_COPPER_CHAINMAIL_TUNIC
+
+On=i_OLD_COPPER_RINGMAIL_GLOVES <Name> (<ResMake>)
+MakeItem=i_OLD_COPPER_RINGMAIL_GLOVES
+
+On=i_OLD_COPPER_RINGMAIL_SLEEVES <Name> (<ResMake>)
+MakeItem=i_OLD_COPPER_RINGMAIL_SLEEVES
+
+On=i_OLD_COPPER_RINGMAIL_LEGGINGS <Name> (<ResMake>)
+MakeItem=i_OLD_COPPER_RINGMAIL_LEGGINGS
+
+On=i_OLD_COPPER_RINGMAIL_TUNIC <Name> (<ResMake>)
+MakeItem=i_OLD_COPPER_RINGMAIL_TUNIC
+
+On=i_OLD_COPPER_BUCKLER_SHIELD <Name> (<ResMake>)
+MakeItem=i_OLD_COPPER_BUCKLER_SHIELD
+
+On=i_OLD_COPPER_METAL_SHIELD <Name> (<ResMake>)
+MakeItem=i_OLD_COPPER_METAL_SHIELD
+
+On=i_OLD_COPPER_HEATER_SHIELD <Name> (<ResMake>)
+MakeItem=i_OLD_COPPER_HEATER_SHIELD
+
+On=i_OLD_COPPER_CLOSED_HELM <Name> (<ResMake>)
+MakeItem=i_OLD_COPPER_CLOSED_HELM
+
+On=i_OLD_COPPER_CLOSED_HELM <Name> (<ResMake>)
+MakeItem=i_OLD_COPPER_HELMET
+
+On=i_OLD_COPPER_BASCINET <Name> (<ResMake>)
+MakeItem=i_OLD_COPPER_BASCINET
+
+On=i_OLD_COPPER_NOSE_HELM <Name> (<ResMake>)
+MakeItem=i_OLD_COPPER_NOSE_HELM
+
+[SkillMenu smValorite_armor]
+Valorite Armor
+
+On=i_VALORITE_PLATE_HELM <Name> (<ResMake>)
+MakeItem=i_VALORITE_PLATE_HELM
+
+On=i_VALORITE_PLATEMAIL_GORGET <Name> (<ResMake>)
+MakeItem=i_VALORITE_PLATEMAIL_GORGET
+
+On=i_VALORITE_PLATEMAIL_GAUNTLETS <Name> (<ResMake>)
+MakeItem=i_VALORITE_PLATEMAIL_GAUNTLETS
+
+On=i_VALORITE_PLATEMAIL_ARMS <Name> (<ResMake>)
+MakeItem=i_VALORITE_PLATEMAIL_ARMS
+
+On=i_VALORITE_PLATEMAIL_LEGGINGS <Name> (<ResMake>)
+MakeItem=i_VALORITE_PLATEMAIL_LEGGINGS
+
+On=i_VALORITE_FEMALE_PLATEMAIL <Name> (<ResMake>)
+MakeItem=i_VALORITE_FEMALE_PLATEMAIL
+
+On=i_VALORITE_PLATEMAIL <Name> (<ResMake>)
+MakeItem=i_VALORITE_PLATEMAIL
+
+On=i_VALORITE_CHAINMAIL_COIF <Name> (<ResMake>)
+MakeItem=i_VALORITE_CHAINMAIL_COIF
+
+On=i_VALORITE_CHAINMAIL_LEGGINGS <Name> (<ResMake>)
+MakeItem=i_VALORITE_CHAINMAIL_LEGGINGS
+
+On=i_VALORITE_CHAINMAIL_TUNIC <Name> (<ResMake>)
+MakeItem=i_VALORITE_CHAINMAIL_TUNIC
+
+On=i_VALORITE_RINGMAIL_GLOVES <Name> (<ResMake>)
+MakeItem=i_VALORITE_RINGMAIL_GLOVES
+
+On=i_VALORITE_RINGMAIL_SLEEVES <Name> (<ResMake>)
+MakeItem=i_VALORITE_RINGMAIL_SLEEVES
+
+On=i_VALORITE_RINGMAIL_LEGGINGS <Name> (<ResMake>)
+MakeItem=i_VALORITE_RINGMAIL_LEGGINGS
+
+On=i_VALORITE_RINGMAIL_TUNIC <Name> (<ResMake>)
+MakeItem=i_VALORITE_RINGMAIL_TUNIC
+
+On=i_VALORITE_BUCKLER_SHIELD <Name> (<ResMake>)
+MakeItem=i_VALORITE_BUCKLER_SHIELD
+
+On=i_VALORITE_METAL_SHIELD <Name> (<ResMake>)
+MakeItem=i_VALORITE_METAL_SHIELD
+
+On=i_VALORITE_HEATER_SHIELD <Name> (<ResMake>)
+MakeItem=i_VALORITE_HEATER_SHIELD
+
+On=i_VALORITE_CLOSED_HELM <Name> (<ResMake>)
+MakeItem=i_VALORITE_CLOSED_HELM
+
+On=i_VALORITE_HELMET <Name> (<ResMake>)
+MakeItem=i_VALORITE_HELMET
+
+On=i_VALORITE_BASCINET <Name> (<ResMake>)
+MakeItem=i_VALORITE_BASCINET
+
+On=i_VALORITE_NOSE_HELM <Name> (<ResMake>)
+MakeItem=i_VALORITE_NOSE_HELM
+
+[SkillMenu smDull_copper_armor]
+Dull Copper Armor & Shields
+
+On=i_RINGMAIL_TUNIC Dull Copper Ringmail
+SkillMenu=smdull_copper_1
+
+On=i_CHAINMAIL_TUNIC Dull Copper Chain Mail
+SkillMenu=smdull_copper_2
+
+On=i_PLATEMAIL_CHEST t Dull Copper Armor & Shields
+SkillMenu=smdull_copper_3
+
+[SkillMenu smDull_copper_1]
+Dull Copper Ringmail
+
+On=i_DULL_COPPER_RINGMAIL_GLOVES <Name> (<ResMake>)
+MakeItem=i_DULL_COPPER_RINGMAIL_GLOVES
+
+On=i_DULL_COPPER_RINGMAIL_SLEEVES <Name> (<ResMake>)
+MakeItem=i_DULL_COPPER_RINGMAIL_SLEEVES
+
+On=i_DULL_COPPER_RINGMAIL_LEGGINGS <Name> (<ResMake>)
+MakeItem=i_DULL_COPPER_RINGMAIL_LEGGINGS
+
+On=i_DULL_COPPER_RINGMAIL_TUNIC <Name> (<ResMake>)
+MakeItem=i_DULL_COPPER_RINGMAIL_TUNIC
+
+[SkillMenu smDull_copper_2]
+Dull Copper Chain Mail
+
+On=i_DULL_COPPER_CHAINMAIL_COIF <Name> (<ResMake>)
+MakeItem=i_DULL_COPPER_CHAINMAIL_COIF
+
+On=i_DULL_COPPER_CHAINMAIL_LEGGINGS <Name> (<ResMake>)
+MakeItem=i_DULL_COPPER_CHAINMAIL_LEGGINGS
+
+On=i_DULL_COPPER_CHAINMAIL_TUNIC <Name> (<ResMake>)
+MakeItem=i_DULL_COPPER_CHAINMAIL_TUNIC
+
+[SkillMenu smDull_copper_3]
+Dull Copper Armor & Shields
+
+On=i_DULL_COPPER_PLATE_HELM <Name> (<ResMake>)
+MakeItem=i_DULL_COPPER_PLATE_HELM
+
+On=i_DULL_COPPER_PLATEMAIL_GORGET <Name> (<ResMake>)
+MakeItem=i_DULL_COPPER_PLATEMAIL_GORGET
+
+On=i_DULL_COPPER_PLATEMAIL_GAUNTLETS <Name> (<ResMake>)
+MakeItem=i_DULL_COPPER_PLATEMAIL_GAUNTLETS
+
+On=i_DULL_COPPER_PLATEMAIL_ARMS <Name> (<ResMake>)
+MakeItem=i_DULL_COPPER_PLATEMAIL_ARMS
+
+On=i_DULL_COPPER_PLATEMAIL_LEGGINGS <Name> (<ResMake>)
+MakeItem=i_DULL_COPPER_PLATEMAIL_LEGGINGS
+
+On=i_DULL_COPPER_FEMALE_PLATEMAIL <Name> (<ResMake>)
+MakeItem=i_DULL_COPPER_FEMALE_PLATEMAIL
+
+On=i_DULL_COPPER_PLATEMAIL <Name> (<ResMake>)
+MakeItem=i_DULL_COPPER_PLATEMAIL
+
+On=i_DULL_COPPER_BUCKLER_SHIELD <Name> (<ResMake>)
+MakeItem=i_DULL_COPPER_BUCKLER_SHIELD
+
+On=i_DULL_COPPER_METAL_SHIELD <Name> (<ResMake>)
+MakeItem=i_DULL_COPPER_METAL_SHIELD
+
+On=i_DULL_COPPER_HEATER_SHIELD <Name> (<ResMake>)
+MakeItem=i_DULL_COPPER_HEATER_SHIELD
+
+On=i_DULL_COPPER_CLOSED_HELM <Name> (<ResMake>)
+MakeItem=i_DULL_COPPER_CLOSED_HELM
+
+On=i_DULL_COPPER_HELMET <Name> (<ResMake>)
+MakeItem=i_DULL_COPPER_HELMET
+
+On=i_DULL_COPPER_BASCINET <Name> (<ResMake>)
+MakeItem=i_DULL_COPPER_BASCINET
+
+On=i_DULL_COPPER_NOSE_HELM <Name> (<ResMake>)
+MakeItem=i_DULL_COPPER_NOSE_HELM
+
+[SkillMenu smBronze_armor]
+Bronze Armor & Shields
+
+On=i_RINGMAIL_TUNIC Bronze Ringmail
+SkillMenu=sBbronze_1
+
+On=i_CHAINMAIL_TUNIC Bronze Chain Mail
+SkillMenu=smBronze_2
+
+On=i_PLATEMAIL_CHEST Bronze Armor & Shields
+SkillMenu=smBronze_3
+
+[SkillMenu smBronze_1]
+Bronze Ringmail
+
+On=i_BRONZE_RINGMAIL_GLOVES <Name> (<ResMake>)
+MakeItem=i_BRONZE_RINGMAIL_GLOVES
+
+On=i_BRONZE_RINGMAIL_SLEEVES <Name> (<ResMake>)
+MakeItem=i_BRONZE_RINGMAIL_SLEEVES
+
+On=i_BRONZE_RINGMAIL_LEGGINGS <Name> (<ResMake>)
+MakeItem=i_BRONZE_RINGMAIL_LEGGINGS
+
+On=i_BRONZE_RINGMAIL_TUNIC <Name> (<ResMake>)
+MakeItem=i_BRONZE_RINGMAIL_TUNIC
+
+[SkillMenu smBronze_2]
+Bronze Chain Mail
+
+On=i_BRONZE_CHAINMAIL_COIF <Name> (<ResMake>)
+MakeItem=i_BRONZE_CHAINMAIL_COIF
+
+On=i_BRONZE_CHAINMAIL_LEGGINGS <Name> (<ResMake>)
+MakeItem=i_BRONZE_CHAINMAIL_LEGGINGS
+
+On=i_BRONZE_CHAINMAIL_TUNIC <Name> (<ResMake>)
+MakeItem=i_BRONZE_CHAINMAIL_TUNIC
+
+[SkillMenu smBronze_3]
+Bronze Armor & Shields
+
+On=i_BRONZE_PLATE_HELM <Name> (<ResMake>)
+MakeItem=i_BRONZE_PLATE_HELM
+
+On=i_BRONZE_PLATEMAIL_GORGET <Name> (<ResMake>)
+MakeItem=i_BRONZE_PLATEMAIL_GORGET
+
+On=i_BRONZE_PLATEMAIL_GAUNTLETS <Name> (<ResMake>)
+MakeItem=i_BRONZE_PLATEMAIL_GAUNTLETS
+
+On=i_BRONZE_PLATEMAIL_ARMS <Name> (<ResMake>)
+MakeItem=i_BRONZE_PLATEMAIL_ARMS
+
+On=i_BRONZE_PLATEMAIL_LEGGINGS <Name> (<ResMake>)
+MakeItem=i_BRONZE_PLATEMAIL_LEGGINGS
+
+On=i_BRONZE_FEMALE_PLATEMAIL <Name> (<ResMake>)
+MakeItem=i_BRONZE_FEMALE_PLATEMAIL
+
+On=i_BRONZE_PLATEMAIL <Name> (<ResMake>)
+MakeItem=i_BRONZE_PLATEMAIL
+
+On=i_BRONZE_BUCKLER_SHIELD <Name> (<ResMake>)
+MakeItem=i_BRONZE_BUCKLER_SHIELD
+
+On=i_BRONZE_METAL_SHIELD <Name> (<ResMake>)
+MakeItem=i_BRONZE_METAL_SHIELD
+
+On=i_BRONZE_HEATER_SHIELD <Name> (<ResMake>)
+MakeItem=i_BRONZE_HEATER_SHIELD
+
+On=i_BRONZE_CLOSED_HELM <Name> (<ResMake>)
+MakeItem=i_BRONZE_CLOSED_HELM
+
+On=i_BRONZE_HELMET <Name> (<ResMake>)
+MakeItem=i_BRONZE_HELMET
+
+On=i_BRONZE_BASCINET <Name> (<ResMake>)
+MakeItem=i_BRONZE_BASCINET
+
+On=i_BRONZE_NOSE_HELM <Name> (<ResMake>)
+MakeItem=i_BRONZE_NOSE_HELM
+
+[SkillMenu smMagic_armor]
+Magic Armor & Shields
+
+On=i_decorative_armor Defense Plate Armor
+SkillMenu=smMagic_defense_armor
+
+On=i_decorative_armor Guarding Armor
+SkillMenu=smMagic_guarding_armor
+
+On=i_decorative_armor Hardening Armor
+SkillMenu=smMagic_hardening_armor
+
+On=i_decorative_armor Fortification Armor
+SkillMenu=smMagic_fortification_armor
+
+On=i_decorative_armor Invulnerability Armor
+SkillMenu=smMagic_invulnerability_armor
+
+[SkillMenu smMagic_defense_armor]
+Defense Armor & Shields
+
+On=i_RINGMAIL_GLOVES_DEFENSE <Name> (<ResMake>)
+MakeItem=i_RINGMAIL_GLOVES_DEFENSE
+
+On=i_RINGMAIL_SLEEVES_DEFENSE <Name> (<ResMake>)
+MakeItem=i_RINGMAIL_SLEEVES_DEFENSE
+
+On=i_RINGMAIL_LEGGINGS_DEFENSE <Name> (<ResMake>)
+MakeItem=i_RINGMAIL_LEGGINGS_DEFENSE
+
+On=i_RINGMAIL_TUNIC_DEFENSE <Name> (<ResMake>)
+MakeItem=i_RINGMAIL_TUNIC_DEFENSE
+
+On=i_CHAINMAIL_TUNIC_DEFENSE <Name> (<ResMake>)
+MakeItem=i_CHAINMAIL_TUNIC_DEFENSE
+
+On=i_CHAINMAIL_LEGGINGS_DEFENSE <Name> (<ResMake>)
+MakeItem=i_CHAINMAIL_LEGGINGS_DEFENSE
+
+On=i_CHAINMAIL_COIF_DEFENSE <Name> (<ResMake>)
+MakeItem=i_CHAINMAIL_COIF_DEFENSE
+
+On=i_PLATEMAIL_HELM_DEFENSE <Name> (<ResMake>)
+MakeItem=i_PLATEMAIL_HELM_DEFENSE
+
+On=i_PLATEMAIL_GORGET_DEFENSE <Name> (<ResMake>)
+MakeItem=i_PLATEMAIL_GORGET_DEFENSE
+
+On=i_PLATEMAIL_GAUNTLETS_DEFENSE <Name> (<ResMake>)
+MakeItem=i_PLATEMAIL_GAUNTLETS_DEFENSE
+
+On=i_PLATEMAIL_ARMS_DEFENSE <Name> (<ResMake>)
+MakeItem=i_PLATEMAIL_ARMS_DEFENSE
+
+On=i_PLATEMAIL_leggings_DEFENSE <Name> (<ResMake>)
+MakeItem=i_PLATEMAIL_leggings_DEFENSE
+
+On=i_PLATEMAIL_DEFENSE_FEMALE <Name> (<ResMake>)
+MakeItem=i_PLATEMAIL_DEFENSE_FEMALE
+
+On=i_PLATEMAIL_DEFENSE <Name> (<ResMake>)
+MakeItem=i_PLATEMAIL_DEFENSE
+
+On=i_BUCKLER_SHIELD_DEFENSE <Name> (<ResMake>)
+MakeItem=i_BUCKLER_SHIELD_DEFENSE
+
+On=i_WOODEN_SHIELD_DEFENSE <Name> (<ResMake>)
+MakeItem=i_WOODEN_SHIELD_DEFENSE
+
+On=i_BRONZE_SHIELD_DEFENSE <Name> (<ResMake>)
+MakeItem=i_BRONZE_SHIELD_DEFENSE
+
+On=i_METAL_SHIELD_DEFENSE <Name> (<ResMake>)
+MakeItem=i_METAL_SHIELD_DEFENSE
+
+On=i_WOODEN_KITE_SHIELD_DEFENSE <Name> (<ResMake>)
+MakeItem=i_WOODEN_KITE_SHIELD_DEFENSE
+
+On=i_METAL_KITE_SHIELD_DEFENSE <Name> (<ResMake>)
+MakeItem=i_METAL_KITE_SHIELD_DEFENSE
+
+On=i_HEATER_SHIELD_DEFENSE <Name> (<ResMake>)
+MakeItem=i_HEATER_SHIELD_DEFENSE
+
+[SkillMenu smMagic_guarding_armor]
+Guarding Armor & Shields
+
+On=i_RINGMAIL_GLOVES_GUARDING <Name> (<ResMake>)
+MakeItem=i_RINGMAIL_GLOVES_GUARDING
+
+On=i_RINGMAIL_SLEEVES_GUARDING <Name> (<ResMake>)
+MakeItem=i_RINGMAIL_SLEEVES_GUARDING
+
+On=i_RINGMAIL_LEGGINGS_GUARDING <Name> (<ResMake>)
+MakeItem=i_RINGMAIL_LEGGINGS_GUARDING
+
+On=i_RINGMAIL_TUNIC_GUARDING <Name> (<ResMake>)
+MakeItem=i_RINGMAIL_TUNIC_GUARDING
+
+On=i_CHAINMAIL_TUNIC_GUARDING <Name> (<ResMake>)
+MakeItem=i_CHAINMAIL_TUNIC_GUARDING
+
+On=i_CHAINMAIL_LEGGINGS_GUARDING <Name> (<ResMake>)
+MakeItem=i_CHAINMAIL_LEGGINGS_GUARDING
+
+On=i_CHAINMAIL_COIF_GUARDING <Name> (<ResMake>)
+MakeItem=i_CHAINMAIL_COIF_GUARDING
+
+On=i_PLATEMAIL_HELM_GUARDING <Name> (<ResMake>)
+MakeItem=i_PLATEMAIL_HELM_GUARDING
+
+On=i_PLATEMAIL_GORGET_GUARDING <Name> (<ResMake>)
+MakeItem=i_PLATEMAIL_GORGET_GUARDING
+
+On=i_PLATEMAIL_GAUNTLETS_GUARDING <Name> (<ResMake>)
+MakeItem=i_PLATEMAIL_GAUNTLETS_GUARDING
+
+On=i_PLATEMAIL_ARMS_GUARDING <Name> (<ResMake>)
+MakeItem=i_PLATEMAIL_ARMS_GUARDING
+
+On=i_PLATEMAIL_leggings_GUARDING <Name> (<ResMake>)
+MakeItem=i_PLATEMAIL_leggings_GUARDING
+
+On=i_PLATEMAIL_GUARDING_FEMALE <Name> (<ResMake>)
+MakeItem=i_PLATEMAIL_GUARDING_FEMALE
+
+On=i_PLATEMAIL_GUARDING <Name> (<ResMake>)
+MakeItem=i_PLATEMAIL_GUARDING
+
+On=i_BUCKLER_SHIELD_GUARDING <Name> (<ResMake>)
+MakeItem=i_BUCKLER_SHIELD_GUARDING
+
+On=i_WOODEN_SHIELD_GUARDING <Name> (<ResMake>)
+MakeItem=i_WOODEN_SHIELD_GUARDING
+
+On=i_BRONZE_SHIELD_GUARDING <Name> (<ResMake>)
+MakeItem=i_BRONZE_SHIELD_GUARDING
+
+On=i_METAL_SHIELD_GUARDING <Name> (<ResMake>)
+MakeItem=i_METAL_SHIELD_GUARDING
+
+On=i_WOODEN_KITE_SHIELD_GUARDING <Name> (<ResMake>)
+MakeItem=i_WOODEN_KITE_SHIELD_GUARDING
+
+On=i_METAL_KITE_SHIELD_GUARDING <Name> (<ResMake>)
+MakeItem=i_METAL_KITE_SHIELD_GUARDING
+
+On=i_HEATER_SHIELD_GUARDING <Name> (<ResMake>)
+MakeItem=i_HEATER_SHIELD_GUARDING
+
+[SkillMenu smMagic_hardening_armor]
+Hardening Armor & Shields
+
+On=i_RINGMAIL_GLOVES_HARDENING <Name> (<ResMake>)
+MakeItem=i_RINGMAIL_GLOVES_HARDENING
+
+On=i_RINGMAIL_SLEEVES_HARDENING <Name> (<ResMake>)
+MakeItem=i_RINGMAIL_SLEEVES_HARDENING
+
+On=i_RINGMAIL_LEGGINGS_HARDENING <Name> (<ResMake>)
+MakeItem=i_RINGMAIL_LEGGINGS_HARDENING
+
+On=i_RINGMAIL_TUNIC_HARDENING <Name> (<ResMake>)
+MakeItem=i_RINGMAIL_TUNIC_HARDENING
+
+On=i_CHAINMAIL_TUNIC_HARDENING <Name> (<ResMake>)
+MakeItem=i_CHAINMAIL_TUNIC_HARDENING
+
+On=i_CHAINMAIL_LEGGINGS_HARDENING <Name> (<ResMake>)
+MakeItem=i_CHAINMAIL_LEGGINGS_HARDENING
+
+On=i_CHAINMAIL_COIF_HARDENING <Name> (<ResMake>)
+MakeItem=i_CHAINMAIL_COIF_HARDENING
+
+On=i_PLATEMAIL_HELM_HARDENING <Name> (<ResMake>)
+MakeItem=i_PLATEMAIL_HELM_HARDENING
+
+On=i_PLATEMAIL_GORGET_HARDENING <Name> (<ResMake>)
+MakeItem=i_PLATEMAIL_GORGET_HARDENING
+
+On=i_PLATEMAIL_GAUNTLETS_HARDENING <Name> (<ResMake>)
+MakeItem=i_PLATEMAIL_GAUNTLETS_HARDENING
+
+On=i_PLATEMAIL_ARMS_HARDENING <Name> (<ResMake>)
+MakeItem=i_PLATEMAIL_ARMS_HARDENING
+
+On=i_PLATEMAIL_leggings_HARDENING <Name> (<ResMake>)
+MakeItem=i_PLATEMAIL_leggings_HARDENING
+
+On=i_PLATEMAIL_HARDENING_FEMALE <Name> (<ResMake>)
+MakeItem=i_PLATEMAIL_HARDENING_FEMALE
+
+On=i_PLATEMAIL_HARDENING <Name> (<ResMake>)
+MakeItem=i_PLATEMAIL_HARDENING
+
+On=i_BUCKLER_SHIELD_HARDENING <Name> (<ResMake>)
+MakeItem=i_BUCKLER_SHIELD_HARDENING
+
+On=i_WOODEN_SHIELD_HARDENING <Name> (<ResMake>)
+MakeItem=i_WOODEN_SHIELD_HARDENING
+
+On=i_BRONZE_SHIELD_HARDENING <Name> (<ResMake>)
+MakeItem=i_BRONZE_SHIELD_HARDENING
+
+On=i_METAL_SHIELD_HARDENING <Name> (<ResMake>)
+MakeItem=i_METAL_SHIELD_HARDENING
+
+On=i_WOODEN_KITE_SHIELD_HARDENING <Name> (<ResMake>)
+MakeItem=i_WOODEN_KITE_SHIELD_HARDENING
+
+On=i_METAL_KITE_SHIELD_HARDENING <Name> (<ResMake>)
+MakeItem=i_METAL_KITE_SHIELD_HARDENING
+
+On=i_HEATER_SHIELD_HARDENING <Name> (<ResMake>)
+MakeItem=i_HEATER_SHIELD_HARDENING
+
+[SkillMenu smMagic_fortification_armor]
+Fortification Armor & Shields
+
+On=i_RINGMAIL_GLOVES_FORTIFICATION <Name> (<ResMake>)
+MakeItem=i_RINGMAIL_GLOVES_FORTIFICATION
+
+On=i_RINGMAIL_SLEEVES_FORTIFICATION <Name> (<ResMake>)
+MakeItem=i_RINGMAIL_SLEEVES_FORTIFICATION
+
+On=i_RINGMAIL_LEGGINGS_FORTIFICATION <Name> (<ResMake>)
+MakeItem=i_RINGMAIL_LEGGINGS_FORTIFICATION
+
+On=i_RINGMAIL_TUNIC_FORTIFICATION <Name> (<ResMake>)
+MakeItem=i_RINGMAIL_TUNIC_FORTIFICATION
+
+On=i_CHAINMAIL_TUNIC_FORTIFICATION <Name> (<ResMake>)
+MakeItem=i_CHAINMAIL_TUNIC_FORTIFICATION
+
+On=i_CHAINMAIL_LEGGINGS_FORTIFICATION <Name> (<ResMake>)
+MakeItem=i_CHAINMAIL_LEGGINGS_FORTIFICATION
+
+On=i_CHAINMAIL_COIF_FORTIFICATION <Name> (<ResMake>)
+MakeItem=i_CHAINMAIL_COIF_FORTIFICATION
+
+On=i_PLATEMAIL_HELM_FORTIFICATION <Name> (<ResMake>)
+MakeItem=i_PLATEMAIL_HELM_FORTIFICATION
+
+On=i_PLATEMAIL_GORGET_FORTIFICATION <Name> (<ResMake>)
+MakeItem=i_PLATEMAIL_GORGET_FORTIFICATION
+
+On=i_PLATEMAIL_GAUNTLETS_FORTIFICATION <Name> (<ResMake>)
+MakeItem=i_PLATEMAIL_GAUNTLETS_FORTIFICATION
+
+On=i_PLATEMAIL_ARMS_FORTIFICATION <Name> (<ResMake>)
+MakeItem=i_PLATEMAIL_ARMS_FORTIFICATION
+
+On=i_PLATEMAIL_leggings_FORTIFICATION <Name> (<ResMake>)
+MakeItem=i_PLATEMAIL_leggings_FORTIFICATION
+
+On=i_PLATEMAIL_FORTIFICATION_FEMALE <Name> (<ResMake>)
+MakeItem=i_PLATEMAIL_FORTIFICATION_FEMALE
+
+On=i_PLATEMAIL_FORTIFICATION <Name> (<ResMake>)
+MakeItem=i_PLATEMAIL_FORTIFICATION
+
+On=i_BUCKLER_SHIELD_FORTIFICATION <Name> (<ResMake>)
+MakeItem=i_BUCKLER_SHIELD_FORTIFICATION
+
+On=i_WOODEN_SHIELD_FORTIFICATION <Name> (<ResMake>)
+MakeItem=i_WOODEN_SHIELD_FORTIFICATION
+
+On=i_BRONZE_SHIELD_FORTIFICATION <Name> (<ResMake>)
+MakeItem=i_BRONZE_SHIELD_FORTIFICATION
+
+On=i_METAL_SHIELD_FORTIFICATION <Name> (<ResMake>)
+MakeItem=i_METAL_SHIELD_FORTIFICATION
+
+On=i_WOODEN_KITE_SHIELD_FORTIFICATION <Name> (<ResMake>)
+MakeItem=i_WOODEN_KITE_SHIELD_FORTIFICATION
+
+On=i_METAL_KITE_SHIELD_FORTIFICATION <Name> (<ResMake>)
+MakeItem=i_METAL_KITE_SHIELD_FORTIFICATION
+
+On=i_HEATER_SHIELD_FORTIFICATION <Name> (<ResMake>)
+MakeItem=i_HEATER_SHIELD_FORTIFICATION
+
+[SkillMenu smMagic_invulnerability_armor]
+Invulnerability Armor & Shields
+
+On=i_RINGMAIL_GLOVES_INVULNERABILITY <Name> (<ResMake>)
+MakeItem=i_RINGMAIL_GLOVES_INVULNERABILITY
+
+On=i_RINGMAIL_SLEEVES_INVULNERABILITY <Name> (<ResMake>)
+MakeItem=i_RINGMAIL_SLEEVES_INVULNERABILITY
+
+On=i_RINGMAIL_LEGGINGS_INVULNERABILITY <Name> (<ResMake>)
+MakeItem=i_RINGMAIL_LEGGINGS_INVULNERABILITY
+
+On=i_RINGMAIL_TUNIC_INVULNERABILITY <Name> (<ResMake>)
+MakeItem=i_RINGMAIL_TUNIC_INVULNERABILITY
+
+On=i_CHAINMAIL_TUNIC_INVULNERABILITY <Name> (<ResMake>)
+MakeItem=i_CHAINMAIL_TUNIC_INVULNERABILITY
+
+On=i_CHAINMAIL_LEGGINGS_INVULNERABILITY <Name> (<ResMake>)
+MakeItem=i_CHAINMAIL_LEGGINGS_INVULNERABILITY
+
+On=i_CHAINMAIL_COIF_INVULNERABILITY <Name> (<ResMake>)
+MakeItem=i_CHAINMAIL_COIF_INVULNERABILITY
+
+On=i_PLATEMAIL_HELM_INVULNERABILITY <Name> (<ResMake>)
+MakeItem=i_PLATEMAIL_HELM_INVULNERABILITY
+
+On=i_PLATEMAIL_GORGET_INVULNERABILITY <Name> (<ResMake>)
+MakeItem=i_PLATEMAIL_GORGET_INVULNERABILITY
+
+On=i_PLATEMAIL_GAUNTLETS_INVULNERABILITY <Name> (<ResMake>)
+MakeItem=i_PLATEMAIL_GAUNTLETS_INVULNERABILITY
+
+On=i_PLATEMAIL_ARMS_INVULNERABILITY <Name> (<ResMake>)
+MakeItem=i_PLATEMAIL_ARMS_INVULNERABILITY
+
+On=i_PLATEMAIL_leggings_INVULNERABILITY <Name> (<ResMake>)
+MakeItem=i_PLATEMAIL_leggings_INVULNERABILITY
+
+On=i_PLATEMAIL_INVULNERABILITY_FEMALE <Name> (<ResMake>)
+MakeItem=i_PLATEMAIL_INVULNERABILITY_FEMALE
+
+On=i_PLATEMAIL_INVULNERABILITY <Name> (<ResMake>)
+MakeItem=i_PLATEMAIL_INVULNERABILITY
+
+On=i_BUCKLER_SHIELD_INVULNERABILITY <Name> (<ResMake>)
+MakeItem=i_BUCKLER_SHIELD_INVULNERABILITY
+
+On=i_WOODEN_SHIELD_INVULNERABILITY <Name> (<ResMake>)
+MakeItem=i_WOODEN_SHIELD_INVULNERABILITY
+
+On=i_BRONZE_SHIELD_INVULNERABILITY <Name> (<ResMake>)
+MakeItem=i_BRONZE_SHIELD_INVULNERABILITY
+
+On=i_METAL_SHIELD_INVULNERABILITY <Name> (<ResMake>)
+MakeItem=i_METAL_SHIELD_INVULNERABILITY
+
+On=i_WOODEN_KITE_SHIELD_INVULNERABILITY <Name> (<ResMake>)
+MakeItem=i_WOODEN_KITE_SHIELD_INVULNERABILITY
+
+On=i_METAL_KITE_SHIELD_INVULNERABILITY <Name> (<ResMake>)
+MakeItem=i_METAL_KITE_SHIELD_INVULNERABILITY
+
+On=i_HEATER_SHIELD_INVULNERABILITY <Name> (<ResMake>)
+MakeItem=i_HEATER_SHIELD_INVULNERABILITY
+
+// End of Blacksmithing section
+
+[EOF]

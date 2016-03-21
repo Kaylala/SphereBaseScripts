@@ -1,0 +1,63 @@
+[CharDef 051C]
+DefName=cGreatApe
+Name=Great Ape
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=14,21
+Icon=iGorilla
+Sound=sndGorilla1
+Resources=2 iCutOfRawRibs
+FoodType=tFruit
+MaxFood=35
+Aversions=rCivilization
+Desires=ibanana,tFruit
+BloodColor=0
+
+Category=Bosses
+SubsectiOn=Named
+DescriptiOn=Great Ape
+
+On=@Create
+NPC=BrainAnimal
+SoundSet=
+Loyalty=0
+CanDefend=0
+SlayerSuper=SlayerEodon
+ThrowObj=iBanana
+ThrowRange=12
+ThrowDam=<DamMin>,<DamMax>
+
+Fame=16000
+Karma=-16000
+Alignment=Evil
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=50,60
+ResFire=30,40
+ResCold=30,40
+ResPoison=30,40
+ResEnergy=30,40
+
+OStr={500 800}
+ODex={200 300}
+OInt={80 160}
+MaxHits={20000 25000}
+
+Wresting={1200 1400}
+Tactics={1000 1200}
+MagicResistance={1000 1200}
+Anatomy={400 800}
+Parrying={1000 1200}
+
+On=@NPCRestock
+NewGold={1600 2000}
+
+On=@DeathCorpse
+NewItem=iBanana,{10 20}
+
+[EOF]

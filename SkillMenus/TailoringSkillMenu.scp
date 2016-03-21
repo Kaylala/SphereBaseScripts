@@ -1,0 +1,313 @@
+[SkillMenu smTailoring]
+Tailoring
+
+On=iCloth
+SkillMenu smClothTailoring
+
+On=iCutLeather
+SkillMenu smLeatherTailoring
+
+[SkillMenu smLeatherTailoring]
+Leather
+
+On=i_BOOTS_CALF Footwear
+SkillMenu=smLeather_footwear
+
+On=i_LEATHER_TUNIC Leather Armour
+SkillMenu=smLeather_armor
+
+On=i_STUDDED_TUNIC Studded Armour
+SkillMenu=smLeather_studded_armor
+
+On=i_ARMOR_FEMALE_BUSTIER Female Armour
+SkillMenu=smLeather_female_armor
+
+On=i_BACKPACK Misc
+SkillMenu=smLeather_misc
+
+On=i_mask_blue Masks
+SkillMenu=smLeather_masks
+
+On=i_LEATHER_TUNIC Leather Armour of Invulnerability
+SkillMenu=smLeather_armor_magic
+
+On=i_STUDDED_TUNIC Studded Armour of Invulnerability
+SkillMenu=smLeather_studded_magic
+
+[SkillMenu smClothTailoring]
+Cloth
+
+On=i_shirt_fancy Shirts
+SkillMenu=smCloth_shirts
+
+On=i_pants_long Pants
+SkillMenu=smCloth_legwear
+
+On=i_hat_floppy Headwear
+SkillMenu=smCloth_headwear
+
+On=i_apron_half Misc.
+SkillMenu=smCloth_misc
+
+On=i_cloth_bolt <Name> (<ResMake>)
+MakeItem=i_cloth_bolt
+
+[SkillMenu smLeather_footwear]
+Footwear
+
+On=i_SANDALS <Name> (<ResMake>)
+MakeItem=i_SANDALS
+
+On=i_SHOES_PLAIN <Name> (<ResMake>)
+MakeItem=i_SHOES_PLAIN
+
+On=i_BOOTS_CALF <Name> (<ResMake>)
+MakeItem=i_BOOTS_CALF
+
+On=i_BOOTS_THIGH <Name> (<ResMake>)
+MakeItem=i_BOOTS_THIGH
+
+[SkillMenu smLeather_armor]
+Leather Armour
+
+On=i_LEATHER_CAP <Name> (<ResMake>)
+MakeItem=i_LEATHER_CAP
+
+On=i_LEATHER_GORGET <Name> (<ResMake>)
+MakeItem=i_LEATHER_GORGET
+
+On=i_LEATHER_GLOVES <Name> (<ResMake>)
+MakeItem=i_LEATHER_GLOVES
+
+On=i_LEATHER_SLEEVES <Name> (<ResMake>)
+MakeItem=i_LEATHER_SLEEVES
+
+On=i_LEATHER_LEGGINGS <Name> (<ResMake>)
+MakeItem=i_LEATHER_LEGGINGS
+
+On=i_LEATHER_TUNIC <Name> (<ResMake>)
+MakeItem=i_LEATHER_TUNIC
+
+[SkillMenu smLeather_studded_armor]
+Studded Armour
+
+On=i_STUDDED_GORGET <Name> (<ResMake>)
+MakeItem=i_STUDDED_GORGET
+
+On=i_STUDDED_GLOVES <Name> (<ResMake>)
+MakeItem=i_STUDDED_GLOVES
+
+On=i_STUDDED_SLEEVES <Name> (<ResMake>)
+MakeItem=i_STUDDED_SLEEVES
+
+On=i_STUDDED_LEGGINGS <Name> (<ResMake>)
+MakeItem=i_STUDDED_LEGGINGS
+
+On=i_STUDDED_TUNIC <Name> (<ResMake>)
+MakeItem=i_STUDDED_TUNIC
+
+[SkillMenu smLeather_female_armor]
+Female Armour
+
+On=i_armor_female_shorts <Name> (<ResMake>)
+MakeItem=i_armor_female_shorts
+
+On=i_armor_female_bustier <Name> (<ResMake>)
+MakeItem=i_armor_female_bustier
+
+On=i_armor_female_bustier_studded <Name> (<ResMake>)
+MakeItem=i_armor_female_bustier_studded
+
+On=i_armor_female_studded <Name> (<ResMake>)
+MakeItem=i_armor_female_studded
+
+On=i_armor_female_skirt <Name> (<ResMake>)
+MakeItem=i_armor_female_skirt
+
+On=i_armor_female_LEATHER <Name> (<ResMake>)
+MakeItem=i_armor_female_LEATHER
+
+[SkillMenu smLeather_misc]
+Packs
+
+On=i_backpack <Name> (<ResMake>)
+MakeItem=i_backpack
+
+On=i_bag <Name> (<ResMake>)
+MakeItem=i_bag
+
+On=i_pouch <Name> (<ResMake>)
+MakeItem=i_pouch
+
+[SkillMenu smLeather_masks]
+Masks
+
+On=i_mask_bear <Name> (<ResMake>)
+MakeItem=i_mask_bear
+
+On=i_mask_deer <Name> (<ResMake>)
+MakeItem=i_mask_deer
+
+On=i_mask_orc <Name> (<ResMake>)
+MakeItem=i_mask_orc
+
+On=i_mask_blue <Name> (<ResMake>)
+MakeItem=i_mask_blue
+
+On=i_mask_tribal_red <Name> (<ResMake>)
+MakeItem=i_mask_tribal_red
+
+[SkillMenu smLeather_armor_magic]
+Leather Armor of Invulnerability
+
+On=i_leather_shorts_invulnerability <Name> (<ResMake>)
+MakeItem=i_leather_shorts_invulnerability
+
+On=i_leather_bustier_invulnerability <Name> (<ResMake>)
+MakeItem=i_leather_bustier_invulnerability
+
+On=i_leather_skirt_invulnerability <Name> (<ResMake>)
+MakeItem=i_leather_skirt_invulnerability
+
+On=i_leather_armor_invulnerability_female <Name> (<ResMake>)
+MakeItem=i_leather_armor_invulnerability_female
+
+On=i_leather_cap_invulnerability <Name> (<ResMake>)
+MakeItem=i_leather_cap_invulnerability
+
+On=i_leather_gorget_invulnerability <Name> (<ResMake>)
+MakeItem=i_leather_gorget_invulnerability
+
+On=i_leather_gloves_invulnerability <Name> (<ResMake>)
+MakeItem=i_leather_gloves_invulnerability
+
+On=i_leather_sleeves_invulnerability <Name> (<ResMake>)
+MakeItem=i_leather_sleeves_invulnerability
+
+On=i_leather_leggings_invulnerability <Name> (<ResMake>)
+MakeItem=i_leather_leggings_invulnerability
+
+On=i_leather_tunic_invulnerability <Name> (<ResMake>)
+MakeItem=i_leather_tunic_invulnerability
+
+[SkillMenu smLeather_studded_armor_magic]
+Studded Leather Armor of Invulnerability
+
+On=i_studded_bustier_invulnerability <Name> (<ResMake>)
+MakeItem=i_studded_bustier_invulnerability
+
+On=i_studded_armor_invulnerability <Name> (<ResMake>)
+MakeItem=i_studded_armor_invulnerability
+
+On=i_studded_gorget_invulnerability <Name> (<ResMake>)
+MakeItem=i_studded_gorget_invulnerability
+
+On=i_studded_gloves_invulnerability <Name> (<ResMake>)
+MakeItem=i_studded_gloves_invulnerability
+
+On=i_studded_sleeves_invulnerability <Name> (<ResMake>)
+MakeItem=i_studded_sleeves_invulnerability
+
+On=i_studded_leggings_invulnerability <Name> (<ResMake>)
+MakeItem=i_studded_leggings_invulnerability
+
+On=i_studded_tunic_invulnerability <Name> (<ResMake>)
+MakeItem=i_studded_tunic_invulnerability
+
+[SkillMenu smCloth_shirts]
+Shirts
+
+On=i_shirt_plain <Name> (<ResMake>)
+MakeItem=i_shirt_plain
+
+On=i_shirt_fancy <Name> (<ResMake>)
+MakeItem=i_shirt_fancy
+
+On=i_doublet <Name> (<ResMake>)
+MakeItem=i_doublet
+
+On=i_dress_plain <Name> (<ResMake>)
+MakeItem=i_dress_plain
+
+On=i_dress_full <Name> (<ResMake>)
+MakeItem=i_dress_full
+
+On=i_robe <Name> (<ResMake>)
+MakeItem=i_robe
+
+On=i_cape <Name> (<ResMake>)
+MakeItem=i_cape
+
+On=i_jester_suit <Name> (<ResMake>)
+MakeItem=i_jester_suit
+
+On=i_tunic <Name> (<ResMake>)
+MakeItem=i_tunic
+
+On=i_surcoat <Name> (<ResMake>)
+MakeItem=i_surcoat
+
+[SkillMenu smCloth_legwear]
+Legwear
+
+On=i_pants_short <Name> (<ResMake>)
+MakeItem=i_pants_short
+
+On=i_pants_long <Name> (<ResMake>)
+MakeItem=i_pants_long
+
+On=i_skirt_long <Name> (<ResMake>)
+MakeItem=i_skirt_long
+
+On=i_kilt <Name> (<ResMake>)
+MakeItem=i_kilt
+
+[SkillMenu smCloth_headwear]
+Headwear
+
+On=i_bandana <Name> (<ResMake>)
+MakeItem=i_bandana
+
+On=i_SKULL_CAP <Name> (<ResMake>)
+MakeItem=i_SKULL_CAP
+
+On=i_hat_floppy <Name> (<ResMake>)
+MakeItem=i_hat_floppy
+
+On=i_hat_wide_brim <Name> (<ResMake>)
+MakeItem=i_hat_wide_brim
+
+On=i_hat_feather <Name> (<ResMake>)
+MakeItem=i_hat_feather
+
+On=i_hat_tricorne <Name> (<ResMake>)
+MakeItem=i_hat_tricorne
+
+On=i_hat_straw_tall <Name> (<ResMake>)
+MakeItem=i_hat_straw_tall
+
+On=i_hat_straw <Name> (<ResMake>)
+MakeItem=i_hat_straw
+
+On=i_bonnet <Name> (<ResMake>)
+MakeItem=i_bonnet
+
+On=i_hat_jester <Name> (<ResMake>)
+MakeItem=i_hat_jester
+
+On=i_hat_wizards <Name> (<ResMake>)
+MakeItem=i_hat_wizards
+
+[SkillMenu smCloth_misc]
+Misc.
+
+On=i_SASH <Name> (<ResMake>)
+MakeItem=i_SASH
+
+On=i_apron_half <Name> (<ResMake>)
+MakeItem=i_apron_half
+
+On=i_apron_full <Name> (<ResMake>)
+MakeItem=i_apron_full
+
+[EOF]

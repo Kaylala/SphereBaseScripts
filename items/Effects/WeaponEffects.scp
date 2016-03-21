@@ -1,0 +1,76 @@
+
+[ItemDef 0F42]
+DefName=iFxArrow
+Name=arrow
+Type=tNormal
+Can=0
+
+Category=Server
+Subsection=Effects: Weapons
+Description=Arrow Effect
+
+[ItemDef 01BFE]
+DefName=iFxBolt
+Name=bolt
+Type=tNormal
+Can=0
+
+Category=Server
+Subsection=Effects: Weapons
+Description=Bolt Effect
+
+[ItemDef 027F7]
+DefName=iFxShuriken
+Name=shuriken
+Type=tNormal
+Can=0
+
+Category=Server
+Subsection=Effects: Weapons
+Description=Shuriken Effect
+
+[ItemDef 02804]
+DefName=iFxFukiyaDart
+Name=fukiya dart
+Type=tNormal
+Can=0
+
+Category=Server
+Subsection=Effects: Weapons
+Description=Fukiya Dart Effect
+
+[ItemDef 0909]
+DefName=iFxBoomerang
+Name=boomerang
+Type=tNormal
+Can=CanIFlip
+DupeList=4069
+
+Category=Server
+Subsection=Effects: Weapons
+Description=Boomerang Effect
+
+[ItemDef 04069]
+DupeItem=0909
+
+[ItemDef 048D2]
+DefName=iFxCyclone
+Name=cyclone
+Type=tNormal
+Can=0
+
+Category=Server
+Subsection=Effects: Weapons
+Description=Cyclone Effect
+
+[ItemDef 048D3]
+DefName=iFxSoulGlaive
+Name=soul glaive
+Type=tNormal
+Can=0
+
+Category=Server
+Subsection=Effects: Weapons
+Description=Soul Glaive Effect
+
+[EOF]

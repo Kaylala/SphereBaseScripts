@@ -1,0 +1,35 @@
+[Function Tithe_Gold]
+// You didn't enter a numeric argument.
+If (!<ArgN>)
+ Src.SMsgL -1,1061093    // You have decided to tithe no gold to the shrine.
+ Return 1
+EndIf
+
+// You entered 0
+If (<ArgN> == 0)
+ Src.SMsgL -1,1061093    // You have decided to tithe no gold to the shrine.
+ Return 1
+EndIf
+
+// Your tithing points are over 100,000.
+If (<Src.Tithing> > 100000)
+ Src.SMsgL -1,1060840    // You have reached the maximum amount of Tithing Points available.
+ Return 1
+EndIf
+
+// You don't have enough gold.
+If (<Src.Gold> < <ArgN>)
+ Src.SMsgL -1,1061094    // You do not have enough gold to tithe that amount!
+ Return 1
+EndIf
+
+Local.Tithe=<Qval (<ArgN> < <EVal (100000 - <Src.Tithing>)>) ? <ArgN>:<Eval (<ArgN>-(<ArgN>-(100000 - <Src.Tithing>)))>
+Src.Gold -= <Local.Tithe>
+Src.SMsgL -1,1060195    // You tithe gold to the shrine as a sign of devotion.
+Src.Tithing += <Local.Tithe>
+Src.SMsgL -1,1061685    // Your Tithing Points have been adjusted.
+Src.SMsg [System]: <Local.Tithe> gold has been removed.
+Src.SMsg [System]: Tithing Points: <Src.Tithing>
+Return 1
+
+[EOF]

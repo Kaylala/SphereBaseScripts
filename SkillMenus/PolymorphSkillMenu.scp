@@ -1,0 +1,36 @@
+[SkillMenu smPolymorph]
+What do you want to polymorph into?
+
+On=iHumanMaleIcon Human Male
+Test=MAGERY 40.0
+POLY cHumanMale
+
+On=iHumanFemaleIcon Human Female
+Test=MAGERY 40.0
+POLY cHumanFemale
+
+On=iChickenIcon Chicken
+Test=MAGERY 40.0
+POLY cChicken
+
+On=iDogIcon Dog
+Test=MAGERY 60.0
+POLY cDog
+
+On=iGiantSerpentIcon Giant Serpent
+Test=MAGERY 60.0
+POLY cGiantSerpent
+
+On=iAlligatorIcon <Name>
+Test=magery 65.0
+poly cAlligator
+
+On=iDaemonIcon Daemon
+Test=MAGERY 85.0
+POLY cDaemon
+
+On=iDragonIcon Dragon
+Test=MAGERY 98.0
+POLY {cDragon1 1 cDragon2 1}
+
+[EOF]

@@ -1,0 +1,82 @@
+//****************************************************************************
+// SPHERE by : Menasoft ©1997-2014
+// www.sphereserver.net
+// All SPHERE script files and formats are copyright Menasoft & Partners.
+// This file may be freely edited for personal use, but may not be distributed
+// in whole or in part, in any format without express written permission from
+// Menasoft & Partners.  All donations and contributions
+// become the property of Menasoft & Partners.
+//****************************************************************************
+// FILE LAST UPDATED: Wedneday, January 1, 2014
+//
+VERSIOn=0.56c
+
+[Speech spkShipCommands]
+On=set name *
+	// changes ship name, where *=name.
+	// name=<strmid(<ArgS>,8,64)>
+
+On=furl sail	// stop
+On=stop			// stops current ship movement.
+	ShipStop
+
+On=turn left
+On=port			// turn left
+	ShipTurnLeft
+
+On=turn right
+On=starboard	// turn right
+	ShipTurnRight
+
+On=left			// move ship in desired direction.
+On=drift left
+	ShipDriftLeft
+
+On=right		// move ship in desired direction.
+On=drift right
+	ShipDriftRight
+
+On=back			// move ship backwards
+On=backward		// move ship backwards
+On=backwards	// move ship backwards
+	ShipBack
+
+On=forward
+On=foreward		// moves ship forward.
+On=unfurl sail	// moves ship forward.
+	ShipFore
+
+On=forward left
+	ShipForeLeft
+
+On=forward right
+	ShipForeRight
+
+On=backward left
+On=back left
+	ShipBackLeft
+
+On=backward right
+On=back right
+	ShipBackRight
+
+On=raise anchor
+	ShipAnchorRaise
+
+On=drop anchor
+	ShipAnchorDrop
+
+On=turn around	// turns ship around and proceeds.
+On=come about	// turns ship around and proceeds.
+	ShipTurn
+
+On=up
+	ShipUp
+
+On=down
+	ShipDown
+
+On=land
+	Shipland
+
+[EOF]

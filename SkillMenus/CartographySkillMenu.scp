@@ -1,0 +1,16 @@
+[SkillMenu smCartography]
+What sort of map do you want to draw?
+
+On=i_mapadd1 Local Map
+MakeItem=i_map_local
+
+On=i_mapadd2 City Map
+MakeItem=i_map_city
+
+On=i_mapadd3 Sea Chart Map
+MakeItem=i_map_sea_chart
+
+On=i_mapadd4 World Map
+MakeItem=i_map_world
+
+[EOF]

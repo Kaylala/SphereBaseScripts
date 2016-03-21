@@ -1,0 +1,591 @@
+//****************************************************************************
+// SPHERE by : Menasoft ©1997-2015
+// www.sphereserver.net
+// All SPHERE script files and formats are copyright Menasoft & Partners.
+// This file may be freely edited for personal use, but may not be distributed
+// in whole or in part, in any format without express written permission from
+// Menasoft & Partners. All donations and contributions
+// become the property of Menasoft & Partners.
+//****************************************************************************
+// FILE LAST UPDATED: Sunday, Feb 15, 2015
+//
+VERSION=0.56c
+
+
+[ITEMDEF 01047]
+DEFNAME=iGlobe
+FLIP=1
+VALUE=44
+WEIGHT=13.1
+RESOURCES=10 iBoard,2 iCloth,1 iParchment,1 i_wire_iron
+SKILLMAKE=Carpentry 80.0,Cartography 40.0,tCarpentry
+CATEGORY=Items by Professions
+SUBSECTION=Cartographer
+DESCRIPTION=Globe
+DUPELIST=01048
+
+[ITEMDEF 01048]
+//globe
+DUPEITEM=01047
+
+
+[ITEMDEF 014eb]
+DEFNAME=iMap
+NAME=empty map
+TYPE=tMap
+FLIP=1
+VALUE=10
+WEIGHT=0.1
+RESOURCES=1 iPaper
+SKILLMAKE=Carpentry 40.0
+CATEGORY=Items by Professions
+SUBSECTION=Cartographer
+DESCRIPTION=Map (Empty)
+DUPELIST=014ec
+
+[ITEMDEF 014ec]
+//map
+DUPEITEM=014eb
+
+[ITEMDEF 014ed]
+DEFNAME=iMapRolled
+FLIP=1
+VALUE=15
+WEIGHT=0.2
+RESOURCES=1 iMap,1 iRibbon
+CATEGORY=Items by Professions
+SUBSECTION=Cartographer
+DESCRIPTION=Map (Rolled)(Empty)
+DUPELIST=014ee
+
+[ITEMDEF 014ee]
+//rolled map
+DUPEITEM=014ed
+
+
+[ITEMDEF 03657]
+DEFNAME=iGlobeOfSosaria
+NAME=globe of Sosaria
+FLIP=1
+CATEGORY=Items by Professions
+SUBSECTION=Cartographer
+DESCRIPTION=Globe of Sosaria
+DUPELIST=03658,03659
+
+[ITEMDEF 03658]
+//globe of Sosaria
+DUPEITEM=03657
+
+[ITEMDEF 03659]
+//globe of Sosaria
+DUPEITEM=03657
+
+
+[ITEMDEF iMapBlank]
+ID=iMap
+NAME=Blank Map
+TYPE=T_MAP_BLANK
+VALUE=3
+CATEGORY=Maps
+SUBSECTION=General Maps
+DESCRIPTION=Blank Map
+
+ON=@Create
+MORE1=0
+MORE2=0
+
+
+[ITEMDEF iMapmakersPen]
+ID=iPenAndInk
+NAME=mapmaker's pen
+TYPE=tCartography
+RESOURCES=1 iIngotIron
+SKILLMAKE=TINKERING 25.0, tTinkerTools
+VALUE=7
+ON=@Create
+MaxUses={25 75}
+
+
+[ITEMDEF iMapLocal]
+ID=iMap
+NAME=local map
+RESOURCES=1 iMapBlank
+SKILLMAKE=CARTOGRAPHY 0.0, tCartography
+VALUE=3
+
+ON=@Create
+IF (<SRC>)
+LOCAL.Radius=<eval 64+((<SRC.CARTOGRAPHY>*2)/10)>
+MORE1=<eval ((<SRC.P.X>-<LOCAL.Radius>)*010000)+(<SRC.P.Y>-<LOCAL.Radius>)>
+MORE2=<eval ((<SRC.P.X>+<LOCAL.Radius>)*010000)+(<SRC.P.Y>+<LOCAL.Radius>)>
+ENDIF
+
+
+[ITEMDEF iMapCity]
+ID=iMap
+NAME=city map
+RESOURCES=1 iMapBlank
+SKILLMAKE=CARTOGRAPHY 25.0, tCartography
+VALUE=3
+
+ON=@Create
+IF (<SRC>)
+LOCAL.Radius=<eval 64+((<SRC.CARTOGRAPHY>*4)/10)>
+IF (<LOCAL.Radius> < 200)
+LOCAL.Radius=200
+ENDIF
+MORE1=<eval ((<SRC.P.X>-<LOCAL.Radius>)*010000)+(<SRC.P.Y>-<LOCAL.Radius>)>
+MORE2=<eval ((<SRC.P.X>+<LOCAL.Radius>)*010000)+(<SRC.P.Y>+<LOCAL.Radius>)>
+ENDIF
+
+
+[ITEMDEF iMapSeaChart]
+ID=iMap
+NAME=sea chart map
+RESOURCES=1 iMapBlank
+SKILLMAKE=CARTOGRAPHY 35.0, tCartography
+VALUE=3
+
+ON=@Create
+IF (<SRC>)
+LOCAL.Radius=<eval 64+((<SRC.CARTOGRAPHY>*10)/10)>
+IF (<LOCAL.Radius> < 200)
+LOCAL.Radius=200
+ENDIF
+MORE1=<eval ((<SRC.P.X>-<LOCAL.Radius>)*010000)+(<SRC.P.Y>-<LOCAL.Radius>)>
+MORE2=<eval ((<SRC.P.X>+<LOCAL.Radius>)*010000)+(<SRC.P.Y>+<LOCAL.Radius>)>
+ENDIF
+
+
+[ITEMDEF iMapWorld]
+ID=iMap
+NAME=world map
+RESOURCES=1 iMapBlank
+SKILLMAKE=CARTOGRAPHY 50.0, tCartography
+VALUE=3
+
+ON=@Create
+IF (<SRC>)
+LOCAL.Radius=<eval (<SRC.CARTOGRAPHY>*20)/10>
+MORE2=<eval ((<SRC.P.X>+<LOCAL.Radius>)*010000)+(<SRC.P.Y>+<LOCAL.Radius>)>
+ENDIF
+
+//////////////////
+// Custom Items //
+//////////////////
+
+[ITEMDEF iMapStock1]
+ID=iMap
+TYPE=T_MAP
+NAME=Map of Vesper
+RESOURCES=iMapBlank
+SKILLMAKE=CARTOGRAPHY 40.0
+CATEGORY=Maps
+SUBSECTION=City Maps
+DESCRIPTION=Vesper
+
+ON=@Create
+MORE2=0bf803f4
+MORE1=0a4c0250
+
+[ITEMDEF iMapStock2]
+ID=iMap
+NAME=Map of Yew
+TYPE=T_MAP
+RESOURCES=iMapBlank
+SKILLMAKE=CARTOGRAPHY 40.0
+CATEGORY=Maps
+SUBSECTION=City Maps
+DESCRIPTION=Yew
+
+ON=@Create
+MORE2=02fe04f5
+MORE1=00ec02e5
+
+[ITEMDEF iMapStock3]
+ID=iMap
+NAME=Map of Skara Brae
+TYPE=T_MAP
+RESOURCES=iMapBlank
+SKILLMAKE=CARTOGRAPHY 40.0
+CATEGORY=Maps
+SUBSECTION=City Maps
+DESCRIPTION=Skara Brae
+
+ON=@Create
+MORE2=03c00994
+MORE1=020c0810
+
+[ITEMDEF iMapStock4]
+ID=iMap
+NAME=Map of Jhelom
+TYPE=T_MAP
+RESOURCES=iMapBlank
+SKILLMAKE=CARTOGRAPHY 40.0
+CATEGORY=Maps
+SUBSECTION=City Maps
+DESCRIPTION=Jhelom
+
+ON=@Create
+MORE2=05f80fd8
+MORE1=04400df4
+
+[ITEMDEF iMapStock5]
+ID=iMap
+NAME=Map of Trinsic
+TYPE=T_MAP
+RESOURCES=iMapBlank
+SKILLMAKE=CARTOGRAPHY 40.0
+CATEGORY=Maps
+SUBSECTION=City Maps
+DESCRIPTION=Trinsic
+
+ON=@Create
+MORE2=08460b88
+MORE1=07000a46
+
+[ITEMDEF iMapStock6]
+// Map of Minoc template
+ID=iMap
+NAME=Map of Minoc
+TYPE=T_MAP
+RESOURCES=iMapBlank
+SKILLMAKE=CARTOGRAPHY 40.0
+CATEGORY=Maps
+SUBSECTION=City Maps
+DESCRIPTION=Minoc
+
+ON=@Create
+MORE2=0a9202be
+MORE1=09380164
+
+[ITEMDEF iMapStock7]
+// Map of Bucaneer's Den template
+ID=iMap
+NAME=Map of Bucaneer's Den
+TYPE=T_MAP
+RESOURCES=iMapBlank
+SKILLMAKE=CARTOGRAPHY 40.0
+CATEGORY=Maps
+SUBSECTION=City Maps
+DESCRIPTION=Bucaneer's Den
+
+ON=@Create
+MORE2=0acf08d7
+MORE1=0a380818
+
+[ITEMDEF iMapStock8]
+// Map of Serpent's Hold template
+ID=iMap
+NAME=Map of Serpent's Hold
+TYPE=T_MAP
+RESOURCES=iMapBlank
+SKILLMAKE=CARTOGRAPHY 40.0
+CATEGORY=Maps
+SUBSECTION=City Maps
+DESCRIPTION=Serpent's Hold
+
+ON=@Create
+MORE2=0c1c0e37
+MORE1=0a9a0d01
+
+[ITEMDEF iMapStock9]
+// Map of Nujelm template
+ID=iMap
+NAME=Map of Nujelm
+TYPE=T_MAP
+RESOURCES=iMapBlank
+SKILLMAKE=CARTOGRAPHY 40.0
+CATEGORY=Maps
+SUBSECTION=City Maps
+DESCRIPTION=Nujelm
+
+ON=@Create
+MORE2=0ef80590
+MORE1=0d760406
+
+[ITEMDEF iMapStock10]
+// Map of Magincia template
+ID=iMap
+NAME=Map of Magincia
+TYPE=T_MAP
+RESOURCES=iMapBlank
+SKILLMAKE=CARTOGRAPHY 40.0
+CATEGORY=Maps
+SUBSECTION=City Maps
+DESCRIPTION=Magincia
+
+ON=@Create
+MORE2=0eea08fa
+MORE1=0dca07e6
+
+[ITEMDEF iMapStock11]
+// Map of Ocllo template
+ID=iMap
+NAME=Map of Ocllo
+TYPE=T_MAP
+RESOURCES=iMapBlank
+SKILLMAKE=CARTOGRAPHY 40.0
+CATEGORY=Maps
+SUBSECTION=City Maps
+DESCRIPTION=Ocllo
+
+ON=@Create
+MORE2=0eba0ab6
+MORE1=0dfe0998
+
+[ITEMDEF iMapStock12]
+// Map of Moonglow template
+ID=iMap
+NAME=Map of Moonglow
+TYPE=T_MAP
+RESOURCES=iMapBlank
+SKILLMAKE=CARTOGRAPHY 40.0
+CATEGORY=Maps
+SUBSECTION=City Maps
+DESCRIPTION=Moonglow
+
+ON=@Create
+MORE2=0127c05f8
+MORE1=0103c0328
+
+[ITEMDEF iMapStock13]
+// Map of Britain template
+ID=iMap
+NAME=Map of Britain
+TYPE=T_MAP
+RESOURCES=iMapBlank
+SKILLMAKE=CARTOGRAPHY 40.0
+CATEGORY=Maps
+SUBSECTION=City Maps
+DESCRIPTION=Britain
+
+ON=@Create
+MORE2=06c80784
+MORE1=04440574
+
+[ITEMDEF iMapStock14]
+// Map of Minoc to Yew template
+ID=iMap
+NAME=Map of Minoc to Yew
+TYPE=T_MAP
+RESOURCES=iMapBlank
+SKILLMAKE=CARTOGRAPHY 60.0
+CATEGORY=Maps
+SUBSECTION=Travelling Maps
+DESCRIPTION=Minoc to Yew
+
+ON=@Create
+MORE2=09000c00
+MORE1=00000100
+
+[ITEMDEF iMapStock15]
+// Map of Minoc to Vesper template
+ID=iMap
+NAME=Map of Minoc to Vesper
+TYPE=T_MAP
+RESOURCES=iMapBlank
+SKILLMAKE=CARTOGRAPHY 60.0
+CATEGORY=Maps
+SUBSECTION=Travelling Maps
+DESCRIPTION=Minoc to Vesper
+
+ON=@Create
+MORE2=0b3e02ea
+MORE1=09a3023c
+
+[ITEMDEF iMapStock16]
+// Map of Britain to Trinsic template
+ID=iMap
+NAME=Map of Britain to Trinsic
+TYPE=T_MAP
+RESOURCES=iMapBlank
+SKILLMAKE=CARTOGRAPHY 60.0
+CATEGORY=Maps
+SUBSECTION=Travelling Maps
+DESCRIPTION=Britain to Trinsic
+
+ON=@Create
+MORE2=09000c00
+MORE1=04000500
+
+[ITEMDEF iMapStock17]
+// Map of Trinsic to Bucaneer's Den template
+ID=iMap
+NAME=Map of Trinsic to Bucaneer's Den
+TYPE=T_MAP
+RESOURCES=iMapBlank
+SKILLMAKE=CARTOGRAPHY 70.0
+CATEGORY=Maps
+SUBSECTION=Travelling Maps
+DESCRIPTION=Trinsic to Bucaneer's Den
+
+ON=@Create
+MORE2=0c000c00
+MORE1=07000700
+
+[ITEMDEF iMapStock18]
+// Map of Bucaneer's Den to Ocllo template
+ID=iMap
+NAME=Map of Bucaneer's Den to Ocllo
+TYPE=T_MAP
+RESOURCES=iMapBlank
+SKILLMAKE=CARTOGRAPHY 70.0
+CATEGORY=Maps
+SUBSECTION=Travelling Maps
+DESCRIPTION=Bucaneer's Den to Ocllo
+
+ON=@Create
+MORE2=0f000c00
+MORE1=0a000700
+
+[ITEMDEF iMapStock19]
+// Map of Trinsic to Jhelom template
+ID=iMap
+NAME=Map of Trinsic to Jhelom
+TYPE=T_MAP
+RESOURCES=iMapBlank
+SKILLMAKE=CARTOGRAPHY 70.0
+CATEGORY=Maps
+SUBSECTION=Travelling Maps
+DESCRIPTION=Trinsic to Jhelom
+
+ON=@Create
+MORE2=09000fff
+MORE1=01000700
+
+[ITEMDEF iMapStock20]
+// Map of Vesper to Nujelm template
+ID=iMap
+NAME=Map of Vesper to Nujelm
+TYPE=T_MAP
+RESOURCES=iMapBlank
+SKILLMAKE=CARTOGRAPHY 70.0
+CATEGORY=Maps
+SUBSECTION=Travelling Maps
+DESCRIPTION=Vesper to Nujelm
+
+ON=@Create
+MORE2=0f000600
+MORE1=0a4c0250
+
+[ITEMDEF iMapStock21]
+// Map of Nujelm to Magincia template
+ID=iMap
+NAME=Map of Nujelm to Magincia
+TYPE=T_MAP
+RESOURCES=iMapBlank
+SKILLMAKE=CARTOGRAPHY 70.0
+CATEGORY=Maps
+SUBSECTION=Travelling Maps
+DESCRIPTION=Nujelm to Maginicia
+
+ON=@Create
+MORE2=0f000900
+MORE1=0d000400
+
+[ITEMDEF iMapStock22]
+// Map of Bucden to Magincia template
+ID=iMap
+NAME=Map of Bucden to Magincia
+TYPE=T_MAP
+RESOURCES=iMapBlank
+SKILLMAKE=CARTOGRAPHY 70.0
+CATEGORY=Maps
+SUBSECTION=Travelling Maps
+DESCRIPTION=Bucaneer's Den to Magincia
+
+ON=@Create
+MORE2=0f000a00
+MORE1=0a000700
+
+[ITEMDEF iMapStock23]
+// Map of Magincia to Ocllo template
+ID=iMap
+NAME=Map of Magincia to Ocllo
+TYPE=T_MAP
+RESOURCES=iMapBlank
+SKILLMAKE=CARTOGRAPHY 70.0
+CATEGORY=Maps
+SUBSECTION=Travelling Maps
+DESCRIPTION=Magincia to Ocllo
+
+ON=@Create
+MORE2=0f000900
+MORE1=0d000700
+
+[ITEMDEF iMapStock24]
+// Map of Serpent's Hold to Ocllo template
+ID=iMap
+NAME=Map of Serpent's Hold to Ocllo
+TYPE=T_MAP
+RESOURCES=iMapBlank
+SKILLMAKE=CARTOGRAPHY 70.0
+CATEGORY=Maps
+SUBSECTION=Travelling Maps
+DESCRIPTION=Serpent's Hold to Ocllo
+
+ON=@Create
+MORE2=0f000f00
+MORE1=0a000a00
+
+[ITEMDEF iMapStock25]
+// Map of Moonglow to Nujelm template
+ID=iMap
+NAME=Map of Moonglow to Nujelm
+TYPE=T_MAP
+RESOURCES=iMapBlank
+SKILLMAKE=CARTOGRAPHY 70.0
+CATEGORY=Maps
+SUBSECTION=Travelling Maps
+DESCRIPTION=Moonglow to Nujelm
+
+ON=@Create
+MORE2=013000600
+MORE1=00d000300
+
+[ITEMDEF iMapStock26]
+// Map of Yew to Britain template
+ID=iMap
+NAME=Map of Yew to Britain
+TYPE=T_MAP
+RESOURCES=iMapBlank
+SKILLMAKE=CARTOGRAPHY 70.0
+CATEGORY=Maps
+SUBSECTION=Travelling Maps
+DESCRIPTION=Yew to Britain
+
+ON=@Create
+MORE2=07000800
+MORE1=00000200
+
+[ITEMDEF iMapStock27]
+// Map of Britain to Skara Brae template
+ID=iMap
+NAME=Map of Britain to Skara Brae
+TYPE=T_MAP
+RESOURCES=iMapBlank
+SKILLMAKE=CARTOGRAPHY 70.0
+CATEGORY=Maps
+SUBSECTION=Travelling Maps
+DESCRIPTION=Britian to Skara Brae
+
+ON=@Create
+MORE2=06c80a00
+MORE1=01000700
+
+[ITEMDEF iMapStock28]
+ID=iMap
+NAME=Map of the World
+TYPE=T_MAP
+RESOURCES=iMapBlank
+SKILLMAKE=CARTOGRAPHY 100.0
+CATEGORY=Maps
+SUBSECTION=General Maps
+DESCRIPTION=Map of the World
+
+ON=@Create
+MORE1=0
+MORE2=0144f0fff
+
+[EOF]

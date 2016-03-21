@@ -1,0 +1,619 @@
+//****************************************************************************
+// SPHERE by : Menasoft ©1997-2014
+// www.sphereserver.net
+// All SPHERE script files and formats are copyright Menasoft & Partners.
+// This file may be freely edited for personal use, but may not be distributed
+// in whole or in part, in any format without express written permission from
+// Menasoft & Partners. All donations and contributions
+// become the property of Menasoft & Partners.
+//****************************************************************************
+// FILE LAST UPDATED: Tuesday, May 6, 2014
+//
+VERSION=0.56c
+
+
+[ITEMDEF 09a8]
+DEFNAME=iBoxBrass
+TYPE=tContainer
+TDATA2=04b
+FLIP=1
+VALUE=39
+WEIGHT=5.0
+RESOURCES=5 iIngotIron, 5 iLog
+SKILLMAKE=Tinkering 40.0,tTinkerTools
+CATEGORY=Provisions - Miscellaneous
+SUBSECTION=Containers
+DESCRIPTION=Brass Box (N)
+DUPELIST=0e80
+
+[ITEMDEF 09a9]
+DEFNAME=iCrateSmall
+TYPE=tContainer
+
+TDATA2=044
+FLIP=1
+VALUE=19
+WEIGHT=4.0
+RESOURCES=8 iBoard
+SKILLMAKE=Carpentry 10.0,tCarpentry
+CATEGORY=Provisions - Miscellaneous
+SUBSECTION=Containers
+DESCRIPTION=Wooden Crate (Small)
+DUPELIST=0e7e
+
+[ITEMDEF 09aa]
+DEFNAME=iBoxWood
+TYPE=tContainer
+TDATA2=043
+FLIP=1
+VALUE=24
+WEIGHT=4.0
+RESOURCES=10 iBoard
+SKILLMAKE=Carpentry 21.0,tCarpentry
+CATEGORY=Provisions - Miscellaneous
+SUBSECTION=Containers
+DESCRIPTION=Wooden Box
+DUPELIST=0e7d
+
+[ITEMDEF 09ab]
+DEFNAME=iChestMetal
+TYPE=tContainer
+TDATA2=04a
+FLIP=1
+VALUE=93
+WEIGHT=25.0
+RESOURCES=20 iIngotIron, 2 iBoard
+SKILLMAKE=Tinkering 75.0,tTinkerTools
+CATEGORY=Provisions - Miscellaneous
+SUBSECTION=Containers
+DESCRIPTION=Metal Chest
+DUPELIST=0e7c
+
+[ITEMDEF 09ac]
+DEFNAME=iBasketBushel
+TYPE=tContainer
+TDATA2=041
+VALUE=20
+WEIGHT=3.0
+RESOURCES=2 iSoftenedReed,3 iArrowShaft
+SKILLMAKE=Tinkering 21.1
+CATEGORY=Provisions - Miscellaneous
+SUBSECTION=Containers
+DESCRIPTION=Large Basket
+
+
+[ITEMDEF 09b0]
+DEFNAME=iPouch
+TYPE=tContainer
+//TDATA2=047
+TDATA2=040
+TDATA3=010001
+TDATA4=0900090
+DYE=1
+FLIP=1
+VALUE=13
+WEIGHT=0.1
+RESOURCES=1 iHidesCut,1 iThread
+SKILLMAKE=Tailoring 10.0,tSewingKit
+CATEGORY=Provisions - Miscellaneous
+SUBSECTION=Containers
+DESCRIPTION=Pouch
+DUPELIST=0e79
+
+[ITEMDEF 09b1]
+DEFNAME=iBasket2
+TYPE=tContainer
+//TDATA2=03f
+TDATA2=041
+VALUE=7
+WEIGHT=1.0
+RESOURCES=1 iSoftenedReed,2 iArrowShaft
+SKILLMAKE=Tinkering 5.0
+CATEGORY=Provisions - Miscellaneous
+SUBSECTION=Containers
+DESCRIPTION=Small Basket
+
+
+[ITEMDEF 0de1]
+DEFNAME=iKindling
+TYPE=tKindling
+VALUE=1
+WEIGHT=1.0
+REPLICATE=1
+RESOURCES=1 iLog
+SKILLMAKE=Bowcraft 0.0
+CATEGORY=Provisions - Miscellaneous
+SUBSECTION=Campfires
+DESCRIPTION=Kindling
+DUPELIST=0de2
+
+[ITEMDEF 0de2]
+//kindling
+DUPEITEM=0de1
+
+[ITEMDEF 0de3]
+DEFNAME=iCampfire
+TYPE=tCampfire
+WEIGHT=1.0
+RESOURCES=1 iKindling
+CATEGORY=Provisions - Miscellaneous
+SUBSECTION=Campfires
+DESCRIPTION=Campfire
+DUPELIST=0de4,0de5,0de6,0de7,0de8
+
+[ITEMDEF 0de4]
+//campfire
+DUPEITEM=0de3
+
+[ITEMDEF 0de5]
+//campfire
+DUPEITEM=0de3
+
+[ITEMDEF 0de6]
+//campfire
+DUPEITEM=0de3
+
+[ITEMDEF 0de7]
+//campfire
+DUPEITEM=0de3
+
+[ITEMDEF 0de8]
+//campfire
+DUPEITEM=0de3
+
+[ITEMDEF 0de9]
+DEFNAME=iEmberLit
+TYPE=tCampfire
+VALUE=2
+WEIGHT=1.0
+CATEGORY=Provisions - Miscellaneous
+SUBSECTION=Campfires
+DESCRIPTION=Embers
+
+[ITEMDEF 0dea]
+DEFNAME=iEmber
+TYPE=tGarbage
+VALUE=1
+WEIGHT=1.0
+RESOURCES=1 iKindling
+CATEGORY=Provisions - Miscellaneous
+SUBSECTION=Campfires
+DESCRIPTION=Burned Wood
+
+
+[ITEMDEF 0e3c]
+DEFNAME=iCrateLg
+NAME=large crate
+TYPE=tContainer
+TDATA2=044
+FLIP=1
+VALUE=46
+WEIGHT=8.0
+RESOURCES=18 iBoard
+SKILLMAKE=Carpentry 47.3,tCarpentry
+CATEGORY=Provisions - Miscellaneous
+SUBSECTION=Containers
+DESCRIPTION=Large Crate
+DUPELIST=0e3d
+
+[ITEMDEF 0e3d]
+//large crate
+DUPEITEM=0e3c
+
+[ITEMDEF 0e3e]
+DEFNAME=iCrateMd
+TYPE=tContainer
+TDATA2=044
+FLIP=1
+VALUE=38
+WEIGHT=6.0
+RESOURCES=15 iBoard
+SKILLMAKE=Carpentry 31.5,tCarpentry
+CATEGORY=Provisions - Miscellaneous
+SUBSECTION=Containers
+DESCRIPTION=Medium Crate
+DUPELIST=0e3f
+
+[ITEMDEF 0e3f]
+//medium crate
+DUPEITEM=0e3e
+
+[ITEMDEF 0e40]
+DEFNAME=iChestMetalBrass
+TYPE=tContainer
+TDATA2=042
+FLIP=1
+VALUE=115
+WEIGHT=25.0
+RESOURCES=15 iIngotIron, 5 iIngotGold, 2 iLog
+SKILLMAKE=Tinkering 80.0,tTinkerTools
+CATEGORY=Provisions - Miscellaneous
+SUBSECTION=Containers
+DESCRIPTION=Golden Metal Chest
+DUPELIST=0e41
+
+[ITEMDEF 0e41]
+//Metal/Brass Chest
+DUPEITEM=0e40
+
+[ITEMDEF 0e42]
+DEFNAME=iChestWoodenBrass
+TYPE=tContainer
+TDATA2=049
+FLIP=1
+VALUE=71
+WEIGHT=15.0
+RESOURCES=20 iBoard
+SKILLMAKE=Carpentry 73.6,tCarpentry
+CATEGORY=Provisions - Miscellaneous
+SUBSECTION=Containers
+DESCRIPTION=Wood/Brass Chest
+DUPELIST=0e43
+
+[ITEMDEF 0e43]
+//wooden chest with brass hinges
+DUPEITEM=0e42
+
+
+[ITEMDEF 0e75]
+DEFNAME=iBackpack
+TYPE=tContainer
+TDATA2=03c
+FLIP=1
+DYE=1
+VALUE=22
+WEIGHT=3.0
+RESOURCES=4 iHidesCut
+SKILLMAKE=Tailoring 15.0,tSewingKit
+CATEGORY=Provisions - Miscellaneous
+SUBSECTION=Containers
+DESCRIPTION=Backpack
+
+[ITEMDEF 0e76]
+DEFNAME=iBag
+TYPE=tContainer
+TDATA2=03d
+FLIP=1
+DYE=1
+VALUE=11
+WEIGHT=2.0
+RESOURCES=2 iHidesCut
+SKILLMAKE=Tailoring 10.0,tSewingKit
+CATEGORY=Provisions - Miscellaneous
+SUBSECTION=Containers
+DESCRIPTION=Leather Bag
+
+[ITEMDEF 0e77]
+DEFNAME=iBarrelOpen
+TYPE=tContainer
+TDATA2=03e
+FLIP=1
+VALUE=49
+WEIGHT=25.0
+RESOURCES=18 iLog, 10 iIngotIron
+SKILLMAKE=CARPENTRY 55.0, tCarpentry
+CATEGORY=Provisions - Miscellaneous
+SUBSECTION=Containers
+DESCRIPTION=Empty Barrel
+
+[ITEMDEF 0e78]
+DEFNAME=iBasin
+TYPE=tContainer
+TDATA2=041
+//TDATA2=0589
+FLIP=1
+WEIGHT=1.0
+RESOURCES=3 iIngotIron
+CATEGORY=Provisions - Miscellaneous
+SUBSECTION=Containers
+DESCRIPTION=Basin
+DUPELIST=01009
+
+[ITEMDEF 0e79]
+//pouch
+DUPEITEM=09b0
+
+[ITEMDEF 0e7a]
+DEFNAME=iBasketSquare
+TYPE=tContainer
+TDATA2=03f
+WEIGHT=1.0
+RESOURCES=1 iSoftenedReed,2 iArrowShaft
+SKILLMAKE=Tinkering 5.0
+CATEGORY=Provisions - Miscellaneous
+SUBSECTION=Containers
+DESCRIPTION=Picnic Basket
+
+[ITEMDEF 0e7b]
+DEFNAME=iTubWater
+TYPE=tWater
+VALUE=75
+WEIGHT=17.0
+RESOURCES=1 iTubEmpty,10 iPitcherWater
+SKILLMAKE=Carpentry 70.0,tCarpentry
+CATEGORY=Provisions - Miscellaneous
+SUBSECTION=Containers
+DESCRIPTION=Water Tub
+
+[ITEMDEF 0e7c]
+// Silver Chest similar to 09ab against NW wall
+DUPEITEM=09ab
+
+[ITEMDEF 0e7d]
+// Wooden Box against NW wall
+DUPEITEM=09aa
+
+[ITEMDEF 0e7e]
+// small Dark Wooden Crate against NW wall
+DUPEITEM=09a9
+
+[ITEMDEF 0e7f]
+DEFNAME=iKegSmall
+NAME=open keg
+TYPE=tContainer
+TDATA2=03e
+FLIP=1
+VALUE=29
+WEIGHT=10.0
+RESOURCES=8 iBoard,2 iIngotIron
+SKILLMAKE=Tinkering 45.0,tTinkerTools
+CATEGORY=Provisions - Miscellaneous
+SUBSECTION=Containers
+DESCRIPTION=Keg (no lid)
+
+[ITEMDEF 0e80]
+// Brass strong box lockable against NW wall
+DUPEITEM=09a8
+
+
+[ITEMDEF 0e83]
+DEFNAME=iTubEmpty
+TYPE=tContainer
+//TDATA2=041
+TDATA2=03e
+FLIP=1
+VALUE=20
+WEIGHT=7.0
+RESOURCES=5 iBoard,2 iIngotIron
+CATEGORY=Provisions - Miscellaneous
+SUBSECTION=Containers
+DESCRIPTION=Empty Tub
+
+
+[ITEMDEF 0fac]
+DEFNAME=iFirePit
+TYPE=tFire
+VALUE=1
+RESOURCES=1 iKindling
+CATEGORY=Provisions - Miscellaneous
+SUBSECTION=Campfires
+DESCRIPTION=Fire Pit
+ON=@Create
+MOREZ=1
+
+
+[ITEMDEF 0fae]
+DEFNAME=iBarrel
+TYPE=tContainer
+TDATA2=03e
+FLIP=1
+VALUE=65
+WEIGHT=15.0
+RESOURCES=1 iBarrelOpen,1 iBarrelLid
+SKILLMAKE=Tinkering 56.0,tTinkerTools
+CATEGORY=Provisions - Miscellaneous
+SUBSECTION=Containers
+DESCRIPTION=Barrel (covered)
+
+
+[ITEMDEF 01008]
+DEFNAME=iWashBasin
+TYPE=tWaterWash
+TDATA1=iBasin
+WEIGHT=12.0
+RESOURCES=1 iBasin,1 iPitcherWater
+CATEGORY=Provisions - Miscellaneous
+SUBSECTION=Containers
+DESCRIPTION=Wash Basin
+
+[ITEMDEF 01009]
+//basin
+DUPEITEM=0e78
+
+
+[ITEMDEF 0100e]
+DEFNAME=iKeyCopper
+TYPE=tKey
+WEIGHT=0.1
+RESOURCES=3 iIngotIron
+SKILLMAKE=TINKERING 43.0,tTinkerTools
+CATEGORY=Provisions - Miscellaneous
+SUBSECTION=Keys
+DESCRIPTION=Copper Key
+
+[ITEMDEF 0100f]
+DEFNAME=iKeyGold
+TYPE=tKey
+WEIGHT=0.1
+RESOURCES=2 iIngotIron,1 iIngotGold
+SKILLMAKE=TINKERING 60.0,tTinkerTools
+CATEGORY=Provisions - Miscellaneous
+SUBSECTION=Keys
+DESCRIPTION=Gold Key
+
+[ITEMDEF 01010]
+DEFNAME=iKeyIron
+TYPE=T_KEY
+WEIGHT=0.1
+RESOURCES=3 iIngotIron
+SKILLMAKE=TINKERING 30.0,tTinkerTools
+CATEGORY=Provisions - Miscellaneous
+SUBSECTION=Keys
+DESCRIPTION=Iron Key
+
+[ITEMDEF 01011]
+DEFNAME=iKeyRing
+TYPE=tKeyring
+TDATA2=1
+WEIGHT=0.1
+RESOURCES=1 iIngotIron
+SKILLMAKE=TINKERING 30.0,tTinkerTools
+CATEGORY=Provisions - Miscellaneous
+SUBSECTION=Keys
+DESCRIPTION=Key Ring
+ON=@Create
+ATTR=attr_newbie
+ON=@DClick
+SRC.MESSAGE Drop keys on an empty key ring
+
+[ITEMDEF 01012]
+DEFNAME=iKeyMagic
+TYPE=tKey
+WEIGHT=0.1
+SKILLMAKE=TINKERING 80.0,MAGERY 50.0,tTinkerTools
+RESOURCES=5 iIngotGold,5 iIngotSilver,5 iIngotCopper
+CATEGORY=Provisions - Miscellaneous
+SUBSECTION=Keys
+DESCRIPTION=Magic Key
+ON=@Create
+ATTR=attr_magic|attr_newbie
+
+[ITEMDEF 01013]
+DEFNAME=iKeyRusty
+TYPE=tKey
+WEIGHT=0.1
+RESOURCES=1 iIngotIron
+CATEGORY=Provisions - Miscellaneous
+SUBSECTION=Keys
+DESCRIPTION=Rusty Iron Key
+
+
+[ITEMDEF 01769]
+DEFNAME=iKeyRing1
+TYPE=tKeyring
+TDATA2=1
+WEIGHT=0.1
+RESOURCES=1 iIngotIron
+CATEGORY=Provisions - Miscellaneous
+SUBSECTION=Keys
+DESCRIPTION=Key Ring with Keys
+DUPELIST=0176a,0176b
+
+[ITEMDEF 0176a]
+//key ring with keys
+DUPEITEM=01769
+
+[ITEMDEF 0176b]
+//key ring with keys
+DUPEITEM=01769
+
+
+[ITEMDEF 01c18]
+DEFNAME=iOilFlask
+VALUE=13
+WEIGHT=1.0
+RESOURCES=1 iBottle10,1 iFlaxBundle
+SKILLMAKE=Tinkering 85.0,tTinkerTools
+CATEGORY=Provisions - Miscellaneous
+SUBSECTION=Misc
+DESCRIPTION=Oil Flask
+
+[ITEMDEF 01c19]
+DEFNAME=iFxOilFlask
+VALUE=1
+WEIGHT=3.0
+RESOURCES=1 iOilFlask
+CATEGORY=Animations
+SUBSECTION=Oil Flask
+DESCRIPTION=Oil Flask
+DUPELIST=01c1a,01c1b,01c1c,01c1d,01c1e,01c1f
+
+[ITEMDEF 01c1a]
+//lit oil flask
+DUPEITEM=01c19
+
+[ITEMDEF 01c1b]
+//lit oil flask
+DUPEITEM=01c19
+
+[ITEMDEF 01c1c]
+//dimly lit oil flask
+DUPEITEM=01c19
+
+[ITEMDEF 01c1d]
+//breaking oil flask
+DUPEITEM=01c19
+
+[ITEMDEF 01c1e]
+//exploded oil flask
+DUPEITEM=01c19
+
+[ITEMDEF 01c1f]
+//firey exploded oil flask
+DUPEITEM=01c19
+
+
+[ITEMDEF 01ecd]
+DEFNAME=iCrystalGreen
+NAME=communication crystal
+TYPE=tCommCrystal
+WEIGHT=1.0
+RESOURCES=10 iGemEmerald
+CATEGORY=Provisions - Miscellaneous
+SUBSECTION=Communication Crystals
+DESCRIPTION=Communication Crystal (green)
+DUPELIST=01ece,01ecf
+
+[ITEMDEF 01ece]
+//green (off?)communications crystal casting light
+DUPEITEM=01ecd
+
+[ITEMDEF 01ecf]
+//bright green (on) communications crystal casting light
+DUPEITEM=01ecd
+
+[ITEMDEF 01ed0]
+DEFNAME=iCrystalRed
+NAME=communication crystal
+TYPE=tCommCrystal
+WEIGHT=1.0
+RESOURCES=10 iGemRuby
+CATEGORY=Provisions - Miscellaneous
+SUBSECTION=Communication Crystals
+DESCRIPTION=Communication Crystal (red)
+DUPELIST=01ed1,01ed2
+
+[ITEMDEF 01ed1]
+//red communications crystal casting light
+DUPEITEM=01ed0
+
+[ITEMDEF 01ed2]
+//bright red (on) communications crystal casting light
+DUPEITEM=01ed0
+
+
+[ITEMDEF 01f24]
+DEFNAME=iBedrollOpen
+TYPE=tBedroll
+VALUE=136
+WEIGHT=12.5
+RESOURCES=5 iCloth,1 iCanvas,50 iFeather,1 i_hides_cut,5 i_thread
+CATEGORY=Decoration - Furniture
+SUBSECTION=Beds
+DESCRIPTION=Bedroll Tile
+DUPELIST=01f25,01f26,01f27
+
+[ITEMDEF 01f25]
+//bedroll square
+DUPEITEM=01f24
+
+[ITEMDEF 01f26]
+//bedroll square
+DUPEITEM=01f24
+
+[ITEMDEF 01f27]
+//bedroll square
+DUPEITEM=01f24
+
+
+[EOF]

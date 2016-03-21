@@ -1,0 +1,549 @@
+// Human Male
+[CharDef 0190]
+DefName=cHumanMale
+Name=#nHumanMaleNames
+Can=CanMale|CanWalk|CanRun|CanUseHands|CanEquip|CanMount
+MoveRate=100
+Dam=1,4
+Tag.Override.Speed=20
+Icon=iHumanMaleIcon
+Sound=sndHumanMaleOomph1
+Resources=1 iCutOfRawRibs
+FoodType=tFood,tFruit,tVegetable,tMeat,tGrain,tDrink
+MaxFood=35
+Aversions=tTrap,tActivatedTrap,rDungeon
+Desires=rCivilization,rFarm,tGem,tGold,tJewelry
+BloodColor=0
+//TEvents=eHumanHearUnknown
+//TSpeech=spkHumanPrime,spkHumanDefault
+
+AbilityPrimary=sDisarm
+AbilitySecondary=sParalyzingBlow
+
+Category=Server
+Subsection=Base Bodies
+Description=Human Male
+
+On=@Create
+NPC=BrainHuman
+Color=hHumanSkinHues
+MaxFollowers=5
+
+Fame=0
+Karma=0
+Alignment=Neutral
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=0
+ResPhysicalMax=70
+ResFire=0
+ResFireMax=70
+ResCold=0
+ResColdMax=70
+ResPoison=0
+ResPoisonMax=70
+ResEnergy=0
+ResEnergyMax=70
+
+OStr=10
+ODex=10
+OInt=10
+
+Wrestling=100
+Tactics=100
+MagicResistance=100
+Parrying=100
+
+ItemNewbie=RandomHumanMaleHair
+Color=hHumanHairHues
+ItemNewbie=RandomHumanFacialHair
+Color=MatchHair
+
+// Human Female
+[CharDef 0191]
+DefName=cHumanFemale
+Name=#nHumanFemaleNames
+Can=CanFemale|CanWalk|CanRun|CanUseHands|CanEquip|CanMount
+MoveRate=100
+Dam=1,4
+Tag.Override.Speed=20
+Icon=iHumanFemaleIcon
+Sound=sndHumanFemaleOomph1
+Resources=1 iCutOfRawRibs
+FoodType=tFood,tFruit,tVegetable,tMeat,tGrain,tDrink
+MaxFood=35
+Aversions=tTrap,tActivatedTrap,rDungeon
+Desires=rCivilization,rFarm,tGem,tGold,tJewelry
+BloodColor=0
+//TEvents=eHumanHearUnknown
+//TSpeech=spkHumanPrime,spkHumanDefault
+
+AbilityPrimary=sDisarm
+AbilitySecondary=sParalyzingBlow
+
+Category=Server
+Subsection=Base Bodies
+Description=Human Female
+
+On=@Create
+NPC=BrainHuman
+Color=hHumanSkinHues
+MaxFollowers=5
+
+Fame=0
+Karma=0
+Alignment=Neutral
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=0
+ResPhysicalMax=70
+ResFire=0
+ResFireMax=70
+ResCold=0
+ResColdMax=70
+ResPoison=0
+ResPoisonMax=70
+ResEnergy=0
+ResEnergyMax=70
+
+OStr=10
+ODex=10
+OInt=10
+
+Wrestling=100
+Tactics=100
+MagicResistance=100
+Parrying=100
+
+ItemNewbie=RandomHumanFemaleHair
+Color=hHumanHairHues
+
+// Human Male Ghost
+[CharDef 0192]
+DefName=cHumanMaleGhost
+Name=ghost
+Can=CanMale|CanWalk|CanRun|CanUseHands|CanEquip|CanGhost
+MoveRate=100
+Dam=1,4
+Tag.Override.Speed=20
+Icon=iSpectreIcon
+Sound=sndSpectre1
+Resources=1 iCutOfRawRibs
+FoodType=tFood,tFruit,tVegetable,tMeat,tGrain,tDrink
+MaxFood=35
+Aversions=tDungeon,rGraveyard,tEerieStuff
+Desires=tShrine
+BloodColor=-1
+
+AbilityPrimary=sDisarm
+AbilitySecondary=sParalyzingBlow
+
+Category=Server
+Subsection=Base Bodies
+Description=Human Male Ghost
+
+On=@Create
+NPC=BrainHuman
+
+// Human Female Ghost
+[CharDef 0193]
+DefName=cHumanFemaleGhost
+Name=ghost
+Can=CanFemale|CanWalk|CanRun|CanUseHands|CanEquip|CanGhost
+MoveRate=100
+Dam=1,4
+Tag.Override.Speed=20
+Icon=iSpectreIcon
+Sound=sndSpectre1
+Resources=1 iCutOfRawRibs
+FoodType=tFood,tFruit,tVegetable,tMeat,tGrain,tDrink
+MaxFood=35
+Aversions=tDungeon,rGraveyard,tEerieStuff
+Desires=tShrine
+BloodColor=-1
+
+AbilityPrimary=sDisarm
+AbilitySecondary=sParalyzingBlow
+
+Category=Server
+Subsection=Base Bodies
+Description=Human Female Ghost
+
+On=@Create
+NPC=BrainHuman
+
+// Elf Male
+[CharDef 025D]
+DefName=cElfMale
+Name=#nElfMaleNames
+Can=CanMale|CanWalk|CanRun|CanUseHands|CanEquip|CanMount
+MoveRate=100
+Dam=1,4
+Tag.Override.Speed=20
+Icon=iHumanMaleIcon
+Sound=sndHumanMaleOomph1
+Resources=1 iCutOfRawRibs
+FoodType=tFood,tFruit,tVegetable,tMeat,tGrain,tDrink
+MaxFood=35
+Aversions=tTrap,tActivatedTrap,rDungeon
+Desires=rCivilization,rFarm,tGem,tGold,tJewelry
+BloodColor=0
+//TEvents=eHumanHearUnknown
+//TSpeech=spkHumanPrime,spkHumanDefault
+
+AbilityPrimary=sDisarm
+AbilitySecondary=sParalyzingBlow
+
+Category=Server
+Subsection=Base Bodies
+Description=Elf Male
+
+On=@Create
+NPC=BrainHuman
+Color=hElfSkinHues
+MaxFollowers=5
+
+Fame=0
+Karma=0
+Alignment=Neutral
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=0
+ResPhysicalMax=70
+ResFire=0
+ResFireMax=70
+ResCold=0
+ResColdMax=70
+ResPoison=0
+ResPoisonMax=70
+ResEnergy=0
+ResEnergyMax=75
+
+OStr=10
+ODex=10
+OInt=10
+
+Wrestling=100
+Tactics=100
+MagicResistance=100
+Parrying=100
+
+ItemNewbie=RandomElfMaleHair
+Color=hElfHairHues
+
+// Elf Female
+[CharDef 025E]
+DefName=cElfFemale
+Name=#nElfFemaleNames
+Can=CanFemale|CanWalk|CanRun|CanUseHands|CanEquip|CanMount
+MoveRate=100
+Dam=1,4
+Tag.Override.Speed=20
+Icon=iHumanFemaleIcon
+Sound=sndHumanFemaleOomph1
+Resources=1 iCutOfRawRibs
+FoodType=tFood,tFruit,tVegetable,tMeat,tGrain,tDrink
+MaxFood=35
+Aversions=tTrap,tActivatedTrap,rDungeon
+Desires=rCivilization,rFarm,tGem,tGold,tJewelry
+BloodColor=0
+//TEvents=eHumanHearUnknown
+//TSpeech=spkHumanPrime,spkHumanDefault
+
+AbilityPrimary=sDisarm
+AbilitySecondary=sParalyzingBlow
+
+Category=Server
+Subsection=Base Bodies
+Description=Elf Female
+
+On=@Create
+NPC=BrainHuman
+Color=hElfSkinHues
+MaxFollowers=5
+
+Fame=0
+Karma=0
+Alignment=Neutral
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=0
+ResPhysicalMax=70
+ResFire=0
+ResFireMax=70
+ResCold=0
+ResColdMax=70
+ResPoison=0
+ResPoisonMax=70
+ResEnergy=0
+ResEnergyMax=75
+
+OStr=10
+ODex=10
+OInt=10
+
+Wrestling=100
+Tactics=100
+MagicResistance=100
+Parrying=100
+
+ItemNewbie=RandomElfFemaleHair
+Color=hElfHairHues
+
+// Elf Male Ghost
+[CharDef 025F]
+DefName=cElfMaleGhost
+Name=ghost
+Can=CanMale|CanWalk|CanRun|CanUseHands|CanEquip|CanGhost
+MoveRate=100
+Dam=1,4
+Tag.Override.Speed=20
+Icon=iSpectreIcon
+Sound=sndSpectre1
+Resources=1 iCutOfRawRibs
+FoodType=tFood,tFruit,tVegetable,tMeat,tGrain,tDrink
+MaxFood=35
+Aversions=tDungeon,rGraveyard,tEerieStuff
+Desires=tShrine
+BloodColor=-1
+
+AbilityPrimary=sDisarm
+AbilitySecondary=sParalyzingBlow
+
+Category=Server
+Subsection=Base Bodies
+Description=Elf Male Ghost
+
+On=@Create
+NPC=BrainHuman
+
+// Elf Female Ghost
+[CharDef 0260]
+DefName=cElfFemaleGhost
+Name=ghost
+Can=CanFemale|CanWalk|CanRun|CanUseHands|CanEquip|CanGhost
+MoveRate=100
+Dam=1,4
+Tag.Override.Speed=20
+Icon=iSpectreIcon
+Sound=sndSpectre1
+Resources=1 iCutOfRawRibs
+FoodType=tFood,tFruit,tVegetable,tMeat,tGrain,tDrink
+MaxFood=35
+Aversions=tDungeon,rGraveyard,tEerieStuff
+Desires=tShrine
+BloodColor=-1
+
+AbilityPrimary=sDisarm
+AbilitySecondary=sParalyzingBlow
+
+Category=Server
+Subsection=Base Bodies
+Description=Elf Female Ghost
+
+On=@Create
+NPC=BrainHuman
+
+// Gargoyle Male
+[CharDef 029A]
+DefName=cGargoyleMale
+Name=#nGargoyleMaleNames
+Can=CanMale|CanWalk|CanRun|CanUseHands|CanEquip|CanFly|CanHover
+MoveRate=100
+Dam=1,4
+Tag.Override.Speed=20
+Icon=iGargoyleMaleIcon
+Sound=sndHumanMaleOomph1
+Resources=1 iCutOfRawRibs
+FoodType=tFood,tFruit,tVegetable,tMeat,tGrain,tDrink
+MaxFood=35
+Aversions=tTrap,tActivatedTrap,rDungeon
+Desires=rCivilization,rFarm,tGem,tGold,tJewelry
+BloodColor=0
+//TEvents=eHumanHearUnknown
+//TSpeech=spkHumanPrime,spkHumanDefault
+
+AbilityPrimary=sDisarm
+AbilitySecondary=sParalyzingBlow
+
+Category=Server
+Subsection=Base Bodies
+Description=Gargoyle Male
+
+On=@Create
+NPC=BrainHuman
+Color=hGargoyleSkinHues
+MaxFollowers=5
+
+Fame=0
+Karma=0
+Alignment=Neutral
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=0
+ResPhysicalMax=70
+ResFire=0
+ResFireMax=70
+ResCold=0
+ResColdMax=70
+ResPoison=0
+ResPoisonMax=70
+ResEnergy=0
+ResEnergyMax=70
+
+OStr=10
+ODex=10
+OInt=10
+
+Wrestling=100
+Tactics=100
+MagicResistance=100
+Parrying=100
+
+ItemNewbie=RandomGargoyleMaleHorns
+Color=hGargoyleHornsHues
+
+// Gargoyle Female
+[CharDef 029B]
+DefName=cGargoyleFemale
+Name=#nGargoyleFemaleNames
+Can=CanFemale|CanWalk|CanRun|CanUseHands|CanEquip|CanFly|CanHover
+MoveRate=100
+Dam=1,4
+Tag.Override.Speed=20
+Icon=iGargoyleFemaleIcon
+Sound=sndHumanFemaleOomph1
+Resources=1 iCutOfRawRibs
+FoodType=tFood,tFruit,tVegetable,tMeat,tGrain,tDrink
+MaxFood=35
+Aversions=tTrap,tActivatedTrap,rDungeon
+Desires=rCivilization,rFarm,tGem,tGold,tJewelry
+BloodColor=0
+//TEvents=eHumanHearUnknown
+//TSpeech=spkHumanPrime,spkHumanDefault
+
+AbilityPrimary=sDisarm
+AbilitySecondary=sParalyzingBlow
+
+Category=Server
+Subsection=Base Bodies
+Description=Gargoyle Female
+
+On=@Create
+NPC=BrainHuman
+Color=hGargoyleSkinHues
+MaxFollowers=5
+
+Fame=0
+Karma=0
+Alignment=Neutral
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=0
+ResPhysicalMax=70
+ResFire=0
+ResFireMax=70
+ResCold=0
+ResColdMax=70
+ResPoison=0
+ResPoisonMax=70
+ResEnergy=0
+ResEnergyMax=70
+
+OStr=10
+ODex=10
+OInt=10
+
+Wrestling=100
+Tactics=100
+MagicResistance=100
+Parrying=100
+
+ItemNewbie=RandomGargoyleFemaleHorns
+Color=hGargoyleHornsHues
+
+// Gargoyle Male Ghost
+[CharDef 02B6]
+DefName=cGargoyleMaleGhost
+Name=ghost
+Can=CanMale|CanWalk|CanRun|CanUseHands|CanEquip|CanGhost|CanFly|CanHover
+MoveRate=100
+Dam=1,4
+Tag.Override.Speed=20
+Icon=iSpectreIcon
+Sound=sndSpectre1
+Resources=1 iCutOfRawRibs
+FoodType=tFood,tFruit,tVegetable,tMeat,tGrain,tDrink
+MaxFood=35
+Aversions=tDungeon,rGraveyard,tEerieStuff
+Desires=tShrine
+BloodColor=-1
+
+AbilityPrimary=sDisarm
+AbilitySecondary=sParalyzingBlow
+
+Category=Server
+Subsection=Base Bodies
+Description=Gargoyle Male Ghost
+
+On=@Create
+NPC=BrainHuman
+
+// Gargoyle Female Ghost
+[CharDef 02B7]
+DefName=cGargoyleFemaleGhost
+Name=ghost
+Can=CanFemale|CanWalk|CanRun|CanUseHands|CanEquip|CanGhost|CanFly|CanHover
+MoveRate=100
+Dam=1,4
+Tag.Override.Speed=20
+Icon=iSpectreIcon
+Sound=sndSpectre1
+Resources=1 iCutOfRawRibs
+FoodType=tFood,tFruit,tVegetable,tMeat,tGrain,tDrink
+MaxFood=35
+Aversions=tDungeon,rGraveyard,tEerieStuff
+Desires=tShrine
+BloodColor=-1
+
+AbilityPrimary=sDisarm
+AbilitySecondary=sParalyzingBlow
+
+Category=Server
+Subsection=Base Bodies
+Description=Gargoyle Female Ghost
+
+On=@Create
+NPC=BrainHuman
+
+[EOF]

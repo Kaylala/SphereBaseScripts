@@ -1,0 +1,237 @@
+//****************************************************************************
+// SPHERE by : Menasoft ©1997-2015
+// www.sphereserver.net
+// All SPHERE script files and formats are copyright Menasoft & Partners.
+// This file may be freely edited for personal use, but may not be distributed
+// in whole or in part, in any format without express written permission from
+// Menasoft & Partners. All donations and contributions
+// become the property of Menasoft & Partners.
+//****************************************************************************
+// FILE LAST UPDATED: Wednesday, April 1, 2015
+//
+VERSION=0.56c
+
+
+[COMMENT sphere_item_provisions_log]
+In order to actually chop logs, a REGIONRESOURCE needs to exist for it, and a
+REGIONTYPE needs a REGION= entry to that REGIONRESOURCE... also that same
+REGIONTYPE must be associated to the tTree Terrain TYPEDEF.
+
+For more information on how wood is choped, check the COMMENT section of the
+sphere_region.scp file.
+
+
+[DEFNAME colors_resources_wood]
+color_l_ash 04a7
+color_l_oak 07da
+color_l_yew 04a8
+color_l_bloodwood 04aa
+color_l_frostwood 047f
+color_l_heartwood 04a9
+
+
+[ITEMDEF 01bd7]
+DEFNAME=iBoard
+TYPE=tBoard
+VALUE=2
+WEIGHT=1.0
+REPLICATE=1
+RESOURCES=1 iLog
+SKILLMAKE=Carpentry 0.0, tCarpentry
+DUPELIST=01bd8,01bd9,01bda,01bdb,01bdc
+
+CATEGORY=Resources
+SUBSECTION=Wood (boards)
+DESCRIPTION=Board
+
+[ITEMDEF 01bd8]
+DUPEITEM=01bd7
+DESCRIPTION=Boards (3)
+
+[ITEMDEF 01bd9]
+DUPEITEM=01bd7
+DESCRIPTION=Boards (8)
+
+[ITEMDEF 01bda]
+//board
+DUPEITEM=01bd7
+
+[ITEMDEF 01bdb]
+DUPEITEM=01bd7
+DESCRIPTION=Boards (3)
+
+[ITEMDEF 01bdc]
+DUPEITEM=01bd7
+DESCRIPTION=Boards (8)
+
+[ITEMDEF 01bdd]
+DEFNAME=iLog
+NAME=log%s
+TYPE=tLog
+VALUE=1
+WEIGHT=2.0
+DUPELIST=01bde,01bdf,01be0,01be1,01be2
+
+CATEGORY=Resources
+SUBSECTION=Wood (logs)
+DESCRIPTION=Log
+
+[ITEMDEF 01bde]
+DUPEITEM=01bdd
+DESCRIPTION=Logs (3)
+
+[ITEMDEF 01bdf]
+DUPEITEM=01bdd
+DESCRIPTION=Logs (Many)
+
+[ITEMDEF 01be0]
+//log
+DUPEITEM=01bdd
+
+[ITEMDEF 01be1]
+DUPEITEM=01bdd
+DESCRIPTION=Logs (3)
+
+[ITEMDEF 01be2]
+DUPEITEM=01bdd
+DESCRIPTION=Logs (Many)
+
+
+[ITEMDEF iLogAsh]
+ID=iLog
+NAME=ash log%s
+TYPE=tLog
+CATEGORY=Resources
+SUBSECTION=Wood
+DESCRIPTION=Ash Log
+
+ON=@Create
+COLOR=color_l_ash
+
+[ITEMDEF iBoardAsh]
+ID=iBoard
+NAME=ash board%s
+TYPE=tBoard
+CATEGORY=Resources
+SUBSECTION=Boards
+DESCRIPTION=Ash Board
+
+ON=@Create
+COLOR=color_l_ash
+
+
+[ITEMDEF iLogOak]
+ID=iLog
+NAME=oak log%s
+TYPE=tLog
+CATEGORY=Resources
+SUBSECTION=Wood
+DESCRIPTION=Oak Log
+
+ON=@Create
+COLOR=color_l_oak
+
+[ITEMDEF iBoardOak]
+ID=iBoard
+NAME=oak board%s
+TYPE=tBoard
+CATEGORY=Resources
+SUBSECTION=Boards
+DESCRIPTION=Oak Board
+
+ON=@Create
+COLOR=color_l_oak
+
+
+[ITEMDEF iLogYew]
+ID=iLog
+NAME=yew log%s
+TYPE=tLog
+CATEGORY=Resources
+SUBSECTION=Wood
+DESCRIPTION=Yew Log
+
+ON=@Create
+COLOR=color_l_yew
+
+[ITEMDEF iBoardYew]
+ID=iBoard
+NAME=Yew board%s
+TYPE=tBoard
+CATEGORY=Resources
+SUBSECTION=Boards
+DESCRIPTION=Yew Board
+
+ON=@Create
+COLOR=color_l_yew
+
+
+[ITEMDEF iLogHeartwood]
+ID=iLog
+NAME=heartwoodlog%s
+TYPE=tLog
+CATEGORY=Resources
+SUBSECTION=Wood
+DESCRIPTION=Heartwood Log
+
+ON=@Create
+COLOR=color_l_heartwood
+
+[ITEMDEF iBoardHeartwood]
+ID=iBoard
+NAME=heartwood board%s
+TYPE=tBoard
+CATEGORY=Resources
+SUBSECTION=Boards
+DESCRIPTION=Heartwood Board
+
+ON=@Create
+COLOR=color_l_heartwood
+
+
+[ITEMDEF iLogFrostwood]
+ID=iLog
+NAME=frostwood log%s
+TYPE=tLog
+CATEGORY=Resources
+SUBSECTION=Wood
+DESCRIPTION=Frostwood Log
+
+ON=@Create
+COLOR=color_l_frostwood
+
+[ITEMDEF iBoardFrostwood]
+ID=iBoard
+NAME=frostwood board%s
+TYPE=tBoard
+CATEGORY=Resources
+SUBSECTION=Boards
+DESCRIPTION=Frostwood Board
+
+ON=@Create
+COLOR=color_l_frostwood
+
+
+[ITEMDEF iLogBloodwood]
+ID=iLog
+NAME=bloodwood log%s
+TYPE=tLog
+CATEGORY=Resources
+SUBSECTION=Wood
+DESCRIPTION=Bloodwood Log
+
+ON=@Create
+COLOR=color_l_bloodwood
+
+[ITEMDEF iBoardBloodwood]
+ID=iBoard
+NAME=bloodwood board%s
+TYPE=tBoard
+CATEGORY=Resources
+SUBSECTION=Boards
+DESCRIPTION=Bloodwood Board
+
+ON=@Create
+COLOR=color_l_bloodwood
+
+[EOF]

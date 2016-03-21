@@ -1,0 +1,810 @@
+//****************************************************************************
+// SPHERE by : Menasoft ©1997-2007
+// www.sphereserver.net
+// All SPHERE script files and formats are copyright Menasoft & Partners.
+// This file may be freely edited for personal use, but may not be distributed
+// in whole or in part, in any format without express written permission from
+// Menasoft & Partners. All donations and contributions
+// become the property of Menasoft & Partners.
+//****************************************************************************
+// FILE LAST UPDATED: Thursday, October 17, 2013
+//
+VERSION=0.56c
+
+
+[ITEMDEF 031b0]
+CATEGORY=Miscellaneous
+SUBSECTION=Invisible Tiles
+DESCRIPTION=Invisible Tile 031b0
+
+[ITEMDEF 031b1]
+CATEGORY=Miscellaneous
+SUBSECTION=Invisible Tiles
+DESCRIPTION=Invisible Tile 031b1
+
+[ITEMDEF 031b2]
+CATEGORY=Miscellaneous
+SUBSECTION=Invisible Tiles
+DESCRIPTION=Invisible Tile 031b2
+
+[ITEMDEF 031b3]
+CATEGORY=Miscellaneous
+SUBSECTION=Invisible Tiles
+DESCRIPTION=Invisible Tile 031b3
+
+[ITEMDEF 031b4]
+CATEGORY=Miscellaneous
+SUBSECTION=Invisible Tiles
+DESCRIPTION=Invisible Tile 031b4
+
+[ITEMDEF 031b5]
+CATEGORY=Miscellaneous
+SUBSECTION=Invisible Tiles
+DESCRIPTION=Invisible Tile 031b5
+
+[ITEMDEF 031b6]
+CATEGORY=Miscellaneous
+SUBSECTION=Invisible Tiles
+DESCRIPTION=Invisible Tile 031b6
+
+[ITEMDEF 031b7]
+CATEGORY=Miscellaneous
+SUBSECTION=Invisible Tiles
+DESCRIPTION=Invisible Tile 031b7
+
+[ITEMDEF 031b8]
+CATEGORY=Miscellaneous
+SUBSECTION=Invisible Tiles
+DESCRIPTION=Invisible Tile 031b8
+
+[ITEMDEF 031b9]
+CATEGORY=Miscellaneous
+SUBSECTION=Invisible Tiles
+DESCRIPTION=Invisible Tile 031b9
+
+[ITEMDEF 031ba]
+CATEGORY=Miscellaneous
+SUBSECTION=Invisible Tiles
+DESCRIPTION=Invisible Tile 031ba
+
+[ITEMDEF 031bb]
+CATEGORY=Miscellaneous
+SUBSECTION=Invisible Tiles
+DESCRIPTION=Invisible Tile 031bb
+
+[ITEMDEF 031bc]
+CATEGORY=Miscellaneous
+SUBSECTION=Invisible Tiles
+DESCRIPTION=Invisible Tile 031bc
+
+[ITEMDEF 031bd]
+CATEGORY=Miscellaneous
+SUBSECTION=Invisible Tiles
+DESCRIPTION=Invisible Tile 031bd
+
+[ITEMDEF 031be]
+CATEGORY=Miscellaneous
+SUBSECTION=Invisible Tiles
+DESCRIPTION=Invisible Tile 031be
+
+[ITEMDEF 031bf]
+CATEGORY=Miscellaneous
+SUBSECTION=Invisible Tiles
+DESCRIPTION=Invisible Tile 031bf
+
+[ITEMDEF 031c0]
+CATEGORY=Miscellaneous
+SUBSECTION=Invisible Tiles
+DESCRIPTION=Invisible Tile 031c0
+
+
+//FIXME: 3b38 - 3b43 (not sure... looks empty)
+[ITEMDEF 03b38]
+[ITEMDEF 03b39]
+[ITEMDEF 03b3a]
+[ITEMDEF 03b3b]
+[ITEMDEF 03b3c]
+[ITEMDEF 03b3d]
+[ITEMDEF 03b3e]
+[ITEMDEF 03b3f]
+[ITEMDEF 03b40]
+[ITEMDEF 03b41]
+[ITEMDEF 03b42]
+[ITEMDEF 03b43]
+
+//FIXME: 3b60 - 3bb2 (not sure... looks empty)
+[ITEMDEF 03b60]
+[ITEMDEF 03b61]
+[ITEMDEF 03b62]
+[ITEMDEF 03b63]
+[ITEMDEF 03b64]
+[ITEMDEF 03b65]
+[ITEMDEF 03b66]
+[ITEMDEF 03b67]
+[ITEMDEF 03b68]
+[ITEMDEF 03b69]
+[ITEMDEF 03b6a]
+[ITEMDEF 03b6b]
+[ITEMDEF 03b6c]
+[ITEMDEF 03b6d]
+[ITEMDEF 03b6e]
+[ITEMDEF 03b6f]
+[ITEMDEF 03b70]
+[ITEMDEF 03b71]
+[ITEMDEF 03b72]
+[ITEMDEF 03b73]
+[ITEMDEF 03b74]
+[ITEMDEF 03b75]
+[ITEMDEF 03b76]
+[ITEMDEF 03b77]
+[ITEMDEF 03b78]
+[ITEMDEF 03b79]
+[ITEMDEF 03b7a]
+[ITEMDEF 03b7b]
+[ITEMDEF 03b7c]
+[ITEMDEF 03b7d]
+[ITEMDEF 03b7e]
+[ITEMDEF 03b7f]
+[ITEMDEF 03b80]
+[ITEMDEF 03b81]
+[ITEMDEF 03b82]
+[ITEMDEF 03b83]
+[ITEMDEF 03b84]
+[ITEMDEF 03b85]
+[ITEMDEF 03b86]
+[ITEMDEF 03b87]
+[ITEMDEF 03b88]
+[ITEMDEF 03b89]
+[ITEMDEF 03b8a]
+[ITEMDEF 03b8b]
+[ITEMDEF 03b8c]
+[ITEMDEF 03b8d]
+[ITEMDEF 03b8e]
+[ITEMDEF 03b8f]
+[ITEMDEF 03b90]
+[ITEMDEF 03b91]
+[ITEMDEF 03b92]
+[ITEMDEF 03b93]
+[ITEMDEF 03b94]
+[ITEMDEF 03b95]
+[ITEMDEF 03b96]
+[ITEMDEF 03b97]
+[ITEMDEF 03b98]
+[ITEMDEF 03b99]
+[ITEMDEF 03b9a]
+[ITEMDEF 03b9b]
+[ITEMDEF 03b9c]
+[ITEMDEF 03b9d]
+[ITEMDEF 03b9e]
+[ITEMDEF 03b9f]
+[ITEMDEF 03ba0]
+[ITEMDEF 03ba1]
+[ITEMDEF 03ba2]
+[ITEMDEF 03ba3]
+[ITEMDEF 03ba4]
+[ITEMDEF 03ba5]
+[ITEMDEF 03ba6]
+[ITEMDEF 03ba7]
+[ITEMDEF 03ba8]
+[ITEMDEF 03ba9]
+[ITEMDEF 03baa]
+[ITEMDEF 03bab]
+[ITEMDEF 03bac]
+[ITEMDEF 03bad]
+[ITEMDEF 03bae]
+[ITEMDEF 03baf]
+[ITEMDEF 03bb0]
+[ITEMDEF 03bb1]
+[ITEMDEF 03bb2]
+
+
+//////////////////
+// Custom Items //
+//////////////////
+
+[ITEMDEF iEbony]
+ID=iReagBlackmoor
+NAME=Ebony
+WEIGHT=1
+CATEGORY=Provisions - Jewels and Jewelry
+SUBSECTION=Jewels
+DESCRIPTION=Ebony
+
+[ITEMDEF iIvory]
+ID=iBoneSpine
+NAME=Ivory
+WEIGHT=1
+CATEGORY=Provisions - Jewels and Jewelry
+SUBSECTION=Jewels
+DESCRIPTION=Ivory
+ON=@Create
+COLOR=colors_white
+
+[ITEMDEF iBookofhell]
+ID=iBookOpen
+NAME=Book of Hell
+CATEGORY=Trigger Items
+SUBSECTION=Magic Items
+DESCRIPTION=Book of Hell
+ON=@Create
+MORE=b_hitchhiker // some book number
+ON=@DClick
+SRC.EFFECT=3,iFireColumn,6,15,1 // flamestrike
+SRC.SOUND=snd_spell_flamestrike
+SRC.DAMAGE={5 20}
+TIMER=4
+ON=@Timer
+SPEAK Run away !
+RETURN 1
+
+[ITEMDEF iFireStorm]
+ID=iFxExplode
+NAME=a Fire Storm
+TYPE=tSpell
+CATEGORY=TFL Additions
+SUBSECTION=Animations
+DESCRIPTION=Fire Storm Piece
+ON=@Create
+ATTR=attr_magic|attr_move_never
+MORE=0
+MOREP=42,55,99
+TIMER=1
+ON=@DClick
+MORE += 1
+IF (<MORE> > 15)
+REMOVE
+RETURN 1
+ENDIF
+MOREP=<LINK.P>
+TAG.NEG=RAND(2)
+TAG.TX=RAND(6)
+IF (<TAG0.NEG> == 1)
+MOREX=<MOREX> - <TAG0.TX>
+ELSE
+MOREX=<MOREX> + <TAG0.TX>
+ENDIF
+TAG.NEG=RAND(2)
+TAG.TY=RAND(6)
+IF (<TAG0.NEG> == 1)
+MOREY=<MOREY> - <TAG0.TY>
+ELSE
+MOREY=<MOREY> + <TAG0.TY>
+ENDIF
+TAG.NEG=
+TAG.TX=
+TAG.TY=
+ATTR=attr_move_never|attr_invis|attr_magic
+P=<MOREP>
+ATTR=attr_magic|attr_move_never
+MOREP=42,55,99
+TIMER=1
+RETURN 1
+
+[ITEMDEF iBardicheSa]
+//Bardiche (this may not work!)
+//Using Sword type below
+ID=iBardiche
+NAME=Supremely Accurate Bardiche
+TYPE=tWeaponSword
+RESOURCES=1 iBardiche,1 iEnchantWeapon,1 iScrollBless,5 i_enchantWeapon
+ON=@Create
+HITPOINTS={31 100}
+COLOR=color_magic_weap
+ATTR=attr_magic
+//MOREY=100.0
+ON=@EQUIP
+SRC.SWORDSMANSHIP += 25.0
+SRC.TACTICS += 25.0
+SRC.DEX += 1
+ON=@UNEQUIP
+SRC.SWORDSMANSHIP -= 25.0
+SRC.TACTICS -= 25.0
+SRC.DEX -= 1
+
+[ITEMDEF iWizardsHatPlusInt]
+ID=iHatWizards
+NAME=Mage Hat
+RESOURCES=1 iHatWizards,1 iScrollCunning
+SKILLMAKE=60.0 TAILORING, 60.0 MAGERY, tSewingKit
+
+[ITEMDEF iCrystalOfComT1]
+//Comm. Crystal (500) RED
+ID=I_CRYSTAL_RED
+NAME=Communications Crystal
+TYPE=tCommCrystal
+VALUE=81
+WEIGHT=1
+CATEGORY=Provisions - Miscellaneous
+SUBSECTION=Communication Crystals
+DESCRIPTION=Communication Crystal (red)
+ON=@Create
+MORE=500
+
+[ITEMDEF iCrystalOfComT2]
+// Comm. Crystal (1000) GREEN
+ID=I_CRYSTAL_GREEN
+NAME=Communications Crystal
+TYPE=tCommCrystal
+VALUE=158
+WEIGHT=1
+CATEGORY=Provisions - Miscellaneous
+SUBSECTION=Communication Crystals
+DESCRIPTION=Communication Crystal (green)
+ON=@Create
+MORE=1000
+
+[ITEMDEF iCrystalOfComT3]
+// Comm. Crystal (2000) GREEN
+ID=I_CRYSTAL_GREEN
+TYPE=tCommCrystal
+NAME=Communications Crystal
+VALUE=310
+WEIGHT=1
+CATEGORY=Provisions - Miscellaneous
+SUBSECTION=Communication Crystals
+DESCRIPTION=Communication Crystal (green)
+ON=@Create
+MORE=2000
+
+[ITEMDEF iGmRobe]
+ID=iRobeGm
+NAME=GM Robe
+ARMOR=500
+CATEGORY=Provisions - GM Items
+SUBSECTION=GM Robes
+DESCRIPTION=GM Robe
+ON=@Create
+COLOR=021
+
+[ITEMDEF iSeerRobe]
+ID=iRobeGm
+NAME=Seer Robe
+ARMOR=500
+CATEGORY=Provisions - GM Items
+SUBSECTION=GM Robes
+DESCRIPTION=Seer Robe
+ON=@Create
+COLOR=01D3
+
+[ITEMDEF iCounselorRobe]
+ID=iRobeGm
+NAME=Counselor Robe
+ARMOR=500
+CATEGORY=Provisions - GM Items
+SUBSECTION=GM Robes
+DESCRIPTION=Counselor Robe
+ON=@Create
+COLOR=003
+
+[ITEMDEF iCheckerboard]
+ID=iGameBoard
+NAME=Checkerboard
+TYPE=tGameBoard
+SKILLMAKE=tinkering 40.0, carpentry 40.0
+RESOURCES=3 iBoard, 3 iLog
+CATEGORY=Games
+SUBSECTION=Checkers
+DESCRIPTION=Checkerboard
+ON=@Create
+MORE=1 // make this checkers.
+
+[ITEMDEF iChessboard]
+ID=iGameBoard
+NAME=Chessboard
+TYPE=tGameBoard
+SKILLMAKE=tinkering 60.0, carpentry 60.0
+RESOURCES=3 iBoard, 4 iLog
+CATEGORY=Games
+SUBSECTION=Chess
+DESCRIPTION=Chessboard
+
+[ITEMDEF iGuildStone]
+ID=iGuildstone
+NAME=Guildstone
+TYPE=tStoneGuild
+CATEGORY=Provisions - Deeds
+SUBSECTION=Guild and Town Stones
+DESCRIPTION=Guild Stone
+
+[ITEMDEF iTownStone]
+ID=iGuildstone
+NAME=Townstone
+TYPE=tStoneTown
+CATEGORY=Provisions - Deeds
+SUBSECTION=Guild and Town Stones
+DESCRIPTION=Town Stone
+
+[ITEMDEF iBowSup]
+ID=iBow
+NAME=Superior Bow
+SKILLMAKE=45.0 BOWCRAFT
+RESOURCES=8 iLog
+DAM=10,26
+//SPEED=20
+SKILL=Archery
+REQSTR=30
+TWOHANDS=Y
+WEIGHT=6
+CATEGORY=Provisions - Weapons
+SUBSECTION=Bows - Exceptional
+DESCRIPTION=Superior Bow
+ON=@Create
+HITPOINTS={41 80}
+
+[ITEMDEF iXbowSup]
+NAME=Superior Crossbow
+ID=iCrossbow
+RESOURCES=8 iLog
+SKILLMAKE=55.0 BOWCRAFT
+DAM=7,28
+//SPEED=20
+SKILL=Archery
+REQSTR=30
+TWOHANDS=Y
+WEIGHT=7
+CATEGORY=Provisions - Weapons
+SUBSECTION=Bows - Exceptional
+DESCRIPTION=Superior Crossbow
+ON=@Create
+HITPOINTS={41 100}
+
+[ITEMDEF iHxbowSup]
+ID=iCrossbowHeavy
+NAME=Superior Heavy Crossbow
+SKILLMAKE=65.0 BOWCRAFT
+RESOURCES=11 iLog
+DAM=7,36
+SKILL=Archery
+REQSTR=30
+TWOHANDS=Y
+WEIGHT=7
+CATEGORY=Provisions - Weapons
+SUBSECTION=Bows - Exceptional
+DESCRIPTION=Superior Heavy Crossbow
+ON=@Create
+HITPOINTS={41 120}
+
+[ITEMDEF iBowExcep]
+ID=iBow
+NAME=Exceptional Bow
+RESOURCES=9 iLog
+SKILLMAKE=75.5 BOWCRAFT
+DAM=11,28
+//SPEED=20
+SKILL=Archery
+REQSTR=30
+TWOHANDS=Y
+WEIGHT=6
+CATEGORY=Provisions - Weapons
+SUBSECTION=Bows - Exceptional
+DESCRIPTION=Exceptional Bow
+ON=@Create
+HITPOINTS={51 120}
+
+[ITEMDEF iXbowExcep]
+ID=iCrossbow
+NAME=Exceptional Crossbow
+RESOURCES=10 iLog
+SKILLMAKE=85.5 BOWCRAFT
+DAM=7,30
+//SPEED=20
+SKILL=Archery
+REQSTR=30
+TWOHANDS=Y
+WEIGHT=7
+CATEGORY=Provisions - Weapons
+SUBSECTION=Bows - Exceptional
+DESCRIPTION=Exceptional Crossbow
+ON=@Create
+HITPOINTS={51 140}
+
+[ITEMDEF iHxbowExcep]
+ID=iCrossbowHeavy
+NAME=Exceptional Heavy Crossbow
+DAM=8,38
+//SPEED=20
+SKILL=Archery
+REQSTR=30
+TWOHANDS=Y
+WEIGHT=7
+SKILLMAKE=95.5 BOWCRAFT
+RESOURCES=13 iLog
+CATEGORY=Provisions - Weapons
+SUBSECTION=Bows - Exceptional
+DESCRIPTION=Exceptional Heavy Crossbow
+ON=@Create
+HITPOINTS={41 100}
+
+[ITEMDEF iBowElven]
+ID=iBow
+NAME=Elven Bow
+DAM=11,28
+//SPEED=20
+SKILL=Archery
+REQSTR=30
+TWOHANDS=Y
+WEIGHT=3
+RESOURCES=8 iLog
+SKILLMAKE=99.5 BOWCRAFT, 50.0 MAGERY
+CATEGORY=Provisions - Weapons
+SUBSECTION=Bows - Exceptional
+DESCRIPTION=Elven Bow
+ON=@Create
+HITPOINTS={100 200}
+COLOR=237
+ON=@EQUIP
+SRC.TACTICS += 15.0
+SRC.ARCHERY += 10.0
+RETURN 0
+ON=@UNEQUIP
+SRC.TACTICS -= 15.0
+SRC.ARCHERY -= 10.0
+RETURN 0
+
+[ITEMDEF iStoneHumility]
+ID=iVirtuestoneBlack
+NAME=Stone of Humility
+CATEGORY=Provisions - Miscellaneous
+SUBSECTION=Quest Items
+DESCRIPTION=Stone of Humility
+
+[ITEMDEF iStoneHonesty]
+ID=iVirtstone2
+NAME=Stone of Honesty
+CATEGORY=Provisions - Miscellaneous
+SUBSECTION=Quest Items
+DESCRIPTION=Stone of Honesty
+
+[ITEMDEF iStoneJustice]
+ID=iVirtstone3
+NAME=Stone of Justice
+CATEGORY=Provisions - Miscellaneous
+SUBSECTION=Quest Items
+DESCRIPTION=Stone of Justice
+
+[ITEMDEF iStoneSacrifice]
+ID=iVirtstone4
+NAME=Stone of Sacrifice
+CATEGORY=Provisions - Miscellaneous
+SUBSECTION=Quest Items
+DESCRIPTION=Stone of Sacrifice
+
+[ITEMDEF iStoneHonor]
+ID=iVirtstone5
+NAME=Stone of Honor
+CATEGORY=Provisions - Miscellaneous
+SUBSECTION=Quest Items
+DESCRIPTION=Stone of Honor
+
+[ITEMDEF iStoneValor]
+ID=iVirtstone6
+NAME=Stone of Valor
+CATEGORY=Provisions - Miscellaneous
+SUBSECTION=Quest Items
+DESCRIPTION=Stone of Valor
+
+[ITEMDEF iStoneSpirituality]
+ID=iVirtstone7
+NAME=Stone of Spirituality
+CATEGORY=Provisions - Miscellaneous
+SUBSECTION=Quest Items
+DESCRIPTION=Stone of Spirituality
+
+[ITEMDEF iStoneCompassion]
+ID=iVirtstone8
+NAME=Stone of Compassion
+CATEGORY=Provisions - Miscellaneous
+SUBSECTION=Quest Items
+DESCRIPTION=Stone of Compassion
+
+
+[ITEMDEF iGraveDig]
+//grave for grave digging.
+ID=0edf
+CATEGORY=Decoration - Dungeons and The Dead
+SUBSECTION=Graves & Gravestones
+DESCRIPTION=Grave Digging Grave
+
+ON=@DClick
+IF (<DISTANCE> > 1)
+RETURN 1
+ENDIF
+IF (<SRC.FINDLAYER(1).ID>==iPickaxe)
+SRC.ANIM=0b
+SOUND=0126
+IF RAND(3)
+SERV.NEWITEM iGraveSpawnA
+SRC.KARMA -= 50
+SRC.SYSMESSAGE Thou hath lost a little Karma.
+SRC.MESSAGE Thou hath disturbed the dead!
+ELIF RAND(2)
+SERV.NEWITEM backpack_meager
+SRC.KARMA -= 50
+SRC.SYSMESSAGE Thou hath lost a little Karma.
+SRC.MESSAGE Thou hath found some treasure!
+ELIF RAND(5)
+SERV.NEWITEM iGraveSpawnA
+SRC.KARMA -= 50
+SRC.SYSMESSAGE Thou hath lost a little Karma.
+SRC.MESSAGE Thou hath disturbed the dead greatly!
+ELIF RAND(4)
+SRC.DAMAGE={5 10}
+SRC.KARMA -= 50
+SRC.SYSMESSAGE Thou hath lost a little Karma.
+SRC.MESSAGE Thou hath been almost drug into the grave by the dead!
+ENDIF
+ENDIF
+RETURN 1
+
+[ITEMDEF iGraveSpawnA]
+ID=iHole
+TYPE=tSpawnChar
+ON=@Create
+ATTR=attr_move_never|attr_invis
+MORE1={ c_skeleton 1 c_zombie 1 c_spectre 1 }
+MORE2=0
+MOREP=0,1,3
+TIMER=0
+ON=@TIMER
+IF (<AMOUNT>==0)
+REMOVE
+RETURN 1
+ENDIF
+IF (<MORE2>==1)
+MOREP=1,1,3
+AMOUNT=0
+RETURN 1
+ENDIF
+
+[ITEMDEF iEggDragon]
+ID=iFruitCoconut
+NAME=Dragons Egg
+VALUE=5000
+CATEGORY=Custom Items
+SUBSECTION=Dragons Egg
+DESCRIPTION=Dragons Egg
+ON=@Create
+COLOR={ 0000 1 0033 1 0038 1 005d 1 0091 1 0175 1 0371 1 0455 1 07fff 1 }
+ATTR=attr_identified
+MORE=0
+ON=@Timer
+IF (<MORE>==1)
+MORE2=2
+SERV.NEWITEM=iDragonSpawn
+LINK.ACT.P=<LINK.P>
+REMOVE
+ENDIF
+RETURN 1
+ON=@DClick
+//timer not executing in packs or containers, so do this for now if in someones pack
+IF (<MORE>==1)
+IF (<TIMER>>5800)
+SRC.MESSAGE The egg seems soft and somewhat velvety to thine touch.
+ELIF (<TIMER>>3600)
+SRC.MESSAGE The egg seems to be getting hard and the velvet has fallen off.
+ELIF (<TIMER>>1800)
+SRC.MESSAGE The egg is very hard, it may hatch soon if you don't sell it quickly.
+ELIF (<TIMER>>20)
+SRC.MESSAGE You swear you can feel movement inside the egg...
+ELSE
+SRC.MESSAGE OH NO! as you pick up the egg it cracks and begings hatching!!!
+SERV.NEWITEM=iDragonSpawn
+LINK.ACT.P=<LINK.P>
+REMOVE
+ENDIF
+ENDIF
+RETURN 1
+ON=@Pickup_Ground
+MORE=1
+IF (<TIMER><1)
+TIMER=7200
+ENDIF
+LINK=<SRC.UID>
+RETURN 0
+ON=@Pickup_Pack
+IF (<MORE>==1)
+TRIGGER=@DClick
+RETURN 0
+ENDIF
+MORE=1
+IF (<TIMER><1)
+TIMER=7200
+ENDIF
+LINK=<SRC.UID>
+RETURN 0
+
+[ITEMDEF iDragonSpawn]
+ID=iHole
+TYPE=tSpawnChar
+DESCRIPTION=One Shot Drake Spawn
+SUBSECTION=Dragons Egg
+CATEGORY=Custom Items
+ON=@Create
+ATTR=attr_move_never|attr_invis
+MORE1={ c_dragon_greendrake 1 c_dragon_copperdrake 1 c_dragon_bluedrake 1 c_dragon_golddrake 1 c_dragon_blackdrake 1 c_dragon_silverdrake 1 c_dragon_crystaldrake 1 }
+MORE2=0
+MOREP=0,1,3
+TIMER=2
+ON=@TIMER
+IF <AMOUNT>==0
+REMOVE
+RETURN 1
+ENDIF
+IF <MORE2>==1
+MOREP=30,30,3
+AMOUNT=0
+RETURN 0
+ENDIF
+RETURN 0
+
+[ITEMDEF iBookTennysons]
+//Tennyson's Charge of the Light Brigade
+ID=iBookLgPub
+NAME=Charge of the Light Brigade
+VALUE=10
+CATEGORY=Provisions - Miscellaneous
+SUBSECTION=Quest Items
+DESCRIPTION=Charge of the Light Brigade
+ON=@Create
+MORE1=b_tennyson
+
+[ITEMDEF iPeg]
+ID=iBannerHangerNe
+NAME=peg
+VALUE=1
+WEIGHT=0.1
+CATEGORY=Decoration - Furniture
+SUBSECTION=Hangers
+DESCRIPTION=Peg
+
+[ITEMDEF iBodypaint]
+ID=iPalette
+TYPE=tNormal
+NAME=savage body paint
+VALUE=1000
+RESOURCES=1 iReagSpiderSilk, 1 iDyeTub, 3 iBrush, 1 i_log, 3 i_dyes, 1 i_ink_well
+SKILLMAKE=TINKERING 10.0, tTinkerTools, ALCHEMY 10.0
+CATEGORY=Magic
+SUBSECTION=Tools
+DESCRIPTION=Bodypaint
+ON=@Create
+COLOR=0447
+ON=@Click
+MESSAGE=<NAME>
+SRC.SYSMESSAGE Double click to paint your skin to a random color.
+RETURN 1
+ON=@DClick
+IF (<SRC.RESTEST 1 iBodypaint>) && (<SRC.COLOR>==<SRC.OSKIN>)
+//pull up color picker here... or make random with colors_all
+//SRC.OSKIN=<COLOR> uncomment this to make change permenant
+SRC.COLOR=colors_all
+SERV.NEWITEM=iPaintTimer
+NEW.EQUIP
+REMOVE
+RETURN 1
+ELSEIF (<SRC.COLOR>!=<SRC.OSKIN>)
+SRC.SYSMESSAGE You are already covered with paint.
+RETURN 1
+ELSE
+SRC.SYSMESSAGE You must have this in your backpack to use.
+RETURN 1
+ENDIF
+
+[ITEMDEF iPaintTimer]
+ID=iPalette
+NAME=Bodypaint timer
+TYPE=tEqScript
+LAYER=layer_special
+WEIGHT=0
+ON=@Create
+ATTR=attr_decay
+ON=@Equip
+TIMER={5000 9999}
+SRC.COLOR=colors_all
+ON=@Timer
+CONT.MESSAGE "The paint has worn off."
+CONT.COLOR=<CONT.OSKIN>
+REMOVE
+RETURN 1
+
+[EOF]

@@ -1,0 +1,96 @@
+//****************************************************************************
+// SPHERE by : Menasoft ©1997-2014
+// www.sphereserver.net
+// All SPHERE script files and formats are copyright Menasoft & Partners.
+// This file may be freely edited for personal use, but may not be distributed
+// in whole or in part, in any format without express written permission from
+// Menasoft & Partners.  All donations and contributions
+// become the property of Menasoft & Partners.
+//****************************************************************************
+// FILE LAST UPDATED: Monday, April 14, 2014
+//
+VERSION=0.56c
+
+//Felucca
+
+[Teleporters]
+1714,2997,0,0=6310,892,0,0=tpFeluccaPaintedCavesEntrance
+6310,892,0,0=1714,2997,0,0=tpFeluccaPaintedCavesExit1
+6310,893,0,0=1714,2997,0,0=tpFeluccaPaintedCavesExit2
+6310,891,0,0=1714,2997,0,0=tpFeluccaPaintedCavesExit3
+
+588,1637,0,0=6476,861,8,0=tpFeluccaBlightedGroveEntrance
+6476,861,8,0=588,1637,0,0=tpFeluccaBlightedGroveExit
+6472,868,24,0=6511,951,14,0=tpFeluccaBlightedGroveBranchEntrance
+6511,951,4,0=6472,868,24,0=tpFeluccaBlightedGroveBranchExit
+6488,853,0,0=6587,867,0,0=tpFeluccaBlightedGroveCaveEntrance
+6587,867,0,0=6488,853,0,0=tpFeluccaBlightedGroveCaveExit
+
+6471,187,20,0=3784,1100,-11,0=tpFeluccaPrismOflightExit1
+6472,187,20,0=3785,1100,-11,0=tpFeluccaPrismOflightExit2
+3784,1100,-11,0=6471,187,20,0=tpFeluccaPrismOflightEntrance1
+3785,1100,-11,0=6472,187,20,0=tpFeluccaPrismOflightEntrance2
+6469,97,-50,0=6471,75,-23,0=tpFeluccaPrismOflightSecret1
+6471,75,-23,0=6469,97,-50,0=tpFeluccaPrismOflightSecret1Exit
+6477,94,-50,0=6568,77,-10,0=tpFeluccaPrismOflightSecret2
+6568,77,-10,0=6477,94,-50,0=tpFeluccaPrismOflightSecret2Exit
+6486,122,-35,0=6501,101,-4,0=tpFeluccaPrismOflightSecret3
+6501,101,-4,0=6486,122,-35,0=tpFeluccaPrismOflightSecret3Exit
+6476,150,1,0=6576,72,0,0=tpFeluccaPrismOflightSecret4
+6576,72,0,0=6476,150,1,0=tpFeluccaPrismOflightSecret4Exit
+6582,109,0,0=6554,104,0,0=tpFeluccaPrismOfLightSecret5
+6554,104,0,0=6582,109,0,0=tpFeluccaPrismOfLightSecret5Exit
+6474,75,-33,0=6513,182,1,0=tpFeluccaPrismOfLightFirstChamber
+6513,182,1,0=6474,75,-33,0=tpFeluccaPrismOfLightFirstChamberExit
+6507,146,1,0=6501,138,-19,0=tpFeluccaPrismOfLightHallway
+6501,138,-19,0=6507,146,1,0=tpFeluccaPrismOfLightHallwayExit
+6541,116,-15,0=6540,138,-15,0=tpFeluccaPrismOfLightInnerChamberEntrance1
+6541,117,-15,0=6540,139,-15,0=tpFeluccaPrismOfLightInnerChamberEntrance1
+6540,138,-15,0=6541,116,-15,0=tpFeluccaPrismOfLightInnerChamberExit1
+6540,139,-15,0=6541,117,-15,0=tpFeluccaPrismOfLightInnerChamberExit1
+6503,114,-19,0=6589,178,26,0=tpFeluccaPrismOfLightBeachCamp
+6589,178,26,0=6503,114,-19,0=tpFeluccaPrismOfLightBeachCampExit
+6579,160,9,0=6577,176,29,0=tpFeluccaPrismOflightCrystalChamber
+6577,176,29,0=6579,160,9,0=tpFeluccaPrismOflightCrystalChamberExit
+
+5577,3017,25,0=6303,327,81,0=tpFeluccaParoxysmusEntrance1
+5578,3017,25,0=6303,327,81,0=tpFeluccaParoxysmusEntrance2
+5579,3017,25,0=6303,327,81,0=tpFeluccaParoxysmusEntrance3
+5577,3018,25,0=6303,327,81,0=tpFeluccaParoxysmusEntrance4
+5578,3018,25,0=6303,327,81,0=tpFeluccaParoxysmusEntrance5
+5579,3018,25,0=6303,327,81,0=tpFeluccaParoxysmusEntrance6
+5577,3019,25,0=6303,327,81,0=tpFeluccaParoxysmusEntrance7
+5578,3019,25,0=6303,327,81,0=tpFeluccaParoxysmusEntrance8
+5579,3019,25,0=6303,327,81,0=tpFeluccaParoxysmusEntrance9
+6303,327,82,0=5578,3017,25,0=tpFeluccaParoxysmusExit1
+6304,327,79,0=5578,3017,25,0=tpFeluccaParoxysmusExit2
+
+766,1647,0,0=6172,23,0,0=tpFeluccaSanctuaryEntrance1
+766,1646,0,0=6172,23,0,0=tpFeluccaSanctuaryEntrance2
+6172,23,0,0=766,1646,0,0=tpFeluccaSanctuaryExit1
+6172,22,0,0=766,1646,0,0=tpFeluccaSanctuaryExit2
+6159,130,-1,0=6164,73,0,0=tpFeluccaSanctuarySecret11
+6164,73,0,0=6159,130,-1,0=tpFeluccaSanctuarySecret12
+6211,106,0,0=6251,69,-10,0=tpFeluccaSanctuarySecret21
+6251,69,-10,0=6211,106,0,0=tpFeluccaSanctuarySecret22
+6223,25,0,0=6276,40,-10,0=tpFeluccaSanctuarySecret31
+6276,40,-10,0=6223,25,0,0=tpFeluccaSanctuarySecret32
+6173,176,-10,0=6233,14,-10,0=tpFeluccaSanctuarySouth1
+6174,176,-10,0=6234,14,-10,0=tpFeluccaSanctuarySouth2
+6175,176,-10,0=6235,14,-10,0=tpFeluccaSanctuarySouth3
+6176,176,-10,0=6236,14,-10,0=tpFeluccaSanctuarySouth4
+6177,176,-10,0=6237,14,-10,0=tpFeluccaSanctuarySouth5
+6178,176,-10,0=6238,14,-10,0=tpFeluccaSanctuarySouth6
+6179,176,-10,0=6239,14,-10,0=tpFeluccaSanctuarySouth7
+6233,14,-10,0=6173,176,-10,0=tpFeluccaSanctuaryNorth1
+6234,14,-10,0=6174,176,-10,0=tpFeluccaSanctuaryNorth2
+6235,14,-10,0=6175,176,-10,0=tpFeluccaSanctuaryNorth3
+6236,14,-10,0=6176,176,-10,0=tpFeluccaSanctuaryNorth4
+6237,14,-10,0=6177,176,-10,0=tpFeluccaSanctuaryNorth5
+6238,14,-10,0=6178,176,-10,0=tpFeluccaSanctuaryNorth6
+6239,14,-10,0=6179,176,-10,0=tpFeluccaSanctuaryNorth7
+
+535,992,0,0=7046,332,10,0=tpFeluccaElvenCityEntrance
+7046,332,10,0=535,992,0,0=tpFeluccaElvenCityExit
+
+[EOF]

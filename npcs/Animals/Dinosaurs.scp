@@ -1,0 +1,640 @@
+// Dimetrosaur
+// Northern Valley of Eodon
+[CharDef 0505]
+DefName=cDimetrosaur
+Name=dimetrosaur
+Can=CanWalk
+MoveRate=100
+Dam=18,21
+Icon=iDimetrosaurIcon
+Sound=0
+Resources=11 iSpinedHides,1 iCutOfRawRibs
+FoodType=tFruit,tVegetable
+MaxFood=35
+Aversions=rCivilization
+Desires=rJungle,tFruit,tVegetable
+BloodColor=0
+
+Category=Animals
+SubsectiOn=Dinosaurs
+DescriptiOn=Dimetrosaur
+
+On=@Create
+NPC=BrainAnimal
+SlayerSuper=EodonSlayer
+SlayerLesser=DinosaurSlayer
+
+Fame=17000
+Karma=-17000
+Alignment=Evil
+
+Ability1=s_Dismount
+Ability2=s_Mortal_Strike
+
+DamPhysical=90
+DamFire=0
+DamCold=0
+DamPoison=10
+DamEnergy=0
+
+ResPhysical=80,90
+ResFire=60,70
+ResCold=60,70
+ResPoison=65,75
+ResEnergy=65,75
+
+OStr={525 625}
+ODex={160 200}
+OInt={360 435}
+MaxHits={7200 7800}
+
+Wrestling={1100 1300}
+Tactics={1000 1200}
+MagicResistance={1250 1400}
+Anatomy={750 1000}
+Parrying={1000 1200}
+
+On=@NPCRestock
+NewGold={1200 1400}
+
+// Dimetrosaur
+// Champion Spawn
+[CharDef cDimetrosaur1]
+ID=cDimetrosaur
+Name=dimetrosaur
+Can=CanWalk
+MoveRate=100
+Dam=18,21
+Icon=iDimetrosaurIcon
+Sound=0
+Resources=11 iSpinedHides,1 iCutOfRawRibs
+FoodType=tFruit,tVegetable
+MaxFood=35
+Aversions=rCivilization
+Desires=tFruit,tVegetable,rJungle
+BloodColor=0
+
+Category=Animals
+SubsectiOn=Dinosaurs
+DescriptiOn=Dimetrosaur (Champion Spawn)
+
+On=@Create
+NPC=BrainAnimal
+SlayerSuper=SlayerEodon
+SlayerLesser=SlayerDinosaur
+
+Fame=8000
+Karma=-8000
+Alignment=Evil
+
+Ability1=s_Dismount
+Ability2=s_Mortal_Strike
+
+DamPhysical=90
+DamFire=0
+DamCold=0
+DamPoison=10
+DamEnergy=0
+
+ResPhysical=80,90
+ResFire=60,70
+ResCold=60,70
+ResPoison=65,75
+ResEnergy=65,75
+
+OStr={270 300}
+ODex={160 200}
+OInt={360 435}
+MaxHits={360 380}
+
+Wrestling={900 1100}
+Tactics={1000 1200}
+MagicResistance={1250 1400}
+Anatomy={750 1000}
+Parrying={1000 1200}
+
+On=@NPCRestock
+NewGold={600 700}
+
+// Dragon Turtle Hatchling
+// Dragon Turtle Egg
+[CharDef 050E]
+DefName=cDragonTurtleHatchling
+Name=dragon turtle hatchling
+Can=CanWalk
+MoveRate=100
+Dam=24,33
+Icon=iDragonTurtleHatchlingIcon
+Sound=sndDragon1
+Resources=0
+FoodType=tFish
+Aversions=rCivilization
+Desires=tFish,rJungle
+BloodColor=0
+
+Category=Animals
+SubsectiOn=Dinosaurs: Herbivores
+DescriptiOn=Dragon Turtle Hatchling (Needs updating)
+
+On=@Create
+NPC=BrainDragon
+SlayerSuper=EodonSlayer
+SlayerLesser=DinosaurSlayer
+BreathAnim=iFXExplode
+BreathType=3
+FollowerSlots=5
+
+Fame=22000
+Karma=-22000
+Alignment=Neutral
+
+Ability1=s_dismount
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=60,85
+ResFire=65,90
+ResCold=40,55
+ResPoison=40,60
+ResEnergy=50,75
+
+OStr={1025 1425}
+ODex={81 148}
+OInt={475 675}    // 700?
+MaxHits={1000 2000}
+
+Wrestling={1150 1450}
+Tactics={1100 1400}
+MagicResistance={1100 1400}
+Magery={1100 1400}
+EvaulatIngintel={900 1000}
+Parrying={1100 1400}
+Taming=1047
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+// Allosaurus
+// Valley of Eodon
+[CharDef 050D]
+DefName=cAllosaurus
+Name=allosaurus
+Can=CanWalk
+MoveRate=100
+Dam=21,23
+Icon=iAllosaurusIcon
+Sound=sndDragon1
+Resources=0
+FoodType=tMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=tMeat,rJungle
+BloodColor=0
+
+Category=Animals
+SubsectiOn=Dinosaurs
+DescriptiOn=Allosaurus
+
+On=@Create
+NPC=BrainAnimal
+SlayerSuper=EodonSlayer
+SlayerLesser=DinosaurSlayer
+
+Fame=21000
+Karma=-21000
+Alignment=Evil
+
+Ability1=s_Disarm
+Ability2=s_ArmorPierce
+
+DamPhysical=50
+DamFire=0
+DamCold=0
+DamPoison=50
+DamEnergy=0
+
+ResPhysical=65,75
+ResFire=55,65
+ResCold=60,70
+ResPoison=90,100
+ResEnergy=60,70
+
+OStr={650 850}
+ODex=200
+OInt={125 150}
+MaxHits=18000
+MaxMana={40 75}
+
+Wrestling={1200 1500}
+Tactics={1200 1500}
+MagicResistance={1000 1200}
+Parrying={1200 1500}
+
+On=@NPCRestock
+NewGold={1500 1800}
+
+// Allosaurus
+// Dragon Turtle Champion Spawn
+[CharDef cAllosaurus1]
+ID=cAllosaurus
+Name=allosaurus
+Can=CanWalk
+MoveRate=100
+Dam=21,23
+Icon=iAllosaurusIcon
+Sound=sndDragon1
+Resources=0
+FoodType=tMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=tMeat,rJungle
+BloodColor=0
+
+Category=Animals
+SubsectiOn=Dinosaurs
+DescriptiOn=Allosaurus (Champion Spawn)
+
+On=@Create
+NPC=BrainAnimal
+SlayerSuper=EodonSlayer
+SlayerLesser=DinosaurSlayer
+
+Fame=10000
+Karma=-10000
+Alignment=Evil
+
+Ability1=s_Disarm
+Ability2=s_ArmorPierce
+
+DamPhysical=50
+DamFire=0
+DamCold=0
+DamPoison=50
+DamEnergy=0
+
+ResPhysical=65,75
+ResFire=55,65
+ResCold=60,70
+ResPoison=90,100
+ResEnergy=60,70
+
+OStr={325 425}
+ODex=200
+OInt={125 150}
+MaxHits={900 1000}
+MaxMana={40 75}
+
+Wrestling={900 1100}
+Tactics={1200 1500}
+MagicResistance={1000 1200}
+Parrying={1200 1500}
+
+On=@NPCRestock
+NewGold={800 1000}
+
+// Gallusaurus
+// Northern Valley of Eodon
+[CharDef 0506]
+DefName=cGallusaurus
+Name=gallusaurus
+Can=CanWalk
+MoveRate=100
+Dam=11,17
+Icon=iGallusaurusIcon
+Sound=sndDragon1
+Resources=3 iCutOfRawRibs
+FoodType=tMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=tMeat,rJungle
+BloodColor=0
+
+Category=Animals
+SubsectiOn=Dinosaurs
+DescriptiOn=Gallusaurus
+
+On=@Create
+NPC=BrainAnimal
+SlayerSuper=EodonSlayer
+SlayerLesser=DinosaurSlayer
+
+Fame=8100
+Karma=-8100
+
+Ability1=s_Grasping_Claw
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=0,10
+ResFire=0,10
+ResCold=0,10
+ResPoison=0,10
+ResEnergy=0,10
+
+OStr={475 525}
+ODex={150 180}
+OInt={220 280}
+MaxHits={2200 3000}
+
+Wrestling={800 1000}
+Tactics={800 1000}
+MagicResistance={750 900}
+Parrying={800 1000}
+
+On=@NPCRestock
+NewGold={600 800}
+
+// Archaeosaurus
+// Northern Valley of Eodon
+[CharDef 0507]
+DefName=cArchaeosaurus
+Name=arcahaeosaurus
+Can=CanWalk
+MoveRate=100
+Dam=14,16
+Icon=iArchaeosarusIcon
+Sound=sndDragon1
+Resources=7 iPlainHides,1 iCutOfRawRibs
+FoodType=tMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=tMeat,rJungle
+BloodColor=0
+
+Category=Animals
+SubsectiOn=Dinosaurs
+DescriptiOn=Arcahaeosaurus
+
+On=@Create
+NPC=BrainAnimal
+SlayerSuper=EodonSlayer
+SlayerLesser=DinosaurSlayer
+
+Fame=8100
+Karma=-8100
+Alignment=Evil
+
+Ability1=s_talon_strike
+Ability2=s_bleed_attack
+
+DamPhysical=0
+DamFire=50
+DamCold=0
+DamPoison=50
+DamEnergy=0
+
+ResPhysical=0,10
+ResFire=0,10
+ResCold=0,10
+ResPoison=0,10
+ResEnergy=0,10
+
+OStr={400 425}
+ODex={300 320}
+OInt={200 225}
+MaxHits={1800 2500}
+
+Wrestling={900 1100}
+Tactics={900 1100}
+MagicResistance={1000 1200}
+Parrying={900 1100}
+
+On=@NPCRestock
+NewGold={600 800}
+
+// Najasaurus
+// Northern Valley of Eodon
+[CharDef 0509]
+DefName=cNajasaurus
+Name=najasaurus
+Can=CanWalk
+MoveRate=100
+Dam=13,24
+Icon=iNajasaurusIcon
+Sound=sndGiantSerpent1
+Resources=0
+FoodType=tMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=tMeat,rJungle
+BloodColor=0
+
+Category=Animals
+SubsectiOn=Dinosaurs
+DescriptiOn=Najasaurus
+
+On=@Create
+NPC=BrainAnimal
+SlayerSuper=EodonSlayer
+SlayerLesser=DinosaurSlayer
+
+Fame=10000
+Karma=-10000
+Alignment=Evil
+
+DamPhysical=50
+DamFire=0
+DamCold=0
+DamPoison=50
+DamEnergy=0
+
+ResPhysical=45,55
+ResFire=50,60
+ResCold=45,55
+ResPoison=100
+ResEnergy=35,45
+
+OStr={165 300}
+ODex={165 300}
+OInt={20 40}
+MaxHits={720 860}
+
+Wrestling={800 1000}
+Tactics={800 1000}
+MagicResistance={1500 2000}
+Poisoning={900 1000}
+Parrying={800 1000}
+
+On=@NPCRestock
+NewGold={600 800}
+
+// Saurosaurus
+// Northern Valley of Eodon
+[CharDef 050B]
+DefName=cSaurosaurus
+Name=saurosaurus
+Can=CanWalk
+MoveRate=100
+Dam=21,28
+Icon=iSaurosaurusIcon
+Sound=sndDragon1
+Resources=11 iPlainHides,5 iCutOfRawRibs,8 iYellowDragonsBlood
+FoodType=tMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=tMeat,rJungle
+BloodColor=0
+
+Category=Animals
+SubsectiOn=Dinosaurs
+DescriptiOn=Saurosaurus
+
+On=@Create
+NPC=BrainAnimal
+SlayerSuper=EodonSlayer
+SlayerLesser=DinosaurSlayer
+
+Fame=11000
+Karma=-11000
+Alignment=Evil
+
+Ability1=s_Mind_Blast
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=75,85
+ResFire=80,90
+ResCold=45,55
+ResPoison=35,45
+ResEnergy=45,55
+
+OStr={800 830}
+ODex={200 220}
+OInt={400 440}
+MaxHits={1300 1500}
+
+Wrestling={1100 1300}
+Tactics={1100 1300}
+MagicResistance={750 1000}
+Anatomy={500 600}
+Parrying={1100 1300}
+
+On=@NPCRestock
+NewGold={600 800}
+
+// Anchisaur
+// Northern Valley of Eodon
+[CharDef 050C]
+DefName=cAnchisaur
+Name=anchisaur
+Can=CanWalk
+MoveRate=100
+Dam=16,19
+Icon=iAnchisaurIcon
+Sound=sndDragon1
+Resources=11 iPlainHides,6 iCutOfRawRibs, 6 iYellowDragonsBlood
+FoodType=tMeat
+Aversions=rCivilization
+Desires=tMeat,rJungle
+BloodColor=0
+
+Category=Monsters
+SubsectiOn=Dinosaurs
+DescriptiOn=Anchisaurus
+
+On=@Create
+NPC=BrainAnimal
+SlayerSuper=EodonSlayer
+SlayerLesser=DinosaurSlayer
+
+Fame=8000
+Karma=-8000
+Alignment=Evil
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=0,10
+ResFire=0,10
+ResCold=0,10
+ResPoison=0,10
+ResEnergy=0,10
+
+OStr={440 520}
+ODex={160 185}
+OInt={350 450}
+MaxHits={2600 3800}
+
+Wrestling={950 1250}
+Tactics={950 1250}
+MagicResistance={950 1250}
+Anatomy={950 1250}
+Parrying={950 1250}
+
+On=@NPCRestock
+NewGold={600 700}
+
+// Tyrannosaurus Rex
+[CharDef 051E]
+DefName=cTyrannosaurusRex
+Name=Tyrannosaurus Rex
+Can=CanWalk|CanNonHum
+MoveRate=100
+Dam=21,23
+Icon=iAllosaurusIcon
+Sound=sndDragon1
+Resources=4 iCutOfRawRibs,20 iHornedHides
+FoodType=tMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=tMeat,rJungle
+BloodColor=0
+
+Category=Monsters
+SubsectiOn=Dinosaurs
+DescriptiOn=Tyrannosaurus Rex
+
+On=@Create
+NPC=BrainAnimal
+SlayerSuper=EodonSlayer
+SlayerLesser=DinosaurSlayer
+
+Fame=24000
+Karma=-24000
+Alignment=Evil
+
+Ability1=s_ArmorPierce
+Ability2=s_Crushing_Blow
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=65,75
+ResFire=55,65
+ResCold=60,70
+ResPoison=90,100
+ResEnergy=60,70
+
+OStr={900 1000}
+ODex={200 300}
+OInt={150 200}
+MaxHits={20000 25000}
+MaxMana={50 100}
+
+Wresting={1400 1600}
+Tactics={1400 1600}
+MagicResistance={1200 1400}
+Parrying={1200 1400}
+
+On=@NPCRestock
+NewGold={1600 2000}
+
+[EOF]
