@@ -642,7 +642,7 @@ DUPEITEM=03db2
 DEFNAME=iCanal
 NAME=canal
 TYPE=tNormal
-RESOURCES=100 iRockMarble
+
 CATEGORY=Buildings - Other
 SUBSECTION=Canal
 DESCRIPTION=Wall

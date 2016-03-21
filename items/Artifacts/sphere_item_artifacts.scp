@@ -1,5 +1,5 @@
-//****************************************************************************
-// SPHERE by : Menasoft ©1997-2007
+﻿//****************************************************************************
+// SPHERE by : Menasoft Â©1997-2007
 // www.sphereserver.net
 // All SPHERE script files and formats are copyright Menasoft & Partners.
 // This file may be freely edited for personal use, but may not be distributed
@@ -697,7 +697,7 @@ HITPOINTS={90 120}
 
 [ITEMDEF iAegis]
 ID=iShieldHeater
-//NAME=Ægis
+//NAME=Ã†gis
 NAME=Aegis
 VALUE=5000
 RESOURCES=iRelicFragment
