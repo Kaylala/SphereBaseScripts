@@ -11,8 +11,18 @@
 //
 VERSION=0.56c
 
+[Comment Notes]
+eHumanEnvironmentChange
+eHumanHearGreeting
+eHumanHearUnknown
+eHumanInitializeConversation
+eHumanAcceptItem
+eHumanPersonalSpace
+eHumanRefuseItem
+eHumanSeeWantItem
 
-[EVENTS e_Human_Environ]
+
+[EVENTS eHumanEnvironmentChange]
 ON=@EnvironChange
 	if <flags>&statf_war 
 		return 0
@@ -38,7 +48,7 @@ ON=@EnvironChange
 	endif
 	return 0
 
-[EVENTS e_Human_Greet]
+[EVENTS eHumanHearGreeting]
 ON=@NPCHearGreeting
 	// They just spoke to me for the first time.
 	IF ( <SRC.FAME.INFAMOUS> || <SRC.FAME.OUTLAW> )
@@ -219,7 +229,7 @@ ON=@NPCHearGreeting
 		endif
 	endif
 
-[EVENTS e_Human_HearUnk]
+[EVENTS eHumanHearUnknown]
 
 ON=@NPCHearUnknown
 	// Sorry I don't understand.
@@ -737,7 +747,7 @@ ON=@NPCHearUnknown
 	endif
 	//SAY=Uhhh, sorry I have not a clue what you mean.
 
-[EVENTS e_Human_ConvInit]
+[EVENTS eHumanInitializeConversation]
 
 ON=@NPCSeeNewPlayer
 	// When a new person comes into range do something (attack them?)
@@ -842,7 +852,7 @@ ON=@NPCSeeNewPlayer
 	endif
 	RETURN 0	// don't come here again.
 
-[EVENTS e_Human_Space]
+[EVENTS eHumanPersonalSpace]
 
 ON=@PersonalSpace
 	// Someone is standing on me.
@@ -1007,7 +1017,7 @@ ON=@PersonalSpace
 		endif
 	endif
 
-[EVENTS e_Human_Needs]
+[EVENTS eHumanAcceptItem]
 // Notes:  This is called whenever an item is given to an NPC
 
 ON=@NPCAcceptItem
@@ -1144,7 +1154,7 @@ ON=@NPCAcceptItem
 		endif
 	endif
 
-[EVENTS e_Human_Scavenge]
+[EVENTS eHumanSeeWantItem]
 
 ON=@npcSeeWantItem
 	IF ((<KARMA.WICKED>) || (<KARMA.BELLIGERANT>))
@@ -1233,7 +1243,7 @@ ON=@npcSeeWantItem
 	endif
 	return 1
 
-[EVENTS e_Human_Refuse]
+[EVENTS eHumanRefuseItem]
 ON=@NPCRefuseItem
 	// I got something I don't want.
 	SAY Thou art giving me <argo.name>?

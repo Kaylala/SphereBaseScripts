@@ -12,91 +12,12 @@
 VERSION=0.56c
 
 
-///////////////////////////
-// Some Useful Functions //
-///////////////////////////
-
-[FUNCTION f_isHuman]
-IF ( (<OBODY>==c_man) || (<OBODY>==c_woman) )
-   RETURN 1
-ENDIF
-RETURN 0
-
-[FUNCTION f_isElf]
-IF ( (<OBODY>==c_elf_male) || (<OBODY>==c_elf_female) )
-   RETURN 1
-ENDIF
-RETURN 0
-
-[FUNCTION f_isGarg]
-IF ( (<OBODY>==c_gargoyle_male) || (<OBODY>==c_gargoyle_female) )
-   RETURN 1
-ENDIF
-RETURN 0
-
-[FUNCTION f_isFemale]
-if (<serv.chardef.<obody>.can>&mt_female)	//Checking on chardef directly here because if you change your body your Can flags won't be updated since they are now stored in the char itself when it creates.
-	return 1
-endif
-return 0
-
-[FUNCTION f_isCursed]
-FORCHARLAYER 32
-   IF (<BASEID>==i_rune_curse)
-      RETURN 1
-   ENDIF
-ENDFOR
-RETURN 0
-
-
-[FUNCTION MODMAXHITS]
-LOCAL.Result=<EVAL <ARGS>>
-IF (<ISEMPTY <ARGS>>)
-   RETURN <EVAL <TAG0.MODMAXHITS>>
-ELSE
-   TAG.MODMAXHITS=<EVAL <TAG0.MODMAXHITS>+<LOCAL.Result>>
-   IF !(<TAG0.MODMAXHITS>)
-      TAG.MODMAXHITS=
-      MAXHITS=
-   ELSE
-      MAXHITS=<EVAL <MAXHITS>+<LOCAL.Result>>
-   ENDIF
-ENDIF
-
-[FUNCTION MODMAXSTAM]
-LOCAL.Result=<EVAL <ARGS>>
-IF (<ISEMPTY <ARGS>>)
-   RETURN <EVAL <TAG0.MODMAXSTAM>>
-ELSE
-   TAG.MODMAXSTAM=<EVAL <TAG0.MODMAXSTAM>+<LOCAL.Result>>
-   IF !(<TAG0.MODMAXSTAM>)
-      TAG.MODMAXSTAM=
-      MAXSTAM=
-   ELSE
-      MAXSTAM=<EVAL <MAXSTAM>+<LOCAL.Result>>
-   ENDIF
-ENDIF
-
-[FUNCTION MODMAXMANA]
-LOCAL.Result=<EVAL <ARGS>>
-IF (<ISEMPTY <ARGS>>)
-   RETURN <EVAL <TAG0.MODMAXMANA>>
-ELSE
-   TAG.MODMAXMANA=<EVAL <TAG0.MODMAXMANA>+<LOCAL.Result>>
-   IF !(<TAG0.MODMAXMANA>)
-      TAG.MODMAXMANA=
-      MAXMANA=
-   ELSE
-      MAXMANA=<EVAL <MAXMANA>+<LOCAL.Result>>
-   ENDIF
-ENDIF
-
 
 ////////////
 // Events //
 ////////////
 
-[EVENTS e_Undead]
+[EVENTS eUndead]
 ON=@EnvironChange
    Return 0
    // Enter "//" before Return 0, if you want to make script working
@@ -139,7 +60,7 @@ ON=@EnvironChange
 
 [EVENTS e_polymorphed_lich]
 ON=@SPELLEFFECT
-// Dispell spells will return a polymorphed lich into lich.
+// Dispel spells will return a polymorphed lich into lich.
 IF ((<SERV.SPELL.<ARGN1>.DEFNAME> == s_dispel) || (<SERV.SPELL.<ARGN1>.DEFNAME> == s_mass_dispel))
    TRYSRC <I.UID> SRC.EFFECT 2,i_fx_smoke_small,16,10,0
    I.BODY = c_lich
@@ -215,7 +136,7 @@ ON=@Hit
 //      SRC.SOUND snd_spell_poison
    ENDIF
 
-[EVENTS e_poisoned_spit]
+[EVENTS eSpitPoison]
 //Poisoned Spit Defense
 ON=@GetHit
    REF1=<SRC> // Source of damage
@@ -229,7 +150,7 @@ ON=@GetHit
       REF1.SYSMESSAGELOC color_text,1070821,<NAME>//"~ spits a poisonous substance at you!"
    ENDIF
 
-[EVENTS e_solen_spit]
+[EVENTS eAcidSpit]
 //Acidic Spit Defense
 ON=@GetHit
    REF1=<SRC>
@@ -247,7 +168,7 @@ ON=@GetHit
       NEW.LINK=<UID>
    ENDIF
 
-[ITEMDEF i_pool_acid]
+[ITEMDEF iAcidPool]
 ID=021c
 NAME=acid pool
 TYPE=t_normal
@@ -353,11 +274,11 @@ ON=@Timer
    CONT.REMOVE
    RETURN 1
 
-[EVENTS e_trainer]
+[EVENTS eTrainer]
 ON=@ContextMenuRequest
    IF (<NPC> < 2) || (<NPC> == 4) || (<NPC> > 9)
       // Not all brain types can train
-      SERV.LOG ERROR: <NAME> (<UID>) has the e_trainer event, but their brain type is not supported
+      SERV.LOG ERROR: <NAME> (<UID>) has the eTrainer event, but their brain type is not supported
    ELSE
       FOR x 0 57
          LOCAL.PlayerSkill=<SRC.<SERV.SKILL.<dLOCAL.x>.KEY>>

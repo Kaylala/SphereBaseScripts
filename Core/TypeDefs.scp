@@ -1,14 +1,27 @@
 [TypeDef tSmokeBomb]
-// Needs to be coded.
+// Needs updating and possible Skill rescript.
+On=@DClick
+If (<Src.Flags> &StatFHidden) || (<Src.Flags> &StatFInvisible)
+ Src.SMsg You are already hidden.
+ Return 1
+EndIf
+Src.Action=-1
+Src.Action=Skill_Hiding
+Src.ActDiff=1
+Consume 1 <I>
 
-//
+// Tool TypeDefs
+
+// Alchemy Tool
+// iMortarAndPestle
 [TypeDef tAlchemyTool]
 On=@DClick
 SkillMenu smAlchemy
 
-// Tool TypeDefs
 // Masonry Tool
+// iMalletAndChisel
 [TypeDef tMasonryTool]
+On=@DClick
 SkillMenu smMasonry
 
 // Fletching Tool

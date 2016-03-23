@@ -49,9 +49,9 @@ f_onserver_blockip
 // local.password --> password given.
 // RETURN
 //	  0 --> Let Sphere do its password checks.
-//	  1 --> Deny access asuming the given password is wrong.
-//	  6 --> Force login, without other password checks than the made in this function.
-return 0
+//	  1 --> Deny access assuming the given password is wrong.
+//	  6 --> Force login, without other password checks than those made in this function.
+Return 0
 
 
 [FUNCTION f_onaccount_create]
@@ -97,7 +97,77 @@ return 0
 // ARGO  --> the client creating the character
 // RETURN
 //	  0 --> normal action (create character)
-//	  1 --> denyes creation
+//	  1 --> denies creation
+
+If (<ArgN2> == 1)	// Warrior
+ Src.OStr=45
+ Src.ODex=35
+ Src.OInt=10
+ Src.Swordsmanship=300
+ Src.Tactics=300
+ Src.Anatomy=300
+ Src.Healing=300
+EndIf
+
+If (<ArgN2> == 2)	// Mage
+ Src.OStr=25
+ Src.ODex=20
+ Src.OInt=45
+ Src.Magery=300
+ Src.EvaluatingIntel=300
+ Src.Meditation=300
+ Src.Wrestling=300
+EndIf
+
+If (<ArgN2> == 3)	// Blacksmith
+ Src.OStr=60
+ Src.ODex=15
+ Src.OInt=15
+ Src.Blacksmithing=300
+ Src.Mining=300
+ Src.Tinkering=300
+ Src.Tailoring=300
+EndIf
+
+If (<ArgN2> == 4)	// Necromancer
+ Src.OStr=25
+ Src.ODex=20
+ Src.OInt=45
+ Src.Necromancy=300
+ Src.SpiritSpeak=300
+ Src.Swordsmanship=300
+ Src.Meditation=300
+EndIf
+
+If (<ArgN2> == 5)	// Paladin
+ Src.OStr=45
+ Src.ODex=20
+ Src.OInt=25
+ Src.Chivalry=300
+ Src.Swordsmanship=300
+ Src.Tactics=300
+ Src.Focus=300
+EndIf
+
+If (<ArgN2> == 6)	// Samurai
+ Src.OStr=40
+ Src.ODex=30
+ Src.OInt=20
+ Src.Bushido=300
+ Src.Swordsmanship=300
+ Src.Focus=300
+ Src.Parrying=300
+EndIf
+
+If (<ArgN2> == 7)	// Ninja
+ Src.OStr=40
+ Src.ODex=30
+ Src.OInt=20
+ Src.Ninjitsu=300
+ Src.Hiding=300
+ Src.Fencing=300
+ Src.Stealth=300
+EndIf
 
 //IF (<ARGN3>==2)	//Uncomment this code to disable the racial bonus of MaxMana +20 for Elfs
 // MaxMana
