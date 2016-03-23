@@ -723,34 +723,32 @@ statf_onhorse	     080000000   // Mounted on horseback.
 [DefName Attr_flags]
 // apply to items
 AttrIdentified			00001   // this is the identified name. ???
-AttrDecay			00002   // timer currently set to decay.
-AttrNewbie			00004   // not lost on death or sellable ?
+AttrDecay				00002   // timer currently set to decay.
+AttrNewbie				00004   // not lost on death or sellable ?
 AttrAlwaysMove			00008   // always movable (else default as stored in client) (even if mul says not movable) never decays !
-AttrNeverMove			00010   // never movable (else default as stored in client) never decays !
-AttrMagic			00020   // don't set this while worn! this item is magic as apposed to marked or markable.
-AttrOwned			00040   // this is owned by the town. you need to steal it. never decays !
-AttrInvisible			00080   // gray hidden item (to gm's or owners?)
-AttrInvis			AttrInvisible
-AttrCursed			00100
-AttrDamned			00200   // cursed damned unholy
-AttrBlessed			00400
-AttrSacred			00800   // blessed sacred holy
-AttrForSale			01000   // for sale on a vendor.
-AttrStolen			02000   // the item is hot. m_uidlink = previous owner.
-AttrCanDecay			04000   // this item can decay. but it would seem that it would not (AttrNeverMove etc)
-AttrStatic			08000   // worldforge merge marker. (not used)
+AttrNeverMove			00010   	// never movable (else default as stored in client) never decays !
+AttrMagic				00020   	// don't set this while worn! this item is magic as apposed to marked or markable.
+AttrOwned				00040   	// this is owned by the town. you need to steal it. never decays !
+AttrInvisible			00080   	// gray hidden item (to gm's or owners?)
+AttrCursed				00100
+AttrDamned				00200   	// cursed damned unholy
+AttrBlessed				00400
+AttrSacred				00800   	// blessed sacred holy
+AttrForSale				01000   	// for sale on a vendor.
+AttrStolen				02000   	// the item is hot. m_uidlink = previous owner.
+AttrCanDecay			04000   	// Item can decay. but it would seem that it wont (AttrNeverMove etc)
+AttrStatic				08000   	// worldforge merge marker. (not used)
 AttrExceptional			010000		// is exceptional
 AttrEnhanced			020000		// is enchanted
-AttrEnchanted			AttrEnhanced
-AttrImbued			040000		// is imbued
-AttrQuestItem			080000	// is quest item
-AttrInsured			0100000	// Is insured
-AttrNoDropTrade			0200000	// no-drop/trade
-AttrArtifact			0400000	// artifact
-AttrLockedDown			0800000	// locked down
-AttrSecure			01000000	// secured
+AttrImbued				040000		// is imbued
+AttrQuestItem			080000		// is quest item
+AttrInsured				0100000		// Is insured
+AttrNoDropTrade			0200000		// no-drop/trade
+AttrArtifact			0400000		// artifact
+AttrLockedDown			0800000		// locked down
+AttrSecure				01000000	// secured
 AttrReforged			02000000	// Is Runic Reforged.
-AttrOpened			04000000	// Is Door Opened (only used when DOOROPENID is set on the door)
+AttrOpened				04000000	// Is Door Opened (only used when DOOROPENID is set on the door)
 
 [DefName can_flags]
 // monster "can" type flags.
@@ -1214,40 +1212,33 @@ tFurniture			502   // Furniture (Note: Is this House Addon?)
 tSoulForge			503   // Soul Forge
 
 [DefName Layers]
-LayerHand1			1
-LayerRightHand			LayerHand1
-LayerHand2			2 // Shields, Candles, Lantern
-LayerLeftHand			LayerHand2
+LayerHand1				1 // Weapons (Right Hand)
+LayerHand2				2 // Shields, Candles, Lantern (Left Hand)
 LayerFootwear			3 // Previously Layer_Shoes
-LayerPants			4 // bone legs + pants. (Warning: EA uses Layer legs for pants now and bone leggings)
-LayerShirt			5 // Shirt, Fancy Shirt, etc
-LayerHead			6 // Previously Layer_Helm
-LayerHands			7 // Previously Layer_Gloves
-LayerGloves			LayerHands
-LayerRing			8
+LayerPants				4 // bone legs + pants. (Warning: EA uses Layer legs for pants now and bone leggings)
+LayerShirt				5 // Shirt, Fancy Shirt, etc
+LayerHead				6 // Previously Layer_Helm
+LayerHands				7 // Previously Layer_Gloves
+LayerRing				8
 LayerTalisman			9 // talisman (se and ml)
-LayerNeck			10 // gorget or necklace. (Previously Layer_Collar)
-LayerHair			11 // Hair/Horns
-LayerHorns			LayerHair
-LayerBelt			12 // (Previously Layer_Half_Apron)
-layerChest			13 // Chest Armor
+LayerNeck				10 // gorget or necklace. (Previously Layer_Collar)
+LayerHair				11 // Hair/Horns
+LayerBelt				12 // (Previously Layer_Half_Apron)
+layerChest				13 // Chest Armor
 LayerBracelet			14 // watch (Previously Layer_Wrist)
-LayerLight			15 // a itemid_light_src equip item can be put here.
-LayerBeard			16 // try to have only men have this.
-LayerFacialHorns		LayerBeard
-LayerSash			17 // jester suit or Sash, Tunic, Doublt, full apron.
+LayerLight				15 // a itemid_light_src equip item can be put here.
+LayerFacial				16 // try to have only men have this. (Previously LayerBeard)
+LayerSash				17 // jester suit or Sash, Tunic, Doublt, full apron.
 LayerEarrings			18 // Earrings/Glasses (Previously Layer_Ear)
-LayerArms			19 // Armor for arms slot.
-LayerBack			20 // Cloak, Quiver, Wings (Previously Layer_Cape)
-LayerPack			21 // only used by itemid_backpack
-LayerBackpack			LayerPack
-LayerRobe			22 // robe over all.
-LayerSkirt			23 // skirt or kilt.
-LayerLegs			24 // Leg Armor (Or is it 4?)
+LayerArms				19 // Armor for arms slot.
+LayerBack				20 // Cloak, Quiver, Wings (Previously Layer_Cape)
+LayerPack				21 // only used by itemid_backpack
+LayerRobe				22 // robe over all.
+LayerSkirt				23 // skirt or kilt.
+LayerLegs				24 // Leg Armor (Or is it 4?)
 
 // these are not part of the paper doll (but get sent to the client)
-LayerMount			25 // ride this object. (horse objects are strange?)
-LayerHorse			LayerMount
+LayerMount				25 // ride this object. (horse objects are strange?)
 LayerVendorStock		26 // the stuff the vendor will restock and sell to the players
 LayerVendorExtra		27 // the stuff the vendor will resell to players but is not restocked. (bought from players)
 LayerVendorBuys			28 // the stuff the vendor can buy from players but does not stock.
@@ -1258,30 +1249,30 @@ LayerSpecial			30 // can be multiple of these. memories
 LayerDragging			31
 
 // spells that are effecting us go here.
-Layer_spell_stats	     32   // stats effecting spell. these cancel each other out.
-Layer_spell_reactive	  33
-Layer_spell_night_sight     34
-Layer_spell_protection	35
-Layer_spell_incognito	 36
-Layer_spell_magic_reflect   37
-Layer_spell_paralyze	  38   // or turned to stone.
-Layer_spell_invis	     39
-Layer_spell_polymorph	 40
-Layer_spell_summon	    41   // magical summoned creature.
+Layer_spell_stats				32   // stats effecting spell. these cancel each other out.
+Layer_spell_reactive			33
+Layer_spell_night_sight     	34
+Layer_spell_protection			35
+Layer_spell_incognito			36
+Layer_spell_magic_reflect   	37
+Layer_spell_paralyze			38   // or turned to stone.
+Layer_spell_invis				39
+Layer_spell_polymorph			40
+Layer_spell_summon	 			41   // magical summoned creature.
 
-layer_flag_poison	     42
-layer_flag_criminal	   43     // criminal or murderer ?
-layer_flag_potion	     44   // some magic type effect done by a potion. (they cannot be dispelled)
-layer_flag_spiritspeak	45
-layer_flag_wool		 46   // regrowing wool.
-layer_flag_drunk		47   // booze effect.
-layer_flag_clientlinger     48
-layer_flag_hallucination    49   // shrooms etc.
-layer_flag_potionused	 50   // track the time till we can use a potion again.
-layer_flag_stuck		51   // in a trap or web.
-layer_flag_murders	    52   // how many murders do we have ? and decay timer.
-layer_flag_bandage	    53   // bandages go here for healing
-layer_auction		   54   // layer for script purposes to equip container on character (like auction system)
+layer_flag_poison				42
+layer_flag_criminal				43     // criminal or murderer ?
+layer_flag_potion				44   // some magic type effect done by a potion. (they cannot be dispelled)
+layer_flag_spiritspeak			45
+layer_flag_wool					46   // regrowing wool.
+layer_flag_drunk				47   // booze effect.
+layer_flag_clientlinger			48
+layer_flag_hallucination		49   // shrooms etc.
+layer_flag_potionused			50   // track the time till we can use a potion again.
+layer_flag_stuck				51   // in a trap or web.
+layer_flag_murders				52   // how many murders do we have ? and decay timer.
+layer_flag_bandage				53   // bandages go here for healing
+layerAuction					54   // layer for script purposes to equip container on character (like auction system)
 
 //Necromancy
 LAYER_SPELL_Blood_Oath		55
@@ -1315,7 +1306,7 @@ LAYER_SPELL_Spell_Plague		76
 LAYER_SPELL_Nether_Cyclone		77
 
 LayerMovingCrate		118 // Housing: Moving Crate Layer.
-LayerBossLoot			119 // Boss Loot Layer.
+LayerBossLoot			119 // Boss Loot Layer (DClick on Corpse gives you a split loot, cycled back after 2 minutes of looting time for all to grab).
 LayerWallSafe			120 // Wall Safe Layer.
 
 [DefName def_gumps]
@@ -1326,161 +1317,163 @@ g_btn_gray_apply	   5204
 g_btn_gray_apply_press   5205
 
 [DefName Dam_Flags]
-DamGod			00001   // unblockable "god" damage
-DamPhysical		00002   // some sort of physical damage (as opposed to magical)
-DamMagic		00004   // some sort of magical damage
-DamPoison		00008   // poison-based damage
-DamFire			00010   // fire-based damage
-DamEnergy		00020   // energy-based damage
-DamGeneral		00080   // damage that hits the entire body, rather than just one part of it
-DamAcid			00100   // acidic damage (will destroy armor)
-DamCold			00200   // cold-based damage
-DamSlash		00400   // damage done by slashing (swords, etc)
-DamPierce		00800   // damage done with spear and such.
+DamGod				00001   // unblockable "god" damage
+DamPhysical			00002   // some sort of physical damage (as opposed to magical)
+DamMagic			00004   // some sort of magical damage
+DamPoison			00008   // poison-based damage
+DamFire				00010   // fire-based damage
+DamEnergy			00020   // energy-based damage
+DamGeneral			00080   // damage that hits the entire body, rather than just one part of it
+DamAcid				00100   // acidic damage (will destroy armor)
+DamCold				00200   // cold-based damage
+DamSlash			00400   // damage done by slashing (swords, etc)
+DamPierce			00800   // damage done with spear and such.
 DamNoDisturb		02000   // victim won't be disturbed
-DamNoReveal		04000   // damage that does not reveal the attacker.
-DamNoUnparalyze	08000   // victim won't be unparalyzed
-DamFixed		010000	// damage will not be recalculated with default checks, lowering it because of armor, resistances ...
-DamAcidic		DamAcid
-DamAll			02|08|010|020|0200
+DamNoReveal			04000   // damage that does not reveal the attacker.
+DamNoUnparalyze		08000   // victim won't be unparalyzed
+DamFixed			010000	// Wont be recalculated with default checks (Won't lower due to Armor or Res*)
+DamBlunt			020000	// Mace damage
+DamAll				02|08|010|020|0200
 
 [DefName Can_I_Flags]
-CanIDoor		000001		// is a door uflag4_door
-CanIWater		000002		// need to swim in it. uflag1_water
-CanIPlatform		000004		// we can walk on top of it. (even tho the item itself might block) uflag2_platform
-CanIBlock		000008		// need to walk thru walls or fly over. uflag1_block
-CanIClimb		000010		// step up on it, uflag2_climbable
-CanIFire		000020		// is a fire. ussually blocks as well. uflag1_damage
-CanIRoof		000040		// we are under a roof. can't rain on us. uflag4_roof
-CanIHover		000080		// we are hovering. uflag4_hoverover
-CanIPile		000100		// can item be piled uflag2_stackable (*.mul)
-CanIDye			000200		// can item be dyed uflag3_cloth? (sort of)
-CanIFlip		000400		// will flip by default.
-CanILight		000800		// uflag3_light
-CanIRepair		001000		// is it repairable (difficulty based on value)
-CanIReplicate		002000		// things like arrows are pretty much all the same.
-CanIDCIgnoreLoS		004000		// when dclicked, ignore los checks
-CanIDCIgnoreDist	008000		// when dclicked, ignore distance checks
-CanIBlockLoS		010000		// blocks los, but not walking thru
-CanIExceptional		020000		// can items be exceptional
-CanIMakersMark		040000		// can items hold makers mark
-CanIRetainColor		080000		// can items retain material Colors
-CanIEnhance		0100000		// can items be enhanced (runic)
-CanIImbue		0200000		// can items be imbued (imbuing)
-CanIRecycle		0400000		// Can be recycled
-CanIReforge		0800000		// Can be Runic Reforged.
-CanIForceDC		01000000	// Items with this flag won't perform checks before @DClick trigger.
-CanIRegenHits		02000000	// Can Regen Hits
-CanIRegenStam		04000000	// Can Regen Stam.
-CanIRegenMana		08000000	// Can Regen Mana.
-CanIStack		CanIPile	// UFlag is Stack! Not Pile!
-CanIEnchant		CanIEnhance
+CanIDoor				000001		// is a door uflag4_door
+CanIWater				000002		// need to swim in it. uflag1_water
+CanIPlatform			000004		// we can walk on top of it. (even tho the item itself might block) uflag2_platform
+CanIBlock				000008		// need to walk thru walls or fly over. uflag1_block
+CanIClimb				000010		// step up on it, uflag2_climbable
+CanIFire				000020		// is a fire. ussually blocks as well. uflag1_damage
+CanIRoof				000040		// we are under a roof. can't rain on us. uflag4_roof
+CanIHover				000080		// we are hovering. uflag4_hoverover
+CanIStack				000100		// can item be piled uflag2_stackable (*.mul)
+CanIDye					000200		// can item be dyed uflag3_cloth? (sort of)
+CanIFlip				000400		// will flip by default.
+CanILight				000800		// uflag3_light
+CanIRepair				001000		// is it repairable (difficulty based on value)
+CanIReplicate			002000		// things like arrows are pretty much all the same.
+CanIDCIgnoreLoS			004000		// when dclicked, ignore los checks
+CanIDCIgnoreDist		008000		// when dclicked, ignore distance checks
+CanIBlockLoS			010000		// blocks los, but not walking thru
+CanIExceptional			020000		// can items be exceptional
+CanIMakersMark			040000		// can items hold makers mark
+CanIRetainColor			080000		// can items retain material Colors
+CanIEnhance				0100000		// can items be enhanced (runic)
+CanIImbue				0200000		// can items be imbued (imbuing)
+CanIRecycle				0400000		// Can be recycled
+CanIReforge				0800000		// Can be Runic Reforged.
+CanIForceDC				01000000	// Items with this flag won't perform checks before @DClick trigger.
+CanIRegenHits			02000000	// Can Regen Hits
+CanIRegenStam			04000000	// Can Regen Stam.
+CanIRegenMana			08000000	// Can Regen Mana.
+CanIPowder				010000000	// Can be powdered (iFortificationPowder)
 
 
 [DefName tile_flags]
-tilef_background	  000000001   // No idea. None whatsoever. Maybe it's the blackness.
-tilef_weapon		000000002   // I smack thee with this here ... club?
-tilef_transparent	 000000004   // Yeah. So we can see through it?
-tilef_translucent	 000000008   // Okay...
-tilef_wall		  000000010   // Hey look, we can't walk through it!
-tilef_damaging	    000000020   // Lava, perhaps? Fires, hmm!
-tilef_impassable	  000000040   // Mountains and stuff, I'll wager.
-tilef_wet		   000000080   // Water? Or mud? Or a slick road in a rainstorm? Probably the first.
-tilef_unknown	     000000100   // Uh...
-tilef_surface	     000000200   // Tables or something?
-tilef_bridge		000000400   // I wonder why they'd have a flag for that.
-tilef_stackable	   000000800   // Can be stacked
-tilef_window		000001000   // So we can see/shoot out?
-tilef_noshoot	     000002000   // ? We can't shoot out or something? So, like a glass window maybe?
-tilef_prefixA	     000004000   // A card
-tilef_prefixAn	    000008000   // An apple
-tilef_internal	    000010000   // hair, beards, etc
-tilef_foliage	     000020000   // Probably bushes and tree leaves and stuff.
-tilef_partialHue	  000040000   // semi-glowy?
-tilef_unknown_1	   000080000   // Well, gee. I should see if it's used on anything...
-tilef_map		   000100000   // Sounds good to me.
-tilef_container	   000200000   // They flag these!?
-tilef_wearable	    000400000   // Omigod!
-tilef_lightSource	 000800000   // I'm getting tired of typing repetitive shiznit now.
-tilef_animated	    001000000   // Like fire again. And stuff. Those spinny propeller thingies!
-tilef_hoverover	   002000000   // Can be hovered over
-tilef_unknown_2	   004000000   // I really hope some of these unknowns are n/w/s/e facing flags.
-tilef_armor		 008000000   // Armor, okay, so does that count shields? Hmmm?
-tilef_roof		  010000000   // "Don't fall through me!" Or why isn't it just flagged surface or something?
-tilef_door		  020000000   // Okay...
-tilef_stairBack	   040000000   // Don't we have stairs that go forward or left too? This could cover both...
-tilef_stairRight	  080000000   // Well, whatever, you can climb them, so, hey... Good use for a
+tilef_background		000000001	// Background art. Not meant to be traversed.
+tilef_weapon			000000002	// Weapon
+tilef_transparent		000000004	// See-through
+tilef_translucent		000000008	// Semi-Transparent (There is a difference)
+tilef_wall				000000010
+tilef_damaging	    	000000020	// Lava, Fire, Acid.
+tilef_impassable		000000040	// Impassible terrain.
+tilef_wet				000000080	// Liquid (Water)
+tilef_unknown	    	000000100
+tilef_surface	    	000000200	// Tables, Bar, etc. Objects can be placed on it.
+tilef_bridge			000000400	// Stops weather underneath.
+tilef_stackable			000000800	// Can be stacked
+tilef_window			000001000	// Flagged for lighting I think, possible shooting
+tilef_noshoot	    	000002000	// ? We can't shoot out or something? So, like a glass window maybe?
+tilef_prefixA	    	000004000	// A card
+tilef_prefixAn	    	000008000	// An apple
+tilef_internal	    	000010000	// hair, beards, etc
+tilef_foliage	    	000020000
+tilef_partialHue		000040000	// Color=04000|<Value> Colors the grey scale
+tilef_unknown_1			000080000
+tilef_map				000100000
+tilef_container			000200000
+tilef_wearable			000400000
+tilef_lightSource		000800000
+tilef_animated			001000000	// Animated Object
+tilef_hoverover			002000000	// Can be hovered over
+tilef_unknown_2			004000000	// I really hope some of these unknowns are n/w/s/e facing flags.
+tilef_armor				008000000
+tilef_roof				010000000	// Possibly walkable, used for Indoor checks.
+tilef_door				020000000
+tilef_stairBack			040000000
+tilef_stairRight		080000000
 
 [DefName Def_HMTML]	// useful with htmlgumps
-L1			<
-R1			>
+L1					<
+R1					>
 
-B			<b>
-BE			</b>
-BIG			<big>
-BIGE			</big>
-SMALL			<small>
-SMALLE			</small>
-EM			<em>
-EME			</em>
-U			<u>
-UE			</u>
-I			<i>
-IE			</i>
-H1			<h1>
-H1E			</h1>
-H2			<h2>
-H2E			</h2>
-H3			<h3>
-H3E			</h3>
-H4			<h4>
-H4E			</h4>
-H5			<h5>
-H5E			</h5>
-H6			<h6>
-H6E			</h6>
-A			<a
-AE			</a>
-BR			<br>
-CENTER			<center>
-CENTERE			</center>
-DIV_LEFT		<div align="left">
-DIV_RIGHT		<div align="right">
-DIV_END			</div>
+B					<b>
+BE					</b>
+BIG					<big>
+BIGE				</big>
+SMALL				<small>
+SMALLE				</small>
+EM					<em>
+EME					</em>
+U					<u>
+UE					</u>
+I					<i>
+IE					</i>
+H1					<h1>
+H1E					</h1>
+H2					<h2>
+H2E					</h2>
+H3					<h3>
+H3E					</h3>
+H4					<h4>
+H4E					</h4>
+H5					<h5>
+H5E					</h5>
+H6					<h6>
+H6E					</h6>
+A					<a
+AE					</a>
+BR					<br>
+CENTER				<center>
+CENTERE				</center>
+DIV_LEFT			<div align="left">
+DIV_RIGHT			<div align="right">
+DIV_END				</div>
+// Test these two in Classic Client
+iFrame				<iFrame Scrolling="Yes">
+iFrameE				</iFrame>
 
-BFONT			<basefont
-BFONTE			</basefont>
-BFONT_SIZE1		<basefont size="1">
-BFONT_SIZE2		<basefont size="2">
-BFONT_SIZE3		<basefont size="3">
-BFONT_SIZE4		<basefont size="4">
-BFONT_SIZE5		<basefont size="5">
-BFONT_SIZE7		<basefont size="7">
+BFONT				<basefont
+BFONTE				</basefont>
+BFONT_SIZE1			<basefont size="1">
+BFONT_SIZE2			<basefont size="2">
+BFONT_SIZE3			<basefont size="3">
+BFONT_SIZE4			<basefont size="4">
+BFONT_SIZE5			<basefont size="5">
+BFONT_SIZE7			<basefont size="7">
 
-BFONT_BLACK		<basefont Color="#000008">
-BFONT_WHITE		<basefont Color="#ffffff">
-BFONT_LIME		<basefont Color="#00ff00">
-BFONT_LRED		<basefont Color="#ffcccc">
-BFONT_RED		<basefont Color="#ff0000">
-BFONT_DRED		<basefont Color="#8b0000">
+BFONT_BLACK			<basefont Color="#000008">
+BFONT_WHITE			<basefont Color="#ffffff">
+BFONT_LIME			<basefont Color="#00ff00">
+BFONT_LRED			<basefont Color="#ffcccc">
+BFONT_RED			<basefont Color="#ff0000">
+BFONT_DRED			<basefont Color="#8b0000">
 BFONT_LYELLOW		<basefont Color="#ffffc8">
 BFONT_YELLOW		<basefont Color="#ffff00">
 BFONT_DYELLOW		<basefont Color="#8b8b00">
-BFONT_LCYAN		<basefont Color="#e0ffff">
-BFONT_CYAN		<basefont Color="#00ffff">
-BFONT_DCYAN		<basefont Color="#008b8b">
-BFONT_LGRAY		<basefont Color="#d3d3d3">
-BFONT_GRAY		<basefont Color="#808080">
-BFONT_DGRAY		<basefont Color="#a9a9a9">
+BFONT_LCYAN			<basefont Color="#e0ffff">
+BFONT_CYAN			<basefont Color="#00ffff">
+BFONT_DCYAN			<basefont Color="#008b8b">
+BFONT_LGRAY			<basefont Color="#d3d3d3">
+BFONT_GRAY			<basefont Color="#808080">
+BFONT_DGRAY			<basefont Color="#a9a9a9">
 BFONT_LGREEN		<basefont Color="#90ee90">
-BFONT_GREEN		<basefont Color="#008000">
+BFONT_GREEN			<basefont Color="#008000">
 BFONT_DGREEN		<basefont Color="#006400">
 BFONT_LORANGE		<basefont Color="#ffc600">
 BFONT_ORANGE		<basefont Color="#ffa500">
 BFONT_DORANGE		<basefont Color="#ff8c00">
-BFONT_LBLUE		<basefont Color="#add8e6">
-BFONT_BLUE		<basefont Color="#0000ff">
-BFONT_DBLUE		<basefont Color="#00008b">
+BFONT_LBLUE			<basefont Color="#add8e6">
+BFONT_BLUE			<basefont Color="#0000ff">
+BFONT_DBLUE			<basefont Color="#00008b">
 BFONT_LSLATEBLUE	<basefont Color="#ceceff">
 BFONT_SLATEBLUE		<basefont Color="#8484ff">
 BFONT_DSLATEBLUE	<basefont Color="#483d8b">
@@ -1492,12 +1485,12 @@ BFONT_DPURPLE		<basefont Color="#551a8b">
 // ArgN2 in f_oncreate_char
 Prof_Unknown		0
 Prof_Warrior		1
-Prof_Magician		2
+Prof_Mage			2
 Prof_Blacksmith		3
 Prof_Necromancer	4
 Prof_Paladin		5
 Prof_Samurai		6
-Prof_Ninja		7
+Prof_Ninja			7
 
 [DefName ResDisp_Version]
 // 'ResDisp' is a property of the user 'Account'
@@ -1558,9 +1551,9 @@ SKILLTITLE_ELDER		1100	// This works with the normal skills and Bushido/Ninjitsu
 SKILLTITLE_LEGENDARY	1200	// Same here
 
 [DefName Trigger_ArgType]
-TAT_AS_ARGN   1	// Treat the arguments as ARGN1/2/3
-TAT_AS_ARGS   2	// Treat the arguments as ARGS (with ARGV[x] enabled)
-TAT_AS_ARGO   3	// Treat the arguments as ARGO
+TAT_AS_ArgN   1	// Treat the arguments as ARGN1/2/3
+TAT_AS_ArgS   2	// Treat the arguments as ARGS (with ARGV[x] enabled)
+TAT_AS_ArgO   3	// Treat the arguments as ARGO
 
 [DefName misc_own]
 Empty_CliLoc		1042971
@@ -1594,69 +1587,62 @@ passiveBuffIcon_despair				1060
 
 
 [DefName debuff_icons]
-
-deBuffIcon_DisMount				1001
-deBuffIcon_DeathStrike			1006
-deBuffIcon_EvilOmen				1007
-deBuffIcon_HealingThrottle		1008
-deBuffIcon_StaminaThrottle		1009
-deBuffIcon_BloodOathCurse		1015
-deBuffIcon_CorpseSkin			1016
-deBuffIcon_MindRot				1017
-deBuffIcon_PainSpike			1018
-deBuffIcon_Strangle				1019
-deBuffIcon_ThunderStorm			1022
-deBuffIcon_EssenceOfWind		1023
-deBuffIcon_MortalStrike			1027
-deBuffIcon_Paralyze				1037
-deBuffIcon_Poison				1038
-deBuffIcon_Bleed				1039
-deBuffIcon_Clumsy				1040
-deBuffIcon_Feeblemind			1041
-deBuffIcon_Weaken				1042
-deBuffIcon_Curse				1043
-deBuffIcon_MassCurse			1044
-deBuffIcon_Sleep				1049
-deBuffIcon_SpellPlague			1051
-deBuffIcon_Tribulation			1059
+deBuffIcon_Dismount					1001
+deBuffIcon_DeathStrike				1006
+deBuffIcon_EvilOmen					1007
+deBuffIcon_HealingThrottle			1008
+deBuffIcon_StaminaThrottle			1009
+deBuffIcon_BloodOathCurse			1015
+deBuffIcon_CorpseSkin				1016
+deBuffIcon_MindRot					1017
+deBuffIcon_PainSpike				1018
+deBuffIcon_Strangle					1019
+deBuffIcon_ThunderStorm				1022
+deBuffIcon_EssenceOfWind			1023
+deBuffIcon_MortalStrike				1027
+deBuffIcon_Paralyze					1037
+deBuffIcon_Poison					1038
+deBuffIcon_Bleed					1039
+deBuffIcon_Clumsy					1040
+deBuffIcon_Feeblemind				1041
+deBuffIcon_Weaken					1042
+deBuffIcon_Curse					1043
+deBuffIcon_MassCurse				1044
+deBuffIcon_Sleep					1049
+deBuffIcon_SpellPlague				1051
+deBuffIcon_Tribulation				1059
 
 // new 'stats'
-deBuffIcon_HitLowerAttack		1063
-deBuffIcon_HitLowerDefense		1064
-deBuffIcon_SpellFocusing		1071
-deBuffIcon_RageFocusing			1072
-deBuffIcon_ForceArrow			1076
-deBuffIcon_Disarm				1077
-deBuffIcon_TalonStrike			1080
-deBuffIcon_PhysicAttack			1081	//stractics say PhychicAttack?
+deBuffIcon_HitLowerAttack			1063
+deBuffIcon_HitLowerDefense			1064
+deBuffIcon_SpellFocusing			1071
+deBuffIcon_RageFocusing				1072
+deBuffIcon_ForceArrow				1076
+deBuffIcon_Disarm					1077
+deBuffIcon_TalonStrike				1080
+deBuffIcon_PsychicAttack			1081	// Psychic Attack (Double check things UGH!)
 
-deBuffIcon_EnemyOfOne			1084
-deBuffIcon_FandancerFanFire		1105
-deBuffIcon_Rage					1106
-deBuffIcon_Webbing				1107
-deBuffIcon_MedusaStone			1108
-deBuffIcon_DragonSlasherFear	1109
-deBuffIcon_AuraOfNausea			1110
-deBuffIcon_HowlOfCacophony		1111
-deBuffIcon_GazeDespair			1112
-deBuffIcon_HiryuPhysicalResistance	1113
-deBuffIcon_RuneBeetleCorruption	1114
-deBuffIcon_BloodWormAnemia		1115
-deBuffIcon_RotwormBloodDisease	1116
-deBuffIcon_SkillUseDelay		1117
-deBuffIcon_FactionStatLoss		1118
-deBuffIcon_HeatOfBattle			1119
-deBuffIcon_CriminalStatus		1120
-deBuffIcon_ArmorPierce			1121
-deBuffIcon_SplinteringEffect	1122
-deBuffIcon_SwingSpeedSwing		1123
-
-
-// these should exists according to stratics, but I couldn't find them
-//deBuffIcon_ArmorCorrupt
-//deBuffIcon_Entangle
+deBuffIcon_EnemyOfOne				1084
+deBuffIcon_FanDancerFanFire			1105
+deBuffIcon_Rage						1106
+deBuffIcon_Webbing					1107	// Also Entangle
+deBuffIcon_Stone					1108	// Stone
+deBuffIcon_Fear						1109	// Stygian Dragon, Slasher Of Veils
+deBuffIcon_AuraOfNausea				1110
+deBuffIcon_HowlOfCacophony			1111
+deBuffIcon_GazeOfDespair			1112
+deBuffIcon_PhysicalResistance		1113	// Hiryu
+deBuffIcon_ArmorCorruption			1114	// Rune Beetle
+deBuffIcon_Anemia					1115	// Blood Worm
+deBuffIcon_BloodDisease				1116	// Rotworm
+deBuffIcon_SkillUseDelay			1117
+deBuffIcon_FactionStatLoss			1118
+deBuffIcon_HeatOfBattle				1119
+deBuffIcon_CriminalStatus			1120	// Criminal...
+deBuffIcon_ArmorPierce				1121
+deBuffIcon_SplinteringEffect		1122
+deBuffIcon_SwingSpeedSwing			1123
 //deBuffIcon_FallingWalls
-//deBuffIcon_Criminal
 
 [DefName buff_icons]
 BuffIcon_NoRearm				1002
@@ -1691,9 +1677,9 @@ BuffIcon_Despair				1068
 
 BuffIcon_RageFocusing			1073
 BuffIcon_Warding				1074
-BuffIcon_Yribulation			1075
+//BuffIcon_Tribulation			1075	// This one is definitely off.
 BuffIcon_Surge					1078
-BuffIcon_Feit					1079
+BuffIcon_Feint					1079
 BuffIcon_Consecrate				1082
 BuffIcon_GrapesOfWrath			1083
 BuffIcon_HorrificBeast			1085
@@ -1701,7 +1687,7 @@ BuffIcon_LichForm				1086
 BuffIcon_VampiricEmbrace		1087
 BuffIcon_CurseWeapon			1088
 BuffIcon_ReaperForm				1089
-BuffIcon_InmolatingWeapon		1090
+BuffIcon_ImmolatingWeapon		1090
 BuffIcon_Enchant				1091
 BuffIcon_HonorableExecution		1092		//same as 1125
 BuffIcon_Confidence				1093
@@ -1710,7 +1696,7 @@ BuffIcon_CounterAttack			1095
 BuffIcon_LightningStrike		1096
 BuffIcon_MomentumStrike			1097
 BuffIcon_OrangePetals			1098
-BuffIcon_ROTPetals				1099		//RoseOfTrinsic petals
+BuffIcon_RoTPetals				1099		//RoseOfTrinsic petals
 BuffIcon_PoisonImmunity			1100
 BuffIcon_Veterinary				1101
 BuffIcon_Perfection				1102
@@ -2156,25 +2142,25 @@ height_03db 16 //DefName=c_man_gm
 height_03e7 40 //DefName=c_demon_horde_Colored
 
 [DefName Ref_Types]
-TRefServ			000001
-TRefFile			000002
-TRefNewFile			000004
-TRefDB				000008
-TRefResDef			000010
-TRefResBase			000020
+TRefServ				000001
+TRefFile				000002
+TRefNewFile				000004
+TRefDB					000008
+TRefResDef				000010
+TRefResBase				000020
 TRefFunctionArgS		000040
-TRefFileObj			000080
+TRefFileObj				000080
 TRefFileObjCont			000100
-TRefAccount			000200
+TRefAccount				000200
 TRefStoneMember			000800
 TRefServerDef  			001000
-TRefSector			002000
-TRefWorld			004000
-TRefGmPage			008000
-TRefClient			010000
-TRefObject			020000
-TRefChar			040000
-TRefItem			080000
+TRefSector				002000
+TRefWorld				004000
+TRefGmPage				008000
+TRefClient				010000
+TRefObject				020000
+TRefChar				040000
+TRefItem				080000
 
 [DefName Death_Flags]
 DeathNoFameChange		001
@@ -2196,14 +2182,16 @@ NotoAlliedGuild			8
 // CanUse flags
 // Uses new internal variable CanUse. Script for this is in the addon's folder in the script pack.
 // Used on items for checks or npcs (Mounts, golems, etc)
-[DefName Can_Use_flags]
-CanUAll				0
-CanUMale			01
-CanUFemale			02
-CanUHuman			04
-CanUElf				08
-CanUGargoyle			010
-CanUNone			020
+[DefName CanUseFlags]
+CanUAll					0
+CanUAllGenders			01
+CanUAllRaces			02
+CanUFemale				04
+CanUMale				08
+CanUHuman				010
+CanUElf					020
+CanUGargoyle			040
+CanUNone				080
 
 [DefName Swing_Types]
 WAR_SWING_EQUIPPING		= 00 // we are recoiling our weapon.
@@ -2212,7 +2200,7 @@ WAR_SWING_SWINGING		= 02 // we are swinging our weapon.
 
 [DefName Expansions]
 Expansion_T2A			= 00
-Expansion_Renaissance		= 01
+Expansion_Renaissance	= 01
 Expansion_ThirdDawn		= 02
 Expansion_LBR			= 04
 Expansion_AOS			= 010
@@ -2222,8 +2210,11 @@ Expansion_SA			= 080
 Expansion_HS			= 0100
 Expansion_ToL			= 0200
 
-[DefName Theme_Packs]
-Theme_Gothic		01
-Theme_Rustic		02
+[DefName ThemePacks]
+CrystalThemePack		01
+ShadowThemePack			02
+GothicThemePack			04
+RusticThemePack			08
+KingsCollection			010
 
 [EOF]
