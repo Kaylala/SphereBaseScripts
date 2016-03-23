@@ -1,36 +1,112 @@
+[Comment Notes]
+- Is Test really needed? Don't remember there being a Test on EA.
+- Did EA update for Elf and Gargoyle?!
+- This could really be expanded for custom use.
+
 [SkillMenu smPolymorph]
-What do you want to polymorph into?
+Polymorph Selection Menu
 
-On=iHumanMaleIcon Human Male
-Test=MAGERY 40.0
-POLY cHumanMale
-
-On=iHumanFemaleIcon Human Female
-Test=MAGERY 40.0
-POLY cHumanFemale
-
+// Animals
 On=iChickenIcon Chicken
-Test=MAGERY 40.0
-POLY cChicken
+Test=Magery 400
+Poly cChicken
 
 On=iDogIcon Dog
-Test=MAGERY 60.0
-POLY cDog
+Test=Magery 600
+Poly cDog
 
-On=iGiantSerpentIcon Giant Serpent
-Test=MAGERY 60.0
-POLY cGiantSerpent
+On=iGreyWolfIcon Wolf
+Test=Magery 600
+Poly cGreyWolf
 
-On=iAlligatorIcon <Name>
-Test=magery 65.0
-poly cAlligator
+On=iPantherIcon Panther
+Test=Magery 600
+Poly cPanther
+
+On=iGorillaIcon Gorilla
+Test=Magery 600
+Poly cGorilla
+
+On=iBlackBearIcon Black Bear
+Test=Magery 600
+Poly cBlackBear
+
+On=iGrizzlyBearIcon Grizzly Bear
+Test=Magery 600
+Poly cGrizzlyBear
+
+On=iPolarBearIcon Polar Bear
+Test=Magery 600
+Poly cPolarBear
+
+//On=iGiantSerpentIcon Giant Serpent
+//Test=Magery 600
+//Poly cGiantSerpent
+
+//On=iAlligatorIcon Alligator
+//Test=Magery 650
+//Poly cAlligator
+
+On=iHumanMaleIcon Human Male
+Test=Magery 400
+Poly cHumanMale
+
+On=iHumanFemaleIcon Human Female
+Test=Magery 400
+Poly cHumanFemale
+
+//On=iElfMaleIcon Elf Male
+//Test=Magery 400
+//Poly cElfMale
+
+//On=iElfFemaleIcon Elf Female
+//Test=Magery 400
+//Poly cElfFemale
+
+//On=iGargoyleMaleIcon Gargoyle Male
+//Test=Magery 400
+//Poly cGargoyleMale
+
+//On=iGargoyleFemaleIcon Gargoyle Female
+//Test=Magery 400
+//Poly cGargoyleFemale
+
+
+// Monsters
+On=iSlimeIcon Slime
+Test=Magery 600
+Poly cSlime
+
+On=iOrcIcon Orc
+Test=Magery 600
+Poly cOrc
+
+On=iLizardmanIcon Lizardman
+Test=Magery 600
+Poly cLizardman
+
+On=iGargoyleIcon Gargoyle
+Test=Magery 600
+Poly cGargoyle
+
+On=iOgreIcon Ogre
+Test=Magery 600
+Poly cOgre
+
+On=iTrollIcon Troll
+Test=Magery 600
+Poly cTroll
+
+On=iDogIcon Ettin
+Test=Magery 600
+Poly cEttin
 
 On=iDaemonIcon Daemon
-Test=MAGERY 85.0
-POLY cDaemon
+Test=Magery 850
+Poly cDaemon
 
-On=iDragonIcon Dragon
-Test=MAGERY 98.0
-POLY {cDragon1 1 cDragon2 1}
+//On=iDragonIcon Dragon
+//Test=Magery 980
+//Poly {cDragon1 1 cDragon2 1}
 
 [EOF]
