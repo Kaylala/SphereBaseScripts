@@ -8,6 +8,11 @@ have extra script actions done to it, etc...  Because of those limitations,
 the DEFNAMEs below will eventually be converted to templates.
 
 
+/////////////////
+// Hair Styles //
+/////////////////
+
+
 [Template RandomHumanFemaleHairStyle]
 Category=Templates: Generic
 Subsection=Hair Styles
@@ -55,7 +60,7 @@ Item={iGargoyleMaleHornStyle1 1 iGargoyleMaleHornStyle2 1 iGargoyleMaleHornStyle
 Category=Templates: Generic
 Subsection=Facial Styles
 Description=Facial Horn Style (Random)
-Item={ iGargoyleFacialHornStyle1 1 iGargoyleFacialHornStyle2 1 iGargoyleFacialHornStyle3 1 iGargoyleFacialHornStyle4 1}
+Item={iGargoyleFacialHornStyle1 1 iGargoyleFacialHornStyle2 1 iGargoyleFacialHornStyle3 1 iGargoyleFacialHornStyle4 1}
 
 
 [Template RandomGargoyleFemaleHornStyle]
@@ -66,87 +71,556 @@ Description=Gargoyle Female Horn Style (Random)
 Item={iGargoyleFemaleHornStyle1 1 iGargoyleFemaleHornStyle2 1 iGargoyleFemaleHornStyle3 1 iGargoyleFemaleHornStyle4 1 iGargoyleFemaleHornStyle5 1 iGargoyleFemaleHornStyle6 1 iGargoyleFemaleHornStyle7 1 iGargoyleFemaleHornStyle8 1}
 
 
-[DEFNAME items_clothing]
-//layer_shoes
-RandomFootwear			{iBoots 1 iSandals 1 iShoes 1 iThighBoots 1 iFurBoots 4 iTabi 2 iWarajiAndTabi 2 iElvenBoots 4 iGargishLeatherTalons 4}
-RandomHumanFootwear		{iBoots 1 iSandals 1 iShoes 1 iThighBoots 1}
-RandomTokunoFootwear	{iTabi 1 iWarajiAndTabi 1}
+//////////////
+// Clothing //
+//////////////
 
-//layer_pants
-Random_pants_all       { i_pants_short 1 i_pants_long 1 i_hakama_tattsuke 1 i_elven_pants 1 i_elven_pants 1 i_gargish_cloth_leggings_female 1 i_gargish_cloth_leggings 1 }
-Random_pants_human     { i_pants_short 1 i_pants_long 1 i_hakama_tattsuke 1 }
-Random_pants_elven       i_elven_pants
-Random_pants_gargoyle  { i_gargish_cloth_leggings_female 1 i_gargish_leather_leggings_female 1 i_gargish_cloth_kilt_female 1 i_gargish_leather_kilt_female 1 i_gargish_cloth_leggings 1 i_gargish_leather_leggings 1 i_gargish_cloth_kilt 1 i_gargish_leather_kilt 1 i_gargish_leather_belt 1 }
 
-//layer_shirt
-Random_shirts_all      { i_shirt_plain 1 i_shirt_fancy 1 i_shirt_checkered 1 i_elven_shirt 1 i_elven_shirt_female 1 }
-Random_shirts_human    { i_shirt_plain 1 i_shirt_fancy 1 i_shirt_checkered 1 }
-Random_shirts_elven    { i_elven_shirt 1 i_elven_shirt_female 1 }
-Random_shirts_gargoyle { i_gargish_cloth_chest_female 1 i_gargish_cloth_chest 1 i_gargish_leather_wings 1 i_gargish_cloth_wings 1 i_gargish_sash_female 1 i_gargish_sash 1 }
+[Template RandomClothing]
+DefName=RandomClothes
+Category=Templates: Generic
+Subsection=Clothing
+Description=Clothing (Random)
+Item={RandomBack 1 RandomRobe 1 RandomSash 1 RandomTokunoChest 1 RandomBelt 1 RandomSkirt 1 RandomHeadwear 1 RandomShirt 1 RandomPants 1 RandomFootwear 1}
 
-//layer_helm
-Random_headgear_all    { i_mask_orc 1 i_bandana 1 i_skull_cap 1 i_mask_bear 1 i_mask_deer 1 i_mask_blue 1 i_mask_tribal_red 1 i_hat_floppy 1 i_hat_wide_brim 1 i_cap 1 i_hat_straw_tall 1 i_hat_straw 1 i_hat_wizards 1 i_bonnet 1 i_hat_feather 1 i_hat_tricorne 1 i_hat_jester 1 i_hat_kasa 1 i_hood_ninja 1 i_helm_garland 1 i_helm_circlet1 1 i_helm_circlet2 1 i_helm_circlet3 1 }
-Random_headgear_human  { i_mask_orc 1 i_bandana 1 i_skull_cap 1 i_mask_bear 1 i_mask_deer 1 i_mask_blue 1 i_mask_tribal_red 1 i_hat_floppy 1 i_hat_wide_brim 1 i_cap 1 i_hat_straw_tall 1 i_hat_straw 1 i_hat_wizards 1 i_bonnet 1 i_hat_feather 1 i_hat_tricorne 1 i_hat_jester 1 i_hat_kasa 1 i_hood_ninja 1 }
-Random_headgear_elven  { i_helm_garland 1 i_helm_circlet1 1 i_helm_circlet2 1 i_helm_circlet3 1 }
-Random_hats            { i_hat_floppy 1 i_hat_wide_brim 1 i_cap 1 i_hat_straw_tall 1 i_hat_straw 1 i_hat_wizards 1 i_bonnet 1 i_hat_feather 1 i_hat_tricorne 1 i_hat_jester 1 i_bandana 1 i_skull_cap 1 i_hat_kasa 1 i_helm_garland 1 }
-Random_masks           { i_mask_orc 1 i_mask_bear 1 i_mask_deer 1 i_mask_blue 1 i_mask_tribal_red 1 i_hood_ninja 1 }
 
-//layer_skirt
-Random_skirts_all      { i_skirt_long 1 i_skirt_short 1 i_kilt 1 i_sarong_fur 1 i_hakama 1 i_gargish_cloth_kilt_female 1 i_gargish_cloth_kilt 1 }
-Random_skirts_human    { i_skirt_long 1 i_skirt_short 1 i_kilt 1 i_sarong_fur 1 i_hakama 1 }
-Random_skirts_gargoyle { i_gargish_cloth_kilt_female 1 i_gargish_leather_kilt_female 1 i_gargish_cloth_kilt 1 i_gargish_leather_kilt 1 }
+//LayerFootwear
+[Template RandomFootwear]
+Category=Templates: Generic
+Subsection=Clothing: Footwear Slot
+Description=Footwear (Random)
+Item={RandomHumanFootwear 1 RandomTokunoFootwear 1 iElvenBoots 1 iGargishLeatherTalons 1}
 
-//layer_half_apron
-Random_aprons_all      { i_apron_half 1 i_belt_ninja_leather 1 i_obi 1 i_woodland_belt 1 }
-Random_aprons_human    { i_apron_half 1 i_belt_ninja_leather 1 i_obi 1 }
-Random_aprons_elven      i_woodland_belt
-Random_aprons_gargoyle   i_gargish_apron
 
-//layer_arms
-Random_arms_gargoyle   { i_gargish_cloth_arms_female 1 i_gargish_leather_arms_female 1 i_gargish_cloth_arms 1 i_gargish_leather_arms 1 }
+[Template RandomHumanFootwear]
+Category=Templates: Generic
+Subsection=Clothing: Footwear Slot
+Description=Human Footwear (Random)
+Item={iBoots 1 iSandals 1 iShoes 1 iThighBoots 1 iFurBoots 1}
 
-//layer_chest
-Random_chests_human    i_jacket_ninja
-Random_chests_gargoyle { i_gargish_cloth_chest_female 1 i_gargish_leather_chest_female 1 i_gargish_cloth_chest 1 i_gargish_leather_chest 1 }
 
-//layer_tunic 
-Random_tunics_all      { i_apron_full 1 i_sash 1 i_doublet 1 i_jester_suit 1 i_tunic 1 i_surcoat 1 i_shirt_formal 1 i_jinbaori 1 }
-Random_tunics_manly    { i_sash 1 i_doublet 1 i_tunic 1 i_surcoat 1 i_shirt_formal 1 i_jinbaori 1 }
+[Template RandomTokunoFootwear]
+Category=Templates: Generic
+Subsection=Clothing: Footwear Slot
+Description=Tokuno Footwear (Random)
+Item={iTabi 1 iWarajiAndTabi 1}
 
-//layer_robe  
-Random_robes_all       { i_dress_full 1 i_dress_plain 1 i_robe 1 i_dress_gilded 1 i_robe2 1 i_dress_fancy2 1 i_dress_fancy3 1 i_dress_long 1 i_kimono_male 1 i_kimono_female2 1 i_kamishimo 1 i_hakama_shita 1 i_elven_male_robe1 1 i_elven_male_robe2 1 }
-Random_robes_human     { i_dress_full 1 i_dress_plain 1 i_robe 1 i_dress_gilded 1 i_robe2 1 i_dress_fancy2 1 i_dress_fancy3 1 i_dress_long 1 i_kimono_male 1 i_kimono_female2 1 i_kamishimo 1 i_hakama_shita 1 }
-Random_robes_elven     { i_elven_male_robe1 1 i_elven_male_robe2 1 }
-Random_robes_gargoyle  { i_gargish_robe 1 i_gargish_robe_fancy 1 }
-Random_robes_manly     { i_robe 1 i_robe2 1 i_kimono_male 1 i_kamishimo 1 i_hakama_shita 1 i_elven_male_robe1 1 i_elven_male_robe2 1 }
-Random_dresses         { i_dress_full 1 i_dress_plain 1 i_dress_gilded 1 i_dress_fancy2 1 i_dress_fancy3 1 i_dress_long 1 i_kimono_female2 1 }
 
-//layer_cape  
-Random_capes_all       { i_cape 1 i_cape_fur 1 }
+// LayerLegs (Clothing)
+[Template RandomPants]
+Category=Templates: Generic
+Subsection=Clothing: Legs Slot
+Description=Pants (Random)
+Item={RandomHumanPants 1 iTattsukeHakama 1 iElvenPants 1}
 
-//layer_talisman
-Random_talisman        { i_talisman1 1 i_talisman2 1 i_talisman3 1 i_talisman4 1 }
 
-[DEFNAME items_Random_wearables]
-Random_jewelry         { Random_necklace 1 Random_bracelets 1 Random_earrings 1 Random_rings 1 }
-Random_jewelry_gargoyle { i_necklace_gargoyle 1 i_bracelet_gargoyle 1 i_ring_gargoyle 1 i_earrings_gargoyle 1 }
-Random_necklace        { i_necklace_metal_beads 1 i_necklace_silver_beads 1 i_necklace_gold_beads 1 i_necklace_gold 1 i_necklace_silver 1 i_necklace_gargoyle 1 }
-Random_bracelets       { i_bracelet_gold 1 i_bracelet_silver 1 i_bracelet_gargoyle 1 }
-Random_rings           { i_ring_gold 1 i_ring_silver 1 i_ring_gargoyle 1 }
-Random_earrings        { i_earrings_gold 1 i_earrings_silver 1 i_earrings_gargoyle 1 }
+[Template RandomHumanPants]
+Category=Templates:Generic
+Subsection=Clothing: Legs Slot
+Description=Human Pants (Random)
+Item={iShortPants 1 iLongPants 1}
 
-Random_clothing        { Random_footwear_all 1 Random_pants_all 1 Random_shirts_all 1 Random_headgear_all 1 Random_skirts_all 1 Random_aprons_all 1 Random_tunics_all 1 Random_robes_all 1 Random_capes_all 1 }
-Random_wearables       { Random_clothing 1 Random_jewelry 1 }
+
+// LayerShirt
+// Checkered Shirt is excluded.
+[Template RandomShirt]
+Category=Templates: Generic
+Subsection=Clothing: Shirt Slot
+Description=Shirt (Random)
+Item={RandomHumanShit 1 RandomElfShirt 1}
+
+
+[Template RandomHumanShirt]
+Category=Templates: Generic
+Subsection=Clothing: Shirt Slot
+Description=Human Shirt (Random)
+Item={iShirt 1 iFancyShirt 1}
+
+
+[Template RandomElfShirt]
+Category=Templates: Generic
+Subsection=Clothing: Shirt Slot
+Description=Elf Shirt (Random)
+Item={iShirt1 1 iElvenShirt2 1}
+
+
+//LayerHead
+[Template RandomHeadwear]
+Category=Templates: Generic
+Subsection=Clothing: Head Slot
+Description=Headwear (Random)
+Item={RandomHumanHeadwear 1 RandomTokunoHeadwear 1 iFlowerGarland 1 RandomMask 1}
+
+
+[Template RandomHumanHeadwear]
+DefName=RandomHumanHeadgear
+Category=Templates: Generic
+Subsection=Clothing: Head Slot
+Description=Headwear (Random)
+Item={iBandana 1 iSkullcap 1 iFloppyHat 1 iCap 1 iWideBrimHat 1 iStrawHat 1 iTallStrawHat 1 iWizardsHat 1 iBonnet 1 iFeatheredHat 1 iTricorne 1 iJesterHat 1}
+
+
+[Template RandomTokunoHeadwear]
+DefName=RandomTokunoHeadgear
+Category=Templates: Generic
+Subsection=Clothing: Head Slot
+Description=Tokuno Headwear (Random)
+Item={iClothNinjaHood 1 iKasa 1}
+
+
+[Template RandomMask]
+Category=Templates: Generic
+Subsection=Clothing: Head Slot
+Description=Mask (Random)
+Item={iOrcMask 1 iBearMask 1 iDeerMask 1 iTribalMask1 1 iTribalMask2 1}
+
+
+[Template RandomTribalMask]
+Category=Templates: Generic
+Subsection=Clothing: Head Slot
+Description=Tribal Mask (Random)
+Item={iTribalMask1 1 iTribalMask2 1}
+
+
+[Template RandomAnimalMask]
+Category=Templates: Generic
+Subsection=Clothing: Head Slot
+Description=Animal Mask (Random)
+Item={iBearMask 1 iDeerMask 1}
+
+
+//LayerSkirt
+[Template RandomSkirt]
+DefName=RandomSkirtSlot
+Category=Templates: Generic
+Subsection=Clothing: Skirt Slot
+Description=Skirt Slot (Random)
+Item={iSkirt1 iFurSarong 1 iKilt1 iHakama1}
+
+
+[Template RandomFemaleSkirt]
+Category=Templates: Generic
+Subsection=Clothing: Skirt Slot
+Description=Mask (Random)
+Item={iSkirt 1 iFurSarong 1}
+
+
+// LayerBelt
+[Template RandomBelt]
+Category=Templates: Generic
+Subsection=Clothing: Belt Slot
+Description=Belt (Random)
+Item={iHalfApron 1 RandomTokunoBelt 1 iWoodlandBelt 1 iGargishHalfApron 1}
+
+
+[Template RandomTokunoBelt]
+Category=Templates: Generic
+Subsection=Clothing: Belt Slot
+Description=Tokuno Belt (Random)
+Item={iLeatherNinjaBelt 1 iObi 1}
+
+
+// LayerChest
+[Template RandomTokunoChest]
+DefName=RandomTokunoChestSlot
+Category=Templates: Generic
+Subsection=Clothing: Chest Slot
+Description=Tokuno Chest (Random)
+Item={iClothNinjaJacket 1}
+
+
+// LayerSash
+[Template RandomSash]
+DefName=RandomSashSlot
+Category=Templates: Generic
+Subsection=Clothing: Sash Slot
+Description=Sash (Random)
+Item={RandomHumanSash 1 iGargishSash 1 iJinBaori 1}
+
+
+[Template RandomHumanSash]
+DefName=RandomSashSlot
+Category=Templates: Generic
+Subsection=Clothing: Sash Slot
+Description=Human Sash (Random)
+Item={iBodySash 1 iDoublet 1 iFormalShirt 1 iTunic 1 iSurcoat 1 iFullApron 1 iJesterSuit 1}
+
+
+// LayerRobe
+[Template RandomRobe]
+DefName=RandomRobeSlot
+Category=Templates: Generic
+Subsection=Clothing: Robe Slot
+Description= (Random)
+Item={RandomHumanRobe 1 RandomHumanDress RandomTokunoRobe 1 RandomGargoyleRobe 1 RandomElfRobe 1}
+
+
+// Not Sure if the Hooded Shroud of Shadows should be included.
+[Template RandomHumanRobe]
+DefName=RandomHumanRobeSlot
+Category=Templates: Generic
+Subsection=Clothing: Robe Slot
+Description= (Random)
+Item={iRobe 1 iHoodedShroudOfShadows 1}
+
+
+[Template RandomHumanDress]
+Category=Templates: Generic
+Subsection=Clothing: Robe Slot
+Description=Dress (Random)
+Item={iFancyDress 1 iPlainDress 1 iGildedDress 1}
+
+
+[Template RandomTokunoRobe]
+DefName=RandomTokunoRobeSlot
+Category=Templates: Generic
+Subsection=Clothing: Robe Slot
+Description=Tokuno Robe (Random)
+Item={iFemaleKimono 1 iMaleKimono 1 iKamishimo 1}
+
+
+[Template RandomElfRobe]
+Category=Templates: Generic
+Subsection=Clothing: Robe Slot
+Description=Elf Robe (Random)
+Item={iElvenRobe 1 iFemaleElvenRobe 1}
+
+
+[Template RandomGargoyleRobe]
+Category=Templates: Generic
+Subsection=Clothing: Robe Slot
+Description=Gargoyle Robe (Random)
+Item={iGargishRobe 1 iGargishFancyRobe 1}
+
+
+//LayerBack
+[Template RandomBack]
+DefName=RandomBackSlot
+Category=Templates: Generic
+Subsection=Clothing: Back Slot
+Description=Cloak (Random)
+Item={RandomHumanBack 1 RandomGargoyleBack 1}
+
+
+[Template RandomHumanBack]
+DefName=RandomCloak
+Category=Templates: Generic
+Subsection=Clothing: Back Slot
+Description=Cloak (Random)
+Item={iCloak 1 iFurCape 1}
+
+
+[Template RandomGargoyleBack]
+DefName=RandomWingArmor
+Category=Templates: Generic
+Subsection=Clothing: Back Slot
+Description=Wing Armor (Random)
+Item={iGargishClothWingArmor 1 iGargishLeatherWingArmor 1}
+
+
+///////////////
+// Wearables //
+///////////////
+
+
+// LayerTalisman
+[Template RandomTalisman]
+Category=Templates: Generic
+Subsection=Talismans
+Description=Talisman (Random)
+Item={iTalisman1 1 iTalisman2 1 iTalisman3 1 iTalisman4 1}
+
+
+// Jewelry
+[Template RandomJewelry]
+Category=Templates: Generic
+Subsection=Jewelry
+Description=Jewelry (Random)
+Item={RandomHumanJewelry 1 RandomGargoyleJewelry 1}
+
+
+[Template RandomHumanJewelry]
+Category=Templates: Generic
+Subsection=Jewelry
+Description=Human Jewelry (Random) (Human/Elf)
+Item={RandomHumanEarrings 1 RandomHumanBracelet 1 RandomHumanNecklace 1 RandomHumanRing 1}
+
+
+[Template RandomGargoyleJewelry]
+Category=Templates: Generic
+Subsection=Jewelry
+Description=Gargoyle Jewelry (Random)
+Item={iGargishEarrings 1 iGargishBracelet 1 iGargishNecklace 1 iGargishRing 1}
+
+
+// LayerEarring
+[Template RandomEarrings]
+DefName=RandomEarringSlot
+Category=Templates: Generic
+Subsection=Jewelry: Earring Slot
+Description=Earrings (Random)
+Item={RandomHumanEarrings 1 iGargishEarrings 1}
+
+
+[Template RandomHumanEarrings]
+Category=Templates: Generic
+Subsection=Jewelry: Earring Slot
+Description=Human Earrings (Random) (Human/Elf)
+Item={iSilverEarrings 1 iGoldEarrings 1}
+
+
+// LayerBracelet
+[Template RandomBracelet]
+DefName=RandomBraceletSlot
+Category=Templates: Generic
+Subsection=Jewelry: Bracelet Slot
+Description=Earrings (Random)
+Item={RandomHumanBracelet 1 iGargishBracelet 1}
+
+
+[Template RandomHumanBracelet]
+Category=Templates: Generic
+Subsection=Jewelry: Bracelet Slot
+Description=Human Bracelet (Random) (Human/Elf)
+Item={iGoldBracelet 1 iSilverBracelet 1}
+
+
+// LayerNecklace
+[Template RandomNecklace]
+DefName=RandomNeckSlot
+Category=Templates: Generic
+Subsection=Jewelry: Neck Slot
+Description=Necklaces (Random)
+Item={RandomHumanNecklace 1 iGargishNecklace 1}
+
+
+[Template RandomHumanNecklace]
+Category=Templates: Generic
+Subsection=Jewelry: Neck Slot
+Description=Human Necklace (Random) (Human/Elf)
+Item={iMetalBeads 1 iGoldBeads 1 iSilverBeads 1 iGoldNecklace 1 iSilverNecklace 1}
+
+
+// LayerRing
+[Template RandomRing]
+DefName=RandomRingSlot
+Category=Templates: Generic
+Subsection=Jewelry: Ring Slot
+Description=Rings (Random)
+Item={RandomHumanRing 1 iGargishRing 1}
+
+
+[Template RandomHumanRing]
+Category=Templates: Generic
+Subsection=Jewelry: Ring Slot
+Description=Human Ring (Random) (Human/Elf)
+Item={iGoldRing 1 iSilverRing 1}
+
+
+///////////
+// Armor //
+///////////
+
+
+//LayerHead
+[Template RandomHelm]
+Category=Templates: Generic
+Subsection=Armor: Head Slot
+Description=Helm (Random) (All)
+Item={RandomTailoringHelm 1 RandomMetalHelm 1 RandomElfHelm 1}
+
+
+[Template RandomHumanHelm]
+Category=Templates: Generic
+Subsection=Armor: Head Slot
+Description=Human Helm (Random) (Human)
+Item={RandomHumanTailoringHelm 1 RandomHumanMetalHelm 1}
+
+
+[Template RandomTokunoHelm]
+Category=Templates: Generic
+Subsection=Armor: Head Slot
+Description=Tokuno Helm (Random) (Tokuno)
+Item={RandomTokunoLeatherHelm 1 RandomTokunoMetalHelm 1}
+
+
+[Template RandomElfHelm]
+DefName=RandomElvenHelm
+Category=Templates: Generic
+Subsection=Armor: Head Slot
+Description=Elf Helm (Random)
+Item={RandomElfCirclet 1 RandomElfWoodHelm 1}
+
+
+[Template RandomTailoringHelm]
+Category=Templates: Generic
+Subsection=Armor: Head Slot
+Description=Tailoring Helm (Random) (Bone/Leather/Tokuno)
+Item={RandomLeatherHelm 1 RandomHumanBoneHelm 1}
+
+
+[Template RandomHumanTailoringHelm]
+Category=Templates: Generic
+Subsection=Armor: Head Slot
+Description=Human Tailoring Helm (Random) (Bone/Leather)
+Item={iLeatherCap 1 RandomHumanBoneHelm 1}
+
+
+[Template RandomLeatherHelm]
+Category=Templates: Generic
+Subsection=Armor: Head Slot
+Description=Leather Helm (Random)
+Item={iLeatherCap 1 RandomTokunoLeatherHelm 1}
+
+
+[Template RandomTokunoLeatherHelm]
+Category=Templates: Generic
+Subsection=Armor: Head Slot
+Description=Tokuno Leather Helm (Random)
+Item={iLeatherJingasa 1 iLeatherNinjaHood 1}
+
+
+[Template RandomHumanBoneHelm]
+Category=Templates: Generic
+Subsection=Armor: Head Slot
+Description=Human Bone Helm (Random) (Human/Elf)
+Item={iBoneHelm 1 iOrcHelm 1}
+
+
+[Template RandomMetalHelm]
+Category=Templates: Generic
+Subsection=Armor: Head Slot
+Description=Human Metal Helm (Random) (Human/Elf)
+Item={RandomHumanMetalHelm 1 RandomTokunoMetalHelm 1}
+
+
+// Excludes iDragonHelm
+[Template RandomHumanMetalHelm]
+Category=Templates: Generic
+Subsection=Armor: Head Slot
+Description=Human Metal Helm (Random) (Human/Elf)
+Item={iChainmailCoif 1 iBascinet 1 iCloseHelmet 1 iHelmet 1 iNorseHelm 1 iPlateHelm 1}
+
+
+[Template RandomTokunoMetalHelm]
+Category=Templates: Generic
+Subsection=Armor: Head Slot
+Description=Tokuno Metal Helm (Random) (Human/Elf)
+Item={iChainmailHatsuburi 1 iPlatemailHatsuburi 1 iHeavyPlatemailJingasa 1 iLightPlatemailJingasa 1 iSmallPlatemailJingasa 1 iDecorativePlatemailKabuto 1 iPlatemailBattleKabuto 1 iStandardPlatemailKabuto 1}
+
+
+[Template RandomElfCirclet]
+DefName=RandomElvenCirclet
+Category=Templates: Generic
+Subsection=Armor: Head Slot
+Description=Elf Circlet (Random)
+Item={iCirclet 1 iGemmedCirclet 1 iRoyalCirclet 1}
+
+
+[Template RandomElfWoodHelm]
+DefName=RandomElvenWoodHelmet
+Category=Templates: Generic
+Subsection=Armor: Head Slot
+Description=Elf Wood Helm (Random)
+Item={iRavenHelm 1 iVultureHelm 1 iWingedHelm 1}
+
+
+// LayerNeck
+[Template RandomGorget]
+Category=Templates: Generic
+Subsection=Armor: Neck Slot
+Description=Gorget (Random)
+Item={RandomLeatherGorget 1 RandomPlatemailGorget 1}
+
+
+[Template RandomHumanGorget]
+Category=Templates: Generic
+Subsection=Armor: Neck Slot
+Description=Human Gorget (Random)
+Item={iLeatherHumanGorget 1 iPlatemailGorget 1}
+
+
+[Template RandomPlatemailGorget]
+Category=Templates: Generic
+Subsection=Armor: Neck Slot
+Description=Gorget (Random)
+Item={iPlatemailMempo 1 iPlatemailGorget 1}
+
+
+[Template RandomLeatherGorget]
+Category=Templates: Generic
+Subsection=Armor: Neck Slot
+Description=Gorget (Random)
+Item={RandomHumanLeatherGorget 1 iRandomElfLeatherGorget 1 iLeatherMempo 1}
+
+
+[Template RandomHumanLeatherGorget]
+Category=Templates: Generic
+Subsection=Armor: Neck Slot
+Description=Human Leather Gorget (Random)
+Item={iLeatherGorget 1 iStuddedGorget 1}
+
+
+[Template RandomTokunoGorget]
+DefName=RandomTokunoMempo
+Category=Templates: Generic
+Subsection=Armor: Neck Slot
+Description=Tokuno Gorget (Random)
+Item={iLeatherMempo 1 iPlatemailMempo 1}
+
+
+[Template RandomElfGorget]
+DefName=RandomElvenGorget
+Category=Templates: Generic
+Subsection=Armor: Neck Slot
+Description=Elf Gorget (Random)
+Item={iLeafGorget 1 iHideGorget 1}
+
+
+// LayerArms
+
+
+// LayerChest
+
+
+// LayerLegs
+
+
+// LayerHands
+
+
+// LayerLeftHand (Hand2) (Shields)
+[Template RandomShield]
+Category=Templates: Generic
+Subsection=Armor: Hand 2 Slot / Shields
+Description=Shield (Random)
+Item={RandomHumanShield 1 RandomGargoyleShield 1}
+
+
+[Template RandomHumanShield]
+Category=Templates: Generic
+Subsection=Armor: Hand 2 Slot / Shields
+Description=Human Shield (Random)
+Item={iBronzeShield 1 iBuckler 1 iChaosShield 1 iHeaterShield 1 iMetalShield 1 iMetalKiteShield 1 iOrderShield 1 iTearKiteShield 1 iWoodenShield 1}
+
+
+[Template RandomGargoyleShield]
+DefName=RandomGargishShield
+Category=Templates: Generic
+Subsection=Armor: Hand 2 Slot / Shields
+Description=Gargoyle Shield (Random)
+Item={iGargishChaosShield 1 iGargishKiteShield 1 iGargishOrderShield 1 iLargePlateShield 1 iLargeStoneShield 1 iMediumPlateShield 1 iSmallPlateShield 1}
+
+
 
 [DEFNAME items_armor]
+
 Random_leg_armor       { i_studded_leggings 1 i_platemail_leggings 1 i_chainmail_leggings 1 i_leather_leggings 1 i_ringmail_leggings 1 }
 Random_arm_armor       { i_studded_sleeves 1 i_platemail_arms 1 i_leather_sleeves 1 i_ringmail_gloves 1 }
 Random_gloves          { i_studded_gloves 1 i_platemail_gloves 1 i_leather_gloves 1 }
 Random_shield          { i_shield_round_bronze 1 i_shield_buckler 1 i_shield_kite_metal 1 i_shield_heater 1 i_shield_kite_wood 1 i_shield_wood 1 i_shield_round_metal 1 }
-Random_head_armor      { i_chainmail_coif 1 i_helm_closed 1 i_helm_open 1 i_helm_nose 1 i_bascinet 1 i_platemail_helm 1 }
-Random_helmet          { i_helm_closed 1 i_helm_open 1 i_bascinet 1 i_helm_nose 1 i_platemail_helm 1 }
 Random_chest_armor     { i_studded_tunic 1 i_platemail_chest 1 i_chainmail_tunic 1 i_leather_tunic 1 i_ringmail_tunic 1 }
-Random_gorget          { i_platemail_gorget 1 i_leather_gorget 1 i_studded_gorget 1 }
+
 
 [DEFNAME items_other]
 Random_light           { i_candle 1 i_torch 1 i_lantern 1 }
@@ -190,7 +664,6 @@ Random_giftbox         { i_giftbox 1 i_giftbox2 1 i_giftbox3 1 i_giftbox4 1 i_gi
 Random_all_items       { Random_armor_all 3 Random_scroll 3 Random_wearables 2 Random_activators 1 Random_reagent 1 }
 
 [DEFNAME items_Random_armor]
-Random_head_armor          { Random_helms 1 Random_coifs 1 }
 Random_body_armor          { Random_chest_armor 1 Random_leg_armor 1 Random_arm_armor 1 Random_neck_armor 1 Random_head_armor 1 Random_hand_armor 1 }
 Random_chest_armor         { Random_chest_armor_male 2 Random_chest_armor_female 1 }
 Random_leg_armor           { Random_leg_armor_male 2 Random_leg_armor_female 1 }
@@ -200,9 +673,6 @@ Random_chest_armor_female  { i_armor_female_studded 8 i_armor_female_plate 3 i_a
 Random_leg_armor_male      { i_bone_leggings 1 i_chainmail_leggings 10 i_leather_leggings 30 i_studded_leggings 20 i_ringmail_leggings 15 i_platemail_leggings 5 }
 Random_leg_armor_female    { i_armor_female_shorts 5 i_armor_female_skirt 5 i_armor_female_bustier 5 i_armor_female_bustier_studded 5 }
 Random_arm_armor           { i_bone_arms 1 i_leather_sleeves 30 i_studded_sleeves 20 i_ringmail_sleeves 15 i_platemail_arms 5 }
-Random_neck_armor          { i_leather_gorget 3 i_studded_gorget 2 i_platemail_gorget 1 i_studded_gorget 2 }
-Random_helms               { i_platemail_helm 3 i_bone_helmet 1 i_helm_nose 2 } // i_closed, i_open , i_bascinet,
-Random_coifs               { i_chainmail_coif 4 i_helm_closed 6 }
 Random_hand_armor          { i_bone_gloves 3 i_leather_gloves 50 i_studded_gloves 30 i_ringmail_gloves 10 i_platemail_gloves 7 }
 Random_shields             { i_shield_wood 3 i_shield_buckler 2 i_shield_kite_wood 2 i_shield_kite_metal 3 i_shield_heater 1 }
 
