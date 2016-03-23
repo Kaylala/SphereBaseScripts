@@ -1,0 +1,346 @@
+[ItemDef 0]
+DefName=iBronzeShield
+Name=bronze shield
+Type=tShield
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMArk|CanIRetainColor|CanIPowder|CanIEnhance|CanIRegenMana|CanIRegenHits|CanIRegenStam|CanIReforge|CanIImbue|CanIRecycle
+CanUse=CanUHuman|CanUElf|CanUAllGenders
+Weight=6
+ReqStr=35
+SkillMake=Blacksmithing 0
+Resources=12 iIronIngot
+Material=tIngot
+AlterItem=iSmallPlateShield
+
+Category=Equipment
+Subsection=Armor: Shields
+Description=Bronze Shield
+
+On=@Create
+HitPoints={36 48}
+ResCold=1
+
+
+[ItemDef 0]
+DefName=iBuckler
+Name=buckler
+Type=tShield
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMArk|CanIRetainColor|CanIPowder|CanIEnhance|CanIRegenMana|CanIRegenHits|CanIRegenStam|CanIReforge|CanIImbue|CanIRecycle
+CanUse=CanUHuman|CanUElf|CanUAllGenders
+Weight=5
+ReqStr=20
+SkillMake=Blacksmithing 0
+Resources=10 iIronIngot
+Material=tIngot
+AlterItem=iSmallPlateShield
+
+Category=Equipment
+Subsection=Armor: Shields
+Description=Buckler
+
+On=@Create
+HitPoints={36 48}
+ResPoison=1
+
+
+[ItemDef 0]
+DefName=iChaosShield
+Name=chaos shield
+Type=tShield
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMArk|CanIRetainColor|CanIPowder|CanIEnhance|CanIRegenMana|CanIRegenHits|CanIRegenStam|CanIReforge|CanIImbue|CanIRecycle
+CanUse=CanUHuman|CanUElf|CanUAllGenders
+Weight=5
+ReqStr=95
+SkillMake=Blacksmithing 850
+Resources=25 iIronIngot
+Material=tIngot
+AlterItem=iGargishChaosShield
+
+Category=Equipment
+Subsection=Armor: Shields
+Description=Chaos Shield
+
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
+
+
+[ItemDef 0]
+DefName=iHeaterShield
+Name=heater shield
+Type=tShield
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMArk|CanIRetainColor|CanIPowder|CanIEnhance|CanIRegenMana|CanIRegenHits|CanIRegenStam|CanIReforge|CanIImbue|CanIRecycle
+CanUse=CanUHuman|CanUElf|CanUAllGenders
+Weight=8
+ReqStr=90
+SkillMake=Blacksmithing 243
+Resources=18 iIronIngot
+Material=tIngot
+AlterItem=
+
+Category=Equipment
+Subsection=Armor: Shields
+Description=Heater Shield
+
+On=@Create
+HitPoints={36 48}
+ResFire=1
+
+
+[ItemDef 0]
+DefName=iMetalShield
+Name=metal shield
+Type=tShield
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMArk|CanIRetainColor|CanIPowder|CanIEnhance|CanIRegenMana|CanIRegenHits|CanIRegenStam|CanIReforge|CanIImbue|CanIRecycle
+CanUse=CanUHuman|CanUElf|CanUAllGenders
+Weight=6
+ReqStr=45
+SkillMake=Blacksmithing 0
+Resources=14 iIronIngot
+Material=tIngot
+AlterItem=
+
+Category=Equipment
+Subsection=Armor: Shields
+Description=Metal Shield
+
+On=@Create
+HitPoints={36 48}
+ResFire=1
+
+
+[ItemDef 0]
+DefName=iMetalKiteShield
+Name=metal kite shield
+Type=tShield
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMArk|CanIRetainColor|CanIPowder|CanIEnhance|CanIRegenMana|CanIRegenHits|CanIRegenStam|CanIReforge|CanIImbue|CanIRecycle
+CanUse=CanUHuman|CanUElf|CanUAllGenders
+Weight=7
+ReqStr=45
+SkillMake=Blacksmithing 46
+Resources=16 iIronIngot
+Material=tIngot
+AlterItem=
+
+Category=Equipment
+Subsection=Armor: Shields
+Description=Metal Kite Shield
+
+On=@Create
+HitPoints={36 48}
+ResEnergy=1
+
+
+[ItemDef 0]
+DefName=iOrderShield
+Name=order shield
+Type=tShield
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMArk|CanIRetainColor|CanIPowder|CanIEnhance|CanIRegenMana|CanIRegenHits|CanIRegenStam|CanIReforge|CanIImbue|CanIRecycle
+CanUse=CanUHuman|CanUElf|CanUAllGenders
+Weight=7
+ReqStr=95
+SkillMake=Blacksmithing 850
+Resources=25 iIronIngot
+Material=tIngot
+AlterItem=
+
+Category=Equipment
+Subsection=Armor: Shields
+Description=Order Shield
+
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
+
+
+[ItemDef 0]
+DefName=iTearKiteShield
+Name=tear kite shield
+Type=tShield
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMArk|CanIRetainColor|CanIPowder|CanIEnhance|CanIRegenMana|CanIRegenHits|CanIRegenStam|CanIReforge|CanIImbue|CanIRecycle
+CanUse=CanUHuman|CanUElf|CanUAllGenders
+Weight=5
+ReqStr=20
+SkillMake=Blacksmithing 0
+Resources=8 iIronIngot
+Material=tIngot
+AlterItem=
+
+Category=Equipment
+Subsection=Armor: Shields
+Description=Tear Kite Shield
+
+On=@Create
+HitPoints={36 48}
+ResEnergy=1
+
+
+[ItemDef 0]
+DefName=iWoodenShield
+Name=wooden shield
+Type=tShield
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMArk|CanIRetainColor|CanIPowder|CanIEnhance|CanIRegenMana|CanIRegenHits|CanIRegenStam|CanIReforge|CanIImbue|CanIRecycle
+CanUse=CanUHuman|CanUElf|CanUAllGenders
+Weight=5
+ReqStr=20
+SkillMake=Carpentry 526
+Resources=9 iBoard
+Material=tWood
+AlterItem=
+
+Category=Equipment
+Subsection=Armor: Shields
+Description=Wooden Shield
+
+On=@Create
+HitPoints={36 48}
+ResEnergy=1
+
+
+[ItemDef 0]
+DefName=iGargishChaosShield
+Name=gargish chaos shield
+Type=tShield
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMArk|CanIRetainColor|CanIPowder|CanIEnhance|CanIRegenMana|CanIRegenHits|CanIRegenStam|CanIReforge|CanIImbue|CanIRecycle
+CanUse=CanUGargoyle|CanUAllGenders
+Weight=5
+ReqStr=95
+SkillMake=Blacksmithing 850
+Resources=25 iIronIngot
+Material=tIngot
+
+Category=Equipment
+Subsection=Armor: Shields
+Description=Gargish Chaos Shield
+
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
+
+
+[ItemDef 0]
+DefName=iGargishKiteShield
+Name=gargish kite shield
+Type=tShield
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMArk|CanIRetainColor|CanIPowder|CanIEnhance|CanIRegenMana|CanIRegenHits|CanIRegenStam|CanIReforge|CanIImbue|CanIRecycle
+CanUse=CanUGargoyle|CanUAllGenders
+Weight=7
+ReqStr=45
+SkillMake=Blacksmithing 46
+Resources=16 iIronIngot
+Material=tIngot
+
+Category=Equipment
+Subsection=Armor: Shields
+Description=Gargish Kite Shield
+
+On=@Create
+HitPoints={36 48}
+ResEnergy=1
+
+
+[ItemDef 0]
+DefName=iGargishOrderShield
+Name=gargish order shield
+Type=tShield
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMArk|CanIRetainColor|CanIPowder|CanIEnhance|CanIRegenMana|CanIRegenHits|CanIRegenStam|CanIReforge|CanIImbue|CanIRecycle
+CanUse=CanUGargoyle|CanUAllGenders
+Weight=7
+ReqStr=95
+SkillMake=Blacksmithing 850
+Resources=25 iIronIngot
+Material=tIngot
+
+Category=Equipment
+Subsection=Armor: Shields
+Description=Gargish Order Shield
+
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
+
+
+[ItemDef 0]
+DefName=iLargePlateShield
+Name=large plate shield
+Type=tShield
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMArk|CanIRetainColor|CanIPowder|CanIEnhance|CanIRegenMana|CanIRegenHits|CanIRegenStam|CanIReforge|CanIImbue|CanIRecycle
+CanUse=CanUGargoyle|CanUAllGenders
+Weight=8
+ReqStr=90
+SkillMake=Blacksmithing 243
+Resources=18 iIronIngot
+Material=tIngot
+
+Category=Equipment
+Subsection=Armor: Shields
+Description=Large Plate Shield
+
+On=@Create
+HitPoints={36 48}
+ResFire=1
+
+
+[ItemDef 0]
+DefName=iLargeStoneShield
+Name=large stone shield
+Type=tShield
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMArk|CanIRetainColor|CanIPowder|CanIEnhance|CanIRegenMana|CanIRegenHits|CanIRegenStam|CanIReforge|CanIImbue|CanIRecycle
+CanUse=CanUGargoyle|CanUAllGenders
+Weight=7
+ReqStr=20
+SkillMake=Carpentry 550
+Resources=16 iHighQualityGranite
+Material=tGranite
+
+Category=Equipment
+Subsection=Armor: Shields
+Description=Large Stone Shield
+
+On=@Create
+HitPoints={36 48}
+ResPoison=1
+
+
+[ItemDef 0]
+DefName=iMediumPlateShield
+Name=medium plate shield
+Type=tShield
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMArk|CanIRetainColor|CanIPowder|CanIEnhance|CanIRegenMana|CanIRegenHits|CanIRegenStam|CanIReforge|CanIImbue|CanIRecycle
+CanUse=CanUGargoyle|CanUAllGenders
+Weight=6
+ReqStr=45
+SkillMake=Blacksmithing 0
+Resources=14 iIronIngot
+Material=tIngot
+
+Category=Equipment
+Subsection=Armor: Shields
+Description=Medium Plate Shield
+
+On=@Create
+HitPoints={36 48}
+ResFire=1
+
+
+[ItemDef 0]
+DefName=iSmallPlateShield
+Name=small plate shield
+Type=tShield
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMArk|CanIRetainColor|CanIPowder|CanIEnhance|CanIRegenMana|CanIRegenHits|CanIRegenStam|CanIReforge|CanIImbue|CanIRecycle
+CanUse=CanUGargoyle|CanUAllGenders
+Weight=6
+ReqStr=20
+SkillMake=Blacksmithing 0
+Resources=12 iIronIngot
+Material=tIngot
+
+Category=Equipment
+Subsection=Armor: Shields
+Description=Small Plate Shield
+
+On=@Create
+HitPoints={36 48}
+ResCold=1
+
+
+[EOF]
