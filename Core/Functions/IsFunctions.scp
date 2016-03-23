@@ -10,6 +10,20 @@ ForItems <ArgS>
 EndFor
 Return 0
 
+[FUNCTION IsCursed]
+If (<NPC> >= 0)
+	ForCharLayer 32
+		If (<BaseID>==iCurseRune)
+			Return 1
+		EndIf
+	EndFor
+	Return 0
+EndIf
+If (<Attr> &AttrCursed)
+	Return 1
+EndIf
+Return 0
+
 [Function IsAlterable]
 Return <Qval (<AlterItem> != 0) ? 1 : 0>
 
