@@ -688,37 +688,37 @@ memory_gumprecord    08000   // UNUSED!!!! i've a gump opened TAG.DIALOG_NAME co
 
 [DefName stat_flags]
 // apply to chars
-statf_invul		 000000001   // invulnerability
-statf_dead		  000000002
-statf_freeze		000000004   // paralyzed. (spell)
-statf_invisible	   000000008   // invisible (spell).
-statf_sleeping	    000000010   // you look like a corpse ?
-statf_war		   000000020   // war mode on ?
-statf_reactive	    000000040   // have reactive armor on.
-statf_poisoned	    000000080   // poison level is in the poison object
-statf_nightsight	  000000100   // all a light to you
-statf_reflection	  000000200   // magic reflect on.
-statf_polymorph	   000000400   // we have polymorphed to another form.
-statf_incognito	   000000800   // dont show skill titles
-statf_spiritspeak	 000001000   // i can hear ghosts clearly.
-statf_insubstantial     000002000   // ghost has not manifest. or gm hidden
-statf_emoteaction	 000004000   // the creature will emote its actions to it's owners.
-statf_commcrystal	 000008000   // the char can speak to a comm crystal in his bag
-statf_hasshield	   000010000   // using a shield
-statf_archercanmove     000020000   // can move with archery
-statf_stone		 000040000   // turned to stone.
-statf_hovering	    000080000   // hovering (gargoyle flight)
-statf_fly		   000100000   // flying or running ? (anim)
-statf_hallucinating     000400000   // eat 'shrooms or bad food.
-statf_hidden		000800000   // hidden (non-magical)
-statf_indoors	     001000000   // we are covered from the rain.
-statf_criminal	    002000000   // the guards will attack me. (someone has called guards)
-statf_conjured	    004000000   // this creature is conjured and will expire. (leave no corpse or loot)
-statf_pet		   008000000   // i am a pet/hirling. check for my owner memory.
-statf_spawned	     010000000   // i am spawned by a spawn item.
-statf_saveparity	  020000000   // has this char been saved or not ?
-statf_ridden		040000000   // this is the horse. (don't display me) i am being ridden
-statf_onhorse	     080000000   // Mounted on horseback.
+StatFInvulnerable			000000001   // invulnerability
+StatFDead					000000002
+StatFParalyzed				000000004   // paralyzed. (spell)
+StatFInvisible				000000008   // invisible (spell).
+StatFSleeping				000000010   // you look like a corpse ?
+StatFWarMode				000000020   // war mode on ?
+StatFReactive				000000040   // have reactive armor on.
+StatFPoisoned				000000080   // poison level is in the poison object
+StatFNightsight				000000100   // all a light to you
+StatFReflection				000000200   // magic reflect on.
+StatFPolymorph				000000400   // we have polymorphed to another form.
+StatFIncognito				000000800   // dont show skill titles
+StatFSpiritSpeak			000001000   // i can hear ghosts clearly.
+StatFInsubstantial			000002000   // ghost has not manifest. or gm hidden
+StatFEmoteAction			000004000   // the creature will emote its actions to it's owners.
+StatFCommunicationCrystal	000008000   // the char can speak to a comm crystal in his bag
+StatFHasShield				000010000   // using a shield
+StatFArcherCanMove			000020000   // can move with archery
+StatFPetrified				000040000   // turned to stone.
+StatFHovering				000080000   // hovering (gargoyle flight)
+StatFFly					000100000   // flying or running ? (anim)
+StatFHallucinating			000400000   // eat 'shrooms or bad food.
+StatFHidden					000800000   // hidden (non-magical)
+StatFIndoors				001000000   // we are covered from the rain.
+StatFCriminal				002000000   // the guards will attack me. (someone has called guards)
+StatFConjured				004000000   // this creature is conjured and will expire. (leave no corpse or loot)
+StatFPet					008000000   // i am a pet/hirling. check for my owner memory.
+StatFSpawned				010000000   // i am spawned by a spawn item.
+StatFSaveParity				020000000   // has this char been saved or not ?
+StatFRidden					040000000   // this is the horse. (don't display me) i am being ridden
+StatFOnMount				080000000   // Mounted on horseback.
 
 [DefName Attr_flags]
 // apply to items
@@ -901,315 +901,269 @@ MidiSherrysSong			100
 MidiStarlightInBritain		101
 MidiTheVesperMist		102
 
-[DefName needstofix]
-// need to be defined. needs and aversions
-// none 0
-// area types.
-r_guardpost	     tJunk
-r_docks		   tJunk
-r_foliage		 r_jungle
-r_desert		  tJunk
-r_plains		  tJunk
-r_civilization	  tJunk
-r_caves		   tJunk
-r_stables		 tJunk
-r_house		   tJunk
-r_snow		    tJunk
-r_magical		 tJunk
-r_Mountains	     tJunk
-r_Mountains_volcanic  tJunk
-r_jail		    tJunk
-r_darkness		tJunk
-r_light		   tJunk
-r_sewers		  tJunk
-//no longer used?
-r_goblin_camp				tJunk
-r_dungeon_terathan_keep		tJunk
-r_dungeon_bedlam			tJunk
-r_dungeon_blighted_grove	tJunk
-r_dungeon_citadel			tJunk
-r_dungeon_prism_of_light	tJunk
-r_dungeon_twisted_weald		tJunk
-r_orc_camp					tJunk
-r_ruins						tJunk
-r_dungeon_doom				tJunk
-r_dungeon_paroxysmus		tJunk
-r_dungeon_exodus			tJunk
-r_dungeon_khaldun			tJunk
-r_dungeon_destard			tJunk
-r_dungeon_fire				tJunk
-r_dungeon_abyss				tJunk
-r_dungeon_labyrinth			tJunk
-r_black_castle				tJunk
 // item types
-
 // Should PEND REMOVAL the following:
-//tCarpentryChop=46 // tool of some sort. (Note: Why two?) Why are there 2 can we remove one?
-//tUnused93			93 // (Deprecated)
-//tEqNPCScript			95 // Script npc actions in the form of a book. (Deprecated)
-//tUnused122			122 // (Deprecated)
-//tUnused159			159 // (Deprecated)
-//tScript			183 // (Deprecated)
+//tCarpentryChop			46 // tool of some sort. (Note: Why two?) Why are there 2 can we remove one?
 
 // Replacements:
-// tVegetable			93
-// tMasonryTool			95 // Masonry Tool (iMalletAndChisel)
-// tBoulder			98 //(Makes more sense honestly)
-// tMeat			122 //(Note: Should replace tMeatRaw, but could be used as Cooked Edible Meat)
+// tVegetable				93
+// tMasonryTool				95 // Masonry Tool (iMalletAndChisel)
+// tBoulder					98 //(Makes more sense honestly)
+// tMeat					122 //(Note: Should replace tMeatRaw, but could be used as Cooked Edible Meat)
 // tInscriptionTool			159 // Inscription Tool
-// tShovel			183 // Used as a pickaxe for Mining/Sand acquisition.
+// tShovel					183 // Used as a pickaxe for Mining/Sand acquisition.
 
 [TYPEDEFS]
-tNormal				0
-tContainer			1 // any unlocked container or corpse. ccontainer based
-tLockedContainer		2
-tDoor				3 // door can be opened
-tLockedDoor			4 // a locked door.
-tKey				5
-tLitLight			6 // local light giving object
-tUnlitLight			7 // can be lit.
-tFood				8 // edible food. (poisoned food ?)
-tRawFood			9 // must cook raw food unless your an animal.
-tArmor				10 // some type of armor. (no real action)
-tMetalArmor			tArmor
-tHammerWeapon			11 // can be used for smithing(Was tWeaponMaceSmith)
-tWarAxeWeapon			12 // war axe can be used to cut/chop trees. (Was tWeaponMaceSharp)
-tSwordWeapon			13 // (Note: Was t_Weapon_Sword)
-tSlashingWeapon			tSwordWeapon
-tFencingWeapon			14 // can't be used to chop trees. (make kindling)
-tPiercingWeapon			tFencingWeapon
-tBowWeapon			15 // bow (or xbow)
-tArcheryWeapon			tBowWeapon
-tWand				16 // a magic storage item
-tTelepad			17 // walk on teleport
-tSwitch				18 // this is a switch, affects some other object in the world.
-tBook				19 // read this book. (static or dynamic text)
-tRune				20 // can be marked and renamed as a recall rune.
-tAlcohol			21 // booze	(drunk effect)
-tBooze				tAlcohol
-tPotion				22 // some magic effect.
-tFire				23 // it will burn you.
-tClock				24 // or a wristwatch
-tTrap				25 // walk on trap.
-tActivedTrap			26 // some animation (Note: Was tTrapActive)
-tInstrument			27 // a musical instrument.
-tMusical			tInstrument
-tSpell				28 // magic spell effect.
-tGem				29 // no use yet
-tWater				30 // this is water (fishable) (not a glass of water)
-tClothing			31 // all cloth based wearable stuff
-tScroll				32 // magic scroll
-tCarpentryTool			33 // tool of some sort. (Note: Why two?) (Was tCarpentry)
-tSpawnChar			34 // spawn object. should be invis also.
-tGamePiece			35 // can't be removed from game.
-tPortculis			36 // z delta moving gate. (open)
-tFigurine			37 // magic figure that turns into a creature when activated.
-tShrine				38 // can res you
-tMoongate			39 // linked to other moon gates (hard coded locations)
-tChair				40 // any sort of a chair item. we can sit on.
-tForge				41 // used to smelt ore blacksmithy etc.
-tOre				42 // smelt to ingots.
-tLog				43 // make into furniture etc. lumberlogs
-tTree				44 // can be chopped.
-tRock				45 // can be mined for ore.
-//tCarpentryChop		46 // tool of some sort. (Note: Why two?)
-tMulti				47 // multi part object like house or ship.
-tReagent			48 // alchemy when clicked ?
-tShipMulti			49 // this is a ship multi (Note: Was tShip)
-tShipPlank			50 //
-tShipSide			51 // should extend to make a plank
-tShipSideLocked			52 //
-tShipTiller			53 // tiller man on the ship.
-tEqTradeWindow			54 // container for the trade window.
-tFish				55 // fish can be cut up.
-tSignGump			56 // things like grave stones and sign plaques
-tGuildStone			57 // guild stones
-tActiveAnimation		58 // active anium that will recycle when done.
-tSand				59 // sand on the beach
-tCloth				60 // bolt or folded cloth
-tHair				61 //
-tBeard				62 // just for grouping purposes.
-tIngot				63 // ingot.
-tCoin				64 // coin of some sort. gold or otherwise.
-tCrops				65 // a plant that will regrow. picked type.
-tDrink				66 // some sort of drink (non booze)
-tAnvil				67 // for repair.
-tLockedPortculis		68 // this portcullis must be triggered.
-tLockedPort			tLockedPortculis
-tSpawnItem			69 // spawn other items.
-tTelescope			70 // big telescope pic.
-tBed				71 // bed.
-tGold				72 // gold coin
-tMap				73 // map object with pins.
-tEqMemoryObj			74 // char has memory link to some obj. (i am fighting with someone. this records the fight.)
-tStaffWeapon			75 // staff type of mace. (Note: was t_Weapon_Mace_Staff)
-tEqHorse			76 // equipped horse obj represents a mount to the client.
+tNormal						0
+tContainer					1 // any unlocked container or corpse. ccontainer based
+tLockedContainer			2
+tDoor						3 // door can be opened
+tLockedDoor					4 // a locked door.
+tKey						5
+tLitLight					6 // local light giving object
+tUnlitLight					7 // can be lit.
+tFood						8 // edible food. (poisoned food ?)
+tRawFood					9 // must cook raw food unless your an animal.
+tArmor						10 // some type of armor. (no real action)
+tMetalArmor					tArmor
+tHammerWeapon				11 // can be used for smithing(Was tWeaponMaceSmith)
+tWarAxeWeapon				12 // war axe can be used to cut/chop trees. (Was tWeaponMaceSharp)
+tSwordWeapon				13 // (Note: Was t_Weapon_Sword)
+tSlashingWeapon				tSwordWeapon
+tFencingWeapon				14 // can't be used to chop trees. (make kindling)
+tPiercingWeapon				tFencingWeapon
+tBowWeapon					15 // bow (or xbow)
+tArcheryWeapon				tBowWeapon
+tWand						16 // a magic storage item
+tTelepad					17 // walk on teleport
+tSwitch						18 // this is a switch, affects some other object in the world.
+tBook						19 // read this book. (static or dynamic text)
+tRune						20 // can be marked and renamed as a recall rune.
+tAlcohol					21 // booze	(drunk effect)
+tBooze						tAlcohol
+tPotion						22 // some magic effect.
+tFire						23 // it will burn you.
+tClock						24 // or a wristwatch
+tTrap						25 // walk on trap.
+tActivedTrap				26 // some animation (Note: Was tTrapActive)
+tInstrument					27 // a musical instrument.
+tMusical					tInstrument
+tSpell						28 // magic spell effect.
+tGem						29 // no use yet
+tWater						30 // this is water (fishable) (not a glass of water)
+tClothing					31 // all cloth based wearable stuff
+tScroll						32 // magic scroll
+tCarpentryTool				33 // tool of some sort. (Note: Why two?) (Was tCarpentry)
+tSpawnChar					34 // spawn object. should be invis also.
+tGamePiece					35 // can't be removed from game.
+tPortculis					36 // z delta moving gate. (open)
+tFigurine					37 // magic figure that turns into a creature when activated.
+tShrine						38 // can res you
+tMoongate					39 // linked to other moon gates (hard coded locations)
+tChair						40 // any sort of a chair item. we can sit on.
+tForge						41 // used to smelt ore blacksmithy etc.
+tOre						42 // smelt to ingots.
+tLog						43 // make into furniture etc. lumberlogs
+tTree						44 // can be chopped.
+tRock						45 // can be mined for ore.
+//tCarpentryChop			46 // tool of some sort. (Note: Why two?)
+tMulti						47 // multi part object like house or ship.
+tReagent					48 // alchemy when clicked ?
+tShipMulti					49 // this is a ship multi (Note: Was tShip)
+tShipPlank					50 //
+tShipSide					51 // should extend to make a plank
+tShipSideLocked				52 //
+tShipTiller					53 // tiller man on the ship.
+tEqTradeWindow				54 // container for the trade window.
+tFish						55 // fish can be cut up.
+tSignGump					56 // things like grave stones and sign plaques
+tGuildStone					57 // guild stones
+tActiveAnimation			58 // active anim that will recycle when done.
+tSand						59 // sand on the beach
+tCloth						60 // bolt or folded cloth
+tHair						61 //
+tBeard						62 // just for grouping purposes.
+tIngot						63 // ingot.
+tCoin						64 // coin of some sort. gold or otherwise.
+tCrops						65 // a plant that will regrow. picked type.
+tDrink						66 // some sort of drink (non booze)
+tAnvil						67 // for repair.
+tLockedPortculis			68 // this portcullis must be triggered.
+tLockedPort					tLockedPortculis
+tSpawnItem					69 // spawn other items.
+tTelescope					70 // big telescope pic.
+tBed						71 // bed.
+tGold						72 // gold coin
+tMap						73 // map object with pins.
+tEqMemoryObj				74 // char has memory link to some obj. (i am fighting with someone. this records the fight.)
+tStaffWeapon				75 // staff type of mace. (Note: was t_Weapon_Mace_Staff)
+tEqHorse					76 // equipped horse obj represents a mount to the client.
 tCommunicationCrystal		77 // Communication Crystal (Note: Does this work? How?)
-tCommCrystal			tCommunicationCrystal
-tGameBoard			78 // this is a container of pieces.
-tTrashCan			79 // delete any object dropped on it.
-tCannonMuzzle			80 // cannon muzzle. not the other cannon parts.
-tCannon				81 // the rest of the cannon.
-tCannonBall			82 //
-tLeatherArmor			83 // non metallic armor (t_clothing) (Was t_Armor_Leather)
-tSeed				84 // fruit to seed
-tJunk				85 // never used (Note: What's the difference between this and tGarbage?)
-tCrystalBall			86 // (Note: What does this do?)
-tSwamp				87 // swamp (smelly)
-tMessage			88 // user written message item. (for bboard usually)
-tRawReagent			89 // freshly grown reagents...not processed yet.
-tEqClientLinger			90 // change player to npc for a while.
-tSnow				91 // snow
-tItStone			92 // double click for items
-tVegetable			93 // Vegetable (Note: Was t_Unused_93)
-tExplosion			94 // ASync explosion.
-tMasonryTool			95 // Masonry Tool (Item: iMalletAndChisel)
-tWeb				96 // Walk on this and transform into some other object.
-tGrass				97 // Can be eaten by grazing animals
-tBouder				98 // Throwable boulder (Note: was tARock)
-tTracker			99 // Points to a linked object.
-tSound				100 // this is a sound source.
-tTownStone			101 // town stones. everyone free to join.
-tCrookWeapon			102 // Herding (Note: Was t_Weapon_Mace_Crook)
-tPickaxeWeapon			103 // (Note: Was t_Weapon_Mace_Pick)
-tCutLeather			104 // leather or skins of some sort.(Note: Was t_Leather)
-tShipPart			105 // some other part of a ship. (Note: Was t_Ship_Other)
-tBulletinBoard			106 // a container and bboard object.
-tBBoard				tBulletingBoard
-tSpellbook			107 // spellbook (with spells)
-tCorpse				108 // special type of item.
-tTrackItem			109 // track a id or type of item.
-tTrackChar			110 // track a char or range of char id's
-tArrow				111 // Bow Ammunition
-tCrossbowBolt			112 // Crossbow Ammunition
-tBolt				tCrossbowBolt
-tEqVendorBox			113 // an equipped vendor .
-tEqBankBox			114 // an equipped bank box
-tDeed				115
-tLoom				116
-tBeeHive			117
-tArcheryButte			118
-tEqMurderCount			119 // my murder count flag.
-tEqStuck			120 // we are stuck in a web (How does this function?)
-tInactiveTrap			121 // a safe trap (Deactivated).
-tMeat				122 // Cooked Meat (Note: was t_Unused_122)
-tBandage			123 // can be used for healing.
-tCampfire			124 // this is a fire but a small one.
-tBlankMap			125
-tSpyGlass			126
-tSextant			127
-tBlankScroll			128
-tFruit				129
-tWashWater			130 // water that doesn't contain fish. (for washing/drinking)
-tAxeWeapon			131 // not the same as a sword. but uses swordsmanship skill
-tCrossbowWeapon			132
-tXBowWeapon			tCrossbowWeapon
-tSpellIcon			133
-tOpenDoor			134
-tRawMeat			135 // just a meaty part of a corpse. (uncooked meat)
-tGarbage			136
-tKeyring			137
-tTable				138 // doesn't really do anything.
-tFloor				139
-tRoof				140
-tFeather			141 // a birds feather
-tWool				142 // wool cut frm a sheep.
-tFur				143
-tBlood				144 // blood of some creature
-tFoliage			145 // does not go invis when reaped. but will if eaten
-tGrain				146
-tScissors			147
-tThread				148
-tYarn				149
-tSpinningWheel			150
-tBloodyBandage			151 // can't be used for healing.
-tFishingPole			152 // (Note: Was t_Fish_Pole)
-tShaft				153 // bolt or arrow. (Note: Should we use a different name?)
-tLockpick			154
-tKindling			155
-tTrainingDummy			156
-tPickpocketDip			157
-tBedroll			158
-tInscriptionTool		159 // Inscription Tool (Item: iScribesPen)
-tHides				160 // Cut into leather. (plural like EA (Pile of Hides); was tHide)
-tClothBolt			161
-tBoard				162 // logs are plained into decent lumber
-tPitcher			163
-tEmptyPitcher			164
-tDyeVat				165
-tDye				166
-tEmptyBottle			167 // empty bottle.
-tEmptyPotion			tEmptyBottle
-tAlchemyTool			168
-tHairDye			169
-tTailoringTool			170
-tSewingKit			tTailoringTool
-tTinkeringTool			171
-tWall				172 // wall of a structure.
-tWindow				173 // window for a structure.
-tCotton				174 // cotton from the plant
-tBone				175
-tEqScript			176 // pure scriptable item equipped.
-tShipHold			177 // ships hold.
-tShipHoldLocked			178
-tLava				179
-tShield				180 // equippable armor.
-tJewelry			181
-tDirt				182 // a patch of dirt where i can plant something
-tShovel				183 // Shovel for mining
+tCommCrystal				tCommunicationCrystal
+tGameBoard					78 // this is a container of pieces.
+tTrashCan					79 // delete any object dropped on it.
+tCannonMuzzle				80 // cannon muzzle. not the other cannon parts.
+tCannon						81 // the rest of the cannon.
+tCannonBall					82 //
+tLeatherArmor				83 // non metallic armor (t_clothing) (Was t_Armor_Leather)
+tSeed						84 // fruit to seed
+tJunk						85 // never used (Note: What's the difference between this and tGarbage?)
+tCrystalBall				86 // (Note: What does this do?)
+tSwamp						87 // swamp (smelly)
+tMessage					88 // user written message item. (for bboard usually)
+tRawReagent					89 // freshly grown reagents...not processed yet.
+tEqClientLinger				90 // change player to npc for a while.
+tSnow						91 // snow
+tItStone					92 // double click for items
+tVegetable					93 // Vegetable (Note: Was t_Unused_93)
+tExplosion					94 // ASync explosion.
+tMasonryTool				95 // Masonry Tool (Item: iMalletAndChisel)
+tWeb						96 // Walk on this and transform into some other object.
+tGrass						97 // Can be eaten by grazing animals
+tBouder						98 // Throwable boulder (Note: was tARock)
+tTracker					99 // Points to a linked object.
+tSound						100 // this is a sound source.
+tTownStone					101 // town stones. everyone free to join.
+tCrookWeapon				102 // Herding (Note: Was t_Weapon_Mace_Crook)
+tPickaxeWeapon				103 // (Note: Was t_Weapon_Mace_Pick)
+tCutLeather					104 // leather or skins of some sort.(Note: Was t_Leather)
+tShipPart					105 // some other part of a ship. (Note: Was t_Ship_Other)
+tBulletinBoard				106 // a container and bboard object.
+tBBoard						tBulletingBoard
+tSpellbook					107 // spellbook (with spells)
+tCorpse						108 // special type of item.
+tTrackItem					109 // track a id or type of item.
+tTrackChar					110 // track a char or range of char id's
+tArrow						111 // Bow Ammunition
+tCrossbowBolt				112 // Crossbow Ammunition
+tBolt						tCrossbowBolt
+tEqVendorBox				113 // an equipped vendor .
+tEqBankBox					114 // an equipped bank box
+tDeed						115
+tLoom						116
+tBeeHive					117
+tArcheryButte				118
+tEqMurderCount				119 // my murder count flag.
+tEqStuck					120 // we are stuck in a web (How does this function?)
+tInactiveTrap				121 // a safe trap (Deactivated).
+tMeat						122 // Cooked Meat (Note: was t_Unused_122)
+tBandage					123 // can be used for healing.
+tCampfire					124 // this is a fire but a small one.
+tBlankMap					125
+tSpyGlass					126
+tSextant					127
+tBlankScroll				128
+tFruit						129
+tWashWater					130 // water that doesn't contain fish. (for washing/drinking)
+tAxeWeapon					131 // not the same as a sword. but uses swordsmanship skill
+tCrossbowWeapon				132
+tXBowWeapon					tCrossbowWeapon
+tSpellIcon					133
+tOpenDoor					134
+tRawMeat					135 // just a meaty part of a corpse. (uncooked meat)
+tGarbage					136
+tKeyring					137
+tTable						138 // doesn't really do anything.
+tFloor						139
+tRoof						140
+tFeather					141 // a birds feather
+tWool						142 // wool cut frm a sheep.
+tFur						143
+tBlood						144 // blood of some creature
+tFoliage					145 // does not go invis when reaped. but will if eaten
+tGrain						146
+tScissors					147
+tThread						148
+tYarn						149
+tSpinningWheel				150
+tBloodyBandage				151 // can't be used for healing.
+tFishingPole				152 // (Note: Was t_Fish_Pole)
+tShaft						153 // bolt or arrow. (Note: Should we use a different name?)
+tLockpick					154
+tKindling					155
+tTrainingDummy				156
+tPickpocketDip				157
+tBedroll					158
+tInscriptionTool			159 // Inscription Tool (Item: iScribesPen)
+tHides						160 // Cut into leather. (plural like EA (Pile of Hides); was tHide)
+tClothBolt					161
+tBoard						162 // logs are plained into decent lumber
+tPitcher					163
+tEmptyPitcher				164
+tDyeVat						165
+tDye						166
+tEmptyBottle				167 // empty bottle.
+tEmptyPotion				tEmptyBottle
+tAlchemyTool				168
+tHairDye					169
+tTailoringTool				170
+tSewingKit					tTailoringTool
+tTinkeringTool				171
+tWall						172 // wall of a structure.
+tWindow						173 // window for a structure.
+tCotton						174 // cotton from the plant
+tBone						175
+tEqScript					176 // pure scriptable item equipped.
+tShipHold					177 // ships hold.
+tShipHoldLocked				178
+tLava						179
+tShield						180 // equippable armor.
+tJewelry					181
+tDirt						182 // a patch of dirt where i can plant something
+tShovel						183 // Shovel for mining
 tNecromancySpellbook		184 // Necromancy spellbook (MOREZ=100 by default)
-tChivalrySpellbook		185 // AOS Paladin spellbook (MOREZ=200 by default)
-tExtraSpellbook			186 // For custom spellbook (MOREZ=basic offset, should be 1000+)
-tBushidoSpellbook		187 // Bushido spellbook (MOREZ=400 by default)
-tNinjitsuSpellbook		188 // Ninjitsu spellbook (MOREZ=500 by default)
+tChivalrySpellbook			185 // AOS Paladin spellbook (MOREZ=200 by default)
+tExtraSpellbook				186 // For custom spellbook (MOREZ=basic offset, should be 1000+)
+tBushidoSpellbook			187 // Bushido spellbook (MOREZ=400 by default)
+tNinjitsuSpellbook			188 // Ninjitsu spellbook (MOREZ=500 by default)
 tSpellweavingSpellbook		189 // Spellweaving spellbook (MOREZ=600 by default)
-tCustomMulti			190 // Customisable multi
-tMysticismSpellbook		191 // Mysticism spellbook (MOREZ=677 by default)
-tHoverOver			192 // Hover-over item (CanIHover can hover over blocking items)
-tBardSpellbook			193 // Bard spellbook (MOREZ=700 by default)
-tThrowingWeapon			194 // Throwing Weapon
-tCartographyTool		195 // cartography tool  (Item: iMapmakersPen)
-tCookingTool			196 // cooking tool
-tPilot				197 // tPilot (PacketWheelBoatMove)
-tRope				198 // almost as ship plank, not lockable by default.
-tHealingStone			199
+tCustomMulti				190 // Customisable multi
+tMysticismSpellbook			191 // Mysticism spellbook (MOREZ=677 by default)
+tHoverOver					192 // Hover-over item (CanIHover can hover over blocking items)
+tBardSpellbook				193 // Bard spellbook (MOREZ=700 by default)
+tThrowingWeapon				194 // Throwing Weapon
+tCartographyTool			195 // cartography tool  (Item: iMapmakersPen)
+tCookingTool				196 // cooking tool
+tPilot						197 // tPilot (PacketWheelBoatMove)
+tRope						198 // almost as ship plank, not lockable by default.
+tHealingStone				199
 
 // Add the Following
-tCombatSpellbook		200 // The special move book.
+tCombatSpellbook			200 // The special move book.
 tSkillMasterySpellbook		201 // New Skill Mastery book.
-tReserved			202 // Reserved for any new Spellbook coming
+tReserved					202 // Reserved for any new Spellbook coming
 // New resources
-tGranite			203 // Granite Resource for masonry
-tWood				204 // Catch all (tBoard, tLog)
-tGlass				205 // Glass resource.
-tScute				206 // Scute resource.
-tDragonScales			207 // Dragon Scales resource.
-tIngredient			208 // For imbuing and peerless ingredients.
-tStone				209 // Catch all (tGranite (For now))
-tMetal				210 // Catch all (tIngot, tOre)
-tLeather			211 // Catch all (tCutLeater, tHides)
+tGranite					203 // Granite Resource for masonry
+tWood						204 // Catch all (tBoard, tLog)
+tGlass						205 // Glass resource.
+tScute						206 // Scute resource.
+tDragonScales				207 // Dragon Scales resource.
+tIngredient					208 // For imbuing and peerless ingredients.
+tStone						209 // Catch all (tGranite (For now))
+tMetal						210 // Catch all (tIngot, tOre)
+tLeather					211 // Catch all (tCutLeater, tHides)
 
-tMagic				252 // (Note: Been used forever as placeholder (Why?))
-tEerieStuff			253 // As above
-tBowcraftingTool		254 // Bowcrafting Tools: (Item: iFletchersTools)
-tFletchersTool			tBowcraftingTool
-tArchway			255 // Needs hardcode support: Reduces player/mount height to get under.
-tGore				256 // Should be used for body parts/Skeletons/etc.
-tCandy				257 // Holiday Candy items.
-tShuriken			258 // Shuriken Ammo
-tFukiyaDart			259 // Fukiya Dart Ammo
-tFukiya				260 // Fukiya
-tNinjaBelt			261 // Ninja Belt
+tMagic						252 // (Note: Been used forever as placeholder (Why?))
+tEerieStuff					253 // As above
+tBowcraftingTool			254 // Bowcrafting Tools: (Item: iFletchersTools)
+tFletchersTool				tBowcraftingTool
+tArchway					255 // Needs hardcode support: Reduces player/mount height to get under.
+tGore						256 // Should be used for body parts/Skeletons/etc.
+tCandy						257 // Holiday Candy items.
+tShuriken					258 // Shuriken Ammo
+tFukiyaDart					259 // Fukiya Dart Ammo
+tFukiya						260 // Fukiya
+tNinjaBelt					261 // Ninja Belt
 
 
 // Experimental
-tHeadwear			300 // Should be added in Armor checks. (Hats and helms)
+tHeadwear					300 // Should be added in Armor checks. (Hats and helms)
 
 //Add custom types after 500 to leave room for future hardcoded types
-tForest				500   // Forest Tiles
-tJungle				501   // Jungle Tiles
-tFurniture			502   // Furniture (Note: Is this House Addon?)
-tSoulForge			503   // Soul Forge
+tForest						500   // Forest Tiles
+tJungle						501   // Jungle Tiles
+tFurniture					502   // Furniture (Note: Is this House Addon?)
+tSoulForge					503   // Soul Forge
 
 [DefName Layers]
 LayerHand1				1 // Weapons (Right Hand)

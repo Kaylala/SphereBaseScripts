@@ -1,0 +1,596 @@
+[Comment Notes]
+Needs heavy editing still.
+Double check all applicable TypeDefs.
+Cleanup any bad code and Dupe Lists.
+
+[ItemDef 037a0]
+DefName=iFxBladeField
+Type=tTrapActive
+DupeList=037a1,037a2,037a3,037a4,037a5,037a6,037a7,037a8,037a9,037aa,037ab,037ac,037ad,037ae,037af,037b0,037b1,037b2,037b3,037b4,037b5,037b6,037b7,037b8
+
+Category=Effects
+Subsection=Fields
+Description=Field of Blades
+
+[ItemDef 037a1]
+DupeItem=037a0
+
+[ItemDef 037a2]
+DupeItem=037a0
+
+[ItemDef 037a3]
+DupeItem=037a0
+
+[ItemDef 037a4]
+DupeItem=037a0
+
+[ItemDef 037a5]
+DupeItem=037a0
+
+[ItemDef 037a6]
+DupeItem=037a0
+
+[ItemDef 037a7]
+DupeItem=037a0
+
+[ItemDef 037a8]
+DupeItem=037a0
+
+[ItemDef 037a9]
+DupeItem=037a0
+
+[ItemDef 037aa]
+DupeItem=037a0
+
+[ItemDef 037ab]
+DupeItem=037a0
+
+[ItemDef 037ac]
+DupeItem=037a0
+
+[ItemDef 037ad]
+DupeItem=037a0
+
+[ItemDef 037ae]
+DupeItem=037a0
+
+[ItemDef 037af]
+DupeItem=037a0
+
+[ItemDef 037b0]
+DupeItem=037a0
+
+[ItemDef 037b1]
+DupeItem=037a0
+
+[ItemDef 037b2]
+DupeItem=037a0
+
+[ItemDef 037b3]
+DupeItem=037a0
+
+[ItemDef 037b4]
+DupeItem=037a0
+
+[ItemDef 037b5]
+DupeItem=037a0
+
+[ItemDef 037b6]
+DupeItem=037a0
+
+[ItemDef 037b7]
+DupeItem=037a0
+
+[ItemDef 037b8]
+DupeItem=037a0
+
+
+[ItemDef 03914]
+//Badly animated poison field
+Category=Effects
+Subsection=Poison Fields
+Description=Poison Field (Badly animated?)
+
+
+[ItemDef 03915]
+DefName=iFxPoisonField
+Type=tSpell
+DupeList=03916,03917,03918,03919,0391a,0391b,0391c,0391d,0391e,0391f
+
+Category=Effects
+Subsection=Poison Fields
+Description=Poison Field West/East
+
+[ItemDef 03916]
+DupeItem=03915
+
+[ItemDef 03917]
+DupeItem=03915
+
+[ItemDef 03918]
+DupeItem=03915
+
+[ItemDef 03919]
+DupeItem=03915
+
+[ItemDef 0391a]
+DupeItem=03915
+
+[ItemDef 0391b]
+DupeItem=03915
+
+[ItemDef 0391c]
+DupeItem=03915
+
+[ItemDef 0391d]
+DupeItem=03915
+
+[ItemDef 0391e]
+DupeItem=03915
+
+[ItemDef 0391f]
+DupeItem=03915
+
+[ItemDef 03920]
+DupeItem=03921
+
+
+[ItemDef 03921]
+DefName=iFxPoisonFieldNs
+Type=tSpell
+DupeList=03920,03922,03923,03924,03925,03926,03927,03928,03929
+
+Category=Effects
+Subsection=Poison Fields
+Description=Poison Field North/South
+
+[ItemDef 03922]
+DupeItem=03921
+
+[ItemDef 03923]
+DupeItem=03921
+
+[ItemDef 03924]
+DupeItem=03921
+
+[ItemDef 03925]
+DupeItem=03921
+
+[ItemDef 03926]
+DupeItem=03921
+
+[ItemDef 03927]
+DupeItem=03921
+
+[ItemDef 03928]
+DupeItem=03921
+
+[ItemDef 03929]
+DupeItem=03921
+
+
+[ItemDef 03946]
+DefName=iFxEnergyField
+Type=tSpell
+DupeList=03947,03948,03949,0394a,0394b,0394c,0394d,0394e,0394f,03950,03951,03952,03953,03954,03955
+
+Category=Effects
+Subsection=Energy Fields
+Description=Energy Field West/East
+
+[ItemDef 03947]
+DupeItem=03946
+
+[ItemDef 03948]
+DupeItem=03946
+
+[ItemDef 03949]
+DupeItem=03946
+
+[ItemDef 0394a]
+DupeItem=03946
+
+[ItemDef 0394b]
+DupeItem=03946
+
+[ItemDef 0394c]
+DupeItem=03946
+
+[ItemDef 0394d]
+DupeItem=03946
+
+[ItemDef 0394e]
+DupeItem=03946
+
+[ItemDef 0394f]
+DupeItem=03946
+
+[ItemDef 03950]
+DupeItem=03946
+
+[ItemDef 03951]
+DupeItem=03946
+
+[ItemDef 03952]
+DupeItem=03946
+
+[ItemDef 03953]
+DupeItem=03946
+
+[ItemDef 03954]
+DupeItem=03946
+
+[ItemDef 03955]
+DupeItem=03946
+
+
+[ItemDef 03956]
+DefName=iFxEnergyFieldNs
+Type=tSpell
+DupeList=03957,03958,03959,0395a,0395b,0395c,0395d,0395e,0395f,03960,03961,03962,03963,03964
+
+Category=Effects
+Subsection=Energy Fields
+Description=Energy Field North/South
+
+[ItemDef 03957]
+DupeItem=03956
+
+[ItemDef 03958]
+DupeItem=03956
+
+[ItemDef 03959]
+DupeItem=03956
+
+[ItemDef 0395a]
+DupeItem=03956
+
+[ItemDef 0395b]
+DupeItem=03956
+
+[ItemDef 0395c]
+DupeItem=03956
+
+[ItemDef 0395d]
+DupeItem=03956
+
+[ItemDef 0395e]
+DupeItem=03956
+
+[ItemDef 0395f]
+DupeItem=03956
+
+[ItemDef 03960]
+DupeItem=03956
+
+[ItemDef 03961]
+DupeItem=03956
+
+[ItemDef 03962]
+DupeItem=03956
+
+[ItemDef 03963]
+DupeItem=03956
+
+[ItemDef 03964]
+DupeItem=03956
+
+
+[ItemDef 03967]
+DefName=iFxFieldParalyze
+Type=tSpell
+DupeList=03968,03969,0396a,0396b,0396c,0396d,0396e,0396f,03970,03971,03972,03973,03974,03975,03976,03977,03978
+
+Category=Effects
+Subsection=Paralysis Fields
+Description=Field
+
+[ItemDef 03968]
+DupeItem=03967
+
+[ItemDef 03969]
+DupeItem=03967
+
+[ItemDef 0396a]
+DupeItem=03967
+
+[ItemDef 0396b]
+DupeItem=03967
+
+[ItemDef 0396c]
+DupeItem=03967
+
+[ItemDef 0396d]
+DupeItem=03967
+
+[ItemDef 0396e]
+DupeItem=03967
+
+[ItemDef 0396f]
+DupeItem=03967
+
+[ItemDef 03970]
+DupeItem=03967
+
+[ItemDef 03971]
+DupeItem=03967
+
+[ItemDef 03972]
+DupeItem=03967
+
+[ItemDef 03973]
+DupeItem=03967
+
+[ItemDef 03974]
+DupeItem=03967
+
+[ItemDef 03975]
+DupeItem=03967
+
+[ItemDef 03976]
+DupeItem=03967
+
+[ItemDef 03977]
+DupeItem=03967
+
+[ItemDef 03978]
+DupeItem=03967
+
+[ItemDef 03979]
+DefName=iFxFieldParalyzeNs
+DupeList=0397A,0397B,0397C,0397D,0397E,0397F,03980,03981,03982,03983,03984,03985,03986,03987,03988,03989,0398A
+
+Category=Effects
+Subsection=Paralysis Fields
+Description=Field (NS)
+
+[ItemDef 0397a]
+DupeItem=03979
+
+[ItemDef 0397b]
+DupeItem=03979
+
+[ItemDef 0397c]
+DupeItem=03979
+
+[ItemDef 0397d]
+DupeItem=03979
+
+[ItemDef 0397e]
+DupeItem=03979
+
+[ItemDef 0397f]
+DupeItem=03979
+
+[ItemDef 03980]
+DupeItem=03979
+
+[ItemDef 03981]
+DupeItem=03979
+
+[ItemDef 03982]
+DupeItem=03979
+
+[ItemDef 03983]
+DupeItem=03979
+
+[ItemDef 03984]
+DupeItem=03979
+
+[ItemDef 03985]
+DupeItem=03979
+
+[ItemDef 03986]
+DupeItem=03979
+
+[ItemDef 03987]
+DupeItem=03979
+
+[ItemDef 03988]
+DupeItem=03979
+
+[ItemDef 03989]
+DupeItem=03979
+
+[ItemDef 0398a]
+DupeItem=03979
+
+
+[ItemDef 0398c]
+DefName=iFxFieldFire
+Type=tFire
+DupeList=0398d,0398e,0398f,03990,03991,03992,03993,03994,03995
+
+Category=Effects
+Subsection=Fire Fields
+Description=Fire Field West/East
+
+ON=@Create
+MOREZ=1
+
+[ItemDef 0398d]
+DupeItem=0398c
+
+[ItemDef 0398e]
+DupeItem=0398c
+
+[ItemDef 0398f]
+DupeItem=0398c
+
+[ItemDef 03990]
+DupeItem=0398c
+
+[ItemDef 03991]
+DupeItem=0398c
+
+[ItemDef 03992]
+DupeItem=0398c
+
+[ItemDef 03993]
+DupeItem=0398c
+
+[ItemDef 03994]
+DupeItem=0398c
+
+[ItemDef 03995]
+DupeItem=0398c
+
+
+[ItemDef 03996]
+DefName=iFxFieldFireNs
+Type=tFire
+DupeList=03997,03998,03999,0399a,0399b,0399c,0399d,0399e,0399f
+
+Category=Effects
+Subsection=Fire Fields
+Description=Fire Field North/South
+
+ON=@Create
+MOREZ=1
+
+[ItemDef 03997]
+DupeItem=03996
+
+[ItemDef 03998]
+DupeItem=03996
+
+[ItemDef 03999]
+DupeItem=03996
+
+[ItemDef 0399a]
+DupeItem=03996
+
+[ItemDef 0399b]
+DupeItem=03996
+
+[ItemDef 0399c]
+DupeItem=03996
+
+[ItemDef 0399d]
+DupeItem=03996
+
+[ItemDef 0399e]
+DupeItem=03996
+
+[ItemDef 0399f]
+DupeItem=03996
+
+
+[ItemDef 03e02]
+//DefName=iFxPoisonFieldAlt
+//Type=tSpell
+DupeList=03e03,03e04,03e05,03e06,03e07,03e08,03e09,03e0a,03e0b
+
+Category=Effects
+Subsection=Poison Fields
+Description=Poison Field West/East (alternate)
+
+[ItemDef 03e03]
+DupeItem=03e02
+
+[ItemDef 03e04]
+DupeItem=03e02
+
+[ItemDef 03e05]
+DupeItem=03e02
+
+[ItemDef 03e06]
+DupeItem=03e02
+
+[ItemDef 03e07]
+DupeItem=03e02
+
+[ItemDef 03e08]
+DupeItem=03e02
+
+[ItemDef 03e09]
+DupeItem=03e02
+
+[ItemDef 03e0a]
+DupeItem=03e02
+
+[ItemDef 03e0b]
+DupeItem=03e02
+
+
+[ItemDef 03e27]
+DefName=iFxFieldFire3
+Type=tFire
+DupeList=03e28,03e29,03e2a,03e2b,03e2c,03e2d,03e2e,03e2f,03e30
+
+Category=Effects
+Subsection=Fire Fields
+Description=Fire Field West/East (alternate)
+
+ON=@Create
+MOREZ=1
+
+[ItemDef 03e28]
+DupeItem=03e27
+
+[ItemDef 03e29]
+DupeItem=03e27
+
+[ItemDef 03e2a]
+DupeItem=03e27
+
+[ItemDef 03e2b]
+DupeItem=03e27
+
+[ItemDef 03e2c]
+DupeItem=03e27
+
+[ItemDef 03e2d]
+DupeItem=03e27
+
+[ItemDef 03e2e]
+DupeItem=03e27
+
+[ItemDef 03e2f]
+DupeItem=03e27
+
+[ItemDef 03e30]
+DupeItem=03e27
+
+
+[ItemDef 03e31]
+DefName=iFxFieldFire4
+Type=tFire
+DupeList=03e32,03e33,03e34,03e35,03e36,03e37,03e38,03e39,03e3a
+
+Category=Effects
+Subsection=Fire Fields
+Description=Fire Field North/South (alternate)
+
+ON=@Create
+MOREZ=1
+
+[ItemDef 03e32]
+DupeItem=03e31
+
+[ItemDef 03e33]
+DupeItem=03e31
+
+[ItemDef 03e34]
+DupeItem=03e31
+
+[ItemDef 03e35]
+DupeItem=03e31
+
+[ItemDef 03e36]
+DupeItem=03e31
+
+[ItemDef 03e37]
+DupeItem=03e31
+
+[ItemDef 03e38]
+DupeItem=03e31
+
+[ItemDef 03e39]
+DupeItem=03e31
+
+[ItemDef 03e3a]
+DupeItem=03e31
+
+
+[EOF]

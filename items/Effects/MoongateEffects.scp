@@ -1,0 +1,329 @@
+[Comment Notes]
+Needs work and testing to see the differences.
+Double check all TypeDefs attached.
+
+[ItemDef 0dda]
+DefName=iRedMoongate
+Type=tTelepad
+DupeList=0ddb,0ddc,0ddd,0dde
+
+Category=Effects
+Subsection=Moongates
+Description=Red Moongate
+
+[ItemDef 0ddb]
+DupeItem=0dda
+
+[ItemDef 0ddc]
+DupeItem=0dda
+
+[ItemDef 0ddd]
+DupeItem=0dda
+
+[ItemDef 0dde]
+DupeItem=0dda
+
+
+[ItemDef 0f6c]
+DefName=iBlueMoongate
+Type=tTelepad
+DupeList=0f6d,0f6e,0f6f,0f70
+
+Category=Effects
+Subsection=Moongates
+Description=Blue Moongate
+
+[ItemDef 0f6d]
+DupeItem=0f6c
+
+[ItemDef 0f6e]
+DupeItem=0f6c
+
+[ItemDef 0f6f]
+DupeItem=0f6c
+
+[ItemDef 0f70]
+DupeItem=0f6c
+
+
+[ItemDef 01ae5]
+DefName=iFxRedMoongate
+Type=tLightLit
+DupeList=01ae6,01ae7,01ae8,01ae9,01aea,01aeb,01aec,01aed
+
+Category=Effects
+Subsection=Moongates
+Description=Red Moongate (Summoning)
+
+[ItemDef 01ae6]
+DupeItem=01ae5
+
+[ItemDef 01ae7]
+DupeItem=01ae5
+
+[ItemDef 01ae8]
+DupeItem=01ae5
+
+[ItemDef 01ae9]
+DupeItem=01ae5
+
+[ItemDef 01aea]
+DupeItem=01ae5
+
+[ItemDef 01aeb]
+DupeItem=01ae5
+
+[ItemDef 01aec]
+DupeItem=01ae5
+
+[ItemDef 01aed]
+DupeItem=01ae5
+
+
+[ItemDef 01af3]
+DefName=iFxBlueMoongate
+Type=tLightLit
+DupeList=01af4,01af5,01af6,01af7,01af8,01af9,01afa,01afb
+
+Category=Effects
+Subsection=Moongates
+Description=Blue Moongate (Summoning)
+
+[ItemDef 01af4]
+DupeItem=01af3
+
+[ItemDef 01af5]
+DupeItem=01af3
+
+[ItemDef 01af6]
+DupeItem=01af3
+
+[ItemDef 01af7]
+DupeItem=01af3
+
+[ItemDef 01af8]
+DupeItem=01af3
+
+[ItemDef 01af9]
+DupeItem=01af3
+
+[ItemDef 01afa]
+DupeItem=01af3
+
+[ItemDef 01afb]
+DupeItem=01af3
+
+
+[ItemDef 01fcb]
+DefName=iFxBlackMoongate
+Type=tLightLit
+DupeList=01fcc,01fcd,01fce,01fcf,01fd0,01fd1,01fd2,01fd3
+
+Category=Effects
+Subsection=Moongates
+Description=Black Moongate (Summoning)
+
+[ItemDef 01fcc]
+DupeItem=01fcb
+
+[ItemDef 01fcd]
+DupeItem=01fcb
+
+[ItemDef 01fce]
+DupeItem=01fcb
+
+[ItemDef 01fcf]
+DupeItem=01fcb
+
+[ItemDef 01fd0]
+DupeItem=01fcb
+
+[ItemDef 01fd1]
+DupeItem=01fcb
+
+[ItemDef 01fd2]
+DupeItem=01fcb
+
+[ItemDef 01fd3]
+DupeItem=01fcb
+
+
+[ItemDef 01fd4]
+DefName=iBlackMoongate
+Type=tTelepad
+DupeList=01fd5,01fd6,01fd7,01fd8
+
+Category=Effects
+Subsection=Moongates
+Description=Black Moongate
+
+[ItemDef 01fd5]
+DupeItem=01fd4
+
+[ItemDef 01fd6]
+DupeItem=01fd4
+
+[ItemDef 01fd7]
+DupeItem=01fd4
+
+[ItemDef 01fd8]
+DupeItem=01fd4
+
+
+[ItemDef 01fde]
+DefName=iFxGreyMoongate
+Type=tLightLit
+DupeList=01fdf,01fe0,01fe1,01fe2,01fe3,01fe4,01fe5,01fe6
+
+Category=Effects
+Subsection=Moongates
+Description=Grey Moongate (Summoning)
+
+[ItemDef 01fdf]
+DupeItem=01fde
+
+[ItemDef 01fe0]
+DupeItem=01fde
+
+[ItemDef 01fe1]
+DupeItem=01fde
+
+[ItemDef 01fe2]
+DupeItem=01fde
+
+[ItemDef 01fe3]
+DupeItem=01fde
+
+[ItemDef 01fe4]
+DupeItem=01fde
+
+[ItemDef 01fe5]
+DupeItem=01fde
+
+[ItemDef 01fe6]
+DupeItem=01fde
+
+
+[ItemDef 01fe7]
+DefName=iGreyMoongate
+Type=tTelepad
+DupeList=01fe8,01fe9,01fea,01feb
+
+Category=Effects
+Subsection=Moongates
+Description=Gray Moongate
+
+[ItemDef 01fe8]
+DupeItem=01fe7
+
+[ItemDef 01fe9]
+DupeItem=01fe7
+
+[ItemDef 01fea]
+DupeItem=01fe7
+
+[ItemDef 01feb]
+DupeItem=01fe7
+
+
+[ItemDef 04b8f]
+DefName=iMoongateBroken
+NAME=broken moongate
+Type=tTelepad
+DupeList=04b90,04b91,04b92,04b93,04b94,04b95,04b96,04b97,04b98,04b99,04b9a,04b9b,04b9c
+
+Category=Effects
+Subsection=Moongates
+Description=Moongate (broken)
+
+[ItemDef 04b90]
+DupeItem=04b8f
+
+[ItemDef 04b91]
+DupeItem=04b8f
+
+[ItemDef 04b92]
+DupeItem=04b8f
+
+[ItemDef 04b93]
+DupeItem=04b8f
+
+[ItemDef 04b94]
+DupeItem=04b8f
+
+[ItemDef 04b95]
+DupeItem=04b8f
+
+[ItemDef 04b96]
+DupeItem=04b8f
+
+[ItemDef 04b97]
+DupeItem=04b8f
+
+[ItemDef 04b98]
+DupeItem=04b8f
+
+[ItemDef 04b99]
+DupeItem=04b8f
+
+[ItemDef 04b9a]
+DupeItem=04b8f
+
+[ItemDef 04b9b]
+DupeItem=04b8f
+
+[ItemDef 04b9c]
+DupeItem=04b8f
+
+
+[ItemDef 04bcb]
+DefName=iMoongateNew
+NAME=moongate
+Type=tTelepad
+DupeList=04bcc,04bcd,04bce,04bcf,04bd0,04bd1,04bd2,04bd3,04bd4,04bd5,04bd6,04bd7,04bd8
+
+Category=Effects
+Subsection=Moongates
+Description=Moongate (new)
+
+[ItemDef 04bcc]
+DupeItem=04bcb
+
+[ItemDef 04bcd]
+DupeItem=04bcb
+
+[ItemDef 04bce]
+DupeItem=04bcb
+
+[ItemDef 04bcf]
+DupeItem=04bcb
+
+[ItemDef 04bd0]
+DupeItem=04bcb
+
+[ItemDef 04bd1]
+DupeItem=04bcb
+
+[ItemDef 04bd2]
+DupeItem=04bcb
+
+[ItemDef 04bd3]
+DupeItem=04bcb
+
+[ItemDef 04bd4]
+DupeItem=04bcb
+
+[ItemDef 04bd5]
+DupeItem=04bcb
+
+[ItemDef 04bd6]
+DupeItem=04bcb
+
+[ItemDef 04bd7]
+DupeItem=04bcb
+
+[ItemDef 04bd8]
+DupeItem=04bcb
+
+
+[EOF]
