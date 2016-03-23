@@ -1,5 +1,7 @@
 [DefName Compatibility]
 // Layers
+LayerTunic=LayerSash
+LayerHalfApron=LayerBelt
 LayerShoes=LayerFootwear
 LayerGloves=LayerHands
 LayerHorns=LayerHair

@@ -2184,14 +2184,14 @@ NotoAlliedGuild			8
 // Used on items for checks or npcs (Mounts, golems, etc)
 [DefName CanUseFlags]
 CanUAll					0
-CanUAllGenders			01
-CanUAllRaces			02
-CanUFemale				04
-CanUMale				08
-CanUHuman				010
-CanUElf					020
-CanUGargoyle			040
-CanUNone				080
+CanUAllGenders			01|02
+CanUAllRaces			04|08|010
+CanUFemale				01
+CanUMale				02
+CanUHuman				04
+CanUElf					08
+CanUGargoyle			010
+CanUNone				020
 
 [DefName Swing_Types]
 WAR_SWING_EQUIPPING		= 00 // we are recoiling our weapon.

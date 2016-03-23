@@ -1,18 +1,15 @@
-[Comment CalculateLuck]
-DO NOT USE UNTIL SPHERE IS FIXED. SPHERE HAS A HUGE MATHEMATICAL ISSUE ATM.
-IT CANNOT. I repeat CANNOT parse ^ operator correctly when doing fractions.
-Float won't even accept it.
-
-[Comment Function CalculateLuck]
-If (<Luck> > 0)
- Float.Luck=<FloatVal (<Luck>^(5/9))>
- Local.dVal=<StrPos 0 . <Float.Luck>>
- Return <StrSub 0 <Eval (<Local.dVal>-1)> <Float.Luck>>
-Else
- Return 0
+[Function ExpResDisp]
+If (<Src.Account.ResLevel> >= <Serv.ItemDef.<ArgS>.ResLevel>)
+ Return <ArgS>
 EndIf
+Local.Item=<Serv.ItemDef.<ArgS>.ResDispDnID>
+If (<Local.Item>)
+ Return <Local.Item>
+EndIf
+Return <ArgS>
+//On=<ExpResDisp iBladedStaff>
 
-// But this works the exact same!!! YAY me :D
+
 [Function CalculateLuck]
 Return <Qval (<Luck> > 0) ? <Eval (((<Luck>/9)*5)/20)> : 0>
 
@@ -20,51 +17,23 @@ Return <Qval (<Luck> > 0) ? <Eval (((<Luck>/9)*5)/20)> : 0>
 OStr=<ArgN>
 ODex=<ArgN>
 OInt=<ArgN>
-Hits=<MaxHits>
-Stam=<MaxStam>
-Mana=<MaxMana>
 
-[FUNCTION MODMAXHITS]
-LOCAL.Result=<EVAL <ARGS>>
-IF (<ISEMPTY <ARGS>>)
-   RETURN <EVAL <TAG0.MODMAXHITS>>
-ELSE
-   TAG.MODMAXHITS=<EVAL <TAG0.MODMAXHITS>+<LOCAL.Result>>
-   IF !(<TAG0.MODMAXHITS>)
-      TAG.MODMAXHITS=
-      MAXHITS=
-   ELSE
-      MAXHITS=<EVAL <MAXHITS>+<LOCAL.Result>>
-   ENDIF
-ENDIF
+[Function ModMaxHits]
+If !(ArgN)
+ Return <Tag0.ModMaxHits>
+EndIf
+Tag.ModMaxHits=<Eval (<Tag0.ModMaxHits> + <ArgN>)>
 
-[FUNCTION MODMAXSTAM]
-LOCAL.Result=<EVAL <ARGS>>
-IF (<ISEMPTY <ARGS>>)
-   RETURN <EVAL <TAG0.MODMAXSTAM>>
-ELSE
-   TAG.MODMAXSTAM=<EVAL <TAG0.MODMAXSTAM>+<LOCAL.Result>>
-   IF !(<TAG0.MODMAXSTAM>)
-      TAG.MODMAXSTAM=
-      MAXSTAM=
-   ELSE
-      MAXSTAM=<EVAL <MAXSTAM>+<LOCAL.Result>>
-   ENDIF
-ENDIF
+[Function ModMaxStam]
+If !(ArgN)
+ Return <Tag0.ModMaxStam>
+EndIf
+Tag.ModMaxStam=<Eval (<Tag0.ModMaxStam> + <ArgN>)>
 
-[FUNCTION MODMAXMANA]
-LOCAL.Result=<EVAL <ARGS>>
-IF (<ISEMPTY <ARGS>>)
-   RETURN <EVAL <TAG0.MODMAXMANA>>
-ELSE
-   TAG.MODMAXMANA=<EVAL <TAG0.MODMAXMANA>+<LOCAL.Result>>
-   IF !(<TAG0.MODMAXMANA>)
-      TAG.MODMAXMANA=
-      MAXMANA=
-   ELSE
-      MAXMANA=<EVAL <MAXMANA>+<LOCAL.Result>>
-   ENDIF
-ENDIF
-
+[Function ModMaxMana]
+If !(ArgN)
+ Return <Tag0.ModMaxMana>
+EndIf
+Tag.ModMaxMana=<Eval (<Tag0.ModMaxMana> + <ArgN>)>
 
 [EOF]
