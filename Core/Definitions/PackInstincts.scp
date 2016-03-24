@@ -1,12 +1,13 @@
 [DefName Pack_Instincts]
-InstinctArachnid			1
-InstinctBear				2
-InstinctBull				3
-InstinctCanine				4
-InstinctDaemon				5
-InstinctEquine				6
-InstinctFeline				7
-InstinctOstard				8
+InstinctsNone				0
+InstinctsArachnid			01
+InstinctsBear				02
+InstinctsBull				04
+InstinctsCanine				08
+InstinctsDaemon				010
+InstinctsEquine				020
+InstinctsFeline				040
+InstinctsOstard				080
 
 
 [EOF]
