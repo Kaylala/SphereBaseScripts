@@ -1,21 +1,19 @@
 // Human Male
 [CharDef 0190]
 DefName=cHumanMale
-Name=#nHumanMaleNames
+Name=#HumanMaleNames
 Can=CanMale|CanWalk|CanRun|CanUseHands|CanEquip|CanMount
 MoveRate=100
 Dam=1,4
 Tag.Override.Speed=20
 Icon=iHumanMaleIcon
-Sound=sndHumanMaleOomph1
+Sound=sndHMOomph1
 Resources=1 iCutOfRawRibs
 FoodType=tFood,tFruit,tVegetable,tMeat,tGrain,tDrink
 MaxFood=35
 Aversions=tTrap,tActivatedTrap,rDungeon
 Desires=rCivilization,rFarm,tGem,tGold,tJewelry
 BloodColor=0
-//TEvents=eHumanHearUnknown
-//TSpeech=spkHumanPrime,spkHumanDefault
 
 AbilityPrimary=sDisarm
 AbilitySecondary=sParalyzingBlow
@@ -26,7 +24,7 @@ Description=Human Male
 
 On=@Create
 NPC=BrainHuman
-Color=hHumanSkinHues
+Color=HumanSkinHues
 MaxFollowers=5
 
 Fame=0
@@ -60,28 +58,27 @@ MagicResistance=100
 Parrying=100
 
 ItemNewbie=RandomHumanMaleHair
-Color=hHumanHairHues
-ItemNewbie=RandomHumanFacialHair
+Color=HumanHairHues
+ItemNewbie=RandomFacialHair
 Color=MatchHair
+
 
 // Human Female
 [CharDef 0191]
 DefName=cHumanFemale
-Name=#nHumanFemaleNames
+Name=#HumanFemaleNames
 Can=CanFemale|CanWalk|CanRun|CanUseHands|CanEquip|CanMount
 MoveRate=100
 Dam=1,4
 Tag.Override.Speed=20
 Icon=iHumanFemaleIcon
-Sound=sndHumanFemaleOomph1
+Sound=sndHFOomph1
 Resources=1 iCutOfRawRibs
 FoodType=tFood,tFruit,tVegetable,tMeat,tGrain,tDrink
 MaxFood=35
 Aversions=tTrap,tActivatedTrap,rDungeon
 Desires=rCivilization,rFarm,tGem,tGold,tJewelry
 BloodColor=0
-//TEvents=eHumanHearUnknown
-//TSpeech=spkHumanPrime,spkHumanDefault
 
 AbilityPrimary=sDisarm
 AbilitySecondary=sParalyzingBlow
@@ -92,7 +89,7 @@ Description=Human Female
 
 On=@Create
 NPC=BrainHuman
-Color=hHumanSkinHues
+Color=HumanSkinHues
 MaxFollowers=5
 
 Fame=0
@@ -120,13 +117,9 @@ OStr=10
 ODex=10
 OInt=10
 
-Wrestling=100
-Tactics=100
-MagicResistance=100
-Parrying=100
-
 ItemNewbie=RandomHumanFemaleHair
-Color=hHumanHairHues
+Color=HumanHairHues
+
 
 // Human Male Ghost
 [CharDef 0192]
@@ -155,6 +148,7 @@ Description=Human Male Ghost
 On=@Create
 NPC=BrainHuman
 
+
 // Human Female Ghost
 [CharDef 0193]
 DefName=cHumanFemaleGhost
@@ -182,24 +176,23 @@ Description=Human Female Ghost
 On=@Create
 NPC=BrainHuman
 
+
 // Elf Male
 [CharDef 025D]
 DefName=cElfMale
-Name=#nElfMaleNames
+Name=#ElfMaleNames
 Can=CanMale|CanWalk|CanRun|CanUseHands|CanEquip|CanMount
 MoveRate=100
 Dam=1,4
 Tag.Override.Speed=20
 Icon=iHumanMaleIcon
-Sound=sndHumanMaleOomph1
+Sound=sndHMOomph1
 Resources=1 iCutOfRawRibs
 FoodType=tFood,tFruit,tVegetable,tMeat,tGrain,tDrink
 MaxFood=35
 Aversions=tTrap,tActivatedTrap,rDungeon
 Desires=rCivilization,rFarm,tGem,tGold,tJewelry
 BloodColor=0
-//TEvents=eHumanHearUnknown
-//TSpeech=spkHumanPrime,spkHumanDefault
 
 AbilityPrimary=sDisarm
 AbilitySecondary=sParalyzingBlow
@@ -210,7 +203,7 @@ Description=Elf Male
 
 On=@Create
 NPC=BrainHuman
-Color=hElfSkinHues
+Color=ElfSkinHues
 MaxFollowers=5
 
 Fame=0
@@ -238,32 +231,26 @@ OStr=10
 ODex=10
 OInt=10
 
-Wrestling=100
-Tactics=100
-MagicResistance=100
-Parrying=100
-
 ItemNewbie=RandomElfMaleHair
-Color=hElfHairHues
+Color=ElfHairHues
+
 
 // Elf Female
 [CharDef 025E]
 DefName=cElfFemale
-Name=#nElfFemaleNames
+Name=#ElfFemaleNames
 Can=CanFemale|CanWalk|CanRun|CanUseHands|CanEquip|CanMount
 MoveRate=100
 Dam=1,4
 Tag.Override.Speed=20
 Icon=iHumanFemaleIcon
-Sound=sndHumanFemaleOomph1
+Sound=sndHFOomph1
 Resources=1 iCutOfRawRibs
 FoodType=tFood,tFruit,tVegetable,tMeat,tGrain,tDrink
 MaxFood=35
 Aversions=tTrap,tActivatedTrap,rDungeon
 Desires=rCivilization,rFarm,tGem,tGold,tJewelry
 BloodColor=0
-//TEvents=eHumanHearUnknown
-//TSpeech=spkHumanPrime,spkHumanDefault
 
 AbilityPrimary=sDisarm
 AbilitySecondary=sParalyzingBlow
@@ -274,7 +261,7 @@ Description=Elf Female
 
 On=@Create
 NPC=BrainHuman
-Color=hElfSkinHues
+Color=ElfSkinHues
 MaxFollowers=5
 
 Fame=0
@@ -302,13 +289,9 @@ OStr=10
 ODex=10
 OInt=10
 
-Wrestling=100
-Tactics=100
-MagicResistance=100
-Parrying=100
-
 ItemNewbie=RandomElfFemaleHair
-Color=hElfHairHues
+Color=ElfHairHues
+
 
 // Elf Male Ghost
 [CharDef 025F]
@@ -337,6 +320,7 @@ Description=Elf Male Ghost
 On=@Create
 NPC=BrainHuman
 
+
 // Elf Female Ghost
 [CharDef 0260]
 DefName=cElfFemaleGhost
@@ -364,24 +348,23 @@ Description=Elf Female Ghost
 On=@Create
 NPC=BrainHuman
 
+
 // Gargoyle Male
 [CharDef 029A]
 DefName=cGargoyleMale
-Name=#nGargoyleMaleNames
+Name=#GargoyleMaleNames
 Can=CanMale|CanWalk|CanRun|CanUseHands|CanEquip|CanFly|CanHover
 MoveRate=100
 Dam=1,4
 Tag.Override.Speed=20
 Icon=iGargoyleMaleIcon
-Sound=sndHumanMaleOomph1
+Sound=sndHMOomph1
 Resources=1 iCutOfRawRibs
 FoodType=tFood,tFruit,tVegetable,tMeat,tGrain,tDrink
 MaxFood=35
 Aversions=tTrap,tActivatedTrap,rDungeon
 Desires=rCivilization,rFarm,tGem,tGold,tJewelry
 BloodColor=0
-//TEvents=eHumanHearUnknown
-//TSpeech=spkHumanPrime,spkHumanDefault
 
 AbilityPrimary=sDisarm
 AbilitySecondary=sParalyzingBlow
@@ -392,7 +375,7 @@ Description=Gargoyle Male
 
 On=@Create
 NPC=BrainHuman
-Color=hGargoyleSkinHues
+Color=GargoyleSkinHues
 MaxFollowers=5
 
 Fame=0
@@ -426,26 +409,25 @@ MagicResistance=100
 Parrying=100
 
 ItemNewbie=RandomGargoyleMaleHorns
-Color=hGargoyleHornsHues
+Color=GargoyleHornsHues
+
 
 // Gargoyle Female
 [CharDef 029B]
 DefName=cGargoyleFemale
-Name=#nGargoyleFemaleNames
+Name=#GargoyleFemaleNames
 Can=CanFemale|CanWalk|CanRun|CanUseHands|CanEquip|CanFly|CanHover
 MoveRate=100
 Dam=1,4
 Tag.Override.Speed=20
 Icon=iGargoyleFemaleIcon
-Sound=sndHumanFemaleOomph1
+Sound=sndHFOomph1
 Resources=1 iCutOfRawRibs
 FoodType=tFood,tFruit,tVegetable,tMeat,tGrain,tDrink
 MaxFood=35
 Aversions=tTrap,tActivatedTrap,rDungeon
 Desires=rCivilization,rFarm,tGem,tGold,tJewelry
 BloodColor=0
-//TEvents=eHumanHearUnknown
-//TSpeech=spkHumanPrime,spkHumanDefault
 
 AbilityPrimary=sDisarm
 AbilitySecondary=sParalyzingBlow
@@ -456,7 +438,7 @@ Description=Gargoyle Female
 
 On=@Create
 NPC=BrainHuman
-Color=hGargoyleSkinHues
+Color=GargoyleSkinHues
 MaxFollowers=5
 
 Fame=0
@@ -490,7 +472,8 @@ MagicResistance=100
 Parrying=100
 
 ItemNewbie=RandomGargoyleFemaleHorns
-Color=hGargoyleHornsHues
+Color=GargoyleHornsHues
+
 
 // Gargoyle Male Ghost
 [CharDef 02B6]
@@ -518,6 +501,7 @@ Description=Gargoyle Male Ghost
 
 On=@Create
 NPC=BrainHuman
+
 
 // Gargoyle Female Ghost
 [CharDef 02B7]
