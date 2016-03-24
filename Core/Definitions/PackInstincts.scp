@@ -1,0 +1,12 @@
+[DefName Pack_Instincts]
+InstinctArachnid			1
+InstinctBear				2
+InstinctBull				3
+InstinctCanine				4
+InstinctDaemon				5
+InstinctEquine				6
+InstinctFeline				7
+InstinctOstard				8
+
+
+[EOF]
