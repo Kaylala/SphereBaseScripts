@@ -18,9 +18,15 @@ Local.Chance=<R1,100>
 If <Local.Chance> > 5)
  Return
 Else
- NewItem=iTreasureMapLevel<ArgB>,1,<Bounce>
+ NewItem=iTreasureMapLevel<ArgN>,1,<Bounce>
  Return
 EndIf
+
+[Function PackInstincts]
+If !(<ArgN>)
+ Return <Tag0.PackInstincts>
+EndIf
+Tag.PackInstincts=<ArgN>
 
 [Comment Alignment]
 For AI handling.
