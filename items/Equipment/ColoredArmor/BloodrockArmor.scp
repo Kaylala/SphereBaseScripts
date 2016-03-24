@@ -1,0 +1,338 @@
+[ItemDef iBloodrockPlatemailTunic]
+Name=bloodrock platemail
+ID=iPlatemailTunic
+Weight=100
+Armor=37
+ReqStr=60
+Category=Equipment
+Subsection=Armor: Colored (Bloodrock)
+Description=Platemail
+Resources=25 iBloodrockIngot
+SkillMake=Blacksmithing 800
+
+On=@Create
+Color=BloodrockHue
+HitPoints={36 48}
+
+[ItemDef iBloodrockPlatemailArms]
+Name=bloodrock platemail arms
+ID=iPlatemailArms
+Armor=37
+ReqStr=40
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Bloodrock)
+Description=Platemail Arms
+Resources=18 iBloodrockIngot
+SkillMake=Blacksmithing 685
+
+On=@Create
+Color=BloodrockHue
+HitPoints={36 48}
+
+[ItemDef iBloodrockPlatemailLegs]
+Name=bloodrock platemail legs
+ID=iPlatemailLegs
+Armor=37
+ReqStr=60
+Weight=15
+Category=Equipment
+Subsection=Armor: Colored (Bloodrock)
+Description=Platemail Legs
+Resources=20 iBloodrockIngot
+SkillMake=Blacksmithing 718
+
+On=@Create
+Color=BloodrockHue
+HitPoints={36 48}
+
+[ItemDef iBloodrockPlateHelm]
+Name=bloodrock plate helm
+ID=iPlateHelm
+Armor=37
+ReqStr=40
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Bloodrock)
+Description=Plate Helm
+Resources=15 iBloodrockIngot
+SkillMake=Blacksmithing 636
+
+On=@Create
+Color=BloodrockHue
+HitPoints={36 48}
+
+[ItemDef iBloodrockPlatemailGorget]
+Name=bloodrock platemail gorget
+ID=iPlatemailGorget
+Armor=37
+ReqStr=30
+Weight=2
+Category=Equipment
+Subsection=Armor: Colored (Bloodrock)
+Description=Platemail Gorget
+Resources=10 iBloodrockIngot
+SkillMake=Blacksmithing 554
+
+On=@Create
+Color=BloodrockHue
+HitPoints={36 48}
+
+[ItemDef iBloodrockPlatemailGloves]
+Name=bloodrock platemail Gloves
+ID=iPlatemailGloves
+Armor=37
+ReqStr=30
+Weight=2
+Category=Equipment
+Subsection=Armor: Colored (Bloodrock)
+Description=Platemail Gloves
+Resources=12 iBloodrockIngot
+SkillMake=Blacksmithing 587
+
+On=@Create
+Color=BloodrockHue
+HitPoints={36 48}
+
+[ItemDef iBloodrockFemalePlateArmor]
+Name=bloodrock female plate armor
+ID=iFemalePlateArmor
+Armor=22
+ReqStr=15
+Weight=6
+Category=Equipment
+Subsection=Armor: Colored (Bloodrock)
+Description=Female Plate Armor
+Resources=22 iBloodrockIngot
+SkillMake=Blacksmithing 750
+
+On=@Create
+Color=BloodrockHue
+HitPoints={36 48}
+
+[ItemDef iBloodrockChainmailCoif]
+Name=bloodrock chainmail coif
+ID=iChainmailCoif
+Armor=27
+ReqStr=20
+Weight=7
+Category=Equipment
+Subsection=Armor: Colored (Bloodrock)
+Description=Chainmail Coif
+Resources=10 iBloodrockIngot
+SkillMake=Blacksmithing 326
+
+On=@Create
+Color=BloodrockHue
+HitPoints={36 48}
+
+[ItemDef iBloodrockChainmailLeggings]
+Name=bloodrock chainmail leggings
+ID=iChainmailLeggings
+Armor=27
+ReqStr=20
+Weight=7
+Category=Equipment
+Subsection=Armor: Colored (Bloodrock)
+Description=Chainmail Leggings
+Resources=18 iBloodrockIngot
+SkillMake=Blacksmithing 326
+
+On=@Create
+Color=BloodrockHue
+HitPoints={36 48}
+
+[ItemDef iBloodrockChainmailTunic]
+Name=bloodrock chainmail tunic
+ID=iChainmailTunic
+Armor=27
+ReqStr=20
+Weight=7
+Category=Equipment
+Subsection=Armor: Colored (Bloodrock)
+Description=Chainmail Tunic
+Resources=20 iBloodrockIngot
+SkillMake=Blacksmithing 488
+
+On=@Create
+Color=BloodrockHue
+HitPoints={36 48}
+
+[ItemDef iBloodrockRingmailLeggings]
+Name=bloodrock ringmail leggings
+ID=iRingmailLeggings
+Armor=22
+ReqStr=20
+Weight=15
+Category=Equipment
+Subsection=Armor: Colored (Bloodrock)
+Description=Ringmail Leggings
+Resources=16 iBloodrockIngot
+SkillMake=Blacksmithing 326
+
+On=@Create
+Color=BloodrockHue
+HitPoints={36 48}
+
+[ItemDef iBloodrockRingmailSleeves]
+Name=bloodrock ringmail sleeves
+ID=iRingmailSleeves
+Armor=22
+ReqStr=20
+Weight=15
+Category=Equipment
+Subsection=Armor: Colored (Bloodrock)
+Description=Ringmail Sleeves
+Resources=14 iBloodrockIngot
+SkillMake=Blacksmithing 293
+
+On=@Create
+Color=BloodrockHue
+HitPoints={36 48}
+
+[ItemDef iBloodrockRingmailGloves]
+Name=bloodrock ringmail gloves
+ID=iRingmailGloves
+Armor=22
+ReqStr=20
+Weight=2
+Category=Equipment
+Subsection=Armor: Colored (Bloodrock)
+Description=Ringmail Gloves
+Resources=10 iBloodrockIngot
+SkillMake=Blacksmithing 228
+
+On=@Create
+Color=BloodrockHue
+HitPoints={36 48}
+
+[ItemDef iBloodrockRingmailTunic]
+Name=bloodrock ringmail tunic
+ID=iRingmailTunic
+Armor=22
+ReqStr=20
+Weight=15
+Category=Equipment
+Subsection=Armor: Colored (Bloodrock)
+Description=Ringmail Tunic
+Resources=18 iBloodrockIngot
+SkillMake=Blacksmithing 361
+
+On=@Create
+Color=BloodrockHue
+HitPoints={36 48}
+
+[ItemDef iBloodrockMetalShield]
+Name=bloodrock metal shield
+ID=iMetalShield
+Armor=13
+ReqStr=15
+Weight=6
+Category=Equipment
+Subsection=Armor: Colored (Bloodrock)
+Description=Metal Shield
+Resources=14 iBloodrockIngot
+SkillMake=Blacksmithing 200
+
+On=@Create
+Color=BloodrockHue
+HitPoints={36 48}
+
+[ItemDef iBloodrockHeaterShield]
+Name=bloodrock heater shield
+ID=iHeaterShield
+Armor=25
+ReqStr=30
+Weight=8
+Category=Equipment
+Subsection=Armor: Colored (Bloodrock)
+Description=Heater Shield
+Resources=18 iBloodrockIngot
+SkillMake=Blacksmithing 456
+
+On=@Create
+Color=BloodrockHue
+HitPoints={36 48}
+
+[ItemDef iBloodrockBuckler]
+Name=bloodrock buckler
+ID=iBuckler
+Armor=9
+ReqStr=15
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Bloodrock)
+Description=Buckler
+Resources=10 iBloodrockIngot
+SkillMake=Blacksmithing 100
+
+On=@Create
+Color=BloodrockHue
+HitPoints={36 48}
+
+[ItemDef iBloodrockCloseHelm]
+Name=bloodrock close helm
+ID=iCloseHelm
+Armor=37
+ReqStr=20
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Bloodrock)
+Description=Close Helm
+Resources=15 iBloodrockIngot
+SkillMake=Blacksmithing 636
+
+On=@Create
+Color=BloodrockHue
+HitPoints={36 48}
+
+[ItemDef iBloodrockHelmet]
+Name=bloodrock helmet
+ID=iHelmet
+Armor=37
+ReqStr=10
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Bloodrock)
+Description=helmet
+Resources=15 iBloodrockIngot
+SkillMake=Blacksmithing 636
+
+On=@Create
+Color=BloodrockHue
+HitPoints={36 48}
+
+[ItemDef iBloodrockBascinet]
+Name=bloodrock bascinet
+ID=iBascinet
+Armor=37
+ReqStr=10
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Bloodrock)
+Description=Bascinet
+Resources=15 iBloodrockIngot
+SkillMake=Blacksmithing 252
+
+On=@Create
+Color=BloodrockHue
+HitPoints={36 48}
+
+[ItemDef iBloodrockNoseHelm]
+Name=bloodrock nose helm
+ID=iNoseHelm
+Armor=37
+ReqStr=0
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Bloodrock)
+Description=Nose Helm
+Resources=15 iBloodrockIngot
+SkillMake=Blacksmithing 636
+
+On=@Create
+Color=BloodrockHue
+HitPoints={36 48}
+
+
+[EOF]

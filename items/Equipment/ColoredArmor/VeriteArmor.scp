@@ -1,0 +1,337 @@
+[ItemDef iVeritePlatemailTunic]
+Name=verite platemail
+ID=iPlatemailTunic
+Armor=37
+SkillMake=Blacksmithing 790
+Resources=25 iVeriteIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Verite)
+Description=Platemail
+
+On=@Create
+Color=VeriteHue
+HitPoints={36 48}
+
+
+[ItemDef iVeritePlatemailArms]
+Name=verite platemail arms
+ID=iPlatemailArms
+Armor=37
+SkillMake=Blacksmithing 675
+Resources=18 iVeriteIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Verite)
+Description=Platemail Arms
+
+On=@Create
+Color=VeriteHue
+HitPoints={36 48}
+
+
+[ItemDef iVeritePlatemailLegs]
+Name=verite platemail legs
+ID=iPlatemailLegs
+Armor=37
+SkillMake=Blacksmithing 708
+Resources=20 iVeriteIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Verite)
+Description=Platemail Legs
+
+On=@Create
+Color=VeriteHue
+HitPoints={36 48}
+
+
+[ItemDef iVeritePlateHelm]
+Name=verite plate helm
+ID=iPlateHelm
+Armor=37
+SkillMake=Blacksmithing 626
+Resources=15 iVeriteIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Verite)
+Description=Plate Helm
+
+On=@Create
+Color=VeriteHue
+HitPoints={36 48}
+
+
+[ItemDef iVeritePlatemailGorget]
+Name=verite platemail gorget
+ID=iPlatemailGorget
+Armor=37
+SkillMake=Blacksmithing 544
+Resources=10 iVeriteIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Verite)
+Description=Platemail Gorget
+
+On=@Create
+Color=VeriteHue
+HitPoints={36 48}
+
+
+[ItemDef iVeritePlatemailGloves]
+Name=verite platemail Gloves
+ID=iPlatemailGloves
+Armor=37
+SkillMake=Blacksmithing 577
+Resources=12 iVeriteIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Verite)
+Description=Platemail Gloves
+
+On=@Create
+Color=VeriteHue
+HitPoints={36 48}
+
+
+[ItemDef iVeriteFemalePlateArmor]
+Name=verite female plate armor
+ID=iFemalePlateArmor
+Armor=22
+SkillMake=Blacksmithing 740
+Resources=22 iVeriteIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Verite)
+Description=Female Plate Armor
+
+On=@Create
+Color=VeriteHue
+HitPoints={36 48}
+
+
+[ItemDef iVeriteChainmailCoif]
+Name=verite chainmail coif
+ID=iChainmailCoif
+Armor=27
+SkillMake=Blacksmithing 316
+Resources=10 iVeriteIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Verite)
+Description=Chainmail Coif
+
+On=@Create
+Color=VeriteHue
+HitPoints={36 48}
+
+
+[ItemDef iVeriteChainmailLeggings]
+Name=verite chainmail leggings
+ID=iChainmailLeggings
+Armor=27
+SkillMake=Blacksmithing 351
+Resources=18 iVeriteIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Verite)
+Description=Chainmail Leggings
+
+On=@Create
+Color=VeriteHue
+HitPoints={36 48}
+
+
+[ItemDef iVeriteChainmailTunic]
+Name=verite chainmail tunic
+ID=iChainmailTunic
+Armor=27
+SkillMake=Blacksmithing 478
+Resources=20 iVeriteIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Verite)
+Description=Chainmail Tunic
+
+On=@Create
+Color=VeriteHue
+HitPoints={36 48}
+
+
+[ItemDef iVeriteRingmailLeggings]
+Name=verite ringmail leggings
+ID=iRingmailLeggings
+Armor=22
+SkillMake=Blacksmithing 316
+Resources=16 iVeriteIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Verite)
+Description=Ringmail Leggings
+
+On=@Create
+Color=VeriteHue
+HitPoints={36 48}
+
+
+[ItemDef iVeriteRingmailSleeves]
+Name=verite ringmail sleeves
+ID=iRingmailSleeves
+Armor=22
+SkillMake=Blacksmithing 283
+Resources=14 iVeriteIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Verite)
+Description=Ringmail Sleeves
+
+On=@Create
+Color=VeriteHue
+HitPoints={36 48}
+
+
+[ItemDef iVeriteRingmailGloves]
+Name=verite ringmail gloves
+ID=iRingmailGloves
+Armor=22
+SkillMake=Blacksmithing 218
+Resources=10 iVeriteIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Verite)
+Description=Ringmail Gloves
+
+On=@Create
+Color=VeriteHue
+HitPoints={36 48}
+
+
+[ItemDef iVeriteRingmailTunic]
+Name=verite ringmail tunic
+ID=iRingmailTunic
+Armor=22
+SkillMake=Blacksmithing 351
+Resources=18 iVeriteIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Verite)
+Description=Ringmail Tunic
+
+On=@Create
+Color=VeriteHue
+HitPoints={36 48}
+
+
+[ItemDef iVeriteBuckler]
+Name=verite buckler
+ID=iBuckler
+Armor=9
+SkillMake=Blacksmithing 90
+Resources=10 iVeriteIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Verite)
+Description=Buckler
+
+On=@Create
+Color=VeriteHue
+HitPoints={36 48}
+
+
+[ItemDef iVeriteHeaterShield]
+Name=verite heater shield
+ID=iHeaterShield
+Armor=25
+SkillMake=Blacksmithing 446
+Resources=18 iVeriteIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Verite)
+Description=Heater Shield
+
+On=@Create
+Color=VeriteHue
+HitPoints={36 48}
+
+
+[ItemDef iVeriteMetalShield]
+Name=verite metal shield
+ID=iMetalShield
+Armor=13
+SkillMake=Blacksmithing 190
+Resources=14 iVeriteIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Verite)
+Description=Metal Shield
+
+On=@Create
+Color=VeriteHue
+HitPoints={36 48}
+
+
+[ItemDef iVeriteCloseHelm]
+Name=verite close helm
+ID=iCloseHelm
+Armor=37
+SkillMake=Blacksmithing 626
+Resources=15 iVeriteIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Verite)
+Description=Close Helm
+
+On=@Create
+Color=VeriteHue
+HitPoints={36 48}
+
+
+[ItemDef iVeriteHelmet]
+Name=verite helmet
+ID=iHelmet
+Armor=37
+SkillMake=Blacksmithing 626
+Resources=15 iVeriteIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Verite)
+Description=Helmet
+
+On=@Create
+Color=VeriteHue
+HitPoints={36 48}
+
+
+[ItemDef iVeriteBascinet]
+Name=verite bascinet
+ID=iBascinet
+Armor=37
+SkillMake=Blacksmithing 232
+Resources=15 iVeriteIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Verite)
+Description=Bascinet
+
+On=@Create
+Color=VeriteHue
+HitPoints={36 48}
+
+
+[ItemDef iVeriteNoseHelm]
+Name=verite nose helm
+ID=iNoseHelm
+Armor=37
+SkillMake=Blacksmithing 626
+Resources=15 iVeriteIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Verite)
+Description=Nose Helm
+
+On=@Create
+Color=VeriteHue
+HitPoints={36 48}
+
+
+[EOF]

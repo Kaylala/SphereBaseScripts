@@ -1,0 +1,337 @@
+[ItemDef iShadowIronPlatemailTunic]
+Name=shadow iron platemail
+ID=iPlatemailTunic
+Armor=37
+SkillMake=Blacksmithing 760
+Resources=25 iShadowIronIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Shadow Iron)
+Description=Platemail
+
+On=@Create
+Color=ShadowIronHue
+HitPoints={36 48}
+
+
+[ItemDef iShadowIronPlatemailArms]
+Name=shadow iron platemail arms
+ID=iPlatemailArms
+Armor=37
+SkillMake=Blacksmithing 645
+Resources=18 iShadowIronIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Shadow Iron)
+Description=Platemail Arms
+
+On=@Create
+Color=ShadowIronHue
+HitPoints={36 48}
+
+
+[ItemDef iShadowIronPlatemailLegs]
+Name=shadow iron platemail legs
+ID=iPlatemailLegs
+Armor=37
+SkillMake=Blacksmithing 678
+Resources=20 iShadowIronIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Shadow Iron)
+Description=Platemail Legs
+
+On=@Create
+Color=ShadowIronHue
+HitPoints={36 48}
+
+
+[ItemDef iShadowIronPlateHelm]
+Name=shadow iron plate helm
+ID=iPlateHelm
+Armor=37
+SkillMake=Blacksmithing 596
+Resources=15 iShadowIronIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Shadow Iron)
+Description=Plate Helm
+
+On=@Create
+Color=ShadowIronHue
+HitPoints={36 48}
+
+
+[ItemDef iShadowIronPlatemailGorget]
+Name=shadow iron platemail gorget
+ID=iPlatemailGorget
+Armor=37
+SkillMake=Blacksmithing 514
+Resources=10 iShadowIronIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Shadow Iron)
+Description=Platemail Gorget
+
+On=@Create
+Color=ShadowIronHue
+HitPoints={36 48}
+
+
+[ItemDef iShadowIronPlatemailGloves]
+Name=shadow iron platemail Gloves
+ID=iPlatemailGloves
+Armor=37
+SkillMake=Blacksmithing 547
+Resources=12 iShadowIronIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Shadow Iron)
+Description=Platemail Gloves
+
+On=@Create
+Color=ShadowIronHue
+HitPoints={36 48}
+
+
+[ItemDef iShadowIronFemalePlateArmor]
+Name=shadow iron female plate armor
+ID=iFemalePlateArmor
+Armor=22
+SkillMake=Blacksmithing 710
+Resources=22 iShadowIronIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Shadow Iron)
+Description=Female Plate Armor
+
+On=@Create
+Color=ShadowIronHue
+HitPoints={36 48}
+
+
+[ItemDef iShadowIronChainmailCoif]
+Name=shadow iron chainmail coif
+ID=iChainmailCoif
+Armor=27
+SkillMake=Blacksmithing 286
+Resources=10 iShadowIronIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Shadow Iron)
+Description=Chainmail Coif
+
+On=@Create
+Color=ShadowIronHue
+HitPoints={36 48}
+
+
+[ItemDef iShadowIronChainmailLeggings]
+Name=shadow iron chainmail leggings
+ID=iChainmailLeggings
+Armor=27
+SkillMake=Blacksmithing 321
+Resources=18 iShadowIronIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Shadow Iron)
+Description=Chainmail Leggings
+
+On=@Create
+Color=ShadowIronHue
+HitPoints={36 48}
+
+
+[ItemDef iShadowIronChainmailTunic]
+Name=shadow iron chainmail tunic
+ID=iChainmailTunic
+Armor=27
+SkillMake=Blacksmithing 448
+Resources=20 iShadowIronIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Shadow Iron)
+Description=Chainmail Tunic
+
+On=@Create
+Color=ShadowIronHue
+HitPoints={36 48}
+
+
+[ItemDef iShadowIronRingmailLeggings]
+Name=shadow iron ringmail leggings
+ID=iRingmailLeggings
+Armor=22
+SkillMake=Blacksmithing 286
+Resources=16 iShadowIronIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Shadow Iron)
+Description=Ringmail Leggings
+
+On=@Create
+Color=ShadowIronHue
+HitPoints={36 48}
+
+
+[ItemDef iShadowIronRingmailSleeves]
+Name=shadow iron ringmail sleeves
+ID=iRingmailSleeves
+Armor=22
+SkillMake=Blacksmithing 253
+Resources=14 iShadowIronIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Shadow Iron)
+Description=Ringmail Sleeves
+
+On=@Create
+Color=ShadowIronHue
+HitPoints={36 48}
+
+
+[ItemDef iShadowIronRingmailGloves]
+Name=shadow iron ringmail gloves
+ID=iRingmailGloves
+Armor=22
+SkillMake=Blacksmithing 188
+Resources=10 iShadowIronIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Shadow Iron)
+Description=Ringmail Gloves
+
+On=@Create
+Color=ShadowIronHue
+HitPoints={36 48}
+
+
+[ItemDef iShadowIronRingmailTunic]
+Name=shadow iron ringmail tunic
+ID=iRingmailTunic
+Armor=22
+SkillMake=Blacksmithing 321
+Resources=18 iShadowIronIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Shadow Iron)
+Description=Ringmail Tunic
+
+On=@Create
+Color=ShadowIronHue
+HitPoints={36 48}
+
+
+[ItemDef iShadowIronBuckler]
+Name=shadow iron buckler
+ID=iBuckler
+Armor=9
+SkillMake=Blacksmithing 60
+Resources=10 iShadowIronIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Shadow Iron)
+Description=Buckler
+
+On=@Create
+Color=ShadowIronHue
+HitPoints={36 48}
+
+
+[ItemDef iShadowIronHeaterShield]
+Name=shadow iron heater shield
+ID=iHeaterShield
+Armor=25
+SkillMake=Blacksmithing 416
+Resources=18 iShadowIronIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Shadow Iron)
+Description=Heater Shield
+
+On=@Create
+Color=ShadowIronHue
+HitPoints={36 48}
+
+
+[ItemDef iShadowIronMetalShield]
+Name=shadow iron metal shield
+ID=iMetalShield
+Armor=13
+SkillMake=Blacksmithing 160
+Resources=14 iShadowIronIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Shadow Iron)
+Description=Metal Shield
+
+On=@Create
+Color=ShadowIronHue
+HitPoints={36 48}
+
+
+[ItemDef iShadowIronCloseHelm]
+Name=shadow iron close helm
+ID=iCloseHelm
+Armor=37
+SkillMake=Blacksmithing 596
+Resources=15 iShadowIronIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Shadow Iron)
+Description=Close Helm
+
+On=@Create
+Color=ShadowIronHue
+HitPoints={36 48}
+
+
+[ItemDef iShadowIronHelmet]
+Name=shadow iron helmet
+ID=iHelmet
+Armor=37
+SkillMake=Blacksmithing 596
+Resources=15 iShadowIronIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Shadow Iron)
+Description=Helmet
+
+On=@Create
+Color=ShadowIronHue
+HitPoints={36 48}
+
+
+[ItemDef iShadowIronBascinet]
+Name=shadow iron bascinet
+ID=iBascinet
+Armor=37
+SkillMake=Blacksmithing 202
+Resources=15 iShadowIronIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Shadow Iron)
+Description=Bascinet
+
+On=@Create
+Color=ShadowIronHue
+HitPoints={36 48}
+
+
+[ItemDef iShadowIronNoseHelm]
+Name=shadow iron bascinet
+ID=iNoseHelm
+Armor=37
+SkillMake=Blacksmithing 596
+Resources=15 iShadowIronIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Shadow Iron)
+Description=Bascinet
+
+On=@Create
+Color=ShadowIronHue
+HitPoints={36 48}
+
+
+[EOF]

@@ -1,0 +1,338 @@
+[ItemDef iDullCopperPlatemailTunic]
+Name=dull copper platemail tunic
+ID=iPlatemailTunic
+Armor=25
+ReqStr=60
+Weight=10
+Category=Equipment
+Subsection=Armor: Colored (Dull Copper)
+Description=Platemail
+Resources=25 iDullCopperIngot
+SkillMake=Blacksmithing 750
+
+On=@Create
+Color=DullCopperHue
+HitPoints={36 48}
+
+[ItemDef iDullCopperPlatemailArms]
+Name=dull copper platemail arms
+ID=iPlatemailArms
+Armor=25
+ReqStr=40
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Dull Copper)
+Description=Platemail Arms
+Resources=18 iDullCopperIngot
+SkillMake=Blacksmithing 635
+
+On=@Create
+Color=DullCopperHue
+HitPoints={36 48}
+
+[ItemDef iDullCopperPlatemailLegs]
+Name=dull copper platemail legs
+ID=iPlatemailLegs
+Armor=25
+ReqStr=60
+Weight=15
+Category=Equipment
+Subsection=Armor: Colored (Dull Copper)
+Description=Platemail Legs
+Resources=20 iDullCopperIngot
+SkillMake=Blacksmithing 668
+
+On=@Create
+Color=DullCopperHue
+HitPoints={36 48}
+
+[ItemDef iDullCopperPlateHelm]
+Name=dull copper plate helm
+ID=iPlateHelm
+Armor=25
+ReqStr=40
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Dull Copper)
+Description=Plate Helm
+Resources=15 iDullCopperIngot
+SkillMake=Blacksmithing 586
+
+On=@Create
+Color=DullCopperHue
+HitPoints={36 48}
+
+[ItemDef iDullCopperPlatemailGorget]
+Name=dull copper platemail gorget
+ID=iPlatemailGorget
+Armor=29
+ReqStr=30
+Weight=2
+Category=Equipment
+Subsection=Armor: Colored (Dull Copper)
+Description=Platemail Gorget
+Resources=10 iDullCopperIngot
+SkillMake=Blacksmithing 504
+
+On=@Create
+Color=DullCopperHue
+HitPoints={36 48}
+
+[ItemDef iDullCopperPlatemailGloves]
+Name=dull copper platemail Gloves
+ID=iPlatemailGloves
+Armor=25
+ReqStr=30
+Weight=2
+Category=Equipment
+Subsection=Armor: Colored (Dull Copper)
+Description=Platemail Gloves
+Resources=12 iDullCopperIngot
+SkillMake=Blacksmithing 537
+
+On=@Create
+Color=DullCopperHue
+HitPoints={36 48}
+
+[ItemDef iDullCopperFemalePlateArmor]
+Name=dull copper female plate armor
+ID=iFemalePlateArmor
+Armor=25
+ReqStr=15
+Weight=6
+Category=Equipment
+Subsection=Armor: Colored (Dull Copper)
+Description=Female Plate Armor
+Resources=22 iDullCopperIngot
+SkillMake=Blacksmithing 700
+
+On=@Create
+Color=DullCopperHue
+HitPoints={36 48}
+
+[ItemDef iDullCopperChainmailCoif]
+Name=dull copper chainmail coif
+ID=iChainmailCoif
+Armor=20
+ReqStr=20
+Weight=7
+Category=Equipment
+Subsection=Armor: Colored (Dull Copper)
+Description=Chainmail Coif
+Resources=10 iDullCopperIngot
+SkillMake=Blacksmithing 276
+
+On=@Create
+Color=DullCopperHue
+HitPoints={36 48}
+
+[ItemDef iDullCopperChainmailLeggings]
+Name=dull copper chainmail leggings
+ID=iChainmailLeggings
+Armor=20
+ReqStr=20
+Weight=7
+Category=Equipment
+Subsection=Armor: Colored (Dull Copper)
+Description=Chainmail Leggings
+Resources=18 iDullCopperIngot
+SkillMake=Blacksmithing 311
+
+On=@Create
+Color=DullCopperHue
+HitPoints={36 48}
+
+[ItemDef iDullCopperChainmailTunic]
+Name=dull copper chainmail tunic
+ID=iChainmailTunic
+Armor=20
+ReqStr=20
+Weight=7
+Category=Equipment
+Subsection=Armor: Colored (Dull Copper)
+Description=Chainmail Tunic
+Resources=20 iDullCopperIngot
+SkillMake=Blacksmithing 438
+
+On=@Create
+Color=DullCopperHue
+HitPoints={36 48}
+
+[ItemDef iDullCopperRingmailLeggings]
+Name=dull copper ringmail leggings
+ID=iRingmailLeggings
+Armor=18
+ReqStr=20
+Weight=15
+Category=Equipment
+Subsection=Armor: Colored (Dull Copper)
+Description=Ringmail Leggings
+Resources=16 iDullCopperIngot
+SkillMake=Blacksmithing 276
+
+On=@Create
+Color=DullCopperHue
+HitPoints={36 48}
+
+[ItemDef iDullCopperRingmailSleeves]
+Name=dull copper ringmail sleeves
+ID=iRingmailSleeves
+Armor=18
+ReqStr=20
+Weight=15
+Category=Equipment
+Subsection=Armor: Colored (Dull Copper)
+Description=Ringmail Sleeves
+Resources=14 iDullCopperIngot
+SkillMake=Blacksmithing 243
+
+On=@Create
+Color=DullCopperHue
+HitPoints={36 48}
+
+[ItemDef iDullCopperRingmailGloves]
+Name=dull copper ringmail gloves
+ID=iRingmailGloves
+Armor=18
+ReqStr=20
+Weight=2
+Category=Equipment
+Subsection=Armor: Colored (Dull Copper)
+Description=Ringmail Gloves
+Resources=10 iDullCopperIngot
+SkillMake=Blacksmithing 178
+
+On=@Create
+Color=DullCopperHue
+HitPoints={36 48}
+
+[ItemDef iDullCopperRingmailTunic]
+Name=dull copper ringmail tunic
+ID=iRingmailTunic
+Armor=18
+ReqStr=20
+Weight=15
+Category=Equipment
+Subsection=Armor: Colored (Dull Copper)
+Description=Ringmail Tunic
+Resources=18 iDullCopperIngot
+SkillMake=Blacksmithing 311
+
+On=@Create
+Color=DullCopperHue
+HitPoints={36 48}
+
+[ItemDef iDullCopperBuckler]
+Name=dull copper buckler
+ID=iBuckler
+Armor=2
+ReqStr=15
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Dull Copper)
+Description=Buckler
+Resources=10 iDullCopperIngot
+SkillMake=Blacksmithing 50
+
+On=@Create
+Color=DullCopperHue
+HitPoints={36 48}
+
+[ItemDef iDullCopperHeaterShield]
+Name=dull copper heater shield
+ID=iHeaterShield
+Armor=18
+ReqStr=30
+Weight=8
+Category=Equipment
+Subsection=Armor: Colored (Dull Copper)
+Description=Heater Shield
+Resources=18 iDullCopperIngot
+SkillMake=Blacksmithing 406
+
+On=@Create
+Color=DullCopperHue
+HitPoints={36 48}
+
+[ItemDef iDullCopperMetalShield]
+Name=dull copper metal shield
+ID=iMetalShield
+Armor=7
+ReqStr=15
+Weight=6
+Category=Equipment
+Subsection=Armor: Colored (Dull Copper)
+Description=Metal Shield
+Resources=14 iDullCopperIngot
+SkillMake=Blacksmithing 150
+
+On=@Create
+Color=DullCopperHue
+HitPoints={36 48}
+
+[ItemDef iDullCopperCloseHelm]
+Name=dull copper close helm
+ID=iCloseHelm
+Armor=25
+ReqStr=20
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Dull Copper)
+Description=Close Helm
+Resources=15 iDullCopperIngot
+SkillMake=Blacksmithing 586
+
+On=@Create
+Color=DullCopperHue
+HitPoints={36 48}
+
+[ItemDef iDullCopperHelmet]
+Name=dull copper helmet
+ID=iHelmet
+Armor=20
+ReqStr=10
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Dull Copper)
+Description=Helmet
+Resources=15 iDullCopperIngot
+SkillMake=Blacksmithing 586
+
+On=@Create
+Color=DullCopperHue
+HitPoints={36 48}
+
+[ItemDef iDullCopperBascinet]
+Name=dull copper bascinet
+ID=iBascinet
+Armor=25
+ReqStr=10
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Dull Copper)
+Description=Bascinet
+Resources=15 iDullCopperIngot
+SkillMake=Blacksmithing 192
+
+On=@Create
+Color=DullCopperHue
+HitPoints={36 48}
+
+[ItemDef iDullCopperNoseHelm]
+Name=dull copper nose helm
+ID=iNoseHelm
+Armor=20
+ReqStr=0
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Dull Copper)
+Description=Nose Helm
+Resources=15 iDullCopperIngot
+SkillMake=Blacksmithing 586
+
+On=@Create
+Color=DullCopperHue
+HitPoints={36 48}
+
+
+[EOF]

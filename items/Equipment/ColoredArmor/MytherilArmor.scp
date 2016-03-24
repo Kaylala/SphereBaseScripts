@@ -1,0 +1,338 @@
+[ItemDef iMytherilPlatemailTunic]
+Name=mytheril platemail
+ID=iPlatemailTunic
+Armor=37
+ReqStr=60
+Weight=10
+Category=Equipment
+Subsection=Armor: Colored (Mytheril)
+Description=Platemail
+Resources=25 iMytherilIngot
+SkillMake=Blacksmithing 82
+
+On=@Create
+Color=MytherilHue
+HitPoints={36 48}
+
+[ItemDef iMytherilPlatemailArms]
+Name=mytheril platemail arms
+ID=iPlatemailArms
+Armor=37
+ReqStr=40
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Mytheril)
+Description=Platemail Arms
+Resources=18 iMytherilIngot
+SkillMake=Blacksmithing 705
+
+On=@Create
+Color=MytherilHue
+HitPoints={36 48}
+
+[ItemDef iMytherilPlatemailLegs]
+Name=mytheril platemail legs
+ID=iPlatemailLegs
+Armor=37
+ReqStr=60
+Weight=15
+Category=Equipment
+Subsection=Armor: Colored (Mytheril)
+Description=Platemail Legs
+Resources=20 iMytherilIngot
+SkillMake=Blacksmithing 738
+
+On=@Create
+Color=MytherilHue
+HitPoints={36 48}
+
+[ItemDef iMytherilPlateHelm]
+Name=mytheril plate helm
+ID=iPlateHelm
+Armor=37
+ReqStr=40
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Mytheril)
+Description=Plate Helm
+Resources=15 iMytherilIngot
+SkillMake=Blacksmithing 656
+
+On=@Create
+Color=MytherilHue
+HitPoints={36 48}
+
+[ItemDef iMytherilPlatemailGorget]
+Name=mytheril platemail gorget
+ID=iPlatemailGorget
+Armor=37
+ReqStr=30
+Weight=2
+Category=Equipment
+Subsection=Armor: Colored (Mytheril)
+Description=Platemail Gorget
+Resources=10 iMytherilIngot
+SkillMake=Blacksmithing 574
+
+On=@Create
+Color=MytherilHue
+HitPoints={36 48}
+
+[ItemDef iMytherilPlatemailGloves]
+Name=mytheril platemail Gloves
+ID=iPlatemailGloves
+Armor=37
+ReqStr=30
+Weight=2
+Category=Equipment
+Subsection=Armor: Colored (Mytheril)
+Description=Platemail Gloves
+Resources=12 iMytherilIngot
+SkillMake=Blacksmithing 607
+
+On=@Create
+Color=MytherilHue
+HitPoints={36 48}
+
+[ItemDef iMytherilFemalePlateArmor]
+Name=mytheril female plate armor
+ID=iFemalePlateArmor
+Armor=22
+ReqStr=15
+Weight=6
+Category=Equipment
+Subsection=Armor: Colored (Mytheril)
+Description=Female Plate Armor
+Resources=22 iMytherilIngot
+SkillMake=Blacksmithing 770
+
+On=@Create
+Color=MytherilHue
+HitPoints={36 48}
+
+[ItemDef iMytherilChainmailCoif]
+Name=mytheril chainmail coif
+ID=iChainmailCoif
+Armor=27
+ReqStr=20
+Weight=7
+Category=Equipment
+Subsection=Armor: Colored (Mytheril)
+Description=Chainmail Coif
+Resources=10 iMytherilIngot
+SkillMake=Blacksmithing 346
+
+On=@Create
+Color=MytherilHue
+HitPoints={36 48}
+
+[ItemDef iMytherilChainmailLeggings]
+Name=mytheril chainmail leggings
+ID=iChainmailLeggings
+Armor=27
+ReqStr=20
+Weight=7
+Category=Equipment
+Subsection=Armor: Colored (Mytheril)
+Description=Chainmail Leggings
+Resources=18 iMytherilIngot
+SkillMake=Blacksmithing 381
+
+On=@Create
+Color=MytherilHue
+HitPoints={36 48}
+
+[ItemDef iMytherilChainmailTunic]
+Name=mytheril chainmail tunic
+ID=iChainmailTunic
+Armor=27
+ReqStr=20
+Weight=7
+Category=Equipment
+Subsection=Armor: Colored (Mytheril)
+Description=Chainmail Tunic
+Resources=20 iMytherilIngot
+SkillMake=Blacksmithing 508
+
+On=@Create
+Color=MytherilHue
+HitPoints={36 48}
+
+[ItemDef iMytherilRingmailLeggings]
+Name=mytheril ringmail leggings
+ID=iRingmailLeggings
+Armor=22
+ReqStr=20
+Weight=15
+Category=Equipment
+Subsection=Armor: Colored (Mytheril)
+Description=Ringmail Leggings
+Resources=16 iMytherilIngot
+SkillMake=Blacksmithing 346
+
+On=@Create
+Color=MytherilHue
+HitPoints={36 48}
+
+[ItemDef iMytherilRingmailSleeves]
+Name=mytheril ringmail sleeves
+ID=iRingmailSleeves
+Armor=22
+ReqStr=20
+Weight=15
+Category=Equipment
+Subsection=Armor: Colored (Mytheril)
+Description=Ringmail Sleeves
+Resources=14 iMytherilIngot
+SkillMake=Blacksmithing 313
+
+On=@Create
+Color=MytherilHue
+HitPoints={36 48}
+
+[ItemDef iMytherilRingmailGloves]
+Name=mytheril ringmail gloves
+ID=iRingmailGloves
+Armor=22
+ReqStr=20
+Weight=2
+Category=Equipment
+Subsection=Armor: Colored (Mytheril)
+Description=Ringmail Gloves
+Resources=10 iMytherilIngot
+SkillMake=Blacksmithing 248
+
+On=@Create
+Color=MytherilHue
+HitPoints={36 48}
+
+[ItemDef iMytherilRingmailTunic]
+Name=mytheril ringmail tunic
+ID=iRingmailTunic
+Armor=22
+ReqStr=20
+Weight=15
+Category=Equipment
+Subsection=Armor: Colored (Mytheril)
+Description=Ringmail Tunic
+Resources=18 iMytherilIngot
+SkillMake=Blacksmithing 381
+
+On=@Create
+Color=MytherilHue
+HitPoints={36 48}
+
+[ItemDef iMytherilBuckler]
+Name=mytheril buckler
+ID=iBuckler
+Armor=9
+ReqStr=15
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Mytheril)
+Description=Buckler
+Resources=10 iMytherilIngot
+SkillMake=Blacksmithing 120
+
+On=@Create
+Color=MytherilHue
+HitPoints={36 48}
+
+[ItemDef iMytherilHeaterShield]
+Name=mytheril heater shield
+ID=iHeaterShield
+Armor=25
+ReqStr=30
+Weight=8
+Category=Equipment
+Subsection=Armor: Colored (Mytheril)
+Description=Heater Shield
+Resources=18 iMytherilIngot
+SkillMake=Blacksmithing 476
+
+On=@Create
+Color=MytherilHue
+HitPoints={36 48}
+
+[ItemDef iMytherilMetalShield]
+Name=mytheril metal shield
+ID=iMetalShield
+Armor=13
+ReqStr=15
+Weight=6
+Category=Equipment
+Subsection=Armor: Colored (Mytheril)
+Description=Metal Shield
+Resources=14 iMytherilIngot
+SkillMake=Blacksmithing 220
+
+On=@Create
+Color=MytherilHue
+HitPoints={36 48}
+
+[ItemDef iMytherilCloseHelm]
+Name=mytheril close helm
+ID=iCloseHelm
+Armor=37
+ReqStr=20
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Mytheril)
+Description=Close Helm
+Resources=15 iMytherilIngot
+SkillMake=Blacksmithing 636
+
+On=@Create
+Color=MytherilHue
+HitPoints={36 48}
+
+[ItemDef iMytherilHelmet]
+Name=mytheril helmet
+ID=iHelmet
+Armor=37
+ReqStr=10
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Mytheril)
+Description=Helmet
+Resources=15 iMytherilIngot
+SkillMake=Blacksmithing 636
+
+On=@Create
+Color=MytherilHue
+HitPoints={36 48}
+
+[ItemDef iMytherilBascinet]
+Name=mytheril bascinet
+ID=iBascinet
+Armor=37
+ReqStr=10
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Mytheril)
+Description=Bascinet
+Resources=15 iMytherilIngot
+SkillMake=Blacksmithing 262
+
+On=@Create
+Color=MytherilHue
+HitPoints={36 48}
+
+[ItemDef iMytherilNoseHelm]
+Name=mytheril nose helm
+ID=iNoseHelm
+Armor=37
+ReqStr=0
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Mytheril)
+Description=Nose Helm
+Resources=15 iMytherilIngot
+SkillMake=Blacksmithing 636
+
+On=@Create
+Color=MytherilHue
+HitPoints={36 48}
+
+
+[EOF]

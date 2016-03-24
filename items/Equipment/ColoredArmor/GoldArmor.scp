@@ -1,0 +1,356 @@
+[ItemDef iGoldPlatemailArms]
+DefName=iGoldenPlatemailArms
+ID=iPlatemailArms
+Name=golden platemail arms
+Armor=30
+SkillMake=Blacksmithing 645
+Resources=18 iGoldIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Golden)
+Description=Platemail Arms
+
+On=@Create
+Color=GoldHue
+HitPoints={36 48}
+
+[ItemDef iGoldPlatemailLegs]
+DefName=iGoldenPlatemailLegs
+Name=golden platemail legs
+ID=iPlatemailLegs
+Weight=15
+Armor=30
+ReqStr=60
+Category=Equipment
+Subsection=Armor: Colored (Golden)
+Description=Platemail Legs
+Resources=20 iGoldIngot
+SkillMake=Blacksmithing 678
+
+On=@Create
+Color=GoldHue
+HitPoints={36 48}
+
+[ItemDef iGoldPlateHelm]
+DefName=iGoldenPlateHelm
+Name=golden plate helm
+ID=iPlateHelm
+Armor=30
+ReqStr=40
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Golden)
+Description=Plate Helm
+Resources=15 iGoldIngot
+SkillMake=Blacksmithing 596
+
+On=@Create
+Color=GoldHue
+HitPoints={36 48}
+
+[ItemDef iGoldPlatemailGorget]
+DefName=iGoldenPlatemailGorget
+Name=golden platemail gorget
+ID=iPlatemailGorget
+Armor=30
+ReqStr=30
+Weight=2
+Category=Equipment
+Subsection=Armor: Colored (Golden)
+Description=Platemail Gorget
+Resources=10 iGoldIngot
+SkillMake=Blacksmithing 514
+
+On=@Create
+Color=GoldHue
+HitPoints={36 48}
+
+[ItemDef iGoldPlatemailGloves]
+DefName=iGoldenPlatemailGloves
+Name=golden platemail Gloves
+ID=iPlatemailGloves
+Armor=30
+ReqStr=30
+Weight=2
+Category=Equipment
+Subsection=Armor: Colored (Golden)
+Description=Platemail Gloves
+Resources=12 iGoldIngot
+SkillMake=Blacksmithing 547
+
+On=@Create
+Color=GoldHue
+HitPoints={36 48}
+
+[ItemDef iGoldPlatemailTunic]
+DefName=iGoldenPlatemailTunic
+Name=golden platemail
+ID=iPlatemailTunic
+Armor=30
+ReqStr=60
+Weight=10
+Category=Equipment
+Subsection=Armor: Colored (Golden)
+Description=Platemail
+Resources=26 iGoldIngot
+SkillMake=Blacksmithing 760
+
+On=@Create
+Color=GoldHue
+HitPoints={36 48}
+
+[ItemDef iGoldRingmailLeggings]
+DefName=iGoldenRingmailLeggings
+Name=golden ringmail leggings
+ID=iRingmailLeggings
+Armor=20
+ReqStr=20
+Weight=15
+Category=Equipment
+Subsection=Armor: Colored (Golden)
+Description=Ringmail Leggings
+Resources=16 iGoldIngot
+SkillMake=Blacksmithing 286
+
+On=@Create
+Color=GoldHue
+HitPoints={36 48}
+
+[ItemDef iGoldRingmailSleeves]
+DefName=iGoldenRingmailSleeves
+Name=golden ringmail sleeves
+ID=iRingmailSleeves
+Armor=20
+ReqStr=20
+Weight=15
+Category=Equipment
+Subsection=Armor: Colored (Golden)
+Description=Ringmail Sleeves
+Resources=14 iGoldIngot
+SkillMake=Blacksmithing 253
+
+On=@Create
+Color=GoldHue
+HitPoints={36 48}
+
+[ItemDef iGoldRingmailGloves]
+DefName=iGoldenRingmailGloves
+Name=golden ringmail gloves
+ID=iRingmailGloves
+Armor=20
+ReqStr=20
+Weight=2
+Category=Equipment
+Subsection=Armor: Colored (Golden)
+Description=Ringmail Gloves
+Resources=10 iGoldIngot
+SkillMake=Blacksmithing 188
+
+On=@Create
+Color=GoldHue
+HitPoints={36 48}
+
+[ItemDef iGoldRingmailTunic]
+DefName=iGoldenRingmailTunic
+Name=golden ringmail tunic
+ID=iRingmailTunic
+Armor=20
+ReqStr=20
+Weight=15
+Category=Equipment
+Subsection=Armor: Colored (Golden)
+Description=Ringmail Tunic
+Resources=18 iGoldIngot
+SkillMake=Blacksmithing 321
+
+On=@Create
+Color=GoldHue
+HitPoints={36 48}
+
+[ItemDef iGoldBuckler]
+DefName=iGoldenBuckler
+Name=golden buckler
+ID=iBuckler
+Armor=7
+ReqStr=15
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Golden)
+Description=Buckler
+Resources=10 iGoldIngot
+SkillMake=Blacksmithing 60
+
+On=@Create
+Color=GoldHue
+HitPoints={36 48}
+
+[ItemDef iGoldMetalShield]
+DefName=iGoldenMetalShield
+Name=golden metal shield
+ID=iMetalShield
+Armor=11
+ReqStr=15
+Weight=6
+Category=Equipment
+Subsection=Armor: Colored (Golden)
+Description=Metal Shield
+Resources=14 iGoldIngot
+SkillMake=Blacksmithing 160
+
+On=@Create
+Color=GoldHue
+HitPoints={36 48}
+
+
+[ItemDef iGoldFemalePlateArmor]
+DefName=iGoldenFemalePlateArmor
+Name=golden female plate armor
+ID=iFemalePlateArmor
+Armor=15
+ReqStr=15
+Weight=4
+Category=Equipment
+Subsection=Armor: Colored (Golden)
+Description=Female Plate Armor
+Resources=22 iGoldIngot
+SkillMake=Blacksmithing 710
+
+On=@Create
+Color=GoldHue
+HitPoints={36 48}
+
+[ItemDef iGoldChainmailCoif]
+DefName=iGoldenChainmailCoif
+Name=golden chainmail coif
+ID=iChainmailCoif
+Armor=23
+ReqStr=20
+Weight=7
+Category=Equipment
+Subsection=Armor: Colored (Golden)
+Description=Chainmail Coif
+Resources=10 iGoldIngot
+SkillMake=Blacksmithing 286
+
+On=@Create
+Color=GoldHue
+HitPoints={36 48}
+
+[ItemDef iGoldChainmailLeggings]
+DefName=iGoldenChainmailLeggings
+Name=golden chainmail leggings
+ID=iChainmailLeggings
+Armor=23
+ReqStr=20
+Weight=7
+Category=Equipment
+Subsection=Armor: Colored (Golden)
+Description=Chainmail Leggings
+Resources=18 iGoldIngot
+SkillMake=Blacksmithing 321
+
+On=@Create
+Color=GoldHue
+HitPoints={36 48}
+
+[ItemDef iGoldChainmailTunic]
+DefName=iGoldenChainmailTunic
+Name=golden chainmail tunic
+ID=iChainmailTunic
+Armor=23
+ReqStr=20
+Weight=7
+Category=Equipment
+Subsection=Armor: Colored (Golden)
+Description=Chainmail Tunic
+Resources=20 iGoldIngot
+SkillMake=Blacksmithing 448
+
+On=@Create
+Color=GoldHue
+HitPoints={36 48}
+
+[ItemDef iGoldHeaterShield]
+DefName=iGoldenHeaterShield
+Name=golden heater shield
+ID=iHeaterShield
+Armor=23
+ReqStr=30
+Weight=8
+Category=Equipment
+Subsection=Armor: Colored (Golden)
+Description=Heater Shield
+Resources=18 iGoldIngot
+SkillMake=Blacksmithing 416
+
+On=@Create
+Color=GoldHue
+HitPoints={36 48}
+
+
+[ItemDef iGoldCloseHelm]
+Name=golden close helm
+ID=iCloseHelm
+Armor=30
+ReqStr=20
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Golden)
+Description=Close Helm
+Resources=15 iGoldIngot
+SkillMake=Blacksmithing 596
+
+On=@Create
+Color=GoldHue
+HitPoints={36 48}
+
+[ItemDef iGoldHelmet]
+Name=golden helmet
+ID=iHelmet
+Armor=30
+ReqStr=20
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Golden)
+Description=Helmet
+Resources=15 iGoldIngot
+SkillMake=Blacksmithing 596
+
+On=@Create
+Color=GoldHue
+HitPoints={36 48}
+
+[ItemDef iGoldBascinet]
+Name=golden bascinet
+ID=iBascinet
+Armor=30
+ReqStr=20
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Golden)
+Description=Bascinet
+Resources=15 iGoldIngot
+SkillMake=Blacksmithing 202
+
+On=@Create
+Color=GoldHue
+HitPoints={36 48}
+
+[ItemDef iGoldNoseHelm]
+Name=golden nose helm
+ID=iNoseHelm
+Armor=30
+ReqStr=20
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Golden)
+Description=Nose Helm
+Resources=15 iGoldIngot
+SkillMake=Blacksmithing 596
+
+On=@Create
+Color=GoldHue
+HitPoints={36 48}
+
+
+[EOF]

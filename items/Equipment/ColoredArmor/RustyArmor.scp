@@ -1,0 +1,338 @@
+[ItemDef iRustyPlatemailTunic]
+Name=rusty platemail tunic
+ID=iPlatemailTunic
+Armor=25
+ReqStr=60
+Weight=10
+Category=Equipment
+Subsection=Armor: Colored (Rusty)
+Description=Platemail
+Resources=25 iRustyIngot
+SkillMake=Blacksmithing 750
+
+On=@Create
+Color=RustyHue
+HitPoints={36 48}
+
+[ItemDef iRustyPlatemailArms]
+Name=rusty platemail arms
+ID=iPlatemailArms
+Armor=25
+ReqStr=40
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Rusty)
+Description=Platemail Arms
+Resources=18 iRustyIngot
+SkillMake=Blacksmithing 635
+
+On=@Create
+Color=RustyHue
+HitPoints={36 48}
+
+[ItemDef iRustyPlatemailLegs]
+Name=rusty platemail legs
+ID=iPlatemailLegs
+Armor=25
+ReqStr=60
+Weight=15
+Category=Equipment
+Subsection=Armor: Colored (Rusty)
+Description=Platemail Legs
+Resources=20 iRustyIngot
+SkillMake=Blacksmithing 668
+
+On=@Create
+Color=RustyHue
+HitPoints={36 48}
+
+[ItemDef iRustyPlateHelm]
+Name=rusty plate helm
+ID=iPlateHelm
+Armor=25
+ReqStr=40
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Rusty)
+Description=Plate Helm
+Resources=15 iRustyIngot
+SkillMake=Blacksmithing 586
+
+On=@Create
+Color=RustyHue
+HitPoints={36 48}
+
+[ItemDef iRustyPlatemailGorget]
+Name=rusty platemail gorget
+ID=iPlatemailGorget
+Armor=25
+ReqStr=30
+Weight=2
+Category=Equipment
+Subsection=Armor: Colored (Rusty)
+Description=Platemail Gorget
+Resources=10 iRustyIngot
+SkillMake=Blacksmithing 504
+
+On=@Create
+Color=RustyHue
+HitPoints={36 48}
+
+[ItemDef iRustyPlatemailGloves]
+Name=rusty platemail Gloves
+ID=iPlatemailGloves
+Armor=25
+ReqStr=30
+Weight=2
+Category=Equipment
+Subsection=Armor: Colored (Rusty)
+Description=Platemail Gloves
+Resources=12 iRustyIngot
+SkillMake=Blacksmithing 537
+
+On=@Create
+Color=RustyHue
+HitPoints={36 48}
+
+[ItemDef iRustyFemalePlateArmor]
+Name=rusty female plate armor
+ID=iFemalePlateArmor
+Armor=14
+ReqStr=15
+Weight=6
+Category=Equipment
+Subsection=Armor: Colored (Rusty)
+Description=Female Plate Armor
+Resources=22 iRustyIngot
+SkillMake=Blacksmithing 700
+
+On=@Create
+Color=RustyHue
+HitPoints={36 48}
+
+[ItemDef iRustyChainmailCoif]
+Name=rusty chainmail coif
+ID=iChainmailCoif
+Armor=20
+ReqStr=20
+Weight=7
+Category=Equipment
+Subsection=Armor: Colored (Rusty)
+Description=Chainmail Coif
+Resources=10 iRustyIngot
+SkillMake=Blacksmithing 276
+
+On=@Create
+Color=RustyHue
+HitPoints={36 48}
+
+[ItemDef iRustyChainmailLeggings]
+Name=rusty chainmail leggings
+ID=iChainmailLeggings
+Armor=20
+ReqStr=20
+Weight=7
+Category=Equipment
+Subsection=Armor: Colored (Rusty)
+Description=Chainmail Leggings
+Resources=18 iRustyIngot
+SkillMake=Blacksmithing 311
+
+On=@Create
+Color=RustyHue
+HitPoints={36 48}
+
+[ItemDef iRustyChainmailTunic]
+Name=rusty chainmail tunic
+ID=iChainmailTunic
+Armor=20
+ReqStr=20
+Weight=7
+Category=Equipment
+Subsection=Armor: Colored (Rusty)
+Description=Chainmail Tunic
+Resources=20 iRustyIngot
+SkillMake=Blacksmithing 438
+
+On=@Create
+Color=RustyHue
+HitPoints={36 48}
+
+[ItemDef iRustyRingmailLeggings]
+Name=rusty ringmail leggings
+ID=iRingmailLeggings
+Armor=18
+ReqStr=20
+Weight=15
+Category=Equipment
+Subsection=Armor: Colored (Rusty)
+Description=Ringmail Leggings
+Resources=16 iRustyIngot
+SkillMake=Blacksmithing 276
+
+On=@Create
+Color=RustyHue
+HitPoints={36 48}
+
+[ItemDef iRustyRingmailSleeves]
+Name=rusty ringmail sleeves
+ID=iRingmailSleeves
+Armor=18
+ReqStr=20
+Weight=15
+Category=Equipment
+Subsection=Armor: Colored (Rusty)
+Description=Ringmail Sleeves
+Resources=10 iRustyIngot
+SkillMake=Blacksmithing 178
+
+On=@Create
+Color=RustyHue
+HitPoints={36 48}
+
+[ItemDef iRustyRingmailGloves]
+Name=rusty ringmail gloves
+ID=iRingmailGloves
+Armor=18
+ReqStr=20
+Weight=2
+Category=Equipment
+Subsection=Armor: Colored (Rusty)
+Description=Ringmail Gloves
+Resources=15 iRustyIngot
+SkillMake=Blacksmithing 990
+
+On=@Create
+Color=RustyHue
+HitPoints={36 48}
+
+[ItemDef iRustyRingmailTunic]
+Name=rusty ringmail tunic
+ID=iRingmailTunic
+Armor=18
+ReqStr=20
+Weight=15
+Category=Equipment
+Subsection=Armor: Colored (Rusty)
+Description=Ringmail Tunic
+Resources=18 iRustyIngot
+SkillMake=Blacksmithing 311
+
+On=@Create
+Color=RustyHue
+HitPoints={36 48}
+
+[ItemDef iRustyBuckler]
+Name=rusty buckler
+ID=iBuckler
+Armor=6
+ReqStr=15
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Rusty)
+Description=Buckler
+Resources=10 iRustyIngot
+SkillMake=Blacksmithing 50
+
+On=@Create
+Color=RustyHue
+HitPoints={36 48}
+
+[ItemDef iRustyHeaterShield]
+Name=rusty heater shield
+ID=iHeaterShield
+Armor=20
+ReqStr=30
+Weight=8
+Category=Equipment
+Subsection=Armor: Colored (Rusty)
+Description=Heater Shield
+Resources=18 iRustyIngot
+SkillMake=Blacksmithing 406
+
+On=@Create
+Color=RustyHue
+HitPoints={36 48}
+
+[ItemDef iRustyMetalShield]
+Name=rusty metal shield
+ID=iMetalShield
+Armor=10
+ReqStr=15
+Weight=6
+Category=Equipment
+Subsection=Armor: Colored (Rusty)
+Description=Metal Shield
+Resources=14 iRustyIngot
+SkillMake=Blacksmithing 150
+
+On=@Create
+Color=RustyHue
+HitPoints={36 48}
+
+[ItemDef iRustyCloseHelm]
+Name=rusty close helm
+ID=iCloseHelm
+Armor=25
+ReqStr=20
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Rusty)
+Description=Close Helm
+Resources=15 iRustyIngot
+SkillMake=Blacksmithing 586
+
+On=@Create
+Color=RustyHue
+HitPoints={36 48}
+
+[ItemDef iRustyHelmet]
+Name=rusty helmet
+ID=iHelmet
+Armor=25
+ReqStr=10
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Rusty)
+Description=Helmet
+Resources=15 iRustyIngot
+SkillMake=Blacksmithing 586
+
+On=@Create
+Color=RustyHue
+HitPoints={36 48}
+
+[ItemDef iRustyBascinet]
+Name=rusty bascinet
+ID=iBascinet
+Armor=25
+ReqStr=10
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Rusty)
+Description=Bascinet
+Resources=15 iRustyIngot
+SkillMake=Blacksmithing 192
+
+On=@Create
+Color=RustyHue
+HitPoints={36 48}
+
+[ItemDef iRustyNoseHelm]
+Name=rusty nose helm
+ID=iNoseHelm
+Armor=25
+ReqStr=0
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Rusty)
+Description=Nose Helm
+Resources=15 iRustyIngot
+SkillMake=Blacksmithing 586
+
+On=@Create
+Color=RustyHue
+HitPoints={36 48}
+
+
+[EOF]

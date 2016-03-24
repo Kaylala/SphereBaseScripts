@@ -1,0 +1,337 @@
+[ItemDef iValoritePlatemailTunic]
+Name=valorite platemail tunic
+ID=iPlatemailTunic
+Armor=37
+SkillMake=Blacksmithing 790
+Resources=25 iValoriteIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Valorite)
+Description=Platemail
+
+On=@Create
+Color=ValoriteHue
+HitPoints={36 48}
+
+
+[ItemDef iValoritePlatemailArms]
+Name=valorite platemail arms
+ID=iPlatemailArms
+Armor=37
+SkillMake=Blacksmithing 675
+Resources=18 iValoriteIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Valorite)
+Description=Platemail Arms
+
+On=@Create
+Color=ValoriteHue
+HitPoints={36 48}
+
+
+[ItemDef iValoritePlatemailLegs]
+Name=valorite platemail legs
+ID=iPlatemailLegs
+Armor=37
+SkillMake=Blacksmithing 708
+Resources=20 iValoriteIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Valorite)
+Description=Platemail Legs
+
+On=@Create
+Color=ValoriteHue
+HitPoints={36 48}
+
+
+[ItemDef iValoritePlateHelm]
+Name=valorite plate helm
+ID=iPlateHelm
+Armor=37
+SkillMake=Blacksmithing 626
+Resources=15 iValoriteIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Valorite)
+Description=Plate Helm
+
+On=@Create
+Color=ValoriteHue
+HitPoints={36 48}
+
+
+[ItemDef iValoritePlatemailGorget]
+Name=valorite platemail gorget
+ID=iPlatemailGorget
+Armor=37
+SkillMake=Blacksmithing 544
+Resources=10 iValoriteIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Valorite)
+Description=Platemail Gorget
+
+On=@Create
+Color=ValoriteHue
+HitPoints={36 48}
+
+
+[ItemDef iValoritePlatemailGloves]
+Name=valorite platemail Gloves
+ID=iPlatemailGloves
+Armor=37
+SkillMake=Blacksmithing 577
+Resources=12 iValoriteIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Valorite)
+Description=Platemail Gloves
+
+On=@Create
+Color=ValoriteHue
+HitPoints={36 48}
+
+
+[ItemDef iValoriteFemalePlateArmor]
+Name=valorite female plate armor
+ID=iFemalePlateArmor
+Armor=22
+SkillMake=Blacksmithing 740
+Resources=22 iValoriteIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Valorite)
+Description=Female Plate Armor
+
+On=@Create
+Color=ValoriteHue
+HitPoints={36 48}
+
+
+[ItemDef iValoriteChainmailCoif]
+Name=valorite chainmail coif
+ID=iChainmailCoif
+Armor=27
+SkillMake=Blacksmithing 316
+Resources=10 iValoriteIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Valorite)
+Description=Chainmail Coif
+
+On=@Create
+Color=ValoriteHue
+HitPoints={36 48}
+
+
+[ItemDef iValoriteChainmailLeggings]
+Name=valorite chainmail leggings
+ID=iChainmailLeggings
+Armor=27
+SkillMake=Blacksmithing 351
+Resources=18 iValoriteIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Valorite)
+Description=Chainmail Leggings
+
+On=@Create
+Color=ValoriteHue
+HitPoints={36 48}
+
+
+[ItemDef iValoriteChainmailTunic]
+Name=valorite chainmail tunic
+ID=iChainmailTunic
+Armor=27
+SkillMake=Blacksmithing 478
+Resources=25 iValoriteIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Valorite)
+Description=Chainmail Tunic
+
+On=@Create
+Color=ValoriteHue
+HitPoints={36 48}
+
+
+[ItemDef iValoriteRingmailLeggings]
+Name=valorite ringmail leggings
+ID=iRingmailLeggings
+Armor=22
+SkillMake=Blacksmithing 316
+Resources=16 iValoriteIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Valorite)
+Description=Ringmail Leggings
+
+On=@Create
+Color=ValoriteHue
+HitPoints={36 48}
+
+
+[ItemDef iValoriteRingmailSleeves]
+Name=valorite ringmail sleeves
+ID=iRingmailSleeves
+Armor=22
+SkillMake=Blacksmithing 283
+Resources=14 iValoriteIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Valorite)
+Description=Ringmail Sleeves
+
+On=@Create
+Color=ValoriteHue
+HitPoints={36 48}
+
+
+[ItemDef iValoriteRingmailGloves]
+Name=valorite ringmail gloves
+ID=iRingmailGloves
+Armor=22
+SkillMake=Blacksmithing 218
+Resources=10 iValoriteIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Valorite)
+Description=Ringmail Gloves
+
+On=@Create
+Color=ValoriteHue
+HitPoints={36 48}
+
+
+[ItemDef iValoriteRingmailTunic]
+Name=valorite ringmail tunic
+ID=iRingmailTunic
+Armor=22
+SkillMake=Blacksmithing 351
+Resources=18 iValoriteIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Valorite)
+Description=Ringmail Tunic
+
+On=@Create
+Color=ValoriteHue
+HitPoints={36 48}
+
+
+[ItemDef iValoriteBuckler]
+Name=valorite buckler
+ID=iBuckler
+Armor=9
+SkillMake=Blacksmithing 90
+Resources=10 iValoriteIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Valorite)
+Description=Buckler
+
+On=@Create
+Color=ValoriteHue
+HitPoints={36 48}
+
+
+[ItemDef iValoriteHeaterShield]
+Name=valorite heater shield
+ID=iHeaterShield
+Armor=25
+SkillMake=Blacksmithing 446
+Resources=18 iValoriteIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Valorite)
+Description=Heater Shield
+
+On=@Create
+Color=ValoriteHue
+HitPoints={36 48}
+
+
+[ItemDef iValoriteMetalShield]
+Name=valorite metal shield
+ID=iMetalShield
+Armor=13
+SkillMake=Blacksmithing 190
+Resources=14 iValoriteIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Valorite)
+Description=Metal Shield
+
+On=@Create
+Color=ValoriteHue
+HitPoints={36 48}
+
+
+[ItemDef iValoriteCloseHelm]
+Name=valorite close helm
+ID=iCloseHelm
+Armor=37
+SkillMake=Blacksmithing 626
+Resources=15 iValoriteIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Valorite)
+Description=Close Helm
+
+On=@Create
+Color=ValoriteHue
+HitPoints={36 48}
+
+
+[ItemDef iValoriteHelmet]
+Name=valorite helmet
+ID=iHelmet
+Armor=37
+SkillMake=Blacksmithing 626
+Resources=15 iValoriteIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Valorite)
+Description=Helmet
+
+On=@Create
+Color=ValoriteHue
+HitPoints={36 48}
+
+
+[ItemDef iValoriteBascinet]
+Name=valorite bascinet
+ID=iBascinet
+Armor=37
+SkillMake=Blacksmithing 232
+Resources=15 iValoriteIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Valorite)
+Description=Bascinet
+
+On=@Create
+Color=ValoriteHue
+HitPoints={36 48}
+
+
+[ItemDef iValoriteNoseHelm]
+Name=valorite nose helm
+ID=iNoseHelm
+Armor=37
+SkillMake=Blacksmithing 626
+Resources=15 iValoriteIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Valorite)
+Description=Nose Helm
+
+On=@Create
+Color=ValoriteHue
+HitPoints={36 48}
+
+
+[EOF]

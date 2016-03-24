@@ -1,0 +1,338 @@
+[ItemDef iRosePlatemailTunic]
+Name=rose platemail
+ID=iPlatemailTunic
+Armor=37
+ReqStr=60
+Weight=10
+Category=Equipment
+Subsection=Armor: Colored (Rose)
+Description=Platemail
+Resources=25 iRoseIngot
+SkillMake=Blacksmithing 780
+
+On=@Create
+Color=RoseHue
+HitPoints={36 48}
+
+[ItemDef iRosePlatemailArms]
+Name=rose platemail arms
+ID=iPlatemailArms
+Armor=37
+ReqStr=40
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Rose)
+Description=Platemail Arms
+Resources=18 iRoseIngot
+SkillMake=Blacksmithing 665
+
+On=@Create
+Color=RoseHue
+HitPoints={36 48}
+
+[ItemDef iRosePlatemailLegs]
+Name=rose platemail legs
+ID=iPlatemailLegs
+Armor=37
+ReqStr=60
+Weight=15
+Category=Equipment
+Subsection=Armor: Colored (Rose)
+Description=Platemail Legs
+Resources=20 iRoseIngot
+SkillMake=Blacksmithing 696
+
+On=@Create
+Color=RoseHue
+HitPoints={36 48}
+
+[ItemDef iRosePlateHelm]
+Name=rose plate helm
+ID=iPlateHelm
+Armor=37
+ReqStr=40
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Rose)
+Description=Plate Helm
+Resources=15 iRoseIngot
+SkillMake=Blacksmithing 616
+
+On=@Create
+Color=RoseHue
+HitPoints={36 48}
+
+[ItemDef iRosePlatemailGorget]
+Name=rose platemail gorget
+ID=iPlatemailGorget
+Armor=37
+ReqStr=30
+Weight=2
+Category=Equipment
+Subsection=Armor: Colored (Rose)
+Description=Platemail Gorget
+Resources=10 iRoseIngot
+SkillMake=Blacksmithing 534
+
+On=@Create
+Color=RoseHue
+HitPoints={36 48}
+
+[ItemDef iRosePlatemailGloves]
+Name=rose platemail Gloves
+ID=iPlatemailGloves
+Armor=37
+ReqStr=30
+Weight=2
+Category=Equipment
+Subsection=Armor: Colored (Rose)
+Description=Platemail Gloves
+Resources=12 iRoseIngot
+SkillMake=Blacksmithing 567
+
+On=@Create
+Color=RoseHue
+HitPoints={36 48}
+
+[ItemDef iRoseFemalePlateArmor]
+Name=rose female plate armor
+ID=iFemalePlateArmor
+Armor=22
+ReqStr=15
+Weight=6
+Category=Equipment
+Subsection=Armor: Colored (Rose)
+Description=Female Plate Armor
+Resources=22 iRoseIngot
+SkillMake=Blacksmithing 730
+
+On=@Create
+Color=RoseHue
+HitPoints={36 48}
+
+[ItemDef iRoseChainmailCoif]
+Name=rose chainmail coif
+ID=iChainmailCoif
+Armor=27
+ReqStr=20
+Weight=7
+Category=Equipment
+Subsection=Armor: Colored (Rose)
+Description=Chainmail Coif
+Resources=10 iRoseIngot
+SkillMake=Blacksmithing 306
+
+On=@Create
+Color=RoseHue
+HitPoints={36 48}
+
+[ItemDef iRoseChainmailLeggings]
+Name=rose chainmail leggings
+ID=iChainmailLeggings
+Armor=27
+ReqStr=20
+Weight=7
+Category=Equipment
+Subsection=Armor: Colored (Rose)
+Description=Chainmail Leggings
+Resources=18 iRoseIngot
+SkillMake=Blacksmithing 341
+
+On=@Create
+Color=RoseHue
+HitPoints={36 48}
+
+[ItemDef iRoseChainmailTunic]
+Name=rose chainmail tunic
+ID=iChainmailTunic
+Armor=27
+ReqStr=20
+Weight=7
+Category=Equipment
+Subsection=Armor: Colored (Rose)
+Description=Chainmail Tunic
+Resources=20 iRoseIngot
+SkillMake=Blacksmithing 468
+
+On=@Create
+Color=RoseHue
+HitPoints={36 48}
+
+[ItemDef iRoseRingmailLeggings]
+Name=rose ringmail leggings
+ID=iRingmailLeggings
+Armor=22
+ReqStr=20
+Weight=15
+Category=Equipment
+Subsection=Armor: Colored (Rose)
+Description=Ringmail Leggings
+Resources=16 iRoseIngot
+SkillMake=Blacksmithing 306
+
+On=@Create
+Color=RoseHue
+HitPoints={36 48}
+
+[ItemDef iRoseRingmailSleeves]
+Name=rose ringmail sleeves
+ID=iRingmailSleeves
+Armor=22
+ReqStr=20
+Weight=15
+Category=Equipment
+Subsection=Armor: Colored (Rose)
+Description=Ringmail Sleeves
+Resources=14 iRoseIngot
+SkillMake=Blacksmithing 273
+
+On=@Create
+Color=RoseHue
+HitPoints={36 48}
+
+[ItemDef iRoseRingmailGloves]
+Name=rose ringmail gloves
+ID=iRingmailGloves
+Armor=22
+ReqStr=20
+Weight=2
+Category=Equipment
+Subsection=Armor: Colored (Rose)
+Description=Ringmail Gloves
+Resources=10 iRoseIngot
+SkillMake=Blacksmithing 208
+
+On=@Create
+Color=RoseHue
+HitPoints={36 48}
+
+[ItemDef iRoseRingmailTunic]
+Name=rose ringmail tunic
+ID=iRingmailTunic
+Armor=22
+ReqStr=20
+Weight=15
+Category=Equipment
+Subsection=Armor: Colored (Rose)
+Description=Ringmail Tunic
+Resources=18 iRoseIngot
+SkillMake=Blacksmithing 341
+
+On=@Create
+Color=RoseHue
+HitPoints={36 48}
+
+[ItemDef iRoseBuckler]
+Name=rose buckler
+ID=iBuckler
+Armor=9
+ReqStr=15
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Rose)
+Description=Buckler
+Resources=10 iRoseIngot
+SkillMake=Blacksmithing 80
+
+On=@Create
+Color=RoseHue
+HitPoints={36 48}
+
+[ItemDef iRoseHeaterShield]
+Name=rose heater shield
+ID=iHeaterShield
+Armor=25
+ReqStr=30
+Weight=8
+Category=Equipment
+Subsection=Armor: Colored (Rose)
+Description=Heater Shield
+Resources=18 iRoseIngot
+SkillMake=Blacksmithing 436
+
+On=@Create
+Color=RoseHue
+HitPoints={36 48}
+
+[ItemDef iRoseMetalShield]
+Name=rose metal shield
+ID=iMetalShield
+Armor=13
+ReqStr=15
+Weight=6
+Category=Equipment
+Subsection=Armor: Colored (Rose)
+Description=Metal Shield
+Resources=14 iRoseIngot
+SkillMake=Blacksmithing 180
+
+On=@Create
+Color=RoseHue
+HitPoints={36 48}
+
+[ItemDef iRoseCloseHelm]
+Name=rose close helm
+ID=iCloseHelm
+Armor=37
+ReqStr=20
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Rose)
+Description=Close Helm
+Resources=15 iRoseIngot
+SkillMake=Blacksmithing 616
+
+On=@Create
+Color=RoseHue
+HitPoints={36 48}
+
+[ItemDef iRoseHelmet]
+Name=rose helmet
+ID=iHelmet
+Armor=37
+ReqStr=10
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Rose)
+Description=Helmet
+Resources=16 iRoseIngot
+SkillMake=Blacksmithing 616
+
+On=@Create
+Color=RoseHue
+HitPoints={36 48}
+
+
+[ItemDef iRoseBascinet]
+Name=rose bascinet
+ID=iBascinet
+Armor=37
+SkillMake=Blacksmithing 222
+Resources=15 iRoseIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Rose)
+Description=Bascinet
+
+On=@Create
+Color=RoseHue
+HitPoints={36 48}
+
+
+[ItemDef iRoseNoseHelm]
+ID=iNoseHelm
+Name=rose nose helm
+Armor=37
+SkillMake=Blacksmithing 616
+Resources=20 iRoseIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Rose)
+Description=Nose Helm
+
+On=@Create
+Color=RoseHue
+HitPoints={36 48}
+
+
+[EOF]

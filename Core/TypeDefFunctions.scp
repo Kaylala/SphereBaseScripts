@@ -32,4 +32,26 @@ Src.SMsg [System]: <Local.Tithe> gold has been removed.
 Src.SMsg [System]: Tithing Points: <Src.Tithing>
 Return 1
 
+
+[Function AgapiteEquipment]
+If (<Cont.Karma> < 0)
+ Msg *<Name> glows red*
+ Effect=3,iFxCurse,6,15,1
+ Sound snd_SPELL_CURSE
+// Cont.SpellEffect sPoison,500,<UID>
+ Bounce <Cont.UID>
+EndIf
+
+
+[Function ShadowIronEquipment]
+If (<Cont.Karma> > 0)
+ Msg *<Name> glows red*
+ Effect=3,iFxCurse,6,15,1
+ Sound snd_SPELL_CURSE
+ Cont.SpellEffect sPoison,500,<UID>
+ Bounce <Cont.UID>
+EndIf
+
+
+
 [EOF]

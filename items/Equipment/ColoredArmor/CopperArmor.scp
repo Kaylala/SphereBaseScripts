@@ -1,0 +1,338 @@
+[ItemDef iCopperPlatemailArms]
+Name=copper platemail arms
+ID=iPlatemailArms
+Armor=30
+ReqStr=40
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Copper)
+Description=Platemail Arms
+Resources=18 iCopperIngot
+SkillMake=Blacksmithing 635
+
+On=@Create
+Color=CopperHue
+HitPoints={36 48}
+
+[ItemDef iCopperPlatemailLegs]
+Name=copper platemail legs
+ID=iPlatemailLegs
+Armor=30
+ReqStr=60
+Weight=15
+Category=Equipment
+Subsection=Armor: Colored (Copper)
+Description=Platemail Legs
+Resources=20 iCopperIngot
+SkillMake=Blacksmithing 668
+
+On=@Create
+Color=CopperHue
+HitPoints={36 48}
+
+[ItemDef iCopperPlateHelm]
+Name=copper plate helm
+ID=iPlateHelm
+Armor=30
+ReqStr=40
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Copper)
+Description=Plate Helm
+Resources=15 iCopperIngot
+SkillMake=Blacksmithing 586
+
+On=@Create
+Color=CopperHue
+HitPoints={36 48}
+
+[ItemDef iCopperPlatemailGorget]
+Name=copper platemail gorget
+ID=iPlatemailGorget
+Armor=30
+ReqStr=30
+Weight=2
+Category=Equipment
+Subsection=Armor: Colored (Copper)
+Description=Platemail Gorget
+Resources=10 iCopperIngot
+SkillMake=Blacksmithing 504
+
+On=@Create
+Color=CopperHue
+HitPoints={36 48}
+
+[ItemDef iCopperPlatemailGloves]
+Name=copper platemail Gloves
+ID=iPlatemailGloves
+Armor=30
+ReqStr=30
+Weight=2
+Category=Equipment
+Subsection=Armor: Colored (Copper)
+Description=Platemail Gloves
+Resources=12 iCopperIngot
+SkillMake=Blacksmithing 537
+
+On=@Create
+Color=CopperHue
+HitPoints={36 48}
+
+[ItemDef iCopperPlatemailTunic]
+Name=copper platemail
+ID=iPlatemailTunic
+Armor=30
+ReqStr=60
+Weight=10
+Category=Equipment
+Subsection=Armor: Colored (Copper)
+Description=Platemail
+Resources=25 iCopperIngot
+SkillMake=Blacksmithing 750
+
+On=@Create
+Color=CopperHue
+HitPoints={36 48}
+
+
+[ItemDef iCopperFemalePlateArmor]
+Name=copper female plate armor
+ID=iFemalePlateArmor
+Armor=15
+ReqStr=15
+Weight=4
+Category=Equipment
+Subsection=Armor: Colored (Copper)
+Description=Female Plate Armor
+Resources=22 iCopperIngot
+SkillMake=Blacksmithing 700
+
+On=@Create
+Color=CopperHue
+HitPoints={36 48}
+
+[ItemDef iCopperChainmailCoif]
+Name=copper chainmail coif
+ID=iChainmailCoif
+Armor=23
+ReqStr=20
+Weight=7
+Category=Equipment
+Subsection=Armor: Colored (Copper)
+Description=Chainmail Coif
+Resources=10 iCopperIngot
+SkillMake=Blacksmithing 276
+
+On=@Create
+Color=CopperHue
+HitPoints={36 48}
+
+[ItemDef iCopperChainmailLeggings]
+Name=copper chainmail leggings
+ID=iChainmailLeggings
+Armor=23
+ReqStr=20
+Weight=7
+Category=Equipment
+Subsection=Armor: Colored (Copper)
+Description=Chainmail Leggings
+Resources=18 iCopperIngot
+SkillMake=Blacksmithing 311
+
+On=@Create
+Color=CopperHue
+HitPoints={36 48}
+
+[ItemDef iCopperRingmailLeggings]
+Name=copper ringmail leggings
+ID=iRingmailLeggings
+Armor=20
+ReqStr=20
+Weight=15
+Category=Equipment
+Subsection=Armor: Colored (Copper)
+Description=Ringmail Leggings
+Resources=16 iCopperIngot
+SkillMake=Blacksmithing 276
+
+On=@Create
+Color=CopperHue
+HitPoints={36 48}
+
+[ItemDef iCopperRingmailSleeves]
+Name=copper ringmail sleeves
+ID=iRingmailSleeves
+Armor=20
+ReqStr=20
+Weight=15
+Category=Equipment
+Subsection=Armor: Colored (Copper)
+Description=Ringmail Sleeves
+Resources=14 iCopperIngot
+SkillMake=Blacksmithing 243
+
+On=@Create
+Color=CopperHue
+HitPoints={36 48}
+
+[ItemDef iCopperRingmailGloves]
+Name=copper ringmail gloves
+ID=iRingmailGloves
+Armor=20
+ReqStr=20
+Weight=2
+Category=Equipment
+Subsection=Armor: Colored (Copper)
+Description=Ringmail Gloves
+Resources=10 iCopperIngot
+SkillMake=Blacksmithing 178
+
+On=@Create
+Color=CopperHue
+HitPoints={36 48}
+
+[ItemDef iCopperRingmailTunic]
+Name=copper ringmail tunic
+ID=iRingmailTunic
+Armor=20
+ReqStr=20
+Weight=15
+Category=Equipment
+Subsection=Armor: Colored (Copper)
+Description=Ringmail Tunic
+Resources=18 iCopperIngot
+SkillMake=Blacksmithing 311
+
+On=@Create
+Color=CopperHue
+HitPoints={36 48}
+
+[ItemDef iCopperBuckler]
+Name=copper buckler
+ID=iBuckler
+Armor=7
+ReqStr=15
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Copper)
+Description=Buckler
+Resources=10 iCopperIngot
+SkillMake=Blacksmithing 50
+
+On=@Create
+Color=CopperHue
+HitPoints={36 48}
+
+[ItemDef iCopperMetalShield]
+Name=copper metal shield
+ID=iMetalShield
+Armor=11
+ReqStr=15
+Weight=6
+Category=Equipment
+Subsection=Armor: Colored (Copper)
+Description=Metal Shield
+Resources=14 iCopperIngot
+SkillMake=Blacksmithing 150
+
+On=@Create
+Color=CopperHue
+HitPoints={36 48}
+
+[ItemDef iCopperChainmailTunic]
+Name=copper chainmail tunic
+ID=iChainmailTunic
+Armor=23
+ReqStr=20
+Weight=7
+Category=Equipment
+Subsection=Armor: Colored (Copper)
+Description=Chainmail Tunic
+Resources=20 iCopperIngot
+SkillMake=Blacksmithing 438
+
+On=@Create
+Color=CopperHue
+HitPoints={36 48}
+
+[ItemDef iCopperHeaterShield]
+Name=copper heater shield
+ID=iHeaterShield
+Armor=23
+SkillMake=Blacksmithing 406
+Resources=18 iCopperIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Copper)
+Description=Heater Shield
+
+On=@Create
+Color=CopperHue
+HitPoints={36 48}
+
+[ItemDef iCopperCloseHelm]
+Name=copper close helm
+ID=iCloseHelm
+Armor=30
+ReqStr=20
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Copper)
+Description=Close Helm
+Resources=15 iCopperIngot
+SkillMake=Blacksmithing 586
+
+On=@Create
+Color=CopperHue
+HitPoints={36 48}
+
+[ItemDef iCopperHelmet]
+Name=copper helmet
+ID=iHelmet
+Armor=30
+ReqStr=20
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Copper)
+Description=Helmet
+Resources=15 iCopperIngot
+SkillMake=Blacksmithing 586
+
+On=@Create
+Color=CopperHue
+HitPoints={36 48}
+
+[ItemDef iCopperBascinet]
+Name=copper bascinet
+ID=iBascinet
+Armor=30
+ReqStr=20
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Copper)
+Description=Bascinet
+Resources=15 iCopperIngot
+SkillMake=Blacksmithing 192
+
+On=@Create
+Color=CopperHue
+HitPoints={36 48}
+
+[ItemDef iCopperNoseHelm]
+Name=copper nose helm
+ID=iNoseHelm
+Armor=30
+ReqStr=20
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Copper)
+Description=Nose Helm
+Resources=15 iCopperIngot
+SkillMake=Blacksmithing 586
+
+On=@Create
+Color=CopperHue
+HitPoints={36 48}
+
+
+[EOF]

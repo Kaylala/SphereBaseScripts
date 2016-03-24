@@ -1,0 +1,339 @@
+[ItemDef iBlackrockPlatemailTunic]
+Name=blackrock platemail
+ID=iPlatemailTunic
+Armor=37
+ReqStr=60
+Weight=10
+Category=Equipment
+Subsection=Armor: Colored (Blackrock)
+Description=Platemail
+Resources=25 iBlackrockIngot
+SkillMake=Blacksmithing 990
+
+On=@Create
+Color=BlackrockHue
+HitPoints={36 48}
+
+[ItemDef iBlackrockPlatemailArms]
+Name=blackrock platemail arms
+ID=iPlatemailArms
+Armor=37
+ReqStr=40
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Blackrock)
+Description=Platemail Arms
+Resources=18 iBlackrockIngot
+SkillMake=Blacksmithing 695
+
+On=@Create
+Color=BlackrockHue
+HitPoints={36 48}
+
+[ItemDef iBlackrockPlatemailLegs]
+Name=blackrock platemail legs
+ID=iPlatemailLegs
+Armor=37
+ReqStr=60
+Weight=15
+Category=Equipment
+Subsection=Armor: Colored (Blackrock)
+Description=Platemail Legs
+Resources=20 iBlackrockIngot
+SkillMake=Blacksmithing 628
+
+On=@Create
+Color=BlackrockHue
+HitPoints={36 48}
+
+[ItemDef iBlackrockPlateHelm]
+Name=blackrock plate helm
+ID=iPlateHelm
+Armor=37
+ReqStr=40
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Blackrock)
+Description=Plate Helm
+Resources=15 iBlackrockIngot
+SkillMake=Blacksmithing 646
+
+On=@Create
+Color=BlackrockHue
+HitPoints={36 48}
+
+[ItemDef iBlackrockPlatemailGorget]
+Name=blackrock platemail gorget
+ID=iPlatemailGorget
+Armor=37
+ReqStr=30
+Weight=2
+Category=Equipment
+Subsection=Armor: Colored (Blackrock)
+Description=Platemail Gorget
+Resources=10 iBlackrockIngot
+SkillMake=Blacksmithing 564
+
+On=@Create
+Color=BlackrockHue
+HitPoints={36 48}
+
+[ItemDef iBlackrockPlatemailGloves]
+Name=blackrock platemail Gloves
+ID=iPlatemailGloves
+Armor=37
+ReqStr=30
+Weight=2
+Category=Equipment
+Subsection=Armor: Colored (Blackrock)
+Description=Platemail Gloves
+Resources=12 iBlackrockIngot
+SkillMake=Blacksmithing 597
+
+On=@Create
+Color=BlackrockHue
+HitPoints={36 48}
+
+[ItemDef iBlackrockFemalePlateArmor]
+Name=blackrock female plate armor
+ID=iFemalePlateArmor
+Armor=22
+ReqStr=22
+Weight=6
+Category=Equipment
+Subsection=Armor: Colored (Blackrock)
+Description=Female Plate Armor
+Resources=22 iBlackrockIngot
+SkillMake=Blacksmithing 76
+
+On=@Create
+Color=BlackrockHue
+HitPoints={36 48}
+
+[ItemDef iBlackrockChainmailCoif]
+Name=blackrock chainmail coif
+ID=iChainmailCoif
+Armor=27
+ReqStr=20
+Weight=7
+Category=Equipment
+Subsection=Armor: Colored (Blackrock)
+Description=Chainmail Coif
+Resources=10 iBlackrockIngot
+SkillMake=Blacksmithing 336
+
+On=@Create
+Color=BlackrockHue
+HitPoints={36 48}
+
+[ItemDef iBlackrockChainmailLeggings]
+Name=blackrock chainmail leggings
+ID=iChainmailLeggings
+Armor=27
+ReqStr=20
+Weight=7
+Category=Equipment
+Subsection=Armor: Colored (Blackrock)
+Description=Chainmail Leggings
+Resources=18 iBlackrockIngot
+SkillMake=Blacksmithing 371
+
+On=@Create
+Color=BlackrockHue
+HitPoints={36 48}
+
+[ItemDef iBlackrockChainmailTunic]
+Name=blackrock chainmail tunic
+ID=iChainmailTunic
+Armor=27
+ReqStr=20
+Weight=7
+Category=Equipment
+Subsection=Armor: Colored (Blackrock)
+Description=Chainmail Tunic
+Resources=20 iBlackrockIngot
+SkillMake=Blacksmithing 498
+
+On=@Create
+Color=BlackrockHue
+HitPoints={36 48}
+
+[ItemDef iBlackrockRingmailLeggings]
+Name=blackrock ringmail leggings
+ID=iRingmailLeggings
+Armor=22
+ReqStr=20
+Weight=15
+Category=Equipment
+Subsection=Armor: Colored (Blackrock)
+Description=Ringmail Leggings
+Resources=16 iBlackrockIngot
+SkillMake=Blacksmithing 336
+
+On=@Create
+Color=BlackrockHue
+HitPoints={36 48}
+
+[ItemDef iBlackrockRingmailSleeves]
+Name=blackrock ringmail sleeves
+ID=iRingmailSleeves
+Armor=22
+ReqStr=20
+Weight=15
+Category=Equipment
+Subsection=Armor: Colored (Blackrock)
+Description=Ringmail Sleeves
+Resources=14 iBlackrockIngot
+SkillMake=Blacksmithing 303
+
+On=@Create
+Color=BlackrockHue
+HitPoints={36 48}
+
+[ItemDef iBlackrockRingmailGloves]
+Name=blackrock ringmail gloves
+ID=iRingmailGloves
+Armor=22
+ReqStr=20
+Weight=2
+Category=Equipment
+Subsection=Armor: Colored (Blackrock)
+Description=Ringmail Gloves
+Resources=10 iBlackrockIngot
+SkillMake=Blacksmithing 238
+
+On=@Create
+Color=BlackrockHue
+HitPoints={36 48}
+
+[ItemDef iBlackrockRingmailTunic]
+Name=blackrock ringmail tunic
+ID=iRingmailTunic
+Armor=22
+ReqStr=20
+Weight=15
+Category=Equipment
+Subsection=Armor: Colored (Blackrock)
+Description=Ringmail Tunic
+Resources=18 iBlackrockIngot
+SkillMake=Blacksmithing 371
+
+On=@Create
+Color=BlackrockHue
+HitPoints={36 48}
+
+[ItemDef iBlackrockMetalShield]
+Name=blackrock metal shield
+ID=iMetalShield
+Armor=13
+ReqStr=15
+Weight=6
+Category=Equipment
+Subsection=Armor: Colored (Blackrock)
+Description=Metal Shield
+Resources=14 iBlackrockIngot
+SkillMake=Blacksmithing 210
+
+On=@Create
+Color=BlackrockHue
+HitPoints={36 48}
+
+[ItemDef iBlackrockHeaterShield]
+Name=blackrock heater shield
+ID=iHeaterShield
+Armor=25
+ReqStr=30
+Weight=8
+Category=Equipment
+Subsection=Armor: Colored (Blackrock)
+Description=Heater Shield
+Resources=18 iBlackrockIngot
+SkillMake=Blacksmithing 466
+
+On=@Create
+Color=BlackrockHue
+HitPoints={36 48}
+
+[ItemDef iBlackrockBuckler]
+Name=blackrock buckler
+ID=iBuckler
+Armor=9
+ReqStr=15
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Blackrock)
+Description=Buckler
+Resources=10 iBlackrockIngot
+SkillMake=Blacksmithing 110
+
+On=@Create
+Color=BlackrockHue
+HitPoints={36 48}
+
+[ItemDef iBlackrockCloseHelm]
+Name=blackrock close helm
+ID=iCloseHelm
+Armor=37
+ReqStr=20
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Blackrock)
+Description=Close Helm
+Resources=15 iBlackrockIngot
+SkillMake=Blacksmithing 646
+
+On=@Create
+Color=BlackrockHue
+HitPoints={36 48}
+
+[ItemDef iBlackrockHelmet]
+Name=blackrock helmet
+ID=iHelmet
+SkillMake=Blacksmithing 646
+Resources=15 iBlackrockIngot
+Armor=37
+ReqStr=10
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Blackrock)
+Description=Helmet
+
+On=@Create
+Color=BlackrockHue
+HitPoints={36 48}
+
+[ItemDef iBlackrockBascinet]
+Name=blackrock bascinet
+ID=iBascinet
+Armor=37
+ReqStr=10
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Blackrock)
+Description=Bascinet
+Resources=15 iBlackrockIngot
+SkillMake=Blacksmithing 252
+
+On=@Create
+Color=BlackrockHue
+HitPoints={36 48}
+
+[ItemDef iBlackrockNoseHelm]
+Name=blackrock nose helm
+ID=iNoseHelm
+Armor=37
+ReqStr=0
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Blackrock)
+Description=Nose Helm
+Resources=15 iBlackrockIngot
+SkillMake=Blacksmithing 646
+//Mytheril Rock Armor
+
+On=@Create
+Color=BlackrockHue
+HitPoints={36 48}
+
+
+[EOF]

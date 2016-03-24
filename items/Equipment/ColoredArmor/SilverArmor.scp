@@ -1,0 +1,339 @@
+[ItemDef iSilverPlatemailArms]
+Name=silver platemail arms
+ID=iPlatemailArms
+Armor=30
+ReqStr=40
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Silver)
+Description=Platemail Arms
+Resources=18 iSilverIngot
+SkillMake=Blacksmithing 645
+
+On=@Create
+Color=SilverHue
+HitPoints={36 48}
+
+[ItemDef iSilverPlatemailLegs]
+Name=silver platemail legs
+ID=iPlatemailLegs
+Armor=30
+ReqStr=60
+Weight=15
+Category=Equipment
+Subsection=Armor: Colored (Silver)
+Description=Platemail Legs
+Resources=20 iSilverIngot
+SkillMake=Blacksmithing 678
+
+On=@Create
+Color=SilverHue
+HitPoints={36 48}
+
+[ItemDef iSilverPlateHelm]
+Name=silver plate helm
+ID=iPlateHelm
+Armor=30
+ReqStr=40
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Silver)
+Description=Plate Helm
+Resources=15 iSilverIngot
+SkillMake=Blacksmithing 596
+
+On=@Create
+Color=SilverHue
+HitPoints={36 48}
+
+[ItemDef iSilverPlatemailGorget]
+Name=silver platemail gorget
+ID=iPlatemailGorget
+Armor=30
+ReqStr=30
+Weight=2
+Category=Equipment
+Subsection=Armor: Colored (Silver)
+Description=Platemail Gorget
+Resources=10 iSilverIngot
+SkillMake=Blacksmithing 514
+
+On=@Create
+Color=SilverHue
+HitPoints={36 48}
+
+[ItemDef iSilverRingmailLeggings]
+Name=silver ringmail leggings
+ID=iRingmailLeggings
+Armor=20
+ReqStr=20
+Weight=15
+Category=Equipment
+Subsection=Armor: Colored (Silver)
+Description=Ringmail Leggings
+Resources=16 iSilverIngot
+SkillMake=Blacksmithing 286
+
+On=@Create
+Color=SilverHue
+HitPoints={36 48}
+
+[ItemDef iSilverRingmailSleeves]
+Name=silver ringmail sleeves
+ID=iRingmailSleeves
+Armor=20
+ReqStr=20
+Weight=15
+Category=Equipment
+Subsection=Armor: Colored (Silver)
+Description=Ringmail Sleeves
+Resources=14 iSilverIngot
+SkillMake=Blacksmithing 253
+
+On=@Create
+Color=SilverHue
+HitPoints={36 48}
+
+[ItemDef iSilverRingmailGloves]
+Name=silver ringmail gloves
+ID=iRingmailGloves
+Armor=20
+ReqStr=20
+Weight=2
+Category=Equipment
+Subsection=Armor: Colored (Silver)
+Description=Ringmail Gloves
+Resources=10 iSilverIngot
+SkillMake=Blacksmithing 188
+
+On=@Create
+Color=SilverHue
+HitPoints={36 48}
+
+[ItemDef iSilverRingmailTunic]
+Name=silver ringmail tunic
+ID=iRingmailTunic
+Armor=20
+ReqStr=20
+Weight=15
+Category=Equipment
+Subsection=Armor: Colored (Silver)
+Description=Ringmail Tunic
+Resources=18 iSilverIngot
+SkillMake=Blacksmithing 321
+
+On=@Create
+Color=SilverHue
+HitPoints={36 48}
+
+[ItemDef iSilverBuckler]
+Name=silver buckler
+ID=iBuckler
+Armor=7
+ReqStr=15
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Silver)
+Description=Buckler
+Resources=10 iSilverIngot
+SkillMake=Blacksmithing 60
+
+On=@Create
+Color=SilverHue
+HitPoints={36 48}
+
+[ItemDef iSilverMetalShield]
+Name=silver metal shield
+ID=iMetalShield
+Armor=11
+ReqStr=15
+Weight=6
+Category=Equipment
+Subsection=Armor: Colored (Silver)
+Description=Metal Shield
+Resources=14 iSilverIngot
+SkillMake=Blacksmithing 160
+
+On=@Create
+Color=SilverHue
+HitPoints={36 48}
+
+[ItemDef iSilverPlatemailGloves]
+Name=silver platemail Gloves
+ID=iPlatemailGloves
+Armor=30
+ReqStr=30
+Weight=2
+Category=Equipment
+Subsection=Armor: Colored (Silver)
+Description=Platemail Gloves
+Resources=12 iSilverIngot
+SkillMake=Blacksmithing 537
+
+On=@Create
+Color=SilverHue
+HitPoints={36 48}
+
+[ItemDef iSilverPlatemailTunic]
+Name=silver platemail
+ID=iPlatemailTunic
+Armor=30
+ReqStr=60
+Weight=10
+Category=Equipment
+Subsection=Armor: Colored (Silver)
+Description=Platemail
+Resources=25 iSilverIngot
+SkillMake=Blacksmithing 760
+
+On=@Create
+Color=SilverHue
+HitPoints={36 48}
+
+[ItemDef iSilverFemalePlateArmor]
+Name=silver female plate armor
+ID=iFemalePlateArmor
+Armor=15
+ReqStr=15
+Weight=4
+Category=Equipment
+Subsection=Armor: Colored (Silver)
+Description=Female Plate Armor
+Resources=22 iSilverIngot
+SkillMake=Blacksmithing 710
+
+On=@Create
+Color=SilverHue
+HitPoints={36 48}
+
+[ItemDef iSilverChainmailCoif]
+Name=silver chainmail coif
+ID=iChainmailCoif
+Armor=23
+ReqStr=20
+Weight=7
+Category=Equipment
+Subsection=Armor: Colored (Silver)
+Description=Chainmail Coif
+Resources=10 iSilverIngot
+SkillMake=Blacksmithing 286
+
+On=@Create
+Color=SilverHue
+HitPoints={36 48}
+
+[ItemDef iSilverChainmailLeggings]
+Name=silver chainmail leggings
+ID=iChainmailLeggings
+Armor=23
+ReqStr=20
+Weight=7
+Category=Equipment
+Subsection=Armor: Colored (Silver)
+Description=Chainmail Leggings
+Resources=18 iSilverIngot
+SkillMake=Blacksmithing 321
+
+On=@Create
+Color=SilverHue
+HitPoints={36 48}
+
+[ItemDef iSilverChainmailTunic]
+Name=silver chainmail tunic
+ID=iChainmailTunic
+Armor=23
+ReqStr=20
+Weight=7
+Category=Equipment
+Subsection=Armor: Colored (Silver)
+Description=Chainmail Tunic
+Resources=20 iSilverIngot
+SkillMake=Blacksmithing 448
+
+On=@Create
+Color=SilverHue
+HitPoints={36 48}
+
+[ItemDef iSilverHeaterShield]
+Name=silver heater shield
+ID=iHeaterShield
+Armor=23
+ReqStr=30
+Weight=8
+Category=Equipment
+Subsection=Armor: Colored (Silver)
+Description=Heater Shield
+Resources=18 iSilverIngot
+SkillMake=Blacksmithing 416
+
+On=@Create
+Color=SilverHue
+HitPoints={36 48}
+
+[ItemDef iSilverCloseHelm]
+Name=silver close helm
+ID=iCloseHelm
+Armor=30
+ReqStr=20
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Silver)
+Description=Close Helm
+Resources=15 iSilverIngot
+SkillMake=Blacksmithing 596
+
+On=@Create
+Color=SilverHue
+HitPoints={36 48}
+
+[ItemDef iSilverHelmet]
+Name=silver helmet
+ID=iHelmet
+Armor=30
+ReqStr=20
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Silver)
+Description=Helmet
+Resources=15 iSilverIngot
+SkillMake=Blacksmithing 596
+
+On=@Create
+Color=SilverHue
+HitPoints={36 48}
+
+[ItemDef iSilverBascinet]
+Name=silver bascinet
+ID=iBascinet
+Armor=30
+ReqStr=20
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Silver)
+Description=Bascinet
+Resources=15 iSilverIngot
+SkillMake=Blacksmithing 202
+
+On=@Create
+Color=SilverHue
+HitPoints={36 48}
+
+[ItemDef iSilverNoseHelm]
+Name=silver nose helm
+ID=iNoseHelm
+Armor=30
+ReqStr=20
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Silver)
+Description=Nose Helm
+Resources=15 iSilverIngot
+SkillMake=Blacksmithing 596
+//Old Copper Armor
+
+On=@Create
+Color=SilverHue
+HitPoints={36 48}
+
+
+[EOF]

@@ -1,0 +1,358 @@
+[ItemDef iAgapitePlatemailTunic]
+ID=iPlatemailTunic
+Name=agapite platemail tunic
+Armor=37
+SkillMake=Blacksmithing 780
+Resources=25 iAgapiteIngot
+TEvents=tAgapiteEquipment
+
+Category=Equipment
+Subsection=Armor: Colored (Agapite)
+Description=Platemail Tunic
+
+On=@Create
+Color=AgapiteHue
+HitPoints={36 48}
+
+
+[ItemDef iAgapitePlatemailArms]
+ID=iPlatemailArms
+Name=agapite platemail arms
+Armor=37
+SkillMake=Blacksmithing 665
+Resources=18 iAgapiteIngot
+TEvents=tAgapiteEquipment
+
+Category=Equipment
+Subsection=Armor: Colored (Agapite)
+Description=Platemail Arms
+
+On=@Create
+Color=AgapiteHue
+HitPoints={36 48}
+
+
+[ItemDef iAgapitePlatemailLegs]
+ID=iPlatemailLegs
+Name=agapite platemail legs
+Armor=37
+SkillMake=Blacksmithing 698
+Resources=20 iAgapiteIngot
+TEvents=tAgapiteEquipment
+
+Category=Equipment
+Subsection=Armor: Colored (Agapite)
+Description=Platemail Legs
+
+On=@Create
+Color=AgapiteHue
+HitPoints={36 48}
+
+
+[ItemDef iAgapitePlateHelm]
+ID=iPlateHelm
+Name=agapite plate helm
+Armor=37
+SkillMake=Blacksmithing 616
+Resources=15 iAgapiteIngot
+TEvents=tAgapiteEquipment
+
+Category=Equipment
+Subsection=Armor: Colored (Agapite)
+Description=Plate Helm
+
+On=@Create
+Color=AgapiteHue
+HitPoints={36 48}
+
+
+[ItemDef iAgapitePlatemailGorget]
+ID=iPlatemailGorget
+Name=agapite platemail gorget
+Armor=37
+SkillMake=Blacksmithing 534
+Resources=10 iAgapiteIngot
+TEvents=tAgapiteEquipment
+
+Category=Equipment
+Subsection=Armor: Colored (Agapite)
+Description=Platemail Gorget
+
+On=@Create
+Color=AgapiteHue
+HitPoints={36 48}
+
+
+[ItemDef iAgapitePlatemailGloves]
+ID=iPlatemailGloves
+Name=agapite platemail gloves
+Armor=37
+SkillMake=Blacksmithing 567
+Resources=12 iAgapiteIngot
+TEvents=tAgapiteEquipment
+
+Category=Equipment
+Subsection=Armor: Colored (Agapite)
+Description=Platemail Gloves
+
+On=@Create
+Color=AgapiteHue
+HitPoints={36 48}
+
+
+[ItemDef iAgapiteFemalePlateArmor]
+ID=iFemalePlateArmor
+Name=agapite female plate armor
+Armor=22
+SkillMake=Blacksmithing 730
+Resources=22 iAgapiteIngot
+TEvents=tAgapiteEquipment
+
+Category=Equipment
+Subsection=Armor: Colored (Agapite)
+Description=Female Plate Armor
+
+On=@Create
+Color=AgapiteHue
+HitPoints={36 48}
+
+
+[ItemDef iAgapiteChainmailCoif]
+ID=iChainmailCoif
+Name=agapite chainmail coif
+Armor=27
+SkillMake=Blacksmithing 306
+Resources=10 iAgapiteIngot
+TEvents=tAgapiteEquipment
+
+Category=Equipment
+Subsection=Armor: Colored (Agapite)
+Description=Chainmail Coif
+
+On=@Create
+Color=AgapiteHue
+HitPoints={36 48}
+
+
+[ItemDef iAgapiteChainmailLeggings]
+ID=iChainmailLeggings
+Name=agapite chainmail leggings
+Armor=27
+SkillMake=Blacksmithing 341
+Resources=18 iAgapiteIngot
+TEvents=tAgapiteEquipment
+
+Category=Equipment
+Subsection=Armor: Colored (Agapite)
+Description=Chainmail Leggings
+
+On=@Create
+Color=AgapiteHue
+HitPoints={36 48}
+
+
+[ItemDef iAgapiteChainmailTunic]
+ID=iChainmailTunic
+Name=agapite chainmail tunic
+Armor=27
+SkillMake=Blacksmithing 468
+Resources=20 iAgapiteIngot
+TEvents=tAgapiteEquipment
+
+Category=Equipment
+Subsection=Armor: Colored (Agapite)
+Description=Chainmail Tunic
+
+On=@Create
+Color=AgapiteHue
+HitPoints={36 48}
+
+
+[ItemDef iAgapiteRingmailLeggings]
+ID=iRingmailLeggings
+Name=agapite ringmail leggings
+Armor=22
+SkillMake=Blacksmithing 306
+Resources=16 iAgapiteIngot
+TEvents=tAgapiteEquipment
+
+Category=Equipment
+Subsection=Armor: Colored (Agapite)
+Description=Ringmail Leggings
+
+On=@Create
+Color=AgapiteHue
+HitPoints={36 48}
+
+
+[ItemDef iAgapiteRingmailSleeves]
+ID=iRingmailSleeves
+Name=agapite ringmail sleeves
+Armor=22
+SkillMake=Blacksmithing 273
+Resources=14 iAgapiteIngot
+TEvents=tAgapiteEquipment
+
+Category=Equipment
+Subsection=Armor: Colored (Agapite)
+Description=Ringmail Sleeves
+
+On=@Create
+Color=AgapiteHue
+HitPoints={36 48}
+
+
+[ItemDef iAgapiteRingmailGloves]
+ID=iRingmailGloves
+Name=agapite ringmail gloves
+Armor=22
+SkillMake=Blacksmithing 208
+Resources=10 iAgapiteIngot
+TEvents=tAgapiteEquipment
+
+Category=Equipment
+Subsection=Armor: Colored (Agapite)
+Description=Ringmail Gloves
+
+On=@Create
+Color=AgapiteHue
+HitPoints={36 48}
+
+
+[ItemDef iAgapiteRingmailTunic]
+ID=iRingmailTunic
+Name=agapite ringmail tunic
+Armor=22
+SkillMake=Blacksmithing 341
+Resources=18 iAgapiteIngot
+TEvents=tAgapiteEquipment
+
+Category=Equipment
+Subsection=Armor: Colored (Agapite)
+Description=Ringmail Tunic
+
+On=@Create
+Color=AgapiteHue
+HitPoints={36 48}
+
+
+[ItemDef iAgapiteBuckler]
+ID=iBuckler
+Name=agapite buckler
+Armor=9
+SkillMake=Blacksmithing 80
+Resources=10 iAgapiteIngot
+TEvents=tAgapiteEquipment
+
+Category=Equipment
+Subsection=Armor: Colored (Agapite)
+Description=Buckler
+
+On=@Create
+Color=AgapiteHue
+HitPoints={36 48}
+
+
+[ItemDef iAgapiteHeaterShield]
+ID=iHeaterShield
+Name=agapite heater shield
+Armor=25
+SkillMake=Blacksmithing 436
+Resources=18 iAgapiteIngot
+TEvents=tAgapiteEquipment
+
+Category=Equipment
+Subsection=Armor: Colored (Agapite)
+Description=Heater Shield
+
+On=@Create
+Color=AgapiteHue
+HitPoints={36 48}
+
+
+[ItemDef iAgapiteMetalShield]
+ID=iMetalShield
+Name=agapite metal shield
+Armor=13
+SkillMake=Blacksmithing 18
+Resources=14 iAgapiteIngot
+TEvents=tAgapiteEquipment
+
+Category=Equipment
+Subsection=Armor: Colored (Agapite)
+Description=Metal Shield
+
+On=@Create
+Color=AgapiteHue
+HitPoints={36 48}
+
+
+[ItemDef iAgapiteCloseHelm]
+ID=iCloseHelm
+Name=agapite close helm
+Armor=37
+SkillMake=Blacksmithing 616
+Resources=15 iAgapiteIngot
+TEvents=tAgapiteEquipment
+
+Category=Equipment
+Subsection=Armor: Colored (Agapite)
+Description=Close Helm
+
+On=@Create
+Color=AgapiteHue
+HitPoints={36 48}
+
+
+[ItemDef iAgapiteHelmet]
+ID=iHelmet
+Name=agapite helmet
+Armor=37
+SkillMake=Blacksmithing 616
+Resources=15 iAgapiteIngot
+TEvents=tAgapiteEquipment
+
+Category=Equipment
+Subsection=Armor: Colored (Agapite)
+Description=Helmet
+
+On=@Create
+Color=AgapiteHue
+HitPoints={36 48}
+
+
+[ItemDef iAgapiteBascinet]
+ID=iBascinet
+Name=agapite bascinet
+Armor=37
+SkillMake=Blacksmithing 222
+Resources=15 iAgapiteIngot
+TEvents=tAgapiteEquipment
+
+Category=Equipment
+Subsection=Armor: Colored (Agapite)
+Description=Bascinet
+
+On=@Create
+Color=AgapiteHue
+HitPoints={36 48}
+
+
+[ItemDef iAgapiteNoseHelm]
+ID=iNoseHelm
+Name=agapite nose helm
+Armor=37
+SkillMake=Blacksmithing 616
+Resources=15 iAgapiteIngot
+TEvents=tAgapiteEquipment
+
+Category=Equipment
+Subsection=Armor: Colored (Agapite)
+Description=Nose Helm
+
+On=@Create
+Color=AgapiteHue
+HitPoints={36 48}
+
+
+[EOF]

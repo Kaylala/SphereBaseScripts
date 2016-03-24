@@ -1,0 +1,339 @@
+[ItemDef iBronzePlatemailTunic]
+ID=iPlatemailTunic
+Name=bronze platemail tunic
+Armor=25
+SkillMake=Blacksmithing 750
+Resources=25 iBronzeIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Bronze)
+Description=Platemail Tunic
+
+On=@Create
+Color=BronzeHue
+HitPoints={36 48}
+
+
+[ItemDef iBronzePlatemailArms]
+ID=iPlatemailArms
+Name=bronze platemail arms
+Armor=25
+SkillMake=Blacksmithing 635
+Resources=18 iBronzeIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Bronze)
+Description=Platemail Arms
+
+On=@Create
+Color=BronzeHue
+HitPoints={36 48}
+
+
+[ItemDef iBronzePlatemailLegs]
+ID=iPlatemailLegs
+Name=bronze platemail legs
+Armor=25
+SkillMake=Blacksmithing 668
+Resources=20 iBronzeIngot
+
+Category=Equipment
+Subsection=Armor: Colored (Bronze)
+Description=Platemail Legs
+
+On=@Create
+Color=BronzeHue
+HitPoints={36 48}
+
+
+[ItemDef iBronzePlateHelm]
+ID=iPlateHelm
+Name=bronze plate helm
+Armor=25
+SkillMake=Blacksmithing 586
+Resources=15 iBronzeIngot
+
+Category=Equipment
+Subsection=Amor: Colored (Bronze)
+Description=Plate Helm
+
+On=@Create
+Color=BronzeHue
+HitPoints={36 48}
+
+
+[ItemDef iBronzePlatemailGorget]
+ID=iPlatemailGorget
+Name=bronze platemail gorget
+Armor=29
+SkillMake=Blacksmithing 504
+Resources=10 iBronzeIngot
+
+Category=Equipment
+Subsection=Amor: Colored (Bronze)
+Description=Platemail Gorget
+
+On=@Create
+Color=BronzeHue
+HitPoints={36 48}
+
+
+[ItemDef iBronzePlatemailGloves]
+ID=iPlatemailGloves
+Name=bronze platemail gloves
+Armor=25
+SkillMake=Blacksmithing 537
+Resources=12 iBronzeIngot
+
+Category=Equipment
+Subsection=Amor: Colored (Bronze)
+Description=Platemail Gloves
+
+On=@Create
+Color=BronzeHue
+HitPoints={36 48}
+
+
+[ItemDef iBronzeFemalePlateArmor]
+ID=iFemalePlateArmor
+Name=bronze female plate armor
+Armor=25
+SkillMake=Blacksmithing 700
+Resources=22 iBronzeIngot
+
+Category=Equipment
+Subsection=Amor: Colored (Bronze)
+Description=Female Plate Armor
+
+On=@Create
+Color=BronzeHue
+HitPoints={36 48}
+
+
+[ItemDef iBronzeChainmailCoif]
+ID=iChainmailCoif
+Name=bronze chainmail coif
+Armor=20
+SkillMake=Blacksmithing 276
+Resources=10 iBronzeIngot
+
+Category=Equipment
+Subsection=Amor: Colored (Bronze)
+Description=Chainmail Coif
+
+On=@Create
+Color=BronzeHue
+HitPoints={36 48}
+
+
+[ItemDef iBronzeChainmailLeggings]
+ID=iChainmailLeggings
+Name=bronze chainmail leggings
+Armor=20
+SkillMake=Blacksmithing 311
+Resources=18 iBronzeIngot
+
+Category=Equipment
+Subsection=Amor: Colored (Bronze)
+Description=Chainmail Leggings
+
+On=@Create
+Color=BronzeHue
+HitPoints={36 48}
+
+
+[ItemDef iBronzeChainmailTunic]
+ID=iChainmailTunic
+Name=bronze chainmail tunic
+Armor=20
+SkillMake=Blacksmithing 438
+Resources=20 iBronzeIngot
+
+Category=Equipment
+Subsection=Amor: Colored (Bronze)
+Description=Chainmail Tunic
+
+On=@Create
+Color=BronzeHue
+HitPoints={36 48}
+
+
+[ItemDef iBronzeRingmailLeggings]
+ID=iRingmailLeggings
+Name=bronze ringmail leggings
+Armor=18
+SkillMake=Blacksmithing 276
+Resources=16 iBronzeIngot
+
+Category=Equipment
+Subsection=Amor: Colored (Bronze)
+Description=Ringmail Leggings
+
+On=@Create
+Color=BronzeHue
+HitPoints={36 48}
+
+
+[ItemDef iBronzeRingmailSleeves]
+ID=iRingmailSleeves
+Name=bronze ringmail sleeves
+Armor=18
+ReqStr=20
+Weight=15
+SkillMake=Blacksmithing 243
+Resources=14 iBronzeIngot
+
+Category=Equipment
+Subsection=Amor: Colored (Bronze)
+Description=Ringmail Sleeves
+
+On=@Create
+Color=BronzeHue
+HitPoints={36 48}
+
+
+[ItemDef iBronzeRingmailGloves]
+ID=iRingmailGloves
+Name=bronze ringmail gloves
+Armor=18
+SkillMake=Blacksmithing 178
+Resources=10 iBronzeIngot
+
+Category=Equipment
+Subsection=Amor: Colored (Bronze)
+Description=Ringmail Gloves
+
+On=@Create
+Color=BronzeHue
+HitPoints={36 48}
+
+
+[ItemDef iBronzeRingmailTunic]
+ID=iRingmailTunic
+Name=bronze ringmail tunic
+Armor=18
+Resources=18 iBronzeIngot
+SkillMake=Blacksmithing 311
+
+Category=Equipment
+Subsection=Amor: Colored (Bronze)
+Description=Ringmail Tunic
+
+On=@Create
+Color=BronzeHue
+HitPoints={36 48}
+
+
+[ItemDef iBronzeBuckler]
+ID=iBuckler
+Name=bronze buckler
+Armor=6
+SkillMake=Blacksmithing 50
+Resources=10 iBronzeIngot
+
+Category=Equipment
+Subsection=Amor: Colored (Bronze)
+Description=Buckler
+
+On=@Create
+Color=BronzeHue
+HitPoints={36 48}
+
+
+[ItemDef iBronzeHeaterShield]
+ID=iHeaterShield
+Name=bronze heater shield
+Armor=20
+SkillMake=Blacksmithing 406
+Resources=18 iBronzeIngot
+
+Category=Equipment
+Subsection=Amor: Colored (Bronze)
+Description=Heater Shield
+
+On=@Create
+Color=BronzeHue
+HitPoints={36 48}
+
+
+[ItemDef iBronzeMetalShield]
+ID=iMetalShield
+Name=bronze metal shield
+Armor=10
+SkillMake=Blacksmithing 150
+Resources=14 iBronzeIngot
+
+Category=Equipment
+Subsection=Amor: Colored (Bronze)
+Description=Metal Shield
+
+On=@Create
+Color=BronzeHue
+HitPoints={36 48}
+
+
+[ItemDef iBronzeCloseHelm]
+ID=iHelmClosed
+Name=bronze close helm
+Armor=25
+SkillMake=Blacksmithing 586
+Resources=15 iBronzeIngot
+
+Category=Equipment
+Subsection=Amor: Colored (Bronze)
+Description=Close Helm
+
+On=@Create
+Color=BronzeHue
+HitPoints={36 48}
+
+
+[ItemDef iBronzeHelmet]
+ID=iHelmet
+Name=bronze helmet
+Armor=20
+SkillMake=Blacksmithing 586
+Resources=15 iBronzeIngot
+
+Category=Equipment
+Subsection=Amor: Colored (Bronze)
+Description=Helmet
+
+On=@Create
+Color=BronzeHue
+HitPoints={36 48}
+
+
+[ItemDef iBronzeBascinet]
+ID=iBascinet
+Name=bronze bascinet
+Armor=25
+SkillMake=Blacksmithing 192
+Resources=15 iBronzeIngot
+
+Category=Equipment
+Subsection=Amor: Colored (Bronze)
+Description=Bascinet
+
+On=@Create
+Color=BronzeHue
+HitPoints={36 48}
+
+
+[ItemDef iBronzeNoseHelm]
+ID=iHelmNose
+Name=bronze nose helm
+Armor=20
+SkillMake=Blacksmithing 586
+Resources=15 iBronzeIngot
+
+Category=Equipment
+Subsection=Amor: Colored (Bronze)
+Description=Nose Helm
+
+On=@Create
+Color=BronzeHue
+HitPoints={36 48}
+
+
+[EOF]

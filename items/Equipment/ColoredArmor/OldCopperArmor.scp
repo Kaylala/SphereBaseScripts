@@ -1,0 +1,338 @@
+[ItemDef iOldCopperPlatemailTunic]
+Name=old copper platemail tunic
+ID=iPlatemailTunic
+Weight=100
+Armor=25
+ReqStr=60
+Category=Equipment
+Subsection=Armor: Colored (Old Copper)
+Description=Platemail
+Resources=25 iOldCopperIngot
+SkillMake=Blacksmithing 760
+
+On=@Create
+Color=OldCopperHue
+HitPoints={36 48}
+
+[ItemDef iOldCopperPlatemailArms]
+Name=old copper platemail arms
+ID=iPlatemailArms
+Armor=25
+ReqStr=40
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Old Copper)
+Description=Platemail Arms
+Resources=18 iOldCopperIngot
+SkillMake=Blacksmithing 645
+
+On=@Create
+Color=OldCopperHue
+HitPoints={36 48}
+
+[ItemDef iOldCopperPlatemailLegs]
+Name=old copper platemail legs
+ID=iPlatemailLegs
+Armor=25
+ReqStr=60
+Weight=15
+Category=Equipment
+Subsection=Armor: Colored (Old Copper)
+Description=Platemail Legs
+Resources=20 iOldCopperIngot
+SkillMake=Blacksmithing 678
+
+On=@Create
+Color=OldCopperHue
+HitPoints={36 48}
+
+[ItemDef iOldCopperPlateHelm]
+Name=old copper plate helm
+ID=iPlateHelm
+Armor=25
+ReqStr=40
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Old Copper)
+Description=Plate Helm
+Resources=15 iOldCopperIngot
+SkillMake=Blacksmithing 596
+
+On=@Create
+Color=OldCopperHue
+HitPoints={36 48}
+
+[ItemDef iOldCopperPlatemailGorget]
+Name=old copper platemail gorget
+ID=iPlatemailGorget
+Armor=25
+ReqStr=30
+Weight=2
+Category=Equipment
+Subsection=Armor: Colored (Old Copper)
+Description=Platemail Gorget
+Resources=10 iOldCopperIngot
+SkillMake=Blacksmithing 514
+
+On=@Create
+Color=OldCopperHue
+HitPoints={36 48}
+
+[ItemDef iOldCopperPlatemailGloves]
+Name=old copper platemail Gloves
+ID=iPlatemailGloves
+Armor=25
+ReqStr=30
+Weight=2
+Category=Equipment
+Subsection=Armor: Colored (Old Copper)
+Description=Platemail Gloves
+Resources=12 iOldCopperIngot
+SkillMake=Blacksmithing 547
+
+On=@Create
+Color=OldCopperHue
+HitPoints={36 48}
+
+[ItemDef iOldCopperFemalePlateArmor]
+Name=old copper female plate armor
+ID=iFemalePlateArmor
+Armor=14
+ReqStr=15
+Weight=6
+Category=Equipment
+Subsection=Armor: Colored (Old Copper)
+Description=Female Plate Armor
+Resources=22 iOldCopperIngot
+SkillMake=Blacksmithing 710
+
+On=@Create
+Color=OldCopperHue
+HitPoints={36 48}
+
+[ItemDef iOldCopperChainmailCoif]
+Name=old copper chainmail coif
+ID=iChainmailCoif
+Armor=20
+ReqStr=20
+Weight=7
+Category=Equipment
+Subsection=Armor: Colored (Old Copper)
+Description=Chainmail Coif
+Resources=10 iOldCopperIngot
+SkillMake=Blacksmithing 286
+
+On=@Create
+Color=OldCopperHue
+HitPoints={36 48}
+
+[ItemDef iOldCopperChainmailLeggings]
+Name=old copper chainmail leggings
+ID=iChainmailLeggings
+Armor=20
+ReqStr=20
+Weight=7
+Category=Equipment
+Subsection=Armor: Colored (Old Copper)
+Description=Chainmail Leggings
+Resources=18 iOldCopperIngot
+SkillMake=Blacksmithing 321
+
+On=@Create
+Color=OldCopperHue
+HitPoints={36 48}
+
+[ItemDef iOldCopperChainmailTunic]
+Name=old copper chainmail tunic
+ID=iChainmailTunic
+Armor=20
+ReqStr=20
+Weight=7
+Category=Equipment
+Subsection=Armor: Colored (Old Copper)
+Description=Chainmail Tunic
+Resources=20 iOldCopperIngot
+SkillMake=Blacksmithing 448
+
+On=@Create
+Color=OldCopperHue
+HitPoints={36 48}
+
+[ItemDef iOldCopperRingmailLeggings]
+Name=old copper ringmail leggings
+ID=iRingmailLeggings
+Armor=18
+ReqStr=20
+Weight=15
+Category=Equipment
+Subsection=Armor: Colored (Old Copper)
+Description=Ringmail Leggings
+Resources=16 iOldCopperIngot
+SkillMake=Blacksmithing 286
+
+On=@Create
+Color=OldCopperHue
+HitPoints={36 48}
+
+[ItemDef iOldCopperRingmailSleeves]
+Name=old copper ringmail sleeves
+ID=iRingmailSleeves
+Armor=18
+ReqStr=20
+Weight=15
+Category=Equipment
+Subsection=Armor: Colored (Old Copper)
+Description=Ringmail Sleeves
+Resources=14 iOldCopperIngot
+SkillMake=Blacksmithing 253
+
+On=@Create
+Color=OldCopperHue
+HitPoints={36 48}
+
+[ItemDef iOldCopperRingmailGloves]
+Name=old copper ringmail gloves
+ID=iRingmailGloves
+Armor=18
+ReqStr=20
+Weight=2
+Category=Equipment
+Subsection=Armor: Colored (Old Copper)
+Description=Ringmail Gloves
+Resources=12 iOldCopperIngot
+SkillMake=Blacksmithing 188
+
+On=@Create
+Color=OldCopperHue
+HitPoints={36 48}
+
+[ItemDef iOldCopperRingmailTunic]
+Name=old copper ringmail tunic
+ID=iRingmailTunic
+Armor=18
+ReqStr=20
+Weight=15
+Category=Equipment
+Subsection=Armor: Colored (Old Copper)
+Description=Ringmail Tunic
+Resources=18 iOldCopperIngot
+SkillMake=Blacksmithing 321
+
+On=@Create
+Color=OldCopperHue
+HitPoints={36 48}
+
+[ItemDef iOldCopperMetalShield]
+Name=old copper metal shield
+ID=iMetalShield
+Armor=10
+ReqStr=15
+Weight=6
+Category=Equipment
+Subsection=Armor: Colored (Old Copper)
+Description=Metal Shield
+Resources=14 iOldCopperIngot
+SkillMake=Blacksmithing 160
+
+On=@Create
+Color=OldCopperHue
+HitPoints={36 48}
+
+[ItemDef iOldCopperHeaterShield]
+Name=old copper heater shield
+ID=iHeaterShield
+Armor=20
+ReqStr=30
+Weight=8
+Category=Equipment
+Subsection=Armor: Colored (Old Copper)
+Description=Heater Shield
+Resources=18 iOldCopperIngot
+SkillMake=Blacksmithing 416
+
+On=@Create
+Color=OldCopperHue
+HitPoints={36 48}
+
+[ItemDef iOldCopperBuckler]
+Name=old copper buckler
+ID=iBuckler
+Armor=6
+ReqStr=15
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Old Copper)
+Description=Buckler
+Resources=10 iOldCopperIngot
+SkillMake=Blacksmithing 60
+
+On=@Create
+Color=OldCopperHue
+HitPoints={36 48}
+
+[ItemDef iOldCopperCloseHelm]
+Name=old copper close helm
+ID=iCloseHelm
+Armor=25
+ReqStr=20
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Old Copper)
+Description=Close Helm
+Resources=15 iOldCopperIngot
+SkillMake=Blacksmithing 596
+
+On=@Create
+Color=OldCopperHue
+HitPoints={36 48}
+
+[ItemDef iOldCopperHelmet]
+Name=old copper helmet
+ID=iHelmet
+Armor=25
+ReqStr=10
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Old Copper)
+Description=helmet
+Resources=15 iOldCopperIngot
+SkillMake=Blacksmithing 596
+
+On=@Create
+Color=OldCopperHue
+HitPoints={36 48}
+
+[ItemDef iOldCopperBascinet]
+Name=old copper bascinet
+ID=iBascinet
+Armor=25
+ReqStr=10
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Old Copper)
+Description=Bascinet
+Resources=15 iOldCopperIngot
+SkillMake=Blacksmithing 202
+
+On=@Create
+Color=OldCopperHue
+HitPoints={36 48}
+
+[ItemDef iOldCopperNoseHelm]
+Name=old copper nose helm
+ID=iNoseHelm
+Armor=25
+ReqStr=0
+Weight=5
+Category=Equipment
+Subsection=Armor: Colored (Old Copper)
+Description=Nose Helm
+Resources=15 iOldCopperIngot
+SkillMake=Blacksmithing 596
+
+On=@Create
+Color=OldCopperHue
+HitPoints={36 48}
+
+
+[EOF]
