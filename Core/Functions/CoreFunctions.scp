@@ -1,3 +1,11 @@
+// Can be used in @HitTry. Use on Char or ArgO. Make sure there is no ArgO first.
+[Function CheckSpeed]
+Return <QVal (<Tag0.Override.Speed>) ? <Tag.Override.Speed> : <Speed>>
+
+// Useful for old SkillMenus for older Servers wanting to use new items with older clients.
+// Basically this can be used in the SkillMenu On= as shown below. It will grab the items ResLevel and 
+// ResDispDnID and show it for you.
+// E.G. On=<ExpResDisp iBladedStaff>
 [Function ExpResDisp]
 If (<Src.Account.ResLevel> >= <Serv.ItemDef.<ArgS>.ResLevel>)
  Return <ArgS>
@@ -7,7 +15,6 @@ If (<Local.Item>)
  Return <Local.Item>
 EndIf
 Return <ArgS>
-//On=<ExpResDisp iBladedStaff>
 
 
 [Function CalculateLuck]
