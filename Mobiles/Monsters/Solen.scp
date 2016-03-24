@@ -1,0 +1,814 @@
+[CharDef 030D]
+DefName=cRedSolenWorker
+Name=red solen worker
+Can=CanWalk
+MoveRate=100
+Dam=5,7
+Icon=iSolenWorkerIcon
+Sound=sndSolen1
+Resources=0
+FoodType=tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=tRawMeat,rSolenHive
+BloodColor=0
+
+Category=Animals
+Subsection=Solen: Red
+Description=Red Solen Worker
+
+On=@Create
+NPC=BrainMonster
+
+Fame=1500
+Karma=-1500
+Alignment=Evil	// Could have sworn they were neutral.
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=25,30
+ResFire=20,30
+ResCold=10,20
+ResPoison=10,20
+ResEnergy=20,30
+
+OStr={95 120}
+ODex={80 105}
+OInt={35 60}
+MaxHits={58 72}
+
+Wrestling=600
+Tactics=650
+MagicResistance=600
+Parrying=600
+
+On=@NPCRestock
+NewGold={125 175}
+
+On=@DeathCorpse
+NewItem=iZoogiFungus,{1 6}
+NewItem=iPicnicBasket,1,R19
+
+
+[CharDef 030E]
+DefName=cRedSolenWarrior
+Name=red solen warrior
+Can=CanWalk
+MoveRate=100
+Dam=5,15
+Icon=iSolenWarriorIcon
+Sound=sndSolen1
+Resources=0
+FoodType=tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=tRawMeat,rSolenHive
+BloodColor=0
+TEvents=//eAcidSpit,eAcidPoolDeath
+
+Category=Animals
+Subsection=Solen: Red
+Description=Red Solen Warrior
+
+On=@Create
+NPC=BrainMonster
+
+Fame=3000
+Karma=-3000
+Alignment=Evil
+
+DamPhysical=80
+DamFire=0
+DamCold=0
+DamPoison=20
+DamEnergy=0
+
+ResPhysical=20,35
+ResFire=20,35
+ResCold=10,25
+ResPoison=20,35
+ResEnergy=10,25
+
+OStr={195 220}
+ODex={100 125}
+OInt={35 60}
+MaxHits={96 107}
+
+Wrestling=800
+Tactics=800
+MagicResistance=600
+Parrying=800
+
+On=@NPCRestock
+NewGold={250 350}
+
+On=@DeathCorpse
+NewItem=iZoogiFungus,{3 13}
+NewItem=iPicnicBasket,1,R19
+NewItem=RandomCommonGem,{1 4}
+NewItem=iBraceletOfBinding,1
+
+
+[CharDef 030F]
+DefName=cRedSolenQueen
+Name=red solen queen
+Can=CanWalk
+MoveRate=100
+Dam=10,15
+Icon=iSolenQueenIcon
+Sound=sndSolen1
+Resources=0
+FoodType=tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=tRawMeat,rSolenHive
+BloodColor=0
+
+Category=Animals
+Subsection=Solen: Red
+Description=Red Solen Queen
+
+On=@Create
+NPC=BrainMonster
+
+Fame=4500
+Karma=-4500
+Alignment=Evil
+
+DamPhysical=70
+DamFire=0
+DamCold=0
+DamPoison=30
+DamEnergy=0
+
+ResPhysical=30,40
+ResFire=30,35
+ResCold=25,35
+ResPoison=35,40
+ResEnergy=25,30
+
+OStr={295 320}
+ODex={120 145}
+OInt={75 100}
+MaxHits={150 162}
+
+Wrestling=900
+Tactics=900
+MagicResistance=700
+Parrying=900
+
+On=@NPCRestock
+NewGold={400 500}
+
+On=@DeathCorpse
+NewItem=iZoogiFungus,{5 25}
+NewItem=iPicnicBasket,1,R19
+NewItem=iBallOfPetSummoning,1,R19
+NewItem=iBraceletOfBinding,1,R19
+
+
+[CharDef 0324]
+DefName=cRedSolenMatriarch
+Name=red solen matriarch
+Can=CanWalk
+MoveRate=100
+Dam=10,15
+Icon=iSolenQueenIcon
+Sound=sndSolen1
+Resources=0
+FoodType=tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=tRawMeat,rSolenHive
+BloodColor=0
+
+Category=Animals
+Subsection=Solen: Red
+Description=Red Solen Matriarch
+
+On=@Create
+NPC=BrainMonster
+
+Fame=4500
+Karma=-4500
+Alignment=Evil
+
+DamPhysical=70
+DamFire=0
+DamCold=0
+DamPoison=30
+DamEnergy=0
+
+ResPhysical=30,40
+ResFire=30,35
+ResCold=25,35
+ResPoison=35,40
+ResEnergy=25,30
+
+OStr={295 320}
+ODex={120 145}
+OInt={75 100}
+MaxHits={150 162}
+
+Wrestling=900
+Tactics=900
+MagicResistance=700
+Parrying=900
+
+On=@NPCRestock
+NewGold={400 500}
+
+On=@DeathCorpse
+NewItem=iZoogiFungus,{5 25}
+NewItem=iPicnicBasket,1,R19
+NewItem=iBallOfPetSummoning,1,R19
+NewItem=iBraceletOfBinding,1,R19
+
+
+[CharDef cRedSolenInfiltratorWarrior]
+ID=cRedSolenWarrior
+Name=red solen infiltrator warrior
+Can=CanWalk
+MoveRate=100
+Dam=5,15
+Icon=iSolenWarriorIcon
+Sound=sndSolen1
+Resources=0
+FoodType=tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=tRawMeat,rSolenHive
+BloodColor=0
+TEvents=//eAcidSpit,eAcidPoolDeath
+
+Category=Animals
+Subsection=Solen: Red
+Description=Red Solen Infiltrator Warrior
+
+On=@Create
+NPC=BrainMonster
+
+Fame=3000
+Karma=-3000
+Alignment=Evil
+
+DamPhysical=80
+DamFire=0
+DamCold=0
+DamPoison=20
+DamEnergy=0
+
+ResPhysical=20,35
+ResFire=20,35
+ResCold=10,25
+ResPoison=20,35
+ResEnergy=10,25
+
+OStr={205 230}
+ODex={120 145}
+OInt={65 90}
+MaxHits={96 107}
+
+Wrestling=800
+Tactics=800
+MagicResistance=800
+Parrying=800
+
+On=@NPCRestock
+NewGold={200 225}
+
+On=@DeathCorpse
+NewItem=iZoogiFungus,{3 13}
+NewItem=iPicnicBasket,1,R19
+NewItem=RandomCommonGem,{1 4}
+
+
+[CharDef cRedSolenInfiltratorQueen]
+ID=cRedSolenQueen
+Name=red solen infiltrator queen
+Can=CanWalk
+MoveRate=100
+Dam=10,15
+Icon=iSolenQueenIcon
+Sound=sndSolen1
+Resources=0
+FoodType=tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=tRawMeat,rSolenHive
+BloodColor=0
+
+Category=Animals
+Subsection=Solen: Red
+Description=Red Solen Infiltrator Queen
+
+On=@Create
+NPC=BrainMonster
+
+Fame=6500
+Karma=-6500
+Alignment=Evil
+
+DamPhysical=70
+DamFire=0
+DamCold=0
+DamPoison=30
+DamEnergy=0
+
+ResPhysical=30,40
+ResFire=30,35
+ResCold=25,35
+ResPoison=35,40
+ResEnergy=25,30
+
+OStr={325 350}
+ODex={140 165}
+OInt={95 120}
+MaxHits={150 162}
+
+Wrestling=900
+Tactics=900
+MagicResistance=900
+Parrying=900
+
+On=@NPCRestock
+NewGold={250 300}
+
+On=@DeathCorpse
+NewItem=iZoogiFungus,{4 16}
+NewItem=iPicnicBasket,1,R19
+
+
+[CharDef cAmbitiousRedSolenQueen]
+ID=cRedSolenQueen
+Name=ambitious red solen queen
+Can=CanWalk
+MoveRate=100
+Dam=10,15
+Icon=iSolenQueenIcon
+Sound=sndSolen1
+Resources=0
+FoodType=tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=tRawMeat,rSolenHive
+BloodColor=0
+
+Category=Animals
+Subsection=Solen: Red
+Description=Ambitious Red Solen Queen
+
+On=@Create
+NPC=BrainMonster
+
+Fame=4500
+Karma=-4500
+Alignment=Evil
+
+DamPhysical=70
+DamFire=0
+DamCold=0
+DamPoison=30
+DamEnergy=0
+
+ResPhysical=30,40
+ResFire=30,35
+ResCold=25,35
+ResPoison=35,40
+ResEnergy=25,30
+
+OStr={295 320}
+ODex={120 145}
+OInt={75 100}
+MaxHits={150 162}
+
+Wrestling=900
+Tactics=900
+MagicResistance=700
+Parrying=900
+
+On=@NPCRestock
+NewGold={400 500}
+
+On=@DeathCorpse
+NewItem=iZoogiFungus,{5 25}
+NewItem=iPicnicBasket,1,R19
+NewItem=iBallOfPetSummoning,1,R19
+NewItem=iBraceletOfBinding,1,R19
+
+
+[CharDef 0325]
+DefName=cBlackSolenWorker
+Name=black solen worker
+Can=CanWalk
+MoveRate=100
+Dam=5,7
+Icon=iSolenWorkerIcon
+Sound=sndSolen1
+Resources=0
+FoodType=tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=tRawMeat,rSolenHive
+BloodColor=0
+
+Category=Animals
+Subsection=Solen: Black
+Description=Black Solen Worker
+
+On=@Create
+NPC=BrainMonster
+Color=0835
+
+Fame=1500
+Karma=-1500
+Alignment=Evil	// Could have sworn they were neutral.
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=25,30
+ResFire=20,30
+ResCold=10,20
+ResPoison=10,20
+ResEnergy=20,30
+
+OStr={95 120}
+ODex={80 105}
+OInt={35 60}
+MaxHits={58 72}
+
+Wrestling=600
+Tactics=650
+MagicResistance=600
+Parrying=600
+
+On=@NPCRestock
+NewGold={125 175}
+
+On=@DeathCorpse
+NewItem=iZoogiFungus,{1 6}
+NewItem=iPicnicBasket,1,R19
+
+
+[CharDef 0326]
+DefName=cBlackSolenWarrior
+Name=black solen warrior
+Can=CanWalk
+MoveRate=100
+Dam=5,15
+Icon=iSolenWarriorIcon
+Sound=sndSolen1
+Resources=0
+FoodType=tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=tRawMeat,rSolenHive
+BloodColor=0
+TEvents=//eAcidSpit,eAcidPoolDeath
+
+Category=Animals
+Subsection=Solen: Black
+Description=Black Solen Warrior
+
+On=@Create
+NPC=BrainMonster
+Color=0835
+
+Fame=3000
+Karma=-3000
+Alignment=Evil
+
+DamPhysical=80
+DamFire=0
+DamCold=0
+DamPoison=20
+DamEnergy=0
+
+ResPhysical=20,35
+ResFire=20,35
+ResCold=10,25
+ResPoison=20,35
+ResEnergy=10,25
+
+OStr={195 220}
+ODex={100 125}
+OInt={35 60}
+MaxHits={96 107}
+
+Wrestling=800
+Tactics=800
+MagicResistance=600
+Parrying=800
+
+On=@NPCRestock
+NewGold={250 350}
+
+On=@DeathCorpse
+NewItem=iZoogiFungus,{3 13}
+NewItem=iPicnicBasket,1,R19
+NewItem=RandomCommonGem,{1 4}
+NewItem=iBraceletOfBinding,1
+
+
+[CharDef 0327]
+DefName=cBlackSolenQueen
+Name=black solen queen
+Can=CanWalk
+MoveRate=100
+Dam=10,15
+Icon=iSolenQueenIcon
+Sound=sndSolen1
+Resources=0
+FoodType=tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=tRawMeat,rSolenHive
+BloodColor=0
+
+Category=Animals
+Subsection=Solen: Black
+Description=Black Solen Queen
+
+On=@Create
+NPC=BrainMonster
+Color=0835
+
+Fame=4500
+Karma=-4500
+Alignment=Evil
+
+DamPhysical=70
+DamFire=0
+DamCold=0
+DamPoison=30
+DamEnergy=0
+
+ResPhysical=30,40
+ResFire=30,35
+ResCold=25,35
+ResPoison=35,40
+ResEnergy=25,30
+
+OStr={295 320}
+ODex={120 145}
+OInt={75 100}
+MaxHits={150 162}
+
+Wrestling=900
+Tactics=900
+MagicResistance=700
+Parrying=900
+
+On=@NPCRestock
+NewGold={400 500}
+
+On=@DeathCorpse
+NewItem=iZoogiFungus,{5 25}
+NewItem=iPicnicBasket,1,R19
+NewItem=iBallOfPetSummoning,1,R19
+NewItem=iBraceletOfBinding,1,R19
+
+
+[CharDef 0328]
+DefName=cBlackSolenMatriarch
+Name=black solen matriarch
+Can=CanWalk
+MoveRate=100
+Dam=10,15
+Icon=iSolenQueenIcon
+Sound=sndSolen1
+Resources=0
+FoodType=tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=tRawMeat,rSolenHive
+BloodColor=0
+
+Category=Animals
+Subsection=Solen: Black
+Description=Black Solen Matriarch
+
+On=@Create
+NPC=BrainMonster
+Color=0835
+
+Fame=4500
+Karma=-4500
+Alignment=Evil
+
+DamPhysical=70
+DamFire=0
+DamCold=0
+DamPoison=30
+DamEnergy=0
+
+ResPhysical=30,40
+ResFire=30,35
+ResCold=25,35
+ResPoison=35,40
+ResEnergy=25,30
+
+OStr={295 320}
+ODex={120 145}
+OInt={75 100}
+MaxHits={150 162}
+
+Wrestling=900
+Tactics=900
+MagicResistance=700
+Parrying=900
+
+On=@NPCRestock
+NewGold={400 500}
+
+On=@DeathCorpse
+NewItem=iZoogiFungus,{5 25}
+NewItem=iPicnicBasket,1,R19
+NewItem=iBallOfPetSummoning,1,R19
+NewItem=iBraceletOfBinding,1,R19
+
+
+[CharDef cBlackSolenInfiltratorWarrior]
+ID=cBlackSolenWarrior
+Name=black solen infiltrator warrior
+Can=CanWalk
+MoveRate=100
+Dam=5,15
+Icon=iSolenWarriorIcon
+Sound=sndSolen1
+Resources=0
+FoodType=tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=tRawMeat,rSolenHive
+BloodColor=0
+TEvents=//eAcidSpit,eAcidPoolDeath
+
+Category=Animals
+Subsection=Solen: Black
+Description=Black Solen Infiltrator Warrior
+
+On=@Create
+NPC=BrainMonster
+Color=0835
+
+Fame=3000
+Karma=-3000
+Alignment=Evil
+
+DamPhysical=80
+DamFire=0
+DamCold=0
+DamPoison=20
+DamEnergy=0
+
+ResPhysical=20,35
+ResFire=20,35
+ResCold=10,25
+ResPoison=20,35
+ResEnergy=10,25
+
+OStr={205 230}
+ODex={120 145}
+OInt={65 90}
+MaxHits={96 107}
+
+Wrestling=800
+Tactics=800
+MagicResistance=800
+Parrying=800
+
+On=@NPCRestock
+NewGold={200 225}
+
+On=@DeathCorpse
+NewItem=iZoogiFungus,{3 13}
+NewItem=iPicnicBasket,1,R19
+NewItem=RandomCommonGem,{1 4}
+
+
+[CharDef cBlackSolenInfiltratorQueen]
+ID=cBlackSolenQueen
+Name=black solen infiltrator queen
+Can=CanWalk
+MoveRate=100
+Dam=10,15
+Icon=iSolenQueenIcon
+Sound=sndSolen1
+Resources=0
+FoodType=tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=tRawMeat,rSolenHive
+BloodColor=0
+
+Category=Animals
+Subsection=Solen: Black
+Description=Black Solen Infiltrator Queen
+
+On=@Create
+NPC=BrainMonster
+Color=0835
+
+Fame=6500
+Karma=-6500
+Alignment=Evil
+
+DamPhysical=70
+DamFire=0
+DamCold=0
+DamPoison=30
+DamEnergy=0
+
+ResPhysical=30,40
+ResFire=30,35
+ResCold=25,35
+ResPoison=35,40
+ResEnergy=25,30
+
+OStr={325 350}
+ODex={140 165}
+OInt={95 120}
+MaxHits={150 162}
+
+Wrestling=900
+Tactics=900
+MagicResistance=900
+Parrying=900
+
+On=@NPCRestock
+NewGold={250 300}
+
+On=@DeathCorpse
+NewItem=iZoogiFungus,{4 16}
+NewItem=iPicnicBasket,1,R19
+
+
+[CharDef cAmbitiousBlackSolenQueen]
+ID=cBlackSolenQueen
+Name=ambitious black solen queen
+Can=CanWalk
+MoveRate=100
+Dam=10,15
+Icon=iSolenQueenIcon
+Sound=sndSolen1
+Resources=0
+FoodType=tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=tRawMeat,rSolenHive
+BloodColor=0
+
+Category=Animals
+Subsection=Solen: Black
+Description=Ambitious Black Solen Queen
+
+On=@Create
+NPC=BrainMonster
+Color=0835
+
+Fame=4500
+Karma=-4500
+Alignment=Evil
+
+DamPhysical=70
+DamFire=0
+DamCold=0
+DamPoison=30
+DamEnergy=0
+
+ResPhysical=30,40
+ResFire=30,35
+ResCold=25,35
+ResPoison=35,40
+ResEnergy=25,30
+
+OStr={295 320}
+ODex={120 145}
+OInt={75 100}
+MaxHits={150 162}
+
+Wrestling=900
+Tactics=900
+MagicResistance=700
+Parrying=900
+
+On=@NPCRestock
+NewGold={400 500}
+
+On=@DeathCorpse
+NewItem=iZoogiFungus,{5 25}
+NewItem=iPicnicBasket,1,R19
+NewItem=iBallOfPetSummoning,1,R19
+NewItem=iBraceletOfBinding,1,R19
+
+
+[EOF]

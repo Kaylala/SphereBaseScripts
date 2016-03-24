@@ -20,7 +20,7 @@ DescriptiOn=Silverback Gorilla
 
 On=@Create
 NPC=BrainAnimal
-SlayerSuper=SlayerEodon
+SlayerSuper=EodonSlayer
 ThrowObj=iBanana
 ThrowRange=12
 ThrowDam=<DamMin>,<DamMax>
@@ -69,10 +69,10 @@ Dam=18,24
 Icon=iWildTigerIcon
 Sound=sndLion1
 Resources=4 iTigerPelt,2 iCutOfRawRibs
-FoodType=tMeat
+FoodType=tRawMeat
 MaxFood=35
 Aversions=rCivilization
-Desires=rJungle,tMeat,tWater
+Desires=rJungle,tRawMeat,tWater
 BloodColor=0
 
 Category=Animals
@@ -130,10 +130,10 @@ Dam=18,24
 Icon=iWildTigerIcon
 Sound=sndLion1
 Resources=4 iWhiteTigerPelt,2 iCutOfRawRibs
-FoodType=tMeat
+FoodType=tRawMeat
 MaxFood=35
 Aversions=rCivilization
-Desires=rJungle,tMeat,tWater
+Desires=rJungle,tRawMeat,tWater
 BloodColor=0
 
 Category=Animals
@@ -142,7 +142,7 @@ DescriptiOn=Wild White Tiger
 
 On=@Create
 NPC=BrainAnimal
-Color=ColorWhite
+Color=WhiteHue
 FollowerSlots=2
 SlayerSuper=EodonSlayer|FelineSlayer
 
@@ -192,10 +192,10 @@ Dam=18,24
 Icon=iWildTigerIcon
 Sound=sndLion1
 Resources=4 iWhiteTigerPelt,2 iCutOfRawRibs
-FoodType=tMeat
+FoodType=tRawMeat
 MaxFood=35
 Aversions=rCivilization
-Desires=rJungle,tMeat,tWater
+Desires=rJungle,tRawMeat,tWater
 BloodColor=0
 
 Category=Animals
@@ -204,7 +204,7 @@ DescriptiOn=Wild Black Tiger
 
 On=@Create
 NPC=BrainAnimal
-Color=ColorShadowIron
+Color=ShadowIronHue
 FollowerSlots=2
 SlayerSuper=EodonSlayer|FelineSlayer
 
@@ -253,10 +253,10 @@ Dam=18,24
 Icon=iTigerCubIcon
 Sound=sndLion1
 Resources=4 iTigerPelt,2 iCutOfRawRibs
-FoodType=tMeat
+FoodType=tRawMeat
 MaxFood=35
 Aversions=rCivilization
-Desires=rJungle,tMeat,tWater
+Desires=rJungle,tRawMeat,tWater
 BloodColor=0
 
 Category=Animals

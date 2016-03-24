@@ -1,4 +1,3 @@
-
 // Myrmidex Drone
 // Hued terathan drone
 // Dragon Turtle Champion Spawn
@@ -8,13 +7,13 @@ Name=myrmidex drone
 Can=CanWalk
 MoveRate=100
 Dam=6,12
-Icon=iMyrmidexDroneIcon
+Icon=iTerathanDroneIcon
 Sound=sndTerathanDrone1
 Resources=4 iCutOfRawRibs
-FoodType=tMeat
+FoodType=tRawMeat
 MaxFood=35
 Aversions=rCivilization
-Desires=tMeat,rJungle
+Desires=tRawMeat,rJungle
 BloodColor=0
 
 Category=Animals
@@ -59,6 +58,7 @@ Parrying={300 500}
 On=@NPCRestock
 NewGold={50 100}
 
+
 // Myrmidex Larvae
 // Note: This thing is so weak
 // Dragon Turtle Champion Spawn
@@ -71,7 +71,7 @@ Dam=5,13
 Icon=iMyrmidexLarvaeIcon
 Sound=sndAcidSlug1
 Resources=0
-FoodType=tMeat
+FoodType=tRawMeat
 MaxFood=35
 Aversions=0
 Desires=0
@@ -119,5 +119,6 @@ Parrying={350 500}
 
 On=@NPCRestock
 NewGold={25 50}
+
 
 [EOF]
