@@ -52,10 +52,13 @@ Scripts/Items/Equipment/ColoredArmor/
 Scripts/Items/Miscellaneous/
 Scripts/Items/Resources/
 // Mobiles
-Scripts/NPCs/
-Scripts/NPCs/Bosses/
-Scripts/NPCs/Animals/
-Scripts/NPCs/Monsters/
+Scripts/Mobiles/
+Scripts/Mobiles/Animals/
+Scripts/Mobiles/Bosses/
+Scripts/Mobiles/Civilized/
+Scripts/Mobiles/Monsters/
+Scripts/Mobiles/Custom/				// Sphere's custom non-sense.
+
 
 // Maps //
 Scripts/Maps/Region.scp

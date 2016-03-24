@@ -12,23 +12,18 @@
 VERSION=0.56c
 
 
-[CHARDEF c_h_vendor]
-ID=C_MAN
-NAME=#NAMES_HUMANMALE the Vendor
+[CharDef cHMVendor]
+ID=cHumanMale
+NAME=#HumanMaleNames the Vendor
 HIREDAYWAGE=50
-DESIRES=i_gold,e_notoriety
+DESIRES=iGold,eNotoriety
 AVERSIONS=t_TRAP,t_eerie_stuff
 TSPEECH=spk_human_prime
 TSPEECH=spk_human_default
 TSPEECH=spk_shopkeep
 //TSPEECH=spk_needs
-TEVENTS=e_Human_HearUnk
-TEVENTS=e_Human_ConvInit
-TEVENTS=e_Human_Needs
-TEVENTS=e_Human_Greet
-TEVENTS=e_Human_Space
-TEVENTS=e_Human_Refuse
-TEVENTS=e_Human_Environ
+TEvents=eHumanHearUnknown,eHumanInitializeConversation,eHumanSeeWantItem,eHumanHearGreeting,ePersonalSpace,eHumanRefuseItem,eHumanEnvironmentChange,eHumanAcceptItem
+
 CATEGORY=Civilized
 SUBSECTION=Tradesmen
 DESCRIPTION=Vendor
@@ -60,22 +55,17 @@ ON=@Create
 	ITEMNEWBIE=random_shoes
 	COLOR=colors_neutral
 
-[CHARDEF c_h_vendor_f]
-ID=C_WOMAN
-NAME=#NAMES_HUMANFEMALE the Vendor
+[CharDef cHFVendor]
+ID=cHumanFemale
+NAME=#HumanFemaleNames the Vendor
 HIREDAYWAGE=50
 DESIRES=i_gold,e_notoriety
 TSPEECH=spk_human_prime
 TSPEECH=spk_human_default
 TSPEECH=spk_shopkeep
 //TSPEECH=spk_needs
-TEVENTS=e_Human_HearUnk
-TEVENTS=e_Human_ConvInit
-TEVENTS=e_Human_Needs
-TEVENTS=e_Human_Greet
-TEVENTS=e_Human_Space
-TEVENTS=e_Human_Refuse
-TEVENTS=e_Human_Environ
+TEvents=eHumanHearUnknown,eHumanInitializeConversation,eHumanSeeWantItem,eHumanHearGreeting,ePersonalSpace,eHumanRefuseItem,eHumanEnvironmentChange,eHumanAcceptItem
+
 CATEGORY=Provisions - Deeds
 SUBSECTION=Vendor Deeds
 DESCRIPTION=Player Vendor Female
