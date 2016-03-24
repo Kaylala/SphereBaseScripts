@@ -1,0 +1,36 @@
+[DefName stat_flags]
+// apply to chars
+StatFInvulnerable			000000001   // invulnerability
+StatFDead					000000002
+StatFParalyzed				000000004   // paralyzed. (spell)
+StatFInvisible				000000008   // invisible (spell).
+StatFSleeping				000000010   // you look like a corpse ?
+StatFWarMode				000000020   // war mode on ?
+StatFReactive				000000040   // have reactive armor on.
+StatFPoisoned				000000080   // poison level is in the poison object
+StatFNightsight				000000100   // all a light to you
+StatFReflection				000000200   // magic reflect on.
+StatFPolymorph				000000400   // we have polymorphed to another form.
+StatFIncognito				000000800   // dont show skill titles
+StatFSpiritSpeak			000001000   // i can hear ghosts clearly.
+StatFInsubstantial			000002000   // ghost has not manifest. or gm hidden
+StatFEmoteAction			000004000   // the creature will emote its actions to it's owners.
+StatFCommunicationCrystal	000008000   // the char can speak to a comm crystal in his bag
+StatFHasShield				000010000   // using a shield
+StatFArcherCanMove			000020000   // can move with archery
+StatFPetrified				000040000   // turned to stone.
+StatFHovering				000080000   // hovering (gargoyle flight)
+StatFFly					000100000   // flying or running ? (anim)
+StatFHallucinating			000400000   // eat 'shrooms or bad food.
+StatFHidden					000800000   // hidden (non-magical)
+StatFIndoors				001000000   // we are covered from the rain.
+StatFCriminal				002000000   // the guards will attack me. (someone has called guards)
+StatFConjured				004000000   // this creature is conjured and will expire. (leave no corpse or loot)
+StatFPet					008000000   // i am a pet/hirling. check for my owner memory.
+StatFSpawned				010000000   // i am spawned by a spawn item.
+StatFSaveParity				020000000   // has this char been saved or not ?
+StatFRidden					040000000   // this is the horse. (don't display me) i am being ridden
+StatFOnMount				080000000   // Mounted on horseback.
+
+
+[EOF]

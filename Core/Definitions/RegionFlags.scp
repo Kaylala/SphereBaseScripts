@@ -1,0 +1,21 @@
+[DefName Region_Flags]
+RegionAntiMagicAll				00001   // all magic banned here.
+RegionAntiMagicRecallIn			00002   // teleport,recall in to this, and mark
+RegionAntiMagicRecallOut		00004   // can't recall out of here.
+RegionAntiMagicGate				00008
+RegionAntiMagicTeleport			00010   // can't teleport into here.
+RegionAntiMagicDamage			00020   // just no bad magic here
+RegionFlagShip					00040   // this is a ship region. ship commands
+RegionFlagNoBuilding			00080   // no building in this area
+//RegionFlagGlobalName			00100   // No longer in use
+RegionFlagAnnounce				00200   // announce to all who enter.
+RegionFlagInstaLogout			00400   // instant log out is allowed here. (hotel)
+RegionFlagUnderground			00800   // dungeon type area. (no weather)
+RegionFlagNoDecay				01000   // things on the ground don't decay here.
+RegionFlagSafe					02000   // this region is safe from all harm.
+RegionFlagGuarded				04000   // try tag.guardowner
+RegionFlagNoPVP					08000   // players cannot directly harm each other here.
+RegionFlagArena					010000	// pvp is allowed, no murder or criminal acts are taken in count.
+
+
+[EOF]

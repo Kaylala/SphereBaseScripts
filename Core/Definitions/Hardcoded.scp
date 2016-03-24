@@ -1,0 +1,13 @@
+[DefName HARDCODED]
+DefaultItem		iGold // If we cannot create the item, make it this.
+DefaultChar		cHumanMale // If we cannot create the char, make it this.
+DefaultSeed		iGold // When we make a seed, make it look like this.
+DefaultMsg		iGold // When we make a bulletin board post, use this item.
+Guards			{cHMGuard 1 cHFGuard 1}
+DefDood			{iGrapeBunch 1 iHam 1 iCheese 1 iMuffin 1 iCookedFishSteak 1 iCookedRibs 1 iCookedBird 1 iSausages 1 iApple 1 iPeach 1}
+
+//These ones can have multiple words seperated by a ','
+GuardCall		GUARD,GUARDS
+
+
+[EOF]

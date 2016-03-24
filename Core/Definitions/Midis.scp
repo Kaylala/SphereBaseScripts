@@ -1,0 +1,111 @@
+[DefName midis]
+// midi music defs
+MidiOldult01			0	//loop
+MidiCreate			1	//loop
+MidiDragflit			2	//loop
+MidiOldult02			3	//loop
+MidiOldult03			4	//loop
+MidiOldult04			5	//loop
+MidiOldult05			6	//loop
+MidiOldult06			7	//loop
+MidiStones1			8
+MidiBritain1			9	//loop
+MidiBritain2			10
+MidiBuccaneersDen			11	//loop
+MidiJhelom			12
+MidiLBCastle			13
+MidiLinelle			14
+MidiMagincia			15	//loop
+MidiMinoc			16	//loop
+MidiOcllo			17	//loop
+MidiSamlethe			18	//loop
+MidiSerpents			19
+MidiSkaraBrae			20	//loop
+MidiTrinsic			21	//loop
+MidiVesper			22
+MidiWind			23
+MidiYew				24	//loop
+MidiCave01			25
+MidiDungeon9			26	//loop
+MidiForestA			27	//loop
+MidiInTown01			28	//loop
+MidiJungleA			29	//loop
+MidiMountainA			30	//loop
+MidiPlains			31	//loop
+MidiSailing			32
+MidiSwampA			33	//loop
+MidiTavern01			34
+MidiTavern02			35
+MidiTavern03			36
+MidiTavern04			37	//loop
+MidiCombat1			38	//loop
+MidiCombat2			39	//loop
+MidiCombat3			40	//loop
+MidiApproach			41	//loop
+MidiDeath			42
+MidiVictory			43
+MidiBtCastle			44
+MidiNujelm			45
+MidiDungeon2			46	//loop
+MidiCove			47	//loop
+MidiMoonglow			48	//loop
+//Samurai Empire
+MidiZento			49	//loop
+MidiTokunoDungeon		50	//loop
+MidiTaiko			51	//loop
+//Mondain's Legacy
+MidiDreadHornArea		52	//loop
+MidiElfCity1			53	//loop
+MidiGrizzleDungeon		54	//loop
+MidiMelisandesLair		55	//loop
+MidiParoxysmusLair		56	//loop
+MidiGwennoConversation		57
+MidiGoodEndGame			58
+MidiGoodVsEvil			59
+MidiGreatEarthSerpents		60
+MidiHumanoids			61
+MidiMinocNegative		62
+MidiPaws			63
+MidiSelimsBar			64
+MidiSerpentIsleCombat		65
+MidiValoriaShips		66
+MidiTheWanderer			67
+MidiCastle			68
+MidiFestival			69
+MidiHonor			70
+MidiMedieval			71
+MidiBattleOnStones		72
+MidiDocktown			73
+MidiGargoyleQueen		74
+MidiGenericCombat		75
+MidiHolyCity			76
+MidiHumanLevel			77
+MidiLoginLoop			78	//loop
+MidiForestStones		79
+MidiPrimevalLich		80
+MidiQueenPalace			81
+MidiRoyalCity			82
+MidiSlasherVeil		83
+MidiStygianAbyss		84
+MidiStygianDragon		85
+MidiVoid			86
+MidiCodexShrine			87
+//High Seas
+MidiAnvilStrikeInMinoc		88
+MidiASkaranLullaby		89
+MidiBlackthornsMarch		90
+MidiDupresNightInTrinsic	91
+MidiFayaxionAndTheSix		92
+MidiFlightOfTheNexus		93
+MidiGalehavenJaunt		94
+MidiJhelomToArms		95
+MidiMidnightInYew		96
+MidiMoonglowSonata		97
+MidiNewMaginciaMarch		98
+MidiNujelmWaltz			99
+MidiSherrysSong			100
+MidiStarlightInBritain		101
+MidiTheVesperMist		102
+
+
+[EOF]

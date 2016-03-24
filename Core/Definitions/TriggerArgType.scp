@@ -1,0 +1,7 @@
+[DefName Trigger_ArgType]
+TAT_AS_ArgN   1	// Treat the arguments as ARGN1/2/3
+TAT_AS_ArgS   2	// Treat the arguments as ARGS (with ARGV[x] enabled)
+TAT_AS_ArgO   3	// Treat the arguments as ARGO
+
+
+[EOF]

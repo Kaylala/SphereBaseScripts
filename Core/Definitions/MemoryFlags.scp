@@ -1,0 +1,17 @@
+[DefName mem_flags]
+memory_sawcrime				00001   // i saw them commit a crime or i was attacked criminally. i can call the guards on them.
+memory_iPet					00002   // i am a pet. (this link is my master) (never time out)
+memory_Fight				00004   // active fight going on now. may not have done any damage.
+memory_iAggressor			00008   // i was the agressor here. (good or evil)
+memory_HarmedBy	00010   // i was attacked by them. (but they may have been retaliating)
+memory_IrritatedBy   00020   // i saw them snoop from me or someone.
+memory_Speak	   00040   // we spoke about something at some point. (or was tamed) (npc_mem_act_type)
+memory_Aggreived     00080   // i was attacked and was the inocent party here !
+memory_Guard	   00100   // guard this item (never time out)
+memory_iSpawned	00200   // UNUSED!!!! i am spawned from this item. (never time out)
+memory_Guild	   00400   // this is my guild stone. (never time out)
+memory_Town	    00800   // this is my town stone. (never time out)
+memory_Follow	  01000   // UNUSED!!!! i am following this object (never time out)
+memory_War_Targ	02000   // this is one of my current war targets.
+memory_Friend	  04000
+memory_GumpRecord    08000   // UNUSED!!!! i've a gump opened TAG.DIALOG_NAME contain the name of the gump

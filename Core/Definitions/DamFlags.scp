@@ -1,0 +1,21 @@
+[DefName Dam_Flags]
+DamGod						00001   // unblockable "god" damage
+DamPhysical					00002   // some sort of physical damage (as opposed to magical)
+DamMagic					00004   // some sort of magical damage
+DamPoison					00008   // poison-based damage
+DamFire						00010   // fire-based damage
+DamEnergy					00020   // energy-based damage
+DamGeneral					00080   // damage that hits the entire body, rather than just one part of it
+DamAcid						00100   // acidic damage (will destroy armor)
+DamCold						00200   // cold-based damage
+DamSlash					00400   // damage done by slashing (swords, etc)
+DamPierce					00800   // damage done with spear and such.
+DamNoDisturb				02000   // victim won't be disturbed
+DamNoReveal					04000   // damage that does not reveal the attacker.
+DamNoUnparalyze				08000   // victim won't be unparalyzed
+DamFixed					010000	// Wont be recalculated with default checks (Won't lower due to Armor or Res*)
+DamBlunt					020000	// Mace damage
+DamAll						02|08|010|020|0200
+
+
+[EOF]

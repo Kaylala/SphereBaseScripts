@@ -1,0 +1,60 @@
+[DefName Mount_items]
+// This contain the list of the Mount/Mountid the format is:
+// Mount_0x<dispid hex> <Mount itemid hex>
+// ---------------------------------------------------------
+// PreT2A
+Mount_0xc8		03e9f	// horse 1
+Mount_0xe2		03ea0	// horse 2
+Mount_0xe4		03ea1	// horse 3
+Mount_0xcc		03ea2	// horse 4
+// T2A
+Mount_0xd2		03ea3	// desert ostard
+Mount_0xda		03ea4	// frenzied ostard
+Mount_0xdb		03ea5	// forest ostard
+Mount_0xdc		03ea6	// llama
+// LBR
+Mount_0xa9		03e95	// fire beetle
+Mount_0xc3		03e97	// ethereal beetle
+Mount_0xc2		03e98	// ethereal swamp dragon
+Mount_0xc1		03e9a	// ethereal ridgeback
+Mount_0xc0		03e9b	// ethereal unicorn
+Mount_0xbf		03e9c	// ethereal kirin
+Mount_0xbe		03e9e	// fire steed
+Mount_0x74		03ea7	// nightmare
+Mount_0x75		03ea8	// silver steed
+Mount_0xb2		03ea9	// unknown mare
+Mount_0x73		03eaa	// ethereal horse
+Mount_0xaa		03eab	// ethereal llama
+Mount_0xab		03eac	// ethereal ostard
+Mount_0x84		03ead	// kirin
+Mount_0x78		03eaf	// minax warhorse
+Mount_0x79		03eb0	// shadowlord warhorse
+Mount_0x77		03eb1	// magecounsil warhorse
+Mount_0x76		03eb2	// britannian warhorse
+Mount_0x90		03eb3	// seahorse
+Mount_0x7a		03eb4	// unicorn
+Mount_0xb1		03eb5	// dread warhorse
+Mount_0x72		03eb6	// dark steed
+Mount_0xb3		03eb7	// unknown mare 2
+Mount_0xbb		03eb8	// ridgeback
+Mount_0xbc		03eba	// savage ridgeback
+Mount_0x319		03ebb	// skeletal Mount
+Mount_0x317		03ebc	// beetle
+Mount_0x31a		03ebd	// swamp dragon
+Mount_0x31f		03ebe	// armored swamp dragon
+// AOS
+// SE
+Mount_0xf3		03e94	// hiryu
+// ML
+Mount_0x11c		03e92	// armored steed (Mondains Steed, Charger of the Fallen)
+Mount_0x115		03e91	// cu sidhe
+Mount_0x114		03e90	// reptalon
+Mount_0xd5		03ec5	// polar bear (veteran's award)
+// SA
+Mount_0x1b0		03ec6	// armored boura
+Mount_0x4e6		03ec7	// Tiger
+Mount_0x4e7		03ec8	// Ethereal Tiger
+Mount_0x42D		03EC9	// Ancient Hell Hound
+
+
+[EOF]

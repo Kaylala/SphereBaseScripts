@@ -1,0 +1,23 @@
+[DefName can_flags]
+// monster "can" type flags.
+CanMale				000000
+CanGhost			000001   // Moves through doors
+CanSwim				000002   // Moves on water
+CanWalk				000004   // Can walk on land
+CanPassWalls			000008   // Walk through walls
+CanFly				000010
+CanFireImmune   		000020
+CanNoIndoors			000040   // Can't go under roof
+CanHover			000080   // Hovers (can follow gargoyle flight paths)
+CanEquip			000100
+CanUseHands			000200
+CanMount			000400   // can ride Mountables
+CanFemale			000800
+CanNonHum			001000   // Body type for combat messages
+CanRun				002000
+CanNoDClickLoS			004000   // when dclicking sth., ignore LOS checks
+CanNoDClickDist			008000   // when dclicking sth., ignore distance checks
+CanNonMover			010000	// Stay in place, no move at all
+
+
+[EOF]

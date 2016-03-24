@@ -1,0 +1,7 @@
+[DefName Swing_Types]
+WAR_SWING_EQUIPPING		= 00 // we are recoiling our weapon.
+WAR_SWING_READY			= 01 // we can swing at any time.
+WAR_SWING_SWINGING		= 02 // we are swinging our weapon.
+
+
+[EOF]

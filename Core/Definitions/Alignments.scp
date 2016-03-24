@@ -1,0 +1,19 @@
+[DefName alignments]
+// ranges of karma ?
+Evil				{-10000 -6001}
+Chaotic		   		{-6000 -2001}
+Good				{2000 10000}
+Wicked				{-10000 -6001}
+Belligerent			{-6000 -2001}
+Neutral				{-2000 1999}
+Kindly				{2000 5999}
+GoodHearted			{6000 10000}
+
+Infamous			{-10000 -6001}
+Outlaw				{-6000 -2001}
+Anonymous			{-2000 1999}
+Known				{2000 5999}
+Famous				{6000 10000}
+
+
+[EOF]

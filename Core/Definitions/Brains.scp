@@ -1,0 +1,15 @@
+[DefName brains]
+BrainNone					0
+BrainAnimal					1
+BrainHuman					2
+BrainHealer					3
+BrainGuard					4
+BrainBanker					5
+BrainVendor					6
+BrainAnimalTrainer			7
+BrainMonster				8
+BrainBerserk				9
+BrainDragon					10
+
+
+[EOF]

@@ -29,7 +29,7 @@ As a general rule:
 [RESOURCES]
 // sphere.ini and spheretable.scp are automatic.
 // All the other Scripts we want to load.
-Scripts/SphereDefinitionsDefinitions.scp        // SHOULD LOAD FIRST.
+Scripts/Core/Definitions/        // SHOULD LOAD FIRST. (Used to be Sphere_Defs.scp)
 Scripts/SphereTypes.scp		// SECOND. Terrain types are important.
 Scripts/Core/Events/		// We process Event triggers here.
 Scripts/Core/				// Core Files (Events, TypeDefs, and Functions)

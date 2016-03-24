@@ -1,0 +1,62 @@
+[DefName Hues]
+TextHue						-1
+None						0
+RedHue1						32
+RedHue2						33
+CyanHue						88
+DarkGrayHue					802
+EnergyVortexHue				118
+LightGrayHue				904
+DyeHighHue					1000   // highest dyeable hue = 1001
+IceHue						1152
+SnowHue						1153
+RockHue						1154
+SpectralHue					16385
+
+SpinedHue					08ac
+HornedHue					0845
+BarbedHue					0851
+
+MagicWeaponHue				0
+MagicShieldHue				0
+MagicArmorHue				0
+
+MagicDefenseHue				1650
+MagicGuardingHue			1430
+MagicHardeningHue			1353
+MagicFortificationHue		1805
+MagicInvulnerabilityHue		1887
+
+[DefName hues_range]
+HuesAll						{2 1001}
+HumanSkinHues				{1002 1058}
+HairHues					{1102 1149}
+PinkHues					{1201 1254}
+BlueHues					{1301 1354}
+GreenHues					{1401 1454}
+OrangeHues					{1501 1554}
+RedHues						{1601 1654}
+YellowHues					{1701 1754}
+NeutralHues					{1801 1908}
+SnakeHues					{2001 2018}
+BirdHues					{2101 2130}
+SlimeHues					{2201 2224}
+AnimalHues					{2301 2318}
+MetalHues					{2401 2430}
+
+BrightHues					{062 1 071 1 03 9 0d 9 013 9 01c 9 021 9 030 9 037 9 03a 9 044 9 059 9}
+StoneHues					{2498 1 2500 1 {2671 2706} 1}
+GargoyleSkinHues			{1755 1779}
+WhiteHue					2301
+BlackHue					2305
+BrownHues					{1110 1116}
+GrayHues					{946 947}
+DemonHues					{ 1106 1110 }
+WyrmHues					{ 0 1 { 1105 1110 } 1 { 34 39 } 1 }
+RedDragonHues				{ hRedHue1 1 hRedHue2 1 }
+BloodHues					{ 33 38 }
+LavaHues					{ { 32 34 } 1 { 53 55 } 1 { 43 45 } 1 }
+PoisonHues					{ 61 79 }
+
+
+[EOF]

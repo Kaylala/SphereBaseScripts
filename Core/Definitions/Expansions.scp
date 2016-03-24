@@ -1,0 +1,14 @@
+[DefName Expansions]
+Expansion_T2A			= 00
+Expansion_Renaissance	= 01
+Expansion_ThirdDawn		= 02
+Expansion_LBR			= 04
+Expansion_AOS			= 010
+Expansion_SE			= 020
+Expansion_ML			= 040
+Expansion_SA			= 080
+Expansion_HS			= 0100
+Expansion_ToL			= 0200
+
+
+[EOF]

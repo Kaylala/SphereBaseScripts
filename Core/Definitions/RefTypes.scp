@@ -1,0 +1,23 @@
+[DefName Ref_Types]
+TRefServ				000001
+TRefFile				000002
+TRefNewFile				000004
+TRefDB					000008
+TRefResDef				000010
+TRefResBase				000020
+TRefFunctionArgS		000040
+TRefFileObj				000080
+TRefFileObjCont			000100
+TRefAccount				000200
+TRefStoneMember			000800
+TRefServerDef  			001000
+TRefSector				002000
+TRefWorld				004000
+TRefGmPage				008000
+TRefClient				010000
+TRefObject				020000
+TRefChar				040000
+TRefItem				080000
+
+
+[EOF]

@@ -1,0 +1,12 @@
+[DefName Noto_Types]
+NotoGood			1
+NotoSameGuild			2
+NotoNeutral			3
+NotoCriminal			4
+NotoWarringGuild		5
+NotoEvil			6
+NotoInvul			7
+NotoAlliedGuild			8
+
+
+[EOF]

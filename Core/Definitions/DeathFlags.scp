@@ -1,0 +1,9 @@
+[DefName Death_Flags]
+DeathNoFameChange		001
+DeathNoCorpse			002
+DeathNoLootDrop			004
+DeathNoConjuredEffect		008
+DeathHasCorpse			010
+
+
+[EOF]

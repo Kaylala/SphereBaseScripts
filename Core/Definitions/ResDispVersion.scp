@@ -1,0 +1,15 @@
+[DefName ResDisp_Version]
+// 'ResDisp' is a property of the user 'Account'
+RDS_PRET2A		0
+RDS_T2A			1
+RDS_LBR			2
+RDS_AOS			3
+RDS_SE			4
+RDS_ML			5
+RDS_KR			6
+RDS_SA			7
+RDS_HS			8
+RDS_TOL			9
+
+
+[EOF]

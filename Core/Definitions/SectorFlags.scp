@@ -1,0 +1,6 @@
+[DefName sector_flags]
+secf_nosleep	01 //sector will never sleep, this flag take over secf_instasleep
+secf_instasleep	02 //sector will sleep as soon as there is no active client inside
+
+
+[EOF]

@@ -1,0 +1,13 @@
+[DefName Profession_IDs]
+// ArgN2 in f_oncreate_char
+Prof_Unknown		0
+Prof_Warrior		1
+Prof_Mage			2
+Prof_Blacksmith		3
+Prof_Necromancer	4
+Prof_Paladin		5
+Prof_Samurai		6
+Prof_Ninja			7
+
+
+[EOF]

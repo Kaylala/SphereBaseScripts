@@ -1,0 +1,9 @@
+[DefName def_gumps]
+// name the gumps.
+g_btn_green_ok	     081a
+g_btn_green_ok_press     081b
+g_btn_gray_apply	   5204
+g_btn_gray_apply_press   5205
+
+
+[EOF]

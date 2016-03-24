@@ -1,0 +1,16 @@
+// CanUse flags
+// Uses new internal variable CanUse. Script for this is in the addon's folder in the script pack.
+// Used on items for checks or npcs (Mounts, golems, etc)
+[DefName CanUseFlags]
+CanUAll					0
+CanUAllGenders			01|02
+CanUAllRaces			04|08|010
+CanUFemale				01
+CanUMale				02
+CanUHuman				04
+CanUElf					08
+CanUGargoyle			010
+CanUNone				020
+
+
+[EOF]

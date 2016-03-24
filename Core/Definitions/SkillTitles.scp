@@ -1,0 +1,15 @@
+[DefName Skill_Titles]
+// Skill ranges for the titles
+SKILLTITLE_NEOPHYTE		300	// this skill lever or higher applies this skilltitle (until a greater one is reached)
+SKILLTITLE_NOVICE		400
+SKILLTITLE_APPRENTICE	500
+SKILLTITLE_JOURNEYMAN	600
+SKILLTITLE_EXPERT		700
+SKILLTITLE_ADEPT		800
+SKILLTITLE_MASTER		900
+SKILLTITLE_GRANDMASTER	1000
+SKILLTITLE_ELDER		1100	// This works with the normal skills and Bushido/Ninjitsu too.
+SKILLTITLE_LEGENDARY	1200	// Same here
+
+
+[EOF]

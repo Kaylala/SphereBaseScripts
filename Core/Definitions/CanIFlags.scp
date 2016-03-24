@@ -1,0 +1,31 @@
+[DefName Can_I_Flags]
+CanIDoor				000001		// is a door uflag4_door
+CanIWater				000002		// need to swim in it. uflag1_water
+CanIPlatform			000004		// we can walk on top of it. (even tho the item itself might block) uflag2_platform
+CanIBlock				000008		// need to walk thru walls or fly over. uflag1_block
+CanIClimb				000010		// step up on it, uflag2_climbable
+CanIFire				000020		// is a fire. ussually blocks as well. uflag1_damage
+CanIRoof				000040		// we are under a roof. can't rain on us. uflag4_roof
+CanIHover				000080		// we are hovering. uflag4_hoverover
+CanIStack				000100		// can item be piled uflag2_stackable (*.mul)
+CanIDye					000200		// can item be dyed uflag3_cloth? (sort of)
+CanIFlip				000400		// will flip by default.
+CanILight				000800		// uflag3_light
+CanIRepair				001000		// is it repairable (difficulty based on value)
+CanIReplicate			002000		// things like arrows are pretty much all the same.
+CanIDCIgnoreLoS			004000		// when dclicked, ignore los checks
+CanIDCIgnoreDist		008000		// when dclicked, ignore distance checks
+CanIBlockLoS			010000		// blocks los, but not walking thru
+CanIExceptional			020000		// can items be exceptional
+CanIMakersMark			040000		// can items hold makers mark
+CanIRetainColor			080000		// can items retain material Colors
+CanIEnhance				0100000		// can items be enhanced (runic)
+CanIImbue				0200000		// can items be imbued (imbuing)
+CanIRecycle				0400000		// Can be recycled
+CanIReforge				0800000		// Can be Runic Reforged.
+CanIForceDC				01000000	// Items with this flag won't perform checks before @DClick trigger.
+CanIRegenHits			02000000	// Can Regen Hits
+CanIRegenStam			04000000	// Can Regen Stam.
+CanIRegenMana			08000000	// Can Regen Mana.
+CanIPowder				010000000	// Can be powdered (iFortificationPowder)
+
