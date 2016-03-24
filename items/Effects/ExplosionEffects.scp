@@ -1,0 +1,169 @@
+[ItemDef 036b0]
+DefName=iFxExplode
+Type=tFire
+DupeList=036b1,036b2,036b3,036b4,036b5,036b6,036b7,036b8,036b9,036ba,036bb,036bc
+
+Category=Effects
+Subsection=Explosions
+Description=Explosion 1
+
+[ItemDef 036b1]
+DupeItem=036b0
+
+[ItemDef 036b2]
+DupeItem=036b0
+
+[ItemDef 036b3]
+DupeItem=036b0
+
+[ItemDef 036b4]
+DupeItem=036b0
+
+[ItemDef 036b5]
+DupeItem=036b0
+
+[ItemDef 036b6]
+DupeItem=036b0
+
+[ItemDef 036b7]
+DupeItem=036b0
+
+[ItemDef 036b8]
+DupeItem=036b0
+
+[ItemDef 036b9]
+DupeItem=036b0
+
+[ItemDef 036ba]
+DupeItem=036b0
+
+[ItemDef 036bb]
+DupeItem=036b0
+
+[ItemDef 036bc]
+DupeItem=036b0
+
+
+[ItemDef 036bd]
+DefName=iFxExplosion2
+Type=tFire
+DupeList=036be,036bf,036c0,036c1,036c2,036c3,036c4,036c5,036c6,036c7,036c8,036c9
+
+Category=Effects
+Subsection=Explosions
+Description=Explosion 2
+
+[ItemDef 036be]
+DupeItem=036bd
+
+[ItemDef 036bf]
+DupeItem=036bd
+
+[ItemDef 036c0]
+DupeItem=036bd
+
+[ItemDef 036c1]
+DupeItem=036bd
+
+[ItemDef 036c2]
+DupeItem=036bd
+
+[ItemDef 036c3]
+DupeItem=036bd
+
+[ItemDef 036c4]
+DupeItem=036bd
+
+[ItemDef 036c5]
+DupeItem=036bd
+
+[ItemDef 036c6]
+DupeItem=036bd
+
+[ItemDef 036c7]
+DupeItem=036bd
+
+[ItemDef 036c8]
+DupeItem=036bd
+
+[ItemDef 036c9]
+DupeItem=036bd
+
+[ItemDef 036ca]
+DefName=iFxExplosion3
+Type=tFire
+DupeList=036cb,036cc,036cd,036ce,036cf,036d0,036d1,036d2,036d3
+
+Category=Effects
+Subsection=Explosions
+Description=Explosion 3
+
+[ItemDef 036cb]
+DupeItem=036ca
+
+[ItemDef 036cc]
+DupeItem=036ca
+
+[ItemDef 036cd]
+DupeItem=036ca
+
+[ItemDef 036ce]
+DupeItem=036ca
+
+[ItemDef 036cf]
+DupeItem=036ca
+
+[ItemDef 036d0]
+DupeItem=036ca
+
+[ItemDef 036d1]
+DupeItem=036ca
+
+[ItemDef 036d2]
+DupeItem=036ca
+
+[ItemDef 036d3]
+DupeItem=036ca
+
+
+[ItemDef 036fe]
+DefName=iFxExplodeBall
+Type=tFire
+DupeList=036ff,03700,03701,03702,03703,03704,03705,03706,03707,03708
+
+Category=Effects
+Subsection=Explosion Ball
+Description=@
+
+[ItemDef 036ff]
+DupeItem=036fe
+
+[ItemDef 03700]
+DupeItem=036fe
+
+[ItemDef 03701]
+DupeItem=036fe
+
+[ItemDef 03702]
+DupeItem=036fe
+
+[ItemDef 03703]
+DupeItem=036fe
+
+[ItemDef 03704]
+DupeItem=036fe
+
+[ItemDef 03705]
+DupeItem=036fe
+
+[ItemDef 03706]
+DupeItem=036fe
+
+[ItemDef 03707]
+DupeItem=036fe
+
+[ItemDef 03708]
+DupeItem=036fe
+
+
+[EOF]

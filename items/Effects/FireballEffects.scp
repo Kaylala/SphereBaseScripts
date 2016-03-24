@@ -1,0 +1,179 @@
+[ItemDef 0f53]
+DefName=iFireball
+Type=tFire
+DupeList=0f54,0f55,0f56,0f57,0f58,0f59,0f5a,0f5b
+
+Category=Effects
+Subsection=Spells
+Description=Red Fireball
+
+ON=@Create
+MoreZ=1
+
+[ItemDef 0f54]
+DupeItem=0f53
+
+[ItemDef 0f55]
+DupeItem=0f53
+
+[ItemDef 0f56]
+DupeItem=0f53
+
+[ItemDef 0f57]
+DupeItem=0f53
+
+[ItemDef 0f58]
+DupeItem=0f53
+
+[ItemDef 0f59]
+DupeItem=0f53
+
+[ItemDef 0f5a]
+DupeItem=0f53
+
+[ItemDef 0f5b]
+DupeItem=0f53
+
+
+[ItemDef 036d4]
+DefName=iFxFireball
+Type=tFire
+DupeList=036d5,036d6,036d7,036d8,036d9,036da,036db,036dc,036dd,036de,036df,036e0,036e1,036e2,036e3
+
+Category=Effects
+Subsection=Large Fireball
+Description=@
+
+[ItemDef 036d5]
+DupeItem=036d4
+
+[ItemDef 036d6]
+DupeItem=036d4
+
+[ItemDef 036d7]
+DupeItem=036d4
+
+[ItemDef 036d8]
+DupeItem=036d4
+
+[ItemDef 036d9]
+DupeItem=036d4
+
+[ItemDef 036da]
+DupeItem=036d4
+
+[ItemDef 036db]
+DupeItem=036d4
+
+[ItemDef 036dc]
+DupeItem=036d4
+
+[ItemDef 036dd]
+DupeItem=036d4
+
+[ItemDef 036de]
+DupeItem=036d4
+
+[ItemDef 036df]
+DupeItem=036d4
+
+[ItemDef 036e0]
+DupeItem=036d4
+
+[ItemDef 036e1]
+DupeItem=036d4
+
+[ItemDef 036e2]
+DupeItem=036d4
+
+[ItemDef 036e3]
+DupeItem=036d4
+
+
+[ItemDef 036e4]
+DefName=iFxFireballSmall
+Type=tFire
+DupeList=036e5,036e6,036e7,036e8,036e9,036ea,036eb,036ec,036ed,036ee,036ef,036f0,036f1,036f2,036f3
+
+Category=Effects
+Subsection=Small Fireball
+Description=@
+
+[ItemDef 036e5]
+DupeItem=036e4
+
+[ItemDef 036e6]
+DupeItem=036e4
+
+[ItemDef 036e7]
+DupeItem=036e4
+
+[ItemDef 036e8]
+DupeItem=036e4
+
+[ItemDef 036e9]
+DupeItem=036e4
+
+[ItemDef 036ea]
+DupeItem=036e4
+
+[ItemDef 036eb]
+DupeItem=036e4
+
+[ItemDef 036ec]
+DupeItem=036e4
+
+[ItemDef 036ed]
+DupeItem=036e4
+
+[ItemDef 036ee]
+DupeItem=036e4
+
+[ItemDef 036ef]
+DupeItem=036e4
+
+[ItemDef 036f0]
+DupeItem=036e4
+
+[ItemDef 036f1]
+DupeItem=036e4
+
+[ItemDef 036f2]
+DupeItem=036e4
+
+[ItemDef 036f3]
+DupeItem=036e4
+
+
+[ItemDef 046e6]
+DefName=iFxFireballYellow
+Type=tFire
+DupeList=046e7,046e8
+
+Category=Effects
+Subsection=Fireballs
+Description=Yellow Fireball
+
+[ItemDef 046e7]
+DupeItem=046e6
+
+[ItemDef 046e8]
+DupeItem=046e6
+
+[ItemDef 046e9]
+DefName=iFxFireballBlue
+Type=tFire
+DupeList=046ea,046eb
+
+Category=Effects
+Subsection=Fireballs
+Description=Blue Fireball
+
+[ItemDef 046ea]
+DupeItem=046e9
+
+[ItemDef 046eb]
+DupeItem=046e9
+
+
+[EOF]

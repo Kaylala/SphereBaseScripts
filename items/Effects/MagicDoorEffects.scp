@@ -1,0 +1,132 @@
+[ItemDef 01ed9]
+DefName=iBlueMagicDoorS
+DupeList=01eda,01edb,01edc,01edd,01ede,01edf,01ee0,01ee1
+Category=Effects
+Subsection=Magic Doors
+Description=Magic Door (blue - south)
+
+[ItemDef 01eda]
+DupeItem=01ed9
+
+[ItemDef 01edb]
+DupeItem=01ed9
+
+[ItemDef 01edc]
+DupeItem=01ed9
+
+[ItemDef 01edd]
+DupeItem=01ed9
+
+[ItemDef 01ede]
+DupeItem=01ed9
+
+[ItemDef 01edf]
+DupeItem=01ed9
+
+[ItemDef 01ee0]
+DupeItem=01ed9
+
+[ItemDef 01ee1]
+DupeItem=01ed9
+
+
+[ItemDef 01ee2]
+DefName=iGreyMagicDoorS
+DupeList=01ee3,01ee4,01ee5,01ee6,01ee7,01ee8,01ee9,01eea
+
+Category=Effects
+Subsection=Magic Doors
+Description=Magic Door (grey - south)
+
+[ItemDef 01ee3]
+DupeItem=01ee2
+
+[ItemDef 01ee4]
+DupeItem=01ee2
+
+[ItemDef 01ee5]
+DupeItem=01ee2
+
+[ItemDef 01ee6]
+DupeItem=01ee2
+
+[ItemDef 01ee7]
+DupeItem=01ee2
+
+[ItemDef 01ee8]
+DupeItem=01ee2
+
+[ItemDef 01ee9]
+DupeItem=01ee2
+
+[ItemDef 01eea]
+DupeItem=01ee2
+
+
+[ItemDef 01eeb]
+DefName=iBlueMagicDoorE
+DupeList=01eec,01eed,01eee,01eef,01ef0,01ef1,01ef2,01ef3
+
+Category=Effects
+Subsection=Magic Doors
+Description=Magic Door (blue - East)
+
+[ItemDef 01eec]
+DupeItem=01eeb
+
+[ItemDef 01eed]
+DupeItem=01eeb
+
+[ItemDef 01eee]
+DupeItem=01eeb
+
+[ItemDef 01eef]
+DupeItem=01eeb
+
+[ItemDef 01ef0]
+DupeItem=01eeb
+
+[ItemDef 01ef1]
+DupeItem=01eeb
+
+[ItemDef 01ef2]
+DupeItem=01eeb
+
+[ItemDef 01ef3]
+DupeItem=01eeb
+
+
+[ItemDef 01ef4]
+DefName=iGreyMagicDoorE
+DupeList=01ef5,01ef6,01ef7,01ef8,01ef9,01efa,01efb,01efc
+
+Category=Effects
+Subsection=Magic Doors
+Description=Magic Door (grey - East)
+
+[ItemDef 01ef5]
+DupeItem=01ef4
+
+[ItemDef 01ef6]
+DupeItem=01ef4
+
+[ItemDef 01ef7]
+DupeItem=01ef4
+
+[ItemDef 01ef8]
+DupeItem=01ef4
+
+[ItemDef 01ef9]
+DupeItem=01ef4
+
+[ItemDef 01efa]
+DupeItem=01ef4
+
+[ItemDef 01efb]
+DupeItem=01ef4
+
+[ItemDef 01efc]
+DupeItem=01ef4
+
+
+[EOF]

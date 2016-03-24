@@ -1,0 +1,79 @@
+[ItemDef 037b9]
+DefName=iFxGlow
+Type=tSpell
+DupeList=037ba,037bb,037bc,037bd
+
+Category=Effects
+Subsection=Glow 1
+Description=@
+
+[ItemDef 037ba]
+DupeItem=037b9
+
+[ItemDef 037bb]
+DupeItem=037b9
+
+[ItemDef 037bc]
+DupeItem=037b9
+
+[ItemDef 037bd]
+DupeItem=037b9
+
+
+[ItemDef 037be]
+DefName=iFxGlow2
+Type=tSpell
+DupeList=037bf,037c0,037c1,037c2,037c3
+
+Category=Effects
+Subsection=Glow 2
+Description=@
+
+[ItemDef 037bf]
+DupeItem=037be
+
+[ItemDef 037c0]
+DupeItem=037be
+
+[ItemDef 037c1]
+DupeItem=037be
+
+[ItemDef 037c2]
+DupeItem=037be
+
+[ItemDef 037c3]
+DupeItem=037be
+
+
+[ItemDef 037c4]
+DefName=iFxGlowSpike
+Type=tSpell
+DupeList=037c5,037c6,037c7,037c8,037c9,037ca,037cb
+
+Category=Effects
+Subsection=Glow 3
+Description=@
+
+[ItemDef 037c5]
+DupeItem=037c4
+
+[ItemDef 037c6]
+DupeItem=037c4
+
+[ItemDef 037c7]
+DupeItem=037c4
+
+[ItemDef 037c8]
+DupeItem=037c4
+
+[ItemDef 037c9]
+DupeItem=037c4
+
+[ItemDef 037ca]
+DupeItem=037c4
+
+[ItemDef 037cb]
+DupeItem=037c4
+
+
+[EOF]

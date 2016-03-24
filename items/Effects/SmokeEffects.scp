@@ -1,0 +1,69 @@
+[ItemDef 03728]
+DefName=iFxSmoke
+Type=tSpell
+DupeList=03729,0372a,0372b,0372c,0372d,0372e,0372f,03730,03731,03732,03733,03734
+
+Category=Effects
+Subsection=Smoke
+Description=@
+
+[ItemDef 03729]
+DupeItem=03728
+
+[ItemDef 0372a]
+DupeItem=03728
+
+[ItemDef 0372b]
+DupeItem=03728
+
+[ItemDef 0372c]
+DupeItem=03728
+
+[ItemDef 0372d]
+DupeItem=03728
+
+[ItemDef 0372e]
+DupeItem=03728
+
+[ItemDef 0372f]
+DupeItem=03728
+
+[ItemDef 03730]
+DupeItem=03728
+
+[ItemDef 03731]
+DupeItem=03728
+
+[ItemDef 03732]
+DupeItem=03728
+
+[ItemDef 03733]
+DupeItem=03728
+
+[ItemDef 03734]
+DupeItem=03728
+
+
+[ItemDef 03735]
+DefName=iFxSmokeSmall
+Type=tSpell
+DupeList=03736,03737,03738,03739
+
+Category=Effects
+Subsection=Smoke Puff
+Description=@
+
+[ItemDef 03736]
+DupeItem=03735
+
+[ItemDef 03737]
+DupeItem=03735
+
+[ItemDef 03738]
+DupeItem=03735
+
+[ItemDef 03739]
+DupeItem=03735
+
+
+[EOF]

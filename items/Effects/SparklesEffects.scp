@@ -1,0 +1,393 @@
+[ItemDef 01153]
+DefName=iMagicalSparkles
+Type=tSpell
+DupeList=01154,01155,01156,01157,01158
+
+Category=Effects
+Subsection=Sparkles
+Description=Sparkle 1
+
+[ItemDef 01154]
+DupeItem=01153
+
+[ItemDef 01155]
+DupeItem=01153
+
+[ItemDef 01156]
+DupeItem=01153
+
+[ItemDef 01157]
+DupeItem=01153
+
+[ItemDef 01158]
+DupeItem=01153
+
+
+[ItemDef 01159]
+DefName=iFxMagicalSparkles2
+DupeList=0115a,0115b,0115c,0115d,0115e
+
+Category=Effects
+Subsection=Sparkles
+Description=Sparkle 2
+
+[ItemDef 0115a]
+DupeItem=01159
+
+[ItemDef 0115b]
+DupeItem=01159
+
+[ItemDef 0115c]
+DupeItem=01159
+
+[ItemDef 0115d]
+DupeItem=01159
+
+[ItemDef 0115e]
+DupeItem=01159
+
+
+[ItemDef 0373a]
+DefName=iFxBlessEffect
+Type=tSpell
+DupeList=0373b,0373c,0373d,0373e,0373f,03740,03741,03742,03743,03744,03745,03746,03747,03748,03749
+
+Category=Effects
+Subsection=Blue Sparkle
+Description=Blue Sparkle
+
+[ItemDef 0373b]
+DupeItem=0373a
+
+[ItemDef 0373c]
+DupeItem=0373a
+
+[ItemDef 0373d]
+DupeItem=0373a
+
+[ItemDef 0373e]
+DupeItem=0373a
+
+[ItemDef 0373f]
+DupeItem=0373a
+
+[ItemDef 03740]
+DupeItem=0373a
+
+[ItemDef 03741]
+DupeItem=0373a
+
+[ItemDef 03742]
+DupeItem=0373a
+
+[ItemDef 03743]
+DupeItem=0373a
+
+[ItemDef 03744]
+DupeItem=0373a
+
+[ItemDef 03745]
+DupeItem=0373a
+
+[ItemDef 03746]
+DupeItem=0373a
+
+[ItemDef 03747]
+DupeItem=0373a
+
+[ItemDef 03748]
+DupeItem=0373a
+
+[ItemDef 03749]
+DupeItem=0373a
+
+
+[ItemDef 0374a]
+DefName=iFxCurse
+Type=tSpell
+DupeList=0374b,0374c,0374d,0374e,0374f,03750,03751,03752,03753,03754,03755,03756,03757,03758,03759
+
+Category=Effects
+Subsection=Red Sparkles
+Description=Red Sparkle
+
+[ItemDef 0374b]
+DupeItem=0374a
+
+[ItemDef 0374c]
+DupeItem=0374a
+
+[ItemDef 0374d]
+DupeItem=0374a
+
+[ItemDef 0374e]
+DupeItem=0374a
+
+[ItemDef 0374f]
+DupeItem=0374a
+
+[ItemDef 03750]
+DupeItem=0374a
+
+[ItemDef 03751]
+DupeItem=0374a
+
+[ItemDef 03752]
+DupeItem=0374a
+
+[ItemDef 03753]
+DupeItem=0374a
+
+[ItemDef 03754]
+DupeItem=0374a
+
+[ItemDef 03755]
+DupeItem=0374a
+
+[ItemDef 03756]
+DupeItem=0374a
+
+[ItemDef 03757]
+DupeItem=0374a
+
+[ItemDef 03758]
+DupeItem=0374a
+
+[ItemDef 03759]
+DupeItem=0374a
+
+
+[ItemDef 0375a]
+DefName=iFxSparkle
+Type=tSpell
+DupeList=0375b,0375c,0375d,0375e,0375f,03760,03761,03762,03763,03764,03765,03766,03767,03768,03769
+
+Category=Effects
+Subsection=Blue/Gold Sparkle 1
+Description=Blue/Gold Sparkle 1
+
+[ItemDef 0375b]
+DupeItem=0375a
+
+[ItemDef 0375c]
+DupeItem=0375a
+
+[ItemDef 0375d]
+DupeItem=0375a
+
+[ItemDef 0375e]
+DupeItem=0375a
+
+[ItemDef 0375f]
+DupeItem=0375a
+
+[ItemDef 03760]
+DupeItem=0375a
+
+[ItemDef 03761]
+DupeItem=0375a
+
+[ItemDef 03762]
+DupeItem=0375a
+
+[ItemDef 03763]
+DupeItem=0375a
+
+[ItemDef 03764]
+DupeItem=0375a
+
+[ItemDef 03765]
+DupeItem=0375a
+
+[ItemDef 03766]
+DupeItem=0375a
+
+[ItemDef 03767]
+DupeItem=0375a
+
+[ItemDef 03768]
+DupeItem=0375a
+
+[ItemDef 03769]
+DupeItem=0375a
+
+
+[ItemDef 0376a]
+DefName=iFxHealEffect
+Type=tSpell
+DupeList=0376b,0376c,0376d,0376e,0376f,03770,03771,03772,03773,03774,03775,03776,03777,03778
+
+Category=Effects
+Subsection=Blue/Gold Sparkle 2
+Description=Blue/Gold Sparkle 2
+
+[ItemDef 0376b]
+DupeItem=0376a
+
+[ItemDef 0376c]
+DupeItem=0376a
+
+[ItemDef 0376d]
+DupeItem=0376a
+
+[ItemDef 0376e]
+DupeItem=0376a
+
+[ItemDef 0376f]
+DupeItem=0376a
+
+[ItemDef 03770]
+DupeItem=0376a
+
+[ItemDef 03771]
+DupeItem=0376a
+
+[ItemDef 03772]
+DupeItem=0376a
+
+[ItemDef 03773]
+DupeItem=0376a
+
+[ItemDef 03774]
+DupeItem=0376a
+
+[ItemDef 03775]
+DupeItem=0376a
+
+[ItemDef 03776]
+DupeItem=0376a
+
+[ItemDef 03777]
+DupeItem=0376a
+
+[ItemDef 03778]
+DupeItem=0376a
+
+
+[ItemDef 03779]
+DefName=iFxSparkle2
+Type=tSpell
+DupeList=0377a,0377b,0377c,0377d,0377e,0377f,03780,03781,03782,03783,03784,03785,03786,03787,03788
+
+Category=Effects
+Subsection=Blue/Purple Sparkle
+Description=Blue/Purple Sparkle
+
+[ItemDef 0377a]
+DupeItem=03779
+
+[ItemDef 0377b]
+DupeItem=03779
+
+[ItemDef 0377c]
+DupeItem=03779
+
+[ItemDef 0377d]
+DupeItem=03779
+
+[ItemDef 0377e]
+DupeItem=03779
+
+[ItemDef 0377f]
+DupeItem=03779
+
+[ItemDef 03780]
+DupeItem=03779
+
+[ItemDef 03781]
+DupeItem=03779
+
+[ItemDef 03782]
+DupeItem=03779
+
+[ItemDef 03783]
+DupeItem=03779
+
+[ItemDef 03784]
+DupeItem=03779
+
+[ItemDef 03785]
+DupeItem=03779
+
+[ItemDef 03786]
+DupeItem=03779
+
+[ItemDef 03787]
+DupeItem=03779
+
+[ItemDef 03788]
+DupeItem=03779
+
+
+[ItemDef 042cf]
+DefName=iFxSparkle3
+Type=tSpell
+DupeList=042d0,042d1,042d2,042d3,042d4,042d5,042d6,042d7,042d8,042d9,042da,042db,042dc,042dd,
+
+Category=Effects
+Subsection=Red Sparkles
+Description=Red Sparkle 2
+
+[ItemDef 042d0]
+DupeItem=042cf
+
+[ItemDef 042d1]
+DupeItem=042cf
+
+[ItemDef 042d2]
+DupeItem=042cf
+
+[ItemDef 042d3]
+DupeItem=042cf
+
+[ItemDef 042d4]
+DupeItem=042cf
+
+[ItemDef 042d5]
+DupeItem=042cf
+
+[ItemDef 042d6]
+DupeItem=042cf
+
+[ItemDef 042d7]
+DupeItem=042cf
+
+[ItemDef 042d8]
+DupeItem=042cf
+
+[ItemDef 042d9]
+DupeItem=042cf
+
+[ItemDef 042da]
+DupeItem=042cf
+
+[ItemDef 042db]
+DupeItem=042cf
+
+[ItemDef 042dc]
+DupeItem=042cf
+
+[ItemDef 042dd]
+DupeItem=042cf
+
+
+[ItemDef 05683]
+DefName=iFxSparkleHovering
+Type=tHoverover
+DupeList=05684,05685,05686
+
+Category=Effects
+Subsection=Sparkles
+Description=Sparkles (hovering)
+
+[ItemDef 05684]
+DupeItem=05683
+
+[ItemDef 05685]
+DupeItem=05683
+
+[ItemDef 05686]
+DupeItem=05683
+
+
+[EOF]
