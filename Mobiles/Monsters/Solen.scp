@@ -12,6 +12,7 @@ MaxFood=35
 Aversions=rCivilization
 Desires=tRawMeat,rSolenHive
 BloodColor=0
+TEvents=AISolenWorker
 
 Category=Animals
 Subsection=Solen: Red
@@ -48,10 +49,6 @@ Parrying=600
 
 On=@NPCRestock
 NewGold={125 175}
-
-On=@DeathCorpse
-NewItem=iZoogiFungus,{1 6}
-NewItem=iPicnicBasket,1,R19
 
 
 [CharDef 030E]
@@ -106,12 +103,6 @@ Parrying=800
 On=@NPCRestock
 NewGold={250 350}
 
-On=@DeathCorpse
-NewItem=iZoogiFungus,{3 13}
-NewItem=iPicnicBasket,1,R19
-NewItem=RandomCommonGem,{1 4}
-NewItem=iBraceletOfBinding,1
-
 
 [CharDef 030F]
 DefName=cRedSolenQueen
@@ -165,12 +156,6 @@ Parrying=900
 On=@NPCRestock
 NewGold={400 500}
 
-On=@DeathCorpse
-NewItem=iZoogiFungus,{5 25}
-NewItem=iPicnicBasket,1,R19
-NewItem=iBallOfPetSummoning,1,R19
-NewItem=iBraceletOfBinding,1,R19
-
 
 [CharDef 0324]
 DefName=cRedSolenMatriarch
@@ -186,6 +171,7 @@ MaxFood=35
 Aversions=rCivilization
 Desires=tRawMeat,rSolenHive
 BloodColor=0
+TEvents=AISolenQueen
 
 Category=Animals
 Subsection=Solen: Red
@@ -223,12 +209,6 @@ Parrying=900
 On=@NPCRestock
 NewGold={400 500}
 
-On=@DeathCorpse
-NewItem=iZoogiFungus,{5 25}
-NewItem=iPicnicBasket,1,R19
-NewItem=iBallOfPetSummoning,1,R19
-NewItem=iBraceletOfBinding,1,R19
-
 
 [CharDef cRedSolenInfiltratorWarrior]
 ID=cRedSolenWarrior
@@ -244,6 +224,7 @@ MaxFood=35
 Aversions=rCivilization
 Desires=tRawMeat,rSolenHive
 BloodColor=0
+TEvents=AISolenInfiltratorWarrior
 
 Category=Animals
 Subsection=Solen: Red
@@ -281,11 +262,6 @@ Parrying=800
 On=@NPCRestock
 NewGold={200 225}
 
-On=@DeathCorpse
-NewItem=iZoogiFungus,{3 13}
-NewItem=iPicnicBasket,1,R19
-NewItem=RandomCommonGem,{1 4}
-
 
 [CharDef cRedSolenInfiltratorQueen]
 ID=cRedSolenQueen
@@ -301,6 +277,7 @@ MaxFood=35
 Aversions=rCivilization
 Desires=tRawMeat,rSolenHive
 BloodColor=0
+TEvents=AISolenInfiltratorQueen
 
 Category=Animals
 Subsection=Solen: Red
@@ -338,10 +315,6 @@ Parrying=900
 On=@NPCRestock
 NewGold={250 300}
 
-On=@DeathCorpse
-NewItem=iZoogiFungus,{4 16}
-NewItem=iPicnicBasket,1,R19
-
 
 [CharDef cAmbitiousRedSolenQueen]
 ID=cRedSolenQueen
@@ -357,6 +330,7 @@ MaxFood=35
 Aversions=rCivilization
 Desires=tRawMeat,rSolenHive
 BloodColor=0
+TEvents=AISolenQueen
 
 Category=Animals
 Subsection=Solen: Red
@@ -394,12 +368,6 @@ Parrying=900
 On=@NPCRestock
 NewGold={400 500}
 
-On=@DeathCorpse
-NewItem=iZoogiFungus,{5 25}
-NewItem=iPicnicBasket,1,R19
-NewItem=iBallOfPetSummoning,1,R19
-NewItem=iBraceletOfBinding,1,R19
-
 
 [CharDef 0325]
 DefName=cBlackSolenWorker
@@ -415,6 +383,7 @@ MaxFood=35
 Aversions=rCivilization
 Desires=tRawMeat,rSolenHive
 BloodColor=0
+TEvents=AISolenWorker
 
 Category=Animals
 Subsection=Solen: Black
@@ -452,10 +421,6 @@ Parrying=600
 
 On=@NPCRestock
 NewGold={125 175}
-
-On=@DeathCorpse
-NewItem=iZoogiFungus,{1 6}
-NewItem=iPicnicBasket,1,R19
 
 
 [CharDef 0326]
@@ -511,12 +476,6 @@ Parrying=800
 On=@NPCRestock
 NewGold={250 350}
 
-On=@DeathCorpse
-NewItem=iZoogiFungus,{3 13}
-NewItem=iPicnicBasket,1,R19
-NewItem=RandomCommonGem,{1 4}
-NewItem=iBraceletOfBinding,1
-
 
 [CharDef 0327]
 DefName=cBlackSolenQueen
@@ -571,12 +530,6 @@ Parrying=900
 On=@NPCRestock
 NewGold={400 500}
 
-On=@DeathCorpse
-NewItem=iZoogiFungus,{5 25}
-NewItem=iPicnicBasket,1,R19
-NewItem=iBallOfPetSummoning,1,R19
-NewItem=iBraceletOfBinding,1,R19
-
 
 [CharDef 0328]
 DefName=cBlackSolenMatriarch
@@ -592,6 +545,7 @@ MaxFood=35
 Aversions=rCivilization
 Desires=tRawMeat,rSolenHive
 BloodColor=0
+TEvents=AISolenQueen
 
 Category=Animals
 Subsection=Solen: Black
@@ -630,12 +584,6 @@ Parrying=900
 On=@NPCRestock
 NewGold={400 500}
 
-On=@DeathCorpse
-NewItem=iZoogiFungus,{5 25}
-NewItem=iPicnicBasket,1,R19
-NewItem=iBallOfPetSummoning,1,R19
-NewItem=iBraceletOfBinding,1,R19
-
 
 [CharDef cBlackSolenInfiltratorWarrior]
 ID=cBlackSolenWarrior
@@ -651,6 +599,7 @@ MaxFood=35
 Aversions=rCivilization
 Desires=tRawMeat,rSolenHive
 BloodColor=0
+TEvents=AISolenInfiltratorWarrior
 
 Category=Animals
 Subsection=Solen: Black
@@ -689,11 +638,6 @@ Parrying=800
 On=@NPCRestock
 NewGold={200 225}
 
-On=@DeathCorpse
-NewItem=iZoogiFungus,{3 13}
-NewItem=iPicnicBasket,1,R19
-NewItem=RandomCommonGem,{1 4}
-
 
 [CharDef cBlackSolenInfiltratorQueen]
 ID=cBlackSolenQueen
@@ -709,6 +653,7 @@ MaxFood=35
 Aversions=rCivilization
 Desires=tRawMeat,rSolenHive
 BloodColor=0
+TEvents=AISolenInfiltratorQueen
 
 Category=Animals
 Subsection=Solen: Black
@@ -747,10 +692,6 @@ Parrying=900
 On=@NPCRestock
 NewGold={250 300}
 
-On=@DeathCorpse
-NewItem=iZoogiFungus,{4 16}
-NewItem=iPicnicBasket,1,R19
-
 
 [CharDef cAmbitiousBlackSolenQueen]
 ID=cBlackSolenQueen
@@ -766,6 +707,7 @@ MaxFood=35
 Aversions=rCivilization
 Desires=tRawMeat,rSolenHive
 BloodColor=0
+TEvents=AISolenQueen
 
 Category=Animals
 Subsection=Solen: Black
@@ -803,12 +745,6 @@ Parrying=900
 
 On=@NPCRestock
 NewGold={400 500}
-
-On=@DeathCorpse
-NewItem=iZoogiFungus,{5 25}
-NewItem=iPicnicBasket,1,R19
-NewItem=iBallOfPetSummoning,1,R19
-NewItem=iBraceletOfBinding,1,R19
 
 
 [EOF]

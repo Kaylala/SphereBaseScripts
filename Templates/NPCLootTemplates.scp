@@ -1,9 +1,8 @@
-// SphereServer
-// Updated: 17-3-1016
-//
-Version=0.56c
+////////////////
+// Elementals //
+////////////////
 
-[Template tmpOreElemental]
+[Template OreElementalLoot]
 Category=Templates: NPC Loot
 Subsection=Monsters: Elementals
 Description=Ore Elementals
@@ -12,7 +11,8 @@ Item=iCrystallineBlackrock,1
 Item=RandomWeapon,1
 Item=RandomArmor,1
 
-[Template tmpAirElementalLoot]
+
+[Template AirElementalLoot]
 Category=Templates: NPC Loot
 Subsection=Monsters: Elementals
 Description=Air Elemental
@@ -20,7 +20,8 @@ Item=RandomPotion,1
 Item={RandomLowMageryScroll 1 RandomLowNecromancyScroll 1 RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1},1
 Item={RandomLowMageryScroll 1 RandomLowNecromancyScroll 1 RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1},1
 
-[Template tmpEarthElementalLoot]
+
+[Template EarthElementalLoot]
 Category=Templates: NPC Loot
 Subsection=Monsters: Elementals
 Description=Earth Elemental
@@ -31,7 +32,8 @@ Item=iFertileDirt,{1 4}
 Item=iMandrakeRoot,1
 Item=iIronOre,5		// Small
 
-[Template tmpFireElementalLoot]
+
+[Template FireElementalLoot]
 Category=Templates: NPC Loot
 Subsection=Monsters: Elementals
 Description=Fire Elemental
@@ -40,7 +42,8 @@ Item={RandomLowMageryScroll 1 RandomLowNecromancyScroll 1},1
 Item=RandomCommonGem,1
 Item=iSulfurousAsh,3
 
-[Template tmpWaterElementalLoot]
+
+[Template WaterElementalLoot]
 Category=Templates: NPC Loot
 Subsection=Monsters: Elementals
 Description=Water Elemental
@@ -51,7 +54,8 @@ Item=iBlackPearl,3
 NewItem=iAncientPotteryFragments,1,R19
 //Item=RandomMageryReagent,{1 2}
 
-[Template tmpAcidElementalLoot]
+
+[Template AcidElementalLoot]
 Category=Templates: NPC Loot
 Subsection=Monsters: Elementals
 Description=Acid Elemental
@@ -65,7 +69,8 @@ Item=RandomPotion,1
 Item=RandomWeapon,1
 Item=RandomArmor,1
 
-[Template tmpBloodElementalLoot]
+
+[Template BloodElementalLoot]
 Category=Templates: NPC Loot
 Subsection=Monsters: Elementals
 Description=Blood Elemental
@@ -83,7 +88,8 @@ Item={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1},1,R1
 Item=RandomWeapon,1
 Item=RandomArmor,1
 
-[Template tmpIceElementalLoot]
+
+[Template IceElementalLoot]
 Category=Templates: NPC Loot
 Subsection=Monsters: Elementals
 Description=Ice Elemental
@@ -94,7 +100,8 @@ Item=RandomMageryReagent,{4 8}
 Item=RandomWeapon,1
 Item=RandomArmor,1
 
-[Templte tmpPoisonElementalLoot]
+
+[Template PoisonElementalLoot]
 Category=Templates: NPC Loot
 Subsection=Monsters: Elementals
 Description=Poison Elemental
@@ -107,7 +114,8 @@ Item=iLesserPoisonPotion,1
 Item=RandomWeapon,1
 Item=RandomArmor,1
 
-[Templte tmpSnowElementalLoot]
+
+[Template SnowElementalLoot]
 Category=Templates: NPC Loot
 Subsection=Monsters: Elementals
 Description=Snow Elemental
@@ -117,14 +125,16 @@ Item=iIronOre,3
 Item=RandomArmor,1
 Item=RandomWeapon,1
 
-[Templte tmpEfreetLoot]
+
+[Template EfreetLoot]
 Category=Templates: NPC Loot
 Subsection=Monsters: Elementals
 Description=Efreet
 Item=RandomCommonGem,{1 3}
 Item=RandomArmor,1
 
-[Templte tmpKazeKemonoLoot]
+
+[Template KazeKemonoLoot]
 Category=Templates: NPC Loot
 Subsection=Monsters: Elementals
 Description=Kaze Kemono
@@ -133,14 +143,16 @@ Item=RandomCommonGem,1
 Item=RandomWeapon,1
 Item=RandomArmor,1
 
-[Templte tmpCrystalElementalLoot]
+
+[Template CrystalElementalLoot]
 Category=Templates: NPC Loot
 Subsection=Monsters: Elementals
 Description=Crystal Elemental
 Item=RandomCommonGem,2
 Item=RandomCommonGem,2
 
-[Templte tmpSandVortexLoot]
+
+[Template SandVortexLoot]
 Category=Templates: NPC Loot
 Subsection=Monsters: Elementals
 Description=Sand Vortex
@@ -149,14 +161,16 @@ Item=RandomPotion,1,R4
 Item=RandomBone,1
 Item=RandomBone,1
 
-[Templte tmpRaiJuLoot]
+
+[Template RaiJuLoot]
 Category=Templates: NPC Loot
 Subsection=Monsters: Elementals
 Description=Rai-Ju
 Item=RandomCommonGem,1
 Item=RandomCommonGem,1
 
-[Templte tmpLavaElementalLoot]
+
+[Template LavaElementalLoot]
 Category=Templates: NPC Loot
 Subsection=Monsters: Elementals
 Description=Lava Elemental
@@ -169,5 +183,56 @@ NewItem=iLavaSerpentCrust,1,R19
 NewItem={iEssenceOfPrecision 1 iEssenceOfOrder 1 iEssenceOfPower 1},1,R19
 NewItem=iAncientPotteryFragments,1,R19
 NewItem=iTatteredRemnantsOfAnAncientScroll,1,R19
+
+
+///////////
+// Solen //
+///////////
+
+
+[Template SolenWorkerLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Solen
+Description=Solen Worker
+Item=iZoogiFungus,{1 6}
+Item=iPicnicBasket,1,R19
+
+
+[Template SolenWarriorLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Solen
+Description=Solen Warrior
+Item=iZoogiFungus,{3 13}
+Item=iPicnicBasket,1,R19
+Item=RandomCommonGem,{1 4}
+Item=iBraceletOfBinding,1,R19
+
+
+[Template SolenQueenLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Solen
+Description=Solen Queen
+Item=iZoogiFungus,{5 25}
+Item=iPicnicBasket,1,R19
+Item=iBallOfPetSummoning,1,R19
+Item=iBraceletOfBinding,1,R19
+
+
+[Template SolenInfiltratorWarriorLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Solen
+Description=Solen Infiltrator Warrior
+Item=iZoogiFungus,{3 13}
+Item=iPicnicBasket,1,R19
+Item=iBraceletOfBinding,1,R19
+
+
+[Template SolenQueenLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Solen
+Description=Solen Queen
+Item=iZoogiFungus,{4 16}
+Item=iPicnicBasket,1,R19
+
 
 [EOF]

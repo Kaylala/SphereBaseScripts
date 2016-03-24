@@ -1,9 +1,37 @@
+//////////////
+// Solen AI //
+//////////////
+
+
+[Events AISolenWorker]
+On=@DeathCorpse
+NewLoot=SolenWorkerLoot
+
+
 [Events AISolenWarrior]
 // Acid Pool Near Death
 // Acid Spit (Leaves a Pool)
+On=@DeathCorpse
+NewLoot=SolenWarriorLoot
+
 
 [Events AISolenQueen]
 // Acid Pool Near Death
 // Acid Spit (Leaves a Pool)
 // Summons local solen to help in fight (18 radius)
 // Lays Eggs (Destroyable with knife) that turn into warrior or worker to fight aggressors.
+On=@DeathCorpse
+NewLoot=SolenQueenLoot
+
+
+[Events AISolenInfiltratorWarrior]
+On=@DeathCorpse
+NewLoot=SolenInfiltratorWarriorLoot
+
+
+[Events AISolenInfiltratorQueen]
+On=@DeathCorpse
+NewLoot=SolenInfiltratorQueenLoot
+
+
+[EOF]

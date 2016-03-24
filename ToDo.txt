@@ -1,0 +1,15 @@
+To Do Reminder
+
+Events:
+- AISolenwarrior: Combat Events
+- AISolenQueen: Combat Events
+
+Items:
+- iBraceletOfBinding
+- iPicnicBasket
+- iZoogiFungus
+- iPetSummoningBall
+
+Mobiles:
+- Switch Solen Matriarchs to Quest NPCs.
+- Switch Solen Ambitious Queens to Quest NPCs.
