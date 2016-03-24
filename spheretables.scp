@@ -41,8 +41,6 @@ Scripts/Core/						// Core Files (Misc loaded after above.)
 Scripts/AddSQLite.scp        // Dependency if you are using it.
 Scripts/SphereSkills.scp            // Definitions with no Items attached. (Move up?)
 Scripts/SkillMenus/					// This should follow skills honesty.
-Scripts/sphere_newb.scp                // Technically a resource.
-Scripts/SphereBook.scp            // Only top if using the MOD/Scroll blocks. (Sounds right.)
 Scripts/Names/						// Might be able to move this to the bottom of operations.
 Scripts/Speech/				`		// Might be able to move this to the bottom of operations.
 // Items

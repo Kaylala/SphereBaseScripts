@@ -1,0 +1,86 @@
+//****************************************************************************
+// SPHERE by : Menasoft ©1997-2016
+// www.sphereserver.net
+// All SPHERE script files and formats are copyright Menasoft & Partners.
+// This file may be freely edited for personal use, but may not be distributed
+// in whole or in part, in any format without express written permission from
+// Menasoft & Partners.  All donations and contributions
+// become the property of Menasoft & Partners.
+//****************************************************************************
+// FILE LAST UPDATED: Friday, Jan 22, 2016
+//
+VERSIOn=0.56c
+
+[Speech spkPlayer]
+// All players Speech filtered through here.
+On=home home home   //   Ghosts can go home.
+   IF (<FLAGS>&statf_dead)
+      go <home>
+   endif
+
+On=I must consider my sins
+
+On=I resign from my guild
+
+On=I resign from my town
+
+On=Guard help *
+On=Guards*
+On=Help Guards*
+   // trying to call guards for help.
+
+[Speech spkPet]
+// Pets that cannot talk
+On=ATTACK
+On=COME
+On=DROP
+On=DROP ALL
+On=FOLLOW
+On=FOLLOW ME
+On=FRIEND
+On=GO
+On=GUARD
+On=GUARD ME
+On=KILL
+On=RELEASE
+On=SPEAK
+On=STAY
+On=STAY HERE
+On=STOP
+On=TRANSFER
+On=UNFRIEND
+
+[Speech spkHireling]
+// Pets that can talk.
+On=ATTACK
+On=BOUGHT
+On=CASH
+On=COME
+On=DROP
+On=DROP ALL
+On=EQUIP
+On=EQUIP ALL
+On=FOLLOW
+On=FOLLOW ME
+On=FRIEND
+On=GET DRESSED
+On=GO
+On=GUARD
+On=GUARD ME
+On=INVENTORY
+On=KILL
+On=PRICE   // may have args ?
+On=RECIEVED
+On=RELEASE
+On=SAMPLES
+On=SPEAK
+On=STATUS
+On=STAY
+On=STAY HERE
+On=STOCK
+On=STOP
+On=SUIT UP
+On=TRANSFER
+On=UNFRIEND
+
+[EOF]

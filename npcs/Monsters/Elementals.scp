@@ -418,7 +418,7 @@ Description=Unbound Energy Vortex
 
 On=@Create
 NPC=BrainMonster
-Color=hEnergyVortexHue
+Color=EnergyVortexHue
 SlayerSuper=ElementalSlayer
 SlayerLesser=AirElementalSlayer
 
@@ -480,7 +480,7 @@ Description=Nether Vortex
 
 On=@Create
 NPC=BrainMonster
-Color=hBlackrockHue
+Color=BlackrockHue
 SlayerSuper=ElementalSlayer
 
 Fame=18000
@@ -541,7 +541,7 @@ FoodType=tOre,tIngot,tGem,tRock,tDirt
 MaxFood=35
 Aversions=rCivilization
 Desires=tMagic
-BloodColor=hBrownHues
+BloodColor=BrownHues
 
 Category=Monsters
 Subsection=Elementals
@@ -602,7 +602,7 @@ FoodType=tOre,tIngot,tGem,tRock,tDirt
 MaxFood=35
 Aversions=rCivilization
 Desires=tMagic
-BloodColor=hBrownHues
+BloodColor=BrownHues
 
 Category=Monsters
 Subsection=Elementals
@@ -664,7 +664,7 @@ FoodType=tOre,tIngot,tGem,tRock,tDirt
 MaxFood=35
 Aversions=rCivilization
 Desires=tMagic
-BloodColor=hBrownHues
+BloodColor=BrownHues
 
 Category=Monsters
 Subsection=Elementals
@@ -728,7 +728,7 @@ FoodType=tOre,tIngot,tGem,tRock,tDirt
 MaxFood=35
 Aversions=rCivilization
 Desires=tMagic,tFire,tLava
-BloodColor=hBrownHues
+BloodColor=BrownHues
 
 Category=Monsters
 Subsection=Elementals
@@ -798,7 +798,7 @@ FoodType=tOre,tIngot,tGem,tRock,tDirt
 MaxFood=35
 Aversions=rCivilization
 Desires=tMagic
-BloodColor=hBrownHues
+BloodColor=BrownHues
 
 Category=Monsters
 Subsection=Elementals
@@ -1060,7 +1060,7 @@ FoodType=tOre,tIngot,tGem,tRock,tDirt
 MaxFood=35
 Aversions=rCivilization
 Desires=tMagic
-BloodColor=hBlackrockHue
+BloodColor=BlackrockHue
 
 Category=Monsters
 Subsection=Elementals
@@ -1068,7 +1068,7 @@ Description=Blackrock Elemental
 
 On=@Create
 NPC=BrainMonster
-Color=hBlackrockHue
+Color=BlackrockHue
 SlayerSuper=ElementalSlayer
 
 Fame=20000
@@ -1202,7 +1202,7 @@ Description=Flame Elemental (Check Hue)
 
 On=@Create
 NPC=BrainDragon
-Color=hFireSteedHue	// Not sure.
+Color=FireSteedHue	// Not sure.
 CanDefend=Can_D_Dispel
 SlayerSuper=ElementalSlayer|FlameSlayer
 SlayerLesser=FireElementalSlayer
@@ -1277,7 +1277,7 @@ Description=Flame Elemental (Check Hue) (Level 2)
 
 On=@Create
 NPC=BrainDragon
-Color=hFireSteedHue
+Color=FireSteedHue
 CanDefend=Can_D_Dispel
 SlayerSuper=ElementalSlayer|FlameSlayer
 SlayerLesser=FireElementalSlayer
@@ -1344,7 +1344,7 @@ FoodType=tMagic
 MaxFood=35
 Aversions=rCivilization
 Desires=cWaterElemental,tMagic
-BloodColor=hBlueHues
+BloodColor=BlueHues
 
 Category=Monsters
 Subsection=Elementals
@@ -1409,7 +1409,7 @@ FoodType=tMagic
 MaxFood=35
 Aversions=rCivilization
 Desires=cWaterElemental,tMagic
-BloodColor=hBlueHues
+BloodColor=BlueHues
 
 Category=Monsters
 Subsection=Elementals
@@ -1549,7 +1549,7 @@ FoodType=tMagic
 MaxFood=35
 Aversions=rCivilization
 Desires=cAcidElemental,tMagic
-BloodColor=hGreenHues
+BloodColor=GreenHues
 TEvents=eAIAcidElemental
 
 Category=Monsters
@@ -1835,7 +1835,7 @@ Description=Diseased Blood Elemental
 
 On=@Create
 NPC=BrainMonster
-Color=hRed1Hue
+Color=Red1Hue
 CanDefend=Can_D_Dispel
 SlayerSuper=ElementalSlayer
 SlayerLesser=BloodElementalSlayer
@@ -2391,7 +2391,7 @@ FoodType=tMagic
 MaxFood=35
 Aversions=rCivilization
 Desires=tMagic
-BloodColor=hYellowHues
+BloodColor=YellowHues
 
 Category=Monsters
 Subsection=Elementals
@@ -2452,7 +2452,7 @@ FoodType=tMagic
 MaxFood=35
 Aversions=rCivilization
 Desires=tMagic
-BloodColor=hYellowHues
+BloodColor=YellowHues
 
 Category=Monsters
 Subsection=Elementals

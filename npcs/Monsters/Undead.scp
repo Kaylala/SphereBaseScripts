@@ -270,7 +270,7 @@ Description=Spectre
 
 On=@Create
 NPC=BrainMonster
-Color=hSpectralHue
+Color=SpectralHue
 CanDefend=0
 SlayerSuper=UndeadSlayer
 DispID=02EC
@@ -334,7 +334,7 @@ Description=Shade
 
 On=@Create
 NPC=BrainMonster
-Color=hSpectralHue
+Color=SpectralHue
 CanDefend=0
 SlayerSuper=UndeadSlayer
 DispID=02EC
@@ -398,7 +398,7 @@ Description=Wraith
 
 On=@Create
 NPC=BrainMonster
-Color=hSpectralHue
+Color=SpectralHue
 CanDefend=0
 SlayerSuper=UndeadSlayer
 DispID=02EC
@@ -1926,7 +1926,7 @@ Parrying={901 1000}
 Swordsmanship={901 1000}
 
 ItemNewbie=iHalberd
-Color=hSpectralHue
+Color=SpectralHue
 
 // Dream Wraith
 [CharDef 02E4]
@@ -2773,7 +2773,7 @@ NewItem={iUndyingFlesh 1 0 9}
 NewItem={iAncientPotteryFragments 1 0 9}
 NewItem={iTatteredRemnantsofanAncientScroll 1 0 9}
 NewItem=RandomBoneArmor
-NewColor=hBlueHues
+NewColor=BlueHues
 
 // Putrid Undead Guardian
 [CharDef cPutridUndeadGuardian]
@@ -2865,7 +2865,7 @@ Description=Gargoyle Shade
 
 On=@Create
 NPC=BrainMonster
-Color=hSpectralHue
+Color=SpectralHue
 CanDefend=0
 SlayerSuper=UndeadSlayer|GargoyleSlayer
 
