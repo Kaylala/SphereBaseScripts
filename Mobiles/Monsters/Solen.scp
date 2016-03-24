@@ -68,7 +68,7 @@ MaxFood=35
 Aversions=rCivilization
 Desires=tRawMeat,rSolenHive
 BloodColor=0
-TEvents=//eAcidSpit,eAcidPoolDeath
+TEvents=AISolenWarrior
 
 Category=Animals
 Subsection=Solen: Red
@@ -127,6 +127,7 @@ MaxFood=35
 Aversions=rCivilization
 Desires=tRawMeat,rSolenHive
 BloodColor=0
+TEvents=AISolenQueen
 
 Category=Animals
 Subsection=Solen: Red
@@ -243,7 +244,6 @@ MaxFood=35
 Aversions=rCivilization
 Desires=tRawMeat,rSolenHive
 BloodColor=0
-TEvents=//eAcidSpit,eAcidPoolDeath
 
 Category=Animals
 Subsection=Solen: Red
@@ -472,7 +472,7 @@ MaxFood=35
 Aversions=rCivilization
 Desires=tRawMeat,rSolenHive
 BloodColor=0
-TEvents=//eAcidSpit,eAcidPoolDeath
+TEvents=AISolenWarrior
 
 Category=Animals
 Subsection=Solen: Black
@@ -532,6 +532,7 @@ MaxFood=35
 Aversions=rCivilization
 Desires=tRawMeat,rSolenHive
 BloodColor=0
+TEvents=AISolenQueen
 
 Category=Animals
 Subsection=Solen: Black
@@ -650,7 +651,6 @@ MaxFood=35
 Aversions=rCivilization
 Desires=tRawMeat,rSolenHive
 BloodColor=0
-TEvents=//eAcidSpit,eAcidPoolDeath
 
 Category=Animals
 Subsection=Solen: Black
