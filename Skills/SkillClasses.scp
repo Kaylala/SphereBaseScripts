@@ -1,0 +1,85 @@
+[SkillClASS 0]
+// undeclared class
+// max Skills for players of this Skill class 
+DefName=Class_undeclared
+NAME=undeclared
+// EVENTS=e_ClassUndeclared
+STATSUM=300
+SkillSUM=10000
+STR=100
+INT=100
+DEX=100
+Alchemy=1000
+Anatomy=1000
+AnimalLore=1000
+ItemId=1000
+ArmsLore=1000
+Parrying=1000
+Begging=1000
+Blacksmithing=1000
+Bowcrafting=1000
+Peacemaking=1000
+Camping=1000
+Carpentry=1000
+Cartography=1000
+Cooking=1000
+DetectingHidden=1000
+Discordance=1000
+EvaluatingIntel=1000
+Healing=1000
+Fishing=1000
+Forensics=1000
+Herding=1000
+Hiding=1000
+Provocation=1000
+Inscription=1000
+LockPicking=1000
+Magery=1000
+MagicResistance=1000
+Tactics=1000
+Snooping=1000
+Musicianship=1000
+Poisoning=1000
+Archery=1000
+SpiritSpeak=1000
+Stealing=1000
+Tailoring=1000
+Taming=1000
+TasteId=1000
+Tinkering=1000
+Tracking=1000
+Veterinary=1000
+Swordsmanship=1000
+Macefighting=1000
+Fencing=1000
+Wrestling=1000
+Lumberjacking=1000
+Mining=1000
+Meditation=1000
+Stealth=1000
+RemoveTrap=1000
+Necromancy=1000
+Focus=1000
+Chivalry=1000
+Bushido=1000
+Ninjitsu=1000
+Spellweaving=1000
+Mysticism=1000
+Imbuing=1000
+Throwing=1000
+
+
+ON=@ItemEquip
+if (<acttype>==t_armor && !<actMageArmor>)
+	tag0MeditPenalty ++
+	f_meditation_setup
+endif
+
+ON=@ItemUnEquip
+if (<acttype>==t_armor && !<actMageArmor>)
+	tag0MeditPenalty --
+	f_meditation_setup
+endif
+
+
+[EOF]

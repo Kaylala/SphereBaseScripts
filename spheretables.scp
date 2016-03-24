@@ -38,8 +38,7 @@ Scripts/Core/Combat/				// Combat Events
 Scripts/Core/Functions/				// Core Functions
 Scripts/Core/Compatibility.scp		// We should process this after types and defs just in case.
 Scripts/Core/						// Core Files (Misc loaded after above.)
-Scripts/AddSQLite.scp        // Dependency if you are using it.
-Scripts/SphereSkills.scp            // Definitions with no Items attached. (Move up?)
+Scripts/Skills/						// Definitions with no Items attached. (Move up?)
 Scripts/SkillMenus/					// This should follow skills honesty.
 Scripts/Names/						// Might be able to move this to the bottom of operations.
 Scripts/Speech/				`		// Might be able to move this to the bottom of operations.
@@ -64,7 +63,7 @@ Scripts/Maps/Maps/
 Scripts/Maps/MapPoints/
 
 // Dependent on CharDef and ItemDef being loaded prior. So load these after those files.
-Scripts/sphere_spells.scp
+Scripts/Spells/
 Scripts/Spawns/
 
 Scripts/Stones/
