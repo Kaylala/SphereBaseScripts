@@ -1,0 +1,47 @@
+[DefName buff_clilocs]
+BuffCliLoc_empty		   1070722
+BuffCliLoc_curse_1		 1075835
+BuffCliLoc_curse_2		 1075836
+BuffCliLoc_weaken_1		1075837
+BuffCliLoc_weaken_2		1075838
+BuffCliLoc_masscurse_1	   1075839
+BuffCliLoc_masscurse_2	   1075840
+BuffCliLoc_agility_1	     1075841
+BuffCliLoc_agility_2	     1075842
+BuffCliLoc_cunning_1	     1075843
+BuffCliLoc_cunning_2	     1075844
+BuffCliLoc_strength_1	    1075845
+BuffCliLoc_strength_2	    1075846
+BuffCliLoc_bless_1		 1075847
+BuffCliLoc_bless_2		 1075848
+BuffCliLoc_reactivearmor_1     1075812
+BuffCliLoc_reactivearmor_2     1075813
+BuffCliLoc_protection_1	  1075814
+BuffCliLoc_protection_2	  1075815
+BuffCliLoc_archprotection	1075816
+BuffCliLoc_archprotection	1070722 //empty
+BuffCliLoc_invisibility_1	1075825
+BuffCliLoc_invisibility_2	1075826
+BuffCliLoc_paralyze_1	    1075827
+BuffCliLoc_paralyze_2	    1075828
+BuffCliLoc_magicreflection_1   1075817
+BuffCliLoc_magicreflection_1   1075818
+BuffCliLoc_clumsy_1		1075831
+BuffCliLoc_clumsy_2		1075832
+BuffCliLoc_feeblemind_1	  1075833
+BuffCliLoc_feeblemind_1	  1075834
+BuffCliLoc_incognito_1	   1075819
+BuffCliLoc_incognito_2	   1075820
+BuffCliLoc_polymorph_1	   1075824
+BuffCliLoc_polymorph_2	   1070722 //empty
+BuffCliLoc_poison_1		1017383
+BuffCliLoc_poison_2		1070722
+BuffCliLoc_nightsight_1	  1075643
+BuffCliLoc_nightsight_2	  1075644
+BuffCliLoc_hidden_1		1075655
+BuffCliLoc_hidden_2		1075656
+BuffCliLoc_gargoylefly_1	 1112193
+BuffCliLoc_gargoylefly_2	 1112567
+
+
+[EOF]

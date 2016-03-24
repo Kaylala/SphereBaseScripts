@@ -1,0 +1,138 @@
+[DefName passive_buff_icons]
+passiveBuffIcon_hidingandorstealth	1012
+passiveBuffIcon_activemeditation	1013
+passiveBuffIcon_incognito			1032
+passiveBuffIcon_disguised			1033
+passiveBuffIcon_polymorph			1035
+passiveBuffIcon_gargoylefly			1054
+passiveBuffIcon_despair				1060
+
+
+[DefName debuff_icons]
+deBuffIcon_Dismount					1001
+deBuffIcon_DeathStrike				1006
+deBuffIcon_EvilOmen					1007
+deBuffIcon_HealingThrottle			1008
+deBuffIcon_StaminaThrottle			1009
+deBuffIcon_BloodOathCurse			1015
+deBuffIcon_CorpseSkin				1016
+deBuffIcon_MindRot					1017
+deBuffIcon_PainSpike				1018
+deBuffIcon_Strangle					1019
+deBuffIcon_ThunderStorm				1022
+deBuffIcon_EssenceOfWind			1023
+deBuffIcon_MortalStrike				1027
+deBuffIcon_Paralyze					1037
+deBuffIcon_Poison					1038
+deBuffIcon_Bleed					1039
+deBuffIcon_Clumsy					1040
+deBuffIcon_Feeblemind				1041
+deBuffIcon_Weaken					1042
+deBuffIcon_Curse					1043
+deBuffIcon_MassCurse				1044
+deBuffIcon_Sleep					1049
+deBuffIcon_SpellPlague				1051
+deBuffIcon_Tribulation				1059
+
+// new 'stats'
+deBuffIcon_HitLowerAttack			1063
+deBuffIcon_HitLowerDefense			1064
+deBuffIcon_SpellFocusing			1071
+deBuffIcon_RageFocusing				1072
+deBuffIcon_ForceArrow				1076
+deBuffIcon_Disarm					1077
+deBuffIcon_TalonStrike				1080
+deBuffIcon_PsychicAttack			1081	// Psychic Attack (Double check things UGH!)
+
+deBuffIcon_EnemyOfOne				1084
+deBuffIcon_FanDancerFanFire			1105
+deBuffIcon_Rage						1106
+deBuffIcon_Webbing					1107	// Also Entangle
+deBuffIcon_Stone					1108	// Stone
+deBuffIcon_Fear						1109	// Stygian Dragon, Slasher Of Veils
+deBuffIcon_AuraOfNausea				1110
+deBuffIcon_HowlOfCacophony			1111
+deBuffIcon_GazeOfDespair			1112
+deBuffIcon_PhysicalResistance		1113	// Hiryu
+deBuffIcon_ArmorCorruption			1114	// Rune Beetle
+deBuffIcon_Anemia					1115	// Blood Worm
+deBuffIcon_BloodDisease				1116	// Rotworm
+deBuffIcon_SkillUseDelay			1117
+deBuffIcon_FactionStatLoss			1118
+deBuffIcon_HeatOfBattle				1119
+deBuffIcon_CriminalStatus			1120	// Criminal...
+deBuffIcon_ArmorPierce				1121
+deBuffIcon_SplinteringEffect		1122
+deBuffIcon_SwingSpeedSwing			1123
+//deBuffIcon_FallingWalls
+
+[DefName buff_icons]
+BuffIcon_NoRearm				1002
+BuffIcon_NightSight				1005
+BuffIcon_DivineFury				1010
+BuffIcon_EnemyOfOne				1011
+BuffIcon_BloodOathCaster		1014
+BuffIcon_GiftOfRenewal			1020
+BuffIcon_AttuneWeapon			1021
+BuffIcon_EtherealVoyage			1024
+BuffIcon_FiftOfFife				1025
+BuffIcon_ArcaneEmpowerment		1026		//same as 1061
+BuffIcon_ReactiveArmor			1028
+BuffIcon_Protection				1029
+BuffIcon_ArchProtection			1030
+BuffIcon_MagicReflection		1031
+BuffIcon_AnimalForm				1034
+BuffIcon_Invisibility			1036
+BuffIcon_Agility				1045
+BuffIcon_Cunning				1046
+BuffIcon_Strength				1047
+BuffIcon_Bless					1048
+BuffIcon_StoneForm				1050
+BuffIcon_GargoyleBerserk		1052
+
+//Bard Mastery Buff
+BuffIcon_Inspire				1055
+BuffIcon_Invigorate				1056
+BuffIcon_Resilience				1057
+BuffIcon_Perseverance			1058
+BuffIcon_Despair				1068
+
+BuffIcon_RageFocusing			1073
+BuffIcon_Warding				1074
+//BuffIcon_Tribulation			1075	// This one is definitely off.
+BuffIcon_Surge					1078
+BuffIcon_Feint					1079
+BuffIcon_Consecrate				1082
+BuffIcon_GrapesOfWrath			1083
+BuffIcon_HorrificBeast			1085
+BuffIcon_LichForm				1086
+BuffIcon_VampiricEmbrace		1087
+BuffIcon_CurseWeapon			1088
+BuffIcon_ReaperForm				1089
+BuffIcon_ImmolatingWeapon		1090
+BuffIcon_Enchant				1091
+BuffIcon_HonorableExecution		1092		//same as 1125
+BuffIcon_Confidence				1093
+BuffIcon_Evasion				1094
+BuffIcon_CounterAttack			1095
+BuffIcon_LightningStrike		1096
+BuffIcon_MomentumStrike			1097
+BuffIcon_OrangePetals			1098
+BuffIcon_RoTPetals				1099		//RoseOfTrinsic petals
+BuffIcon_PoisonImmunity			1100
+BuffIcon_Veterinary				1101
+BuffIcon_Perfection				1102
+BuffIcon_Honored				1103
+BuffIcon_ManaPhase				1104
+BuffIcon_WraithForm				1124
+BuffIcon_CityTradeDeal			1126
+BuffIcon_ArcaneEmpowerment		1061
+BuffIcon_FishBuff				1062
+BuffIcon_HitDualWield			1065
+BuffIcon_Block					1066
+BuffIcon_DefenseMastery			1067
+BuffIcon_HealingEffect			1069
+BuffIcon_SpellFocusing			1070
+
+
+[EOF]
