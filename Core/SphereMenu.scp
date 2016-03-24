@@ -12,20 +12,20 @@
 VERSION=0.56c
 
 
-// MENU_PAGEGM -------------------------------------
+// Menu_PageGm -------------------------------------
 
 [FUNCTION HelpPage]
 // HelpPage is executed whenever someone presses the "HelpPage" button
-MENU MENU_PAGEGM
+Menu Menu_PageGm
 
-[MENU MENU_PAGEGM] // PAGEGM is executed whenever someone presses the "Page GM" button
+[Menu Menu_PageGm] // PageGm is executed whenever someone presses the "Page GM" button
 SPHERE Main Support Menu
 
 ON=0 PAGE A GM: Sends a notice to the server administrators, if they are online. They can help you with almost all your in-game problems.
-MENU MENU_PAGEGM_3
+Menu Menu_PageGm_3
 
-ON=0 WEB MENU: Provides a list of links to various websites.
-MENU MENU_PAGEGM_2
+ON=0 WEB Menu: Provides a list of links to various websites.
+Menu Menu_PageGm_2
 
 ON=0 INFO: Shows the version of SPHERE this server is running.
 VERSION
@@ -34,14 +34,14 @@ ON=0 SERVER STATUS: Shows some status information about this server.
 INFORMATION
 
 ON=0 GO TO THE HELP ROOM: This will teleport you to the Help Desk of Hell.
-MENU MENU_PAGEGM_4
+Menu Menu_PageGm_4
 
-[MENU MENU_PAGEGM_2]
+[Menu Menu_PageGm_2]
 Web Menu
 ON=0 SPHERE HOMEPAGE: Redirects you to the official SPHERE homepage.
-WEBLINK http:\\www.sphereserver.net
+WEBLINK http:\\www.spherecommunity.net
 
-[MENU MENU_PAGEGM_3]
+[Menu Menu_PageGm_3]
 GM Page Menu
 ON=0 STUCK: Use this option if you cant move and need GM assistance.
 GMPAGE Stuck
@@ -54,7 +54,7 @@ GMPAGE Information
 ON=0 OTHER: Use this for anything not listed above.
 GMPAGE Other
 
-[MENU MENU_PAGEGM_4]
+[Menu Menu_PageGm_4]
 Are you sure you want to be teleported to the Depths of Development? You will be stuck there until a GM teleports you back to the world.
 ON=0 YES, down we go!
 //GOPLACE a_helpdesk
@@ -100,7 +100,7 @@ ON=@Timer
 	return 1
 
 // This is the guildmaster initial selection screen for guildstones
-[MENU MENU_GUILD_MASTER]
+[Menu Menu_GUILD_MASTER]
 <Name> (<MasterTitle> <Master>)
 ON=0 Recruit someone into the guild
 RECRUIT
@@ -121,10 +121,10 @@ VIEWENEMYS
 ON=0 View list of guilds that have declared war on <Name>.
 VIEWTHREATS
 ON=0 Access Guild <MasterGenderTitle> functions.
-MASTERMENU
+MASTERMenu
 
 // This is the NON-guildmaster initial selection screen for guildstones
-[MENU MENU_GUILD_MEMBER]
+[Menu Menu_GUILD_MEMBER]
 <Name> (<MasterTitle> <Master>)
 ON=0 Recruit someone into the guild
 RECRUIT
@@ -146,7 +146,7 @@ ON=0 View list of guilds that have declared war on <Name>.
 VIEWTHREATS
 
 // Guild master functions.
-[MENU MENU_GUILD_MASTERFUNC]
+[Menu Menu_GUILD_MASTERFUNC]
 <Name>, Guild <MasterGenderTitle> functions
 ON=0 Set the guild name.
 SETNAME
@@ -172,8 +172,8 @@ ON=0 Grant a title to another member.
 GRANTTITLE
 //ON=0 Teleport this guildstone.
 //TELEPORT
-ON=0 Return to main menu.
-RETURNMAINMENU
+ON=0 Return to main Menu.
+RETURNMAINMenu
 //SEE THE FUNCTION UNDER sphere_triggers.scp
 //on=0 Transfer the Guild to an existing member.
 //TRANSFERGUILD
@@ -184,7 +184,7 @@ RETURNMAINMENU
 //NEWITEM=I_SHIELD_ORDER
 //NEW.LINK=<SERIAL>
 
-[MENU MENU_GUILD_NON]
+[Menu Menu_GUILD_NON]
 // Non-member view.
 <Name> (<MasterTitle> <Master>)
 ON=0 View the guild's charter.
@@ -194,7 +194,7 @@ VIEWENEMYS
 ON=0 View list of guilds that have declared war on <Name>.
 VIEWTHREATS
 
-[MENU MENU_GUILD_ALIGN]
+[Menu Menu_GUILD_ALIGN]
 Change the alignment of guild. (currently a <AlignType> guild.)
 ON=0 Chaos
 CHANGEALIGN 2
@@ -204,7 +204,7 @@ ON=0 Order
 CHANGEALIGN 1
 
 // Town stones. mayor view
-[MENU MENU_TOWN_MAYOR]
+[Menu Menu_TOWN_MAYOR]
 Town of <Name> (<MasterTitle> <Master>)
 ON=0 View the current citizenship.
 VIEWROSTER
@@ -223,10 +223,10 @@ VIEWENEMYS
 ON=0 View list of towns that have declared war on <Name>.
 VIEWTHREATS
 ON=0 Access Mayoral functions.
-MASTERMENU
+MASTERMenu
 
 // This is the member, NON-mayor townstones
-[MENU MENU_TOWN_MEMBER]
+[Menu Menu_TOWN_MEMBER]
 Town of <Name> (<MasterTitle> <Master>)
 ON=0 View the current citizenship.
 VIEWROSTER
@@ -246,7 +246,7 @@ ON=0 View list of towns that have declared war on <Name>.
 VIEWTHREATS
 
 // Mayor functions.
-[MENU MENU_TOWN_MAYORFUNC]
+[Menu Menu_TOWN_MAYORFUNC]
 Town of <Name>, Mayoral functions
 ON=0 Set the town name.
 SETNAME
@@ -266,11 +266,11 @@ ON=0 Set the mayors's title.
 SETGMTITLE
 ON=0 Grant a title to a citizen.
 GRANTTITLE
-ON=0 Return to main menu.
-RETURNMAINMENU
+ON=0 Return to main Menu.
+RETURNMAINMenu
 
 // Non-member view.
-[MENU MENU_TOWN_NON]
+[Menu Menu_TOWN_NON]
 Town of <Name> (<MasterTitle> <Master>)
 ON=0 View the towns's charter.
 VIEWCHARTER
@@ -281,61 +281,61 @@ VIEWTHREATS
 ON=0 Apply for citizenship
 APPLYTOJOIN
 
-// ITEMMENUS SECTION -------------------------------------
+// ITEMMenuS SECTION -------------------------------------
 
-// Main start menu, used when /add with no parms are passed
-[MENU MENU_ADDITEM]
+// Main start Menu, used when /add with no parms are passed
+[Menu Menu_ADDITEM]
 SPHERE Main GM Menu
 ON=0 GameMaster Features
-MENU M_GMFEATURES
+Menu M_GMFEATURES
 ON=0 Valuables
-MENU M_ADDI_VAL
+Menu M_ADDI_VAL
 ON=0 NPCs
-MENU M_ADDN
+Menu M_ADDN
 ON=0 Magic Items
-MENU M_ADDI_MAGIC
+Menu M_ADDI_MAGIC
 ON=0 Tools & Trades
-MENU M_ADDI_TOOLS
+Menu M_ADDI_TOOLS
 ON=0 Raw Materials
-MENU M_ADDI_RAWMAT
+Menu M_ADDI_RAWMAT
 ON=0 Potions & Flasks
-MENU M_ADDI_POTION
+Menu M_ADDI_POTION
 ON=0 Scattered Materials
-MENU M_ADDI_RAWMAT_MISC
+Menu M_ADDI_RAWMAT_MISC
 ON=0 Weapons & Armor
-MENU M_ADDI_WEPARM
+Menu M_ADDI_WEPARM
 ON=0 Magic Weapons & Armor
-MENU M_ADDI_WEPARM_MAGIC
+Menu M_ADDI_WEPARM_MAGIC
 ON=0 Equipment & Items
-MENU M_ADDI_PROV
+Menu M_ADDI_PROV
 ON=0 Clothing
-MENU M_ADDI_CLOTHING
+Menu M_ADDI_CLOTHING
 ON=0 Banners & Signs
-MENU M_ADDI_SIGNS
+Menu M_ADDI_SIGNS
 ON=0 Food
-MENU M_ADDI_FOOD
+Menu M_ADDI_FOOD
 ON=0 Plants
-MENU M_ADDI_PLANTS
+Menu M_ADDI_PLANTS
 ON=0 Rocks, Stones, Boulders
-MENU M_ADDI_STONE
+Menu M_ADDI_STONE
 ON=0 Structures
-MENU M_ADDI_STRUCTURE
+Menu M_ADDI_STRUCTURE
 
 // GM Features and Travel Places Menus
-[MENU M_GMFEATURES]
+[Menu M_GMFEATURES]
 GameMaster Features
 ON=0 Items
-MENU M_ADDI_GM
+Menu M_ADDI_GM
 ON=0 Travel to Places
-MENU M_TRAV
+Menu M_TRAV
 ON=0 Hair & Beards
-MENU M_ADDI_HAIR
+Menu M_ADDI_HAIR
 ON=0 House Deeds
-MENU m_addi_deeds
-ON=0 PREVIOUS MENU
-MENU MENU_ADDITEM
+Menu m_addi_deeds
+ON=0 PREVIOUS Menu
+Menu Menu_ADDITEM
 
-[MENU M_ADDI_GM]
+[Menu M_ADDI_GM]
 GameMaster Items
 ON=0 GM Robe (undyed)
 ADD i_robe_gm
@@ -349,35 +349,35 @@ ON=0 Blackthorne Robe
 ADD i_PERSON_BLACK_THORNE
 ON=0 Death Shroud
 ADD i_deathshroud
-ON=0 PREVIOUS MENU
-MENU M_GMFEATURES
+ON=0 PREVIOUS Menu
+Menu M_GMFEATURES
 
-[MENU M_TRAV]
+[Menu M_TRAV]
 Travel to Places
 ON=0 Special GM Areas
-MENU M_TRAV_GM
+Menu M_TRAV_GM
 ON=0 Towns
-MENU M_TRAV_TOWN
+Menu M_TRAV_TOWN
 ON=0 Councelor Halls
-MENU M_TRAV_COUNC
+Menu M_TRAV_COUNC
 ON=0 Dungeons
-MENU M_TRAV_DUNG
+Menu M_TRAV_DUNG
 ON=0 Shrines
-MENU M_TRAV_SHRINE
+Menu M_TRAV_SHRINE
 ON=0 Graveyards
-MENU M_TRAV_GRAVE
+Menu M_TRAV_GRAVE
 ON=0 Forts
-MENU M_TRAV_FORT
+Menu M_TRAV_FORT
 ON=0 Sightings
-MENU M_TRAV_SIGHTS
+Menu M_TRAV_SIGHTS
 ON=0 MoonGates
-MENU M_TRAV_MOON
+Menu M_TRAV_MOON
 ON=0 T2A Locations
-MENU M_TRAV_T2A
-ON=0 PREVIOUS MENU
-MENU M_GMFEATURES
+Menu M_TRAV_T2A
+ON=0 PREVIOUS Menu
+Menu M_GMFEATURES
 
-[MENU M_TRAV_GM]
+[Menu M_TRAV_GM]
 Special GM Areas
 ON=0 Jail #1
 GO JAIL1
@@ -405,10 +405,10 @@ ON=0 Green Acres 2
 GO GREEN ACRES 2
 ON=0 Green Acres 3
 GO GREEN ACRES 3
-ON=0 PREVIOUS MENU
-MENU M_TRAV
+ON=0 PREVIOUS Menu
+Menu M_TRAV
 
-[MENU M_TRAV_TOWN]
+[Menu M_TRAV_TOWN]
 Towns
 ON=0 Britain
 go Britain
@@ -438,19 +438,19 @@ ON=0 Wind
 go Wind
 ON=0 Yew
 go Yew
-ON=0 PREVIOUS MENU
-MENU M_TRAV
+ON=0 PREVIOUS Menu
+Menu M_TRAV
 
-[MENU M_TRAV_COUNC]
+[Menu M_TRAV_COUNC]
 Councelor Halls
 ON=0 Moonglow
 go Moonglow Councelor's Guild Hall
 ON=0 Skara Brae
 go Skara Brae Councelor's Guild Hall
-ON=0 PREVIOUS MENU
-MENU M_TRAV
+ON=0 PREVIOUS Menu
+Menu M_TRAV
 
-[MENU M_TRAV_DUNG]
+[Menu M_TRAV_DUNG]
 Dungeons
 ON=0 Covetous (entrance)
 go Covetous Entrance
@@ -466,10 +466,10 @@ ON=0 Shame (entrance)
 go Shame Entrance
 ON=0 Wrong (entrance)
 go Wrong Entrance
-ON=0 PREVIOUS MENU
-MENU M_TRAV
+ON=0 PREVIOUS Menu
+Menu M_TRAV
 
-[MENU M_TRAV_SHRINE]
+[Menu M_TRAV_SHRINE]
 Shrines
 ON=0 Chaos
 go Chaos
@@ -489,10 +489,10 @@ ON=0 Spirituality
 go Spirituality
 ON=0 Valor
 go Valor
-ON=0 PREVIOUS MENU
-MENU M_TRAV
+ON=0 PREVIOUS Menu
+Menu M_TRAV
 
-[MENU M_TRAV_GRAVE]
+[Menu M_TRAV_GRAVE]
 Graveyards
 ON=0 Britain
 go Britain Graveyard
@@ -508,10 +508,10 @@ ON=0 Vesper
 go Vesper Cemetary
 ON=0 Yew
 go Yew Graveyard
-ON=0 PREVIOUS MENU
-MENU M_TRAV
+ON=0 PREVIOUS Menu
+Menu M_TRAV
 
-[MENU M_TRAV_FORT]
+[Menu M_TRAV_FORT]
 Forts
 ON=0 Cove Orc Fort
 go Cove Orc Camp
@@ -521,10 +521,10 @@ ON=0 Yew Fort of the Damned
 go Yew Crypts
 ON=0 Yew Orc Fort
 go Yew Orc Fort
-ON=0 PREVIOUS MENU
-MENU M_TRAV
+ON=0 PREVIOUS Menu
+Menu M_TRAV
 
-[MENU M_TRAV_SIGHTS]
+[Menu M_TRAV_SIGHTS]
 Sightings
 ON=0 Trapper's Camp
 go Vesper Tanner's Huts
@@ -548,10 +548,10 @@ ON=0 Jhelom Fighting Pit
 go Jhelom Fighting Pits
 ON=0 Great Waterfall
 go Great Waterfall
-ON=0 PREVIOUS MENU
-MENU M_TRAV
+ON=0 PREVIOUS Menu
+Menu M_TRAV
 
-[MENU M_TRAV_MOON]
+[Menu M_TRAV_MOON]
 MoonGates
 ON=0 Britain
 go Britain Moongate
@@ -569,10 +569,10 @@ ON=0 Trinsic
 go Trinsic Moongate
 ON=0 Yew
 go Yew Moongate
-ON=0 PREVIOUS MENU
-MENU M_TRAV
+ON=0 PREVIOUS Menu
+Menu M_TRAV
 
-[MENU M_TRAV_T2A]
+[Menu M_TRAV_T2A]
 T2A Locations
 ON=0 Delucia
 go Delucia
@@ -593,11 +593,11 @@ go City of the Dead
 ON=0 Ruins in the Weeds
 go Ruins in the Weeds
 ON=0 Entrances & Exits to T2A
-MENU M_TRAV_T2A_ENT
-ON=0 PREVIOUS MENU
-MENU M_TRAV
+Menu M_TRAV_T2A_ENT
+ON=0 PREVIOUS Menu
+Menu M_TRAV
 
-[MENU M_TRAV_T2A_ENT]
+[Menu M_TRAV_T2A_ENT]
 Entraces & Exits to T2A
 ON=0 Britain Entrance
 go 1497 1641 20
@@ -627,10 +627,10 @@ ON=0 Vesper Entrance
 go 2778 894 0
 ON=0 Vesper Exit
 go 5697 3656 0
-ON=0 PREVIOUS MENU
-MENU M_TRAV_T2A
+ON=0 PREVIOUS Menu
+Menu M_TRAV_T2A
 
-[MENU M_ADDI_VAL]
+[Menu M_ADDI_VAL]
 Valuables
 ON=i_gold <NAME>
 ADD i_gold
@@ -643,11 +643,11 @@ ADD i_ingot_copper
 ON=i_ingot_iron Iron Ingots
 ADD i_ingot_iron
 ON=i_virtstone_8 Gems
-MENU M_ADDI_GEMS
+Menu M_ADDI_GEMS
 ON=i_necklace_gold Jewelry
-MENU M_ADDI_JEWELRY
+Menu M_ADDI_JEWELRY
 
-[MENU M_ADDI_GEMS]
+[Menu M_ADDI_GEMS]
 Gems
 ON=i_gem_amethyst Amethyst
 ADD i_gem_amethyst
@@ -668,14 +668,14 @@ ADD i_gem_star_sapphire
 ON=i_gem_tourmaline Tourmaline
 ADD i_gem_tourmaline
 
-[MENU M_ADDN_NEW]
+[Menu M_ADDN_NEW]
 New Creatures
 ON=0 Skeleton Archer
 ADD c_SKELETONARCHER
-ON=0 PREVIOUS MENU
-MENU M_ADDN
+ON=0 PREVIOUS Menu
+Menu M_ADDN
 
-[MENU M_ADDN_OPHID]
+[Menu M_ADDN_OPHID]
 T2A Creatures (Ophidian & Terathan)
 ON=0 Ophidian Arch Mage
 ADD c_OPHIDIAN_ARCHMAGE
@@ -695,78 +695,78 @@ ON=0 Terathan Matriarch
 ADD c_TERATHAN_MATRIARCH
 ON=0 Terathan Warrior
 ADD c_TERATHAN_WARRIOR
-ON=0 PREVIOUS MENU
-MENU M_ADDN_T2A
+ON=0 PREVIOUS Menu
+Menu M_ADDN_T2A
 
-[MENU M_ADDN]
+[Menu M_ADDN]
 NPCs
 ON=0 Males
-MENU M_ADDN_MAL
+Menu M_ADDN_MAL
 ON=0 Females
-MENU M_ADDN_FEM
+Menu M_ADDN_FEM
 ON=0 Wild Animals
-MENU M_ADDN_WILD
+Menu M_ADDN_WILD
 ON=0 Domestic Animals
-MENU M_ADDN_DOM
+Menu M_ADDN_DOM
 ON=0 Living Creatures
-MENU M_ADDN_LIV
+Menu M_ADDN_LIV
 ON=0 Undead Creatures
-MENU M_ADDN_UND
+Menu M_ADDN_UND
 ON=0 Mythical Creatures
-MENU M_ADDN_MYTH
+Menu M_ADDN_MYTH
 ON=0 New Creatures
-MENU M_ADDN_NEW
+Menu M_ADDN_NEW
 ON=0 T2A Creatures
-MENU M_ADDN_T2A
-ON=0 PREVIOUS MENU
-MENU MENU_ADDITEM
+Menu M_ADDN_T2A
+ON=0 PREVIOUS Menu
+Menu Menu_ADDITEM
 
-[MENU M_ADDN_MAL]
+[Menu M_ADDN_MAL]
 Male NPCs
 ON=0 Shopkeepers
-MENU M_ADDN_MSHOP
+Menu M_ADDN_MSHOP
 ON=0 Town Based
-MENU M_ADDN_MTOWN
+Menu M_ADDN_MTOWN
 ON=0 Wilderness & Town Based
-MENU M_ADDN_MWILD
+Menu M_ADDN_MWILD
 ON=0 Fighters & Guards
-MENU M_ADDN_MFIGHT
+Menu M_ADDN_MFIGHT
 ON=0 Evil (Player Killers)
-MENU M_ADDN_MEVIL
-ON=0 PREVIOUS MENU
-MENU M_ADDN
+Menu M_ADDN_MEVIL
+ON=0 PREVIOUS Menu
+Menu M_ADDN
 
-[MENU M_ADDN_FEM]
+[Menu M_ADDN_FEM]
 Female NPCs
 ON=0 Shopkeepers
-MENU M_ADDN_FSHOP
+Menu M_ADDN_FSHOP
 ON=0 Town Based
-MENU M_ADDN_FTOWN
+Menu M_ADDN_FTOWN
 ON=0 Wilderness & Town Based
-MENU M_ADDN_FWILD
+Menu M_ADDN_FWILD
 ON=0 Fighters & Guards
-MENU M_ADDN_FFIGHT
+Menu M_ADDN_FFIGHT
 ON=0 Evil (Player Killers)
-MENU M_ADDN_FEVIL
-ON=0 PREVIOUS MENU
-MENU M_ADDN
+Menu M_ADDN_FEVIL
+ON=0 PREVIOUS Menu
+Menu M_ADDN
 
-[MENU M_ADDN_WILD]
+[Menu M_ADDN_WILD]
 Wild Animals
 ON=0 Forest
-MENU M_ADDN_WILD_FOR
+Menu M_ADDN_WILD_FOR
 ON=0 Swamp
-MENU M_ADDN_WILD_SWAMP
+Menu M_ADDN_WILD_SWAMP
 ON=0 Northern
-MENU M_ADDN_WILD_NOR
+Menu M_ADDN_WILD_NOR
 ON=0 Sea
-MENU M_ADDN_WILD_SEA
+Menu M_ADDN_WILD_SEA
 ON=0 Flying
-MENU M_ADDN_WILD_FLY
-ON=0 PREVIOUS MENU
-MENU M_ADDN
+Menu M_ADDN_WILD_FLY
+ON=0 PREVIOUS Menu
+Menu M_ADDN
 
-[MENU M_ADDN_DOM]
+[Menu M_ADDN_DOM]
 Domestic Animals
 ON=0 Horse (brown)
 ADD c_horse_brown_dk
@@ -800,10 +800,10 @@ ON=0 Cat
 ADD c_cat
 ON=0 Dog
 ADD c_dog
-ON=0 PREVIOUS MENU
-MENU M_ADDN
+ON=0 PREVIOUS Menu
+Menu M_ADDN
 
-[MENU M_ADDN_LIV]
+[Menu M_ADDN_LIV]
 Living Creatures
 ON=0 Corpser
 ADD c_corpser
@@ -818,7 +818,7 @@ ADD c_OGRE
 ON=0 Ogre Lord
 ADD c_ogre_lord
 ON=0 Ettin, Lizmen, Orc, Ratmen, Troll
-MENU M_ADDN_ETTIN
+Menu M_ADDN_ETTIN
 ON=0 Reaper
 ADD c_reaper
 ON=0 Slime
@@ -831,10 +831,10 @@ ON=0 Giant Serpent
 ADD c_snake_giant
 ON=0 Giant Rat
 ADD c_rat_giant
-ON=0 PREVIOUS MENU
-MENU M_ADDN
+ON=0 PREVIOUS Menu
+Menu M_ADDN
 
-[MENU M_ADDN_UND]
+[Menu M_ADDN_UND]
 Undead Creatures
 ON=0 Spectre
 ADD c_SPECTRE
@@ -856,10 +856,10 @@ ON=0 Skeletal Mage
 ADD c_skeleton_mage
 ON=0 Zombie
 ADD c_ZOMBIE
-ON=0 PREVIOUS MENU
-MENU M_ADDN
+ON=0 PREVIOUS Menu
+Menu M_ADDN
 
-[MENU M_ADDN_MYTH]
+[Menu M_ADDN_MYTH]
 Mythical Creatures
 ON=0 Air Elemental
 ADD c_elem_AIR
@@ -893,10 +893,10 @@ ON=0 Elder Gazer
 ADD c_gazer_elder
 ON=0 Sea Serpent
 ADD c_SEA_SERPENT
-ON=0 PREVIOUS MENU
-MENU M_ADDN
+ON=0 PREVIOUS Menu
+Menu M_ADDN
 
-[MENU M_ADDN_T2A]
+[Menu M_ADDN_T2A]
 T2A Creatures
 ON=0 Bullfrog
 ADD c_bullfrog
@@ -927,15 +927,15 @@ ADD c_TOAD_GIANT
 ON=0 Titan
 ADD c_TITAN
 ON=0 Wyrm & Wyvern
-MENU M_ADDN_WYRM
+Menu M_ADDN_WYRM
 ON=0 Ophidian's & Terathan's
-MENU M_ADDN_OPHID
+Menu M_ADDN_OPHID
 ON=0 Ice Creatures & Ostards
-MENU M_ADDN_T2A_ICE
-ON=0 PREVIOUS MENU
-MENU M_ADDN
+Menu M_ADDN_T2A_ICE
+ON=0 PREVIOUS Menu
+Menu M_ADDN
 
-[MENU M_ADDN_ETTIN]
+[Menu M_ADDN_ETTIN]
 Ettin, Lizmen, Orc, Ratmen, Troll
 ON=0 Ettin
 ADD c_ettin
@@ -969,27 +969,27 @@ ON=0 Troll (with mace)
 ADD c_troll_w_mace
 ON=0 Troll (with axe)
 ADD c_troll_w_axe
-ON=0 PREVIOUS MENU
-MENU M_ADDN_LIV
+ON=0 PREVIOUS Menu
+Menu M_ADDN_LIV
 
-[MENU M_ADDN_MSHOP]
+[Menu M_ADDN_MSHOP]
 Male Shopkeepers
 ON=0 Food
-MENU M_ADDN_MSHOPFOO
+Menu M_ADDN_MSHOPFOO
 ON=0 Clothing
-MENU M_ADDN_MSHOPCLO
+Menu M_ADDN_MSHOPCLO
 ON=0 Combat
-MENU M_ADDN_MSHOPCOM
+Menu M_ADDN_MSHOPCOM
 ON=0 Magery
-MENU M_ADDN_MSHOPMAG
+Menu M_ADDN_MSHOPMAG
 ON=0 Equipment
-MENU M_ADDN_MSHOPEQ
+Menu M_ADDN_MSHOPEQ
 ON=0 Other
-MENU M_ADDN_MSHOPO
-ON=0 PREVIOUS MENU
-MENU M_ADDN_MAL
+Menu M_ADDN_MSHOPO
+ON=0 PREVIOUS Menu
+Menu M_ADDN_MAL
 
-[MENU M_ADDN_MSHOPFOO]
+[Menu M_ADDN_MSHOPFOO]
 Male Shopkeepers (food)
 ON=0 Butcher
 ADD C_H_BUTCHER
@@ -1010,7 +1010,7 @@ ADD C_H_BEEKEEPER
 ON=0 Tavernkeeper
 ADD C_H_TAVERNKEEPER
 
-[MENU M_ADDN_MSHOPCLO]
+[Menu M_ADDN_MSHOPCLO]
 Male Shopkeepers (cloths)
 ON=0 Cobbler
 ADD C_H_COBBLER
@@ -1023,7 +1023,7 @@ ADD C_H_WEAVER
 ON=0 Fur Trader
 ADD C_H_FURTRADER
 
-[MENU M_ADDN_MSHOPCOM]
+[Menu M_ADDN_MSHOPCOM]
 Male Shopkeepers (Combat)
 ON=0 Blacksmith
 ADD C_H_BLACKSMITH
@@ -1036,7 +1036,7 @@ ADD C_H_ARMORER
 ON=0 Bowyer
 ADD C_H_BOWYER
 
-[MENU M_ADDN_MSHOPMAG]
+[Menu M_ADDN_MSHOPMAG]
 Male Shopkeepers (Magery)
 ON=0 Mage
 ADD C_H_MAGESHOP
@@ -1047,7 +1047,7 @@ ADD C_H_HERBALIST
 ON=0 Scribe
 ADD C_H_SCRIBE
 
-[MENU M_ADDN_MSHOPEQ]
+[Menu M_ADDN_MSHOPEQ]
 Male Shopkeepers (Equip)
 ON=0 Provisioner
 ADD C_H_PROVIS
@@ -1058,7 +1058,7 @@ ADD C_H_CARPENTER
 ON=0 Architect
 ADD C_H_ARCHITECT
 
-[MENU M_ADDN_MSHOPO]
+[Menu M_ADDN_MSHOPO]
 Male Shopkeepers (Other)
 ON=0 Healer
 ADD C_H_HEALER
@@ -1069,7 +1069,7 @@ ADD C_H_MAPMAKER
 ON=0 Animal Trainer
 ADD C_H_ANIMALTRAINER
 
-[MENU M_ADDN_MTOWN]
+[Menu M_ADDN_MTOWN]
 Male Town Based
 ON=0 Banker
 ADD C_H_BANKER
@@ -1102,7 +1102,7 @@ ADD C_H_VET
 ON=0 Glassblower
 ADD C_H_GLASSBLOWER
 
-[MENU M_ADDN_MWILD]
+[Menu M_ADDN_MWILD]
 Male Wilderness & Town
 ON=0 Peasant
 ADD C_H_PEASANT
@@ -1127,7 +1127,7 @@ ADD C_H_RANCHER
 ON=0 Miner
 ADD C_H_MINER
 
-[MENU M_ADDN_MFIGHT]
+[Menu M_ADDN_MFIGHT]
 Male Fighters & Guards
 ON=0 Guard
 ADD C_H_GUARD
@@ -1148,7 +1148,7 @@ ADD C_H_WEAPONSTRAINER
 ON=0 Mage
 ADD C_H_MAGE
 
-[MENU M_ADDN_MEVIL]
+[Menu M_ADDN_MEVIL]
 Male Evil (Player Killers)
 ON=0 Brigand
 ADD C_H_BRIGAND
@@ -1157,24 +1157,24 @@ ADD C_H_EVILMAGE
 ON=0 Pirate
 ADD C_H_PIRATE
 
-[MENU M_ADDN_FSHOP]
+[Menu M_ADDN_FSHOP]
 Female Shopkeepers
 ON=0 Food
-MENU M_ADDN_FSHOPFOOD
+Menu M_ADDN_FSHOPFOOD
 ON=0 Clothing
-MENU M_ADDN_FSHOPCLOTH
+Menu M_ADDN_FSHOPCLOTH
 ON=0 Combat
-MENU M_ADDN_FSHOPCOMB
+Menu M_ADDN_FSHOPCOMB
 ON=0 Magery
-MENU M_ADDN_FSHOPMAG
+Menu M_ADDN_FSHOPMAG
 ON=0 Equipment
-MENU M_ADDN_FSHOPEQ
+Menu M_ADDN_FSHOPEQ
 ON=0 Other
-MENU M_ADDN_FSHOPO
-ON=0 PREVIOUS MENU
-MENU M_ADDN_FEM
+Menu M_ADDN_FSHOPO
+ON=0 PREVIOUS Menu
+Menu M_ADDN_FEM
 
-[MENU M_ADDN_FSHOPFOOD]
+[Menu M_ADDN_FSHOPFOOD]
 Female Shopkeepers (food)
 ON=0 Butcher
 ADD C_H_BUTCHER_F
@@ -1194,10 +1194,10 @@ ON=0 Beekeeper
 ADD C_H_BEEKEEPER_F
 ON=0 Tavernkeeper
 ADD C_H_TAVERNKEEPER_F
-ON=0 PREVIOUS MENU
-MENU M_ADDN_FSHOP
+ON=0 PREVIOUS Menu
+Menu M_ADDN_FSHOP
 
-[MENU M_ADDN_FSHOPCLOTH]
+[Menu M_ADDN_FSHOPCLOTH]
 Female Shopkeepers (cloths)
 ON=0 Cobbler
 ADD C_H_COBBLER_F
@@ -1209,10 +1209,10 @@ ON=0 Weaver
 ADD C_H_WEAVER_F
 ON=0 Fur Trader
 ADD C_H_FURTRADER_F
-ON=0 PREVIOUS MENU
-MENU M_ADDN_FSHOP
+ON=0 PREVIOUS Menu
+Menu M_ADDN_FSHOP
 
-[MENU M_ADDN_FSHOPCOMB]
+[Menu M_ADDN_FSHOPCOMB]
 Female Shopkeepers (Combat)
 ON=0 Blacksmith
 ADD C_H_BLACKSMITH_F
@@ -1224,10 +1224,10 @@ ON=0 Armorer
 ADD C_H_ARMORER_F
 ON=0 Bowyer
 ADD C_H_BOWYER_F
-ON=0 PREVIOUS MENU
-MENU M_ADDN_FSHOP
+ON=0 PREVIOUS Menu
+Menu M_ADDN_FSHOP
 
-[MENU M_ADDN_FSHOPMAG]
+[Menu M_ADDN_FSHOPMAG]
 Female Shopkeepers (Magery)
 ON=0 Mage
 ADD C_H_MAGESHOP_F
@@ -1237,10 +1237,10 @@ ON=0 Herbalist
 ADD C_H_HERBALIST_F
 ON=0 Scribe
 ADD C_H_SCRIBE_F
-ON=0 PREVIOUS MENU
-MENU M_ADDN_FSHOP
+ON=0 PREVIOUS Menu
+Menu M_ADDN_FSHOP
 
-[MENU M_ADDN_FSHOPEQ]
+[Menu M_ADDN_FSHOPEQ]
 Female Shopkeepers (Equip)
 ON=0 Provisioner
 ADD C_H_PROVIS_F
@@ -1250,10 +1250,10 @@ ON=0 Carpenter
 ADD C_H_CARPENTER_F
 ON=0 Architect
 ADD C_H_ARCHITECT_F
-ON=0 PREVIOUS MENU
-MENU M_ADDN_FSHOP
+ON=0 PREVIOUS Menu
+Menu M_ADDN_FSHOP
 
-[MENU M_ADDN_FSHOPO]
+[Menu M_ADDN_FSHOPO]
 Female Shopkeepers (Other)
 ON=0 Healer
 ADD C_H_HEALER_F
@@ -1263,10 +1263,10 @@ ON=0 MapMaker
 ADD C_H_MAPMAKER_F
 ON=0 Animal Trainer
 ADD C_H_ANIMALTRAINER_F
-ON=0 PREVIOUS MENU
-MENU M_ADDN_FSHOP
+ON=0 PREVIOUS Menu
+Menu M_ADDN_FSHOP
 
-[MENU M_ADDN_FTOWN]
+[Menu M_ADDN_FTOWN]
 Female Town Based
 ON=0 Banker
 ADD C_H_BANKER_F
@@ -1298,10 +1298,10 @@ ON=0 Veterinarian
 ADD C_H_VET_F
 ON=0 Glassblower
 ADD C_H_GLASSBLOWER_F
-ON=0 PREVIOUS MENU
-MENU M_ADDN_FSHOP
+ON=0 PREVIOUS Menu
+Menu M_ADDN_FSHOP
 
-[MENU M_ADDN_FWILD]
+[Menu M_ADDN_FWILD]
 Female Wilderness & Town
 ON=0 Peasant
 ADD C_H_PEASANT_F
@@ -1325,10 +1325,10 @@ ON=0 Rancher
 ADD C_H_RANCHER_F
 ON=0 Miner
 ADD C_H_MINER_F
-ON=0 PREVIOUS MENU
-MENU M_ADDN_FSHOP
+ON=0 PREVIOUS Menu
+Menu M_ADDN_FSHOP
 
-[MENU M_ADDN_FFIGHT]
+[Menu M_ADDN_FFIGHT]
 Female Fighters & Guards
 ON=0 Guard
 ADD C_H_GUARD
@@ -1348,10 +1348,10 @@ ON=0 Weapons Trainer
 ADD C_H_WEAPONSTRAINER
 ON=0 Mage
 ADD C_H_MAGE
-ON=0 PREVIOUS MENU
-MENU M_ADDN_FSHOP
+ON=0 PREVIOUS Menu
+Menu M_ADDN_FSHOP
 
-[MENU M_ADDN_FEVIL]
+[Menu M_ADDN_FEVIL]
 Female Evil (Player Killers)
 ON=0 Brigand
 ADD C_H_BRIGAND_F
@@ -1359,10 +1359,10 @@ ON=0 Evil Mage
 ADD C_H_EVILMAGE_F
 ON=0 Pirate
 ADD C_H_PIRATE_F
-ON=0 PREVIOUS MENU
-MENU M_ADDN_FSHOP
+ON=0 PREVIOUS Menu
+Menu M_ADDN_FSHOP
 
-[MENU M_ADDN_WILD_FOR]
+[Menu M_ADDN_WILD_FOR]
 Wild Animals (Forest & Jungle)
 ON=0 Brown Bear
 ADD c_bear_brown
@@ -1396,19 +1396,19 @@ ON=0 Timber Wolf
 ADD c_wolf
 ON=0 Gorilla
 ADD c_GORILLA
-ON=0 PREVIOUS MENU
-MENU M_ADDN_WILD
+ON=0 PREVIOUS Menu
+Menu M_ADDN_WILD
 
-[MENU M_ADDN_WILD_SWAMP]
+[Menu M_ADDN_WILD_SWAMP]
 Wild Animals (Swamp)
 ON=0 Alligator
 ADD c_ALLIGATOR
 ON=0 Snake
 ADD c_SNAKE
-ON=0 PREVIOUS MENU
-MENU M_ADDN_WILD
+ON=0 PREVIOUS Menu
+Menu M_ADDN_WILD
 
-[MENU M_ADDN_WILD_NOR]
+[Menu M_ADDN_WILD_NOR]
 Wild Animals (Northern)
 ON=0 Polar Bear
 ADD c_BEAR_POLAR
@@ -1416,19 +1416,19 @@ ON=0 Snow Leopard
 ADD C_A_SNOW_LEOPARD
 ON=0 White Wolf
 ADD C_A_WOLF_WHITE
-ON=0 PREVIOUS MENU
-MENU M_ADDN_WILD
+ON=0 PREVIOUS Menu
+Menu M_ADDN_WILD
 
-[MENU M_ADDN_WILD_SEA]
+[Menu M_ADDN_WILD_SEA]
 Wild Animals (Sea)
 ON=i_pet_dolphin Dolphin
 ADD c_DOLPHIN
 ON=i_pet_walrus Walrus
 ADD c_WALRUS
-ON=i_hand_7 PREVIOUS MENU
-MENU M_ADDN_WILD
+ON=i_hand_7 PREVIOUS Menu
+Menu M_ADDN_WILD
 
-[MENU M_ADDN_WILD_FLY]
+[Menu M_ADDN_WILD_FLY]
 Wild Animals (Flying)
 ON=0 Bird
 ADD c_BIRD
@@ -1445,7 +1445,7 @@ ADD c_EAGLE
 ON=0 Chicken
 ADD c_CHICKEN
 
-[MENU M_ADDN_T2A_ICE]
+[Menu M_ADDN_T2A_ICE]
 T2A Ice Creatures & Ostards
 ON=0 Ice Elemental
 ADD c_elem_ice
@@ -1461,19 +1461,19 @@ ON=0 Zostrich (Frenzied Ostard)
 ADD c_OSTARD_ZOSTRICH
 ON=0 Orn (Forest Ostard)
 ADD c_OSTARD_Forest
-ON=0 PREVIOUS MENU
-MENU M_ADDN_T2A
+ON=0 PREVIOUS Menu
+Menu M_ADDN_T2A
 
-[MENU M_ADDN_WYRM]
+[Menu M_ADDN_WYRM]
 T2A Creatures (Wyrm & Wyvern)
 ON=0 White Wyrm
 ADD c_dragon_ice
 ON=0 Wyvern
 ADD c_wyvern
-ON=0 PREVIOUS MENU
-MENU M_ADDN_T2A
+ON=0 PREVIOUS Menu
+Menu M_ADDN_T2A
 
-[MENU M_ADDI_JEWELRY]
+[Menu M_ADDI_JEWELRY]
 Valuables (Jewelry)
 ON=i_necklace_metal_beads Beaded Necklace
 ADD i_necklace_metal_beads
@@ -1500,7 +1500,7 @@ ADD i_ring_silver
 ON=i_beads Beads
 ADD i_beads
 
-[MENU M_ADDI_MAGIC]
+[Menu M_ADDI_MAGIC]
 Magic Items
 ON=0 Spellbook (empty)
 ADD i_spellbook
@@ -1509,31 +1509,31 @@ ADD i_rune_marker
 ON=0 Crystal Ball
 ADD i_crystal_ball
 ON=0 Wands
-MENU M_ADDI_WANDS
+Menu M_ADDI_WANDS
 ON=0 Alchemy
-MENU M_ADDI_ALCHEM
+Menu M_ADDI_ALCHEM
 ON=0 Spell Circle 1 Scrolls
-MENU M_ADDI_SCR1
+Menu M_ADDI_SCR1
 ON=0 Spell Circle 2 Scrolls
-MENU M_ADDI_SCR2
+Menu M_ADDI_SCR2
 ON=0 Spell Circle 3 Scrolls
-MENU M_ADDI_SCR3
+Menu M_ADDI_SCR3
 ON=0 Spell Circle 4 Scrolls
-MENU M_ADDI_SCR4
+Menu M_ADDI_SCR4
 ON=0 Spell Circle 5 Scrolls
-MENU M_ADDI_SCR5
+Menu M_ADDI_SCR5
 ON=0 Spell Circle 6 Scrolls
-MENU M_ADDI_SCR6
+Menu M_ADDI_SCR6
 ON=0 Spell Circle 7 Scrolls
-MENU M_ADDI_SCR7
+Menu M_ADDI_SCR7
 ON=0 Spell Circle 8 Scrolls
-MENU M_ADDI_SCR8
+Menu M_ADDI_SCR8
 ON=0 Reagents
-MENU M_ADDI_REAGS
-ON=0 PREVIOUS MENU
-MENU MENU_ADDITEM
+Menu M_ADDI_REAGS
+ON=0 PREVIOUS Menu
+Menu Menu_ADDITEM
 
-[MENU M_ADDI_ALCHEM]
+[Menu M_ADDI_ALCHEM]
 Magic Items (Alchemy)
 ON=0 Mortar
 ADD i_mortar_pestle
@@ -1555,10 +1555,10 @@ ON=0 Red Potion
 ADD i_bottle_red
 ON=0 Purple Potion
 ADD i_bottle_purple
-ON=0 PREVIOUS MENU
-MENU M_ADDI_MAGIC
+ON=0 PREVIOUS Menu
+Menu M_ADDI_MAGIC
 
-[MENU M_ADDI_SCR1]
+[Menu M_ADDI_SCR1]
 Magic Items (Spell Circle 1 Scrolls)
 ON=0 Reactive Armor Scroll
 ADD i_scroll_reactive_armor
@@ -1576,10 +1576,10 @@ ON=0 Night Sight Scroll
 ADD i_scroll_night_sight
 ON=0 Weaken Scroll
 ADD i_scroll_weaken
-ON=0 PREVIOUS MENU
-MENU M_ADDI_MAGIC
+ON=0 PREVIOUS Menu
+Menu M_ADDI_MAGIC
 
-[MENU M_ADDI_SCR2]
+[Menu M_ADDI_SCR2]
 Magic Items (Spell Circle 2 Scrolls)
 ON=0 Agility Scroll
 ADD i_scroll_agility
@@ -1597,10 +1597,10 @@ ON=0 Protection Scroll
 ADD i_scroll_protection
 ON=0 Strength Scroll
 ADD i_scroll_strength
-ON=0 PREVIOUS MENU
-MENU M_ADDI_MAGIC
+ON=0 PREVIOUS Menu
+Menu M_ADDI_MAGIC
 
-[MENU M_ADDI_SCR3]
+[Menu M_ADDI_SCR3]
 Magic Items (Spell Circle 3 Scrolls)
 ON=0 Bless Scroll
 ADD i_scroll_bless
@@ -1618,10 +1618,10 @@ ON=0 UnLock Scroll
 ADD i_scroll_unlock
 ON=0 Wall of Stone Scroll
 ADD i_scroll_wall_of_stone
-ON=0 PREVIOUS MENU
-MENU M_ADDI_MAGIC
+ON=0 PREVIOUS Menu
+Menu M_ADDI_MAGIC
 
-[MENU M_ADDI_SCR4]
+[Menu M_ADDI_SCR4]
 Magic Items (Spell Circle 4 Scrolls)
 ON=i_scroll_ARCHCURE Archcure Scroll
 ADD i_scroll_ARCHCURE
@@ -1639,10 +1639,10 @@ ON=0 Mana Drain Scroll
 ADD i_scroll_mana_drain
 ON=0 Recall Scroll
 ADD i_scroll_recall
-ON=0 PREVIOUS MENU
-MENU M_ADDI_MAGIC
+ON=0 PREVIOUS Menu
+Menu M_ADDI_MAGIC
 
-[MENU M_ADDI_SCR5]
+[Menu M_ADDI_SCR5]
 Magic Items (Spell Circle 5 Scrolls)
 ON=0 Bladespirit Scroll
 ADD i_scroll_blade_spirits
@@ -1660,10 +1660,10 @@ ON=0 Poison Field Scroll
 ADD i_scroll_poison_field
 ON=0 Summon Creature Scroll
 ADD i_scroll_summon_creature
-ON=0 PREVIOUS MENU
-MENU M_ADDI_MAGIC
+ON=0 PREVIOUS Menu
+Menu M_ADDI_MAGIC
 
-[MENU M_ADDI_SCR6]
+[Menu M_ADDI_SCR6]
 Magic Items (Spell Circle 6 Scrolls)
 ON=0 Dispel Scroll
 ADD i_scroll_dispel
@@ -1681,10 +1681,10 @@ ON=0 Paralyze Field Scroll
 ADD i_scroll_paralyze_field
 ON=0 Reveal Scroll
 ADD i_scroll_reveal
-ON=0 PREVIOUS MENU
-MENU M_ADDI_MAGIC
+ON=0 PREVIOUS Menu
+Menu M_ADDI_MAGIC
 
-[MENU M_ADDI_SCR7]
+[Menu M_ADDI_SCR7]
 Magic Items (Spell Circle 7 Scrolls)
 ON=0 Chain Lightning Scroll
 ADD i_scroll_chain_lightning
@@ -1702,10 +1702,10 @@ ON=0 Metor Swarm Scroll
 ADD i_scroll_meteor_swarm
 ON=0 Ploymorph Scroll
 ADD i_scroll_polymorph
-ON=0 PREVIOUS MENU
-MENU M_ADDI_MAGIC
+ON=0 PREVIOUS Menu
+Menu M_ADDI_MAGIC
 
-[MENU M_ADDI_SCR8]
+[Menu M_ADDI_SCR8]
 Magic Items (Spell Circle 8 Scrolls)
 ON=0 Earth Quake Scroll
 ADD i_scroll_earthquake
@@ -1723,10 +1723,10 @@ ON=0 Fire Elemental Scroll
 ADD i_scroll_summon_elem_fire
 ON=0 Water Elemental Scroll
 ADD i_scroll_SUMMON_elem_WATER
-ON=0 PREVIOUS MENU
-MENU M_ADDI_MAGIC
+ON=0 PREVIOUS Menu
+Menu M_ADDI_MAGIC
 
-[MENU M_ADDI_REAGS]
+[Menu M_ADDI_REAGS]
 Magic Items (Reagents)
 ON=i_reag_blood_moss Bloodmoss
 ADD i_reag_blood_moss
@@ -1745,7 +1745,7 @@ ADD i_reag_mandrake_root
 ON=i_reag_nightshade Nightshade
 ADD i_reag_nightshade
 
-[MENU M_ADDI_WANDS]
+[Menu M_ADDI_WANDS]
 Magic Items (Wands)
 ON=i_wand_1 Wand 1
 ADD i_wand_1
@@ -1756,34 +1756,34 @@ ADD i_wand_3
 ON=i_wand_4 Wand 4
 ADD i_wand_4
 
-[MENU M_ADDI_TOOLS]
+[Menu M_ADDI_TOOLS]
 Tools & Trades
 ON=0 Blacksmiths Tools
-MENU M_ADDI_TOOL_SMITH
+Menu M_ADDI_TOOL_SMITH
 ON=0 Carpenters Tools
-MENU M_ADDI_TOOL_CARP
+Menu M_ADDI_TOOL_CARP
 ON=0 Tailors Tools
-MENU M_ADDI_TOOL_TAIL
+Menu M_ADDI_TOOL_TAIL
 ON=0 Bakers Tools
-MENU M_ADDI_TOOL_COOK
+Menu M_ADDI_TOOL_COOK
 ON=0 Mages Tools
-MENU M_ADDI_TOOL_MAGE
+Menu M_ADDI_TOOL_MAGE
 ON=0 Alchemists Tools
-MENU M_ADDI_TOOL_ALCH
+Menu M_ADDI_TOOL_ALCH
 ON=0 BeeKeepers Tools
-MENU M_ADDI_TOOL_BEE
+Menu M_ADDI_TOOL_BEE
 ON=0 Farmers Tools
-MENU M_ADDI_TOOL_FARM
+Menu M_ADDI_TOOL_FARM
 ON=0 Tinkers Tools
-MENU M_ADDI_TOOL_TINK
+Menu M_ADDI_TOOL_TINK
 ON=0 TavernKeepers Tools
-MENU M_ADDI_TOOL_TAVR
+Menu M_ADDI_TOOL_TAVR
 ON=0 Fisherman Tools
-MENU M_FISH_TOOLS
-ON=0 PREVIOUS MENU
-MENU MENU_ADDITEM
+Menu M_FISH_TOOLS
+ON=0 PREVIOUS Menu
+Menu Menu_ADDITEM
 
-[MENU M_ADDI_TOOL_SMITH]
+[Menu M_ADDI_TOOL_SMITH]
 Tools & Trades (Smithing)
 ON=i_forge Forge
 ADD i_forge
@@ -1824,7 +1824,7 @@ ADD i_forge_2_part_2_of_3_s
 ON=i_forge_2_part_3_of_3_s_4 Large Forge EW Part3
 ADD i_forge_2_part_3_of_3_s_4
 
-[MENU M_ADDI_TOOL_CARP]
+[Menu M_ADDI_TOOL_CARP]
 Tools & Trades (Carpenter)
 ON=i_hammer Hammer
 ADD i_hammer
@@ -1843,7 +1843,7 @@ ADD i_saw_dovetail
 ON=i_log Logs
 ADD i_log
 
-[MENU M_ADDI_TOOL_TAIL]
+[Menu M_ADDI_TOOL_TAIL]
 Tools & Trades (Tailor)
 ON=i_spinning_wheel Spinning Wheel
 ADD i_spinning_wheel
@@ -1858,7 +1858,7 @@ ADD i_scissors
 ON=i_bottle_hair_dye Hair Dye
 ADD i_bottle_hair_dye
 
-[MENU M_ADDI_TOOL_COOK]
+[Menu M_ADDI_TOOL_COOK]
 Tools & Trades (Baker)
 ON=i_flour_sifter Flour Sifter
 ADD i_flour_sifter
@@ -1869,18 +1869,18 @@ ADD i_SPOON_WOOD_SMALL
 ON=i_SPOON_WOOD_LARGE Large Wooden Spoon
 ADD i_SPOON_WOOD_LARGE
 
-[MENU M_ADDI_TOOL_MAGE]
+[Menu M_ADDI_TOOL_MAGE]
 Tools & Trades (Mage)
 ON=i_scroll_blank Blank Scroll
 ADD i_scroll_blank
 ON=i_rune_marker Unmarked Recall Rune
 ADD i_rune_marker
 ON=i_reag_blood_moss Reagents
-MENU M_ADDI_REAGS
+Menu M_ADDI_REAGS
 ON=i_wand_1 Wands
-MENU M_ADDI_WANDS
+Menu M_ADDI_WANDS
 
-[MENU M_ADDI_TOOL_ALCH]
+[Menu M_ADDI_TOOL_ALCH]
 Tools & Trades (Alchemist)
 ON=i_vial_empty Empty Vial
 ADD i_vial_empty
@@ -1889,16 +1889,16 @@ ADD i_bottle_empty
 ON=i_mortar_pestle Mortar & Pestle
 ADD i_mortar_pestle
 ON=i_reag_blood_moss Reagents
-MENU M_ADDI_REAGS
+Menu M_ADDI_REAGS
 
-[MENU M_ADDI_TOOL_BEE]
+[Menu M_ADDI_TOOL_BEE]
 Tools & Trades (Beekeeper)
 ON=i_beehive Beehive
 ADD i_beehive
 ON=i_BEE_SWARM Bees
 ADD i_BEE_SWARM
 
-[MENU M_ADDI_TOOL_FARM]
+[Menu M_ADDI_TOOL_FARM]
 Tools & Trades (Farmer)
 ON=i_pitchfork Pitchfork
 ADD i_pitchfork
@@ -1911,7 +1911,7 @@ ADD i_hatchet
 ON=i_pickaxe Pickaxe
 ADD i_pickaxe
 
-[MENU M_ADDI_TOOL_TINK]
+[Menu M_ADDI_TOOL_TINK]
 Tools & Trades (Tinker)
 ON=i_tinker_tools Tinkers Tools
 ADD i_tinker_tools
@@ -1936,7 +1936,7 @@ ADD i_axle_and_gears
 ON=i_springs Springs
 ADD i_springs
 
-[MENU M_ADDI_TOOL_TAVR]
+[Menu M_ADDI_TOOL_TAVR]
 Tools & Trades (Tavern)
 ON=i_fork Fork
 ADD i_fork
@@ -1979,14 +1979,14 @@ ADD i_pan
 ON=i_kettle Kettle
 ADD i_kettle
 
-[MENU M_ADDI_RAWMAT]
+[Menu M_ADDI_RAWMAT]
 Raw Materials
 ON=i_ore_iron Iron Ore
 ADD i_ore_iron
 ON=i_FEATHER Feathers
 ADD i_FEATHER
 ON=i_gem_diamond Gems
-MENU M_ADDI_GEMS
+Menu M_ADDI_GEMS
 ON=i_cotton Pile of Cotton
 ADD i_cotton
 ON=i_hide Pile of Hides
@@ -2006,7 +2006,7 @@ ADD i_ingot_iron
 ON=i_ingot_silver <NAME>
 ADD i_ingot_silver
 
-[MENU M_ADDI_RAWMAT_MISC]
+[Menu M_ADDI_RAWMAT_MISC]
 Scattered Materials
 ON=i_hay_scattered Scattered Hay
 ADD i_hay_scattered
@@ -2015,7 +2015,7 @@ ADD i_hay_bits_scattered_small
 ON=i_garbage Scattered Garbage
 ADD i_garbage
 
-[MENU M_FISH_TOOLS]
+[Menu M_FISH_TOOLS]
 Tools & Trades (Fisherman)
 ON=i_fishing_pole Fishing Pole
 ADD i_fishing_pole
@@ -2030,40 +2030,40 @@ ADD i_fishing_net_4
 ON=i_FISHING_WEIGHT Fishing Weight
 ADD i_FISHING_WEIGHT
 
-[MENU M_ADDI_WEPARM]
+[Menu M_ADDI_WEPARM]
 Weapons & Armor
 ON=0 Swords
-MENU M_ADDI_SWORDS
+Menu M_ADDI_SWORDS
 ON=0 Maces
-MENU M_ADDI_MACES
+Menu M_ADDI_MACES
 ON=0 Axes
-MENU M_ADDI_AXES
+Menu M_ADDI_AXES
 ON=0 Pole Arms
-MENU M_ADDI_POLEARM
+Menu M_ADDI_POLEARM
 ON=0 Bows
-MENU M_ADDI_BOWS
+Menu M_ADDI_BOWS
 ON=0 Shields
-MENU M_ADDI_SHIELDS
+Menu M_ADDI_SHIELDS
 ON=0 Plate Armor
-MENU M_PLATE_ARMOR
+Menu M_PLATE_ARMOR
 ON=0 Bone Armor
-MENU M_BONE_ARMOR
+Menu M_BONE_ARMOR
 ON=0 Chain Mail Armor
-MENU M_CHAIN_ARMOR
+Menu M_CHAIN_ARMOR
 ON=0 Ring Mail Armor
-MENU M_RING_ARMOR
+Menu M_RING_ARMOR
 ON=0 Studded Leather Armor
-MENU M_STUD_ARMOR
+Menu M_STUD_ARMOR
 ON=0 Leather Armor
-MENU M_LEATH_ARMOR
+Menu M_LEATH_ARMOR
 ON=0 Female Armor
-MENU M_FEM_ARMOR
+Menu M_FEM_ARMOR
 ON=0 Helmets
-MENU M_HELMS
-ON=0 PREVIOUS MENU
-MENU MENU_ADDITEM
+Menu M_HELMS
+ON=0 PREVIOUS Menu
+Menu Menu_ADDITEM
 
-[MENU M_ADDI_SWORDS]
+[Menu M_ADDI_SWORDS]
 Weapons (Swords)
 ON=i_sword_broad <NAME>
 ADD i_sword_broad
@@ -2082,7 +2082,7 @@ ADD i_kryss
 ON=i_sword_viking <NAME>
 ADD i_sword_viking
 
-[MENU M_ADDI_MACES]
+[Menu M_ADDI_MACES]
 Weapons (Maces)
 ON=i_club Club
 ADD i_club
@@ -2097,7 +2097,7 @@ ADD i_maul
 ON=i_hammer_pick Hammer Pick
 ADD i_hammer_pick
 
-[MENU M_ADDI_AXES]
+[Menu M_ADDI_AXES]
 Weapons (Axes)
 ON=i_hatchet Hatchet
 ADD i_hatchet
@@ -2118,7 +2118,7 @@ ADD i_axe_battle_large
 ON=i_axe_two_hand Two Handed Axe
 ADD i_axe_two_hand
 
-[MENU M_ADDI_POLEARM]
+[Menu M_ADDI_POLEARM]
 Weapons (Pole-Arms)
 ON=i_bardiche Bardiche
 ADD i_bardiche
@@ -2141,7 +2141,7 @@ ADD i_war_fork
 ON=i_spear_short Short Spear
 ADD i_spear_short
 
-[MENU M_ADDI_BOWS]
+[Menu M_ADDI_BOWS]
 Weapons (Bows)
 ON=i_bow Bow
 ADD i_bow
@@ -2154,7 +2154,7 @@ ADD i_xbolt
 ON=i_arrow Arrows
 ADD i_arrow
 
-[MENU M_ADDI_SHIELDS]
+[Menu M_ADDI_SHIELDS]
 Weapons (Shields)
 ON=i_shield_round_bronze Bronze Shield
 ADD i_shield_round_bronze
@@ -2175,7 +2175,7 @@ ADD i_shield_chaos
 ON=i_shield_order Order Shield
 ADD i_shield_order
 
-[MENU M_PLATE_ARMOR]
+[Menu M_PLATE_ARMOR]
 Armor (Platemail)
 ON=i_platemail_helm Helm
 ADD i_platemail_helm
@@ -2190,7 +2190,7 @@ ADD i_platemail_leggings
 ON=i_platemail_chest Breast
 ADD i_platemail_chest
 
-[MENU M_BONE_ARMOR]
+[Menu M_BONE_ARMOR]
 Armor (Bonemail)
 ON=i_bone_helmet Helmet
 ADD i_bone_helmet
@@ -2203,7 +2203,7 @@ ADD i_bone_leggings
 ON=i_bone_chest Breast
 ADD i_bone_chest
 
-[MENU M_CHAIN_ARMOR]
+[Menu M_CHAIN_ARMOR]
 Armor (Chainmail Armor)
 ON=i_chainmail_coif Coif
 ADD i_chainmail_coif
@@ -2216,7 +2216,7 @@ ADD i_chainmail_tunic_decoration
 ON=i_chainmail_leggings_decoration Leggings
 ADD i_chainmail_leggings_decoration
 
-[MENU M_RING_ARMOR]
+[Menu M_RING_ARMOR]
 Armor (Ringmail)
 ON=i_ringmail_gloves Gloves
 ADD i_ringmail_gloves
@@ -2233,7 +2233,7 @@ ADD i_ringmail_tunic_decoration
 ON=i_ringmail_tunic Tunic
 ADD i_ringmail_tunic
 
-[MENU M_STUD_ARMOR]
+[Menu M_STUD_ARMOR]
 Armor (Studded Leather)
 ON=i_studded_gorget Gorget
 ADD i_studded_gorget
@@ -2252,7 +2252,7 @@ ADD i_studded_tunic_decoration
 ON=i_studded_tunic Tunic
 ADD i_studded_tunic
 
-[MENU M_LEATH_ARMOR]
+[Menu M_LEATH_ARMOR]
 Armor (Leather)
 ON=i_leather_gorget Gorget
 ADD i_leather_gorget
@@ -2269,7 +2269,7 @@ ADD I_LEATHER_TUNIC
 ON=i_leather_tunic_decoration Decorative Tunic
 ADD i_leather_tunic_decoration
 
-[MENU M_HELMS]
+[Menu M_HELMS]
 Armor (Helmets)
 ON=i_helm_closed Close Helm
 ADD i_helm_closed
@@ -2282,22 +2282,22 @@ ADD i_helm_nose
 ON=i_helm_orc Orc Helm
 ADD i_helm_orc
 
-[MENU M_ADDI_WEPARM_MAGIC]
+[Menu M_ADDI_WEPARM_MAGIC]
 Magic Weapons & Armor
 ON=0 Ruin
-MENU M_ADDI_WEPARM_RUIN
+Menu M_ADDI_WEPARM_RUIN
 ON=0 Might
-MENU M_ADDI_WEPARM_MIGHT
+Menu M_ADDI_WEPARM_MIGHT
 ON=0 Force
-MENU M_ADDI_WEPARM_FORCE
+Menu M_ADDI_WEPARM_FORCE
 ON=0 Power
-MENU M_ADDI_WEPARM_POWER
+Menu M_ADDI_WEPARM_POWER
 ON=0 Vanquishing
-MENU M_ADDI_WEPARM_VANQ
-ON=0 PREVIOUS MENU
-MENU MENU_ADDITEM
+Menu M_ADDI_WEPARM_VANQ
+ON=0 PREVIOUS Menu
+Menu Menu_ADDITEM
 
-[MENU M_ADDI_WEPARM_RUIN]
+[Menu M_ADDI_WEPARM_RUIN]
 Magic W & A (Ruin)
 ON=i_halberd Halberd of Ruin
 ADD i_HALBERD_RUIN
@@ -2316,7 +2316,7 @@ ADD i_KRYSS_RUIN
 ON=i_SPEAR_RUIN Spear of Ruin
 ADD i_SPEAR_RUIN
 
-[MENU M_ADDI_WEPARM_MIGHT]
+[Menu M_ADDI_WEPARM_MIGHT]
 Magic W & A (Might)
 ON=i_halberd Halberd of Might
 ADD i_HALBERD_MIGHT
@@ -2335,7 +2335,7 @@ ADD i_KRYSS_MIGHT
 ON=i_spear_short Spear of Might
 ADD i_SPEAR_MIGHT
 
-[MENU M_ADDI_WEPARM_FORCE]
+[Menu M_ADDI_WEPARM_FORCE]
 Magic W & A (Force)
 ON=i_halberd Halberd of Force
 ADD i_HALBERD_FORCE
@@ -2360,7 +2360,7 @@ ADD i_SPEAR_FORCE
 ON=i_spear_short Short Spear of Force
 ADD i_spear_short_FORCE
 
-[MENU M_ADDI_WEPARM_POWER]
+[Menu M_ADDI_WEPARM_POWER]
 Magic W & A (Power)
 ON=i_halberd Halberd of Power
 ADD i_HALBERD_POWER
@@ -2381,7 +2381,7 @@ ADD i_SPEAR_POWER
 ON=i_spear_short Spear of Power
 ADD i_SPEAR_short_POWER
 
-[MENU M_ADDI_WEPARM_VANQ]
+[Menu M_ADDI_WEPARM_VANQ]
 Magic W & A (Vanquishing)
 ON=i_halberd Halberd of Vanquishing
 ADD i_HALBERD_vanq
@@ -2418,42 +2418,42 @@ ADD i_bow_vanq_Electricity
 ON=i_crossbow_heavy Crossbow of Smite and Electricity
 ADD i_BOW_Smite_Electricity
 
-[MENU M_ADDI_PROV]
+[Menu M_ADDI_PROV]
 Equipment & Items
 ON=0 Containers
-MENU M_ADDI_PROV_CONT
+Menu M_ADDI_PROV_CONT
 ON=0 Furniture
-MENU M_ADDI_PROV_FURN
+Menu M_ADDI_PROV_FURN
 ON=0 Ruined Furniture
-MENU M_ADDI_PROV_FURN_RUIN
+Menu M_ADDI_PROV_FURN_RUIN
 ON=0 Decorations
-MENU M_ADDI_PROV_DECO
+Menu M_ADDI_PROV_DECO
 ON=0 Wall Hangings
-MENU M_ADDI_PROV_TAPEST
+Menu M_ADDI_PROV_TAPEST
 ON=0 Books
-MENU M_ADDI_PROV_BOOK
+Menu M_ADDI_PROV_BOOK
 ON=0 Keys
-MENU M_ADDI_PROV_KEY
+Menu M_ADDI_PROV_KEY
 ON=0 Light Sources
-MENU M_ADDI_PROV_LIGHT
+Menu M_ADDI_PROV_LIGHT
 ON=0 Lamp Posts & Gates
-MENU M_ADDI_PROV_POST
+Menu M_ADDI_PROV_POST
 ON=0 Training Equipment
-MENU M_ADDI_PROV_TRAIN
+Menu M_ADDI_PROV_TRAIN
 ON=0 Outdoor & Camp Items
-MENU M_ADDI_PROV_CAMP
+Menu M_ADDI_PROV_CAMP
 ON=0 Symbols
-MENU M_ADDI_PROV_SYMBOL
+Menu M_ADDI_PROV_SYMBOL
 ON=0 Bulletin Boards & Trophies
-MENU M_ADDI_PROV_BULLETIN
+Menu M_ADDI_PROV_BULLETIN
 ON=0 Gravestones
-MENU M_ADDI_PROV_GRAVE
+Menu M_ADDI_PROV_GRAVE
 ON=0 Gravestones 2
-MENU M_ADDI_PROV_GRAVE_2
-ON=0 PREVIOUS MENU
-MENU MENU_ADDITEM
+Menu M_ADDI_PROV_GRAVE_2
+ON=0 PREVIOUS Menu
+Menu Menu_ADDITEM
 
-[MENU M_ADDI_PROV_CONT]
+[Menu M_ADDI_PROV_CONT]
 Equip & Items (Containers)
 ON=i_backpack Backpack
 ADD i_backpack
@@ -2488,32 +2488,32 @@ ADD i_chest_metal_brass
 ON=i_box_brass Strong Box
 ADD i_box_brass
 
-[MENU M_ADDI_PROV_FURN]
+[Menu M_ADDI_PROV_FURN]
 Equip & Items (Furniture)
 ON=0 Dressers
-MENU M_ADDI_PROV_DRESSER
+Menu M_ADDI_PROV_DRESSER
 ON=0 Twin Beds
-MENU M_ADDI_PROV_TWIN
+Menu M_ADDI_PROV_TWIN
 ON=0 Fancy Beds
-MENU M_ADDI_PROV_FBED
+Menu M_ADDI_PROV_FBED
 ON=0 Tables
-MENU M_ADDI_PROV_TABLE
+Menu M_ADDI_PROV_TABLE
 ON=0 Chairs
-MENU M_ADDI_PROV_CHAIR
+Menu M_ADDI_PROV_CHAIR
 ON=0 Benches & Stools
-MENU M_ADDI_PROV_BENCH
+Menu M_ADDI_PROV_BENCH
 ON=0 Benches & Alters
-MENU M_ADDI_PROV_ALTER
+Menu M_ADDI_PROV_ALTER
 ON=0 Bookcases
-MENU M_ADDI_PROV_BOOKCASE
+Menu M_ADDI_PROV_BOOKCASE
 ON=0 Display Case Rails
-MENU M_ADDI_PROV_RAILS
+Menu M_ADDI_PROV_RAILS
 ON=0 Display Cases
-MENU M_ADDI_PROV_CASES
+Menu M_ADDI_PROV_CASES
 ON=0 Misc
-MENU M_ADDI_PROV_COUNTER
+Menu M_ADDI_PROV_COUNTER
 
-[MENU M_ADDI_PROV_DRESSER]
+[Menu M_ADDI_PROV_DRESSER]
 Equip (Dressers)
 ON=i_dresser Dresser
 ADD i_dresser
@@ -2526,7 +2526,7 @@ ADD i_armoir_lt
 ON=i_armoir_dk Dark Wood Armoire
 ADD i_armoir_dk
 
-[MENU M_ADDI_PROV_TWIN]
+[Menu M_ADDI_PROV_TWIN]
 Equip (Twin Beds)
 ON=i_bed_1 Brown Twin Bed
 ADD i_bed_1
@@ -2551,7 +2551,7 @@ ADD i_bed_10
 ON=i_bed_11 White Twin Bed
 ADD i_bed_11
 
-[MENU M_ADDI_PROV_FBED]
+[Menu M_ADDI_PROV_FBED]
 Equip (Fancy Beds)
 ON=i_bed_12 Fancy Double
 ADD i_bed_12
@@ -2592,7 +2592,7 @@ ADD i_bed_29
 ON=i_bed_30 Bed
 ADD i_bed_30
 
-[MENU M_ADDI_PROV_TABLE]
+[Menu M_ADDI_PROV_TABLE]
 Equip (Tables)
 ON=i_TABLE_NIGHTSTAND Nightstand
 ADD i_TABLE_NIGHTSTAND
@@ -2606,7 +2606,7 @@ ADD i_TABLE_WOOD_ROUGH_SMALL
 ON=i_TABLE_WOOD_ROUGH_BOARD Table
 ADD i_TABLE_WOOD_ROUGH_BOARD
 
-[MENU M_ADDI_PROV_CHAIR]
+[Menu M_ADDI_PROV_CHAIR]
 Equip (Chairs)
 ON=i_CHAIR_WOOD_ROUGH_DARK Chair
 ADD i_CHAIR_WOOD_ROUGH_DARK
@@ -2625,7 +2625,7 @@ ADD i_chair_throne
 ON=i_chair_throne_lb Lord British's Throne
 ADD i_chair_throne_lb
 
-[MENU M_ADDI_PROV_BENCH]
+[Menu M_ADDI_PROV_BENCH]
 Equip (Benches & Stools)
 ON=i_chair_stool_board_rough Foot Stool
 ADD i_chair_stool_board_rough
@@ -2654,7 +2654,7 @@ ADD i_bench_stone_1
 ON=i_bench_stone_2 Bench
 ADD i_bench_stone_2
 
-[MENU M_ADDI_PROV_ALTER]
+[Menu M_ADDI_PROV_ALTER]
 Equip (Benches & Alters)
 ON=i_ALTAR_STONE Alter
 ADD i_ALTAR_STONE
@@ -2667,14 +2667,14 @@ ADD i_bench_cooper
 ON=i_bench_sandstone_end Bench
 ADD i_bench_sandstone_end
 
-[MENU M_ADDI_PROV_BOOKCASE]
+[Menu M_ADDI_PROV_BOOKCASE]
 Equip (Bookcases)
 ON=i_BOOKCASE_FULL Bookcase with Books
 ADD i_BOOKCASE_FULL
 ON=i_bookcase Bookcase
 ADD i_bookcase
 
-[MENU M_ADDI_PROV_RAILS]
+[Menu M_ADDI_PROV_RAILS]
 Equip (Display Case Rails)
 ON=i_DISPLAYCASE_RAIL_CUSTOM_EDGE Custom Case Rail
 ADD i_DISPLAYCASE_RAIL_CUSTOM_EDGE
@@ -2687,7 +2687,7 @@ ADD i_DISPLAYCASE_RAIL_LONG_CENTER
 ON=i_DISPLAYCASE_1_RAIL Display Case 1 Rail
 ADD i_DISPLAYCASE_1_RAIL
 
-[MENU M_ADDI_PROV_CASES]
+[Menu M_ADDI_PROV_CASES]
 Equip (Display Cases)
 ON=i_DISPLAYCASE_BASE_LONG_END Long Display Base, End
 ADD i_DISPLAYCASE_BASE_LONG_END
@@ -2704,7 +2704,7 @@ ADD i_DISPLAYCASE_BASE_CUSTOM_CORNER
 ON=i_DISPLAYCASE_BASE_CUSTOM_EDGE Custom Case Base, Edge
 ADD i_DISPLAYCASE_BASE_CUSTOM_EDGE
 
-[MENU M_ADDI_PROV_COUNTER]
+[Menu M_ADDI_PROV_COUNTER]
 Equip (Misc)
 ON=0b3d Counter
 ADD 0b3d
@@ -2717,7 +2717,7 @@ ADD 0b40
 ON=i_trough_water Water Trough
 ADD i_trough_water
 
-[MENU M_ADDI_PROV_FURN_RUIN]
+[Menu M_ADDI_PROV_FURN_RUIN]
 Equip (Ruined Furniture)
 ON=i_CHAIR_WOOD_BAMBOO_BROKEN Chair
 ADD i_CHAIR_WOOD_BAMBOO_BROKEN
@@ -2760,7 +2760,7 @@ ADD i_BED_RUINED_5
 ON=i_BED_RUINED_6 Bed
 ADD i_BED_RUINED_6
 
-[MENU M_ADDI_PROV_TAPEST]
+[Menu M_ADDI_PROV_TAPEST]
 Items (Wall Hangings)
 ON=i_PAINTING_RUINED Ruined Painting
 ADD i_PAINTING_RUINED
@@ -2803,7 +2803,7 @@ ADD i_dartboard_axe
 ON=i_dartboard_knives Dartboard
 ADD i_dartboard_knives
 
-[MENU M_ADDI_PROV_BOOK]
+[Menu M_ADDI_PROV_BOOK]
 Items (Books)
 ON=i_BOOK_DAMAGED Damaged Books
 ADD i_BOOK_DAMAGED
@@ -2842,7 +2842,7 @@ ADD i_BOOK_OPEN_two_blue
 ON=i_book_of_truth Book of Truth
 ADD i_book_of_truth
 
-[MENU M_ADDI_PROV_KEY]
+[Menu M_ADDI_PROV_KEY]
 Items (Keys)
 ON=i_key_copper Copper Key
 ADD i_key_copper
@@ -2857,7 +2857,7 @@ ADD i_key_rusty
 ON=i_key_ring Key Ring
 ADD i_key_ring
 
-[MENU M_ADDI_PROV_LIGHT]
+[Menu M_ADDI_PROV_LIGHT]
 Items (Light Sources)
 ON=i_virtstone_8 Light Source (invisible)
 ADD i_light_source
@@ -2886,7 +2886,7 @@ ADD i_torch_wall2
 ON=i_lantern Lantern
 ADD i_lantern
 
-[MENU M_ADDI_PROV_POST]
+[Menu M_ADDI_PROV_POST]
 Items (Lamp Posts & Gates)
 ON=0b20 Lamp Post
 ADD 0b20
@@ -2909,7 +2909,7 @@ ADD i_moongate_black
 ON=i_moongate_gray Black Moongate
 ADD i_moongate_gray
 
-[MENU M_ADDI_PROV_TRAIN]
+[Menu M_ADDI_PROV_TRAIN]
 Equip (Training Equip)
 ON=i_training_dummy Training Dummy
 ADD i_training_dummy
@@ -2920,7 +2920,7 @@ ADD i_archery_butte
 ON=i_archery_butte2 Archery Butte
 ADD i_archery_butte2
 
-[MENU M_ADDI_PROV_CAMP]
+[Menu M_ADDI_PROV_CAMP]
 Items (Outdoor & Camp)
 ON=i_GRUESOMESTANDARD Gruesome Standard
 ADD i_GRUESOMESTANDARD
@@ -2973,7 +2973,7 @@ ADD i_RABBIT_SPITTED_2
 ON=i_spit_2 Spit
 ADD i_spit_2
 
-[MENU M_ADDI_PROV_SYMBOL]
+[Menu M_ADDI_PROV_SYMBOL]
 Items (Symbols)
 ON=i_ankh Ankh
 ADD i_ankh
@@ -2990,7 +2990,7 @@ ADD i_ankh_sacrifice
 ON=i_ankh_sacrifice_2 Ankh of Sacrifice
 ADD i_ankh_sacrifice_2
 
-[MENU M_ADDI_PROV_BULLETIN]
+[Menu M_ADDI_PROV_BULLETIN]
 Items (Bulletins & Trophy)
 ON=i_bulletin_board Bulletin Board
 ADD i_bulletin_board
@@ -3011,7 +3011,7 @@ ADD i_trophy_polarbearhead
 ON=i_trophy_trollhead Troll Trophy
 ADD i_trophy_trollhead
 
-[MENU M_ADDI_PROV_GRAVE]
+[Menu M_ADDI_PROV_GRAVE]
 Items (Gravestones)
 ON=i_grave_stone Gravestone
 ADD i_grave_stone
@@ -3040,7 +3040,7 @@ ADD 0ede
 ON=i_gravestone Gravestone
 ADD i_gravestone
 
-[MENU M_ADDI_PROV_GRAVE_2]
+[Menu M_ADDI_PROV_GRAVE_2]
 Items (Gravestones)
 ON=01166 Gravestone
 ADD 01166
@@ -3105,26 +3105,26 @@ ADD i_gravestone_17
 ON=i_gravestone_18 Gravestone
 ADD i_gravestone_18
 
-[MENU M_ADDI_CLOTHING]
+[Menu M_ADDI_CLOTHING]
 Clothing
 ON=0 Masks
-MENU M_ADDI_MASKS
+Menu M_ADDI_MASKS
 ON=0 Hats
-MENU M_ADDI_HATS
+Menu M_ADDI_HATS
 ON=0 Footware
-MENU M_ADDI_SHOES
+Menu M_ADDI_SHOES
 ON=0 Shirts & Pants
-MENU M_ADDI_SHIRTS
+Menu M_ADDI_SHIRTS
 ON=0 Dresses
-MENU M_ADDI_DRESS
+Menu M_ADDI_DRESS
 ON=0 Other Outfits
-MENU M_ADDI_OUTFITS
+Menu M_ADDI_OUTFITS
 ON=0 Clothing Accessories
-MENU M_ADDI_ACCESSOR
-ON=0 PREVIOUS MENU
-MENU MENU_ADDITEM
+Menu M_ADDI_ACCESSOR
+ON=0 PREVIOUS Menu
+Menu Menu_ADDITEM
 
-[MENU M_ADDI_SHOES]
+[Menu M_ADDI_SHOES]
 Clothing (Footware)
 ON=i_boots_calf Calfboots
 ADD i_boots_calf
@@ -3135,7 +3135,7 @@ ADD i_shoes_plain
 ON=i_boots_thigh Thigh Boots
 ADD i_boots_thigh
 
-[MENU M_ADDI_SHIRTS]
+[Menu M_ADDI_SHIRTS]
 Clothing (Shirts & Pants)
 ON=i_shirt_plain Plain Shirt
 ADD i_shirt_plain
@@ -3148,7 +3148,7 @@ ADD i_pants_short
 ON=i_pants_long Long Pants
 ADD i_pants_long
 
-[MENU M_ADDI_DRESS]
+[Menu M_ADDI_DRESS]
 Clothing (Dresses)
 ON=i_dress_full Fancy Dress
 ADD i_dress_full
@@ -3157,7 +3157,7 @@ ADD i_dress_plain
 ON=i_skirt_long Long Skirt
 ADD i_skirt_long
 
-[MENU M_ADDI_OUTFITS]
+[Menu M_ADDI_OUTFITS]
 Clothing (Other Outfits)
 ON=i_robe Full Robe
 ADD i_robe
@@ -3170,7 +3170,7 @@ ADD i_surcoat
 ON=i_kilt Kilt
 ADD i_kilt
 
-[MENU M_ADDI_ACCESSOR]
+[Menu M_ADDI_ACCESSOR]
 Clothing (Accessories)
 ON=i_cape Cloak
 ADD i_cape
@@ -3181,26 +3181,26 @@ ADD i_apron_half
 ON=i_apron_full Full Apron
 ADD i_apron_full
 
-[MENU M_ADDI_SIGNS]
+[Menu M_ADDI_SIGNS]
 Banners & Signs
 ON=0 Banners
-MENU M_ADDI_SIGN_BANNER
+Menu M_ADDI_SIGN_BANNER
 ON=0 Shop Signs A-I
-MENU M_ADDI_SIGN_SHOP_AI
+Menu M_ADDI_SIGN_SHOP_AI
 ON=0 Shop Signs J-Z
-MENU M_ADDI_SIGN_SHOP_JZ
+Menu M_ADDI_SIGN_SHOP_JZ
 ON=0 Guild Signs A-I
-MENU M_ADDI_SIGN_GUILD_AI
+Menu M_ADDI_SIGN_GUILD_AI
 ON=0 Guild Signs J-Z
-MENU M_ADDI_SIGN_GUILD_JZ
+Menu M_ADDI_SIGN_GUILD_JZ
 ON=0 Sign Posts
-MENU M_ADDI_SIGN_POSTS
+Menu M_ADDI_SIGN_POSTS
 ON=0 Road Signs
-MENU M_ADDI_SIGN_ROAD
-ON=0 PREVIOUS MENU
-MENU MENU_ADDITEM
+Menu M_ADDI_SIGN_ROAD
+ON=0 PREVIOUS Menu
+Menu Menu_ADDITEM
 
-[MENU M_ADDI_SIGN_BANNER]
+[Menu M_ADDI_SIGN_BANNER]
 Banners
 ON=i_banner_hanger_ne Banner Hanger
 ADD i_banner_hanger_ne
@@ -3241,7 +3241,7 @@ ADD i_banner_post_28_ne
 ON=i_banner_post_36_nw Banner
 ADD i_banner_post_36_nw
 
-[MENU M_ADDI_SIGN_SHOP_AI]
+[Menu M_ADDI_SIGN_SHOP_AI]
 Signs (Shops A-I)
 ON=0bbf Armourer
 ADD 0bbf
@@ -3272,7 +3272,7 @@ ADD 0bab
 ON=0bb3 Inn
 ADD 0bb3
 
-[MENU M_ADDI_SIGN_SHOP_JZ]
+[Menu M_ADDI_SIGN_SHOP_JZ]
 Signs (Shops J-Z)
 ON=0bc1 Jeweler
 ADD 0bc1
@@ -3301,7 +3301,7 @@ ADD 0baf
 ON=0bcf Wooden Sign
 ADD 0bcf
 
-[MENU M_ADDI_SIGN_GUILD_AI]
+[Menu M_ADDI_SIGN_GUILD_AI]
 Guild Signs A-I
 ON=0bd4 Armaments Guild
 ADD 0bd4
@@ -3352,7 +3352,7 @@ ADD 0beb
 ON=0bec Illusionist Guild
 ADD 0bec
 
-[MENU M_ADDI_SIGN_GUILD_JZ]
+[Menu M_ADDI_SIGN_GUILD_JZ]
 Guild Signs J-Z
 ON=0bed Miners Guild
 ADD 0bed
@@ -3415,7 +3415,7 @@ ADD 0bd9
 ON=0bda Weapons Guild
 ADD 0bda
 
-[MENU M_ADDI_SIGN_POSTS]
+[Menu M_ADDI_SIGN_POSTS]
 Signs (Posts)
 ON=0b97 Wooden Signpost
 ADD 0b97
@@ -3442,7 +3442,7 @@ ADD 0ba1
 ON=0ba2 Metal Signpost
 ADD 0ba2
 
-[MENU M_ADDI_SIGN_ROAD]
+[Menu M_ADDI_SIGN_ROAD]
 Road Signs
 ON=i_sign_post Wooden Sign Post
 ADD i_sign_post
@@ -3463,7 +3463,7 @@ ADD i_sign_180
 ON=i_sign_225 Road Sign
 ADD i_sign_225
 
-[MENU M_ADDI_FOOD]
+[Menu M_ADDI_FOOD]
 Food
 ON=i_hay_sheaf Sheaf of Hay
 ADD i_hay_sheaf
@@ -3500,7 +3500,7 @@ ADD i_crop_corn
 ON=i_crop_sprouts1 Sprouts
 ADD i_crop_sprouts1
 
-[MENU M_ADDI_PLANTS]
+[Menu M_ADDI_PLANTS]
 Plants
 ON=i_TREE_SMALL_POTTED Potted Tree
 ADD i_TREE_SMALL_POTTED
@@ -3555,40 +3555,40 @@ ADD i_PLANT_CENTURY_2
 ON=i_crop_mandrake Mandrake Plant
 ADD i_crop_mandrake
 
-[MENU M_ADDI_STRUCTURE]
+[Menu M_ADDI_STRUCTURE]
 Structures
 ON=0 Doors
-MENU M_ADDI_STRUCT_DOOR
+Menu M_ADDI_STRUCT_DOOR
 ON=0 Gates (Natural Wood)
-MENU M_ADDI_STRUCT_GATE_1
+Menu M_ADDI_STRUCT_GATE_1
 ON=0 Gates (Dark Wood)
-MENU M_ADDI_STRUCT_GATE_2
+Menu M_ADDI_STRUCT_GATE_2
 ON=0 Fences
-MENU M_ADDI_STRUCT_FENCE
+Menu M_ADDI_STRUCT_FENCE
 ON=0 Rugs
-MENU M_ADDI_STRUCT_RUGS
+Menu M_ADDI_STRUCT_RUGS
 ON=0 Carpets
-MENU M_ADDI_STRUCT_CARPET
+Menu M_ADDI_STRUCT_CARPET
 ON=0 Carpets 2
-MENU M_ADDI_STRUCT_CARPET_2
+Menu M_ADDI_STRUCT_CARPET_2
 ON=0 Carpets 3
-MENU M_ADDI_STRUCT_CARPET_3
+Menu M_ADDI_STRUCT_CARPET_3
 ON=0 Pillars
-MENU M_ADDI_STRUCT_PILLAR
+Menu M_ADDI_STRUCT_PILLAR
 ON=0 Piers
-MENU M_ADDI_STRUCT_PIER
+Menu M_ADDI_STRUCT_PIER
 ON=0 Ladders
-MENU M_ADDI_STRUCT_LADDER
+Menu M_ADDI_STRUCT_LADDER
 ON=0 Statues
-MENU M_ADDI_STRUCT_STATUE
+Menu M_ADDI_STRUCT_STATUE
 ON=0 Fireplaces
-MENU M_ADDI_STRUCT_FURNACE
+Menu M_ADDI_STRUCT_FURNACE
 ON=0 Ovens
-MENU M_ADDI_STRUCT_OVEN
-ON=0 PREVIOUS MENU
-MENU MENU_ADDITEM
+Menu M_ADDI_STRUCT_OVEN
+ON=0 PREVIOUS Menu
+Menu Menu_ADDITEM
 
-[MENU M_ADDI_STRUCT_DOOR]
+[Menu M_ADDI_STRUCT_DOOR]
 Structures (Doors)
 ON=i_door_metal Metal Door
 ADD i_door_metal
@@ -3606,10 +3606,10 @@ ON=i_door_wood_2 Wood Door
 ADD i_door_wood_2
 ON=i_door_wood_3 Wood Door
 ADD i_door_wood_3
-ON=i_hand_7 PREVIOUS MENU
-MENU M_ADDI_STRUCTURE
+ON=i_hand_7 PREVIOUS Menu
+Menu M_ADDI_STRUCTURE
 
-[MENU M_ADDI_STRUCT_GATE_1]
+[Menu M_ADDI_STRUCT_GATE_1]
 Structures (Gates)
 ON=i_gate_wood Gate
 ADD i_gate_wood
@@ -3644,7 +3644,7 @@ ADD 0847
 ON=0848 Gate
 ADD 0848
 
-[MENU M_ADDI_STRUCT_GATE_2]
+[Menu M_ADDI_STRUCT_GATE_2]
 Structures (Dark Gates)
 ON=i_gate_wood_3 Gates
 ADD i_gate_wood_3
@@ -3679,7 +3679,7 @@ ADD 0874
 ON=0875 Gates
 ADD 0875
 
-[MENU M_ADDI_STRUCT_RUGS]
+[Menu M_ADDI_STRUCT_RUGS]
 Structures (Rugs)
 ON=0aa9 Rug
 ADD 0aa9
@@ -3722,7 +3722,7 @@ ADD 0abb
 ON=0abc Rug
 ADD 0abc
 
-[MENU M_ADDI_STRUCT_CARPET]
+[Menu M_ADDI_STRUCT_CARPET]
 Structures (Carpets)
 ON=0abd Carpet
 ADD 0abd
@@ -3765,7 +3765,7 @@ ADD 0acf
 ON=0ad0 Carpet
 ADD 0ad0
 
-[MENU M_ADDI_STRUCT_CARPET_2]
+[Menu M_ADDI_STRUCT_CARPET_2]
 Structures (Carpets 2)
 ON=0ad1 Carpet
 ADD 0ad1
@@ -3804,7 +3804,7 @@ ADd 0ae1
 ON=0ae2 Carpet
 ADD 0ae2
 
-[MENU M_ADDI_STRUCT_CARPET_3]
+[Menu M_ADDI_STRUCT_CARPET_3]
 Structures (Carpets 3)
 ON=0ae3 Carpet
 ADD 0ae3
@@ -3845,7 +3845,7 @@ ADD 0af4
 ON=0af5 Carpet
 ADD 0af5
 
-[MENU M_ADDI_STRUCT_PILLAR]
+[Menu M_ADDI_STRUCT_PILLAR]
 Structures (pillars)
 ON=0db Pillar
 ADD 0db
@@ -3868,7 +3868,7 @@ ADD 0194
 ON=0195 Column
 ADD 0195
 
-[MENU M_ADDI_STRUCT_PIER]
+[Menu M_ADDI_STRUCT_PIER]
 Structures (piers)
 ON=i_PIER_1 Pier
 ADD i_PIER_1
@@ -3895,7 +3895,7 @@ ADD 03a8
 ON=03a9 Rope
 ADD 03a9
 
-[MENU M_ADDI_STRUCT_LADDER]
+[Menu M_ADDI_STRUCT_LADDER]
 Structures (Ladders)
 ON=i_LADDER_WOOD Ladder
 ADD i_LADDER_WOOD
@@ -3926,7 +3926,7 @@ ADD i_LADDER_ROPE
 ON=08a6 Ladder
 ADD 08a6
 
-[MENU m_addi_deeds]
+[Menu m_addi_deeds]
 Structures (House Deeds)
 ON=i_deed_GUILDSTONE Guildstone
 ADD i_deed_GUILDSTONE
@@ -3961,7 +3961,7 @@ ADD i_deed_Castle
 ON=i_deed_shop_blacksmithy_large Large Blacksmithy Shop
 ADD i_deed_shop_blacksmithy_large
 
-[MENU M_ADDI_STONE]
+[Menu M_ADDI_STONE]
 Rocks, Stones, Boulders
 ON=i_rock_plain Rock
 ADD i_rock_plain
@@ -4014,7 +4014,7 @@ ADD 0177b
 ON=0177c Rock
 ADD 0177c
 
-[MENU M_ADDI_STRUCT_STATUE]
+[Menu M_ADDI_STRUCT_STATUE]
 Statues
 ON=i_statue_stone_sm Statue
 ADD i_statue_stone_sm
@@ -4077,7 +4077,7 @@ ADD 013a3
 ON=01f18 Statue
 ADD 01f18
 
-[MENU M_ADDI_MASKS]
+[Menu M_ADDI_MASKS]
 Clothing (Masks)
 ON=i_mask_blue Tribal Mask
 ADD i_mask_blue
@@ -4090,7 +4090,7 @@ ADD i_mask_bear
 ON=i_mask_deer Deer Mask
 ADD i_mask_deer
 
-[MENU M_ADDI_HATS]
+[Menu M_ADDI_HATS]
 Clothing (Hats)
 ON=i_hat_floppy Floppy Hat
 ADD i_hat_floppy
@@ -4113,7 +4113,7 @@ ADD i_hat_tricorne
 ON=i_hat_jester Jester's Cap
 ADD i_hat_jester
 
-[MENU M_ADDI_HAIR]
+[Menu M_ADDI_HAIR]
 Hair & Beards
 ON=i_hair_MOHAWK Mohawk
 ADD i_hair_MOHAWK
@@ -4136,7 +4136,7 @@ ADD i_beard_LONG_MED
 ON=i_beard_VANDYKE Vandyke
 ADD i_beard_VANDYKE
 
-[MENU M_ADDI_POTION]
+[Menu M_ADDI_POTION]
 Potions & Flasks
 ON=i_bottle_black Black Potion
 ADD i_bottle_black
@@ -4207,7 +4207,7 @@ ADD i_FLASK_SMALL
 ON=i_FLASK_SMALL_GREEN <name>
 ADD i_FLASK_SMALL_GREEN
 
-[MENU M_ADDI_PROV_DECO]
+[Menu M_ADDI_PROV_DECO]
 Equip (Decorations)
 ON=i_decorative_armor Decorative Armor
 ADD i_decorative_armor
@@ -4252,7 +4252,7 @@ ADD 0156A
 ON=0156B Decorative Weapons
 ADD 0156B
 
-[MENU M_FEM_ARMOR]
+[Menu M_FEM_ARMOR]
 Armor (Female Armor)
 ON=i_armor_female_shorts Leather Shorts
 ADD i_armor_female_shorts
@@ -4269,7 +4269,7 @@ ADD i_armor_female_bustier_studded
 ON=i_armor_female_plate Plate Armor
 ADD i_armor_female_plate
 
-[MENU M_ADDI_STRUCT_FURNACE]
+[Menu M_ADDI_STRUCT_FURNACE]
 Structures (Fireplaces)
 ON=i_fireplace_sandstone Fireplace
 ADD i_fireplace_sandstone
@@ -4320,7 +4320,7 @@ ADD 0967
 ON=0961 Fireplace
 ADD 0961
 
-[MENU M_ADDI_STRUCT_OVEN]
+[Menu M_ADDI_STRUCT_OVEN]
 Structures (Ovens)
 ON=i_oven_sandstone Oven
 ADD i_oven_sandstone
@@ -4339,7 +4339,7 @@ ADD 0931
 ON=0930 Oven
 ADD 0930
 
-[MENU M_ADDI_STRUCT_FENCE]
+[Menu M_ADDI_STRUCT_FENCE]
 Structures (Fences)
 ON=i_fence_wood Fence
 ADD i_fence_wood
@@ -4391,4 +4391,3 @@ ON=0865 Fence
 ADD 0865
 
 [EOF]
-

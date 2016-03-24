@@ -30,24 +30,21 @@ As a general rule:
 // sphere.ini and spheretable.scp are automatic.
 // All the other Scripts we want to load.
 Scripts/Core/Definitions/        // SHOULD LOAD FIRST. (Used to be Sphere_Defs.scp)
-Scripts/SphereTypes.scp		// SECOND. Terrain types are important.
-Scripts/Core/Events/		// We process Event triggers here.
-Scripts/Core/				// Core Files (Events, TypeDefs, and Functions)
-Scripts/Core/Combat/		// Combat Events
-Scripts/Core/Functions/		// Core Functions
-Scripts/Core/Global/		// Global Events (Ini Events)
-Scripts/Compatibility.scp	// We should process this after types and defs just in case.
-Scripts/sphere_admin.scp                // Elevate or decrease importance? Hierarchy needed?
-Scripts/sphere_dialog.scp                // Elevate or decrease importance? Hierarchy needed?
-Scripts/sphere_menu.scp                // Elevate or decrease importance? Hierarchy needed?
-Scripts/sphere_serv_triggers.scp        // Server dependent functions. This probably should be a priority script.
-Scripts/sphere_add_sqlite.scp        // Dependency if you are using it.
+Scripts/Core/TerrainTypes/			// Terrain Types.
+Scripts/Core/TypeDefs/				// TypeDefs.
+Scripts/Core/Events/				// We process Event triggers here.
+Scripts/Core/Global/				// Global Events (Ini Events)
+Scripts/Core/Combat/				// Combat Events
+Scripts/Core/Functions/				// Core Functions
+Scripts/Core/Compatibility.scp		// We should process this after types and defs just in case.
+Scripts/Core/						// Core Files (Misc loaded after above.)
+Scripts/AddSQLite.scp        // Dependency if you are using it.
 Scripts/SphereSkills.scp            // Definitions with no Items attached. (Move up?)
-Scripts/SkillMenus/        // This should follow skills honesty.
+Scripts/SkillMenus/					// This should follow skills honesty.
 Scripts/sphere_newb.scp                // Technically a resource.
 Scripts/SphereBook.scp            // Only top if using the MOD/Scroll blocks. (Sounds right.)
-Scripts/sphere_name.scp            // Might be able to move this to the bottom of operations.
-Scripts/sphere_speech.scp        // Might be able to move this to the bottom of operations.
+Scripts/Names/						// Might be able to move this to the bottom of operations.
+Scripts/Speech/				`		// Might be able to move this to the bottom of operations.
 // Items
 Scripts/Items/
 Scripts/Items/Artifacts/
@@ -64,38 +61,20 @@ Scripts/NPCs/Animals/
 Scripts/NPCs/Monsters/
 
 // Maps //
-Scripts/sphere_region.scp
-Scripts/maps/sphere_map0.scp
-Scripts/maps/sphere_map0_ml.scp
-Scripts/maps/sphere_map1.scp
-Scripts/maps/sphere_map1_ml.scp
-Scripts/maps/sphere_map2.scp
-Scripts/maps/sphere_map2_ml.scp
-Scripts/maps/sphere_map3.scp
-Scripts/maps/sphere_map3_ml.scp
-Scripts/maps/sphere_map3_se.scp
-Scripts/maps/sphere_map4.scp
-Scripts/maps/sphere_map5.scp
-Scripts/maps/sphere_map_points0.scp
-Scripts/maps/sphere_map_points0_ml.scp
-Scripts/maps/sphere_map_points1.scp
-Scripts/maps/sphere_map_points1_ml.scp
-Scripts/maps/sphere_map_points2.scp
-Scripts/maps/sphere_map_points3.scp
-Scripts/maps/sphere_map_points3_ml.scp
-Scripts/maps/sphere_map_points4.scp
-Scripts/maps/sphere_map_points5.scp
+Scripts/Maps/Region.scp
+Scripts/Maps/Maps/
+Scripts/Maps/MapPoints/
 
 // Dependent on CharDef and ItemDef being loaded prior. So load these after those files.
 Scripts/sphere_spells.scp
 Scripts/Spawns/
 
-Scripts/stones/
-Scripts/stones/guilds/
-Scripts/stones/towns/
+Scripts/Stones/
+Scripts/Stones/Guilds/
+Scripts/Stones/Towns/
 
 // Speech Files
-Scripts/speech/
+Scripts/Speech/
 
 // Templates //
 Scripts/Tempates/

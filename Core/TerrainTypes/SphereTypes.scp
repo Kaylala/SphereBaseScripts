@@ -1,0 +1,156 @@
+﻿//****************************************************************************
+// SPHERE by : Menasoft ©1997-2014
+// www.sphereserver.net
+// All SPHERE script files and formats are copyright Menasoft & Partners.
+// This file may be freely edited for personal use, but may not be distributed
+// in whole or in part, in any format without express written permission from
+// Menasoft & Partners.  All donations and contributions
+// become the property of Menasoft & Partners.
+//****************************************************************************
+// FILE LAST UPDATED: Monday, May 19, 2014
+//
+VERSION=0.56c
+
+[COMMENT sphere_Terrain_types]
+This file contains the definition of each "Terrain" TypeDef (water, rock,
+dirt, grass, lava, snow, swamp, jungle, forest, acid,...)
+
+NOTE: The Terrain numbers below (if there are two of them, its a range of
+numbers) are not item tiles.
+
+For more information on how these special TypeDefs are used in the harvesting
+of resources, check the COMMENT section of the sphere_region.scp file.
+
+
+[TypeDef t_Water]
+Terrain = 0a8	0ab
+Terrain = 0136	0137
+Terrain = 05797	0579c
+Terrain = 0746e	07485
+Terrain = 07490	074ab
+Terrain = 074b5	075d5
+
+[TypeDef t_Rock]
+Terrain = 0dc	0e7
+Terrain = 0ec	0f7
+Terrain = 0fc	0107
+Terrain = 010c	0117
+Terrain = 011e	0129
+Terrain = 0141	0144
+Terrain = 01d3	01da
+Terrain = 01dc	01e7
+Terrain = 01ec	01ef
+Terrain = 021f	0243
+Terrain = 0245	0259
+Terrain = 0262	0265
+Terrain = 06cd	06dd
+Terrain = 06eb	06fe
+Terrain = 0709	0720
+Terrain = 0727	073e
+Terrain = 0745	075c
+Terrain = 07bd	07d4
+Terrain = 07ec	07f1
+Terrain = 0834	0839
+Terrain = 0453b 0454f
+
+[TypeDef t_Dirt]
+Terrain	= 09	015		
+Terrain	= 0150	015c
+
+[TypeDef t_Grass]
+Terrain = 0003	0006
+Terrain = 007d	008c
+Terrain = 00c0	00db
+Terrain = 00f8	00fb
+Terrain = 015d	0164
+Terrain = 01a4	01a7
+Terrain = 0231	0234
+Terrain = 0239	0243
+Terrain = 0324	032b
+Terrain = 036f	0376
+Terrain = 037b	037e
+Terrain = 03bf	03c6
+Terrain = 03cb	03ce
+Terrain = 0579	0580
+Terrain = 058b	058c
+Terrain = 05e3	0604
+Terrain = 066b	066e
+Terrain = 067d	0684
+Terrain = 0695	069c
+Terrain = 06a1	06c2
+Terrain = 06d2	06d9
+Terrain = 06de	06e1
+
+[TypeDef t_Lava]
+Terrain = 01f4	01f7
+
+[TypeDef t_Snow]
+Terrain = 010c	011d
+Terrain = 0385	03ac
+Terrain = 0745	0773
+
+[TypeDef t_Swamp]
+Terrain = 07dc	0808
+Terrain = 083b	0867
+Terrain = 03d65
+Terrain = 03dc0	03df1
+Terrain = 03ef0
+
+[TypeDef t_Sand]
+Terrain = 016	03e
+Terrain = 044	04b
+Terrain = 011e	012d
+Terrain = 0192
+Terrain = 01a8	01ab
+Terrain = 01b9	01d1
+Terrain = 0282	0291
+Terrain = 0335	0354
+Terrain = 0359	035c
+Terrain = 03b7	03ca
+Terrain = 05a7	05ba
+Terrain = 064b	066a
+Terrain = 066f	0672
+
+[TypeDef t_Jungle]
+Terrain = 0ac	0bf
+Terrain = 0ec
+Terrain = 0fc	0103
+Terrain = 0108	010b
+Terrain = 01f1	01f3
+Terrain = 026e	0271
+Terrain = 0276	027d
+Terrain = 0286	0289
+Terrain = 0292	0295
+Terrain = 0581	058a
+Terrain = 058d	0590
+Terrain = 059f	05a5
+Terrain = 05b3	05b9
+Terrain = 05f5	05f8
+Terrain = 0605	0610
+Terrain = 0615	0617
+Terrain = 0727	072a
+Terrain = 0733	073a
+
+[TypeDef t_Forest]
+Terrain = 0c4	0d7
+Terrain = 0ed	0f3
+Terrain = 0f8	0fb
+Terrain = 015d	0168
+Terrain = 0324	032a
+Terrain = 054f	0552
+Terrain = 05f1	05f4
+Terrain = 05f9	0603
+Terrain = 0611	0614
+Terrain = 0653	0655
+Terrain = 065b	0662
+Terrain = 066b	066e
+Terrain = 06af	06b4
+Terrain = 06bb	06be
+Terrain = 0709	070c
+Terrain = 0715	071c
+
+[TypeDef t_Acid]
+Terrain = 02e02	02e5f
+Terrain = 03f45	03f50
+
+[EOF]
