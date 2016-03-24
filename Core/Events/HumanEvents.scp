@@ -12,14 +12,14 @@
 VERSION=0.56c
 
 [Comment Notes]
-eHumanEnvironmentChange
-eHumanHearGreeting
-eHumanHearUnknown
-eHumanInitializeConversation
-eHumanAcceptItem
-eHumanPersonalSpace
-eHumanRefuseItem
-eHumanSeeWantItem
+eHumanEnvironmentChange -> Was HumanEnviron
+eHumanHearGreeting -> Was HumanGreet
+eHumanHearUnknown -> Was HumanHearUnk
+eHumanInitializeConversation -> Was HumanConvInit
+eHumanAcceptItem -> Was HumanNeeds
+eHumanPersonalSpace -> Was HumanSpace
+eHumanRefuseItem -> Was Refuse
+eHumanSeeWantItem -> Was Scavenge
 
 
 [EVENTS eHumanEnvironmentChange]

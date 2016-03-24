@@ -1,0 +1,21 @@
+[Events AINonCombatant]
+On=@Create
+Flags |= StatFInvulnerable
+
+On=@Attack
+Return 1
+
+On=@GetHit
+Return 1
+
+On=@SpellEffect
+Return 1
+
+On=@NPCActFight
+Return 1
+
+On=@SpellCast
+Return 1
+
+
+[EOF]
