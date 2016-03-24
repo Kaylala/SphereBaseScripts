@@ -26,7 +26,7 @@ if !(<src> || <src>==<uid> )			// I cannot hit the 'air' or myself.
 endif
 // I cannot damage if I'm dead, stoned, freezed or sleeping, same if the target is dead, invul o stoned or has less than 1 hit point (this last should not happen ... just a safecheck).
 serv.log combat_hit <name>
-if ( (<flags>&statf_dead) || (<flags>&statf_stone) || (<flags>&statf_freeze) || (<flags>&statf_sleeping) || (<src.flags>&statf_dead) || (<src.flags>&statf_invul) || (<src.flags>&statf_stone ) || <src.hits> < 1  ) ) 
+if ( (<flags>&StatFDead) || (<flags>&StatFPetrified) || (<flags>&StatFParalyzed) || (<flags>&StatFSleeping) || (<src.flags>&StatFDead) || (<src.flags>&StatFInvulnerable) || (<src.flags>&StatFPetrified ) || <src.hits> < 1  ) ) 
 	return -1
 endif
 if (<region.safe> || <src.region.safe>)								// I cannot hit if my region is safe or the target is on a safe region...
@@ -43,7 +43,7 @@ if (<local.dist>> 31)												// if Distance > Radar view distance.
 		return -1													// If Combat_StayInRange is not set and our swing state != preparing. Stop.
 	endif
 endif
-if (!<serv.CombatFlags>&040 && <region.flags>&region_flag_ship)		// 040 = AllowHitFromShip. If not Combat_AllowHitFromShip and my region is a ship.
+if (!<serv.CombatFlags>&040 && <region.flags>&RegionFlagShip)		// 040 = AllowHitFromShip. If not Combat_AllowHitFromShip and my region is a ship.
 	if (<region.uid>!=<src.region.uid>)								// and target's region is not mine ( hence i'm hitting outside the ship)...
 		sysmessage <defmsg.COMBAT_OUTSIDESHIP>						// Stop.
 		return -1
@@ -51,7 +51,7 @@ if (!<serv.CombatFlags>&040 && <region.flags>&region_flag_ship)		// 040 = AllowH
 endif
 if (<CanSee <src>>)													// If I can see my target.
 																	// And my target is being ridden (should not happen) or ! CanSeeLos (Ignoring windows if i'm shooting).
-	if ( (<src.brain> && <src.flags>&statf_ridden) || !<CanSeeLosFlag <src>,<qval ( <Action>==archery || <action>==throwing )? LOS_NB_WINDOWS : 0>>)
+	if ( (<src.brain> && <src.flags>&StatFRidden) || !<CanSeeLosFlag <src>,<qval ( <Action>==archery || <action>==throwing )? LOS_NB_WINDOWS : 0>>)
 		if ( !<serv.CombatFlags>&200 || <Swing>!=SWING_SWINGING)	// I'm going to stop (unless i'm preparing to hit and Combat_StayInRange is not set).
 			argn1 SWING_READY
 			return 1
@@ -67,7 +67,7 @@ else
 	argn1 SWING_EQUIPPING
 	return 1
 endif
-if ( (<brain>==brain_guard) && (<src.flags>&statf_conjured) )				// I'm a Guard, don't waste my time with stupid summons!!!
+if ( (<brain>==BrainGuard) && (<src.flags>&StatFConjured) )				// I'm a Guard, don't waste my time with stupid summons!!!
 	src.remove
 	argn1 SWING_EQUIPPING
 	return 1
@@ -79,14 +79,14 @@ if ( (<serv.CombatFlags>&02) && <isplayer>)							// 02 = COMBAT_FACECOMBAT. If 
 		return 1
 	endif
 endif
-argn2=dam_physical													// Creating argn2: dam_flags
+argn2=DamPhysical													// Creating argn2: dam_flags
 if (<weapon>)
 	if (<weapon.tag0.override.damagetype>)							// IF my weapon has special dmg flags ...
 		argn2 = <weapon.tag.override.damagetype>					// I use them.
 	elseif ( <weapon.type>==t_weapon_sword || <weapon.type>==t_weapon_axe || <weapon.type>==t_weapon_throwing )
-		argn2 |=dam_slash											// Setting flag for these weapons
+		argn2 |=DamSlash											// Setting flag for these weapons
 	elseif ( <weapon.type>==t_weapon_fence || <weapon.type>==t_weapon_bow || <weapon.type>==t_weapon_xbow )
-		argn2 |=dam_pierce											// Same here
+		argn2 |=DamPierce											// Same here
 	endif
 	
 	if (<IsSkillRanged <action>>)									// If my action is a ranged one ( Archery or Throwing ).
@@ -109,7 +109,7 @@ if (<weapon>)
 			return 1
 		endif
 		
-		if (<flags>&statf_hasshield)									// This should never happen, just a safecheck.
+		if (<flags>&StatFHasShield)									// This should never happen, just a safecheck.
 			sysmessage=<defmsg.ITEMUSE_BOW_SHIELD>
 			action=0
 			argn1 -1
@@ -300,7 +300,7 @@ if (<weapon>)
 	//SkillTrigger @Success
 	argn1=<local.dam>
 	fulltrigger @Hit
-	argn2 |=DAM_FIXED	// Damage has been properly set, no need of default checks so DAM_FIXED make Sphere skip internal checks.
+	argn2 |=DamFixed	// Damage has been properly set, no need of default checks so DAM_FIXED make Sphere skip internal checks.
 	if (<local.return>==1)
 		return -1
 	endif
@@ -324,7 +324,7 @@ if (<weapon>)
 			weapon.damage=<eval <local.dam> / 4 >,<src>
 		endif
 	else
-		if ( <brain> == BRAIN_MONSTER && <poisoning> > 30.0 && <r100> < <poisoning> )
+		if ( <brain> == BrainMonster && <poisoning> > 30.0 && <r100> < <poisoning> )
 			src.SetPoison <r<poisoning>>, <r<poisoning>/50>,<uid>
 		endif
 	endif
@@ -339,7 +339,7 @@ if ( <weapon> )
 		return <qval <local.waittime> > 5 ?5:<dlocal.waittime>>
 	endif
 endif
-if (<brain>==brain_guard)
+if (<brain>==BrainGuard)
 	return 1
 endif
 // Base speed is just your DEX range=40 to 0
@@ -365,16 +365,16 @@ return <dlocal.waittime>
 // argn1 = Poison strenght
 // argn2 = duration
 // argn3 = src
-if ( <flags>&statf_conjured )	// No poison for conjured creatures.
+if ( <flags>&StatFConjured )	// No poison for conjured creatures.
 	return 0
 endif
-if ( <flags>&statf_poisoned )	// If already poisoned, charges get updated (but not strenght)
+if ( <flags>&StatFPoisoned )	// If already poisoned, charges get updated (but not strenght)
 	findid.i_rune_poison.more2 += <argv2>
 	return 0
 endif
 sysmessage=<defmsg.JUST_BEEN_POISONED>
-if ( <flags>&statf_freeze )
-	flags &=~statf_freeze
+if ( <flags>&StatFParalyzed )
+	flags &=~StatFParalyzed
 endif
 spelleffect s_poison,<argv1>,<argv3>
 new.more2=<argv2>
@@ -383,10 +383,10 @@ return 1
 
 
 [function f_combat_gethit]			// GetHit
-if (<flags>&statf_invul)
+if (<flags>&StatFParalyzed)
 	effect 3,14265,9,30
 	return 1
-elseif (<flags>&statf_stone)
+elseif (<flags>&StatFPetrified)
 	effect 3,14265,9,30
 	return 1
 elseif (<region.safe>)
@@ -395,37 +395,37 @@ elseif (<region.safe>)
 elseif ( (<region.nopvp>) && ((<src.IsPlayer>) || (<src.memoryfindtype.memory_ipet.link.isplayer>)) )
 	effect 3,14265,9,30
 	return 1
-elseif (<flags>&statf_dead)
+elseif (<flags>&StatFDead)
 	return 1
 endif
 	
 local.dam=<argn1>
 if (<serv.CombatFlags>&00008)	// Combat_Use_Resistance
-	if (<argn2>&dam_physical)
+	if (<argn2>&DamPhysical)
 		local.damcount ++
 	endif
-	if (<argn2>&dam_pierce)
+	if (<argn2>&DamPierce)
 		local.damcount ++
 	endif
-	if (<argn2>&dam_slash)
+	if (<argn2>&DamSlash)
 		local.damcount ++
 	endif
-	if (<argn2>&dam_poison)
+	if (<argn2>&DamPoison)
 		local.damcount ++
 		local.temppoison ++
 	endif
-	if (<argn2>&dam_energy)
+	if (<argn2>&DamEnergy)
 		local.damcount ++
 		local.tempenergy ++
 	endif
-	if (<argn2>&dam_cold)
+	if (<argn2>&DamCold)
 		local.damcount ++
 		local.tempcold ++
 	endif
-	if (<argn2>&dam_fire)
+	if (<argn2>&DamFire)
 	//if (<serv.chardef.<baseid>.can>&mt_fire_immune)	// Old check, can is also stored in dynamic characters, not only chardef.
-		if ( <can>&mt_fire_immune )
-			if !( <argn2>& DAM_PHYSICAL || <argn2>& DAM_PIERCE || <argn2>& DAM_SLASH || <argn2>& DAM_POISON || <argn2>& DAM_ENERGY || <argn2>& DAM_COLD )		// if the damage type is fire only 
+		if ( <can>&CanFireImmune )
+			if !( <argn2>& DamPhysical || <argn2>& DamPierce || <argn2>& DamSlash || <argn2>& DamPoison || <argn2>& DamEnergy || <argn2>& DamCold )		// if the damage type is fire only 
 				return 1	// no dmg
 			endif
 			// local.dmg /=2 	// this is the default code
@@ -463,11 +463,11 @@ local.poison -= <muldiv <local.poison>,<respoison>,100>
 if (<local.dam> < 0 && <local.fire> < 0 && <local.cold> < 0 && <local.energy>< 0 && <local.poison>< 0 )
 	return 1
 endif
-if ( <src.Weapon> && <serv.CombatFlags>&00080 && (<argn2>&DAM_PHYSICAL || <argn2>&DAM_PIERCE || <argn2>&DAM_SLASH)) )		// COMBAT_OSIDAMAGEMOD  
+if ( <src.Weapon> && <serv.CombatFlags>&00080 && (<argn2>&DamPhysical || <argn2>&DamPierce || <argn2>&DamSlash)) )		// COMBAT_OSIDAMAGEMOD  
 	local.mod = 0
 	local.modtemp = 0 
 	// Begin bonus section
-	if ( <src.weapon.type>==t_weapon_axe || <weapon.type>==t_weapon_sword )
+	if ( <src.weapon.type>==tAxeWeapon || <weapon.type>==tSwordWeapon )
 		local.modtemp = <src.lumberjacking>/50
 		if (<src.lumberjacking> > 100.0)
 			local.modtemp +=10
@@ -504,17 +504,17 @@ FullTrigger @GetHit
 if (<local.return> == 1)
 	return 1
 endif
-if ( (<argn2>&dam_energy || <argn2>&dam_physical || <argn2>&dam_fire || <argn2>&dam_pierce || <argn2>&dam_slash || <argn2>&dam_magic ) && !(<argn2>&dam_nounparalyze))
-	if (<flags>&statf_freeze)
+if ( (<argn2>&DamEnergy || <argn2>&DamPhysical || <argn2>&DamFire || <argn2>&DamPierce || <argn2>&DamSlash || <argn2>&DamMagic ) && !(<argn2>&DamNoUnparalyze))
+	if (<flags>&StatFParalyzed)
 		findid.i_rune_paralyze.remove
 	endif
 endif
-if ( <argn2>&dam_physical || <argn2>&dam_pierce || <argn2>&dam_slash) )
-	if (<flags>&statf_hidden)
-		flags &= ~statf_hidden
+if ( <argn2>&DamPhysical || <argn2>&DamPierce || <argn2>&DamSlash) )
+	if (<flags>&StatFHidden)
+		flags &= ~StatFHidden
 	endif
-	if ( (<flags>&statf_reactive) && !(<argn2>&dam_god) )
-		if !( (<src> == <uid>) || (<src.brain>==brain_guard) || (<distance> > 2) )	// We shouldn't reflect dmg to ourselves or guards or targets with distance > 2
+	if ( (<flags>&StatFReactive) && !(<argn2>&DamGod) )
+		if !( (<src> == <uid>) || (<src.brain>==BrainGuard) || (<distance> > 2) )	// We shouldn't reflect dmg to ourselves or guards or targets with distance > 2
 			local.effect=<f_value_getlinear <magery>,100.0,<serv.spell.s_reactive_armor.effect>>	// We asume max magery skill = 100.0
 		endif
 		local.effect=<medium <0,<local.effect>,(<local.dam>-1)>
@@ -529,8 +529,8 @@ if ( <argn2>&dam_physical || <argn2>&dam_pierce || <argn2>&dam_slash) )
 		endif
 	endif
 	//armor calculations
-	if !(<argn2>&dam_god)
-		if !(<argn2>&dam_general)
+	if !(<argn2>&DamGod)
+		if !(<argn2>&DamGeneral)
 			local.armor=<r<max (<armor>+<modar>),0>>
 			local.dmg=<OnTakeDmg <local.dam>,<src>,<argn2>>		// fixme iDmg = OnTakeDamageHitPoint( iDmg, pSrc, uType );
 			if (<serv.MagicFlags>&04)	// MAGICF_IGNOREAR 
@@ -539,7 +539,7 @@ if ( <argn2>&dam_physical || <argn2>&dam_pierce || <argn2>&dam_slash) )
 				local.armor /=2
 			endif
 		local.dmg -= <local.armor>
-		elseif !(<serv.MagicFlags>&04 || <argn2>&dam_magic)
+		elseif !(<serv.MagicFlags>&04 || <argn2>&DamMagic)
 			local.dmg -=<r<<armor>+<serv.chardef.<baseid>.armor>>>
 		endif
 	endif
@@ -563,7 +563,7 @@ endif
 // elseif (<r<local.dam>> > 5)
 	// local.blood=5701
 // endif
-// if ( (<local.blood> && (<argn2>&dam_pierce || <argn2>&dam_slash) && !(<flags>&statf_conjured) )
+// if ( (<local.blood> && (<argn2>&DamPierce || <argn2>&DamSlash) && !(<flags>&StatFConjured) )
 	// serv.newitem=<local.blood>
 	// new.attr=attr_decay|attr_move_never
 	// new.timer=7
@@ -573,20 +573,20 @@ endif
 //fixme add/remove/update memorys
 //fixme @Death/@DeathCorpse + @Kill triggers
 // return 1
-argn2 |=dam_fixed
+argn2 |=DamFixed
 
 
 [function OnTakeDmg]
 // This function is called when every check is already done, the damage is calculated and the dam is going to come.
 // The body part which is going to be hit is checked in this function.
 // Deflect some damage with shield or weapon ?
-if !( <argv2>&DAM_GENERAL )
+if !( <argv2>&DamGeneral )
 	return <argv0>
 endif
 local.dam=<argv0>
-if ( ( <flags>&STATF_HASSHIELD ) && ( ( <argv2>&DAM_PHYSICAL ) || ( <argv2>&DAM_PIERCE ) || ( <argv2>&DAM_SLASH ) ) && !( ( <argv2>&DAM_GOD ) || ( <argv2>&DAM_ENERGY ) ) )
+if ( ( <flags>&StatFHasShield ) && ( ( <argv2>&DamPhysical ) || ( <argv2>&DamPierce ) || ( <argv2>&DamSlash ) ) && !( ( <argv2>&DamGod ) || ( <argv2>&DamEnergy ) ) )
 	ref1=<findlayer.2>
-	if ( <ref1.type>==t_shield && <SkillUseQuick Parrying,<r<qval <src>!=<uid>? <src.tactics>/10:100>>> )
+	if ( <ref1.type>==tShield && <SkillUseQuick Parrying,<r<qval <src>!=<uid>? <src.tactics>/10:100>>> )
 		local.def=<r<ref1.Armor_GetDefense>/2>
 		local.hitscur=<ref1.hits>
 		ref1.damage=<min <local.dam>,<local.def>>,<argv1>,<argv2>
@@ -608,7 +608,7 @@ local.HitPrefChance = <qval <src.tag0.HitPreference_Chance>?<src.tag.HitPreferen
 local.HitPrefPenalty = <qval <src.tag0.HitPreference_Penalty>?<src.tag0.HitPreference_Penalty>:30>	// Percent
 local.HitPrefBonus	= <qval <src.tag0.HitPreference_Bonus>?<src.tag0.HitPreference_Bonus>:30>	// Percent
 
-if ( ( <serv.CombatFlags>&02000 ) && ( <local.HitPref>!=0 ) && ( ( <argv2>&DAM_PHYSICAL ) || ( <argv2>&DAM_PIERCE ) || ( <argv2>&DAM_SLASH ) ) && !( ( <argv2>&DAM_GOD ) || ( <argv2>&DAM_ENERGY ) ) )
+if ( ( <serv.CombatFlags>&02000 ) && ( <local.HitPref>!=0 ) && ( ( <argv2>&DamPhysical ) || ( <argv2>&DamPierce ) || ( <argv2>&DamSlash ) ) && !( ( <argv2>&DamGod ) || ( <argv2>&DamEnergy ) ) )
 	if (<r1100> < <local.HitPrefChance> )
 		while ( <local.HitPref> > 7 )	// Here the default body parts are used, if you are planing to extend it ... place a check for bodies, ie: if body == dragon, must be higher than 7 and lower than 14?
 			local.HitPref -= 7			// We lower it until we get a useable value.
@@ -629,7 +629,7 @@ else
 		local.hitarea ++
 	end
 endif
-if ( ( ( <argv2>&DAM_PHYSICAL ) || ( <argv2>&DAM_PIERCE ) || ( <argv2>&DAM_SLASH ) ) && !( ( <argv2>&DAM_GOD ) || ( <argv2>&DAM_ENERGY ) ) )
+if ( ( ( <argv2>&DamPhysical ) || ( <argv2>&DamPierce ) || ( <argv2>&DamSlash ) ) && !( ( <argv2>&DamGod ) || ( <argv2>&DamEnergy ) ) )
 	if ( <detail> || <src.detail> )
 		local.rMsg=<r3>
 		doswitch <local.hitarea>
@@ -655,7 +655,7 @@ if ( ( ( <argv2>&DAM_PHYSICAL ) || ( <argv2>&DAM_PIERCE ) || ( <argv2>&DAM_SLASH
 		endif
 	endif
 endif
-if ( ( <serv.MagicFlags>&04 ) && ( <argv2>&DAM_MAGIC ) ) //MAGICF_IGNOREAR. No need to check the following if we don't need it.
+if ( ( <serv.MagicFlags>&04 ) && ( <argv2>&DamMAgic ) ) //MAGICF_IGNOREAR. No need to check the following if we don't need it.
 	return <dlocal.dam>
 endif
 local.maxcoverage=0
@@ -854,7 +854,7 @@ return <dlocal.Chance>
 [function CalcDamage]
 // argn1 = 0 = normal damage.
 // argn1 = 1  = random damage.
-if ( <brain> == BRAIN_GUARD && <serv.GuardsInstantKill> )
+if ( <brain> == BrainGuard && <serv.GuardsInstantKill> )
 	return <src.maxhits> + 10000
 endif
 local.ret=1
@@ -907,7 +907,7 @@ return <local.flags>
 if !(<def0.<args>>)
 	return 0
 endif
-return <qval <args>==archery ? 1 : <qval <args>==throwing ? 1 : 0>>
+return <QVal ((<ArgS> == Archery) || (<ArgS> == Throwing)) ? 1 : 0>
 
 
 

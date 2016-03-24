@@ -123,7 +123,7 @@ dialog d_sphereadmin
 
 [FUNCTION admin_getplayers]
 // List players in CTAGs on the caller
-if ((<account.plevel> > <src.account.plevel>) && (<flags> & statf_insubstantial) && (<def0.admin_hidehighpriv>))
+if ((<account.plevel> > <src.account.plevel>) && (<flags> & StatFInsubstantial) && (<def0.admin_hidehighpriv>))
    return
 else
    src.ctag0.admin_numplayers += 1
@@ -168,7 +168,7 @@ for x <eval ((<ctag0.admin_page> - 1) * 15) + 1> <eval (<ctag0.admin_page> * 15)
       return
    endif
    obj=<ctag0.admin_p<eval <local.x>>>
-   if (<obj.flags> & statf_insubstantial)
+   if (<obj.flags> & StatFInsubstantial)
       local.hue=0450
    else
       local.hue=0480
@@ -278,7 +278,7 @@ dtext 200 120 0480 Follow this player
 button 160 140 4005 4006 1 0 25
 dtext 200 140 0480 <qval (<account.jail>) ? Forgive:Jail> this player
 button 160 160 4005 4006 1 0 26
-dtext 200 160 0480 <qval (<flags> & statf_dead)?Resurrect:Kill> this player
+dtext 200 160 0480 <qval (<flags> & StatFDead)?Resurrect:Kill> this player
 button 160 180 4005 4006 1 0 27
 dtext 200 180 0480 Disconnect this player from the server
 button 160 200 4005 4006 1 0 28
@@ -357,7 +357,7 @@ on=25
    endif
 
 on=26
-   if (<flags> & statf_dead)
+   if (<flags> & StatFDead)
       resurrect
    else
       hits=0

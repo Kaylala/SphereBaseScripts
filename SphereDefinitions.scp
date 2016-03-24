@@ -81,409 +81,440 @@ Mount_0x4e7		03ec8	// Ethereal Tiger
 mount_0x42D		03EC9	// Ancient Hell Hound
 
 [DefName hues]
-hTextHue			-1
-hNone				0
-hRedHue1			32
-hRedHue2			33
-hCyanHue			88
-hDarkGrayHue			802
-hEnergyVortexHue		118
-hLightGrayHue			904
-hDyeHighHue			1000   // highest dyeable hue = 1001
-hIceHue				1152
-hSnowHue			1153
-hRockHue			1154
-hSpectralHue			16385
+TextHue						-1
+None						0
+RedHue1						32
+RedHue2						33
+CyanHue						88
+DarkGrayHue					802
+EnergyVortexHue				118
+LightGrayHue				904
+DyeHighHue					1000   // highest dyeable hue = 1001
+IceHue						1152
+SnowHue						1153
+RockHue						1154
+SpectralHue					16385
 
-hSpinedHue			08ac
-hHornedHue			0845
-hBarbedHue			0851
+SpinedHue					08ac
+HornedHue					0845
+BarbedHue					0851
 
-hMagicWeaponHue			0
-hMagicShieldHue			0
-hMagicArmorHue			0
+MagicWeaponHue				0
+MagicShieldHue				0
+MagicArmorHue				0
 
-hMagicDefenseHue		1650
-hMagicGuardingHue		1430
-hMagicHardeningHue		1353
-hMagicFortificationHue		1805
-hMagicInvulnerabilityHue	1887
+MagicDefenseHue				1650
+MagicGuardingHue			1430
+MagicHardeningHue			1353
+MagicFortificationHue		1805
+MagicInvulnerabilityHue		1887
 
 [DefName hues_range]
-hHuesAll			{2 1001}
-hHumanSkinHues			{1002 1058}
-hHairHues			{1102 1149}
-hPinkHues			{1201 1254}
-hBlueHues			{1301 1354}
-hGreenHues			{1401 1454}
-hOrangeHues			{1501 1554}
-hRedHues			{1601 1654}
-hYellowHues			{1701 1754}
-hNeutralHues			{1801 1908}
-hSnakeHues			{2001 2018}
-hBirdHues			{2101 2130}
-hSlimeHues			{2201 2224}
-hAnimalHues			{2301 2318}
-hMetalHues			{2401 2430}
+HuesAll						{2 1001}
+HumanSkinHues				{1002 1058}
+HairHues					{1102 1149}
+PinkHues					{1201 1254}
+BlueHues					{1301 1354}
+GreenHues					{1401 1454}
+OrangeHues					{1501 1554}
+RedHues						{1601 1654}
+YellowHues					{1701 1754}
+NeutralHues					{1801 1908}
+SnakeHues					{2001 2018}
+BirdHues					{2101 2130}
+SlimeHues					{2201 2224}
+AnimalHues					{2301 2318}
+MetalHues					{2401 2430}
 
-hBrightHues			{062 1 071 1 03 9 0d 9 013 9 01c 9 021 9 030 9 037 9 03a 9 044 9 059 9}
-hStoneHues			{2498 1 2500 1 {2671 2706} 1}
-hGargoyleSkinHues		{1755 1779}
-hWhiteHue			2301
-hBlackHue			2305
-hBrownHues			{1110 1116}
-hGrayHues			{946 947}
-hDemonHues			{ 1106 1110 }
-hWyrmHues			{ 0 1 { 1105 1110 } 1 { 34 39 } 1 }
-hRedDragonHues			{ hRedHue1 1 hRedHue2 1 }
-hBloodHues			{ 33 38 }
-hLavaHues			{ { 32 34 } 1 { 53 55 } 1 { 43 45 } 1 }
-hPoisonHues			{ 61 79 }
+BrightHues					{062 1 071 1 03 9 0d 9 013 9 01c 9 021 9 030 9 037 9 03a 9 044 9 059 9}
+StoneHues					{2498 1 2500 1 {2671 2706} 1}
+GargoyleSkinHues			{1755 1779}
+WhiteHue					2301
+BlackHue					2305
+BrownHues					{1110 1116}
+GrayHues					{946 947}
+DemonHues					{ 1106 1110 }
+WyrmHues					{ 0 1 { 1105 1110 } 1 { 34 39 } 1 }
+RedDragonHues				{ hRedHue1 1 hRedHue2 1 }
+BloodHues					{ 33 38 }
+LavaHues					{ { 32 34 } 1 { 53 55 } 1 { 43 45 } 1 }
+PoisonHues					{ 61 79 }
 
 
 [DefName brains]
-BrainNone			0
-BrainAnimal			1
-BrainHuman			2
-BrainHealer			3
-BrainGuard			4
-BrainBanker			5
-BrainVendor			6
-BrainAnimalTrainer		7
-BrainMonster			8
-BrainBerserk			9
-BrainDragon			10
+BrainNone					0
+BrainAnimal					1
+BrainHuman					2
+BrainHealer					3
+BrainGuard					4
+BrainBanker					5
+BrainVendor					6
+BrainAnimalTrainer			7
+BrainMonster				8
+BrainBerserk				9
+BrainDragon					10
 
 [DefName sounds]
-sndWind1			21
-sndWind2			22
-sndCrickets			23
-sndCraftAnvil			42
+sndWind1					21
+sndWind2					22
+sndCrickets					23
+sndCraftAnvil				42
 
-sndAlligator1			90
-sndAlligator2			91
-sndAlligator3			92
-sndAlligator4			93
-sndAlligator5			94
-sndBear1			95
-sndBear2			96
-sndBear3			97
-sndBear4			98
-sndBear5			99
-sndBull1			100
-sndCat1				105
-sndChicken1			110
-sndCougar1			115
-sndCow1				120
-sndCrow1			125
-sndDeer3			130
-sndDeer4			131
-sndDeer5			132
-sndDog1				133
-sndDolphin1			138
-sndEagle1			143
-sndForestBird1			148
-sndGoat1			153
-sndGorilla1			158
-sndGrizzly1			163
-sndHorse1			168
-sndJungleBird1			173
-sndLion1			178
-sndLlama3			183
-sndLlama4			184
-sndLlama5			185
-sndPanther1			186
-sndParrot1			191
-sndPig1				196
-sndPig2				197
-sndRabbit3			201
-sndRabbit4			202
-sndRabbit5			203
-sndRat1				204
-sndRaven1			209
-sndSheep1			214
-sndSnake1			219
-sndWalrus1			224
-sndWolf1			229
-sndSpellEffect1			254
-sndAirElemental1		263
-sndAirElemental2		264
-sndAirElemental3		265
-sndAirElemental4		266
-sndAirElemental5		267
-sndEarthElemental1		268
-sndFireElemental1		273
-sndWaterElemental1		278
+sndAlligator1				90
+sndAlligator2				91
+sndAlligator3				92
+sndAlligator4				93
+sndAlligator5				94
+sndBear1					95
+sndBear2					96
+sndBear3					97
+sndBear4					98
+sndBear5					99
+sndBull1					100
+sndBull2					101
+sndBull3					102
+sndBull4					103
+sndBull5					104
+sndCat1						105
+sndCat2						106
+sndCat3						107
+sndCat4						108
+sndCat5						109
+sndChicken1					110
+sndCougar1					115
+sndCow1						120
+sndCrow1					125
+sndDeer3					130
+sndDeer4					131
+sndDeer5					132
+sndDog1						133
+sndDolphin1					138
+sndEagle1					143
+sndForestBird1				148
+sndGoat1					153
+sndGorilla1					158
+sndGrizzlyBear1				163
+sndHorse1					168
+sndJungleBird1				173
+sndLion1					178
+sndLlama3					183
+sndLlama4					184
+sndLlama5					185
+sndPanther1					186
+sndParrot1					191
+sndPig1						196
+sndPig2						197
+sndRabbit3					201
+sndRabbit4					202
+sndRabbit5					203
+sndRat1						204
+sndRaven1					209
+sndSheep1					214
+sndSnake1					219
+sndWalrus1					224
+sndWolf1					229
+sndSpellEffect1				254
+sndAirElemental1			263
+sndAirElemental2			264
+sndAirElemental3			265
+sndAirElemental4			266
+sndAirElemental5			267
+sndEarthElemental1			268
+sndEarthElemental2			269
+sndEarthElemental3			270
+sndEarthElemental4			271
+sndEarthElemental5			272
+sndFireElemental1			273
+sndFireElemental2			274
+sndFireElemental3			275
+sndFireElemental4			276
+sndFireElemental5			277
+sndWaterElemental1			278
+sndWaterElemental2			279
+sndWaterElemental3			280
+sndWaterElemental4			281
+sndWaterElemental5			282
 
-snd_hits_hit01			309
-snd_hits_hit02			310
-snd_hits_hit03			311
-snd_hits_hit04			312
-snd_hits_hit05			313
-snd_hits_hit06			314
-snd_hits_hit07			315
-snd_hits_hit08			316
-snd_hits_hit09			317
-snd_hits_hit10			318
-snd_hits_hit11			319
-snd_hits_hit12			320
-snd_hits_hit13			321
-snd_hits_hit14			322
-snd_hits_hit15			323
-snd_hits_hit16			324
-snd_hits_hit17			325
-snd_hits_hit18			326
-snd_hits_hit19			327
-snd_hits_hit20			328
-snd_hits_hit21			329
-snd_hits_hit22			330
+snd_hits_hit01				309
+snd_hits_hit02				310
+snd_hits_hit03				311
+snd_hits_hit04				312
+snd_hits_hit05				313
+snd_hits_hit06				314
+snd_hits_hit07				315
+snd_hits_hit08				316
+snd_hits_hit09				317
+snd_hits_hit10				318
+snd_hits_hit11				319
+snd_hits_hit12				320
+snd_hits_hit13				321
+snd_hits_hit14				322
+snd_hits_hit15				323
+snd_hits_hit16				324
+snd_hits_hit17				325
+snd_hits_hit18				326
+snd_hits_hit19				327
+snd_hits_hit20				328
+snd_hits_hit21				329
+snd_hits_hit22				330
 
-snd_human_foomph01	  	331
-snd_human_foomph06	  	332
-snd_human_foomph07	  	333
-snd_human_foomph08	  	334
-snd_human_foomph09		335
-snd_human_f_die_01		336
-snd_human_f_die_02		337
-snd_human_f_die_03		338
-snd_human_f_die_04		339
-snd_human_moomph01		340
-snd_human_moomph02		341
-snd_human_moomph03		342
-snd_human_moomph04		343
-snd_human_moomph05		344
-snd_human_moomph13		345
-snd_human_m_die_01		346
-snd_human_m_die_02		347
-snd_human_m_die_03		348
-snd_human_m_die_04		349
-sndCorpser1			353
-sndCorpser3			354
-sndCorpser4			355
-sndCorpser5			356
-sndDaemon1			357
-sndDragon1			362
-sndEttin1			367
-sndGargoyle1			372
-sndGazer1			377
-sndGhost1			382
-sndGiantSpider1			387
-sndGiantRat1			392
-sndGiantScorpion1		397
-sndHarpy1			402
-sndHeadless1			407
-sndLich1			412
-sndLizardman1			417
-sndMongbat1			422
-sndOgre1			427
-sndOrc1				432
-sndRatman1			437
-sndReaper1			442
-sndSeaSerpent1			447
-sndSeaSerpent3			448
-sndSeaSerpent4			449
-sndSeaSerpent5			450
-sndSkleton1			451
-sndSlime1			456
-sndTroll1			461
-sndWisp1			466
-sndZombie1			471
-snd_weapons_axe01		562
-snd_weapons_blunt01		563
+sndHFOomph01	  			331
+sndHFOomph06	  			332
+sndHFOoomph07	  			333
+sndHFOomph08	  			334
+sndHFOomph09				335
+sndHFDie01					336
+sndHFDie02					337
+sndHFDie03					338
+sndHFDie04					339
+sndHMOomph01				340
+sndHMOomph02				341
+sndHMOomph03				342
+sndHMOomph04				343
+sndHMOomph05				344
+sndHMOomph13				345
+sndHMDie01					346
+sndHMDie02					347
+sndHMDie03					348
+sndHMDie04					349
+sndCorpser1					353
+sndCorpser3					354
+sndCorpser4					355
+sndCorpser5					356
+sndDaemon1					357
+sndDaemon2					358
+sndDaemon3					359
+sndDaemon4					360
+sndDaemon5					361
+sndDragon1					362
+sndEttin1					367
+sndGargoyle1				372
+sndGazer1					377
+sndGhost1					382
+sndGiantSpider1				387
+sndGiantRat1				392
+sndGiantScorpion1			397
+sndHarpy1					402
+sndHeadless1				407
+sndLich1					412
+sndLizardman1				417
+sndMongbat1					422
+sndOgre1					427
+sndOrc1						432
+sndRatman1					437
+sndReaper1					442
+sndSeaSerpent1				447
+sndSeaSerpent3				448
+sndSeaSerpent4				449
+sndSeaSerpent5				450
+sndSkeleton1				451
+sndSlime1					456
+sndTroll1					461
+sndWisp1					466
+sndZombie1					471
+snd_weapons_axe01			562
+snd_weapons_blunt01			563
 snd_weapons_crossbow		564
 snd_weapons_gilotin1		565
 snd_weapons_hvyswrd1		566
 snd_weapons_hvyswrd4		567
-snd_weapons_swish01		568
-snd_weapons_swish02		569
-snd_weapons_swish03		570
-snd_weapons_sword1		571
-snd_weapons_sword7		572
-snd_z_end_carpentry		573
-sndDye				574
-snd_z_end_fishsplash		575
-snd_z_end_liquid		576
-snd_z_end_lockpick		577
-snd_z_end_mortar		578
-sndMystery1			579
-sndMystery2			580
-sndMystery3			581
-sndPoison			582
-sndPowder			583
-sndScissors			584
-sndScribe			585
-sndSpiritSpeak			586
-sndTerathanWarrior1		589
-sndTerathanDrone1		594
+snd_weapons_swish01			568
+snd_weapons_swish02			569
+snd_weapons_swish03			570
+snd_weapons_sword1			571
+snd_weapons_sword7			572
+sndCarpentry				573
+sndDye						574
+sndFishSplash				575
+sndLiquid					576
+sndLockpick					577
+sndMortar					578
+sndMystery1					579
+sndMystery2					580
+sndMystery3					581
+sndPoison					582
+sndPowder					583
+sndScissors					584
+sndScribe					585
+sndSpiritSpeak				586
+sndTerathanWarrior1			589
+sndTerathanDrone1			594
 sndTerathanMatriarch1		599
-sndCyclops1			604
-sndTitan1			609
-sndGiantToad1			614
-sndBullfrog1			619
-sndDesertOstard1		624
-sndDesertOstard2		625
-sndDesertOstard3		626
-sndDesertOstard4		627
-sndDesertOstard5		628
-sndFrenziedOstard1		629
+sndCyclops1					604
+sndTitan1					609
+sndGiantToad1				614
+sndBullfrog1				619
+sndDesertOstard1			624
+sndDesertOstard2			625
+sndDesertOstard3			626
+sndDesertOstard4			627
+sndDesertOstard5			628
+sndFrenziedOstard1			629
 sndOphidian_warrior1		634
-sndOphidian_mage1		639
-sndOphidian_queen1		644
-sndLavaLizard1			649
+sndOphidian_mage1			639
+sndOphidian_queen1			644
+sndLavaLizard1				649
 
-sndAgility			654
-sndAir1				655
-sndAir2				656
-sndAir3				657
-sndAir4				658
-sndAir5				659
-sndLizard1			660
-sndLizard2			661
-sndLizard3			662
-sndLizard4			663
-sndLizard5			664
-sndArchCure			665
-sndCentaur			679
-sndCentaur2			680
+sndAgilitySpecial			654
+sndAirSpecial1				655
+sndAirSpecial2				656
+sndAirSpecial3				657
+sndAirSpecial4				658
+sndAirSpecial5				659
+sndLizard1					660
+sndLizard2					661
+sndLizard3					662
+sndLizard4					663
+sndLizard5					664
+sndArchCureSpecial			665
+sndCentaur					679
+sndCentaur2					680
 
-sndExodus1			769
-sndExodus2			770
+sndExodus1					769
+sndExodus2					770
 sndSerpentineDragon1		649
-sndElec_1			756
-sndElec_1a			757
-sndElec_2			477
-sndFire_1			837
-sndFire_1a			838
-sndEfreet1			880
+sndElec_1					756
+sndElec_1a					757
+sndElec_2					477
+sndFire_1					837
+sndFire_1a					838
+sndEfreet1					880
 
-sndInsect1			959
-sndInsect2			960
-sndInsect3			961
-sndInsect4			962
-sndInsect5			963
-sndKiRin1			965
-sndKiRin2			966
-sndLonghorn1			1016
-sndLonghorn2			1017
-sndLonghorn3			1018
-sndLonghorn4			1019
-sndLonghorn5			1020
-sndPixie			1139
-sndPixie2			1140
-sndSeahorse			1144
-sndShadowlord			1149
-sndSkeletonDragon		1160
-sndSuccubus1			1200
-sndSuccubus2			1201
-sndSuccubus3			1202
-sndSuccubus4			1203
-sndSuccubus5			1204
-sndUnicorn1			1212
-sndCrane			1240
-sndCrane1			1241
-sndOni1				1250
-sndOni2				1251
-sndRuneBeetle1			1255
-sndRuneBeetle2			1256
-sndYomotsu			1261
-sndYamandon			1262
+sndSolen1					959
+sndSolen2					960
+sndSolen3					961
+sndSolen4					962
+sndSolen5					963
+sndKiRin1					965
+sndKiRin2					966
+sndLonghorn1				1016
+sndLonghorn2				1017
+sndLonghorn3				1018
+sndLonghorn4				1019
+sndLonghorn5				1020
+sndPixie1					1139
+sndPixie2					1140
+sndPixie3					1141
+sndPixie4					1143
+sndPixie5					1143
+sndSeahorse1				1144
+sndSeahorse2				1145
+sndSeahorse3				1146
+sndSeahorse4				1147
+sndSeahorse5				1148
+sndShadowlord				1149
+sndSkeletonDragon			1160
+sndSuccubus1				1200
+sndSuccubus2				1201
+sndSuccubus3				1202
+sndSuccubus4				1203
+sndSuccubus5				1204
+sndUnicorn1					1212
+sndCrane					1240
+sndCrane1					1241
+sndOni1						1250
+sndOni2						1251
+sndRuneBeetle1				1255
+sndRuneBeetle2				1256
+sndYomotsu					1261
+sndYamandon					1262
 sndDeathwatchBeetle1		1264
 sndDeathwatchBeetle2		1265
 sndDeathwatchBeetle3		1266
 sndDeathwatchBeetle4		1267
 sndDeathwatchBeetle5		1268
-sndGaman1			1271
-sndGaman2			1272
-sndHiryu2			1276
-sndHiryu			1277
-sndOrigami1			1280
-sndOrigami2			1281
-sndOrigami3			1282
-sndWindchimes1			1285
-sndWindchimes2			1286
-sndWindchimes3			1287
-sndKappa			1290
-sndKappa1			1291
-sndRevenantLion			1303
-sndRevenantLion2		1304
-sndTsukiWolf			1324
-sndTsukiWolf2			1343
-sndBakeKitsune			1345
-sndChangling			1386
-sndCorporealBrume		1386
-sndFetidEssence			1388
-sndHydra			1389
-sndParoxysmus			1394
-sndCuSidhe			1397
-sndDryad			1405
-sndInterredGrizzle1		1410
-sndSatyr1			1416
+sndGaman1					1271
+sndGaman2					1272
+sndHiryu2					1276
+sndHiryu					1277
+sndOrigami1					1280
+sndOrigami2					1281
+sndOrigami3					1282
+sndWindchimes1				1285
+sndWindchimes2				1286
+sndWindchimes3				1287
+sndKappa					1290
+sndKappa1					1291
+sndRevenantLion				1303
+sndRevenantLion2			1304
+sndTsukiWolf				1324
+sndTsukiWolf2				1343
+sndBakeKitsune				1345
+sndChangling				1386
+sndCorporealBrume			1386
+sndFetidEssence				1388
+sndHydra					1389
+sndParoxysmus				1394
+sndCuSidhe					1397
+sndDryad					1405
+sndInterredGrizzle1			1410
+sndSatyr1					1416
 sndShimmeringEffusion1		1428
-sndMinotaur1			1433
-sndTroglodyte			1440
+sndMinotaur1				1433
+sndTroglodyte				1440
 
-sndAbyssalInfernal1		1493
-sndAbyssalInfernal2		1494
-sndAbyssalInfernal3		1495
-sndAbyssalInfernal4		1496
-sndAcidSlug1			1497
-sndAcidSlug2			1498
-sndAcidSlug3			1499
-sndAcidSlug4			1500
-sndBloodworm1			1501
-sndBoura1			1505
-sndChickenLizard1		1509
-sndDragonFaerie1		1513
-sndDragonWolf1			1517
-sndDreamWraith1			1521
-sndGargoyleFemale1		1525
-sndGargoyleMale1		1529
-sndGoblin1			1534
-sndGrayGoblin1			1536
-sndTarantula1			1538
-sndHomunculous1			1542
-sndKepetch1			1543
-sndLavaElemental1		1547
-sndMaddeningHorror1		1551
-sndMedusa1			1555
-sndMimic1			1559
-sndNavreyNightEyes1		1563
-sndPrimevalLich1		1567
-sndRaptor1			1571
-sndRisingColossus1		1575
-sndRotworm1	  		1579
-sndSkree1			1583
-sndSlasherOfVeils1		1587
-sndSlith1			1591
-sndStoneform1			1595
-sndStygianDragon1		1599
-sndStygianDragon2		1600
-sndStygianDragon3		1601
-sndStygianDragon4		1602
-sndTrapdoorSpider1		1603
-sndUndeadGargoyle1		1607
+sndAbyssalInfernal1			1493
+sndAbyssalInfernal2			1494
+sndAbyssalInfernal3			1495
+sndAbyssalInfernal4			1496
+sndAcidSlug1				1497
+sndAcidSlug2				1498
+sndAcidSlug3				1499
+sndAcidSlug4				1500
+sndBloodworm1				1501
+sndBoura1					1505
+sndChickenLizard1			1509
+sndDragonFaerie1			1513
+sndDragonWolf1				1517
+sndDreamWraith1				1521
+sndGargoyleFemale1			1525
+sndGargoyleMale1			1529
+sndGoblin1					1534
+sndGrayGoblin1				1536
+sndTarantula1				1538
+sndHomunculous1				1542
+sndKepetch1					1543
+sndLavaElemental1			1547
+sndMaddeningHorror1			1551
+sndMedusa1					1555
+sndMimic1					1559
+sndNavreyNightEyes1			1563
+sndPrimevalLich1			1567
+sndRaptor1					1571
+sndRisingColossus1			1575
+sndRotworm1	  				1579
+sndSkree1					1583
+sndSlasherOfVeils1			1587
+sndSlith1					1591
+sndStoneform1				1595
+sndStygianDragon1			1599
+sndStygianDragon2			1600
+sndStygianDragon3			1601
+sndStygianDragon4			1602
+sndTrapdoorSpider1			1603
+sndUndeadGargoyle1			1607
 
-snd_spell_lightning		 41
-snd_spell_chain_lightning	 41
-snd_spell_harm		     252
-snd_spell_fireball		 350
-snd_spell_fire_bolt		351
-snd_spell_meteor_swarm	   352
-snd_spell_clumsy		   479
-snd_spell_cure		     480
-snd_spell_archcure		 480
-snd_spell_curse		    481
-snd_spell_create_food	    482
-snd_spell_night_sight	    483
-snd_spell_light		    483
-snd_spell_feeblemind	     484
-snd_spell_magic_arrow	    485
-snd_spell_weaken		   486
-snd_spell_agility		  487
-snd_spell_animate_dead	   488
-snd_spell_reactive_armor	 489
-snd_spell_magic_reflection     489
-snd_spell_bless		    490
+snd_spell_lightning			41
+snd_spell_chain_lightning	41
+snd_spell_harm		     	252
+snd_spell_fireball		 	350
+snd_spell_fire_bolt			351
+snd_spell_meteor_swarm		352
+snd_spell_clumsy			479
+snd_spell_cure				480
+snd_spell_archcure			480
+snd_spell_curse				481
+snd_spell_create_food		482
+snd_spell_night_sight		483
+snd_spell_light				483
+snd_spell_feeblemind		484
+snd_spell_magic_arrow		485
+snd_spell_weaken			486
+snd_spell_Agility			487
+snd_spell_AnimateDead		488
+snd_spell_ReactiveArmor		489
+snd_spell_MagicReflection	489
+snd_spell_bless				490
 snd_spell_cunning		  491
 snd_spell_protection	     493
 snd_spell_strength		 494
@@ -1271,23 +1302,23 @@ g_btn_gray_apply	   5204
 g_btn_gray_apply_press   5205
 
 [DefName Dam_Flags]
-DamGod				00001   // unblockable "god" damage
-DamPhysical			00002   // some sort of physical damage (as opposed to magical)
-DamMagic			00004   // some sort of magical damage
-DamPoison			00008   // poison-based damage
-DamFire				00010   // fire-based damage
-DamEnergy			00020   // energy-based damage
-DamGeneral			00080   // damage that hits the entire body, rather than just one part of it
-DamAcid				00100   // acidic damage (will destroy armor)
-DamCold				00200   // cold-based damage
-DamSlash			00400   // damage done by slashing (swords, etc)
-DamPierce			00800   // damage done with spear and such.
-DamNoDisturb		02000   // victim won't be disturbed
-DamNoReveal			04000   // damage that does not reveal the attacker.
-DamNoUnparalyze		08000   // victim won't be unparalyzed
-DamFixed			010000	// Wont be recalculated with default checks (Won't lower due to Armor or Res*)
-DamBlunt			020000	// Mace damage
-DamAll				02|08|010|020|0200
+DamGod						00001   // unblockable "god" damage
+DamPhysical					00002   // some sort of physical damage (as opposed to magical)
+DamMagic					00004   // some sort of magical damage
+DamPoison					00008   // poison-based damage
+DamFire						00010   // fire-based damage
+DamEnergy					00020   // energy-based damage
+DamGeneral					00080   // damage that hits the entire body, rather than just one part of it
+DamAcid						00100   // acidic damage (will destroy armor)
+DamCold						00200   // cold-based damage
+DamSlash					00400   // damage done by slashing (swords, etc)
+DamPierce					00800   // damage done with spear and such.
+DamNoDisturb				02000   // victim won't be disturbed
+DamNoReveal					04000   // damage that does not reveal the attacker.
+DamNoUnparalyze				08000   // victim won't be unparalyzed
+DamFixed					010000	// Wont be recalculated with default checks (Won't lower due to Armor or Res*)
+DamBlunt					020000	// Mace damage
+DamAll						02|08|010|020|0200
 
 [DefName Can_I_Flags]
 CanIDoor				000001		// is a door uflag4_door
