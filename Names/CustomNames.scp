@@ -1,0 +1,682 @@
+// What the?! Who even added this?
+[Names EagleNames]
+12
+Bald Eagle
+Barred Hawk
+Black Eagle
+Black Hawk
+Crested Eagle
+Golden Eagle
+Harpy Eagle
+Nighthawk
+Savanna Hawk
+Solitary Eagle
+White-tailed Eagle
+White-tailed Hawk
+
+
+[Names DreadLordNames]
+43
+Abyss
+Angeleyes
+Ash
+Bender
+Blackmoon
+Blade
+Bloodless
+Cobra
+Darkness
+Darkstorm
+Dash
+Deadeye
+Fiend
+Firebird
+Griffin
+Hex
+Ironhead
+Nightmare
+Patch
+Python
+Rage
+Redlegs
+Redshirt
+Scorn
+Screw
+Scrub
+Sin
+Snake-eye
+Snakehead
+Sordid
+Soulblades
+Specter
+Spur
+Stinger
+Stitch
+Stony
+Swill
+Venom
+Vermin
+Vice
+Vile
+Viper
+Wrench
+
+
+[Names BorgMaleNames]
+50
+Addranvan
+Addron
+Aethed
+Aetheor
+Aethir
+Aethor
+Aethyran
+Blircyn
+Caegwyn
+Caredd
+Carerraent
+Daeddyn
+Danyc
+Didoc
+Dyddyn
+Dyran
+Ginvan
+Glaedd
+Gleon
+Gleonnyn
+Gliran
+Gwigoynn
+Gwon
+Lenry
+Linvan
+Locyn
+Lonvan
+Lur
+Maennyn
+Moddry
+Rar
+Rhanvan
+Rharan
+Rhidry
+Rydd
+Sen
+Seodd
+Tenyc
+Tyllyn
+Tyrcyn
+Vaec
+Venvan
+Veonnan
+Veoryn
+Veryn
+Vudry
+Yradoc
+Yremire
+Yremyr
+Yreran
+
+
+[Names BorgFemaleNames]
+50
+Aloryan
+Alynoic
+Braena
+Brill
+Brodda
+Bryrka
+Calyan
+Ciryan
+Claengwen
+Clicla
+Cluniver
+Clyna
+Collyra
+Cyll
+Dealyan
+Delonna
+Dira
+Elalonna
+Gwana
+Gwolonna
+Jeana
+Jerka
+Jiryan
+Jwrka
+Jyniver
+Lynoic
+Meacla
+Merka
+Meryan
+Mibrylla
+Muniver
+Murka
+Mwryan
+Neangwen
+Nella
+Nivyan
+Nubrylla
+Rwnoic
+Ryryan
+Sabrylla
+Saengwen
+Silonna
+Sull
+Swrka
+Ysaniver
+Ysassa
+Ysoll
+Ysollyra
+Ysull
+Ysyssa
+
+
+[Names DrowElfMaleNames]
+248
+A'zraim
+Aartis Ber'Urzel
+Ac'la Kilsek
+Adinirahc Des'Astic
+Adinirahc Yogh'il'Rymmin
+Akirem
+Alak'roos 
+Ken'tlar
+AlakVrinn
+Aloclies Do'Naszh
+Alton Pharn
+Antarlas Draxel
+Apedamok Thalack
+Ardulstra Despdious
+Argaeth X'Xorlarrin
+Arkanazzt
+Asmodean Qu'Ellar
+Sar'Nav'ell
+Xandarroth
+Auro Pol' Dyrr
+Avae Soulsteeler
+Aziridine
+B'Ral
+Bailana
+Bathilde
+Boolk
+Bryony Olath'Xukuth
+Canaris Tegredir
+Comson Elg'sahl
+Cyric Ultrin D'veldrin
+Cyrik Kenafin
+Czzarre Llyncu
+D'Barl Flamehand
+D'Shair
+Dab'lezzan
+Daerde Massok
+Daeron Nuin Giliath
+Damon D'Marcus
+Dantrag Darklord
+Dardin Del'Sundin
+Darwar Ben Canaan
+Deamon D'Kiakaha
+DelKalvir Arryre
+Denzil De'valdras
+Deventaraen Tindir
+Dhiamara Taan
+Djelh Thalack
+Dostrealt Pendragon
+Drani
+Drann'zeit
+Dreyanthalas
+Dronin Selk'Urahn
+Drur
+Druzya Vrak'Naernoon
+Duran
+Durdyn Hunett
+Eflarisanthos Talitharison
+Elg'cahl Phlith
+Elgalad D'Vanyee
+Elijah Fire Eyes
+Elorn Greystone
+Emowin Skyrunner
+Eshten Gero'Esten
+Eston
+Evnissyen
+Eyzana Veryn
+Ezyntari Exolus
+Faerl
+Fe'Talia De'Haaren
+Feanor Kaznok
+Filraen del Rilynt'tar
+Firkavin deathbringer
+Fisbran Baenere
+G'eldria
+Gorin Valshar
+Silasteri
+Grunten Hu' Tui
+Hellec Von Negrous
+Hilla De'Haaren
+Hotaru
+Ianen
+Imrae Shobolar
+Istolil illistyn
+Jahael 
+Jaklin
+Jaraxel Chath'Karliik
+Jaraxle Khalazza
+Jarkeel Q'uessian
+Jarlaxle Bregan
+D'aerthe
+Jayyge
+Jinko Zauvir
+Jirai Khellanos
+Jiv'undus Du'Urna
+Jolaya Kiranin
+Joulath Ai'Krellnen
+Jurzen Drembaelonshen
+Ka Oblodra
+Kaetan Dulin
+Kahamir Teken'duis
+Kahbree d' Arabani
+Kai'laende Baenre
+Dalharil De'Oloth
+Karthal Ker'rachid
+Keeshe
+Kel'D'Beck
+Kel Karak
+Khordon Despana
+Kyledor Zomorrod
+Larkis D'Khar
+Lassiter
+Lazvon Akroseke
+Lexorian Sha'sifezran
+Lirreka Nr'Uluxen
+Lordul Lorn
+Lothiniel Thalack
+Lucius N'zaarina
+Lukan N'biru
+Lunnen Noquar
+Lykrana'kalia
+Mael Havic
+Malafein U' Thorn
+Malak Darkbane
+Malns Rea'Morda
+Marse Covern
+Jalavar
+Merodach
+Miez'khal Del'Armgo
+Mithian se Mastra
+Mordryst
+Morgen den Antei
+Mourn Vramyrr
+Mumphra
+Nadal Arabani
+Nadlyl Yeogilrymmin
+Naeon Mae'Urden
+Naga'ina Spidersnake
+Nagarauch
+Nal'Sh'Dat
+Nalfienbaenre
+Nataljiet Sh'dagon
+Nekales Despana
+Niikkt D'Arvanon
+Nirto Q'tallos
+Noamuth Orbb
+Nodens Vrr'Ulhen
+Nydiroth
+Nym Noquar
+Nyxall Ta'Tiarra
+Oberon
+Olath'slyan Chath'vlos
+Onyx Bloodshade
+Orakio Starchaser
+P'ow Dei Shar
+Pen'Drae'Con Veladorn
+Perallen
+Raja D'Argon
+Rakarth Elvendroth
+Rastholin Silverthorn
+Rath'elg Har'luth
+Rel'Nyath Xolarrin
+Renor Kor'inth 
+Rhyl Mlezziir
+Riella Banere
+Ril'nn Riv'elgg
+Rilloz Bladefire
+Rislyn Stormblaze
+Sa'dor DeVille
+Sadric Banrae
+Savakamn Rilinth'sruth
+Scean'a'fein Van'kre
+Schairay Aizeem
+Shan'Del T'orgh
+Shannistryn
+SiNafay Drak'Xen
+Silex Del Lil Veldrin
+Soluafein Helviiryn
+Sorek Ultrin
+Sorn Duskryn
+Teken'duis
+Sytheril Rilynt'tar
+Szordrin Sar'Nav'ell
+Szordrin T'Sarran
+Szordrin d'quellar
+T'Ranos
+Tage Ara'Ze
+Tarraen'Glor
+Tath'riljss Kilund
+Tavaniel Dyn'Ast
+Telek dalharuk d'lloth
+Tonamie
+Tourach D'lakten
+TrUeDark FlameWielder
+Traxalias
+Trazur
+Trigud Baenre
+Trizixeter Larrenru
+Tssyrial Dalhariljadda
+Vy'lein
+Tudre Khan
+Tzimitzi Illistyn
+Tzipporah Di'Nithal'Tori
+Vairna
+Val Nanshrad
+Valas Blaeraban Druu'giir
+Naertynal
+Varika Baenre
+Vegeta
+Veldrin Vandree
+Velg'larn
+Velkyn Velve
+Velkyne Noamith
+Vendril Orbb
+Venen Darksteel
+Venorik Despana
+Vida Libriweith
+Viern Tres
+Vildailaa
+Vinixix
+Vlondrill Sylveetolsen
+Vlos Natok
+Vrix D'lorn
+Wap'ojar Jai'Aban
+Whys'par Aleta D'arlesve
+Wildreth
+Wynn
+Xanthe Nizzre
+Xylan Tar'rakus
+Xyran D'haggerath
+Ya'fa Zauviir
+Yautja S'il Melachen
+Yrinthakis Vulkyr
+Zakneifen Do'Reigan
+Zanatose Z'enibrion Everhate
+Zanatose Z'nebrion Everhate
+Zandramas Aurane
+Zedrix Hythloth
+Zendarus Ka'Ruthendle
+Zenmar Kraczon De'al
+Zgrizzak Bergith
+Zhaunil Arabani
+Zilvra Elghi'nn Velve
+Zin'ya Daer'nath
+Zirkhell R'yleh
+Zoltz Voltz
+Zool Spindaron
+Zul'Nar
+Zyle
+Zzesrut
+
+
+[Names DrowElfFemaleNames]
+44
+Alesa Kaibak
+Alundra Dra'tinsir
+Amandil Numai
+Andria Vejalove
+Ardulstra Despdious
+Atma Murasaki
+Auradese Ssinss
+Bailana
+Canaris Tegredir
+Celyndil Baenre
+Chessintra Vrinn
+Dhiamara Taan
+Divia Valshar
+Dyanra Lilaeh
+Eisa Sar'Nav'ell
+Emowin Skyrunner
+Evnissyen
+Eyzana Veryn
+G'eldria
+Ginafae Esr'Razz
+Istolil Illistyn
+Jirai Khellanos
+Kali d'Claddath
+Khalia Ser'Rhal
+Kharressa Ghen'Mahrra
+Kyra De'Rauth
+Liliana Aliason
+Lykrana'kalia
+Nekales Despana
+Niikkt D'Arvanon
+Rhyl Mlezziir
+Riella Banere
+Serena Rae Xorlarrin
+Shan'Del T'orgh
+Sytheril Rilynt'tar
+Talabrina Elpragh
+Tavaniel Dyn'Ast
+Teshana Zz'Hhar
+Vairna
+Varika Baenre
+Vida Libriweith
+Zhaunil Arabani
+Zilvra Elghi'nn Velve
+Zin'ya Daer'nath
+
+
+[Names DwarfMaleNames]
+100
+Vusur
+Hafur
+Negnar
+Ninar
+Sonar
+Voignus
+Degnar
+Falin
+Dugan
+Vognus
+Refur
+Sagan
+Beran
+Goiran
+Komli
+Gloinus
+Nognus
+Megnar
+Glanus
+Bugan
+Remli
+Ganus
+Negan
+Sognar
+Nosur
+Kosil
+Vignus
+Luran
+Noiran
+Nefur
+Tilir
+Togan
+Nonus
+Besil
+Foignar
+Kilir
+Hiran
+Dinar
+Nusur
+Lagnus
+Vemli
+Sulin
+Glelin
+Risin
+Kufur
+Loran
+Nonar
+Sirin
+Vognar
+Vurin
+Benar
+Luran
+Malin
+Vinus
+Mognar
+Doignar
+Boiran
+Nili
+Loisur
+Boilir
+Minus
+Doilir
+Deli
+Gunar
+Toibur
+Mignar
+Hobur
+Mognar
+Nugnus
+Tanar
+Nolin
+Noirin
+Gemli
+Boilir
+Hulir
+Rasil
+Dilir
+Nesin
+Tugnar
+Moisin
+Vusin
+Holi
+Lifur
+Migan
+Fegan
+Gifur
+Dasil
+Koinus
+Roisin
+Dalin
+Rogan
+Glognar
+Mali
+Tenar
+Bonus
+Biran
+Minus
+Manar
+Doigan
+Goinar
+
+
+[Names DwarfFemaleNames]
+100
+Daeniver
+Nyssa
+Lylyan
+Ysill
+Clylla
+Mena
+Dearyan
+Rillyra
+Braella
+Cillyra
+Gwolonna
+Molla
+Jeniver
+Brilla
+Gwaengwen
+Elaena
+Ysicla
+Ceassa
+Dilonna
+Clyvyan
+Merilonna
+Cyngwen
+Meraebrylla
+Lenoic
+Lana
+Alanoic
+Sossa
+Ysaessa
+Aludda
+Braniver
+Gwyna
+Raevyan
+Jeadda
+Gwillyra
+Merodda
+Jwngwen
+Cylla
+Jwbrylla
+Ysilonna
+Yswll
+Lolyan
+Elyvyan
+Merwcla
+Nira
+Rall
+Clwbrylla
+Raessa
+Clulla
+Yswlonna
+Merenoic
+Aloniver
+Ysealonna
+Jevyan
+Braebrylla
+Yseabrylla
+Gwodda
+Braella
+Cleavyan
+Merwbrylla
+Duna
+Alearyan
+Alwlyan
+Elicla
+Mell
+Ressa
+Ronoic
+Caessa
+Meroryan
+Ysyna
+Clengwen
+Ryna
+Merilonna
+Cwvyan
+Ysylonna
+Rarka
+Leassa
+Rwlonna
+Saella
+Gworyan
+Nell
+Meryngwen
+Ysalonna
+Ysillyra
+Ceallyra
+Mevyan
+Ysealonna
+Coniver
+Gwivyan
+Dilonna
+Gwaengwen
+Seana
+Alalla
+Cyll
+Jaengwen
+Breana
+Mussa
+Jarka
+Clyllyra
+Merwll
+Rella
+
+
+[EOF]
