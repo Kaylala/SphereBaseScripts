@@ -1,0 +1,166 @@
+////////////////////
+// Armor TypeDefs //
+////////////////////
+
+
+[Comment NewArmorTypes]
+We decided for more customization that new Armor types, based on their respective categorization, was more ideal. With this we created these new TypeDefs (And one old) to reflect more customization and handling.
+
+
+[TypeDef tLeatherArmor]
+On=@Create
+Can |= CanIRegenMana|CanIRegenHits|CanIRegenStam
+
+On=ClientTooltip
+If !(<Attr> &AttrMagic) || !(<Attr> &AttrArtifact)
+ Src.AddCliLoc	// Name
+ Src.AddCliLoc	// Weight
+ Src.AddCliLoc	// ResPhysical here
+ Src.AddCliLoc	// ResFire here
+ Src.AddCliLoc	// ResCold here
+ Src.AddCliLoc	// ResPoison here
+ Src.AddCliLoc	// ResEnergy here
+ Src.AddCliLoc	// ReqStr here.
+ Src.AddCliLoc	// HitPoints here.
+ Return 1
+EndIf
+
+
+[TypeDef tStuddedArmor]
+On=@Create
+Can |= CanIRegenHits|CanIRegenStam
+
+
+[TypeDef tClothArmor]
+On=@Create
+Can |= CanIRegenMana|CanIRegenHits|CanIRegenStam
+
+
+[TypeDef tBoneArmor]
+On=@Create
+Can |= CanIRegenHits|CanIRegenStam
+
+
+[TypeDef tPlatemailArmor]
+On=@Create
+Can |= CanIRegenHits|CanIRegenStam
+
+
+[TypeDef tRingmailArmor]
+On=@Create
+Can |= CanIRegenHits|CanIRegenStam
+
+
+[TypeDef tChainmailArmor]
+On=@Create
+Can |= CanIRegenHits|CanIRegenStam
+
+
+[TypeDef tLeafArmor]
+On=@Create
+Can |= CanIRegenMana|CanIRegenHits|CanIRegenStam
+
+
+[TypeDef tHideArmor]
+On=@Create
+Can |= CanIRegenHits|CanIRegenStam
+
+
+[TypeDef tWoodlandArmor]
+On=@Create
+Can |= CanIRegenHits|CanIRegenStam
+
+
+[TypeDef tDragonArmor]
+On=@Create
+Can |= CanIRegenHits|CanIRegenStam
+
+
+[TypeDef tStoneArmor]
+On=@Create
+Can |= CanIRegenHits|CanIRegenStam
+
+
+[TypeDef tFurArmor]
+On=@Create
+Can |= CanIRegenMana|CanIRegenHits|CanIRegenStam
+
+
+[TypeDef tScuteArmor]
+On=@Create
+Can |= CanIRegenMana|CanIRegenHits|CanIRegenStam
+
+
+[TypeDef tChaosShield]
+On=@EquipTest
+//Src.AlignmentShield 2
+
+On=@Damage
+//Cont.AlignmentShield 2
+
+
+[TypeDef tOrderShield]
+On=@EquipTest
+//Src.AlignmentShield 1
+
+On=@Damage
+//Cont.AlignmentShield 1
+
+
+[Function AlignmentShield]
+If (<IsGM>) || (<MemoryFindType.Memory_Guild.Link.Align>==<ArgN>)
+ Return 0
+EndIf
+Sound=snd_SPELL_LIGHTNING
+SMsgL ColorText,1062092//"Your body reacts violently from the pain."
+Damage=<Src.Hits>/2 <Def.DamPhysical>
+Return 1
+
+
+// Agapite Equipment
+// Old code. Comment out the Return 0 in each trigger to activate.
+// Can only be worn by good karma people.
+[TypeDef tAgapiteEquipment]
+On=@EquipTest
+Return 0
+If (<Src.Karma> < 0)
+ Msg *<Name> glows red*
+ Effect=3,iFxCurse,6,15,1
+ Sound snd_SPELL_CURSE
+// Cont.SpellEffect sPoison,500,<UID>
+ Bounce <Src.UID>
+EndIf
+
+On=@Equip
+Return 0
+TimerF 60,AgapiteEquipment
+
+On=@Unequip
+Return 0
+TimerF Stop,AgapiteEquipment
+
+
+// Shadow Iron Equipment
+// Old code. Comment out the Return 0 in each trigger to activate.
+// Can only be worn by evil karma people.
+[TypeDef tShadowIronEquipment]
+On=@EquipTest
+Return 0
+If (<Src.Karma> > 0)
+ Msg *<Name> glows red*
+ Effect=3,iFxCurse,6,15,1
+ Sound snd_SPELL_CURSE
+ Cont.SpellEffect sPoison,500,<UID>
+ Bounce <Src.UID>
+EndIf
+
+On=@Equip
+Return 0
+TimerF 60,ShadowIronEquipment
+
+On=@Unequip
+Return 0
+TimerF Stop,ShadowIronEquipment
+
+
+[EOF]

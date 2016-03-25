@@ -1,0 +1,73 @@
+///////////////////
+// Tool TypeDefs //
+///////////////////
+
+// Alchemy Tool
+// iMortarAndPestle
+[TypeDef tAlchemyTool]
+On=@DClick
+SkillMenu smAlchemy
+
+
+// Masonry Tool
+// iMalletAndChisel
+[TypeDef tMasonryTool]
+On=@DClick
+SkillMenu smMasonry
+
+
+// Fletching Tool
+[TypeDef tBowcraftingTool]
+On=@DClick
+SkillMenu smBowcrafting
+
+
+// Blacksmithing
+[TypeDef tHammerWeapon]
+On=@DClick
+SkillMenu smBlacksmithing
+
+
+// Cartography
+[TypeDef tCartographyTool]
+On=@DClick
+SkillMenu smCartography
+
+
+// Carpentry
+[TypeDef tCarpentryTool]
+On=@DClick
+SkillMenu smCarpentry
+
+
+// Tinkering
+[TypeDef tTinkeringTools]
+On=@DClick
+SkillMenu smTinkering
+
+
+// Tailoring Tool
+[TypeDef tTailoringTool]
+On=@DClick
+SkillMenu smTailoring
+
+
+// Inscription Tool
+[TypeDef tInscriptionTool]
+On=@DClick
+SkillMenu smInscription
+
+
+//
+[TypeDef tCookingTool]
+On=@DClick
+SkillMenu smCooking
+
+
+// Ammunition Menu
+[TypeDef tShaft]
+On=@DClick
+SkillMenu sm
+
+
+[EOF]
