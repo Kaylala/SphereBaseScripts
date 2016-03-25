@@ -1,19 +1,21 @@
-//****************************************************************************
-// SPHERE by : Menasoft ©1997-2007
-// www.sphereserver.net
-// All SPHERE script files and formats are copyright Menasoft & Partners.
-// This file may be freely edited for personal use, but may not be distributed
-// in whole or in part, in any format without express written permission from
-// Menasoft & Partners.  All donations and contributions
-// become the property of Menasoft & Partners.
-//****************************************************************************
-// FILE LAST UPDATED: Wednesday October 30, 2013
-//
-VERSION=0.56c
+[Comment Garbage]
+Annotated by: Khaos
+This script is going to the can\. To parse info how it does is resource consuming. It really was ill-thought out.
+
+Most of this stuff should have been handled through the Items original TypeDefs or on ones aimed at the Item Type (Not generalized through everything, which a good bit don't parse the same properties).
+
+Began parsing the selections into functions logically instead and removing what is done. There will be checks for AttrMagic and AttrArtifact to do special assignments so we aren't parsing all these IFs. Functions will be assigned either in a <ItemType> TypeDef or on the TypeDefs as is. The functions being set will allow for more customization for personal usage instead of parsing this monstrosity of code.
+
+Note: A good bit is actually not even EA compliant in the slightest. Some checks were missing as well. This is all reflected in the changes that must be made to compensate for this resource hog.
 
 
-[COMMENT sphere_item_typedef_equipitem]
 
+
+
+
+
+
+[Comment Do not use this]
 The t_equipitem TYPEDEF is typically applied on every equipable item.  For
 example:
 
@@ -326,24 +328,6 @@ IF (<TYPE>==t_wand)
 	ENDIF
 	SRC.ADDCLILOC 1060741,<dMORE2>
 ENDIF
-IF (<Rarity>)
-	SRC.ADDCLILOC 1061078,<INSTANCES>//"Artifact rarity: ~"
-ENDIF
-IF (<canuse>&can_u_gargoyle) && !((<canuse>&can_u_human) || (<canuse>&can_u_elf))
-	SRC.ADDCLILOC 1111709//"Gargoyles Only"
-ENDIF
-IF (<canuse> &can_u_elf) && !((<canuse>&can_u_human) || (<canuse>&can_u_gargoyle))
-	SRC.ADDCLILOC 1075086
-ENDIF
-IF (<TAG0.Stolen>)
-	SRC.ADDCLILOC 1072948//"Stolen Property"
-ENDIF
-IF (<Exceptional>)
-	SRC.ADDCLILOC 1018303//"Exceptional"
-ENDIF
-IF !(<ISEMPTY <CraftedBy>>)
-	SRC.ADDCLILOC 1050043,<CraftedBy>
-ENDIF
 IF (<TAG0.MaxLevel>)
 	SRC.ADDCLILOC 1050039,Maximum Level,<dTAG.MaxLevel>
 ENDIF
@@ -357,23 +341,7 @@ IF (<ISWEAPON>) || (<DEFNAME>==i_fishing_pole)
 		SRC.ADDCLILOC 1060438,<SRC.MAGERY>
 	ELSEIF (<TAG0.OVERRIDE_SKILL>)
 		SRC.ADDCLILOC <EVAL 1044059 + <dTAG.OVERRIDE_SKILL>>
-	ELSE
-		IF (<SKILL>==42)//Swordsmanship
-			SRC.ADDCLILOC 1061172
-		ELSEIF (<SKILL>==41)//Macefighting
-			SRC.ADDCLILOC 1061173
-		ELSEIF (<SKILL>==42)//Fencing
-			SRC.ADDCLILOC 1061174
-		ELSEIF (<SKILL>==31)//Archery
-			SRC.ADDCLILOC 1061175
-		ELSEIF (<SKILL>==57)//Throwing
-			SRC.ADDCLILOC 1112075
-		ENDIF
-	ENDIF
 	SRC.ADDCLILOC 1061168,<DAM>
-	IF (<SPEED>)
-		SRC.ADDCLILOC 1061167,<SPEED>
-	ENDIF
 	IF (<EVAL <STRARG <RANGE>>> > 1)||(<EVAL <STREAT <RANGE>>> > 1)
 		IF (<EVAL <STREAT <RANGE>>> > <EVAL <STRARG <RANGE>>>)
 			SRC.ADDCLILOC 1061169,<EVAL <STREAT <RANGE>>>
@@ -381,27 +349,8 @@ IF (<ISWEAPON>) || (<DEFNAME>==i_fishing_pole)
 			SRC.ADDCLILOC 1061169,<EVAL <RANGE>>
 		ENDIF
 	ENDIF
-	IF (<TWOHANDS>)
-		SRC.ADDCLILOC 1061171
-	ENDIF
 ENDIF
 
-SRC.ADDCLILOC 1072225,<FVAL <WEIGHT>>
-IF (<RESCOLD>)
-	SRC.ADDCLILOC 1060445,<RESCOLD>
-ENDIF
-IF (<RESENERGY>)
-	SRC.ADDCLILOC 1060446,<RESENERGY>
-ENDIF
-IF (<RESFIRE>)
-	SRC.ADDCLILOC 1060447,<RESFIRE>
-ENDIF
-IF (<RESPHYSICAL>)
-	SRC.ADDCLILOC 1060448,<RESPHYSICAL>
-ENDIF
-IF (<RESPOISON>)
-	SRC.ADDCLILOC 1060449,<RESPOISON>
-ENDIF
 IF (<DEFNAME>==i_belt_ninja_leather)
 	SRC.ADDCLILOC 1060584,<dTAG0.ShurikenCount>
 ENDIF

@@ -1,0 +1,13 @@
+// Used for Random Magic Item Generator
+[DefName DefMagicItemPower]
+MinorMagicItem				1
+LesserMagicItem				2
+GreaterMagicItem			3
+MajorMagicItem				4
+LesserArtifact				5
+GreaterArtifact				6
+MajorArtifact				7
+LegendaryArtifact			8
+
+
+[EOF]

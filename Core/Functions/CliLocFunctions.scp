@@ -1,0 +1,119 @@
+[Function NameCliLoc]
+If (<NameLoc>)
+ Src.AddCliLoc <NameLoc>
+ElIf (<Name>)
+ Src.AddCliLoc 1042971,<Name>
+Else
+ If (<DispID> <= 16381)
+  Src.AddCliLoc <Eval (1020000 + <DispIDDec>)>
+ Else
+  Src.AddCliLoc <Eval (1050000 + <DispIDDec>)>	// Still need proper val
+EndIf
+
+
+[Function ArtifactCliLoc]
+If (<Attr> &AttrArtifact)
+ Src.AddCliLoc 1061078,<Rarity>
+EndIf
+
+
+// Since insured, blessed, newbie, or insured can be in together, we will process them through one function.
+[Function AttrCliLoc]
+If (<Attr> &AttrNewbie|AttrBlessed)
+ Src.AddCliLoc 1038021
+ElIf (<Attr> &AttrNewbie)
+ Src.AddCliLoc 
+ElIf (<Attr> &AttrInsured)
+ Src.AddCliLoc 
+ElIf (<Attr> &AttrCursed)
+ Src.AddCliLoc 
+EndIf
+If (<CraftedBy>)
+ Src.AddCliLoc 1050043,<CraftedBy>	// Crafted by ~1_Name~
+EndIf
+If (<Attr> &AttrExceptional)
+ Src.AddCliLoc 1018303
+EndIf
+If (<Attr> &AttrStolen)
+ Src.AddCliLoc 1072948
+EndIf
+
+
+[Function CanUseCliLoc]
+If (<CanUse> &CanUGargoyle) && !(<CanUSe> &CanUElf|CanUHuman)
+ Src.AddCliLoc 1111709
+ElIf (<CanUse> &CanUElf) && !(<CanUSe> &CanUGargoyle|CanUHuman)
+ Src.AddCliLoc 1075086
+EndIf
+
+
+[Function WeightCliLoc]
+Src.AddCliLoc <QVal (<Weight> > 1) ? 1072789 : 1072788>,<FVal <Weight>>
+
+
+[Function ArmorCliLoc]
+If (<ResPhysical>)
+ Src.AddCliLoc 1060448,<ResPhysical>
+EndIf
+If (<ResFire>)
+ Src.AddCliLoc 1060447,<ResFire>
+EndIf
+If (<ResCold>)
+ Src.AddCliLoc 1060445,<ResCold>
+EndIf
+If (<ResPoison>)
+ Src.AddCliLoc 1060449,<ResPoison>
+EndIf
+If (<ResEnergy>)
+ Src.AddCliLoc 1060446,<ResEnergy>
+EndIf
+If (<ReqStr>)
+ Src.AddCliLoc 1061170,<ReqStr>
+EndIf
+
+
+[Function WeaponCliLoc]
+If (<DamPhysical>)
+ Src.AddCliLoc 1060403,<DamPhysical>
+EndIf
+If (<DamFire>)
+ Src.AddCliLoc 1060405,<DamFire>
+EndIf
+If (<DamCold>)
+ Src.AddCliLoc 1060404,<DamCold>
+EndIf
+If (<DamPoison>)
+ Src.AddCliLoc 1060406,<DamPoison>
+EndIf
+If (<DamEnergy>)
+ Src.AddCliLoc 1060407,<DamEnergy>
+EndIf
+If (<DamChaos>)
+ Src.AddCliLoc 1072846,<DamChaos>
+EndIf
+Src.AddCliLoc 1061168,<Dam.Min>,<Dam.Max>
+If Src.AddCliLoc 1061167,<QVal (<Tag0.Override.Speed>) ? <Tag.Override.Speed> : <Speed>>
+If (<ReqStr>)
+ Src.AddCliLoc 1061170,<ReqStr>
+EndIf
+Src.AddCliLoc <QVal <TwoHands> ? 1061171 : 1061824>
+If (<Skill> == Swordsmanship)
+ Src.AddCliLoc 1061172
+ElIf (<Skill> == MaceFighting)
+ Src.AddCliLoc 1061173
+ElIf (<Skill> == Fencing)
+ Src.AddCliLoc 1061174
+ElIf (<Skill> == Archery)
+ Src.AddCliLoc 1061175
+ElIf (<Skill> == Throwing)
+ Src.AddCliLoc 1112075
+EndIf
+
+
+[Function DurabilityCliLoc]
+If (<HitPoints>)
+ Src.AddCliLoc 1060639,<More1L>,<More1H>
+EndIf
+
+
+[EOF]

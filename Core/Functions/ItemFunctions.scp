@@ -5,6 +5,7 @@ If !(<ArgN>)
 EndIf
 Tag.Medable=<ArgN>
 
+
 // Being added for better crafting structures.
 [Function Material]
 If !(<ArgS>)
@@ -12,11 +13,23 @@ If !(<ArgS>)
 EndIf
 Tag.Material=<ArgS>
 
+
 // Being used on items that are Human/Elf to modify into Gargoyle.
 [Funtion AlterItem]
 If !(<ArgS>)
  Return <Tag.AlterItem>
 EndIf
 Tag.AlterItem=<ArgS>
+
+
+// For use with Random Magic Item Generator
+// Minor, Lesser, Greater, Major Magic Item.
+// Lesser, Greater, Major, Legendary Artifact
+[Function MagicItemPower]
+If !(<ArgS>)
+ Return <Tag0.MagicItemPower>
+EndIf
+Tag.MagicItemPower=<ArgS>
+
 
 [EOF]
