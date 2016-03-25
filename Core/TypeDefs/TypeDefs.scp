@@ -1,3 +1,36 @@
+// Every 150 Gold Coins is 1 stone. (This used to be every 50)
+[TypeDef tGold]
+On=DropOn_Item
+If (<ArgO.BaseID> == <BaseID>)
+Argo.BaseWeight=<Eval ((<Amount> + <ArgO.Amount>) / 150)>
+If !(<ArgO.BaseWeight>)
+ ArgO.BaseWeight=1
+EndIf
+
+On=DropOn_Self
+If (<ArgO.BaseID> == <BaseID>)
+Argo.BaseWeight=<Eval ((<Amount> + <ArgO.Amount>) / 150)>
+If !(<ArgO.BaseWeight>)
+ ArgO.BaseWeight=1
+EndIf
+
+
+[TypeDef tCoin]
+On=DropOn_Item
+If (<ArgO.BaseID> == <BaseID>)
+Argo.BaseWeight=<Eval ((<Amount> + <ArgO.Amount>) / 150)>
+If !(<ArgO.BaseWeight>)
+ ArgO.BaseWeight=1
+EndIf
+
+On=DropOn_Self
+If (<ArgO.BaseID> == <BaseID>)
+Argo.BaseWeight=<Eval ((<Amount> + <ArgO.Amount>) / 150)>
+If !(<ArgO.BaseWeight>)
+ ArgO.BaseWeight=1
+EndIf
+
+
 [TypeDef tSmokeBomb]
 // Needs updating and possible Skill rescript.
 On=@DClick
@@ -5,6 +38,7 @@ If (<Src.Flags> &StatFHidden) || (<Src.Flags> &StatFInvisible)
  Src.SMsg You are already hidden.
  Return 1
 EndIf
+Sound=sndSmokeBomb
 Src.Action=-1
 Src.Action=Skill_Hiding
 Src.ActDiff=1

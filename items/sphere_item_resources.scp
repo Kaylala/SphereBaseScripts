@@ -14,71 +14,77 @@ VERSION=0.56c
 
 [ItemDef 0dfa]
 //feathers 2
-DUPEITEM=01bd1
+DupeItem=01bd1
 
 [ItemDef 0dfb]
 //feathers 2
-DUPEITEM=01bd1
+DupeItem=01bd1
 
 [ItemDef 0eea]
-DefName=iCoinCopper
+DefName=iCopperCoin
 Type=tCoin
 Value=1
 Weight=0
-Category=Provisions - Miscellaneous
-Subsection=Coins
+DupeList=0eeb,0eec
+
+Category=Base
+Subsection=Currency
 Description=Copper Coin
-DUPELIST=0eeb,0eec
-ON=@Create
-ATTR=attr_identified
+
+On=@Create
+Attr=AttrIdentified
 
 [ItemDef 0eeb]
 //copper coins
-DUPEITEM=0eea
+DupeItem=0eea
 
 [ItemDef 0eec]
 //copper coins
-DUPEITEM=0eea
+DupeItem=0eea
 
 [ItemDef 0eed]
 DefName=iGold
 Type=tGold
 Value=1
 Weight=0
-Category=Provisions - Miscellaneous
-Subsection=Coins
+DupeList=0eee,0eef
+
+Category=Base
+Subsection=Currency
 Description=Gold Coin
-DUPELIST=0eee,0eef
-ON=@Create
-ATTR=attr_identified
+
+On=@Create
+Attr=AttrIdentified
 
 [ItemDef 0eee]
 //gold coins
-DUPEITEM=0eed
+DupeItem=0eed
 
 [ItemDef 0eef]
 //gold coins
-DUPEITEM=0eed
+DupeItem=0eed
 
 [ItemDef 0ef0]
-DefName=iCoinSilver
+DefName=iSilverCoin
 Type=tCoin
 Value=1
 Weight=0
-Category=Provisions - Miscellaneous
-Subsection=Coins
+DupeList=0ef1,0ef2
+
+Category=Base
+Subsection=Currency
 Description=Silver Coin
-DUPELIST=0ef1,0ef2
-ON=@Create
-ATTR=attr_identified
+
+On=@Create
+Attr=AttrIdentified
 
 [ItemDef 0ef1]
 //silver coins
-DUPEITEM=0ef0
+DupeItem=0ef0
 
 [ItemDef 0ef2]
 //silver coins
-DUPEITEM=0ef0
+DupeItem=0ef0
 
 
 [ItemDef 0f0f]
@@ -422,11 +428,11 @@ RESOURCES=2 iFeather
 Category=Resources
 Subsection=Animal
 Description=Feathers (2 Red & White)
-DUPELIST=01021
+DupeList=01021
 
 [ItemDef 01021]
 //feathers
-DUPEITEM=01020
+DupeItem=01020
 
 [ItemDef 01bd1]
 DefName=iFeather
@@ -436,15 +442,15 @@ Weight=0.1
 Category=Resources
 Subsection=Animal
 Description=Feathers (White)
-DUPELIST=0dfa,0dfb,01bd2,01bd3
+DupeList=0dfa,0dfb,01bd2,01bd3
 
 [ItemDef 01bd2]
 //feathers (3)
-DUPEITEM=01bd1
+DupeItem=01bd1
 
 [ItemDef 01bd3]
 //Pile of White feathers
-DUPEITEM=01bd1
+DupeItem=01bd1
 
 [ItemDef 0223a]
 DefName=iCrystalsBroken
@@ -455,77 +461,68 @@ Weight=1.0
 Category=Resources
 Subsection=Mineral
 Description=Crystalline Fragments
-DUPELIST=0223b,0223c,0223d,0223e,0223f,02240,02241,02242,02243,02244,02245,02246,02247,02248,02249
-ON=@Create
-DORAND 7
-Name=crystalline fragments
-Name=broken crystals
-Name=shattered crystals
-Name=scattered crystals
-Name=crushed crystals
-Name=jagged crystals
-Name=crystal pieces
-ENDDO
+DupeList=0223b,0223c,0223d,0223e,0223f,02240,02241,02242,02243,02244,02245,02246,02247,02248,02249
+
 
 [ItemDef 0223b]
 //broken crystals
-DUPEITEM=0223a
+DupeItem=0223a
 
 [ItemDef 0223c]
 //broken crystals
-DUPEITEM=0223a
+DupeItem=0223a
 
 [ItemDef 0223d]
 //broken crystals
-DUPEITEM=0223a
+DupeItem=0223a
 
 [ItemDef 0223e]
 //broken crystals
-DUPEITEM=0223a
+DupeItem=0223a
 
 [ItemDef 0223f]
 //broken crystals
-DUPEITEM=0223a
+DupeItem=0223a
 
 [ItemDef 02240]
 //broken crystals
-DUPEITEM=0223a
+DupeItem=0223a
 
 [ItemDef 02241]
 //broken crystals
-DUPEITEM=0223a
+DupeItem=0223a
 
 [ItemDef 02242]
 //broken crystals
-DUPEITEM=0223a
+DupeItem=0223a
 
 [ItemDef 02243]
 //broken crystals
-DUPEITEM=0223a
+DupeItem=0223a
 
 [ItemDef 02244]
 //broken crystals
-DUPEITEM=0223a
+DupeItem=0223a
 
 [ItemDef 02245]
 //broken crystals
-DUPEITEM=0223a
+DupeItem=0223a
 
 [ItemDef 02246]
 //broken crystals
-DUPEITEM=0223a
+DupeItem=0223a
 
 [ItemDef 02247]
 //broken crystals
-DUPEITEM=0223a
+DupeItem=0223a
 
 [ItemDef 02248]
 //broken crystals
-DUPEITEM=0223a
+DupeItem=0223a
 
 [ItemDef 02249]
 //broken crystals
-DUPEITEM=0223a
+DupeItem=0223a
 
 
 [ItemDef 026b1]
@@ -540,23 +537,23 @@ Description=Dragon Scales
 
 [ItemDef 026b2]
 //Dragon Scales
-DUPEITEM=026b1
+DupeItem=026b1
 
 [ItemDef 026b3]
 //Dragon Scales
-DUPEITEM=026b1
+DupeItem=026b1
 
 [ItemDef 026b4]
 //Dragon Scales
-DUPEITEM=026b1
+DupeItem=026b1
 
 [ItemDef 026b5]
 //Dragon Scales
-DUPEITEM=026b1
+DupeItem=026b1
 
 [ItemDef 026b6]
 //Dragon Scales
-DUPEITEM=026b1
+DupeItem=026b1
 
 
 ///////////////////////////
