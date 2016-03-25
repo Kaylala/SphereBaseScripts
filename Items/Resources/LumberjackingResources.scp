@@ -1,0 +1,34 @@
+[ItemDef 0318f]
+DefName=iBarkFragment
+Name=bark fragment%s
+Type=tIngredient
+Weight=1
+
+Category=Resources
+Subsection=Lumberjacking
+Description=Bark Fragment
+
+
+[ItemDef 03190]
+DefName=iParasiticPlant
+Name=parasitic plant
+Type=tIngredient
+Weight=1
+
+Category=Resources
+Subsection=Lumberjacking
+Description=Parasitic Plant
+
+
+[ItemDef 03191]
+DefName=iLuminescentFungi
+Name=luminescent fungi
+Type=tIngredient
+Weight=1
+
+Category=Resources
+Subsection=Lumberjacking
+Description=Luminescent Fungi
+
+
+[EOF]

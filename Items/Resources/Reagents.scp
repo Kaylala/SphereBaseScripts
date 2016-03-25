@@ -1,0 +1,345 @@
+/////////////////////
+// Magery Reagents //
+/////////////////////
+
+
+[ItemDef 0f84]
+DefName=iGarlic
+Type=tReagent
+Can=CanIStack
+Value=3
+Weight=0.1
+Category=Resources
+Subsection=Reagents: Magery
+Description=Garlic
+
+
+[ItemDef 0f8c]
+DefName=iSulfurousAsh
+Type=tReagent
+Can=CanIStack
+Value=3
+Weight=0.1
+
+Category=Resources
+Subsection=Reagents: Magery
+Description=Sulphurous Ash
+
+
+[ItemDef 0f8d]
+DefName=iSpiderSilk
+Type=tReagent
+Can=CanIStack
+Value=3
+Weight=0.1
+Category=Resources
+Subsection=Reagents: Magery
+Description=Spider Silk
+
+
+[ItemDef 0f7a]
+DefName=iBlackPearl
+Name=black pearl%s
+Type=tReagent
+Can=CanIStack
+Weight=0.1
+Value=3
+
+Category=Resources
+Subsection=Reagents: Magery
+Description=Black Pearl
+
+
+[ItemDef 0f7b]
+DefName=iBloodMoss
+Type=tReagent
+Name=Blood Moss
+Can=CanIStack
+Weight=0.1
+Value=3
+
+Category=Resources
+Subsection=Reagents: Magery
+Description=Blood Moss
+
+
+[ItemDef 0f85]
+DefName=iGinseng
+Type=tReagent
+Can=CanIStack
+Weight=0.1
+Value=3
+
+Category=Resources
+Subsection=Reagents: Magery
+Description=Ginseng
+
+
+[ItemDef 0f86]
+DefName=iMandrakeRoot
+Type=tReagent
+Can=CanIStack
+Weight=0.1
+Value=3
+
+Category=Resources
+Subsection=Reagents: Magery
+Description=Mandrake
+
+
+[ItemDef 0f88]
+DefName=iNightshade
+Type=tReagent
+Can=CanIStack
+Weight=0.1
+Value=3
+
+Category=Resources
+Subsection=Reagents: Magery
+Description=Nightshade
+
+
+/////////////////////////
+// Necromancy Reagents //
+/////////////////////////
+
+
+[ItemDef 0f78]
+DefName=iBatWing
+Name=bat wing%s
+Type=tReagent
+Can=CanIStack
+Weight=0.1
+Value=30
+
+Category=Resources
+Subsection=Reagents: Necromancy
+Description=Bat Wing
+
+
+[ItemDef 0f8a]
+DefName=iPigIron
+Type=tReagent
+Can=CanIStack
+Value=30
+Weight=0.1
+Category=Resources
+Subsection=Reagents: Necromancy
+Description=Pig Iron
+
+
+[ItemDef 0f8e]
+DefName=iNoxCrystal
+Type=tReagent
+Can=CanIStack
+Value=30
+Weight=0.1
+
+Category=Resources
+Subsection=Reagents: Necromancy
+Description=Nox Crystal
+
+
+[ItemDef 0f8f]
+DefName=iGraveDust
+Type=tReagent
+Can=CanIStack
+Value=30
+Weight=0.1
+
+Category=Resources
+Subsection=Reagents: Necromancy
+Description=Grave Dust
+
+
+[ItemDef 0f7d]
+DefName=iDaemonBlood
+Type=tReagent
+Can=CanIStack
+Weight=0.1
+Value=30
+
+Category=Resources
+Subsection=Reagents: Necromancy
+Description=Daemon Blood
+
+
+////////////////////////
+// Mysticism Reagents //
+////////////////////////
+
+
+[ItemDef 0f7e]
+DefName=iBone
+Type=tReagent
+Can=CanIStack
+Value=3
+Weight=0.1
+
+Category=Resources
+Subsection=Reagents: Mysticism
+Description=Bone
+
+
+[ItemDef 0f80]
+DefName=iDaemonBone
+Type=tReagent
+Can=CanIStack
+Value=30
+Weight=0.1
+
+Category=Resources
+Subsection=Reagents: Mysticism
+Description=Demon Bone
+
+
+[ItemDef 0f81]
+DefName=iFertileDirt
+Type=tReagent
+Can=CanIStack
+Value=30
+Weight=0.1
+
+Category=Resources
+Subsection=Reagents: Mysticism
+Description=Fertile Dirt
+
+
+[ItemDef 04077]
+DefName=iDragonBlood2
+Type=tReagent
+Can=CanIStack
+Weight=0.1
+Value=30
+
+Category=Resources
+Subsection=Reagents: Mysticism
+Description=Dragons Blood (Yellow)
+
+
+////////////////////
+// Pagan Reagents //
+////////////////////
+
+
+[ItemDef 0f79]
+DefName=iBlackmoor
+Type=tReagent
+Can=CanIStack
+Weight=0.1
+Value=30
+
+Category=Resources
+Subsection=Reagents: Pagan
+Description=Blackmoor
+
+
+[ItemDef 0f7c]
+DefName=iBloodSpawn
+Type=tReagent
+Can=CanIStack
+Weight=0.1
+Value=30
+
+Category=Resources
+Subsection=Reagents: Pagan
+Description=Bloodspawn
+
+
+[ItemDef 0f7f]
+DefName=iBrimstone
+Type=tReagent
+Can=CanIStack
+Weight=0.1
+Value=30
+
+Category=Resources
+Subsection=Reagents: Pagan
+Description=Brimstone
+
+
+[ItemDef 0f82]
+DefName=iDragonBlood1
+Type=tReagent
+Can=CanIStack
+Value=30
+Weight=0.1
+
+Category=Resources
+Subsection=Reagents: Pagan
+Description=Dragons Blood (Green)
+
+
+[ItemDef 0f83]
+DefName=iExecutionersCap
+Type=tReagent
+Can=CanIStack
+Value=30
+Weight=0.1
+
+Category=Resources
+Subsection=Reagents: Pagan
+Description=Executioner Cap
+
+
+[ItemDef 0f87]
+DefName=iEyeOfNewt
+Type=tReagent
+Can=CanIStack
+Value=30
+Weight=0.1
+
+Category=Resources
+Subsection=Reagents: Pagan
+Description=Eye of Newt
+
+
+[ItemDef 0f89]
+DefName=iObsidian
+Type=tReagent
+Can=CanIStack
+Value=30
+Weight=0.1
+
+Category=Resources
+Subsection=Reagents: Pagan
+Description=Obsidian
+
+
+[ItemDef 0f8b]
+DefName=iPumice
+Type=tReagent
+Can=CanIStack
+Value=30
+Weight=0.1
+
+Category=Resources
+Subsection=Reagents: Pagan
+Description=Pumice
+
+
+[ItemDef 0f90]
+DefName=iDeadWood
+Type=tReagent
+Can=CanIStack
+Value=30
+Weight=0.1
+
+Category=Resources
+Subsection=Reagents: Pagan
+Description=Dead Wood
+
+
+[ItemDef 0f91]
+DefName=iWyrmHeart
+Type=tReagent
+Can=CanIStack
+Value=30
+Weight=0.1
+
+Category=Resources
+Subsection=Reagents: Pagan
+Description=Wyrms Heart
+
+
+[EOF]

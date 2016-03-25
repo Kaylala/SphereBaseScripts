@@ -12,810 +12,549 @@
 VERSION=0.56c
 
 
-[ITEMDEF 0dfa]
+[ItemDef 0dfa]
 //feathers 2
 DUPEITEM=01bd1
 
-[ITEMDEF 0dfb]
+[ItemDef 0dfb]
 //feathers 2
 DUPEITEM=01bd1
 
-[ITEMDEF 0eea]
-DEFNAME=iCoinCopper
-TYPE=tCoin
-VALUE=1
-WEIGHT=0
-CATEGORY=Provisions - Miscellaneous
-SUBSECTION=Coins
-DESCRIPTION=Copper Coin
+[ItemDef 0eea]
+DefName=iCoinCopper
+Type=tCoin
+Value=1
+Weight=0
+Category=Provisions - Miscellaneous
+Subsection=Coins
+Description=Copper Coin
 DUPELIST=0eeb,0eec
 ON=@Create
 ATTR=attr_identified
 
-[ITEMDEF 0eeb]
+[ItemDef 0eeb]
 //copper coins
 DUPEITEM=0eea
 
-[ITEMDEF 0eec]
+[ItemDef 0eec]
 //copper coins
 DUPEITEM=0eea
 
-[ITEMDEF 0eed]
-DEFNAME=iGold
-TYPE=tGold
-VALUE=1
-WEIGHT=0
-CATEGORY=Provisions - Miscellaneous
-SUBSECTION=Coins
-DESCRIPTION=Gold Coin
+[ItemDef 0eed]
+DefName=iGold
+Type=tGold
+Value=1
+Weight=0
+Category=Provisions - Miscellaneous
+Subsection=Coins
+Description=Gold Coin
 DUPELIST=0eee,0eef
 ON=@Create
 ATTR=attr_identified
 
-[ITEMDEF 0eee]
+[ItemDef 0eee]
 //gold coins
 DUPEITEM=0eed
 
-[ITEMDEF 0eef]
+[ItemDef 0eef]
 //gold coins
 DUPEITEM=0eed
 
-[ITEMDEF 0ef0]
-DEFNAME=iCoinSilver
-TYPE=tCoin
-VALUE=1
-WEIGHT=0
-CATEGORY=Provisions - Miscellaneous
-SUBSECTION=Coins
-DESCRIPTION=Silver Coin
+[ItemDef 0ef0]
+DefName=iCoinSilver
+Type=tCoin
+Value=1
+Weight=0
+Category=Provisions - Miscellaneous
+Subsection=Coins
+Description=Silver Coin
 DUPELIST=0ef1,0ef2
 ON=@Create
 ATTR=attr_identified
 
-[ITEMDEF 0ef1]
+[ItemDef 0ef1]
 //silver coins
 DUPEITEM=0ef0
 
-[ITEMDEF 0ef2]
+[ItemDef 0ef2]
 //silver coins
 DUPEITEM=0ef0
 
 
-[ITEMDEF 0f0f]
-DEFNAME=iGemStarSapphire
-NAME=chipped star sapphire
-TYPE=tGem
-VALUE=30
-WEIGHT=0.1
-CATEGORY=Provisions - Jewels and Jewelry
-SUBSECTION=Jewels
-DESCRIPTION=Star Sapphire 1 (chipped)
+[ItemDef 0f0f]
+DefName=iGemStarSapphire
+Name=chipped star sapphire
+Type=tGem
+Value=30
+Weight=0.1
+Category=Provisions - Jewels and Jewelry
+Subsection=Jewels
+Description=Star Sapphire 1 (chipped)
 
-[ITEMDEF 0f10]
-DEFNAME=iGemEmerald
-NAME=flawless emerald
-TYPE=tGem
-VALUE=45
-WEIGHT=0.1
-CATEGORY=Provisions - Jewels and Jewelry
-SUBSECTION=Jewels
-DESCRIPTION=Emerald 1 (flawless)
+[ItemDef 0f10]
+DefName=iGemEmerald
+Name=flawless emerald
+Type=tGem
+Value=45
+Weight=0.1
+Category=Provisions - Jewels and Jewelry
+Subsection=Jewels
+Description=Emerald 1 (flawless)
 
-[ITEMDEF 0f11]
-DEFNAME=iGemSapphire
-NAME=chipped sapphire
-TYPE=tGem
-VALUE=30
-WEIGHT=0.1
-CATEGORY=Provisions - Jewels and Jewelry
-SUBSECTION=Jewels
-DESCRIPTION=Sapphire 1 (Light Blue)
+[ItemDef 0f11]
+DefName=iGemSapphire
+Name=chipped sapphire
+Type=tGem
+Value=30
+Weight=0.1
+Category=Provisions - Jewels and Jewelry
+Subsection=Jewels
+Description=Sapphire 1 (Light Blue)
 
-[ITEMDEF 0f12]
-DEFNAME=iGemSapphire2
-TYPE=tGem
-VALUE=35
-WEIGHT=0.1
-CATEGORY=Provisions - Jewels and Jewelry
-SUBSECTION=Jewels
-DESCRIPTION=Sapphire 2 (Dark Blue)
+[ItemDef 0f12]
+DefName=iGemSapphire2
+Type=tGem
+Value=35
+Weight=0.1
+Category=Provisions - Jewels and Jewelry
+Subsection=Jewels
+Description=Sapphire 2 (Dark Blue)
 
-[ITEMDEF 0f13]
-DEFNAME=iGemRuby
-NAME=flawless ruby
-TYPE=tGem
-VALUE=35
-WEIGHT=0.1
-CATEGORY=Provisions - Jewels and Jewelry
-SUBSECTION=Jewels
-DESCRIPTION=Ruby 1 (flawless)
+[ItemDef 0f13]
+DefName=iGemRuby
+Name=flawless ruby
+Type=tGem
+Value=35
+Weight=0.1
+Category=Provisions - Jewels and Jewelry
+Subsection=Jewels
+Description=Ruby 1 (flawless)
 
-[ITEMDEF 0f14]
-DEFNAME=iGemRuby2
-NAME=worn ruby
-TYPE=tGem
-VALUE=35
-WEIGHT=0.1
-CATEGORY=Provisions - Jewels and Jewelry
-SUBSECTION=Jewels
-DESCRIPTION=Ruby 2 (worn)
+[ItemDef 0f14]
+DefName=iGemRuby2
+Name=worn ruby
+Type=tGem
+Value=35
+Weight=0.1
+Category=Provisions - Jewels and Jewelry
+Subsection=Jewels
+Description=Ruby 2 (worn)
 
-[ITEMDEF 0f15]
-DEFNAME=iGemCitrine
-NAME=chipped citrine
-TYPE=tGem
-VALUE=15
-WEIGHT=0.1
-CATEGORY=Provisions - Jewels and Jewelry
-SUBSECTION=Jewels
-DESCRIPTION=Citrine 1 (chipped)
+[ItemDef 0f15]
+DefName=iGemCitrine
+Name=chipped citrine
+Type=tGem
+Value=15
+Weight=0.1
+Category=Provisions - Jewels and Jewelry
+Subsection=Jewels
+Description=Citrine 1 (chipped)
 
-[ITEMDEF 0f16]
-DEFNAME=iGemAmethyst
-NAME=chipped amethyst
-TYPE=tGem
-VALUE=20
-WEIGHT=0.1
-CATEGORY=Provisions - Jewels and Jewelry
-SUBSECTION=Jewels
-DESCRIPTION=Amethyst 1 (chipped)
+[ItemDef 0f16]
+DefName=iGemAmethyst
+Name=chipped amethyst
+Type=tGem
+Value=20
+Weight=0.1
+Category=Provisions - Jewels and Jewelry
+Subsection=Jewels
+Description=Amethyst 1 (chipped)
 
-[ITEMDEF 0f17]
-DEFNAME=iGemAmethyst2
-TYPE=tGem
-VALUE=25
-WEIGHT=0.1
-CATEGORY=Provisions - Jewels and Jewelry
-SUBSECTION=Jewels
-DESCRIPTION=Amethyst 2
+[ItemDef 0f17]
+DefName=iGemAmethyst2
+Type=tGem
+Value=25
+Weight=0.1
+Category=Provisions - Jewels and Jewelry
+Subsection=Jewels
+Description=Amethyst 2
 
-[ITEMDEF 0f18]
-DEFNAME=iGemTourmaline
-NAME=flawless tourmaline
-TYPE=tGem
-VALUE=30
-WEIGHT=0.1
-CATEGORY=Provisions - Jewels and Jewelry
-SUBSECTION=Jewels
-DESCRIPTION=Tourmaline 1 (flawless)
+[ItemDef 0f18]
+DefName=iGemTourmaline
+Name=flawless tourmaline
+Type=tGem
+Value=30
+Weight=0.1
+Category=Provisions - Jewels and Jewelry
+Subsection=Jewels
+Description=Tourmaline 1 (flawless)
 
-[ITEMDEF 0f19]
-DEFNAME=iGemSapphire3
-NAME=flawless sapphire
-TYPE=tGem
-VALUE=40
-WEIGHT=0.1
-CATEGORY=Provisions - Jewels and Jewelry
-SUBSECTION=Jewels
-DESCRIPTION=Sapphire 3 (flawless)
+[ItemDef 0f19]
+DefName=iGemSapphire3
+Name=flawless sapphire
+Type=tGem
+Value=40
+Weight=0.1
+Category=Provisions - Jewels and Jewelry
+Subsection=Jewels
+Description=Sapphire 3 (flawless)
 
-[ITEMDEF 0f1a]
-DEFNAME=iGemRuby3
-TYPE=tGem
-VALUE=30
-WEIGHT=0.1
-CATEGORY=Provisions - Jewels and Jewelry
-SUBSECTION=Jewels
-DESCRIPTION=Ruby 3
+[ItemDef 0f1a]
+DefName=iGemRuby3
+Type=tGem
+Value=30
+Weight=0.1
+Category=Provisions - Jewels and Jewelry
+Subsection=Jewels
+Description=Ruby 3
 
-[ITEMDEF 0f1b]
-DEFNAME=iGemStarSapphire2
-TYPE=tGem
-VALUE=35
-WEIGHT=0.1
-CATEGORY=Provisions - Jewels and Jewelry
-SUBSECTION=Jewels
-DESCRIPTION=Star Sapphire 2 (Shining Blue)
+[ItemDef 0f1b]
+DefName=iGemStarSapphire2
+Type=tGem
+Value=35
+Weight=0.1
+Category=Provisions - Jewels and Jewelry
+Subsection=Jewels
+Description=Star Sapphire 2 (Shining Blue)
 
-[ITEMDEF 0f1c]
-DEFNAME=iGemRuby4
-NAME=damaged ruby
-TYPE=tGem
-VALUE=30
-WEIGHT=0.1
-CATEGORY=Provisions - Jewels and Jewelry
-SUBSECTION=Jewels
-DESCRIPTION=Ruby 4 (damaged)
+[ItemDef 0f1c]
+DefName=iGemRuby4
+Name=damaged ruby
+Type=tGem
+Value=30
+Weight=0.1
+Category=Provisions - Jewels and Jewelry
+Subsection=Jewels
+Description=Ruby 4 (damaged)
 
-[ITEMDEF 0f1d]
-DEFNAME=iGemRuby5
-NAME=dark ruby
-TYPE=tGem
-VALUE=30
-WEIGHT=0.1
-CATEGORY=Provisions - Jewels and Jewelry
-SUBSECTION=Jewels
-DESCRIPTION=Ruby 5 (dark)
+[ItemDef 0f1d]
+DefName=iGemRuby5
+Name=dark ruby
+Type=tGem
+Value=30
+Weight=0.1
+Category=Provisions - Jewels and Jewelry
+Subsection=Jewels
+Description=Ruby 5 (dark)
 
-[ITEMDEF 0f1e]
-DEFNAME=iGemTourmaline2
-TYPE=tGem
-VALUE=25
-WEIGHT=0.1
-CATEGORY=Provisions - Jewels and Jewelry
-SUBSECTION=Jewels
-DESCRIPTION=Tourmaline 2
+[ItemDef 0f1e]
+DefName=iGemTourmaline2
+Type=tGem
+Value=25
+Weight=0.1
+Category=Provisions - Jewels and Jewelry
+Subsection=Jewels
+Description=Tourmaline 2
 
-[ITEMDEF 0f1f]
-DEFNAME=iGemSapphire4
-NAME=worn sapphire
-TYPE=tGem
-VALUE=35
-WEIGHT=0.1
-CATEGORY=Provisions - Jewels and Jewelry
-SUBSECTION=Jewels
-DESCRIPTION=Sapphire 4 (worn)
+[ItemDef 0f1f]
+DefName=iGemSapphire4
+Name=worn sapphire
+Type=tGem
+Value=35
+Weight=0.1
+Category=Provisions - Jewels and Jewelry
+Subsection=Jewels
+Description=Sapphire 4 (worn)
 
-[ITEMDEF 0f20]
-DEFNAME=iGemTourmaline3
-NAME=chipped tourmaline
-TYPE=tGem
-VALUE=20
-WEIGHT=0.1
-CATEGORY=Provisions - Jewels and Jewelry
-SUBSECTION=Jewels
-DESCRIPTION=Tourmaline 3 (chipped)
+[ItemDef 0f20]
+DefName=iGemTourmaline3
+Name=chipped tourmaline
+Type=tGem
+Value=20
+Weight=0.1
+Category=Provisions - Jewels and Jewelry
+Subsection=Jewels
+Description=Tourmaline 3 (chipped)
 
-[ITEMDEF 0f21]
-DEFNAME=iGemStarSapphire3
-NAME=flawless star sapphire
-TYPE=tGem
-VALUE=40
-WEIGHT=0.1
-CATEGORY=Provisions - Jewels and Jewelry
-SUBSECTION=Jewels
-DESCRIPTION=Star Sapphire 3 (flawless)
+[ItemDef 0f21]
+DefName=iGemStarSapphire3
+Name=flawless star sapphire
+Type=tGem
+Value=40
+Weight=0.1
+Category=Provisions - Jewels and Jewelry
+Subsection=Jewels
+Description=Star Sapphire 3 (flawless)
 
-[ITEMDEF 0f22]
-DEFNAME=iGemAmethyst3
-NAME=worn amethyst
-TYPE=tGem
-VALUE=25
-WEIGHT=0.1
-CATEGORY=Provisions - Jewels and Jewelry
-SUBSECTION=Jewels
-DESCRIPTION=Amethyst 1 (worn)
+[ItemDef 0f22]
+DefName=iGemAmethyst3
+Name=worn amethyst
+Type=tGem
+Value=25
+Weight=0.1
+Category=Provisions - Jewels and Jewelry
+Subsection=Jewels
+Description=Amethyst 1 (worn)
 
-[ITEMDEF 0f23]
-DEFNAME=iGemCitrine2
-NAME=flawless citrine
-TYPE=tGem
-VALUE=25
-WEIGHT=0.1
-CATEGORY=Provisions - Jewels and Jewelry
-SUBSECTION=Jewels
-DESCRIPTION=Citrine 2 (flawless)
+[ItemDef 0f23]
+DefName=iGemCitrine2
+Name=flawless citrine
+Type=tGem
+Value=25
+Weight=0.1
+Category=Provisions - Jewels and Jewelry
+Subsection=Jewels
+Description=Citrine 2 (flawless)
 
-[ITEMDEF 0f24]
-DEFNAME=iGemCitrine3
-TYPE=tGem
-VALUE=20
-WEIGHT=0.1
-CATEGORY=Provisions - Jewels and Jewelry
-SUBSECTION=Jewels
-DESCRIPTION=Citrine 3 (Big)
+[ItemDef 0f24]
+DefName=iGemCitrine3
+Type=tGem
+Value=20
+Weight=0.1
+Category=Provisions - Jewels and Jewelry
+Subsection=Jewels
+Description=Citrine 3 (Big)
 
-[ITEMDEF 0f25]
-DEFNAME=iGemAmber
-TYPE=tGem
-VALUE=10
-WEIGHT=0.1
-CATEGORY=Provisions - Jewels and Jewelry
-SUBSECTION=Jewels
-DESCRIPTION=Piece of Amber
+[ItemDef 0f25]
+DefName=iGemAmber
+Type=tGem
+Value=10
+Weight=0.1
+Category=Provisions - Jewels and Jewelry
+Subsection=Jewels
+Description=Piece of Amber
 
-[ITEMDEF 0f26]
-DEFNAME=iGemDiamond
-NAME=flawless diamond
-TYPE=tGem
-VALUE=50
-WEIGHT=0.1
-CATEGORY=Provisions - Jewels and Jewelry
-SUBSECTION=Jewels
-DESCRIPTION=Diamond 1 (flawless)
+[ItemDef 0f26]
+DefName=iGemDiamond
+Name=flawless diamond
+Type=tGem
+Value=50
+Weight=0.1
+Category=Provisions - Jewels and Jewelry
+Subsection=Jewels
+Description=Diamond 1 (flawless)
 
-[ITEMDEF 0f27]
-DEFNAME=iGemDiamond2
-TYPE=tGem
-VALUE=45
-WEIGHT=0.1
-CATEGORY=Provisions - Jewels and Jewelry
-SUBSECTION=Jewels
-DESCRIPTION=Diamond 2
+[ItemDef 0f27]
+DefName=iGemDiamond2
+Type=tGem
+Value=45
+Weight=0.1
+Category=Provisions - Jewels and Jewelry
+Subsection=Jewels
+Description=Diamond 2
 
-[ITEMDEF 0f28]
-DEFNAME=iGemDiamond3
-NAME=chipped diamond
-TYPE=tGem
-VALUE=40
-WEIGHT=0.1
-CATEGORY=Provisions - Jewels and Jewelry
-SUBSECTION=Jewels
-DESCRIPTION=Diamond 3 (chipped)
+[ItemDef 0f28]
+DefName=iGemDiamond3
+Name=chipped diamond
+Type=tGem
+Value=40
+Weight=0.1
+Category=Provisions - Jewels and Jewelry
+Subsection=Jewels
+Description=Diamond 3 (chipped)
 
-[ITEMDEF 0f29]
-DEFNAME=iGemDiamond4
-NAME=light diamond
-TYPE=tGem
-VALUE=45
-WEIGHT=0.1
-CATEGORY=Provisions - Jewels and Jewelry
-SUBSECTION=Jewels
-DESCRIPTION=Diamond 4 (light)
+[ItemDef 0f29]
+DefName=iGemDiamond4
+Name=light diamond
+Type=tGem
+Value=45
+Weight=0.1
+Category=Provisions - Jewels and Jewelry
+Subsection=Jewels
+Description=Diamond 4 (light)
 
-[ITEMDEF 0f2a]
-DEFNAME=iGemRuby6
-NAME=chipped ruby
-TYPE=tGem
-VALUE=25
-WEIGHT=0.1
-CATEGORY=Provisions - Jewels and Jewelry
-SUBSECTION=Jewels
-DESCRIPTION=Ruby 6 (chipped)
+[ItemDef 0f2a]
+DefName=iGemRuby6
+Name=chipped ruby
+Type=tGem
+Value=25
+Weight=0.1
+Category=Provisions - Jewels and Jewelry
+Subsection=Jewels
+Description=Ruby 6 (chipped)
 
-[ITEMDEF 0f2b]
-DEFNAME=iGemRuby7
-NAME=perfect ruby
-TYPE=tGem
-VALUE=40
-WEIGHT=0.1
-CATEGORY=Provisions - Jewels and Jewelry
-SUBSECTION=Jewels
-DESCRIPTION=Ruby 7 (perfect)
+[ItemDef 0f2b]
+DefName=iGemRuby7
+Name=perfect ruby
+Type=tGem
+Value=40
+Weight=0.1
+Category=Provisions - Jewels and Jewelry
+Subsection=Jewels
+Description=Ruby 7 (perfect)
 
-[ITEMDEF 0f2c]
-DEFNAME=iGemCitrine4
-NAME=worn citrine
-TYPE=tGem
-VALUE=20
-WEIGHT=0.1
-CATEGORY=Provisions - Jewels and Jewelry
-SUBSECTION=Jewels
-DESCRIPTION=Citrine 4 (worn)
+[ItemDef 0f2c]
+DefName=iGemCitrine4
+Name=worn citrine
+Type=tGem
+Value=20
+Weight=0.1
+Category=Provisions - Jewels and Jewelry
+Subsection=Jewels
+Description=Citrine 4 (worn)
 
-[ITEMDEF 0f2d]
-DEFNAME=iGemTourmaline4
-NAME=worn tourmaline
-TYPE=tGem
-VALUE=25
-WEIGHT=0.1
-CATEGORY=Provisions - Jewels and Jewelry
-SUBSECTION=Jewels
-DESCRIPTION=Tourmaline 4 (worn)
+[ItemDef 0f2d]
+DefName=iGemTourmaline4
+Name=worn tourmaline
+Type=tGem
+Value=25
+Weight=0.1
+Category=Provisions - Jewels and Jewelry
+Subsection=Jewels
+Description=Tourmaline 4 (worn)
 
-[ITEMDEF 0f2e]
-DEFNAME=iGemAmethyst4
-NAME=flawless amethyst
-TYPE=tGem
-VALUE=30
-WEIGHT=0.1
-CATEGORY=Provisions - Jewels and Jewelry
-SUBSECTION=Jewels
-DESCRIPTION=Amethyst 4 (flawless)
+[ItemDef 0f2e]
+DefName=iGemAmethyst4
+Name=flawless amethyst
+Type=tGem
+Value=30
+Weight=0.1
+Category=Provisions - Jewels and Jewelry
+Subsection=Jewels
+Description=Amethyst 4 (flawless)
 
-[ITEMDEF 0f2f]
-DEFNAME=iGemEmerald2
-TYPE=tGem
-VALUE=40
-WEIGHT=0.1
-CATEGORY=Provisions - Jewels and Jewelry
-SUBSECTION=Jewels
-DESCRIPTION=Emerald (Big)
+[ItemDef 0f2f]
+DefName=iGemEmerald2
+Type=tGem
+Value=40
+Weight=0.1
+Category=Provisions - Jewels and Jewelry
+Subsection=Jewels
+Description=Emerald (Big)
 
-[ITEMDEF 0f30]
-DEFNAME=iGemDiamond5
-NAME=worn diamond
-TYPE=tGem
-VALUE=45
-WEIGHT=0.1
-CATEGORY=Provisions - Jewels and Jewelry
-SUBSECTION=Jewels
-DESCRIPTION=Diamond 5 (worn)
-
-
-[ITEMDEF 0f78]
-DEFNAME=iReagBatwing
-TYPE=tReagent
-PILE=1
-VALUE=30
-WEIGHT=0.1
-CATEGORY=Provisions - Alchemy & Magic
-SUBSECTION=Reagents - Necromancy
-DESCRIPTION=BatWing
-
-[ITEMDEF 0f79]
-DEFNAME=iReagBlackmoor
-TYPE=tReagent
-PILE=1
-VALUE=30
-WEIGHT=0.1
-CATEGORY=Provisions - Alchemy & Magic
-SUBSECTION=Reagents - Pagan
-DESCRIPTION=Blackmoor
-
-[ITEMDEF 0f7a]
-DEFNAME=iReagBlackPearl
-TYPE=tReagent
-PILE=1
-VALUE=3
-WEIGHT=0.1
-CATEGORY=Provisions - Alchemy & Magic
-SUBSECTION=Reagents - Magery
-DESCRIPTION=Black Pearl
-
-[ITEMDEF 0f7b]
-DEFNAME=iReagBloodMoss
-TYPE=tReagent
-PILE=1
-VALUE=3
-WEIGHT=0.1
-CATEGORY=Provisions - Alchemy & Magic
-SUBSECTION=Reagents - Magery
-DESCRIPTION=Blood Moss
-
-[ITEMDEF 0f7c]
-DEFNAME=iReagBloodSpawn
-TYPE=tReagent
-PILE=1
-VALUE=30
-WEIGHT=0.1
-CATEGORY=Provisions - Alchemy & Magic
-SUBSECTION=Reagents - Pagan
-DESCRIPTION=Bloodspawn
-
-[ITEMDEF 0f7d]
-DEFNAME=iReagBloodVial
-TYPE=tReagent
-PILE=1
-VALUE=30
-WEIGHT=0.1
-CATEGORY=Provisions - Alchemy & Magic
-SUBSECTION=Reagents - Pagan
-DESCRIPTION=Vial of Blood
-
-[ITEMDEF 0f7e]
-DEFNAME=iReagBone
-TYPE=tReagent
-PILE=1
-VALUE=3
-WEIGHT=0.1
-CATEGORY=Provisions - Alchemy & Magic
-SUBSECTION=Reagents - Pagan
-DESCRIPTION=Bone
-
-[ITEMDEF 0f7f]
-DEFNAME=iReagBrimstone
-TYPE=tReagent
-PILE=1
-VALUE=30
-WEIGHT=0.1
-CATEGORY=Provisions - Alchemy & Magic
-SUBSECTION=Reagents - Pagan
-DESCRIPTION=Brimstone
-
-[ITEMDEF 0f80]
-DEFNAME=iReagDaemonBone
-TYPE=tReagent
-PILE=1
-VALUE=30
-WEIGHT=0.1
-CATEGORY=Provisions - Alchemy & Magic
-SUBSECTION=Reagents - Necromancy
-DESCRIPTION=Demon Bone
-
-[ITEMDEF 0f81]
-DEFNAME=iReagFertileDirt
-TYPE=tReagent
-PILE=1
-VALUE=30
-WEIGHT=0.1
-CATEGORY=Provisions - Alchemy & Magic
-SUBSECTION=Reagents - Pagan
-DESCRIPTION=Fertile Dirt
-
-[ITEMDEF 0f82]
-DEFNAME=iReagDragonBlood
-TYPE=tReagent
-PILE=1
-VALUE=30
-WEIGHT=0.1
-CATEGORY=Provisions - Alchemy & Magic
-SUBSECTION=Reagents - Pagan
-DESCRIPTION=Dragons Blood
-
-[ITEMDEF 0f83]
-DEFNAME=iReagExecutionersCap
-TYPE=tReagent
-PILE=1
-VALUE=30
-WEIGHT=0.1
-CATEGORY=Provisions - Alchemy & Magic
-SUBSECTION=Reagents - Pagan
-DESCRIPTION=Executioner Cap
-
-[ITEMDEF 0f84]
-DEFNAME=iReagGarlic
-TYPE=tReagent
-PILE=1
-VALUE=3
-WEIGHT=0.1
-CATEGORY=Provisions - Alchemy & Magic
-SUBSECTION=Reagents - Magery
-DESCRIPTION=Garlic
-
-[ITEMDEF 0f85]
-DEFNAME=iReagGinseng
-TYPE=tReagent
-PILE=1
-VALUE=3
-WEIGHT=0.1
-CATEGORY=Provisions - Alchemy & Magic
-SUBSECTION=Reagents - Magery
-DESCRIPTION=Ginseng
-
-[ITEMDEF 0f86]
-DEFNAME=iReagMandrakeRoot
-TYPE=tReagent
-PILE=1
-VALUE=3
-WEIGHT=0.1
-CATEGORY=Provisions - Alchemy & Magic
-SUBSECTION=Reagents - Magery
-DESCRIPTION=Mandrake
-
-[ITEMDEF 0f87]
-DEFNAME=iReagEyeOfNewt
-TYPE=tReagent
-PILE=1
-VALUE=30
-WEIGHT=0.1
-CATEGORY=Provisions - Alchemy & Magic
-SUBSECTION=Reagents - Pagan
-DESCRIPTION=Eye of Newt
-
-[ITEMDEF 0f88]
-DEFNAME=iReagNightshade
-TYPE=tReagent
-PILE=1
-VALUE=3
-WEIGHT=0.1
-CATEGORY=Provisions - Alchemy & Magic
-SUBSECTION=Reagents - Magery
-DESCRIPTION=Nightshade
-
-[ITEMDEF 0f89]
-DEFNAME=iReagObsidian
-TYPE=tReagent
-PILE=1
-VALUE=30
-WEIGHT=0.1
-CATEGORY=Provisions - Alchemy & Magic
-SUBSECTION=Reagents - Pagan
-DESCRIPTION=Obsidian
-
-[ITEMDEF 0f8a]
-DEFNAME=iReagPigIron
-TYPE=tReagent
-PILE=1
-VALUE=30
-WEIGHT=0.1
-CATEGORY=Provisions - Alchemy & Magic
-SUBSECTION=Reagents - Necromancy
-DESCRIPTION=Pig Iron
-
-[ITEMDEF 0f8b]
-DEFNAME=iReagPumice
-TYPE=tReagent
-PILE=1
-VALUE=30
-WEIGHT=0.1
-CATEGORY=Provisions - Alchemy & Magic
-SUBSECTION=Reagents - Pagan
-DESCRIPTION=Pumice
-
-[ITEMDEF 0f8c]
-DEFNAME=iReagSulfurAsh
-TYPE=tReagent
-PILE=1
-VALUE=3
-WEIGHT=0.1
-CATEGORY=Provisions - Alchemy & Magic
-SUBSECTION=Reagents - Magery
-DESCRIPTION=Sulphorous Ash
-
-[ITEMDEF 0f8d]
-DEFNAME=iReagSpiderSilk
-TYPE=tReagent
-PILE=1
-VALUE=3
-WEIGHT=0.1
-CATEGORY=Provisions - Alchemy & Magic
-SUBSECTION=Reagents - Magery
-DESCRIPTION=Spider Silk
-
-[ITEMDEF 0f8e]
-DEFNAME=iReagNoxCrystal
-TYPE=tReagent
-PILE=1
-VALUE=30
-WEIGHT=0.1
-CATEGORY=Provisions - Alchemy & Magic
-SUBSECTION=Reagents - Necromancy
-DESCRIPTION=Nox Crystal (serpent scales)
-
-[ITEMDEF 0f8f]
-DEFNAME=iReagGraveDust
-TYPE=tReagent
-PILE=1
-VALUE=30
-WEIGHT=0.1
-CATEGORY=Provisions - Alchemy & Magic
-SUBSECTION=Reagents - Necromancy
-DESCRIPTION=Grave Dust (volcanic ash)
-
-[ITEMDEF 0f90]
-DEFNAME=iReagDeadWood
-TYPE=tReagent
-PILE=1
-VALUE=30
-WEIGHT=0.1
-CATEGORY=Provisions - Alchemy & Magic
-SUBSECTION=Reagents - Pagan
-DESCRIPTION=Dead Wood
-
-[ITEMDEF 0f91]
-DEFNAME=iReagWyrmHeart
-TYPE=tReagent
-PILE=1
-VALUE=30
-WEIGHT=0.1
-CATEGORY=Provisions - Alchemy & Magic
-SUBSECTION=Reagents - Pagan
-DESCRIPTION=Wyrms Heart
+[ItemDef 0f30]
+DefName=iGemDiamond5
+Name=worn diamond
+Type=tGem
+Value=45
+Weight=0.1
+Category=Provisions - Jewels and Jewelry
+Subsection=Jewels
+Description=Diamond 5 (worn)
 
 
-[ITEMDEF 01020]
-DEFNAME=iFeathersRedWhite
-TYPE=tFeather
+[ItemDef 01020]
+DefName=iFeathersRedWhite
+Type=tFeather
 FLIP=1
-WEIGHT=0.1
+Weight=0.1
 RESOURCES=2 iFeather
-CATEGORY=Resources
-SUBSECTION=Animal
-DESCRIPTION=Feathers (2 Red & White)
+Category=Resources
+Subsection=Animal
+Description=Feathers (2 Red & White)
 DUPELIST=01021
 
-[ITEMDEF 01021]
+[ItemDef 01021]
 //feathers
 DUPEITEM=01020
 
-[ITEMDEF 01bd1]
-DEFNAME=iFeather
-TYPE=tFeather
-VALUE=2
-WEIGHT=0.1
-CATEGORY=Resources
-SUBSECTION=Animal
-DESCRIPTION=Feathers (White)
+[ItemDef 01bd1]
+DefName=iFeather
+Type=tFeather
+Value=2
+Weight=0.1
+Category=Resources
+Subsection=Animal
+Description=Feathers (White)
 DUPELIST=0dfa,0dfb,01bd2,01bd3
 
-[ITEMDEF 01bd2]
+[ItemDef 01bd2]
 //feathers (3)
 DUPEITEM=01bd1
 
-[ITEMDEF 01bd3]
+[ItemDef 01bd3]
 //Pile of White feathers
 DUPEITEM=01bd1
 
-[ITEMDEF 0223a]
-DEFNAME=iCrystalsBroken
-NAME=broken crystals
-TYPE=tNormal
-VALUE=2
-WEIGHT=1.0
-CATEGORY=Resources
-SUBSECTION=Mineral
-DESCRIPTION=Crystalline Fragments
+[ItemDef 0223a]
+DefName=iCrystalsBroken
+Name=broken crystals
+Type=tNormal
+Value=2
+Weight=1.0
+Category=Resources
+Subsection=Mineral
+Description=Crystalline Fragments
 DUPELIST=0223b,0223c,0223d,0223e,0223f,02240,02241,02242,02243,02244,02245,02246,02247,02248,02249
 ON=@Create
 DORAND 7
-NAME=crystalline fragments
-NAME=broken crystals
-NAME=shattered crystals
-NAME=scattered crystals
-NAME=crushed crystals
-NAME=jagged crystals
-NAME=crystal pieces
+Name=crystalline fragments
+Name=broken crystals
+Name=shattered crystals
+Name=scattered crystals
+Name=crushed crystals
+Name=jagged crystals
+Name=crystal pieces
 ENDDO
 
-[ITEMDEF 0223b]
+[ItemDef 0223b]
 //broken crystals
 DUPEITEM=0223a
 
-[ITEMDEF 0223c]
+[ItemDef 0223c]
 //broken crystals
 DUPEITEM=0223a
 
-[ITEMDEF 0223d]
+[ItemDef 0223d]
 //broken crystals
 DUPEITEM=0223a
 
-[ITEMDEF 0223e]
+[ItemDef 0223e]
 //broken crystals
 DUPEITEM=0223a
 
-[ITEMDEF 0223f]
+[ItemDef 0223f]
 //broken crystals
 DUPEITEM=0223a
 
-[ITEMDEF 02240]
+[ItemDef 02240]
 //broken crystals
 DUPEITEM=0223a
 
-[ITEMDEF 02241]
+[ItemDef 02241]
 //broken crystals
 DUPEITEM=0223a
 
-[ITEMDEF 02242]
+[ItemDef 02242]
 //broken crystals
 DUPEITEM=0223a
 
-[ITEMDEF 02243]
+[ItemDef 02243]
 //broken crystals
 DUPEITEM=0223a
 
-[ITEMDEF 02244]
+[ItemDef 02244]
 //broken crystals
 DUPEITEM=0223a
 
-[ITEMDEF 02245]
+[ItemDef 02245]
 //broken crystals
 DUPEITEM=0223a
 
-[ITEMDEF 02246]
+[ItemDef 02246]
 //broken crystals
 DUPEITEM=0223a
 
-[ITEMDEF 02247]
+[ItemDef 02247]
 //broken crystals
 DUPEITEM=0223a
 
-[ITEMDEF 02248]
+[ItemDef 02248]
 //broken crystals
 DUPEITEM=0223a
 
-[ITEMDEF 02249]
+[ItemDef 02249]
 //broken crystals
 DUPEITEM=0223a
 
 
-[ITEMDEF 026b1]
-DEFNAME=iDragonscale
-NAME=dragon scale%s
-TYPE=tNormal
-VALUE=17
-WEIGHT=0.1
-CATEGORY=Resources
-SUBSECTION=Animal
-DESCRIPTION=Dragon Scales
+[ItemDef 026b1]
+DefName=iDragonscale
+Name=dragon scale%s
+Type=tNormal
+Value=17
+Weight=0.1
+Category=Resources
+Subsection=Animal
+Description=Dragon Scales
 
-[ITEMDEF 026b2]
+[ItemDef 026b2]
 //Dragon Scales
 DUPEITEM=026b1
 
-[ITEMDEF 026b3]
+[ItemDef 026b3]
 //Dragon Scales
 DUPEITEM=026b1
 
-[ITEMDEF 026b4]
+[ItemDef 026b4]
 //Dragon Scales
 DUPEITEM=026b1
 
-[ITEMDEF 026b5]
+[ItemDef 026b5]
 //Dragon Scales
 DUPEITEM=026b1
 
-[ITEMDEF 026b6]
+[ItemDef 026b6]
 //Dragon Scales
 DUPEITEM=026b1
 
@@ -824,7 +563,7 @@ DUPEITEM=026b1
 // Custom Resource Items //
 ///////////////////////////
 
-[DEFNAME colors_custom_resources]
+[DefName colors_custom_resources]
 color_o_ash 0157
 color_o_bamboo 098
 color_o_bloodwood 04aa
@@ -854,431 +593,431 @@ color_dragonscale_white 0482
 color_dragonscale_yellow 035
 
 
-[ITEMDEF iLogBamboo]
+[ItemDef iLogBamboo]
 ID=iLog
-NAME=bamboo
-TYPE=tLog
-VALUE=2
-WEIGHT=1.0
-CATEGORY=Resources
-SUBSECTION=Wood (logs)
-DESCRIPTION=Bamboo Log
+Name=bamboo
+Type=tLog
+Value=2
+Weight=1.0
+Category=Resources
+Subsection=Wood (logs)
+Description=Bamboo Log
 ON=@Create
 COLOR=color_o_bamboo
 
-[ITEMDEF iGlassRaw]
+[ItemDef iGlassRaw]
 ID=0f8e
-NAME=raw glass
-TYPE=tIngot
+Name=raw glass
+Type=tIngot
 TDATA1=55.0
 TDATA2=80.0
-VALUE=2
-WEIGHT=2.0
+Value=2
+Weight=2.0
 RESOURCES=1 iSand
 SKILLMAKE=MINING 60.0
-CATEGORY=Resources
-SUBSECTION=Fabricated
-DESCRIPTION=Raw Glass
+Category=Resources
+Subsection=Fabricated
+Description=Raw Glass
 ON=@Create
 COLOR=05b
 
-[ITEMDEF iSand]
+[ItemDef iSand]
 ID=iOreIron
-NAME=sand
-TYPE=tOre //t_sand
+Name=sand
+Type=tOre //t_sand
 TDATA1=iGlassRaw
-VALUE=1
-WEIGHT=3.0
+Value=1
+Weight=3.0
 SKILLMAKE=MINING 60.0
-CATEGORY=Resources
-SUBSECTION=Rock
-DESCRIPTION=Sand
+Category=Resources
+Subsection=Rock
+Description=Sand
 ON=@Create
 COLOR=035
 
-[ITEMDEF iClay]
+[ItemDef iClay]
 ID=0f8f
-NAME=clay
-TYPE=tNormal
-VALUE=5
-WEIGHT=2.0
-CATEGORY=Resources
-SUBSECTION=Rock
-DESCRIPTION=Clay
+Name=clay
+Type=tNormal
+Value=5
+Weight=2.0
+Category=Resources
+Subsection=Rock
+Description=Clay
 ON=@Create
 COLOR=0224
 
-[ITEMDEF iStraw]
+[ItemDef iStraw]
 ID=iHaySheaf
-NAME=straw bale
-TYPE=tGrass
-VALUE=1
-WEIGHT=3.0
+Name=straw bale
+Type=tGrass
+Value=1
+Weight=3.0
 RESOURCES=1 iGrass
-CATEGORY=Resources
-SUBSECTION=Plant
-DESCRIPTION=Straw
+Category=Resources
+Subsection=Plant
+Description=Straw
 
-[ITEMDEF iBrick]
+[ItemDef iBrick]
 ID=iIngotIron
-NAME=brick
-TYPE=tNormal
-VALUE=2
-WEIGHT=3.0
+Name=brick
+Type=tNormal
+Value=2
+Weight=3.0
 RESOURCES=1 iStraw,1 iClay
 SKILLMAKE=Carpentry 12.6
-CATEGORY=Resources
-SUBSECTION=Fabricated
-DESCRIPTION=Brick
+Category=Resources
+Subsection=Fabricated
+Description=Brick
 ON=@Create
 COLOR=041f
 
-[ITEMDEF iPlaster]
+[ItemDef iPlaster]
 ID=iIngotIron
-NAME=plaster
-TYPE=tNormal
-VALUE=2
-WEIGHT=3.0
+Name=plaster
+Type=tNormal
+Value=2
+Weight=3.0
 RESOURCES=1 iStraw,1 iSand
 SKILLMAKE=Carpentry 12.6
-CATEGORY=Resources
-SUBSECTION=Fabricated
-DESCRIPTION=Plaster
+Category=Resources
+Subsection=Fabricated
+Description=Plaster
 ON=@Create
 COLOR=038a
 
-[ITEMDEF iRockGranite]
+[ItemDef iRockGranite]
 ID=01779
-NAME=high quality granite
-TYPE=tNormal
-VALUE=5
-WEIGHT=10.0
+Name=high quality granite
+Type=tNormal
+Value=5
+Weight=10.0
 SKILLMAKE=Mining 100.0
-CATEGORY=Resources
-SUBSECTION=Rock
-DESCRIPTION=Granite
+Category=Resources
+Subsection=Rock
+Description=Granite
 ON=@Create
 COLOR=color_o_granite
 
-[ITEMDEF iRockMarble]
+[ItemDef iRockMarble]
 ID=01779
-NAME=high quality marble
-TYPE=tNormal
-VALUE=5
-WEIGHT=10.0
+Name=high quality marble
+Type=tNormal
+Value=5
+Weight=10.0
 SKILLMAKE=Mining 100.0
-CATEGORY=Resources
-SUBSECTION=Rock
-DESCRIPTION=Marble
+Category=Resources
+Subsection=Rock
+Description=Marble
 ON=@Create
 COLOR=color_o_marble
 
-[ITEMDEF iRockSandstone]
+[ItemDef iRockSandstone]
 ID=01779
-NAME=high quality sandstone
-TYPE=tNormal
-VALUE=5
-WEIGHT=10.0
+Name=high quality sandstone
+Type=tNormal
+Value=5
+Weight=10.0
 SKILLMAKE=Mining 100.0
-CATEGORY=Resources
-SUBSECTION=Rock
-DESCRIPTION=Sandstone
+Category=Resources
+Subsection=Rock
+Description=Sandstone
 ON=@Create
 COLOR=color_o_sandstone
 
-[ITEMDEF iRockJade]
+[ItemDef iRockJade]
 ID=01368
-NAME=jade
-TYPE=tNormal
-VALUE=20
-WEIGHT=2.0
+Name=jade
+Type=tNormal
+Value=20
+Weight=2.0
 SKILLMAKE=Mining 100.0
-CATEGORY=Resources
-SUBSECTION=Rock
-DESCRIPTION=Jade
+Category=Resources
+Subsection=Rock
+Description=Jade
 ON=@Create
 COLOR=color_o_jade
 
-[ITEMDEF iRockBloodstone]
+[ItemDef iRockBloodstone]
 ID=01368
-NAME=bloodrock
-TYPE=tNormal
-VALUE=20
-WEIGHT=2.0
+Name=bloodrock
+Type=tNormal
+Value=20
+Weight=2.0
 SKILLMAKE=Mining 100.0
-CATEGORY=Resources
-SUBSECTION=Rock
-DESCRIPTION=Bloodrock
+Category=Resources
+Subsection=Rock
+Description=Bloodrock
 ON=@Create
 COLOR=color_o_bloodrock
 
-[ITEMDEF iGrass]
+[ItemDef iGrass]
 ID=iHaySheaf
-NAME=grass
-TYPE=tGrass
-VALUE=1
-WEIGHT=3.0
-CATEGORY=Resources
-SUBSECTION=Plant
-DESCRIPTION=Grass
+Name=grass
+Type=tGrass
+Value=1
+Weight=3.0
+Category=Resources
+Subsection=Plant
+Description=Grass
 ON=@Create
 COLOR=colors_green
 
-[ITEMDEF iCanvas]
+[ItemDef iCanvas]
 ID=iCloth
-NAME=canvas
-TYPE=tNormal
-VALUE=2
-WEIGHT=1.1
+Name=canvas
+Type=tNormal
+Value=2
+Weight=1.1
 RESOURCES=1 iCloth,1 iBeeswax
 SKILLMAKE=Tailoring 18.9,tSewingKit
-CATEGORY=Resources
-SUBSECTION=Fabricated
-DESCRIPTION=Canvas
+Category=Resources
+Subsection=Fabricated
+Description=Canvas
 ON=@Create
 COLOR=0491
 
-[ITEMDEF iLinen]
+[ItemDef iLinen]
 ID=iCloth
-NAME=linen
-TYPE=tNormal
-VALUE=2
-WEIGHT=1.0
+Name=linen
+Type=tNormal
+Value=2
+Weight=1.0
 RESOURCES=6 iFlaxBundle
 SKILLMAKE=Tailoring 12.6,tSewingKit
-CATEGORY=Resources
-SUBSECTION=Fabricated
-DESCRIPTION=Linen
+Category=Resources
+Subsection=Fabricated
+Description=Linen
 ON=@Create
 COLOR=colors_yellow
 
-[ITEMDEF iSilk]
+[ItemDef iSilk]
 ID=iCloth
-NAME=silk
-TYPE=tNormal
-VALUE=60
-WEIGHT=0.5
-RESOURCES=20 iReagSpiderSilk
+Name=silk
+Type=tNormal
+Value=60
+Weight=0.5
+RESOURCES=20 iSpiderSilk
 SKILLMAKE=Tailoring 95.6,tSewingKit
-CATEGORY=Resources
-SUBSECTION=Fabricated
-DESCRIPTION=Silk
+Category=Resources
+Subsection=Fabricated
+Description=Silk
 ON=@Create
 COLOR=colors_yellow
 
-[ITEMDEF iDryReed]
+[ItemDef iDryReed]
 //obtained by using t_plantclipping_tool on a plant
 ID=01bd5
-NAME=dry reed%s
-TYPE=tNormal
-VALUE=1
-WEIGHT=0.1
-CATEGORY=Items by Professions
-SUBSECTION=Gardener
-DESCRIPTION=Dry Reeds
+Name=dry reed%s
+Type=tNormal
+Value=1
+Weight=0.1
+Category=Items by Professions
+Subsection=Gardener
+Description=Dry Reeds
 
-[ITEMDEF iParchment]
+[ItemDef iParchment]
 ID=01044
-NAME=parchment
-TYPE=tNormal
-VALUE=1
-WEIGHT=0.1
-CATEGORY=Items by Professions
-SUBSECTION=Scribe
-DESCRIPTION=Parchment
+Name=parchment
+Type=tNormal
+Value=1
+Weight=0.1
+Category=Items by Professions
+Subsection=Scribe
+Description=Parchment
 ON=@Create
 COLOR=0491
 
-[ITEMDEF iPaper]
+[ItemDef iPaper]
 ID=01044
-NAME=paper
-TYPE=tNormal
-VALUE=1
-WEIGHT=0.1
-CATEGORY=Items by Professions
-SUBSECTION=Scribe
-DESCRIPTION=Paper
+Name=paper
+Type=tNormal
+Value=1
+Weight=0.1
+Category=Items by Professions
+Subsection=Scribe
+Description=Paper
 ON=@Create
 COLOR=0481
 
-[ITEMDEF iSaltpeter]
+[ItemDef iSaltpeter]
 ID=0103d
-NAME=saltpeter
-TYPE=tNormal
-VALUE=1
-WEIGHT=0.1
-CATEGORY=Items by Professions
-SUBSECTION=Alchemist
-DESCRIPTION=Saltpeter
+Name=saltpeter
+Type=tNormal
+Value=1
+Weight=0.1
+Category=Items by Professions
+Subsection=Alchemist
+Description=Saltpeter
 ON=@Create
 COLOR=0481
 
-[ITEMDEF iHydraScale]
+[ItemDef iHydraScale]
 ID=026b1
-NAME=hydra scale%s
-TYPE=tNormal
-VALUE=17
-WEIGHT=0.7
-CATEGORY=Resources
-SUBSECTION=Animal
-DESCRIPTION=Hydra Scales
+Name=hydra scale%s
+Type=tNormal
+Value=17
+Weight=0.7
+Category=Resources
+Subsection=Animal
+Description=Hydra Scales
 ON=@Create
 COLOR=1159
 
-[ITEMDEF iIronBeetleScale]
+[ItemDef iIronBeetleScale]
 ID=026b3
-NAME=undamaged iron beetle scale%s
-TYPE=tNormal
-VALUE=17
-WEIGHT=0.7
-CATEGORY=Resources
-SUBSECTION=Animal
-DESCRIPTION=Iron Beetle Scale
+Name=undamaged iron beetle scale%s
+Type=tNormal
+Value=17
+Weight=0.7
+Category=Resources
+Subsection=Animal
+Description=Iron Beetle Scale
 ON=@Create
 COLOR=2500
 
-[ITEMDEF iDragonscaleBlack]
+[ItemDef iDragonscaleBlack]
 ID=iDragonscale
-NAME=black dragon scale%s
-TYPE=tNormal
-VALUE=17
-WEIGHT=0.7
-CATEGORY=Resources
-SUBSECTION=Dragon Scales
-DESCRIPTION=Black Dragon Scales
+Name=black dragon scale%s
+Type=tNormal
+Value=17
+Weight=0.7
+Category=Resources
+Subsection=Dragon Scales
+Description=Black Dragon Scales
 ON=@Create
 DISPID={026b1 026b6}
 COLOR=color_dragonscale_black
 
-[ITEMDEF iDragonscaleBlue]
+[ItemDef iDragonscaleBlue]
 ID=iDragonscale
-NAME=blue dragon scale%s
-TYPE=tNormal
-VALUE=17
-WEIGHT=0.7
-CATEGORY=Resources
-SUBSECTION=Dragon Scales
-DESCRIPTION=Blue Dragon Scales
+Name=blue dragon scale%s
+Type=tNormal
+Value=17
+Weight=0.7
+Category=Resources
+Subsection=Dragon Scales
+Description=Blue Dragon Scales
 ON=@Create
 DISPID={026b1 026b6}
 COLOR=color_dragonscale_blue
 
-[ITEMDEF iDragonscaleGreen]
+[ItemDef iDragonscaleGreen]
 ID=iDragonscale
-NAME=green dragon scale%s
-TYPE=tNormal
-VALUE=17
-WEIGHT=0.7
-CATEGORY=Resources
-SUBSECTION=Dragon Scales
-DESCRIPTION=Green Dragon Scales
+Name=green dragon scale%s
+Type=tNormal
+Value=17
+Weight=0.7
+Category=Resources
+Subsection=Dragon Scales
+Description=Green Dragon Scales
 ON=@Create
 DISPID={026b1 026b6}
 COLOR=color_dragonscale_green
 
-[ITEMDEF iDragonscaleRed]
+[ItemDef iDragonscaleRed]
 ID=iDragonscale
-NAME=red dragon scale%s
-TYPE=tNormal
-VALUE=17
-WEIGHT=0.7
-CATEGORY=Resources
-SUBSECTION=Dragon Scales
-DESCRIPTION=Red Dragon Scales
+Name=red dragon scale%s
+Type=tNormal
+Value=17
+Weight=0.7
+Category=Resources
+Subsection=Dragon Scales
+Description=Red Dragon Scales
 ON=@Create
 DISPID={026b1 026b6}
 COLOR=color_dragonscale_red
 
-[ITEMDEF iDragonscaleYellow]
+[ItemDef iDragonscaleYellow]
 ID=iDragonscale
-NAME=yellow dragon scale%s
-TYPE=tNormal
-VALUE=17
-WEIGHT=0.7
-CATEGORY=Resources
-SUBSECTION=Dragon Scales
-DESCRIPTION=Yellow Dragon Scales
+Name=yellow dragon scale%s
+Type=tNormal
+Value=17
+Weight=0.7
+Category=Resources
+Subsection=Dragon Scales
+Description=Yellow Dragon Scales
 ON=@Create
 DISPID={026b1 026b6}
 COLOR=color_dragonscale_yellow
 
-[ITEMDEF iDragonscaleWhite]
+[ItemDef iDragonscaleWhite]
 ID=iDragonscale
-NAME=white dragon scale%s
-TYPE=tNormal
-VALUE=17
-WEIGHT=0.7
-CATEGORY=Resources
-SUBSECTION=Dragon Scales
-DESCRIPTION=White Dragon Scales
+Name=white dragon scale%s
+Type=tNormal
+Value=17
+Weight=0.7
+Category=Resources
+Subsection=Dragon Scales
+Description=White Dragon Scales
 ON=@Create
 DISPID={026b1 026b6}
 COLOR=0481
 
-[ITEMDEF iFairyDragonWings]
+[ItemDef iFairyDragonWings]
 ID=iBeaker2Empty
-NAME=fairy dragon wings
-TYPE=tNormal
-VALUE=100
-WEIGHT=0.1
+Name=fairy dragon wings
+Type=tNormal
+Value=100
+Weight=0.1
 TAG.NOVENDOR=1
-CATEGORY=Quest
-SUBSECTION=Abyss
-DESCRIPTION=Fairy Dragon Wings
+Category=Quest
+Subsection=Abyss
+Description=Fairy Dragon Wings
 ON=@Create
 COLOR=2951
 
-[ITEMDEF iEyeOfNavrey]
+[ItemDef iEyeOfNavrey]
 ID=iEye
-NAME=Eye of Navrey Night-Eyes
-TYPE=tNormal
-VALUE=100
-WEIGHT=0.1
+Name=Eye of Navrey Night-Eyes
+Type=tNormal
+Value=100
+Weight=0.1
 TAG.NOVENDOR=1
-CATEGORY=Quest
-SUBSECTION=Navrey
-DESCRIPTION=Eye of Navrey
+Category=Quest
+Subsection=Navrey
+Description=Eye of Navrey
 ON=@Create
 COLOR=1072
 
-[ITEMDEF iAbyssalCloth]
+[ItemDef iAbyssalCloth]
 // Is an imbuing ingredient used to imbue the Mage Armor property onto armor.
 ID=iCloth
-NAME=abyssal cloth
-TYPE=tNormal
-VALUE=100
-WEIGHT=1.0
-CATEGORY=Resources
-SUBSECTION=Animal
-DESCRIPTION=Abyssal Cloth
+Name=abyssal cloth
+Type=tNormal
+Value=100
+Weight=1.0
+Category=Resources
+Subsection=Animal
+Description=Abyssal Cloth
 ON=@Create
 COLOR={2671 2673}
 
-[ITEMDEF iFireAntGoo]
+[ItemDef iFireAntGoo]
 ID=0122e
-NAME=seared fire ant goo
-TYPE=tNormal
-VALUE=22
-WEIGHT=0.1
-CATEGORY=Quest
-SUBSECTION=Fire Ant
-DESCRIPTION=Seared Fire Ant Goo
+Name=seared fire ant goo
+Type=tNormal
+Value=22
+Weight=0.1
+Category=Quest
+Subsection=Fire Ant
+Description=Seared Fire Ant Goo
 ON=@Create
 COLOR=1177
 
-[ITEMDEF iLeatherWolfSkin]
+[ItemDef iLeatherWolfSkin]
 ID=0df8
-NAME=leather wolf skin
-TYPE=tLeather
-VALUE=22
-WEIGHT=1.0
-CATEGORY=Quest
-SUBSECTION=Leather Wolf
-DESCRIPTION=Leather Wolf Skin
+Name=leather wolf skin
+Type=tLeather
+Value=22
+Weight=1.0
+Category=Quest
+Subsection=Leather Wolf
+Description=Leather Wolf Skin
 ON=@Create
 COLOR=1177
 
-[ITEMDEF iGorgonLens]
+[ItemDef iGorgonLens]
 //"A Gorgon Lens can be applied to items you wear to prevent Medusa from
 // turning you to stone. It applies Gorgon Lens Charges to that item.
 // Gorgon Lenses are crafted by tinkers from scales and Crystal Dust. Any
@@ -1287,15 +1026,15 @@ COLOR=1177
 // Scales obtained by skinning dead Medusa, or obtained from other monsters,
 // are only effective 90% of the time in blocking her paralyzing gaze."
 ID=026b1
-NAME=gorgon lens%es
-TYPE=tNormal
-VALUE=230
-WEIGHT=0.1
+Name=gorgon lens%es
+Type=tNormal
+Value=230
+Weight=0.1
 RESOURCES=3 iCrystalDust,2 iMedusaScale
 SKILLMAKE=TINKERING 90.0,tTinkerTools
-CATEGORY=Quest
-SUBSECTION=Medusa
-DESCRIPTION=Gorgon Lens
+Category=Quest
+Subsection=Medusa
+Description=Gorgon Lens
 ON=@Create
 COLOR=153
 ON=@DClick
@@ -1318,114 +1057,114 @@ ARGO.RESENDTOOLTIP
 CONSUME
 RETURN 1
 
-[ITEMDEF iMedusaScale]
+[ItemDef iMedusaScale]
 //"Medusa Scales are obtained by using a dagger or bladed weapon to harvest
 // from Medusa while she is dead OR alive. There are 2 different hues of
 // Medusa Scales, Invulnerability Blue while she's alive, and a darker blue
 // from her corpse. The brighter scales are much more desirable as they yield
 // 100% effective lenses, whereas the darker lenses are only 90% effective."
 ID=026b4
-NAME=Medusa scale%s
-TYPE=tNormal
-VALUE=100
-WEIGHT=0.1
-CATEGORY=Quest
-SUBSECTION=Medusa
-DESCRIPTION=Medusa Scale
+Name=Medusa scale%s
+Type=tNormal
+Value=100
+Weight=0.1
+Category=Quest
+Subsection=Medusa
+Description=Medusa Scale
 ON=@Create
 COLOR=497
 
-[ITEMDEF iResolvesBridle]
+[ItemDef iResolvesBridle]
 ID=iBridleHorse
-NAME=Resolve's Bridle
-TYPE=tNormal
-VALUE=1000
+Name=Resolve's Bridle
+Type=tNormal
+Value=1000
 TAG.NOVENDOR=1
-CATEGORY=Quest
-SUBSECTION=Bedlam
-DESCRIPTION=Resolve's Bridle
+Category=Quest
+Subsection=Bedlam
+Description=Resolve's Bridle
 
-[ITEMDEF iCrystalSquirrel]
+[ItemDef iCrystalSquirrel]
 //"An albino squirrel imprisoned in a crystal."
 ID=iPrismRuned
-NAME=Imprisoned Squirrel
-TYPE=tFigurine
+Name=Imprisoned Squirrel
+Type=tFigurine
 TDATA3=c_squirrel_albino
-VALUE=225
-CATEGORY=Quest
-SUBSECTION=Blighted Grove
-DESCRIPTION=Imprisoned Squirrel
+Value=225
+Category=Quest
+Subsection=Blighted Grove
+Description=Imprisoned Squirrel
 
-[ITEMDEF iThrashersTail]
+[ItemDef iThrashersTail]
 ID=01472
-NAME=thrasher's tail
-TYPE=tNormal
-WEIGHT=11.0
-VALUE=1000
+Name=thrasher's tail
+Type=tNormal
+Weight=11.0
+Value=1000
 TAG.NOVENDOR=1
-CATEGORY=Quest
-SUBSECTION=Blighted Grove
-DESCRIPTION=Thrasher's Tail
+Category=Quest
+Subsection=Blighted Grove
+Description=Thrasher's Tail
 
-[ITEMDEF iSalivasFeather]
+[ItemDef iSalivasFeather]
 ID=iFeather
-NAME=Saliva's Feather
-TYPE=tNormal
-VALUE=2000
+Name=Saliva's Feather
+Type=tNormal
+Value=2000
 TAG.NOVENDOR=1
-CATEGORY=Quest
-SUBSECTION=Blighted Grove
-DESCRIPTION=Saliva's Feather
+Category=Quest
+Subsection=Blighted Grove
+Description=Saliva's Feather
 ON=@Create
 COLOR=035
 
-[ITEMDEF iAbscessTail]
+[ItemDef iAbscessTail]
 ID=0147a
-NAME=Abscess' tail
-TYPE=tNormal
-VALUE=1000
-WEIGHT=21.0
+Name=Abscess' tail
+Type=tNormal
+Value=1000
+Weight=21.0
 TAG.NOVENDOR=1
-CATEGORY=Quest
-SUBSECTION=Blighted Grove
-DESCRIPTION=Abscess' Tail
+Category=Quest
+Subsection=Blighted Grove
+Description=Abscess' Tail
 
-[ITEMDEF iCoilFang]
+[ItemDef iCoilFang]
 ID=iHornDread
-NAME=Coil's fang
-TYPE=tNormal
-VALUE=1000
-WEIGHT=1.0
+Name=Coil's fang
+Type=tNormal
+Value=1000
+Weight=1.0
 TAG.NOVENDOR=1
-CATEGORY=Quest
-SUBSECTION=Blighted Grove
-DESCRIPTION=Coil's Fang
+Category=Quest
+Subsection=Blighted Grove
+Description=Coil's Fang
 
-[ITEMDEF iBottleWineMelisande]
+[ItemDef iBottleWineMelisande]
 ID=iBottleWine
-NAME=Melisande's Fermented Wine
-VALUE=124
-WEIGHT=1.0
-RESOURCES=1 iBottle,1 iFruitGrapes,1 iReagFertileDirt
-CATEGORY=Quest
-SUBSECTION=Blighted Grove
-DESCRIPTION=Melisande's Fermented Wine
+Name=Melisande's Fermented Wine
+Value=124
+Weight=1.0
+RESOURCES=1 iBottle,1 iFruitGrapes,1 iFertileDirt
+Category=Quest
+Subsection=Blighted Grove
+Description=Melisande's Fermented Wine
 ON=@Create
 COLOR=colors_all
 
-//[ITEMDEF i_tree_corrupt]
+//[ItemDef i_tree_corrupt]
 //ID=
-//NAME=Eternally Corrupt Tree
+//Name=Eternally Corrupt Tree
 
-[ITEMDEF iHatchetMelisande]
+[ItemDef iHatchetMelisande]
 ID=iHatchet
-NAME=Melisande's Corroded Hatchet
-TYPE=tWeaponAxe
+Name=Melisande's Corroded Hatchet
+Type=tWeaponAxe
 DAM=13,15
 SKILL=Swordsmanship
 SPEED=41
-VALUE=330
-WEIGHT=5.3
+Value=330
+Weight=5.3
 TWOHANDS=Y
 RESOURCES=6 iIngotIron,1 iLog,1 iBarkDiseased
 IncreaseDam=-50
@@ -1436,70 +1175,70 @@ ReqStr=24
 SelfRepair=4
 SpellChanneling=1
 IncreaseSwingSpeed=15
-CATEGORY=Quest
-SUBSECTION=Blighted Grove
-DESCRIPTION=Melisande's Corroded Hatchet
+Category=Quest
+Subsection=Blighted Grove
+Description=Melisande's Corroded Hatchet
 ON=@Create
 ATTR=attr_magic|attr_identified
 COLOR=020
 HITPOINTS={50 60}
 
-[ITEMDEF iParoxysmusDinner]
+[ItemDef iParoxysmusDinner]
 ID=iRabbitSpitted
-NAME=Paroxysmus' dinner
-TYPE=tMeatRaw
+Name=Paroxysmus' dinner
+Type=tMeatRaw
 FLIP=1
-VALUE=250
-WEIGHT=2.7
+Value=250
+Weight=2.7
 RESOURCES=1 iRabbitSkinned,2 iSpit
-CATEGORY=Quest
-SUBSECTION=Palace of Paroxysmus
-DESCRIPTION=Paroxysmus' dinner
+Category=Quest
+Subsection=Palace of Paroxysmus
+Description=Paroxysmus' dinner
 
-[ITEMDEF iParoxysmusStein]
+[ItemDef iParoxysmusStein]
 ID=iPitcher
-NAME=Paroxysmus' corroded stein
-VALUE=250
-WEIGHT=1.0
+Name=Paroxysmus' corroded stein
+Value=250
+Weight=1.0
 RESOURCES=6 iIngotIron
-CATEGORY=Quest
-SUBSECTION=Palace of Paroxysmus
-DESCRIPTION=Paroxysmus' corroded stein
+Category=Quest
+Subsection=Palace of Paroxysmus
+Description=Paroxysmus' corroded stein
 ON=@Create
 COLOR=021a
 
-[ITEMDEF iParoxysmusSweat]
+[ItemDef iParoxysmusSweat]
 ID=iBottle4
-NAME=Sweat of Paroxysmus
+Name=Sweat of Paroxysmus
 FLIP=0
-VALUE=250
-WEIGHT=1.0
+Value=250
+Weight=1.0
 RESOURCES=5 iGlassRaw
-CATEGORY=Quest
-SUBSECTION=Palace of Paroxysmus
-DESCRIPTION=Sweat of Paroxysmus
+Category=Quest
+Subsection=Palace of Paroxysmus
+Description=Sweat of Paroxysmus
 
-[ITEMDEF iParoxysmusVictims]
+[ItemDef iParoxysmusVictims]
 ID=0fd2
-NAME=Paroxysmus' victims
+Name=Paroxysmus' victims
 FLIP=0
-VALUE=250
-WEIGHT=0.5
+Value=250
+Weight=0.5
 RESOURCES=1 iFleshHeart,1 iFleshLiver,1 iFleshEntrails,1 i_flesh_brain,1 i_string
-CATEGORY=Quest
-SUBSECTION=Palace of Paroxysmus
-DESCRIPTION=Paroxysmus' victims
+Category=Quest
+Subsection=Palace of Paroxysmus
+Description=Paroxysmus' victims
 
-[ITEMDEF iScepterParoxysmus]
+[ItemDef iScepterParoxysmus]
 ID=iScepter
-NAME=Scepter of the Chief
-TYPE=tWeaponMaceSmith
+Name=Scepter of the Chief
+Type=tWeaponMaceSmith
 DAM=14,17
 FLIP=0
 SKILL=MaceFighting
 SPEED=30
-VALUE=1000
-WEIGHT=12.0
+Value=1000
+Weight=12.0
 ReqStr=40
 TWOHANDS=N
 RESOURCES=10 iIngotIron,1 iLog
@@ -1510,32 +1249,32 @@ RegenHits=2
 DamPoison=100
 Rarity=1
 ReflectPhysicalDam=15
-CATEGORY=Quest
-SUBSECTION=Palace of Paroxysmus
-DESCRIPTION=Scepter of the Chief
+Category=Quest
+Subsection=Palace of Paroxysmus
+Description=Scepter of the Chief
 ON=@Create
 HITPOINTS={50 60}
 COLOR=047e
 ATTR=attr_magic|attr_identified
 
-[ITEMDEF iPetDragonParoxysmus]
+[ItemDef iPetDragonParoxysmus]
 ID=iPetDragonSwamp
-NAME=Paroxysmus' swamp dragon
-TYPE=tFigurine
+Name=Paroxysmus' swamp dragon
+Type=tFigurine
 TDATA3=c_petDragonParoxysmus
-VALUE={1050 1100}
-CATEGORY=Quest
-SUBSECTION=Palace of Paroxysmus
-DESCRIPTION=Paroxysmus' Swamp Dragon
+Value={1050 1100}
+Category=Quest
+Subsection=Palace of Paroxysmus
+Description=Paroxysmus' Swamp Dragon
 ON=@Create
 COLOR=0488
 
-[ITEMDEF iRingCrystalline]
+[ItemDef iRingCrystalline]
 //"Rare artifact only dropped by the Shimmering Effusion"
 ID=iRingGold
-NAME=Crystalline Ring
-VALUE=2500
-WEIGHT=0.1
+Name=Crystalline Ring
+Value=2500
+Weight=0.1
 BonusSkill1=Magery
 BonusSkill1Amt=20.0
 BonusSkill2=Focus
@@ -1544,71 +1283,71 @@ RegenHits=5
 RegenMana=3
 Rarity=1
 IncreaseSpellDam=20
-CATEGORY=Artifacts
-SUBSECTION=Prism of Light
-DESCRIPTION=Crystalline Ring
+Category=Artifacts
+Subsection=Prism of Light
+Description=Crystalline Ring
 ON=@Create
 ATTR=attr_magic|attr_identified
 COLOR=0480
 
-[ITEMDEF iDreadHornHeart]
-ID=iReagWyrmHeart
-NAME=Dread Horn Heart
-TYPE=tNormal
+[ItemDef iDreadHornHeart]
+ID=iWyrmHeart
+Name=Dread Horn Heart
+Type=tNormal
 PILE=0
-VALUE=150
-WEIGHT=0.1
-CATEGORY=Quest
-SUBSECTION=Twisted Weald
-DESCRIPTION=Dread Horn Heart
+Value=150
+Weight=0.1
+Category=Quest
+Subsection=Twisted Weald
+Description=Dread Horn Heart
 
-[ITEMDEF iTaintedShroom1]
+[ItemDef iTaintedShroom1]
 ID=0222e
-NAME=tainted giant mushroom
+Name=tainted giant mushroom
 FLIP=0
-TYPE=tNormal
-CATEGORY=Quest
-SUBSECTION=Twisted Weald
-DESCRIPTION=Tainted Mushroom 1
+Type=tNormal
+Category=Quest
+Subsection=Twisted Weald
+Description=Tainted Mushroom 1
 
-[ITEMDEF iTaintedShroom2]
+[ItemDef iTaintedShroom2]
 ID=0222f
-NAME=tainted giant mushroom
+Name=tainted giant mushroom
 FLIP=0
-TYPE=tNormal
-CATEGORY=Quest
-SUBSECTION=Twisted Weald
-DESCRIPTION=Tainted Mushroom 2
+Type=tNormal
+Category=Quest
+Subsection=Twisted Weald
+Description=Tainted Mushroom 2
 
-[ITEMDEF iTaintedShroom3]
+[ItemDef iTaintedShroom3]
 ID=02230
-NAME=tainted giant mushroom
+Name=tainted giant mushroom
 FLIP=0
-TYPE=tNormal
-CATEGORY=Quest
-SUBSECTION=Twisted Weald
-DESCRIPTION=Tainted Mushroom 3
+Type=tNormal
+Category=Quest
+Subsection=Twisted Weald
+Description=Tainted Mushroom 3
 
-[ITEMDEF iTaintedShroom4]
+[ItemDef iTaintedShroom4]
 ID=02231
-NAME=tainted giant mushroom
+Name=tainted giant mushroom
 FLIP=0
-TYPE=tNormal
-CATEGORY=Quest
-SUBSECTION=Twisted Weald
-DESCRIPTION=Tainted Mushroom 4
+Type=tNormal
+Category=Quest
+Subsection=Twisted Weald
+Description=Tainted Mushroom 4
 
-[ITEMDEF iDreadRevenge]
+[ItemDef iDreadRevenge]
 ID=iKryss
-NAME=Dread's Revenge
-TYPE=tWeaponFence
+Name=Dread's Revenge
+Type=tWeaponFence
 DAM=10,22
 FLIP=0
 SKILL=Fencing
 SPEED=53
 ReqStr=10
-VALUE=51
-WEIGHT=8.0
+Value=51
+Weight=8.0
 TWOHANDS=N
 BonusSkill1=Fencing
 BonusSkill1Amt=20.0
@@ -1617,103 +1356,103 @@ DamPoison=100
 Rarity=1
 IncreaseSwingSpeed=50
 TAG.HitAreaPoison=30
-CATEGORY=Quest
-SUBSECTION=Twisted Weald
-DESCRIPTION=Dread's Revenge
+Category=Quest
+Subsection=Twisted Weald
+Description=Dread's Revenge
 ON=@Create
 ATTR=attr_magic|attr_identified
 COLOR=03f
 HITPOINTS={50 60}
 
-[ITEMDEF iFluteDread]
+[ItemDef iFluteDread]
 ID=iHornDread
-NAME=Dread Horn's Flute
-TYPE=tMusical
+Name=Dread Horn's Flute
+Type=tMusical
 TDATA1=05a7
 TDATA2=05a6
 FLIP=0
-VALUE=10
-WEIGHT=1.0
+Value=10
+Weight=1.0
 TAG.SlayerGroup=REPOND
-CATEGORY=Quest
-SUBSECTION=Twisted Weald
-DESCRIPTION=Dread Horn's Flute
+Category=Quest
+Subsection=Twisted Weald
+Description=Dread Horn's Flute
 ON=@Create
 ATTR=attr_magic|attr_identified
 COLOR=0482
 ON=@ClientTooltip
 SRC.ADDCLILOC 1060472
 
-[ITEMDEF iEyeSabrix]
+[ItemDef iEyeSabrix]
 ID=iEye
-NAME=eye of Sabrix
-TYPE=tMeatRaw
-VALUE=100
-WEIGHT=0.1
-CATEGORY=Quest
-SUBSECTION=Twisted Weald
-DESCRIPTION=Eye of Sabrix
+Name=eye of Sabrix
+Type=tMeatRaw
+Value=100
+Weight=0.1
+Category=Quest
+Subsection=Twisted Weald
+Description=Eye of Sabrix
 //TEVENTS=e_timed_key
 ON=@Create
 COLOR=077c
 
-[ITEMDEF iFangGnaw]
+[ItemDef iFangGnaw]
 ID=iScorp
-NAME=Gnaw's fang
-TYPE=tBone
-VALUE=100
-WEIGHT=0.1
-CATEGORY=Quest
-SUBSECTION=Twisted Weald
-DESCRIPTION=Gnaw's Fang
+Name=Gnaw's fang
+Type=tBone
+Value=100
+Weight=0.1
+Category=Quest
+Subsection=Twisted Weald
+Description=Gnaw's Fang
 //TEVENTS=e_timed_key
 ON=@Create
 COLOR=04f4
 
-[ITEMDEF iBrainIrk]
+[ItemDef iBrainIrk]
 ID=iFleshBrain
-NAME=Irk's brain
-TYPE=tMeatRaw
+Name=Irk's brain
+Type=tMeatRaw
 TDATA1=iRibsCooked
-VALUE=100
-WEIGHT=0.2
-CATEGORY=Quest
-SUBSECTION=Twisted Weald
-DESCRIPTION=Irk's Brain
+Value=100
+Weight=0.2
+Category=Quest
+Subsection=Twisted Weald
+Description=Irk's Brain
 //TEVENTS=e_timed_key
 ON=@Create
 MOREM=2
 COLOR=0451
 
-[ITEMDEF iThornyBriar]
+[ItemDef iThornyBriar]
 ID=iPlantBrambles
-NAME=thorny briar
-TYPE=tGrass
-VALUE=100
-WEIGHT=0.2
-CATEGORY=Quest
-SUBSECTION=Twisted Weald
-DESCRIPTION=Thorny Briar
+Name=thorny briar
+Type=tGrass
+Value=100
+Weight=0.2
+Category=Quest
+Subsection=Twisted Weald
+Description=Thorny Briar
 //TEVENTS=e_timed_key
 ON=@Create
 COLOR=05b5
 
-[ITEMDEF iEssenceOfWind]
+[ItemDef iEssenceOfWind]
 ID=iBottle10
-NAME=Essence of Wind
-VALUE=100
-WEIGHT=0.1
-CATEGORY=Quest
-SUBSECTION=Twisted Weald
-DESCRIPTION=Essence of Wind
+Name=Essence of Wind
+Value=100
+Weight=0.1
+Category=Quest
+Subsection=Twisted Weald
+Description=Essence of Wind
 ON=@Create
 COLOR=0481
 ON=@DClick
 //1075213//"The master of this realm has already been summoned and is engaged in combat. Your opportunity will come after he has squashed the current batch of intruders."
-IF (<SRC.REGION.DEFNAME>==a_twisted_weald) || (<SRC.REGION.DEFNAME>==a_dreadhorn_isle)
+IF (<SRC.REGION.DefName>==a_twisted_weald) || (<SRC.REGION.DefName>==a_dreadhorn_isle)
 IF (<SRC.ISINPARTY>)
 FOR 0 <EVAL <SRC.PARTY.MEMBERS>-1>
-IF (<SRC.PARTY.MEMBER.<LOCAL._FOR>.REGION.DEFNAME>==a_twisted_weald)
+IF (<SRC.PARTY.MEMBER.<LOCAL._FOR>.REGION.DefName>==a_twisted_weald)
 OBJ=<SRC.PARTY.MEMBER.<LOCAL._FOR>.UID>
 IF (<OBJ>!=<SRC>)
 OBJ.GO 2151,1261,-60,2

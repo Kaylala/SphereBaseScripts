@@ -1,0 +1,55 @@
+// Where is the Trophy head?
+
+
+[ItemDef 03156]
+DefName=iMangledHeadOfDreadHorn
+Name=Mangled Head of Dread Horn
+Type=tNormal
+Can=CanIStack
+Weight=20
+DupeList=03157
+
+Category=Quest
+Subsection=Twisted Weald
+Description=Mangled Head of Dread Horn
+
+[ItemDef 03157]
+//mangled dread horn
+DupeItem=03156
+
+
+[ItemDef 0315a]
+DefName=iPristineDreadHorn
+Name=pristine dread horn
+Type=tNormal
+Can=CanIStack
+Value=2000
+Weight=20
+DupeList=0315b
+
+Category=Quest
+Subsection=Twisted Weald
+Description=Pristine Dread Horn Head
+
+[ItemDef 0315b]
+//pristine dread horn
+DupeItem=0315a
+
+
+[ItemDef 0315c]
+DefName=iHornOfTheDread
+Name=horn of Dread Horn
+Type=tNormal
+Can=CanIStack
+Weight=10
+DupeList=0315d
+
+Category=Quest
+Subsection=Twisted Weald
+Description=Dread Horn Horn
+
+[ItemDef 0315d]
+DupeItem=0315c
+
+
+[EOF]

@@ -1,0 +1,118 @@
+///////////////
+// Rare Gems //
+///////////////
+
+
+[ItemDef 03192]
+DefName=iDarkSapphire
+Name=dark sapphire%s
+Type=tGem
+Can=CanIStack
+Weight=0.1
+Value=100
+TEvents=tIngredient
+
+Category=Resources
+Subsection=Gems: Rare
+Description=Dark Sapphire
+
+
+[ItemDef 03193]
+DefName=iTurquoise
+Name=turquoise%s
+Type=tGem
+Can=CanIStack
+Weight=0.1
+Value=100
+TEvents=tIngredient
+
+Category=Resources
+Subsection=Gems: Rare
+Description=Turquoise
+
+
+[ItemDef 03194]
+DefName=iPerfectEmerald
+Name=perfect emerald%s
+Type=tGem
+Can=CanIStack
+Weight=0.1
+Value=100
+TEvents=tIngredient
+
+Category=Resources
+Subsection=Gems: Rare
+Description=Perfect Emerald
+
+
+[ItemDef 03195]
+DefName=iEcruCitrine
+Name=ecru citrine%s
+Type=tGem
+Can=CanIStack
+Weight=0.1
+Value=100
+TEvents=tIngredient
+
+Category=Resources
+Subsection=Gems: Rare
+Description=Ecru Citrine
+
+
+[ItemDef 03196]
+DefName=iWhitePearl
+Name=white pearl%s
+Type=tGem
+Can=CanIStack
+Weight=0.1
+Value=100
+TEvents=tIngredient
+
+Category=Resources
+Subsection=Gems: Rare
+Description=White Pearl
+
+
+[ItemDef 03197]
+DefName=iFireRuby
+Name=fire ruby
+Type=tGem
+Can=CanIStack
+Weight=0.1
+Value=100
+TEvents=tIngredient
+
+Category=Resources
+Subsection=Gems: Rare
+Description=Fire Ruby
+
+
+[ItemDef 03198]
+DefName=iBlueDiamond
+Name=blue diamond%s
+Type=tGem
+Can=CanIStack
+Weight=0.1
+Value=100
+TEvents=tIngredient
+
+Category=Resources
+Subsection=Gems: Rare
+Description=Blue Diamond
+
+
+[ItemDef 03199]
+DefName=iBrilliantAmber
+Name=brilliant amber%s
+Type=tGem
+Can=CanIStack
+Weight=0.1
+Value=100
+TEvents=tIngredient
+
+Category=Resources
+Subsection=Gems: Rare
+Description=Brilliant Amber
+
+
+[EOF]
