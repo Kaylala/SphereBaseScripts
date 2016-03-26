@@ -5,6 +5,7 @@ LayerHalfApron=LayerBelt
 LayerShoes=LayerFootwear
 LayerGloves=LayerHands
 LayerHorns=LayerHair
+LayerFacialHair=LayerFacial
 LayerFacialHorns=LayerFacial
 LayerBeard=LayerFacial
 LayerBackpack=LayerPack
@@ -51,6 +52,11 @@ iShepherdsCrook=iShepheardsCrook1
 iWand=cWard1
 
 iEmptyBottle=iEmptyBottle1
+iTopknotHairstyle=iKrisnaHairstyle
+iElfLongHairstyle=iElfLongHairstyle1
+iElfTopknotHairstyle=iElfLongBigKnobHairstyle
+iElfBraidHairstyle=iElfLongBigBraidHairstyle
+iElfBunHairstyle=iElfLongBigBunHairstyle
 
 iElvenShirtGrey=iElvenShirt1
 iGreyElvenShirtGrey=iElvenShirt1

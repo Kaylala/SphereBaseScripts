@@ -9,66 +9,66 @@ the DEFNAMEs below will eventually be converted to templates.
 
 
 /////////////////
-// Hair Styles //
+// Hairstyles //
 /////////////////
 
 
-[Template RandomHumanFemaleHairStyle]
+[Template RandomHumanFemaleHairstyle]
 Category=Templates: Generic
-Subsection=Hair Styles
+Subsection=Hairstyles
 Description=Human Female Hair Style (Random)
-Item={iShortHairStyle 1 iLongHairStyle 1 iPonytailHairStyle 1 iPageboyHairStyle 1 iBunsHairStyle 1 iCurlyHairStyle 1 iRecedingHairStyle 1 iPigtailsHairStyle 1 iTopknotHairStyle 1 0 1}
+Item={iShortHairstyle 1 iLongHairstyle 1 iPonyTailHairstyle 1 iPageboyHairstyle 1 iBunsHairstyle 1 iCurlyHairstyle 1 iRecedingHairstyle 1 iPigTailsHairstyle 1 iKrisnaHairstyle 1 0 1}
 
 
-[Template RandomHumanMaleHairStyle]
+[Template RandomHumanMaleHairstyle]
 Category=Templates: Generic
-Subsection=Hair Styles
+Subsection=Hairstyles
 Description=Human Male Hair Style (Random)
-Item={iShortHairStyle 1 iLongHairStyle 1 iPonytailHairStyle 1 iMohawkHairStyle 1 iPageboyHairStyle 1 iCurlyHairStyle 1 iRecedingHairStyle 1 iPigtailsHairStyle 1 iTopknotHairStyle 1 0 1}
+Item={iShortHairstyle 1 iLongHairstyle 1 iPonyTailHairstyle 1 iMohawkHairstyle 1 iPageboyHairstyle 1 iCurlyHairstyle 1 iRecedingHairstyle 1 iPigTailsHairstyle 1 iKrisnaHairstyle 1 0 1}
 
 
-[Template RandomElfFemaleHairStyle]
+[Template RandomElfFemaleHairstyle]
 Category=Templates: Generic
-Subsection=Hair Styles
+Subsection=Hairstyles
 Description=Elf Female Hair Style (Random)
-Item={ i_hair_elven_ml 1 i_hair_long_feather 1 i_hair_short1 1 i_hair_elven_flower 1 i_hair_elven_long 1 i_hair_elven_topknot 1 i_hair_elven_braid 1 i_hair_elven_buns 1 0 1}
+Item={iElfMidLongHairstyle 1 iElfLongFeatherHairstyle 1 iElfShortHairstyle 1 iiElfFlowerHairstyle 1 iElfLongHairstyle1 1 iElfLongBigKnobHairstyle 1 iElfLongBigBraidHairstyle 1 iElfLongBigBunHairstyle 1 0 1}
 
 
-[Template RandomElfMaleHairStyle]
+[Template RandomElfMaleHairstyle]
 Category=Templates: Generic
-Subsection=Hair Styles
+Subsection=Hairstyles
 Description=Elf Male Hair Style (Random)
-Item={ iElfMidLongHairStyle 1 iElfLongFeatherHairStyle 1 iElfShortHairStyle 1 iElfMulletHairStyle 1 iElfLongHairStyle 1 iElfTopknotHairStyle 1 iElfSpikeHairStyle 1 0 1}
+Item={iElfMidLongHairstyle 1 iElfLongFeatherHairstyle 1 iElfShortHairstyle 1 iElfMulletHairstyle 1 iElfLongHairstyle1 1 iElfLongBigKnobHairstyle 1 iElfSpikedHairstyle 1 iElfLongHairstyle2 1 0 1}
 
 
-[Template RandomFacialHairStyle]
+[Template RandomFacialHairstyle]
 Category=Templates: Generic
 Subsection=Facial Styles
 Description=Facial Hair Style (Random)
-Item={iLongBeard 1 iShortBeard 1 iGoatee 1 iMustache 1 iShortMediumBeard 1 iLongMediumBeard 1 iVandyke 1 0 1}
+Item={iLongBeard 1 iShortBeard 1 iGoatee 1 iMustache 1 iMediumShortBeard 1 iMediumLongBeard 1 iVandyke 1 0 1}
 
 
 [Template RandomGargoyleMaleHornStyle]
 Defname=RandomMaleHornStyle
 Category=Templates: Generic
-Subsection=Hair Styles
+Subsection=Hairstyles
 Description=Gargoyle Male Horn Styles (Random)
-Item={iGargoyleMaleHornStyle1 1 iGargoyleMaleHornStyle2 1 iGargoyleMaleHornStyle3 1 iGargoyleMaleHornStyle4 1 iGargoyleMaleHornStyle5 1 iGargoyleMaleHornStyle6 1 iGargoyleMaleHornStyle7 1 iGargoyleMaleHornStyle8 1}
+Item={iGargoyleMaleHornStyle1 1 iGargoyleMaleHornStyle2 1 iGargoyleMaleHornStyle3 1 iGargoyleMaleHornStyle4 1 iGargoyleMaleHornStyle5 1 iGargoyleMaleHornStyle6 1 iGargoyleMaleHornStyle7 1 iGargoyleMaleHornStyle8 1 0 1}
 
 
 [Template RandomFacialHornStyle]
 Category=Templates: Generic
 Subsection=Facial Styles
 Description=Facial Horn Style (Random)
-Item={iGargoyleFacialHornStyle1 1 iGargoyleFacialHornStyle2 1 iGargoyleFacialHornStyle3 1 iGargoyleFacialHornStyle4 1}
+Item={iGargoyleFacialHornStyle1 1 iGargoyleFacialHornStyle2 1 iGargoyleFacialHornStyle3 1 iGargoyleFacialHornStyle4 1 0 1}
 
 
 [Template RandomGargoyleFemaleHornStyle]
 Defname=RandomFemaleHornStyle
 Category=Templates: Generic
-Subsection=Hair Styles
+Subsection=Hairstyles
 Description=Gargoyle Female Horn Style (Random)
-Item={iGargoyleFemaleHornStyle1 1 iGargoyleFemaleHornStyle2 1 iGargoyleFemaleHornStyle3 1 iGargoyleFemaleHornStyle4 1 iGargoyleFemaleHornStyle5 1 iGargoyleFemaleHornStyle6 1 iGargoyleFemaleHornStyle7 1 iGargoyleFemaleHornStyle8 1}
+Item={iGargoyleFemaleHornStyle1 1 iGargoyleFemaleHornStyle2 1 iGargoyleFemaleHornStyle3 1 iGargoyleFemaleHornStyle4 1 iGargoyleFemaleHornStyle5 1 iGargoyleFemaleHornStyle6 1 iGargoyleFemaleHornStyle7 1 iGargoyleFemaleHornStyle8 1 0 1}
 
 
 //////////////

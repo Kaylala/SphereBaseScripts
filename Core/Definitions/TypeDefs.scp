@@ -79,7 +79,10 @@ tActiveAnimation			58 // active anim that will recycle when done.
 tSand						59 // sand on the beach
 tCloth						60 // bolt or folded cloth
 tHair						61 //
+tHorns						tHair
 tBeard						62 // just for grouping purposes.
+tFacialHair					tBeard
+tFacialHorns				tBeard
 tIngot						63 // ingot.
 tCoin						64 // coin of some sort. gold or otherwise.
 tCrops						65 // a plant that will regrow. picked type.

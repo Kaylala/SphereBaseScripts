@@ -20,11 +20,44 @@ If (<Cont.NPC>)	// Non-players don't have hair growth.
 EndIf
 
 Local.Hair=<Cont.FindLayer.LayerHair.UID>
-Serv.NewItem <TData4>,1
-New.More=1
-New.Color=<Cont.FindLayer.LayerHair.Color>
-New.Equip <Cont.UID>
-Remove <Local.Hair>
+If (<TData4>)
+ Serv.NewItem <TData4>,1
+ New.More=1
+ New.Color=<Cont.FindLayer.LayerHair.Color>
+ New.Equip <Cont.UID>
+ Remove <Local.Hair>
+ElIf !(<TData4>)
+ Remove <Local.Hair>
+EndIf
+Return 1
+
+
+[TypeDef tBeard]
+On=@Create
+Attr |= AttrNewbie
+Timer=-1	// Change this if you want hair to grow.
+More=1		// What is this doing?
+
+On=@Timer
+If !(<Cont>)	// On ground
+ Remove <UID>
+ Return 1
+EndIf
+
+If (<Cont.NPC>)	// Non-players don't have hair growth.
+ Return 1
+EndIf
+
+Local.Hair=<Cont.FindLayer.LayerFacial.UID>
+If (<TData4>)
+ Serv.NewItem <TData4>,1
+ New.More=1
+ New.Color=<Cont.FindLayer.LayerFacial.Color>
+ New.Equip <Cont.UID>
+ Remove <Local.Hair>
+ElIf !(<TData4>)
+ Remove <Local.Hair>
+EndIf
 Return 1
 
 

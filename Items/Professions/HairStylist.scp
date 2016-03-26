@@ -1,0 +1,889 @@
+[Comment Hair Stylist Items]
+
+This file contains:
+
+* tools used by Hair Stylists
+* decoration found in babershops
+* items of Type tHair and tBeard for both human and gargoyle
+* Hair growth is turned off by default and can be adjusted to work again in the Core/TypeDefs/TypeDefs.scp.
+
+
+[ItemDef 0dfc]
+DefName=iBarberScissors
+Name=barber scissors
+NameLoc=1023580
+Type=tScissors
+Weight=1
+DupeList=0dfd
+
+Category=Professions
+Subsection=Hair Stylist: Miscellaneous
+Description=Hair Stylist Scissors
+
+[ItemDef 0dfd]
+NameLoc=1023581
+DupeItem=0dfc
+
+
+[ItemDef 0dfe]
+DefName=iCutHair
+Name=cut hair
+NameLoc=1023582
+Type=tNormal
+Weight=1
+
+Category=Professions
+Subsection=Hair Stylist: Miscellaneous
+Description=Cut Hair
+
+
+[ItemDef 0dff]
+DefName=iWig1
+Name=wig
+NameLoc=1023583
+Weight=1
+DupeList=0E00
+
+Category=Professions
+Subsection=Hair Stylist: Wigs
+Description=Wig
+
+[ItemDef 0e00]
+NameLoc=1023584
+DupeItem=0DFF
+
+
+[ItemDef 0e01]
+DefName=iWig2
+Name=wig
+NameLoc=1023585
+Weight=1
+DupeList=0E02
+
+Category=Professions
+Subsection=Hair Stylist: Wigs
+Description=Wig
+
+[ItemDef 0e02]
+NameLoc=1023586
+DupeItem=0E01
+
+[ItemDef 0e03]
+DefName=iWig3
+Name=wig
+NameLoc=1023587
+Weight=1
+DupeList=0E04
+
+Category=Professions
+Subsection=Hair Stylist: Wigs
+Description=Wig
+
+[ItemDef 0e04]
+NameLoc=1023588
+DupeItem-0E03
+
+[ItemDef 0e05]
+DefName=iWigStand1
+Name=wig stand
+NameLoc=1023589
+Weight=255
+DupeList=0E06
+
+Category=Professions
+Subsection=Hair Stylist: Wigs
+Description=Wig Stand
+
+[ItemDef 0e06]
+NameLoc=1023590
+DupeItem=0E05
+
+[ItemDef 0e07]
+DefName=iWigStand2
+Name=wig stand
+NameLoc=1023591
+Weight=255
+DupeList=0E08
+
+Category=Professions
+Subsection=Hair Stylist: Wigs
+Description=Wig Stand
+
+[ItemDef 0e08]
+NameLoc=1023592
+DupeItem=0E07
+
+[ItemDef 0e09]
+DefName=iWig4
+Name=wig
+NameLoc=1023593
+Weight=1
+DupeList=0E0A
+
+Category=Professions
+Subsection=Hair Stylist: Wigs
+Description=Wig
+
+[ItemDef 0e0a]
+NameLoc=1023594
+DupeItem=0E09
+
+[ItemDef 0e0b]
+DefName=iWig5
+Name=wig
+NameLoc=1023595
+Weight=1
+DupeList=0E0C
+
+Category=Professions
+Subsection=Hair Stylist: Wigs
+Description=Wig
+
+[ItemDef 0e0c]
+NameLoc=1023596
+DupeItem=0E0B
+
+[ItemDef 0e0d]
+DefName=iWig6
+Name=wig
+NameLoc=1023597
+Weight=1
+DupeList=0E0E
+
+Category=Professions
+Subsection=Hair Stylist: Wigs
+Description=Wig
+
+[ItemDef 0e0e]
+NameLoc=1023598
+DupeItem=0E0D
+
+
+[ItemDef 0203b]
+DefName=iShortHairstyle
+Name=short hair
+Type=tHair
+TData4=iBunsHairstyle
+CanUse=CanUHuman
+Value={8 12}
+
+Category=Professions
+Subsection=Hair Stylist: Human Hairstyles
+Description=Short Hair
+
+
+[ItemDef 0203c]
+DefName=iLongHairstyle
+Name=long hair
+Type=tHair
+CanUse=CanUHuman
+Value={8 12}
+
+Category=Professions
+Subsection=Hair Stylist: Human Hairstyles
+Description=Long Hair
+
+
+[ItemDef 0203d]
+DefName=iPonyTailHairstyle
+Name=pony tail
+Type=tHair
+TData4=iLongHairstyle
+CanUse=CanUHuman
+Value={8 12}
+
+Category=Professions
+Subsection=Hair Stylist: Human Hairstyles
+Description=Pony Tail
+
+
+[ItemDef 0203E]
+DefName=iLongBeard
+Name=long beard
+Type=tBeard
+CanUse=CanUHuman
+Value={8 12}
+
+Category=Professions
+Subsection=Hair Stylist: Human Facial Hair
+Description=Long Beard
+
+
+[ItemDef 0203F]
+DefName=iShortBeard
+Name=short beard
+Type=tBeard
+TData4=iLongBeard
+CanUse=CanUHuman
+Value={8 12}
+
+Category=Professions
+Subsection=Hair Stylist: Human Facial Hair
+Description=Short Beard
+
+
+[ItemDef 02040]
+DefName=iGoatee
+Name=goatee
+Type=tBeard
+TData4=iShortBeard
+CanUse=CanUHuman
+Value={8 12}
+
+Category=Professions
+Subsection=Hair Stylist: Human Facial Hair
+Description=Goatee
+
+
+[ItemDef 02041]
+DefName=iMustache
+Name=mustache
+Type=tBeard
+TData4=iGoatee
+CanUse=CanUHuman
+Value={8 12}
+
+Category=Professions
+Subsection=Hair Stylist: Human Facial Hair
+Description=Mustache
+
+
+[ItemDef 02044]
+DefName=iMohawkHairstyle
+Name=mohawk
+Type=tHair
+TData4=iShortHairstyle
+CanUse=CanUHuman
+Value={8 12}
+
+Category=Professions
+Subsection=Hair Stylist: Human Hairstyles
+Description=Mohawk
+
+
+[ItemDef 02045]
+DefName=iPageboyHairstyle
+Name=pageboy
+Type=tHair
+TData4=iBunsHairstyle
+CanUse=CanUHuman
+Value={8 12}
+
+Category=Professions
+Subsection=Hair Stylist: Human Hairstyles
+Description=Pageboy
+
+
+[ItemDef 02046]
+DefName=iBunsHairstyle
+Name=buns hair
+Type=tHair
+TData4=iCurlyHairstyle
+CanUse=CanUHuman
+Value={8 12}
+
+Category=Professions
+Subsection=Hair Stylist: Human Hairstyles
+Description=Buns Hair
+
+
+[ItemDef 02047]
+DefName=iCurlyHairstyle
+Name=curly hair
+Type=tHair
+TData4=iLongHairstyle
+CanUse=CanUHuman
+Value={8 12}
+
+Category=Professions
+Subsection=Hair Stylist: Human Hairstyles
+Description=Curly
+
+
+[ItemDef 02048]
+DefName=iRecedingHairstyle
+Name=receding hair
+Type=tHair
+TData4=0
+CanUse=CanUHuman
+Value={8 12}
+
+Category=Professions
+Subsection=Hair Stylist: Human Hairstyles
+Description=Receding
+
+
+[ItemDef 02049]
+DefName=iPigTailsHairstyle
+Name=pig tails hair
+Type=tHair
+TData4iLongHairstyle
+CanUse=CanUHuman
+Value={8 12}
+
+Category=Professions
+Subsection=Hair Stylist: Human Hairstyles
+Description=Pig Tails
+
+
+[ItemDef 0204A]
+DefName=iKrisnaHairstyle
+Name=krisna hair
+Type=tHair
+CanUse=CanUHuman
+Value={8 12}
+
+Category=Professions
+Subsection=Hair Stylist: Human Hairstyles
+Description=Krisna (Topknot)
+
+
+[ItemDef 0204b]
+DefName=iMediumShortBeard
+Name=medium short beard
+Type=tBeard
+TData4=iMediumLongBeard
+CanUse=CanUHuman
+Value={8 12}
+
+Category=Professions
+Subsection=Hair Stylist: Human Facial Hair
+Description=Medium Short Beard
+
+
+[ItemDef 0204c]
+DefName=iMediumLongBeard
+Name=Long Beard & Mustache
+Type=tBeard
+CanUse=CanUHuman
+Value={8 12}
+
+Category=Professions
+Subsection=Hair Stylist: Human Facial Hair
+Description=Medium Long Beard
+
+
+[ItemDef 0204d]
+DefName=iVandyke
+Name=vandyke
+Type=tBeard
+TData4=iMediumLongBeard
+CanUse=CanUHuman
+Value={8 12}
+
+Category=Professions
+Subsection=Hair Stylist: Human Facial Hair
+Description=Vandyke
+
+
+[ItemDef 02fbf]
+DefName=iElfMidLongHairstyle
+Name=mid-long hair
+Type=tHair
+Value=16
+CanUse=CanUElf
+
+Category=Professions
+Subsection=Hair Stylist: Elf Hairstyles
+Description=Mid-Mong Hair
+
+
+[ItemDef 02fc0]
+DefName=iElfLongFeatherHairstyle
+Name=long feather hair
+Type=tHair
+Value=24
+CanUse=CanUElf
+
+Category=Professions
+Subsection=Hair Stylist: Elf Hairstyles
+Description=Long Feather
+
+
+[ItemDef 02fc1]
+DefName=iElfShortHairstyle
+Name=short hair
+Type=tHair
+Value=12
+CanUse=CanUElf
+
+Category=Professions
+Subsection=Hair Stylist: Elf Hairstyles
+Description=Short Hair
+
+
+[ItemDef 02fc2]
+DefName=iELfMulletHairstyle
+Name=Mullet
+Type=tHair
+Value=10
+CanUse=CanUElf
+
+Category=Professions
+Subsection=Hair Stylist: Elf Hairstyles
+Description=Mullet Hair
+
+
+[ItemDef 02fcc]
+DefName=iElfFlowerHairstyle
+Name=flower hair
+Type=tHair
+Value=22
+CanUse=CanUElf
+
+Category=Professions
+Subsection=Hair Stylist: Elf Hairstyles
+Description=Flower Hair
+
+
+[ItemDef 02fcd]
+DefName=iElfLongHairstyle1
+Name=Long
+Type=tHair
+Value=17
+CanUse=CanUElf
+
+Category=Professions
+Subsection=Hair Stylist: Elf Hairstyles
+Description=Long Hair
+
+
+[ItemDef 02fce]
+DefName=iElfLongBigKnobHairstyle
+Name=long big knob hairstyle
+Type=tHair
+Value=23
+CanUse=CanUElf
+
+Category=Professions
+Subsection=Hair Stylist: Elf Hairstyles
+Description=Long Big-Knob Hair (Topknot)
+
+
+[ItemDef 02fcf]
+DefName=iElfLongBigBraidHairstyle
+Name=long big braid hairstyle
+Type=tHair
+Value=25
+CanUse=CanUElf
+
+Category=Professions
+Subsection=Hair Stylist: Elf Hairstyles
+Description=Long Big Braid Hair
+
+
+[ItemDef 02fd0]
+DefName=iElfLongBigBunHairstyle
+Name=long big bun hairstyle
+Type=tHair
+Value=27
+CanUse=CanUElf
+
+Category=Professions
+Subsection=Hair Stylist: Elf Hairstyles
+Description=Long Big Bun Hair
+
+
+[ItemDef 02fd1]
+DefName=iElfSpikedHairstyle
+Name=spiked hair
+Type=tHair
+Value=29
+CanUse=CanUElf
+
+Category=Professions
+Subsection=Hair Stylist: Elf Hairstyles
+Description=Spiked Hair
+
+
+[ItemDef 02fd2]
+DefName=iElgLongHairstyle2
+Name=long hair
+Type=tHair
+Value=19
+CanUse=CanUElf
+
+Category=Professions
+Subsection=Hair Stylist: Elf Hairstyles
+Description=Long Hair (2)
+
+
+///////////////
+// Gargoyles //
+///////////////
+
+
+[ItemDef 04258]
+DefName=iGargoyleMaleHornStyle1
+Name=male gargoyle horns
+Type=tHair
+CanUse=CanUMale|CanUGargoyle
+Value=8
+
+Category=Professions
+Subsection=Hair Stylist: Gargoyle Male Horns
+Description=Male Horns 1
+
+
+[ItemDef 04259]
+DefName=iGargoyleMaleHornStyle2
+Name=male gargoyle horns
+Type=tHair
+CanUse=CanUMale|CanUGargoyle
+Value=8
+
+Category=Professions
+Subsection=Hair Stylist: Gargoyle Male Horns
+Description=Male Horns 2
+
+
+[ItemDef 0425a]
+DefName=iGargoyleMaleHornStyle3
+Name=male gargoyle horns
+Type=tHair
+CanUse=CanUMale|CanUGargoyle
+Value=8
+
+Category=Professions
+Subsection=Hair Stylist: Gargoyle Male Horns
+Description=Male Horns 3
+
+
+[ItemDef 0425b]
+DefName=iGargoyleMaleHornStyle4
+Name=male gargoyle horns
+Type=tHair
+CanUse=CanUMale|CanUGargoyle
+Value=8
+
+Category=Professions
+Subsection=Hair Stylist: Gargoyle Male Horns
+Description=Male Horns 4
+
+
+[ItemDef 0425c]
+DefName=iGargoyleMaleHornStyle5
+Name=male gargoyle horns
+Type=tHair
+CanUse=CanUMale|CanUGargoyle
+Value=8
+
+Category=Professions
+Subsection=Hair Stylist: Gargoyle Male Horns
+Description=Male Horns 5
+
+
+[ItemDef 0425d]
+DefName=iGargoyleMaleHornStyle6
+Name=male gargoyle horns
+Type=tHair
+CanUse=CanUMale|CanUGargoyle
+Value=8
+
+Category=Professions
+Subsection=Hair Stylist: Gargoyle Male Horns
+Description=Male Horns 6
+
+
+[ItemDef 0425e]
+DefName=iGargoyleMaleHornStyle7
+Name=male gargoyle horns
+Type=tHair
+CanUse=CanUMale|CanUGargoyle
+Value=8
+
+Category=Professions
+Subsection=Hair Stylist: Gargoyle Male Horns
+Description=Male Horns 7
+
+
+[ItemDef 0425f]
+DefName=iGargoyleMaleHornStyle8
+Name=male gargoyle horns
+Type=tHair
+CanUse=CanUMale|CanUGargoyle
+Value=8
+
+Category=Professions
+Subsection=Hair Stylist: Gargoyle Male Horns
+Description=Male Horns 8
+
+
+[ItemDef 04261]
+DefName=iGargoyleFemaleHornStyle1
+Name=female gargoyle horns
+Type=tHair
+CanUse=CanUFemale|CanUGargoyle
+Value=8
+
+Category=Professions
+Subsection=Hair Stylist: Gargoyle Female Horns
+Description=Female Horns 1
+
+
+[ItemDef 04262]
+DefName=iGargoyleFemaleHornStyle2
+Name=female gargoyle horns
+Type=tHair
+CanUse=CanUFemale|CanUGargoyle
+Value=8
+
+Category=Professions
+Subsection=Hair Stylist: Gargoyle Female Horns
+Description=Female Horns 2
+
+
+[ItemDef 04273]
+DefName=iGargoyleFemaleHornStyle3
+Name=female gargoyle horns
+Type=tHair
+CanUse=CanUFemale|CanUGargoyle
+Value=8
+
+Category=Professions
+Subsection=Hair Stylist: Gargoyle Female Horns
+Description=Female Horns 3
+
+
+[ItemDef 04274]
+DefName=iGargoyleFemaleHornStyle4
+Name=female gargoyle horns
+Type=tHair
+CanUse=CanUFemale|CanUGargoyle
+Value=8
+
+Category=Professions
+Subsection=Hair Stylist: Gargoyle Female Horns
+Description=Female Horns 4
+
+
+[ItemDef 04275]
+DefName=iGargoyleFemaleHornStyle5
+Name=female gargoyle horns
+Type=tHair
+CanUse=CanUFemale|CanUGargoyle
+Value=8
+
+Category=Professions
+Subsection=Hair Stylist: Gargoyle Female Horns
+Description=Female Horns 5
+
+
+[ItemDef 042aa]
+DefName=iGargoyleFemaleHornStyle6
+Name=female gargoyle horns
+Type=tHair
+CanUse=CanUFemale|CanUGargoyle
+Value=8
+
+Category=Professions
+Subsection=Hair Stylist: Gargoyle Female Horns
+Description=Female Horns 6
+
+
+[ItemDef 042ab]
+DefName=iGargoyleFemaleHornStyle7
+Name=female gargoyle horns
+Type=tHair
+CanUse=CanUFemale|CanUGargoyle
+Value=8
+
+Category=Professions
+Subsection=Hair Stylist: Gargoyle Female Horns
+Description=Female Horns 7
+
+
+[ItemDef 042b1]
+DefName=iGargoyleFemaleHornStyle8
+Name=facial horns
+Type=tHair
+CanUse=CanUFemale|CanUGargoyle
+CanUse=CanUFemale|CanUGargoyle
+Value=8
+
+Category=Professions
+Subsection=Hair Stylist: Gargoyle Female Horns
+Description=Female Horns 8
+
+
+[ItemDef 042ad]
+DefName=iGargoyleFacialHornStyle1
+Name=facial horns
+Type=tBeard
+CanUse=CanUMale|CanUGargoyle
+Value=8
+
+Category=Professions
+Subsection=Hair Stylist: Gargoyle Facial Horns
+Description=Facial Horns 1
+
+
+[ItemDef 042ae]
+DefName=iGargoyleFacialHornStyle2
+Name=facial horns
+Type=tBeard
+CanUse=CanUMale|CanUGargoyle
+Value=8
+
+Category=Professions
+Subsection=Hair Stylist: Gargoyle Facial Horns
+Description=Facial Horns 2
+
+
+[ItemDef 042af]
+DefName=iGargoyleFacialHornStyle3
+Name=facial horns
+Type=tBeard
+CanUse=CanUMale|CanUGargoyle
+Value=8
+
+Category=Professions
+Subsection=Hair Stylist: Gargoyle Facial Horns
+Description=Facial Horns 3
+
+
+[ItemDef 042b0]
+DefName=iGargoyleFacialHornStyle4
+Name=facial horns
+Type=tBeard
+CanUse=CanUMale|CanUGargoyle
+Value=8
+
+Category=Professions
+Subsection=Hair Stylist: Gargoyle Facial Horns
+Description=Facial Horns 4
+
+
+//////////////////
+// Custom Items //
+//////////////////
+
+[ItemDef iNoFacialHair]
+ID=iEqMarker
+Name=None
+Type=tBeard
+TData4=iMustache
+CanUse=CanUHuman|CanUMale
+Layer=LayerBeard
+Value=10
+
+Category=Professions
+Subsection=Hair Stylist: Human Facial Hair
+Description=No Facial Hair (Optional)
+
+
+[ItemDef iNoFacialHorns]
+ID=iEqMarker
+Name=None
+Type=tBeard
+TData4=iGargoyleFacialHornStyle1
+CanUse=CanUGargoyle|CanUMale
+Layer=LayerBeard
+Value=10
+
+Category=Professions
+Subsection=Hair Stylist: Gargoyle Facial Horns
+Description=No Facial Horns (Optional)
+
+
+[ItemDef iNoHair]
+ID=iEqMarker
+Name=no hair (bald)
+Type=tHair
+TData4=iKrisnaHairstyle
+CanUse=CanUHuman
+Layer=LayerHair
+Value=10
+
+Category=Professions
+Subsection=Hair Stylist: Human Hairstyles
+Description=No Hair (Optional)
+
+
+[ItemDef iElfNoHair]
+ID=iEqMarker
+Name=no hair (bald)
+Type=tHair
+TData4=iElfShortHairstyle
+CanUse=CanUElf
+Layer=LayerHair
+Value=10
+
+Category=Professions
+Subsection=Hair Stylist: Elf Hairstyles
+Description=No Hair (Optional)
+
+
+[ItemDef iGargoyleMaleNoHorns]
+ID=iEqMarker
+Name=no horns
+Type=tHair
+TData4=iGargoyleMaleHornStyle1
+CanUse=CanUGargoyle|CanUMale
+Layer=LayerHair
+Value=10
+
+Category=Professions
+Subsection=Hair Stylist: Gargoyle Male Horns
+Description=No Horns (Optional)
+
+
+[ItemDef iGargoyleFemaleNoHorns]
+ID=iEqMarker
+Name=no horns
+Type=tHair
+TData4=iGargoyleFemaleHornStyle1
+CanUse=CanUGargoyle|CanUFemale
+Layer=LayerHair
+Value=10
+
+Category=Professions
+Subsection=Hair Stylist: Gargoyle Female Horns
+Description=No Horns (Optional)
+
+
+[ItemDef iHairDye]
+ID=0e27
+Name=hair dye
+Type=tHairDye
+Weight=1
+
+Category=Professions
+Subsection=Hair Stylist: Miscellaneous
+Description=Hair Dye
+
+
+// Horn Marker
+[ItemDef 04260]
+DefName=iGargoyleMaleHornMarker
+Name=gargoyle male horns marker
+Type=tNormal
+
+Category=Professions
+Subsection=Hair Stylist: Miscellaneous
+Description=Gargoyle Male Horns Marker
+
+
+// Horn Marker
+[ItemDef 04276]
+DefName=iGargoyleFemaleHornMarker
+Name=gargoyle female horns marker
+Type=tNormal
+
+Category=Professions
+Subsection=Hair Stylist: Miscellaneous
+Description=Gargoyle Female Horns Marker
+
+
+// Horn Marker
+[ItemDef 042ac]
+DefName=iGargoyleFacialHornMarker
+Name=gargoyle facial horns marker
+Type=tNormal
+
+Category=Professions
+Subsection=Hair Stylist: Miscellaneous
+Description=Gargoyle Facial Horns Marker
+
+
+[EOF]
