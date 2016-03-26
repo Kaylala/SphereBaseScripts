@@ -1,0 +1,111 @@
+[Comment notes]
+13th and 14th Anniversary Item.
+13th Anniversary this was attained by a gift ticket.
+
+There are three Grandfather Clocks total:
+* Small Grandfather Clock
+* Large Grandfather Clock
+* White Grandfather Clock
+
+Chimes every 5 minutes (Sosarian hour)
+At Noon and Midnight, it does an extended Chime.
+Animation activates when locked down.
+
+
+// Small Grandfather Clock (South)
+[ItemDef 044d5]
+DefName=iSmallGrandfatherClock
+Name=small grandfather clock
+Type=tClock
+Can=CanIFlip
+Weight=255
+//Height=5
+DupeList=044d9
+
+Category=Decorations
+Subsection=Grandfather Clock
+Description=Small Grandfather Clock
+
+[ItemDef 044d6]
+
+[ItemDef 044d7]
+
+[ItemDef 044d8]
+
+// Small Grandfather Clock (East)
+[ItemDef 044d9]
+DupeItem=044d5
+
+[ItemDef 044da]
+
+[ItemDef 044db]
+
+[ItemDef 044dc]
+
+
+// Large Grandfather Clock (South)
+[ItemDef 044DD]
+DefName=iLargeGrandfatherClock
+Name=large grandfather clock
+Type=tClock
+Can=CanIFlip
+Weight=255
+//Height=5
+DupeList=044E1
+
+Category=Decorations
+Subsection=Grandfather Clock
+Description=Large Grandfather Clock
+
+[ItemDef 044de]
+//grandfather clock 2 (animation frame)
+
+[ItemDef 044df]
+//grandfather clock 2 (animation frame)
+
+[ItemDef 044e0]
+//grandfather clock 2 (animation frame)
+
+// Large Grandfather Clock (East)
+[ItemDef 044e1]
+DupeItem=044dd
+
+[ItemDef 044e2]
+
+[ItemDef 044e3]
+
+[ItemDef 044e4]
+
+
+// White Grandfather Clock (South)
+[ItemDef 048D4]
+DefName=iWhiteGrandfatherClock
+Name=white grandfather clock
+Type=tClock
+Can=CanIFlip
+Weight=255
+//Height=5
+DupeList=048D8
+
+Category=Decorations
+Subsection=Grandfather Clock
+Description=White Grandfather Clock
+
+[ItemDef 048D5]
+
+[ItemDef 048D6]
+
+[ItemDef 048D7]
+
+// White Grandfather Clock (East)
+[ItemDef 048D8]
+DupeItem=048D4
+
+[ItemDef 048D9]
+
+[ItemDef 048DA]
+
+[ItemDef 048DB]
+
+
+[EOF]

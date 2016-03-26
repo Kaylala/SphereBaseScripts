@@ -3342,43 +3342,6 @@ DupeList=0469c
 DupeItem=0469b
 
 
-[ItemDef 048d4]
-DefName=iGrandfatherClock3
-Name=grandfather clock
-Type=tClock
-FLIP=1
-VALUE=44
-Weight=9.2
-Resources=1 iClockFrame,1 iParchment,10 iBoard,1 i_clock_parts
-SkillMake=Tinkering 90.7,tTinkerTools
-Category=Items by Professions
-Subsection=Tinker
-Description=Grandfather Clock 3
-DupeList=048d8
-
-[ItemDef 048d5]
-//grandfather clock (animation frame)
-
-[ItemDef 048d6]
-//grandfather clock (animation frame)
-
-[ItemDef 048d7]
-//grandfather clock (animation frame)
-
-[ItemDef 048d8]
-//grandfather clock
-DupeItem=048d4
-
-[ItemDef 048d9]
-//grandfather clock (animation frame)
-
-[ItemDef 048da]
-//grandfather clock (animation frame)
-
-[ItemDef 048db]
-//grandfather clock (animation frame)
-
-
 [ItemDef 04b44]
 //FIXME: Magic fishhook allows a fishing rod to fish from lava
 DefName=iFishhookMagic
