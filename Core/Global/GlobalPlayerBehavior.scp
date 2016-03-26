@@ -23,5 +23,22 @@ ElIf (<Src.IsFemale>) && !(<CanUse> &CanUFemale)
 EndIf
 
 
+On=@ItemPickUp_Ground
+If (<Act.Amount> == 1) && (<Act.Weight> == 255)
+ Return 1
+EndIf
+
+
+On=@ItemPickUp_Self
+If (<ArgO.Amount> == 1) && (<ArgO.Weight> == 255)
+ Return 1
+EndIf
+
+
+On=@ItemPickUp_Pack
+If (<Act.Amount> == 1) && (<Act.Weight> == 255)
+ Return 1
+EndIf
+
 
 [EOF]

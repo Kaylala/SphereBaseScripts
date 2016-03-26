@@ -7,7 +7,7 @@ Else
  If (<DispID> <= 16381)
   Src.AddCliLoc <Eval (1020000 + <DispIDDec>)>
  Else
-  Src.AddCliLoc <Eval (1050000 + <DispIDDec>)>	// Still need proper val
+  Src.AddCliLoc <Eval (1078872 + <DispIDDec>)>	// Still need proper val
 EndIf
 
 
@@ -48,7 +48,9 @@ EndIf
 
 
 [Function WeightCliLoc]
-Src.AddCliLoc <QVal (<Weight> > 1) ? 1072789 : 1072788>,<FVal <Weight>>
+If (<Amount> > 1) && (<Weight> != 255) 
+ Src.AddCliLoc <QVal (<Weight> > 1) ? 1072789 : 1072788>,<FVal <Weight>>
+ EndIf
 
 
 [Function ArmorCliLoc]

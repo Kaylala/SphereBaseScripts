@@ -1,0 +1,96 @@
+///////////////////
+// Dragon Scales //
+///////////////////
+
+
+[ItemDef iBlackDragonScales]
+ID=
+Name=dragon scales
+Type=tDragonScales
+Can=CanIStack
+Weight=0.1
+
+Category=Resources
+Subsection=Dragon Scales
+Description=Dragon Scales (Black)
+
+On=@Create
+Color=BlackDragonScalesHue
+
+
+[ItemDef iBlueDragonScales]
+ID=
+Name=dragon scales
+Type=tDragonScales
+Can=CanIStack
+Weight=0.1
+
+Category=Resources
+Subsection=Dragon Scales
+Description=Dragon Scales (Blue)
+
+On=@Create
+Color=BlueDragonScalesHue
+
+
+[ItemDef iGreenDragonScales]
+ID=
+Name=dragon scales
+Type=tDragonScales
+Can=CanIStack
+Weight=0.1
+
+Category=Resources
+Subsection=Dragon Scales
+Description=Dragon Scales (Green)
+
+On=@Create
+Color=GreenDragonScalesHue
+
+
+[ItemDef iRedDragonScales]
+ID=
+Name=dragon scales
+Type=tDragonScales
+Can=CanIStack
+Weight=0.1
+
+Category=Resources
+Subsection=Dragon Scales
+Description=Dragon Scales (Red)
+
+On=@Create
+Color=RedDragonScalesHue
+
+
+[ItemDef iWhiteDragonScales]
+ID=
+Name=dragon scales
+Type=tDragonScales
+Can=CanIStack
+Weight=0.1
+
+Category=Resources
+Subsection=Dragon Scales
+Description=Dragon Scales (White)
+
+On=@Create
+Color=WhiteDragonScalesHue
+
+
+[ItemDef iYellowDragonScales]
+ID=
+Name=dragon scales
+Type=tDragonScales
+Can=CanIStack
+Weight=0.1
+
+Category=Resources
+Subsection=Dragon Scales
+Description=Dragon Scales (Yellow)
+
+On=@Create
+Color=YellowDragonScalesHue
+
+
+[EOF]
