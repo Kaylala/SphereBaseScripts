@@ -19,10 +19,12 @@ If (<Cont.NPC>)	// Non-players don't have hair growth.
  Return 1
 EndIf
 
+Local.Hair=<Cont.FindLayer.LayerHair.UID>
 Serv.NewItem <TData4>,1
 New.More=1
 New.Color=<Cont.FindLayer.LayerHair.Color>
 New.Equip <Cont.UID>
+Remove <Local.Hair>
 Return 1
 
 
