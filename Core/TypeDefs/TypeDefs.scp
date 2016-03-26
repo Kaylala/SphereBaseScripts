@@ -1,3 +1,6 @@
+[TypeDef tChickenCoop]
+
+
 // Every 150 Gold Coins is 1 stone. (This used to be every 50)
 [TypeDef tGold]
 On=DropOn_Item

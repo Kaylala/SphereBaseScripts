@@ -47,11 +47,21 @@ cRainbowHordeDaemon=cMultiColoredHordeDaemon
 
 // Items
 iLongsword=cLongsword1
-iCrook=cCrook1
+iShepherdsCrook=iShepheardsCrook1
 iWand=cWard1
 
+iEmptyBottle=iEmptyBottle1
+
 iElvenShirtGrey=iElvenShirt1
+iGreyElvenShirtGrey=iElvenShirt1
 iElvenShirtBrown=iElvenShirt2
+iBrownElvenShirtBrown=iElvenShirt2
+iRingmailTunic=iRingmailTunic1
+iRingmailSleeves=iRingmailSleeves1
+iRingmailLeggings=iRingmailLEggings1
+iChainmailTunic=iChainmailTunic1
+iChainmailLeggings=iChainmailLeggings1
+
 
 
 [FUNCTION AddNPC]
@@ -66,11 +76,10 @@ SYSMESSAGE <DEFMSG.cmd_invalid>
 INFO
 
 [FUNCTION brain] //by Darkandus
-IF (<ARGN>)
- NPC=<ARGN>
-ELSE
- return <NPC>
+IF !(<ARGN>)
+ Return <NPC>
 ENDIF
+NPC=<ARGN>
 
 [FUNCTION m]
 MOVE <ARGS>
@@ -101,6 +110,11 @@ ACT=<NEW>
 SOUND <ARGS>
 
 [FUNCTION music]
+IF (<ISPLAYER>)
+ MIDILIST <ARGS>
+ENDIF
+
+[FUNCTION midi]
 IF (<ISPLAYER>)
  MIDILIST <ARGS>
 ENDIF
