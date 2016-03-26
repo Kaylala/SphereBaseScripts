@@ -12,3953 +12,3718 @@
 VERSION=0.56c
 
 
-[ITEMDEF 091a]
-DEFNAME=iBeehive
-TYPE=tBeeHive
+[ItemDef 091a]
+DefName=iBeehive
+Type=tBeeHive
 VALUE=2
-WEIGHT=6
-CATEGORY=Items by Professions
-SUBSECTION=Beekeeper
-DESCRIPTION=Beehive
+Weight=6
+Category=Items by Professions
+Subsection=Beekeeper
+Description=Beehive
 
 
-[ITEMDEF 0b41]
-DEFNAME=iTroughWater
-TYPE=tWaterWash
+[ItemDef 0b41]
+DefName=iTroughWater
+Type=tWaterWash
 FLIP=1
 VALUE=163
-WEIGHT=129.4
-RESOURCES=15 iLog,4 iNails,4 iWireIron,10 i_pitcher_water
-SKILLMAKE=Carpentry 80.0,tCarpentry
-CATEGORY=Items by Professions
-SUBSECTION=Stablemaster
-DESCRIPTION=Water Trough (multi-part)
-DUPELIST=0b42,0b43,0b44
+Weight=129.4
+Resources=15 iLog,4 iNails,4 iWireIron,10 i_pitcher_water
+SkillMake=Carpentry 80.0,tCarpentry
+Category=Items by Professions
+Subsection=Stablemaster
+Description=Water Trough (multi-part)
+DupeList=0b42,0b43,0b44
 
-[ITEMDEF 0b42]
+[ItemDef 0b42]
 //water trough
-DUPEITEM=0b41
+DupeItem=0b41
 
-[ITEMDEF 0b43]
+[ItemDef 0b43]
 //water trough
-DUPEITEM=0b41
+DupeItem=0b41
 
-[ITEMDEF 0b44]
+[ItemDef 0b44]
 //water trough
-DUPEITEM=0b41
+DupeItem=0b41
 
 
-[ITEMDEF 0dbf]
-DEFNAME=iFishingPole
-TYPE=tFishPole
+[ItemDef 0dbf]
+DefName=iFishingPole
+Type=tFishPole
 DAM=10,11
 FLIP=1
 SKILL=Fencing
 SPEED=40
 VALUE=20
-WEIGHT=1.2
+Weight=1.2
 TWOHANDS=Y
-RESOURCES=1 iLogBamboo,1 iThread,1 iFishhook
-SKILLMAKE=Carpentry 68.4,tCarpentry
-CATEGORY=Items by Professions
-SUBSECTION=Fisherman
-DESCRIPTION=Fishing Pole
-DUPELIST=0dc0
+Resources=1 iLogBamboo,1 iThread,1 iFishhook
+SkillMake=Carpentry 68.4,tCarpentry
+Category=Items by Professions
+Subsection=Fisherman
+Description=Fishing Pole
+DupeList=0dc0
 
-[ITEMDEF 0dc0]
+[ItemDef 0dc0]
 //fishing pole
-DUPEITEM=0dbf
+DupeItem=0dbf
 
-[ITEMDEF 0dc8]
-DEFNAME=iFishingNet
-WEIGHT=14.0
-RESOURCES=10 iRope,10 iThread
-CATEGORY=Items by Professions
-SUBSECTION=Fisherman
-DESCRIPTION=Fishing Net
+[ItemDef 0dc8]
+DefName=iFishingNet
+Weight=14.0
+Resources=10 iRope,10 iThread
+Category=Items by Professions
+Subsection=Fisherman
+Description=Fishing Net
 
-[ITEMDEF 0dc9]
-DEFNAME=iFishingNet2
-WEIGHT=14.0
-RESOURCES=10 iRope,10 iThread
-CATEGORY=Items by Professions
-SUBSECTION=Fisherman
-DESCRIPTION=Fishing Net
+[ItemDef 0dc9]
+DefName=iFishingNet2
+Weight=14.0
+Resources=10 iRope,10 iThread
+Category=Items by Professions
+Subsection=Fisherman
+Description=Fishing Net
 
-[ITEMDEF 0dca]
-DEFNAME=iFishingNet3
-WEIGHT=14.0
-RESOURCES=10 iRope,10 iThread
-CATEGORY=Items by Professions
-SUBSECTION=Fisherman
-DESCRIPTION=Fishing Net
+[ItemDef 0dca]
+DefName=iFishingNet3
+Weight=14.0
+Resources=10 iRope,10 iThread
+Category=Items by Professions
+Subsection=Fisherman
+Description=Fishing Net
 
-[ITEMDEF 0dcb]
-DEFNAME=iFishingNet4
+[ItemDef 0dcb]
+DefName=iFishingNet4
 FLIP=1
-WEIGHT=14.0
-RESOURCES=10 iRope,10 iThread
-CATEGORY=Items by Professions
-SUBSECTION=Fisherman
-DESCRIPTION=Fishing Net
-DUPELIST=0dd0,0dd1,0dd2,0dd3,0dd4,0dd5
+Weight=14.0
+Resources=10 iRope,10 iThread
+Category=Items by Professions
+Subsection=Fisherman
+Description=Fishing Net
+DupeList=0dd0,0dd1,0dd2,0dd3,0dd4,0dd5
 
-[ITEMDEF 0dcc]
-DEFNAME=iFishingWeight
+[ItemDef 0dcc]
+DefName=iFishingWeight
 FLIP=1
 VALUE=5
-WEIGHT=1.0
-RESOURCES=1 iIngotIron
-SKILLMAKE=Tinkering 21.0,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Fisherman
-DESCRIPTION=Fishing Weight
-DUPELIST=0dcd,0dce,0dcf
+Weight=1.0
+Resources=1 iIngotIron
+SkillMake=Tinkering 21.0,tTinkerTools
+Category=Items by Professions
+Subsection=Fisherman
+Description=Fishing Weight
+DupeList=0dcd,0dce,0dcf
 
-[ITEMDEF 0dcd]
-//fishing weight
-DUPEITEM=0dcc
+[ItemDef 0dcd]
+//fishing Weight
+DupeItem=0dcc
 
-[ITEMDEF 0dce]
-//fishing weight
-DUPEITEM=0dcc
+[ItemDef 0dce]
+//fishing Weight
+DupeItem=0dcc
 
-[ITEMDEF 0dcf]
-//fishing weight
-DUPEITEM=0dcc
+[ItemDef 0dcf]
+//fishing Weight
+DupeItem=0dcc
 
-[ITEMDEF 0dd0]
+[ItemDef 0dd0]
 //fishing net
-DUPEITEM=0dcb
+DupeItem=0dcb
 
-[ITEMDEF 0dd1]
+[ItemDef 0dd1]
 //fishing net
-DUPEITEM=0dcb
+DupeItem=0dcb
 
-[ITEMDEF 0dd2]
+[ItemDef 0dd2]
 //fishing net
-DUPEITEM=0dcb
+DupeItem=0dcb
 
-[ITEMDEF 0dd3]
+[ItemDef 0dd3]
 //fishing net
-DUPEITEM=0dcb
+DupeItem=0dcb
 
-[ITEMDEF 0dd4]
+[ItemDef 0dd4]
 //fishing net
-DUPEITEM=0dcb
+DupeItem=0dcb
 
-[ITEMDEF 0dd5]
+[ItemDef 0dd5]
 //fishing net
-DUPEITEM=0dcb
+DupeItem=0dcb
 
 
-[ITEMDEF 0e20]
-DEFNAME=iBandageBloody
-TYPE=tBandageBlood
+[ItemDef 0e20]
+DefName=iBandageBloody
+Type=tBandageBlood
 VALUE=0
-WEIGHT=0.1
-RESOURCES=1 iBandage
-CATEGORY=Items by Professions
-SUBSECTION=Healer
-DESCRIPTION=Bloody Bandages
-DUPELIST=0e22
+Weight=0.1
+Resources=1 iBandage
+Category=Items by Professions
+Subsection=Healer
+Description=Bloody Bandages
+DupeList=0e22
 
-[ITEMDEF 0e21]
-DEFNAME=iBandage
-TYPE=tBandage
+[ItemDef 0e21]
+DefName=iBandage
+Type=tBandage
 VALUE=1
-WEIGHT=0.1
-RESOURCES=1 iCloth
-CATEGORY=Items by Professions
-SUBSECTION=Healer
-DESCRIPTION=Clean Bandages
-DUPELIST=0ee9
+Weight=0.1
+Resources=1 iCloth
+Category=Items by Professions
+Subsection=Healer
+Description=Clean Bandages
+DupeList=0ee9
 
-[ITEMDEF 0e22]
+[ItemDef 0e22]
 //bloody bandages
-DUPEITEM=0e20
+DupeItem=0e20
 
-[ITEMDEF 0e23]
-DEFNAME=iWaterBloody
-TYPE=tWaterWash
+[ItemDef 0e23]
+DefName=iWaterBloody
+Type=tWaterWash
 TDATA1=iBasin
-WEIGHT=12.1
-RESOURCES=1 iPitcherWater,1 iBasin
-CATEGORY=Items by Professions
-SUBSECTION=Healer
-DESCRIPTION=Bloody Water
+Weight=12.1
+Resources=1 iPitcherWater,1 iBasin
+Category=Items by Professions
+Subsection=Healer
+Description=Bloody Water
 
-[ITEMDEF 0e2d]
-DEFNAME=iCrystalBall
-TYPE=tCrystalBall
+[ItemDef 0e2d]
+DefName=iCrystalBall
+Type=tCrystalBall
 FLIP=1
-WEIGHT=3
-RESOURCES=2 iBoard,7 iCrystalShards
-SKILLMAKE=Tinkering 95.7,Alchemy 50.0,Mysticism 85.1,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Fortune Teller
-DESCRIPTION=Crystal Ball
-DUPELIST=0e2e,0e2f,0e30
+Weight=3
+Resources=2 iBoard,7 iCrystalShards
+SkillMake=Tinkering 95.7,Alchemy 50.0,Mysticism 85.1,tTinkerTools
+Category=Items by Professions
+Subsection=Fortune Teller
+Description=Crystal Ball
+DupeList=0e2e,0e2f,0e30
 
-[ITEMDEF 0e2e]
+[ItemDef 0e2e]
 //crystal ball
-DUPEITEM=0e2d
+DupeItem=0e2d
 
-[ITEMDEF 0e2f]
+[ItemDef 0e2f]
 //crystal ball
-DUPEITEM=0e2d
+DupeItem=0e2d
 
-[ITEMDEF 0e30]
+[ItemDef 0e30]
 //crystal ball
-DUPEITEM=0e2d
+DupeItem=0e2d
 
 
-[ITEMDEF 098a]
-DEFNAME=iWoodBoard
-RESOURCES=1 iLog
-CATEGORY=Items by Professions
-SUBSECTION=Carpenter
-DESCRIPTION=Wooden Boards
+[ItemDef 098a]
+DefName=iWoodBoard
+Resources=1 iLog
+Category=Items by Professions
+Subsection=Carpenter
+Description=Wooden Boards
 
 
-[ITEMDEF 0e9c]
-DEFNAME=iDrum
-TYPE=T_MUSICAL
+[ItemDef 0e9c]
+DefName=IDrum
+Type=T_MUSICAL
 TDATA1=038//sound when played well
 TDATA2=039//sound when played poorly
-WEIGHT=3
-RESOURCES=1 iHidesCut,5 iBoard
-SKILLMAKE=TINKERING 51.0,MUSICIANSHIP 65.0,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Bard
-DESCRIPTION=Drum
+Weight=3
+Resources=1 iHIDesCut,5 iBoard
+SkillMake=TINKERING 51.0,MUSICIANSHIP 65.0,tTinkerTools
+Category=Items by Professions
+Subsection=Bard
+Description=Drum
 
-ON=@Create
+On=@Create
 UsesMax={350 450}
 
-[ITEMDEF 0e9d]
-DEFNAME=iTambourine
-TYPE=T_MUSICAL
+[ItemDef 0e9d]
+DefName=iTambourine
+Type=T_MUSICAL
 TDATA1=052
 TDATA2=053
-WEIGHT=1
-RESOURCES=1 iIngotIron,2 iBoard
-SKILLMAKE=TINKERING 50.0,MUSICIANSHIP 65.0,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Bard
-DESCRIPTION=Tambourine
+Weight=1
+Resources=1 iIngotIron,2 iBoard
+SkillMake=TINKERING 50.0,MUSICIANSHIP 65.0,tTinkerTools
+Category=Items by Professions
+Subsection=Bard
+Description=Tambourine
 
-ON=@Create
+On=@Create
 UsesMax={350 450}
 
-[ITEMDEF 0e9e]
-DEFNAME=iTambourineTas
-TYPE=T_MUSICAL
+[ItemDef 0e9e]
+DefName=iTambourineTas
+Type=T_MUSICAL
 TDATA1=052
 TDATA2=053
-WEIGHT=1
-RESOURCES=1 iTambourine,1 iCloth
-SKILLMAKE=CARPENTRY 50.0,MUSICIANSHIP 65.0,tCarpentry
-CATEGORY=Items by Professions
-SUBSECTION=Bard
-DESCRIPTION=Tambourine Tassle
+Weight=1
+Resources=1 iTambourine,1 iCloth
+SkillMake=CARPENTRY 50.0,MUSICIANSHIP 65.0,tCarpentry
+Category=Items by Professions
+Subsection=Bard
+Description=Tambourine Tassle
 
-ON=@Create
+On=@Create
 UsesMax={350 450}
 
 
-[ITEMDEF 0eb1]
-DEFNAME=iHarpLarge
-TYPE=T_MUSICAL
+[ItemDef 0eb1]
+DefName=iHarpLarge
+Type=T_MUSICAL
 TDATA1=045
 TDATA2=046
-RESOURCES=10 iLog,4 iWireIron
-SKILLMAKE=TINKERING 56.5,MUSICIANSHIP 65.0,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Bard
-DESCRIPTION=Standing Harp
+Resources=10 iLog,4 iWireIron
+SkillMake=TINKERING 56.5,MUSICIANSHIP 65.0,tTinkerTools
+Category=Items by Professions
+Subsection=Bard
+Description=Standing Harp
 
-ON=@Create
+On=@Create
 UsesMax={350 450}
 
-[ITEMDEF 0eb2]
-DEFNAME=iLyre
-TYPE=T_MUSICAL
+[ItemDef 0eb2]
+DefName=iLyre
+Type=T_MUSICAL
 TDATA1=045
 TDATA2=046
-WEIGHT=10
-RESOURCES=7 iLog,2 iWireIron
-SKILLMAKE=TINKERING 54.0,MUSICIANSHIP 65.0,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Bard
-DESCRIPTION=Lap Harp
+Weight=10
+Resources=7 iLog,2 iWireIron
+SkillMake=TINKERING 54.0,MUSICIANSHIP 65.0,tTinkerTools
+Category=Items by Professions
+Subsection=Bard
+Description=Lap Harp
 
-ON=@Create
+On=@Create
 UsesMax={350 450}
 
-[ITEMDEF 0eb3]
-DEFNAME=iLute
-TYPE=T_MUSICAL
+[ItemDef 0eb3]
+DefName=iLute
+Type=T_MUSICAL
 TDATA1=04c
 TDATA2=04d
-WEIGHT=5
-RESOURCES=6 iLog,1 iWireIron
-SKILLMAKE=TINKERING 52.0,MUSICIANSHIP 65.0,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Bard
-DESCRIPTION=Lute
-DUPELIST=0eb4
+Weight=5
+Resources=6 iLog,1 iWireIron
+SkillMake=TINKERING 52.0,MUSICIANSHIP 65.0,tTinkerTools
+Category=Items by Professions
+Subsection=Bard
+Description=Lute
+DupeList=0eb4
 
-ON=@Create
+On=@Create
 UsesMax={350 450}
 
-[ITEMDEF 0eb4]
+[ItemDef 0eb4]
 //lute
-DUPEITEM=0eb3
+DupeItem=0eb3
 
-[ITEMDEF 0eb5]
-DEFNAME=iMusicStandBook
-NAME=music stand with sheet music
+[ItemDef 0eb5]
+DefName=iMusicStandBook
+Name=music stand with sheet music
 FLIP=1
-WEIGHT=5.0
-RESOURCES=15 iLog
-SKILLMAKE=CARPENTRY 78.9,tCarpentry
-CATEGORY=Items by Professions
-SUBSECTION=Bard
-DESCRIPTION=Music Stand (sheet music)
-DUPELIST=0eb7
+Weight=5.0
+Resources=15 iLog
+SkillMake=CARPENTRY 78.9,tCarpentry
+Category=Items by Professions
+Subsection=Bard
+Description=Music Stand (sheet music)
+DupeList=0eb7
 
-[ITEMDEF 0eb6]
-DEFNAME=iMusicStand
+[ItemDef 0eb6]
+DefName=iMusicStand
 FLIP=1
-WEIGHT=6.0
-RESOURCES=15 iLog
-SKILLMAKE=CARPENTRY 78.9,tCarpentry
-CATEGORY=Items by Professions
-SUBSECTION=Bard
-DESCRIPTION=Music Stand
-DUPELIST=0eb8
+Weight=6.0
+Resources=15 iLog
+SkillMake=CARPENTRY 78.9,tCarpentry
+Category=Items by Professions
+Subsection=Bard
+Description=Music Stand
+DupeList=0eb8
 
-[ITEMDEF 0eb7]
+[ItemDef 0eb7]
 //music stand (sheet music)
-DUPEITEM=0eb5
+DupeItem=0eb5
 
-[ITEMDEF 0eb8]
+[ItemDef 0eb8]
 //music stand
-DUPEITEM=0eb6
+DupeItem=0eb6
 
-[ITEMDEF 0eb9]
-DEFNAME=iMusicStandTallBook
-NAME=tall music stand with sheet music
+[ItemDef 0eb9]
+DefName=iMusicStandTallBook
+Name=tall music stand with sheet music
 FLIP=1
 VALUE=92
-WEIGHT=8.0
-RESOURCES=20 iLog
-SKILLMAKE=Carpentry 81.5,tCarpentry
-CATEGORY=Items by Professions
-SUBSECTION=Musician
-DESCRIPTION=Music Stand Tall (sheet music)
-DUPELIST=0eba
+Weight=8.0
+Resources=20 iLog
+SkillMake=Carpentry 81.5,tCarpentry
+Category=Items by Professions
+Subsection=Musician
+Description=Music Stand Tall (sheet music)
+DupeList=0eba
 
-[ITEMDEF 0eba]
+[ItemDef 0eba]
 //music stand tall (sheet music)
-DUPEITEM=0eb9
+DupeItem=0eb9
 
-[ITEMDEF 0ebb]
-DEFNAME=iMusicStandTall
-NAME=tall music stand
+[ItemDef 0ebb]
+DefName=iMusicStandTall
+Name=tall music stand
 FLIP=1
 VALUE=22
-WEIGHT=7.0
-RESOURCES=20 iLog
-SKILLMAKE=Carpentry 81.5,tCarpentry
-CATEGORY=Items by Professions
-SUBSECTION=Musician
-DESCRIPTION=Music Stand Tall
-DUPELIST=0ebc
+Weight=7.0
+Resources=20 iLog
+SkillMake=Carpentry 81.5,tCarpentry
+Category=Items by Professions
+Subsection=Musician
+Description=Music Stand Tall
+DupeList=0ebc
 
-[ITEMDEF 0ebc]
+[ItemDef 0ebc]
 //music stand tall
-DUPEITEM=0ebb
+DupeItem=0ebb
 
-[ITEMDEF 0ebd]
-DEFNAME=iSheetMusic
+[ItemDef 0ebd]
+DefName=iSheetMusic
 FLIP=1
 VALUE=62
-WEIGHT=1.0
-RESOURCES=1 iPaper
-SKILLMAKE=Inscription 0,iPenAndInk
-CATEGORY=Items by Professions
-SUBSECTION=Bard
-DESCRIPTION=Sheet Music
-DUPELIST=0ebe,0ebf,0ec0
+Weight=1.0
+Resources=1 iPaper
+SkillMake=Inscription 0,iPenAndInk
+Category=Items by Professions
+Subsection=Bard
+Description=Sheet Music
+DupeList=0ebe,0ebf,0ec0
 
-[ITEMDEF 0ebe]
+[ItemDef 0ebe]
 //sheet music
-DUPEITEM=0ebd
+DupeItem=0ebd
 
-[ITEMDEF 0ebf]
+[ItemDef 0ebf]
 //sheet music
-DUPEITEM=0ebd
+DupeItem=0ebd
 
-[ITEMDEF 0ec0]
+[ItemDef 0ec0]
 //sheet music
-DUPEITEM=0ebd
+DupeItem=0ebd
 
-[ITEMDEF 0ee9]
+[ItemDef 0ee9]
 //clean bandages
-DUPEITEM=0e21
+DupeItem=0e21
 
 
-[ITEMDEF 0f34]
-DEFNAME=iHayScattered
+[ItemDef 0f34]
+DefName=iHayScattered
 FLIP=1
-WEIGHT=0.1
-RESOURCES=1 iHaySheaf
-CATEGORY=Items by Professions
-SUBSECTION=Stablemaster
-DESCRIPTION=Hay (Scattered on Floor)
-DUPELIST=0f35
+Weight=0.1
+Resources=1 iHaySheaf
+Category=Items by Professions
+Subsection=Stablemaster
+Description=Hay (Scattered on Floor)
+DupeList=0f35
 
-[ITEMDEF 0f35]
+[ItemDef 0f35]
 //hay scattered on floor
-DUPEITEM=0f34
+DupeItem=0f34
 
-[ITEMDEF 0f36]
-DEFNAME=iHaySheaf
-TYPE=tGrain
+[ItemDef 0f36]
+DefName=iHaySheaf
+Type=tGrain
 FLIP=1
 VALUE=3
-WEIGHT=10.0
-CATEGORY=Items by Professions
-SUBSECTION=Stablemaster
-DESCRIPTION=Hay (Sheaf)
-DUPELIST=0100c,0100d
+Weight=10.0
+Category=Items by Professions
+Subsection=Stablemaster
+Description=Hay (Sheaf)
+DupeList=0100c,0100d
 
-[ITEMDEF 0f37]
-DEFNAME=iSaddle
-WEIGHT=3
-RESOURCES=15 iLog
-SKILLMAKE=CARPENTRY 80.0,tCarpentry
-CATEGORY=Items by Professions
-SUBSECTION=Stablemaster
-DESCRIPTION=Saddle
-DUPELIST=0f38
+[ItemDef 0f37]
+DefName=iSaddle
+Weight=3
+Resources=15 iLog
+SkillMake=CARPENTRY 80.0,tCarpentry
+Category=Items by Professions
+Subsection=Stablemaster
+Description=Saddle
+DupeList=0f38
 
-[ITEMDEF 0f38]
+[ItemDef 0f38]
 //saddle
-DUPEITEM=0f37
+DupeItem=0f37
 
-[ITEMDEF 0f39]
-DEFNAME=iShovel
-TYPE=tWeaponMacePick
+[ItemDef 0f39]
+DefName=iShovel
+Type=tWeaponMacePick
 FLIP=1
 VALUE=20
-WEIGHT=6.0
-RESOURCES=4 iIngotIron,2 iLog
-SKILLMAKE=Tinkering 20.0,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Miner
-DESCRIPTION=Shovel
-DUPELIST=0f3a
-ON=@Create
+Weight=6.0
+Resources=4 iIngotIron,2 iLog
+SkillMake=Tinkering 20.0,tTinkerTools
+Category=Items by Professions
+Subsection=Miner
+Description=Shovel
+DupeList=0f3a
+On=@Create
 HITPOINTS={150 250}
 UsesMax=50
 
-[ITEMDEF 0f3a]
+[ItemDef 0f3a]
 //shovel
-DUPEITEM=0f39
+DupeItem=0f39
 
-[ITEMDEF 0f3b]
-DEFNAME=iHorseDung
+[ItemDef 0f3b]
+DefName=iHorseDung
 VALUE=1
-CATEGORY=Items by Professions
-SUBSECTION=Stablemaster
-DESCRIPTION=Horse Dung
-DUPELIST=0f3c
+Category=Items by Professions
+Subsection=Stablemaster
+Description=Horse Dung
+DupeList=0f3c
 
-[ITEMDEF 0f3c]
+[ItemDef 0f3c]
 //horse dung
-DUPEITEM=0f3b
+DupeItem=0f3b
 
 
-[ITEMDEF 0f65]
-DEFNAME=iEasel
+[ItemDef 0f65]
+DefName=iEasel
 FLIP=1
 VALUE=39
-WEIGHT=15.1
-RESOURCES=15 iLog,1 iNails
-SKILLMAKE=Carpentry 41.0,tCarpentry
-CATEGORY=Items by Professions
-SUBSECTION=Artist
-DESCRIPTION=Easel
-DUPELIST=0f67,0f69
+Weight=15.1
+Resources=15 iLog,1 iNails
+SkillMake=Carpentry 41.0,tCarpentry
+Category=Items by Professions
+Subsection=Artist
+Description=Easel
+DupeList=0f67,0f69
 
-[ITEMDEF 0f66]
-DEFNAME=iEaselWithCanvas
+[ItemDef 0f66]
+DefName=iEaselWithCanvas
 FLIP=1
 VALUE=120
-WEIGHT=16.0
-RESOURCES=1 iEasel,1 iCanvas
-SKILLMAKE=Carpentry 41.0,tCarpentry
-CATEGORY=Items by Professions
-SUBSECTION=Artist
-DESCRIPTION=Easel With Canvas
-DUPELIST=0f68,0f6a
+Weight=16.0
+Resources=1 iEasel,1 iCanvas
+SkillMake=Carpentry 41.0,tCarpentry
+Category=Items by Professions
+Subsection=Artist
+Description=Easel With Canvas
+DupeList=0f68,0f6a
 
-[ITEMDEF 0f67]
+[ItemDef 0f67]
 //easel
-DUPEITEM=0f65
+DupeItem=0f65
 
-[ITEMDEF 0f68]
+[ItemDef 0f68]
 //easel with canvas
-DUPEITEM=0f66
+DupeItem=0f66
 
-[ITEMDEF 0f69]
+[ItemDef 0f69]
 //easel
-DUPEITEM=0f65
+DupeItem=0f65
 
-[ITEMDEF 0f6a]
+[ItemDef 0f6a]
 //easel with canvas
-DUPEITEM=0f66
+DupeItem=0f66
 
 
-[ITEMDEF 0f71]
-DEFNAME=iCanvasesRack
+[ItemDef 0f71]
+DefName=iCanvasesRack
 FLIP=1
 VALUE=60
-WEIGHT=18.0
-RESOURCES=1 iEasel,3 iCanvas
-SKILLMAKE=Carpentry 45.0,tCarpentry
-CATEGORY=Items by Professions
-SUBSECTION=Artist
-DESCRIPTION=Rack of Canvases
-DUPELIST=0f72,0f73,0f74,0f75,0f76
+Weight=18.0
+Resources=1 iEasel,3 iCanvas
+SkillMake=Carpentry 45.0,tCarpentry
+Category=Items by Professions
+Subsection=Artist
+Description=Rack of Canvases
+DupeList=0f72,0f73,0f74,0f75,0f76
 
-[ITEMDEF 0f72]
+[ItemDef 0f72]
 //rack of canvases
-DUPEITEM=0f71
+DupeItem=0f71
 
-[ITEMDEF 0f73]
+[ItemDef 0f73]
 //rack of canvases
-DUPEITEM=0f71
+DupeItem=0f71
 
-[ITEMDEF 0f74]
+[ItemDef 0f74]
 //rack of canvases
-DUPEITEM=0f71
+DupeItem=0f71
 
-[ITEMDEF 0f75]
+[ItemDef 0f75]
 //rack of canvases
-DUPEITEM=0f71
+DupeItem=0f71
 
-[ITEMDEF 0f76]
+[ItemDef 0f76]
 //rack of canvases
-DUPEITEM=0f71
+DupeItem=0f71
 
 
-[ITEMDEF 0faf]
-DEFNAME=iAnvil
-TYPE=tAnvil
+[ItemDef 0faf]
+DefName=iAnvil
+Type=tAnvil
 FLIP=1
 VALUE=325
-WEIGHT=575.0
-RESOURCES=50 iRockPlain,50 iIngotIron,25 iLog
-SKILLMAKE=Tinkering 56.0,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Blacksmith
-DESCRIPTION=Anvil
-DUPELIST=0fb0
+Weight=575.0
+Resources=50 iRockPlain,50 iIngotIron,25 iLog
+SkillMake=Tinkering 56.0,tTinkerTools
+Category=Items by Professions
+Subsection=Blacksmith
+Description=Anvil
+DupeList=0fb0
 
-[ITEMDEF 0fb0]
+[ItemDef 0fb0]
 //anvil
-DUPEITEM=0faf
+DupeItem=0faf
 
-[ITEMDEF 0fb1]
-DEFNAME=iForge
-TYPE=tForge
+[ItemDef 0fb1]
+DefName=iForge
+Type=tForge
 VALUE=250
-WEIGHT=575.0
-RESOURCES=50 iRockPlain,25 iIngotIron,50 iLog
-SKILLMAKE=Tinkering 56.0,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Blacksmith
-DESCRIPTION=Small Forge
+Weight=575.0
+Resources=50 iRockPlain,25 iIngotIron,50 iLog
+SkillMake=Tinkering 56.0,tTinkerTools
+Category=Items by Professions
+Subsection=Blacksmith
+Description=Small Forge
 
 
-[ITEMDEF 0fb6]
-DEFNAME=iHorseShoes
-NAME=horseshoes
-TYPE=tHorseshoes
+[ItemDef 0fb6]
+DefName=iHorseShoes
+Name=horseshoes
+Type=tHorseshoes
 VALUE=35
-WEIGHT=8.0
-RESOURCES=8 iIngotIron
-SKILLMAKE=Blacksmithing 30.0
-CATEGORY=Items by Professions
-SUBSECTION=Blacksmith
-DESCRIPTION=Horse Shoes
+Weight=8.0
+Resources=8 iIngotIron
+SkillMake=Blacksmithing 30.0
+Category=Items by Professions
+Subsection=Blacksmith
+Description=Horse Shoes
 
-[ITEMDEF 0fb7]
-DEFNAME=iForgedMetal
-TYPE=tNormal
+[ItemDef 0fb7]
+DefName=iForgedMetal
+Type=tNormal
 FLIP=1
-WEIGHT=1.0
-RESOURCES=1 iIngotIron
-CATEGORY=Items by Professions
-SUBSECTION=Blacksmith
-DESCRIPTION=Forged Metal
-DUPELIST=0fb8
+Weight=1.0
+Resources=1 iIngotIron
+Category=Items by Professions
+Subsection=Blacksmith
+Description=Forged Metal
+DupeList=0fb8
 
-[ITEMDEF 0fb8]
+[ItemDef 0fb8]
 //forged metal
-DUPEITEM=0fb7
+DupeItem=0fb7
 
 
-[ITEMDEF 0fbb]
-DEFNAME=iTongs
-TYPE=tWeaponMaceSmith
+[ItemDef 0fbb]
+DefName=iTongs
+Type=tWeaponMaceSmith
 FLIP=1
 VALUE=13
-WEIGHT=2.0
-RESOURCES=2 iIngotIron
-SKILLMAKE=Tinkering 54.1,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Blacksmith
-DESCRIPTION=Tongs
-DUPELIST=0fbc
+Weight=2.0
+Resources=2 iIngotIron
+SkillMake=Tinkering 54.1,tTinkerTools
+Category=Items by Professions
+Subsection=Blacksmith
+Description=Tongs
+DupeList=0fbc
 
-[ITEMDEF 0fbc]
+[ItemDef 0fbc]
 //tongs
-DUPEITEM=0fbb
+DupeItem=0fbb
 
 
-[ITEMDEF 0fbd]
-DEFNAME=iBookOpen
-TYPE=tBook
+[ItemDef 0fbd]
+DefName=iBookOpen
+Type=tBook
 FLIP=1
-WEIGHT=2.0
-RESOURCES=1 iBookLgPub
-CATEGORY=Items by Professions
-SUBSECTION=Scribe
-DESCRIPTION=Open Book
-DUPELIST=0fbe
+Weight=2.0
+Resources=1 iBookLgPub
+Category=Items by Professions
+Subsection=Scribe
+Description=Open Book
+DupeList=0fbe
 
-[ITEMDEF 0fbe]
+[ItemDef 0fbe]
 //brown open book facing SW
-DUPEITEM=0fbd
+DupeItem=0fbd
 
 
-[ITEMDEF 0fbf]
-DEFNAME=iPenAndInk
+[ItemDef 0fbf]
+DefName=iPenAndInk
 FLIP=1
 VALUE=11
-WEIGHT=1.0
-RESOURCES=1 iFeather,1 iInkWell
-SKILLMAKE=Tinkering 44.1,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Scribe
-DESCRIPTION=Pen & Ink
-DUPELIST=0fc0
-ON=@Create
+Weight=1.0
+Resources=1 iFeather,1 iInkWell
+SkillMake=Tinkering 44.1,tTinkerTools
+Category=Items by Professions
+Subsection=Scribe
+Description=Pen & Ink
+DupeList=0fc0
+On=@Create
 UsesMax={25 75}
 
-[ITEMDEF 0fc0]
+[ItemDef 0fc0]
 //pen and ink
-DUPEITEM=0fbf
+DupeItem=0fbf
 
-[ITEMDEF 0fc1]
-DEFNAME=iPalette
+[ItemDef 0fc1]
+DefName=iPalette
 VALUE=45
-WEIGHT=1.0
-RESOURCES=1 iBrush,6 iDyes,1 iBoard
-SKILLMAKE=Tinkering 44.1,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Artist
-DESCRIPTION=Paints & Brushes
+Weight=1.0
+Resources=1 iBrush,6 IDyes,1 iBoard
+SkillMake=Tinkering 44.1,tTinkerTools
+Category=Items by Professions
+Subsection=Artist
+Description=Paints & Brushes
 
 
-[ITEMDEF 0fef]
-DEFNAME=iBookLgPub
-TYPE=tBook
-WEIGHT=1.0
-RESOURCES=1 iCanvas,64 iPaper,1 iThread,1 i_hides_cut
-SKILLMAKE=Inscription 10.0
-CATEGORY=Items by Professions
-SUBSECTION=Scribe
-DESCRIPTION=Brown Book
+[ItemDef 0fef]
+DefName=iBookLgPub
+Type=tBook
+Weight=1.0
+Resources=1 iCanvas,64 iPaper,1 iThread,1 i_hIDes_cut
+SkillMake=Inscription 10.0
+Category=Items by Professions
+Subsection=Scribe
+Description=Brown Book
 
-[ITEMDEF 0ff0]
-DEFNAME=iBookSmPub
-TYPE=tBook
-WEIGHT=1.0
-RESOURCES=1 iCanvas,32 iPaper,1 iThread,1 i_hides_cut
-SKILLMAKE=Inscription 10.0
-CATEGORY=Items by Professions
-SUBSECTION=Scribe
-DESCRIPTION=Light Tan Book
+[ItemDef 0ff0]
+DefName=iBookSmPub
+Type=tBook
+Weight=1.0
+Resources=1 iCanvas,32 iPaper,1 iThread,1 i_hIDes_cut
+SkillMake=Inscription 10.0
+Category=Items by Professions
+Subsection=Scribe
+Description=Light Tan Book
 
-[ITEMDEF 0ff1]
-DEFNAME=iBookSm
-TYPE=tBook
-WEIGHT=1.0
-RESOURCES=1 iCanvas,10 iPaper,1 iThread,1 i_hides_cut
-CATEGORY=Items by Professions
-SUBSECTION=Scribe
-DESCRIPTION=Dark Brown Book
+[ItemDef 0ff1]
+DefName=iBookSm
+Type=tBook
+Weight=1.0
+Resources=1 iCanvas,10 iPaper,1 iThread,1 i_hIDes_cut
+Category=Items by Professions
+Subsection=Scribe
+Description=Dark Brown Book
 
-[ITEMDEF 0ff2]
-DEFNAME=iBookLg
-TYPE=tBook
-WEIGHT=1.0
-RESOURCES=1 iCanvas,10 iPaper,1 iThread,1 i_hides_cut
-CATEGORY=Items by Professions
-SUBSECTION=Scribe
-DESCRIPTION=Purple Book
+[ItemDef 0ff2]
+DefName=iBookLg
+Type=tBook
+Weight=1.0
+Resources=1 iCanvas,10 iPaper,1 iThread,1 i_hIDes_cut
+Category=Items by Professions
+Subsection=Scribe
+Description=Purple Book
 
-[ITEMDEF 0ff3]
-DEFNAME=iBookSmOpen
-TYPE=tBook
-WEIGHT=1.0
-RESOURCES=1 iCanvas,10 iPaper,1 iThread,1 i_hides_cut
-CATEGORY=Items by Professions
-SUBSECTION=Scribe
-DESCRIPTION=Small Open Book
+[ItemDef 0ff3]
+DefName=iBookSmOpen
+Type=tBook
+Weight=1.0
+Resources=1 iCanvas,10 iPaper,1 iThread,1 i_hIDes_cut
+Category=Items by Professions
+Subsection=Scribe
+Description=Small Open Book
 
-[ITEMDEF 0ff4]
-DEFNAME=iBookLgOpen
-TYPE=tBook
-WEIGHT=1.0
-RESOURCES=1 iCanvas,10 iPaper,1 iThread,1 i_hides_cut
-CATEGORY=Items by Professions
-SUBSECTION=Scribe
-DESCRIPTION=Large Open Book
+[ItemDef 0ff4]
+DefName=iBookLgOpen
+Type=tBook
+Weight=1.0
+Resources=1 iCanvas,10 iPaper,1 iThread,1 i_hIDes_cut
+Category=Items by Professions
+Subsection=Scribe
+Description=Large Open Book
 
 
-[ITEMDEF 0ffa]
-DEFNAME=iBucketOfWater
-TYPE=tDrink
+[ItemDef 0ffa]
+DefName=iBucketOfWater
+Type=tDrink
 TDATA1=iBucket
-WEIGHT=12.1
-RESOURCES=1 iBucket
-CATEGORY=Items by Professions
-SUBSECTION=Stablemaster
-DESCRIPTION=Bucket of Water
-ON=@Create
+Weight=12.1
+Resources=1 iBucket
+Category=Items by Professions
+Subsection=Stablemaster
+Description=Bucket of Water
+On=@Create
 MOREM=9
 
 
-[ITEMDEF 01003]
-DEFNAME=iSpittoon
+[ItemDef 01003]
+DefName=iSpittoon
 VALUE=16
-WEIGHT=3.0
-RESOURCES=3 iIngotIron
-SKILLMAKE=Tinkering 42.0,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Barkeep
-DESCRIPTION=Spittoon
+Weight=3.0
+Resources=3 iIngotIron
+SkillMake=Tinkering 42.0,tTinkerTools
+Category=Items by Professions
+Subsection=Barkeep
+Description=Spittoon
 
-[ITEMDEF 01004]
-DEFNAME=iBarrelTap
+[ItemDef 01004]
+DefName=iBarrelTap
 VALUE=9
-WEIGHT=1.0
-RESOURCES=1 iIngotIron
-SKILLMAKE=Tinkering 52.0,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Barkeep
-DESCRIPTION=Barrel Tap
+Weight=1.0
+Resources=1 iIngotIron
+SkillMake=Tinkering 52.0,tTinkerTools
+Category=Items by Professions
+Subsection=Barkeep
+Description=Barrel Tap
 
 
-[ITEMDEF 0100a]
-DEFNAME=iArcheryButte
-TYPE=tArcheryButte
+[ItemDef 0100a]
+DefName=iArcheryButte
+Type=tArcheryButte
 FLIP=1
 VALUE=68
-WEIGHT=38.0
-RESOURCES=20 iStraw,10 iBoard,8 iCloth
-SKILLMAKE=Carpentry 40.0,Tailoring 40.0,tSewingKit,tCarpentry
-CATEGORY=Items by Professions
-SUBSECTION=Archer/Bowyer
-DESCRIPTION=Archery Butte
-DUPELIST=0100b
+Weight=38.0
+Resources=20 iStraw,10 iBoard,8 iCloth
+SkillMake=Carpentry 40.0,Tailoring 40.0,tSewingKit,tCarpentry
+Category=Items by Professions
+Subsection=Archer/Bowyer
+Description=Archery Butte
+DupeList=0100b
 
-[ITEMDEF 0100b]
+[ItemDef 0100b]
 //archery butte
-DUPEITEM=0100a
+DupeItem=0100a
 
-[ITEMDEF 0100c]
+[ItemDef 0100c]
 //hay sheaf
-DUPEITEM=0f36
+DupeItem=0f36
 
-[ITEMDEF 0100d]
+[ItemDef 0100d]
 //hay sheaf
-DUPEITEM=0f36
+DupeItem=0f36
 
 
-[ITEMDEF 01022]
-DEFNAME=iArrowFletching
-TYPE=tNormal
+[ItemDef 01022]
+DefName=iArrowFletching
+Type=tNormal
 FLIP=1
-WEIGHT=4.4
-RESOURCES=5 iFeather,5 iArrowShaft,1 iCatGut,1 i_wire_iron,1 i_dagger
-CATEGORY=Items by Professions
-SUBSECTION=Archer/Bowyer
-DESCRIPTION=Arrow Fletching Equip
-DUPELIST=01023
+Weight=4.4
+Resources=5 iFeather,5 iArrowShaft,1 iCatGut,1 i_wire_iron,1 i_dagger
+Category=Items by Professions
+Subsection=Archer/Bowyer
+Description=Arrow Fletching Equip
+DupeList=01023
 
-[ITEMDEF 01023]
+[ItemDef 01023]
 //fletching kit
-DUPEITEM=01022
+DupeItem=01022
 
-[ITEMDEF 01024]
-DEFNAME=iArrowShafts2
-TYPE=tShaft
+[ItemDef 01024]
+DefName=iArrowShafts2
+Type=tShaft
 FLIP=1
-WEIGHT=0.1
-RESOURCES=3 iArrowShaft
-CATEGORY=Items by Professions
-SUBSECTION=Archer/Bowyer
-DESCRIPTION=Arrow Junk Shafts
-DUPELIST=01025
-ON=@DClick
+Weight=0.1
+Resources=3 iArrowShaft
+Category=Items by Professions
+Subsection=Archer/Bowyer
+Description=Arrow Junk Shafts
+DupeList=01025
+On=@DClick
 SRC.SKILLMENU=sm_bolts
 RETURN 1
 
-[ITEMDEF 01025]
+[ItemDef 01025]
 //arrow shafts
-DUPEITEM=01024
+DupeItem=01024
 
 
-[ITEMDEF 01026]
-DEFNAME=iChisels
-TYPE=tCarpentry
+[ItemDef 01026]
+DefName=iChisels
+Type=tCarpentry
 FLIP=1
 VALUE=14
-WEIGHT=3.0
-RESOURCES=3 iIngotIron
-SKILLMAKE=Tinkering 23.2,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Carpenter
-DESCRIPTION=Chisels
-DUPELIST=01027
+Weight=3.0
+Resources=3 iIngotIron
+SkillMake=Tinkering 23.2,tTinkerTools
+Category=Items by Professions
+Subsection=Carpenter
+Description=Chisels
+DupeList=01027
 
-[ITEMDEF 01027]
+[ItemDef 01027]
 //chisels
-DUPEITEM=01026
+DupeItem=01026
 
-[ITEMDEF 01028]
-DEFNAME=iSawDovetail
-TYPE=tCarpentry
+[ItemDef 01028]
+DefName=iSawDovetail
+Type=tCarpentry
 FLIP=1
 VALUE=16
-WEIGHT=4.0
-RESOURCES=3 iIngotIron,1 iLog
-SKILLMAKE=Tinkering 33.2,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Carpenter
-DESCRIPTION=Dovetail Saw
-DUPELIST=01029
-ON=@Create
+Weight=4.0
+Resources=3 iIngotIron,1 iLog
+SkillMake=Tinkering 33.2,tTinkerTools
+Category=Items by Professions
+Subsection=Carpenter
+Description=Dovetail Saw
+DupeList=01029
+On=@Create
 UsesMax={25 75}
 
-[ITEMDEF 01029]
+[ItemDef 01029]
 //dovetail saw
-DUPEITEM=01028
+DupeItem=01028
 
-[ITEMDEF 0102a]
-DEFNAME=iHammer
-TYPE=tCarpentry
+[ItemDef 0102a]
+DefName=iHammer
+Type=tCarpentry
 FLIP=1
 VALUE=20
-WEIGHT=5.0
-RESOURCES=4 iIngotIron,1 iLog
-SKILLMAKE=Tinkering 33.2,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Carpenter
-DESCRIPTION=Hammer
-DUPELIST=0102b
-ON=@Create
+Weight=5.0
+Resources=4 iIngotIron,1 iLog
+SkillMake=Tinkering 33.2,tTinkerTools
+Category=Items by Professions
+Subsection=Carpenter
+Description=Hammer
+DupeList=0102b
+On=@Create
 UsesMax={25 75}
 
-[ITEMDEF 0102b]
+[ItemDef 0102b]
 //hammer
-DUPEITEM=0102a
+DupeItem=0102a
 
-[ITEMDEF 0102c]
-DEFNAME=iPlaneMoulding
-TYPE=tCarpentry
+[ItemDef 0102c]
+DefName=iPlaneMoulding
+Type=tCarpentry
 FLIP=1
 VALUE=13
-WEIGHT=4.0
-RESOURCES=3 iBoard,1 iIngotIron
-SKILLMAKE=Tinkering 30.7,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Carpenter
-DESCRIPTION=Moulding Planes
-DUPELIST=0102d
-ON=@Create
+Weight=4.0
+Resources=3 iBoard,1 iIngotIron
+SkillMake=Tinkering 30.7,tTinkerTools
+Category=Items by Professions
+Subsection=Carpenter
+Description=Moulding Planes
+DupeList=0102d
+On=@Create
 UsesMax={25 75}
 
-[ITEMDEF 0102d]
+[ItemDef 0102d]
 //moulding planes
-DUPEITEM=0102c
+DupeItem=0102c
 
-[ITEMDEF 0102e]
-DEFNAME=iNails
-TYPE=tNormal
+[ItemDef 0102e]
+DefName=iNails
+Type=tNormal
 FLIP=1
 VALUE=5
-WEIGHT=1.0
-RESOURCES=1 iIngotIron
-SKILLMAKE=Tinkering 5.0,tTinkerTools,blacksmithing 5.0
-CATEGORY=Items by Professions
-SUBSECTION=Carpenter
-DESCRIPTION=Nails
-DUPELIST=0102f
-ON=@Create
+Weight=1.0
+Resources=1 iIngotIron
+SkillMake=Tinkering 5.0,tTinkerTools,blacksmithing 5.0
+Category=Items by Professions
+Subsection=Carpenter
+Description=Nails
+DupeList=0102f
+On=@Create
 UsesMax={25 75}
 
-[ITEMDEF 0102f]
+[ItemDef 0102f]
 //nails
-DUPEITEM=0102e
+DupeItem=0102e
 
-[ITEMDEF 01030]
-DEFNAME=iPlaneJointing
-TYPE=tCarpentry
+[ItemDef 01030]
+DefName=iPlaneJointing
+Type=tCarpentry
 FLIP=1
 VALUE=10
-WEIGHT=4.0
-RESOURCES=3 iLog,1 iIngotIron
-SKILLMAKE=Tinkering 30.8,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Carpenter
-DESCRIPTION=Jointing Plane
-DUPELIST=01031
-ON=@Create
+Weight=4.0
+Resources=3 iLog,1 iIngotIron
+SkillMake=Tinkering 30.8,tTinkerTools
+Category=Items by Professions
+Subsection=Carpenter
+Description=Jointing Plane
+DupeList=01031
+On=@Create
 UsesMax={25 75}
 
-[ITEMDEF 01031]
+[ItemDef 01031]
 //jointing plane
-DUPEITEM=01030
+DupeItem=01030
 
-[ITEMDEF 01032]
-DEFNAME=iPlaneSmoothing
-TYPE=tCarpentry
+[ItemDef 01032]
+DefName=iPlaneSmoothing
+Type=tCarpentry
 FLIP=1
 VALUE=10
-WEIGHT=4.0
-RESOURCES=3 iLog,1 iIngotIron
-SKILLMAKE=Tinkering 30.7,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Carpenter
-DESCRIPTION=Smoothing Plane
-DUPELIST=01033
-ON=@Create
+Weight=4.0
+Resources=3 iLog,1 iIngotIron
+SkillMake=Tinkering 30.7,tTinkerTools
+Category=Items by Professions
+Subsection=Carpenter
+Description=Smoothing Plane
+DupeList=01033
+On=@Create
 UsesMax={25 75}
 
-[ITEMDEF 01033]
+[ItemDef 01033]
 //smoothing plane
-DUPEITEM=01032
+DupeItem=01032
 
-[ITEMDEF 01034]
-DEFNAME=iSaw
-TYPE=tCarpentry
+[ItemDef 01034]
+DefName=iSaw
+Type=tCarpentry
 FLIP=1
 VALUE=24
-WEIGHT=6.0
-RESOURCES=5 iIngotIron,1 iLog
-SKILLMAKE=Tinkering 31.3,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Carpenter
-DESCRIPTION=Saw
-DUPELIST=01035
-ON=@Create
+Weight=6.0
+Resources=5 iIngotIron,1 iLog
+SkillMake=Tinkering 31.3,tTinkerTools
+Category=Items by Professions
+Subsection=Carpenter
+Description=Saw
+DupeList=01035
+On=@Create
 UsesMax={25 75}
 
-[ITEMDEF 01035]
+[ItemDef 01035]
 //saw
-DUPEITEM=01034
+DupeItem=01034
 
-[ITEMDEF 01036]
-DEFNAME=iHayBitsScatteredSmall
-WEIGHT=1.0
-RESOURCES=1 iStraw
-CATEGORY=Items by Professions
-SUBSECTION=Stablemaster
-DESCRIPTION=Hay Bits
+[ItemDef 01036]
+DefName=iHayBitsScatteredSmall
+Weight=1.0
+Resources=1 iStraw
+Category=Items by Professions
+Subsection=Stablemaster
+Description=Hay Bits
 
-[ITEMDEF 01037]
-DEFNAME=iHay
-WEIGHT=1.0
-RESOURCES=1 iStraw
-CATEGORY=Items by Professions
-SUBSECTION=Stablemaster
-DESCRIPTION=Hay
+[ItemDef 01037]
+DefName=iHay
+Weight=1.0
+Resources=1 iStraw
+Category=Items by Professions
+Subsection=Stablemaster
+Description=Hay
 
-[ITEMDEF 01038]
-DEFNAME=iWoodCurls
+[ItemDef 01038]
+DefName=iWoodCurls
 FLIP=1
-WEIGHT=1.0
-RESOURCES=1 iBoard
-CATEGORY=Items by Professions
-SUBSECTION=Carpenter
-DESCRIPTION=Wood Curls
-ON=@Create
+Weight=1.0
+Resources=1 iBoard
+Category=Items by Professions
+Subsection=Carpenter
+Description=Wood Curls
+On=@Create
 ATTR=08012
 
 
 
-[ITEMDEF 0104b]
-DEFNAME=iClock
-TYPE=tClock
+[ItemDef 0104b]
+DefName=iClock
+Type=tClock
 FLIP=1
 VALUE=44
-WEIGHT=9.2
-RESOURCES=1 iClockFrame,1 iParchment,2 iBoard,1 i_clock_parts
-SKILLMAKE=Tinkering 30.7,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Tinker
-DESCRIPTION=Clock
-DUPELIST=0104c
+Weight=9.2
+Resources=1 iClockFrame,1 iParchment,2 iBoard,1 i_clock_parts
+SkillMake=Tinkering 30.7,tTinkerTools
+Category=Items by Professions
+Subsection=Tinker
+Description=Clock
+DupeList=0104c
 
-[ITEMDEF 0104c]
+[ItemDef 0104c]
 //clock
-DUPEITEM=0104b
+DupeItem=0104b
 
-[ITEMDEF 0104d]
-DEFNAME=iClockFrame
+[ItemDef 0104d]
+DefName=iClockFrame
 FLIP=1
 VALUE=14
-WEIGHT=6.1
-RESOURCES=6 iLog,1 iNails
-SKILLMAKE=Tinkering 30.4,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Tinker
-DESCRIPTION=Clock Frame
-DUPELIST=0104e
+Weight=6.1
+Resources=6 iLog,1 iNails
+SkillMake=Tinkering 30.4,tTinkerTools
+Category=Items by Professions
+Subsection=Tinker
+Description=Clock Frame
+DupeList=0104e
 
-[ITEMDEF 0104e]
+[ItemDef 0104e]
 //clock frame
-DUPEITEM=0104d
+DupeItem=0104d
 
-[ITEMDEF 0104f]
-DEFNAME=iClockParts
+[ItemDef 0104f]
+DefName=iClockParts
 FLIP=1
 VALUE=17
-WEIGHT=1.2
-RESOURCES=1 iIngotIron,1 iSprings,1 iGears
-SKILLMAKE=Tinkering 30.5,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Tinker
-DESCRIPTION=Clock Parts
-DUPELIST=01050
+Weight=1.2
+Resources=1 iIngotIron,1 iSprings,1 iGears
+SkillMake=Tinkering 30.5,tTinkerTools
+Category=Items by Professions
+Subsection=Tinker
+Description=Clock Parts
+DupeList=01050
 
-[ITEMDEF 01050]
+[ItemDef 01050]
 //clock parts
-DUPEITEM=0104f
+DupeItem=0104f
 
-[ITEMDEF 01051]
-DEFNAME=iAxleAndGears
+[ItemDef 01051]
+DefName=iAxleAndGears
 FLIP=1
 VALUE=18
-WEIGHT=0.3
-RESOURCES=1 iAxle,2 iGears
-SKILLMAKE=Tinkering 30.4,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Tinker
-DESCRIPTION=Axle with Gears
-DUPELIST=01052
+Weight=0.3
+Resources=1 iAxle,2 iGears
+SkillMake=Tinkering 30.4,tTinkerTools
+Category=Items by Professions
+Subsection=Tinker
+Description=Axle with Gears
+DupeList=01052
 
-[ITEMDEF 01052]
+[ItemDef 01052]
 //axle with gears
-DUPEITEM=01051
+DupeItem=01051
 
-[ITEMDEF 01053]
-DEFNAME=iGears
+[ItemDef 01053]
+DefName=iGears
 FLIP=1
 VALUE=5
-WEIGHT=0.1
-RESOURCES=1 iIngotIron
-SKILLMAKE=Tinkering 14.7,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Tinker
-DESCRIPTION=Gears
-DUPELIST=01054
+Weight=0.1
+Resources=1 iIngotIron
+SkillMake=Tinkering 14.7,tTinkerTools
+Category=Items by Professions
+Subsection=Tinker
+Description=Gears
+DupeList=01054
 
-[ITEMDEF 01054]
+[ItemDef 01054]
 //gears
-DUPEITEM=01053
+DupeItem=01053
 
-[ITEMDEF 01055]
-DEFNAME=iHinge
+[ItemDef 01055]
+DefName=iHinge
 FLIP=1
 VALUE=5
-WEIGHT=0.1
-RESOURCES=1 iIngotIron
-SKILLMAKE=Tinkering 14.8,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Tinker
-DESCRIPTION=Hinge
-DUPELIST=01056
+Weight=0.1
+Resources=1 iIngotIron
+SkillMake=Tinkering 14.8,tTinkerTools
+Category=Items by Professions
+Subsection=Tinker
+Description=Hinge
+DupeList=01056
 
-[ITEMDEF 01056]
+[ItemDef 01056]
 //hinge
-DUPEITEM=01055
+DupeItem=01055
 
-[ITEMDEF 01057]
-DEFNAME=iSextant
-TYPE=tSextant
+[ItemDef 01057]
+DefName=iSextant
+Type=tSextant
 FLIP=1
 VALUE=35
-WEIGHT=1.2
-RESOURCES=1 iSextantParts
-SKILLMAKE=Tinkering 30.7,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Tinker
-DESCRIPTION=Sextant
-DUPELIST=01058
+Weight=1.2
+Resources=1 iSextantParts
+SkillMake=Tinkering 30.7,tTinkerTools
+Category=Items by Professions
+Subsection=Tinker
+Description=Sextant
+DupeList=01058
 
-[ITEMDEF 01058]
+[ItemDef 01058]
 //sextant
-DUPEITEM=01057
+DupeItem=01057
 
-[ITEMDEF 01059]
-DEFNAME=iSextantParts
+[ItemDef 01059]
+DefName=iSextantParts
 FLIP=1
 VALUE=30
-WEIGHT=1.2
-RESOURCES=1 iIngotIron,1 iAxleAndGears,1 iHinge
-SKILLMAKE=Tinkering 31.0,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Tinker
-DESCRIPTION=Sextant Parts
-DUPELIST=0105a
+Weight=1.2
+Resources=1 iIngotIron,1 iAxleAndGears,1 iHinge
+SkillMake=Tinkering 31.0,tTinkerTools
+Category=Items by Professions
+Subsection=Tinker
+Description=Sextant Parts
+DupeList=0105a
 
-[ITEMDEF 0105a]
+[ItemDef 0105a]
 //sextant parts
-DUPEITEM=01059
+DupeItem=01059
 
-[ITEMDEF 0105b]
-DEFNAME=iAxle
+[ItemDef 0105b]
+DefName=iAxle
 FLIP=1
 VALUE=5
-WEIGHT=0.1
-RESOURCES=1 iIngotIron
-SKILLMAKE=Tinkering 30.4,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Tinker
-DESCRIPTION=Axle
-DUPELIST=0105c
+Weight=0.1
+Resources=1 iIngotIron
+SkillMake=Tinkering 30.4,tTinkerTools
+Category=Items by Professions
+Subsection=Tinker
+Description=Axle
+DupeList=0105c
 
-[ITEMDEF 0105c]
+[ItemDef 0105c]
 //axle
-DUPEITEM=0105b
+DupeItem=0105b
 
-[ITEMDEF 0105d]
-DEFNAME=iSprings
+[ItemDef 0105d]
+DefName=iSprings
 FLIP=1
 VALUE=5
-WEIGHT=0.1
-RESOURCES=1 iIngotIron
-SKILLMAKE=Tinkering 13.7,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Tinker
-DESCRIPTION=Springs
-DUPELIST=0105e
+Weight=0.1
+Resources=1 iIngotIron
+SkillMake=Tinkering 13.7,tTinkerTools
+Category=Items by Professions
+Subsection=Tinker
+Description=Springs
+DupeList=0105e
 
-[ITEMDEF 0105e]
+[ItemDef 0105e]
 //springs
-DUPEITEM=0105d
+DupeItem=0105d
 
-[ITEMDEF 01070]
-DEFNAME=iTrainingDummy
-TYPE=tTrainDummy
+[ItemDef 01070]
+DefName=iTrainingDummy
+Type=tTrainDummy
 VALUE=330
-WEIGHT=110.5
-RESOURCES=20 iLog,35 iCloth,50 iCotton,5 i_thread,5 i_hides_cut
-SKILLMAKE=Carpentry 85.0,Tailoring 70.0,tCarpentry,tSewingKit
-CATEGORY=Items by Professions
-SUBSECTION=Fighter
-DESCRIPTION=Training Dummy
-DUPELIST=01071,01072,01073,01074,01075,01076,01077
+Weight=110.5
+Resources=20 iLog,35 iCloth,50 iCotton,5 i_thread,5 i_hIDes_cut
+SkillMake=Carpentry 85.0,Tailoring 70.0,tCarpentry,tSewingKit
+Category=Items by Professions
+Subsection=Fighter
+Description=Training Dummy
+DupeList=01071,01072,01073,01074,01075,01076,01077
 
-[ITEMDEF 01071]
+[ItemDef 01071]
 //training dummy
-DUPEITEM=01070
+DupeItem=01070
 
-[ITEMDEF 01072]
+[ItemDef 01072]
 //training dummy
-DUPEITEM=01070
+DupeItem=01070
 
-[ITEMDEF 01073]
+[ItemDef 01073]
 //training dummy
-DUPEITEM=01070
+DupeItem=01070
 
-[ITEMDEF 01074]
+[ItemDef 01074]
 //training dummy
-DEFNAME=iTrainingDummyN
-DUPEITEM=01070
+DefName=iTrainingDummyN
+DupeItem=01070
 
-[ITEMDEF 01075]
+[ItemDef 01075]
 //training dummy
-DUPEITEM=01070
+DupeItem=01070
 
-[ITEMDEF 01076]
+[ItemDef 01076]
 //training dummy
-DUPEITEM=01070
+DupeItem=01070
 
-[ITEMDEF 01077]
+[ItemDef 01077]
 //training dummy
-DUPEITEM=01070
+DupeItem=01070
 
-[ITEMDEF 010e1]
-DEFNAME=iBarrelHoops
+[ItemDef 010e1]
+DefName=iBarrelHoops
 FLIP=1
 VALUE=20
-WEIGHT=4.0
-RESOURCES=4 iIngotIron
-SKILLMAKE=Tinkering 42.0,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Cooper
-DESCRIPTION=Barrel Hoops
-DUPELIST=010e2
+Weight=4.0
+Resources=4 iIngotIron
+SkillMake=Tinkering 42.0,tTinkerTools
+Category=Items by Professions
+Subsection=Cooper
+Description=Barrel Hoops
+DupeList=010e2
 
-[ITEMDEF 010e2]
+[ItemDef 010e2]
 //barrel hoops
-DUPEITEM=010e1
+DupeItem=010e1
 
 
-[ITEMDEF 010e4]
-DEFNAME=iKnifeDraw
-TYPE=tCarpentry
+[ItemDef 010e4]
+DefName=iKnifeDraw
+Type=tCarpentry
 VALUE=11
-WEIGHT=3.0
-RESOURCES=2 iIngotIron,1 iLog
-SKILLMAKE=Tinkering 21.4,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Carpenter
-DESCRIPTION=Draw Knife
-ON=@Create
+Weight=3.0
+Resources=2 iIngotIron,1 iLog
+SkillMake=Tinkering 21.4,tTinkerTools
+Category=Items by Professions
+Subsection=Carpenter
+Description=Draw Knife
+On=@Create
 UsesMax={25 75}
 
-[ITEMDEF 010e5]
-DEFNAME=iFroe
-TYPE=tCarpentry
+[ItemDef 010e5]
+DefName=iFroe
+Type=tCarpentry
 VALUE=12
-WEIGHT=3.0
-RESOURCES=2 iIngotIron,1 iLog
-SKILLMAKE=Tinkering 29.7,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Carpenter
-DESCRIPTION=Froe
-ON=@Create
+Weight=3.0
+Resources=2 iIngotIron,1 iLog
+SkillMake=Tinkering 29.7,tTinkerTools
+Category=Items by Professions
+Subsection=Carpenter
+Description=Froe
+On=@Create
 UsesMax={25 75}
 
-[ITEMDEF 010e6]
-DEFNAME=iInshave
-TYPE=tCarpentry
+[ItemDef 010e6]
+DefName=iInshave
+Type=tCarpentry
 VALUE=12
-WEIGHT=3.0
-RESOURCES=2 iIngotIron,1 iLog
-SKILLMAKE=Tinkering 31.2,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Carpenter
-DESCRIPTION=Inshave
-ON=@Create
+Weight=3.0
+Resources=2 iIngotIron,1 iLog
+SkillMake=Tinkering 31.2,tTinkerTools
+Category=Items by Professions
+Subsection=Carpenter
+Description=Inshave
+On=@Create
 UsesMax={25 75}
 
-[ITEMDEF 010e7]
-DEFNAME=iScorp
-TYPE=tCarpentry
+[ItemDef 010e7]
+DefName=iScorp
+Type=tCarpentry
 VALUE=12
-WEIGHT=3.0
-RESOURCES=2 iIngotIron,1 iLog
-SKILLMAKE=Tinkering 26.3.2,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Carpenter
-DESCRIPTION=Scorp
-ON=@Create
+Weight=3.0
+Resources=2 iIngotIron,1 iLog
+SkillMake=Tinkering 26.3.2,tTinkerTools
+Category=Items by Professions
+Subsection=Carpenter
+Description=Scorp
+On=@Create
 UsesMax={25 75}
 
-[ITEMDEF 012a5]
-DEFNAME=iCardsTarot
-WEIGHT=0.1
-RESOURCES=13 iPaper
-CATEGORY=Items by Professions
-SUBSECTION=Fortune Teller
-DESCRIPTION=Tarot Cards
-DUPELIST=012a6,012a7,012a8,012a9,012aa,012ab,012ac
+[ItemDef 012a5]
+DefName=iCardsTarot
+Weight=0.1
+Resources=13 iPaper
+Category=Items by Professions
+Subsection=Fortune Teller
+Description=Tarot Cards
+DupeList=012a6,012a7,012a8,012a9,012aa,012ab,012ac
 
-[ITEMDEF 012a6]
+[ItemDef 012a6]
 //tarot
-DUPEITEM=012a5
+DupeItem=012a5
 
-[ITEMDEF 012a7]
+[ItemDef 012a7]
 //tarot
-DUPEITEM=012a5
+DupeItem=012a5
 
-[ITEMDEF 012a8]
+[ItemDef 012a8]
 //tarot
-DUPEITEM=012a5
+DupeItem=012a5
 
-[ITEMDEF 012a9]
+[ItemDef 012a9]
 //tarot
-DUPEITEM=012a5
+DupeItem=012a5
 
-[ITEMDEF 012aa]
+[ItemDef 012aa]
 //tarot
-DUPEITEM=012a5
+DupeItem=012a5
 
-[ITEMDEF 012ab]
+[ItemDef 012ab]
 //tarot
-DUPEITEM=012a5
+DupeItem=012a5
 
-[ITEMDEF 012ac]
+[ItemDef 012ac]
 //tarot
-DUPEITEM=012a5
+DupeItem=012a5
 
-[ITEMDEF 012b3]
-DEFNAME=iMalletAndChisel
-TYPE=tMasonryTool
+[ItemDef 012b3]
+DefName=iMalletAndChisel
+Type=tMasonryTool
 VALUE=17
-WEIGHT=3.0
-RESOURCES=2 iIngotIron,1 iBoard
-CATEGORY=Items by Professions
-SUBSECTION=Mason
-DESCRIPTION=Mallet and Chisel
-ON=@Create
+Weight=3.0
+Resources=2 iIngotIron,1 iBoard
+Category=Items by Professions
+Subsection=Mason
+Description=Mallet and Chisel
+On=@Create
 UsesMax={25 75}
 
-[ITEMDEF 01370]
-DEFNAME=iBrushHorse
+[ItemDef 01370]
+DefName=iBrushHorse
 FLIP=1
 VALUE=9
-WEIGHT=2.0
-RESOURCES=1 iBoard,5 iStraw
-SKILLMAKE=Carpentry 18.0,tCarpentry
-CATEGORY=Items by Professions
-SUBSECTION=Stablemaster
-DESCRIPTION=Brush
-DUPELIST=01371
+Weight=2.0
+Resources=1 iBoard,5 iStraw
+SkillMake=Carpentry 18.0,tCarpentry
+Category=Items by Professions
+Subsection=Stablemaster
+Description=Brush
+DupeList=01371
 
-[ITEMDEF 01371]
+[ItemDef 01371]
 //brush
-DUPEITEM=01370
+DupeItem=01370
 
-[ITEMDEF 01372]
-DEFNAME=iBrushHorse2
-NAME=long handled brush
+[ItemDef 01372]
+DefName=iBrushHorse2
+Name=long handled brush
 FLIP=1
 VALUE=9
-WEIGHT=2.0
-RESOURCES=1 iBoard,5 iStraw
-SKILLMAKE=Carpentry 18.0,tCarpentry
-CATEGORY=Items by Professions
-SUBSECTION=Stablemaster
-DESCRIPTION=Long Handled Brush
-DUPELIST=01373
+Weight=2.0
+Resources=1 iBoard,5 iStraw
+SkillMake=Carpentry 18.0,tCarpentry
+Category=Items by Professions
+Subsection=Stablemaster
+Description=Long Handled Brush
+DupeList=01373
 
-[ITEMDEF 01373]
+[ItemDef 01373]
 //long handled brush
-DUPEITEM=01372
+DupeItem=01372
 
-[ITEMDEF 01374]
-DEFNAME=iBridleHorse
+[ItemDef 01374]
+DefName=iBrIDleHorse
 FLIP=1
 VALUE=46
-WEIGHT=11.1
-RESOURCES=2 iHide,1 iIngotIron,1 iRope
-SKILLMAKE=Tailoring 48.0,tSewingKit
-CATEGORY=Items by Professions
-SUBSECTION=Stablemaster
-DESCRIPTION=Bridle
-DUPELIST=01375
+Weight=11.1
+Resources=2 iHIDe,1 iIngotIron,1 iRope
+SkillMake=Tailoring 48.0,tSewingKit
+Category=Items by Professions
+Subsection=Stablemaster
+Description=BrIDle
+DupeList=01375
 
-[ITEMDEF 01375]
-DEFNAME=iBridleHorse2
-DUPEITEM=01374
+[ItemDef 01375]
+DefName=iBrIDleHorse2
+DupeItem=01374
 
-[ITEMDEF 01376]
-DEFNAME=iBardingHorse
+[ItemDef 01376]
+DefName=iBardingHorse
 FLIP=1
 VALUE=234
-WEIGHT=72.0
-RESOURCES=40 iIngotIron,5 iHide,6 iBoard,1 i_rope
-SKILLMAKE=Blacksmithing 95.1
-CATEGORY=Items by Professions
-SUBSECTION=Blacksmith
-DESCRIPTION=Horse Barding
-DUPELIST=01377,01378,01379
+Weight=72.0
+Resources=40 iIngotIron,5 iHIDe,6 iBoard,1 i_rope
+SkillMake=Blacksmithing 95.1
+Category=Items by Professions
+Subsection=Blacksmith
+Description=Horse Barding
+DupeList=01377,01378,01379
 //FIXME: Allow the barding to be put on a steed... transfering
 //the resistances as necessary.
 
-[ITEMDEF 01377]
+[ItemDef 01377]
 //horse barding
-DUPEITEM=01376
+DupeItem=01376
 
-[ITEMDEF 01378]
+[ItemDef 01378]
 //horse barding
-DUPEITEM=01376
+DupeItem=01376
 
-[ITEMDEF 01379]
+[ItemDef 01379]
 //horse barding
-DUPEITEM=01376
+DupeItem=01376
 
 
-[ITEMDEF 01420]
-DEFNAME=iString
+[ItemDef 01420]
+DefName=iString
 FLIP=1
 VALUE=8
-WEIGHT=0.2
-RESOURCES=1 iCotton,1 iCloth
-SKILLMAKE=Tailoring 19.4,tSewingKit
-CATEGORY=Items by Professions
-SUBSECTION=Candlemaker
-DESCRIPTION=String
-DUPELIST=01421
+Weight=0.2
+Resources=1 iCotton,1 iCloth
+SkillMake=Tailoring 19.4,tSewingKit
+Category=Items by Professions
+Subsection=Candlemaker
+Description=String
+DupeList=01421
 
-[ITEMDEF 01421]
+[ItemDef 01421]
 //string
-DUPEITEM=01420
+DupeItem=01420
 
-[ITEMDEF 01422]
-DEFNAME=iBeeswax
+[ItemDef 01422]
+DefName=iBeeswax
 VALUE=2
-WEIGHT=0.1
-RESOURCES=1 iBeehive
-CATEGORY=Items by Professions
-SUBSECTION=Beekeeper
-DESCRIPTION=Beeswax
-DUPELIST=01423,01424,01425,01426,01427
+Weight=0.1
+Resources=1 iBeehive
+Category=Items by Professions
+Subsection=Beekeeper
+Description=Beeswax
+DupeList=01423,01424,01425,01426,01427
 
-[ITEMDEF 01423]
+[ItemDef 01423]
 //Beeswax
-DUPEITEM=01422
+DupeItem=01422
 
-[ITEMDEF 01424]
+[ItemDef 01424]
 //Beeswax
-DUPEITEM=01422
+DupeItem=01422
 
-[ITEMDEF 01425]
+[ItemDef 01425]
 //Beeswax
-DUPEITEM=01422
+DupeItem=01422
 
-[ITEMDEF 01426]
+[ItemDef 01426]
 //Beeswax
-DUPEITEM=01422
+DupeItem=01422
 
-[ITEMDEF 01427]
+[ItemDef 01427]
 //Beeswax
-DUPEITEM=01422
+DupeItem=01422
 
-[ITEMDEF 01428]
-DEFNAME=iDippingStick
-NAME=dipping stick
+[ItemDef 01428]
+DefName=IDippingStick
+Name=dipping stick
 FLIP=1
 VALUE=13
-WEIGHT=1.1
-RESOURCES=1 iSticks,1 iString
-SKILLMAKE=Tinkering 25.0,iPotOfWax
-CATEGORY=Items by Professions
-SUBSECTION=Candlemaker
-DESCRIPTION=Dipping Stick
-DUPELIST=01429
+Weight=1.1
+Resources=1 iSticks,1 iString
+SkillMake=Tinkering 25.0,iPotOfWax
+Category=Items by Professions
+Subsection=Candlemaker
+Description=Dipping Stick
+DupeList=01429
 
-[ITEMDEF 01429]
+[ItemDef 01429]
 //Dipping Stick
-DUPEITEM=01428
+DupeItem=01428
 
-[ITEMDEF 0142a]
-DEFNAME=iKettleOfWax
-NAME=kettle of wax
+[ItemDef 0142a]
+DefName=iKettleOfWax
+Name=kettle of wax
 VALUE=184
-WEIGHT=56.0
-RESOURCES=25 iBeeswax,1 iKettle
-SKILLMAKE=Tinkering 35.0,iTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Candlemaker
-DESCRIPTION=Kettle of Wax
+Weight=56.0
+Resources=25 iBeeswax,1 iKettle
+SkillMake=Tinkering 35.0,iTinkerTools
+Category=Items by Professions
+Subsection=Candlemaker
+Description=Kettle of Wax
 
-[ITEMDEF 0142b]
-DEFNAME=iPotOfWax
-NAME=pot of wax
+[ItemDef 0142b]
+DefName=iPotOfWax
+Name=pot of wax
 VALUE=28
-WEIGHT=6.0
-RESOURCES=5 iBeeswax,1 iPotSmall
-SKILLMAKE=Tinkering 25.0,iTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Candlemaker
-DESCRIPTION=Pot of Wax
+Weight=6.0
+Resources=5 iBeeswax,1 iPotSmall
+SkillMake=Tinkering 25.0,iTinkerTools
+Category=Items by Professions
+Subsection=Candlemaker
+Description=Pot of Wax
 
 
-[ITEMDEF 01449]
-DEFNAME=iGrainLoose
-TYPE=tGrain
+[ItemDef 01449]
+DefName=iGrainLoose
+Type=tGrain
 VALUE=1
-WEIGHT=0.1
-RESOURCES=1 iWheatSheaf
-CATEGORY=Items by Professions
-SUBSECTION=Stablemaster
-DESCRIPTION=Loose Grain
+Weight=0.1
+Resources=1 iWheatSheaf
+Category=Items by Professions
+Subsection=Stablemaster
+Description=Loose Grain
 
 
-[ITEMDEF 014e7]
-DEFNAME=iPostHitching
+[ItemDef 014e7]
+DefName=iPostHitching
 FLIP=1
 VALUE=35
-WEIGHT=7.0
-RESOURCES=5 iLog,1 iNails,1 iIngotIron
-SKILLMAKE=Carpentry 23.9,tCarpentry
-CATEGORY=Items by Professions
-SUBSECTION=Stablemaster
-DESCRIPTION=Hitching Post
-DUPELIST=014e8
+Weight=7.0
+Resources=5 iLog,1 iNails,1 iIngotIron
+SkillMake=Carpentry 23.9,tCarpentry
+Category=Items by Professions
+Subsection=Stablemaster
+Description=Hitching Post
+DupeList=014e8
 
-[ITEMDEF 014e8]
+[ItemDef 014e8]
 //hitching post
-DUPEITEM=014e7
+DupeItem=014e7
 
-[ITEMDEF 014e9]
-DEFNAME=iMouldingBoard
-TYPE=tCarpentry
+[ItemDef 014e9]
+DefName=iMouldingBoard
+Type=tCarpentry
 FLIP=1
 VALUE=7
-WEIGHT=2.0
-RESOURCES=1 iLog,3 iBoard
-SKILLMAKE=Carpentry 16.1,tCarpentry
-CATEGORY=Items by Professions
-SUBSECTION=Carpenter
-DESCRIPTION=Moulding Board
-DUPELIST=014ea
+Weight=2.0
+Resources=1 iLog,3 iBoard
+SkillMake=Carpentry 16.1,tCarpentry
+Category=Items by Professions
+Subsection=Carpenter
+Description=Moulding Board
+DupeList=014ea
 
-[ITEMDEF 014ea]
+[ItemDef 014ea]
 //moulding board
-DUPEITEM=014e9
+DupeItem=014e9
 
 
-[ITEMDEF 014fb]
-DEFNAME=iLockpick
-TYPE=tLockpick
+[ItemDef 014fb]
+DefName=iLockpick
+Type=tLockpick
 FLIP=1
 VALUE=9
-WEIGHT=0.1
-RESOURCES=1 iIngotIron
-SKILLMAKE=Tinkering 48.5,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Thief
-DESCRIPTION=Lockpick
-DUPELIST=014fc
-ON=@Create
+Weight=0.1
+Resources=1 iIngotIron
+SkillMake=Tinkering 48.5,tTinkerTools
+Category=Items by Professions
+Subsection=Thief
+Description=Lockpick
+DupeList=014fc
+On=@Create
 MORE1=01200012
 
-[ITEMDEF 014fc]
+[ItemDef 014fc]
 //lockpick
-DUPEITEM=014fb
+DupeItem=014fb
 
-[ITEMDEF 014fd]
-DEFNAME=iLockpickSet
-TYPE=tLockpick
+[ItemDef 014fd]
+DefName=iLockpickSet
+Type=tLockpick
 FLIP=1
-WEIGHT=0.3
-RESOURCES=3 iLockpick
-SKILLMAKE=Tinkering 48.5,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Thief
-DESCRIPTION=Lockpicks (Set)
-DUPELIST=014fe
+Weight=0.3
+Resources=3 iLockpick
+SkillMake=Tinkering 48.5,tTinkerTools
+Category=Items by Professions
+Subsection=Thief
+Description=Lockpicks (Set)
+DupeList=014fe
 
-[ITEMDEF 014fe]
+[ItemDef 014fe]
 //lockpicks
-DUPEITEM=014fd
+DupeItem=014fd
 
 
-[ITEMDEF 01500]
-DEFNAME=iPlough
+[ItemDef 01500]
+DefName=iPlough
 FLIP=1
-WEIGHT=35.2
-RESOURCES=12 iLog,5 iLog,2 iNails,6 i_ingotIron
-CATEGORY=Items by Professions
-SUBSECTION=Farmer
-DESCRIPTION=Plough
-DUPELIST=01501,01502,01503
+Weight=35.2
+Resources=12 iLog,5 iLog,2 iNails,6 i_ingotIron
+Category=Items by Professions
+Subsection=Farmer
+Description=Plough
+DupeList=01501,01502,01503
 
-[ITEMDEF 01501]
+[ItemDef 01501]
 //plough
-DUPEITEM=01500
+DupeItem=01500
 
-[ITEMDEF 01502]
+[ItemDef 01502]
 //plough
-DUPEITEM=01500
+DupeItem=01500
 
-[ITEMDEF 01503]
+[ItemDef 01503]
 //plough
-DUPEITEM=01500
+DupeItem=01500
 
-[ITEMDEF 01504]
-DEFNAME=iHarrow
+[ItemDef 01504]
+DefName=iHarrow
 FLIP=1
-WEIGHT=22.1
-RESOURCES=10 iLog,2 iIngotIron,1 iNails
-CATEGORY=Items by Professions
-SUBSECTION=Farmer
-DESCRIPTION=Harrow
-DUPELIST=01505,01506,01507
+Weight=22.1
+Resources=10 iLog,2 iIngotIron,1 iNails
+Category=Items by Professions
+Subsection=Farmer
+Description=Harrow
+DupeList=01505,01506,01507
 
-[ITEMDEF 01505]
+[ItemDef 01505]
 //harrow
-DUPEITEM=01504
+DupeItem=01504
 
-[ITEMDEF 01506]
+[ItemDef 01506]
 //harrow
-DUPEITEM=01504
+DupeItem=01504
 
-[ITEMDEF 01507]
+[ItemDef 01507]
 //harrow
-DUPEITEM=01504
+DupeItem=01504
 
 
-[ITEMDEF 0154d]
-DEFNAME=iBarrelWater
-TYPE=tWaterWash
+[ItemDef 0154d]
+DefName=iBarrelWater
+Type=tWaterWash
 VALUE=149
-WEIGHT=87.0
-RESOURCES=1 iBarrelOpen,25 iPitcherWater
-SKILLMAKE=Carpentry 85.0,tCarpentry
-CATEGORY=Items by Professions
-SUBSECTION=Stablemaster
-DESCRIPTION=Water Barrel
+Weight=87.0
+Resources=1 iBarrelOpen,25 iPitcherWater
+SkillMake=Carpentry 85.0,tCarpentry
+Category=Items by Professions
+Subsection=Stablemaster
+Description=Water Barrel
 
 
-[ITEMDEF 01871]
-DEFNAME=iCarcassBeef
-TYPE=tMeatRaw
+[ItemDef 01871]
+DefName=iCarcassBeef
+Type=tMeatRaw
 TDATA1=40 iRibsCooked
 FLIP=1
 VALUE=14
-WEIGHT=250.0
-CATEGORY=Items by Professions
-SUBSECTION=Butcher
-DESCRIPTION=Beef Carcass
-DUPELIST=01872
-ON=@Create
+Weight=250.0
+Category=Items by Professions
+Subsection=Butcher
+Description=Beef Carcass
+DupeList=01872
+On=@Create
 MOREM=40
 
-[ITEMDEF 01872]
+[ItemDef 01872]
 //beef carcass
-DUPEITEM=01871
+DupeItem=01871
 
-[ITEMDEF 01873]
-DEFNAME=iCarcassOther
-TYPE=tMeatRaw
+[ItemDef 01873]
+DefName=iCarcassOther
+Type=tMeatRaw
 TDATA1=20 iRibsCooked
 FLIP=1
 VALUE=14
-WEIGHT=100.0
-CATEGORY=Items by Professions
-SUBSECTION=Butcher
-DESCRIPTION=Sheep Carcass
-DUPELIST=01874
-ON=@Create
+Weight=100.0
+Category=Items by Professions
+Subsection=Butcher
+Description=Sheep Carcass
+DupeList=01874
+On=@Create
 MOREM=20
 
-[ITEMDEF 01874]
+[ItemDef 01874]
 //sheep carcass
-DUPEITEM=01873
+DupeItem=01873
 
-[ITEMDEF 01876]
-DEFNAME=iWireIron
-WEIGHT=1.0
+[ItemDef 01876]
+DefName=iWireIron
+Weight=1.0
 VALUE=8
-RESOURCES=1 iIngotIron
-SKILLMAKE=Tinkering 41.7,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Tinker
-DESCRIPTION=Iron Wire
+Resources=1 iIngotIron
+SkillMake=Tinkering 41.7,tTinkerTools
+Category=Items by Professions
+Subsection=Tinker
+Description=Iron Wire
 
-[ITEMDEF 01877]
-DEFNAME=iWireSilver
-WEIGHT=1.0
+[ItemDef 01877]
+DefName=iWireSilver
+Weight=1.0
 VALUE=13
-RESOURCES=1 iIngotSilver
-SKILLMAKE=Tinkering 45.7,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Tinker
-DESCRIPTION=Silver Wire
+Resources=1 iIngotSilver
+SkillMake=Tinkering 45.7,tTinkerTools
+Category=Items by Professions
+Subsection=Tinker
+Description=Silver Wire
 
-[ITEMDEF 01878]
-DEFNAME=iWireGold
+[ItemDef 01878]
+DefName=iWireGold
 VALUE=12
-WEIGHT=1.5
-RESOURCES=1 iIngotGold
-SKILLMAKE=Tinkering 51.7,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Tinker
-DESCRIPTION=Gold Wire
+Weight=1.5
+Resources=1 iIngotGold
+SkillMake=Tinkering 51.7,tTinkerTools
+Category=Items by Professions
+Subsection=Tinker
+Description=Gold Wire
 
-[ITEMDEF 01879]
-DEFNAME=iWireCopper
+[ItemDef 01879]
+DefName=iWireCopper
 VALUE=9
-WEIGHT=1.0
-RESOURCES=1 iIngotCopper
-SKILLMAKE=Tinkering 41.7,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Tinker
-DESCRIPTION=Copper Wire
+Weight=1.0
+Resources=1 iIngotCopper
+SkillMake=Tinkering 41.7,tTinkerTools
+Category=Items by Professions
+Subsection=Tinker
+Description=Copper Wire
 
 
-[ITEMDEF 0187e]
-DEFNAME=iFlourSpilled
-TYPE=tNormal
+[ItemDef 0187e]
+DefName=iFlourSpilled
+Type=tNormal
 FLIP=1
 VALUE=1
-WEIGHT=0.1
-RESOURCES=1 iWheatSheaf
-CATEGORY=Items by Professions
-SUBSECTION=Miller
-DESCRIPTION=Spilled Flour
-DUPELIST=0187f,01880,01881
+Weight=0.1
+Resources=1 iWheatSheaf
+Category=Items by Professions
+Subsection=Miller
+Description=Spilled Flour
+DupeList=0187f,01880,01881
 
-[ITEMDEF 0187f]
-DEFNAME=iFlourSpilled2
-DUPEITEM=0187e
+[ItemDef 0187f]
+DefName=iFlourSpilled2
+DupeItem=0187e
 
-[ITEMDEF 01880]
-DEFNAME=iFlourSpilled3
-DUPEITEM=0187e
+[ItemDef 01880]
+DefName=iFlourSpilled3
+DupeItem=0187e
 
-[ITEMDEF 01881]
-DEFNAME=iFlourSpilled4
-DUPEITEM=0187e
+[ItemDef 01881]
+DefName=iFlourSpilled4
+DupeItem=0187e
 
-[ITEMDEF 01882]
+[ItemDef 01882]
 //FIXME: Does this container actually work?
-DEFNAME=iBasketWinnowing
-TYPE=tContainer
+DefName=iBasketWinnowing
+Type=tContainer
 //TDATA2=03f
 TDATA2=041
-WEIGHT=5.0
-RESOURCES=2 iSoftenedReed,3 iArrowShaft
-SKILLMAKE=Tinkering 25.0
-CATEGORY=Items by Professions
-SUBSECTION=Miller
-DESCRIPTION=Winnowing Basket
+Weight=5.0
+Resources=2 iSoftenedReed,3 iArrowShaft
+SkillMake=Tinkering 25.0
+Category=Items by Professions
+Subsection=Miller
+Description=Winnowing Basket
 
-[ITEMDEF 01883]
-DEFNAME=iMillstone
-WEIGHT=400.0
-RESOURCES=40 iRockPlain
-CATEGORY=Items by Professions
-SUBSECTION=Miller
-DESCRIPTION=Millstone
-DUPELIST=01884,01885,01886,01887,01888,01889,0188a
+[ItemDef 01883]
+DefName=iMillstone
+Weight=400.0
+Resources=40 iRockPlain
+Category=Items by Professions
+Subsection=Miller
+Description=Millstone
+DupeList=01884,01885,01886,01887,01888,01889,0188a
 
-[ITEMDEF 01884]
+[ItemDef 01884]
 //millstone
-DUPEITEM=01883
+DupeItem=01883
 
-[ITEMDEF 01885]
+[ItemDef 01885]
 //millstone
-DUPEITEM=01883
+DupeItem=01883
 
-[ITEMDEF 01886]
+[ItemDef 01886]
 //millstone
-DUPEITEM=01883
+DupeItem=01883
 
-[ITEMDEF 01887]
+[ItemDef 01887]
 //millstones
-DUPEITEM=01883
+DupeItem=01883
 
-[ITEMDEF 01888]
+[ItemDef 01888]
 //millstones
-DUPEITEM=01883
+DupeItem=01883
 
-[ITEMDEF 01889]
+[ItemDef 01889]
 //millstones
-DUPEITEM=01883
+DupeItem=01883
 
-[ITEMDEF 0188a]
+[ItemDef 0188a]
 //millstones
-DUPEITEM=01883
+DupeItem=01883
 
-[ITEMDEF 0188b]
-WEIGHT=435.2
-RESOURCES=1 iMillstone,4 iLog,2 iNails,20 i_board,20 i_grain_loose,1 i_flour_mill_crank
-CATEGORY=Items by Professions
-SUBSECTION=Miller
-DESCRIPTION=Flour Mill (unused?)
-DUPELIST=01893
+[ItemDef 0188b]
+Weight=435.2
+Resources=1 iMillstone,4 iLog,2 iNails,20 i_board,20 i_grain_loose,1 i_flour_mill_crank
+Category=Items by Professions
+Subsection=Miller
+Description=Flour Mill (unused?)
+DupeList=01893
 
-[ITEMDEF 01893]
+[ItemDef 01893]
 //flower mill
-DUPEITEM=0188b
+DupeItem=0188b
 
 
-[ITEMDEF 01920]
-DEFNAME=iFlourMill
-WEIGHT=435.1
-RESOURCES=1 iMillstone,4 iLog,2 iNails,20 i_board,20 i_grain_loose,1 i_flour_mill_crank
-CATEGORY=Items by Professions
-SUBSECTION=Miller
-DESCRIPTION=Flour Mill
-DUPELIST=01921,01922,01923,01925,01926,01927,0192c,0192d,0192e,0192f,01931,01932,01933
+[ItemDef 01920]
+DefName=iFlourMill
+Weight=435.1
+Resources=1 iMillstone,4 iLog,2 iNails,20 i_board,20 i_grain_loose,1 i_flour_mill_crank
+Category=Items by Professions
+Subsection=Miller
+Description=Flour Mill
+DupeList=01921,01922,01923,01925,01926,01927,0192c,0192d,0192e,0192f,01931,01932,01933
 
-[ITEMDEF 01921]
+[ItemDef 01921]
 //flour mill
-DUPEITEM=01920
+DupeItem=01920
 
-[ITEMDEF 01922]
+[ItemDef 01922]
 //flour mill
-DUPEITEM=01920
+DupeItem=01920
 
-[ITEMDEF 01923]
+[ItemDef 01923]
 //flour mill
-DUPEITEM=01920
+DupeItem=01920
 
-[ITEMDEF 01924]
-DEFNAME=iFlourMillCrank
-WEIGHT=4.0
-RESOURCES=2 iIngotIron,1 iLog
-CATEGORY=Items by Professions
-SUBSECTION=Miller
-DESCRIPTION=Flour Mill (Crank)
+[ItemDef 01924]
+DefName=iFlourMillCrank
+Weight=4.0
+Resources=2 iIngotIron,1 iLog
+Category=Items by Professions
+Subsection=Miller
+Description=Flour Mill (Crank)
 
-[ITEMDEF 01925]
+[ItemDef 01925]
 //flour mill
-DUPEITEM=01920
+DupeItem=01920
 
-[ITEMDEF 01926]
+[ItemDef 01926]
 //flour mill
-DUPEITEM=01920
+DupeItem=01920
 
-[ITEMDEF 01927]
+[ItemDef 01927]
 //flour mill
-DUPEITEM=01920
+DupeItem=01920
 
-[ITEMDEF 01928]
-DEFNAME=iFlourMillCrank2
-WEIGHT=4.0
-RESOURCES=2 iIngotIron,1 iLog
-CATEGORY=Items by Professions
-SUBSECTION=Miller
-DESCRIPTION=Flour Mill (Crank)
+[ItemDef 01928]
+DefName=iFlourMillCrank2
+Weight=4.0
+Resources=2 iIngotIron,1 iLog
+Category=Items by Professions
+Subsection=Miller
+Description=Flour Mill (Crank)
 
-[ITEMDEF 01929]
-DEFNAME=iFlourMillCrank3
-WEIGHT=4.0
-RESOURCES=2 iIngotIron,1 iLog
-CATEGORY=Items by Professions
-SUBSECTION=Miller
-DESCRIPTION=Flour Mill (Crank)
+[ItemDef 01929]
+DefName=iFlourMillCrank3
+Weight=4.0
+Resources=2 iIngotIron,1 iLog
+Category=Items by Professions
+Subsection=Miller
+Description=Flour Mill (Crank)
 
-[ITEMDEF 0192a]
-DEFNAME=iFlourMillCrank4
-WEIGHT=4.0
-RESOURCES=2 iIngotIron,1 iLog
-CATEGORY=Items by Professions
-SUBSECTION=Miller
-DESCRIPTION=Flour Mill (Crank)
+[ItemDef 0192a]
+DefName=iFlourMillCrank4
+Weight=4.0
+Resources=2 iIngotIron,1 iLog
+Category=Items by Professions
+Subsection=Miller
+Description=Flour Mill (Crank)
 
-[ITEMDEF 0192b]
-DEFNAME=iFlourMillCrank5
-WEIGHT=4.0
-RESOURCES=2 iIngotIron,1 iLog
-CATEGORY=Items by Professions
-SUBSECTION=Miller
-DESCRIPTION=Flour Mill (Crank)
+[ItemDef 0192b]
+DefName=iFlourMillCrank5
+Weight=4.0
+Resources=2 iIngotIron,1 iLog
+Category=Items by Professions
+Subsection=Miller
+Description=Flour Mill (Crank)
 
-[ITEMDEF 0192c]
+[ItemDef 0192c]
 //flour mill
-DUPEITEM=01920
+DupeItem=01920
 
-[ITEMDEF 0192d]
+[ItemDef 0192d]
 //flour mill
-DUPEITEM=01920
+DupeItem=01920
 
-[ITEMDEF 0192e]
+[ItemDef 0192e]
 //flour mill
-DUPEITEM=01920
+DupeItem=01920
 
-[ITEMDEF 0192f]
+[ItemDef 0192f]
 //flour mill
-DUPEITEM=01920
+DupeItem=01920
 
-[ITEMDEF 01930]
-DEFNAME=iFlourMillCrank6
-WEIGHT=4.0
-RESOURCES=2 iIngotIron,1 iLog
-CATEGORY=Items by Professions
-SUBSECTION=Miller
-DESCRIPTION=Flour Mill (Crank)
-DUPELIST=01934,01935,01936,01937
+[ItemDef 01930]
+DefName=iFlourMillCrank6
+Weight=4.0
+Resources=2 iIngotIron,1 iLog
+Category=Items by Professions
+Subsection=Miller
+Description=Flour Mill (Crank)
+DupeList=01934,01935,01936,01937
 
-[ITEMDEF 01931]
+[ItemDef 01931]
 //flour mill
-DUPEITEM=01920
+DupeItem=01920
 
-[ITEMDEF 01932]
+[ItemDef 01932]
 //flour mill
-DUPEITEM=01920
+DupeItem=01920
 
-[ITEMDEF 01933]
+[ItemDef 01933]
 //flour mill
-DUPEITEM=01920
+DupeItem=01920
 
-[ITEMDEF 01934]
+[ItemDef 01934]
 //crank
-DUPEITEM=01930
+DupeItem=01930
 
-[ITEMDEF 01935]
+[ItemDef 01935]
 //crank
-DUPEITEM=01930
+DupeItem=01930
 
-[ITEMDEF 01936]
+[ItemDef 01936]
 //crank
-DUPEITEM=01930
+DupeItem=01930
 
-[ITEMDEF 01937]
+[ItemDef 01937]
 //crank
-DUPEITEM=01930
+DupeItem=01930
 
 
-[ITEMDEF 0194b]
-DEFNAME=iScopeSurveyor
-NAME=surveyor scope
-TYPE=tSextant
+[ItemDef 0194b]
+DefName=iScopeSurveyor
+Name=surveyor scope
+Type=tSextant
 FLIP=1
 VALUE=51
-WEIGHT=0.6
-RESOURCES=1 iSextantParts,1 iSpyglass
-SKILLMAKE=Tinkering 30.7,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Tinker
-DESCRIPTION=Surveyor Scope
-DUPELIST=0194c
+Weight=0.6
+Resources=1 iSextantParts,1 iSpyglass
+SkillMake=Tinkering 30.7,tTinkerTools
+Category=Items by Professions
+Subsection=Tinker
+Description=Surveyor Scope
+DupeList=0194c
 
-[ITEMDEF 0194c]
+[ItemDef 0194c]
 //surveyor scope
-DUPEITEM=0194b
+DupeItem=0194b
 
 
-[ITEMDEF 0197a]
-DEFNAME=iForgeLargeBellows
-TYPE=tForge
+[ItemDef 0197a]
+DefName=iForgeLargeBellows
+Type=tForge
 FLIP=1
-WEIGHT=580.2
-RESOURCES=1 iNails,1 iSprings,25 iLog,25 i_ingotIron,50 i_rock_plain,5 i_canvas
-CATEGORY=Items by Professions
-SUBSECTION=Blacksmith
-DESCRIPTION=Large Forge (bellows)
-DUPELIST=0197b,0197c,0197d,01986,01987,01988,01989,01992,01993,01994,01995,0199e,0199f,019a0,019a1
+Weight=580.2
+Resources=1 iNails,1 iSprings,25 iLog,25 i_ingotIron,50 i_rock_plain,5 i_canvas
+Category=Items by Professions
+Subsection=Blacksmith
+Description=Large Forge (bellows)
+DupeList=0197b,0197c,0197d,01986,01987,01988,01989,01992,01993,01994,01995,0199e,0199f,019a0,019a1
 
-[ITEMDEF 0197b]
+[ItemDef 0197b]
 //large forge (bellows)
-DUPEITEM=0197a
+DupeItem=0197a
 
-[ITEMDEF 0197c]
+[ItemDef 0197c]
 //large forge (bellows)
-DUPEITEM=0197a
+DupeItem=0197a
 
-[ITEMDEF 0197d]
+[ItemDef 0197d]
 //large forge (bellows)
-DUPEITEM=0197a
+DupeItem=0197a
 
-[ITEMDEF 0197e]
-DEFNAME=iForgeLarge
-TYPE=tForge
+[ItemDef 0197e]
+DefName=iForgeLarge
+Type=tForge
 FLIP=1
-WEIGHT=575.0
-RESOURCES=25 iLog,25 iIngotIron,50 iRockPlain
-CATEGORY=Items by Professions
-SUBSECTION=Blacksmith
-DESCRIPTION=Large Forge (center)
-DUPELIST=0197f,01980,01981,0198a,0198b,0198c,0198d,01996,01997,01998,01999,019a2,019a3,019a4,019a5,01982,01983,01984,01985,0198e,0198f,01990,01991,0199a,0199b,0199c,0199d,019a6,019a7,019a8,019a9
+Weight=575.0
+Resources=25 iLog,25 iIngotIron,50 iRockPlain
+Category=Items by Professions
+Subsection=Blacksmith
+Description=Large Forge (center)
+DupeList=0197f,01980,01981,0198a,0198b,0198c,0198d,01996,01997,01998,01999,019a2,019a3,019a4,019a5,01982,01983,01984,01985,0198e,0198f,01990,01991,0199a,0199b,0199c,0199d,019a6,019a7,019a8,019a9
 
-[ITEMDEF 0197f]
+[ItemDef 0197f]
 //large forge (center)
-DUPEITEM=0197e
+DupeItem=0197e
 
-[ITEMDEF 01980]
+[ItemDef 01980]
 //large forge (center)
-DUPEITEM=0197e
+DupeItem=0197e
 
-[ITEMDEF 01981]
+[ItemDef 01981]
 //large forge (center)
-DUPEITEM=0197e
+DupeItem=0197e
 
-[ITEMDEF 01982]
+[ItemDef 01982]
 //large forge (end)
-DUPEITEM=0197e
+DupeItem=0197e
 
-[ITEMDEF 01983]
+[ItemDef 01983]
 //large forge (end)
-DUPEITEM=0197e
+DupeItem=0197e
 
-[ITEMDEF 01984]
+[ItemDef 01984]
 //large forge (end)
-DUPEITEM=0197e
+DupeItem=0197e
 
-[ITEMDEF 01985]
+[ItemDef 01985]
 //large forge (end)
-DUPEITEM=0197e
+DupeItem=0197e
 
-[ITEMDEF 01986]
+[ItemDef 01986]
 //large forge (bellows)
-DUPEITEM=0197a
+DupeItem=0197a
 
-[ITEMDEF 01987]
+[ItemDef 01987]
 //large forge (bellows)
-DUPEITEM=0197a
+DupeItem=0197a
 
-[ITEMDEF 01988]
+[ItemDef 01988]
 //large forge (bellows)
-DUPEITEM=0197a
+DupeItem=0197a
 
-[ITEMDEF 01989]
+[ItemDef 01989]
 //large forge (bellows)
-DUPEITEM=0197a
+DupeItem=0197a
 
-[ITEMDEF 0198a]
+[ItemDef 0198a]
 //large forge (center)
-DUPEITEM=0197e
+DupeItem=0197e
 
-[ITEMDEF 0198b]
+[ItemDef 0198b]
 //large forge (center)
-DUPEITEM=0197e
+DupeItem=0197e
 
-[ITEMDEF 0198c]
+[ItemDef 0198c]
 //large forge (center)
-DUPEITEM=0197e
+DupeItem=0197e
 
-[ITEMDEF 0198d]
+[ItemDef 0198d]
 //large forge (center)
-DUPEITEM=0197e
+DupeItem=0197e
 
-[ITEMDEF 0198e]
+[ItemDef 0198e]
 //large forge (end)
-DUPEITEM=0197e
+DupeItem=0197e
 
-[ITEMDEF 0198f]
+[ItemDef 0198f]
 //large forge (end)
-DUPEITEM=0197e
+DupeItem=0197e
 
-[ITEMDEF 01990]
+[ItemDef 01990]
 //large forge (end)
-DUPEITEM=0197e
+DupeItem=0197e
 
-[ITEMDEF 01991]
+[ItemDef 01991]
 //large forge (end)
-DUPEITEM=0197e
+DupeItem=0197e
 
-[ITEMDEF 01992]
+[ItemDef 01992]
 //large forge (bellows)
-DUPEITEM=0197a
+DupeItem=0197a
 
-[ITEMDEF 01993]
+[ItemDef 01993]
 //large forge (bellows)
-DUPEITEM=0197a
+DupeItem=0197a
 
-[ITEMDEF 01994]
+[ItemDef 01994]
 //large forge (bellows)
-DUPEITEM=0197a
+DupeItem=0197a
 
-[ITEMDEF 01995]
+[ItemDef 01995]
 //large forge (bellows)
-DUPEITEM=0197a
+DupeItem=0197a
 
-[ITEMDEF 01996]
+[ItemDef 01996]
 //large forge (center)
-DUPEITEM=0197e
+DupeItem=0197e
 
-[ITEMDEF 01997]
+[ItemDef 01997]
 //large forge (center)
-DUPEITEM=0197e
+DupeItem=0197e
 
-[ITEMDEF 01998]
+[ItemDef 01998]
 //large forge (center)
-DUPEITEM=0197e
+DupeItem=0197e
 
-[ITEMDEF 01999]
+[ItemDef 01999]
 //large forge (center)
-DUPEITEM=0197e
+DupeItem=0197e
 
-[ITEMDEF 0199a]
+[ItemDef 0199a]
 //large forge (end)
-DUPEITEM=0197e
+DupeItem=0197e
 
-[ITEMDEF 0199b]
+[ItemDef 0199b]
 //large forge (end)
-DUPEITEM=0197e
+DupeItem=0197e
 
-[ITEMDEF 0199c]
+[ItemDef 0199c]
 //large forge (end)
-DUPEITEM=0197e
+DupeItem=0197e
 
-[ITEMDEF 0199d]
+[ItemDef 0199d]
 //large forge (end)
-DUPEITEM=0197e
+DupeItem=0197e
 
-[ITEMDEF 0199e]
+[ItemDef 0199e]
 //large forge (bellows)
-DUPEITEM=0197a
+DupeItem=0197a
 
-[ITEMDEF 0199f]
+[ItemDef 0199f]
 //large forge (bellows)
-DUPEITEM=0197a
+DupeItem=0197a
 
-[ITEMDEF 019a0]
+[ItemDef 019a0]
 //large forge (bellows)
-DUPEITEM=0197a
+DupeItem=0197a
 
-[ITEMDEF 019a1]
+[ItemDef 019a1]
 //large forge (bellows)
-DUPEITEM=0197a
+DupeItem=0197a
 
-[ITEMDEF 019a2]
+[ItemDef 019a2]
 //large forge (center)
-DUPEITEM=0197e
+DupeItem=0197e
 
-[ITEMDEF 019a3]
+[ItemDef 019a3]
 //large forge (center)
-DUPEITEM=0197e
+DupeItem=0197e
 
-[ITEMDEF 019a4]
+[ItemDef 019a4]
 //large forge (center)
-DUPEITEM=0197e
+DupeItem=0197e
 
-[ITEMDEF 019a5]
+[ItemDef 019a5]
 //large forge (center)
-DUPEITEM=0197e
+DupeItem=0197e
 
-[ITEMDEF 019a6]
+[ItemDef 019a6]
 //large forge (end)
-DUPEITEM=0197e
+DupeItem=0197e
 
-[ITEMDEF 019a7]
+[ItemDef 019a7]
 //large forge (end)
-DUPEITEM=0197e
+DupeItem=0197e
 
-[ITEMDEF 019a8]
+[ItemDef 019a8]
 //large forge (end)
-DUPEITEM=0197e
+DupeItem=0197e
 
-[ITEMDEF 019a9]
+[ItemDef 019a9]
 //large forge (end)
-DUPEITEM=0197e
+DupeItem=0197e
 
 
-[ITEMDEF 019f1]
-DEFNAME=iBenchWoodworker
-TYPE=tTable
+[ItemDef 019f1]
+DefName=iBenchWoodworker
+Type=tTable
 FLIP=1
 VALUE=68
-WEIGHT=35.2
-RESOURCES=10 iLog,10 iBoard,2 iNails,5 i_ingotIron
-SKILLMAKE=Carpentry 80.0,tCarpentry
-CATEGORY=Items by Professions
-SUBSECTION=Carpenter
-DESCRIPTION=Woodworkers Bench
-DUPELIST=019f2,019f3,019f4,019f5,019f6,019f7,019f8
+Weight=35.2
+Resources=10 iLog,10 iBoard,2 iNails,5 i_ingotIron
+SkillMake=Carpentry 80.0,tCarpentry
+Category=Items by Professions
+Subsection=Carpenter
+Description=Woodworkers Bench
+DupeList=019f2,019f3,019f4,019f5,019f6,019f7,019f8
 
-[ITEMDEF 019f2]
+[ItemDef 019f2]
 //woodworkers bench
-DUPEITEM=019f1
+DupeItem=019f1
 
-[ITEMDEF 019f3]
+[ItemDef 019f3]
 //woodworkers bench
-DUPEITEM=019f1
+DupeItem=019f1
 
-[ITEMDEF 019f4]
+[ItemDef 019f4]
 //woodworkers bench
-DUPEITEM=019f1
+DupeItem=019f1
 
-[ITEMDEF 019f5]
+[ItemDef 019f5]
 //woodworkers bench
-DUPEITEM=019f1
+DupeItem=019f1
 
-[ITEMDEF 019f6]
+[ItemDef 019f6]
 //woodworkers bench
-DUPEITEM=019f1
+DupeItem=019f1
 
-[ITEMDEF 019f7]
+[ItemDef 019f7]
 //woodworkers bench
-DUPEITEM=019f1
+DupeItem=019f1
 
-[ITEMDEF 019f8]
+[ItemDef 019f8]
 //woodworkers bench
-DUPEITEM=019f1
+DupeItem=019f1
 
-[ITEMDEF 019f9]
-DEFNAME=iBenchCooper
-TYPE=tTable
+[ItemDef 019f9]
+DefName=iBenchCooper
+Type=tTable
 FLIP=1
 VALUE=47
-WEIGHT=31.1
-RESOURCES=10 iLog,10 iBoard,1 iNails,1 i_ingotIron
-SKILLMAKE=Carpentry 80.0,tCarpentry
-CATEGORY=Items by Professions
-SUBSECTION=Cooper
-DESCRIPTION=Coopers Bench
-DUPELIST=019fa,019fb,019fc
+Weight=31.1
+Resources=10 iLog,10 iBoard,1 iNails,1 i_ingotIron
+SkillMake=Carpentry 80.0,tCarpentry
+Category=Items by Professions
+Subsection=Cooper
+Description=Coopers Bench
+DupeList=019fa,019fb,019fc
 
-[ITEMDEF 019fa]
+[ItemDef 019fa]
 //coopers bench
-DUPEITEM=019f9
+DupeItem=019f9
 
-[ITEMDEF 019fb]
+[ItemDef 019fb]
 //coopers bench
-DUPEITEM=019f9
+DupeItem=019f9
 
-[ITEMDEF 019fc]
+[ItemDef 019fc]
 //coopers bench
-DUPEITEM=019f9
+DupeItem=019f9
 
 
-[ITEMDEF 01a82]
-DEFNAME=iCartOreNe1
+[ItemDef 01a82]
+DefName=iCartOreNe1
 FLIP=1
 VALUE=39
-WEIGHT=6
-RESOURCES=2 iLog,2 iBoard,1 iNails
-SKILLMAKE=Carpentry 88.0,tCarpentry
-CATEGORY=Items by Professions
-SUBSECTION=Miner
-DESCRIPTION=Ore Cart
-DUPELIST=01a83,01a86,01a87,01a88,01a8b
+Weight=6
+Resources=2 iLog,2 iBoard,1 iNails
+SkillMake=Carpentry 88.0,tCarpentry
+Category=Items by Professions
+Subsection=Miner
+Description=Ore Cart
+DupeList=01a83,01a86,01a87,01a88,01a8b
 
-[ITEMDEF 01a83]
-DEFNAME=iCartOreNe2
-DUPEITEM=01a82
+[ItemDef 01a83]
+DefName=iCartOreNe2
+DupeItem=01a82
 
-[ITEMDEF 01a86]
-DEFNAME=iCartOreNe3
-DUPEITEM=01a82
+[ItemDef 01a86]
+DefName=iCartOreNe3
+DupeItem=01a82
 
-[ITEMDEF 01a87]
-DEFNAME=iCartOreNw1
-DUPEITEM=01a82
+[ItemDef 01a87]
+DefName=iCartOreNw1
+DupeItem=01a82
 
-[ITEMDEF 01a88]
-DEFNAME=iCartOreNw2
-DUPEITEM=01a82
+[ItemDef 01a88]
+DefName=iCartOreNw2
+DupeItem=01a82
 
-[ITEMDEF 01a8b]
-DEFNAME=iCartOreNw3
-DUPEITEM=01a82
+[ItemDef 01a8b]
+DefName=iCartOreNw3
+DupeItem=01a82
 
 
-[ITEMDEF 01ad6]
-DEFNAME=iKegWood
+[ItemDef 01ad6]
+DefName=iKegWood
 FLIP=1
 VALUE=45
-WEIGHT=11.0
-RESOURCES=1 iBarrelTap,1 iKegSmall
-SKILLMAKE=Tinkering 70.0,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Barkeep
-DESCRIPTION=Keg
-DUPELIST=01ad7
+Weight=11.0
+Resources=1 iBarrelTap,1 iKegSmall
+SkillMake=Tinkering 70.0,tTinkerTools
+Category=Items by Professions
+Subsection=Barkeep
+Description=Keg
+DupeList=01ad7
 
-[ITEMDEF 01ad7]
+[ItemDef 01ad7]
 //keg
-DUPEITEM=01ad6
+DupeItem=01ad6
 
 
-[ITEMDEF 01bd4]
-DEFNAME=iArrowShaft
-NAME=arrow shaft%s
-TYPE=tShaft
+[ItemDef 01bd4]
+DefName=iArrowShaft
+Name=arrow shaft%s
+Type=tShaft
 VALUE=2
-WEIGHT=0.1
+Weight=0.1
 REPLICATE=1
-RESOURCES=1 iLog
-SKILLMAKE=9.8 Bowcraft
-CATEGORY=Items by Professions
-SUBSECTION=Archer/Bowyer
-DESCRIPTION=Shaft
-DUPELIST=01bd5,01bd6
+Resources=1 iLog
+SkillMake=9.8 Bowcraft
+Category=Items by Professions
+Subsection=Archer/Bowyer
+Description=Shaft
+DupeList=01bd5,01bd6
 
-[ITEMDEF 01bd5]
+[ItemDef 01bd5]
 //shafts
-DUPEITEM=01bd4
+DupeItem=01bd4
 
-[ITEMDEF 01bd6]
+[ItemDef 01bd6]
 //shafts
-DUPEITEM=01bd4
+DupeItem=01bd4
 
 
-[ITEMDEF 01c11]
-DEFNAME=iBookGiant
-NAME=blue book
-TYPE=tBook
-WEIGHT=2.0
-RESOURCES=2 iCanvas,20 iParchment,2 iThread,1 i_hides_cut
-CATEGORY=Items by Professions
-SUBSECTION=Scribe
-DESCRIPTION=Huge Book
+[ItemDef 01c11]
+DefName=iBookGiant
+Name=blue book
+Type=tBook
+Weight=2.0
+Resources=2 iCanvas,20 iParchment,2 iThread,1 i_hIDes_cut
+Category=Items by Professions
+Subsection=Scribe
+Description=Huge Book
 
 
-[ITEMDEF 01db3]
-DEFNAME=iBarrelBroken
+[ItemDef 01db3]
+DefName=iBarrelBroken
 FLIP=1
-WEIGHT=15.0
-RESOURCES=1 iBarrel
-CATEGORY=Items by Professions
-SUBSECTION=Cooper
-DESCRIPTION=Broken Barrel
-DUPELIST=01db4,01db5,01db6
+Weight=15.0
+Resources=1 iBarrel
+Category=Items by Professions
+Subsection=Cooper
+Description=Broken Barrel
+DupeList=01db4,01db5,01db6
 
-[ITEMDEF 01db4]
+[ItemDef 01db4]
 //broken barrel
-DUPEITEM=01db3
+DupeItem=01db3
 
-[ITEMDEF 01db5]
+[ItemDef 01db5]
 //broken barrel
-DUPEITEM=01db3
+DupeItem=01db3
 
-[ITEMDEF 01db6]
+[ItemDef 01db6]
 //broken barrel
-DUPEITEM=01db3
+DupeItem=01db3
 
-[ITEMDEF 01db7]
-DEFNAME=iBarrelHoop
-NAME=barrel hoops
+[ItemDef 01db7]
+DefName=iBarrelHoop
+Name=barrel hoops
 VALUE=20
-WEIGHT=4.0
-RESOURCES=4 iIngotIron
-SKILLMAKE=Tinkering 42.0,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Cooper
-DESCRIPTION=Barrel Hoops (duplicate)
+Weight=4.0
+Resources=4 iIngotIron
+SkillMake=Tinkering 42.0,tTinkerTools
+Category=Items by Professions
+Subsection=Cooper
+Description=Barrel Hoops (duplicate)
 
-[ITEMDEF 01db8]
-DEFNAME=iBarrelLid
+[ItemDef 01db8]
+DefName=iBarrelLID
 VALUE=10
-WEIGHT=3.0
-RESOURCES=3 iBoard
-SKILLMAKE=Tinkering 36.8,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Cooper
-DESCRIPTION=Barrel Lid
+Weight=3.0
+Resources=3 iBoard
+SkillMake=Tinkering 36.8,tTinkerTools
+Category=Items by Professions
+Subsection=Cooper
+Description=Barrel LID
 
 
-[ITEMDEF 01e20]
-DEFNAME=iBookOpenRed
-TYPE=tBook
-WEIGHT=2.0
-RESOURCES=20 iPaper,1 iThread,1 iHidesCut
-CATEGORY=Items by Professions
-SUBSECTION=Scribe
-DESCRIPTION=Red Book (Open and Face Down)
+[ItemDef 01e20]
+DefName=iBookOpenRed
+Type=tBook
+Weight=2.0
+Resources=20 iPaper,1 iThread,1 iHIDesCut
+Category=Items by Professions
+Subsection=Scribe
+Description=Red Book (Open and Face Down)
 
-[ITEMDEF 01e21]
-DEFNAME=iBookOpenTwoBrown
-TYPE=tBook
-WEIGHT=4.0
-RESOURCES=2 iBookOpen
-CATEGORY=Items by Professions
-SUBSECTION=Scribe
-DESCRIPTION=Brown Books (Open and Face Down)
+[ItemDef 01e21]
+DefName=iBookOpenTwoBrown
+Type=tBook
+Weight=4.0
+Resources=2 iBookOpen
+Category=Items by Professions
+Subsection=Scribe
+Description=Brown Books (Open and Face Down)
 
-[ITEMDEF 01e22]
-DEFNAME=iBookOpenTwoRed
-TYPE=tBook
-WEIGHT=4.0
-RESOURCES=2 iBookOpen
-CATEGORY=Items by Professions
-SUBSECTION=Scribe
-DESCRIPTION=Red Books (Open and Face Up)
+[ItemDef 01e22]
+DefName=iBookOpenTwoRed
+Type=tBook
+Weight=4.0
+Resources=2 iBookOpen
+Category=Items by Professions
+Subsection=Scribe
+Description=Red Books (Open and Face Up)
 
-[ITEMDEF 01e23]
-DEFNAME=iBookOpenTwoBlue
-TYPE=tBook
-WEIGHT=4.0
-RESOURCES=2 iBookOpen
-CATEGORY=Items by Professions
-SUBSECTION=Scribe
-DESCRIPTION=Blue Books (Open and Face Up)
+[ItemDef 01e23]
+DefName=iBookOpenTwoBlue
+Type=tBook
+Weight=4.0
+Resources=2 iBookOpen
+Category=Items by Professions
+Subsection=Scribe
+Description=Blue Books (Open and Face Up)
 
-[ITEMDEF 01e24]
-DEFNAME=iBookOpen3Red
-TYPE=tBook
-WEIGHT=4.0
-RESOURCES=2 iBookOpen
-CATEGORY=Items by Professions
-SUBSECTION=Scribe
-DESCRIPTION=Stack of Books
+[ItemDef 01e24]
+DefName=iBookOpen3Red
+Type=tBook
+Weight=4.0
+Resources=2 iBookOpen
+Category=Items by Professions
+Subsection=Scribe
+Description=Stack of Books
 
-[ITEMDEF 01e25]
-DEFNAME=iBookOpenTwoGreen
-TYPE=tBook
-WEIGHT=12.0
-RESOURCES=6 iBookOpen
-CATEGORY=Items by Professions
-SUBSECTION=Scribe
-DESCRIPTION=Stack of Books 2
+[ItemDef 01e25]
+DefName=iBookOpenTwoGreen
+Type=tBook
+Weight=12.0
+Resources=6 iBookOpen
+Category=Items by Professions
+Subsection=Scribe
+Description=Stack of Books 2
 
 
-[ITEMDEF 01e2c]
-DEFNAME=iPickpocketDip
-TYPE=tTrainPickpocket
+[ItemDef 01e2c]
+DefName=iPickpocketDip
+Type=tTrainPickpocket
 FLIP=1
 VALUE=274
-WEIGHT=195.0
-RESOURCES=15 iLog,15 iCloth
-SKILLMAKE=Carpentry 80.0,Tailoring 60.0,tSewingKit,tCarpentry
-CATEGORY=Items by Professions
-SUBSECTION=Thief
-DESCRIPTION=Pickpocket Dip
-DUPELIST=01e2d,01ec0,01ec1,01ec2,01ec3,01ec4,01ec5
+Weight=195.0
+Resources=15 iLog,15 iCloth
+SkillMake=Carpentry 80.0,Tailoring 60.0,tSewingKit,tCarpentry
+Category=Items by Professions
+Subsection=Thief
+Description=Pickpocket Dip
+DupeList=01e2d,01ec0,01ec1,01ec2,01ec3,01ec4,01ec5
 
-[ITEMDEF 01e2d]
+[ItemDef 01e2d]
 //pickpocket dip
-DUPEITEM=01e2c
+DupeItem=01e2c
 
 
-[ITEMDEF 01e34]
-DEFNAME=iScarecrow
+[ItemDef 01e34]
+DefName=iScarecrow
 FLIP=1
 VALUE=78
-WEIGHT=30.0
-RESOURCES=4 iLog,14 iStraw,1 iRope,1 i_hatStraw
-SKILLMAKE=Carpentry 74.1,tCarpentry,tailoring 65.3
-CATEGORY=Items by Professions
-SUBSECTION=Farmer
-DESCRIPTION=Scarecrow
-DUPELIST=01e35
+Weight=30.0
+Resources=4 iLog,14 iStraw,1 iRope,1 i_hatStraw
+SkillMake=Carpentry 74.1,tCarpentry,tailoring 65.3
+Category=Items by Professions
+Subsection=Farmer
+Description=Scarecrow
+DupeList=01e35
 
-[ITEMDEF 01e35]
+[ItemDef 01e35]
 //scarecrow
-DUPEITEM=01e34
+DupeItem=01e34
 
 
-[ITEMDEF 01e6e]
-DEFNAME=iBoardUnfinished
+[ItemDef 01e6e]
+DefName=iBoardUnfinished
 FLIP=1
-WEIGHT=1.0
-RESOURCES=1 iBoard
-CATEGORY=Items by Professions
-SUBSECTION=Carpenter
-DESCRIPTION=Unfinished Board
-DUPELIST=01e77
+Weight=1.0
+Resources=1 iBoard
+Category=Items by Professions
+Subsection=Carpenter
+Description=Unfinished Board
+DupeList=01e77
 
-[ITEMDEF 01e6f]
-DEFNAME=iChairWoodFancyUnfinished
-TYPE=tChair
+[ItemDef 01e6f]
+DefName=iChairWoodFancyUnfinished
+Type=tChair
 FLIP=1
-WEIGHT=15.0
-RESOURCES=2 iLatheworkUnfinished,1 iBoardUnfinished,1 iNails
-CATEGORY=Items by Professions
-SUBSECTION=Carpenter
-DESCRIPTION=Unfinished Chair
-DUPELIST=01e78
+Weight=15.0
+Resources=2 iLatheworkUnfinished,1 iBoardUnfinished,1 iNails
+Category=Items by Professions
+Subsection=Carpenter
+Description=Unfinished Chair
+DupeList=01e78
 
-[ITEMDEF 01e70]
-DEFNAME=iDrawerUnfinished
-//TYPE=t_container
+[ItemDef 01e70]
+DefName=IDrawerUnfinished
+//Type=t_container
 //TDATA2=
 FLIP=1
-WEIGHT=2.1
-RESOURCES=2 iBoardUnfinished,1 iNails
-CATEGORY=Items by Professions
-SUBSECTION=Carpenter
-DESCRIPTION=Unfinished Drawer
-DUPELIST=01e79
+Weight=2.1
+Resources=2 iBoardUnfinished,1 iNails
+Category=Items by Professions
+Subsection=Carpenter
+Description=Unfinished Drawer
+DupeList=01e79
 
-[ITEMDEF 01e71]
-DEFNAME=iBureauUnfinished
+[ItemDef 01e71]
+DefName=iBureauUnfinished
 FLIP=1
-WEIGHT=6.1
-RESOURCES=6 iBoardUnfinished,1 iNails
-CATEGORY=Items by Professions
-SUBSECTION=Carpenter
-DESCRIPTION=Unfinished Chest of Drawers
-DUPELIST=01e7a
+Weight=6.1
+Resources=6 iBoardUnfinished,1 iNails
+Category=Items by Professions
+Subsection=Carpenter
+Description=Unfinished Chest of Drawers
+DupeList=01e7a
 
-[ITEMDEF 01e72]
-DEFNAME=iTableUnfinished
+[ItemDef 01e72]
+DefName=iTableUnfinished
 FLIP=1
-WEIGHT=8.1
-RESOURCES=4 iBoardUnfinished,1 iTableLegUnfinished,1 iNails
-CATEGORY=Items by Professions
-SUBSECTION=Carpenter
-DESCRIPTION=Unfinished Table
-DUPELIST=01e7b
+Weight=8.1
+Resources=4 iBoardUnfinished,1 iTableLegUnfinished,1 iNails
+Category=Items by Professions
+Subsection=Carpenter
+Description=Unfinished Table
+DupeList=01e7b
 
-[ITEMDEF 01e73]
-DEFNAME=iTableLegUnfinished2
+[ItemDef 01e73]
+DefName=iTableLegUnfinished2
 FLIP=1
-WEIGHT=9.2
-RESOURCES=2 iTableLegUnfinished,1 iBoardUnfinished,2 iNails
-CATEGORY=Items by Professions
-SUBSECTION=Carpenter
-DESCRIPTION=Unfinished Table Legs
-DUPELIST=01e7c
+Weight=9.2
+Resources=2 iTableLegUnfinished,1 iBoardUnfinished,2 iNails
+Category=Items by Professions
+Subsection=Carpenter
+Description=Unfinished Table Legs
+DupeList=01e7c
 
-[ITEMDEF 01e74]
-DEFNAME=iTableLegUnfinished
+[ItemDef 01e74]
+DefName=iTableLegUnfinished
 FLIP=1
-WEIGHT=2.0
-RESOURCES=1 iBoardUnfinished
-CATEGORY=Items by Professions
-SUBSECTION=Carpenter
-DESCRIPTION=Unfinished Table Leg
-DUPELIST=01e7d
+Weight=2.0
+Resources=1 iBoardUnfinished
+Category=Items by Professions
+Subsection=Carpenter
+Description=Unfinished Table Leg
+DupeList=01e7d
 
-[ITEMDEF 01e75]
-DEFNAME=iTableLegUnfinished3
-WEIGHT=8.1
-RESOURCES=4 iBoardUnfinished,1 iNails
-CATEGORY=Items by Professions
-SUBSECTION=Carpenter
-DESCRIPTION=Unfinished Table Legs
+[ItemDef 01e75]
+DefName=iTableLegUnfinished3
+Weight=8.1
+Resources=4 iBoardUnfinished,1 iNails
+Category=Items by Professions
+Subsection=Carpenter
+Description=Unfinished Table Legs
 
-[ITEMDEF 01e76]
-DEFNAME=iBookcaseUnfinished
+[ItemDef 01e76]
+DefName=iBookcaseUnfinished
 FLIP=1
-WEIGHT=16.1
-RESOURCES=8 iBoardUnfinished,1 iNails
-CATEGORY=Items by Professions
-SUBSECTION=Carpenter
-DESCRIPTION=Unfinished Shelves
-DUPELIST=01e7e
+Weight=16.1
+Resources=8 iBoardUnfinished,1 iNails
+Category=Items by Professions
+Subsection=Carpenter
+Description=Unfinished Shelves
+DupeList=01e7e
 
-[ITEMDEF 01e77]
+[ItemDef 01e77]
 //unfinished board
-DUPEITEM=01e6e
+DupeItem=01e6e
 
-[ITEMDEF 01e78]
+[ItemDef 01e78]
 //unfinished chair
-DUPEITEM=01e6f
+DupeItem=01e6f
 
-[ITEMDEF 01e79]
+[ItemDef 01e79]
 //unfinished drawer
-DUPEITEM=01e70
+DupeItem=01e70
 
-[ITEMDEF 01e7a]
+[ItemDef 01e7a]
 //unfinished chest of drawers
-DUPEITEM=01e71
+DupeItem=01e71
 
-[ITEMDEF 01e7b]
+[ItemDef 01e7b]
 //unfinished table
-DUPEITEM=01e72
+DupeItem=01e72
 
-[ITEMDEF 01e7c]
+[ItemDef 01e7c]
 //unfinished table legs
-DUPEITEM=01e73
+DupeItem=01e73
 
-[ITEMDEF 01e7d]
+[ItemDef 01e7d]
 //unfinished table leg
-DUPEITEM=01e74
+DupeItem=01e74
 
-[ITEMDEF 01e7e]
+[ItemDef 01e7e]
 //unfinished bookcase
-DUPEITEM=01e76
+DupeItem=01e76
 
-[ITEMDEF 01e7f]
-DEFNAME=iTableNightstandUnfinished
-NAME=unfinished nighttable
-TYPE=tTable
-WEIGHT=17.4
-RESOURCES=17 iBoard,4 iNails
-CATEGORY=Items by Professions
-SUBSECTION=Carpenter
-DESCRIPTION=Unfinished Night Table
+[ItemDef 01e7f]
+DefName=iTableNightstandUnfinished
+Name=unfinished nighttable
+Type=tTable
+Weight=17.4
+Resources=17 iBoard,4 iNails
+Category=Items by Professions
+Subsection=Carpenter
+Description=Unfinished Night Table
 
-[ITEMDEF 01e80]
-DEFNAME=iCrateSmall2
-TYPE=tContainer
+[ItemDef 01e80]
+DefName=iCrateSmall2
+Type=tContainer
 TDATA2=044
 FLIP=1
 VALUE=17
-WEIGHT=8.0
-RESOURCES=8 iBoard,1 iNails
-//SKILLMAKE=Carpentry 10.0,t_carpentry
-CATEGORY=Items by Professions
-SUBSECTION=Carpenter
-DESCRIPTION=Wooden Crate (Small unfinished)
-DUPELIST=01e81
+Weight=8.0
+Resources=8 iBoard,1 iNails
+//SkillMake=Carpentry 10.0,t_carpentry
+Category=Items by Professions
+Subsection=Carpenter
+Description=Wooden Crate (Small unfinished)
+DupeList=01e81
 
-[ITEMDEF 01e81]
+[ItemDef 01e81]
 //small wooden crate unfinished
-DUPEITEM=01e80
+DupeItem=01e80
 
-[ITEMDEF 01e82]
-DEFNAME=iLatheworkUnfinished
-WEIGHT=4.0
-RESOURCES=4 iBoard
-CATEGORY=Items by Professions
-SUBSECTION=Carpenter
-DESCRIPTION=Unfinished Lathe Work
+[ItemDef 01e82]
+DefName=iLatheworkUnfinished
+Weight=4.0
+Resources=4 iBoard
+Category=Items by Professions
+Subsection=Carpenter
+Description=Unfinished Lathe Work
 
-[ITEMDEF 01ea3]
-DEFNAME=iNet
+[ItemDef 01ea3]
+DefName=iNet
 FLIP=1
-WEIGHT=50.0
-RESOURCES=25 iRope,25 iThread,8 iFishingWeight
-SKILLMAKE=Tailoring 68.4,Fishing 55.0
-CATEGORY=Items by Professions
-SUBSECTION=Fisherman
-DESCRIPTION=Weighted Fishing Net
-DUPELIST=01ea4,01ea5,01ea6,03d8e,03d8f
+Weight=50.0
+Resources=25 iRope,25 iThread,8 iFishingWeight
+SkillMake=Tailoring 68.4,Fishing 55.0
+Category=Items by Professions
+Subsection=Fisherman
+Description=Weighted Fishing Net
+DupeList=01ea4,01ea5,01ea6,03d8e,03d8f
 
-[ITEMDEF 01ea4]
+[ItemDef 01ea4]
 //Weighted Fishing Net
-DUPEITEM=01ea3
+DupeItem=01ea3
 
-[ITEMDEF 01ea5]
+[ItemDef 01ea5]
 //Weighted Fishing Net
-DUPEITEM=01ea3
+DupeItem=01ea3
 
-[ITEMDEF 01ea6]
+[ItemDef 01ea6]
 //Weighted Fishing Net
-DUPEITEM=01ea3
+DupeItem=01ea3
 
 
-[ITEMDEF 01eb1]
-DEFNAME=iBarrelStaves
+[ItemDef 01eb1]
+DefName=iBarrelStaves
 FLIP=1
-WEIGHT=5.0
-RESOURCES=5 iBoard
-SKILLMAKE=CARPENTRY 0.0, tCarpentry
-CATEGORY=Items by Professions
-SUBSECTION=Carpenter
-DESCRIPTION=Barrel Staves
-DUPELIST=01eb2,01eb3,01eb4
+Weight=5.0
+Resources=5 iBoard
+SkillMake=CARPENTRY 0.0, tCarpentry
+Category=Items by Professions
+Subsection=Carpenter
+Description=Barrel Staves
+DupeList=01eb2,01eb3,01eb4
 
-[ITEMDEF 01eb2]
+[ItemDef 01eb2]
 //barrel staves
-DUPEITEM=01eb1
+DupeItem=01eb1
 
-[ITEMDEF 01eb3]
+[ItemDef 01eb3]
 //barrel staves
-DUPEITEM=01eb1
+DupeItem=01eb1
 
-[ITEMDEF 01eb4]
+[ItemDef 01eb4]
 //barrel staves
-DUPEITEM=01eb1
+DupeItem=01eb1
 
-[ITEMDEF 01eb5]
-DEFNAME=iBarrelUnfinished
-WEIGHT=16.0
-RESOURCES=3 iBarrelStaves,1 iIngotIron
-CATEGORY=Items by Professions
-SUBSECTION=Cooper
-DESCRIPTION=Unfinished Barrel
+[ItemDef 01eb5]
+DefName=iBarrelUnfinished
+Weight=16.0
+Resources=3 iBarrelStaves,1 iIngotIron
+Category=Items by Professions
+Subsection=Cooper
+Description=Unfinished Barrel
 
-[ITEMDEF 01eb6]
-DEFNAME=iToolkitEmpty
-TYPE=tNormal
-WEIGHT=2.0
-RESOURCES=1 iHidesCut,1 iIngotIron
-SKILLMAKE=TINKERING 80.0,CARPENTRY 70.0,tTinkerTools,tCarpentry
-CATEGORY=Items by Professions
-SUBSECTION=Tinker
-DESCRIPTION=Empty Tool Kit
+[ItemDef 01eb6]
+DefName=iToolkitEmpty
+Type=tNormal
+Weight=2.0
+Resources=1 iHIDesCut,1 iIngotIron
+SkillMake=TINKERING 80.0,CARPENTRY 70.0,tTinkerTools,tCarpentry
+Category=Items by Professions
+Subsection=Tinker
+Description=Empty Tool Kit
 
-[ITEMDEF 01eb7]
-DEFNAME=iToolcaseEmpty
-TYPE=tNormal
-WEIGHT=2.0
-RESOURCES=1 iHidesCut,1 iIngotIron
-SKILLMAKE=TINKERING 80.0,CARPENTRY 70.0,tTinkerTools,tCarpentry
-CATEGORY=Items by Professions
-SUBSECTION=Tinker
-DESCRIPTION=Empty Tool Case
+[ItemDef 01eb7]
+DefName=iToolcaseEmpty
+Type=tNormal
+Weight=2.0
+Resources=1 iHIDesCut,1 iIngotIron
+SkillMake=TINKERING 80.0,CARPENTRY 70.0,tTinkerTools,tCarpentry
+Category=Items by Professions
+Subsection=Tinker
+Description=Empty Tool Case
 
-[ITEMDEF 01eb8]
-DEFNAME=iToolkit
-NAME=carpentry toolkit
-TYPE=tCarpentry
+[ItemDef 01eb8]
+DefName=iToolkit
+Name=carpentry toolkit
+Type=tCarpentry
 FLIP=1
-WEIGHT=8.0
-RESOURCES=1 iToolkitEmpty,4 iIngotIron,1 iLog
-SKILLMAKE=TINKERING 50.0,tTinkerTools,carpentry 50.0
-CATEGORY=Items by Professions
-SUBSECTION=Tinker
-DESCRIPTION=Tool Kit (carpentry)
-DUPELIST=01eb9
-ON=@Create
+Weight=8.0
+Resources=1 iToolkitEmpty,4 iIngotIron,1 iLog
+SkillMake=TINKERING 50.0,tTinkerTools,carpentry 50.0
+Category=Items by Professions
+Subsection=Tinker
+Description=Tool Kit (carpentry)
+DupeList=01eb9
+On=@Create
 ATTR=attr_newbie
 
-[ITEMDEF 01eb9]
+[ItemDef 01eb9]
 //toolkit (carpentry)
-DUPEITEM=01eb8
+DupeItem=01eb8
 
-[ITEMDEF 01eba]
-DEFNAME=iToolcase
-NAME=tinkering toolcase
-TYPE=tTinkerTools
+[ItemDef 01eba]
+DefName=iToolcase
+Name=tinkering toolcase
+Type=tTinkerTools
 FLIP=1
-WEIGHT=8.0
-RESOURCES=1 iToolcaseEmpty,1 iTinkerTools
-SKILLMAKE=TINKERING 50.0,tTinkerTools,carpentry 50.0
-CATEGORY=Items by Professions
-SUBSECTION=Tinker
-DESCRIPTION=Tool Case (tinkering)
-DUPELIST=01ebb
-ON=@Create
+Weight=8.0
+Resources=1 iToolcaseEmpty,1 iTinkerTools
+SkillMake=TINKERING 50.0,tTinkerTools,carpentry 50.0
+Category=Items by Professions
+Subsection=Tinker
+Description=Tool Case (tinkering)
+DupeList=01ebb
+On=@Create
 ATTR=attr_newbie
 
-[ITEMDEF 01ebb]
+[ItemDef 01ebb]
 //toolcase (tinkering)
-DUPEITEM=01eba
+DupeItem=01eba
 
-[ITEMDEF 01ebc]
-DEFNAME=iTinkerTools
-TYPE=tTinkerTools
-WEIGHT=4.0
-RESOURCES=4 iIngotIron
-SKILLMAKE=TINKERING 35.0,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Tinker
-DESCRIPTION=Tinker Tools
-ON=@Create
+[ItemDef 01ebc]
+DefName=iTinkerTools
+Type=tTinkerTools
+Weight=4.0
+Resources=4 iIngotIron
+SkillMake=TINKERING 35.0,tTinkerTools
+Category=Items by Professions
+Subsection=Tinker
+Description=Tinker Tools
+On=@Create
 UsesMax={25 75}
 
-[ITEMDEF 01ebd]
-DEFNAME=iWheatSheaf
-TYPE=tGrain
+[ItemDef 01ebd]
+DefName=iWheatSheaf
+Type=tGrain
 VALUE=5
-WEIGHT=4.0
-CATEGORY=Items by Professions
-SUBSECTION=Stablemaster
-DESCRIPTION=Sheaf of Wheat
+Weight=4.0
+Category=Items by Professions
+Subsection=Stablemaster
+Description=Sheaf of Wheat
 
 
-[ITEMDEF 01ec0]
+[ItemDef 01ec0]
 //pickpocket dip
-DUPEITEM=01e2c
+DupeItem=01e2c
 
-[ITEMDEF 01ec1]
+[ItemDef 01ec1]
 //pickpocket dip
-DUPEITEM=01e2c
+DupeItem=01e2c
 
-[ITEMDEF 01ec2]
+[ItemDef 01ec2]
 //pickpocket dip
-DUPEITEM=01e2c
+DupeItem=01e2c
 
-[ITEMDEF 01ec3]
+[ItemDef 01ec3]
 //pickpocket dip
-DUPEITEM=01e2c
+DupeItem=01e2c
 
-[ITEMDEF 01ec4]
+[ItemDef 01ec4]
 //pickpocket dip
-DUPEITEM=01e2c
+DupeItem=01e2c
 
-[ITEMDEF 01ec5]
+[ItemDef 01ec5]
 //pickpocket dip
-DUPEITEM=01e2c
+DupeItem=01e2c
 
 
-[ITEMDEF 02258]
-DEFNAME=iBulkOrderDeed
-TYPE=tNormal
-WEIGHT=1.0
-RESOURCES=1 iParchment
-CATEGORY=Items by Professions
-SUBSECTION=Scribe
-DESCRIPTION=Bulk Order Deed
+[ItemDef 02258]
+DefName=iBulkOrderDeed
+Type=tNormal
+Weight=1.0
+Resources=1 iParchment
+Category=Items by Professions
+Subsection=Scribe
+Description=Bulk Order Deed
 
-[ITEMDEF 02259]
-DEFNAME=iBulkOrderBook
-TYPE=tNormal
-WEIGHT=4.0
-RESOURCES=10 iBulkOrderDeed
-SKILLMAKE=Inscription 65.0,1 iPenAndInk
-CATEGORY=Items by Professions
-SUBSECTION=Scribe
-DESCRIPTION=Bulk Order Book
+[ItemDef 02259]
+DefName=iBulkOrderBook
+Type=tNormal
+Weight=4.0
+Resources=10 iBulkOrderDeed
+SkillMake=Inscription 65.0,1 iPenAndInk
+Category=Items by Professions
+Subsection=Scribe
+Description=Bulk Order Book
 
 
-[ITEMDEF 02805]
-DEFNAME=iFluteBamboo
-NAME=bamboo flute
-TYPE=tMusical
+[ItemDef 02805]
+DefName=iFluteBamboo
+Name=bamboo flute
+Type=tMusical
 TDATA1=058b
 TDATA2=058c
 FLIP=1
 VALUE=14
-WEIGHT=1.0
-RESOURCES=1 iLogBamboo
-SKILLMAKE=Tinkering 52.0,Musicianship 65.0,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Musician
-DESCRIPTION=Bamboo Flute
-DUPELIST=02807
+Weight=1.0
+Resources=1 iLogBamboo
+SkillMake=Tinkering 52.0,Musicianship 65.0,tTinkerTools
+Category=Items by Professions
+Subsection=Musician
+Description=Bamboo Flute
+DupeList=02807
 
-ON=@Create
+On=@Create
 UsesMax={350 450}
 
-[ITEMDEF 02807]
+[ItemDef 02807]
 //bamboo flute
-DUPEITEM=02805
+DupeItem=02805
 
 
-[ITEMDEF 02936]
-DEFNAME=iAbacus
-TYPE=tNormal
+[ItemDef 02936]
+DefName=iAbacus
+Type=tNormal
 FLIP=1
-WEIGHT=2.0
-RESOURCES=1 iLog,10 iBeads
-CATEGORY=Items by Professions
-SUBSECTION=Banker
-DESCRIPTION=Abacus
-DUPELIST=02937
+Weight=2.0
+Resources=1 iLog,10 iBeads
+Category=Items by Professions
+Subsection=Banker
+Description=Abacus
+DupeList=02937
 
-[ITEMDEF 02937]
+[ItemDef 02937]
 //abacus
-DUPEITEM=02936
+DupeItem=02936
 
 
-[ITEMDEF 02d4b]
-DEFNAME=iBookstandClosedbook
-NAME=elven bookstand with closed book
-TYPE=tNormal
+[ItemDef 02d4b]
+DefName=iBookstandClosedbook
+Name=elven bookstand with closed book
+Type=tNormal
 FLIP=1
 VALUE=82
-WEIGHT=5.1
-RESOURCES=4 iBookstandElven,1 iBookSm
-SKILLMAKE=Carpentry 42.3,tCarpentry
-CATEGORY=Items by Professions
-SUBSECTION=Scribe
-DESCRIPTION=Elven Bookstand (closed book)
-DUPELIST=02d4c
+Weight=5.1
+Resources=4 iBookstandElven,1 iBookSm
+SkillMake=Carpentry 42.3,tCarpentry
+Category=Items by Professions
+Subsection=Scribe
+Description=Elven Bookstand (closed book)
+DupeList=02d4c
 
-[ITEMDEF 02d4c]
+[ItemDef 02d4c]
 //bookstand elven (closed book)
-DUPEITEM=02d4b
+DupeItem=02d4b
 
-[ITEMDEF 02d4d]
-DEFNAME=iBookstandOpenbook
-NAME=elven bookstand with opened book
-TYPE=tNormal
+[ItemDef 02d4d]
+DefName=iBookstandOpenbook
+Name=elven bookstand with opened book
+Type=tNormal
 FLIP=1
 VALUE=82
-WEIGHT=5.1
-RESOURCES=4 iBookstandElven,1 iBookSm
-SKILLMAKE=Carpentry 42.3,tCarpentry
-CATEGORY=Items by Professions
-SUBSECTION=Scribe
-DESCRIPTION=Elven Bookstand (open book)
-DUPELIST=02d4c
+Weight=5.1
+Resources=4 iBookstandElven,1 iBookSm
+SkillMake=Carpentry 42.3,tCarpentry
+Category=Items by Professions
+Subsection=Scribe
+Description=Elven Bookstand (open book)
+DupeList=02d4c
 
-[ITEMDEF 02d4e]
+[ItemDef 02d4e]
 //bookstand elven (open book)
-DUPEITEM=02d4d
+DupeItem=02d4d
 
-[ITEMDEF 02d61]
-DEFNAME=iInkWell
-NAME=ink well
+[ItemDef 02d61]
+DefName=iInkWell
+Name=ink well
 FLIP=1
 VALUE=5
-WEIGHT=1.0
-RESOURCES=1 iIngotIron
-CATEGORY=Items by Professions
-SUBSECTION=Scribe
-DESCRIPTION=Ink Well
-DUPELIST=02d62
+Weight=1.0
+Resources=1 iIngotIron
+Category=Items by Professions
+Subsection=Scribe
+Description=Ink Well
+DupeList=02d62
 
-[ITEMDEF 02d62]
+[ItemDef 02d62]
 //ink well
-DUPEITEM=02d61
+DupeItem=02d61
 
 
-[ITEMDEF 02db1]
-// magical residue is the lowest level of the three core imbuing
+[ItemDef 02db1]
+// magical resIDue is the lowest level of the three core imbuing
 // ingredients. It can be obtained my unraveling weak magical items in
 // proximity to a Soul Forge.
-DEFNAME=iMagicalResidue
-NAME=magical residue
-TYPE=tNormal
+DefName=iMagicalResIDue
+Name=magical resIDue
+Type=tNormal
 VALUE=500
-WEIGHT=0.1
-CATEGORY=Items by Professions
-SUBSECTION=Artificer
-DESCRIPTION=Magical Residue
+Weight=0.1
+Category=Items by Professions
+Subsection=Artificer
+Description=Magical ResIDue
 
-[ITEMDEF 02db2]
+[ItemDef 02db2]
 // Enchanted essence is an ingredient used with the Imbuing skill. It
 // can be obtained from unraveling minor Artifacts and from high intensity
 // magical equipment. An imbuing skill of more than 45 is required to
 // unravel Enchanted Essence.
-DEFNAME=iEnchantedEssence
-NAME=enchanted essence
-TYPE=tNormal
+DefName=iEnchantedEssence
+Name=enchanted essence
+Type=tNormal
 VALUE=1000
-WEIGHT=0.1
-CATEGORY=Items by Professions
-SUBSECTION=Artificer
-DESCRIPTION=Enchanted Essence
+Weight=0.1
+Category=Items by Professions
+Subsection=Artificer
+Description=Enchanted Essence
 
-[ITEMDEF 02db3]
+[ItemDef 02db3]
 // relic fragments are one of the most rare ingredients for Imbuing. They
 // mostly come from Artifacts and sometimes from very high intensity
 // equipment. They are used to imbue the most desirable properties.
-DEFNAME=iRelicFragment
-NAME=relic fragment
-TYPE=tNormal
+DefName=iRelicFragment
+Name=relic fragment
+Type=tNormal
 VALUE=5000
-WEIGHT=0.1
-CATEGORY=Items by Professions
-SUBSECTION=Artificer
-DESCRIPTION=Relic Fragment
+Weight=0.1
+Category=Items by Professions
+Subsection=Artificer
+Description=Relic Fragment
 
 
-[ITEMDEF 02dd5]
-DEFNAME=iAnvilElven
-NAME=elven anvil
+[ItemDef 02dd5]
+DefName=iAnvilElven
+Name=elven anvil
 FLIP=1
-TYPE=tAnvil
+Type=tAnvil
 VALUE=210
-WEIGHT=240.0
-RESOURCES=20 iRockGranite
-SKILLMAKE=Carpentry 30.0,tMasonryTool
-CATEGORY=Items by Professions
-SUBSECTION=Blacksmith
-DESCRIPTION=Elven Anvil
-DUPELIST=02dd6
+Weight=240.0
+Resources=20 iRockGranite
+SkillMake=Carpentry 30.0,tMasonryTool
+Category=Items by Professions
+Subsection=Blacksmith
+Description=Elven Anvil
+DupeList=02dd6
 
-[ITEMDEF 02dd6]
+[ItemDef 02dd6]
 //elven anvil
-DUPEITEM=02dd5
+DupeItem=02dd5
 
-[ITEMDEF 02dd7]
-DEFNAME=iElvenBowstringer
-NAME=elven bowstringer
-TYPE=tNormal
+[ItemDef 02dd7]
+DefName=iElvenBowstringer
+Name=elven bowstringer
+Type=tNormal
 VALUE=21
-WEIGHT=3.0
-RESOURCES=2 iIngotIron,1 iWireIron
-SKILLMAKE=Tinkering 24.1,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Archer/Bowyer
-DESCRIPTION=Elven Bowstringer
+Weight=3.0
+Resources=2 iIngotIron,1 iWireIron
+SkillMake=Tinkering 24.1,tTinkerTools
+Category=Items by Professions
+Subsection=Archer/Bowyer
+Description=Elven Bowstringer
 
-[ITEMDEF 02dd8]
-DEFNAME=iForgeElven
-NAME=elven forge
-TYPE=tForge
+[ItemDef 02dd8]
+DefName=iForgeElven
+Name=elven forge
+Type=tForge
 VALUE=260
-WEIGHT=375.0
-RESOURCES=30 iRockPlain,15 iIngotSilver,30 iLog
-CATEGORY=Items by Professions
-SUBSECTION=Blacksmith
-DESCRIPTION=Elven Forge
+Weight=375.0
+Resources=30 iRockPlain,15 iIngotSilver,30 iLog
+Category=Items by Professions
+Subsection=Blacksmith
+Description=Elven Forge
 
 
-[ITEMDEF 032f8]
-DEFNAME=iHammerAndChisel
-NAME=stone hammer and chisel
-TYPE=tMasonryTool
+[ItemDef 032f8]
+DefName=iHammerAndChisel
+Name=stone hammer and chisel
+Type=tMasonryTool
 VALUE=34
-WEIGHT=8.0
-RESOURCES=1 iHammer,1 iChisels
-CATEGORY=Items by Professions
-SUBSECTION=Artist
-DESCRIPTION=Hammer and Chisel
+Weight=8.0
+Resources=1 iHammer,1 iChisels
+Category=Items by Professions
+Subsection=Artist
+Description=Hammer and Chisel
 
 
-[ITEMDEF 035ef]
-DEFNAME=iGargishCrystalBall
-NAME=glowing crystal ball
-TYPE=tCrystalBall
+[ItemDef 035ef]
+DefName=iGargishCrystalBall
+Name=glowing crystal ball
+Type=tCrystalBall
 FLIP=1
 VALUE=1000
-WEIGHT=10.0
-RESOURCES=10 iCrystalShards
-SKILLMAKE=Tinkering 95.7,Alchemy 50.0,Magery 85.1,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Fortune Teller
-DESCRIPTION=Gargish Crystal Ball
-DUPELIST=035f0,035f1,035f2,035f3,035f4,035f5
+Weight=10.0
+Resources=10 iCrystalShards
+SkillMake=Tinkering 95.7,Alchemy 50.0,Magery 85.1,tTinkerTools
+Category=Items by Professions
+Subsection=Fortune Teller
+Description=Gargish Crystal Ball
+DupeList=035f0,035f1,035f2,035f3,035f4,035f5
 
-[ITEMDEF 035f0]
+[ItemDef 035f0]
 //Gargish crystal ball
-DUPEITEM=035ef
+DupeItem=035ef
 
-[ITEMDEF 035f1]
+[ItemDef 035f1]
 //Gargish crystal ball
-DUPEITEM=035ef
+DupeItem=035ef
 
-[ITEMDEF 035f2]
+[ItemDef 035f2]
 //Gargish crystal ball
-DUPEITEM=035ef
+DupeItem=035ef
 
-[ITEMDEF 035f3]
+[ItemDef 035f3]
 //Gargish crystal ball
-DUPEITEM=035ef
+DupeItem=035ef
 
-[ITEMDEF 035f4]
+[ItemDef 035f4]
 //Gargish crystal ball
-DUPEITEM=035ef
+DupeItem=035ef
 
-[ITEMDEF 035f5]
+[ItemDef 035f5]
 //Gargish crystal ball
-DUPEITEM=035ef
+DupeItem=035ef
 
 
-[ITEMDEF 03d8e]
+[ItemDef 03d8e]
 //Weighted Fishing Net
-DUPEITEM=01ea3
+DupeItem=01ea3
 
-[ITEMDEF 03d8f]
+[ItemDef 03d8f]
 //Weighted Fishing Net
-DUPEITEM=01ea3
+DupeItem=01ea3
 
 
-[ITEMDEF 04022]
+[ItemDef 04022]
 //obtained by using Clippers on a plant
-DEFNAME=iPlantClippings
-TYPE=tNormal
+DefName=iPlantClippings
+Type=tNormal
 VALUE=1
-WEIGHT=0.1
-CATEGORY=Items by Professions
-SUBSECTION=Gardener
-DESCRIPTION=Plant Clippings
+Weight=0.1
+Category=Items by Professions
+Subsection=Gardener
+Description=Plant Clippings
 
 
-[ITEMDEF 0403b]
-DEFNAME=iAudChar
-NAME=aud-char
-TYPE=tMusical
+[ItemDef 0403b]
+DefName=iAudChar
+Name=aud-char
+Type=tMusical
 TDATA1=045
 TDATA2=046
 FLIP=1
-WEIGHT=10
-RESOURCES=35 iBoard
-SKILLMAKE=Carpentry 78.9,Musicianship 45.0,tCarpentry
-CATEGORY=Items by Professions
-SUBSECTION=Musician
-DESCRIPTION=Aud-Char
-DUPELIST=0403c
+Weight=10
+Resources=35 iBoard
+SkillMake=Carpentry 78.9,Musicianship 45.0,tCarpentry
+Category=Items by Professions
+Subsection=Musician
+Description=Aud-Char
+DupeList=0403c
 
-ON=@Create
+On=@Create
 UsesMax={350 450}
 
-[ITEMDEF 0403c]
+[ItemDef 0403c]
 //aud-char
-DUPEITEM=0403b
+DupeItem=0403b
 
 
-[ITEMDEF 0407c]
-DEFNAME=iIncubator
-NAME=incubator
-//TYPE=t_incubator//FIXME: container using gump 087c
+[ItemDef 0407c]
+DefName=iIncubator
+Name=incubator
+//Type=t_incubator//FIXME: container using gump 087c
 FLIP=1
-WEIGHT=10.0
-RESOURCES=100 iBoard
-SKILLMAKE=Carpentry 90.0,tCarpentry
-CATEGORY=Items by Professions
-SUBSECTION=Animal Tamer
-DESCRIPTION=Incubator
-DUPELIST=0407d
+Weight=10.0
+Resources=100 iBoard
+SkillMake=Carpentry 90.0,tCarpentry
+Category=Items by Professions
+Subsection=Animal Tamer
+Description=Incubator
+DupeList=0407d
 
-[ITEMDEF 0407d]
+[ItemDef 0407d]
 //Incubator
-DUPEITEM=0407c
+DupeItem=0407c
 
 
-[ITEMDEF 041fc]
-DEFNAME=iHarpGargoyle
-NAME=Gargish harp
-TYPE=tMusical
+[ItemDef 041fc]
+DefName=iHarpGargoyle
+Name=Gargish harp
+Type=tMusical
 TDATA1=045
 TDATA2=046
 FLIP=1
 VALUE=37
-WEIGHT=14.0
-RESOURCES=10 iLog,4 iWireIron
-SKILLMAKE=Tinkering 56.5,Musicianship 65.0,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Musician
-DESCRIPTION=Gargish Harp
-DUPELIST=041fd
+Weight=14.0
+Resources=10 iLog,4 iWireIron
+SkillMake=Tinkering 56.5,Musicianship 65.0,tTinkerTools
+Category=Items by Professions
+Subsection=Musician
+Description=Gargish Harp
+DupeList=041fd
 
-ON=@Create
+On=@Create
 UsesMax={350 450}
 
-[ITEMDEF 041fd]
+[ItemDef 041fd]
 //Gargoyle Harp
-DUPEITEM=041fc
+DupeItem=041fc
 
 
-[ITEMDEF 0420c]
-DEFNAME=iLuteGargoyle
-NAME=Gargish lute
-TYPE=tMusical
+[ItemDef 0420c]
+DefName=iLuteGargoyle
+Name=Gargish lute
+Type=tMusical
 TDATA1=04c
 TDATA2=04d
 FLIP=1
 VALUE=18
-WEIGHT=7.0
-RESOURCES=6 iLog,1 iWireIron
-SKILLMAKE=Tinkering 52.0,Musicianship 65.0,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Musician
-DESCRIPTION=Gargish Lute
-DUPELIST=0420d
+Weight=7.0
+Resources=6 iLog,1 iWireIron
+SkillMake=Tinkering 52.0,Musicianship 65.0,tTinkerTools
+Category=Items by Professions
+Subsection=Musician
+Description=Gargish Lute
+DupeList=0420d
 
-ON=@Create
+On=@Create
 UsesMax={350 450}
 
-[ITEMDEF 0420d]
+[ItemDef 0420d]
 //Gargish Lute
-DUPEITEM=0420c
+DupeItem=0420c
 
 
-[ITEMDEF 04244]
-DEFNAME=iMusicalInstrument
-NAME=musical instrument
-TYPE=tMusical
+[ItemDef 04244]
+DefName=iMusicalInstrument
+Name=musical instrument
+Type=tMusical
 TDATA1=04c
 TDATA2=04d
 FLIP=1
 VALUE=18
-WEIGHT=7.0
-RESOURCES=6 iLog,1 iWireIron
-SKILLMAKE=Tinkering 52.0,Musicianship 65.0,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Musician
-DESCRIPTION=Musical Instrument
-DUPELIST=04245
+Weight=7.0
+Resources=6 iLog,1 iWireIron
+SkillMake=Tinkering 52.0,Musicianship 65.0,tTinkerTools
+Category=Items by Professions
+Subsection=Musician
+Description=Musical Instrument
+DupeList=04245
 
-ON=@Create
+On=@Create
 UsesMax={350 450}
 
-[ITEMDEF 04245]
+[ItemDef 04245]
 //Musical Instrument
-DUPEITEM=04244
+DupeItem=04244
 
 
-[ITEMDEF 04254]
-DEFNAME=iAnvilGargoyle
-NAME=Gargish anvil
-TYPE=tAnvil
+[ItemDef 04254]
+DefName=iAnvilGargoyle
+Name=Gargish anvil
+Type=tAnvil
 FLIP=1
 VALUE=325
-WEIGHT=575.0
-RESOURCES=50 iRockPlain,50 iIngotIron,25 iLog
-SKILLMAKE=Tinkering 56.0,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Blacksmith
-DESCRIPTION=Gargish Anvil
-DUPELIST=04255,04256,04257
+Weight=575.0
+Resources=50 iRockPlain,50 iIngotIron,25 iLog
+SkillMake=Tinkering 56.0,tTinkerTools
+Category=Items by Professions
+Subsection=Blacksmith
+Description=Gargish Anvil
+DupeList=04255,04256,04257
 
-[ITEMDEF 04255]
+[ItemDef 04255]
 //Gargish Anvil
-DUPEITEM=04254
+DupeItem=04254
 
-[ITEMDEF 04256]
+[ItemDef 04256]
 //Gargish Anvil
-DUPEITEM=04254
+DupeItem=04254
 
-[ITEMDEF 04257]
+[ItemDef 04257]
 //Gargish Anvil
-DUPEITEM=04254
+DupeItem=04254
 
 
-[ITEMDEF 042b7]
-DEFNAME=iBookGreencover
-TYPE=tBook
+[ItemDef 042b7]
+DefName=iBookGreencover
+Type=tBook
 FLIP=1
-WEIGHT=2.0
-RESOURCES=20 iPaper
-CATEGORY=Items by Professions
-SUBSECTION=Scribe
-DESCRIPTION=Book (green cover)
+Weight=2.0
+Resources=20 iPaper
+Category=Items by Professions
+Subsection=Scribe
+Description=Book (green cover)
 
-[ITEMDEF 042b8]
-DEFNAME=iBookEvilcover
-TYPE=tBook
+[ItemDef 042b8]
+DefName=iBookEvilcover
+Type=tBook
 FLIP=1
-WEIGHT=2.0
-RESOURCES=20 iPaper
-CATEGORY=Items by Professions
-SUBSECTION=Scribe
-DESCRIPTION=Book (evil cover)
+Weight=2.0
+Resources=20 iPaper
+Category=Items by Professions
+Subsection=Scribe
+Description=Book (evil cover)
 
 
-[ITEMDEF 042c6]
-DEFNAME=iBrush
-NAME=brush
+[ItemDef 042c6]
+DefName=iBrush
+Name=brush
 VALUE=45
-WEIGHT=1.0
-RESOURCES=1 iBoard,1 iFur
-SKILLMAKE=Tinkering 14.1,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Artist
-DESCRIPTION=Brush
+Weight=1.0
+Resources=1 iBoard,1 iFur
+SkillMake=Tinkering 14.1,tTinkerTools
+Category=Items by Professions
+Subsection=Artist
+Description=Brush
 
 
-[ITEMDEF 044c7]
-DEFNAME=iSoulforgeSmall
-NAME=small soulforge
-TYPE=tForge
+[ItemDef 044c7]
+DefName=iSoulforgeSmall
+Name=small soulforge
+Type=tForge
 VALUE=250
-WEIGHT=325.0
-RESOURCES=30 iRockPlain,25 iIngotIron
-SKILLMAKE=Tinkering 56.0,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Artificer
-DESCRIPTION=Small Soulforge
-DUPELIST=044c8,044c9,044ca
+Weight=325.0
+Resources=30 iRockPlain,25 iIngotIron
+SkillMake=Tinkering 56.0,tTinkerTools
+Category=Items by Professions
+Subsection=Artificer
+Description=Small Soulforge
+DupeList=044c8,044c9,044ca
 
-[ITEMDEF 044c8]
+[ItemDef 044c8]
 //Small Soulforge
-DUPEITEM=044c7
+DupeItem=044c7
 
-[ITEMDEF 044c9]
+[ItemDef 044c9]
 //Small Soulforge
-DUPEITEM=044c7
+DupeItem=044c7
 
-[ITEMDEF 044ca]
+[ItemDef 044ca]
 //Small Soulforge
-DUPEITEM=044c7
+DupeItem=044c7
 
 
-[ITEMDEF 044cb]
-DEFNAME=iLobsterBuoy
-NAME=lobster buoy
-TYPE=tNormal
+[ItemDef 044cb]
+DefName=iLobsterBuoy
+Name=lobster buoy
+Type=tNormal
 FLIP=0
-CATEGORY=Items by Professions
-SUBSECTION=Fisherman
-DESCRIPTION=Lobster Buoy
-DUPELIST=044cc,044cd,044ce
+Category=Items by Professions
+Subsection=Fisherman
+Description=Lobster Buoy
+DupeList=044cc,044cd,044ce
 
-[ITEMDEF 044cc]
+[ItemDef 044cc]
 //Lobster Buoy (animation frame)
-DUPEITEM=044cb
+DupeItem=044cb
 
-[ITEMDEF 044cd]
+[ItemDef 044cd]
 //Lobster Buoy (animation frame)
-DUPEITEM=044cb
+DupeItem=044cb
 
-[ITEMDEF 044ce]
+[ItemDef 044ce]
 //Lobster Buoy (animation frame)
-DUPEITEM=044cb
+DupeItem=044cb
 
-[ITEMDEF 044cf]
-DEFNAME=iLobsterCage
-NAME=lobster cage
-TYPE=tNormal
+[ItemDef 044cf]
+DefName=iLobsterCage
+Name=lobster cage
+Type=tNormal
 FLIP=1
-CATEGORY=Items by Professions
-SUBSECTION=Fisherman
-DESCRIPTION=Lobster Cage
-DUPELIST=044d0
+Category=Items by Professions
+Subsection=Fisherman
+Description=Lobster Cage
+DupeList=044d0
 
-[ITEMDEF 044d0]
+[ItemDef 044d0]
 //Lobster Cage
-DUPEITEM=044cf
-
-[ITEMDEF 044d5]
-DEFNAME=iGrandfatherClock
-NAME=grandfather clock
-TYPE=tClock
-FLIP=1
-VALUE=44
-WEIGHT=9.2
-RESOURCES=1 iClockFrame,1 iParchment,10 iBoard,1 i_clock_parts
-SKILLMAKE=Tinkering 90.7,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Tinker
-DESCRIPTION=Grandfather Clock
-DUPELIST=044d9
-
-[ITEMDEF 044d6]
-//grandfather clock (animation frame)
-
-[ITEMDEF 044d7]
-//grandfather clock (animation frame)
-
-[ITEMDEF 044d8]
-//grandfather clock (animation frame)
-
-[ITEMDEF 044d9]
-//grandfather clock
-DUPEITEM=044d5
-
-[ITEMDEF 044da]
-//grandfather clock (animation frame)
-
-[ITEMDEF 044db]
-//grandfather clock (animation frame)
-
-[ITEMDEF 044dc]
-//grandfather clock (animation frame)
-
-[ITEMDEF 044dd]
-DEFNAME=iGrandfatherClock2
-NAME=grandfather clock
-TYPE=tClock
-FLIP=1
-VALUE=44
-WEIGHT=9.2
-RESOURCES=1 iClockFrame,1 iParchment,10 iBoard,1 i_clock_parts
-SKILLMAKE=Tinkering 90.7,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Tinker
-DESCRIPTION=Grandfather Clock 2
-DUPELIST=044e1
-
-[ITEMDEF 044de]
-//grandfather clock 2 (animation frame)
-
-[ITEMDEF 044df]
-//grandfather clock 2 (animation frame)
-
-[ITEMDEF 044e0]
-//grandfather clock 2 (animation frame)
-
-[ITEMDEF 044e1]
-//grandfather clock 2
-DUPEITEM=044dd
-
-[ITEMDEF 044e2]
-//grandfather clock 2 (animation frame)
-
-[ITEMDEF 044e3]
-//grandfather clock 2 (animation frame)
-
-[ITEMDEF 044e4]
-//grandfather clock 2 (animation frame)
+DupeItem=044cf
 
 
-[ITEMDEF 04513]
-//FIXME: chicken coop placement limits
-//1112696//"You already have a chicken coop in your house!"
-DEFNAME=iChickenCoop
-NAME=chicken coop
-FLIP=1
-WEIGHT=20.0
-RESOURCES=150 iBoard,10 iNails
-SKILLMAKE=Carpentry 90.0,tCarpentry
-CATEGORY=Items by Professions
-SUBSECTION=Animal Tamer
-DESCRIPTION=Chicken Coop
-//TEVENTS=t_chicken_coop
-DUPELIST=04514
-//ON=@Create
-// TAG.StablesMax=3
-
-[ITEMDEF 04514]
-//chicken coop
-DUPEITEM=04513
 
 
-[ITEMDEF 04580]
-DEFNAME=iDrumGargoyle
-NAME=Gargish drum
-TYPE=tMusical
+
+[ItemDef 04580]
+DefName=iGargishDrum
+Name=Gargish drum
+Type=tMusical
 TDATA1=038
 TDATA2=039
 VALUE=22
-WEIGHT=6.0
-RESOURCES=1 iHidesCut,5 iBoard
-SKILLMAKE=Tinkering 51.0,Musicianship 65.0,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Musician
-DESCRIPTION=Drum (gargoyle)
-DUPELIST=04581
+Weight=6.0
+Resources=1 iHidesCut,5 iBoard
+SkillMake=Tinkering 51.0,Musicianship 65.0,tTinkerTools
+Category=Items by Professions
+Subsection=Musician
+Description=Drum (gargoyle)
+DupeList=04581
 
-ON=@Create
+On=@Create
 UsesMax={350 450}
 
-[ITEMDEF 04581]
+[ItemDef 04581]
 //gargoyle drum
-DUPEITEM=04580
+DupeItem=04580
 
 
-[ITEMDEF 045a6]
-DEFNAME=iFluteGargoyle
-NAME=Gargish flute
-TYPE=tMusical
+[ItemDef 045a6]
+DefName=iFluteGargoyle
+Name=Gargish flute
+Type=tMusical
 TDATA1=058b
 TDATA2=058c
 FLIP=1
 VALUE=14
-WEIGHT=1.0
-RESOURCES=1 iLogBamboo
-SKILLMAKE=Tinkering 52.0,Musicianship 65.0,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Musician
-DESCRIPTION=Gargish Flute
-DUPELIST=045a7
+Weight=1.0
+Resources=1 iLogBamboo
+SkillMake=Tinkering 52.0,Musicianship 65.0,tTinkerTools
+Category=Items by Professions
+Subsection=Musician
+Description=Gargish Flute
+DupeList=045a7
 
-ON=@Create
+On=@Create
 UsesMax={350 450}
 
-[ITEMDEF 045a7]
+[ItemDef 045a7]
 //Gargish Flute
-DUPEITEM=045a6
+DupeItem=045a6
 
 
-[ITEMDEF 0468a]
-DEFNAME=iCrystalBallSmall
-TYPE=tCrystalBall
+[ItemDef 0468a]
+DefName=iCrystalBallSmall
+Type=tCrystalBall
 VALUE=321
-WEIGHT=9.6
-RESOURCES=2 iBoard,7 iGlassRaw,6 iGemDiamond
-SKILLMAKE=Tinkering 95.7,ALCHEMY 50.0,MAGERY 85.1,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Fortune Teller
-DESCRIPTION=Crystal Ball (small)
+Weight=9.6
+Resources=2 iBoard,7 iGlassRaw,6 iGemDiamond
+SkillMake=Tinkering 95.7,ALCHEMY 50.0,MAGERY 85.1,tTinkerTools
+Category=Items by Professions
+Subsection=Fortune Teller
+Description=Crystal Ball (small)
 
-[ITEMDEF 0468b]
-DEFNAME=iCrystalBallLarge
-TYPE=tCrystalBall
+[ItemDef 0468b]
+DefName=iCrystalBallLarge
+Type=tCrystalBall
 VALUE=321
-WEIGHT=9.6
-RESOURCES=2 iBoard,7 iGlassRaw,6 iGemDiamond
-SKILLMAKE=Tinkering 95.7,ALCHEMY 50.0,MAGERY 85.1,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Fortune Teller
-DESCRIPTION=Crystal Ball (large)
+Weight=9.6
+Resources=2 iBoard,7 iGlassRaw,6 iGemDiamond
+SkillMake=Tinkering 95.7,ALCHEMY 50.0,MAGERY 85.1,tTinkerTools
+Category=Items by Professions
+Subsection=Fortune Teller
+Description=Crystal Ball (large)
 
 
-[ITEMDEF 0469b]
-DEFNAME=iScarecrow2
-NAME=scarecrow
+[ItemDef 0469b]
+DefName=iScarecrow2
+Name=scarecrow
 FLIP=1
 VALUE=78
-WEIGHT=30.0
-RESOURCES=4 iLog,14 iStraw,1 iRope,1 i_jackolantern
-SKILLMAKE=Carpentry 74.1,tCarpentry,tailoring 65.3
-CATEGORY=Items by Professions
-SUBSECTION=Farmer
-DESCRIPTION=Scarecrow
-DUPELIST=0469c
+Weight=30.0
+Resources=4 iLog,14 iStraw,1 iRope,1 i_jackolantern
+SkillMake=Carpentry 74.1,tCarpentry,tailoring 65.3
+Category=Items by Professions
+Subsection=Farmer
+Description=Scarecrow
+DupeList=0469c
 
-[ITEMDEF 0469c]
+[ItemDef 0469c]
 //scarecrow 2
-DUPEITEM=0469b
+DupeItem=0469b
 
 
-[ITEMDEF 048d4]
-DEFNAME=iGrandfatherClock3
-NAME=grandfather clock
-TYPE=tClock
+[ItemDef 048d4]
+DefName=iGrandfatherClock3
+Name=grandfather clock
+Type=tClock
 FLIP=1
 VALUE=44
-WEIGHT=9.2
-RESOURCES=1 iClockFrame,1 iParchment,10 iBoard,1 i_clock_parts
-SKILLMAKE=Tinkering 90.7,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Tinker
-DESCRIPTION=Grandfather Clock 3
-DUPELIST=048d8
+Weight=9.2
+Resources=1 iClockFrame,1 iParchment,10 iBoard,1 i_clock_parts
+SkillMake=Tinkering 90.7,tTinkerTools
+Category=Items by Professions
+Subsection=Tinker
+Description=Grandfather Clock 3
+DupeList=048d8
 
-[ITEMDEF 048d5]
+[ItemDef 048d5]
 //grandfather clock (animation frame)
 
-[ITEMDEF 048d6]
+[ItemDef 048d6]
 //grandfather clock (animation frame)
 
-[ITEMDEF 048d7]
+[ItemDef 048d7]
 //grandfather clock (animation frame)
 
-[ITEMDEF 048d8]
+[ItemDef 048d8]
 //grandfather clock
-DUPEITEM=048d4
+DupeItem=048d4
 
-[ITEMDEF 048d9]
+[ItemDef 048d9]
 //grandfather clock (animation frame)
 
-[ITEMDEF 048da]
+[ItemDef 048da]
 //grandfather clock (animation frame)
 
-[ITEMDEF 048db]
+[ItemDef 048db]
 //grandfather clock (animation frame)
 
 
-[ITEMDEF 04b44]
+[ItemDef 04b44]
 //FIXME: Magic fishhook allows a fishing rod to fish from lava
-DEFNAME=iFishhookMagic
-NAME=magic fish hook
+DefName=iFishhookMagic
+Name=magic fish hook
 FLIP=1
 VALUE=5
-WEIGHT=0.1
-RESOURCES=1 iIngotIron
-SKILLMAKE=Tinkering 21.0,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Fisherman
-DESCRIPTION=Magic Fish Hook
-DUPELIST=04b45
+Weight=0.1
+Resources=1 iIngotIron
+SkillMake=Tinkering 21.0,tTinkerTools
+Category=Items by Professions
+Subsection=Fisherman
+Description=Magic Fish Hook
+DupeList=04b45
 
-[ITEMDEF 04b45]
+[ItemDef 04b45]
 //Magic Fish Hook
-DUPEITEM=04b44
+DupeItem=04b44
 
-[ITEMDEF 04b46]
-DEFNAME=iFishhook
-NAME=fish hook
+[ItemDef 04b46]
+DefName=iFishhook
+Name=fish hook
 FLIP=1
 VALUE=5
-WEIGHT=0.1
-RESOURCES=1 iIngotIron
-SKILLMAKE=Tinkering 21.0,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Fisherman
-DESCRIPTION=Fish Hook
-DUPELIST=04b47
+Weight=0.1
+Resources=1 iIngotIron
+SkillMake=Tinkering 21.0,tTinkerTools
+Category=Items by Professions
+Subsection=Fisherman
+Description=Fish Hook
+DupeList=04b47
 
-[ITEMDEF 04b47]
+[ItemDef 04b47]
 //Fish Hook
-DUPEITEM=04b46
+DupeItem=04b46
 
 
-[ITEMDEF 04ba1]
-DEFNAME=iHarpsichordRoll
-TYPE=tNormal
-FLIP=1
-VALUE=22
-WEIGHT=6.0
-RESOURCES=1 iIngotIron,1 iPaper
-SKILLMAKE=Tinkering 51.0,Musicianship 100.0,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Musician
-DESCRIPTION=Harpsichord Roll
-DUPELIST=04ba2
 
-//"
-// A Skaran Lullaby
-// Anvil Strike In Minoc
-// Blackthorn's March
-// Dupre's Night in Trinsic
-// Fayaxion and the Six
-// Flight of the Nexus
-// Galehaven Jaunt
-// Jhelom to Arms
-// Midnight in Yew
-// Moonglow Sonata
-// New Magincia March
-// Nujelm Waltz
-// Sherry's Song
-// Starlight In Britain
-// The Vesper Mist
-//"
-
-[ITEMDEF 04ba2]
-//Harpsichord Roll
-DUPELIST=04ba1
-
-
-[ITEMDEF 04f80]
-DEFNAME=iTinkerTableElectric
-NAME=tinker table
-TYPE=tTable
+[ItemDef 04f80]
+DefName=iTinkerTableElectric
+Name=tinker table
+Type=tTable
 FLIP=1
 VALUE=118
-WEIGHT=66.0
-RESOURCES=30 iBoard
-SKILLMAKE=Carpentry 85.0,tCarpentry
-CATEGORY=Items by Professions
-SUBSECTION=Tinker
-DESCRIPTION=Tinker Table (electric)
-DUPELIST=04f9e
+Weight=66.0
+Resources=30 iBoard
+SkillMake=Carpentry 85.0,tCarpentry
+Category=Items by Professions
+Subsection=Tinker
+Description=Tinker Table (electric)
+DupeList=04f9e
 
-[ITEMDEF 04f81]
+[ItemDef 04f81]
 //Tinker Table (electric) (animation frame)
-[ITEMDEF 04f82]
+[ItemDef 04f82]
 //Tinker Table (electric) (animation frame)
-[ITEMDEF 04f83]
+[ItemDef 04f83]
 //Tinker Table (electric) (animation frame)
-[ITEMDEF 04f84]
+[ItemDef 04f84]
 //Tinker Table (electric) (animation frame)
-[ITEMDEF 04f85]
+[ItemDef 04f85]
 //Tinker Table (electric) (animation frame)
-[ITEMDEF 04f86]
+[ItemDef 04f86]
 //Tinker Table (electric) (animation frame)
-[ITEMDEF 04f87]
+[ItemDef 04f87]
 //Tinker Table (electric) (animation frame)
-[ITEMDEF 04f88]
+[ItemDef 04f88]
 //Tinker Table (electric) (animation frame)
-[ITEMDEF 04f89]
+[ItemDef 04f89]
 //Tinker Table (electric) (animation frame)
 
-[ITEMDEF 04f8a]
-DEFNAME=iTinkerTableCandle
-NAME=tinker table
-TYPE=tTable
+[ItemDef 04f8a]
+DefName=iTinkerTableCandle
+Name=tinker table
+Type=tTable
 FLIP=1
 VALUE=118
-WEIGHT=66.0
-RESOURCES=30 iBoard
-SKILLMAKE=Carpentry 85.0,tCarpentry
-CATEGORY=Items by Professions
-SUBSECTION=Tinker
-DESCRIPTION=Tinker Table (candle)
-DUPELIST=04fa8
+Weight=66.0
+Resources=30 iBoard
+SkillMake=Carpentry 85.0,tCarpentry
+Category=Items by Professions
+Subsection=Tinker
+Description=Tinker Table (candle)
+DupeList=04fa8
 
-[ITEMDEF 04f8b]
+[ItemDef 04f8b]
 //Tinker Table (candle) (animation frame)
-[ITEMDEF 04f8c]
+[ItemDef 04f8c]
 //Tinker Table (candle) (animation frame)
-[ITEMDEF 04f8d]
+[ItemDef 04f8d]
 //Tinker Table (candle) (animation frame)
-[ITEMDEF 04f8e]
+[ItemDef 04f8e]
 //Tinker Table (candle) (animation frame)
-[ITEMDEF 04f8f]
+[ItemDef 04f8f]
 //Tinker Table (candle) (animation frame)
-[ITEMDEF 04f90]
+[ItemDef 04f90]
 //Tinker Table (candle) (animation frame)
-[ITEMDEF 04f91]
+[ItemDef 04f91]
 //Tinker Table (candle) (animation frame)
-[ITEMDEF 04f92]
+[ItemDef 04f92]
 //Tinker Table (candle) (animation frame)
-[ITEMDEF 04f93]
+[ItemDef 04f93]
 //Tinker Table (candle) (animation frame)
 
-[ITEMDEF 04f94]
-DEFNAME=iTinkerTableMechanism
-NAME=tinker table
-TYPE=tTable
+[ItemDef 04f94]
+DefName=iTinkerTableMechanism
+Name=tinker table
+Type=tTable
 FLIP=1
 VALUE=118
-WEIGHT=66.0
-RESOURCES=30 iBoard
-SKILLMAKE=Carpentry 85.0,tCarpentry
-CATEGORY=Items by Professions
-SUBSECTION=Tinker
-DESCRIPTION=Tinker Table (mechanism)
-DUPELIST=04fb2
+Weight=66.0
+Resources=30 iBoard
+SkillMake=Carpentry 85.0,tCarpentry
+Category=Items by Professions
+Subsection=Tinker
+Description=Tinker Table (mechanism)
+DupeList=04fb2
 
-[ITEMDEF 04f95]
+[ItemDef 04f95]
 //Tinker Table (mechanism) (animation frame)
-[ITEMDEF 04f96]
+[ItemDef 04f96]
 //Tinker Table (mechanism) (animation frame)
-[ITEMDEF 04f97]
+[ItemDef 04f97]
 //Tinker Table (mechanism) (animation frame)
-[ITEMDEF 04f98]
+[ItemDef 04f98]
 //Tinker Table (mechanism) (animation frame)
-[ITEMDEF 04f99]
+[ItemDef 04f99]
 //Tinker Table (mechanism) (animation frame)
-[ITEMDEF 04f9a]
+[ItemDef 04f9a]
 //Tinker Table (mechanism) (animation frame)
-[ITEMDEF 04f9b]
+[ItemDef 04f9b]
 //Tinker Table (mechanism) (animation frame)
-[ITEMDEF 04f9c]
+[ItemDef 04f9c]
 //Tinker Table (mechanism) (animation frame)
-[ITEMDEF 04f9d]
+[ItemDef 04f9d]
 //Tinker Table (mechanism) (animation frame)
 
-[ITEMDEF 04f9e]
+[ItemDef 04f9e]
 //Tinker Table (electric)
-DUPEITEM=04f80
+DupeItem=04f80
 
-[ITEMDEF 04f9f]
+[ItemDef 04f9f]
 //Tinker Table (electric) (animation frame)
-[ITEMDEF 04fa0]
+[ItemDef 04fa0]
 //Tinker Table (electric) (animation frame)
-[ITEMDEF 04fa1]
+[ItemDef 04fa1]
 //Tinker Table (electric) (animation frame)
-[ITEMDEF 04fa2]
+[ItemDef 04fa2]
 //Tinker Table (electric) (animation frame)
-[ITEMDEF 04fa3]
+[ItemDef 04fa3]
 //Tinker Table (electric) (animation frame)
-[ITEMDEF 04fa4]
+[ItemDef 04fa4]
 //Tinker Table (electric) (animation frame)
-[ITEMDEF 04fa5]
+[ItemDef 04fa5]
 //Tinker Table (electric) (animation frame)
-[ITEMDEF 04fa6]
+[ItemDef 04fa6]
 //Tinker Table (electric) (animation frame)
-[ITEMDEF 04fa7]
+[ItemDef 04fa7]
 //Tinker Table (electric) (animation frame)
 
-[ITEMDEF 04fa8]
+[ItemDef 04fa8]
 //Tinker Table (candle)
-DUPEITEM=04f8a
+DupeItem=04f8a
 
-[ITEMDEF 04fa9]
+[ItemDef 04fa9]
 //Tinker Table (candle) (animation frame)
-[ITEMDEF 04faa]
+[ItemDef 04faa]
 //Tinker Table (candle) (animation frame)
-[ITEMDEF 04fab]
+[ItemDef 04fab]
 //Tinker Table (candle) (animation frame)
-[ITEMDEF 04fac]
+[ItemDef 04fac]
 //Tinker Table (candle) (animation frame)
-[ITEMDEF 04fad]
+[ItemDef 04fad]
 //Tinker Table (candle) (animation frame)
-[ITEMDEF 04fae]
+[ItemDef 04fae]
 //Tinker Table (candle) (animation frame)
-[ITEMDEF 04faf]
+[ItemDef 04faf]
 //Tinker Table (candle) (animation frame)
-[ITEMDEF 04fb0]
+[ItemDef 04fb0]
 //Tinker Table (candle) (animation frame)
-[ITEMDEF 04fb1]
+[ItemDef 04fb1]
 //Tinker Table (candle) (animation frame)
 
-[ITEMDEF 04fb2]
+[ItemDef 04fb2]
 //Tinker Table (mechanism)
-DUPEITEM=04f94
+DupeItem=04f94
 
-[ITEMDEF 04fb3]
+[ItemDef 04fb3]
 //Tinker Table (mechanism) (animation frame)
-[ITEMDEF 04fb4]
+[ItemDef 04fb4]
 //Tinker Table (mechanism) (animation frame)
-[ITEMDEF 04fb5]
+[ItemDef 04fb5]
 //Tinker Table (mechanism) (animation frame)
-[ITEMDEF 04fb6]
+[ItemDef 04fb6]
 //Tinker Table (mechanism) (animation frame)
-[ITEMDEF 04fb7]
+[ItemDef 04fb7]
 //Tinker Table (mechanism) (animation frame)
-[ITEMDEF 04fb8]
+[ItemDef 04fb8]
 //Tinker Table (mechanism) (animation frame)
-[ITEMDEF 04fb9]
+[ItemDef 04fb9]
 //Tinker Table (mechanism) (animation frame)
-[ITEMDEF 04fba]
+[ItemDef 04fba]
 //Tinker Table (mechanism) (animation frame)
-[ITEMDEF 04fbb]
+[ItemDef 04fbb]
 //Tinker Table (mechanism) (animation frame)
 
 
-[ITEMDEF 063bc]
-DEFNAME=iBenchHarpsichord
-NAME=harpsichord bench
-TYPE=tChair
-FLIP=1
-VALUE=60
-WEIGHT=100.0
-RESOURCES=20 iBoard
-SKILLMAKE=Carpentry 25.0
-CATEGORY=Items by Professions
-SUBSECTION=Musician
-DESCRIPTION=Harpsichord Bench (multi-part)
-DUPELIST=063bd,063c3,063c4
 
-[ITEMDEF 063bd]
-//Harpsichord Bench (multi-part)
-DUPEITEM=063bc
+[ItemDef 0981c]
+DefName=iAdvancedTrainingDummy
+Name=advanced training dummy
+Type=tTrainingDummy
+Weight=255
+DupeList=0981d,0981e,0981f,09820,09821,09822,09823,09824,09825,09834,09835,09836,09837,09838,09839
 
-[ITEMDEF 063be]
-DEFNAME=iHarpsichord
-NAME=harpsichord
-TYPE=tNormal
-FLIP=1
-VALUE=22
-WEIGHT=6.0
-RESOURCES=1 iIngotIron,1 iPaper
-SKILLMAKE=Tinkering 51.0,Musicianship 100.0,tTinkerTools
-CATEGORY=Items by Professions
-SUBSECTION=Musician
-DESCRIPTION=Harpsichord (multi-part)
-DUPELIST=063bf,063c0,063c1,063c2,063c5,063c6,063c7,063c8,063c9
+Category=Decorations
+Subsection=Training Dummies
+Description=Advanced Training Dummy
 
-[ITEMDEF 063bf]
-//Harpsichord (multi-part)
-DUPEITEM=063be
+On=@Create
+Tag.Override.PracticeMax.Skill_40=75.0
+Tag.Override.PracticeMax.Skill_42=75.0
 
-[ITEMDEF 063c0]
-//Harpsichord (multi-part)
-DUPEITEM=063be
-
-[ITEMDEF 063c1]
-//Harpsichord (multi-part)
-DUPEITEM=063be
-
-[ITEMDEF 063c2]
-//Harpsichord (multi-part)
-DUPEITEM=063be
-
-[ITEMDEF iMultiHarpsichordSouth]
-NAME=harpsichord
-TYPE=tMulti
-CATEGORY=Multis
-SUBSECTION=Furniture
-DESCRIPTION=Harpsichord (south)
-MULTIREGION=0,0,0,0
-COMPONENT=063bc,1,2,0
-COMPONENT=063bd,0,2,0
-COMPONENT=063be,0,1,0
-COMPONENT=063bf,1,1,0
-COMPONENT=063c0,0,0,0
-COMPONENT=063c1,1,0,0
-COMPONENT=063c2,0,0,0
-
-[ITEMDEF 063c3]
-//Harpsichord Bench (multi-part)
-DUPEITEM=063bc
-
-[ITEMDEF 063c4]
-//Harpsichord Bench (multi-part)
-DUPEITEM=063bc
-
-[ITEMDEF 063c5]
-//Harpsichord (multi-part)
-DUPEITEM=063be
-
-[ITEMDEF 063c6]
-//Harpsichord (multi-part)
-DUPEITEM=063be
-
-[ITEMDEF 063c7]
-//Harpsichord (multi-part)
-DUPEITEM=063be
-
-[ITEMDEF 063c8]
-//Harpsichord (multi-part)
-DUPEITEM=063be
-
-[ITEMDEF 063c9]
-//Harpsichord (multi-part)
-DUPEITEM=063be
-
-[ITEMDEF iMultiHarpsichordEast]
-NAME=harpsichord
-TYPE=tMulti
-CATEGORY=Multis
-SUBSECTION=Furniture
-DESCRIPTION=Harpsichord (east)
-MULTIREGION=0,0,0,0
-COMPONENT=063c3,2,0,0
-COMPONENT=063c4,2,1,0
-COMPONENT=063c5,1,1,0
-COMPONENT=063c6,1,0,0
-COMPONENT=063c7,0,1,0
-COMPONENT=063c8,0,0,0
-COMPONENT=063c9,-1,0,0
-
-
-[ITEMDEF 0981c]
-DEFNAME=iTrainingDummyAdvanced
-NAME=advanced training dummy
-TYPE=tTrainDummy
-VALUE=330
-WEIGHT=110.5
-RESOURCES=20 iLog,35 iCloth,50 iCotton,5 i_thread,5 i_hides_cut
-SKILLMAKE=Carpentry 85.0,Tailoring 70.0,tCarpentry,tSewingKit
-CATEGORY=Items by Professions
-SUBSECTION=Fighter
-DESCRIPTION=Training Dummy (advanced)
-DUPELIST=0981d,0981e,0981f,09820,09821,09822,09823,09824,09825,09834,09835,09836,09837,09838,09839
-ON=@Create
-TAG.OVERRIDE.PRACTICEMAX.SKILL_40=75.0
-TAG.OVERRIDE.PRACTICEMAX.SKILL_42=75.0
-
-[ITEMDEF 0981d]
+[ItemDef 0981d]
 //advanced training dummy
-DUPEITEM=0981c
+DupeItem=0981c
 
-[ITEMDEF 0981e]
+[ItemDef 0981e]
 //advanced training dummy
-DUPEITEM=0981c
+DupeItem=0981c
 
-[ITEMDEF 0981f]
+[ItemDef 0981f]
 //advanced training dummy
-DUPEITEM=0981c
+DupeItem=0981c
 
-[ITEMDEF 09820]
+[ItemDef 09820]
 //advanced training dummy
-DUPEITEM=0981c
+DupeItem=0981c
 
-[ITEMDEF 09821]
+[ItemDef 09821]
 //advanced training dummy
-DUPEITEM=0981c
+DupeItem=0981c
 
-[ITEMDEF 09822]
+[ItemDef 09822]
 //advanced training dummy
-DUPEITEM=0981c
+DupeItem=0981c
 
-[ITEMDEF 09823]
+[ItemDef 09823]
 //advanced training dummy
-DUPEITEM=0981c
+DupeItem=0981c
 
-[ITEMDEF 09824]
+[ItemDef 09824]
 //advanced training dummy
-DUPEITEM=0981c
+DupeItem=0981c
 
-[ITEMDEF 09825]
+[ItemDef 09825]
 //advanced training dummy
-DUPEITEM=0981c
+DupeItem=0981c
 
-[ITEMDEF 09826]
-DEFNAME=iTrainingDummyAdvancedFrame
-NAME=advanced training dummy frame
-TYPE=tNormal
-FLIP=1
-VALUE=330
-WEIGHT=110.5
-RESOURCES=20 iLog,10 iRope
-SKILLMAKE=Carpentry 15.0,tCarpentry
-CATEGORY=Items by Professions
-SUBSECTION=Fighter
-DESCRIPTION=Training Dummy (advanced) Frame
-DUPELIST=09827,09828,09829,0982a,0982b,0982c,0982d,0982e,0982f,09830,09831,09832,09833
+[ItemDef 09826]
+DefName=iTrainingDummyAdvancedFrame
+Name=advanced training dummy frame
+Type=tNormal
+Can=CanIFlip
+Weight=255
+DupeList=09827,09828,09829,0982a,0982b,0982c,0982d,0982e,0982f,09830,09831,09832,09833
 
-[ITEMDEF 09827]
+Category=Decorations
+Subsection=Training Dummies
+Description=Advanced Training Dummy Frames
+
+[ItemDef 09827]
 //advanced training dummy frame
-DUPEITEM=09826
+DupeItem=09826
 
-[ITEMDEF 09828]
+[ItemDef 09828]
 //advanced training dummy frame
-DUPEITEM=09826
+DupeItem=09826
 
-[ITEMDEF 09829]
+[ItemDef 09829]
 //advanced training dummy frame
-DUPEITEM=09826
+DupeItem=09826
 
-[ITEMDEF 0982a]
+[ItemDef 0982a]
 //advanced training dummy frame
-DUPEITEM=09826
+DupeItem=09826
 
-[ITEMDEF 0982b]
+[ItemDef 0982b]
 //advanced training dummy frame
-DUPEITEM=09826
+DupeItem=09826
 
-[ITEMDEF 0982c]
+[ItemDef 0982c]
 //advanced training dummy frame
-DUPEITEM=09826
+DupeItem=09826
 
-[ITEMDEF 0982d]
+[ItemDef 0982d]
 //advanced training dummy frame
-DUPEITEM=09826
+DupeItem=09826
 
-[ITEMDEF 0982e]
+[ItemDef 0982e]
 //advanced training dummy frame
-DUPEITEM=09826
+DupeItem=09826
 
-[ITEMDEF 0982f]
+[ItemDef 0982f]
 //advanced training dummy frame
-DUPEITEM=09826
+DupeItem=09826
 
-[ITEMDEF 09830]
+[ItemDef 09830]
 //advanced training dummy frame
-DUPEITEM=09826
+DupeItem=09826
 
-[ITEMDEF 09831]
+[ItemDef 09831]
 //advanced training dummy frame
-DUPEITEM=09826
+DupeItem=09826
 
-[ITEMDEF 09832]
+[ItemDef 09832]
 //advanced training dummy frame
-DUPEITEM=09826
+DupeItem=09826
 
-[ITEMDEF 09833]
+[ItemDef 09833]
 //advanced training dummy frame
-DUPEITEM=09826
+DupeItem=09826
 
-[ITEMDEF 09834]
+[ItemDef 09834]
 //advanced training dummy
-DUPEITEM=0981c
+DupeItem=0981c
 
-[ITEMDEF 09835]
+[ItemDef 09835]
 //advanced training dummy
-DUPEITEM=0981c
+DupeItem=0981c
 
-[ITEMDEF 09836]
+[ItemDef 09836]
 //advanced training dummy
-DUPEITEM=0981c
+DupeItem=0981c
 
-[ITEMDEF 09837]
+[ItemDef 09837]
 //advanced training dummy
-DUPEITEM=0981c
+DupeItem=0981c
 
-[ITEMDEF 09838]
+[ItemDef 09838]
 //advanced training dummy
-DUPEITEM=0981c
+DupeItem=0981c
 
-[ITEMDEF 09839]
+[ItemDef 09839]
 //advanced training dummy
-DUPEITEM=0981c
+DupeItem=0981c
 
 
 //////////////////
@@ -3966,53 +3731,53 @@ DUPEITEM=0981c
 //////////////////
 
 
-[ITEMDEF iScrew]
+[ItemDef iScrew]
 ID=iHinge
-NAME=screw%s
+Name=screw%s
 VALUE=1
-WEIGHT=0.2
-NAME=Screw
-RESOURCES=1 iIngotIron
-CATEGORY=Items by Professions
-SUBSECTION=Tinker
-DESCRIPTION=Screw
+Weight=0.2
+Name=Screw
+Resources=1 iIngotIron
+Category=Items by Professions
+Subsection=Tinker
+Description=Screw
 
-[ITEMDEF iHingesBrass]
+[ItemDef iHingesBrass]
 ID=iHinge
-NAME=brass hinge%s
-WEIGHT=0.1
-RESOURCES=3 iIngotIron
-CATEGORY=Items by Professions
-SUBSECTION=Tinker
-DESCRIPTION=Brass Hinge
-ON=@Create
-COLOR=color_o_gold
+Name=brass hinge%s
+Weight=0.1
+Resources=3 iIngotIron
+Category=Items by Professions
+Subsection=Tinker
+Description=Brass Hinge
+On=@Create
+COLOR=GoldHue
 
-[ITEMDEF iInkPot]
+[ItemDef iInkPot]
 ID=iSpittoon
-NAME=inkpot
-WEIGHT=1
-CATEGORY=Items by Professions
-SUBSECTION=Scribe
-DESCRIPTION=Inkpot
-ON=@Create
-COLOR=color_gray_dk
+Name=inkpot
+Weight=1
+Category=Items by Professions
+Subsection=Scribe
+Description=Inkpot
+On=@Create
+COLOR=DarkGreyHue
 
-[ITEMDEF iWaxSeal]
+[ItemDef iWaxSeal]
 ID=iGemTourmaline
-NAME=wax seal
-RESOURCES=1 iIvory
-CATEGORY=Items by Professions
-SUBSECTION=Scribe
-DESCRIPTION=Wax Seal
+Name=wax seal
+Resources=1 iIvory
+Category=Items by Professions
+Subsection=Scribe
+Description=Wax Seal
 
-[ITEMDEF iCatGut]
+[ItemDef iCatGut]
 ID=iFleshEntrails
-NAME=Cat Gut
-WEIGHT=0.1
-CATEGORY=Items by Professions
-SUBSECTION=Bowyer
-DESCRIPTION=Cat Gut
+Name=cat gut
+Weight=1
+Category=Items by Professions
+Subsection=Bowyer
+Description=Cat Gut
 
 
 [EOF]

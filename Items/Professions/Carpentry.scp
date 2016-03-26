@@ -1,0 +1,20 @@
+[ItemDef 04513]
+DefName=iChickenCoop
+Name=chicken coop
+TypeDef=tChickenCoop
+Can=CanIFlip|CanIRetainColor
+Weight=20
+SkillMake=Carpentry 900
+Resources=150 iBoard
+Material=tWood
+DupeList=04514
+
+Category=Professions
+Subsection=Carpentry
+Description=Chicken Coop
+
+[ItemDef 04514]
+DupeItem=04513
+
+
+[EOF]

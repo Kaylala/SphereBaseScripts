@@ -1,0 +1,121 @@
+[ItemDef 063BE]
+DefName=iHarpsichordS
+Name=harpsichord
+Type=tNormal
+Can=CanIFlip
+Weight=255
+DupeList=063bf,063c0,063c1,063c2
+
+Category=Professions
+Subsection=Musician
+Description=Harpsichord (South)
+
+[ItemDef 063bf]
+//Harpsichord (multi-part)
+DupeItem=063be
+
+[ItemDef 063c0]
+//Harpsichord (multi-part)
+DupeItem=063be
+
+[ItemDef 063c1]
+//Harpsichord (multi-part)
+DupeItem=063be
+
+[ItemDef 063c2]
+//Harpsichord (multi-part)
+DupeItem=063be
+
+
+[ItemDef 063C5]
+DefName=iHarpsichordE
+Name=harpsichord
+Type=tNormal
+Can=CanIFlip
+Weight=255
+DupeList=063c6,063c7,063c8,063c9
+
+Category=Professions
+Subsection=Musician
+Description=Harpsichord (East)
+
+[ItemDef 063c6]
+DupeItem=063c5
+
+[ItemDef 063c7]
+DupeItem=063c5
+
+[ItemDef 063c8]
+DupeItem=063c5
+
+[ItemDef 063c9]
+DupeItem=063c5
+
+
+[ItemDef 063bc]
+DefName=iHarpsichordBenchS
+Name=harpsichord bench
+Type=tChair
+Can=CanIFlip
+Weight=255
+DupeList=063bd
+
+Category=Professions
+Subsection=Musician
+Description=Harpsichord Bench (South)
+
+[ItemDef 063bd]
+DupeItem=063bc
+
+
+[ItemDef 063C3]
+DefName=iHarpsichordBenchE
+Name=harpsichord bench
+Type=tChair
+Can=CanIFlip
+Weight=255
+DupeList=063c4
+
+Category=Professions
+Subsection=Musician
+Description=Harpsichord Bench (East)
+
+[ItemDef 063C4]
+DupeItem=063C3
+
+
+[ItemDef 04BA1]
+DefName=iHarpsichordRoll
+Type=tNormal
+Can=CanIFlip
+Weight=1
+DupeList=04bA2
+
+Category=Professions
+Subsection=Musician
+Description=Harpsichord Roll
+
+//"
+// A Skaran Lullaby
+// Anvil Strike In Minoc
+// Blackthorn's March
+// Dupre's Night in Trinsic
+// Fayaxion and the Six
+// Flight of the Nexus
+// Galehaven Jaunt
+// Jhelom to Arms
+// MIDnight in Yew
+// Moonglow Sonata
+// New Magincia March
+// Nujelm Waltz
+// Sherry's Song
+// Starlight In Britain
+// The Vesper Mist
+//"
+
+[ItemDef 04BA2]
+//Harpsichord Roll
+DupeList=04BA1
+
+
+[EOF]
