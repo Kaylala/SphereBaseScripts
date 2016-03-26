@@ -1,0 +1,39 @@
+[Comment Notes]
+Need to apply color to some of these.
+Does this need more than 1 item to do so? Never tried.
+
+
+[MultiDef mHarpsichordS]
+Name=harpsichord
+Type=tMulti
+
+Category=Multis
+Subsection=Furniture
+Description=Harpsichord (South)
+
+MultiRegion=0,0,0,0
+Component=063bc,1,2,0	// Bench
+Component=063bd,0,2,0
+Component=063be,0,1,0	// Harpsichord
+Component=063bf,1,1,0
+Component=063c0,0,0,0
+Component=063c1,1,0,0
+Component=063c2,0,0,0
+
+
+[ItemDef mHarpsichordE]
+Name=harpsichord
+Type=tMulti
+
+Category=Multis
+Subsection=Furniture
+Description=Harpsichord (East)
+
+MultiRegion=0,0,0,0
+Component=063c3,2,0,0	// Bench
+Component=063c4,2,1,0
+Component=063c5,1,1,0	// Harpsichord
+Component=063c6,1,0,0
+Component=063c7,0,1,0
+Component=063c8,0,0,0
+Component=063c9,-1,0,0

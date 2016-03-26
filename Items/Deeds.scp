@@ -1,0 +1,103 @@
+[ItemDef iHarpsichordDeedS]
+ID=iDeed
+Name=harpsichord deed (south)
+NameLoc=
+Type=tDeed
+Weight=1
+
+Category=Deeds
+Subsection=Musician
+Description=Harpsichord (South)
+
+On=@Create
+More1=mHarpsichordS
+
+
+[ItemDef iHarpsichordDeedE]
+ID=iDeed
+Name=harpsichord deed (east)
+NameLoc=
+Type=tDeed
+Weight=1
+
+Category=Deeds
+Subsection=Musician
+Description=Harpsichord (East)
+
+On=@Create
+More1=mHarpsichordE
+
+
+[ItemDef iTrainingDummyDeedE]
+ID=iDeed
+Name=training dummy deed (east)
+NameLoc=
+Type=tDeed
+Weight=1
+SkillMake=Carpentry 684,Tailoring 500
+Resources=60 iCloth,55 iBoard
+Material=tCloth,tWood
+
+Category=Deeds
+Subsection=Carpentry
+Description=Training Dummy Deed (East)
+
+On=@Create
+More1=iTrainingDummyE
+
+
+[ItemDef iTrainingDummyDeedS]
+ID=iDeed
+Name=training dummy deed (south)
+NameLoc=
+Type=tDeed
+Weight=1
+SkillMake=Carpentry 684,Tailoring 500
+Resources=60 iCloth,55 iBoard
+Material=tCloth,tWood
+
+Category=Deeds
+Subsection=Carpentry
+Description=Training Dummy Deed (South)
+
+On=@Create
+More1=iTrainingDummyS
+
+
+[ItemDef iAdvancedTrainingDummyDeedE]
+ID=iDeed
+Name=advanced training dummy deed (east)
+NameLoc=
+Type=tDeed
+Weight=1
+SkillMake=Tinkering 900
+Resources=iTrainingDummyDeedE,iPlatemailTunic,iCloseHelmet,iBroadsword
+ThemePack=GothicThemePack
+
+Category=Deeds
+Subsection=Carpentry
+Description=Advanced Training Dummy Deed (East)
+
+On=@Create
+More1=iAdvancedTrainingDummyE
+
+
+[ItemDef iAdvancedTrainingDummyDeedS]
+ID=iDeed
+Name=advanced training dummy deed (south)
+NameLoc=
+Type=tDeed
+Weight=1
+SkillMake=Tinkering 900
+Resources=iTrainingDummyDeedS,iPlatemailTunic,iCloseHelmet,iBroadsword
+ThemePack=GothicThemePack
+
+Category=Deeds
+Subsection=Carpentry
+Description=Advanced Training Dummy Deed (South)
+
+On=@Create
+More1=iAdvancedTrainingDummyS
+
+
+[EOF]
