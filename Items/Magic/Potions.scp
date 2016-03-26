@@ -1,0 +1,165 @@
+[Comment CliLocs]
+1041305 an unknown potion
+1041306 an unknown black potion
+1041307 an unknown orange potion
+1041308 an unknown blue potion
+1041309 an unknown white potion
+1041310 an unknown green potion
+1041311 an unknown red potion
+1041312 an unknown yellow potion
+1041313 an unknown purple potion
+
+
+[ItemDef 0F06]
+DefName=iBlackPotion
+Name=black potion
+NameLoc=1023846
+Type=tPotion
+TData1=iEmptyBottle
+Can=CanIStack
+Weight=1
+Resources=1 iEmptyBottle
+
+Category=Magic
+Subsection=Potions: Base
+Description=Black Potion (NightSight)
+
+On=@Create
+More1=sNightSight
+More2=600
+
+
+[ItemDef 0F07]
+DefName=iOrangePotion
+Name=orange potion
+NameLoc=1023847
+Type=tPotion
+TData1=iEmptyBottle
+Can=CanIStack
+Weight=1
+Resources=1 iEmptyBottle
+
+Category=Magic
+Subsection=Potions: Base
+Description=Orange Potion (Cure)
+
+On=@Create
+More1=sCure
+More2=600
+
+
+[ItemDef 0F08]
+DefName=iBluePotion
+Name=blue potion
+NameLoc=1023848
+Type=tPotion
+TData1=iEmptyBottle
+Can=CanIStack
+Weight=1
+Resources=1 iEmptyBottle
+
+Category=Magic
+Subsection=Potions: Base
+Description=Blue Potion (Agility)
+
+On=@Create
+More1=sAgility
+More2=600
+
+
+[ItemDef 0F09]
+DefName=iWhitePotion
+Name=white potion
+NameLoc=1023849
+Type=tPotion
+TData1=iEmptyBottle
+Can=CanIStack
+Weight=1
+Resources=1 iEmptyBottle
+
+Category=Magic
+Subsection=Potions: Base
+Description=White Potion (Strength)
+
+On=@Create
+More1=sStrength
+More2=600
+
+
+[ItemDef 0F0A]
+DefName=iGreenPotion
+Name=green potion
+NameLoc=1023850
+Type=tPotion
+TData1=iEmptyBottle
+Can=CanIStack
+Weight=1
+Resources=1 iEmptyBottle
+
+Category=Magic
+Subsection=Potions: Base
+Description=Green Potion (Poison)
+
+On=@Create
+More1=sPoison
+More2=600
+
+
+[ItemDef 0F0B]
+DefName=iRedPotion
+Name=red potion
+NameLoc=1023851
+Type=tPotion
+TData1=iEmptyBottle
+Can=CanIStack
+Weight=1
+Resources=1 iEmptyBottle
+
+Category=Magic
+Subsection=Potions: Base
+Description=Red Potion (Refresh)
+
+On=@Create
+More1=sRefresh
+More2=600
+
+
+[ItemDef 0f0c]
+DefName=iYellowPotion
+Name=yellow potion
+NameLoc=1023852
+Type=tPotion
+TData1=iEmptyBottle
+Can=CanIStack
+Weight=1
+Resources=1 iEmptyBottle
+
+Category=Magic
+Subsection=Potions: Base
+Description=Yellow Potion (Heal)
+
+On=@Create
+More1=sHeal
+More2=600
+
+
+[ItemDef 0F0D]
+DefName=iPurplePotion
+Name=purple potion
+NameLoc=1023853
+Type=tPotion
+TData1=0
+Can=CanIStack
+Weight=1
+Resources=1 iEmptyBottle
+
+Category=Magic
+Subsection=Potions: Base
+Description=Purple Potion (Explosion)
+
+On=@Create
+More1=sExplosion
+More2=600
+
+
+[EOF]

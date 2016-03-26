@@ -1,0 +1,992 @@
+// Alchemy Tool
+[ItemDef 0E9B]
+DefName=iMortarAndPestle
+Name=mortar and pestle
+NameLoc=1023739
+Type=tAlchemyTool
+Weight=1
+
+Category=Decorations
+Subsection=Alchemist
+Description=Mortar and Pestle
+
+
+// Empty Bottle
+[ItemDef 0F0E]
+DefName=iEmptyBottle
+Name=empty bottle
+NameLoc=1023854
+Type=tNormal
+Can=CanIStack
+Weight=1
+
+Category=Decorations
+Subsection=Alchemist
+Description=Empty Bottle
+
+
+[ItemDef 0E24]
+DefName=iEmptyVial
+Name=empty vial%s
+NameLoc=1023620
+Type=tNormal
+Can=CanIStack
+Weight=1
+
+Category=Decorations
+Subsection=Alchemist: Vials
+Description=Empty Vial
+
+
+[ItemDef 0E25]
+DefName=iBottle1
+Name=bottle
+NameLoc=1023621
+Type=tNormal
+Can=CanIFlip
+Weight=1
+DupeList=0EFD
+
+Category=Decorations
+Subsection=Alchemist: Bottles
+Description=Bottle
+
+[ItemDef 0EFD]
+DupeItem=0E25
+
+
+[ItemDef 0E26]
+DefName=iBottle2
+Name=bottle
+NameLoc=1023622
+Type=tNormal
+Can=CanIFlip
+Weight=1
+DupeList=0EFE
+
+Category=Decorations
+Subsection=Alchemist: Bottles
+Description=Bottle
+
+[ItemDef 0EFE]
+DupeItem=0E26
+
+
+[ItemDef 0E27]
+DefName=iBottle3
+Name=bottle
+NameLoc=1023623
+Type=tNormal
+Can=CanIFlip
+Weight=1
+DupeList=0EFF
+
+Category=Decorations
+Subsection=Alchemist: Bottles
+Description=Bottle
+
+[ItemDef 0EFF]
+DupeItem=0E27
+
+
+[ItemDef 0E28]
+DefName=iBottle4
+Name=bottle
+NameLoc=1023624
+Type=tNormal
+Can=CanIFlip
+Weight=1
+DupeList=0F00
+
+Category=Decorations
+Subsection=Alchemist: Bottles
+Description=Bottle
+
+[ItemDef 0F00]
+DupeItem=0E28
+
+
+[ItemDef 0E29]
+DefName=iBottle5
+Name=bottle
+NameLoc=1023625
+Type=tNormal
+Can=CanIFlip
+Weight=1
+DupeList=0F01
+
+Category=Decorations
+Subsection=Alchemist: Bottles
+Description=Bottle
+
+[ItemDef 0F01]
+DupeItem=0E29
+
+
+[ItemDef 0E2A]
+DefName=iBottle6
+Name=bottle
+NameLoc=1023626
+Type=tNormal
+Can=CanIFlip
+Weight=1
+DupeList=0F02
+
+Category=Decorations
+Subsection=Alchemist: Bottles
+Description=Bottle
+
+[ItemDef 0F02]
+DupeItem=0E2A
+
+
+[ItemDef 0E2B]
+DefName=iBottle7
+Name=bottle
+NameLoc=1023627
+Type=tNormal
+Can=CanIFlip
+Weight=1
+DupeList=0F03
+
+Category=Decorations
+Subsection=Alchemist: Bottles
+Description=Bottle
+
+[ItemDef 0F03]
+DupeItem=0E2B
+
+
+[ItemDef 0E2C]
+DefName=iBottle8
+Name=bottle
+NameLoc=1023628
+Type=tNormal
+Can=CanIFlip
+Weight=1
+DupeList=0F04
+
+Category=Decorations
+Subsection=Alchemist: Bottles
+Description=Bottle
+
+[ItemDef 0F04]
+DupeItem=0E2C
+
+
+[ItemDef 0EFB]
+DefName=iBottle9
+Name=bottle
+NameLoc=1023835
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Alchemist: Bottles
+Description=Bottle
+
+
+[ItemDef 0EFC]
+DefName=iBottle10
+Name=bottle
+NameLoc=1023836
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Alchemist: Bottles
+Description=Bottle
+
+
+[ItemDef 0E44]
+DefName=iEmptyJars1
+Name=empty jars
+NameLoc=1023652
+Type=tNormal
+Can=CanIFlip
+Weight=1
+DupeList=0E45
+
+Category=Decorations
+Subsection=Alchemist: Jars
+Description=Empty Jars
+
+
+[ItemDef 0E45]
+NameLoc=1023653
+DupeList=0E44
+
+
+[ItemDef 0E46]
+DefName=iEmptyJars2
+Name=empty jars
+NameLoc=1023654
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Alchemist: Jars
+Description=Empty Jars
+
+
+[ItemDef 0E47]
+DefName=iEmptyJars3
+Name=empty jars
+NameLoc=1023655
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Alchemist: Jars
+Description=Empty Jars
+
+
+[ItemDef 0E48]
+DefName=iFullJars1
+Name=full jars
+NameLoc=1023656
+Type=tNormal
+Can=CanIFlip
+Weight=1
+
+Category=Decorations
+Subsection=Alchemist: Jars
+Description=Full Jars
+
+[ItemDef 0E49]
+NameLoc=1023657
+DupeItem-0E48
+
+
+[ItemDef 0E4A]
+DefName=iFullJars2
+Name=full jars
+NameLoc=1023658
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Alchemist: Jars
+Description=Full Jars
+
+
+[ItemDef 0E4B]
+DefName=iFullJars3
+Name=full jars
+NameLoc=1023659
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Alchemist: Jars
+Description=Full Jars
+
+
+[ItemDef 0E4C]
+DefName=iJars1
+Name=jars
+NameLoc=1023660
+Type=tNormal
+Can=CanIFlip
+Weight=1
+
+Category=Decorations
+Subsection=Alchemist: Jars
+Description=Jars
+
+[ItemDef 0E4D]
+NameLoc=1023661
+DupeItem=0E4C
+
+
+[ItemDef 0E4E]
+DefName=iJars2
+Name=jars
+NameLoc=1023662
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Alchemist: Jars
+Description=Jars
+
+
+[ItemDef 0E4F]
+DefName=iJars3
+Name=jars
+NameLoc=1023663
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Alchemist: Jars
+Description=Jars
+
+
+[ItemDef 01005]
+DefName=iEmptyJar
+Name=empty jar
+NameLoc=1024101
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Alchemist: Jars
+Description=Empty Jar
+
+
+[ItemDef 01006]
+DefName=iFullJar
+Name=full jar
+NameLoc=1024102
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Alchemist: Jars
+Description=Full Jar
+
+
+[ItemDef 01007]
+DefName=iHalfEmptyJar
+Name=half empty jar
+NameLoc=1024103
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Alchemist: Jars
+Description=Half Empty Jar
+
+
+[ItemDef 01810]
+DefName=iHourglass
+Name=hourglass
+NameLoc=1026160
+Type=tClock
+Weight=1
+DupeList=01811,01812,01813,01814,01815,01816,01817,01818,01819,0181A,0181B,0181C
+
+Category=Decorations
+Subsection=Alchemist: Miscellaneous
+Description=Hourglass
+
+// Begins Animation sequence
+[ItemDef 01811]
+NameLoc=1026161
+DupeItem=01810
+
+[ItemDef 01812]
+NameLoc=1026162
+DupeItem=01810
+
+[ItemDef 01813]
+NameLoc=1026163
+DupeItem=01810
+
+[ItemDef 01814]
+NameLoc=1026164
+DupeItem=01810
+
+[ItemDef 01815]
+NameLoc=1026165
+DupeItem=01810
+
+[ItemDef 01816]
+NameLoc=1026166
+DupeItem=01810
+
+[ItemDef 01817]
+NameLoc=1026167
+DupeItem=01810
+
+[ItemDef 01818]
+NameLoc=1026168
+DupeItem=01810
+
+[ItemDef 01819]
+NameLoc=1026169
+DupeItem=01810
+
+[ItemDef 0181A]
+NameLoc=1026170
+DupeItem=01810
+
+[ItemDef 0181B]
+NameLoc=1026171
+DupeItem=01810
+
+[ItemDef 0181C]
+NameLoc=1026172
+DupeItem=01810
+
+
+[ItemDef 01829]
+DefName=iFlaskStand
+Name=flask stand
+NameLoc=1026185
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Alchemist: Miscellaneous
+Description=Flask Stand
+
+
+[ItemDef 0182A]
+DefName=iFlask1
+Name=flask
+NameLoc=1026186
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Alchemist: Flasks
+Description=Flask
+
+
+[ItemDef 0182B]
+DefName=iFlask2
+Name=flask
+NameLoc=1026187
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Alchemist: Flasks
+Description=Flask
+
+
+[ItemDef 0182C]
+DefName=iFlask3
+Name=flask
+NameLoc=1026188
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Alchemist: Flasks
+Description=Flask
+
+
+[ItemDef 0182D]
+DefName=iFlask4
+Name=flask
+NameLoc=1026189
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Alchemist: Flasks
+Description=Flask
+
+
+[ItemDef 0182E]
+DefName=iFlask5
+Name=flask
+NameLoc=1026190
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Alchemist: Flasks
+Description=Flask
+
+
+[ItemDef 0182F]
+DefName=iFlask6
+Name=flask
+NameLoc=1026191
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Alchemist: Flasks
+Description=Flask
+
+
+[ItemDef 01830]
+DefName=iFlask7
+Name=flask
+NameLoc=1026192
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Alchemist: Flasks
+Description=Flask
+
+
+[ItemDef 01831]
+DefName=iFlask8
+Name=flask
+NameLoc=1026193
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Alchemist: Flasks
+Description=Flask
+
+
+[ItemDef 01832]
+DefName=iFlask9
+Name=flask
+NameLoc=1026194
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Alchemist: Flasks
+Description=Flask
+
+
+[ItemDef 01833]
+DefName=iFlask10
+Name=flask
+NameLoc=1026195
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Alchemist: Flasks
+Description=Flask
+
+
+[ItemDef 01834]
+DefName=iFlask11
+Name=flask
+NameLoc=1026196
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Alchemist: Flasks
+Description=Flask
+
+
+[ItemDef 01835]
+DefName=iFlask12
+Name=flask
+NameLoc=1026197
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Alchemist: Flasks
+Description=Flask
+
+
+[ItemDef 01836]
+DefName=iFlask13
+Name=flask
+NameLoc=1026198
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Alchemist: Flasks
+Description=Flask
+
+
+[ItemDef 01837]
+DefName=iFlask14
+Name=flask
+NameLoc=1026199
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Alchemist: Flasks
+Description=Flask
+
+
+[ItemDef 01838]
+DefName=iFlask15
+Name=flask
+NameLoc=1026200
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Alchemist: Flasks
+Description=Flask
+
+
+[ItemDef 01839]
+DefName=iFlask16
+Name=flask
+NameLoc=1026201
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Alchemist: Flasks
+Description=Flask
+
+
+[ItemDef 0183A]
+DefName=iFlask17
+Name=flask
+NameLoc=1026202
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Alchemist: Flasks
+Description=Flask
+
+
+[ItemDef 0183B]
+DefName=iFlask17
+Name=flask
+NameLoc=1026203
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Alchemist: Flasks
+Description=Flask
+
+
+[ItemDef 0183C]
+DefName=iFlask18
+Name=flask
+NameLoc=1026204
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Alchemist: Flasks
+Description=Flask
+
+
+[ItemDef 0183D]
+DefName=iFlask19
+Name=flask
+NameLoc=1026205
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Alchemist: Flasks
+Description=Flask
+
+
+[ItemDef 0183E]
+DefName=iFlask20
+Name=flask
+NameLoc=1026206
+Type=tNormal
+Weight=1
+DupeList=0183F,01840
+
+Category=Decorations
+Subsection=Alchemist: Flasks
+Description=Flask
+
+[ItemDef 0183F]
+NameLoc=1026207
+DupeItem=0183E
+
+[ItemDef 01840]
+NameLoc=1026208
+DupeItem=0183E
+
+
+[ItemDef 01841]
+DefName=iFlask21
+Name=flask
+NameLoc=1026209
+Type=tNormal
+Weight=1
+DupeList=01842,01843
+
+Category=Decorations
+Subsection=Alchemist: Flasks
+Description=Flask
+
+[ItemDef 01842]
+NameLoc=1026210
+DupeItem=01841
+
+[ItemDef 01843]
+NameLoc=1026211
+DupeItem=01841
+
+
+[ItemDef 01844]
+DefName=iFlask22
+Name=flask
+NameLoc=1026212
+Type=tNormal
+Weight=1
+DupeList=01842,01843
+
+Category=Decorations
+Subsection=Alchemist: Flasks
+Description=Flask
+
+[ItemDef 01845]
+NameLoc=1026213
+DupeItem=01844
+
+[ItemDef 01846]
+NameLoc=1026214
+DupeItem=01844
+
+
+[ItemDef 01847]
+DefName=iFlask23
+Name=flask
+NameLoc=1026215
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Alchemist: Flasks
+Description=Flask
+
+
+[ItemDef 01848]
+DefName=iFlask24
+Name=flask
+NameLoc=1026216
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Alchemist: Flasks
+Description=Flask
+
+
+[ItemDef 01849]
+DefName=iHeatingStandS
+Name=flask
+NameLoc=1026217
+Type=tUnlitLight
+TData3=iHeatingStandLitS
+Weight=1
+
+Category=Decorations
+Subsection=Alchemist: Miscellaneous
+Description=Heating Stand (South)
+
+
+[ItemDef 0184A]
+DefName=iHeatingStandLitS
+Name=heating stand
+NameLoc=1026218
+Type=tlitLight
+TData3=iHeatingStandS
+Weight=1
+DupeList=0184B,0184C
+
+Category=Decorations
+Subsection=Alchemist: Miscellaneous
+Description=Heating Stand (South) (Lit)
+
+On=@Create
+MoreZ=2
+
+[ItemDef 0184B]
+NameLoc=1026219
+DupeItem=0184A
+
+[ItemDef 0184C]
+NameLoc=1026220
+DupeItem=0184A
+
+
+[ItemDef 0184D]
+DefName=iHeatingStandE
+Name=heating stand
+NameLoc=1026221
+Type=tUnlitLight
+TData3=iHeatingStandLitE
+Weight=1
+
+Category=Decorations
+Subsection=Alchemist: Miscellaneous
+Description=Heating Stand (East)
+
+
+[ItemDef 0184E]
+DefName=iHeatingStandLitE
+Name=heating stand
+NameLoc=1026222
+Type=tlitLight
+TData3=iHeatingStandE
+Weight=1
+DupeList=0184F,01850
+
+Category=Decorations
+Subsection=Alchemist: Miscellaneous
+Description=Heating Stand (East) (Lit)
+
+On=@Create
+MoreZ=2
+
+[ItemDef 0184F]
+NameLoc=1026223
+DupeItem=0184E
+
+[ItemDef 01850]
+NameLoc=1026224
+DupeItem=0184E
+
+
+[ItemDef 01851]
+DefName=iScales
+Name=scales
+NameLoc=1026225
+Type=tNormal
+Can=CanIFlip
+Weight=4
+DupeList=01852
+
+Category=Decorations
+Subsection=Alchemist: Miscellaneous
+Description=Scales
+
+[ItemDef 01852]
+NameLoc=1026226
+DupeItem=01851
+
+
+[ItemDef 0185B]
+DefName=iEmptyVials
+Name=empty vials
+NameLoc=1026235
+Type=tNormal
+Can=CanIFlip
+Weight=1
+DupeList=0185C
+
+Category=Decorations
+Subsection=Alchemist: Vials
+Description=Empty Vials
+
+[ItemDef 0185C]
+NameLoc=1026236
+DupeItem=0185B
+
+
+[ItemDef 0185D]
+DefName=iFullVials
+Name=full vials
+NameLoc=1026237
+Type=tNormal
+Can=CanIFlip
+Weight=1
+DupeList=0185E
+
+Category=Decorations
+Subsection=Alchemist: Vials
+Description=Full Vials
+
+[ItemDef 0185E]
+NameLoc=1026238
+DupeItem=0185D
+
+
+[ItemDef 01865]
+DefName=iDishingStump
+Name=dishing stump
+NameLoc=1026245
+Type=tNormal
+Can=CanIFlip
+Weight=255
+DupeList=01866
+
+Category=Decorations
+Subsection=Alchemist: Miscellaneous
+Description=Dishing Stump
+
+[ItemDef 01866]
+NameLoc=1026246
+DupeItem=01865
+
+
+// Partial hue, offset/stacking 45, surface
+[ItemDef 02DD3]
+DefName=iAlchemyTable
+Name=alchemy table
+NameLoc=1031731
+Type=tTable
+Can=CanIFlip
+Weight=255
+DupeList=02DD4
+
+Category=Decorations
+Subsection=Alchemist: Miscellaneous
+Description=Alchemy Table
+
+[ItemDef 02DD4]
+NameLoc=1031731
+DupeItem=02DD3
+
+
+// Partial hue, offset/stacking 45, Surface
+[ItemDef 03077]
+DefName=iElvenAlchemyTableE
+Name=elven alchemy table
+NameLoc=1032407
+Type=tTable
+Can=CanIFlip
+Weight=255
+DupeList=03078
+
+Category=Decorations
+Subsection=Alchemist: Miscellaneous
+Description=ELven Alchemy Table
+
+[ItemDef 03078]
+NameLoc=1032408
+DupeItem=03077
+
+
+// Partial hue, offset/stacking 45, Surface
+[ItemDef 03079]
+DefName=iElvenAlchemyTableS
+Name=elven alchemy table
+NameLoc=1032409
+Type=tTable
+Can=CanIFlip
+Weight=255
+DupeList=0307A
+
+Category=Decorations
+Subsection=Alchemist: Miscellaneous
+Description=ELven Alchemy Table
+
+[ItemDef 0307A]
+NameLoc=1032410
+DupeItem=03079
+
+
+[ItemDef 042B4]
+DefName=iGargishBottle
+Name=gargish bottle
+NameLoc=1095948
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Alchemist: Bottles
+Description=Gargish Bottle
+
+
+[ItemDef 04686]
+DefName=iEmptyBottle2
+Name=empty bottle
+NameLoc=1096926
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Alchemist: Bottles
+Description=Empty Bottle
+
+
+[EOF]
