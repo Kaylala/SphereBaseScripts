@@ -1,3 +1,19 @@
+// Because these two function bother Xun because he knows I know better than to write a redundancy... but I really hate the @ Symbol in my code. Frustrating him is also perf af.
+// These parse clilocs in says and messages. You could have just done it with say @,,2 <Cliloc>, but I am difficult. :D
+[Function MessageLoc]
+If <IsEmpty <ArgV0>>
+ ArgV0=-1
+EndIf
+Message @<ArgV0>,,2 <ArgV1>
+
+
+[Function SayLoc]
+If <IsEmpty <ArgV0>>
+ ArgV0=-1
+EndIf
+Say @<ArgV0>,,2 <ArgV1>
+
+
 // Can be used in @HitTry. Use on Char or ArgO. Make sure there is no ArgO first.
 [Function CheckSpeed]
 Return <QVal (<Tag0.Override.Speed>) ? <Tag.Override.Speed> : <Speed>>
