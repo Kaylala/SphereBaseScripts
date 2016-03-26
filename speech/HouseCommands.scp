@@ -1,18 +1,90 @@
-//****************************************************************************
-// SPHERE by : Menasoft ©1997-2014
-// www.sphereserver.net
-// All SPHERE script files and formats are copyright Menasoft & Partners.
-// This file may be freely edited for personal use, but may not be distributed
-// in whole or in part, in any format without express written permission from
-// Menasoft & Partners.  All donations and contributions
-// become the property of Menasoft & Partners.
-//****************************************************************************
-// FILE LAST UPDATED: Monday, April 21, 2014
-//
-VERSION=0.56c
+[Comment Notes]
+Normally this file is left empty. This pack will include the EA structures for housing, along with the EA housing system.
+
 
 [Speech spkHouseCommands]
 //All house commands goes here. Empty by default.
+On=*I wish to lock this down*
+Message @,,2 502097	// Lock what down?
+Target
 
+On=@TargOn_Item
+If (<Region> != rHouse)
+ Src.SMsgL -1,501731	// You can only lock down an object in a house!
+ Return 1
+EndIf
+
+If (<ArgO.Type> == tCorpse)
+ Src.SMsgL -1,501738	// You cannot lock down a corpse
+ Return 1
+EndIf
+
+If (<ArgO.Attr> &AttrNeverMove)
+ Src.SMsgL -1,501719	// This is already locked down!
+ Return 1
+EndIf
+
+If (<Argo.BaseID> == iChickenCoop)
+ If (<Region.Tag0.ChickenCoop> == 1)
+  Src.SMsgL -1,1112696	// "You already have a chicken coop in your house!"
+  Return 1
+ EndIf
+EndIf
+
+ForItems 1
+ If (<Type> == tHouseSign)
+  Src.SMsgL -1,501739	// You cannot lock this down under the house sign!
+  Return 1
+ ElIf (<Type> == tStairs) // This needs a height check just so it only doesn't block going up or down them.
+  Src.SMsgL -1,501741	// You cannot lock down an item near stairs or steps.
+  Return 1
+ ElIf (<Type> == tDoor) || (<Type> == tOpenDoor) // This needs a height check just so it doesn't block the door.
+  Src.SMsgL -1,501740	// You cannot lock this down near a door.
+  Return 1
+ EndIf
+EndFor
+
+// Locking down an unsecured container; lock down everything in it.
+If (<ArgO.Type> == tContainer)
+ ArgO.Attr |= AttrNeverMove
+ ForCont <ArgO.UID> 125
+  Attr |= AttrNeverMove
+ EndFor
+EndIf
+
+
+On=*I wish to release this*
+Message @,,2 502100	// Choose the item you wish to release.
+Target
+
+
+On=*I wish to secure this*
+Message @,,2 502103	// Choose the item you wish to secure.
+Target
+
+
+On=*I wish to unsecure this*
+Message @,,2 502106	// Choose the item you wish to unsecure.
+Target
+
+
+On=*I wish to place a trash barrel*
+If (<Region.Tag0.TrashBarrel>)
+ SMsgL -1,502117	// You already have a trash barrel.
+ Return 1
+EndIf
+
+ForItems 0
+ If (<Type> == tHouseSign) || (<Type> == tDoor) || (<Type> == tOpenDoor) || (<Type> == tStairs)
+  Src.SMsgL -1,502118	// You cannot place a trash barrel there.
+  Return 1
+ EndIf
+EndFor
+
+Serv.NewItem iTrashBarrel,1,<P>
+New.Attr |= AttrStatic|AttrNeverMove
+New.Color DarkGreyHue
+New.Update
+Return
 
 [EOF]
