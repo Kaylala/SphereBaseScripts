@@ -479,6 +479,23 @@ ENDIF
 [RegionType rUnderworld]
 
 
-[EOF]
+[RegionType rTailoringShop]
+
+
+[RegionType rCarpentryShop]
+
+
+[RegionType rBlacksmithingShop]
+
+
+[RegionType rBowyerShop]
+
+
+[RegionType rTinkeringShop]
+
+
+[RegionType rAlchemyShop]
+
+
 
 [EOF]
