@@ -1,6 +1,31 @@
 [TypeDef tChickenCoop]
 
 
+// Need to check what More is doing in this.
+// Moving what the hair grows into to TData4.
+[TypeDef tHair]
+On=@Create
+Attr |= AttrNewbie
+Timer=-1	// Change this if you want hair to grow.
+More=1		// What is this doing?
+
+On=@Timer
+If !(<Cont>)	// On ground
+ Remove <UID>
+ Return 1
+EndIf
+
+If (<Cont.NPC>)	// Non-players don't have hair growth.
+ Return 1
+EndIf
+
+Serv.NewItem <TData4>,1
+New.More=1
+New.Color=<Cont.FindLayer.LayerHair.Color>
+New.Equip <Cont.UID>
+Return 1
+
+
 // Every 150 Gold Coins is 1 stone. (This used to be every 50)
 [TypeDef tGold]
 On=DropOn_Item
