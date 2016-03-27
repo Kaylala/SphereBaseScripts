@@ -34,4 +34,43 @@ On=@DeathCorpse
 NewLoot=SolenInfiltratorQueenLoot
 
 
+///////////////////
+// Mechanical AI //
+///////////////////
+
+
+[Events AIGolem]
+On=@SpellEffect
+If (<ArgN1> == sHeal) || (<ArgN1> == sGreaterHeal) || (<ArgN1> == sParalyze) || (<ArgN1> == sPoison)
+ Return 1
+EndIf
+
+On=@GetHit
+If (<IsPet>)
+ If (<Owner.Distance> <= 7)
+  If (<ArgN1> > <Owner.Mana>)
+   Local.Dam=<Eval (<ArgN1> - <Owner.Mana>)>
+   Owner.Mana -= <ArgN1>
+   Owner.Damage <Local.Dam>,<ArgN2>,<Src.UID>
+  Else
+   Owner.Mana -= <ArgN1>
+  EndIf
+ EndIf
+EndIf
+
+On=@Hit
+If !(<R19>)
+ Src.SMsgL -1,1070696	// You have been stunned by a colossal blow.
+ If (<Src.Events> == eStunned)
+  Src.FindID.iStunMemory.Timer += 10
+ Else
+  Src.Events +eStunned
+  Serv.NewItem iStunMemory,1,<Src.Equip>
+ EndIf
+EndIf
+
+On=@DeathCorpse
+NewLoot=GolemLoot
+
+
 [EOF]

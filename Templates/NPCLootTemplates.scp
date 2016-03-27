@@ -235,4 +235,20 @@ Item=iZoogiFungus,{4 16}
 Item=iPicnicBasket,1,R19
 
 
+////////////////
+// Mechanical //
+////////////////
+
+
+[Template GolemLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Mechanical
+Description=Golem
+Item=iArcaneGem,1,R19
+Item=iPowerCrystal,1,R19
+Item=iClockworkAssembly,1,R19
+Item={RandomCommonMusicBoxGear 75 RandomUncommonMusicBoxGear 24 RandomRareMusicBoxGear 1},1,R19
+Item=RandomIngot,{11 25}
+
+
 [EOF]

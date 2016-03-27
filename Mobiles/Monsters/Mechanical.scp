@@ -1,0 +1,49 @@
+[CharDef 02F0]
+DefName=cGolem
+Name=golem
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=13,24
+Armor=35,55
+Icon=iGolemIcon
+Sound=
+FoodType=
+MaxFood=0
+Resources=0
+BloodColor=-1
+TEventsAIGolem
+
+Category=Monsters
+Subsection=Mechanical
+Description=Golem
+
+On=@Create
+NPC=BrainMonster
+
+Fame=3500
+Karma=-3500
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=35,55
+ResFire=100
+ResCold=10,30
+ResPoison=10,25
+ResEnergy=30,40
+
+OStr={251 350}
+ODex={76 100}
+OInt={101 150}
+MaxHits={151 210}
+
+Wrestling={601 1000}
+Tactics={601 1000}
+MagicResistance={1501 1900}
+Parrying={601 1000}
+
+
+[EOF]

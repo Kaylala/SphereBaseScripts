@@ -1,0 +1,30 @@
+[Events eStunned]
+On=GetHit
+ArgN2 |= DamNoUnparalyze
+Return 
+
+
+[ItemDef iStunMemory]
+ID=iMemory
+Name=Stun Memory
+
+Category=Server
+Subsection=Memories: Combat
+Description=Stun Memory
+
+On=@Create
+Timer=10
+
+On=@Equip
+Cont.Flags &= ~StatFWar
+Cont.Flags |= StatFParalyzed
+
+On=@Timer
+Cont.Events -eStunned
+Cont.Flags &= ~StatFParalyzed
+Cont.SMsgL -1,1070695	// You recover your senses.
+Remove
+Return 1
+
+
+[EOF]
