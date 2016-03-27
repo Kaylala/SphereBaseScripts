@@ -22,6 +22,7 @@ Else
  Return
 EndIf
 
+
 [Function PackInstincts]
 If !(<ArgN>)
  Return <Tag0.PackInstincts>
@@ -32,17 +33,26 @@ Tag.PackInstincts=<ArgN>
 For AI handling.
 
 [DefName Alignment]
-Evil			0	// Attacks players on Sight and Blue mobiles
-Neutral			1	// Does nothing unless attacked.
-Good			2	// Attacks red playersand mobiles on sight
+Evil			1	// Attacks players on Sight and Blue mobiles
+Neutral			2	// Does nothing unless attacked.
+Good			3	// Attacks red playersand mobiles on sight
+
 
 // Mobile Alignment
 [Function Alignment]
-If !(<IsNum <ArgS>>)
- Tag.Alignment=<dDef.ArgS>
+If !(<ArgN>)
+ Tag.Alignment=<dDef.ArgN>
 Else
  Tag.Alignment=<ArgN>
 EndIf
+
+
+[Function MakeMyPet]
+Serv.NewItem=iMemory
+New.Color=MemoryIPet
+New.Link=<Src>
+New.Cont=<UID>
+
 
 [Function MountNPC]
 If !(<Serv.CharDef.<ArgS>>)

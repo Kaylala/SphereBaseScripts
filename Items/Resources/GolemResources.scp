@@ -1,0 +1,79 @@
+[ItemDef iPowerCrystal]
+ID=iMagicalCrystal2
+Name=power crystal
+NameLoc=1112811
+Type=tNormal
+Weight=1
+
+Category=Resources
+Subsection=Golems
+Description=Power Crystal
+
+
+[ItemDef iClockworkAssembly]
+ID=iWinch
+Name=clockwork assembly
+NameLoc=1073426
+Type=tClockworkAssembly
+Weight=50
+
+Category=Resources
+Subsection=Golems
+Description=Clockwork Assembly
+
+On=@Create
+Color=044E
+
+
+[ItemDef iLeatherWolfAssembly]
+ID=iWinch
+Name=leather wolf assembly
+NameLoc=1113031
+Type=tNormal
+SkillMake=Tinkering 1000
+Resources=1 iClockworkAssembly,1 iPowerCrystal,2 iVoidEssnce
+Weight=50
+
+Category=Resources
+Subsection=Golems
+Description=Leather Wolf Assembly
+
+On=@Create
+Color=044E
+
+
+[ItemDef iClockworkScorpionAssembly]
+ID=iWinch
+Name=clockwork scorpion assembly
+NameLoc=1113032
+Type=tNormal
+SkillMake=Tinkering 1000
+Resources=1 iClockworkAssembly,1 iPowerCrystal,1 iVoidEssnce
+Weight=50
+
+Category=Resources
+Subsection=Golems
+Description=Clockwork Scorpion Assembly
+
+On=@Create
+Color=044E
+
+
+[ItemDef iVollemAssembly]
+ID=iWinch
+Name=vollem assembly
+NameLoc=1113033
+Type=tNormal
+SkillMake=Tinkering 1000
+Resources=1 iClockworkAssembly,1 iPowerCrystal,3 iVoidEssnce
+Weight=50
+
+Category=Resources
+Subsection=Golems
+Description=Vollem Assembly
+
+On=@Create
+Color=044E
+
+
+[EOF]

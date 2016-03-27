@@ -1,6 +1,74 @@
 [TypeDef tChickenCoop]
 
 
+[TypeDef tClockworkAssembly]
+On=@DClick
+If !(<Src.Tinkering>)
+ Src.SMsgL -1,1071940	// You are not quite sure how to use this.
+ Return 1
+EndIf
+If (<Src.Tinkering> < 700)
+ Src.SMsgL -1,1071943	// You must be a journeyman or higher tinker to construct a golem.
+ Return 1
+EndIf
+If (<Src.Tag0.GolemDelay>)
+ Src.SMsgL -1,1071942	// You are too drained to make another golem. You must wait approximately one day to construct another.
+ Return 1
+EndIf
+If (<TopObj> != <Src.UID>)
+ Src.SMsgL -1,1071944	// The clockwork assembly must be in your backpack to construct a golem.
+ Return 1
+EndIf
+If <Src.CurFollower> > <Eval (<MaxFollowers> - 3)>
+ Src.SMsgL -1,1049607	// You have too many followers to control that creature.
+ Return 1
+EndIf
+If !(<Src.Restest 1 iPowerCrystal>)
+ Src.SMsgL -1,1071945	// You need a power crystal to construct a golem.
+ Return 1
+ELIf !(<Src.Restest 5 iGears>)
+ Src.SMsgL -1,1071946	// You need more gears to construct a golem.
+ Return 1
+ElIf !(<Src.Restest 50 iBronzeIngot>)
+ Src.SMsgL -1,1071947	// You need more bronze ingots to construct a golem.
+ Return 1
+ElIf !(<Src.Restest 50 iIronIngot>)
+ Src.SMsgL -1,1071948	// You need more iron ingots to construct a golem.
+ Return 1
+EndIf
+If (<R1,1000> > <Eval ((<Src.Tinkering> - 700) * 2)>)
+ Src.SMsgL -1,1071941	// You failed to make the golem.
+ Return 1
+Else
+ Serv.NewNpc cGolem
+ New.Fame=10
+ New.Karma=10
+ New.OStr=<MulDiv {251 350},<Src.Tinkering>,1000>
+ New.ODex=<MulDiv {76 100},<Src.Tinkering>,1000>
+ New.OInt=<MulDiv {101 150},<Src.Tinkering>,1000>
+ New.MaxHits=<MulDiv {151 210},<Src.Tinkering>,1000>
+ New.Wrestling=<MulDiv {601 1000},<Src.Tinkering>,1000>
+ New.Tactics=<MulDiv {601 1000},<Src.Tinkering>,1000>
+ New.MagisResistance=<MulDiv {1501 1900},<Src.Tinkering>,1000>
+ New.Parrying=<MulDiv {601 1000},<Src.Tinkering>,1000>
+ New.ResPhysical={35 55}
+ New.ResFire={50 60}
+ New.ResCold={10 30}
+ New.ResPoison={99 100}
+ New.ResEnergy={30 40}
+ New.P=<Src.P>
+ New.MakeMyPet
+ Src.CurFollowers += <New.ControlSlots>
+ Src.Tag.GolemDelay=1
+ Src.TimerF 864000,GolemDelay	// 24 hours; inclusive of the deciseconds multiplier.
+ Src.Sound 0241
+ Update
+EndIf
+
+[Function GolemDelay]
+Src.Tag.GolemDelay=
+
+
 // Need to check what More is doing in this.
 // Moving what the hair grows into to TData4.
 [TypeDef tHair]
