@@ -207,5 +207,177 @@ Parrying={951 1000}
 On=@NPCRestock
 NewGold={1000 1200}
 
+On=@DeathCorpse
+NewLoot=RandomExodusEncounterKey,1,R19
+
+
+[CharDef cExodusDrone]
+ID=cExodusOverseer
+Name=exodus drone
+Can=CanWalk|CanUseHands|CanNonHuman
+MoveRate=100
+Dam=13,19
+Icon=
+Sound=
+FoodType=0
+FoodMax=0
+Resources=0
+Aversions=tTrap
+Desires=tMagic,tMetal,tGem
+BloodColor=-1
+TEvents=AIExodusOverseer
+
+Category=Monsters
+Subsection=Mechanical
+Description=Exodus Drone
+
+On=@Create
+NPC=BrainMonster
+Color=04E6	// Possibly 079F?
+
+Fame=10000
+Karma=-10000
+Alignment=Evil
+
+DamPhysical=50
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=50
+
+ResPhysical=45,55
+ResFire=40,60
+ResCold=25,35
+ResPoison=25,35
+ReesEnergy=25,35
+
+OStr={551 650}
+ODex={76 95}
+OInt={61 90}
+MaxHits={331 390}
+
+Wrestling={801 980}
+Tactics={801 980}
+MagicResistance={801 980}
+Parrying={801 980}
+
+On=@NPCRestock
+NewGold={1000 1200}
+
+On=@DeathCorpse
+NewLoot=RandomExodusEncounterKey,1,R19
+
+
+[CharDef cExodusSentinel]
+ID=cExodusMinion
+Name=exodus sentinel
+Can=CanWalk|CanUseHands|CanNonHuman
+MoveRate=100
+Dam=16,22
+Icon=
+Sound=
+FoodType=0
+FoodMax=0
+Resources=0
+Aversions=tTrap
+Desires=tMagic,tMetal,tGem
+BloodColor=-1
+TEvents=AIExodusMinion
+
+Category=Monsters
+Subsection=Mechanical
+Description=Exodus Sentinel
+
+On=@Create
+NPC=BrainMonster
+Color=04E6	// Possibly 079F?
+
+Fame=18000
+Karma=-18000
+Alignment=Evil
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=60,70
+ResFire=40,50
+ResCold=25,35
+ResPoison=15,25
+ReesEnergy=25,35
+
+OStr={851 950}
+ODex={81 90}
+OInt={81 110}
+MaxHits={511 570}
+
+Wrestling={901 1000}
+Tactics={901 1000}
+MagicResistance={901 1000}
+Parrying={901 1000}
+
+On=@NPCRestock
+NewGold={1000 1200}
+
+On=@DeathCorpse
+NewLoot=RandomExodusEncounterKey,1,R19
+
+
+[CharDef cExodusJuggernaut]
+ID=cGolem
+Name=exodus juggernaut
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=19,25
+Armor=60,80
+Icon=iGolemIcon
+Sound=
+FoodType=0
+MaxFood=0
+Resources=0
+Aversions=tTrap
+Desires=tIngot
+BloodColor=-1
+TEvents=AIGolem
+
+Category=Monsters
+Subsection=Mechanical
+Description=Exodus Juggernaut
+
+On=@Create
+NPC=BrainMonster
+Color=
+
+Fame=10000
+Karma=-10000
+Alignment=Evil
+
+DamPhysical=60
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=40
+
+ResPhysical=60,80
+ResFire=60,80
+ResCold=20,30
+ResPoison=30,40
+ResEnergy=40,50
+
+OStr={1451 1550}
+ODex={91 100}
+OInt={101 150}
+MaxHits={1001 1070}
+
+Wrestling={991 1000}
+Tactics={991 1000}
+MagicResistance={991 1000}
+Parrying={991 1000}
+
+On=@DeathCorpse
+NewLoot=RandomExodusEncounterKey,1,R19
+
 
 [EOF]

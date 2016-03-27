@@ -1,0 +1,5 @@
+[Template RandomExodusEncounterKey]
+Category=Templates
+Subsection=Quest: Exodus Encounter
+Description=Exodus Encounter Keys
+Item={iRobeOfRite 1 iExodusSummoningRite 1 iExodusSummoningAltar 1 iExodusSacrificialDagger 1}

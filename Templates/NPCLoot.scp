@@ -2,6 +2,7 @@
 // Elementals //
 ////////////////
 
+
 [Template OreElementalLoot]
 Category=Templates: NPC Loot
 Subsection=Monsters: Elementals
@@ -276,6 +277,7 @@ Description=Exodus Overseer
 Item=iArcaneGem,{2 4},R4
 Item=iPowerCrystal,{1 2},R9
 Item=iClockworkAssembly,{1 2},R9
+
 
 
 [EOF]
