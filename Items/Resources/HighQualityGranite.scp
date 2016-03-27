@@ -1,0 +1,164 @@
+[Comment Notes]
+Prior to Publish 56 granite weighed in at 10 stones. It was only harvested 1 per vein. It was not stackable.
+
+
+[ItemDef iHighQualityGranite]
+DefName=iGranite
+ID=01779
+Name=high quality granite
+NameLoc=1044607
+Type=tGranite
+Can=CanIStack
+Weight=1
+Value=5
+
+Category=Resources
+Subsection=High Quality Granite
+Description=High Quality Granite
+
+
+[ItemDef iHighQualityDullCopperGranite]
+DefName=iDullCopperGranite
+ID=01779
+Name=high quality dull copper granite
+NameLoc=1112060
+Type=tGranite
+Can=CanIStack
+Weight=1
+Value=10
+
+Category=Resources
+Subsection=High Quality Granite
+Description=High Quality Dull Copper Granite
+
+On=@Create
+Color=DullCopperHue
+
+
+[ItemDef iHighQualityShadowIronGranite]
+DefName=iShadowIronGranite
+ID=01779
+Name=high quality shadow iron granite
+NameLoc=1112061
+Type=tGranite
+Can=CanIStack
+Weight=1
+Value=15
+
+Category=Resources
+Subsection=High Quality Granite
+Description=High Quality Shadow Iron Granite
+
+On=@Create
+Color=ShadowIronHue
+
+
+[ItemDef iHighQualityCopperGranite]
+DefName=iCopperGranite
+ID=01779
+Name=high quality copper granite
+NameLoc=1112062
+Type=tGranite
+Can=CanIStack
+Weight=1
+Value=20
+
+Category=Resources
+Subsection=High Quality Granite
+Description=High Quality Copper Granite
+
+On=@Create
+Color=CopperHue
+
+
+[ItemDef iHighQualityBronzeGranite]
+DefName=iBronzeGranite
+ID=01779
+Name=high quality bronze granite
+NameLoc=1112063
+Type=tGranite
+Can=CanIStack
+Weight=1
+Value=25
+
+Category=Resources
+Subsection=High Quality Granite
+Description=High Quality Bronze Granite
+
+On=@Create
+Color=BronzeHue
+
+
+[ItemDef iHighQualityGoldenGranite]
+DefName=iGoldenGranite
+ID=01779
+Name=high quality golden granite
+NameLoc=1112064
+Type=tGranite
+Can=CanIStack
+Weight=1
+Value=30
+
+Category=Resources
+Subsection=High Quality Granite
+Description=High Quality Golden Granite
+
+On=@Create
+Color=GoldHue
+
+
+[ItemDef iHighQualityAgapiteGranite]
+DefName=iAgapiteGranite
+ID=01779
+Name=high quality agapite granite
+NameLoc=1112065
+Type=tGranite
+Can=CanIStack
+Weight=1
+Value=35
+
+Category=Resources
+Subsection=High Quality Granite
+Description=High Quality Agapite Granite
+
+On=@Create
+Color=AgapiteHue
+
+
+[ItemDef iHighQualityVeriteGranite]
+DefName=iVeriteGranite
+ID=01779
+Name=high quality verite granite
+NameLoc=1112066
+Type=tGranite
+Can=CanIStack
+Weight=1
+Value=40
+
+Category=Resources
+Subsection=High Quality Granite
+Description=High Quality Verite Granite
+
+On=@Create
+Color=VeriteHue
+
+
+[ItemDef iHighQualityValoriteGranite]
+DefName=iValoriteGranite
+ID=01779
+Name=high quality valorite granite
+NameLoc=1112067
+Type=tGranite
+Can=CanIStack
+Weight=1
+Value=45
+
+Category=Resources
+Subsection=High Quality Granite
+Description=High Quality Valorite Granite
+
+On=@Create
+Color=ValoriteHue
+
+
+[EOF]
