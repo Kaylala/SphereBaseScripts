@@ -1,0 +1,23 @@
+[Comment Notes]
+Still need to script the Niter Deposits and code to work with it.
+Note: Mining needs to be redone in general and break away from the core. It is done wrong in the core anyhow.
+
+
+[ItemDef iSaltpeter]
+ID=iBlackPowder
+Name=saltpeter
+NameLoc=1116302
+Type=tNormal
+Can=CanIStack
+Weight=1
+Value=10
+
+Category=Resources
+Subsection=Niter Deposts: Saltpeter
+Description=Saltpeter
+
+On=@Create
+Color=047E
+
+
+[EOF]
