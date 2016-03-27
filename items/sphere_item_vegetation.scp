@@ -4235,26 +4235,6 @@ DUPELIST=0247e
 //maple tree trunk
 DUPEITEM=0247d
 
-[ITEMDEF 026b7]
-//FIXME: Zoogi Fungus can be transformed into Powder of Translocation by a Solen Queen.
-DEFNAME=iCropFungusZoogi
-VALUE=1
-WEIGHT=0.1
-CATEGORY=Vegetation
-SUBSECTION=Mushrooms
-DESCRIPTION=Zoogi Fungus
-DUPELIST=0d0d
-
-[ITEMDEF 026b8]
-DEFNAME=iPowderTranslocation
-NAME=translocation powder
-TYPE=tNormal
-VALUE=10
-WEIGHT=0.1
-CATEGORY=Quest
-SUBSECTION=Solen
-DESCRIPTION=Translocation Powder
-
 [ITEMDEF 026b9]
 DEFNAME=iBowlPlant
 TYPE=tNormal //type=t_planter

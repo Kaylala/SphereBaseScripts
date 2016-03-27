@@ -1,0 +1,29 @@
+[ItemDef 026b7]
+DefName=iZoogiFungus
+Name=zoogi fungus
+NameLoc=1029911
+Type=tNormal
+Can=CanIStack
+Weight=1
+Value=5
+
+Category=Resources
+Subsection=Solen
+Description=Zoogi Fungus
+
+
+[ItemDef 026B8]
+DefName=iTranslocationPowder
+Name=translocation powder
+NameLoc=1029912
+Type=tNormal
+Can=CanIStack
+Weight=1
+Value=10
+
+Category=Resources
+Subsection=Solen
+Description=Translocation Powder
+
+
+[EOF]
