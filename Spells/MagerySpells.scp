@@ -1,0 +1,1311 @@
+//****************************************************************************
+// SPHERE by : Menasoft ©1997-2016
+// www.sphereserver.net
+// All SPHERE script files and formats are copyright Menasoft & Partners.
+// This file may be freely edited for personal use, but may not be distributed
+// in whole or in part, in any format without express written permission from
+// Menasoft & Partners.  All donations and contributions
+// become the property of Menasoft & Partners.
+//****************************************************************************
+// FILE LAST UPDATED: Saturday, Jan 22, 2016
+//
+VERSION=0.56c
+
+[COMMENT sphere_Spells]
+- Potions are just Spells that have an Effect attached at the potion Layer.
+- Spells and potion Effects can be added to equipped items.
+- Until monster AI is improved, all "good" Spells have had the SpellFPlayerOnly added
+- Only Spells with SpellFHarm flag can be reflected with Magic Reflection Spell.
+- If MAGICF_OSIFORMULAS flag is enabled on sphere.ini, it will override Effect / Duration values on some Spells.
+
+
+///////////////////
+// Magery Spells //
+///////////////////
+
+[Spell 0]
+// No Effect...
+DefName=sWater
+Name=Water
+Sound=0
+Runes=
+Cast_Time=0
+Resources=
+Rune_Item=0
+Scroll_Item=0
+Flags=0
+Effect_ID=0
+Effect=0
+Duration=0.0
+ManaUse=4
+SkillReq=Magery 10
+Interrupt=1000,1000
+
+
+[Spell 1]
+DefName=sClumsy
+Name=Clumsy
+Sound=snd_Spell_clumsy
+Runes=UJ
+Cast_Time=0.5
+Resources=iBloodMoss,iNightshade
+Rune_Item=i_Rune_clumsy
+Scroll_Item=i_Scroll_clumsy
+Flags=SpellFDirAnim|SpellFTargChar|SpellFHarm|SpellFFxTarg|SpellFNoUnparalyze
+Effect_ID=i_fx_curse
+Effect=3,15
+Layer=Layer_Spell_stats
+Duration=2*60.0,3*60.0
+ManaUse=4
+SkillReq=Magery 10.0
+Interrupt=100.0,100.0
+
+
+[Spell 2]
+DefName=sCreateFood
+Name=Create Food
+Sound=snd_Spell_create_food
+Runes=IMY
+Cast_Time=0.5
+Resources=iGarlic,iGinseng,iMandrakeRoot
+Rune_Item=i_Rune_create_food
+Scroll_Item=i_Scroll_create_food
+Flags=SpellFPlayerOnly
+Effect_ID=0
+Effect=0
+Duration=0.0
+ManaUse=4
+SkillReq=Magery 10.0
+Interrupt=100.0,100.0
+
+
+[Spell 3]
+DefName=sFeeblemind
+Name=Feeblemind
+Sound=snd_Spell_feeblemind
+Runes=RW
+Cast_Time=0.5
+Resources=iGinseng,iNightshade
+Rune_Item=i_Rune_feeblemind
+Scroll_Item=i_Scroll_feeblemind
+Flags=SpellFDirAnim|SpellFTargChar|SpellFHarm|SpellFFxTarg|SpellFNoUnparalyze|SpellFCurse
+Effect_ID=i_fx_curse
+Effect=5,10
+Layer=Layer_Spell_stats
+Duration=2*60.0,3*60.0
+ManaUse=4
+SkillReq=Magery 10.0
+Interrupt=100.0,100.0
+
+
+[Spell 4]
+DefName=sHeal
+Name=Heal
+Sound=snd_SpellHeal
+Runes=IM
+Cast_Time=0.5
+Resources=iGarlic,iGinseng,iSpidersSilk
+Rune_Item=i_rune_Heal
+Scroll_Item=i_Scroll_Heal
+Flags=SpellFDirAnim|SpellFTargChar|SpellFFxTarg|SpellFGood|SpellFPlayerOnly|SpellFHeal
+Effect_ID=i_fx_heal_Effect
+Effect=5,20
+Duration=0.0
+ManaUse=4
+SkillReq=Magery 10.0
+Interrupt=100.0,100.0
+
+
+[Spell 5]
+DefName=sMagicArrow
+Name=Magic Arrow
+Sound=snd_Spell_magic_arrow
+Cast_Time=0.5
+Runes=IPY
+Resources=iSulfurousAsh
+Rune_Item=i_Rune_magic_arrow
+Scroll_Item=i_Scroll_magic_arrow
+Flags=SpellFDirAnim|SpellFTargItem|SpellFTargChar|SpellFHarm|SpellFDamage|SpellFFxBolt|SpellFResist
+Effect_ID=i_fx_fireball_small
+Effect=5,15
+Duration=0.0
+ManaUse=4
+SkillReq=Magery 10.0
+Interrupt=100.0,100.0
+
+ON=@Effect
+LOCAL.DAMAGETYPE=(<DEF.dam_physical>|<DEF.dam_magic>)
+
+
+[Spell 6]
+DefName=sNightSight
+Name=Night Sight
+Sound=snd_Spell_night_sight
+Runes=IL
+Cast_Time=0.5
+Resources=iSpidersSilk,iSulfurousAsh
+Rune_Item=i_Rune_night_sight
+Scroll_Item=i_Scroll_night_sight
+Flags=SpellFDirAnim|SpellFTargChar|SpellFFxTarg|SpellFGood|SpellFPlayerOnly
+Effect_ID=i_fx_heal_Effect
+Effect=0
+Layer=Layer_Spell_night_sight
+Duration=3*60.0,10*60.0
+ManaUse=4
+SkillReq=Magery 10.0
+Interrupt=100.0,100.0
+
+
+[Spell 7]
+DefName=sReactiveArmor
+Name=Reactive Armor
+Sound=snd_Spell_reactive_armor
+Runes=FS
+Cast_Time=0.5
+Resources=iGarlic,iSpidersSilk,iSulfurousAsh
+Rune_Item=i_Rune_reactive_armor
+Scroll_Item=i_Scroll_reactive_armor
+Flags=SpellFDirAnim|SpellFTargChar|SpellFFxTarg|SpellFGood	//|SpellFPlayerOnly
+Effect_ID=i_fx_heal_Effect
+Effect=10.0,60.0
+Layer=Layer_Spell_reactive
+Duration=3*60.0,5*60.0
+ManaUse=4
+SkillReq=Magery 10.0
+Interrupt=100.0,100.0
+
+
+[Spell 8]
+DefName=sWeaken
+Name=Weaken
+Sound=snd_Spell_weaken
+Runes=DM
+Cast_Time=0.5
+Resources=iGarlic,iNightshade
+Rune_Item=i_Rune_weaken
+Scroll_Item=i_Scroll_weaken
+Flags=SpellFDirAnim|SpellFTargChar|SpellFHarm|SpellFFxTarg|SpellFNoUnparalyze|SpellFCurse
+Effect_ID=i_fx_curse
+Effect=5,30
+Layer=Layer_Spell_stats
+Duration=2*60.0,3*60.0
+ManaUse=4
+SkillReq=Magery 10.0
+Interrupt=100.0,100.0
+
+
+[Spell 9]
+DefName=sAgility
+Name=Agility
+Sound=snd_Spell_agility
+Runes=EU
+Cast_Time=0.8
+Resources=iBloodMoss,iMandrakeRoot
+Rune_Item=i_Rune_agility
+Scroll_Item=i_Scroll_agility
+Flags=SpellFDirAnim|SpellFTargChar|SpellFFxTarg|SpellFGood|SpellFPlayerOnly|SpellFBless
+Effect_ID=i_fx_bless_Effect
+Effect=5,20
+Layer=Layer_Spell_stats
+Duration=2*60.0,3*60.0
+ManaUse=6
+SkillReq=Magery 20.0
+Interrupt=100.0,100.0
+
+
+[Spell 10]
+DefName=sCunning
+Name=Cunning
+Sound=snd_Spell_cunning
+Runes=UW
+Cast_Time=0.8
+Resources=iMandrakeRoot,iNightshade
+Rune_Item=i_Rune_cunning
+Scroll_Item=i_Scroll_cunning
+Flags=SpellFDirAnim|SpellFTargChar|SpellFFxTarg|SpellFGood|SpellFPlayerOnly|SpellFBless
+Effect_ID=i_fx_bless_Effect
+Effect=5,20
+Layer=Layer_Spell_stats
+Duration=2*60.0,3*60.0
+ManaUse=6
+SkillReq=Magery 20.0
+Interrupt=100.0,100.0
+
+
+[Spell 11]
+DefName=sCure
+Name=Cure
+Sound=snd_Spell_CURE
+Runes=AN
+Cast_Time=0.8
+Resources=iGarlic,iGinseng
+Rune_Item=i_Rune_cure
+Scroll_Item=i_Scroll_cure
+Flags=SpellFDirAnim|SpellFTargChar|SpellFFxTarg|SpellFGood|SpellFPlayerOnly
+Effect_ID=i_fx_heal_Effect
+Effect=0
+Duration=0.0
+ManaUse=6
+SkillReq=Magery 20.0
+Interrupt=100.0,100.0
+
+
+[Spell 12]
+DefName=sHarm
+Name=Harm
+Sound=snd_SpellHarm
+Runes=AM
+Cast_Time=0.8
+Resources=iNightshade,iSpidersSilk
+Rune_Item=i_rune_Harm
+Scroll_Item=i_Scroll_Harm
+Flags=SpellFDirAnim|SpellFTargItem|SpellFTargChar|SpellFHarm|SpellFDamage|SpellFFxTarg|SpellFResist
+Effect_ID=i_fx_curse
+Effect=5,16
+Duration=0.0
+ManaUse=6
+SkillReq=Magery 20.0
+Interrupt=100.0,100.0
+
+ON=@Effect
+LOCAL.DAMAGETYPE=(<DEF.dam_physical>|<DEF.dam_magic>)
+
+
+[Spell 13]
+DefName=sMagicTrap
+Name=Magic Trap
+Sound=snd_Spell_magic_trap
+Runes=IJ
+Cast_Time=0.8
+Resources=iGarlic,iSpidersSilk,iSulfurousAsh
+Rune_Item=i_Rune_magic_trap
+Scroll_Item=i_Scroll_magic_trap
+Flags=SpellFDirAnim|SpellFTargItem|SpellFPlayerOnly
+Effect_ID=0
+Effect=0
+Duration=0.0
+ManaUse=6
+SkillReq=Magery 20.0
+Interrupt=100.0,100.0
+
+
+[Spell 14]
+DefName=sMagicUntrap
+Name=Magic Untrap
+Sound=snd_Spell_magic_untrap
+Runes=AJ
+Cast_Time=0.8
+Resources=iBloodMoss,iSulfurousAsh
+Rune_Item=i_Rune_magic_untrap
+Scroll_Item=i_Scroll_magic_untrap
+Flags=SpellFDirAnim|SpellFTargItem|SpellFPlayerOnly
+Effect_ID=0
+Effect=0
+Duration=0.0
+ManaUse=6
+SkillReq=Magery 20.0
+Interrupt=100.0,100.0
+
+
+[Spell 15]
+DefName=sProtection
+Name=Protection
+Sound=snd_Spell_protection
+Runes=US
+Cast_Time=0.8
+Resources=iGarlic,iGinseng,iSulfurousAsh
+Rune_Item=i_Rune_protection
+Scroll_Item=i_Scroll_protection
+Flags=SpellFDirAnim|SpellFTargChar|SpellFFxTarg|SpellFGood|SpellFPlayerOnly|SpellFBless
+Effect_ID=i_fx_bless_Effect
+Effect=5,35
+Layer=Layer_Spell_protection
+Duration=3*60.0,5*60.0
+ManaUse=6
+SkillReq=Magery 20.0
+Interrupt=100.0,100.0
+
+
+[Spell 16]
+DefName=sStrength
+Name=Strength
+Sound=snd_Spell_strength
+Runes=UM
+Cast_Time=0.8
+Resources=iMandrakeRoot,iNightshade
+Rune_Item=i_Rune_strength
+Scroll_Item=i_Scroll_strength
+Flags=SpellFDirAnim|SpellFTargChar|SpellFFxTarg|SpellFGood|SpellFPlayerOnly|SpellFBless
+Effect_ID=i_fx_bless_Effect
+Effect=5,15
+Layer=Layer_Spell_stats
+Duration=2*60.0,3*60.0
+ManaUse=6
+SkillReq=Magery 20.0
+Interrupt=100.0,100.0
+
+
+[Spell 17]
+DefName=sBless
+Name=Bless
+Sound=snd_SpellBless
+Runes=RS
+Cast_Time=1.0
+Resources=iGarlic,iMandrakeRoot
+Rune_Item=i_rune_Bless
+Scroll_Item=i_Scroll_Bless
+Flags=SpellFDirAnim|SpellFTargObj|SpellFFxTarg|SpellFGood|SpellFPlayerOnly|SpellFBless
+Effect_ID=i_fx_bless_Effect
+Effect=5,20
+Layer=Layer_Spell_stats
+Duration=2*60.0,3*60.0
+ManaUse=9
+SkillReq=Magery 30.0
+Interrupt=100.0,100.0
+
+
+[Spell 18]
+DefName=sFireball
+Name=Fireball
+Sound=snd_Spell_fireball
+Runes=VF
+Cast_Time=1.0
+Resources=iBlackPearl
+Rune_Item=i_Rune_fireball
+Scroll_Item=i_Scroll_fireball
+Flags=SpellFDirAnim|SpellFTargObj|SpellFHarm|SpellFDamage|SpellFFxBolt|SpellFResist
+Effect_ID=i_fx_fireball
+Effect=8,16
+Duration=0.0
+ManaUse=9
+SkillReq=Magery 30.0
+Interrupt=100.0,100.0
+ON=@Effect
+LOCAL.DAMAGETYPE=(<DEF.dam_fire>|<DEF.dam_magic>)
+
+
+[Spell 19]
+DefName=sMagicLock
+Name=Magic Lock
+Sound=snd_Spell_magic_lock
+Runes=AP
+Cast_Time=1.0
+Resources=iBloodMoss,iGarlic,iSulfurousAsh
+Rune_Item=i_Rune_magic_lock
+Scroll_Item=i_Scroll_magic_lock
+Flags=SpellFDirAnim|SpellFTargItem|SpellFPlayerOnly
+Effect_ID=0
+Effect=0
+Duration=0.0
+ManaUse=9
+SkillReq=Magery 30.0
+Interrupt=100.0,100.0
+
+
+[Spell 20]
+DefName=sPoison
+Name=Poison
+Sound=snd_Spell_poison
+Runes=IN
+Cast_Time=1.0
+Resources=iNightshade
+Rune_Item=i_Rune_poison
+Scroll_Item=i_Scroll_poison
+Flags=SpellFDirAnim|SpellFTargObj|SpellFHarm|SpellFFxTarg|SpellFResist
+Effect_ID=i_fx_curse
+Effect=100,750	//Only used without Magicf_OsiFormulas
+Layer=Layer_flag_poison
+Duration=1.0,15.0
+ManaUse=9
+SkillReq=Magery 30.0
+Interrupt=100.0,100.0
+
+
+[Spell 21]
+DefName=sTelekinesis
+Name=Telekinesis
+Sound=snd_Spell_telekinesis
+Runes=OPY
+Cast_Time=1.0
+Resources=iBloodMoss,iMandrakeRoot
+Rune_Item=i_Rune_telekinesis
+Scroll_Item=i_Scroll_telekinesis
+Flags=SpellFDirAnim|SpellFTargObj|SpellFFxTarg|SpellFPlayerOnly
+Effect_ID=0
+Effect=0
+Duration=0.0
+ManaUse=9
+SkillReq=Magery 30.0
+Interrupt=100.0,100.0
+
+
+[Spell 22]
+// NOTE: Teleport Sound/Effect_ID is handled by Sphere.ini settings
+DefName=sTeleport
+Name=Teleport
+Sound=0
+Runes=RP
+Cast_Time=1.0
+Resources=iBloodMoss,iMandrakeRoot
+Rune_Item=i_Rune_teleport
+Scroll_Item=i_Scroll_teleport
+Flags=SpellFDirAnim|SpellFTargXYZ|SpellFPlayerOnly
+Effect_ID=0
+Effect=0
+Duration=0.0
+ManaUse=9
+SkillReq=Magery 30.0
+Interrupt=100.0,100.0
+
+
+[Spell 23]
+DefName=sUnlock
+Name=Magic Unlock
+Sound=snd_Spell_unlock
+Runes=EP
+Cast_Time=1.0
+Resources=iBloodMoss,iSulfurousAsh
+Rune_Item=i_Rune_unlock
+Scroll_Item=i_Scroll_unlock
+Flags=SpellFDirAnim|SpellFTargItem|SpellFFxTarg|SpellFPlayerOnly
+Effect_ID=0
+Effect=0
+Duration=0.0
+ManaUse=9
+SkillReq=Magery 30.0
+Interrupt=100.0,100.0
+
+
+[Spell 24]
+DefName=sWallOfStone
+Name=Wall of Stone
+Sound=snd_Spell_wall_of_stone
+Runes=ISY
+Cast_Time=1.0
+Resources=iBloodMoss,iGarlic
+Rune_Item=i_Rune_wall_of_stone
+Scroll_Item=i_Scroll_wall_of_stone
+Flags=SpellFDirAnim|SpellFTargXYZ|SpellFHarm|SpellFDamage|SpellFFxTarg|SpellFField|SpellFPlayerOnly
+Effect_ID=0
+Effect=0
+Duration=2*60.0,4*60.0
+ManaUse=9
+SkillReq=Magery 30.0
+Interrupt=100.0,100.0
+
+ON=@Success
+LOCAL.FieldWidth=3
+
+ON=@Effect
+LOCAL.DAMAGETYPE=(<DEF.dam_physical>|<DEF.dam_magic>)
+
+
+[Spell 25]
+DefName=sArchCure
+Name=Arch Cure
+Sound=snd_Spell_archcure
+Runes=VAN
+Cast_Time=1.3
+Resources=iGarlic,iGinseng,iMandrakeRoot
+Rune_Item=i_Rune_archcure
+Scroll_Item=i_Scroll_archcure
+Flags=SpellFFxTarg|SpellFGood|SpellFPlayerOnly|SpellFArea
+Effect_ID=i_fx_heal_Effect
+Effect=0
+Duration=0.0
+ManaUse=11
+SkillReq=Magery 40.0
+Interrupt=100.0,100.0
+
+ON=@Success
+LOCAL.AREARADIUS=2
+
+
+[Spell 26]
+DefName=sArchProtection
+Name=Arch Protection
+Sound=snd_Spell_archprotection
+Runes=VUS
+Cast_Time=1.3
+Resources=iGarlic,iGinseng,iMandrakeRoot,iSulfurousAsh
+Rune_Item=i_Rune_archprotection
+Scroll_Item=i_Scroll_archprotection
+Flags=SpellFFxTarg|SpellFGood|SpellFPlayerOnly|SpellFArea|SpellFBless
+Effect_ID=i_fx_bless_Effect
+Effect=5,15
+Layer=Layer_Spell_protection	//No real need, since this calls s_protection... but for some custom modifications for arch Spells this may be needed
+Duration=30.0,1000.0
+ManaUse=11
+SkillReq=Magery 40.0
+Interrupt=100.0,100.0
+
+ON=@Success
+LOCAL.AREARADIUS=3
+
+
+[Spell 27]
+DefName=sCurse
+Name=Curse
+Sound=snd_SpellCurse
+Runes=DS
+Cast_Time=1.3
+Resources=iGarlic,iNightshade,iSulfurousAsh
+Rune_Item=i_rune_Curse
+Scroll_Item=i_Scroll_Curse
+Flags=SpellFDirAnim|SpellFTargObj|SpellFHarm|SpellFFxTarg|SpellFNoUnparalyze|SpellFCurse
+Effect_ID=i_fx_curse
+Effect=5,15
+Layer=Layer_Spell_stats
+Duration=10.0,60.0
+ManaUse=11
+SkillReq=Magery 40.0
+Interrupt=100.0,100.0
+
+
+[Spell 28]
+DefName=sFireField
+Name=Fire Field
+Sound=snd_Spell_fire_field
+Runes=IFG
+Cast_Time=1.3
+Resources=iBlackPearl,iSpidersSilk,iSulfurousAsh
+Rune_Item=i_Rune_fire_field
+Scroll_Item=i_Scroll_fire_field
+Flags=SpellFDirAnim|SpellFTargXYZ|SpellFHarm|SpellFDamage|SpellFFxTarg|SpellFField|SpellFPlayerOnly
+Effect_ID=0
+Effect=2,12
+Duration=2*60.0,4*60.0
+ManaUse=11
+SkillReq=Magery 40.0
+Interrupt=100.0,100.0
+ON=@Success
+LOCAL.FieldWidth=3
+ON=@Effect
+LOCAL.DAMAGETYPE=(<DEF.dam_fire>|<DEF.dam_magic>)
+
+
+[Spell 29]
+DefName=sGreaterHeal
+Name=Greater Heal
+Sound=snd_Spell_greaterHeal
+Runes=IVM
+Cast_Time=1.3
+Resources=iGarlic,iGinseng,iMandrakeRoot,iSpidersSilk
+Rune_Item=i_Rune_greaterHeal
+Scroll_Item=i_Scroll_greaterHeal
+Flags=SpellFDirAnim|SpellFTargChar|SpellFFxTarg|SpellFGood|SpellFPlayerOnly|SpellFHeal
+Effect_ID=i_fx_heal_Effect
+Effect=10,50
+Duration=0.0
+ManaUse=11
+SkillReq=Magery 40.0
+Interrupt=100.0,100.0
+
+
+[Spell 30]
+DefName=sLightning
+Name=Lightning
+Sound=snd_Spell_lightning
+Runes=POG
+Cast_Time=1.3
+Resources=iMandrakeRoot,iSulfurousAsh
+Rune_Item=i_Rune_lightning
+Scroll_Item=i_Scroll_lightning
+Flags=SpellFDirAnim|SpellFTargObj|SpellFFxTarg|SpellFHarm|SpellFDamage|SpellFResist
+Effect_ID=0
+Effect=10,20
+Duration=0.0
+ManaUse=11
+SkillReq=Magery 40.0
+Interrupt=100.0,100.0
+ON=@Effect
+LOCAL.DAMAGETYPE=(<DEF.dam_energy>|<DEF.dam_magic>)
+
+
+[Spell 31]
+DefName=sManaDrain
+Name=Mana Drain
+Sound=snd_Spell_mana_drain
+Runes=OR
+Cast_Time=1.3
+Resources=iBlackPearl,iMandrakeRoot,iSpidersSilk
+Rune_Item=i_Rune_mana_drain
+Scroll_Item=i_Scroll_mana_drain
+Flags=SpellFDirAnim|SpellFTargChar|SpellFHarm|SpellFFxTarg|SpellFResist
+Effect_ID=i_fx_vortex
+Effect=0
+Layer=Layer_Spell_stats
+Duration=5.0
+ManaUse=11
+SkillReq=Magery 40.0
+Interrupt=100.0,100.0
+
+
+[Spell 32]
+DefName=sRecall
+Name=Recall
+Sound=snd_Spell_recall
+Runes=KOP
+Cast_Time=1.3
+Resources=iBlackPearl,iBloodMoss,iMandrakeRoot
+Rune_Item=i_Rune_recall
+Scroll_Item=i_Scroll_recall
+Flags=SpellFTargItem|SpellFPlayerOnly
+Effect_ID=0
+Effect=0
+Duration=0.0
+ManaUse=11
+SkillReq=Magery 40.0
+Interrupt=100.0,100.0
+
+
+[Spell 33]
+DefName=sBladeSpirits
+Name=Blade Spirit
+Sound=snd_Spell_blade_spirits
+Runes=IHJY
+Cast_Time=7.5
+Resources=iBlackPearl,iMandrakeRoot,iNightshade
+Rune_Item=i_Rune_blade_spirits
+Scroll_Item=i_Scroll_blade_spirits
+Flags=SpellFDirAnim|SpellFTargXYZ|SpellFSummon
+Effect_ID=0
+Effect=0
+Layer=Layer_SpellSummon
+Duration=60.0,2*60.0
+ManaUse=18
+SkillReq=Magery 50.0
+Interrupt=100.0,100.0
+
+
+[Spell 34]
+DefName=sDispelField
+Name=Dispel Field
+Sound=snd_Spell_dispel_field
+Runes=AG
+Cast_Time=1.5
+Resources=iBlackPearl,iGarlic,iSpidersSilk,iSulfurousAsh
+Rune_Item=i_Rune_dispel_field
+Scroll_Item=i_Scroll_dispel_field
+Flags=SpellFDirAnim|SpellFTargItem|SpellFPlayerOnly
+Effect_ID=0
+Effect=0
+Duration=0.0
+ManaUse=14
+SkillReq=Magery 50.0
+Interrupt=100.0,100.0
+
+
+[Spell 35]
+// NOTE: This Spell is used primarily for roleplaying purposes or for avoiding being killed if red. The longer Duration would not unbalance gameplay in any way I could see.
+DefName=sIncognito
+Name=Incognito
+Sound=snd_Spell_incognito
+Runes=KIE
+Cast_Time=1.5
+Resources=iBloodMoss,iGarlic,iNightshade
+Rune_Item=i_Rune_incognito
+Scroll_Item=i_Scroll_incognito
+Flags=SpellFPlayerOnly
+Effect_ID=0
+Effect=0
+Layer=Layer_Spell_incognito
+Duration=5*60.0,8*60.0
+ManaUse=14
+SkillReq=Magery 50.0
+Interrupt=100.0,100.0
+
+
+[Spell 36]
+// NOTE: This is a proactive type of protection that no one wants to see run out. Because of it's level and the amount of reagents I would think this Spell last a bit longer in light of it only being a one time reflect as opposed to Reactive and protection. Should it have a Duration at all or remain until dispel'ed or hit ???
+DefName=sMagicReflection
+Name=Magic Reflection
+Sound=snd_Spell_magic_reflection
+Runes=IJS
+Cast_Time=1.5
+Resources=iGarlic,iMandrakeRoot,iSpidersSilk
+Rune_Item=i_Rune_magic_reflection
+Scroll_Item=i_Scroll_magic_reflection
+Flags=SpellFDirAnim|SpellFTargChar|SpellFFxTarg|SpellFGood|SpellFPlayerOnly|SpellFBless
+Effect_ID=i_fx_bless_Effect
+Effect=0
+Layer=Layer_Spell_magic_reflect
+Duration=4*60.0,8*60.0
+ManaUse=14
+SkillReq=Magery 50.0
+Interrupt=100.0,100.0
+
+
+[Spell 37]
+DefName=sMindBlast
+Name=Mind Blast
+Sound=snd_Spell_mind_blast
+Runes=PCW
+Cast_Time=1.5
+Resources=iBlackPearl,iMandrakeRoot,iNightshade,iSulfurousAsh
+Rune_Item=i_Rune_mind_blast
+Scroll_Item=i_Scroll_mind_blast
+Flags=SpellFDirAnim|SpellFTargChar|SpellFHarm|SpellFDamage|SpellFFxTarg|SpellFResist|SpellFNoUnparalyze
+Effect_ID=i_fx_curse
+Effect=5,20
+Duration=0.0
+ManaUse=14
+SkillReq=Magery 50.0
+Interrupt=100.0,100.0
+ON=@Effect
+LOCAL.DAMAGETYPE=(<DEF.dam_cold>|<DEF.dam_magic>)
+
+
+[Spell 38]
+DefName=sParalyze
+Name=Paralyze
+Sound=snd_Spell_paralyze
+Runes=AEP
+Cast_Time=1.5
+Resources=iGarlic,iMandrakeRoot,iSpidersSilk
+Rune_Item=i_Rune_paralyze
+Scroll_Item=i_Scroll_paralyze
+Flags=SpellFDirAnim|SpellFTargChar|SpellFHarm|SpellFFxTarg|SpellFResist|SpellFNoUnparalyze
+Effect_ID=i_fx_curse
+Effect=0
+Layer=Layer_Spell_paralyze
+Duration=60.0,3*60.0
+ManaUse=14
+SkillReq=Magery 50.0
+Interrupt=100.0,100.0
+
+
+[Spell 39]
+DefName=sPoisonField
+Name=Poison Field
+Sound=snd_Spell_poison_field
+Runes=ING
+Cast_Time=1.5
+Resources=iBlackPearl,iNightshade,iSpidersSilk
+Rune_Item=i_Rune_poison_field
+Scroll_Item=i_Scroll_poison_field
+Flags=SpellFDirAnim|SpellFTargXYZ|SpellFHarm|SpellFDamage|SpellFFxTarg|SpellFField|SpellFPlayerOnly
+Effect_ID=i_fx_curse
+Effect=5,50 // 50,500
+Layer=Layer_flag_poison
+Duration=2*60.0,4*60.0
+ManaUse=14
+SkillReq=Magery 50.0
+Interrupt=100.0,100.0
+ON=@Success
+LOCAL.FieldWidth=3
+ON=@Effect
+LOCAL.DAMAGETYPE=(<DEF.dam_poison>|<DEF.dam_magic>)
+
+
+[Spell 40]
+DefName=sSummonCreature
+Name=Summon Creature
+Sound=snd_SpellSummon_creature
+Runes=KX
+Cast_Time=7.5
+Resources=iBloodMoss,iMandrakeRoot,iSpidersSilk
+Rune_Item=i_rune_Summon_creature
+Scroll_Item=i_Scroll_Summon_creature
+Flags=SpellFDirAnim|SpellFSummon|SpellFPlayerOnly
+Effect_ID=0
+Effect=0
+Layer=Layer_SpellSummon
+Duration=3*60.0,5*60.0
+ManaUse=18
+SkillReq=Magery 50.0
+Interrupt=100.0,100.0
+
+
+[Spell 41]
+DefName=sDispel
+Name=Dispel
+Sound=snd_Spell_dispel
+Runes=AO
+Cast_Time=1.8
+Resources=iGarlic,iMandrakeRoot,iSulfurousAsh
+Rune_Item=i_Rune_dispel
+Scroll_Item=i_Scroll_dispel
+Flags=SpellFDirAnim|SpellFTargChar
+Effect_ID=0
+Effect=0
+Duration=0.0
+ManaUse=20
+SkillReq=Magery 60.0
+Interrupt=100.0,100.0
+
+
+[Spell 42]
+DefName=sEnergyBolt
+Name=Energy Bolt
+Sound=snd_Spell_energy_bolt
+Runes=CP
+Cast_Time=1.8
+Resources=iBlackPearl,iNightshade
+Rune_Item=i_Rune_energy_bolt
+Scroll_Item=i_Scroll_energy_bolt
+Flags=SpellFDirAnim|SpellFTargObj|SpellFHarm|SpellFDamage|SpellFFxBolt|SpellFResist
+Effect_ID=i_fx_ebolt
+Effect=10,45
+Duration=0.0
+ManaUse=20
+SkillReq=Magery 60.0
+Interrupt=100.0,100.0
+ON=@Effect
+LOCAL.DAMAGETYPE=(<DEF.dam_energy>|<DEF.dam_magic>)
+
+
+[Spell 43]
+DefName=sExplosion
+Name=Explosion
+Sound=snd_Spell_explosion
+Runes=VOF
+Cast_Time=3.8
+Resources=iBloodMoss,iMandrakeRoot
+Rune_Item=i_Rune_explosion
+Scroll_Item=i_Scroll_explosion
+Flags=SpellFDirAnim|SpellFTargObj|SpellFHarm|SpellFDamage|SpellFFxTarg|SpellFResist
+Effect_ID=i_fx_explode
+Effect=15,35
+Duration=0.0
+ManaUse=20
+SkillReq=Magery 60.0
+Interrupt=100.0,100.0
+ON=@Effect
+LOCAL.DAMAGETYPE=(<DEF.dam_general>|<DEF.dam_magic>)
+
+
+[Spell 44]
+// NOTE: Used primarily to regain mana while fighting or cast helpful Spells without incurring attack. Duration should reflect the non-offensive use of this Spell
+DefName=sInvisibility
+Name=Invisibility
+Sound=snd_Spell_invisibility
+Runes=ALX
+Cast_Time=1.8
+Resources=iBloodMoss,iNightshade
+Rune_Item=i_Rune_invisibility
+Scroll_Item=i_Scroll_invisibility
+Flags=SpellFDirAnim|SpellFTargChar|SpellFGood|SpellFPlayerOnly
+Effect_ID=0
+Effect=0
+Layer=Layer_Spell_invis
+Duration=3*60.0,5*60.0
+ManaUse=20
+SkillReq=Magery 60.0
+Interrupt=100.0,100.0
+ON=@Effect
+Flags &= ~StatFHidden
+
+
+[Spell 45]
+DefName=sMark
+Name=Mark
+Sound=snd_Spell_mark
+Runes=KPY
+Cast_Time=1.8
+Resources=iBlackPearl,iBloodMoss,iMandrakeRoot
+Rune_Item=i_Rune_mark
+Scroll_Item=i_Scroll_mark
+Flags=SpellFTargItem|SpellFPlayerOnly
+Effect_ID=0
+Effect=1,10
+Duration=0.0
+ManaUse=20
+SkillReq=Magery 60.0
+Interrupt=100.0,100.0
+
+
+[Spell 46]
+DefName=sMassCurse
+Name=Mass Curse
+Sound=snd_Spell_massCurse
+Runes=VDS
+Cast_Time=1.8
+Resources=iGarlic,iMandrakeRoot,iNightshade,iSulfurousAsh
+Rune_Item=i_Rune_massCurse
+Scroll_Item=i_Scroll_massCurse
+Flags=SpellFHarm|SpellFFxTarg|SpellFPlayerOnly|SpellFArea|SpellFNoUnparalyze|SpellFCurse
+Effect_ID=i_fx_curse
+Effect=5,30
+Duration=0.0
+ManaUse=20
+Layer=Layer_Spell_stats
+SkillReq=Magery 60.0
+Interrupt=100.0,100.0
+ON=@Success
+LOCAL.AREARADIUS=2
+
+
+[Spell 47]
+DefName=sParalyzationField
+Name=Paralyze Field
+Sound=snd_Spell_paralyze_field
+Runes=IEG
+Cast_Time=1.8
+Resources=iBlackPearl,iGinseng,iSpidersSilk
+Rune_Item=i_Rune_paralyze_field
+Scroll_Item=i_Scroll_paralyze_field
+Flags=SpellFDirAnim|SpellFTargXYZ|SpellFHarm|SpellFDamage|SpellFFxTarg|SpellFField|SpellFPlayerOnly|SpellFNoUnparalyze
+Effect_ID=i_fx_curse
+Effect=0
+Layer=Layer_Spell_paralyze
+Duration=2*60.0,3*60.0
+ManaUse=20
+SkillReq=Magery 60.0
+Interrupt=100.0,100.0
+ON=@Success
+LOCAL.FieldWidth=3
+ON=@Effect
+LOCAL.DAMAGETYPE=(<DEF.dam_general>|<DEF.dam_magic>)
+
+
+[Spell 48]
+DefName=sReveal
+Name=Reveal
+Sound=snd_Spell_reveal
+Runes=WQ
+Cast_Time=1.8
+Resources=iBloodMoss,iSulfurousAsh
+Rune_Item=i_Rune_reveal
+Scroll_Item=i_Scroll_reveal
+Flags=SpellFArea
+Effect_ID=0
+Effect=0
+Duration=0.0
+ManaUse=20
+SkillReq=Magery 60.0
+Interrupt=100.0,100.0
+ON=@Success
+LOCAL.AREARADIUS=<eval 1+(<Magery>/200)>
+
+
+[Spell 49]
+DefName=sChainLightning
+Name=Chain Lightning
+Sound=snd_Spell_chain_lightning
+Runes=VOG
+Cast_Time=2.0
+Resources=iBlackPearl,iBloodMoss,iMandrakeRoot,iSulfurousAsh
+Rune_Item=i_Rune_chain_lightning
+Scroll_Item=i_Scroll_chain_lightning
+Flags=SpellFDirAnim|SpellFTargXYZ|SpellFHarm|SpellFDamage|SpellFArea|SpellFResist|SpellFPlayerOnly
+Effect_ID=0
+Effect=10,20
+Duration=0.0
+ManaUse=40
+SkillReq=Magery 70.0
+Interrupt=100.0,100.0
+ON=@Success
+LOCAL.AREARADIUS=2
+ON=@Effect
+LOCAL.DAMAGETYPE=(<DEF.dam_energy>|<DEF.dam_magic>)
+
+
+[Spell 50]
+DefName=sEnergyField
+Name=Energy Field
+Sound=snd_Spell_energy_field
+Runes=ISG
+Cast_Time=2.0
+Resources=iBlackPearl,iMandrakeRoot,iSpidersSilk,iSulfurousAsh
+Rune_Item=i_Rune_energy_field
+Scroll_Item=i_Scroll_energy_field
+Flags=SpellFDirAnim|SpellFTargXYZ|SpellFHarm|SpellFDamage|SpellFFxTarg|SpellFField|SpellFPlayerOnly
+Effect_ID=0
+Effect=0
+Duration=2*60.0,3*60.0
+ManaUse=40
+SkillReq=Magery 70.0
+Interrupt=100.0,100.0
+ON=@Success
+LOCAL.FieldWidth=3
+ON=@Effect
+LOCAL.DAMAGETYPE=(<DEF.dam_energy>|<DEF.dam_magic>)
+
+
+[Spell 51]
+DefName=sFlamestrike
+Name=Flamestrike
+Sound=snd_Spell_flamestrike
+Runes=KVF
+Cast_Time=2.0
+Resources=iSpidersSilk,iSulfurousAsh
+Rune_Item=i_Rune_flamestrike
+Scroll_Item=i_Scroll_flamestrike
+Flags=SpellFDirAnim|SpellFTargObj|SpellFHarm|SpellFDamage|SpellFFxTarg|SpellFResist
+Effect_ID=i_fire_column
+Effect=25,50
+Duration=0.0
+ManaUse=40
+SkillReq=Magery 70.0
+Interrupt=100.0,100.0
+ON=@Effect
+LOCAL.DAMAGETYPE=(<DEF.dam_fire>|<DEF.dam_magic>)
+
+
+[Spell 52]
+DefName=sGateTravel
+Name=Gate Travel
+Sound=snd_Spell_gate_travel
+Runes=VRP
+Cast_Time=2.0
+Resources=iBlackPearl,iMandrakeRoot,iSulfurousAsh
+Rune_Item=i_Rune_gate_travel
+Scroll_Item=i_Scroll_gate_travel
+Flags=SpellFTargItem|SpellFPlayerOnly
+Effect_ID=i_moongate_blue
+Effect=0
+Duration=60.0
+ManaUse=40
+SkillReq=Magery 70.0
+Interrupt=100.0,100.0
+
+
+[Spell 53]
+DefName=sManaVampire
+Name=Mana Vampire
+Sound=snd_Spell_mana_vampire
+Runes=OS
+Cast_Time=2.0
+Resources=iBlackPearl,iBloodMoss,iMandrakeRoot,iSpidersSilk
+Rune_Item=i_Rune_mana_vampire
+Scroll_Item=i_Scroll_mana_vampire
+Flags=SpellFDirAnim|SpellFTargChar|SpellFHarm|SpellFFxTarg|SpellFResist
+Effect_ID=i_fx_curse
+Effect=0
+Duration=0.0
+ManaUse=40
+SkillReq=Magery 70.0
+Interrupt=100.0,100.0
+
+
+[Spell 54]
+DefName=sMassDispel
+Name=Mass Dispel
+Sound=snd_Spell_mass_dispel
+Runes=VAO
+Cast_Time=2.0
+Resources=iBlackPearl,iGarlic,iMandrakeRoot,iSulfurousAsh
+Rune_Item=i_Rune_mass_dispel
+Scroll_Item=i_Scroll_mass_dispel
+Flags=SpellFFxTarg|SpellFArea
+Effect_ID=i_fx_sparkle_2
+Effect=0
+Duration=0.0
+ManaUse=40
+SkillReq=Magery 70.0
+Interrupt=100.0,100.0
+ON=@Success
+LOCAL.AREARADIUS=8
+
+
+[Spell 55]
+DefName=sMeteorSwarm
+Name=Meteor Swarm
+Sound=snd_Spell_meteor_swarm
+Runes=FKDY
+Cast_Time=2.0
+Resources=iBloodMoss,iMandrakeRoot,iSpidersSilk,iSulfurousAsh
+Rune_Item=i_Rune_meteor_swarm
+Scroll_Item=i_Scroll_meteor_swarm
+Flags=SpellFDirAnim|SpellFTargXYZ|SpellFHarm|SpellFDamage|SpellFArea|SpellFFxTarg|SpellFResist|SpellFPlayerOnly
+Effect_ID=0
+Effect=35,50
+Duration=0.0
+ManaUse=40
+SkillReq=Magery 70.0
+Interrupt=100.0,100.0
+ON=@Success
+LOCAL.AREARADIUS=2
+ON=@Effect
+LOCAL.DAMAGETYPE=(<DEF.dam_physical>|<DEF.dam_magic>)
+
+
+[Spell 56]
+DefName=sPolymorph
+Name=Polymorph
+Sound=snd_Spell_polymorph
+Runes=VYR
+Cast_Time=2.0
+Resources=iBloodMoss,iMandrakeRoot,iSpidersSilk
+Rune_Item=i_Rune_polymorph
+Scroll_Item=i_Scroll_polymorph
+Flags=SpellFPlayerOnly|SpellFNoPrecast
+Effect_ID=0
+Effect=0
+Layer=Layer_Spell_polymorph
+Duration=5*60.0,8*60.0
+ManaUse=40
+SkillReq=Magery 70.0
+Interrupt=100.0,100.0
+
+ON=@Select
+IF (<Flags> & StatFPolymorph)
+ IF (<MANA> < <SERV.Spell.sPolymorph.ManaUse>)
+  SYSMESSAGE <DEFMSG.Spell_try_nomana>
+ ELSE
+  MANA -= <SERV.Spell.sPolymorph.ManaUse>
+  FINDID.<SERV.Spell.sPolymorph.Rune_Item>.REMOVE
+ ENDIF
+ return 1
+ENDIF
+
+
+[Spell 57]
+DefName=sEarthquake
+Name=Earthquake
+Sound=snd_Spell_earthquake
+Runes=IVP
+Cast_Time=2.3
+Resources=iBloodMoss,iGinseng,iMandrakeRoot,iSulfurousAsh
+Rune_Item=i_Rune_earthquake
+Scroll_Item=i_Scroll_earthquake
+Flags=SpellFHarm|SpellFDamage|SpellFArea|SpellFFxTarg|SpellFPlayerOnly
+Effect_ID=i_fx_smoke
+Effect=30,45
+Duration=30.0
+ManaUse=50
+SkillReq=Magery 80.0
+// NOTE: does Earthquake use a Duration?? IF so, no more then 30secs. This Spell is more like an irradiating wave thus should have a set distance/time it can be Effective
+Interrupt=100.0,100.0
+
+ON=@Success
+LOCAL.AREARADIUS=<eval 1+(<Magery>/150)>
+
+ON=@Effect
+LOCAL.DAMAGETYPE=(<DEF.dam_physical>|<DEF.dam_magic>)
+
+
+[Spell 58]
+DefName=sEnergyVortex
+Name=Energy Vortex
+Sound=snd_Spell_energy_vortex
+Runes=VCP
+Cast_Time=2.3
+Resources=iBlackPearl,iBloodMoss,iMandrakeRoot,iNightshade
+Rune_Item=i_Rune_energy_vortex
+Scroll_Item=i_Scroll_energy_vortex
+Flags=SpellFDirAnim|SpellFTargXYZ|SpellFHarm|SpellFSummon
+Effect_ID=0
+Effect=0
+Layer=Layer_SpellSummon
+Duration=60.0,90.0
+ManaUse=50
+SkillReq=Magery 80.0
+Interrupt=100.0,100.0
+
+
+[Spell 59]
+DefName=sResurrection
+Name=Resurrection
+Sound=snd_Spell_resurrection
+Runes=AC
+Cast_Time=2.3
+Resources=iBloodMoss,iGarlic,iGinseng
+Rune_Item=i_Rune_resurrection
+Scroll_Item=i_Scroll_resurrection
+Flags=SpellFDirAnim|SpellFTargChar|SpellFFxTarg|SpellFGood|SpellFTargDead|SpellFPlayerOnly
+Effect_ID=i_fx_sparkle
+Effect=0
+Duration=0.0
+ManaUse=50
+SkillReq=Magery 80.0
+Interrupt=100.0,100.0
+
+
+[Spell 60]
+DefName=sSummonAirElemental
+Name=Air Elemental
+Sound=snd_SpellSummon_elem_air
+Runes=KVXH
+Cast_Time=2.3
+Resources=iBloodMoss,iMandrakeRoot,iSpidersSilk
+Rune_Item=i_rune_Summon_elem_air
+Scroll_Item=i_Scroll_Summon_elem_air
+Flags=SpellFDirAnim|SpellFSummon
+Effect_ID=0
+Effect=0
+Layer=Layer_SpellSummon
+Duration=2*60.0,3*60.0
+ManaUse=50
+SkillReq=Magery 80.0
+Interrupt=100.0,100.0
+
+
+[Spell 61]
+DefName=sSummonDaemon
+Name=Summon Daemon
+Sound=snd_SpellSummon_daemon
+Runes=KVXC
+Cast_Time=2.3
+Resources=iBloodMoss,iMandrakeRoot,iSpidersSilk,iSulfurousAsh
+Rune_Item=i_rune_Summon_daemon
+Scroll_Item=i_Scroll_Summon_daemon
+Flags=SpellFDirAnim|SpellFSummon
+Effect_ID=0
+Effect=0
+Layer=Layer_SpellSummon
+Duration=2*60.0,3*60.0
+ManaUse=50
+SkillReq=Magery 80.0
+Interrupt=100.0,100.0
+
+
+[Spell 62]
+DefName=sSummonEarthElemental
+Name=Earth Elemental
+Sound=snd_SpellSummon_elem_earth
+Runes=KVXY
+Cast_Time=2.3
+Resources=iBloodMoss,iMandrakeRoot,iSpidersSilk
+Rune_Item=i_rune_Summon_elem_earth
+Scroll_Item=i_Scroll_Summon_elem_earth
+Flags=SpellFDirAnim|SpellFSummon
+Effect_ID=0
+Effect=0
+Layer=Layer_SpellSummon
+Duration=2*60.0,3*60.0
+ManaUse=50
+SkillReq=Magery 80.0
+Interrupt=100.0,100.0
+
+
+[Spell 63]
+DefName=sSummonFireElemental
+Name=Fire Elemental
+Sound=snd_SpellSummon_elem_fire
+Runes=KVXF
+Cast_Time=2.3
+Resources=iBloodMoss,iMandrakeRoot,iSpidersSilk,iSulfurousAsh
+Rune_Item=i_rune_Summon_elem_fire
+Scroll_Item=i_Scroll_Summon_elem_fire
+Flags=SpellFDirAnim|SpellFSummon
+Effect_ID=0
+Effect=0
+Layer=Layer_SpellSummon
+Duration=2*60.0,3*60.0
+ManaUse=50
+SkillReq=Magery 80.0
+Interrupt=100.0,100.0
+
+
+[Spell 64]
+DefName=sSummonWaterElemental
+Name=Water Elemental
+Sound=snd_SpellSummon_elem_water
+Runes=KVXAF
+Cast_Time=2.3
+Resources=iBloodMoss,iMandrakeRoot,iSpidersSilk
+Rune_Item=i_rune_Summon_elem_water
+Scroll_Item=i_Scroll_Summon_elem_water
+Flags=SpellFDirAnim|SpellFSummon
+Effect_ID=0
+Effect=0
+Layer=Layer_SpellSummon
+Duration=2*60.0,3*60.0
+ManaUse=50
+SkillReq=Magery 80.0
+Interrupt=100.0,100.0
+
+
+[EOF]

@@ -1,0 +1,284 @@
+///////////////////
+// Sphere Spells //
+///////////////////
+
+
+[Spell 1000]
+DefName=sSummonUndead
+Name=Summon Undead
+Sound=snd_SpellSummon_undead
+Runes=KNM
+Cast_Time=2.3
+Resources=iBloodMoss
+Rune_Item=i_Rune_ALCHEM_1
+Scroll_Item=i_Scroll_X_GREEN2
+Flags=SpellFDirAnim|SpellFTargXYZ|SpellFSummon
+Effect_ID=0
+Effect=0
+Layer=Layer_SpellSummon
+Duration=2*60.0,3*60.0
+ManaUse=15
+SkillReq=Magery 30.0, Necromancy 40.0
+Interrupt=100.0,100.0
+
+
+[Spell 1001]
+DefName=sAnimateDead
+Name=Animate Dead
+Sound=snd_Spell_ANIMATE_DEAD
+Runes=IAMG
+Cast_Time=60
+Resources=iBloodMoss
+Rune_Item=i_Rune_ALCHEM_2
+Scroll_Item=i_Scroll_X_TEAL2
+Flags=SpellFTargItem
+Effect_ID=0
+Effect=0
+Layer=Layer_SpellSummon
+Duration=2*60.0,3*60.0
+ManaUse=15
+// NOTE: This Spell, in past testings, when used on a pLayer corpse, would cause the loss of all pLayers Effects upon decay. I suggest code that when used on a pLayer corpse and the pLayer is in the area that it ressurects the pLayer, retains the items, but leaves him controlled by the caster for the Duration of the Spell, like a pet  :)
+SkillReq=Magery 30.0, Necromancy 40.0
+Interrupt=100.0,100.0
+
+
+[Spell 1002]
+DefName=sBoneArmor
+Name=Bone Armor
+Sound=snd_Spell_BONE_ARMOR
+Runes=ICSY
+Cast_Time=60
+Resources=iBloodMoss
+Rune_Item=i_Rune_ALCHEM_3
+Scroll_Item=i_Scroll_X_BROWN2
+Flags=SpellFTargObj
+Effect_ID=0
+Effect=0
+Layer=Layer_Spell_protection
+Duration=0.0
+ManaUse=15
+SkillReq=Magery 30.0, Necromancy 40.0
+Interrupt=100.0,100.0
+
+
+[Spell 1003]
+//Adds a light halo around the character
+DefName=sLight
+Name=Light
+Sound=snd_Spell_LIGHT
+Runes=IL
+Cast_Time=60
+Resources=iSpidersSilk,iSulfurousAsh
+Rune_Item=i_light_source
+Scroll_Item=i_Scroll_X_RED
+Flags=SpellFTargChar| SpellFGood
+Effect_ID=0
+Effect=0
+Layer=Layer_Spell_night_sight
+Duration=3*60.0,5*60.0
+ManaUse=15
+SkillReq=Magery 30.0, Necromancy 40.0
+Interrupt=100.0,100.0
+
+
+[Spell 1004]
+DefName=sFireBolt
+Name=Fire Bolt
+Sound=snd_Spell_FIRE_BOLT
+Runes=VFP
+Cast_Time=60
+Resources=iBlackPearl,iSulfurousAsh,iNightshade
+Rune_Item=i_Rune_FIREBALL
+Scroll_Item=i_Scroll_X_BLUE
+Flags=SpellFTargChar|SpellFDirAnim|SpellFHarm|SpellFFxBolt|SpellFResist|SpellFDamage
+Effect_ID=i_fx_firesnake
+Effect=30,50
+Duration=0.0
+ManaUse=15
+SkillReq=Magery 30.0, Necromancy 40.0
+Interrupt=100.0,100.0
+
+
+[Spell 1005]
+DefName=sHallucination
+Name=Hallucination
+Sound=snd_Z_END_MYSTERY1
+Runes=WN
+Cast_Time=60
+Resources=iGarlic,iNightshade
+Rune_Item=i_Rune_MIND_BLAST
+Scroll_Item=i_Scroll_MIND_BLAST
+Flags=SpellFTargChar|SpellFDirAnim| SpellFHarm | SpellFFxTarg| SpellFCurse
+Effect_ID=i_fx_curse
+Effect=2,5
+Layer=Layer_flag_hallucination
+Duration=2*60.0,4*60.0
+ManaUse=15
+SkillReq=Magery 30.0, Necromancy 40.0
+Interrupt=100.0,100.0
+
+
+[Spell 1006]
+DefName=sStone
+Name=Stone
+Flags=SpellFTargChar|SpellFDirAnim| SpellFHarm | SpellFFxTarg | SpellFPlayerOnly
+Rune_Item=i_Rune_ALCHEM_3
+Duration=2*60.0,4*60.0
+
+
+[Spell 1007]
+DefName=sShrink
+Name=Shrink
+Flags=SpellFTargChar|SpellFDirAnim| SpellFHarm | SpellFFxTarg | SpellFPlayerOnly
+Rune_Item=i_Rune_ALCHEM_3
+Duration=2*60.0,4*60.0
+
+
+[Spell 1008]
+DefName=sRefresh
+Name=Refresh
+Flags=SpellFTargChar | SpellFFxTarg | SpellFGood | SpellFPlayerOnly
+Rune_Item=i_Rune_ALCHEM_3
+Effect=40,180
+
+
+[Spell 1009]
+DefName=sRestore
+Name=Restore
+Flags=SpellFTargChar | SpellFFxTarg | SpellFGood | SpellFPlayerOnly
+Rune_Item=i_Rune_ALCHEM_3
+Effect=10,100
+
+
+[Spell 1010]
+DefName=sMana
+Name=Mana
+Flags=SpellFTargChar | SpellFFxTarg | SpellFGood | SpellFPlayerOnly
+Rune_Item=i_Rune_ALCHEM_3
+Effect_ID=i_fx_heal_Effect
+Effect=10,100
+
+
+[Spell 1011]
+DefName=sSustenance
+Name=Sustenance
+Flags=SpellFTargChar|SpellFDirAnim| SpellFGood | SpellFFxTarg | SpellFPlayerOnly
+Rune_Item=i_Rune_ALCHEM_3
+Effect=4,100
+
+
+[Spell 1012]
+// This potion makes your skin match the colors of whatever is behind you.
+DefName=sChameleon
+Name=Chameleon
+Flags=SpellFTargChar|SpellFDirAnim| SpellFHarm | SpellFFxTarg | SpellFPlayerOnly
+Rune_Item=i_Rune_ALCHEM_3
+Duration=2*60.0,4*60.0
+
+
+[Spell 1013]
+// This potion polymorphs you into an animal for a while.
+DefName=sBeastForm
+Name=Beast Form
+Flags=SpellFHarm| SpellFPlayerOnly
+Rune_Item=i_Rune_ALCHEM_3
+Duration=2*60.0,4*60.0
+
+
+[Spell 1014]
+// This potion polymorphs you into a monster for a while.
+DefName=sMonsterForm
+Name=Monster Form
+Flags=SpellFHarm| SpellFPlayerOnly
+Rune_Item=i_Rune_ALCHEM_3
+Duration=2*60.0,4*60.0
+
+
+[Spell 1015]
+// This potion permanently changes your gender.
+DefName=sGenderSwap
+Name=Gender Swap
+Flags=SpellFHarm| SpellFPlayerOnly
+Rune_Item=i_Rune_ALCHEM_3
+
+
+[Spell 1016]
+// Temporarily increases your meditation skill.
+DefName=sTrance
+Name=Trance
+Flags=SpellFPlayerOnly
+Rune_Item=i_Rune_ALCHEM_3
+Effect_ID=i_fx_heal_Effect
+Duration=2*60.0,4*60.0
+
+
+[Spell 1017]
+// This potion turns you into an immobile but untargetable particle system for a while.
+DefName=sParticleForm
+Name=Particle Form
+Flags=SpellFPlayerOnly
+Rune_Item=i_Rune_ALCHEM_3
+Duration=2*60.0,4*60.0
+
+
+[Spell 1018]
+// This potion erects a temporary force field around you. Nobody approaching will be able to get within 1 tile of you though you can move close to them if you wish.
+DefName=sShield
+Name=Shield
+Flags=SpellFPlayerOnly
+Rune_Item=i_Rune_ALCHEM_3
+Duration=2*60.0,4*60.0
+
+
+[Spell 1019]
+// This potion turns your skin into steel, giving a boost to your AR.
+DefName=sSteelSkin
+Name=Steel Skin
+Flags=SpellFTargChar | SpellFFxTarg| SpellFGood | SpellFPlayerOnly
+Rune_Item=i_Rune_ALCHEM_3
+Effect=4,40
+Duration=2*60.0,4*60.0
+
+
+[Spell 1020]
+// This potion turns your skin into stone, giving a boost to your AR.
+DefName=sStoneSkin
+Name=Stone Skin
+Flags=SpellFTargChar | SpellFFxTarg| SpellFGood | SpellFPlayerOnly
+Rune_Item=i_Rune_ALCHEM_3
+Effect=4,40
+Duration=2*60.0,4*60.0
+
+
+[Spell 1021]
+// Regen hit points at fast rate.
+DefName=sRegenerate
+Name=Regeneration
+Flags=SpellFTargChar | SpellFFxTarg | SpellFGood | SpellFPlayerOnly
+Rune_Item=i_Rune_ALCHEM_3
+Duration=2*60.0,4*60.0
+
+
+[Spell 1022]
+// Enchant a weapon or armor.
+// Effect of all enchanted weapons is tied to Effect here !
+DefName=sEnchant
+Name=Enchantment
+Flags=SpellFTargObj | SpellFFxTarg | SpellFGood | SpellFPlayerOnly
+Rune_Item=i_Rune_ALCHEM_3
+ManaUse=200
+SkillReq=Magery 200.0
+Effect=1,9
+
+
+[Spell 1023]
+//
+DefName=sForget
+Name=Forget
+Flags=SpellFHarm| SpellFPlayerOnly
+Rune_Item=i_Rune_ALCHEM_3
+
+//Spells can be defined up to 1055
+
+
+[EOF]

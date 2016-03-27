@@ -1,0 +1,188 @@
+////////////////////
+// Bushido Spells //
+////////////////////
+//"
+// A character with Bushido as well as the Parrying skill will be able to
+// block with a sword, though their defense chance with an actual Shield is
+// lowered as they progress as a Samurai. Bushido also offers the only method
+// in the game to entirely avoid direct Spell damage: The Evasion ability.
+//
+// A Samurai with 50 Bushido or above may activate the Perfection system
+// by honoring a target creature. This grants a damage bonus dependant on
+// consecutive hits.
+//
+// At 90 skill, it becomes possible to use Bushido in place of Animal Taming
+// for the purpose of controlling and riding Lesser Hiryus.
+//
+// This skill also counts towards your ability to perform Special Moves and
+// gives a damage bonus to the Whirlwind special move.
+//"
+
+
+[Spell 401]
+//"
+// Once enabled, the next blow the caster lands must be a killing blow.
+//
+// If successful, the caster gets a 10 second Swing Speed Increase of 0.25s
+// and 8 to 10 Hit Points are restored (adjusted upwards per level of
+// Perfection.)
+//
+// An unsuccessful use yields a 6 second loss of all Magic Resistance and
+// all other Resistances are reduced by 40.
+//
+// Duration: Killing blow must land within 6-10 seconds.
+//"
+DefName=sHonorableExecution
+Name=Honorable Execution
+Sound=snd_Bushido_honorable_execution
+Runes=
+Cast_Time=
+Resources=
+Rune_Item=i_Rune_honorable_execution
+Scroll_Item=0
+Flags=SpellF_scripted
+Effect_ID=
+Effect=
+Duration=
+ManaUse=0
+SkillReq=Bushido 25.0
+Interrupt=0.0,0.0
+
+
+[Spell 402]
+//"
+// A defensive stance that allows Stamina and Hit Points gain with each
+// successful parry.  Each such parry will heal 1 to (Bushido / 12) hit
+// points, and refresh stamina for 1 to (Bushido / 5).
+//
+// Also increases stamina and Hit Point Regeneration rate for 4 seconds
+// upon activation.  The increased rate is halted if hit during the 4
+// second Duration.  Max HP healed = ((Bushido*Bushido)/576)+15
+//
+// Duration: 4 seconds
+//"
+DefName=sConfidence
+Name=Confidence
+Sound=snd_Bushido_confidence
+Runes=
+Cast_Time=
+Resources=
+Rune_Item=i_Rune_confidence
+Scroll_Item=0
+Flags=SpellF_scripted
+Effect_ID=
+Effect=
+Duration=
+ManaUse=10
+SkillReq=Bushido 25.0
+Interrupt=0.0,0.0
+
+
+[Spell 403]
+//"
+// Increases your chance to parry, also grants the ability to parry direct
+// damage attacks from other sources, such as Spells and Dragons Breath.
+// Evasion can only be used once every 20 seconds. The chance to block is
+// based on Bushido, Anatomy, and Tactics. The Duration of Evasion is also
+// influenced by these skills.
+//
+// Duration: 3 to 6 seconds with a 2 second bonus if your Bushido is above
+// 100.0 and both Tactics and Anatomy are 100.0 or better.
+//"
+DefName=sEvasion
+Name=Evasion
+Sound=snd_Bushido_evasion
+Runes=
+Cast_Time=
+Resources=
+Rune_Item=i_Rune_evasion
+Scroll_Item=0
+Flags=SpellFDisabled
+Effect_ID=
+Effect=
+Duration=
+ManaUse=10
+SkillReq=Bushido 60.0
+Interrupt=0.0,0.0
+
+
+[Spell 404]
+//"
+// Places you in a defensive stance that allows you to automatically counter
+// attack the next time you successfully parry, without Interrupting your
+// normal swing timer. The Counter Attack takes normal hit and miss ratios
+// into account, and therefore can miss.
+//
+// Duration: Until next successful parry
+//"
+DefName=sCounterAttack
+Name=Counter Attack
+Sound=0
+Runes=
+Cast_Time=
+Resources=
+Rune_Item=i_Rune_counter_attack
+Scroll_Item=0
+Flags=SpellFDisabled
+Effect_ID=
+Effect=
+Duration=
+ManaUse=5
+SkillReq=Bushido 40.0
+Interrupt=0.0,0.0
+
+
+[Spell 405]
+//"
+// Allows a single attack with a 50% Hit Chance Increase. The HCI cap of 45%
+// applies. However, if under the Effects of a Hit Lower Attack, the full
+// 50% bonus is enjoyed. (The bonus can overcome the Effects of Hit Lower
+// Attack.) Also, some hits under the Effect of a Lighting Strike will be
+// deemed Critical Hits and will do extra damage. 
+//
+// Duration: Instant
+//"
+DefName=sLightningStrike
+Name=Lightning Strike
+Sound=snd_Bushido_lightning_strike
+Runes=
+Cast_Time=
+Resources=
+Rune_Item=i_Rune_lightning_strike
+Scroll_Item=0
+Flags=SpellFDisabled
+Effect_ID=
+Effect=
+Duration=
+ManaUse=10
+SkillReq=Bushido 50.0
+Interrupt=0.0,0.0
+
+
+[Spell 406]
+//"
+// Works only on multiple targets. A successful hit on an opponent results in
+// another hit attempt on a different, adjacent opponent. Normal hit and miss
+// ratios apply. A damage bonus of 100% is applied to the second target, if
+// the first target is killed.
+//
+// Duration: Instant
+//"
+DefName=sMomentumStrike
+Name=Momentum Strike
+Sound=snd_Bushido_momentum_strike
+Runes=
+Cast_Time=
+Resources=
+Rune_Item=i_Rune_momentum_strike
+Scroll_Item=0
+Flags=SpellFDisabled
+Effect_ID=
+Effect=
+Duration=
+ManaUse=10
+SkillReq=Bushido 70.0
+Interrupt=0.0,0.0
+
+
+[EOF]

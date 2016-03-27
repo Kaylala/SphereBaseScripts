@@ -1,0 +1,312 @@
+//////////////////////
+// Mysticism Spells //
+//////////////////////
+
+
+[Spell 678]
+// deals damage to target
+DefName=sNetherBolt
+Name=Nether Bolt
+Cast_Time=1.0
+Runes=ICY
+Resources=iBlackPearl, iSulfurousAsh
+Flags=SpellFTargChar | SpellFDirAnim | SpellFHarm
+Rune_Item=//i_Rune_NETHER_BOLT
+Scroll_Item=i_Scroll_NETHER_BOLT
+Effect_ID=0
+Effect=5,15
+Duration=0.0
+ManaUse=4
+SkillReq=Mysticism 10.0
+Interrupt=100.0,100.0
+
+
+[Spell 679]
+// conjures healing stone to heal caster when used
+DefName=sHealingStone
+Name=Healing Stone
+Cast_Time=1.0
+Runes=KIM
+Resources=iBone, iGarlic, iGinseng, iSpidersSilk
+Flags=0
+Rune_Item=//i_rune_HealING_STONE
+Scroll_Item=i_Scroll_HealING_STONE
+Effect_ID=i_fx_heal_Effect
+Effect=5,20
+Duration=0.0
+ManaUse=4
+SkillReq=Mysticism 10.0
+Interrupt=100.0,100.0
+
+
+[Spell 680]
+// dispels beneficial Spell from target
+DefName=sPurgeMagic
+Name=Healing Stone
+Cast_Time=1.0
+Runes=AOS
+Resources=iFertileDirt, iGarlic, iMandrakeRoot, iSulfurousAsh
+Flags=SpellFTargChar | SpellFDirAnim | SpellFHarm
+Rune_Item=//i_Rune_PURGE_MAGIC
+Scroll_Item=i_Scroll_PURGE_MAGIC
+Effect_ID=i_fx_curse
+Effect=3,15
+Duration=0.0
+ManaUse=6
+SkillReq=Mysticism 8.0
+Interrupt=100.0,100.0
+
+
+[Spell 681]
+// enchants weapon with selected Spell
+DefName=sEnchantWeapon
+Name=Enchant
+Cast_Time=1.0
+Runes=IOY
+Resources=iSpidersSilk, iMandrakeRoot, iSulfurousAsh
+Flags=SpellFTargItem
+Rune_Item=//i_Rune_ENCHANT
+Scroll_Item=i_Scroll_ENCHANT
+Effect_ID=0
+Effect=3,15
+Duration=45.0,60.0
+ManaUse=6
+SkillReq=Mysticism 8.0
+Interrupt=100.0,100.0
+
+
+[Spell 682]
+// sends target to sleep (unable to attack or cast, slow movement)
+DefName=sSleep
+Name=Sleep
+Cast_Time=1.0
+Runes=IZ
+Resources=iNightshade, iSpidersSilk, iBlackPearl
+Flags=SpellFTargChar | SpellFDirAnim | SpellFHarm
+Rune_Item=//i_Rune_SLEEP
+Scroll_Item=i_Scroll_SLEEP
+Effect_ID=i_fx_curse
+Effect=5,30
+Layer=Layer_Spell_sleep
+Duration=45.0,60.0
+ManaUse=9
+SkillReq=Mysticism 20.0
+Interrupt=100.0,100.0
+
+
+[Spell 683]
+// summons an eagle
+DefName=sEagleStrike
+Name=Eagle Strike
+Cast_Time=1.0
+Runes=KPZ
+Resources=iBloodMoss, iBone, iSpidersSilk, iMandrakeRoot
+Flags=SpellFTargChar | SpellFDirAnim | SpellFHarm
+Rune_Item=//i_Rune_EAGLE_STRIKE
+Scroll_Item=i_Scroll_EAGLE_STRIKE
+Effect_ID=0
+Effect=5,30
+Duration=0.0
+ManaUse=9
+SkillReq=Mysticism 20.0
+Interrupt=100.0,100.0
+
+
+[Spell 684]
+// summons an animated weapon to automatically fight
+DefName=sAnimatedWeapon
+Name=Animated Weapon
+Cast_Time=1.0
+Runes=IJPY
+Resources=iBone, iBlackPearl, iMandrakeRoot, iNightshade
+Flags=SpellFSummon
+Rune_Item=//i_Rune_ANIMATED_WEAPON
+Scroll_Item=i_Scroll_ANIMATED_WEAPON
+Effect_ID=0
+Effect=5,30
+Layer=Layer_SpellSummon
+Duration=45.0,60.0
+ManaUse=11
+SkillReq=Mysticism 33.0
+Interrupt=100.0,100.0
+
+
+[Spell 685]
+// improves caster physical stats and armour, reduces movement/casting/attack speed
+DefName=sStoneForm
+Name=Stone Form
+Cast_Time=1.0
+Runes=IRY
+Resources=iBloodMoss, iFertileDirt, iGarlic
+Flags=SpellF_poly|SpellFGood
+Rune_Item=i_Scroll_STONE_FORM//i_Rune_STONE_FORM
+Scroll_Item=i_Scroll_STONE_FORM
+Effect_ID=0
+Effect=5,30
+Layer=Layer_Spell_polymorph
+Duration=45.0,60.0
+ManaUse=11
+SkillReq=Mysticism 33.0
+Interrupt=100.0,100.0
+
+ON=@Select
+IF (<Flags> & StatFPolymorph)
+ IF (<MANA> < <SERV.Spell.sStoneForm.ManaUse>)
+  SYSMESSAGE <DEFMSG.Spell_try_nomana>
+ ELSE
+  MANA -= <SERV.Spell.sStoneForm.ManaUse>
+  FINDID.<SERV.Spell.sStoneForm.Rune_Item>.REMOVE
+ ENDIF
+ return 1
+ENDIF
+
+
+[Spell 686]
+// charges a Spell stone with a selected Spell, to be instantly cast when used
+DefName=sSpellTrigger
+Name=Spell Trigger
+Cast_Time=1.0
+Runes=IVOE
+Resources=iDragonBlood2, iGarlic, iMandrakeRoot, iSpidersSilk
+Flags=SpellFTargItem
+Rune_Item=//i_Rune_Spell_TRIGGER
+Scroll_Item=i_Scroll_Spell_TRIGGER
+Effect_ID=0
+Effect=5,30
+Duration=0.0
+ManaUse=14
+SkillReq=Mysticism 45.0
+Interrupt=100.0,100.0
+
+
+[Spell 687]
+// area-Effect sleep
+DefName=sMassSleep
+Name=Mass Sleep
+Cast_Time=1.0
+Runes=VZ
+Resources=iGinseng, iNightshade, iSpidersSilk
+Flags=0
+Rune_Item=//i_Rune_MASS_SLEEP
+Scroll_Item=i_Scroll_MASS_SLEEP
+Effect_ID=0
+Effect=5,30
+Layer=Layer_Spell_sleep
+Duration=0.0
+ManaUse=14
+SkillReq=Mysticism 45.0
+Interrupt=100.0,100.0
+
+
+[Spell 688]
+// cure, remove curse and heal target
+DefName=sCleansingWinds
+Name=Cleansing Winds
+Cast_Time=1.0
+Runes=IVMH
+Resources=iDragonBlood2, iGarlic, iGinseng, iMandrakeRoot
+Flags=SpellFTargChar | SpellFDirAnim
+Rune_Item=//i_Rune_CLEANSING_WINDS
+Scroll_Item=i_Scroll_CLEANSING_WINDS
+Effect_ID=i_fx_heal_Effect
+Effect=5,30
+Duration=0.0
+ManaUse=20
+SkillReq=Mysticism 58.0
+Interrupt=100.0,100.0
+
+
+[Spell 689]
+// damages target, chance to knockback/stun
+DefName=sBombard
+Name=Bombard
+Cast_Time=1.0
+Runes=CPY
+Resources=iBloodMoss, iDragonBlood2, iGarlic, iSulfurousAsh
+Flags=SpellFTargChar | SpellFDirAnim | SpellFHarm
+Rune_Item=//i_Rune_BOMBARD
+Scroll_Item=i_Scroll_BOMBARD
+Effect_ID=0
+Effect=5,30
+Layer=Layer_Spell_bombard
+Duration=0.0
+ManaUse=20
+SkillReq=Mysticism 58.0
+Interrupt=100.0,100.0
+
+
+[Spell 690]
+// area of Effect, affected targets receive damage when dealing damage (attack/Spell)
+DefName=sSpellPlague
+Name=Spell Plague
+Cast_Time=1.0
+Runes=VRJO
+Resources=iDaemonBone, iDragonBlood2, iNightshade, iSulfurousAsh
+Flags=SpellFHarm
+Rune_Item=//i_Rune_Spell_PLAGUE
+Scroll_Item=i_Scroll_Spell_PLAGUE
+Effect_ID=0
+Effect=5,30
+Layer=Layer_Spell_Spell_plague
+Duration=0.0
+ManaUse=40
+SkillReq=Mysticism 70.0
+Interrupt=100.0,100.0
+
+
+[Spell 691]
+// area of Effect, deals damage
+DefName=sHailStorm
+Name=Hail Storm
+Cast_Time=1.0
+Runes=KDY
+Resources=iDragonBlood2, iBloodMoss, iBlackPearl, iMandrakeRoot
+Flags=SpellFHarm
+Rune_Item=//i_Rune_HAIL_STORM
+Scroll_Item=i_Scroll_HAIL_STORM
+Effect_ID=0
+Effect=5,30
+Duration=0.0
+ManaUse=40
+SkillReq=Mysticism 70.0
+Interrupt=100.0,100.0
+
+
+[Spell 692]
+// area of Effect, deals damage and reduces mana/stamina
+DefName=sNetherCyclone
+Name=Nether Cyclone
+Cast_Time=1.0
+Runes=GH
+Resources=iMandrakeRoot, iNightshade, iSulfurousAsh, iBloodMoss
+Flags=SpellFHarm
+Rune_Item=//i_Rune_NETHER_CYCLONE
+Scroll_Item=i_Scroll_NETHER_CYCLONE
+Effect_ID=0
+Effect=5,30
+Layer=Layer_Spell_nether_cyclone
+Duration=30.0,45.0
+ManaUse=50
+SkillReq=Mysticism 83.0
+Interrupt=100.0,100.0
+
+
+[Spell 693]
+// summons colossal stone titan
+DefName=sRisingColossus
+Name=Rising Collossus
+Cast_Time=1.0
+Runes=KVXCP
+Resources=iDaemonBone, iDragonBlood2, iFertileDirt, iNightshade
+Flags=SpellFSummon
+Rune_Item=//i_Rune_RISING_COLOSSUS
+Scroll_Item=i_Scroll_RISING_COLOSSUS
+Effect_ID=0
+Effect=5,30
+Duration=30.0,45.0
+ManaUse=50
+SkillReq=Mysticism 83.0
+Interrupt=100.0,100.0
+
+
+[EOF]

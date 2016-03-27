@@ -1,0 +1,322 @@
+/////////////////////////
+// Spellweaving Spells //
+/////////////////////////
+
+
+[Spell 601]
+DefName=sArcaneCircle
+Name=Arcane Circle
+Sound=snd_Spellweave_arcane_circle
+Runes=//Myrshalee
+Cast_Time=0.5
+Resources=
+Rune_Item=0
+Scroll_Item=i_Scroll_arcane_circle
+Flags=SpellFDisabled|SpellFGood
+Effect_ID=03779
+Effect=0
+Duration=0.0
+ManaUse=24
+SkillReq=Spellweaving 0.1
+Interrupt=100.0,100.0
+
+
+[Spell 602]
+DefName=sGiftOfRenewal
+Name=Gift of Renewal
+Sound=snd_Spellweave_gift_of_renewal
+Runes=//Olorisstra
+Cast_Time=3.0
+Resources=
+Rune_Item=0
+Scroll_Item=i_Scroll_gift_of_renewal
+Flags=SpellFDisabled|SpellFGood|SpellFTargChar
+Effect_ID=0
+Effect=0
+Layer=Layer_Spell_gift_of_renewal
+Duration=0.0
+ManaUse=24
+SkillReq=Spellweaving 0.1
+Interrupt=100.0,100.0
+
+
+[Spell 603]
+DefName=sImmolatingWeapon
+Name=Immolating Weapon
+Sound=snd_Spellweave_immolating_weapon
+Runes=//Thalshara
+Cast_Time=1.0
+Resources=
+Rune_Item=0
+Scroll_Item=i_Scroll_immolating_weapon
+Flags=SpellFDisabled|SpellFGood|SpellFBless|SpellFTargItem
+Effect_ID=0
+Effect=0
+Layer=Layer_Spell_Immolating_Weapon
+Duration=0.0
+ManaUse=26
+SkillReq=Spellweaving 0.1
+Interrupt=100.0,100.0
+
+
+[Spell 604]
+DefName=sAttunement
+Name=Attunement
+Sound=snd_Spellweave_attunement
+Runes=//Haeldril
+Cast_Time=1.0
+Resources=
+Rune_Item=0
+Scroll_Item=i_Scroll_attunement
+Flags=SpellFDisabled|SpellFGood|SpellFBless|SpellFTargChar
+Effect_ID=0
+Effect=0
+Layer=Layer_Spell_attunement
+Duration=0.0
+ManaUse=26
+SkillReq=Spellweaving 0.1
+Interrupt=100.0,100.0
+
+
+[Spell 605]
+DefName=sThunderstorm
+Name=Thunderstorm
+Sound=snd_Spellweave_thunderstorm
+Runes=//Erelonia
+Cast_Time=1.5
+Resources=
+Rune_Item=0
+Scroll_Item=i_Scroll_thunderstorm
+Flags=SpellFDisabled|SpellFTargXYZ|SpellFHarm|SpellFResist
+Effect_ID=0
+Effect=0
+Layer=Layer_Spell_thunderstorm
+Duration=0.0
+ManaUse=32
+SkillReq=Spellweaving 10.1
+Interrupt=100.0,100.0
+
+
+[Spell 606]
+DefName=sNatureFury
+Name=Nature's Fury
+Sound=snd_Spellweave_natures_fury
+Runes=//Rauvvrae
+Cast_Time=1.5
+Resources=
+Rune_Item=0
+Scroll_Item=i_Scroll_nature_fury
+Flags=SpellFDisabled|SpellFHarm|SpellFTargXYZ|SpellFPlayerOnly
+Effect_ID=0
+Effect=0
+Duration=0.0
+ManaUse=24
+SkillReq=Spellweaving 0.1
+Interrupt=100.0,100.0
+//snd_Spellweave_natures_fury_attack
+//snd_Spellweave_natures_fury_idle
+
+
+[Spell 607]
+DefName=sSummonFey
+Name=Summon Fey
+Sound=0
+Runes=//Alalithra
+Cast_Time=2.0
+Resources=
+Rune_Item=0
+Scroll_Item=i_Scroll_Summon_fey
+Flags=SpellFDisabled|SpellFSummon
+Effect_ID=0
+Effect=0
+Layer=Layer_SpellSummon
+Duration=0.0
+ManaUse=31
+SkillReq=Spellweaving 24.1
+Interrupt=100.0,100.0
+
+
+[Spell 608]
+DefName=sSummonFiend
+Name=Summon Fiend
+Sound=0
+Runes=//Nylisstra
+Cast_Time=2.0
+Resources=
+Rune_Item=0
+Scroll_Item=i_Scroll_Summon_fiend
+Flags=SpellFDisabled|SpellFSummon
+Effect_ID=0
+Effect=0
+Layer=Layer_SpellSummon
+Duration=0.0
+ManaUse=31
+SkillReq=Spellweaving 24.1
+Interrupt=100.0,100.0
+
+
+[Spell 609]
+DefName=sReaperForm
+Name=Reaper Form
+Sound=0
+Runes=//Tarisstree
+Cast_Time=2.5
+Resources=
+Rune_Item=i_Scroll_reaper_form
+Scroll_Item=i_Scroll_reaper_form
+Flags=SpellFGood|SpellF_poly
+Effect_ID=0
+Effect=0
+Layer=Layer_Spell_polymorph
+Duration=0.0
+ManaUse=24
+SkillReq=Spellweaving 34.1
+Interrupt=100.0,100.0
+
+ON=@Select
+IF (<Flags> & StatFPolymorph)
+ IF (<MANA> < <SERV.Spell.sReaperForm.ManaUse>)
+  SYSMESSAGE <DEFMSG.Spell_try_nomana>
+ ELSE
+  MANA -= <SERV.Spell.sReaperForm.ManaUse>
+  FINDID.<SERV.Spell.sReaperForm.Rune_Item>.REMOVE
+ ENDIF
+ return 1
+ENDIF
+
+
+[Spell 610]
+DefName=sWildfire
+Name=Wildfire
+Sound=snd_Spellweave_wildfire
+Runes=//Haelyn
+Cast_Time=2.5
+Resources=
+Rune_Item=0
+Scroll_Item=i_Scroll_wildfire
+Flags=SpellFDisabled|SpellFField|SpellFTargXYZ|SpellFHarm
+Effect_ID=0
+Effect=0
+Duration=0.0
+ManaUse=34
+SkillReq=Spellweaving 38.1
+Interrupt=100.0,100.0
+
+
+[Spell 611]
+DefName=sEssenceOfWind
+Name=Essence of Wind
+Sound=snd_Spellweave_essence_of_wind
+Runes=//Anathrae
+Cast_Time=3.0
+Resources=
+Rune_Item=0
+Scroll_Item=i_Scroll_essence_of_wind
+Flags=SpellFDisabled|SpellFCurse|SpellFHarm|SpellFResist|SpellFTargChar
+Effect_ID=0
+Effect=0
+Layer=Layer_Spell_essence_of_wind
+Duration=0.0
+ManaUse=40
+SkillReq=Spellweaving 52.1
+Interrupt=100.0,100.0
+//snd_Spellweave_essence_of_wind_cold
+
+
+[Spell 612]
+DefName=sDryadAllure
+Name=Dryad Allure
+Sound=snd_Spellweave_dryad_allure
+Runes=//Rathril
+Cast_Time=3.0
+Resources=
+Rune_Item=0
+Scroll_Item=i_Scroll_dryad_allure
+Flags=SpellFDisabled|SpellFTargChar
+Effect_ID=0
+Effect=0
+Layer=Layer_Spell_dryad_allure
+Duration=0.0
+ManaUse=40
+SkillReq=Spellweaving 52.1
+Interrupt=100.0,100.0
+//snd_Spellweave_dryad_allure_fail
+
+
+[Spell 613]
+DefName=sEtherealVoyage
+Name=Ethereal Voyage
+Sound=snd_Spellweave_ethereal_voyage
+Runes=//Orlavdra
+Cast_Time=3.5
+Resources=
+Rune_Item=0
+Scroll_Item=i_Scroll_ethereal_voyage
+Flags=SpellFDisabled|SpellFPlayerOnly|SpellFBless|SpellFGood
+Effect_ID=0
+Effect=0
+Layer=Layer_Spell_ethereal_voyage
+Duration=0.0
+ManaUse=60
+SkillReq=Spellweaving 66.1
+Interrupt=100.0,100.0
+
+
+[Spell 614]
+DefName=sWordOfDeath
+Name=Word of Death
+Sound=0
+Runes=//Nyraxle
+Cast_Time=3.5
+Resources=
+Rune_Item=0
+Scroll_Item=i_Scroll_word_of_death
+Flags=SpellFDisabled|SpellFPlayerOnly|SpellFTargXYZ|SpellFArea|SpellFHarm
+Effect_ID=0
+Effect=0
+Duration=0.0
+ManaUse=60
+SkillReq=Spellweaving 66.1
+Interrupt=100.0,100.0
+
+
+[Spell 615]
+DefName=sGiftOfLife
+Name=Gift of Life
+Sound=0
+Runes=//Illorae
+Cast_Time=4.0
+Resources=
+Rune_Item=0
+Scroll_Item=i_Scroll_gift_of_life
+Flags=SpellFDisabled|SpellFGood|SpellFBless
+Effect_ID=0
+Effect=0
+Layer=Layer_Spell_gift_of_life
+Duration=0.0
+ManaUse=70
+SkillReq=Spellweaving 80.1
+Interrupt=100.0,100.0
+
+
+[Spell 616]
+DefName=sArcaneEmpowerment
+Name=Arcane Empowerment
+Sound=snd_Spellweave_arcane_empowerment
+Runes=//Aslavdra
+Cast_Time=4.0
+Resources=
+Rune_Item=0
+Scroll_Item=i_Scroll_arcane_empowerment
+Flags=SpellFDisabled|SpellFTargChar|SpellFGood|SpellFBless
+Effect_ID=0
+Effect=0
+Layer=Layer_Spell_arcane_empowerment
+Duration=0.0
+ManaUse=70
+SkillReq=Spellweaving 80.1
+Interrupt=100.0,100.0
+//snd_Spellweave_arcane_empowerment_end
+
+
+[EOF]

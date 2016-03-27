@@ -1,0 +1,426 @@
+///////////////////////
+// Necromancy Spells //
+///////////////////////
+
+
+[Spell 101]
+DefName=sAnimateDeadAOS
+Name=Animate Dead
+Sound=snd_Spell_animate_dead
+Runes=.Uus Corp
+Cast_Time=4.0
+Resources=iDaemonBlood,iGraveDust
+Rune_Item=i_Rune_animate_dead
+Scroll_Item=i_Scroll_animate_dead
+Flags=SpellFTargItem|SpellFGood|SpellFFxTarg|SpellFPlayerOnly|SpellF_targ_no_pLayer|SpellF_targ_no_npc
+Effect_ID=i_fx_sparkle
+Effect=0
+Layer=Layer_SpellSummon
+Duration=0
+ManaUse=23
+SkillReq=Necromancy 40.0
+Interrupt=100.0,40.0
+Prompt_Msg=@0,,2 1061083//"Animate what corpse?"
+
+
+[Spell 102]
+DefName=sBloodOath
+Name=Blood Oath
+Sound=snd_SpellCurse
+Runes=.In Jux Mani Xen
+Cast_Time=1.5
+Resources=iDaemonBlood
+Rune_Item=i_Rune_blood_oath
+Scroll_Item=i_Scroll_blood_oath
+Flags=SpellFDirAnim|SpellFTargChar|SpellFHarm|SpellFFxTarg|SpellFNoUnparalyze
+Effect_ID=i_fx_curse
+Effect=0
+Duration=0
+ManaUse=13
+SkillReq=Necromancy 20.0
+Interrupt=100.0,20.0
+Prompt_Msg=Target a creature to put this curse on.
+
+
+[Spell 103]
+DefName=sCorpseSkin
+Name=Corpse Skin
+Sound=snd_SpellCurse
+Runes=.In Aglo Corp Yelm
+Cast_Time=2.0
+Resources=iBatWing,iGraveDust
+Rune_Item=i_Rune_corpse_skin
+Scroll_Item=i_Scroll_corpse_skin
+Flags=SpellFDirAnim|SpellFTargChar|SpellFHarm|SpellFFxTarg|SpellFNoUnparalyze
+Effect_ID=i_fx_sparkle
+Effect=10,15
+Layer=Layer_Spell_corpse_skin
+Duration=0
+ManaUse=11
+SkillReq=Necromancy 20.0
+Interrupt=100.0,20.0
+Prompt_Msg=Target a creature to put this curse on.
+
+
+[Spell 104]
+DefName=sCurseWeapon
+Name=Curse Weapon
+Sound=snd_SpellCurse
+Runes=.An Sanct Gra Char
+Cast_Time=1.0
+Resources=iPigIron
+Rune_Item=i_rune_Curse_weapon
+Scroll_Item=i_Scroll_Curse_weapon
+Flags=SpellFGood
+Effect_ID=i_fx_sparkle
+Effect=10,15
+Layer=Layer_SpellCurse_weapon
+Duration=0
+ManaUse=7
+SkillReq=Necromancy 0.1
+Interrupt=100.0,0.0
+
+
+[Spell 105]
+DefName=sEvilOmen
+Name=Evil Omen
+Sound=snd_SpellCurse
+Runes=.Pas Tym An Sanct
+Cast_Time=1.0
+Resources=iBatWing,iNoxCrystal
+Rune_Item=i_Rune_evil_omen
+Scroll_Item=i_Scroll_evil_omen
+Flags=SpellFDirAnim|SpellFTargChar|SpellFHarm|SpellFFxTarg|SpellFNoUnparalyze
+Effect_ID=i_fx_curse
+Effect=10,15
+Layer=Layer_Spell_evil_omen
+Duration=0
+ManaUse=11
+SkillReq=Necromancy 20.0
+Interrupt=60.0,20.0
+Prompt_Msg=Target a creature to put this curse on.
+
+
+[Spell 106]
+DefName=sHorrificBeast
+Name=Horrific Beast
+Sound=snd_SpellBless
+Runes=.Rel Xen Vas Bal
+Cast_Time=4.0
+Resources=iBatWing,iDaemonBlood
+Rune_Item=i_Rune_horrific_beast
+Scroll_Item=i_Scroll_horrific_beast
+Flags=SpellFGood|SpellFPlayerOnly|SpellF_poly
+Effect_ID=i_fx_smoke
+Effect=5,15
+Layer=Layer_Spell_polymorph
+Duration=0
+ManaUse=11
+SkillReq=Necromancy 40.0
+Interrupt=100.0,40.0
+
+ON=@Select
+IF (<Flags> & StatFPolymorph)
+ IF (<MANA> < <SERV.Spell.sHorrificBeast.ManaUse>)
+  SYSMESSAGE <DEFMSG.Spell_try_nomana>
+ ELSE
+  MANA -= <SERV.Spell.sHorrificBeast.ManaUse>
+  FINDID.<SERV.Spell.sHorrificBeast.Rune_Item>.REMOVE
+ ENDIF
+ return 1
+ENDIF
+
+
+[Spell 107]
+DefName=sLichForm
+Name=Lich Form
+Sound=snd_SpellBless
+Runes=.Rel Xen Corp Ort
+Cast_Time=4.0
+Resources=iNoxCrystal,iDaemonBlood,iGraveDust
+Rune_Item=i_Rune_lich_form
+Scroll_Item=i_Scroll_lich_form
+Flags=SpellFGood|SpellFPlayerOnly|SpellF_poly
+Effect_ID=i_fx_smoke
+Effect=5,15
+Layer=Layer_Spell_polymorph
+Duration=0
+ManaUse=23
+SkillReq=Necromancy 70.0
+Interrupt=100.0,70.0
+
+ON=@Select
+IF (<Flags> & StatFPolymorph)
+ IF (<MANA> < <SERV.Spell.sLichForm.ManaUse>)
+  SYSMESSAGE <DEFMSG.Spell_try_nomana>
+ ELSE
+  MANA -= <SERV.Spell.sLichForm.ManaUse>
+  FINDID.<SERV.Spell.sLichForm.Rune_Item>.REMOVE
+ ENDIF
+ return 1
+ENDIF
+
+
+[Spell 108]
+DefName=sMindRot
+Name=Mind Rot
+Sound=snd_Spell_feeblemind
+Runes=.Wis An Ben
+Cast_Time=1.5
+Resources=iBatWing,iDaemonBlood,iPigIron
+Rune_Item=i_Rune_mind_rot
+Scroll_Item=i_Scroll_mind_rot
+Flags=SpellFDirAnim|SpellFTargChar|SpellFHarm|SpellFFxTarg|SpellFNoUnparalyze
+Effect_ID=i_fx_curse
+Effect=5,15
+Layer=Layer_Spell_mind_rot
+Duration=0
+ManaUse=17
+SkillReq=Necromancy 30.0
+Interrupt=100.0,30.0
+Prompt_Msg=Target a creature to put this curse on.
+
+
+[Spell 109]
+DefName=sPainSpike
+Name=Pain Spike
+Sound=snd_SpellCurse
+Runes=.@0 In Sar
+Cast_Time=2.0
+Resources=iGraveDust,iPigIron
+Rune_Item=i_Rune_pain_spike
+Scroll_Item=i_Scroll_pain_spike
+Flags=SpellFDirAnim|SpellFTargChar|SpellFHarm|SpellFFxTarg
+Effect_ID=i_fx_curse
+Effect=0
+Layer=Layer_Spell_pain_spike
+Duration=0
+ManaUse=5
+SkillReq=Necromancy 20.0
+Interrupt=100.0,20.0
+
+
+[Spell 110]
+DefName=sPoisonStrike
+Name=Poison Strike
+Sound=snd_Spell_poison
+Runes=.In Vas Nox
+Cast_Time=2.0
+Resources=iNoxCrystal
+Rune_Item=i_Rune_poison_strike
+Scroll_Item=i_Scroll_poison_strike
+Flags=SpellFDirAnim|SpellFTargChar|SpellFHarm|SpellFResist|SpellFNoUnparalyze|SpellFArea|SpellFFxTarg
+Effect_ID=//FIXME
+Effect=36,40
+//Layer=Layer_flag_poison	// TODO: Necromancers with > 60.0 skill have a 3-9% chance to poison the target, using .poison x,x would be enough, no need for Layer flag?
+Duration=0
+ManaUse=17
+SkillReq=Necromancy 50.0
+Interrupt=100.0,50.0
+Prompt_Msg=Who will you poison strike?
+
+ON=@Success
+local.AreaRadius=2
+
+ON=@Effect
+if (<IsItem>)
+	return 1
+endif
+if (<src.act>==<uid>)
+	local.damage=<eval <r36,40> + ((300 + (<src.SpiritSpeak> * 9)) / 1000)>
+	damage=<dlocal.damage>,<src>,dam_magic,0,0,0,100,0	// Poison damage
+	if (<src.Poisoning> > 600)	// Necromancers having more than 60.0 skill points in Poisoning skill have a 3% to 9% chance (scales with poison skill) to poison their target.
+		local.chances = <eval 3 + <muldiv <src.poisoning>/10,3,60>>	// with 60 points you have a base of 3% to poison target, each 10 points until 120 represents another 1% chance
+		if (<local.chances> < <r100>)	// If caster got enough chances
+			Poison <src.Poisoning>	// poison me 
+		endif
+	endif
+else
+	local.distance = <src.act.distance>
+	local.dam=<eval <local.damage> / (<local.distance>+1)>
+	damage=<dlocal.dam>,<src>,dam_magic,0,0,0,100,0	// Poison damage
+endfor
+
+
+// s_Strangle
+// Chokes an enemy with poison, doing more damage as their Stamina drops.
+// The power of the Effect is equal to the Caster's Spirit Speak skill divided by 10.
+// The minimum power is 4.
+// The power number determines the Duration and base damage of the Strangle Effect.
+
+// Each point of power causes the Strangle Effect to damage the target one time.
+// -The first round of damage is done after five seconds.
+// -Four seconds later, the second round hits.
+// -Each round after that comes one second more quickly than the last, until there is only 1 second between hits.
+// Damage is calculated as follows: 
+// -The range of damage is between power - 2 and power + 1.
+// -Then the damage is multiplied based on the victim's current and maximum Stamina values.
+// -The more the victim is fatigued, the more damage this Spell deals.
+// -The damage is multiplied by the result of this formula:
+	// -3 - (Cur Stamina ÷ Max Stamina x 2. For example, suppose the base damage for a Strangle hit is 5. The target currently has 40 out of a maximum of 80 stamina. Final damage for that hit is: 5 x (3 - (40 ÷ 80 x 2) = 10.
+[Spell 111]
+DefName=sStrangle
+Name=Strangle
+Sound=snd_SpellCurse
+Runes=.In Bal Nox
+Cast_Time=2.5
+Resources=iNoxCrystal,iDaemonBlood
+Rune_Item=i_Rune_strangle
+Scroll_Item=i_Scroll_strangle
+Flags=SpellFDirAnim|SpellFTargChar|SpellFHarm|SpellFFxTarg|SpellFNoUnparalyze
+Effect_ID=i_fx_curse
+Effect=0
+Layer=Layer_Spell_strangle
+Duration=0
+ManaUse=29
+SkillReq=Necromancy 65.0
+Interrupt=100.0,65.0
+
+
+[Spell 112]
+DefName=sSummonFamiliar
+Name=Summon Familiar
+Sound=snd_SpellSummon_creature
+Runes=.Kal Xen Bal
+Cast_Time=4.0
+Resources=iBatWing,iGraveDust,iDaemonBlood
+Rune_Item=i_rune_Summon_familiar
+Scroll_Item=i_Scroll_Summon_familiar
+Flags=SpellFDirAnim|SpellFSummon|SpellFPlayerOnly
+//Effect_ID=//FIXME
+Effect=0
+Layer=Layer_SpellSummon
+Duration=120.0,240.0
+ManaUse=17
+SkillReq=Necromancy 30.0
+Interrupt=100.0,70.0
+
+
+[Spell 113]
+DefName=sVampiricEmbrace
+Name=Vampiric Embrace
+Sound=snd_SpellBless
+Runes=.Rel Xen An Sanct
+Cast_Time=4.0
+Resources=iBatWing,iNoxCrystal,iPigIron
+Rune_Item=i_Rune_vampiric_embrace
+Scroll_Item=i_Scroll_vampiric_embrace
+Flags=SpellFGood|SpellFPlayerOnly|SpellF_poly
+Effect_ID=i_fx_smoke
+Effect=5,15
+Layer=Layer_Spell_polymorph
+Duration=0
+ManaUse=23
+SkillReq=Necromancy 99.0
+Interrupt=100.0,100.0
+
+ON=@Select
+IF (<Flags> & StatFpolymorph)
+ IF (<MANA> < <SERV.Spell.sVampiricEmbrace.ManaUse>)
+  SYSMESSAGE <DEFMSG.Spell_try_nomana>
+ ELSE
+  MANA -= <SERV.Spell.sVampiricEmbrace.ManaUse>
+  FINDID.<SERV.Spell.sVampiricEmbrace.Rune_Item>.REMOVE
+ ENDIF
+ return 1
+ENDIF
+
+
+[Spell 114]
+DefName=sVengefulSpirit
+Name=Vengeful Spirit
+Sound=snd_monster_ghost1
+Runes=.Kal Xen Bal Beh
+Cast_Time=8.0
+Resources=iBatWing,iGraveDust,iPigIron
+Rune_Item=i_Rune_vengeful_spirit
+Scroll_Item=i_Scroll_vengeful_spirit
+Flags=SpellFDirAnim|SpellFTargChar|SpellFFxTarg
+Effect_ID=i_fx_smoke
+//Effect=
+Layer=Layer_SpellSummon
+Duration=10.0,20.0
+ManaUse=41
+SkillReq=Necromancy 80.0
+Interrupt=100.0,80.0
+
+
+[Spell 115]
+DefName=sWither
+Name=Wither
+Sound=snd_wind2
+Runes=.Kal Vas An Flam
+Cast_Time=1.5
+Resources=iNoxCrystal,iGraveDust,iPigIron
+Rune_Item=i_Rune_wither
+Scroll_Item=i_Scroll_wither
+Flags=SpellFDirAnim|SpellFHarm|SpellFArea|SpellFTargChar|SpellFFxTarg
+Effect_ID=
+//FIXME
+//Effect=
+//Duration=
+ManaUse=23
+SkillReq=Necromancy 60.0
+Interrupt=100.0,60.0
+
+ON=@Success
+local.AreaRadius=4
+
+ON=@Effect	//It does more damage to good characters.
+if (!<IsChar>)
+	return 1
+endif
+if (<karma> > 1000)	// There's no much information on what is considered 'good', so we use Karma at base.
+	argn2 *=<argn2>/4	// There's no information about damage bonuses, so +25% damage for 'good' characters.
+endif
+
+
+[Spell 116]
+DefName=sWraithForm
+Name=Wraith Form
+Sound=snd_SpellBless
+Runes=.Rel Xen Um
+Cast_Time=4.0
+Resources=iNoxCrystal,iPigIron
+Rune_Item=i_Rune_wraith_form
+Scroll_Item=i_Scroll_wraith_form
+Flags=SpellFGood|SpellFPlayerOnly|SpellF_poly
+Effect_ID=i_fx_smoke
+//Effect=-1
+Layer=Layer_Spell_polymorph
+Duration=0
+ManaUse=17
+SkillReq=Necromancy 20.0
+Interrupt=100.0,20.0
+
+ON=@Select
+IF (<Flags> & StatFPolymorph)
+ IF (<MANA> < <SERV.Spell.sWraithForm.ManaUse>)
+  SYSMESSAGE <DEFMSG.Spell_try_nomana>
+ ELSE
+  MANA -= <SERV.Spell.sWraithForm.ManaUse>
+  FINDID.<SERV.Spell.sWraithForm.Rune_Item>.REMOVE
+ ENDIF
+ return 1
+ENDIF
+
+
+[Spell 117]
+DefName=sExorcism
+Name=Exorcism
+Sound=
+Runes=.Ort Corp Grav
+Cast_Time=2.0
+Resources=iNoxCrystal,iGraveDust
+Rune_Item=i_Rune_exorcism
+Scroll_Item=i_Scroll_exorcism
+Flags=
+Effect_ID=0
+Effect=0
+Duration=0
+ManaUse=40
+SkillReq=Necromancy 80.0
+Interrupt=100.0,1.0
+
+
+[EOF]

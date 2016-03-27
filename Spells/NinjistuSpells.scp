@@ -1,0 +1,162 @@
+/////////////////////
+// Ninjitsu Spells //
+/////////////////////
+
+
+[Spell 501]
+DefName=sFocusAttack
+Name=Focus Attack
+Sound=snd_Ninjitsu_focus_attack
+Runes=
+Cast_Time=
+Resources=
+Rune_Item=i_Rune_focus_attack
+Scroll_Item=
+Flags=
+Effect_ID=
+Effect=
+Duration=
+ManaUse=10
+SkillReq=Ninjitsu 30.0
+Interrupt=0.0,0.0
+
+
+[Spell 502]
+DefName=sDeathStrike
+Name=Death Strike
+Sound=//Scripted because it is different for males and females
+Runes=
+Cast_Time=
+Resources=
+Rune_Item=i_Rune_death_strike
+Scroll_Item=0
+Flags=
+Effect_ID=
+Effect=
+Duration=
+ManaUse=30
+SkillReq=Ninjitsu 85.0
+Interrupt=0.0,0.0
+ON=@Success
+IF (<SRC.f_isfemale>)
+SRC.Sound snd_Ninjitsu_deathstrike_f
+ELSE
+SRC.Sound snd_Ninjitsu_deathstrike_m
+ENDIF
+
+
+[Spell 503]
+DefName=sAnimalForm
+Name=Animal Form
+Sound=0
+Runes=
+Cast_Time=
+Resources=
+Rune_Item=i_Rune_animal_form
+Scroll_Item=0
+Flags=
+Effect_ID=
+Effect=
+Duration=
+ManaUse=10
+SkillReq=Ninjitsu 0.0
+Interrupt=0.0,0.0
+
+
+[Spell 504]
+DefName=sKiAttack
+Name=Ki Attack
+Sound=snd_Ninjitsu_ki_attack
+Runes=
+Cast_Time=
+Resources=
+Rune_Item=i_Rune_ki_attack
+Scroll_Item=0
+Flags=
+Effect_ID=
+Effect=
+Duration=
+ManaUse=
+SkillReq=Ninjitsu 0.0
+Interrupt=0.0,0.0
+
+
+[Spell 505]
+DefName=sSurpriseAttack
+Name=Surprise Attack
+Sound=//Scripted because its different depending on gender
+Runes=
+Cast_Time=
+Resources=
+Rune_Item=i_Rune_suprise_attack
+Scroll_Item=0
+Flags=
+Effect_ID=
+Effect=
+Duration=
+ManaUse=20
+SkillReq=Ninjitsu 60.0
+Interrupt=0.0,0.0
+ON=@Success
+IF (<SRC.f_isfemale>)
+SRC.Sound snd_Ninjitsu_suprise_attack_f
+ELSE
+SRC.Sound snd_Ninjitsu_suprise_attack_m
+ENDIF
+
+
+[Spell 506]
+DefName=sBackstab
+Name=Backstab
+Sound=0
+Runes=
+Cast_Time=
+Resources=
+Rune_Item=i_Rune_backstab
+Scroll_Item=0
+Flags=
+Effect_ID=
+Effect=
+Duration=
+ManaUse=30
+SkillReq=Ninjitsu 40.0
+Interrupt=0.0,0.0
+
+
+[Spell 507]
+DefName=sShadowjump
+Name=Shadowjump
+Sound=snd_Ninjitsu_shadowjump
+Runes=
+Cast_Time=
+Resources=
+Rune_Item=i_Rune_shadowjump
+Scroll_Item=0
+Flags=
+Effect_ID=
+Effect=
+Duration=
+ManaUse=15
+SkillReq=Ninjitsu 50.0
+Interrupt=0.0,0.0
+
+
+[Spell 508]
+DefName=sMirrorImage
+Name=Mirror Image
+Sound=snd_Ninjitsu_mirror_image
+Runes=
+Cast_Time=
+Resources=
+Rune_Item=i_Rune_mirror_image
+Scroll_Item=0
+Flags=
+Effect_ID=
+Effect=
+Duration=
+ManaUse=10
+SkillReq=Ninjitsu 20.0
+Interrupt=0.0,0.0
+
+
+[EOF]

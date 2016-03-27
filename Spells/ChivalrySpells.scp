@@ -1,0 +1,201 @@
+/////////////////////
+// Chivalry Spells //
+/////////////////////
+
+
+[Spell 201]
+DefName=sCleanseByFire
+Name=Cleanse by Fire
+Sound=0
+Runes=.@,,2 1060718
+Cast_Time=1.0
+Resources=
+//Rune_Item=
+Scroll_Item=i_Scroll_cleanse_by_fire
+Flags=SpellFTargChar|SpellFFxTarg|SpellFGood|SpellFPlayerOnly
+Effect_ID=i_fx_bless_Effect
+Effect=10
+Duration=0
+ManaUse=10
+TithingUse=10
+SkillReq=Chivalry 5.0
+Interrupt=100.0,55.0
+Prompt_Msg=Who shall you cure?
+
+
+[Spell 202]
+DefName=sCloseWounds
+Name=Close Wounds
+Sound=0202
+Runes=.@,,2 1060719
+Cast_Time=1.5
+Resources=
+//Rune_Item=0
+//Scroll_Item=0
+Flags=SpellFTargChar|SpellFFxTarg|SpellFGood|SpellFPlayerOnly|SpellFHeal
+Effect_ID=i_fx_heal_Effect
+Effect=10
+Duration=0
+ManaUse=10
+TithingUse=10
+SkillReq=SKILL_Chivalry 0.1
+Interrupt=0.0,0.0
+Prompt_Msg=Who shall you heal?
+
+
+[Spell 203]
+DefName=sConsecrateWeapon
+Name=Consecrate Weapon
+Sound=
+Runes=.@,,2 1060720
+Cast_Time=0.1
+Resources=
+//Rune_Item=0
+//Scroll_Item=0
+Flags=SpellFPlayerOnly|SpellF_nofreezeoncast
+Effect_ID=
+Effect=10
+Layer=Layer_Spell_consecrate_weapon
+Duration=0.0
+ManaUse=10
+TithingUse=10
+SkillReq=SKILL_Chivalry 15.0
+Interrupt=0.0,0.0
+
+
+[Spell 204]
+DefName=sDispelEvil
+Name=Dispel Evil
+Sound=snd_Spell_dispel
+Runes=.@,,2 1060721
+Cast_Time=0.3
+Resources=
+//Rune_Item=0
+//Scroll_Item=0
+Flags=SpellFPlayerOnly|SpellF_nofreezeoncast
+Effect_ID=
+Effect=10
+Duration=0.0
+ManaUse=10
+TithingUse=10
+SkillReq=SKILL_Chivalry 35.0
+Interrupt=0.0,0.0
+
+
+[Spell 205]
+DefName=sDivineFury
+Name=Divine Fury
+Sound=020F
+Runes=.@,,2 1060722
+Cast_Time=1.0
+Resources=
+//Rune_Item=0
+//Scroll_Item=0
+Flags=SpellFPlayerOnly|SpellF_nofreezeoncast
+Effect_ID=0376A
+Effect=10
+Layer=Layer_Spell_divine_fury
+Duration=0.0
+ManaUse=15
+TithingUse=10
+SkillReq=SKILL_Chivalry 25.0
+Interrupt=0.0,0.0
+
+
+[Spell 206]
+DefName=sEnemyOfOne
+Name=Enemy of One
+Sound=0f5
+Runes=.@,,2 1060723
+Cast_Time=0.5
+Resources=
+//Rune_Item=0
+//Scroll_Item=0
+Flags=SpellFPlayerOnly|SpellF_nofreezeoncast
+Effect_ID=0376A
+Effect=10
+Layer=Layer_Spell_enemy_of_one
+Duration=0.0
+ManaUse=20
+TithingUse=10
+SkillReq=Chivalry 45.0
+Interrupt=0.0,0.0
+
+
+[Spell 207]
+DefName=sHolyLight
+Name=Holy Light
+Sound=snd_Spell_light
+Runes=.@,,2 1060724
+Cast_Time=1.8
+Resources=
+//Rune_Item=0
+//Scroll_Item=0
+Flags=SpellFPlayerOnly|SpellF_nofreezeoncast
+Effect_ID=
+Effect=10
+Duration=0.0
+ManaUse=10
+TithingUse=10
+SkillReq=Chivalry 55.0
+Interrupt=0.0,0.0
+
+
+[Spell 208]
+DefName=sNobleSacrifice
+Name=Noble Sacrifice
+Sound=
+Runes=.@,,2 1060725
+Cast_Time=1.5
+Resources=
+//Rune_Item=0
+//Scroll_Item=0
+Flags=SpellFPlayerOnly|SpellF_nofreezeoncast|SpellFHeal
+Effect_ID=
+Effect=30
+Duration=0.0
+ManaUse=20
+TithingUse=30
+SkillReq=SKILL_Chivalry 65.0
+Interrupt=0.0,0.0
+
+
+[Spell 209]
+DefName=sRemoveCurse
+Name=Remove Curse
+Sound=
+Runes=.@,,2 1060726
+Cast_Time=1.5
+Resources=
+//Rune_Item=0
+//Scroll_Item=0
+Flags=SpellFPlayerOnly|SpellFTargChar|SpellF_nofreezeoncast
+Effect_ID=
+Effect=10
+Duration=0.0
+ManaUse=20
+TithingUse=30
+SkillReq=SKILL_Chivalry 5.0
+Interrupt=0.0,0.0
+
+
+[Spell 210]
+DefName=sSacredJourney
+Name=Sacred Journey
+Sound=
+Runes=.@,,2 1060727
+Cast_Time=1.5
+Resources=
+//Rune_Item=0
+//Scroll_Item=0
+Flags=SpellFPlayerOnly|SpellFTargItem|SpellF_nofreezeoncast
+Effect_ID=
+Effect=15
+Duration=0.0
+ManaUse=10
+TithingUse=15
+SkillReq=SKILL_Chivalry 15.0
+Interrupt=0.0,0.0
+
+
+[EOF]

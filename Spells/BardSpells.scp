@@ -1,0 +1,114 @@
+/////////////////
+// Bard Spells //
+/////////////////
+
+
+[Spell 701]
+DefName=sInspire
+Name=Inspire
+Sound=0
+Runes=
+Cast_Time=
+Resources=
+Rune_Item=0
+Scroll_Item=0
+Flags=
+Effect_ID=
+Effect=
+Duration=
+ManaUse=16
+SkillReq=Provocation 900
+Interrupt=0.0,0.0
+
+
+[Spell 702]
+DefName=sInvigorate
+Name=Invigorate
+Sound=0
+Runes=
+Cast_Time=
+Resources=
+Rune_Item=0
+Scroll_Item=0
+Flags=
+Effect_ID=
+Effect=
+Duration=
+ManaUse=22
+SkillReq=Provocation 900
+Interrupt=0.0,0.0
+
+
+[Spell 703]
+DefName=sResilience
+Name=Resilience
+Sound=0
+Runes=
+Cast_Time=
+Resources=
+Rune_Item=0
+Scroll_Item=0
+Flags=
+Effect_ID=
+Effect=
+Duration=
+ManaUse=16
+SkillReq=Peacemaking 900
+Interrupt=0.0,0.0
+
+
+[Spell 704]
+DefName=sPerseverance
+Name=Perseverance
+Sound=0
+Runes=
+Cast_Time=
+Resources=
+Rune_Item=0
+Scroll_Item=0
+Flags=
+Effect_ID=
+Effect=
+Duration=
+ManaUse=18
+SkillReq=Peacemaking 900
+Interrupt=0.0,0.0
+
+
+[Spell 705]
+DefName=sTribulation
+Name=Tribulation
+Sound=0
+Runes=
+Cast_Time=
+Resources=
+Rune_Item=0
+Scroll_Item=0
+Flags=
+Effect_ID=
+Effect=
+Duration=
+ManaUse=24
+SkillReq=Discordance 900
+Interrupt=0.0,0.0
+
+
+[Spell 706]
+DefName=sDespair
+Name=Despair
+Sound=0
+Runes=
+Cast_Time=
+Resources=
+Rune_Item=0
+Scroll_Item=0
+Flags=
+Effect_ID=
+Effect=
+Duration=
+ManaUse=26
+SkillReq=Discordance 900
+Interrupt=0.0,0.0
+
+
+[EOF]
