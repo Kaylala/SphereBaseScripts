@@ -1,3 +1,70 @@
+[ItemDef 0eea]
+DefName=iCopperCoin
+Type=tCoin
+Value=1
+Weight=0
+DupeList=0eeb,0eec
+
+Category=Base Items
+Subsection=Currency
+Description=Copper Coin
+
+On=@Create
+Attr=AttrIdentified
+
+[ItemDef 0eeb]
+//copper coins
+DupeItem=0eea
+
+[ItemDef 0eec]
+//copper coins
+DupeItem=0eea
+
+[ItemDef 0eed]
+DefName=iGold
+Type=tGold
+Value=1
+Weight=0
+DupeList=0eee,0eef
+
+Category=Base Items
+Subsection=Currency
+Description=Gold Coin
+
+On=@Create
+Attr=AttrIdentified
+
+[ItemDef 0eee]
+//gold coins
+DupeItem=0eed
+
+[ItemDef 0eef]
+//gold coins
+DupeItem=0eed
+
+[ItemDef 0ef0]
+DefName=iSilverCoin
+Type=tCoin
+Value=1
+Weight=0
+DupeList=0ef1,0ef2
+
+Category=Base Items
+Subsection=Currency
+Description=Silver Coin
+
+On=@Create
+Attr=AttrIdentified
+
+[ItemDef 0ef1]
+//silver coins
+DupeItem=0ef0
+
+[ItemDef 0ef2]
+//silver coins
+DupeItem=0ef0
+
+
 [ItemDef 01f19]
 DefName=iMagicalCrystal1
 Name=magical crystal

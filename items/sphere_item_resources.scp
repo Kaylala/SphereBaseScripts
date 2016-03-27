@@ -20,72 +20,6 @@ DupeItem=01bd1
 //feathers 2
 DupeItem=01bd1
 
-[ItemDef 0eea]
-DefName=iCopperCoin
-Type=tCoin
-Value=1
-Weight=0
-DupeList=0eeb,0eec
-
-Category=Base
-Subsection=Currency
-Description=Copper Coin
-
-On=@Create
-Attr=AttrIdentified
-
-[ItemDef 0eeb]
-//copper coins
-DupeItem=0eea
-
-[ItemDef 0eec]
-//copper coins
-DupeItem=0eea
-
-[ItemDef 0eed]
-DefName=iGold
-Type=tGold
-Value=1
-Weight=0
-DupeList=0eee,0eef
-
-Category=Base
-Subsection=Currency
-Description=Gold Coin
-
-On=@Create
-Attr=AttrIdentified
-
-[ItemDef 0eee]
-//gold coins
-DupeItem=0eed
-
-[ItemDef 0eef]
-//gold coins
-DupeItem=0eed
-
-[ItemDef 0ef0]
-DefName=iSilverCoin
-Type=tCoin
-Value=1
-Weight=0
-DupeList=0ef1,0ef2
-
-Category=Base
-Subsection=Currency
-Description=Silver Coin
-
-On=@Create
-Attr=AttrIdentified
-
-[ItemDef 0ef1]
-//silver coins
-DupeItem=0ef0
-
-[ItemDef 0ef2]
-//silver coins
-DupeItem=0ef0
-
 
 [ItemDef 0f0f]
 DefName=iGemStarSapphire
@@ -525,35 +459,7 @@ DupeItem=0223a
 DupeItem=0223a
 
 
-[ItemDef 026b1]
-DefName=iDragonscale
-Name=dragon scale%s
-Type=tNormal
-Value=17
-Weight=0.1
-Category=Resources
-Subsection=Animal
-Description=Dragon Scales
 
-[ItemDef 026b2]
-//Dragon Scales
-DupeItem=026b1
-
-[ItemDef 026b3]
-//Dragon Scales
-DupeItem=026b1
-
-[ItemDef 026b4]
-//Dragon Scales
-DupeItem=026b1
-
-[ItemDef 026b5]
-//Dragon Scales
-DupeItem=026b1
-
-[ItemDef 026b6]
-//Dragon Scales
-DupeItem=026b1
 
 
 ///////////////////////////
@@ -581,13 +487,6 @@ color_o_sandstone 0501
 color_o_marble 0b8b //0b8c,05b2
 color_o_jade 0505 //0506,0b83,0b93,0b94,0b95,0b96
 color_o_bloodstone 05b5 //0b85
-
-color_dragonscale_black 083a
-color_dragonscale_blue 05
-color_dragonscale_green 030b
-color_dragonscale_red 026
-color_dragonscale_white 0482
-color_dragonscale_yellow 035
 
 
 [ItemDef iLogBamboo]
