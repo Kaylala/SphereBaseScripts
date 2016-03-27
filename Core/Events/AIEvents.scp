@@ -45,6 +45,12 @@ If (<ArgN1> == sHeal) || (<ArgN1> == sGreaterHeal) || (<ArgN1> == sParalyze) || 
  Return 1
 EndIf
 
+If (<Src.Flags> @StatFConjured)
+ If !(<R3>)
+  Src.SpellEffect sDispel,1500,<UID>
+ EndIf
+EndIf
+
 On=@GetHit
 If (<IsPet>)
  If (<Owner.Distance> <= 7)
@@ -55,6 +61,12 @@ If (<IsPet>)
   Else
    Owner.Mana -= <ArgN1>
   EndIf
+ EndIf
+EndIf
+
+If (<Src.Flags> @StatFConjured)
+ If !(<R3>)
+  Src.SpellEffect sDispel,1500,<UID>
  EndIf
 EndIf
 
@@ -69,6 +81,12 @@ If !(<R19>)
  EndIf
 EndIf
 
+If (<Src.Flags> @StatFConjured)
+ If !(<R3>)
+  Src.SpellEffect sDispel,1500,<UID>
+ EndIf
+EndIf
+
 On=@DeathCorpse
 NewLoot=GolemLoot
 
@@ -76,8 +94,14 @@ NewLoot=GolemLoot
 [Events AIExodusOverseer]
 // Immune to level 5 poison and below.
 On=@SpellEffect
-If (<Argn1> == sPoison)
+If (<Argn1> == sPoison) || (<Argn1> == sParalyze)
  Return 1
+EndIf
+
+If (<Src.Flags> @StatFConjured)
+ If !(<R3>)
+  Src.SpellEffect sDispel,1500,<UID>
+ EndIf
 EndIf
 
 On=@GetHit
@@ -90,6 +114,19 @@ If (<Src.Action> == Skill_Archery) || (<Src.Action> == Skill_Throwing)
  EndIf
 EndIf
 
+If (<Src.Flags> @StatFConjured)
+ If !(<R3>)
+  Src.SpellEffect sDispel,1500,<UID>
+ EndIf
+EndIf
+
+On=@Hit
+If (<Src.Flags> @StatFConjured)
+ If !(<R3>)
+  Src.SpellEffect sDispel,1500,<UID>
+ EndIf
+EndIf
+
 On=@DeathCorpse
 NewLoot=ExodusOverseerLoot
 
@@ -97,7 +134,7 @@ NewLoot=ExodusOverseerLoot
 [Events AIExodusMinion]
 // Immune to level 5 poison and below.
 On=@SpellEffect
-If (<Argn1> == sPoison)
+If (<Argn1> == sPoison) || (<Argn1> == sParalyze)
  Return 1
 EndIf
 
@@ -118,7 +155,7 @@ NewLoot=ExodusMinionLoot
 [Events AIExodusMinionLord]
 // Immune to level 5 poison and below.
 On=@SpellEffect
-If (<Argn1> == sPoison)
+If (<Argn1> == sPoison) || (<Argn1> == sParalyze)
  Return 1
 EndIf
 
