@@ -1,0 +1,41 @@
+[ItemDef 01EA8]
+DefName=iWinch
+Name=winch
+NameLoc=1027848
+Weight=255
+DupeList=01EAC
+
+Category=Structures
+Subsection=Other: Miscellaneous
+Description=Winch (South)
+
+// Winch Animation (South)
+[ItemDef 01ea9]
+NameLoc=1027849
+
+// Winch Animation (South)
+[ItemDef 01eaa]
+NameLoc=1027850
+
+// Winch Animation (South)
+[ItemDef 01eab]
+NameLoc=1027851
+
+[ItemDef 01EAC]
+NameLoc=1027852
+DupeItem=01ea8
+
+// Winch Animation (East)
+[ItemDef 01ead]
+NameLoc=1027853
+
+// Winch Animation (East)
+[ItemDef 01eae]
+NameLoc=1027854
+
+// Winch Animation (East)
+[ItemDef 01eaf]
+NameLoc=1027855
+
+
+[EOF]

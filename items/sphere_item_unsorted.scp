@@ -14,21 +14,6 @@ Category=Miscellaneous
 Subsection=Bad Tiles
 Description=No Draw Tile
 
-[ItemDef 020d]
-// An Acid Proof Rope is used to enter the Palace of Paroxysmus. It can be
-// crafted by Carpenters who have access to the elven city of Heartwood and
-// have found the proper recipe.
-DefName=iRopeAcidProof
-Name=acid proof rope
-Type=tNormal
-Value=12
-Weight=2.0
-Resources=2 iSwitchNormal,2 iPotionStrengthgreat,1 iScrollProtection
-SkillMake=carpentry 80.0,tCarpentry
-Category=Quest
-Subsection=Palace of Paroxysmus
-Description=Rope (acid proof)
-
 [ItemDef 021c]
 // The Blessing is a quest item thats used to access the peerless Lady Melisande.
 // It is earned by slaying Saliva, a Named harpy that resides within a special
@@ -45,53 +30,63 @@ Category=Quest
 Subsection=Quest 4
 Description=Dryad's Blessing
 
+
 [ItemDef 023a]
 //Found on speckled scorpions
 DefName=iPoisonedSacs
 Name=speckled poisoned sacs
+NameLoc=1020570
 Type=tNormal
-Value=100
-Weight=1.0
+Weight=1
+
 Category=Resources
 Subsection=Animal
 Description=Speckled Poisoned Sacs
 
+
 [ItemDef 023b]
-DefName=iBauble
+DefName=iAriellesBauble
 Name=Arielle's bauble
+NameLoc=1020571
 Type=tNormal
-Value=100
-Weight=0.1
+Weight=1
+
 Category=Quest
 Subsection=The Joys of Life
-Description=Arielle's bauble
+Description=Arielle's Bauble
+
 
 [ItemDef 023c]
-DefName=iBadgeSerpentFang
+DefName=iSerpentFangBadge
 Name=serpent fang badge
+NameLoc=1020572
 Type=tNormal
-Value=100
-Weight=0.1
+Weight=1
+
 Category=Quest
 Subsection=Citadel
 Description=Serpent Fang Badge
 
+
 [ItemDef 023d]
 DefName=iBadgeTigerClaw
 Name=tiger claw badge
+NameLoc=1020573
 Type=tNormal
-Value=100
-Weight=0.1
+Weight=1
+
 Category=Quest
 Subsection=Citadel
 Description=Tiger Claw Badge
 
+
 [ItemDef 023e]
 DefName=iBadgeDragonFlame
 Name=dragon flame badge
+NameLoc=1020574
 Type=tNormal
-Value=100
-Weight=0.1
+Weight=1
+
 Category=Quest
 Subsection=Citadel
 Description=Dragon Flame Badge
@@ -99,19 +94,22 @@ Description=Dragon Flame Badge
 [ItemDef 023f]
 DefName=iProtectorEssence
 Name=Protector's essence
+NameLoc=1020575
 Type=tNormal
 Value=100
-Weight=0.1
+Weight=1
+
 Category=Quest
 Subsection=Prism of Light?
 Description=Protector's Essence
 
 [ItemDef 0240]
 DefName=iPowerCrystal
-Name=power crystal
+Name=crystal shards
+NameLoc=1020576
 Type=tNormal
 Value=25
-Weight=0.1
+Weight=1
 Category=Resources
 Subsection=Mineral
 Description=Power Crystal
@@ -1682,38 +1680,6 @@ Category=Provisions - GM Items
 Subsection=Special Items
 Description=Large Worldgem Bit
 
-
-[ItemDef 01f19]
-DefName=iCrystalGreenBig
-Weight=1.0
-Category=Provisions - Alchemy & Magic
-Subsection=Crystals
-Description=Green Crystal 1
-DupeList=01f1a,01f1b
-
-[ItemDef 01f1a]
-//green magical crystal
-DupeItem=01f19
-
-[ItemDef 01f1b]
-//glowing green magical crystal
-DupeItem=01f19
-
-[ItemDef 01f1c]
-DefName=iCrystalPurple
-Weight=1.0
-Category=Provisions - Alchemy & Magic
-Subsection=Crystals
-Description=Purple Crystal 1
-DupeList=01f1d,01f1e
-
-[ItemDef 01f1d]
-//purple magical crystal
-DupeItem=01f1c
-
-[ItemDef 01f1e]
-//glowing purple magical crystal
-DupeItem=01f1c
 
 
 [ItemDef 01fff]

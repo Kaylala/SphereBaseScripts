@@ -1835,44 +1835,6 @@ CATEGORY=Miscellaneous
 SUBSECTION=Cannons
 DESCRIPTION=Cannon Ball Pile (ice shot)
 
-[ITEMDEF 0423a]
-DEFNAME=iCannonPowder
-NAME=cannon powder
-WEIGHT=5.0
-RESOURCES=5 iSaltpeter//also sulfur and charcoal
-CATEGORY=Miscellaneous
-SUBSECTION=Cannons
-DESCRIPTION=Cannon Powder
-
-[ITEMDEF 04246]
-DEFNAME=iCannonRamrod
-NAME=cannon ramrod
-FLIP=1
-WEIGHT=2.0
-RESOURCES=2 iLog
-CATEGORY=Miscellaneous
-SUBSECTION=Cannons
-DESCRIPTION=Cannon Ramrod
-DUPELIST=04247
-
-[ITEMDEF 04247]
-//Cannon Ramrod
-DUPEITEM=04246
-
-[ITEMDEF 04248]
-DEFNAME=iCannonSwab
-NAME=cannon swab
-FLIP=1
-WEIGHT=2.0
-RESOURCES=2 iLog
-CATEGORY=Miscellaneous
-SUBSECTION=Cannons
-DESCRIPTION=Cannon Swab
-DUPELIST=04247
-
-[ITEMDEF 04249]
-//Cannon Swab
-DUPEITEM=04248
 
 [ITEMDEF 0424a]
 //Ship Cannon (48 pound)
