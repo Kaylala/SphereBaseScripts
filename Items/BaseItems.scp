@@ -1,0 +1,41 @@
+[ItemDef 01f19]
+DefName=iMagicalCrystal1
+Name=magical crystal
+NameLoc=1027961
+Weight=1
+DupeList=01f1a,01f1b
+
+Category=Base Items
+Subsection=Magical Crystals
+Description=Magical Crystal (Green)
+
+[ItemDef 01f1a]
+NameLoc=1027962
+DupeItem=01f19
+
+[ItemDef 01f1b]
+NameLoc=1027963
+DupeItem=01f19
+
+
+[ItemDef 01f1c]
+DefName=iMagicalCrystal2
+Name=magical crystal
+NameLoc=1027964
+Weight=1
+DupeList=01f1d,01f1e
+
+Category=Base Items
+Subsection=Magical Crystals
+Description=Magical Crystal (Purple)
+
+[ItemDef 01f1d]
+//purple magical crystal
+DupeItem=01f1c
+
+[ItemDef 01f1e]
+//glowing purple magical crystal
+DupeItem=01f1c
+
+
+[EOF]

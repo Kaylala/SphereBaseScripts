@@ -4,7 +4,8 @@ None						0
 RedHue1						32
 RedHue2						33
 CyanHue						88
-DarkGrayHue					802
+DarkGreyHue					802
+DarkGrayHue					DarkGreyHue
 EnergyVortexHue				118
 LightGrayHue				904
 DyeHighHue					1000   // highest dyeable hue = 1001
@@ -13,9 +14,39 @@ SnowHue						1153
 RockHue						1154
 SpectralHue					16385
 
+// Leather Hues
+OldSpinedHue				0283
+OldHornedHue				0227
+OldBarbedHue				01C1
 SpinedHue					08ac
 HornedHue					0845
 BarbedHue					0851
+
+// Wood Hues
+OakHue						07DA
+AshHue						04A7
+YewHue						04A8
+HeartwoodHue				04A9
+BloodwoodHue				04AA
+FrostwoodHue				047F
+
+//Dragon Scale Hues
+RedScalesHue				066D	// 026
+YellowScalesHue				08A8	// 035
+BlackScalesHue				0455	// 083a Sphere?
+GreenScalesHue				0851	// 030B
+WhiteScalesHue				08FD	// 0482
+BlueScalesHue				08B0	// 05
+
+// Metal Hues
+DullCopperHue				0973
+ShadowIronHue				0966
+CopperHue					0960
+BronzeHue					0972
+GoldHue						08A5
+AgapiteHue					0979
+VeriteHue					089F
+ValoriteHue					08AB
 
 MagicWeaponHue				0
 MagicShieldHue				0
