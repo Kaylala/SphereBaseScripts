@@ -1,0 +1,362 @@
+[ItemDef 0104B]
+DefName=iClock
+Name=clock
+NameLoc=1024171
+Type=tClock
+Can=CanIFlip
+SkillMake=Tinkering 0
+Resources=1 iClockParts,1 iClockFrame
+Weight=3
+Value=44
+DupeList=0104C
+
+Category=Professions
+Subsection=Tinkering
+Description=Clock
+
+[ItemDef 0104C]
+NameLoc=1024172
+DupeItem=0104B
+
+
+[ItemDef 0104D]
+DefName=iClockFrame
+Name=clock frame
+NameLoc=1024173
+Type=tNormal
+Can=CanIFlip
+SkillMake=Tinkering 0
+Resources=6 iBoard
+Material=tWood
+Weight=2
+Value=14
+DupeList=0104E
+
+Category=Professions
+Subsection=Tinkering
+Description=Clock Frame
+
+[ItemDef 0104E]
+NameLoc=1024174
+DupeItem=0104D
+
+
+[ItemDef 0104F]
+DefName=iClockParts
+Name=clock parts
+NameLoc=1024175
+Type=tNormal
+Can=CanIFlip
+SkillMake=Tinkering 0
+Resources=1 iAxleWithGears,1 iSprings
+//SkillMake=Tinkering 250
+//Resources=1 iIronIngot
+Weight=1
+Value=17
+DupeList=01050
+
+Category=Professions
+Subsection=Tinkering
+Description=Clock Parts
+
+[ItemDef 01050]
+NameLoc=1024176
+DupeItem=0104F
+
+
+[ItemDef 01051]
+DefName=iAxleWithGears
+Name=axle with gears
+NameLoc=1024177
+Type=tNormal
+Can=CanIFlip
+SkillMake=Tinkering 0
+Resources=1 iAxle,1 iGears
+Weight=1
+Value=5
+DupeList=01052
+
+Category=Professions
+Subsection=Tinkering
+Description=Axle Gears
+
+[ItemDef 01052]
+NameLoc=1024178
+DupeItem=01051
+
+
+[ItemDef 01053]
+DefName=iGears
+Name=gears
+NameLoc=1024179
+Type=tNormal
+Can=CanIFlip|CanIStack
+SkillMake=Tinkering 50
+Resources=2 iIronIngot
+Material=tIngot
+Weight=1
+Value=5
+DupeList=01054
+
+Category=Professions
+Subsection=Tinkering
+Description=Gears
+
+[ItemDef 01054]
+NameLoc=1024180
+DupeItem=01053
+
+
+[ItemDef 01055]
+DefName=iHinge
+Name=hinge
+NameLoc=1024181
+Type=tNormal
+Can=CanIFlip
+SkillMake=Tinkering 50
+Resources=2 iIronIngot
+Material=tIngot
+Weight=1
+Value=5
+DupeList=01056
+
+Category=Professions
+Subsection=Tinkering
+Description=Hinge
+
+[ItemDef 01056]
+NameLoc=1024182
+DupeItem=01055
+
+
+[ItemDef 01057]
+DefName=iSextant
+Name=sextant
+NameLoc=1024183
+Type=tSextant
+Can=CanIFlip
+SkillMake=Tinkering 0
+Resources=1 iSextantParts
+Weight=2
+Value=35
+DupeList=01058
+
+Category=Professions
+Subsection=Tinkering
+Description=Sextant
+
+[ItemDef 01058]
+NameLoc=1024184
+DupeItem=01057
+
+
+[ItemDef 01059]
+DefName=iSextantParts
+Name=sextant parts
+NameLoc=1024185
+Type=tNormal
+Can=CanIFlip
+SkillMake=Tinkering 0
+Resources=1 iHinge,1 iAxleWithGears
+//SkillMake=Tinkering 300
+//Resources=4 iIronIngot
+Weight=2
+Value=30
+DupeList=0105A
+
+Category=Professions
+Subsection=Tinkering
+Description=Sextant
+
+[ItemDef 0105A]
+NameLoc=1024186
+DupeItem=01059
+
+
+[ItemDef 0105B]
+DefName=iAxle
+Name=gears
+NameLoc=1024187
+Type=tNormal
+Can=CanIFlip
+SkillMake=Tinkering 0
+Resources=1 iBoard
+Material=tWood
+Weight=1
+Value=5
+DupeList=0105C
+
+Category=Professions
+Subsection=Tinkering
+Description=Axle
+
+[ItemDef 0105C]
+NameLoc=1024188
+DupeItem=0105B
+
+
+[ItemDef 0105D]
+DefName=iSprings
+Name=springs
+NameLoc=1024189
+Type=tNormal
+Can=CanIFlip
+SkillMake=Tinkering 50
+Resources=2 iIronIngot
+Material=tIngot
+Weight=1
+Value=5
+DupeList=0105E
+
+Category=Professions
+Subsection=Tinkering
+Description=Springs
+
+[ItemDef 0105E]
+NameLoc=1024190
+DupeItem=0105D
+
+
+[ItemDef 01849]
+DefName=iHeatingStandS
+Name=flask
+NameLoc=1026217
+Type=tUnlitLight
+TData3=iHeatingStandLitS
+SkillMake=Tinkering 600
+Resources=4 iIronIngot
+Weight=1
+
+Category=Professions
+Subsection=Alchemist: Miscellaneous
+Description=Heating Stand (South)
+
+
+[ItemDef 0184A]
+DefName=iHeatingStandLitS
+Name=heating stand
+NameLoc=1026218
+Type=tlitLight
+TData3=iHeatingStandS
+Weight=1
+DupeList=0184B,0184C
+TEvents=tFire
+
+Category=Professions
+Subsection=Alchemist: Miscellaneous
+Description=Heating Stand (South) (Lit)
+
+On=@Create
+MoreZ=2
+
+[ItemDef 0184B]
+NameLoc=1026219
+DupeItem=0184A
+
+[ItemDef 0184C]
+NameLoc=1026220
+DupeItem=0184A
+
+
+[ItemDef 0184D]
+DefName=iHeatingStandE
+Name=heating stand
+NameLoc=1026221
+Type=tUnlitLight
+TData3=iHeatingStandLitE
+SkillMake=Tinkering 600
+Resources=4 iIronIngot
+Weight=1
+
+Category=Professions
+Subsection=Alchemist: Miscellaneous
+Description=Heating Stand (East)
+
+
+[ItemDef 0184E]
+DefName=iHeatingStandLitE
+Name=heating stand
+NameLoc=1026222
+Type=tlitLight
+TData3=iHeatingStandE
+Weight=1
+DupeList=0184F,01850
+TEvents=tFire
+
+Category=Professions
+Subsection=Alchemist: Miscellaneous
+Description=Heating Stand (East) (Lit)
+
+On=@Create
+MoreZ=2
+
+[ItemDef 0184F]
+NameLoc=1026223
+DupeItem=0184E
+
+[ItemDef 01850]
+NameLoc=1026224
+DupeItem=0184E
+
+
+[ItemDef 01851]
+DefName=iScales
+Name=scales
+NameLoc=1026225
+Type=tNormal
+Can=CanIFlip|CanIExceptional|CanIMakersMark|CanIRetainColor
+Weight=4
+SkillMake=Tinkering 600
+Resources=4 iIronIngot
+DupeList=01852
+
+Category=Professions
+Subsection=Tinkering
+Description=Scales
+
+[ItemDef 01852]
+NameLoc=1026226
+DupeItem=01851
+
+
+[ItemDef 04246]
+DefName=iRamrod
+Name=ramrod
+NameLoc=1095838
+Type=tNormal
+Can=CanIFlip|CanIExceptional|CanIMakersMark
+Weight=1
+SkillMake=Tinkering 0
+Resources=8 iBoard
+DupeList=04247
+
+Category=Professions
+Subsection=Tinkering
+Description=Ramrod
+
+[ItemDef 04247]
+NameLoc=1095839
+DupeItem=04246
+
+
+[ItemDef 04248]
+DefName=iSwab
+Name=swab
+NameLoc=1095840
+Type=tNormal
+Can=CanIFlip|CanIExceptional|CanIMakersMark
+Weight=1
+SkillMake=Tinkering 0
+Resources=4 iBoard,4 iCloth
+DupeList=04249
+
+Category=Professions
+Subsection=Tinkering
+Description=Ramrod
+
+[ItemDef 04249]
+NameLoc=1095841
+DupeItem=04248
+
+
+[EOF]

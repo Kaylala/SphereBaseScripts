@@ -13,7 +13,7 @@ Description=Mortar and Pestle
 
 // Empty Bottle
 [ItemDef 0F0E]
-DefName=iEmptyBottle
+DefName=iEmptyBottle1
 Name=empty bottle
 NameLoc=1023854
 Type=tNormal
@@ -760,100 +760,6 @@ Subsection=Alchemist: Flasks
 Description=Flask
 
 
-[ItemDef 01849]
-DefName=iHeatingStandS
-Name=flask
-NameLoc=1026217
-Type=tUnlitLight
-TData3=iHeatingStandLitS
-Weight=1
-
-Category=Professions
-Subsection=Alchemist: Miscellaneous
-Description=Heating Stand (South)
-
-
-[ItemDef 0184A]
-DefName=iHeatingStandLitS
-Name=heating stand
-NameLoc=1026218
-Type=tlitLight
-TData3=iHeatingStandS
-Weight=1
-DupeList=0184B,0184C
-
-Category=Professions
-Subsection=Alchemist: Miscellaneous
-Description=Heating Stand (South) (Lit)
-
-On=@Create
-MoreZ=2
-
-[ItemDef 0184B]
-NameLoc=1026219
-DupeItem=0184A
-
-[ItemDef 0184C]
-NameLoc=1026220
-DupeItem=0184A
-
-
-[ItemDef 0184D]
-DefName=iHeatingStandE
-Name=heating stand
-NameLoc=1026221
-Type=tUnlitLight
-TData3=iHeatingStandLitE
-Weight=1
-
-Category=Professions
-Subsection=Alchemist: Miscellaneous
-Description=Heating Stand (East)
-
-
-[ItemDef 0184E]
-DefName=iHeatingStandLitE
-Name=heating stand
-NameLoc=1026222
-Type=tlitLight
-TData3=iHeatingStandE
-Weight=1
-DupeList=0184F,01850
-
-Category=Professions
-Subsection=Alchemist: Miscellaneous
-Description=Heating Stand (East) (Lit)
-
-On=@Create
-MoreZ=2
-
-[ItemDef 0184F]
-NameLoc=1026223
-DupeItem=0184E
-
-[ItemDef 01850]
-NameLoc=1026224
-DupeItem=0184E
-
-
-[ItemDef 01851]
-DefName=iScales
-Name=scales
-NameLoc=1026225
-Type=tNormal
-Can=CanIFlip
-Weight=4
-DupeList=01852
-
-Category=Professions
-Subsection=Alchemist: Miscellaneous
-Description=Scales
-
-[ItemDef 01852]
-NameLoc=1026226
-DupeItem=01851
-
-
 [ItemDef 0185B]
 DefName=iEmptyVials
 Name=empty vials
@@ -987,6 +893,82 @@ Weight=1
 Category=Professions
 Subsection=Alchemist: Bottles
 Description=Empty Bottle
+
+
+[ItemDef 0423A]
+DefName=iBlackPowder
+Name=black powder
+NameLoc=1095826
+Type=tNormal
+Can=CanIStack
+Weight=1
+SkillMake=Alchemy 650
+Resources=6 iSaltpeter,1 iCharcoal,1 iSulfurousAsh
+Value=100
+
+Category=Professions
+Subsection=Alchemy: Explosive
+Description=Black Powder
+
+On=@Create
+Color=0455
+
+
+[ItemDef iPotash]
+ID=iBlackPowder
+Name=saltpeter
+NameLoc=1116319
+Type=tNormal
+Can=CanIStack
+Weight=1
+SkillMake=Alchemy 0
+Resources=1 iBoard,1 iPitcherOfWater
+Value=10
+
+Category=Professions
+Subsection=Alchemy: Ingredients
+Description=Potash
+
+On=@Create
+Color=0963
+
+
+[ItemDef iMatchCord]
+ID=iRollOfString
+Name=match cord
+NameLoc=1116304
+Type=tNormal
+Can=CanIStack
+Weight=1
+SkillMake=Alchemy 250
+Resources=1 iBallOfYarn,1 iPitcherOfWater,1 iSaltpeter,1 iPotash
+Value=10
+
+Category=Professions
+Subsection=Alchemy: Explosives
+Description=Match Cord
+
+On=@Create
+Color=0963
+
+
+[ItemDef iFuseCord]
+ID=iRollOfString
+Name=fuse cord
+NameLoc=1116305
+Type=tNormal
+Can=CanIStack
+Weight=1
+SkillMake=Alchemy 550
+Resources=1 iBallOfYarn,1 iPitcherOfWater,1 iBlackPowder,1 iPotash
+Value=10
+
+Category=Professions
+Subsection=Alchemy: Explosives
+Description=Fuse Cord
+
+On=@Create
+Color=0591
 
 
 [EOF]
