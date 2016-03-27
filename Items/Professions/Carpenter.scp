@@ -1,3 +1,17 @@
+[ItemDef 020D]
+DefName=iAcidProofRope
+Name=acid proof rope
+NameLoc=1020525
+Type=tNormal
+Weight=5
+SkillMake=Carpentry 800
+Resources=2 iWoodenSwitch,2 iGreaterStrengthPotion,1 iProtectionScroll
+
+Category=Professions
+Subsection=Carpentry
+Description=Acid Proof Rope
+
+
 [ItemDef 04513]
 DefName=iChickenCoop
 Name=chicken coop

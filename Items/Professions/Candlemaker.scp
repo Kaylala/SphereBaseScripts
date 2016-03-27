@@ -1,0 +1,19 @@
+[ItemDef 01420]
+DefName=iRollOfString
+Name=roll%s of string
+NameLoc=1025152
+Can=CanIFlip
+Weight=1
+Value=8
+DupeList=01421
+
+Category=Professions
+Subsection=Candlemaker
+Description=Roll of String
+
+[ItemDef 01421]
+NameLoc=1025153
+DupeItem=01420
+
+
+[EOF]

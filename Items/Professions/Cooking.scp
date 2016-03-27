@@ -1,0 +1,19 @@
+[ItemDef iCharcoal]
+ID=iBlackPowder
+Name=charcaol
+NameLoc=1116303
+Type=tNormal
+Can=CanIStack
+Weight=1
+SkillMake=Cooking 0
+Resources=1 iBoard
+Value=5
+
+Category=Professions
+Subsection=Cooking: Preparations
+Description=Charcoal
+
+On=@Create
+Color=05E5
+
+
