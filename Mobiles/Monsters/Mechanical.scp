@@ -7,11 +7,13 @@ Dam=13,24
 Armor=35,55
 Icon=iGolemIcon
 Sound=
-FoodType=
+FoodType=0
 MaxFood=0
 Resources=0
+Aversions=tTrap
+Desires=tIngot
 BloodColor=-1
-TEventsAIGolem
+TEvents=AIGolem
 
 Category=Monsters
 Subsection=Mechanical
@@ -22,6 +24,7 @@ NPC=BrainMonster
 
 Fame=3500
 Karma=-3500
+Alignment=Evil
 
 DamPhysical=100
 DamFire=0
@@ -44,6 +47,165 @@ Wrestling={601 1000}
 Tactics={601 1000}
 MagicResistance={1501 1900}
 Parrying={601 1000}
+
+
+[CharDef 02F4]
+DefName=cExodusOverseer
+Name=exodus overseer
+Can=CanWalk|CanUseHands|CanNonHuman
+MoveRate=100
+Dam=13,19
+Icon=
+Sound=
+FoodType=0
+FoodMax=0
+Resources=0
+Aversions=tTrap
+Desires=tMagic,tMetal,tGem
+BloodColor=-1
+TEvents=AIExodusOverseer
+
+Category=Monsters
+Subsection=Mechanical
+Description=Exodus Overseer
+
+On=@Create
+NPC=BrainMonster
+
+Fame=10000
+Karma=-10000
+Alignment=Evil
+
+DamPhysical=50
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=50
+
+ResPhysical=45,55
+ResFire=40,60
+ResCold=25,35
+ResPoison=25,35
+ReesEnergy=25,35
+
+OStr={551 650}
+ODex={76 95}
+OInt={61 90}
+MaxHits={331 390}
+
+Wrestling={801 980}
+Tactics={801 980}
+MagicResistance={801 980}
+Parrying={801 980}
+
+On=@NPCRestock
+NewGold={450 650}
+
+
+[CharDef 02F5]
+DefName=cExodusMinion
+Name=exodus minion
+Can=CanWalk|CanUseHands|CanNonHuman
+MoveRate=100
+Dam=16,22
+Icon=
+Sound=
+FoodType=0
+FoodMax=0
+Resources=0
+Aversions=tTrap
+Desires=tMagic,tMetal,tGem
+BloodColor=-1
+TEvents=AIExodusMinion
+
+Category=Monsters
+Subsection=Mechanical
+Description=Exodus Minion
+
+On=@Create
+NPC=BrainMonster
+
+Fame=18000
+Karma=-18000
+Alignment=Evil
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=60,70
+ResFire=40,50
+ResCold=15,25
+ResPoison=15,25
+ReesEnergy=15,25
+
+OStr={851 950}
+ODex={71 80}
+OInt={61 90}
+MaxHits={511 570}
+
+Wrestling={901 1000}
+Tactics={901 1000}
+MagicResistance={901 1000}
+Parrying={901 1000}
+
+On=@NPCRestock
+NewGold={450 650}
+
+
+[CharDef 02FB]
+DefName=cExodusMinionLord
+Name=exodus minion lord
+Can=CanWalk|CanUseHands|CanNonHuman
+MoveRate=100
+Dam=19,25
+Icon=
+Sound=
+FoodType=0
+FoodMax=0
+Resources=0
+Aversions=tTrap
+Desires=tMagic,tMetal,tGem
+BloodColor=-1
+TEvents=AIExodusMinionLord
+
+Category=Monsters
+Subsection=Mechanical
+Description=Exodus Minion Lord
+
+On=@Create
+NPC=BrainMonster
+
+Fame=22000
+Karma=-22000
+Alignment=Evil
+
+DamPhysical=60
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=40
+
+ResPhysical=65,80
+ResFire=65,80
+ResCold=20,30
+ResPoison=30,40
+ReesEnergy=40,50
+
+OStr={1500 1600}
+ODex={71 80}
+OInt={61 90}
+MaxHits={911 970}
+
+Wrestling={951 1000}
+Tactics={951 1000}
+MagicResistance={951 1000}
+Parrying={951 1000}
+
+On=@NPCRestock
+NewGold={1000 1200}
 
 
 [EOF]

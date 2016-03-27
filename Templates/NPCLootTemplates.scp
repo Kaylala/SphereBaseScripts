@@ -244,11 +244,38 @@ Item=iPicnicBasket,1,R19
 Category=Templates: NPC Loot
 Subsection=Monsters: Mechanical
 Description=Golem
-Item=iArcaneGem,1,R19
+Item=iArcaneGem,1,R9
 Item=iPowerCrystal,1,R19
 Item=iClockworkAssembly,1,R19
-Item={RandomCommonMusicBoxGear 75 RandomUncommonMusicBoxGear 24 RandomRareMusicBoxGear 1},1,R19
+Item={RandomCommonMusicBoxGear 75 RandomUncommonMusicBoxGear 25},1,R19
 Item=RandomIngot,{11 25}
+
+
+[Template ExodusOverseerLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Mechanical
+Description=Exodus Overseer
+Item=iArcaneGem,1,R9
+Item=iPowerCrystal,1,R19
+Item=iClockworkAssembly,1,R19
+
+
+[Template ExodusMinionLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Mechanical
+Description=Exodus Overseer
+Item=iArcaneGem,{1 2},R9
+Item=iPowerCrystal,{1 2},R19
+Item=iClockworkAssembly,1,R19
+
+
+[Template ExodusMinionLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Mechanical
+Description=Exodus Overseer
+Item=iArcaneGem,{2 4},R4
+Item=iPowerCrystal,{1 2},R9
+Item=iClockworkAssembly,{1 2},R9
 
 
 [EOF]

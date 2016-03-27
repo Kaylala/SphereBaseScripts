@@ -73,4 +73,67 @@ On=@DeathCorpse
 NewLoot=GolemLoot
 
 
+[Events AIExodusOverseer]
+// Immune to level 5 poison and below.
+On=@SpellEffect
+If (<Argn1> == sPoison)
+ Return 1
+EndIf
+
+On=@GetHit
+// Used to have forcefield you had to bring down with magic before melee would hurt it.
+//Src.SMsgL -1,1114359	// Your attack has no effect on the creature's armor.
+//Src.SMsgL -1,1114360	// Your weapon cannot penetrate the creature's magical barrier.
+If (<Src.Action> == Skill_Archery) || (<Src.Action> == Skill_Throwing)
+ If !(<R9>)
+  Src.SpellEffect sEnergyBolt,{800 980},<UID>
+ EndIf
+EndIf
+
+On=@DeathCorpse
+NewLoot=ExodusOverseerLoot
+
+
+[Events AIExodusMinion]
+// Immune to level 5 poison and below.
+On=@SpellEffect
+If (<Argn1> == sPoison)
+ Return 1
+EndIf
+
+On=@GetHit
+// Used to have forcefield you had to bring down with magic before melee would hurt it.
+//Src.SMsgL -1,1114359	// Your attack has no effect on the creature's armor.
+//Src.SMsgL -1,1114360	// Your weapon cannot penetrate the creature's magical barrier.
+If (<Src.Action> == Skill_Archery) || (<Src.Action> == Skill_Throwing)
+ If !(<R4>)
+  Src.SpellEffect sEnergyBolt,{900 1000},<UID>
+ EndIf
+EndIf
+
+On=@DeathCorpse
+NewLoot=ExodusMinionLoot
+
+
+[Events AIExodusMinionLord]
+// Immune to level 5 poison and below.
+On=@SpellEffect
+If (<Argn1> == sPoison)
+ Return 1
+EndIf
+
+On=@GetHit
+// Used to have forcefield you had to bring down with magic before melee would hurt it.
+//Src.SMsgL -1,1114359	// Your attack has no effect on the creature's armor.
+//Src.SMsgL -1,1114360	// Your weapon cannot penetrate the creature's magical barrier.
+If (<Src.Action> == Skill_Archery) || (<Src.Action> == Skill_Throwing)
+ If !(<R1>)
+  Src.SpellEffect sEnergyBolt,{900 1000},<UID>
+ EndIf
+EndIf
+
+On=@DeathCorpse
+NewLoot=ExodusMinionLordLoot
+
+
 [EOF]
