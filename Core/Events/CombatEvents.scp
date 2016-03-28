@@ -1,10 +1,13 @@
-[Events eStunned]
+[Events eParalyzingBlow]
 On=GetHit
 ArgN2 |= DamNoUnparalyze
-Return 
+Return
+// Use this if you just want to end the paralyzing blow code.
+//FindID.BaseID.ParalyzingBlow.Timer=0
+//Return
 
 
-[ItemDef iStunMemory]
+[ItemDef iParalyzingBlowMemory]
 ID=iMemory
 Name=Stun Memory
 
@@ -13,14 +16,14 @@ Subsection=Memories: Combat
 Description=Stun Memory
 
 On=@Create
-Timer=10
+Timer=6
 
 On=@Equip
 Cont.Flags &= ~StatFWar
 Cont.Flags |= StatFParalyzed
 
 On=@Timer
-Cont.Events -eStunned
+Cont.Events -eParalyzingBlow
 Cont.Flags &= ~StatFParalyzed
 Cont.SMsgL -1,1070695	// You recover your senses.
 Remove

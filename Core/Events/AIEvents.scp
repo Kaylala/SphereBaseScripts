@@ -41,17 +41,21 @@ NewLoot=SolenInfiltratorQueenLoot
 
 [Events AIGolem]
 On=@SpellEffect
-If (<ArgN1> == sHeal) || (<ArgN1> == sGreaterHeal) || (<ArgN1> == sParalyze) || (<ArgN1> == sPoison)
- Return 1
-EndIf
-
-If (<Src.Flags> @StatFConjured)
+If (<Src.Flags> &StatFConjured)
  If !(<R3>)
-  Src.SpellEffect sDispel,1500,<UID>
+  DispelAttack
  EndIf
 EndIf
 
+I.MechanicalMobile
+
 On=@GetHit
+If (<Src.Flags> &StatFConjured)
+ If !(<R3>)
+  DispelAttack
+ EndIf
+EndIf
+
 If (<IsPet>)
  If (<Owner.Distance> <= 7)
   If (<ArgN1> > <Owner.Mana>)
@@ -64,27 +68,16 @@ If (<IsPet>)
  EndIf
 EndIf
 
-If (<Src.Flags> @StatFConjured)
- If !(<R3>)
-  Src.SpellEffect sDispel,1500,<UID>
- EndIf
-EndIf
-
 On=@Hit
-If !(<R19>)
- Src.SMsgL -1,1070696	// You have been stunned by a colossal blow.
- If (<Src.Events> == eStunned)
-  Src.FindID.iStunMemory.Timer += 10
- Else
-  Src.Events +eStunned
-  Serv.NewItem iStunMemory,1,<Src.Equip>
+If (<Src.Flags> &StatFConjured)
+ If !(<R3>)
+  DispelAttack
  EndIf
 EndIf
 
-If (<Src.Flags> @StatFConjured)
- If !(<R3>)
-  Src.SpellEffect sDispel,1500,<UID>
- EndIf
+If !(<R19>)
+ StunAttack
+ Src.SMsgL -1,1070696	// You have been stunned by a colossal blow.
 EndIf
 
 On=@DeathCorpse
@@ -94,36 +87,34 @@ NewLoot=GolemLoot
 [Events AIExodusOverseer]
 // Immune to level 5 poison and below.
 On=@SpellEffect
-If (<Argn1> == sPoison) || (<Argn1> == sParalyze)
- Return 1
-EndIf
-
-If (<Src.Flags> @StatFConjured)
+If (<Src.Flags> &StatFConjured)
  If !(<R3>)
-  Src.SpellEffect sDispel,1500,<UID>
+  DispelAttack
  EndIf
 EndIf
 
+I.MechanicalMobile
+
 On=@GetHit
+If (<Src.Flags> &StatFConjured)
+ If !(<R3>)
+  DispelAttack
+ EndIf
+EndIf
+
 // Used to have forcefield you had to bring down with magic before melee would hurt it.
 //Src.SMsgL -1,1114359	// Your attack has no effect on the creature's armor.
 //Src.SMsgL -1,1114360	// Your weapon cannot penetrate the creature's magical barrier.
 If (<Src.Action> == Skill_Archery) || (<Src.Action> == Skill_Throwing)
  If !(<R9>)
-  Src.SpellEffect sEnergyBolt,{800 980},<UID>
- EndIf
-EndIf
-
-If (<Src.Flags> @StatFConjured)
- If !(<R3>)
-  Src.SpellEffect sDispel,1500,<UID>
+  EnergyBoltAttack
  EndIf
 EndIf
 
 On=@Hit
-If (<Src.Flags> @StatFConjured)
+If (<Src.Flags> &StatFConjured)
  If !(<R3>)
-  Src.SpellEffect sDispel,1500,<UID>
+  DispelAttack
  EndIf
 EndIf
 
@@ -134,9 +125,7 @@ NewLoot=ExodusOverseerLoot
 [Events AIExodusMinion]
 // Immune to level 5 poison and below.
 On=@SpellEffect
-If (<Argn1> == sPoison) || (<Argn1> == sParalyze)
- Return 1
-EndIf
+MechanicalMobile
 
 On=@GetHit
 // Used to have forcefield you had to bring down with magic before melee would hurt it.
@@ -144,9 +133,12 @@ On=@GetHit
 //Src.SMsgL -1,1114360	// Your weapon cannot penetrate the creature's magical barrier.
 If (<Src.Action> == Skill_Archery) || (<Src.Action> == Skill_Throwing)
  If !(<R4>)
-  Src.SpellEffect sEnergyBolt,{900 1000},<UID>
+  EnergyBoltAttack
  EndIf
 EndIf
+
+On=@Hit
+PetHatred
 
 On=@DeathCorpse
 NewLoot=ExodusMinionLoot
@@ -155,9 +147,7 @@ NewLoot=ExodusMinionLoot
 [Events AIExodusMinionLord]
 // Immune to level 5 poison and below.
 On=@SpellEffect
-If (<Argn1> == sPoison) || (<Argn1> == sParalyze)
- Return 1
-EndIf
+MechanicalMobile
 
 On=@GetHit
 // Used to have forcefield you had to bring down with magic before melee would hurt it.
@@ -169,8 +159,106 @@ If (<Src.Action> == Skill_Archery) || (<Src.Action> == Skill_Throwing)
  EndIf
 EndIf
 
+On=@Hit
+PetHatred
+
 On=@DeathCorpse
 NewLoot=ExodusMinionLordLoot
+
+
+[Events AIBetrayer]
+// Immune to level 5 poison and below.
+On=@SpellEffect
+MechanicalMobile
+
+On=@Hit
+If !(<R19>)
+ DoRand 2
+  Begin
+   StunAttack
+   Src.SMsgL -1,1070696	// You have been stunned by a colossal blow.
+  End
+  Begin
+   PoisonAreaAttack
+  End
+ EndDo
+EndIf
+
+On=@DeathCorpse
+NewLoot=BetrayerLoot
+
+
+[Events AIBlackthornJuggernaut]
+// Immune to level 5 poison and below.
+On=@SpellEffect
+MechanicalMobile
+
+On=@Hit
+If !(<R19>)
+ StunAttack
+ Src.SMsgL -1,1070696	// You have been stunned by a colossal blow.
+EndIf
+
+On=@DeathCorpse
+NewLoot=BlackthornJuggernautLoot
+
+
+[Events AIClockworkScorpion]
+// Immune to level 5 poison and below.
+On=@SpellEffect
+MechanicalMobile
+
+On=@Hit
+If !(<R9>)
+ Src.SpellEffect sPoison,<Poisoning>,<UID>
+EndIf
+
+On=@DeathCorpse
+NewLoot=ClockworkScorpionLoot
+
+
+[Events AILeatherWolf]
+// Summon Pack
+// Might need some work.
+On=@CombatStart
+If !(<Tag0.Howl>)
+Say @030,,2 1113132	//"The leather wolf howls for help"
+ Tag.Howl=1
+ Serv.NewNPC cLeatherWolf
+ New.P=<P>
+ New.Home=<P>
+ New.HomeDist=9
+ New.Tag.Howl=1	// Summoned wolves shouldn't be able to get more backup.
+ New.Attack <Src>
+ Serv.NewDupe <New>
+ New.Attack <Src>
+ Serv.NewDupe <New>
+ New.Attack <Src>
+ Return
+EndIf
+
+// Bleed Attack
+On=@Attack
+If !(<R19>)
+ BleedAttack
+EndIf
+
+On=@DeathCorpse
+NewLoot=LeatherWolfLoot
+
+
+[Events AIVollem]
+On=@SpellEffect
+MechanicalMobile
+
+// Bleed Attack
+On=@Attack
+If !(<R19>)
+ BleedAttack
+EndIf
+
+On=@DeathCorpse
+NewLoot=VollemLoot
 
 
 [EOF]

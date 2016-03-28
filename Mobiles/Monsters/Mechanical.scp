@@ -1,7 +1,11 @@
+[Comment Notes]
+Clockwork Scorpion: Not enough notes on any stats.
+
+
 [CharDef 02F0]
 DefName=cGolem
 Name=golem
-Can=CanWalk|CanUseHands
+Can=CanWalk|CanRun|CanUseHands
 MoveRate=100
 Dam=13,24
 Armor=35,55
@@ -21,6 +25,7 @@ Description=Golem
 
 On=@Create
 NPC=BrainMonster
+FollowerSlots=3		// Two conflicting informative sites. One says 4 UOS and one says 3 UOG.
 
 Fame=3500
 Karma=-3500
@@ -378,6 +383,289 @@ Parrying={991 1000}
 
 On=@DeathCorpse
 NewLoot=RandomExodusEncounterKey,1,R19
+
+
+[CharDef 02FF]
+ID=cBetrayer
+Name=betrayer
+Can=CanMale|CanWalk|CanUseHands
+MoveRate=100
+Dam=16,22
+Armor=60,70
+Icon=iBetrayerIcon
+Sound=
+FoodType=0
+MaxFood=0
+Resources=1 iCutOfRawRibs
+Aversions=tTrap
+Desires=tGold,tCoin,tScroll
+BloodColor=0
+TEvents=AIBetrayer
+
+Category=Monsters
+Subsection=Mechanical
+Description=Betrayer
+
+On=@Create
+NPC=BrainMonster
+
+Fame=15000
+Karma=-15000
+Alignment=Evil
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=60,70
+ResFire=60,70
+ResCold=60,70
+ResPoison=30,40
+ResEnergy=20,30
+
+OStr={401 500}
+ODex={81 100}
+OInt={151 200}
+MaxHits={241 300}
+
+Wrestling={901 1000}
+Tactics={901 1000}
+MagicResistance={1201 1300}
+Parrying={901 1000}
+Magery={501 1000}
+EvaluatingIntel={901 1000}
+Meditation={901 1000}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={750 900}
+
+
+[CharDef 0300]
+ID=cBlackthornJuggernaut
+Name=blackthorn juggernaut
+Can=CanMale|CanWalk|CanUseHands
+MoveRate=100
+Dam=12,19
+Armor=65,75
+Icon=iBlackthornJuggernautIcon
+Sound=
+FoodType=0
+MaxFood=0
+Resources=1 iCutOfRawRibs
+Aversions=tTrap
+Desires=tGold,tCoin
+BloodColor=0
+TEvents=AIBlackthornJuggernaut
+
+Category=Monsters
+Subsection=Mechanical
+Description=Blackthorn Juggernaut
+
+On=@Create
+NPC=BrainMonster
+
+Fame=12000
+Karma=-12000
+Alignment=Evil
+
+DamPhysical=50
+DamFire=25
+DamCold=0
+DamPoison=0
+DamEnergy=25
+
+ResPhysical=65,75
+ResFire=35,45
+ResCold=35,45
+ResPoison=15,25
+ResEnergy=10,20
+
+OStr={301 400}
+ODex={51 70}
+OInt={51 100}
+MaxHits={241 300}
+
+Wrestling={901 1000}
+Tactics={901 1000}
+MagicResistance={1401 1500}
+Parrying={901 1000}
+Anatomy={901 1000}
+
+On=@NPCRestock
+NewGold={275 325}
+
+
+[CharDef 02CD]
+ID=cClockworkScorpion
+Name=clockwork scorpion
+Can=CanWalk|CanRun|CanUseHands|CanNonHuman
+MoveRate=100
+Dam=5,10
+Armor=75,85
+Icon=iClockworkScorpionIcon
+Sound=
+FoodType=0
+MaxFood=0
+Resources=1 iCutOfRawRibs
+Aversions=tTrap
+Desires=tGold,tCoin
+BloodColor=0
+TEvents=AIClockworkScorpion
+
+Category=Monsters
+Subsection=Mechanical
+Description=Clockwork Scorpion
+
+On=@Create
+NPC=BrainMonster
+
+Fame=2000
+Karma=-2000
+Alignment=Evil
+
+DamPhysical=60
+DamFire=0
+DamCold=0
+DamPoison=40
+DamEnergy=0
+
+ResPhysical=75,85
+ResFire=25,35
+ResCold=65,75
+ResPoison=100
+ResEnergy=10,20
+
+OStr={150 250}
+ODex={75 100}
+OInt={30 50}
+MaxHits={50 110}
+
+Wrestling={401 800}
+Tactics={401 800}
+MagicResistance={301 700}
+Parrying={401 800}
+Poisoning={901 1000}
+
+On=@NPCRestock
+NewGold={50 100}
+
+
+[CharDef 02E3]
+ID=cLeatherWolf
+Name=leather wolf
+Can=CanWalk|CanRun|CanUseHands|CanNonHuman
+MoveRate=100
+Dam=5,10
+Armor=40,50
+Icon=iLeatherWolfIcon
+Sound=
+FoodType=0
+MaxFood=0
+Resources=1 iCutOfRawRibs,7 iHides
+Aversions=tTrap
+Desires=tGold,tCoin
+BloodColor=0
+TEvents=AILeatherWolf
+
+Category=Monsters
+Subsection=Mechanical
+Description=Leather Wolf
+
+On=@Create
+NPC=BrainMonster
+PackInstincts=CanineInstincts
+FollowerSlots=1
+
+Fame=4500
+Karma=-4500
+Alignment=Neutral
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=40,50
+ResFire=15,30
+ResCold=25,40
+ResPoison=15,30
+ResEnergy=10,25
+
+OStr={100 120}
+ODex={100 130}
+OInt={20 40}
+MaxHits={180 360}
+
+Wrestling={501 900}
+Tactics={501 900}
+MagicResistance={501 900}
+Parrying={501 900}
+
+On=@NPCRestock
+NewGold={150 250}
+
+
+[CharDef 0125]
+ID=cVollem
+Name=vollem
+Can=CanWalk|CanRun|CanUseHands|CanNonHuman
+MoveRate=100
+Dam=16,22
+Armor=55,65
+Icon=iVollemIcon
+Sound=
+FoodType=0
+MaxFood=0
+Resources=5 iCutOfRawRibs,10 iBarbedHides
+Aversions=tTrap
+Desires=tGold,tCoin
+BloodColor=0
+TEvents=AIVollem
+
+Category=Monsters
+Subsection=Mechanical
+Description=Vollem
+
+On=@Create
+NPC=BrainDragon
+FollowerSlots=2
+
+Fame=14000
+Karma=-14000
+Alignment=Neutral
+
+DamPhysical=40
+DamFire=40
+DamCold=0
+DamPoison=0
+DamEnergy=20
+
+ResPhysical=55,65
+ResFire=30,40
+ResCold=30,40
+ResPoison=30,40
+ResEnergy=20,30
+
+OStr={496 525}
+ODex={86 125}
+OInt={86 125}
+MaxHits={298 315}
+
+Wrestling={806 925}
+Tactics={976 1000}
+MagicResistance={851 1000}
+Parrying={976 1000}
+Magery={101 500}
+EvaluatingIntel={101 500}
+
+On=@NPCRestock
+NewGold={400 500}
 
 
 [EOF]

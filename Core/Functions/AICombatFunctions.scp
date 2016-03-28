@@ -1,0 +1,44 @@
+[Function PetHatred]
+If <Src.IsPet>
+ ArgN1 *= 3
+EndIf
+
+
+[Function PoisonAreaAttack]
+ForChars 3
+ If (<IsPlayer> || <IsPet>)
+  SpellEffect sPoison,1000,<UID>
+  Effect 2,03728,1,16,0,09EB,0
+  Sound 01DE
+ EndIf
+EndFor
+
+
+[Function BleedAttack]
+Src.SpellEffect sBleedAttack,1000,<I>
+Src.Sound=<Serv.Spell.<sBleedAttack>.Sound>
+
+
+[Function StunAttack]
+Src.SpellEffect sParalyzingBlow,1000,<UID>
+Src.Sound=<Serv.Spell.<sParalyzingBlow>.Sound>
+
+
+[Function EnergyBoltAttack]
+Src.SpellEffect sEnergyBolt,1000,<UID>
+Src.Sound=<Serv.Spell.<sEnergyBolt>.Sound>
+
+
+[Function DispelAttack]
+Src.SpellEffect sDispel,1000,<UID>
+Src.Sound=<Serv.Spell.<sDispel>.Sound>
+
+
+// Notes say Bleed Attack works; but it seems more like an EA bug; as it is noted it could possibly be.
+[Function MechanicalMobile]
+If (<ArgN1> == sHeal) || (<ArgN1> == sGreaterHeal) || (<ArgN1> == sParalyze) || (<ArgN1> == sPoison) || (<ArgN1> == sBleedAttack)
+ ArgN1=0
+EndIf
+
+
+[EOF]

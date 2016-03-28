@@ -423,7 +423,7 @@ if (<serv.CombatFlags>&00008)	// Combat_Use_Resistance
 		local.tempcold ++
 	endif
 	if (<argn2>&DamFire)
-	//if (<serv.chardef.<baseid>.can>&mt_fire_immune)	// Old check, can is also stored in dynamic characters, not only chardef.
+	//if (<serv.chardef.<baseid>.canCanFireImmune)	// Old check, can is also stored in dynamic characters, not only chardef.
 		if ( <can>&CanFireImmune )
 			if !( <argn2>& DamPhysical || <argn2>& DamPierce || <argn2>& DamSlash || <argn2>& DamPoison || <argn2>& DamEnergy || <argn2>& DamCold )		// if the damage type is fire only 
 				return 1	// no dmg
@@ -596,7 +596,7 @@ if ( ( <flags>&StatFHasShield ) && ( ( <argv2>&DamPhysical ) || ( <argv2>&DamPie
 		local.dam -= <local.def>
 	endif
 endif
-if ( <can>&MT_NONHUM )
+if ( <can>&CanNonHuman )
 	return <dlocal.dam>
 endif
 // Where was the hit ?

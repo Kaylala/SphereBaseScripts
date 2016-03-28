@@ -279,5 +279,55 @@ Item=iPowerCrystal,{1 2},R9
 Item=iClockworkAssembly,{1 2},R9
 
 
+[Template BetrayerLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Mechanical
+Description=Betrayer
+NewTMap=5
+Item=iPowerCrystal,1,R19
+Item=RandomCommonGem,1
+Item={RandomCommonMusicBoxGear 75 RandomUncommonMusicBoxGear 25},1,R19
+Item=iBlackthornsAWelcomeBook,1,R1
+
+
+[Template BlackthornJuggernautLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Mechanical
+Description=Blackthorn Juggernaut
+Item=iPowerCrystal,1,R19
+Item=iClockworkAssembly,1,R19
+Item={RandomCommonMusicBoxGear 75 RandomUncommonMusicBoxGear 25},1,R19
+
+
+[Template ClockworkScorpionLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Mechanical
+Description=Clockwork Scorpion
+Item=RandomGargoyleWeapon,1,R3
+Item={RandomGargoyleArmor 1 RandomGargoyleShield 1},1,R3
+Item=RandomCommonGem,{1 2}
+Item=iLesserPoisonPotion,1
+
+
+[Template LeatherWolfLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Mechanical
+Description=Leather Wolf
+Item=RandomGargoyleWeapon,1,R3
+Item={RandomGargoyleArmor 1 RandomGargoyleShield 1},1,R3
+Item=iLeatherWolfSkin,1
+Item=iReflectiveWolfEye,1,R9
+
+
+[Template VollemLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Mechanical
+Description=Vollem
+Item=iSulfurouosAsh,3
+Item=RandomPotion
+Item=RandomLowLevelScroll,1
+Item=RandomGargoyleWeapon,1,R3
+Item={RandomGargoyleArmor 1 RandomGargoyleShield 1},1,R3
+
 
 [EOF]
