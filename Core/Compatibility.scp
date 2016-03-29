@@ -44,6 +44,13 @@ cCow=cCow2
 cBull=cBull1
 cBull=cBull2
 cRainbowHordeDaemon=cMultiColoredHordeDaemon
+cSpectre=cSpectre2
+cSkeletonKnight=cSkeletalKnight
+cBoneKnight=cSkeletalKnight
+cSkeletonMage=cSkeletalMage
+cBoneMage=cSkeletalMage
+cBoneMagi=cSkeletalMage
+cBanshee=cBanshee1
 
 
 // Items

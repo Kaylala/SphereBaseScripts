@@ -1,18 +1,4 @@
-﻿//****************************************************************************
-// SPHERE by : Menasoft ©1997-2016
-// www.sphereserver.net
-// All SPHERE script files and formats are copyright Menasoft & Partners.
-// This file may be freely edited for personal use, but may not be distributed
-// in whole or in part, in any format without express written permission from
-// Menasoft & Partners.  All donations and contributions
-// become the property of Menasoft & Partners.
-//****************************************************************************
-// FILE LAST UPDATED: Saturday, Mar 5, 2016
-//
-VERSION=0.56c
-
-
-[CHARDEF 01]
+﻿[CHARDEF 01]
 DEFNAME=c_ogre
 NAME=ogre
 ICON=i_pet_ogre
@@ -11801,26 +11787,7 @@ SUBSECTION=Champions
 DESCRIPTION=Impaler
 ON=@Create
    DORAND 20
-      NAME=Cassiel
-      NAME=Crarigor
-      NAME=Empalk
-      NAME=Flandrith
-      NAME=Gathfe
-      NAME=Ix
-      NAME=Magor
-      NAME=Manglar
-      NAME=Perfus
-      NAME=Po-Kor
-      NAME=Scrill
-      NAME=Selminus
-      NAME=Skred
-      NAME=Slix
-      NAME=Stavinfeks
-      NAME=Steelbane
-      NAME=Verolyn
-      NAME=Victux
-      NAME=Vladeer
-      NAME=Xtul
+
    ENDDO
    TITLE=the Impaler
    NPC=brain_monster
@@ -12041,26 +12008,7 @@ SUBSECTION=Champions
 DESCRIPTION=Shadow Knight
 ON=@Create
    DORAND 20
-      NAME=Arametheus
-      NAME=Archatrix
-      NAME=Doomor
-      NAME=Erdok
-      NAME=Helzigar
-      NAME=Jonar
-      NAME=Krakus
-      NAME=Lord Kaos
-      NAME=Malashim
-      NAME=Marcus Fel
-      NAME=Marth Fador
-      NAME=Montobulus
-      NAME=Nelokhiel
-      NAME=Oghmus
-      NAME=Samael
-      NAME=Terxor
-      NAME=Tyrnak
-      NAME=Uhn
-      NAME=Usuhl
-      NAME=Zul
+
    ENDDO
    TITLE=the Shadow Knight
    NPC=brain_monster
@@ -12525,25 +12473,7 @@ SUBSECTION=Champions
 DESCRIPTION=Dark Father
 ON=@Create
    DORAND 19
-      NAME=Ankou
-      NAME=Arhaios Ophis
-      NAME=Armarus
-      NAME=Arsat
-      NAME=Azazel
-      NAME=Ga'ahp
-      NAME=Grigorus
-      NAME=Hrallath
-      NAME=Heksen
-      NAME=Karnax
-      NAME=Keelus
-      NAME=Kra'an
-      NAME=Peinsluth
-      NAME=Peirazo
-      NAME=Ponerus
-      NAME=Taet Nu'uhn
-      NAME=Therion
-      NAME=Turi'el
-      NAME=Vairocan
+
    ENDDO
    TITLE=the Dark Father
    NPC=brain_monster
@@ -14040,57 +13970,6 @@ ON=@GetHit
          SRC.UPDATE
       ENDIF
    ENDIF
-
-[CHARDEF 02d9]
-//FIXME: Incomplete Stratics data
-DEFNAME=c_mimic
-NAME=mimic
-ICON=i_pet_mimic
-SOUND=snd_monster_mimic
-CAN=MT_WALK|MT_RUN|MT_NONHUM
-DAM=13,20
-ARMOR=60
-DESIRES=r_caves,t_coin,t_gold,t_gem,t_wand,t_potion,t_scroll,t_reagent
-AVERSIONS=t_trap,r_civilization
-FOODTYPE=t_meat_raw
-MAXFOOD=30
-RESOURCES=1 i_ribs_raw
-BLOODCOLOR=colors_blood
-MOVERATE=100
-TAG.Barding.Diff=111.4
-DamCold=20
-DamEnergy=20
-DamFire=20
-DamPoison=20
-TAG.OVERRIDE.SPIDERWEB=1
-TAG.SlayerGroup=SPIDER,ARACHNID
-TEVENTS=e_carnivores2
-CATEGORY=Monsters
-SUBSECTION=Spiders
-DESCRIPTION=Mimic
-ON=@Create
-   NPC=brain_monster
-   FAME={2500 2999}
-   KARMA={-2500 -2999}
-   STR={275 300}
-   MAXHITS={525 550}
-   DEX={120 140}
-   MAXSTAM={120 140}
-   INT={250 275}
-   MAXMANA={250 275}
-   EVALUATINGINTEL={95.0 105.0}
-   MAGERY={105.0 110.0}
-   MAGICRESISTANCE={45.0 60.0}
-   MEDITATION={95.0 105.0}
-   TACTICS={90.0 100.0}
-   WRESTLING={90.0 100.0}
-   MODAR={0 5}
-   RESCOLD={35 40}
-   RESENERGY={40 45}
-   RESFIRE={40 45}
-   RESPOISON={35 40}
-ON=@NpcRestock
-   ITEM=loot_mimic
 
 [CHARDEF 02da]
 DEFNAME=c_raptor
@@ -16917,76 +16796,6 @@ ON=@DeathCorpse
       ARGO.SAY THIS IS AN EX-PARROT!!'
    ENDDO
 
-[CHARDEF 0340]
-DEFNAME=c_phoenix
-NAME=Phoenix
-ICON=i_pet_phoenix_red
-SOUND=snd_monster_harpy1
-CAN=MT_WALK|MT_FLY|MT_NONHUM
-DAM=77,92
-ARMOR=45
-DESIRES=r_mountains,t_coin,t_gold,t_gem,t_wand,t_potion,t_scroll,t_reagent
-AVERSIONS=t_trap,r_civilization
-FOODTYPE=t_meat_raw
-MAXFOOD=55
-RESOURCES=1 i_bird_raw,36 i_feather
-BLOODCOLOR=colors_blood
-MOVERATE=100
-TAG.Barding.Diff=108.6
-DamFire=50
-TAG.SlayerGroup=BIRD
-TEVENTS=e_carnivores3
-CATEGORY=Monsters
-SUBSECTION=Miscellaneous
-DESCRIPTION=Phoenix
-ON=@Create
-//   TAG.DEATHFLAGS=DEATH_NOCORPSE//FIXME: Test this
-   NPC=brain_monster
-   FAME={5000 5499}
-   KARMA={-5000 -5499}
-   STR={500 700}
-   MAXHITS={340 390}
-   DEX={200 300}
-   MAXSTAM={200 300}
-   INT={500 700}
-   MAXMANA={500 700}
-   EVALUATINGINTEL={90.0 100.0}
-   MAGERY={90.0 100.0}
-   MAGICRESISTANCE={85.0 135.0}
-   MEDITATION={75.0 100.0}
-   TACTICS={80.0 90.0}
-   WRESTLING={90.0 100.0}
-   MODAR={0 10}
-   RESCOLD={0 5}
-   RESENERGY={40 50}
-   RESFIRE={60 70}
-   RESPOISON={25 35}
-ON=@NPCRestock
-   ITEM=loot_phoenix
-ON=@GetHit
-   //Fire Aura Attack
-   IF !(<R3>) && (<MANA> >= 20)
-      MANA -= 20
-      REF11=<UID>
-      FORCHARS 2
-         IF (<ISPLAYER>) || (<FLAGS>&statf_pet)
-            DAMAGE {10 20} <DEF.dam_fire> <REF11>
-            SYSMESSAGELOC color_text,1008112//"The intense heat is damaging you!"
-         ENDIF
-      END
-   ENDIF
-ON=@Death
-   // Death explosion
-   SERV.NEWITEM=i_fx_explode
-   NEW.TYPE=t_explosion
-   NEW.ATTR=attr_move_never|attr_decay
-   NEW.LINK=<UID>
-   NEW.MOREX=20  // damage amount
-   NEW.MOREY=dam_fire
-   NEW.MOREZ=3   // distance
-   NEW.P=<P>     // under body
-   NEW.TIMERD=1  // immediate decay
-
 [CHARDEF 03db]
 DEFNAME=c_man_gm
 NAME=GM
@@ -17570,46 +17379,6 @@ CAN=MT_WALK|MT_RUN|MT_USEHANDS|MT_EQUIP
 // These are here for backward compatibility //
 ///////////////////////////////////////////////
 
-[CHARDEF c_elemental_earth]
-ID=c_elemental_earth_summoned
-NAME=earth elemental
-ICON=i_pet_elem_earth
-SOUND=snd_elementl_erthel1
-CAN=MT_WALK|MT_USEHANDS
-DAM=31,49
-ARMOR=65
-//DESIRES=
-//AVERSIONS=
-//FOODTYPE=
-//MAXFOOD=
-//RESOURCES=
-BLOODCOLOR=colors_brown
-MOVERATE=100
-TAG.Barding.Diff=68.3
-FollowerSlots=2
-TAG.SlayerGroup=EARTHELEM,ELEMENTAL
-CATEGORY=Monsters
-SUBSECTION=Elementals
-DESCRIPTION=Earth Elemental
-ON=@Create
-   NPC=brain_monster
-   FAME={1500 1999}
-   KARMA={-1500 -1999}
-   STR={195 205}
-   MAXHITS={175 185}
-   DEX={65 75}
-   MAXSTAM={65 75}
-   INT={65 75}
-   MAXMANA={65 75}
-   MAGICRESISTANCE={60.0 70.0}
-   TACTICS={95.0 105.0}
-   WRESTLING={85.0 95.0}
-   MODAR={0 10}
-   RESCOLD={0 10}
-   RESENERGY={50 60}
-   RESFIRE={70 80}
-   RESPOISON={50 60}
-
 [CHARDEF c_elemental_fire]
 ID=c_elemental_fire_summoned
 NAME=fire elemental
@@ -17676,49 +17445,6 @@ ON=@Death
 //ON=@NPCSpecialAction
 //   SERV.LOG ARGN=<ARGN> OBJ=<OBJ.NAME> ACT=<ACT.NAME> DEF=<NAME>
 
-[CHARDEF c_elemental_water]
-ID=c_elemental_water_summoned
-NAME=water elemental
-ICON=i_pet_elem_water
-SOUND=snd_elementl_watrel1
-CAN=MT_WALK|MT_SWIM|MT_NONHUM
-DAM=35,45
-ARMOR=50
-//DESIRES=
-//AVERSIONS=
-//FOODTYPE=
-//MAXFOOD=
-//RESOURCES=
-BLOODCOLOR=colors_blue
-MOVERATE=100
-TAG.Barding.Diff=79.4
-FollowerSlots=3
-DamCold=100
-TAG.SlayerGroup=WATERELEM,ELEMENTAL
-CATEGORY=Monsters
-SUBSECTION=Elementals
-DESCRIPTION=Water Elemental
-ON=@Create
-   NPC=brain_monster
-   FAME={1500 1999}
-   KARMA={-1500 -1999}
-   STR={195 205}
-   MAXHITS={160 175}
-   DEX={65 75}
-   MAXSTAM={65 75}
-   INT={95 105}
-   MAXMANA={95 105}
-   EVALUATINGINTEL={75.0 85.0}
-   MAGERY={75.0 85.0}
-   MAGICRESISTANCE={70.0 80.0}
-   MEDITATION={85.0 95.0}
-   TACTICS={95.0 105.0}
-   WRESTLING={80.0 90.0}
-   MODAR={0 10}
-   RESCOLD={70 80}
-   RESENERGY={40 50}
-   RESFIRE={20 30}
-   RESPOISON={45 55}
 
 
 [CHARDEF c_blackthorn]
@@ -17959,47 +17685,6 @@ ON=@Hit
       SRC.SPELLEFFECT s_poison,<POISONING>,1,<UID>
    ENDIF
 
-[CHARDEF c_bogle]
-ID=c_ghoul
-NAME=bogle
-ICON=i_pet_ghoul
-SOUND=snd_monster_zombie1
-CAN=MT_WALK|MT_USEHANDS|MT_EQUIP
-DAM=11,18
-ARMOR=25
-DESIRES=r_jungle,t_coin,t_gold,t_gem
-AVERSIONS=t_trap,r_civilization
-FOODTYPE=t_meat_raw
-MAXFOOD=15
-RESOURCES=1 i_ribs_raw
-BLOODCOLOR=colors_blood
-MOVERATE=100
-TAG.SlayerGroup=UNDEAD
-TEVENTS=e_carnivores
-CATEGORY=Monsters
-SUBSECTION=Miscellaneous
-DESCRIPTION=Bogle
-ON=@Create
-   NPC=brain_monster
-   FAME={1000 1499}
-   KARMA={-1000 -1499}
-   STR={76 100}
-   MAXHITS={46 60}
-   DEX={76 95}
-   MAXSTAM={76 95}
-   INT={36 60}
-   MAXMANA={36 60}
-   MAGICRESISTANCE={45.0 60.0}
-   TACTICS={45.0 60.0}
-   WRESTLING={45.0 55.0}
-   MODAR={0 5}
-   RESCOLD={20 30}
-   RESENERGY={10 20}
-   RESFIRE=0
-   RESPOISON={5 10}
-ON=@NPCRestock
-   ITEM=loot_bogle
-
 [CHARDEF c_forest_lord]
 ID=c_champ_lord_oaks
 NAME=Forest Lord
@@ -18236,119 +17921,3 @@ ON=@NPCRestock
    ITEM=i_toxic_venom_sac,{1 3},R5
    //ITEM=i_map_treasure,1,R20
    //FIXME: slith eye, pottery fragments, magic items
-
-[CHARDEF c_silverback_gorilla]
-ID=c_gorilla
-NAME=Silverback Gorilla
-DAM=5,10
-ARMOR=23
-FOODTYPE=t_fruit
-RESOURCES=1 i_ribs_raw, 7 i_hide
-TAG.Barding.Diff=20.0
-CATEGORY=Animals
-SUBSECTION=Wild
-DESCRIPTION=Silverback Gorilla
-ON=@Create
-   COLOR=09c4
-   NPC=brain_monster
-   STR={79 106}
-   DEX={77 91}
-   INT={16 29}
-   MAXHITS={50 62}
-   WRESTLING={54.6 62.2}
-   TACTICS={64.8 69.5}
-   MAGICRESISTANCE={30.3 34.5}
-   RESPHYSICAL={20 25}
-   RESFIRE={10 15}
-   RESCOLD={20 25}
-   RESPOISON={40 50}
-   RESENERGY={10 15}
-
-[CHARDEF c_infernus]
-ID=c_rai_ju
-NAME=Infernus
-DAM=11,14
-DAMFIRE=100
-ARMOR=50
-TAG.Barding.Diff=60.0
-CATEGORY=Monsters
-SUBSECTION=Miscellaneous
-DESCRIPTION=Infernus
-ON=@Create
-   COLOR=0777
-   NPC=brain_monster
-   FAME=10000
-   KARMA=-10000
-   STR={318 400}
-   DEX={97 115}
-   INT={184 266}
-   MAXHITS={202 245}
-   WRESTLING={65.1 79.1}
-   TACTICS={56.4 66.6}
-   MAGICRESISTANCE={91.5 98.2}
-   RESPHYSICAL={45 55}
-   RESFIRE={80 90}
-   RESCOLD={25 35}
-   RESPOISON={40 50}
-   RESENERGY={35 45}
-
-[CHARDEF c_greater_phoenix]
-ID=c_phoenix
-NAME=Greater Phoenix
-DAM=11,14
-DAMFIRE=60
-ARMOR=50
-TAG.Barding.Diff=80.0
-CATEGORY=Monsters
-SUBSECTION=Miscellaneous
-DESCRIPTION=Greater Phoenix
-ON=@Create
-   NPC=brain_monster
-   FAME=10000
-   KARMA=-10000
-   STR={332 386}
-   DEX={97 113}
-   INT={182 258}
-   MAXHITS={119 240}
-   WRESTLING={65.2 75.7}
-   TACTICS={50.9 69.6}
-   MAGICRESISTANCE={91.4 99.9}
-   MAGERY={90.5 99.1}
-   EVALUATINGINTEL={91.9 99.7}
-   RESPHYSICAL={45 55}
-   RESFIRE={70 80}
-   RESCOLD={20 30}
-   RESPOISON={40 50}
-   RESENERGY={35 45}
-
-[CHARDEF c_myrmidex_drone]
-ID=c_solen_worker
-NAME=Myrmidex Drone
-DAM=6,12
-DAMPOISON=50
-ARMOR=2
-FOODTYPE=t_meat_raw
-RESOURCES=4 i_ribs_raw
-TAG.Barding.Diff=40.0
-CATEGORY=Monsters
-SUBSECTION=Myrmidex
-DESCRIPTION=Myrmidex Drone
-ON=@Create
-   COLOR=0a74
-   NPC=brain_monster
-   FAME=
-   KARMA=
-   STR={76 104}
-   DEX={96 136}
-   INT={25 44}
-   MAXHITS={460 597}
-   WRESTLING={41.1 49.8}
-   TACTICS={30.1 49.0}
-   MAGICRESISTANCE={30.1 43.5}
-   RESPHYSICAL=2
-   RESFIRE={1 2}
-   RESCOLD={1 2}
-   RESPOISON={3 4}
-   RESENERGY={1 2}
-
-[EOF]

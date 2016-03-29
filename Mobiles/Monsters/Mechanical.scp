@@ -238,7 +238,7 @@ Description=Exodus Drone
 
 On=@Create
 NPC=BrainMonster
-Color=04E6	// Possibly 079F?
+Color=02F4
 
 Fame=10000
 Karma=-10000
@@ -295,7 +295,7 @@ Description=Exodus Sentinel
 
 On=@Create
 NPC=BrainMonster
-Color=04E6	// Possibly 079F?
+Color=02F4
 
 Fame=18000
 Karma=-18000
@@ -353,7 +353,7 @@ Description=Exodus Juggernaut
 
 On=@Create
 NPC=BrainMonster
-Color=
+Color=02F4
 
 Fame=10000
 Karma=-10000

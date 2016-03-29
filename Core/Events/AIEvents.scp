@@ -261,4 +261,35 @@ On=@DeathCorpse
 NewLoot=VollemLoot
 
 
+/////////////
+// Aquatic //
+/////////////
+
+[Events AIParalithode]
+On=@Create
+Action=Skill_Hiding
+ActDiff=1
+
+On=@NPCActFight
+If (<R19>)
+ Local.Skill=Skill_Hiding
+ ActDiff=1
+EndIf
+
+On=@NPCAction
+If (<Action> == Skill_Hiding) || (<Action> == Skill_Stealth)
+ ActDiff=1
+ Return 1
+EndIf
+
+On=@CombatEnd
+If (<Hits>)
+ Action=Skill_Hiding
+ ActDiff=1
+EndIf
+
+On=@DeathCorpse
+NewLoot=ParalithodeLoot
+
+
 [EOF]

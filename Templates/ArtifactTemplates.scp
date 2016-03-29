@@ -1,0 +1,62 @@
+[Template RandomDoomArtifact]
+Category=Templates
+Subsection=Artifacts: Doom Artifacts
+Description=Doom Artifact
+Item={iAegis 1 iArcaneShield 1 iArmorOfFortune 1 iAxeOfTheHeavens 1 iTheBerserkersMaul 1 iBladeOfInsanity 1 iBoneCrusher 1 iBraceletOfHelath 1 iBreathOfTheDead 1 iDivineCountenance 1 iTheDragonSlayer 1 iTheDryadBow 1 iFrostbringer 1 iGauntletsOfNobility 1 iHatOfTheMagi 1 iHelmOfInsight 1 iHolyKnightsBreastplate 1 iHuntersHeaddress 1 iJackalsCollar 1 iLegacyOfTheDreadLord 1 iLeggingsOfBane 1 iMidnightBracers 1 iOrnamentOfTheMagician 1
+iOrnateCrownOfTheHarrower 1 iRingOfTheElements 1 iRingOfTheVile 1 iSerpentsFang 1 iShadowDancerLeggings 1 iSpiritOfTheTotem 1 iStaffOfTheMagi 1 iTaskmaster 1 iTunicOfFire 1 iVoiceOfTheFallenKing 1}
+
+
+[Template RandomTokunoMinorArtifact]
+Category=Templates
+Subsection=Artifacts: Treasures of Tokuno
+Description=Tokuno Minor Artifact
+Item={iAncientFarmersKasa 1 iAncientSamuraiDo 1 iAncientUrn 1 iArmsOfTacticalExcellence 1 iBlackLotusHood 1 iChestOfHeirlooms 1 iDaimyosHelm 1 iDemonForks 1 iTheDestroyer 1 iDragonNunchaku 1 iExiler 1 iFluteOfRenewal 1 iGlovesOfTheSun 1 iHanzosBow 1 iHonorableSwords 1 iLegsOfStability 1 iLeurociansMempoOfFortune 1 iPeasantsBokuto 1 iPilferedDancerFans 1 iTomeOfEnlightenment 1}
+// Needs earthen, colored, and plain tokuno pigments
+
+
+[Template RandomTokunoMajorArtifact]
+Category=Templates
+Subsection=Artifacts: Treasures of Tokuno
+Description=Tokuno Major Artifact
+Item={iDarkenedSky 1 iKasaOfTheRajIn 1 iRuneBeetleCarapace 1 iStormgrip 1 iSwordOfTheStampede 1 iSwordsOfProsperity 1 iTheHorselord 1 iTomeOfLostKnowledge 1 iWindsEdge 1}
+// NEeds pigments of tokuno greater metal and neon.
+
+
+[Template RandomVirtueArtifact]
+Category=Templates
+Subsection=Artifacts: Virtue
+Description=Virtue Artifact
+Item={i10thAnniversarySculpture 1 iMapOfTheKnownWorld 1 iAnkhPendant 1 iArmsOfCompassion 1 iBreastplateOfJustice 1 iDragonsEnd 1 iGauntletsOfValor 1 iGorgetOfHonesty 1 iHelmOfSpirituality 1 iJaanasStaff 1 iKatrinasCrook 1 iLegsOfHonor 1 iLordBlackthornsExemplat 1 iSentinelsGuard 1 iSolleretsOfJustice 1}
+// iCloakOfHumility was gotten from a quest.
+
+
+[Template RandomParagonArtifact]
+Category=Templates
+Subsection=Artifacts: Traditional Minor
+Description=Paragon Artifact
+Item={iAlchemistsBauble 1 iArcticDeathDealer 1 iBlazeOfDeath 1 iBowOfTheJukaKing 1 iBurglarsBandana 1 iCavortingClub 1 iEnchantedTitanLegBone 1 iGlovesOfThePugilist 1 iGoldBricks 1 iGwennosHarp 1 iHeartOfTheLion 1 iIolosLute 1 iLunaLance 1 iNightsKiss 1 iNoxRangersHeavyCrossbow 1 iOrcishVisage 1 iPhillipsWoodenSteed 1 iPixieSwatter 1 iPolarBearmask 1 iShieldOfInvulnerability 1 iStaffOfPower 1 iVioletCourage 1 iWrathOfTheDryad 1}
+
+
+[Template RandomLeviathanArtifact]
+Category=Templates
+Subsection=Artifacts: Traditional Minor
+Description=Leviathan Artifact
+Item={iAlchemistsBauble 1 iArcticDeathDealer 1 iBlazeOfDeath 1 iBurglarsBandana 1 iCandelabraOfSouls 1 iCaptainQuacklebushsCutlass 1 iCavortingClub 1 iDreadPirateHat 1 iEnchantedTitanLegBone 1 iGhostShipAnchor 1 iGoldBricks 1 iGwennosHarp 1 iIolosLute 1 iLunaLance 1 iNightsKiss 1 iNoxRangersHeavyCrossbow 1 iPhillipsWoodenSteed 1 iPolarBearmask 1 iSeahorseStatuette 1 iShipModelOfTheHMSCape 1 iTheAdmiralsHeartyRum 1 iVioletCourage 1}
+
+
+[Template RandomTreasureMapArtifact]
+Category=Templates
+Subsection=Artifacts: Traditional Minor
+Description=Treasure Map Artifact
+Item={iCreepingVine 1 iAlchemistsBauble 1 iArcticDeathDealer 1 iBlazeOfDeath 1 iBurglarsBandana 1 iCandelabraOfSouls 1 iCaptainQuacklebushsCutlass 1 iCavortingClub 1 iColdBlood 1 iDreadPirateHat 1 iEnchantedTitanLegBone 1 iForgedPardon 1 iGoldBricks 1 iGwennosHarp 1 iHeartOfTheLion 1 iIolosLute 1 iLunaLance 1 iManaPhasingOrb 1 iNightsKiss 1 iNoxRangersHeavyCrossbow 1 iPhillipsWoodenSteed 1 iPolarBearmask 1 iRunedSashOfWarding 1 iShipModelOfTheHMSCape 1 iSurgeShield 1 iShieldOfInvulnerability 1 iTheAdmiralsHeartyRum 1 iVioletCourage 1}
+
+
+[Template RandomMondainsLegacyArtifact]
+DefName=RandomMLArtifact
+Category=Templates
+Subsection=Artifacts: Mondain's Legacy
+Description=Mondain's Legacy Artifact
+Item={iAegisOfGrace 1 iBladeDance 1 iBloodwoodSpirit 1 iBonesmasher 1 iBoomstick 1 iBrightsightLenses 1 iFeyLeggings 1 iFleshRipper 1 iHelmOfSwiftness 1 iPadsOfTheCuSidhe 1 iQuiverOfRage 1 iQuiverOfTheElements 1 iRaedsGlory 1 iRighteousAnger 1 iRobeOfTheEclipse 1 iRobeOfTheEquinox 1 iSoulSeeker 1 iTalonBite 1 iTotemOfTheVoid 1 iWildfireBow 1 iWindsong 1}
+
+
+[EOF]

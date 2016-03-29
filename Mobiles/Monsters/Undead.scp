@@ -1,12 +1,6 @@
 [Comment Notes]
 Tons of annotations in Ability# slots. Please do not use. This will be going to AI.
 
-[DefName Compaibitility]
-SkeletonKnight=SkeletalKnight
-BoneKnight=SkeletalKnight
-SkeletonMage=SkeletalMage
-BoneMage=SkeletalMage
-BoneMagi=SkeletalMage
 
 // Zombie
 [CharDef 03]
@@ -249,7 +243,7 @@ NewGold={50 100}
 
 // Spectre
 [CharDef 01A]
-DefName=cSpectre
+DefName=cSpectre1
 Name=spectre
 Can=CanWalk|CanUseHands
 MoveRate=100
@@ -311,6 +305,71 @@ NewGold={50 100}
 
 On=@DeathCorpse
 NewItem=RandomMageryReagent,10
+
+
+// Spectre
+[CharDef 02EC]
+DefName=cSpectre2
+Name=spectre
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=7,11
+Icon=iSpectreIcon
+Sound=sndGhoul1
+Resources=0
+FoodType=tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=rGraveyard
+BloodColor=0
+TEvents=eAIUndead
+
+Category=Monsters
+Subsection=Undead
+Description=Spectre
+
+On=@Create
+NPC=BrainMonster
+Color=SpectralHue
+SlayerSuper=UndeadSlayer
+
+Fame=4000
+Karma=-4000
+Alignment=Evil
+
+DamPhysical=50
+DamFire=0
+DamCold=50
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=25,35
+ResFire=0
+ResCold=15,25
+ResPoison=10,20
+ResEnergy=0
+
+OStr={76 100}
+ODex={76 95}
+OInt={36 60}
+MaxHits={46 60}
+
+Wrestling={451 550}
+Tactics={451 600}
+MagicResistance={451 600}
+Parrying={451 600}
+Magery={551 700}
+EvaluatingIntel={551 700}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={50 100}
+
+On=@DeathCorpse
+NewItem=RandomMageryReagent,10
+
 
 [CharDef cShade]
 ID=cSpectre
@@ -1869,6 +1928,7 @@ NewItem={RandomBone 1 RandomBodyPart 1}
 NewItem={RandomBone 1 RandomBodyPart 1}
 NewItem={RandomBone 1 RandomBodyPart 1}
 
+
 [CharDef 03CA]
 DefName=cRevenant
 Name=revenant
@@ -2293,8 +2353,8 @@ Parrying=500
 
 // Wailing Banshee
 [CharDef 0136]
-DefName=cWailingBanshee
-Name=howling banshee
+DefName=cWailingBanshee1
+Name=wailing banshee
 Can=CanWalk|CanUseHands
 MoveRate=100
 Dam=10,14
@@ -2310,7 +2370,7 @@ TEvents=eAIUndead
 
 Category=Monsters
 Subsection=Undead
-Description=Howling Banshee
+Description=Wailing Banshee
 
 On=@Create
 NPC=BrainMonster
@@ -2348,6 +2408,66 @@ Parrying={551 800}
 
 On=@NPCRestock
 NewGold={50 100}
+
+
+// Wailing Banshee
+[CharDef 02EB]
+DefName=cWailingBanshee2
+Name=wailing banshee
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=10,14
+Icon=iHowlingBasheeIcon
+Sound=sndGhoul1
+Resources=0
+FoodType=tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=rGraveyard
+BloodColor=0
+TEvents=eAIUndead
+
+Category=Monsters
+Subsection=Undead
+Description=Wailing Banshee
+
+On=@Create
+NPC=BrainMonster
+CanDefend=0
+SlayerSuper=UndeadSlayer
+
+Fame=1500
+Karma=-1500
+Alignment=Evil
+
+Ability1=s_MortalStrike
+Ability2=s_LifeLeech
+
+DamPhysical=20
+DamFire=0
+DamCold=60
+DamPoison=20
+DamEnergy=0
+
+ResPhysical=50,60
+ResFire=25,30
+ResCold=70,80
+ResPoison=30,40
+ResEnergy=40,50
+
+OStr={126 150}
+ODex={76 100}
+OInt={86 110}
+MaxHits={76 90}
+
+Wrestling={301 550}
+Tactics={551 800}
+MagicResistance={701 950}
+Parrying={551 800}
+
+On=@NPCRestock
+NewGold={50 100}
+
 
 // Undead Gargoyle
 [CharDef 02D2]
@@ -2909,6 +3029,7 @@ NewItem=RandomMageryReagent,{10 15}
 NewItem={RandomBone 1 RandomBodyPart 1}
 NewItem={RandomBone 1 RandomBodyPart 1}
 
+
 // Skeletal Lich
 [CharDef cSkeletalLich]
 ID=cBoneDaemon
@@ -2989,6 +3110,8 @@ NewItem=RandomNecromancyReagent,{10 15}
 NewItem={RandomBone 1 RandomBodyPart 1}
 NewItem={RandomBone 1 RandomBodyPart 1}
 //NewItem={{iConjurersGrimoire 1 iConjurersTrinket 1} 1 0 19}
+
+
 // Interred Grizzle
 [CharDef 0103]
 DefName=cInterredGrizzle

@@ -270,10 +270,10 @@ Item=iPowerCrystal,{1 2},R19
 Item=iClockworkAssembly,1,R19
 
 
-[Template ExodusMinionLoot]
+[Template ExodusMinionLordLoot]
 Category=Templates: NPC Loot
 Subsection=Monsters: Mechanical
-Description=Exodus Overseer
+Description=Exodus Minion Lord
 Item=iArcaneGem,{2 4},R4
 Item=iPowerCrystal,{1 2},R9
 Item=iClockworkAssembly,{1 2},R9
@@ -328,6 +328,65 @@ Item=RandomPotion
 Item=RandomLowLevelScroll,1
 Item=RandomGargoyleWeapon,1,R3
 Item={RandomGargoyleArmor 1 RandomGargoyleShield 1},1,R3
+
+
+/////////////
+// Aquatic //
+/////////////
+
+
+[Template ParalithodeLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Aqautic
+Description=Paralithode
+Item=RandomCommonGem,1
+Item=iFertileDirt,2
+
+
+[Template SeaSerpentLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Aqautic
+Description=Sea Serpent
+NewTMap={1 2}
+Item=iSpecialFishingNet,1,R19
+Item=iMessageInABottle,1,R19
+
+
+[Template DeepSeaSerpentLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Aqautic
+Description=Deep Sea Serpent
+NewTMap=3
+Item=iSpecialFishingNet,1,R19
+Item=iMessageInABottle,1,R19
+Item=iBlackPearl,4
+Item=iSulfurousAsh,4
+
+
+[Template KrakenLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Aqautic
+Description=Kraken
+NewTMap=4
+Item=iMessageInABottle,1,R19
+Item=iRope,1,R4
+
+
+[Template LeviathanLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Aqautic
+Description=Leviathan
+Item=iMessageInABottle,1
+Item=iRope,2
+
+
+[Template HydraLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Aqautic
+Description=Hydra
+Item=iHydraScale,1
+Item=iThorvaldsMedallion,1,R19
+Item=iPetParrot,1,R19
 
 
 [EOF]
