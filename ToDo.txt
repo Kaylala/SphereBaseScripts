@@ -1,5 +1,10 @@
 To Do Reminder
 
+Templates:
+- Finish Stealen Artifacts lists (It really isn't needed, but for conformity sakes)
+- Craftable Artifacts (As above)
+- Finish Miscellaneous artifact templates (Uses used already, but not defined)
+
 Events:
 - AISolenwarrior: Combat Events
 - AISolenQueen: Combat Events
@@ -7,7 +12,6 @@ Events:
 Items:
 - iBraceletOfBinding
 - iPicnicBasket
-- iZoogiFungus
 - iPetSummoningBall
 
 Mobiles:

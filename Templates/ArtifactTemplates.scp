@@ -9,13 +9,15 @@ Crimson Cincture does come on corpse and not pack, but it has been given in pack
 [Template RandomDoomArtifact]
 Category=Templates
 Subsection=Artifacts: Dooms
-Item={iAegis 1 iArcaneShield 1 iArmorOfFortune 1 iAxeOfTheHeavens 1 iTheBerserkersMaul 1 iBladeOfInsanity 1 iBoneCrusher 1 iBraceletOfHelath 1 iBreathOfTheDead 1 iDivineCountenance 1 iTheDragonSlayer 1 iTheDryadBow 1 iFrostbringer 1 iGauntletsOfNobility 1 iHatOfTheMagi 1 iHelmOfInsight 1 iHolyKnightsBreastplate 1 iHuntersHeaddress 1 iJackalsCollar 1 iLegacyOfTheDreadLord 1 iLeggingsOfBane 1 iMidnightBracers 1 iOrnamentOfTheMagician 1
+Description=Doom Drop
+Item={iAegis 1 iArcaneShield 1 iArmorOfFortune 1 iAxeOfTheHeavens 1 iTheBerserkersMaul 1 iBladeOfInsanity 1 iBoneCrusher 1 iBraceletOfHealth 1 iBreathOfTheDead 1 iDivineCountenance 1 iTheDragonSlayer 1 iTheDryadBow 1 iFrostbringer 1 iGauntletsOfNobility 1 iHatOfTheMagi 1 iHelmOfInsight 1 iHolyKnightsBreastplate 1 iHuntersHeaddress 1 iJackalsCollar 1 iLegacyOfTheDreadLord 1 iLeggingsOfBane 1 iMidnightBracers 1 iOrnamentOfTheMagician 1
 iOrnateCrownOfTheHarrower 1 iRingOfTheElements 1 iRingOfTheVile 1 iSerpentsFang 1 iShadowDancerLeggings 1 iSpiritOfTheTotem 1 iStaffOfTheMagi 1 iTaskmaster 1 iTunicOfFire 1 iVoiceOfTheFallenKing 1}
 
 
 [Template RandomTokunoMinorArtifact]
 Category=Templates
 Subsection=Artifacts: Treasures of Tokuno
+Description=Tokuno Minor Drop
 Item={iAncientFarmersKasa 1 iAncientSamuraiDo 1 iAncientUrn 1 iArmsOfTacticalExcellence 1 iBlackLotusHood 1 iChestOfHeirlooms 1 iDaimyosHelm 1 iDemonForks 1 iTheDestroyer 1 iDragonNunchaku 1 iExiler 1 iFluteOfRenewal 1 iGlovesOfTheSun 1 iHanzosBow 1 iHonorableSwords 1 iLegsOfStability 1 iLeurociansMempoOfFortune 1 iPeasantsBokuto 1 iPilferedDancerFans 1 iTomeOfEnlightenment 1}
 // Needs earthen, colored, and plain tokuno pigments
 
@@ -23,6 +25,7 @@ Item={iAncientFarmersKasa 1 iAncientSamuraiDo 1 iAncientUrn 1 iArmsOfTacticalExc
 [Template RandomTokunoMajorArtifact]
 Category=Templates
 Subsection=Artifacts: Treasures of Tokuno
+Description=Tokuno Major Turn-in
 Item={iDarkenedSky 1 iKasaOfTheRajIn 1 iRuneBeetleCarapace 1 iStormgrip 1 iSwordOfTheStampede 1 iSwordsOfProsperity 1 iTheHorselord 1 iTomeOfLostKnowledge 1 iWindsEdge 1}
 // NEeds pigments of tokuno greater metal and neon.
 
@@ -30,6 +33,7 @@ Item={iDarkenedSky 1 iKasaOfTheRajIn 1 iRuneBeetleCarapace 1 iStormgrip 1 iSword
 [Template RandomVirtueArtifact]
 Category=Templates
 Subsection=Artifacts: Virtue
+Description=Virtue Drop
 Item={i10thAnniversarySculpture 1 iMapOfTheKnownWorld 1 iAnkhPendant 1 iArmsOfCompassion 1 iBreastplateOfJustice 1 iDragonsEnd 1 iGauntletsOfValor 1 iGorgetOfHonesty 1 iHelmOfSpirituality 1 iJaanasStaff 1 iKatrinasCrook 1 iLegsOfHonor 1 iLordBlackthornsExemplat 1 iSentinelsGuard 1 iSolleretsOfJustice 1}
 // iCloakOfHumility was gotten from a quest.
 
@@ -37,18 +41,21 @@ Item={i10thAnniversarySculpture 1 iMapOfTheKnownWorld 1 iAnkhPendant 1 iArmsOfCo
 [Template RandomParagonArtifact]
 Category=Templates
 Subsection=Artifacts: Traditional Minor
+Description=Paragon Drop
 Item={iAlchemistsBauble 1 iArcticDeathDealer 1 iBlazeOfDeath 1 iBowOfTheJukaKing 1 iBurglarsBandana 1 iCavortingClub 1 iEnchantedTitanLegBone 1 iGlovesOfThePugilist 1 iGoldBricks 1 iGwennosHarp 1 iHeartOfTheLion 1 iIolosLute 1 iLunaLance 1 iNightsKiss 1 iNoxRangersHeavyCrossbow 1 iOrcishVisage 1 iPhillipsWoodenSteed 1 iPixieSwatter 1 iPolarBearmask 1 iShieldOfInvulnerability 1 iStaffOfPower 1 iVioletCourage 1 iWrathOfTheDryad 1}
 
 
 [Template RandomLeviathanArtifact]
 Category=Templates
 Subsection=Artifacts: Traditional Minor
+Description=Leviathan Drop
 Item={iAlchemistsBauble 1 iArcticDeathDealer 1 iBlazeOfDeath 1 iBurglarsBandana 1 iCandelabraOfSouls 1 iCaptainQuacklebushsCutlass 1 iCavortingClub 1 iDreadPirateHat 1 iEnchantedTitanLegBone 1 iGhostShipAnchor 1 iGoldBricks 1 iGwennosHarp 1 iIolosLute 1 iLunaLance 1 iNightsKiss 1 iNoxRangersHeavyCrossbow 1 iPhillipsWoodenSteed 1 iPolarBearmask 1 iSeahorseStatuette 1 iShipModelOfTheHMSCape 1 iTheAdmiralsHeartyRum 1 iVioletCourage 1}
 
 
 [Template RandomTreasureMapArtifact]
 Category=Templates
 Subsection=Artifacts: Traditional Minor
+Description=Treasure Map Drop
 Item={iACreepingVine 1 iAlchemistsBauble 1 iArcticDeathDealer 1 iBlazeOfDeath 1 iBurglarsBandana 1 iCandelabraOfSouls 1 iCaptainQuacklebushsCutlass 1 iCavortingClub 1 iColdBlood 1 iDreadPirateHat 1 iEnchantedTitanLegBone 1 iForgedPardon 1 iGoldBricks 1 iGwennosHarp 1 iHeartOfTheLion 1 iIolosLute 1 iLunaLance 1 iManaPhasingOrb 1 iNightsKiss 1 iNoxRangersHeavyCrossbow 1 iPhillipsWoodenSteed 1 iPolarBearmask 1 iRunedSashOfWarding 1 iShipModelOfTheHMSCape 1 iSurgeShield 1 iShieldOfInvulnerability 1 iTheAdmiralsHeartyRum 1 iVioletCourage 1}
 
 
@@ -56,6 +63,7 @@ Item={iACreepingVine 1 iAlchemistsBauble 1 iArcticDeathDealer 1 iBlazeOfDeath 1 
 DefName=RandomMIBArtifact
 Category=Templates
 Subsection=Artifacts: Message in a Bottle
+Description=Message in a Bottle Drop
 Item={iANANtiqueWeddingDress 1 iBronzedArmorOfTheValkyrie 1 iEnchantedKelpWovenLeggings 1 iRunedDriftwoodBow 1}
 
 
@@ -63,7 +71,36 @@ Item={iANANtiqueWeddingDress 1 iBronzedArmorOfTheValkyrie 1 iEnchantedKelpWovenL
 DefName=RandomMLArtifact
 Category=Templates
 Subsection=Artifacts: Mondain's Legacy
+Description=Mondain's Legacy Drop
 Item={iAegisOfGrace 1 iBladeDance 1 iBloodwoodSpirit 1 iBonesmasher 1 iBoomstick 1 iBrightsightLenses 1 iFeyLeggings 1 iFleshRipper 1 iHelmOfSwiftness 1 iPadsOfTheCuSidhe 1 iQuiverOfRage 1 iQuiverOfTheElements 1 iRaedsGlory 1 iRighteousAnger 1 iRobeOfTheEclipse 1 iRobeOfTheEquinox 1 iSoulSeeker 1 iTalonBite 1 iTotemOfTheVoid 1 iWildfireBow 1 iWindsong 1}
+
+
+[Template RandomAraratArtifact]
+Category=Templates
+Subsection=Artifacts: Ararat
+Description=Ararat
+Item={iAbhorrence 1 RandomCaptainJohnesBlade 1 iCraven 1 RandomEquivocation 1 RandomPincer 1}
+
+
+[Template RandomCovetousArtifact]
+Category=Templates
+Subsection=Artifacts: Covetous
+Description=Covetous
+Item={iBraceletOfProtection 1 RandomHephaestus 1 RandomBlightOfTheTundra 1 RandomPrismaticLenses 1 RandomBrightBlade 1}
+
+
+[Template RandomDespiseArtifact]
+Category=Templates
+Subsection=Artifacts: Despise
+Description=Despise
+Item={iCompassionsEye 1 {iUnicornManeWovenSandals 1 iUnicornManeWovenTalons 1} 1 iDespicableQuiver 1 iUnforgivenVeil 1 RandomHailstorm 1}
+
+
+[Template RandomShadowguardArtifact]
+Category=Templates
+Subsection=Artifacts: Shadowguard
+Description=Shadowguard
+Item={RandomAnonsBoots 1 iAnonsSpellbook 1 RandomBalakaisShamanStaff 1 iEnchantressCameo 1 RandomGrugorsShield 1 RandomHalawasHuntingBow 1 iHawkwindsRobe 1 RandomJumusSacredHide 1 iJuonarsGrimoire 1 RandomLereisHuntingSpear 1 RandomMinaxsSandals 1 iMocapotlsObsidianSword 1 RandomOzmandiasObi 1 RandomShantysWaders 1 iTotemOfTheTribe 1 RandomWamapsBoneEarrings 1 iUnstableTimeRift 1}
 
 
 //////////////
@@ -160,6 +197,13 @@ Category=Templates
 Subsection=Artifacts: Peerless
 Description=Stygian Dragon
 Item={iCrimsonCincture 1 iBurningAmber 1 iDraconisWrath 1 iDragonHideShield 1 iFallenMysticsSpellbook 1 iLifeSyphon 1 RandomSignOfOrder 1 iVampiricEssence 1 iAxesOfFury 1 iGiantSteps 1 iPetrifiedSnake 1 iStoneDragonsTooth 1 iSummonersKilt 1 iTokenOfHolyFavor 1}
+
+
+[Template RandomSlasherOfVeilsArtifact]
+Category=Templates
+Subsection=Artifacts: Peerless
+Description=Slasher of Veils
+Item={iClawsOfTheBerserker 1 iLavaliere 1 iMangler 1 RandomSignOfChaos 1 RandomStandardOfChaos 1 iAxesOfFury 1 iBladeOfBattle 1 iDemonBridleRing 1 iPEtrifiedSnake 1 iPillarOfStrength 1 iSwordOfShatteredHopes 1 iSummonersKilt 1}
 
 
 //////////////
@@ -261,6 +305,211 @@ Item={iAnimatedLegsOfTheInsaneTinker 1 iPillarOfStrength 1 iStormCaller 1}
 ////////////////////
 // Champion Spawn //
 ////////////////////
+
+
+[Template RandomAbyssalInfernalArtifact]
+Category=Templates
+Subsection=Artifacts: Champion Spawn
+Description=Abyssal Infernal
+Item={iTongueOfTheBeast 1 iMagicalDoor 1 iArchdemonStatue 1 iRoyalGuardInvestigator 1 iJadeArmband 1 iDetectiveBoots 1 iDeathsHead 1 iWallOfHungryMouths 1 iAbyssalBlade 1}
+
+
+[Template RandomBarracoonThePiperArtifact]
+Category=Templates
+Subsection=Artifacts: Champion Spawn
+Description=Barracoon the Piper
+Item={iFangOfRactus 1 iSwampTile 1 iSlimeStatuette 1 iEmbroideredOakLeafCloak 1 iDjinnisRing 1 iDetectiveBoots 1 iGauntletsOfAnger 1}
+
+
+[Template RandomHarrowerArtifact]
+Category=Templates
+Subsection=Artifacts: Champion Spawn
+Description=Harrower
+Item={iAcidProofRobe 1 iEvilIdolSkull 1 iSkullPole 1 iTheRobeOfBritanniaAri 1}
+
+
+[Template RandomIlhenirTheStainedArtifact]
+Category=Templates
+Subsection=Artifacts: Champion Spawn
+Description=Ilhenir the Stained
+Item={iPlagueBeastStatue 1 iRedDeathStatue 1 iANecromancerShroud 1 iLieutenantOfTheBritannianRoyalGuard 1 iOblivionsNeedle 1 iTheRobeOfBritanniaAri 1}
+
+
+[Template RandomLordOaksArtifact]
+Category=Templates
+Subsection=Artifacts: Champion Spawn
+Description=Lord Oaks
+Item={iOrcChieftainHelm 1 iWaterTile 1 iWindSpirit 1 iPier 1 iRoyalGuardSurvivalKnife 1 iDjinnisRing 1 iLieutenantOfTheBritannianRoyalGuard 1 iSamaritanRobe 1 iDetectiveBoots 1 iTheMostKnowledgePerson 1}
+
+
+[Template RandomMephitisArtifact]
+Category=Templates
+Subsection=Artifacts: Champion Spawn
+Description=Mephitis
+Item=[iCalm 1 RandomWeb 1 iSpiderStatue 1 iOblivionsNeedle 1 iANecromancerShroud 1]
+
+
+[Template RandomMeraktusTheTormentedArtifact]
+Category=Templates
+Subsection=Artifacts: Champion Spawn
+Description=Meraktus the Tormented
+Item={iSubdue 1 iLargeVase 1 iSmallVase 1 iTormentedMinotaurStatuette 1 iRoyalGuardSurvivalKnife 1 iTheMostKnowledgePerson 1 iOblivionsNeedle 1}
+
+
+[Template RandomNeiraTheNecromancerArtifact]
+Category=Templates
+Subsection=Artifacts: Champion Spawn
+Description=Neira the Necromancer
+Item={iShroudOfDeceit 1  iWallBloodTile 1 iTatteredAncientMummyWrapping 1 iANecromancerShroud 1 iDetectiveBoots 1 iCaptainJohnsHat 1}
+
+
+[Template RandomPrimevalLichArtifact]
+Category=Templates
+Subsection=Artifacts: Champion Spawn
+Description=Primeval Lich
+Item={iLightsRampart 1 iMummifiedCorpse 1 iTheMostKnowledgePerson 1 iProtectorOfTheBattleMage 1 iChannelersDefender 1 iLieutenantOfTheBritannianRoyalGuard 1 iBansheesCall 1 iCastOffZombieSkin 1 iTokenOfHolyFavor 1}
+
+
+[Template RandomRikktorArtifact]
+Category=Templates
+Subsection=Artifacts: Champion Spawn
+Description=Rikktor
+Item={iCrownOfTalKeesh 1 iLavaTile 1 iOphidianArchMageStatue 1 iOphidianWarriorStatue 1 iTheMostKnowledgePerson 1 iBraveKnightOfBritannia 1 iLieutenantOfTheBritannianRoyalGuard 1}
+
+
+[Template RandomSeradoTheAwakenedArtifact]
+Category=Templates
+Subsection=Artifacts: Champion Spawn
+Description=Serado the Awakened
+Item={iPacify 1 iFuton 1 iSwampTile 1 iBraveKnightOfBritannia 1 iDetectiveBoots 1 iEmbroideredOakLeafCloak 1 iLieutenantOfTheBritannianRoyalGuard 1}
+
+
+[Template RandomSemidarArtifact]
+Category=Templates
+Subsection=Artifacts: Champion Spawn
+Description=Semidar
+Item={iGladiatorsCollar 1 iLavaTile 1 iDemonSkull 1 iLieutenantOfTheBritannianRoyalGuard 1 iRoyalGuardSurvivalKnife 1 iTheMostKnowledgePerson 1}
+
+
+[Template RandomTwauloOfTheGladeArtifact]
+Category=Templates
+Subsection=Artifacts: Champion Spawn
+Description=Twaulo of the Glade
+Item={iQuell 1 iRock 1 iRocks iPier 1 iDreadHornStatue 1 iTheMostKnowledgePerson 1 iOblivionsNeedle 1 iBraveKnightOfBritannia 1}
+
+
+///////////
+// Named //
+///////////
+
+
+[Template RandomNavreyNightEyesArtifact]
+Category=Templates
+Subsection=Artifacts: Named
+Description=Navrey Night-Eyes
+Item={iNightEyes 1 iTangle 1 iBladeOfBattle 1 iDemonBridleRing 1 iGiantSteps 1 iStormCaller 1 iSwordOfShatteredHopes 1 iSummonersKilt 1 iTokenOfHolyFavor 1 iVenom 1}
+
+
+[Template RandomNiporailemArtifact]
+Category=Templates
+Subsection=Artifacts: Named
+Description=Niporailem
+Item={iSwordOfShatteredHopes 1 iDemonBridleRing 1 iGiantSteps 1 iBladeOfBattle 1}
+
+
+[Template RandomTyballsShadowArtifact]
+Category=Templates
+Subsection=Artifacts: Named
+Description=Tyball's Shadow
+Item=iShroudOfTheCondemned
+
+
+///////////
+// Other //
+///////////
+
+
+[Template RandomBouraArtifact]
+Category=Templates
+Subsection=Artifacts: Other
+Description=Boura (All)
+Item=iBouraTailShield
+
+
+[Template RandomRaptorArtifact]
+Category=Templates
+Subsection=Artifacts: Other
+Description=Raptor
+Item=iRaptorClaw
+
+
+[Template RandomStoneSlithArtifact]
+Category=Templates
+Subsection=Artifacts: Other
+Description=Stone Slith
+Item=iStoneSlithClaw
+
+
+[Template Random7thAnniversaryArtifact]
+Category=Templates
+Subsection=Artifacts: Other
+Description=7th Anniversary
+Item={iAncientSamuraiHelm 1 iTheHolySowrd 1 iRoyalLeggingsOfEmbers 1 iShaminosBestCrossbow 1}
+
+
+[Template Random8thAnniversaryArtifact]
+Category=Templates
+Subsection=Artifacts: Other
+Description=8th Anniversary
+Item={iDupresShield 1 iOssianGrimoire 1 iQuiverOfInfinity 1 iTalismanOfTheFey 1}
+
+
+[Template RandomHalloweenArtifact]
+Category=Templates
+Subsection=Artifacts: Other
+Description=Halloween
+Item={iGrimReapersScythe 1 iConjurersGrimoire 1 iConjurersTrinket 1 iConjurersGarb 1}
+
+
+[Template RandomInTheShadowOfVirtueArtifact]
+DefName=RandomShadowOfVirtueArtifact
+Category=Templates
+Subsection=Artifacts: Other
+Description=In the Shadow of Virtue
+Item={iDefilerOfVirtue 1 iFrostguard 1 iGauntletsOfVirtueBane 1 iJadeSnakeHead 1 iPetrifiedMatriarchsTongue 1 iRangersCloakOfAugmentation 1 iShadowCloakOfRejuvenation 1 iSpellFocusingSash 1 iStoneArmsOfVirtueBane 1 iWardedDemonboneBracers 1 iWardensArmorOfAugmentation 1}
+
+
+[Template RandomOphidianWarArtifact]
+Category=Templates
+Subsection=Artifacts: Other
+Description=Ophidian War
+Item={iBerserkersBardiche 1 iInavlissBurchete 1}
+
+
+[Template RandomWarriorsOfDestinyArtifact]
+Category=Templates
+Subsection=Artifacts: Other
+Description=Warriors of Destiny
+Item={iBerserkersScythe 1 iChaosShieldVanguard 1 iCloakOfCorruption 1 iCloakOfDeath 1 iCloakOfLife 1 iCloakOfPower 1 iCloakOfSilence 1 iMelissasCloak 1 iObsidianBlade 1 iPlaneshield 1 iStaffOfPyros 1 iTheRedeemer 1 iVorpalBlade 1}
+
+
+[Template RandomQuestArtifactsArtifact]
+Category=Templates
+Subsection=Artifacts: Other
+Description=Quest Artifacts
+Item={iResonantShieldOfVengeance 1 iWindOfCorruption 1}
+
+
+///////////////////
+// Miscellaneous //
+///////////////////
+
+
+[Template RandomNullArtifact]
+Category=Templates
+Subsection=Artifacts: Miscellaneous
+Description=Null
+Item=0
 
 
 [EOF]
