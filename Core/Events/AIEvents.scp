@@ -271,7 +271,7 @@ Action=Skill_Hiding
 ActDiff=1
 
 On=@NPCActFight
-If (<R19>)
+If !(<R19>)
  Local.Skill=Skill_Hiding
  ActDiff=1
 EndIf
@@ -290,6 +290,82 @@ EndIf
 
 On=@DeathCorpse
 NewLoot=ParalithodeLoot
+
+
+[Events AIKraken]
+On=@NPCActFight
+If (<Src.Distance> > 2)
+ If !(<R1>)
+  Local.Skill=NPCAct_Breath
+ EndIf
+EndIf
+If !(<R19>)
+ Local.Skill=NPCAct_Breath
+EndIf
+
+On=@DeathCorpse
+NewLoot=KrakenLoot
+
+
+[Events AIDeepSeaSerpent]
+On=@NPCActFight
+If (<Src.Distance> > 2)
+ If !(<R1>)
+  Local.Skill=NPCAct_Breath
+ EndIf
+EndIf
+If !(<R9>)
+ Local.Skill=NPCAct_Breath
+EndIf
+
+On=@DeathCorpse
+NewLoot=DeepSeaSerpentLoot
+
+
+[Events AISeaSerpent]
+On=@NPCActFight
+If (<Src.Distance> > 2)
+ If !(<R1>)
+  Local.Skill=NPCAct_Breath
+ EndIf
+EndIf
+If !(<R19>)
+ Local.Skill=NPCAct_Breath
+EndIf
+
+On=@DeathCorpse
+NewLoot=SeaSerpentLoot
+
+
+[Events AIHydra]
+On=@NPCActFight
+If (<Src.Distance> > 2)
+ If !(<R1>)
+  Local.Skill=NPCAct_Breath
+ EndIf
+EndIf
+If !(<R4>)
+ Local.Skill=NPCAct_Breath
+EndIf
+
+On=@DeathCorpse
+NewLoot=HydraLoot
+
+
+[Events AILeviathan]
+On=@NPCActFight
+// Normal distance check to produce more ranged attacks now is checking for mana
+If (<Src.Distance> > 2) && (<Mana> < 20)
+ If !(<R1>)
+  Local.Skill=NPCAct_Breath
+ EndIf
+EndIf
+If !(<R9>)
+ Local.Skill=NPCAct_Breath
+EndIf
+
+On=@DeathCorpse
+NewLoot=KrakenLoot
 
 
 [EOF]

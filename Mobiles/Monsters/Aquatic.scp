@@ -1,0 +1,395 @@
+[CharDef 02D9]
+DefName=cParalithode
+Name=paralithode
+Can=CanWalk|CanRun|CanSwim|CanNonHuman
+MoveRate=100
+Dam=20,24
+//Icon=iParalithodeIcon
+Sound=
+Resources=9 iCutOfRawRibs,20 iHornedHides
+FoodType=tFruit,tVegetable
+MaxFood=35
+Aversions=rCivilization
+Desires=tWater,rWater
+BloodColor=0
+TEvents=AIParalithode
+
+Category=Monsters
+Subsection=Aquatic
+Description=Paralithode
+
+On=@Create
+NPC=BrainMonster
+
+Fame=2500
+Karma=-2500
+Alignment=Evil
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=65,75
+ResFire=50,60
+ResCold=60,70
+ResPoison=50,60
+ResEnergy=50,60
+
+OStr={600 750}
+ODex={80 120}
+OInt={25 30}
+MaxHits={1800 1900}
+
+Wrestling={900 1100}
+Tactics={900 1100}
+MagicResistance={600 800}
+Anatomy={900 1100}
+Parrying={900 1100}
+Hiding=1000
+Stealth=1000
+Taming=471
+
+On=@NPCRestock
+NewGold={150 250}
+
+
+[CharDef 04D]
+DefName=cKraken
+Name=kraken
+Can=CanWalk|CanSwim|CanNonHuman
+MoveRate=100
+Dam=19,33
+Icon=iKrakenIcon
+Sound=
+Resources=0
+FoodType=tFish,tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=tWater,rWater
+BloodColor=0
+TEvents=AIKraken
+
+Category=Monsters
+Subsection=Aquatic
+Description=Kraken
+
+On=@Create
+NPC=BrainDragon
+
+Fame=11000
+Karma=-11000
+Alignment=Evil
+
+DamPhysical=70
+DamFire=0
+DamCold=30
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=45,55
+ResFire=30,40
+ResCold=30,40
+ResPoison=20,30
+ResEnergy=10,20
+
+OStr={756 780}
+ODex={226 245}
+OInt={26 40}
+MaxHits={454 468}
+MaxMana=0
+
+Wrestling={450 600}
+Tactics={450 600}
+MagicResistance={150 200}
+Parrying={450 600}
+
+On=@NPCRestock
+NewGold={275 325}
+
+
+[CharDef 091]
+DefName=cDeepSeaSerpent
+Name=deep sea serpent
+Can=CanWalk|CanSwim|CanNonHuman
+MoveRate=100
+Dam=6,14
+Icon=iSeaSerpentIcon
+Sound=
+Resources=10 iHornedHides,10 iCutOfRawRibs,8 iBlueSeaSerpentScales
+FoodType=tFish,tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=tWater,rWater
+BloodColor=0
+TEvents=AIDeepSeaSerpent
+
+Category=Monsters
+Subsection=Aquatic
+Description=Deep Sea Serpent
+
+On=@Create
+NPC=BrainDragon
+SlayerSuper=ReptileSlayer
+SlayerLesser=SnakeSlayer
+
+Fame=6000
+Karma=-6000
+Alignment=Evil
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=30,40
+ResFire=70,80
+ResCold=40,50
+ResPoison=30,40
+ResEnergy=15,20
+
+OStr={251 425}
+ODex={86 135}
+OInt={86 155}
+MaxHits={151 255}
+
+Wrestling={600 700}
+Tactics={600 700}
+MagicResistance={600 750}
+Parrying={600 700}
+
+On=@NPCRestock
+NewGold={50 100}
+
+
+[Chardef 096]
+DefName=cSeaSerpent
+Name=sea serpent
+Can=CanWalk|CanSwim|CanNonHuman
+MoveRate=100
+Dam=7,13
+Icon=iSeaSerpentIcon
+Sound=
+Resources=10 iHornedHides,1 iRawFishSteak,8 iBlueSeaSerpentScales
+FoodType=tFish,tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=tWater,rWater
+BloodColor=0
+TEvents=AISeaSerpent
+
+Category=Monsters
+Subsection=Aquatic
+Description=Sea Serpent
+
+On=@Create
+NPC=BrainDragon
+SlayerSuper=ReptileSlayer
+SlayerLesser=SnakeSlayer
+
+Fame=6000
+Karma=-6000
+Alignment=Evil
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=25,35
+ResFire=50,60
+ResCold=30,40
+ResPoison=30,40
+ResEnergy=15,20
+
+OStr={166 225}
+ODex={56 85}
+OInt={51 95}
+MaxHits={110 127}
+
+Wrestling={600 700}
+Tactics={600 700}
+MagicResistance={600 750}
+Parrying={600 700}
+
+On=@NPCRestock
+NewGold={50 100}
+
+
+[CharDef 0109]
+DefName=cHydra
+Name=hydra
+Can=CanWalk|CanSwim|CanNonHuman
+MoveRate=100
+Dam=21,26
+Icon=iHydraIcon
+Sound=
+Resources=40 iHides,17 iCutOfRawRibs,8 iDragonsBlood2
+FoodType=tFish,tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=tWater,rWater
+BloodColor=0
+TEvents=AIHydra
+
+Category=Monsters
+Subsection=Aquatic
+Description=Hydra
+
+On=@Create
+NPC=BrainDragon
+SlayerSuper=ReptileSlayer
+SlayerLesser=DragonSlayer
+
+Fame=22000
+Karma=-22000
+Alignment=Evil
+
+DamPhysical=60
+DamFire=10
+DamCold=10
+DamPoison=10
+DamEnergy=10
+
+ResPhysical=65,75
+ResFire=70,85
+ResCold=25,35
+ResPoison=35,45
+ResEnergy=35,45
+
+OStr={800 830}
+ODex={100 130}
+OInt={100 120}
+MaxHits={1400 1500}
+
+Wrestling={1000 1200}
+Tactics={1000 1100}
+MagicResistance={800 1000}
+Parrying={1000 1100}
+Anatomy={750 800}
+
+On=@NPCRestock
+NewGold={1600 1800}
+
+
+[CharDef cCrystalHydra]
+ID=cHydra
+Name=crystal hydra
+Can=CanWalk|CanSwim|CanNonHuman
+MoveRate=100
+Dam=21,26
+Icon=iHydraIcon
+Sound=
+Resources=40 iHides,17 iCutOfRawRibs,8 iDragonsBlood2
+FoodType=tFish,tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=tWater,rWater
+BloodColor=0
+TEvents=AIHydra
+
+Category=Monsters
+Subsection=Aquatic
+Description=Crystal Hydra
+
+On=@Create
+NPC=BrainDragon
+Color=0481
+SlayerSuper=ReptileSlayer
+SlayerLesser=DragonSlayer
+
+Fame=24000
+Karma=-24000
+Alignment=Evil
+
+DamPhysical=5
+DamFire=5
+DamCold=80
+DamPoison=5
+DamEnergy=5
+
+ResPhysical=65,75
+ResFire=20,30
+ResCold=80,100
+ResPoison=35,45
+ResEnergy=80,100
+
+OStr={800 830}
+ODex={100 130}
+OInt={100 120}
+MaxHits={1600 1800}
+
+Wrestling={1000 1200}
+Tactics={1000 1100}
+MagicResistance={800 1000}
+Parrying={1000 1100}
+Anatomy={750 800}
+
+On=@NPCRestock
+NewGold={1600 1800}
+
+
+[CharDef cLeviathan]
+ID=cKraken
+Name=kraken
+Can=CanWalk|CanSwim|CanNonHuman
+MoveRate=100
+Dam=19,33
+Icon=iKrakenIcon
+Sound=
+Resources=0
+FoodType=tFish,tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=tWater,rWater
+BloodColor=0
+TEvents=AILeviathan
+
+Category=Monsters
+Subsection=Aquatic
+Description=Leviathan
+
+On=@Create
+NPC=BrainDragon
+Color=0481
+
+Fame=20000
+Karma=-20000
+Alignment=Evil
+
+DamPhysical=70
+DamFire=0
+DamCold=30
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=55,65
+ResFire=45,55
+ResCold=45,55
+ResPoison=35,45
+ResEnergy=25,35
+
+OStr=1000
+ODex={500 520}
+OInt={500 520}
+MaxHits=1500
+
+Wrestling={975 1075}
+Tactics={975 1075}
+MagicResistance={975 1075}
+Parrying={975 1075}
+Magery={975 1075}
+EvaluatingIntel={975 1075}
+Meditation={975 1075}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={2600 3000}
+
+
+[EOF]

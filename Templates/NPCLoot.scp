@@ -369,7 +369,7 @@ Subsection=Monsters: Aqautic
 Description=Kraken
 NewTMap=4
 Item=iMessageInABottle,1,R19
-Item=iRope,1,R4
+Item=iRope,1,R9
 
 
 [Template LeviathanLoot]
