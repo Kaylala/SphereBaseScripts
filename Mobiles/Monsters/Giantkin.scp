@@ -1,0 +1,608 @@
+[CharDef 01]
+DefName=cOgre
+Name=ogre
+Can=CanWalk|CanUseHands|CanMale
+MoveRate=100
+Dam=9,11
+Icon=iOgreIcon
+Sound=
+Resources=2 iCutOfRawRibs
+FoodType=tRawMeat,tMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=tGold,tCoin,tGem,tRawMeat,tMeat
+BloodColor=0
+TEvents=AIOgre
+
+Category=Monsters
+Subsection=Giantkin
+Description=Ogre
+
+On=@Create
+NPC=BrainMonster
+SlayerSuper=RepondSlayer
+SlayerLesser=OgreSlayer
+
+Fame=3000
+Karma=-3000
+Alignment=Evil
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=30,35
+ResFire=15,25
+ResCold=15,25
+ResPoison=15,25
+ResEnergy=25
+
+OStr={166 195}
+ODex={46 65}
+OInt={46 70}
+MaxHits={100 117}
+MaxMana=0
+
+Wrestling={700 800}
+Tactics={600 700}
+MagicResistance={550 700}
+Parrying={600 700}
+
+On=@NPCRestock
+NewGold={125 175}
+
+
+[CharDef 053]
+DefName=cOgreLord1
+Name=ogre lord
+Can=CanWalk|CanUseHands|CanMale
+MoveRate=100
+Dam=20,25
+Icon=iOgreLordIcon
+Sound=
+Resources=2 iCutOfRawRibs
+FoodType=tRawMeat,tMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=tGold,tCoin,tGem,tRawMeat,tMeat
+BloodColor=0
+TEvents=AIOgreLord
+
+Category=Monsters
+Subsection=Giantkin
+Description=Ogre Lord
+
+On=@Create
+NPC=BrainMonster
+SlayerSuper=RepondSlayer
+SlayerLesser=OgreSlayer
+
+Fame=15000
+Karma=-15000
+Alignment=Evil
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=45,55
+ResFire=30,40
+ResCold=30,40
+ResPoison=40,50
+ResEnergy=40,50
+
+OStr={766 945}
+ODex={66 75}
+OInt={46 70}
+MaxHits={476 552}
+
+Wrestling={900 1000}
+Tactics={900 1000}
+MagicResistance={1250 1400}
+Parrying={900 1000}
+
+On=@NPCRestock
+NewGold={600 650}
+
+
+[CharDef 054]
+DefName=cOgreLord2
+Name=ogre lord
+Can=CanWalk|CanUseHands|CanMale
+MoveRate=100
+Dam=20,25
+Icon=iOgreLordIcon
+Sound=
+Resources=2 iCutOfRawRibs
+FoodType=tRawMeat,tMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=tGold,tCoin,tGem,tRawMeat,tMeat
+BloodColor=0
+TEvents=AIOgreLord
+
+Category=Monsters
+Subsection=Giantkin
+Description=Ogre Lord
+
+On=@Create
+NPC=BrainMonster
+SlayerSuper=RepondSlayer
+SlayerLesser=OgreSlayer
+
+Fame=15000
+Karma=-15000
+Alignment=Evil
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=45,55
+ResFire=30,40
+ResCold=30,40
+ResPoison=40,50
+ResEnergy=40,50
+
+OStr={766 945}
+ODex={66 75}
+OInt={46 70}
+MaxHits={476 552}
+
+Wrestling={900 1000}
+Tactics={900 1000}
+MagicResistance={1250 1400}
+Parrying={900 1000}
+
+On=@NPCRestock
+NewGold={600 650}
+
+
+[CharDef 087]
+DefName=cArcticOgreLord
+Name=arctic ogre lord
+Can=CanWalk|CanUseHands|CanMale
+MoveRate=100
+Dam=20,25
+Icon=iOgreLordIcon
+Sound=
+Resources=2 iCutOfRawRibs
+FoodType=tRawMeat,tMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=tGold,tCoin,tGem,tRawMeat,tMeat
+BloodColor=0
+TEvents=AIArcticOgreLord
+
+Category=Monsters
+Subsection=Giantkin
+Description=Arctic Ogre Lord
+
+On=@Create
+NPC=BrainMonster
+SlayerSuper=RepondSlayer|IceSlayer
+SlayerLesser=OgreSlayer
+
+Fame=15000
+Karma=-15000
+Alignment=Evil
+
+DamPhysical=30
+DamFire=0
+DamCold=70
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=45,55
+ResFire=-10,0
+ResCold=60,70
+ResPoison=100
+ResEnergy=40,50
+
+OStr={766 945}
+ODex={66 75}
+OInt={46 70}
+MaxHits={476 552}
+
+Wrestling={900 1000}
+Tactics={900 1000}
+MagicResistance={1250 1400}
+Parrying={900 1000}
+
+On=@NPCRestock
+NewGold={750 950}
+
+
+[CharDef 02]
+DefName=cEttin1
+Name=ettin
+Can=CanWalk|CanUseHands|CanMale
+MoveRate=100
+Dam=7,17
+Icon=iEttinIcon
+Sound=
+Resources=4 iCutOfRawRibs
+FoodType=tRawMeat,tMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=tGold,tCoin,tGem,tRawMeat,tMeat
+BloodColor=0
+TEvents=AIEttin
+
+Category=Monsters
+Subsection=Giantkin
+Description=Ettin
+
+On=@Create
+NPC=BrainMonster
+SlayerSuper=RepondSlayer
+
+Fame=3000
+Karma=-3000
+Alignment=Evil
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=35,40
+ResFire=15,25
+ResCold=40,50
+ResPoison=15,25
+ResEnergy=15,25
+
+OStr={136 165}
+ODex={56 75}
+OInt={31 55}
+MaxHits={82 99}
+
+Wrestling={500 600}
+Tactics={500 700}
+MagicResistance={400 550}
+Parrying={500 700}
+
+On=@NPCRestock
+NewGold={175 225}
+
+
+[CharDef 012]
+DefName=cEttin2
+Name=ettin
+Can=CanWalk|CanUseHands|CanMale
+MoveRate=100
+Dam=7,17
+Icon=iEttinIcon
+Sound=
+Resources=4 iCutOfRawRibs
+FoodType=tRawMeat,tMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=tGold,tCoin,tGem,tRawMeat,tMeat
+BloodColor=0
+TEvents=AIEttin
+
+Category=Monsters
+Subsection=Giantkin
+Description=Ettin
+
+On=@Create
+NPC=BrainMonster
+SlayerSuper=RepondSlayer
+
+Fame=3000
+Karma=-3000
+Alignment=Evil
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=35,40
+ResFire=15,25
+ResCold=40,50
+ResPoison=15,25
+ResEnergy=15,25
+
+OStr={136 165}
+ODex={56 75}
+OInt={31 55}
+MaxHits={82 99}
+
+Wrestling={500 600}
+Tactics={500 700}
+MagicResistance={400 550}
+Parrying={500 700}
+
+On=@NPCRestock
+NewGold={175 225}
+
+
+[CharDef 035]
+DefName=cTroll1
+Name=troll
+Can=CanWalk|CanUseHands|CanMale
+MoveRate=100
+Dam=8,14
+Icon=iTrollIcon
+Sound=
+Resources=2 iCutOfRawRibs
+FoodType=tRawMeat,tMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=tGold,tCoin,tGem,tRawMeat,tMeat
+BloodColor=0
+TEvents=AITroll
+
+Category=Monsters
+Subsection=Giantkin
+Description=Troll
+
+On=@Create
+NPC=BrainMonster
+SlayerSuper=RepondSlayer
+SlayerLesser=TrollSlayer
+
+Fame=3500
+Karma=-3500
+Alignment=Evil
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=35,45
+ResFire=25,35
+ResCold=15,25
+ResPoison=5,15
+ResEnergy=5,15
+
+OStr={176 205}
+ODex={46 65}
+OInt={46 70}
+MaxHits={106 123}
+
+Wrestling={500 700}
+Tactics={500 700}
+MagicResistance={400 600}
+Parrying={500 700}
+
+On=@NPCRestock
+NewGold={125 175}
+
+
+[CharDef 036]
+DefName=cTroll2
+Name=troll
+Can=CanWalk|CanUseHands|CanMale
+MoveRate=100
+Dam=8,14
+Icon=iTrollIcon
+Sound=
+Resources=2 iCutOfRawRibs
+FoodType=tRawMeat,tMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=tGold,tCoin,tGem,tRawMeat,tMeat
+BloodColor=0
+TEvents=AITroll
+
+Category=Monsters
+Subsection=Giantkin
+Description=Troll
+
+On=@Create
+NPC=BrainMonster
+SlayerSuper=RepondSlayer
+SlayerLesser=TrollSlayer
+
+Fame=3500
+Karma=-3500
+Alignment=Evil
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=35,45
+ResFire=25,35
+ResCold=15,25
+ResPoison=5,15
+ResEnergy=5,15
+
+OStr={176 205}
+ODex={46 65}
+OInt={46 70}
+MaxHits={106 123}
+
+Wrestling={500 700}
+Tactics={500 700}
+MagicResistance={400 600}
+Parrying={500 700}
+
+On=@NPCRestock
+NewGold={125 175}
+
+
+[CharDef 037]
+DefName=cFrostTroll
+Name=frost troll
+Can=CanWalk|CanUseHands|CanMale
+MoveRate=100
+Dam=14,20
+Icon=iTrollIcon
+Sound=
+Resources=2 iCutOfRawRibs
+FoodType=tRawMeat,tMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=tGold,tCoin,tGem,tRawMeat,tMeat
+BloodColor=0
+TEvents=AIFrostTroll
+
+Category=Monsters
+Subsection=Giantkin
+Description=Frost Troll
+
+On=@Create
+NPC=BrainMonster
+SlayerSuper=RepondSlayer|IceSlayer
+SlayerLesser=TrollSlayer
+
+Fame=4000
+Karma=-4000
+Alignment=Evil
+
+DamPhysical=75
+DamFire=0
+DamCold=25
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=45,55
+ResFire=0
+ResCold=40,50
+ResPoison=5,10
+ResEnergy=5,10
+
+OStr={226 265}
+ODex={66 85}
+OInt={46 70}
+MaxHits={140 156}
+
+Wrestling={500 700}
+Tactics={500 700}
+MagicResistance={400 600}
+Parrying={500 700}
+
+On=@NPCRestock
+NewGold={125 175}
+
+
+[CharDef 04B]
+DefName=cCyclopeanWarrior
+Name=cyclopean warrior
+Can=CanWalk|CanUseHands|CanMale
+MoveRate=100
+Dam=7,23
+Icon=iCyclopeanWarriorIcon
+Sound=
+Resources=4 iCutOfRawRibs
+FoodType=tRawMeat,tMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=tGold,tCoin,tGem,tRawMeat,tMeat
+BloodColor=0
+TEvents=AICyclopeanWarrior
+
+Category=Monsters
+Subsection=Giantkin
+Description=CyclopeanWarrior
+
+On=@Create
+NPC=BrainMonster
+SlayerSuper=RepondSlayer
+
+Fame=4500
+Karma=-4500
+Alignment=Evil
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=45,50
+ResFire=30,40
+ResCold=25,35
+ResPoison=30,40
+ResEnergy=30,40
+
+OStr={336 385}
+ODex={96 115}
+OInt={31 55}
+MaxHits={202 231}
+
+Wrestling={800 900}
+Tactics={800 1000}
+MagicResistance={600 1050}
+Parrying={800 1000}
+
+On=@NPCRestock
+NewGold={400 500}
+
+
+[CharDef 04C]
+DefName=cTitan
+Name=titan
+Can=CanWalk|CanUseHands|CanMale
+MoveRate=100
+Dam=13,16
+Icon=iTitanIcon
+Sound=
+Resources=4 iCutOfRawRibs
+FoodType=tRawMeat,tMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=tGold,tCoin,tGem,tRawMeat,tMeat
+BloodColor=0
+TEvents=AITitan
+
+Category=Monsters
+Subsection=Giantkin
+Description=Titan
+
+On=@Create
+NPC=BrainMonster
+SlayerSuper=RepondSlayer
+
+Fame=11500
+Karma=-11500
+Alignment=Evil
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=35,45
+ResFire=30,40
+ResCold=25,35
+ResPoison=30,40
+ResEnergy=30,40
+
+OStr={536 585}
+ODex={126 145}
+OInt={281 305}
+MaxHits={322 351}
+
+Wrestling={400 500}
+Tactics={600 800}
+MagicResistance={850 1000}
+Parrying={600 800}
+Magery={850 1000}
+EvaluatingIntel={850 1000}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={600 800}
+
+
+[EOF]

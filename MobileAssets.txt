@@ -1,0 +1,756 @@
+Diabolical Seaweed
+Djin
+Ice Wyrm
+Master Instructor
+Mercutio
+Obsidian Wyvern
+Orciish Engineer
+Paralithode
+Rock Mite
+Sea Snake
+Shadowlord
+Ship Bat
+Ship Rat
+
+Abyssal Abomination
+#Acid Elemental
+Acid Slug
+#Agapite Elemental
+#Air Elemental
+#Air Elemental (Shame)
+#Ancient Lich
+Ancient Wyrm
+Angered Spirit
+Anlorlem
+Anlorvaglem
+Anlorzen
+Ant Lion
+Anzuanord
+Arcane Daemon
+Archdemon
+Archmage
+#Arctic Ogre Lord
+Bake Kitsune
+Ballem
+Balron
+Bane Dragon
+Battle Chicken Lizard
+Betballem
+#Betrayer
+Birling Blades
+Black Order Assassin
+Black Order Grand Mage
+Black Order High Executioner
+Black Order Mage
+Black Order Master Thief
+Black Order Thief
+#Blackrock Elemental
+Blackrock Golem
+#Blackthorn Juggernaut
+#Blade Spirit
+Blightborn Slime
+#Blood Elemental
+#Blood Elemental (Shame)
+Bloodworm
+Bog Thing
+Bogling
+#Bone Knight
+#Bone Magi
+Bone Swordslinger
+Bound Soul
+Brigand
+Brigand Cannibal
+Brigand Cannibal Mage
+#Bronze Elemental
+Bulbous Putrification
+Burning
+Cave Troll
+Cave Troll (Wrong)
+Centaur
+Champion
+Changeling
+Chaos Daemon
+Chaos Dragoon
+Chaos Dragoon Elite
+#Chaos Vortex
+Chest Guardian
+Chicken Lizard
+Clan Chitter Assistant
+Clan Chitter Tinkerer
+Clan Scratch Henchrat
+Clan Scratch Savage Wolf
+Clan Scratch Scrounger
+Clan Ribbon Courtier
+Clan Ribbon Plague Rat
+Clan Ribbon Supplicant
+Clay Golem
+#Clockwork Scorpion
+Cold Drake
+Controller
+#Copper Elemental
+Corporeal Brume
+Corpser
+Corrosive Slime
+Corrupted Mage
+Corrupted Wyvern
+Covetous Revenant
+Covetous Wyrm
+Crazed
+Crimson Dragon
+Crystal Daemon
+#Crystal Elemental
+#Crystal Hydra
+Crystal Lattice Seeker
+Crystal Sea Serpent
+Crystal Vortex
+Crystal Wisp
+Cursed (Undead Brigand)
+Cu Sidhe
+#Cyclopean Warrior
+Daemon
+Daemon Mongbat
+Dark Guardian
+Darkmane
+Dark Wisp
+Dazzled Harpy
+Deathwatch Beetle
+Deathwatch Beetle Hatchling
+#Deep Sea Serpent
+Demonic Jailor
+Dendrite
+Devourer of Souls
+#Diseased Blood Elemental
+Diseased Lich
+Divine Guardian
+Doppleganger
+Doppleganger (Covetous)
+Dragon
+Drake
+Dread Spider
+Dread War Horse
+#Dream Wraith
+Dryad
+#Dull Copper Elemental
+#Earth Elemental
+Earth Elemental (Covetous)
+#Earth Elemental (Shame)
+Echidnite
+#Effete Putrid Gargoyle
+#Effete Undead Gargoyle
+Efreet
+Elder Gazer
+Elite Ninja
+#Enraged Earth Elemental
+Enraged Colossus
+Enslaved Gargoyle
+Enslaved Gray Goblin
+Enslaved Green Goblin
+Enslaved Goblin Alchemist
+Enslaved Goblin Keeper
+Enslaved Goblin Mage
+Enslaved Goblin Scout
+Eternal Gazer
+Ethereal Warrior
+#Ettin
+Evil Mage
+Evil Mage Lord
+Executioner
+#Exodus Drone
+#Exodus Juggernaut
+#Exodus Minion
+#Exodus Minion Lord
+#Exodus Overseer
+#Exodus Sentinel
+Exodus Zealot
+Fairy
+Fairy Dragon
+Fan Dancer
+Feral Treefellow
+Fetid Essence
+Fire Ant
+Fire Beetle
+Fire Daemon
+Fire Daemon (Covetous)
+#Fire Elemental
+#Fire Elemental (Summoned)
+Fire Gargoyle
+Fire Steed
+#Flame Elemental
+#Flame Elemental Guardian
+#Flesh Golem
+Forest Nymph
+Forgotten Servant
+Frost Dragon
+Frost Ooze
+Frost Spider
+#Frost Troll
+Gargoyle
+Gargoyle Assassin
+Gargoyle Destroyer
+Gargoyle Enforcer
+#Gargoyle Shade
+Gazer
+Gazer Larva
+#Ghoul
+Giant Beetle
+Giant Black Widow
+Giant Ice Serpent
+Giant Ice Worm
+Giant Serpent
+Giant Spider
+Gibberling
+#Golden Elemental
+#Golem
+#Gore Fiend
+Gooey Maggots
+Grave Robber
+Gray Goblin
+Gray Goblin Keeper
+Gray Goblin Mage
+Greater Dragon
+#Greater Earth Elemental
+Greater Mongbat
+#Greater Poison Elemental
+Green Goblin
+Green Goblin Alchemist
+Green Goblin Scout
+Gremlin
+Grubber
+Harpy
+Headless Miner
+Headless One
+Hell Hound
+Hellcat (Large)
+Hellcat (Small)
+Hellion
+#Hellsteed
+Hiryu
+Horde Minion
+Hungry Ogre
+#Hydra
+#Ice Elemental
+Ice Fiend
+Imp
+Insane Dryad
+#Interred Grizzle
+Iron Beetle
+Juka Lord
+Juka Mage
+Juka Warrior
+Kappa
+#Kaze Kemono
+Kepetch
+Kepetch Ambusher
+Korpre
+Ki-Rin
+Knight
+#Kraken
+Lady of the Snow
+#Lava Elemental
+Lava Lizard
+Lava Serpent
+#Leather Wolf
+Lesser Hiryu
+Lesser Oni
+#Leviathan
+#Lich
+#Lich Lord
+Light Daemon
+Lizardman
+Lizardman Defender
+Lizardman Squatter
+Lizardman Witchdoctor
+Maddening Horror
+Magma Lizard
+Mantra Effervescence
+Meer Captain
+Meer Eternal
+Meer Mage
+Meer Warrior
+Minotaur
+Minotaur Captain
+Minotaur Scout
+Moloch
+#Molten Earth Elemental
+Mongbat
+#Mud Elemental
+Mud Pie
+#Mummy
+Naba
+#Nether Vortex
+Nightmare
+#Ogre
+Ogre Bonecrusher
+#Ogre Lord
+Oni
+Ophidian Apprentice Mage
+Ophidian Avenger
+Ophidian Berserker
+Ophidian Brood Queen
+Ophidian Enforcer
+Ophidian Healer
+Ophidian Justicar
+Ophidian Knight-Errant
+Ophidian Matriarch
+Ophidian Shaman
+Ophidian Warrior
+Ophidian Zealot
+Orc
+Orc Bomber
+Orc Brute
+Orc Captain
+Orc Chopper
+Orc Footsoldier
+Orc Scout
+Orc Lord
+Orc Mage
+Ortanord
+#Patchwork Skeleton
+Phantom
+#Phoenix
+Pixie
+Pit Fiend
+Plague Beast
+Plague Beast Lord
+Plague Beast Spawn
+Prometheoid
+#Poison Elemental
+#Poison Elemental (Shame)
+Priest of Mondain
+Prison Rat
+#Purifying Blood Elemental
+#Putrid Effete Gargoyle
+#Putrid Undead Gargoyle
+#Putrid Undead Guardian
+Quagmire
+#Quartz Elemental Guardian
+#Rai-Ju
+Raider
+Raptor
+Ratman
+Ratman Archer
+Ratman Assassin
+Ratman Mage
+Ravager
+Reaper
+Relanord
+Renegade Changeling
+Reptalon
+Restless Soul
+#Revenant
+Revenant (Summoned)
+#Revenant Lion
+Ronin
+#Rotting Corpse
+Rotworm
+Rune Beetle
+Sagittarri
+#Sand Vortex
+Satyr
+Savage Rider
+Savage Shaman
+Savage Warrior (Female)
+Savage Warrior (Male)
+Savage Pack Wolf
+Scorpion
+#Sea Serpent
+Searing Elemental
+Seeker of Adventure
+Serpentine Dragon
+#Shade
+Shadow Dweller
+Shadow Fiend
+#Shadow Iron Elemental
+Shadow Wisp
+Shadow Wyrm
+Silenii
+Silver Serpent
+#Skeletal Dragon
+#Skeletal Drake
+#Skeletal Knight
+#Skeletal Lich
+#Skeletal Mage
+#Skeletal Steed
+#Skeleton
+Skeletrex
+Skittering Hopper
+Skree
+Slime
+Slith
+#Snow Elemental
+#Solen Infiltrator (Queen)
+#Solen Infiltrator (Warrior)
+#Solen Queen
+#Solen Warrior
+#Solen Worker
+Soulbound Apprentice Mage
+Soulbound Battle Mage
+Soulbound Pirate Captain
+Soulbound Pirate Raider
+Soulbound Spell Slinger
+Soulbound Swashbucker
+#Spectre
+Spectral armor
+#Spectral Spellbinder
+Sphynx
+Squire
+#Stone Elemental
+Stone Gargoyle
+Stone Harpy
+Stone Slith
+Strange Gazer
+Succubus
+Swamp Tentacle
+Tangling Roots
+Tentacles of the Harrower
+Terathan Avenger
+Terathan Drone
+Terathan Matriarch
+Terathan Warrior
+#Titan
+Titan Rockhurler
+#Toxic Ooze
+Toxic Slith
+Trapdoor Spider
+Treefellow
+Treefellow Guardian
+Troglodyte
+#Troll
+Tsuki Wolf
+#Unbound Energy Vortex
+#Undead Gargoyle
+#Undead Guardian
+#Unfrozen Mummy
+Unicorn
+Ursadane
+Usagralem Ballem
+#Valorite Elemental
+Vampire Bat
+Vampire Mongbat
+Vanguard Controller
+Vasanord
+Venom Elemental
+#Verite Elemental
+Vicious Drake
+Vile Cadaver
+#Vollem
+Void Daemon
+Void Manifestation
+#Vortex Elemental
+#Wailing Banshee
+Wanderer of the Void
+War Alligator
+#Water Elemental
+Water Elemental (Covetous)
+#Water Elemental (Shame)
+#Water Elemental (Summoned)
+Whipping Vine
+White Wyrm
+#Wight
+#Wind Elemental
+#Wind Elemental Guardian
+Wisp
+Wolf Spider
+#Wraith
+Wyvern
+Yamandon
+#Yomotsu Elder
+#Yomotsu Priest
+#Yomotsu Warrior
+Zealot of Khaldun Knight
+Zealot of Khaldun Summoner
+#Zombie
+
+
+Named Monsters
+
+Abscess
+Chiikkaha the Toothed
+Coil
+Cora the Sorceress
+Corgul the Soulbinder
+Fezzik The Ogre Cook
+Flurry
+Gnaw
+Grim
+Grimmoch Drummel
+Grobu
+Guile
+Harbinger
+Irk
+Lady Jennifyr
+Lady Lissith
+Lady Marai
+Lady Sabrix
+Lurg
+Lysander Gathenwale
+Malefic
+Master Jonath
+Master Mikael
+Master Theophilus
+Medusa
+Miasma
+Mistral
+Morg Bergen
+Moug-Guur
+Navrey Night-Eyes
+Niporailem
+Osiredon the Scalis Enforcer
+Purifier
+Pyre
+Red Death
+Rend
+Saliva
+Sentinel Spider
+Silk
+Sir Patrick
+Slasher of Veils
+Spite
+Stygian Dragon
+Swoop
+Szavetra
+Tangle
+Tavara Sewel
+Tempest
+Thrasher
+Tyball's Shadow
+Virulent
+
+
+Champions
+
+Abyssal Infernal
+Abyssmal Horror
+Bone Daemon
+Barracoon the Piper
+Chief Paroxysmus
+Clockwork Exodus
+Dark Father
+Darknight Creeper
+Dread Horn
+Flesh Renderer
+Impaler
+Lady Melisande
+Lord Oaks
+Mephitis
+Meraktus the Tormented
+Monstrous Interred Grizzle
+Neira the Necromancer
+Myxkion
+Primeval Lich
+Rikktor
+Semidar
+Serado the Awakened
+Shadow Knight
+Shimmering Effusion
+Silvani
+The Harrower
+The True Harrower
+Tormented Minotaur
+Travesty
+
+
+Mini-Champ Champions
+
+#Acid Elemental [Renowned]
+Ancient Lich [Renowned]
+Devourer of Souls[Renowned]
+Fire Daemon [Renowned]
+#Fire Elemental [Renowned]
+Gray Goblin Mage [Renowned]
+Green Goblin Alchemist [Renowned]
+Pixie [Renowned]
+Rakktavi [Renowned]
+Skeletal Dragon [Renowned]
+Tikitavi [Renowned]
+Vitavi [Renowned]
+Wyvern [Renowned]
+
+
+Extinct Creatures
+
+Bobbit
+#Bogle
+Dark Steed
+Dark Wolf
+Dwarf
+Emp
+#Exodus Minion Lord
+Frightened Orc
+Fuzzy
+Hell Hound (Leader)
+JWilson
+Paladin
+Silver Serpent (Small)
+Silver Steed
+Silver Wolf
+Void Shadow
+Winter Reaper
+Bane Chosen Dragon Rider
+Bane Chosen Hound Master
+Bane Chosen Recruit
+Bane Dragon
+Hell Hound (Bane)
+Ophidian Avenger (Bane Wars)
+Ophidian Healer (Bane Wars)
+Ophdian Mage (Bane Wars)
+Ophidian Warrior (Bane Wars)
+
+
+Animals
+
+Alligator
+Bird
+Black Bear
+Boar
+Brown Bear
+Bull
+Bullfrog
+Cat
+Chicken
+Coral Snake
+Cougar
+Cow
+Crane
+Dark Steed*
+Dark Wolf*
+Desert Ostard
+Dire Wolf
+Dog
+Dolphin
+Eagle
+Ferret
+Fire Rabbit
+Forest Ostard
+Frenzied Ostard
+Gaman
+Giant Rat
+Giant Toad
+Giant Turkey
+Goat
+Gorilla
+Great Hart
+Grey Wolf
+Grizzly Bear
+High Plains Boura
+Hind
+Horse
+Ice Snake
+Jack Rabbit
+Lava Snake
+Lowland Boura
+Llama
+Mountain Goat
+Pack Horse
+Pack Llama
+Panther
+Pig
+Polar Bear
+Rabbit
+Raging Grizzly Bear
+Rat
+Rideable Llama
+Ridgeback
+Ruddy Boura
+Savage Ridgeback
+Sheep
+Silver Steed*
+Silver Wolf*
+Sewer Rat
+Snake
+Snow Leopard
+Squirrel
+Swamp Dragon
+Timber Wolf
+Turkey
+Vorpal Bunny
+Walrus
+War Horse
+White Wolf
+
+
+Yet Undiscovered
+
+Alligator (Small)
+Black Gate Daemon
+Exodus
+Horde Daemon
+Horde Daemon (Colored)
+Horde Daemon (Large)
+Komodo Dragon
+Sea Horse
+
+
+
+Black Order Assassin
+Black Order High Executioner
+Black Order Mage
+Black Order Thief
+Brigand
+Brigand Cannibal
+Brigand (Elven)
+Chaos Dragoon
+Chaos Dragoon Elite
+Controller
+Demonic Jailor
+Elite Ninja
+Evil Mage
+Evil Mage Lord
+Executioner
+Forgotten Servant
+Guardian
+Mercenary
+Militia Fighter
+Noble
+Priest of Mondain
+Protector
+Ronin
+Savage Rider
+Savage Shaman
+Savage Warrior (Female)
+Savage Warrior (Male)
+Seeker of Adventure
+Soulbound Pirate Captain
+Soulbound Pirate Raider
+Soulbound Swashbuckler
+Wandering Healer
+
+
+
+Alberta Giacco
+Ambitious Solen Queen (Black)
+Ambitious Solen Queen (Red)
+Arielle
+Captain Blackheart
+Elwood McCarrin
+Gabriel Piete
+Grizelda the Hag
+Lenley the Snitch
+Naturalist
+Solen Matriarch (Black)
+Solen Matriarch (Red)
+Tomas O'Neerlan
+Zeefzorpul
+
+
+
+#Air Elemental (Summoned)
+#Blade Spirit
+Daemon (Summoned)
+Dark Wolf (Familiar)
+Death Adder (Familiar)
+#Earth Elemental (Summoned)
+#Energy Vortex
+Fey
+Fiend
+#Fire Elemental (Summoned)
+#Hellsteed
+Horde Minion (Familiar)
+Mound of Maggots
+Nature's Fury
+Revenant (Summoned)
+Shadow Wisp (Familiar)
+#Skeletal Steed
+Vampire Bat (Familiar)
+#Vollem (in crystal)
+#Water Elemental (Summoned)

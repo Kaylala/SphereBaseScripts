@@ -368,4 +368,79 @@ On=@DeathCorpse
 NewLoot=KrakenLoot
 
 
+[Events AICrystalSeaSerpent]
+On=@DeathCorpse
+NewLoot=CrystalSeaSerpentLoot
+
+
+[Events AICrystalHydra]
+On=@DeathCorpse
+NewLoot=CrystalHydraLoot
+
+
+//////////////
+// Giantkin //
+//////////////
+
+
+[Events AIOgre]
+On=@DeathCorpse
+NewLoot=OgreLoot
+
+
+[Events AIOgreLord]
+// Immune to level 2 poison.
+On=@DeathCorpse
+NewLoot=OgreLordLoot
+
+
+[Events AIArcticOgreLord]
+// Immune to level 2 poison.
+On=@DeathCorpse
+NewLoot=ArcticOgreLordLoot
+
+
+[Events AIEttin]
+On=@DeathCorpse
+NewLoot=EttinLoot
+If (<DispID> == cEttin2)
+ NewItem=RandomWeapon,1,<I>
+EndIf
+
+
+[Events AITroll]
+On=@DeathCorpse
+NewLoot=TrollLoot
+If (<DispID> == cTroll1)
+ NewItem=RandomWeapon,1,<I>
+EndIf
+
+
+[Events AIFrostTroll]
+On=@DeathCorpse
+NewLoot=FrostTrollLoot
+
+
+[Events AICyclopeanWarrior]
+On=@Hit
+Src.Stam -= <Eval (<ArgN1>/10)>
+Local.Layer={2 1 {6 10} 1 {12 14} 1 {17 20} 1 {22 24} 1}
+If (<Src.FindLayer.<Local.Layer>.UID.HitPoints>)
+ Src.FindLayer.<Local.Layer>.UID.HitPoints -= {1 4}
+EndIf
+
+On=@DeathCorpse
+NewLoot=CyclopeanWarriorLoot
+
+
+[Events AITitan]
+On=@NPCActFight
+If (<Src.ArgN1> > 5) && (<Mana> > 20)	// For now temp AI since Titans tend to cast a good bit
+ Local.Skill=Skill_Magery
+EndIf
+
+On=@DeathCorpse
+NewLoot=TitanLoot
+
+
 [EOF]

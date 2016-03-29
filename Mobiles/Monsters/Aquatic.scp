@@ -219,6 +219,62 @@ On=@NPCRestock
 NewGold={50 100}
 
 
+[Chardef cCrystalSeaSerpent]
+ID=cSeaSerpent
+Name=sea serpent
+Can=CanWalk|CanSwim|CanNonHuman
+MoveRate=100
+Dam=10,18
+Icon=iSeaSerpentIcon
+Sound=
+Resources=11 iHornedHides,10 iCutOfRawRibs,8 iBlueSeaSerpentScales
+FoodType=tFish,tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=tWater,rWater
+BloodColor=0
+Events=AICrystalSeaSerpent
+
+Category=Monsters
+Subsection=Aquatic
+Description=Crystal Sea Serpent
+
+On=@Create
+NPC=BrainDragon
+Color=047F
+SlayerSuper=ReptileSlayer
+SlayerLesser=SnakeSlayer
+
+Fame=7500
+Karma=-7500
+Alignment=Evil
+
+DamPhysical=10
+DamFire=0
+DamCold=45
+DamPoison=0
+DamEnergy=45
+
+ResPhysical=50,70
+ResFire=0
+ResCold=70,90
+ResPoison=20,30
+ResEnergy=70,90
+
+OStr={250 420}
+ODex={100 150}
+OInt={90 160}
+MaxHits={230 340}
+
+Wrestling={600 700}
+Tactics={600 700}
+MagicResistance={600 750}
+Parrying={600 700}
+
+On=@NPCRestock
+NewGold={75 125}
+
+
 [CharDef 0109]
 DefName=cHydra
 Name=hydra
@@ -289,7 +345,7 @@ MaxFood=35
 Aversions=rCivilization
 Desires=tWater,rWater
 BloodColor=0
-TEvents=AIHydra
+Events=AICrystalHydra
 
 Category=Monsters
 Subsection=Aquatic
