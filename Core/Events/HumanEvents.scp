@@ -394,7 +394,7 @@ ON=@NPCHearUnknown
 				DORAND 3
 					SAY My, thou art ugly.
 					SAY Enh?
-					SAY I don't understand.
+					SAY @,,2 1014468	// I don't understand.
 				end
 			endif
 		ELIF ( <SRC.FAME.KNOWN> )
@@ -442,9 +442,9 @@ ON=@NPCHearUnknown
 		IF ( <SRC.FAME.INFAMOUS> )
 			IF ( <COMPLEXITY.HIGH> )
 				DORAND 3
-					SAY I beg thee, do not harm me. I cannot help thee.
-					SAY I do not understand thee--I am sure it must be my fault, however.
-					SAY Begging thy pardon, but I fail to understand what it is that thou wantest.
+					SAY @,,2 1014469	// I beg thee, do not harm me. I cannot help thee.
+					SAY @,,2 1014470	// I do not understand thee--I am sure it must be my fault, however.
+					SAY @,,2 1014471	// Begging thy pardon, but I fail to understand what it is that thou wantest.
 				end
 			ELIF ( <COMPLEXITY.MEDIUM> )
 				DORAND 3
@@ -462,9 +462,9 @@ ON=@NPCHearUnknown
 		ELIF ( <SRC.FAME.OUTLAW> )
 			IF ( <COMPLEXITY.HIGH> )
 				DORAND 3
-					SAY I wish I could answer thee, so that thou wouldst leave me alone.
-					SAY Excuse my incomprehension, oh mighty terrorizer of small children, but I did not understand thee, and would find life more pleasant without thy ilk nearby.
-					SAY I am sorry, but I do not always understand the utterances of petty criminals.
+					SAY @,,2 1014472	// I wish I could answer thee, so that thou wouldst leave me alone.
+					SAY @,,2 1014473	// Excuse my incomprehension, oh mighty terrorizer of small children, but I did not understand thee, and would find life more pleasant without thy ilk nearby.
+					SAY @,,2 1014474	// I am sorry, but I do not always understand the utterances of petty criminals.
 				end
 			ELIF ( <COMPLEXITY.MEDIUM> )
 				DORAND 3
@@ -482,9 +482,9 @@ ON=@NPCHearUnknown
 		ELIF ( <SRC.FAME.ANONYMOUS> )
 			IF ( <COMPLEXITY.HIGH> )
 				DORAND 3
-					SAY Forgive me, but I do not understand.
-					SAY Excuse me? Forgive my lack of comprehension.
-					SAY If I look perplexed, 'tis because I am.
+					SAY @,,2 1014475	// Forgive me, but I do not understand.
+					SAY @,,2 1014476	// Excuse me? Forgive my lack of comprehension.
+					SAY @,,2 1014477	// If I look perplexed, 'tis because I am.
 				end
 			ELIF ( <COMPLEXITY.MEDIUM> )
 				DORAND 3
@@ -502,9 +502,9 @@ ON=@NPCHearUnknown
 		ELIF ( <SRC.FAME.KNOWN> )
 			IF ( <COMPLEXITY.HIGH> )
 				DORAND 3
-					SAY Accept my apologies, <SRC.SEX sir/milady>, for my lack of comprehension.
-					SAY If 'twere in my capabilities to help thee, I surely would.
-					SAY I cannot fathom what 'tis that thou wishest.
+					SAY @,,2 1014478 // Accept my apologies, for my lack of comprehension.
+					SAY @,,2 1014479 // If 'twere in my capabilities to help thee, I surely would.
+					SAY @,,2 1014480 // I cannot fathom what 'tis that thou wishest.
 				end
 			ELIF ( <COMPLEXITY.MEDIUM> )
 				DORAND 3
@@ -522,9 +522,9 @@ ON=@NPCHearUnknown
 		ELIF ( <SRC.FAME.FAMOUS> )
 			IF ( <COMPLEXITY.HIGH> )
 				DORAND 3
-					SAY Begging thy pardon, but in my awe at seeing thee actually here before me, I neglected to listen closely to what thou spoke.
-					SAY Sadly, I must report that I know nothing of what thou speakest.
-					SAY Help me to understand thee, for I know not what thou seekest.
+					SAY @,,2 1014481	// Begging thy pardon, but in my awe at seeing thee actually here before me, I neglected to listen closely to what thou spoke.
+					SAY @,,2 1014482	// Sadly, I must report that I know nothing of what thou speakest.
+					SAY @,,3 1014481	// Help me to understand thee, for I know not what thou seekest.
 				end
 			ELIF ( <COMPLEXITY.MEDIUM> )
 				DORAND 3

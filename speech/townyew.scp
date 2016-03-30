@@ -126,7 +126,7 @@ ON=*court*
 		IF ( <COMPLEXITY.HIGH> || <COMPLEXITY.MEDIUM> )
 			DORAND 3
 				SAY Most of the important decisions of the realm are reached in the High Court. Lord British himself comes when the rulings are of national interest! If thou wishes to see it, 'tis to the west and north of town.
-				SAY It was decided a long time ago that local judges would sit on the High Court. If thou wishes to see the court, head west and north of town. I cannot say if there is a trial in progress, however.
+				SAY @,,2 1014043	// It was decided a long time ago that local judges would sit on the High Court. If thou wishes to see the court, head west and north of town. I cannot say if there is a trial in progress, however.
 				SAY Judges are elected yearly by the entire Britannian population, but we in Yew get an extra vote, since they also rule on local cases. It is nearby to Yew, and just across the strait from the prison.
 			ENDDO
 		ELSE
@@ -441,14 +441,14 @@ ON=*baker*
 	ELIF ( <SRC.KARMA.NEUTRAL> )
 		IF ( <COMPLEXITY.HIGH> || <COMPLEXITY.MEDIUM> )
 			DORAND 4
-				SAY We do have a baker, and a fine one at that. To find the bakery, find the market near the center of Yew. The baker hangs his sign between that of the butcher and the woodworker.
+				SAY @,,2 1014430	// We do have a baker, and a fine one at that. To find the bakery, find the market near the center of Yew. The baker hangs his sign between that of the butcher and the woodworker.
 				SAY Warm bread and other simple delights can be bought from the bakery at the center of Yew.
 				SAY Our baker is at the center of Yew, which lies between the winery and the northwestern inlet.
 				SAY The baker is somewhat between the bowyer and the woodworker.
 			ENDDO
 		ELSE
 			DORAND 4
-				SAY We do have a baker, and a fine one at that. To find the bakery, find the market near the center of Yew. The baker hangs his sign between that of the butcher and the woodworker.
+				SAY @,,2 1014430	// We do have a baker, and a fine one at that. To find the bakery, find the market near the center of Yew. The baker hangs his sign between that of the butcher and the woodworker.
 				SAY Warm bread and other simple delights can be bought from the bakery at the center of Yew.
 				SAY Our baker is at the center of Yew, which lies between the winery and the northwestern inlet.
 				SAY The baker is somewhat between the bowyer and the woodworker.
@@ -457,14 +457,14 @@ ON=*baker*
 	ELSE
 		IF ( <COMPLEXITY.HIGH> || <COMPLEXITY.MEDIUM> )
 			DORAND  4
-				SAY We do have a baker, and a fine one at that. To find the bakery, find the market near the center of Yew. The baker hangs his sign between that of the butcher and the woodworker.
+				SAY @,,2 1014430	// We do have a baker, and a fine one at that. To find the bakery, find the market near the center of Yew. The baker hangs his sign between that of the butcher and the woodworker.
 				SAY Warm bread and other simple delights can be bought from the bakery at the center of Yew.
 				SAY Our baker is at the center of Yew, which lies between the winery and the northwestern inlet.
 				SAY The baker is somewhat between the bowyer and the woodworker.
 			ENDDO
 		ELSE
 			DORAND 4
-				SAY We do have a baker, and a fine one at that. To find the bakery, find the market near the center of Yew. The baker hangs his sign between that of the butcher and the woodworker.
+				SAY @,,2 1014430	// We do have a baker, and a fine one at that. To find the bakery, find the market near the center of Yew. The baker hangs his sign between that of the butcher and the woodworker.
 				SAY Warm bread and other simple delights can be bought from the bakery at the center of Yew.
 				SAY Our baker is at the center of Yew, which lies between the winery and the northwestern inlet.
 				SAY The baker is somewhat between the bowyer and the woodworker.
@@ -491,13 +491,13 @@ ON=*woodworker*
 			DORAND 3
 				SAY Our woodworker is deft at staves and such things ... 'tis an old tradition going back to the earliest shepherds. There is a fine selection at the shop beside the bakery.
 				SAY Our woodworker's shop is in the clearing central to Yew. If thou couldst use a stout staff or some such thing, take the time to look at the goods there.
-				SAY Yew is famous for its wood crafts. There is a woodwork shop near the bakery, just a bit south of the bowyer.
+				SAY @,,2 1014431	// Yew is famous for its wood crafts. There is a woodwork shop near the bakery, just a bit south of the bowyer.
 			ENDDO
 		ELSE
 			DORAND 3
 				SAY Our woodworker is deft at staves and such things ... 'tis an old tradition going back to the earliest shepherds. There is a fine selection at the shop beside the bakery.
 				SAY Our woodworker's shop is in the clearing central to Yew. If thou couldst use a stout staff or some such thing, take the time to look at the goods there.
-				SAY Yew is famous for its wood crafts. There is a woodwork shop near the bakery, just a bit south of the bowyer.
+				SAY @,,2 1014431	// Yew is famous for its wood crafts. There is a woodwork shop near the bakery, just a bit south of the bowyer.
 			ENDDO
 		ENDIF
 	ELSE
@@ -505,13 +505,13 @@ ON=*woodworker*
 			DORAND 3
 				SAY Our woodworker is deft at staves and such things ... 'tis an old tradition going back to the earliest shepherds. There is a fine selection at the shop beside the bakery.
 				SAY Our woodworker's shop is in the clearing central to Yew. If thou couldst use a stout staff or some such thing, take the time to look at the goods there.
-				SAY Yew is famous for its wood crafts. There is a woodwork shop near the bakery, just a bit south of the bowyer.
+				SAY @,,2 1014431	// Yew is famous for its wood crafts. There is a woodwork shop near the bakery, just a bit south of the bowyer.
 			ENDDO
 		ELSE
 			DORAND 3
 				SAY Our woodworker is deft at staves and such things ... 'tis an old tradition going back to the earliest shepherds. There is a fine selection at the shop beside the bakery.
 				SAY Our woodworker's shop is in the clearing central to Yew. If thou couldst use a stout staff or some such thing, take the time to look at the goods there.
-				SAY Yew is famous for its wood crafts. There is a woodwork shop near the bakery, just a bit south of the bowyer.
+				SAY @,,2 1014431	// Yew is famous for its wood crafts. There is a woodwork shop near the bakery, just a bit south of the bowyer.
 			ENDDO
 		ENDIF
 	ENDIF
@@ -519,7 +519,7 @@ ON=*cemetary*
 	IF ( <SRC.KARMA.WICKED> || <SRC.KARMA.BELLIGERANT> )
 		IF ( <COMPLEXITY.HIGH> || <COMPLEXITY.MEDIUM> )
 			DORAND 3
-				SAY The cemetery is to the south and east of town.
+				SAY @,,2 1014424	// The cemetery is to the south and east of town.
 				SAY The cemetery is to the south a bit.
 				SAY The cemetery is to the southeast.
 			ENDDO
@@ -539,7 +539,7 @@ ON=*cemetary*
 			ENDDO
 		ELSE
 			DORAND 3
-				SAY The cemetery is to the south and east of town.
+				SAY @,,2 1014424	// The cemetery is to the south and east of town.
 				SAY It is a sad truth that there is no place safe ... even our serene woods can at any time be overrun with ettins and orcs. Those we have lost in such attacks are put to rest in the cemetery to the south.
 				SAY It is the way of nature for all things to pass from this world. The mortal remains of our loved ones lie in the cemetery to the southeast.
 			ENDDO
@@ -547,13 +547,13 @@ ON=*cemetary*
 	ELSE
 		IF ( <COMPLEXITY.HIGH> || <COMPLEXITY.MEDIUM> )
 			DORAND  3
-				SAY The cemetery is to the south and east of town.
+				SAY @,,2 1014424	// The cemetery is to the south and east of town.
 				SAY It is a sad truth that there is no place safe ... even our serene woods can at any time be overrun with ettins and orcs. Those we have lost in such attacks are put to rest in the cemetery to the south.
 				SAY It is the way of nature for all things to pass from this world. The mortal remains of our loved ones lie in the cemetery to the southeast.
 			ENDDO
 		ELSE
 			DORAND 3
-				SAY The cemetery is to the south and east of town.
+				SAY @,,2 1014424	// The cemetery is to the south and east of town.
 				SAY It is a sad truth that there is no place safe ... even our serene woods can at any time be overrun with ettins and orcs. Those we have lost in such attacks are put to rest in the cemetery to the south.
 				SAY It is the way of nature for all things to pass from this world. The mortal remains of our loved ones lie in the cemetery to the southeast.
 			ENDDO
@@ -578,13 +578,13 @@ ON=*bowyer*
 		IF ( <COMPLEXITY.HIGH> || <COMPLEXITY.MEDIUM> )
 			DORAND 3
 				SAY Fine yew bows are a specialty of Yew, naturally. We have an expert bowyer whose skill cannot be matched by any in the realm. Look north of the woodworker for the shop.
-				SAY If thou'rt handy with a bow and arrows, then surely thou'lt be interested in our bowyer's excellent work. Look in his shop at the center of town ... there a selection that'll make thy head spin.
+				SAY @,,2 1014422	// If thou'rt handy with a bow and arrows, then surely thou'lt be interested in our bowyer's excellent work. Look in his shop at the center of town ... there a selection that'll make thy head spin.
 				SAY Indeed we have a bowyer! His shop is at the center of Yew, in that wee bit of a clearing with about five or six stores. Take a look around and see if thou likest anything.
 			ENDDO
 		ELSE
 			DORAND 3
 				SAY Fine yew bows are a specialty of Yew, naturally. We have an expert bowyer whose skill cannot be matched by any in the realm. Look north of the woodworker for the shop.
-				SAY If thou'rt handy with a bow and arrows, then surely thou'lt be interested in our bowyer's excellent work. Look in his shop at the center of town ... there a selection that'll make thy head spin.
+				SAY @,,2 1014422	// If thou'rt handy with a bow and arrows, then surely thou'lt be interested in our bowyer's excellent work. Look in his shop at the center of town ... there a selection that'll make thy head spin.
 				SAY Indeed we have a bowyer! His shop is at the center of Yew, in that wee bit of a clearing with about five or six stores. Take a look around and see if thou likest anything.
 			ENDDO
 		ENDIF
@@ -592,13 +592,13 @@ ON=*bowyer*
 		IF ( <COMPLEXITY.HIGH> || <COMPLEXITY.MEDIUM> )
 			DORAND  3
 				SAY Fine yew bows are a specialty of Yew, naturally. We have an expert bowyer whose skill cannot be matched by any in the realm. Look north of the woodworker for the shop.
-				SAY If thou'rt handy with a bow and arrows, then surely thou'lt be interested in our bowyer's excellent work. Look in his shop at the center of town ... there a selection that'll make thy head spin.
+				SAY @,,2 1014422	// If thou'rt handy with a bow and arrows, then surely thou'lt be interested in our bowyer's excellent work. Look in his shop at the center of town ... there a selection that'll make thy head spin.
 				SAY Indeed we have a bowyer! His shop is at the center of Yew, in that wee bit of a clearing with about five or six stores. Take a look around and see if thou likest anything.
 			ENDDO
 		ELSE
 			DORAND 3
 				SAY Fine yew bows are a specialty of Yew, naturally. We have an expert bowyer whose skill cannot be matched by any in the realm. Look north of the woodworker for the shop.
-				SAY If thou'rt handy with a bow and arrows, then surely thou'lt be interested in our bowyer's excellent work. Look in his shop at the center of town ... there a selection that'll make thy head spin.
+				SAY @,,2 1014422	// If thou'rt handy with a bow and arrows, then surely thou'lt be interested in our bowyer's excellent work. Look in his shop at the center of town ... there a selection that'll make thy head spin.
 				SAY Indeed we have a bowyer! His shop is at the center of Yew, in that wee bit of a clearing with about five or six stores. Take a look around and see if thou likest anything.
 			ENDDO
 		ENDIF

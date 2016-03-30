@@ -104,14 +104,14 @@ ON=*see you *
 				DORAND 3
 					SAY Finally! Go away.
 					SAY Thank thee for ending thy interruption.
-					SAY Goodbye.
+					SAY @,,2 1043023	// Goodbye.
 				ENDDO
 				LEAVE
 			ELSE
 				DORAND 3
 					SAY Finally! Go away.
 					SAY Thank thee for ending thy interruption.
-					SAY Goodbye.
+					SAY @,,2 1043023	// Goodbye.
 				ENDDO
 				LEAVE
 			ENDIF
@@ -129,36 +129,36 @@ ON=*see you *
 				DORAND 3
 					SAY Good riddance!
 					SAY I spoke with <SRC.NAME> and I lived...!
-					SAY Goodbye.
+					SAY @,,2 1043023	// Goodbye.
 				ENDDO
 				LEAVE
 			ELSE
 				DORAND 3
 					SAY Good riddance!
 					SAY I spoke with <SRC.NAME> and I lived...!
-					SAY Goodbye.
+					SAY @,,2 1043023	// Goodbye.
 				ENDDO
 				LEAVE
 			ENDIF
 		ELIF ( <SRC.FAME.ANONYMOUS> )
 			IF ( <COMPLEXITY.HIGH> )
 				DORAND 3
-					SAY Fare thee well.
+					SAY @,,2 1043031	// Fare The Well
 					SAY Goodbye, stranger.
 					SAY May the rest of thy day be pleasant.
 				ENDDO
 				LEAVE
 			ELIF ( <COMPLEXITY.MEDIUM> )
 				DORAND 3
-					SAY Farewell.
-					SAY Goodbye.
+					SAY @,,2 1043022	// Farewell.
+					SAY @,,2 1043023	// Goodbye.
 					SAY Good day, then.
 				ENDDO
 				LEAVE
 			ELSE
 				DORAND 3
-					SAY Farewell.
-					SAY Goodbye.
+					SAY @,,2 1043022	// Farewell.
+					SAY @,,2 1043023	// Goodbye.
 					SAY Good day, then.
 				ENDDO
 				LEAVE
