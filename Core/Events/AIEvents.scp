@@ -442,5 +442,29 @@ EndIf
 On=@DeathCorpse
 NewLoot=TitanLoot
 
+///////////////////
+// Miscellaneous //
+///////////////////
+
+
+[Events AIGazer]
+On=@DeathCorpse
+NewLoot=GazerLoot
+
+
+[Events AIElderGazer]
+On=@DeathCorpse
+NewLoot=ElderGazerLoot
+
+
+[Events AIGazerLarva]
+On=@DeathCorpse
+NewLoot=GazerLarvaLoot
+
+
+[Events AIHeadless]
+On=@DeathCorpse
+NewLoot=HeadlessLoot
+
 
 [EOF]

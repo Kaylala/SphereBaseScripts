@@ -1,0 +1,283 @@
+[CharDef 016]
+DefName=cGazer
+Name=gazer
+Can=CanWalk|CanUseHands|CanNonHuman|CanFly|CanHover
+MoveRate=100
+Dam=5,10
+Icon=iGazerIcon
+Sound=
+Resources=1 iCutOfRawRibs
+FoodType=tRawMeat,tMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=tGold,tCoin,tGem,tRawMeat,tMeat
+BloodColor=0
+TEvents=AIGazer
+
+Category=Monsters
+Subsection=Miscellaneous
+Description=Gazer
+
+On=@Create
+NPC=BrainMonster
+
+Fame=3500
+Karma=-3500
+Alignment=Evil
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=35,40
+ResFire=40,50
+ResCold=20,30
+ResPoison=10,20
+ResEnergy=20,30
+
+OStr={96 125}
+ODex={86 105}
+OInt={141 165}
+MaxHits={58 75}
+
+Wrestling={500 700}
+Tactics={500 700}
+MagicResistance={500 700}
+Parrying={500 700}
+Magery={500 650}
+EvaluatingIntel={500 650}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={125 175}
+
+
+[CharDef 044]
+DefName=cElderGazer1
+Name=elder gazer
+Can=CanWalk|CanUseHands|CanNonHuman|CanFly|CanHover
+MoveRate=100
+Dam=8,19
+Icon=iGazerIcon
+Sound=
+Resources=1 iCutOfRawRibs
+FoodType=tRawMeat,tMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=tGold,tCoin,tGem,tRawMeat,tMeat
+BloodColor=0
+TEvents=AIElderGazer
+
+Category=Monsters
+Subsection=Miscellaneous
+Description=Elder Gazer
+
+On=@Create
+NPC=BrainMonster
+
+Fame=12500
+Karma=-12500
+Alignment=Evil
+
+DamPhysical=50
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=50
+
+ResPhysical=45,55
+ResFire=60,70
+ResCold=40,50
+ResPoison=40,50
+ResEnergy=40,50
+
+OStr={296 325}
+ODex={86 105}
+OInt={291 385}
+MaxHits={178 195}
+
+Wrestling={800 1000}
+Tactics={800 1000}
+MagicResistance={1150 1300}
+Parrying={800 1000}
+Anatomy={600 1000}
+Magery={900 1000}
+EvaluatingIntel={900 1000}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={400 600}
+
+
+[CharDef 045]
+DefName=cElderGazer2
+Name=elder gazer
+Can=CanWalk|CanUseHands|CanNonHuman|CanFly|CanHover
+MoveRate=100
+Dam=8,19
+Icon=iGazerIcon
+Sound=
+Resources=1 iCutOfRawRibs
+FoodType=tRawMeat,tMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=tGold,tCoin,tGem,tRawMeat,tMeat
+BloodColor=0
+TEvents=AIElderGazer
+
+Category=Monsters
+Subsection=Miscellaneous
+Description=Elder Gazer
+
+On=@Create
+NPC=BrainMonster
+
+Fame=12500
+Karma=-12500
+Alignment=Evil
+
+DamPhysical=50
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=50
+
+ResPhysical=45,55
+ResFire=60,70
+ResCold=40,50
+ResPoison=40,50
+ResEnergy=40,50
+
+OStr={296 325}
+ODex={86 105}
+OInt={291 385}
+MaxHits={178 195}
+
+Wrestling={800 1000}
+Tactics={800 1000}
+MagicResistance={1150 1300}
+Parrying={800 1000}
+Anatomy={600 1000}
+Magery={900 1000}
+EvaluatingIntel={900 1000}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={400 600}
+
+
+[CharDef 030A]
+DefName=cGazerLarva
+Name=gazer larva
+Can=CanWalk|CanUseHands|CanNonHuman|CanFly|CanHover
+MoveRate=100
+Dam=2,9
+Icon=iGazerLarvaIcon
+Sound=
+Resources=1 iCutOfRawRibs
+FoodType=tRawMeat,tMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=tGold,tCoin,tGem,tRawMeat,tMeat
+BloodColor=0
+TEvents=AIGazerLarva
+
+Category=Monsters
+Subsection=Miscellaneous
+Description=Gazer Larva
+
+On=@Create
+NPC=BrainMonster
+
+Fame=900
+Karma=-900
+Alignment=Evil
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=15,25
+ResFire=0
+ResCold=0
+ResPoison=0
+ResEnergy=0
+
+OStr={76 100}
+ODex={51 75}
+OInt={56 80}
+MaxHits={36 47}
+
+Wrestling=700
+Tactics=700
+MagicResistance=700
+Parrying=700
+
+On=@NPCRestock
+NewGold={25 50}
+
+
+[CharDef 01F]
+DefName=cHeadless
+Name=headless
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=5,10	// 6,12 UOS
+Icon=iHeadlessIcon
+Sound=
+Resources=1 iCutOfRawRibs
+FoodType=tRawMeat,tMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=tGold,tCoin,tGem,tRawMeat,tMeat
+BloodColor=0
+TEvents=AIHeadless
+
+Category=Monsters
+Subsection=Miscellaneous
+Description=Headless
+
+On=@Create
+NPC=BrainMonster
+
+Fame=450
+Karma=-450
+Alignment=Evil
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=15,20
+ResFire=0
+ResCold=0
+ResPoison=0
+ResEnergy=0
+
+OStr={26 50}
+ODex={36 55}
+OInt={16 30}
+MaxHits={16 30}
+
+Wrestling={250 400}
+Tactics={250 400}
+MagicResistance={150 200}
+Parrying={250 400}
+
+On=@NPCRestock
+NewGold={25 50}
+
+
+[EOF]

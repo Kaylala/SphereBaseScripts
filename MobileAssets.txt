@@ -138,7 +138,7 @@ Echidnite
 #Effete Putrid Gargoyle
 #Effete Undead Gargoyle
 Efreet
-Elder Gazer
+#Elder Gazer
 Elite Ninja
 #Enraged Earth Elemental
 Enraged Colossus
@@ -189,8 +189,8 @@ Gargoyle Assassin
 Gargoyle Destroyer
 Gargoyle Enforcer
 #Gargoyle Shade
-Gazer
-Gazer Larva
+#Gazer
+#Gazer Larva
 #Ghoul
 Giant Beetle
 Giant Black Widow
@@ -218,7 +218,7 @@ Gremlin
 Grubber
 Harpy
 Headless Miner
-Headless One
+#Headless One
 Hell Hound
 Hellcat (Large)
 Hellcat (Small)

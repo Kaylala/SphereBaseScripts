@@ -417,7 +417,7 @@ Category=Templates: NPC Loot
 Subsection=Monsters: Giantkin
 Description=Ogre
 NewTMap=1
-Item=iClub
+Item=iClub,1
 Item=RandomCommonGem,1
 
 
@@ -426,7 +426,7 @@ Category=Templates: NPC Loot
 Subsection=Monsters: Giantkin
 Description=Ogre Lord
 NewTMap=3
-Item=iClub
+Item=iClub,1
 Item=RandomCommonGem,{1 2}
 
 
@@ -435,7 +435,7 @@ Category=Templates: NPC Loot
 Subsection=Monsters: Giantkin
 Description=Arctic Ogre Lord
 NewTMap=3
-Item=iClub
+Item=iClub,1
 Item=RandomCommonGem,{1 2}
 
 
@@ -444,7 +444,7 @@ Category=Templates: NPC Loot
 Subsection=Monsters: Giantkin
 Description=Ettin
 NewTMap=1
-Item=RandomPotion
+Item=RandomPotion,1
 Item=RandomCommonGem,1
 
 
@@ -482,6 +482,50 @@ Item=RandomCommonGem,{1 2}
 Item=RandomFood,{1 2}
 Item=RandomMediumLevelScroll,1
 Item={RandomPeculiarSeed1 19 iFragrantSeed 1},1,R9
+
+
+///////////////////
+// Miscellaneous //
+///////////////////
+
+
+[Template GazerLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Miscellaneous
+Description=Gazer
+NewTMap=1
+Item=iNightShade,4
+Item=RandomPotion,1
+
+
+[Template ElderGazerLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Miscellaneous
+Description=Elder Gazer
+NewTMap=4
+Item=iNightShade,4
+Item=RandomPotion,1
+Item=RandomScroll,{1 2}
+
+
+[Template GazerLarvaLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Miscellaneous
+Description=Gazer Larva
+NewTMap=1
+Item=iNightShade,{2 3}
+Item=RandomPotion,1
+
+
+[Template HeadlessLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Miscellaneous
+Description=Headless
+Item=RandomPotion
+Item=RandomFood,{1 2}
+Item=RandomFood,{1 2}
+Item=RandomLightSource,1
+Item=RandomClothing,1
 
 
 ////////////
