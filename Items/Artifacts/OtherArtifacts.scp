@@ -1,0 +1,52 @@
+[ItemDef 02B01]
+DefName=iDupresShield
+Name=Dupre's Shield
+NameLoc=1075196	// Dupre's Shield
+Type=tShield
+Can=0
+Weight=6
+ReqStr=50
+
+Category=Artifacts
+Subsection=Other: 8th Anniversary
+Description=Dupre's Shield
+
+On=@Create
+Attr=AttrArtifact|AttrMagic|AttrNewbie|AttrBlessed
+HitPoints={49 94}
+
+SkillBonus=Parrying,5
+HitPointIncrease=5
+HitPointRegeneration=1
+ResPhysical=1
+ResEnergy=1
+
+On=@Equip
+Src.Parrying += 50
+Src.HitPointIncrease += 5
+Src.HitPointRegeneration += 1
+Src.ResPhysical += 1
+Src.ResEnergy += 1
+
+On=@Unequip
+Src.Parrying -= 50
+Src.HitPointIncrease -= 5
+Src.HitPointRegeneration -= 1
+Src.ResPhysical -= 1
+Src.ResEnergy -= 1
+
+On=@ClientTooltip
+Src.AddCliLoc <NameLoc>
+Src.AddCliLoc 1038021	// Blessed
+Src.AddCliLoc 1072789,<Weight>
+Src.AddCliLoc 1060451,<SkillBonus.ArgV0>,<SkillBonus.ArgV1>
+Src.AddCliLoc 1060431,<HitPointIncrease>
+Src.AddCliLoc 1060444,<HitPointRegeneration>
+Src.AddCliLoc 1060448,<ResPhysical>
+Src.AddCliLoc 1060446,<ResEnergy>
+Src.AddCliLoc 1061170,<ReqStr>
+Src.AddCliLoc 1060639,<More1L>,<More1H>
+Return 1
+
+
+[EOF]

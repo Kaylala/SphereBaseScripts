@@ -7,7 +7,7 @@ Else
  If (<DispID> <= 16381)
   Src.AddCliLoc <Eval (1020000 + <DispIDDec>)>
  Else
-  Src.AddCliLoc <Eval (1078872 + <DispIDDec>)>	// Still need proper val
+  Src.AddCliLoc <Eval (1078872 + <DispIDDec>)>
 EndIf
 
 
