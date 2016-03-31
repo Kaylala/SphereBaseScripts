@@ -41,7 +41,7 @@ Scripts/Core/						// Core Files (Misc loaded after above.)
 Scripts/Skills/						// Definitions with no Items attached. (Move up?)
 Scripts/SkillMenus/					// This should follow skills honesty.
 Scripts/Names/						// Might be able to move this to the bottom of operations.
-Scripts/Speech/				`		// Might be able to move this to the bottom of operations.
+Scripts/Speech/						// Might be able to move this to the bottom of operations.
 // Items
 Scripts/Items/
 Scripts/Items/Artifacts/
@@ -81,7 +81,7 @@ Scripts/Stones/Towns/
 Scripts/Speech/
 
 // Templates //
-Scripts/Tempates/
+Scripts/Templates/
 
 [OBSCENE]
 
