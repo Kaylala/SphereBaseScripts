@@ -12,7 +12,30 @@ DyeHighHue					1000   // highest dyeable hue = 1001
 IceHue						1152
 SnowHue						1153
 RockHue						1154
-SpectralHue					16385
+SpectralHue					04001
+GreyScaleOnlyHue			08000	// Flag (Don't use just as is. Set like Color=08000|<Hue>)
+EtherealOnlyHue				04000	// Flag (Don't use just as is. Set like Color=04000|<Hue>)
+
+YellowHue					037
+OrangeHue					030
+DarkPinkHue					01C
+RedHue						021
+LightPurpleHue				013
+PurpleHue					071
+DarkPurpleHue				00d
+LightBlueHue				059
+BlueHue						062
+DarkBlueHue					003
+LightGreenHue				03a
+GreenHue					03f
+DarkGreenHue				044
+IceBlueHue					0482
+DryadGreenHue				048f
+BubblegumPinkHue			048e
+FireOrangeHue				0489
+DarkTealHue					048a
+PeriwinkleBlueHue			048d
+LilacHue					0490
 
 // Leather Hues
 OldSpinedHue				0283

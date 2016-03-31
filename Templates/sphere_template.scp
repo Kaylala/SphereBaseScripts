@@ -609,7 +609,115 @@ DefName=RandomGargishShield
 Category=Templates: Generic
 Subsection=Armor: Hand 2 Slot / Shields
 Description=Gargoyle Shield (Random)
-Item={iGargishChaosShield 1 iGargishKiteShield 1 iGargishOrderShield 1 iLargePlateShield 1 iLargeStoneShield 1 iMediumPlateShield 1 iSmallPlateShield 1}
+Item={iGargishChaosShield 1 iGargishKiteShield 1 iGargishOrderShield 1 iLargePlateShield 1 iLargeStoneShield 1 iMediumPlateShield 1 iSmallPlateShield 1 iGargishWoodenShield 1}
+
+
+///////////
+// Magic //
+///////////
+
+
+[Template RandomMageryReagent]
+Category=Templates: Generic
+Subsection=Magic: Reagents
+Description=Magery Reagent (Random)
+Item={iBlackPearl 1 iNightshade 1 iBloodMoss 1 iSulfurousAsh 1 iSpidersSilk 1 iGarlic 1 iGinseng 1 iMandrakeRoot 1}
+
+
+[Template RandomNecromancyReagent]
+Category=Templates: Generic
+Subsection=Magic: Reagents
+Description=Necromancy Reagent (Random)
+Item={iGraveDust 1 iNoxCrystal 1 iDaemonBlood 1 iBatWing 1 iPigIron 1}
+
+
+[Template RandomMysticismReagent]
+Category=Templates: Generic
+Subsection=Magic: Reagents
+Description=Mysticism Reagent (Random)
+Item={iBone 1 iDragonsBlood2 1 iDaemonBone 1 iFertileDirt 1}
+
+
+[Template RandomPaganReagent]
+Category=Templates: Generic
+Subsection=Magic: Reagents
+Description=Pagan Reagent (Random)
+Item={iBlackmoor 1 iBloodSpawn 1 iBone 1 iBrimstone 1 iDaemonBone 1 iDeadWood 1 iDragonsBlood1 1 iExecutionersCap 1 iEyeOfNewt 1 iFertileDirt 1 iObsidian 1 iPumice 1 iSerpentsScale 1 iVialOfBlood 1 iVolcanicAsh 1 iWyrmsHeart 1}
+
+
+// Scrolls
+
+
+// Spellbooks
+
+
+// Wands
+// This might NOT be happening. Wands should and can be randomly generated with a function. e.g. GenerateSpellWand
+// This is more ideal and can be scripted to give SOME control if need be. Wands never had an Item Per Spell unlike scrolls.
+// So this template list is highly under consideration not to even parse.
+
+
+// Potions
+
+
+/////////////////
+// Ingredients //
+/////////////////
+
+
+[Template RandomPeerlessIngredient]
+Category=Templates: Generic
+Subsection=Ingredients: Peerless
+Description=Peerless Ingredient (Random)
+Item={RandomCommonPeerlessIngredient 1 RandomUncommonPeerlessIngredient 1 RandomRarePeerlessIngredient 1}
+
+
+[Template RandomCommonPeerlessIngredient]
+Category=Templates: Generic
+Subsection=Ingredients: Peerless
+Description=Common Peerless Ingredient (Random)
+Item={iBlight 1 iCorruption 1 iMuculent 1}
+
+
+[Template RandomUncommonPeerlessIngredient]
+Category=Templates: Generic
+Subsection=Ingredients: Peerless
+Description=Uncommon Peerless Ingredient (Random)
+Item={iPutrefaction 1 iScourge 1 iTaint 1}
+
+
+[Template RandomRarePeerlessIngredient]
+Category=Templates: Generic
+Subsection=Ingredients: Peerless
+Description=Rare Peerless Ingredient (Random)
+Item={iCapturedEssence 1 iDiseasedBark 1 iDreadHornMane 1 iEyeOfTheTravesty 1 iGrizzledBones 1 iLardOfParoxysmus 1}
+
+
+///////////
+// Other //
+///////////
+
+
+[Template RandomLightSource]
+DefName=RandomLight
+Category=Templates: Generic
+Subsection=Other
+Description=Light Sources (Random)
+Item={iCandle 1 iTorch 1 iLantern 1}
+
+
+[Template RandomCommonGem]
+Category=Templates: Generic
+Subsection=Other
+Description=Common Gem (Random)
+Item={iStarSapphire 1 iEmerald 1 iSapphire 1 iRuby 1 iCitrine 1 iAmethyst 1 iTourmaline 1 iAmber 1 iDiamond 1}
+
+
+[Template RandomRareGem]
+Category=Templates: Generic
+Subsection=Other
+Description=Rare Gem (Random)
+Item={iBlueDiamond 1 iBrilliantAmber 1 iDarkSapphire 1 iEcruCitrine 1 iFireRuby 1 iPerfectEmerald 1 iTurquoise 1 iWhitePearl 1}
 
 
 
@@ -621,9 +729,7 @@ Random_gloves          { i_studded_gloves 1 i_platemail_gloves 1 i_leather_glove
 Random_shield          { i_shield_round_bronze 1 i_shield_buckler 1 i_shield_kite_metal 1 i_shield_heater 1 i_shield_kite_wood 1 i_shield_wood 1 i_shield_round_metal 1 }
 Random_chest_armor     { i_studded_tunic 1 i_platemail_chest 1 i_chainmail_tunic 1 i_leather_tunic 1 i_ringmail_tunic 1 }
 
-
 [DEFNAME items_other]
-Random_light           { i_candle 1 i_torch 1 i_lantern 1 }
 Random_fishing_junk    { i_fishing_weight 1 i_fishing_pole 1 i_fish_cut_raw 1 i_fish_raw_head 1 i_fish_small 1 i_fish_big_1 1 i_fish_big_2 1 i_fish_big_3 1 i_fish_big_4 1 }
 
 [DEFNAME items_misc]
@@ -631,8 +737,6 @@ Random_instrument         { Random_instrument_human 1 Random_instrument_gargish 
 Random_instrument_human   { i_drum 1 i_tambourine 1 i_tambourine_tas 1 i_harp_large 1 i_lyre 1 i_lute 1 i_flute_bamboo 1 }
 Random_instrument_gargish { i_aud_char 1 i_harp_gargoyle 1 i_lute_gargoyle 1 i_musical_instrument 1 i_drum_gargoyle 1 i_flute_gargoyle 1 }
 
-[DEFNAME items_jewels]
-Random_jewel           { i_gem_star_sapphire 1 i_gem_emerald 1 i_gem_sapphire 1 i_gem_ruby 1 i_gem_citrine 1 i_gem_amethyst 1 i_gem_tourmaline 1 i_gem_amber 1 i_gem_diamond 1 }
 
 [DEFNAME items_food]
 Random_food            { Random_bread 1 Random_baked 1 Random_cheese 1 Random_soup 1 Random_other_food 1 Random_meat 1 Random_veggie 1 Random_fruit 1 }
