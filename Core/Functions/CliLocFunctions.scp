@@ -1,13 +1,28 @@
 [Function NameCliLoc]
-If (<NameLoc>)
- Src.AddCliLoc <NameLoc>
-ElIf (<Name>)
- Src.AddCliLoc 1042971,<Name>
-Else
- If (<DispID> <= 16381)
-  Src.AddCliLoc <Eval (1020000 + <DispIDDec>)>
+If (<Can> &CanIStack)
+ If (<NameLoc>)
+  Src.AddCliLoc 1050039,<Amount>,<NameLoc>
+ ElIf (<Name>)
+  Src.AddCliLoc 1050039,<Amount>,<Name>
  Else
-  Src.AddCliLoc <Eval (1078872 + <DispIDDec>)>
+  If (<DispID> <= 16381)
+   Src.AddCliLoc 1050039,<Amount>,<Eval (1020000 + <DispIDDec>)>
+  Else
+   Src.AddCliLoc 1050039,<Amount>,<Eval (1078872 + <DispIDDec>)>
+  EndIf
+ EndIf
+Else
+ If (<NameLoc>)
+  Src.AddCliLoc <NameLoc>
+ ElIf (<Name>)
+  Src.AddCliLoc 1042971,<Name>
+ Else
+  If (<DispID> <= 16381)
+   Src.AddCliLoc <Eval (1020000 + <DispIDDec>)>
+  Else
+   Src.AddCliLoc <Eval (1078872 + <DispIDDec>)>
+  EndIf
+ EndIf
 EndIf
 
 
@@ -50,7 +65,7 @@ EndIf
 [Function WeightCliLoc]
 If (<Amount> > 1) && (<Weight> != 255) 
  Src.AddCliLoc <QVal (<Weight> > 1) ? 1072789 : 1072788>,<FVal <Weight>>
- EndIf
+EndIf
 
 
 [Function ArmorCliLoc]

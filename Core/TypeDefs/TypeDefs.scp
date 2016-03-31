@@ -1,6 +1,27 @@
 [TypeDef tChickenCoop]
 
 
+[TypeDef tNormal]
+On=@ClientTooltip
+NameCliLoc
+WeightCliLoc
+Return 1
+
+
+[TypeDef tIngot]
+On=@ClientTooltip
+NameCliLoc
+WeightCliLoc
+Return 1
+
+
+[TypeDef tOre]
+On=@ClientTooltip
+NameCliLoc
+WeightCliLoc
+Return 1
+
+
 [TypeDef tClockworkAssembly]
 On=@DClick
 If !(<Src.Tinkering>)

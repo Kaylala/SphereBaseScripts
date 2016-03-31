@@ -1,0 +1,522 @@
+////////////////
+// Sphere Ore //
+////////////////
+
+
+[ItemDef iSilverOre1]
+ID=iOre1
+Name=silver ore
+Type=tOre
+TData1=iSilverIngot
+TData2=05
+Can=CanIStack
+Weight=2
+SkillMake=Mining 950
+Value=0
+
+Category=Resources
+Subsection=Metal: Sphere Ore
+Description=Silver Ore (Small Pile)
+
+On=@Create
+Color=SilverHue
+
+
+[ItemDef iSilverOre2]
+ID=iOre2
+Name=silver ore
+Type=tOre
+TData1=iSilverIngot
+TData2=10
+Can=CanIStack
+Weight=7
+SkillMake=Mining 950
+Value=0
+
+Category=Resources
+Subsection=Metal: Sphere Ore
+Description=Silver Ore (Medium Pile 1)
+
+On=@Create
+Color=SilverHue
+
+
+[ItemDef iSilverOre3]
+ID=iOre3
+Name=silver ore
+Type=tOre
+TData1=iSilverIngot
+TData2=20
+Can=CanIStack
+Weight=12
+SkillMake=Mining 950
+Value=0
+
+Category=Resources
+Subsection=Metal: Sphere Ore
+Description=Silver Ore (Large Pile)
+
+On=@Create
+Color=SilverHue
+
+
+[ItemDef iSilverOre4]
+ID=iOre4
+Name=silver ore
+Type=tOre
+TData1=iSilverIngot
+TData2=10
+Can=CanIStack
+Weight=7
+SkillMake=Mining 950
+Value=0
+
+Category=Resources
+Subsection=Metal: Sphere Ore
+Description=Silver Ore (Medium Pile 2)
+
+On=@Create
+Color=SilverHue
+
+
+[ItemDef iRoseOre1]
+ID=iOre1
+Name=rose ore
+Type=tOre
+TData1=iRoseIngot
+TData2=05
+Can=CanIStack
+Weight=2
+SkillMake=Mining 870
+Value=0
+
+Category=Resources
+Subsection=Metal: Sphere Ore
+Description=Rose Ore (Small Pile)
+
+On=@Create
+Color=RoseHue
+
+
+[ItemDef iRoseOre2]
+ID=iOre2
+Name=rose ore
+Type=tOre
+TData1=iRoseIngot
+TData2=10
+Can=CanIStack
+Weight=7
+SkillMake=Mining 870
+Value=0
+
+Category=Resources
+Subsection=Metal: Sphere Ore
+Description=Rose Ore (Medium Pile 1)
+
+On=@Create
+Color=RoseHue
+
+
+[ItemDef iRoseOre3]
+ID=iOre3
+Name=rose ore
+Type=tOre
+TData1=iRoseIngot
+TData2=20
+Can=CanIStack
+Weight=12
+SkillMake=Mining 870
+Value=0
+
+Category=Resources
+Subsection=Metal: Sphere Ore
+Description=Rose Ore (Large Pile)
+
+On=@Create
+Color=RoseHue
+
+
+[ItemDef iRoseOre4]
+ID=iOre4
+Name=rose ore
+Type=tOre
+TData1=iRoseIngot
+TData2=10
+Can=CanIStack
+Weight=7
+SkillMake=Mining 870
+Value=0
+
+Category=Resources
+Subsection=Metal: Sphere Ore
+Description=Rose Ore (Medium Pile 2)
+
+On=@Create
+Color=RoseHue
+
+
+[ItemDef iMytherilOre1]
+ID=iOre1
+Name=mytheril ore
+Type=tOre
+TData1=iMytherilIngot
+TData2=05
+Can=CanIStack
+Weight=2
+SkillMake=Mining 995
+Value=0
+
+Category=Resources
+Subsection=Metal: Sphere Ore
+Description=Mytheril Ore (Small Pile)
+
+On=@Create
+Color=MytherilHue
+
+
+[ItemDef iMytherilOre2]
+ID=iOre2
+Name=mytheril ore
+Type=tOre
+TData1=iMytherilIngot
+TData2=10
+Can=CanIStack
+Weight=7
+SkillMake=Mining 995
+Value=0
+
+Category=Resources
+Subsection=Metal: Sphere Ore
+Description=Mytheril Ore (Medium Pile 1)
+
+On=@Create
+Color=MytherilHue
+
+
+[ItemDef iMytherilOre3]
+ID=iOre3
+Name=mytheril ore
+Type=tOre
+TData1=iMytherilIngot
+TData2=20
+Can=CanIStack
+Weight=12
+SkillMake=Mining 995
+Value=0
+
+Category=Resources
+Subsection=Metal: Sphere Ore
+Description=Mytheril Ore (Large Pile)
+
+On=@Create
+Color=MytherilHue
+
+
+[ItemDef iMytherilOre4]
+ID=iOre4
+Name=mytheril ore
+Type=tOre
+TData1=iMytherilIngot
+TData2=10
+Can=CanIStack
+Weight=7
+SkillMake=Mining 995
+Value=0
+
+Category=Resources
+Subsection=Metal: Sphere Ore
+Description=Mytheril Ore (Medium Pile 2)
+
+On=@Create
+Color=MytherilHue
+
+
+[ItemDef iBlackrockOre1]
+ID=iOre1
+Name=blackrock ore
+Type=tOre
+TData1=iBlackrockIngot
+TData2=05
+Weight=2
+SkillMake=Mining 1000
+Value=0
+
+Category=Resources
+Subsection=Metal: Sphere Ore
+Description=Blackrock Ore (Small Pile)
+
+On=@Create
+Color=BlackrockHue
+
+
+[ItemDef iBlackrockOre2]
+ID=iOre2
+Name=blackrock ore
+Type=tOre
+TData1=iBlackrockIngot
+TData2=10
+Weight=7
+SkillMake=Mining 1000
+Value=0
+
+Category=Resources
+Subsection=Metal: Sphere Ore
+Description=Blackrock Ore (Medium Pile 1)
+
+On=@Create
+Color=BlackrockHue
+
+
+[ItemDef iBlackrockOre3]
+ID=iOre3
+Name=blackrock ore
+Type=tOre
+TData1=iBlackrockIngot
+TData2=20
+Weight=12
+SkillMake=Mining 1000
+Value=0
+
+Category=Resources
+Subsection=Metal: Sphere Ore
+Description=Blackrock Ore (Large Pile)
+
+On=@Create
+Color=BlackrockHue
+
+
+[ItemDef iBlackrockOre4]
+ID=iOre4
+Name=blackrock ore
+Type=tOre
+TData1=iBlackrockIngot
+TData2=10
+Weight=7
+SkillMake=Mining 1000
+Value=0
+
+Category=Resources
+Subsection=Metal: Sphere Ore
+Description=Blackrock Ore (Medium Pile 2)
+
+On=@Create
+Color=BlackrockHue
+
+
+[ItemDef iBloodrockOre1]
+ID=iOre1
+Name=bloodrock ore
+Type=tOre
+TData1=iBloodrockIngot
+TData2=05
+Weight=2
+SkillMake=Mining 930
+Value=0
+
+Category=Resources
+Subsection=Metal: Sphere Ore
+Description=Bloodrock Ore (Small Pile)
+
+On=@Create
+Color=BloodrockHue
+
+
+[ItemDef iBloodrockOre2]
+ID=iOre2
+Name=bloodrock ore
+Type=tOre
+TData1=iBloodrockIngot
+TData2=10
+Weight=7
+SkillMake=Mining 930
+Value=0
+
+Category=Resources
+Subsection=Metal: Sphere Ore
+Description=Bloodrock Ore (Medium Pile 1)
+
+On=@Create
+Color=BloodrockHue
+
+
+[ItemDef iBloodrockOre3]
+ID=iOre3
+Name=bloodrock ore
+Type=tOre
+TData1=iBloodrockIngot
+TData2=20
+Weight=12
+SkillMake=Mining 930
+Value=0
+
+Category=Resources
+Subsection=Metal: Sphere Ore
+Description=Bloodrock Ore (Large Pile)
+
+On=@Create
+Color=BloodrockHue
+
+
+[ItemDef iBloodrockOre4]
+ID=iOre4
+Name=bloodrock ore
+Type=tOre
+TData1=iBloodrockIngot
+TData2=10
+Weight=7
+SkillMake=Mining 930
+Value=0
+
+Category=Resources
+Subsection=Metal: Sphere Ore
+Description=Bloodrock Ore (Medium Pile 2)
+
+On=@Create
+Color=BloodrockHue
+
+
+[ItemDef iRustyOre1]
+ID=iOre1
+Name=rusty ore
+Type=tOre
+TData1=iRustyIngot
+TData2=05
+Weight=2
+SkillMake=Mining 500
+Value=0
+
+Category=Resources
+Subsection=Metal: Sphere Ore
+Description=Rusty Ore (Small Pile)
+
+On=@Create
+Color=RustyHue
+
+
+[ItemDef iRustyOre2]
+ID=iOre2
+Name=rusty ore
+Type=tOre
+TData1=iRustyIngot
+TData2=10
+Weight=7
+SkillMake=Mining 500
+Value=0
+
+Category=Resources
+Subsection=Metal: Sphere Ore
+Description=Rusty Ore (Medium Pile 1)
+
+On=@Create
+Color=RustyHue
+
+
+[ItemDef iRustyOre3]
+ID=iOre3
+Name=rusty ore
+Type=tOre
+TData1=iRustyIngot
+TData2=20
+Weight=12
+SkillMake=Mining 500
+Value=0
+
+Category=Resources
+Subsection=Metal: Sphere Ore
+Description=Rusty Ore (Large Pile)
+
+On=@Create
+Color=RustyHue
+
+
+[ItemDef iRustyOre4]
+ID=iOre4
+Name=rusty ore
+Type=tOre
+TData1=iRustyIngot
+TData2=10
+Weight=7
+SkillMake=Mining 500
+Value=0
+
+Category=Resources
+Subsection=Metal: Sphere Ore
+Description=Rusty Ore (Medium Pile 2)
+
+On=@Create
+Color=RustyHue
+
+
+[ItemDef iOldCopperOre1]
+ID=iOre1
+Name=old copper ore
+Type=tOre
+TData1=iOldCopperIngot
+TData2=05
+Weight=2
+SkillMake=Mining 600
+Value=0
+
+Category=Resources
+Subsection=Metal: Sphere Ore
+Description=Old Copper Ore (Small Pile)
+
+On=@Create
+Color=OldCopperHue
+
+
+[ItemDef iOldCopperOre2]
+ID=iOre2
+Name=old copper ore
+Type=tOre
+TData1=iOldCopperIngot
+TData2=10
+Weight=7
+SkillMake=Mining 600
+Value=0
+
+Category=Resources
+Subsection=Metal: Sphere Ore
+Description=Old Copper Ore (Medium Pile 1)
+
+On=@Create
+Color=OldCopperHue
+
+
+[ItemDef iOldCopperOre3]
+ID=iOre3
+Name=old copper ore
+Type=tOre
+TData1=iOldCopperIngot
+TData2=20
+Weight=12
+SkillMake=Mining 600
+Value=0
+
+Category=Resources
+Subsection=Metal: Sphere Ore
+Description=Old Copper Ore (Large Pile)
+
+On=@Create
+Color=OldCopperHue
+
+
+[ItemDef iOldCopperOre4]
+ID=iOre4
+Name=old copper ore
+Type=tOre
+TData1=iOldCopperIngot
+TData2=10
+Weight=7
+SkillMake=Mining 600
+Value=0
+
+Category=Resources
+Subsection=Metal: Sphere Ore
+Description=Old Copper Ore (Medium Pile 2)
+
+On=@Create
+Color=OldCopperHue
+
+
+[EOF]

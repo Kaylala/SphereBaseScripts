@@ -1,0 +1,263 @@
+//////////////
+// Base Ore //
+//////////////
+
+
+[ItemDef 019b7]
+DefName=iOre1
+Name=ore
+NameLoc=1026583
+Type=tNormal
+Weight=2
+
+Category=Resources
+Subsection=Metal: Ore (Base)
+Description=Ore (Small Pile)
+
+
+[ItemDef 019b8]
+DefName=iOre2
+Name=ore
+NameLoc=1026584
+Type=tNormal
+Weight=7
+
+CategoryProfessions
+Subsection=Mining
+Description=Ore (Medium Pile 1)
+
+
+[ItemDef 019B9]
+DefName=iOre3
+Name=ore
+NameLoc=1026585
+Type=tNormal
+Weight=12
+
+CategoryProfessions
+Subsection=Mining
+Description=Ore (Large Pile)
+
+
+[ItemDef 019BA]
+DefName=iOre4
+Name=ore
+NameLoc=1026586
+Type=tOre
+Weight=7
+
+CategoryProfessions
+Subsection=Mining
+Description=Ore (Medium Pile 2)
+
+
+/////////////////
+// Base Ingots //
+/////////////////
+
+
+[ItemDef 01BE3]
+DefName=iCopperIngot1
+Name=copper ingot
+NameLoc=1027139
+Type=tNormal
+Weight=1
+DupeList=01BE6
+
+Category=Professions
+Subsection=Mining
+Description=Copper Ingot
+
+[ItemDef 01BE6]
+NameLoc=1027142
+DupeItem=01BE3
+
+
+[ItemDef 01BE4]
+DefName=iCopperIngots1
+Name=copper ingots
+NameLoc=1027140
+Type=tNormal
+Weight=1
+DupeList=01BE7
+
+Category=Professions
+Subsection=Mining
+Description=Copper Ingots (3)
+
+[ItemDef 01BE7]
+//Pile of 3 copper ingots facing SW
+NameLoc=1027143
+DupeItem=01BE4
+
+
+[ItemDef 01BE5]
+DefName=iCopperIngots2
+Name=copper ingots
+NameLoc=1027141
+Type=tNormal
+Weight=1
+DupeList=01BE8
+
+Category=Professions
+Subsection=Mining
+Description=Copper Ingots (5)
+
+[ItemDef 01BE8]
+NameLoc=1027144
+DupeItem=01BE5
+
+
+[ItemDef 01BE9]
+DefName=iGoldIngot1
+Name=gold ingot
+NameLoc=1027145
+Type=tNormal
+Weight=1
+DupeList=01BEC
+
+Category=Professions
+Subsection=Mining
+Description=Gold Ingot
+
+[ItemDef 01BEC]
+NameLoc=1027148
+DupeItem=01BE9
+
+
+[ItemDef 01BEA]
+DefName=iGoldIngots1
+Name=gold ingots
+NameLoc=1027146
+Type=tNormal
+Weight=5
+DupeList=01BED
+
+Category=Professions
+Subsection=Mining
+Description=Gold Ingots (3)
+
+[ItemDef 01BED]
+NameLoc=1027149
+DupeItem=01BEA
+
+
+[ItemDef 01BEB]
+DefName=iGoldIngots2
+Name=gold ingots
+NameLoc=1027147
+//Pile of 5 gold ingots facing SE
+Type=tNormal
+Weight=7
+DupeList=01BEE
+
+Category=Professions
+Subsection=Mining
+Description=Gold Ingots (3)
+
+[ItemDef 01BEE]
+NameLoc=1027150
+DupeItem=01BEB
+
+
+[ItemDef 01BEF]
+DefName=iIronIngot1
+Name=iron ingot
+NameLoc=1027151
+Type=tNormal
+Weight=1
+DupeList=01BF2
+
+Category=Professions
+Subsection=Mining
+Description=Iron Ingot
+
+[ItemDef 01BF2]
+NameLoc=1027154		// Ingots	(The true base item)
+DupeItem=01BEF
+
+
+[ItemDef 01BF0]
+DefName=iIronIngots1
+Name=iron ingots
+NameLoc=1027152
+Type=tNormal
+Weight=5
+DupeList=01BF3
+
+Category=Professions
+Subsection=Mining
+Description=Iron Ingots (3)
+
+[ItemDef 01bf3]
+NameLoc=1027155
+DupeItem=01BF0
+
+
+[ItemDef 01BF1]
+DefName=iIronIngots2
+Name=iron ingots
+NameLoc=1027153
+Type=tNormal
+Weight=7
+DupeList=01BF4
+
+Category=Professions
+Subsection=Mining
+Description=Iron Ingots (5)
+
+[ItemDef 01BF4]
+NameLoc=1027156
+DupeItem=01BF1
+
+
+[ItemDef 01BF5]
+DefName=iSilverIngot1
+Name=silver ingot
+NameLoc=1027157
+Type=tNormal
+Weight=1
+DupeList=01BF8
+
+Category=Professions
+Subsection=Mining
+Description=Silver Ingot
+
+[ItemDef 01BF8]
+NameLoc=1027160
+DupeItem=01BF5
+
+
+[ItemDef 01BF6]
+DefName=iSilverIngots1
+Name=silver ingot
+NameLoc=1027158
+Type=tNormal
+Weight=1
+DupeList=0
+
+Category=Professions
+Subsection=Mining
+Description=Silver Ingots (3)
+
+[ItemDef 01BF9]
+NameLoc=1027161
+
+
+[ItemDef 01BF7]
+DefName=iSilverIngots2
+Name=silver ingot
+NameLoc=1027159
+Type=tNormal
+Weight=1
+DupeList=0
+
+Category=Professions
+Subsection=Mining
+Description=Silver Ingots (5)
+
+[ItemDef 01BFA]
+NameLoc=1027162
+
+
+[EOF]

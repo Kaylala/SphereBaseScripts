@@ -1,0 +1,735 @@
+[COMMENT sphere_item_provisions_ore]
+
+In order to actually mine ore, a REGIONRESOURCE needs to exist for it, and a
+REGIONType needs a REGION= entry to that REGIONRESOURCE... also that same
+REGIONType must be associated to the tRock Terrain TypeDEF.
+
+For more information on how ore is mined, check the COMMENT section of the
+sphere_region.scp file.
+
+
+[Comment TData]
+TData2 is now running in Deci values without the period.
+05 = 0.5
+10 = 1.0
+20 = 2.0
+
+
+//////////
+// Ores //
+//////////
+
+
+[ItemDef iIronOre1]
+ID=iOre1
+Name=iron ore
+NameLoc=1042853
+Type=tOre
+TData1=iIronIngot
+TData2=05
+Can=CanIStack
+Weight=2
+SkillMake=Mining 0
+Value=2
+
+Category=Resources
+Subsection=Metal: Ore
+Description=Iron Ore (Small Pile)
+
+
+[ItemDef iIronOre2]
+ID=iOre2
+Name=iron ore
+NameLoc=1042853
+Type=tOre
+TData1=iIronIngot
+TData2=10
+Can=CanIStack
+Weight=7
+SkillMake=Mining 0
+Value=2
+
+Category=Resources
+Subsection=Metal: Ore
+Description=Iron Ore (Medium Pile 1)
+
+
+[ItemDef iIronOre3]
+ID=iOre3
+Name=iron ore
+NameLoc=1042853
+Type=tOre
+TData1=iIronIngot
+TData2=20
+Can=CanIStack
+Weight=12
+SkillMake=Mining 0
+Value=2
+
+Category=Resources
+Subsection=Metal: Ore
+Description=Iron Ore (Large Pile)
+
+
+[ItemDef iIronOre4]
+ID=iOre4
+Name=iron ore
+NameLoc=1042853
+Type=tOre
+TData1=iIronIngot
+TData2=10
+Can=CanIStack
+Weight=7
+SkillMake=Mining 0
+Value=2
+
+Category=Resources
+Subsection=Metal: Ore
+Description=Iron Ore (Medium Pile 2)
+
+
+[ItemDef iDullCopperOre1]
+ID=iOre1
+Name=dull copper ore
+NameLoc=1042845
+Type=tOre
+TData1=iDullCopperIngot
+TData2=05
+Can=CanIStack
+Weight=2
+SkillMake=Mining 650
+Value=4
+
+Category=Resources
+Subsection=Metal: Ore
+Description=Dull Copper Ore (Small Pile)
+
+On=@Create
+Color=DullCopperHue
+
+
+[ItemDef iDullCopperOre2]
+ID=iOre2
+Name=dull copper ore
+NameLoc=1042845
+Type=tOre
+TData1=iDullCopperIngot
+TData2=10
+Can=CanIStack
+Weight=7
+SkillMake=Mining 650
+Value=4
+
+Category=Resources
+Subsection=Metal: Ore
+Description=Dull Copper Ore (Medium Pile 1)
+
+On=@Create
+Color=DullCopperHue
+
+
+[ItemDef iDullCopperOre3]
+ID=iOre3
+Name=dull copper ore
+NameLoc=1042845
+Type=tOre
+TData1=iDullCopperIngot
+TData2=20
+Can=CanIStack
+Weight=12
+SkillMake=Mining 650
+Value=4
+
+Category=Resources
+Subsection=Metal: Ore
+Description=Dull Copper Ore (Large Pile)
+
+On=@Create
+Color=DullCopperHue
+
+
+[ItemDef iDullCopperOre4]
+ID=iOre4
+Name=dull copper ore
+NameLoc=1042845
+Type=tOre
+TData1=iDullCopperIngot
+TData2=10
+Can=CanIStack
+Weight=7
+SkillMake=Mining 650
+Value=4
+
+Category=Resources
+Subsection=Metal: Ore
+Description=Dull Copper Ore (Medium Pile 2)
+
+On=@Create
+Color=DullCopperHue
+
+
+[ItemDef iShadowIronOre1]
+ID=iOre1
+Name=shadow iron ore
+NameLoc=1042846
+Type=tOre
+TData1=iShadowIronIngot
+TData2=05
+Can=CanIStack
+Weight=2
+SkillMake=Mining 700
+Value=6
+
+Category=Resources
+Subsection=Metal: Ore
+Description=Shadow Iron Ore (Small Pile)
+
+On=@Create
+Color=ShadowIronHue
+
+
+[ItemDef iShadowIronOre2]
+ID=iOre2
+Name=shadow iron ore
+NameLoc=1042846
+Type=tOre
+TData1=iShadowIronIngot
+TData2=10
+Can=CanIStack
+Weight=7
+SkillMake=Mining 700
+Value=6
+
+Category=Resources
+Subsection=Metal: Ore
+Description=Shadow Iron Ore (Medium Pile 1)
+
+On=@Create
+Color=ShadowIronHue
+
+
+[ItemDef iShadowIronOre3]
+ID=iOre3
+Name=shadow iron ore
+NameLoc=1042846
+Type=tOre
+TData1=iShadowIronIngot
+TData2=20
+Can=CanIStack
+Weight=12
+SkillMake=Mining 700
+Value=6
+
+Category=Resources
+Subsection=Metal: Ore
+Description=Shadow Iron Ore (Large Pile)
+
+On=@Create
+Color=ShadowIronHue
+
+
+[ItemDef iShadowIronOre4]
+ID=iOre4
+Name=shadow iron ore
+NameLoc=1042846
+Type=tOre
+TData1=iShadowIronIngot
+TData2=10
+Can=CanIStack
+Weight=7
+SkillMake=Mining 700
+Value=6
+
+Category=Resources
+Subsection=Metal: Ore
+Description=Shadow Iron Ore (Medium Pile 2)
+
+On=@Create
+Color=ShadowIronHue
+
+
+[ItemDef iCopperOre1]
+ID=iOre1
+Name=copper ore
+NameLoc=1042847
+Type=tOre
+TData1=iCopperIngot
+TData2=05
+Can=CanIStack
+Weight=2
+SkillMake=Mining 750
+Value=8
+
+Category=Resources
+Subsection=Metal: Ore
+Description=Copper Ore (Small Pile)
+
+On=@Create
+Color=CopperHue
+
+
+[ItemDef iCopperOre2]
+ID=iOre2
+Name=copper ore
+NameLoc=1042847
+Type=tOre
+TData1=iCopperIngot
+TData2=10
+Can=CanIStack
+Weight=7
+SkillMake=Mining 750
+Value=8
+
+Category=Resources
+Subsection=Metal: Ore
+Description=Copper Ore (Medium Pile 1)
+
+On=@Create
+Color=CopperHue
+
+
+[ItemDef iCopperOre3]
+ID=iOre3
+Name=copper ore
+NameLoc=1042847
+Type=tOre
+TData1=iCopperIngot
+TData2=20
+Can=CanIStack
+Weight=12
+SkillMake=Mining 750
+Value=8
+
+Category=Resources
+Subsection=Metal: Ore
+Description=Copper Ore (Large Pile)
+
+On=@Create
+Color=CopperHue
+
+
+[ItemDef iCopperOre4]
+ID=iOre4
+Name=copper ore
+NameLoc=1042847
+Type=tOre
+TData1=iCopperIngot
+TData2=10
+Can=CanIStack
+Weight=7
+SkillMake=Mining 750
+Value=8
+
+Category=Resources
+Subsection=Metal: Ore
+Description=Copper Ore (Medium Pile 2)
+
+On=@Create
+Color=CopperHue
+
+
+[ItemDef iBronzeOre1]
+ID=iOre1
+Name=bronze ore
+NameLoc=1042848
+Type=tOre
+TData1=iBronzeIngot
+TData2=05
+Can=CanIStack
+Weight=2
+SkillMake=Mining 800
+Value=10
+
+Category=Resources
+Subsection=Metal: Ore
+Description=Bronze Ore (Small Pile)
+
+On=@Create
+Color=BronzeHue
+
+
+[ItemDef iBronzeOre2]
+ID=iOre2
+Name=bronze ore
+NameLoc=1042848
+Type=tOre
+TData1=iBronzeIngot
+TData2=10
+Can=CanIStack
+Weight=7
+SkillMake=Mining 800
+Value=10
+
+Category=Resources
+Subsection=Metal: Ore
+Description=Bronze Ore (Medium Pile 1)
+
+On=@Create
+Color=BronzeHue
+
+
+[ItemDef iBronzeOre3]
+ID=iOre3
+Name=bronze ore
+NameLoc=1042848
+Type=tOre
+TData1=iBronzeIngot
+TData2=20
+Can=CanIStack
+Weight=12
+SkillMake=Mining 800
+Value=10
+
+Category=Resources
+Subsection=Metal: Ore
+Description=Bronze Ore (Large Pile)
+
+On=@Create
+Color=BronzeHue
+
+
+[ItemDef iBronzeOre4]
+ID=iOre4
+Name=bronze ore
+NameLoc=1042848
+Type=tOre
+TData1=iBronzeIngot
+TData2=10
+Can=CanIStack
+Weight=7
+SkillMake=Mining 800
+Value=10
+
+Category=Resources
+Subsection=Metal: Ore
+Description=Bronze Ore (Medium Pile 2)
+
+On=@Create
+Color=BronzeHue
+
+
+[ItemDef iGoldenOre1]
+DefName=iGoldOre1
+ID=iOre1
+Name=golden ore
+NameLoc=1042849
+Type=tOre
+TData1=iGoldIngot
+TData2=05
+Can=CanIStack
+Weight=2
+SkillMake=Mining 850
+Value=12
+
+Category=Resources
+Subsection=Metal: Ore
+Description=Golden Ore (Small Pile)
+
+On=@Create
+Color=GoldHue
+
+
+[ItemDef iGoldenOre2]
+DefName=iGoldOre2
+ID=iOre2
+Name=golden ore
+NameLoc=1042849
+Type=tOre
+TData1=iGoldIngot
+TData2=10
+Can=CanIStack
+Weight=7
+SkillMake=Mining 850
+Value=12
+
+Category=Resources
+Subsection=Metal: Ore
+Description=Golden Ore (Medium Pile 1)
+
+On=@Create
+Color=GoldHue
+
+
+[ItemDef iGoldenOre3]
+DefName=iGoldOre3
+ID=iOre3
+Name=golden ore
+NameLoc=1042849
+Type=tOre
+TData1=iGoldIngot
+TData2=20
+Can=CanIStack
+Weight=12
+SkillMake=Mining 850
+Value=12
+
+Category=Resources
+Subsection=Metal: Ore
+Description=Gold Ore (Large Pile)
+
+On=@Create
+Color=GoldHue
+
+
+[ItemDef iGoldenOre4]
+DefName=iGoldOre4
+ID=iOre4
+Name=golden ore
+NameLoc=1042849
+Type=tOre
+TData1=iGoldIngot
+TData2=10
+Can=CanIStack
+Weight=7
+SkillMake=Mining 850
+Value=12
+
+Category=Resources
+Subsection=Metal: Ore
+Description=Golden Ore (Medium Pile 2)
+
+On=@Create
+Color=GoldHue
+
+
+[ItemDef iAgapiteOre1]
+ID=iOre1
+Name=agapite ore
+NameLoc=1042850
+Type=tOre
+TData1=iAgapiteIngot
+TData2=05
+Can=CanIStack
+Weight=2
+SkillMake=Mining 900
+Value=14
+
+Category=Resources
+Subsection=Metal: Ore
+Description=Agapite Ore (Small Pile)
+
+On=@Create
+Color=AgapiteHue
+
+
+[ItemDef iAgapiteOre2]
+ID=iOre2
+Name=agapite ore
+NameLoc=1042850
+Type=tOre
+TData1=iAgapiteIngot
+TData2=10
+Can=CanIStack
+Weight=7
+SkillMake=Mining 900
+Value=14
+
+Category=Resources
+Subsection=Metal: Ore
+Description=Agapite Ore (Medium Pile 1)
+
+On=@Create
+Color=AgapiteHue
+
+
+[ItemDef iAgapiteOre3]
+ID=iOre3
+Name=agapite ore
+NameLoc=1042850
+Type=tOre
+TData1=iAgapiteIngot
+TData2=20
+Can=CanIStack
+Weight=12
+SkillMake=Mining 900
+Value=14
+
+Category=Resources
+Subsection=Metal: Ore
+Description=Agapite Ore (Large Pile)
+
+On=@Create
+Color=AgapiteHue
+
+
+[ItemDef iAgapiteOre4]
+ID=iOre4
+Name=agapite ore
+NameLoc=1042850
+Type=tOre
+TData1=iAgapiteIngot
+TData2=10
+Can=CanIStack
+Weight=7
+SkillMake=Mining 900
+Value=14
+
+Category=Resources
+Subsection=Metal: Ore
+Description=Agapite Ore (Medium Pile 2)
+
+On=@Create
+Color=AgapiteHue
+
+
+[ItemDef iVeriteOre1]
+ID=iOre1
+Name=verite ore
+NameLoc=1042851
+Type=tOre
+TData1=iVeriteIngot
+TData2=05
+Can=CanIStack
+Weight=2
+SkillMake=Mining 950
+Value=16
+
+Category=Resources
+Subsection=Metal: Ore
+Description=Verite Ore (Small Pile)
+
+On=@Create
+Color=VeriteHue
+
+
+[ItemDef iVeriteOre2]
+ID=iOre2
+Name=verite ore
+NameLoc=1042851
+Type=tOre
+TData1=iVeriteIngot
+TData2=10
+Can=CanIStack
+Weight=7
+SkillMake=Mining 950
+Value=16
+
+Category=Resources
+Subsection=Metal: Ore
+Description=Verite Ore (Medium Pile 1)
+
+On=@Create
+Color=VeriteHue
+
+
+[ItemDef iVeriteOre3]
+ID=iOre3
+Name=verite ore
+NameLoc=1042851
+Type=tOre
+TData1=iVeriteIngot
+TData2=20
+Can=CanIStack
+Weight=12
+SkillMake=Mining 950
+Value=16
+
+Category=Resources
+Subsection=Metal: Ore
+Description=Verite Ore (Large Pile)
+
+On=@Create
+Color=VeriteHue
+
+
+[ItemDef iVeriteOre4]
+ID=iOre4
+Name=verite ore
+NameLoc=1042851
+Type=tOre
+TData1=iVeriteIngot
+TData2=10
+Can=CanIStack
+Weight=7
+SkillMake=Mining 950
+Value=16
+
+Category=Resources
+Subsection=Metal: Ore
+Description=Verite Ore (Medium Pile 2)
+
+On=@Create
+Color=VeriteHue
+
+
+[ItemDef iValoriteOre1]
+ID=iOre1
+Name=valorite ore
+NameLoc=1042852
+Type=tOre
+TData1=iValoriteIngot
+TData2=05
+Can=CanIStack
+Weight=2
+SkillMake=Mining 990
+Value=18
+
+Category=Resources
+Subsection=Metal: Ore
+Description=Valorite Ore (Small Pile)
+
+On=@Create
+Color=ValoriteHue
+
+
+[ItemDef iValoriteOre2]
+ID=iOre2
+Name=valorite ore
+NameLoc=1042852
+Type=tOre
+TData1=iValoriteIngot
+TData2=10
+Can=CanIStack
+Weight=7
+SkillMake=Mining 990
+Value=18
+
+Category=Resources
+Subsection=Metal: Ore
+Description=Valorite Ore (Medium Pile 1)
+
+On=@Create
+Color=ValoriteHue
+
+
+[ItemDef iValoriteOre3]
+ID=iOre3
+Name=valorite ore
+NameLoc=1042852
+Type=tOre
+TData1=iValoriteIngot
+TData2=20
+Can=CanIStack
+Weight=12
+SkillMake=Mining 990
+Value=18
+
+Category=Resources
+Subsection=Metal: Ore
+Description=Valorite Ore (Large Pile)
+
+On=@Create
+Color=ValoriteHue
+
+
+[ItemDef iValoriteOre4]
+ID=iOre4
+Name=valorite ore
+NameLoc=1042852
+Type=tOre
+TData1=iValoriteIngot
+TData2=10
+Can=CanIStack
+Weight=7
+SkillMake=Mining 990
+Value=18
+
+Category=Resources
+Subsection=Metal: Ore
+Description=Valorite Ore (Medium Pile 2)
+
+On=@Create
+Color=ValoriteHue
+
+
+[EOF]

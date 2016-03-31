@@ -1,0 +1,194 @@
+////////////
+// Ingots //
+////////////
+
+[ItemDef iIronIngot2]
+DefName=iIronIngot
+ID=iIronIngot1
+Name=iron ingot
+NameLoc=1042692
+Type=tIngot
+TData1=0
+TData2=250
+Can=CanIStack|CanIFlip
+Weight=1
+SkillMake=Mining 0
+Resources=iIronOre2
+Value=4
+
+Category=Resources
+Subsection=Metal: Ingots
+Description=Iron Ingot
+
+
+[ItemDef iDullCopperIngot]
+ID=iIronIngot1
+Name=dull copper ingot
+NameLoc=1042684
+Type=tIngot
+TData1=650
+TData2=900
+Can=CanIStack|CanIFlip
+Weight=1
+SkillMake=Mining 650
+Resources=iDullCopperOre2
+Value=8
+
+Category=Resources
+Subsection=Metal: Ingots
+Description=Dull Copper Ingot
+
+On=@Create
+Color=DullCopperHue
+
+
+[ItemDef iShadowIronIngot]
+ID=iIronIngot1
+Name=shadow iron ingot
+NameLoc=1042685
+Type=tIngot
+TData1=700
+TData2=950
+Can=CanIStack|CanIFlip
+Weight=1
+SkillMake=Mining 700
+Resources=iShadowIronOre2
+Value=12
+
+Category=Resources
+Subsection=Metal: Ingots
+Description=Shadow Iron Ingot
+
+On=@Create
+Color=ShadowIronHue
+
+
+[ItemDef iCopperIngot2]
+DefName=iCopperIngot
+ID=iIronIngot1
+Name=copper ingot
+NameLoc=1042686
+Type=tIngot
+TData1=750
+TData2=1000
+Can=CanIStack|CanIFlip
+Weight=1
+SkillMake=Mining 750
+Resources=iCopperOre2
+Value=16
+
+Category=Resources
+Subsection=Metal: Ingots
+Description=Copper Ingot
+
+On=@Create
+Color=CopperHue
+
+
+[ItemDef iBronzeIngot]
+ID=iIronIngot1
+Name=bronze ingot
+NameLoc=1042687
+Type=tIngot
+TData1=800
+TData2=1050
+Can=CanIStack|CanIFlip
+Weight=1
+SkillMake=Mining 800
+Resources=iBronzeOre2
+Value=20
+
+Category=Resources
+Subsection=Metal: Ingots
+Description=Bronze Ingot
+
+On=@Create
+Color=BronzeHue
+
+
+[ItemDef iGoldIngot2]
+DefName=iGoldIngot
+ID=iIronIngot1
+Name=gold ingot
+NameLoc=1042688
+Type=tIngot
+TData1=850
+TData2=1100
+Can=CanIStack|CanIFlip
+Weight=1
+SkillMake=Mining 850
+Resources=iGoldenOre2
+Value=24
+
+Category=Resources
+Subsection=Metal: Ingots
+Description=Gold Ingot
+
+On=@Create
+Color=GoldHue
+
+
+[ItemDef iAgapiteIngot]
+ID=iIronIngot1
+Name=agapite ingot
+NameLoc=1042689
+Type=tIngot
+TData1=900
+TData2=1150
+Can=CanIStack|CanIFlip
+Weight=1
+SkillMake=Mining 900
+Resources=iAgapiteOre2
+Value=28
+
+Category=Resources
+Subsection=Metal: Ingots
+Description=Agapite Ingot
+
+On=@Create
+Color=AgapiteHue
+
+
+[ItemDef iVeriteIngot]
+ID=iIronIngot1
+Name=verite ingot
+NameLoc=1042690
+Type=tIngot
+TData1=950
+TData2=1200
+Can=CanIStack|CanIFlip
+Weight=1
+SkillMake=Mining 950
+Resources=iVeriteOre2
+Value=32
+
+Category=Resources
+Subsection=Metal: Ingots
+Description=Verite Ingot
+
+On=@Create
+Color=VeriteHue
+
+
+[ItemDef iValoriteIngot]
+ID=iIronIngot1
+Name=valorite ingot
+NameLoc=1042691
+Type=tIngot
+TData1=990
+TData2=1240
+Can=CanIStack|CanIFlip
+Weight=1
+SkillMake=Mining 990
+Resources=iValoriteOre2
+Value=40
+
+Category=Resources
+Subsection=Metal: Ingots
+Description=Valorite Ingot
+
+On=@Create
+Color=ValoriteHue
+
+
+[EOF]

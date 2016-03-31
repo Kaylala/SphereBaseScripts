@@ -1,0 +1,146 @@
+////////////
+// Ingots //
+////////////
+
+[ItemDef iSilverIngot2]
+DefName=iSilverIngot
+ID=iIronIngot1
+Name=silver ingot%s
+Type=tIngot
+TData1=950
+TData2=1200
+Can=CanIStack|CanIFlip
+Weight=1
+SkillMake=Mining 950
+Resources=iSilverOre2
+Value=32
+
+Category=Resources
+Subsection=Metal: Sphere Ingots
+Description=Silver Ingot
+
+On=@Create
+Color=SilverHue
+
+
+[ItemDef iRoseIngot]
+ID=iIronIngot1
+Name=rose ingot%s
+Type=tIngot
+TData1=870
+TData2=1120
+Can=CanIStack|CanIFlip
+Weight=1
+SkillMake=Mining 870
+Resources=iRoseOre2
+Value=26
+
+Category=Resources
+Subsection=Metal: Sphere Ingots
+Description=Rose Ingot
+
+On=@Create
+Color=RoseHue
+
+
+[ItemDef iMytherilIngot]
+ID=iIronIngot1
+Name=mytheril ingot%s
+Type=tIngot
+TData1=995
+TData2=1245
+Can=CanIStack|CanIFlip
+Weight=1
+SkillMake=Mining 995
+Resources=iMytherilOre2
+Value=39
+
+Category=Resources
+Subsection=Metal: Sphere Ingots
+Description=Mytheril Ingot
+
+On=@Create
+Color=MytherilHue
+
+
+[ItemDef iBlackrockIngot]
+ID=iIronIngot1
+Name=blackrock ingot%s
+Type=tIngot
+TData1=1000
+TData2=1250
+Can=CanIStack|CanIFlip
+Weight=1
+SkillMake=Mining 1000
+Resources=iBlackrockOre2
+Value=40
+
+Category=Resources
+Subsection=Metal: Sphere Ingots
+Description=Blackrock Ingot
+
+On=@Create
+Color=BlackrockHue
+
+
+[ItemDef iBloodrockIngot]
+ID=iIronIngot1
+Name=bloodrock ingot%s
+Type=tIngot
+TData1=930
+TData2=1180
+Can=CanIStack|CanIFlip
+Weight=1
+SkillMake=Mining 930
+Resources=iBloodrockOre2
+Value=30
+
+Category=Resources
+Subsection=Metal: Sphere Ingots
+Description=Bloodrock Ingot
+
+On=@Create
+Color=BloodrockHue
+
+
+[ItemDef iRustyIngot]
+ID=iIronIngot1
+Name=rusty ingot%s
+Type=tIngot
+TData1=500
+TData2=750
+Can=CanIStack|CanIFlip
+Weight=1
+SkillMake=Mining 500
+Resources=iRustyOre2
+Value=6
+
+Category=Resources
+Subsection=Metal: Sphere Ingots
+Description=Rusty Ingot
+
+On=@Create
+Color=RustyHue
+
+
+[ItemDef iOldCopperIngot]
+ID=iIronIngot1
+Name=old copper ingot%s
+Type=tIngot
+TData1=600
+TData2=850
+Can=CanIStack|CanIFlip
+Weight=1
+SkillMake=Mining 600
+Resources=iOldCopperOre2
+Value=7
+
+Category=Resources
+Subsection=Metal: Sphere Ingots
+Description=Old Copper Ingot
+
+On=@Create
+Color=OldCopperHue
+
+
+[EOF]
