@@ -1,0 +1,18 @@
+[ItemDef 02286]
+DefName=iArmorIgnoreScroll
+Name=armor ignore
+NameLoc=1028838
+Type=tScroll
+Weight=1
+
+Category=Magic
+Subsection=Scrolls: Book of Arms
+Description=Armor Ignore
+
+On=@Create
+MoreX=sArmorIgnore
+//MoreY=1000
+DispID=0227C
+
+
+[EOF]

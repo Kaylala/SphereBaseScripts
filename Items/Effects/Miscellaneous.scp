@@ -1,0 +1,22 @@
+[ItemDef 0379e]
+DefName=iFxGlowArrow
+Type=tSpell
+Category=Miscellaneous
+Subsection=Weirdness
+Description=Glowing Arrow
+
+[ItemDef 0379f]
+DefName=iFxEbolt
+Type=tSpell
+Category=Miscellaneous
+Subsection=Weirdness
+Description=Small Bolt
+
+[ItemDef 03ee8]
+DefName=iFxYellowDot
+Category=Miscellaneous
+Subsection=Weirdness
+Description=Strange Yellow Dot
+
+
+[EOF]

@@ -1,0 +1,180 @@
+﻿[ItemDef 0227C]
+DefName=iCleanseByFireScroll
+Name=cleanse by fire
+NameLoc=1028828
+Type=tScroll
+Weight=1
+
+Category=Magic
+Subsection=Scrolls: Chivalry
+Description=Cleanse by Fire
+
+On=@Create
+Attr=AttrMagic
+MoreX=sCleanseByFire
+//MoreY={10 20}
+
+
+[ItemDef 0227D]
+DefName=iCloseWoundsScroll
+Name=close wounds
+NameLoc=1028829
+Type=tScroll
+Weight=1
+
+Category=Magic
+Subsection=Scrolls: Chivalry
+Description=Cleanse by Fire
+
+On=@Create
+Attr=AttrMagic
+MoreX=sCloseWounds
+//MoreY={10 20}
+DispID=0227C
+
+
+[ItemDef 0227E]
+DefName=iConsecrateWeaponScroll
+Name=consecrate weapon
+NameLoc=1028830
+Type=tScroll
+Weight=1
+
+Category=Magic
+Subsection=Scrolls: Chivalry
+Description=Consecrate Weapon
+
+On=@Create
+Attr=AttrMagic
+MoreX=sConsecrateWeapon
+//MoreY={10 20}
+DispID=0227C
+
+
+[ItemDef 0227F]
+DefName=iDispelEvilScroll
+Name=dispel evil
+NameLoc=1028831
+Type=tScroll
+Weight=1
+
+Category=Magic
+Subsection=Scrolls: Chivalry
+Description=Dispel Evil
+
+On=@Create
+Attr=AttrMagic
+MoreX=sDispelEvil
+//MoreY={10 20}
+DispID=0227C
+
+
+[ItemDef 02280]
+DefName=iDivineFuryScroll
+Name=divine fury
+NameLoc=1028832
+Type=tScroll
+Weight=1
+
+Category=Magic
+Subsection=Scrolls: Chivalry
+Description=Divine Fury
+
+On=@Create
+Attr=AttrMagic
+MoreX=sDivineFury
+//MoreY={10 20}
+DispID=0227C
+
+
+[ItemDef 02281]
+DefName=iEnemyOfOneScroll
+Name=enemy of one
+NameLoc=1028833
+Type=tScroll
+Weight=1
+
+Category=Magic
+Subsection=Scrolls: Chivalry
+Description=Enemy of One
+
+On=@Create
+Attr=AttrMagic
+MoreX=sEnemyOfOne
+//MoreY={10 20}
+DispID=0227C
+
+
+[ItemDef 02281]
+DefName=iHolyLightScroll
+Name=holy light
+NameLoc=1028834
+Type=tScroll
+Weight=1
+
+Category=Magic
+Subsection=Scrolls: Chivalry
+Description=Holy Light
+
+On=@Create
+Attr=AttrMagic
+MoreX=sHolyLight
+//MoreY={10 20}
+DispID=0227C
+
+
+[ItemDef 02282]
+DefName=iNobleSacrificeScroll
+Name=noble sacrifice
+NameLoc=1028835
+Type=tScroll
+Weight=1
+
+Category=Magic
+Subsection=Scrolls: Chivalry
+Description=Noble Sacrifice
+
+On=@Create
+Attr=AttrMagic
+MoreX=sNobleSacrifice
+//MoreY={10 20}
+DispID=0227C
+
+
+[ItemDef 02283]
+DefName=iRemoveCurseScroll
+Name=remove curse
+NameLoc=1028836
+Type=tScroll
+Weight=1
+
+Category=Magic
+Subsection=Scrolls: Chivalry
+Description=Remove Curse
+
+On=@Create
+Attr=AttrMagic
+MoreX=sRemoveCurse
+//MoreY={10 20}
+DispID=0227C
+
+
+[ItemDef 02284]
+DefName=iSacredJourneyScroll
+Name=sacred journey
+NameLoc=1028837
+Type=tScroll
+Weight=1
+
+Category=Magic
+Subsection=Scrolls: Chivalry
+Description=Sacred Journey
+
+On=@Create
+Attr=AttrMagic
+MoreX=sSacredJourney
+//MoreY={10 20}
+DispID=0227C
+
+
+[EOF]

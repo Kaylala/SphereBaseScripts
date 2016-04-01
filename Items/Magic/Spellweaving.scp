@@ -1,0 +1,389 @@
+﻿[ItemDef 02d51]
+DefName=iArcaneCircleScroll
+Name=arcane circle
+NameLoc=1031601
+Type=tScroll
+Weight=1
+
+Category=Magic
+Subsection=Scrolls: Spellweaving
+Description=Arcane Circle
+
+ON=@Create
+Attr=AttrMagic
+MoreX=sArcaneCircle
+//MoreY={50 80}
+
+
+[ItemDef 02d52]
+DefName=iGiftOfRenewalScroll
+Name=gift of renewal
+NameLoc=1031602
+Type=tScroll
+Weight=1
+
+Category=Magic
+Subsection=Scrolls: Spellweaving
+Description=Gift of Renewal
+
+ON=@Create
+Attr=AttrMagic
+MoreX=sGiftOfRenewal
+//MoreY={50 80}
+
+
+[ItemDef 02d53]
+DefName=iImmolatingWeaponScroll
+Name=immolating weapon
+NameLoc=1031603
+Type=tScroll
+Weight=1
+
+Category=Magic
+Subsection=Scrolls: Spellweaving
+Description=Immolating Weapon
+
+ON=@Create
+Attr=AttrMagic
+MoreX=sImmolatingWeapon
+//MoreY={50 80}
+
+
+[ItemDef 02d54]
+DefName=iAttunementScroll
+Name=attunement
+NameLoc=1031604
+Type=tScroll
+Weight=1
+
+Category=Magic
+Subsection=Scrolls: Spellweaving
+Description=Attunement
+
+ON=@Create
+Attr=AttrMagic
+MoreX=sAttunement
+//MoreY={50 80}
+
+
+[ItemDef 02d55]
+DefName=iThunderstormScroll
+Name=thunderstorm
+NameLoc=1031605
+Type=tScroll
+Weight=1
+
+Category=Magic
+Subsection=Scrolls: Spellweaving
+Description=Thunderstorm
+
+ON=@Create
+Attr=AttrMagic
+MoreX=sThunderstorm
+//MoreY={50 80}
+
+
+[ItemDef 02d56]
+DefName=iNaturesFuryScroll
+Name=nature's fury
+NameLoc=1031606
+Type=tScroll
+Weight=1
+
+Category=Magic
+Subsection=Scrolls: Spellweaving
+Description=Nature's Fury
+
+ON=@Create
+Attr=AttrMagic
+MoreX=sNaturesFury
+//MoreY={50 80}
+
+
+[ItemDef 02d57]
+DefName=isummon feyScroll
+Name=summon fey
+NameLoc=1031607
+Type=tScroll
+Weight=1
+
+Category=Magic
+Subsection=Scrolls: Spellweaving
+Description=Summon Fey
+
+ON=@Create
+Attr=AttrMagic
+MoreX=sSummonFey
+//MoreY={50 80}
+
+
+[ItemDef 02d58]
+DefName=iSummonFiendScroll
+Name=summon fiend
+NameLoc=1031608
+Type=tScroll
+Weight=1
+
+Category=Magic
+Subsection=Scrolls: Spellweaving
+Description=Summon Fiend
+
+ON=@Create
+Attr=AttrMagic
+MoreX=sSummonFiend
+//MoreY={50 80}
+
+
+[ItemDef 02d59]
+DefName=iReaperFormScroll
+Name=reaper form
+NameLoc=1031609
+Type=tScroll
+Weight=1
+
+Category=Magic
+Subsection=Scrolls: Spellweaving
+Description=Reaper Form
+
+ON=@Create
+Attr=AttrMagic
+MoreX=sReaperForm
+//MoreY={50 80}
+
+
+[ItemDef 02d5a]
+DefName=iWildfireScroll
+Name=wildfire
+NameLoc=1031610
+Type=tScroll
+Weight=1
+
+Category=Magic
+Subsection=Scrolls: Spellweaving
+Description=Wildfire
+
+ON=@Create
+Attr=AttrMagic
+MoreX=sWildfire
+//MoreY={50 80}
+
+
+[ItemDef 02d5b]
+DefName=iEssenceOfWindScroll
+Name=essence of wind
+NameLoc=1031611
+Type=tScroll
+Weight=1
+
+Category=Magic
+Subsection=Scrolls: Spellweaving
+Description=Essence of Wind
+
+ON=@Create
+Attr=AttrMagic
+MoreX=sEssenceOfWind
+//MoreY={50 80}
+
+
+[ItemDef 02d5c]
+DefName=iDryadAllureScroll
+Name=dryad allure
+NameLoc=1031612
+Type=tScroll
+Weight=1
+
+Category=Magic
+Subsection=Scrolls: Spellweaving
+Description=Dryad Allure
+
+ON=@Create
+Attr=AttrMagic
+MoreX=sDryadAllure
+//MoreY={50 80}
+
+
+[ItemDef 02d5d]
+DefName=iEtherealVoyageScroll
+Name=ethereal voyage
+NameLoc=1031613
+Type=tScroll
+Weight=1
+
+Category=Magic
+Subsection=Scrolls: Spellweaving
+Description=Ethereal Voyage
+
+ON=@Create
+Attr=AttrMagic
+MoreX=sEtherealVoyage
+//MoreY={50 80}
+
+
+[ItemDef 02d5e]
+DefName=iWordOfDeathScroll
+Name=word of death
+NameLoc=1031614
+Type=tScroll
+Weight=1
+
+Category=Magic
+Subsection=Scrolls: Spellweaving
+Description=Word of Death
+
+ON=@Create
+Attr=AttrMagic
+MoreX=sWordOfDeath
+//MoreY={50 80}
+
+
+[ItemDef 02d5f]
+DefName=iGiftOfLifeScroll
+Name=gift of life
+NameLoc=1031615
+Type=tScroll
+Weight=1
+
+Category=Magic
+Subsection=Scrolls: Spellweaving
+Description=Gift of Life
+
+ON=@Create
+Attr=AttrMagic
+MoreX=sGiftOfLife
+//MoreY={50 80}
+
+
+[ItemDef 02d60]
+DefName=iArcaneEmpowermentScroll
+Name=arcane empowerment
+NameLoc=1031616
+Type=tScroll
+Weight=1
+
+Category=Magic
+Subsection=Scrolls: Spellweaving
+Description=Arcane Empowerment
+
+ON=@Create
+Attr=AttrMagic
+MoreX=sArcaneEmpowerment
+//MoreY={50 80}
+
+
+[ItemDef 0307b]
+DefName=iArcaneCircle1
+Name=arcane circle
+NameLoc=1032411
+Type=tMagic
+Weight=255
+DupeList=0307c,0307d,0307e,0307f,03080,03081,03082,03083
+
+Category=Magic
+Subsection=Spellweaving
+Description=Arcane Circle
+
+[ItemDef 0307c]
+NameLoc=1032412
+DupeItem=0307b
+
+[ItemDef 0307d]
+NameLoc=1032413
+DupeItem=0307b
+
+[ItemDef 0307e]
+NameLoc=1032414
+DupeItem=0307b
+
+[ItemDef 0307f]
+NameLoc=1032415
+DupeItem=0307b
+
+[ItemDef 03080]
+NameLoc=1032416
+DupeItem=0307b
+
+[ItemDef 03081]
+NameLoc=1032417
+DupeItem=0307b
+
+[ItemDef 03082]
+NameLoc=1032418
+DupeItem=0307b
+
+[ItemDef 03083]
+NameLoc=1032419
+DupeItem=0307b
+
+
+[ItemDef 0314c]
+DefName=iArcaneCircle2
+Name=Arcane Circle
+NameLoc=1032620
+Type=tMagic
+Weight=255
+DupeList=0314d,0314e,0314f,03150,03151,03152,03153,03154
+
+Category=Magic
+Subsection=Spellweaving
+Description=Arcane Circle
+
+[ItemDef 0314d]
+NameLoc=1032621
+DupeItem=0314c
+
+[ItemDef 0314e]
+NameLoc=1032622
+DupeItem=0314c
+
+[ItemDef 0314f]
+NameLoc=1032623
+DupeItem=0314c
+
+[ItemDef 03150]
+NameLoc=1032624
+DupeItem=0314c
+
+[ItemDef 03151]
+NameLoc=1032625
+DupeItem=0314c
+
+[ItemDef 03152]
+NameLoc=1032626
+DupeItem=0314c
+
+[ItemDef 03153]
+NameLoc=1032627
+DupeItem=0314c
+
+[ItemDef 03154]
+NameLoc=1032628
+DupeItem=0314c
+
+
+[ItemDef 03155]
+DefName=iArcaneFocus
+Name=arcane focus
+NameLoc=1032629
+Type=tNormal
+Weight=1
+
+Category=Magic
+Subsection=Spellweaving
+Description=Arcane Focus
+
+ON=@Create
+Attr=AttrMagic|AttrNewbie|AttrBlessed|AttrNeverMove
+
+ON=@ClientToolTip
+Src.AddCliLoc <NameLoc>
+Src.AddCliLoc 1060485,<dMORE1>
+Src.AddCliLoc 1072517,<dTIMER>
+Return 1
+
+ON=@Timer
+Cont.SMsgL color_text,1072515,#<NameLoc>
+Remove
+Return 1
+
+
+[EOF]

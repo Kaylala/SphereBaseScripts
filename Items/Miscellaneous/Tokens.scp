@@ -1,0 +1,49 @@
+[ItemDef 02aaa]
+DefName=iPromoToken
+Name=token
+NameLoc=1030922	// blank
+Weight=1
+Type=tNormal
+
+Category=Miscellaneous
+Subsection=Tokens
+Description=Promo Token (Blank CliLoc)
+
+
+[ItemDef 03678]
+DefName=iCrystalToken
+Name=crystal token
+NameLoc=1033944
+Type=tNormal
+Weight=1
+
+Category=Miscellaneous
+Subsection=Tokens
+Description=Crystal Token
+
+
+[ItemDef 03679]
+DefName=iShadowToken
+Name=shadow token
+NameLoc=1033945
+Type=tNormal
+Weight=1
+
+Category=Miscellaneous
+Subsection=Tokens
+Description=Shadow Token
+
+
+[ItemDef 0367a]
+DefName=iHeritageToken
+Name=heritage token
+NameLoc=1033946
+Type=tNormal
+Weight=1
+
+Category=Miscellaneous
+Subsection=Tokens
+Description=Heritage Token
+
+
+[EOF]

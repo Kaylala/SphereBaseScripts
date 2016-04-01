@@ -229,7 +229,7 @@ tRope						198 // almost as ship plank, not lockable by default.
 tHealingStone				199
 
 // Add the Following
-tCombatSpellbook			200 // The special move book.
+tBookOfArmsSpellbook		200 // The special move book.
 tSkillMasterySpellbook		201 // New Skill Mastery book.
 tReserved					202 // Reserved for any new Spellbook coming
 // New resources

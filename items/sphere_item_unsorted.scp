@@ -2040,21 +2040,6 @@ Subsection=Hills
 Description=Gopher Mound
 
 
-[ItemDef 02254]
-DefName=iSpellbookArms
-Type=tNormal
-LAYER=layer_hand1
-Value=488
-Weight=1.0
-Resources=80 iParchment,1 iHidesCut,1 iCloth
-SkillMake=inscription 50.0,iPenAndInk
-Category=Provisions - Alchemy & Magic
-Subsection=Books
-Description=Weapon Book
-ON=@Create
-ATTR=attr_magic|attr_newbie
-//MOREZ=?
-
 [ItemDef 02255]
 Category=Miscellaneous
 Subsection=Bad Tiles
@@ -2891,28 +2876,6 @@ DupeItem=027a0
 DupeItem=027a1
 
 
-
-[ItemDef 02830]
-DefName=iOrigamiKit
-//Name=origami kit
-Type=tNormal
-FLIP=1
-Value=25
-Weight=1.1
-Resources=1 iScissors,1 iPaper
-SkillMake=carpentry 50.9,tCarpentry
-Category=Decoration - Miscellaneous
-Subsection=Origami
-Description=Origami Kit
-DupeList=02831
-ON=@DClick
-SRC.SKILLMENU=sm_origami
-RETURN 1
-
-[ItemDef 02831]
-//origami kit
-DupeItem=02830
-
 [ItemDef 02832]
 DefName=iWindchime
 Type=tNormal
@@ -2945,79 +2908,6 @@ Description=Windchime (fancy)
 ON=@DClick
 SRC.SOUND snd_special_windchimes3
 RETURN 1
-
-
-[ItemDef 02838]
-DefName=iOrigami1
-Name=origami butterfly
-Type=tNormal
-Value=5
-Weight=0.1
-Resources=1 iPaper
-SkillMake=carpentry 33.3,1 iOrigamiKit
-Category=Decoration - Miscellaneous
-Subsection=Origami
-Description=Origami Butterfly
-
-[ItemDef 02839]
-DefName=iOrigami2
-Name=origami crane
-Type=tNormal
-Value=5
-Weight=0.1
-Resources=1 iPaper
-SkillMake=carpentry 33.3,1 iOrigamiKit
-Category=Decoration - Miscellaneous
-Subsection=Origami
-Description=Origami Crane
-
-[ItemDef 0283a]
-DefName=iOrigami3
-Name=origami frog
-Type=tNormal
-Value=5
-Weight=0.1
-Resources=1 iPaper
-SkillMake=carpentry 33.3,1 iOrigamiKit
-Category=Decoration - Miscellaneous
-Subsection=Origami
-Description=Origami Frog
-
-[ItemDef 0283b]
-DefName=iOrigami4
-Name=origami star
-Type=tNormal
-Value=5
-Weight=0.1
-Resources=1 iPaper
-SkillMake=carpentry 33.3,1 iOrigamiKit
-Category=Decoration - Miscellaneous
-Subsection=Origami
-Description=Origami Star
-
-[ItemDef 0283c]
-DefName=iOrigami5
-Name=origami bird
-Type=tNormal
-Value=5
-Weight=0.1
-Resources=1 iPaper
-SkillMake=carpentry 33.3,1 iOrigamiKit
-Category=Decoration - Miscellaneous
-Subsection=Origami
-Description=Origami Bird
-
-[ItemDef 0283d]
-DefName=iOrigami6
-Name=origami fish
-Type=tNormal
-Value=5
-Weight=0.1
-Resources=1 iPaper
-SkillMake=carpentry 33.3,1 iOrigamiKit
-Category=Decoration - Miscellaneous
-Subsection=Origami
-Description=Origami Fish
 
 
 [ItemDef 02842]
@@ -3277,16 +3167,6 @@ DupeList=02a4c
 DupeItem=02a4b
 
 
-
-[ItemDef 02aaa]
-DefName=iPromoToken
-Name=token
-Value=100
-Weight=1.0
-Type=tNormal
-Category=Quest
-Subsection=Token
-Description=Promo Token
 
 [ItemDef 02aab]
 DefName=iClassSamurai
@@ -4006,36 +3886,6 @@ Type=tGamePiece
 Type=tGamePiece
 
 
-[ItemDef 03678]
-DefName=iCrystalToken
-Name=Crystal Token
-Type=tNormal
-Value=100
-Weight=0.1
-Category=Quest
-Subsection=Token
-Description=Crystal Token
-
-[ItemDef 03679]
-DefName=iShadowToken
-Name=Shadow Token
-Type=tNormal
-Value=100
-Weight=0.1
-Category=Quest
-Subsection=Token
-Description=Shadow Token
-
-[ItemDef 0367a]
-DefName=iHeritageToken
-Name=Heritage Token
-Type=tNormal
-Value=100
-Weight=0.1
-Category=Quest
-Subsection=Token
-Description=Heritage Token
-
 
 [ItemDef 036a2]
 DefName=iBookSmQuest
@@ -4056,27 +3906,6 @@ Resources=1 iCanvas,10 iPaper,1 iThread,1 i_hides_cut
 Category=Quest
 Subsection=Unknown
 Description=Reddish Book
-
-
-[ItemDef 0379e]
-DefName=iFxGlowArrow
-Type=tSpell
-Category=Miscellaneous
-Subsection=Weirdness
-Description=Glowing Arrow
-
-[ItemDef 0379f]
-DefName=iFxEbolt
-Type=tSpell
-Category=Miscellaneous
-Subsection=Weirdness
-Description=Small Bolt
-
-[ItemDef 03ee8]
-DefName=iFxYellowDot
-Category=Miscellaneous
-Subsection=Weirdness
-Description=Strange Yellow Dot
 
 
 
@@ -5182,42 +5011,6 @@ DupeItem=04aaa
 //torture rack (multi-part)
 DupeItem=04aaa
 
-
-[ItemDef 04b1c]
-DefName=iOrigamiDragon
-Name=origami dragon
-Type=tNormal
-FLIP=1
-Value=5
-Weight=0.1
-Resources=1 iPaper
-SkillMake=carpentry 66.6,1 iOrigamiKit
-Category=Decoration - Miscellaneous
-Subsection=Origami
-Description=Origami Dragon
-DupeList=04b1d
-
-[ItemDef 04b1d]
-//Origami Dragon
-DupeItem=04b1c
-
-[ItemDef 04b1e]
-DefName=iOrigamiBunny
-Name=origami bunny
-Type=tNormal
-FLIP=1
-Value=5
-Weight=0.1
-Resources=1 iPaper
-SkillMake=carpentry 66.6,1 iOrigamiKit
-Category=Decoration - Miscellaneous
-Subsection=Origami
-Description=Origami Bunny
-DupeList=04b1f
-
-[ItemDef 04b1f]
-//Origami Bunny
-DupeItem=04b1e
 
 [ItemDef 04b20]
 DefName=iSignFancyBlank

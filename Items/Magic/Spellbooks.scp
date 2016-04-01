@@ -1,3 +1,24 @@
+[Comment BookOfArms]
+Run mythic editor later. The MoreZ index is in there for it.
+Developers didn't listen to me 3 - 5 years ago when I explained it was all spells and it was in there.
+Now they see I was right *eye roll*.
+
+
+[ItemDef 02254]
+DefName=iBookOfArmsSpellbook
+Type=tBookOfArmsSpellbook
+LAYER=LayerHand1
+Weight=0
+
+Category=Magic
+Subsection=Spellbooks
+Description=Book of Arms
+
+On=@Create
+Attr=AttrMagic|AttrNewbie|AttrBlessed
+//MOREZ=?
+
+
 [ItemDef 02252]
 DefName=iChivalrySpellbook
 Type=tChivalrySpellbook

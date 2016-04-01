@@ -1,0 +1,151 @@
+[ItemDef 02830]
+DefName=iOrigamiPaper1
+Name=origami paper
+NameLoc=1030288
+Type=tNormal
+Weight=1
+
+Category=Miscellaneous
+Subsection=Origami
+Description=Origami Paper
+
+On=@DClick
+Src.SMsgL -1,1070822	// You fold the paper into an interesting shape.
+DoRand 5
+ Serv.NewItem=iDelicateOrigamiButterfly
+ Serv.NewItem=iDelicateOrigamiSwan
+ Serv.NewItem=iDelicateOrigamiFrog
+ Serv.NewItem=iIntricateGeometricOrigamiShape
+ Serv.NewItem=iDelicateOrigamiSongbird
+ //Serv.NewItem=iDelicateOrigamiFish	// Supposedly you only get this one when drunk.
+EndDo
+
+[ItemDef 02831]
+DefName=iOrigamiPaper2
+Name=origami paper
+NameLoc=1030289
+Type=tNormal
+Weight=1
+
+Category=Miscellaneous
+Subsection=Origami
+Description=Origami Paper
+
+
+[ItemDef 02838]
+DefName=iDelicateOrigamiButterfly
+Name=delicate origami butterfly
+NameLoc=1030296
+Type=tNormal
+Weight=1
+Resources=1 iOrigamiPaper1
+
+Category=Miscellaneous
+Subsection=Origami
+Description=Delicate Origami Butterfly
+
+
+[ItemDef 02839]
+DefName=iDelicateOrigamiSwan
+Name=delicate origami swan
+NameLoc=1030297
+Type=tNormal
+Weight=1
+Resources=1 iOrigamiPaper1
+
+Category=Miscellaneous
+Subsection=Origami
+Description=Delicate Origami Swan
+
+
+[ItemDef 0283a]
+DefName=iDelicateOrigamiFrog
+Name=delicate origami frog
+NameLoc=1030298
+Type=tNormal
+Weight=1
+Resources=1 iOrigamiPaper1
+
+Category=Miscellaneous
+Subsection=Origami
+Description=Delicate Origami Frog
+
+
+[ItemDef 0283b]
+DefName=iIntricateGeometricOrigamiShape
+Name=intricate geometric origami shape
+NameLoc=1030299
+Type=tNormal
+Weight=1
+Resources=1 iOrigamiPaper1
+
+Category=Miscellaneous
+Subsection=Origami
+Description=Intricate Geometric Origami Shape
+
+
+[ItemDef 0283c]
+DefName=iDelicateOrigamiSongbird
+Name=delicate origami songbird
+NameLoc=1030300
+Type=tNormal
+Weight=1
+Resources=1 iOrigamiPaper1
+
+Category=Miscellaneous
+Subsection=Origami
+Description=Delicate Origami Songbird
+
+
+[ItemDef 0283d]
+DefName=iDelicateOrigamiFish
+Name=delicate origami fish
+NameLoc=1030301
+Type=tNormal
+Weight=1
+Resources=1 iOrigamiPaper1
+
+Category=Miscellaneous
+Subsection=Origami
+Description=Delicate Origami Fish
+
+
+[ItemDef 04b1c]
+DefName=iOrigamiDragon
+Name=origami dragon
+NameLoc=	// Cannot find anything for these outside blank clilocs.
+Type=tNormal
+Can=CanIFlip
+Weight=1
+Resources=1 iOrigamiPaper1
+DupeList=04b1d
+
+Category=Miscellaneous
+Subsection=Origami
+Description=Origami Dragon
+
+[ItemDef 04b1d]
+//Origami Dragon
+DupeItem=04b1c
+
+
+[ItemDef 04b1e]
+DefName=iOrigamiBunny
+Name=origami bunny
+NameLoc=	// Cannot find anything for these outside blank clilocs.
+Type=tNormal
+Can=CanIFlip
+Weight=1
+Resources=1 iOrigamiPaper1
+DupeList=04b1f
+
+Category=Miscellaneous
+Subsection=Origami
+Description=Origami Bunny
+
+[ItemDef 04b1f]
+//Origami Bunny
+DupeItem=04b1e
+
+
+[EOF]
