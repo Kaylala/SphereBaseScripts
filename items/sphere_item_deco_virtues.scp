@@ -1,832 +1,827 @@
-﻿//****************************************************************************
-// SPHERE by : Menasoft ©1997-2016
-// www.sphereserver.net
-// All SPHERE script files and formats are copyright Menasoft & Partners.
-// This file may be freely edited for personal use, but may not be distributed
-// in whole or in part, in any format without express written permission from
-// Menasoft & Partners. All donations and contributions
-// become the property of Menasoft & Partners.
-//****************************************************************************
-// FILE LAST UPDATED: Tuesday, Jan 19, 2016
-//
-VERSION=0.56c
+﻿[ItemDef 02]
+DefName=iAnkh1
+Name=ankh
+Type=tShrine
+Weight=255
+DupeList=03
+
+Category=Decorations
+Subsection=Ankhs
+Description=Ankh (East)
+
+[ItemDef 03]
+DupeItem=02
+
+[ItemDef 04]
+DefName=iAnkh2
+Name=ankh
+Type=tShrine
+Weight=255
+DupeList=05
+
+Category=Decorations
+Subsection=Ankhs
+Description=Ankh (South)
+
+[ItemDef 05]
+DupeItem=02
+Description=Ankh (South}
 
 
-[ITEMDEF 02]
-DEFNAME=iAnkh
-RESOURCES=100 iRockPlain
-CATEGORY=Decoration - Virtues
-SUBSECTION=Ankhs
-DESCRIPTION=Ankh (w) 1/2
-DUPELIST=03,04,05
-
-[ITEMDEF 03]
-DUPEITEM=02
-DESCRIPTION=Ankh (w) 2/2
-
-[ITEMDEF 04]
-DUPEITEM=02
-DESCRIPTION=Ankh (n) 1/2
-
-[ITEMDEF 05]
-DUPEITEM=02
-DESCRIPTION=Ankh (n) 2/2
-
-
-[ITEMDEF 0149f]
-DEFNAME=iShrineHonesty1
+[ItemDef 0149f]
+DefName=iShrineHonesty1
 RESOURCES=20 iRockMarble,4 iIngotGold,6 iRockPlain
 WEIGHT=32
-CATEGORY=Decoration - Virtues
-SUBSECTION=Honesty
-DESCRIPTION=Honesty (01/04) (W)
-DUPELIST=014a0,014a1,014a2
+Category=Decoration - Virtues
+Subsection=Honesty
+Description=Honesty (01/04) (W)
+DupeList=014a0,014a1,014a2
 
-[ITEMDEF 014a0]
+[ItemDef 014a0]
 //SHRINE_HONESTY_1 PART 2
-DUPEITEM=0149F
-CATEGORY=Decoration - Virtues
-SUBSECTION=Honesty
-DESCRIPTION=Honesty (02/04) (W)
+DupeItem=0149F
+Category=Decoration - Virtues
+Subsection=Honesty
+Description=Honesty (02/04) (W)
 
-[ITEMDEF 014a1]
+[ItemDef 014a1]
 //SHRINE_HONESTY_1 PART 3
-DUPEITEM=0149F
-CATEGORY=Decoration - Virtues
-SUBSECTION=Honesty
-DESCRIPTION=Honesty (03/04) (W)
+DupeItem=0149F
+Category=Decoration - Virtues
+Subsection=Honesty
+Description=Honesty (03/04) (W)
 
-[ITEMDEF 014a2]
+[ItemDef 014a2]
 //SHRINE_HONESTY_1 PART 4
-DUPEITEM=0149F
-CATEGORY=Decoration - Virtues
-SUBSECTION=Honesty
-DESCRIPTION=Honesty (04/04) (W)
+DupeItem=0149F
+Category=Decoration - Virtues
+Subsection=Honesty
+Description=Honesty (04/04) (W)
 
-[ITEMDEF 014a3]
-DEFNAME=iShrineHonesty2
+[ItemDef 014a3]
+DefName=iShrineHonesty2
 RESOURCES=20 iRockMarble,4 iIngotGold,6 iRockPlain
 WEIGHT=32
-CATEGORY=Decoration - Virtues
-SUBSECTION=Honesty
-DESCRIPTION=Honesty (01/04) (N)
-DUPELIST=014a4,014a5,014a6
+Category=Decoration - Virtues
+Subsection=Honesty
+Description=Honesty (01/04) (N)
+DupeList=014a4,014a5,014a6
 
-[ITEMDEF 014a4]
+[ItemDef 014a4]
 //SHRINE_HONESTY_2 PART 2
-DUPEITEM=014A3
-CATEGORY=Decoration - Virtues
-SUBSECTION=Honesty
-DESCRIPTION=Honesty (02/04) (N)
+DupeItem=014A3
+Category=Decoration - Virtues
+Subsection=Honesty
+Description=Honesty (02/04) (N)
 
-[ITEMDEF 014a5]
+[ItemDef 014a5]
 //SHRINE_HONESTY_2 PART 3
-DUPEITEM=014A3
-CATEGORY=Decoration - Virtues
-SUBSECTION=Honesty
-DESCRIPTION=Honesty (03/04) (N)
+DupeItem=014A3
+Category=Decoration - Virtues
+Subsection=Honesty
+Description=Honesty (03/04) (N)
 
-[ITEMDEF 014a6]
+[ItemDef 014a6]
 //SHRINE_HONESTY_2 PART 4
-DUPEITEM=014A3
-CATEGORY=Decoration - Virtues
-SUBSECTION=Honesty
-DESCRIPTION=Honesty (04/04) (N)
+DupeItem=014A3
+Category=Decoration - Virtues
+Subsection=Honesty
+Description=Honesty (04/04) (N)
 
-[ITEMDEF 014a7]
-DEFNAME=iShrineCompassion1
+[ItemDef 014a7]
+DefName=iShrineCompassion1
 RESOURCES=20 iRockMarble,4 iIngotGold,6 iRockPlain
 WEIGHT=32
-CATEGORY=Decoration - Virtues
-SUBSECTION=Compassion
-DESCRIPTION=Compassion (01/04) (W)
-DUPELIST=014a8,014a9,014aa
+Category=Decoration - Virtues
+Subsection=Compassion
+Description=Compassion (01/04) (W)
+DupeList=014a8,014a9,014aa
 
-[ITEMDEF 014a8]
+[ItemDef 014a8]
 //SHRINE_COMPASSION_1 PART 2
-DUPEITEM=014A7
-CATEGORY=Decoration - Virtues
-SUBSECTION=Compassion
-DESCRIPTION=Compassion (02/04) (W)
+DupeItem=014A7
+Category=Decoration - Virtues
+Subsection=Compassion
+Description=Compassion (02/04) (W)
 
-[ITEMDEF 014a9]
+[ItemDef 014a9]
 //SHRINE_COMPASSION_1 PART 3
-DUPEITEM=014A7
-CATEGORY=Decoration - Virtues
-SUBSECTION=Compassion
-DESCRIPTION=Compassion (03/04) (W)
+DupeItem=014A7
+Category=Decoration - Virtues
+Subsection=Compassion
+Description=Compassion (03/04) (W)
 
-[ITEMDEF 014aa]
+[ItemDef 014aa]
 //SHRINE_COMPASSION_1 PART 4
-DUPEITEM=014A7
-CATEGORY=Decoration - Virtues
-SUBSECTION=Compassion
-DESCRIPTION=Compassion (04/04) (W)
+DupeItem=014A7
+Category=Decoration - Virtues
+Subsection=Compassion
+Description=Compassion (04/04) (W)
 
-[ITEMDEF 014ab]
-DEFNAME=iShrineCompassion2
+[ItemDef 014ab]
+DefName=iShrineCompassion2
 RESOURCES=20 iRockMarble,4 iIngotGold,6 iRockPlain
 WEIGHT=32
-CATEGORY=Decoration - Virtues
-SUBSECTION=Compassion
-DESCRIPTION=Compassion (01/04) (N)
-DUPELIST=014ac,014ad,014ae
+Category=Decoration - Virtues
+Subsection=Compassion
+Description=Compassion (01/04) (N)
+DupeList=014ac,014ad,014ae
 
-[ITEMDEF 014ac]
+[ItemDef 014ac]
 //SHRINE_COMPASSION_2 PART 2
-DUPEITEM=014AB
-CATEGORY=Decoration - Virtues
-SUBSECTION=Compassion
-DESCRIPTION=Compassion (02/04) (N)
+DupeItem=014AB
+Category=Decoration - Virtues
+Subsection=Compassion
+Description=Compassion (02/04) (N)
 
-[ITEMDEF 014ad]
+[ItemDef 014ad]
 //SHRINE_COMPASSION_2 PART 3
-DUPEITEM=014AB
-CATEGORY=Decoration - Virtues
-SUBSECTION=Compassion
-DESCRIPTION=Compassion (03/04) (N)
+DupeItem=014AB
+Category=Decoration - Virtues
+Subsection=Compassion
+Description=Compassion (03/04) (N)
 
-[ITEMDEF 014ae]
+[ItemDef 014ae]
 //SHRINE_COMPASSION_2 PART 4
-DUPEITEM=014AB
-CATEGORY=Decoration - Virtues
-SUBSECTION=Compassion
-DESCRIPTION=Compassion (04/04) (N)
+DupeItem=014AB
+Category=Decoration - Virtues
+Subsection=Compassion
+Description=Compassion (04/04) (N)
 
-[ITEMDEF 014af]
-DEFNAME=iShrineJustice1
+[ItemDef 014af]
+DefName=iShrineJustice1
 RESOURCES=20 iRockMarble,4 iIngotGold,6 iRockPlain
 WEIGHT=32
-CATEGORY=Decoration - Virtues
-SUBSECTION=Justice
-DESCRIPTION=Justice (01/04) (W)
-DUPELIST=014b0,014b1,014b2
+Category=Decoration - Virtues
+Subsection=Justice
+Description=Justice (01/04) (W)
+DupeList=014b0,014b1,014b2
 
-[ITEMDEF 014b0]
+[ItemDef 014b0]
 //SHRINE_JUSTICE_1 PART 2
-DUPEITEM=014AF
-CATEGORY=Decoration - Virtues
-SUBSECTION=Justice
-DESCRIPTION=Justice (02/04) (W)
+DupeItem=014AF
+Category=Decoration - Virtues
+Subsection=Justice
+Description=Justice (02/04) (W)
 
-[ITEMDEF 014b1]
+[ItemDef 014b1]
 //SHRINE_JUSTICE_1 PART 3
-DUPEITEM=014AF
-CATEGORY=Decoration - Virtues
-SUBSECTION=Justice
-DESCRIPTION=Justice (03/04) (W)
+DupeItem=014AF
+Category=Decoration - Virtues
+Subsection=Justice
+Description=Justice (03/04) (W)
 
-[ITEMDEF 014b2]
+[ItemDef 014b2]
 //SHRINE_JUSTICE_1 PART 4
-DUPEITEM=014AF
-CATEGORY=Decoration - Virtues
-SUBSECTION=Justice
-DESCRIPTION=Justice (04/04) (W)
+DupeItem=014AF
+Category=Decoration - Virtues
+Subsection=Justice
+Description=Justice (04/04) (W)
 
-[ITEMDEF 014b3]
-DEFNAME=iShrineJustice2
+[ItemDef 014b3]
+DefName=iShrineJustice2
 RESOURCES=20 iRockMarble,4 iIngotGold,6 iRockPlain
 WEIGHT=32
-CATEGORY=Decoration - Virtues
-SUBSECTION=Justice
-DESCRIPTION=Justice (01/04) (N)
-DUPELIST=014b4,014b5,014b6
+Category=Decoration - Virtues
+Subsection=Justice
+Description=Justice (01/04) (N)
+DupeList=014b4,014b5,014b6
 
-[ITEMDEF 014b4]
+[ItemDef 014b4]
 //SHRINE_JUSTICE_2 PART 2
-DUPEITEM=014B3
-CATEGORY=Decoration - Virtues
-SUBSECTION=Justice
-DESCRIPTION=Justice (02/04) (N)
+DupeItem=014B3
+Category=Decoration - Virtues
+Subsection=Justice
+Description=Justice (02/04) (N)
 
-[ITEMDEF 014b5]
+[ItemDef 014b5]
 //SHRINE_JUSTICE_2 PART 3
-DUPEITEM=014B3
-CATEGORY=Decoration - Virtues
-SUBSECTION=Justice
-DESCRIPTION=Justice (03/04) (N)
+DupeItem=014B3
+Category=Decoration - Virtues
+Subsection=Justice
+Description=Justice (03/04) (N)
 
-[ITEMDEF 014b6]
+[ItemDef 014b6]
 //SHRINE_JUSTICE_2 PART 4
-DUPEITEM=014B3
-CATEGORY=Decoration - Virtues
-SUBSECTION=Justice
-DESCRIPTION=Justice (04/04) (N)
+DupeItem=014B3
+Category=Decoration - Virtues
+Subsection=Justice
+Description=Justice (04/04) (N)
 
-[ITEMDEF 014b7]
-DEFNAME=iShrineValor1
+[ItemDef 014b7]
+DefName=iShrineValor1
 RESOURCES=20 iRockMarble,4 iIngotGold,6 iRockPlain
 WEIGHT=32
-CATEGORY=Decoration - Virtues
-SUBSECTION=Valor
-DESCRIPTION=Valor (01/04) (W)
-DUPELIST=014b8,014b9,014ba
+Category=Decoration - Virtues
+Subsection=Valor
+Description=Valor (01/04) (W)
+DupeList=014b8,014b9,014ba
 
-[ITEMDEF 014b8]
+[ItemDef 014b8]
 //SHRINE_VALOR_1 PART 2
-DUPEITEM=014B7
-CATEGORY=Decoration - Virtues
-SUBSECTION=Valor
-DESCRIPTION=Valor (02/04) (W)
+DupeItem=014B7
+Category=Decoration - Virtues
+Subsection=Valor
+Description=Valor (02/04) (W)
 
-[ITEMDEF 014b9]
+[ItemDef 014b9]
 //SHRINE_VALOR_1 PART 3
-DUPEITEM=014B7
-CATEGORY=Decoration - Virtues
-SUBSECTION=Valor
-DESCRIPTION=Valor (03/04) (W)
+DupeItem=014B7
+Category=Decoration - Virtues
+Subsection=Valor
+Description=Valor (03/04) (W)
 
-[ITEMDEF 014ba]
+[ItemDef 014ba]
 //SHRINE_VALOR_1 PART 4
-DUPEITEM=014B7
-CATEGORY=Decoration - Virtues
-SUBSECTION=Valor
-DESCRIPTION=Valor (04/04) (W)
+DupeItem=014B7
+Category=Decoration - Virtues
+Subsection=Valor
+Description=Valor (04/04) (W)
 
-[ITEMDEF 014bb]
-DEFNAME=iShrineValor2
+[ItemDef 014bb]
+DefName=iShrineValor2
 RESOURCES=20 iRockMarble,4 iIngotGold,6 iRockPlain
 WEIGHT=32
-CATEGORY=Decoration - Virtues
-SUBSECTION=Valor
-DESCRIPTION=Valor (01/04) (N)
-DUPELIST=014bc,014bd,014be
+Category=Decoration - Virtues
+Subsection=Valor
+Description=Valor (01/04) (N)
+DupeList=014bc,014bd,014be
 
-[ITEMDEF 014bc]
+[ItemDef 014bc]
 //SHRINE_VALOR_2 PART 2
-DUPEITEM=014BB
-CATEGORY=Decoration - Virtues
-SUBSECTION=Valor
-DESCRIPTION=Valor (02/04) (N)
+DupeItem=014BB
+Category=Decoration - Virtues
+Subsection=Valor
+Description=Valor (02/04) (N)
 
-[ITEMDEF 014bd]
+[ItemDef 014bd]
 //SHRINE_VALOR_2 PART 3
-DUPEITEM=014BB
-CATEGORY=Decoration - Virtues
-SUBSECTION=Valor
-DESCRIPTION=Valor (03/04) (N)
+DupeItem=014BB
+Category=Decoration - Virtues
+Subsection=Valor
+Description=Valor (03/04) (N)
 
-[ITEMDEF 014be]
+[ItemDef 014be]
 //SHRINE_VALOR_2 PART 4
-DUPEITEM=014BB
-CATEGORY=Decoration - Virtues
-SUBSECTION=Valor
-DESCRIPTION=Valor (04/04) (N)
+DupeItem=014BB
+Category=Decoration - Virtues
+Subsection=Valor
+Description=Valor (04/04) (N)
 
-[ITEMDEF 014bf]
-DEFNAME=iShrineSpirituality1
+[ItemDef 014bf]
+DefName=iShrineSpirituality1
 RESOURCES=20 iRockMarble,4 iIngotGold,6 iRockPlain
 WEIGHT=32
-CATEGORY=Decoration - Virtues
-SUBSECTION=Spirituality
-DESCRIPTION=Spirituality (01/04) (W)
-DUPELIST=014c0,014c1,014c2
+Category=Decoration - Virtues
+Subsection=Spirituality
+Description=Spirituality (01/04) (W)
+DupeList=014c0,014c1,014c2
 
-[ITEMDEF 014c0]
+[ItemDef 014c0]
 //SHRINE_SPIRITUALITY_1 PART 2
-DUPEITEM=014BF
-CATEGORY=Decoration - Virtues
-SUBSECTION=Spirituality
-DESCRIPTION=Spirituality (02/04) (W)
+DupeItem=014BF
+Category=Decoration - Virtues
+Subsection=Spirituality
+Description=Spirituality (02/04) (W)
 
-[ITEMDEF 014c1]
+[ItemDef 014c1]
 //SHRINE_SPIRITUALITY_1 PART 3
-DUPEITEM=014BF
-CATEGORY=Decoration - Virtues
-SUBSECTION=Spirituality
-DESCRIPTION=Spirituality (03/04) (W)
+DupeItem=014BF
+Category=Decoration - Virtues
+Subsection=Spirituality
+Description=Spirituality (03/04) (W)
 
-[ITEMDEF 014c2]
+[ItemDef 014c2]
 //SHRINE_SPIRITUALITY_1 PART 4
-DUPEITEM=014BF
-CATEGORY=Decoration - Virtues
-SUBSECTION=Spirituality
-DESCRIPTION=Spirituality (04/04) (W)
+DupeItem=014BF
+Category=Decoration - Virtues
+Subsection=Spirituality
+Description=Spirituality (04/04) (W)
 
-[ITEMDEF 014c3]
-DEFNAME=iShrineSpirituality2
+[ItemDef 014c3]
+DefName=iShrineSpirituality2
 RESOURCES=20 iRockMarble,4 iIngotGold,6 iRockPlain
 WEIGHT=32
-CATEGORY=Decoration - Virtues
-SUBSECTION=Spirituality
-DESCRIPTION=Spirituality (01/04) (N)
-DUPELIST=014c4,014c5,014c6
+Category=Decoration - Virtues
+Subsection=Spirituality
+Description=Spirituality (01/04) (N)
+DupeList=014c4,014c5,014c6
 
-[ITEMDEF 014c4]
+[ItemDef 014c4]
 //SHRINE_SPIRITUALITY_2 PART 2
-DUPEITEM=014C3
-CATEGORY=Decoration - Virtues
-SUBSECTION=Spirituality
-DESCRIPTION=Spirituality (02/04) (N)
+DupeItem=014C3
+Category=Decoration - Virtues
+Subsection=Spirituality
+Description=Spirituality (02/04) (N)
 
-[ITEMDEF 014c5]
+[ItemDef 014c5]
 //SHRINE_SPIRITUALITY_2 PART 3
-DUPEITEM=014C3
-CATEGORY=Decoration - Virtues
-SUBSECTION=Spirituality
-DESCRIPTION=Spirituality (03/04) (N)
+DupeItem=014C3
+Category=Decoration - Virtues
+Subsection=Spirituality
+Description=Spirituality (03/04) (N)
 
-[ITEMDEF 014c6]
+[ItemDef 014c6]
 //SHRINE_SPIRITUALITY_2 PART 4
-DUPEITEM=014C3
-CATEGORY=Decoration - Virtues
-SUBSECTION=Spirituality
-DESCRIPTION=Spirituality (04/04) (N)
+DupeItem=014C3
+Category=Decoration - Virtues
+Subsection=Spirituality
+Description=Spirituality (04/04) (N)
 
-[ITEMDEF 014c7]
-DEFNAME=iShrineHonor1
+[ItemDef 014c7]
+DefName=iShrineHonor1
 RESOURCES=20 iRockMarble,4 iIngotGold,6 iRockPlain
 WEIGHT=32
-CATEGORY=Decoration - Virtues
-SUBSECTION=Honor
-DESCRIPTION=Honor (01/04) (W)
-DUPELIST=014c8,014c9,014ca
+Category=Decoration - Virtues
+Subsection=Honor
+Description=Honor (01/04) (W)
+DupeList=014c8,014c9,014ca
 
-[ITEMDEF 014c8]
+[ItemDef 014c8]
 //SHRINE_HONOR_1 PART 2
-DUPEITEM=014C7
-CATEGORY=Decoration - Virtues
-SUBSECTION=Honor
-DESCRIPTION=Honor (02/04) (W)
+DupeItem=014C7
+Category=Decoration - Virtues
+Subsection=Honor
+Description=Honor (02/04) (W)
 
-[ITEMDEF 014c9]
+[ItemDef 014c9]
 //SHRINE_HONOR_1 PART 3
-DUPEITEM=014C7
-CATEGORY=Decoration - Virtues
-SUBSECTION=Honor
-DESCRIPTION=Honor (03/04) (W)
+DupeItem=014C7
+Category=Decoration - Virtues
+Subsection=Honor
+Description=Honor (03/04) (W)
 
-[ITEMDEF 014ca]
+[ItemDef 014ca]
 //SHRINE_HONOR_1 PART 4
-DUPEITEM=014C7
-CATEGORY=Decoration - Virtues
-SUBSECTION=Honor
-DESCRIPTION=Honor (04/04) (W)
+DupeItem=014C7
+Category=Decoration - Virtues
+Subsection=Honor
+Description=Honor (04/04) (W)
 
-[ITEMDEF 014cb]
-DEFNAME=iShrineHonor2
+[ItemDef 014cb]
+DefName=iShrineHonor2
 RESOURCES=20 iRockMarble,4 iIngotGold,6 iRockPlain
 WEIGHT=32
-CATEGORY=Decoration - Virtues
-SUBSECTION=Honor
-DESCRIPTION=Honor (01/04) (N)
-DUPELIST=014cc,014cd,014ce
+Category=Decoration - Virtues
+Subsection=Honor
+Description=Honor (01/04) (N)
+DupeList=014cc,014cd,014ce
 
-[ITEMDEF 014cc]
+[ItemDef 014cc]
 //SHRINE_HONOR_2 PART 2
-DUPEITEM=014CB
-CATEGORY=Decoration - Virtues
-SUBSECTION=Honor
-DESCRIPTION=Honor (02/04) (N)
+DupeItem=014CB
+Category=Decoration - Virtues
+Subsection=Honor
+Description=Honor (02/04) (N)
 
-[ITEMDEF 014cd]
+[ItemDef 014cd]
 //SHRINE_HONOR_2 PART 3
-DUPEITEM=014CB
-CATEGORY=Decoration - Virtues
-SUBSECTION=Honor
-DESCRIPTION=Honor (03/04) (N)
+DupeItem=014CB
+Category=Decoration - Virtues
+Subsection=Honor
+Description=Honor (03/04) (N)
 
-[ITEMDEF 014ce]
+[ItemDef 014ce]
 //SHRINE_HONOR_2 PART 4
-DUPEITEM=014CB
-CATEGORY=Decoration - Virtues
-SUBSECTION=Honor
-DESCRIPTION=Honor (04/04) (N)
+DupeItem=014CB
+Category=Decoration - Virtues
+Subsection=Honor
+Description=Honor (04/04) (N)
 
-[ITEMDEF 014cf]
-DEFNAME=iShrineHumility1
+[ItemDef 014cf]
+DefName=iShrineHumility1
 RESOURCES=20 iRockMarble,4 iIngotGold,6 iRockPlain
 WEIGHT=32
-CATEGORY=Decoration - Virtues
-SUBSECTION=Humility
-DESCRIPTION=Humility (01/04) (W)
-DUPELIST=014d0,014d1,014d2
+Category=Decoration - Virtues
+Subsection=Humility
+Description=Humility (01/04) (W)
+DupeList=014d0,014d1,014d2
 
-[ITEMDEF 014d0]
+[ItemDef 014d0]
 //SHRINE_HONOR_1 PART 2
-DUPEITEM=014CF
-CATEGORY=Decoration - Virtues
-SUBSECTION=Humility
-DESCRIPTION=Humility (02/04) (W)
+DupeItem=014CF
+Category=Decoration - Virtues
+Subsection=Humility
+Description=Humility (02/04) (W)
 
-[ITEMDEF 014d1]
+[ItemDef 014d1]
 //SHRINE_HONOR_1 PART 3
-DUPEITEM=014CF
-CATEGORY=Decoration - Virtues
-SUBSECTION=Humility
-DESCRIPTION=Humility (03/04) (W)
+DupeItem=014CF
+Category=Decoration - Virtues
+Subsection=Humility
+Description=Humility (03/04) (W)
 
-[ITEMDEF 014d2]
+[ItemDef 014d2]
 //SHRINE_HONOR_1 PART 4
-DUPEITEM=014CF
-CATEGORY=Decoration - Virtues
-SUBSECTION=Humility
-DESCRIPTION=Humility (04/04) (W)
+DupeItem=014CF
+Category=Decoration - Virtues
+Subsection=Humility
+Description=Humility (04/04) (W)
 
-[ITEMDEF 014d3]
-DEFNAME=iShrineHumility2
+[ItemDef 014d3]
+DefName=iShrineHumility2
 RESOURCES=20 iRockMarble,4 iIngotGold,6 iRockPlain
 WEIGHT=32
-CATEGORY=Decoration - Virtues
-SUBSECTION=Humility
-DESCRIPTION=Humility (01/04) (N)
-DUPELIST=014d4,014d5,014d6
+Category=Decoration - Virtues
+Subsection=Humility
+Description=Humility (01/04) (N)
+DupeList=014d4,014d5,014d6
 
-[ITEMDEF 014d4]
+[ItemDef 014d4]
 //SHRINE_HONOR_2 PART 2
-DUPEITEM=014D3
-CATEGORY=Decoration - Virtues
-SUBSECTION=Humility
-DESCRIPTION=Humility (02/04) (N)
+DupeItem=014D3
+Category=Decoration - Virtues
+Subsection=Humility
+Description=Humility (02/04) (N)
 
-[ITEMDEF 014d5]
+[ItemDef 014d5]
 //SHRINE_HONOR_2 PART 3
-DUPEITEM=014D3
-CATEGORY=Decoration - Virtues
-SUBSECTION=Humility
-DESCRIPTION=Humility (03/04) (N)
+DupeItem=014D3
+Category=Decoration - Virtues
+Subsection=Humility
+Description=Humility (03/04) (N)
 
-[ITEMDEF 014d6]
+[ItemDef 014d6]
 //SHRINE_HONOR_2 PART 4
-DUPEITEM=014D3
-CATEGORY=Decoration - Virtues
-SUBSECTION=Humility
-DESCRIPTION=Humility (04/04) (N)
+DupeItem=014D3
+Category=Decoration - Virtues
+Subsection=Humility
+Description=Humility (04/04) (N)
 
-[ITEMDEF 014e3]
-DEFNAME=iShrineChaos1
+[ItemDef 014e3]
+DefName=iShrineChaos1
 RESOURCES=20 iRockMarble,2 iIngotBloodrock,2 iRockPlain
 WEIGHT=32
-CATEGORY=Decoration - Virtues
-SUBSECTION=Chaos
-DESCRIPTION=Chaos (01/04) (W)
-DUPELIST=014e4,014e5,014e6
+Category=Decoration - Virtues
+Subsection=Chaos
+Description=Chaos (01/04) (W)
+DupeList=014e4,014e5,014e6
 
-[ITEMDEF 014e4]
+[ItemDef 014e4]
 //SHRINE_CHAOS_1 PART 2
-DUPEITEM=014E3
-CATEGORY=Decoration - Virtues
-SUBSECTION=Chaos
-DESCRIPTION=Chaos (02/04) (W)
+DupeItem=014E3
+Category=Decoration - Virtues
+Subsection=Chaos
+Description=Chaos (02/04) (W)
 
-[ITEMDEF 014e5]
+[ItemDef 014e5]
 //SHRINE_CHAOS_1 PART 3
-DUPEITEM=014E3
-CATEGORY=Decoration - Virtues
-SUBSECTION=Chaos
-DESCRIPTION=Chaos (03/04) (W)
+DupeItem=014E3
+Category=Decoration - Virtues
+Subsection=Chaos
+Description=Chaos (03/04) (W)
 
-[ITEMDEF 014e6]
+[ItemDef 014e6]
 //SHRINE_CHAOS_1 PART 4
-DUPEITEM=014E3
-CATEGORY=Decoration - Virtues
-SUBSECTION=Chaos
-DESCRIPTION=Chaos (04/04) (W)
+DupeItem=014E3
+Category=Decoration - Virtues
+Subsection=Chaos
+Description=Chaos (04/04) (W)
 
-[ITEMDEF 0150a]
-DEFNAME=iShrineSacrifice1
+[ItemDef 0150a]
+DefName=iShrineSacrifice1
 RESOURCES=20 iRockMarble,4 iIngotGold,6 iRockPlain
 WEIGHT=32
-CATEGORY=Decoration - Virtues
-SUBSECTION=Sacrifice
-DESCRIPTION=Sacrifice (01/04) (W)
-DUPELIST=0150b,0150c,0150d
+Category=Decoration - Virtues
+Subsection=Sacrifice
+Description=Sacrifice (01/04) (W)
+DupeList=0150b,0150c,0150d
 
-[ITEMDEF 0150b]
+[ItemDef 0150b]
 //SHRINE_SACRIFICE_1 PART 2
-DUPEITEM=0150A
-CATEGORY=Decoration - Virtues
-SUBSECTION=Sacrifice
-DESCRIPTION=Sacrifice (02/04) (W)
+DupeItem=0150A
+Category=Decoration - Virtues
+Subsection=Sacrifice
+Description=Sacrifice (02/04) (W)
 
-[ITEMDEF 0150c]
+[ItemDef 0150c]
 //SHRINE_SACRIFICE_1 PART 3
-DUPEITEM=0150A
-CATEGORY=Decoration - Virtues
-SUBSECTION=Sacrifice
-DESCRIPTION=Sacrifice (03/04) (W)
+DupeItem=0150A
+Category=Decoration - Virtues
+Subsection=Sacrifice
+Description=Sacrifice (03/04) (W)
 
-[ITEMDEF 0150d]
+[ItemDef 0150d]
 //SHRINE_SACRIFICE_1 PART 4
-DUPEITEM=0150A
-CATEGORY=Decoration - Virtues
-SUBSECTION=Sacrifice
-DESCRIPTION=Sacrifice (04/04) (W)
+DupeItem=0150A
+Category=Decoration - Virtues
+Subsection=Sacrifice
+Description=Sacrifice (04/04) (W)
 
-[ITEMDEF 0150e]
-DEFNAME=iShrineSacrifice2
+[ItemDef 0150e]
+DefName=iShrineSacrifice2
 RESOURCES=20 iRockMarble,4 iIngotGold,6 iRockPlain
 WEIGHT=32
-CATEGORY=Decoration - Virtues
-SUBSECTION=Sacrifice
-DESCRIPTION=Sacrifice (01/04) (N)
-DUPELIST=0150f,01510,01511
+Category=Decoration - Virtues
+Subsection=Sacrifice
+Description=Sacrifice (01/04) (N)
+DupeList=0150f,01510,01511
 
-[ITEMDEF 0150f]
+[ItemDef 0150f]
 //SHRINE_SACRIFICE_2 PART 2
-DUPEITEM=0150E
-CATEGORY=Decoration - Virtues
-SUBSECTION=Sacrifice
-DESCRIPTION=Sacrifice (02/04) (N)
+DupeItem=0150E
+Category=Decoration - Virtues
+Subsection=Sacrifice
+Description=Sacrifice (02/04) (N)
 
-[ITEMDEF 01510]
+[ItemDef 01510]
 //SHRINE_SACRIFICE_2 PART 3
-DUPEITEM=0150E
-CATEGORY=Decoration - Virtues
-SUBSECTION=Sacrifice
-DESCRIPTION=Sacrifice (03/04) (N)
+DupeItem=0150E
+Category=Decoration - Virtues
+Subsection=Sacrifice
+Description=Sacrifice (03/04) (N)
 
-[ITEMDEF 01511]
+[ItemDef 01511]
 //SHRINE_SACRIFICE_2 PART 4
-DUPEITEM=0150E
-CATEGORY=Decoration - Virtues
-SUBSECTION=Sacrifice
-DESCRIPTION=Sacrifice (04/04) (N)
+DupeItem=0150E
+Category=Decoration - Virtues
+Subsection=Sacrifice
+Description=Sacrifice (04/04) (N)
 
 
-[ITEMDEF 01869]
-DEFNAME=iVirtstone1
-DEFNAME2=I_VIRTUESTONE_BLACK
+[ItemDef 01869]
+DefName=iVirtstone1
+DefName2=I_VIRTUESTONE_BLACK
 WEIGHT=1
-CATEGORY=Miscellaneous
-SUBSECTION=Virtue Stones
-DESCRIPTION=Virtue Stone (Black)
+Category=Miscellaneous
+Subsection=Virtue Stones
+Description=Virtue Stone (Black)
 
-[ITEMDEF 0186a]
-DEFNAME=iVirtstone2
-DEFNAME2=I_VIRTUESTONE_BLUE
+[ItemDef 0186a]
+DefName=iVirtstone2
+DefName2=I_VIRTUESTONE_BLUE
 WEIGHT=1
-CATEGORY=Miscellaneous
-SUBSECTION=Virtue Stones
-DESCRIPTION=Virtue Stone (Blue)
+Category=Miscellaneous
+Subsection=Virtue Stones
+Description=Virtue Stone (Blue)
 
-[ITEMDEF 0186b]
-DEFNAME=iVirtstone3
-DEFNAME2=I_VIRTUESTONE_GREEN
+[ItemDef 0186b]
+DefName=iVirtstone3
+DefName2=I_VIRTUESTONE_GREEN
 WEIGHT=1
-CATEGORY=Miscellaneous
-SUBSECTION=Virtue Stones
-DESCRIPTION=Virtue Stone (Green)
+Category=Miscellaneous
+Subsection=Virtue Stones
+Description=Virtue Stone (Green)
 
-[ITEMDEF 0186c]
-DEFNAME=iVirtstone4
-DEFNAME2=I_VIRTUESTONE_ORANGE
+[ItemDef 0186c]
+DefName=iVirtstone4
+DefName2=I_VIRTUESTONE_ORANGE
 WEIGHT=1
-CATEGORY=Miscellaneous
-SUBSECTION=Virtue Stones
-DESCRIPTION=Virtue Stone (Orange)
+Category=Miscellaneous
+Subsection=Virtue Stones
+Description=Virtue Stone (Orange)
 
-[ITEMDEF 0186d]
-DEFNAME=iVirtstone5
-DEFNAME2=I_VIRTUESTONE_PURPLE
+[ItemDef 0186d]
+DefName=iVirtstone5
+DefName2=I_VIRTUESTONE_PURPLE
 WEIGHT=1
-CATEGORY=Miscellaneous
-SUBSECTION=Virtue Stones
-DESCRIPTION=Virtue Stone (Purple)
+Category=Miscellaneous
+Subsection=Virtue Stones
+Description=Virtue Stone (Purple)
 
-[ITEMDEF 0186e]
-DEFNAME=iVirtstone6
-DEFNAME2=I_VIRTUESTONE_RED
+[ItemDef 0186e]
+DefName=iVirtstone6
+DefName2=I_VIRTUESTONE_RED
 WEIGHT=1
-CATEGORY=Miscellaneous
-SUBSECTION=Virtue Stones
-DESCRIPTION=Virtue Stone (Red)
+Category=Miscellaneous
+Subsection=Virtue Stones
+Description=Virtue Stone (Red)
 
-[ITEMDEF 0186f]
-DEFNAME=iVirtstone7
-DEFNAME2=I_VIRTUESTONE_AQUA
+[ItemDef 0186f]
+DefName=iVirtstone7
+DefName2=I_VIRTUESTONE_AQUA
 WEIGHT=1
-CATEGORY=Miscellaneous
-SUBSECTION=Virtue Stones
-DESCRIPTION=Virtue Stone (Aqua)
+Category=Miscellaneous
+Subsection=Virtue Stones
+Description=Virtue Stone (Aqua)
 
-[ITEMDEF 01870]
-DEFNAME=iVirtstone8
-DEFNAME2=I_VIRTUESTONE_YELLOW
+[ItemDef 01870]
+DefName=iVirtstone8
+DefName2=I_VIRTUESTONE_YELLOW
 WEIGHT=1
-CATEGORY=Miscellaneous
-SUBSECTION=Virtue Stones
-DESCRIPTION=Virtue Stone (Yellow)
+Category=Miscellaneous
+Subsection=Virtue Stones
+Description=Virtue Stone (Yellow)
 
 
-[ITEMDEF 01c12]
-DEFNAME=iBellOfCourage
+[ItemDef 01c12]
+DefName=iBellOfCourage
 RESOURCES=2 iIngotGold,1 iWireGold,1 iGemDiamond
 WEIGHT=5
-CATEGORY=Decoration - Virtues
-SUBSECTION=Virtue Items
-DESCRIPTION=Bell of Courage
+Category=Decoration - Virtues
+Subsection=Virtue Items
+Description=Bell of Courage
 
-[ITEMDEF 01c13]
-DEFNAME=iBookOfTruth
+[ItemDef 01c13]
+DefName=iBookOfTruth
 TYPE=T_BOOK
 RESOURCES=1 iBookSm
 WEIGHT=5
 VALUE=500
-CATEGORY=Decoration - Virtues
-SUBSECTION=Virtue Items
-DESCRIPTION=Book of Truth
+Category=Decoration - Virtues
+Subsection=Virtue Items
+Description=Book of Truth
 ON=@Create
 MORE1=b_sphere
 
-[ITEMDEF 01c14]
+[ItemDef 01c14]
 // cannot be unlit.
-DEFNAME=iCandleOfLove
+DefName=iCandleOfLove
 TYPE=tLightLit
 WEIGHT=5
 RESOURCES=iCandle,iIngotGold
-CATEGORY=Decoration - Virtues
-SUBSECTION=Virtue Items
-DESCRIPTION=Candle of Love
-DUPELIST=01c15,01c16
+Category=Decoration - Virtues
+Subsection=Virtue Items
+Description=Candle of Love
+DupeList=01c15,01c16
 
-[ITEMDEF 01c15]
+[ItemDef 01c15]
 //Candle of Love
-DUPEITEM=01c14
+DupeItem=01c14
 
-[ITEMDEF 01c16]
+[ItemDef 01c16]
 //Candle of Love
-DUPEITEM=01c14
+DupeItem=01c14
 
 
-[ITEMDEF 01d97]
-DEFNAME=iAnkhSacrifice
+[ItemDef 01d97]
+DefName=iAnkhSacrifice
 TYPE=tLightLit
 RESOURCES=10 iRockPlain
 WEIGHT=30
-CATEGORY=Decoration - Virtues
-SUBSECTION=Ankhs
-DESCRIPTION=Ankh of Sacrifice
-DUPELIST=01d98,01e5c,01e5d
+Category=Decoration - Virtues
+Subsection=Ankhs
+Description=Ankh of Sacrifice
+DupeList=01d98,01e5c,01e5d
 
-[ITEMDEF 01d98]
+[ItemDef 01d98]
 //ankh of sacrifice
-DUPEITEM=01d97
+DupeItem=01d97
 
-[ITEMDEF 01e5c]
-DEFNAME=iAnkhSacrifice2
-DUPEITEM=01d97
+[ItemDef 01e5c]
+DefName=iAnkhSacrifice2
+DupeItem=01d97
 
-[ITEMDEF 01e5d]
+[ItemDef 01e5d]
 //ankh of sacrifice
-DUPEITEM=01d97
+DupeItem=01d97
 
 
-[ITEMDEF 040da]
-DEFNAME=iSaFloorVirtue1
+[ItemDef 040da]
+DefName=iSaFloorVirtue1
 NAME=virtue symbol
 TYPE=tFloor
-CATEGORY=Decoration - Virtues
-SUBSECTION=Virtue Floor (small)
-DESCRIPTION=Floor
-DUPELIST=040db,040dc,040dd,040de,040df,040e0,040e1,040e2,040e3,040e4,040e5,040e6,040e7,040e8,040e9,040ea,040eb,040ec,040ed,040ee,040ef,040f0,040f1,040f2,040f3,040f4,040f5,040f6,040f7,040f8,040f9,040fa,040fb,040fc,040fd
+Category=Decoration - Virtues
+Subsection=Virtue Floor (small)
+Description=Floor
+DupeList=040db,040dc,040dd,040de,040df,040e0,040e1,040e2,040e3,040e4,040e5,040e6,040e7,040e8,040e9,040ea,040eb,040ec,040ed,040ee,040ef,040f0,040f1,040f2,040f3,040f4,040f5,040f6,040f7,040f8,040f9,040fa,040fb,040fc,040fd
 
-[ITEMDEF 040db]
+[ItemDef 040db]
 //virtue symbol
-DUPEITEM=040da
+DupeItem=040da
 
-[ITEMDEF 040dc]
+[ItemDef 040dc]
 //virtue symbol
-DUPEITEM=040da
+DupeItem=040da
 
-[ITEMDEF 040dd]
+[ItemDef 040dd]
 //virtue symbol
-DUPEITEM=040da
+DupeItem=040da
 
-[ITEMDEF 040de]
+[ItemDef 040de]
 //virtue symbol
-DUPEITEM=040da
+DupeItem=040da
 
-[ITEMDEF 040df]
+[ItemDef 040df]
 //virtue symbol
-DUPEITEM=040da
+DupeItem=040da
 
-[ITEMDEF 040e0]
+[ItemDef 040e0]
 //virtue symbol
-DUPEITEM=040da
+DupeItem=040da
 
-[ITEMDEF 040e1]
+[ItemDef 040e1]
 //virtue symbol
-DUPEITEM=040da
+DupeItem=040da
 
-[ITEMDEF 040e2]
+[ItemDef 040e2]
 //virtue symbol
-DUPEITEM=040da
+DupeItem=040da
 
-[ITEMDEF 040e3]
+[ItemDef 040e3]
 //virtue symbol
-DUPEITEM=040da
+DupeItem=040da
 
-[ITEMDEF 040e4]
+[ItemDef 040e4]
 //virtue symbol
-DUPEITEM=040da
+DupeItem=040da
 
-[ITEMDEF 040e5]
+[ItemDef 040e5]
 //virtue symbol
-DUPEITEM=040da
+DupeItem=040da
 
-[ITEMDEF 040e6]
+[ItemDef 040e6]
 //virtue symbol
-DUPEITEM=040da
+DupeItem=040da
 
-[ITEMDEF 040e7]
+[ItemDef 040e7]
 //virtue symbol
-DUPEITEM=040da
+DupeItem=040da
 
-[ITEMDEF 040e8]
+[ItemDef 040e8]
 //virtue symbol
-DUPEITEM=040da
+DupeItem=040da
 
-[ITEMDEF 040e9]
+[ItemDef 040e9]
 //virtue symbol
-DUPEITEM=040da
+DupeItem=040da
 
-[ITEMDEF 040ea]
+[ItemDef 040ea]
 //virtue symbol
-DUPEITEM=040da
+DupeItem=040da
 
-[ITEMDEF 040eb]
+[ItemDef 040eb]
 //virtue symbol
-DUPEITEM=040da
+DupeItem=040da
 
-[ITEMDEF 040ec]
+[ItemDef 040ec]
 //virtue symbol
-DUPEITEM=040da
+DupeItem=040da
 
-[ITEMDEF 040ed]
+[ItemDef 040ed]
 //virtue symbol
-DUPEITEM=040da
+DupeItem=040da
 
-[ITEMDEF 040ee]
+[ItemDef 040ee]
 //virtue symbol
-DUPEITEM=040da
+DupeItem=040da
 
-[ITEMDEF 040ef]
+[ItemDef 040ef]
 //virtue symbol
-DUPEITEM=040da
+DupeItem=040da
 
-[ITEMDEF 040f0]
+[ItemDef 040f0]
 //virtue symbol
-DUPEITEM=040da
+DupeItem=040da
 
-[ITEMDEF 040f1]
+[ItemDef 040f1]
 //virtue symbol
-DUPEITEM=040da
+DupeItem=040da
 
-[ITEMDEF 040f2]
+[ItemDef 040f2]
 //virtue symbol
-DUPEITEM=040da
+DupeItem=040da
 
-[ITEMDEF 040f3]
+[ItemDef 040f3]
 //virtue symbol
-DUPEITEM=040da
+DupeItem=040da
 
-[ITEMDEF 040f4]
+[ItemDef 040f4]
 //virtue symbol
-DUPEITEM=040da
+DupeItem=040da
 
-[ITEMDEF 040f5]
+[ItemDef 040f5]
 //virtue symbol
-DUPEITEM=040da
+DupeItem=040da
 
-[ITEMDEF 040f6]
+[ItemDef 040f6]
 //virtue symbol
-DUPEITEM=040da
+DupeItem=040da
 
-[ITEMDEF 040f7]
+[ItemDef 040f7]
 //virtue symbol
-DUPEITEM=040da
+DupeItem=040da
 
-[ITEMDEF 040f8]
+[ItemDef 040f8]
 //virtue symbol
-DUPEITEM=040da
+DupeItem=040da
 
-[ITEMDEF 040f9]
+[ItemDef 040f9]
 //virtue symbol
-DUPEITEM=040da
+DupeItem=040da
 
-[ITEMDEF 040fa]
+[ItemDef 040fa]
 //virtue symbol
-DUPEITEM=040da
+DupeItem=040da
 
-[ITEMDEF 040fb]
+[ItemDef 040fb]
 //virtue symbol
-DUPEITEM=040da
+DupeItem=040da
 
-[ITEMDEF 040fc]
+[ItemDef 040fc]
 //virtue symbol
-DUPEITEM=040da
+DupeItem=040da
 
-[ITEMDEF 040fd]
+[ItemDef 040fd]
 //virtue symbol
-DUPEITEM=040da
+DupeItem=040da
 
-[ITEMDEF iMultiFloorVirtue]
+[ItemDef iMultiFloorVirtue]
 NAME=virtue floor symbol
 TYPE=tMulti
-CATEGORY=Multis
-SUBSECTION=Decoration
-DESCRIPTION=Virtue Floor Symbol
+Category=Multis
+Subsection=Decoration
+Description=Virtue Floor Symbol
 MULTIREGION=0,0,0,0
 COMPONENT=040da,-3,-3,0
 COMPONENT=040db,-2,-3,0
@@ -866,813 +861,813 @@ COMPONENT=040fc,1,2,0
 COMPONENT=040fd,2,2,0
 
 
-[ITEMDEF 043e0]
-DEFNAME=iSaFloorVirtue2
-CATEGORY=Decoration - Virtues
-SUBSECTION=Virtue Floor (large)
-DESCRIPTION=Floor
-DUPELIST=043e1,043e2,043e3,043e4,043e5,043e6,043e7,043e8,043e9,043ea,043eb,043ec,043ed,043ee,043ef,043f0,043f1,043f2,043f3,043f4,043f5,043f6,043f7,043f,043f,043fa,043fb,043fc,043fd,043fe,043ff,04400,04401,04402,04403,04404,04405,04406,04407,04408,04409,0440a,0440b,0440c,0440d,0440e,0440f,04410,04411,04412,04413,04414,04415,04416,04417,04418,04419,0441a,0441b,0441c,0441d,0441e,0441f,04420,04421,04422,04423,04424,04425,04426,04427,04428,04429,0442a,0442b,0442c,0442d,0442e,0442f,04430,04431,04432,04433,0443,04435,04436,04437,04438,04439,0443a,0443b,0443c,0443d,0443e,0443f,04440,04441,04442,04443,04444,04445,04446,04447,04448,04449,0444a,0444b,0444c,0444d,0444e,0444f,04450,04451,04452,04453,04454,04455,04456,04457,04458,04459,0445a,0445b,0445c,0445d,0445e,0445f,04460,04461,04462,04463,04464,04465,04466,04467,04468,04469,0446a,0446b,0446c,0446d,0446e,0446f,04470,04471,04472,04473,04474,04475,04476,04477,04478,04479,0447a,0447b,0447c,0447d,0447e,0447f,04480,04481,04482,04483,04484,04485,04486,04487,04488,04489,0448a,0448b,0448c,0448d,0448e,0448f,04490,04491,04492,04493,04494,04495,04496,04497,04498,04499,0449a,0449b,0449c,0449d,0449e,0449f,044a0,044a1,044a2,044a3,044a4,044a5,044a6,044a7,044a8,044a9,044aa,044ab,044ac,044ad,044ae,044af,044b0,044b1,044b2,044b3,044b4,044b5,044b6,044b7,044b8,044b9,044ba,044bb,044bc,044bd,044be,044bf,044c0
+[ItemDef 043e0]
+DefName=iSaFloorVirtue2
+Category=Decoration - Virtues
+Subsection=Virtue Floor (large)
+Description=Floor
+DupeList=043e1,043e2,043e3,043e4,043e5,043e6,043e7,043e8,043e9,043ea,043eb,043ec,043ed,043ee,043ef,043f0,043f1,043f2,043f3,043f4,043f5,043f6,043f7,043f,043f,043fa,043fb,043fc,043fd,043fe,043ff,04400,04401,04402,04403,04404,04405,04406,04407,04408,04409,0440a,0440b,0440c,0440d,0440e,0440f,04410,04411,04412,04413,04414,04415,04416,04417,04418,04419,0441a,0441b,0441c,0441d,0441e,0441f,04420,04421,04422,04423,04424,04425,04426,04427,04428,04429,0442a,0442b,0442c,0442d,0442e,0442f,04430,04431,04432,04433,0443,04435,04436,04437,04438,04439,0443a,0443b,0443c,0443d,0443e,0443f,04440,04441,04442,04443,04444,04445,04446,04447,04448,04449,0444a,0444b,0444c,0444d,0444e,0444f,04450,04451,04452,04453,04454,04455,04456,04457,04458,04459,0445a,0445b,0445c,0445d,0445e,0445f,04460,04461,04462,04463,04464,04465,04466,04467,04468,04469,0446a,0446b,0446c,0446d,0446e,0446f,04470,04471,04472,04473,04474,04475,04476,04477,04478,04479,0447a,0447b,0447c,0447d,0447e,0447f,04480,04481,04482,04483,04484,04485,04486,04487,04488,04489,0448a,0448b,0448c,0448d,0448e,0448f,04490,04491,04492,04493,04494,04495,04496,04497,04498,04499,0449a,0449b,0449c,0449d,0449e,0449f,044a0,044a1,044a2,044a3,044a4,044a5,044a6,044a7,044a8,044a9,044aa,044ab,044ac,044ad,044ae,044af,044b0,044b1,044b2,044b3,044b4,044b5,044b6,044b7,044b8,044b9,044ba,044bb,044bc,044bd,044be,044bf,044c0
 
-[ITEMDEF 043e1]
-DUPEITEM=043e0
+[ItemDef 043e1]
+DupeItem=043e0
 
-[ITEMDEF 043e2]
-DUPEITEM=043e0
+[ItemDef 043e2]
+DupeItem=043e0
 
-[ITEMDEF 043e3]
-DUPEITEM=043e0
+[ItemDef 043e3]
+DupeItem=043e0
 
-[ITEMDEF 043e4]
-DUPEITEM=043e0
+[ItemDef 043e4]
+DupeItem=043e0
 
-[ITEMDEF 043e5]
-DUPEITEM=043e0
+[ItemDef 043e5]
+DupeItem=043e0
 
-[ITEMDEF 043e6]
-DUPEITEM=043e0
+[ItemDef 043e6]
+DupeItem=043e0
 
-[ITEMDEF 043e7]
-DUPEITEM=043e0
+[ItemDef 043e7]
+DupeItem=043e0
 
-[ITEMDEF 043e8]
-DUPEITEM=043e0
+[ItemDef 043e8]
+DupeItem=043e0
 
-[ITEMDEF 043e9]
-DUPEITEM=043e0
+[ItemDef 043e9]
+DupeItem=043e0
 
-[ITEMDEF 043ea]
-DUPEITEM=043e0
+[ItemDef 043ea]
+DupeItem=043e0
 
-[ITEMDEF 043eb]
-DUPEITEM=043e0
+[ItemDef 043eb]
+DupeItem=043e0
 
-[ITEMDEF 043ec]
-DUPEITEM=043e0
+[ItemDef 043ec]
+DupeItem=043e0
 
-[ITEMDEF 043ed]
-DUPEITEM=043e0
+[ItemDef 043ed]
+DupeItem=043e0
 
-[ITEMDEF 043ee]
-DUPEITEM=043e0
+[ItemDef 043ee]
+DupeItem=043e0
 
-[ITEMDEF 043ef]
-DUPEITEM=043e0
+[ItemDef 043ef]
+DupeItem=043e0
 
-[ITEMDEF 043f0]
-DUPEITEM=043e0
+[ItemDef 043f0]
+DupeItem=043e0
 
-[ITEMDEF 043f1]
-DUPEITEM=043e0
+[ItemDef 043f1]
+DupeItem=043e0
 
-[ITEMDEF 043f2]
-DUPEITEM=043e0
+[ItemDef 043f2]
+DupeItem=043e0
 
-[ITEMDEF 043f3]
-DUPEITEM=043e0
+[ItemDef 043f3]
+DupeItem=043e0
 
-[ITEMDEF 043f4]
-DUPEITEM=043e0
+[ItemDef 043f4]
+DupeItem=043e0
 
-[ITEMDEF 043f5]
-DUPEITEM=043e0
+[ItemDef 043f5]
+DupeItem=043e0
 
-[ITEMDEF 043f6]
-DUPEITEM=043e0
+[ItemDef 043f6]
+DupeItem=043e0
 
-[ITEMDEF 043f7]
-DUPEITEM=043e0
+[ItemDef 043f7]
+DupeItem=043e0
 
-[ITEMDEF 043f8]
-DUPEITEM=043e0
+[ItemDef 043f8]
+DupeItem=043e0
 
-[ITEMDEF 043f9]
-DUPEITEM=043e0
+[ItemDef 043f9]
+DupeItem=043e0
 
-[ITEMDEF 043fa]
-DUPEITEM=043e0
+[ItemDef 043fa]
+DupeItem=043e0
 
-[ITEMDEF 043fb]
-DUPEITEM=043e0
+[ItemDef 043fb]
+DupeItem=043e0
 
-[ITEMDEF 043fc]
-DUPEITEM=043e0
+[ItemDef 043fc]
+DupeItem=043e0
 
-[ITEMDEF 043fd]
-DUPEITEM=043e0
+[ItemDef 043fd]
+DupeItem=043e0
 
-[ITEMDEF 043fe]
-DUPEITEM=043e0
+[ItemDef 043fe]
+DupeItem=043e0
 
-[ITEMDEF 043ff]
-DUPEITEM=043e0
+[ItemDef 043ff]
+DupeItem=043e0
 
-[ITEMDEF 04400]
-DUPEITEM=043e0
+[ItemDef 04400]
+DupeItem=043e0
 
-[ITEMDEF 04401]
-DUPEITEM=043e0
+[ItemDef 04401]
+DupeItem=043e0
 
-[ITEMDEF 04402]
-DUPEITEM=043e0
+[ItemDef 04402]
+DupeItem=043e0
 
-[ITEMDEF 04403]
-DUPEITEM=043e0
+[ItemDef 04403]
+DupeItem=043e0
 
-[ITEMDEF 04404]
-DUPEITEM=043e0
+[ItemDef 04404]
+DupeItem=043e0
 
-[ITEMDEF 04405]
-DUPEITEM=043e0
+[ItemDef 04405]
+DupeItem=043e0
 
-[ITEMDEF 04406]
-DUPEITEM=043e0
+[ItemDef 04406]
+DupeItem=043e0
 
-[ITEMDEF 04407]
-DUPEITEM=043e0
+[ItemDef 04407]
+DupeItem=043e0
 
-[ITEMDEF 04408]
-DUPEITEM=043e0
+[ItemDef 04408]
+DupeItem=043e0
 
-[ITEMDEF 04409]
-DUPEITEM=043e0
+[ItemDef 04409]
+DupeItem=043e0
 
-[ITEMDEF 0440a]
-DUPEITEM=043e0
+[ItemDef 0440a]
+DupeItem=043e0
 
-[ITEMDEF 0440b]
-DUPEITEM=043e0
+[ItemDef 0440b]
+DupeItem=043e0
 
-[ITEMDEF 0440c]
-DUPEITEM=043e0
+[ItemDef 0440c]
+DupeItem=043e0
 
-[ITEMDEF 0440d]
-DUPEITEM=043e0
+[ItemDef 0440d]
+DupeItem=043e0
 
-[ITEMDEF 0440e]
-DUPEITEM=043e0
+[ItemDef 0440e]
+DupeItem=043e0
 
-[ITEMDEF 0440f]
-DUPEITEM=043e0
+[ItemDef 0440f]
+DupeItem=043e0
 
-[ITEMDEF 04410]
-DUPEITEM=043e0
+[ItemDef 04410]
+DupeItem=043e0
 
-[ITEMDEF 04411]
-DUPEITEM=043e0
+[ItemDef 04411]
+DupeItem=043e0
 
-[ITEMDEF 04412]
-DUPEITEM=043e0
+[ItemDef 04412]
+DupeItem=043e0
 
-[ITEMDEF 04413]
-DUPEITEM=043e0
+[ItemDef 04413]
+DupeItem=043e0
 
-[ITEMDEF 04414]
-DUPEITEM=043e0
+[ItemDef 04414]
+DupeItem=043e0
 
-[ITEMDEF 04415]
-DUPEITEM=043e0
+[ItemDef 04415]
+DupeItem=043e0
 
-[ITEMDEF 04416]
-DUPEITEM=043e0
+[ItemDef 04416]
+DupeItem=043e0
 
-[ITEMDEF 04417]
-DUPEITEM=043e0
+[ItemDef 04417]
+DupeItem=043e0
 
-[ITEMDEF 04418]
-DUPEITEM=043e0
+[ItemDef 04418]
+DupeItem=043e0
 
-[ITEMDEF 04419]
-DUPEITEM=043e0
+[ItemDef 04419]
+DupeItem=043e0
 
-[ITEMDEF 0441a]
-DUPEITEM=043e0
+[ItemDef 0441a]
+DupeItem=043e0
 
-[ITEMDEF 0441b]
-DUPEITEM=043e0
+[ItemDef 0441b]
+DupeItem=043e0
 
-[ITEMDEF 0441c]
-DUPEITEM=043e0
+[ItemDef 0441c]
+DupeItem=043e0
 
-[ITEMDEF 0441d]
-DUPEITEM=043e0
+[ItemDef 0441d]
+DupeItem=043e0
 
-[ITEMDEF 0441e]
-DUPEITEM=043e0
+[ItemDef 0441e]
+DupeItem=043e0
 
-[ITEMDEF 0441f]
-DUPEITEM=043e0
+[ItemDef 0441f]
+DupeItem=043e0
 
-[ITEMDEF 04420]
-DUPEITEM=043e0
+[ItemDef 04420]
+DupeItem=043e0
 
-[ITEMDEF 04421]
-DUPEITEM=043e0
+[ItemDef 04421]
+DupeItem=043e0
 
-[ITEMDEF 04422]
-DUPEITEM=043e0
+[ItemDef 04422]
+DupeItem=043e0
 
-[ITEMDEF 04423]
-DUPEITEM=043e0
+[ItemDef 04423]
+DupeItem=043e0
 
-[ITEMDEF 04424]
-DUPEITEM=043e0
+[ItemDef 04424]
+DupeItem=043e0
 
-[ITEMDEF 04425]
-DUPEITEM=043e0
+[ItemDef 04425]
+DupeItem=043e0
 
-[ITEMDEF 04426]
-DUPEITEM=043e0
+[ItemDef 04426]
+DupeItem=043e0
 
-[ITEMDEF 04427]
-DUPEITEM=043e0
+[ItemDef 04427]
+DupeItem=043e0
 
-[ITEMDEF 04428]
-DUPEITEM=043e0
+[ItemDef 04428]
+DupeItem=043e0
 
-[ITEMDEF 04429]
-DUPEITEM=043e0
+[ItemDef 04429]
+DupeItem=043e0
 
-[ITEMDEF 0442a]
-DUPEITEM=043e0
+[ItemDef 0442a]
+DupeItem=043e0
 
-[ITEMDEF 0442b]
-DUPEITEM=043e0
+[ItemDef 0442b]
+DupeItem=043e0
 
-[ITEMDEF 0442c]
-DUPEITEM=043e0
+[ItemDef 0442c]
+DupeItem=043e0
 
-[ITEMDEF 0442d]
-DUPEITEM=043e0
+[ItemDef 0442d]
+DupeItem=043e0
 
-[ITEMDEF 0442e]
-DUPEITEM=043e0
+[ItemDef 0442e]
+DupeItem=043e0
 
-[ITEMDEF 0442f]
-DUPEITEM=043e0
+[ItemDef 0442f]
+DupeItem=043e0
 
-[ITEMDEF 04430]
-DUPEITEM=043e0
+[ItemDef 04430]
+DupeItem=043e0
 
-[ITEMDEF 04431]
-DUPEITEM=043e0
+[ItemDef 04431]
+DupeItem=043e0
 
-[ITEMDEF 04432]
-DUPEITEM=043e0
+[ItemDef 04432]
+DupeItem=043e0
 
-[ITEMDEF 04433]
-DUPEITEM=043e0
+[ItemDef 04433]
+DupeItem=043e0
 
-[ITEMDEF 04434]
-DUPEITEM=043e0
+[ItemDef 04434]
+DupeItem=043e0
 
-[ITEMDEF 04435]
-DUPEITEM=043e0
+[ItemDef 04435]
+DupeItem=043e0
 
-[ITEMDEF 04436]
-DUPEITEM=043e0
+[ItemDef 04436]
+DupeItem=043e0
 
-[ITEMDEF 04437]
-DUPEITEM=043e0
+[ItemDef 04437]
+DupeItem=043e0
 
-[ITEMDEF 04438]
-DUPEITEM=043e0
+[ItemDef 04438]
+DupeItem=043e0
 
-[ITEMDEF 04439]
-DUPEITEM=043e0
+[ItemDef 04439]
+DupeItem=043e0
 
-[ITEMDEF 0443a]
-DUPEITEM=043e0
+[ItemDef 0443a]
+DupeItem=043e0
 
-[ITEMDEF 0443b]
-DUPEITEM=043e0
+[ItemDef 0443b]
+DupeItem=043e0
 
-[ITEMDEF 0443c]
-DUPEITEM=043e0
+[ItemDef 0443c]
+DupeItem=043e0
 
-[ITEMDEF 0443d]
-DUPEITEM=043e0
+[ItemDef 0443d]
+DupeItem=043e0
 
-[ITEMDEF 0443e]
-DUPEITEM=043e0
+[ItemDef 0443e]
+DupeItem=043e0
 
-[ITEMDEF 0443f]
-DUPEITEM=043e0
+[ItemDef 0443f]
+DupeItem=043e0
 
-[ITEMDEF 04440]
-DUPEITEM=043e0
+[ItemDef 04440]
+DupeItem=043e0
 
-[ITEMDEF 04441]
-DUPEITEM=043e0
+[ItemDef 04441]
+DupeItem=043e0
 
-[ITEMDEF 04442]
-DUPEITEM=043e0
+[ItemDef 04442]
+DupeItem=043e0
 
-[ITEMDEF 04443]
-DUPEITEM=043e0
+[ItemDef 04443]
+DupeItem=043e0
 
-[ITEMDEF 04444]
-DUPEITEM=043e0
+[ItemDef 04444]
+DupeItem=043e0
 
-[ITEMDEF 04445]
-DUPEITEM=043e0
+[ItemDef 04445]
+DupeItem=043e0
 
-[ITEMDEF 04446]
-DUPEITEM=043e0
+[ItemDef 04446]
+DupeItem=043e0
 
-[ITEMDEF 04447]
-DUPEITEM=043e0
+[ItemDef 04447]
+DupeItem=043e0
 
-[ITEMDEF 04448]
-DUPEITEM=043e0
+[ItemDef 04448]
+DupeItem=043e0
 
-[ITEMDEF 04449]
-DUPEITEM=043e0
+[ItemDef 04449]
+DupeItem=043e0
 
-[ITEMDEF 0444a]
-DUPEITEM=043e0
+[ItemDef 0444a]
+DupeItem=043e0
 
-[ITEMDEF 0444b]
-DUPEITEM=043e0
+[ItemDef 0444b]
+DupeItem=043e0
 
-[ITEMDEF 0444c]
-DUPEITEM=043e0
+[ItemDef 0444c]
+DupeItem=043e0
 
-[ITEMDEF 0444d]
-DUPEITEM=043e0
+[ItemDef 0444d]
+DupeItem=043e0
 
-[ITEMDEF 0444e]
-DUPEITEM=043e0
+[ItemDef 0444e]
+DupeItem=043e0
 
-[ITEMDEF 0444f]
-DUPEITEM=043e0
+[ItemDef 0444f]
+DupeItem=043e0
 
-[ITEMDEF 04450]
-DUPEITEM=043e0
+[ItemDef 04450]
+DupeItem=043e0
 
-[ITEMDEF 04451]
-DUPEITEM=043e0
+[ItemDef 04451]
+DupeItem=043e0
 
-[ITEMDEF 04452]
-DUPEITEM=043e0
+[ItemDef 04452]
+DupeItem=043e0
 
-[ITEMDEF 04453]
-DUPEITEM=043e0
+[ItemDef 04453]
+DupeItem=043e0
 
-[ITEMDEF 04454]
-DUPEITEM=043e0
+[ItemDef 04454]
+DupeItem=043e0
 
-[ITEMDEF 04455]
-DUPEITEM=043e0
+[ItemDef 04455]
+DupeItem=043e0
 
-[ITEMDEF 04456]
-DUPEITEM=043e0
+[ItemDef 04456]
+DupeItem=043e0
 
-[ITEMDEF 04457]
-DUPEITEM=043e0
+[ItemDef 04457]
+DupeItem=043e0
 
-[ITEMDEF 04458]
-DUPEITEM=043e0
+[ItemDef 04458]
+DupeItem=043e0
 
-[ITEMDEF 04459]
-DUPEITEM=043e0
+[ItemDef 04459]
+DupeItem=043e0
 
-[ITEMDEF 0445a]
-DUPEITEM=043e0
+[ItemDef 0445a]
+DupeItem=043e0
 
-[ITEMDEF 0445b]
-DUPEITEM=043e0
+[ItemDef 0445b]
+DupeItem=043e0
 
-[ITEMDEF 0445c]
-DUPEITEM=043e0
+[ItemDef 0445c]
+DupeItem=043e0
 
-[ITEMDEF 0445d]
-DUPEITEM=043e0
+[ItemDef 0445d]
+DupeItem=043e0
 
-[ITEMDEF 0445e]
-DUPEITEM=043e0
+[ItemDef 0445e]
+DupeItem=043e0
 
-[ITEMDEF 0445f]
-DUPEITEM=043e0
+[ItemDef 0445f]
+DupeItem=043e0
 
-[ITEMDEF 04460]
-DUPEITEM=043e0
+[ItemDef 04460]
+DupeItem=043e0
 
-[ITEMDEF 04461]
-DUPEITEM=043e0
+[ItemDef 04461]
+DupeItem=043e0
 
-[ITEMDEF 04462]
-DUPEITEM=043e0
+[ItemDef 04462]
+DupeItem=043e0
 
-[ITEMDEF 04463]
-DUPEITEM=043e0
+[ItemDef 04463]
+DupeItem=043e0
 
-[ITEMDEF 04464]
-DUPEITEM=043e0
+[ItemDef 04464]
+DupeItem=043e0
 
-[ITEMDEF 04465]
-DUPEITEM=043e0
+[ItemDef 04465]
+DupeItem=043e0
 
-[ITEMDEF 04466]
-DUPEITEM=043e0
+[ItemDef 04466]
+DupeItem=043e0
 
-[ITEMDEF 04467]
-DUPEITEM=043e0
+[ItemDef 04467]
+DupeItem=043e0
 
-[ITEMDEF 04468]
-DUPEITEM=043e0
+[ItemDef 04468]
+DupeItem=043e0
 
-[ITEMDEF 04469]
-DUPEITEM=043e0
+[ItemDef 04469]
+DupeItem=043e0
 
-[ITEMDEF 0446a]
-DUPEITEM=043e0
+[ItemDef 0446a]
+DupeItem=043e0
 
-[ITEMDEF 0446b]
-DUPEITEM=043e0
+[ItemDef 0446b]
+DupeItem=043e0
 
-[ITEMDEF 0446c]
-DUPEITEM=043e0
+[ItemDef 0446c]
+DupeItem=043e0
 
-[ITEMDEF 0446d]
-DUPEITEM=043e0
+[ItemDef 0446d]
+DupeItem=043e0
 
-[ITEMDEF 0446e]
-DUPEITEM=043e0
+[ItemDef 0446e]
+DupeItem=043e0
 
-[ITEMDEF 0446f]
-DUPEITEM=043e0
+[ItemDef 0446f]
+DupeItem=043e0
 
-[ITEMDEF 04470]
-DUPEITEM=043e0
+[ItemDef 04470]
+DupeItem=043e0
 
-[ITEMDEF 04471]
-DUPEITEM=043e0
+[ItemDef 04471]
+DupeItem=043e0
 
-[ITEMDEF 04472]
-DUPEITEM=043e0
+[ItemDef 04472]
+DupeItem=043e0
 
-[ITEMDEF 04473]
-DUPEITEM=043e0
+[ItemDef 04473]
+DupeItem=043e0
 
-[ITEMDEF 04474]
-DUPEITEM=043e0
+[ItemDef 04474]
+DupeItem=043e0
 
-[ITEMDEF 04475]
-DUPEITEM=043e0
+[ItemDef 04475]
+DupeItem=043e0
 
-[ITEMDEF 04476]
-DUPEITEM=043e0
+[ItemDef 04476]
+DupeItem=043e0
 
-[ITEMDEF 04477]
-DUPEITEM=043e0
+[ItemDef 04477]
+DupeItem=043e0
 
-[ITEMDEF 04478]
-DUPEITEM=043e0
+[ItemDef 04478]
+DupeItem=043e0
 
-[ITEMDEF 04479]
-DUPEITEM=043e0
+[ItemDef 04479]
+DupeItem=043e0
 
-[ITEMDEF 0447a]
-DUPEITEM=043e0
+[ItemDef 0447a]
+DupeItem=043e0
 
-[ITEMDEF 0447b]
-DUPEITEM=043e0
+[ItemDef 0447b]
+DupeItem=043e0
 
-[ITEMDEF 0447c]
-DUPEITEM=043e0
+[ItemDef 0447c]
+DupeItem=043e0
 
-[ITEMDEF 0447d]
-DUPEITEM=043e0
+[ItemDef 0447d]
+DupeItem=043e0
 
-[ITEMDEF 0447e]
-DUPEITEM=043e0
+[ItemDef 0447e]
+DupeItem=043e0
 
-[ITEMDEF 0447f]
-DUPEITEM=043e0
+[ItemDef 0447f]
+DupeItem=043e0
 
-[ITEMDEF 04480]
-DUPEITEM=043e0
+[ItemDef 04480]
+DupeItem=043e0
 
-[ITEMDEF 04481]
-DUPEITEM=043e0
+[ItemDef 04481]
+DupeItem=043e0
 
-[ITEMDEF 04482]
-DUPEITEM=043e0
+[ItemDef 04482]
+DupeItem=043e0
 
-[ITEMDEF 04483]
-DUPEITEM=043e0
+[ItemDef 04483]
+DupeItem=043e0
 
-[ITEMDEF 04484]
-DUPEITEM=043e0
+[ItemDef 04484]
+DupeItem=043e0
 
-[ITEMDEF 04485]
-DUPEITEM=043e0
+[ItemDef 04485]
+DupeItem=043e0
 
-[ITEMDEF 04486]
-DUPEITEM=043e0
+[ItemDef 04486]
+DupeItem=043e0
 
-[ITEMDEF 04487]
-DUPEITEM=043e0
+[ItemDef 04487]
+DupeItem=043e0
 
-[ITEMDEF 04488]
-DUPEITEM=043e0
+[ItemDef 04488]
+DupeItem=043e0
 
-[ITEMDEF 04489]
-DUPEITEM=043e0
+[ItemDef 04489]
+DupeItem=043e0
 
-[ITEMDEF 0448a]
-DUPEITEM=043e0
+[ItemDef 0448a]
+DupeItem=043e0
 
-[ITEMDEF 0448b]
-DUPEITEM=043e0
+[ItemDef 0448b]
+DupeItem=043e0
 
-[ITEMDEF 0448c]
-DUPEITEM=043e0
+[ItemDef 0448c]
+DupeItem=043e0
 
-[ITEMDEF 0448d]
-DUPEITEM=043e0
+[ItemDef 0448d]
+DupeItem=043e0
 
-[ITEMDEF 0448e]
-DUPEITEM=043e0
+[ItemDef 0448e]
+DupeItem=043e0
 
-[ITEMDEF 0448f]
-DUPEITEM=043e0
+[ItemDef 0448f]
+DupeItem=043e0
 
-[ITEMDEF 04490]
-DUPEITEM=043e0
+[ItemDef 04490]
+DupeItem=043e0
 
-[ITEMDEF 04491]
-DUPEITEM=043e0
+[ItemDef 04491]
+DupeItem=043e0
 
-[ITEMDEF 04492]
-DUPEITEM=043e0
+[ItemDef 04492]
+DupeItem=043e0
 
-[ITEMDEF 04493]
-DUPEITEM=043e0
+[ItemDef 04493]
+DupeItem=043e0
 
-[ITEMDEF 04494]
-DUPEITEM=043e0
+[ItemDef 04494]
+DupeItem=043e0
 
-[ITEMDEF 04495]
-DUPEITEM=043e0
+[ItemDef 04495]
+DupeItem=043e0
 
-[ITEMDEF 04496]
-DUPEITEM=043e0
+[ItemDef 04496]
+DupeItem=043e0
 
-[ITEMDEF 04497]
-DUPEITEM=043e0
+[ItemDef 04497]
+DupeItem=043e0
 
-[ITEMDEF 04498]
-DUPEITEM=043e0
+[ItemDef 04498]
+DupeItem=043e0
 
-[ITEMDEF 04499]
-DUPEITEM=043e0
+[ItemDef 04499]
+DupeItem=043e0
 
-[ITEMDEF 0449a]
-DUPEITEM=043e0
+[ItemDef 0449a]
+DupeItem=043e0
 
-[ITEMDEF 0449b]
-DUPEITEM=043e0
+[ItemDef 0449b]
+DupeItem=043e0
 
-[ITEMDEF 0449c]
-DUPEITEM=043e0
+[ItemDef 0449c]
+DupeItem=043e0
 
-[ITEMDEF 0449d]
-DUPEITEM=043e0
+[ItemDef 0449d]
+DupeItem=043e0
 
-[ITEMDEF 0449e]
-DUPEITEM=043e0
+[ItemDef 0449e]
+DupeItem=043e0
 
-[ITEMDEF 0449f]
-DUPEITEM=043e0
+[ItemDef 0449f]
+DupeItem=043e0
 
-[ITEMDEF 044a0]
-DUPEITEM=043e0
+[ItemDef 044a0]
+DupeItem=043e0
 
-[ITEMDEF 044a1]
-DUPEITEM=043e0
+[ItemDef 044a1]
+DupeItem=043e0
 
-[ITEMDEF 044a2]
-DUPEITEM=043e0
+[ItemDef 044a2]
+DupeItem=043e0
 
-[ITEMDEF 044a3]
-DUPEITEM=043e0
+[ItemDef 044a3]
+DupeItem=043e0
 
-[ITEMDEF 044a4]
-DUPEITEM=043e0
+[ItemDef 044a4]
+DupeItem=043e0
 
-[ITEMDEF 044a5]
-DUPEITEM=043e0
+[ItemDef 044a5]
+DupeItem=043e0
 
-[ITEMDEF 044a6]
-DUPEITEM=043e0
+[ItemDef 044a6]
+DupeItem=043e0
 
-[ITEMDEF 044a7]
-DUPEITEM=043e0
+[ItemDef 044a7]
+DupeItem=043e0
 
-[ITEMDEF 044a8]
-DUPEITEM=043e0
+[ItemDef 044a8]
+DupeItem=043e0
 
-[ITEMDEF 044a9]
-DUPEITEM=043e0
+[ItemDef 044a9]
+DupeItem=043e0
 
-[ITEMDEF 044aa]
-DUPEITEM=043e0
+[ItemDef 044aa]
+DupeItem=043e0
 
-[ITEMDEF 044ab]
-DUPEITEM=043e0
+[ItemDef 044ab]
+DupeItem=043e0
 
-[ITEMDEF 044ac]
-DUPEITEM=043e0
+[ItemDef 044ac]
+DupeItem=043e0
 
-[ITEMDEF 044ad]
-DUPEITEM=043e0
+[ItemDef 044ad]
+DupeItem=043e0
 
-[ITEMDEF 044ae]
-DUPEITEM=043e0
+[ItemDef 044ae]
+DupeItem=043e0
 
-[ITEMDEF 044af]
-DUPEITEM=043e0
+[ItemDef 044af]
+DupeItem=043e0
 
-[ITEMDEF 044b0]
-DUPEITEM=043e0
+[ItemDef 044b0]
+DupeItem=043e0
 
-[ITEMDEF 044b1]
-DUPEITEM=043e0
+[ItemDef 044b1]
+DupeItem=043e0
 
-[ITEMDEF 044b2]
-DUPEITEM=043e0
+[ItemDef 044b2]
+DupeItem=043e0
 
-[ITEMDEF 044b3]
-DUPEITEM=043e0
+[ItemDef 044b3]
+DupeItem=043e0
 
-[ITEMDEF 044b4]
-DUPEITEM=043e0
+[ItemDef 044b4]
+DupeItem=043e0
 
-[ITEMDEF 044b5]
-DUPEITEM=043e0
+[ItemDef 044b5]
+DupeItem=043e0
 
-[ITEMDEF 044b6]
-DUPEITEM=043e0
+[ItemDef 044b6]
+DupeItem=043e0
 
-[ITEMDEF 044b7]
-DUPEITEM=043e0
+[ItemDef 044b7]
+DupeItem=043e0
 
-[ITEMDEF 044b8]
-DUPEITEM=043e0
+[ItemDef 044b8]
+DupeItem=043e0
 
-[ITEMDEF 044b9]
-DUPEITEM=043e0
+[ItemDef 044b9]
+DupeItem=043e0
 
-[ITEMDEF 044ba]
-DUPEITEM=043e0
+[ItemDef 044ba]
+DupeItem=043e0
 
-[ITEMDEF 044bb]
-DUPEITEM=043e0
+[ItemDef 044bb]
+DupeItem=043e0
 
-[ITEMDEF 044bc]
-DUPEITEM=043e0
+[ItemDef 044bc]
+DupeItem=043e0
 
-[ITEMDEF 044bd]
-DUPEITEM=043e0
+[ItemDef 044bd]
+DupeItem=043e0
 
-[ITEMDEF 044be]
-DUPEITEM=043e0
+[ItemDef 044be]
+DupeItem=043e0
 
-[ITEMDEF 044bf]
-DUPEITEM=043e0
+[ItemDef 044bf]
+DupeItem=043e0
 
-[ITEMDEF 044c0]
-DUPEITEM=043e0
+[ItemDef 044c0]
+DupeItem=043e0
 
 
-[ITEMDEF 049a0]
-DEFNAME=iTapestrySacrifice
+[ItemDef 049a0]
+DefName=iTapestrySacrifice
 NAME=sacrifice tapestry
 FLIP=1
 WEIGHT=5.0
 RESOURCES=10 iCloth,2 iThread
 SKILLMAKE=Tailoring 51.0,tSewingKit
-CATEGORY=Decoration - Virtues
-SUBSECTION=Sacrifice
-DESCRIPTION=Sacrifice Tapestry
-DUPELIST=049b4
+Category=Decoration - Virtues
+Subsection=Sacrifice
+Description=Sacrifice Tapestry
+DupeList=049b4
 
-[ITEMDEF 049a1]
-DEFNAME=iTapestrySpirituality
+[ItemDef 049a1]
+DefName=iTapestrySpirituality
 NAME=spirituality tapestry
 FLIP=1
 WEIGHT=5.0
 RESOURCES=10 iCloth,2 iThread
 SKILLMAKE=Tailoring 51.0,tSewingKit
-CATEGORY=Decoration - Virtues
-SUBSECTION=Spirituality
-DESCRIPTION=Spirituality Tapestry
-DUPELIST=049b9
+Category=Decoration - Virtues
+Subsection=Spirituality
+Description=Spirituality Tapestry
+DupeList=049b9
 
-[ITEMDEF 049a2]
-DEFNAME=iTapestryHonesty
+[ItemDef 049a2]
+DefName=iTapestryHonesty
 NAME=honesty tapestry
 FLIP=1
 WEIGHT=5.0
 RESOURCES=10 iCloth,2 iThread
 SKILLMAKE=Tailoring 51.0,tSewingKit
-CATEGORY=Decoration - Virtues
-SUBSECTION=Honesty
-DESCRIPTION=Honesty Tapestry
-DUPELIST=049bf
+Category=Decoration - Virtues
+Subsection=Honesty
+Description=Honesty Tapestry
+DupeList=049bf
 
-[ITEMDEF 049a3]
-DEFNAME=iTapestryHumility
+[ItemDef 049a3]
+DefName=iTapestryHumility
 NAME=humility tapestry
 FLIP=1
 WEIGHT=5.0
 RESOURCES=10 iCloth,2 iThread
 SKILLMAKE=Tailoring 51.0,tSewingKit
-CATEGORY=Decoration - Virtues
-SUBSECTION=Humility
-DESCRIPTION=Humility Tapestry
-DUPELIST=049c0
+Category=Decoration - Virtues
+Subsection=Humility
+Description=Humility Tapestry
+DupeList=049c0
 
-[ITEMDEF 049a7]
-DEFNAME=iTapestryJustice
+[ItemDef 049a7]
+DefName=iTapestryJustice
 NAME=justice tapestry
 FLIP=1
 WEIGHT=5.0
 RESOURCES=10 iCloth,2 iThread
 SKILLMAKE=Tailoring 51.0,tSewingKit
-CATEGORY=Decoration - Virtues
-SUBSECTION=Justice
-DESCRIPTION=Justice Tapestry
-DUPELIST=049ba
+Category=Decoration - Virtues
+Subsection=Justice
+Description=Justice Tapestry
+DupeList=049ba
 
-[ITEMDEF 049a8]
-DEFNAME=iTapestryCompassion
+[ItemDef 049a8]
+DefName=iTapestryCompassion
 NAME=compassion tapestry
 FLIP=1
 WEIGHT=5.0
 RESOURCES=10 iCloth,2 iThread
 SKILLMAKE=Tailoring 51.0,tSewingKit
-CATEGORY=Decoration - Virtues
-SUBSECTION=Compassion
-DESCRIPTION=Compassion Tapestry
-DUPELIST=049b5
+Category=Decoration - Virtues
+Subsection=Compassion
+Description=Compassion Tapestry
+DupeList=049b5
 
-[ITEMDEF 049b2]
-DEFNAME=iTapestryHonor
+[ItemDef 049b2]
+DefName=iTapestryHonor
 NAME=honor tapestry
 FLIP=1
 WEIGHT=5.0
 RESOURCES=10 iCloth,2 iThread
 SKILLMAKE=Tailoring 51.0,tSewingKit
-CATEGORY=Decoration - Virtues
-SUBSECTION=Honor
-DESCRIPTION=Honor Tapestry
-DUPELIST=049be
+Category=Decoration - Virtues
+Subsection=Honor
+Description=Honor Tapestry
+DupeList=049be
 
-[ITEMDEF 049b3]
-DEFNAME=iTapestryValor
+[ItemDef 049b3]
+DefName=iTapestryValor
 NAME=valor tapestry
 FLIP=1
 WEIGHT=5.0
 RESOURCES=10 iCloth,2 iThread
 SKILLMAKE=Tailoring 51.0,tSewingKit
-CATEGORY=Decoration - Virtues
-SUBSECTION=Valor
-DESCRIPTION=Valor Tapestry
-DUPELIST=049bb
+Category=Decoration - Virtues
+Subsection=Valor
+Description=Valor Tapestry
+DupeList=049bb
 
-[ITEMDEF 049b4]
+[ItemDef 049b4]
 //sacrifice tapestry
-DUPEITEM=049a0
+DupeItem=049a0
 
-[ITEMDEF 049b5]
+[ItemDef 049b5]
 //compassion tapestry
-DUPEITEM=049a8
+DupeItem=049a8
 
-[ITEMDEF 049b9]
+[ItemDef 049b9]
 //spirituality tapestry
-DUPEITEM=049a1
+DupeItem=049a1
 
-[ITEMDEF 049ba]
+[ItemDef 049ba]
 //justice tapestry
-DUPEITEM=049a7
+DupeItem=049a7
 
-[ITEMDEF 049bb]
+[ItemDef 049bb]
 //valor tapestry
-DUPEITEM=049b3
+DupeItem=049b3
 
-[ITEMDEF 049be]
+[ItemDef 049be]
 //honor tapestry
-DUPEITEM=049b2
+DupeItem=049b2
 
-[ITEMDEF 049bf]
+[ItemDef 049bf]
 //honesty tapestry
-DUPEITEM=049a2
+DupeItem=049a2
 
-[ITEMDEF 049c0]
+[ItemDef 049c0]
 //humility tapestry
-DUPEITEM=049a3
+DupeItem=049a3
 
 
 [EOF]

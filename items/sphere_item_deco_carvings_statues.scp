@@ -942,18 +942,6 @@ DUPEITEM=0365a
 DUPEITEM=0365a
 
 
-[ITEMDEF 03b0f]
-DEFNAME=iIslandTotem
-NAME=Moai
-TYPE=tAquariumItem
-VALUE=250
-WEIGHT=500.0
-RESOURCES=50 iRockPlain
-CATEGORY=Decoration - Wall Carvings & Statues
-SUBSECTION=Statues
-DESCRIPTION=Moai
-
-
 [ITEMDEF 03bb3]
 DEFNAME=iStatueOu
 NAME=Ultima Statue

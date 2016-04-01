@@ -1,3 +1,40 @@
+// WandID
+// Spell
+// Spell Str
+// Spell Charges
+[Function GenerateWand]
+If <IsEmpty <ArgS>>
+ Serv.NewItem={iWand1 1 iWand2 1 iWand3 1 iWand4 1}
+ New.MoreX={1 64}	// Standard Magery spells
+ New.MoreY=1000
+ New.More2=10
+ New.Bounce
+ Return
+EndIf
+If <IsEmpty <ArgV0>>
+ Serv.NewItem={iWand1 1 iWand2 1 iWand3 1 iWand4 1}
+Else
+ Serv.NewItem=<ArgV0>
+EndIf
+If <IsEmpty <ArgV1>>
+ New.MoreX={1 64}
+Else
+ New.MoreX=<ArgV1>
+EndIf
+If <IsEmpty <ArgV2>>
+ New.MoreY=1000
+Else
+ New.MoreY=<ArgV2?
+EndIf
+If <IsEmpty <ArgV3>>
+ New.More2=10
+Else
+ New.More2=<ArgV3>
+EndIf
+New.Bounce
+Return
+
+
 // Because these two function bother Xun because he knows I know better than to write a redundancy... but I really hate the @ Symbol in my code. Frustrating him is also perf af.
 // These parse clilocs in says and messages. You could have just done it with say @,,2 <Cliloc>, but I am difficult. :D
 [Function MessageLoc]

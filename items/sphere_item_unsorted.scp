@@ -4260,56 +4260,6 @@ Subsection=Weirdness
 Description=Strange Yellow Dot
 
 
-[ItemDef 03af9]
-DefName=iCoral
-Name=coral
-Type=tAquariumItem
-Value=10
-Weight=1.0
-Category=Provisions - Miscellaneous
-Subsection=Aquarium
-Description=Coral
-
-[ItemDef 03afa]
-DefName=iCoral2
-Name=coral
-Type=tAquariumItem
-Value=10
-Weight=1.0
-Category=Provisions - Miscellaneous
-Subsection=Aquarium
-Description=Coral (2)
-
-[ItemDef 03afb]
-DefName=iCoral3
-Name=coral
-Type=tAquariumItem
-Value=10
-Weight=1.0
-Category=Provisions - Miscellaneous
-Subsection=Aquarium
-Description=Coral (3)
-
-[ItemDef 03b12]
-DefName=iShell2
-Name=shell
-Type=tAquariumItem
-Value=10
-Weight=1.0
-Category=Provisions - Miscellaneous
-Subsection=Aquarium
-Description=Shell (2)
-
-[ItemDef 03b13]
-DefName=iShell3
-Name=shell
-Type=tAquariumItem
-Value=10
-Weight=1.0
-Category=Provisions - Miscellaneous
-Subsection=Aquarium
-Description=Shell (3)
-
 
 [ItemDef 03d86]
 DefName=iDecorativeArmor
@@ -5924,13 +5874,14 @@ Description=Sea Sponge (5)
 
 [ItemDef 0571c]
 // This is the base ID of a number of imbuing ingredients.
-DefName=iEssenceVirtue
+DefName=iEssenceOfVirtue
 Name=essence of virtue
-Type=tNormal
-Value=100
-Weight=5.0
+Type=tIngredient
+Can=CanIStack
+Weight=1
+
 Category=Resources
-Subsection=Essence
+Subsection=Imbuing
 Description=Essence of Virtue
 
 [ItemDef 0571d]
@@ -5942,135 +5893,165 @@ Description=Essence of Virtue
 [ItemDef 0571f]
 //Essence of Virtue (animation frame)
 
-[ItemDef iEssenceAchievement]
+
+[ItemDef iEssenceOfAchievement]
 // Is the imbuing ingredient used to imbue the Faster Casting property onto jewelry.
-ID=iEssenceVirtue
+ID=iEssenceOfVirtue
 Name=essence of achievement
-Type=tNormal
-Value=100
-Weight=5.0
+Type=tIngredient
+Can=CanIStack
+Weight=1
+
 Category=Resources
-Subsection=Essence
+Subsection=Imbuing
 Description=Essence of Achievement
+
 ON=@Create
 COLOR=50
 
-[ItemDef iEssenceControl]
+
+[ItemDef iEssenceOfControl]
 // Is the imbuing ingredient used to to imbue the Swing Speed Increase
 // property onto weapons, shields and jewelry.
-ID=iEssenceVirtue
+ID=iEssenceOfVirtue
 Name=essence of control
-Type=tNormal
-Value=100
-Weight=5.0
+Type=tIngredient
+Can=CanIStack
+Weight=1
+
 Category=Resources
-Subsection=Essence
+Subsection=Imbuing
 Description=Essence of Control
+
 ON=@Create
 COLOR=106
 
-[ItemDef iEssenceDiligence]
+
+[ItemDef iEssenceOfDiligence]
 // Is the imbuing ingredient used to imbue the Faster Cast Recovery property onto jewelry.
-ID=iEssenceVirtue
+ID=iEssenceOfVirtue
 Name=essence of diligence
-Type=tNormal
-Value=100
-Weight=5.0
+Type=tIngredient
+Can=CanIStack
+Weight=1
+
 Category=Resources
-Subsection=Essence
+Subsection=Imbuing
 Description=Essence of Diligence
+
 ON=@Create
 COLOR=1166
 
-[ItemDef iEssenceDirection]
+
+[ItemDef iEssenceOfDirection]
 // Is the imbuing ingredient used to imbue the Velocity property onto Archery weapons.
-ID=iEssenceVirtue
+ID=iEssenceOfVirtue
 Name=essence of direction
-Type=tNormal
-Value=100
-Weight=5.0
+Type=tIngredient
+Can=CanIStack
+Weight=1
+
 Category=Resources
-Subsection=Essence
+Subsection=Imbuing
 Description=Essence of Direction
+
 ON=@Create
 COLOR=1099
 
-[ItemDef iEssenceFeeling]
+
+[ItemDef iEssenceOfFeeling]
 // Is the imbuing ingredient used to imbue the Hit Magic Arrow property onto weapons.
-ID=iEssenceVirtue
+ID=iEssenceOfVirtue
 Name=essence of feeling
-Type=tNormal
-Value=100
-Weight=5.0
+Type=tIngredient
+Can=CanIStack
+Weight=1
+
 Category=Resources
-Subsection=Essence
+Subsection=Imbuing
 Description=Essence of Feeling
+
 ON=@Create
 COLOR=1196
 
-[ItemDef iEssenceOrder]
+
+[ItemDef iEssenceOfOrder]
 // Is the imbuing ingredient used to imbue the Lower Mana Cost property.
-ID=iEssenceVirtue
+ID=iEssenceOfVirtue
 Name=essence of order
-Type=tNormal
-Value=100
-Weight=5.0
+Type=tIngredient
+Can=CanIStack
+Weight=1
+
 Category=Resources
-Subsection=Essence
+Subsection=Imbuing
 Description=Essence of Order
+
 ON=@Create
 COLOR=1150
 
-[ItemDef iEssencePassion]
+
+[ItemDef iEssenceOfPassion]
 // Is the imbuing ingredient used to imbue the Hit Lightning property onto weapons.
-ID=iEssenceVirtue
+ID=iEssenceOfVirtue
 Name=essence of passion
-Type=tNormal
-Value=100
-Weight=5.0
+Type=tIngredient
+Can=CanIStack
+Weight=1
+
 Category=Resources
-Subsection=Essence
+Subsection=Imbuing
 Description=Essence of Passion
+
 ON=@Create
 COLOR=1161
 
-[ItemDef iEssencePersistence]
+
+[ItemDef iEssenceOfPersistence]
 // Is the imbuing ingredient used to imbue ????.
-ID=iEssenceVirtue
+ID=iEssenceOfVirtue
 Name=essence of persistence
-Type=tNormal
-Value=100
-Weight=5.0
+Type=tIngredient
+Can=CanIStack
+Weight=1
+
 Category=Resources
-Subsection=Essence
+Subsection=Imbuing
 Description=Essence of Persistence
+
 ON=@Create
 COLOR=1209
 
-[ItemDef iEssencePrecision]
+
+[ItemDef iEssenceOfPrecision]
 // Is the imbuing ingredient used to imbue the Hit Chance Increase modifier.
-ID=iEssenceVirtue
+ID=iEssenceOfVirtue
 Name=essence of precision
-Type=tNormal
-Value=100
-Weight=5.0
+Type=tIngredient
+Can=CanIStack
+Weight=1
+
 Category=Resources
-Subsection=Essence
+Subsection=Imbuing
 Description=Essence of Precision
+
 ON=@Create
 COLOR=1158
 
-[ItemDef iEssenceSingularity]
+
+[ItemDef iEssenceOfSingularity]
 // Is the imbuing ingredient used to to imbue the Defense Chance Increase
 // property onto weapons, shields and jewelry.
-ID=iEssenceVirtue
+ID=iEssenceOfVirtue
 Name=essence of singularity
-Type=tNormal
-Value=100
-Weight=5.0
+Type=tIngredient
+Can=CanIStack
+Weight=1
+
 Category=Resources
-Subsection=Essence
+Subsection=Imbuing
 Description=Essence of Singularity
+
 ON=@Create
 COLOR=1175
 
@@ -6079,35 +6060,38 @@ COLOR=1175
 // Is an imbuing ingredient used to imbue Arachnid Slayer property onto items.
 DefName=iSpiderCarapace
 Name=spider carapace
-Type=tNormal
-Value=100
-Weight=5.0
+Type=tIngredient
+Can=CanIStack
+Weight=1
+
 Category=Resources
-Subsection=Animal
+Subsection=Imbuing
 Description=Spider Carapace
+
 
 [ItemDef 05721]
 //Is an imbuing ingredient used to imbue the Demon Slayer property onto items.
 DefName=iDaemonClaw
 Name=daemon claw
-Type=tNormal
-Value=100
-Weight=1.0
+Type=tIngredient
+Can=CanIStack
+Weight=1
+
 Category=Resources
-Subsection=Animal
+Subsection=Imbuing
 Description=Daemon Claw
+
 
 [ItemDef 05722]
 //Is an imbuing ingredient used to imbue the Elemental Slayer property onto items.
 DefName=iVialOfVitriol
 Name=vial of vitriol
-Type=tNormal
-Value=100
-Weight=1.0
-Resources=1 iPlantParasitic,30 iReagNightshade,1 iVialEmpty
-SkillMake=alchemy 90.0,magery 75.0
+Type=tIngredient
+Can=CanIStack
+Weight=1
+
 Category=Resources
-Subsection=Fabricated
+Subsection=Imbuing
 Description=Vial of Vitriol
 
 [ItemDef 05723]
@@ -6118,6 +6102,7 @@ Description=Vial of Vitriol
 
 [ItemDef 05725]
 //Vial of Vitriol (animation frame)
+
 
 [ItemDef 05726]
 DefName=iFeyWings
@@ -6141,36 +6126,47 @@ Category=Quest
 Subsection=Stygian
 Description=Vile Tentacles
 
+
 [ItemDef 05728]
-//void core
+DefName=iVoidCore
+Name=void core
+Type=tIngredient
+Can=CanIStack
+Weight=1
+
+Category=Resources
+Subsection=Imbuing
+
 [ItemDef 05729]
 [ItemDef 0572a]
 [ItemDef 0572b]
+
 
 [ItemDef 0572c]
 // Is an imbuing ingredient used to imbue the Repond Slayer property onto
 // weapons.
 DefName=iGoblinBlood
 Name=goblin blood
-Type=tNormal
-Value=100
-Weight=5.0
+Type=tIngredient
+Can=CanIStack
+Weight=1
+
 Category=Resources
-Subsection=Animal
+Subsection=Imbuing
 Description=Goblin Blood
+
 
 [ItemDef 0572d]
 // Is an Imbuing ingredient used to imbue the Reptile Slayer property onto weapons.
 DefName=iLavaSerpentCrust
 Name=lava serpent crust
-Type=tNormal
-FLIP=0
-Value=100
-Weight=1.0
+Type=tIngredient
+Can=CanIStack
+Weight=1
+
 Category=Resources
-Subsection=Animal
+Subsection=Imbuing
 Description=Lava Serpent Crust
-DupeList=0572e,0572f,05730
 
 [ItemDef 0572e]
 //Lava Serpent Crust (animation frame)
@@ -6181,26 +6177,30 @@ DupeList=0572e,0572f,05730
 [ItemDef 05730]
 //Lava Serpent Crust (animation frame)
 
+
 [ItemDef 05731]
 // Is an imbuing ingredient used to imbue the Undead Slayer property onto items.
 DefName=iUndyingFlesh
 Name=undying flesh
-Type=tNormal
-Value=100
-Weight=1.0
+Type=tIngredient
+Can=CanIStack
+Weight=1
+
 Category=Resources
-Subsection=Animal
+Subsection=Imbuing
 Description=Undying Flesh
+
 
 [ItemDef 05732]
 // Is an imbuing ingredient used to imbue high intensities of Skill Bonus properties onto items.
 DefName=iCrystallineBlackrock
 Name=crystalline blackrock
-Type=tNormal
-Value=100
-Weight=1.0
+Type=tIngredient
+Can=CanIStack
+Weight=1
+
 Category=Resources
-Subsection=Mineral
+Subsection=Imbuing
 Description=Crystalline Blackrock
 
 [ItemDef 05733]
@@ -6212,105 +6212,111 @@ Description=Crystalline Blackrock
 [ItemDef 05735]
 //Crystalline Blackrock (animation frame)
 
+
 [ItemDef 05736]
 // Is an imbuing ingredient used to imbue the Hit Point Regeneration, Stamina Regeneration and Mana Regeneration properties onto items.
 DefName=iSeedOfRenewal
 Name=seed of renewal
-Type=tNormal
-Value=100
-Weight=1.0
+Type=tIngredient
+Can=CanIStack
+Weight=1
+
 Category=Resources
-Subsection=Plant
+Subsection=Imbuing
 Description=Seed of Renewal
+
 
 [ItemDef 05737]
 //Is an imbuing ingredient used to imbue the Lower Requirements property onto items.
 DefName=iElvenFletching
 Name=elven fletching
-Type=tFletching
-Value=100
-Weight=1.0
-Resources=1 iFairyDust,20 iFeather
-SkillMake=bowcraft 90.0
+Type=tIngredient
+Can=CanIStack
+Weight=1
+
 Category=Resources
-Subsection=Fabricated
+Subsection=Imbuing
 Description=Elven Fletching
+
 
 [ItemDef 05738]
 //Is an imbuing ingredient used to imbue high intensities of the Damage Increase and Spell Damage Increase properties onto items.
 DefName=iCrystalShards
 Name=crystal shards
-Type=tNormal
-Value=100
-Weight=1.0
+Type=tIngredient
+Can=CanIStack
+Weight=1
+
 Category=Resources
-Subsection=Mineral
+Subsection=Imbuing
 Description=Crystal Shards
+
 
 [ItemDef 05739]
 //lodestone
 
+
 [ItemDef 0573a]
 //Is an imbuing ingredient used to imbue the Use Best Weapon skill property onto items.
 DefName=iDelicateScales
-Name=delicate scales
-Type=tNormal
-Value=100
-Weight=1.0
+Type=tIngredient
+Can=CanIStack
+Weight=1
+
 Category=Resources
-Subsection=Animal
+Subsection=Imbuing
 Description=Delicate Scales
+
 
 [ItemDef 0573b]
 //Is an imbuing ingredient used to imbue the Enhance Potions property onto items.
 DefName=iCrushedGlass
 Name=crushed glass
-Type=tNormal
-Value=100
-Weight=1.0
-Resources=5 iSwordGlass,1 iDiamondBlue
-SkillMake=blacksmithing 110.0
+Type=tIngredient
+Can=CanIStack
+Weight=1
+
 Category=Resources
-Subsection=Fabricated
+Subsection=Imbuing
 Description=Crushed Glass
+
 
 [ItemDef 0573c]
 //Is an Imbuing ingredient needed to imbue the Mage Weapon property onto weapons.
 DefName=iArcanicRunestone
 Name=arcanic runestone
-Type=tNormal
-Value=250
-Weight=1.0
-Resources=5 iPowerCrystal,1 iCrystalShards
-SkillMake=tinkering 90.0,magery 80.0,tTinkerTools
+Type=tIngredient
+Can=CanIStack
+Weight=1
+
 Category=Resources
-Subsection=Fabricated
+Subsection=Imbuing
 Description=Arcanic Runestone
+
 
 [ItemDef 0573d]
 //Is an imbuing ingredient used to imbue the durability property onto items.
 DefName=iPowderedIron
 Name=powdered iron
-Type=tNormal
-Value=100
-Weight=1.0
-Resources=20 iIngotIron,1 iPearlWhite
-SkillMake=blacksmithing 110.0
+Type=tIngredient
+Can=CanIStack
+Weight=1
+
 Category=Resources
-Subsection=Fabricated
+Subsection=Imbuing
 Description=Powdered Iron
+
 
 [ItemDef 0573e]
 //Is an imbuing ingredient used to imbue Hit Life Leech, Hit Stamina Leech and Hit Mana Leech properties onto items.
 DefName=iVoidOrb
 Name=void orb
-Type=tNormal
-Value=100
-Weight=1.0
-Resources=1 iDarkSapphire,50 iReagBlackPearl
-SkillMake=tinkering 90.0,magery 80.0
+Type=tIngredient
+Can=CanIStack
+Weight=1
+
 Category=Resources
-Subsection=Fabricated
+Subsection=Imbuing
 Description=Void Orb
 
 [ItemDef 0573f]
@@ -6321,6 +6327,7 @@ Description=Void Orb
 
 [ItemDef 05741]
 //Void Orb (animation frame)
+
 
 [ItemDef 05742]
 // Is an imbuing ingredient used to imbue high intensities of Physical Fire, Cold, Poison, and Energy Resist onto items.
@@ -6345,85 +6352,96 @@ Description=Boura Skin
 ON=@Create
 COLOR=758
 
+
 [ItemDef 05743]
 // Is an imbuing ingredient used to imbue high intensities of Luck onto items.
 DefName=iChagaMushroom
 Name=chaga mushroom
-Type=tNormal
-Value=100
-Weight=0.1
+Type=tIngredient
+Can=CanIStack
+Weight=1
+
 Category=Resources
-Subsection=Plant
+Subsection=Imbuing
 Description=Chaga Mushroom
+
 
 [ItemDef 05744]
 // Is an imbuing ingredient used to imbue the Spell Channeling property onto items.
 DefName=iSilverSnakeSkin
 Name=silver snake skin
-Type=tNormal
-Value=100
-Weight=0.1
+Type=tIngredient
+Can=CanIStack
+Weight=1
+
 Category=Resources
-Subsection=Animal
+Subsection=Imbuing
 Description=Silver Snake Skin
+
 
 [ItemDef 05745]
 // Is an imbuing ingredient used to imbue high intensities of Lower Reagent Cost onto items.
 DefName=iFairyDust
 Name=fairy dust
-Type=tNormal
-Value=100
-Weight=0.1
+Type=tIngredient
+Can=CanIStack
+Weight=1
+
 Category=Resources
-Subsection=Animal
+Subsection=Imbuing
 Description=Fairy Dust
+
 
 [ItemDef 05746]
 // Is an imbuing ingredient used to imbue Hit Dispel property onto items.
 DefName=iSlithTongue
 Name=slith tongue
-Type=tMeatRaw
-Value=100
-Weight=0.1
+Type=tIngredient
+Can=CanIStack
+Weight=1
+
 Category=Resources
-Subsection=Animal
+Subsection=Imbuing
 Description=Slith Tongue
+
 
 [ItemDef 05747]
 // Is an Imbuing ingredient used to imbue one of the Hit Physical Area,
 // Hit Fire Area, Hit Cold Area, Hit Poison Area and Hit Energy Area
 // properties onto items.
-DefName=iRaptorTeeth
-Name=raptor teeth
-Type=tNormal
-Value=100
-Weight=0.1
+DefName=iRaptorTooth
+Name=raptor tooth
+Type=tIngredient
+Can=CanIStack
+Weight=1
+
 Category=Resources
-Subsection=Animal
-Description=Raptor Teeth
+Subsection=Imbuing
+Description=Raptor Tooth
+
 
 [ItemDef 05748]
-// Is an Imbuing ingredient used to imbue the Night Sight property onto armor.
-DefName=iBottleIchor
+DefName=iBottleOfIchor
 Name=bottle of ichor
-Type=tNormal
-Value=100
-Weight=0.1
-Resources=1 iPoisonDarkglow,30 iReagSpiderSilk
-SkillMake=alchemy 90.0,magery 75.0
+Type=tIngredient
+Can=CanIStack
+Weight=1
+
 Category=Resources
-Subsection=Fabricated
+Subsection=Imbuing
 Description=Bottle of Ichor
+
 
 [ItemDef 05749]
 // Is an Imbuing ingredient used to imbue Reflect Physical Damage property onto items.
 DefName=iReflectiveWolfEye
 Name=reflective wolf eye
-Type=tNormal
-Value=100
-Weight=0.1
+Type=tIngredient
+Can=CanIStack
+Weight=1
+
 Category=Resources
-Subsection=Animal
+Subsection=Imbuing
 Description=Reflective Wolf Eye
 
 
