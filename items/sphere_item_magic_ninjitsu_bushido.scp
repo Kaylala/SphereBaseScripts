@@ -19,23 +19,6 @@ This file contains all things relating to Ninjitsu and Bushido, such as:
 * Spellbooks
 * Spell runes
 
-
-[ITEMDEF 0238c]
-DEFNAME=iSpellbookBushido
-TYPE=tSpellbookBushido
-LAYER=layer_hand1
-VALUE=488
-WEIGHT=1.0
-RESOURCES=80 iParchment,1 iHidesCut,1 iCloth
-SKILLMAKE=Inscription 45.0,iPenAndInk
-CATEGORY=Provisions - Alchemy & Magic
-SUBSECTION=Books
-DESCRIPTION=Bushido Spellbook
-ON=@Create
-ATTR=attr_magic|attr_newbie
-MOREZ=400
-MORE1=03f
-
 [ITEMDEF 0238d]
 DEFNAME=iRuneHonorableExecution
 NAME=honorable execution
@@ -84,22 +67,6 @@ CATEGORY=Spell Icons
 SUBSECTION=Bushido
 DESCRIPTION=Momentum Strike
 
-
-[ITEMDEF 023a0]
-DEFNAME=iSpellbookNinjitsu
-TYPE=tSpellbookNinjitsu
-LAYER=layer_hand1
-VALUE=488
-WEIGHT=1.0
-RESOURCES=80 iParchment,1 iHidesCut,1 iCloth
-SKILLMAKE=Inscription 45.0,iPenAndInk
-CATEGORY=Provisions - Alchemy & Magic
-SUBSECTION=Books
-DESCRIPTION=Ninjitsu Spellbook
-ON=@Create
-ATTR=attr_magic|attr_newbie
-MOREZ=500
-MORE1=0ff
 
 [ITEMDEF 023a1]
 DEFNAME=iRuneFocusAttack

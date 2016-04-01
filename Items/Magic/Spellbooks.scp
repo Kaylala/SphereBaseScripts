@@ -1,0 +1,137 @@
+[ItemDef 02252]
+DefName=iChivalrySpellbook
+Type=tChivalrySpellbook
+Layer=LayerHand1
+Weight=1
+
+Category=Magic
+Subsection=Spellbooks
+Description=Chivalry Spellbook
+
+On=@Create
+Attr=AttrMagic|AttrNewbie
+MoreZ=200
+More1=03ff
+
+
+// This isn't an anomoly, I think this is the spellbook for all non-pChar ID'ed mobiles.
+[ItemDef 0e3b]
+DefName=iMonsterSpellbook
+Type=tSpellbook
+Layer=LayerHand1
+Weight=1
+Dam=1,4
+Speed=30
+Tag.Override.Speed=25
+Skill=Wrestling
+TwoHands=0
+
+Category=Magic
+Subsection=Spellbooks
+Description=Monster Spellbook
+
+On=@Create
+// Comment this line out if you don't want them casting circles 1 - 7
+AddCircle=7,1
+
+
+[ItemDef 0EFA]
+DefName=iSpellbook
+Type=tSpellbook
+Layer=LayerHand1
+Weight=1
+Dam=1,4
+Speed=30
+Tag.Override.Speed=25
+Skill=Wrestling
+TwoHands=0
+
+Category=Magic
+Subsection=Spellbooks
+Description=Magery Spellbook
+
+On=@Create
+Attr=AttrMagic|AttrNewbie
+
+
+[ItemDef 02d9d]
+DefName=iMysticismSpellbook
+Type=tMysticismSpellbook
+Name=Mysticism Spellbook
+
+Category=Magic
+Subsection=Mysticism
+Description=Mystic Spellbook
+
+On=@Create
+Attr=AttrMagic|AttrNewbie
+MoreZ=677
+
+
+[ItemDef 02253]
+DefName=iNecromancySpellbook
+Type=tNecromancySpellbook
+Layer=LayerHand1
+Weight=1
+
+Category=Magic
+Subsection=Spellbooks
+Description=Necromancy Spellbook
+
+On=@Create
+Attr=AttrMagic|AttrNewbie
+MoreZ=100
+// More1=0ffff
+
+
+[ItemDef 0238c]
+DefName=iBushidoSpellbook
+Type=tBushidoSpellbook
+Layer=LayerHand1
+Weight=1
+
+Category=Magic
+Subsection=Spellbooks
+Description=Bushido Spellbook
+
+On=@Create
+Attr=AttrMagic|AttrNewbie
+MoreZ=400
+More1=03f
+
+
+[ItemDef 023A0]
+DefName=iNinjitsuSpellbook
+Type=tSpellbookNinjitsu
+Layer=LayerHand1
+Weight=1
+
+Category=Magic
+Subsection=Spellbooks
+Description=Ninjitsu Spellbook
+
+On=@Create
+Attr=AttrMagic|AttrNewbie
+MoreZ=500
+More1=0ff
+
+
+[ItemDef 02d50]
+DefName=iSpellweavingSpellbook
+Name=spellweaving book
+Type=tSpellweavingSpellbook
+Layer=LayerHand1
+Weight=1
+
+Category=Magic
+Subsection=Spellbooks
+Description=Spellweaving Book
+
+On=@Create
+Color=08a2
+Attr=AttrMagic|AttrNewbie
+MoreZ=600
+//More1=0ffff
+
+
+[EOF]
