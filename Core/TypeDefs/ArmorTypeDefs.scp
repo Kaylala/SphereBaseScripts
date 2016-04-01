@@ -27,68 +27,42 @@ EndIf
 
 
 [TypeDef tStuddedArmor]
-On=@Create
-Can |= CanIRegenHits|CanIRegenStam
 
 
 [TypeDef tClothArmor]
-On=@Create
-Can |= CanIRegenMana|CanIRegenHits|CanIRegenStam
 
 
 [TypeDef tBoneArmor]
-On=@Create
-Can |= CanIRegenHits|CanIRegenStam
 
 
 [TypeDef tPlatemailArmor]
-On=@Create
-Can |= CanIRegenHits|CanIRegenStam
 
 
 [TypeDef tRingmailArmor]
-On=@Create
-Can |= CanIRegenHits|CanIRegenStam
 
 
 [TypeDef tChainmailArmor]
-On=@Create
-Can |= CanIRegenHits|CanIRegenStam
 
 
 [TypeDef tLeafArmor]
-On=@Create
-Can |= CanIRegenMana|CanIRegenHits|CanIRegenStam
 
 
 [TypeDef tHideArmor]
-On=@Create
-Can |= CanIRegenHits|CanIRegenStam
 
 
 [TypeDef tWoodlandArmor]
-On=@Create
-Can |= CanIRegenHits|CanIRegenStam
 
 
 [TypeDef tDragonArmor]
-On=@Create
-Can |= CanIRegenHits|CanIRegenStam
 
 
 [TypeDef tStoneArmor]
-On=@Create
-Can |= CanIRegenHits|CanIRegenStam
 
 
 [TypeDef tFurArmor]
-On=@Create
-Can |= CanIRegenMana|CanIRegenHits|CanIRegenStam
 
 
 [TypeDef tScuteArmor]
-On=@Create
-Can |= CanIRegenMana|CanIRegenHits|CanIRegenStam
 
 
 [TypeDef tVirtueArmor]
@@ -117,7 +91,7 @@ If (<IsGM>) || (<MemoryFindType.Memory_Guild.Link.Align>==<ArgN>)
  Return 0
 EndIf
 Sound=snd_SPELL_LIGHTNING
-SMsgL ColorText,1062092//"Your body reacts violently from the pain."
+SMsgL -1,1062092//"Your body reacts violently from the pain."
 Damage=<Src.Hits>/2 <Def.DamPhysical>
 Return 1
 

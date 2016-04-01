@@ -220,7 +220,7 @@ tSpellweavingSpellbook		189 // Spellweaving spellbook (MOREZ=600 by default)
 tCustomMulti				190 // Customisable multi
 tMysticismSpellbook			191 // Mysticism spellbook (MOREZ=677 by default)
 tHoverOver					192 // Hover-over item (CanIHover can hover over blocking items)
-tBardSpellbook				193 // Bard spellbook (MOREZ=700 by default)
+tMasteriesSpellbook			193 // Masteries spellbook (MOREZ=700 by default) (Was only bard prior)
 tThrowingWeapon				194 // Throwing Weapon
 tCartographyTool			195 // cartography tool  (Item: iMapmakersPen)
 tCookingTool				196 // cooking tool
@@ -229,9 +229,9 @@ tRope						198 // almost as ship plank, not lockable by default.
 tHealingStone				199
 
 // Add the Following
-tBookOfArmsSpellbook		200 // The special move book.
-tSkillMasterySpellbook		201 // New Skill Mastery book.
-tReserved					202 // Reserved for any new Spellbook coming
+tSpecialMovesSpellbook		200 // The special move book.
+tReservedSpellbook1			201 // Reserved
+tReservedSpellbook2			202 // Reserved for any new Spellbook coming
 // New resources
 tGranite					210 // Granite Resource for masonry
 tWood						211 // Catch all (tBoard, tLog)

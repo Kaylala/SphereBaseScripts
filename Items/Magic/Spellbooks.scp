@@ -3,11 +3,15 @@ Run mythic editor later. The MoreZ index is in there for it.
 Developers didn't listen to me 3 - 5 years ago when I explained it was all spells and it was in there.
 Now they see I was right *eye roll*.
 
+This is normally stored in its own Layer I believe. It is never on the char minus in PDoll.
+
 
 [ItemDef 02254]
-DefName=iBookOfArmsSpellbook
-Type=tBookOfArmsSpellbook
-LAYER=LayerHand1
+DefName=iBookOfArms
+Name=book of arms
+NameLoc=1028788
+Type=tSpecialMovesSpellbook
+Layer=LayerHand1
 Weight=0
 
 Category=Magic
@@ -20,7 +24,9 @@ Attr=AttrMagic|AttrNewbie|AttrBlessed
 
 
 [ItemDef 02252]
-DefName=iChivalrySpellbook
+DefName=iBookOfChivalry
+Name=book of chivalry
+NameLoc=1028786
 Type=tChivalrySpellbook
 Layer=LayerHand1
 Weight=1
@@ -38,12 +44,14 @@ More1=03ff
 // This isn't an anomoly, I think this is the spellbook for all non-pChar ID'ed mobiles.
 [ItemDef 0e3b]
 DefName=iMonsterSpellbook
+Name=spellbook
+NameLoc=1023643
 Type=tSpellbook
 Layer=LayerHand1
-Weight=1
-Dam=1,4
+Weight=0
+//Dam=1,4
 Speed=30
-Tag.Override.Speed=25
+Tag.Override.Speed=20
 Skill=Wrestling
 TwoHands=0
 
@@ -58,12 +66,14 @@ AddCircle=7,1
 
 [ItemDef 0EFA]
 DefName=iSpellbook
+Name=Spellbook
+NameLoc=1023834
 Type=tSpellbook
 Layer=LayerHand1
 Weight=1
 Dam=1,4
 Speed=30
-Tag.Override.Speed=25
+Tag.Override.Speed=20
 Skill=Wrestling
 TwoHands=0
 
@@ -72,41 +82,57 @@ Subsection=Spellbooks
 Description=Magery Spellbook
 
 On=@Create
-Attr=AttrMagic|AttrNewbie
+Attr=AttrMagic|AttrNewbie|AttrBlessed
 
 
 [ItemDef 02d9d]
 DefName=iMysticismSpellbook
 Type=tMysticismSpellbook
 Name=Mysticism Spellbook
+NameLoc=1031677
+Weight=1
+Dam=1,4
+Speed=30
+Tag.Override.Speed=20
+Skill=Wrestling
+TwoHands=0
 
 Category=Magic
 Subsection=Mysticism
 Description=Mystic Spellbook
 
 On=@Create
-Attr=AttrMagic|AttrNewbie
+Attr=AttrMagic|AttrNewbie|AttrBlessed
 MoreZ=677
 
 
 [ItemDef 02253]
 DefName=iNecromancySpellbook
+Name=necromancy spellbook
+NameLoc=1028787
 Type=tNecromancySpellbook
 Layer=LayerHand1
 Weight=1
+Dam=1,4
+Speed=30
+Tag.Override.Speed=20
+Skill=Wrestling
+TwoHands=0
 
 Category=Magic
 Subsection=Spellbooks
 Description=Necromancy Spellbook
 
 On=@Create
-Attr=AttrMagic|AttrNewbie
+Attr=AttrMagic|AttrNewbie|AttrBlessed
 MoreZ=100
 // More1=0ffff
 
 
 [ItemDef 0238c]
-DefName=iBushidoSpellbook
+DefName=iBookOfBushido
+Name=book of bushido
+NameLoc=1029100
 Type=tBushidoSpellbook
 Layer=LayerHand1
 Weight=1
@@ -122,14 +148,16 @@ More1=03f
 
 
 [ItemDef 023A0]
-DefName=iNinjitsuSpellbook
-Type=tSpellbookNinjitsu
+DefName=iBookOfNinjitsu
+Name=book of ninjitsu
+NameLoc=1029120
+Type=tNinjitsuSpellbook
 Layer=LayerHand1
 Weight=1
 
 Category=Magic
 Subsection=Spellbooks
-Description=Ninjitsu Spellbook
+Description=Book of Ninjitsu
 
 On=@Create
 Attr=AttrMagic|AttrNewbie
@@ -140,19 +168,52 @@ More1=0ff
 [ItemDef 02d50]
 DefName=iSpellweavingSpellbook
 Name=spellweaving book
+NameLoc=1031600
 Type=tSpellweavingSpellbook
 Layer=LayerHand1
 Weight=1
+Dam=1,4
+Speed=30
+Tag.Override.Speed=20
+Skill=Wrestling
+TwoHands=0
 
 Category=Magic
 Subsection=Spellbooks
-Description=Spellweaving Book
+Description=Spellweaving Spellbook
 
 On=@Create
 Color=08a2
-Attr=AttrMagic|AttrNewbie
+Attr=AttrMagic|AttrNewbie|AttrBlessed
 MoreZ=600
 //More1=0ffff
+
+
+[ItemDef 0225A]
+DefName=iBookOfMasteries
+Name=book of masteries
+NameLoc=1028794
+Type=tMasteriesSpellbook
+Layer=LayerHand1
+Weight=1
+Dam=1,4
+Speed=30
+Tag.Override.Speed=20
+Skill=Wrestling
+TwoHands=0
+DupeList=0225B
+
+Category=Magic
+Subsection=Spellbooks
+Description=Book of Bard Masteries
+
+On=@Create
+Attr=AttrMagic|AttrNewbie|AttrBlessed
+MoreZ=700
+
+[ItemDef 0225B]
+NameLoc=1028795
+DupeItem=0225A
 
 
 [EOF]
