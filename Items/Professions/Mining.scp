@@ -260,4 +260,53 @@ Description=Silver Ingots (5)
 NameLoc=1027162
 
 
+/////////////////
+// Mining Cart //
+/////////////////
+
+
+[ItemDef 01A82]
+DefName=iOreCart1
+Name=ore cart
+NameLoc=1026786
+Type=tNormal
+Can=CanIFlip
+Weight=255
+DupeList=01A83,01A86
+
+Category= Professions
+Subsection=Mining
+Description=Ore Cart (South)
+
+[ItemDef 01A83]
+NameLoc=1026787
+DupeItem=01A82
+
+[ItemDef 01A86]
+NameLoc=1026790
+DupeItem=01A82
+
+
+[ItemDef 01A87]
+DefName=iOreCart2
+Name=ore cart
+NameLoc=1026791
+Type=tNormal
+Can=CanIFlip
+Weight=255
+DupeList=01A88,01A86
+
+Category= Professions
+Subsection=Mining
+Description=Ore Cart (East)
+
+[ItemDef 01A88]
+NameLoc=1026792
+DupeItem=01A87
+
+[ItemDef 01A8B]
+NameLoc=1026795
+DupeItem=01A87
+
+
 [EOF]

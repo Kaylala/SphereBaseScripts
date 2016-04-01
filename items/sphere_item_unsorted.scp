@@ -1663,22 +1663,6 @@ DupeList=01e33
 DupeItem=01e32
 
 
-[ItemDef 01ea7]
-//Worldgem bit plain and small (see fancy bit at 1f13)
-DefName=iWorldgemBit
-Value=1
-Type=tSpawnChar
-Category=Provisions - GM Items
-Subsection=Special Items
-Description=Worldgem Bit
-
-[ItemDef 01f13]
-//fancy medium sized worldgem bit (see plain at 01ea7)
-DefName=iWorldgemLg
-Type=tSpawnChar
-Category=Provisions - GM Items
-Subsection=Special Items
-Description=Large Worldgem Bit
 
 
 

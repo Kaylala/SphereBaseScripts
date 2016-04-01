@@ -1,9 +1,6 @@
-// Medable. Self explanatory.
-[Function Medable]
-If !(<ArgN>)
- Return <Tag.Medable>
-EndIf
-Tag.Medable=<ArgN>
+// For new CanIRegen* flags (CanIRegenHits, CanIRegenStam, CanIRegenMana)
+[Function IsMedable]
+Return <Qval ((<Can> &CanIRegenMana) || (<Medable>)) ? 1 : 0>
 
 
 // Being added for better crafting structures.
@@ -14,10 +11,17 @@ EndIf
 Tag.Material=<ArgS>
 
 
+[Function OColor]
+If !(<ArgN>)
+ Return <Tag0.OColor>
+EndIf
+Tag.OColor=<ArgN>
+
+
 // Being used on items that are Human/Elf to modify into Gargoyle.
 [Funtion AlterItem]
 If !(<ArgS>)
- Return <Tag.AlterItem>
+ Return <Tag0.AlterItem>
 EndIf
 Tag.AlterItem=<ArgS>
 

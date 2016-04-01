@@ -2744,24 +2744,6 @@ DUPELIST=03000
 DUPEITEM=02fff
 
 
-[ITEMDEF 03158]
-DEFNAME=iTrophyDreadHorn
-NAME=dread horn trophy
-FLIP=1
-VALUE=2036
-WEIGHT=7.2
-RESOURCES=1 iTrophyMountboard,1 iPristineDreadHorn
-SKILLMAKE=Carpentry 72.0,Tailoring 60.0,tCarpentry,tSewingKit
-CATEGORY=Decoration - Miscellaneous
-SUBSECTION=Trophies
-DESCRIPTION=Dread Horn
-DUPELIST=03159
-
-[ITEMDEF 03159]
-//trophy dread horn
-DUPEITEM=03158
-
-
 [ITEMDEF 0365c]
 DEFNAME=iBannerShadow
 NAME=shadow banner

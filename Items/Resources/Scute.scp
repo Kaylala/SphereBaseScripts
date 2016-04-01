@@ -1,0 +1,20 @@
+// Dragon Turtle Scute
+[ItemDef 09BCE]
+DefName=iDragonTurtleScute
+Name=dragon turtle scute
+NameLoc=1123910
+Type=tScute
+Can=CanIStack|CanIFlip
+Weight=5
+DupeList=09BCF
+
+Category=Resources
+Subsection=Scales & Scutes
+Description=Dragon Turtle Scute
+
+[ItemDef 09BCF]
+NameLoc=1123911
+DupeItem=09BCE
+
+
+[EOF]

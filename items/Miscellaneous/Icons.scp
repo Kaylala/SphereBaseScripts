@@ -8,6 +8,34 @@
 * Monsters
 * Bosses
 
+
+///////////////////
+// Worldgem Bits //
+///////////////////
+
+
+[ItemDef 01EA7]
+DefName=iWorldgemBit1
+Name=worldgem bit
+NameLoc=1027847
+Type=tSpawnChar
+
+Category=Miscellaneous
+Subsection=Worldgem Bits
+Description=Worldgem Bit
+
+
+[ItemDef 01F13]
+DefName=iWorldgemBit2
+Name=worldgem bit
+NameLoc=1027955
+Type=tSpawnChar
+
+Category=Miscellaneous
+Subsection=Worldgem Bits
+Description=Worldgem Bit
+
+
 ////////////////////
 // Unused/Unknown //
 ////////////////////

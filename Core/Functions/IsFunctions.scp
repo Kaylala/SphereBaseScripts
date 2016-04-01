@@ -1,29 +1,25 @@
-// Checks <ArgS> radius for Player's Corpse.
-[Function IsNearCorpse]
-Ref12 = <UID>
-ForItems <ArgS>
- If (<Type> == tCorpse)
-  If (<Link.UID> == <Ref12.UID>)
-   Return 1
-  EndIf
- EndIf
+// Checks <ArgN> radius for Player's Corpse.
+[Function IsNearMyCorpse]
+ForItems <ArgN>
+ Return <QVal ((<Type> == tCorpse) && (<Link.UID> == <UID>)) ? 1 : 0>
 EndFor
-Return 0
 
 
-[FUNCTION IsCursed]
-If (<NPC> >= 0)
-	ForCharLayer 32
-		If (<BaseID>==iCurseRune)
-			Return 1
-		EndIf
-	EndFor
-	Return 0
+// Is it BlessRune or Blessed? Need to double check later.
+[Function IsBlessed]
+If (<IsChar>)
+ Return <QVal (<FindLayer.LayerSpecial.BaseID> == iBlessRune) ? 1 : 0>
+ElIf (<IsItem>)
+ Return <QVal (<Attr> &AttrBlessed) ? 1 : 0>
 EndIf
-If (<Attr> &AttrCursed)
-	Return 1
+
+
+[Function IsCursed]
+If (<IsChar>)
+ Return <QVal (<FindLayer.LayerSpecial.BaseID> == iCurseRune) ? 1 : 0>
+ElIf (<IsItem>)
+ Return <QVal (<Attr> &AttrCursed) ? 1 : 0>
 EndIf
-Return 0
 
 
 [Function IsAlterable]
@@ -80,43 +76,57 @@ Return <Qval ((<Type> == tLeatherArmor) || (<Type> == tStuddedArmor) || (<Type> 
 [Function IsLeatherArmor]
 Return <Qval (<Type> == tLeatherArmor) ? 1 :0>
 
+
 [Function IsLeafArmor]
 Return <Qval (<Type> == tLeafArmor) ? 1 :0>
+
 
 [Function IsFurArmor]
 Return <Qval (<Type> == tFurArmor) ? 1 :0>
 
+
 [Function IsScuteArmor]
 Return <Qval (<Type> == tScuteArmor) ? 1 :0>
+
 
 [Function IsClothArmor]
 Return <Qval (<Type> == tClothArmor) ? 1 :0>
 
+
 [Function IsStuddedArmor]
 Return <Qval (<Type> == tStuddedArmor) ? 1 :0>
+
 
 [Function IsBoneArmor]
 Return <Qval (<Type> == tBoneArmor) ? 1 :0>
 
+
 [Function IsHideArmor]
 Return <Qval (<Type> == tHideArmor) ? 1 :0>
+
 
 [Function IsChainmailArmor]
 Return <Qval (<Type> == tChainmailArmor) ? 1 :0>
 
+
 [Function IsRingmailArmor]
 Return <Qval (<Type> == tRingmailArmor) ? 1 :0>
+
 
 [Function IsPlatemailArmor]
 Return <Qval (<Type> == tPlatemailArmor) ? 1 :0>
 
+
 [Function IsDragonArmor]
 Return <Qval (<Type> == tDragonArmor) ? 1 :0>
+
 
 [Function IsStoneArmor]
 Return <Qval (<Type> == tStoneArmor) ? 1 :0>
 
+
 [Function IsWoodlandArmor]
 Return <Qval (<Type> == tWoodlandArmor) ? 1 :0>
+
 
 [EOF]

@@ -1,0 +1,19 @@
+[ItemDef 0781A]
+DefName=iChefsToque
+Name=Chef's toque
+NameLoc=1109618
+Type=tClothing
+Can=CanIDye|CanIRecycle|CanIExceptional|CanIMakersMark|CanIRetainColor
+CanUse=0
+Weight=1
+ReqStr=10
+SkillMake=Tailoring 62
+Resources=11 iCloth
+Material=tCloth
+
+Category=Equipment
+Subsection=Clothing: Headwear
+Description=Chef's Toque
+
+
+[EOF]

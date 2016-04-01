@@ -1,0 +1,55 @@
+// This is not craftable according to EA, though it did have a cliloc for its Name.
+// Used for the Hawkwind Robe artifact.
+[ItemDef 07816]
+DefName=iFancyHoodedRobe
+Name=fancy hooded robe
+NameLoc=1109614
+Type=tClothing
+Can=CanIDye
+Weight=3
+ReqStr=10
+SkillMake=0
+Resources=0
+
+Category=Equipment
+Subsection=Clothing: Dresses & Robes
+Description=Fancy Hooded Robe
+
+
+[ItemDef 0781E]
+DefName=iFloweredDress
+Name=flowered dress
+NameLoc=1109622
+Type=tClothing
+Can=CanIDye|CanIRecycle|CanIExceptional|CanIMakersMark|CanIRetainColor
+CanUse=CanUFemale
+Weight=3
+ReqStr=10
+Resources=18 iCloth
+Material=tCloth
+
+Category=Equipment
+Subsection=Clothing: Dresses & Robes
+Description=Flowered Dress
+
+
+// Evening Gown (Wedding dress too?!)
+[ItemDef 07821]
+DefName=iEveningGown
+Name=evening gown
+NameLoc=1109625
+Type=tClothing
+Can=CanIDye|CanIRecycle|CanIExceptional|CanIMakersMark|CanIRetainColor
+CanUse=CanUFemale
+Weight=3
+ReqStr=10
+SkillMake=Tailoring 750
+Resources=18 iCloth
+Material=tCloth
+
+Category=Equipment
+Subsection=Clothing: Dresses & Robes
+Description=Evening Gown
+
+
+[EOF]

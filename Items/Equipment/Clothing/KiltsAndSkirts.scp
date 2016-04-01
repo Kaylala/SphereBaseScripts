@@ -1,0 +1,53 @@
+[ItemDef 0781B]
+DefName=iGildedKilt
+Name=gilded kilt
+NameLoc=1109619
+Type=tClothing
+Can=CanIDye|CanIRecycle|CanIExceptional|CanIMakersMark|CanIRetainColor
+CanUse=0
+Weight=1
+ReqStr=10
+Resources=8 iCloth
+Material=tCloth
+
+Category=Equipment
+Subsection=Clothing: Kilts & Skirts
+Description=Gilded Kilt
+
+
+[ItemDef 0781C]
+DefName=iCheckeredKilt
+Name=checkered kilt
+NameLoc=1109620
+Type=tClothing
+Can=CanIDye|CanIRecycle|CanIExceptional|CanIMakersMark|CanIRetainColor
+CanUse=0
+Weight=1
+ReqStr=10
+Resources=8 iCloth
+Material=tCloth
+
+Category=Equipment
+Subsection=Clothing: Kilts & Skirts
+Description=Checkered Kilt
+
+
+[ItemDef 0781D]
+DefName=iFancyKilt
+Name=fancy kilt
+NameLoc=1109621
+Type=tClothing
+Can=CanIDye|CanIRecycle|CanIExceptional|CanIMakersMark|CanIRetainColor
+CanUse=0
+Weight=1
+ReqStr=10
+SkillMake=Tailoring 207
+Resources=8 iCloth
+Material=tCloth
+
+Category=Equipment
+Subsection=Clothing: Kilts & Skirts
+Description=Fancy Kilt
+
+
+[EOF]

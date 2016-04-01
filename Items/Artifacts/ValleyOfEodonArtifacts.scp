@@ -1,0 +1,47 @@
+[ItemDef iAnonsSpellbook]
+ID=iSpellbook
+Name=Anon's Spellbook
+NameLoc=
+Type=tSpellbook
+Weight=0
+
+Category=Artifacts
+Subsection=Valley of Eodon
+Description=Anon's Spellbook
+
+On=@Create
+Attr=AttrMagic|AttrArtifact|AttrBlessed|AttrNewbie
+Color=
+
+SkillBonus=Magery,15
+SlayerLesser={DinosaurSlayer 1 MyrmidexSlayer 1}
+IntelligenceBonus=8
+SpellDamageIncrease=15
+LowerManaCost=10
+LowerReagentCost=10
+
+
+[ItemDef iJuonarsGrimoire]
+ID=iNecromancySpellbook
+Name=Juo'nar's Grimoire
+NameLoc=
+Type=tNecromancySpellbook
+Weight=0
+
+Category=Artifacts
+Subsection=Valley of Eodon
+Description=Juo'nar's Grimoire
+
+On=@Create
+Attr=AttrMagic|AttrArtifact|AttrBlessed|AttrNewbie
+Color=
+
+SkillBonus=Necromancy,15
+SlayerSuper=Random_Super_Slayer
+IntelligenceBonus=8
+SpellDamageIncrease=15
+LowerManaCost=10
+LowerReagentCost=10
+
+
+[EOF]

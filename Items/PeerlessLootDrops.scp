@@ -3,53 +3,75 @@
 
 [ItemDef 03156]
 DefName=iMangledHeadOfDreadHorn
-Name=Mangled Head of Dread Horn
+Name=mangled head of dread horn
+NameLoc=1032630
 Type=tNormal
-Can=CanIStack
+Can=0
 Weight=20
 DupeList=03157
 
-Category=Quest
-Subsection=Twisted Weald
+Category=Boss Drops
+Subsection=Peerless: Dread Horn
 Description=Mangled Head of Dread Horn
 
 [ItemDef 03157]
-//mangled dread horn
+NameLoc=1032631
 DupeItem=03156
 
 
-[ItemDef 0315a]
-DefName=iPristineDreadHorn
-Name=pristine dread horn
+[ItemDef 03158]
+DefName=iMountedDreadHorn
+Name=mounted dread horn
+NameLoc=1032632
 Type=tNormal
-Can=CanIStack
+Can=0
+Weight=20
+DupeList=03159
+
+Category=Boss Drops
+Subsection=Peerless: Dread Horn
+Description=Mounted dread horn
+
+[ItemDef 03159]
+NameLoc=1032633
+DupeItem=03158
+
+
+[ItemDef 0315A]
+DefName=iPristineDreadHorn
+Name=Pristine Dread Horn
+NameLoc=1032634
+Type=tNormal
+Can=0
 Value=2000
 Weight=20
-DupeList=0315b
+DupeList=0315B
 
-Category=Quest
-Subsection=Twisted Weald
+Category=Boss Drops
+Subsection=Peerless: Dread Horn
 Description=Pristine Dread Horn Head
 
-[ItemDef 0315b]
-//pristine dread horn
-DupeItem=0315a
+[ItemDef 0315B]
+NameLoc=1032635
+DupeItem=0315A
 
 
-[ItemDef 0315c]
-DefName=iHornOfTheDread
-Name=horn of Dread Horn
+[ItemDef 0315C]
+DefName=iHornOfDreadHorn
+Name=horn of dread horn
+NameLoc=1032636
 Type=tNormal
-Can=CanIStack
+Can=0
 Weight=10
-DupeList=0315d
+DupeList=0315D
 
-Category=Quest
-Subsection=Twisted Weald
+Category=Boss Drops
+Subsection=Peerless: Dread Horn
 Description=Dread Horn Horn
 
-[ItemDef 0315d]
-DupeItem=0315c
+[ItemDef 0315D]
+NameLoc=1032637
+DupeItem=0315C
 
 
 [EOF]

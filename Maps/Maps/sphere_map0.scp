@@ -1,16 +1,3 @@
-//****************************************************************************
-// SPHERE by : Menasoft ©1997-2014
-// www.sphereserver.net
-// All SPHERE script files and formats are copyright Menasoft & Partners.
-// This file may be freely edited for personal use, but may not be distributed
-// in whole or in part, in any format without express written permission from
-// Menasoft & Partners.  All donations and contributions
-// become the property of Menasoft & Partners.
-//****************************************************************************
-// FILE LAST UPDATED: Sunday, Nov 30, 2014
-//
-VERSION=0.56c
-
 [COMMENT sphere_map0]
 This file (and other map files like it) define map areas (also known as
 AreaDef and RoomDef, and typically Named a_something) using one or more
@@ -57,9 +44,9 @@ Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
 Name=Green Acres
 Group=Felucca: Green Acres
 P=5454,1103,0,0
-Rect=5374,1079,5631,1280,0
-Rect=5630,1023,6143,1279,0
-Rect=5887,511,6143,1024,0
+Rect=5376,1081,5630,1280,0
+Rect=5630,1024,5888,1280,0
+Rect=5888,512,6144,1280,0
 Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicAll|RegionFlagInstaLogout|RegionFlagSafe
 Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
 
@@ -75,10 +62,10 @@ Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
 Name=Green Acres 3
 Group=Felucca: Green Acres
 P=5932,1945,0,0
-Rect=5121,2049,6143,2303,0
-Rect=5375,1535,5424,1792,0
-Rect=5423,1536,6144,1791,0
-Rect=5633,1777,6144,2049,0
+Rect=5376,1536,6144,1776,0
+Rect=5936,1776,6144,2040,0
+Rect=5120,2048,5608,2304,0
+Rect=5608,2040,6144,2304,0
 Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicAll|RegionFlagInstaLogout|RegionFlagSafe
 Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
 

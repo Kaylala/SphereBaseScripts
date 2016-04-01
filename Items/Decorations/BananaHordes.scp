@@ -1,0 +1,85 @@
+// Art Name: Large Banana Horde
+// CliLoc Name: Bananas
+// Height: 1
+[ItemDef 09C67]
+DefName=iLargeBananaHorde
+Name=Bananas
+NameLoc=1124063    // Bananas
+Type=tNormal
+Can=CanIFlip
+DupeList=09C68,09C69,09C6A
+
+Category=Decorations
+Subsection=Miscellaneous: Banana Hordes
+Description=Banana Horde (Large)
+
+[ItemDef 09C68]
+NameLoc=1124064    // Bananas
+DupeItem=09C67
+
+[ItemDef 09C69]
+NameLoc=1124065    // Bananas
+DupeItem=09C67
+
+[ItemDef 09C6A]
+NameLoc=1124066    // Bananas
+DupeItem=09C67
+
+
+// Art Name: Medium Banana Horde
+// CliLoc Name: Bananas
+// Height: 1
+[ItemDef 09C6B]
+DefName=iMediumBananaHorde
+Name=Bananas
+NameLoc=1124067    // Bananas
+Type=tNormal
+Can=CanIFlip
+DupeList=09C6C,09C6D,09C6E
+
+Category=Decorations
+Subsection=Miscellaneous: Banana Hordes
+Description=Banana Horde (Medium)
+
+[ItemDef 09C6C]
+NameLoc=1124068    // Bananas
+DupeItem=09C6B
+
+[ItemDef 09C6D]
+NameLoc=1124069    // Bananas
+DupeItem=09C6B
+
+[ItemDef 09C6E]
+NameLoc=1124070    // Bananas
+DupeItem=09C6B
+
+
+// Art Name: Small Banana Horde
+// CliLoc Name: Bananas
+// Height: 1
+[ItemDef 09C6F]
+DefName=iSmallBananaHorde
+Name=Bananas
+NameLoc=1124071    // Bananas
+Type=tNormal
+Can=CanIFlip
+DupeList=09C70,09C71,09C72
+
+Category=Decorations
+Subsection=Miscellaneous: Banana Hordes
+Description=Banana Horde (Small)
+
+[ItemDef 09C70]
+NameLoc=1124072    // Bananas
+DupeItem=09C6F
+
+[ItemDef 09C71]
+NameLoc=1124073    // Bananas
+DupeItem=09C6F
+
+[ItemDef 09C72]
+NameLoc=1124074    // Bananas
+DupeItem=09C6F
+
+
+[EOF]

@@ -18,6 +18,7 @@ Say @<ArgV0>,,2 <ArgV1>
 [Function CheckSpeed]
 Return <QVal (<Tag0.Override.Speed>) ? <Tag.Override.Speed> : <Speed>>
 
+
 // Useful for old SkillMenus for older Servers wanting to use new items with older clients.
 // Basically this can be used in the SkillMenu On= as shown below. It will grab the items ResLevel and 
 // ResDispDnID and show it for you.
@@ -33,13 +34,15 @@ EndIf
 Return <ArgS>
 
 
-[Function CalculateLuck]
+[Function CalcLuck]
 Return <Qval (<Luck> > 0) ? <Eval (((<Luck>/9)*5)/20)> : 0>
+
 
 [Function AllStats]
 OStr=<ArgN>
 ODex=<ArgN>
 OInt=<ArgN>
+
 
 [Function ModMaxHits]
 If !(ArgN)
@@ -47,16 +50,19 @@ If !(ArgN)
 EndIf
 Tag.ModMaxHits=<Eval (<Tag0.ModMaxHits> + <ArgN>)>
 
+
 [Function ModMaxStam]
 If !(ArgN)
  Return <Tag0.ModMaxStam>
 EndIf
 Tag.ModMaxStam=<Eval (<Tag0.ModMaxStam> + <ArgN>)>
 
+
 [Function ModMaxMana]
 If !(ArgN)
  Return <Tag0.ModMaxMana>
 EndIf
 Tag.ModMaxMana=<Eval (<Tag0.ModMaxMana> + <ArgN>)>
+
 
 [EOF]
