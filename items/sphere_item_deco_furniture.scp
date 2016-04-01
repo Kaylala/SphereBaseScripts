@@ -3754,34 +3754,6 @@ DupeItem=03052
 DupeItem=03052
 
 
-[ItemDef 03060]
-DefName=iAquarium
-Name=aquarium
-Type=tContainer
-TDATA2=02c96
-TDATA3=010001
-TDATA4=015c00c6
-Can=CanIFlip
-Value=321
-Weight=156.1
-Resources=8 iBoard,1 iNails,48 iGlassRaw,100 i_water
-Category=Decoration - Furniture
-Subsection=Aquarium
-Description=Aquarium
-DupeList=03061,03062,03063
-
-[ItemDef 03061]
-//aquarium
-DupeItem=03060
-
-[ItemDef 03062]
-//aquarium
-DupeItem=03060
-
-[ItemDef 03063]
-//aquarium
-DupeItem=03060
-
 [ItemDef 03066]
 DefName=iDisplaycaseMonster
 Name=monster displaycase

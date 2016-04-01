@@ -1,0 +1,578 @@
+[Comment AquariumCliLocs]
+1073621 Your reward has been placed in your backpack.
+1073622 A live aquarium creature
+1073623 A dead aquarium creature
+
+1073632 You add the following creature to your aquarium: ~1_FISH~
+1073633 The aquarium cannot hold the creature.
+1073635 You add the following decoration to your aquarium: ~1_NAME~
+1073636 The decoration will not fit in the aquarium.  
+
+1073819 The aquarium operation was successful.
+1073820 You must own and register UO: Mondain's Legacy to use an aquarium.
+1073821 You do not have access to that item for use with the aquarium.
+1073822 The aquarium cannot hold that item.
+1073837 <CENTER>Aquarium Contents</CENTER>
+1073838 Remove
+1073839 Contents: ~1_COUNT~ items, ~2_WEIGHT~ stones
+1073840 Contents: ~1_COUNT~ items, ~2_WEIGHT~/~3_MAXWEIGHT~ stones
+1073841 Contents: ~1_COUNT~/~2_MAXCOUNT~ items, ~3_WEIGHT~ stones
+
+
+1074511 You put the creature into a fish bowl.
+1074512 You put the gasping creature into your pack.
+1074513 You put the item into your pack.
+1074514 You have no place to put it.
+1074507 Gasping for air
+1074496 There is no room in your pack for the creature.
+1074495 The creature has been removed from the fish bowl.
+1074491 You can only use this net in water!
+1074492 You plunge the net into the water...
+1074490 A live creature flops around in your pack before running out of air.
+1074489 A live creature jumps into the fish bowl in your pack!
+1074488 You could not hold the creature.
+1074487 The creatures are too quick for you!
+1074486 You could not hold the creature.
+
+1079215 This aquarium is empty
+
+1074422 A very unusual live aquarium creature
+1074423 A live aquarium creature of unusual color
+1074424 A very unusual dead aquarium creature
+1074425 A dead aquarium creature of unusual color
+1074426 ~1_NUM~ event(s) to view!
+1074427 The aquarium is in vacation mode.
+1074428 The aquarium will be in vacation mode for ~1_DAYS~ days
+1074429 Vacation mode has been cancelled.
+1074430 Vacation days left: ~1_DAYS~
+
+1074358 No reward is pending.
+1074359 The reward would not fit in your pack.
+1074360 You receive a reward: ~1_REWARD~
+1074361 The reward could not be given.  Make sure you have room in your pack.
+1074362 A reward is available!
+
+1074365 A new creature has hatched overnight in the tank.
+1074366 An unfortunate accident has left a creature floating upside-down.  It is starting to smell.
+1074367 The tank looks healthier today.
+1074368 The tank looks worse than it did yesterday.
+1074369 The water looks clearer today.
+1074370 This tank can use more water.
+1074371 Brine shrimp have hatched overnight in the tank.
+1074372 A mutant creature has hatched overnight in the tank.
+1074373 A sea horse has hatched overnight in the tank.
+
+1074259 ~1_NUM~ unit(s) of food have been added to the aquarium.
+1074260 ~1_NUM~ unit(s) of water have been added to the aquarium.
+1074254 Water Added: ~1_CUR~ Maintain: ~2_NEED~ Improve: ~3_GROW~
+1074253 Food Added: ~1_CUR~ Feed: ~2_NEED~ Improve: ~3_GROW~
+1074252 Maximum population: ~1_NUM~
+1074251 Water state: ~1_STATE~
+1074250 Food state: ~1_STATE~
+1074249 Decorations: ~1_NUM~
+1074248 Dead Creatures: ~1_NUM~
+1074247 Live Creatures: ~1_NUM~ / ~2_MAX~
+
+1074235 Unknown
+1074236 Dead
+1074237 Starving
+1074238 Hungry
+1074239 Overfed
+1074240 Full
+1074241 Unknown
+1074242 Dead
+1074243 Dying
+1074244 Unhealthy
+1074245 Healthy
+1074246 Strong
+
+
+1074577 Food Added: ~1_CUR~ Needed: ~2_NEED~ 
+1074578 Water Added: ~1_CUR~ Needed: ~2_NEED~
+
+1074602 An unusual creature has hatched overnight in the tank.
+
+1075015 Your new aquarium
+
+// Aquarium Book
+1114659 Your New Aquarium
+1114660 Les Bilgewater
+1114661 Welcome to the, wonderful world of aquarium ownership. With a little time and skill our aquarium can become a work of art!
+1114662 Catching Fish:<br> You will need to aquire a fishing net, and a number of fish bowls, from your local fisherman.<br><br> To use the net, select it from your backpack,
+1114663 and cast it into shallow water. Then we wait.<br><br> The fish will be so happy to be in your aquarium, they will jump right into your fish bowl when caught!
+1114664  Just take them home and pour them into your aquarium, and BING! You have a happy new addition to your collection!
+1114665 Caring for our Underwater Allies:<br> Fish need clean water and food to survive.<br><br> Our aquarium comes with a status monitoring aid. Must be Magic!
+1114666  Just look at the front of your aquarium(mouse over). See the helpful and friendly guide? It tells how much food and water is needed to maintain, and improve the quality of your tank.
+1114667  You dont want to overfeed your fish very often. In fact, you only want to feed them every other day. But, remember to keep the water strong and healthy, and add more on a regular basis to
+1114668 keep your aquarium a pretty, sparkely blue.<br><br> Well, I hope you get as much enjoyment, collecting a beautiful array of our fine, finned, friends from the sea, as I do!
+1114669 Happy Fishing!
+1114670  <br>
+1114671  <br>
+
+
+Aquarium Base Items
+1074463 An aquarium fishing net
+1074819 Aquarium food
+
+1074431 An aquarium flake sphere
+1074432 Vacation days: ~1_DAYS~
+
+1074515 fish flake
+1074516 fish sphere - automated feeder
+
+1074499 A fish bowl
+1074494 Contains: ~1_CREATURE~
+
+
+
+Aquarium Fish
+1073823 A Purple Frog
+1073824 An Albino Frog
+1073825 A Killer Frog 
+1073826 A Speckled Crab 
+1073827 A Long Claw Crab 
+1073828 A Golden Broadtail
+1073829 A Minoc Blue Fish
+1073830 A Nujel'm Honey Fish
+1073831 A Yellow Fin Bluebelly  
+1073832 A Spined Scratcher Fish 
+1073833 A Spotted Buccaneer
+1073834 A Red Dart Fish 
+1073835 A Makoto Courtesan Fish
+1073836 A Vesper Reef Tiger
+1074589 Britain Crown Fish
+1074590 Small Mouth Sucker Fin
+1074591 Fandancer Fish
+1074592 Albino Courtesan Fish
+1074593 Jellyfish
+1074594 Stripped Sosarian Swill
+1074595 Stripped Flake Fish
+1074596 Shrimp
+1074597 A Full Moon Fish
+1074414 A sea horse
+1074415 Brine shrimp
+
+
+Decorative Rewards
+1074588 Coral
+1074598 A shell
+1074599 A shell
+1074600 An Island Statue
+1074601 Fish Bones
+1074363 A toy boat
+1074364 Waterlogged boots		(Used for both the normal and thigh boots)
+1074571 Captain Blackheart's Fishing Pole
+1074572 Crafty's Fishing Hat
+
+Subtag on decorative items.
+1073634 An aquarium decoration
+
+
+Context Menu CliLocs
+3006235 Examine Aquarium
+3006236 GM Fill Food and Water
+3006237 Collect Reward
+3006238 GM Force Random Event
+3006239 View events
+3006240 Cancel vacation mode
+3006241 GM Force Day
+3006242 Remove creature
+
+// LOL Think this is one of the few items they did NORTH with. No consistency. SMH.
+[ItemDef iAquarium1Deed]
+ID=iDeed
+Name=Large Aquarium (North)
+NameLoc=1074497
+Type=tDeed
+Weight=1
+
+Category=Deeds
+Subsection=Aquariums
+Description=Large Aquarium Deed (north)
+
+On=@Create
+More1=mAquarium1
+
+
+[ItemDef iAquarium2Deed]
+ID=iDeed
+Name=Large Aquarium (east)
+NameLoc=1074501
+Type=tDeed
+Weight=1
+
+Category=Deeds
+Subsection=Aquariums
+Description=Large Aquarium Deed (East)
+
+On=@Create
+More1=mAquarium2
+
+
+[ItemDef 03060]
+DefName=iAquarium1	// South
+Name=aquarium
+NameLoc=1032387
+Type=tContainer
+TData2=02c96
+TData3=010001
+TData4=015c00c6
+Value=250000
+Weight=255
+DupeList=03061
+
+Category=Miscellaneous
+Subsection=Aquarium: Aquarium
+Description=Aquarium (South)
+
+[ItemDef 03061]
+NameLoc=1032388
+DupeItem=03060
+
+
+[ItemDef 03062]
+DefName=iAquarium2	// East
+Name=aquarium
+NameLoc=1032389
+Type=tContainer
+TData2=02c96
+TData3=010001
+TData4=015c00c6
+Value=250000
+Weight=255
+DupeList=03063
+
+Category=Miscellaneous
+Subsection=Aquarium: Aquarium
+Description=Aquarium (East)
+
+[ItemDef 03063]
+NameLoc=1032390
+DupeItem=03062
+
+
+[ItemDef 03AF9]
+DefName=iCoral1
+Name=coral
+NameLoc=1035097
+Weight=1
+
+Category=Miscellaneous
+Subsection=Aquarium: Base
+Description=Coral
+
+
+[ItemDef 03AFA]
+DefName=iCoral2
+Name=coral
+NameLoc=1035098
+Weight=1
+
+Category=Miscellaneous
+Subsection=Aquarium: Base
+Description=Coral
+
+
+[ItemDef 03AFB]
+DefName=iCoral3
+Name=coral
+NameLoc=1035099
+Weight=1
+
+Category=Miscellaneous
+Subsection=Aquarium: Base
+Description=Coral
+
+
+[ItemDef 03AFC]
+DefName=iCrab1
+Name=crab
+NameLoc=1035100
+Weight=1
+
+Category=Miscellaneous
+Subsection=Aquarium: Base
+Description=Crab
+
+
+[ItemDef 03AFD]
+DefName=iFish5
+Name=fish
+NameLoc=1035101
+Weight=1
+
+Category=Miscellaneous
+Subsection=Aquarium: Base
+Description=Fish
+
+
+[ItemDef 03AFE]
+DefName=iFish6
+Name=fish
+NameLoc=1035102
+Weight=1
+
+Category=Miscellaneous
+Subsection=Aquarium: Base
+Description=Fish
+
+
+[ItemDef 03AFF]
+DefName=iFish7
+Name=fish
+NameLoc=1035103
+Weight=1
+
+Category=Miscellaneous
+Subsection=Aquarium: Base
+Description=Fish
+
+
+[ItemDef 03B00]
+DefName=iFish8
+Name=fish
+NameLoc=1035104
+Weight=1
+
+Category=Miscellaneous
+Subsection=Aquarium: Base
+Description=Fish
+
+
+[ItemDef 03B01]
+DefName=iFish9
+Name=fish
+NameLoc=1035105
+Weight=1
+
+Category=Miscellaneous
+Subsection=Aquarium: Base
+Description=Fish
+
+
+[ItemDef 03B02]
+DefName=iFish10
+Name=fish
+NameLoc=1035106
+Weight=1
+
+Category=Miscellaneous
+Subsection=Aquarium: Base
+Description=Fish
+
+
+[ItemDef 03B03]
+DefName=iFish11
+Name=fish
+NameLoc=1035107
+Weight=1
+
+Category=Miscellaneous
+Subsection=Aquarium: Base
+Description=Fish
+
+
+[ItemDef 03B04]
+DefName=iFish12
+Name=fish
+NameLoc=1035108
+Weight=1
+
+Category=Miscellaneous
+Subsection=Aquarium: Base
+Description=Fish
+
+
+[ItemDef 03B05]
+DefName=iFish13
+Name=fish
+NameLoc=1035109
+Weight=1
+
+Category=Miscellaneous
+Subsection=Aquarium: Base
+Description=Fish
+
+
+[ItemDef 03b06]
+DefName=iFish14
+Name=fish
+NameLoc=1035110
+Weight=1
+
+Category=Miscellaneous
+Subsection=Aquarium: Base
+Description=Fish
+
+
+[ItemDef 03b07]
+DefName=iFish15
+Name=fish
+NameLoc=1035111
+Weight=1
+
+Category=Miscellaneous
+Subsection=Aquarium: Base
+Description=Fish
+
+
+[ItemDef 03b08]
+DefName=iFish16
+Name=fish
+NameLoc=1035112
+Weight=1
+
+Category=Miscellaneous
+Subsection=Aquarium: Base
+Description=Fish
+
+
+[ItemDef 03b09]
+DefName=iFish17
+Name=fish
+NameLoc=1035113
+Weight=1
+
+Category=Miscellaneous
+Subsection=Aquarium: Base
+Description=Fish
+
+
+[ItemDef 03b0a]
+DefName=iFish18
+Name=fish
+NameLoc=1035114
+Weight=1
+
+Category=Miscellaneous
+Subsection=Aquarium: Base
+Description=Fish
+
+
+[ItemDef 03b0b]
+DefName=iFish19
+Name=fish
+NameLoc=1035115
+Weight=1
+
+Category=Miscellaneous
+Subsection=Aquarium: Base
+Description=Fish
+
+
+[ItemDef 03b0c]
+DefName=iFishBones
+Name=fish bones
+NameLoc=1035116
+Weight=1
+
+Category=Miscellaneous
+Subsection=Aquarium: Base
+Description=Fish Bones
+
+
+[ItemDef 03b0d]
+DefName=iFrog
+Name=frog
+NameLoc=1035117
+Weight=1
+
+Category=Miscellaneous
+Subsection=Aquarium: Base
+Description=Frog
+
+
+[ItemDef 03b0e]
+DefName=iJellyfish
+Name=jellyfish
+NameLoc=1035118
+Weight=1
+
+Category=Miscellaneous
+Subsection=Aquarium: Base
+Description=Jellyfish
+
+
+
+[ItemDef 03b0f]
+DefName=iIslandRock
+Name=island rock
+NameLoc=1035119
+Weight=1
+
+Category=Miscellaneous
+Subsection=Aquarium: Base
+Description=Island Rock
+
+
+
+[ItemDef 03b10]
+DefName=iSeaHorse
+Name=sea horse
+NameLoc=1035120
+Type=tFish
+Weight=1
+
+Category=Miscellaneous
+Subsection=Aquarium: Base
+Description=Sea Horse
+
+
+[ItemDef 03b11]
+DefName=iBrineShrimp
+Name=brine shrimp
+NameLoc=1035121
+Type=tFish
+Weight=1
+
+Category=Miscellaneous
+Subsection=Aquarium: Base
+Description=Brine Shrimp
+
+
+[ItemDef 03b12]
+DefName=iShell1
+Name=shell
+NameLoc=1035122
+Weight=1
+
+Category=Miscellaneous
+Subsection=Aquarium: Base
+Description=Shell
+
+
+[ItemDef 03b13]
+DefName=iShell2
+Name=shell
+NameLoc=1035123
+Weight=1
+
+Category=Miscellaneous
+Subsection=Aquarium: Base
+Description=Shell
+
+
+[ItemDef 03b14]
+DefName=iShrimp
+Name=shrimp
+NameLoc=1035124
+Type=tFish
+Weight=1
+
+Category=Miscellaneous
+Subsection=Aquarium: Base
+Description=Shrimp
+
+
+[ItemDef 03b15]
+DefName=iCoral4
+Name=coral
+NameLoc=1035125
+Weight=1
+
+Category=Miscellaneous
+Subsection=Aquarium: Base
+Description=Sea Sponge
+
+
+[EOF]
