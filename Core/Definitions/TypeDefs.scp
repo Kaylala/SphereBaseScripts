@@ -233,17 +233,32 @@ tBookOfArmsSpellbook		200 // The special move book.
 tSkillMasterySpellbook		201 // New Skill Mastery book.
 tReserved					202 // Reserved for any new Spellbook coming
 // New resources
-tGranite					203 // Granite Resource for masonry
-tWood						204 // Catch all (tBoard, tLog)
-tGlass						205 // Glass resource.
-tScute						206 // Scute resource.
-tDragonScales				207 // Dragon Scales resource.
-tIngredient					208 // For imbuing and peerless ingredients.
-tStone						209 // Catch all (tGranite (For now))
-tMetal						210 // Catch all (tIngot, tOre)
-tLeather					211 // Catch all (tCutLeater, tHides)
+tGranite					210 // Granite Resource for masonry
+tWood						211 // Catch all (tBoard, tLog)
+tGlass						212 // Glass resource.
+tScute						213 // Scute resource.
+tDragonScales				214 // Dragon Scales resource.
+tIngredient					215 // For imbuing and peerless ingredients.
+tStone						216 // Catch all (tGranite (For now))
+tMetal						217 // Catch all (tIngot, tOre)
+tLeather					218 // Catch all (tCutLeater, tHides)
 
-tMagic						252 // (Note: Been used forever as placeholder (Why?))
+tStuddedArmor				220
+tBoneArmor					221
+tChainmailArmor				222
+tRingmailArmor				223
+tPlatemailArmor				224
+tDragonArmor				225
+tLeafArmor					226
+tHideArmor					227
+tWoodlandArmor				228
+tVirtueArmor				229
+tClothArmor					230
+tStoneArmor					231
+tFurArmor					232
+tScuteArmor					233
+
+tMagic						252 // (Finally found a use! Arcane Circles now have it!)
 tEerieStuff					253 // As above
 tBowcraftingTool			254 // Bowcrafting Tools: (Item: iFletchersTools)
 tFletchersTool				tBowcraftingTool

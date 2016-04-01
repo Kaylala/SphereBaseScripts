@@ -1,0 +1,166 @@
+[ItemDef 01408]
+DefName=iCloseHelmet
+Name=close helmt
+NameLoc=1025128
+Type=tArmor
+Can=CanIFlip|CanIRepair|canIExceptional|canIMakersmark|canIRetaincolor|canIImbue|canIEnhance|CanIReforge|canIRecycle|CanIRegenStam|CanIRegenHits
+CanUse=CanUHuman|CanUElf
+Weight=5
+//Armor=30
+ReqStr=55
+SkillMake=Blacksmithing 379
+Resources=15 iIronIngot
+Material=tIngot
+DupeList=01409
+
+Category=Equipment
+Subsection=Armor: Helmets
+Description=Close Helmet
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=3
+ResFire=3
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+[ItemDef 01409]
+NameLoc=1025129
+DupeItem=01408
+
+
+[ItemDef 0140A]
+DefName=iHelmet
+Name=helmet
+NameLoc=1025130
+Type=tArmor
+Can=CanIFlip|CanIRepair|canIExceptional|canIMakersmark|canIRetaincolor|canIImbue|canIEnhance|CanIReforge|canIRecycle|CanIRegenStam|CanIRegenHits
+CanUse=CanUHuman|CanUElf
+//Armor=30
+Weight=5
+ReqStr=45
+SkillMake=Blacksmithing 379
+Resources=15 iIronIngot
+Material=tIngot
+DupeList=0140b
+
+Category=Equipment
+Subsection=Armor: Helmets
+Description=Helmet
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=4
+ResPoison=3
+ResEnergy=2
+
+[ItemDef 0140b]
+NameLoc=1025131
+DupeItem=0140a
+
+
+[ItemDef 0140c]
+DefName=iBascinet
+Name=bascinet
+NameLoc=1025132
+Type=tArmor
+Can=CanIFlip|CanIRepair|canIExceptional|canIMakersmark|canIRetaincolor|canIImbue|canIEnhance|CanIReforge|canIRecycle|CanIRegenStam|CanIRegenHits
+CanUse=CanUHuman|CanUElf
+//Armor=25
+Weight=5
+ReqStr=40
+SkillMake=Blacksmithing 83
+Resources=15 iIronIngot
+Material=tIngot
+DupeList=0140d
+
+Category=Equipment
+Subsection=Armor: Helmets
+Description=Bascinet
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=2
+ResCold=2
+ResPoison=2
+ResEnergy=2
+
+[ItemDef 0140d]
+NameLoc=1025133
+DupeItem=0140c
+
+
+[ItemDef 0140e]
+DefName=iNorseHelm
+Name=norse helm
+NameLoc=1025134
+Type=tArmor
+Can=CanIFlip|CanIRepair|canIExceptional|canIMakersmark|canIRetaincolor|canIImbue|canIEnhance|CanIReforge|canIRecycle|CanIRegenStam|CanIRegenHits
+CanUse=CanUHuman|CanUElf
+//Armor=30
+Weight=5
+ReqStr=55
+SkillMake=Blacksmithing 379
+Resources=15 iIronIngot
+Material=tIngot
+DupeList=0140f
+
+Category=Equipment
+Subsection=Armor: Helmets
+Description=Norse Helm
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=4
+ResFire=1
+ResCold=4
+ResPoison=4
+ResEnergy=2
+
+[ItemDef 0140f]
+NameLoc=1025135
+DupeItem=0140e
+
+
+[ItemDef 01F0B]
+DefName=iOrcHelm
+Name=orc helm
+NameLoc=1027947
+Type=tArmor
+Can=CanIFlip|CanIRepair|canIExceptional|canIMakersmark|canIRetaincolor|canIImbue|canIEnhance|CanIReforge|canIRecycle|CanIRegenStam|CanIRegenHits
+CanUse=CanUHuman|CanUElf
+//Armor=20
+Weight=5
+ReqStr=30
+SkillMake=Tailoring 68.8,tSewingKit,anatomy 89.1,Armslore 10.0
+Resources=6 iPlainLeather,4 iBone
+Material=tLeather,iBone
+DupeList=01f0c
+
+Category=Equipment
+Subsection=Armor: Helmets
+Description=Orc Helm
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=3
+ResFire=1
+ResCold=3
+ResPoison=3
+ResEnergy=5
+
+[ItemDef 01f0c]
+NameLoc=1027948
+DupeItem=01f0b
+
+
+[EOF]

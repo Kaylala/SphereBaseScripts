@@ -1,1327 +1,1172 @@
-//****************************************************************************
-// SPHERE by : Menasoft ©1997-2007
-// www.sphereserver.net
-// All SPHERE script files and formats are copyright Menasoft & Partners.
-// This file may be freely edited for personal use, but may not be distributed
-// in whole or in part, in any format without express written permission from
-// Menasoft & Partners. All donations and contributions
-// become the property of Menasoft & Partners.
-//****************************************************************************
-// FILE LAST UPDATED: Friday, September 20, 2013
-//
-VERSION=0.56c
-
-[ITEMDEF 030f]
-CATEGORY=Miscellaneous
-SUBSECTION=Bad Tiles
-DESCRIPTION=Unused Tile 030f
+[ItemDef 030f]
+Category=Miscellaneous
+Subsection=Bad Tiles
+Description=Unused Tile 030f
 
 
-[ITEMDEF 01408]
-DEFNAME=iHelmClosed
-TYPE=tArmor
+
+[ItemDef 0236c]
+DefName=iHelmKabuto
+Type=tArmor
 FLIP=1
-//ARMOR=30
-VALUE=60
-WEIGHT=5.0
-RESOURCES=15 iIngotIron
-SKILLMAKE=Blacksmithing 37.9,Armslore 25.0
-CATEGORY=Provisions - Armor
-SUBSECTION=Helmets
-DESCRIPTION=Close Helmet
-CanUse=CanUHuman|CanUElf
-ReqStr=55
-DUPELIST=01409
-ON=@Create
-HITPOINTS={36 48}
-RESCOLD=3
-RESENERGY=3
-RESFIRE=3
-RESPHYSICAL=3
-RESPOISON=3
-
-[ITEMDEF 01409]
-//close helmet
-DUPEITEM=01408
-
-[ITEMDEF 0140a]
-DEFNAME=iHelmOpen
-TYPE=tArmor
-FLIP=1
-//ARMOR=30
-VALUE=60
-WEIGHT=5.0
-RESOURCES=15 iIngotIron
-SKILLMAKE=Blacksmithing 37.9,Armslore 25.0
-CATEGORY=Provisions - Armor
-SUBSECTION=Helmets
-DESCRIPTION=Helmet
-CanUse=CanUHuman|CanUElf
-ReqStr=45
-DUPELIST=0140b
-ON=@Create
-HITPOINTS={36 48}
-RESCOLD=4
-RESENERGY=2
-RESFIRE=4
-RESPHYSICAL=2
-RESPOISON=3
-
-[ITEMDEF 0140b]
-//helmet
-DUPEITEM=0140a
-
-[ITEMDEF 0140c]
-DEFNAME=iBascinet
-NAME=bascinet
-TYPE=tArmor
-FLIP=1
-//ARMOR=25
-VALUE=60
-WEIGHT=5.0
-RESOURCES=15 iIngotIron
-SKILLMAKE=Blacksmithing 8.3,Armslore 25.0
-CATEGORY=Provisions - Armor
-SUBSECTION=Helmets
-DESCRIPTION=Bascinet
-CanUse=CanUHuman|CanUElf
-ReqStr=40
-DUPELIST=0140d
-ON=@Create
-HITPOINTS={36 48}
-RESCOLD=2
-RESENERGY=2
-RESFIRE=2
-RESPHYSICAL=7
-RESPOISON=2
-
-[ITEMDEF 0140d]
-//bascinet
-DUPEITEM=0140c
-
-[ITEMDEF 0140e]
-DEFNAME=iHelmNose
-NAME=norse helm
-TYPE=tArmor
-FLIP=1
-//ARMOR=30
-VALUE=60
-WEIGHT=5.0
-RESOURCES=15 iIngotIron
-SKILLMAKE=Blacksmithing 37.9,Armslore 25.0
-CATEGORY=Provisions - Armor
-SUBSECTION=Helmets
-DESCRIPTION=Norse Helm
-CanUse=CanUHuman|CanUElf
-ReqStr=55
-DUPELIST=0140f
-ON=@Create
-HITPOINTS={36 48}
-RESCOLD=4
-RESENERGY=2
-RESFIRE=1
-RESPHYSICAL=4
-RESPOISON=4
-
-[ITEMDEF 0140f]
-//norse helm
-DUPEITEM=0140e
-
-
-
-
-
-[ITEMDEF 01f0b]
-DEFNAME=iHelmOrc
-TYPE=tArmor
-FLIP=1
-//LAYER=layer_helm
-//ARMOR=20
-VALUE=30
-WEIGHT=5.1
-RESOURCES=2 iHidesCut,1 iThread
-SKILLMAKE=Tailoring 68.8,tSewingKit,anatomy 89.1,Armslore 10.0
-CATEGORY=Provisions - Armor
-SUBSECTION=Helmets
-DESCRIPTION=Orc Helm
-CanUse=CanUHuman|CanUElf
-ReqStr=30
-DUPELIST=01f0c
-ON=@Create
-HITPOINTS={36 48}
-RESCOLD=3
-RESENERGY=5
-RESFIRE=1
-RESPHYSICAL=3
-RESPOISON=3
-
-[ITEMDEF 01f0c]
-//Orc Helm
-DUPEITEM=01f0b
-
-
-[ITEMDEF 0236c]
-DEFNAME=iHelmKabuto
-TYPE=tArmor
-FLIP=1
-//ARMOR=25
+//Armor=25
 VALUE=65
-WEIGHT=10.0
-RESOURCES=10 iIngotIron
-SKILLMAKE=Blacksmithing 63.0,Armslore 25.0
-CATEGORY=Provisions - Armor
-SUBSECTION=Platemail Armor
-DESCRIPTION=Kabuto
+Weight=10.0
+Resources=10 iIronIngot
+SkillMake=Blacksmithing 63.0,Armslore 25.0
+Category=Equipment
+Subsection=Platemail Armor
+Description=Kabuto
 ReqStr=80
 CanUse=CanUHuman|CanUElf
-DUPELIST=0236d
-ON=@Create
-HITPOINTS={36 48}
-RESCOLD=3
-RESENERGY=2
-RESFIRE=3
-RESPHYSICAL=5
-RESPOISON=2
+DupeList=0236d
+On=@Create
+HitPoints={36 48}
+ResCold=3
+ResEnergy=2
+ResFire=3
+ResPhysical=5
+ResPoison=2
 
-[ITEMDEF 0236d]
+[ItemDef 0236d]
 //Kabuto
-DUPEITEM=0236c
+DupeItem=0236c
 
 
-[ITEMDEF 025e4]
-DEFNAME=iArmorFemaleShortsSpiked
-//NAME=spiked shorts
-TYPE=tArmorLeather
+[ItemDef 025e4]
+DefName=iArmorFemaleShortsSpiked
+//Name=spiked shorts
+Type=tArmorLeather
 FLIP=1
-//ARMOR=15
+//Armor=15
 VALUE=71
-WEIGHT=9.0
-RESOURCES=8 iHidesCut,1 iIngotIron
-SKILLMAKE=Tailoring 78.1,tSewingKit
-CATEGORY=Provisions - Armor
-SUBSECTION=Female Armor
-DESCRIPTION=Spiked Shorts
+Weight=9.0
+Resources=8 iHidesCut,1 iIronIngot
+SkillMake=Tailoring 78.1,tSewingKit
+Category=Equipment
+Subsection=Female Armor
+Description=Spiked Shorts
 ReqStr=20
 CanUse=CanUHuman|CanUElf|CanUFemale
-DUPELIST=025e5
-ON=@Create
-HITPOINTS={36 48}
-RESCOLD=3
-RESENERGY=3
-RESFIRE=4
-RESPHYSICAL=2
-RESPOISON=3
+DupeList=025e5
+On=@Create
+HitPoints={36 48}
+ResCold=3
+ResEnergy=3
+ResFire=4
+ResPhysical=2
+ResPoison=3
 
-[ITEMDEF 025e5]
+[ItemDef 025e5]
 //spiked shorts
-DUPEITEM=025e4
+DupeItem=025e4
 
-[ITEMDEF 025e6]
-DEFNAME=iArmorFemaleHarnessAmazon
-//NAME=Amazon harness
-TYPE=tArmor
+[ItemDef 025e6]
+DefName=iArmorFemaleHarnessAmazon
+//Name=Amazon harness
+Type=tArmor
 FLIP=1
-//ARMOR=18
+//Armor=18
 VALUE=137
-WEIGHT=20.0
-RESOURCES=20 iIngotIron
-SKILLMAKE=Blacksmithing 72.6
-CATEGORY=Provisions - Armor
-SUBSECTION=Amazon
-DESCRIPTION=Amazon Harness
+Weight=20.0
+Resources=20 iIronIngot
+SkillMake=Blacksmithing 72.6
+Category=Equipment
+Subsection=Amazon
+Description=Amazon Harness
 ReqStr=25
 CanUse=CanUHuman|CanUElf|CanUFemale
-DUPELIST=025e7
-ON=@Create
-HITPOINTS={36 48}
-RESCOLD=3
-RESENERGY=3
-RESFIRE=4
-RESPHYSICAL=2
-RESPOISON=3
+DupeList=025e7
+On=@Create
+HitPoints={36 48}
+ResCold=3
+ResEnergy=3
+ResFire=4
+ResPhysical=2
+ResPoison=3
 
-[ITEMDEF 025e7]
+[ItemDef 025e7]
 //amazon harness
-DUPEITEM=025e6
+DupeItem=025e6
 
-[ITEMDEF 025e8]
-DEFNAME=iArmorFemaleHarnessElite
-//NAME=Amazon elite harness
-TYPE=tArmor
+[ItemDef 025e8]
+DefName=iArmorFemaleHarnessElite
+//Name=Amazon elite harness
+Type=tArmor
 FLIP=1
-//ARMOR=20
+//Armor=20
 VALUE=165
-WEIGHT=22.0
-RESOURCES=22 iIngotIron
-SKILLMAKE=Blacksmithing 88.4
-CATEGORY=Provisions - Armor
-SUBSECTION=Amazon
-DESCRIPTION=Elite Harness
+Weight=22.0
+Resources=22 iIronIngot
+SkillMake=Blacksmithing 88.4
+Category=Equipment
+Subsection=Amazon
+Description=Elite Harness
 ReqStr=25
 CanUse=CanUHuman|CanUElf|CanUFemale
-DUPELIST=025e9
-ON=@Create
-HITPOINTS={36 48}
-RESCOLD=3
-RESENERGY=3
-RESFIRE=4
-RESPHYSICAL=2
-RESPOISON=3
+DupeList=025e9
+On=@Create
+HitPoints={36 48}
+ResCold=3
+ResEnergy=3
+ResFire=4
+ResPhysical=2
+ResPoison=3
 
-[ITEMDEF 025e9]
+[ItemDef 025e9]
 //elite harness
-DUPEITEM=025e8
+DupeItem=025e8
 
 
 
-[ITEMDEF 0264b]
-DEFNAME=iPlatemailGorget2
-TYPE=tArmor
+[ItemDef 0264b]
+DefName=iPlatemailGorget2
+Type=tArmor
 FLIP=1
-//ARMOR=30
+//Armor=30
 VALUE=63
-WEIGHT=10.0
-RESOURCES=10 iIngotIron
-CATEGORY=Provisions - Armor
-SUBSECTION=Platemail Armor
-DESCRIPTION=Platemail Gorget 2
-SKILLMAKE=Blacksmithing 57.3
+Weight=10.0
+Resources=10 iIronIngot
+Category=Equipment
+Subsection=Platemail Armor
+Description=Platemail Gorget 2
+SkillMake=Blacksmithing 57.3
 ReqStr=45
 CanUse=CanUHuman|CanUElf
-DUPELIST=0264c
-ON=@Create
-HITPOINTS={36 48}
-RESCOLD=2
-RESENERGY=2
-RESFIRE=3
-RESPHYSICAL=5
-RESPOISON=3
+DupeList=0264c
+On=@Create
+HitPoints={36 48}
+ResCold=2
+ResEnergy=2
+ResFire=3
+ResPhysical=5
+ResPoison=3
 
-[ITEMDEF 0264c]
+[ItemDef 0264c]
 //platemail gorget2
-DUPEITEM=0264b
+DupeItem=0264b
 
 
-[ITEMDEF 02653]
+[ItemDef 02653]
 //not visible on paperdoll
-DEFNAME=iPlatemailWaraji
-TYPE=tArmor
+DefName=iPlatemailWaraji
+Type=tArmor
 FLIP=1
 //LAYER=layer_gloves
-//ARMOR=30
+//Armor=30
 VALUE=76
-WEIGHT=12.0
-RESOURCES=12 iIngotIron
-SKILLMAKE=Blacksmithing 59.7,Armslore 25.0
-CATEGORY=Provisions - Armor
-SUBSECTION=Platemail Armor
-DESCRIPTION=Waraji (3d client only)
+Weight=12.0
+Resources=12 iIronIngot
+SkillMake=Blacksmithing 59.7,Armslore 25.0
+Category=Equipment
+Subsection=Platemail Armor
+Description=Waraji (3d client only)
 CanUse=CanUHuman|CanUElf|CanUNone
 ReqStr=70
-DUPELIST=02654
-ON=@Create
-HITPOINTS={36 48}
-RESCOLD=2
-RESENERGY=2
-RESFIRE=3
-RESPHYSICAL=5
-RESPOISON=3
+DupeList=02654
+On=@Create
+HitPoints={36 48}
+ResCold=2
+ResEnergy=2
+ResFire=3
+ResPhysical=5
+ResPoison=3
 
-[ITEMDEF 02654]
+[ItemDef 02654]
 //waraji
-DUPEITEM=02653
+DupeItem=02653
 
 
-[ITEMDEF 02659]
+[ItemDef 02659]
 //appears like dragon sleeves on paperdoll
-DEFNAME=iAmazonHeavy
-TYPE=tArmor
+DefName=iAmazonHeavy
+Type=tArmor
 FLIP=1
-//ARMOR=30
+//Armor=30
 VALUE=175
-WEIGHT=25.0
-RESOURCES=25 iIngotIron
-SKILLMAKE=Blacksmithing 75.0
-CATEGORY=Provisions - Armor
-SUBSECTION=Amazon
-DESCRIPTION=Heavy (unwearable)
+Weight=25.0
+Resources=25 iIronIngot
+SkillMake=Blacksmithing 75.0
+Category=Equipment
+Subsection=Amazon
+Description=Heavy (unwearable)
 CanUse=CanUHuman|CanUElf|CanUFemale|canUNone
 ReqStr=60
-DUPELIST=0265a
-ON=@Create
-HITPOINTS={36 48}
-RESCOLD=3
-RESENERGY=3
-RESFIRE=3
-RESPHYSICAL=3
-RESPOISON=3
+DupeList=0265a
+On=@Create
+HitPoints={36 48}
+ResCold=3
+ResEnergy=3
+ResFire=3
+ResPhysical=3
+ResPoison=3
 
-[ITEMDEF 0265a]
+[ItemDef 0265a]
 //amazon heavy
-DUPEITEM=02659
+DupeItem=02659
 
-[ITEMDEF 0265b]
+[ItemDef 0265b]
 //appears like dragon chest on paperdoll
-DEFNAME=iAmazonMedium
-TYPE=tArmor
+DefName=iAmazonMedium
+Type=tArmor
 FLIP=1
-//ARMOR=30
+//Armor=30
 LAYER=layer_shirt//weird
 VALUE=140
-WEIGHT=20.0
-RESOURCES=20 iIngotIron
-SKILLMAKE=Blacksmithing 75.0
-CATEGORY=Provisions - Armor
-SUBSECTION=Amazon
-DESCRIPTION=Medium (unwearable)
+Weight=20.0
+Resources=20 iIronIngot
+SkillMake=Blacksmithing 75.0
+Category=Equipment
+Subsection=Amazon
+Description=Medium (unwearable)
 CanUse=CanUHuman|CanUElf|CanUFemale|canUNone
 ReqStr=60
-DUPELIST=0265c
-ON=@Create
-HITPOINTS={36 48}
-RESCOLD=3
-RESENERGY=3
-RESFIRE=3
-RESPHYSICAL=3
-RESPOISON=3
+DupeList=0265c
+On=@Create
+HitPoints={36 48}
+ResCold=3
+ResEnergy=3
+ResFire=3
+ResPhysical=3
+ResPoison=3
 
-[ITEMDEF 0265c]
+[ItemDef 0265c]
 //amazon medium
-DUPEITEM=0265b
+DupeItem=0265b
 
-[ITEMDEF 0265d]
+[ItemDef 0265d]
 //appears like dragon gloves on paperdoll
-DEFNAME=iAmazonLight
-TYPE=tArmor
+DefName=iAmazonLight
+Type=tArmor
 FLIP=1
-//ARMOR=20
+//Armor=20
 LAYER=layer_shirt//weird
 VALUE=140
-WEIGHT=20.0
-RESOURCES=20 iIngotIron
-SKILLMAKE=Blacksmithing 75.0
-CATEGORY=Provisions - Armor
-SUBSECTION=Amazon
-DESCRIPTION=Light (unwearable)
+Weight=20.0
+Resources=20 iIronIngot
+SkillMake=Blacksmithing 75.0
+Category=Equipment
+Subsection=Amazon
+Description=Light (unwearable)
 CanUse=CanUHuman|CanUElf|CanUFemale|canUNone
 ReqStr=60
-DUPELIST=0265e
-ON=@Create
-HITPOINTS={36 48}
-RESCOLD=3
-RESENERGY=3
-RESFIRE=3
-RESPHYSICAL=3
-RESPOISON=3
+DupeList=0265e
+On=@Create
+HitPoints={36 48}
+ResCold=3
+ResEnergy=3
+ResFire=3
+ResPhysical=3
+ResPoison=3
 
-[ITEMDEF 0265e]
+[ItemDef 0265e]
 //amazon light
-DUPEITEM=0265d
+DupeItem=0265d
 
 
-[ITEMDEF 02677]
+[ItemDef 02677]
 //appears like serpentstone staff on paperdoll
-DEFNAME=iGlovesKote1
-TYPE=tArmorLeather
+DefName=iGlovesKote1
+Type=tArmorLeather
 FLIP=1
 //LAYER=layer_gloves
-//ARMOR=13
+//Armor=13
 VALUE=23
-WEIGHT=3.0
-RESOURCES=3 iHidesCut
-SKILLMAKE=Tailoring 56.8,tSewingKit
-CATEGORY=Provisions - Armor
-SUBSECTION=Leather Armor
-DESCRIPTION=Kote Gloves (unwearable)
+Weight=3.0
+Resources=3 iHidesCut
+SkillMake=Tailoring 56.8,tSewingKit
+Category=Equipment
+Subsection=Leather Armor
+Description=Kote Gloves (unwearable)
 CanUse=CanUHuman|CanUElf|CanUNone
 ReqStr=40
-DUPELIST=02678
-ON=@Create
-HITPOINTS={36 48}
-RESCOLD=2
-RESENERGY=2
-RESFIRE=2
-RESPHYSICAL=2
-RESPOISON=2
+DupeList=02678
+On=@Create
+HitPoints={36 48}
+ResCold=2
+ResEnergy=2
+ResFire=2
+ResPhysical=2
+ResPoison=2
 
-[ITEMDEF 02678]
+[ItemDef 02678]
 //kote gloves
-DUPEITEM=02677
+DupeItem=02677
 
-[ITEMDEF 02679]
+[ItemDef 02679]
 //appears like nothing on paperdoll
-DEFNAME=iGlovesKote2
-TYPE=tArmorLeather
+DefName=iGlovesKote2
+Type=tArmorLeather
 FLIP=1
 //LAYER=layer_gloves
-//ARMOR=13
+//Armor=13
 VALUE=23
-WEIGHT=3.0
-RESOURCES=3 iHidesCut
-SKILLMAKE=Tailoring 56.8,tSewingKit
-CATEGORY=Provisions - Armor
-SUBSECTION=Leather Armor
-DESCRIPTION=Kote Gloves 2 (unwearable)
+Weight=3.0
+Resources=3 iHidesCut
+SkillMake=Tailoring 56.8,tSewingKit
+Category=Equipment
+Subsection=Leather Armor
+Description=Kote Gloves 2 (unwearable)
 CanUse=CanUHuman|CanUElf|CanUNone
 ReqStr=40
-DUPELIST=0267a
-ON=@Create
-HITPOINTS={36 48}
-RESCOLD=2
-RESENERGY=2
-RESFIRE=2
-RESPHYSICAL=2
-RESPOISON=2
+DupeList=0267a
+On=@Create
+HitPoints={36 48}
+ResCold=2
+ResEnergy=2
+ResFire=2
+ResPhysical=2
+ResPoison=2
 
-[ITEMDEF 0267a]
+[ItemDef 0267a]
 //kote gloves
-DUPEITEM=02679
+DupeItem=02679
 
 
-[ITEMDEF 02689]
-DEFNAME=iHelmWinged
-NAME=winged helmet
-TYPE=tArmor
+[ItemDef 02689]
+DefName=iHelmWinged
+Name=winged helmet
+Type=tArmor
 FLIP=1
-//ARMOR=30
-WEIGHT=10.0
+//Armor=30
+Weight=10.0
 VALUE=65
-RESOURCES=10 iBoard,60 iFeather,4 iBark
-SKILLMAKE=Carpentry 58.4,Armslore 25.0
-CATEGORY=Provisions - Armor
-SUBSECTION=Helmets
-DESCRIPTION=Winged Helm
+Resources=10 iBoard,60 iFeather,4 iBark
+SkillMake=Carpentry 58.4,Armslore 25.0
+Category=Equipment
+Subsection=Armor: Helmets
+Description=Winged Helm
 ReqStr=25
 CanUse=CanUHuman|CanUElf
 //CanUse=can_u_elf
-DUPELIST=0268a
-ON=@Create
-HITPOINTS={36 48}
-RESCOLD=2
-RESENERGY=5
-RESFIRE=1
-RESPHYSICAL=5
-RESPOISON=2
+DupeList=0268a
+On=@Create
+HitPoints={36 48}
+ResCold=2
+ResEnergy=5
+ResFire=1
+ResPhysical=5
+ResPoison=2
 
-[ITEMDEF 0268a]
+[ItemDef 0268a]
 //winged helm
-DUPEITEM=02689
+DupeItem=02689
 
-[ITEMDEF 0268b]
+[ItemDef 0268b]
 //appears like nothing on paperdoll
-DEFNAME=iHachimaki
-NAME=hachimaki
-TYPE=tArmor
+DefName=iHachimaki
+Name=hachimaki
+Type=tArmor
 FLIP=1
-//ARMOR=30
+//Armor=30
 VALUE=65
-WEIGHT=10.0
-RESOURCES=10 iIngotIron
-SKILLMAKE=Blacksmithing 63.0,Armslore 25.0
-CATEGORY=Provisions - Armor
-SUBSECTION=Helmets
-DESCRIPTION=Hachimaki (unwearable)
+Weight=10.0
+Resources=10 iIronIngot
+SkillMake=Blacksmithing 63.0,Armslore 25.0
+Category=Equipment
+Subsection=Armor: Helmets
+Description=Hachimaki (unwearable)
 CanUse=CanUHuman|CanUElf|CanUNone
 ReqStr=40
-DUPELIST=0268c
-ON=@Create
-HITPOINTS={36 48}
-RESCOLD=2
-RESENERGY=5
-RESFIRE=1
-RESPHYSICAL=5
-RESPOISON=2
+DupeList=0268c
+On=@Create
+HitPoints={36 48}
+ResCold=2
+ResEnergy=5
+ResFire=1
+ResPhysical=5
+ResPoison=2
 
-[ITEMDEF 0268c]
+[ItemDef 0268c]
 //hachimaki
-DUPEITEM=0268b
+DupeItem=0268b
 
-[ITEMDEF 0268d]
-DEFNAME=iHelmKabutoDecorative
-//NAME=decorative kabuto
-TYPE=tArmor
+[ItemDef 0268d]
+DefName=iHelmKabutoDecorative
+//Name=decorative kabuto
+Type=tArmor
 FLIP=1
-//ARMOR=30
+//Armor=30
 VALUE=65
-WEIGHT=10.0
-RESOURCES=10 iIngotIron
-SKILLMAKE=Blacksmithing 63.0,Armslore 25.0
-CATEGORY=Provisions - Armor
-SUBSECTION=Helmets
-DESCRIPTION=Kabuto (decorative)
+Weight=10.0
+Resources=10 iIronIngot
+SkillMake=Blacksmithing 63.0,Armslore 25.0
+Category=Equipment
+Subsection=Armor: Helmets
+Description=Kabuto (decorative)
 ReqStr=80
 CanUse=CanUHuman|CanUElf
-DUPELIST=0268e
-ON=@Create
-HITPOINTS={36 48}
-RESCOLD=3
-RESENERGY=2
-RESFIRE=3
-RESPHYSICAL=5
-RESPOISON=2
+DupeList=0268e
+On=@Create
+HitPoints={36 48}
+ResCold=3
+ResEnergy=2
+ResFire=3
+ResPhysical=5
+ResPoison=2
 
-[ITEMDEF 0268e]
+[ItemDef 0268e]
 //kabuto
-DUPEITEM=0268d
+DupeItem=0268d
 
-[ITEMDEF 0268f]
+[ItemDef 0268f]
 //appears like disc mace on paperdoll
-DEFNAME=iKabutoMempo
-NAME=decorative kabuto mempo
-TYPE=tArmor
+DefName=iKabutoMempo
+Name=decorative kabuto mempo
+Type=tArmor
 FLIP=1
-//ARMOR=30
+//Armor=30
 VALUE=65
-WEIGHT=10.0
-RESOURCES=10 iIngotIron
-SKILLMAKE=Blacksmithing 63.0,Armslore 25.0
-CATEGORY=Provisions - Armor
-SUBSECTION=Helmets
-DESCRIPTION=Kabuto Mempo (unwearable)
+Weight=10.0
+Resources=10 iIronIngot
+SkillMake=Blacksmithing 63.0,Armslore 25.0
+Category=Equipment
+Subsection=Armor: Helmets
+Description=Kabuto Mempo (unwearable)
 CanUse=CanUHuman|CanUElf|CanUNone
 ReqStr=80
-DUPELIST=02690
-ON=@Create
-HITPOINTS={36 48}
-RESCOLD=3
-RESENERGY=2
-RESFIRE=3
-RESPHYSICAL=5
-RESPOISON=2
+DupeList=02690
+On=@Create
+HitPoints={36 48}
+ResCold=3
+ResEnergy=2
+ResFire=3
+ResPhysical=5
+ResPoison=2
 
-[ITEMDEF 02690]
+[ItemDef 02690]
 //kabuto mempo
-DUPEITEM=0268f
+DupeItem=0268f
 
-[ITEMDEF 02691]
-DEFNAME=iLeatherCap2
-TYPE=tArmorLeather
+[ItemDef 02691]
+DefName=iLeatherCap2
+Type=tArmorLeather
 FLIP=1
-//ARMOR=13
+//Armor=13
 VALUE=12
-WEIGHT=2.1
-RESOURCES=2 iHidesCut,1 iThread
-SKILLMAKE=Tailoring 6.8,tSewingKit
-CATEGORY=Provisions - Armor
-SUBSECTION=Leather Armor
-DESCRIPTION=Leather Cap 2
+Weight=2.1
+Resources=2 iHidesCut,1 iThread
+SkillMake=Tailoring 6.8,tSewingKit
+Category=Equipment
+Subsection=Leather Armor
+Description=Leather Cap 2
 ReqStr=20
 CanUse=CanUHuman|CanUElf
-DUPELIST=02692
-ON=@Create
-HITPOINTS={36 48}
-RESCOLD=3
-RESENERGY=3
-RESFIRE=4
-RESPHYSICAL=2
-RESPOISON=3
+DupeList=02692
+On=@Create
+HitPoints={36 48}
+ResCold=3
+ResEnergy=3
+ResFire=4
+ResPhysical=2
+ResPoison=3
 
-[ITEMDEF 02692]
+[ItemDef 02692]
 //leather cap 2
-DUPEITEM=02691
+DupeItem=02691
 
 
-[ITEMDEF 02774]
-DEFNAME=iChainmailHatsuburi
-NAME=chainmail hatsuburi
-TYPE=tArmor
+[ItemDef 02774]
+DefName=iChainmailHatsuburi
+Name=chainmail hatsuburi
+Type=tArmor
 FLIP=1
-//ARMOR=28
+//Armor=28
 VALUE=104
-WEIGHT=20.0
-RESOURCES=20 iIngotIron
-SKILLMAKE=Blacksmithing 30.0
-CATEGORY=Provisions - Armor
-SUBSECTION=Chainmail Armor
-DESCRIPTION=Hatsuburi
+Weight=20.0
+Resources=20 iIronIngot
+SkillMake=Blacksmithing 30.0
+Category=Equipment
+Subsection=Chainmail Armor
+Description=Hatsuburi
 ReqStr=50
 CanUse=CanUHuman|CanUElf
-DUPELIST=027bf
-ON=@Create
-HITPOINTS={36 48}
-RESCOLD=2
-RESENERGY=4
-RESFIRE=2
-RESPHYSICAL=5
-RESPOISON=2
+DupeList=027bf
+On=@Create
+HitPoints={36 48}
+ResCold=2
+ResEnergy=4
+ResFire=2
+ResPhysical=5
+ResPoison=2
 
-[ITEMDEF 02775]
-DEFNAME=iPlatemailHatsuburi
-NAME=platemail hatsuburi
-TYPE=tArmor
+[ItemDef 02775]
+DefName=iPlatemailHatsuburi
+Name=platemail hatsuburi
+Type=tArmor
 FLIP=1
-//ARMOR=30
+//Armor=30
 VALUE=116
-WEIGHT=20.0
-RESOURCES=20 iIngotIron
-SKILLMAKE=Blacksmithing 45.0
-CATEGORY=Provisions - Armor
-SUBSECTION=Platemail Armor
-DESCRIPTION=Hatsuburi
+Weight=20.0
+Resources=20 iIronIngot
+SkillMake=Blacksmithing 45.0
+Category=Equipment
+Subsection=Platemail Armor
+Description=Hatsuburi
 ReqStr=65
 CanUse=CanUHuman|CanUElf
-DUPELIST=027c0
-ON=@Create
-HITPOINTS={36 48}
-RESCOLD=2
-RESENERGY=3
-RESFIRE=3
-RESPHYSICAL=5
-RESPOISON=2
+DupeList=027c0
+On=@Create
+HitPoints={36 48}
+ResCold=2
+ResEnergy=3
+ResFire=3
+ResPhysical=5
+ResPoison=2
 
-[ITEMDEF 02776]
-DEFNAME=iLeatherJingasa
-NAME=leather jingasa
-TYPE=tArmorLeather
+[ItemDef 02776]
+DefName=iLeatherJingasa
+Name=leather jingasa
+Type=tArmorLeather
 FLIP=1
-//ARMOR=13
+//Armor=13
 VALUE=102
-WEIGHT=14.1
-RESOURCES=14 iHidesCut,1 iThread
-SKILLMAKE=Tailoring 45.0,tSewingKit
-CATEGORY=Provisions - Armor
-SUBSECTION=Leather Armor
-DESCRIPTION=Leather Jingasa
+Weight=14.1
+Resources=14 iHidesCut,1 iThread
+SkillMake=Tailoring 45.0,tSewingKit
+Category=Equipment
+Subsection=Leather Armor
+Description=Leather Jingasa
 ReqStr=25
 CanUse=CanUHuman|CanUElf
-DUPELIST=027c1
-ON=@Create
-HITPOINTS={36 48}
-RESCOLD=3
-RESENERGY=3
-RESFIRE=3
-RESPHYSICAL=4
-RESPOISON=2
+DupeList=027c1
+On=@Create
+HitPoints={36 48}
+ResCold=3
+ResEnergy=3
+ResFire=3
+ResPhysical=4
+ResPoison=2
 
-[ITEMDEF 02777]
-DEFNAME=iPlateJingasaHeavy
-NAME=plate jingasa
-TYPE=tArmor
+[ItemDef 02777]
+DefName=iPlateJingasaHeavy
+Name=plate jingasa
+Type=tArmor
 FLIP=1
-//ARMOR=30
+//Armor=30
 VALUE=116
-WEIGHT=20.0
-RESOURCES=20 iIngotIron
-SKILLMAKE=Blacksmithing 45.0
-CATEGORY=Provisions - Armor
-SUBSECTION=Helmets
-DESCRIPTION=Heavy Plate Jingasa
+Weight=20.0
+Resources=20 iIronIngot
+SkillMake=Blacksmithing 45.0
+Category=Equipment
+Subsection=Armor: Helmets
+Description=Heavy Plate Jingasa
 ReqStr=55
 CanUse=CanUHuman|CanUElf
-DUPELIST=027c2
-ON=@Create
-HITPOINTS={36 48}
-RESCOLD=2
-RESENERGY=2
-RESFIRE=2
-RESPHYSICAL=7
-RESPOISON=2
+DupeList=027c2
+On=@Create
+HitPoints={36 48}
+ResCold=2
+ResEnergy=2
+ResFire=2
+ResPhysical=7
+ResPoison=2
 
-[ITEMDEF 02778]
-DEFNAME=iPlatemailKabutoDecorative
-NAME=plate kabuto
-TYPE=tArmor
+[ItemDef 02778]
+DefName=iPlatemailKabutoDecorative
+Name=plate kabuto
+Type=tArmor
 FLIP=1
-//ARMOR=30
+//Armor=30
 VALUE=190
-WEIGHT=25.0
-RESOURCES=25 iIngotIron
-SKILLMAKE=Blacksmithing 90.0
-CATEGORY=Provisions - Armor
-SUBSECTION=Platemail Armor
-DESCRIPTION=Plate Kabuto
+Weight=25.0
+Resources=25 iIronIngot
+SkillMake=Blacksmithing 90.0
+Category=Equipment
+Subsection=Platemail Armor
+Description=Plate Kabuto
 ReqStr=80
 CanUse=CanUHuman|CanUElf
-DUPELIST=027c3
-ON=@Create
-HITPOINTS={36 48}
-RESCOLD=3
-RESENERGY=2
-RESFIRE=3
-RESPHYSICAL=5
-RESPOISON=2
+DupeList=027c3
+On=@Create
+HitPoints={36 48}
+ResCold=3
+ResEnergy=2
+ResFire=3
+ResPhysical=5
+ResPoison=2
 
 
 
-[ITEMDEF 02781]
-DEFNAME=iPlateJingasaLight
-NAME=light platemail jingasa
-TYPE=tArmor
+[ItemDef 02781]
+DefName=iPlateJingasaLight
+Name=light platemail jingasa
+Type=tArmor
 FLIP=1
-//ARMOR=28
+//Armor=28
 VALUE=104
-WEIGHT=18.0
-RESOURCES=18 iIngotIron
-SKILLMAKE=Blacksmithing 45.0
-CATEGORY=Provisions - Armor
-SUBSECTION=Helmets
-DESCRIPTION=Light Platemail Jingasa
+Weight=18.0
+Resources=18 iIronIngot
+SkillMake=Blacksmithing 45.0
+Category=Equipment
+Subsection=Armor: Helmets
+Description=Light Platemail Jingasa
 ReqStr=55
 CanUse=CanUHuman|CanUElf
-DUPELIST=027cc
-ON=@Create
-HITPOINTS={36 48}
-RESCOLD=2
-RESENERGY=2
-RESFIRE=2
-RESPHYSICAL=7
-RESPOISON=2
+DupeList=027cc
+On=@Create
+HitPoints={36 48}
+ResCold=2
+ResEnergy=2
+ResFire=2
+ResPhysical=7
+ResPoison=2
 
 
-[ITEMDEF 02784]
-DEFNAME=iPlateJingasaSmall
-NAME=small platemail jingasa
-TYPE=tArmor
+[ItemDef 02784]
+DefName=iPlateJingasaSmall
+Name=small platemail jingasa
+Type=tArmor
 FLIP=1
-//ARMOR=13
+//Armor=13
 VALUE=93
-WEIGHT=16.0
-RESOURCES=16 iIngotIron
-SKILLMAKE=Blacksmithing 45.0
-CATEGORY=Provisions - Armor
-SUBSECTION=Helmets
-DESCRIPTION=Small Platemail Jingasa
+Weight=16.0
+Resources=16 iIronIngot
+SkillMake=Blacksmithing 45.0
+Category=Equipment
+Subsection=Armor: Helmets
+Description=Small Platemail Jingasa
 ReqStr=55
 CanUse=CanUHuman|CanUElf
-DUPELIST=027cf
-ON=@Create
-HITPOINTS={36 48}
-RESCOLD=2
-RESENERGY=2
-RESFIRE=2
-RESPHYSICAL=7
-RESPOISON=2
+DupeList=027cf
+On=@Create
+HitPoints={36 48}
+ResCold=2
+ResEnergy=2
+ResFire=2
+ResPhysical=7
+ResPoison=2
 
-[ITEMDEF 02785]
-DEFNAME=iHelmKabutoBattle
-NAME=platemail battle kabuto
-TYPE=tArmor
+[ItemDef 02785]
+DefName=iHelmKabutoBattle
+Name=platemail battle kabuto
+Type=tArmor
 FLIP=1
-//ARMOR=30
+//Armor=30
 VALUE=114
-WEIGHT=15.0
-RESOURCES=15 iIngotIron
-SKILLMAKE=Blacksmithing 90.0
-CATEGORY=Provisions - Armor
-SUBSECTION=Platemail Armor
-DESCRIPTION=Platemail Battle Kabuto
+Weight=15.0
+Resources=15 iIronIngot
+SkillMake=Blacksmithing 90.0
+Category=Equipment
+Subsection=Platemail Armor
+Description=Platemail Battle Kabuto
 ReqStr=70
 CanUse=CanUHuman|CanUElf
-DUPELIST=027d0
-ON=@Create
-HITPOINTS={36 48}
-RESCOLD=2
-RESENERGY=3
-RESFIRE=2
-RESPHYSICAL=6
-RESPOISON=2
+DupeList=027d0
+On=@Create
+HitPoints={36 48}
+ResCold=2
+ResEnergy=3
+ResFire=2
+ResPhysical=6
+ResPoison=2
 
 
 
-[ITEMDEF 02789]
-DEFNAME=iPlatemailKabuto
-NAME=standard platemail kabuto
-TYPE=tArmor
+[ItemDef 02789]
+DefName=iPlatemailKabuto
+Name=standard platemail kabuto
+Type=tArmor
 FLIP=1
-//ARMOR=30
+//Armor=30
 VALUE=99
-WEIGHT=15.0
-RESOURCES=15 iIngotIron
-SKILLMAKE=Blacksmithing 65.0
-CATEGORY=Provisions - Armor
-SUBSECTION=Platemail Armor
-DESCRIPTION=Standard Platemail Kabuto
+Weight=15.0
+Resources=15 iIronIngot
+SkillMake=Blacksmithing 65.0
+Category=Equipment
+Subsection=Platemail Armor
+Description=Standard Platemail Kabuto
 ReqStr=70
 CanUse=CanUHuman|CanUElf
-DUPELIST=027d4
-ON=@Create
-HITPOINTS={36 48}
-RESCOLD=2
-RESENERGY=3
-RESFIRE=2
-RESPHYSICAL=6
-RESPOISON=3
+DupeList=027d4
+On=@Create
+HitPoints={36 48}
+ResCold=2
+ResEnergy=3
+ResFire=2
+ResPhysical=6
+ResPoison=3
 
 
 
-[ITEMDEF 02790]
-DEFNAME=iBeltNinjaLeather
-NAME=leather ninja belt
-TYPE=tArmorLeather
+[ItemDef 02790]
+DefName=iBeltNinjaLeather
+Name=leather ninja belt
+Type=tArmorLeather
 FLIP=1
 //LAYER=layer_half_apron
-//ARMOR=13
+//Armor=13
 VALUE=40
-WEIGHT=5.1
-RESOURCES=5 iHidesCut,1 iThread
-SKILLMAKE=Tailoring 50.0,tSewingKit,armslore 38.0
-CATEGORY=Provisions - Clothes
-SUBSECTION=Miscellaneous
-DESCRIPTION=Leather Ninja Belt
+Weight=5.1
+Resources=5 iHidesCut,1 iThread
+SkillMake=Tailoring 50.0,tSewingKit,armslore 38.0
+Category=Provisions - Clothes
+Subsection=Miscellaneous
+Description=Leather Ninja Belt
 CanUse=CanUHuman|CanUElf
 ReqStr=10
-DUPELIST=027db
-ON=@Create
-HITPOINTS={36 48}
-RESPOISON=1
+DupeList=027db
+On=@Create
+HitPoints={36 48}
+ResPoison=1
 
 
-[ITEMDEF 027bf]
+[ItemDef 027bf]
 //chainmail hatsuburi
-DUPEITEM=02774
+DupeItem=02774
 
 
-[ITEMDEF 027db]
+[ItemDef 027db]
 //leather ninja belt
-DUPEITEM=02790
+DupeItem=02790
 
 
-[ITEMDEF 02b06]
-DEFNAME=iLegsHonor
-NAME=Legs of Honor
-TYPE=tArmor
+[ItemDef 02b06]
+DefName=iLegsHonor
+Name=Legs of Honor
+Type=tArmor
 FLIP=1
-//ARMOR=40
+//Armor=40
 VALUE=1000
-WEIGHT=20.0
-RESOURCES=15 iIngotIron,3 iIngotGold,2 iIngotSilver
-SKILLMAKE=Blacksmithing 100.0,Armslore 100.0
-CATEGORY=Quest
-SUBSECTION=8th Age
-DESCRIPTION=Legs of Honor
+Weight=20.0
+Resources=15 iIronIngot,3 iIngotGold,2 iIngotSilver
+SkillMake=Blacksmithing 100.0,Armslore 100.0
+Category=Quest
+Subsection=8th Age
+Description=Legs of Honor
 CanUse=CanUHuman|CanUElf
 ReqStr=70
-DUPELIST=02b07
-ON=@Create
+DupeList=02b07
+On=@Create
 ATTR=attr_magic
 COLOR=1827//tarnish
-HITPOINTS=255
+HitPoints=255
 Rarity=1
 TAG.VirtueArmor=1
-RESCOLD=10
-RESENERGY=8
-RESFIRE=7
-RESPHYSICAL=8
-RESPOISON=7
+ResCold=10
+ResEnergy=8
+ResFire=7
+ResPhysical=8
+ResPoison=7
 
-[ITEMDEF 02b07]
+[ItemDef 02b07]
 //legs of honor
-DUPEITEM=02b06
+DupeItem=02b06
 
-[ITEMDEF 02b08]
-DEFNAME=iBreastplateJustice
-NAME=Breastplate of Justice
-TYPE=tArmor
+[ItemDef 02b08]
+DefName=iBreastplateJustice
+Name=Breastplate of Justice
+Type=tArmor
 FLIP=1
-//ARMOR=40
+//Armor=40
 VALUE=1000
-WEIGHT=25.0
-RESOURCES=18 iIngotIron,4 iIngotGold,3 iIngotSilver
-SKILLMAKE=Blacksmithing 100.0,Armslore 100.0
-CATEGORY=Quest
-SUBSECTION=8th Age
-DESCRIPTION=Breastplate of Justice
+Weight=25.0
+Resources=18 iIronIngot,4 iIngotGold,3 iIngotSilver
+SkillMake=Blacksmithing 100.0,Armslore 100.0
+Category=Quest
+Subsection=8th Age
+Description=Breastplate of Justice
 CanUse=CanUHuman|CanUElf
 ReqStr=65
-DUPELIST=02b09
-ON=@Create
+DupeList=02b09
+On=@Create
 ATTR=attr_magic
 COLOR=1827//tarnish
-HITPOINTS=255
+HitPoints=255
 Rarity=1
 TAG.VirtueArmor=1
-RESCOLD=8
-RESENERGY=8
-RESFIRE=7
-RESPHYSICAL=10
-RESPOISON=7
+ResCold=8
+ResEnergy=8
+ResFire=7
+ResPhysical=10
+ResPoison=7
 
-[ITEMDEF 02b09]
+[ItemDef 02b09]
 //breastplate of justice
-DUPEITEM=02b08
+DupeItem=02b08
 
-[ITEMDEF 02b0a]
-DEFNAME=iArmsCompassion
-NAME=Arms of Compassion
-TYPE=tArmor
+[ItemDef 02b0a]
+DefName=iArmsCompassion
+Name=Arms of Compassion
+Type=tArmor
 FLIP=1
-//ARMOR=40
+//Armor=40
 VALUE=1000
-WEIGHT=18.0
-RESOURCES=12 iIngotIron,3 iIngotGold,3 iIngotSilver
-SKILLMAKE=Blacksmithing 100.0,Armslore 100.0
-CATEGORY=Quest
-SUBSECTION=8th Age
-DESCRIPTION=Arms of Compassion
+Weight=18.0
+Resources=12 iIronIngot,3 iIngotGold,3 iIngotSilver
+SkillMake=Blacksmithing 100.0,Armslore 100.0
+Category=Quest
+Subsection=8th Age
+Description=Arms of Compassion
 CanUse=CanUHuman|CanUElf
 ReqStr=60
-DUPELIST=02b09
-ON=@Create
+DupeList=02b09
+On=@Create
 ATTR=attr_magic
 COLOR=1827//tarnish
-HITPOINTS=255
+HitPoints=255
 Rarity=1
 TAG.VirtueArmor=1
-RESCOLD=6
-RESENERGY=7
-RESFIRE=11
-RESPHYSICAL=8
-RESPOISON=8
+ResCold=6
+ResEnergy=7
+ResFire=11
+ResPhysical=8
+ResPoison=8
 
-[ITEMDEF 02b0b]
+[ItemDef 02b0b]
 //arms of compassion
-DUPEITEM=02b0a
+DupeItem=02b0a
 
-[ITEMDEF 02b0c]
-DEFNAME=iGauntletsValor
-NAME=Gauntlets of Valor
-TYPE=tArmor
+[ItemDef 02b0c]
+DefName=iGauntletsValor
+Name=Gauntlets of Valor
+Type=tArmor
 FLIP=1
-//ARMOR=40
+//Armor=40
 VALUE=1000
-WEIGHT=12.0
-RESOURCES=8 iIngotIron,3 iIngotGold,1 iIngotSilver
-SKILLMAKE=Blacksmithing 100.0,Armslore 100.0
-CATEGORY=Quest
-SUBSECTION=8th Age
-DESCRIPTION=Gauntlets of Valor
+Weight=12.0
+Resources=8 iIronIngot,3 iIngotGold,1 iIngotSilver
+SkillMake=Blacksmithing 100.0,Armslore 100.0
+Category=Quest
+Subsection=8th Age
+Description=Gauntlets of Valor
 CanUse=CanUHuman|CanUElf
 ReqStr=60
-DUPELIST=02b0d
-ON=@Create
+DupeList=02b0d
+On=@Create
 ATTR=attr_magic
 COLOR=1827//tarnish
-HITPOINTS=255
+HitPoints=255
 Rarity=1
 TAG.VirtueArmor=1
-RESCOLD=6
-RESENERGY=7
-RESFIRE=11
-RESPHYSICAL=8
-RESPOISON=8
+ResCold=6
+ResEnergy=7
+ResFire=11
+ResPhysical=8
+ResPoison=8
 
-[ITEMDEF 02b0d]
+[ItemDef 02b0d]
 //gauntlets of valor
-DUPEITEM=02b0c
+DupeItem=02b0c
 
-[ITEMDEF 02b0e]
-DEFNAME=iGorgetTruth
-NAME=Gorget of Honesty
-TYPE=tArmor
+[ItemDef 02b0e]
+DefName=iGorgetTruth
+Name=Gorget of Honesty
+Type=tArmor
 FLIP=1
-//ARMOR=40
+//Armor=40
 VALUE=1000
-WEIGHT=10.0
-RESOURCES=7 iIngotIron,2 iIngotGold,1 iIngotSilver
-SKILLMAKE=Blacksmithing 100.0,Armslore 100.0
-CATEGORY=Quest
-SUBSECTION=8th Age
-DESCRIPTION=Gorget of Truth
+Weight=10.0
+Resources=7 iIronIngot,2 iIngotGold,1 iIngotSilver
+SkillMake=Blacksmithing 100.0,Armslore 100.0
+Category=Quest
+Subsection=8th Age
+Description=Gorget of Truth
 CanUse=CanUHuman|CanUElf
 ReqStr=45
-DUPELIST=02b0f
-ON=@Create
+DupeList=02b0f
+On=@Create
 ATTR=attr_magic
 COLOR=1827//tarnish
-HITPOINTS=255
+HitPoints=255
 Rarity=1
 TAG.VirtueArmor=1
-RESCOLD=9
-RESENERGY=7
-RESFIRE=7
-RESPHYSICAL=7
-RESPOISON=5
+ResCold=9
+ResEnergy=7
+ResFire=7
+ResPhysical=7
+ResPoison=5
 
-[ITEMDEF 02b0f]
+[ItemDef 02b0f]
 //gorget of truth
-DUPEITEM=02b0e
+DupeItem=02b0e
 
-[ITEMDEF 02b10]
-DEFNAME=iHelmSpirituality
-NAME=Helm Spirituality
-TYPE=tArmor
+[ItemDef 02b10]
+DefName=iHelmSpirituality
+Name=Helm Spirituality
+Type=tArmor
 FLIP=1
-//ARMOR=40
+//Armor=40
 VALUE=1000
-WEIGHT=15.0
-RESOURCES=10 iIngotIron,3 iIngotGold,2 iIngotSilver
-SKILLMAKE=Blacksmithing 100.0,Armslore 100.0
-CATEGORY=Quest
-SUBSECTION=8th Age
-DESCRIPTION=Helm of Spirituality
+Weight=15.0
+Resources=10 iIronIngot,3 iIngotGold,2 iIngotSilver
+SkillMake=Blacksmithing 100.0,Armslore 100.0
+Category=Quest
+Subsection=8th Age
+Description=Helm of Spirituality
 CanUse=CanUHuman|CanUElf
 ReqStr=25
-DUPELIST=02b11
-ON=@Create
+DupeList=02b11
+On=@Create
 ATTR=attr_magic
 COLOR=1827//tarnish
-HITPOINTS=255
+HitPoints=255
 Rarity=1
 TAG.VirtueArmor=1
-RESCOLD=7
-RESENERGY=8
-RESFIRE=8
-RESPHYSICAL=8
-RESPOISON=9
+ResCold=7
+ResEnergy=8
+ResFire=8
+ResPhysical=8
+ResPoison=9
 
-[ITEMDEF 02b11]
+[ItemDef 02b11]
 //helm of spirituality
-DUPEITEM=02b10
+DupeItem=02b10
 
-[ITEMDEF 02b12]
-DEFNAME=iSolaretesSacrifice
-NAME=Sollerets of Sacrifice
-TYPE=tArmor
+[ItemDef 02b12]
+DefName=iSolaretesSacrifice
+Name=Sollerets of Sacrifice
+Type=tArmor
 FLIP=1
-//ARMOR=40
+//Armor=40
 VALUE=1000
-WEIGHT=10.0
-RESOURCES=7 iIngotIron,2 iIngotGold,1 iIngotSilver
-SKILLMAKE=Blacksmithing 100.0,Armslore 100.0
-CATEGORY=Quest
-SUBSECTION=8th Age
-DESCRIPTION=Sollerets of Sacrifice
+Weight=10.0
+Resources=7 iIronIngot,2 iIngotGold,1 iIngotSilver
+SkillMake=Blacksmithing 100.0,Armslore 100.0
+Category=Quest
+Subsection=8th Age
+Description=Sollerets of Sacrifice
 CanUse=CanUHuman|CanUElf
 ReqStr=10
-DUPELIST=02b13
-ON=@Create
+DupeList=02b13
+On=@Create
 ATTR=attr_magic
 COLOR=1827//tarnish
-HITPOINTS=255
+HitPoints=255
 Rarity=1
 TAG.VirtueArmor=1
-RESPHYSICAL=8
+ResPhysical=8
 
-[ITEMDEF 02b13]
+[ItemDef 02b13]
 //solaretes of sacrifice
-DUPEITEM=02b12
+DupeItem=02b12
 
 
-[ITEMDEF 02b6e]
-DEFNAME=iHelmCirclet1
-NAME=circlet
-TYPE=tArmor
+[ItemDef 02b6e]
+DefName=iHelmCirclet1
+Name=circlet
+Type=tArmor
 FLIP=1
-//ARMOR=30
+//Armor=30
 VALUE=65
-WEIGHT=10.0
-RESOURCES=10 iIngotIron
-SKILLMAKE=Blacksmithing 63.0,Armslore 25.0
-CATEGORY=Provisions - Armor
-SUBSECTION=Elven
-DESCRIPTION=Circlet
+Weight=10.0
+Resources=10 iIronIngot
+SkillMake=Blacksmithing 63.0,Armslore 25.0
+Category=Equipment
+Subsection=Elven
+Description=Circlet
 CanUse=CanUElf
 ReqStr=10
-DUPELIST=03165
-ON=@Create
-HITPOINTS={36 48}
-RESCOLD=2
-RESENERGY=5
-RESFIRE=5
-RESPHYSICAL=1
-RESPOISON=2
+DupeList=03165
+On=@Create
+HitPoints={36 48}
+ResCold=2
+ResEnergy=5
+ResFire=5
+ResPhysical=1
+ResPoison=2
 
-[ITEMDEF 02b6f]
-DEFNAME=iHelmCirclet2
-NAME=royal circlet
-TYPE=tArmor
+[ItemDef 02b6f]
+DefName=iHelmCirclet2
+Name=royal circlet
+Type=tArmor
 FLIP=1
-//ARMOR=30
+//Armor=30
 VALUE=70
-WEIGHT=10.0
-RESOURCES=10 iIngotIron
-SKILLMAKE=Blacksmithing 77.3,Armslore 25.0
-CATEGORY=Provisions - Armor
-SUBSECTION=Elven
-DESCRIPTION=Royal Circlet
+Weight=10.0
+Resources=10 iIronIngot
+SkillMake=Blacksmithing 77.3,Armslore 25.0
+Category=Equipment
+Subsection=Elven
+Description=Royal Circlet
 CanUse=CanUElf
 ReqStr=10
-DUPELIST=03166
-ON=@Create
-HITPOINTS={36 48}
-RESCOLD=2
-RESENERGY=5
-RESFIRE=5
-RESPHYSICAL=1
-RESPOISON=2
+DupeList=03166
+On=@Create
+HitPoints={36 48}
+ResCold=2
+ResEnergy=5
+ResFire=5
+ResPhysical=1
+ResPoison=2
 
-[ITEMDEF 02b70]
-DEFNAME=iHelmCirclet3
-NAME=gemmed circlet
-TYPE=tArmor
+[ItemDef 02b70]
+DefName=iHelmCirclet3
+Name=gemmed circlet
+Type=tArmor
 FLIP=1
-//ARMOR=30
+//Armor=30
 VALUE=1050
-WEIGHT=10.0
-RESOURCES=8 iIngotIron,20 iGemDiamond
-SKILLMAKE=Blacksmithing 93.2,Armslore 25.0
-CATEGORY=Provisions - Armor
-SUBSECTION=Elven
-DESCRIPTION=Gemmed Circlet
+Weight=10.0
+Resources=8 iIronIngot,20 iGemDiamond
+SkillMake=Blacksmithing 93.2,Armslore 25.0
+Category=Equipment
+Subsection=Elven
+Description=Gemmed Circlet
 CanUse=CanUElf
 ReqStr=10
-DUPELIST=03167
-ON=@Create
-HITPOINTS={36 48}
-RESCOLD=2
-RESENERGY=5
-RESFIRE=5
-RESPHYSICAL=1
-RESPOISON=2
+DupeList=03167
+On=@Create
+HitPoints={36 48}
+ResCold=2
+ResEnergy=5
+ResFire=5
+ResPhysical=1
+ResPoison=2
 
-[ITEMDEF 02b71]
-DEFNAME=iHelmRaven
-NAME=raven helm
-TYPE=tArmor
+[ItemDef 02b71]
+DefName=iHelmRaven
+Name=raven helm
+Type=tArmor
 FLIP=1
-//ARMOR=30
+//Armor=30
 VALUE=65
-WEIGHT=10.0
-RESOURCES=10 iBoard,25 iFeather,4 iBark
-SKILLMAKE=Carpentry 65.0,Armslore 25.0
-CATEGORY=Provisions - Armor
-SUBSECTION=Elven
-DESCRIPTION=Raven Helm
+Weight=10.0
+Resources=10 iBoard,25 iFeather,4 iBark
+SkillMake=Carpentry 65.0,Armslore 25.0
+Category=Equipment
+Subsection=Elven
+Description=Raven Helm
 CanUse=CanUElf
 ReqStr=25
-DUPELIST=03168
-ON=@Create
-HITPOINTS={36 48}
-RESCOLD=2
-RESENERGY=5
-RESFIRE=1
-RESPHYSICAL=5
-RESPOISON=2
+DupeList=03168
+On=@Create
+HitPoints={36 48}
+ResCold=2
+ResEnergy=5
+ResFire=1
+ResPhysical=5
+ResPoison=2
 
-[ITEMDEF 02b72]
-DEFNAME=iHelmVulture
-NAME=vulture helm
-TYPE=tArmor
+[ItemDef 02b72]
+DefName=iHelmVulture
+Name=vulture helm
+Type=tArmor
 FLIP=1
-//ARMOR=30
+//Armor=30
 VALUE=65
-WEIGHT=10.0
-RESOURCES=10 iBoard,25 iFeather,4 iBark
-SKILLMAKE=Carpentry 63.9,Armslore 25.0
-CATEGORY=Provisions - Armor
-SUBSECTION=Elven
-DESCRIPTION=Vulture Helm
+Weight=10.0
+Resources=10 iBoard,25 iFeather,4 iBark
+SkillMake=Carpentry 63.9,Armslore 25.0
+Category=Equipment
+Subsection=Elven
+Description=Vulture Helm
 CanUse=CanUElf
 ReqStr=25
-DUPELIST=03169
-ON=@Create
-HITPOINTS={36 48}
-RESCOLD=2
-RESENERGY=5
-RESFIRE=1
-RESPHYSICAL=5
-RESPOISON=2
+DupeList=03169
+On=@Create
+HitPoints={36 48}
+ResCold=2
+ResEnergy=5
+ResFire=1
+ResPhysical=5
+ResPoison=2
 
-[ITEMDEF 02b73]
-DEFNAME=iHelmWinged2
-NAME=winged helm
-TYPE=tArmor
+[ItemDef 02b73]
+DefName=iHelmWinged2
+Name=winged helm
+Type=tArmor
 FLIP=1
-//ARMOR=30
+//Armor=30
 VALUE=65
-WEIGHT=10.0
-RESOURCES=10 iBoard,60 iFeather,4 iBark
-SKILLMAKE=Carpentry 58.4
-CATEGORY=Provisions - Armor
-SUBSECTION=Elven
-DESCRIPTION=Winged Helm
+Weight=10.0
+Resources=10 iBoard,60 iFeather,4 iBark
+SkillMake=Carpentry 58.4
+Category=Equipment
+Subsection=Elven
+Description=Winged Helm
 CanUse=CanUElf
 ReqStr=25
-DUPELIST=0316a
-ON=@Create
-HITPOINTS={36 48}
-RESCOLD=2
-RESENERGY=5
-RESFIRE=1
-RESPHYSICAL=5
-RESPOISON=2
+DupeList=0316a
+On=@Create
+HitPoints={36 48}
+ResCold=2
+ResEnergy=5
+ResFire=1
+ResPhysical=5
+ResPoison=2
 
 
 
 
-[ITEMDEF 042de]
-DEFNAME=iGargishPlateTalons
-NAME=Gargish plate talons
-TYPE=tArmor
+[ItemDef 042de]
+DefName=iGargishPlateTalons
+Name=Gargish plate talons
+Type=tArmor
 FLIP=1
-//ARMOR=15
+//Armor=15
 //LAYER=layer_shoes
 VALUE=57
-WEIGHT=8.0
-RESOURCES=8 iIngotIron
-SKILLMAKE=Blacksmithing 56.8,Armslore 10.0
-CATEGORY=Provisions - Armor
-SUBSECTION=Plate Gargoyle Armor
-DESCRIPTION=Gargish Plate Talons
+Weight=8.0
+Resources=8 iIronIngot
+SkillMake=Blacksmithing 56.8,Armslore 10.0
+Category=Equipment
+Subsection=Plate Gargoyle Armor
+Description=Gargish Plate Talons
 canuse=CanUGargoyle
 ReqStr=20
-DUPELIST=042df
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+DupeList=042df
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
-[ITEMDEF 042df]
+[ItemDef 042df]
 //plate talons
-DUPEITEM=042de
+DupeItem=042de
 
 
 // Gargish Leather Talons
-[itemdef 041d8]
-defname=iGargishLeatherTalons
-name=gargish leather talons
-nameloc=1095728
-type=tArmorLeather
+[ItemDef 041d8]
+DefName=iGargishLeatherTalons
+Name=gargish leather talons
+Nameloc=1095728
+Type=tArmorLeather
 can=CanIFlip|CanIRepair|CanIDye|canIExceptional|canIMakersmark|canIRetaincolor|canIImbue|canIEnchant|canIRecycle
 layer=layer_shoes
-weight=2
+Weight=2
 reqstr=10
 canuse=CanUGargoyle|CanUMale|CanUFemale
 expansion=7
-resources=6 iHidesCut
-skillmake=tailoring 40.4
-dupelist=041d9
+Resources=6 iHidesCut
+SkillMake=tailoring 40.4
+DupeList=041d9
 
-category=Provisions - Armor
-subsection=Gargish Leather Armor
-description=Gargish Leather Talons
+Category=Equipment
+Subsection=Gargish Leather Armor
+Description=Gargish Leather Talons
 
-on=@Create
-hitpoints={ 36 48 }
+On=@Create
+HitPoints={ 36 48 }
 
-[itemdef 041d9]
-dupeitem=041d8
-nameloc=1095729
+[ItemDef 041d9]
+DupeItem=041d8
+Nameloc=1095729
 
 // Gargish Belt
-[itemdef 0450d]
-defname=iGargishBelt
-name=gargish belt
-nameloc=1096549
-type=tClothing
+[ItemDef 0450d]
+DefName=iGargishBelt
+Name=gargish belt
+Nameloc=1096549
+Type=tClothing
 can=CanIFlip|CanIRepair|CanIDye|canIExceptional|canIMakersmark|canIRetaincolor|canIImbue|canIEnchant|canIRecycle
 layer=
-weight=
+Weight=
 reqstr=
 canuse=CanUGargoyle|CanUMale|CanUFemale
 expansion=7
-resources=
-skillmake=
-dupelist=0450e
+Resources=
+SkillMake=
+DupeList=0450e
 
-category=Provisions - Armor
-subsection=Gargish Leather Armor
-description=Gargish Belt
+Category=Equipment
+Subsection=Gargish Leather Armor
+Description=Gargish Belt
 
-on=@Create
-hitpoints={ 36 48 }
+On=@Create
+HitPoints={ 36 48 }
 
-[itemdef 0450e]
-dupeitem=0450d
-nameloc=1096550
+[ItemDef 0450e]
+DupeItem=0450d
+Nameloc=1096550
 
 [EOF]

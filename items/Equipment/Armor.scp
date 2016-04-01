@@ -2701,6 +2701,7 @@ DupeItem=013BF
 [ItemDef 01412]
 DefName=iPlateHelm
 Name=plate helm
+NameLoc=1025138
 Type=tPlatemailArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
 CanUse=CanUHuman|CanUElf
@@ -2726,6 +2727,7 @@ ResPoison=3
 ResEnergy=2
 
 [ItemDef 01412]
+NameLoc=1025145
 DupeItem=01419
 
 

@@ -91,6 +91,11 @@ On=@Create
 Can |= CanIRegenMana|CanIRegenHits|CanIRegenStam
 
 
+[TypeDef tVirtueArmor]
+On=@Create
+Can |= CanIRegenMana|CanIRegenHits|CanIRegenStam
+
+
 [TypeDef tChaosShield]
 On=@EquipTest
 //Src.AlignmentShield 2
