@@ -1,0 +1,227 @@
+[Comment notes]
+Ugh tons of clilocs for this I will dig out later.
+All base items are blank minus the green one when it comes to NameLoc line ups.
+1071000 is soulstone fragment
+1076155 Red Soulstone
+1078833 Red Soulstone
+1078834 Green Soulstone
+1078835 Blue Soulstone
+
+
+[ItemDef 02a93]
+DefName=iSoulstone1
+Name=soulstone
+NameLoc=1030899	// soulstone
+Weight=5
+//TEvents=tLightLit
+DupeList=02a94,02a95,02a96,02a97
+
+Category=Miscellaneous
+Subsection=Soulstones: Base
+Description=Soulstone (Green) (South)
+
+On=@Create
+MoreM=29
+
+[ItemDef 02a94]
+NameLoc=1030900	// soulstone
+DupeItem=02a93
+
+[ItemDef 02a95]
+NameLoc=1030901	// soulstone
+DupeItem=02a93
+
+[ItemDef 02a96]
+NameLoc=1030902	// soulstone
+DupeItem=02a93
+
+[ItemDef 02a97]
+NameLoc=1030903	// <Center>soulstone</Center>	// WTF?
+DupeItem=02a93
+
+
+[ItemDef 02aa1]
+DefName=iSoulstoneFragment1
+Name=soulstone fragment
+NameLoc=1030913	// Blank
+Weight=5
+
+Category=Miscellaneous
+Subsection=Soulstones: Base
+Description=Soulstone Fragment
+
+
+[ItemDef 02aa2]
+DefName=iSoulstoneFragment2
+Name=soulstone fragment
+NameLoc=1030914	// Blank
+Weight=5
+
+Category=Miscellaneous
+Subsection=Soulstones: Base
+Description=Soulstone Fragment
+
+
+[ItemDef 02aa3]
+DefName=iSoulstoneFragment3
+Name=soulstone fragment
+NameLoc=1030915	// Blank
+Weight=5
+
+Category=Miscellaneous
+Subsection=Soulstones: Base
+Description=Soulstone Fragment 
+
+
+[ItemDef 02aa4]
+DefName=iSoulstoneFragment4
+Name=soulstone fragment
+NameLoc=1030916	// Blank
+Weight=5
+
+Category=Miscellaneous
+Subsection=Soulstones: Base
+Description=Soulstone Fragment 
+
+
+[ItemDef 02aa5]
+DefName=iSoulstoneFragment5
+Name=soulstone fragment
+NameLoc=1030917	// Blank
+Weight=5
+
+Category=Miscellaneous
+Subsection=Soulstones: Base
+Description=Soulstone Fragment 
+
+
+[ItemDef 02aa6]
+DefName=iSoulstoneFragment6
+Name=soulstone fragment
+NameLoc=1030918	// Blank
+Weight=5
+
+Category=Miscellaneous
+Subsection=Soulstones: Base
+Description=Soulstone Fragment 
+
+
+[ItemDef 02aa7]
+DefName=iSoulstoneFragment7
+Name=soulstone fragment
+NameLoc=1030919	// Blank
+Weight=5
+
+Category=Miscellaneous
+Subsection=Soulstones: Base
+Description=Soulstone Fragment 
+
+
+[ItemDef 02aa8]
+DefName=iSoulstoneFragment8
+Name=soulstone fragment
+NameLoc=1030920	// Blank
+Weight=5
+
+Category=Miscellaneous
+Subsection=Soulstones: Base
+Description=Soulstone Fragment 
+
+
+[ItemDef 02aa9]
+DefName=iSoulstoneFragment9
+Name=soulstone fragment
+NameLoc=1030921	// Blank
+Weight=5
+
+Category=Miscellaneous
+Subsection=Soulstones: Base
+Description=Soulstone Fragment 
+
+
+[ItemDef 02ADC]
+DefName=iBlueSoulstone1
+Name=blue soulstone
+NameLoc=1030972	// Blank
+Weight=5
+DupeList=02ADD,02ADE,02ADF,02AD0
+
+Category=Miscellaneous
+Subsection=Soulstones: Base
+Description=Blue Soulstone (South)
+
+
+[ItemDef 02ADD]
+NameLoc=1030973	// Blank
+DupeItem=02ADC
+
+[ItemDef 02ADE]
+NameLoc=1030974	// Blank
+DupeItem=02ADC
+
+[ItemDef 02ADF]
+NameLoc=1030975	// Blank
+DupeItem=02ADC
+
+[ItemDef 02AE0]
+NameLoc=1030976	// Blank
+DupeItem=02ADC
+
+
+[ItemDef 02AEC]
+DefName=iBlueSoulstone
+Name=blue soulstone
+NameLoc=1030988	// Blank
+Weight=5
+DupeList=02AED,02AEE,02AEF,02AF0
+
+Category=Miscellaneous
+Subsection=Soulstones
+Description=Blue Soulstone (East)
+
+[ItemDef 02AED]
+NameLoc=1030989	// Blank
+DupeItem=02AEC
+
+[ItemDef 02AEE]
+NameLoc=1030990	// Blank
+DupeItem=02AEC
+
+[ItemDef 02AEF]
+NameLoc=1030991	// Blank
+DupeItem=02AEC
+
+[ItemDef 02AF0]
+NameLoc=1030992	// Blank
+DupeItem=02AEC
+
+
+[ItemDef 032f3]
+DefName=iRedSoulstone
+Name=red soulstone
+NameLoc=1033043	// Blank
+Weight=5
+DupeList=032F4,032F5,032F6,032F7
+
+Category=Miscellaneous
+Subsection=Soulstones
+Description=Red Soulstone (South)
+
+[ItemDef 032f4]
+NameLoc=1033044	// Blank
+DupeItem=032f3
+
+[ItemDef 032f5]
+NameLoc=1033045	// Blank
+DupeItem=032f3
+
+[ItemDef 032f6]
+NameLoc=1033046	// Blank
+DupeItem=032f3
+
+[ItemDef 032f7]
+NameLoc=1033047	// Blank
+DupeItem=032f3
+
+
+[EOF]

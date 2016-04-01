@@ -193,6 +193,11 @@ Description=Large Aquarium Deed (north)
 On=@Create
 More1=mAquarium1
 
+On=@ClientTooltip
+NameCliLoc
+WeightCliLoc
+Return 1
+
 
 [ItemDef iAquarium2Deed]
 ID=iDeed
@@ -207,6 +212,11 @@ Description=Large Aquarium Deed (East)
 
 On=@Create
 More1=mAquarium2
+
+On=@ClientTooltip
+NameCliLoc
+WeightCliLoc
+Return 1
 
 
 [ItemDef 03060]

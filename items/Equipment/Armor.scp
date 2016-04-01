@@ -1241,7 +1241,7 @@ DupeItem=01C02
 
 
 // Studded Mempo
-[ItemDef 027D9]
+[ItemDef 0279D]
 DefName=iStuddedMempo
 Name=studded mempo
 Type=tStuddedArmor

@@ -2882,16 +2882,12 @@ Description=Bola
 //hakama-shita
 DupeItem=0279c
 
-[ItemDef 027e8]
-//studded mempo
-DupeItem=0279d
-
 [ItemDef 027eb]
-//studded mempo
+// obi
 DupeItem=027a0
 
 [ItemDef 027ec]
-//studded mempo
+//Jin baori
 DupeItem=027a1
 
 
@@ -2916,25 +2912,6 @@ RETURN 1
 [ItemDef 02831]
 //origami kit
 DupeItem=02830
-
-[SKILLMENU sm_origami]
-Origami
-ON=iOrigami1 <Name> (<resmake>)
-MAKEITEM=iOrigami1
-ON=iOrigami2 <Name> (<resmake>)
-MAKEITEM=iOrigami2
-ON=iOrigami3 <Name> (<resmake>)
-MAKEITEM=iOrigami3
-ON=iOrigami4 <Name> (<resmake>)
-MAKEITEM=iOrigami4
-ON=iOrigami5 <Name> (<resmake>)
-MAKEITEM=iOrigami5
-ON=iOrigami6 <Name> (<resmake>)
-MAKEITEM=iOrigami6
-ON=iOrigamiDragon <Name> (<resmake>)
-MAKEITEM=iOrigamiDragon
-ON=iOrigamiBunny <Name> (<resmake>)
-MAKEITEM=iOrigamiBunny
 
 [ItemDef 02832]
 DefName=iWindchime
@@ -3300,88 +3277,6 @@ DupeList=02a4c
 DupeItem=02a4b
 
 
-[ItemDef 02a93]
-DefName=iSoulstoneGreen
-Name=green soulstone
-Type=tNormal //t_soulstone
-TDATA3=1
-Weight=200.0
-Resources=20 iRockPlain
-Category=Decoration - Miscellaneous
-Subsection=Soulstone
-Description=Green Soulstone
-DupeList=02a94,02a95,02a96,02a97
-
-[ItemDef 02a94]
-//Green Soulstone
-DupeItem=02a93
-
-[ItemDef 02a95]
-//Green Soulstone
-DupeItem=02a93
-
-[ItemDef 02a96]
-//Green Soulstone
-DupeItem=02a93
-
-[ItemDef 02a97]
-//Green Soulstone
-DupeItem=02a93
-
-
-[ItemDef 02aa1]
-DefName=iSoulstoneFragment1
-Type=tNormal
-Weight=50.0
-Resources=5 iRockPlain
-Category=Decoration - Miscellaneous
-Subsection=Soulstone
-Description=Soulstone Fragment 1
-DupeList=02aa2,02aa3
-
-[ItemDef 02aa2]
-//soulstone fragment
-DupeItem=02aa1
-
-[ItemDef 02aa3]
-//soulstone fragment
-DupeItem=02aa1
-
-[ItemDef 02aa4]
-DefName=iSoulstoneFragment2
-Type=tNormal
-Weight=50.0
-Resources=5 iRockPlain
-Category=Decoration - Miscellaneous
-Subsection=Soulstone
-Description=Soulstone Fragment 2
-DupeList=02aa5,02aa6
-
-[ItemDef 02aa5]
-//soulstone fragment
-DupeItem=02aa4
-
-[ItemDef 02aa6]
-//soulstone fragment
-DupeItem=02aa4
-
-[ItemDef 02aa7]
-DefName=iSoulstoneFragment3
-Type=tNormal
-Weight=50.0
-Resources=5 iRockPlain
-Category=Decoration - Miscellaneous
-Subsection=Soulstone
-Description=Soulstone Fragment 3
-DupeList=02aa8,02aa9
-
-[ItemDef 02aa8]
-//soulstone fragment
-DupeItem=02aa7
-
-[ItemDef 02aa9]
-//soulstone fragment
-DupeItem=02aa7
 
 [ItemDef 02aaa]
 DefName=iPromoToken
@@ -3517,54 +3412,6 @@ DupeItem=02ac0
 //fountain of life
 DupeItem=02ac0
 
-
-[ItemDef 02adc]
-DefName=iSoulstoneBlue
-Name=Blue Soulstone
-Type=0//t_soulstone
-Category=Provisions - Miscellaneous
-Subsection=8th Age Items
-Description=Blue Soulstone
-DupeList=02add,02ade,02adf,02ae0,02aec,02aed,02aee,02aef,02af0
-
-[ItemDef 02add]
-//blue soulstone
-DupeItem=02adc
-
-[ItemDef 02ade]
-//blue soulstone
-DupeItem=02adc
-
-[ItemDef 02adf]
-//blue soulstone
-DupeItem=02adc
-
-[ItemDef 02ae0]
-//blue soulstone
-DupeItem=02adc
-
-
-[ItemDef 02aec]
-Category=Provisions - Miscellaneous
-Subsection=8th Age Items
-Description=Blue Soulstone
-DupeItem=02adc
-
-[ItemDef 02aed]
-//blue soulstone
-DupeItem=02adc
-
-[ItemDef 02aee]
-//blue soulstone
-DupeItem=02adc
-
-[ItemDef 02aef]
-//blue soulstone
-DupeItem=02adc
-
-[ItemDef 02af0]
-//blue soulstone
-DupeItem=02adc
 
 
 [ItemDef 02af8]
@@ -4008,34 +3855,6 @@ DupeItem=02fb7
 //FIXME: the following benches cannot be sat on
 [ItemDef 0319a]
 [ItemDef 0319b]
-
-
-[ItemDef 032f3]
-DefName=iSoulstoneRed
-Name=red soulstone
-Type=tNormal //t_soulstone
-Weight=200.0
-Resources=20 iRockPlain
-Category=Decoration - Miscellaneous
-Subsection=Soulstone
-Description=Red Soulstone
-DupeList=032f4,032f5,032f6,032f7
-
-[ItemDef 032f4]
-//red soulstone
-DupeItem=032f3
-
-[ItemDef 032f5]
-//red soulstone
-DupeItem=032f3
-
-[ItemDef 032f6]
-//red soulstone
-DupeItem=032f3
-
-[ItemDef 032f7]
-//red soulstone
-DupeItem=032f3
 
 
 [ItemDef 03584]
