@@ -8,30 +8,30 @@ If <IsEmpty <ArgS>>
  New.MoreX={1 64}	// Standard Magery spells
  New.MoreY=1000
  New.More2=10
- New.Bounce
+ New.Bounce <Src>
  Return
 EndIf
-If <IsEmpty <ArgV0>>
+If !(<ArgV0>)
  Serv.NewItem={iWand1 1 iWand2 1 iWand3 1 iWand4 1}
 Else
  Serv.NewItem=<ArgV0>
 EndIf
-If <IsEmpty <ArgV1>>
+If !(<ArgV1>)
  New.MoreX={1 64}
 Else
  New.MoreX=<ArgV1>
 EndIf
-If <IsEmpty <ArgV2>>
+If !(<ArgV2>)
  New.MoreY=1000
 Else
- New.MoreY=<ArgV2?
+ New.MoreY=<ArgV2>
 EndIf
-If <IsEmpty <ArgV3>>
+If !(<ArgV3>)
  New.More2=10
 Else
  New.More2=<ArgV3>
 EndIf
-New.Bounce
+New.Bounce <Src>
 Return
 
 

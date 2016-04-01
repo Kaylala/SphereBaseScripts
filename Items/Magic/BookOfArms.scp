@@ -15,4 +15,515 @@ MoreX=sArmorIgnore
 DispID=0227C
 
 
+[ItemDef 02287]
+DefName=iBleedAttackScroll
+Name=bleed attack
+NameLoc=1028839
+Type=tScroll
+Weight=1
+
+Category=Magic
+Subsection=Scrolls: Book of Arms
+Description=Bleed Attack
+
+On=@Create
+MoreX=sBleedAttack
+//MoreY=1000
+DispID=0227C
+
+
+[ItemDef 02288]
+DefName=iConcussionBlowScroll
+Name=concussion blow
+NameLoc=1028840
+Type=tScroll
+Weight=1
+
+Category=Magic
+Subsection=Scrolls: Book of Arms
+Description=Concussion Blow
+
+On=@Create
+MoreX=sConcussionBlow
+//MoreY=1000
+DispID=0227C
+
+
+[ItemDef 02289]
+DefName=iCrushingBlowScroll
+Name=crushing blow
+NameLoc=1028841
+Type=tScroll
+Weight=1
+
+Category=Magic
+Subsection=Scrolls: Book of Arms
+Description=Crushing Blow
+
+On=@Create
+MoreX=sCrushingBlow
+//MoreY=1000
+DispID=0227C
+
+
+[ItemDef 0228A]
+DefName=iDisarmScroll
+Name=disarm
+NameLoc=1028842
+Type=tScroll
+Weight=1
+
+Category=Magic
+Subsection=Scrolls: Book of Arms
+Description=Disarm
+
+On=@Create
+MoreX=sDisarm
+//MoreY=1000
+DispID=0227C
+
+
+[ItemDef 0228B]
+DefName=iDismountScroll
+Name=dismount
+NameLoc=1028843
+Type=tScroll
+Weight=1
+
+Category=Magic
+Subsection=Scrolls: Book of Arms
+Description=Dismount
+
+On=@Create
+MoreX=sDismount
+//MoreY=1000
+DispID=0227C
+
+
+[ItemDef 0228C]
+DefName=iDoubleStrikeScroll
+Name=double strike
+NameLoc=1028844
+Type=tScroll
+Weight=1
+
+Category=Magic
+Subsection=Scrolls: Book of Arms
+Description=DoubleStrike
+
+On=@Create
+MoreX=sDoubleStrike
+//MoreY=1000
+DispID=0227C
+
+
+[ItemDef 0228D]
+DefName=iInfectingScroll
+Name=infecting
+//Name=Infectious strike
+NameLoc=1028845
+Type=tScroll
+Weight=1
+
+Category=Magic
+Subsection=Scrolls: Book of Arms
+Description=Infecting (Infectious Strike)
+
+On=@Create
+MoreX=sInfecting
+//MoreY=1000
+DispID=0227C
+
+
+[ItemDef 0228E]
+DefName=iMortalStrikeScroll
+Name=mortal strike
+NameLoc=1028846
+Type=tScroll
+Weight=1
+
+Category=Magic
+Subsection=Scrolls: Book of Arms
+Description=Mortal Strike
+
+On=@Create
+MoreX=sMortalStrike
+//MoreY=1000
+DispID=0227C
+
+
+[ItemDef 0228F]
+DefName=iMovingShotScroll
+Name=moving shot
+NameLoc=1028847
+Type=tScroll
+Weight=1
+
+Category=Magic
+Subsection=Scrolls: Book of Arms
+Description=Moving Shot
+
+On=@Create
+MoreX=sMovingShot
+//MoreY=1000
+DispID=0227C
+
+
+[ItemDef 02290]
+DefName=iParalyzingBlowScroll
+Name=paralyzing blow
+NameLoc=1028848
+Type=tScroll
+Weight=1
+
+Category=Magic
+Subsection=Scrolls: Book of Arms
+Description=Paralyzing Blow
+
+On=@Create
+MoreX=sParalyzingBlow
+//MoreY=1000
+DispID=0227C
+
+
+[ItemDef 02291]
+DefName=iShadowStrikeScroll
+Name=shadow strike
+NameLoc=1028849
+Type=tScroll
+Weight=1
+
+Category=Magic
+Subsection=Scrolls: Book of Arms
+Description=Shadow Strike
+
+On=@Create
+MoreX=sShadowStrike
+//MoreY=1000
+DispID=0227C
+
+
+[ItemDef 02292]
+DefName=iWhirlwindAttackScroll
+Name=whirlwind attack
+NameLoc=1028850
+Type=tScroll
+Weight=1
+
+Category=Magic
+Subsection=Scrolls: Book of Arms
+Description=Whirlwind Attack
+
+On=@Create
+MoreX=sWhirlwindAttack
+//MoreY=1000
+DispID=0227C
+
+
+[ItemDef 02293]
+DefName=iRidingSwipeScroll
+Name=riding swipe
+NameLoc=1028851
+Type=tScroll
+Weight=1
+
+Category=Magic
+Subsection=Scrolls: Book of Arms
+Description=Riding Swipe
+
+On=@Create
+MoreX=sRidingSwipe
+//MoreY=1000
+DispID=0227C
+
+
+[ItemDef 02294]
+DefName=iFrenziedWhirlwindScroll
+Name=frenzied whirlwind
+NameLoc=1028852
+Type=tScroll
+Weight=1
+
+Category=Magic
+Subsection=Scrolls: Book of Arms
+Description=Frenzied Whirlwind
+
+On=@Create
+MoreX=sFrenziedWhirlwind
+//MoreY=1000
+DispID=0227C
+
+
+[ItemDef 02295]
+DefName=iBlockScroll
+Name=block
+NameLoc=1028853
+Type=tScroll
+Weight=1
+
+Category=Magic
+Subsection=Scrolls: Book of Arms
+Description=Block
+
+On=@Create
+MoreX=sBlock
+//MoreY=1000
+DispID=0227C
+
+
+[ItemDef 02296]
+DefName=iDefenseMasteryScroll
+Name=defense mastery
+NameLoc=1028854
+Type=tScroll
+Weight=1
+
+Category=Magic
+Subsection=Scrolls: Book of Arms
+Description=Defense Mastery
+
+On=@Create
+MoreX=sDefenseMastery
+//MoreY=1000
+DispID=0227C
+
+
+[ItemDef 02297]
+DefName=iNerveStrikeScroll
+Name=nerve strike
+NameLoc=1028855
+Type=tScroll
+Weight=1
+
+Category=Magic
+Subsection=Scrolls: Book of Arms
+Description=Nerve Strike
+
+On=@Create
+MoreX=sNerveStrike
+//MoreY=1000
+DispID=0227C
+
+
+[ItemDef 02298]
+DefName=iTalonStrikeScroll
+Name=talon strike
+NameLoc=1028856
+Type=tScroll
+Weight=1
+
+Category=Magic
+Subsection=Scrolls: Book of Arms
+Description=Talon Strike
+
+On=@Create
+MoreX=sTalonStrike
+//MoreY=1000
+DispID=0227C
+
+
+[ItemDef 02299]
+DefName=iFeintScroll
+Name=feint
+NameLoc=1028857
+Type=tScroll
+Weight=1
+
+Category=Magic
+Subsection=Scrolls: Book of Arms
+Description=Feint
+
+On=@Create
+MoreX=sFeint
+//MoreY=1000
+DispID=0227C
+
+
+[ItemDef 0229A]
+DefName=iDualWieldScroll
+Name=dual wield
+NameLoc=1028858
+Type=tScroll
+Weight=1
+
+Category=Magic
+Subsection=Scrolls: Book of Arms
+Description=Dual Wield
+
+On=@Create
+MoreX=sDualWield
+//MoreY=1000
+DispID=0227C
+
+
+[ItemDef 0229B]
+DefName=iDoubleShotScroll
+Name=double shot
+NameLoc=1028859
+Type=tScroll
+Weight=1
+
+Category=Magic
+Subsection=Scrolls: Book of Arms
+Description=Double Shot
+
+On=@Create
+MoreX=sDoubleShot
+//MoreY=1000
+DispID=0227C
+
+
+[ItemDef 0229C]
+DefName=iArmorPierceScroll
+Name=armor pierce
+NameLoc=1028860
+Type=tScroll
+Weight=1
+
+Category=Magic
+Subsection=Scrolls: Book of Arms
+Description=Armor Pierce
+
+On=@Create
+MoreX=sArmorPierce
+//MoreY=1000
+DispID=0227C
+
+
+[ItemDef 0229D]
+DefName=iBladeweaveScroll
+Name=bladeweave
+NameLoc=1028861
+Type=tScroll
+Weight=1
+
+Category=Magic
+Subsection=Scrolls: Book of Arms
+Description=Bladeweave
+
+On=@Create
+MoreX=sBladeweave
+//MoreY=1000
+DispID=0227C
+
+
+[ItemDef 0229E]
+DefName=iForceArrowScroll
+Name=force arrow
+NameLoc=1028862
+Type=tScroll
+Weight=1
+
+Category=Magic
+Subsection=Scrolls: Book of Arms
+Description=Force Arrow
+
+On=@Create
+MoreX=sForceArrow
+//MoreY=1000
+DispID=0227C
+
+
+[ItemDef 0229F]
+DefName=iLightningArrowScroll
+Name=lightning arrow
+NameLoc=1028863
+Type=tScroll
+Weight=1
+
+Category=Magic
+Subsection=Scrolls: Book of Arms
+Description=Lightning Arrow
+
+On=@Create
+MoreX=sLightningArrow
+//MoreY=1000
+DispID=0227C
+
+
+[ItemDef 022A0]
+DefName=iPsychicAttackScroll
+Name=psychic attack
+NameLoc=1028864
+Type=tScroll
+Weight=1
+
+Category=Magic
+Subsection=Scrolls: Book of Arms
+Description=Psychic Attack
+
+On=@Create
+MoreX=sPsychicAttack
+//MoreY=1000
+DispID=0227C
+
+
+[ItemDef 022A1]
+DefName=iSerpentArrowScroll
+Name=serpent arrow
+NameLoc=1028865
+Type=tScroll
+Weight=1
+
+Category=Magic
+Subsection=Scrolls: Book of Arms
+Description=Serpent Arrow
+
+On=@Create
+MoreX=sSerpentArrow
+//MoreY=1000
+DispID=0227C
+
+
+[ItemDef 022A2]
+DefName=iForceOfNatureScroll
+Name=serpent arrow
+NameLoc=1028867
+Type=tScroll
+Weight=1
+
+Category=Magic
+Subsection=Scrolls: Book of Arms
+Description=Force of Nature
+
+On=@Create
+MoreX=sForceOfNature
+//MoreY=1000
+DispID=0227C
+
+
+[ItemDef 022A3]
+DefName=iMysticArcScroll
+Name=mystic arc
+NameLoc=1113282
+Type=tScroll
+Weight=1
+
+Category=Magic
+Subsection=Scrolls: Book of Arms
+Description=Mystic Arc
+
+On=@Create
+MoreX=sMysticArc
+//MoreY=1000
+DispID=0227C
+
+
+[ItemDef 022A4]
+DefName=iInfusedThrowScroll
+Name=infused throw
+NameLoc=1113283
+Type=tScroll
+Weight=1
+
+Category=Magic
+Subsection=Scrolls: Book of Arms
+Description=Infused Throw
+
+On=@Create
+MoreX=sInfusedThrow
+//MoreY=1000
+DispID=0227C
+
+
 [EOF]
