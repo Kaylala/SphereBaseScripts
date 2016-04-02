@@ -1,0 +1,78 @@
+[ItemDef 08e0]
+DefName=iStalagmites1
+Name=stalagmites
+Type=tRock
+Weight=255
+
+Category=Geology
+Subsection=Stalagmites
+Description=Stalagmites
+
+
+[ItemDef 08e1]
+DefName=iStalagmites2
+Name=stalagmites
+Type=tRock
+Weight=255
+
+Category=Geology
+Subsection=Stalagmites
+Description=Stalagmites
+
+
+[ItemDef 08e4]
+DefName=iStalagmites3
+Name=stalagmites
+Type=tRock
+Weight=255
+
+Category=Geology
+Subsection=Stalagmites
+Description=Stalagmites
+
+
+[ItemDef 08e5]
+DefName=iStalagmites4
+Name=stalagmites
+Type=tRock
+Weight=255
+
+Category=Geology
+Subsection=Stalagmites
+Description=Stalagmites
+
+
+[ItemDef 08e7]
+DefName=iStalagmites5
+Name=stalagmites
+Type=tRock
+Weight=255
+
+Category=Geology
+Subsection=Stalagmites
+Description=Stalagmites
+
+
+[ItemDef 08e9]
+DefName=iStalagmites6
+Name=stalagmites
+Type=tRock
+Weight=255
+
+Category=Geology
+Subsection=Stalagmites
+Description=Stalagmites
+
+
+[ItemDef 08ea]
+DefName=iStalagmites7
+Name=stalagmites
+Type=tRock
+Weight=255
+
+Category=Geology
+Subsection=Stalagmites
+Description=Stalagmites
+
+
+[EOF]

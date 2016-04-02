@@ -210,58 +210,6 @@ DUPEITEM=0540
 DUPEITEM=0540
 
 
-[ITEMDEF 08e0]
-//stalagmites
-TYPE=T_ROCK
-CATEGORY=Buildings - Floors
-SUBSECTION=Cave Floor
-DESCRIPTION=Stalagmites
-DUPELIST=08e1,08e2,08e3,08e4,08e5,08e6,08e7,08e8,08e9,08ea
-
-[ITEMDEF 08e1]
-//stalagmites
-DUPEITEM=08e0
-
-[ITEMDEF 08e2]
-//flowstone
-DUPEITEM=08e0
-DESCRIPTION=Flowstone
-
-[ITEMDEF 08e3]
-//flowstone
-DUPEITEM=08e0
-DESCRIPTION=Flowstone
-
-[ITEMDEF 08e4]
-//stalagmites
-DUPEITEM=08e0
-
-[ITEMDEF 08e5]
-//stalagmites
-DUPEITEM=08e0
-
-[ITEMDEF 08e6]
-//flowstone
-DUPEITEM=08e0
-DESCRIPTION=Flowstone
-
-[ITEMDEF 08e7]
-//stalagmites
-DUPEITEM=08e0
-
-[ITEMDEF 08e8]
-//flowstone
-DUPEITEM=08e0
-DESCRIPTION=Flowstone
-
-[ITEMDEF 08e9]
-//stalagmites
-DUPEITEM=08e0
-
-[ITEMDEF 08ea]
-//stalagmites
-DUPEITEM=08e0
-
 
 [ITEMDEF 0911]
 CATEGORY=Ground Tiles

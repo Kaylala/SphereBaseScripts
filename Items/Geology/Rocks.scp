@@ -1,0 +1,262 @@
+//////////
+// Rock //
+//////////
+
+
+[ItemDef 01363]
+DefName=iRock1
+Name=rock
+Type=tRock
+Weight=1
+
+Category=Geology
+Subsection=Rocks: Rock
+Description=Rock
+
+
+[ItemDef 01364]
+DefName=iRock2
+Name=rock
+Type=tRock
+Weight=1
+
+Category=Geology
+Subsection=Rocks: Rock
+Description=Rock
+
+
+[ItemDef 01365]
+DefName=iRock3
+Name=rock
+Type=tRock
+Weight=1
+
+Category=Geology
+Subsection=Rocks: Rock
+Description=Rock
+
+
+[ItemDef 01366]
+DefName=iRock4
+Name=rock
+Type=tRock
+Weight=1
+
+Category=Geology
+Subsection=Rocks: Rock
+Description=Rock
+
+
+[ItemDef 01368]
+DefName=iRock5
+Name=rock
+Type=tRock
+Weight=1
+
+Category=Geology
+Subsection=Rocks: Rock
+Description=Rock
+
+
+[ItemDef 01369]
+DefName=iRock6
+Name=rock
+Type=tRock
+Weight=1
+
+Category=Geology
+Subsection=Rocks: Rock
+Description=Rock
+
+
+[ItemDef 0136b]
+DefName=iRock7
+Name=rock
+Type=tRock
+Weight=1
+
+Category=Geology
+Subsection=Rocks: Rock
+Description=Rock
+
+
+[ItemDef 0136c]
+DefName=iRock8
+Name=rock
+Type=tRock
+Weight=1
+
+Category=Geology
+Subsection=Rocks: Rock
+Description=Rock
+
+
+[ItemDef 01771]
+DefName=iRock9
+Name=rock
+Type=tRock
+Weight=255
+
+Category=Geology
+Subsection=Rocks: Rock
+Description=Rock
+
+
+[ItemDef 01772]
+DefName=iRock10
+Name=rock
+Type=tRock
+Weight=255
+
+Category=Geology
+Subsection=Rocks: Rock
+Description=Rock
+
+
+[ItemDef 01773]
+DefName=iRock11
+Name=rock
+Type=tRock
+Weight=255
+
+Category=Geology
+Subsection=Rocks: Rock
+Description=Rock
+
+
+[ItemDef 01774]
+DefName=iRock12
+Name=rock
+Type=tRock
+Weight=255
+
+Category=Geology
+Subsection=Rocks: Rock
+Description=Rock
+
+
+[ItemDef 01775]
+DefName=iRock13
+Name=rock
+Type=tRock
+Weight=255
+
+Category=Geology
+Subsection=Rocks: Rock
+Description=Rock
+
+
+[ItemDef 01776]
+DefName=iRock14
+Name=rock
+Type=tRock
+Weight=255
+
+Category=Geology
+Subsection=Rocks: Rock
+Description=Rock
+
+
+[ItemDef 01777]
+DefName=iRock15
+Name=rock
+Type=tRock
+Weight=255
+
+Category=Geology
+Subsection=Rocks: Rock
+Description=Rock
+
+
+[ItemDef 01778]
+DefName=iRock16
+Name=rock
+Type=tRock
+Weight=255
+
+Category=Geology
+Subsection=Rocks: Rock
+Description=Rock
+
+
+[ItemDef 01779]
+DefName=iRock17
+Name=rock
+Type=tRock
+Weight=255
+
+Category=Geology
+Subsection=Rocks: Rock
+Description=Rock
+
+
+[ItemDef 0177A]
+DefName=iRock18
+Name=rock
+Type=tRock
+Weight=255
+
+Category=Geology
+Subsection=Rocks: Rock
+Description=Rock
+
+
+[ItemDef 0177B]
+DefName=iRock19
+Name=rock
+Type=tRock
+Weight=255
+
+Category=Geology
+Subsection=Rocks: Rock
+Description=Rock
+
+
+[ItemDef 0177C]
+DefName=iRock20
+Name=rock
+Type=tRock
+Weight=255
+
+Category=Geology
+Subsection=Rocks: Rock
+Description=Rock
+
+
+///////////
+// Rocks //
+///////////
+
+
+[ItemDef 01367]
+DefName=iRocks1
+Name=rocks
+Type=tRock
+Weight=1
+
+Category=Geology
+Subsection=Rocks: Rocks
+Description=Rocks
+
+[ItemDef 0136a]
+DefName=iRocks2
+Name=rocks
+Type=tRock
+Weight=1
+
+Category=Geology
+Subsection=Rocks: Rocks
+Description=Rocks
+
+[ItemDef 0136d]
+DefName=iRocks3
+Name=rocks
+Type=tRock
+Weight=1
+
+Category=Geology
+Subsection=Rocks: Rocks
+Description=Rocks
+
+
+[EOF]

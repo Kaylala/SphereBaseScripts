@@ -1,0 +1,634 @@
+//////////////
+// Crystals //
+//////////////
+
+
+[ItemDef 02206]
+DefName=iCrystal1
+Name=crystal
+Type=tNormal
+Weight=255
+
+Category=Geology
+Subsection=Crystals: Normal
+Description=Crystal
+
+
+[ItemDef 02207]
+DefName=iCrystal2
+Name=crystal
+Type=tNormal
+Weight=255
+
+Category=Geology
+Subsection=Crystals: Normal
+Description=Crystal
+
+
+[ItemDef 02208]
+DefName=iCrystal3
+Name=crystal
+Type=tNormal
+Weight=255
+
+Category=Geology
+Subsection=Crystals: Normal
+Description=Crystal
+
+
+[ItemDef 02209]
+DefName=iCrystal4
+Name=crystal
+Type=tNormal
+Weight=255
+
+Category=Geology
+Subsection=Crystals: Normal
+Description=Crystal
+
+
+[ItemDef 0220a]
+DefName=iCrystal5
+Name=crystal
+Type=tNormal
+Weight=255
+
+Category=Geology
+Subsection=Crystals: Normal
+Description=Crystal
+
+
+[ItemDef 0220b]
+DefName=iCrystal6
+Name=crystal
+Type=tNormal
+Weight=255
+
+Category=Geology
+Subsection=Crystals: Normal
+Description=Crystal
+
+
+[ItemDef 0220c]
+DefName=iCrystal7
+Name=crystal
+Type=tNormal
+Weight=255
+
+Category=Geology
+Subsection=Crystals: Normal
+Description=Crystal
+
+
+[ItemDef 0220d]
+DefName=iCrystal8
+Name=crystal
+Type=tNormal
+Weight=255
+
+Category=Geology
+Subsection=Crystals: Normal
+Description=Crystal
+
+
+[ItemDef 0220e]
+DefName=iCrystal9
+Name=crystal
+Type=tNormal
+Weight=255
+
+Category=Geology
+Subsection=Crystals: Normal
+Description=Crystal
+
+
+[ItemDef 02210]
+DefName=iCrystal10
+Name=crystal
+Type=tNormal
+Weight=255
+
+Category=Geology
+Subsection=Crystals: Normal
+Description=Crystal
+
+
+[ItemDef 02211]
+DefName=iCrystal11
+Name=crystal
+Type=tNormal
+Weight=255
+
+Category=Geology
+Subsection=Crystals: Normal
+Description=Crystal
+
+
+[ItemDef 02212]
+DefName=iCrystal12
+Name=crystal
+Type=tNormal
+Weight=255
+
+Category=Geology
+Subsection=Crystals: Normal
+Description=Crystal
+
+
+[ItemDef 02213]
+DefName=iCrystal13
+Name=crystal
+Type=tNormal
+Weight=255
+
+Category=Geology
+Subsection=Crystals: Normal
+Description=Crystal
+
+
+[ItemDef 02214]
+DefName=iCrystal14
+Name=crystal
+Type=tNormal
+Weight=255
+
+Category=Geology
+Subsection=Crystals: Normal
+Description=Crystal
+
+
+[ItemDef 02215]
+DefName=iCrystal15
+Name=crystal
+Type=tNormal
+Weight=255
+
+Category=Geology
+Subsection=Crystals: Normal
+Description=Crystal
+
+
+[ItemDef 02216]
+DefName=iCrystal16
+Name=crystal
+Type=tNormal
+Weight=255
+
+Category=Geology
+Subsection=Crystals: Normal
+Description=Crystal
+
+
+[ItemDef 02217]
+DefName=iCrystal17
+Name=crystal
+Type=tNormal
+Weight=255
+
+Category=Geology
+Subsection=Crystals: Normal
+Description=Crystal
+
+
+[ItemDef 02218]
+DefName=iCrystal18
+Name=crystal
+Type=tNormal
+Weight=255
+
+Category=Geology
+Subsection=Crystals: Normal
+Description=Crystal
+
+
+[ItemDef 0221a]
+DefName=iCrystal19
+Name=crystal
+Type=tNormal
+Weight=255
+
+Category=Geology
+Subsection=Crystals: Normal
+Description=Crystal
+
+
+[ItemDef 0221b]
+DefName=iCrystal20
+Name=crystal
+Type=tNormal
+Weight=255
+
+Category=Geology
+Subsection=Crystals: Normal
+Description=Crystal
+
+
+[ItemDef 0221c]
+DefName=iCrystal21
+Name=crystal
+Type=tNormal
+Weight=255
+
+Category=Geology
+Subsection=Crystals: Normal
+Description=Crystal
+
+
+[ItemDef 0221d]
+DefName=iCrystal22
+Name=crystal
+Type=tNormal
+Weight=255
+
+Category=Geology
+Subsection=Crystals: Normal
+Description=Crystal
+
+
+[ItemDef 0221e]
+DefName=iCrystal23
+Name=crystal
+Type=tNormal
+Weight=255
+
+Category=Geology
+Subsection=Crystals: Normal
+Description=Crystal
+
+
+[ItemDef 0221f]
+DefName=iCrystal24
+Name=crystal
+Type=tNormal
+Weight=255
+
+Category=Geology
+Subsection=Crystals: Normal
+Description=Crystal
+
+
+[ItemDef 02220]
+DefName=iCrystal25
+Name=crystal
+Type=tNormal
+Weight=255
+
+Category=Geology
+Subsection=Crystals: Normal
+Description=Crystal
+
+
+[ItemDef 02221]
+DefName=iCrystal26
+Name=crystal
+Type=tNormal
+Weight=255
+
+Category=Geology
+Subsection=Crystals: Normal
+Description=Crystal
+
+
+[ItemDef 02222]
+DefName=iCrystal27
+Name=crystal
+Type=tNormal
+Weight=255
+
+Category=Geology
+Subsection=Crystals: Normal
+Description=Crystal
+
+
+[ItemDef 02224]
+DefName=iCrystal28
+Name=crystal
+Type=tNormal
+Weight=255
+
+Category=Geology
+Subsection=Crystals: Normal
+Description=Crystal
+
+
+[ItemDef 02225]
+DefName=iCrystal29
+Name=crystal
+Type=tNormal
+Weight=255
+
+Category=Geology
+Subsection=Crystals: Normal
+Description=Crystal
+
+
+[ItemDef 02226]
+DefName=iCrystal30
+Name=crystal
+Type=tNormal
+Weight=255
+
+Category=Geology
+Subsection=Crystals: Normal
+Description=Crystal
+
+
+[ItemDef 02227]
+DefName=iCrystal31
+Name=crystal
+Type=tNormal
+Weight=255
+
+Category=Geology
+Subsection=Crystals: Normal
+Description=Crystal
+
+
+[ItemDef 02228]
+DefName=iCrystal32
+Name=crystal
+Type=tNormal
+Weight=255
+
+Category=Geology
+Subsection=Crystals: Normal
+Description=Crystal
+
+
+[ItemDef 02229]
+DefName=iCrystal33
+Name=crystal
+Type=tNormal
+Weight=255
+
+Category=Geology
+Subsection=Crystals: Normal
+Description=Crystal
+
+
+[ItemDef 0222a]
+DefName=iCrystal34
+Name=crystal
+Type=tNormal
+Weight=255
+
+Category=Geology
+Subsection=Crystals: Normal
+Description=Crystal
+
+
+[ItemDef 0222b]
+DefName=iCrystal35
+Name=crystal
+Type=tNormal
+Weight=255
+
+Category=Geology
+Subsection=Crystals: Normal
+Description=Crystal
+
+
+[ItemDef 0222c]
+DefName=iCrystal36
+Name=crystal
+Type=tNormal
+Weight=255
+
+Category=Geology
+Subsection=Crystals: Normal
+Description=Crystal
+
+
+/////////////////////
+// Broken Crystals //
+/////////////////////
+
+
+
+[ItemDef 0223a]
+DefName=iBrokenCrystals1
+Name=broken crystals
+Type=tNormal
+Weight=255
+
+Category=Geology
+Subsection=Crystals: Broken
+Description=Broken Crystals
+
+
+[ItemDef 0223b]
+DefName=iBrokenCrystals2
+Name=broken crystals
+Type=tNormal
+Weight=255
+
+Category=Geology
+Subsection=Crystals: Broken
+Description=Broken Crystals
+
+
+[ItemDef 0223c]
+DefName=iBrokenCrystals3
+Name=broken crystals
+Type=tNormal
+Weight=255
+
+Category=Geology
+Subsection=Crystals: Broken
+Description=Broken Crystals
+
+
+[ItemDef 0223d]
+DefName=iBrokenCrystals4
+Name=broken crystals
+Type=tNormal
+Weight=255
+
+Category=Geology
+Subsection=Crystals: Broken
+Description=Broken Crystals
+
+
+[ItemDef 0223e]
+DefName=iBrokenCrystals5
+Name=broken crystals
+Type=tNormal
+Weight=255
+
+Category=Geology
+Subsection=Crystals: Broken
+Description=Broken Crystals
+
+
+[ItemDef 0223f]
+DefName=iBrokenCrystals6
+Name=broken crystals
+Type=tNormal
+Weight=255
+
+Category=Geology
+Subsection=Crystals: Broken
+Description=Broken Crystals
+
+
+[ItemDef 02240]
+DefName=iBrokenCrystals7
+Name=broken crystals
+Type=tNormal
+Weight=255
+
+Category=Geology
+Subsection=Crystals: Broken
+Description=Broken Crystals
+
+
+[ItemDef 02241]
+DefName=iBrokenCrystals8
+Name=broken crystals
+Type=tNormal
+Weight=255
+
+Category=Geology
+Subsection=Crystals: Broken
+Description=Broken Crystals
+
+
+[ItemDef 02242]
+DefName=iBrokenCrystals9
+Name=broken crystals
+Type=tNormal
+Weight=255
+
+Category=Geology
+Subsection=Crystals: Broken
+Description=Broken Crystals
+
+
+[ItemDef 02243]
+DefName=iBrokenCrystals10
+Name=broken crystals
+Type=tNormal
+Weight=255
+
+Category=Geology
+Subsection=Crystals: Broken
+Description=Broken Crystals
+
+
+[ItemDef 02244]
+DefName=iBrokenCrystals11
+Name=broken crystals
+Type=tNormal
+Weight=255
+
+Category=Geology
+Subsection=Crystals: Broken
+Description=Broken Crystals
+
+
+[ItemDef 02245]
+DefName=iBrokenCrystals12
+Name=broken crystals
+Type=tNormal
+Weight=255
+
+Category=Geology
+Subsection=Crystals: Broken
+Description=Broken Crystals
+
+
+[ItemDef 02246]
+DefName=iBrokenCrystals13
+Name=broken crystals
+Type=tNormal
+Weight=255
+
+Category=Geology
+Subsection=Crystals: Broken
+Description=Broken Crystals
+
+
+[ItemDef 02247]
+DefName=iBrokenCrystals14
+Name=broken crystals
+Type=tNormal
+Weight=255
+
+Category=Geology
+Subsection=Crystals: Broken
+Description=Broken Crystals
+
+
+[ItemDef 02248]
+DefName=iBrokenCrystals15
+Name=broken crystals
+Type=tNormal
+Weight=255
+
+Category=Geology
+Subsection=Crystals: Broken
+Description=Broken Crystals
+
+
+[ItemDef 02249]
+DefName=iBrokenCrystals16
+Name=broken crystals
+Type=tNormal
+Weight=255
+
+Category=Geology
+Subsection=Crystals: Broken
+Description=Broken Crystals
+
+
+///////////////////
+// Tall Crystals //
+///////////////////
+
+
+[ItemDef 02fdc]
+DefName=iTallCrystal1
+//NameLoc=	// Blank
+Name=tall crystal
+Type=tNormal
+Weight=255
+
+Category=Geology
+Subsection=Crystals: Tall
+Description=Tall Crystal
+
+
+[ItemDef 02fdd]
+DefName=iTallCrystal2
+Name=tall crystal
+Type=tNormal
+Weight=255
+
+Category=Geology
+Subsection=Crystals: Tall
+Description=Tall Crystal
+
+
+[ItemDef 02fe6]
+DefName=iTallCrystal3
+Name=tall crystal
+Type=tNormal
+Weight=255
+
+Category=Geology
+Subsection=Crystals: Tall
+Description=Tall Crystal
+
+
+[ItemDef 02fe7]
+DefName=iTallCrystal4
+Name=tall crystal
+Type=tNormal
+Weight=255
+
+Category=Geology
+Subsection=Crystals: Tall
+Description=Tall Crystal
+
+
+[EOF]

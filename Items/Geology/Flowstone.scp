@@ -1,0 +1,45 @@
+[ItemDef 08e2]
+DefName=iFlowstone1
+Name=flowstone
+Type=tRock
+Weight=255
+
+Category=Geology
+Subsection=Flowstone
+Description=Flowstone
+
+
+[ItemDef 08e3]
+DefName=iFlowstone2
+Name=flowstone
+Type=tRock
+Weight=255
+
+Category=Geology
+Subsection=Flowstone
+Description=Flowstone
+
+
+[ItemDef 08e6]
+DefName=iFlowstone3
+Name=flowstone
+Type=tRock
+Weight=255
+
+Category=Geology
+Subsection=Flowstone
+Description=Flowstone
+
+
+[ItemDef 08e8]
+DefName=iFlowstone4
+Name=flowstone
+Type=tRock
+Weight=255
+
+Category=Geology
+Subsection=Flowstone
+Description=Flowstone
+
+
+[EOF]

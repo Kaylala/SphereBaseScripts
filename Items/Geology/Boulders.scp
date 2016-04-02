@@ -1,0 +1,124 @@
+[ItemDef 0134f]
+DefName=iBoulder1
+Type=tBoulder
+Weight=255
+DupeList=01350,01351
+
+Category=Geology
+Subsection=Boulders
+Description=Boulder
+
+[ItemDef 01350]
+DupeItem=0134f
+
+[ItemDef 01351]
+DupeItem=0134f
+
+
+[ItemDef 01352]
+DefName=iBoulder2
+Type=tBoulder
+Weight=255
+DupeList=01354,01355
+
+Category=Geology
+Subsection=Boulders
+Description=Boulder
+
+[ItemDef 01353]
+DupeItem=01352
+
+[ItemDef 01354]
+DupeItem=01352
+
+
+[ItemDef 01355]
+DefName=iBoulder3
+Type=tBoulder
+Weight=255
+DupeList=01356
+
+Category=Geology
+Subsection=Boulders
+Description=Boulder
+
+[ItemDef 01356]
+DupeItem=01355
+
+
+[ItemDef 01357]
+DefName=iBoulder4
+Type=tBoulder
+Weight=255
+DupeList=01358,01359
+
+Category=Geology
+Subsection=Boulders
+Description=Boulder
+
+[ItemDef 01358]
+DupeItem=01357
+
+[ItemDef 01359]
+DupeItem=01357
+
+
+[ItemDef 0135a]
+DefName=iBoulder5
+Type=tBoulder
+Weight=255
+DupeList=0135B
+
+Category=Geology
+Subsection=Boulders
+Description=Boulder
+
+[ItemDef 0135b]
+DupeItem=0135A
+
+
+[ItemDef 0135c]
+DefName=iBoulder6
+Type=tBoulder
+Weight=255
+DupeList=0135D,0135E
+
+Category=Geology
+Subsection=Boulders
+Description=Boulder
+
+[ItemDef 0135d]
+DupeItem=0135C
+
+[ItemDef 0135e]
+DupeItem=0135E
+
+[ItemDef 0135f]
+DefName=iBoulder7
+Type=tBoulder
+Weight=255
+DupeList=01360
+
+Category=Geology
+Subsection=Boulders
+Description=Boulder
+
+[ItemDef 01360]
+DupeItem=0135f
+
+
+[ItemDef 01361]
+DefName=iBoulder8
+Type=tBoulder
+Weight=255
+DupeList=01362
+
+Category=Geology
+Subsection=Boulders
+Description=Boulder
+
+[ItemDef 01362]
+DupeItem=01361
+
+
+[EOF]

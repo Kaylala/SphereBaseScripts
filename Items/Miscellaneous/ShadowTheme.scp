@@ -1,0 +1,66 @@
+///////////
+// Deeds //
+///////////
+
+[ItemDef iObsidianRockDeed]
+ID=iDeed
+Name=Deed for an Obsidian Rock
+NameLoc=1076656
+Type=tDeed
+Weight=1
+
+Category=Themes
+Subsection=Shadow: Deeds
+Description=Obsidian Rock Deed
+
+On=@Create
+Color=ShadowIronHue
+More1=iObsidianRock
+
+
+[ItemDef iObsidianPillarDeed]
+ID=iDeed
+Name=Deed for an Obsidian Pillar
+NameLoc=1076657
+Type=tDeed
+Weight=1
+
+Category=Themes
+Subsection=Shadow: Deeds
+Description=Obsidian Pillar Deed
+
+On=@Create
+Color=ShadowIronHue
+More1=iObsidianPillar
+
+
+///////////////
+// Furniture //
+///////////////
+
+
+[ItemDef 0364E]
+DefName=iObsidianRock
+Name=obsidian rock
+NameLoc=1076677
+Type=tNormal
+Weight=255
+
+Category=Themes
+Subsection=Shadow
+Description=Obsidian Rock
+
+
+[ItemDef 0364f]
+DefName=iObsidianPillar
+Name=obsidian pillar
+NameLoc=1076678
+Type=tNormal
+Weight=255
+
+Category=Themes
+Subsection=Shadow
+Description=Obsidian Pillar
+
+
+[EOF]

@@ -1,0 +1,66 @@
+[ItemDef 04b48]
+DefName=iGeodeShard
+Name=geode shard
+Type=tNormal
+Can=CanIFlip
+Weight=1
+DupeList=04b4c
+
+Category=Geology
+Subsection=Geodes
+Description=Geode
+
+[ItemDef 04b4c]
+DupeItem=04b48
+
+
+[ItemDef 04b49]
+DefName=iGeode1
+Name=geode
+Type=tNormal
+Can=CanIFlip
+Weight=1
+DupeList=04b4d
+
+Category=Geology
+Subsection=Geodes
+Description=Geode
+
+[ItemDef 04b4d]
+DupeItem=04b49
+
+
+[ItemDef 04b4a]
+DefName=iGeode2
+Name=geode
+Name=geode
+Type=tNormal
+Can=CanIFlip
+Weight=1
+DupeList=04b4e
+
+Category=Geology
+Subsection=Geodes
+Description=Geode
+
+[ItemDef 04b4e]
+//Geode 2
+DupeItem=04b4a
+
+
+[ItemDef 04b4b]
+DefName=iCrackedLavaRock
+Name=cracked lava rock
+Type=tNormal
+Weight=1
+DupeList=04b4f
+
+Category=Geology
+Subsection=Geodes
+Description=Cracked Lavarock
+
+[ItemDef 04b4f]
+DupeItem=04b4b
+
+
+[EOF]
