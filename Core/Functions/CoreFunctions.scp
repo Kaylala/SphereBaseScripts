@@ -1,3 +1,16 @@
+[Function ContentWeight]
+Return <Eval (<Weight> - <Serv.ItemDef.<BaseID>.Weight>)>
+
+
+[Function AllResistances]
+ResPhysical += <ArgN>
+ResFire += <ArgN>
+ResCold += <ArgN>
+ResPoison += <ArgN>
+ResEnergy += <ArgN>
+Update
+
+
 // WandID
 // Spell
 // Spell Str

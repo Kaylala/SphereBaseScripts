@@ -1,2926 +1,2058 @@
-//****************************************************************************
-// SPHERE by : Menasoft ©1997-2007
-// www.sphereserver.net
-// All SPHERE script files and formats are copyright Menasoft & Partners.
-// This file may be freely edited for personal use, but may not be distributed
-// in whole or in part, in any format without express written permission from
-// Menasoft & Partners. All donations and contributions
-// become the property of Menasoft & Partners.
-//****************************************************************************
-// FILE LAST UPDATED: Sunday, November 17, 2013
-//
-VERSION=0.56c
 
 
-[ITEMDEF 0141b]
-DEFNAME=iMaskOrc
-TYPE=tClothing
-FLIP=1
-//LAYER=layer_helm
-//ARMOR=10
-VALUE=23
-WEIGHT=4.0
-RESOURCES=2 iHidesCut,1 iThread
-SKILLMAKE=Tailoring 100.0,tSewingKit,anatomy 58.3
-CanUse=CanUHuman|CanUElf
-ReqStr=10
-DUPELIST=0141c
-CATEGORY=Provisions - Clothes
-SUBSECTION=Masks
-DESCRIPTION=Orc Mask
-ON=@Create
-HITPOINTS={36 48}
-RESCOLD=7
-RESENERGY=8
-RESFIRE=1
-RESPHYSICAL=1
-RESPOISON=7
-
-[ITEMDEF 0141c]
-//orc mask
-DUPEITEM=0141b
-
-
-[ITEMDEF 01515]
-DEFNAME=iCape
-TYPE=tClothing
-DYE=1
-FLIP=1
-//LAYER=layer_cape
-//ARMOR=5
-VALUE=64
-WEIGHT=14.1
-RESOURCES=14 iCloth,1 iThread
-SKILLMAKE=Tailoring 45.4,tSewingKit
-CanUse=CanUHuman|CanUElf
-ReqStr=10
-DUPELIST=01530
-CATEGORY=Provisions - Clothes
-SUBSECTION=Shirts & Robes
-DESCRIPTION=Cloak, Cape
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
-
-[ITEMDEF 01516]
-DEFNAME=iSkirtLong
-NAME=long skirt
-TYPE=tClothing
+[ItemDef 01516]
+DefName=iSkirtLong
+Name=long skirt
+Type=tClothing
 DYE=1
 FLIP=1
 //LAYER=layer_skirt
-//ARMOR=4
+Armor=4
 VALUE=42
-WEIGHT=10.1
-RESOURCES=10 iCloth,1 iThread
-SKILLMAKE=Tailoring 31.8,tSewingKit
+Weight=10.1
+Resources=10 iCloth,1 iThread
+SkillMake=Tailoring 31.8,tSewingKit
 CanUse=CanUHuman|CanUElf
 ReqStr=10
-CATEGORY=Provisions - Clothes
-SUBSECTION=Pants & Skirts
-DESCRIPTION=Long Skirt
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+Category=Equipment
+Subsection=Pants & Skirts
+Description=Long Skirt
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
-[ITEMDEF 01517]
-DEFNAME=iShirtPlain
-TYPE=tClothing
+[ItemDef 01517]
+DefName=iShirtPlain
+Type=tClothing
 DYE=1
 FLIP=1
 //LAYER=layer_shirt
-//ARMOR=3
+Armor=3
 VALUE=32
-WEIGHT=8.1
-RESOURCES=8 iCloth,1 iThread
-SKILLMAKE=Tailoring 22.7,tSewingKit
+Weight=8.1
+Resources=8 iCloth,1 iThread
+SkillMake=Tailoring 22.7,tSewingKit
 CanUse=CanUHuman|CanUElf
 ReqStr=10
-DUPELIST=01518
-CATEGORY=Provisions - Clothes
-SUBSECTION=Shirts & Robes
-DESCRIPTION=Plain Shirt
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+DupeList=01518
+Category=Equipment
+Subsection=Shirts & Robes
+Description=Plain Shirt
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
-[ITEMDEF 01518]
+[ItemDef 01518]
 //plain shirt
-DUPEITEM=01517
+DupeItem=01517
 
 
-[ITEMDEF 0152e]
-DEFNAME=iPantsShort
-TYPE=tClothing
+[ItemDef 0152e]
+DefName=iPantsShort
+Type=tClothing
 DYE=1
 FLIP=1
 //LAYER=layer_pants
-//ARMOR=3
+Armor=3
 VALUE=21
-WEIGHT=6.1
-RESOURCES=6 iCloth,1 iThread
-SKILLMAKE=Tailoring 6.8,tSewingKit
+Weight=6.1
+Resources=6 iCloth,1 iThread
+SkillMake=Tailoring 6.8,tSewingKit
 CanUse=CanUHuman|CanUElf
 ReqStr=10
-DUPELIST=0152f
-CATEGORY=Provisions - Clothes
-SUBSECTION=Pants & Skirts
-DESCRIPTION=Short Pants
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+DupeList=0152f
+Category=Equipment
+Subsection=Pants & Skirts
+Description=Short Pants
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
-[ITEMDEF 0152f]
+[ItemDef 0152f]
 //Short Pants
-DUPEITEM=0152e
+DupeItem=0152e
 
-[ITEMDEF 01530]
-//cloak, cape
-DUPEITEM=01515
-
-[ITEMDEF 01531]
-DEFNAME=iSkirtShort
-TYPE=tClothing
+[ItemDef 01531]
+DefName=iSkirtShort
+Type=tClothing
 DYE=1
 FLIP=1
 //LAYER=layer_skirt
-//ARMOR=4
+Armor=4
 VALUE=41
-WEIGHT=10.1
-RESOURCES=10 iCloth,1 iThread
-SKILLMAKE=Tailoring 28.7,tSewingKit
+Weight=10.1
+Resources=10 iCloth,1 iThread
+SkillMake=Tailoring 28.7,tSewingKit
 CanUse=CanUHuman|CanUElf
 ReqStr=10
-CATEGORY=Provisions - Clothes
-SUBSECTION=Pants & Skirts
-DESCRIPTION=Skirt (Tea Length)
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+Category=Equipment
+Subsection=Pants & Skirts
+Description=Skirt (Tea Length)
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
 
-[ITEMDEF 01535]
-DEFNAME=iBeltGold
-TYPE=tNormal
+[ItemDef 01535]
+DefName=iBeltGold
+Type=tNormal
 DYE=0
 FLIP=1
 VALUE=13
-WEIGHT=3.0
-RESOURCES=1 iIngotGold,1 iCloth
-SKILLMAKE=Tailoring 31.4,tSewingKit
-DUPELIST=01536
-CATEGORY=Provisions - Clothes
-SUBSECTION=Miscellaneous
-DESCRIPTION=Gold Belt (Unwearable)
+Weight=3.0
+Resources=1 iIngotGold,1 iCloth
+SkillMake=Tailoring 31.4,tSewingKit
+DupeList=01536
+Category=Equipment
+Subsection=Miscellaneous
+Description=Gold Belt (Unwearable)
 
-[ITEMDEF 01536]
+[ItemDef 01536]
 //gold belt
-DUPEITEM=01535
+DupeItem=01535
 
 
-[ITEMDEF 01537]
-DEFNAME=iKilt
-TYPE=tClothing
+[ItemDef 01537]
+DefName=iKilt
+Type=tClothing
 DYE=1
 FLIP=1
 //LAYER=layer_skirt
-//ARMOR=3
+Armor=3
 VALUE=32
-WEIGHT=8.1
-RESOURCES=8 iCloth,1 iThread
-SKILLMAKE=Tailoring 22.7,tSewingKit
+Weight=8.1
+Resources=8 iCloth,1 iThread
+SkillMake=Tailoring 22.7,tSewingKit
 CanUse=CanUHuman|CanUElf
 ReqStr=10
-DUPELIST=01538
-CATEGORY=Provisions - Clothes
-SUBSECTION=Pants & Skirts
-DESCRIPTION=Kilt
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+DupeList=01538
+Category=Equipment
+Subsection=Pants & Skirts
+Description=Kilt
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
-[ITEMDEF 01538]
+[ItemDef 01538]
 //Kilt
-DUPEITEM=01537
+DupeItem=01537
 
-[ITEMDEF 01539]
-DEFNAME=iPantsLong
-TYPE=tClothing
+[ItemDef 01539]
+DefName=iPantsLong
+Type=tClothing
 DYE=1
 FLIP=1
 //LAYER=layer_pants
-//ARMOR=3
+Armor=3
 VALUE=32
-WEIGHT=8.1
-RESOURCES=8 iCloth,1 iThread
-SKILLMAKE=Tailoring 27.2,tSewingKit
+Weight=8.1
+Resources=8 iCloth,1 iThread
+SkillMake=Tailoring 27.2,tSewingKit
 CanUse=CanUHuman|CanUElf
 ReqStr=10
-DUPELIST=0153a
-CATEGORY=Provisions - Clothes
-SUBSECTION=Pants & Skirts
-DESCRIPTION=Long Pants
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+DupeList=0153a
+Category=Equipment
+Subsection=Pants & Skirts
+Description=Long Pants
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
-[ITEMDEF 0153a]
+[ItemDef 0153a]
 //Long Pants
-DUPEITEM=01539
+DupeItem=01539
 
-[ITEMDEF 0153b]
-DEFNAME=iApronHalf
-TYPE=tClothing
+[ItemDef 0153b]
+DefName=iApronHalf
+Type=tClothing
 DYE=1
 FLIP=1
 //LAYER=layer_half_apron
-//ARMOR=2
+Armor=2
 VALUE=24
-WEIGHT=6.1
-RESOURCES=6 iCloth,1 iThread
-SKILLMAKE=Tailoring 22.7,tSewingKit
+Weight=6.1
+Resources=6 iCloth,1 iThread
+SkillMake=Tailoring 22.7,tSewingKit
 CanUse=CanUHuman|CanUElf
 ReqStr=10
-DUPELIST=0153c
-CATEGORY=Provisions - Clothes
-SUBSECTION=Miscellaneous
-DESCRIPTION=Half Apron
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+DupeList=0153c
+Category=Equipment
+Subsection=Miscellaneous
+Description=Half Apron
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
-[ITEMDEF 0153c]
+[ItemDef 0153c]
 //Half Apron
-DUPEITEM=0153b
+DupeItem=0153b
 
-[ITEMDEF 0153d]
-DEFNAME=iApronFull
-TYPE=tClothing
+[ItemDef 0153d]
+DefName=iApronFull
+Type=tClothing
 DYE=1
 FLIP=1
 //LAYER=layer_tunic
-//ARMOR=4
+Armor=4
 VALUE=42
-WEIGHT=10.1
-RESOURCES=10 iCloth,1 iThread
-SKILLMAKE=Tailoring 31.8,tSewingKit
+Weight=10.1
+Resources=10 iCloth,1 iThread
+SkillMake=Tailoring 31.8,tSewingKit
 CanUse=CanUHuman|CanUElf
 ReqStr=10
-DUPELIST=0153e
-CATEGORY=Provisions - Clothes
-SUBSECTION=Miscellaneous
-DESCRIPTION=Full Apron
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+DupeList=0153e
+Category=Equipment
+Subsection=Miscellaneous
+Description=Full Apron
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
-[ITEMDEF 0153e]
+[ItemDef 0153e]
 //Full Apron
-DUPEITEM=0153d
+DupeItem=0153d
 
-[ITEMDEF 0153f]
-DEFNAME=iBandana
-TYPE=tClothing
-DYE=1
-FLIP=1
-//LAYER=layer_helm
-//ARMOR=1
-VALUE=8
-WEIGHT=2.1
-RESOURCES=2 iCloth,1 iThread
-SKILLMAKE=Tailoring 0.1,tSewingKit
-CanUse=CanUHuman|CanUElf
-ReqStr=10
-DUPELIST=01540
-CATEGORY=Provisions - Clothes
-SUBSECTION=Hats
-DESCRIPTION=Bandana
-ON=@Create
-HITPOINTS={36 48}
-RESFIRE=3
-RESCOLD=5
-RESPOISON=8
-RESENERGY=8
-
-[ITEMDEF 01540]
-//bandana
-DUPEITEM=0153f
-
-[ITEMDEF 01541]
-DEFNAME=iSash
-TYPE=tClothing
+[ItemDef 01541]
+DefName=iSash
+Type=tClothing
 DYE=1
 FLIP=1
 //LAYER=layer_tunic
-//ARMOR=1
+Armor=1
 VALUE=14
-WEIGHT=4.1
-RESOURCES=4 iCloth,1 iThread
-SKILLMAKE=Tailoring 4.5,tSewingKit
+Weight=4.1
+Resources=4 iCloth,1 iThread
+SkillMake=Tailoring 4.5,tSewingKit
 CanUse=CanUHuman|CanUElf
 ReqStr=10
-DUPELIST=01542
-CATEGORY=Provisions - Clothes
-SUBSECTION=Miscellaneous
-DESCRIPTION=Body Sash
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+DupeList=01542
+Category=Equipment
+Subsection=Miscellaneous
+Description=Body Sash
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
-[ITEMDEF 01542]
+[ItemDef 01542]
 //body sash
-DUPEITEM=01541
-
-[ITEMDEF 01543]
-DEFNAME=iSkullCap
-TYPE=tClothing
-DYE=1
-FLIP=1
-//LAYER=layer_helm
-//ARMOR=1
-VALUE=8
-WEIGHT=2.1
-RESOURCES=2 iCloth,1 iThread
-SKILLMAKE=Tailoring 0.0,tSewingKit
-CanUse=CanUHuman|CanUElf
-ReqStr=10
-DUPELIST=01544
-CATEGORY=Provisions - Clothes
-SUBSECTION=Hats
-DESCRIPTION=Skull Cap
-ON=@Create
-HITPOINTS={36 48}
-RESFIRE=3
-RESCOLD=5
-RESPOISON=8
-RESENERGY=8
-
-[ITEMDEF 01544]
-//skullcap
-DUPEITEM=01543
-
-[ITEMDEF 01545]
-DEFNAME=iMaskBear
-TYPE=tClothing
-DYE=1
-FLIP=1
-//LAYER=layer_helm
-//ARMOR=6
-VALUE=14
-WEIGHT=3.1
-RESOURCES=1 iThread,1 iFurDark
-SKILLMAKE=Tailoring 16.1,tSewingKit
-CanUse=CanUHuman|CanUElf
-ReqStr=10
-DUPELIST=01546
-CATEGORY=Provisions - Clothes
-SUBSECTION=Masks
-DESCRIPTION=Bear Mask
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=5
-RESFIRE=3
-RESCOLD=8
-RESPOISON=4
-RESENERGY=4
-
-[ITEMDEF 01546]
-//bear mask
-DUPEITEM=01545
-
-[ITEMDEF 01547]
-DEFNAME=iMaskDeer
-TYPE=tClothing
-DYE=1
-FLIP=1
-//LAYER=layer_helm
-//ARMOR=6
-VALUE=14
-WEIGHT=3.1
-RESOURCES=1 iThread,1 iFurDark
-SKILLMAKE=Tailoring 16.1,tSewingKit
-CanUse=CanUHuman|CanUElf
-ReqStr=10
-DUPELIST=01548
-CATEGORY=Provisions - Clothes
-SUBSECTION=Masks
-DESCRIPTION=Deer Mask
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=2
-RESFIRE=6
-RESCOLD=8
-RESPOISON=1
-RESENERGY=7
-
-[ITEMDEF 01548]
-//deer mask
-DUPEITEM=01547
-
-[ITEMDEF 01549]
-DEFNAME=iMaskBlue
-//DEFNAME=i_mask_tribal_large
-TYPE=tClothing
-DYE=1
-FLIP=1
-//LAYER=layer_helm
-//ARMOR=5
-VALUE=15
-WEIGHT=4.4
-RESOURCES=1 iStraw,1 iCanvas,1 iFeather,1 i_bone,1 i_thread
-SKILLMAKE=Tailoring 16.1,tSewingKit
-CanUse=CanUHuman|CanUElf
-ReqStr=10
-DUPELIST=0154a
-CATEGORY=Provisions - Clothes
-SUBSECTION=Masks
-DESCRIPTION=Tribal Mask (fancy)
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=6
-RESFIRE=9
-RESCOLD=0
-RESPOISON=4
-RESENERGY=5
-
-[ITEMDEF 0154a]
-//tribal mask
-DUPEITEM=01549
-
-[ITEMDEF 0154b]
-DEFNAME=iMaskTribalRed
-TYPE=tClothing
-DYE=1
-FLIP=1
-//LAYER=layer_helm
-//ARMOR=5
-VALUE=15
-WEIGHT=5.1
-RESOURCES=1 iStraw,1 iCanvas,1 iFeather,1 i_bone,1 i_thread
-SKILLMAKE=Tailoring 16.1,tSewingKit
-CanUse=CanUHuman|CanUElf
-ReqStr=10
-DUPELIST=0154c
-CATEGORY=Provisions - Clothes
-SUBSECTION=Masks
-DESCRIPTION=Tribal Mask (red)
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=3
-RESFIRE=0
-RESCOLD=6
-RESPOISON=10
-RESENERGY=5
-
-[ITEMDEF 0154c]
-//tribal mask
-DUPEITEM=0154b
+DupeItem=01541
 
 
-[ITEMDEF 0170b]
-DEFNAME=iBootsCalf
-TYPE=tClothing
-DYE=1
-FLIP=1
-//LAYER=layer_shoes
-//ARMOR=7
-VALUE=57
-WEIGHT=8.1
-RESOURCES=8 iHidesCut,1 iThread
-SKILLMAKE=Tailoring 36.3,tSewingKit
-CanUse=CanUHuman|CanUElf
-ReqStr=10
-DUPELIST=0170c
-CATEGORY=Provisions - Clothes
-SUBSECTION=Footwear
-DESCRIPTION=Boots
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
-
-[ITEMDEF 0170c]
-//boots
-DUPEITEM=0170b
-
-[ITEMDEF 0170d]
-DEFNAME=iSandals
-TYPE=tClothing
-DYE=1
-FLIP=1
-//LAYER=layer_shoes
-//ARMOR=3
-VALUE=25
-WEIGHT=4.1
-RESOURCES=4 iHidesCut,1 iThread
-SKILLMAKE=Tailoring 13.6,tSewingKit
-CanUse=CanUHuman|CanUElf
-ReqStr=10
-DUPELIST=0170e
-CATEGORY=Provisions - Clothes
-SUBSECTION=Footwear
-DESCRIPTION=Sandals
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
-
-[ITEMDEF 0170e]
-//Sandals
-DUPEITEM=0170d
-
-[ITEMDEF 0170f]
-DEFNAME=iShoesPlain
-TYPE=tClothing
-DYE=1
-FLIP=1
-//LAYER=layer_shoes
-//ARMOR=3
-VALUE=38
-WEIGHT=6.1
-RESOURCES=6 iHidesCut,1 iThread
-SKILLMAKE=Tailoring 18.1,tSewingKit
-CanUse=CanUHuman|CanUElf
-ReqStr=10
-DUPELIST=01710
-CATEGORY=Provisions - Clothes
-SUBSECTION=Footwear
-DESCRIPTION=Shoes
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
-
-[ITEMDEF 01710]
-//Shoes
-DUPEITEM=0170f
-
-[ITEMDEF 01711]
-DEFNAME=iBootsThigh
-TYPE=tClothing
-DYE=1
-FLIP=1
-//LAYER=layer_shoes
-//ARMOR=6
-VALUE=65
-WEIGHT=10.1
-RESOURCES=10 iHidesCut,1 iThread
-SKILLMAKE=Tailoring 25.0,tSewingKit
-CanUse=CanUHuman|CanUElf
-ReqStr=10
-DUPELIST=01712
-CATEGORY=Provisions - Clothes
-SUBSECTION=Footwear
-DESCRIPTION=Thigh Boots
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
-
-[ITEMDEF 01712]
-//Thigh Boots
-DUPEITEM=01711
-
-[ITEMDEF 01713]
-DEFNAME=iHatFloppy
-TYPE=tClothing
-DYE=1
-//LAYER=layer_helm
-//ARMOR=3
-VALUE=37
-WEIGHT=11.1
-RESOURCES=11 iCloth,1 iThread
-SKILLMAKE=Tailoring 6.8,tSewingKit
-CanUse=CanUHuman|CanUElf
-ReqStr=10
-CATEGORY=Provisions - Clothes
-SUBSECTION=Hats
-DESCRIPTION=Floppy Hat
-ON=@Create
-HITPOINTS={36 48}
-RESFIRE=5
-RESCOLD=9
-RESPOISON=5
-RESENERGY=5
-
-[ITEMDEF 01714]
-DEFNAME=iHatWideBrim
-TYPE=tClothing
-DYE=1
-//LAYER=layer_helm
-//ARMOR=3
-VALUE=43
-WEIGHT=13.1
-RESOURCES=12 iCloth,1 iStraw,1 iThread
-SKILLMAKE=Tailoring 6.8,tSewingKit
-CanUse=CanUHuman|CanUElf
-ReqStr=10
-CATEGORY=Provisions - Clothes
-SUBSECTION=Hats
-DESCRIPTION=Wide-Brim Hat
-ON=@Create
-HITPOINTS={36 48}
-RESFIRE=5
-RESCOLD=9
-RESPOISON=5
-RESENERGY=5
-
-[ITEMDEF 01715]
-DEFNAME=iCap
-TYPE=tClothing
-DYE=1
-//LAYER=layer_helm
-//ARMOR=3
-VALUE=24
-WEIGHT=5.1
-RESOURCES=4 iCloth,1 iCanvas,1 iThread
-SKILLMAKE=Tailoring 18.4,tSewingKit
-CanUse=CanUHuman|CanUElf
-ReqStr=10
-CATEGORY=Provisions - Clothes
-SUBSECTION=Hats
-DESCRIPTION=Cap
-ON=@Create
-HITPOINTS={36 48}
-RESFIRE=5
-RESCOLD=9
-RESPOISON=5
-RESENERGY=5
-
-[ITEMDEF 01716]
-DEFNAME=iHatStrawTall
-TYPE=tClothing
-DYE=1
-//LAYER=layer_helm
-//ARMOR=3
-VALUE=42
-WEIGHT=13.1
-RESOURCES=12 iCloth,1 iStraw,1 iThread
-SKILLMAKE=Tailoring 6.8,tSewingKit
-CanUse=CanUHuman|CanUElf
-ReqStr=10
-CATEGORY=Provisions - Clothes
-SUBSECTION=Hats
-DESCRIPTION=Tall Straw Hat
-ON=@Create
-HITPOINTS={36 48}
-RESFIRE=5
-RESCOLD=9
-RESPOISON=5
-RESENERGY=5
-
-[ITEMDEF 01717]
-DEFNAME=iHatStraw
-TYPE=tClothing
-DYE=1
-//LAYER=layer_helm
-//ARMOR=3
-VALUE=35
-WEIGHT=11.1
-RESOURCES=10 iCloth,1 iStraw,1 iThread
-SKILLMAKE=Tailoring 6.8,tSewingKit
-CanUse=CanUHuman|CanUElf
-ReqStr=10
-CATEGORY=Provisions - Clothes
-SUBSECTION=Hats
-DESCRIPTION=Straw Hat
-ON=@Create
-HITPOINTS={36 48}
-RESFIRE=5
-RESCOLD=9
-RESPOISON=5
-RESENERGY=5
-
-[ITEMDEF 01718]
-DEFNAME=iHatWizards
-TYPE=tClothing
-DYE=1
-//LAYER=layer_helm
-//ARMOR=3
-VALUE=34
-WEIGHT=8.1
-RESOURCES=7 iCloth,1 iCanvas,1 iThread
-SKILLMAKE=Tailoring 16.8,tSewingKit
-CanUse=CanUHuman|CanUElf
-ReqStr=10
-CATEGORY=Provisions - Clothes
-SUBSECTION=Hats
-DESCRIPTION=Wizards Hat
-ON=@Create
-HITPOINTS={36 48}
-RESFIRE=5
-RESCOLD=9
-RESPOISON=5
-RESENERGY=5
-
-[ITEMDEF 01719]
-DEFNAME=iBonnet
-TYPE=tClothing
-DYE=1
-//LAYER=layer_helm
-//ARMOR=3
-VALUE=37
-WEIGHT=11.1
-RESOURCES=11 iCloth,1 iThread
-SKILLMAKE=Tailoring 6.8,tSewingKit
-CanUse=CanUHuman|CanUElf
-ReqStr=10
-CATEGORY=Provisions - Clothes
-SUBSECTION=Hats
-DESCRIPTION=Bonnet
-ON=@Create
-HITPOINTS={36 48}
-RESFIRE=5
-RESCOLD=9
-RESPOISON=5
-RESENERGY=5
-
-[ITEMDEF 0171a]
-DEFNAME=iHatFeather
-TYPE=tClothing
-DYE=1
-//LAYER=layer_helm
-//ARMOR=3
-VALUE=50
-WEIGHT=12.2
-RESOURCES=12 iCloth,1 iFeather,1 iThread
-SKILLMAKE=Tailoring 26.8,tSewingKit
-CanUse=CanUHuman|CanUElf
-ReqStr=10
-CATEGORY=Provisions - Clothes
-SUBSECTION=Hats
-DESCRIPTION=Feathered Hat
-ON=@Create
-HITPOINTS={36 48}
-RESFIRE=5
-RESCOLD=9
-RESPOISON=5
-RESENERGY=5
-
-[ITEMDEF 0171b]
-DEFNAME=iHatTricorne
-TYPE=tClothing
-DYE=1
-//LAYER=layer_helm
-//ARMOR=3
-VALUE=44
-WEIGHT=12.1
-RESOURCES=12 iCloth,1 iThread
-SKILLMAKE=Tailoring 16.8,tSewingKit
-CanUse=CanUHuman|CanUElf
-ReqStr=10
-CATEGORY=Provisions - Clothes
-SUBSECTION=Hats
-DESCRIPTION=Tricorne Hat
-ON=@Create
-HITPOINTS={36 48}
-RESFIRE=5
-RESCOLD=9
-RESPOISON=5
-RESENERGY=5
-
-[ITEMDEF 0171c]
-DEFNAME=iHatJester
-TYPE=tClothing
-DYE=1
-//LAYER=layer_helm
-//ARMOR=3
-VALUE=64
-WEIGHT=15.1
-RESOURCES=15 iCloth,1 iThread
-SKILLMAKE=Tailoring 37.9,tSewingKit
-CanUse=CanUHuman|CanUElf
-ReqStr=10
-CATEGORY=Provisions - Clothes
-SUBSECTION=Hats
-DESCRIPTION=Jester Cap
-ON=@Create
-HITPOINTS={36 48}
-RESFIRE=5
-RESCOLD=9
-RESPOISON=5
-RESENERGY=5
 
 
-[ITEMDEF 0172e]
+
+[ItemDef 0172e]
 //looks like Jester Cap when worn by elves and humans
-DEFNAME=iHatBeekeeper
-NAME=beekeepers hat
-TYPE=tClothing
+DefName=iHatBeekeeper
+Name=beekeepers hat
+Type=tClothing
 DYE=1
 //LAYER=layer_helm
-//ARMOR=3
+Armor=3
 VALUE=64
-WEIGHT=15.1
-RESOURCES=15 iCloth,1 iThread
-SKILLMAKE=Tailoring 37.9,tSewingKit
+Weight=15.1
+Resources=15 iCloth,1 iThread
+SkillMake=Tailoring 37.9,tSewingKit
 CanUse=CanUHuman|CanUElf
 ReqStr=10
-CATEGORY=Provisions - Clothes
-SUBSECTION=Hats
-DESCRIPTION=BeeKeeper Hat (Jester Cap)
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+Category=Equipment
+Subsection=Hats
+Description=BeeKeeper Hat (Jester Cap)
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
 
-[ITEMDEF 019bc]
+[ItemDef 019bc]
 //FIXME: When held, the bearer gets the appearance of a monster.
-DEFNAME=iCostume
-NAME=costume
-TYPE=tClothing
+DefName=iCostume
+Name=costume
+Type=tClothing
 FLIP=1
 DYE=1
 //LAYER=layer_hand1
-//ARMOR=3
+Armor=3
 VALUE=18
-WEIGHT=0.2
-RESOURCES=1 iBoard,1 iThread,1 iHidesCut,1 i_ribbon
-SKILLMAKE=Tailoring 100.0,tSewingKit
+Weight=0.2
+Resources=1 iBoard,1 iThread,1 iHidesCut,1 i_ribbon
+SkillMake=Tailoring 100.0,tSewingKit
 ReqStr=0
 SpellChanneling=1
-DUPELIST=019bd
-CATEGORY=Provisions - Clothes
-SUBSECTION=Masks
-DESCRIPTION=Costume
-ON=@Create
-HITPOINTS={36 48}
+DupeList=019bd
+Category=Equipment
+Subsection=Masks
+Description=Costume
+On=@Create
+HitPoints={36 48}
 
-[ITEMDEF 019bd]
+[ItemDef 019bd]
 //Costume
-DUPEITEM=019bc
+DupeItem=019bc
 
 
-[ITEMDEF 01efd]
-DEFNAME=iShirtFancy
-TYPE=tClothing
+[ItemDef 01efd]
+DefName=iShirtFancy
+Type=tClothing
 DYE=1
 FLIP=1
 //LAYER=layer_shirt
-//ARMOR=4
+Armor=4
 VALUE=33
-WEIGHT=8.1
-RESOURCES=8 iCloth,1 iThread
-SKILLMAKE=Tailoring 27.2,tSewingKit
+Weight=8.1
+Resources=8 iCloth,1 iThread
+SkillMake=Tailoring 27.2,tSewingKit
 ReqStr=10
-DUPELIST=01efe
-DESCRIPTION=Fancy Shirt
-SUBSECTION=Shirts & Robes
-CATEGORY=Provisions - Clothes
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+DupeList=01efe
+Description=Fancy Shirt
+Subsection=Shirts & Robes
+Category=Equipment
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
-[ITEMDEF 01efe]
+[ItemDef 01efe]
 //fancy shirt
-DUPEITEM=01efd
+DupeItem=01efd
 
-[ITEMDEF 01eff]
-DEFNAME=iDressFull
-TYPE=tClothing
+[ItemDef 01eff]
+DefName=iDressFull
+Type=tClothing
 DYE=1
 FLIP=1
 //LAYER=layer_robe
-//ARMOR=5
+Armor=5
 VALUE=52
-WEIGHT=12.1
-RESOURCES=12 iCloth,1 iThread
-SKILLMAKE=Tailoring 36.6,tSewingKit
+Weight=12.1
+Resources=12 iCloth,1 iThread
+SkillMake=Tailoring 36.6,tSewingKit
 ReqStr=10
-DUPELIST=01f00
-CATEGORY=Provisions - Clothes
-SUBSECTION=Shirts & Robes
-DESCRIPTION=Fancy Dress
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+DupeList=01f00
+Category=Equipment
+Subsection=Shirts & Robes
+Description=Fancy Dress
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
-[ITEMDEF 01f00]
+[ItemDef 01f00]
 //fancy dress
-DUPEITEM=01eff
+DupeItem=01eff
 
-[ITEMDEF 01f01]
-DEFNAME=iDressPlain
-TYPE=tClothing
+[ItemDef 01f01]
+DefName=iDressPlain
+Type=tClothing
 DYE=1
 FLIP=1
 //LAYER=layer_robe
-//ARMOR=5
+Armor=5
 VALUE=37
-WEIGHT=10.1
-RESOURCES=10 iCloth,1 iThread
-SKILLMAKE=Tailoring 16.3,tSewingKit
+Weight=10.1
+Resources=10 iCloth,1 iThread
+SkillMake=Tailoring 16.3,tSewingKit
 ReqStr=10
-DUPELIST=01f02
-CATEGORY=Provisions - Clothes
-SUBSECTION=Shirts & Robes
-DESCRIPTION=Plain Dress
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+DupeList=01f02
+Category=Equipment
+Subsection=Shirts & Robes
+Description=Plain Dress
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
-[ITEMDEF 01f02]
+[ItemDef 01f02]
 //plain dress
-DUPEITEM=01f01
+DupeItem=01f01
 
-[ITEMDEF 01f03]
-DEFNAME=iRobe
-TYPE=tClothing
+[ItemDef 01f03]
+DefName=iRobe
+Type=tClothing
 DYE=1
 FLIP=1
 //LAYER=layer_robe
-//ARMOR=7
+Armor=7
 VALUE=105
-WEIGHT=16.1
-RESOURCES=16 iCloth,1 iThread
-SKILLMAKE=Tailoring 59.0,tSewingKit
+Weight=16.1
+Resources=16 iCloth,1 iThread
+SkillMake=Tailoring 59.0,tSewingKit
 ReqStr=10
-DUPELIST=01f04
-CATEGORY=Provisions - Clothes
-SUBSECTION=Shirts & Robes
-DESCRIPTION=Robe
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+DupeList=01f04
+Category=Equipment
+Subsection=Shirts & Robes
+Description=Robe
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
-[ITEMDEF 01f04]
+[ItemDef 01f04]
 //robe
-DUPEITEM=01f03
+DupeItem=01f03
 
 
-[ITEMDEF 01f7b]
-DEFNAME=iDoublet
-TYPE=tClothing
+[ItemDef 01f7b]
+DefName=iDoublet
+Type=tClothing
 DYE=1
 FLIP=1
 //LAYER=layer_tunic
-//ARMOR=3
+Armor=3
 VALUE=32
-WEIGHT=8.1
-RESOURCES=8 iCloth,1 iThread
-SKILLMAKE=Tailoring 22.7,tSewingKit
+Weight=8.1
+Resources=8 iCloth,1 iThread
+SkillMake=Tailoring 22.7,tSewingKit
 ReqStr=10
-DUPELIST=01f7c
-CATEGORY=Provisions - Clothes
-SUBSECTION=Shirts & Robes
-DESCRIPTION=Doublet
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+DupeList=01f7c
+Category=Equipment
+Subsection=Shirts & Robes
+Description=Doublet
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
-[ITEMDEF 01f7c]
+[ItemDef 01f7c]
 //doublet
-DUPEITEM=01f7b
+DupeItem=01f7b
 
 
-[ITEMDEF 01f9f]
-DEFNAME=iJesterSuit
-TYPE=tClothing
+[ItemDef 01f9f]
+DefName=iJesterSuit
+Type=tClothing
 DYE=1
 FLIP=1
 //LAYER=layer_tunic
-//ARMOR=7
+Armor=7
 VALUE=140
-WEIGHT=24.1
-RESOURCES=24 iCloth,1 iThread
-SKILLMAKE=Tailoring 89.0,tSewingKit
+Weight=24.1
+Resources=24 iCloth,1 iThread
+SkillMake=Tailoring 89.0,tSewingKit
 ReqStr=10
-DUPELIST=01fa0
-CATEGORY=Provisions - Clothes
-SUBSECTION=Shirts & Robes
-DESCRIPTION=Jester Suit
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+DupeList=01fa0
+Category=Equipment
+Subsection=Shirts & Robes
+Description=Jester Suit
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
-[ITEMDEF 01fa0]
+[ItemDef 01fa0]
 //Jester Suit
-DUPEITEM=01f9f
+DupeItem=01f9f
 
-[ITEMDEF 01fa1]
-DEFNAME=iTunic
-TYPE=tClothing
+[ItemDef 01fa1]
+DefName=iTunic
+Type=tClothing
 DYE=1
 FLIP=1
 //LAYER=layer_tunic
-//ARMOR=3
+Armor=3
 VALUE=41
-WEIGHT=12.1
-RESOURCES=12 iCloth,1 iThread
-SKILLMAKE=Tailoring 9.1,tSewingKit
+Weight=12.1
+Resources=12 iCloth,1 iThread
+SkillMake=Tailoring 9.1,tSewingKit
 ReqStr=10
-DUPELIST=01fa2
-CATEGORY=Provisions - Clothes
-SUBSECTION=Shirts & Robes
-DESCRIPTION=Tunic
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+DupeList=01fa2
+Category=Equipment
+Subsection=Shirts & Robes
+Description=Tunic
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
-[ITEMDEF 01fa2]
+[ItemDef 01fa2]
 //Tunic
-DUPEITEM=01fa1
+DupeItem=01fa1
 
 
-[ITEMDEF 01ffd]
-DEFNAME=iSurcoat
-TYPE=tClothing
+[ItemDef 01ffd]
+DefName=iSurcoat
+Type=tClothing
 DYE=1
 FLIP=1
 //LAYER=layer_tunic
-//ARMOR=3
+Armor=3
 VALUE=55
-WEIGHT=14.1
-RESOURCES=14 iCloth,1 iThread
-SKILLMAKE=Tailoring 25.0,tSewingKit
+Weight=14.1
+Resources=14 iCloth,1 iThread
+SkillMake=Tailoring 25.0,tSewingKit
 ReqStr=10
-DUPELIST=01ffe
-CATEGORY=Provisions - Clothes
-SUBSECTION=Shirts & Robes
-DESCRIPTION=Surcoat
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+DupeList=01ffe
+Category=Equipment
+Subsection=Shirts & Robes
+Description=Surcoat
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
-[ITEMDEF 01ffe]
+[ItemDef 01ffe]
 //surcoat
-DUPEITEM=01ffd
+DupeItem=01ffd
 
 
-[ITEMDEF 02305]
-DEFNAME=iHelmGarland
-NAME=flower garland
-TYPE=tClothing
-DYE=1
-FLIP=1
-//LAYER=layer_helm
-//ARMOR=5
-VALUE=26
-WEIGHT=2.0
-RESOURCES=5 iCloth
-SKILLMAKE=Tailoring 63.0,Armslore 25.0,tSewingKit
-ReqStr=10
-DUPELIST=02306
-CATEGORY=Provisions - Clothes
-SUBSECTION=Hats
-DESCRIPTION=Flower Garland
-ON=@Create
-HITPOINTS={36 48}
-RESFIRE=3
-RESCOLD=5
-RESPOISON=8
-RESENERGY=8
 
-[ITEMDEF 02306]
-//flower garland
-DUPEITEM=02305
-
-[ITEMDEF 02307]
-DEFNAME=iBootsFur
-NAME=fur boots
-TYPE=tClothing
-FLIP=1
-//LAYER=layer_shoes
-//ARMOR=8
-VALUE=70
-WEIGHT=9.0
-RESOURCES=4 iHidesCut,4 iFurLight
-SKILLMAKE=Tailoring 76.3,tSewingKit
-ReqStr=10
-DUPELIST=02308
-CATEGORY=Provisions - Clothes
-SUBSECTION=Footwear
-DESCRIPTION=Fur Boots
-ON=@Create
-HITPOINTS={36 48}
-RESCOLD=1
-
-[ITEMDEF 02308]
-//fur boots
-DUPEITEM=02307
-
-[ITEMDEF 02309]
-DEFNAME=iCapeFur
-TYPE=tClothing
-FLIP=1
-//LAYER=layer_cape
-//ARMOR=8
-VALUE=103
-WEIGHT=10.0
-RESOURCES=7 iCloth,7 iFurLight
-SKILLMAKE=Tailoring 85.4,tSewingKit
-ReqStr=10
-DUPELIST=0230a
-CATEGORY=Provisions - Clothes
-SUBSECTION=Shirts & Robes
-DESCRIPTION=Fur Cape
-ON=@Create
-HITPOINTS={36 48}
-RESCOLD=1
-
-[ITEMDEF 0230a]
-//fur cape
-DUPEITEM=02309
-
-[ITEMDEF 0230b]
-DEFNAME=iSarongFur
-TYPE=tClothing
+[ItemDef 0230b]
+DefName=iSarongFur
+Type=tClothing
 FLIP=1
 //LAYER=layer_skirt
-//ARMOR=8
+Armor=8
 VALUE=73
-WEIGHT=9.0
-RESOURCES=6 iCloth,6 iFurLight
-SKILLMAKE=Tailoring 53.6,tSewingKit
+Weight=9.0
+Resources=6 iCloth,6 iFurLight
+SkillMake=Tailoring 53.6,tSewingKit
 ReqStr=10
-DUPELIST=0230c
-CATEGORY=Provisions - Clothes
-SUBSECTION=Shirts & Robes
-DESCRIPTION=Fur Sarong
-ON=@Create
-HITPOINTS={36 48}
-RESCOLD=1
+DupeList=0230c
+Category=Equipment
+Subsection=Shirts & Robes
+Description=Fur Sarong
+On=@Create
+HitPoints={36 48}
+ResCold=1
 
-[ITEMDEF 0230c]
+[ItemDef 0230c]
 //fur sarong
-DUPEITEM=0230b
+DupeItem=0230b
 
-[ITEMDEF 0230d]
-DEFNAME=iDressGilded
-TYPE=tClothing
+[ItemDef 0230d]
+DefName=iDressGilded
+Type=tClothing
 DYE=1
 FLIP=1
 //LAYER=layer_skirt
-//ARMOR=6
+Armor=6
 VALUE=86
-WEIGHT=10.0
-RESOURCES=6 iCloth,2 iWireGold,2 iLinen
-SKILLMAKE=Tailoring 73.6,tSewingKit
+Weight=10.0
+Resources=6 iCloth,2 iWireGold,2 iLinen
+SkillMake=Tailoring 73.6,tSewingKit
 ReqStr=10
-DUPELIST=0230e
-CATEGORY=Provisions - Clothes
-SUBSECTION=Shirts & Robes
-DESCRIPTION=Gilded Dress
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+DupeList=0230e
+Category=Equipment
+Subsection=Shirts & Robes
+Description=Gilded Dress
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
-[ITEMDEF 0230e]
+[ItemDef 0230e]
 //gilded dress
-DUPEITEM=0230d
+DupeItem=0230d
 
-[ITEMDEF 0230f]
-DEFNAME=iShirtFormal
-TYPE=tClothing
+[ItemDef 0230f]
+DefName=iShirtFormal
+Type=tClothing
 DYE=1
 FLIP=1
 //LAYER=layer_tunic
-//ARMOR=4
+Armor=4
 VALUE=78
-WEIGHT=8.1
-RESOURCES=8 iCloth,2 iWireGold
-SKILLMAKE=Tailoring 77.2,tSewingKit
+Weight=8.1
+Resources=8 iCloth,2 iWireGold
+SkillMake=Tailoring 77.2,tSewingKit
 ReqStr=10
-DUPELIST=02310
-CATEGORY=Provisions - Clothes
-SUBSECTION=Shirts & Robes
-DESCRIPTION=Formal Shirt
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+DupeList=02310
+Category=Equipment
+Subsection=Shirts & Robes
+Description=Formal Shirt
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
-[ITEMDEF 02310]
+[ItemDef 02310]
 //formal shirt
-DUPEITEM=0230f
+DupeItem=0230f
 
 
-[ITEMDEF 025ea]
-DEFNAME=iShirtCheckered
-TYPE=tClothing
+[ItemDef 025ea]
+DefName=iShirtCheckered
+Type=tClothing
 DYE=1
 FLIP=1
 //LAYER=layer_shirt
-//ARMOR=5
+Armor=5
 VALUE=52
-WEIGHT=12.1
-RESOURCES=12 iCloth,1 iThread
-SKILLMAKE=Tailoring 37.2,tSewingKit
+Weight=12.1
+Resources=12 iCloth,1 iThread
+SkillMake=Tailoring 37.2,tSewingKit
 ReqStr=10
-DUPELIST=025eb
-CATEGORY=Provisions - Clothes
-SUBSECTION=Shirts & Robes
-DESCRIPTION=Checkered Shirt
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+DupeList=025eb
+Category=Equipment
+Subsection=Shirts & Robes
+Description=Checkered Shirt
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
-[ITEMDEF 025eb]
+[ItemDef 025eb]
 //checkered shirt
-DUPEITEM=025ea
+DupeItem=025ea
 
-[ITEMDEF 025ec]
-DEFNAME=iRobe2
-TYPE=tClothing
+[ItemDef 025ec]
+DefName=iRobe2
+Type=tClothing
 DYE=1
 FLIP=1
 //LAYER=layer_robe
-//ARMOR=7
+Armor=7
 VALUE=80
-WEIGHT=16.1
-RESOURCES=16 iCloth,1 iThread
-SKILLMAKE=Tailoring 59.0,tSewingKit
+Weight=16.1
+Resources=16 iCloth,1 iThread
+SkillMake=Tailoring 59.0,tSewingKit
 ReqStr=10
-DUPELIST=025ed
-CATEGORY=Provisions - Clothes
-SUBSECTION=Shirts & Robes
-DESCRIPTION=Robe 2
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+DupeList=025ed
+Category=Equipment
+Subsection=Shirts & Robes
+Description=Robe 2
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
-[ITEMDEF 025ed]
+[ItemDef 025ed]
 //robe 2
-DUPEITEM=025ec
+DupeItem=025ec
 
-[ITEMDEF 025ee]
+[ItemDef 025ee]
 //looks like a fancy shirt when worn
-DEFNAME=iRobe3
-TYPE=tClothing
+DefName=iRobe3
+Type=tClothing
 DYE=1
 FLIP=1
 //LAYER=layer_robe
-//ARMOR=7
+Armor=7
 VALUE=80
-WEIGHT=16.1
-RESOURCES=16 iCloth,1 iThread
-SKILLMAKE=Tailoring 59.0,tSewingKit
+Weight=16.1
+Resources=16 iCloth,1 iThread
+SkillMake=Tailoring 59.0,tSewingKit
 CanUse=CanUNone
 ReqStr=10
-DUPELIST=025ef
-CATEGORY=Provisions - Clothes
-SUBSECTION=Shirts & Robes
-DESCRIPTION=Hooded Robe (unwearable)
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+DupeList=025ef
+Category=Equipment
+Subsection=Shirts & Robes
+Description=Hooded Robe (unwearable)
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
-[ITEMDEF 025ef]
+[ItemDef 025ef]
 //hooded robe
-DUPEITEM=025ee
+DupeItem=025ee
 
-[ITEMDEF 025f0]
-NAME=death shroud// (unwearable)
-TYPE=tClothing
+[ItemDef 025f0]
+Name=death shroud// (unwearable)
+Type=tClothing
 DYE=1
 FLIP=1
 //LAYER=layer_robe
-//ARMOR=7
+Armor=7
 VALUE=80
-WEIGHT=16.1
-RESOURCES=16 iCloth,1 iThread
-SKILLMAKE=Tailoring 59.0,tSewingKit
+Weight=16.1
+Resources=16 iCloth,1 iThread
+SkillMake=Tailoring 59.0,tSewingKit
 CanUse=CanUNone
 ReqStr=10
-DUPELIST=025f1
-CATEGORY=Provisions - Clothes
-SUBSECTION=Shirts & Robes
-DESCRIPTION=Death Shroud (unwearable)
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+DupeList=025f1
+Category=Equipment
+Subsection=Shirts & Robes
+Description=Death Shroud (unwearable)
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
-[ITEMDEF 025f1]
+[ItemDef 025f1]
 //death shroud (unwearable)
-DUPEITEM=025f0
+DupeItem=025f0
 
-[ITEMDEF 025f2]
+[ItemDef 025f2]
 //not visible on paperdoll
-DEFNAME=iSkirtKnee
-TYPE=tClothing
+DefName=iSkirtKnee
+Type=tClothing
 DYE=1
 FLIP=1
 //LAYER=layer_skirt
-//ARMOR=4
+Armor=4
 VALUE=42
-WEIGHT=10.1
-RESOURCES=10 iCloth,1 iThread
-SKILLMAKE=Tailoring 31.8,tSewingKit
+Weight=10.1
+Resources=10 iCloth,1 iThread
+SkillMake=Tailoring 31.8,tSewingKit
 CanUse=CanUNone
 ReqStr=10
-DUPELIST=025f3
-CATEGORY=Provisions - Clothes
-SUBSECTION=Pants & Skirts
-DESCRIPTION=knee Skirt (3d client only)
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+DupeList=025f3
+Category=Equipment
+Subsection=Pants & Skirts
+Description=knee Skirt (3d client only)
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
-[ITEMDEF 025f3]
+[ItemDef 025f3]
 //knee skirt
-DUPEITEM=025f2
+DupeItem=025f2
 
 
-[ITEMDEF 02649]
+[ItemDef 02649]
 //not visible on paperdoll
-DEFNAME=iPantsJester
-TYPE=tClothing
+DefName=iPantsJester
+Type=tClothing
 DYE=1
 FLIP=1
 //LAYER=layer_pants
-//ARMOR=3
+Armor=3
 VALUE=33
-WEIGHT=8.1
-RESOURCES=8 iCloth,1 iThread
-SKILLMAKE=Tailoring 27.2,tSewingKit
+Weight=8.1
+Resources=8 iCloth,1 iThread
+SkillMake=Tailoring 27.2,tSewingKit
 CanUse=CanUNone
 ReqStr=10
-DUPELIST=0264a
-CATEGORY=Provisions - Clothes
-SUBSECTION=Pants & Skirts
-DESCRIPTION=Jester Pants (3d client only)
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+DupeList=0264a
+Category=Equipment
+Subsection=Pants & Skirts
+Description=Jester Pants (3d client only)
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
-[ITEMDEF 0264a]
+[ItemDef 0264a]
 //jester pants
-DUPEITEM=02649
+DupeItem=02649
 
 
-[ITEMDEF 0264d]
+[ItemDef 0264d]
 //appears as sword on paperdoll
-DEFNAME=iHaidate
-TYPE=tClothing
+DefName=iHaidate
+Type=tClothing
 DYE=1
 FLIP=1
 //LAYER=layer_pants
-//ARMOR=3
+Armor=3
 VALUE=33
-WEIGHT=8.1
-RESOURCES=8 iCloth,1 iThread
-SKILLMAKE=Tailoring 27.2,tSewingKit
+Weight=8.1
+Resources=8 iCloth,1 iThread
+SkillMake=Tailoring 27.2,tSewingKit
 CanUse=CanUNone
 ReqStr=10
-DUPELIST=0264e
-CATEGORY=Provisions - Clothes
-SUBSECTION=Pants & Skirts
-DESCRIPTION=Haidate (3d client only)
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+DupeList=0264e
+Category=Equipment
+Subsection=Pants & Skirts
+Description=Haidate (3d client only)
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
-[ITEMDEF 0264e]
+[ItemDef 0264e]
 //haidate
-DUPEITEM=0264d
+DupeItem=0264d
 
-[ITEMDEF 0264f]
+[ItemDef 0264f]
 //not visible on paperdoll
-DEFNAME=iKobakama
-TYPE=tClothing
+DefName=iKobakama
+Type=tClothing
 DYE=1
 FLIP=1
 //LAYER=layer_pants
-//ARMOR=3
+Armor=3
 VALUE=33
-WEIGHT=8.1
-RESOURCES=8 iCloth,1 iThread
-SKILLMAKE=Tailoring 27.2,tSewingKit
+Weight=8.1
+Resources=8 iCloth,1 iThread
+SkillMake=Tailoring 27.2,tSewingKit
 CanUse=CanUNone
 ReqStr=10
-DUPELIST=02650
-CATEGORY=Provisions - Clothes
-SUBSECTION=Pants & Skirts
-DESCRIPTION=Kobakama (3d client only)
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+DupeList=02650
+Category=Equipment
+Subsection=Pants & Skirts
+Description=Kobakama (3d client only)
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
-[ITEMDEF 02650]
+[ItemDef 02650]
 //kobakama
-DUPEITEM=0264f
+DupeItem=0264f
 
-[ITEMDEF 02651]
+[ItemDef 02651]
 //appears like cyclone on paperdoll
-DEFNAME=iPantsNinja
-TYPE=tClothing
+DefName=iPantsNinja
+Type=tClothing
 DYE=1
 FLIP=1
 //LAYER=layer_pants
-//ARMOR=3
+Armor=3
 VALUE=33
-WEIGHT=8.1
-RESOURCES=8 iCloth,1 iThread
-SKILLMAKE=Tailoring 27.2,tSewingKit
+Weight=8.1
+Resources=8 iCloth,1 iThread
+SkillMake=Tailoring 27.2,tSewingKit
 CanUse=CanUNone
 ReqStr=10
-DUPELIST=02652
-CATEGORY=Provisions - Clothes
-SUBSECTION=Pants & Skirts
-DESCRIPTION=Ninja Pants (3d client only)
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+DupeList=02652
+Category=Equipment
+Subsection=Pants & Skirts
+Description=Ninja Pants (3d client only)
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
-[ITEMDEF 02652]
+[ItemDef 02652]
 //ninja pants
-DUPEITEM=02651
+DupeItem=02651
 
 
-[ITEMDEF 02655]
+[ItemDef 02655]
 //not visible on paperdoll
-DEFNAME=iShoesJester
-TYPE=tClothing
+DefName=iShoesJester
+Type=tClothing
 DYE=1
 FLIP=1
 //LAYER=layer_shoes
-//ARMOR=3
+Armor=3
 VALUE=38
-WEIGHT=6.1
-RESOURCES=6 iHidesCut,1 iThread
-SKILLMAKE=Tailoring 18.1,tSewingKit
+Weight=6.1
+Resources=6 iHidesCut,1 iThread
+SkillMake=Tailoring 18.1,tSewingKit
 CanUse=CanUNone
 ReqStr=10
-DUPELIST=02656
-CATEGORY=Provisions - Clothes
-SUBSECTION=Footwear
-DESCRIPTION=Jester Shoes (3d client only)
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+DupeList=02656
+Category=Equipment
+Subsection=Footwear
+Description=Jester Shoes (3d client only)
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
-[ITEMDEF 02656]
+[ItemDef 02656]
 //jester shoes
-DUPEITEM=02655
+DupeItem=02655
 
 
-[ITEMDEF 0265f]
+[ItemDef 0265f]
 //appears like nothing on paperdoll
-DEFNAME=iShirtPlain2
-TYPE=tClothing
+DefName=iShirtPlain2
+Type=tClothing
 DYE=1
 FLIP=1
 //LAYER=layer_shirt
-//ARMOR=3
+Armor=3
 VALUE=32
-WEIGHT=8.1
-RESOURCES=8 iCloth,1 iThread
-SKILLMAKE=Tailoring 22.7,tSewingKit
+Weight=8.1
+Resources=8 iCloth,1 iThread
+SkillMake=Tailoring 22.7,tSewingKit
 CanUse=CanUNone
 ReqStr=10
-DUPELIST=02660
-CATEGORY=Provisions - Clothes
-SUBSECTION=Shirts & Robes
-DESCRIPTION=Plain Shirt 2 (3d client only)
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+DupeList=02660
+Category=Equipment
+Subsection=Shirts & Robes
+Description=Plain Shirt 2 (3d client only)
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
-[ITEMDEF 02660]
+[ItemDef 02660]
 //plain shirt 2
-DUPEITEM=0265f
+DupeItem=0265f
 
-[ITEMDEF 02661]
+[ItemDef 02661]
 //appears like nothing on paperdoll
-DEFNAME=iShirtPlain3
-TYPE=tClothing
+DefName=iShirtPlain3
+Type=tClothing
 DYE=1
 FLIP=1
 //LAYER=layer_shirt
-//ARMOR=3
+Armor=3
 VALUE=32
-WEIGHT=8.1
-RESOURCES=8 iCloth,1 iThread
-SKILLMAKE=Tailoring 22.7,tSewingKit
+Weight=8.1
+Resources=8 iCloth,1 iThread
+SkillMake=Tailoring 22.7,tSewingKit
 CanUse=CanUNone
 ReqStr=10
-DUPELIST=02662
-CATEGORY=Provisions - Clothes
-SUBSECTION=Shirts & Robes
-DESCRIPTION=Plain Shirt 3 (3d client only)
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+DupeList=02662
+Category=Equipment
+Subsection=Shirts & Robes
+Description=Plain Shirt 3 (3d client only)
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
-[ITEMDEF 02662]
+[ItemDef 02662]
 //plain shirt 3
-DUPEITEM=02661
+DupeItem=02661
 
-[ITEMDEF 02663]
+[ItemDef 02663]
 //appears like nothing on paperdoll
-DEFNAME=iShirtPlain4
-TYPE=tClothing
+DefName=iShirtPlain4
+Type=tClothing
 DYE=1
 FLIP=1
 //LAYER=layer_shirt
-//ARMOR=3
+Armor=3
 VALUE=32
-WEIGHT=8.1
-RESOURCES=8 iCloth,1 iThread
-SKILLMAKE=Tailoring 22.7,tSewingKit
+Weight=8.1
+Resources=8 iCloth,1 iThread
+SkillMake=Tailoring 22.7,tSewingKit
 CanUse=CanUNone
 ReqStr=10
-DUPELIST=02664
-CATEGORY=Provisions - Clothes
-SUBSECTION=Shirts & Robes
-DESCRIPTION=Plain Shirt 4 (3d client only)
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+DupeList=02664
+Category=Equipment
+Subsection=Shirts & Robes
+Description=Plain Shirt 4 (3d client only)
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
-[ITEMDEF 02664]
+[ItemDef 02664]
 //plain shirt 4
-DUPEITEM=02663
+DupeItem=02663
 
-[ITEMDEF 02665]
+[ItemDef 02665]
 //appears like nothing on paperdoll
-DEFNAME=iShirtPlain5
-TYPE=tClothing
+DefName=iShirtPlain5
+Type=tClothing
 DYE=1
 FLIP=1
 //LAYER=layer_shirt
-//ARMOR=3
+Armor=3
 VALUE=32
-WEIGHT=8.1
-RESOURCES=8 iCloth,1 iThread
-SKILLMAKE=Tailoring 22.7,tSewingKit
+Weight=8.1
+Resources=8 iCloth,1 iThread
+SkillMake=Tailoring 22.7,tSewingKit
 CanUse=CanUNone
 ReqStr=10
-DUPELIST=02666
-CATEGORY=Provisions - Clothes
-SUBSECTION=Shirts & Robes
-DESCRIPTION=Plain Shirt 5 (3d client only)
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+DupeList=02666
+Category=Equipment
+Subsection=Shirts & Robes
+Description=Plain Shirt 5 (3d client only)
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
-[ITEMDEF 02666]
+[ItemDef 02666]
 //plain shirt 5
-DUPEITEM=02665
+DupeItem=02665
 
-[ITEMDEF 02667]
+[ItemDef 02667]
 //appears like a glass sword on paperdoll
-DEFNAME=iShirtNinja
-TYPE=tClothing
+DefName=iShirtNinja
+Type=tClothing
 DYE=1
 FLIP=1
 //LAYER=layer_shirt
-//ARMOR=3
+Armor=3
 VALUE=32
-WEIGHT=8.1
-RESOURCES=8 iCloth,1 iThread
-SKILLMAKE=Tailoring 22.7,tSewingKit
+Weight=8.1
+Resources=8 iCloth,1 iThread
+SkillMake=Tailoring 22.7,tSewingKit
 CanUse=CanUNone
 ReqStr=10
-DUPELIST=02668
-CATEGORY=Provisions - Clothes
-SUBSECTION=Shirts & Robes
-DESCRIPTION=Ninja (3d client only)
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+DupeList=02668
+Category=Equipment
+Subsection=Shirts & Robes
+Description=Ninja (3d client only)
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
-[ITEMDEF 02668]
+[ItemDef 02668]
 //ninja shirt
-DUPEITEM=02667
+DupeItem=02667
 
 
-[ITEMDEF 0266b]
+[ItemDef 0266b]
 //appears like glass staff on paperdoll
-DEFNAME=iSleevesKote1
-TYPE=tClothing
+DefName=iSleevesKote1
+Type=tClothing
 DYE=1
 FLIP=1
 //LAYER=layer_arms
-//ARMOR=3
+Armor=3
 VALUE=25
-WEIGHT=6.1
-RESOURCES=6 iCloth,1 iThread
-SKILLMAKE=Tailoring 22.7,tSewingKit
+Weight=6.1
+Resources=6 iCloth,1 iThread
+SkillMake=Tailoring 22.7,tSewingKit
 CanUse=CanUNone
 ReqStr=10
-DUPELIST=0266c
-CATEGORY=Provisions - Clothes
-SUBSECTION=Shirts & Robes
-DESCRIPTION=Kote Sleeves 1 (3d client only)
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+DupeList=0266c
+Category=Equipment
+Subsection=Shirts & Robes
+Description=Kote Sleeves 1 (3d client only)
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
-[ITEMDEF 0266c]
+[ItemDef 0266c]
 //kote sleeves 1
-DUPEITEM=0266b
+DupeItem=0266b
 
-[ITEMDEF 0266d]
+[ItemDef 0266d]
 //appears like nothing on paperdoll
-DEFNAME=iSleevesKote2
-TYPE=tClothing
+DefName=iSleevesKote2
+Type=tClothing
 DYE=1
 FLIP=1
 //LAYER=layer_arms
-//ARMOR=3
+Armor=3
 VALUE=25
-WEIGHT=6.1
-RESOURCES=6 iCloth,1 iThread
-SKILLMAKE=Tailoring 22.7,tSewingKit
+Weight=6.1
+Resources=6 iCloth,1 iThread
+SkillMake=Tailoring 22.7,tSewingKit
 CanUse=CanUNone
 ReqStr=10
-DUPELIST=0266e
-CATEGORY=Provisions - Clothes
-SUBSECTION=Shirts & Robes
-DESCRIPTION=Kote Sleeves 2 (3d client only)
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+DupeList=0266e
+Category=Equipment
+Subsection=Shirts & Robes
+Description=Kote Sleeves 2 (3d client only)
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
-[ITEMDEF 0266e]
+[ItemDef 0266e]
 //kote sleeves 2
-DUPEITEM=0266d
+DupeItem=0266d
 
 
-[ITEMDEF 02671]
+[ItemDef 02671]
 //appears like dual pointed spear on paperdoll
-DEFNAME=iDomaru
-TYPE=tClothing
+DefName=iDomaru
+Type=tClothing
 DYE=1
 FLIP=1
 //LAYER=layer_chest
-//ARMOR=3
+Armor=3
 VALUE=32
-WEIGHT=8.1
-RESOURCES=8 iCloth,1 iThread
-SKILLMAKE=Tailoring 22.7,tSewingKit
+Weight=8.1
+Resources=8 iCloth,1 iThread
+SkillMake=Tailoring 22.7,tSewingKit
 CanUse=CanUNone
 ReqStr=10
-DUPELIST=02672
-CATEGORY=Provisions - Clothes
-SUBSECTION=Shirts & Robes
-DESCRIPTION=Do-maru (3d client only)
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+DupeList=02672
+Category=Equipment
+Subsection=Shirts & Robes
+Description=Do-maru (3d client only)
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
-[ITEMDEF 02672]
+[ItemDef 02672]
 //do-maru
-DUPEITEM=02671
+DupeItem=02671
 
-[ITEMDEF 02673]
+[ItemDef 02673]
 //appears like nothing on paperdoll
-DEFNAME=iHaramakido
-TYPE=tClothing
+DefName=iHaramakido
+Type=tClothing
 DYE=1
 FLIP=1
 //LAYER=layer_chest
-//ARMOR=3
+Armor=3
 VALUE=32
-WEIGHT=8.1
-RESOURCES=8 iCloth,1 iThread
-SKILLMAKE=Tailoring 22.7,tSewingKit
+Weight=8.1
+Resources=8 iCloth,1 iThread
+SkillMake=Tailoring 22.7,tSewingKit
 CanUse=CanUNone
 ReqStr=10
-DUPELIST=02674
-CATEGORY=Provisions - Clothes
-SUBSECTION=Shirts & Robes
-DESCRIPTION=Haramaki-do (3d client only)
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+DupeList=02674
+Category=Equipment
+Subsection=Shirts & Robes
+Description=Haramaki-do (3d client only)
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
-[ITEMDEF 02674]
+[ItemDef 02674]
 //haramaki-do
-DUPEITEM=02673
+DupeItem=02673
 
 
-[ITEMDEF 0267b]
-DEFNAME=iDressFancy2
-TYPE=tClothing
+[ItemDef 0267b]
+DefName=iDressFancy2
+Type=tClothing
 DYE=1
 FLIP=1
 //LAYER=layer_robe//actually layer_skirt
-//ARMOR=5
+Armor=5
 VALUE=45
-WEIGHT=12.2
-RESOURCES=12 iCloth,2 iThread
-SKILLMAKE=Tailoring 13.6,tSewingKit
+Weight=12.2
+Resources=12 iCloth,2 iThread
+SkillMake=Tailoring 13.6,tSewingKit
 CanUse=CanUHuman|CanUElf|CanUFemale
 ReqStr=10
-DUPELIST=0267c
-CATEGORY=Provisions - Clothes
-SUBSECTION=Shirts & Robes
-DESCRIPTION=Fancy Dress 2
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+DupeList=0267c
+Category=Equipment
+Subsection=Shirts & Robes
+Description=Fancy Dress 2
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
-[ITEMDEF 0267c]
+[ItemDef 0267c]
 //fancy dress 2
-DUPEITEM=0267b
+DupeItem=0267b
 
-[ITEMDEF 0267d]
-DEFNAME=iDressFancy3
-TYPE=tClothing
+[ItemDef 0267d]
+DefName=iDressFancy3
+Type=tClothing
 DYE=1
 FLIP=1
 //LAYER=layer_robe
-//ARMOR=5
+Armor=5
 VALUE=45
-WEIGHT=12.2
-RESOURCES=12 iCloth,2 iThread
-SKILLMAKE=Tailoring 13.6,tSewingKit
+Weight=12.2
+Resources=12 iCloth,2 iThread
+SkillMake=Tailoring 13.6,tSewingKit
 CanUse=CanUHuman|CanUElf|CanUFemale
 ReqStr=10
-DUPELIST=0267e
-CATEGORY=Provisions - Clothes
-SUBSECTION=Shirts & Robes
-DESCRIPTION=Fancy Dress 3
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+DupeList=0267e
+Category=Equipment
+Subsection=Shirts & Robes
+Description=Fancy Dress 3
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
-[ITEMDEF 0267e]
+[ItemDef 0267e]
 //fancy dress 3
-DUPEITEM=0267d
+DupeItem=0267d
 
-[ITEMDEF 0267f]
-DEFNAME=iDressLong
-TYPE=tClothing
+[ItemDef 0267f]
+DefName=iDressLong
+Type=tClothing
 DYE=1
 FLIP=1
 //LAYER=layer_robe
-//ARMOR=5
+Armor=5
 VALUE=45
-WEIGHT=12.1
-RESOURCES=12 iCloth,1 iThread
-SKILLMAKE=Tailoring 13.6,tSewingKit
+Weight=12.1
+Resources=12 iCloth,1 iThread
+SkillMake=Tailoring 13.6,tSewingKit
 CanUse=CanUHuman|CanUElf|CanUFemale
 ReqStr=10
-DUPELIST=02680
-CATEGORY=Provisions - Clothes
-SUBSECTION=Shirts & Robes
-DESCRIPTION=Long Dress
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+DupeList=02680
+Category=Equipment
+Subsection=Shirts & Robes
+Description=Long Dress
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
-[ITEMDEF 02680]
+[ItemDef 02680]
 //long dress
-DUPEITEM=0267f
+DupeItem=0267f
 
-[ITEMDEF 02681]
+[ItemDef 02681]
 //appears like gargish talwar on paperdoll
-DEFNAME=iKimonoFemale1
-NAME=female kimono
-TYPE=tClothing
+DefName=iKimonoFemale1
+Name=female kimono
+Type=tClothing
 DYE=1
 FLIP=1
 //LAYER=layer_robe
-//ARMOR=5
+Armor=5
 VALUE=45
-WEIGHT=12.1
-RESOURCES=12 iCloth,1 iThread
-SKILLMAKE=Tailoring 13.6,tSewingKit
+Weight=12.1
+Resources=12 iCloth,1 iThread
+SkillMake=Tailoring 13.6,tSewingKit
 CanUse=CanUHuman|CanUElf|CanUFemale|canUNone
 ReqStr=10
-DUPELIST=02682
-CATEGORY=Provisions - Clothes
-SUBSECTION=Shirts & Robes
-DESCRIPTION=Female Kimono 1 (unwearable)
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+DupeList=02682
+Category=Equipment
+Subsection=Shirts & Robes
+Description=Female Kimono 1 (unwearable)
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
-[ITEMDEF 02682]
+[ItemDef 02682]
 //Female Kimono 1 (unwearable)
-DUPEITEM=02681
+DupeItem=02681
 
-[ITEMDEF 02683]
-DEFNAME=iDeathshroudCraft
-NAME=hooded shroud
-TYPE=tClothing
+[ItemDef 02683]
+DefName=iDeathshroudCraft
+Name=hooded shroud
+Type=tClothing
 DYE=1
 FLIP=1
 //LAYER=layer_robe
-//ARMOR=20
+Armor=20
 VALUE=547
-WEIGHT=12.6
-RESOURCES=10 iCloth,5 iGemDiamond,1 iWireGold,1 i_thread,1 i_scroll_resurrection
-SKILLMAKE=Tailoring 70.0,tSewingKit,magery 70.0,Anatomy 100.0
+Weight=12.6
+Resources=10 iCloth,5 iGemDiamond,1 iWireGold,1 i_thread,1 i_scroll_resurrection
+SkillMake=Tailoring 70.0,tSewingKit,magery 70.0,Anatomy 100.0
 CanUse=CanUHuman|CanUElf
 ReqStr=10
-DUPELIST=02684
-CATEGORY=Provisions - Clothes
-SUBSECTION=Shirts & Robes
-DESCRIPTION=Death Shroud (craftable)
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+DupeList=02684
+Category=Equipment
+Subsection=Shirts & Robes
+Description=Death Shroud (craftable)
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
-[ITEMDEF 02684]
+[ItemDef 02684]
 //hooded shroud
-DUPEITEM=02583
+DupeItem=02583
 
-[ITEMDEF 02685]
+[ItemDef 02685]
 //appears like nothing on paperdoll (it actually removes layers)
-NAME=hooded shroud
-TYPE=tClothing
+Name=hooded shroud
+Type=tClothing
 DYE=1
 FLIP=1
 //LAYER=layer_robe
-//ARMOR=20
+Armor=20
 VALUE=547
-WEIGHT=12.6
-RESOURCES=10 iCloth,5 iGemDiamond,1 iWireGold,1 i_thread,1 i_scroll_resurrection
-SKILLMAKE=Tailoring 70.0,tSewingKit,magery 70.0,Anatomy 100.0
+Weight=12.6
+Resources=10 iCloth,5 iGemDiamond,1 iWireGold,1 i_thread,1 i_scroll_resurrection
+SkillMake=Tailoring 70.0,tSewingKit,magery 70.0,Anatomy 100.0
 CanUse=CanUHuman|CanUElf|CanUNone
 ReqStr=10
-DUPELIST=02686
-CATEGORY=Provisions - Clothes
-SUBSECTION=Shirts & Robes
-DESCRIPTION=Death Shroud (unwearable)
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+DupeList=02686
+Category=Equipment
+Subsection=Shirts & Robes
+Description=Death Shroud (unwearable)
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
-[ITEMDEF 02686]
+[ItemDef 02686]
 //death shroud
-DUPEITEM=02685
+DupeItem=02685
 
-[ITEMDEF 02687]
-DEFNAME=iShroudHooded
-NAME=hooded shroud
-TYPE=tClothing
+[ItemDef 02687]
+DefName=iShroudHooded
+Name=hooded shroud
+Type=tClothing
 DYE=1
 FLIP=1
 //LAYER=layer_robe
-//ARMOR=20
+Armor=20
 VALUE=547
-WEIGHT=12.6
-RESOURCES=10 iCloth,5 iGemDiamond,1 iWireGold,1 i_thread,1 i_scroll_resurrection
-SKILLMAKE=Tailoring 70.0,tSewingKit,magery 70.0,Anatomy 100.0
+Weight=12.6
+Resources=10 iCloth,5 iGemDiamond,1 iWireGold,1 i_thread,1 i_scroll_resurrection
+SkillMake=Tailoring 70.0,tSewingKit,magery 70.0,Anatomy 100.0
 CanUse=CanUHuman|CanUElf
 ReqStr=10
-CATEGORY=Provisions - Clothes
-SUBSECTION=Shirts & Robes
-DESCRIPTION=Death Shroud (works)
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+Category=Equipment
+Subsection=Shirts & Robes
+Description=Death Shroud (works)
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
 
-[ITEMDEF 0269d]
+[ItemDef 0269d]
 //appears like nothing on paperdoll
-DEFNAME=iCapFeathered
-NAME=decorative feathered cap
-TYPE=tArmorLeather
+DefName=iCapFeathered
+Name=decorative feathered cap
+Type=tArmorLeather
 FLIP=1
-//ARMOR=13
+Armor=13
 VALUE=15
-WEIGHT=2.2
-RESOURCES=2 iHidesCut,1 iThread,1 iFeather
-SKILLMAKE=Tailoring 6.8,tSewingKit
+Weight=2.2
+Resources=2 iHidesCut,1 iThread,1 iFeather
+SkillMake=Tailoring 6.8,tSewingKit
 CanUse=CanUHuman|CanUElf|CanUNone
 ReqStr=25
-DUPELIST=0269e
-CATEGORY=Provisions - Armor
-SUBSECTION=Leather Armor
-DESCRIPTION=Robin Hood Cap (unwearable)
-ON=@Create
-HITPOINTS={36 48}
-RESCOLD=9
-RESENERGY=5
-RESFIRE=5
-RESPHYSICAL=0
-RESPOISON=5
+DupeList=0269e
+Category=Provisions - Armor
+Subsection=Leather Armor
+Description=Robin Hood Cap (unwearable)
+On=@Create
+HitPoints={36 48}
+ResCold=9
+ResEnergy=5
+ResFire=5
+ResPhysical=0
+ResPoison=5
 
-[ITEMDEF 0269e]
+[ItemDef 0269e]
 //feathered cap
-DUPEITEM=0269d
+DupeItem=0269d
 
 
-[ITEMDEF 026a1]
+[ItemDef 026a1]
 //appears like a (FIXME: what kind of hat) on paperdoll
-DEFNAME=iMaskFeathered
-TYPE=tClothing
+DefName=iMaskFeathered
+Type=tClothing
 FLIP=1
 //LAYER=layer_helm
-//ARMOR=5
+Armor=5
 VALUE=26
-WEIGHT=3.6
-RESOURCES=1 iStraw,1 iCanvas,6 iFeather,1 i_bone
-SKILLMAKE=Tailoring 16.1,tSewingKit
+Weight=3.6
+Resources=1 iStraw,1 iCanvas,6 iFeather,1 i_bone
+SkillMake=Tailoring 16.1,tSewingKit
 CanUse=CanUHuman|CanUElf|CanUNone
 ReqStr=10
-DUPELIST=026a2
-CATEGORY=Provisions - Clothes
-SUBSECTION=Masks
-DESCRIPTION=Feathered Mask (unwearable)
-ON=@Create
-HITPOINTS={36 48}
-RESCOLD=4
-RESENERGY=5
-RESFIRE=1
-RESPHYSICAL=1
-RESPOISON=5
+DupeList=026a2
+Category=Equipment
+Subsection=Masks
+Description=Feathered Mask (unwearable)
+On=@Create
+HitPoints={36 48}
+ResCold=4
+ResEnergy=5
+ResFire=1
+ResPhysical=1
+ResPoison=5
 
-[ITEMDEF 026a2]
+[ItemDef 026a2]
 //feathered mask
-DUPEITEM=026a1
+DupeItem=026a1
 
-[ITEMDEF 026a3]
+[ItemDef 026a3]
 //appears like nothing on paperdoll
-DEFNAME=iHoodNinja2
-NAME=ninja hood
-TYPE=tClothing
+DefName=iHoodNinja2
+Name=ninja hood
+Type=tClothing
 FLIP=1
 //LAYER=layer_helm
-//ARMOR=7
+Armor=7
 VALUE=83
-WEIGHT=14.1
-RESOURCES=14 iCloth,1 iThread
-SKILLMAKE=Tailoring 90.0,tSewingKit
+Weight=14.1
+Resources=14 iCloth,1 iThread
+SkillMake=Tailoring 90.0,tSewingKit
 CanUse=CanUHuman|CanUElf|CanUNone
 ReqStr=10
-DUPELIST=026a4
-CATEGORY=Provisions - Clothes
-SUBSECTION=Masks
-DESCRIPTION=Ninja Hood (unwearable)
-ON=@Create
-HITPOINTS={36 48}
-RESFIRE=5
-RESCOLD=9
-RESPOISON=5
-RESENERGY=5
+DupeList=026a4
+Category=Equipment
+Subsection=Masks
+Description=Ninja Hood (unwearable)
+On=@Create
+HitPoints={36 48}
+ResFire=5
+ResCold=9
+ResPoison=5
+ResEnergy=5
 
-[ITEMDEF 026a4]
+[ItemDef 026a4]
 //ninja hood
-DUPEITEM=026a3
+DupeItem=026a3
 
 
-[ITEMDEF 026ad]
-DEFNAME=iCapeArcane
-NAME=Arcane Cloak
-TYPE=tClothing
-WEIGHT=5
+[ItemDef 026ad]
+DefName=iCapeArcane
+Name=Arcane Cloak
+Type=tClothing
+Weight=5
 DYE=1
-//ARMOR=5
-RESOURCES=14 iCloth,1 iThread,1 iGemArcane
-SKILLMAKE=TAILORING 45.4,tSewingKit
+Armor=5
+Resources=14 iCloth,1 iThread,1 iGemArcane
+SkillMake=TAILORING 45.4,tSewingKit
 CanUse=CanUHuman|CanUElf
 ReqStr=16
-CATEGORY=Provisions - Clothes
-SUBSECTION=Magic
-DESCRIPTION=Arcane Cloak
-ON=@Create
-HITPOINTS={50 100}
-RESPHYSICAL=1
+Category=Equipment
+Subsection=Magic
+Description=Arcane Cloak
+On=@Create
+HitPoints={50 100}
+ResPhysical=1
 TAG.ArcaneCharges=<R1,24>
 
-[ITEMDEF 026ae]
-DEFNAME=iRobeArcane
-NAME=Arcane Robe
-TYPE=tClothing
-WEIGHT=3
+[ItemDef 026ae]
+DefName=iRobeArcane
+Name=Arcane Robe
+Type=tClothing
+Weight=3
 DYE=1
-//ARMOR=7
-RESOURCES=16 iCloth,1 iThread,1 iGemArcane
-SKILLMAKE=TAILORING 59.0,tSewingKit
+Armor=7
+Resources=16 iCloth,1 iThread,1 iGemArcane
+SkillMake=TAILORING 59.0,tSewingKit
 CanUse=CanUHuman|CanUElf
 ReqStr=32
-CATEGORY=Provisions - Clothes
-SUBSECTION=Magic
-DESCRIPTION=Arcane Robe
-ON=@Create
-HITPOINTS={50 100}
-RESPHYSICAL=1
+Category=Equipment
+Subsection=Magic
+Description=Arcane Robe
+On=@Create
+HitPoints={50 100}
+ResPhysical=1
 TAG.ArcaneCharges=<R1,24>
 
-[ITEMDEF 026af]
-DEFNAME=iBootsThighArcane
-NAME=Arcane Thigh Boots
-TYPE=tClothing
-WEIGHT=5
+[ItemDef 026af]
+DefName=iBootsThighArcane
+Name=Arcane Thigh Boots
+Type=tClothing
+Weight=5
 DYE=1
-//ARMOR=6
-RESOURCES=10 iHidesCut,1 iThread,1 iGemArcane
-SKILLMAKE=TAILORING 25.0,tSewingKit
+Armor=6
+Resources=10 iHidesCut,1 iThread,1 iGemArcane
+SkillMake=TAILORING 25.0,tSewingKit
 CanUse=CanUHuman|CanUElf
 ReqStr=8
-CATEGORY=Provisions - Clothes
-SUBSECTION=Magic
-DESCRIPTION=Arcane Thigh Boots
-ON=@Create
-HITPOINTS={50 100}
-RESPHYSICAL=1
+Category=Equipment
+Subsection=Magic
+Description=Arcane Thigh Boots
+On=@Create
+HitPoints={50 100}
+ResPhysical=1
 TAG.ArcaneCharges=<R1,24>
 
-[ITEMDEF 026b0]
-DEFNAME=iLeatherGlovesArcane
-NAME=Arcane Leather Gloves
-TYPE=tArmorLeather
-WEIGHT=1.0
+[ItemDef 026b0]
+DefName=iLeatherGlovesArcane
+Name=Arcane Leather Gloves
+Type=tArmorLeather
+Weight=1.0
 DYE=1
-//ARMOR=13
-RESOURCES=3 iHidesCut,1 iGemArcane
-SKILLMAKE=TAILORING 56.8,tSewingKit
+Armor=13
+Resources=3 iHidesCut,1 iGemArcane
+SkillMake=TAILORING 56.8,tSewingKit
 CanUse=CanUHuman|CanUElf
 ReqStr=10
-CATEGORY=Provisions - Armor
-SUBSECTION=Magic
-DESCRIPTION=Arcane Leather Gloves
-ON=@Create
-HITPOINTS={50 100}
-RESCOLD=3
-RESENERGY=3
-RESFIRE=4
-RESPHYSICAL=2
-RESPOISON=3
+Category=Provisions - Armor
+Subsection=Magic
+Description=Arcane Leather Gloves
+On=@Create
+HitPoints={50 100}
+ResCold=3
+ResEnergy=3
+ResFire=4
+ResPhysical=2
+ResPoison=3
 TAG.ArcaneCharges=<R1,24>
 
 
-[ITEMDEF 02782]
-DEFNAME=iKimonoMale
-NAME=kimono
-TYPE=tClothing
+[ItemDef 02782]
+DefName=iKimonoMale
+Name=kimono
+Type=tClothing
 DYE=1
 FLIP=1
 //LAYER=layer_robe
-//ARMOR=5
+Armor=5
 VALUE=46
-WEIGHT=12.2
-RESOURCES=12 iCloth,2 iThread
-SKILLMAKE=Tailoring 13.6,tSewingKit
+Weight=12.2
+Resources=12 iCloth,2 iThread
+SkillMake=Tailoring 13.6,tSewingKit
 ReqStr=10
-DUPELIST=027cd
-CATEGORY=Provisions - Clothes
-SUBSECTION=Shirts & Robes
-DESCRIPTION=Male Kimono
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+DupeList=027cd
+Category=Equipment
+Subsection=Shirts & Robes
+Description=Male Kimono
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
-[ITEMDEF 02783]
-DEFNAME=iKimonoFemale2
-NAME=female kimono
-TYPE=tClothing
+[ItemDef 02783]
+DefName=iKimonoFemale2
+Name=female kimono
+Type=tClothing
 DYE=1
 FLIP=1
 //LAYER=layer_robe
-//ARMOR=5
+Armor=5
 VALUE=46
-WEIGHT=12.2
-RESOURCES=12 iCloth,2 iThread
-SKILLMAKE=Tailoring 13.6,tSewingKit
+Weight=12.2
+Resources=12 iCloth,2 iThread
+SkillMake=Tailoring 13.6,tSewingKit
 CanUse=CanUFemale
 ReqStr=10
-DUPELIST=027ce
-CATEGORY=Provisions - Clothes
-SUBSECTION=Shirts & Robes
-DESCRIPTION=Female Kimono 2
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+DupeList=027ce
+Category=Equipment
+Subsection=Shirts & Robes
+Description=Female Kimono 2
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
 
-[ITEMDEF 0278f]
-DEFNAME=iHoodNinja
-NAME=cloth ninja hood
-TYPE=tClothing
-DYE=1
-FLIP=1
-//LAYER=layer_helm
-//ARMOR=10
-VALUE=61
-WEIGHT=10.1
-RESOURCES=10 iCloth,1 iThread
-SKILLMAKE=Tailoring 90.0,tSewingKit
-CanUse=CanUHuman|CanUElf
-ReqStr=10
-DUPELIST=027da
-CATEGORY=Provisions - Clothes
-SUBSECTION=Cloth Armor
-DESCRIPTION=Cloth Ninja Hood
-ON=@Create
-HITPOINTS={36 48}
-RESFIRE=5
-RESCOLD=9
-RESPOISON=5
-RESENERGY=5
 
-
-[ITEMDEF 02794]
-DEFNAME=iJacketNinja
-NAME=cloth ninja jacket
-TYPE=tClothing
+[ItemDef 02794]
+DefName=iJacketNinja
+Name=cloth ninja jacket
+Type=tClothing
 DYE=1
 FLIP=1
 //LAYER=layer_chest
-//ARMOR=10
+Armor=10
 VALUE=59
-WEIGHT=10.1
-RESOURCES=10 iCloth,1 iThread
-SKILLMAKE=Tailoring 85.0,tSewingKit
+Weight=10.1
+Resources=10 iCloth,1 iThread
+SkillMake=Tailoring 85.0,tSewingKit
 CanUse=CanUHuman|CanUElf
 ReqStr=10
-DUPELIST=027df
-CATEGORY=Provisions - Clothes
-SUBSECTION=Cloth Armor
-DESCRIPTION=Cloth Ninja Jacket
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+DupeList=027df
+Category=Equipment
+Subsection=Cloth Armor
+Description=Cloth Ninja Jacket
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
-[ITEMDEF 02795]
-//unused tile named tabi boots tall
-CATEGORY=Miscellaneous
-SUBSECTION=Bad Tiles
-DESCRIPTION=Unused Tile 02795
+[ItemDef 02795]
+//unused tile Named tabi boots tall
+Category=Miscellaneous
+Subsection=Bad Tiles
+Description=Unused Tile 02795
 
-[ITEMDEF 02796]
-DEFNAME=iShoesTabi
-NAME=waraji and tabi
-TYPE=tClothing
-DYE=1
-FLIP=1
-//LAYER=layer_shoes
-//ARMOR=6
-VALUE=35
-WEIGHT=6.1
-RESOURCES=6 iHidesCut,1 iThread
-SKILLMAKE=Tailoring 18.1,tSewingKit,armslore 38.0
-CanUse=CanUHuman|CanUElf
-ReqStr=10
-DUPELIST=027e1
-CATEGORY=Provisions - Clothes
-SUBSECTION=Footwear
-DESCRIPTION=Waraji and Tabi
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
 
-[ITEMDEF 02797]
-DEFNAME=iBootsTabi
-NAME=ninja tabi
-TYPE=tClothing
-FLIP=1
-//LAYER=layer_shoes
-//ARMOR=13
-VALUE=63
-WEIGHT=10.1
-RESOURCES=10 iHidesCut,1 iThread
-SKILLMAKE=Tailoring 25.0,tSewingKit
-CanUse=CanUHuman|CanUElf
-ReqStr=10
-DUPELIST=027e2
-CATEGORY=Provisions - Clothes
-SUBSECTION=Footwear
-DESCRIPTION=Ninja Tabi
-ON=@Create
-HITPOINTS={36 48}
-RESPOISON=1
-
-[ITEMDEF 02798]
-DEFNAME=iHatKasa
-NAME=kasa
-TYPE=tClothing
-FLIP=1
-//LAYER=layer_helm
-//ARMOR=3
-VALUE=10
-WEIGHT=3.0
-RESOURCES=12 iCloth
-SKILLMAKE=Tailoring 60.0,tSewingKit
-CanUse=CanUHuman|CanUElf
-ReqStr=10
-DUPELIST=027e3
-CATEGORY=Provisions - Clothes
-SUBSECTION=Hats
-DESCRIPTION=Kasa
-ON=@Create
-HITPOINTS={36 48}
-RESFIRE=5
-RESCOLD=9
-RESPOISON=5
-RESENERGY=5
-
-[ITEMDEF 02799]
-DEFNAME=iKamishimo
-NAME=kamishimo
-TYPE=tClothing
+[ItemDef 02799]
+DefName=iKamishimo
+Name=kamishimo
+Type=tClothing
 DYE=1
 FLIP=1
 //LAYER=layer_robe
-//ARMOR=10
+Armor=10
 VALUE=144
-WEIGHT=24.2
-RESOURCES=24 iCloth,2 iThread
-SKILLMAKE=Tailoring 89.0,tSewingKit
+Weight=24.2
+Resources=24 iCloth,2 iThread
+SkillMake=Tailoring 89.0,tSewingKit
 CanUse=CanUHuman|CanUElf
 ReqStr=10
-DUPELIST=027e4
-CATEGORY=Provisions - Clothes
-SUBSECTION=Shirts & Robes
-DESCRIPTION=Kamishimo
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+DupeList=027e4
+Category=Equipment
+Subsection=Shirts & Robes
+Description=Kamishimo
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
-[ITEMDEF 0279a]
-DEFNAME=iHakama
-NAME=hakama
-TYPE=tClothing
+[ItemDef 0279a]
+DefName=iHakama
+Name=hakama
+Type=tClothing
 DYE=1
 FLIP=1
 //LAYER=layer_skirt
-//ARMOR=5
+Armor=5
 VALUE=84
-WEIGHT=20.1
-RESOURCES=20 iCloth,1 iThread
-SKILLMAKE=Tailoring 36.3,tSewingKit
+Weight=20.1
+Resources=20 iCloth,1 iThread
+SkillMake=Tailoring 36.3,tSewingKit
 CanUse=CanUHuman|CanUElf
 ReqStr=10
-DUPELIST=027e5
-CATEGORY=Provisions - Clothes
-SUBSECTION=Pants & Skirts
-DESCRIPTION=Hakama
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+DupeList=027e5
+Category=Equipment
+Subsection=Pants & Skirts
+Description=Hakama
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
-[ITEMDEF 0279b]
-DEFNAME=iHakamaTattsuke
-NAME=tattsuke-hakama
-TYPE=tClothing
+[ItemDef 0279b]
+DefName=iHakamaTattsuke
+Name=tattsuke-hakama
+Type=tClothing
 DYE=1
 FLIP=1
 //LAYER=layer_pants
-//ARMOR=5
+Armor=5
 VALUE=84
-WEIGHT=20.1
-RESOURCES=20 iCloth,1 iThread
-SKILLMAKE=Tailoring 36.3,tSewingKit
+Weight=20.1
+Resources=20 iCloth,1 iThread
+SkillMake=Tailoring 36.3,tSewingKit
 CanUse=CanUHuman|CanUElf
 ReqStr=10
-DUPELIST=027e6
-CATEGORY=Provisions - Clothes
-SUBSECTION=Shirts & Robes
-DESCRIPTION=Tattsuke Hakama
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+DupeList=027e6
+Category=Equipment
+Subsection=Shirts & Robes
+Description=Tattsuke Hakama
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
-[ITEMDEF 0279c]
-DEFNAME=iHakamaShita
-NAME=hakama-shita
-TYPE=tClothing
+[ItemDef 0279c]
+DefName=iHakamaShita
+Name=hakama-shita
+Type=tClothing
 DYE=1
 FLIP=1
 //LAYER=layer_robe
-//ARMOR=7
+Armor=7
 VALUE=80
-WEIGHT=24.1
-RESOURCES=24 iCloth,1 iThread
-SKILLMAKE=Tailoring 9.0,tSewingKit
+Weight=24.1
+Resources=24 iCloth,1 iThread
+SkillMake=Tailoring 9.0,tSewingKit
 CanUse=CanUHuman|CanUElf
 ReqStr=10
-DUPELIST=027e7
-CATEGORY=Provisions - Clothes
-SUBSECTION=Shirts & Robes
-DESCRIPTION=Hakama-Shita
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+DupeList=027e7
+Category=Equipment
+Subsection=Shirts & Robes
+Description=Hakama-Shita
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
 
-[ITEMDEF 027a0]
-DEFNAME=iObi
-NAME=obi
-TYPE=tClothing
+[ItemDef 027a0]
+DefName=iObi
+Name=obi
+Type=tClothing
 DYE=1
 FLIP=1
 //LAYER=layer_half_apron
-//ARMOR=3
+Armor=3
 VALUE=22
-WEIGHT=6.1
-RESOURCES=6 iCloth,1 iThread
-SKILLMAKE=Tailoring 6.8,tSewingKit
+Weight=6.1
+Resources=6 iCloth,1 iThread
+SkillMake=Tailoring 6.8,tSewingKit
 CanUse=CanUHuman|CanUElf
 ReqStr=10
-DUPELIST=027eb
-CATEGORY=Provisions - Clothes
-SUBSECTION=Pants & Skirts
-DESCRIPTION=Obi
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+DupeList=027eb
+Category=Equipment
+Subsection=Pants & Skirts
+Description=Obi
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
-[ITEMDEF 027a1]
-DEFNAME=iJinbaori
-NAME=jin-baori
-TYPE=tClothing
+[ItemDef 027a1]
+DefName=iJinbaori
+Name=jin-baori
+Type=tClothing
 DYE=1
 FLIP=1
 //LAYER=layer_tunic
-//ARMOR=3
+Armor=3
 VALUE=22
-WEIGHT=6.1
-RESOURCES=6 iCloth,1 iThread
-SKILLMAKE=Tailoring 6.8,tSewingKit
+Weight=6.1
+Resources=6 iCloth,1 iThread
+SkillMake=Tailoring 6.8,tSewingKit
 CanUse=CanUHuman|CanUElf
 ReqStr=10
-DUPELIST=027ec
-CATEGORY=Provisions - Clothes
-SUBSECTION=Shirts & Robes
-DESCRIPTION=Jin-Baori
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+DupeList=027ec
+Category=Equipment
+Subsection=Shirts & Robes
+Description=Jin-Baori
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
 
-[ITEMDEF 027cd]
+[ItemDef 027cd]
 //kimono
-DUPEITEM=02782
+DupeItem=02782
 
-[ITEMDEF 027ce]
+[ItemDef 027ce]
 //kimono
-DUPEITEM=02783
+DupeItem=02783
 
 
-[ITEMDEF 027da]
-//cloth ninja hood
-DUPEITEM=0278f
 
-
-[ITEMDEF 027df]
+[ItemDef 027df]
 //cloth ninja jacket
-DUPEITEM=02794
+DupeItem=02794
 
-[ITEMDEF 027e0]
-//unused tile named tabi boots tall
-CATEGORY=Miscellaneous
-SUBSECTION=Bad Tiles
-DESCRIPTION=Unused Tile 027e0
+[ItemDef 027e0]
+//unused tile Named tabi boots tall
+Category=Miscellaneous
+Subsection=Bad Tiles
+Description=Unused Tile 027e0
 
-[ITEMDEF 027e1]
-//tabi
-DUPEITEM=02796
-
-[ITEMDEF 027e2]
-//ninja tabi
-DUPEITEM=02797
-
-[ITEMDEF 027e3]
-//kasa
-DUPEITEM=02798
-
-[ITEMDEF 027e4]
+[ItemDef 027e4]
 //kamishimo
-DUPEITEM=02799
+DupeItem=02799
 
-[ITEMDEF 027e5]
+[ItemDef 027e5]
 //hakama
-DUPEITEM=0279a
+DupeItem=0279a
 
-[ITEMDEF 027e6]
+[ItemDef 027e6]
 //tattsuke hakama
-DUPEITEM=0279b
+DupeItem=0279b
 
 
-[ITEMDEF 02b02]
-DEFNAME=iQuiverInfinity
-NAME=Quiver of Infinity
-TYPE=tClothing
+[ItemDef 02b68]
+DefName=iWoodlandBelt
+Name=woodland belt
+Type=tClothing
 FLIP=1
-LAYER=17
-RESOURCES=28 iHidesCut
-WEIGHT=5
-RESDISPDNID=iSash
-RESLEVEL=5
-RESDISPDNHUE=0482
-TDATA2=03c
-SKILLMAKE=TAILORING 75.0
-DUPELIST=02b03
-CATEGORY=Provisions - Miscellaneous
-SUBSECTION=8th Age Items
-DESCRIPTION=Quiver of Infinity
-ON=@Create
-HITPOINTS={26 30}
-
-[ITEMDEF 02b03]
-//quiver of infinity
-DUPEITEM=02b02
-
-
-[ITEMDEF 02b04]
-DEFNAME=iCloakHumility
-NAME=Cloak of Humility
-TYPE=tClothing
-//DYE=1
-FLIP=1
-//ARMOR=5
-//LAYER=layer_cape
-VALUE=1000
-WEIGHT=15.1
-RESOURCES=15 iCloth,1 iThread
-SKILLMAKE=Tailoring 100.0,tSewingKit
-CanUse=CanUHuman|CanUElf
-ReqStr=10
-DUPELIST=02b05
-CATEGORY=Quest
-SUBSECTION=8th Age
-DESCRIPTION=Cloak of Humility
-ON=@Create
-ATTR=attr_magic
-COLOR=1827//tarnish
-HITPOINTS=255
-Rarity=1
-TAG.VirtueArmor=1
-
-[ITEMDEF 02b05]
-//cloak of humilty
-DUPEITEM=02b04
-
-
-[ITEMDEF 02b68]
-DEFNAME=iWoodlandBelt
-NAME=woodland belt
-TYPE=tClothing
-FLIP=1
-//ARMOR=5
+Armor=5
 //LAYER=layer_half_apron
 VALUE=84
-WEIGHT=4.0
-RESOURCES=10 iHidesCut
-SKILLMAKE=Tailoring 80.0,tSewingKit
+Weight=4.0
+Resources=10 iHidesCut
+SkillMake=Tailoring 80.0,tSewingKit
 CanUse=CanUElf
 ReqStr=10
-DUPELIST=0315f
-CATEGORY=Provisions - Armor
-SUBSECTION=Elven
-DESCRIPTION=Woodland Belt
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+DupeList=0315f
+Category=Provisions - Armor
+Subsection=Elven
+Description=Woodland Belt
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
 
-[ITEMDEF 02fb7]
-DEFNAME=iElvenQuiver
-NAME=elven quiver
-TYPE=tClothing
-TDATA2=047
-FLIP=1
-LAYER=layer_tunic
-//ARMOR=8
-VALUE=32
-WEIGHT=5.1
-RESOURCES=4 iHidesCut,1 iThread,1 iWireSilver
-SKILLMAKE=Tailoring 59.0,tSewingKit
-ReqStr=10
-DUPELIST=03171
-CATEGORY=Provisions - Clothes
-SUBSECTION=Quivers
-DESCRIPTION=Elven Quiver
-//FIXME: quiver loading event
-ON=@Create
-HITPOINTS={36 48}
-//TAG.WeightReduction=30
-RESPHYSICAL=1
-
-
-[ITEMDEF 02fb9]
-DEFNAME=iElvenMaleRobe1
-NAME=hooded elven robe
-TYPE=tClothing
+[ItemDef 02fb9]
+DefName=iElvenMaleRobe1
+Name=hooded elven robe
+Type=tClothing
 DYE=1
 FLIP=1
 //LAYER=layer_robe
-//ARMOR=12
+Armor=12
 VALUE=80
-WEIGHT=16.1
-RESOURCES=16 iCloth,1 iThread
-SKILLMAKE=Tailoring 59.0,tSewingKit
+Weight=16.1
+Resources=16 iCloth,1 iThread
+SkillMake=Tailoring 59.0,tSewingKit
 CanUse=CanUElf
 ReqStr=10
-DUPELIST=03173
-CATEGORY=Provisions - Clothes
-SUBSECTION=Shirts & Robes
-DESCRIPTION=Elven Male Robe
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+DupeList=03173
+Category=Equipment
+Subsection=Shirts & Robes
+Description=Elven Male Robe
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
-[ITEMDEF 02fba]
-DEFNAME=iElvenMaleRobe2
-NAME=elven robe
-TYPE=tClothing
+[ItemDef 02fba]
+DefName=iElvenMaleRobe2
+Name=elven robe
+Type=tClothing
 DYE=1
 FLIP=1
 //LAYER=layer_robe
-//ARMOR=12
+Armor=12
 VALUE=80
-WEIGHT=16.1
-RESOURCES=16 iCloth,1 iThread
-SKILLMAKE=Tailoring 59.0,tSewingKit
+Weight=16.1
+Resources=16 iCloth,1 iThread
+SkillMake=Tailoring 59.0,tSewingKit
 CanUse=CanUElf
 ReqStr=10
-DUPELIST=03174
-CATEGORY=Provisions - Clothes
-SUBSECTION=Shirts & Robes
-DESCRIPTION=Elven Male Robe 2
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+DupeList=03174
+Category=Equipment
+Subsection=Shirts & Robes
+Description=Elven Male Robe 2
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
-[ITEMDEF 02fbb]
+[ItemDef 02fbb]
 //elven shirt
 //FIXME: Bad tile graphic
 //FIXME: Looks good on paperdoll
 
-[ITEMDEF 02fbc]
+[ItemDef 02fbc]
 //elven shirt
 //FIXME: Bad tile graphic
 //FIXME: Looks good on paperdoll
 
-[ITEMDEF 02fbd]
+[ItemDef 02fbd]
 //FIXME: Bad tile graphic
 //FIXME: Looks good on paperdoll
-DEFNAME=iElvenMaleShirt3
-NAME=elven shirt
-TYPE=tClothing
+DefName=iElvenMaleShirt3
+Name=elven shirt
+Type=tClothing
 DYE=1
 FLIP=1
 //LAYER=layer_shirt
-//ARMOR=4
+Armor=4
 VALUE=34
-WEIGHT=8.1
-RESOURCES=8 iCloth,1 iThread
-SKILLMAKE=Tailoring 27.2,tSewingKit
+Weight=8.1
+Resources=8 iCloth,1 iThread
+SkillMake=Tailoring 27.2,tSewingKit
 CanUse=CanUElf
 ReqStr=10
-DUPELIST=02fbe
-CATEGORY=Provisions - Clothes
-SUBSECTION=Shirts & Robes
-DESCRIPTION=Elven Male Shirt (bad tile)
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+DupeList=02fbe
+Category=Equipment
+Subsection=Shirts & Robes
+Description=Elven Male Shirt (bad tile)
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
-[ITEMDEF 02fbe]
+[ItemDef 02fbe]
 //i_elven_male_shirt3
-DUPEITEM=02fbd
+DupeItem=02fbd
 
 
-[ITEMDEF 02fc3]
+[ItemDef 02fc3]
 //elven pants
-DUPEITEM=03179
-
-[ITEMDEF 02fc4]
-//elven boots
-DUPEITEM=0317a
+DupeItem=03179
 
 
-[ITEMDEF 0315f]
+[ItemDef 0315f]
 //woodland belt
-DUPEITEM=02b68
+DupeItem=02b68
 
 
-[ITEMDEF 03173]
+[ItemDef 03173]
 //elven male robe
-DUPEITEM=02fb9
+DupeItem=02fb9
 
-[ITEMDEF 03174]
+[ItemDef 03174]
 //elven female robe
-DUPEITEM=02fba
+DupeItem=02fba
 
 
-[ITEMDEF 03175]
-DEFNAME=iElvenShirtFemale
-TYPE=tClothing
-NAME=female elven shirt
+[ItemDef 03175]
+DefName=iElvenShirtFemale
+Type=tClothing
+Name=female elven shirt
 DYE=1
 FLIP=1
 //LAYER=layer_shirt
-//ARMOR=4
+Armor=4
 VALUE=33
-WEIGHT=8.1
-RESOURCES=8 iCloth,1 iThread
-SKILLMAKE=Tailoring 27.2,tSewingKit
+Weight=8.1
+Resources=8 iCloth,1 iThread
+SkillMake=Tailoring 27.2,tSewingKit
 CanUse=CanUElf|CanUFemale
 ReqStr=10
-DUPELIST=03178
-CATEGORY=Provisions - Clothes
-SUBSECTION=Shirts & Robes
-DESCRIPTION=Elven Female Shirt
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+DupeList=03178
+Category=Equipment
+Subsection=Shirts & Robes
+Description=Elven Female Shirt
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
-[ITEMDEF 03176]
-DEFNAME=iElvenShirt
-TYPE=tClothing
-NAME=elven shirt
+[ItemDef 03176]
+DefName=iElvenShirt
+Type=tClothing
+Name=elven shirt
 DYE=1
 FLIP=1
 //LAYER=layer_shirt
-//ARMOR=4
+Armor=4
 VALUE=33
-WEIGHT=8.1
-RESOURCES=8 iCloth,1 iThread
-SKILLMAKE=Tailoring 27.2,tSewingKit
+Weight=8.1
+Resources=8 iCloth,1 iThread
+SkillMake=Tailoring 27.2,tSewingKit
 CanUse=CanUElf
 ReqStr=10
-DUPELIST=03177
-CATEGORY=Provisions - Clothes
-SUBSECTION=Shirts & Robes
-DESCRIPTION=Elven Shirt
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+DupeList=03177
+Category=Equipment
+Subsection=Shirts & Robes
+Description=Elven Shirt
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
-[ITEMDEF 03177]
+[ItemDef 03177]
 //Elven shirt
-DUPEITEM=03176
+DupeItem=03176
 
-[ITEMDEF 03178]
+[ItemDef 03178]
 //Elven female shirt
-DUPEITEM=03175
+DupeItem=03175
 
-[ITEMDEF 03179]
-DEFNAME=iElvenPants
-NAME=elven pants
-TYPE=tClothing
+[ItemDef 03179]
+DefName=iElvenPants
+Name=elven pants
+Type=tClothing
 DYE=1
 FLIP=1
 //LAYER=layer_pants
-//ARMOR=3
+Armor=3
 VALUE=33
-WEIGHT=8.1
-RESOURCES=8 iCloth,1 iThread
-SKILLMAKE=Tailoring 27.2,tSewingKit
+Weight=8.1
+Resources=8 iCloth,1 iThread
+SkillMake=Tailoring 27.2,tSewingKit
 CanUse=CanUElf
 ReqStr=10
-DUPELIST=02fc3
-CATEGORY=Provisions - Clothes
-SUBSECTION=Pants & Skirts
-DESCRIPTION=Elven Pants
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+DupeList=02fc3
+Category=Equipment
+Subsection=Pants & Skirts
+Description=Elven Pants
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
-[ITEMDEF 0317a]
-DEFNAME=iElvenBoots
-TYPE=tClothing
-NAME=elven boots
+
+[ItemDef 04000]
+DefName=iGargishRobe
+Name=Gargish robe
+Type=tClothing
 DYE=1
 FLIP=1
-//LAYER=layer_shoes
-//ARMOR=7
-VALUE=57
-WEIGHT=8.1
-RESOURCES=8 iHidesCut,1 iThread
-SKILLMAKE=Tailoring 36.3,tSewingKit
-CanUse=CanUElf
-ReqStr=10
-DUPELIST=02fc4
-CATEGORY=Provisions - Clothes
-SUBSECTION=Footwear
-DESCRIPTION=Elven Boots
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
-
-
-[ITEMDEF 04000]
-DEFNAME=iGargishRobe
-NAME=Gargish robe
-TYPE=tClothing
-DYE=1
-FLIP=1
-//ARMOR=7
+Armor=7
 //LAYER=layer_robe
 VALUE=105
-WEIGHT=16.1
-RESOURCES=16 iCloth,1 iThread
-SKILLMAKE=Tailoring 59.0,tSewingKit
+Weight=16.1
+Resources=16 iCloth,1 iThread
+SkillMake=Tailoring 59.0,tSewingKit
 canuse=CanUGargoyle
 ReqStr=10
-DUPELIST=04001
-CATEGORY=Provisions - Clothes
-SUBSECTION=Shirts & Robes
-DESCRIPTION=Gargish Robe
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+DupeList=04001
+Category=Equipment
+Subsection=Shirts & Robes
+Description=Gargish Robe
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
-[ITEMDEF 04001]
+[ItemDef 04001]
 //Gargish robe
-DUPEITEM=04000
+DupeItem=04000
 
-[ITEMDEF 04002]
-DEFNAME=iGargishRobeFancy
-NAME=Gargish fancy robe
-TYPE=tClothing
+[ItemDef 04002]
+DefName=iGargishRobeFancy
+Name=Gargish fancy robe
+Type=tClothing
 DYE=1
 FLIP=1
 //LAYER=layer_robe
-//ARMOR=7
+Armor=7
 VALUE=105
-WEIGHT=16.1
-RESOURCES=16 iCloth,1 iThread
-SKILLMAKE=Tailoring 59.0,tSewingKit
+Weight=16.1
+Resources=16 iCloth,1 iThread
+SkillMake=Tailoring 59.0,tSewingKit
 canuse=CanUGargoyle
 ReqStr=10
-DUPELIST=04003
-CATEGORY=Provisions - Clothes
-SUBSECTION=Shirts & Robes
-DESCRIPTION=Gargish Fancy Robe
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+DupeList=04003
+Category=Equipment
+Subsection=Shirts & Robes
+Description=Gargish Fancy Robe
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
-[ITEMDEF 04003]
+[ItemDef 04003]
 //Gargish robe fancy
-DUPEITEM=04002
+DupeItem=04002
 
 
-[ITEMDEF 045a4]
-DEFNAME=iGargishClothWings
-NAME=Gargish cloth wing armor
-TYPE=tClothing
+
+[ItemDef 046aa]
+DefName=iGargishSashFemale
+Type=tClothing
 DYE=1
 FLIP=1
-//ARMOR=5
-VALUE=70
-WEIGHT=9.1
-RESOURCES=9 iCloth,1 iThread
-SKILLMAKE=Tailoring 69.0,tSewingKit
-ReqStr=10
-canuse=CanUGargoyle
-DUPELIST=045a5
-CATEGORY=Provisions - Clothes
-SUBSECTION=Gargoyle Cloth Armor
-DESCRIPTION=Gargish Cloth Wing Armor
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
-
-[ITEMDEF 045a5]
-//gargoyle cloth wings
-DUPEITEM=045a4
-
-
-[ITEMDEF 046aa]
-DEFNAME=iGargishSashFemale
-TYPE=tClothing
-DYE=1
-FLIP=1
-//ARMOR=1
+Armor=1
 //LAYER=layer_tunic
 VALUE=14
-WEIGHT=4.1
-RESOURCES=4 iCloth,1 iThread
-SKILLMAKE=Tailoring 4.5,tSewingKit
+Weight=4.1
+Resources=4 iCloth,1 iThread
+SkillMake=Tailoring 4.5,tSewingKit
 canuse=CanUGargoyle|CanUFemale
 ReqStr=10
-DUPELIST=046ab
-CATEGORY=Provisions - Clothes
-SUBSECTION=Miscellaneous
-DESCRIPTION=Gargish Female Sash
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+DupeList=046ab
+Category=Equipment
+Subsection=Miscellaneous
+Description=Gargish Female Sash
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
-[ITEMDEF 046ab]
+[ItemDef 046ab]
 //gargish female sash
-DUPEITEM=046aa
+DupeItem=046aa
 
 
-[ITEMDEF 046b4]
-DEFNAME=iGargishSash
-NAME=Gargish sash
-TYPE=tClothing
+[ItemDef 046b4]
+DefName=iGargishSash
+Name=Gargish sash
+Type=tClothing
 DYE=1
 FLIP=1
-//ARMOR=1
+Armor=1
 //LAYER=layer_tunic
 VALUE=14
-WEIGHT=4.1
-RESOURCES=4 iCloth,1 iThread
-SKILLMAKE=Tailoring 4.5,tSewingKit
+Weight=4.1
+Resources=4 iCloth,1 iThread
+SkillMake=Tailoring 4.5,tSewingKit
 canuse=CanUGargoyle
 //TAG.MaleOnly=1
 ReqStr=10
-DUPELIST=046b5
-CATEGORY=Provisions - Clothes
-SUBSECTION=Miscellaneous
-DESCRIPTION=Gargish Sash
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+DupeList=046b5
+Category=Equipment
+Subsection=Miscellaneous
+Description=Gargish Sash
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
-[ITEMDEF 046b5]
+[ItemDef 046b5]
 //gargish sash
-DUPEITEM=046b4
+DupeItem=046b4
 
 
-[ITEMDEF 04b9d]
-DEFNAME=iRobeAnniversary
-NAME=anniversary robe
-TYPE=tClothing
+[ItemDef 04b9d]
+DefName=iRobeAnniversary
+Name=anniversary robe
+Type=tClothing
 DYE=1
 FLIP=1
 //LAYER=layer_robe
-//ARMOR=7
+Armor=7
 VALUE=105
-WEIGHT=16.1
-RESOURCES=16 iCloth,1 iThread
-SKILLMAKE=Tailoring 59.0,tSewingKit
+Weight=16.1
+Resources=16 iCloth,1 iThread
+SkillMake=Tailoring 59.0,tSewingKit
 ReqStr=10
-DUPELIST=04b9e
-CATEGORY=Provisions - Clothes
-SUBSECTION=Shirts & Robes
-DESCRIPTION=Anniversary Robe
-ON=@Create
-HITPOINTS={48 64}
-RESPHYSICAL=1
+DupeList=04b9e
+Category=Equipment
+Subsection=Shirts & Robes
+Description=Anniversary Robe
+On=@Create
+HitPoints={48 64}
+ResPhysical=1
 
-[ITEMDEF 04b9e]
+[ItemDef 04b9e]
 //Anniversary Robe
-DUPEITEM=04b9d
+DupeItem=04b9d
 
-[ITEMDEF 04b9f]
-DEFNAME=iGargishRobeAnniversary
-NAME=Gargish anniversary robe
-TYPE=tClothing
+[ItemDef 04b9f]
+DefName=iGargishRobeAnniversary
+Name=Gargish anniversary robe
+Type=tClothing
 DYE=1
 FLIP=1
 //LAYER=layer_robe
-//ARMOR=7
+Armor=7
 VALUE=105
-WEIGHT=16.1
-RESOURCES=16 iCloth,1 iThread
-SKILLMAKE=Tailoring 59.0,tSewingKit
+Weight=16.1
+Resources=16 iCloth,1 iThread
+SkillMake=Tailoring 59.0,tSewingKit
 canuse=CanUGargoyle
 ReqStr=10
-DUPELIST=04ba0
-CATEGORY=Provisions - Clothes
-SUBSECTION=Shirts & Robes
-DESCRIPTION=Gargish Anniversary Robe
-ON=@Create
-HITPOINTS={48 64}
-RESPHYSICAL=1
+DupeList=04ba0
+Category=Equipment
+Subsection=Shirts & Robes
+Description=Gargish Anniversary Robe
+On=@Create
+HitPoints={48 64}
+ResPhysical=1
 
-[ITEMDEF 04ba0]
+[ItemDef 04ba0]
 //Gargish Anniversary Robe
-DUPEITEM=04b9f
+DupeItem=04b9f
 
 
-[ITEMDEF 050d8]
-DEFNAME=iGargishApron
-NAME=Gargish half apron
-TYPE=tClothing
+[ItemDef 050d8]
+DefName=iGargishApron
+Name=Gargish half apron
+Type=tClothing
 DYE=1
 FLIP=1
-//ARMOR=2
+Armor=2
 //LAYER=layer_half_apron?
 VALUE=24
-WEIGHT=6.1
-RESOURCES=6 iHidesCut,1 iThread
-SKILLMAKE=Tailoring 22.7,tSewingKit
+Weight=6.1
+Resources=6 iHidesCut,1 iThread
+SkillMake=Tailoring 22.7,tSewingKit
 canuse=CanUGargoyle
 ReqStr=10
-DUPELIST=050d9
-CATEGORY=Provisions - Clothes
-SUBSECTION=Miscellaneous
-DESCRIPTION=Gargish Half Apron
-ON=@Create
-HITPOINTS={36 48}
-RESPHYSICAL=1
+DupeList=050d9
+Category=Equipment
+Subsection=Miscellaneous
+Description=Gargish Half Apron
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
 
-[ITEMDEF 050d9]
+[ItemDef 050d9]
 //Gargish half apron
-DUPEITEM=050d8
+DupeItem=050d8
 
 
 //////////////////
 // Custom Items //
 //////////////////
 
-[ITEMDEF iHatWizardsMagic]
+[ItemDef iHatWizardsMagic]
 ID=iHatWizards
-NAME=wizard hat
-RESOURCES=iHatWizards,iScrollCunning,2 iWireGold
-SKILLMAKE=Tailoring 60.0,Magery 60.0,tSewingKit
+Name=wizard hat
+Resources=iHatWizards,iScrollCunning,2 iWireGold
+SkillMake=Tailoring 60.0,Magery 60.0,tSewingKit
 CanUse=CanUHuman|CanUElf
 ReqStr=25
-CATEGORY=Magic
-SUBSECTION=Clothing
-DESCRIPTION=Magic Wizard Hat
-ON=@Create
+Category=Magic
+Subsection=Clothing
+Description=Magic Wizard Hat
+On=@Create
 COLOR=colors_all
-HITPOINTS={36 48}
+HitPoints={36 48}
 ATTR=attr_magic|attr_identified
 BonusINT=<R8,10>
 BonusDex=<R3,5>
 BonusStr=<R3,5>
-RESCOLD=9
-RESENERGY=5
-RESFIRE=5
-RESPOISON=5
-RESPHYSICAL=1
+ResCold=9
+ResEnergy=5
+ResFire=5
+ResPoison=5
+ResPhysical=1
 
 [EOF]

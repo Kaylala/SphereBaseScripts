@@ -190,7 +190,7 @@ SkillMake=Blacksmithing 75.0
 Category=Equipment
 Subsection=Amazon
 Description=Heavy (unwearable)
-CanUse=CanUHuman|CanUElf|CanUFemale|canUNone
+CanUse=CanUHuman|CanUElf|CanUFemale|CanUNone
 ReqStr=60
 DupeList=0265a
 On=@Create
@@ -219,7 +219,7 @@ SkillMake=Blacksmithing 75.0
 Category=Equipment
 Subsection=Amazon
 Description=Medium (unwearable)
-CanUse=CanUHuman|CanUElf|CanUFemale|canUNone
+CanUse=CanUHuman|CanUElf|CanUFemale|CanUNone
 ReqStr=60
 DupeList=0265c
 On=@Create
@@ -248,7 +248,7 @@ SkillMake=Blacksmithing 75.0
 Category=Equipment
 Subsection=Amazon
 Description=Light (unwearable)
-CanUse=CanUHuman|CanUElf|CanUFemale|canUNone
+CanUse=CanUHuman|CanUElf|CanUFemale|CanUNone
 ReqStr=60
 DupeList=0265e
 On=@Create
@@ -338,7 +338,7 @@ Subsection=Armor: Helmets
 Description=Winged Helm
 ReqStr=25
 CanUse=CanUHuman|CanUElf
-//CanUse=can_u_elf
+//CanUse=Can_u_elf
 DupeList=0268a
 On=@Create
 HitPoints={36 48}
@@ -721,226 +721,6 @@ DupeItem=02774
 DupeItem=02790
 
 
-[ItemDef 02b06]
-DefName=iLegsHonor
-Name=Legs of Honor
-Type=tArmor
-FLIP=1
-//Armor=40
-VALUE=1000
-Weight=20.0
-Resources=15 iIronIngot,3 iIngotGold,2 iIngotSilver
-SkillMake=Blacksmithing 100.0,Armslore 100.0
-Category=Quest
-Subsection=8th Age
-Description=Legs of Honor
-CanUse=CanUHuman|CanUElf
-ReqStr=70
-DupeList=02b07
-On=@Create
-ATTR=attr_magic
-COLOR=1827//tarnish
-HitPoints=255
-Rarity=1
-TAG.VirtueArmor=1
-ResCold=10
-ResEnergy=8
-ResFire=7
-ResPhysical=8
-ResPoison=7
-
-[ItemDef 02b07]
-//legs of honor
-DupeItem=02b06
-
-[ItemDef 02b08]
-DefName=iBreastplateJustice
-Name=Breastplate of Justice
-Type=tArmor
-FLIP=1
-//Armor=40
-VALUE=1000
-Weight=25.0
-Resources=18 iIronIngot,4 iIngotGold,3 iIngotSilver
-SkillMake=Blacksmithing 100.0,Armslore 100.0
-Category=Quest
-Subsection=8th Age
-Description=Breastplate of Justice
-CanUse=CanUHuman|CanUElf
-ReqStr=65
-DupeList=02b09
-On=@Create
-ATTR=attr_magic
-COLOR=1827//tarnish
-HitPoints=255
-Rarity=1
-TAG.VirtueArmor=1
-ResCold=8
-ResEnergy=8
-ResFire=7
-ResPhysical=10
-ResPoison=7
-
-[ItemDef 02b09]
-//breastplate of justice
-DupeItem=02b08
-
-[ItemDef 02b0a]
-DefName=iArmsCompassion
-Name=Arms of Compassion
-Type=tArmor
-FLIP=1
-//Armor=40
-VALUE=1000
-Weight=18.0
-Resources=12 iIronIngot,3 iIngotGold,3 iIngotSilver
-SkillMake=Blacksmithing 100.0,Armslore 100.0
-Category=Quest
-Subsection=8th Age
-Description=Arms of Compassion
-CanUse=CanUHuman|CanUElf
-ReqStr=60
-DupeList=02b09
-On=@Create
-ATTR=attr_magic
-COLOR=1827//tarnish
-HitPoints=255
-Rarity=1
-TAG.VirtueArmor=1
-ResCold=6
-ResEnergy=7
-ResFire=11
-ResPhysical=8
-ResPoison=8
-
-[ItemDef 02b0b]
-//arms of compassion
-DupeItem=02b0a
-
-[ItemDef 02b0c]
-DefName=iGauntletsValor
-Name=Gauntlets of Valor
-Type=tArmor
-FLIP=1
-//Armor=40
-VALUE=1000
-Weight=12.0
-Resources=8 iIronIngot,3 iIngotGold,1 iIngotSilver
-SkillMake=Blacksmithing 100.0,Armslore 100.0
-Category=Quest
-Subsection=8th Age
-Description=Gauntlets of Valor
-CanUse=CanUHuman|CanUElf
-ReqStr=60
-DupeList=02b0d
-On=@Create
-ATTR=attr_magic
-COLOR=1827//tarnish
-HitPoints=255
-Rarity=1
-TAG.VirtueArmor=1
-ResCold=6
-ResEnergy=7
-ResFire=11
-ResPhysical=8
-ResPoison=8
-
-[ItemDef 02b0d]
-//gauntlets of valor
-DupeItem=02b0c
-
-[ItemDef 02b0e]
-DefName=iGorgetTruth
-Name=Gorget of Honesty
-Type=tArmor
-FLIP=1
-//Armor=40
-VALUE=1000
-Weight=10.0
-Resources=7 iIronIngot,2 iIngotGold,1 iIngotSilver
-SkillMake=Blacksmithing 100.0,Armslore 100.0
-Category=Quest
-Subsection=8th Age
-Description=Gorget of Truth
-CanUse=CanUHuman|CanUElf
-ReqStr=45
-DupeList=02b0f
-On=@Create
-ATTR=attr_magic
-COLOR=1827//tarnish
-HitPoints=255
-Rarity=1
-TAG.VirtueArmor=1
-ResCold=9
-ResEnergy=7
-ResFire=7
-ResPhysical=7
-ResPoison=5
-
-[ItemDef 02b0f]
-//gorget of truth
-DupeItem=02b0e
-
-[ItemDef 02b10]
-DefName=iHelmSpirituality
-Name=Helm Spirituality
-Type=tArmor
-FLIP=1
-//Armor=40
-VALUE=1000
-Weight=15.0
-Resources=10 iIronIngot,3 iIngotGold,2 iIngotSilver
-SkillMake=Blacksmithing 100.0,Armslore 100.0
-Category=Quest
-Subsection=8th Age
-Description=Helm of Spirituality
-CanUse=CanUHuman|CanUElf
-ReqStr=25
-DupeList=02b11
-On=@Create
-ATTR=attr_magic
-COLOR=1827//tarnish
-HitPoints=255
-Rarity=1
-TAG.VirtueArmor=1
-ResCold=7
-ResEnergy=8
-ResFire=8
-ResPhysical=8
-ResPoison=9
-
-[ItemDef 02b11]
-//helm of spirituality
-DupeItem=02b10
-
-[ItemDef 02b12]
-DefName=iSolaretesSacrifice
-Name=Sollerets of Sacrifice
-Type=tArmor
-FLIP=1
-//Armor=40
-VALUE=1000
-Weight=10.0
-Resources=7 iIronIngot,2 iIngotGold,1 iIngotSilver
-SkillMake=Blacksmithing 100.0,Armslore 100.0
-Category=Quest
-Subsection=8th Age
-Description=Sollerets of Sacrifice
-CanUse=CanUHuman|CanUElf
-ReqStr=10
-DupeList=02b13
-On=@Create
-ATTR=attr_magic
-COLOR=1827//tarnish
-HitPoints=255
-Rarity=1
-TAG.VirtueArmor=1
-ResPhysical=8
-
-[ItemDef 02b13]
-//solaretes of sacrifice
-DupeItem=02b12
-
 
 [ItemDef 02b6e]
 DefName=iHelmCirclet1
@@ -1087,72 +867,17 @@ ResPhysical=5
 ResPoison=2
 
 
-
-
-[ItemDef 042de]
-DefName=iGargishPlateTalons
-Name=Gargish plate talons
-Type=tArmor
-FLIP=1
-//Armor=15
-//LAYER=layer_shoes
-VALUE=57
-Weight=8.0
-Resources=8 iIronIngot
-SkillMake=Blacksmithing 56.8,Armslore 10.0
-Category=Equipment
-Subsection=Plate Gargoyle Armor
-Description=Gargish Plate Talons
-canuse=CanUGargoyle
-ReqStr=20
-DupeList=042df
-On=@Create
-HitPoints={36 48}
-ResPhysical=1
-
-[ItemDef 042df]
-//plate talons
-DupeItem=042de
-
-
-// Gargish Leather Talons
-[ItemDef 041d8]
-DefName=iGargishLeatherTalons
-Name=gargish leather talons
-Nameloc=1095728
-Type=tArmorLeather
-can=CanIFlip|CanIRepair|CanIDye|canIExceptional|canIMakersmark|canIRetaincolor|canIImbue|canIEnchant|canIRecycle
-layer=layer_shoes
-Weight=2
-reqstr=10
-canuse=CanUGargoyle|CanUMale|CanUFemale
-expansion=7
-Resources=6 iHidesCut
-SkillMake=tailoring 40.4
-DupeList=041d9
-
-Category=Equipment
-Subsection=Gargish Leather Armor
-Description=Gargish Leather Talons
-
-On=@Create
-HitPoints={ 36 48 }
-
-[ItemDef 041d9]
-DupeItem=041d8
-Nameloc=1095729
-
 // Gargish Belt
 [ItemDef 0450d]
 DefName=iGargishBelt
 Name=gargish belt
 Nameloc=1096549
 Type=tClothing
-can=CanIFlip|CanIRepair|CanIDye|canIExceptional|canIMakersmark|canIRetaincolor|canIImbue|canIEnchant|canIRecycle
+Can=CanIFlip|CanIRepair|CanIDye|CanIExceptional|CanIMakersmark|CanIRetaincolor|CanIImbue|CanIEnchant|CanIRecycle
 layer=
 Weight=
 reqstr=
-canuse=CanUGargoyle|CanUMale|CanUFemale
+Canuse=CanUGargoyle|CanUMale|CanUFemale
 expansion=7
 Resources=
 SkillMake=

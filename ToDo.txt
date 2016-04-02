@@ -17,3 +17,15 @@ Items:
 Mobiles:
 - Switch Solen Matriarchs to Quest NPCs.
 - Switch Solen Ambitious Queens to Quest NPCs.
+
+
+
+New CanI* possibly to replace the large amounts of of mace type weapons
+CanISmith
+CanIHerd
+CanIFish
+CanICutTree
+CanIMine
+
+Might Add CanSmelt and CanMine in the char Cans for beetles.
+Would make more sense than attaching an event to them.

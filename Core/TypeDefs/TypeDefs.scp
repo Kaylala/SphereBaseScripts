@@ -22,6 +22,20 @@ WeightCliLoc
 Return 1
 
 
+
+// Still need to add in 500 check.
+[TypeDef tQuiver]
+On=@Create
+Tag.MaxAmmo=500
+Tag.Override.MaxItems=1
+Tag.Override.MaxWeight=50
+
+On=@DropOn_Self
+If (<ArgO.Type> != tArrow) || (<ArgO.Type> != tCrossbowBolt)
+ Return 1
+EndIf
+
+
 [TypeDef tClockworkAssembly]
 On=@DClick
 If !(<Src.Tinkering>)

@@ -68,7 +68,7 @@ If (<Amount> > 1) && (<Weight> != 255)
 EndIf
 
 
-[Function ArmorCliLoc]
+[Function ResistanceCliLoc]
 If (<ResPhysical>)
  Src.AddCliLoc 1060448,<ResPhysical>
 EndIf
@@ -84,12 +84,15 @@ EndIf
 If (<ResEnergy>)
  Src.AddCliLoc 1060446,<ResEnergy>
 EndIf
+
+
+[Function ReqStrCliLoc]
 If (<ReqStr>)
  Src.AddCliLoc 1061170,<ReqStr>
 EndIf
 
 
-[Function WeaponCliLoc]
+[Function DamageCliLoc]
 If (<DamPhysical>)
  Src.AddCliLoc 1060403,<DamPhysical>
 EndIf
@@ -110,10 +113,13 @@ If (<DamChaos>)
 EndIf
 Src.AddCliLoc 1061168,<Dam.Min>,<Dam.Max>
 If Src.AddCliLoc 1061167,<QVal (<Tag0.Override.Speed>) ? <Tag.Override.Speed> : <Speed>>
-If (<ReqStr>)
- Src.AddCliLoc 1061170,<ReqStr>
-EndIf
+
+
+[Function TwoHandsCliLoc]
 Src.AddCliLoc <QVal <TwoHands> ? 1061171 : 1061824>
+
+
+[Function SkillCliLoc]
 If (<Skill> == Swordsmanship)
  Src.AddCliLoc 1061172
 ElIf (<Skill> == MaceFighting)
@@ -131,6 +137,18 @@ EndIf
 If (<HitPoints>)
  Src.AddCliLoc 1060639,<More1L>,<More1H>
 EndIf
+
+
+[Function AmmoCliLoc]
+If (<FindType.tArrow>)
+ Src.AddCliLoc 1075265,<Count>,<Tag.MaxAmmo>
+ElIf (<FindType.tCrossbowBolt>)
+ Src.AddCliLoc 1075266,<Count>,<Tag.MaxAmmo>
+EndIf
+
+
+[Function ContCliLoc]
+Src.AddCliLoc 1072241,<Count>,<Tag0.Override.MaxItems>,<ContentWeight>,<Tag0.Override.MaxWeight>	// Contents: ~1_COUNT~/~2_MAXCOUNT~ items, ~3_WEIGHT~/~4_MAXWEIGHT~ stones
 
 
 [EOF]

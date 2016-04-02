@@ -120,7 +120,7 @@ tExplosion					94 // ASync explosion.
 tMasonryTool				95 // Masonry Tool (Item: iMalletAndChisel)
 tWeb						96 // Walk on this and transform into some other object.
 tGrass						97 // Can be eaten by grazing animals
-tBouder						98 // Throwable boulder (Note: was tARock)
+tBoulder					98 // Throwable boulder (Note: was tARock)
 tTracker					99 // Points to a linked object.
 tSound						100 // this is a sound source.
 tTownStone					101 // town stones. everyone free to join.

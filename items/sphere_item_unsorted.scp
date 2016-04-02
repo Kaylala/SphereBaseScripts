@@ -3704,11 +3704,6 @@ DupeItem=0312f
 
 
 
-[ItemDef 03171]
-//elven quiver
-DupeItem=02fb7
-
-
 //FIXME: the following benches cannot be sat on
 [ItemDef 0319a]
 [ItemDef 0319b]
