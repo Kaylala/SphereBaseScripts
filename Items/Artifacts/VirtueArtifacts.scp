@@ -1,0 +1,404 @@
+[ItemDef 02B04]
+DefName=iCloakOfHumility
+Name=Cloak of Humility
+NameLoc=1075195	//Cloak of Humility (Virtue Armor Set)
+Type=tVirtueArmor
+Can=CanIFlip|CanIRepair
+CanUse=CanUHuman|CanUElf
+Weight=6
+ReqStr=10
+DupeList=02B05
+
+Category=Artifacts
+Subsection=Virtue
+Description=Cloak of Humility
+
+On=@Create
+Attr=AttrMagic|AttrArtifact|AttrBlessed|AttrNewbie
+Color=0226
+
+On=@ClientTooltip
+NameCliLoc
+AttrCliLoc
+WeightCliLoc
+ResistanceCliLoc
+SetItemCliLoc
+ReqStrCliLoc
+Return 1
+
+[ItemDef 02B05]
+DupeItem=02B04
+
+
+[ItemDef 02B06]
+DefName=iLegsOfHonor
+Name=Legs of Honor
+NameLoc=1075193	// Legs of Honor (Virtue Armor Set)
+Type=tVirtueArmor
+Can=CanIFlip|CanIRepair
+CanUse=CanUHuman|CanUElf
+Weight=9
+ReqStr=70
+DupeList=02B07
+
+Category=Artifacts
+Subsection=Virtue
+Description=Legs of Honor
+
+On=@Create
+Attr=AttrMagic|AttrArtifact|AttrBlessed|AttrNewbie
+HitPoints={49 120}
+Color=0226
+
+ResPhysical=8
+ResFire=7
+ResCold=10
+ResPoison=7
+ResEnergy=8
+
+On=@Equip
+Src.ResPhysical += <ResPhysical>
+Src.ResFire += <ResFire>
+Src.ResCold += <ResCold>
+Src.ResPoison += <ResPoison>
+Src.ResEnergy += <ResEnergy>
+
+On=@Unequip
+Src.ResPhysical -= <ResPhysical>
+Src.ResFire -= <ResFire>
+Src.ResCold -= <ResCold>
+Src.ResPoison -= <ResPoison>
+Src.ResEnergy -= <ResEnergy>
+
+On=@ClientTooltip
+NameCliLoc
+AttrCliLoc
+WeightCliLoc
+SetItemCliLoc
+ResistanceCliLoc
+ReqStrCliLoc
+Return 1
+
+[ItemDef 02B07]
+DupeItem=02B06
+
+
+[ItemDef 02B08]
+DefName=iBreastplateOfJustice
+Name=Breastplate of Justice
+NameLoc=1075190	// Breastplate of Justice (Virtue Armor Set)
+Type=tVirtueArmor
+Can=CanIFlip|CanIRepair|CanIPowder
+CanUse=CanUHuman|CanUElf
+Weight=7
+ReqStr=65
+DupeList=02B09
+
+Category=Artifacts
+Subsection=Virtue
+Description=Breastplate of Justice
+
+On=@Create
+Attr=AttrMagic|AttrArtifact
+HitPoints={49 120}
+Color=0226
+
+ResPhysical=10
+ResFire=7
+ResCold=8
+ResPoison=7
+ResEnergy=8
+
+On=@Equip
+Src.ResPhysical += <ResPhysical>
+Src.ResFire += <ResFire>
+Src.ResCold += <ResCold>
+Src.ResPoison += <ResPoison>
+Src.ResEnergy += <ResEnergy>
+
+On=@Unequip
+Src.ResPhysical -= <ResPhysical>
+Src.ResFire -= <ResFire>
+Src.ResCold -= <ResCold>
+Src.ResPoison -= <ResPoison>
+Src.ResEnergy -= <ResEnergy>
+
+On=@ClientTooltip
+NameCliLoc
+AttrCliLoc
+WeightCliLoc
+SetItemCliLoc
+ResistanceCliLoc
+ReqStrCliLoc
+Return 1
+
+[ItemDef 02B09]
+DupeItem=02B08
+
+
+[ItemDef 02B0A]
+DefName=iArmsOfCompassion
+Name=Arms of Compassion
+NameLoc=1075191	// Arms of Compassion (Virtue Armor Set)
+Type=tVirtueArmor
+Can=CanIFlip|CanIRepair|CanIPowder
+CanUse=CanUHuman|CanUElf
+Weight=3
+ReqStr=60
+DupeList=02B0B
+
+Category=Artifacts
+Subsection=Virtue
+Description=Arms of Compassion
+
+On=@Create
+Attr=AttrMagic|AttrArtifact
+HitPoints={49 120}
+Color=0226
+
+ResPhysical=10
+ResFire=7
+ResCold=8
+ResPoison=7
+ResEnergy=8
+
+On=@Equip
+Src.ResPhysical += <ResPhysical>
+Src.ResFire += <ResFire>
+Src.ResCold += <ResCold>
+Src.ResPoison += <ResPoison>
+Src.ResEnergy += <ResEnergy>
+
+On=@Unequip
+Src.ResPhysical -= <ResPhysical>
+Src.ResFire -= <ResFire>
+Src.ResCold -= <ResCold>
+Src.ResPoison -= <ResPoison>
+Src.ResEnergy -= <ResEnergy>
+
+On=@ClientTooltip
+NameCliLoc
+AttrCliLoc
+WeightCliLoc
+SetItemCliLoc
+ResistanceCliLoc
+ReqStrCliLoc
+Return 1
+
+[ItemDef 02B0B]
+DupeItem=02B0A
+
+
+[ItemDef 02B0C]
+DefName=iGauntletsOfValor
+Name=Gauntlets of Valor
+NameLoc=1075238	// Gauntlets of Valor (Virtue Armor Set)
+Type=tVirtueArmor
+Can=CanIFlip|CanIRepair|CanIPowder
+CanUse=CanUHuman|CanUElf
+Weight=4
+ReqStr=50
+DupeList=02B0D
+
+Category=Artifacts
+Subsection=Virtue
+Description=Gauntlets of Valor
+
+On=@Create
+Attr=AttrMagic|AttrArtifact
+HitPoints={49 120}
+Color=0226
+
+ResPhysical=10
+ResFire=7
+ResCold=8
+ResPoison=7
+ResEnergy=8
+
+On=@Equip
+Src.ResPhysical += <ResPhysical>
+Src.ResFire += <ResFire>
+Src.ResCold += <ResCold>
+Src.ResPoison += <ResPoison>
+Src.ResEnergy += <ResEnergy>
+
+On=@Unequip
+Src.ResPhysical -= <ResPhysical>
+Src.ResFire -= <ResFire>
+Src.ResCold -= <ResCold>
+Src.ResPoison -= <ResPoison>
+Src.ResEnergy -= <ResEnergy>
+
+On=@ClientTooltip
+NameCliLoc
+AttrCliLoc
+WeightCliLoc
+SetItemCliLoc
+ResistanceCliLoc
+ReqStrCliLoc
+Return 1
+
+[ItemDef 02B0C]
+DupeItem=02B0D
+
+
+[ItemDef 02B0E]
+DefName=iGorgetOfHonesty
+Name=Gorget of Honesty
+NameLoc=1075189	// Gorget of Honesty (Virtue Armor Set)
+Type=tVirtueArmor
+Can=CanIFlip|CanIRepair|CanIPowder
+CanUse=CanUHuman|CanUElf
+Weight=2
+ReqStr=45
+DupeList=02B0F
+
+Category=Artifacts
+Subsection=Virtue
+Description=Gorget of Honesty
+
+On=@Create
+Attr=AttrMagic|AttrArtifact
+HitPoints={49 120}
+Color=0226
+
+ResPhysical=10
+ResFire=7
+ResCold=8
+ResPoison=7
+ResEnergy=8
+
+On=@Equip
+Src.ResPhysical += <ResPhysical>
+Src.ResFire += <ResFire>
+Src.ResCold += <ResCold>
+Src.ResPoison += <ResPoison>
+Src.ResEnergy += <ResEnergy>
+
+On=@Unequip
+Src.ResPhysical -= <ResPhysical>
+Src.ResFire -= <ResFire>
+Src.ResCold -= <ResCold>
+Src.ResPoison -= <ResPoison>
+Src.ResEnergy -= <ResEnergy>
+
+On=@ClientTooltip
+NameCliLoc
+AttrCliLoc
+WeightCliLoc
+SetItemCliLoc
+ResistanceCliLoc
+ReqStrCliLoc
+Return 1
+
+[ItemDef 02B0F]
+DupeItem=02B0E
+
+
+[ItemDef 02B10]
+DefName=iHelmOfSpirituality
+Name=Helm of Spirituality
+NameLoc=1075237	// Helm of Spirituality (Virtue Armor Set)
+Type=tVirtueArmor
+Can=CanIFlip|CanIRepair|CanIPowder
+CanUse=CanUHuman|CanUElf
+Weight=6
+ReqStr=25
+DupeList=02B11
+
+Category=Artifacts
+Subsection=Virtue
+Description=Helm of Spirituality
+
+On=@Create
+Attr=AttrMagic|AttrArtifact
+HitPoints={49 120}
+Color=0226
+
+ResPhysical=10
+ResFire=7
+ResCold=8
+ResPoison=7
+ResEnergy=8
+
+On=@Equip
+Src.ResPhysical += <ResPhysical>
+Src.ResFire += <ResFire>
+Src.ResCold += <ResCold>
+Src.ResPoison += <ResPoison>
+Src.ResEnergy += <ResEnergy>
+
+On=@Unequip
+Src.ResPhysical -= <ResPhysical>
+Src.ResFire -= <ResFire>
+Src.ResCold -= <ResCold>
+Src.ResPoison -= <ResPoison>
+Src.ResEnergy -= <ResEnergy>
+
+On=@ClientTooltip
+NameCliLoc
+AttrCliLoc
+WeightCliLoc
+SetItemCliLoc
+ResistanceCliLoc
+ReqStrCliLoc
+Return 1
+
+[ItemDef 02B11]
+DupeItem=02B10
+
+
+[ItemDef 02B12]
+DefName=iSolleretsOfSacrifice
+Name=Sollerets of Sacrifice
+NameLoc=1075194	// Sollerets of Sacrifice (Virtue Armor Set)
+Type=tVirtueArmor
+Can=CanIFlip|CanIRepair|CanIPowder
+CanUse=CanUHuman|CanUElf
+Weight=1
+ReqStr=10
+DupeList=02B13
+
+Category=Artifacts
+Subsection=Virtue
+Description=Sollerets of Sacrifice
+
+On=@Create
+Attr=AttrMagic|AttrArtifact
+HitPoints={49 120}
+Color=0226
+
+ResPhysical=10
+ResFire=7
+ResCold=8
+ResPoison=7
+ResEnergy=8
+
+On=@Equip
+Src.ResPhysical += <ResPhysical>
+Src.ResFire += <ResFire>
+Src.ResCold += <ResCold>
+Src.ResPoison += <ResPoison>
+Src.ResEnergy += <ResEnergy>
+
+On=@Unequip
+Src.ResPhysical -= <ResPhysical>
+Src.ResFire -= <ResFire>
+Src.ResCold -= <ResCold>
+Src.ResPoison -= <ResPoison>
+Src.ResEnergy -= <ResEnergy>
+
+On=@ClientTooltip
+NameCliLoc
+AttrCliLoc
+WeightCliLoc
+SetItemCliLoc
+ResistanceCliLoc
+ReqStrCliLoc
+Return 1
+
+[ItemDef 02B13]
+DupeItem=02B12
+
+
+[EOF]

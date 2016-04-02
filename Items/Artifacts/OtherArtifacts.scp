@@ -22,18 +22,18 @@ ResPhysical=1
 ResEnergy=1
 
 On=@Equip
-Src.Parrying += 50
-Src.HitPointIncrease += 5
-Src.HitPointRegeneration += 1
-Src.ResPhysical += 1
-Src.ResEnergy += 1
+Src.Parrying += <SkillBonus.ArgV1>
+Src.HitPointIncrease += <HitPointIncrease>
+Src.HitPointRegeneration += <HitPointRegeneration>
+Src.ResPhysical += <ResPhysical>
+Src.ResEnergy += <ResEnergy>
 
 On=@Unequip
-Src.Parrying -= 50
-Src.HitPointIncrease -= 5
-Src.HitPointRegeneration -= 1
-Src.ResPhysical -= 1
-Src.ResEnergy -= 1
+Src.Parrying -= <SkillBonus.ArgV1>
+Src.HitPointIncrease -= <HitPointIncrease>
+Src.HitPointRegeneration -= <HitPointRegeneration>
+Src.ResPhysical -= <ResPhysical>
+Src.ResEnergy -= <ResEnergy>
 
 On=@ClientTooltip
 Src.AddCliLoc <NameLoc>
@@ -46,6 +46,41 @@ Src.AddCliLoc 1060448,<ResPhysical>
 Src.AddCliLoc 1060446,<ResEnergy>
 Src.AddCliLoc 1061170,<ReqStr>
 Src.AddCliLoc 1060639,<More1L>,<More1H>
+Return 1
+
+
+[ItemDef 02B02]
+DefName=iQuiverOfInfinity
+Name=Quiver of Infinity
+NameLoc=
+Type=tContainer
+TData2=0108		// Or is it 041?
+Can=CanIFlip
+CanUse=CanUHuman|CanUElf
+Weight=8
+TEvents=tQuiver
+
+Category=Artifacts
+Subsection=Others: 8th Anniversary
+Description=Quiver of Infinity
+
+On=@Create
+Attr=AttrMagic|AttrArtifact|AttrNewbie|AttrBlessed
+
+DamageModifier=10
+DefenseChanceIncrease=5
+LowerAmmoCost=20
+WeightReduction=30
+
+On=@ClientTooltip
+NameCliLoc
+AttrCliLoc
+AmmoCliLoc
+Src.AddCliLoc ,<DamageModifer>
+Src.AddCliLoc ,<DefenseChanceIncrease>
+Src.AddCliLoc ,<LowerAmmoCost>
+ContCliLoc
+Src.AddCliLoc ,<WeightReduction>
 Return 1
 
 

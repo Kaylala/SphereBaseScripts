@@ -1,0 +1,598 @@
+[ItemDef 0141b]
+DefName=iOrcMask
+Name=orc mask
+Type=tClothing
+Can=CanIFlip|CanIDye|CanIExceptional|CanIMakersMark|CanIRecycle|CanIRetainColor|CanIRegenHits|CanIRegenMana|CanIRegenStam|CanIPowder
+CanUse=CanUHuman|CanUElf
+Weight=4
+Armor=10
+ReqStr=10
+SkillMake=Tailoring 750
+Resources=12 iCloth
+Material=tCloth
+DupeList=0141c
+
+Category=Equipment
+Subsection=Clothing: Headwear
+Description=Orc Mask
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=1
+ResFire=1
+ResCold=7
+ResPoison=7
+ResEnergy=8
+
+[ItemDef 0141c]
+DupeItem=0141b
+
+
+[ItemDef 0153f]
+DefName=iBandana
+Name=bandana
+Type=tClothing
+Can=CanIFlip|CanIDye|CanIExceptional|CanIMakersMark|CanIRecycle|CanIRetainColor|CanIRegenHits|CanIRegenMana|CanIRegenStam|CanIPowder
+CanUse=CanUHuman|CanUElf
+Armor=1
+Weight=1
+ReqStr=10
+SkillMake=Tailoring 0
+Resources=2 iCloth
+Material=tCloth
+DupeList=01540
+
+Category=Equipment
+Subsection=Clothing: Headwear
+Description=Bandana
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=0
+ResFire=3
+ResCold=5
+ResPoison=8
+ResEnergy=8
+
+[ItemDef 01540]
+DupeItem=0153f
+
+
+[ItemDef 01543]
+DefName=iSkullCap
+Type=tClothing
+Can=CanIFlip|CanIDye|CanIExceptional|CanIMakersMark|CanIRecycle|CanIRetainColor|CanIRegenHits|CanIRegenMana|CanIRegenStam|CanIPowder
+CanUse=CanUHuman|CanUElf
+Weight=1
+Armor=1
+ReqStr=10
+SkillMake=Tailoring 0
+Resources=2 iCloth
+Material=tCloth
+DupeList=01544
+
+Category=Equipment
+Subsection=Clothing: Headwear
+Description=Skull Cap
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=0
+ResFire=3
+ResCold=5
+ResPoison=8
+ResEnergy=8
+
+[ItemDef 01544]
+DupeItem=01543
+
+
+[ItemDef 01545]
+DefName=iBearMask
+Name=bear mask
+Type=tClothing
+Can=CanIFlip|CanIDye|CanIExceptional|CanIMakersMark|CanIRecycle|CanIRetainColor|CanIRegenHits|CanIRegenMana|CanIRegenStam|CanIPowder
+CanUse=CanUHuman|CanUElf
+Weight=5
+Armor=6
+ReqStr=10
+SkillMake=Tailoring 775
+Resources=15 iCloth
+Material=tCloth
+DupeList=01546
+
+Category=Equipment
+Subsection=Clothing: Headwear
+Description=Bear Mask
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=3
+ResCold=8
+ResPoison=4
+ResEnergy=4
+
+[ItemDef 01546]
+DupeItem=01545
+
+
+[ItemDef 01547]
+DefName=iDeerMask
+Name=deer mask
+Type=tClothing
+Can=CanIFlip|CanIDye|CanIExceptional|CanIMakersMark|CanIRecycle|CanIRetainColor|CanIRegenHits|CanIRegenMana|CanIRegenStam|CanIPowder
+CanUse=CanUHuman|CanUElf
+Weight=4
+Armor=6
+ReqStr=10
+SkillMake=Tailoring 775
+Resources=15 iCloth
+Material=tCloth
+DupeList=01548
+
+Category=Equipment
+Subsection=Clothing: Headwear
+Description=Deer Mask
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=6
+ResCold=8
+ResPoison=1
+ResEnergy=7
+
+[ItemDef 01548]
+DupeItem=01547
+
+
+[ItemDef 01549]
+DefName=iTribalMask1
+Name=tribal mask
+Type=tClothing
+Can=CanIFlip|CanIDye|CanIExceptional|CanIMakersMark|CanIRecycle|CanIRetainColor|CanIRegenHits|CanIRegenMana|CanIRegenStam|CanIPowder
+CanUse=CanUHuman|CanUElf
+Weight=2
+Armor=5
+ReqStr=10
+SkillMake=Tailoring 825
+Resources=12 iCloth
+Material=tCloth
+DupeList=0154a
+
+Category=Equipment
+Subsection=Clothing: Headwear
+Description=Tribal Mask (Large)
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=6
+ResFire=9
+ResCold=0
+ResPoison=4
+ResEnergy=5
+
+[ItemDef 0154a]
+DupeItem=01549
+
+
+[ItemDef 0154b]
+DefName=iTribalMask2
+Name=tribal mask
+Type=tClothing
+Can=CanIFlip|CanIDye|CanIExceptional|CanIMakersMark|CanIRecycle|CanIRetainColor|CanIRegenHits|CanIRegenMana|CanIRegenStam|CanIPowder
+CanUse=CanUHuman|CanUElf
+Weight=2
+Armor=5
+ReqStr=10
+SkillMake=Tailoring 825
+Resources=12 iCloth
+Material=tCloth
+DupeList=0154c
+
+Category=Equipment
+Subsection=Clothing: Headwear
+Description=Tribal Mask (Small)
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=3
+ResFire=0
+ResCold=6
+ResPoison=10
+ResEnergy=5
+
+[ItemDef 0154c]
+DupeItem=0154b
+
+
+[ItemDef 01713]
+DefName=iFloppyHat
+Name=floppy hat
+Type=tClothing
+Can=CanIDye|CanIExceptional|CanIMakersMark|CanIRecycle|CanIRetainColor|CanIRegenHits|CanIRegenMana|CanIRegenStam|CanIPowder
+CanUse=CanUHuman|CanUElf
+Weight=1
+Armor=3
+ReqStr=10
+SkillMake=Tailoring 62
+Resources=11 iCloth
+Material=tCloth
+
+Category=Equipment
+Subsection=Clothing: Headwear
+Description=Floppy Hat
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=0
+ResFire=5
+ResCold=9
+ResPoison=5
+ResEnergy=5
+
+
+[ItemDef 01714]
+DefName=iWideBrimHat
+Name=wide-brim hat
+Type=tClothing
+Can=CanIDye|CanIExceptional|CanIMakersMark|CanIRecycle|CanIRetainColor|CanIRegenHits|CanIRegenMana|CanIRegenStam|CanIPowder
+CanUse=CanUHuman|CanUElf
+Weight=1
+Armor=3
+ReqStr=10
+SkillMake=Tailoring 62
+Resources=12 iCloth
+Material=tCloth
+
+Category=Equipment
+Subsection=Clothing: Headwear
+Description=Wide-Brim Hat
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=0
+ResFire=5
+ResCold=9
+ResPoison=5
+ResEnergy=5
+
+
+[ItemDef 01715]
+DefName=iCap
+Name=cap
+Type=tClothing
+Can=CanIDye|CanIExceptional|CanIMakersMark|CanIRecycle|CanIRetainColor|CanIRegenHits|CanIRegenMana|CanIRegenStam|CanIPowder
+CanUse=CanUHuman|CanUElf
+Weight=1
+Armor=3
+ReqStr=10
+SkillMake=Tailoring 62
+Resources=11 iCloth
+Material=tCloth
+
+Category=Equipment
+Subsection=Clothing: Headwear
+Description=Cap
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=0
+ResFire=5
+ResCold=9
+ResPoison=5
+ResEnergy=5
+
+
+[ItemDef 01716]
+DefName=iTallStrawHat
+Name=tall straw hat
+Type=tClothing
+Can=CanIDye|CanIExceptional|CanIMakersMark|CanIRecycle|CanIRetainColor|CanIRegenHits|CanIRegenMana|CanIRegenStam|CanIPowder
+CanUse=CanUHuman|CanUElf
+Weight=1
+Armor=3
+ReqStr=10
+SkillMake=Tailoring 67
+Resources=13 iCloth
+Material=tCloth
+
+Category=Equipment
+Subsection=Clothing: Headwear
+Description=Tall Straw Hat
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=0
+ResFire=5
+ResCold=9
+ResPoison=5
+ResEnergy=5
+
+
+[ItemDef 01717]
+DefName=iStrawHat
+Name=straw hat
+Type=tClothing
+Can=CanIDye|CanIExceptional|CanIMakersMark|CanIRecycle|CanIRetainColor|CanIRegenHits|CanIRegenMana|CanIRegenStam|CanIPowder
+CanUse=CanUHuman|CanUElf
+Weight=1
+Armor=3
+ReqStr=10
+SkillMake=Tailoring 62
+Resources=10 iCloth
+Material=tCloth
+
+Category=Equipment
+Subsection=Clothing: Headwear
+Description=Straw Hat
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=0
+ResFire=5
+ResCold=9
+ResPoison=5
+ResEnergy=5
+
+
+[ItemDef 01718]
+DefName=iWizardsHat
+Name=wizard's hat
+Type=tClothing
+Can=CanIDye|CanIExceptional|CanIMakersMark|CanIRecycle|CanIRetainColor|CanIRegenHits|CanIRegenMana|CanIRegenStam|CanIPowder
+CanUse=CanUHuman|CanUElf
+Weight=1
+Armor=3
+ReqStr=10
+SkillMake=Tailoring 72
+Resources=15 iCloth
+Material=tCloth
+
+Category=Equipment
+Subsection=Clothing: Headwear
+Description=Wizards Hat
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=0
+ResFire=5
+ResCold=9
+ResPoison=5
+ResEnergy=5
+
+
+[ItemDef 01719]
+DefName=iBonnet
+Name=bonnet
+Type=tClothing
+Can=CanIDye|CanIExceptional|CanIMakersMark|CanIRecycle|CanIRetainColor|CanIRegenHits|CanIRegenMana|CanIRegenStam|CanIPowder
+CanUse=CanUHuman|CanUElf
+Weight=1
+Armor=3
+ReqStr=10
+SkillMake=Tailoring 62
+Resources=11 iCloth
+Material=tCloth
+
+Category=Equipment
+Subsection=Clothing: Headwear
+Description=Bonnet
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=0
+ResFire=5
+ResCold=9
+ResPoison=5
+ResEnergy=5
+
+
+[ItemDef 0171a]
+DefName=iFeathererHat
+Name=feathered hat
+Type=tClothing
+Can=CanIDye|CanIExceptional|CanIMakersMark|CanIRecycle|CanIRetainColor|CanIRegenHits|CanIRegenMana|CanIRegenStam|CanIPowder
+CanUse=CanUHuman|CanUElf
+Weight=1
+Armor=3
+ReqStr=10
+SkillMake=Tailoring 62
+Resources=12 iCloth
+Material=tCloth
+
+Category=Equipment
+Subsection=Clothing: Headwear
+Description=Feathered Hat
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=0
+ResFire=5
+ResCold=9
+ResPoison=5
+ResEnergy=5
+
+
+[ItemDef 0171b]
+DefName=iTricorneHat
+Name=tricorne hat
+Type=tClothing
+Can=CanIDye|CanIExceptional|CanIMakersMark|CanIRecycle|CanIRetainColor|CanIRegenHits|CanIRegenMana|CanIRegenStam|CanIPowder
+CanUse=CanUHuman|CanUElf
+Weight=1
+Armor=3
+ReqStr=10
+SkillMake=Tailoring 62
+Resources=12 iCloth
+Material=tCloth
+
+Category=Equipment
+Subsection=Clothing: Headwear
+Description=Tricorne Hat
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=0
+ResFire=5
+ResCold=9
+ResPoison=5
+ResEnergy=5
+
+
+[ItemDef 0171c]
+DefName=iJesterHat
+Name=jester hat
+Type=tClothing
+Can=CanIDye|CanIExceptional|CanIMakersMark|CanIRecycle|CanIRetainColor|CanIRegenHits|CanIRegenMana|CanIRegenStam|CanIPowder
+CanUse=CanUHuman|CanUElf
+Weight=1
+Armor=3
+ReqStr=10
+SkillMake=Tailoring 72
+Resources=15 iCloth
+Material=tCloth
+
+Category=Equipment
+Subsection=Clothing: Headwear
+Description=Jester Cap
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=0
+ResFire=5
+ResCold=9
+ResPoison=5
+ResEnergy=5
+
+
+[ItemDef 02798]
+DefName=iKasa
+Name=kasa
+Type=tClothing
+Can=CanIFlip|CanIDye|CanIExceptional|CanIMakersMark|CanIRecycle|CanIRetainColor|CanIRegenHits|CanIRegenMana|CanIRegenStam|CanIPowder
+CanUse=CanUHuman|CanUElf
+Weight=3
+Armor=3
+ReqStr=10
+SkillMake=Tailoring 600
+Resources=12 iCloth
+Material=tCloth
+DupeList=027e3
+
+Category=Equipment
+Subsection=Clothing: Headwear
+Description=Kasa
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=0
+ResFire=5
+ResCold=9
+ResPoison=5
+ResEnergy=5
+
+[ItemDef 027e3]
+DupeItem=02798
+
+
+[ItemDef 02305]
+DefName=iFlowerGarland
+Name=flower garland
+Type=tClothing
+Can=CanIFlip|CanIDye|CanIExceptional|CanIMakersMark|CanIRecycle|CanIRetainColor|CanIRegenHits|CanIRegenMana|CanIRegenStam|CanIPowder
+CanUse=CanUHuman|CanUElf
+Weight=1
+Armor=5
+ReqStr=10
+SkillMake=Tailoring 100
+Resources=5 iCloth
+Material=tCloth
+DupeList=02306
+
+Category=Equipment
+Subsection=Clothing: Headwear
+Description=Flower Garland
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=0
+ResFire=3
+ResCold=5
+ResPoison=8
+ResEnergy=8
+
+[ItemDef 02306]
+DupeItem=02305
+
+
+[ItemDef 0278f]
+DefName=iClothNinjaHood
+Name=cloth ninja hood
+Type=tClothing
+Can=CanIFlip|CanIDye|CanIExceptional|CanIMakersMark|CanIRecycle|CanIRetainColor|CanIRegenHits|CanIRegenMana|CanIRegenStam|CanIPowder
+CanUse=CanUHuman|CanUElf
+Weight=2
+Armor=10
+ReqStr=10
+SkillMake=Tailoring 600
+Resources=13 iCloth
+Material=tCloth
+DupeList=027da
+
+Category=Equipment
+Subsection=Clothing: Headwear
+Description=Cloth Ninja Hood
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=0
+ResFire=5
+ResCold=9
+ResPoison=5
+ResEnergy=5
+
+[ItemDef 027da]
+DupeItem=0278f
+
+
+[ItemDef 0781A]
+DefName=iChefsToque
+Name=chef's toque
+NameLoc=1109618
+Type=tClothing
+Can=CanIDye|CanIExceptional|CanIMakersMark|CanIRecycle|CanIRetainColor|CanIRegenHits|CanIRegenMana|CanIRegenStam|CanIPowder
+CanUse=CanUHuman|CanUElf
+Weight=1
+ReqStr=10
+SkillMake=Tailoring 62
+Resources=11 iCloth
+Material=tCloth
+
+Category=Equipment
+Subsection=Clothing: Headwear
+Description=Chef's Toque
+
+
+[EOF]

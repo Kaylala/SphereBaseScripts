@@ -1,0 +1,75 @@
+[ItemDef 01515]
+DefName=iCloak
+Name=cloak
+Type=tClothing
+Can=CanIFlip|CanIDye|CanIExceptional|CanIMakersMark|CanIRecycle|CanIRetainColor|CanIRegenHits|CanIRegenMana|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=5
+Armor=5
+ReqStr=10
+SkillMake=Tailoring 414
+Resources=14 iCloth
+Material=tCloth
+AlterItem=iGargishClothWingArmor
+DupeList=01530
+
+Category=Equipment
+Subsection=Clothing: Cloaks & Quivers
+Description=Cloak
+
+[ItemDef 01530]
+DupeItem=01515
+
+
+[ItemDef 02309]
+DefName=iFurCape
+Name=fur cape
+Type=tClothing
+Can=CanIFlip|CanIDye|CanIExceptional|CanIMakersMark|CanIRecycle|CanIRetainColor|CanIRegenHits|CanIRegenMana|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=4
+Armor=8
+ReqStr=10
+SkillMake=Tailoring 350
+Resources=13 iCloth
+Material=tCloth
+AlterItem=iGargishClothWingArmor
+DupeList=0230a
+
+Category=Equipment
+Subsection=Clothing: Cloaks & Quivers
+Description=Fur Cape
+
+[ItemDef 0230a]
+DupeItem=02309
+
+
+[ItemDef 02FB7]
+DefName=iElvenQuiver
+Name=elven quiver
+Type=tClothing
+TData2=0108
+Can=CanIFlip|CanIDye|CanIExceptional|CanIMakersMark|CanIRecycle|CanIRetainColor|CanIRegenHits|CanIRegenMana|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=2
+SkillMake=Tailoring 650
+Resources=28 iPlainLeather
+Material=tLeather
+TEvents=tQuiver
+Material=tCloth
+AlterItem=iGargishLeatherWingArmor
+DupeList=03171
+
+Category=Equipment
+Subsection=Quivers
+Description=Elven Quiver
+
+On=@Create
+DamageModifier=10
+WeightReduction=30
+
+[ItemDef 03171]
+DupeItem=02fb7
+
+
+[EOF]

@@ -1,19 +1,230 @@
-[ItemDef 0781A]
-DefName=iChefsToque
-Name=Chef's toque
-NameLoc=1109618
+[ItemDef 0170b]
+DefName=iBoots
 Type=tClothing
-Can=CanIDye|CanIRecycle|CanIExceptional|CanIMakersMark|CanIRetainColor
-CanUse=0
-Weight=1
+Can=CanIFlip|CanIDye|CanIExceptional|CanIMakersMark|CanIRecycle|CanIRetainColor|CanIRegenHits|CanIRegenMana|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=3
+Armor=7
 ReqStr=10
-SkillMake=Tailoring 62
-Resources=11 iCloth
-Material=tCloth
+SkillMake=Tailoring 331
+Resources=8 iPlainLeather
+Material=tLeather
+AlterItem=iGargishLeatherTalons
+DupeList=0170c
 
 Category=Equipment
-Subsection=Clothing: Headwear
-Description=Chef's Toque
+Subsection=Clothing: Footwear
+Description=Boots
+
+[ItemDef 0170c]
+DupeItem=0170b
+
+
+[ItemDef 0170d]
+DefName=iSandals
+Type=tClothing
+Can=CanIFlip|CanIDye|CanIExceptional|CanIMakersMark|CanIRecycle|CanIRetainColor|CanIRegenHits|CanIRegenMana|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=1
+Armor=3
+ReqStr=10
+SkillMake=Tailoring 124
+Resources=4 iPlainLeather
+Material=tLeather
+AlterItem=iGargishLeatherTalons
+DupeList=0170e
+
+Category=Equipment
+Subsection=Clothing: Footwear
+Description=Sandals
+
+[ItemDef 0170e]
+DupeItem=0170d
+
+
+[ItemDef 0170f]
+DefName=iShoes
+Type=tClothing
+Can=CanIFlip|CanIDye|CanIExceptional|CanIMakersMark|CanIRecycle|CanIRetainColor|CanIRegenHits|CanIRegenMana|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=2
+Armor=3
+ReqStr=10
+SkillMake=Tailoring 165
+Resources=6 iPlainLeather
+Material=tLeather
+AlterItem=iGargishLeatherTalons
+DupeList=01710
+
+Category=Equipment
+Subsection=Clothing: Footwear
+Description=Shoes
+
+[ItemDef 01710]
+DupeItem=0170f
+
+
+[ItemDef 01711]
+DefName=iThighBoots
+Type=tClothing
+Can=CanIFlip|CanIDye|CanIExceptional|CanIMakersMark|CanIRecycle|CanIRetainColor|CanIRegenHits|CanIRegenMana|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=4
+Armor=6
+ReqStr=10
+SkillMake=Tailoring 414
+Resources=10 iPlainLeather
+Material=tLeather
+AlterItem=iGargishLeatherTalons
+DupeList=01712
+
+Category=Equipment
+Subsection=Clothing: Footwear
+Description=Thigh Boots
+
+On=@Create
+HitPoints={36 48}
+ResPhysical=1
+
+[ItemDef 01712]
+DupeItem=01711
+
+
+[ItemDef 02307]
+DefName=iFurBoots
+Name=fur boots
+Type=tClothing
+Can=CanIFlip|CanIDye|CanIExceptional|CanIMakersMark|CanIRecycle|CanIRetainColor|CanIRegenHits|CanIRegenMana|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=3
+Armor=8
+ReqStr=10
+SkillMake=Tailoring 500
+Resources=12 iCloth
+Material=tCloth
+AlterItem=iGargishLeatherTalons
+DupeList=02308
+
+Category=Equipment
+Subsection=Clothing: Footwear
+Description=Fur Boots
+
+[ItemDef 02308]
+DupeItem=02307
+
+
+[ItemDef 02796]
+DefName=iWarajiAndTabi
+Name=waraji and tabi
+Type=tClothing
+Can=CanIFlip|CanIDye|CanIExceptional|CanIMakersMark|CanIRecycle|CanIRetainColor|CanIRegenHits|CanIRegenMana|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=2
+Armor=6
+ReqStr=10
+SkillMake=Tailoring 200
+Resources=6 iCloth
+Material=tCloth
+AlterItem=iGargishLeatherTalons
+DupeList=027e1
+
+Category=Equipment
+Subsection=Clothing: Footwear
+Description=Waraji and Tabi
+
+[ItemDef 027e1]
+DupeItem=02796
+
+
+[ItemDef 02797]
+DefName=iNinjaTabi
+Name=ninja tabi
+Type=tClothing
+Can=CanIFlip|CanIDye|CanIExceptional|CanIMakersMark|CanIRecycle|CanIRetainColor|CanIRegenHits|CanIRegenMana|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=2
+Armor=13
+ReqStr=10
+SkillMake=Tailoring 700
+Resources=10 iCloth
+Material=tCloth
+AlterItem=iGargishLeatherTalons
+DupeList=027e2
+
+Category=Equipment
+Subsection=Clothing: Footwear
+Description=Ninja Tabi
+
+[ItemDef 027e2]
+DupeItem=02797
+
+
+[ItemDef 02fc4]
+DefName=iElvenBoots
+Name=elven boots
+Type=tClothing
+Can=CanIFlip|CanIDye|CanIExceptional|CanIMakersMark|CanIRecycle|CanIRetainColor|CanIRegenHits|CanIRegenMana|CanIRegenStam
+CanUse=CanUElf
+Weight=2
+Armor=7
+ReqStr=10
+SkillMake=Tailoring 800
+Resources=15 iPlainLeather
+Material=tCloth
+AlterItem=iGargishLeatherTalons
+DupeList=0317A
+
+Category=Equipment
+Subsection=Clothing: Footwear
+Description=Elven Boots
+
+[ItemDef 0317A]
+DupeItem=02FC4
+
+
+// Gargish Leather Talons
+[ItemDef 041d8]
+DefName=iGargishLeatherTalons
+Name=gargish leather talons
+Nameloc=1095728
+Type=tLeatherArmor
+Can=CanIFlip|CanIDye|CanIExceptional|CanIMakersMark|CanIRecycle|CanIRetainColor|CanIRegenHits|CanIRegenMana|CanIRegenStam
+CanUse=CanUGargoyle
+Weight=2
+ReqStr=10
+SkillMake=Tailoring 404
+Resources=6 iPlainLeather
+Material=tLeather
+DupeList=041d9
+
+Category=Equipment
+Subsection=Clothing: Footwear
+Description=Gargish Leather Talons
+
+[ItemDef 041d9]
+Nameloc=1095729
+DupeItem=041d8
+
+
+[ItemDef 042de]
+DefName=iGargishPlateTalons
+Name=Gargish plate talons
+Type=tPlatemailArmor
+Can=CanIFlip|CanIDye|CanIExceptional|CanIMakersMark|CanIRecycle|CanIRetainColor|CanIRegenHits|CanIRegenMana|CanIRegenStam
+Canuse=CanUGargoyle
+Weight=2
+ReqStr=10
+//SkillMake=Blacksmithing 404
+//Resources=6 iIronIngot
+Material=tIngot
+DupeList=042df
+
+Category=Equipment
+Subsection=Clothing: Footwear
+Description=Gargish Plate Talons (Not in game)
+
+[ItemDef 042df]
+DupeItem=042de
 
 
 [EOF]
