@@ -1,0 +1,225 @@
+// Ringmail Gloves
+[ItemDef 013EB]
+DefName=iRingmailGloves
+Name=ringmail gloves
+Type=tRingmailArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=2
+ReqStr=40
+SkillMake=Blacksmithing 120
+Resources=10 iIronIngot
+Material=tIngot
+AlterItem=0
+DupeList=013F2
+
+Category=Equipment
+Subsection=Armor: Ringmail Armor
+Description=Ringmail Gloves
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=3
+ResFire=3
+ResCold=1
+ResPoison=5
+ResEnergy=3
+
+[ItemDef 013F2]
+DupeItem=013EB
+
+
+// Ringmail Leggings
+[ItemDef 013F0]
+DefName=iRingmailLeggings1
+Name=ringmail leggings
+Type=tRingmailArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=15
+ReqStr=40
+SkillMake=Blacksmithing 194
+Resources=16 iIronIngot
+Material=tIngot
+AlterItem=0
+DupeList=013F1
+
+Category=Equipment
+Subsection=Armor: Ringmail Armor
+Description=Ringmail Leggings
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=3
+ResFire=3
+ResCold=1
+ResPoison=5
+ResEnergy=3
+
+[ItemDef 013F1]
+DupeItem=013F0
+
+
+// Ringmail Leggings (Decoration)
+[ItemDef 013E5]
+DefName=iRingmailLeggings2
+Name=ringmail leggings
+Type=tRingmailArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=15
+ReqStr=40
+SkillMake=Blacksmithing 194
+Resources=16 iIronIngot
+Material=tIngot
+AlterItem=0
+DupeList=013E6
+
+Category=Equipment
+Subsection=Armor: Ringmail Armor
+Description=Ringmail Leggings (Decoration)
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=3
+ResFire=3
+ResCold=1
+ResPoison=5
+ResEnergy=3
+
+[ItemDef 013E6]
+DupeItem=013E5
+
+
+// Ringmail Sleeves
+[ItemDef 13EE]
+DefName=iRingmailSleeves1
+Name=ringmail sleeves
+Type=tRingmailArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=15
+ReqStr=40
+SkillMake=Blacksmithing 169
+Resources=14 iIronIngot
+Material=tIngot
+AlterItem=0
+DupeList=013EF
+
+Category=Equipment
+Subsection=Armor: Ringmail Armor
+Description=Ringmail Sleeves
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=3
+ResFire=3
+ResCold=1
+ResPoison=5
+ResEnergy=3
+
+[ItemDef 013EF]
+DupeItem=013EE
+
+
+// Ringmail Sleeves (Decoration)
+[ItemDef 013E9]
+DefName=iRingmailSleeves2
+Name=ringmail sleeves
+Type=tRingmailArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=15
+ReqStr=40
+SkillMake=Blacksmithing 169
+Resources=14 iIronIngot
+Material=tIngot
+AlterItem=0
+DupeList=013EA
+
+Category=Equipment
+Subsection=Armor: Ringmail Armor
+Description=Ringmail Sleeves (Decoration)
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=3
+ResFire=3
+ResCold=1
+ResPoison=5
+ResEnergy=3
+
+[ItemDef 013EA]
+DupeItem=013E9
+
+
+// Ringmail Tunic
+[ItemDef 013EC]
+DefName=iRingmailTunic1
+Name=ringmail tunic
+Type=tRingmailArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=15
+ReqStr=40
+SkillMake=Blacksmithing 219
+Resources=18 iIronIngot
+Material=tIngot
+AlterItem=0
+DupeList=013ED
+
+Category=Equipment
+Subsection=Armor: Ringmail Armor
+Description=Ringmail Tunic
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=3
+ResFire=3
+ResCold=1
+ResPoison=5
+ResEnergy=3
+
+[ItemDef 013ED]
+DupeItem=013EC
+
+
+// Ringmail Tunic (Decoration)
+[ItemDef 013E7]
+DefName=iRingmailTunic2
+Name=ringmail tunic
+Type=tRingmailArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=15
+ReqStr=40
+SkillMake=Blacksmithing 219
+Resources=18 iIronIngot
+Material=tIngot
+AlterItem=0
+DupeList=0
+
+Category=Equipment
+Subsection=Armor: Ringmail Armor
+Description=Ringmail Tunic (Decoration)
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=3
+ResFire=3
+ResCold=1
+ResPoison=5
+ResEnergy=3
+
+[ItemDef 0]
+DupeItem=013E7
+
+
+[EOF]

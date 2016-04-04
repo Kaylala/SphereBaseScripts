@@ -1,0 +1,193 @@
+// Hide Tunic
+[ItemDef 02B74]
+DefName=iHideTunic1
+Name=hide tunic
+Type=tHideArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUElf
+Weight=6
+ReqStr=25
+SkillMake=Tailoring 850
+Resources=15 iPlainLeather
+Material=tLeather
+AlterItem=0
+DupeList=0316B
+
+Category=Equipment
+Subsection=Armor: Hide Armor
+Description=Hide Tunic
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=3
+ResFire=3
+ResCold=4
+ResPoison=3
+ResEnergy=2
+
+[ItemDef 0316B]
+DupeItem=02B74
+
+
+// Hide Tunic (Female)
+[ItemDef 02B79]
+DefName=iHideTunic2
+Name=hide tunic
+Type=tHideArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUElf|CanUFemale
+Weight=6
+ReqStr=25
+SkillMake=Tailoring 850
+Resources=15 iPlainLeather
+Material=tLeather
+AlterItem=0
+DupeList=03170
+
+Category=Equipment
+Subsection=Armor: Hide Armor
+Description=Hide Tunic (Female)
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=3
+ResFire=3
+ResCold=4
+ResPoison=3
+ResEnergy=2
+
+[ItemDef 03170]
+DupeItem=02B79
+
+
+// Hide Pauldrons
+[ItemDef 02B77]
+DefName=iHidePauldrons
+Name=hide pauldrons
+Type=tHideArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUElf
+Weight=4
+ReqStr=20
+SkillMake=Tailoring 750
+Resources=12 iPlainLeather
+Material=tLeather
+AlterItem=0
+DupeList=0316E
+
+Category=Equipment
+Subsection=Armor: Hide Armor
+Description=Hide Pauldrons
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=3
+ResFire=3
+ResCold=4
+ResPoison=3
+ResEnergy=2
+
+[ItemDef 0316E]
+DupeItem=02B77
+
+
+// Hide Gloves
+[ItemDef 02B75]
+DefName=iHideGloves
+Name=hide gloves
+Type=tHideArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUElf
+Weight=2
+ReqStr=15
+SkillMake=Tailoring 750
+Resources=10 iPlainLeather
+Material=tLeather
+AlterItem=0
+DupeList=0316C
+
+Category=Equipment
+Subsection=Armor: Hide Armor
+Description=Hide Gloves
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=3
+ResFire=3
+ResCold=4
+ResPoison=3
+ResEnergy=2
+
+[ItemDef 0316C]
+DupeItem=02B75
+
+
+// Hide Pants
+[ItemDef 02B78]
+DefName=iHidePants
+Name=hide pants
+Type=tHideArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUElf
+Weight=5
+ReqStr=25
+SkillMake=Tailoring 920
+Resources=15 iPlainLeather
+Material=tLeather
+AlterItem=0
+DupeList=0316F
+
+Category=Equipment
+Subsection=Armor: Hide Armor
+Description=Hide Pants
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=3
+ResFire=3
+ResCold=4
+ResPoison=3
+ResEnergy=2
+
+[ItemDef 0316F]
+DupeItem=02B78
+
+
+// Hide Gorget
+[ItemDef 02B76]
+DefName=iHideGorget
+Name=hide gorget
+Type=tHideArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUElf
+Weight=3
+ReqStr=15
+SkillMake=Tailoring 900
+Resources=12 iPlainLeather
+Material=tLeather
+AlterItem=0
+DupeList=0316D
+
+Category=Equipment
+Subsection=Armor: Hide Armor
+Description=Hide Gorget
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=3
+ResFire=3
+ResCold=4
+ResPoison=3
+ResEnergy=2
+
+[ItemDef 0316D]
+DupeItem=02B76
+
+
+[EOF]

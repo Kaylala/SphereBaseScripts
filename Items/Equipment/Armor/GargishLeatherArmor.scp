@@ -1,0 +1,289 @@
+// Gargish Leather Arms (Variant 1)
+[ItemDef 0301]
+DefName=iGargishLeatherArms1
+Name=gargish leather arms
+NameLoc=1020769
+Type=tLeatherArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUGargoyle
+Weight=4
+ReqStr=25
+SkillMake=Tailoring 539
+Resources=8 iPlainLeather
+Material=tLeather
+DupeList=04047
+
+Category=Equipment
+Subsection=Armor: Gargish Leather Armor
+Description=Gargish Leather Arms
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=6
+ResCold=7
+ResPoison=6
+ResEnergy=6
+
+{ItemDef 04047}
+NameLoc=1095327
+DupeItem=0301
+
+
+// Gargish Leather Arms (Variant 2)
+[ItemDef 0302]
+DefName=iGargishLeatherArms2
+Name=gargish leather arms
+NameLoc=1020770
+Type=tLeatherArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUGargoyle
+Weight=4
+ReqStr=25
+SkillMake=Tailoring 539
+Resources=8 iPlainLeather
+Material=tLeather
+DupeList=04048
+
+Category=Equipment
+Subsection=Armor: Gargish Leather Armor
+Description=Gargish Leather Arms (Variant 2)
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=6
+ResCold=7
+ResPoison=6
+ResEnergy=6
+
+[ItemDef 04048]
+NameLoc=1095328
+DupeItem=0302
+
+
+// Gargish Leather Chest (Variant 1)
+[ItemDef 0303]
+DefName=iGargishLeatherChest1
+Name=gargish leather chest
+NameLoc=1020771
+Type=tLeatherArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUGargoyle
+Weight=4
+ReqStr=25
+SkillMake=Tailoring 705
+Resources=8 iPlainLeather
+Material=tLeather
+DupeList=04049
+
+Category=Equipment
+Subsection=Armor: Gargish Leather Armor
+Description=Gargish Leather Chest (Variant 1)
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=6
+ResCold=7
+ResPoison=6
+ResEnergy=6
+
+[ItemDef 04049]
+NameLoc=1095329
+DupeItem=0303
+
+
+// Gargish Leather Chest (Variant 2)
+[ItemDef 0304]
+DefName=iGargishLeatherChest2
+Name=gargish leather chest
+NameLoc=1020772
+Type=tLeatherArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUGargoyle
+Weight=4
+ReqStr=25
+SkillMake=Tailoring 705
+Resources=8 iPlainLeather
+Material=tLeather
+DupeList=0404A
+
+Category=Equipment
+Subsection=Armor: Gargish Leather Armor
+Description=Gargish Leather Chest (Variant 2)
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=6
+ResCold=7
+ResPoison=6
+ResEnergy=6
+
+[ItemDef 0404A]
+NameLoc=1095330
+DupeItem=0304
+
+
+// Gargish Leather Leggings (Variant 1)
+[ItemDef 0305]
+DefName=iGargishLeatherLeggings1
+Name=gargish leather leggings
+NameLoc=1020773
+Type=tLeatherArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUGargoyle
+Weight=5
+ReqStr=20
+SkillMake=Tailoring 663
+Resources=10 iPlainLeather
+Material=tLeather
+DupeList=0404D
+
+Category=Equipment
+Subsection=Armor: Gargish Leather Armor
+Description=Gargish Leather Leggings (Variant 1)
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=6
+ResCold=7
+ResPoison=6
+ResEnergy=6
+
+[ItemDef 0404D]
+NameLoc=1095333
+DupeItem=0305
+
+
+// Gargish Leather Leggings (Variant 2)
+[ItemDef 0306]
+DefName=iGargishLeatherLeggings2
+Name=gargish leather leggings
+NameLoc=1020774
+Type=tLeatherArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUGargoyle
+Weight=5
+ReqStr=20
+SkillMake=Tailoring 663
+Resources=10 iPlainLeather
+Material=tLeather
+DupeList=0404E
+
+Category=Equipment
+Subsection=Armor: Gargish Leather Armor
+Description=Gargish Leather Leggings (Variant 2)
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=6
+ResCold=7
+ResPoison=6
+ResEnergy=6
+
+[ItemDef 0404E]
+NameLoc=1095334
+DupeItem=0306
+
+
+// Gargish Leather Kilt (Variant 1)
+[ItemDef 0310]
+DefName=iGargishLeatherKilt1
+Name=gargish leather kilt
+NameLoc=1020784
+Type=tLeatherArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUGargoyle
+Weight=5
+ReqStr=25
+SkillMake=Tailoring 580
+Resources=6 iPlainLeather
+Material=tLeather
+DupeList=0404B
+
+Category=Equipment
+Subsection=Armor: Gargish Leather Armor
+Description=Gargish Leather Kilt (Variant 1)
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=6
+ResCold=7
+ResPoison=6
+ResEnergy=6
+
+[ItemDef 0404B]
+NameLoc=1095331
+DupeItem=0310
+
+
+// Gargish Leather Kilt (Variant 2)
+[ItemDef 0311]
+DefName=iGargishLeatherKilt2
+Name=gargish leather kilt
+NameLoc=1020785
+Type=tLeatherArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUGargoyle
+Weight=5
+ReqStr=25
+SkillMake=Tailoring 580
+Resources=6 iPlainLeather
+Material=tLeather
+DupeList=0404C
+
+Category=Equipment
+Subsection=Armor: Gargish Leather Armor
+Description=Gargish Leather Kilt (Variant 2)
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=6
+ResCold=7
+ResPoison=6
+ResEnergy=6
+
+[ItemDef 0404C]
+NameLoc=1095332
+DupeItem=0311
+
+
+// Gargish Leather Wing Armor
+[ItemDef 0457E]
+DefName=iGargishLeatherWingArmor
+Name=gargish leather wing armor
+NameLoc=1096662
+Type=tLeatherArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUGargoyle
+Weight=2
+ReqStr=10
+SkillMake=Tailoring 650
+Resources=12 iPlainLeather
+Material=tLeather
+DupeList=0457F
+
+Category=Equipment
+Subsection=Armor: Gargish Leather Armor
+Description=Gargish Leather Wing Armor
+
+[ItemDef 0457F]
+NameLoc=1096663
+DupeItem=0457E
+
+
+[EOF]

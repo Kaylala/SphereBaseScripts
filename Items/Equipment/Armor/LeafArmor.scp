@@ -1,0 +1,225 @@
+// Leaf Tunic
+[ItemDef 02FC5]
+DefName=iLeafTunic1
+Name=leaf tunic
+Type=tLeafArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUElf
+Weight=2
+ReqStr=20
+SkillMake=Tailoring 750
+Resources=15 iPlainLeather
+Material=tLeather
+AlterItem={iGargishLeatherChest1 1 iGargishLeatherChest2 1}
+DupeList=0317B
+
+Category=Equipment
+Subsection=Armor: Leaf Armor
+Description=Leaf Tunic
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=3
+ResCold=2
+ResPoison=4
+ResEnergy=4
+
+[ItemDef 0317B]
+DupeItem=02FC5
+
+
+// Leaf Tunic (Female)
+[ItemDef 02FCB]
+DefName=iLeafTunic2
+Name=leaf tunic
+Type=tLeafArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUElf|CanUFemale
+Weight=2
+ReqStr=20
+SkillMake=Tailoring 750
+Resources=15 iPlainLeather
+Material=tLeather
+AlterItem={iGargishLeatherChest1 1 iGargishLeatherChest2 1}
+DupeList=03181
+
+Category=Equipment
+Subsection=Armor: Leaf Armor
+Description=Leaf Tunic (Female)
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=3
+ResCold=2
+ResPoison=4
+ResEnergy=4
+
+[ItemDef 03181]
+DupeItem=02FCB
+
+
+// Leaf Arms
+[ItemDef 02FC8]
+DefName=iLeafArms
+Name=leaf arms
+Type=tLeafArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUElf
+Weight=2
+ReqStr=15
+SkillMake=Tailoring 600
+Resources=12 iPlainLeather
+Material=tLeather
+AlterItem={iGargishLeatherArms1 1 iGargishLeatherArms2 1}
+DupeList=0317E
+
+Category=Equipment
+Subsection=Armor: Leaf Armor
+Description=Leaf Arms
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=3
+ResCold=2
+ResPoison=4
+ResEnergy=4
+
+[ItemDef 0317E]
+DupeItem=02FC8
+
+
+// Leaf Gloves
+[ItemDef 02FC6]
+DefName=iLeafGloves
+Name=leaf gloves
+Type=tLeafArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUElf
+Weight=2
+ReqStr=10
+SkillMake=Tailoring 600
+Resources=10 iPlainLeather
+Material=tLeather
+AlterItem={iGargishLeatherKilt1 1 iGargishLeatherKilt2 1}
+DupeList=0317C
+
+Category=Equipment
+Subsection=Armor: Leaf Armor
+Description=Leaf Gloves
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=3
+ResCold=2
+ResPoison=4
+ResEnergy=4
+
+[ItemDef 0317C]
+DupeItem=02FC6
+
+
+// Leaf Leggings
+[ItemDef 02FC9]
+DefName=iLeafLeggings
+Name=leaf leggings
+Type=tLeafArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUElf
+Weight=2
+ReqStr=20
+SkillMake=Tailoring 750
+Resources=15 iPlainLeather
+Material=tLeather
+AlterItem={iGargishLeatherLeggings1 1 iGargishLeatherLeggings2 1}
+DupeList=0317F
+
+Category=Equipment
+Subsection=Armor: Leaf Armor
+Description=Leaf Leggings
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=3
+ResCold=2
+ResPoison=4
+ResEnergy=4
+
+[ItemDef 0317F]
+DupeItem=02FC9
+
+
+// Leaf Gorget
+[ItemDef 02FC7]
+DefName=iLeafGorget
+Name=leaf gorget
+Type=tLeafArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUElf
+Weight=2
+ReqStr=10
+SkillMake=Tailoring 650
+Resources=12 iPlainLeather
+Material=tLeather
+AlterItem=0
+DupeList=0317D
+
+Category=Equipment
+Subsection=Armor: Leaf Armor
+Description=Leaf Gorget
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=3
+ResCold=2
+ResPoison=4
+ResEnergy=4
+
+[ItemDef 0317D]
+DupeItem=02FC7
+
+
+// Leaf Tonlet
+[ItemDef 02FCA]
+DefName=iLeafTonlet
+Name=leaf tonlet
+Type=tLeafArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUElf	// Should this be female only?
+Weight=2
+ReqStr=10
+SkillMake=Tailoring 700
+Resources=15 iPlainLeather
+Material=tLeather
+AlterItem={iGargishLeatherLeggings1 1 iGargishLeatherLeggings2 1}
+DupeList=03180
+
+Category=Equipment
+Subsection=Armor: Leaf Armor
+Description=Leaf Tonlet
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=3
+ResCold=2
+ResPoison=4
+ResEnergy=4
+
+[ItemDef 03180]
+DupeItem=02FCA
+
+
+[EOF]

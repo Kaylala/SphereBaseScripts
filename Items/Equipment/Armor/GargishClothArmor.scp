@@ -1,0 +1,271 @@
+// Gargish Cloth Arms (Variant 1)
+[ItemDef 0403]
+DefName=iGargishClothArms1
+Name=gargish cloth arms
+Type=tClothArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUGargoyle
+Weight=2
+ReqStr=20
+SkillMake=Tailoring 871
+Resources=8 iCloth
+Material=tCloth
+DupeList=0405F
+
+Category=Equipment
+Subsection=Armor: Gargish Cloth Armor
+Description=Gargish Cloth Arms (Variant 1)
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=7
+ResCold=6
+ResPoison=6
+ResEnergy=6
+
+[ItemDef 0405F]
+DupeItem=0403
+
+
+// Gargish Cloth Arms (Variant 2)
+[ItemDef 0404]
+DefName=iGargishClothArms2
+Name=gargish cloth arms
+Type=tClothArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUGargoyle
+Weight=2
+ReqStr=20
+SkillMake=Tailoring 871
+Resources=8 iCloth
+Material=tCloth
+DupeList=04060
+
+Category=Equipment
+Subsection=Armor: Gargish Cloth Armor
+Description=Gargish Cloth Arms (Variant 2)
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=7
+ResCold=6
+ResPoison=6
+ResEnergy=6
+
+[ItemDef 04060]
+DupeItem=0404
+
+
+// Gargish Cloth Chest (Variant 1)
+[ItemDef 0405]
+DefName=iGargishClothChest1
+Name=gargish cloth chest
+Type=tClothArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUGargoyle
+Weight=6
+ReqStr=25
+SkillMake=Tailoring 940
+Resources=12 iCloth
+Material=tCloth
+DupeList=04061
+
+Category=Equipment
+Subsection=Armor: Gargish Cloth Armor
+Description=Gargish Cloth Chest (Variant 1)
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=7
+ResCold=6
+ResPoison=6
+ResEnergy=6
+
+[ItemDef 04061]
+DupeItem=0405
+
+
+// Gargish Cloth Chest (Variant 2)
+[ItemDef 0406]
+DefName=iGargishClothChest2
+Name=gargish cloth chest
+Type=tClothArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUGargoyle
+Weight=6
+ReqStr=25
+SkillMake=Tailoring 940
+Resources=12 iCloth
+Material=tCloth
+DupeList=04062
+
+Category=Equipment
+Subsection=Armor: Gargish Cloth Armor
+Description=Gargish Cloth Chest (Variant 2)
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=7
+ResCold=6
+ResPoison=6
+ResEnergy=6
+
+[ItemDef 04062]
+DupeItem=0406
+
+
+// Gargish Cloth Leggings (Variant 1)
+[ItemDef 0409]
+DefName=iGargishClothLeggings1
+Name=gargish cloth leggings
+Type=tClothArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUGargoyle
+Weight=4
+ReqStr=20
+SkillMake=Tailoring 912
+Resources=10 iCloth
+Material=tCloth
+DupeList=04065
+
+Category=Equipment
+Subsection=Armor: Gargish Cloth Armor
+Description=Gargish Cloth Leggings
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=7
+ResCold=6
+ResPoison=6
+ResEnergy=6
+
+[ItemDef 04065]
+DupeItem=0409
+
+
+// Gargish Cloth Leggings (Variant 2)
+[ItemDef 040A]
+DefName=iGargishClothLeggings2
+Name=gargish cloth leggings
+Type=tClothArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUGargoyle
+Weight=4
+ReqStr=20
+SkillMake=Tailoring 912
+Resources=10 iCloth
+Material=tCloth
+DupeList=04066
+
+Category=Equipment
+Subsection=Armor: Gargish Cloth Armor
+Description=Gargish Cloth Leggings (Variant 2)
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=7
+ResCold=6
+ResPoison=6
+ResEnergy=6
+
+[ItemDef 04066]
+DupeItem=040A
+
+
+// Gargish Cloth Kilt (Variant 1)
+[ItemDef 0407]
+DefName=iGargishClothKilt1
+Name=gargish cloth kilt
+Type=tClothArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUGargoyle
+Weight=2
+ReqStr=20
+SkillMake=Tailoring 829
+Resources=6 iCloth
+Material=tCloth
+DupeList=04063
+
+Category=Equipment
+Subsection=Armor: Gargish Cloth Armor
+Description=Gargish Cloth Kilt (Variant 1)
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=7
+ResCold=6
+ResPoison=6
+ResEnergy=6
+
+[ItemDef 04063]
+DupeItem=0407
+
+
+// Gargish Cloth Kilt (Variant 2)
+[ItemDef 0408]
+DefName=iGargishClothKilt2
+Name=gargish cloth kilt
+Type=tClothArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUGargoyle
+Weight=2
+ReqStr=20
+SkillMake=Tailoring 829
+Resources=6 iCloth
+Material=tCloth
+DupeList=04064
+
+Category=Equipment
+Subsection=Armor: Gargish Cloth Armor
+Description=Gargish Cloth Kilt (Variant 2)
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=7
+ResCold=6
+ResPoison=6
+ResEnergy=6
+
+[ItemDef 04064]
+DupeItem=0408
+
+
+// Gargish Cloth Wing Armor
+[ItemDef 045A4]
+DefName=iGargishClothWingArmor
+Name=gargish cloth wing armor
+Type=tClothArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUGargoyle
+Weight=2
+ReqStr=10
+SkillMake=Tailoring 650
+Resources=12 iCloth
+Material=tCloth
+DupeList=045A5
+
+Category=Equipment
+Subsection=Armor: Gargish Cloth Armor
+Description=Gargish Cloth Wing Armor
+
+[ItemDef 045A5]
+DupeItem=045A4
+
+
+[EOF]

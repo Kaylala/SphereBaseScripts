@@ -1,0 +1,129 @@
+// Leather Ninja Pants
+[ItemDef 02791]
+DefName=iLeatherNinjaPants
+Name=leather ninja pants
+Type=tLeatherArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=3
+ReqStr=10
+SkillMake=Tailoring 800
+Resources=13 iPlainLeather
+Material=tLeather
+AlterItem={iGargishLeatherLeggings1 1 iGargishLeatherLeggings2 1}
+DupeList=027DC
+
+Category=Equipment
+Subsection=Armor: Leather Ninja Armor
+Description=Leather Ninja Pants
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+[ItemDef 027DC]
+DupeItem=02791
+
+
+// Leather Ninja Jacket
+[ItemDef 02793]
+DefName=iLeatherNinjaJacket
+Name=leather ninja jacket
+Type=tLeatherArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=5
+ReqStr=10
+SkillMake=Tailoring 850
+Resources=13 iPlainLeather
+Material=tLeather
+AlterItem={iGargishLeatherChest1 1 iGargishLeatherChest2 1}
+DupeList=027DE
+
+Category=Equipment
+Subsection=Armor: Leather Ninja Armor
+Description=Leather Ninja Jacket
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+[ItemDef 027DE]
+DupeItem=02793
+
+
+// Leather Ninja Mitts
+[ItemDef 02792]
+DefName=iLeatherNinjaMitts
+Name=leather ninja mitts
+Type=tLeatherArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=2
+ReqStr=10
+SkillMake=Tailoring 650
+Resources=12 iPlainLeather
+Material=tLeather
+AlterItem={iGargishLeatherKilt1 1 iGargishLeatherKilt2 1}
+DupeList=027DD
+
+Category=Equipment
+Subsection=Armor: Leather Ninja Armor
+Description=Leather Ninja Mitts
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+[ItemDef 027DD]
+DupeItem=02792
+
+
+// Leather Ninja Hood
+[ItemDef 0278E]
+DefName=iLeatherNinjaHood
+Name=leather ninja hood
+Type=tLeatherArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=2
+ReqStr=10
+SkillMake=Tailoring 900
+Resources=14 iPlainLeather
+Material=tLeather
+AlterItem=0
+DupeList=027D9
+
+Category=Equipment
+Subsection=Armor: Leather Ninja Armor
+Description=Leather Ninja Hood
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+[ItemDef 027D9]
+DupeItem=0278E
+
+
+[EOF]

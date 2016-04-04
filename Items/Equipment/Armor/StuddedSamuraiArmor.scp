@@ -1,0 +1,161 @@
+// Studded Mempo
+[ItemDef 0279D]
+DefName=iStuddedMempo
+Name=studded mempo
+Type=tStuddedArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=2
+ReqStr=30
+SkillMake=Tailoring 800
+Resources=8 iPlainLeather
+Material=tLeather
+AlterItem=0
+DupeList=027E8
+
+Category=Equipment
+Subsection=Armor: Studded Samurai Armor
+Description=Studded Mempo
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=4
+
+[ItemDef 027E8]
+DupeItem=027D9
+
+
+// Studded Do
+[ItemDef 0277C]
+DefName=iStuddedDo
+Name=studded do
+Type=tStuddedArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=8
+ReqStr=55
+SkillMake=Tailoring 950
+Resources=14 iPlainLeather
+Material=tLeather
+AlterItem=0
+DupeList=027C7
+
+Category=Equipment
+Subsection=Armor: Studded Samurai Armor
+Description=Studded Do
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=4
+
+[ItemDef 027C7]
+DupeItem=0277C
+
+
+// Studded Hiro Sode
+[ItemDef 0277F]
+DefName=iStuddedHiroSode
+Name=studded hiro sode
+Type=tStuddedArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=1
+ReqStr=30
+SkillMake=Tailoring 850
+Resources=8 iPlainLeather
+Material=tLeather
+AlterItem=0
+DupeList=027CA
+
+Category=Equipment
+Subsection=Armor: Studded Samurai Armor
+Description=Studded Hiro Sode
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=4
+
+[ItemDef 027CA]
+DupeItem=0277F
+
+
+// Studded Suneate
+[ItemDef 02787]
+DefName=iStuddedSuneate
+Name=studded suneate
+Type=tStuddedArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=5
+ReqStr=30
+SkillMake=Tailoring 920
+Resources=14 iPlainLeather
+Material=tLeather
+AlterItem=0
+DupeList=027D2
+
+Category=Equipment
+Subsection=Armor: Studded Samurai Armor
+Description=Studded Suneate
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=4
+
+[ItemDef 027D2]
+DupeItem=02787
+
+
+// Studded Haidate
+[ItemDef 0278B]
+DefName=iStuddedHaidate
+Name=studded haidate
+Type=tStuddedArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=5
+ReqStr=30
+SkillMake=Tailoring 920
+Resources=14 iPlainLeather
+Material=tLeather
+AlterItem=0
+DupeList=027D6
+
+Category=Equipment
+Subsection=Armor: Studded Samurai Armor
+Description=Studded Haidate
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=4
+
+[ItemDef 027D6]
+DupeItem=0278B
+
+
+[EOF]

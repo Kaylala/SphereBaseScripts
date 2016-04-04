@@ -1,0 +1,413 @@
+// Leather Gorget
+[ItemDef 013C7]
+DefName=iLeatherGorget
+Name=leather gorget
+Type=tLeatherArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=1
+ReqStr=20
+SkillMake=Tailoring 539
+Resources=4 iPlainLeather
+Material=tLeather
+AlterItem=0
+
+Category=Equipment
+Subsection=Armor: Leather Armor
+Description=Leather Gorget
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+
+// Leather Cap
+[ItemDef 01DB9]
+DefName=iLeatherCap
+Name=leather cap
+Type=tLeatherArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=2
+ReqStr=20
+SkillMake=Tailoring 62
+Resources=2 iPlainLeather
+Material=tLeather
+AlterItem=0
+DupeList=01DBA
+
+Category=Equipment
+Subsection=Armor: Leather Armor
+Description=Leather Cap
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+[ItemDef 01DBA]
+DupeItem=01DB9
+
+
+// Leather Gloves
+[ItemDef 013C6]
+DefName=iLeatherGloves
+Name=leather gloves
+Type=tLeatherArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=1
+ReqStr=20
+SkillMake=Tailoring 518
+Resources=3 iPlainLeather
+Material=tLeather
+AlterItem={iGargishLeatherKilt1 1 iGargishLeatherKilt2 1}
+DupeList=013CE
+
+Category=Equipment
+Subsection=Armor: Leather Armor
+Description=Leather Gloves
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+[ItemDef 013CE]
+DupeItem=013C6
+
+
+// Leather Sleeves
+[ItemDef 013C5]
+DefName=iLeatherSleeves1
+Name=leather sleeves
+Type=tLeatherArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=2
+ReqStr=20
+SkillMake=Tailoring 539
+Resources=4 iPlainLeather
+Material=tLeather
+AlterItem={iGargishLeatherArms1 1 iGargishLeatherArms2 1}
+DupeList=013CD
+
+Category=Equipment
+Subsection=Armor: Leather Armor
+Description=Leather Sleeves
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+[ItemDef 013CD]
+DupeItem=013C5
+
+
+// Leather Sleeves (Decoration)
+[ItemDef 013C8]
+DefName=iLeatherSleeves2
+Name=leather sleeves
+Type=tLeatherArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=2
+ReqStr=20
+SkillMake=Tailoring 539
+Resources=4 iPlainLeather
+Material=tLeather
+AlterItem={iGargishLeatherArms1 1 iGargishLeatherArms2 1}
+DupeList=013CF
+
+Category=Equipment
+Subsection=Armor: Leather Armor
+Description=Leather Sleeves (Decoration)
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+[ItemDef 013CF]
+DupeItem=013C8
+
+
+// Leather Leggings (Decoration)
+[ItemDef 013C9]
+DefName=iLeatherLeggings2
+Name=leather leggings
+Type=tLeatherArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=4
+ReqStr=20
+SkillMake=Tailoring 663
+Resources=10 iPlainLeather
+Material=tLeather
+AlterItem={iGargishLeatherLeggings1 1 iGargishLeatherLeggings2 1}
+DupeList=013D0
+
+Category=Equipment
+Subsection=Armor: Leather Armor
+Description=Leather Leggings (Decoration)
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+[ItemDef 013D0]
+DupeItem=013C9
+
+
+// Leather Leggings
+[ItemDef 013CB]
+DefName=iLeatherLeggings1
+Name=leather leggings
+Type=tLeatherArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=4
+ReqStr=20
+SkillMake=Tailoring 663
+Resources=10 iPlainLeather
+Material=tLeather
+AlterItem={iGargishLeatherLeggings1 1 iGargishLeatherLeggings2 1}
+DupeList=013D2
+
+Category=Equipment
+Subsection=Armor: Leather Armor
+Description=Leather Leggings
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+[ItemDef 013D2]
+DupeItem=013CB
+
+
+// Leather Tunic (Decoration)
+[ItemDef 013CA]
+DefName=iLeatherTunic2
+Name=leather tunic
+Type=tLeatherArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=6
+ReqStr=25
+SkillMake=Tailoring 705
+Resources=12 iPlainLeather
+Material=tLeather
+AlterItem={iGargishLeatherChest 1 iGargishLeatherChest1 1}
+DupeList=013D1
+
+Category=Equipment
+Subsection=Armor: Leather Armor
+Description=Leather Tunic (Decoration)
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+[ItemDef 013D1]
+DupeItem=013CA
+
+
+// Leather Tunic
+[ItemDef 013CC]
+DefName=iLeatherTunic1
+Name=leather tunic
+Type=tLeatherArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=6
+ReqStr=25
+SkillMake=Tailoring 705
+Resources=12 iPlainLeather
+Material=tLeather
+AlterItem={iGargishLeatherChest1 1 iGargishLeatherChest2 1}
+DupeList=013D3
+
+Category=Equipment
+Subsection=Armor: Leather Armor
+Description=Leather Tunic
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+[ItemDef 013D3]
+DupeItem=013CC
+
+
+// Leather Shorts
+[ItemDef 01C00]
+DefName=iLeatherShorts
+Name=leather shorts
+Type=tLeatherArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf|CanUFemale
+Weight=3
+ReqStr=20
+SkillMake=Tailoring 622
+Resources=8 iPlainLeather
+Material=tLeather
+AlterItem={iGargishLeatherLeggings1 1 iGargishLeatherLeggings2 1}
+DupeList=01C01
+
+Category=Equipment
+Subsection=Armor: Leather Armor
+Description=Leather Shorts
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+[ItemDef 01C01]
+DupeItem=01C00
+
+
+// Leather Skirt
+[ItemDef 01C08]
+DefName=iLeatherSkirt
+Name=leather skirt
+Type=tLeatherArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf|CanUFemale
+Weight=1
+ReqStr=20
+SkillMake=Tailoring 580
+Resources=6 iPlainLeather
+Material=tLeather
+AlterItem={iGargishLeatherLeggings1 1 iGargishLeatherLeggings2 1}
+DupeList=01C09
+
+Category=Equipment
+Subsection=Armor: Leather Armor
+Description=Leather Skirt
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+[ItemDef 01C09]
+DupeItem=01C08
+
+
+// Leather Bustier
+[ItemDef 01C0A]
+DefName=iLeatherBustier
+Name=leather bustier
+Type=tLeatherArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf|CanUFemale
+Weight=1
+ReqStr=20
+SkillMake=Tailoring 580
+Resources=6 iPlainLeather
+Material=tLeather
+AlterItem={iGargishLeatherChest1 1 iGargishLeatherChest2 1}
+DupeList=01C0B
+
+Category=Equipment
+Subsection=Armor: Leather Armor
+Description=Leather Bustier
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+[ItemDef 01C0B]
+DupeItem=01C0A
+
+
+// Female Leather Armor
+[ItemDef 01C06]
+DefName=iFemaleLeatherArmor
+Name=leather 
+Type=tLeatherArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf|CanUFemale
+Weight=1
+ReqStr=25
+SkillMake=Tailoring 622
+Resources=8 iPlainLeather
+Material=tLeather
+AlterItem={iGargishLeatherChest1 1 iGargishLeatherChest2 1}
+DupeList=01C07
+
+Category=Equipment
+Subsection=Armor: Leather Armor
+Description=Female Leather Armor
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+[ItemDef 01C07]
+DupeItem=01C06
+
+
+[EOF]

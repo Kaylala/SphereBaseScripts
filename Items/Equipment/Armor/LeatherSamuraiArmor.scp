@@ -1,0 +1,161 @@
+// Leather Mempo
+[ItemDef 0277A]
+DefName=iLeatherMempo
+Name=leather mempo
+Type=tLeatherArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=2
+ReqStr=30
+SkillMake=Tailoring 800
+Resources=8 iPlainLeather
+Material=tLeather
+AlterItem=0
+DupeList=027C5
+
+Category=Equipment
+Subsection=Armor: Leather Samurai Armor
+Description=Leather Mempo
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+[ItemDef 027C5]
+DupeItem=0277A
+
+
+// Leather Do
+[ItemDef 0277B]
+DefName=iLeatherDo
+Name=leather do
+Type=tLeatherArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=6
+ReqStr=40
+SkillMake=Tailoring 750
+Resources=12 iPlainLeather
+Material=tLeather
+AlterItem={iGargishLeatherChest1 1 iGargishLeatherChest2 1}
+DupeList=027C6
+
+Category=Equipment
+Subsection=Armor: Leather Samurai Armor
+Description=Leather Do
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+[ItemDef 027C6]
+DupeItem=0277B
+
+
+// Leather Hiro Sode
+[ItemDef 0277E]
+DefName=iLeatherHiroSode
+Name=leather hiro sode
+Type=tLeatherArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=1
+ReqStr=25
+SkillMake=Tailoring 550
+Resources=5 iPlainLeather
+Material=tLeather
+AlterItem={iGargishLeatherArms1 1 iGargishLeatherArms2 1}
+DupeList=027C9
+
+Category=Equipment
+Subsection=Armor: Leather Samurai Armor
+Description=Leather Hiro Sode
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+[ItemDef 027C9]
+DupeItem=027EE
+
+
+// Leather Suneate
+[ItemDef 02786]
+DefName=iLeatherSuneate
+Name=leather suneate
+Type=tLeatherArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=4
+ReqStr=20
+SkillMake=Tailoring 680
+Resources=12 iPlainLeather
+Material=tLeather
+AlterItem={iGargishLeatherLeggings1 1 iGargishLeatherLeggings2 1}
+DupeList=027D1
+
+Category=Equipment
+Subsection=Armor: Leather Samurai Armor
+Description=Leather Suneate
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+[ItemDef 027D1]
+DupeItem=02786
+
+
+// Leather Haidate
+[ItemDef 0278A]
+DefName=iLeatherHaidate
+Name=leather haidate
+Type=tLeatherArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=4
+ReqStr=20
+SkillMake=Tailoring 680
+Resources=12 iPlainLeather
+Material=tLeather
+AlterItem={iGargishLeatherLeggings1 1 iGargishLeatherLeggings2 1}
+DupeList=027D5
+
+Category=Equipment
+Subsection=Armor: Leather Samurai Armor
+Description=Leather Haidate
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+[ItemDef 027D5]
+DupeItem=0278A
+
+
+[EOF]

@@ -1,0 +1,223 @@
+[ItemDef 07822]
+DefName=iTigerPeltChest
+Name=tiger pelt chest
+NameLoc=1109626
+Type=tFurArmor
+Can=CanIRepair|CanIRecycle|CanIRetainColor|CanIExceptional|CanIMakersMark|CanIEnhance|CanIImbue|CanIReforge||CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=6
+ReqStr=25
+SkillMake=Tailoring 900
+Resources=8 iPlainLeather,4 iTigerPelt
+Material=tLeather,tFur
+AlterItem={iGargishLeatherChest1 1 iGargishLeatherChest2 1}
+
+Category=Equipment
+Subsection=Armor: Tiger Pelt Armor
+Description=Tiger Pelt Chest
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+[ItemDef 07823]
+DefName=iTigerPeltBustier
+NameLoc=1109627
+Name=tiger pelt bustier
+Can=CanIRepair|CanIRecycle|CanIRetainColor|CanIExceptional|CanIMakersMark|CanIEnhance|CanIImbue|CanIReforge||CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf|CanUFemale
+Weight=6
+ReqStr=20
+SkillMake=Tailoring 900
+Resources=6 iPlainLeather,3 iTigerPelt
+Material=tLeather,tFur
+AlterItem={iGargishLeatherChest1 1 iGargishLeatherChest2 1}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+Category=Equipment
+Subsection=Armor: Tiger Pelt Armor
+Description=Tiger Pelt Bustier
+
+On=@Create
+HitPoints={36 48}
+
+[ItemDef 07824]
+DefName=iTigerPeltLeggings
+Name=tiger pelt leggings
+NameLoc=1109628
+Type=tFurArmor
+Can=CanIRepair|CanIRecycle|CanIRetainColor|CanIExceptional|CanIMakersMark|CanIEnhance|CanIImbue|CanIReforge||CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=4
+ReqStr=20
+SkillMake=Tailoring 900
+Resources=8 iPlainLeather,4 iTigerPelt
+Material=tLeather,tFur
+AlterItem={iGargishLeatherLeggings1 1 iGargishLeatherLeggings2 1}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+Category=Equipment
+Subsection=Armor: Tiger Pelt Armor
+Description=Tiger Pelt Leggings
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+[ItemDef 07825]
+DefName=iTigerPeltShorts
+Name=tiger shorts
+NameLoc=1109629
+Type=tFurArmor
+Can=CanIRepair|CanIRecycle|CanIRetainColor|CanIExceptional|CanIMakersMark|CanIEnhance|CanIImbue|CanIReforge||CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=3
+ReqStr=20
+SkillMake=Tailoring 900
+Resources=4 iPlainLeather,2 iTigerPelt
+Material=tLeather,tFur
+AlterItem={iGargishLeatherLeggings1 1 iGargishLeatherLeggings2 1}
+
+Category=Equipment
+Subsection=Armor: Tiger Pelt Armor
+Description=Tiger Pelt Shorts
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+[ItemDef 07826]
+DefName=iTigerPeltLongSkirt
+Name=tiger pelt long skirt
+NameLoc=1109630
+Type=tFurArmor
+Can=CanIRepair|CanIRecycle|CanIRetainColor|CanIExceptional|CanIMakersMark|CanIEnhance|CanIImbue|CanIReforge||CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf|CanUFemale
+Weight=1
+ReqStr=20
+SkillMake=Tailoring 900
+Resources=4 iPlainLeather,2 iTigerPelt
+Material=tLeather,tFur
+AlterItem={iGargishLeatherLeggings1 1 iGargishLeatherLeggings2 1}
+
+Category=Equipment
+Subsection=Armor: Tiger Pelt Armor
+Description=Tiger Pelt Long Skirt
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+[ItemDef 07827]
+DefName=iTigerPeltSkirt
+Name=tiger pelt skirt
+NameLoc=1109631
+Type=tFurArmor
+Can=CanIRepair|CanIRecycle|CanIRetainColor|CanIExceptional|CanIMakersMark|CanIEnhance|CanIImbue|CanIReforge||CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf|CanUFemale
+Weight=1
+ReqStr=20
+SkillMake=Tailoring 900
+Resources=4 iPlainLeather,2 iTigerPelt
+Material=tLeather,tFur
+AlterItem={iGargishLeatherLeggings1 1 iGargishLeatherLeggings2 1}
+
+Category=Equipment
+Subsection=Armor: Tiger Pelt Armor
+Description=Tiger Pelt Skirt
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+[ItemDef 07828]
+DefName=iTigerPeltHelm
+Name=tiger pelt helm
+NameLoc=1109632
+Type=tFurArmor
+Can=CanIRepair|CanIRecycle|CanIRetainColor|CanIExceptional|CanIMakersMark|CanIEnhance|CanIImbue|CanIReforge||CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=4
+ReqStr=20
+SkillMake=Tailoring 900
+Resources=2 iPlainLeather,1 iTigerPelt
+Material=tLeather,tFur
+AlterItem=0
+
+Category=Equipment
+Subsection=Armor: Tiger Pelt Armor
+Description=Tiger Pelt Helm
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+[ItemDef 07829]
+DefName=iTigerPeltCollar
+Name=tiger pelt collar
+NameLoc=1109633
+Type=tFurArmor
+Can=CanIRepair|CanIRecycle|CanIRetainColor|CanIExceptional|CanIMakersMark|CanIEnhance|CanIImbue|CanIReforge||CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=2
+ReqStr=20
+SkillMake=Tailoring 900
+Resources=2 iPlainLeather,1 iTigerPelt
+Material=tLeather,tFur
+AlterItem=0
+
+Category=Equipment
+Subsection=Armor: Tiger Pelt Armor
+Description=Tiger Pelt Collar
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+
+[EOF]

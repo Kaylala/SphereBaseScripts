@@ -1,0 +1,161 @@
+// Dragon Gloves
+[ItemDef 02643]
+DefName=iDragonGloves
+Name=dragon gloves
+Type=tDragonArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=2
+ReqStr=75
+SkillMake=Blacksmithing 689
+Resources=16 iBlackDragonScales
+Material=tDragonScales
+AlterItem=0
+DupeList=02644
+
+Category=Equipment
+Subsection=Armor: Dragon Armor
+Description=Dragon Gloves
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=3
+ResFire=3
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+[ItemDef 02644]
+DupeItem=02643
+
+
+// Dragon Helm
+[ItemDef 02645]
+DefName=iDragonHelm
+Name=dragon helm
+Type=tDragonArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=5
+ReqStr=75
+SkillMake=Blacksmithing 726
+Resources=20 iBlackDragonScales
+Material=tDragonScales
+AlterItem=0
+DupeList=02646
+
+Category=Equipment
+Subsection=Armor: Dragon Armor
+Description=Dragon Helm
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=3
+ResFire=3
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+[ItemDef 02646]
+DupeItem=02645
+
+
+// Dragon Leggings
+[ItemDef 02647]
+DefName=iDragonLeggings
+Name=dragon leggings
+Type=tDragonArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=6
+ReqStr=75
+SkillMake=Blacksmithing 788
+Resources=28 iBlackDragonScales
+Material=tDragonScales
+AlterItem=0
+DupeList=02648
+
+Category=Equipment
+Subsection=Armor: Dragon Armor
+Description=Dragon Leggings
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=3
+ResFire=3
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+[ItemDef 02648]
+DupeItem=02647
+
+
+// Dragon Sleeves
+[ItemDef 02657]
+DefName=iDragonSleeves
+Name=dragon sleeves
+Type=tDragonArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=2
+ReqStr=75
+SkillMake=Blacksmithing 763
+Resources=24 iBlackDragonScales
+Material=tDragonScales
+AlterItem=0
+DupeList=02658
+
+Category=Equipment
+Subsection=Armor: Dragon Armor
+Description=Dragon Sleeves
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=3
+ResFire=3
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+[ItemDef 02658]
+DupeItem=02657
+
+
+// Dragon Breastplate
+[ItemDef 02641]
+DefName=iDragonBreastplate
+Name=dragon breastplate
+Type=tDragonArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=10
+ReqStr=75
+SkillMake=Blacksmithing 850
+Resources=36 iBlackDragonScales
+Material=tDragonScales
+AlterItem=0
+DupeList=02642
+
+Category=Equipment
+Subsection=Armor: Dragon Armor
+Description=Dragon Breastplate
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=3
+ResFire=3
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+[ItemDef 02642]
+DupeItem=02641
+
+
+[EOF]

@@ -1,0 +1,193 @@
+// Woodland Chest
+[ItemDef 02B67]
+DefName=iWoodlandChest1
+Name=woodland chest
+Type=tWoodlandArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUElf
+Weight=8
+ReqStr=95
+SkillMake=Carpentry 900
+Resources=20 iBoard,6 iBarkFragment
+Material=tWood
+AlterItem=0
+DupeList=0315E
+
+Category=Equipment
+Subsection=Armor: Woodland Armor
+Description=Woodland Chest
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=3
+ResCold=2
+ResPoison=3
+ResEnergy=2
+
+[ItemDef 0315E]
+DupeItem=02B67
+
+
+// Woodland Chest (Female)
+[ItemDef 02B6D]
+DefName=iWoodlandChest2
+Name=woodland chest
+Type=tWoodlandArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUElf|CanUFemale
+Weight=8
+ReqStr=95
+SkillMake=Carpentry 900
+Resources=20 iBoard,6 iBarkFragment
+Material=tWood
+AlterItem=0
+DupeList=03164
+
+Category=Equipment
+Subsection=Armor: Woodland Armor
+Description=Woodland Chest (Female)
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=3
+ResCold=2
+ResPoison=3
+ResEnergy=2
+
+[ItemDef 03164]
+DupeItem=02B6D
+
+
+// Woodland Arms
+[ItemDef 02B6C]
+DefName=iWoodlandArms
+Name=woodland arms
+Type=tWoodlandArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUElf
+Weight=5
+ReqStr=80
+SkillMake=Carpentry 850
+Resources=15 iBoard,4 iBarkFragment
+Material=tWood
+AlterItem=0
+DupeList=03163
+
+Category=Equipment
+Subsection=Armor: Woodland Armor
+Description=Woodland Arms
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=3
+ResCold=2
+ResPoison=3
+ResEnergy=2
+
+[ItemDef 03163]
+DupeItem=02B6C
+
+
+// Woodland Gauntlets
+[ItemDef 02B6A]
+DefName=iWoodlandGauntlets
+Name=woodland gauntlets
+Type=tWoodlandArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUElf
+Weight=2
+ReqStr=70
+SkillMake=Carpentry 900
+Resources=15 iBoard,4 iBarkFragment
+Material=tWood
+AlterItem=0
+DupeList=03161
+
+Category=Equipment
+Subsection=Armor: Woodland Armor
+Description=Woodland Gauntlets
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=3
+ResCold=2
+ResPoison=3
+ResEnergy=2
+
+[ItemDef 03161]
+DupeItem=02B6A
+
+
+// Woodland Leggings
+[ItemDef 02B6B]
+DefName=iWoodlandLeggings
+Name=woodland leggings
+Type=tWoodlandArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUElf
+Weight=8
+ReqStr=90
+SkillMake=Carpentry 850
+Resources=15 iBoard,4 iBarkFragment
+Material=tWood
+AlterItem=0
+DupeList=03162
+
+Category=Equipment
+Subsection=Armor: Woodland Armor
+Description=Woodland Leggings
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=3
+ResCold=2
+ResPoison=3
+ResEnergy=2
+
+[ItemDef 03162]
+DupeItem=02B6B
+
+
+// Woodland Gorget
+[ItemDef 02B69]
+DefName=iWoodlandGorget
+Name=woodland gorget
+Type=tWoodlandArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUElf
+Weight=3
+ReqStr=45
+SkillMake=Carpentry 850
+Resources=15 iBoard,4 iBarkFragment
+Material=tWood
+AlterItem=0
+DupeList=03160
+
+Category=Equipment
+Subsection=Armor: Woodland Armor
+Description=Woodland Gorget
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=3
+ResCold=2
+ResPoison=3
+ResEnergy=2
+
+[ItemDef 03160]
+DupeItem=02B69
+
+
+[EOF]

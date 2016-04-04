@@ -1,0 +1,135 @@
+[ItemDef 0782A]
+DefName=iDragonTurtleHideChest
+Name=dragon turtle hide chest
+NameLoc=1109634
+Type=tScuteArmor
+Can=CanIRepair|CanIRecycle|CanIRetainColor|CanIExceptional|CanIMakersMark|CanIEnhance|CanIImbue|CanIReforge||CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=8
+ReqStr=25
+SkillMake=Tailoring 1015
+Resources=8 iPlainLeather,4 iDragonTurtleScute
+Material=tLeather,tScute
+AlterItem={iGargishLeatherChest1 1 iGargishLeatherChest2 1}
+
+Category=Equipment
+Subsection=Armor: Dragon Turtle Hide Armor
+Description=Dragon Turtle Hide Chest
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+
+[ItemDef 0782B]
+DefName=iDragonTurtleHideBustier
+Name=dragon turtle hide bustier
+NameLoc=1109635
+Type=tScuteArmor
+Can=CanIRepair|CanIRecycle|CanIRetainColor|CanIExceptional|CanIMakersMark|CanIEnhance|CanIImbue|CanIReforge||CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf|CanUFemale
+Weight=6
+ReqStr=20
+SkillMake=Tailoring 1015
+Resources=6 iPlainLeather,3 iDragonTurtleScute
+Material=tLeather,tScute
+AlterItem={iGargishLeatherChest1 1 iGargishLeatherChest2 1}
+
+Category=Equipment
+Subsection=Armor: Dragon Turtle Hide Armor
+Description=Dragon Turtle Hide Bustier
+
+On=@Create
+HitPoints={36 48}
+
+
+[ItemDef 0782C]
+DefName=iDragonTurtleHideLeggings
+Name=dragon turtle hide leggings
+NameLoc=1109636
+Type=tScuteArmor
+Can=CanIRepair|CanIRecycle|CanIRetainColor|CanIExceptional|CanIMakersMark|CanIEnhance|CanIImbue|CanIReforge||CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=6
+ReqStr=20
+SkillMake=Tailoring 1015
+Resources=8 iPlainLeather,4 iDragonTurtleScute
+Material=tLeather,tScute
+AlterItem={iGargishLeatherLeggings1 1 iGargishLeatherLeggings2 1}
+
+Category=Equipment
+Subsection=Armor: Dragon Turtle Hide Armor
+Description=Dragon Turtle Hide Leggings
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+
+[ItemDef 0782D]
+DefName=iDragonTurtleHideHelm
+Name=dragon turtle hide helm
+NameLoc=1109637
+Type=tScuteArmor
+Can=CanIRepair|CanIRecycle|CanIRetainColor|CanIExceptional|CanIMakersMark|CanIEnhance|CanIImbue|CanIReforge||CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=4
+ReqStr=20
+SkillMake=Tailoring 1015
+Resources=2 iPlainLeather,1 iDragonTurtleScute
+Material=tLeather,tScute
+AlterItem=0
+
+Category=Equipment
+Subsection=Armor: Dragon Turtle Hide Armor
+Description=Dragon Turtle Hide Helm
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+
+[ItemDef 0782E]
+DefName=iDragonTurtleHideArms    // bracers
+Name=dragon turtle hide arms
+NameLoc=1109638
+Type=tScuteArmor
+Can=CanIRepair|CanIRecycle|CanIRetainColor|CanIExceptional|CanIMakersMark|CanIEnhance|CanIImbue|CanIReforge||CanIRegenMana|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=2
+ReqStr=20
+SkillMake=Tailoring 1015
+Resources=4 iPlainLeather,2 iDragonTurtleScute
+Material=tLeather,tScute
+AlterItem={iGargishLeatherArms1 1 iGargishLeatherArms2 1}
+
+Category=Equipment
+Subsection=Armor: Dragon Turtle Hide Armor
+Description=Dragon Turtle Hide Arms
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
+
+[EOF]

@@ -1,0 +1,161 @@
+// Platemail Mempo
+[ItemDef 02779]
+DefName=iPlatemailMempo
+Name=platemail mempo
+Type=tPlatemailArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=3
+ReqStr=50
+SkillMake=Blacksmithing 800
+Resources=18 iIronIngot
+Material=tIngot
+AlterItem=0
+DupeList=027C4
+
+Category=Equipment
+Subsection=Armor: Platemail Armor
+Description=Platemail Mempo
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=3
+ResCold=2
+ResPoison=3
+ResEnergy=2
+
+[ItemDef 027C4]
+DupeItem=02779
+
+
+// Platemail Do
+[ItemDef 0277D]
+DefName=iPlatemailDo
+Name=platemail do
+Type=tPlatemailArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=10
+ReqStr=85
+SkillMake=Blacksmithing 870
+Resources=28 iIronIngot
+Material=tIngot
+AlterItem={iGargishPlatemailChest1 1 iGargishPlatemailChest2 1}
+DupeList=027C8
+
+Category=Equipment
+Subsection=Armor: Platemail Armor
+Description=Platemail Do
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=3
+ResCold=2
+ResPoison=3
+ResEnergy=2
+
+[ItemDef 027C8]
+DupeItem=0277D
+
+
+// Platemail Hiro Sode
+[ItemDef 02780]
+DefName=iPlatemailHiroSode
+Name=platemail hiro sode
+Type=tPlatemailArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=2
+ReqStr=75
+SkillMake=Blacksmithing 800
+Resources=16 iIronIngot
+Material=tIngot
+AlterItem={iGargishPlatemailArms1 1 iGargishPlatemailArms2 1}
+DupeList=027CB
+
+Category=Equipment
+Subsection=Armor: Platemail Armor
+Description=Platemail Hiro Sode
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=3
+ResCold=2
+ResPoison=3
+ResEnergy=2
+
+[ItemDef 027CB]
+DupeItem=02780
+
+
+// Platemail Suneate
+[ItemDef 02788]
+DefName=iPlatemailSuneate
+Name=platemail suneate
+Type=tPlatemailArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=7
+ReqStr=80
+SkillMake=Blacksmithing 650
+Resources=20 iIronIngot
+Material=tIngot
+AlterItem={iGargishPlatemailLeggings1 1 iGargishPlatemailLeggings2 1}
+DupeList=027D3
+
+Category=Equipment
+Subsection=Armor: Platemail Armor
+Description=Platemail Suneate
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=3
+ResCold=2
+ResPoison=3
+ResEnergy=2
+
+[ItemDef 027D3]
+DupeItem=02788
+
+
+// Platemail Haidate
+[ItemDef 0278D]
+DefName=iPlatemailHaidate
+Name=platemail haidate
+Type=tPlatemailArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=7
+ReqStr=80
+SkillMake=Blacksmithing 650
+Resources=20 iIronIngot
+Material=tIngot
+AlterItem={iGargishPlatemailLeggings 1 iGargishPlatemailLeggings1 1}
+DupeList=027D8
+
+Category=Equipment
+Subsection=Armor: Platemail Armor
+Description=Platemail Haidate
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=3
+ResCold=2
+ResPoison=3
+ResEnergy=2
+
+[ItemDef 027D8]
+DupeItem=0278D
+
+
+[EOF]

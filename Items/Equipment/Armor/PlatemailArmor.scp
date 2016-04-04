@@ -1,0 +1,223 @@
+// Plate Helm
+[ItemDef 01412]
+DefName=iPlateHelm
+Name=plate helm
+NameLoc=1025138
+Type=tPlatemailArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=5
+ReqStr=80
+SkillMake=Blacksmithing 626
+Resources=15 iIronIngot
+Material=tIngot
+AlterItem=0
+DupeList=01419
+
+Category=Equipment
+Subsection=Armor: Platemail Armor
+Description=Plate Helm
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=3
+ResCold=2
+ResPoison=3
+ResEnergy=2
+
+[ItemDef 01412]
+NameLoc=1025145
+DupeItem=01419
+
+
+// Platemail Arms
+[ItemDef 01410]
+DefName=iPlatemailArms
+Name=platemail arms
+Type=tPlatemailArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=5
+ReqStr=80
+SkillMake=Blacksmithing 663
+Resources=18 iIronIngot
+Material=tIngot
+AlterItem={iGargishPlatemailArms1 1 iGargishPlatemailArms2 1}
+DupeList=01417
+
+Category=Equipment
+Subsection=Armor: Platemail Armor
+Description=Platemail Arms
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=3
+ResCold=2
+ResPoison=3
+ResEnergy=2
+
+[ItemDef 01417]
+DupeItem=01410
+
+
+// Platemail Gloves
+[ItemDef 01414]
+DefName=iPlatemailGloves
+Name=platemail gloves
+Type=tPlatemailArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=2
+ReqStr=70
+SkillMake=Blacksmithing 589
+Resources=12 iIronIngot
+Material=tIngot
+AlterItem={iGargishPlatemailKilt1 1 iGargishPlatemailKilt2 1}
+DupeList=01418
+
+Category=Equipment
+Subsection=Armor: Platemail Armor
+Description=Platemail Gloves
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=3
+ResCold=2
+ResPoison=3
+ResEnergy=2
+
+[ItemDef 01418]
+DupeItem=01414
+
+
+// Platemail Gorget
+[ItemDef 01413]
+DefName=iPlatemailGorget
+Name=platemail gorget
+Type=tPlatemailArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=2
+ReqStr=45
+SkillMake=Blacksmithing 564
+Resources=10 iIronIngot
+Material=tIngot
+AlterItem=0
+
+Category=Equipment
+Subsection=Armor: Platemail Armor
+Description=Platemail Gorget
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=3
+ResCold=2
+ResPoison=3
+ResEnergy=2
+
+
+// Platemail Legs
+[ItemDef 01411]
+DefName=iPlatemailLegs
+Name=platemail legs
+Type=tPlatemailArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=7
+ReqStr=90
+SkillMake=Blacksmithing 688
+Resources=20 iIronIngot
+Material=tIngot
+AlterItem={iGargishPlatemailLeggings1 1 iGargishPlatemailLeggings2 1}
+DupeList=0141A
+
+Category=Equipment
+Subsection=Armor: Platemail Armor
+Description=Platemail Legs
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=3
+ResCold=2
+ResPoison=3
+ResEnergy=2
+
+[ItemDef 0141A]
+DupeItem=01411
+
+
+// Platemail Tunic
+[ItemDef 01415]
+DefName=iPlatemailTunic
+Name=platemail tunic
+Type=tPlatemailArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=10
+ReqStr=95
+SkillMake=Blacksmithing 750
+Resources=25 iIronIngot
+Material=tIngot
+AlterItem={iGargishPlatemailChest1 1 iGargishPlatemailChest2 1}
+DupeList=01416
+
+Category=Equipment
+Subsection=Armor: Platemail Armor
+Description=Platemail Tunic
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=3
+ResCold=2
+ResPoison=3
+ResEnergy=2
+
+[ItemDef 01416]
+DupeItem=01415
+
+
+// Female Plate
+[ItemDef 01C04]
+DefName=iFemalePlate
+Name=female plate
+Type=tPlatemailArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf|CanUFemale
+Weight=4
+ReqStr=95
+SkillMake=Blacksmithing 441
+Resources=20 iIronIngot
+Material=tIngot
+AlterItem={iGargishPlatemailChest1 1 iGargishPlatemailChest2 1}
+DupeList=01C05
+
+Category=Equipment
+Subsection=Armor: Platemail Armor
+Description=Female Plate
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=5
+ResFire=3
+ResCold=2
+ResPoison=3
+ResEnergy=2
+
+[ItemDef 01C05]
+DupeItem=01C04
+
+
+[EOF]

@@ -1,0 +1,248 @@
+// Gargish Platemail Arms (Variant 1)
+[ItemDef 0307]
+DefName=iGargishPlatemailArms1
+Name=gargish platemail arms
+Type=tPlatemailArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUGargoyle
+Weight=5
+ReqStr=80
+SkillMake=Blacksmithing 663
+Resources=18 iIronIngot
+Material=tIngot
+DupeList=0404F
+
+Category=Equipment
+Subsection=Armor: Gargish Platemail Armor
+Description=Gargish Platemail Arms (Variant 1)
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=8
+ResFire=6
+ResCold=5
+ResPoison=6
+ResEnergy=5
+
+[ItemDef 0404F]
+DupeItem=0307
+
+
+// Gargish Platemail Arms (Variant 2)
+[ItemDef 0308]
+DefName=iGargishPlatemailArms2
+Name=gargish platemail arms
+Type=tPlatemailArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUGargoyle
+Weight=5
+ReqStr=80
+SkillMake=Blacksmithing 663
+Resources=18 iIronIngot
+Material=tIngot
+DupeList=04050
+
+Category=Equipment
+Subsection=Armor: Gargish Platemail Armor
+Description=Gargish Platemail Arms (Variant 2)
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=8
+ResFire=6
+ResCold=5
+ResPoison=6
+ResEnergy=5
+
+[ItemDef 04050]
+DupeItem=0308
+
+
+// Gargish Platemail Leggings (Variant 1)
+[ItemDef 030D]
+DefName=iGargishPlatemailLeggings1
+Name=gargish platemail leggings
+Type=tPlatemailArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUGargoyle
+Weight=7
+ReqStr=20
+SkillMake=Blacksmithing 688
+Resources=20 iIronIngot
+Material=tIngot
+DupeList=04055
+
+Category=Equipment
+Subsection=Armor: Gargish Platemail Armor
+Description=Gargish Platemail Leggings (Variant 1)
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=8
+ResFire=6
+ResCold=5
+ResPoison=6
+ResEnergy=5
+
+[ItemDef 04055]
+DupeItem=030D
+
+
+// Gargish Platemail Leggings (Variant 2)
+[ItemDef 030E]
+DefName=iGargishPlatemailLeggings2
+Name=gargish platemail leggings
+Type=tPlatemailArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUGargoyle
+Weight=7
+ReqStr=20
+SkillMake=Blacksmithing 688
+Resources=20 iIronIngot
+Material=tIngot
+DupeList=04056
+
+Category=Equipment
+Subsection=Armor: Gargish Platemail Armor
+Description=Gargish Platemail Leggings (Variant 2)
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=8
+ResFire=6
+ResCold=5
+ResPoison=6
+ResEnergy=5
+
+[ItemDef 04056]
+DupeItem=030E
+
+
+// Gargish Platemail Chest (Variant 1)
+[ItemDef 0309]
+DefName=iGargishPlatemailChest1
+Name=gargish platemail chest
+Type=tPlatemailArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUGargoyle
+Weight=10
+ReqStr=95
+SkillMake=Blacksmithing 750
+Resources=25 iIronIngot
+Material=tIngot
+DupeList=04051
+
+Category=Equipment
+Subsection=Armor: Gargish Platemail Armor
+Description=Gargish Platemail Chest (Variant 1)
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=8
+ResFire=6
+ResCold=5
+ResPoison=6
+ResEnergy=5
+
+[ItemDef 04051]
+DupeItem=0309
+
+
+// Gargish Platemail Chest (Variant 2)
+[ItemDef 030A]
+DefName=iGargishPlatemailChest2
+Name=gargish platemail chest
+Type=tPlatemailArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUGargoyle
+Weight=10
+ReqStr=95
+SkillMake=Blacksmithing 750
+Resources=25 iIronIngot
+Material=tIngot
+DupeList=04052
+
+Category=Equipment
+Subsection=Armor: Gargish Platemail Armor
+Description=Gargish Platemail Chest (Variant 2)
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=8
+ResFire=6
+ResCold=5
+ResPoison=6
+ResEnergy=5
+
+[ItemDef 04052]
+DupeItem=030A
+
+
+// Gargish Platemail Kilt (Variant 1)
+[ItemDef 030B]
+DefName=iGargishPlatemailKilt1
+Name=gargish platemail kilt
+Type=tPlatemailArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUGargoyle
+Weight=5
+ReqStr=80
+SkillMake=Blacksmithing 589
+Resources=12 iIronIngot
+Material=tIngot
+DupeList=04053
+
+Category=Equipment
+Subsection=Armor: Gargish Platemail Armor
+Description=Gargish Platemail Kilt (Variant 1)
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=8
+ResFire=6
+ResCold=5
+ResPoison=6
+ResEnergy=5
+
+[ItemDef 04053]
+DupeItem=030B
+
+
+// Gargish Platemail Kilt (Variant 2)
+[ItemDef 030C]
+DefName=iGargishPlatemailKilt2
+Name=gargish platemail kilt
+Type=tPlatemailArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUGargoyle
+Weight=5
+ReqStr=80
+SkillMake=Blacksmithing 589
+Resources=12 iIronIngot
+DupeList=04054
+
+Category=Equipment
+Subsection=Armor: Gargish Platemail Armor
+Description=Gargish Platemail Kilt (Variant 2)
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=8
+ResFire=6
+ResCold=5
+ResPoison=6
+ResEnergy=5
+
+[ItemDef 04054]
+DupeItem=030C
+
+
+[EOF]

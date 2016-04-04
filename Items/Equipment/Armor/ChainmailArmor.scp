@@ -1,0 +1,160 @@
+// Chainmail Coif
+[ItemDef 13BB]
+DefName=iChainmailCoif
+Name=chainmail coif
+Type=tChainmailArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=7
+ReqStr=60
+SkillMake=Blacksmithing 145
+Resources=10 iIronIngot
+Material=tIngot
+AlterItem=0
+DupeList=013C0
+
+Category=Equipment
+Subsection=Armor: Chainmail Armor
+Description=Chainmail Coif
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=4
+ResFire=4
+ResCold=4
+ResPoison=1
+ResEnergy=2
+
+[ItemDef 013C0]
+DupeItem=013BB
+
+
+// Chainmail Leggings (Decoration)
+[ItemDef 013BC]
+DefName=iChainmailLeggings2
+Name=chainmail leggings
+Type=tChainmailArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=7
+ReqStr=60
+SkillMake=Blacksmithing 367
+Resources=18 iIronIngot
+Material=tIngot
+AlterItem=0
+DupeList=013C1
+
+Category=Equipment
+Subsection=Armor: Chainmail Armor
+Description=Chainmail Leggings (Decoration)
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=4
+ResFire=4
+ResCold=4
+ResPoison=1
+ResEnergy=2
+
+[ItemDef 013C1]
+DupeItem=013BC
+
+
+// Chainmail Leggings
+[ItemDef 013BE]
+DefName=iChainmailLeggings1
+Name=chainmail leggings
+Type=tChainmailArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=7
+ReqStr=60
+SkillMake=Blacksmithing 367
+Resources=18 iIronIngot
+AlterItem=0
+DupeList=013C3
+
+Category=Equipment
+Subsection=Armor: Chainmail Armor
+Description=Chainmail Leggings
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=4
+ResFire=4
+ResCold=4
+ResPoison=1
+ResEnergy=2
+
+[ItemDef 013C3]
+DupeItem=013BE
+
+
+// Chainmail Tunic (Decoration)
+[ItemDef 013BD]
+DefName=iChainmailTunic2
+Name=chainmail tunic
+Type=tChainmailArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=7
+ReqStr=60
+SkillMake=Blacksmithing 391
+Resources=20 iIronIngot
+Material=tIngot
+AlterItem=0
+DupeList=013C2
+
+Category=Equipment
+Subsection=Armor: Chainmail Armor
+Description=Chainmail Tunic (Decoration)
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=4
+ResFire=4
+ResCold=4
+ResPoison=1
+ResEnergy=2
+
+[ItemDef 013C2]
+DupeItem=013BD
+
+
+// Chainmail Tunic
+[ItemDef 013BF]
+DefName=iChainmailTunic1
+Name=chainmail tunic
+Type=tChainmailArmor
+Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
+CanUse=CanUHuman|CanUElf
+Weight=7
+ReqStr=60
+SkillMake=Blacksmithing 391
+Resources=20 iIronIngot
+Material=tIngot
+AlterItem=0
+DupeList=013C4
+
+Category=Equipment
+Subsection=Armor: Chainmail Armor
+Description=Chainmail Tunic
+
+On=@Create
+HitPoints={36 48}
+
+ResPhysical=4
+ResFire=4
+ResCold=4
+ResPoison=1
+ResEnergy=2
+
+[ItemDef 013C4]
+DupeItem=013BF
+
+
+[EOF]
