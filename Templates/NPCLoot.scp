@@ -610,4 +610,82 @@ Item=iSulfurousAsh,{5 8}
 Item=iFireHorn,1,R9
 
 
+/////////////
+// Daemons //
+/////////////
+
+
+[Template DaemonLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Daemonkin
+Description=Daemon
+Item={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1},1
+Item={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1},1
+Item=RandomCommonGem,{1 2}
+Item=RandomCommonGem,{1 2}
+
+
+[Template BalronLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Daemonkin
+Description=Balron
+Item={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1},1
+Item={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1},1
+Item=RandomCommonGem,{1 2}
+Item=RandomCommonGem,{1 2}
+
+
+[Template IceFiendLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Daemonkin
+Description=Ice Fiend
+Item={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1},1
+Item={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1},1
+Item=RandomCommonGem,{1 2}
+Item=RandomCommonGem,{1 2}
+
+
+[Template OniLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Daemonkin
+Description=Oni
+Item={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1},1
+Item={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1},1
+Item=RandomCommonGem,{1 2}
+Item=RandomCommonGem,{1 2}
+Item=RandomBonsaiSeed
+
+
+[Template ArcaneDaemonLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Daemonkin
+Description=Arcane Daemon
+Item={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1},1
+Item={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1},1
+Item=RandomCommonGem,{1 2}
+
+
+[Template ArcaneDaemonLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Daemonkin
+Description=Arcane Daemon
+Item={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1},1
+Item={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1},1
+Item=RandomCommonGem,{1 2}
+
+
+[Template MolochLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Daemonkin
+Description=Moloch
+Item=RandomCommonGem,{1 2}
+
+
+[Template ChaosDaemonLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Daemonkin
+Description=Chaos Daemon
+Item=RandomCommonGem,{1 2}
+
+
 [EOF]

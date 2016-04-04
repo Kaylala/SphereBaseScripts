@@ -541,6 +541,11 @@ On=@DeathCorpse
 NewLoot=PhoenixLoot
 
 
+/////////////
+// Ostards //
+/////////////
+
+
 [Events AIDesertOstard]
 
 
@@ -548,6 +553,68 @@ NewLoot=PhoenixLoot
 
 
 [Events AIFrenziedOstard]
+
+
+/////////////
+// Daemons //
+/////////////
+
+
+[Events AIDaemon]
+On=@DeathCorpse
+NewTMap=4
+NewLoot=DaemonLoot
+
+
+[Events AIBalron]
+On=@DeathCorpse
+NewTMap=5
+NewLoot=BalronLoot
+
+
+[Events AIIceFiend]
+On=@DeathCorpse
+NewTMap=4
+NewLoot=IceFiendLoot
+
+
+[Events AIOni]
+On=@NPCActFight
+// Angry Fire Attack
+// 50 - 85 Damage. 60 Physical, 20 Fire, 20 Energy
+// 1070823 CliLoc
+
+On=@DeathCorpse
+NewTMap=4
+NewLoot=OniLoot
+
+
+[Events AIArcaneDaemon]
+On=@DeathCorpse
+NewLoot=ArcaneDaemonLoot
+
+
+[Events AIChaosDaemon]
+On=@NPCActFight
+// Crushing blow
+// Dismount attack?
+
+On=@DeathCorpse
+NewLoot=ChaosDaemonLoot
+
+
+[Events AIArcaneDaemon]
+On=@DeathCorpse
+NewLoot=ArcaneDaemonLoot
+
+
+[Events AIMoloch]
+On=@NPCActFight
+// Whirlwind attack
+// Crushing blow
+
+On=@DeathCorpse
+NewLoot=MolochLoot
 
 
 [EOF]

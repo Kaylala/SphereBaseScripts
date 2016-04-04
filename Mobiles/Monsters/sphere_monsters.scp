@@ -19,19 +19,6 @@ ICON=i_pet_corpser
 SOUND=snd_monster_corpsr1
 
 
-[CHARDEF 09]
-DEFNAME=c_demon_summoned
-NAME=daemon
-ICON=i_pet_demon
-
-
-[CHARDEF 0a]
-DEFNAME=c_demon
-NAME=daemon
-ICON=i_pet_demon
-SOUND=snd_monster_daemon1
-
-
 [CHARDEF 0b]
 DEFNAME=c_spider_dread
 NAME=dread spider
@@ -52,9 +39,8 @@ ICON=i_pet_orc
 
 
 [CHARDEF 013]
-//"Malefic is a named Dread Spider from the Twisted Weald."
-DEFNAME=c_spider_malefic
-NAME=Malefic
+DEFNAME=cUmmmNoooo
+NAME=There is actually two dread spider types... sigh. Hate these packs.
 ICON=i_pet_spider_dread
 
 
@@ -134,24 +120,12 @@ NAME=white wolf
 ICON=i_pet_wolf_silver
 
 
-[CHARDEF 026]
-//FIXME: No Stratics data yet
-DEFNAME=c_demon_blackgate
-NAME=black gate daemon
-ICON=i_pet_demon_blackgate
-
 
 [CHARDEF 027]
 DEFNAME=c_mongbat
 NAME=subterranean mongbat
 ICON=i_pet_mongbat
 
-
-[CHARDEF 028]
-//elder demon
-DEFNAME=c_demon_balron
-NAME=balron
-ICON=i_pet_demon
 
 
 [CHARDEF 029]
@@ -1332,21 +1306,11 @@ NAME=rat
 ICON=i_pet_rat
 
 
-[CHARDEF 0ef]
-////No animation - no corpse - dont use
-NAME=0ef
-CAN=MT_NONMOVER|MT_NONHUM
-
 [CHARDEF 0f0]
 DEFNAME=c_kappa
 NAME=kappa
 ICON=i_pet_kappa
 
-
-[CHARDEF 0f1]
-DEFNAME=c_oni
-NAME=oni
-ICON=i_pet_oni
 
 
 [CHARDEF 0f2]
@@ -5847,50 +5811,7 @@ NAME=trapdoor spider
 ICON=i_pet_spider_trapdoor
 SOUND=snd_monster_spider_trapdoor
 CAN=MT_WALK|MT_RUN|MT_NONHUM
-DAM=15,18
-ARMOR=20
-DESIRES=r_caves,t_coin,t_gold,t_gem
-AVERSIONS=r_civilization
-FOODTYPE=t_meat_raw
-MAXFOOD=35
-RESOURCES=1 i_ribs_raw
-BLOODCOLOR=colors_blood
-MOVERATE=110
-TAG.Barding.Diff=78.6
-DamPoison=80
-TAG.OVERRIDE.SPIDERWEB=1
-TAG.SlayerGroup=SPIDER,ARACHNID
-TEVENTS=e_carnivores2
-CATEGORY=Monsters
-SUBSECTION=Spiders
-DESCRIPTION=Trapdoor Spider
-ON=@Create
-   NPC=brain_monster
-   FAME={3000 3499}
-   KARMA={-3000 -3499}
-   STR={100 115}
-   MAXHITS={125 145}
-   DEX={160 165}
-   MAXSTAM={160 165}
-   INT={25 50}
-   MAXMANA={25 50}
-   ANATOMY={5.0 10.0}
-   HIDING={90.0 100.0}
-   MAGICRESISTANCE={45.0 60.0}
-   //POISONING={70.0 75.0}
-   STEALTH={95.0 100.0}
-   TACTICS={70.0 80.0}
-   WRESTLING={90.0 95.0}
-   MODAR={0 10}
-   RESCOLD={30 35}
-   RESENERGY={90 100}
-   RESFIRE={30 35}
-   RESPOISON={40 45}
-ON=@NpcRestock
-   ITEM=loot_spider_trapdoor
-   //250 - 350 Gold. 8spider silk, 1 - 4magic items
-   //Special: bottle of ichor, spider carapace, tattered scroll. level 2 Treasure Map
-ON=@NPCSeeNewPlayer
+
    RETURN 0 // This needs fixing
    //Summon pack
    IF (<FLAGS> & statf_conjured) || (<FLAGS> & statf_pet)
@@ -5913,60 +5834,13 @@ ON=@NPCSeeNewPlayer
       NEW.ACTION stealth
       NEW.f_NPCRemovalTimer 1200
    ENDIF
-ON=@Death
-   IF (<FINDID.i_summon_mem>)
-      REF1=<FINDID.i_summon_mem.LINK.UID>
-      IF (<REF1.ID>==c_spider_trapdoor)
-         REF1.TAG0.CURFOLLOWER -= 1
-      ENDIF
-   ENDIF
 
 [CHARDEF 02e2]
 //FIXME: Incomplete Stratics data
 DEFNAME=c_fire_ant
 NAME=fire ant
 ICON=i_pet_fire_ant
-SOUND=snd_monster_tera_drone1
-CAN=MT_WALK|MT_RUN|MT_NONHUM
-DAM=15,18
-ARMOR=45
-DESIRES=r_mountains_volcanic,r_caves,t_coin,t_gold,t_gem
-AVERSIONS=r_civilization
-FOODTYPE=t_meat_raw
-MAXFOOD=25
-RESOURCES=1 i_ribs_raw
-BLOODCOLOR=colors_blood
-MOVERATE=100
-TAG.Barding.Diff=76.0
-TAG.SlayerGroup=BEETLE
-DamFire=60
-TEVENTS=e_carnivores2
-CATEGORY=Monsters
-SUBSECTION=Insects
-DESCRIPTION=Fire Ant
-ON=@Create
-   NPC=brain_monster
-   FAME={3000 3499}
-   KARMA={-3000 -3499}
-   STR={200 250}
-   MAXHITS={250 300}
-   DEX={100 120}
-   MAXSTAM={100 120}
-   INT={15 30}
-   MAXMANA={15 30}
-   ANATOMY={5.0 15.0}
-   MAGICRESISTANCE={45.0 60.0}
-   TACTICS={70.0 85.0}
-   WRESTLING={70.0 85.0}
-   MODAR={0 10}
-   RESCOLD={35 45}
-   RESENERGY={35 45}
-   RESFIRE={90 100}
-   RESPOISON={35 45}
-ON=@NpcRestock
-   ITEM=loot_fire_ant
-   //299 - 299 Gold.
-   //Special: Seared Fire Ant Goo, level 3 Treasure Map
+
 ON=@Death
    REF11=<UID>
    FORCHARS 4
@@ -5998,97 +5872,7 @@ ON=@Hit
 // * Special moves: Angry Fire, Mana Drain, Paralyze
 DEFNAME=c_slasher_of_veils
 NAME=Slasher of Veils
-ICON=i_pet_slasher_of_veils
-SOUND=snd_monster_slasherofveils
-CAN=MT_WALK|MT_RUN|MT_USEHANDS|MT_EQUIP
-DAM=10,15
-ARMOR=65
-DESIRES=r_dungeon_abyss,t_coin,t_gold,t_gem,t_wand,t_potion,t_scroll,t_reagent
-AVERSIONS=t_trap,r_civilization
-FOODTYPE=t_meat_raw
-MAXFOOD=65
-RESOURCES=4 i_ribs_raw
-BLOODCOLOR=colors_blood
-MOVERATE=100
-TAG.Barding.Diff=160.0
-DamCold=20
-DamEnergy=20
-DamFire=20
-DamPoison=20
-TAG.SlayerGroup=DEMON
-TEVENTS=e_carnivores3
-CATEGORY=Monsters
-SUBSECTION=Champions
-DESCRIPTION=Slasher of Veils
-ON=@Create
-   NPC=brain_monster
-   FAME={9000 9999}
-   KARMA={-9000 -9999}
-   STR={950 1150}
-   MAXHITS={290000 310000}
-   DEX={125 140}
-   MAXSTAM={125 140}
-   INT={950 1150}
-   MAXMANA={9900 10100}
-   ANATOMY={115.0 125.0}
-   ARCHERY={115.0 130.0}
-   BUSHIDO={75.0 100.0}
-   EVALUATINGINTEL={110.0 125.0}
-   FENCING={90.0 100.0}
-   MACEFIGHTING={90.0 100.0}
-   MAGERY={110.0 125.0}
-   MAGICRESISTANCE={115.0 130.0}
-   MEDITATION={115.0 130.0}
-   PARRYING={90.0 100.0}
-   SWORDSMANSHIP={90.0 100.0}
-   TACTICS={110.0 125.0}
-   WRESTLING={115.0 130.0}
-   MODAR={0 10}
-   RESCOLD={70 80}
-   RESENERGY={70 80}
-   RESFIRE={70 80}
-   RESPOISON={70 80}
-ON=@NPCRestock
-   ITEM=loot_slasher_of_veils
-   ITEM=loot_ai_hard
-ON=@NPCSeeNewPlayer
-   //Paralyze Attack
-   IF !(<SRC.FLAGS>&statf_freeze) && (<MANA> > 20)
-      MANA -= 20
-      SRC.SPELLEFFECT s_paralyze,<MAGERY>,1,<UID>
-      SRC.EFFECT 3,i_fx_field_paralyze,1,16,0,02
-      SRC.SOUND snd_spell_paralyze
-   ENDIF
-ON=@Hit
-   //Paralyze Attack
-   IF !(<R5>) && !(<SRC.FLAGS>&statf_freeze) && (<MANA> > 20)
-      MANA -= 20
-      SRC.SPELLEFFECT s_paralyze,<MAGERY>,1,<UID>
-      SRC.EFFECT 3,i_fx_field_paralyze,1,16,0,02
-      SRC.SOUND snd_spell_paralyze
-   ENDIF
-   //Angry Fire Attack
-   IF !(<R5>) && (<MANA> > 20)
-      MANA -= 20
-      SRC.SYSMESSAGELOC color_text,1070823//"The creature hits you with its Angry Fire."
-      SRC.SPELLEFFECT s_explosion,<MAGERY>,0,<UID>
-      SRC.EFFECT 3,i_fx_explode,1,16,0
-      SRC.SOUND snd_spell_explosion
-   ENDIF
-   //Mana Drain Attack
-   IF !(<R5>) && !(<SRC.FLAGS>&statf_freeze) && (<MANA> > 20)
-      MANA -= 20
-      SRC.SPELLEFFECT s_mana_drain,<MAGERY>,1,<UID>
-      SRC.EFFECT 3,i_fx_field_paralyze,1,16,0,02
-      SRC.SOUND snd_spell_paralyze
-   ENDIF
-   //Dismount Attack
-   IF !(<R5>) && (<MANA> >= 20) && (<SRC.FLAGS> & statf_onhorse)
-      MANA -= 20
-      SRC.DISMOUNT
-      SRC.EMOTE knocked off mount!
-      SRC.DAMAGE <R15,25> <DEF.dam_physical> <UID>
-   ENDIF
+
 
 [CHARDEF 02e6]
 //FIXME: Needs to be scripted
@@ -6293,26 +6077,6 @@ CATEGORY=Spells
 SUBSECTION=Necromancy
 DESCRIPTION=Vampiric Embrace
 
-[CHARDEF 02ec]
-DEFNAME=c_wraith_form
-NAME=wraith
-ICON=i_pet_ghoul
-SOUND=snd_monster_ghost1
-CAN=MT_WALK|MT_RUN|MT_USEHANDS|MT_EQUIP
-DAM=11,18
-ARMOR=25
-//DESIRES=
-//AVERSIONS=
-//FOODTYPE=
-//MAXFOOD=
-//RESOURCES=
-BLOODCOLOR=colors_green
-MOVERATE=100
-TAG.SlayerGroup=UNDEAD
-DamCold=50
-CATEGORY=Spells
-SUBSECTION=Necromancy
-DESCRIPTION=Wraith Form
 
 [CHARDEF 02ed]
 DEFNAME=c_lich_form
@@ -6337,154 +6101,24 @@ SUBSECTION=Necromancy
 DESCRIPTION=Lich Form
 
 [CHARDEF 02ee]
-//FIXME: Cannot be provoked.
-//FIXME: Cannot be peaced.
-DEFNAME=c_revenant_summoned
-NAME=summoned revenant
-ICON=i_pet_man
+Name=NOT A REVENANT. God RanXerox was an idiot.
 SOUND=snd_monster_ghost1
 CAN=MT_WALK|MT_RUN|MT_GHOST|MT_USEHANDS|MT_EQUIP//|MT_PASSWALLS
-DAM=42,45
-ARMOR=60
-//DESIRES=
-//AVERSIONS=
-//FOODTYPE=
-//MAXFOOD=
-//RESOURCES=
-BLOODCOLOR=-1
-MOVERATE=100
-TAG.Barding.Diff=10000//Immune to barding
-FollowerSlots=3
-TAG.SlayerGroup=UNDEAD
-CATEGORY=Spells
-SUBSECTION=Necromancy
-DESCRIPTION=Vengeful Spirit (Revenant)
-ON=@Create
-   COLOR=colors_black
-   NPC=brain_monster
-   KARMA={-1000 -1499}
-   FAME={1000 1499}
-   STR={195 205}
-   MAXHITS={195 205}
-   DEX={145 155}
-   MAXSTAM={145 155}
-   INT={145 155}
-   MAXMANA={145 155}
-   MAGICRESISTANCE={115.0 125.0}
-   SWORDSMANSHIP={95.0 105.0}
-   TACTICS={95.0 105.0}
-   MODAR={0 10}
-   RESCOLD={60 70}
-   RESENERGY={60 70}
-   RESFIRE={15 25}
-   RESPOISON=100
-ON=@NPCRestock
-   ITEMNEWBIE=i_deathshroud
-   COLOR=0497
-   ITEMNEWBIE=i_halberd
-   COLOR=0497
+
+
 
 [CHARDEF 02ef]
 //FIXME: Needs to be scripted (human female)
 NAME=02ef
 CAN=MT_NONMOVER|MT_NONHUM
 
-[CHARDEF 02f0]
-DEFNAME=c_iron_golem
-NAME=golem
-ICON=i_pet_golem_iron
-SOUND=snd_monster_daemon1
-CAN=MT_WALK|MT_USEHANDS
-DAM=31,64
-ARMOR=35
-DESIRES=r_caves,t_coin,t_gold,t_gem,t_potion
-AVERSIONS=t_trap,r_civilization
-FOODTYPE=t_ore
-MAXFOOD=45
-RESOURCES=3 i_ore_iron
-BLOODCOLOR=-1
-MOVERATE=100
-TAG.Barding.Diff=78.4
-FollowerSlots=4
-TEVENTS=e_carnivores
-CATEGORY=Monsters
-SUBSECTION=Mechanical
-DESCRIPTION=Iron Golem
-RESLEVEL=2
-RESDISPDNID=c_man
-RESDISPDNHUE=33
-ON=@Create
-   NPC=brain_monster
-   FAME={2500 2999}
-   KARMA={-2500 -2999}
-   STR={251 350}
-   MAXHITS={151 210}
-   DEX={76 100}
-   MAXSTAM={76 100}
-   INT={101 150}
-   MAXMANA={101 150}
-   MAGICRESISTANCE={150.0 190.0}
-   TACTICS={60.0 100.0}
-   WRESTLING={60.0 100.0}
-   MODAR={0 20}
-   RESCOLD={10 30}
-   RESENERGY={30 40}
-   RESFIRE=100
-   RESPOISON={10 25}
-ON=@NpcRestock
-   ITEM=loot_golem
-ON=@Hit
-   //Stunning Blow
-   IF !(<SRC.FLAGS>&statf_freeze) && (<MANA>>20)
-      MANA -= 20
-      SRC.SPELLEFFECT s_paralyze,100,1,<UID>
-      SRC.EFFECT 3,i_fx_field_paralyze,1,16,0,02
-      SRC.SOUND snd_spell_paralyze
-   ENDIF
-   //FIXME: Needs paralyzing blow
 
 [CHARDEF 02f1]
 //FIXME: Incomplete Stratics data
 DEFNAME=c_gargoyle_enslaved
 NAME=enslaved gargoyle
 ICON=i_pet_gargoyle_fire
-SOUND=snd_monster_gargyl1
-CAN=MT_WALK|MT_RUN|MT_FLY|MT_USEHANDS|MT_EQUIP
-DAM=18,35
-ARMOR=30
-DESIRES=r_caves,t_coin,t_gold,t_gem,t_potion
-AVERSIONS=t_trap,r_civilization,e_carnivores3
-FOODTYPE=t_meat_raw
-MAXFOOD=40
-RESOURCES=1 i_ribs_raw
-BLOODCOLOR=colors_blood
-MOVERATE=100
-TAG.Barding.Diff=70.8
-TAG.SlayerGroup=GARGOYLE,DEMON
-TEVENTS=e_carnivores2
-CATEGORY=Monsters
-SUBSECTION=Gargoyles
-DESCRIPTION=Gargoyle (enslaved)
-ON=@Create
-   NPC=brain_monster
-   FAME={2000 2499}
-   KARMA={-2000 -2499}
-   STR={302 360}
-   MAXHITS={186 212}
-   DEX={76 95}
-   MAXSTAM={76 95}
-   INT={81 105}
-   MAXMANA={81 105}
-   MAGICRESISTANCE={70.0 85.0}
-   TACTICS={50.0 70.0}
-   WRESTLING={40.0 80.0}
-   MODAR={0 10}
-   RESCOLD={15 25}
-   RESENERGY={25 30}
-   RESFIRE={50 70}
-   RESPOISON={25 30}
-ON=@NpcRestock
-   ITEM=loot_gargoyle_enslaved
+
 
 [CHARDEF 02f2]
 DEFNAME=c_gargoyle_enforcer
@@ -6492,109 +6126,13 @@ NAME=gargoyle enforcer
 ICON=i_pet_gargoyle_fire
 SOUND=snd_monster_gargyl1
 DAM=19,36
-ARMOR=40
-CAN=MT_WALK|MT_RUN|MT_FLY|MT_USEHANDS|MT_EQUIP
-DESIRES=r_dungeon,t_coin,t_gold,t_gem,t_wand,t_potion,t_scroll,t_reagent
-AVERSIONS=t_trap,r_civilization,e_carnivores3
-FOODTYPE=t_meat_raw
-MAXFOOD=45
-RESOURCES=1 i_ribs_raw
-BLOODCOLOR=colors_blood
-MOVERATE=100
-TAG.Barding.Diff=88.0
-DamEnergy=25
-DamFire=25
-TAG.SlayerGroup=GARGOYLE,DEMON
-TEVENTS=e_carnivores2
-CATEGORY=Monsters
-SUBSECTION=Gargoyles
-DESCRIPTION=Gargoyle (enforcer)
-ON=@Create
-   NPC=brain_monster
-   FAME={2000 2499}
-   KARMA={-2000 -2499}
-   STR={260 350}
-   MAXHITS={182 185}
-   DEX={76 95}
-   MAXSTAM={76 95}
-   INT={101 125}
-   MAXMANA={101 125}
-   ANATOMY={70.0 80.0}
-   EVALUATINGINTEL={70.0 100.0}
-   MAGERY={80.0 90.0}
-   MAGICRESISTANCE={120.0 130.0}
-   MEDITATION={70.0 100.0}
-   PARRYING={70.0 80.0}
-   SWORDSMANSHIP={80.0 90.0}
-   TACTICS={70.0 80.0}
-   WRESTLING={80.0 90.0}
-   MODAR={0 20}
-   RESCOLD={20 30}
-   RESENERGY={15 25}
-   RESFIRE={50 60}
-   RESPOISON={25 35}
-ON=@NpcRestock
-   ITEM=loot_gargoyle_enforcer
+
 
 [CHARDEF 02f3]
 DEFNAME=c_gargoyle_destroyer
 NAME=gargoyle destroyer
 ICON=i_pet_gargoyle_fire
-SOUND=snd_monster_gargyl1
-DAM=31,64
-ARMOR=40
-CAN=MT_WALK|MT_RUN|MT_FLY|MT_USEHANDS|MT_EQUIP
-DESIRES=r_dungeon,t_coin,t_gold,t_gem,t_wand,t_potion,t_scroll,t_reagent
-AVERSIONS=t_trap,r_civilization
-FOODTYPE=t_meat_raw
-MAXFOOD=55
-RESOURCES=1 i_ribs_raw
-BLOODCOLOR=colors_blood
-MOVERATE=100
-TAG.Barding.Diff=110.8
-TAG.SlayerGroup=GARGOYLE,DEMON
-TEVENTS=e_carnivores3
-CATEGORY=Monsters
-SUBSECTION=Gargoyles
-DESCRIPTION=Gargoyle (destroyer)
-RESLEVEL=2
-RESDISPDNID=c_man
-RESDISPDNHUE=0ad
-ON=@Create
-   NPC=brain_monster
-   FAME={5000 5999}
-   KARMA={-5000 -5999}
-   STR={760 850}
-   MAXHITS={482 485}
-   DEX={102 150}
-   MAXSTAM={102 150}
-   INT={152 200}
-   MAXMANA={152 200}
-   ANATOMY={50.0 100.0}
-   EVALUATINGINTEL={91.0 100.0}
-   MAGERY={91.0 100.0}
-   MAGICRESISTANCE={120.0 160.0}
-   MEDITATION={91.0 100.0}
-   PARRYING={90.0 100.0}
-   SWORDSMANSHIP={90.0 100.0}
-   TACTICS={90.0 100.0}
-   WRESTLING={90.0 100.0}
-   MODAR={0 20}
-   RESCOLD={15 25}
-   RESENERGY={15 25}
-   RESFIRE={60 70}
-   RESPOISON={15 25}
-ON=@NpcRestock
-   ITEM=loot_gargoyle_destroyer
-   ITEM=loot_ai_healer
-ON=@GetHit
-   //Thrown Weapon Attack (axe)
-   IF (<DISTANCE> > 2) && !(<R5>)
-      SRC.TARG.EFFECT 0,i_axe,2,1
-      IF !(<R3>)
-         SRC.DAMAGE <R25,35> <DEF.dam_physical> <UID>
-      ENDIF
-   ENDIF
+
 
 
 [CHARDEF 02f6]
@@ -6603,45 +6141,7 @@ NAME=unknown gargoyle
 ICON=i_pet_gargoyle_stone
 SOUND=snd_monster_gargyl1
 CAN=MT_WALK|MT_RUN|MT_FLY|MT_USEHANDS|MT_EQUIP
-ARMOR=40
-DAM=18,24
-DESIRES=r_civilization,t_coin,t_gold,t_gem,t_wand,t_potion,t_scroll,t_reagent
-AVERSIONS=t_trap,e_carnivores3
-FOODTYPE=t_meat_raw
-MAXFOOD=40
-RESOURCES=1 i_ribs_raw
-BLOODCOLOR=colors_blood
-MOVERATE=100
-TAG.Barding.Diff=118.3
-TAG.SlayerGroup=GARGOYLE,DEMON
-TEVENTS=e_carnivores2
-CATEGORY=Monsters
-SUBSECTION=Duplicates
-DESCRIPTION=Unknown Fire Gargoyle
-ON=@Create
-   NPC=brain_monster
-   FAME={1500 1999}
-   KARMA={-1500 -1999}
-   STR={100 150}
-   MAXHITS={200 250}
-   DEX={86 105}
-   MAXSTAM={86 105}
-   INT={226 250}
-   MAXMANA={226 250}
-   ANATOMY={75.0 85.0}
-   EVALUATINGINTEL={90.0 105.0}
-   MAGERY={90.0 105.0}
-   MAGICRESISTANCE={90.0 105.0}
-   MEDITATION={90.0 105.0}
-   TACTICS={80.0 100.0}
-   WRESTLING={40.0 80.0}
-   MODAR={0 15}
-   RESCOLD={5 10}
-   RESENERGY=0
-   RESFIRE={25 35}
-   RESPOISON={15 25}
-ON=@NpcRestock
-   ITEM=loot_gargoyle
+
 
    
 [CHARDEF 02fc]
@@ -6650,42 +6150,7 @@ NAME=juka warrior
 ICON=i_pet_juka_warrior
 //SOUND=snd_human_foomph09
 CAN=MT_WALK|MT_RUN|MT_USEHANDS|MT_EQUIP
-DAM=20,26
-ARMOR=40
-DESIRES=r_ruins,t_coin,t_gold,t_gem,t_potion
-AVERSIONS=t_trap,r_civilization,e_carnivores3
-FOODTYPE=t_meat_raw
-MAXFOOD=35
-RESOURCES=1 i_ribs_raw
-BLOODCOLOR=colors_blood
-MOVERATE=100
-TAG.Barding.Diff=85.6
-TAG.SlayerGroup=REPTILE
-TEVENTS=e_carnivores2
-CATEGORY=Monsters
-SUBSECTION=Juka
-DESCRIPTION=Juka Warrior
-ON=@Create
-   NPC=brain_monster
-   FAME={2000 2499}
-   KARMA={-2000 -2499}
-   STR={251 350}
-   MAXHITS={151 210}
-   DEX={61 80}
-   MAXSTAM={61 80}
-   INT={101 150}
-   MAXMANA={101 150}
-   ANATOMY={80.0 90.0}
-   MAGICRESISTANCE={120.0 130.0}
-   TACTICS={80.0 90.0}
-   WRESTLING={80.0 90.0}
-   MODAR={0 10}
-   RESCOLD={25 35}
-   RESENERGY={10 20}
-   RESFIRE={30 40}
-   RESPOISON={10 20}
-ON=@NpcRestock
-   ITEM=loot_juka_warrior
+
 
 [CHARDEF 02fd]
 //FIXME: Heals nearby Juka Lords
@@ -6694,45 +6159,7 @@ NAME=juka mage
 ICON=i_pet_juka_mage
 //SOUND=snd_human_foomph09
 CAN=MT_WALK|MT_RUN|MT_USEHANDS|MT_EQUIP
-DAM=11,27
-ARMOR=20
-DESIRES=r_ruins,t_coin,t_gold,t_gem,t_wand,t_potion,t_scroll,t_reagent
-AVERSIONS=t_trap,e_carnivores3
-FOODTYPE=t_meat_raw
-MAXFOOD=40
-RESOURCES=1 i_ribs_raw
-BLOODCOLOR=colors_blood
-MOVERATE=100
-TAG.Barding.Diff=96.3
-TAG.SlayerGroup=REPTILE,MAGE
-TEVENTS=e_carnivores2
-CATEGORY=Monsters
-SUBSECTION=Juka
-DESCRIPTION=Juka Mage
-ON=@Create
-   NPC=brain_monster
-   FAME={2000 2499}
-   KARMA={-2000 -2499}
-   STR={201 300}
-   MAXHITS={121 180}
-   DEX={71 90}
-   MAXSTAM={71 90}
-   INT={201 250}
-   MAXMANA={451 500}
-   ANATOMY={80.0 90.0}
-   EVALUATINGINTEL={80.0 100.0}
-   MAGERY={80.0 100.0}
-   MAGICRESISTANCE={140.0 150.0}
-   TACTICS={80.0 90.0}
-   WRESTLING={80.0 90.0}
-   MODAR={0 10}
-   RESCOLD={30 40}
-   RESENERGY={35 45}
-   RESFIRE={35 45}
-   RESPOISON={10 20}
-ON=@NpcRestock
-   ITEM=loot_juka_mage
-   ITEM=loot_ai_healer
+
 
 [CHARDEF 02fe]
 //FIXME: Needs healing and archery AI
@@ -6740,49 +6167,7 @@ DEFNAME=c_juka_lord
 NAME=Lord Kabur
 ICON=i_pet_juka_warrior
 //SOUND=snd_human_foomph09
-CAN=MT_WALK|MT_RUN|MT_USEHANDS|MT_EQUIP
-DAM=52,63
-ARMOR=40
-DESIRES=r_ruins,t_coin,t_gold,t_gem,t_potion
-AVERSIONS=t_trap,r_civilization,e_carnivores3
-FOODTYPE=t_meat_raw
-MAXFOOD=40
-RESOURCES=1 i_ribs_raw
-BLOODCOLOR=colors_blood
-MOVERATE=100
-TAG.Barding.Diff=89.0
-TAG.SlayerGroup=REPTILE
-TEVENTS=e_carnivores2
-CATEGORY=Monsters
-SUBSECTION=Juka
-DESCRIPTION=Juka Lord
-ON=@Create
-   NPC=brain_monster
-   FAME={3000 3499}
-   KARMA={-3000 -3499}
-   STR={401 500}
-   MAXHITS={241 300}
-   DEX={81 100}
-   MAXSTAM={81 100}
-   INT={151 200}
-   MAXMANA={151 200}
-   ANATOMY={90.0 100.0}
-   ARCHERY={90.0 100.0}
-   FENCING={90.0 100.0}
-   MACEFIGHTING={90.0 100.0}
-   MAGICRESISTANCE={120.0 130.0}
-   PARRYING={95.0 100.0}
-   SWORDSMANSHIP={90.0 100.0}
-   TACTICS={95.0 100.0}
-   WRESTLING={90.0 100.0}
-   MODAR={0 10}
-   RESCOLD={40 50}
-   RESENERGY={40 50}
-   RESFIRE={45 50}
-   RESPOISON={20 25}
-ON=@NpcRestock
-   ITEM=loot_juka_lord
-   ITEM=loot_ai_hard
+
 
 
 [CHARDEF 0302]
@@ -6794,102 +6179,14 @@ NAME=meer mage
 ICON=i_pet_meer_mage
 //SOUND=snd_human_foomph09
 CAN=MT_WALK|MT_RUN|MT_USEHANDS|MT_EQUIP
-DAM=51,55
-ARMOR=45
-DESIRES=r_jungle,t_coin,t_gold,t_gem,t_wand,t_potion,t_scroll,t_reagent
-AVERSIONS=t_trap,r_civilization,e_carnivores3
-FOODTYPE=t_meat_raw
-MAXFOOD=35
-RESOURCES=1 i_ribs_raw
-BLOODCOLOR=colors_blood
-MOVERATE=100
-TAG.Barding.Diff=86.6
-TAG.SlayerGroup=REPOND,MAGE
-TEVENTS=e_carnivores2
-CATEGORY=Monsters
-SUBSECTION=Meer
-DESCRIPTION=Meer Mage
-RESLEVEL=2
-RESDISPDNID=c_man
-RESDISPDNHUE=33
-ON=@Create
-   NPC=brain_monster
-   FAME={2500 2999}
-   KARMA={-2500 -2999}
-   STR={171 200}
-   MAXHITS={103 120}
-   DEX={126 145}
-   MAXSTAM={126 145}
-   INT={176 205}
-   MAXMANA={276 305}
-   ANATOMY={80.0 95.0}
-   EVALUATINGINTEL={95.0 105.0}
-   MAGERY={70.0 80.0}
-   MAGICRESISTANCE={80.0 100.0}
-   MEDITATION={85.0 95.0}
-   TACTICS={70.0 90.0}
-   WRESTLING={60.0 80.0}
-   MODAR={0 10}
-   RESCOLD={45 55}
-   RESENERGY={25 35}
-   RESFIRE={15 25}
-   RESPOISON={25 35}
-ON=@NpcRestock
-   ITEM=loot_meer_mage
+
 
 [CHARDEF 0303]
 DEFNAME=c_meer_warrior
 NAME=meer warrior
 ICON=i_pet_meer_warrior
 //SOUND=snd_human_foomph09
-CAN=MT_WALK|MT_RUN|MT_USEHANDS|MT_EQUIP
-DAM=22,34
-ARMOR=35
-DESIRES=r_jungle,t_coin,t_gold,t_gem,t_potion
-AVERSIONS=t_trap,r_civilization,e_carnivores3
-FOODTYPE=t_meat_raw
-MAXFOOD=35
-RESOURCES=1 i_ribs_raw
-BLOODCOLOR=colors_blood
-MOVERATE=150
-TAG.Barding.Diff=65.9
-TAG.SlayerGroup=REPOND
-TEVENTS=e_carnivores2
-CATEGORY=Monsters
-SUBSECTION=Meer
-DESCRIPTION=Meer Warrior
-RESLEVEL=2
-RESDISPDNID=c_man
-RESDISPDNHUE=33
-ON=@Create
-   NPC=brain_monster
-   FAME={2000 2499}
-   KARMA={-2000 -2499}
-   STR={86 100}
-   MAXHITS={52 60}
-   DEX={186 200}
-   MAXSTAM={186 200}
-   INT={86 100}
-   MAXMANA={86 100}
-   ANATOMY={60.0 75.0}
-   MAGICRESISTANCE={91.0 100.0}
-   TACTICS={91.0 100.0}
-   WRESTLING={91.0 100.0}
-   MODAR={0 10}
-   RESCOLD={30 40}
-   RESENERGY={25 35}
-   RESFIRE={5 15}
-   RESPOISON={25 35}
-ON=@NpcRestock
-   ITEM=loot_meer_warrior
-ON=@GetHit
-   //Thrown Weapon Attack (daggers)
-   IF (<DISTANCE> > 2) && !(<R5>)
-      SRC.TARG.EFFECT 0,i_dagger,2,1
-      IF !(<R5>)
-         SRC.DAMAGE <R15,25> <DEF.dam_physical> <UID>
-      ENDIF
-   ENDIF
+
 
 [CHARDEF 0304]
 //FIXME: Resurrects dead Meer.
@@ -6897,66 +6194,7 @@ DEFNAME=c_meer_eternal
 NAME=Adranath
 ICON=i_pet_adranath
 //SOUND=snd_human_foomph09
-CAN=MT_WALK|MT_RUN|MT_USEHANDS|MT_EQUIP
-DAM=31,39
-ARMOR=45
-DESIRES=r_jungle,t_coin,t_gold,t_gem,t_wand,t_potion,t_scroll,t_reagent
-AVERSIONS=t_trap,r_civilization,e_carnivores3
-FOODTYPE=t_meat_raw
-MAXFOOD=35
-RESOURCES=1 i_ribs_raw
-BLOODCOLOR=colors_blood
-MOVERATE=120
-TAG.Barding.Diff=109.4
-HitLeechLife=50
-TAG.SlayerGroup=REPOND
-TEVENTS=e_carnivores2
-CATEGORY=Monsters
-SUBSECTION=Meer
-DESCRIPTION=Meer Eternal
-RESLEVEL=2
-RESDISPDNID=c_man
-RESDISPDNHUE=33
-ON=@Create
-   NPC=brain_monster
-   FAME={3000 3999}
-   KARMA={-3000 -3999}
-   STR={416 505}
-   MAXHITS={250 303}
-   DEX={146 165}
-   MAXSTAM={146 165}
-   INT={156 205}
-   MAXMANA={566 655}
-   ANATOMY={90.0 105.0}
-   EVALUATINGINTEL={90.0 100.0}
-   MAGERY={90.0 100.0}
-   MAGICRESISTANCE={150.0 200.0}
-   MEDITATION={90.0 100.0}
-   TACTICS={50.0 70.0}
-   WRESTLING={60.0 80.0}
-   MODAR={0 10}
-   RESCOLD={1 10}
-   RESENERGY={20 30}
-   RESFIRE={1 10}
-   RESPOISON={10 20}
-ON=@NpcRestock
-   ITEM=loot_meer_eternal
-ON=@GetHit
-   //Life Drain Aura Attack
-   IF !(<R3>)
-      REF11=<UID>
-      FORCHARS 3
-         IF (<ISPLAYER>) || (<FLAGS>&statf_pet)
-            LOCAL.DAM=<R10,20>
-            DAMAGE <LOCAL.DAM> <DEF.dam_physical> <REF11>
-            REF11.HITS += <LOCAL.DAM>
-            IF (<REF11.HITS> > <REF11.MAXHITS>)
-               REF11.HITS=<REF11.MAXHITS>
-            ENDIF
-            SRC.SYSMESSAGE The powerful aura of the Meer drains life from you
-         ENDIF
-      END
-   ENDIF
+
 
 [CHARDEF 0305]
 //FIXME: Casts Spell Reflection on itself.
@@ -6965,48 +6203,7 @@ DEFNAME=c_meer_captain
 NAME=Captain Dasha
 ICON=i_pet_dasha
 //SOUND=snd_human_foomph09
-CAN=MT_WALK|MT_RUN|MT_USEHANDS|MT_EQUIP
-DAM=34,39
-ARMOR=45
-DESIRES=r_jungle,t_coin,t_gold,t_gem,t_wand,t_potion,t_scroll,t_reagent
-AVERSIONS=t_trap,r_civilization,e_carnivores3
-FOODTYPE=t_meat_raw
-MAXFOOD=35
-RESOURCES=1 i_ribs_raw
-BLOODCOLOR=colors_blood
-MOVERATE=120
-TAG.Barding.Diff=77.5
-TEVENTS=e_carnivores2
-CATEGORY=Monsters
-SUBSECTION=Meer
-DESCRIPTION=Meer Captain
-RESLEVEL=2
-RESDISPDNID=c_man
-RESDISPDNHUE=33
-ON=@Create
-   NPC=brain_monster
-   FAME={1000 1499}
-   KARMA={-1000 -1499}
-   STR={96 100}
-   MAXHITS={58 66}
-   DEX={186 200}
-   MAXSTAM={186 200}
-   INT={86 100}
-   MAXMANA={86 100}
-   ANATOMY={25.0 35.0}
-   ARCHERY={80.0 90.0}
-   MAGICRESISTANCE={90.0 100.0}
-   TACTICS={90.0 100.0}
-   SWORDSMANSHIP={80.0 90.0}
-   WRESTLING={80.0 90.0}
-   MODAR={0 10}
-   RESCOLD={40 50}
-   RESENERGY={35 45}
-   RESFIRE={10 20}
-   RESPOISON={35 45}
-ON=@NpcRestock
-   ITEM=loot_meer_captain
-   ITEM=loot_ai_archer
+
 
 [CHARDEF 0306]
 //FIXME: No Stratics entry
@@ -7014,55 +6211,7 @@ DEFNAME=c_dawn
 NAME=Dawn
 ICON=i_pet_dawn
 //SOUND=
-CAN=MT_WALK|MT_RUN|MT_USEHANDS|MT_EQUIP
-DAM=50,60
-ARMOR=50
-DESIRES=t_coin,t_gold,t_gem,t_wand,t_potion,t_scroll,t_reagent
-AVERSIONS=t_trap,r_civilization,e_carnivores3
-FOODTYPE=t_food
-MAXFOOD=35
-RESOURCES=1 i_ribs_raw
-BLOODCOLOR=colors_blood
-MOVERATE=150
-TAG.Barding.Diff=10000//Immune to barding
-DamCold=10
-DamEnergy=10
-DamFire=10
-DamPoison=10
-TEVENTS=e_carnivores2
-CATEGORY=Monsters
-SUBSECTION=Champions
-DESCRIPTION=Dawn
-ON=@Create
-   NPC=brain_monster
-   FAME={8000 8999}
-   KARMA={-8000 -8999}
-   STR={750 900}
-   MAXHITS={4000 5000}
-   DEX={265 290}
-   MAXSTAM={265 290}
-   INT={995 1190}
-   MAXMANA={995 1190}
-   ANATOMY={90.0 100.0}
-   ARCHERY={60.0 80.0}
-   EVALUATINGINTEL={70.0 80.0}
-   FENCING={110.0 120.0}
-   MACEFIGHTING={110.0 120.0}
-   MAGERY={110.0 120.0}
-   MAGICRESISTANCE={100.0 125.0}
-   MEDITATION={75.0 100.0}
-   PARRYING={100.0 125.0}
-   //POISONING={100.0 125.0}
-   SWORDSMANSHIP={100.0 125.0}
-   TACTICS={100.0 125.0}
-   MODAR={0 10}
-   RESCOLD={50 60}
-   RESENERGY={40 50}
-   RESFIRE={30 40}
-   RESPOISON=100
-ON=@NPCRestock
-   ITEM=loot_dawn
-   ITEM=loot_ai_hard
+
 
 [CHARDEF 0307]
 // Localization: 1053032-1053036
@@ -7070,392 +6219,40 @@ DEFNAME=c_plague_beast
 NAME=plague beast
 ICON=i_pet_plaguebeast
 SOUND=snd_monster_slime1
-CAN=MT_WALK|MT_NONHUM
-DAM=56,75
-ARMOR=45
-DESIRES=r_swamp,t_coin,t_gold,t_gem
-AVERSIONS=r_civilization,e_carnivores3
-FOODTYPE=t_meat_raw
-MAXFOOD=45
-RESOURCES=1 i_reag_pig_iron
-BLOODCOLOR=colors_blue
-MOVERATE=100
-TAG.Barding.Diff=81.5
-DamPoison=40
-TAG.HitPoison=5//Deadly
-TEVENTS=e_carnivores2
-TEVENTS=e_poisoned_spit
-CATEGORY=Monsters
-SUBSECTION=Miscellaneous
-DESCRIPTION=Plague Beast
-RESLEVEL=2
-RESDISPDNID=c_slime
-RESDISPDNHUE=0ad
-ON=@Create
-   NPC=brain_monster
-   FAME={3000 3499}
-   KARMA={-3000 -3499}
-   STR={302 500}
-   MAXHITS={318 404}
-   DEX={80 90}
-   MAXSTAM={80 90}
-   INT={15 20}
-   MAXMANA={15 20}
-   MAGICRESISTANCE={35.0 45.0}
-   //POISONING={100.0 120.0}
-   TACTICS={100.0 110.0}
-   WRESTLING={100.0 110.0}
-   MODAR={0 10}
-   RESCOLD={25 35}
-   RESENERGY={25 35}
-   RESFIRE={40 50}
-   RESPOISON={65 75}
-   TAG.CorpsesConsumed=0
-ON=@Death
-   IF (<TAG.CorpsesConsumed> > 50)
-      ITEM=random_magic_custom_lesser
-   ENDIF
-ON=@NpcRestock
-   ITEM=loot_plague_beast
-ON=@Hit
-   IF !(<R20>)
-      SERV.NEWITEM random_body_parts_1
-      NEW.P=<P>
-      NEW.MOVE {-2 2} {-2 2}
-      NEW.ATTR=attr_move_never|attr_decay
-      NEW.TIMER=60
-   ENDIF
-ON=@ItemStep
-   IF (<ACT.TYPE>==t_corpse)
-      IF !(<ACT.TAG0.PlagueEaten>)
-         MAXHITS += 200
-         HITS += 200
-         TAG.CorpsesConsumed += 1
-         ACT.TAG.PlagueEaten = 1
-         EMOTE eat a corpse
-      ENDIF
-   ENDIF
-ON=@GetHit
-   //Spawn Creatures Attack (plague spawn)
-   IF ( (<DISTANCE>==1) && !(<R5>) )
-      SERV.NEWNPC c_plague_spawn
-      NEW.P=<P>
-      NEW.HOME=<SRC.P>
-      NEW.HOMEDIST=10
-      NEW.ATTACK <SRC>
-      NEW.f_NPCRemovalTimer 1200
-   ENDIF
+
 
 [CHARDEF 0308]
 DEFNAME=c_demon_horde_minion
 NAME=horde minion
 ICON=i_pet_demon_horde
 SOUND=snd_monster_headls1
-CAN=MT_WALK|MT_RUN|MT_USEHANDS
-DAM=6,11
-ARMOR=15
-DESIRES=r_forests,t_coin,t_gold,t_potion
-AVERSIONS=r_civilization,e_carnivores2,e_carnivores3
-FOODTYPE=t_meat_raw
-MAXFOOD=20
-RESOURCES=1 i_reag_daemon_bone
-BLOODCOLOR=colors_blood
-MOVERATE=100
-TAG.Barding.Diff=27.3
-TAG.SlayerGroup=DEMON,VERMIN
-TEVENTS=e_carnivores
-CATEGORY=Monsters
-SUBSECTION=Demons
-DESCRIPTION=Horde Minion (small)
-RESLEVEL=2
-RESDISPDNID=c_man
-RESDISPDNHUE=33
-ON=@Create
-   NPC=brain_monster
-   FAME={500 999}
-   KARMA={-800 -999}
-   STR={16 40}
-   MAXHITS={10 24}
-   DEX={31 60}
-   MAXSTAM={31 60}
-   INT={11 25}
-   MAXMANA={11 25}
-   MAGICRESISTANCE={5.0 15.0}
-   TACTICS={0.0 15.0}
-   WRESTLING={25.0 40.0}
-   MODAR={0 5}
-   RESCOLD=0
-   RESENERGY=0
-   RESFIRE={5 10}
-   RESPOISON=0
-ON=@NpcRestock
-   ITEM=loot_horde_minion
+
 
 [CHARDEF 0309]
 DEFNAME=c_doppleganger
 NAME=doppleganger
 ICON=i_pet_doppleganger
 SOUND=snd_monster_gazer1
-CAN=MT_WALK|MT_USEHANDS|MT_EQUIP
-DAM=14,22
-ARMOR=50
-DESIRES=r_caves,t_coin,t_gold,t_gem,t_potion
-AVERSIONS=t_trap,r_civilization,e_carnivores3
-FOODTYPE=t_meat_raw
-MAXFOOD=30
-RESOURCES=1 i_reag_blood_spawn
-BLOODCOLOR=colors_black
-MOVERATE=100
-TAG.Barding.Diff=65.1
-TEVENTS=e_carnivores2
-CATEGORY=Monsters
-SUBSECTION=Miscellaneous
-DESCRIPTION=Doppleganger
-RESLEVEL=2
-RESDISPDNID=c_zombie
-RESDISPDNHUE=33
-ON=@Create
-   NPC=brain_monster
-   FAME={1000 1499}
-   KARMA={-1000 -1499}
-   STR={81 110}
-   MAXHITS={100 120}
-   DEX={56 75}
-   MAXSTAM={56 75}
-   INT={81 105}
-   MAXMANA={81 105}
-   ANATOMY={20.0 30.0}
-   MAGICRESISTANCE={75.0 85.0}
-   TACTICS={70.0 80.0}
-   WRESTLING={80.0 90.0}
-   MODAR={0 10}
-   RESCOLD={40 50}
-   RESENERGY={30 40}
-   RESFIRE={10 20}
-   RESPOISON={50 60}
-ON=@NpcRestock
-   ITEM=loot_doppleganger
+
 
 [CHARDEF 030b]
 DEFNAME=c_bogling
 NAME=bogling
 ICON=i_pet_bogling
 SOUND=snd_monster_headls1
-CAN=MT_WALK|MT_RUN|MT_USEHANDS|MT_EQUIP
-DAM=8,12
-ARMOR=20
-DESIRES=r_swamp,t_coin,t_gold,t_gem,t_potion
-AVERSIONS=r_civilization,e_carnivores2,e_carnivores3
-FOODTYPE=t_meat_raw
-MAXFOOD=35
-RESOURCES=1 i_ribs_raw,6 i_hide
-BLOODCOLOR=colors_green
-MOVERATE=100
-TAG.Barding.Diff=61.5
-TAG.SlayerGroup=VERMIN
-TEVENTS=e_carnivores
-CATEGORY=Monsters
-SUBSECTION=Miscellaneous
-DESCRIPTION=Bogling
-RESLEVEL=2
-RESDISPDNID=c_man
-RESDISPDNHUE=0ad
-ON=@Create
-   NPC=brain_monster
-   FAME={1000 1499}
-   KARMA={-1000 -1499}
-   STR={96 120}
-   MAXHITS={58 72}
-   DEX={91 115}
-   MAXSTAM={91 115}
-   INT={21 45}
-   MAXMANA={21 45}
-   MAGICRESISTANCE={75.0 100.0}
-   TACTICS={55.0 80.0}
-   WRESTLING={55.0 75.0}
-   MODAR={0 5}
-   RESCOLD={15 25}
-   RESENERGY={15 25}
-   RESFIRE={10 20}
-   RESPOISON={15 25}
-ON=@NpcRestock
-   ITEM=loot_bogling
+
 
 [CHARDEF 030c]
 DEFNAME=c_bog_thing
 NAME=bog thing
 ICON=i_pet_bogthing
-SOUND=snd_monster_corpsr1
-CAN=MT_WALK|MT_USEHANDS|MT_NONHUM
-DAM=40,95
-ARMOR=30
-DESIRES=r_swamp,t_coin,t_gold,t_gem,t_potion
-AVERSIONS=t_trap,r_civilization
-FOODTYPE=t_meat_raw
-MAXFOOD=75
-RESOURCES=3 i_reag_fertile_dirt
-BLOODCOLOR=colors_green
-MOVERATE=100
-TAG.Barding.Diff=86.1
-DamPoison=40
-TEVENTS=e_carnivores3
-CATEGORY=Monsters
-SUBSECTION=Miscellaneous
-DESCRIPTION=Bog Thing
-RESLEVEL=2
-RESDISPDNID=c_man
-RESDISPDNHUE=0ad
-ON=@Create
-   NPC=brain_monster
-   FAME={5000 5499}
-   KARMA={-5000 -5499}
-   STR={801 900}
-   MAXHITS={481 540}
-   DEX={46 65}
-   MAXSTAM={180 215}
-   INT={36 50}
-   MAXMANA={36 50}
-   MAGICRESISTANCE={90.0 95.0}
-   //POISONING={105.0 110.0}
-   TACTICS={70.1 85.0}
-   WRESTLING={65.0 80.0}
-   MODAR={0 10}
-   RESCOLD={10 15}
-   RESENERGY={20 25}
-   RESFIRE={20 25}
-   RESPOISON={40 50}
-ON=@NpcRestock
-   ITEM=loot_bog_thing
-ON=@GetHit
-   //Spawn Creatures Attack (bogling)
-   IF !(<R10>)
-      SERV.NEWNPC c_bogling
-      NEW.P=<P>
-      NEW.HOME=<SRC.P>
-      NEW.HOMEDIST=7
-      NEW.ATTACK <SRC>
-      NEW.f_NPCRemovalTimer 1200
-   ENDIF
-   //Eats boglings when badly hurt
-   IF !(<R10>) && (<HITS> < 100)
-      REF11=<UID>
-      FORCHARS 2
-         IF (<ID>==c_bogling)
-            REF11.EMOTE eat a bogling
-            REF11.HITS += <HITS>
-            REMOVE
-         ENDIF
-      END
-   ENDIF
 
-[CHARDEF 0310]
-DEFNAME=c_demon_arcane
-NAME=arcane demon
-ICON=i_pet_demon_arcane
-SOUND=snd_monster_dragon1
-CAN=MT_WALK|MT_RUN|MT_USEHANDS|MT_EQUIP
-DAM=23,31
-ARMOR=50
-DESIRES=r_dungeon,t_coin,t_gold,t_gem,t_wand,t_potion,t_scroll,t_reagent
-AVERSIONS=t_trap,r_civilization,e_carnivores3
-FOODTYPE=t_meat_raw
-MAXFOOD=55
-RESOURCES=1 i_reag_blood_vial
-BLOODCOLOR=colors_blood
-MOVERATE=110
-TAG.Barding.Diff=88.0
-DamFire=20
-TAG.SlayerGroup=DEMON
-TEVENTS=e_carnivores2
-CATEGORY=Monsters
-SUBSECTION=Demons
-DESCRIPTION=Arcane Demon
-ON=@Create
-   NPC=brain_monster
-   FAME={1500 1999}
-   KARMA={-1500 -1999}
-   STR={131 150}
-   MAXHITS={101 115}
-   DEX={126 145}
-   MAXSTAM={126 145}
-   INT={101 150}
-   MAXMANA={301 350}
-   ANATOMY={20.0 25.0}
-   EVALUATINGINTEL={70.0 80.0}
-   MAGERY={80.0 90.0}
-   MAGICRESISTANCE={85.0 95.0}
-   MEDITATION={70.0 80.0}
-   PARRYING={70.0 80.0}
-   TACTICS={70.0 80.0}
-   WRESTLING={60.0 80.0}
-   MODAR={0 10}
-   RESCOLD={10 20}
-   RESENERGY={30 40}
-   RESFIRE={70 80}
-   RESPOISON={50 60}
-ON=@NpcRestock
-   ITEM=loot_demon_arcane
 
-[CHARDEF 0311]
-DEFNAME=c_demon_moloch
-NAME=moloch
-ICON=i_pet_demon_moloch
-SOUND=snd_monster_daemon1
-CAN=MT_WALK|MT_RUN|MT_USEHANDS|MT_EQUIP
-DAM=41,61
-ARMOR=60
-DESIRES=r_dungeon,t_coin,t_gold,t_gem,t_potion
-AVERSIONS=t_trap,r_civilization,e_carnivores3
-FOODTYPE=t_meat_raw
-MAXFOOD=55
-RESOURCES=1 i_reag_blood_vial
-BLOODCOLOR=colors_blood
-MOVERATE=100
-TAG.Barding.Diff=72.5
-TAG.SlayerGroup=DEMON
-TEVENTS=e_carnivores2
-CATEGORY=Monsters
-SUBSECTION=Demons
-DESCRIPTION=Moloch Demon
-ON=@Create
-   NPC=brain_monster
-   FAME={2500 2999}
-   KARMA={-2500 -2999}
-   STR={331 360}
-   MAXHITS={171 200}
-   DEX={66 85}
-   MAXSTAM={66 85}
-   INT={41 64}
-   MAXMANA={41 64}
-   ANATOMY={15.0 20.0}
-   MAGICRESISTANCE={65.0 75.0}
-   PARRYING={75.0 90.0}
-   TACTICS={75.0 90.0}
-   WRESTLING={70.0 90.0}
-   MODAR={0 10}
-   RESCOLD={40 50}
-   RESENERGY={20 30}
-   RESFIRE={60 70}
-   RESPOISON={20 30}
-ON=@NpcRestock
-   ITEM=loot_demon_moloch
-ON=@Hit
-   //Whirlwind Attack
-   IF (<MANA> >= 15)
-      MANA -= 15
-      REF11=<UID>
-      FORCHARS 2
-         FORCHARMEMORYTYPE MEMORY_FIGHT
-            IF (<LINK>==<REF11>) && !(<SRC>==<CONT.UID>) && (<CONT.ISPLAYER>)
-               CONT.DAMAGE <ARGN1>/2 <ARGN2> <REF11>
-            ENDIF
-         ENDFOR
-      ENDFOR
-   ENDIF
+
 
 [CHARDEF 0312]
 //partial animation - dont use
-NAME=unknown spider 0312
+NAME=Old Chariot
 CAN=MT_NONMOVER|MT_NONHUM
 
 [CHARDEF 0313]
@@ -7535,96 +6332,14 @@ DEFNAME=c_sphynx
 NAME=sphynx
 ICON=i_pet_sphynx
 SOUND=snd_elementl_watrel1
-CAN=MT_WALK|MT_RUN|MT_NONHUM
-DAM=51,80
-ARMOR=60
-DESIRES=r_desert,t_coin,t_gold,t_gem,t_wand,t_potion,t_scroll,t_reagent
-AVERSIONS=t_trap,r_civilization
-FOODTYPE=t_meat_raw
-MAXFOOD=60
-RESOURCES=3 i_ribs_raw,10 i_hide
-BLOODCOLOR=colors_blood
-MOVERATE=130
-TAG.Barding.Diff=135.3
-TAG.SlayerGroup=MAGE
-DamEnergy=15
-TEVENTS=e_carnivores3
-CATEGORY=Monsters
-SUBSECTION=Miscellaneous
-DESCRIPTION=Sphynx
-RESLEVEL=2
-RESDISPDNID=c_man
-RESDISPDNHUE=33
-ON=@Create
-   NPC=brain_monster
-   FAME={6000 6999}
-   KARMA={-6000 -6999}
-   STR={1001 1200}
-   MAXHITS={1001 1200}
-   DEX={176 195}
-   MAXSTAM={176 195}
-   INT={301 400}
-   MAXMANA={301 400}
-   ANATOMY={25.0 50.0}
-   EVALUATINGINTEL={90.0 100.0}
-   MAGERY={95.0 100.0}
-   MAGICRESISTANCE={100.0 150.0}
-   MEDITATION={95.0 120.0}
-   TACTICS={90.0 100.0}
-   WRESTLING={90.0 100.0}
-   MODAR={0 20}
-   RESCOLD={40 60}
-   RESENERGY={40 50}
-   RESFIRE={30 50}
-   RESPOISON={40 50}
-ON=@NpcRestock
-   ITEM=loot_sphynx
+
 
 [CHARDEF 0315]
 DEFNAME=c_quagmire
 NAME=quagmire
 ICON=i_pet_quagmire
 SOUND=snd_monster_slime1
-CAN=MT_WALK|MT_NONHUM
-DAM=17,24
-ARMOR=50
-DESIRES=r_swamp,t_coin,t_gold,t_gem
-AVERSIONS=r_civilization,e_carnivores2,e_carnivores3
-FOODTYPE=t_meat_raw
-MAXFOOD=40
-RESOURCES=4 i_reag_ginseng
-BLOODCOLOR=colors_green
-MOVERATE=100
-TAG.Barding.Diff=71.0
-DamPoison=40
-TEVENTS=e_carnivores2
-CATEGORY=Monsters
-SUBSECTION=Miscellaneous
-DESCRIPTION=Quagmire
-RESLEVEL=2
-RESDISPDNID=c_corpser
-RESDISPDNHUE=0ad
-ON=@Create
-   NPC=brain_monster
-   FAME={1500 1999}
-   KARMA={-1500 -1999}
-   STR={101 130}
-   MAXHITS={91 105}
-   DEX={66 85}
-   MAXSTAM={66 85}
-   INT={31 55}
-   MAXMANA={31 55}
-   MAGICRESISTANCE={65.0 75.0}
-   //POISONING={40.0 60.0}
-   TACTICS={50.0 60.0}
-   WRESTLING={60.0 80.0}
-   MODAR={0 10}
-   RESCOLD={10 20}
-   RESENERGY={20 30}
-   RESFIRE={10 20}
-   RESPOISON=100
-ON=@NpcRestock
-   ITEM=loot_quagmire
+
 
 
 [CHARDEF 0317]
@@ -7634,201 +6349,21 @@ DEFNAME=c_giant_beetle
 NAME=giant beetle
 ICON=i_pet_beetle_giant
 SOUND=snd_monster_rune_beetle
-CAN=MT_WALK|MT_RUN|MT_NONHUM
-DAM=18,51
-ARMOR=30
-DESIRES=r_caves,t_coin,t_gold,t_gem,t_ore,t_ingot
-AVERSIONS=r_civilization,e_carnivores3
-FOODTYPE=t_meat_raw
-MAXFOOD=40
-RESOURCES=4 i_reag_obsidian
-BLOODCOLOR=colors_blood
-MOVERATE=100
-TAG.Barding.Diff=88.1
-FollowerSlots=3
-TAG.SlayerGroup=BEETLE
-TEVENTS=e_horses
-TEVENTS=e_carnivores2
-CATEGORY=Mounts
-SUBSECTION=Wild
-DESCRIPTION=Giant Beetle
-RESLEVEL=2
-RESDISPDNID=c_horse_gray
-RESDISPDNHUE=080c9
-ON=@Create
-   //FINDLAYER.21.TAG.OVERRIDE.MAXWEIGHT=1600
-   NPC=brain_animal
-   KARMA={-2000 -2499}
-   FAME={2000 2499}
-   STR={295 305}
-   MAXHITS={195 205}
-   DEX={95 105}
-   MAXSTAM={95 105}
-   INT={95 105}
-   MAXMANA={95 105}
-   MAGICRESISTANCE={75.0 85.0}
-   TACTICS={95.0 105.0}
-   TAMING={25.0 30.0}
-   WRESTLING={95.0 105.0}
-   MODAR={0 10}
-   RESCOLD={20 30}
-   RESENERGY={20 30}
-   RESFIRE={20 30}
-   RESPOISON={20 30}
-ON=@NPCRestock
-   ITEM=i_ore_iron,{3 6}
 
-[CHARDEF 0318]
-DEFNAME=c_demon_chaos
-NAME=chaos demon
-ICON=i_pet_demon_chaos
-SOUND=snd_monster_daemon1
-CAN=MT_WALK|MT_RUN|MT_USEHANDS
-DAM=22,32
-ANIM=0ffff
-ARMOR=50
-DESIRES=r_dungeon,t_coin,t_gold,t_gem,t_potion
-AVERSIONS=t_trap,r_civilization,e_carnivores3
-FOODTYPE=t_meat_raw
-MAXFOOD=50
-RESOURCES=1 i_ribs_raw,1 i_reag_blood_vial
-BLOODCOLOR=colors_blood
-MOVERATE=130
-TAG.Barding.Diff=71.5
-DamFire=15
-TAG.SlayerGroup=DEMON
-TEVENTS=e_carnivores2
-CATEGORY=Monsters
-SUBSECTION=Demons
-DESCRIPTION=Chaos Demon
-ON=@Create
-   NPC=brain_monster
-   FAME={2500 2999}
-   KARMA={-2500 -2999}
-   STR={106 130}
-   MAXHITS={91 110}
-   DEX={170 200}
-   MAXSTAM={170 200}
-   INT={56 80}
-   MAXMANA={56 80}
-   ANATOMY={25.0 35.0}
-   MAGICRESISTANCE={85.0 95.0}
-   TACTICS={70.0 80.0}
-   WRESTLING={95.0 100.0}
-   MODAR={0 10}
-   RESCOLD={40 50}
-   RESENERGY={20 30}
-   RESFIRE={60 70}
-   RESPOISON={20 30}
-ON=@NPCRestock
-   ITEM=loot_demon_chaos
-ON=@Hit
-   //Dismount Attack
-   IF (<MANA> >= 20) && (<SRC.FLAGS> & statf_onhorse)
-      MANA -= 20
-      SRC.DISMOUNT
-      SRC.EMOTE knocked off mount!
-      SRC.DAMAGE <R15,25> <DEF.dam_physical> <UID>
-   ENDIF
+
 
 [CHARDEF 031a]
 DEFNAME=c_swamp_dragon
 NAME=swamp dragon
 ICON=i_pet_dragon_swamp
-SOUND=snd_monster_dragon1
-CAN=MT_WALK|MT_RUN|MT_NONHUM
-DAM=7,9
-ARMOR=35
-DESIRES=r_swamp,t_coin,t_gold,t_gem
-AVERSIONS=r_civilization,e_carnivores3
-FOODTYPE=t_meat_raw
-MAXFOOD=55
-RESOURCES=19 i_ribs_raw,20 i_hide,5 i_dragonscale_green
-BLOODCOLOR=colors_blood
-MOVERATE=100
-TAG.Barding.Diff=59.0
-FollowerSlots=1
-DamPoison=25
-TAG.SlayerGroup=DRAGON,REPTILE
-TEVENTS=e_horses
-TEVENTS=e_carnivores
-CATEGORY=Mounts
-SUBSECTION=Wild
-DESCRIPTION=Swamp Dragon
-RESLEVEL=2
-RESDISPDNID=c_horse_gray
-RESDISPDNHUE=2129
-ON=@Create
-   COLOR={0 20 colors_green 1}
-   NPC=brain_dragon
-   FAME={2000 2499}
-   KARMA={-2000 -2499}
-   STR={201 300}
-   MAXHITS={121 180}
-   DEX={66 85}
-   MAXSTAM={66 85}
-   INT={61 100}
-   MAXMANA={61 100}
-   ANATOMY={45.0 55.0}
-   MAGICRESISTANCE={45.0 55.0}
-   //POISONING={45.0 55.0}
-   TACTICS={45.0 55.0}
-   TAMING={90.0 95.0}
-   WRESTLING={45.0 55.0}
-   MODAR={0 5}
-   RESCOLD={20 40}
-   RESENERGY={30 40}
-   RESFIRE={20 30}
-   RESPOISON={20 30}
-   //BREATH.ANIM=i_fx_explode		//explosion id
-   //BREATH.TYPE=3				// Follow target
+
 
 //[CHARDEF 031b]
 ////Equipment animation - dont use
 //DEFNAME=c_demon_horde_medium
 //NAME=horde demon
 //SOUND=snd_monster_ogre1
-//ICON=i_pet_demon_horde
-//CAN=MT_WALK|MT_RUN|MT_USEHANDS
-//DAM=11,20
-//ARMOR=35
-//DESIRES=r_forests,t_coin,t_gold,t_gem,t_potion
-//AVERSIONS=t_trap,r_civilization,e_carnivores3
-//FOODTYPE=t_meat_raw
-//MAXFOOD=30
-//RESOURCES=1 i_ribs_raw,1 i_reag_daemon_bone
-//BLOODCOLOR=colors_blood
-//MOVERATE=100
-//TAG.Barding.Diff=48.0
-//TAG.SlayerGroup=DEMON
-//TEVENTS=e_carnivores2
-//CATEGORY=Monsters
-//SUBSECTION=Demons
-//DESCRIPTION=Horde Demon (medium)
-//RESLEVEL=2
-//RESDISPDNID=c_man
-//RESDISPDNHUE=33
-//ON=@Create
-//   NPC=brain_monster
-//   FAME={1500 1999}
-//   KARMA={-1500 -1999}
-//   STR={200 250}
-//   MAXHITS={175 200}
-//   DEX={51 75}
-//   MAXSTAM={51 75}
-//   INT={40 60}
-//   MAXMANA={40 60}
-//   ANATOMY={15.0 25.0}
-//   MAGICRESISTANCE={80.0 90.0}
-//   TACTICS={70.0 80.0}
-//   WRESTLING={70.0 80.0}
-//   MODAR={0 10}
-//   RESCOLD={30 40}
-//   RESENERGY={30 40}
-//   RESFIRE={40 50}
-//   RESPOISON={30 40}
-//ON=@NpcRestock
-//   ITEM=loot_horde_demon_medium
+
 
 [CHARDEF 031c]
 //FIXME: No Stratics entry
@@ -7836,102 +6371,14 @@ DEFNAME=c_demon_horde_large
 NAME=horde demon lord
 ICON=i_pet_demon_horde
 SOUND=snd_monster_ogre1
-CAN=MT_WALK|MT_RUN|MT_USEHANDS
-DAM=21,42
-ARMOR=35
-DESIRES=r_forests,t_coin,t_gold,t_gem,t_wand,t_potion,t_scroll,t_reagent
-AVERSIONS=t_trap,r_civilization,e_carnivores3
-FOODTYPE=t_meat_raw
-MAXFOOD=40
-RESOURCES=1 i_ribs_raw,1 i_reag_daemon_bone,1 i_reag_blood_vial
-BLOODCOLOR=colors_blood
-MOVERATE=100
-TAG.Barding.Diff=58.0
-TAG.SlayerGroup=DEMON
-TEVENTS=e_carnivores2
-CATEGORY=Monsters
-SUBSECTION=Demons
-DESCRIPTION=Horde Demon (large)
-RESLEVEL=2
-RESDISPDNID=c_man
-RESDISPDNHUE=33
-ON=@Create
-   NPC=brain_monster
-   FAME={2500 2999}
-   KARMA={-2500 -2999}
-   STR={400 550}
-   MAXHITS={350 400}
-   DEX={75 100}
-   MAXSTAM={75 100}
-   INT={100 150}
-   MAXMANA={200 250}
-   ANATOMY={20.0 35.0}
-   EVALUATINGINTEL={70.0 85.0}
-   MAGERY={90.0 100.0}
-   MAGICRESISTANCE={90.0 100.0}
-   MEDITATION={75.0 100.0}
-   TACTICS={80.0 90.0}
-   WRESTLING={80.0 100.0}
-   MODAR={0 10}
-   RESCOLD={30 40}
-   RESENERGY={40 50}
-   RESFIRE={60 70}
-   RESPOISON={35 45}
-ON=@NpcRestock
-   ITEM=loot_horde_demon_large
+
 
 [CHARDEF 031d]
 //FIXME: No Stratics entry
 DEFNAME=c_reptile_lord
 NAME=reptile lord
 ICON=i_pet_dragon
-SOUND=snd_monster_dragon1
-DAM=150,163
-ARMOR=75
-CAN=MT_WALK|MT_RUN|MT_NONHUM
-DESIRES=r_dungeon,t_coin,t_gold,t_gem,t_wand,t_potion,t_scroll,t_reagent
-AVERSIONS=t_trap,r_civilization
-FOODTYPE=t_meat_raw
-MAXFOOD=80
-RESOURCES=19 i_ribs_raw,40 i_hide,6 i_reag_dragon_blood
-BLOODCOLOR=colors_blood
-MOVERATE=100
-TAG.Barding.Diff=128.4
-DamFire=50
-TAG.SlayerGroup=DRAGON,REPTILE
-TEVENTS=e_carnivores3
-CATEGORY=Monsters
-SUBSECTION=Dragonkind
-DESCRIPTION=Reptile Lord
-RESLEVEL=2
-RESDISPDNID=c_dragon_red
-RESDISPDNHUE=38
-ON=@Create
-   NPC=brain_dragon
-   FAME={6000 6999}
-   KARMA={-6000 -6999}
-   STR={900 1000}
-   MAXHITS={550 750}
-   DEX={90 120}
-   MAXSTAM={90 120}
-   INT={500 600}
-   MAXMANA={500 600}
-   ANATOMY={75.0 100.0}
-   EVALUATINGINTEL={80.0 100.0}
-   MAGERY={80.0 100.0}
-   MAGICRESISTANCE={110.0 125.0}
-   MEDITATION={52.0 75.0}
-   TACTICS={80.0 90.0}
-   WRESTLING={80.0 100.0}
-   MODAR={0 10}
-   RESCOLD={60 70}
-   RESENERGY={50 60}
-   RESFIRE={80 90}
-   RESPOISON={70 80}
-   //BREATH.ANIM=i_fx_explode	//explosion id
-   //BREATH.TYPE=3				// Follow target
-ON=@NpcRestock
-   ITEM=loot_wyrm_white
+
 
 [CHARDEF 031e]
 //DEFNAME=
@@ -8052,56 +6499,7 @@ SOUND=snd_monster_stygian_dragon
 CAN=MT_WALK|MT_FLY|MT_NONHUM
 DAM=33,55
 ARMOR=85
-DESIRES=r_dungeon_abyss,t_coin,t_gold,t_gem,t_wand,t_potion,t_scroll,t_reagent
-AVERSIONS=t_trap,r_civilization,e_carnivores3
-FOODTYPE=t_meat_raw
-MAXFOOD=100
-RESOURCES=25 i_ribs_raw,80 i_hide,20 i_reag_dragon_blood
-MOVERATE=100
-TAG.Barding.Diff=160.0
-DamEnergy=25
-DamFire=50
-TAG.SlayerGroup=DRAGON,REPTILE
-TEVENTS=e_carnivores2
-CATEGORY=Monsters
-SUBSECTION=Dragonkind
-DESCRIPTION=Stygian Dragon
-ON=@Create
-   NAME=#NAMES_DRAGON
-   TITLE=the stygian dragon lord
-   NPC=brain_dragon
-   FAME={9500 9999}
-   KARMA={-9500 -9999}
-   STR={675 725}
-   MAXHITS={250000 300000}
-   DEX={225 250}
-   MAXSTAM={425 450}
-   INT={175 185}
-   MAXMANA={175 200}
-   ANATOMY={95.0 105.0}
-   MAGICRESISTANCE={145.0 155.0}
-   TACTICS={115.0 125.0}
-   WRESTLING={115.0 125.0}
-   MODAR={0 10}
-   RESCOLD={75 85}
-   RESENERGY={85 95}
-   RESFIRE={85 95}
-   RESPOISON={85 95}
-   //BREATH.ANIM=i_fx_explode		//explosion id
-   //BREATH.TYPE=3				// Follow target
-ON=@NPCRestock
-   ITEM=loot_dragon_stygian_lord
-   ITEM=loot_ai_hard
 
-[CHARDEF 033b]
-//No animation - dont use
-NAME=033b
-CAN=MT_NONMOVER|MT_NONHUM
-
-[CHARDEF 033c]
-//No animation - dont use
-NAME=033c
-CAN=MT_NONMOVER|MT_NONHUM
 
 [CHARDEF 033d]
 //FIXME: No Stratics entry
@@ -8110,41 +6508,7 @@ CAN=MT_NONMOVER|MT_NONHUM
 DEFNAME=c_rising_colossus
 NAME=rising colossus
 ICON=i_pet_rising_colossus
-SOUND=snd_monster_rising_colossus
-CAN=MT_WALK
-DAM=33,49
-ARMOR=45
-//DESIRES=
-//AVERSIONS=
-//FOODTYPE=
-//MAXFOOD=
-//RESOURCES=
-BLOODCOLOR=colors_blood
-MOVERATE=100
-TAG.Barding.Diff=88.2
-FollowerSlots=5
-CATEGORY=Spells
-SUBSECTION=Mysticism
-DESCRIPTION=Rising Colossus
-ON=@Create
-   NPC=brain_monster
-   FAME=0
-   KARMA=0
-   STR={190 200}
-   MAXHITS={190 200}
-   DEX={100 110}
-   MAXSTAM={100 110}
-   INT={140 150}
-   MAXMANA={140 150}
-   ANATOMY={50.0 75.0}
-   MAGICRESISTANCE={90.0 100.0}
-   TACTICS={95.0 105.0}
-   WRESTLING={95.0 105.0}
-   MODAR={0 10}
-   RESCOLD={45 55}
-   RESENERGY={40 50}
-   RESFIRE={45 55}
-   RESPOISON={55 65}
+
 
 [CHARDEF 033e]
 // The Primeval Lich is the champion of the Primeval Lich Champion Spawn.
@@ -8158,57 +6522,7 @@ ON=@Create
 DEFNAME=c_lich_primeval
 NAME=primeval lich
 ICON=i_pet_lich_primeval
-SOUND=snd_monster_primeval_lich
-CAN=MT_WALK|MT_RUN|MT_USEHANDS|MT_EQUIP
-DAM=17,21
-ARMOR=40
-DESIRES=r_dungeon_abyss,t_coin,t_gold,t_gem,t_wand,t_potion,t_scroll,t_reagent
-AVERSIONS=t_trap,r_civilization
-//FOODTYPE=
-//MAXFOOD=
-RESOURCES=1 i_soul_gem
-BLOODCOLOR=colors_green
-MOVERATE=100
-TAG.Barding.Diff=160.0
-DamCold=20
-DamEnergy=20
-DamFire=20
-DamPoison=20
-TAG.SlayerGroup=UNDEAD
-CATEGORY=Monsters
-SUBSECTION=Champions
-DESCRIPTION=Primeval Lich
-ON=@Create
-   NPC=brain_monster
-   FAME={8000 8499}
-   KARMA={-8000 -8499}
-   STR={500 600}
-   MAXHITS={50000 55000}
-   DEX={130 140}
-   MAXSTAM={130 140}
-   INT={1000 1200}
-   MAXMANA={4500 5500}
-   ANATOMY={20.0 40.0}
-   ARCHERY={90.0 100.0}
-   EVALUATINGINTEL={90.0 120.0}
-   FENCING={90.0 100.0}
-   MACEFIGHTING={90.0 100.0}
-   MAGERY={90.0 120.0}
-   MAGICRESISTANCE={120.0 140.0}
-   MEDITATION={100.0 120.0}
-   NECROMANCY={100.0 120.0}
-   PARRYING={90.0 100.0}
-   SWORDSMANSHIP={90.0 100.0}
-   TACTICS={90.0 100.0}
-   WRESTLING={90.0 100.0}
-   MODAR={0 10}
-   RESCOLD={40 50}
-   RESENERGY={40 50}
-   RESFIRE={40 50}
-   RESPOISON={40 50}
-ON=@NPCRestock
-   ITEM=loot_lich_primeval
-   ITEM=loot_ai_hard
+
 
 [CHARDEF 033f]
 //partial animation - flying animation mixed up with attack?
@@ -8217,43 +6531,7 @@ NAME=parrot
 ICON=i_pet_parrot
 SOUND=snd_animals_parrot1
 CAN=MT_WALK|MT_FLY|MT_NONHUM
-DAM=1,2
-ARMOR=5
-DESIRES=r_jungle,t_foliage,r_civilization
-AVERSIONS=e_carnivores,e_carnivores2,e_carnivores3
-FOODTYPE=i_wafer
-MAXFOOD=5
-RESOURCES=1 i_bird_raw,25 i_feather
-BLOODCOLOR=colors_blood
-MOVERATE=100
-TAG.Barding.Diff=21.0
-TAG.SlayerGroup=BIRD
-FollowerSlots=1
-CATEGORY=Animals
-SUBSECTION=Wild
-DESCRIPTION=Parrot 2
-RESLEVEL=7
-RESDISPDNID=c_bird
-RESDISPDNHUE=33
-ON=@Create
-   NPC=brain_animal
-   FAME={1 499}
-   KARMA={-1 -499}
-   STR={5 10}
-   MAXHITS={5 10}
-   DEX={20 30}
-   MAXSTAM={20 30}
-   INT={20 30}
-   MAXMANA={20 30}
-   MAGICRESISTANCE={5.0 10.0}
-   TACTICS={5.0 10.0}
-   TAMING={10.0 15.0}
-   WRESTLING={5.0 10.0}
-   MODAR={0 5}
-   RESCOLD=0
-   RESENERGY=0
-   RESFIRE=0
-   RESPOISON=0
+
 ON=@DeathCorpse
    DORAND 21
       ARGO.SAY 'E's dead...
@@ -8296,54 +6574,7 @@ DESCRIPTION=GM Body
 DEFNAME=c_demon_horde_colored
 NAME=multi colored horde demon
 ICON=i_pet_demon_horde
-SOUND=snd_monster_daemon1
-CAN=MT_WALK|MT_RUN|MT_USEHANDS|MT_EQUIP
-DAM=44,88
-ARMOR=45
-DESIRES=r_dungeon,t_coin,t_gold,t_gem,t_wand,t_potion,t_scroll,t_reagent
-AVERSIONS=t_trap,r_civilization,e_carnivores3
-FOODTYPE=t_meat_raw
-MAXFOOD=60
-RESOURCES=1 i_ribs_raw,1 i_reag_daemon_bone,1 i_reag_blood_vial
-BLOODCOLOR=colors_blood
-MOVERATE=100
-TAG.Barding.Diff=98.1
-DamEnergy=60
-TAG.SlayerGroup=DEMON
-TEVENTS=e_carnivores3
-CATEGORY=Monsters
-SUBSECTION=Demons
-DESCRIPTION=Horde Demon (colored)
-RESLEVEL=2
-RESDISPDNID=c_man
-RESDISPDNHUE=33
-ON=@Create
-   NPC=brain_monster
-   FAME={4500 4999}
-   KARMA={-4500 -4999}
-   STR={550 750}
-   MAXHITS={450 550}
-   INT={300 390}
-   DEX={90 120}
-   ARCHERY={80.0 90.0}
-   EVALUATINGINTEL={99.0 100.0}
-   FENCING={80.0 90.0}
-   MACEFIGHTING={80.0 90.0}
-   MAGERY={99.0 100.0}
-   MAGICRESISTANCE={90.0 120.0}
-   MEDITATION={99.0 100.0}
-   PARRYING={80.0 90.0}
-   SWORDSMANSHIP={80.0 90.0}
-   TACTICS={80.0 90.0}
-   WRESTLING={80.0 90.0}
-   MODAR={0 15}
-   RESCOLD={30 40}
-   RESENERGY={60 70}
-   RESFIRE={30 40}
-   RESPOISON={60 70}
-ON=@NpcRestock
-   ITEM=loot_drake
-   ITEM=loot_ai_hard
+
 
 
 [CHARDEF 0402]
@@ -8351,96 +6582,14 @@ DEFNAME=c_turkey_giant
 NAME=giant turkey
 CAN=MT_NONMOVER|MT_NONHUM
 //ICON=i_pet_fixme
-//SOUND=snd_animal_fixme
-CAN=MT_WALK|MT_FLY|MT_NONHUM
-DAM=13,15
-ARMOR=20
-DESIRES=t_dirt
-AVERSIONS=e_carnivores2,e_carnivores3
-FOODTYPE=t_seed
-MAXFOOD=15
-RESOURCES=60 i_feather,5 i_bird_raw
-BLOODCOLOR=colors_blood
-MOVERATE=100
-//TAG.Barding.Diff=22.0
-TAG.SlayerGroup=BIRD
-//FollowerSlots=3
-CATEGORY=Animals
-SUBSECTION=Wild
-DESCRIPTION=Giant Turkey
-ON=@Create
-   NPC=brain_monster
-   FAME={1500 1999}
-   KARMA={-1500 -1999}
-   STR={160 222}
-   MAXHITS={180 280}
-   DEX={76 85}
-   MAXSTAM={176 185}
-   INT={36 42}
-   MAXMANA={36 42}
-   MAGICRESISTANCE={15.0 20.0}
-   TACTICS={25.0 30.0}
-//   TAMING={10.0 15.0}
-   WRESTLING={30.0 35.0}
-   MODAR={0 10}
-   RESCOLD={15 20}
-   RESENERGY={5 15}
-   RESFIRE={5 15}
-   RESPOISON={5 15}
+
 
 
 [CHARDEF 042c]
 //FIXME: Animates dead, summons parasitic eels, water ball ranged attack
-DEFNAME=c_scalis
-NAME=scalis
-//FIXME: ICON=i_pet_scalis
-SOUND=snd_monster_dragon1//fixme
-CAN=MT_SWIM
-DAM=19,26
-RANGE=2
-ARMOR=80
-DESIRES=t_coin,t_gold,t_gem,t_wand,t_potion,t_scroll,t_reagent
-AVERSIONS=t_trap,r_civilization
-FOODTYPE=t_meat_raw
-MAXFOOD=80
-RESOURCES=20 i_dragonscale_blue
-BLOODCOLOR=colors_blue
-MOVERATE=100
-TAG.Barding.Diff=160.0
-DamCold=30
-DamEnergy=30
-//TAG.SlayerGroup=DRAGON,REPTILE
-TEVENTS=e_carnivores3
-CATEGORY=Monsters
-SUBSECTION=Champions
-DESCRIPTION=Scalis (Osiredon)
-ON=@Create
-   NPC=brain_monster
-   NAME=Osiredon
-   TITLE=Scalis Enforcer
-   FAME={9500 9999}
-   KARMA={-9500 -9999}
-   STR={800 825}
-   MAXHITS={45000 55000}
-   DEX={130 140}
-   MAXSTAM={130 140}
-   INT={160 170}
-   MAXMANA={3500 4500}
-   ANATOMY={35.0 40.0}
-   EVALUATINGINTEL={5.0 10.0}
-   MAGERY={15.0 20.0}
-   MAGICRESISTANCE={120.0 125.0}
-   MEDITATION={70.0 75.0}
-   TACTICS={125.0 130.0}
-   WRESTLING={125.0 130.0}
-   MODAR={0 5}
-   RESCOLD={85 90}
-   RESENERGY={80 85}
-   RESFIRE={90 95}
-   RESPOISON={80 85}
-ON=@NpcRestock
-   ITEM=loot_champ_scalis
-   ITEM=loot_ai_healer
+DEFNAME=cOsiredonTheScalisEnforcer
+NAME=Osiredon the Scalis Enforcer
+
 
 
 [CHARDEF 042d]
@@ -8449,48 +6598,7 @@ ON=@NpcRestock
 DEFNAME=c_hellhound_ancient
 NAME=ancient hellhound
 ICON=i_pet_hellhound_ancient
-SOUND=snd_animals_wolf1
-CAN=MT_WALK|MT_RUN|MT_NONHUM
-DAM=28,36
-ARMOR=50
-DESIRES=r_desert,r_mountains_volcanic,t_coin,t_gold,t_gem
-AVERSIONS=r_civilization
-FOODTYPE=t_meat_raw
-MAXFOOD=15
-RESOURCES=1 i_ribs_raw,5 i_reag_sulfur_ash
-BLOODCOLOR=colors_blood
-MOVERATE=150
-TAG.Barding.Diff=122.8
-TAG.SlayerGroup=FLAME
-//FollowerSlots=3
-DamFire=80
-TEVENTS=e_carnivores2
-CATEGORY=Animals
-SUBSECTION=Wild
-DESCRIPTION=Hell Hound
-ON=@Create
-   NPC=brain_dragon
-   FAME={3500 3999}
-   KARMA={-3500 -3999}
-   STR={1200 1300}
-   MAXHITS={66 125}
-   DEX={180 190}
-   MAXSTAM={180 190}
-   INT={950 1050}
-   MAXMANA={950 1050}
-   MAGICRESISTANCE={95.0 105.0}
-   TACTICS={105.0 110.0}
-//   TAMING={105.0 110.0}
-   WRESTLING={100.0 105.0}
-   MODAR={0 10}
-   RESCOLD={40 45}
-   RESENERGY={80 90}
-   RESFIRE={70 80}
-   RESPOISON={60 70}
-   //BREATH.ANIM=i_fx_explode		//explosion id
-   //BREATH.TYPE=3				// Follow target
-ON=@NPCRestock
-   ITEM=loot_hellhound_ancient
+
 
 
 [CHARDEF 042e]
@@ -8498,112 +6606,18 @@ DEFNAME=c_werewolf
 NAME=were wolf
 //ICON=i_pet_werewolf
 SOUND=snd_animals_wolf1
-CAN=MT_WALK|MT_RUN
-DAM=14,25
-ARMOR=35
-DESIRES=r_forests,t_coin,t_gold,t_gem
-AVERSIONS=t_trap,r_civilization
-FOODTYPE=t_meat_raw
-MAXFOOD=20
-RESOURCES=1 i_ribs_raw,1 i_fur
-BLOODCOLOR=colors_blood
-MOVERATE=100
-TAG.Barding.Diff=79.8
-TAG.SlayerGroup=WOLF
-TEVENTS=e_carnivores2
-CATEGORY=Monsters
-SUBSECTION=Were Creatures
-DESCRIPTION=Were Wolf
-ON=@Create
-   NPC=brain_monster
-   FAME={2500 2999}
-   KARMA={-2500 -2999}
-   STR={350 375}
-   MAXHITS={220 245}
-   DEX={95 105}
-   MAXSTAM={105 125}
-   INT={35 55}
-   MAXMANA={35 55}
-   MAGICRESISTANCE={58.0 75.0}
-   TACTICS={50.0 70.0}
-   WRESTLING={80.0 90.0}
-   MODAR={0 5}
-   RESCOLD={45 55}
-   RESENERGY={25 35}
-   RESFIRE={30 40}
-   RESPOISON={35 40}
-ON=@NPCRestock
-   ITEM=loot_werewolf
-ON=@GetHit
-   IF !(<R10>)
-      IF (<BODY>==c_werewolf)
-         BODY=c_man
-      ELSE
-         BODY=c_werewolf
-      ENDIF
-      NAME=were wolf
-      SRC.UPDATE
-   ENDIF
+
 
 
 [CHARDEF 042f]
-//FIXME: No Stratics entry
-//FIXME: Is this "virtue bane"?
 DEFNAME=c_minotaur_lord
-NAME=minotaur lord
-ICON=i_pet_minotaur_lord
+NAME=virtuebane
 SOUND=snd_monster_longhorn3
 CAN=MT_WALK|MT_RUN|MT_USEHANDS|MT_EQUIP
 DAM=25,40
 ARMOR=50
 DESIRES=r_dungeon_labyrinth,t_coin,t_gold,t_wand,t_potion,t_scroll,t_reagent,e_notoriety
-AVERSIONS=t_trap
-FOODTYPE=t_meat_raw
-MAXFOOD=55
-RESOURCES=1 i_ribs_raw,10 i_hide
-BLOODCOLOR=colors_blood
-MOVERATE=100
-TAG.Barding.Diff=160.0
-TAG.SlayerGroup=BOVINE
-TEVENTS=e_minotaurs
-TEVENTS=e_carnivores2
-CATEGORY=Monsters
-SUBSECTION=Minotaurs
-DESCRIPTION=Minotaur (lord)
-RESLEVEL=5
-RESDISPDNID=c_orc
-RESDISPDNHUE=33
-ON=@Create
-   NPC=brain_monster
-   FAME={4500 5000}
-   KARMA={-4500 -5000}
-   STR={200 250}
-   MAXHITS={300 350}
-   DEX={90 100}
-   MAXSTAM={90 100}
-   INT={100 130}
-   MAXMANA={100 130}
-   ANATOMY={90.0 100.0}
-   ARCHERY={90.0 100.0}
-   DETECTINGHIDDEN={90.0 100.0}
-//   EVALUATINGINTEL={70.0 80.0}
-   FENCING={90.0 100.0}
-   MACEFIGHTING={90.0 100.0}
-//   MAGERY={90.0 100.0}
-   MAGICRESISTANCE={90.0 100.0}
-//   MEDITATION={90.0 100.0}
-   PARRYING={90.0 100.0}
-   SWORDSMANSHIP={90.0 100.0}
-   TACTICS={90.0 100.0}
-   WRESTLING={90.0 100.0}
-   MODAR={0 10}
-   RESCOLD={50 60}
-   RESENERGY={10 20}
-   RESFIRE={20 30}
-   RESPOISON={40 50}
-ON=@NpcRestock
-   ITEM=loot_minotaur_lord
-   ITEM=loot_ai_hard
+
 
 
 [CHARDEF 04dc]
@@ -8612,55 +6626,7 @@ NAME=Charybdis
 //ICON=i_pet_
 //SOUND=snd_
 CAN=MT_SWIM
-DAM=24,33
-ARMOR=70
-DESIRES=t_coin,t_gold,t_wand,t_potion,t_scroll,t_reagent,e_notoriety
-//AVERSIONS=
-FOODTYPE=t_fish
-MAXFOOD=75
-//RESOURCES=
-BLOODCOLOR=colors_blood
-MOVERATE=100
-TAG.Barding.Diff=160.0
-CATEGORY=Monsters
-SUBSECTION=Champions
-DESCRIPTION=Charybdis
-RESLEVEL=7
-RESDISPDNID=c_sea_serpent_deep
-RESDISPDNHUE=33
-ON=@Create
-   NPC=brain_monster
-   FAME={7500 8000}
-   KARMA={-7500 -8000}
-   STR={525 600}
-   MAXHITS={3000 3500}
-   DEX={110 135}
-   MAXSTAM={110 135}
-   INT={110 155}
-   MAXMANA={110 155}
-   ANATOMY={90.0 100.0}
-   EVALUATINGINTEL={140.0 145.0}
-   MAGERY={135.0 145.0}
-   MAGICRESISTANCE={100.0 115.0}
-   TACTICS={120.0 125.0}
-   WRESTLING={90.0 100.0}
-   MODAR={0 10}
-   RESCOLD={45 55}
-   RESENERGY={60 70}
-   RESFIRE={70 80}
-   RESPOISON={80 90}
-ON=@NpcRestock
-   ITEM=loot_charybdis
-ON=@GetHit
-   //Spawn Creatures Attack (Charybdis Tentacle)
-   IF !(<R20>) && !(<FINDID.i_removetimer_mem>)
-      SERV.NEWNPC c_charybdis_tentacle
-      NEW.P=<SRC.P>
-      NEW.HOME=<SRC.P>
-      NEW.HOMEDIST=7
-      NEW.ATTACK <SRC>
-      NEW.f_NPCRemovalTimer 1200
-   ENDIF
+
 
 [CHARDEF 04dd]
 DEFNAME=c_charybdis_tentacle
@@ -8668,42 +6634,7 @@ NAME=Charybdis Tentacle
 //ICON=i_pet_
 //SOUND=snd_
 CAN=MT_SWIM
-DAM=10,15
-ARMOR=35
-//DESIRES=
-//AVERSIONS=
-//FOODTYPE=t_fish
-//MAXFOOD=75
-//RESOURCES=
-BLOODCOLOR=colors_blood
-MOVERATE=100
-TAG.Barding.Diff=160.0
-CATEGORY=Monsters
-SUBSECTION=Champions
-DESCRIPTION=Charybdis Tentacle
-RESLEVEL=7
-RESDISPDNID=c_corpser
-RESDISPDNHUE=33
-ON=@Create
-   NPC=brain_monster
-   FAME={7500 8000}
-   KARMA={-7500 -8000}
-   STR={125 155}
-   MAXHITS={105 115}
-   DEX={65 85}
-   MAXSTAM={65 85}
-   INT={100 125}
-   MAXMANA={100 125}
-   ANATOMY={90.0 100.0}
-   EVALUATINGINTEL={60.0 75.0}
-   MAGERY={60.0 75.0}
-   MAGICRESISTANCE={100.0 115.0}
-   WRESTLING={90.0 100.0}
-   MODAR={0 10}
-   RESCOLD={10 25}
-   RESENERGY={5 10}
-   RESFIRE={10 25}
-   RESPOISON={60 70}
+
 
 [CHARDEF 04de]
 DEFNAME=c_pumpkin_demon

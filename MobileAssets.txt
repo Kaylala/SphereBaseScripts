@@ -26,13 +26,13 @@ Anlorvaglem
 Anlorzen
 Ant Lion
 Anzuanord
-Arcane Daemon
+#Arcane Daemon
 Archdemon
 Archmage
 #Arctic Ogre Lord
 Bake Kitsune
 Ballem
-Balron
+#Balron
 Bane Dragon
 Battle Chicken Lizard
 Betballem
@@ -69,7 +69,7 @@ Cave Troll (Wrong)
 Centaur
 Champion
 Changeling
-Chaos Daemon
+#Chaos Daemon
 Chaos Dragoon
 Chaos Dragoon Elite
 #Chaos Vortex
@@ -107,7 +107,7 @@ Crystal Wisp
 Cursed (Undead Brigand)
 Cu Sidhe
 #Cyclopean Warrior
-Daemon
+#Daemon
 Daemon Mongbat
 Dark Guardian
 Darkmane
@@ -229,7 +229,7 @@ Horde Minion
 Hungry Ogre
 #Hydra
 #Ice Elemental
-Ice Fiend
+#Ice Fiend
 Imp
 Insane Dryad
 #Interred Grizzle
@@ -270,7 +270,7 @@ Meer Warrior
 Minotaur
 Minotaur Captain
 Minotaur Scout
-Moloch
+#Moloch
 #Molten Earth Elemental
 Mongbat
 #Mud Elemental
@@ -282,7 +282,7 @@ Nightmare
 #Ogre
 Ogre Bonecrusher
 #Ogre Lord
-Oni
+#Oni
 Ophidian Apprentice Mage
 Ophidian Avenger
 Ophidian Berserker

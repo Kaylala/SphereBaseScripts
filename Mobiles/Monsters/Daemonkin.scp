@@ -1,0 +1,529 @@
+[Chardef 09]
+DefName=cDaemon1
+Name=#DaemonNames
+Can=CanWalk|CanFly|CanUseHands
+MoveRate=100
+Dam=7,14
+Icon=DaemonIcon
+Sound=
+Resources=1 iCutOfRawRibs
+FoodType=tRawMeat,tMeat
+MaxFood=35
+Aversions=tTrap
+Desires=tGold,tGem,tMagic
+BloodColor=0
+TEvents=AIDaemon
+
+Category=Monsters
+Subsection=Daemonkin
+Description=Daemon
+
+On=@Create
+NPC=BrainMonster
+SuperSlayer=DaemonSlayer
+
+Fame=15000
+Karma=-15000
+Alignment=Evil
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=45,60
+ResFire=50,60
+ResCold=30,40
+ResPoison=20,30
+ResEnergy=30,40
+
+OStr={476 505}
+ODex={76 95}
+OInt={301 325}
+MaxHits={286 303}
+
+Wrestling={600 800}
+Tactics={700 800}
+MagicResistance={850 950}
+Parrying={700 800}
+Magery={700 800}
+EvaluatingIntel={700 800}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={550 650}
+
+
+[Chardef 0A]
+DefName=cDaemon2
+Name=#DaemonNames
+Can=CanWalk|CanFly|CanUseHands
+MoveRate=100
+Dam=7,14
+Icon=DaemonIcon
+Sound=
+Resources=1 iCutOfRawRibs
+FoodType=tRawMeat,tMeat
+MaxFood=35
+Aversions=tTrap
+Desires=tGold,tGem,tMagic
+BloodColor=0
+TEvents=AIDaemon
+
+Category=Monsters
+Subsection=Daemonkin
+Description=Daemon
+
+On=@Create
+NPC=BrainMonster
+SuperSlayer=DaemonSlayer
+
+Fame=15000
+Karma=-15000
+Alignment=Evil
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=45,60
+ResFire=50,60
+ResCold=30,40
+ResPoison=20,30
+ResEnergy=30,40
+
+OStr={476 505}
+ODex={76 95}
+OInt={301 325}
+MaxHits={286 303}
+
+Wrestling={600 800}
+Tactics={700 800}
+MagicResistance={850 950}
+Parrying={700 800}
+Magery={700 800}
+EvaluatingIntel={700 800}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={550 650}
+
+
+[Chardef 026]
+DefName=cBlackGateDaemon
+Name=black gate daemon
+Can=CanWalk|CanFly|CanUseHands
+MoveRate=100
+Dam=22,29
+Icon=BlackGateDaemonIcon
+Sound=
+Resources=1 iCutOfRawRibs
+FoodType=tRawMeat,tMeat
+MaxFood=35
+Aversions=tTrap
+Desires=tGold,tGem,tMagic
+BloodColor=0
+TEvents=AIBalron
+
+Category=Monsters
+Subsection=Daemonkin
+Description=Black Gate Daemon
+
+On=@Create
+NPC=BrainMonster
+SuperSlayer=DaemonSlayer
+
+Fame=24000
+Karma=-24000
+Alignment=Evil
+
+DamPhysical=50
+DamFire=25
+DamCold=0
+DamPoison=0
+DamEnergy=25
+
+ResPhysical=65,80
+ResFire=60,80
+ResCold=50,60
+ResPoison=100
+ResEnergy=40,50
+
+OStr={985 1185}
+ODex={175 255}
+OInt={150 250}
+MaxHits={592 711}
+
+Wrestling={900 1000}
+Tactics={900 1000}
+MagicResistance={1000 1500}
+Anatomy={250 500}
+Parrying={900 1000}
+Magery={950 1000}
+EvaluatingIntel={900 1000}
+Meditation={250 500}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={1200 1500}
+
+
+[Chardef 028]
+DefName=cBalron
+Name=#BalronNames
+Can=CanWalk|CanFly|CanUseHands
+MoveRate=100
+Dam=22,29
+Icon=BalronIcon
+Sound=
+Resources=1 iCutOfRawRibs
+FoodType=tRawMeat,tMeat
+MaxFood=35
+Aversions=tTrap
+Desires=tGold,tGem,tMagic
+BloodColor=0
+TEvents=AIBalron
+
+Category=Monsters
+Subsection=Daemonkin
+Description=Balron
+
+On=@Create
+NPC=BrainMonster
+SuperSlayer=DaemonSlayer
+
+Fame=24000
+Karma=-24000
+Alignment=Evil
+
+DamPhysical=50
+DamFire=25
+DamCold=0
+DamPoison=0
+DamEnergy=25
+
+ResPhysical=65,80
+ResFire=60,80
+ResCold=50,60
+ResPoison=100
+ResEnergy=40,50
+
+OStr={985 1185}
+ODex={175 255}
+OInt={150 250}
+MaxHits={592 711}
+
+Wrestling={900 1000}
+Tactics={900 1000}
+MagicResistance={1000 1500}
+Anatomy={250 500}
+Parrying={900 1000}
+Magery={950 1000}
+EvaluatingIntel={900 1000}
+Meditation={250 500}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={1200 1500}
+
+
+[Chardef 02B]
+DefName=cIceFiend
+Name=ice fiend
+Can=CanWalk|CanFly|CanUseHands
+MoveRate=100
+Dam=8,19
+Icon=IceFiendIcon
+Sound=
+Resources=1 iCutOfRawRibs
+FoodType=tRawMeat,tMeat
+MaxFood=35
+Aversions=tTrap
+Desires=tGold,tGem,tMagic
+BloodColor=0
+TEvents=AIIceFiend
+
+Category=Monsters
+Subsection=Daemonkin
+Description=Ice Fiend
+
+On=@Create
+NPC=BrainMonster
+SuperSlayer=DaemonSlayer|IceSlayer
+
+Fame=18000
+Karma=-18000
+Alignment=Evil
+
+DamPhysical=20
+DamFire=0
+DamCold=80
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=55,65
+ResFire=10,20
+ResCold=60,70
+ResPoison=20,30
+ResEnergy=30,40
+
+OStr={375 405}
+ODex={175 195}
+OInt={200 225}
+MaxHits={226 243}
+
+Wrestling={800 1000}
+Tactics={800 900}
+MagicResistance={750 850}
+Parrying={800 900}
+Magery={800 900}
+EvaluatingIntel={800 900}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={650 800}
+
+
+[Chardef 0F1]
+DefName=cOni
+Name=oni
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=14,20
+Icon=OniIcon
+Sound=
+Resources=1 iCutOfRawRibs
+FoodType=tRawMeat,tMeat
+MaxFood=35
+Aversions=tTrap
+Desires=tGold,tGem,tMagic
+BloodColor=0
+TEvents=AIOni
+
+Category=Monsters
+Subsection=Daemonkin
+Description=Oni
+
+On=@Create
+NPC=BrainMonster
+SuperSlayer=DaemonSlayer
+
+Fame=15000
+Karma=-15000
+Alignment=Evil
+
+DamPhysical=70
+DamFire=10
+DamCold=0
+DamPoison=0
+DamEnergy=20
+
+ResPhysical=65,80
+ResFire=50,70
+ResCold=35,50
+ResPoison=45,70
+ResEnergy=45,65
+
+OStr={800 905}
+ODex={150 200}
+OInt={175 200}
+MaxHits={400 530}
+
+Wrestling={900 1000}
+Tactics={850 1000}
+MagicResistance={850 1000}
+Anatomy={850 950}
+Parrying={850 1000}
+Magery={960 1060}
+EvaluatingIntel={1000 1250}
+Meditation={275 425}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={1600 1850}
+
+
+[Chardef 0310]
+DefName=cArcaneDaemon
+Name=arcane daemon
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=12,16
+Icon=ArcaneDaemonIcon
+Sound=
+Resources=1 iCutOfRawRibs
+FoodType=tRawMeat,tMeat
+MaxFood=35
+Aversions=tTrap
+Desires=tGold,tGem,tMagic
+BloodColor=0
+TEvents=AIArcaneDaemon
+
+Category=Monsters
+Subsection=Daemonkin
+Description=Arcane Daemon
+
+On=@Create
+NPC=BrainMonster
+SuperSlayer=DaemonSlayer
+
+Fame=10000
+Karma=-10000
+Alignment=Evil
+
+DamPhysical=80
+DamFire=20
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=50,60
+ResFire=70,80
+ResCold=10,20
+ResPoison=50,60
+ResEnergy=30,40
+
+OStr={130 150}
+ODex={125 145}
+OInt={300 350}
+MaxHits={101 115}
+
+Wrestling={600 800}
+Tactics={700 800}
+MagicResistance={850 950}
+Parrying={700 800}
+Magery={800 900}
+EvaluatingIntel={700 800}
+Meditation={700 800}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={250 300}
+
+
+[Chardef 0311]
+DefName=cMoloch
+Name=moloch
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=15,23
+Icon=ArcaneDaemonIcon
+Sound=
+Resources=1 iCutOfRawRibs
+FoodType=tRawMeat,tMeat
+MaxFood=35
+Aversions=tTrap
+Desires=tGold,tGem,tMagic
+BloodColor=0
+TEvents=AIMoloch
+
+Category=Monsters
+Subsection=Daemonkin
+Description=Moloch
+
+On=@Create
+NPC=BrainMonster
+SuperSlayer=DaemonSlayer
+
+Fame=7500
+Karma=-7500
+Alignment=Evil
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=60,70
+ResFire=60,70
+ResCold=40,50
+ResPoison=20,30
+ResEnergy=20,30
+
+OStr={330 360}
+ODex={65 85}
+OInt={40 65}
+MaxHits={330 360}
+
+Wrestling={700 900}
+Tactics={750 900}
+MagicResistance={650 750}
+Parrying={750 900}
+
+On=@NPCRestock
+NewGold={300 350}
+
+
+[Chardef 0318]
+DefName=cChaosDaemon
+Name=chaos daemon
+Can=CanWalk|CanUseHands
+MoveRate=100
+Dam=12,17
+Icon=ChaosDaemonIcon
+Sound=
+Resources=1 iCutOfRawRibs
+FoodType=tRawMeat,tMeat
+MaxFood=35
+Aversions=tTrap
+Desires=tGold,tGem,tMagic
+BloodColor=0
+TEvents=AIChaosDaemon
+
+Category=Monsters
+Subsection=Daemonkin
+Description=Chaos Daemon
+
+On=@Create
+NPC=BrainMonster
+SuperSlayer=DaemonSlayer
+
+Fame=3000
+Karma=-3000
+Alignment=Evil
+
+DamPhysical=85
+DamFire=15
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=50,60
+ResFire=60,70
+ResCold=40,50
+ResPoison=20,30
+ResEnergy=20,30
+
+OStr={105 130}
+ODex={170 200}
+OInt={55 80}
+MaxHits={91 110}
+
+Wrestling={950 1000}
+Tactics={700 800}
+MagicResistance={850 950}
+Parrying={700 800}
+
+On=@NPCRestock
+NewGold={175 225}
+
+
+[EOF]
