@@ -8,7 +8,7 @@ MoveRate=100
 Dam=5,10
 Icon=iSilverbackGorillaIcon
 Sound=0
-Resources=1 iCutOfRawRibs,7 iPlainHides
+Resources=1 iCutOfRawRibs,7 iPileOfHides
 FoodType=tFruit,tVegetable
 Aversions=0
 Desires=0
@@ -58,12 +58,13 @@ NewGold={50 100}
 On=@DeathCorpse
 Item=iBanana,{10 20}
 
+
 // Wild Tiger
 // Valley of Eodon, Dragon Turtle Spawn
 [CharDef 04E6]
 DefName=cWildTiger
 Name=wild tiger
-Can=CanWalk|CanRun
+Can=CanWalk
 MoveRate=100
 Dam=18,24
 Icon=iWildTigerIcon
@@ -88,7 +89,7 @@ Fame=16000
 Karma=-16000
 Alignment=Evil
 
-Ability1=s_Bleed_Attack
+Ability1=sBleedAttack
 
 DamPhysical=100
 DamFire=0
@@ -119,12 +120,13 @@ NewGold={100 200}
 On=@Death
 NewItem=RandomRareSeed5,1,R9
 
+
 // Wild White Tiger
 // Valley of Eodon, Dragon Turtle Spawn
 [CharDef cWildWhiteTiger]
 ID=cwild_tiger
 Name=wild white tiger
-Can=CanWalk|CanRun
+Can=CanWalk
 MoveRate=100
 Dam=18,24
 Icon=iWildTigerIcon
@@ -150,7 +152,7 @@ Fame=16000
 Karma=-16000
 Alignment=Evil
 
-Ability1=s_bleed_attack
+Ability1=sBleedAttack
 
 DamPhysical=100
 DamFire=0
@@ -181,12 +183,13 @@ NewGold={100 200}
 On=@Death
 NewItem=RandomRareSeed5,1,R9
 
+
 // Wild Black Tiger
 // Valley of Eodon, Dragon Turtle Spawn
 [CharDef cWildBlackTiger]
 ID=cWildTiger
 Name=wild black tiger
-Can=CanWalk|CanRun
+Can=CanWalk
 MoveRate=100
 Dam=18,24
 Icon=iWildTigerIcon
@@ -212,7 +215,7 @@ Fame=16000
 Karma=-16000
 Alignment=Evil
 
-Ability1=s_bleed_attack
+Ability1=sBleedAttack
 
 DamPhysical=100
 DamFire=0
@@ -243,11 +246,12 @@ NewGold={100 200}
 On=@Death
 NewItem=RandomRareSeed5,1,R9
 
+
 // Tiger Cub
 [CharDef 051D]
 ID=cTigerCub
 Name=tiger cub
-Can=CanWalk|CanRun|CanNonHum
+Can=CanWalk|CanNonHum
 MoveRate=100
 Dam=18,24
 Icon=iTigerCubIcon
@@ -272,7 +276,7 @@ Fame=10000
 Karma=-10000
 Alignment=Neutral
 
-Ability1=s_bleed_attack
+Ability1=sBleedAttack
 
 DamPhysical=100
 DamFire=0
@@ -299,5 +303,6 @@ Taming=811
 
 On=@NPCRestock
 NewGold={100 200}
+
 
 [EOF]

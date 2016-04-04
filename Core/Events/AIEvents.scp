@@ -467,4 +467,87 @@ On=@DeathCorpse
 NewLoot=HeadlessLoot
 
 
+/////////////
+// Bovines //
+/////////////
+
+
+[Events AICow]
+On=@DClick
+If <R99>
+ Sleep
+EndIf
+
+On=@TargOn_Item
+If (<ArgO.BaseID> == iEmptyPitcher)
+ Serv.NewItem=iPitcherOfMilk,1,<Src>
+ Consume <ArgO>
+EndIf
+
+
+[Events AIBull]
+On=@DClick
+If <R99>
+ Sleep
+EndIf
+
+
+[Events AIGaman]
+On=@DeathCorpse
+NewLoot=GamanLoot
+
+
+///////////
+// Birds //
+///////////
+
+
+[Events AITurkey]
+
+
+[Events AIEagle]
+On=@DeathCorpse
+NewLoot=EagleLoot
+
+
+[Events AIBird]
+
+
+[Events AIChicken]
+On=@DeathCorpse
+NewLoot=ChickenLoot
+
+
+[Events AICrane]
+
+
+////////////
+// Avians //
+////////////
+
+
+[Events AIHarpy]
+On=@DeathCorpse
+NewLoot=HarpyLoot
+
+
+[Events AIStoneHarpy]
+On=@DeathCorpse
+NewLoot=StoneHarpyLoot
+
+
+[Events AIPhoenix]
+On=@DeathCorpse
+NewLoot=PhoenixLoot
+
+
+[Events AIDesertOstard]
+
+
+[Events AIForestOstard]
+
+
+[Events AIFrenziedOstard]
+
+
 [EOF]

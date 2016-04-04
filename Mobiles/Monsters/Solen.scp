@@ -1,7 +1,7 @@
 [CharDef 030D]
 DefName=cRedSolenWorker
 Name=red solen worker
-Can=CanWalk
+Can=CanNonHum|CanWalk
 MoveRate=100
 Dam=5,7
 Icon=iSolenWorkerIcon
@@ -54,7 +54,7 @@ NewGold={125 175}
 [CharDef 030E]
 DefName=cRedSolenWarrior
 Name=red solen warrior
-Can=CanWalk
+Can=CanNonHum|CanWalk
 MoveRate=100
 Dam=5,15
 Icon=iSolenWarriorIcon
@@ -107,7 +107,7 @@ NewGold={250 350}
 [CharDef 030F]
 DefName=cRedSolenQueen
 Name=red solen queen
-Can=CanWalk
+Can=CanNonHum|CanWalk
 MoveRate=100
 Dam=10,15
 Icon=iSolenQueenIcon
@@ -160,7 +160,7 @@ NewGold={400 500}
 [CharDef 0324]
 DefName=cRedSolenMatriarch
 Name=red solen matriarch
-Can=CanWalk
+Can=CanNonHum|CanWalk
 MoveRate=100
 Dam=10,15
 Icon=iSolenQueenIcon
@@ -213,7 +213,7 @@ NewGold={400 500}
 [CharDef cRedSolenInfiltratorWarrior]
 ID=cRedSolenWarrior
 Name=red solen infiltrator warrior
-Can=CanWalk
+Can=CanNonHum|CanWalk
 MoveRate=100
 Dam=5,15
 Icon=iSolenWarriorIcon
@@ -266,7 +266,7 @@ NewGold={200 225}
 [CharDef cRedSolenInfiltratorQueen]
 ID=cRedSolenQueen
 Name=red solen infiltrator queen
-Can=CanWalk
+Can=CanNonHum|CanWalk
 MoveRate=100
 Dam=10,15
 Icon=iSolenQueenIcon
@@ -319,7 +319,7 @@ NewGold={250 300}
 [CharDef cAmbitiousRedSolenQueen]
 ID=cRedSolenQueen
 Name=ambitious red solen queen
-Can=CanWalk
+Can=CanNonHum|CanWalk
 MoveRate=100
 Dam=10,15
 Icon=iSolenQueenIcon
@@ -372,7 +372,7 @@ NewGold={400 500}
 [CharDef 0325]
 DefName=cBlackSolenWorker
 Name=black solen worker
-Can=CanWalk
+Can=CanNonHum|CanWalk
 MoveRate=100
 Dam=5,7
 Icon=iSolenWorkerIcon
@@ -426,7 +426,7 @@ NewGold={125 175}
 [CharDef 0326]
 DefName=cBlackSolenWarrior
 Name=black solen warrior
-Can=CanWalk
+Can=CanNonHum|CanWalk
 MoveRate=100
 Dam=5,15
 Icon=iSolenWarriorIcon
@@ -480,7 +480,7 @@ NewGold={250 350}
 [CharDef 0327]
 DefName=cBlackSolenQueen
 Name=black solen queen
-Can=CanWalk
+Can=CanNonHum|CanWalk
 MoveRate=100
 Dam=10,15
 Icon=iSolenQueenIcon
@@ -534,7 +534,7 @@ NewGold={400 500}
 [CharDef 0328]
 DefName=cBlackSolenMatriarch
 Name=black solen matriarch
-Can=CanWalk
+Can=CanNonHum|CanWalk
 MoveRate=100
 Dam=10,15
 Icon=iSolenQueenIcon
@@ -588,7 +588,7 @@ NewGold={400 500}
 [CharDef cBlackSolenInfiltratorWarrior]
 ID=cBlackSolenWarrior
 Name=black solen infiltrator warrior
-Can=CanWalk
+Can=CanNonHum|CanWalk
 MoveRate=100
 Dam=5,15
 Icon=iSolenWarriorIcon
@@ -642,7 +642,7 @@ NewGold={200 225}
 [CharDef cBlackSolenInfiltratorQueen]
 ID=cBlackSolenQueen
 Name=black solen infiltrator queen
-Can=CanWalk
+Can=CanNonHum|CanWalk
 MoveRate=100
 Dam=10,15
 Icon=iSolenQueenIcon
@@ -696,7 +696,7 @@ NewGold={250 300}
 [CharDef cAmbitiousBlackSolenQueen]
 ID=cBlackSolenQueen
 Name=ambitious black solen queen
-Can=CanWalk
+Can=CanNonHum|CanWalk
 MoveRate=100
 Dam=10,15
 Icon=iSolenQueenIcon

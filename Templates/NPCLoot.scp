@@ -551,4 +551,63 @@ Description=Unfrozen Mummy
 Item=iBrokenCrystal,1,R9
 
 
+/////////////
+// Bovines //
+/////////////
+
+
+[Templates GamanLoot]
+Category=Templates: NPC Loot
+Subsection=Animals: Bovines
+Description=Gaman
+Item=iGamanHorns,{1 2}
+
+
+///////////
+// Birds //
+///////////
+
+
+[Templates EagleLoot]
+Category=Templates: NPC Loot
+Subsection=Animals: Birds
+Description=Eagle
+Item=iBlackPearl,4
+
+
+[Template ChickenLoot]
+Category=Templates: NPC Loot
+Subsection=Animals: Birds
+Description=Eagle
+Item=iEgg,{1 2}
+
+
+////////////
+// Avians //
+////////////
+
+
+[Template HarpyLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Avians
+Description=Harpy
+Item=RandomMageryReagent,1
+
+
+[Template StoneHarpyLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Avians
+Description=Stone Harpy
+Item=RandomMageryReagent,1
+Item=RandomCommonGem,2
+
+
+[Template PhoenixLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Avians
+Description=Phoenix
+Item=iSulfurousAsh,{5 8}
+Item=iFireHorn,1,R9
+
+
 [EOF]

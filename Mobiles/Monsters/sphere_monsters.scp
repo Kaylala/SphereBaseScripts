@@ -6,17 +6,6 @@ NAME=gargoyle
 ICON=i_pet_garg
 
 
-[CHARDEF 05]
-DEFNAME=c_eagle
-NAME=eagle
-
-
-[CHARDEF 06]
-DEFNAME=c_bird
-NAME=bird
-ICON=i_pet_bird
-
-
 [CHARDEF 07]
 DEFNAME=c_orc_captain
 NAME=orc captain
@@ -114,11 +103,6 @@ ICON=i_pet_spider_giant
 DEFNAME=c_gorilla
 NAME=gorilla
 ICON=i_pet_gorilla
-
-
-[CHARDEF 01e]
-DEFNAME=c_harpy
-NAME=harpy
 
 
 [Comment CHARDEF 020] (crashes client)
@@ -332,12 +316,6 @@ NAME=terathan matriarch
 ICON=i_pet_terathan_queen
 
 
-[CHARDEF 049]
-DEFNAME=c_harpy_stone
-NAME=stone harpy
-ICON=i_pet_harpy
-
-
 [CHARDEF 04a]
 DEFNAME=c_imp
 NAME=imp
@@ -418,20 +396,6 @@ DEFNAME=c_frostooze
 NAME=frost ooze
 ICON=i_pet_slime
 
-
-[CHARDEF 05f]
-//On very old clients this was a sea monster
-//On somewhat old clients, this creature crashed the client
-//On very new clients this is a turkey...
-//FIXME: No Stratics data yet
-//DEFNAME=
-NAME=Turkey
-//ICON=i_pet_fixme
-//SOUND=snd_animal_fixme
-CAN=MT_WALK|MT_FLY|MT_NONHUM
-DAM=3,5
-ARMOR=10
-DESIRES=r_civilization,t_dirt
 
 
 [CHARDEF 060]
@@ -808,13 +772,7 @@ CAN=MT_WALK|MT_RUN|MT_USEHANDS|MT_EQUIP|MT_NONHUM
 
 
 [CHARDEF 09c]
-//FIXME: No Stratics data yet
-DEFNAME=c_turkey
-NAME=Turkey
-//ICON=i_pet_fixme
-//SOUND=snd_animal_fixme
-CAN=MT_WALK|MT_FLY|MT_NONHUM
-DAM=3,5
+DefName=cUnknown1
 
 
 [CHARDEF 09d]
@@ -1171,46 +1129,6 @@ ON=@Death
       NEW.MORE2=c_sheep_shorn
    ENDIF
 
-[CHARDEF 0d0]
-DEFNAME=c_chicken
-NAME=chicken
-ICON=i_pet_chicken
-SOUND=snd_animals_chicken1
-CAN=MT_WALK|MT_NONHUM
-DAM=1,2
-ARMOR=1
-DESIRES=r_civilization
-AVERSIONS=e_carnivores2,e_carnivores3
-FOODTYPE=t_grain
-MAXFOOD=5
-RESOURCES=25 i_feather,i_bird_raw,1 i_eggs_fresh
-BLOODCOLOR=colors_blood
-MOVERATE=100
-TAG.Barding.Diff=3.4
-TAG.SlayerGroup=BIRD
-FollowerSlots=1
-CATEGORY=Animals
-SUBSECTION=Tame
-DESCRIPTION=Chicken
-ON=@Create
-   NPC=brain_animal
-   FAME={1 499}
-   KARMA={-1 -499}
-   STR={1 10}
-   MAXHITS={1 5}
-   DEX={10 20}
-   MAXSTAM={10 20}
-   INT={1 10}
-   MAXMANA={1 10}
-   MAGICRESISTANCE={1.0 10.0}
-   TACTICS={1.0 5.0}
-   TAMING={0.1 5.0}
-   WRESTLING={1.0 5.0}
-   MODAR={0 4}
-   RESCOLD=0
-   RESENERGY=0
-   RESFIRE=0
-   RESPOISON=0
 
 [CHARDEF 0d1]
 DEFNAME=c_goat_mountain
@@ -1252,89 +1170,13 @@ ON=@Create
    RESFIRE={5 10}
    RESPOISON={10 15}
 
-[CHARDEF 0d2]
-DEFNAME=c_ostard_desert
-NAME=desert ostard
-ICON=i_pet_ostard_desert
-SOUND=snd_animal_ostard_desert1
-CAN=MT_WALK|MT_RUN|MT_NONHUM
-DAM=8,18
-ARMOR=15
-DESIRES=r_desert
-AVERSIONS=e_carnivores2,e_carnivores3
-FOODTYPE=t_fruit,t_grain,t_grass
-MAXFOOD=25
-RESOURCES=3 i_ribs_raw
-BLOODCOLOR=colors_blood
-MOVERATE=100
-TAG.Barding.Diff=32.3
-TAG.SlayerGroup=BIRD
-FollowerSlots=1
-TEVENTS=e_ostards
-CATEGORY=Mounts
-SUBSECTION=Wild
-DESCRIPTION=Ostard (desert)
-ON=@Create
-   NPC=brain_animal
-   FAME={1000 1499}
-   KARMA={-500 -999}
-   STR={94 170}
-   MAXHITS={71 88}
-   DEX={56 75}
-   MAXSTAM={56 75}
-   INT={6 10}
-   MAXMANA={6 10}
-   MAGICRESISTANCE={25.0 30.0}
-   TACTICS={25.0 40.0}
-   TAMING={25.0 30.0}
-   WRESTLING={29.0 44.0}
-   MODAR={0 5}
-   RESCOLD=0
-   RESENERGY=0
-   RESFIRE={5 10}
-   RESPOISON=0
 
 [CHARDEF 0d3]
 DEFNAME=c_bear_black
 NAME=black bear
 ICON=i_pet_bear_black
 SOUND=snd_animals_bear1
-CAN=MT_WALK|MT_RUN|MT_NONHUM
-DAM=6,16
-ARMOR=20
-DESIRES=r_jungle
-AVERSIONS=r_civilization
-FOODTYPE=t_fish
-MAXFOOD=35
-RESOURCES=12 i_hide,1 i_ribs_raw
-BLOODCOLOR=colors_blood
-MOVERATE=100
-TAG.Barding.Diff=31.0
-TAG.SlayerGroup=BEAR
-FollowerSlots=1
-TEVENTS=e_carnivores2
-CATEGORY=Animals
-SUBSECTION=Wild
-DESCRIPTION=Bear (black)
-ON=@Create
-   NPC=brain_animal
-   FAME={1000 1499}
-   KARMA={-1000 -1499}
-   STR={76 100}
-   MAXHITS={46 60}
-   DEX={56 75}
-   MAXSTAM={56 75}
-   INT={11 14}
-   MAXMANA={11 14}
-   MAGICRESISTANCE={20.0 40.0}
-   TACTICS={40.0 60.0}
-   TAMING={35.0 40.0}
-   WRESTLING={40.0 60.0}
-   MODAR={0 5}
-   RESCOLD={10 15}
-   RESENERGY=0
-   RESFIRE=0
-   RESPOISON={5 10}
+
 
 [CHARDEF 0d4]
 DEFNAME=c_bear_grizzly
@@ -1342,83 +1184,13 @@ NAME=grizzly bear
 ICON=i_pet_grizzly
 SOUND=snd_animals_grizzly1
 CAN=MT_WALK|MT_RUN|MT_NONHUM
-DAM=16,26
-ARMOR=25
-DESIRES=r_caves
-AVERSIONS=r_civilization
-FOODTYPE=t_fish
-MAXFOOD=40
-RESOURCES=14 i_hide,2 i_ribs_raw,1 i_fur_light
-BLOODCOLOR=colors_blood
-MOVERATE=100
-TAG.Barding.Diff=47.4
-TAG.SlayerGroup=BEAR
-FollowerSlots=1
-TEVENTS=e_carnivores2
-CATEGORY=Animals
-SUBSECTION=Wild
-DESCRIPTION=Grizzly Bear
-ON=@Create
-   NPC=brain_animal
-   FAME={1000 1499}
-   KARMA={-1000 -1499}
-   STR={126 155}
-   MAXHITS={76 93}
-   DEX={81 105}
-   MAXSTAM={81 105}
-   INT={16 40}
-   MAXMANA={16 40}
-   MAGICRESISTANCE={25.0 40.0}
-   TACTICS={70.0 100.0}
-   TAMING={55.0 60.0}
-   WRESTLING={45.0 70.0}
-   MODAR={0 10}
-   RESCOLD={15 25}
-   RESENERGY={5 10}
-   RESFIRE=0
-   RESPOISON={5 10}
+
 
 [CHARDEF 0d5]
 DEFNAME=c_bear_polar
 NAME=polar bear
 ICON=i_pet_bear_polar
-SOUND=snd_animals_bear1
-CAN=MT_WALK|MT_RUN|MT_SWIM|MT_NONHUM
-DAM=13,23
-ARMOR=25
-DESIRES=r_snow
-AVERSIONS=r_civilization
-FOODTYPE=t_fish
-MAXFOOD=40
-RESOURCES=16 i_hide,2 i_ribs_raw
-BLOODCOLOR=colors_blood
-MOVERATE=100
-TAG.Barding.Diff=38.9
-TAG.SlayerGroup=BEAR
-FollowerSlots=1
-TEVENTS=e_carnivores2
-CATEGORY=Mounts
-SUBSECTION=Wild
-DESCRIPTION=Bear (polar)
-ON=@Create
-   NPC=brain_animal
-   FAME={1000 1499}
-   KARMA={-1000 -1499}
-   STR={116 140}
-   MAXHITS={70 84}
-   DEX={81 105}
-   MAXSTAM={81 105}
-   INT={26 50}
-   MAXMANA={26 50}
-   MAGICRESISTANCE={45.0 60.0}
-   TACTICS={60.0 90.0}
-   TAMING={35.0 40.0}
-   WRESTLING={45.0 70.0}
-   MODAR={0 10}
-   RESCOLD={60 80}
-   RESENERGY={10 15}
-   RESFIRE=0
-   RESPOISON={15 25}
+
 
 [CHARDEF 0d6]
 DEFNAME=c_panther
@@ -1426,257 +1198,23 @@ NAME=panther
 ICON=i_pet_panther
 SOUND=snd_animals_panther1
 CAN=MT_WALK|MT_RUN|MT_NONHUM
-DAM=6,19
-ARMOR=20
-DESIRES=r_jungle
-AVERSIONS=r_civilization
-FOODTYPE=t_meat_raw
-MAXFOOD=15
-RESOURCES=1 i_ribs_raw,6 i_hide,3 i_fur_dark
-BLOODCOLOR=colors_blood
-MOVERATE=100
-TAG.Barding.Diff=36.5
-FollowerSlots=1
-TEVENTS=e_carnivores
-CATEGORY=Animals
-SUBSECTION=Wild
-DESCRIPTION=Panther
-ON=@Create
-   NPC=brain_animal
-   FAME={500 999}
-   KARMA={-500 -999}
-   STR={61 85}
-   MAXHITS={37 51}
-   DEX={86 105}
-   MAXSTAM={86 105}
-   INT={26 50}
-   MAXMANA={26 50}
-   MAGICRESISTANCE={15.0 30.0}
-   TACTICS={50.0 65.0}
-   TAMING={50.0 55.0}
-   WRESTLING={50.0 65.0}
-   MODAR={0 5}
-   RESCOLD={10 15}
-   RESENERGY=0
-   RESFIRE={5 10}
-   RESPOISON={5 10}
+
 
 [CHARDEF 0d7]
 DEFNAME=c_rat_giant
 NAME=giant rat
 ICON=i_pet_rat_2
 SOUND=snd_monster_grat1
-CAN=MT_WALK|MT_RUN|MT_NONHUM
-DAM=5,11
-ARMOR=15
-DESIRES=r_swamp,r_sewers,t_coin,t_gold,t_gem
-AVERSIONS=t_trap
-FOODTYPE=t_fish
-MAXFOOD=10
-RESOURCES=1 i_ribs_raw,6 i_hide
-BLOODCOLOR=colors_blood
-MOVERATE=100
-TAG.Barding.Diff=25.8
-TAG.SlayerGroup=VERMIN
-FollowerSlots=1
-CATEGORY=Animals
-SUBSECTION=Wild
-DESCRIPTION=Giant Rat
-ON=@Create
-   NPC=brain_animal
-   FAME={1 499}
-   KARMA={-500 -999}
-   STR={32 74}
-   MAXHITS={26 39}
-   DEX={46 65}
-   MAXSTAM={46 65}
-   INT={16 30}
-   MAXMANA={16 30}
-   MAGICRESISTANCE={25.0 30.0}
-   TACTICS={29.0 44.0}
-   TAMING={25.0 30.0}
-   WRESTLING={29.0 44.0}
-   MODAR={0 5}
-   RESCOLD=0
-   RESENERGY=0
-   RESFIRE={5 10}
-   RESPOISON={25 35}
-ON=@NPCRestock
-   ITEM=loot_rat_giant
 
-[CHARDEF 0d8]
-//FIXME: Can be milked by owner
-DEFNAME=c_cow_bw
-NAME=cow
-ICON=i_pet_cow
-SOUND=snd_animals_cow1
-CAN=MT_WALK|MT_FEMALE|MT_NONHUM
-DAM=1,4
-ARMOR=5
-DESIRES=r_civilization
-AVERSIONS=e_carnivores,e_carnivores2,e_carnivores3
-RESOURCES=8 i_ribs_raw,12 i_hide
-FOODTYPE=t_grain,t_grass
-MAXFOOD=35
-BLOODCOLOR=colors_blood
-MOVERATE=100
-TAG.Barding.Diff=6.6
-TAG.SlayerGroup=BOVINE
-FollowerSlots=1
-CATEGORY=Animals
-SUBSECTION=Tame
-DESCRIPTION=Cow (black and white)
-ON=@Create
-   NPC=brain_animal
-   FAME={1 499}
-   KARMA={-1 -499}
-   STR={25 35}
-   MAXHITS={15 20}
-   DEX={10 20}
-   MAXSTAM={10 20}
-   INT={1 10}
-   MAXMANA={1 10}
-   MAGICRESISTANCE={1.0 10.0}
-   TACTICS={1.0 10.0}
-   TAMING={10.0 15.0}
-   WRESTLING={1.0 10.0}
-   MODAR={0 10}
-   RESCOLD=0
-   RESENERGY=0
-   RESFIRE=0
-   RESPOISON=0
-   IF !(<R999>)
-      NAME=mad cow
-      KARMA=-1500
-      TAMING=0
-   ENDIF
 
 [CHARDEF 0d9]
 DEFNAME=c_dog
 NAME=dog
 ICON=i_pet_dog
 SOUND=snd_animals_dog1
-CAN=MT_WALK|MT_RUN|MT_NONHUM
-DAM=5,9
-ARMOR=10
-DESIRES=r_civilization
-AVERSIONS=e_carnivores2,e_carnivores3
-FOODTYPE=t_meat_raw
-MAXFOOD=5
-RESOURCES=1 i_ribs_raw
-BLOODCOLOR=colors_blood
-MOVERATE=100
-TAG.Barding.Diff=18.7
-FollowerSlots=1
-TEVENTS=e_carnivores
-CATEGORY=Animals
-SUBSECTION=Tame
-DESCRIPTION=Dog
-ON=@Create
-   NPC=brain_animal
-   COLOR=colors_animal
-   FAME={1 499}
-   KARMA={-1 -499}
-   STR={27 37}
-   MAXHITS={17 22}
-   DEX={28 43}
-   MAXSTAM={28 43}
-   INT={29 37}
-   MAXMANA={29 37}
-   MAGICRESISTANCE={22.0 47.0}
-   TACTICS={19.0 31.0}
-   TAMING={20.0 25.0}
-   WRESTLING={19.0 31.0}
-   MODAR={0 5}
-   RESCOLD=0
-   RESENERGY=0
-   RESFIRE=0
-   RESPOISON=0
 
-[CHARDEF 0da]
-DEFNAME=c_ostard_frenzied
-NAME=frenzied ostard
-ICON=i_pet_ostard_frenzied
-SOUND=snd_animal_ostard_frenzied1
-CAN=MT_WALK|MT_RUN|MT_NONHUM
-DAM=25,35
-ARMOR=25
-DESIRES=r_swamp
-AVERSIONS=e_carnivores3
-FOODTYPE=t_meat_raw
-MAXFOOD=25
-RESOURCES=3 i_ribs_raw
-BLOODCOLOR=colors_blood
-MOVERATE=100
-TAG.Barding.Diff=56.2
-TAG.SlayerGroup=BIRD
-FollowerSlots=1
-TEVENTS=e_carnivores
-TEVENTS=e_ostards
-CATEGORY=Mounts
-SUBSECTION=Wild
-DESCRIPTION=Ostard (frenzied)
-ON=@Create
-   NPC=brain_animal
-   FAME={1000 1499}
-   KARMA={-1000 -1499}
-   STR={94 170}
-   MAXHITS={71 110}
-   DEX={96 115}
-   MAXSTAM={96 115}
-   INT={6 10}
-   MAXMANA={6 10}
-   MAGICRESISTANCE={75.0 80.0}
-   TACTICS={79.0 94.0}
-   TAMING={75.0 80.0}
-   WRESTLING={79.0 94.0}
-   MODAR={0 5}
-   RESCOLD=0
-   RESENERGY={20 25}
-   RESFIRE={10 15}
-   RESPOISON={20 25}
 
-[CHARDEF 0db]
-DEFNAME=c_ostard_forest
-NAME=forest ostard
-ICON=i_pet_ostard_forest
-SOUND=snd_animal_ostard_desert1
-CAN=MT_WALK|MT_RUN|MT_NONHUM
-DAM=13,23
-ARMOR=15
-DESIRES=r_forests
-AVERSIONS=e_carnivores2,e_carnivores3
-FOODTYPE=t_fruit,t_grain,t_grass
-MAXFOOD=25
-RESOURCES=3 i_ribs_raw
-BLOODCOLOR=colors_blood
-MOVERATE=100
-TAG.Barding.Diff=31.6
-TAG.SlayerGroup=BIRD
-FollowerSlots=1
-TEVENTS=e_ostards
-CATEGORY=Mounts
-SUBSECTION=Wild
-DESCRIPTION=Ostard (forest)
-ON=@Create
-   NPC=brain_animal
-   FAME={1000 1499}
-   KARMA={-500 -999}
-   STR={94 170}
-   MAXHITS={71 88}
-   DEX={56 75}
-   MAXSTAM={56 75}
-   INT={6 10}
-   MAXMANA={6 10}
-   MAGICRESISTANCE={25.0 30.0}
-   TACTICS={29.0 44.0}
-   TAMING={25.0 30.0}
-   WRESTLING={29.0 44.0}
-   MODAR={0 5}
-   RESCOLD=0
-   RESENERGY=0
-   RESFIRE=0
-   RESPOISON=0
+
 
 [CHARDEF 0dc]
 DEFNAME=c_llama
@@ -1684,39 +1222,7 @@ NAME=llama
 ICON=i_pet_llama
 SOUND=snd_animals_llama3
 CAN=MT_WALK|MT_RUN|MT_NONHUM
-DAM=3,6
-ARMOR=15
-DESIRES=r_civilization
-AVERSIONS=e_carnivores2,e_carnivores3
-FOODTYPE=t_fruit,t_grain,t_grass
-MAXFOOD=25
-RESOURCES=1 i_ribs_raw,10 i_hide,2 i_fur_light
-BLOODCOLOR=colors_blood
-MOVERATE=100
-TAG.Barding.Diff=17.0
-FollowerSlots=1
-CATEGORY=Mounts
-SUBSECTION=Tame
-DESCRIPTION=Llama
-ON=@Create
-   NPC=brain_animal
-   FAME={1 499}
-   KARMA={-1 -499}
-   STR={21 49}
-   MAXHITS={15 27}
-   DEX={56 75}
-   MAXSTAM={56 75}
-   INT={16 30}
-   MAXMANA={16 30}
-   MAGICRESISTANCE={15.0 20.0}
-   TACTICS={19.0 29.0}
-   TAMING={25.0 30.0}
-   WRESTLING={19.0 29.0}
-   MODAR={0 5}
-   RESCOLD={5 10}
-   RESENERGY={5 10}
-   RESFIRE={5 10}
-   RESPOISON={5 10}
+
 
 [CHARDEF 0dd]
 DEFNAME=c_walrus
@@ -1725,38 +1231,7 @@ ICON=i_pet_walrus
 SOUND=snd_animals_walrus1
 CAN=MT_WALK|MT_SWIM|MT_NONHUM
 DAM=5,12
-ARMOR=20
-DESIRES=r_snow
-AVERSIONS=r_civilization
-FOODTYPE=t_fish
-MAXFOOD=25
-RESOURCES=12 i_hide,2 i_ivory
-BLOODCOLOR=colors_blood
-MOVERATE=100
-TAG.Barding.Diff=18.2
-FollowerSlots=1
-CATEGORY=Animals
-SUBSECTION=Wild
-DESCRIPTION=Walrus
-ON=@Create
-   NPC=brain_animal
-   FAME={1 499}
-   KARMA={-500 -999}
-   STR={21 29}
-   MAXHITS={14 17}
-   DEX={46 55}
-   MAXSTAM={46 55}
-   INT={16 20}
-   MAXMANA={16 20}
-   MAGICRESISTANCE={15.0 20.0}
-   TACTICS={19.0 29.0}
-   TAMING={35.0 40.0}
-   WRESTLING={19.0 29.0}
-   MODAR={0 5}
-   RESCOLD={20 25}
-   RESENERGY={5 10}
-   RESFIRE={5 10}
-   RESPOISON={5 10}
+
 
 [CHARDEF 0de]
 ////Partial animation - lizardman with spear - no corpse - dont use
@@ -1770,39 +1245,7 @@ ICON=i_pet_sheep
 SOUND=snd_animals_sheep1
 CAN=MT_WALK|MT_RUN|MT_NONHUM
 DAM=1,2
-ARMOR=5
-DESIRES=r_civilization
-AVERSIONS=e_carnivores2,e_carnivores3
-FOODTYPE=t_fruit,t_grain,t_grass
-MAXFOOD=15
-RESOURCES=1 i_ribs_raw,3 i_lamb_leg_raw
-BLOODCOLOR=colors_blood
-MOVERATE=100
-TAG.Barding.Diff=6.5
-FollowerSlots=1
-CATEGORY=Animals
-SUBSECTION=Tame
-DESCRIPTION=Lamb
-ON=@Create
-   COLOR={ colors_white 4 colors_gray 1 }
-   NPC=brain_animal
-   FAME={1 499}
-   KARMA={-1 -499}
-   STR={15 20}
-   MAXHITS={10 15}
-   DEX={20 30}
-   MAXSTAM={20 30}
-   INT={1 10}
-   MAXMANA={1 10}
-   MAGICRESISTANCE={1.0 10.0}
-   TACTICS={1.0 10.0}
-   TAMING={10.0 15.0}
-   WRESTLING={1.0 10.0}
-   MODAR={0 5}
-   RESCOLD=0
-   RESENERGY=0
-   RESFIRE=0
-   RESPOISON=0
+
 
 [CHARDEF 0e0]
 ////No animation - imp/mongbat - no corpse - dont use
@@ -1814,83 +1257,14 @@ DEFNAME=c_wolf_timber
 NAME=timber wolf
 ICON=i_pet_wolf_timber
 SOUND=snd_animals_wolf1
-CAN=MT_WALK|MT_RUN|MT_NONHUM
-DAM=6,13
-ARMOR=15
-DESIRES=r_forests
-AVERSIONS=r_civilization
-FOODTYPE=t_meat_raw
-MAXFOOD=15
-RESOURCES=1 i_ribs_raw,3 i_hide
-BLOODCOLOR=colors_blood
-MOVERATE=100
-TAG.Barding.Diff=29.4
-FollowerSlots=1
-TAG.SlayerGroup=WOLF
-TEVENTS=e_carnivores
-CATEGORY=Animals
-SUBSECTION=Wild
-DESCRIPTION=Wolf (timber)
-ON=@Create
-   NPC=brain_animal
-   FAME={500 999}
-   KARMA={-800 -999}
-   STR={56 80}
-   MAXHITS={34 48}
-   DEX={56 75}
-   MAXSTAM={56 75}
-   INT={11 25}
-   MAXMANA={11 25}
-   MAGICRESISTANCE={27.0 45.0}
-   TACTICS={30.0 50.0}
-   TAMING={20.0 25.0}
-   WRESTLING={40.0 60.0}
-   MODAR={0 5}
-   RESCOLD={10 15}
-   RESENERGY={5 10}
-   RESFIRE={5 10}
-   RESPOISON={5 10}
+
 
 [CHARDEF 0e2]
 DEFNAME=c_horse_gray
 NAME=horse
 ICON=i_pet_horse_gray
 SOUND=snd_animals_horse1
-CAN=MT_WALK|MT_RUN|MT_NONHUM
-DAM=4,6
-ARMOR=15
-DESIRES=r_jungle,r_civilization
-AVERSIONS=e_carnivores2,e_carnivores3
-RESOURCES=3 i_ribs_raw,10 i_hide
-FOODTYPE=t_fruit,t_grain,t_grass
-MAXFOOD=35
-BLOODCOLOR=colors_blood
-MOVERATE=100
-TAG.Barding.Diff=26.5
-FollowerSlots=1
-TEVENTS=e_horses
-CATEGORY=Mounts
-SUBSECTION=Tame
-DESCRIPTION=Horse (gray)
-ON=@Create
-   NPC=brain_animal
-   FAME={1000 1499}
-   KARMA={-1 -499}
-   STR={22 98}
-   MAXHITS={28 45}
-   DEX={56 75}
-   MAXSTAM={56 75}
-   INT={6 10}
-   MAXMANA={6 10}
-   MAGICRESISTANCE={25.0 30.0}
-   TACTICS={29.0 44.0}
-   TAMING={25.0 30.0}
-   WRESTLING={29.0 44.0}
-   MODAR={0 5}
-   RESCOLD=0
-   RESENERGY=0
-   RESFIRE=0
-   RESPOISON=0
+
 
 [CHARDEF 0e3]
 ////No animation - no corpse - dont use
@@ -1901,267 +1275,34 @@ CAN=MT_NONMOVER|MT_NONHUM
 DEFNAME=c_horse_brown_lt
 NAME=horse
 ICON=i_pet_horse_brown_lt
-SOUND=snd_animals_horse1
-CAN=MT_WALK|MT_RUN|MT_NONHUM
-DAM=4,6
-ARMOR=15
-DESIRES=r_mountains,r_civilization
-AVERSIONS=e_carnivores2,e_carnivores3
-RESOURCES=3 i_ribs_raw,10 i_hide
-FOODTYPE=t_fruit,t_grain,t_grass
-MAXFOOD=35
-BLOODCOLOR=colors_blood
-MOVERATE=100
-TAG.Barding.Diff=26.5
-FollowerSlots=1
-TEVENTS=e_horses
-CATEGORY=Mounts
-SUBSECTION=Tame
-DESCRIPTION=Horse (light brown)
-ON=@Create
-   NPC=brain_animal
-   FAME={1000 1499}
-   KARMA={-1 -499}
-   STR={22 98}
-   MAXHITS={28 45}
-   DEX={56 75}
-   MAXSTAM={56 75}
-   INT={6 10}
-   MAXMANA={6 10}
-   MAGICRESISTANCE={25.0 30.0}
-   TACTICS={29.0 44.0}
-   TAMING={25.0 30.0}
-   WRESTLING={29.0 44.0}
-   MODAR={0 5}
-   RESCOLD=0
-   RESENERGY=0
-   RESFIRE=0
-   RESPOISON=0
+
+
 
 [CHARDEF 0e5]
 ////No animation - reaper - no corpse - dont use
 NAME=0e5
 CAN=MT_NONMOVER|MT_NONHUM
 
+
 [CHARDEF 0e6]
 DEFNAME=c_reaper_form
 NAME=reaper form
 ICON=i_pet_reaper
-SOUND=snd_monster_reaper1
-CAN=MT_WALK|MT_NONHUM
-DAM=17,20
-ARMOR=35
-//DESIRES=
-//AVERSIONS=
-//FOODTYPE=
-//MAXFOOD=
-//RESOURCES=
-BLOODCOLOR=colors_brown
-MOVERATE=200
-TAG.Barding.Diff=74.1
-DamPoison=20
-CATEGORY=Spells
-SUBSECTION=Spellweaving
-DESCRIPTION=Reaper Form
-ON=@Create
-   NPC=brain_monster
-   FAME={2000 2499}
-   KARMA={-2000 -2499}
-   STR={66 215}
-   MAXHITS={40 129}
-   DEX={66 75}
-   MAXSTAM={66 75}
-   INT={101 250}
-   MAXMANA={101 250}
-   EVALUATINGINTEL={90.0 100.0}
-   MAGERY={90.0 100.0}
-   MAGICRESISTANCE={100.0 125.0}
-   //POISONING={45.0 60.0}
-   TACTICS={45.0 60.0}
-   WRESTLING={50.0 60.0}
-   MODAR={0 10}
-   RESCOLD={10 20}
-   RESENERGY={40 50}
-   RESFIRE=0
-   RESPOISON={30 40}
-ON=@NPCRestock
-   ITEM=loot_reaper
 
-[CHARDEF 0e7]
-//FIXME: Can be milked by owner
-DEFNAME=c_cow_brown
-NAME=cow
-ICON=i_pet_cow
-SOUND=snd_animals_cow1
-CAN=MT_WALK|MT_FEMALE|MT_NONHUM
-DAM=1,4
-ARMOR=5
-DESIRES=r_civilization
-AVERSIONS=e_carnivores2,e_carnivores3
-RESOURCES=8 i_ribs_raw,12 i_hide
-FOODTYPE=t_fruit,t_grain,t_grass
-MAXFOOD=35
-BLOODCOLOR=colors_blood
-MOVERATE=100
-TAG.Barding.Diff=6.6
-TAG.SlayerGroup=BOVINE
-FollowerSlots=1
-CATEGORY=Animals
-SUBSECTION=Tame
-DESCRIPTION=Cow (black and white)
-ON=@Create
-   NPC=brain_animal
-   FAME={1 499}
-   KARMA={-1 -499}
-   STR={25 35}
-   MAXHITS={15 20}
-   DEX={10 20}
-   MAXSTAM={10 20}
-   INT={1 10}
-   MAXMANA={1 10}
-   MAGICRESISTANCE={1.0 10.0}
-   TACTICS={1.0 10.0}
-   TAMING={10.0 15.0}
-   WRESTLING={1.0 10.0}
-   MODAR={0 10}
-   RESCOLD=0
-   RESENERGY=0
-   RESFIRE=0
-   RESPOISON=0
-   IF !(<R999>)
-      NAME=mad cow
-      KARMA=-1500
-      TAMING=0
-   ENDIF
 
-[CHARDEF 0e8]
-DEFNAME=c_bull_brown_lt
-NAME=bull
-ICON=i_pet_bull
-SOUND=snd_animals_bull1
-CAN=MT_WALK|MT_RUN|MT_NONHUM
-DAM=7,17
-ARMOR=25
-DESIRES=r_civilization
-AVERSIONS=e_carnivores2,e_carnivores3
-FOODTYPE=t_fruit,t_grain,t_grass
-MAXFOOD=35
-RESOURCES=10 i_ribs_raw,15 i_hide
-BLOODCOLOR=colors_blood
-MOVERATE=100
-TAG.Barding.Diff=35.8
-TAG.SlayerGroup=BOVINE
-FollowerSlots=1
-CATEGORY=Animals
-SUBSECTION=Tame
-DESCRIPTION=Bull (light brown)
-ON=@Create
-   COLOR={ colors_brown 1 color_none 1 }
-   NPC=brain_animal
-   FAME={1000 1499}
-   KARMA={-1 -499}
-   STR={77 111}
-   MAXHITS={50 64}
-   DEX={56 75}
-   MAXSTAM={56 75}
-   INT={47 75}
-   MAXMANA={47 75}
-   MAGICRESISTANCE={17.0 25.0}
-   TACTICS={67.0 85.0}
-   TAMING={70.0 75.0}
-   WRESTLING={40.0 58.0}
-   MODAR={0 5}
-   RESCOLD={10 15}
-   RESENERGY=0
-   RESFIRE=0
-   RESPOISON=0
-
-[CHARDEF 0e9]
-DEFNAME=c_bull_brown_dk
-NAME=bull
-ICON=i_pet_bull
-SOUND=snd_animals_bull1
-CAN=MT_WALK|MT_RUN|MT_NONHUM
-DAM=7,17
-ARMOR=25
-DESIRES=r_civilization
-AVERSIONS=e_carnivores2,e_carnivores3
-FOODTYPE=t_fruit,t_grain,t_grass
-MAXFOOD=35
-RESOURCES=10 i_ribs_raw,15 i_hide
-BLOODCOLOR=colors_blood
-MOVERATE=100
-TAG.Barding.Diff=35.8
-TAG.SlayerGroup=BOVINE
-FollowerSlots=1
-CATEGORY=Animals
-SUBSECTION=Tame
-DESCRIPTION=Bull (dark brown)
-ON=@Create
-   COLOR={ colors_brown 1 color_none 1 }
-   NPC=brain_animal
-   FAME={1000 1499}
-   KARMA={-1 -499}
-   STR={77 111}
-   MAXHITS={50 64}
-   DEX={56 75}
-   MAXSTAM={56 75}
-   INT={47 75}
-   MAXMANA={47 75}
-   MAGICRESISTANCE={17.0 25.0}
-   TACTICS={67.0 85.0}
-   TAMING={70.0 75.0}
-   WRESTLING={40.0 58.0}
-   MODAR={0 5}
-   RESCOLD={10 15}
-   RESENERGY=0
-   RESFIRE=0
-   RESPOISON=0
-
+   
 [CHARDEF 0ea]
 DEFNAME=c_stag
 NAME=great hart
 ICON=i_pet_deer
 SOUND=snd_animals_deer3
-CAN=MT_WALK|MT_RUN|MT_NONHUM
-DAM=7,13
-ARMOR=20
-DESIRES=r_forests
-AVERSIONS=r_civilization,e_carnivores2,e_carnivores3
-FOODTYPE=t_fruit,t_grain,t_grass
-MAXFOOD=25
-RESOURCES=6 i_ribs_raw,15 i_hide
-BLOODCOLOR=colors_blood
-MOVERATE=100
-TAG.Barding.Diff=27.3
-FollowerSlots=1
-CATEGORY=Animals
-SUBSECTION=Wild
-DESCRIPTION=Great Hart
-ON=@Create
-   NPC=brain_animal
-   FAME={1 499}
-   KARMA={-1 -499}
-   STR={41 71}
-   MAXHITS={27 41}
-   DEX={47 77}
-   MAXSTAM={47 77}
-   INT={27 57}
-   MAXMANA={27 57}
-   MAGICRESISTANCE={26.0 45.0}
-   TACTICS={29.0 48.0}
-   TAMING={55.0 60.0}
-   WRESTLING={29.0 48.0}
-   MODAR={0 5}
-   RESCOLD={5 10}
-   RESENERGY=0
-   RESFIRE=0
-   RESPOISON=0
+
 
 [CHARDEF 0eb]
 ////Partial animation - troll with club - no corpse - dont use
 NAME=0eb
 CAN=MT_NONMOVER|MT_NONHUM
+
 
 [CHARDEF 0ec]
 //Partial animation - skeleton with scimitar
@@ -2169,45 +1310,7 @@ CAN=MT_NONMOVER|MT_NONHUM
 DEFNAME=c_lady_jennifyr
 NAME=Lady Jennifyr
 ICON=i_pet_skeleton_knight
-SOUND=snd_monster_skletn1
-CAN=MT_WALK|MT_RUN|MT_USEHANDS|MT_EQUIP
-DAM=24,30
-ARMOR=35
-DESIRES=r_dungeon_bedlam,t_coin,t_gold,t_gem,t_wand,t_potion,t_scroll,t_reagent
-AVERSIONS=t_trap,r_civilization
-RESOURCES=3 i_reag_bone
-BLOODCOLOR=-1
-//FOODTYPE=
-//MAXFOOD=
-MOVERATE=100
-TAG.Barding.Diff=135.5
-DamCold=60
-TAG.HitLowerFireResist=7
-TAG.SlayerGroup=UNDEAD
-CATEGORY=Monsters
-SUBSECTION=Undead
-DESCRIPTION=Skeleton Knight (Lady Jennifyr)
-ON=@Create
-   NPC=brain_monster
-   FAME={1500 1999}
-   KARMA={-1500 -1999}
-   STR={210 315}
-   MAXHITS={1100 1450}
-   DEX={90 135}
-   MAXSTAM={90 135}
-   INT={45 105}
-   MAXMANA={45 105}
-   ANATOMY={125.0 140.0}
-   MAGICRESISTANCE={100.0 115.0}
-   TACTICS={125.0 145.0}
-   WRESTLING={125.0 140.0}
-   MODAR={0 20}
-   RESCOLD={30 60}
-   RESENERGY={60 80}
-   RESFIRE={70 85}
-   RESPOISON={50 70}
-ON=@NPCRestock
-   ITEM=loot_skeletal_knight
+
 
 [CHARDEF 0ed]
 DEFNAME=c_doe
@@ -2221,77 +1324,13 @@ DESIRES=r_forests
 AVERSIONS=r_civilization,e_carnivores2,e_carnivores3
 FOODTYPE=t_fruit,t_grain,t_grass
 MAXFOOD=25
-RESOURCES=5 i_ribs_raw,8 i_hide
-BLOODCOLOR=colors_blood
-MOVERATE=100
-TAG.Barding.Diff=18.2
-FollowerSlots=1
-CATEGORY=Animals
-SUBSECTION=Wild
-DESCRIPTION=Hind
-ON=@Create
-   NPC=brain_animal
-   FAME={1 499}
-   KARMA={-1 -499}
-   STR={21 51}
-   MAXHITS={15 29}
-   DEX={47 77}
-   MAXSTAM={47 77}
-   INT={17 47}
-   MAXMANA={17 47}
-   MAGICRESISTANCE={15.0 20.0}
-   TACTICS={19.0 25.0}
-   TAMING={20.0 25.0}
-   WRESTLING={26.0 30.0}
-   MODAR={0 10}
-   RESCOLD={5 10}
-   RESENERGY=0
-   RESFIRE=0
-   RESPOISON=0
+
 
 [CHARDEF 0ee]
 DEFNAME=c_rat
 NAME=rat
 ICON=i_pet_rat
-SOUND=snd_animals_rat1
-CAN=MT_WALK|MT_RUN|MT_NONHUM
-DAM=1,2
-ARMOR=5
-DESIRES=r_sewers,r_swamp,r_forests,r_jungle,r_mountains,r_desert,t_coin,t_gold,t_gem,r_darkness
-AVERSIONS=r_light,e_carnivores2,e_carnivores3
-FOODTYPE=t_food,t_food_raw
-MAXFOOD=5
-RESOURCES=1 i_ribs_raw
-BLOODCOLOR=colors_blood
-MOVERATE=100
-TAG.Barding.Diff=6.0
-TAG.SlayerGroup=VERMIN
-FollowerSlots=1
-CATEGORY=Animals
-SUBSECTION=Wild
-DESCRIPTION=Rat
-ON=@Create
-//   COLOR=colors_brown
-   NPC=brain_animal
-   FAME={1 499}
-   KARMA={-1 -499}
-   STR={9 12}
-   MAXHITS={6 12}
-   DEX={35 45}
-   MAXSTAM={35 45}
-   INT={5 10}
-   MAXMANA={5 10}
-   MAGICRESISTANCE={1.0 5.0}
-   TACTICS={1.0 5.0}
-   TAMING={0.1 5.0}
-   WRESTLING={1.0 5.0}
-   MODAR={0 5}
-   RESCOLD=0
-   RESENERGY=0
-   RESFIRE=0
-   RESPOISON={5 10}
-ON=@NpcRestock
-   ITEM=i_gold,{25 50}
+
 
 [CHARDEF 0ef]
 ////No animation - no corpse - dont use
@@ -2302,123 +1341,13 @@ CAN=MT_NONMOVER|MT_NONHUM
 DEFNAME=c_kappa
 NAME=kappa
 ICON=i_pet_kappa
-SOUND=snd_monster_kappa
-CAN=MT_WALK|MT_SWIM|MT_NONHUM
-DAM=13,26
-ARMOR=35
-DESIRES=r_water,r_swamp,t_coin,t_gold,t_gem
-AVERSIONS=r_civilization,e_carnivores3
-FOODTYPE=t_meat_raw
-MAXFOOD=30
-RESOURCES=1 i_ribs_raw,4 i_reag_blood_spawn
-BLOODCOLOR=colors_blood
-MOVERATE=100
-TAG.Barding.Diff=63.6
-TAG.CorrosiveBlood=10
-TEVENTS=e_carnivores2
-CATEGORY=Monsters
-SUBSECTION=Miscellaneous
-DESCRIPTION=Kappa
-RESLEVEL=3
-RESDISPDNID=c_man
-RESDISPDNHUE=33
-ON=@Create
-   NPC=brain_monster
-   FAME={2000 2499}
-   KARMA={-2000 -2499}
-   STR={195 225}
-   MAXHITS={150 180}
-   DEX={50 70}
-   MAXSTAM={50 70}
-   INT={40 55}
-   MAXMANA={40 55}
-   MAGICRESISTANCE={60.0 70.0}
-   TACTICS={80.0 90.0}
-   WRESTLING={60.0 65.0}
-   MODAR={0 15}
-   RESCOLD={25 35}
-   RESENERGY={20 30}
-   RESFIRE={35 50}
-   RESPOISON={35 50}
-ON=@NpcRestock
-   ITEM=loot_kappa
-ON=@GetHit
-   //Life Drain Aura Attack
-   IF !(<R3>)
-      REF11=<UID>
-      FORCHARS 3
-         IF (<ISPLAYER>) || (<FLAGS>&statf_pet)
-            LOCAL.DAM=<R10,20>
-            DAMAGE <LOCAL.DAM> <DEF.dam_physical> <REF11>
-            REF11.HITS += <LOCAL.DAM>
-            IF (<REF11.HITS> > <REF11.MAXHITS>)
-               REF11.HITS=<REF11.MAXHITS>
-            ENDIF
-            SRC.SYSMESSAGE The evil aura of the kappa drains life from you
-         ENDIF
-      END
-   ENDIF
+
 
 [CHARDEF 0f1]
 DEFNAME=c_oni
 NAME=oni
 ICON=i_pet_oni
-SOUND=snd_monster_oni
-CAN=MT_WALK|MT_RUN|MT_USEHANDS|MT_EQUIP
-DAM=57,99
-ARMOR=65
-DESIRES=r_desert,t_coin,t_gold,t_gem,t_wand,t_potion,t_scroll,t_reagent
-AVERSIONS=t_trap,r_civilization,e_carnivores3
-FOODTYPE=t_meat_raw
-MAXFOOD=40
-RESOURCES=1 i_ribs_raw
-BLOODCOLOR=colors_blood
-MOVERATE=100
-TAG.Barding.Diff=106.5
-DamEnergy=20
-DamFire=10
-TAG.SlayerGroup=DEMON
-TEVENTS=e_carnivores3
-CATEGORY=Monsters
-SUBSECTION=Demons
-DESCRIPTION=Oni
-RESLEVEL=3
-RESDISPDNID=c_man
-RESDISPDNHUE=55
-ON=@Create
-   NPC=brain_monster
-   FAME={4000 4499}
-   KARMA={-4000 -4499}
-   STR={800 905}
-   MAXHITS={400 530}
-   DEX={150 200}
-   MAXSTAM={150 200}
-   INT={170 200}
-   MAXMANA={170 200}
-   ANATOMY={85.0 95.0}
-   EVALUATINGINTEL={100.0 125.0}
-   MAGERY={96.0 106.0}
-   MAGICRESISTANCE={85.0 100.0}
-   MEDITATION={27.0 43.0}
-   TACTICS={85.0 100.0}
-   WRESTLING={90.0 100.0}
-   MODAR={0 15}
-   RESCOLD={35 50}
-   RESENERGY={45 65}
-   RESFIRE={50 70}
-   RESPOISON={45 70}
-ON=@NpcRestock
-   ITEM=loot_oni
-   ITEM=loot_ai_hard
-ON=@Hit
-   //Angry Fire Attack
-   IF !(<R5>) && (<MANA> > 20)
-      MANA -= 20
-      SRC.SYSMESSAGELOC color_text,1070823//"The creature hits you with its Angry Fire."
-      SRC.SPELLEFFECT s_explosion,<MAGERY>,0,<UID>
-      SRC.EFFECT 3,i_fx_explode,1,16,0
-      SRC.SOUND snd_spell_explosion
-   ENDIF
+
 
 [CHARDEF 0f2]
 DEFNAME=c_deathwatch_beetle
@@ -2426,55 +1355,7 @@ NAME=deathwatch beetle
 ICON=i_pet_deathwatch_beetle
 SOUND=snd_death_beetle1
 CAN=MT_WALK|MT_RUN|MT_NONHUM
-DAM=10,21
-ARMOR=35
-DESIRES=r_caves,t_coin,t_gold,t_gem
-AVERSIONS=r_civilization,e_carnivores2,e_carnivores3
-FOODTYPE=t_fruit,t_grain
-MAXFOOD=40
-RESOURCES=8 i_hide
-BLOODCOLOR=colors_green
-MOVERATE=100
-TAG.Barding.Diff=53.4
-FollowerSlots=1
-TAG.SlayerGroup=BEETLE
-TEVENTS=e_poisoned_spit
-CATEGORY=Monsters
-SUBSECTION=Insects
-DESCRIPTION=Deathwatch Beetle
-RESLEVEL=3
-RESDISPDNID=c_man
-RESDISPDNHUE=33
-ON=@Create
-   NPC=brain_monster
-   FAME={1500 1999}
-   KARMA={-1500 -1999}
-   STR={135 160}
-   MAXHITS={120 130}
-   DEX={40 55}
-   MAXSTAM={40 55}
-   INT={30 40}
-   MAXMANA={30 40}
-   ANATOMY={30.0 35.0}
-   MAGICRESISTANCE={50.0 60.0}
-   //POISONING={55.0 65.0}
-   TACTICS={40.0 45.0}
-   TAMING={40.0 45.0}
-   WRESTLING={50.0 60.0}
-   MODAR={0 5}
-   RESCOLD={15 30}
-   RESENERGY={20 35}
-   RESFIRE={15 30}
-   RESPOISON={50 80}
-ON=@NpcRestock
-   ITEM=loot_deathwatch_beetle
-ON=@Hit
-   //Crushing Blow Attack
-   IF (<MANA> >= 20)
-      MANA -= 20
-      ARGN1 = <EVAL <ARGN1> + (<ARGN1> / 2)>  //adds 50% damage
-      ARGN2 = <DEF.dam_physical>
-   ENDIF
+
 
 [CHARDEF 0f3]
 //FIXME: Attack will lower physical resistance
@@ -2485,124 +1366,15 @@ NAME=hiryu
 ICON=i_pet_hiryu
 SOUND=snd_animal_hiryu
 CAN=MT_WALK|MT_RUN|MT_NONHUM
-DAM=65,90//untamed this is double
-ARMOR=55
-DESIRES=r_forests,t_coin,t_gold,t_gem
-AVERSIONS=t_trap,r_civilization
-FOODTYPE=t_meat_raw
-MAXFOOD=35
-RESOURCES=16 i_ribs_raw,6 i_hide
-BLOODCOLOR=colors_blood
-MOVERATE=100
-TAG.Barding.Diff=118.2
-FollowerSlots=4
-TAG.SlayerGroup=DRAGON,REPTILE
-TEVENTS=e_horses
-TEVENTS=e_carnivores3
-CATEGORY=Mounts
-SUBSECTION=Wild
-DESCRIPTION=Hiryu
-RESLEVEL=4
-RESDISPDNID=c_horse_gray
-RESDISPDNHUE=08386
-ON=@Create
-   NPC=brain_animal
-   KARMA={-4500 -4999}
-   FAME={4500 4999}
-   STR={1200 1410}
-   MAXHITS={900 1100}
-   DEX={170 210}
-   MAXSTAM={170 210}
-   INT={300 325}
-   MAXMANA={300 325}
-   MAXMANA={100 125}
-   ANATOMY={75.0 80.0}
-   MAGICRESISTANCE={85.0 100.0}
-   TACTICS={100.0 110.0}
-   WRESTLING={100.0 120.0}
-//   TAMING={105.0 115.0}
-   MODAR={0 15}
-   RESCOLD={15 25}
-   RESENERGY={40 50}
-   RESFIRE={70 90}
-   RESPOISON={40 50}
-ON=@NpcRestock
-   ITEM=loot_hiryu
-   //1500 - 1900 Gold. Magic Items, 4 Gems
-   //Special: Bonsai Seed, Fragrant Seed, Peculiar Seed.
-ON=@Hit
-   //Dismount Attack
-   IF (<MANA> >= 20) && (<SRC.FLAGS> & statf_onhorse)
-      MANA -= 20
-      SRC.DISMOUNT
-      SRC.EMOTE knocked off mount!
-      SRC.DAMAGE <R15,25> <DEF.dam_physical> <UID>
-   ENDIF
+
+
 
 [CHARDEF 0f4]
 //FIXME: has the ability to temporarily corrupt armor, which halves resistances.
 DEFNAME=c_rune_beetle
 NAME=rune beetle
 ICON=i_pet_beetle_rune
-SOUND=snd_monster_rune_beetle
-CAN=MT_WALK|MT_RUN|MT_NONHUM
-DAM=42,60
-ARMOR=40
-DESIRES=r_caves,t_coin,t_gold,t_gem,t_reagent
-AVERSIONS=t_trap,r_civilization
-FOODTYPE=t_meat_raw
-MAXFOOD=45
-RESOURCES=4 i_reag_obsidian
-BLOODCOLOR=colors_blood
-MOVERATE=130
-TAG.Barding.Diff=110.2
-FollowerSlots=3
-DamEnergy=70
-DamPoison=10
-TAG.HitCorrosive=20
-TAG.HitPoison=4//Deadly
-TAG.SlayerGroup=BEETLE
-TEVENTS=e_carnivores3
-CATEGORY=Monsters
-SUBSECTION=Insects
-DESCRIPTION=Rune Beetle
-RESLEVEL=3
-RESDISPDNID=c_man
-RESDISPDNHUE=33
-ON=@Create
-   NPC=brain_monster
-   FAME={3000 3499}
-   KARMA={-3000 -3499}
-   STR={400 465}
-   MAXHITS={310 360}
-   DEX={125 170}
-   MAXSTAM={125 170}
-   INT={95 125}
-   MAXMANA={95 125}
-   EVALUATINGINTEL={100.0 125.0}
-   MAGERY={100.0 110.0}
-   MAGICRESISTANCE={95.0 110.0}
-   MEDITATION={95.0 110.0}
-   //POISONING={100.0 125.0}
-   TACTICS={80.0 95.0}
-   TAMING={90.0 95.0}
-   WRESTLING={70.0 80.0}
-   MODAR={0 15}
-   RESCOLD={35 50}
-   RESENERGY={40 60}
-   RESFIRE={35 50}
-   RESPOISON={75 95}
-ON=@NpcRestock
-   ITEM=loot_rune_beetle
-ON=@Hit
-   //Bleed Attack
-   IF (<MANA> >= 25) && !(<SRC.FINDID.i_bleed_timer>)
-      MANA -= 25
-      SERV.NEWITEM i_bleed_timer
-      NEW.LINK=<UID>
-      SRC.EQUIP <NEW>
-   ENDIF
-   //"when they are low in HP they lash out with lightning"
+
 
 [CHARDEF 0f6]
 //FIXME: has the ability to go into a rage, that will allow it to inflict a
@@ -2612,51 +1384,7 @@ ON=@Hit
 DEFNAME=c_bake_kitsune
 NAME=bake kitsune
 ICON=i_pet_bakekitsune
-SOUND=snd_monster_bake_kitsune
-CAN=MT_WALK|MT_RUN|MT_NONHUM
-DAM=32,45
-ARMOR=40
-DESIRES=r_forests,r_plains,t_coin,t_gold,t_gem,t_wand,t_potion,t_scroll,t_reagent
-AVERSIONS=t_trap,r_civilization,e_carnivores3
-FOODTYPE=t_fish
-MAXFOOD=30
-RESOURCES=3 i_ribs_raw,30 i_hide
-BLOODCOLOR=colors_blood
-MOVERATE=100
-TAG.Barding.Diff=95.5
-TAG.SlayerGroup=WOLF
-FollowerSlots=2
-DamEnergy=30
-CATEGORY=Monsters
-SUBSECTION=Miscellaneous
-DESCRIPTION=Bake Kitsune
-RESLEVEL=3
-RESDISPDNID=c_man
-RESDISPDNHUE=33
-ON=@Create
-   NPC=brain_monster
-   FAME={1500 1999}
-   KARMA={-1500 -1999}
-   STR={170 220}
-   MAXHITS={310 350}
-   DEX={125 145}
-   MAXSTAM={125 145}
-   INT={75 95}
-   MAXMANA={375 425}
-   EVALUATINGINTEL={80.0 90.0}
-   MAGERY={80.0 90.0}
-   MAGICRESISTANCE={80.0 100.0}
-   MEDITATION={85.0 95.0}
-   TACTICS={70.0 90.0}
-   TAMING={80.0 85.0}
-   WRESTLING={50.0 55.0}
-   MODAR={0 20}
-   RESCOLD={40 60}
-   RESENERGY={40 60}
-   RESFIRE={70 90}
-   RESPOISON={40 60}
-ON=@NpcRestock
-   ITEM=loot_bake_kitsune
+
 
 [CHARDEF 0f7]
 //FIXME: Lowers Fire Resistance.
@@ -2715,48 +1443,6 @@ ON=@GetHit
       ENDIF
    ENDIF
 
-[CHARDEF 0f8]
-DEFNAME=c_gaman
-NAME=gaman
-ICON=i_pet_gaman
-SOUND=snd_monster_gaman
-CAN=MT_WALK|MT_RUN|MT_NONHUM
-DAM=13,23
-ARMOR=50
-DESIRES=r_jungle
-AVERSIONS=r_civilization,e_carnivores2,e_carnivores3
-RESOURCES=i_horn_bull,15 i_hide,10 i_ribs_raw
-FOODTYPE=t_fruit,t_grain,t_grass
-MAXFOOD=40
-MOVERATE=100
-TAG.Barding.Diff=59.1
-TAG.SlayerGroup=BOVINE
-FollowerSlots=1
-CATEGORY=Animals
-SUBSECTION=Wild
-DESCRIPTION=Gaman
-RESLEVEL=3
-RESDISPDNID=c_dog
-RESDISPDNHUE=33
-ON=@Create
-   NPC=brain_animal
-   FAME={2000 2500}
-   KARMA={-2000 -2499}
-   STR={145 175}
-   MAXHITS={130 160}
-   DEX={115 145}
-   MAXSTAM={115 145}
-   INT={45 60}
-   MAXMANA={45 60}
-   MAGICRESISTANCE={35.0 45.0}
-   TACTICS={70.0 85.0}
-   TAMING={65.0 70.0}
-   WRESTLING={50.0 60.0}
-   MODAR={0 20}
-   RESCOLD={30 50}
-   RESENERGY={30 50}
-   RESFIRE={30 50}
-   RESPOISON={40 60}
 
 [CHARDEF 0f9]
 //FIXME: Lightning Strike
@@ -2829,94 +1515,8 @@ ON=@GetHit
 //FIXME: Rage Attack
 DEFNAME=c_tsuki_wolf
 NAME=tsuki wolf
-ICON=i_pet_wolf_tsuki
-SOUND=snd_monster_tsuki_wolf
-CAN=MT_WALK|MT_RUN|MT_USEHANDS|MT_EQUIP
-DAM=48,73
-ARMOR=40
-DESIRES=r_forests,r_plains,t_coin,t_gold,t_gem,t_potion
-AVERSIONS=t_trap,r_civilization,e_carnivores3
-FOODTYPE=t_meat_raw
-MAXFOOD=40
-RESOURCES=25 i_hide,4 i_ribs_raw
-BLOODCOLOR=colors_blood
-MOVERATE=130
-TAG.Barding.Diff=87.4
-DamCold=5
-DamEnergy=5
-TAG.SlayerGroup=WOLF,DEMON
-TEVENTS=e_carnivores3
-CATEGORY=Monsters
-SUBSECTION=Demons
-DESCRIPTION=Tsuki Wolf
-RESLEVEL=3
-RESDISPDNID=c_dog
-RESDISPDNHUE=33
-ON=@Create
-   NPC=brain_monster
-   FAME={3000 3499}
-   KARMA={-3000 -3499}
-   STR={400 450}
-   MAXHITS={380 440}
-   DEX={150 200}
-   MAXSTAM={150 200}
-   INT={65 75}
-   MAXMANA={65 75}
-   ANATOMY={65.0 75.0}
-   MAGICRESISTANCE={65.0 70.0}
-   TACTICS={95.0 110.0}
-   WRESTLING={98.0 108.0}
-   MODAR={0 20}
-   RESCOLD={50 70}
-   RESENERGY={50 70}
-   RESFIRE={50 70}
-   RESPOISON={50 70}
-ON=@NpcRestock
-   ITEM=loot_tsuki_wolf
 
-[CHARDEF 0fe]
-DEFNAME=c_crane
-NAME=crane
-ICON=i_pet_crane
-SOUND=snd_animal_crane
-CAN=MT_WALK|MT_FLY|MT_NONHUM
-DAM=1,2
-ARMOR=5
-DESIRES=r_jungle,r_swamp
-AVERSIONS=e_carnivores,e_carnivores2,e_carnivores3
-FOODTYPE=t_fish
-MAXFOOD=10
-RESOURCES=1 i_bird_raw,25 i_feather
-BLOODCOLOR=colors_blood
-MOVERATE=100
-TAG.Barding.Diff=9.2
-TAG.SlayerGroup=BIRD
-FollowerSlots=1
-CATEGORY=Animals
-SUBSECTION=Wild
-DESCRIPTION=Crane
-RESLEVEL=3
-RESDISPDNID=c_man
-RESDISPDNHUE=33
-ON=@Create
-   NPC=brain_animal
-   FAME={1 499}
-   KARMA={-1 -499}
-   STR={25 35}
-   MAXHITS={25 35}
-   DEX={15 25}
-   MAXSTAM={15 25}
-   INT={10 15}
-   MAXMANA={10 15}
-   MAGICRESISTANCE={4.0 5.0}
-   TACTICS={10.0 11.0}
-   TAMING={15.0 20.0}
-   WRESTLING={10.0 11.0}
-   MODAR={0 5}
-   RESCOLD=0
-   RESENERGY=0
-   RESFIRE=0
-   RESPOISON=0
+
 
 [CHARDEF 0100]
 // Chief Paroxysmus is the peerless boss of the Palace of Paroxysmus.

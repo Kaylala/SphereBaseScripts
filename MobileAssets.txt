@@ -593,37 +593,37 @@ Bane Dragon
 Hell Hound (Bane)
 Ophidian Avenger (Bane Wars)
 Ophidian Healer (Bane Wars)
-Ophdian Mage (Bane Wars)
+Ophidian Mage (Bane Wars)
 Ophidian Warrior (Bane Wars)
 
 
 Animals
 
 Alligator
-Bird
+#Bird
 Black Bear
 Boar
 Brown Bear
-Bull
+#Bull
 Bullfrog
 Cat
-Chicken
+#Chicken
 Coral Snake
 Cougar
-Cow
-Crane
+#Cow
+#Crane
 Dark Steed*
 Dark Wolf*
-Desert Ostard
+#Desert Ostard
 Dire Wolf
 Dog
 Dolphin
-Eagle
+#Eagle
 Ferret
 Fire Rabbit
-Forest Ostard
-Frenzied Ostard
-Gaman
+#Forest Ostard
+#Frenzied Ostard
+#Gaman
 Giant Rat
 Giant Toad
 Giant Turkey
@@ -662,7 +662,7 @@ Snow Leopard
 Squirrel
 Swamp Dragon
 Timber Wolf
-Turkey
+#Turkey
 Vorpal Bunny
 Walrus
 War Horse

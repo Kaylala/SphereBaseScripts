@@ -1,0 +1,271 @@
+[Chardef 0D8]
+DefName=cCow1
+Name=cow
+Can=CanWalk
+MoveRate=100
+Dam=1,4
+Icon=CowIcon
+Sound=
+Resources=12 iPileOfHides,8 iCutOfRawRibs
+FoodType=tFruit,tVegetable
+MaxFood=35
+Aversions=rDungeon
+Desires=tFruit,tVegetable,rFarm
+BloodColor=0
+TEvents=AICow
+
+Category=Animals
+Subsection=Bovines
+Description=Cow
+
+On=@Create
+NPC=BrainAnimal
+FollowerSlots=1
+SlayerSuper=BovineSlayer
+
+Fame=300
+Karma=0
+Alignment=Neutral
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=5,15
+ResFire=0
+ResCold=0
+ResPoison=0
+ResEnergy=0
+
+OStr=30
+ODex=15
+OInt=5
+MaxHits=18
+MaxMana=0
+
+Wrestling=55
+Tactics=55
+MagicResistance=55
+Parrying=55
+Taming=111
+
+
+[Chardef 0E7]
+DefName=cCow2
+Name=cow
+Can=CanWalk
+MoveRate=100
+Dam=1,4
+Icon=CowIcon
+Sound=
+Resources=12 iPileOfHides,8 iCutOfRawRibs
+FoodType=tFruit,tVegetable
+MaxFood=35
+Aversions=rDungeon
+Desires=tFruit,tVegetable,rFarm
+BloodColor=0
+TEvents=AICow
+
+Category=Animals
+Subsection=Bovines
+Description=Cow
+
+On=@Create
+NPC=BrainAnimal
+FollowerSlots=1
+SlayerSuper=BovineSlayer
+
+Fame=300
+Karma=0
+Alignment=Neutral
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=5,15
+ResFire=0
+ResCold=0
+ResPoison=0
+ResEnergy=0
+
+OStr=30
+ODex=15
+OInt=5
+MaxHits=18
+MaxMana=0
+
+Wrestling=55
+Tactics=55
+MagicResistance=55
+Parrying=55
+Taming=111
+
+
+[Chardef 0E8]
+DefName=cBull1
+Name=bull
+Can=CanWalk
+MoveRate=100
+Dam=7,17
+Icon=BullIcon
+Sound=
+Resources=15 iPileOfHides,10 iCutOfRawRibs
+FoodType=tGrain,tHay
+MaxFood=35
+Aversions=
+Desires=tGrain,tHay,rFarm
+BloodColor=0
+TEvents=AIBull
+
+Category=Animals
+Subsection=Bovines
+Description=Bull
+
+On=@Create
+NPC=BrainAnimal
+FollowerSlots=1
+SlayerSuper=BovineSlayer
+
+Fame=600
+Karma=0
+Alignment=Neutral
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=25,35
+ResFire=0
+ResCold=10,15
+ResPoison=0
+ResEnergy=0
+
+OStr={77 111}
+ODex={56 75}
+OInt={47 75}
+MaxHits={50 64}
+MaxMana=0
+
+Wrestling={401 575}
+Tactics={676 850}
+MagicResistance={176 250}
+Parrying={676 850}
+Taming=711
+
+
+[Chardef 0E9]
+DefName=cBull2
+Name=bull
+Can=CanWalk
+MoveRate=100
+Dam=7,17
+Icon=BullIcon
+Sound=
+Resources=15 iPileOfHides,10 iCutOfRawRibs
+FoodType=tGrain,tHay
+MaxFood=35
+Aversions=
+Desires=tGrain,tHay,rFarm
+BloodColor=0
+TEvents=AIBull
+
+Category=Animals
+Subsection=Bovines
+Description=Bull
+
+On=@Create
+NPC=BrainAnimal
+FollowerSlots=1
+SlayerSuper=BovineSlayer
+
+Fame=600
+Karma=0
+Alignment=Neutral
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=25,35
+ResFire=0
+ResCold=10,15
+ResPoison=0
+ResEnergy=0
+
+OStr={77 111}
+ODex={56 75}
+OInt={47 75}
+MaxHits={50 64}
+MaxMana=0
+
+Wrestling={401 575}
+Tactics={676 850}
+MagicResistance={176 250}
+Parrying={676 850}
+Taming=711
+
+
+[Chardef 0F8]
+DefName=cGaman
+Name=gaman
+Can=CanWalk
+MoveRate=100
+Dam=13,23
+Icon=GamanIcon
+Sound=
+Resources=15 iPileOfHides,10 iCutOfRawRibs
+FoodType=tGrain,tHay
+MaxFood=35
+Aversions=
+Desires=tGrain,tHay
+BloodColor=0
+TEvents=AIGaman
+
+Category=Animals
+Subsection=Bovines
+Description=Gaman
+
+On=@Create
+NPC=BrainAnimal
+FollowerSlots=1
+SlayerSuper=BovineSlayer
+
+Fame=2000
+Karma=-2000
+Alignment=Neutral
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=50,70
+ResFire=30,50
+ResCold=30,50
+ResPoison=40,60
+ResEnergy=30,50
+
+OStr={145 175}
+ODex={115 145}
+OInt={45 60}
+MaxHits={130 160}
+MaxMana=0
+
+Wrestling={500 600}
+Tactics={700 850}
+MagicResistance={350 450}
+Parrying={700 850}
+Taming=687
+
+
+[EOF]

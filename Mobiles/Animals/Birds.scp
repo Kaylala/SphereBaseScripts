@@ -1,0 +1,386 @@
+[Chardef 05]
+DefName=cEagle
+Name=eagle
+Can=CanNonHum|CanWalk|CanFly
+MoveRate=100
+Dam=6,13
+Icon=EagleIcon
+Sound=
+Resources=36 iFeather,1 iRawBird
+FoodType=tFish
+MaxFood=35
+Aversions=rCivilization
+Desires=tFish
+BloodColor=0
+TEvents=AIEagle
+
+Category=Animals
+Subsection=Birds
+Description=Eagle
+
+On=@Create
+NPC=BrainAnimal
+FollowerSlots=1
+SlayerSuper=BirdSlayer
+
+Fame=300
+Karma=-300
+Alignment=Neutral
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=20,25
+ResFire=10,15
+ResCold=20,25
+ResPoison=5,10
+ResEnergy=5,10
+
+OStr={31 47}
+ODex={36 60}
+OInt={8 20}
+MaxHits={20 27}
+
+Wrestling={200 300}
+Tactics={180 370}
+MagicResistance={150 300}
+Parrying={180 370}
+Taming=171
+
+On=@NPCRestock
+NewGold={50 100}
+
+
+[Chardef 06]
+DefName=cBird
+Name=#ForestBirdNames
+Can=CanNonHum|CanWalk|CanFly
+MoveRate=100
+Dam=1
+Icon=BirdIcon
+Sound=
+Resources=25 iFeather,1 iRawBird
+FoodType=tFruit,tVegetable
+MaxFood=35
+Aversions=rCivilization
+Desires=tFruit,tVegetable
+BloodColor=0
+TEvents=AIBird
+
+Category=Animals
+Subsection=Birds
+Description=Forest Bird
+
+On=@Create
+NPC=BrainAnimal
+Color=BirdHues
+FollowerSlots=1
+SlayerSuper=BirdSlayer
+
+Fame=150
+Karma=0
+Alignment=Neutral
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=0
+ResFire=0
+ResCold=0
+ResPoison=0
+ResEnergy=0
+
+OStr={1 4}
+ODex=25
+OInt={1 4}
+MaxHits={1 3}
+MaxMana=0
+
+Wrestling=50
+Tactics=50
+MagicResistance=50
+Parrying=50
+Taming=1
+TamingReal=-6.9
+
+
+[Chardef cTropicalBird]
+ID=cBird
+Name=#TropicalBirdNames
+Can=CanNonHum|CanWalk|CanFly
+MoveRate=100
+Dam=1
+Icon=BirdIcon
+Sound=
+Resources=25 iFeather,1 iRawBird
+FoodType=tFruit,tVegetable
+MaxFood=35
+Aversions=rCivilization
+Desires=tFruit,tVegetable
+BloodColor=0
+TEvents=AIBird
+
+Category=Animals
+Subsection=Birds
+Description=Tropical Bird
+
+On=@Create
+NPC=BrainAnimal
+Color=BirdHues
+FollowerSlots=1
+SlayerSuper=BirdSlayer
+
+Fame=150
+Karma=0
+Alignment=Neutral
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=0
+ResFire=0
+ResCold=0
+ResPoison=0
+ResEnergy=0
+
+OStr={1 4}
+ODex=25
+OInt={1 4}
+MaxHits={1 3}
+MaxMana=0
+
+Wrestling=50
+Tactics=50
+MagicResistance=50
+Parrying=50
+Taming=1
+TamingReal=-69
+
+
+[Chardef 0D0]
+DefName=cChicken
+Name=chicken
+Can=CanNonHum|CanWalk
+MoveRate=100
+Dam=1
+Icon=ChickenIcon
+Sound=
+Resources=25 iFeather,1 iRawBird
+FoodType=tGrain,tHay
+MaxFood=35
+Aversions=tTrap
+Desires=tGrain,tHay,rFarm,rForest
+BloodColor=0
+TEvents=AIChicken
+
+Category=Animals
+Subsection=Birds
+Description=Chicken
+
+On=@Create
+NPC=BrainAnimal
+FollowerSlots=1
+SlayerSuper=BirdSlayer
+
+Fame=150
+Karma=0
+Alignment=Neutral
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=1,5
+ResFire=0
+ResCold=0
+ResPoison=0
+ResEnergy=0
+
+OStr=5
+ODex=15
+OInt=5
+MaxHits=3
+MaxMana=0
+
+Wrestling=50
+Tactics=50
+MagicResistance=40
+Parrying=50
+Taming=1
+TamingReal=-9
+
+
+[Chardef cGreaterChicken]
+ID=cChicken
+Name=greater chicken
+Can=CanNonHum|CanWalk
+MoveRate=100
+Dam=1
+Icon=ChickenIcon
+Sound=
+Resources=25 iFeather,1 iRawBird
+FoodType=tGrain,tHay
+MaxFood=35
+Aversions=tTrap
+Desires=tGrain,tHay,rFarm,rForest
+BloodColor=0
+TEvents=AIChicken
+
+Category=Animals
+Subsection=Birds
+Description=Greater Chicken
+
+On=@Create
+NPC=BrainAnimal
+FollowerSlots=1
+SlayerSuper=BirdSlayer
+
+Fame=250
+Karma=0
+Alignment=Neutral
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=1,10
+ResFire=0
+ResCold=0
+ResPoison=0
+ResEnergy=0
+
+OStr={5 10}
+ODex=15
+OInt={5 10}
+MaxHits=3
+MaxMana=0
+
+Wrestling={50 100}
+Tactics={50 100}
+MagicResistance={50 100}
+Anatomy={0 50}
+Parrying={50 100}
+Taming=1
+TamingReal=-9
+
+
+[Chardef 05F]
+DefName=cTurkey
+Name=turkey
+Can=CanNonHum|CanWalk
+MoveRate=100
+Dam=2,3
+Icon=TurkeyIcon
+Sound=
+Resources=75 iFeather,2 iRawBird
+FoodType=tGrain,tHay
+MaxFood=35
+Aversions=rCivilization
+Desires=tGrain,tHay
+BloodColor=0
+TEvents=AITurkey
+
+Category=Animals
+Subsection=Birds
+Description=Turkey
+
+On=@Create
+NPC=BrainAnimal
+FollowerSlots=1
+SlayerSuper=BirdSlayer
+
+Fame=300
+Karma=0
+Alignment=Neutral
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=5,10
+ResFire=5,10
+ResCold=0,5
+ResPoison=0,5
+ResEnergy=0,5
+
+OStr={10 15}
+ODex={10 20}
+OInt={5 15}
+MaxHits={10 15}
+
+Wrestling={100 150}
+Tactics={100 150}
+MagicResistance={50 100}
+Anatomy={650 750}
+Parrying={100 150}
+Taming=1	// really 0
+
+
+[Chardef 0FE]
+DefName=cCrane
+Name=crane
+Can=CanNonHum|CanWalk
+MoveRate=100
+Dam=1
+Icon=TurkeyIcon
+Sound=
+Resources=25 iFeather,2 iRawBird
+FoodType=tGrain,tHay
+MaxFood=35
+Aversions=rCivilization
+Desires=tGrain,tHay
+BloodColor=0
+TEvents=AICrane
+
+Category=Animals
+Subsection=Birds
+Description=Crane
+
+On=@Create
+NPC=BrainAnimal
+SlayerSuper=BirdSlayer
+
+Fame=1000
+Karma=1000
+Alignment=Neutral
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=5
+ResFire=0
+ResCold=0
+ResPoison=0
+ResEnergy=0
+
+OStr={25 35}
+ODex={15 25}
+OInt={10 15}
+MaxHits={25 35}
+MaxMana=0
+
+Wrestling={100 110}
+Tactics={100 110}
+MagicResistance={40 50}
+Parrying={100 110}
+
+
+[EOF]

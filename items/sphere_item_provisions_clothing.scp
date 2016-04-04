@@ -2032,27 +2032,40 @@ DupeItem=050d8
 // Custom Items //
 //////////////////
 
-[ItemDef iHatWizardsMagic]
-ID=iHatWizards
-Name=wizard hat
-Resources=iHatWizards,iScrollCunning,2 iWireGold
-SkillMake=Tailoring 60.0,Magery 60.0,tSewingKit
-CanUse=CanUHuman|CanUElf
-ReqStr=25
+[ItemDef iMagicWizardsHat]
+ID=iWizardsHat
+Name=magic wizard's hat
+
 Category=Magic
-Subsection=Clothing
-Description=Magic Wizard Hat
+Subsection=Custom: Clothing
+Description=Magic Wizard's Hat
+
 On=@Create
-COLOR=colors_all
-HitPoints={36 48}
-ATTR=attr_magic|attr_identified
-BonusINT=<R8,10>
-BonusDex=<R3,5>
-BonusStr=<R3,5>
-ResCold=9
-ResEnergy=5
-ResFire=5
-ResPoison=5
+Color=08000|0480
+Attr=AttrMagic
+
+IntelligenceBonus=10
+ManaIncrease=20
+LowerManaCost=10
+LowerReagentCost=10
+
 ResPhysical=1
+ResFire=5
+ResCold=9
+ResPoison=5
+ResEnergy=5
+
+On=@Equip
+Src.IntelligenceBonus += <IntelligenceBonus>
+Src.ManaIncrease += <ManaIncrease>
+Src.LowerManaCost += <LowerManaCost>
+Src.LowerReagentCost += <LowerReagentCost>
+
+On=@Unequip
+Src.IntelligenceBonus -= <IntelligenceBonus>
+Src.ManaIncrease -= <ManaIncrease>
+Src.LowerManaCost -= <LowerManaCost>
+Src.LowerReagentCost -= <LowerReagentCost>
+
 
 [EOF]

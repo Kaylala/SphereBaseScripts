@@ -1,8 +1,114 @@
+[Chardef 01E]
+DefName=cHarpy
+Name=harpy
+Can=CanNonHum|CanWalk|CanFly
+MoveRate=100
+Dam=5,7
+Icon=HarpyIcon
+Sound=
+Resources=50 iFeather,4 iRawBird
+FoodType=tRawMeat
+MaxFood=35
+Aversions=tTrap,rCivilization
+Desires=tGold,tGem
+BloodColor=0
+TEvents=AIHarpy
+
+Category=Monsters
+Subsection=Avians
+Description=Harpy
+
+On=@Create
+NPC=BrainMonster
+
+Fame=2500
+Karma=-2500
+Alignment=Evil
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=25,30
+ResFire=10,20
+ResCold=10,30
+ResPoison=20,30
+ResEnergy=10,20
+
+OStr={96 120}
+ODex={86 110}
+OInt={51 75}
+MaxHits={58 72}
+
+Wrestling={601 900}
+Tactics={701 1000}
+MagicResistance={501 650}
+Parrying={701 1000}
+
+On=@NPCRestock
+NewGold={100 150}
+
+
+[Chardef 049]
+DefName=cStoneHarpy
+Name=stone harpy
+Can=CanNonHum|CanWalk|CanFly
+MoveRate=100
+Dam=8,16
+Icon=StoneHarpyIcon
+Sound=
+Resources=50 iFeather,4 iRawBird
+FoodType=tRawMeat
+MaxFood=35
+Aversions=tTrap,rCivilization
+Desires=tGold,tGem
+BloodColor=0
+TEvents=AIStoneHarpy
+
+Category=Monsters
+Subsection=Avians
+Description=Stone Harpy
+
+On=@Create
+NPC=BrainMonster
+
+Fame=4500
+Karma=-4500
+Alignment=Evil
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=45,55
+ResFire=20,30
+ResCold=10,20
+ResPoison=30,40
+ResEnergy=30,40
+
+OStr={296 320}
+ODex={86 110}
+OInt={51 75}
+MaxHits={178 192}
+
+Wrestling={701 1000}
+Tactics={701 1000}
+MagicResistance={501 650}
+Parrying={701 1000}
+
+On=@NPCRestock
+NewGold={275 325}
+
+
 // Phoenix
 [CharDef 0340]
 DefName=cPhoenix
 Name=phoenix
-Can=CanWalk|CanFly|CanUseHands
+Can=CanNonHum|CanWalk|CanFly|CanUseHands
 MoveRate=100
 Dam=25
 Icon=iPhoenixIcon
@@ -13,7 +119,7 @@ MaxFood=35
 Aversions=rCivilization
 Desires=tMeat
 BloodColor=0
-//TEvents=e_fire_aura
+TEvents=AIPhoenix
 
 Category=Monsters
 SubsectiOn=Avians
@@ -58,13 +164,14 @@ AddCircle=7,1
 On=@NPCRestock
 NewGold={800 900}
 
+
 // Greater Phoenix
 // Dragon Turtle Champion Spawn
 // Note: Bump this thing up for outside that spawn It is weaker than a normal phoenix
 [CharDef cGreaterPhoenix]
 ID=cPhoenix
 Name=greater phoenix
-Can=CanWalk|CanFly|CanUseHands
+Can=CanNonHum|CanWalk|CanFly|CanUseHands
 MoveRate=100
 Dam=11,14
 Icon=iGreaterPhoenixIcon
@@ -75,7 +182,6 @@ MaxFood=35
 Aversions=rCivilization
 Desires=tRawMeat
 BloodColor=0
-//TEvents=e_fire_aura
 
 Category=Monsters
 SubsectiOn=Avians
@@ -118,5 +224,6 @@ AddCircle=7,1
 
 On=@NPCRestock
 NewGold={600 700}
+
 
 [EOF]
