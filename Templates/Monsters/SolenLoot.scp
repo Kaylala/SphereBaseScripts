@@ -1,0 +1,46 @@
+[Template SolenWorkerLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Solen
+Description=Solen Worker
+Item=iZoogiFungus,{1 6}
+Item=iPicnicBasket,1,R19
+
+
+[Template SolenWarriorLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Solen
+Description=Solen Warrior
+Item=iZoogiFungus,{3 13}
+Item=iPicnicBasket,1,R19
+Item=RandomCommonGem,{1 4}
+Item=iBraceletOfBinding,1,R19
+
+
+[Template SolenQueenLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Solen
+Description=Solen Queen
+Item=iZoogiFungus,{5 25}
+Item=iPicnicBasket,1,R19
+Item=iBallOfPetSummoning,1,R19
+Item=iBraceletOfBinding,1,R19
+
+
+[Template SolenInfiltratorWarriorLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Solen
+Description=Solen Infiltrator Warrior
+Item=iZoogiFungus,{3 13}
+Item=iPicnicBasket,1,R19
+Item=iBraceletOfBinding,1,R19
+
+
+[Template SolenQueenLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Solen
+Description=Solen Queen
+Item=iZoogiFungus,{4 16}
+Item=iPicnicBasket,1,R19
+
+
+[EOF]

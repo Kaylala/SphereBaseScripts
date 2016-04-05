@@ -1,0 +1,15 @@
+[Templates EagleLoot]
+Category=Templates: NPC Loot
+Subsection=Animals: Birds
+Description=Eagle
+Item=iBlackPearl,4
+
+
+[Template ChickenLoot]
+Category=Templates: NPC Loot
+Subsection=Animals: Birds
+Description=Eagle
+Item=iEgg,{1 2}
+
+
+[EOF]

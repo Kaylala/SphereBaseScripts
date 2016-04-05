@@ -1,70 +1,73 @@
-// SphereServer
-// Updated: 17-3-1016
-//
-Version=0.56c
-
 /////////////////////////
 // Gold Pile Templates //
 /////////////////////////
 
-[Template tmpRandomGoldPile]
+
+[Template RandomGoldPile]
 DefName=RandomGoldPile
 Category=Templates: Loot
 Subsection=Gold Piles
 Description=Random Gold Pile
-Item={tmpPoorGoldPile 16 tmpMeagerGoldPile 8 tmpAverageGoldPile 4 tmpRichGoldPile 2 tmpLoadedGoldPile 1}
+Item={PoorGoldPile 16 MeagerGoldPile 8 AverageGoldPile 4 RichGoldPile 2 LoadedGoldPile 1}
 
-[Template tmpPoorGoldPile]
+
+[Template PoorGoldPile]
 DefName=PoorGoldPile
 Category=Templates: Loot
 Subsection=Gold Piles
 Description=Poor Gold Pile
 NewGold={25 50}
 
-[Template tmpMeagerGoldPile]
+
+[Template MeagerGoldPile]
 DefName=MeagerGoldPile
 Category=Templates: Loot
 Subsection=Gold Piles
 Description=Meager Gold Pile
 NewGold={50 100}
 
-[Template tmpAverageGoldPile]
+
+[Template AverageGoldPile]
 DefName=AverageGoldPile
 Category=Templates: Loot
 Subsection=Gold Piles
 Description=Average Gold Pile
 NewGold={100 200}
 
-[Template tmpRichGoldPile]
+
+[Template RichGoldPile]
 DefName=RichGoldPile
 Category=Templates: Loot
 Subsection=Gold Piles
 Description=Rich Gold Pile
 NewGold={200 300}
 
-[Template tmpLoadedGoldPile]
+
+[Template LoadedGoldPile]
 DefName=LoadedGoldPile
 Category=Templates: Loot
 Subsection=Gold Piles
 Description=Loaded Gold Pile
 NewGold={300 500}
 
+
 /////////////////////
 // Pouch Templates //
 /////////////////////
 
-[Template random_coin_purse]
+
+[Template RandomCoinPurse]
 Category=Templates: Loot
 Subsection=Coin Pouches
 Description=Random Pouch
-Item={ poor_pouch 16 meager_pouch 8 average_pouch 4 rich_pouch 2 loaded_pouch 1 }
+Item={ PoorPouch 16 MeagerPouch 8 AveragePouch 4 RichPouch 2 LoadedPouch 1 }
 
-[Template poor_pouch]
+[Template PoorPouch]
 Category=Templates: Loot
 Subsection=Coin Pouchs
 Description=Poor Pouch
 Container=i_bag
-Item=poor_gold_pile
+Item=PoorGoldPile
 Item={ RandomCommonGem 1 0 1 }
 Item={ RandomJewelry 1 0 5 }
 

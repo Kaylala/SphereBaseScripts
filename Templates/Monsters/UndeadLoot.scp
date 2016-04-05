@@ -1,0 +1,19 @@
+[Template MummyLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Undead
+Description=Mummy
+NewTMap=1
+Item=iBandage,10
+Item=iGarlic,5
+Item=RandomPotion
+Item={RandomPeculiarSeed2 19 iFragrantSeed 1},1,R9
+
+
+[Template UnfrozenMummyLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Undead
+Description=Unfrozen Mummy
+Item=iBrokenCrystal,1,R9
+
+
+[EOF]

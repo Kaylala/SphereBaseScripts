@@ -1,0 +1,8 @@
+[Templates GamanLoot]
+Category=Templates: NPC Loot
+Subsection=Animals: Bovines
+Description=Gaman
+Item=iGamanHorns,{1 2}
+
+
+[EOF]

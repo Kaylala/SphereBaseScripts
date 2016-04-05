@@ -1,0 +1,24 @@
+[Template HarpyLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Avians
+Description=Harpy
+Item=RandomMageryReagent,1
+
+
+[Template StoneHarpyLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Avians
+Description=Stone Harpy
+Item=RandomMageryReagent,1
+Item=RandomCommonGem,2
+
+
+[Template PhoenixLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Avians
+Description=Phoenix
+Item=iSulfurousAsh,{5 8}
+Item=iFireHorn,1,R9
+
+
+[EOF]

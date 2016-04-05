@@ -1,0 +1,184 @@
+[Template OreElementalLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Elementals
+Description=Ore Elementals
+Item=RandomCommonGem,2
+Item=iCrystallineBlackrock,1
+Item=RandomWeapon,1
+Item=RandomArmor,1
+
+
+[Template AirElementalLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Elementals
+Description=Air Elemental
+Item=RandomPotion,1
+Item={RandomLowMageryScroll 1 RandomLowNecromancyScroll 1 RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1},1
+Item={RandomLowMageryScroll 1 RandomLowNecromancyScroll 1 RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1},1
+
+
+[Template EarthElementalLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Elementals
+Description=Earth Elemental
+Item=RandomPotion,1
+Item=RandomCommonGem,2
+Item=RandomCommonGem,2
+Item=iFertileDirt,{1 4}
+Item=iMandrakeRoot,1
+Item=iIronOre,5		// Small
+
+
+[Template FireElementalLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Elementals
+Description=Fire Elemental
+Item=RandomPotion,1
+Item={RandomLowMageryScroll 1 RandomLowNecromancyScroll 1},1
+Item=RandomCommonGem,1
+Item=iSulfurousAsh,3
+
+
+[Template WaterElementalLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Elementals
+Description=Water Elemental
+Item=RandomPotion,1
+Item={RandomLowMageryScroll 1 RandomLowNecromancyScroll 1},1
+Item=RandomCommonGem,1
+Item=iBlackPearl,3
+NewItem=iAncientPotteryFragments,1,R19
+//Item=RandomMageryReagent,{1 2}
+
+
+[Template AcidElementalLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Elementals
+Description=Acid Elemental
+Item=RandomCommonGem,{1 2}
+Item=RandomCommonGem,{1 2}
+Item={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1},1
+Item={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1},1
+Item={RandomNecromancyReagent 1 RandomMageryReagent 1},{4 6}
+Item={RandomNecromancyReagent 1 RandomMageryReagent 1},{4 6}
+Item=RandomPotion,1
+Item=RandomWeapon,1
+Item=RandomArmor,1
+
+
+[Template BloodElementalLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Elementals
+Description=Blood Elemental
+Item=RandomCommonGem,{1 2}
+Item=RandomCommonGem,{1 2}
+Item=RandomPotion,1
+Item={RandomNecromancyReagent 1 RandomMageryReagent 1},{4 6}
+Item={RandomNecromancyReagent 1 RandomMageryReagent 1},{4 6}
+Item={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1},1
+Item={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1},1
+Item={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1},1
+Item={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1},1
+Item={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1},1,R1
+Item={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1},1,R1
+Item=RandomWeapon,1
+Item=RandomArmor,1
+
+
+[Template IceElementalLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Elementals
+Description=Ice Elemental
+Item=RandomCommonGem,{1 2}
+Item=RandomCommonGem,{1 2}
+Item=RandomMageryReagent,{4 8}
+Item=RandomMageryReagent,{4 8}
+Item=RandomWeapon,1
+Item=RandomArmor,1
+
+
+[Template PoisonElementalLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Elementals
+Description=Poison Elemental
+Item=RandomCommonGem,{2 4}
+Item={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1},1
+Item={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1},1
+Item=RandomMageryReagent,{4 6}
+Item=iNightshade,4
+Item=iLesserPoisonPotion,1
+Item=RandomWeapon,1
+Item=RandomArmor,1
+
+
+[Template SnowElementalLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Elementals
+Description=Snow Elemental
+Item=RandomCommonGem,{1 2}
+Item=iBlackPearl,3
+Item=iIronOre,3
+Item=RandomArmor,1
+Item=RandomWeapon,1
+
+
+[Template EfreetLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Elementals
+Description=Efreet
+Item=RandomCommonGem,{1 3}
+Item=RandomArmor,1
+
+
+[Template KazeKemonoLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Elementals
+Description=Kaze Kemono
+Item=RandomCommonGem,1
+Item=RandomCommonGem,1
+Item=RandomWeapon,1
+Item=RandomArmor,1
+
+
+[Template CrystalElementalLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Elementals
+Description=Crystal Elemental
+Item=RandomCommonGem,2
+Item=RandomCommonGem,2
+
+
+[Template SandVortexLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Elementals
+Description=Sand Vortex
+Item=RandomCommonGem,{1 2}
+Item=RandomPotion,1,R4
+Item=RandomBone,1
+Item=RandomBone,1
+
+
+[Template RaiJuLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Elementals
+Description=Rai-Ju
+Item=RandomCommonGem,1
+Item=RandomCommonGem,1
+
+
+[Template LavaElementalLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Elementals
+Description=Lava Elemental
+NewItem=RandomCommonGem,2
+NewItem=RandomMediumScroll
+NewItem=RandomReagent,{4 8}
+NewItem=RandomReagent,{4 8}
+NewItem=iLesserPoisonPotion,1
+NewItem=iLavaSerpentCrust,1,R19
+NewItem={iEssenceOfPrecision 1 iEssenceOfOrder 1 iEssenceOfPower 1},1,R19
+NewItem=iAncientPotteryFragments,1,R19
+NewItem=iTatteredRemnantsOfAnAncientScroll,1,R19
+
+
+[EOF]

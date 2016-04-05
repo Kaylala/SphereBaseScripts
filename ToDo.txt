@@ -1,7 +1,7 @@
 To Do Reminder
 
 Templates:
-- Finish Stealen Artifacts lists (It really isn't needed, but for conformity sakes)
+- Finish Stolen Artifacts lists (It really isn't needed, but for conformity sakes)
 - Craftable Artifacts (As above)
 - Finish Miscellaneous artifact templates (Uses used already, but not defined)
 

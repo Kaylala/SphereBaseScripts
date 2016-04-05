@@ -1,0 +1,73 @@
+[Template OgreLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Giantkin
+Description=Ogre
+NewTMap=1
+Item=iClub,1
+Item=RandomCommonGem,1
+
+
+[Template OgreLordLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Giantkin
+Description=Ogre Lord
+NewTMap=3
+Item=iClub,1
+Item=RandomCommonGem,{1 2}
+
+
+[Template ArcticOgreLordLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Giantkin
+Description=Arctic Ogre Lord
+NewTMap=3
+Item=iClub,1
+Item=RandomCommonGem,{1 2}
+
+
+[Template EttinLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Giantkin
+Description=Ettin
+NewTMap=1
+Item=RandomPotion,1
+Item=RandomCommonGem,1
+
+
+[Template TrollLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Giantkin
+Description=Troll
+NewTMap=1
+Item=RandomCommonGem,1
+
+
+[Template FrostTrollLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Giantkin
+Description=Frost Troll
+NewTMap=1
+Item=RandomWeapon,1
+Item=RandomCommonGem,1
+
+
+[Template CyclopeanWarriorLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Giantkin
+Description=Cyclopean Warrior
+NewTMap=3
+Item=RandomCommonGem,{1 2}
+
+
+[Template TitanLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Giantkin
+Description=Titan
+NewTMap=5
+Item=RandomCommonGem,{1 2}
+Item=RandomFood,{1 2}
+Item=RandomMediumLevelScroll,1
+Item={RandomPeculiarSeed1 19 iFragrantSeed 1},1,R9
+
+
+[EOF]

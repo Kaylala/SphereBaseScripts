@@ -1,0 +1,92 @@
+[Template GolemLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Mechanical
+Description=Golem
+Item=iArcaneGem,1,R9
+Item=iPowerCrystal,1,R19
+Item=iClockworkAssembly,1,R19
+Item={RandomCommonMusicBoxGear 75 RandomUncommonMusicBoxGear 25},1,R19
+Item=RandomIngot,{11 25}
+
+
+[Template ExodusOverseerLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Mechanical
+Description=Exodus Overseer
+Item=iArcaneGem,1,R9
+Item=iPowerCrystal,1,R19
+Item=iClockworkAssembly,1,R19
+Item={RandomPeculiarSeed5 19 iFragrantSeed 1},1,R9
+
+
+[Template ExodusMinionLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Mechanical
+Description=Exodus Overseer
+Item=iArcaneGem,{1 2},R9
+Item=iPowerCrystal,{1 2},R19
+Item=iClockworkAssembly,1,R19
+Item={RandomPeculiarSeed5 19 iFragrantSeed 1},1,R9
+
+
+[Template ExodusMinionLordLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Mechanical
+Description=Exodus Minion Lord
+Item=iArcaneGem,{2 4},R4
+Item=iPowerCrystal,{1 2},R9
+Item=iClockworkAssembly,{1 2},R9
+
+
+[Template BetrayerLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Mechanical
+Description=Betrayer
+NewTMap=5
+Item=iPowerCrystal,1,R19
+Item=RandomCommonGem,1
+Item={RandomCommonMusicBoxGear 75 RandomUncommonMusicBoxGear 25},1,R19
+Item=iBlackthornsAWelcomeBook,1,R1
+
+
+[Template BlackthornJuggernautLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Mechanical
+Description=Blackthorn Juggernaut
+Item=iPowerCrystal,1,R19
+Item=iClockworkAssembly,1,R19
+Item={RandomCommonMusicBoxGear 75 RandomUncommonMusicBoxGear 25},1,R19
+
+
+[Template ClockworkScorpionLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Mechanical
+Description=Clockwork Scorpion
+Item=RandomGargoyleWeapon,1,R3
+Item={RandomGargoyleArmor 1 RandomGargoyleShield 1},1,R3
+Item=RandomCommonGem,{1 2}
+Item=iLesserPoisonPotion,1
+
+
+[Template LeatherWolfLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Mechanical
+Description=Leather Wolf
+Item=RandomGargoyleWeapon,1,R3
+Item={RandomGargoyleArmor 1 RandomGargoyleShield 1},1,R3
+Item=iLeatherWolfSkin,1
+Item=iReflectiveWolfEye,1,R9
+
+
+[Template VollemLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Mechanical
+Description=Vollem
+Item=iSulfurouosAsh,3
+Item=RandomPotion
+Item=RandomLowLevelScroll,1
+Item=RandomGargoyleWeapon,1,R3
+Item={RandomGargoyleArmor 1 RandomGargoyleShield 1},1,R3
+
+
+[EOF]

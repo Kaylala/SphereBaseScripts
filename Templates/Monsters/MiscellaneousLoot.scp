@@ -1,0 +1,40 @@
+[Template GazerLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Miscellaneous
+Description=Gazer
+NewTMap=1
+Item=iNightShade,4
+Item=RandomPotion,1
+
+
+[Template ElderGazerLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Miscellaneous
+Description=Elder Gazer
+NewTMap=4
+Item=iNightShade,4
+Item=RandomPotion,1
+Item=RandomScroll,{1 2}
+
+
+[Template GazerLarvaLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Miscellaneous
+Description=Gazer Larva
+NewTMap=1
+Item=iNightShade,{2 3}
+Item=RandomPotion,1
+
+
+[Template HeadlessLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Miscellaneous
+Description=Headless
+Item=RandomPotion
+Item=RandomFood,{1 2}
+Item=RandomFood,{1 2}
+Item=RandomLightSource,1
+Item=RandomClothing,1
+
+
+[EOF]
