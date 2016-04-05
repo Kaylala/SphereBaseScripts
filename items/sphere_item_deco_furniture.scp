@@ -1,17 +1,3 @@
-//****************************************************************************
-// SPHERE by : Menasoft ©1997-2014
-// www.sphereserver.net
-// All SPHERE script files and formats are copyright Menasoft & Partners.
-// This file may be freely edited for personal use, but may not be distributed
-// in whole or in part, in any format without express written permission from
-// Menasoft & Partners. All donations and contributions
-// become the property of Menasoft & Partners.
-//****************************************************************************
-// FILE LAST UPDATED: Tuesday, May 6, 2014
-//
-VERSION=0.56c
-
-
 [ItemDef 0459]
 DefName=iMarbleBench
 Type=tChair
@@ -464,32 +450,6 @@ DupeItem=0a5c
 //small bed (made)
 DupeItem=0a5c
 
-[ItemDef 0a6c]
-DefName=iBlanket
-Name=folded blanket
-DYE=1
-Can=CanIFlip
-Value=50
-Weight=12.5
-Resources=10 iCloth,2 iWool,5 iThread
-SkillMake=Tailoring 35.0,tSewingKit
-Category=Decoration - Furniture
-Subsection=Bedding
-Description=Folded Blanket
-DupeList=0a6d,0a6e,0a6f
-
-[ItemDef 0a6d]
-//folded blanket
-DupeItem=0a6c
-
-[ItemDef 0a6e]
-//folded blanket
-DupeItem=0a6c
-
-[ItemDef 0a6f]
-//folded blanket
-DupeItem=0a6c
-
 [ItemDef 0a70]
 DefName=iBedLargeUnmade
 Name=large unmade bed
@@ -662,32 +622,6 @@ DupeItem=0a78
 //large made bed
 DupeItem=0a78
 
-[ItemDef 0a92]
-DefName=iSheet
-Name=folded sheet
-DYE=1
-Can=CanIFlip
-Value=32
-Weight=5.5
-Resources=5 iCloth,5 iThread
-SkillMake=Tailoring 35.0,tSewingKit
-Category=Decoration - Furniture
-Subsection=Bedding
-Description=Folded Sheet
-DupeList=0a93,0a94,0a95
-
-[ItemDef 0a93]
-//folded sheet
-DupeItem=0a92
-
-[ItemDef 0a94]
-//folded sheet
-DupeItem=0a92
-
-[ItemDef 0a95]
-//folded sheet
-DupeItem=0a92
-
 [ItemDef 0a97]
 DefName=iBookcaseFull
 Type=tContainer
@@ -739,205 +673,6 @@ DupeList=0a9e
 [ItemDef 0a9e]
 //bookcase
 DupeItem=0a9d
-
-[ItemDef 0a9f]
-DefName=iDisplaycaseRailCustomEdge
-Weight=8.1
-Resources=2 iBoard,1 iNails,6 iGlassRaw
-Category=Decoration - Furniture
-Subsection=Display Case
-Description=Display Case
-DupeList=0aa0,0aa1,0aa2
-
-[ItemDef 0aa0]
-//displaycase
-DupeItem=0a9f
-
-[ItemDef 0aa1]
-//displaycase
-DupeItem=0a9f
-
-[ItemDef 0aa2]
-//displaycase
-DupeItem=0a9f
-
-[ItemDef 0aa3]
-DefName=iDisplaycaseRailCustomCorner
-Weight=8.1
-Resources=2 iBoard,1 iNails,6 iGlassRaw
-Category=Decoration - Furniture
-Subsection=Display Case
-Description=Display Case
-DupeList=0aa4,0aa5,0b18
-
-[ItemDef 0aa4]
-//displaycase
-DupeItem=0aa3
-
-[ItemDef 0aa5]
-//displaycase
-DupeItem=0aa3
-
-[ItemDef 0afd]
-DefName=iDisplaycaseRailLongEnd
-Weight=8.1
-Resources=2 iBoard,1 iNails,6 iGlassRaw
-Category=Decoration - Furniture
-Subsection=Display Case
-Description=Display Case
-DupeList=0aff,0b03,0b05
-
-[ItemDef 0afe]
-DefName=iDisplaycaseRailLongCenter
-Weight=8.1
-Resources=2 iBoard,1 iNails,6 iGlassRaw
-Category=Decoration - Furniture
-Subsection=Display Case
-Description=Display Case
-DupeList=0b04
-
-[ItemDef 0aff]
-//displaycase
-DupeItem=0afd
-
-[ItemDef 0b00]
-DefName=iDisplaycaseBaseLongEnd
-Weight=27.2
-Resources=25 iBoard,2 iNails,2 iCloth
-Category=Decoration - Furniture
-Subsection=Display Case
-Description=Display Case
-DupeList=0b02,0b06,0b08
-
-[ItemDef 0b01]
-DefName=iDisplaycaseBaseLongCenter
-Weight=27.2
-Resources=25 iBoard,2 iNails,2 iCloth
-Category=Decoration - Furniture
-Subsection=Display Case
-Description=Display Case
-DupeList=0b07
-
-[ItemDef 0b02]
-//displaycase
-DupeItem=0b00
-
-[ItemDef 0b03]
-//displaycase
-DupeItem=0afd
-
-[ItemDef 0b04]
-//displaycase
-DupeItem=0afe
-
-[ItemDef 0b05]
-//displaycase
-DupeItem=0afd
-
-[ItemDef 0b06]
-//displaycase
-DupeItem=0b00
-
-[ItemDef 0b07]
-//displaycase
-DupeItem=0b01
-
-[ItemDef 0b08]
-//displaycase
-DupeItem=0b00
-
-[ItemDef 0b09]
-DefName=iDisplaycase1Base
-Weight=27.2
-Resources=25 iBoard,2 iNails,2 iCloth
-Category=Decoration - Furniture
-Subsection=Display Case
-Description=Display Case
-DupeList=0b0a
-
-[ItemDef 0b0a]
-//displaycase
-DupeItem=0b09
-
-[ItemDef 0b0b]
-DefName=iDisplaycase1Rail
-Weight=8.1
-Resources=2 iBoard,1 iNails,6 iGlassRaw
-Category=Decoration - Furniture
-Subsection=Display Case
-Description=Display Case
-DupeList=0b0c
-
-[ItemDef 0b0c]
-//displaycase
-DupeItem=0b0b
-
-[ItemDef 0b0d]
-DefName=iDisplaycase2Base
-Weight=27.2
-Resources=25 iBoard,2 iNails,2 iCloth
-Category=Decoration - Furniture
-Subsection=Display Case
-Description=Display Case
-DupeList=0b0e
-
-[ItemDef 0b0e]
-//displaycase
-DupeItem=0b0d
-
-[ItemDef 0b0f]
-DefName=iDisplaycaseBaseCustomBlock
-Weight=27.2
-Resources=25 iBoard,2 iNails,2 iCloth
-Category=Decoration - Furniture
-Subsection=Display Case
-Description=Display Case
-
-[ItemDef 0b10]
-DefName=iDisplaycaseBaseCustomCorner
-Weight=27.2
-Resources=25 iBoard,2 iNails,2 iCloth
-Category=Decoration - Furniture
-Subsection=Display Case
-Description=Display Case
-DupeList=0b11,0b12,0b13
-
-[ItemDef 0b11]
-//displaycase
-DupeItem=0b10
-
-[ItemDef 0b12]
-//displaycase
-DupeItem=0b10
-
-[ItemDef 0b13]
-//displaycase
-DupeItem=0b10
-
-[ItemDef 0b14]
-DefName=iDisplaycaseBaseCustomEdge
-Weight=27.2
-Resources=25 iBoard,2 iNails,2 iCloth
-Category=Decoration - Furniture
-Subsection=Display Case
-Description=Display Case
-DupeList=0b15,0b16,0b17
-
-[ItemDef 0b15]
-//displaycase
-DupeItem=0b14
-
-[ItemDef 0b16]
-//displaycase
-DupeItem=0b14
-
-[ItemDef 0b17]
-//displaycase
-DupeItem=0b14
-
-[ItemDef 0b18]
-//displaycase
-DupeItem=0aa3
 
 [ItemDef 0b2c]
 DefName=iBenchWoodDark
@@ -1974,22 +1709,6 @@ DupeItem=011dc
 //log table
 DupeItem=011dc
 
-[ItemDef 011ea]
-DefName=iPillowStraw
-Can=CanIFlip
-Value=13
-Weight=3.1
-Resources=1 iStraw,1 iCloth,1 iThread
-SkillMake=Tailoring 27.1,tSewingKit
-Category=Decoration - Furniture
-Subsection=Bedding
-Description=Straw Pillow
-DupeList=011eb
-
-[ItemDef 011eb]
-//straw pillow
-DupeItem=011ea
-
 
 [ItemDef 011f0]
 DefName=iHammock
@@ -2140,124 +1859,6 @@ DupeItem=01218
 DupeItem=01218
 
 
-[ItemDef 01397]
-DefName=iPillow
-Can=CanIFlip
-Value=24
-Weight=6.1
-Resources=4 iCloth,2 iWool,1 iThread
-SkillMake=Tailoring 39.0,tSewingKit
-Category=Decoration - Furniture
-Subsection=Bedding
-Description=Pillow
-DupeList=013a6
-
-[ItemDef 013a4]
-DefName=iPillow2
-Name=bed pillow
-DYE=1
-Can=CanIFlip
-Value=24
-Weight=6.1
-Resources=4 iCloth,2 iWool,1 iThread
-SkillMake=Tailoring 39.0,tSewingKit
-Category=Decoration - Furniture
-Subsection=Bedding
-Description=Bed Pillow
-DupeList=013a5
-
-[ItemDef 013a5]
-//pillow
-DupeItem=013a4
-
-[ItemDef 013a6]
-//pillow
-DupeItem=01397
-
-[ItemDef 013a7]
-DefName=iPillow3
-Name=small round pillow
-DYE=1
-Value=24
-Weight=6.1
-Resources=4 iCloth,2 iWool,1 iThread
-SkillMake=Tailoring 39.0,tSewingKit
-Category=Decoration - Furniture
-Subsection=Bedding
-Description=Pillow
-
-[ItemDef 013a8]
-DefName=iPillow4
-Name=round pillow
-DYE=1
-Value=24
-Weight=6.1
-Resources=4 iCloth,2 iWool,1 iThread
-SkillMake=Tailoring 39.0,tSewingKit
-Category=Decoration - Furniture
-Subsection=Bedding
-Description=Pillow
-
-[ItemDef 013a9]
-DefName=iPillow5
-Name=fluffy pillow
-DYE=1
-Can=CanIFlip
-Value=33
-Weight=6.1
-Resources=6 iCloth,3 iWool,1 iThread
-SkillMake=Tailoring 39.0,tSewingKit
-Category=Decoration - Furniture
-Subsection=Bedding
-Description=Pillow
-DupeList=013aa
-
-[ItemDef 013aa]
-//pillow
-DupeItem=013a9
-
-[ItemDef 013ab]
-DefName=iPillow6
-Name=square pillow
-DYE=1
-Value=24
-Weight=6.1
-Resources=4 iCloth,2 iWool,1 iThread
-SkillMake=Tailoring 39.0,tSewingKit
-Category=Decoration - Furniture
-Subsection=Bedding
-Description=Pillow
-
-[ItemDef 013ac]
-DefName=iPillow7
-Name=pillow with tassles
-DYE=1
-Value=24
-Weight=6.1
-Resources=4 iCloth,2 iWool,1 iThread
-SkillMake=Tailoring 39.0,tSewingKit
-Category=Decoration - Furniture
-Subsection=Bedding
-Description=Pillow
-
-[ItemDef 013ad]
-DefName=iPillow8
-Name=soft pillow
-DYE=1
-Can=CanIFlip
-Value=33
-Weight=6.1
-Resources=6 iCloth,3 iWool,1 iThread
-SkillMake=Tailoring 39.0,tSewingKit
-Category=Decoration - Furniture
-Subsection=Bedding
-Description=Pillow
-DupeList=013ae
-
-[ItemDef 013ae]
-//pillow
-DupeItem=013ad
-
 
 [ItemDef 01941]
 DefName=iMugsGlassBartop
@@ -2300,39 +1901,6 @@ DupeList=01527
 [ItemDef 01527]
 //chair throne lb
 DupeItem=01526
-
-[ItemDef 0163a]
-DefName=iPillowLarge
-Name=large diamond pillow
-Value=39
-Weight=10.2
-Resources=6 iCloth,4 iWool,2 iThread
-SkillMake=Tailoring 49.0,tSewingKit
-Category=Decoration - Furniture
-Subsection=Bedding
-Description=Pillow
-
-[ItemDef 0163b]
-DefName=iPillow9
-Name=large square pillow
-Value=30
-Weight=10.2
-Resources=4 iCloth,2 iWool,4 iThread
-SkillMake=Tailoring 39.0,tSewingKit
-Category=Decoration - Furniture
-Subsection=Bedding
-Description=Pillow
-
-[ItemDef 0163c]
-DefName=iPillow10
-Name=small diamond pillow
-Value=30
-Weight=6.4
-Resources=4 iCloth,2 iWool,4 iThread
-SkillMake=Tailoring 39.0,tSewingKit
-Category=Decoration - Furniture
-Subsection=Bedding
-Description=Pillow
 
 
 [ItemDef 01667]
@@ -2453,27 +2021,6 @@ DupeItem=01910
 //bar
 DupeItem=01910
 
-[ItemDef 01914]
-DefName=iTowel
-Value=14
-Weight=3.1
-Resources=3 iCloth,1 iThread
-SkillMake=Tailoring 33.0,tSewingKit
-Category=Decoration - Furniture
-Subsection=Bedding
-Description=Towel
-
-[ItemDef 01915]
-DefName=iPillow11
-Name=small bedding pillow
-Value=15
-Weight=3.1
-Resources=2 iCloth,1 iWool,1 iThread
-SkillMake=Tailoring 39.0,tSewingKit
-Category=Decoration - Furniture
-Subsection=Bedding
-Description=Pillow
-
 [ItemDef 01916]
 DefName=iTableMassageEnd
 Type=tTable
@@ -2523,35 +2070,6 @@ DupeItem=01910
 //bar
 DupeItem=01910
 
-
-[ItemDef 01944]
-DefName=iPillowFancy
-Name=fancy pillow
-DYE=1
-Value=34
-Weight=4.3
-Resources=4 iCloth,2 iWool,1 iThread
-SkillMake=Tailoring 79.0,tSewingKit
-Category=Decoration - Furniture
-Subsection=Bedding
-Description=Fancy Pillow
-
-[ItemDef 01945]
-DefName=iScreenWoodenCarved
-Name=carved wooden screen
-Can=CanIFlip
-Value=76
-Weight=24.4
-Resources=24 iLog,4 iHinge
-SkillMake=Carpentry 81.4,tCarpentry
-Category=Decoration - Furniture
-Subsection=Screens
-Description=Carved Wooden Screen
-DupeList=01946
-
-[ItemDef 01946]
-//carved wooden screen
-DupeItem=01945
 
 
 [ItemDef 01da5]

@@ -1,0 +1,276 @@
+[Comment Notes]
+Break the original display cases down some more and separate the rails from the bases.
+Group them as is, just with separation of rail and base (Never liked several direction flip faces with multiple component objects and EA seems to work with those same logics (Singular seems to be their only dupe flipping which is more than agreeable)).
+All original display case bases have a height of 3.
+
+Maybe just make a new TypeDef since there is quite a few and just add the Rail ID to TData1.
+Add @DClick triggers to add rails.
+
+On=@DClick
+If (<Link> == 04FFFFFFF)
+ Serv.NewItem=<WhateverRailID>	// <TData1>
+ New.P=<P.X>,<P.Y>,<Eval (<P.Z>+3)>
+ Link=<New.UID>
+ Update
+Else
+ Remove <Link>
+ Link=04FFFFFFF
+EndIf
+
+Or something similar.
+
+
+[ItemDef 0A9F]
+DefName=iDisplayCase1
+Name=display case
+NameLoc=1022719
+Type=tNormal
+Weight=255
+DupeList=0AA0,0AA1,0AA2,0AA3,0AA4,0AA5,0B0F,0B10,0B11,0B12,0B13,0B14,0B15,0B16,0B17,0B18
+
+Category=Decorations
+Subsection=Display Cases
+Description=Display Case
+
+[ItemDef 0AA0]
+NameLoc=1022720
+DupeItem=0A9F
+
+[ItemDef 0AA1]
+NameLoc=1022721
+DupeItem=0A9F
+
+[ItemDef 0AA2]
+NameLoc=1022722
+DupeItem=0A9F
+
+[ItemDef 0AA3]
+NameLoc=1022723
+DupeItem=0A9F
+
+[ItemDef 0AA4]
+NameLoc=1022724
+DupeItem=0A9F
+
+[ItemDef 0AA5]
+NameLoc=1022725
+DupeItem=0A9F
+
+[ItemDef 0B0F]
+NameLoc=1022831
+DupeItem=0A9F
+
+[ItemDef 0B10]
+NameLoc=1022832
+DupeItem=0A9F
+
+[ItemDef 0B11]
+NameLoc=1022833
+DupeItem=0A9F
+
+[ItemDef 0B12]
+NameLoc=1022834
+DupeItem=0A9F
+
+[ItemDef 0B13]
+NameLoc=1022835
+DupeItem=0A9F
+
+[ItemDef 0B14]
+NameLoc=1022836
+DupeItem=0A9F
+
+[ItemDef 0B15]
+NameLoc=1022837
+DupeItem=0A9F
+
+[ItemDef 0B16]
+NameLoc=1022838
+DupeItem=0A9F
+
+[ItemDef 0B17]
+NameLoc=1022839
+DupeItem=0A9F
+
+[ItemDef 0B18]
+NameLoc=1022840
+DupeItem=0A9F
+
+
+[ItemDef 0AFD]
+DefName=iDisplayCase2
+Name=display case
+NameLoc=1022813
+Type=tNormal
+Weight=255
+DupeList=0AFE,0AFF,0B00,0B01,0B02
+
+Category=Decorations
+Subsection=Display Cases
+Description=Display Case
+
+[ItemDef 0AFE]
+NameLoc=1022814
+DupeItem=0AFD
+
+[ItemDef 0AFF]
+NameLoc=1022815
+DupeItem=0AFD
+
+[ItemDef 0B00]
+NameLoc=1022816
+DupeItem=0AFD
+
+[ItemDef 0B01]
+NameLoc=1022817
+DupeItem=0AFD
+
+[ItemDef 0B02]
+NameLoc=1022818
+DupeItem=0AFD
+
+
+[ItemDef 0B03]
+DefName=iDisplayCase3
+Name=display case
+NameLoc=1022819
+Type=tNormal
+Weight=255
+DupeList=0B04,0B05,0B06,0B07,0B08
+
+Category=Decorations
+Subsection=Display Cases
+Description=Display Case
+
+[ItemDef 0B04]
+NameLoc=1022820
+DupeItem=0B03
+
+[ItemDef 0B05]
+NameLoc=1022821
+DupeItem=0B03
+
+[ItemDef 0B06]
+NameLoc=1022822
+DupeItem=0B03
+
+[ItemDef 0B07]
+NameLoc=1022823
+DupeItem=0B03
+
+[ItemDef 0B08]
+NameLoc=1022824
+DupeItem=0B03
+
+
+[ItemDef 0B09]
+DefName=iDisplayCase4
+Name=display case
+NameLoc=1022825
+Type=tNormal
+Weight=255
+DupeList=0B0B
+
+Category=Decorations
+Subsection=Display Cases
+Description=Display Case
+
+[ItemDef 0B0B]
+NameLoc=1022827
+DupeItem=0B09
+
+
+[ItemDef 0B0A]
+DefName=iDisplayCase5
+Name=display case
+NameLoc=1022826
+Type=tNormal
+Weight=255
+DupeList=0B0C
+
+Category=Decorations
+Subsection=Display Cases
+Description=Display Case
+
+[ItemDef 0B0C]
+NameLoc=1022828
+DupeItem=0B0A
+
+
+[ItemDef 0B0D]
+DefName=iDisplayCase6
+Name=display case
+NameLoc=1022829
+Type=tNormal
+Weight=255
+DupeList=0B0E
+
+Category=Decorations
+Subsection=Display Cases
+Description=Display Case
+
+[ItemDef 0B0E]
+NameLoc=1022830
+DupeItem=0B0D
+
+
+[ItemDef 02FEA]
+DefName=iDisplayCase7
+Name=display case
+NameLoc=1032266
+Type=tNormal
+Weight=255
+DupeList=02FEB
+
+Category=Decorations
+Subsection=Display Cases
+Description=Display Case (Full)
+
+[ItemDef 02FEB]
+NameLoc=1032267
+DupeItem=02FEA
+
+
+[ItemDef 03066]
+DefName=iDisplayCase9
+Name=display case
+NameLoc=1032390
+Type=tNormal
+Weight=255
+DupeList=03067,03068
+
+Category=Decorations
+Subsection=Display Cases
+Description=Display Case (East)
+
+[ItemDef 03067]
+NameLoc=1032391
+DupeItem=03066
+
+[ItemDef 03068]
+NameLoc=1032392
+DupeItem=03066
+
+
+[ItemDef 03069]
+DefName=iDisplayCase10
+Name=display case
+NameLoc=1032393
+Type=tNormal
+Weight=255
+DupeList=0306A,0306B
+
+Category=Decorations
+Subsection=Display Cases
+Description=Display Case (South)
+
+[ItemDef 0306A]
+NameLoc=1032394
+DupeItem=03069
+
+[ItemDef 0306B]
+NameLoc=1032395
+DupeItem=03069
+
+
+[EOF]

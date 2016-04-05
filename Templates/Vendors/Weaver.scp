@@ -1,0 +1,25 @@
+[Template WeaverSell]
+Category=Vendor Templates
+Subsection=Sell Templates
+Description=Weaver
+Sell=iDyes,25
+Sell=iDyeTub,25
+Sell=iCloth,500
+Sell=iBoltOfCloth,25
+Sell=iBallOfYarn,25
+Sell=iScissors,25
+
+
+[Template WeaverBuy]
+Category=Vendor Templates
+Subsection=Buy Templates
+Description=Weaver
+Sell=iDyes
+Sell=iDyeTub
+Sell=iBaleOfCotton
+//Sell=iRawCotton
+Sell=iBallOfYarn
+Sell=iScissors
+
+
+[EOF]

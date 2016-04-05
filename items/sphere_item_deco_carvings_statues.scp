@@ -371,30 +371,6 @@ DUPEITEM=0139e
 DUPEITEM=0139e
 
 
-[ITEMDEF 01947]
-DEFNAME=iStatueStoneBlessed
-NAME=blessing statue
-FLIP=1
-VALUE=68
-WEIGHT=120.0
-RESOURCES=12 iRockPlain
-CATEGORY=Decoration - Wall Carvings & Statues
-SUBSECTION=Statues
-DESCRIPTION=Blessed Statue (multi-part)
-DUPELIST=01948,01949,0194a
-
-[ITEMDEF 01948]
-//blessed statue (multi-part)
-DUPEITEM=01947
-
-[ITEMDEF 01949]
-//blessed statue (multi-part)
-DUPEITEM=01947
-
-[ITEMDEF 0194a]
-//blessed statue (multi-part)
-DUPEITEM=01947
-
 
 [ITEMDEF 01f18]
 DEFNAME=iBustMultiface

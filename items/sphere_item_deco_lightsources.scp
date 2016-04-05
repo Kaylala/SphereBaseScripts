@@ -742,27 +742,6 @@ DUPEITEM=01854
 DUPEITEM=01854
 
 
-[ITEMDEF 0194d]
-DEFNAME=iBrazierDragon
-NAME=dragon brazier
-TYPE=tLightLit
-FLIP=1
-VALUE=452
-WEIGHT=42.5
-RESOURCES=17 iIngotIron,3 iIngotCopper,1 iIngotGold,1 i_brazier
-SKILLMAKE=Tinkering 43.1,tTinkerTools
-CATEGORY=Decoration - Lightsources
-SUBSECTION=Brazier
-DESCRIPTION=Dragon Brazier
-DUPELIST=0194e
-ON=@Create
-MOREZ=1
-
-[ITEMDEF 0194e]
-//dragon brazier
-DUPEITEM=0194d
-
-
 [ITEMDEF 019aa]
 DEFNAME=iBrazierTall
 NAME=tall brazier

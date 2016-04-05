@@ -1,0 +1,32 @@
+[Template CobblerSell]
+Category=Vendor Templates
+Subsection=Sell Templates
+Description=Cobbler
+Sell=iSandals,25
+Sell=iThighBoots,25
+Sell=iShoes,25
+Sell=iBoots,25
+
+[Template CobblerBuy]
+Category=Vendor Templates
+Subsection=Buy Templates
+Description=Cobbler
+Buy=iPiecesOfLeather
+Buy=iPiecesOfSpinedLeather
+Buy=iPiecesOfBarbedLeather
+Buy=iPiecesOfHornedLeather
+//Buy=iCutLeather
+//Buy=iPileOfHides
+Buy=iPilesOfHides
+Buy=iPilesOfSpinedHides
+Buy=iPilesOfBarbedHides
+Buy=iPilesOfHornedHides
+Buy=iFur1
+Buy=iFur2
+Buy=iThighBoots
+Buy=iShoes
+Buy=iBoots
+Buy=iSandals
+
+
+[EOF]

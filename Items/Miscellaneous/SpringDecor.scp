@@ -1,0 +1,143 @@
+[ItemDef 01944]
+DefName=iThrowPillow
+Name=throw pillow
+NameLoc=1026468
+Type=tNormal
+Weight=1
+
+Category=Miscellaneous
+Subsection=Spring Decor
+Description=Throw Pillow
+
+
+[ItemDef 01945]
+DefName=iCarvedWoodenScreen
+Name=carved wooden screen
+NameLoc=1026469
+Type=tNormal
+Weight=6
+DupeList=01946
+
+Category=Miscellaneous
+Subsection=Spring Decor
+Description=Carved Wooden Screen
+
+[ItemDef 01946]
+NameLoc=1026470
+DupeItem=01945
+
+
+[ItemDef 01947]
+DefName=iBlessedStatue
+Name=blessed statue
+NameLoc=1026471
+Type=tBlessedStatue
+Weight=12
+DupeList=01948
+
+Category=Miscellaneous
+Subsection=Spring Decor
+Description=Blessed Statue
+
+[ItemDef 01948]
+NameLoc=1026472
+DupeItem=01947
+
+[ItemDef 01949]
+NameLoc=1026473
+
+[ItemDef 0194A]
+NameLoc=1026474
+
+
+[ItemDef 0194B]
+DefName=iSurveyorsScope
+Name=surveyor's scope
+NameLoc=1026475
+Type=tCustomMulti
+Weight=3
+DupeList=0194C
+
+Category=Miscellaneous
+Subsection=Spring Decor
+Description=Surveyor's Scope
+
+[ItemDef 0194C]
+NameLoc=1026476
+
+
+[ItemDef 0194D]
+DefName=iDragonBrazierLit
+Name=dragon brazier
+NameLoc=1026477
+Type=tLitLight
+TData3=iDragonBrazier
+Weight=10
+
+Category=Miscellaneous
+Subsection=Spring Decor
+Description=Dragon Brazier (Lit)
+
+On=@Create
+MoreZ=1
+
+
+[ItemDef 0194E]
+DefName=iDragonBrazier
+Name=dragon brazier
+NameLoc=1026478
+Type=tUnlitLight
+TData3=iDragonBrazierLit
+Weight=10
+
+Category=Miscellaneous
+Subsection=Spring Decor
+Description=Dragon Brazier (Unlit)
+
+
+// Needs testing.
+// Bug report feedback please in the Issues section.
+[TypeDef tBlessedStatue]
+On=@Create
+Timer=60*60*24
+
+On=@Timer
+Serv.NewItem=RandomMageryReagent,{6 10}
+New.Bounce
+Timer=60*60*24
+
+ForContType tReagent
+ Local.Reagent ++
+EndFor
+If (<Local.Reagent>)
+ If (<DispID> == 01947)
+  DispID=01949
+ Else
+  DispID=01947
+ EndIf
+ If (<DispID> == 01948)
+  DispID=0194A
+ Else
+  DispID=01948
+ EndIf
+EndIf
+
+On=@PickUp_Self
+ForContType tReagent
+ Local.Reagent ++
+EndFor
+If (<Local.Reagent>)
+ If (<DispID> == 01947)
+  DispID=01949
+ Else
+  DispID=01947
+ EndIf
+ If (<DispID> == 01948)
+  DispID=0194A
+ Else
+  DispID=01948
+ EndIf
+EndIf
+
+
+[EOF]

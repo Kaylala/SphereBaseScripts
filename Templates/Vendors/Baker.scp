@@ -1,0 +1,35 @@
+[Template BakerSell]
+Category=Vendor Templates
+Subsection=Sell Templates
+Description=Baker
+Sell=iBreadLoaf,50
+Sell=iBakedPie,50
+Sell=iCake,50
+Sell=iMuffin,50
+Sell=iSackOfFlour,500
+Sell=iFrenchBread,50
+Sell=iPanOfCookies,50
+Sell=iPizza,50
+Sell=iJarOfHoney,50
+Sell=iDough,500
+
+
+[Template BakerBuy]
+Category=Vendor Templates
+Subsection=Buy Templates
+Description=Baker
+Buy=iKindling
+Buy=iBreadLoaf
+Buy=iBakedPie
+Buy=iCake
+Buy=iMuffin
+Buy=iSackOfFlour
+Buy=iFrenchBread
+Buy=iPanOfCookies
+Buy=iPizza
+Buy=iJarOfHoney
+Buy=iDough
+Buy=iPitcherOfMilk
+
+
+[EOF]

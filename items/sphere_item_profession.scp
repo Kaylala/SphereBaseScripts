@@ -1741,25 +1741,6 @@ DupeItem=01930
 DupeItem=01930
 
 
-[ItemDef 0194b]
-DefName=iScopeSurveyor
-Name=surveyor scope
-Type=tSextant
-FLIP=1
-VALUE=51
-Weight=0.6
-Resources=1 iSextantParts,1 iSpyglass
-SkillMake=Tinkering 30.7,tTinkerTools
-Category= Professions
-Subsection=Tinker
-Description=Surveyor Scope
-DupeList=0194c
-
-[ItemDef 0194c]
-//surveyor scope
-DupeItem=0194b
-
-
 [ItemDef 0197a]
 DefName=iForgeLargeBellows
 Type=tForge

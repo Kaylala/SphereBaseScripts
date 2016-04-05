@@ -1,0 +1,37 @@
+[Template FarmerSell]
+Category=Vendor Templates
+Subsection=Sell Templates
+Description=Farmer
+Sell=iHeadOfCabbage,50
+Sell=iHeadOfLettuce,50
+Sell=iEarOfCorn,50
+Sell=iEggs,50
+Sell=iPitcherOfMilk,50
+Sell=iSheafOfHay,50
+Sell=iCantaloupe,50
+Sell=iCarrot,50
+Sell=iHoneydewMelon,50
+Sell=iSquash,50
+Sell=iOnion,50
+Sell=iPumpkin,50
+Sell=iGourd1,50
+Sell=iTurnip,50
+Sell=iWatermelon,50
+Sell=iPeach,50
+Sell=iPear,50
+Sell=iLemon,50
+Sell=iLime,50
+Sell=iGrapes,50
+Sell=iApple,50
+
+
+[Template FarmerBuy]
+Category=Vendor Templates
+Subsection=Buy Templates
+Description=Farmer
+Buy=iKindling
+Buy=iSackOfFlour
+Buy=iSheafOfHay
+
+
+[EOF]

@@ -1,0 +1,33 @@
+[Template ButcherSell]
+Category=Vendor Templates
+Subsection=Sell Templates
+Description=Butcher
+Sell=iSliceOfBacon,50
+Sell=iHam,50
+Sell=iSausages,50
+Sell=iRawChickenLeg,50
+Sell=iRawBird,50
+Sell=iRawLegOfLamb,50
+Sell=iCutOfRawRibs,50
+Sell=iButcherKnife,25
+Sell=iMeatCleaver,25
+Sell=iSkinningKnife,25
+
+
+[Template ButcherBuy]
+Category=Vendor Templates
+Subsection=Buy Templates
+Description=Butcher
+Buy=iSliceOfBacon
+Buy=iHam
+Buy=iSausages
+Buy=iRawChickenLeg
+Buy=iRawBird
+Buy=iRawLegOfLamb
+Buy=iCutOfRawRibs
+Buy=iButcherKnife
+Buy=iMeatCleaver
+Buy=iSkinningKnife
+
+
+[EOF]

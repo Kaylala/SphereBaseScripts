@@ -1,0 +1,272 @@
+[ItemDef 0A6C]
+DefName=iFoldedBlanket1
+Name=folded blanket
+NameLoc=1022668
+Type=tNormal
+Can=CanIFlip
+Weight=255
+DupeList=0A6D
+
+Category=Decorations
+Subsection=Bedding
+Description=Folded Blanket
+
+[ItemDef 0A6D]
+NameLoc=1022669
+DupeItem=0A6C
+
+
+[ItemDef 0A6E]
+DefName=iFoldedBlanket2
+Name=folded blanket
+NameLoc=1022670
+Type=tNormal
+Can=CanIFlip
+Weight=255
+DupeList=0A6F
+
+Category=Decorations
+Subsection=Bedding
+Description=Folded Blanket
+
+[ItemDef 0A6F]
+NameLoc=1022671
+DupeItem=0A6E
+
+
+[ItemDef 0A94]
+DefName=iFoldedSheet
+Name=folded sheet
+NameLoc=1022706
+Type=tNormal
+Can=CanIFlip
+Weight=1
+DupeList=0A95
+
+Category=Decorations
+Subsection=Bedding
+Description=Folded Sheet
+
+[ItemDef 0A95]
+NameLoc=1022707
+DupeItem=0A94
+
+
+[ItemDef 0A96]
+DefName=iFoldedRichSheet
+Name=folded sheet
+NameLoc=1022708
+Type=tNormal
+Can=CanIFlip
+Weight=1
+DupeList=0A97
+
+Category=Decorations
+Subsection=Bedding
+Description=Folded Rich Sheet
+
+[ItemDef 0A97]
+NameLoc=1022709
+DupeItem=0A96
+
+
+[ItemDef 011EA]
+DefName=iStrawPillow
+Name=straw pillow
+NameLoc=1024586
+Type=tNormal
+Can=CanIFlip
+Weight=1
+DupeList=011EB
+
+Category=Decorations
+Subsection=Bedding
+Description=Straw Pillow
+
+[ItemDef 011EB]
+NameLoc=1024587
+DupeItem=011EA
+
+
+[ItemDef 01397]
+DefName=iPillow1
+Name=pillow
+NameLoc=1025015
+Type=tNormal
+Can=CanIFlip
+Weight=1
+DupeList=013A6
+
+Category=Decorations
+Subsection=Bedding
+Description=Pillow
+
+[ItemDef 013A6]
+NameLoc=1025030
+DupeItem=01397
+
+
+[ItemDef 013A4]
+DefName=iPillow2
+Name=pillow
+NameLoc=1025028
+Type=tNormal
+Can=CanIFlip
+Weight=1
+DupeList=013A5
+
+Category=Decorations
+Subsection=Bedding
+Description=Pillow
+
+[ItemDef 013A5]
+NameLoc=1025029
+DupeItem=013A4
+
+
+[ItemDef 013A7]
+DefName=iPillow3
+Name=pillow
+NameLoc=1025031
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Bedding
+Description=Pillow
+
+
+[ItemDef 013A8]
+DefName=iPillow4
+Name=pillow
+NameLoc=1025032
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Bedding
+Description=Pillow
+
+
+[ItemDef 013A9]
+DefName=iPillow5
+Name=pillow
+NameLoc=1025033
+Type=tNormal
+Can=CanIFlip
+Weight=1
+DupeList=013AA
+
+Category=Decorations
+Subsection=Bedding
+Description=Pillow
+
+[ItemDef 013AA]
+NameLoc=1025034
+DupeItem=013A9
+
+
+[ItemDef 013AB]
+DefName=iPillow6
+Name=pillow
+NameLoc=1025035
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Bedding
+Description=Pillow
+
+
+[ItemDef 013AC]
+DefName=iPillow7
+Name=pillow
+NameLoc=1025036
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Bedding
+Description=Pillow
+
+
+[ItemDef 013AD]
+DefName=iPillow8
+Name=pillow
+NameLoc=1025037
+Type=tNormal
+Can=CanIFlip
+Weight=1
+DupeList=013AE
+
+Category=Decorations
+Subsection=Bedding
+Description=Pillow
+
+[ItemDef 013AE]
+NameLoc=1025038
+DupeItem=013AD
+
+
+// Pilllow according to the cliloc hehe must be super comfy!
+[ItemDef 0163A]
+DefName=iPillow9
+Name=pillow
+NameLoc=1025690
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Bedding
+Description=Pillow
+
+
+[ItemDef 0163B]
+DefName=iPillow10
+Name=pillow
+NameLoc=1025691
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Bedding
+Description=Pillow
+
+
+[ItemDef 0163C]
+DefName=iPillow11
+Name=pillow
+NameLoc=1025692
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Bedding
+Description=Pillow
+
+
+[ItemDef 01914]
+DefName=iTowel
+Name=towel
+NameLoc=1026420
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Bedding
+Description=Towel (Massage)
+
+
+[ItemDef 01915]
+DefName=iPillow12
+Name=pillow
+NameLoc=1026421
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Bedding
+Description=Pillow (Massage)
+
+
+[EOF]

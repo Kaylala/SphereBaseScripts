@@ -1,0 +1,46 @@
+[Template FurTraderSell]
+Category=Vendor Templates
+Subsection=Sell Templates
+Description=Furtrader
+//Sell=iPileOfHides,500
+Sell=iPilesOfHides,500
+Sell=iSkinningKnife,25
+
+
+[Template FurTraderBuy]
+Category=Vendor Templates
+Subsection=Buy Templates
+Description=Furtrader
+//Buy=iPileOfHides
+Buy=iPilesOfHides
+Buy=iPilesOfSpinedHides
+Buy=iPilesOfHornedHides
+Buy=iPilesOfBarbedHides
+Buy=iFur1
+Buy=iFur2
+Buy=iBreadLoaf
+Buy=iFrenchBread
+Buy=iPlateOfCookies
+Buy=iBakedPie
+Buy=iCake
+Buy=iMuffin
+Buy=iWheelOfCheese
+Buy=iCookedBird
+Buy=iCutOfRibs
+Buy=iLegOfLamb
+Buy=iChickenLeg
+Buy=iBowlOfCarrots1
+Buy=iBowlOfCorn1
+Buy=iBowlOfLettuce1
+Buy=iBowlOfPeas1
+Buy=iBowlOfCarrots2
+Buy=iBowlOfCorn2
+Buy=iBowlOfLettuce2
+Buy=iBowlOfPeas2
+Buy=iBowlOfPotatoes
+Buy=iBowlOfStew
+Buy=iTomatoSoup
+Buy=iSkinningKnife
+
+
+[EOF]

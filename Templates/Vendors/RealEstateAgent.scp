@@ -1,0 +1,59 @@
+[Template RealEstateAgentSell]
+Category=Vendor Templates
+Subsection=Sell Templates
+Description=Real Estate Agent
+Sell=iStoneAndPlasterHouseDeed,5
+Sell=iFieldStoneHouseDeed,5
+Sell=iSmallBrickHouseDeed,5
+Sell=iWoodenHouseDeed,5
+Sell=iWoodAndPlasterHouseDeed,5
+Sell=iThatchedRoofCottageDeed,5
+Sell=iBrickHouseDeed,5
+Sell=iTwoStoryWoodAndPlasterHouseDeed,5
+Sell=iTwoStoryStoneAndPlasterHouseDeed,5
+Sell=iTowerDeed,5
+Sell=iMmallStoneKeepDeed,5
+Sell=iCastleDeed,5
+Sell=iLargeHouseWithPatioDeed,5
+Sell=iMarbleHouseWithPatioDeed,5
+Sell=iSmallStoneTowerDeed,5
+Sell=iTwoStoryLogCabinDeed,5
+Sell=iSandstoneHouseWithPatioDeed,5
+Sell=iTwoStoryVillaDeed,5
+Sell=iSmallStoneWorkshopDeed,5
+Sell=iSmallMarbleWorkshopDeed,5
+Sell=iTowerDeed,5
+Sell=iCastleDeed,5
+//Sell=iEvilCompoundDeed,5
+
+
+[Template RealEstateAgentBuy]
+Category=Vendor Templates
+Subsection=Buy Templates
+Description=Real Estate Agent
+Buy=iStoneAndPlasterHouseDeed
+Buy=iFieldStoneHouseDeed
+Buy=iSmallBrickHouseDeed
+Buy=iWoodenHouseDeed
+Buy=iWoodAndPlasterHouseDeed
+Buy=iThatchedRoofCottageDeed
+Buy=iBrickHouseDeed
+Buy=iTwoStoryWoodAndPlasterHouseDeed
+Buy=iTwoStoryStoneAndPlasterHouseDeed
+Buy=iTowerDeed
+Buy=iMmallStoneKeepDeed
+Buy=iCastleDeed
+Buy=iLargeHouseWithPatioDeed
+Buy=iMarbleHouseWithPatioDeed
+Buy=iSmallStoneTowerDeed
+Buy=iTwoStoryLogCabinDeed
+Buy=iSandstoneHouseWithPatioDeed
+Buy=iTwoStoryVillaDeed
+Buy=iSmallStoneWorkshopDeed
+Buy=iSmallMarbleWorkshopDeed
+Buy=iTowerDeed
+Buy=iCastleDeed
+//Buy=iEvilCompoundDeed
+
+
+[EOF]
