@@ -1,0 +1,61 @@
+[ItemDef 01BD8]
+DefName=iBoards1
+Name=boards
+Type=tNormal
+Weight=6
+DupeList=01BDB
+
+Category=Decorations
+Subsection=Boards
+Description=Boards (3)
+
+[ItemDef 01BDB]
+DupeItem=01BD8
+
+
+[ItemDef 01BD9]
+DefName=iBoards2
+Name=boards
+Type=tNormal
+Weight=12
+DupeList=01BDC
+
+Category=Decorations
+Subsection=Boards
+Description=Boards (8)
+
+[ItemDef 01BDC]
+DupeItem=01BD9
+
+
+[ItemDef 01bde]
+DefName=iLogs1
+Name=logs
+Type=tNormal
+Weight=6
+DupeList=01BE1
+
+Category=Decorations
+Subsection=Logs
+Description=Logs (3)
+
+[ItemDef 01BE1]
+DupeItem=01BDE
+
+
+[ItemDef 01bdf]
+DefName=iLogs2
+Name=logs
+Type=tNormal
+Weight=24
+DupeList=01BE2
+
+Category=Decorations
+Subsection=Logs
+Description=Logs (3)
+
+[ItemDef 01BE2]
+DupeItem=01BDF
+
+
+[EOF]

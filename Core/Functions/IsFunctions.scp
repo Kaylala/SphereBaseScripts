@@ -1,7 +1,9 @@
 // Checks <ArgN> radius for Player's Corpse.
 [Function IsNearMyCorpse]
 ForItems <ArgN>
- Return <QVal ((<Type> == tCorpse) && (<Link.UID> == <UID>)) ? 1 : 0>
+ If ((<Type> == tCorpse) && (<Link.UID> == <UID>))
+  Return 1
+ EndIf
 EndFor
 
 

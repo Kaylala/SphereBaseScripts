@@ -1,0 +1,135 @@
+[ItemDef 01bd7]
+DefName=iBoard
+Name=board%s
+Type=tBoard
+Can=CanIReplicate|CanIStack|CanIFlip
+Weight=1
+SkillMake=Carpentry 0
+Resources=1 iLog
+Material=tWood
+Value=4
+DupeList=01bda
+
+Category=Resources
+Subsection=Wood: Boards
+Description=Board
+
+[ItemDef 01bda]
+DupeItem=01bd7
+
+
+[ItemDef iOakBoard]
+ID=iBoard
+Name=oak board%s
+Type=tBoard
+Can=CanIReplicate|CanIStack|CanIFlip
+Weight=1
+SkillMake=Carpentry 650
+Resources=1 iOakLog
+Material=tWood
+Value=8
+
+Category=Resources
+Subsection=Wood: Boards
+Description=Oak Board
+
+On=@Create
+Color=OakHue
+
+
+[ItemDef iAshBoard]
+ID=iBoard
+Name=ash board%s
+Type=tBoard
+Can=CanIReplicate|CanIStack|CanIFlip
+Weight=1
+SkillMake=Carpentry 800
+Resources=1 iAshLog
+Material=tWood
+Value=12
+
+Category=Resources
+Subsection=Wood: Boards
+Description=Ash Board
+
+On=@Create
+Color=AshHue
+
+
+[ItemDef iYewBoard]
+ID=iBoard
+Name=yew board%s
+Type=tBoard
+Can=CanIReplicate|CanIStack|CanIFlip
+Weight=1
+SkillMake=Carpentry 950
+Resources=1 iYewLog
+Material=tWood
+Value=16
+
+Category=Resources
+Subsection=Wood: Boards
+Description=Yew Board
+
+On=@Create
+Color=YewHue
+
+
+[ItemDef iBloodwoodBoard]
+ID=iBoard
+Name=bloodwood board%s
+Type=tBoard
+Can=CanIReplicate|CanIStack|CanIFlip
+Weight=1
+SkillMake=Carpentry 1000
+Resources=1 iBloodwoodLog
+Material=tWood
+Value=20
+
+Category=Resources
+Subsection=Wood: Boards
+Description=Bloodwood Board
+
+On=@Create
+Color=BloodwoodHue
+
+
+[ItemDef iHeartwoodBoard]
+ID=iBoard
+Name=heartwood board%s
+Type=tBoard
+Can=CanIReplicate|CanIStack|CanIFlip
+Weight=1
+SkillMake=Carpentry 1000
+Resources=1 iHeartwoodLog
+Material=tWood
+Value=20
+
+Category=Resources
+Subsection=Wood: Boards
+Description=Heartwood Board
+
+On=@Create
+Color=HeartwoodHue
+
+
+[ItemDef iFrostwoodBoard]
+ID=iBoard
+Name=frostwood board%s
+Type=tBoard
+Can=CanIReplicate|CanIStack|CanIFlip
+Weight=1
+SkillMake=Carpentry 1000
+Resources=1 iFrostwoodLog
+Material=tWood
+Value=20
+
+Category=Resources
+Subsection=Wood: Boards
+Description=Frostwood Board
+
+On=@Create
+Color=FrostwoodHue
+
+
+[EOF]

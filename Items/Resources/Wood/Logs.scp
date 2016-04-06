@@ -1,0 +1,121 @@
+[ItemDef 01bdd]
+DefName=iLog
+Name=log%s
+Type=tLog
+Can=CanIStack|CanIFlip
+Weight=2
+Material=tWood
+Value=4
+DupeList=01bda
+
+Category=Resources
+Subsection=Wood: Logs
+Description=Log
+
+[ItemDef 01be0]
+DupeItem=01bdd
+
+
+[ItemDef iOakLog]
+ID=iLog
+Name=oak log%s
+Type=tLog
+Can=CanIStack|CanIFlip
+Weight=2
+Material=tWood
+Value=8
+
+Category=Resources
+Subsection=Wood: Logs
+Description=Oak Log
+
+On=@Create
+Color=OakHue
+
+
+[ItemDef iAshLog]
+ID=iLog
+Name=ash log%s
+Type=tLog
+Can=CanIStack|CanIFlip
+Weight=2
+Material=tWood
+Value=12
+
+Category=Resources
+Subsection=Wood: Logs
+Description=Ash Log
+
+On=@Create
+Color=AshHue
+
+
+[ItemDef iYewLog]
+ID=iLog
+Name=yew log%s
+Type=tLog
+Can=CanIStack|CanIFlip
+Weight=2
+Material=tWood
+Value=16
+
+Category=Resources
+Subsection=Wood: Logs
+Description=Yew Log
+
+On=@Create
+Color=YewHue
+
+
+[ItemDef iBloodwoodLog]
+ID=iLog
+Name=bloodwood log%s
+Type=tLog
+Can=CanIStack|CanIFlip
+Weight=2
+Material=tWood
+Value=20
+
+Category=Resources
+Subsection=Wood: Logs
+Description=Bloodwood Log
+
+On=@Create
+Color=BloodwoodHue
+
+
+[ItemDef iHeartwoodLog]
+ID=iLog
+Name=heartwood log%s
+Type=tLog
+Can=CanIStack|CanIFlip
+Weight=2
+Material=tWood
+Value=20
+
+Category=Resources
+Subsection=Wood: Logs
+Description=Heartwood Log
+
+On=@Create
+Color=HeartwoodHue
+
+
+[ItemDef iFrostwoodLog]
+ID=iLog
+Name=frostwood log%s
+Type=tLog
+Can=CanIStack|CanIFlip
+Weight=2
+Material=tWood
+Value=20
+
+Category=Resources
+Subsection=Wood: Logs
+Description=Frostwood Log
+
+On=@Create
+Color=FrostwoodHue
+
+
+[EOF]
