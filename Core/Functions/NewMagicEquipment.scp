@@ -1,0 +1,61 @@
+// NewMagicWeapon=<Item>,<Intensity>(,<Spell>,<Charges>)
+[Function NewMagicWeapon]
+If !(<ArgV0>)
+ Serv.Log [Function: NewMagicWeapon] Error - No Item Set.
+ Return 1
+EndIf
+Serv.NewItem=<ArgV0>
+New.Attr |= AttrMagic
+New.MoreY=<ArgV1>
+If !(<MoreY>)
+ New.MoreY=0
+EndIf
+If (<MoreY> == 200)
+ New.Name=<New.Name> of Ruin
+ElIf (<MoreY> == 400)
+ New.Name=<New.Name> of Might
+ElIf (<MoreY> == 600)
+ New.Name=<New.Name> of Force
+ElIf (<MoreY> == 800)
+ New.Name=<New.Name> of Power
+ElIf (<MoreY> == 1000)
+ New.Name=<New.Name> of Vanquishing
+EndIf
+If (<ArgV2>)
+ New.MoreX=<ArgV2>
+ If (<ArgV3>)
+  New.More2=<ArgV3>
+ Else
+  New.More2=40
+ EndIf
+EndIf
+New.Bounce
+
+
+// NewMagicArmor=<Item>,<Intensity>
+[Function NewMagicArmor]
+If !(<ArgV0>)
+ Serv.Log [Function: NewMagicArmor] Error - No Item Set.
+ Return 1
+EndIf
+Serv.NewItem=<ArgV0>
+New.Attr |= AttrMagic
+New.MoreY=<ArgV1>
+If !(<MoreY>)
+ New.MoreY=0
+EndIf
+If (<MoreY> == 200)
+ New.Name=<New.Name> of Defense
+ElIf (<MoreY> == 400)
+ New.Name=<New.Name> of Guarding
+ElIf (<MoreY> == 600)
+ New.Name=<New.Name> of Hardening
+ElIf (<MoreY> == 800)
+ New.Name=<New.Name> of Fortification
+ElIf (<MoreY> == 1000)
+ New.Name=<New.Name> of Invulnerability
+EndIf
+New.Bounce
+
+
+[EOF]
