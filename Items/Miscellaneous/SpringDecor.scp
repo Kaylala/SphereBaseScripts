@@ -95,6 +95,71 @@ Subsection=Spring Decor
 Description=Dragon Brazier (Unlit)
 
 
+[ItemDef 0194F]
+DefName=iBasketOfHerbs
+Name=basket of herbs
+NameLoc=1026479
+Type=tNormal
+Weight=1
+
+Category=Miscellaneous
+Subsection=Spring Decor
+Description=Basket of Herbs
+
+
+[ItemDef 01950]
+DefName=iMongbatDartboard
+Name=mongbat dartboard
+NameLoc=1026480
+Type=tNormal
+Weight=8
+DupeList=01953
+
+Category=Miscellaneous
+Subsection=Spring Decor
+Description=Mongbat Dartboard
+
+[ItemDef 01951]
+NameLoc=1026481
+
+[ItemDef 01952]
+NameLoc=1026482
+
+[ItemDef 01953]
+NameLoc=1026483
+DupeItem=01950
+
+[ItemDef 01954]
+NameLoc=1026484
+
+[ItemDef 01955]
+NameLoc=1026485
+
+
+[ItemDef 01956]
+DefName=iShochu
+Name=shochu
+NameLoc=1026486
+Type=tBooze
+Weight=2
+
+Category=Miscellaneous
+Subsection=Spring Decor
+Description=Shochu
+
+
+[ItemDef 01957]
+DefName=iShochu
+Name=shochu
+NameLoc=1026486	// 1026487 Scaled up and this has no name.
+Type=tNormal
+Weight=1
+
+Category=Miscellaneous
+Subsection=Spring Decor
+Description=Shochu (Empty/Refillable)
+
+
 // Needs testing.
 // Bug report feedback please in the Issues section.
 [TypeDef tBlessedStatue]

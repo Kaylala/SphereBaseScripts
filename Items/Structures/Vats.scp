@@ -1,0 +1,120 @@
+[ItemDef 014d7]
+DefName=iVat1
+Name=vat
+Weight=255
+DupeList=014d8,014d9,014da,014db,014dc,014dd,014de,014df,014e1,014e2
+
+Category=Structures
+Subsection=Vat
+Description=Vat
+
+[ItemDef 014d8]
+DupeItem=014d7
+
+[ItemDef 014d9]
+DupeItem=014d7
+
+[ItemDef 014da]
+DupeItem=014d7
+
+[ItemDef 014db]
+DupeItem=014d7
+
+[ItemDef 014dc]
+DupeItem=014d7
+
+[ItemDef 014dd]
+DupeItem=014d7
+
+[ItemDef 014de]
+DupeItem=014d7
+
+[ItemDef 014df]
+DupeItem=014d7
+
+[ItemDef 014e1]
+Name=vat with ladder
+DupeItem=014d7
+
+[ItemDef 014e2]
+Name=vat ladder
+DupeItem=014d7
+
+
+[ItemDef 0151e]
+DefName=iVat2
+Name=vat
+Type=tNormal
+Weight=255
+DupeList=0151f,01520,01521,01522,01523,01524,01525
+
+Category=Buildings
+Subsection=Vat
+Description=Vat (Grapes)
+
+[ItemDef 0151f]
+DupeItem=0151e
+
+[ItemDef 01520]
+Name=vat ladder
+DupeItem=0151e
+
+[ItemDef 01521]
+Name=grapes
+DupeItem=0151e
+
+[ItemDef 01522]
+Name=grapes
+DupeItem=0151e
+
+[ItemDef 01523]
+Name=grapes
+DupeItem=0151e
+
+[ItemDef 01524]
+DupeItem=0151e
+
+[ItemDef 01525]
+Name=vat ladder
+DupeItem=0151e
+
+
+[ItemDef 01550]
+DefName=iVat3
+Name=vat
+Type=tNormal
+Weight=255
+DupeList=01551,01552,01553,01554,01555,01556,01558,01559
+
+Category=Buildings
+Subsection=Vat
+Description=Vat (Water)
+
+[ItemDef 01551]
+DefName=iVatLadder3
+DupeItem=01550
+
+[ItemDef 01552]
+DupeItem=01550
+
+[ItemDef 01553]
+DupeItem=01550
+
+[ItemDef 01554]
+DupeItem=01550
+
+[ItemDef 01555]
+DupeItem=01550
+
+[ItemDef 01556]
+DupeItem=01550
+
+[ItemDef 01558]
+DupeItem=01550
+
+[ItemDef 01559]
+Name=water
+DupeItem=01550
+
+
+[EOF]

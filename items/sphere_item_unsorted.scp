@@ -1315,38 +1315,6 @@ Subsection=Containers
 Description=Keg
 
 
-[ItemDef 01950]
-//FIXME: Should be a game (Khaos: No It shouldn't. EA Compliance it is not even an archery butte. It is a dartboard.)
-DefName=iDartboardMongbat
-Name=mongbat target
-FLIP=1
-Type=tArcheryButte
-Value=75
-Weight=15.0
-Resources=95 iLog,1 iCloth,1 iNails,10 i_fur_dark
-//SkillMake=Carpentry 15.7,t_carpentry
-Category=Games
-Subsection=Darts
-Description=Mongbat Target
-DupeList=01953
-
-[ItemDef 01951]
-//mongbat dartboard (animation frame)
-
-[ItemDef 01952]
-//mongbat dartboard (animation frame)
-
-[ItemDef 01953]
-//mongbat dartboard
-DupeItem=01950
-
-[ItemDef 01954]
-//mongbat dartboard (animation frame)
-
-[ItemDef 01955]
-//mongbat dartboard (animation frame)
-
-
 [ItemDef 01ad4]
 DefName=iNestWithEggs
 Weight=3

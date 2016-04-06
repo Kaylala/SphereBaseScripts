@@ -1,0 +1,206 @@
+[ItemDef 0423b]
+DefName=iSoulforge1
+Name=soulforge
+Type=tSoulforge
+Weight=255
+
+Category=Structures
+Subsection=Soulforges
+Description=Soulforge
+DupeList=0423c,0423d,0423e,0423f,04240,04241,04242,04243
+
+[ItemDef 0423c]
+DupeItem=0423b
+
+[ItemDef 0423d]
+DupeItem=0423b
+
+[ItemDef 0423e]
+DupeItem=0423b
+
+[ItemDef 0423f]
+DupeItem=0423b
+
+[ItemDef 04240]
+DupeItem=0423b
+
+[ItemDef 04241]
+DupeItem=0423b
+
+[ItemDef 04242]
+DupeItem=0423b
+
+[ItemDef 04243]
+DupeItem=0423b
+
+
+[ItemDef 0424b]
+DefName=iSoulForge2
+Name=soulforge
+Type=tRoof
+Weight=255
+DupeList=0424c,0424d,0424e,0424f,04250,04251,04252,04253
+
+Category=Structures
+Subsection=Soulforges
+Description=Soulforge (Roof)
+
+[ItemDef 0424c]
+DupeItem=0424b
+
+[ItemDef 0424d]
+DupeItem=0424b
+
+[ItemDef 0424e]
+DupeItem=0424b
+
+[ItemDef 0424f]
+DupeItem=0424b
+
+[ItemDef 04250]
+DupeItem=0424b
+
+[ItemDef 04251]
+DupeItem=0424b
+
+[ItemDef 04252]
+DupeItem=0424b
+
+[ItemDef 04253]
+DupeItem=0424b
+
+
+[ItemDef 04254]
+DefName=iSoulForge3
+Type=tAnvil
+Weight=255
+DupeList=04255,04256,04257
+
+Category=Structures
+Subsection=Soulforges
+Description=Soulforge (Anvil)
+
+[ItemDef 04255]
+DupeItem=04254
+
+[ItemDef 04256]
+DupeItem=04254
+
+[ItemDef 04257]
+DupeItem=04254
+
+
+[ItemDef 04263]
+DefName=iSoulforge4
+Name=soulforge
+Type=tSoulforge
+Weight=255
+DupeList=04264,04265,04266,04267,04268,04269,0426a,0426b,0426c,0426d,0426e,0426f,04270,04271,04272,02477,04278,04279,0427a,0427b,0427c,0427d,0427e,0427f,04280,04281,04282,04283,04284,04285,04286
+
+Category=Structures
+Subsection=Soulforges
+Description=Soulforge (Queen's)
+
+[ItemDef 04264]
+DupeItem=04263
+
+[ItemDef 04265]
+DupeItem=04263
+
+[ItemDef 04266]
+DupeItem=04263
+
+[ItemDef 04267]
+DupeItem=04263
+
+[ItemDef 04268]
+DupeItem=04263
+
+[ItemDef 04269]
+DupeItem=04263
+
+[ItemDef 0426a]
+Type=tAnvil
+DupeItem=04263
+
+[ItemDef 0426b]
+DupeItem=04263
+
+[ItemDef 0426c]
+DupeItem=04263
+
+[ItemDef 0426d]
+DupeItem=04263
+
+[ItemDef 0426e]
+Type=tAnvil
+DupeItem=04263
+
+[ItemDef 0426f]
+DupeItem=04263
+
+[ItemDef 04270]
+Type=tAnvil
+DupeItem=04263
+
+[ItemDef 04271]
+Type=tAnvil
+DupeItem=04263
+
+[ItemDef 04272]
+DupeItem=04263
+
+[ItemDef 04277]
+DupeItem=04263
+
+[ItemDef 04278]
+DupeItem=04263
+
+[ItemDef 04279]
+DupeItem=04263
+
+[ItemDef 0427a]
+DupeItem=04263
+
+[ItemDef 0427b]
+DupeItem=04263
+
+[ItemDef 0427c]
+DupeItem=04263
+
+[ItemDef 0427d]
+DupeItem=04263
+
+[ItemDef 0427e]
+Type=tAnvil
+DupeItem=04263
+
+[ItemDef 0427f]
+DupeItem=04263
+
+[ItemDef 04280]
+DupeItem=04263
+
+[ItemDef 04281]
+DupeItem=04263
+
+[ItemDef 04282]
+Type=tAnvil
+DupeItem=04263
+
+[ItemDef 04283]
+DupeItem=04263
+
+[ItemDef 04284]
+Type=tAnvil
+DupeItem=04263
+
+[ItemDef 04285]
+Type=tAnvil
+DupeItem=04263
+
+[ItemDef 04286]
+DupeItem=04263
+
+
+[EOF]

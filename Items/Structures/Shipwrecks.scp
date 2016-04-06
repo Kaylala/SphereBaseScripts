@@ -1,0 +1,403 @@
+[ItemDef 0479a]
+DefName=iShipwreck1
+Name=shipwreck
+Type=tNormal
+Weight=255
+DupeList=0479b,0479c,0479d,0479e,0479f,047a0,047a1,047a2,047a3,047a4,047a5,047a6,047a7,047a8,047a9,047aa,047ab,047ac,047ad,047ae,047af,047b0,047b1,047b2,047b3,047b4,047b5,047b6,047b7
+
+Category=Structures
+Subsection=Shipwrecks
+Description=Shipwreck (South)
+
+[ItemDef 0479b]
+DupeItem=0479a
+
+[ItemDef 0479c]
+DupeItem=0479a
+
+[ItemDef 0479d]
+DupeItem=0479a
+
+[ItemDef 0479e]
+DupeItem=0479a
+
+[ItemDef 0479f]
+DupeItem=0479a
+
+[ItemDef 047a0]
+DupeItem=0479a
+
+[ItemDef 047a1]
+DupeItem=0479a
+
+[ItemDef 047a2]
+DupeItem=0479a
+
+[ItemDef 047a3]
+DupeItem=0479a
+
+[ItemDef 047a4]
+DupeItem=0479a
+
+[ItemDef 047a5]
+DupeItem=0479a
+
+[ItemDef 047a6]
+DupeItem=0479a
+
+[ItemDef 047a7]
+DupeItem=0479a
+
+[ItemDef 047a8]
+DupeItem=0479a
+
+[ItemDef 047a9]
+DupeItem=0479a
+
+[ItemDef 047aa]
+DupeItem=0479a
+
+[ItemDef 047ab]
+DupeItem=0479a
+
+[ItemDef 047ac]
+DupeItem=0479a
+
+[ItemDef 047ad]
+DupeItem=0479a
+
+[ItemDef 047ae]
+DupeItem=0479a
+
+[ItemDef 047af]
+DupeItem=0479a
+
+[ItemDef 047b0]
+DupeItem=0479a
+
+[ItemDef 047b1]
+DupeItem=0479a
+
+[ItemDef 047b2]
+DupeItem=0479a
+
+[ItemDef 047b3]
+DupeItem=0479a
+
+[ItemDef 047b4]
+DupeItem=0479a
+
+[ItemDef 047b5]
+DupeItem=0479a
+
+[ItemDef 047b6]
+DupeItem=0479a
+
+[ItemDef 047b7]
+DupeItem=0479a
+
+
+[ItemDef 047b8]
+DefName=iShipwreck2
+Name=shipwreck
+Type=tNormal
+Weight=255
+DupeList=047b9,047ba,047bb,047bc,047bd,047be,047bf,047c0,047c1,047c2,047c3,047c4,047c5,047c6,047c7,047c8,047c9,047ca,047cb,047cc,047cd,047ce,047cf,047d0,047d1,047d2,047d3,047d4,047d5
+
+Category=Structures
+Subsection=Shipwrecks
+Description=Shipwreck (West)
+
+[ItemDef 047b9]
+DupeItem=047b8
+
+[ItemDef 047ba]
+DupeItem=047b8
+
+[ItemDef 047bb]
+DupeItem=047b8
+
+[ItemDef 047bc]
+DupeItem=047b8
+
+[ItemDef 047bd]
+DupeItem=047b8
+
+[ItemDef 047be]
+DupeItem=047b8
+
+[ItemDef 047bf]
+DupeItem=047b8
+
+[ItemDef 047c0]
+DupeItem=047b8
+
+[ItemDef 047c1]
+DupeItem=047b8
+
+[ItemDef 047c2]
+DupeItem=047b8
+
+[ItemDef 047c3]
+DupeItem=047b8
+
+[ItemDef 047c4]
+DupeItem=047b8
+
+[ItemDef 047c5]
+DupeItem=047b8
+
+[ItemDef 047c6]
+DupeItem=047b8
+
+[ItemDef 047c7]
+DupeItem=047b8
+
+[ItemDef 047c8]
+DupeItem=047b8
+
+[ItemDef 047c9]
+DupeItem=047b8
+
+[ItemDef 047ca]
+DupeItem=047b8
+
+[ItemDef 047cb]
+DupeItem=047b8
+
+[ItemDef 047cc]
+DupeItem=047b8
+
+[ItemDef 047cd]
+DupeItem=047b8
+
+[ItemDef 047ce]
+DupeItem=047b8
+
+[ItemDef 047cf]
+DupeItem=047b8
+
+[ItemDef 047d0]
+DupeItem=047b8
+
+[ItemDef 047d1]
+DupeItem=047b8
+
+[ItemDef 047d2]
+DupeItem=047b8
+
+[ItemDef 047d3]
+DupeItem=047b8
+
+[ItemDef 047d4]
+DupeItem=047b8
+
+[ItemDef 047d5]
+DupeItem=047b8
+
+
+[ItemDef 04886]
+DefName=iShipwreck3
+Name=shipwreck
+Type=tNormal
+Weight=255
+DupeList=04887,04888,04889,0488a,0488b,0488c,0488d,0488e,0488f,04890,04891,04892,04893,04894,04895,04896,04897,04898,04899,0489a,0489b,0489c,0489d,0489e,0489f,048a0,048a1,048a2,048a3
+
+Category=Structures
+Subsection=Shipwrecks
+Description=Shipwreck (North)
+
+[ItemDef 04887]
+DupeItem=04886
+
+[ItemDef 04888]
+DupeItem=04886
+
+[ItemDef 04889]
+DupeItem=04886
+
+[ItemDef 0488a]
+DupeItem=04886
+
+[ItemDef 0488b]
+DupeItem=04886
+
+[ItemDef 0488c]
+DupeItem=04886
+
+[ItemDef 0488d]
+DupeItem=04886
+
+[ItemDef 0488e]
+DupeItem=04886
+
+[ItemDef 0488f]
+DupeItem=04886
+
+[ItemDef 04890]
+DupeItem=04886
+
+[ItemDef 04891]
+DupeItem=04886
+
+[ItemDef 04892]
+DupeItem=04886
+
+[ItemDef 04893]
+DupeItem=04886
+
+[ItemDef 04894]
+DupeItem=04886
+
+[ItemDef 04895]
+DupeItem=04886
+
+[ItemDef 04896]
+DupeItem=04886
+
+[ItemDef 04897]
+DupeItem=04886
+
+[ItemDef 04898]
+DupeItem=04886
+
+[ItemDef 04899]
+DupeItem=04886
+
+[ItemDef 0489a]
+DupeItem=04886
+
+[ItemDef 0489b]
+DupeItem=04886
+
+[ItemDef 0489c]
+DupeItem=04886
+
+[ItemDef 0489d]
+DupeItem=04886
+
+[ItemDef 0489e]
+DupeItem=04886
+
+[ItemDef 0489f]
+DupeItem=04886
+
+[ItemDef 048a0]
+DupeItem=04886
+
+[ItemDef 048a1]
+DupeItem=04886
+
+[ItemDef 048a2]
+DupeItem=04886
+
+[ItemDef 048a3]
+DupeItem=04886
+
+
+[ItemDef 048a4]
+DefName=iShipwreck4
+Name=shipwreck
+Type=tNormal
+Weight=255
+DupeList=048a5,048a6,048a7,048ed,048ee,048ef,048f0,048f1,048f2,048f3,048f4,048f5,048f6,048f7,048f8,048f9,048fa,048fb,048fc,048fd,048fe,048ff,04903,04904,04905,04906,04907,04908,04909,0490e,0490f
+
+Category=Structures
+Subsection=Shipwrecks
+Description=Shipwreck (East)
+
+[ItemDef 048a5]
+DupeItem=048a4
+
+[ItemDef 048a6]
+DupeItem=048a4
+
+[ItemDef 048a7]
+DupeItem=048a4
+
+[ItemDef 048ed]
+DupeItem=048a4
+
+[ItemDef 048ee]
+DupeItem=048a4
+
+[ItemDef 048ef]
+DupeItem=048a4
+
+[ItemDef 048f0]
+DupeItem=048a4
+
+[ItemDef 048f1]
+DupeItem=048a4
+
+[ItemDef 048f2]
+DupeItem=048a4
+
+[ItemDef 048f3]
+DupeItem=048a4
+
+[ItemDef 048f4]
+DupeItem=048a4
+
+[ItemDef 048f5]
+DupeItem=048a4
+
+[ItemDef 048f6]
+DupeItem=048a4
+
+[ItemDef 048f7]
+DupeItem=048a4
+
+[ItemDef 048f8]
+DupeItem=048a4
+
+[ItemDef 048f9]
+DupeItem=048a4
+
+[ItemDef 048fa]
+DupeItem=048a4
+
+[ItemDef 048fb]
+DupeItem=048a4
+
+[ItemDef 048fc]
+DupeItem=048a4
+
+[ItemDef 048fd]
+DupeItem=048a4
+
+[ItemDef 048fe]
+DupeItem=048a4
+
+[ItemDef 048ff]
+DupeItem=048a4
+
+[ItemDef 04903]
+DupeItem=048a4
+
+[ItemDef 04904]
+DupeItem=048a4
+
+[ItemDef 04905]
+DupeItem=048a4
+
+[ItemDef 04906]
+DupeItem=048a4
+
+[ItemDef 04907]
+DupeItem=048a4
+
+[ItemDef 04908]
+DupeItem=048a4
+
+[ItemDef 04909]
+DupeItem=048a4
+
+[ItemDef 0490e]
+DupeItem=048a4
+
+[ItemDef 0490f]
+DupeItem=048a4
+
+
+[EOF]

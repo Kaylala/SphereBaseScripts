@@ -37,3 +37,27 @@ Component=063c6,1,0,0
 Component=063c7,0,1,0
 Component=063c8,0,0,0
 Component=063c9,-1,0,0
+
+
+[MultiDef mExodusNexus]
+Name=Exodus Nexus
+Type=tMulti
+Category=Multis
+Subsection=Building
+Description=Exodus Nexus
+MultiRegion=0,0,0,0
+Component=04b7a,-1,-1,0
+Component=04b7f,0,-1,0
+Component=04b7e,-1,0,0
+Component=04b7d,0,0,0
+Component=04b7c,-2,1,0
+Component=04b79,1,1,0
+Component=04b78,1,2,0
+Component=04b77,0,2,0
+Component=04b7b,-1,1,0
+Component=04b74,0,1,0
+Component=04b75,-2,2,0
+Component=04b76,-1,2,0
+
+
+[EOF]

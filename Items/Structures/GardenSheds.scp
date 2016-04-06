@@ -1,0 +1,113 @@
+[ItemDef 04bde]
+DefName=iGardenShed1
+Name=garden shed
+Type=tWall
+DupeList=04bdf,04be0,04be1,04be2,04be3,04be4,04be5,04be6,04be7,04be8,04be9
+
+Category=Structures
+Subsection=Garden Sheds
+Description=Garden Shed (South)
+
+[ItemDef 04bdf]
+DupeItem=04bde
+
+[ItemDef 04be0]
+DupeItem=04bde
+
+[ItemDef 04be1]
+DupeItem=04bde
+
+[ItemDef 04be2]
+DupeItem=04bde
+
+[ItemDef 04be3]
+DupeItem=04bde
+
+[ItemDef 04be4]
+DupeItem=04bde
+
+[ItemDef 04be5]
+DupeItem=04bde
+
+[ItemDef 04be6]
+DupeItem=04bde
+
+[ItemDef 04be7]
+DupeItem=04bde
+Type=tContainer
+TData1=03e
+
+Category=Structures
+Subsection=Garden Sheds
+Description=Garden Shed (South) (Container)
+
+[ItemDef 04be8]
+DupeItem=04bde
+
+[ItemDef 04be9]
+DupeItem=04bde
+Type=tContainer
+TData1=03e
+
+Category=Structures
+Subsection=Garden Sheds
+Description=Garden Shed (South) (Container)
+
+
+[ItemDef 04bea]
+DefName=iGardenShed2
+Name=garden shed
+Type=tWall
+DupeList=04beb,04bec,04bed,04bee,04bef,04bf0,04bf1,04bf2,04bf3,04bf4,04bf5
+
+Category=Structures
+Subsection=Garden Sheds
+Description=Garden Shed (East)
+
+[ItemDef 04beb]
+DupeItem=04bea
+Type=tContainer
+TData1=03e
+
+Category=Structures
+Subsection=Garden Sheds
+Description=Garden Shed (East) (Container)
+
+[ItemDef 04bec]
+DupeItem=04bea
+
+[ItemDef 04bed]
+DupeItem=04bea
+Type=tContainer
+TData1=03e
+
+Category=Structures
+Subsection=Garden Sheds
+Description=Garden Shed (East) (Container)
+
+[ItemDef 04bee]
+DupeItem=04bea
+
+[ItemDef 04bef]
+DupeItem=04bea
+
+[ItemDef 04bf0]
+DupeItem=04bea
+
+[ItemDef 04bf1]
+DupeItem=04bea
+
+[ItemDef 04bf2]
+DupeItem=04bea
+
+[ItemDef 04bf3]
+DupeItem=04bea
+
+[ItemDef 04bf4]
+DupeItem=04bea
+
+[ItemDef 04bf5]
+DupeItem=04bea
+
+
+[EOF]

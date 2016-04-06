@@ -1,0 +1,61 @@
+[ItemDef 024ad]
+DefName=iGate1
+Name=gate
+Type=tWall
+Weight=255
+DupeList=024ae,024af,024b0,024b1,024b2,024b3
+
+Category=Structures
+Subsection=Gates
+Description=Gate Structure (South)
+
+[ItemDef 024ae]
+DupeItem=024ad
+
+[ItemDef 024af]
+DupeItem=024ad
+
+[ItemDef 024b0]
+DupeItem=024ad
+
+[ItemDef 024b1]
+DupeItem=024ad
+
+[ItemDef 024b2]
+DupeItem=024ad
+
+[ItemDef 024b3]
+DupeItem=024ad
+
+
+[ItemDef 024b4]
+DefName=iGate2
+Name=gate
+Type=tWall
+Weight=255
+DupeList=024b5,024b6,024b7,024b8,024b9,024ba
+
+Category=Structures
+Subsection=Gates
+Description=Gate Structure (East)
+
+[ItemDef 024b5]
+DupeItem=024b4
+
+[ItemDef 024b6]
+DupeItem=024b4
+
+[ItemDef 024b7]
+DupeItem=024b4
+
+[ItemDef 024b8]
+DupeItem=024b4
+
+[ItemDef 024b9]
+DupeItem=024b4
+
+[ItemDef 024ba]
+DupeItem=024b4
+
+
+[EOF]

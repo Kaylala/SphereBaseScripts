@@ -1,0 +1,55 @@
+[ItemDef 0233c]
+DefName=iSerpentPillar
+Name=serpent pillar
+Type=tNormal
+Weight=255
+DupeList=0233d,0233e,0233f,02340,02341,02342,02343,02344,02345,02346,02347,02348,02349,0234a
+
+Category=Structures
+Subsection=Serpent Pillar
+Description=Serpent Pillar
+
+[ItemDef 0233d]
+DupeItem=0233c
+
+[ItemDef 0233e]
+DupeItem=0233c
+
+[ItemDef 0233f]
+DupeItem=0233c
+
+[ItemDef 02340]
+DupeItem=0233c
+
+[ItemDef 02341]
+DupeItem=0233c
+
+[ItemDef 02342]
+DupeItem=0233c
+
+[ItemDef 02343]
+DupeItem=0233c
+
+[ItemDef 02344]
+DupeItem=0233c
+
+[ItemDef 02345]
+DupeItem=0233c
+
+[ItemDef 02346]
+DupeItem=0233c
+
+[ItemDef 02347]
+DupeItem=0233c
+
+[ItemDef 02348]
+DupeItem=0233c
+
+[ItemDef 02349]
+DupeItem=0233c
+
+[ItemDef 0234a]
+DupeItem=0233c
+
+
+[EOF]

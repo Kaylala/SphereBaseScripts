@@ -1,0 +1,157 @@
+[ItemDef 049d4]
+DefName=iCrane1
+Name=Crane
+Type=tNormal
+Weight=255
+DupeList=049d5,049d6,049d7,049d8,049d9,049da,049db,049dc,049dd
+
+Category=Structures
+Subsection=Cranes
+Description=Crane (East)
+
+[ItemDef 049d5]
+DupeItem=049d4
+
+[ItemDef 049d6]
+DupeItem=049d4
+
+[ItemDef 049d7]
+DupeItem=049d4
+
+[ItemDef 049d8]
+DupeItem=049d4
+
+[ItemDef 049d9]
+DupeItem=049d4
+
+[ItemDef 049da]
+DupeItem=049d4
+
+[ItemDef 049db]
+DupeItem=049d4
+
+[ItemDef 049dc]
+DupeItem=049d4
+
+[ItemDef 049dd]
+DupeItem=049d4
+
+
+[ItemDef 049DE]
+DefName=iCrane2
+Name=Crane
+Type=tNormal
+Weight=255
+DupeList=049df,049e0,049e1,049e2,049e3,049e4,049e5,049e6,049e7
+
+Category=Structures
+Subsection=Cranes
+Description=Crane (North)
+
+[ItemDef 049df]
+DupeItem=049DE
+
+[ItemDef 049e0]
+DupeItem=049DE
+
+[ItemDef 049e1]
+DupeItem=049DE
+
+[ItemDef 049e2]
+DupeItem=049DE
+
+[ItemDef 049e3]
+DupeItem=049DE
+
+[ItemDef 049e4]
+DupeItem=049DE
+
+[ItemDef 049e5]
+DupeItem=049DE
+
+[ItemDef 049e6]
+DupeItem=049DE
+
+[ItemDef 049e7]
+DupeItem=049DE
+
+
+[ItemDef 049E8]
+DefName=iCrane3
+Name=Crane
+Type=tNormal
+Weight=255
+DupeList=049e8,049e9,049ea,049eb,049ec,049ed,049ee,049ef,049f0,049f1
+
+Category=Structures
+Subsection=Cranes
+Description=Crane (South)
+
+[ItemDef 049e9]
+DupeItem=049e8
+
+[ItemDef 049ea]
+DupeItem=049e8
+
+[ItemDef 049eb]
+DupeItem=049e8
+
+[ItemDef 049ec]
+DupeItem=049e8
+
+[ItemDef 049ed]
+DupeItem=049e8
+
+[ItemDef 049ee]
+DupeItem=049e8
+
+[ItemDef 049ef]
+DupeItem=049e8
+
+[ItemDef 049f0]
+DupeItem=049e8
+
+[ItemDef 049f1]
+DupeItem=049e8
+
+
+[ItemDef 049F2]
+DefName=iCrane4
+Name=Crane
+Type=tNormal
+Weight=255
+DupeList=049f3,049f4,049f5,049f6,049f7,049f8,049f9,049fa,049fb
+
+Category=Structures
+Subsection=Cranes
+Description=Crane (West)
+
+[ItemDef 049f3]
+DupeItem=049f2
+
+[ItemDef 049f4]
+DupeItem=049f2
+
+[ItemDef 049f5]
+DupeItem=049f2
+
+[ItemDef 049f6]
+DupeItem=049f2
+
+[ItemDef 049f7]
+DupeItem=049f2
+
+[ItemDef 049f8]
+DupeItem=049f2
+
+[ItemDef 049f9]
+DupeItem=049f2
+
+[ItemDef 049fa]
+DupeItem=049f2
+
+[ItemDef 049fb]
+DupeItem=049f2
+
+
+[EOF]

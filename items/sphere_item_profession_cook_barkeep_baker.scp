@@ -1695,36 +1695,6 @@ MOREM=4
 DEFNAME=iPlateCookies
 RESOURCES=1 iCookieMix,1 iPlate
 
-[ITEMDEF 0194f]
-DEFNAME=iBasketHerbs
-NAME=basket of herbs
-WEIGHT=1.0
-RESOURCES=1 iBasket,5 iDriedHerbs
-CATEGORY=Provisions - Food
-SUBSECTION=Assembled
-DESCRIPTION=Basket of Herbs
-
-
-[ITEMDEF 01956]
-DEFNAME=iBottleShochu
-NAME=bottle of shochu
-TYPE=tBooze
-WEIGHT=1.0
-RESOURCES=1 iBottleShochuEmpty,1 iFruitGrapes,1 iReagFertileDirt
-CATEGORY=Provisions - Food
-SUBSECTION=Alcohol
-DESCRIPTION=Bottle of Shochu
-
-[ITEMDEF 01957]
-DEFNAME=iBottleShochuEmpty
-NAME=empty wine bottle
-WEIGHT=0.1
-RESOURCES=1 iClay
-SKILLMAKE=Tinkering 42.0,tTinkerTools
-CATEGORY=Provisions - Food
-SUBSECTION=Alcohol
-DESCRIPTION=Bottle of Shochu (empty)
-
 
 [ITEMDEF 01ad3]
 DEFNAME=iDonuts

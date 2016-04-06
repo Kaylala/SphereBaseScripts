@@ -1,0 +1,269 @@
+[ItemDef 01731]
+DefName=iFountain1
+Name=fountain
+Weight=255
+DupeList=01732,01733,01734,01735,01736,01737,01738,01739,0173a,0173b,0173c,0173d,0173e,0173f,01740,01741,01742,01743,01744,01745,01746,01747,01748,01749,0174a,0174b,0174c,0174d,0174e,0174f,01750,01751,01752,01753,01754,01755,01756,01757,01758,01759,0175a
+
+Category=Structures
+Subsection=Fountains
+Description=Fountain  1
+
+[ItemDef 01732]
+DupeItem=01731
+
+[ItemDef 01733]
+DupeItem=01731
+
+[ItemDef 01734]
+DupeItem=01731
+
+[ItemDef 01735]
+DupeItem=01731
+
+[ItemDef 01736]
+DupeItem=01731
+
+[ItemDef 01737]
+DupeItem=01731
+
+[ItemDef 01738]
+DupeItem=01731
+
+[ItemDef 01739]
+DupeItem=01731
+
+[ItemDef 0173a]
+DupeItem=01731
+
+[ItemDef 0173b]
+DupeItem=01731
+
+[ItemDef 0173c]
+DupeItem=01731
+
+[ItemDef 0173d]
+DupeItem=01731
+
+[ItemDef 0173e]
+DupeItem=01731
+
+[ItemDef 0173f]
+DupeItem=01731
+
+[ItemDef 01740]
+DupeItem=01731
+
+[ItemDef 01741]
+DupeItem=01731
+
+[ItemDef 01742]
+DupeItem=01731
+
+[ItemDef 01743]
+DupeItem=01731
+
+[ItemDef 01744]
+DupeItem=01731
+
+[ItemDef 01745]
+DupeItem=01731
+
+[ItemDef 01746]
+DupeItem=01731
+
+[ItemDef 01747]
+DupeItem=01731
+
+[ItemDef 01748]
+DupeItem=01731
+
+[ItemDef 01749]
+DupeItem=01731
+
+[ItemDef 0174a]
+DupeItem=01731
+
+[ItemDef 0174b]
+DupeItem=01731
+
+[ItemDef 0174c]
+DupeItem=01731
+
+[ItemDef 0174d]
+DupeItem=01731
+
+[ItemDef 0174e]
+DupeItem=01731
+
+[ItemDef 0174f]
+DupeItem=01731
+
+[ItemDef 01750]
+DupeItem=01731
+
+[ItemDef 01751]
+DupeItem=01731
+
+[ItemDef 01752]
+DupeItem=01731
+
+[ItemDef 01753]
+DupeItem=01731
+
+[ItemDef 01754]
+DupeItem=01731
+
+[ItemDef 01755]
+DupeItem=01731
+
+[ItemDef 01756]
+DupeItem=01731
+
+[ItemDef 01757]
+DupeItem=01731
+
+[ItemDef 01758]
+DupeItem=01731
+
+[ItemDef 01759]
+DupeItem=01731
+
+[ItemDef 0175a]
+DupeItem=01731
+
+
+[ItemDef 019c3]
+DefName=iFountain2
+Name=fountain
+Weight=255
+DupeList=019c4,019c5,019c6,019c7,019c8,019c9,019ca,019cb,019cc,019cd,019ce,019cf,019d0,019d1,019d2,019d3,019d4,019d5,019d6,019d7,019d8,019d9,019da,019db,019dc,019dd,019de,019df,019e0,019e1,019e2,019e3,019e4,019e5,019e6,019e7,019e8,019e9,019ea,019eb,019ec
+
+Category=Structures
+Subsection=Fountains
+Description=Fountain 2
+
+[ItemDef 019c4]
+DupeItem=019c3
+
+[ItemDef 019c5]
+DupeItem=019c3
+
+[ItemDef 019c6]
+DupeItem=019c3
+
+[ItemDef 019c7]
+DupeItem=019c3
+
+[ItemDef 019c8]
+DupeItem=019c3
+
+[ItemDef 019c9]
+DupeItem=019c3
+
+[ItemDef 019ca]
+DupeItem=019c3
+
+[ItemDef 019cb]
+DupeItem=019c3
+
+[ItemDef 019cc]
+DupeItem=019c3
+
+[ItemDef 019cd]
+DupeItem=019c3
+
+[ItemDef 019ce]
+DupeItem=019c3
+
+[ItemDef 019cf]
+DupeItem=019c3
+
+[ItemDef 019d0]
+DupeItem=019c3
+
+[ItemDef 019d1]
+DupeItem=019c3
+
+[ItemDef 019d2]
+DupeItem=019c3
+
+[ItemDef 019d3]
+DupeItem=019c3
+
+[ItemDef 019d4]
+DupeItem=019c3
+
+[ItemDef 019d5]
+DupeItem=019c3
+
+[ItemDef 019d6]
+DupeItem=019c3
+
+[ItemDef 019d7]
+DupeItem=019c3
+
+[ItemDef 019d8]
+DupeItem=019c3
+
+[ItemDef 019d9]
+DupeItem=019c3
+
+[ItemDef 019da]
+DupeItem=019c3
+
+[ItemDef 019db]
+DupeItem=019c3
+
+[ItemDef 019dc]
+DupeItem=019c3
+
+[ItemDef 019dd]
+DupeItem=019c3
+
+[ItemDef 019de]
+DupeItem=019c3
+
+[ItemDef 019df]
+DupeItem=019c3
+
+[ItemDef 019e0]
+DupeItem=019c3
+
+[ItemDef 019e1]
+DupeItem=019c3
+
+[ItemDef 019e2]
+DupeItem=019c3
+
+[ItemDef 019e3]
+DupeItem=019c3
+
+[ItemDef 019e4]
+DupeItem=019c3
+
+[ItemDef 019e5]
+DupeItem=019c3
+
+[ItemDef 019e6]
+DupeItem=019c3
+
+[ItemDef 019e7]
+DupeItem=019c3
+
+[ItemDef 019e8]
+DupeItem=019c3
+
+[ItemDef 019e9]
+DupeItem=019c3
+
+[ItemDef 019ea]
+DupeItem=019c3
+
+[ItemDef 019eb]
+DupeItem=019c3
+
+[ItemDef 019ec]
+DupeItem=019c3
+
+
+[EOF]

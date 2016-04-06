@@ -1,0 +1,45 @@
+[ItemDef 04b74]
+DefName=iExodusNexus
+Name=Exodus Nexus
+Type=tNormal
+DupeList=04b75,04b76,04b77,04b78,04b79,04b7a,04b7b,04b7c,04b7d,04b7e,04b7f
+
+Category=Buildings
+Subsection=Exodus Nexus
+Description=Exodus Nexus
+
+[ItemDef 04b75]
+DupeItem=04b74
+
+[ItemDef 04b76]
+DupeItem=04b74
+
+[ItemDef 04b77]
+DupeItem=04b74
+
+[ItemDef 04b78]
+DupeItem=04b74
+
+[ItemDef 04b79]
+DupeItem=04b74
+
+[ItemDef 04b7a]
+DupeItem=04b74
+
+[ItemDef 04b7b]
+DupeItem=04b74
+
+[ItemDef 04b7c]
+DupeItem=04b74
+
+[ItemDef 04b7d]
+DupeItem=04b74
+
+[ItemDef 04b7e]
+DupeItem=04b74
+
+[ItemDef 04b7f]
+DupeItem=04b74
+
+
+[EOF]

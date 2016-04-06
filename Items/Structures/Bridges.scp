@@ -1,0 +1,186 @@
+[ItemDef 07e1]
+DefName=iSuspensionBridge1
+Name=suspension bridge
+DupeList=07e2,07e3,07e4,07e5,07e6,07e7,07e8,07e9,07ea,07eb,07ec,07ed,07ee,07ef,07f0,07f1,07f2,07f3,07f4,07f5,07f6,07f7,07f8,07f9,07fa,07fb,07fc
+
+Category=Structures
+Subsection=Bridges
+Description=Suspension Bridge (South)
+
+[ItemDef 07e2]
+DupeItem=07e1
+
+[ItemDef 07e3]
+DupeItem=07e1
+
+[ItemDef 07e4]
+DupeItem=07e1
+
+[ItemDef 07e5]
+DupeItem=07e1
+
+[ItemDef 07e6]
+DupeItem=07e1
+
+[ItemDef 07e7]
+DupeItem=07e1
+
+[ItemDef 07e8]
+DupeItem=07e1
+
+[ItemDef 07e9]
+DupeItem=07e1
+
+[ItemDef 07ea]
+DupeItem=07e1
+
+[ItemDef 07eb]
+DupeItem=07e1
+
+[ItemDef 07ec]
+DupeItem=07e1
+
+[ItemDef 07ed]
+DupeItem=07e1
+
+[ItemDef 07ee]
+DupeItem=07e1
+
+[ItemDef 07ef]
+DupeItem=07e1
+
+[ItemDef 07f0]
+DupeItem=07e1
+
+[ItemDef 07f1]
+DupeItem=07e1
+
+[ItemDef 07f2]
+DupeItem=07e1
+
+[ItemDef 07f3]
+DupeItem=07e1
+
+[ItemDef 07f4]
+DupeItem=07e1
+
+[ItemDef 07f5]
+DupeItem=07e1
+
+[ItemDef 07f6]
+DupeItem=07e1
+
+[ItemDef 07f7]
+DupeItem=07e1
+
+[ItemDef 07f8]
+DupeItem=07e1
+
+[ItemDef 07f9]
+DupeItem=07e1
+
+[ItemDef 07fa]
+DupeItem=07e1
+
+[ItemDef 07fb]
+DupeItem=07e1
+
+[ItemDef 07fc]
+DupeItem=07e1
+
+
+[ItemDef 07fd]
+DefName=iSuspensionBridge2
+Name=suspension bridge
+DupeList=07fe,07ff,0800,0801,0802,0803,0804,0805,0806,0807,0808,0809,080a,080b,080c,080d,080e,080f,0810,0811,0812,0813,0814,0815,0816,0817,0818
+
+Category=Structures
+Subsection=Bridges
+Description=Suspension Bridge (East)
+
+[ItemDef 07fd]
+DupeItem=07e1
+
+[ItemDef 07fe]
+DupeItem=07e1
+
+[ItemDef 07ff]
+DupeItem=07e1
+
+[ItemDef 0800]
+DupeItem=07e1
+
+[ItemDef 0801]
+DupeItem=07e1
+
+[ItemDef 0802]
+DupeItem=07e1
+
+[ItemDef 0803]
+DupeItem=07e1
+
+[ItemDef 0804]
+DupeItem=07e1
+
+[ItemDef 0805]
+DupeItem=07e1
+
+[ItemDef 0806]
+DupeItem=07e1
+
+[ItemDef 0807]
+DupeItem=07e1
+
+[ItemDef 0808]
+DupeItem=07e1
+
+[ItemDef 0809]
+DupeItem=07e1
+
+[ItemDef 080a]
+DupeItem=07e1
+
+[ItemDef 080b]
+DupeItem=07e1
+
+[ItemDef 080c]
+DupeItem=07e1
+
+[ItemDef 080d]
+DupeItem=07e1
+
+[ItemDef 080e]
+DupeItem=07e1
+
+[ItemDef 080f]
+DupeItem=07e1
+
+[ItemDef 0810]
+DupeItem=07e1
+
+[ItemDef 0811]
+DupeItem=07e1
+
+[ItemDef 0812]
+DupeItem=07e1
+
+[ItemDef 0813]
+DupeItem=07e1
+
+[ItemDef 0814]
+DupeItem=07e1
+
+[ItemDef 0815]
+DupeItem=07e1
+
+[ItemDef 0816]
+DupeItem=07e1
+
+[ItemDef 0817]
+DupeItem=07e1
+
+[ItemDef 0818]
+DupeItem=07e1
+
+
+[EOF]

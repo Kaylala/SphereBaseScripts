@@ -1,0 +1,271 @@
+[ItemDef 01aa4]
+DefName=iLighthouse1
+Name=lighthouse
+Weight=255
+DupeList=01aa5,01aa6,01aa7,01aa8,01aa9,01aaa,01aab,01aac,01aad,01aae,01aaf,01ab0,01ab1,01ab2,01ab3,01ab4,01ab5,01ab6,01ab7,01ab8,01ab9,01aba,01abb,01abc,01abd,01abe,01abf,01ac0,01ac1,01ac2,01ac3,01ac4,01ac5,01ac6,01ac7,01ac8,01ac9,01aca,01acb,01acc,01acd,01ace,01acf,01ad0,01ad1,01ad2
+
+Category=Structures
+Subsection=Lighthouses
+Description=Lighthouse 1
+
+[ItemDef 01aa5]
+DupeItem=01aa4
+
+[ItemDef 01aa6]
+DupeItem=01aa4
+
+[ItemDef 01aa7]
+DupeItem=01aa4
+
+[ItemDef 01aa8]
+DupeItem=01aa4
+
+[ItemDef 01aa9]
+DupeItem=01aa4
+
+[ItemDef 01aaa]
+DupeItem=01aa4
+
+[ItemDef 01aab]
+DupeItem=01aa4
+
+[ItemDef 01aac]
+DupeItem=01aa4
+
+[ItemDef 01aad]
+DupeItem=01aa4
+
+[ItemDef 01aae]
+DupeItem=01aa4
+
+[ItemDef 01aaf]
+DupeItem=01aa4
+
+[ItemDef 01ab0]
+DupeItem=01aa4
+
+[ItemDef 01ab1]
+DupeItem=01aa4
+
+[ItemDef 01ab2]
+DupeItem=01aa4
+
+[ItemDef 01ab3]
+DupeItem=01aa4
+
+[ItemDef 01ab4]
+DupeItem=01aa4
+
+[ItemDef 01ab5]
+DupeItem=01aa4
+
+[ItemDef 01ab6]
+DupeItem=01aa4
+
+[ItemDef 01ab7]
+DupeItem=01aa4
+
+[ItemDef 01ab8]
+DupeItem=01aa4
+
+[ItemDef 01ab9]
+DupeItem=01aa4
+
+[ItemDef 01aba]
+DupeItem=01aa4
+
+[ItemDef 01abb]
+DupeItem=01aa4
+
+[ItemDef 01abc]
+DupeItem=01aa4
+
+[ItemDef 01abd]
+DupeItem=01aa4
+
+[ItemDef 01abe]
+DupeItem=01aa4
+
+[ItemDef 01abf]
+DupeItem=01aa4
+
+[ItemDef 01ac0]
+DupeItem=01aa4
+
+[ItemDef 01ac1]
+DupeItem=01aa4
+
+[ItemDef 01ac2]
+DupeItem=01aa4
+
+[ItemDef 01ac3]
+DupeItem=01aa4
+
+[ItemDef 01ac4]
+DupeItem=01aa4
+
+[ItemDef 01ac5]
+DupeItem=01aa4
+
+[ItemDef 01ac6]
+DupeItem=01aa4
+
+[ItemDef 01ac7]
+DupeItem=01aa4
+
+[ItemDef 01ac8]
+DupeItem=01aa4
+
+[ItemDef 01ac9]
+DupeItem=01aa4
+
+[ItemDef 01aca]
+DupeItem=01aa4
+
+[ItemDef 01acb]
+DupeItem=01aa4
+
+[ItemDef 01acc]
+DupeItem=01aa4
+
+[ItemDef 01acd]
+DupeItem=01aa4
+
+[ItemDef 01ace]
+DupeItem=01aa4
+
+[ItemDef 01acf]
+DupeItem=01aa4
+
+[ItemDef 01ad0]
+DupeItem=01aa4
+
+[ItemDef 01ad1]
+DupeItem=01aa4
+
+[ItemDef 01ad2]
+DupeItem=01aa4
+
+
+[ItemDef 04724]
+DefName=iFXLighthouse
+Name=lighthouse
+Weight=255
+DupeList=04725,04726,04727,04728,04729,0472A,0472B,0472C,0472D
+
+Category=Structures
+Subsection=Lighthouses
+Description=Lighthouse Effect (Ancient)
+
+[ItemDef 04725]
+DupeItem=04724
+
+[ItemDef 04726]
+DupeItem=04724
+
+[ItemDef 04727]
+DupeItem=04724
+
+[ItemDef 04728]
+DupeItem=04724
+
+[ItemDef 04729]
+DupeItem=04724
+
+[ItemDef 0472a]
+DupeItem=04724
+
+[ItemDef 0472b]
+DupeItem=04724
+
+[ItemDef 0472c]
+DupeItem=04724
+
+[ItemDef 0472d]
+DupeItem=04724
+
+
+[ItemDef 0472E]
+DefName=iLighthouse2
+Name=lighthouse
+Weight=255
+DupeList=0472f,04730,04731,04732,04733,04734,04735,04736,04737,04738,04739,0473a,0473b,04922,04923,04924,04925,04929,0492a,0492b,0492c,0492d,0492e,0492f
+
+Category=Structures
+Subsection=Lighthouses
+Description=Lighthouse (Ancient)
+
+[ItemDef 0472f]
+DupeItem=0472E
+
+[ItemDef 04730]
+DupeItem=0472E
+
+[ItemDef 04731]
+DupeItem=0472E
+
+[ItemDef 04732]
+DupeItem=0472E
+
+[ItemDef 04733]
+DupeItem=0472E
+
+[ItemDef 04734]
+DupeItem=0472E
+
+[ItemDef 04735]
+DupeItem=0472E
+
+[ItemDef 04736]
+DupeItem=0472E
+
+[ItemDef 04737]
+DupeItem=0472E
+
+[ItemDef 04738]
+DupeItem=0472E
+
+[ItemDef 04739]
+DupeItem=0472E
+
+[ItemDef 0473a]
+DupeItem=0472E
+
+[ItemDef 0473b]
+DupeItem=0472E
+
+[ItemDef 04922]
+DupeItem=0472E
+
+[ItemDef 04923]
+DupeItem=0472E
+
+[ItemDef 04924]
+DupeItem=0472E
+
+[ItemDef 04925]
+DupeItem=0472E
+
+[ItemDef 04929]
+DupeItem=0472E
+
+[ItemDef 0492a]
+DupeItem=0472E
+
+[ItemDef 0492b]
+DupeItem=0472E
+
+[ItemDef 0492c]
+DupeItem=0472E
+
+[ItemDef 0492d]
+DupeItem=0472E
+
+[ItemDef 0492e]
+DupeItem=0472E
+
+[ItemDef 0492f]
+DupeItem=0472E
+
+
+[EOF]

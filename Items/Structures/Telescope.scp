@@ -1,0 +1,208 @@
+[ItemDef 01459]
+DefName=iTelescope
+Name=telescope
+Type=tTelescope
+Weight=255
+DupeList=0145a,0145b,0145c,0145d,0145e,0145f,01460,01461,01462,01463,01464,01465,01466,01467,01468,01469,0146a,0146b,0146c,0146d,0146e,0146f,01470,01471,01472,01473,01474,01475,01476,01477,01478,01479,0147a,0147b,0147c,0147d,0147e,0147f,01480,01481,01482,01483,01484,01485,01486,01487,01488,01489,0148a,0148b,0148c,0148d,0148e,0148f,01490,01491,01492,01493,01494,01495,01496,01497,01498,01499,0149a
+
+Category=Structures
+Subsection=Telescope
+Description=Telescope
+
+[ItemDef 0145a]
+DupeItem=01459
+
+[ItemDef 0145b]
+DupeItem=01459
+
+[ItemDef 0145c]
+DupeItem=01459
+
+[ItemDef 0145d]
+DupeItem=01459
+
+[ItemDef 0145e]
+DupeItem=01459
+
+[ItemDef 0145f]
+DupeItem=01459
+
+[ItemDef 01460]
+DupeItem=01459
+
+[ItemDef 01461]
+DupeItem=01459
+
+[ItemDef 01462]
+DupeItem=01459
+
+[ItemDef 01463]
+DupeItem=01459
+
+[ItemDef 01464]
+DupeItem=01459
+
+[ItemDef 01465]
+DupeItem=01459
+
+[ItemDef 01466]
+DupeItem=01459
+
+[ItemDef 01467]
+DupeItem=01459
+
+[ItemDef 01468]
+DupeItem=01459
+
+[ItemDef 01469]
+DupeItem=01459
+
+[ItemDef 0146a]
+DupeItem=01459
+
+[ItemDef 0146b]
+DupeItem=01459
+
+[ItemDef 0146c]
+DupeItem=01459
+
+[ItemDef 0146d]
+DupeItem=01459
+
+[ItemDef 0146e]
+DupeItem=01459
+
+[ItemDef 0146f]
+DupeItem=01459
+
+[ItemDef 01470]
+DupeItem=01459
+
+[ItemDef 01471]
+DupeItem=01459
+
+[ItemDef 01472]
+DupeItem=01459
+
+[ItemDef 01473]
+DupeItem=01459
+
+[ItemDef 01474]
+DupeItem=01459
+
+[ItemDef 01475]
+DupeItem=01459
+
+[ItemDef 01476]
+DupeItem=01459
+
+[ItemDef 01477]
+DupeItem=01459
+
+[ItemDef 01478]
+DupeItem=01459
+
+[ItemDef 01479]
+DupeItem=01459
+
+[ItemDef 0147a]
+DupeItem=01459
+
+[ItemDef 0147b]
+DupeItem=01459
+
+[ItemDef 0147c]
+DupeItem=01459
+
+[ItemDef 0147d]
+DupeItem=01459
+
+[ItemDef 0147e]
+DupeItem=01459
+
+[ItemDef 0147f]
+DupeItem=01459
+
+[ItemDef 01480]
+DupeItem=01459
+
+[ItemDef 01481]
+DupeItem=01459
+
+[ItemDef 01482]
+DupeItem=01459
+
+[ItemDef 01483]
+DupeItem=01459
+
+[ItemDef 01484]
+DupeItem=01459
+
+[ItemDef 01485]
+DupeItem=01459
+
+[ItemDef 01486]
+DupeItem=01459
+
+[ItemDef 01487]
+DupeItem=01459
+
+[ItemDef 01488]
+DupeItem=01459
+
+[ItemDef 01489]
+DupeItem=01459
+
+[ItemDef 0148a]
+DupeItem=01459
+
+[ItemDef 0148b]
+DupeItem=01459
+
+[ItemDef 0148c]
+DupeItem=01459
+
+[ItemDef 0148d]
+DupeItem=01459
+
+[ItemDef 0148e]
+DupeItem=01459
+
+[ItemDef 0148f]
+DupeItem=01459
+
+[ItemDef 01490]
+DupeItem=01459
+
+[ItemDef 01491]
+DupeItem=01459
+
+[ItemDef 01492]
+DupeItem=01459
+
+[ItemDef 01493]
+DupeItem=01459
+
+[ItemDef 01494]
+DupeItem=01459
+
+[ItemDef 01495]
+DupeItem=01459
+
+[ItemDef 01496]
+DupeItem=01459
+
+[ItemDef 01497]
+DupeItem=01459
+
+[ItemDef 01498]
+DupeItem=01459
+
+[ItemDef 01499]
+DupeItem=01459
+
+[ItemDef 0149a]
+DupeItem=01459
+
+
+[EOF]

@@ -2898,32 +2898,6 @@ UsesMax={350 450}
 DupeItem=04244
 
 
-[ItemDef 04254]
-DefName=iAnvilGargoyle
-Name=Gargish anvil
-Type=tAnvil
-FLIP=1
-VALUE=325
-Weight=575.0
-Resources=50 iRockPlain,50 iIngotIron,25 iLog
-SkillMake=Tinkering 56.0,tTinkerTools
-Category= Professions
-Subsection=Blacksmith
-Description=Gargish Anvil
-DupeList=04255,04256,04257
-
-[ItemDef 04255]
-//Gargish Anvil
-DupeItem=04254
-
-[ItemDef 04256]
-//Gargish Anvil
-DupeItem=04254
-
-[ItemDef 04257]
-//Gargish Anvil
-DupeItem=04254
-
 
 [ItemDef 042b7]
 DefName=iBookGreencover
