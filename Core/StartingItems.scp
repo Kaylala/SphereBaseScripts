@@ -243,13 +243,7 @@ Item=iMortarAndPestle,1
 Item=iRobe,1
 Color=PinkHues
 
-[Newbie Alchemy Elf Female]
-Item=iEmptyBottle,20
-Item=iMortarAndPestle,1
-Item=iFemaleElvenRobe,1
-Color=PinkHues
-
-[Newbie Alchemy Elf Male]
+[Newbie Alchemy Elf]
 Item=iEmptyBottle,20
 Item=iMortarAndPestle,1
 Item=iElvenRobe,1
@@ -266,12 +260,7 @@ Item=iBandage,3
 Item=iRobe,1
 Color=YellowHues
 
-[Newbie Anatomy Elf Female]
-Item=iBandage,3
-Item=iFemaleElvenRobe,1
-Color=YellowHues
-
-[Newbie Anatomy Elf Male]
+[Newbie Anatomy Elf]
 Item=iBandage,3
 Item=iElvenRobe,1
 Color=YellowHues
@@ -281,12 +270,7 @@ Item=iShepherdsCrook,1
 Item=iRobe,1
 Color=BlueHues
 
-[Newbie AnimalLore Elf Female]
-Item=iShepherdsCrook,1
-Item=iFemaleElvenRobe,1
-Color=BlueHues
-
-[Newbie AnimalLore Elf Male]
+[Newbie AnimalLore Elf]
 Item=iShepherdsCrook,1
 Item=iElvenRobe,1
 Color=BlueHues
@@ -474,18 +458,7 @@ Item=iWizardsHat,1
 Item=iRobe,1
 Color=BlueHues
 
-[Newbie Magery Elf Female]
-Item=iSpellbook,1
-More1=0382a8c38
-//3 spells on circle 1-4 (to enable full spellbook just set MORE1=0ffffffff and MORE2=0ffffffff)
-Item=RandomFirstCircle,1
-Item=RandomSecondCircle,1
-Item=RandomThirdCircle,1
-Item=iCirclet,1
-Item=iFemaleElveneRobe,1
-Color=BlueHues
-
-[Newbie Magery Elf Male]
+[Newbie Magery Elf]
 Item=iSpellbook,1
 More1=0382a8c38
 //3 spells on circle 1-4 (to enable full spellbook just set MORE1=0ffffffff and MORE2=0ffffffff)
