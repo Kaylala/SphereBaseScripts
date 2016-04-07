@@ -244,13 +244,13 @@ Item=iRobe,1
 Color=PinkHues
 
 [Newbie Alchemy Elf Female]
-Item=iEmptyBttle,20
+Item=iEmptyBottle,20
 Item=iMortarAndPestle,1
 Item=iFemaleElvenRobe,1
 Color=PinkHues
 
 [Newbie Alchemy Elf Male]
-Item=iEmptyBttle,20
+Item=iEmptyBottle,20
 Item=iMortarAndPestle,1
 Item=iElvenRobe,1
 Color=PinkHues
