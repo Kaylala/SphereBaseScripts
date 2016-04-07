@@ -19,7 +19,7 @@ Tag.OColor=<ArgN>
 
 
 // Being used on items that are Human/Elf to modify into Gargoyle.
-[Funtion AlterItem]
+[Function AlterItem]
 If !(<ArgS>)
  Return <Tag0.AlterItem>
 EndIf

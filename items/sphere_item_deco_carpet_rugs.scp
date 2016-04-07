@@ -1,17 +1,3 @@
-//****************************************************************************
-// SPHERE by : Menasoft ©1997-2007
-// www.sphereserver.net
-// All SPHERE script files and formats are copyright Menasoft & Partners.
-// This file may be freely edited for personal use, but may not be distributed
-// in whole or in part, in any format without express written permission from
-// Menasoft & Partners.  All donations and contributions
-// become the property of Menasoft & Partners.
-//****************************************************************************
-// FILE LAST UPDATED: Friday, September 20, 2013
-//
-VERSION=0.56c
-
-
 [ItemDef 0aa9]
 DefName=iRug1
 Name=rug
@@ -25,39 +11,30 @@ Subsection=Carpets & Rugs
 Description=Rug 1
 
 [ItemDef 0aaa]
-//rug 1
 DupeItem=0aa9
 
 [ItemDef 0aab]
-//rug 1
 DupeItem=0aa9
 
 [ItemDef 0aac]
-//rug 1
 DupeItem=0aa9
 
 [ItemDef 0aad]
-//rug 1
 DupeItem=0aa9
 
 [ItemDef 0aae]
-//rug 1
 DupeItem=0aa9
 
 [ItemDef 0aaf]
-//rug 1
 DupeItem=0aa9
 
 [ItemDef 0ab0]
-//rug 1
 DupeItem=0aa9
 
 [ItemDef 0ab1]
-//rug 1
 DupeItem=0aa9
 
 [ItemDef 0ab2]
-//rug 1
 DupeItem=0aa9
 
 
@@ -74,39 +51,30 @@ Subsection=Carpets & Rugs
 Description=Rug 2
 
 [ItemDef 0ab4]
-//rug 2
 DupeItem=0ab3
 
 [ItemDef 0ab5]
-//rug 2
 DupeItem=0ab3
 
 [ItemDef 0ab6]
-//rug 2
 DupeItem=0ab3
 
 [ItemDef 0ab7]
-//rug 2
 DupeItem=0ab3
 
 [ItemDef 0ab8]
-//rug 2
 DupeItem=0ab3
 
 [ItemDef 0ab9]
-//rug 2
 DupeItem=0ab3
 
 [ItemDef 0aba]
-//rug 2
 DupeItem=0ab3
 
 [ItemDef 0abb]
-//rug 2
 DupeItem=0ab3
 
 [ItemDef 0abc]
-//rug 2
 DupeItem=0ab3
 
 
@@ -123,35 +91,27 @@ Subsection=Carpets & Rugs
 Description=Carpet 1
 
 [ItemDef 0abe]
-//carpet
 DupeItem=0abd
 
 [ItemDef 0abf]
-//carpet
 DupeItem=0abd
 
 [ItemDef 0ac0]
-//carpet
 DupeItem=0abd
 
 [ItemDef 0ac1]
-//carpet
 DupeItem=0abd
 
 [ItemDef 0ac2]
-//carpet
 DupeItem=0abd
 
 [ItemDef 0ac3]
-//carpet
 DupeItem=0abd
 
 [ItemDef 0ac4]
-//carpet
 DupeItem=0abd
 
 [ItemDef 0ac5]
-//carpet
 DupeItem=0abd
 
 
@@ -168,43 +128,33 @@ Subsection=Carpets & Rugs
 Description=Carpet 2
 
 [ItemDef 0ac7]
-//carpet
 DupeItem=0ac6
 
 [ItemDef 0ac8]
-//carpet
 DupeItem=0ac6
 
 [ItemDef 0ac9]
-//carpet
 DupeItem=0ac6
 
 [ItemDef 0aca]
-//carpet
 DupeItem=0ac6
 
 [ItemDef 0acb]
-//carpet
 DupeItem=0ac6
 
 [ItemDef 0acc]
-//carpet
 DupeItem=0ac6
 
 [ItemDef 0acd]
-//carpet
 DupeItem=0ac6
 
 [ItemDef 0ace]
-//carpet
 DupeItem=0ac6
 
 [ItemDef 0acf]
-//carpet
 DupeItem=0ac6
 
 [ItemDef 0ad0]
-//carpet
 DupeItem=0ac6
 
 
@@ -221,35 +171,27 @@ Subsection=Carpets & Rugs
 Description=Carpet 3
 
 [ItemDef 0ad2]
-//carpet
 DupeItem=0ad1
 
 [ItemDef 0ad3]
-//carpet
 DupeItem=0ad1
 
 [ItemDef 0ad4]
-//carpet
 DupeItem=0ad1
 
 [ItemDef 0ad5]
-//carpet
 DupeItem=0ad1
 
 [ItemDef 0ad6]
-//carpet
 DupeItem=0ad1
 
 [ItemDef 0ad7]
-//carpet
 DupeItem=0ad1
 
 [ItemDef 0ad8]
-//carpet
 DupeItem=0ad1
 
 [ItemDef 0ad9]
-//carpet
 DupeItem=0ad1
 
 
@@ -266,35 +208,27 @@ Subsection=Carpets & Rugs
 Description=Carpet 4
 
 [ItemDef 0adb]
-//carpet
 DupeItem=0ada
 
 [ItemDef 0adc]
-//carpet
 DupeItem=0ada
 
 [ItemDef 0add]
-//carpet
 DupeItem=0ada
 
 [ItemDef 0ade]
-//carpet
 DupeItem=0ada
 
 [ItemDef 0adf]
-//carpet
 DupeItem=0ada
 
 [ItemDef 0ae0]
-//carpet
 DupeItem=0ada
 
 [ItemDef 0ae1]
-//carpet
 DupeItem=0ada
 
 [ItemDef 0ae2]
-//carpet
 DupeItem=0ada
 
 
@@ -311,35 +245,27 @@ Subsection=Carpets & Rugs
 Description=Carpet 5
 
 [ItemDef 0ae4]
-//carpet
 DupeItem=0ae3
 
 [ItemDef 0ae5]
-//carpet
 DupeItem=0ae3
 
 [ItemDef 0ae6]
-//carpet
 DupeItem=0ae3
 
 [ItemDef 0ae7]
-//carpet
 DupeItem=0ae3
 
 [ItemDef 0ae8]
-//carpet
 DupeItem=0ae3
 
 [ItemDef 0ae9]
-//carpet
 DupeItem=0ae3
 
 [ItemDef 0aea]
-//carpet
 DupeItem=0ae3
 
 [ItemDef 0aeb]
-//carpet
 DupeItem=0ae3
 
 
@@ -356,59 +282,45 @@ Subsection=Carpets & Rugs
 Description=Carpet 6
 
 [ItemDef 0aed]
-//carpet
 DupeItem=0aec
 
 [ItemDef 0aee]
-//carpet
 DupeItem=0aec
 
 [ItemDef 0aef]
-//carpet
 DupeItem=0aec
 
 [ItemDef 0af0]
-//carpet
 DupeItem=0aec
 
 [ItemDef 0af1]
-//carpet
 DupeItem=0aec
 
 [ItemDef 0af2]
-//carpet
 DupeItem=0aec
 
 [ItemDef 0af3]
-//carpet
 DupeItem=0aec
 
 [ItemDef 0af4]
-//carpet
 DupeItem=0aec
 
 [ItemDef 0af5]
-//carpet
 DupeItem=0aec
 
 [ItemDef 0af6]
-//carpet
 DupeItem=0abd
 
 [ItemDef 0af7]
-//carpet
 DupeItem=0abd
 
 [ItemDef 0af8]
-//carpet
 DupeItem=0abd
 
 [ItemDef 0af9]
-//carpet
 DupeItem=0abd
 
 [ItemDef 0afa]
-//carpet
 DupeItem=0abd
 
 
@@ -425,47 +337,36 @@ Subsection=Carpets & Rugs
 Description=Carpet 7
 
 [ItemDef 01099]
-//carpet
 DupeItem=01098
 
 [ItemDef 0109a]
-//carpet
 DupeItem=01098
 
 [ItemDef 0109b]
-//carpet
 DupeItem=01098
 
 [ItemDef 0109c]
-//carpet
 DupeItem=01098
 
 [ItemDef 0109d]
-//carpet
 DupeItem=01098
 
 [ItemDef 0109e]
-//carpet
 DupeItem=01098
 
 [ItemDef 0109f]
-//carpet
 DupeItem=01098
 
 [ItemDef 010a0]
-//carpet
 DupeItem=01098
 
 [ItemDef 010a1]
-//carpet
 DupeItem=01098
 
 [ItemDef 010a2]
-//carpet
 DupeItem=01098
 
 [ItemDef 010a3]
-//carpet
 DupeItem=01098
 
 
@@ -481,15 +382,12 @@ Subsection=Carpets & Rugs
 Description=Mat (Grass)
 
 [ItemDef 011e3]
-//grass mat
 DupeItem=011e2
 
 [ItemDef 011e4]
-//grass mat
 DupeItem=011e2
 
 [ItemDef 011e5]
-//grass mat
 DupeItem=011e2
 
 
@@ -504,15 +402,12 @@ Subsection=Carpets & Rugs
 Description=Mat (Woven)
 
 [ItemDef 011e7]
-//woven mat
 DupeItem=011e6
 
 [ItemDef 011e8]
-//woven mat
 DupeItem=011e6
 
 [ItemDef 011e9]
-//woven mat
 DupeItem=011e6
 
 
@@ -528,55 +423,42 @@ Subsection=Carpets & Rugs
 Description=Rug 3
 
 [ItemDef 01dd4]
-//rug 1 (worn)
 DupeItem=01dd3
 
 [ItemDef 01dd5]
-//rug 1 (worn)
 DupeItem=01dd3
 
 [ItemDef 01dd6]
-//rug 1 (worn)
 DupeItem=01dd3
 
 [ItemDef 01dd7]
-//rug 1 (worn)
 DupeItem=01dd3
 
 [ItemDef 01dd8]
-//rug 1 (worn)
 DupeItem=01dd3
 
 [ItemDef 01dd9]
-//rug 1 (worn)
 DupeItem=01dd3
 
 [ItemDef 01dda]
-//rug 1 (worn)
 DupeItem=01dd3
 
 [ItemDef 01ddb]
-//rug 1 (worn)
 DupeItem=01dd3
 
 [ItemDef 01ddc]
-//rug 1 (worn)
 DupeItem=01dd3
 
 [ItemDef 01ddd]
-//rug 1 (worn)
 DupeItem=01dd3
 
 [ItemDef 01dde]
-//rug 1 (worn)
 DupeItem=01dd3
 
 [ItemDef 01ddf]
-//rug 1 (worn)
 DupeItem=01dd3
 
 [ItemDef 01de0]
-//rug 1 (worn)
 DupeItem=01dd3
 
 
@@ -592,55 +474,42 @@ Subsection=Carpets & Rugs
 Description=Rug 4
 
 [ItemDef 01de2]
-//rug 2 (worn)
 DupeItem=01de1
 
 [ItemDef 01de3]
-//rug 2 (worn)
 DupeItem=01de1
 
 [ItemDef 01de4]
-//rug 2 (worn)
 DupeItem=01de1
 
 [ItemDef 01de5]
-//rug 2 (worn)
 DupeItem=01de1
 
 [ItemDef 01de6]
-//rug 2 (worn)
 DupeItem=01de1
 
 [ItemDef 01de7]
-//rug 2 (worn)
 DupeItem=01de1
 
 [ItemDef 01de8]
-//rug 2 (worn)
 DupeItem=01de1
 
 [ItemDef 01de9]
-//rug 2 (worn)
 DupeItem=01de1
 
 [ItemDef 01dea]
-//rug 2 (worn)
 DupeItem=01de1
 
 [ItemDef 01deb]
-//rug 2 (worn)
 DupeItem=01de1
 
 [ItemDef 01dec]
-//rug 2 (worn)
 DupeItem=01de1
 
 [ItemDef 01ded]
-//rug 2 (worn)
 DupeItem=01de1
 
 [ItemDef 01dee]
-//rug 2 (worn)
 DupeItem=01de1
 
 
@@ -655,55 +524,42 @@ Subsection=Carpets & Rugs
 Description=Rug 5
 
 [ItemDef 01df0]
-//rug 4 (worn)
 DupeItem=01def
 
 [ItemDef 01df1]
-//rug 4 (worn)
 DupeItem=01def
 
 [ItemDef 01df2]
-//rug 4 (worn)
 DupeItem=01def
 
 [ItemDef 01df3]
-//rug 4 (worn)
 DupeItem=01def
 
 [ItemDef 01df4]
-//rug 4 (worn)
 DupeItem=01def
 
 [ItemDef 01df5]
-//rug 4 (worn)
 DupeItem=01def
 
 [ItemDef 01df6]
-//rug 4 (worn)
 DupeItem=01def
 
 [ItemDef 01df7]
-//rug 4 (worn)
 DupeItem=01def
 
 [ItemDef 01df8]
-//rug 4 (worn)
 DupeItem=01def
 
 [ItemDef 01df9]
-//rug 4 (worn)
 DupeItem=01def
 
 [ItemDef 01dfa]
-//rug 4 (worn)
 DupeItem=01def
 
 [ItemDef 01dfb]
-//rug 4 (worn)
 DupeItem=01def
 
 [ItemDef 01dfc]
-//rug 4 (worn)
 DupeItem=01def
 
 
@@ -719,35 +575,27 @@ Subsection=Carpets & Rugs
 Description=Bearskin Rug
 
 [ItemDef 01e37]
-//bearskin rug
 DupeItem=01e36
 
 [ItemDef 01e38]
-//bearskin rug
 DupeItem=01e36
 
 [ItemDef 01e39]
-//bearskin rug
 DupeItem=01e36
 
 [ItemDef 01e3a]
-//bearskin rug
 DupeItem=01e36
 
 [ItemDef 01e3b]
-//bearskin rug
 DupeItem=01e36
 
 [ItemDef 01e3c]
-//bearskin rug
 DupeItem=01e36
 
 [ItemDef 01e3d]
-//bearskin rug
 DupeItem=01e36
 
 [ItemDef 01e3e]
-//bearskin rug
 DupeItem=01e36
 
 
@@ -757,74 +605,66 @@ Type=tMulti
 Category=Multis
 Subsection=Decorations
 Description=Brown Bear Rug (South)
-MULTIREGION=0,0,0,0
-COMPONENT=01e36,1,1,0
-COMPONENT=01e37,0,1,0
-COMPONENT=01e38,-1,1,0
-COMPONENT=01e39,-1,0,0
-COMPONENT=01e3a,0,0,0
-COMPONENT=01e3b,1,0,0
-COMPONENT=01e3c,1,-1,0
-COMPONENT=01e3d,0,-1,0
-COMPONENT=01e3e,-1,-1,0
+MultiRegion=0,0,0,0
+Component=01e36,1,1,0
+Component=01e37,0,1,0
+Component=01e38,-1,1,0
+Component=01e39,-1,0,0
+Component=01e3a,0,0,0
+Component=01e3b,1,0,0
+Component=01e3c,1,-1,0
+Component=01e3d,0,-1,0
+Component=01e3e,-1,-1,0
 
 [ItemDef 01e40]
-//bearskin rug
 DupeItem=01e36
 
 [ItemDef 01e41]
-//bearskin rug
 DupeItem=01e36
 
 [ItemDef 01e42]
-//bearskin rug
 DupeItem=01e36
 
 [ItemDef 01e43]
-//bearskin rug
 DupeItem=01e36
 
 [ItemDef 01e44]
-//bearskin rug
 DupeItem=01e36
 
 [ItemDef 01e45]
-//bearskin rug
 DupeItem=01e36
 
 [ItemDef 01e46]
-//bearskin rug
 DupeItem=01e36
 
 [ItemDef 01e47]
-//bearskin rug
 DupeItem=01e36
 
 [ItemDef 01e48]
-//bearskin rug
 DupeItem=01e36
 
 
 [MultiDef mBrownBearRug2]
 Name=bearskin rug
-Type=t_multi
+Type=tMulti
 Category=Multis
 Subsection=Decorations
 Description=Bearskin Rug (west)
-MULTIREGION=0,0,0,0
-COMPONENT=01e40,1,1,0
-COMPONENT=01e41,1,0,0
-COMPONENT=01e42,1,-1,0
-COMPONENT=01e43,0,-1,0
-COMPONENT=01e44,0,0,0
-COMPONENT=01e45,0,1,0
-COMPONENT=01e46,-1,1,0
-COMPONENT=01e47,-1,0,0
-COMPONENT=01e48,-1,-1,0
+MultiRegion=0,0,0,0
+Component=01e40,1,1,0
+Component=01e41,1,0,0
+Component=01e42,1,-1,0
+Component=01e43,0,-1,0
+Component=01e44,0,0,0
+Component=01e45,0,1,0
+Component=01e46,-1,1,0
+Component=01e47,-1,0,0
+Component=01e48,-1,-1,0
+
 
 [ItemDef 01e49]
 DefName=iBearskinRug2
-Name=polar bear rug
+Name=bearskin rug
 Type=tFloor
 Can=CanIPlatform|CanIFlip
 Weight=255
@@ -835,116 +675,127 @@ Subsection=Polar Bear Rug
 Description=Polar Bear Rug
 
 [ItemDef 01e4a]
-//bearskin rug
 DupeItem=01e49
 
 [ItemDef 01e4b]
-//bearskin rug
 DupeItem=01e49
 
 [ItemDef 01e4c]
-//bearskin rug
 DupeItem=01e49
 
 [ItemDef 01e4d]
-//bearskin rug
 DupeItem=01e49
 
 [ItemDef 01e4e]
-//bearskin rug
 DupeItem=01e49
 
 [ItemDef 01e4f]
-//bearskin rug
 DupeItem=01e49
 
 [ItemDef 01e50]
-//bearskin rug
 DupeItem=01e49
 
 [ItemDef 01e51]
-//bearskin rug
 DupeItem=01e49
 
+
 [MultiDef mPolarBearRug1]
-Name=polar bear rug
+Name=bearskin rug
 Type=tMulti
 Category=Multis
 Subsection=Decorations
 Description=Polar Bear Rug (South)
-MULTIREGION=0,0,0,0
-COMPONENT=01e49,1,1,0
-COMPONENT=01e4a,0,1,0
-COMPONENT=01e4b,-1,1,0
-COMPONENT=01e4c,-1,0,0
-COMPONENT=01e4d,0,0,0
-COMPONENT=01e4e,1,0,0
-COMPONENT=01e4f,1,-1,0
-COMPONENT=01e50,0,-1,0
-COMPONENT=01e51,-1,-1,0
+MultiRegion=0,0,0,0
+Component=01e49,1,1,0
+Component=01e4a,0,1,0
+Component=01e4b,-1,1,0
+Component=01e4c,-1,0,0
+Component=01e4d,0,0,0
+Component=01e4e,1,0,0
+Component=01e4f,1,-1,0
+Component=01e50,0,-1,0
+Component=01e51,-1,-1,0
 
 [ItemDef 01e53]
-//bearskin rug
 DupeItem=01e49
 
 [ItemDef 01e54]
-//bearskin rug
 DupeItem=01e49
 
 [ItemDef 01e55]
-//bearskin rug
 DupeItem=01e49
 
 [ItemDef 01e56]
-//bearskin rug
 DupeItem=01e49
 
 [ItemDef 01e57]
-//bearskin rug
 DupeItem=01e49
 
 [ItemDef 01e58]
-//bearskin rug
 DupeItem=01e49
 
 [ItemDef 01e59]
-//bearskin rug
 DupeItem=01e49
 
 [ItemDef 01e5a]
-//bearskin rug
 DupeItem=01e49
 
 [ItemDef 01e5b]
-//bearskin rug
 DupeItem=01e49
 
-[ItemDef i_multiRugpolarbear_ew]
-Name=polarbear rug
-Type=t_multi
+[MultiDef mPolarBearRug2]
+Name=bearskin rug
+Type=tMulti
 Category=Multis
 Subsection=Decorations
-Description=Polar Bear Rug (west)
-MULTIREGION=0,0,0,0
-COMPONENT=01e57,0,0,0
-COMPONENT=01e53,1,1,0
-COMPONENT=01e54,1,0,0
-COMPONENT=01e55,1,-1,0
-COMPONENT=01e56,0,-1,0
-COMPONENT=01e58,0,1,0
-COMPONENT=01e59,-1,1,0
-COMPONENT=01e5a,-1,0,0
-COMPONENT=01e5b,-1,-1,0
+Description=Polar Bear Rug (East)
+MultiRegion=0,0,0,0
+Component=01e57,0,0,0
+Component=01e53,1,1,0
+Component=01e54,1,0,0
+Component=01e55,1,-1,0
+Component=01e56,0,-1,0
+Component=01e58,0,1,0
+Component=01e59,-1,1,0
+Component=01e5a,-1,0,0
+Component=01e5b,-1,-1,0
+
+
+
+[ItemDef 02ac8]
+DefName=iRugbearskin_misc
+Type=tFloor
+FLIP=1
+Weight=15.0
+Can=CanIPlatform
+RESOURCES=5 i_wool,100 i_thread
+Category=Decorations
+Subsection=Bearskin Carpet Bits
+Description=Carpet bits
+DupeList=02ac9,02acd,02ace
+
+[ItemDef 02ac9]
+ bits (unused)
+DupeItem=02ac8
+
+[ItemDef 02acd]
+ bits (unused)
+DupeItem=02ac8
+
+[ItemDef 02ace]
+ bits (unused)
+DupeItem=02ac8
 
 
 [ItemDef 028a4]
-DefName=i_mat_goza
+[ItemDef 028a4]
+DefName=iGoza
 Type=tFloor
-RESOURCES=50 i_log_bamboo,1 i_string
+DupeList=028a5,028a6,028a7,028a8,028a9,028aa,028ab,028ac,028ad,028ae,028af,029c0,029c1,029c2,029c3,029c4,029c5,029c6,029c7,029c8,029c9,029ca,029cb,029cc,029cd,029ce,029cf,029d0,029d1,029d2,029d3,029d4,029d5,029d6,029d7,029d8,029d9,029da,029db,02a1d,02a1e,02a1f,02a20,02a21,02a22,02a23,02a24,02a25,02a26,02a27,02a28,02a29,02a3c,02a3d,02a3e,02a3f,02a40,02a41,02a42,02a43,02a44
+
 Category=Decorations
 Subsection=Goza Mat
 Description=Goza Mat
-DupeList=028a5,028a6,028a7,028a8,028a9,028aa,028ab,028ac,028ad,028ae,028af,029c0,029c1,029c2,029c3,029c4,029c5,029c6,029c7,029c8,029c9,029ca,029cb,029cc,029cd,029ce,029cf,029d0,029d1,029d2,029d3,029d4,029d5,029d6,029d7,029d8,029d9,029da,029db,02a1d,02a1e,02a1f,02a20,02a21,02a22,02a23,02a24,02a25,02a26,02a27,02a28,02a29,02a3c,02a3d,02a3e,02a3f,02a40,02a41,02a42,02a43,02a44
 
 [ItemDef 028a5]
 //goza mat
@@ -1191,68 +1042,52 @@ DupeItem=028a4
 DupeItem=028a4
 
 
-[ItemDef 02ac8]
-DefName=iRugbearskin_misc
-Type=tFloor
-FLIP=1
-Weight=15.0
-Can=CanIPlatform
-RESOURCES=5 i_wool,100 i_thread
-Category=Decorations
-Subsection=Bearskin Carpet Bits
-Description=Carpet bits
-DupeList=02ac9,02acd,02ace
-
-[ItemDef 02ac9]
-//bearskin rug bits (unused)
-DupeItem=02ac8
-
-[ItemDef 02acd]
-//bearskin rug bits (unused)
-DupeItem=02ac8
-
-[ItemDef 02ace]
-//bearskin rug bits (unused)
-DupeItem=02ac8
-
-
 [ItemDef 047da]
-DefName=i_welcome_mat
+DefName=iWelcomeMat1
 Name=welcome mat
-Type=t_normal
-DYE=1
-FLIP=1
-Category=Decorations
-Subsection=Welcome Mat
-Description=Welcome Mat
+Type=tNormal
+Can=CanIFlip|CanIDye
 DupeList=047db
+
+Category=Decorations
+Subsection=Carpets & Rugs
+Description=Welcome Mat
 
 [ItemDef 047db]
 //welcome mat
 DupeItem=047da
 
+
 [ItemDef 04ab4]
-DefName=i_welcome_mat_large
+DefName=iWelcomeMat2
 Name=welcome mat
-Type=t_normal
-DYE=1
-FLIP=1
+Type=tNormal
+Can=CanIFlip|CanIDye
+DupeList=04ab5
+
 Category=Decorations
-Subsection=Welcome Mat
-Description=Welcome Mat (multi-part)
-DupeList=04ab5,04ab6,04ab7
+Subsection=Carpets & Rugs
+Description=Welcome Mat (South)
 
 [ItemDef 04ab5]
 //welcome mat (multi-part)
 DupeItem=04ab4
 
+
 [ItemDef 04ab6]
-//welcome mat (multi-part)
-DupeItem=04ab4
+DefName=iWelcomeMat3
+Name=welcome mat
+Type=tNormal
+Can=CanIFlip|CanIDye
+DupeList=04ab7
+
+Category=Decorations
+Subsection=Carpets & Rugs
+Description=Welcome Mat (East)
 
 [ItemDef 04ab7]
 //welcome mat (multi-part)
-DupeItem=04ab4
+DupeItem=04ab6
 
 
 [EOF]

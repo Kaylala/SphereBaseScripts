@@ -926,7 +926,7 @@ NewItem={RandomBone 1 RandomBodyPart 1}
 
 // Skeletal Mage
 [CharDef cSkeletalMage]
-DefName=SkeletonMage
+DefName=cSkeletonMage
 ID=cBoneMage
 Name=skeletal mage
 Can=CanWalk|CanUseHands

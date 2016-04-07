@@ -18,7 +18,7 @@ EndIf
 
 [Function IsCursed]
 If (<IsChar>)
- Return <QVal (<FindLayer.LayerSpecial.BaseID> == iCurseRune) ? 1 : 0>
+ Return <QVal (<FindLayer.LayerSpecial.BaseID> == iCurseRune) || (<FindLayer.LayerSpecial.BaseID> == iMassCurseRune) ? 1 : 0>
 ElIf (<IsItem>)
  Return <QVal (<Attr> &AttrCursed) ? 1 : 0>
 EndIf

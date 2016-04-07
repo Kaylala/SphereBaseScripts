@@ -241,60 +241,60 @@ Item=i_sword_assassin_spike
 Item=iEmptyBottle,20
 Item=iMortarAndPestle,1
 Item=iRobe,1
-Color=ColorsPink
+Color=PinkHues
 
 [Newbie Alchemy Elf Female]
 Item=iEmptyBttle,20
 Item=iMortarAndPestle,1
 Item=iFemaleElvenRobe,1
-Color=ColorsPink
+Color=PinkHues
 
 [Newbie Alchemy Elf Male]
 Item=iEmptyBttle,20
 Item=iMortarAndPestle,1
 Item=iElvenRobe,1
-Color=ColorsPink
+Color=PinkHues
 
 [Newbie Alchemy Gargoyle]
 Item=iEmptyBottle,20
 Item=iMortarAndPestle,1
 Item=iGargishRobe,1
-Color=ColorsPink
+Color=PinkHues
 
 [Newbie Anatomy]
 Item=iBandage,3
 Item=iRobe,1
-Color=ColorsYellow
+Color=YellowHues
 
 [Newbie Anatomy Elf Female]
 Item=iBandage,3
 Item=iFemaleElvenRobe,1
-Color=ColorsYellow
+Color=YellowHues
 
 [Newbie Anatomy Elf Male]
 Item=iBandage,3
 Item=iElvenRobe,1
-Color=ColorsYellow
+Color=YellowHues
 
 [Newbie AnimalLore]
 Item=iShepherdsCrook,1
 Item=iRobe,1
-Color=ColorsBlue
+Color=BlueHues
 
 [Newbie AnimalLore Elf Female]
 Item=iShepherdsCrook,1
 Item=iFemaleElvenRobe,1
-Color=ColorsBlue
+Color=BlueHues
 
 [Newbie AnimalLore Elf Male]
 Item=iShepherdsCrook,1
 Item=iElvenRobe,1
-Color=ColorsBlue
+Color=BlueHues
 
 [Newbie AnimalLore Gargoyle]
 Item=iShepherdsCrook,1
 Item=iGargishRobe,1
-Color=ColorsBlue
+Color=BlueHues
 
 [Newbie Archery]
 Item=iArrow,25
@@ -326,13 +326,13 @@ Item=iGargishGnarledStaff,1
 Item=iTongs,1
 Item=iIronIngot,50
 Item=iHalfApron,1
-Color=ColorsYellow
+Color=YellowHues
 
 [Newbie Blacksmithing Gargoyle]
 Item=iTongs,1
 Item=iIronIngot,50
 Item=iGargishHalfApron,1
-Color=ColorsYellow
+Color=YellowHues
 
 [Newbie Bushido]
 Item=iBushidoSpellbook,1
@@ -353,7 +353,7 @@ Item=iKindling,5
 Item=iBoard,50
 Item=iSaw,1
 Item=iHalfApron,1
-Color=ColorsYellow
+Color=YellowHues
 
 [Newbie Cartography]
 Item=iMapmakersPen
@@ -403,7 +403,7 @@ Item=iGargishKryss,1
 [Newbie Fishing]
 Item=iFishingPole,1
 Item=iFloppyHat,1
-Color=ColorsYellow
+Color=YellowHues
 
 [Newbie Fishing Elf]
 Item=iFishingPole,1
@@ -472,7 +472,7 @@ Item=RandomSecondCircle,1
 Item=RandomThirdCircle,1
 Item=iWizardsHat,1
 Item=iRobe,1
-Color=ColorsBlue
+Color=BlueHues
 
 [Newbie Magery Elf Female]
 Item=iSpellbook,1
@@ -483,7 +483,7 @@ Item=RandomSecondCircle,1
 Item=RandomThirdCircle,1
 Item=iCirclet,1
 Item=iFemaleElveneRobe,1
-Color=ColorsBlue
+Color=BlueHues
 
 [Newbie Magery Elf Male]
 Item=iSpellbook,1
@@ -494,7 +494,7 @@ Item=RandomSecondCircle,1
 Item=RandomThirdCircle,1
 Item=iCirclet,1
 Item=iElveneRobe,1
-Color=ColorsBlue
+Color=BlueHues
 
 [Newbie Magery Gargoyle]
 Item=iSpellbook
@@ -505,7 +505,7 @@ Item=RandomSecondCircle,1
 Item=RandomThirdCircle,1
 Item=iGargishEarrings,1
 Item={iGargishRobe 1 iGargishRobe1 1}
-Color=ColorsBlue
+Color=BlueHues
 
 [Newbie MagicResistance]
 //empty

@@ -129,7 +129,7 @@ tPickaxeWeapon				103 // (Note: Was t_Weapon_Mace_Pick)
 tCutLeather					104 // leather or skins of some sort.(Note: Was t_Leather)
 tShipPart					105 // some other part of a ship. (Note: Was t_Ship_Other)
 tBulletinBoard				106 // a container and bboard object.
-tBBoard						tBulletingBoard
+tBBoard						tBulletinBoard
 tSpellbook					107 // spellbook (with spells)
 tCorpse						108 // special type of item.
 tTrackItem					109 // track a id or type of item.

@@ -1,0 +1,763 @@
+[Itemdef 023be]
+DefName=iCeramicRoof1
+Name=ceramic roof
+Type=tRoof
+Weight=255
+DupeList=023bf,023c0,023c0,023c1,023c2,023c3,023c4,023c5,023c6,023c7,023c8,023c9,023ca,023cb,023cc,023cd,023ce,023cf,023d0,023d1,023d2,023d3
+
+Category=Structures
+Subsection=Roofing: Ceramic
+Description=Ceramic Roof (Blue)
+
+[Itemdef 023bf]
+DupeItem=023be
+
+[Itemdef 023c0]
+DupeItem=023be
+
+[Itemdef 023c1]
+DupeItem=023be
+
+[Itemdef 023c2]
+DupeItem=023be
+
+[Itemdef 023c3]
+DupeItem=023be
+
+[Itemdef 023c4]
+DupeItem=023be
+
+[Itemdef 023c5]
+DupeItem=023be
+
+[Itemdef 023c6]
+DupeItem=023be
+
+[Itemdef 023c7]
+DupeItem=023be
+
+[Itemdef 023c8]
+DupeItem=023be
+
+[Itemdef 023c9]
+DupeItem=023be
+
+[Itemdef 023ca]
+DupeItem=023be
+
+[Itemdef 023cb]
+DupeItem=023be
+
+[Itemdef 023cc]
+DupeItem=023be
+
+[Itemdef 023cd]
+DupeItem=023be
+
+[Itemdef 023ce]
+DupeItem=023be
+
+[Itemdef 023cf]
+DupeItem=023be
+
+[Itemdef 023d0]
+DupeItem=023be
+
+[Itemdef 023d1]
+DupeItem=023be
+
+[Itemdef 023d2]
+DupeItem=023be
+
+[Itemdef 023d3]
+DupeItem=023be
+
+
+[Itemdef 023d4]
+DefName=iCeramicRoof2
+Name=ceramic roof
+Type=tRoof
+Weight=255
+DupeList=023d5,023d6,023d7,023d8,023d9,023da,023db,023dc,023dd,023de,023df,023e0,023e1,023e2,023e3,023e4,023e5,023e6,023e7,023e8,023e9
+
+Category=Structures
+Subsection=Roofing: Ceramic
+Description=Ceramic Roof (Red)
+
+[Itemdef 023d5]
+DupeItem=023d4
+
+[Itemdef 023d6]
+DupeItem=023d4
+
+[Itemdef 023d7]
+DupeItem=023d4
+
+[Itemdef 023d8]
+DupeItem=023d4
+
+[Itemdef 023d9]
+DupeItem=023d4
+
+[Itemdef 023da]
+DupeItem=023d4
+
+[Itemdef 023db]
+DupeItem=023d4
+
+[Itemdef 023dc]
+DupeItem=023d4
+
+[Itemdef 023dd]
+DupeItem=023d4
+
+[Itemdef 023de]
+DupeItem=023d4
+
+[Itemdef 023df]
+DupeItem=023d4
+
+[Itemdef 023e0]
+DupeItem=023d4
+
+[Itemdef 023e1]
+DupeItem=023d4
+
+[Itemdef 023e2]
+DupeItem=023d4
+
+[Itemdef 023e3]
+DupeItem=023d4
+
+[Itemdef 023e4]
+DupeItem=023d4
+
+[Itemdef 023e5]
+DupeItem=023d4
+
+[Itemdef 023e6]
+DupeItem=023d4
+
+[Itemdef 023e7]
+DupeItem=023d4
+
+[Itemdef 023e8]
+DupeItem=023d4
+
+[Itemdef 023e9]
+DupeItem=023d4
+
+
+[Itemdef 023ea]
+DefName=iCeramicRoof3
+Name=ceramic roof
+Type=tRoof
+Weight=255
+DupeList=023eb,023ec,023ed,023ee,023ef,023f0,023f1,023f2,023f3,023f4,023f5,023f6,023f7,023f8,023f9,023fa,023fb,023fc,023fd,023fe,023ff
+
+Category=Structures
+Subsection=Roofing: Ceramic
+Description=Ceramic Roof (Aqua)
+
+[Itemdef 023eb]
+DupeItem=023ea
+
+[Itemdef 023ec]
+DupeItem=023ea
+
+[Itemdef 023ed]
+DupeItem=023ea
+
+[Itemdef 023ee]
+DupeItem=023ea
+
+[Itemdef 023ef]
+DupeItem=023ea
+
+[Itemdef 023f0]
+DupeItem=023ea
+
+[Itemdef 023f1]
+DupeItem=023ea
+
+[Itemdef 023f2]
+DupeItem=023ea
+
+[Itemdef 023f3]
+DupeItem=023ea
+
+[Itemdef 023f4]
+DupeItem=023ea
+
+[Itemdef 023f5]
+DupeItem=023ea
+
+[Itemdef 023f6]
+DupeItem=023ea
+
+[Itemdef 023f7]
+DupeItem=023ea
+
+[Itemdef 023f8]
+DupeItem=023ea
+
+[Itemdef 023f9]
+DupeItem=023ea
+
+[Itemdef 023fa]
+DupeItem=023ea
+
+[Itemdef 023fb]
+DupeItem=023ea
+
+[Itemdef 023fc]
+DupeItem=023ea
+
+[Itemdef 023fd]
+DupeItem=023ea
+
+[Itemdef 023fe]
+DupeItem=023ea
+
+[Itemdef 023ff]
+DupeItem=023ea
+
+
+[Itemdef 028f0]
+DefName=iCeramic4
+Name=ceramic roof
+Type=tRoof
+Weight=255
+DupeList=028f1,028f2,028f3,028f4,028f5,028f6,028f7,028f8,028f9,028fa,028fb,028fc,028fd,028fe,028ff,02900,02901,02902,02903,02904,02905
+
+Category=Structures
+Subsection=Roofing: Ceramic
+Description=Ceramic Roof (Olive)
+
+[Itemdef 028f1]
+DupeItem=028f0
+
+[Itemdef 028f2]
+DupeItem=028f0
+
+[Itemdef 028f3]
+DupeItem=028f0
+
+[Itemdef 028f4]
+DupeItem=028f0
+
+[Itemdef 028f5]
+DupeItem=028f0
+
+[Itemdef 028f6]
+DupeItem=028f0
+
+[Itemdef 028f7]
+DupeItem=028f0
+
+[Itemdef 028f8]
+DupeItem=028f0
+
+[Itemdef 028f9]
+DupeItem=028f0
+
+[Itemdef 028fa]
+DupeItem=028f0
+
+[Itemdef 028fb]
+DupeItem=028f0
+
+[Itemdef 028fc]
+DupeItem=028f0
+
+[Itemdef 028fd]
+DupeItem=028f0
+
+[Itemdef 028fe]
+DupeItem=028f0
+
+[Itemdef 028ff]
+DupeItem=028f0
+
+[Itemdef 02900]
+DupeItem=028f0
+
+[Itemdef 02901]
+DupeItem=028f0
+
+[Itemdef 02902]
+DupeItem=028f0
+
+[Itemdef 02903]
+DupeItem=028f0
+
+[Itemdef 02904]
+DupeItem=028f0
+
+[Itemdef 02905]
+DupeItem=028f0
+
+
+[Itemdef 02906]
+DefName=iCeramicRoof5
+Name=ceramic roof
+Type=tRoof
+Weight=255
+DupeList=02907,02908,02909,0290a,0290b,0290c,0290d,0290e,0290f,02910,02911,02912,02913,02914,02915,02916,02917,02918,02919,0291a,0291b
+
+Category=Structures
+Subsection=Roofing: Ceramic
+Description=Ceramic Roof (White)
+
+[Itemdef 02907]
+DupeItem=02906
+
+[Itemdef 02908]
+DupeItem=02906
+
+[Itemdef 02909]
+DupeItem=02906
+
+[Itemdef 0290a]
+DupeItem=02906
+
+[Itemdef 0290b]
+DupeItem=02906
+
+[Itemdef 0290c]
+DupeItem=02906
+
+[Itemdef 0290d]
+DupeItem=02906
+
+[Itemdef 0290e]
+DupeItem=02906
+
+[Itemdef 0290f]
+DupeItem=02906
+
+[Itemdef 02910]
+DupeItem=02906
+
+[Itemdef 02911]
+DupeItem=02906
+
+[Itemdef 02912]
+DupeItem=02906
+
+[Itemdef 02913]
+DupeItem=02906
+
+[Itemdef 02914]
+DupeItem=02906
+
+[Itemdef 02915]
+DupeItem=02906
+
+[Itemdef 02916]
+DupeItem=02906
+
+[Itemdef 02917]
+DupeItem=02906
+
+[Itemdef 02918]
+DupeItem=02906
+
+[Itemdef 02919]
+DupeItem=02906
+
+[Itemdef 0291a]
+DupeItem=02906
+
+[Itemdef 0291b]
+DupeItem=02906
+
+
+[Itemdef 02920]
+DefName=iCeramicRoof6
+Name=ceramic roof
+Type=tRoof
+Weight=255
+DupeList=02921,02922,02923,02924,02925,02926,02927,02928,02929,0292a,0292b,0292c,0292d,0292e,0292f,02930,02931,02932,02933,02934,02935
+
+Category=Structures
+Subsection=Roofing: Ceramic
+Description=Ceramic Roof (Orange)
+
+[Itemdef 02921]
+DupeItem=02920
+
+[Itemdef 02922]
+DupeItem=02920
+
+[Itemdef 02923]
+DupeItem=02920
+
+[Itemdef 02924]
+DupeItem=02920
+
+[Itemdef 02925]
+DupeItem=02920
+
+[Itemdef 02926]
+DupeItem=02920
+
+[Itemdef 02927]
+DupeItem=02920
+
+[Itemdef 02928]
+DupeItem=02920
+
+[Itemdef 02929]
+DupeItem=02920
+
+[Itemdef 0292a]
+DupeItem=02920
+
+[Itemdef 0292b]
+DupeItem=02920
+
+[Itemdef 0292c]
+DupeItem=02920
+
+[Itemdef 0292d]
+DupeItem=02920
+
+[Itemdef 0292e]
+DupeItem=02920
+
+[Itemdef 0292f]
+DupeItem=02920
+
+[Itemdef 02930]
+DupeItem=02920
+
+[Itemdef 02931]
+DupeItem=02920
+
+[Itemdef 02932]
+DupeItem=02920
+
+[Itemdef 02933]
+DupeItem=02920
+
+[Itemdef 02934]
+DupeItem=02920
+
+[Itemdef 02935]
+DupeItem=02920
+
+
+[Itemdef 026f8]
+DefName=iBarkRoof
+Name=bark roof
+Type=tRoof
+Weight=255
+DupeList=026f9,026fa,026fb,026fc,026fd,026fe,026ff,02700,02701,02702,02703,02704,02705,02706,02707,02708,02709,0270a,0270b,0270c
+
+Category=Structures
+Subsection=Roofing
+Description=Bark Roof
+
+[Itemdef 026f9]
+DupeItem=026f8
+
+[Itemdef 026fa]
+DupeItem=026f8
+
+[Itemdef 026fb]
+DupeItem=026f8
+
+[Itemdef 026fc]
+DupeItem=026f8
+
+[Itemdef 026fd]
+DupeItem=026f8
+
+[Itemdef 026fe]
+DupeItem=026f8
+
+[Itemdef 026ff]
+DupeItem=026f8
+
+[Itemdef 02700]
+DupeItem=026f8
+
+[Itemdef 02701]
+DupeItem=026f8
+
+[Itemdef 02702]
+DupeItem=026f8
+
+[Itemdef 02703]
+DupeItem=026f8
+
+[Itemdef 02704]
+DupeItem=026f8
+
+[Itemdef 02705]
+DupeItem=026f8
+
+[Itemdef 02706]
+DupeItem=026f8
+
+[Itemdef 02707]
+DupeItem=026f8
+
+[Itemdef 02708]
+DupeItem=026f8
+
+[Itemdef 02709]
+DupeItem=026f8
+
+[Itemdef 0270a]
+DupeItem=026f8
+
+[Itemdef 0270b]
+DupeItem=026f8
+
+[Itemdef 0270c]
+DupeItem=026f8
+
+
+[Itemdef 026da]
+DefName=iHayRoof
+Name=hay roof
+Type=tRoof
+Weight=255
+DupeList=026db,026dc,026dd,026de,026df,026e0,026e1,026e2,026e3,026e4,026e5,026e6,026e7,026e8,026e9,026ea,026eb,026ec
+
+Category=Structures
+Subsection=Roofing
+Description=Hay Roof
+
+[Itemdef 026db]
+DupeItem=026da
+
+[Itemdef 026dc]
+DupeItem=026da
+
+[Itemdef 026dd]
+DupeItem=026da
+
+[Itemdef 026de]
+DupeItem=026da
+
+[Itemdef 026df]
+DupeItem=026da
+
+[Itemdef 026e0]
+DupeItem=026da
+
+[Itemdef 026e1]
+DupeItem=026da
+
+[Itemdef 026e2]
+DupeItem=026da
+
+[Itemdef 026e3]
+DupeItem=026da
+
+[Itemdef 026e4]
+DupeItem=026da
+
+[Itemdef 026e5]
+DupeItem=026da
+
+[Itemdef 026e6]
+DupeItem=026da
+
+[Itemdef 026e7]
+DupeItem=026da
+
+[Itemdef 026e8]
+DupeItem=026da
+
+[Itemdef 026e9]
+DupeItem=026da
+
+[Itemdef 026ea]
+DupeItem=026da
+
+[Itemdef 026eb]
+DupeItem=026da
+
+[Itemdef 026ec]
+DupeItem=026da
+
+
+[Itemdef 035be]
+DefName=iCrystalRoof
+Name=crystal roof
+NameLoc=1033758
+Type=tRoof
+Weight=255
+DupeList=035bf,035c0,035c1,035c2,035c3,035c4,035c5,035c6,035c7,035c8,035c9,035ca,035cb,035cc,035cd,035ce,035cf,035d0,035d1
+
+Category=Structures
+Subsection=Roofing
+Description=Crystal Roof
+
+[Itemdef 035bf]
+NameLoc=1033759
+DupeItem=035be
+
+[Itemdef 035c0]
+NameLoc=1033760
+DupeItem=035be
+
+[Itemdef 035c1]
+NameLoc=1033761
+DupeItem=035be
+
+[Itemdef 035c2]
+NameLoc=1033762
+DupeItem=035be
+
+[Itemdef 035c3]
+NameLoc=1033763
+DupeItem=035be
+
+[Itemdef 035c4]
+NameLoc=1033764
+DupeItem=035be
+
+[Itemdef 035c5]
+NameLoc=1033765
+DupeItem=035be
+
+[Itemdef 035c6]
+NameLoc=1033766
+DupeItem=035be
+
+[Itemdef 035c7]
+NameLoc=1033767
+DupeItem=035be
+
+[Itemdef 035c8]
+NameLoc=1033768
+DupeItem=035be
+
+[Itemdef 035c9]
+NameLoc=1033769
+DupeItem=035be
+
+[Itemdef 035ca]
+NameLoc=1033770
+DupeItem=035be
+
+[Itemdef 035cb]
+NameLoc=1033771
+DupeItem=035be
+
+[Itemdef 035cc]
+NameLoc=1033772
+DupeItem=035be
+
+[Itemdef 035cd]
+NameLoc=1033773
+DupeItem=035be
+
+[Itemdef 035ce]
+NameLoc=1033774
+DupeItem=035be
+
+[Itemdef 035cf]
+NameLoc=1033775
+DupeItem=035be
+
+[Itemdef 035d0]
+NameLoc=1033776
+DupeItem=035be
+
+[Itemdef 035d1]
+NameLoc=1033777
+DupeItem=035be
+
+
+[Itemdef 03623]
+DefName=iShadowRoof
+Name=shadow roof
+NameLoc=1033859
+Type=tRoof
+Weight=255
+DupeList=03624,03625,03626,03627,03628,03629,0362a,0362b,0362c,0362d,0362e,0362f,03630,03631,03632,03633,03634,03635
+
+Category=Structures
+Subsection=Roofing
+Description=Shadow Roof
+
+[Itemdef 03624]
+NameLoc=1033860
+DupeItem=03623
+
+[Itemdef 03625]
+NameLoc=1033861
+DupeItem=03623
+
+[Itemdef 03626]
+NameLoc=1033862
+DupeItem=03623
+
+[Itemdef 03627]
+NameLoc=1033863
+DupeItem=03623
+
+[Itemdef 03628]
+NameLoc=1033864
+DupeItem=03623
+
+[Itemdef 03629]
+NameLoc=1033865
+DupeItem=03623
+
+[Itemdef 0362a]
+NameLoc=1033866
+DupeItem=03623
+
+[Itemdef 0362b]
+NameLoc=1033867
+DupeItem=03623
+
+[Itemdef 0362c]
+NameLoc=1033868
+DupeItem=03623
+
+[Itemdef 0362d]
+NameLoc=1033869
+DupeItem=03623
+
+[Itemdef 0362e]
+NameLoc=1033870
+DupeItem=03623
+
+[Itemdef 0362f]
+NameLoc=1033871
+DupeItem=03623
+
+[Itemdef 03630]
+NameLoc=1033872
+DupeItem=03623
+
+[Itemdef 03631]
+NameLoc=1033873
+DupeItem=03623
+
+[Itemdef 03632]
+NameLoc=1033874
+DupeItem=03623
+
+[Itemdef 03633]
+NameLoc=1033875
+DupeItem=03623
+
+[Itemdef 03634]
+NameLoc=1033876
+DupeItem=03623
+
+[Itemdef 03635]
+NameLoc=1033877
+DupeItem=03623
+
+
+[EOF]
