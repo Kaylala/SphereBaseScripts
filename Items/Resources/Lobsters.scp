@@ -1,0 +1,183 @@
+[ItemDef 044D3]
+DefName=iLobster
+Name=lobster
+NameLoc=1096491
+Type=tFish
+Can=CanIFlip|CanIStack
+Weight=1
+Resources=1 iRawFishSteak
+Value=2
+DupeList=044D4
+
+Category=Resources
+Subsection=Lobsters: Base
+Description=Lobster
+
+[ItemDef 044D4]
+NameLoc=1096492
+DupeItem=044D3
+
+
+[ItemDef iCrustyLobster]
+ID=iLobster
+Name=crusty lobster
+NameLoc=1116383
+Type=tFish
+Can=CanIFlip|CanIStack
+Weight=1
+Resources=1 iRawFishSteak
+Value=2
+
+Category=Resources
+Subsection=Lobsters: Regular
+Description=Crusty Lobster
+
+
+[ItemDef iFredLobster]
+ID=iLobster
+Name=fred lobster
+NameLoc=1116382
+Type=tFish
+Can=CanIFlip|CanIStack
+Weight=1
+Resources=1 iRawFishSteak
+Value=2
+
+Category=Resources
+Subsection=Lobsters: Regular
+Description=Fred Lobster
+
+
+[ItemDef iHummerLobster]
+ID=iLobster
+Name=hummer lobster
+NameLoc=1116381
+Type=tFish
+Can=CanIFlip|CanIStack
+Weight=1
+Resources=1 iRawFishSteak
+Value=2
+
+Category=Resources
+Subsection=Lobsters: Regular
+Description=Hummer Lobster
+
+
+[ItemDef iRockLobster]
+ID=iLobster
+Name=rock lobster
+NameLoc=1116380
+Type=tFish
+Can=CanIFlip|CanIStack
+Weight=1
+Resources=1 iRawFishSteak
+Value=2
+
+Category=Resources
+Subsection=Lobsters: Regular
+Description=Rock Lobster
+
+
+[ItemDef iShovelNoseLobster]
+ID=iLobster
+Name=shovel-nose lobster
+NameLoc=1116384
+Type=tFish
+Can=CanIFlip|CanIStack
+Weight=1
+Resources=1 iRawFishSteak
+Value=2
+
+Category=Resources
+Subsection=Lobsters: Regular
+Description=Shovel-Nose Lobster
+
+
+[ItemDef iSpineyLobster]
+ID=iLobster
+Name=spiney lobster
+NameLoc=1116379
+Type=tFish
+Can=CanIFlip|CanIStack
+Weight=1
+Resources=1 iRawFishSteak
+Value=2
+
+Category=Resources
+Subsection=Lobsters: Regular
+Description=Spiney Lobster
+
+
+[ItemDef iBlueLobster]
+ID=iLobster
+Name=blue lobster
+NameLoc=1116366
+Type=tFish
+Can=CanIFlip|CanIStack
+Weight=1
+Resources=1 iBlueLobsterMeat
+Value=2
+
+Category=Resources
+Subsection=Lobsters: Rare
+Description=Blue Lobster
+
+On=@Create
+Color=
+
+
+[ItemDef iBloodLobster]
+ID=iLobster
+Name=blood lobster
+NameLoc=1116370
+Type=tFish
+Can=CanIFlip|CanIStack
+Weight=1
+Resources=1 iRawFishSteak
+Value=2
+
+Category=Resources
+Subsection=Lobsters: Legendary
+Description=Blood Lobster
+
+On=@Create
+Color=
+
+
+[ItemDef iDreadLobster]
+ID=iLobster
+Name=dread lobster
+NameLoc=1116371
+Type=tFish
+Can=CanIFlip|CanIStack
+Weight=1
+Resources=1 iRawFishSteak
+Value=2
+
+Category=Resources
+Subsection=Lobsters: Legendary
+Description=Dread Lobster
+
+On=@Create
+Color=
+
+
+[ItemDef iVoidLobster]
+ID=iLobster
+Name=void lobster
+NameLoc=1116369
+Type=tFish
+Can=CanIFlip|CanIStack
+Weight=1
+Resources=1 iRawFishSteak
+Value=2
+
+Category=Resources
+Subsection=Lobsters: Legendary
+Description=Void Lobster
+
+On=@Create
+Color=
+
+
+[EOF]

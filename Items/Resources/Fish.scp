@@ -178,46 +178,6 @@ NameLoc=1096510
 DupeItem=044e5
 
 
-[ItemDef 044D1]
-DefName=iCrab
-Name=crab
-NameLoc=1096489
-Type=tFish
-Can=CanIFlip|CanIStack
-Weight=1
-Resources=1 iRawFishSteak
-Value=2
-DupeList=044D2
-
-Category=Resources
-Subsection=Fish: Base
-Description=Crab
-
-[ItemDef 044D2]
-NameLoc=1096490
-DupeItem=044D1
-
-
-[ItemDef 044D3]
-DefName=iLobster
-Name=lobster
-NameLoc=1096491
-Type=tFish
-Can=CanIFlip|CanIStack
-Weight=1
-Resources=1 iRawFishSteak
-Value=2
-DupeList=044D4
-
-Category=Resources
-Subsection=Fish: Base
-Description=Crab
-
-[ItemDef 044D4]
-NameLoc=1096492
-DupeItem=044D3
-
-
 [ItemDef iMudPuppy]
 ID=iFish1
 Name=mud puppy

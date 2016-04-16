@@ -1,0 +1,183 @@
+[ItemDef 044D1]
+DefName=iCrab
+Name=crab
+NameLoc=1096489
+Type=tFish
+Can=CanIFlip|CanIStack
+Weight=1
+Resources=1 iRawFishSteak
+Value=2
+DupeList=044D2
+
+Category=Resources
+Subsection=Crabs: Base
+Description=Crab
+
+[ItemDef 044D2]
+NameLoc=1096490
+DupeItem=044D1
+
+
+[ItemDef iAppleCrab]
+ID=iCrab
+Name=apple crab
+NameLoc=1116378
+Type=tFish
+Can=CanIFlip|CanIStack
+Weight=1
+Resources=1 iRawFishSteak
+Value=2
+
+Category=Resources
+Subsection=Crabs: Regular
+Description=Apple Crab
+
+
+[ItemDef iBlueCrab]
+ID=iCrab
+Name=blue crab
+NameLoc=1116374
+Type=tFish
+Can=CanIFlip|CanIStack
+Weight=1
+Resources=1 iRawFishSteak
+Value=2
+
+Category=Resources
+Subsection=Crabs: Regular
+Description=Blue Crab
+
+
+[ItemDef iDungeonessCrab]
+ID=iCrab
+Name=dungeoness crab
+NameLoc=1116373
+Type=tFish
+Can=CanIFlip|CanIStack
+Weight=1
+Resources=1 iRawFishSteak
+Value=2
+
+Category=Resources
+Subsection=Crabs: Regular
+Description=Dungeoness Crab
+
+
+[ItemDef iKingCrab]
+ID=iCrab
+Name=king crab
+NameLoc=1116375
+Type=tFish
+Can=CanIFlip|CanIStack
+Weight=1
+Resources=1 iRawFishSteak
+Value=2
+
+Category=Resources
+Subsection=Crabs: Regular
+Description=King Crab
+
+
+[ItemDef iRockCrab]
+ID=iCrab
+Name=rock crab
+NameLoc=1116376
+Type=tFish
+Can=CanIFlip|CanIStack
+Weight=1
+Resources=1 iRawFishSteak
+Value=2
+
+Category=Resources
+Subsection=Crabs: Regular
+Description=Rock Crab
+
+
+[ItemDef iSnowCrab]
+ID=iCrab
+Name=snow crab
+NameLoc=1116377
+Type=tFish
+Can=CanIFlip|CanIStack
+Weight=1
+Resources=1 iRawFishSteak
+Value=2
+
+Category=Resources
+Subsection=Crabs: Regular
+Description=Snow Crab
+
+
+[ItemDef iStoneCrab]
+ID=iCrab
+Name=stone crab
+NameLoc=1116365
+Type=tFish
+Can=CanIFlip|CanIStack
+Weight=1
+Resources=1 iStoneCrabMeat
+Value=2
+
+Category=Resources
+Subsection=Crabs: Rare
+Description=Stone Crab
+
+On=@Create
+Color=
+
+
+[ItemDef iSpiderCrab]
+ID=iCrab
+Name=spider crab
+NameLoc=1116367
+Type=tFish
+Can=CanIFlip|CanIStack
+Weight=1
+Resources=1 iSpiderCrabMeat
+Value=2
+
+Category=Resources
+Subsection=Crabs: Rare
+Description=Spider Crab
+
+On=@Create
+Color=
+
+
+[ItemDef iTunnelCrab]
+ID=iCrab
+Name=tunnel crab
+NameLoc=1116372
+Type=tFish
+Can=CanIFlip|CanIStack
+Weight=1
+Resources=1 iRawFishSteak
+Value=2
+
+Category=Resources
+Subsection=Crabs: Legendary
+Description=Tunnel Crab
+
+On=@Create
+Color=
+
+
+[ItemDef iVoidCrab]
+ID=iCrab
+Name=void crab
+NameLoc=1116368
+Type=tFish
+Can=CanIFlip|CanIStack
+Weight=1
+Resources=1 iRawFishSteak
+Value=2
+
+Category=Resources
+Subsection=Crabs: Legendary
+Description=Void Crab
+
+On=@Create
+Color=
+
+
+[EOF]
