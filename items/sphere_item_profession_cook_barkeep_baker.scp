@@ -2778,39 +2778,6 @@ MoreM=6
 
 
 
-[ItemDef 044d1]
-DefName=iFishCrab
-Name=crab
-Type=tFish
-Can=CanIFlip
-Value=2
-Weight=5.0
-Category=Provisions - Food
-Subsection=Fish
-Description=Fish (crab)
-DupeList=044d2
-
-[ItemDef 044d2]
-//Fish (crab)
-DupeItem=044d1
-
-[ItemDef 044d3]
-DefName=iFishLobster
-Name=lobster
-Type=tFish
-Can=CanIFlip
-Value=2
-Weight=5.0
-Category=Provisions - Food
-Subsection=Fish
-Description=Fish (lobster)
-DupeList=044d4
-
-[ItemDef 044d4]
-//Fish (lobster)
-DupeItem=044d3
-
-
 [ItemDef 0468c]
 DefName=iJellybeans
 Name=jellybeans

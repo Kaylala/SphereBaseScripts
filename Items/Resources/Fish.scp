@@ -5,10 +5,11 @@ NameLoc=1022508
 Type=tFish
 Can=CanIStack
 Weight=10
+Resources=4 iRawFishSteak
 Value=2
 
 Category=Resources
-Subsection=Fish
+Subsection=Fish: Normal
 Description=Fish
 
 
@@ -19,10 +20,11 @@ NameLoc=1022509
 Type=tFish
 Can=CanIStack
 Weight=10
+Resources=4 iRawFishSteak
 Value=2
 
 Category=Resources
-Subsection=Fish
+Subsection=Fish: Normal
 Description=Fish
 
 
@@ -33,10 +35,11 @@ NameLoc=1022510
 Type=tFish
 Can=CanIStack
 Weight=10
+Resources=4 iRawFishSteak
 Value=2
 
 Category=Resources
-Subsection=Fish
+Subsection=Fish: Normal
 Description=Fish
 
 
@@ -47,10 +50,11 @@ NameLoc=1022511
 Type=tFish
 Can=CanIStack
 Weight=10
+Resources=4 iRawFishSteak
 Value=2
 
 Category=Resources
-Subsection=Fish
+Subsection=Fish: Normal
 Description=Fish
 
 
@@ -61,11 +65,12 @@ NameLoc=1096026
 Type=tFish
 Can=CanIFlip|CanIStack
 Weight=10
+Resources=4 iRawFishSteak
 Value=2
 DupeList=04303
 
 Category=Resources
-Subsection=Fish
+Subsection=Fish: Base
 Description=Salmon
 
 [ItemDef 04303]
@@ -80,11 +85,12 @@ NameLoc=1096028
 Type=tFish
 Can=CanIFlip|CanIStack
 Weight=30
+Resources=4 iRawFishSteak
 Value=2
 DupeList=04305
 
 Category=Resources
-Subsection=Fish
+Subsection=Fish: Base
 Description=Marlin
 
 [ItemDef 04305]
@@ -99,11 +105,12 @@ NameLoc=1096030
 Type=tFish
 Can=CanIFlip|CanIStack
 Weight=10
+Resources=4 iRawFishSteak
 Value=2
 DupeList=04307
 
 Category=Resources
-Subsection=Fish
+Subsection=Fish: Base
 Description=Grouper
 
 [ItemDef 04307]
@@ -118,11 +125,12 @@ NameLoc=1096475
 Type=tFish
 Can=CanIFlip|CanIStack
 Weight=10
+Resources=4 iRawFishSteak
 Value=2
 DupeList=044c4
 
 Category=Resources
-Subsection=Fish
+Subsection=Fish: Base
 Description=Barracuda
 
 [ItemDef 044c4]
@@ -137,11 +145,12 @@ NameLoc=1096477
 Type=tFish
 Can=CanIFlip|CanIStack
 Weight=10
+Resources=4 iRawFishSteak
 Value=2
 DupeList=044c6
 
 Category=Resources
-Subsection=Fish
+Subsection=Fish: Base
 Description=Mahi-Mahi
 
 [ItemDef 044c6]
@@ -156,16 +165,57 @@ NameLoc=1096509
 Type=tFish
 Can=CanIFlip|CanIStack
 Weight=30
+Resources=4 iRawFishSteak
 Value=2
 DupeList=044e6
 
 Category=Resources
-Subsection=Fish
+Subsection=Fish: Base
 Description=Dragonfish
 
 [ItemDef 044e6]
 NameLoc=1096510
 DupeItem=044e5
+
+
+[ItemDef 044D1]
+DefName=iCrab
+Name=crab
+NameLoc=1096489
+Type=tFish
+Can=CanIFlip|CanIStack
+Weight=1
+Resources=1 iRawFishSteak
+Value=2
+DupeList=044D2
+
+Category=Resources
+Subsection=Fish: Base
+Description=Crab
+
+[ItemDef 044D2]
+NameLoc=1096490
+DupeItem=044D1
+
+
+[ItemDef 044D3]
+DefName=iLobster
+Name=lobster
+NameLoc=1096491
+Type=tFish
+Can=CanIFlip|CanIStack
+Weight=1
+Resources=1 iRawFishSteak
+Value=2
+DupeList=044D4
+
+Category=Resources
+Subsection=Fish: Base
+Description=Crab
+
+[ItemDef 044D4]
+NameLoc=1096492
+DupeItem=044D3
 
 
 [ItemDef iMudPuppy]
@@ -175,10 +225,11 @@ NameLoc=1095117
 Type=tFish
 Can=CanIStack
 Weight=10
+Resources=4 iRawFishSteak
 Value=2
 
 Category=Resources
-Subsection=Fish
+Subsection=Fish: Quest
 Description=Mud Puppy
 
 On=@Create
@@ -192,10 +243,11 @@ NameLoc=1095046
 Type=tFish
 Can=CanIStack
 Weight=10
+Resources=4 iRawFishSteak
 Value=2
 
 Category=Resources
-Subsection=Fish
+Subsection=Fish: Quest
 Description=Red Herring
 
 On=@Create
@@ -209,10 +261,11 @@ NameLoc=1116402
 Type=tFish
 Can=CanIStack|CanIFlip
 Weight=10
+Resources=4 iRawFishSteak
 Value=2
 
 Category=Resources
-Subsection=Fish
+Subsection=Fish: Regular
 Description=Amberjack
 
 
@@ -223,10 +276,11 @@ NameLoc=1116396
 Type=tFish
 Can=CanIStack
 Weight=10
+Resources=4 iRawFishSteak
 Value=2
 
 Category=Resources
-Subsection=Fish
+Subsection=Fish: Regular
 Description=Black Seabass
 
 
@@ -237,10 +291,11 @@ NameLoc=1116411
 Type=tFish
 Can=CanIStack|CanIFlip
 Weight=10
+Resources=4 iRawFishSteak
 Value=2
 
 Category=Resources
-Subsection=Fish
+Subsection=Fish: Regular
 Description=Blue Grouper
 
 
@@ -251,10 +306,11 @@ NameLoc=1116406
 Type=tFish
 Can=CanIStack
 Weight=10
+Resources=4 iRawFishSteak
 Value=2
 
 Category=Resources
-Subsection=Fish
+Subsection=Fish: Regular
 Description=Bluefish
 
 
@@ -265,10 +321,11 @@ NameLoc=1116417
 Type=tFish
 Can=CanIStack|CanIFlip
 Weight=10
+Resources=4 iRawFishSteak
 Value=2
 
 Category=Resources
-Subsection=Fish
+Subsection=Fish: Regular
 Description=Bluegill Sunfish
 
 
@@ -279,10 +336,11 @@ NameLoc=1116409
 Type=tFish
 Can=CanIStack|CanIFlip
 Weight=10
+Resources=4 iRawFishSteak
 Value=2
 
 Category=Resources
-Subsection=Fish
+Subsection=Fish: Regular
 Description=Bonefish
 
 
@@ -293,10 +351,11 @@ NameLoc=1116405
 Type=tFish
 Can=CanIStack|CanIFlip
 Weight=10
+Resources=4 iRawFishSteak
 Value=2
 
 Category=Resources
-Subsection=Fish
+Subsection=Fish: Regular
 Description=Bonito
 
 
@@ -307,10 +366,11 @@ NameLoc=1116415
 Type=tFish
 Can=CanIStack
 Weight=10
+Resources=4 iRawFishSteak
 Value=2
 
 Category=Resources
-Subsection=Fish
+Subsection=Fish: Regular
 Description=Brook Trout
 
 
@@ -319,12 +379,13 @@ ID=iGrouper
 Name=cape cod
 NameLoc=1116395
 Type=tFish
-Can=CanIStack|CanIStack
+Can=CanIStack|CanIFlip
 Weight=10
+Resources=4 iRawFishSteak
 Value=2
 
 Category=Resources
-Subsection=Fish
+Subsection=Fish: Regular
 Description=Cape Cod
 
 
@@ -333,12 +394,13 @@ ID=iMahiMahi1
 Name=captain snook
 NameLoc=1116408
 Type=tFish
-Can=CanIStack|CanIStack
+Can=CanIStack|CanIFlip
 Weight=10
+Resources=4 iRawFishSteak
 Value=2
 
 Category=Resources
-Subsection=Fish
+Subsection=Fish: Regular
 Description=Captain Snook
 
 
@@ -347,12 +409,13 @@ ID=iSalmon
 Name=cobia
 NameLoc=1116400
 Type=tFish
-Can=CanIStack|CanIStack
+Can=CanIStack|CanIFlip
 Weight=10
+Resources=4 iRawFishSteak
 Value=2
 
 Category=Resources
-Subsection=Fish
+Subsection=Fish: Regular
 Description=Cobia
 
 
@@ -361,12 +424,13 @@ ID=iBarracuda
 Name=crag snapper
 NameLoc=1116432
 Type=tFish
-Can=CanIStack|CanIStack
+Can=CanIStack|CanIFlip
 Weight=10
+Resources=4 iRawFishSteak
 Value=2
 
 Category=Resources
-Subsection=Fish
+Subsection=Fish: Regular
 Description=Crag Snapper
 
 
@@ -375,12 +439,13 @@ ID=iSalmon
 Name=cutthroat trout
 NameLoc=1116427
 Type=tFish
-Can=CanIStack|CanIStack
+Can=CanIStack|CanIFlip
 Weight=10
+Resources=4 iRawFishSteak
 Value=2
 
 Category=Resources
-Subsection=Fish
+Subsection=Fish: Regular
 Description=Cutthroat Trout
 
 
@@ -389,12 +454,13 @@ ID=iGrouper
 Name=darkfish
 NameLoc=1116431
 Type=tFish
-Can=CanIStack|CanIStack
+Can=CanIStack|CanIFlip
 Weight=10
+Resources=4 iRawFishSteak
 Value=2
 
 Category=Resources
-Subsection=Fish
+Subsection=Fish: Regular
 Description=Darkfish
 
 
@@ -403,12 +469,13 @@ ID=iSalmon
 Name=demon trout
 NameLoc=1116425
 Type=tFish
-Can=CanIStack|CanIStack
+Can=CanIStack|CanIFlip
 Weight=10
+Resources=4 iRawFishSteak
 Value=2
 
 Category=Resources
-Subsection=Fish
+Subsection=Fish: Regular
 Description=Demon Trout
 
 
@@ -417,12 +484,13 @@ ID=iMahiMahi1
 Name=drake fish
 NameLoc=1116429
 Type=tFish
-Can=CanIStack|CanIStack
+Can=CanIStack|CanIFlip
 Weight=10
+Resources=4 iRawFishSteak
 Value=2
 
 Category=Resources
-Subsection=Fish
+Subsection=Fish: Regular
 Description=Drake Fish
 
 
@@ -431,12 +499,13 @@ ID=iGrouper
 Name=dungeon chub
 NameLoc=1116424
 Type=tFish
-Can=CanIStack|CanIStack
+Can=CanIStack|CanIFlip
 Weight=10
+Resources=4 iRawFishSteak
 Value=2
 
 Category=Resources
-Subsection=Fish
+Subsection=Fish: Regular
 Description=Dungeon Chub
 
 
@@ -445,12 +514,13 @@ ID=iSalmon
 Name=gray snapper
 NameLoc=1116399
 Type=tFish
-Can=CanIStack|CanIStack
+Can=CanIStack|CanIFlip
 Weight=10
+Resources=4 iRawFishSteak
 Value=2
 
 Category=Resources
-Subsection=Fish
+Subsection=Fish: Regular
 Description=Gray Snapper
 
 
@@ -459,12 +529,13 @@ ID=iMahiMahi1
 Name=green catfish
 NameLoc=1116421
 Type=tFish
-Can=CanIStack|CanIStack
+Can=CanIStack|CanIFlip
 Weight=10
+Resources=4 iRawFishSteak
 Value=2
 
 Category=Resources
-Subsection=Fish
+Subsection=Fish: Regular
 Description=Green Catfish
 
 
@@ -473,12 +544,13 @@ ID=iBarracuda
 Name=grim cisco
 NameLoc=1116428
 Type=tFish
-Can=CanIStack|CanIStack
+Can=CanIStack|CanIFlip
 Weight=10
+Resources=4 iRawFishSteak
 Value=2
 
 Category=Resources
-Subsection=Fish
+Subsection=Fish: Regular
 Description=Grim Cisco
 
 
@@ -489,10 +561,11 @@ NameLoc=1116394
 Type=tFish
 Can=CanIStack
 Weight=10
+Resources=4 iRawFishSteak
 Value=2
 
 Category=Resources
-Subsection=Fish
+Subsection=Fish: Regular
 Description=Haddock
 
 
@@ -501,12 +574,13 @@ ID=iSalmon
 Name=infernal tuna
 NameLoc=1116433
 Type=tFish
-Can=CanIStack|CanIStack
+Can=CanIStack|CanIFlip
 Weight=10
+Resources=4 iRawFishSteak
 Value=2
 
 Category=Resources
-Subsection=Fish
+Subsection=Fish: Regular
 Description=Infernal Tuna
 
 
@@ -515,12 +589,13 @@ ID=iSalmon
 Name=kokanee salmon
 NameLoc=1116423
 Type=tFish
-Can=CanIStack|CanIStack
+Can=CanIStack|CanIFlip
 Weight=10
+Resources=4 iRawFishSteak
 Value=2
 
 Category=Resources
-Subsection=Fish
+Subsection=Fish: Regular
 Description=Kokanee Salmon
 
 
@@ -531,10 +606,11 @@ NameLoc=1116435
 Type=tFish
 Can=CanIStack
 Weight=10
+Resources=4 iRawFishSteak
 Value=2
 
 Category=Resources
-Subsection=Fish
+Subsection=Fish: Regular
 Description=Lurker Fish
 
 
@@ -543,12 +619,13 @@ ID=iMahiMahi1
 Name=mahi-mahi
 NameLoc=1116401
 Type=tFish
-Can=CanIStack|CanIStack
+Can=CanIStack|CanIFlip
 Weight=10
+Resources=4 iRawFishSteak
 Value=2
 
 Category=Resources
-Subsection=Fish
+Subsection=Fish: Regular
 Description=Mahi-Mahi
 
 
@@ -559,10 +636,11 @@ NameLoc=1116430
 Type=tFish
 Can=CanIStack
 Weight=10
+Resources=4 iRawFishSteak
 Value=2
 
 Category=Resources
-Subsection=Fish
+Subsection=Fish: Regular
 Description=Orc Bass
 
 
@@ -571,12 +649,13 @@ ID=iBarracuda
 Name=pike
 NameLoc=1116414
 Type=tFish
-Can=CanIStack|CanIStack
+Can=CanIStack|CanIFlip
 Weight=10
+Resources=4 iRawFishSteak
 Value=2
 
 Category=Resources
-Subsection=Fish
+Subsection=Fish: Regular
 Description=Pike
 
 
@@ -585,12 +664,13 @@ ID=iGrouper
 Name=pumpkinseed sunfish
 NameLoc=1116412
 Type=tFish
-Can=CanIStack|CanIStack
+Can=CanIStack|CanIFlip
 Weight=10
+Resources=4 iRawFishSteak
 Value=2
 
 Category=Resources
-Subsection=Fish
+Subsection=Fish: Regular
 Description=Pumpkinseed Sunfish
 
 
@@ -599,12 +679,13 @@ ID=iSalmon
 Name=rainbow trout
 NameLoc=1116416
 Type=tFish
-Can=CanIStack|CanIStack
+Can=CanIStack|CanIFlip
 Weight=10
+Resources=4 iRawFishSteak
 Value=2
 
 Category=Resources
-Subsection=Fish
+Subsection=Fish: Regular
 Description=Rainbow Trout
 
 
@@ -613,12 +694,13 @@ ID=iSalmon
 Name=red drum
 NameLoc=1116410
 Type=tFish
-Can=CanIStack|CanIStack
+Can=CanIStack|CanIFlip
 Weight=10
+Resources=4 iRawFishSteak
 Value=2
 
 Category=Resources
-Subsection=Fish
+Subsection=Fish: Regular
 Description=Red Drum
 
 
@@ -627,12 +709,13 @@ ID=iGrouper
 Name=red grouper
 NameLoc=1116407
 Type=tFish
-Can=CanIStack|CanIStack
+Can=CanIStack|CanIFlip
 Weight=10
+Resources=4 iRawFishSteak
 Value=2
 
 Category=Resources
-Subsection=Fish
+Subsection=Fish: Regular
 Description=Red Grouper
 
 
@@ -643,10 +726,11 @@ NameLoc=1116398
 Type=tFish
 Can=CanIStack
 Weight=10
+Resources=4 iRawFishSteak
 Value=2
 
 Category=Resources
-Subsection=Fish
+Subsection=Fish: Regular
 Description=Red Snook
 
 
@@ -655,12 +739,13 @@ ID=iGrouper
 Name=redbelly bream
 NameLoc=1116418
 Type=tFish
-Can=CanIStack|CanIStack
+Can=CanIStack|CanIFlip
 Weight=10
+Resources=4 iRawFishSteak
 Value=2
 
 Category=Resources
-Subsection=Fish
+Subsection=Fish: Regular
 Description=Redbelly Bream
 
 
@@ -669,12 +754,13 @@ ID=iSalmon
 Name=shad
 NameLoc=1116403
 Type=tFish
-Can=CanIStack|CanIStack
+Can=CanIStack|CanIFlip
 Weight=10
+Resources=4 iRawFishSteak
 Value=2
 
 Category=Resources
-Subsection=Fish
+Subsection=Fish: Regular
 Description=Shad
 
 
@@ -685,10 +771,11 @@ NameLoc=1116419
 Type=tFish
 Can=CanIStack
 Weight=10
+Resources=4 iRawFishSteak
 Value=2
 
 Category=Resources
-Subsection=Fish
+Subsection=Fish: Regular
 Description=Smallmouth Bass
 
 
@@ -699,10 +786,11 @@ NameLoc=1116426
 Type=tFish
 Can=CanIStack
 Weight=10
+Resources=4 iRawFishSteak
 Value=2
 
 Category=Resources
-Subsection=Fish
+Subsection=Fish: Regular
 Description=Snaggletooth Bass
 
 
@@ -711,12 +799,13 @@ ID=iBarracuda
 Name=tarpon
 NameLoc=1116397
 Type=tFish
-Can=CanIStack|CanIStack
+Can=CanIStack|CanIFlip
 Weight=10
+Resources=4 iRawFishSteak
 Value=2
 
 Category=Resources
-Subsection=Fish
+Subsection=Fish: Regular
 Description=Tarpon
 
 
@@ -725,12 +814,13 @@ ID=iBarracuda
 Name=tormented pike
 NameLoc=1116434
 Type=tFish
-Can=CanIStack|CanIStack
+Can=CanIStack|CanIFlip
 Weight=10
+Resources=4 iRawFishSteak
 Value=2
 
 Category=Resources
-Subsection=Fish
+Subsection=Fish: Regular
 Description=Tormented Pike
 
 
@@ -741,10 +831,11 @@ NameLoc=1116420
 Type=tFish
 Can=CanIStack
 Weight=10
+Resources=4 iRawFishSteak
 Value=2
 
 Category=Resources
-Subsection=Fish
+Subsection=Fish: Regular
 Description=Uncommon Shiner
 
 
@@ -755,10 +846,11 @@ NameLoc=1116422
 Type=tFish
 Can=CanIStack
 Weight=10
+Resources=4 iRawFishSteak
 Value=2
 
 Category=Resources
-Subsection=Fish
+Subsection=Fish: Regular
 Description=Walleye
 
 
@@ -767,12 +859,13 @@ ID=iSalmon
 Name=yellow perch
 NameLoc=1116413
 Type=tFish
-Can=CanIStack|CanIStack
+Can=CanIStack|CanIFlip
 Weight=10
+Resources=4 iRawFishSteak
 Value=2
 
 Category=Resources
-Subsection=Fish
+Subsection=Fish: Regular
 Description=Yellow Perch
 
 
@@ -781,13 +874,494 @@ ID=iBarracuda
 Name=yellowfin tuna
 NameLoc=1116404
 Type=tFish
-Can=CanIStack|CanIStack
+Can=CanIStack|CanIFlip
 Weight=10
+Resources=4 iRawFishSteak
 Value=2
 
 Category=Resources
-Subsection=Fish
+Subsection=Fish: Regular
 Description=Yellowfin Tuna
+
+
+[ItemDef iAutumnDragonfish]
+ID=iDragonfish
+Name=autumn dragonfish
+NameLoc=1116090
+Type=tFish
+Can=CanIStack|CanIFlip
+Weight=30
+Resources=4 iAutumnDragonfishSteak
+Value=2
+
+Category=Resources
+Subsection=Fish: Rare
+Description=Autumn Dragonfish
+
+On=@Create
+Color=
+
+
+[ItemDef iBullFish]
+ID=iMahiMahi1
+Name=bull fish
+NameLoc=1116095
+Type=tFish
+Can=CanIStack|CanIFlip
+Weight=30
+Resources=4 iBullFishSteak
+Value=2
+
+Category=Resources
+Subsection=Fish: Rare
+Description=Bull Fish
+
+On=@Create
+Color=
+
+
+[ItemDef iCrystalFish]
+ID=iSalmon
+Name=crystal fish
+NameLoc=1116092
+Type=tFish
+Can=CanIStack|CanIFlip
+Weight=10
+Resources=4 iCrystalFishSteak
+Value=2
+
+Category=Resources
+Subsection=Fish: Rare
+Description=Crystal Fish
+
+On=@Create
+Color=
+
+
+[ItemDef iFairySalmon]
+ID=iSalmon
+Name=fairy salmon
+NameLoc=1116089
+Type=tFish
+Can=CanIStack|CanIFlip
+Weight=10
+Resources=4 iFairySalmonSteak
+Value=2
+
+Category=Resources
+Subsection=Fish: Rare
+Description=Fairy Salmon
+
+On=@Create
+Color=
+
+
+[ItemDef iFireFish]
+ID=iGrouper
+Name=fire fish
+NameLoc=1116093
+Type=tFish
+Can=CanIStack|CanIFlip
+Weight=10
+Resources=4 iFireFishSteak
+Value=2
+
+Category=Resources
+Subsection=Fish: Rare
+Description=Fire Fish
+
+On=@Create
+Color=
+
+
+[ItemDef iGiantKoi]
+ID=iMahiMahi1
+Name=giant koi
+NameLoc=1116088
+Type=tFish
+Can=CanIStack|CanIFlip
+Weight=30
+Resources=4 iGiantKoiSteak
+Value=2
+
+Category=Resources
+Subsection=Fish: Rare
+Description=Giant Koi
+
+On=@Create
+Color=
+
+
+[ItemDef iGreatBarracuda]
+ID=iBarracuda
+Name=great barracuda
+NameLoc=1116100
+Type=tFish
+Can=CanIStack|CanIFlip
+Weight=10
+Resources=4 iGreatBarracudaSteak
+Value=2
+
+Category=Resources
+Subsection=Fish: Rare
+Description=Great Barracuda
+
+On=@Create
+Color=
+
+
+[ItemDef iHolyMackerel]
+ID=iSalmon
+Name=holy mackerel
+NameLoc=1116087
+Type=tFish
+Can=CanIStack|CanIFlip
+Weight=10
+Resources=4 iHolyMackerelSteak
+Value=2
+
+Category=Resources
+Subsection=Fish: Rare
+Description=Holy Mackerel
+
+On=@Create
+Color=
+
+
+[ItemDef iLavaFish]
+ID=iMarlin
+Name=lava fish
+NameLoc=1116096
+Type=tFish
+Can=CanIStack|CanIFlip
+Weight=30
+Resources=4 iLavaFishSteak
+Value=2
+
+Category=Resources
+Subsection=Fish: Rare
+Description=Lava Fish
+
+On=@Create
+Color=
+
+
+[ItemDef iReaperFish]
+ID=iBarracuda
+Name=reaper fish
+NameLoc=1116094
+Type=tFish
+Can=CanIStack|CanIFlip
+Weight=10
+Resources=4 iReaperFishSteak
+Value=2
+
+Category=Resources
+Subsection=Fish: Rare
+Description=Reaper Fish
+
+On=@Create
+Color=
+
+
+[ItemDef iSummerDragonfish]
+ID=iDragonfish
+Name=summer dragonfish
+NameLoc=1116091
+Type=tFish
+Can=CanIStack|CanIFlip
+Weight=30
+Resources=4 iSummerDragonfishSteak
+Value=2
+
+Category=Resources
+Subsection=Fish: Rare
+Description=Summer Dragonfish
+
+On=@Create
+Color=
+
+
+[ItemDef iUnicornFish]
+ID=iMarlin
+Name=unicorn fish
+NameLoc=1116086
+Type=tFish
+Can=CanIStack|CanIFlip
+Weight=30
+Resources=4 iUnicornFishSteak
+Value=2
+
+Category=Resources
+Subsection=Fish: Rare
+Description=Unicorn Fish
+
+On=@Create
+Color=
+
+
+[ItemDef iYellowtailBarracuda]
+ID=iBarracuda
+Name=yellowtail barracuda
+NameLoc=1116098
+Type=tFish
+Can=CanIStack|CanIFlip
+Weight=10
+Resources=4 iYellowtailBarracudaSteak
+Value=2
+
+Category=Resources
+Subsection=Fish: Rare
+Description=Yellowtail Barracuda
+
+On=@Create
+Color=
+
+
+[ItemDef iAbyssalDragonfish]
+ID=iDragonfish
+Name=abyssal dragonfish
+NameLoc=1116118
+Type=tFish
+Can=CanIStack|CanIFlip
+Weight=30
+Resources=4 iRawFishSteak
+Value=2
+
+Category=Resources
+Subsection=Fish: Legendary
+Description=Abyssal Dragonfish
+
+On=@Create
+Color=
+
+
+[ItemDef iBlackMarlin]
+ID=iMarlin
+Name=black marlin
+NameLoc=1116099
+Type=tFish
+Can=CanIStack|CanIFlip
+Weight=30
+Resources=4 iRawFishSteak
+Value=2
+
+Category=Resources
+Subsection=Fish: Legendary
+Description=Black Marlin
+
+On=@Create
+Color=
+
+
+[ItemDef iBlueMarlin]
+ID=iMarlin
+Name=blue marlin
+NameLoc=1116097
+Type=tFish
+Can=CanIStack|CanIFlip
+Weight=30
+Resources=4 iRawFishSteak
+Value=2
+
+Category=Resources
+Subsection=Fish: Legendary
+Description=Blue Marlin
+
+
+[ItemDef iDungeonPike]
+ID=iBarracuda
+Name=dungeon pike
+NameLoc=1116107
+Type=tFish
+Can=CanIStack|CanIFlip
+Weight=10
+Resources=4 iRawFishSteak
+Value=2
+
+Category=Resources
+Subsection=Fish: Legendary
+Description=Dungeon Pike
+
+On=@Create
+Color=
+
+
+[ItemDef iGiantSamuraiFish]
+ID=iGrouper
+Name=giant samurai fish
+NameLoc=1116103
+Type=tFish
+Can=CanIStack|CanIFlip
+Weight=10
+Resources=4 iRawFishSteak
+Value=2
+
+Category=Resources
+Subsection=Fish: Legendary
+Description=Giant Samurai Fish
+
+On=@Create
+Color=
+
+
+[ItemDef iGoldenTuna]
+ID=iSalmon
+Name=golden tuna
+NameLoc=1116102
+Type=tFish
+Can=CanIStack|CanIFlip
+Weight=10
+Resources=4 iRawFishSteak
+Value=2
+
+Category=Resources
+Subsection=Fish: Legendary
+Description=Goloden Tuna
+
+On=@Create
+Color=
+
+
+[ItemDef iKingfish]
+ID=iGrouper
+Name=kingfish
+NameLoc=1116085
+Type=tFish
+Can=CanIStack|CanIFlip
+Weight=10
+Resources=4 iRawFishSteak
+Value=2
+
+Category=Resources
+Subsection=Fish: Legendary
+Description=Kingfish
+
+On=@Create
+Color=
+
+
+[ItemDef iLanternFish]
+ID=iMahiMahi1
+Name=lantern fish
+NameLoc=1116106
+Type=tFish
+Can=CanIStack|CanIFlip
+Weight=30
+Resources=4 iRawFishSteak
+Value=2
+
+Category=Resources
+Subsection=Fish: Legendary
+Description=Lantern Fish
+
+On=@Create
+Color=
+
+
+[ItemDef iRainbowFish]
+ID=iSalmon
+Name=rainbow fish
+NameLoc=1116108
+Type=tFish
+Can=CanIStack|CanIFlip
+Weight=10
+Resources=4 iRawFishSteak
+Value=2
+
+Category=Resources
+Subsection=Fish: Legendary
+Description=Rainbow Fish
+
+On=@Create
+Color=
+
+
+[ItemDef iSeekerFish]
+ID=iGrouper
+Name=seeker fish
+NameLoc=1116109
+Type=tFish
+Can=CanIStack|CanIFlip
+Weight=10
+Resources=4 iRawFishSteak
+Value=2
+
+Category=Resources
+Subsection=Fish: Legendary
+Description=Seeker Fish
+
+On=@Create
+Color=
+
+
+[ItemDef iSpringDragonfish]
+ID=iDragonfish
+Name=spring dragonfish
+NameLoc=1116104
+Type=tFish
+Can=CanIStack|CanIFlip
+Weight=30
+Resources=4 iRawFishSteak
+Value=2
+
+Category=Resources
+Subsection=Fish: Legendary
+Description=Spring Dragonfish
+
+
+[ItemDef iStoneFish]
+ID=iMahiMahi1
+Name=stone fish
+NameLoc=1116110
+Type=tFish
+Can=CanIStack|CanIFlip
+Weight=10
+Resources=4 iRawFishSteak
+Value=2
+
+Category=Resources
+Subsection=Fish: Legendary
+Description=Stone Fish
+
+On=@Create
+Color=
+
+
+[ItemDef iWinterDragonfish]
+ID=iDragonfish
+Name=winter dragonfish
+NameLoc=1116105
+Type=tFish
+Can=CanIStack|CanIFlip
+Weight=30
+Resources=4 iRawFishSteak
+Value=2
+
+Category=Resources
+Subsection=Fish: Legendary
+Description=Winter Dragonfish
+
+On=@Create
+Color=
+
+
+[ItemDef iZombieFish]
+ID=iBarracuda
+Name=zombie fish
+NameLoc=1116101
+Type=tFish
+Can=CanIStack|CanIFlip
+Weight=10
+Resources=4 iRawFishSteak
+Value=2
+
+Category=Resources
+Subsection=Fish: Legendary
+Description=Zombie Fish
+
+On=@Create
+Color=
 
 
 [EOF]
