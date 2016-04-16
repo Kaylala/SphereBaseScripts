@@ -1,0 +1,2175 @@
+[ItemDef 0aa9]
+DefName=iRug1
+Name=rug
+Type=tFloor
+Can=CanIPlatform|CanIFlip
+Weight=255
+DupeList=0aaa,0aab,0aac,0aad,0aae,0aaf,0ab0,0ab1,0ab2
+
+Category=Decorations
+Subsection=Floor: Rugs
+Description=Rug 1
+
+[ItemDef 0aaa]
+DupeItem=0aa9
+
+[ItemDef 0aab]
+DupeItem=0aa9
+
+[ItemDef 0aac]
+DupeItem=0aa9
+
+[ItemDef 0aad]
+DupeItem=0aa9
+
+[ItemDef 0aae]
+DupeItem=0aa9
+
+[ItemDef 0aaf]
+DupeItem=0aa9
+
+[ItemDef 0ab0]
+DupeItem=0aa9
+
+[ItemDef 0ab1]
+DupeItem=0aa9
+
+[ItemDef 0ab2]
+DupeItem=0aa9
+
+
+[ItemDef 0ab3]
+DefName=iRug2
+Name=rug
+Type=tFloor
+Can=CanIPlatform|CanIFlip
+Weight=255
+DupeList=0ab4,0ab5,0ab6,0ab7,0ab8,0ab9,0aba,0abb,0abc
+
+Category=Decorations
+Subsection=Floor: Rugs
+Description=Rug 2
+
+[ItemDef 0ab4]
+DupeItem=0ab3
+
+[ItemDef 0ab5]
+DupeItem=0ab3
+
+[ItemDef 0ab6]
+DupeItem=0ab3
+
+[ItemDef 0ab7]
+DupeItem=0ab3
+
+[ItemDef 0ab8]
+DupeItem=0ab3
+
+[ItemDef 0ab9]
+DupeItem=0ab3
+
+[ItemDef 0aba]
+DupeItem=0ab3
+
+[ItemDef 0abb]
+DupeItem=0ab3
+
+[ItemDef 0abc]
+DupeItem=0ab3
+
+
+[ItemDef 0abd]
+DefName=iCarpet1
+Name=carpet
+Type=tFloor
+Can=CanIPlatform|CanIFlip
+Weight=255
+DupeList=0abe,0abf,0ac0,0ac1,0ac2,0ac3,0ac4,0ac5,0af6,0af7,0af8,0af9,0afa
+
+Category=Decorations
+Subsection=Floor: Carpets
+Description=Carpet 1
+
+[ItemDef 0abe]
+DupeItem=0abd
+
+[ItemDef 0abf]
+DupeItem=0abd
+
+[ItemDef 0ac0]
+DupeItem=0abd
+
+[ItemDef 0ac1]
+DupeItem=0abd
+
+[ItemDef 0ac2]
+DupeItem=0abd
+
+[ItemDef 0ac3]
+DupeItem=0abd
+
+[ItemDef 0ac4]
+DupeItem=0abd
+
+[ItemDef 0ac5]
+DupeItem=0abd
+
+
+[ItemDef 0ac6]
+DefName=iCarpet2
+Name=carpet
+Type=tFloor
+Can=CanIPlatform|CanIFlip
+Weight=255
+DupeList=0ac7,0ac8,0ac9,0aca,0acb,0acc,0acd,0ace,0acf,0ad0
+
+Category=Decorations
+Subsection=Floor: Carpets
+Description=Carpet 2
+
+[ItemDef 0ac7]
+DupeItem=0ac6
+
+[ItemDef 0ac8]
+DupeItem=0ac6
+
+[ItemDef 0ac9]
+DupeItem=0ac6
+
+[ItemDef 0aca]
+DupeItem=0ac6
+
+[ItemDef 0acb]
+DupeItem=0ac6
+
+[ItemDef 0acc]
+DupeItem=0ac6
+
+[ItemDef 0acd]
+DupeItem=0ac6
+
+[ItemDef 0ace]
+DupeItem=0ac6
+
+[ItemDef 0acf]
+DupeItem=0ac6
+
+[ItemDef 0ad0]
+DupeItem=0ac6
+
+
+[ItemDef 0ad1]
+DefName=iCarpet3
+Name=carpet
+Type=tFloor
+Can=CanIPlatform|CanIFlip
+Weight=255
+DupeList=0ad2,0ad3,0ad4,0ad5,0ad6,0ad7,0ad8,0ad9
+
+Category=Decorations
+Subsection=Floor: Carpets
+Description=Carpet 3
+
+[ItemDef 0ad2]
+DupeItem=0ad1
+
+[ItemDef 0ad3]
+DupeItem=0ad1
+
+[ItemDef 0ad4]
+DupeItem=0ad1
+
+[ItemDef 0ad5]
+DupeItem=0ad1
+
+[ItemDef 0ad6]
+DupeItem=0ad1
+
+[ItemDef 0ad7]
+DupeItem=0ad1
+
+[ItemDef 0ad8]
+DupeItem=0ad1
+
+[ItemDef 0ad9]
+DupeItem=0ad1
+
+
+[ItemDef 0ada]
+DefName=iCarpet4
+Name=carpet
+Type=tFloor
+Can=CanIPlatform|CanIFlip
+Weight=255
+DupeList=0adb,0adc,0add,0ade,0adf,0ae0,0ae1,0ae2
+
+Category=Decorations
+Subsection=Floor: Carpets
+Description=Carpet 4
+
+[ItemDef 0adb]
+DupeItem=0ada
+
+[ItemDef 0adc]
+DupeItem=0ada
+
+[ItemDef 0add]
+DupeItem=0ada
+
+[ItemDef 0ade]
+DupeItem=0ada
+
+[ItemDef 0adf]
+DupeItem=0ada
+
+[ItemDef 0ae0]
+DupeItem=0ada
+
+[ItemDef 0ae1]
+DupeItem=0ada
+
+[ItemDef 0ae2]
+DupeItem=0ada
+
+
+[ItemDef 0ae3]
+DefName=iCarpet5
+Name=carpet
+Type=tFloor
+Can=CanIPlatform|CanIFlip
+Weight=255
+DupeList=0ae4,0ae5,0ae6,0ae7,0ae8,0ae9,0aea,0aeb
+
+Category=Decorations
+Subsection=Floor: Carpets
+Description=Carpet 5
+
+[ItemDef 0ae4]
+DupeItem=0ae3
+
+[ItemDef 0ae5]
+DupeItem=0ae3
+
+[ItemDef 0ae6]
+DupeItem=0ae3
+
+[ItemDef 0ae7]
+DupeItem=0ae3
+
+[ItemDef 0ae8]
+DupeItem=0ae3
+
+[ItemDef 0ae9]
+DupeItem=0ae3
+
+[ItemDef 0aea]
+DupeItem=0ae3
+
+[ItemDef 0aeb]
+DupeItem=0ae3
+
+
+[ItemDef 0aec]
+DefName=iCarpet6
+Name=carpet
+Type=tFloor
+Can=CanIPlatform|CanIFlip
+Weight=255
+DupeList=0aed,0aee,0aef,0af0,0af1,0af2,0af3,0af4,0af5
+
+Category=Decorations
+Subsection=Floor: Carpets
+Description=Carpet 6
+
+[ItemDef 0aed]
+DupeItem=0aec
+
+[ItemDef 0aee]
+DupeItem=0aec
+
+[ItemDef 0aef]
+DupeItem=0aec
+
+[ItemDef 0af0]
+DupeItem=0aec
+
+[ItemDef 0af1]
+DupeItem=0aec
+
+[ItemDef 0af2]
+DupeItem=0aec
+
+[ItemDef 0af3]
+DupeItem=0aec
+
+[ItemDef 0af4]
+DupeItem=0aec
+
+[ItemDef 0af5]
+DupeItem=0aec
+
+[ItemDef 0af6]
+DupeItem=0abd
+
+[ItemDef 0af7]
+DupeItem=0abd
+
+[ItemDef 0af8]
+DupeItem=0abd
+
+[ItemDef 0af9]
+DupeItem=0abd
+
+[ItemDef 0afa]
+DupeItem=0abd
+
+
+[ItemDef 01098]
+DefName=iCarpet7
+Name=carpet
+Type=tFloor
+Can=CanIPlatform|CanIFlip
+Weight=255
+DupeList=01099,0109a,0109b,0109c,0109d,0109e,0109f,010a0,010a1,010a2,010a3
+
+Category=Decorations
+Subsection=Floor: Carpets
+Description=Carpet 7
+
+[ItemDef 01099]
+DupeItem=01098
+
+[ItemDef 0109a]
+DupeItem=01098
+
+[ItemDef 0109b]
+DupeItem=01098
+
+[ItemDef 0109c]
+DupeItem=01098
+
+[ItemDef 0109d]
+DupeItem=01098
+
+[ItemDef 0109e]
+DupeItem=01098
+
+[ItemDef 0109f]
+DupeItem=01098
+
+[ItemDef 010a0]
+DupeItem=01098
+
+[ItemDef 010a1]
+DupeItem=01098
+
+[ItemDef 010a2]
+DupeItem=01098
+
+[ItemDef 010a3]
+DupeItem=01098
+
+
+[ItemDef 011e2]
+DefName=iGrassMat1
+Name=grass mat
+Can=CanIPlatform|CanIFlip
+Weight=255
+DupeList=011e3
+
+Category=Decorations
+Subsection=Floor: Mats
+Description=Grass Mat
+
+[ItemDef 011e3]
+DupeItem=011e2
+
+
+[ItemDef 011e4]
+DefName=iGrassMat2
+Name=grass mat
+Can=CanIPlatform|CanIFlip
+Weight=255
+DupeList=011e5
+
+Category=Decorations
+Subsection=Floor: Mats
+Description=Grass Mat
+
+[ItemDef 011e5]
+DupeItem=011e4
+
+
+[ItemDef 011e6]
+DefName=iWovenMat1
+Can=CanIPlatform|CanIFlip
+Weight=255
+DupeList=011e7
+
+Category=Decorations
+Subsection=Floor: Mats
+Description=Woven Mat
+
+[ItemDef 011e7]
+DupeItem=011e6
+
+
+[ItemDef 011e8]
+DefName=iWovenMat2
+Can=CanIPlatform|CanIFlip
+Weight=255
+DupeList=011e9
+
+Category=Decorations
+Subsection=Floor: Mats
+Description=Woven Mat
+
+[ItemDef 011e9]
+DupeItem=011e8
+
+
+[ItemDef 01dd3]
+DefName=iRug3
+Type=tFloor
+Can=CanIPlatform|CanIFlip
+Weight=255
+DupeList=01dd4,01dd5,01dd6,01dd7,01dd8,01dd9,01dda,01ddb,01ddc,01ddd,01dde,01ddf,01de0
+
+Category=Decorations
+Subsection=Floor: Rugs
+Description=Rug 3
+
+[ItemDef 01dd4]
+DupeItem=01dd3
+
+[ItemDef 01dd5]
+DupeItem=01dd3
+
+[ItemDef 01dd6]
+DupeItem=01dd3
+
+[ItemDef 01dd7]
+DupeItem=01dd3
+
+[ItemDef 01dd8]
+DupeItem=01dd3
+
+[ItemDef 01dd9]
+DupeItem=01dd3
+
+[ItemDef 01dda]
+DupeItem=01dd3
+
+[ItemDef 01ddb]
+DupeItem=01dd3
+
+[ItemDef 01ddc]
+DupeItem=01dd3
+
+[ItemDef 01ddd]
+DupeItem=01dd3
+
+[ItemDef 01dde]
+DupeItem=01dd3
+
+[ItemDef 01ddf]
+DupeItem=01dd3
+
+[ItemDef 01de0]
+DupeItem=01dd3
+
+
+[ItemDef 01de1]
+DefName=iRug4
+Type=tFloor
+Can=CanIPlatform|CanIFlip
+Weight=255
+DupeList=01de2,01de3,01de4,01de5,01de6,01de7,01de8,01de9,01dea,01deb,01dec,01ded,01dee
+
+Category=Decorations
+Subsection=Floor: Rugs
+Description=Rug 4
+
+[ItemDef 01de2]
+DupeItem=01de1
+
+[ItemDef 01de3]
+DupeItem=01de1
+
+[ItemDef 01de4]
+DupeItem=01de1
+
+[ItemDef 01de5]
+DupeItem=01de1
+
+[ItemDef 01de6]
+DupeItem=01de1
+
+[ItemDef 01de7]
+DupeItem=01de1
+
+[ItemDef 01de8]
+DupeItem=01de1
+
+[ItemDef 01de9]
+DupeItem=01de1
+
+[ItemDef 01dea]
+DupeItem=01de1
+
+[ItemDef 01deb]
+DupeItem=01de1
+
+[ItemDef 01dec]
+DupeItem=01de1
+
+[ItemDef 01ded]
+DupeItem=01de1
+
+[ItemDef 01dee]
+DupeItem=01de1
+
+
+[ItemDef 01def]
+DefName=iRug5
+Type=tFloor
+Can=CanIPlatform|CanIFlip
+DupeList=01df0,01df1,01df2,01df3,01df4,01df5,01df6,01df7,01df8,01df9,01dfa,01dfb,01dfc
+
+Category=Decorations
+Subsection=Floor: Rugs
+Description=Rug 5
+
+[ItemDef 01df0]
+DupeItem=01def
+
+[ItemDef 01df1]
+DupeItem=01def
+
+[ItemDef 01df2]
+DupeItem=01def
+
+[ItemDef 01df3]
+DupeItem=01def
+
+[ItemDef 01df4]
+DupeItem=01def
+
+[ItemDef 01df5]
+DupeItem=01def
+
+[ItemDef 01df6]
+DupeItem=01def
+
+[ItemDef 01df7]
+DupeItem=01def
+
+[ItemDef 01df8]
+DupeItem=01def
+
+[ItemDef 01df9]
+DupeItem=01def
+
+[ItemDef 01dfa]
+DupeItem=01def
+
+[ItemDef 01dfb]
+DupeItem=01def
+
+[ItemDef 01dfc]
+DupeItem=01def
+
+
+[ItemDef 01e36]
+DefName=iBearskinRug1
+Name=bearskin rug
+Type=tFloor
+Can=CanIPlatform|CanIFlip
+Weight=255
+DupeList=01e37,01e38,01e39,01e3a,01e3b,01e3c,01e3d,01e3e
+
+Category=Decorations
+Subsection=Floor: Rugs
+Description=Bearskin Rug (Brown Bear) (South)
+
+[ItemDef 01e37]
+DupeItem=01e36
+
+[ItemDef 01e38]
+DupeItem=01e36
+
+[ItemDef 01e39]
+DupeItem=01e36
+
+[ItemDef 01e3a]
+DupeItem=01e36
+
+[ItemDef 01e3b]
+DupeItem=01e36
+
+[ItemDef 01e3c]
+DupeItem=01e36
+
+[ItemDef 01e3d]
+DupeItem=01e36
+
+[ItemDef 01e3e]
+DupeItem=01e36
+
+
+[ItemDef 01e40]
+DefName=iBearskinRug2
+Name=bearskin rug
+Type=tFloor
+Can=CanIPlatform|CanIFlip
+Weight=255
+DupeList=01e41,01e42,01e43,01e44,01e45,01e46,01e47,01e48
+
+Category=Decorations
+Subsection=Floor: Rugs
+Description=Bearskin Rug (Brown Bear) (East)
+
+[ItemDef 01e41]
+DupeItem=01e40
+
+[ItemDef 01e42]
+DupeItem=01e40
+
+[ItemDef 01e43]
+DupeItem=01e40
+
+[ItemDef 01e44]
+DupeItem=01e40
+
+[ItemDef 01e45]
+DupeItem=01e40
+
+[ItemDef 01e46]
+DupeItem=01e40
+
+[ItemDef 01e47]
+DupeItem=01e40
+
+[ItemDef 01e48]
+DupeItem=01e40
+
+
+[ItemDef 01e49]
+DefName=iBearskinRug3
+Name=bearskin rug
+Type=tFloor
+Can=CanIPlatform|CanIFlip
+Weight=255
+DupeList=01e4a,01e4b,01e4c,01e4d,01e4e,01e4f,01e50,01e51
+
+Category=Decorations
+Subsection=Floor: Rugs
+Description=Bearskin Rug (Polar Bear) (South)
+
+[ItemDef 01e4a]
+DupeItem=01e49
+
+[ItemDef 01e4b]
+DupeItem=01e49
+
+[ItemDef 01e4c]
+DupeItem=01e49
+
+[ItemDef 01e4d]
+DupeItem=01e49
+
+[ItemDef 01e4e]
+DupeItem=01e49
+
+[ItemDef 01e4f]
+DupeItem=01e49
+
+[ItemDef 01e50]
+DupeItem=01e49
+
+[ItemDef 01e51]
+DupeItem=01e49
+
+
+[ItemDef 01e53]
+DefName=iBearskinRug4
+Name=bearskin rug
+Type=tFloor
+Can=CanIPlatform|CanIFlip
+Weight=255
+DupeList=01e54,01e55,01e56,01e57,01e58,01e59,01e5a,01e5b
+
+Category=Decorations
+Subsection=Floor: Rugs
+Description=Bearskin Rug (Polar Bear) (East)
+
+[ItemDef 01e54]
+DupeItem=01e53
+
+[ItemDef 01e55]
+DupeItem=01e53
+
+[ItemDef 01e56]
+DupeItem=01e53
+
+[ItemDef 01e57]
+DupeItem=01e53
+
+[ItemDef 01e58]
+DupeItem=01e53
+
+[ItemDef 01e59]
+DupeItem=01e53
+
+[ItemDef 01e5a]
+DupeItem=01e53
+
+[ItemDef 01e5b]
+DupeItem=01e53
+
+
+[ItemDef 02ac8]
+DefName=iBearskinRug5
+Type=tFloor
+Can=CanIPlatform|CanIFlip
+Weight=255
+DupeList=02ac9,02acd,02ace
+
+Category=Decorations
+Subsection=Floor: Rugs
+Description=Bearskin Rug Extras
+
+[ItemDef 02ac9]
+DupeItem=02ac8
+
+[ItemDef 02acd]
+DupeItem=02ac8
+
+[ItemDef 02ace]
+DupeItem=02ac8
+
+
+[ItemDef 028a4]
+DefName=iGoza1
+Name=goza
+Type=tFloor
+Can=CanIRetainColor
+SkillMake=Tailoring 550
+Resources=25 iCloth
+Material=tCloth
+DupeList=028a5
+
+Category=Decorations
+Subsection=Floor: Mats
+Description=Goza (East)
+
+[ItemDef 028A5]
+//goza mat
+DupeItem=028A4
+
+
+[ItemDef 028a6]
+DefName=iGoza2
+Name=goza
+Type=tFloor
+Can=CanIRetainColor
+SkillMake=Tailoring 550
+Resources=25 iCloth
+Material=tCloth
+DupeList=028a7
+
+Category=Decorations
+Subsection=Floor: Mats
+Description=Goza (South)
+
+[ItemDef 028A7]
+//goza mat
+DupeItem=028A6
+
+
+[ItemDef 028A8]
+DefName=iSquareGoza
+Name=square goza
+Type=tFloor
+Can=CanIRetainColor
+SkillMake=Tailoring 550
+Resources=25 iCloth
+Material=tCloth
+DupeList=028a9
+
+Category=Decorations
+Subsection=Floor: Mats
+Description=Square Goza
+
+[ItemDef 028A9]
+//goza mat
+DupeItem=028A8
+
+
+[ItemDef 028AA]
+DefName=iBrocadeGoza1
+Name=brocade goza
+Type=tFloor
+Can=CanIRetainColor
+SkillMake=Tailoring 550
+Resources=25 iCloth
+Material=tCloth
+DupeList=028ab
+
+Category=Decorations
+Subsection=Floor: Mats
+Description=Brocade Goza (East)
+
+[ItemDef 028AA]
+//goza mat
+DupeItem=028AB
+
+
+[ItemDef 028AC]
+DefName=iBrocadeGoza2
+Name=brocade goza
+Type=tFloor
+Can=CanIRetainColor
+SkillMake=Tailoring 550
+Resources=25 iCloth
+Material=tCloth
+DupeList=028ad
+
+Category=Decorations
+Subsection=Floor: Mats
+Description=Brocade Goza(South)
+
+[ItemDef 028AD]
+//goza mat
+DupeItem=028AC
+
+
+[ItemDef 028AE]
+DefName=iSquareBrocadeGoza
+Name=square brocade goza
+Type=tFloor
+Can=CanIRetainColor
+SkillMake=Tailoring 550
+Resources=25 iCloth
+Material=tCloth
+DupeList=028AF
+
+Category=Decorations
+Subsection=Floor: Mats
+Description=Square Brocade Goza
+
+[ItemDef 028AF]
+//goza mat
+DupeItem=028AE
+
+
+[ItemDef 029C0]
+DefName=iGozaMat
+Name=goza mat
+Type=tFloor
+Weight=255
+DupeList=029c1,029c2,029c3,029c4,029c5,029c6,029c7,029c8,029c9,029d6,029d7,029d8,029d9,029da,029db,02a21,02a22,02a23,02a24,02a25,02a26,02a27,02a28,02a29,02a3c,02a3d,02a3e,02a3f,02a40,02a41,02a42,02a43,02a44
+
+Category=Decorations
+Subsection=Floor: Mats
+Description=Square Brocade Goza
+
+[ItemDef 029c1]
+DupeItem=028C0
+
+[ItemDef 029c2]
+DupeItem=028C0
+
+[ItemDef 029c3]
+DupeItem=028C0
+
+[ItemDef 029c4]
+DupeItem=028C0
+
+[ItemDef 029c5]
+DupeItem=028C0
+
+[ItemDef 029c6]
+DupeItem=028C0
+
+[ItemDef 029c7]
+DupeItem=028C0
+
+[ItemDef 029c8]
+DupeItem=028C0
+
+[ItemDef 029c9]
+DupeItem=028C0
+
+[ItemDef 029ca]
+DupeItem=028C0
+
+[ItemDef 029d6]
+DupeItem=028C0
+
+[ItemDef 029d7]
+DupeItem=028C0
+
+[ItemDef 029d8]
+DupeItem=028C0
+
+[ItemDef 029d9]
+DupeItem=028C0
+
+[ItemDef 029da]
+DupeItem=028C0
+
+[ItemDef 029db]
+DupeItem=028C0
+
+[ItemDef 02a21]
+DupeItem=028C0
+
+[ItemDef 02a22]
+DupeItem=028C0
+
+[ItemDef 02a23]
+DupeItem=028C0
+
+[ItemDef 02a24]
+DupeItem=028C0
+
+[ItemDef 02a25]
+DupeItem=028C0
+
+[ItemDef 02a26]
+DupeItem=028C0
+
+[ItemDef 02a27]
+DupeItem=028C0
+
+[ItemDef 02a28]
+DupeItem=028C0
+
+[ItemDef 02a29]
+DupeItem=028C0
+
+[ItemDef 02a3c]
+DupeItem=028C0
+
+[ItemDef 02a3d]
+DupeItem=028C0
+
+[ItemDef 02a3e]
+DupeItem=028C0
+
+[ItemDef 02a3f]
+DupeItem=028C0
+
+[ItemDef 02a40]
+DupeItem=028C0
+
+[ItemDef 02a41]
+DupeItem=028C0
+
+[ItemDef 02a42]
+DupeItem=028C0
+
+[ItemDef 02a43]
+DupeItem=028C0
+
+[ItemDef 02a44]
+DupeItem=028C0
+
+
+[ItemDef 029CA]
+DefName=iTatamiMat
+Type=tFloor
+Weight=255
+DupeList=029cb,029cc,029cd,029ce,029cf,029d0,029d1,029d2,029d3,029d4,029d5,02a1d,02a1e,02a1f,02a20
+
+Category=Decorations
+Subsection=Floor: Mats
+Description=Tatami Mat
+
+[ItemDef 029cb]
+DupeItem=028CA
+
+[ItemDef 029cc]
+DupeItem=028CA
+
+[ItemDef 029cd]
+DupeItem=028CA
+
+[ItemDef 029ce]
+DupeItem=028CA
+
+[ItemDef 029cf]
+DupeItem=028CA
+
+[ItemDef 029d0]
+DupeItem=028CA
+
+[ItemDef 029d1]
+DupeItem=028CA
+
+[ItemDef 029d2]
+DupeItem=028CA
+
+[ItemDef 029d3]
+DupeItem=028CA
+
+[ItemDef 029d4]
+DupeItem=028CA
+
+[ItemDef 029d5]
+DupeItem=028CA
+
+[ItemDef 02a1d]
+DupeItem=028CA
+
+[ItemDef 02a1e]
+DupeItem=028CA
+
+[ItemDef 02a1f]
+DupeItem=028CA
+
+[ItemDef 02a20]
+DupeItem=028CA
+
+
+[ItemDef 047da]
+DefName=iWelcomeMat1
+Name=welcome mat
+Type=tNormal
+Can=CanIFlip|CanIDye
+DupeList=047db
+
+Category=Decorations
+Subsection=Floor: Mats
+Description=Welcome Mat
+
+[ItemDef 047db]
+//welcome mat
+DupeItem=047da
+
+
+[ItemDef 04ab4]
+DefName=iWelcomeMat2
+Name=welcome mat
+Type=tNormal
+Can=CanIFlip|CanIDye
+DupeList=04ab5
+
+Category=Decorations
+Subsection=Floor: Mats
+Description=Welcome Mat (South)
+
+[ItemDef 04ab5]
+//welcome mat (multi-part)
+DupeItem=04ab4
+
+
+[ItemDef 04ab6]
+DefName=iWelcomeMat3
+Name=welcome mat
+Type=tNormal
+Can=CanIFlip|CanIDye
+DupeList=04ab7
+
+Category=Decorations
+Subsection=Floor: Mats
+Description=Welcome Mat (East)
+
+[ItemDef 04ab7]
+//welcome mat (multi-part)
+DupeItem=04ab6
+
+
+[ItemDef 03869]
+DefName=iLargeSkullRug1
+Name=skull rug
+NameLoc=1034588        // Blank
+TypeDef=tNormal
+Can=CanIFlip
+DupeList=0386A,0386B,0386C,0386D,0386E,0386F,03870,03871,03872,03873,03874,03875?,03876,03877,03878,03879,0387A,0387B,0387C,0387D,0387E,0387F,03880,03881,03882,0?3883,03884
+
+Category=Decorations
+Subsection=Floor: Rugs
+Description=Large Skull Rug (South)
+
+[ItemDef 0386A]
+DupeItem=03869
+
+[ItemDef 0386B]
+DupeItem=03869
+
+[ItemDef 0386C]
+DupeItem=03869
+
+[ItemDef 0386D]
+DupeItem=03869
+
+[ItemDef 0386E]
+DupeItem=03869
+
+[ItemDef 0386F]
+DupeItem=03869
+
+[ItemDef 03870]
+DupeItem=03869
+
+[ItemDef 03871]
+DupeItem=03869
+
+[ItemDef 03872]
+DupeItem=03869
+
+[ItemDef 03873]
+DupeItem=03869
+
+[ItemDef 03874]
+DupeItem=03869
+
+[ItemDef 03875]
+DupeItem=03869
+
+[ItemDef 03876]
+DupeItem=03869
+
+[ItemDef 03877]
+DupeItem=03869
+
+[ItemDef 03878]
+DupeItem=03869
+
+[ItemDef 03879]
+DupeItem=03869
+
+[ItemDef 0387A]
+DupeItem=03869
+
+[ItemDef 0387B]
+DupeItem=03869
+
+[ItemDef 0387C]
+DupeItem=03869
+
+[ItemDef 0387D]
+DupeItem=03869
+
+[ItemDef 0387E]
+DupeItem=03869
+
+[ItemDef 0387F]
+DupeItem=03869
+
+[ItemDef 03880]
+DupeItem=03869
+
+[ItemDef 03881]
+DupeItem=03869
+
+[ItemDef 03882]
+DupeItem=03869
+
+[ItemDef 03883]
+DupeItem=03869
+
+[ItemDef 03884]
+DupeItem=03869
+
+
+[ItemDef 03885]
+DefName=iLargeSkullRug2
+Name=skull rug
+NameLoc=1034589        // Blank
+TypeDef=tNormal
+Can=CanIFlip
+DupeList=03886,03887,03888,03889,0388A,0388B,0388C,0388D,0388E,0388F,03890,03891?,03892,03893,03894,03895,03896,03897,03898,03899,0389A,0389B,0389C,0389D,0389E,0?389F,038A0
+
+Category=Decorations
+Subsection=Floor: Rugs
+Description=Large Skull Rug (East)
+
+[ItemDef 03886]
+DupeItem=03885
+
+[ItemDef 03887]
+DupeItem=03885
+
+[ItemDef 03888]
+DupeItem=03885
+
+[ItemDef 03889]
+DupeItem=03885
+
+[ItemDef 0388A]
+DupeItem=03885
+
+[ItemDef 0388B]
+DupeItem=03885
+
+[ItemDef 0388C]
+DupeItem=03885
+
+[ItemDef 0388D]
+DupeItem=03885
+
+[ItemDef 0388E]
+DupeItem=03885
+
+[ItemDef 0388F]
+DupeItem=03885
+
+[ItemDef 03890]
+DupeItem=03885
+
+[ItemDef 03891]
+DupeItem=03885
+
+[ItemDef 03892]
+DupeItem=03885
+
+[ItemDef 03893]
+DupeItem=03885
+
+[ItemDef 03894]
+DupeItem=03885
+
+[ItemDef 03895]
+DupeItem=03885
+
+[ItemDef 03896]
+DupeItem=03885
+
+[ItemDef 03897]
+DupeItem=03885
+
+[ItemDef 03898]
+DupeItem=03885
+
+[ItemDef 03899]
+DupeItem=03885
+
+[ItemDef 0389A]
+DupeItem=03885
+
+[ItemDef 0389B]
+DupeItem=03885
+
+[ItemDef 0389C]
+DupeItem=03885
+
+[ItemDef 0389D]
+DupeItem=03885
+
+[ItemDef 0389E]
+DupeItem=03885
+
+[ItemDef 0389F]
+DupeItem=03885
+
+[ItemDef 038A0]
+DupeItem=03885
+
+
+[ItemDef 038A1]
+DefName=iLargeRoseRug1
+Name=rose rug
+NameLoc=1034590        // Blank
+TypeDef=tNormal
+Can=CanIFlip
+DupeList=038A2,038A3,038A4,038A5,038A6,038A7,038A8,038A9,038AA,038AB,038AC,038AD?,038AE,038AF,038B0,038B1,038B2,038B3,038B4,038B5,038B6,038B7,038B8,038B9,038BA,0?38BB,038BC
+
+Category=Decorations
+Subsection=Floor: Rugs
+Description=Large Rose Rug (South)
+
+[ItemDef 038A2]
+DupeItem=038A1
+
+[ItemDef 038A3]
+DupeItem=038A1
+
+[ItemDef 038A4]
+DupeItem=038A1
+
+[ItemDef 038A5]
+DupeItem=038A1
+
+[ItemDef 038A6]
+DupeItem=038A1
+
+[ItemDef 038A7]
+DupeItem=038A1
+
+[ItemDef 038A8]
+DupeItem=038A1
+
+[ItemDef 038A9]
+DupeItem=038A1
+
+[ItemDef 038AA]
+DupeItem=038A1
+
+[ItemDef 038AB]
+DupeItem=038A1
+
+[ItemDef 038AC]
+DupeItem=038A1
+
+[ItemDef 038AD]
+DupeItem=038A1
+
+[ItemDef 038AE]
+DupeItem=038A1
+
+[ItemDef 038AF]
+DupeItem=038A1
+
+[ItemDef 038B0]
+DupeItem=038A1
+
+[ItemDef 038B1]
+DupeItem=038A1
+
+[ItemDef 038B2]
+DupeItem=038A1
+
+[ItemDef 038B3]
+DupeItem=038A1
+
+[ItemDef 038B4]
+DupeItem=038A1
+
+[ItemDef 038B5]
+DupeItem=038A1
+
+[ItemDef 038B6]
+DupeItem=038A1
+
+[ItemDef 038B7]
+DupeItem=038A1
+
+[ItemDef 038B8]
+DupeItem=038A1
+
+[ItemDef 038B9]
+DupeItem=038A1
+
+[ItemDef 038BA]
+DupeItem=038A1
+
+[ItemDef 038BB]
+DupeItem=038A1
+
+[ItemDef 038BC]
+DupeItem=038A1
+
+
+[ItemDef 038BD]
+DefName=iLargeRoseRug2
+Name=rose rug
+NameLoc=1034591        // Blank
+TypeDef=tNormal
+Can=CanIFlip
+DupeList=038BE,038BF,038C0,038C1,038C2,038C3,038C4,038C5,038C6,038C7,038C8,038C9?,038CA,038CB,038CC,038CD,038CE,038CF,038D0,038D1,038D2,038D3,038D4,038D5,038D6,0?38D7,038D8
+
+Category=Decorations
+Subsection=Floor: Rugs
+Description=Large Rose Rug (East)
+
+[ItemDef 038BE]
+DupeItem=038BD
+
+[ItemDef 038BF]
+DupeItem=038BD
+
+[ItemDef 038C0]
+DupeItem=038BD
+
+[ItemDef 038C1]
+DupeItem=038BD
+
+[ItemDef 038C2]
+DupeItem=038BD
+
+[ItemDef 038C3]
+DupeItem=038BD
+
+[ItemDef 038C4]
+DupeItem=038BD
+
+[ItemDef 038C5]
+DupeItem=038BD
+
+[ItemDef 038C6]
+DupeItem=038BD
+
+[ItemDef 038C7]
+DupeItem=038BD
+
+[ItemDef 038C8]
+DupeItem=038BD
+
+[ItemDef 038C9]
+DupeItem=038BD
+
+[ItemDef 038CA]
+DupeItem=038BD
+
+[ItemDef 038CB]
+DupeItem=038BD
+
+[ItemDef 038CC]
+DupeItem=038BD
+
+[ItemDef 038CD]
+DupeItem=038BD
+
+[ItemDef 038CE]
+DupeItem=038BD
+
+[ItemDef 038CF]
+DupeItem=038BD
+
+[ItemDef 038D0]
+DupeItem=038BD
+
+[ItemDef 038D1]
+DupeItem=038BD
+
+[ItemDef 038D2]
+DupeItem=038BD
+
+[ItemDef 038D3]
+DupeItem=038BD
+
+[ItemDef 038D4]
+DupeItem=038BD
+
+[ItemDef 038D5]
+DupeItem=038BD
+
+[ItemDef 038D6]
+DupeItem=038BD
+
+[ItemDef 038D7]
+DupeItem=038BD
+
+[ItemDef 038D8]
+DupeItem=038BD
+
+
+[ItemDef 038D9]
+DefName=iLargeDolphinRug1
+Name=dolphin rug
+NameLoc=1034592        // Blank
+TypeDef=tNormal
+Can=CanIFlip
+DupeList=038DA,038DB,038DC,038DD,038DE,038DF,038E0,038E1,038E2,038E3,038E4,038E5?,038E6,038E7,038E8,038E9,038EA,038EB,038EC,038ED,038EE,038EF,038F0,038F1,038F2,0?38F3,038F4
+
+Category=Decorations
+Subsection=Floor: Rugs
+Description=Large Dolphin Rug (South)
+
+[ItemDef 038DA]
+DupeItem=038D9
+
+[ItemDef 038DB]
+DupeItem=038D9
+
+[ItemDef 038DC]
+DupeItem=038D9
+
+[ItemDef 038DD]
+DupeItem=038D9
+
+[ItemDef 038DE]
+DupeItem=038D9
+
+[ItemDef 038DF]
+DupeItem=038D9
+
+[ItemDef 038E0]
+DupeItem=038D9
+
+[ItemDef 038E1]
+DupeItem=038D9
+
+[ItemDef 038E2]
+DupeItem=038D9
+
+[ItemDef 038E3]
+DupeItem=038D9
+
+[ItemDef 038E4]
+DupeItem=038D9
+
+[ItemDef 038E5]
+DupeItem=038D9
+
+[ItemDef 038E6]
+DupeItem=038D9
+
+[ItemDef 038E7]
+DupeItem=038D9
+
+[ItemDef 038E8]
+DupeItem=038D9
+
+[ItemDef 038E9]
+DupeItem=038D9
+
+[ItemDef 038EA]
+DupeItem=038D9
+
+[ItemDef 038EB]
+DupeItem=038D9
+
+[ItemDef 038EC]
+DupeItem=038D9
+
+[ItemDef 038ED]
+DupeItem=038D9
+
+[ItemDef 038EE]
+DupeItem=038D9
+
+[ItemDef 038EF]
+DupeItem=038D9
+
+[ItemDef 038F0]
+DupeItem=038D9
+
+[ItemDef 038F1]
+DupeItem=038D9
+
+[ItemDef 038F2]
+DupeItem=038D9
+
+[ItemDef 038F3]
+DupeItem=038D9
+
+[ItemDef 038F4]
+DupeItem=038D9
+
+[ItemDef 038F5]
+DefName=iLargeDolphinRug2
+Name=dolphin rug
+NameLoc=1034593        // Blank
+TypeDef=tNormal
+Can=CanIFlip
+DupeList=038F6,038F7,038F8,038F9,038FA,038FB,038FC,038FD,038FE,038FF,03900,03901?,03902,03903,03904,03905,03906,03907,03908,03909,0390A,0390B,0390C,0390D,0390E,0?390F,03910
+
+Category=Decorations
+Subsection=Floor: Rugs
+Description=Large Dolphin Rug (East)
+
+[ItemDef 038F6]
+DupeItem=038F4
+
+[ItemDef 038F7]
+DupeItem=038F4
+
+[ItemDef 038F8]
+DupeItem=038F4
+
+[ItemDef 038F9]
+DupeItem=038F4
+
+[ItemDef 038FA]
+DupeItem=038F4
+
+[ItemDef 038FB]
+DupeItem=038F4
+
+[ItemDef 038FC]
+DupeItem=038F4
+
+[ItemDef 038FD]
+DupeItem=038F4
+
+[ItemDef 038FE]
+DupeItem=038F4
+
+[ItemDef 038FF]
+DupeItem=038F4
+
+[ItemDef 03900]
+DupeItem=038F4
+
+[ItemDef 03901]
+DupeItem=038F4
+
+[ItemDef 03902]
+DupeItem=038F4
+
+[ItemDef 03903]
+DupeItem=038F4
+
+[ItemDef 03904]
+DupeItem=038F4
+
+[ItemDef 03905]
+DupeItem=038F4
+
+[ItemDef 03906]
+DupeItem=038F4
+
+[ItemDef 03907]
+DupeItem=038F4
+
+[ItemDef 03908]
+DupeItem=038F4
+
+[ItemDef 03909]
+DupeItem=038F4
+
+[ItemDef 0390A]
+DupeItem=038F4
+
+[ItemDef 0390B]
+DupeItem=038F4
+
+[ItemDef 0390C]
+DupeItem=038F4
+
+[ItemDef 0390D]
+DupeItem=038F4
+
+[ItemDef 0390E]
+DupeItem=038F4
+
+[ItemDef 0390F]
+DupeItem=038F4
+
+[ItemDef 03910]
+DupeItem=038F4
+
+
+[ItemDef 04707]
+DefName=iSmallSkullRug1
+Name=skull rug
+NameLoc=1034594        // Blank
+TypeDef=tNormal
+Can=CanIFlip
+DupeList=04708,04709,0470A,0470B,0470C,0470D,0470E,0470F,04710,04711,04712,04713?,04714,04715
+
+Category=Decorations
+Subsection=Floor: Rugs
+Description=Small Skull Rug (South)
+
+[ItemDef 04708]
+DupeItem=04707
+
+[ItemDef 04709]
+DupeItem=04707
+
+[ItemDef 0470A]
+DupeItem=04707
+
+[ItemDef 0470B]
+DupeItem=04707
+
+[ItemDef 0470C]
+DupeItem=04707
+
+[ItemDef 0470D]
+DupeItem=04707
+
+[ItemDef 0470E]
+DupeItem=04707
+
+[ItemDef 0470F]
+DupeItem=04707
+
+[ItemDef 04710]
+DupeItem=04707
+
+[ItemDef 04711]
+DupeItem=04707
+
+[ItemDef 04712]
+DupeItem=04707
+
+[ItemDef 04713]
+DupeItem=04707
+
+[ItemDef 04714]
+DupeItem=04707
+
+[ItemDef 04715]
+DupeItem=04707
+
+
+[ItemDef 04716]
+DefName=iSmallSkullRug2
+Name=skull rug
+NameLoc=1034595        // Blank
+TypeDef=tNormal
+Can=CanIFlip
+DupeList=04717,04718,04721,04722,04723,0473C,0473D,0473E,0473F,04740,04741,04742?,04743,04744
+
+Category=Decorations
+Subsection=Floor: Rugs
+Description=Small Skull Rug (South)
+
+[ItemDef 004717]
+DupeItem=04716
+
+[ItemDef 04718]
+DupeItem=04716
+
+[ItemDef 04721]
+DupeItem=04716
+
+[ItemDef 04722]
+DupeItem=04716
+
+[ItemDef 04723]
+DupeItem=04716
+
+[ItemDef 0473C]
+DupeItem=04716
+
+[ItemDef 0473D]
+DupeItem=04716
+
+[ItemDef 0473E]
+DupeItem=04716
+
+[ItemDef 0473F]
+DupeItem=04716
+
+[ItemDef 04740]
+DupeItem=04716
+
+[ItemDef 04741]
+DupeItem=04716
+
+[ItemDef 04742]
+DupeItem=04716
+
+[ItemDef 04743]
+DupeItem=04716
+
+[ItemDef 04744]
+DupeItem=04716
+
+
+[ItemDef 04745]
+DefName=iSmallRoseRug1
+Name=rose rug
+NameLoc=1034596        // Blank
+TypeDef=tNormal
+Can=CanIFlip
+DupeList=04746,04747,04748,04749,0474A,0474B,0474C,0474D,0474E,0474F,04750,04751?,04752,04753
+
+Category=Decorations
+Subsection=Floor: Rugs
+Description=Small Rose Rug (East)
+
+[ItemDef 04746]
+DupeItem=04745
+
+[ItemDef 04747]
+DupeItem=04745
+
+[ItemDef 04748]
+DupeItem=04745
+
+[ItemDef 04749]
+DupeItem=04745
+
+[ItemDef 0474A]
+DupeItem=04745
+
+[ItemDef 0474B]
+DupeItem=04745
+
+[ItemDef 0474C]
+DupeItem=04745
+
+[ItemDef 0474D]
+DupeItem=04745
+
+[ItemDef 0474E]
+DupeItem=04745
+
+[ItemDef 0474F]
+DupeItem=04745
+
+[ItemDef 04750]
+DupeItem=04745
+
+[ItemDef 04751]
+DupeItem=04745
+
+[ItemDef 04752]
+DupeItem=04745
+
+[ItemDef 04753]
+DupeItem=04745
+
+
+[ItemDef 04754]
+DefName=iSmallRoseRug2
+Name=rose rug
+NameLoc=1034597        // Blank
+TypeDef=tNormal
+Can=CanIFlip
+DupeList=04755,04756,04757,04758,04759,0475A,0475B,0475C,0475D,0475E,0475F,04760?,04761,04762
+
+Category=Decorations
+Subsection=Floor: Rugs
+Description=Small Rose Rug (South)
+
+[ItemDef 04755]
+DupeItem=04754
+
+[ItemDef 04756]
+DupeItem=04754
+
+[ItemDef 04757]
+DupeItem=04754
+
+[ItemDef 04758]
+DupeItem=04754
+
+[ItemDef 04759]
+DupeItem=04754
+
+[ItemDef 0475A]
+DupeItem=04754
+
+[ItemDef 0475B]
+DupeItem=04754
+
+[ItemDef 0475C]
+DupeItem=04754
+
+[ItemDef 0475D]
+DupeItem=04754
+
+[ItemDef 0475E]
+DupeItem=04754
+
+[ItemDef 0475F]
+DupeItem=04754
+
+[ItemDef 04760]
+DupeItem=04754
+
+[ItemDef 04761]
+DupeItem=04754
+
+[ItemDef 04762]
+DupeItem=04754
+
+
+[ItemDef 04763]
+DefName=iSmallDolphinRug1
+Name=dolphin rug
+NameLoc=1034598        // Blank
+TypeDef=tNormal
+Can=CanIFlip
+DupeList=04764,04765,04766,04767,04768,04769,0476A,0476B,0476C,0476D,0476E,0476F?,04770,04771
+
+Category=Decorations
+Subsection=Floor: Rugs
+Description=Small Dolphin Rug (East)
+
+[ItemDef 04764]
+DupeItem=04763
+
+[ItemDef 04765]
+DupeItem=04763
+
+[ItemDef 04766]
+DupeItem=04763
+
+[ItemDef 04767]
+DupeItem=04763
+
+[ItemDef 04768]
+DupeItem=04763
+
+[ItemDef 04769]
+DupeItem=04763
+
+[ItemDef 0476A]
+DupeItem=04763
+
+[ItemDef 0476B]
+DupeItem=04763
+
+[ItemDef 0476C]
+DupeItem=04763
+
+[ItemDef 0476D]
+DupeItem=04763
+
+[ItemDef 0476E]
+DupeItem=04763
+
+[ItemDef 0476F]
+DupeItem=04763
+
+[ItemDef 04770]
+DupeItem=04763
+
+[ItemDef 04771]
+DupeItem=04763
+
+
+[ItemDef 04772]
+DefName=iSmallDolphinRug2
+Name=dolphin rug
+NameLoc=1034599        // Blank
+TypeDef=tNormal
+Can=CanIFlip
+DupeList=04773,04774,04775,04776,04777,04778,04779,0477A,0477B,0477C,047D6,047D7?,047D8,047D9
+
+Category=Decorations
+Subsection=Floor: Rugs
+Description=Small Dolphin Rug (South)
+
+[ItemDef 04773]
+DupeItem=04772
+
+[ItemDef 04774]
+DupeItem=04772
+
+[ItemDef 04775]
+DupeItem=04772
+
+[ItemDef 04776]
+DupeItem=04772
+
+[ItemDef 04777]
+DupeItem=04772
+
+[ItemDef 04778]
+DupeItem=04772
+
+[ItemDef 04779]
+DupeItem=04772
+
+[ItemDef 0477A]
+DupeItem=04772
+
+[ItemDef 0477B]
+DupeItem=04772
+
+[ItemDef 0477C]
+DupeItem=04772
+
+[ItemDef 047D6]
+DupeItem=04772
+
+[ItemDef 047D7]
+DupeItem=04772
+
+[ItemDef 047D8]
+DupeItem=04772
+
+[ItemDef 047D9]
+DupeItem=04772
+
+
+[ItemDef 09C73]
+DefName=iOrangeTigerRug1
+Name=Tiger Pelt Rug
+NameLoc=1124075
+Type=tNormal
+Can=CanIFlip
+DupeList=09C74,09C75,09C76,09C77,09C78
+
+Category=Decorations
+Subsection=Floor: Rugs
+Description=Orange Tiger Rug (East)
+
+[ItemDef 09C74]
+NameLoc=1124076
+DupeItem=09C73
+
+[ItemDef 09C75]
+NameLoc=1124077
+DupeItem=09C73
+
+[ItemDef 09C76]
+NameLoc=1124078
+DupeItem=09C73
+
+[ItemDef 09C77]
+NameLoc=1124079
+DupeItem=09C73
+
+[ItemDef 09C78]
+NameLoc=1124080
+DupeItem=09C73
+
+
+[ItemDef 09C79]
+DefName=iOrangeTigerRug2
+Name=Tiger Pelt Rug
+NameLoc=1124081
+Type=tNormal
+Can=CanIFlip
+DupeList=09C7A,09C7B,09C7C,09C7D,09C7E
+
+Category=Decorations
+Subsection=Floor: Rugs
+Description=Orange Tiger Rug (South)
+
+[ItemDef 09C7A]
+NameLoc=1124082
+DupeItem=09C79
+
+[ItemDef 09C7B]
+NameLoc=1124083
+DupeItem=09C79
+
+[ItemDef 09C7C]
+NameLoc=1124084
+DupeItem=09C79
+
+[ItemDef 09C7D]
+NameLoc=1124085
+DupeItem=09C79
+
+[ItemDef 09C7E]
+NameLoc=1124086
+DupeItem=09C79
+
+
+[ItemDef 09C7F]
+DefName=iBlackTigerRug1
+Name=Tiger Pelt Rug
+NameLoc=1124087
+Type=tNormal
+Can=CanIFlip
+DupeList=09C80,09C81,09C82,09C83,09C84
+
+Category=Decorations
+Subsection=Floor: Rugs
+Description=Black Tiger Rug (East)
+
+[ItemDef 09C80]
+NameLoc=1124088
+DupeItem=09C7F
+
+[ItemDef 09C81]
+NameLoc=1124089
+DupeItem=09C7F
+
+[ItemDef 09C82]
+NameLoc=1124090
+DupeItem=09C7F
+
+[ItemDef 09C83]
+NameLoc=1124091
+DupeItem=09C7F
+
+[ItemDef 09C84]
+NameLoc=1124092
+DupeItem=09C7F
+
+
+[ItemDef 09C85]
+DefName=iBlackTigerRug2
+Name=Tiger Pelt Rug
+NameLoc=1124093
+Type=tNormal
+Can=CanIFlip
+DupeList=09C86,09C87,09C88,09C89,09C8A
+
+Category=Decorations
+Subsection=Floor: Rugs
+Description=Black Tiger Rug (South)
+
+[ItemDef 09C86]
+NameLoc=1124094
+DupeItem=09C85
+
+[ItemDef 09C87]
+NameLoc=1124095
+DupeItem=09C85
+
+[ItemDef 09C88]
+NameLoc=1124096
+DupeItem=09C85
+
+[ItemDef 09C89]
+NameLoc=1124097
+DupeItem=09C85
+
+[ItemDef 09C8A]
+NameLoc=1124098
+DupeItem=09C85
+
+
+[ItemDef 09C8B]
+DefName=iWhiteTigerRug1
+Name=Tiger Pelt Rug
+NameLoc=1124099
+Type=tNormal
+Can=CanIFlip
+DupeList=09C8C,09C8D,09C8E,09C8F,09C90
+
+Category=Decorations
+Subsection=Floor: Rugs
+Description=White Tiger Rug (East)
+
+[ItemDef 09C8C]
+NameLoc=1124100
+DupeItem=09C8B
+
+[ItemDef 09C8D]
+NameLoc=1124101
+DupeItem=09C8B
+
+[ItemDef 09C8E]
+NameLoc=1124102
+DupeItem=09C8B
+
+[ItemDef 09C8F]
+NameLoc=1124103
+DupeItem=09C8B
+
+[ItemDef 09C90]
+NameLoc=1124104
+DupeItem=09C8B
+
+
+[ItemDef 09C91]
+DefName=iWhiteTigerRug2
+Name=Tiger Pelt Rug
+NameLoc=1124105
+Type=tNormal
+Can=CanIFlip
+DupeList=09C92,09C93,09C94,09C95,09C96
+
+Category=Decorations
+Subsection=Floor: Rugs
+Description=White Tiger Rug (East)
+
+[ItemDef 09C92]
+NameLoc=1124106
+DupeItem=09C91
+
+[ItemDef 09C93]
+NameLoc=1124107
+DupeItem=09C91
+
+[ItemDef 09C94]
+NameLoc=1124108
+DupeItem=09C91
+
+[ItemDef 09C95]
+NameLoc=1124109
+DupeItem=09C91
+
+[ItemDef 09C96]
+NameLoc=1124110
+DupeItem=09C91
+
+
+[EOF]

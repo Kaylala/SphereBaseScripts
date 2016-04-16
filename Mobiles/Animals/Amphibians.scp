@@ -1,0 +1,110 @@
+[CharDef 050]
+DefName=cGiantToad
+Name=giant toad
+Can=CanWalk
+MoveRate=100
+Dam=5,17
+Icon=iGiantToadIcon
+Sound=
+Resources=12 iPilesOfSpinedHides,1 iCutOfRawRibs
+FoodType=tFish
+MaxFood=35
+Aversions=0
+Desires=tFish,rSwamp
+BloodColor=0
+TEvents=AIGiantToad
+
+Category=Animals
+Subsection=Amphibians
+Description=Giant Toad
+
+On=@Create
+NPC=BrainAnimal
+FollowerSlots=1
+
+Fame=750
+Karma=-750
+Alignment=Evil
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=20,25
+ResFire=5,10
+ResCold=0
+ResPoison=0
+ResEnergy=5,10
+
+OStr={76 100}
+ODex={6 25}
+OInt={11 20}
+MaxHits={46 60}
+MaxMana=0
+
+Wrestling={400 600}
+Tactics={400 600}
+MagicResistance={250 400}
+Parrying={400 600}
+Taming=771
+
+On=@NPCRestock
+NewGold={25 50}
+
+
+[CharDef 051]
+DefName=cBullfrog
+Name=bullfrog
+Can=CanWalk
+MoveRate=100
+Dam=1,2
+Icon=iBullfrogIcon
+Sound=
+Resources=4 iPilesOfHides,1 iCutOfRawRibs
+FoodType=tFish
+MaxFood=35
+Aversions=0
+Desires=tFish,rSwamp
+BloodColor=0
+TEvents=AIBullfrog
+
+Category=Animals
+Subsection=Amphibians
+Description=Bullfrog
+
+On=@Create
+NPC=BrainAnimal
+FollowerSlots=1
+
+Fame=350
+Karma=-350
+Alignment=Evil
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=5,10
+ResFire=0
+ResCold=0
+ResPoison=0
+ResEnergy=0
+
+OStr={46 70}
+ODex={6 25}
+OInt={11 20}
+MaxHits={28 42}
+MaxMana=0
+
+Wrestling={400 600}
+Tactics={400 600}
+MagicResistance={250 400}
+Parrying={400 600}
+Taming=231
+
+On=@NPCRestock
+NewGold={25 50}

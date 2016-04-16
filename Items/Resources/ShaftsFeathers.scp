@@ -1,0 +1,14 @@
+[ItemDef 01BD1]
+DefName=iFeather
+Name=feather%s
+NameLoc=1027121
+Type=tFeather
+Can=CanIStack
+Weight=0.1
+
+Category=Resources
+Subsection=Ammunition
+Description=Feather
+
+
+[EOF]

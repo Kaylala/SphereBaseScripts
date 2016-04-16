@@ -1,5 +1,5 @@
 [ItemDef 063BE]
-DefName=iHarpsichordS
+DefName=iHarpsichord1
 Name=harpsichord
 Type=tNormal
 Can=CanIFlip
@@ -11,24 +11,20 @@ Subsection=Musician
 Description=Harpsichord (South)
 
 [ItemDef 063bf]
-//Harpsichord (multi-part)
 DupeItem=063be
 
 [ItemDef 063c0]
-//Harpsichord (multi-part)
 DupeItem=063be
 
 [ItemDef 063c1]
-//Harpsichord (multi-part)
 DupeItem=063be
 
 [ItemDef 063c2]
-//Harpsichord (multi-part)
 DupeItem=063be
 
 
 [ItemDef 063C5]
-DefName=iHarpsichordE
+DefName=iHarpsichord2
 Name=harpsichord
 Type=tNormal
 Can=CanIFlip
@@ -53,7 +49,7 @@ DupeItem=063c5
 
 
 [ItemDef 063bc]
-DefName=iHarpsichordBenchS
+DefName=iHarpsichordBench1
 Name=harpsichord bench
 Type=tChair
 Can=CanIFlip
@@ -69,7 +65,7 @@ DupeItem=063bc
 
 
 [ItemDef 063C3]
-DefName=iHarpsichordBenchE
+DefName=iHarpsichordBench2
 Name=harpsichord bench
 Type=tChair
 Can=CanIFlip

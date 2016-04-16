@@ -1,0 +1,793 @@
+[ItemDef 09cc]
+DefName=iFish1
+Name=fish
+NameLoc=1022508
+Type=tFish
+Can=CanIStack
+Weight=10
+Value=2
+
+Category=Resources
+Subsection=Fish
+Description=Fish
+
+
+[ItemDef 09cd]
+DefName=iFish2
+Name=fish
+NameLoc=1022509
+Type=tFish
+Can=CanIStack
+Weight=10
+Value=2
+
+Category=Resources
+Subsection=Fish
+Description=Fish
+
+
+[ItemDef 09ce]
+DefName=iFish3
+Name=fish
+NameLoc=1022510
+Type=tFish
+Can=CanIStack
+Weight=10
+Value=2
+
+Category=Resources
+Subsection=Fish
+Description=Fish
+
+
+[ItemDef 09cf]
+DefName=iFish4
+Name=fish
+NameLoc=1022511
+Type=tFish
+Can=CanIStack
+Weight=10
+Value=2
+
+Category=Resources
+Subsection=Fish
+Description=Fish
+
+
+[ItemDef 04302]
+DefName=iSalmon
+Name=salmon
+NameLoc=1096026
+Type=tFish
+Can=CanIFlip|CanIStack
+Weight=10
+Value=2
+DupeList=04303
+
+Category=Resources
+Subsection=Fish
+Description=Salmon
+
+[ItemDef 04303]
+NameLoc=1096027
+DupeItem=04302
+
+
+[ItemDef 04304]
+DefName=iMarlin
+Name=marlin
+NameLoc=1096028
+Type=tFish
+Can=CanIFlip|CanIStack
+Weight=30
+Value=2
+DupeList=04305
+
+Category=Resources
+Subsection=Fish
+Description=Marlin
+
+[ItemDef 04305]
+NameLoc=1096029
+DupeItem=04304
+
+
+[ItemDef 04306]
+DefName=iGrouper
+Name=grouper
+NameLoc=1096030
+Type=tFish
+Can=CanIFlip|CanIStack
+Weight=10
+Value=2
+DupeList=04307
+
+Category=Resources
+Subsection=Fish
+Description=Grouper
+
+[ItemDef 04307]
+NameLoc=1096031
+DupeItem=04306
+
+
+[ItemDef 044c3]
+DefName=iBarracuda
+Name=barracuda
+NameLoc=1096475
+Type=tFish
+Can=CanIFlip|CanIStack
+Weight=10
+Value=2
+DupeList=044c4
+
+Category=Resources
+Subsection=Fish
+Description=Barracuda
+
+[ItemDef 044c4]
+NameLoc=1096476
+DupeItem=044c3
+
+
+[ItemDef 044c5]
+DefName=iMahiMahi1
+Name=mahi-mahi
+NameLoc=1096477
+Type=tFish
+Can=CanIFlip|CanIStack
+Weight=10
+Value=2
+DupeList=044c6
+
+Category=Resources
+Subsection=Fish
+Description=Mahi-Mahi
+
+[ItemDef 044c6]
+NameLoc=1096478
+DupeItem=044c5
+
+
+[ItemDef 044e5]
+DefName=iDragonfish
+Name=dragonfish
+NameLoc=1096509
+Type=tFish
+Can=CanIFlip|CanIStack
+Weight=30
+Value=2
+DupeList=044e6
+
+Category=Resources
+Subsection=Fish
+Description=Dragonfish
+
+[ItemDef 044e6]
+NameLoc=1096510
+DupeItem=044e5
+
+
+[ItemDef iMudPuppy]
+ID=iFish1
+Name=mud puppy
+NameLoc=1095117
+Type=tFish
+Can=CanIStack
+Weight=10
+Value=2
+
+Category=Resources
+Subsection=Fish
+Description=Mud Puppy
+
+On=@Create
+Color=
+
+
+[ItemDef iRedHerring]
+ID=iFish1
+Name=red herring
+NameLoc=1095046
+Type=tFish
+Can=CanIStack
+Weight=10
+Value=2
+
+Category=Resources
+Subsection=Fish
+Description=Red Herring
+
+On=@Create
+Color=
+
+
+[ItemDef iAmberjack]
+ID=iMahiMahi1
+Name=amberjack
+NameLoc=1116402
+Type=tFish
+Can=CanIStack|CanIFlip
+Weight=10
+Value=2
+
+Category=Resources
+Subsection=Fish
+Description=Amberjack
+
+
+[ItemDef iBlackSeabass]
+ID=iFish3
+Name=black seabass
+NameLoc=1116396
+Type=tFish
+Can=CanIStack
+Weight=10
+Value=2
+
+Category=Resources
+Subsection=Fish
+Description=Black Seabass
+
+
+[ItemDef iBlueGrouper]
+ID=iGrouper
+Name=blue grouper
+NameLoc=1116411
+Type=tFish
+Can=CanIStack|CanIFlip
+Weight=10
+Value=2
+
+Category=Resources
+Subsection=Fish
+Description=Blue Grouper
+
+
+[ItemDef iBluefish]
+ID=iFish1
+Name=bluefish
+NameLoc=1116406
+Type=tFish
+Can=CanIStack
+Weight=10
+Value=2
+
+Category=Resources
+Subsection=Fish
+Description=Bluefish
+
+
+[ItemDef iBluegillSunfish]
+ID=iGrouper
+Name=bluegill sunfish
+NameLoc=1116417
+Type=tFish
+Can=CanIStack|CanIFlip
+Weight=10
+Value=2
+
+Category=Resources
+Subsection=Fish
+Description=Bluegill Sunfish
+
+
+[ItemDef iBonefish]
+ID=iBarracuda
+Name=bonefish
+NameLoc=1116409
+Type=tFish
+Can=CanIStack|CanIFlip
+Weight=10
+Value=2
+
+Category=Resources
+Subsection=Fish
+Description=Bonefish
+
+
+[ItemDef iBonito]
+ID=iSalmon
+Name=bonito
+NameLoc=1116405
+Type=tFish
+Can=CanIStack|CanIFlip
+Weight=10
+Value=2
+
+Category=Resources
+Subsection=Fish
+Description=Bonito
+
+
+[ItemDef iBrookTrout]
+ID=iFish1
+Name=brook trout
+NameLoc=1116415
+Type=tFish
+Can=CanIStack
+Weight=10
+Value=2
+
+Category=Resources
+Subsection=Fish
+Description=Brook Trout
+
+
+[ItemDef iCapeCod]
+ID=iGrouper
+Name=cape cod
+NameLoc=1116395
+Type=tFish
+Can=CanIStack|CanIStack
+Weight=10
+Value=2
+
+Category=Resources
+Subsection=Fish
+Description=Cape Cod
+
+
+[ItemDef iCaptainSnook]
+ID=iMahiMahi1
+Name=captain snook
+NameLoc=1116408
+Type=tFish
+Can=CanIStack|CanIStack
+Weight=10
+Value=2
+
+Category=Resources
+Subsection=Fish
+Description=Captain Snook
+
+
+[ItemDef iCobia]
+ID=iSalmon
+Name=cobia
+NameLoc=1116400
+Type=tFish
+Can=CanIStack|CanIStack
+Weight=10
+Value=2
+
+Category=Resources
+Subsection=Fish
+Description=Cobia
+
+
+[ItemDef iCragSnapper]
+ID=iBarracuda
+Name=crag snapper
+NameLoc=1116432
+Type=tFish
+Can=CanIStack|CanIStack
+Weight=10
+Value=2
+
+Category=Resources
+Subsection=Fish
+Description=Crag Snapper
+
+
+[ItemDef iCutthroatTrout]
+ID=iSalmon
+Name=cutthroat trout
+NameLoc=1116427
+Type=tFish
+Can=CanIStack|CanIStack
+Weight=10
+Value=2
+
+Category=Resources
+Subsection=Fish
+Description=Cutthroat Trout
+
+
+[ItemDef iDarkfish]
+ID=iGrouper
+Name=darkfish
+NameLoc=1116431
+Type=tFish
+Can=CanIStack|CanIStack
+Weight=10
+Value=2
+
+Category=Resources
+Subsection=Fish
+Description=Darkfish
+
+
+[ItemDef iDemonTrout]
+ID=iSalmon
+Name=demon trout
+NameLoc=1116425
+Type=tFish
+Can=CanIStack|CanIStack
+Weight=10
+Value=2
+
+Category=Resources
+Subsection=Fish
+Description=Demon Trout
+
+
+[ItemDef iDrakeFish]
+ID=iMahiMahi1
+Name=drake fish
+NameLoc=1116429
+Type=tFish
+Can=CanIStack|CanIStack
+Weight=10
+Value=2
+
+Category=Resources
+Subsection=Fish
+Description=Drake Fish
+
+
+[ItemDef iDungeonChub]
+ID=iGrouper
+Name=dungeon chub
+NameLoc=1116424
+Type=tFish
+Can=CanIStack|CanIStack
+Weight=10
+Value=2
+
+Category=Resources
+Subsection=Fish
+Description=Dungeon Chub
+
+
+[ItemDef iGraySnapper]
+ID=iSalmon
+Name=gray snapper
+NameLoc=1116399
+Type=tFish
+Can=CanIStack|CanIStack
+Weight=10
+Value=2
+
+Category=Resources
+Subsection=Fish
+Description=Gray Snapper
+
+
+[ItemDef iGreenCatfish]
+ID=iMahiMahi1
+Name=green catfish
+NameLoc=1116421
+Type=tFish
+Can=CanIStack|CanIStack
+Weight=10
+Value=2
+
+Category=Resources
+Subsection=Fish
+Description=Green Catfish
+
+
+[ItemDef iGrimCisco]
+ID=iBarracuda
+Name=grim cisco
+NameLoc=1116428
+Type=tFish
+Can=CanIStack|CanIStack
+Weight=10
+Value=2
+
+Category=Resources
+Subsection=Fish
+Description=Grim Cisco
+
+
+[ItemDef iHaddock]
+ID=iFish1
+Name=haddock
+NameLoc=1116394
+Type=tFish
+Can=CanIStack
+Weight=10
+Value=2
+
+Category=Resources
+Subsection=Fish
+Description=Haddock
+
+
+[ItemDef iInfernalTuna]
+ID=iSalmon
+Name=infernal tuna
+NameLoc=1116433
+Type=tFish
+Can=CanIStack|CanIStack
+Weight=10
+Value=2
+
+Category=Resources
+Subsection=Fish
+Description=Infernal Tuna
+
+
+[ItemDef iKokaneeSalmon]
+ID=iSalmon
+Name=kokanee salmon
+NameLoc=1116423
+Type=tFish
+Can=CanIStack|CanIStack
+Weight=10
+Value=2
+
+Category=Resources
+Subsection=Fish
+Description=Kokanee Salmon
+
+
+[ItemDef iLurkerFish]
+ID=iFish3
+Name=lurker fish
+NameLoc=1116435
+Type=tFish
+Can=CanIStack
+Weight=10
+Value=2
+
+Category=Resources
+Subsection=Fish
+Description=Lurker Fish
+
+
+[ItemDef iMahiMahi2]
+ID=iMahiMahi1
+Name=mahi-mahi
+NameLoc=1116401
+Type=tFish
+Can=CanIStack|CanIStack
+Weight=10
+Value=2
+
+Category=Resources
+Subsection=Fish
+Description=Mahi-Mahi
+
+
+[ItemDef iOrcBass]
+ID=iFish1
+Name=orc bass
+NameLoc=1116430
+Type=tFish
+Can=CanIStack
+Weight=10
+Value=2
+
+Category=Resources
+Subsection=Fish
+Description=Orc Bass
+
+
+[ItemDef iPike]
+ID=iBarracuda
+Name=pike
+NameLoc=1116414
+Type=tFish
+Can=CanIStack|CanIStack
+Weight=10
+Value=2
+
+Category=Resources
+Subsection=Fish
+Description=Pike
+
+
+[ItemDef iPumpkinseedSunfish]
+ID=iGrouper
+Name=pumpkinseed sunfish
+NameLoc=1116412
+Type=tFish
+Can=CanIStack|CanIStack
+Weight=10
+Value=2
+
+Category=Resources
+Subsection=Fish
+Description=Pumpkinseed Sunfish
+
+
+[ItemDef iRainbowTrout]
+ID=iSalmon
+Name=rainbow trout
+NameLoc=1116416
+Type=tFish
+Can=CanIStack|CanIStack
+Weight=10
+Value=2
+
+Category=Resources
+Subsection=Fish
+Description=Rainbow Trout
+
+
+[ItemDef iRedDrum]
+ID=iSalmon
+Name=red drum
+NameLoc=1116410
+Type=tFish
+Can=CanIStack|CanIStack
+Weight=10
+Value=2
+
+Category=Resources
+Subsection=Fish
+Description=Red Drum
+
+
+[ItemDef iRedGrouper]
+ID=iGrouper
+Name=red grouper
+NameLoc=1116407
+Type=tFish
+Can=CanIStack|CanIStack
+Weight=10
+Value=2
+
+Category=Resources
+Subsection=Fish
+Description=Red Grouper
+
+
+[ItemDef iRedSnook]
+ID=iFish2
+Name=red snook
+NameLoc=1116398
+Type=tFish
+Can=CanIStack
+Weight=10
+Value=2
+
+Category=Resources
+Subsection=Fish
+Description=Red Snook
+
+
+[ItemDef iRedbellyBream]
+ID=iGrouper
+Name=redbelly bream
+NameLoc=1116418
+Type=tFish
+Can=CanIStack|CanIStack
+Weight=10
+Value=2
+
+Category=Resources
+Subsection=Fish
+Description=Redbelly Bream
+
+
+[ItemDef iShad]
+ID=iSalmon
+Name=shad
+NameLoc=1116403
+Type=tFish
+Can=CanIStack|CanIStack
+Weight=10
+Value=2
+
+Category=Resources
+Subsection=Fish
+Description=Shad
+
+
+[ItemDef iSmallmouthBass]
+ID=iFish2
+Name=smallmouth bass
+NameLoc=1116419
+Type=tFish
+Can=CanIStack
+Weight=10
+Value=2
+
+Category=Resources
+Subsection=Fish
+Description=Smallmouth Bass
+
+
+[ItemDef iSnaggletoothBass]
+ID=iFish4
+Name=snaggletooth bass
+NameLoc=1116426
+Type=tFish
+Can=CanIStack
+Weight=10
+Value=2
+
+Category=Resources
+Subsection=Fish
+Description=Snaggletooth Bass
+
+
+[ItemDef iTarpon]
+ID=iBarracuda
+Name=tarpon
+NameLoc=1116397
+Type=tFish
+Can=CanIStack|CanIStack
+Weight=10
+Value=2
+
+Category=Resources
+Subsection=Fish
+Description=Tarpon
+
+
+[ItemDef iTormentedPike]
+ID=iBarracuda
+Name=tormented pike
+NameLoc=1116434
+Type=tFish
+Can=CanIStack|CanIStack
+Weight=10
+Value=2
+
+Category=Resources
+Subsection=Fish
+Description=Tormented Pike
+
+
+[ItemDef iUncommonShiner]
+ID=iFish3
+Name=uncommon shiner
+NameLoc=1116420
+Type=tFish
+Can=CanIStack
+Weight=10
+Value=2
+
+Category=Resources
+Subsection=Fish
+Description=Uncommon Shiner
+
+
+[ItemDef iWalleye]
+ID=iFish4
+Name=walleye
+NameLoc=1116422
+Type=tFish
+Can=CanIStack
+Weight=10
+Value=2
+
+Category=Resources
+Subsection=Fish
+Description=Walleye
+
+
+[ItemDef iYellowPerch]
+ID=iSalmon
+Name=yellow perch
+NameLoc=1116413
+Type=tFish
+Can=CanIStack|CanIStack
+Weight=10
+Value=2
+
+Category=Resources
+Subsection=Fish
+Description=Yellow Perch
+
+
+[ItemDef iYellowfinTuna]
+ID=iBarracuda
+Name=yellowfin tuna
+NameLoc=1116404
+Type=tFish
+Can=CanIStack|CanIStack
+Weight=10
+Value=2
+
+Category=Resources
+Subsection=Fish
+Description=Yellowfin Tuna
+
+
+[EOF]

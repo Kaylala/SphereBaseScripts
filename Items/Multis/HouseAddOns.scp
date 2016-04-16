@@ -8,7 +8,7 @@ Name=harpsichord
 Type=tMulti
 
 Category=Multis
-Subsection=Furniture
+Subsection=House Add-Ons
 Description=Harpsichord (South)
 
 MultiRegion=0,0,0,0
@@ -21,12 +21,12 @@ Component=063c1,1,0,0
 Component=063c2,0,0,0
 
 
-[ItemDef mHarpsichordE]
+[MultiDef mHarpsichordE]
 Name=harpsichord
 Type=tMulti
 
 Category=Multis
-Subsection=Furniture
+Subsection=House Add-Ons
 Description=Harpsichord (East)
 
 MultiRegion=0,0,0,0
@@ -42,9 +42,11 @@ Component=063c9,-1,0,0
 [MultiDef mExodusNexus]
 Name=Exodus Nexus
 Type=tMulti
+
 Category=Multis
-Subsection=Building
+Subsection=House Add-Ons
 Description=Exodus Nexus
+
 MultiRegion=0,0,0,0
 Component=04b7a,-1,-1,0
 Component=04b7f,0,-1,0
@@ -58,6 +60,86 @@ Component=04b7b,-1,1,0
 Component=04b74,0,1,0
 Component=04b75,-2,2,0
 Component=04b76,-1,2,0
+
+
+[MultiDef mBearskinRug1]
+Name=bearskin rug
+Type=tMulti
+
+Category=Multis
+Subsection=House Add-Ons
+Description=Bearskin Rug (Brown Bear) (South)
+
+MultiRegion=0,0,0,0
+Component=01e36,1,1,0
+Component=01e37,0,1,0
+Component=01e38,-1,1,0
+Component=01e39,-1,0,0
+Component=01e3a,0,0,0
+Component=01e3b,1,0,0
+Component=01e3c,1,-1,0
+Component=01e3d,0,-1,0
+Component=01e3e,-1,-1,0
+
+
+[MultiDef mBearskinRug2]
+Name=bearskin rug
+Type=tMulti
+
+Category=Multis
+Subsection=House Add-Ons
+Description=Bearskin Rug (Brown Bear) (East)
+
+MultiRegion=0,0,0,0
+Component=01e40,1,1,0
+Component=01e41,1,0,0
+Component=01e42,1,-1,0
+Component=01e43,0,-1,0
+Component=01e44,0,0,0
+Component=01e45,0,1,0
+Component=01e46,-1,1,0
+Component=01e47,-1,0,0
+Component=01e48,-1,-1,0
+
+
+[MultiDef mBearskinRug3]
+Name=bearskin rug
+Type=tMulti
+
+Category=Multis
+Subsection=House Add-Ons
+Description=Bearskin Rug (Polar Bear) (South)
+
+MultiRegion=0,0,0,0
+Component=01e49,1,1,0
+Component=01e4a,0,1,0
+Component=01e4b,-1,1,0
+Component=01e4c,-1,0,0
+Component=01e4d,0,0,0
+Component=01e4e,1,0,0
+Component=01e4f,1,-1,0
+Component=01e50,0,-1,0
+Component=01e51,-1,-1,0
+
+
+[MultiDef mBearskinRug4]
+Name=bearskin rug
+Type=tMulti
+
+Category=Multis
+Subsection=House Add-Ons
+Description=Bearskin Run (Polar Bear) (East)
+
+MultiRegion=0,0,0,0
+Component=01e57,0,0,0
+Component=01e53,1,1,0
+Component=01e54,1,0,0
+Component=01e55,1,-1,0
+Component=01e56,0,-1,0
+Component=01e58,0,1,0
+Component=01e59,-1,1,0
+Component=01e5a,-1,0,0
+Component=01e5b,-1,-1,0
 
 
 [EOF]

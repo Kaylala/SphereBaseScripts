@@ -1,0 +1,110 @@
+[CharDef 0CA]
+DefName=cAlligator1
+Name=alligator
+Can=CanWalk|CanSwim
+MoveRate=100
+Dam=5,15	// 7,24 UOG
+Icon=iAlligatorIcon
+Sound=
+Resources=12 iPilesOfSpinedHides,1 iCutOfRawRibs
+FoodType=tFish
+MaxFood=35
+Aversions=0
+Desires=tFish,tRawMeat,tMeat,rSwamp,rJungle
+BloodColor=0
+TEvents=AIAlligator
+
+Category=Animals
+Subsection=Reptiles
+Description=Alligator
+
+On=@Create
+NPC=BrainAnimal
+FollowerSlots=1
+SlayerSuper=ReptileSlayer
+
+Fame=600
+Karma=-600
+Alignment=Evil
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=25,35
+ResFire=5,10
+ResCold=0
+ResPoison=5,10
+ResEnergy=0
+
+OStr={76 100}
+ODex={6 25}
+OInt={11 20}
+MaxHits={46 60}
+MaxStam={46 65}
+MaxMana=0
+
+Wrestling={400 600}
+Tactics={400 600}
+MagicResistance={250 400}
+Parrying={400 600}
+Taming=471
+
+
+[CharDef 085]
+DefName=cAlligator2
+Name=alligator
+Can=CanWalk|CanSwim
+MoveRate=100
+Dam=5,12
+Icon=iAlligatorIcon
+Sound=
+Resources=8 iPilesOfSpinedHides,1 iCutOfRawRibs
+FoodType=tFish
+MaxFood=35
+Aversions=0
+Desires=tFish,tRawMeat,tMeat,rSwamp,rJungle
+BloodColor=0
+TEvents=AIAlligator
+
+Category=Animals
+Subsection=Reptiles
+Description=Alligator (Small)
+
+On=@Create
+NPC=BrainAnimal
+FollowerSlots=1
+SlayerSuper=ReptileSlayer
+
+Fame=400
+Karma=-400
+Alignment=Evil
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=15,25
+ResFire=5,10
+ResCold=0
+ResPoison=5,10
+ResEnergy=0
+
+OStr={50 80}
+ODex={6 25}
+OInt={11 20}
+MaxHits={30 48}
+MaxStam={46 65}
+MaxMana=0
+
+Wrestling={300 500}
+Tactics={300 500}
+MagicResistance={200 300}
+Parrying={300 500}
+
+
+[EOF]

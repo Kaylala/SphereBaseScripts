@@ -1,31 +1,89 @@
-[ItemDef iHarpsichordDeedS]
+[ItemDef iBearskinRugDeed1]
 ID=iDeed
-Name=harpsichord deed (south)
-NameLoc=
+Name=brown bear rug (south)
+NameLoc=1049398
 Type=tDeed
 Weight=1
 
 Category=Deeds
-Subsection=Musician
+Subsection=House Add-Ons
+Description=Brown Bear Rug (South)
+
+On=@Create
+More1=mBearskinRug1
+
+
+[ItemDef iBearskinRugDeed2]
+ID=iDeed
+Name=brown bear rug (east)
+NameLoc=1049397
+Type=tDeed
+Weight=1
+
+Category=Deeds
+Subsection=House Add-Ons
+Description=Brown Bear Rug (East)
+
+On=@Create
+More1=mBearskinRug2
+
+
+[ItemDef iBearskinRugDeed3]
+ID=iDeed
+Name=polar bear rug (south)
+NameLoc=1049400
+Type=tDeed
+Weight=1
+
+Category=Deeds
+Subsection=House Add-Ons
+Description=Polar Bear Rug (South)
+
+On=@Create
+More1=mBearskinRug3
+
+
+[ItemDef iBearskinRugDeed4]
+ID=iDeed
+Name=polar bear rug (east)
+NameLoc=1049399
+Type=tDeed
+Weight=1
+
+Category=Deeds
+Subsection=House Add-Ons
+Description=Polar Bear Rug (East)
+
+On=@Create
+More1=mBearskinRug4
+
+
+[ItemDef iHarpsichordDeed1]
+ID=iDeed
+Name=harpsichord deed (south)
+Type=tDeed
+Weight=1
+
+Category=Deeds
+Subsection=House Add-Ons
 Description=Harpsichord (South)
 
 On=@Create
-More1=mHarpsichordS
+More1=mHarpsichord1
 
 
-[ItemDef iHarpsichordDeedE]
+[ItemDef iHarpsichordDeed2]
 ID=iDeed
 Name=harpsichord deed (east)
-NameLoc=
 Type=tDeed
 Weight=1
 
 Category=Deeds
-Subsection=Musician
+Subsection=House Add-Ons
 Description=Harpsichord (East)
 
 On=@Create
-More1=mHarpsichordE
+More1=mHarpsichord2
 
 
 [ItemDef iTrainingDummyDeedE]

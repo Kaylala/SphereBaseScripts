@@ -1,0 +1,53 @@
+// Feathers 3
+// Partial Hue
+[ItemDef 0dfa]
+DefName=iFeathers1
+Name=feathers
+NameLoc=1023578
+Type=tNormal
+Weight=1
+
+
+// Feathers 2
+// Partial Hue
+[ItemDef 0dfb]
+DefName=iFeathers2
+Name=feathers
+NameLoc=1023579
+Type=tNormal
+Weight=1
+
+
+// 1 Feather
+[ItemDef 01020]
+DefName=iFeathers3
+Name=feathers
+NameLoc=1024128
+Type=tNormal
+
+
+//2 red and white feathers
+[ItemDef 01021]
+DefName=iFeathers4
+Name=feathers
+NameLoc=1024129
+Type=tNormal
+
+
+//feathers (3)
+[ItemDef 01bd2]
+DefName=iFeathers5
+Name=feathers
+NameLoc=1027122
+Type=tNormal
+
+
+// 6 Feathers
+[ItemDef 01bd3]
+DefName=iFeathers6
+Name=feathers
+NameLoc=1027123
+Type=tNormal
+
+
+[EOF]

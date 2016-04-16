@@ -507,13 +507,6 @@ Description=MahJong
 DupeItem=0e1c
 
 
-[ItemDef 0fc2]
-Name=Quest item
-Weight=0.1
-Category=Quest
-Subsection=Unknown
-Description=Feather
-
 
 [ItemDef 0fc4]
 DefName=iShell

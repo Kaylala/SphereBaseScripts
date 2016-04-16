@@ -1,3 +1,15 @@
+[ItemDef 0FC2]
+DefName=iCakeTool
+Name=cake tool
+NameLoc=1024034
+Type=tNormal
+Weight=3
+
+Category=Professions
+Subsection=Cooking: Preparations
+Description=Cake Tool
+
+
 [ItemDef iCharcoal]
 ID=iBlackPowder
 Name=charcaol

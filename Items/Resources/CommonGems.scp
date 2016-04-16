@@ -1,0 +1,477 @@
+[ItemDef 0F0F]
+DefName=iStarSapphire1
+Name=star sapphire%s
+NameLoc=1023855
+Type=tGem
+Can=CanIStack
+Value=30
+Weight=0.1
+
+Category=Resources
+Subsection=Gems: Common
+Description=Star Sapphire 1
+
+
+[ItemDef 0F1B]
+DefName=iStarSapphire2
+Name=star sapphire%s
+NameLoc=1023867
+Type=tGem
+Can=CanIStack
+Value=30
+Weight=0.1
+
+Category=Resources
+Subsection=Gems: Common
+Description=Star Sapphire 2
+
+
+[ItemDef 0F21]
+DefName=iStarSapphire3
+Name=star sapphire%s
+NameLoc=1023873
+Type=tGem
+Can=CanIStack
+Value=30
+Weight=0.1
+
+Category=Resources
+Subsection=Gems: Common
+Description=Star Sapphire 3
+
+
+[ItemDef 0F10]
+DefName=iEmerald1
+Name=emerald%s
+NameLoc=1023856
+Type=tGem
+Can=CanIStack
+Value=30
+Weight=0.1
+
+Category=Resources
+Subsection=Gems: Common
+Description=Emeral 1
+
+
+[ItemDef 0F2F]
+DefName=iEmerald2
+Name=emerald%s
+NameLoc=1023887
+Type=tGem
+Can=CanIStack
+Value=30
+Weight=0.1
+
+Category=Resources
+Subsection=Gems: Common
+Description=Emeral 2
+
+
+[ItemDef 0F11]
+DefName=iSapphire1
+Name=sapphire%s
+NameLoc=1023857
+Type=tGem
+Can=CanIStack
+Value=30
+Weight=0.1
+
+Category=Resources
+Subsection=Gems: Common
+Description=Sapphire 1
+
+
+[ItemDef 0F12]
+DefName=iSapphire2
+Name=sapphire%s
+NameLoc=1023858
+Type=tGem
+Can=CanIStack
+Value=30
+Weight=0.1
+
+Category=Resources
+Subsection=Gems: Common
+Description=Sapphire 2
+
+
+[ItemDef 0F19]
+DefName=iSapphire3
+Name=sapphire%s
+NameLoc=1023865
+Type=tGem
+Can=CanIStack
+Value=30
+Weight=0.1
+
+Category=Resources
+Subsection=Gems: Common
+Description=Sapphire 3
+
+
+[ItemDef 0F1F]
+DefName=iSapphire4
+Name=sapphire%s
+NameLoc=1023871
+Type=tGem
+Can=CanIStack
+Value=30
+Weight=0.1
+
+Category=Resources
+Subsection=Gems: Common
+Description=Sapphire 4
+
+
+[ItemDef 0F13]
+DefName=iRuby1
+Name=ruby
+NameLoc=1023859
+Type=tGem
+Can=CanIStack
+Value=30
+Weight=0.1
+
+Category=Resources
+Subsection=Gems: Common
+Description=Ruby 1
+
+
+[ItemDef 0F14]
+DefName=iRuby2
+Name=ruby
+NameLoc=1023860
+Type=tGem
+Can=CanIStack
+Value=30
+Weight=0.1
+
+Category=Resources
+Subsection=Gems: Common
+Description=Ruby 2
+
+
+[ItemDef 0F1A]
+DefName=iRuby3
+Name=ruby
+NameLoc=1023866
+Type=tGem
+Can=CanIStack
+Value=30
+Weight=0.1
+
+Category=Resources
+Subsection=Gems: Common
+Description=Ruby 3
+
+
+[ItemDef 0F1C]
+DefName=iRuby4
+Name=ruby
+NameLoc=1023868
+Type=tGem
+Can=CanIStack
+Value=30
+Weight=0.1
+
+Category=Resources
+Subsection=Gems: Common
+Description=Ruby 4
+
+
+[ItemDef 0F1D]
+DefName=iRuby5
+Name=ruby
+NameLoc=1023869
+Type=tGem
+Can=CanIStack
+Value=30
+Weight=0.1
+
+Category=Resources
+Subsection=Gems: Common
+Description=Ruby 5
+
+
+[ItemDef 0F2A]
+DefName=iRuby6
+Name=ruby
+NameLoc=1023882
+Type=tGem
+Can=CanIStack
+Value=30
+Weight=0.1
+
+Category=Resources
+Subsection=Gems: Common
+Description=Ruby 6
+
+
+[ItemDef 0F2B]
+DefName=iRuby7
+Name=ruby
+NameLoc=1023883
+Type=tGem
+Can=CanIStack
+Value=30
+Weight=0.1
+
+Category=Resources
+Subsection=Gems: Common
+Description=Ruby 7
+
+
+[ItemDef 0F15]
+DefName=iCitrine1
+Name=citrine%s
+NameLoc=1023861
+Type=tGem
+Can=CanIStack
+Value=30
+Weight=0.1
+
+Category=Resources
+Subsection=Gems: Common
+Description=Citrine 1
+
+
+[ItemDef 0F23]
+DefName=iCitrine2
+Name=citrine%s
+NameLoc=1023875
+Type=tGem
+Can=CanIStack
+Value=30
+Weight=0.1
+
+Category=Resources
+Subsection=Gems: Common
+Description=Citrine 2
+
+
+[ItemDef 0F24]
+DefName=iCitrine3
+Name=citrine%s
+NameLoc=1023876
+Type=tGem
+Can=CanIStack
+Value=30
+Weight=0.1
+
+Category=Resources
+Subsection=Gems: Common
+Description=Citrine 3
+
+
+[ItemDef 0F2C]
+DefName=iCitrine4
+Name=citrine%s
+NameLoc=1023884
+Type=tGem
+Can=CanIStack
+Value=30
+Weight=0.1
+
+Category=Resources
+Subsection=Gems: Common
+Description=Citrine 4
+
+
+[ItemDef 0F16]
+DefName=iAmethyst1
+Name=amethyst%s
+NameLoc=1023862
+Type=tGem
+Can=CanIStack
+Value=30
+Weight=0.1
+
+Category=Resources
+Subsection=Gems: Common
+Description=Amethyst 1
+
+
+[ItemDef 0F17]
+DefName=iAmethyst2
+Name=amethyst%s
+NameLoc=1023863
+Type=tGem
+Can=CanIStack
+Value=30
+Weight=0.1
+
+Category=Resources
+Subsection=Gems: Common
+Description=Amethyst 2
+
+
+[ItemDef 0F22]
+DefName=iAmethyst3
+Name=amethyst%s
+NameLoc=1023874
+Type=tGem
+Can=CanIStack
+Value=30
+Weight=0.1
+
+Category=Resources
+Subsection=Gems: Common
+Description=Amethyst 3
+
+
+[ItemDef 0F2E]
+DefName=iAmethyst4
+Name=amethyst%s
+NameLoc=1023886
+Type=tGem
+Can=CanIStack
+Value=30
+Weight=0.1
+
+Category=Resources
+Subsection=Gems: Common
+Description=Amethyst 4
+
+
+[ItemDef 0F18]
+DefName=iTourmaline1
+Name=tourmaline%s
+NameLoc=1023864
+Type=tGem
+Can=CanIStack
+Value=30
+Weight=0.1
+
+Category=Resources
+Subsection=Gems: Common
+Description=Tourmaline 1
+
+
+[ItemDef 0F1E]
+DefName=iTourmaline2
+Name=tourmaline%s
+NameLoc=1023870
+Type=tGem
+Can=CanIStack
+Value=30
+Weight=0.1
+
+Category=Resources
+Subsection=Gems: Common
+Description=Tourmaline 2
+
+
+[ItemDef 0F20]
+DefName=iTourmaline3
+Name=tourmaline%s
+NameLoc=1023872
+Type=tGem
+Can=CanIStack
+Value=30
+Weight=0.1
+
+Category=Resources
+Subsection=Gems: Common
+Description=Tourmaline 3
+
+
+[ItemDef 0F2D]
+DefName=iTourmaline4
+Name=tourmaline%s
+NameLoc=1023885
+Type=tGem
+Can=CanIStack
+Value=30
+Weight=0.1
+
+Category=Resources
+Subsection=Gems: Common
+Description=Tourmaline 4
+
+
+[ItemDef 0F25]
+DefName=iAmber
+Name=amber%s
+NameLoc=1023877
+Type=tGem
+Can=CanIStack
+Value=30
+Weight=0.1
+
+Category=Resources
+Subsection=Gems: Common
+Description=Amber
+
+
+[ItemDef 0F26]
+DefName=iDiamond1
+Name=diamond%s
+NameLoc=1023878
+Type=tGem
+Can=CanIStack
+Value=30
+Weight=0.1
+
+Category=Resources
+Subsection=Gems: Common
+Description=Diamond 1
+
+
+[ItemDef 0F27]
+DefName=iDiamond2
+Name=diamond%s
+NameLoc=1023879
+Type=tGem
+Can=CanIStack
+Value=30
+Weight=0.1
+
+Category=Resources
+Subsection=Gems: Common
+Description=Diamond 2
+
+
+[ItemDef 0F28]
+DefName=iDiamond3
+Name=diamond%s
+NameLoc=1023880
+Type=tGem
+Can=CanIStack
+Value=30
+Weight=0.1
+
+Category=Resources
+Subsection=Gems: Common
+Description=Diamond 3
+
+
+[ItemDef 0F29]
+DefName=iDiamond4
+Name=diamond%s
+NameLoc=1023881
+Type=tGem
+Can=CanIStack
+Value=30
+Weight=0.1
+
+Category=Resources
+Subsection=Gems: Common
+Description=Diamond 4
+
+
+[ItemDef 0F30]
+DefName=iDiamond5
+Name=diamond%s
+NameLoc=1023888
+Type=tGem
+Can=CanIStack
+Value=30
+Weight=0.1
+
+Category=Resources
+Subsection=Gems: Common
+Description=Diamond 5
+
+
+[EOF]
