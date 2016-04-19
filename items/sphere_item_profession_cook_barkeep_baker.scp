@@ -222,25 +222,26 @@ Description=Frypan
 
 [ItemDef 098d]
 DefName=iJugsOfCider1
-Type=tBooze
-Weight=0.3
+Name=jugs of cider
+NameLoc=1022445
+Type=tNormal
+Weight=3
 
 Category=Provisions - Food
 Subsection=Alcohol
-Description=Jug of Cider (3)
-
-On=@Create
-MoreM=1
+Description=Jugs of Cider (3)
 
 
 [ItemDef 098e]
 DefName=iJugsOfCider2
+Name=jugs of cider
+NameLoc=1022446
 Type=tBooze
 Weight=0.2
 
 Category=Provisions - Food
 Subsection=Alcohol
-Description=Jug of Cider (2)
+Description=Jugs of Cider (2)
 
 On=@Create
 MoreM=1
@@ -248,32 +249,36 @@ MoreM=1
 
 [ItemDef 0991]
 DefName=iTray
+Name=tray
+NameLoc=1022449
 Can=CanIFlip
-Value=7
-Weight=0.5
-Resources=3 iBoard
-SkillMake=Tinkering 18.0,tTinkerTools
+Weight=1
+DupeList=0992
+
 Category=Items by Professions
 Subsection=Cook
 Description=Tray
-DupeList=0992
 
 [ItemDef 0992]
-DefName=iTray2
+NameLoc=1022450
 DupeItem=0991
 
 [ItemDef 0993]
-DefName=iBasketFruit
+DefName=iFruitBasket
 Type=tFood
 Value=32
-Weight=3.0
-Resources=1 iBasket,2 iFruitApple,1 iFruitBanana,1 i_fruitGrapes,1 i_fruitPear
-SkillMake=Cooking 0.1, tCooking
+Weight=5
+
 Category=Provisions - Food
 Subsection=Assembled
 Description=Fruit Basket
+
 On=@Create
-MoreM=5
+MoreM=1
+
+On=@DClick
+Consume
+Serv.NewItem=0990,1,<Src>
 
 
 [ItemDef 0995]

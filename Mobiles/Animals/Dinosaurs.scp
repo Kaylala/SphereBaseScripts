@@ -1,14 +1,73 @@
+[CharDef 02DA]
+DefName=cRaptor
+Name=raptor
+Can=CanWalk|CanNonHuman
+MoveRate=100
+Dam=11,17
+Icon=iRaptorIcon
+Sound=0
+Resources=10 iPilesOfHornedHides,7 iCutOfRawRibs,8 iDragonsBlood2
+FoodType=tFish
+MaxFood=35
+Aversions=rCivilization
+Desires=rJungle,tFish
+BloodColor=0
+TEvents=AIRaptor
+
+Category=Animals
+SubsectiOn=Dinosaurs
+DescriptiOn=Raptor
+
+On=@Create
+NPC=BrainAnimal
+Loyalty=20
+FollowerSlots=2
+Instincts=RaptorInstincts
+SlayerSuper=ReptileSlayer
+SlayerLesser=DinosaurSlayer
+
+Fame=7500
+Karma=-7500
+Alignment=Evil
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=45,50
+ResFire=50,60
+ResCold=40,50
+ResPoison=20,30
+ResEnergy=30,40
+
+OStr={405 455}
+ODex={135 155}
+OInt={100 135}
+MaxHits={345 392}
+
+Wrestling={650 850}
+Tactics={800 1000}
+MagicResistance={750 1000}
+Parrying={800 1000}
+Taming=1071
+
+On=@NPCRestock
+NewGold={400 500}
+
+
 // Dimetrosaur
 // Northern Valley of Eodon
 [CharDef 0505]
 DefName=cDimetrosaur
 Name=dimetrosaur
-Can=CanWalk
+Can=CanWalk|CanNonHuman
 MoveRate=100
 Dam=18,21
 Icon=iDimetrosaurIcon
 Sound=0
-Resources=11 iSpinedHides,1 iCutOfRawRibs
+Resources=11 iPilesOfSpinedHides,1 iCutOfRawRibs
 FoodType=tFruit,tVegetable
 MaxFood=35
 Aversions=rCivilization
@@ -62,12 +121,12 @@ NewGold={1200 1400}
 [CharDef cDimetrosaur1]
 ID=cDimetrosaur
 Name=dimetrosaur
-Can=CanWalk
+Can=CanWalk|CanNonHuman
 MoveRate=100
 Dam=18,21
 Icon=iDimetrosaurIcon
 Sound=0
-Resources=11 iSpinedHides,1 iCutOfRawRibs
+Resources=11 iPilesOfSpinedHides,1 iCutOfRawRibs
 FoodType=tFruit,tVegetable
 MaxFood=35
 Aversions=rCivilization
@@ -121,7 +180,7 @@ NewGold={600 700}
 [CharDef 050E]
 DefName=cDragonTurtleHatchling
 Name=dragon turtle hatchling
-Can=CanWalk
+Can=CanWalk|CanNonHuman
 MoveRate=100
 Dam=24,33
 Icon=iDragonTurtleHatchlingIcon
@@ -183,7 +242,7 @@ AddCircle=7,1
 [CharDef 050D]
 DefName=cAllosaurus
 Name=allosaurus
-Can=CanWalk
+Can=CanWalk|CanNonHuman
 MoveRate=100
 Dam=21,23
 Icon=iAllosaurusIcon
@@ -242,7 +301,7 @@ NewGold={1500 1800}
 [CharDef cAllosaurus1]
 ID=cAllosaurus
 Name=allosaurus
-Can=CanWalk
+Can=CanWalk|CanNonHuman
 MoveRate=100
 Dam=21,23
 Icon=iAllosaurusIcon
@@ -301,7 +360,7 @@ NewGold={800 1000}
 [CharDef 0506]
 DefName=cGallusaurus
 Name=gallusaurus
-Can=CanWalk
+Can=CanWalk|CanNonHuman
 MoveRate=100
 Dam=11,17
 Icon=iGallusaurusIcon
@@ -357,12 +416,12 @@ NewGold={600 800}
 [CharDef 0507]
 DefName=cArchaeosaurus
 Name=arcahaeosaurus
-Can=CanWalk
+Can=CanWalk|CanNonHuman
 MoveRate=100
 Dam=14,16
 Icon=iArchaeosarusIcon
 Sound=sndDragon1
-Resources=7 iPlainHides,1 iCutOfRawRibs
+Resources=7 iPilesOfHides,1 iCutOfRawRibs
 FoodType=tMeat
 MaxFood=35
 Aversions=rCivilization
@@ -415,7 +474,7 @@ NewGold={600 800}
 [CharDef 0509]
 DefName=cNajasaurus
 Name=najasaurus
-Can=CanWalk
+Can=CanWalk|CanNonHuman
 MoveRate=100
 Dam=13,24
 Icon=iNajasaurusIcon
@@ -471,12 +530,12 @@ NewGold={600 800}
 [CharDef 050B]
 DefName=cSaurosaurus
 Name=saurosaurus
-Can=CanWalk
+Can=CanWalk|CanNonHuman
 MoveRate=100
 Dam=21,28
 Icon=iSaurosaurusIcon
 Sound=sndDragon1
-Resources=11 iPlainHides,5 iCutOfRawRibs,8 iYellowDragonsBlood
+Resources=11 iPilesOfHides,5 iCutOfRawRibs,8 iDragonsBlood2
 FoodType=tMeat
 MaxFood=35
 Aversions=rCivilization
@@ -529,12 +588,12 @@ NewGold={600 800}
 [CharDef 050C]
 DefName=cAnchisaur
 Name=anchisaur
-Can=CanWalk
+Can=CanWalk|CanNonHuman
 MoveRate=100
 Dam=16,19
 Icon=iAnchisaurIcon
 Sound=sndDragon1
-Resources=11 iPlainHides,6 iCutOfRawRibs, 6 iYellowDragonsBlood
+Resources=11 iPilesOfHides,6 iCutOfRawRibs, 6 iDragonsBlood2
 FoodType=tMeat
 Aversions=rCivilization
 Desires=tMeat,rJungle
@@ -583,12 +642,12 @@ NewGold={600 700}
 [CharDef 051E]
 DefName=cTyrannosaurusRex
 Name=Tyrannosaurus Rex
-Can=CanWalk|CanNonHum
+Can=CanWalk|CanNonHuman
 MoveRate=100
 Dam=21,23
 Icon=iAllosaurusIcon
 Sound=sndDragon1
-Resources=4 iCutOfRawRibs,20 iHornedHides
+Resources=4 iCutOfRawRibs,20 iPilesOfHornedHides
 FoodType=tMeat
 MaxFood=35
 Aversions=rCivilization
@@ -636,5 +695,6 @@ Parrying={1200 1400}
 
 On=@NPCRestock
 NewGold={1600 2000}
+
 
 [EOF]

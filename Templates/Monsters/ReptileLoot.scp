@@ -1,0 +1,59 @@
+[Template LavaLizardLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Reptiles
+Description=Lava Lizard
+Item=iSulfurousAsh,{5 15}
+
+
+[Template KomodoDragonLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Reptiles
+Description=Komodo Dragon
+
+
+[Template ChickenLizardLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Reptiles
+Description=Chicken Lizard
+
+
+[Template BattleChickenLizardLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Reptiles
+Description=Battle Chicken Lizard
+
+
+[Template KepetchLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Reptiles
+Description=Kepetch
+
+
+[Template KepetchAmbusherLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Reptiles
+Description=Kepetch Ambusher
+
+
+[Template SlithLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Reptiles
+Description=Slith
+Item=iSlithTongue,1,R19
+Item=iSlithEye,1,R19
+Item=iAncientPotteryFragments,1,R19
+Item=iTatteredRemnantsOfAnAncientScroll,1,R19
+
+
+[Template ToxicSlithLoot]
+Category=Templates: NPC Loot
+Subsection=Monsters: Reptiles
+Description=Toxic Slith
+Item=iSlithTongue,1,R19
+Item=iSlithEye,1,R19
+Item=iAncientPotteryFragments,1,R19
+Item=iTatteredRemnantsOfAnAncientScroll,1,R19
+Item=iToxicVenomSac,1,R19
+
+
+[EOF]

@@ -1,0 +1,42 @@
+[ItemDef 03185]
+DefName=iScourge
+Name=scourge
+Type=tIngredient
+Weight=1
+
+Category=Resources
+Subsection=Peerless Ingredients
+Description=Scourge
+ON=@Create
+COLOR=033
+
+
+[ItemDef 03186]
+DefName=iPutrefaction
+Name=putrefaction
+Type=tIngredient
+Weight=1
+
+Category=Resources
+Subsection=Peerless Ingredients
+Description=Putrefaction
+
+On=@Create
+Color=0371
+
+
+[ItemDef 03187]
+DefName=iTaint
+Name=taint
+Type=tIngredient
+Weight=1
+
+Category=Resources
+Subsection=Peerless Ingredients
+Description=Taint
+
+ON=@Create
+COLOR=033f
+
+
+[EOF]

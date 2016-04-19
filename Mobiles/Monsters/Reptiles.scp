@@ -1,0 +1,459 @@
+[CharDef 0CE]
+DefName=cLavaLizard
+Name=lava lizard
+Can=CanWalk|CanNonHuman
+MoveRate=100
+Dam=6,24
+Icon=iLavaLizardIcon
+Sound=
+Resources=12 iPilesOfSpinedHides,1 iCutOfRawRibs
+FoodType=tIngot,tOre,tMetal
+MaxFood=35
+Aversions=rWater,tWater
+Desires=tLava,rFireDungeon,tFire,rVolcano,tIngot,tOre,tMetal
+BloodColor=0
+TEvents=AILavaLizard
+
+Category=Monsters
+Subsection=Reptiles
+Description=Lava Lizard
+
+On=@Create
+NPC=BrainDragon
+Color=033
+FollowerSlots=1
+
+Fame=3000
+Karma=-3000
+Alignment=Evil
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=35,45
+ResFire=30,45
+ResCold=0
+ResPoison=25,35
+ResEnergy=25,35
+
+OStr={126 150}
+ODex={56 75}
+OInt={11 20}
+MaxHits={76 90}
+MaxMana=0
+
+Wrestling={600 800}
+Tactics={600 800}
+MagicResistance={550 700}
+Parrying={600 800}
+Taming=807
+
+On=@NPCRestock
+NewGold={50 100}
+
+
+[CharDef 086]
+DefName=cKomodoDragon
+Name=komodo dragon
+Can=CanWalk|CanNonHuman
+MoveRate=100
+Dam=6,24
+Icon=iKomodoDragonIcon
+Sound=
+Resources=12 iPilesOfSpinedHides,1 iCutOfRawRibs
+FoodType=tRawMeat,tMeat
+MaxFood=35
+Aversions=tTrap
+Desires=rJungle
+BloodColor=0
+TEvents=AIKomodoDragon
+
+Category=Monsters
+Subsection=Reptiles
+Description=Komodo Dragon
+
+On=@Create
+NPC=BrainAnimal
+Color=SlimeHues
+FollowerSlots=1
+
+Fame=3000
+Karma=-3000
+Alignment=Evil
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=35,45
+ResFire=30,45
+ResCold=25,35
+ResPoison=25,35
+ResEnergy=25,35
+
+OStr={126 150}
+ODex={56 75}
+OInt={11 20}
+MaxHits={76 90}
+MaxMana=0
+
+Wrestling={600 800}
+Tactics={600 800}
+MagicResistance={550 700}
+Parrying={600 800}
+Taming=807
+
+On=@NPCRestock
+NewGold={50 100}
+
+
+[CharDef 02D6]
+DefName=cKepetch1
+Name=kepetch
+Can=CanWalk|CanNonHuman
+MoveRate=100
+Dam=7,17
+Icon=iKepetchIcon
+Sound=
+Resources=14 iPilesOfHides,5 iCutOfRawRibs,6 iDragonsBlood2, 15 iFur
+FoodType=tMeat,tRawMeat
+MaxFood=35
+Aversions=tTrap
+Desires=rJungle
+BloodColor=0
+TEvents=AIKepetch
+
+Category=Monsters
+Subsection=Reptiles
+Description=Kepetch
+
+On=@Create
+NPC=BrainMonster
+Loyalty=10
+SlayerSuper=ReptileSlayer
+
+Fame=6000
+Karma=-6000
+Alignment=Evil
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=55,65
+ResFire=40,45
+ResCold=45,55
+ResPoison=55,65
+ResEnergy=65,75
+
+OStr={335 355}
+ODex={180 200}
+OInt={30 40}
+MaxHits={300 370}
+
+Wrestling={1000 1200}
+Tactics={1000 1250}
+MagicResistance={800 1000}
+Anatomy={1000 1250}
+Parrying={1000 1250}
+
+On=@NPCRestock
+NewGold={100 200}
+
+
+[CharDef 02D7]
+DefName=cKepetch2
+Name=kepetch
+Can=CanWalk|CanNonHuman
+MoveRate=100
+Dam=7,17
+Icon=iKepetchIcon
+Sound=
+Resources=14 iPilesOfHides,5 iCutOfRawRibs,6 iDragonsBlood2, 15 iFur
+FoodType=tMeat,tRawMeat
+MaxFood=35
+Aversions=tTrap
+Desires=rJungle
+BloodColor=0
+TEvents=AIKepetch
+
+Category=Monsters
+Subsection=Reptiles
+Description=Kepetch (Shorn)
+
+On=@Create
+NPC=BrainMonster
+Loyalty=10
+SlayerSuper=ReptileSlayer
+
+Fame=6000
+Karma=-6000
+Alignment=Evil
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=55,65
+ResFire=40,45
+ResCold=45,55
+ResPoison=55,65
+ResEnergy=65,75
+
+OStr={335 355}
+ODex={180 200}
+OInt={30 40}
+MaxHits={300 370}
+
+Wrestling={1000 1200}
+Tactics={1000 1250}
+MagicResistance={800 1000}
+Anatomy={1000 1250}
+Parrying={1000 1250}
+
+On=@NPCRestock
+NewGold={100 200}
+
+
+[CharDef cKepetchAmbusher]
+ID=cKepetch1
+Name=kepetch ambusher
+Can=CanWalk|CanNonHuman
+MoveRate=100
+Dam=7,17
+Icon=iKepetchIcon
+Sound=
+Resources=14 iPilesOfHornedHides,5 iCutOfRawRibs,6 iDragonsBlood2, 15 iFur
+FoodType=tMeat,tRawMeat
+MaxFood=35
+Aversions=tTrap
+Desires=rJungle
+BloodColor=0
+TEvents=AIKepetchAmbusher
+
+Category=Monsters
+Subsection=Reptiles
+Description=Kepetch Ambusher
+
+On=@Create
+NPC=BrainMonster
+Loyalty=25
+SlayerSuper=ReptileSlayer
+
+Fame=2500
+Karma=-2500
+Alignment=Evil
+
+DamPhysical=80
+DamFire=0
+DamCold=0
+DamPoison=20
+DamEnergy=0
+
+ResPhysical=60,75
+ResFire=50,60
+ResCold=45,55
+ResPoison=50,70
+ResEnergy=55,75
+
+OStr={435 455}
+ODex={250 280}
+OInt={40 50}
+MaxHits={510 550}
+
+Wrestling={1000 1200}
+Tactics={1000 1250}
+MagicResistance={800 1000}
+Anatomy={1000 1250}
+Parrying={1000 1250}
+Hiding={1000 1200}
+Stealth={1000 1200}
+
+On=@NPCRestock
+NewGold={250 350}
+
+
+[CharDef 02DE]
+DefName=cSlith
+Name=slith
+Can=CanWalk|CanNonHuman
+MoveRate=100
+Dam=6,24
+Icon=iSlithIcon
+Sound=
+Resources=12 iPilesOfHides,6 iCutOfRawRibs,6 iDragonsBlood2
+FoodType=tMetal,tOre,tIngot
+MaxFood=35
+Aversions=tTrap
+Desires=rJungle
+BloodColor=0
+TEvents=AISlith
+
+Category=Monsters
+Subsection=Reptiles
+Description=Slith
+
+On=@Create
+NPC=BrainDragon
+Loyalty=10
+FollowerSlots=1
+SlayerSuper=ReptileSlayer
+
+Fame=3000
+Karma=-3000
+Alignment=Evil
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=35,45
+ResFire=30,45
+ResCold=0
+ResPoison=25,35
+ResEnergy=25,35
+
+OStr={126 150}
+ODex={56 75}
+OInt={11 20}
+MaxHits={76 94}
+MaxMana=0
+
+Wrestling={600 800}
+Tactics={600 800}
+MagicResistance={550 700}
+Parrying={600 800}
+Taming=807
+
+On=@NPCRestock
+NewGold={100 200}
+
+
+[CharDef cStoneSlith]
+ID=cSlith
+Name=stone slith
+Can=CanWalk|CanNonHuman
+MoveRate=100
+Dam=6,24
+Icon=iSlithIcon
+Sound=
+Resources=12 iPilesOfSpinedHides,6 iCutOfRawRibs,6 iDragonsBlood2
+FoodType=tMetal,tOre,tIngot
+MaxFood=35
+Aversions=tTrap
+Desires=rJungle
+BloodColor=0
+TEvents=AIStoneSlith
+
+Category=Monsters
+Subsection=Reptiles
+Description=Stone Slith
+
+On=@Create
+NPC=BrainMonster
+Color=
+Loyalty=15
+FollowerSlots=2
+SlayerSuper=ReptileSlayer
+
+Fame=4000
+Karma=-4000
+Alignment=Evil
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=50,55
+ResFire=20,30
+ResCold=10,20
+ResPoison=30,40
+ResEnergy=30,40
+
+OStr={250 350}
+ODex={76 90}
+OInt={30 70}
+MaxHits={154 166}
+
+Wrestling={750 1000}
+Tactics={800 1000}
+MagicResistance={800 1000}
+Parrying={800 1000}
+Taming=651
+
+On=@NPCRestock
+NewGold={200 300}
+
+
+[CharDef cToxicSlith]
+ID=cSlith
+Name=toxic slith
+Can=CanWalk|CanNonHuman
+MoveRate=100
+Dam=6,24
+Icon=iSlithIcon
+Sound=
+Resources=12 iPilesOfHornedHides,6 iCutOfRawRibs,6 iDragonsBlood2
+FoodType=tMetal,tOre,tIngot
+MaxFood=35
+Aversions=tTrap
+Desires=rJungle
+BloodColor=0
+TEvents=AIToxicSlith
+
+Category=Monsters
+Subsection=Reptiles
+Description=Toxic Slith
+
+On=@Create
+NPC=BrainMonster
+Loyalty=20
+Color=
+SlayerSuper=ReptileSlayer
+
+Fame=7000
+Karma=-7000
+Alignment=Evil
+
+DamPhysical=100
+DamFire=0
+DamCold=0
+DamPoison=0
+DamEnergy=0
+
+ResPhysical=35,45
+ResFire=0,10
+ResCold=5,10
+ResPoison=100
+ResEnergy=5,10
+
+OStr={210 330}
+ODex={230 280}
+OInt={20 40}
+MaxHits={180 215}
+
+Wrestling={850 1000}
+Tactics={850 1000}
+MagicResistance={900 1000}
+Anatomy={0 200}
+Poisoning={900 1100}
+Parrying={850 1000}
+
+On=@NPCRestock
+NewGold={400 500}
+
+
+[EOF]

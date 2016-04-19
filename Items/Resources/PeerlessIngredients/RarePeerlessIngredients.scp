@@ -1,0 +1,69 @@
+[ItemDef 03189]
+DefName=iLardOfParoxysmus
+Name=Lard of Paroxysmus
+Type=tIngredient
+Value=1000
+Weight=1
+
+Category=Resources
+Subsection=Peerless Ingredients
+Description=Lard of Paroxysmus
+
+
+[ItemDef 0318a]
+DefName=iDreadHornMane
+Name=Dread Horn Mane
+Type=tIngredient
+Weight=1
+
+Category=Resources
+Subsection=Peerless Ingredients
+Description=Dread Horn Mane
+
+
+[ItemDef 0318b]
+DefName=iDiseasedBark
+Name=diseased bark
+Type=tIngredient
+Weight=1
+
+Category=Resources
+Subsection=Peerless Ingredients
+Description=Diseased Bark
+
+
+[ItemDef 0318c]
+DefName=iGrizzledBones
+Name=grizzled bones
+Type=tIngredient
+Value=1000
+Weight=1
+
+Category=Resources
+Subsection=Peerless Ingredients
+Description=Grizzled Bones
+
+
+[ItemDef 0318d]
+DefName=iEyeOfTheTravesty
+Name=eye of the travesty
+Type=tIngredient
+Weight=1
+
+Category=Resources
+Subsection=Peerless Ingredients
+Description=Eye of the Travesty
+
+
+[ItemDef 0318e]
+DefName=iCapturedEssence
+Name=captured essence
+Type=tIngredient
+Weight=1
+
+Category=Resources
+Subsection=Peerless Ingredients
+Description=Captured Essence
+
+
+[EOF]

@@ -1,0 +1,10 @@
+[Template RaptorLoot]
+Category=Templates: NPC Loot
+Subsection=Animals: Dinosaurs
+Description=Raptor
+Item=iRaptorTooth,1,R19
+Item=iRaptorClaw,1,R99
+Item=iAncientPotteryFragments,1,R19
+
+
+[EOF]

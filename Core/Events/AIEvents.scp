@@ -617,4 +617,107 @@ On=@DeathCorpse
 NewLoot=MolochLoot
 
 
+[Events AILavaLizard]
+On=@DeathCorpse
+NewLoot=LavaLizardLoot
+
+
+[Events AIKomodoDragon]
+On=@DeathCorpse
+NewLoot=KomodoDragonLoot
+
+
+[Events AIChickenLizard]
+On=@DeathCorpse
+NewLoot=ChickenLizardLoot
+
+
+[Events AIBattleChickenLizard]
+On=@DeathCorpse
+NewLoot=BattleChickenLizardLoot
+
+
+[Events AIKepetch]
+On=@NPCActFight// Vicious Bite (5dmg +5 cumulative every 20 seconds (Up to 50))
+
+On=@ItemTargOn_Char
+If (<Act.Type> == tSwordWeapon)
+ If (<ArgO.Tag0.Shorn>)
+  Return
+ Else
+  Serv.NewItem=iFur,15,<Src>
+  ArgO.Tag.Shorn=1
+  ArgO.DispID=cKepetch2
+  Update
+ EndIf
+EndIf
+
+On=@DeathCorpse
+NewLoot=KepetchLoot
+
+
+[Events AIKepetchAmbusher]
+On=NPCAction
+// Hiding and stealth
+
+On=@NPCActFight// Vicious Bite (5dmg +5 cumulative every 20 seconds (Up to 50))
+
+On=@ItemTargOn_Char
+If (<Act.Type> == tSwordWeapon)
+ If (<ArgO.Tag0.Shorn>)
+  Return
+ Else
+  Serv.NewItem=iFur,15,<Src>
+  ArgO.Tag.Shorn=1
+  ArgO.DispID=cKepetch2
+  Update
+ EndIf
+EndIf
+
+On=@DeathCorpse
+NewLoot=KepetchAmbusherLoot
+
+
+[Events AISlith]
+On=@DeathCorpse
+NewTMap=1
+NewLoot=SlithLoot
+
+
+[Events AIStoneSlith]
+On=@NPCActFight
+// Bleed attack
+// Hit lower physical resistance
+
+On=@DeathCorpse
+NewLoot=SlithLoot
+
+
+[Events AIToxicSlith]
+On=@NPCActFight
+// Poison attack
+
+On=@DeathCorpse
+NewLoot=ToxicSlithLoot
+
+
+[Events AIRaptor]
+On=@CombatStart
+If !(<IsPet>) && !(<Tag0.RaptorAmbusher>)
+ Serv.NewNPC=cRaptor
+ New.MoveNear <Src>,<R1,5>
+ New.Tag.RaptorAmbusher=1
+ New.Attack <Src>
+ Serv.NewNPC=cRaptor
+ New.MoveNear <Src>,<R1,5>
+ New.Tag.RaptorAmbusher=1
+ New.Attack <Src>
+ Tag.RaptorAmbusher=1
+EndIf
+
+On=@DeathCorpse
+NewTMap=3
+NewLoot=RaptorLoot
+
+
 [EOF]
