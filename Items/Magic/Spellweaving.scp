@@ -101,7 +101,7 @@ MoreX=sNaturesFury
 
 
 [ItemDef 02d57]
-DefName=isummon feyScroll
+DefName=iSummonFeyScroll
 Name=summon fey
 NameLoc=1031607
 Type=tScroll
