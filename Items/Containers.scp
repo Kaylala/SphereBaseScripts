@@ -1,0 +1,235 @@
+[Comment Notes]
+1113930;Happy anniversary from the entire Ultima Online team...
+
+
+[ItemDef iMeagerMuseumBag]
+ID=iBackpack
+Name=meager museum bag
+NameLoc=1112993
+
+Category=Provisions
+Subsection=Containers
+Descripton=Meager Museum Bag
+
+
+[ItemDef iDustyMuseumBag]
+ID=iBackpack
+Name=dusty museum bag
+NameLoc=1112994
+
+Category=Provisions
+Subsection=Containers
+Descripton=Dusty Museum Bag
+
+
+[ItemDef iBulgingMuseumBag]
+ID=iBackpack
+Name=bulging museum bag
+NameLoc=1112995
+
+Category=Provisions
+Subsection=Containers
+Descripton=Bulging Museum Bag
+
+
+[ItemDef iDustyAdventurersBackpack]
+ID=iBackpack
+Name=dusty adventurer's backpack
+NameLoc=1113189
+
+Category=Provisions
+Subsection=Containers
+Descripton=Dusty Adventurer's Backpack
+
+
+[ItemDef iDustyExplorersBackpack]
+ID=iBackpack
+Name=dusty explorer's backpack
+NameLoc=1113190
+
+Category=Provisions
+Subsection=Containers
+Descripton=Dusty Explorer's Backpack
+
+
+[ItemDef iDustyHuntersBackpack]
+ID=iBackpack
+Name=dusty hunter's backpack
+NameLoc=1113191
+
+Category=Provisions
+Subsection=Containers
+Descripton=Dusty Hunter's Backpack
+
+
+[ItemDef iCraftmansSatchel]
+ID=iBackpack
+Name=craftman's satchel
+NameLoc=1074282
+
+Category=Provisions
+Subsection=Containers
+Descripton=Craftsman's Satchel
+
+
+[ItemDef iGemologistsSatchel]
+ID=iBackpack
+Name=gemologist's satchel
+NameLoc=1113378
+
+Category=
+Subsection=Containers
+Descripton=Gemologist's Satchel
+
+
+[ItemDef iMeagerImbuingBag]
+ID=iBackpack
+Name=meager imbuing bag
+NameLoc=1113767
+
+Category=Provisions
+Subsection=Containers
+Descripton=Meager Imbuing Bag
+
+
+[ItemDef iAverageImbuingBag]
+ID=iBackpack
+Name=average imbuing bag
+NameLoc=1113768
+
+Category=Provisions
+Subsection=Containers
+Descripton=Average Imbuing Bag
+
+
+[ItemDef iValuableImbuingBag]
+ID=iBackpack
+Name=valuable imbuing bag
+NameLoc=1113769
+
+Category=Provisions
+Subsection=Containers
+Descripton=Valuable Imbuing Bag
+
+
+[ItemDef iEssenceBox]
+ID=iWoodenBox
+Name=Essence Box
+NameLoc=1113770
+
+Category=Provisions
+Subsection=Containers
+Descripton=Essence Box
+
+
+[ItemDef i12thAnniversaryGiftBag]
+ID=iBag
+Name=12th Anniversary Gift Bag
+NameLoc=1113929
+
+Category=Provisions
+Subsection=Containers
+Descripton=12th Anniversary Gift Bag
+
+
+[ItemDef iBagOfTrinkets]
+ID=iBag
+Name=Bag of Trinkets
+NameLoc=1115594
+
+Category=Provisions
+Subsection=Containers
+Descripton=Bag of Trinkets
+
+
+[ItemDef i13thAnniversaryGiftBag]
+ID=iBag
+Name=13th Anniversary Gift Bag
+NameLoc=1149867
+
+Category=Provisions
+Subsection=Containers
+Descripton=13th anniversary gift bag
+
+
+[ItemDef i14thAnniversaryGiftBag]
+ID=iBag
+Name=14th Anniversary Gift Bag
+NameLoc=1151618
+
+Category=Provisions
+Subsection=Containers
+Descripton=14th anniversary gift bag
+
+
+[ItemDef i15thAnniversaryGiftBag]
+ID=iBag
+Name=15th Anniversary Gift Bag
+NameLoc=1153146
+
+Category=Provisions
+Subsection=Containers
+Descripton=15th Anniversary Gift Bag
+
+
+[ItemDef i16thAnniversaryGiftBag]
+ID=iBag
+Name=16th Anniversary Gift Bag
+NameLoc=1154356
+
+Category=Provisions
+Subsection=Containers
+Descripton=16th Anniversary Gift Bag
+
+
+[ItemDef i17thAnniversaryGiftBag]
+ID=iBag
+Name=17th Anniversary Gift Bag
+NameLoc=1155416
+
+Category=Provisions
+Subsection=Containers
+Descripton=17th Anniversary Gift Bag
+
+
+[ItemDef i18thAnniversaryGiftBag]
+ID=iBag
+Name=18th Anniversary Gift Bag
+NameLoc=1156141
+
+Category=Provisions
+Subsection=Containers
+Descripton=18th Anniversary Gift Bag
+
+
+[ItemDef iNecromancersBag]
+ID=iBag
+Name=Necromancer's bag
+NameLoc=1041082
+
+Category=Provisions
+Subsection=Containers
+Descripton=Necromancer's bag
+
+
+[ItemDef iBagOfNecromancerReagents]
+ID=iBag
+Name=Bag of Necromancer Reagents
+NameLoc=1078053
+
+Category=Provisions
+Subsection=Containers
+Descripton=Bag of Necromancer Reagents
+
+
+[ItemDef iBagOfSmokeBombs]
+ID=iBag
+Name=Bag of Smoke Bombs
+NameLoc=1078173
+
+Category=Provisions
+Subsection=Containers
+Descripton=Bag of Smoke Bombs
+
+
+[EOF]

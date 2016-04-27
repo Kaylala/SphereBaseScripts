@@ -1,0 +1,169 @@
+[ItemDef 0436E]
+DefName=iGargishRenaissanceDoor1
+Name=gargish renaissance door
+NameLoc=1096134
+Type=tDoor
+TData1=
+TData2=
+TData3=0436E
+TData4=0436F
+Weight=255
+DupeList=0436F
+
+Category=Structures
+Subsection=Doors
+Description=Gargish Renaissance Door 1 (South)
+
+[ItemDef 0436F]
+NameLoc=1096135
+DupeItem=0436E
+
+
+[ItemDef 04370]
+DefName=iGargishRenaissanceDoor2
+Name=gargish renaissance door
+NameLoc=1096136
+Type=tDoor
+TData1=
+TData2=
+TData3=04370
+TData4=04371
+Weight=255
+DupeList=04371
+
+Category=Structures
+Subsection=Doors
+Description=Gargish Renaissance Door 2 (South)
+
+[ItemDef 04371]
+NameLoc=1096137
+DupeItem=04370
+
+
+[ItemDef 04376]
+DefName=iGargishRenaissanceDoor3
+Name=gargish renaissance door
+NameLoc=1096142
+Type=tDoor
+TData1=
+TData2=
+TData3=04376
+TData4=04377
+Weight=255
+DupeList=04377
+
+Category=Structures
+Subsection=Doors
+Description=Gargish Renaissance Door 1 (East)
+
+[ItemDef 04377]
+NameLoc=1096143
+DupeItem=04376
+
+
+[ItemDef 04378]
+DefName=iGargishRenaissanceDoor4
+Name=gargish renaissance door
+NameLoc=1096144
+Type=tDoor
+TData1=
+TData2=
+TData3=04378
+TData4=04379
+Weight=255
+DupeList=04379
+
+Category=Structures
+Subsection=Doors
+Description=Gargish Renaissance Door 2 (East)
+
+[ItemDef 04379]
+NameLoc=1096145
+DupeItem=04378
+
+
+[ItemDef 04372]
+DefName=iGargishDraxinusomDoor1
+Name=gargish Draxinusom door
+NameLoc=1096138
+Type=tDoor
+TData1=
+TData2=
+TData3=04372
+TData4=04373
+Weight=255
+DupeList=04373
+
+Category=Structures
+Subsection=Doors
+Description=Gargish Draxinusom Door 1 (South)
+
+[ItemDef 04373]
+NameLoc=1096139
+DupeItem=04372
+
+
+[ItemDef 04374]
+DefName=iGargishDraxinusomDoor2
+Name=gargish Draxinusom door
+NameLoc=1096140
+Type=tDoor
+TData1=
+TData2=
+TData3=04374
+TData4=04375
+Weight=255
+DupeList=04375
+
+Category=Structures
+Subsection=Doors
+Description=Gargish Draxinusom Door 2 (South)
+
+[ItemDef 04375]
+NameLoc=1096141
+DupeItem=04374
+
+
+[ItemDef 0437A]
+DefName=iGargishDraxinusomDoor3
+Name=gargish Draxinusom door
+NameLoc=1096146
+Type=tDoor
+TData1=
+TData2=
+TData3=0437A
+TData4=0437B
+Weight=255
+DupeList=0437B
+
+Category=Structures
+Subsection=Doors
+Description=Gargish Draxinusom Door 1 (East)
+
+[ItemDef 0437B]
+NameLoc=1096147
+DupeItem=0437A
+
+
+[ItemDef 0437C]
+DefName=iGargishDraxinusomDoor4
+Name=gargish Draxinusom door
+NameLoc=1096148
+Type=tDoor
+TData1=
+TData2=
+TData3=0437C
+TData4=0437D
+Weight=255
+DupeList=0437D
+
+Category=Structures
+Subsection=Doors
+Description=Gargish Draxinusom Door 2 (East)
+
+[ItemDef 0437D]
+NameLoc=1096149
+DupeItem=0437C
+
+
+[EOF]

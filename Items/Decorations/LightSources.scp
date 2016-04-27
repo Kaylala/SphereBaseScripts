@@ -1,0 +1,42 @@
+[ItemDef 04039]
+DefName=iTerMurStyleCandelabra1
+Name=Ter-Mur style candelabra
+NameLoc=1095313
+Type=tUnlitLight
+TData3=iTerMurStyleCandelabra2
+Weight=10
+
+Category=Decorations
+Subsection=Light Sources
+Description=Ter-Mur Style Candelabra (Unlit)
+
+On=@Create
+MoreZ=1
+
+
+[ItemDef 040BE]
+DefName=iTerMurStyleCandelabra2
+Name=Ter-Mur style candelabra
+NameLoc=1095446
+Type=tLitLight
+TData3=iTerMurStyleCandelabra1
+Weight=10
+DupeList=040BF,040C0
+
+Category=Decorations
+Subsection=Light Sources
+Description=Ter-Mur Style Candelabra (Lit)
+
+On=@Create
+MoreZ=1
+
+[ItemDef 040BF]
+NameLoc=1095447
+DupeItem=040BE
+
+[ItemDef 040C0]
+NameLoc=1095448
+DupeItem=040BE
+
+
+[EOF]

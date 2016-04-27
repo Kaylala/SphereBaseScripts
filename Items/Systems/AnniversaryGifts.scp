@@ -1,0 +1,49 @@
+//////////////////////
+// 12th Anniversary //
+//////////////////////
+
+[ItemDef iSilverSaplingDeed]
+
+[ItemDef 042C7]
+DefName=iSilverSaplingReplica
+Name=silver sapling replica
+NameLoc=1095967
+Type=tNormal
+Weight=1
+
+Category=Systems
+Subsection=Anniversary Gifts: 12th
+Description=Silver Sapling Replica
+
+
+[ItemDef 042C8]
+DefName=iPottedSilverSaplingReplica
+Name=potted silver sapling replica
+NameLoc=1095968
+Type=tNormal
+Weight=1
+
+Category=Systems
+Subsection=Anniversary Gifts: 12th
+Description=Potted Silver Sapling Replica
+
+
+[ItemDef 042C9]
+DefName=iUtimaBanner
+Name=Ultima Banner
+NameLoc=1095969
+Type=tNormal
+Can=CanIFlip
+Weight=2
+DupeList=042CA
+
+Category=Systems
+Subsection=Anniversary Gifts: 12th
+Description=Ultima Banner
+
+[ItemDef 042CA]
+NameLoc=1095970
+DupeItem=042C9
+
+
+[EOF]

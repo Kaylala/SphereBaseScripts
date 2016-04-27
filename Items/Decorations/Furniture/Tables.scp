@@ -1,0 +1,60 @@
+[ItemDef 0402F]
+DefName=iLongTable1
+Name=long table
+NameLoc=1095303
+Type=tTable
+Weight=255
+DupeList=04030
+
+Category=Decorative
+Subsection=Furniture: Tables
+Description=Long Table (South)
+
+[ItemDef 04030]
+NameLoc=1095304
+DupeItem=0402F
+
+
+[ItemDef 04031]
+DefName=iLongTable2
+Name=long table
+NameLoc=1095305
+Type=tTable
+Weight=255
+DupeList=04032
+
+Category=Decorative
+Subsection=Furniture: Tables
+Description=Long Table (East)
+
+[ItemDef 04032]
+NameLoc=1095306
+DupeItem=04031
+
+
+[ItemDef 04033]
+DefName=iShortTable
+Name=short table
+NameLoc=1095307
+Type=tTable
+Weight=255
+DupeList=04034,04035,04036
+
+Category=Decorative
+Subsection=Furniture: Tables
+Description=Short Table
+
+[ItemDef 04034]
+NameLoc=1095308
+DupeItem=04033
+
+[ItemDef 04035]
+NameLoc=1095309
+DupeItem=04033
+
+[ItemDef 04036]
+NameLoc=1095310
+DupeItem=04033
+
+
+[EOF]

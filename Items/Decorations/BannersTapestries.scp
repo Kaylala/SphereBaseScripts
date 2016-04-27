@@ -1,0 +1,18 @@
+[ItemDef 04037]
+DefName=iGargishBanner
+Name=gargish banner
+NameLoc=1095311
+Type=tNormal
+Weight=255
+DupeList=04038
+
+Category=Decorative
+Subsection=Banners & Tapestries
+Description=Gargish Banner
+
+[ItemDef 04038]
+NameLoc=1095312
+DupeItem=04037
+
+
+[EOF]

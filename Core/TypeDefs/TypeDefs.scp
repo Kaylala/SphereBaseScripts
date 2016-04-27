@@ -22,6 +22,47 @@ WeightCliLoc
 Return 1
 
 
+[TypeDef tDoor]
+// Do NOT use More1 to store a door key UID. You might want more than ONE key for the door.
+// This needs testing. If there is BLOCKING issues, it is with CanIDoor and TileFDoor and means they
+// were coded wrong in the source, just like doors are coded wrong. Doors are on a standard hinge and
+// and should NEVER open based on facing. Source also runs checks for 16 doors in a row with this poor
+// code and moves the door. This was never needed and was a bad practice by Sphere. If any changes ARE
+// needed, it will be in the source with TileFDoor and CanIDoor. They would be the culprit.
+// More1=0 is Unlocked. 1 is Locked.
+// TData1=Opening Sound
+// TData2=Closing Sound
+// TData3=Closed Door ID
+// TData4=Open Door ID
+On=@DClick
+If (<DispIDDec> == <TData3>)
+ DispID=<TData4>
+ Can=CanIDoor|CanIBlockLOS
+ Flags=TileFDoor|TileFNoShoot
+ Sound=<TData1>
+ Timer=30
+ Update
+ElIf (<DispIDDec> == <TData4>)
+ DispID=<TData3>
+ Can=CanIDoor|CanIBlock|CanIBlockLOS
+ Flags=TileFDoor|TileFImpassable|TileFNoShoot|TileFWall
+ Sound=<TData2>
+ Timer=-1
+ Update
+EndIf
+Return 1
+
+On=@Timer
+If (<DispIDDec> == <TData4>)
+ DispID=<TData3>
+ Can=CanIDoor|CanIBlock|CanIBlockLOS
+ Flags=TileFDoor|TileFImpassable|TileFNoShoot|TileFWall
+ Sound=<TData2>
+ Timer=-1
+ Update
+EndIf
+Return 1
+
 
 // Still need to add in 500 check.
 [TypeDef tQuiver]

@@ -19,6 +19,7 @@ tLockedDoor					4 // a locked door.
 tKey						5
 tLitLight					6 // local light giving object
 tUnlitLight					7 // can be lit.
+tLightout					tUnlitLight
 tFood						8 // edible food. (poisoned food ?)
 tRawFood					9 // must cook raw food unless your an animal.
 tArmor						10 // some type of armor. (no real action)
@@ -199,6 +200,7 @@ tHairDye					169
 tTailoringTool				170
 tSewingKit					tTailoringTool
 tTinkeringTool				171
+tTinkerTools				tTinkeringTool
 tWall						172 // wall of a structure.
 tWindow						173 // window for a structure.
 tCotton						174 // cotton from the plant

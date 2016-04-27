@@ -1,0 +1,13 @@
+[ItemDef 042C4]
+DefName=iColorfulTapestry
+Name=colorful tapestry
+NameLoc=1095964
+Type=tNormal
+Weight=5
+
+Category=Systems
+Subsection=Experimental Room: Rewards
+Description=Colorful Tapestry
+
+
+[EOF]

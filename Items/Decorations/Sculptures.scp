@@ -1,0 +1,121 @@
+[ItemDef 040BC]
+DefName=iMedusa
+Name=medusa
+NameLoc=1095444
+Type=tNormal
+Weight=10
+
+Category=Decorations
+Subsection=Sculptures
+Description=Medusa
+
+
+[ItemDef 040BD]
+DefName=iPushmePullyu
+Name=pushme pullyu
+NameLoc=1095445
+Type=tNormal
+Weight=5
+
+Category=Decorations
+Subsection=Sculptures
+Description=Pushme Pullyu
+
+
+[ItemDef 042BB]
+DefName=iGargishProtectiveTotem
+Name=gargish protective totem
+NameLoc=1095955
+Type=tNormal
+Weight=3
+
+Category=Decorations
+Subsection=Sculptures
+Description=Gargish Protective Totem
+
+
+[ItemDef 042BC]
+DefName=iGargishVigilanceTotem
+Name=gargish vigilance totem
+NameLoc=1095956
+Type=tNormal
+Weight=255
+
+Category=Decorations
+Subsection=Sculptures
+Description=Gargish Vigilance Totem
+
+
+[ItemDef 042BD]
+DefName=iGrimWarning
+Name=grim warning
+NameLoc=1095957
+Type=tNormal
+Weight=5
+
+Category=Decorations
+Subsection=Sculptures
+Description=Grim Warning
+
+
+[ItemDef 042C0]
+DefName=iGargishLLuckTotem
+Name=gargish luck totem
+NameLoc=1095960
+Type=tNormal
+Weight=3
+
+Category=Decorations
+Subsection=Sculptures
+Description=Gargish Luck Totem
+
+
+[ItemDef 042C1]
+DefName=iGargishKnowledgeTotem
+Name=gargish knowledge totem
+NameLoc=1095961
+Type=tNormal
+Weight=3
+
+Category=Decorations
+Subsection=Sculptures
+Description=Gargish Knowledge Totem
+
+
+[ItemDef 042C2]
+DefName=iGargishWarriorStatue
+Name=gargish warrior statue
+NameLoc=1095962
+Type=tNormal
+Weight=10
+
+Category=Decorations
+Subsection=Sculptures
+Description=Gargish Warrior Statue
+
+
+[ItemDef 042C3]
+DefName=iGargishMemorialStatue
+Name=gargish memorial statue
+NameLoc=1095963
+Type=tNormal
+Weight=10
+
+Category=Decorations
+Subsection=Sculptures
+Description=Gargish Memorial Statue
+
+
+[ItemDef 042C5]
+DefName=iGargoyleStatue
+Name=gargoyle statue
+NameLoc=1095965
+Type=tNormal
+Weight=10
+
+Category=Decorations
+Subsection=Sculptures
+Description=Gargoyle Statue
+
+
+[EOF]

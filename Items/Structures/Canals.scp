@@ -1,0 +1,231 @@
+[ItemDef 0437E]
+DefName=iCanal1
+NameLoc=1096150	// Blank
+Weight=255
+DupeList=0437F,04380,04381
+
+Category=Structures
+Subsection=Canals
+Description=Canal
+
+[Itemdef 0437F]
+NameLoc=1096151
+DupeItem=0437E
+
+[Itemdef 04380]
+NameLoc=1096152
+DupeItem=0437E
+
+[Itemdef 04381]
+NameLoc=1096153
+DupeItem=0437E
+
+
+[ItemDef 04382]
+DefName=iCanal2
+NameLoc=1096154	// Blank
+Weight=255
+DupeList=04383,04384,04385
+
+Category=Structures
+Subsection=Canals
+Description=Canal
+
+[Itemdef 04383]
+NameLoc=1096155
+DupeItem=04382
+
+[Itemdef 04384]
+NameLoc=1096156
+DupeItem=04382
+
+[Itemdef 04385]
+NameLoc=1096157
+DupeItem=04382
+
+
+[ItemDef 04386]
+DefName=iCanal3
+NameLoc=1096158	// Blank
+Weight=255
+DupeList=04387,04388,04389
+
+Category=Structures
+Subsection=Canals
+Description=Canal
+
+[Itemdef 04387]
+NameLoc=1096159
+DupeItem=04386
+
+[Itemdef 04388]
+NameLoc=1096160
+DupeItem=04386
+
+[Itemdef 04389]
+NameLoc=1096161
+DupeItem=04386
+
+
+[ItemDef 0438A]
+DefName=iCanal4
+NameLoc=1096162	// Blank
+Weight=255
+DupeList=0438B,0438C,0438D
+
+Category=Structures
+Subsection=Canals
+Description=Canal
+
+[ItemDef 0438B]
+NameLoc=1096163
+DupeItem=0438A
+
+[ItemDef 0438C]
+NameLoc=1096164
+DupeItem=0438A
+
+[ItemDef 0438D]
+NameLoc=1096165
+DupeItem=0438A
+
+
+[ItemDef 0438E]
+DefName=iCanal5
+NameLoc=1096166	// Blank
+Weight=255
+DupeList=0438F,04390,04391
+
+Category=Structures
+Subsection=Canals
+Description=Canal
+
+[ItemDef 0438F]
+NameLoc=1096167
+DupeItem=0438E
+
+[ItemDef 04390]
+NameLoc=1096168
+DupeItem=0438E
+
+[ItemDef 04391]
+NameLoc=1096169
+DupeItem=0438E
+
+
+[ItemDef 04392]
+DefName=iCanal6
+NameLoc=1096170	// Blank
+Weight=255
+DupeList=04393,04394,04395
+
+Category=Structures
+Subsection=Canals
+Description=Canal
+
+[ItemDef 04393]
+NameLoc=1096171
+DupeItem=04392
+
+[ItemDef 04394]
+NameLoc=1096172
+DupeItem=04392
+
+[ItemDef 04395]
+NameLoc=1096173
+DupeItem=04392
+
+
+[ItemDef 04396]
+DefName=iCanal7
+NameLoc=1096174	// Blank
+Weight=255
+DupeList=04397,04398,04399
+
+Category=Structures
+Subsection=Canals
+Description=Canal
+
+[ItemDef 04397]
+NameLoc=1096175
+DupeItem=04396
+
+[ItemDef 04398]
+NameLoc=1096176
+DupeItem=04396
+
+[ItemDef 04399]
+NameLoc=1096177
+DupeItem=04396
+
+
+[ItemDef 0439A]
+DefName=iCanal8
+NameLoc=1096178	// Blank
+Weight=255
+DupeList=0439B,0439C,0439D
+
+Category=Structures
+Subsection=Canals
+Description=Canal
+
+[ItemDef 0439B]
+NameLoc=1096179
+DupeItem=0439A
+
+[ItemDef 0439C]
+NameLoc=1096180
+DupeItem=0439A
+
+[ItemDef 0439D]
+NameLoc=1096181
+DupeItem=0439A
+
+
+[ItemDef 0439E]
+DefName=iCanal9
+NameLoc=1096182	// Blank
+Weight=255
+DupeList=0439F,043A0,043A1
+
+Category=Structures
+Subsection=Canals
+Description=Canal
+
+[ItemDef 0439F]
+NameLoc=1096183
+DupeItem=0439E
+
+[ItemDef 043A0]
+NameLoc=1096184
+DupeItem=0439E
+
+[ItemDef 043A1]
+NameLoc=1096185
+DupeItem=0439E
+
+
+[ItemDef 043A2]
+DefName=iCanal10
+NameLoc=1096186	// Blank
+Weight=255
+DupeList=043A3,043A4,043A5
+
+Category=Structures
+Subsection=Canals
+Description=Canal
+
+[ItemDef 043A3]
+NameLoc=1096187
+DupeItem=043A2
+
+[ItemDef 043A4]
+NameLoc=1096188
+DupeItem=043A2
+
+[ItemDef 043A5]
+NameLoc=1096189
+DupeItem=043A2
+
+
+[EOF]

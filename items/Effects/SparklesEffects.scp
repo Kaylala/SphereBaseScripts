@@ -319,56 +319,71 @@ DupeItem=03779
 DupeItem=03779
 
 
-[ItemDef 042cf]
-DefName=iFxSparkle3
-Type=tSpell
-DupeList=042d0,042d1,042d2,042d3,042d4,042d5,042d6,042d7,042d8,042d9,042da,042db,042dc,042dd,
+[ItemDef 042CF]
+DefName=iLingeringEssence
+Name=lingering essence
+NameLoc=1095975
+DupeList=042D0,042D1,042D2,042D3,042D4,042D5,042D6,042D7,042D8,042D9,042DA,042DB,042DC,042DD
 
 Category=Effects
-Subsection=Red Sparkles
-Description=Red Sparkle 2
+Subsection=Sparkles
+Description=Lingering Essence
 
-[ItemDef 042d0]
-DupeItem=042cf
+[ItemDef 042D0]
+DupeItem=042CF
+NameLoc=1095976
 
-[ItemDef 042d1]
-DupeItem=042cf
+[ItemDef 042D1]
+DupeItem=042CF
+NameLoc=1095977
 
-[ItemDef 042d2]
-DupeItem=042cf
+[ItemDef 042D2]
+DupeItem=042CF
+NameLoc=1095978
 
-[ItemDef 042d3]
-DupeItem=042cf
+[ItemDef 042D3]
+DupeItem=042CF
+NameLoc=1095979
 
-[ItemDef 042d4]
-DupeItem=042cf
+[ItemDef 042D4]
+DupeItem=042CF
+NameLoc=1095980
 
-[ItemDef 042d5]
-DupeItem=042cf
+[ItemDef 042D5]
+DupeItem=042CF
+NameLoc=1095981
 
-[ItemDef 042d6]
-DupeItem=042cf
+[ItemDef 042D6]
+DupeItem=042CF
+NameLoc=1095982
 
-[ItemDef 042d7]
-DupeItem=042cf
+[ItemDef 042D7]
+DupeItem=042CF
+NameLoc=1095983
 
-[ItemDef 042d8]
-DupeItem=042cf
+[ItemDef 042D8]
+DupeItem=042CF
+NameLoc=1095984
 
-[ItemDef 042d9]
-DupeItem=042cf
+[ItemDef 042D9]
+DupeItem=042CF
+NameLoc=1095985
 
-[ItemDef 042da]
-DupeItem=042cf
+[ItemDef 042DA]
+DupeItem=042CF
+NameLoc=1095986
 
-[ItemDef 042db]
-DupeItem=042cf
+[ItemDef 042DB]
+DupeItem=042CF
+NameLoc=1095987
 
-[ItemDef 042dc]
-DupeItem=042cf
+[ItemDef 042DC]
+DupeItem=042CF
+NameLoc=1095988
 
-[ItemDef 042dd]
-DupeItem=042cf
+[ItemDef 042DD]
+DupeItem=042CF
+NameLoc=1095989
 
 
 [ItemDef 05683]

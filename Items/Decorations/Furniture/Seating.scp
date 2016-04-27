@@ -1,0 +1,52 @@
+[ItemDef 04023]
+DefName=iTerMurStyleChair
+Name=Ter-Mur style chair
+NameLoc=1095291
+Type=tBed
+Weight=20
+DupeList=04024
+
+Category=Decorative
+Subsection=Furniture: Seating
+Description=Ter-Mur Style Chair
+
+[ItemDef 04024]
+NameLoc=1095292
+DupeItem=04023
+
+
+[ItemDef 04027]
+DefName=iGargishCouch1
+Name=gargish couch
+NameLoc=1095295
+Type=tChair
+Weight=255
+DupeList=04028
+
+Category=Decorative
+Subsection=Furniture: Seating
+Description=Gargish Couch (South)
+
+[ItemDef 04028]
+NameLoc=1095296
+DupeItem=04027
+
+
+[ItemDef 04029]
+DefName=iGargishCouch2
+Name=gargish couch
+NameLoc=1095297
+Type=tChair
+Weight=255
+DupeList=0402A
+
+Category=Decorative
+Subsection=Furniture: Seating
+Description=Gargish Couch (East)
+
+[ItemDef 0402A]
+NameLoc=1095298
+DupeItem=04029
+
+
+[EOF]

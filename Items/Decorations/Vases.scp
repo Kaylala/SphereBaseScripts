@@ -1,0 +1,42 @@
+[ItemDef 04042]
+DefName=iGargishVase
+Name=gargish vase
+NameLoc=1095322
+Type=tNormal
+Weight=10
+DupeList=04043
+
+Category=Decorations
+Subsection=Vases
+Description=Gargish Vase
+
+[ItemDef 04043]
+NameLoc=1095323
+DupeItem=04042
+
+
+[ItemDef 042B2]
+DefName=iGargishTraditionalVase
+Name=gargish traditional vase
+NameLoc=1095946
+Type=tNormal
+Weight=5
+
+Category=Decorations
+Subsection=Vases
+Description=Gargish Traditional Vase
+
+
+[ItemDef 042B3]
+DefName=iGargishBentasVase
+Name=gargish bentas vase
+NameLoc=1095947
+Type=tNormal
+Weight=5
+
+Category=Decorations
+Subsection=Vases
+Description=Gargish Bentas Vase
+
+
+[EOF]

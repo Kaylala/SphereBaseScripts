@@ -33,6 +33,7 @@ Scripts/Speech/						// Might be able to move this to the bottom of operations.
 Scripts/Items/
 Scripts/Items/Artifacts/
 Scripts/Items/Decorations/
+Scripts/Items/Decorations/Furniture/
 Scripts/Items/Effects/
 Scripts/Items/Equipment/
 Scripts/Items/Equipment/Armor/
@@ -50,6 +51,8 @@ Scripts/Items/Resources/Mining/
 Scripts/Items/Resources/PeerlessIngredients/
 Scripts/Items/Resources/Skinning/
 Scripts/Items/ShipParts/
+Scripts/Items/Structures/
+Scripts/Items/Systems/
 // Mobiles
 Scripts/Mobiles/
 Scripts/Mobiles/Animals/

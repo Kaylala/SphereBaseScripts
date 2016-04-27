@@ -1,0 +1,187 @@
+[ItemDef 04025]
+DefName=iGargishChest
+Name=gargish chest
+NameLoc=1095293
+Type=tBed
+Weight=255
+DupeList=04026
+
+Category=Provisions
+Subsection=Containers
+Description=Gargish Chest
+
+[ItemDef 04026]
+NameLoc=1095294
+DupeItem=04025
+
+
+[ItemDef 0402B]
+DefName=iTerMurStyleDresser1
+Name=Ter-Mur style dresser
+NameLoc=1095299
+Type=tContainer
+Weight=255
+DupeList=0402C
+
+Category=Decorative
+Subsection=Furniture: Furniture
+Description=Ter-Mur Style Dresser (South)
+
+[ItemDef 0402C]
+NameLoc=1095300
+DupeItem=0402B
+
+
+[ItemDef 0402D]
+DefName=iTerMurStyleDresser2
+Name=Ter-Mur style dresser
+NameLoc=1095301
+Type=tContainer
+Weight=255
+DupeList=0402E
+
+Category=Decorative
+Subsection=Furniture: Furniture
+Description=Ter-Mur Style Dresser (East)
+
+[ItemDef 0402E]
+NameLoc=1095302
+DupeItem=0402D
+
+
+[ItemDef 0403A]
+DefName=iTerMurStyleFloorMirror
+Name=Ter-Mur style floor mirror
+NameLoc=1095314
+Type=tNormal
+Weight=255
+DupeList=04046
+
+Category=Decorative
+Subsection=Furniture: Mirrors
+Description=Ter-Mur Style Floor Mirror
+
+[ItemDef 04046]
+NameLoc=1095326
+DupeItem=0403A
+
+
+[ItemDef 0403B]
+DefName=iAudChar
+Name=aud-char
+NameLoc=1095315
+Type=tMusical
+TData1=	// Success
+TData2=	// Failed
+Weight=10
+DupeList=0403C
+
+Category=Decorative
+Subsection=Musical Instruments
+Description=Aud-Char
+
+[ItemDef 0403C]
+NameLoc=1095316
+DupeItem=0403B
+
+
+[ItemDef 0403D]
+DefName=iGargishPainting
+Name=gargish painting
+NameLoc=1095317
+Type=tNormal
+Weight=10
+DupeList=0403E
+
+Category=Decorative
+Subsection=Paintings
+Description=Gargish Painting
+
+[ItemDef 0403E]
+NameLoc=1095318
+DupeItem=0403D
+
+
+[ItemDef 0403F]
+DefName=iGargishSculpture
+Name=gargish sculpture
+NameLoc=1095319
+Type=tNormal
+Weight=255
+DupeList=04040
+
+Category=Decorative
+Subsection=Sculptures
+Description=Gargish Sculpture
+
+[ItemDef 04040]
+NameLoc=1095320
+DupeItem=0403F
+
+
+[ItemDef 04041]
+DefName=iTerMurStyleTable
+Name=Ter-Mur style table
+NameLoc=1095321
+Type=tTable
+Weight=10
+
+Category=Decorative
+Subsection=Furnitures: Tables
+Description=Ter-Mur Style Table
+
+
+[ItemDef 04044]
+DefName=iTerMurStyleWallMirror
+Name=Ter-Mur style wall mirror
+NameLoc=1095324
+Type=tNormal
+Weight=10
+DupeList=04045
+
+Category=Decorative
+Subsection=Furnitures: Mirrors
+Description=Ter-Mur Style Wall Mirror
+
+[ItemDef 04045]
+NameLoc=1095325
+DupeItem=04044
+
+
+[ItemDef 042B5]
+DefName=iSkullsOnPike
+Name=skulls on pike
+NameLoc=1095949
+Type=tNormal
+Weight=5
+
+Category=Decorative
+Subsection=Miscellaneous
+Description=Skulls on Pike
+
+
+[ItemDef 042B6]
+DefName=iGargishPortrait
+Name=gargish portrait
+NameLoc=1095950
+Type=tNormal
+Weight=5
+
+Category=Decorative
+Subsection=Paintings
+Description=Gargish Portrait
+
+
+[ItemDef 042BE]
+DefName=iLargePewterBowl
+Name=large pewter bowl
+NameLoc=1095958
+Type=tNormal
+Weight=2
+
+Category=Decorative
+Subsection=Houseware
+Description=Large Pewter Bowl
+
+
+[EOF]

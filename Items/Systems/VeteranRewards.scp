@@ -1,0 +1,90 @@
+[ItemDef 042CB]
+DefName=iChaosBanner
+Name=chaos banner
+NameLoc=1095971
+Type=tNormal
+Can=CanIFlip
+Weight=2
+DupeList=042CC
+
+Category=Systems
+Subsection=Veteran Rewards: 12th Year
+Description=Chaos Banner
+
+[ItemDef 042CC]
+NameLoc=1095972
+DupeItem=042CB
+
+
+[ItemDef 042CD]
+DefName=iOrderBanner
+Name=order banner
+NameLoc=1095973
+Type=tNormal
+Can=CanIFlip
+Weight=2
+DupeList=042CE
+
+Category=Systems
+Subsection=Veteran Rewards: 12th Year
+Description=Order Banner
+
+[ItemDef 042CE]
+NameLoc=1095974
+DupeItem=042CD
+
+
+[ItemDef iCommodityDeedBox]
+ID=iWoodenBox
+Name=Commodity Deed Box
+NameLoc=1080523
+
+Category=Systems
+Subsection=Veteran Rewards: 1st Year
+Description=Commodity Deed Box
+
+On=@Create
+Color=
+
+// 1080525;The commodity deed box must be secured before you can use it.
+// 1080526;That must be in your bank box or commodity deed box to use it.
+
+
+[ItemDef 042C6]
+DefName=iRetouchingTool
+Name=retouching tool
+NameLoc=1095966
+Type=tNormal
+Weight=1
+
+Category=Systems
+Subsection=Veteran Awards: 11th Year
+Description=Retouching Tool
+
+//1113814;retouching tool
+//1113818;Mount Hue: ~1_val~
+//1152952;Normal
+//1078520;Transparent
+
+On=@DClick
+Src.SMsgL -1,1113815	// Target the ethereal mount you wish to retouch.
+Target
+Return 1
+
+On=@TargOn_Item
+If (<ArgO.Type> == tEtherealStatuette)
+ If (<ArgO.Tag0.Hue> == Normal)
+  ArgO.Tag.Hue=Transparent
+  Src.SMsgL -1,1113817	// Your ethereal mount's transparency has been restored.
+  ArgO.Update
+  Return 1
+ Else
+  ArgO.Tag.Hue=Normal
+  Src.SMsgL -1,1113816	// Your ethereal mount's body has been solidified.
+  ArgO.Update
+  Return 1
+ EndIf
+EndIf
+
+
+[EOF]

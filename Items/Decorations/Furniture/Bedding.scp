@@ -8,7 +8,7 @@ Weight=255
 DupeList=0A6D
 
 Category=Decorations
-Subsection=Bedding
+Subsection=Furniture: Bedding
 Description=Folded Blanket
 
 [ItemDef 0A6D]
@@ -26,7 +26,7 @@ Weight=255
 DupeList=0A6F
 
 Category=Decorations
-Subsection=Bedding
+Subsection=Furniture: Bedding
 Description=Folded Blanket
 
 [ItemDef 0A6F]
@@ -44,7 +44,7 @@ Weight=1
 DupeList=0A95
 
 Category=Decorations
-Subsection=Bedding
+Subsection=Furniture: Bedding
 Description=Folded Sheet
 
 [ItemDef 0A95]
@@ -62,7 +62,7 @@ Weight=1
 DupeList=0A97
 
 Category=Decorations
-Subsection=Bedding
+Subsection=Furniture: Bedding
 Description=Folded Rich Sheet
 
 [ItemDef 0A97]
@@ -80,7 +80,7 @@ Weight=1
 DupeList=011EB
 
 Category=Decorations
-Subsection=Bedding
+Subsection=Furniture: Bedding
 Description=Straw Pillow
 
 [ItemDef 011EB]
@@ -98,7 +98,7 @@ Weight=1
 DupeList=013A6
 
 Category=Decorations
-Subsection=Bedding
+Subsection=Furniture: Bedding
 Description=Pillow
 
 [ItemDef 013A6]
@@ -116,7 +116,7 @@ Weight=1
 DupeList=013A5
 
 Category=Decorations
-Subsection=Bedding
+Subsection=Furniture: Bedding
 Description=Pillow
 
 [ItemDef 013A5]
@@ -132,7 +132,7 @@ Type=tNormal
 Weight=1
 
 Category=Decorations
-Subsection=Bedding
+Subsection=Furniture: Bedding
 Description=Pillow
 
 
@@ -144,7 +144,7 @@ Type=tNormal
 Weight=1
 
 Category=Decorations
-Subsection=Bedding
+Subsection=Furniture: Bedding
 Description=Pillow
 
 
@@ -158,7 +158,7 @@ Weight=1
 DupeList=013AA
 
 Category=Decorations
-Subsection=Bedding
+Subsection=Furniture: Bedding
 Description=Pillow
 
 [ItemDef 013AA]
@@ -174,7 +174,7 @@ Type=tNormal
 Weight=1
 
 Category=Decorations
-Subsection=Bedding
+Subsection=Furniture: Bedding
 Description=Pillow
 
 
@@ -186,7 +186,7 @@ Type=tNormal
 Weight=1
 
 Category=Decorations
-Subsection=Bedding
+Subsection=Furniture: Bedding
 Description=Pillow
 
 
@@ -200,7 +200,7 @@ Weight=1
 DupeList=013AE
 
 Category=Decorations
-Subsection=Bedding
+Subsection=Furniture: Bedding
 Description=Pillow
 
 [ItemDef 013AE]
@@ -217,7 +217,7 @@ Type=tNormal
 Weight=1
 
 Category=Decorations
-Subsection=Bedding
+Subsection=Furniture: Bedding
 Description=Pillow
 
 
@@ -229,7 +229,7 @@ Type=tNormal
 Weight=1
 
 Category=Decorations
-Subsection=Bedding
+Subsection=Furniture: Bedding
 Description=Pillow
 
 
@@ -241,7 +241,7 @@ Type=tNormal
 Weight=1
 
 Category=Decorations
-Subsection=Bedding
+Subsection=Furniture: Bedding
 Description=Pillow
 
 
@@ -253,7 +253,7 @@ Type=tNormal
 Weight=1
 
 Category=Decorations
-Subsection=Bedding
+Subsection=Furniture: Bedding
 Description=Towel (Massage)
 
 
@@ -265,8 +265,132 @@ Type=tNormal
 Weight=1
 
 Category=Decorations
-Subsection=Bedding
+Subsection=Furniture: Bedding
 Description=Pillow (Massage)
+
+
+[ItemDef 0400C]
+DefName=iGargishCot1
+Name=gargish cot
+NameLoc=1095268
+Type=tBed
+Weight=255
+DupeList=0400D
+
+Category=Decorations
+Subsection=Furniture: Bedding
+Description=Gargish Cot (South)
+
+[ItemDef 0400D]
+NameLoc=1095269
+DupeItem=0400C
+
+
+[ItemDef 0400E]
+DefName=iGargishCot2
+Name=gargish cot
+NameLoc=1095270
+Type=tBed
+Weight=255
+DupeList=0400F
+
+Category=Decorations
+Subsection=Furniture: Bedding
+Description=Gargish Cot (East)
+
+[ItemDef 0400F]
+NameLoc=1095271
+DupeItem=0400E
+
+
+[ItemDef 04010]
+DefName=iLargeGargishBed1
+Name=large gargish bed
+NameLoc=1095272
+Type=tBed
+Weight=255
+DupeList=04011,04012,04013,04014,04015,04016,04017,04018
+
+Category=Decorations
+Subsection=Furniture: Bedding
+Description=Large Gargish Bed (South)
+
+[ItemDef 04011]
+NameLoc=1095273
+DupeItem=04010
+
+[ItemDef 04012]
+NameLoc=1095274
+DupeItem=04010
+
+[ItemDef 04013]
+NameLoc=1095275
+DupeItem=04010
+
+[ItemDef 04014]
+NameLoc=1095276
+DupeItem=04010
+
+[ItemDef 04015]
+NameLoc=1095277
+DupeItem=04010
+
+[ItemDef 04016]
+NameLoc=1095278
+DupeItem=04010
+
+[ItemDef 04017]
+NameLoc=1095279
+DupeItem=04010
+
+[ItemDef 04018]
+NameLoc=1095280
+DupeItem=04010
+
+
+[ItemDef 04019]
+DefName=iLargeGargishBed2
+Name=large gargish bed
+NameLoc=1095281
+Type=tBed
+Weight=255
+DupeList=0401A,0401B,0401C,0401D,0401E,0401F,04020,04021
+
+Category=Decorations
+Subsection=Furniture: Bedding
+Description=Large Gargish Bed (East)
+
+[ItemDef 0401A]
+NameLoc=1095282
+DupeItem=04019
+
+[ItemDef 0401B]
+NameLoc=1095283
+DupeItem=04019
+
+[ItemDef 0401C]
+NameLoc=1095284
+DupeItem=04019
+
+[ItemDef 0401D]
+NameLoc=1095285
+DupeItem=04019
+
+[ItemDef 0401E]
+NameLoc=1095286
+DupeItem=04019
+
+[ItemDef 0401F]
+NameLoc=1095287
+DupeItem=04019
+
+[ItemDef 04020]
+NameLoc=1095288
+DupeItem=04019
+
+[ItemDef 04021]
+NameLoc=1095289
+DupeItem=04019
 
 
 [EOF]
