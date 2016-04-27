@@ -1,3 +1,255 @@
+[ItemDef 0410C]
+DefName=iGargishDoor1
+Name=gargish door
+NameLoc=1095524
+Type=tDoor
+TData1=
+TData2=
+TData3=0410C
+TData4=0410D
+Weight=255
+DupeList=0410D
+
+Category=Structures
+Subsection=Doors
+Description=Gargish Door 1 (South)
+
+[ItemDef 0410D]
+NameLoc=1095525
+DupeItem=0410C
+
+
+[ItemDef 0410E]
+DefName=iGargishDoor2
+Name=gargish door
+NameLoc=1095526
+Type=tDoor
+TData1=
+TData2=
+TData3=0410E
+TData4=0410F
+Weight=255
+DupeList=0410F
+
+Category=Structures
+Subsection=Doors
+Description=Gargish Door 2 (South)
+
+[ItemDef 0410F]
+NameLoc=1095527
+DupeItem=0410E
+
+
+[ItemDef 04110]
+DefName=iGargishDoor3
+Name=gargish door
+NameLoc=1095528
+Type=tDoor
+TData1=
+TData2=
+TData3=04110
+TData4=04111
+Weight=255
+DupeList=04111
+
+Category=Structures
+Subsection=Doors
+Description=Gargish Door 1 (East)
+
+[ItemDef 04111]
+NameLoc=1095529
+DupeItem=04110
+
+
+[ItemDef 04112]
+DefName=iGargishDoor4
+Name=gargish door
+NameLoc=1095530
+Type=tDoor
+TData1=
+TData2=
+TData3=04112
+TData4=04113
+Weight=255
+DupeList=04113
+
+Category=Structures
+Subsection=Doors
+Description=Gargish Door 2 (East)
+
+[ItemDef 04113]
+NameLoc=1095531
+DupeItem=04112
+
+
+[ItemDef 041C2]
+DefName=iGargishCelestialDoor1
+Name=gargish celestial door
+NameLoc=1095706
+Type=tDoor
+TData1=
+TData2=
+TData3=041C2
+TData4=041C3
+Weight=255
+DupeList=041C3
+
+Category=Structures
+Subsection=Doors
+Description=Gargish Celestial Door 1 (South)
+
+[ItemDef 041C3]
+NameLoc=1095707
+DupeItem=041C2
+
+
+[ItemDef 041C4]
+DefName=iGargishCelestialDoor2
+Name=gargish celestial door
+NameLoc=1095708
+Type=tDoor
+TData1=
+TData2=
+TData3=041C4
+TData4=041C5
+Weight=255
+DupeList=041C5
+
+Category=Structures
+Subsection=Doors
+Description=Gargish Celestial Door 2 (South)
+
+[ItemDef 041C5]
+NameLoc=1095709
+DupeItem=041C4
+
+
+[ItemDef 041C6]
+DefName=iGargishCelestialDoor3
+Name=gargish celestial door
+NameLoc=1095710
+Type=tDoor
+TData1=
+TData2=
+TData3=041C6
+TData4=041C7
+Weight=255
+DupeList=041C7
+
+Category=Structures
+Subsection=Doors
+Description=Gargish Celestial Door 1 (East)
+
+[ItemDef 041C7]
+NameLoc=1095711
+DupeItem=041C6
+
+
+[ItemDef 041C8]
+DefName=iGargishCelestialDoor4
+Name=gargish celestial door
+NameLoc=1095712
+Type=tDoor
+TData1=
+TData2=
+TData3=041C8
+TData4=041C9
+Weight=255
+DupeList=041C9
+
+Category=Structures
+Subsection=Doors
+Description=Gargish Celestial Door 2 (East)
+
+[ItemDef 041C9]
+NameLoc=1095713
+DupeItem=041C8
+
+
+[ItemDef 041CF]
+DefName=iGargishProgressiveDoor1
+Name=gargish progressive door
+NameLoc=1095719
+Type=tDoor
+TData1=
+TData2=
+TData3=041CF
+TData4=041D0
+Weight=255
+DupeList=041D0
+
+Category=Structures
+Subsection=Doors
+Description=Gargish Progressive Door 1 (South)
+
+[ItemDef 041CF]
+NameLoc=1095720
+DupeItem=041D0
+
+
+[ItemDef 041D1]
+DefName=iGargishProgressiveDoor2
+Name=gargish progressive door
+NameLoc=1095721
+Type=tDoor
+TData1=
+TData2=
+TData3=041D1
+TData4=041D2
+Weight=255
+DupeList=041D2
+
+Category=Structures
+Subsection=Doors
+Description=Gargish Progressive Door 2 (South)
+
+[ItemDef 041D2]
+NameLoc=1095722
+DupeItem=041D1
+
+
+[ItemDef 041D3]
+DefName=iGargishProgressiveDoor3
+Name=gargish progressive door
+NameLoc=1095723
+Type=tDoor
+TData1=
+TData2=
+TData3=041D3
+TData4=041D4
+Weight=255
+DupeList=041D4
+
+Category=Structures
+Subsection=Doors
+Description=Gargish Progressive Door 1 (East)
+
+[ItemDef 041D4]
+NameLoc=1095724
+DupeItem=041D3
+
+
+[ItemDef 041D5]
+DefName=iGargishProgressiveDoor4
+Name=gargish progressive door
+NameLoc=1095725
+Type=tDoor
+TData1=
+TData2=
+TData3=041D5
+TData4=041D6
+Weight=255
+DupeList=041D6
+
+Category=Structures
+Subsection=Doors
+Description=Gargish Progressive Door 2 (East)
+
+[ItemDef 041D6]
+NameLoc=1095726
+DupeItem=041D5
+
+
 [ItemDef 0436E]
 DefName=iGargishRenaissanceDoor1
 Name=gargish renaissance door
@@ -164,6 +416,174 @@ Description=Gargish Draxinusom Door 2 (East)
 [ItemDef 0437D]
 NameLoc=1096149
 DupeItem=0437C
+
+
+[ItemDef 046DD]
+DefName=iGargishHovelDoor1
+Name=gargish hovel door
+NameLoc=1097013
+Type=tDoor
+TData1=
+TData2=
+TData3=046DD
+TData4=046DE
+Weight=255
+DupeList=046DE
+
+Category=Structures
+Subsection=Doors
+Description=Gargish Hovel Door 1 (South)
+
+[ItemDef 046DE]
+NameLoc=1097014
+DupeItem=046DD
+
+
+[ItemDef 046DF]
+DefName=iGargishHovelDoor2
+Name=gargish hovel door
+NameLoc=1097015
+Type=tDoor
+TData1=
+TData2=
+TData3=046DF
+TData4=046E0
+Weight=255
+DupeList=046E0
+
+Category=Structures
+Subsection=Doors
+Description=Gargish Hovel Door 2 (South)
+
+[ItemDef 046E0]
+NameLoc=1097016
+DupeItem=046DF
+
+
+[ItemDef 046E1]
+DefName=iGargishHovelDoor3
+Name=gargish hovel door
+NameLoc=1097017
+Type=tDoor
+TData1=
+TData2=
+TData3=046E1
+TData4=046E2
+Weight=255
+DupeList=046E2
+
+Category=Structures
+Subsection=Doors
+Description=Gargish Hovel Door 1 (East)
+
+[ItemDef 046E2]
+NameLoc=1097018
+DupeItem=046E1
+
+
+[ItemDef 046E3]
+DefName=iGargishHovelDoor4
+Name=gargish hovel door
+NameLoc=1097019
+Type=tDoor
+TData1=
+TData2=
+TData3=046E3
+TData4=046E4
+Weight=255
+DupeList=046E4
+
+Category=Structures
+Subsection=Doors
+Description=Gargish Hovel Door 2 (East)
+
+[ItemDef 046E4]
+NameLoc=1097020
+DupeItem=046E3
+
+
+[ItemDef 04D1A]
+DefName=iGargishQueensDoor1
+Name=gargish queen's door
+NameLoc=1098610
+Type=tDoor
+TData1=
+TData2=
+TData3=04D1A
+TData4=04D1B
+Weight=255
+DupeList=04D1B
+
+Category=Structures
+Subsection=Doors
+Description=Gargish Queen's Door 1 (South)
+
+[ItemDef 04D1B]
+NameLoc=1098611
+DupeItem=04D1A
+
+
+[ItemDef 04D1C]
+DefName=iGargishQueensDoor2
+Name=gargish queen's door
+NameLoc=1098612
+Type=tDoor
+TData1=
+TData2=
+TData3=04D1C
+TData4=04D1D
+Weight=255
+DupeList=04D1D
+
+Category=Structures
+Subsection=Doors
+Description=Gargish Queen's Door 2 (South)
+
+[ItemDef 04D1D]
+NameLoc=1098613
+DupeItem=04D1C
+
+
+[ItemDef 04D1E]
+DefName=iGargishQueensDoor3
+Name=gargish queen's door
+NameLoc=1098614
+Type=tDoor
+TData1=
+TData2=
+TData3=04D1E
+TData4=04D1F
+Weight=255
+DupeList=04D1F
+
+Category=Structures
+Subsection=Doors
+Description=Gargish Queen's Door 1 (East)
+
+[ItemDef 04D1F]
+NameLoc=1098615
+DupeItem=04D1E
+
+
+[ItemDef 04D20]
+DefName=iGargishQueensDoor4
+Name=gargish queen's door
+NameLoc=1098616
+Type=tDoor
+TData1=
+TData2=
+TData3=04D20
+TData4=04D21
+Weight=255
+DupeList=04D1F
+
+Category=Structures
+Subsection=Doors
+Description=Gargish Queen's Door 2 (East)
+
+[ItemDef 04D21]
+NameLoc=1098617
+DupeItem=04D20
 
 
 [EOF]

@@ -241,35 +241,44 @@ RETURN 1
 ID=iFxExplode
 NAME=a Fire Storm
 TYPE=tSpell
+
 CATEGORY=TFL Additions
 SUBSECTION=Animations
 DESCRIPTION=Fire Storm Piece
+
 ON=@Create
 ATTR=attr_magic|attr_move_never
 MORE=0
 MOREP=42,55,99
 TIMER=1
+
 ON=@DClick
 MORE += 1
+
 IF (<MORE> > 15)
-REMOVE
-RETURN 1
+ REMOVE
+ RETURN 1
 ENDIF
+
 MOREP=<LINK.P>
 TAG.NEG=RAND(2)
 TAG.TX=RAND(6)
+
 IF (<TAG0.NEG> == 1)
-MOREX=<MOREX> - <TAG0.TX>
+ MOREX=<MOREX> - <TAG0.TX>
 ELSE
-MOREX=<MOREX> + <TAG0.TX>
+ MOREX=<MOREX> + <TAG0.TX>
 ENDIF
+
 TAG.NEG=RAND(2)
 TAG.TY=RAND(6)
+
 IF (<TAG0.NEG> == 1)
-MOREY=<MOREY> - <TAG0.TY>
+ MOREY=<MOREY> - <TAG0.TY>
 ELSE
-MOREY=<MOREY> + <TAG0.TY>
+ MOREY=<MOREY> + <TAG0.TY>
 ENDIF
+
 TAG.NEG=
 TAG.TX=
 TAG.TY=
@@ -280,26 +289,6 @@ MOREP=42,55,99
 TIMER=1
 RETURN 1
 
-[ITEMDEF iBardicheSa]
-//Bardiche (this may not work!)
-//Using Sword type below
-ID=iBardiche
-NAME=Supremely Accurate Bardiche
-TYPE=tWeaponSword
-RESOURCES=1 iBardiche,1 iEnchantWeapon,1 iScrollBless,5 i_enchantWeapon
-ON=@Create
-HITPOINTS={31 100}
-COLOR=color_magic_weap
-ATTR=attr_magic
-//MOREY=100.0
-ON=@EQUIP
-SRC.SWORDSMANSHIP += 25.0
-SRC.TACTICS += 25.0
-SRC.DEX += 1
-ON=@UNEQUIP
-SRC.SWORDSMANSHIP -= 25.0
-SRC.TACTICS -= 25.0
-SRC.DEX -= 1
 
 [ITEMDEF iWizardsHatPlusInt]
 ID=iHatWizards
