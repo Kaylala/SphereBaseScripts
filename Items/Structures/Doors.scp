@@ -2,11 +2,9 @@
 DefName=iGargishDoor1
 Name=gargish door
 NameLoc=1095524
-Type=tDoor
+Type=tClosedDoor
 TData1=
 TData2=
-TData3=0410C
-TData4=0410D
 Weight=255
 DupeList=0410D
 
@@ -17,17 +15,16 @@ Description=Gargish Door 1 (South)
 [ItemDef 0410D]
 NameLoc=1095525
 DupeItem=0410C
+Type=tOpenDoor
 
 
 [ItemDef 0410E]
 DefName=iGargishDoor2
 Name=gargish door
 NameLoc=1095526
-Type=tDoor
+Type=tClosedDoor
 TData1=
 TData2=
-TData3=0410E
-TData4=0410F
 Weight=255
 DupeList=0410F
 
@@ -38,17 +35,16 @@ Description=Gargish Door 2 (South)
 [ItemDef 0410F]
 NameLoc=1095527
 DupeItem=0410E
+Type=tOpenDoor
 
 
 [ItemDef 04110]
 DefName=iGargishDoor3
 Name=gargish door
 NameLoc=1095528
-Type=tDoor
+Type=tClosedDoor
 TData1=
 TData2=
-TData3=04110
-TData4=04111
 Weight=255
 DupeList=04111
 
@@ -59,17 +55,16 @@ Description=Gargish Door 1 (East)
 [ItemDef 04111]
 NameLoc=1095529
 DupeItem=04110
+Type=tOpenDoor
 
 
 [ItemDef 04112]
 DefName=iGargishDoor4
 Name=gargish door
 NameLoc=1095530
-Type=tDoor
+Type=tClosedDoor
 TData1=
 TData2=
-TData3=04112
-TData4=04113
 Weight=255
 DupeList=04113
 
@@ -80,17 +75,16 @@ Description=Gargish Door 2 (East)
 [ItemDef 04113]
 NameLoc=1095531
 DupeItem=04112
+Type=tOpenDoor
 
 
 [ItemDef 041C2]
 DefName=iGargishCelestialDoor1
 Name=gargish celestial door
 NameLoc=1095706
-Type=tDoor
+Type=tClosedDoor
 TData1=
 TData2=
-TData3=041C2
-TData4=041C3
 Weight=255
 DupeList=041C3
 
@@ -101,17 +95,16 @@ Description=Gargish Celestial Door 1 (South)
 [ItemDef 041C3]
 NameLoc=1095707
 DupeItem=041C2
+Type=tOpenDoor
 
 
 [ItemDef 041C4]
 DefName=iGargishCelestialDoor2
 Name=gargish celestial door
 NameLoc=1095708
-Type=tDoor
+Type=tClosedDoor
 TData1=
 TData2=
-TData3=041C4
-TData4=041C5
 Weight=255
 DupeList=041C5
 
@@ -122,17 +115,16 @@ Description=Gargish Celestial Door 2 (South)
 [ItemDef 041C5]
 NameLoc=1095709
 DupeItem=041C4
+Type=tOpenDoor
 
 
 [ItemDef 041C6]
 DefName=iGargishCelestialDoor3
 Name=gargish celestial door
 NameLoc=1095710
-Type=tDoor
+Type=tClosedDoor
 TData1=
 TData2=
-TData3=041C6
-TData4=041C7
 Weight=255
 DupeList=041C7
 
@@ -143,17 +135,16 @@ Description=Gargish Celestial Door 1 (East)
 [ItemDef 041C7]
 NameLoc=1095711
 DupeItem=041C6
+Type=tOpenDoor
 
 
 [ItemDef 041C8]
 DefName=iGargishCelestialDoor4
 Name=gargish celestial door
 NameLoc=1095712
-Type=tDoor
+Type=tClosedDoor
 TData1=
 TData2=
-TData3=041C8
-TData4=041C9
 Weight=255
 DupeList=041C9
 
@@ -164,17 +155,16 @@ Description=Gargish Celestial Door 2 (East)
 [ItemDef 041C9]
 NameLoc=1095713
 DupeItem=041C8
+Type=tOpenDoor
 
 
 [ItemDef 041CF]
 DefName=iGargishProgressiveDoor1
 Name=gargish progressive door
 NameLoc=1095719
-Type=tDoor
+Type=tClosedDoor
 TData1=
 TData2=
-TData3=041CF
-TData4=041D0
 Weight=255
 DupeList=041D0
 
@@ -185,17 +175,16 @@ Description=Gargish Progressive Door 1 (South)
 [ItemDef 041CF]
 NameLoc=1095720
 DupeItem=041D0
+Type=tOpenDoor
 
 
 [ItemDef 041D1]
 DefName=iGargishProgressiveDoor2
 Name=gargish progressive door
 NameLoc=1095721
-Type=tDoor
+Type=tClosedDoor
 TData1=
 TData2=
-TData3=041D1
-TData4=041D2
 Weight=255
 DupeList=041D2
 
@@ -206,17 +195,16 @@ Description=Gargish Progressive Door 2 (South)
 [ItemDef 041D2]
 NameLoc=1095722
 DupeItem=041D1
+Type=tOpenDoor
 
 
 [ItemDef 041D3]
 DefName=iGargishProgressiveDoor3
 Name=gargish progressive door
 NameLoc=1095723
-Type=tDoor
+Type=tClosedDoor
 TData1=
 TData2=
-TData3=041D3
-TData4=041D4
 Weight=255
 DupeList=041D4
 
@@ -227,17 +215,16 @@ Description=Gargish Progressive Door 1 (East)
 [ItemDef 041D4]
 NameLoc=1095724
 DupeItem=041D3
+Type=tOpenDoor
 
 
 [ItemDef 041D5]
 DefName=iGargishProgressiveDoor4
 Name=gargish progressive door
 NameLoc=1095725
-Type=tDoor
+Type=tClosedDoor
 TData1=
 TData2=
-TData3=041D5
-TData4=041D6
 Weight=255
 DupeList=041D6
 
@@ -248,17 +235,16 @@ Description=Gargish Progressive Door 2 (East)
 [ItemDef 041D6]
 NameLoc=1095726
 DupeItem=041D5
+Type=tOpenDoor
 
 
 [ItemDef 0436E]
 DefName=iGargishRenaissanceDoor1
 Name=gargish renaissance door
 NameLoc=1096134
-Type=tDoor
+Type=tClosedDoor
 TData1=
 TData2=
-TData3=0436E
-TData4=0436F
 Weight=255
 DupeList=0436F
 
@@ -269,17 +255,16 @@ Description=Gargish Renaissance Door 1 (South)
 [ItemDef 0436F]
 NameLoc=1096135
 DupeItem=0436E
+Type=tOpenDoor
 
 
 [ItemDef 04370]
 DefName=iGargishRenaissanceDoor2
 Name=gargish renaissance door
 NameLoc=1096136
-Type=tDoor
+Type=tClosedDoor
 TData1=
 TData2=
-TData3=04370
-TData4=04371
 Weight=255
 DupeList=04371
 
@@ -290,17 +275,16 @@ Description=Gargish Renaissance Door 2 (South)
 [ItemDef 04371]
 NameLoc=1096137
 DupeItem=04370
+Type=tOpenDoor
 
 
 [ItemDef 04376]
 DefName=iGargishRenaissanceDoor3
 Name=gargish renaissance door
 NameLoc=1096142
-Type=tDoor
+Type=tClosedDoor
 TData1=
 TData2=
-TData3=04376
-TData4=04377
 Weight=255
 DupeList=04377
 
@@ -311,17 +295,16 @@ Description=Gargish Renaissance Door 1 (East)
 [ItemDef 04377]
 NameLoc=1096143
 DupeItem=04376
+Type=tOpenDoor
 
 
 [ItemDef 04378]
 DefName=iGargishRenaissanceDoor4
 Name=gargish renaissance door
 NameLoc=1096144
-Type=tDoor
+Type=tClosedDoor
 TData1=
 TData2=
-TData3=04378
-TData4=04379
 Weight=255
 DupeList=04379
 
@@ -332,17 +315,16 @@ Description=Gargish Renaissance Door 2 (East)
 [ItemDef 04379]
 NameLoc=1096145
 DupeItem=04378
+Type=tOpenDoor
 
 
 [ItemDef 04372]
 DefName=iGargishDraxinusomDoor1
 Name=gargish Draxinusom door
 NameLoc=1096138
-Type=tDoor
+Type=tClosedDoor
 TData1=
 TData2=
-TData3=04372
-TData4=04373
 Weight=255
 DupeList=04373
 
@@ -353,17 +335,16 @@ Description=Gargish Draxinusom Door 1 (South)
 [ItemDef 04373]
 NameLoc=1096139
 DupeItem=04372
+Type=tOpenDoor
 
 
 [ItemDef 04374]
 DefName=iGargishDraxinusomDoor2
 Name=gargish Draxinusom door
 NameLoc=1096140
-Type=tDoor
+Type=tClosedDoor
 TData1=
 TData2=
-TData3=04374
-TData4=04375
 Weight=255
 DupeList=04375
 
@@ -374,17 +355,16 @@ Description=Gargish Draxinusom Door 2 (South)
 [ItemDef 04375]
 NameLoc=1096141
 DupeItem=04374
+Type=tOpenDoor
 
 
 [ItemDef 0437A]
 DefName=iGargishDraxinusomDoor3
 Name=gargish Draxinusom door
 NameLoc=1096146
-Type=tDoor
+Type=tClosedDoor
 TData1=
 TData2=
-TData3=0437A
-TData4=0437B
 Weight=255
 DupeList=0437B
 
@@ -395,17 +375,16 @@ Description=Gargish Draxinusom Door 1 (East)
 [ItemDef 0437B]
 NameLoc=1096147
 DupeItem=0437A
+Type=tOpenDoor
 
 
 [ItemDef 0437C]
 DefName=iGargishDraxinusomDoor4
 Name=gargish Draxinusom door
 NameLoc=1096148
-Type=tDoor
+Type=tClosedDoor
 TData1=
 TData2=
-TData3=0437C
-TData4=0437D
 Weight=255
 DupeList=0437D
 
@@ -416,17 +395,16 @@ Description=Gargish Draxinusom Door 2 (East)
 [ItemDef 0437D]
 NameLoc=1096149
 DupeItem=0437C
+Type=tOpenDoor
 
 
 [ItemDef 046DD]
 DefName=iGargishHovelDoor1
 Name=gargish hovel door
 NameLoc=1097013
-Type=tDoor
+Type=tClosedDoor
 TData1=
 TData2=
-TData3=046DD
-TData4=046DE
 Weight=255
 DupeList=046DE
 
@@ -437,17 +415,16 @@ Description=Gargish Hovel Door 1 (South)
 [ItemDef 046DE]
 NameLoc=1097014
 DupeItem=046DD
+Type=tOpenDoor
 
 
 [ItemDef 046DF]
 DefName=iGargishHovelDoor2
 Name=gargish hovel door
 NameLoc=1097015
-Type=tDoor
+Type=tClosedDoor
 TData1=
 TData2=
-TData3=046DF
-TData4=046E0
 Weight=255
 DupeList=046E0
 
@@ -458,17 +435,16 @@ Description=Gargish Hovel Door 2 (South)
 [ItemDef 046E0]
 NameLoc=1097016
 DupeItem=046DF
+Type=tOpenDoor
 
 
 [ItemDef 046E1]
 DefName=iGargishHovelDoor3
 Name=gargish hovel door
 NameLoc=1097017
-Type=tDoor
+Type=tClosedDoor
 TData1=
 TData2=
-TData3=046E1
-TData4=046E2
 Weight=255
 DupeList=046E2
 
@@ -479,17 +455,16 @@ Description=Gargish Hovel Door 1 (East)
 [ItemDef 046E2]
 NameLoc=1097018
 DupeItem=046E1
+Type=tOpenDoor
 
 
 [ItemDef 046E3]
 DefName=iGargishHovelDoor4
 Name=gargish hovel door
 NameLoc=1097019
-Type=tDoor
+Type=tClosedDoor
 TData1=
 TData2=
-TData3=046E3
-TData4=046E4
 Weight=255
 DupeList=046E4
 
@@ -500,17 +475,16 @@ Description=Gargish Hovel Door 2 (East)
 [ItemDef 046E4]
 NameLoc=1097020
 DupeItem=046E3
+Type=tOpenDoor
 
 
 [ItemDef 04D1A]
 DefName=iGargishQueensDoor1
 Name=gargish queen's door
 NameLoc=1098610
-Type=tDoor
+Type=tClosedDoor
 TData1=
 TData2=
-TData3=04D1A
-TData4=04D1B
 Weight=255
 DupeList=04D1B
 
@@ -521,17 +495,16 @@ Description=Gargish Queen's Door 1 (South)
 [ItemDef 04D1B]
 NameLoc=1098611
 DupeItem=04D1A
+Type=tOpenDoor
 
 
 [ItemDef 04D1C]
 DefName=iGargishQueensDoor2
 Name=gargish queen's door
 NameLoc=1098612
-Type=tDoor
+Type=tClosedDoor
 TData1=
 TData2=
-TData3=04D1C
-TData4=04D1D
 Weight=255
 DupeList=04D1D
 
@@ -542,17 +515,16 @@ Description=Gargish Queen's Door 2 (South)
 [ItemDef 04D1D]
 NameLoc=1098613
 DupeItem=04D1C
+Type=tOpenDoor
 
 
 [ItemDef 04D1E]
 DefName=iGargishQueensDoor3
 Name=gargish queen's door
 NameLoc=1098614
-Type=tDoor
+Type=tClosedDoor
 TData1=
 TData2=
-TData3=04D1E
-TData4=04D1F
 Weight=255
 DupeList=04D1F
 
@@ -563,19 +535,18 @@ Description=Gargish Queen's Door 1 (East)
 [ItemDef 04D1F]
 NameLoc=1098615
 DupeItem=04D1E
+Type=tOpenDoor
 
 
 [ItemDef 04D20]
 DefName=iGargishQueensDoor4
 Name=gargish queen's door
 NameLoc=1098616
-Type=tDoor
+Type=tClosedDoor
 TData1=
 TData2=
-TData3=04D20
-TData4=04D21
 Weight=255
-DupeList=04D1F
+DupeList=04D21
 
 Category=Structures
 Subsection=Doors
@@ -584,6 +555,487 @@ Description=Gargish Queen's Door 2 (East)
 [ItemDef 04D21]
 NameLoc=1098617
 DupeItem=04D20
+Type=tOpenDoor
+
+
+[ItemDef 04D22]
+DefName=iQueensDoor1
+Name=queen's door
+//NameLoc=1098618	// gargish queen's door?! WHY!
+Type=tClosedDoor
+TData1=
+TData2=
+Weight=255
+DupeList=04D23
+
+Category=Structures
+Subsection=Doors
+Description=Queen's Door 1 (South)
+
+[ItemDef 04D23]
+//NameLoc=1098619	// gargish queen's door, again...
+DupeItem=04D22
+Type=tOpenDoor
+
+
+[ItemDef 04D24]
+DefName=iQueensDoor2
+Name=queen's door
+NameLoc=1098620
+Type=tClosedDoor
+TData1=
+TData2=
+Weight=255
+DupeList=04D25
+
+Category=Structures
+Subsection=Doors
+Description=Queen's Door 2 (South)
+
+[ItemDef 04D25]
+NameLoc=1098621
+DupeItem=04D24
+Type=tOpenDoor
+
+
+[ItemDef 04D26]
+DefName=iQueensDoor3
+Name=queen's door
+NameLoc=1098622
+Type=tClosedDoor
+TData1=
+TData2=
+Weight=255
+DupeList=04D27
+
+Category=Structures
+Subsection=Doors
+Description=Queen's Door 1 (East)
+
+[ItemDef 04D27]
+NameLoc=1098623
+DupeItem=04D26
+Type=tOpenDoor
+
+
+[ItemDef 04D28]
+DefName=iQueensDoor4
+Name=queen's door
+NameLoc=1098624
+Type=tClosedDoor
+TData1=
+TData2=
+Weight=255
+DupeList=04D29
+
+Category=Structures
+Subsection=Doors
+Description=Queen's Door 2 (East)
+
+[ItemDef 04D29]
+NameLoc=1098625
+DupeItem=04D28
+Type=tOpenDoor
+
+
+[ItemDef 050C8]
+DefName=iGargishQueensDoor5
+Name=gargish queen's door
+NameLoc=1099552
+Type=tClosedDoor
+TData1=
+TData2=
+Weight=255
+DupeList=050C9
+
+Category=Structures
+Subsection=Doors
+Description=Gargish Queen's Door 3 (South)
+
+[ItemDef 050C9]
+NameLoc=1099553
+DupeItem=050C8
+Type=tOpenDoor
+
+
+[ItemDef 050CA]
+DefName=iGargishQueensDoor6
+Name=gargish queen's door
+NameLoc=1099554
+Type=tClosedDoor
+TData1=
+TData2=
+Weight=255
+DupeList=050CB
+
+Category=Structures
+Subsection=Doors
+Description=Gargish Queen's Door 4 (South)
+
+[ItemDef 050CB]
+NameLoc=1099555
+DupeItem=050CA
+Type=tOpenDoor
+
+
+[ItemDef 050CC]
+DefName=iGargishQueensDoor7
+Name=gargish queen's door
+NameLoc=1099556
+Type=tClosedDoor
+TData1=
+TData2=
+Weight=255
+DupeList=050CD
+
+Category=Structures
+Subsection=Doors
+Description=Gargish Queen's Door 3 (East)
+
+[ItemDef 050CD]
+NameLoc=1099557
+DupeItem=050CC
+Type=tOpenDoor
+
+
+[ItemDef 050CE]
+DefName=iGargishQueensDoor8
+Name=gargish queen's door
+NameLoc=1099558
+Type=tClosedDoor
+TData1=
+TData2=
+Weight=255
+DupeList=050CF
+
+Category=Structures
+Subsection=Doors
+Description=Gargish Queen's Door 4 (East)
+
+[ItemDef 050CF]
+NameLoc=1099559
+DupeItem=050CE
+Type=tOpenDoor
+
+
+[ItemDef 050D0]
+DefName=iGargishBentasDoor1
+Name=gargish bentas door
+NameLoc=1099560
+Type=tClosedDoor
+TData1=
+TData2=
+Weight=255
+DupeList=050D1
+
+Category=Structures
+Subsection=Doors
+Description=Gargish Bentas Door 1 (South)
+
+[ItemDef 050D1]
+NameLoc=1099561
+DupeItem=050D0
+Type=tOpenDoor
+
+
+[ItemDef 050D2]
+DefName=iGargishBentasDoor2
+Name=gargish bentas door
+NameLoc=1099562
+Type=tClosedDoor
+TData1=
+TData2=
+Weight=255
+DupeList=050D3
+
+Category=Structures
+Subsection=Doors
+Description=Gargish Bentas Door 2 (South)
+
+[ItemDef 050D3]
+NameLoc=1099563
+DupeItem=050D2
+Type=tOpenDoor
+
+
+[ItemDef 050D4]
+DefName=iGargishBentasDoor3
+Name=gargish bentas door
+NameLoc=1099564
+Type=tClosedDoor
+TData1=
+TData2=
+Weight=255
+DupeList=050D5
+
+Category=Structures
+Subsection=Doors
+Description=Gargish Bentas Door 1 (East)
+
+[ItemDef 050D5]
+NameLoc=1099565
+DupeItem=050D4
+Type=tOpenDoor
+
+
+[ItemDef 050D6]
+DefName=iGargishBentasDoor4
+Name=gargish bentas door
+NameLoc=1099566
+Type=tClosedDoor
+TData1=
+TData2=
+Weight=255
+DupeList=050D7
+
+Category=Structures
+Subsection=Doors
+Description=Gargish Bentas Door 2 (East)
+
+[ItemDef 050D7]
+NameLoc=1099567
+DupeItem=050D6
+Type=tOpenDoor
+
+
+[ItemDef 05142]
+DefName=iGargishFolsomDoor1
+Name=gargish folsom door
+NameLoc=1099674
+Type=tClosedDoor
+TData1=
+TData2=
+Weight=255
+DupeList=05143
+
+Category=Structures
+Subsection=Doors
+Description=Gargish Folsom Door 1 (South)
+
+[ItemDef 05143]
+NameLoc=1099675
+DupeItem=05142
+Type=tOpenDoor
+
+
+[ItemDef 05144]
+DefName=iGargishFolsomDoor2
+Name=gargish folsom door
+NameLoc=1099676
+Type=tClosedDoor
+TData1=
+TData2=
+Weight=255
+DupeList=05145
+
+Category=Structures
+Subsection=Doors
+Description=Gargish Folsom Door 2 (South)
+
+[ItemDef 05145]
+NameLoc=1099677
+DupeItem=05144
+Type=tOpenDoor
+
+
+[ItemDef 05146]
+DefName=iGargishFolsomDoor3
+Name=gargish folsom door
+NameLoc=1099678
+Type=tClosedDoor
+TData1=
+TData2=
+Weight=255
+DupeList=05147
+
+Category=Structures
+Subsection=Doors
+Description=Gargish Folsom Door 1 (East)
+
+[ItemDef 05147]
+NameLoc=1099679
+DupeItem=05146
+Type=tOpenDoor
+
+
+[ItemDef 05148]
+DefName=iGargishFolsomDoor4
+Name=gargish folsom door
+NameLoc=1099680
+Type=tClosedDoor
+TData1=
+TData2=
+Weight=255
+DupeList=05149
+
+Category=Structures
+Subsection=Doors
+Description=Gargish Folsom Door 2 (East)
+
+[ItemDef 05149]
+NameLoc=1099681
+DupeItem=05148
+Type=tOpenDoor
+
+
+[ItemDef 09AD7]
+DefName=iWoodenDoor17
+Name=wooden door
+NameLoc=1123663
+Type=tClosedDoor
+TData1=
+TData2=
+Weight=255
+DupeList=09AD8
+
+Category=Structures
+Subsection=Doors
+Description=Wooden Door 17 (South)
+
+[ItemDef 09AD8]
+NameLoc=1123664
+DupeItem=09AD7
+Type=tOpenDoor
+
+
+[ItemDef 09AD9]
+DefName=iWoodenDoor18
+Name=wooden door
+NameLoc=1123665
+Type=tClosedDoor
+TData1=
+TData2=
+Weight=255
+DupeList=09ADA
+
+Category=Structures
+Subsection=Doors
+Description=Wooden Door 18 (South)
+
+[ItemDef 09ADA]
+NameLoc=1123666
+DupeItem=09AD9
+Type=tOpenDoor
+
+
+[ItemDef 09ADB]
+DefName=iWoodenDoor19
+Name=wooden door
+NameLoc=1123667
+Type=tClosedDoor
+TData1=
+TData2=
+Weight=255
+DupeList=09ADC
+
+Category=Structures
+Subsection=Doors
+Description=Wooden Door 19 (South)
+
+[ItemDef 09ADC]
+NameLoc=1123668
+DupeItem=09ADB
+Type=tOpenDoor
+
+
+[ItemDef 09ADD]
+DefName=iWoodenDoor20
+Name=wooden door
+NameLoc=1123669
+Type=tClosedDoor
+TData1=
+TData2=
+Weight=255
+DupeList=09ADE
+
+Category=Structures
+Subsection=Doors
+Description=Wooden Door 20 (South)
+
+[ItemDef 09ADE]
+NameLoc=1123670
+DupeItem=09ADD
+Type=tOpenDoor
+
+
+[ItemDef 09ADD]
+DefName=iWoodenDoor21
+Name=wooden door
+NameLoc=1123671
+Type=tClosedDoor
+TData1=
+TData2=
+Weight=255
+DupeList=09AE0
+
+Category=Structures
+Subsection=Doors
+Description=Wooden Door 17 (East)
+
+[ItemDef 09AE0]
+NameLoc=1123672
+DupeItem=09ADF
+Type=tOpenDoor
+
+
+[ItemDef 09AE1]
+DefName=iWoodenDoor22
+Name=wooden door
+NameLoc=1123673
+Type=tClosedDoor
+TData1=
+TData2=
+Weight=255
+DupeList=09AE2
+
+Category=Structures
+Subsection=Doors
+Description=Wooden Door 18 (East)
+
+[ItemDef 09AE2]
+NameLoc=1123674
+DupeItem=09AE1
+Type=tOpenDoor
+
+
+[ItemDef 09AE3]
+DefName=iWoodenDoor23
+Name=wooden door
+NameLoc=1123675
+Type=tClosedDoor
+TData1=
+TData2=
+Weight=255
+DupeList=09AE4
+
+Category=Structures
+Subsection=Doors
+Description=Wooden Door 19 (East)
+
+[ItemDef 09AE4]
+NameLoc=1123676
+DupeItem=09AE3
+Type=tOpenDoor
+
+
+[ItemDef 09AE5]
+DefName=iWoodenDoor24
+Name=wooden door
+NameLoc=1123677
+Type=tClosedDoor
+TData1=
+TData2=
+Weight=255
+DupeList=09AE6
+
+Category=Structures
+Subsection=Doors
+Description=Wooden Door 20 (East)
+
+[ItemDef 09AE6]
+NameLoc=1123678
+DupeItem=09AE5
+Type=tOpenDoor
 
 
 [EOF]

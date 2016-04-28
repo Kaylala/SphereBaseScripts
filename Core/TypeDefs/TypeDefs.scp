@@ -30,37 +30,44 @@ Return 1
 // code and moves the door. This was never needed and was a bad practice by Sphere. If any changes ARE
 // needed, it will be in the source with TileFDoor and CanIDoor. They would be the culprit.
 // More1=0 is Unlocked. 1 is Locked.
-// TData1=Opening Sound
-// TData2=Closing Sound
-// TData3=Closed Door ID
-// TData4=Open Door ID
+// TData1= NS Offset
+// TData2= EW Offset
 On=@DClick
-If (<DispIDDec> == <TData3>)
- DispID=<TData4>
+If (<Type> == tClosedDoor)
+ DispID=<Eval <DispIDDec> +1>
  Can=CanIDoor|CanIBlockLOS
  Flags=TileFDoor|TileFNoShoot
- Sound=<TData1>
+ Sound=sndOpenDoor
+ Move=<TData1> <TData2>
  Timer=30
  Update
-ElIf (<DispIDDec> == <TData4>)
- DispID=<TData3>
+ElIf (<Type> == tOpenDoor)
+ DispID=<Eval <DispIDDec> -1>
  Can=CanIDoor|CanIBlock|CanIBlockLOS
  Flags=TileFDoor|TileFImpassable|TileFNoShoot|TileFWall
- Sound=<TData2>
+ Sound=sndCloseDoor
+ Move=<Eval -<TData1>> <Eval -<TData2>>
  Timer=-1
  Update
 EndIf
 Return 1
 
 On=@Timer
-If (<DispIDDec> == <TData4>)
- DispID=<TData3>
+If (<Type> == tOpenDoor)
+ DispID=<Eval <DispIDDec> -1>
  Can=CanIDoor|CanIBlock|CanIBlockLOS
  Flags=TileFDoor|TileFImpassable|TileFNoShoot|TileFWall
- Sound=<TData2>
+ Sound=sndCloseDoor
+ Move=<Eval -<TData1>> <Eval -<TData2>>
  Timer=-1
  Update
 EndIf
+Return 1
+
+On=@ClientTooltip
+Return 1
+
+On=@AfterClick
 Return 1
 
 
