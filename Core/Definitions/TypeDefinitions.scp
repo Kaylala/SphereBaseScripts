@@ -15,6 +15,7 @@ tNormal						0
 tContainer					1 // any unlocked container or corpse. ccontainer based
 tLockedContainer			2
 tDoor						3 // door can be opened
+tClosedDoor					tDoor
 tLockedDoor					4 // a locked door.
 tKey						5
 tLitLight					6 // local light giving object
