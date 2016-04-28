@@ -72,149 +72,6 @@ Description=Door 1 (opened)
 
 
 
-[ItemDef 06d5]
-DefName=iDoorWood2
-Type=tDoor
-Category=Structures
-Subsection=Wooden Door (light wood)
-Description=@ (closed)
-DUPELIST=06d7,06d9,06db,06dd,06df,06e1,06e3
-
-[ItemDef 06d6]
-DefName=iDoorWood2O
-Type=tDoorOpen
-Category=Structures
-Subsection=Wooden Door (light wood)
-Description=@ (opened)
-DUPELIST=06d8,06da,06dc,06de,06e0,06e2,06e4
-
-[ItemDef 06d7]
-//Wooden Door (light wood)
-DUPEITEM=06d5
-
-[ItemDef 06d8]
-//Wooden Door (light wood)
-DUPEITEM=06d6
-
-[ItemDef 06d9]
-//Wooden Door (light wood)
-DUPEITEM=06d5
-
-[ItemDef 06da]
-//Wooden Door (light wood)
-DUPEITEM=06d6
-
-[ItemDef 06db]
-//Wooden Door (light wood)
-DUPEITEM=06d5
-
-[ItemDef 06dc]
-//Wooden Door (light wood)
-DUPEITEM=06d6
-
-[ItemDef 06dd]
-//Wooden Door (light wood)
-DUPEITEM=06d5
-
-[ItemDef 06de]
-//Wooden Door (light wood)
-DUPEITEM=06d6
-
-[ItemDef 06df]
-//Wooden Door (light wood)
-DUPEITEM=06d5
-
-[ItemDef 06e0]
-//Wooden Door (light wood)
-DUPEITEM=06d6
-
-[ItemDef 06e1]
-//Wooden Door (light wood)
-DUPEITEM=06d5
-
-[ItemDef 06e2]
-//Wooden Door (light wood)
-DUPEITEM=06d6
-
-[ItemDef 06e3]
-//Wooden Door (light wood)
-DUPEITEM=06d5
-
-[ItemDef 06e4]
-//Wooden Door (light wood)
-DUPEITEM=06d6
-
-[ItemDef 06e5]
-DefName=iDoorWood3
-Type=tDoor
-Category=Structures
-Subsection=Heavy Wooden Door (dark wood)
-Description=@ (closed)
-DUPELIST=06e7,06e9,06eb,06ed,06ef,06f1,06f3
-
-[ItemDef 06e6]
-DefName=iDoorWood3O
-Type=tDoorOpen
-Category=Structures
-Subsection=Heavy Wooden Door (dark wood)
-Description=@ (opened)
-DUPELIST=06e8,06ea,06ec,06ee,06f0,06f2,06f4
-
-[ItemDef 06e7]
-//Heavy Wooden Door (dark wood)
-DUPEITEM=06e5
-
-[ItemDef 06e8]
-//Heavy Wooden Door (dark wood)
-DUPEITEM=06e6
-
-[ItemDef 06e9]
-//Heavy Wooden Door (dark wood)
-DUPEITEM=06e5
-
-[ItemDef 06ea]
-//Heavy Wooden Door (dark wood)
-DUPEITEM=06e6
-
-[ItemDef 06eb]
-//Heavy Wooden Door (dark wood)
-DUPEITEM=06e5
-
-[ItemDef 06ec]
-//Heavy Wooden Door (dark wood)
-DUPEITEM=06e6
-
-[ItemDef 06ed]
-//Heavy Wooden Door (dark wood)
-DUPEITEM=06e5
-
-[ItemDef 06ee]
-//Heavy Wooden Door (dark wood)
-DUPEITEM=06e6
-
-[ItemDef 06ef]
-//Heavy Wooden Door (dark wood)
-DUPEITEM=06e5
-
-[ItemDef 06f0]
-//Heavy Wooden Door (dark wood)
-DUPEITEM=06e6
-
-[ItemDef 06f1]
-//Heavy Wooden Door (dark wood)
-DUPEITEM=06e5
-
-[ItemDef 06f2]
-//Heavy Wooden Door (dark wood)
-DUPEITEM=06e6
-
-[ItemDef 06f3]
-//Heavy Wooden Door (dark wood)
-DUPEITEM=06e5
-
-[ItemDef 06f4]
-//Heavy Wooden Door (dark wood)
-DUPEITEM=06e6
 
 [ItemDef 06f5]
 DefName=iDoorPortcullis
@@ -228,74 +85,15 @@ DUPELIST=06f6
 //portcullis
 DUPEITEM=06f5
 
-[ItemDef 0824]
-//FIXME: The open and closed are mixed together
-DefName=iGateIron
-Type=tDoor
-Category=Structures
-Subsection=Iron Gate (tall)
-Description=@
-DUPELIST=0825,0826,0827,0828,0829,082a,082b,082c,082d,082e,082f,0830,0831,0832,0833
 
-[ItemDef 0825]
-//Iron Gate (tall)
-DUPEITEM=0824
 
-[ItemDef 0826]
-//Iron Gate (tall)
-DUPEITEM=0824
 
-[ItemDef 0827]
-//Iron Gate (tall)
-DUPEITEM=0824
 
-[ItemDef 0828]
-//Iron Gate (tall)
-DUPEITEM=0824
 
-[ItemDef 0829]
-//Iron Gate (tall)
-DUPEITEM=0824
 
-[ItemDef 082a]
-//Iron Gate (tall)
-DUPEITEM=0824
 
-[ItemDef 082b]
-//Iron Gate (tall)
-DUPEITEM=0824
 
-[ItemDef 082c]
-//Iron Gate (tall)
-DUPEITEM=0824
 
-[ItemDef 082d]
-//Iron Gate (tall)
-DUPEITEM=0824
-
-[ItemDef 082e]
-//Iron Gate (tall)
-DUPEITEM=0824
-
-[ItemDef 082f]
-//Iron Gate (tall)
-DUPEITEM=0824
-
-[ItemDef 0830]
-//Iron Gate (tall)
-DUPEITEM=0824
-
-[ItemDef 0831]
-//Iron Gate (tall)
-DUPEITEM=0824
-
-[ItemDef 0832]
-//Iron Gate (tall)
-DUPEITEM=0824
-
-[ItemDef 0833]
-//Iron Gate (tall)
-DUPEITEM=0824
 
 [ItemDef 0839]
 //FIXME: The open and closed are mixed together

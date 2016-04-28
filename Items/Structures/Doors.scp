@@ -4,6 +4,8 @@ Name=metal door
 NameLoc=1021653
 Type=tClosedDoor
 TData2=0676
+TData3=
+TData4=
 Weight=255
 
 Category=Structures
@@ -25,6 +27,8 @@ Name=metal door
 NameLoc=1021655
 Type=tClosedDoor
 TData2=0678
+TData3=
+TData4=
 Weight=255
 
 Category=Structures
@@ -46,6 +50,8 @@ Name=metal door
 NameLoc=1021657
 Type=tClosedDoor
 TData2=067A
+TData3=
+TData4=
 Weight=255
 
 Category=Structures
@@ -67,6 +73,8 @@ Name=metal door
 NameLoc=1021659
 Type=tClosedDoor
 TData2=067C
+TData3=
+TData4=
 Weight=255
 
 Category=Structures
@@ -88,6 +96,8 @@ Name=metal door
 NameLoc=1021661
 Type=tClosedDoor
 TData2=067E
+TData3=
+TData4=
 Weight=255
 
 Category=Structures
@@ -109,6 +119,8 @@ Name=metal door
 NameLoc=1021663
 Type=tClosedDoor
 TData2=0680
+TData3=
+TData4=
 Weight=255
 
 Category=Structures
@@ -130,6 +142,8 @@ Name=metal door
 NameLoc=1021665
 Type=tClosedDoor
 TData2=0682
+TData3=
+TData4=
 Weight=255
 
 Category=Structures
@@ -151,6 +165,8 @@ Name=metal door
 NameLoc=1021667
 Type=tClosedDoor
 TData2=0684
+TData3=
+TData4=
 Weight=255
 
 Category=Structures
@@ -172,6 +188,8 @@ Name=barred metal door
 NameLoc=1021669
 Type=tClosedDoor
 TData2=0686
+TData3=
+TData4=
 Weight=255
 
 Category=Structures
@@ -193,6 +211,8 @@ Name=barred metal door
 NameLoc=1021671
 Type=tClosedDoor
 TData2=0688
+TData3=
+TData4=
 Weight=255
 
 Category=Structures
@@ -214,6 +234,8 @@ Name=barred metal door
 NameLoc=1021673
 Type=tClosedDoor
 TData2=068A
+TData3=
+TData4=
 Weight=255
 
 Category=Structures
@@ -235,6 +257,8 @@ Name=barred metal door
 NameLoc=1021675
 Type=tClosedDoor
 TData2=068C
+TData3=
+TData4=
 Weight=255
 
 Category=Structures
@@ -256,6 +280,8 @@ Name=barred metal door
 NameLoc=1021677
 Type=tClosedDoor
 TData2=068E
+TData3=
+TData4=
 Weight=255
 
 Category=Structures
@@ -277,6 +303,8 @@ Name=barred metal door
 NameLoc=1021679
 Type=tClosedDoor
 TData2=0690
+TData3=
+TData4=
 Weight=255
 
 Category=Structures
@@ -298,6 +326,8 @@ Name=barred metal door
 NameLoc=1021681
 Type=tClosedDoor
 TData2=0692
+TData3=
+TData4=
 Weight=255
 
 Category=Structures
@@ -319,6 +349,8 @@ Name=barred metal door
 NameLoc=1021683
 Type=tClosedDoor
 TData2=0694
+TData3=
+TData4=
 Weight=255
 
 Category=Structures
@@ -340,6 +372,8 @@ Name=rattan door
 NameLoc=1021685
 Type=tClosedDoor
 TData2=0696
+TData3=
+TData4=
 Weight=255
 
 Category=Structures
@@ -361,6 +395,8 @@ Name=rattan door
 NameLoc=1021687
 Type=tClosedDoor
 TData2=0698
+TData3=
+TData4=
 Weight=255
 
 Category=Structures
@@ -382,6 +418,8 @@ Name=rattan door
 NameLoc=1021689
 Type=tClosedDoor
 TData2=069A
+TData3=
+TData4=
 Weight=255
 
 Category=Structures
@@ -403,6 +441,8 @@ Name=rattan door
 NameLoc=1021691
 Type=tClosedDoor
 TData2=069C
+TData3=
+TData4=
 Weight=255
 
 Category=Structures
@@ -424,6 +464,8 @@ Name=rattan door
 NameLoc=1021693
 Type=tClosedDoor
 TData2=069E
+TData3=
+TData4=
 Weight=255
 
 Category=Structures
@@ -445,6 +487,8 @@ Name=rattan door
 NameLoc=1021695
 Type=tClosedDoor
 TData2=06A0
+TData3=
+TData4=
 Weight=255
 
 Category=Structures
@@ -466,6 +510,8 @@ Name=rattan door
 NameLoc=1021697
 Type=tClosedDoor
 TData2=06A2
+TData3=
+TData4=
 Weight=255
 
 Category=Structures
@@ -487,6 +533,8 @@ Name=rattan door
 NameLoc=1021699
 Type=tClosedDoor
 TData2=06A4
+TData3=
+TData4=
 Weight=255
 
 Category=Structures
@@ -508,6 +556,8 @@ Name=wooden door
 NameLoc=1021701
 Type=tClosedDoor
 TData2=06A6
+TData3=
+TData4=
 Weight=255
 
 Category=Structures
@@ -529,6 +579,8 @@ Name=wooden door
 NameLoc=1021703
 Type=tClosedDoor
 TData2=06A8
+TData3=
+TData4=
 Weight=255
 
 Category=Structures
@@ -550,6 +602,8 @@ Name=wooden door
 NameLoc=1021705
 Type=tClosedDoor
 TData2=06AA
+TData3=
+TData4=
 Weight=255
 
 Category=Structures
@@ -571,6 +625,8 @@ Name=wooden door
 NameLoc=1021707
 Type=tClosedDoor
 TData2=06AC
+TData3=
+TData4=
 Weight=255
 
 Category=Structures
@@ -592,6 +648,8 @@ Name=wooden door
 NameLoc=1021709
 Type=tClosedDoor
 TData2=06AE
+TData3=
+TData4=
 Weight=255
 
 Category=Structures
@@ -613,6 +671,8 @@ Name=wooden door
 NameLoc=1021711
 Type=tClosedDoor
 TData2=06B0
+TData3=
+TData4=
 Weight=255
 
 Category=Structures
@@ -634,6 +694,8 @@ Name=wooden door
 NameLoc=1021713
 Type=tClosedDoor
 TData2=06B2
+TData3=
+TData4=
 Weight=255
 
 Category=Structures
@@ -655,6 +717,8 @@ Name=wooden door
 NameLoc=1021715
 Type=tClosedDoor
 TData2=06B4
+TData3=
+TData4=
 Weight=255
 
 Category=Structures
@@ -676,6 +740,8 @@ Name=wooden door
 NameLoc=1021717
 Type=tClosedDoor
 TData2=06B6
+TData3=
+TData4=
 Weight=255
 
 Category=Structures
@@ -697,6 +763,8 @@ Name=wooden door
 NameLoc=1021719
 Type=tClosedDoor
 TData2=06B8
+TData3=
+TData4=
 Weight=255
 
 Category=Structures
@@ -718,6 +786,8 @@ Name=wooden door
 NameLoc=1021721
 Type=tClosedDoor
 TData2=06BA
+TData3=
+TData4=
 Weight=255
 
 Category=Structures
@@ -739,6 +809,8 @@ Name=wooden door
 NameLoc=1021723
 Type=tClosedDoor
 TData2=06BC
+TData3=
+TData4=
 Weight=255
 
 Category=Structures
@@ -760,6 +832,8 @@ Name=wooden door
 NameLoc=1021725
 Type=tClosedDoor
 TData2=06BE
+TData3=
+TData4=
 Weight=255
 
 Category=Structures
@@ -781,6 +855,8 @@ Name=wooden door
 NameLoc=1021727
 Type=tClosedDoor
 TData2=06C0
+TData3=
+TData4=
 Weight=255
 
 Category=Structures
@@ -802,6 +878,8 @@ Name=wooden door
 NameLoc=1021729
 Type=tClosedDoor
 TData2=06C2
+TData3=
+TData4=
 Weight=255
 
 Category=Structures
@@ -823,6 +901,8 @@ Name=wooden door
 NameLoc=1021731
 Type=tClosedDoor
 TData2=06C4
+TData3=
+TData4=
 Weight=255
 
 Category=Structures
@@ -844,6 +924,8 @@ Name=metal door
 NameLoc=1021733
 Type=tClosedDoor
 TData2=06C6
+TData3=
+TData4=
 Weight=255
 
 Category=Structures
@@ -865,10 +947,12 @@ Name=metal door
 NameLoc=1021735
 Type=tClosedDoor
 TData2=06C8
+TData3=
+TData4=
 Weight=255
 
 Category=Structures
-Subsection=Doors: Wooden Doors 2
+Subsection=Doors: Metal Doors 2
 Description=Metal Door 2 (South) (Closed)
 
 [ItemDef 06C8]
@@ -886,10 +970,12 @@ Name=metal door
 NameLoc=1021737
 Type=tClosedDoor
 TData2=06CA
+TData3=
+TData4=
 Weight=255
 
 Category=Structures
-Subsection=Doors: Wooden Doors 2
+Subsection=Doors: Metal Doors 2
 Description=Metal Door 3 (South) (Closed)
 
 [ItemDef 06CA]
@@ -907,10 +993,12 @@ Name=metal door
 NameLoc=1021739
 Type=tClosedDoor
 TData2=06CC
+TData3=
+TData4=
 Weight=255
 
 Category=Structures
-Subsection=Doors: Wooden Doors 2
+Subsection=Doors: Metal Doors 2
 Description=Metal Door 4 (South) (Closed)
 
 [ItemDef 06CC]
@@ -928,10 +1016,12 @@ Name=metal door
 NameLoc=1021741
 Type=tClosedDoor
 TData2=06CE
+TData3=
+TData4=
 Weight=255
 
 Category=Structures
-Subsection=Doors: Wooden Doors 2
+Subsection=Doors: Metal Doors 2
 Description=Metal Door 1 (East) (Closed)
 
 [ItemDef 06CE]
@@ -949,10 +1039,12 @@ Name=metal door
 NameLoc=1021743
 Type=tClosedDoor
 TData2=06D0
+TData3=
+TData4=
 Weight=255
 
 Category=Structures
-Subsection=Doors: Wooden Doors 2
+Subsection=Doors: Metal Doors 2
 Description=Metal Door 2 (East) (Closed)
 
 [ItemDef 06D0]
@@ -970,10 +1062,12 @@ Name=metal door
 NameLoc=1021745
 Type=tClosedDoor
 TData2=06D2
+TData3=
+TData4=
 Weight=255
 
 Category=Structures
-Subsection=Doors: Wooden Doors 2
+Subsection=Doors: Metal Doors 2
 Description=Metal Door 3 (East) (Closed)
 
 [ItemDef 06D2]
@@ -991,10 +1085,12 @@ Name=metal door
 NameLoc=1021747
 Type=tClosedDoor
 TData2=06D4
+TData3=
+TData4=
 Weight=255
 
 Category=Structures
-Subsection=Doors: Wooden Doors 2
+Subsection=Doors: Metal Doors 2
 Description=Metal Door 4 (East) (Closed)
 
 [ItemDef 06D4]
@@ -1004,6 +1100,558 @@ Type=tOpenDoor
 Category=Structures
 Subsection=Doors: Metal Doors 2
 Description=Metal Door 4 (East) (Open)
+
+
+[ItemDef 06D5]
+DefName=iWoodenDoor17
+Name=wooden door
+NameLoc=1021749
+Type=tClosedDoor
+TData2=06D6
+TData3=
+TData4=
+Weight=255
+
+Category=Structures
+Subsection=Doors: Wooden Doors 3
+Description=Wooden Door 1 (South) (Closed)
+
+[ItemDef 06D6]
+NameLoc=1021750
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Wooden Doors 3
+Description=Wooden Door 1 (South) (Open)
+
+
+[ItemDef 06D7]
+DefName=iWoodenDoor18
+Name=wooden door
+NameLoc=1021751
+Type=tClosedDoor
+TData2=06D8
+TData3=
+TData4=
+Weight=255
+
+Category=Structures
+Subsection=Doors: Wooden Doors 3
+Description=Wooden Door 2 (South) (Closed)
+
+[ItemDef 06D8]
+NameLoc=1021752
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Wooden Doors 3
+Description=Wooden Door 2 (South) (Open)
+
+
+[ItemDef 06D9]
+DefName=iWoodenDoor19
+Name=wooden door
+NameLoc=1021753
+Type=tClosedDoor
+TData2=06DA
+TData3=
+TData4=
+Weight=255
+
+Category=Structures
+Subsection=Doors: Wooden Doors 3
+Description=Wooden Door 3 (South) (Closed)
+
+[ItemDef 06DA]
+NameLoc=1021754
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Wooden Doors 3
+Description=Wooden Door 3 (South) (Open)
+
+
+[ItemDef 06DB]
+DefName=iWoodenDoor20
+Name=wooden door
+NameLoc=1021755
+Type=tClosedDoor
+TData2=06DC
+TData3=
+TData4=
+Weight=255
+
+Category=Structures
+Subsection=Doors: Wooden Doors 3
+Description=Wooden Door 4 (South) (Closed)
+
+[ItemDef 06DC]
+NameLoc=1021756
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Wooden Doors 3
+Description=Wooden Door 4 (South) (Open)
+
+
+[ItemDef 06DD]
+DefName=iWoodenDoor21
+Name=wooden door
+NameLoc=1021757
+Type=tClosedDoor
+TData2=06DE
+TData3=
+TData4=
+Weight=255
+
+Category=Structures
+Subsection=Doors: Wooden Doors 3
+Description=Wooden Door 1 (East) (Closed)
+
+[ItemDef 06DE]
+NameLoc=1021758
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Wooden Doors 3
+Description=Wooden Door 1 (East) (Open)
+
+
+[ItemDef 06DF]
+DefName=iWoodenDoor22
+Name=wooden door
+NameLoc=1021759
+Type=tClosedDoor
+TData2=06E0
+TData3=
+TData4=
+Weight=255
+
+Category=Structures
+Subsection=Doors: Wooden Doors 3
+Description=Wooden Door 2 (East) (Closed)
+
+[ItemDef 06E0]
+NameLoc=1021760
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Wooden Doors 3
+Description=Wooden Door 2 (East) (Open)
+
+
+[ItemDef 06E1]
+DefName=iWoodenDoor23
+Name=wooden door
+NameLoc=1021761
+Type=tClosedDoor
+TData2=06E2
+TData3=
+TData4=
+Weight=255
+
+Category=Structures
+Subsection=Doors: Wooden Doors 3
+Description=Wooden Door 3 (East) (Closed)
+
+[ItemDef 06E2]
+NameLoc=1021762
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Wooden Doors 3
+Description=Wooden Door 3 (East) (Open)
+
+
+[ItemDef 06E3]
+DefName=iWoodenDoor24
+Name=wooden door
+NameLoc=1021763
+Type=tClosedDoor
+TData2=06E4
+TData3=
+TData4=
+Weight=255
+
+Category=Structures
+Subsection=Doors: Wooden Doors 3
+Description=Wooden Door 4 (East) (Closed)
+
+[ItemDef 06E4]
+NameLoc=1021764
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Wooden Doors 3
+Description=Wooden Door 4 (East) (Open)
+
+
+[ItemDef 06E5]
+DefName=iWoodenDoor25
+Name=wooden door
+NameLoc=1021765
+Type=tClosedDoor
+TData2=06E6
+TData3=
+TData4=
+Weight=255
+
+Category=Structures
+Subsection=Doors: Wooden Doors 4
+Description=Wooden Door 1 (South) (Closed)
+
+[ItemDef 06E6]
+NameLoc=1021766
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Wooden Doors 4
+Description=Wooden Door 1 (South) (Open)
+
+
+[ItemDef 06E7]
+DefName=iWoodenDoor26
+Name=wooden door
+NameLoc=1021767
+Type=tClosedDoor
+TData2=06E8
+TData3=
+TData4=
+Weight=255
+
+Category=Structures
+Subsection=Doors: Wooden Doors 4
+Description=Wooden Door 2 (South) (Closed)
+
+[ItemDef 06E8]
+NameLoc=1021768
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Wooden Doors 4
+Description=Wooden Door 2 (South) (Open)
+
+
+[ItemDef 06E9]
+DefName=iWoodenDoor27
+Name=wooden door
+NameLoc=1021769
+Type=tClosedDoor
+TData2=06EA
+TData3=
+TData4=
+Weight=255
+
+Category=Structures
+Subsection=Doors: Wooden Doors 4
+Description=Wooden Door 3 (South) (Closed)
+
+[ItemDef 06EA]
+NameLoc=1021770
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Wooden Doors 4
+Description=Wooden Door 3 (South) (Open)
+
+
+[ItemDef 06EB]
+DefName=iWoodenDoor28
+Name=wooden door
+NameLoc=1021771
+Type=tClosedDoor
+TData2=06EC
+TData3=
+TData4=
+Weight=255
+
+Category=Structures
+Subsection=Doors: Wooden Doors 4
+Description=Wooden Door 4 (South) (Closed)
+
+[ItemDef 06EC]
+NameLoc=1021772
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Wooden Doors 4
+Description=Wooden Door 4 (South) (Open)
+
+
+[ItemDef 06ED]
+DefName=iWoodenDoor29
+Name=wooden door
+NameLoc=1021773
+Type=tClosedDoor
+TData2=06EE
+TData3=
+TData4=
+Weight=255
+
+Category=Structures
+Subsection=Doors: Wooden Doors 4
+Description=Wooden Door 1 (East) (Closed)
+
+[ItemDef 06EE]
+NameLoc=1021774
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Wooden Doors 4
+Description=Wooden Door 1 (East) (Open)
+
+
+[ItemDef 06EF]
+DefName=iWoodenDoor30
+Name=wooden door
+NameLoc=1021775
+Type=tClosedDoor
+TData2=06F0
+TData3=
+TData4=
+Weight=255
+
+Category=Structures
+Subsection=Doors: Wooden Doors 4
+Description=Wooden Door 2 (East) (Closed)
+
+[ItemDef 06F0]
+NameLoc=1021776
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Wooden Doors 4
+Description=Wooden Door 2 (East) (Open)
+
+
+[ItemDef 06F1]
+DefName=iWoodenDoor31
+Name=wooden door
+NameLoc=1021777
+Type=tClosedDoor
+TData2=06F2
+TData3=
+TData4=
+Weight=255
+
+Category=Structures
+Subsection=Doors: Wooden Doors 4
+Description=Wooden Door 3 (East) (Closed)
+
+[ItemDef 06F2]
+NameLoc=1021778
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Wooden Doors 4
+Description=Wooden Door 3 (East) (Open)
+
+
+[ItemDef 06F3]
+DefName=iWoodenDoor32
+Name=wooden door
+NameLoc=1021779
+Type=tClosedDoor
+TData2=06F4
+TData3=
+TData4=
+Weight=255
+
+Category=Structures
+Subsection=Doors: Wooden Doors 4
+Description=Wooden Door 4 (East) (Closed)
+
+[ItemDef 06F4]
+NameLoc=1021780
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Wooden Doors 4
+Description=Wooden Door 4 (East) (Open)
+
+
+[ItemDef 0824]
+DefName=iIronGate1
+Name=iron gate
+NameLoc=1022084
+Type=tClosedDoor
+TData2=0825
+TData3=
+TData4=
+Weight=255
+
+Category=Structures
+Subsection=Doors: Iron Gates 1
+Description=Iron Gate 1 (South) (Closed)
+
+[ItemDef 0825]
+NameLoc=1022085
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Iron Gates 1
+Description=Iron Gate 1 (South) (Open)
+
+
+[ItemDef 0826]
+DefName=iIronGate2
+Name=iron gate
+NameLoc=1022086
+Type=tClosedDoor
+TData2=0827
+TData3=
+TData4=
+Weight=255
+
+Category=Structures
+Subsection=Doors: Iron Gates 1
+Description=Iron Gate 2 (South) (Closed)
+
+[ItemDef 0827]
+NameLoc=1022087
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Iron Gates 1
+Description=Iron Gate 2 (South) (Open)
+
+
+[ItemDef 0828]
+DefName=iIronGate3
+Name=iron gate
+NameLoc=1022088
+Type=tClosedDoor
+TData2=0829
+TData3=
+TData4=
+Weight=255
+
+Category=Structures
+Subsection=Doors: Iron Gates 1
+Description=Iron Gate 3 (South) (Closed)
+
+[ItemDef 0829]
+NameLoc=1022089
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Iron Gates 1
+Description=Iron Gate 3 (South) (Open)
+
+
+[ItemDef 082A]
+DefName=iIronGate4
+Name=iron gate
+NameLoc=1022090
+Type=tClosedDoor
+TData2=082B
+TData3=
+TData4=
+Weight=255
+
+Category=Structures
+Subsection=Doors: Iron Gates 1
+Description=Iron Gate 4 (South) (Closed)
+
+[ItemDef 082B]
+NameLoc=1022091
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Iron Gates 1
+Description=Iron Gate 4 (South) (Open)
+
+
+[ItemDef 082C]
+DefName=iIronGate5
+Name=iron gate
+NameLoc=1022092
+Type=tClosedDoor
+TData2=082D
+TData3=
+TData4=
+Weight=255
+
+Category=Structures
+Subsection=Doors: Iron Gates 1
+Description=Iron Gate 1 (East) (Closed)
+
+[ItemDef 082D]
+NameLoc=1022093
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Iron Gates 1
+Description=Iron Gate 1 (East) (Open)
+
+
+[ItemDef 082E]
+DefName=iIronGate6
+Name=iron gate
+NameLoc=1022094
+Type=tClosedDoor
+TData2=082F
+TData3=
+TData4=
+Weight=255
+
+Category=Structures
+Subsection=Doors: Iron Gates 1
+Description=Iron Gate 2 (East) (Closed)
+
+[ItemDef 082F]
+NameLoc=1022095
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Iron Gates 1
+Description=Iron Gate 2 (East) (Open)
+
+
+[ItemDef 0830]
+DefName=iIronGate7
+Name=iron gate
+NameLoc=1022096
+Type=tClosedDoor
+TData2=0831
+TData3=
+TData4=
+Weight=255
+
+Category=Structures
+Subsection=Doors: Iron Gates 1
+Description=Iron Gate 3 (East) (Closed)
+
+[ItemDef 0831]
+NameLoc=1022097
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Iron Gates 1
+Description=Iron Gate 3 (East) (Open)
+
+
+[ItemDef 0832]
+DefName=iIronGate8
+Name=iron gate
+NameLoc=1022098
+Type=tClosedDoor
+TData2=0833
+TData3=
+TData4=
+Weight=255
+
+Category=Structures
+Subsection=Doors: Iron Gates 1
+Description=Iron Gate 4 (East) (Closed)
+
+[ItemDef 0833]
+NameLoc=1022099
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Iron Gates 1
+Description=Iron Gate 4 (East) (Open)
 
 
 [ItemDef 0410C]
