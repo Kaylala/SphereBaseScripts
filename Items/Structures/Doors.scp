@@ -1,3 +1,1011 @@
+[ItemDef 0675]
+DefName=iMetalDoor1
+Name=metal door
+NameLoc=1021653
+Type=tClosedDoor
+TData2=0676
+Weight=255
+
+Category=Structures
+Subsection=Doors: Metal Doors 1
+Description=Metal Door 1 (South) (Closed)
+
+[ItemDef 0676]
+NameLoc=1021654
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Metal Doors 1
+Description=Metal Door 1 (South) (Open)
+
+
+[ItemDef 0677]
+DefName=iMetalDoor2
+Name=metal door
+NameLoc=1021655
+Type=tClosedDoor
+TData2=0678
+Weight=255
+
+Category=Structures
+Subsection=Doors: Metal Doors 1
+Description=Metal Door 2 (South) (Closed)
+
+[ItemDef 0678]
+NameLoc=1021656
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Metal Doors 1
+Description=Metal Door 2 (South) (Open)
+
+
+[ItemDef 0679]
+DefName=iMetalDoor3
+Name=metal door
+NameLoc=1021657
+Type=tClosedDoor
+TData2=067A
+Weight=255
+
+Category=Structures
+Subsection=Doors: Metal Doors 1
+Description=Metal Door 3 (South) (Closed)
+
+[ItemDef 067A]
+NameLoc=1021658
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Metal Doors 1
+Description=Metal Door 3 (South) (Open)
+
+
+[ItemDef 067B]
+DefName=iMetalDoor4
+Name=metal door
+NameLoc=1021659
+Type=tClosedDoor
+TData2=067C
+Weight=255
+
+Category=Structures
+Subsection=Doors: Metal Doors 1
+Description=Metal Door 4 (South) (Closed)
+
+[ItemDef 067C]
+NameLoc=1021660
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Metal Doors 1
+Description=Metal Door 4 (South) (Open)
+
+
+[ItemDef 067D]
+DefName=iMetalDoor5
+Name=metal door
+NameLoc=1021661
+Type=tClosedDoor
+TData2=067E
+Weight=255
+
+Category=Structures
+Subsection=Doors: Metal Doors 1
+Description=Metal Door 1 (East) (Closed)
+
+[ItemDef 067E]
+NameLoc=1021662
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Metal Doors 1
+Description=Metal Door 1 (East) (Open)
+
+
+[ItemDef 067F]
+DefName=iMetalDoor6
+Name=metal door
+NameLoc=1021663
+Type=tClosedDoor
+TData2=0680
+Weight=255
+
+Category=Structures
+Subsection=Doors: Metal Doors 1
+Description=Metal Door 2 (East) (Closed)
+
+[ItemDef 0680]
+NameLoc=1021664
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Metal Doors 1
+Description=Metal Door 2 (East) (Open)
+
+
+[ItemDef 0681]
+DefName=iMetalDoor7
+Name=metal door
+NameLoc=1021665
+Type=tClosedDoor
+TData2=0682
+Weight=255
+
+Category=Structures
+Subsection=Doors: Metal Doors 1
+Description=Metal Door 3 (East) (Closed)
+
+[ItemDef 0682]
+NameLoc=1021666
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Metal Doors 1
+Description=Metal Door 3 (East) (Open)
+
+
+[ItemDef 0683]
+DefName=iMetalDoor8
+Name=metal door
+NameLoc=1021667
+Type=tClosedDoor
+TData2=0684
+Weight=255
+
+Category=Structures
+Subsection=Doors: Metal Doors 1
+Description=Metal Door 4 (East) (Closed)
+
+[ItemDef 0684]
+NameLoc=1021668
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Metal Doors 1
+Description=Metal Door 4 (East) (Open)
+
+
+[ItemDef 0685]
+DefName=iBarredMetalDoor1
+Name=barred metal door
+NameLoc=1021669
+Type=tClosedDoor
+TData2=0686
+Weight=255
+
+Category=Structures
+Subsection=Doors: Barred Metal Doors 1
+Description=Barred Metal Door 1 (South) (Closed)
+
+[ItemDef 0686]
+NameLoc=1021670
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Barred Metal Doors 1
+Description=Barred Metal Door 1 (South) (Open)
+
+
+[ItemDef 0687]
+DefName=iBarredMetalDoor2
+Name=barred metal door
+NameLoc=1021671
+Type=tClosedDoor
+TData2=0688
+Weight=255
+
+Category=Structures
+Subsection=Doors: Barred Metal Doors 1
+Description=Barred Metal Door 2 (South) (Closed)
+
+[ItemDef 0688]
+NameLoc=1021672
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Barred Metal Doors 1
+Description=Barred Metal Door 2 (South) (Open)
+
+
+[ItemDef 0689]
+DefName=iBarredMetalDoor3
+Name=barred metal door
+NameLoc=1021673
+Type=tClosedDoor
+TData2=068A
+Weight=255
+
+Category=Structures
+Subsection=Doors: Barred Metal Doors 1
+Description=Barred Metal Door 3 (South) (Closed)
+
+[ItemDef 068A]
+NameLoc=1021674
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Barred Metal Doors 1
+Description=Barred Metal Door 3 (South) (Open)
+
+
+[ItemDef 068B]
+DefName=iBarredMetalDoor4
+Name=barred metal door
+NameLoc=1021675
+Type=tClosedDoor
+TData2=068C
+Weight=255
+
+Category=Structures
+Subsection=Doors: Barred Metal Doors 1
+Description=Barred Metal Door 4 (South) (Closed)
+
+[ItemDef 068C]
+NameLoc=1021676
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Barred Metal Doors 1
+Description=Barred Metal Door 4 (South) (Open)
+
+
+[ItemDef 068D]
+DefName=iBarredMetalDoor5
+Name=barred metal door
+NameLoc=1021677
+Type=tClosedDoor
+TData2=068E
+Weight=255
+
+Category=Structures
+Subsection=Doors: Barred Metal Doors 1
+Description=Barred Metal Door 1 (East) (Closed)
+
+[ItemDef 068E]
+NameLoc=1021678
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Barred Metal Doors 1
+Description=Barred Metal Door 1 (East) (Open)
+
+
+[ItemDef 068F]
+DefName=iBarredMetalDoor6
+Name=barred metal door
+NameLoc=1021679
+Type=tClosedDoor
+TData2=0690
+Weight=255
+
+Category=Structures
+Subsection=Doors: Barred Metal Doors 1
+Description=Barred Metal Door 2 (East) (Closed)
+
+[ItemDef 0690]
+NameLoc=1021680
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Barred Metal Doors 1
+Description=Barred Metal Door 2 (East) (Open)
+
+
+[ItemDef 0691]
+DefName=iBarredMetalDoor7
+Name=barred metal door
+NameLoc=1021681
+Type=tClosedDoor
+TData2=0692
+Weight=255
+
+Category=Structures
+Subsection=Doors: Barred Metal Doors 1
+Description=Barred Metal Door 3 (East) (Closed)
+
+[ItemDef 0692]
+NameLoc=1021682
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Barred Metal Doors 1
+Description=Barred Metal Door 3 (East) (Open)
+
+
+[ItemDef 0693]
+DefName=iBarredMetalDoor8
+Name=barred metal door
+NameLoc=1021683
+Type=tClosedDoor
+TData2=0694
+Weight=255
+
+Category=Structures
+Subsection=Doors: Barred Metal Doors 1
+Description=Barred Metal Door 4 (East) (Closed)
+
+[ItemDef 0694]
+NameLoc=1021684
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Barred Metal Doors 1
+Description=Barred Metal Door 4 (East) (Open)
+
+
+[ItemDef 0695]
+DefName=iRattanDoor1
+Name=rattan door
+NameLoc=1021685
+Type=tClosedDoor
+TData2=0696
+Weight=255
+
+Category=Structures
+Subsection=Doors: Rattan Doors 1
+Description=Rattan Door 1 (South) (Closed)
+
+[ItemDef 0696]
+NameLoc=1021686
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Rattan Doors 1
+Description=Rattan Door 1 (South) (Open)
+
+
+[ItemDef 0697]
+DefName=iRattanDoor2
+Name=rattan door
+NameLoc=1021687
+Type=tClosedDoor
+TData2=0698
+Weight=255
+
+Category=Structures
+Subsection=Doors: Rattan Doors 1
+Description=Rattan Door 2 (South) (Closed)
+
+[ItemDef 0698]
+NameLoc=1021688
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Rattan Doors 1
+Description=Rattan Door 2 (South) (Open)
+
+
+[ItemDef 0699]
+DefName=iRattanDoor3
+Name=rattan door
+NameLoc=1021689
+Type=tClosedDoor
+TData2=069A
+Weight=255
+
+Category=Structures
+Subsection=Doors: Rattan Doors 1
+Description=Rattan Door 3 (South) (Closed)
+
+[ItemDef 069A]
+NameLoc=1021690
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Rattan Doors 1
+Description=Rattan Door 3 (South) (Open)
+
+
+[ItemDef 069B]
+DefName=iRattanDoor4
+Name=rattan door
+NameLoc=1021691
+Type=tClosedDoor
+TData2=069C
+Weight=255
+
+Category=Structures
+Subsection=Doors: Rattan Doors 1
+Description=Rattan Door 4 (South) (Closed)
+
+[ItemDef 069C]
+NameLoc=1021692
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Rattan Doors 1
+Description=Rattan Door 4 (South) (Open)
+
+
+[ItemDef 069D]
+DefName=iRattanDoor5
+Name=rattan door
+NameLoc=1021693
+Type=tClosedDoor
+TData2=069E
+Weight=255
+
+Category=Structures
+Subsection=Doors: Rattan Doors 1
+Description=Rattan Door 1 (East) (Closed)
+
+[ItemDef 069E]
+NameLoc=1021694
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Rattan Doors 1
+Description=Rattan Door 1 (East) (Open)
+
+
+[ItemDef 069F]
+DefName=iRattanDoor6
+Name=rattan door
+NameLoc=1021695
+Type=tClosedDoor
+TData2=06A0
+Weight=255
+
+Category=Structures
+Subsection=Doors: Rattan Doors 1
+Description=Rattan Door 2 (East) (Closed)
+
+[ItemDef 06A0]
+NameLoc=1021696
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Rattan Doors 1
+Description=Rattan Door 2 (East) (Open)
+
+
+[ItemDef 06A1]
+DefName=iRattanDoor7
+Name=rattan door
+NameLoc=1021697
+Type=tClosedDoor
+TData2=06A2
+Weight=255
+
+Category=Structures
+Subsection=Doors: Rattan Doors 1
+Description=Rattan Door 3 (East) (Closed)
+
+[ItemDef 06A2]
+NameLoc=1021698
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Rattan Doors 1
+Description=Rattan Door 3 (East) (Open)
+
+
+[ItemDef 06A3]
+DefName=iRattanDoor8
+Name=rattan door
+NameLoc=1021699
+Type=tClosedDoor
+TData2=06A4
+Weight=255
+
+Category=Structures
+Subsection=Doors: Rattan Doors 1
+Description=Rattan Door 4 (East) (Closed)
+
+[ItemDef 06A4]
+NameLoc=1021700
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Rattan Doors 1
+Description=Rattan Door 4 (East) (Open)
+
+
+[ItemDef 06A5]
+DefName=iWoodenDoor1
+Name=wooden door
+NameLoc=1021701
+Type=tClosedDoor
+TData2=06A6
+Weight=255
+
+Category=Structures
+Subsection=Doors: Wooden Doors 1
+Description=Wooden Door 1 (South) (Closed)
+
+[ItemDef 06A6]
+NameLoc=1021702
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Wooden Doors 1
+Description=Wooden Door 1 (South) (Open)
+
+
+[ItemDef 06A7]
+DefName=iWoodenDoor2
+Name=wooden door
+NameLoc=1021703
+Type=tClosedDoor
+TData2=06A8
+Weight=255
+
+Category=Structures
+Subsection=Doors: Wooden Doors 1
+Description=Wooden Door 2 (South) (Closed)
+
+[ItemDef 06A8]
+NameLoc=1021704
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Wooden Doors 1
+Description=Wooden Door 2 (South) (Open)
+
+
+[ItemDef 06A9]
+DefName=iWoodenDoor3
+Name=wooden door
+NameLoc=1021705
+Type=tClosedDoor
+TData2=06AA
+Weight=255
+
+Category=Structures
+Subsection=Doors: Wooden Doors 1
+Description=Wooden Door 3 (South) (Closed)
+
+[ItemDef 06AA]
+NameLoc=1021706
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Wooden Doors 1
+Description=Wooden Door 3 (South) (Open)
+
+
+[ItemDef 06AB]
+DefName=iWoodenDoor4
+Name=wooden door
+NameLoc=1021707
+Type=tClosedDoor
+TData2=06AC
+Weight=255
+
+Category=Structures
+Subsection=Doors: Wooden Doors 1
+Description=Wooden Door 4 (South) (Closed)
+
+[ItemDef 06AC]
+NameLoc=1021708
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Wooden Doors 1
+Description=Wooden Door 4 (South) (Open)
+
+
+[ItemDef 06AD]
+DefName=iWoodenDoor5
+Name=wooden door
+NameLoc=1021709
+Type=tClosedDoor
+TData2=06AE
+Weight=255
+
+Category=Structures
+Subsection=Doors: Wooden Doors 1
+Description=Wooden Door 1 (East) (Closed)
+
+[ItemDef 06AE]
+NameLoc=1021710
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Wooden Doors 1
+Description=Wooden Door 1 (East) (Open)
+
+
+[ItemDef 06AF]
+DefName=iWoodenDoor6
+Name=wooden door
+NameLoc=1021711
+Type=tClosedDoor
+TData2=06B0
+Weight=255
+
+Category=Structures
+Subsection=Doors: Wooden Doors 1
+Description=Wooden Door 2 (East) (Closed)
+
+[ItemDef 06B0]
+NameLoc=1021712
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Wooden Doors 1
+Description=Wooden Door 2 (East) (Open)
+
+
+[ItemDef 06B1]
+DefName=iWoodenDoor7
+Name=wooden door
+NameLoc=1021713
+Type=tClosedDoor
+TData2=06B2
+Weight=255
+
+Category=Structures
+Subsection=Doors: Wooden Doors 1
+Description=Wooden Door 3 (East) (Closed)
+
+[ItemDef 06B2]
+NameLoc=1021714
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Wooden Doors 1
+Description=Wooden Door 3 (East) (Open)
+
+
+[ItemDef 06B3]
+DefName=iWoodenDoor8
+Name=wooden door
+NameLoc=1021715
+Type=tClosedDoor
+TData2=06B4
+Weight=255
+
+Category=Structures
+Subsection=Doors: Wooden Doors 1
+Description=Wooden Door 4 (East) (Closed)
+
+[ItemDef 06B4]
+NameLoc=1021716
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Wooden Doors 1
+Description=Wooden Door 4 (East) (Open)
+
+
+[ItemDef 06B5]
+DefName=iWoodenDoor9
+Name=wooden door
+NameLoc=1021717
+Type=tClosedDoor
+TData2=06B6
+Weight=255
+
+Category=Structures
+Subsection=Doors: Wooden Doors 2
+Description=Wooden Door 1 (South) (Closed)
+
+[ItemDef 06B6]
+NameLoc=1021718
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Wooden Doors 2
+Description=Wooden Door 1 (South) (Open)
+
+
+[ItemDef 06B7]
+DefName=iWoodenDoor10
+Name=wooden door
+NameLoc=1021719
+Type=tClosedDoor
+TData2=06B8
+Weight=255
+
+Category=Structures
+Subsection=Doors: Wooden Doors 2
+Description=Wooden Door 2 (South) (Closed)
+
+[ItemDef 06B8]
+NameLoc=1021720
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Wooden Doors 2
+Description=Wooden Door 2 (South) (Open)
+
+
+[ItemDef 06B9]
+DefName=iWoodenDoor11
+Name=wooden door
+NameLoc=1021721
+Type=tClosedDoor
+TData2=06BA
+Weight=255
+
+Category=Structures
+Subsection=Doors: Wooden Doors 2
+Description=Wooden Door 3 (South) (Closed)
+
+[ItemDef 06BA]
+NameLoc=1021722
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Wooden Doors 2
+Description=Wooden Door 3 (South) (Open)
+
+
+[ItemDef 06BB]
+DefName=iWoodenDoor12
+Name=wooden door
+NameLoc=1021723
+Type=tClosedDoor
+TData2=06BC
+Weight=255
+
+Category=Structures
+Subsection=Doors: Wooden Doors 2
+Description=Wooden Door 4 (South) (Closed)
+
+[ItemDef 06BC]
+NameLoc=1021724
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Wooden Doors 2
+Description=Wooden Door 4 (South) (Open)
+
+
+[ItemDef 06BD]
+DefName=iWoodenDoor13
+Name=wooden door
+NameLoc=1021725
+Type=tClosedDoor
+TData2=06BE
+Weight=255
+
+Category=Structures
+Subsection=Doors: Wooden Doors 2
+Description=Wooden Door 1 (East) (Closed)
+
+[ItemDef 06BE]
+NameLoc=1021726
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Wooden Doors 2
+Description=Wooden Door 1 (East) (Open)
+
+
+[ItemDef 06BF]
+DefName=iWoodenDoor14
+Name=wooden door
+NameLoc=1021727
+Type=tClosedDoor
+TData2=06C0
+Weight=255
+
+Category=Structures
+Subsection=Doors: Wooden Doors 2
+Description=Wooden Door 2 (East) (Closed)
+
+[ItemDef 06C0]
+NameLoc=1021728
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Wooden Doors 2
+Description=Wooden Door 2 (East) (Open)
+
+
+[ItemDef 06C1]
+DefName=iWoodenDoor15
+Name=wooden door
+NameLoc=1021729
+Type=tClosedDoor
+TData2=06C2
+Weight=255
+
+Category=Structures
+Subsection=Doors: Wooden Doors 2
+Description=Wooden Door 3 (East) (Closed)
+
+[ItemDef 06C2]
+NameLoc=1021730
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Wooden Doors 2
+Description=Wooden Door 3 (East) (Open)
+
+
+[ItemDef 06C3]
+DefName=iWoodenDoor16
+Name=wooden door
+NameLoc=1021731
+Type=tClosedDoor
+TData2=06C4
+Weight=255
+
+Category=Structures
+Subsection=Doors: Wooden Doors 2
+Description=Wooden Door 4 (East) (Closed)
+
+[ItemDef 06C4]
+NameLoc=1021732
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Wooden Doors 2
+Description=Wooden Door 4 (East) (Open)
+
+
+[ItemDef 06C5]
+DefName=iMetalDoor9
+Name=metal door
+NameLoc=1021733
+Type=tClosedDoor
+TData2=06C6
+Weight=255
+
+Category=Structures
+Subsection=Doors: Wooden Doors 2
+Description=Metal Door 1 (South) (Closed)
+
+[ItemDef 06C6]
+NameLoc=1021734
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Metal Doors 2
+Description=Metal Door 1 (South) (Open)
+
+
+[ItemDef 06C7]
+DefName=iMetalDoor10
+Name=metal door
+NameLoc=1021735
+Type=tClosedDoor
+TData2=06C8
+Weight=255
+
+Category=Structures
+Subsection=Doors: Wooden Doors 2
+Description=Metal Door 2 (South) (Closed)
+
+[ItemDef 06C8]
+NameLoc=1021736
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Metal Doors 2
+Description=Metal Door 2 (South) (Open)
+
+
+[ItemDef 06C9]
+DefName=iMetalDoor11
+Name=metal door
+NameLoc=1021737
+Type=tClosedDoor
+TData2=06CA
+Weight=255
+
+Category=Structures
+Subsection=Doors: Wooden Doors 2
+Description=Metal Door 3 (South) (Closed)
+
+[ItemDef 06CA]
+NameLoc=1021738
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Metal Doors 2
+Description=Metal Door 3 (South) (Open)
+
+
+[ItemDef 06CB]
+DefName=iMetalDoor12
+Name=metal door
+NameLoc=1021739
+Type=tClosedDoor
+TData2=06CC
+Weight=255
+
+Category=Structures
+Subsection=Doors: Wooden Doors 2
+Description=Metal Door 4 (South) (Closed)
+
+[ItemDef 06CC]
+NameLoc=1021740
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Metal Doors 2
+Description=Metal Door 4 (South) (Open)
+
+
+[ItemDef 06CD]
+DefName=iMetalDoor13
+Name=metal door
+NameLoc=1021741
+Type=tClosedDoor
+TData2=06CE
+Weight=255
+
+Category=Structures
+Subsection=Doors: Wooden Doors 2
+Description=Metal Door 1 (East) (Closed)
+
+[ItemDef 06CE]
+NameLoc=1021742
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Metal Doors 2
+Description=Metal Door 1 (East) (Open)
+
+
+[ItemDef 06CF]
+DefName=iMetalDoor14
+Name=metal door
+NameLoc=1021743
+Type=tClosedDoor
+TData2=06D0
+Weight=255
+
+Category=Structures
+Subsection=Doors: Wooden Doors 2
+Description=Metal Door 2 (East) (Closed)
+
+[ItemDef 06D0]
+NameLoc=1021744
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Metal Doors 2
+Description=Metal Door 2 (East) (Open)
+
+
+[ItemDef 06D1]
+DefName=iMetalDoor15
+Name=metal door
+NameLoc=1021745
+Type=tClosedDoor
+TData2=06D2
+Weight=255
+
+Category=Structures
+Subsection=Doors: Wooden Doors 2
+Description=Metal Door 3 (East) (Closed)
+
+[ItemDef 06D2]
+NameLoc=1021746
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Metal Doors 2
+Description=Metal Door 3 (East) (Open)
+
+
+[ItemDef 06D3]
+DefName=iMetalDoor16
+Name=metal door
+NameLoc=1021747
+Type=tClosedDoor
+TData2=06D4
+Weight=255
+
+Category=Structures
+Subsection=Doors: Wooden Doors 2
+Description=Metal Door 4 (East) (Closed)
+
+[ItemDef 06D4]
+NameLoc=1021748
+Type=tOpenDoor
+
+Category=Structures
+Subsection=Doors: Metal Doors 2
+Description=Metal Door 4 (East) (Open)
+
+
 [ItemDef 0410C]
 DefName=iGargishDoor1
 Name=gargish door
@@ -9,7 +1017,7 @@ Weight=255
 OpenDoorID=0410D
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Doors 1
 Description=Gargish Door 1 (South) (Closed)
 
 [ItemDef 0410D]
@@ -17,7 +1025,7 @@ NameLoc=1095525
 Type=tOpenDoor
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Doors 1
 Description=Gargish Door 1 (South) (Open)
 
 
@@ -32,7 +1040,7 @@ Weight=255
 OpenDoorID=0410F
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Doors 1
 Description=Gargish Door 2 (South) (Closed)
 
 [ItemDef 0410F]
@@ -40,7 +1048,7 @@ NameLoc=1095527
 Type=tOpenDoor
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Doors 1
 Description=Gargish Door 2 (South) (Open)
 
 
@@ -55,7 +1063,7 @@ Weight=255
 OpenDoorID=04111
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Doors 1
 Description=Gargish Door 1 (East) (Closed)
 
 [ItemDef 04111]
@@ -63,7 +1071,7 @@ NameLoc=1095529
 Type=tOpenDoor
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Doors 1
 Description=Gargish Door 1 (East) (Open)
 
 
@@ -78,7 +1086,7 @@ Weight=255
 OpenDoorID=04113
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Doors 1
 Description=Gargish Door 2 (East) (Closed)
 
 [ItemDef 04113]
@@ -86,7 +1094,7 @@ NameLoc=1095531
 Type=tOpenDoor
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Doors 1
 Description=Gargish Door 2 (East) (Open)
 
 
@@ -101,7 +1109,7 @@ Weight=255
 OpenDoorID=041C3
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Celestial Doors 1
 Description=Gargish Celestial Door 1 (South) (Closed)
 
 [ItemDef 041C3]
@@ -109,7 +1117,7 @@ NameLoc=1095707
 Type=tOpenDoor
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Celestial Doors 1
 Description=Gargish Celestial Door 1 (South) (Open)
 
 
@@ -124,7 +1132,7 @@ Weight=255
 OpenDoorID=041C5
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Celestial Doors 1
 Description=Gargish Celestial Door 2 (South) (Closed)
 
 [ItemDef 041C5]
@@ -132,7 +1140,7 @@ NameLoc=1095709
 Type=tOpenDoor
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Celestial Doors 1
 Description=Gargish Celestial Door 2 (South) (Open)
 
 
@@ -147,7 +1155,7 @@ Weight=255
 OpenDoorID=041C7
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Celestial Doors 1
 Description=Gargish Celestial Door 1 (East) (Closed)
 
 [ItemDef 041C7]
@@ -155,7 +1163,7 @@ NameLoc=1095711
 Type=tOpenDoor
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Celestial Doors 1
 Description=Gargish Celestial Door 1 (East) (Open)
 
 
@@ -170,7 +1178,7 @@ Weight=255
 OpenDoorID=041C9
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Celestial Doors 1
 Description=Gargish Celestial Door 2 (East) (Closed)
 
 [ItemDef 041C9]
@@ -178,7 +1186,7 @@ NameLoc=1095713
 Type=tOpenDoor
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Celestial Doors 1
 Description=Gargish Celestial Door 2 (East) (Open)
 
 
@@ -193,7 +1201,7 @@ Weight=255
 OpenDoorID=041D0
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Progressive Doors 1
 Description=Gargish Progressive Door 1 (South) (Closed)
 
 [ItemDef 041CF]
@@ -201,7 +1209,7 @@ NameLoc=1095720
 Type=tOpenDoor
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Progressive Doors 1
 Description=Gargish Progressive Door 1 (South) (Open)
 
 
@@ -216,7 +1224,7 @@ Weight=255
 OpenDoorID=041D2
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Progressive Doors 1
 Description=Gargish Progressive Door 2 (South) (Closed)
 
 [ItemDef 041D2]
@@ -224,7 +1232,7 @@ NameLoc=1095722
 Type=tOpenDoor
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Progressive Doors 1
 Description=Gargish Progressive Door 2 (South) (Open)
 
 
@@ -239,7 +1247,7 @@ Weight=255
 OpenDoorID=041D4
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Progressive Doors 1
 Description=Gargish Progressive Door 1 (East) (Closed)
 
 [ItemDef 041D4]
@@ -247,7 +1255,7 @@ NameLoc=1095724
 Type=tOpenDoor
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Progressive Doors 1
 Description=Gargish Progressive Door 1 (East) (Open)
 
 
@@ -262,7 +1270,7 @@ Weight=255
 OpenDoorID=041D6
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Progressive Doors 1
 Description=Gargish Progressive Door 2 (East) (Closed)
 
 [ItemDef 041D6]
@@ -270,7 +1278,7 @@ NameLoc=1095726
 Type=tOpenDoor
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Progressive Doors 1
 Description=Gargish Progressive Door 2 (East) (Open)
 
 
@@ -285,7 +1293,7 @@ Weight=255
 OpenDoorID=0436F
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Renaissance Doors 1
 Description=Gargish Renaissance Door 1 (South) (Closed)
 
 [ItemDef 0436F]
@@ -293,7 +1301,7 @@ NameLoc=1096135
 Type=tOpenDoor
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Renaissance Doors 1
 Description=Gargish Renaissance Door 1 (South) (Open)
 
 
@@ -308,7 +1316,7 @@ Weight=255
 OpenDoorID=04371
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Renaissance Doors 1
 Description=Gargish Renaissance Door 2 (South) (Closed)
 
 [ItemDef 04371]
@@ -316,7 +1324,7 @@ NameLoc=1096137
 Type=tOpenDoor
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Renaissance Doors 1
 Description=Gargish Renaissance Door 2 (South) (Open)
 
 
@@ -331,7 +1339,7 @@ Weight=255
 OpenDoorID=04377
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Renaissance Doors 1
 Description=Gargish Renaissance Door 1 (East) (Closed)
 
 [ItemDef 04377]
@@ -339,7 +1347,7 @@ NameLoc=1096143
 Type=tOpenDoor
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Renaissance Doors 1
 Description=Gargish Renaissance Door 1 (East) (Open)
 
 
@@ -354,7 +1362,7 @@ Weight=255
 OpenDoorID=04379
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Renaissance Doors 1
 Description=Gargish Renaissance Door 2 (East) (Closed)
 
 [ItemDef 04379]
@@ -362,7 +1370,7 @@ NameLoc=1096145
 Type=tOpenDoor
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Renaissance Doors 1
 Description=Gargish Renaissance Door 2 (East) (Open)
 
 
@@ -377,7 +1385,7 @@ Weight=255
 OpenDoorID=04373
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Draxinusom Doors 1
 Description=Gargish Draxinusom Door 1 (South) (Closed)
 
 [ItemDef 04373]
@@ -385,7 +1393,7 @@ NameLoc=1096139
 Type=tOpenDoor
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Draxinusom Doors 1
 Description=Gargish Draxinusom Door 1 (South) (Open)
 
 
@@ -400,7 +1408,7 @@ Weight=255
 OpenDoorID=04375
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Draxinusom Doors 1
 Description=Gargish Draxinusom Door 2 (South) (Closed)
 
 [ItemDef 04375]
@@ -408,7 +1416,7 @@ NameLoc=1096141
 Type=tOpenDoor
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Draxinusom Doors 1
 Description=Gargish Draxinusom Door 2 (South) (Open)
 
 
@@ -423,7 +1431,7 @@ Weight=255
 OpenDoorID=0437B
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Draxinusom Doors 1
 Description=Gargish Draxinusom Door 1 (East) (Closed)
 
 [ItemDef 0437B]
@@ -431,7 +1439,7 @@ NameLoc=1096147
 Type=tOpenDoor
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Draxinusom Doors 1
 Description=Gargish Draxinusom Door 1 (East) (Open)
 
 
@@ -446,7 +1454,7 @@ Weight=255
 OpenDoorID=0437D
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Draxinusom Doors 1
 Description=Gargish Draxinusom Door 2 (East) (Closed)
 
 [ItemDef 0437D]
@@ -454,7 +1462,7 @@ NameLoc=1096149
 Type=tOpenDoor
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Draxinusom Doors 1
 Description=Gargish Draxinusom Door 2 (East) (Open)
 
 
@@ -469,7 +1477,7 @@ Weight=255
 OpenDoorID=046DE
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Hovel Doors 1
 Description=Gargish Hovel Door 1 (South) (Closed)
 
 [ItemDef 046DE]
@@ -477,7 +1485,7 @@ NameLoc=1097014
 Type=tOpenDoor
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Hovel Doors 1
 Description=Gargish Hovel Door 1 (South) (Open)
 
 
@@ -492,7 +1500,7 @@ Weight=255
 OpenDoorID=046E0
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Hovel Doors 1
 Description=Gargish Hovel Door 2 (South) (Closed)
 
 [ItemDef 046E0]
@@ -500,7 +1508,7 @@ NameLoc=1097016
 Type=tOpenDoor
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Hovel Doors 1
 Description=Gargish Hovel Door 2 (South) (Open)
 
 
@@ -515,7 +1523,7 @@ Weight=255
 OpenDoorID=046E2
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Hovel Doors 1
 Description=Gargish Hovel Door 1 (East) (Closed)
 
 [ItemDef 046E2]
@@ -523,7 +1531,7 @@ NameLoc=1097018
 Type=tOpenDoor
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Hovel Doors 1
 Description=Gargish Hovel Door 1 (East) (Open)
 
 
@@ -538,7 +1546,7 @@ Weight=255
 OpenDoorID=046E4
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Hovel Doors 1
 Description=Gargish Hovel Door 2 (East) (Closed)
 
 [ItemDef 046E4]
@@ -546,7 +1554,7 @@ NameLoc=1097020
 Type=tOpenDoor
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Hovel Doors 1
 Description=Gargish Hovel Door 2 (East) (Open)
 
 
@@ -561,7 +1569,7 @@ Weight=255
 OpenDoorID=04D1B
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Queen's Doors 1
 Description=Gargish Queen's Door 1 (South) (Closed)
 
 [ItemDef 04D1B]
@@ -569,7 +1577,7 @@ NameLoc=1098611
 Type=tOpenDoor
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Queen's Doors 1
 Description=Gargish Queen's Door 1 (South) (Open)
 
 
@@ -584,7 +1592,7 @@ Weight=255
 OpenDoorID=04D1D
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Queen's Doors 1
 Description=Gargish Queen's Door 2 (South) (Closed)
 
 [ItemDef 04D1D]
@@ -592,7 +1600,7 @@ NameLoc=1098613
 Type=tOpenDoor
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Queen's Doors 1
 Description=Gargish Queen's Door 2 (South) (Open)
 
 
@@ -607,7 +1615,7 @@ Weight=255
 OpenDoorID=04D1F
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Queen's Doors 1
 Description=Gargish Queen's Door 1 (East) (Closed)
 
 [ItemDef 04D1F]
@@ -615,7 +1623,7 @@ NameLoc=1098615
 Type=tOpenDoor
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Queen's Doors 1
 Description=Gargish Queen's Door 1 (East) (Open)
 
 
@@ -630,7 +1638,7 @@ Weight=255
 OpenDoorID=04D21
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Queen's Doors 1
 Description=Gargish Queen's Door 2 (East) (Closed)
 
 [ItemDef 04D21]
@@ -638,7 +1646,7 @@ NameLoc=1098617
 Type=tOpenDoor
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Queen's Doors 1
 Description=Gargish Queen's Door 2 (East) (Open)
 
 
@@ -653,7 +1661,7 @@ Weight=255
 OpenDoorID=04D23
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Queen's Doors 1
 Description=Queen's Door 1 (South) (Closed)
 
 [ItemDef 04D23]
@@ -661,7 +1669,7 @@ Description=Queen's Door 1 (South) (Closed)
 Type=tOpenDoor
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Queen's Doors 1
 Description=Queen's Door 1 (South) (Open)
 
 
@@ -676,7 +1684,7 @@ Weight=255
 OpenDoorID=04D25
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Queen's Doors 1
 Description=Queen's Door 2 (South) (Closed)
 
 [ItemDef 04D25]
@@ -684,7 +1692,7 @@ NameLoc=1098621
 Type=tOpenDoor
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Queen's Doors 1
 Description=Queen's Door 2 (South) (Open)
 
 
@@ -699,7 +1707,7 @@ Weight=255
 OpenDoorID=04D27
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Queen's Doors 1
 Description=Queen's Door 1 (East) (Closed)
 
 [ItemDef 04D27]
@@ -707,7 +1715,7 @@ NameLoc=1098623
 Type=tOpenDoor
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Queen's Doors 1
 Description=Queen's Door 1 (East) (Open)
 
 
@@ -722,7 +1730,7 @@ Weight=255
 OpenDoorID=04D29
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Queen's Doors 1
 Description=Queen's Door 2 (East) (Closed)
 
 [ItemDef 04D29]
@@ -730,7 +1738,7 @@ NameLoc=1098625
 Type=tOpenDoor
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Queen's Doors 1
 Description=Queen's Door 2 (East) (Open)
 
 
@@ -745,16 +1753,16 @@ Weight=255
 OpenDoorID=050C9
 
 Category=Structures
-Subsection=Doors
-Description=Gargish Queen's Door 3 (South) (Closed)
+Subsection=Doors: Gargish Queen's Doors 2
+Description=Gargish Queen's Door 1 (South) (Closed)
 
 [ItemDef 050C9]
 NameLoc=1099553
 Type=tOpenDoor
 
 Category=Structures
-Subsection=Doors
-Description=Gargish Queen's Door 3 (South) (Open)
+Subsection=Doors: Gargish Queen's Doors 2
+Description=Gargish Queen's Door 1 (South) (Open)
 
 
 [ItemDef 050CA]
@@ -768,16 +1776,16 @@ Weight=255
 OpenDoorID=050CB
 
 Category=Structures
-Subsection=Doors
-Description=Gargish Queen's Door 4 (South) (Closed)
+Subsection=Doors: Gargish Queen's Doors 2
+Description=Gargish Queen's Door 2 (South) (Closed)
 
 [ItemDef 050CB]
 NameLoc=1099555
 Type=tOpenDoor
 
 Category=Structures
-Subsection=Doors
-Description=Gargish Queen's Door 4 (South) (Open)
+Subsection=Doors: Gargish Queen's Doors 2
+Description=Gargish Queen's Door 2 (South) (Open)
 
 
 [ItemDef 050CC]
@@ -791,16 +1799,16 @@ Weight=255
 OpenDoorID=050CD
 
 Category=Structures
-Subsection=Doors
-Description=Gargish Queen's Door 3 (East) (Closed)
+Subsection=Doors: Gargish Queen's Doors 2
+Description=Gargish Queen's Door 1 (East) (Closed)
 
 [ItemDef 050CD]
 NameLoc=1099557
 Type=tOpenDoor
 
 Category=Structures
-Subsection=Doors
-Description=Gargish Queen's Door 3 (East) (Open)
+Subsection=Doors: Gargish Queen's Doors 2
+Description=Gargish Queen's Door 1 (East) (Open)
 
 
 [ItemDef 050CE]
@@ -814,16 +1822,16 @@ Weight=255
 OpenDoorID=050CF
 
 Category=Structures
-Subsection=Doors
-Description=Gargish Queen's Door 4 (East) (Closed)
+Subsection=Doors: Gargish Queen's Doors 2
+Description=Gargish Queen's Door 2 (East) (Closed)
 
 [ItemDef 050CF]
 NameLoc=1099559
 Type=tOpenDoor
 
 Category=Structures
-Subsection=Doors
-Description=Gargish Queen's Door 4 (East) (Open)
+Subsection=Doors: Gargish Queen's Doors 2
+Description=Gargish Queen's Door 2 (East) (Open)
 
 
 [ItemDef 050D0]
@@ -837,7 +1845,7 @@ Weight=255
 OpenDoorID=050D1
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Bentas Doors 1
 Description=Gargish Bentas Door 1 (South) (Closed)
 
 [ItemDef 050D1]
@@ -845,7 +1853,7 @@ NameLoc=1099561
 Type=tOpenDoor
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Bentas Doors 1
 Description=Gargish Bentas Door 1 (South) (Open)
 
 
@@ -860,7 +1868,7 @@ Weight=255
 OpenDoorID=050D3
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Bentas Doors 1
 Description=Gargish Bentas Door 2 (South) (Closed)
 
 [ItemDef 050D3]
@@ -868,7 +1876,7 @@ NameLoc=1099563
 Type=tOpenDoor
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Bentas Doors 1
 Description=Gargish Bentas Door 2 (South) (Open)
 
 
@@ -883,7 +1891,7 @@ Weight=255
 OpenDoorID=050D5
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Bentas Doors 1
 Description=Gargish Bentas Door 1 (East) (Closed)
 
 [ItemDef 050D5]
@@ -891,7 +1899,7 @@ NameLoc=1099565
 Type=tOpenDoor
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Bentas Doors 1
 Description=Gargish Bentas Door 1 (East) (Open)
 
 
@@ -906,7 +1914,7 @@ Weight=255
 OpenDoorID=050D7
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Bentas Doors 1
 Description=Gargish Bentas Door 2 (East) (Closed)
 
 [ItemDef 050D7]
@@ -914,7 +1922,7 @@ NameLoc=1099567
 Type=tOpenDoor
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Bentas Doors 1
 Description=Gargish Bentas Door 2 (East) (Open)
 
 
@@ -929,7 +1937,7 @@ Weight=255
 OpenDoorID=05143
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Folsom Doors 1
 Description=Gargish Folsom Door 1 (South) (Closed)
 
 [ItemDef 05143]
@@ -937,7 +1945,7 @@ NameLoc=1099675
 Type=tOpenDoor
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Folsom Doors 1
 Description=Gargish Folsom Door 1 (South) (Open)
 
 
@@ -952,7 +1960,7 @@ Weight=255
 OpenDoorID=05145
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Folsom Doors 1
 Description=Gargish Folsom Door 2 (South) (Closed)
 
 [ItemDef 05145]
@@ -960,7 +1968,7 @@ NameLoc=1099677
 Type=tOpenDoor
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Folsom Doors 1
 Description=Gargish Folsom Door 2 (South) (Open)
 
 
@@ -975,7 +1983,7 @@ Weight=255
 OpenDoorID=05147
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Folsom Doors 1
 Description=Gargish Folsom Door 1 (East) (Closed)
 
 [ItemDef 05147]
@@ -983,7 +1991,7 @@ NameLoc=1099679
 Type=tOpenDoor
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Folsom Doors 1
 Description=Gargish Folsom Door 1 (East) (Open)
 
 
@@ -998,7 +2006,7 @@ Weight=255
 OpenDoorID=05149
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Folsom Doors 1
 Description=Gargish Folsom Door 2 (East) (Closed)
 
 [ItemDef 05149]
@@ -1006,7 +2014,7 @@ NameLoc=1099681
 Type=tOpenDoor
 
 Category=Structures
-Subsection=Doors
+Subsection=Doors: Gargish Folsom Doors 1
 Description=Gargish Folsom Door 2 (East) (Open)
 
 
@@ -1021,16 +2029,16 @@ Weight=255
 OpenDoorID=09AD8
 
 Category=Structures
-Subsection=Doors
-Description=Wooden Door 19 (South) (Closed)
+Subsection=Doors: Wooden Doors 5
+Description=Wooden Door 1 (South) (Closed)
 
 [ItemDef 09AD8]
 NameLoc=1123664
 Type=tOpenDoor
 
 Category=Structures
-Subsection=Doors
-Description=Wooden Door 19 (South) (Open)
+Subsection=Doors: Wooden Doors 5
+Description=Wooden Door 1 (South) (Open)
 
 
 [ItemDef 09AD9]
@@ -1044,16 +2052,16 @@ Weight=255
 OpenDoorID=09ADA
 
 Category=Structures
-Subsection=Doors
-Description=Wooden Door 20 (South) (Closed)
+Subsection=Doors: Wooden Doors 5
+Description=Wooden Door 2 (South) (Closed)
 
 [ItemDef 09ADA]
 NameLoc=1123666
 Type=tOpenDoor
 
 Category=Structures
-Subsection=Doors
-Description=Wooden Door 20 (South) (Open)
+Subsection=Doors: Wooden Doors 5
+Description=Wooden Door 2 (South) (Open)
 
 
 [ItemDef 09ADB]
@@ -1067,16 +2075,16 @@ Weight=255
 OpenDoorID=09ADC
 
 Category=Structures
-Subsection=Doors
-Description=Wooden Door 21 (South) (Closed)
+Subsection=Doors: Wooden Doors 5
+Description=Wooden Door 3 (South) (Closed)
 
 [ItemDef 09ADC]
 NameLoc=1123668
 Type=tOpenDoor
 
 Category=Structures
-Subsection=Doors
-Description=Wooden Door 21 (South) (Open)
+Subsection=Doors: Wooden Doors 5
+Description=Wooden Door 3 (South) (Open)
 
 
 [ItemDef 09ADD]
@@ -1090,16 +2098,16 @@ Weight=255
 OpenDoorID=09ADE
 
 Category=Structures
-Subsection=Doors
-Description=Wooden Door 22 (South) (Closed)
+Subsection=Doors: Wooden Doors 5
+Description=Wooden Door 4 (South) (Closed)
 
 [ItemDef 09ADE]
 NameLoc=1123670
 Type=tOpenDoor
 
 Category=Structures
-Subsection=Doors
-Description=Wooden Door 22 (South) (Open)
+Subsection=Doors: Wooden Doors 5
+Description=Wooden Door 4 (South) (Open)
 
 
 [ItemDef 09ADD]
@@ -1113,16 +2121,16 @@ Weight=255
 OpenDoorID=09AE0
 
 Category=Structures
-Subsection=Doors
-Description=Wooden Door 19 (East) (Closed)
+Subsection=Doors: Wooden Doors 5
+Description=Wooden Door 1 (East) (Closed)
 
 [ItemDef 09AE0]
 NameLoc=1123672
 Type=tOpenDoor
 
 Category=Structures
-Subsection=Doors
-Description=Wooden Door 19 (East) (Open)
+Subsection=Doors: Wooden Doors 5
+Description=Wooden Door 1 (East) (Open)
 
 
 [ItemDef 09AE1]
@@ -1136,16 +2144,16 @@ Weight=255
 OpenDoorID=09AE2
 
 Category=Structures
-Subsection=Doors
-Description=Wooden Door 20 (East) (Closed)
+Subsection=Doors: Wooden Doors 5
+Description=Wooden Door 2 (East) (Closed)
 
 [ItemDef 09AE2]
 NameLoc=1123674
 Type=tOpenDoor
 
 Category=Structures
-Subsection=Doors
-Description=Wooden Door 20 (East) (Open)
+Subsection=Doors: Wooden Doors 5
+Description=Wooden Door 2 (East) (Open)
 
 
 [ItemDef 09AE3]
@@ -1159,16 +2167,16 @@ Weight=255
 OpenDoorID=09AE4
 
 Category=Structures
-Subsection=Doors
-Description=Wooden Door 21 (East) (Closed)
+Subsection=Doors: Wooden Doors 5
+Description=Wooden Door 3 (East) (Closed)
 
 [ItemDef 09AE4]
 NameLoc=1123676
 Type=tOpenDoor
 
 Category=Structures
-Subsection=Doors
-Description=Wooden Door 21 (East) (Open)
+Subsection=Doors: Wooden Doors 5
+Description=Wooden Door 3 (East) (Open)
 
 
 [ItemDef 09AE5]
@@ -1182,16 +2190,16 @@ Weight=255
 OpenDoorID=09AE6
 
 Category=Structures
-Subsection=Doors
-Description=Wooden Door 22 (East) (Closed)
+Subsection=Doors: Wooden Doors 5
+Description=Wooden Door 4 (East) (Closed)
 
 [ItemDef 09AE6]
 NameLoc=1123678
 Type=tOpenDoor
 
 Category=Structures
-Subsection=Doors
-Description=Wooden Door 22 (East) (Open)
+Subsection=Doors: Wooden Doors 5
+Description=Wooden Door 4 (East) (Open)
 
 
 [ItemDef 09BC3]
@@ -1205,16 +2213,16 @@ Weight=255
 OpenDoorID=09BC4
 
 Category=Structures
-Subsection=Doors
-Description=Wooden Door 23 (South) (Closed)
+Subsection=Doors: Wooden Doors 6
+Description=Wooden Door 1 (South) (Closed)
 
 [ItemDef 09BC4]
 NameLoc=1123761
 Type=tOpenDoor
 
 Category=Structures
-Subsection=Doors
-Description=Wooden Door 23 (South) (Open)
+Subsection=Doors: Wooden Doors 6
+Description=Wooden Door 1 (South) (Open)
 
 
 [ItemDef 09BC5]
@@ -1228,16 +2236,16 @@ Weight=255
 OpenDoorID=09BC6
 
 Category=Structures
-Subsection=Doors
-Description=Wooden Door 24 (South) (Closed)
+Subsection=Doors: Wooden Doors 6
+Description=Wooden Door 2 (South) (Closed)
 
 [ItemDef 09BC6]
 NameLoc=1123763
 Type=tOpenDoor
 
 Category=Structures
-Subsection=Doors
-Description=Wooden Door 24 (South) (Open)
+Subsection=Doors: Wooden Doors 6
+Description=Wooden Door 2 (South) (Open)
 
 
 [ItemDef 09BC7]
@@ -1251,16 +2259,16 @@ Weight=255
 OpenDoorID=09BC8
 
 Category=Structures
-Subsection=Doors
-Description=Wooden Door 25 (South) (Closed)
+Subsection=Doors: Wooden Doors 6
+Description=Wooden Door 3 (South) (Closed)
 
 [ItemDef 09BC8]
 NameLoc=1123765
 Type=tOpenDoor
 
 Category=Structures
-Subsection=Doors
-Description=Wooden Door 25 (South) (Open)
+Subsection=Doors: Wooden Doors 6
+Description=Wooden Door 3 (South) (Open)
 
 
 [ItemDef 09BC9]
@@ -1274,16 +2282,16 @@ Weight=255
 OpenDoorID=09BCA
 
 Category=Structures
-Subsection=Doors
-Description=Wooden Door 26 (South) (Closed)
+Subsection=Doors: Wooden Doors 6
+Description=Wooden Door 4 (South) (Closed)
 
 [ItemDef 09BCA]
 NameLoc=1123767
 Type=tOpenDoor
 
 Category=Structures
-Subsection=Doors
-Description=Wooden Door 26 (South) (Open)
+Subsection=Doors: Wooden Doors 6
+Description=Wooden Door 4 (South) (Open)
 
 
 [ItemDef 09BCB]
@@ -1297,16 +2305,16 @@ Weight=255
 OpenDoorID=09BCC
 
 Category=Structures
-Subsection=Doors
-Description=Wooden Door 23 (East) (Closed)
+Subsection=Doors: Wooden Doors 6
+Description=Wooden Door 1 (East) (Closed)
 
 [ItemDef 09BCC]
 NameLoc=1123769
 Type=tOpenDoor
 
 Category=Structures
-Subsection=Doors
-Description=Wooden Door 23 (East) (Open)
+Subsection=Doors: Wooden Doors 6
+Description=Wooden Door 1 (East) (Open)
 
 
 [ItemDef 09BCD]
@@ -1320,16 +2328,16 @@ Weight=255
 OpenDoorID=09BCE
 
 Category=Structures
-Subsection=Doors
-Description=Wooden Door 24 (East) (Closed)
+Subsection=Doors: Wooden Doors 6
+Description=Wooden Door 2 (East) (Closed)
 
 [ItemDef 09BCE]
 NameLoc=1123771
 Type=tOpenDoor
 
 Category=Structures
-Subsection=Doors
-Description=Wooden Door 24 (East) (Open)
+Subsection=Doors: Wooden Doors 6
+Description=Wooden Door 2 (East) (Open)
 
 
 [ItemDef 09BCF]
@@ -1343,16 +2351,16 @@ Weight=255
 OpenDoorID=09BD0
 
 Category=Structures
-Subsection=Doors
-Description=Wooden Door 25 (East) (Closed)
+Subsection=Doors: Wooden Doors 6
+Description=Wooden Door 3 (East) (Closed)
 
 [ItemDef 09BD0]
 NameLoc=1123773
 Type=tOpenDoor
 
 Category=Structures
-Subsection=Doors
-Description=Wooden Door 25 (East) (Open)
+Subsection=Doors: Wooden Doors 6
+Description=Wooden Door 3 (East) (Open)
 
 
 [ItemDef 09BD1]
@@ -1366,16 +2374,16 @@ Weight=255
 OpenDoorID=09BD2
 
 Category=Structures
-Subsection=Doors
-Description=Wooden Door 26 (East) (Closed)
+Subsection=Doors: Wooden Doors 6
+Description=Wooden Door 4 (East) (Closed)
 
 [ItemDef 09BD2]
 NameLoc=1123775
 Type=tOpenDoor
 
 Category=Structures
-Subsection=Doors
-Description=Wooden Door 26 (East) (Open)
+Subsection=Doors: Wooden Doors 6
+Description=Wooden Door 4 (East) (Open)
 
 
 [EOF]
