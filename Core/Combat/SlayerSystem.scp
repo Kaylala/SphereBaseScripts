@@ -1,6 +1,6 @@
 [comment EADamagesystem]
 Author: Khaos
-Version: 3.2.2.1
+Version: 3.3.2.2
 NPC Side controlled Slayer Damage to consume less resources in combat with Slayer Damage.
 
 Script checks to make sure players have Slayer flags equipped in their Slayer/Super Slayer/misc Slayer variables and check against the enemies variables.
@@ -27,6 +27,8 @@ Updates:
 - Removed &= and replaced with &. It was calling undefined symbols.
 - Added *Slayer as entries were missing it in the transition of renaming.
 - Fixed a ElIf Typo "Elf" and other misc typos.
+- Few switches from <Eval <Local.*>> to <dLocal.*>
+- Optimized some more code.
 
 Variables used on items and chars:
 SlayerLesser
@@ -104,7 +106,7 @@ Return 0
 If (<Local.SlayerDam> > 3)
  Local.SlayerDam=3
 EndIf
-ArgN1 *= <Eval <Local.SlayerDam>> 
+ArgN1 *= <dLocal.SlayerDam>
 
 // Aligned Slayer Damage PvM
 [Function SlayerAlignedType]
