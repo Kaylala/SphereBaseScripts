@@ -1,7 +1,7 @@
 
 // Dragon Turtle
 // Dragon Turtle Champion Spawn
-[CharDef 050D]
+[CharDef 0508]
 DefName=cDragonTurtle
 Name=Dragon Turtle
 Can=CanWalk|CanUseHands

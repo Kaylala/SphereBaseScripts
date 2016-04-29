@@ -239,7 +239,7 @@ AddCircle=7,1
 
 // Allosaurus
 // Valley of Eodon
-[CharDef 050D]
+[CharDef 050A]
 DefName=cAllosaurus
 Name=allosaurus
 Can=CanWalk|CanNonHuman
