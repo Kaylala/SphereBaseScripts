@@ -41,9 +41,9 @@ SlayerSuper
 
 [DefName DamageControl]
 // Damage control
-SlayerDamL		3	// Lesser Slayer Damage.
-SlayerDamS		2	// Super Slayer Damage.
-SlayerDamO		2	// Opposite Slayer Damage
+SlayerDamL			3	// Lesser Slayer Damage.
+SlayerDamS			2	// Super Slayer Damage.
+SlayerDamO			2	// Opposite Slayer Damage
 SlayerHitRatio		100 // chance to hit with a Slayer 100 always hits. Anything less and we will perform a test to hit.
 
 
@@ -51,20 +51,20 @@ SlayerHitRatio		100 // chance to hit with a Slayer 100 always hits. Anything les
  // Adds Slayer flag info from an item to char.
 [Events eSlayerspChars]
 On=@ItemEquip
-If (<Act.SlayerLesser> > 0)
- SlayerLesser |= <Act.SlayerLesser>
+If (<Act.SlayerLesser>)
+  SlayerLesser <Hval <SlayerLesser>>|<Act.SlayerLesser>
 EndIf
-If (<Act.SlayerSuper> > 0)
- SlayerSuper |= <Act.SlayerSuper>
+If (<Act.SlayerSuper>)
+ SlayerSuper <Hval <SlayerSuper>>|<Act.SlayerSuper>
 EndIf
 Return 0
 
 // Removes Slayer flag info char based on item.
 On=@ItemUnequip
-If (<Act.SlayerLesser> > 0)
+If (<Act.SlayerLesser>)
  SlayerLesser &= ~<Act.SlayerLesser>
 EndIf
-If (<Act.SlayerSuper> > 0)
+If (<Act.SlayerSuper>)
  SlayerSuper &= ~<Act.SlayerSuper>
 EndIf
 Return 0
@@ -243,7 +243,7 @@ Return <Qval (<SlayerSuper> != 0) ? 1 : 0 >
 //
 
 // Lesser Slayers
-[Defname LesserFlags]
+[Defname LesserSlayerFlags]
 GargoyleSlayer		01
 AirElementalSlayer	02
 BloodElementalSlayer	04
@@ -268,7 +268,7 @@ MyrmidexSlayer		0100000
 EodonTribesmanSlayer	0200000
 
 // Super Slayers
-[DefName SuperFlags]
+[DefName SuperSlayerFlags]
 AbyssSlayer		01
 ElementalSlayer		02
 FeySlayer		04
@@ -289,5 +289,6 @@ MageSlayer		010000
 WolfSlayer		020000
 DemonSlayer		AbyssSlayer
 DaemonSlayer		AbyssSlayer
+
 
 [EOF]
