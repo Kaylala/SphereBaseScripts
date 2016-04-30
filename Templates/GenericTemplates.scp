@@ -645,7 +645,513 @@ Description=Pagan Reagent (Random)
 Item={iBlackmoor 1 iBloodSpawn 1 iBone 1 iBrimstone 1 iDaemonBone 1 iDeadWood 1 iDragonsBlood1 1 iExecutionersCap 1 iEyeOfNewt 1 iFertileDirt 1 iObsidian 1 iPumice 1 iSerpentsScale 1 iVialOfBlood 1 iVolcanicAsh 1 iWyrmsHeart 1}
 
 
+[Template BagOfMageryReagents1]
+Category=Templates: Generic
+Subsection=Magic: Reagents
+Description=Bag of Magery Reagents (5 10)
+Container=iBag
+Item=iBlackPearl,{5 10}
+Item=iBloodMoss,{5 10}
+Item=iGarlic,{5 10}
+Item=iGinseng,{5 10}
+Item=iMandrakeRoot,{5 10}
+Item=iNightShade,{5 10}
+Item=iSpidersSilk,{5 10}
+Item=iSulfurousAsh,{5 10}
+
+
+[Template BagOfMageryReagents2]
+Category=Templates: Generic
+Subsection=Magic: Reagents
+Description=Bag of Magery Reagents (10 20)
+Container=iBag
+Item=iBlackPearl,{10 20}
+Item=iBloodMoss,{10 20}
+Item=iGarlic,{10 20}
+Item=iGinseng,{10 20}
+Item=iMandrakeRoot,{10 20}
+Item=iNightShade,{10 20}
+Item=iSpidersSilk,{10 20}
+Item=iSulfurousAsh,{10 20}
+
+
+[Template BagOfMageryReagents3]
+Category=Templates: Generic
+Subsection=Magic: Reagents
+Description=Bag of Magery Reagents (25 50)
+Container=iBag
+Item=iBlackPearl,{25 50}
+Item=iBloodMoss,{25 50}
+Item=iGarlic,{25 50}
+Item=iGinseng,{25 50}
+Item=iMandrakeRoot,{25 50}
+Item=iNightShade,{25 50}
+Item=iSpidersSilk,{25 50}
+Item=iSulfurousAsh,{25 50}
+
+
+[Template BagOfMageryReagents4]
+Category=Templates: Generic
+Subsection=Magic: Reagents
+Description=Bag of Magery Reagents (50 75)
+Container=iBag
+Item=iBlackPearl,{50 75}
+Item=iBloodMoss,{50 75}
+Item=iGarlic,{50 75}
+Item=iGinseng,{50 75}
+Item=iMandrakeRoot,{50 75}
+Item=iNightShade,{50 75}
+Item=iSpidersSilk,{50 75}
+Item=iSulfurousAsh,{50 75}
+
+
+[Template BagOfMageryReagents5]
+Category=Templates: Generic
+Subsection=Magic: Reagents
+Description=Bag of Magery Reagents (75 100)
+Container=iBag
+Item=iBlackPearl,{75 100}
+Item=iBloodMoss,{75 100}
+Item=iGarlic,{75 100}
+Item=iGinseng,{75 100}
+Item=iMandrakeRoot,{75 100}
+Item=iNightShade,{75 100}
+Item=iSpidersSilk,{75 100}
+Item=iSulfurousAsh,{75 100}
+
+
+[Template BagOfNecromancyReagents1]
+Category=Templates: Generic
+Subsection=Magic: Reagents
+Description=Bag of Necromancy Reagents (5 10)
+Container=iBag
+Item=iGraveDust,{5 10}
+Item=iNoxCrystal,{5 10}
+Item=iDaemonBlood,{5 10}
+Item=iBatwing,{5 10}
+Item=iPigIron,{5 10}
+
+
+[Template BagOfNecromancyReagents2]
+Category=Templates: Generic
+Subsection=Magic: Reagents
+Description=Bag of Necromancy Reagents (10 20)
+Container=iBag
+Item=iGraveDust,{10 20}
+Item=iNoxCrystal,{10 20}
+Item=iDaemonBlood,{10 20}
+Item=iBatwing,{10 20}
+Item=iPigIron,{10 20}
+
+
+[Template BagOfNecromancyReagents3]
+Category=Templates: Generic
+Subsection=Magic: Reagents
+Description=Bag of Necromancy Reagents (25 50)
+Container=iBag
+Item=iGraveDust,{25 50}
+Item=iNoxCrystal,{25 50}
+Item=iDaemonBlood,{25 50}
+Item=iBatwing,{25 50}
+Item=iPigIron,{25 50}
+
+
+[Template BagOfNecromancyReagents4]
+Category=Templates: Generic
+Subsection=Magic: Reagents
+Description=Bag of Necromancy Reagents (50 75)
+Container=iBag
+Item=iGraveDust,{50 75}
+Item=iNoxCrystal,{50 75}
+Item=iDaemonBlood,{50 75}
+Item=iBatwing,{50 75}
+Item=iPigIron,{50 75}
+
+
+[Template BagOfNecromancyReagents5]
+Category=Templates: Generic
+Subsection=Magic: Reagents
+Description=Bag of Necromancy Reagents (75 100)
+Container=iBag
+Item=iGraveDust,{75 100}
+Item=iNoxCrystal,{75 100}
+Item=iDaemonBlood,{75 100}
+Item=iBatwing,{75 100}
+Item=iPigIron,{75 100}
+
+
+[Template BagOfMysticismReagents1]
+Category=Templates: Generic
+Subsection=Magic: Reagents
+Description=Bag of Mysticism Reagents (5 10)
+Container=iBag
+Item=iBlackPearl,{5 10}
+Item=iBloodMoss,{5 10}
+Item=iGarlic,{5 10}
+Item=iGinseng,{5 10}
+Item=iMandrakeRoot,{5 10}
+Item=iNightShade,{5 10}
+Item=iSpidersSilk,{5 10}
+Item=iSulfurousAsh,{5 10}
+Item=iBone,{5 10}
+Item=iDragonsBlood2,{5 10}
+Item=iDaemonBone,{5 10}
+Item=iFertileDirt,{5 10}
+
+
+[Template BagOfMysticismReagents2]
+Category=Templates: Generic
+Subsection=Magic: Reagents
+Description=Bag of Mysticism Reagents (10 20)
+Container=iBag
+Item=iBlackPearl,{10 20}
+Item=iBloodMoss,{10 20}
+Item=iGarlic,{10 20}
+Item=iGinseng,{10 20}
+Item=iMandrakeRoot,{10 20}
+Item=iNightShade,{10 20}
+Item=iSpidersSilk,{10 20}
+Item=iSulfurousAsh,{10 20}
+Item=iBone,{10 20}
+Item=iDragonsBlood2,{10 20}
+Item=iDaemonBone,{10 20}
+Item=iFertileDirt,{10 20}
+
+
+[Template BagOfMysticismReagents3]
+Category=Templates: Generic
+Subsection=Magic: Reagents
+Description=Bag of Mysticism Reagents (25 50)
+Container=iBag
+Item=iBlackPearl,{25 50}
+Item=iBloodMoss,{25 50}
+Item=iGarlic,{25 50}
+Item=iGinseng,{25 50}
+Item=iMandrakeRoot,{25 50}
+Item=iNightShade,{25 50}
+Item=iSpidersSilk,{25 50}
+Item=iSulfurousAsh,{25 50}
+Item=iBone,{25 50}
+Item=iDragonsBlood2,{25 50}
+Item=iDaemonBone,{25 50}
+Item=iFertileDirt,{25 50}
+
+
+[Template BagOfMysticismReagents4]
+Category=Templates: Generic
+Subsection=Magic: Reagents
+Description=Bag of Mysticism Reagents (50 75)
+Container=iBag
+Item=iBlackPearl,{50 75}
+Item=iBloodMoss,{50 75}
+Item=iGarlic,{50 75}
+Item=iGinseng,{50 75}
+Item=iMandrakeRoot,{50 75}
+Item=iNightShade,{50 75}
+Item=iSpidersSilk,{50 75}
+Item=iSulfurousAsh,{50 75}
+Item=iBone,{50 75}
+Item=iDragonsBlood2,{50 75}
+Item=iDaemonBone,{50 75}
+Item=iFertileDirt,{50 75}
+
+
+[Template BagOfMysticismReagents5]
+Category=Templates: Generic
+Subsection=Magic: Reagents
+Description=Bag of Mysticism Reagents (75 100)
+Container=iBag
+Item=iBlackPearl,{75 100}
+Item=iBloodMoss,{75 100}
+Item=iGarlic,{75 100}
+Item=iGinseng,{75 100}
+Item=iMandrakeRoot,{75 100}
+Item=iNightShade,{75 100}
+Item=iSpidersSilk,{75 100}
+Item=iSulfurousAsh,{75 100}
+Item=iBone,{75 100}
+Item=iDragonsBlood2,{75 100}
+Item=iDaemonBone,{75 100}
+Item=iFertileDirt,{75 100}
+
+
+[Template BagOfPaganReagents1]
+Category=Templates: Generic
+Subsection=Magic: Reagents
+Description=Bag of Pagan Reagents (5 10)
+Container=iBag
+Item=iBlackmoor,{5 10}
+Item=iBloodSpawn,{5 10}
+Item=iBone,{5 10}
+Item=iBrimstone,{5 10}
+Item=iDaemonBone,{5 10}
+Item=iDeadWood,{5 10}
+Item=iDragonsBlood1,{5 10}
+Item=iExecutionersCap,{5 10}
+Item=iEyeOfNewt,{5 10}
+Item=iFertileDirt,{5 10}
+Item=iObsidian,{5 10}
+Item=iPumice,{5 10}
+Item=iSerpentsScale,{5 10}
+Item=iVialOfBlood,{5 10}
+Item=iVolcanicAsh,{5 10}
+Item=iWyrmsHeart,{5 10}
+
+
+[Template BagOfPaganReagents2]
+Category=Templates: Generic
+Subsection=Magic: Reagents
+Description=Bag of Pagan Reagents (10 20)
+Container=iBag
+Item=iBlackmoor,{10 20}
+Item=iBloodSpawn,{10 20}
+Item=iBone,{10 20}
+Item=iBrimstone,{10 20}
+Item=iDaemonBone,{10 20}
+Item=iDeadWood,{10 20}
+Item=iDragonsBlood1,{10 20}
+Item=iExecutionersCap,{10 20}
+Item=iEyeOfNewt,{10 20}
+Item=iFertileDirt,{10 20}
+Item=iObsidian,{10 20}
+Item=iPumice,{10 20}
+Item=iSerpentsScale,{10 20}
+Item=iVialOfBlood,{10 20}
+Item=iVolcanicAsh,{10 20}
+Item=iWyrmsHeart,{10 20}
+
+
+[Template BagOfPaganReagents3]
+Category=Templates: Generic
+Subsection=Magic: Reagents
+Description=Bag of Pagan Reagents (25 50)
+Container=iBag
+Item=iBlackmoor,{25 50}
+Item=iBloodSpawn,{25 50}
+Item=iBone,{25 50}
+Item=iBrimstone,{25 50}
+Item=iDaemonBone,{25 50}
+Item=iDeadWood,{25 50}
+Item=iDragonsBlood1,{25 50}
+Item=iExecutionersCap,{25 50}
+Item=iEyeOfNewt,{25 50}
+Item=iFertileDirt,{25 50}
+Item=iObsidian,{25 50}
+Item=iPumice,{25 50}
+Item=iSerpentsScale,{25 50}
+Item=iVialOfBlood,{25 50}
+Item=iVolcanicAsh,{25 50}
+Item=iWyrmsHeart,{25 50}
+
+
+[Template BagOfPaganReagents4]
+Category=Templates: Generic
+Subsection=Magic: Reagents
+Description=Bag of Pagan Reagents (50 75)
+Container=iBag
+Item=iBlackmoor,{50 75}
+Item=iBloodSpawn,{50 75}
+Item=iBone,{50 75}
+Item=iBrimstone,{50 75}
+Item=iDaemonBone,{50 75}
+Item=iDeadWood,{50 75}
+Item=iDragonsBlood1,{50 75}
+Item=iExecutionersCap,{50 75}
+Item=iEyeOfNewt,{50 75}
+Item=iFertileDirt,{50 75}
+Item=iObsidian,{50 75}
+Item=iPumice,{50 75}
+Item=iSerpentsScale,{50 75}
+Item=iVialOfBlood,{50 75}
+Item=iVolcanicAsh,{50 75}
+Item=iWyrmsHeart,{50 75}
+
+
+[Template BagOfPaganReagents5]
+Category=Templates: Generic
+Subsection=Magic: Reagents
+Description=Bag of Pagan Reagents (75 100)
+Container=iBag
+Item=iBlackmoor,{75 100}
+Item=iBloodSpawn,{75 100}
+Item=iBone,{75 100}
+Item=iBrimstone,{75 100}
+Item=iDaemonBone,{75 100}
+Item=iDeadWood,{75 100}
+Item=iDragonsBlood1,{75 100}
+Item=iExecutionersCap,{75 100}
+Item=iEyeOfNewt,{75 100}
+Item=iFertileDirt,{75 100}
+Item=iObsidian,{75 100}
+Item=iPumice,{75 100}
+Item=iSerpentsScale,{75 100}
+Item=iVialOfBlood,{75 100}
+Item=iVolcanicAsh,{75 100}
+Item=iWyrmsHeart,{75 100}
+
+
 // Scrolls
+
+
+[Template RandomMageryScroll]
+Category=Templates: Generic
+Subsection=Magic: Scrolls
+Description=Magery Scroll (Random)
+Item={Random1stCircleMageryScroll 1 Random2ndCircleMageryScroll 1 Random3rdCircleMageryScroll 1 Random4thCircleMageryScroll 1 Random5thCircleMageryScroll 1 Random6thCircleMageryScroll 1 Random7thCircleMageryScroll 1 Random8thCircleMageryScroll 1}
+
+
+[Template RandomLowLevelMageryScroll]
+Category=Templates: Generic
+Subsection=Magic: Scrolls
+Description=Low Level Magery Scroll (Random)
+Item={Random1stCircleMageryScroll 1 Random2ndCircleMageryScroll 1 Random3rdCircleMageryScroll 1}
+
+
+[Template RandomMediumLevelMageryScroll]
+Category=Templates: Generic
+Subsection=Magic: Scrolls
+Description=Medium Level Magery Scroll (Random)
+Item={Random4thCircleMageryScroll 1 Random5thCircleMageryScroll 1 Random6thCircleMageryScroll 1 Random7thCircleMageryScroll 1}
+
+
+[Template RandomHighLevelMageryScroll]
+Category=Templates: Generic
+Subsection=Magic: Scrolls
+Description=High Level Magery Scroll (Random)
+Item=Random8thCircleMageryScroll
+
+
+[Template Random1stCircleMageryScroll]
+Category=Templates: Generic
+Subsection=Magic: Scrolls
+Description=1st Circle Magery Scroll (Random)
+Item={iClumsyScroll 1 iCreateFoodScroll 1 iFeeblemindScroll 1 iHealScroll 1 iMagicArrowScroll 1 iNightSightScroll 1 iReactiveArmorScroll 1 iWeakenScroll 1}
+
+
+[Template Random2ndCircleMageryScroll]
+Category=Templates: Generic
+Subsection=Magic: Scrolls
+Description=2nd Circle Magery Scroll (Random)
+Item={iAgilityScroll 1 iCunningScroll 1 iCureScroll 1 iHarmScroll 1 iMagicTrapScroll 1 iMagicUntrapScroll 1 iProtectionScroll 1 iStrengthScroll 1}
+
+
+[Template Random3rdCircleMageryScroll]
+Category=Templates: Generic
+Subsection=Magic: Scrolls
+Description=3rd Circle Magery Scroll (Random)
+Item={iBlessScroll 1 iFireballScroll 1 iMagicLockScroll 1 iPoisonScroll 1 iTelekinesisScroll 1 iTeleportScroll 1 iUnlockScroll 1 iWallOfStoneScroll 1}
+
+
+[Template Random4thCircleMageryScroll]
+Category=Templates: Generic
+Subsection=Magic: Scrolls
+Description=4th Circle Magery Scroll (Random)
+Item={iArchCureScroll 1 iArchProtectionScroll 1 iCurseScroll 1 iFireFieldScroll 1 iGreaterHealScroll 1 iLightningScroll 1 iManaDrainScroll 1 iRecallScroll 1}
+
+
+[Template Random5thCircleMageryScroll]
+Category=Templates: Generic
+Subsection=Magic: Scrolls
+Description=5th Circle Magery Scroll (Random)
+Item={iBladeSpiritsScroll 1 iDispelFieldScroll 1 iIncognitoScroll 1 iMagicReflectionScroll 1 iMindBlastScroll 1 iParalyzeScroll 1 iPoisonFieldScroll 1 iSummonCreatureScroll 1}
+
+
+[Template Random6thCircleMageryScroll]
+Category=Templates: Generic
+Subsection=Magic: Scrolls
+Description=6th Circle Magery Scroll (Random)
+Item={iDispelScroll 1 iEnergyBoltScroll 1 iExplosionScroll 1 iInvisibilityScroll 1 iMarkScroll 1 iMassCurseScroll 1 iParalyzeFieldScroll 1 iRevealScroll 1}
+
+
+[Template Random7thCircleMageryScroll]
+Category=Templates: Generic
+Subsection=Magic: Scrolls
+Description=7th Circle Magery Scroll (Random)
+Item={iChainLightningScroll 1 iEnergyFieldScroll 1 iFlamestrikeScroll 1 iGateTravelScroll 1 iManaVampireScroll 1 iMassDispelScroll 1 iMeteorSwarmScroll 1 iPolymorphScroll 1}
+
+
+[Template Random8thCircleMageryScroll]
+Category=Templates: Generic
+Subsection=Magic: Scrolls
+Description=8th Circle Magery Scroll (Random)
+Item={iEarthquakeScroll 1 iEnergyVortexScroll 1 iResurrectionScroll 1 iSummonAirElementalScroll 1 iSummonDaemonScroll 1 iSummonEarthElementalScroll 1 iSummonFireElementalScroll 1 iSummonWaterElementalScroll 1}
+
+
+[Template RandomNecromancyScroll]
+Category=Templates: Generic
+Subsection=Magic: Scrolls
+Description=Necromancy Scroll (Random)
+Item={RandomLowLevelNecromancyScroll 1 RandomMediumLevelNecromancyScroll 1 RandomHighLevelNecromancyScroll 1}
+
+
+[Template RandomLowLevelNecromancyScroll]
+Category=Templates: Generic
+Subsection=Magic: Scrolls
+Description=Low Level Necromancy Scroll (Random)
+Item={iBloodOathScroll 1 iCorpseSkinScroll 1 iEvilOmenScroll 1 iPainSpikeScroll 1 iWraithFormScroll 1 iMindRotScroll 1 iSummonFamiliarScroll 1 iAnimateDeadScroll 1 iHorrificBeastScroll 1}
+
+
+[Template RandomMediumLevelNecromancyScroll]
+Category=Templates: Generic
+Subsection=Magic: Scrolls
+Description=Low Level Necromancy Scroll (Random)
+Item={iPoisonStrikeScroll 1 iWitherScroll 1 iStrangleScroll 1 iLichFormScroll 1 iExorcismScroll 1 iVengefulSpiritScroll 1}
+
+
+[Template RandomHighLevelNecromancyScroll]
+Category=Templates: Generic
+Subsection=Magic: Scrolls
+Description=High Level Necromancy Scroll (Random)
+Item=iVampiricEmbraceScroll
+
+
+[Template RandomSpellweavingScroll]
+Category=Templates: Generic
+Subsection=Magic: Scrolls
+Description=Spellweaving Scroll (Random)
+Item={RandomLowLevelSpellweavingScroll 1 RandomMediumLevelSpellweavingScroll 1 RandomHighLevelSpellweavingScroll 1}
+
+
+[Template RandomLowLevelSpellweavingScroll]
+Category=Templates: Generic
+Subsection=Magic: Scrolls
+Description=Low Level Spellweaving Scroll (Random)
+Item={iArcaneCircleScroll 1 iAttunementScroll 1 iGiftOfRenewalScroll 1 iNaturesFuryScrolls 1 iImmolatingWeaponScroll 1 iThunderstormScroll 1 iArcaneEmpowermentScroll 1 iEtherealVoyageScroll 1 iReaperFormScroll 1 iGiftOfRenewalScroll 1}	// iSummonFeyScroll 1 iSummonFiendScroll 1}
+
+
+[Template RandomMediumLevelSpellweavingScroll]
+Category=Templates: Generic
+Subsection=Magic: Scrolls
+Description=Medium Level Spellweaving Scroll (Random)
+Item={iDryadAllureScroll 1 iEssenceOfWindScroll 1 iWildfireScroll 1}
+
+
+[Template RandomHighLevelSpellweavingScroll]
+Category=Templates: Generic
+Subsection=Magic: Scrolls
+Description=High Level Spellweaving Scroll (Random)
+Item=iWordOfDeathScroll
+
+
+[Template RandomLowLevelMysticismScroll]
+Category=Templates: Generic
+Subsection=Magic: Scrolls
+Description=Low Level Mysticism Scroll (Random)
+Item={iHealingStoneScroll 1 iNetherBoltScroll 1 iEnchantScroll 1 iPurgeMagicScroll 1 iEagleStrikeScroll 1 iSleepScroll 1 iAnimatedWeaponScroll 1 iStoneFormScroll 1 iMassSleepScroll 1 iSpellTriggerScroll 1}
+
+
+[Template RandomMediumLevelMysticismScroll]
+Category=Templates: Generic
+Subsection=Magic: Scrolls
+Description=Medium Level Mysticism Scroll (Random)
+Item={iBombardScroll 1 iCleansingWindsScroll 1 iHailStormScroll 1 iSpellPlagueScroll 1}
+
+
+[Template RandomHighLevelMysticismScroll]
+Category=Templates: Generic
+Subsection=Magic: Scrolls
+Description=High Level Mysticism Scroll (Random)
+Item={iNetherCycloneScroll 1 iRisingColossusScroll 1}
 
 
 // Spellbooks
