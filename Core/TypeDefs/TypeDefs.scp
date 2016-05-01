@@ -1,6 +1,77 @@
 [TypeDef tChickenCoop]
 
 
+[TypeDef tPilot]
+On=@DClick
+ref1=<region.uid>
+if ( <ref1.more1> == <src> )
+ if ( <ref1.pilot> == <src> )
+  src.consume 1 i_memory_ship_pilot
+  ref1.pilot=0
+ else
+  ref1.pilot=<src>
+  if (<src.FindLayer.layer_horse>)
+   src.Dismount
+  endif
+  serv.newitem = i_memory_ship_pilot
+  new.equip
+ endif
+endif
+return 1
+
+
+[Comment Mailbox]
+This could be expanded more to actually do mailing. As is, it is more like a spare container for yourself
+or your housing. When used in the housing it can only have items placed in it depending on your privacy.
+Items gets temporary CliLocs (Set with a type and timerf for removal?) that are removed. Allegedly,
+there is a message that gets attached, but without being on EA, not entirely sure what is used.
+
+Temporary CliLoc Added to Items:
+1113938;Sender: ~1_NAME~
+
+Option to Ban sender (Adds to house banned list)
+1113939;Ban Sender
+
+Standard System CliLocs
+1113941;You can only receive mail if your box is secured, not locked down!
+1113942;You may only do that from inside your house.
+
+
+[TypeDef tMailbox]
+On=@DropOn_Self
+If (<FCount> == 150)
+ Src.SMsgL -1,1113940	// That mailbox is completely full.
+ Return 1
+EndIf
+
+If (<DispIDDec> == 04140)
+ DispID=04141
+ElIf (<DispIDDec> == 04142)
+ DispID=04143
+EndIf
+Update
+
+On=@PickUp_Self
+If !(<FCount>)
+ If (<DispIDDec> == 04141)
+  DispID=04140
+ ElIf (<DispIDDec> == 04143)
+  DispID=04142
+ EndIf
+ Update
+EndIf
+	
+	
+[ItemDef iShipPilotMemory]
+ID=03e96	//This item is like a horse for the client, but for ships, having it equiped = pilot mode on current ship.
+Type=tEqMount
+Layer=25
+
+Category=Ship Parts
+Subsection=Pilot
+Description=Pilot memory
+
+
 [TypeDef tNormal]
 On=@ClientTooltip
 NameCliLoc

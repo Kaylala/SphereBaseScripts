@@ -46,4 +46,41 @@ NameLoc=1095970
 DupeItem=042C9
 
 
+[ItemDef 04141]
+DefName=iMailbox2
+Name=mailbox
+NameLoc=1095577
+Type=tContainer
+TData2=011a
+Weight=5
+TEvents=tMailbox
+DupeList=04143
+
+Category=Systems
+Subsection=Anniversary Gifts: 12th
+Description=Mailbox
+
+[ItemDef 04143]
+NameLoc=1095579
+DupeItem=04141
+
+[ItemDef 04142]
+DefName=iMailbox1
+Name=mailbox
+NameLoc=1095578
+Type=tContainer
+TData2=011a
+Weight=5
+TEvents=tMailbox
+DupeList=04144
+
+Category=Systems
+Subsection=Anniversary Gifts: 12th
+Description=Mailbox (Empty)
+
+[ItemDef 04144]
+NameLoc=1095580
+DupeItem=04142
+
+
 [EOF]
