@@ -70,16 +70,16 @@ Throwing=1000
 
 
 ON=@ItemEquip
-if (<acttype>==t_armor && !<actMageArmor>)
-	tag0MeditPenalty ++
+If (<Act.Type>==tArmor) && (!<Act.MageArmor>)
+	Tag0.MeditPenalty ++
 	f_meditation_setup
-endif
+EndIf
 
 ON=@ItemUnEquip
-if (<acttype>==t_armor && !<actMageArmor>)
-	tag0MeditPenalty --
+If (<Act.Type>==tArmor) && (!<Act.MageArmor>)
+	Tag0.MeditPenalty --
 	f_meditation_setup
-endif
+EndIf
 
 
 [EOF]
