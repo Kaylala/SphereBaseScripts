@@ -1,0 +1,28 @@
+[ItemDef 0e75]
+DefName=iBackpack
+Name=backpack
+NameLoc=1023701
+Type=tContainer
+TData2=03C
+Can=CanIDye
+Weight=3
+Weight=3
+
+Category=Utility
+Subsection=Containers
+Description=Backpack
+
+
+[ItemDef 0e76]
+DefName=iBag
+Name=bag
+NameLoc=1023702
+Type=tContainer
+TData2=03D
+Can=CanIDye
+Weight=2
+Value=10
+
+Category=Utility
+Subsection=Containers
+Description=Leather Bag

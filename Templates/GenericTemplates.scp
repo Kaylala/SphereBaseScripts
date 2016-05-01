@@ -990,7 +990,9 @@ Item=iVolcanicAsh,{75 100}
 Item=iWyrmsHeart,{75 100}
 
 
-// Scrolls
+/////////////
+// Scrolls //
+/////////////
 
 
 [Template RandomMageryScroll]
@@ -1154,8 +1156,12 @@ Description=High Level Mysticism Scroll (Random)
 Item={iNetherCycloneScroll 1 iRisingColossusScroll 1}
 
 
-// Spellbooks
+////////////////
+// Spellbooks //
+////////////////
 
+
+[Template StartingMagerySpellbook]
 
 // Wands
 // This might NOT be happening. Wands should and can be randomly generated with a function. e.g. GenerateSpellWand
@@ -1163,7 +1169,16 @@ Item={iNetherCycloneScroll 1 iRisingColossusScroll 1}
 // So this template list is highly under consideration not to even parse.
 
 
-// Potions
+/////////////
+// Potions //
+/////////////
+
+
+[Template RandomPotion]
+Category=Templates: Generic
+Subsection=Magic: Potions
+Description=Potion (Random)
+Item={iRefreshPotion 1 iAgilityPotion 1 iCurePotion 1 iHealPotion 1 iStrengthPotion 1 iPoisonPotion 1 iNightsightPotion 1 iExplosionPotion 1}
 
 
 /////////////////

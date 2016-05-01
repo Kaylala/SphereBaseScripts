@@ -52,7 +52,9 @@ Scripts/Items/Resources/PeerlessIngredients/
 Scripts/Items/Resources/Skinning/
 Scripts/Items/ShipParts/
 Scripts/Items/Structures/
+Scripts/Items/Structures/Doors/
 Scripts/Items/Systems/
+Scripts/Items/Utility/
 // Mobiles
 Scripts/Mobiles/
 Scripts/Mobiles/Animals/
