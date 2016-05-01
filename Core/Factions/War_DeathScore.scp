@@ -1,0 +1,72 @@
+//****************************************************************************
+//SPHERE by : Menasoft ©1997-2004
+//www.sphereserver.com
+// All SPHERE script files and formats are copyright Menasoft & Partners.
+// This file may be freely edited for personal use, but may not be distributed
+// in whole or in part, in any format without express written permission from
+// Menasoft & Partners.  All donations and contributions
+// become the property of Menasoft & Partners.
+//****************************************************************************
+// FILE LAST UPDATED: Saturday, December 04, 2004
+//VERSION=0.56a
+
+[EVENTS e_deathscore]
+ON=@DEATH
+SRC.SIGCLEAR
+SRC.EVENTS -e_sigil
+
+ON=@KILL
+IF <ARGO.NPC>
+RETURN 0
+ENDIF
+IF <ARGO.FINDID.i_reskill> 
+ARGO.SYSMESSAGE=@54 Res-Killed ?
+SRC.SYSMESSAGE=@54 <ARGO.NAME> has recently died and is worth no silver or points...
+RETURN 0
+ENDIF
+IF <ARGO.MEMORYFINDTYPE.0400>
+IF (<ARGO.MEMORYFINDTYPE.0400.LINK> == <SRC.MEMORYFINDTYPE.0400.LINK>
+ARGO.SIGCLEAR
+RETURN 0
+ENDIF
+ENDIF
+IF <ARGO.MEMORYFINDTYPE.0800>
+IF (<ARGO.MEMORYFINDTYPE.0800.LINK> == <SRC.MEMORYFINDTYPE.0800.LINK>
+ARGO.SIGCLEAR
+RETURN 0
+ENDIF
+ENDIF
+IF (<ARGO.UID> == <SRC.UID>)
+ARGO.SIGCLEAR
+RETURN 0
+ENDIF
+IF (<ARGO.FINDID.i_relic_shard>) || (<ARGO.FINDID.i_sigil_human> || (<ARGO.FINDID.i_sigil_minax> || (<ARGO.FINDID.i_sigil_goblin> || (<ARGO.FINDID.i_sigil_orc> || (<ARGO.FINDID.i_sigil_elf> || (<ARGO.FINDID.i_sigil_drow>)  ///killed with sigil..
+ARGO.TAG.FACTIONRANKP (<EVAL <ARGO.TAG.FACTIONRANKP>>)-(4)
+NEWITEM= i_silver_faction                  
+ACT.AMOUNT 200
+ACT.CONT <SRC.UID>
+SRC.TAG.FACTIONKILLS=<EVAL <SRC.TAG.FACTIONKILLS>>+(2)
+SRC.TAG.FACTIONRANKP=<EVAL <SRC.TAG.FACTIONRANKP>>+(4)
+ARGO.SYSMESSAGE=@54 You Have Lost Four Rank Points To <SRC.NAME> for Dying with a Sigil.
+SRC.SYSMESSAGE=@72 You Have Been Awarded with 350 Silver Pieces, 2 War Kills, and 4 Rank for Vanquishing <ARGO.NAME> with a Relic!
+//serv.allclients sysmessage=@33,0 <ARGO.NAME> has been slain by <SRC.NAME> with a stolen Relic!
+ARGO.EVENTS -e_sigil
+ARGO.NEWITEM=i_reskill
+ARGO.ACT.EQUIP
+ARGO.SIGCLEAR
+RETURN 0
+ENDIF
+ARGO.TAG.FACTIONRANKP (<EVAL <ARGO.TAG.FACTIONRANKP>>)-(1)
+NEWITEM= i_silver_faction                  
+ACT.AMOUNT 100
+ACT.CONT <SRC.UID>
+SRC.TAG.FACTIONKILLS=<EVAL <SRC.TAG.FACTIONKILLS>>+(1)
+SRC.TAG.FACTIONRANKP=<EVAL <SRC.TAG.FACTIONRANKP>>+(2)
+ARGO.SYSMESSAGE=@54 You Have Lost One Rank Point To <SRC.NAME> :/
+SRC.SYSMESSAGE=@54 You Have Been Awarded with 100 Silver Pieces, 1 War Kills, and 2 Rank for Vanquishing <ARGO.NAME>!
+//serv.allclients sysmessage=@33,0 <ARGO.NAME> has been slain by <SRC.NAME>!
+ARGO.NEWITEM=i_reskill
+ARGO.ACT.EQUIP
+RETURN 0
+
+[EOF]

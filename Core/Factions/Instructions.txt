@@ -1,0 +1,111 @@
+///////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////SPHERE FACTIONS EXPANSION PACK /////////////////////////////////
+/////////////////////////// v1 For Sphere .56a        /////////////////////////////////////
+////////////////////////Scripted by Tattooed Corpse  //////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////
+
+       ** FEATURES **
+             REAL Faction Status Flags for Players who join
+             Dynamic Region Events and Town Guard Control
+             Town Relic System, similiar in ways to Faction Sigil Games
+             Points/Silver/Rank awarded for War Kills
+             
+
+****************
+**INSTALLATION**
+****************
+**TO INSTALL THIS FACTION SYSTEM Simply use a PLEVEL 7 Account and type .FACTIONSTART 
+*This installs 6 scripted Townstones with Faction Relics linked to them.
+*This command also makes the 6 towns at WAR with each other and REMOVES normal guarded region flags from the six towns.
+
+***********************
+**The 6 WARRING Towns**
+***********************
+Yew         
+Vesper 
+Cove 
+Minoc 
+Skara Brae 
+Trinsic 
+
+To find the townstones simply type .GO Yew or .GO Cove , etc....
+Players MUST join a Townstone in order to be involved in the Factions. It's completely voluntary.
+Players MUST use their townstone to Resign from Factions.
+Non-Faction Players may enter Faction Controlled Towns without fear of Faction Guards Attacking.
+
+Other Towns such as Britain and Moonglow have been left out of this system on purpose.
+Once you get to know this scripted system, customization should be easy.
+
+********************
+**THE RELIC SYSTEM**
+********************
+**There are a total of 7 Possible Realm Points that can be possessed by any given Faction.
+**Each Town has a Relic attatched (and linked) to it's Townstone, and starts with 1 Realm Point.
+**THERE SHOULD NEVER BE MORE SIX REALM POINTS DIVIDED BETWEEN THE TOWNS!
+**Once a Relic reaches 0 Realm Points, it becomes Corrupt, and is unstealable.
+
+An enemy Faction Member must have minimum of 55 stealing to attempt theft of the item.
+Once a Town Relic is stolen by an enemy Faction, it is redeemed at their Faction Townstone by 
+Double-Clicking it. This will transfer ONE Realm Point to their Townstone, and remove ONE from
+the other.
+IF the redemption of the relic increases Town A's 'Realm Points' > Town B's 'Realm Points',
+Town B's region will immediately become under Town A's guard system.
+Current Faction Guardsystem consists of Faction Guards who will appear and attack enemy faction members.
+They also decay 1-2 minutes after they are spawned.
+
+*********************
+**THE SEVENTH RELIC**
+*********************
+**Control of this relic will award the owner Faction their SEVENTH REALM POINT.
+**The "Seventh Relic" is the "Shard Relic" and is used to Unify the Realm and establish complete
+shard control by any one faction at a time.
+**This relic is only stealable by a faction member who's Stealing is at 95 minimum, and has SIX
+Realm Points on his Faction Stone.
+**Once this is redeemed at their Townstone, It will Unify the Realm, giving them SEVEN Realm Points,
+and making their own Town's Relic Invulnerable to theft.
+**The Seventh Relic's Home is on the Ancient Pantheon located in Britain, near the starting inn.
+**The Seventh Relic must be stolen by an enemy Faction to break Shard Unification..
+*************************
+**PLAYER FACTION SPEECH**
+*************************
+**No dot needed to use these commands (this is SPEECH not PLEVEL 1 commands)
+
+Punkte      ///How many Faction Kills I have made Total
+Point       ///How many Faction Kills I have made Total
+War Kills   ///How many Faction Kills I have made Total
+
+Relic     ///How many relics have I stolen   (Can be made spendable)
+Rank      ///What is my Current Rank (Can be made spendable and is lessened during death by the hand of a warring player)
+
+Guards    ///Works in Faction Towns but with different results, depending on if the player is IN a Faction or not.
+******************
+**REALM WARS FAQ**
+******************
+===========================================================================================
+QUESTION 1: What can I do if one of my Faction Stones gets deleted?
+
+ANSWER: Simply type .FIXTrinsic or .FIXCove or .FIXMinoc , etc.... using a PLEVEL 7 Account.
+This will add a new Townstone and Relic, and set the stone to war with the other 5 towns.
+ALWAYS DOUBLECHECK TOTAL REALM POINTS SPLIT BETWEEN FACTIONS by visiting the stones and
+adding up the total Realm Points.
+Adjust the MOREX of the new Townstone to 0 to make it have no Realm Points if necessary.
+
+===========================================================================================
+QUESTION 2: What can I do if a particular stone is not at war for some reason?
+
+ANSWER: Simply type .TrinsicWAR or .CoveWAR or .MinocWAR, etc... depending on which stone needs 
+to be at war with the others, using a PLEVEL 7 Account.
+
+*NOTE* The only reason this would happen is if the stone only had one player member 
+(who would be mayor) and they quit or are deleted, with no successor to take his place.
+The townstone will remove all wars in this situation, thus you are given .CoveWAR etc...
+in order to deal with this problem if it should arise. Once there is a population > 1 player
+on the stone, this issue would be ultra rare and should never arise.
+
+===========================================================================================
+QUESTION 3: How do I completely remove the faction system once I have installed it?
+
+ANSWER: Simply type .FACTIONCLEAN with a PLEVEL 7 Account.
+This will remove the Townstones, region events, and restore Normal Guarded Flags to the Region.
+Type .SAVE and close the server.Remove the Sphere_Factions Expansion Folder and restart the server.
+===========================================================================================

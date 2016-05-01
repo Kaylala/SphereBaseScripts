@@ -1,0 +1,189 @@
+//****************************************************************************
+//SPHERE by : Menasoft ©1997-2004
+//www.sphereserver.com
+// All SPHERE script files and formats are copyright Menasoft & Partners.
+// This file may be freely edited for personal use, but may not be distributed
+// in whole or in part, in any format without express written permission from
+// Menasoft & Partners.  All donations and contributions
+// become the property of Menasoft & Partners.
+//****************************************************************************
+// FILE LAST UPDATED: Sunday, December 5, 2004
+//Overwrites include:
+//TownStone Menues
+//GM Help Page Menu
+//Spk_Player
+
+
+
+// This is the member, NON-mayor townstones
+[MENU MENU_TOWN_MEMBER]
+Town of <Name> (<MasterTitle> <Master>)
+ON=0 View the current citizenship.
+VIEWROSTER
+ON=0 View the town's charter.
+VIEWCHARTER
+ON=0 Vote for mayor. You are currently loyal to <LoyalTo>.
+DECLAREFEALTY
+ON=0 Resign from the town.
+RESIGN
+SRC.EVENTS -e_deathscore
+SRC.TAG0.FACTIONRANKP
+SRC.FINDLAYER(21).MORE2
+SRC.TAG0.H
+SRC.TAG.NAME.SUFFIX
+SRC.UPDATE
+ON=0 View list of those applying for citizenship.
+VIEWCANDIDATES
+ON=0 View list of towns that <Name> has declared war on.
+VIEWENEMYS
+ON=0 View list of towns that have declared war on <Name>.
+VIEWTHREATS
+
+// Non-member view.
+[MENU MENU_TOWN_NON]
+Town of <Name> (<MasterTitle> <Master>)
+ON=0 View the towns's charter.
+VIEWCHARTER
+ON=0 View list of towns that <Name> has declared war on.
+VIEWENEMYS
+ON=0 View list of towns that have declared war on <Name>.
+VIEWTHREATS
+ON=0 Apply for citizenship
+APPLYTOJOIN
+SRC.EVENTS +e_deathscore
+SRC.FINDLAYER(21).MORE2 <EVAL <SRC.REGION.TAG0.ALIGN>>
+SRC.TAG0.H <SRC.P>
+SRC.TAG.NAME.SUFFIX ~[<NAME>]
+RETURN 0
+ENDIF
+
+[MENU MENU_TOWN_MAYOR]
+Town of <Name> (<MasterTitle> <Master>)
+ON=0 View the current citizenship.
+VIEWROSTER
+ON=0 View the town's charter.
+VIEWCHARTER
+ON=0 Vote for mayor. You are currently loyal to <LoyalTo>.
+DECLAREFEALTY
+ON=0 Resign from the town.
+RESIGN
+SRC.EVENTS -e_deathscore
+SRC.TAG0.FACTIONRANKP
+SRC.FINDLAYER(21).MORE2
+SRC.TAG0.H
+SRC.TAG.NAME.SUFFIX
+SRC.UPDATE
+
+ON=0 View list of those applying for citizenship.
+VIEWCANDIDATES
+ON=0 View list of towns that <Name> has declared war on.
+VIEWENEMYS
+ON=0 View list of towns that have declared war on <Name>.
+VIEWTHREATS
+ON=0 Access Mayoral functions.
+MASTERMENU
+
+// Mayor functions.
+[MENU MENU_TOWN_MAYORFUNC]
+Town of <Name>, Mayoral functions
+ON=0 Set the town's charter.
+SETCHARTER
+ON=0 Set the mayors's title.
+SETGMTITLE
+ON=0 Grant a title to a citizen.
+GRANTTITLE
+ON=0 Return to main menu.
+RETURNMAINMENU
+
+[MENU MENU_PAGEGM] // PAGEGM is executed whenever someone presses the "Page GM" button
+SPHERE Main Support Menu
+
+ON=0 PAGE A GM: Sends a notice to the server administrators, if they are online. They can help you with almost all your in-game problems.
+MENU MENU_PAGEGM_3
+
+ON=0 WEB MENU: Provides a list of links to various websites.
+MENU MENU_PAGEGM_2
+
+ON=0 INFO: Shows the version of SPHERE this server is running.
+VERSION
+
+ON=0 SERVER STATUS: Shows some status information about this server.
+INFORMATION
+
+[SPEECH spk_player]
+// Player speech Restrictions
+ON=*ruo*
+ON=*r u o*
+ON=*r_u_o*
+ON=*run_uo*
+ON=*runuo*
+ON=*run uo*
+ON=*run-uo*
+ON=*nigger*
+ON=*niger*
+ON=*jew*
+ON=*kike*
+ON=*spic*
+ON=*gay*
+ON=*whore*
+ON=*hore*
+ON=*slut*
+ON=*fag*
+ON=*homo*
+ON=*dike*
+ON=*dyke*
+
+sysmessage=@54 This speech was moderated by the server.
+RETURN 1
+
+ON=*flag*
+RETURN 0
+
+ON=*resign*
+sysmessage=@54 You may only resign at your Faction or Guild Stone.
+RETURN 1
+
+ON=*Punkte*
+ON=*Point*
+ON=*War Kills*
+ON=*Score*
+IF <src.memoryfindtype(memory_town)>
+SRC.SAY <eval <SRC.TAG0.FACTIONKILLS>>
+RETURN 0
+ENDIF
+SRC.SYSMESSAGE=@54 You must be in a faction to use this command.
+RETURN 0
+
+ON=*Relic*
+IF <src.memoryfindtype(memory_town)>
+SRC.SAY I have stolen <eval <SRC.TAG0.RELIC>> Relics.
+RETURN 0
+ENDIF
+SRC.SYSMESSAGE=@54 You must be in a faction to use this command.
+RETURN 0
+
+ON=*Rank*
+IF <src.memoryfindtype(memory_town)>
+SRC.SAY Rank: <eval <SRC.TAG0.FactionRankp>> 
+RETURN 0
+ENDIF
+SRC.SYSMESSAGE=@54 You must be in a faction to use this command.
+RETURN 0
+
+ON=*Guards*
+IF (<SRC.REGION.FLAGS>==<SRC.REGION.FLAGS>|04000)
+RETURN 0
+ENDIF
+IF <SRC.REGION.TAG.GUARDS>
+IF <src.memoryfindtype(memory_town)>
+SRC.WARGUARD
+RETURN 0
+Else
+SRC.TownGUARD
+RETURN 0
+ENDIF
+ENDIF
+SRC.SYSMESSAGE @54 This region is unguarded.
+
+[eof]
+

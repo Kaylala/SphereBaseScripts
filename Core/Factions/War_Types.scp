@@ -1,0 +1,146 @@
+//****************************************************************************
+//SPHERE by : Menasoft ©1997-2004
+//www.sphereserver.com
+// All SPHERE script files and formats are copyright Menasoft & Partners.
+// This file may be freely edited for personal use, but may not be distributed
+// in whole or in part, in any format without express written permission from
+// Menasoft & Partners.  All donations and contributions
+// become the property of Menasoft & Partners.
+//****************************************************************************
+// FILE LAST UPDATED: Saturday, October 30, 2004
+//VERSION=0.56a
+
+[TYPEDEF T_RELIC]
+ON=@CLICK
+IF <link.morex> < 1
+MESSAGE=@72 <NAME>
+MESSAGE=@38 [Corrupt]
+return 1
+ENDIF
+IF <link.morex> == 7
+MESSAGE=@72 <NAME>
+MESSAGE=@54 [Invulnerable]
+return 1
+else
+MESSAGE=@72 <NAME>
+MESSAGE=@29 Tier: <Link.MOREX> 
+RETURN 1
+endif
+
+ON=@DCLICK
+IF <SRC.FINDLAYER(21).MORE2>==<MORE1>
+RETURN 1
+ENDIF
+IF <SRC.UID>==<CONT.TOPOBJ.UID>
+TARGET 
+SRC.SYSMESSAGE=@54 Transfer the Realm Points to your Townstone...
+RETURN 1
+ENDIF
+
+ON=@TARGON_ITEM
+IF <SRC.FINDLAYER(21).MORE2>==<SRC.TARG.MORE2>
+SRC.TARG.REGION.EVENTS=-<src.targ.tag.lastguarded>  
+SRC.TARG.REGION.EVENTS=+<SRC.TARG.TAG.guardsystem>
+SRC.TARG.REGION.TAG0.GUARDS=<SRC.TARG.TAG0.GUARDS> 
+SRC.TARG.MOREX (<SRC.TARG.MOREX>+1)
+Link.MOREX (<link.morex>+(-1))
+SERV.ALLCLIENTS sysmessage=@29,0 The <SRC.TAG.FACTION> have drained one point from the <NAME> for a total of <SRC.TARG.MOREX> Realm Points!
+P <LINK.P>
+NUDGEUP 14
+SRC.EVENTS -e_sigil
+SRC.FINDID.I_SIGIL_MEM.REMOVE
+SRC.TAG0.RELIC (<SRC.TAG0.RELIC>+(5))
+SRC.NEWITEM i_silver_faction
+SRC.ACT.AMOUNT 250
+SRC.ACT.CONT <SRC.UID>
+SRC.TAG.FACTIONRANKP <EVAL <SRC.TAG.FACTIONRANKP>>+(4) 
+SRC.UPDATE
+IF (<SRC.TARG.MOREX> > <LINK.MOREX>)
+LINK.REGION.EVENTS -<link.tag.guardsystem>
+LINK.REGION.FLAGS
+LINK.REGION.FLAGS 0180
+LINK.REGION.TAG0.GUARDS <SRC.TARG.TAG0.GUARDS> 
+LINK.REGION.EVENTS=+<SRC.TARG.TAG.guardsystem> 
+LINK.TAG.LASTGUARDED <SRC.TARG.TAG.guardsystem>
+ENDIF
+RETURN 1
+ENDIF
+SRC.SYSMESSAGE=@54 This is not your Faction Stone!
+
+ON=@PICKUP_PACK
+IF (<SRC.ISGM>) 
+RETURN 0 
+ELSE
+BOUNCE
+SRC.SYSMESSAGE You cannot bring yourself to release this.
+RETURN 1
+
+ON=@DROPON_GROUND
+IF (<SRC.ISGM>) 
+RETURN 0 
+ELSE
+BOUNCE
+RETURN 1
+
+ON=@DROPON_ITEM
+IF (<SRC.ISGM>) 
+RETURN 0 
+ELSE
+BOUNCE
+SRC.SYSMESSAGE You cannot bring yourself to release this.
+RETURN 1
+
+ON=@PICKUP_GROUND
+IF <link.morex> == 7
+SRC.SYSMESSAGE=@54 The Seventh Relic Must be Corrupted To Break the Spell!
+RETURN 1
+ENDIF
+IF !<src.memoryfindtype(memory_town)>
+SAYUA 021,0,0,eng, You Aren't Even in Your Town's Faction!
+RETURN 1
+ENDIF 
+IF <link.morex> < 1 
+SRC.SYSMESSAGE=@54 This Relic is Corrupt...
+return 1
+ENDIF
+IF (<SRC.STEALING><55.0)
+SAYUA 021,0,0,eng, You Aren't Skilled Enuf!
+RETURN 1
+ELSE
+IF <SRC.FINDLAYER(21).MORE2>==<MORE1>
+SRC.SYSMESSAGE=@72 You can't steal your own relic...
+RETURN 1
+ELSE
+IF  (<SRC.FINDID.i_reskill>)
+SRC.SYSMESSAGE=@54 You Must Be Worth Silver To Steal A Sigil...
+RETURN 1
+ELSE
+IF (<SRC.FINDID.i_sigil_mem>)
+SRC.SYSMESSAGE=@54 Only one Sigil at a time plz...
+RETURN 1
+ELSE
+SRC.SYSMESSAGE=@33 Attempting to steal <NAME>
+SRC.ANIM 14
+IF !RAND(10)
+serv.allclients sysmessage @54,0 <SRC.NAME> Has Stolen <NAME>!!
+OBJ <ID>
+SRC.EVENTS=+e_sigil
+SERV.ALLCLIENTS SOUND 0206 
+SRC.SIGILFIRE N
+SRC.SIGILFIRE S
+SRC.SIGILFIRE E
+SRC.SIGILFIRE W
+SRC.SIGILFIRE NW
+SRC.SIGILFIRE SW
+SRC.SIGILFIRE NE
+SRC.SIGILFIRE SE
+SRC.NEWITEM i_sigil_mem
+SRC.ACT.EQUIP
+SRC.ACT.TAG0.SIGIL <OBJ>
+OBJ
+RETURN 0
+ENDIF
+SIGILFAIL
+RETURN 1
+
+[eof]

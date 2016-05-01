@@ -25,6 +25,9 @@ Scripts/Core/Combat/				// Combat Events
 Scripts/Core/Functions/				// Core Functions
 Scripts/Core/Compatibility.scp		// We should process this after types and defs just in case.
 Scripts/Core/						// Core Files (Misc loaded after above.)
+Scripts/Core/Factions/
+Scripts/Core/ChampionSpawns/
+Scripts/Core/Dungeons/
 Scripts/Skills/						// Definitions with no Items attached. (Move up?)
 Scripts/SkillMenus/					// This should follow skills honesty.
 Scripts/Names/						// Might be able to move this to the bottom of operations.

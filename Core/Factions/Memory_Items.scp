@@ -1,0 +1,54 @@
+//****************************************************************************
+//SPHERE by : Menasoft ©1997-2004
+//www.sphereserver.com
+// All SPHERE script files and formats are copyright Menasoft & Partners.
+// This file may be freely edited for personal use, but may not be distributed
+// in whole or in part, in any format without express written permission from
+// Menasoft & Partners.  All donations and contributions
+// become the property of Menasoft & Partners.
+//****************************************************************************
+// FILE LAST UPDATED: Saturday, October 30, 2004
+//VERSION=0.56a
+
+[ITEMDEF i_reskill] 
+ID=i_memory 
+NAME=Res Kill Timer 
+TYPE=t_eq_script 
+
+ON=@Create 
+ATTR=attr_invis 
+
+ON=@EQUIP
+TIMER={600 1200} /// 10 to 20 minutes...make this as long as you want to in seconds 
+
+ON=@Timer 
+CONT.SAYua 074,0,0,eng, *Worth Silver Again*
+CONT.SYSMESSAGE You are now fully recovered from death.
+REMOVE 
+RETURN 0
+
+[ITEMDEF i_sigil_mem] 
+ID=i_memory 
+NAME=Sigil Memory 
+TYPE=t_eq_script 
+
+ON=@Create 
+ATTR=attr_invis 
+
+ON=@EQUIP
+CONT.EVENTS +e_sigil
+
+[ITEMDEF i_lag_timer]
+ID=i_memory 
+NAME=lag timer 
+TYPE=t_eq_script 
+
+ON=@Create 
+ATTR=attr_invis|attr_decay 
+TIMER 90
+
+ON=@TIMER
+CONT.REMOVE
+REMOVE
+
+[EOF]

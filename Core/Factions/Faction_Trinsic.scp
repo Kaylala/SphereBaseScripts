@@ -1,0 +1,83 @@
+//****************************************************************************
+//SPHERE by : Menasoft ©1997-2004
+//www.sphereserver.com
+// All SPHERE script files and formats are copyright Menasoft & Partners.
+// This file may be freely edited for personal use, but may not be distributed
+// in whole or in part, in any format without express written permission from
+// Menasoft & Partners.  All donations and contributions
+// become the property of Menasoft & Partners.
+//****************************************************************************
+// FILE LAST UPDATED: Saturday, October 30, 2004
+//
+//VERSION=0.56a
+
+[ITEMDEF i_altar_Trinsic]
+NAME=Trinsic
+ID=0edd
+TYPE=t_stone_town
+
+CATEGORY=Provisions - Miscellaneous
+SUBSECTION=Quest Items
+DESCRIPTION=Sigil of Good
+
+ON=@CREATE
+//COLOR=0a09
+ATTR=040
+MOREZ -5
+More2 104
+Morex 1
+VAR.Tarmy <UID>
+TAG0.GUARDSYSTEM r_Triny
+TAG0.LASTGUARDED r_Triny
+TAG0.GUARDS c_trinsic_guard
+ 
+ON=@CLICK
+MESSAGE=@44 <NAME> Faction Stone
+RETURN 1
+
+ON=@DCLICK
+IF <src.memoryfindtype(memory_town)>
+IF !(<src.memoryfindtype(memory_town).link>==<UID>)
+SRC.SYSMESSAGE=@54 You may not use this stone unless you resign from your current faction.
+RETURN 1
+ENDIF
+ENDIF
+
+[ITEMDEF i_sigil_Trinsic]
+NAME=Trinsic Relic
+ID=01f1c
+TYPE=T_RELIC
+
+CATEGORY=Provisions - Miscellaneous
+SUBSECTION=Quest Items
+DESCRIPTION=Sigil of Trinsic
+
+ON=@CREATE
+ATTR=020
+MOREZ -5
+More1 104
+Morex 1
+
+[REGIONTYPE r_triny]
+
+ON=@ENTER
+        IF (<SRC.FINDLAYER(21).MORE2>==104)
+        SRC.SYSMESSAGE You feel more at home here...
+        RETURN 0
+	ENDIF
+        src.hear This Region is controlled by the Trinsic Army...
+        Return 0
+        
+ON=@CLIPERIODIC
+        IF (<SRC.ISGM>) 
+        RETURN 1
+        ELSE
+        IF !(<SRC.FINDLAYER(21).MORE2>==104) && <src.memoryfindtype(memory_town)> && (RAND(3)=2) 
+        SRC.NEWNPC={c_trinsic_guard} 
+        SRC.ACT.P=<SRC.P>
+        SRC.ACT.ATTACK <src.uid> 
+        SRC.SYSMESSAGE=@44 The Citizens Have Noticed Thee!!
+        SRC.FLAGS=<SRC.FLAGS> &~statf_invisible
+        SRC.ACTION = -1
+	ENDIF
+	ENDIF

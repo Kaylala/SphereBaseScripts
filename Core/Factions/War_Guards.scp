@@ -1,0 +1,430 @@
+[EVENTS e_factionguard]
+
+ON=@NPCSEENEWPLAYER
+IF <src.memoryfindtype(memory_town)>
+IF !(<SRC.FINDLAYER(21).MORE2>==<TAG.FACTION>)
+ATTACK
+RETURN 0
+ENDIF
+ENDIF
+
+on=@gethit // change weapon 
+if (<distance> < 2) 
+findid(i_cutlass_vanq).cont=<uid>
+findid(i_shield_kite_wood).cont=<uid>
+endif 
+if (<distance> > 2) 
+findid(i_bow_force).cont=<uid> 
+endif 
+return 0 
+endif 
+return 1 
+
+[CHARDEF c_minoc_guard]
+DEFNAME=c_minoc_guard
+NAME=#names_humanmale the Minoc Guard
+ID=c_man
+AVERSIONS=t_trap,t_eerie_stuff
+DAM=9,20 
+ARMOR=22,60 
+
+DESIRES=i_gold,i_silver_faction,e_notoriety
+TEVENTS=e_factionguard 
+
+ON=@CREATE
+TAG.FACTION 103
+COLOR=colors_skin
+   STR={80 100} 
+   DEX={80 125} 
+   INT={80 100} 
+   MAXHITS 500
+   MAXSTAM 500
+   MAXMANA 500
+Karma=-2000
+animallore={55.0 78.0}
+archery={155.0 218.0}
+camping={55.0 78.0}
+herding={45.0 68.0}
+hiding={45.0 168.0}
+tracking={45.0 68.0}
+fencing={35.0 158.0}
+parrying={65.0 188.0}
+swordsmanship={35.0 158.0}
+wrestling={35.0 158.0}
+tactics={65.0 188.0}
+healing=555
+
+NPC=14
+
+itemnewbie=random_male_hair
+COLOR=colors_hair
+itemnewbie=random_facial_hair
+COLOR=match_hair
+
+ON=@NPCRESTOCK
+ITEMNEWBIE=i_shield_chaos
+ITEMNEWBIE=i_shirt_fancy
+COLOR=colors_brown
+ITEMNEWBIE=i_studded_tunic
+COLOR=020
+ITEMNEWBIE=i_studded_sleeves
+COLOR=020
+ITEMNEWBIE=i_studded_leggings
+COLOR=020
+ITEMNEWBIE=i_studded_gloves
+COLOR=020
+ITEMNEWBIE=i_studded_gorget
+COLOR=020
+ITEMNEWBIE=random_footwear
+COLOR=colors_brown
+ITEMNEWBIE=i_bow_force
+ITEM=i_arrow,{5 20}
+ITEMNEWBIE=i_cutlass_vanq
+COLOR=020
+ITEM=i_bow_force,R5
+ITEM=i_lag_timer
+
+CATEGORY=Sphere_Factions
+SUBSECTION=Faction Guard (Minoc)
+DESCRIPTION=Elite Guard (Minoc)
+
+[CHARDEF c_yew_guard]
+DEFNAME=c_yew_guard
+NAME=#names_humanmale the Yew Guard
+ID=c_man
+AVERSIONS=t_trap,t_eerie_stuff
+DAM=9,20 
+ARMOR=22,60 
+
+DESIRES=i_gold,i_silver_faction,e_notoriety
+TEVENTS=e_factionguard 
+
+ON=@CREATE
+TAG.FACTION 100
+COLOR=colors_skin
+   STR={80 100} 
+   DEX={80 125} 
+   INT={80 100} 
+   MAXHITS 500
+   MAXSTAM 500
+   MAXMANA 500
+Karma=-2000
+animallore={55.0 78.0}
+archery={155.0 218.0}
+camping={55.0 78.0}
+herding={45.0 68.0}
+hiding={45.0 168.0}
+tracking={45.0 68.0}
+fencing={35.0 158.0}
+parrying={65.0 188.0}
+swordsmanship={35.0 158.0}
+wrestling={35.0 158.0}
+tactics={65.0 188.0}
+healing=555
+
+NPC=14
+
+itemnewbie=random_male_hair
+COLOR=colors_hair
+itemnewbie=random_facial_hair
+COLOR=match_hair
+
+ON=@NPCRESTOCK
+ITEMNEWBIE=i_shield_chaos
+ITEMNEWBIE=i_shirt_fancy
+ITEMNEWBIE=i_studded_tunic
+COLOR=030
+ITEMNEWBIE=i_studded_sleeves
+COLOR=030
+ITEMNEWBIE=i_studded_leggings
+COLOR=030
+ITEMNEWBIE=i_studded_gloves
+COLOR=030
+ITEMNEWBIE=i_studded_gorget
+COLOR=030
+ITEMNEWBIE=random_footwear
+COLOR=colors_brown
+ITEMNEWBIE=i_bow_force
+ITEM=i_arrow,{5 20}
+ITEMNEWBIE=i_cutlass_vanq
+COLOR=030
+ITEM=i_bow_force,R5
+ITEM=i_lag_timer
+
+CATEGORY=Sphere_Factions
+SUBSECTION=Faction Guard (Yew)
+DESCRIPTION=Elite Guard (Yew)
+
+[CHARDEF c_cove_guard]
+DEFNAME=c_cove_guard
+NAME=#names_humanmale the Cove Guard
+ID=c_man
+AVERSIONS=t_trap,t_eerie_stuff
+DAM=9,20 
+ARMOR=22,60 
+
+DESIRES=i_gold,i_silver_faction,e_notoriety
+TEVENTS=e_factionguard 
+
+ON=@CREATE
+TAG.FACTION 106
+COLOR=colors_skin
+   STR={80 100} 
+   DEX={80 125} 
+   INT={80 100} 
+   MAXHITS 500
+   MAXSTAM 500
+   MAXMANA 500
+Karma=-2000
+animallore={55.0 78.0}
+archery={155.0 218.0}
+camping={55.0 78.0}
+herding={45.0 68.0}
+hiding={45.0 168.0}
+tracking={45.0 68.0}
+fencing={35.0 158.0}
+parrying={65.0 188.0}
+swordsmanship={35.0 158.0}
+wrestling={35.0 158.0}
+tactics={65.0 188.0}
+healing=555
+
+NPC=14
+
+itemnewbie=random_male_hair
+COLOR=colors_hair
+itemnewbie=random_facial_hair
+COLOR=match_hair
+
+ON=@NPCRESTOCK
+ITEMNEWBIE=i_shield_chaos
+ITEMNEWBIE=i_shirt_fancy
+COLOR=010
+ITEMNEWBIE=i_studded_tunic
+COLOR=010
+ITEMNEWBIE=i_studded_sleeves
+COLOR=010
+ITEMNEWBIE=i_studded_leggings
+COLOR=010
+ITEMNEWBIE=i_studded_gloves
+COLOR=010
+ITEMNEWBIE=i_studded_gorget
+COLOR=010
+ITEMNEWBIE=random_footwear
+COLOR=colors_brown
+ITEMNEWBIE=i_bow_force
+ITEM=i_arrow,{5 20}
+ITEMNEWBIE=i_cutlass_vanq
+COLOR=010
+ITEM=i_bow_force,R5
+ITEM=i_lag_timer
+
+CATEGORY=Sphere_Factions
+SUBSECTION=Faction Guard (Cove)
+DESCRIPTION=Elite Guard (Cove)
+
+[CHARDEF c_Vesper_guard]
+DEFNAME=c_Vesper_guard
+NAME=#names_humanmale the Vesper Guard
+ID=c_man
+AVERSIONS=t_trap,t_eerie_stuff
+DAM=9,20 
+ARMOR=22,60 
+
+DESIRES=i_gold,i_silver_faction,e_notoriety
+TEVENTS=e_factionguard 
+
+ON=@CREATE
+TAG.FACTION 105
+COLOR=colors_skin
+   STR={80 100} 
+   DEX={80 125} 
+   INT={80 100} 
+   MAXHITS 500
+   MAXSTAM 500
+   MAXMANA 500
+Karma=-2000
+animallore={55.0 78.0}
+archery={155.0 218.0}
+camping={55.0 78.0}
+herding={45.0 68.0}
+hiding={45.0 168.0}
+tracking={45.0 68.0}
+fencing={35.0 158.0}
+parrying={65.0 188.0}
+swordsmanship={35.0 158.0}
+wrestling={35.0 158.0}
+tactics={65.0 188.0}
+healing=555
+
+NPC=14
+
+itemnewbie=random_male_hair
+COLOR=colors_hair
+itemnewbie=random_facial_hair
+COLOR=match_hair
+
+ON=@NPCRESTOCK
+ITEMNEWBIE=i_shield_chaos
+ITEMNEWBIE=i_shirt_fancy
+COLOR=025
+ITEMNEWBIE=i_studded_tunic
+COLOR=025
+ITEMNEWBIE=i_studded_sleeves
+COLOR=025
+ITEMNEWBIE=i_studded_leggings
+COLOR=025
+ITEMNEWBIE=i_studded_gloves
+COLOR=025
+ITEMNEWBIE=i_studded_gorget
+COLOR=025
+ITEMNEWBIE=random_footwear
+COLOR=colors_brown
+ITEMNEWBIE=i_bow_force
+ITEM=i_arrow,{5 20}
+ITEMNEWBIE=i_cutlass_vanq
+COLOR=025
+ITEM=i_bow_force,R5
+ITEM=i_lag_timer
+
+CATEGORY=Sphere_Factions
+SUBSECTION=Faction Guard (Vesper)
+DESCRIPTION=Elite Guard (Vesper)
+
+[CHARDEF c_Trinsic_guard]
+DEFNAME=c_Trinsic_guard
+NAME=#names_humanmale the Trinsic Guard
+ID=c_man
+AVERSIONS=t_trap,t_eerie_stuff
+DAM=9,20 
+ARMOR=22,60 
+
+DESIRES=i_gold,i_silver_faction,e_notoriety
+TEVENTS=e_factionguard 
+
+ON=@CREATE
+TAG.FACTION 104
+COLOR=colors_skin
+   STR={80 100} 
+   DEX={80 125} 
+   INT={80 100} 
+   MAXHITS 500
+   MAXSTAM 500
+   MAXMANA 500
+Karma=-2000
+animallore={55.0 78.0}
+archery={155.0 218.0}
+camping={55.0 78.0}
+herding={45.0 68.0}
+hiding={45.0 168.0}
+tracking={45.0 68.0}
+fencing={35.0 158.0}
+parrying={65.0 188.0}
+swordsmanship={35.0 158.0}
+wrestling={35.0 158.0}
+tactics={65.0 188.0}
+healing=555
+
+NPC=14
+
+itemnewbie=random_male_hair
+COLOR=colors_hair
+itemnewbie=random_facial_hair
+COLOR=match_hair
+
+ON=@NPCRESTOCK
+ITEMNEWBIE=i_shield_chaos
+ITEMNEWBIE=i_shirt_fancy
+COLOR=colors_brown
+ITEMNEWBIE=i_studded_tunic
+COLOR=050
+ITEMNEWBIE=i_studded_sleeves
+COLOR=050
+ITEMNEWBIE=i_studded_leggings
+COLOR=050
+ITEMNEWBIE=i_studded_gloves
+COLOR=050
+ITEMNEWBIE=i_studded_gorget
+COLOR=050
+ITEMNEWBIE=random_footwear
+COLOR=colors_brown
+ITEMNEWBIE=i_bow_force
+ITEM=i_arrow,{5 20}
+ITEMNEWBIE=i_cutlass_vanq
+COLOR=050
+ITEM=i_bow_force,R5
+ITEM=i_lag_timer
+
+CATEGORY=Sphere_Factions
+SUBSECTION=Faction Guard (Trinsic)
+DESCRIPTION=Elite Guard (Trinsic)
+
+[CHARDEF c_Skara_guard]
+DEFNAME=c_Skara_guard
+NAME=#names_humanmale the Skara Guard
+ID=c_man
+AVERSIONS=t_trap,t_eerie_stuff
+DAM=9,20 
+ARMOR=22,60 
+
+DESIRES=i_gold,i_silver_faction,e_notoriety
+TEVENTS=e_factionguard 
+
+ON=@CREATE
+TAG.FACTION 102 
+COLOR=colors_skin
+   STR={80 100} 
+   DEX={80 125} 
+   INT={80 100} 
+   MAXHITS 500
+   MAXSTAM 500
+   MAXMANA 500
+Karma=-2000
+animallore={55.0 78.0}
+archery={155.0 218.0}
+camping={55.0 78.0}
+herding={45.0 68.0}
+hiding={45.0 168.0}
+tracking={45.0 68.0}
+fencing={35.0 158.0}
+parrying={65.0 188.0}
+swordsmanship={35.0 158.0}
+wrestling={35.0 158.0}
+tactics={65.0 188.0}
+healing=555
+
+NPC=14
+
+itemnewbie=random_male_hair
+COLOR=colors_hair
+itemnewbie=random_facial_hair
+COLOR=match_hair
+
+ON=@NPCRESTOCK
+ITEMNEWBIE=i_shield_chaos
+ITEMNEWBIE=i_shirt_fancy
+COLOR=colors_brown
+ITEMNEWBIE=i_studded_tunic
+COLOR=060
+ITEMNEWBIE=i_studded_sleeves
+COLOR=060
+ITEMNEWBIE=i_studded_leggings
+COLOR=060
+ITEMNEWBIE=i_studded_gloves
+COLOR=060
+ITEMNEWBIE=i_studded_gorget
+COLOR=060
+ITEMNEWBIE=random_footwear
+COLOR=colors_brown
+ITEMNEWBIE=i_bow_force
+ITEM=i_arrow,{5 20}
+ITEMNEWBIE=i_cutlass_vanq
+COLOR=060
+ITEM=i_bow_force,R5
+ITEM=i_lag_timer
+
+CATEGORY=Sphere_Factions
+SUBSECTION=Faction Guard (Skara)
+DESCRIPTION=Elite Guard (Skara)
+
+[EOF]

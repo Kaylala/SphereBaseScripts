@@ -1,0 +1,80 @@
+//****************************************************************************
+//SPHERE by : Menasoft ©1997-2004
+//www.sphereserver.com
+// All SPHERE script files and formats are copyright Menasoft & Partners.
+// This file may be freely edited for personal use, but may not be distributed
+// in whole or in part, in any format without express written permission from
+// Menasoft & Partners.  All donations and contributions
+// become the property of Menasoft & Partners.
+//****************************************************************************
+// FILE LAST UPDATED: Saturday, October 30, 2004
+//VERSION=0.56a
+
+[ITEMDEF i_altar_Vesper]
+NAME=Vesper
+ID=0edd
+TYPE=t_stone_town
+CATEGORY=Provisions - Miscellaneous
+SUBSECTION=Quest Items
+DESCRIPTION=Sigil of Good
+
+ON=@CREATE
+ATTR=040
+MOREZ -5
+More2 105
+Morex 1
+VAR.Varmy <UID>
+TAG0.GUARDSYSTEM r_vesper
+TAG0.LASTGUARDED r_vesper
+TAG0.GUARDS c_vesper_guard
+ 
+ON=@CLICK
+MESSAGE=@44 <NAME> Faction Stone
+RETURN 1
+
+ON=@DCLICK
+IF <src.memoryfindtype(memory_town)>
+IF !(<src.memoryfindtype(memory_town).link>==<UID>)
+SRC.SYSMESSAGE=@54 You may not use this stone unless you resign from your current faction.
+RETURN 1
+ENDIF
+ENDIF
+
+[ITEMDEF i_sigil_Vesper]
+NAME=Vesper Relic
+ID=01f1c
+TYPE=T_RELIC
+
+CATEGORY=Provisions - Miscellaneous
+SUBSECTION=Quest Items
+DESCRIPTION=Sigil of Good
+
+ON=@CREATE
+ATTR=020
+MOREZ -5
+More1 105
+Morex 1
+
+[REGIONTYPE r_vesper]
+
+ON=@ENTER
+        IF (<SRC.FINDLAYER(21).MORE2>==105)
+        SRC.sysMESSAGE You feel more at home here...
+        RETURN 0
+	ENDIF
+        src.hear This Region is controlled by the Vesper Army...
+    
+        
+ON=@CLIPERIODIC
+        IF (<SRC.ISGM>) 
+        RETURN 1
+        ELSE
+        IF !(<SRC.FINDLAYER(21).MORE2>==105) && <src.memoryfindtype(memory_town)> && (RAND(3)=2) 
+        SRC.NEWNPC={c_vesper_guard} 
+        SRC.ACT.P=<SRC.P>
+        SRC.ACT.ATTACK <src.uid> 
+        SRC.SYSMESSAGE=@44 The Citizens Have Noticed Thee!!
+        SRC.FLAGS=<SRC.FLAGS> &~statf_invisible
+        SRC.ACTION = -1
+	ENDIF
+	ENDIF

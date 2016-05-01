@@ -1,0 +1,82 @@
+//****************************************************************************
+//SPHERE by : Menasoft ©1997-2004
+//www.sphereserver.com
+// All SPHERE script files and formats are copyright Menasoft & Partners.
+// This file may be freely edited for personal use, but may not be distributed
+// in whole or in part, in any format without express written permission from
+// Menasoft & Partners.  All donations and contributions
+// become the property of Menasoft & Partners.
+//****************************************************************************
+// FILE LAST UPDATED: Saturday, October 30, 2004
+//
+//VERSION=0.56a
+
+[ITEMDEF i_altar_skara]
+NAME=Skara Brae
+ID=0edd
+TYPE=t_stone_town
+
+CATEGORY=Provisions - Miscellaneous
+SUBSECTION=Quest Items
+DESCRIPTION=Sigil of Good
+
+ON=@CREATE
+ATTR=040
+MOREZ -5
+More2 102
+Morex 1
+VAR.SBarmy <UID>
+TAG0.GUARDSYSTEM r_skara
+TAG0.LASTGUARDED r_skara
+TAG0.GUARDS c_skara_guard
+ 
+ON=@CLICK
+MESSAGE=@44 <NAME> Faction Stone
+RETURN 1
+
+ON=@DCLICK
+IF <src.memoryfindtype(memory_town)>
+IF !(<src.memoryfindtype(memory_town).link>==<UID>)
+SRC.SYSMESSAGE=@54 You may not use this stone unless you resign from your current faction.
+RETURN 1
+ENDIF
+ENDIF
+
+[ITEMDEF i_sigil_skara]
+NAME=Skaran Relic
+ID=01f1c
+TYPE=T_RELIC
+
+CATEGORY=Provisions - Miscellaneous
+SUBSECTION=Quest Items
+DESCRIPTION=Sigil of Skara
+ON=@CREATE
+MOREZ -5
+More1 102
+Morex 1
+
+[REGIONTYPE r_skara]
+
+ON=@ENTER
+        IF (<SRC.FINDLAYER(21).MORE2>==102)
+        SRC.sysMESSAGE You feel more at home here...
+        RETURN 0
+        ENDIF
+	src.hear This Realm is under Skara Brae's Control...
+        Return 0
+        
+ON=@CLIPERIODIC
+        IF (<SRC.ISGM>) 
+        RETURN 1
+        ELSE
+        IF !(<SRC.FINDLAYER(21).MORE2>==102) && <src.memoryfindtype(memory_town)> && (RAND(3)=2) 
+        SRC.NEWNPC={c_skara_guard} 
+        SRC.ACT.P=<SRC.P>
+        SRC.ACT.ATTACK <src.uid> 
+        SRC.SYSMESSAGE=@44 The Citizens Have Noticed Thee!!
+        SRC.FLAGS=<SRC.FLAGS> &~statf_invisible
+        SRC.ACTION = -1
+	ENDIF
+	ENDIF
+
+[EOF]

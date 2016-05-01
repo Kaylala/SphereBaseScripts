@@ -1,0 +1,39 @@
+//****************************************************************************
+//SPHERE by : Menasoft ©1997-2004
+//www.sphereserver.com
+// All SPHERE script files and formats are copyright Menasoft & Partners.
+// This file may be freely edited for personal use, but may not be distributed
+// in whole or in part, in any format without express written permission from
+// Menasoft & Partners.  All donations and contributions
+// become the property of Menasoft & Partners.
+//****************************************************************************
+// FILE LAST UPDATED: Saturday, October 30, 2004
+//VERSION=0.56a
+
+[ITEMDEF i_silver_faction]
+DEFNAME=i_silver_faction
+ID=0ef2
+NAME=silver coin%s
+VALUE=1
+WEIGHT=0
+TYPE=t_coin
+DUPELIST=0ef1,0ef2
+CATEGORY=Provisions - Miscellaneous
+SUBSECTION=Coins
+DESCRIPTION=Faction Silver
+
+
+ON=@CLICK
+MESSAGE=@29 <AMOUNT> <NAME>
+RETURN 1
+
+
+[EVENTS no_llama]
+
+
+on=@dclick
+if src.act.baseid==c_llama
+src.dclick
+endif
+
+[EOF]
