@@ -608,7 +608,7 @@ DupeList=04106
 
 Category=Utility
 Subsection=Containers
-Description=Pirates Chest
+Description=Pirate's Chest
 
 [ItemDef 04106]
 NameLoc=1095518
@@ -621,7 +621,7 @@ DupeList=04104,04105
 
 Category=Utility
 Subsection=Containers
-Description=Pirate Chest (South) (Opening Anim)
+Description=Pirate's Chest (South) (Opening Anim)
 
 [ItemDef 04104]
 NameLoc=1095516
@@ -646,7 +646,6 @@ DupeItem=04107
 
 [ItemDef 04109]
 NameLoc=1095521
-DupeItem=04103
 DupeItem=04107
 
 
