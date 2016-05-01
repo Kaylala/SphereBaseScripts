@@ -127,19 +127,19 @@ EndIf
 // Opposite Aligned Slayer Damage MvP
 [Function SlayerOppositeType]
 If (<SlayerLesser>) || (<SlayerSuper>)
- If (<SlayerSuper> &AbyssSlayer) || (<SlayerLesser> &GargoyleSlayer) && (<Src.SlayerSuper> &FeySlayer|ElementalSlayer) || (<Src.SlayerLesser> &AirElementalSlayer|BloodElementalSlayer|EarthElementalSlayer|FireElementalSlayer|PoisonElementalSlayer|SnowElementalSlayer|WaterElementalSlayer)
+ If (<SlayerSuper> &AbyssSlayer) || (<SlayerLesser> &GargoyleSlayer) && (<Src.SlayerSuper> &FeySlayer|ElementalSlayer) || (<Src.SlayerLesser> &AirElementalSlayer) || (<Src.SlayerLesser> &BloodElementalSlayer) || (<Src.SlayerLesser> &EarthElementalSlayer) || (<Src.SlayerLesser> &FireElementalSlayer) || (<Src.SlayerLesser> &PoisonElementalSlayer) || (<Src.SlayerLesser> &SnowElementalSlayer) || (<Src.SlayerLesser> &WaterElementalSlayer)
   Local.SlayerDam += <Def0.SlayerDamO>
- ElIf (<SlayerSuper> &ElementalSlayer)  || (<Src.SlayerLesser> &AirElementalSlayer|BloodElementalSlayer|EarthElementalSlayer|FireElementalSlayer|PoisonElementalSlayer|SnowElementalSlayer|WaterElementalSlayer) && (<Src.SlayerSuper> &AbyssSlayer) || (<Src.SlayerLesser> &GargoyleSlayer)
+ ElIf (<SlayerSuper> &ElementalSlayer) || (<Src.SlayerLesser> &AirElementalSlayer) BloodElementalSlayer) || (<Src.SlayerLesser> &EarthElementalSlayer) || (<Src.SlayerLesser> &FireElementalSlayer) || (<Src.SlayerLesser> &PoisonElementalSlayer) || (<Src.SlayerLesser> &SnowElementalSlayer) || (<Src.SlayerLesser> &WaterElementalSlayer) && (<Src.SlayerSuper> &AbyssSlayer) || (<Src.SlayerLesser> &GargoyleSlayer)
   Local.SlayerDam += <Def0.SlayerDamO>
  ElIf (<SlayerSuper> &FeySlayer) && (<Src.SlayerSuper> &AbyssSlayer) || (<Src.SlayerLesser> &GargoyleSlayer)
   Local.SlayerDam += <Def0.SlayerDamO>
- ElIf (<SlayerSuper> &ArachnidSlayer) || (<Src.SlayerLesser> &ScorpionSlayer|SpiderSlayer|TerathanSlayer) && (<Src.SlayerSuper> &ReptileSlayer) || (<Src.SlayerLesser> &DragonSlayer|LizardmanSlayer|OphidianSlayer|SnakeSlayer)
+ ElIf (<SlayerSuper> &ArachnidSlayer) || (<Src.SlayerLesser> &ScorpionSlayer) || (<Src.SlayerLesser> &SpiderSlayer) || (<Src.SlayerLesser> &TerathanSlayer) && (<Src.SlayerSuper> &ReptileSlayer) || (<Src.SlayerLesser> &DragonSlayer) || (<Src.SlayerLesser> &LizardmanSlayer) || (<Src.SlayerLesser> &OphidianSlayer) || (<Src.SlayerLesser> &SnakeSlayer)
   Local.SlayerDam += <Def0.SlayerDamO>
- ElIf (<SlayerSuper> &ReptileSlayer)  || (<Src.SlayerLesser> &DragonSlayer|LizardmanSlayer|OphidianSlayer|SnakeSlayer) && (<Src.SlayerSuper> &ArachnidSlayer) || (<Src.SlayerLesser> &ScorpionSlayer|SpiderSlayer|TerathanSlayer)
+ ElIf (<SlayerSuper> &ReptileSlayer)  || (<Src.SlayerLesser> &DragonSlayer) || (<Src.SlayerLesser> &LizardmanSlayer) || (<Src.SlayerLesser> &OphidianSlayer) || (<Src.SlayerLesser> &SnakeSlayer) && (<Src.SlayerSuper> &ArachnidSlayer) || (<Src.SlayerLesser> &ScorpionSlayer) || (<Src.SlayerLesser> &SpiderSlayer) || (<Src.SlayerLesser> &TerathanSlayer)
   Local.SlayerDam += <Def0.SlayerDamO>
- ElIf (<SlayerSuper> &RepondSlayer) || (<Src.SlayerLesser> &GoblinSlayer|OrcSlayer|OgreSlayer|TrollSlayer) && (<Src.SlayerSuper> &UndeadSlayer)
+ ElIf (<SlayerSuper> &RepondSlayer) || (<Src.SlayerLesser> &GoblinSlayer) || (<Src.SlayerLesser> &OrcSlayer) || (<Src.SlayerLesser> &OgreSlayer) || (<Src.SlayerLesser> &TrollSlayer) && (<Src.SlayerSuper> &UndeadSlayer)
   Local.SlayerDam += <Def0.SlayerDamO>
- ElIf (<SlayerSuper> &UndeadSlayer) && (<Src.SlayerSuper> &RepondSlayer) || (<Src.SlayerLesserSlayer> &GoblinSlayer|OrcSlayer|OgreSlayer|TrollSlayer)
+ ElIf (<SlayerSuper> &UndeadSlayer) && (<Src.SlayerSuper> &RepondSlayer) || (<Src.SlayerLesserSlayer> &GoblinSlayer) || (<Src.SlayerLesser> &OrcSlayer) || (<Src.SlayerLesser> &OgreSlayer) || (<Src.SlayerLesser> &TrollSlayer)
   Local.SlayerDam += <Def0.SlayerDamO>
  EndIf
 EndIf
