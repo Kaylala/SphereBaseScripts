@@ -1,0 +1,49 @@
+[ItemDef 044EF]
+DefName=iAncientStonePlanter
+Name=ancient stone planter
+NameLoc=1149905	// 1096519 (Blank original)
+Type=tNormal
+Weight=10
+
+Category=Decorations
+Subsection=Planters
+Description=Ancient Stone Planter
+
+
+[ItemDef 044F0]
+DefName=iGrecianPlanter
+Name=grecian planter
+NameLoc=1149906	// 1096520 (Blank original)
+Type=tNormal
+Weight=10
+
+Category=Decorations
+Subsection=Planters
+Description=Grecian Planter
+
+
+[ItemDef 044F1]
+DefName=iModernStonePlanter
+Name=modern stone planter
+NameLoc=1149907	// 1096521 (Blank original)
+Type=tNormal
+Weight=10
+
+Category=Decorations
+Subsection=Planters
+Description=Modern Stone Planter
+
+
+[ItemDef 044F2]
+DefName=iOakBarrelPlanter
+Name=oak barrel planter
+NameLoc=1149908	// 1096522 (Blank original)
+Type=tNormal
+Weight=10
+
+Category=Decorations
+Subsection=Planters
+Description=Oak Barrel Planter
+
+
+[EOF]

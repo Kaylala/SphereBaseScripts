@@ -1,19 +1,222 @@
-[ItemDef 0e75]
+[ItemDef 0990]
+DefName=iBasket1
+Name=basket
+NameLoc=1022448
+Type=tContainer
+TData2=041
+Weight=1
+
+Category=Utility
+Subsection=Containers
+Description=Basket
+
+
+[ItemDef 09A8]
+DefName=iMetalBox
+Name=metal box
+NameLoc=1022472
+Type=tContainer
+TData2=04b
+Weight=5
+
+Category=Utility
+Subsection=Containers
+Description=Metal Box
+
+
+[ItemDef 09A9]
+DefName=iSmallCrate
+Name=small crate
+NameLoc=1022473
+Type=tContainer
+TData2=044
+Weight=255
+DupeList=0E7E
+
+Category=Utility
+Subsection=Containers
+Description=Small Crate
+
+[ItemDef 0E7E]
+NameLoc=1023710	// crate
+DupeItem=09A9
+
+
+[ItemDef 09AA]
+DefName=iWoodenBox
+Name=wooden box
+NameLoc=1022474
+Type=tContainer
+TData2=043
+Weight=4
+DupeList=0E7D
+
+Category=Utility
+Subsection=Containers
+Description=Wooden Box
+
+[ItemDef 0E7D]
+NameLoc=1023709
+DupeItem=09AA
+
+
+[ItemDef 09AB]
+DefName=iMetalChest
+Name=metal chest
+NameLoc=1022475
+Type=tContainer
+TData2=04A
+Weight=255
+DupeList=0E7C
+
+Category=Utility
+Subsection=Containers
+Description=Metal Chest
+
+[ItemDef 0E7C]
+NameLoc=1023708
+DupeItem=09AB
+
+
+[ItemDef 09AC]
+DefName=iBushel
+Name=bushel
+NameLoc=1022476
+Type=tContainer
+TData2=041
+Weight=3
+
+Category=Utility
+Subsection=Containers
+Description=Bushel
+
+
+[ItemDef 09B0]
+DefName=iBeltPouch
+Name=belt pouch
+NameLoc=1022480
+Type=tContainer
+//TData2=047
+TData2=040
+TData3=010001
+TData4=0900090
+Can=CanIDye
+Weight=1
+
+Category=Utility
+Subsection=Containers
+Description=Belt Pouch
+
+
+[ItemDef 09B1]
+DefName=iBasket2
+Name=basket
+NameLoc=1022481
+Type=tContainer
+//TData2=03F
+TData2=041
+Weight=1.0
+
+Category=Utility
+Subsection=Containers
+Description=Basket
+
+
+[ItemDef 09B2]
 DefName=iBackpack
 Name=backpack
-NameLoc=1023701
-Type=tContainer
+NameLoc=1022482
 TData2=03C
-Can=CanIDye
+Can=CanIDye|CanIFlip
 Weight=3
-Weight=3
+DupeList=0E75
 
 Category=Utility
 Subsection=Containers
 Description=Backpack
 
+[ItemDef 0E75]
+NameLoc=1023701
+DupeItem=09B2
 
-[ItemDef 0e76]
+
+[ItemDef 0E3C]
+DefName=iCrate1
+Name=crate
+NameLoc=1023644
+Type=tContainer
+TData2=044
+Can=CanIFlip
+Weight=255
+DupeList=0E3D
+
+Category=Utility
+Subsection=Containers
+Description=Crate (Large)
+
+[ItemDef 0E3D]
+NameLoc=1023645
+DupeItem=0E3C
+
+
+[ItemDef 0E3E]
+DefName=iCrate2
+Name=crate
+NameLoc=1023646
+Type=tContainer
+TData2=044
+Can=CanIFlip
+Weight=255
+DupeList=0E3F
+
+Category=Utility
+Subsection=Containers
+Description=Crate (Medium)
+
+[ItemDef 0E3F]
+NameLoc=1023647
+DupeItem=0E3E
+
+
+[ItemDef 0E40]
+DefName=iMetalChest
+Name=metal chest
+NameLoc=1023648
+Type=tContainer
+TData2=042
+Can=CanIFlip
+Weight=255
+DupeList=0E41
+
+Category=Utility
+Subsection=Containers
+Description=Golden Metal Chest
+
+[ItemDef 0E41]
+NameLoc=1023649
+DupeItem=0E40
+
+
+[ItemDef 0E42]
+DefName=iWoodenChest
+Name=wooden chest
+NameLoc=1023650
+Type=tContainer
+TData2=049
+Can=CanIFlip
+Weight=255
+DupeList=0E43
+
+Category=Utility
+Subsection=Containers
+Description=Wood/Brass Chest
+
+[ItemDef 0E43]
+NameLoc=1023651
+DupeItem=0E42
+
+
+[ItemDef 0E76]
 DefName=iBag
 Name=bag
 NameLoc=1023702
@@ -25,4 +228,426 @@ Value=10
 
 Category=Utility
 Subsection=Containers
-Description=Leather Bag
+Description=Bag
+
+
+[ItemDef 0E77]
+DefName=iBarrel1
+Name=barrel
+NameLoc=1023703
+Type=tContainer
+TData2=03E
+Can=CanIFlip
+Weight=25
+
+Category=Utility
+Subsection=Containers
+Description=Barrel
+
+
+[ItemDef 0E78]
+DefName=iBasin
+Name=basin
+NameLoc=1023704
+Type=tContainer
+TData2=041
+//TData2=0589
+Weight=1
+
+Category=Utility
+Subsection=Containers
+Description=Basin
+
+
+[ItemDef 0E79]
+DefName=iPouch
+Name=pouch
+NameLoc=1023705
+Type=tContainer
+TData2=040
+TData3=010001
+TData4=0900090
+Weight=2
+
+Category=Utility
+Subsection=Containers
+Description=Pouch
+
+
+[ItemDef 0E7A]
+DefName=iPicnicBasket
+Name=picnic basket
+NameLoc=1023706
+Type=tContainer
+TData2=03f
+Weight=2
+
+Category=Utility
+Subsection=Containers
+Description=Picnic Basket
+
+
+[ItemDef 0E7F]
+DefName=iKeg1
+Name=keg
+NameLoc=1023711
+Type=tContainer
+TData2=03e
+Weight=255
+
+Category=Utility
+Subsection=Containers
+Description=Keg (Lidless)
+
+
+[ItemDef 0E80]
+DefName=iStrongBox
+Name=strong box
+NameLoc=1023712
+Type=tContainer
+TData2=04B
+Weight=100
+
+Category=Utility
+Subsection=Containers
+Description=Strong Box
+
+
+[ItemDef 0E83]
+DefName=iEmptyTub
+Name=empty tub
+NameLoc=1023715
+Type=tContainer
+//TData2=041
+TData2=03E
+Weight=30
+
+Category=Utility
+Subsection=Containers
+Description=Empty Tub
+
+
+[ItemDef 0FAE]
+DefName=iBarrel2
+Name=barrel
+NameLoc=1024014
+Type=tContainer
+TData2=03e
+Weight=25
+
+Category=Utility
+Subsection=Containers
+Description=Barrel (Covered)
+
+
+[ItemDef 014E0]
+DefName=iBucket
+Name=bucket
+NameLoc=1025344
+Type=tContainer
+TData2=03E
+Weight=3
+
+Category=Utility
+Subsection=Containers
+Description=Bucket
+
+
+[ItemDef 01940]
+DefName=iKeg2
+Name=keg
+NameLoc=1026464
+Type=tContainer
+TDATA2=03e
+Weight=255
+
+Category=Utility
+Subsection=Containers
+Description=Keg
+
+
+[ItemDef 0207B]
+DefName=iBasket3
+Name=basket
+NameLoc=1028315
+Type=tContainer
+TData2=041
+Weight=255
+
+Category=Utility
+Subsection=Containers
+Description=Basket
+
+
+[ItemDef 02256]
+DefName=iBagball1
+Name=bagball
+NameLoc=1028790
+Type=tContainer
+TData2=03D
+Can=CanIDye
+Weight=1
+
+Category=Utility
+Subsection=Containers
+Description=Bagball
+
+
+[ItemDef 02258]
+DefName=iBagball2
+Name=bagball
+NameLoc=1028791
+Type=tContainer
+TData2=03D
+Can=CanIDye
+Weight=1
+
+Category=Utility
+Subsection=Containers
+Description=Bagball
+
+
+[ItemDef 0232A]
+DefName=iGiftBox1
+Name=gift box
+NameLoc=1029002
+Type=tContainer
+TData2=0102
+Can=CanIFlip
+Weight=1
+DupeList=0232B
+
+Category=Provisions - Miscellaneous
+Subsection=Containers
+Description=Gift Box
+
+[ItemDef 0232B]
+NameLoc=1029003
+DupeItem=0232A
+
+
+[ItemDef 024D5]
+DefName=iBasket4
+Name=basket
+NameLoc=1029429
+Type=tContainer
+TData2=03F
+Can=CanIFlip
+Weight=1
+DupeList=024d6
+
+Category=Utility
+Subsection=Containers
+Description=Basket
+
+[ItemDef 024d6]
+NameLoc=1029430
+DupeItem=024d5
+
+
+[ItemDef 024D7]
+DefName=iBasket5
+Name=basket
+NameLoc=1029431
+Type=tContainer
+TDATA2=041
+Weight=1
+
+Category=Utility
+Subsection=Containers
+Description=Basket
+
+
+[ItemDef 024D8]
+DefName=iBasket6
+Name=basket
+NameLoc=1029432
+Type=tContainer
+TDATA2=041
+Weight=1
+
+Category=Utility
+Subsection=Containers
+Description=Basket
+
+
+[ItemDef 024D9]
+DefName=iBasket7
+Name=basket
+NameLoc=1029433
+Type=tContainer
+TData2=0108
+Can=CanIFlip
+Weight=1
+DupeList=024da
+
+Category=Utility
+Subsection=Containers
+Description=Basket
+
+[ItemDef 024da]
+NameLoc=1029434
+DupeItem=024d9
+
+
+[ItemDef 024DB]
+DefName=iBasket8
+Name=basket
+NameLoc=1029435
+Type=tContainer
+TData2=0108
+Can=CanIFlip
+Weight=1
+DupeList=024DC
+
+Category=Utility
+Subsection=Containers
+Description=Basket
+
+[ItemDef 024DC]
+NameLoc=1029436
+DupeItem=024DB
+
+
+[ItemDef 024DD]
+DefName=iBasket9
+Name=basket
+NameLoc=1029437
+Type=tContainer
+TData2=0108
+Weight=1
+
+Category=Utility
+Subsection=Containers
+Description=Basket
+
+
+[ItemDef 02bd9]
+DefName=iGreenStocking
+Name=Green Stocking
+NameLoc=1031225
+Type=tContainer
+TData2=0103
+Weight=1
+DupeList=02bda
+
+Category=Utility
+Subsection=Containers
+Description=Green Stocking
+
+[ItemDef 02bda]
+NameLoc=1031226
+DupeItem=02bd9
+
+
+[ItemDef 02bdb]
+DefName=iRedStocking
+Name=Red Stocking
+NameLoc=1031227
+Type=tContainer
+TData2=0103
+Weight=1
+DupeList=02bdc
+
+Category=Utility
+Subsection=Containers
+Description=Red Stocking
+
+[ItemDef 02bdc]
+NameLoc=1031228
+DupeItem=02bdb
+
+
+[ItemDef 02DF1]
+DefName=iRarewoodChest
+Name=rarewood chest
+NameLoc=1031761
+Type=tContainer
+TData2=0107
+Can=CanIFlip
+Weight=255
+DupeList=02df2
+
+Category=Utility
+Subsection=Containers
+Description=Rarewood Chest
+
+[ItemDef 02df2]
+NameLoc=1031762
+DupeItem=02df1
+
+
+[ItemDef 02DF3]
+DefName=iDecorativeBox
+Name=decorative box
+NameLoc=1031763
+Type=tContainer
+TData2=0107
+Can=CanIFlip
+Weight=255
+DupeList=02DF4
+
+Category=Utility
+Subsection=Containers
+Description=Decorative Box
+
+[ItemDef 02DF4]
+NameLoc=1031764
+DupeItem=02DF3
+
+
+[ItemDef 04102]
+DefName=iPiratesChest
+Name=pirate's chest
+NameLoc=1095514
+Type=tContainer
+TData2=0423
+Can=CanIFlip
+Weight=10
+DupeList=04106
+
+Category=Utility
+Subsection=Containers
+Description=Pirates Chest
+
+[ItemDef 04106]
+NameLoc=1095518
+DupeItem=04102
+
+
+[ItemDef 04103]
+NameLoc=1095515
+DupeList=04104,04105
+
+Category=Utility
+Subsection=Containers
+Description=Pirate Chest (South) (Opening Anim)
+
+[ItemDef 04104]
+NameLoc=1095516
+DupeItem=04103
+
+[ItemDef 04105]
+NameLoc=1095517
+DupeItem=04103
+
+
+[ItemDef 04107]
+NameLoc=1095519
+DupeList=04108,04109
+
+Category=Utility
+Subsection=Containers
+Description=Pirate Chest (East) (Opening Anim)
+
+[ItemDef 04108]
+NameLoc=1095520
+DupeItem=04107
+
+[ItemDef 04109]
+NameLoc=1095521
+DupeItem=04103
+DupeItem=04107
+
+
+[EOF]

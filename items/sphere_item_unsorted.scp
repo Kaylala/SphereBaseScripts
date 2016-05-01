@@ -175,27 +175,6 @@ DupeItem=090d
 DupeItem=090d
 
 
-[ItemDef 0990]
-DefName=iBasket
-Type=tContainer
-TDATA2=041
-Value=18
-Weight=1.0
-Resources=2 iSoftenedReed,3 iArrowShaft
-SkillMake=tinkering 15.0
-Category=Provisions - Miscellaneous
-Subsection=Containers
-Description=Basket
-
-
-[ItemDef 09b2]
-DefName=iBankbox
-Name=Bank Box
-LAYER=layer_bankbox
-Type=tEqBankBox
-TDATA2=04a
-
-
 [ItemDef 0b45]
 DefName=iVaseLarge1
 Name=large amphora vase
@@ -869,16 +848,6 @@ DupeItem=012ee
 DupeItem=012ee
 
 
-[ItemDef 014e0]
-DefName=iBucket
-Type=tContainer
-TDATA2=03e
-Resources=2 iBoard,1 iIngotIron,1 iNails
-Weight=2
-Category=Miscellaneous
-Subsection=Vat
-Description=Bucket
-
 [ItemDef 014f3]
 DefName=iModelShip
 FLIP=1
@@ -1292,20 +1261,6 @@ Weight=1.0
 Category=Quest
 Subsection=Token
 Description=Seeker Token
-
-
-[ItemDef 01940]
-DefName=iKegWoodContainer
-Type=tContainer
-TDATA2=03e
-FLIP=1
-Value=45
-Weight=11.0
-Resources=1 iBarrelTap,1 iKegSmall
-SkillMake=tinkering 70.0,tTinkerTools
-Category=Provisions - Miscellaneous
-Subsection=Containers
-Description=Keg
 
 
 [ItemDef 01ad4]
@@ -1943,18 +1898,7 @@ DupeItem=0206a
 //white gauntlet hand
 DupeItem=0206a
 
-[ItemDef 0207b]
-//FIXME: Duplicate of 0990?
-DefName=iBasket3
-Name=basket
-Type=tContainer
-TDATA2=041
-Weight=1.0
-Resources=2 iSoftenedReed,3 iArrowShaft
-SkillMake=tinkering 15.0
-Category=Provisions - Miscellaneous
-Subsection=Containers
-Description=Basket (duplicate of 0990)
+
 
 [ItemDef 0207d]
 //unnecessary copy of item 0db?
@@ -2006,29 +1950,7 @@ Category=Miscellaneous
 Subsection=Bad Tiles
 Description=Unused Ghost Missile 02255
 
-[ItemDef 02256]
-DefName=iBagballSmall
-Type=tContainer
-Value=3
-DYE=1
-Weight=1.0
-TDATA2=03D
-Resources=1 iHidesCut
-Category=Provisions - Miscellaneous
-Subsection=Containers
-Description=Bagball (small)
 
-[ItemDef 02257]
-DefName=iBagballLarge
-Type=tContainer
-Value=3
-DYE=1
-Weight=1.0
-TDATA2=03D
-Resources=2 iHidesCut
-Category=Provisions - Miscellaneous
-Subsection=Containers
-Description=Bagball (large)
 
 [ItemDef 0227a]
 //The Scroll of Calling contains a ritual that can be used near the Well of
@@ -2089,26 +2011,6 @@ COLOR=colors_all
 //snowman
 DupeItem=02328
 
-[ItemDef 0232a]
-DefName=iGiftbox
-Type=tContainer
-TDATA2=0102
-TDATA3=155,85
-FLIP=1
-Weight=2.0
-Resources=9 iBoard,2 iNails,1 iPaper,1 i_ribbon
-SkillMake=carpentry 21.0,tCarpentry
-Category=Provisions - Miscellaneous
-Subsection=Containers
-Description=Gift Box
-DupeList=0232b
-
-ON=@Create
-COLOR=colors_all
-
-[ItemDef 0232b]
-//gift box
-DupeItem=0232a
 
 [ItemDef 0232c]
 DefName=iWreath
@@ -2270,89 +2172,6 @@ Subsection=Vases & Pots
 Description=Urn
 
 
-[ItemDef 024d5]
-DefName=iBasketSquareSmall
-Type=tContainer
-TDATA2=03f
-FLIP=1
-Weight=2.0
-Resources=2 iSoftenedReed,3 iArrowShaft
-SkillMake=tinkering 15.0
-Category=Provisions - Miscellaneous
-Subsection=Containers
-Description=Japanese Basket (square)
-DupeList=024d6
-
-[ItemDef 024d6]
-//japanese basket (square)
-DupeItem=024d5
-
-[ItemDef 024d7]
-DefName=iBasketRoundSmall
-Type=tContainer
-TDATA2=041
-Weight=2.0
-Resources=2 iSoftenedReed,3 iArrowShaft
-SkillMake=tinkering 15.0
-Category=Provisions - Miscellaneous
-Subsection=Containers
-Description=Japanese Basket (round)
-
-[ItemDef 024d8]
-DefName=iBasketRoundTall
-Type=tContainer
-TDATA2=041
-Weight=2.0
-Resources=3 iSoftenedReed,4 iArrowShaft
-SkillMake=tinkering 35.0
-Category=Provisions - Miscellaneous
-Subsection=Containers
-Description=Japanese Basket (tall round)
-
-[ItemDef 024d9]
-DefName=iBasketSquareDeep
-Type=tContainer
-TDATA2=0108
-FLIP=1
-Weight=4.0
-Resources=1 iSoftenedReed,2 iArrowShaft
-SkillMake=tinkering 45.0
-Category=Provisions - Miscellaneous
-Subsection=Containers
-Description=Japanese Basket (square deep)
-DupeList=024da
-
-[ItemDef 024da]
-//japanese basket (square deep)
-DupeItem=024d9
-
-[ItemDef 024db]
-DefName=iBasketSquareTall
-Type=tContainer
-TDATA2=0108
-FLIP=1
-Weight=4.0
-Resources=3 iSoftenedReed,4 iArrowShaft
-SkillMake=tinkering 45.0
-Category=Provisions - Miscellaneous
-Subsection=Containers
-Description=Japanese Basket (square tall)
-DupeList=024dc
-
-[ItemDef 024dc]
-//japanese basket (square tall)
-DupeItem=024db
-
-[ItemDef 024dd]
-DefName=iBasketRoundFlat
-Type=tContainer
-TDATA2=0108
-Weight=2.0
-Resources=1 iSoftenedReed,2 iArrowShaft
-SkillMake=tinkering 25.0
-Category=Provisions - Miscellaneous
-Subsection=Containers
-Description=Japanese Basket (round flat)
 
 
 [ItemDef 024e3]
@@ -3281,7 +3100,7 @@ DupeItem=02af9
 //Cannot be opened
 DefName=iStockingGreen2
 Name=Christmas Stocking
-Type=tContainer
+Type=tNormal
 TDATA2=0103
 Value=12
 Weight=1.2
@@ -3290,42 +3109,6 @@ SkillMake=tailoring 39.2,tSewingKit
 Category=Provisions - Miscellaneous
 Subsection=Containers
 Description=Christmas Stocking (broken)
-
-[ItemDef 02bd9]
-DefName=iStockingGreen
-Name=Christmas stocking
-Type=tContainer
-TDATA2=0103
-Weight=1.2
-Value=12
-Resources=1 iWool,1 iThread,1 iCloth
-SkillMake=tailoring 39.2,tSewingKit
-Category=Provisions - Miscellaneous
-Subsection=Containers
-Description=Christmas Stocking (green)
-DupeList=02bda
-
-[ItemDef 02bda]
-//Christmas Stocking (green)
-DupeItem=02bd9
-
-[ItemDef 02bdb]
-DefName=iStockingRed
-Name=Christmas stocking
-Type=tContainer
-TDATA2=0103
-Weight=1.2
-Value=12
-Resources=1 iWool,1 iThread,1 iCloth
-SkillMake=tailoring 39.2,tSewingKit
-Category=Provisions - Miscellaneous
-Subsection=Containers
-Description=Christmas Stocking (red)
-DupeList=02bdc
-
-[ItemDef 02bdc]
-//Christmas Stocking (red)
-DupeItem=02bdb
 
 
 [ItemDef 02db0]
@@ -3382,43 +3165,6 @@ Category=Quest
 Subsection=Slasher of Veils
 Description=Claw of Slasher of Veils
 
-[ItemDef 02df1]
-DefName=iChestOrnateElven
-Name=ornate elven chest
-Type=tContainer
-TDATA2=0107
-FLIP=1
-Value=79
-Weight=24.6
-Resources=12 iBoard,4 iNails,2 iHinge
-SkillMake=carpentry 94.2,tCarpentry
-Category=Provisions - Miscellaneous
-Subsection=Containers
-Description=Ornate Elven Chest
-DupeList=02df2
-
-[ItemDef 02df2]
-//ornate elven chest
-DupeItem=02df1
-
-[ItemDef 02df3]
-DefName=iChestOrnateElven2
-Name=ornate elven chest
-Type=tContainer
-TDATA2=0107
-FLIP=1
-Value=79
-Weight=24.6
-Resources=12 iBoard,4 iNails,2 iHinge
-SkillMake=carpentry 94.2,tCarpentry
-Category=Provisions - Miscellaneous
-Subsection=Containers
-Description=Ornate Elven Chest (2)
-DupeList=02df4
-
-[ItemDef 02df4]
-//ornate elven chest
-DupeItem=02df3
 
 
 [ItemDef 02f44]
@@ -4070,62 +3816,8 @@ DupeList=04043
 DupeItem=04042
 
 [ItemDef 0407b]
-//basket frame (used in crafting menu to obfuscate basket images)
+//basket frame
 
-[ItemDef 04102]
-DefName=iChestPirate
-Name=pirate chest
-Type=tContainer
-TDATA2=0423
-FLIP=1
-Value=93
-Weight=22.0
-Resources=20 iIngotIron,2 iBoard,1 iNails
-SkillMake=tinkering 75.0,tTinkerTools
-Category=Provisions - Miscellaneous
-Subsection=Containers
-Description=Pirate Chest
-DupeList=04106
-//FIXME: add an opening animation
-
-[ItemDef 04103]
-DefName=iChestPirateOpened
-Name=pirate chest
-Type=tContainer
-TDATA2=0423
-FLIP=1
-Value=93
-Weight=22.0
-Resources=20 iIngotIron,2 iBoard,1 iNails
-SkillMake=tinkering 75.0,tTinkerTools
-Category=Provisions - Miscellaneous
-Subsection=Containers
-Description=Pirate Chest (opened)
-DupeList=04104,04105,04107,04108,04109
-
-[ItemDef 04104]
-//Pirate Chest (opened)
-DupeItem=04103
-
-[ItemDef 04105]
-//Pirate Chest (opened)
-DupeItem=04103
-
-[ItemDef 04106]
-//Pirate chest
-DupeItem=04102
-
-[ItemDef 04107]
-//Pirate Chest (opened)
-DupeItem=04103
-
-[ItemDef 04108]
-//Pirate Chest (opened)
-DupeItem=04103
-
-[ItemDef 04109]
-//Pirate Chest (opened)
-DupeItem=04103
 
 [ItemDef 0410a]
 DefName=iKeySkeleton
@@ -4145,48 +3837,6 @@ DupeList=0410b
 //skeleton key
 DupeItem=0410a
 
-
-[ItemDef 04141]
-DefName=iMailboxS
-Name=mailbox
-Type=tContainer
-TDATA2=011a
-TAG.FullID=04141
-TAG.EmptyID=04142
-Category=Yard Decoration
-Subsection=Mailbox
-Description=Mailbox South (full)
-
-[ItemDef 04142]
-Name=mailbox
-Type=tContainer
-TDATA2=011a
-TAG.FullID=04141
-TAG.EmptyID=04142
-Category=Yard Decoration
-Subsection=Mailbox
-Description=Mailbox South
-
-[ItemDef 04143]
-DefName=iMailboxW
-Name=mailbox
-Type=tContainer
-TDATA2=011a
-TAG.FullID=04143
-TAG.EmptyID=04144
-Category=Yard Decoration
-Subsection=Mailbox
-Description=Mailbox West (full)
-
-[ItemDef 04144]
-Name=mailbox
-Type=tContainer
-TDATA2=011a
-TAG.FullID=04143
-TAG.EmptyID=04144
-Category=Yard Decoration
-Subsection=Mailbox
-Description=Mailbox West
 
 
 [ItemDef 041ad]
@@ -4394,51 +4044,6 @@ Subsection=Virtue Items
 Description=Book of Truth (Gargish)
 ON=@Create
 MORE1=b_principal_truth
-
-
-[ItemDef 044ef]
-DefName=iPlanterAncient
-Name=ancient stone planter
-Weight=15.0
-Resources=3 iRockPlain
-SkillMake=carpentry 5.0,tMasonryTool
-Category=Decoration - Potted Plants & Vases
-Subsection=Vases & Pots
-Description=Ancient Stone Planter
-
-[ItemDef 044f0]
-DefName=iPlanterGrecian
-Name=grecian planter
-Weight=20.0
-Resources=4 iRockPlain
-SkillMake=carpentry 5.0,tMasonryTool
-Category=Decoration - Potted Plants & Vases
-Subsection=Vases & Pots
-Description=Grecian Planter
-
-[ItemDef 044f1]
-DefName=iPlanterModern
-Name=modern stone planter
-Weight=15.0
-Resources=3 iRockPlain
-SkillMake=carpentry 5.0,tMasonryTool
-Category=Decoration - Potted Plants & Vases
-Subsection=Vases & Pots
-Description=Modern Stone Planter
-
-[ItemDef 044f2]
-//FIXME: Not a container apparently?
-DefName=iBarrelOak
-Name=oak barrel
-Type=tContainer
-TDATA2=03e
-Value=149
-Weight=87.0
-Resources=1 iBarrelStaves,1 iBarrelHoops,1 iBarrelLid
-SkillMake=tinkering 55.0,tTinkerTools//requires proximity to coopers bench
-Category=Provisions - Miscellaneous
-Subsection=Containers
-Description=Oak Barrel
 
 
 [ItemDef 04515]
