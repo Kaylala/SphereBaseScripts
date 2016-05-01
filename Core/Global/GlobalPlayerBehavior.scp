@@ -1,9 +1,17 @@
 [Events eGlobalPlayerBehavior]
+on=@DClick
+CheckExpansion
+
+on=@EquipTest
+CheckExpansion
+
 On=@Mount
 // GM's Can mount anything; unless the GM is a gargoyle.
 If (<Src.IsGm>) && !(<Src.IsGargoyle>)
  Return 0
 EndIf
+
+CheckExpansion	// Lets be sure we have the expansion first.
 
 // Gargoyles Cannot mount creatures.
 If <Src.IsGargoyle>

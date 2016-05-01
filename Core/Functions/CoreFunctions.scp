@@ -115,4 +115,47 @@ EndIf
 Tag.ModMaxMana=<Eval (<Tag0.ModMaxMana> + <ArgN>)>
 
 
+[Function CheckExpansion]
+If (<Expansion> &Expansion_T2A) && !(<Src.Expansion> &Expansion_T2A)
+ Return 1
+EndIf
+If (<Expansion> &Expansion_LBR) && !(<Src.Expansion> &Expansion_LBR)
+ Return 1
+EndIf
+If (<Expansion> &Expansion_AOS) && !(<Src.Expansion> &Expansion_AOS)
+ Return 1
+EndIf
+If (<Expansion> &Expansion_SE) && !(<Src.Expansion> &Expansion_SE)
+ Return 1
+EndIf
+If (<Expansion> &Expansion_ML) && !(<Src.Expansion> &Expansion_ML)
+ Return 1
+EndIf
+If (<Expansion> &Expansion_SA) && !(<Src.Expansion> &Expansion_SA)
+ Return 1
+EndIf
+If (<Expansion> &Expansion_HS) && !(<Src.Expansion> &Expansion_HS)
+ Return 1
+EndIf
+If (<Expansion> &Expansion_TOL) && !(<Src.Expansion> &Expansion_TOL)
+ Return 1
+EndIf
+If (<Expansion> &CrystalTheme) && !(<Src.Expansion> &CrystalTheme)
+ Return 1
+EndIf
+If (<Expansion> &ShadowTheme) && !(<Src.Expansion> &ShadowTheme)
+ Return 1
+EndIf
+If (<Expansion> &RusticTheme) && !(<Src.Expansion> &RusticTheme)
+ Return 1
+EndIf
+If (<Expansion> &GothicTheme) && !(<Src.Expansion> &GothicTheme)
+ Return 1
+EndIf
+If (<Expansion> &KingsCollectionTheme) && !(<Src.Expansion> &KingsCollectionTheme)
+ Return 1
+EndIf
+
+
+
 [EOF]
