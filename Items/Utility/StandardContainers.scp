@@ -407,25 +407,6 @@ Subsection=Containers
 Description=Bagball
 
 
-[ItemDef 0232A]
-DefName=iGiftBox1
-Name=gift box
-NameLoc=1029002
-Type=tContainer
-TData2=0102
-Can=CanIFlip
-Weight=1
-DupeList=0232B
-
-Category=Provisions - Miscellaneous
-Subsection=Containers
-Description=Gift Box
-
-[ItemDef 0232B]
-NameLoc=1029003
-DupeItem=0232A
-
-
 [ItemDef 024D5]
 DefName=iBasket4
 Name=basket
@@ -638,7 +619,7 @@ DupeList=04108,04109
 
 Category=Utility
 Subsection=Containers
-Description=Pirate Chest (East) (Opening Anim)
+Description=Pirate's Chest (East) (Opening Anim)
 
 [ItemDef 04108]
 NameLoc=1095520

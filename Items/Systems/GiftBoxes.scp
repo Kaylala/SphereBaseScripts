@@ -1,0 +1,212 @@
+[ItemDef 0232A]
+DefName=iGiftBox1
+Name=gift box
+NameLoc=1029002
+Type=tContainer
+TData2=0102
+Can=CanIFlip
+Weight=1
+DupeList=0232B
+
+Category=Systems
+Subsection=Holidays: Gift Boxes
+Description=Gift Box
+
+[ItemDef 0232B]
+NameLoc=1029003
+DupeItem=0232A
+
+
+[ItemDef 046A2]
+DefName=iGiftBox2
+Name=gift box
+NameLoc=1096954
+Type=tContainer
+TData2=011b
+Weight=1
+
+Category=Systems
+Subsection=Holidays: Gift Boxes
+Description=Gift Box 2
+
+
+[ItemDef 046a3]
+DefName=iGiftBox3
+Name=gift box
+NameLoc=1096955
+Type=tContainer
+TData2=011c
+Weight=1
+
+Category=Systems
+Subsection=Holidays: Gift Boxes
+Description=Gift Box 3
+
+
+[ItemDef 046a4]
+DefName=iGiftBox4
+Name=gift box
+NameLoc=1096956
+Type=tContainer
+TData2=011d
+Weight=1
+
+Category=Systems
+Subsection=Holidays: Gift Boxes
+Description=Gift Box 4
+
+
+[ItemDef 046a5]
+DefName=iGiftBox5
+Name=gift box
+NameLoc=1096957
+Type=tContainer
+Can=CanIFlip
+TData2=011e
+Weight=1
+DupeList=046a6
+
+Category=Systems
+Subsection=Holidays: Gift Boxes
+Description=Gift Box 5
+
+[ItemDef 046a6]
+NameLoc=1096958
+DupeItem=046a5
+
+
+[ItemDef 046a7]
+DefName=iGiftBox6
+Name=gift box
+NameLoc=1096959
+Type=tContainer
+TData2=011f
+Weight=1
+DupeList=046a6
+
+Category=Systems
+Subsection=Holidays: Gift Boxes
+Description=Gift Box 6
+
+
+[ItemDef 09A92]
+DefName=iGiftBox7
+Name=Gift Box
+NameLoc=1123594
+Type=tContainer
+TData2=011B
+Weight=1
+
+Category=Utility
+Subsection=Containers
+Description=Gift Box 7
+
+
+[ItemDef 09A93]
+DefName=iGiftBox8
+Name=Gift Box
+NameLoc=1123595
+Type=tContainer
+TData2=011B
+Weight=1
+
+Category=Systems
+Subsection=Holidays: Gift Boxes
+Description=Gift Box 8
+
+
+[ItemDef 09A94]
+DefName=iGiftBox9
+Name=Gift Box
+NameLoc=1123596
+Type=tContainer
+TData2=011B
+Weight=1
+
+Category=Systems
+Subsection=Holidays: Gift Boxes
+Description=Gift Box 9
+
+
+[ItemDef 049c8]
+DefName=iTallGiftBox
+Name=tall gift box
+NameLoc=1097760
+Type=tContainer
+TData2=0121
+Can=CanIFlip
+Weight=1
+DupeList=049c9
+
+Category=Systems
+Subsection=Holidays: Gift Boxes
+Description=Tall Gift Box
+
+[ItemDef 049c9]
+NameLoc=1097761
+DupeItem=049c8
+
+
+[ItemDef 049ca]
+DefName=iHeartShapedBox1
+Name=heart shaped box
+NameLoc=1097762
+Type=tContainer
+TData2=0120
+Can=CanIFlip
+Weight=1
+DupeList=049cb
+
+Category=Systems
+Subsection=Holidays: Gift Boxes
+Description=Heart Shaped Box 1
+
+[ItemDef 049cb]
+NameLoc=1097763
+DupeItem=049ca
+
+
+[ItemDef 049cc]
+DefName=iHeartShapedBox2
+Name=heart shaped box
+NameLoc=1097764
+Type=tContainer
+TData2=0120
+Can=CanIFlip
+Weight=1
+DupeList=049d0
+
+Category=Systems
+Subsection=Holidays: Gift Boxes
+Description=Heart Shaped Box 2 (Animated)
+
+[ItemDef 049cd]
+NameLoc=1097765
+// 049cc animation
+
+[ItemDef 049ce]
+NameLoc=1097766
+// 049cc animation
+
+[ItemDef 049cf]
+NameLoc=1097767
+// 049cc animation
+
+[ItemDef 049d0]
+NameLoc=1097768
+DupeItem=049cc
+
+[ItemDef 049d1]
+NameLoc=1097769
+// 049D1 animation
+
+[ItemDef 049d2]
+NameLoc=1097770
+// 049D1 animation
+
+[ItemDef 049d3]
+NameLoc=1097771
+// 049D1 animation
+
+
+[EOF]

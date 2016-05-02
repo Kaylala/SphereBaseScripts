@@ -219,7 +219,7 @@ Description=Small Vase 2
 [ItemDef 0e12]
 DefName=iChessmenBlack
 Name=black chessmen
-FLIP=1
+Can=CanIFlip
 Value=69
 Weight=1.0
 Resources=16 iEbony
@@ -236,7 +236,7 @@ DupeItem=0e12
 [ItemDef 0e14]
 DefName=iChessmenWhite
 Name=white chessmen
-FLIP=1
+Can=CanIFlip
 Value=69
 Weight=1.0
 Resources=16 iIvory
@@ -248,7 +248,7 @@ DupeList=0fa8
 
 [ItemDef 0e15]
 DefName=iCards
-FLIP=1
+Can=CanIFlip
 Weight=1.0
 Resources=52 iPaper
 SkillMake=carpentry 5.0,tCarpentry
@@ -276,7 +276,7 @@ DupeItem=0e15
 [ItemDef 0e1a]
 DefName=iCheckersRed
 Name=red checkers
-FLIP=1
+Can=CanIFlip
 Value=52
 Weight=1.0
 Resources=12 iIvory
@@ -289,7 +289,7 @@ DupeList=0fa4
 [ItemDef 0e1b]
 DefName=iCheckersWhite
 Name=white checkers
-FLIP=1
+Can=CanIFlip
 Value=52
 Weight=1.0
 Resources=12 iEbony
@@ -302,7 +302,7 @@ DupeList=0fa5
 [ItemDef 0e1c]
 DefName=iBackgammonGame
 Type=tGameBoard
-TDATA2=092e
+TData2=092e
 Value=40
 Weight=3.0
 Resources=3 iBoard,1 iDiceCup
@@ -473,7 +473,7 @@ DupeItem=0e12
 DefName=iGameMahjong
 //Name=mahjong
 //Type=t_game_board
-TDATA2=02c00
+TData2=02c00
 Weight=5.0
 Resources=10 iIvory,10 iEbony
 Category=Games
@@ -490,7 +490,7 @@ DupeItem=0e1c
 [ItemDef 0fc4]
 DefName=iShell
 Type=tNormal
-FLIP=1
+Can=CanIFlip
 Value=1
 Weight=0.1
 Category=Decoration - Miscellaneous
@@ -532,7 +532,7 @@ DupeItem=0fc4
 
 [ItemDef 0fcd]
 DefName=iStringOfShells
-FLIP=1
+Can=CanIFlip
 Weight=0.5
 Resources=5 iShell,1 iString
 Category=Decoration - Miscellaneous
@@ -694,7 +694,7 @@ Description=Hanging Pole (N) (03/03)
 [ItemDef 010ee]
 DefName=iGarbage
 Type=tGarbage
-FLIP=1
+Can=CanIFlip
 Value=1
 Weight=2.0
 Category=Decoration - Miscellaneous
@@ -850,7 +850,7 @@ DupeItem=012ee
 
 [ItemDef 014f3]
 DefName=iModelShip
-FLIP=1
+Can=CanIFlip
 Weight=1
 Category=Decoration - Miscellaneous
 Subsection=Nautical
@@ -867,7 +867,7 @@ DupeItem=014f3
 [ItemDef 014f5]
 DefName=iSpyglass
 Type=tSpyGlass
-FLIP=1
+Can=CanIFlip
 Resources=2 iIngotIron,1 iGlassRaw
 Weight=3
 Category=Decoration - Miscellaneous
@@ -881,7 +881,7 @@ DupeItem=014f5
 
 [ItemDef 014f7]
 DefName=iAnchor
-FLIP=1
+Can=CanIFlip
 Resources=40 iIngotIron,1 iRope
 Weight=40
 Category=Decoration - Miscellaneous
@@ -891,7 +891,7 @@ DupeList=014f9
 
 [ItemDef 014f8]
 DefName=iRope
-FLIP=1
+Can=CanIFlip
 Weight=2
 Type=tRope
 Category=Decoration - Miscellaneous
@@ -921,7 +921,7 @@ Description=@
 [ItemDef 0152c]
 DefName=iMousehole
 Name=mousehole
-FLIP=1
+Can=CanIFlip
 Category=Decoration - Miscellaneous
 Subsection=Wall Mousehole
 Description=Mousehole
@@ -1532,7 +1532,7 @@ Description=Cactus 6
 [ItemDef 01e2e]
 //FIXME: Should be a game
 DefName=iDartboard
-FLIP=1
+Can=CanIFlip
 Value=12
 Weight=2.1
 Resources=1 iBoard,1 iCloth,1 iNails
@@ -1549,7 +1549,7 @@ DupeItem=01e2e
 [ItemDef 01e30]
 DefName=iDartboardAxe
 //Type=t_game_board
-FLIP=1
+Can=CanIFlip
 Weight=13.1
 Resources=1 iDartboard,1 iAxe
 SkillMake=carpentry 15.7,tCarpentry
@@ -1565,7 +1565,7 @@ DupeItem=01e30
 [ItemDef 01e32]
 DefName=iDartboardKnives
 //Type=t_game_board
-FLIP=1
+Can=CanIFlip
 Weight=14.1
 Resources=1 iDartboard,3 iDagger
 SkillMake=carpentry 15.7,tCarpentry
@@ -1641,7 +1641,7 @@ Description=Fishing Net
 DefName=iBatteredBucket
 Name=battered bucket
 Type=tDrink
-TDATA1=iBucket
+TData1=iBucket
 Weight=12.1
 Resources=1 iBucket,3 iPitcherWater
 Category=Quest
@@ -1995,7 +1995,7 @@ ATTR=attr_magic|attr_newbie
 
 [ItemDef 02328]
 DefName=iSnowman
-FLIP=1
+Can=CanIFlip
 DYE=1
 Weight=10.0
 Resources=100 iSnow,1 iFruitCarrot,12 iReagEyeOfNewt,1 i_ribbon,1 i_hatFloppy
@@ -2014,7 +2014,7 @@ DupeItem=02328
 
 [ItemDef 0232c]
 DefName=iWreath
-FLIP=1
+Can=CanIFlip
 DYE=1
 Resources=10 iTwig,1 iMistletoe
 Category=Decoration - Miscellaneous
@@ -2100,7 +2100,7 @@ DupeItem=0236e
 [ItemDef 02374]
 DefName=iMistletoe
 Type=tNormal
-FLIP=1
+Can=CanIFlip
 Value=100
 Weight=0.2
 Category=Decoration - Miscellaneous
@@ -2177,7 +2177,7 @@ Description=Urn
 [ItemDef 024e3]
 DefName=iDecorativeRockgarden
 Type=tNormal
-FLIP=1
+Can=CanIFlip
 Weight=2.0
 Resources=1 iBoard,1 iSand
 Category=Decoration - Miscellaneous
@@ -2670,7 +2670,7 @@ RETURN 1
 [ItemDef 02842]
 DefName=iSwordDisplayEmpty
 Type=tNormal
-FLIP=1
+Can=CanIFlip
 Weight=20.0
 Resources=10 iLog
 Category=Decoration - Weapons
@@ -2685,7 +2685,7 @@ DupeItem=02842
 [ItemDef 02844]
 DefName=iSwordDisplayEmpty2
 Type=tNormal
-FLIP=1
+Can=CanIFlip
 Weight=20.0
 Resources=10 iLog
 Category=Decoration - Weapons
@@ -2709,7 +2709,7 @@ Description=Flowers
 [ItemDef 02851]
 DefName=iDisplaySwordsRed
 Type=tNormal
-FLIP=1
+Can=CanIFlip
 Weight=38.0
 Resources=10 iLog,1 iDaisho
 Category=Decoration - Weapons
@@ -2724,7 +2724,7 @@ DupeItem=02851
 [ItemDef 02853]
 DefName=iDisplaySwordsBlack
 Type=tNormal
-FLIP=1
+Can=CanIFlip
 Weight=38.0
 Resources=10 iLog,1 iDaisho
 Category=Decoration - Weapons
@@ -2739,7 +2739,7 @@ DupeItem=02853
 [ItemDef 02855]
 DefName=iDisplaySwordsWhite
 Type=tNormal
-FLIP=1
+Can=CanIFlip
 Weight=41.0
 Resources=10 iLog,1 iNoDachi
 Category=Decoration - Weapons
@@ -2828,7 +2828,7 @@ Description=Bonsai Tree 8
 [ItemDef 0291c]
 DefName=iDisplaySwordsBlue
 Type=tNormal
-FLIP=1
+Can=CanIFlip
 Weight=38.0
 Resources=10 iLog,1 iDaisho
 Category=Decoration - Weapons
@@ -2843,7 +2843,7 @@ DupeItem=0291c
 [ItemDef 0291e]
 DefName=iDisplaySwordsYellow
 Type=tNormal
-FLIP=1
+Can=CanIFlip
 Weight=38.0
 Resources=10 iLog,1 iDaisho
 Category=Decoration - Weapons
@@ -2869,7 +2869,7 @@ Description=Red Sword Display 2
 
 [ItemDef 02a45]
 Type=tNormal
-FLIP=1
+Can=CanIFlip
 Weight=38.0
 Resources=10 iLog,1 iDaisho
 Category=Decoration - Weapons
@@ -2883,7 +2883,7 @@ DupeItem=02a45
 
 [ItemDef 02a47]
 Type=tNormal
-FLIP=1
+Can=CanIFlip
 Weight=38.0
 Resources=10 iLog,1 iDaisho
 Category=Decoration - Weapons
@@ -2897,7 +2897,7 @@ DupeItem=02a47
 
 [ItemDef 02a49]
 Type=tNormal
-FLIP=1
+Can=CanIFlip
 Weight=38.0
 Resources=10 iLog,1 iDaisho
 Category=Decoration - Weapons
@@ -2911,7 +2911,7 @@ DupeItem=02a49
 
 [ItemDef 02a4b]
 Type=tNormal
-FLIP=1
+Can=CanIFlip
 Weight=38.0
 Resources=10 iLog,1 iDaisho
 Category=Decoration - Weapons
@@ -3056,7 +3056,7 @@ DupeItem=02ac0
 DefName=iVendorbox
 Name=Vendor Box
 Type=tEqVendorBox
-TDATA2=04a
+TData2=04a
 
 [ItemDef 02af9]
 DefName=iDawnsMusicBox
@@ -3101,7 +3101,7 @@ DupeItem=02af9
 DefName=iStockingGreen2
 Name=Christmas Stocking
 Type=tNormal
-TDATA2=0103
+TData2=0103
 Value=12
 Weight=1.2
 Resources=1 iWool,1 iThread,1 iCloth
@@ -3352,7 +3352,7 @@ Description=Special Parrot Perch
 DefName=iPerchParrot
 Name=parrot perch
 Type=tNormal
-FLIP=1
+Can=CanIFlip
 Value=10
 Weight=4.0
 Resources=2 iBoard
@@ -3381,7 +3381,7 @@ Description=Assigned to CMI 02ff8
 DefName=iServeredElfEars
 Name=severed elf ears
 Type=tNormal
-FLIP=1
+Can=CanIFlip
 Value=10
 Weight=0.1
 Category=Decoration - Dungeons and the Dead
@@ -3397,7 +3397,7 @@ DupeItem=0312d
 DefName=iServeredHumanEars
 Name=servered human ears
 Type=tNormal
-FLIP=1
+Can=CanIFlip
 Value=10
 Weight=0.1
 Category=Decoration - Dungeons and the Dead
@@ -3592,7 +3592,7 @@ Description=Reddish Book
 DefName=iDecorativeArmor
 Name=decorative armor
 Type=tNormal
-FLIP=1
+Can=CanIFlip
 Weight=190.0
 Resources=5 iIngotGold,2 iLog,7 iFeather,1 i_helm_closed,1 i_platemail_arms,1 i_platemail_leggings,1 i_platemail_gorget,1 i_platemail_gloves,1 i_platemail_chest,1 i_axe_war
 Category=Decoration - Miscellaneous
@@ -3618,7 +3618,7 @@ Description=Unused Tile 03d89
 DefName=iCurtainLong
 Name=long curtain
 DYE=1
-FLIP=1
+Can=CanIFlip
 Weight=10.0
 Resources=10 iCloth
 Category=Decoration - Curtains
@@ -3678,7 +3678,7 @@ DupeItem=03d9c
 DefName=iDecorativeArmor2
 Name=decorative armor
 Type=tNormal
-FLIP=1
+Can=CanIFlip
 Weight=190.0
 Resources=5 iIngotGold,2 iLog,7 iFeather,1 i_helm_closed,1 i_platemail_arms,1 i_platemail_leggings,1 i_platemail_gorget,1 i_platemail_gloves,1 i_platemail_chest,1 i_axe_war
 Category=Decoration - Miscellaneous
@@ -3802,7 +3802,7 @@ Description=Soul Gem
 [ItemDef 04042]
 DefName=iVaseGargishTall
 Name=tall Gargish vase
-FLIP=1
+Can=CanIFlip
 Weight=15.0
 Resources=5 iRockPlain
 SkillMake=carpentry 5.0,tMasonryTool
@@ -3823,7 +3823,7 @@ DupeItem=04042
 DefName=iKeySkeleton
 Name=skeleton key
 Type=tKey
-FLIP=1
+Can=CanIFlip
 Value=16
 Weight=0.1
 Resources=2 iIngotIron,1 iIngotCopper
@@ -3843,7 +3843,7 @@ DupeItem=0410a
 DefName=iWeaponstand1Full
 Name=weapon stand
 Type=tNormal
-FLIP=1
+Can=CanIFlip
 Weight=34.0
 Resources=1 iWeaponstand1,6 iShortblade
 Category=Decoration - Weapons
@@ -3855,7 +3855,7 @@ DupeList=041b3
 DefName=iWeaponstand2Full
 Name=weapon stand
 Type=tNormal
-FLIP=1
+Can=CanIFlip
 Weight=34.0
 Resources=1 iWeaponstand2,6 iShortblade
 Category=Decoration - Weapons
@@ -3876,7 +3876,7 @@ DupeItem=041ae
 DefName=iWeaponstand1
 Name=weapon stand
 Type=tNormal
-FLIP=1
+Can=CanIFlip
 Weight=20.0
 Resources=20 iBoard
 Category=Decoration - Weapons
@@ -3888,7 +3888,7 @@ DupeList=041cd
 DefName=iWeaponstand2
 Name=weapon stand
 Type=tNormal
-FLIP=1
+Can=CanIFlip
 Weight=20.0
 Resources=20 iBoard
 Category=Decoration - Weapons
@@ -3909,7 +3909,7 @@ DupeItem=041c1
 DefName=iMaceRackFull
 Name=rack of maces
 Type=tNormal
-FLIP=1
+Can=CanIFlip
 Weight=44.0
 Resources=10 iLog,6 iMace
 Category=Decoration - Wall Hangings
@@ -3935,7 +3935,7 @@ DupeItem=041da
 DefName=iWeaponRackFull
 Name=weapon rack
 Type=tNormal
-FLIP=1
+Can=CanIFlip
 Weight=34.0
 Resources=10 iLog,6 iShortblade
 Category=Decoration - Weapons
@@ -3959,7 +3959,7 @@ DupeItem=041fe
 DefName=iToyRockinghorse
 Name=rocking horse
 Type=tNormal
-FLIP=1
+Can=CanIFlip
 Category=Decoration - Miscellaneous
 Subsection=Holiday Gifts
 Description=Rocking Horse
@@ -3973,7 +3973,7 @@ DupeItem=04214
 DefName=iWeaponRackSmallarms
 Name=weapon rack
 Type=tNormal
-FLIP=1
+Can=CanIFlip
 Weight=34.0
 Resources=10 iLog,6 iGargishDagger
 Category=Decoration - Weapons
@@ -4060,7 +4060,7 @@ MORE1=b_principal_truth
 DefName=iIcicles
 Name=icicles
 Type=tNormal
-FLIP=1
+Can=CanIFlip
 Category=Yard Decoration
 Subsection=Icicles
 Description=Icicles
@@ -4087,78 +4087,6 @@ DupeItem=04572
 DupeItem=04572
 
 
-[ItemDef 046a2]
-DefName=iGiftbox2
-Name=gift box
-Type=tContainer
-TDATA2=011b
-//TDATA3=100,100//FIXME
-Weight=9.4
-Resources=9 iBoard,2 iNails,1 iPaper,1 i_ribbon
-SkillMake=carpentry 21.0,tCarpentry
-Category=Provisions - Miscellaneous
-Subsection=Containers
-Description=Gift Box 2
-
-[ItemDef 046a3]
-DefName=iGiftbox3
-Name=gift box
-Type=tContainer
-TDATA2=011c
-//TDATA3=100,100//FIXME
-Weight=9.4
-Resources=9 iBoard,2 iNails,1 iPaper,1 i_ribbon
-SkillMake=carpentry 21.0,tCarpentry
-Category=Provisions - Miscellaneous
-Subsection=Containers
-Description=Gift Box 3
-
-[ItemDef 046a4]
-DefName=iGiftbox4
-Name=gift box
-Type=tContainer
-TDATA2=011d
-//TDATA3=100,100//FIXME
-Weight=9.4
-Resources=9 iBoard,2 iNails,1 iPaper,1 i_ribbon
-SkillMake=carpentry 21.0,tCarpentry
-Category=Provisions - Miscellaneous
-Subsection=Containers
-Description=Gift Box 4
-
-[ItemDef 046a5]
-DefName=iGiftbox5
-Name=gift box
-Type=tContainer
-FLIP=1
-TDATA2=011e
-//TDATA3=100,100//FIXME
-Weight=9.4
-Resources=9 iBoard,2 iNails,1 iPaper,1 i_ribbon
-SkillMake=carpentry 21.0,tCarpentry
-Category=Provisions - Miscellaneous
-Subsection=Containers
-Description=Gift Box 5
-DupeList=046a6
-
-[ItemDef 046a6]
-//Gift Box 5
-DupeItem=046a5
-
-[ItemDef 046a7]
-DefName=iGiftbox6
-Name=gift box
-Type=tContainer
-TDATA2=011f
-//TDATA3=100,100//FIXME
-Weight=9.4
-Resources=9 iBoard,2 iNails,1 iPaper,1 i_ribbon
-SkillMake=carpentry 21.0,tCarpentry
-Category=Provisions - Miscellaneous
-Subsection=Containers
-Description=Gift Box 6
-
-
 [ItemDef 046ae]
 //gardening scroll
 [ItemDef 046af]
@@ -4179,7 +4107,7 @@ Description=Gift Box 6
 [ItemDef 046d9]
 DefName=iBonsai9
 Type=tNormal
-FLIP=1
+Can=CanIFlip
 Weight=4.0
 Resources=1 iLog,1 iDirt,1 iTreeSapling
 Category=Decoration - Miscellaneous
@@ -4195,7 +4123,7 @@ DupeItem=046d9
 DefName=iNutcrackerSmall
 Name=small nutcracker
 Type=tNormal//fixme: when dclicked, it should animate once
-FLIP=1
+Can=CanIFlip
 Category=Decoration - Miscellaneous
 Subsection=Holiday Gifts
 Description=Small Nutcracker
@@ -4221,7 +4149,7 @@ DupeItem=046ec
 DefName=iNutcrackerLarge
 Name=large nutcracker
 Type=tNormal//fixme: when dclicked, it should animate once
-FLIP=1
+Can=CanIFlip
 Category=Decoration - Miscellaneous
 Subsection=Holiday Gifts
 Description=Large Nutcracker
@@ -4263,7 +4191,7 @@ DefName=iWelcomeMatRounded
 Name=round doormat
 Type=tNormal
 DYE=1
-FLIP=1
+Can=CanIFlip
 Category=Decoration - Carpets & Rugs
 Subsection=Welcome Mat
 Description=Welcome Mat (rounded)
@@ -4278,7 +4206,7 @@ DupeItem=04790
 DefName=iGiftEasteregg
 Name=Easter egg
 Type=tNormal
-FLIP=1
+Can=CanIFlip
 Category=Decoration - Miscellaneous
 Subsection=Holiday Gifts
 Description=Easter Egg
@@ -4288,7 +4216,7 @@ Description=Easter Egg
 DefName=iToyBear
 Name=toy bear
 Type=tNormal
-FLIP=1
+Can=CanIFlip
 Category=Decoration - Miscellaneous
 Subsection=Holiday Gifts
 Description=Toy Valentine Bear
@@ -4302,7 +4230,7 @@ DupeItem=048e0
 DefName=iToyBear2
 Name=toy bear
 Type=tNormal
-FLIP=1
+Can=CanIFlip
 Category=Decoration - Miscellaneous
 Subsection=Holiday Gifts
 Description=Toy Valentine Bear 2
@@ -4320,7 +4248,7 @@ Description=Unused Tile 048e4
 [ItemDef 048e5]
 DefName=iBannerAssembly
 Name=banner
-FLIP=1
+Can=CanIFlip
 Weight=50.0
 Resources=4 iLog,10 iCloth
 Category=Decoration - Wall Hangings
@@ -4357,107 +4285,12 @@ DupeItem=048e5
 DupeItem=048e5
 
 
-[ItemDef 04910]
-DefName=iChestGothic
-Name=gothic chest
-Type=tContainer
-TDATA2=04a
-FLIP=1
-Value=93
-Weight=22.0
-Resources=22 iBoard,2 iIngotIron,1 iNails
-SkillMake=tinkering 75.0,tTinkerTools
-Category=Provisions - Miscellaneous
-Subsection=Containers
-Description=Gothic Chest
-DupeList=04911
-
-[ItemDef 04911]
-//gothic chest
-DupeItem=04910
-
-
-[ItemDef 049c8]
-DefName=iGiftbox7
-Name=gift box
-Type=tContainer
-FLIP=1
-TDATA2=0121
-//TDATA3=100,100//FIXME
-Weight=9.4
-Resources=9 iBoard,2 iNails,1 iPaper,1 i_ribbon
-SkillMake=carpentry 21.0,tCarpentry
-Category=Provisions - Miscellaneous
-Subsection=Containers
-Description=Gift Box 7
-DupeList=049c9
-
-[ItemDef 049c9]
-//Gift Box 7
-DupeItem=049c8
-
-[ItemDef 049ca]
-DefName=iGiftbox8
-Name=valentine gift box
-Type=tContainer
-FLIP=1
-TDATA2=0120
-//TDATA3=100,100//FIXME
-Weight=9.4
-Resources=9 iBoard,2 iNails,1 iPaper,1 i_ribbon
-SkillMake=carpentry 21.0,tCarpentry
-Category=Provisions - Miscellaneous
-Subsection=Containers
-Description=Gift Box 8 (valentine)
-DupeList=049cb
-
-[ItemDef 049cb]
-//Gift Box 8 (valentine)
-DupeItem=049ca
-
-[ItemDef 049cc]
-DefName=iGiftbox9
-Name=valentine gift box
-Type=tContainer
-FLIP=1
-TDATA2=0120
-//TDATA3=100,100//FIXME
-Weight=9.4
-Resources=9 iBoard,2 iNails,1 iPaper,1 i_ribbon
-SkillMake=carpentry 21.0,tCarpentry
-Category=Provisions - Miscellaneous
-Subsection=Containers
-Description=Gift Box 8 (animated valentine)
-DupeList=049d0
-
-[ItemDef 049cd]
-//animation stage of Gift Box 8
-
-[ItemDef 049ce]
-//animation stage of Gift Box 8
-
-[ItemDef 049cf]
-//animation stage of Gift Box 8
-
-[ItemDef 049d0]
-//Gift Box 8 (animated valentine)
-DupeItem=049cc
-
-[ItemDef 049d1]
-//animation stage of Gift Box 8
-
-[ItemDef 049d2]
-//animation stage of Gift Box 8
-
-[ItemDef 049d3]
-//animation stage of Gift Box 8
-
 
 [ItemDef 04a94]
 DefName=iToySheep
 Name=toy sheep
 Type=tNormal
-FLIP=1
+Can=CanIFlip
 Category=Decoration - Miscellaneous
 Subsection=Holiday Gifts
 Description=Toy Sheep
@@ -4467,7 +4300,7 @@ DupeList=04a96
 DefName=iToySheepShorn
 Name=toy sheep
 Type=tNormal
-FLIP=1
+Can=CanIFlip
 Category=Decoration - Miscellaneous
 Subsection=Holiday Gifts
 Description=Toy Sheep (shorn)
@@ -4484,7 +4317,7 @@ DupeItem=04a95
 [ItemDef 04a9c]
 DefName=iShackledHeart
 Name=shackled heart
-FLIP=1
+Can=CanIFlip
 Value=200
 Weight=0.1
 Resources=1 iIngotIron,1 iHeartIcy
@@ -4502,7 +4335,7 @@ DupeItem=04a9c
 [ItemDef 04aa0]
 DefName=iTortureRackWSkeleton
 Name=tortured skeleton
-FLIP=1
+Can=CanIFlip
 Value=130
 Weight=171.0
 Resources=1 iTortureRack,1 iSkeleton
@@ -4527,7 +4360,7 @@ DupeItem=04aa0
 [ItemDef 04aaa]
 DefName=iTortureWheel
 Name=torture rack
-FLIP=1
+Can=CanIFlip
 Value=130
 Weight=21.0
 Resources=10 iBoard,10 iNails,10 iWireIron
@@ -4554,8 +4387,8 @@ DupeItem=04aaa
 DefName=iSignFancyBlank
 Name=sign
 Type=tSignGump
-TDATA2=067
-FLIP=1
+TData2=067
+Can=CanIFlip
 Weight=3.1
 Resources=2 iBoard,1 iIngotIron,1 iNails
 Category=Decoration - Signs
@@ -4570,7 +4403,7 @@ DupeItem=04b20
 [ItemDef 04b22]
 DefName=iFlowerbed
 Name=flowerbed
-FLIP=1
+Can=CanIFlip
 Weight=15.0
 Resources=3 iRockPlain,100 iReagFertileDirt
 SkillMake=carpentry 5.0,tMasonryTool
@@ -4732,8 +4565,8 @@ RETURN 1
 DefName=iBookcaseAlchemist
 Name=alchemist bookcase
 Type=tContainer
-TDATA2=04d
-FLIP=1
+TData2=04d
+Can=CanIFlip
 Value=140
 Weight=94.2
 Resources=1 iBookcase,20 iBookSm
@@ -5493,7 +5326,7 @@ Description=Boura Pelt
 ID=iFurLight
 Name=boura skin
 Type=tHide
-FLIP=1
+Can=CanIFlip
 Value=5
 Weight=5.0
 Category=Quest
@@ -5667,8 +5500,8 @@ Description=Reflective Wolf Eye
 DefName=iChestCombination
 Name=combination chest
 Type=tContainer
-TDATA2=0423
-FLIP=1
+TData2=0423
+Can=CanIFlip
 Value=93
 Weight=22.0
 //Resources=20 i_ingot_iron,2 i_board,1 i_nails

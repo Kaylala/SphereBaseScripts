@@ -1,0 +1,50 @@
+[ItemDef 04910]
+DefName=iChestOfSending
+Name=chest of sending
+NameLoc=1150418	// a chest of sending
+Type=tSendingContainer
+//Type=tContainer
+//TData2=04A
+Can=CanIFlip
+Weight=5
+DupeList=04911
+
+Category=Utility
+Subsection=Sending Containers
+Description=Chest of Sending
+
+On=@Create
+Attr=AttrMagic|AttrNewbie|AttrBlessed
+
+UsesMax=50
+UsesCur=50
+Recharge=1
+RechargeAmt=1
+RechargeRate=300	// seconds
+
+[ItemDef 04911]
+NameLoc=1150418
+DupeItem=04910
+
+
+[ItemDef iBagOfSending]
+ID=iBag
+Name=bag of sending
+NameLoc=1054105	// a bag of sending
+Type=tSendingContainer
+Can=0
+
+Category=Utility
+Subsection=Sending Containers
+Description=Bag of Sending
+
+On=@Create
+Attr=AttrMagic
+More1=300	// Saturation Level. When this reaches 0, it can no longer be recharged.
+//Color=
+
+UsesMax=30
+UsesCur=30
+
+
+[EOF]

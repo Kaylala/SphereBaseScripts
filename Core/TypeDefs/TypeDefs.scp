@@ -1,23 +1,105 @@
 [TypeDef tChickenCoop]
 
 
-[TypeDef tPilot]
-On=@DClick
-ref1=<region.uid>
-if ( <ref1.more1> == <src> )
- if ( <ref1.pilot> == <src> )
-  src.consume 1 i_memory_ship_pilot
-  ref1.pilot=0
- else
-  ref1.pilot=<src>
-  if (<src.FindLayer.layer_horse>)
-   src.Dismount
-  endif
-  serv.newitem = i_memory_ship_pilot
-  new.equip
- endif
-endif
-return 1
+[Comment tSendingContainer]
+1054104;a bag of sending
+
+Old CliLocs (Not used now)
+1054106;This item will not function while being traded.
+1054108;The bag of sending rejects the cursed item.
+1054109;The bag of sending rejects that item.
+1054151; was placed in your bank box.
+1079428;You cannot send a container through the bag of sending
+
+// Selectors for Newer CliLocs
+1150423;bag of sending
+1150424;chest of sending
+
+
+[TypeDef tSendingContainer]
+On=@ClientTooltip
+NameCliLoc
+AttrCliLoc
+WeightCliLoc
+Src.AddCliLoc 1054132,<UsesCur>	// [charges: ~1_charges~]
+If (<BaseID> == iChestOfSending)
+ Src.AddCliLoc 1150598	// Auto Recharge
+EndIf
+Return 1
+
+On=@ContextMenuRequest
+If (<BaseID> == iBagOfSending)
+ If (<UsesCur>)
+  Src.AddContextEntry 200,3006189	// Use the Bag of Sending
+ Else
+  Src.AddContextEntry 200,3006189,01
+ EndIf
+Else
+ If (<UsesCur>)
+  Src.AddContextEntry 200,1150419	// Use the Chest of Sending
+ Else
+  Src.AddContextEntry 200,1150419,01
+ EndIf
+EndIf
+
+On=@ContextMenuSelect
+If (<UsesCur> == 0)
+ Return 1
+EndIf
+
+If (<TopObj> != <Src>)
+ Src.SMsgL -1,1054107	// This item must be in your backpack.
+ Return 1
+EndIf
+
+If (<FindLayer.LayerTradeWindow.UID>)
+ Src.SMsgL -1,1150422	// The ~1_NAME~ will not function while being traded.
+ Return 1
+EndIf
+
+Target
+Return 1
+
+On=@TargOn_Item
+Ref1=<Src.FindLayer.LayerBankBox.UID>
+
+If (<ArgO.TopObj> != <Src>)
+ Src.SMsgL -1,1054152	// You may only send items from your backpack to your bank box.
+ Return 1
+EndIf
+
+If (<Ref1.FCount> == <Ref1.Tag.Override.MaxItems>)
+ Src.SMsgL -1,1054110	// Your bank box is full.
+ Return 1
+EndIf
+
+// 1150421;The ~1_NAME~ rejects that item.
+If (<ArgO.Attr> &AttrCursed) || (<ArgO.Attr> &AttrQuestItem) || (<ArgO.Attr> &AttrStolen)
+ If (<BaseID> == iBagOfSending)
+  Src.SMsgL -1,1150421,#1150423
+  Return 1
+ Else
+  Src.SMsgL -1,1150421,#1150424
+  Return 1
+ EndIf
+EndIf
+
+// 1150420;You cannot send a container through the ~1_NAME~.
+If (<ArgO.Type> == tContainer)
+ If (<BaseID> == iBagOfSending)
+  Src.SMsgL -1,1150420,#1150423
+ Else
+  Src.SMsgL -1,1150420,#1150424
+ EndIf
+EndIf
+
+Src.SMsgL -1,1054150;The item was placed in your bank box.
+UsesCur --
+ArgO.Cont=<Ref1>
+//If (<BaseID> == iChestOfSending)
+// Recharge
+//EndIf
+Return 1
 
 
 [Comment Mailbox]
@@ -62,6 +144,25 @@ If !(<FCount>)
 EndIf
 	
 	
+[TypeDef tPilot]
+On=@DClick
+ref1=<region.uid>
+if ( <ref1.more1> == <src> )
+ if ( <ref1.pilot> == <src> )
+  src.consume 1 i_memory_ship_pilot
+  ref1.pilot=0
+ else
+  ref1.pilot=<src>
+  if (<src.FindLayer.layer_horse>)
+   src.Dismount
+  endif
+  serv.newitem = i_memory_ship_pilot
+  new.equip
+ endif
+endif
+return 1
+
+
 [ItemDef iShipPilotMemory]
 ID=03e96	//This item is like a horse for the client, but for ships, having it equiped = pilot mode on current ship.
 Type=tEqMount
