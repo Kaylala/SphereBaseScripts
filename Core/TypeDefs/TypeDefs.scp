@@ -52,7 +52,7 @@ If (<TopObj> != <Src>)
  Return 1
 EndIf
 
-If (<FindLayer.LayerTradeWindow.UID>)
+If (<Cont.Type> == tEqTradeWindow)
  Src.SMsgL -1,1150422	// The ~1_NAME~ will not function while being traded.
  Return 1
 EndIf
