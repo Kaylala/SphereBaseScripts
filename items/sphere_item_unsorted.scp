@@ -5520,47 +5520,6 @@ DupeItem=09706
 [ItemDef 0992e]
 //Pumpkin Carving Kit
 
-[ItemDef 09955]
-//head on a spear
-[ItemDef 09956]
-[ItemDef 09957]
-[ItemDef 09958]
-[ItemDef 09959]
-[ItemDef 0995a]
-[ItemDef 0995b]
-[ItemDef 0995c]
-[ItemDef 0995d]
-[ItemDef 0995e]
-[ItemDef 0995f]
-
-[ItemDef 09960]
-//silver platter
-[ItemDef 09961]
-//silver platter
-
-[ItemDef 09962]
-//potted elephant fern
-[ItemDef 09963]
-//potted elephant fern
-
-[ItemDef 09964]
-//potted wall fern
-[ItemDef 09965]
-//potted wall fern
-
-[ItemDef 09966]
-//amalgamator
-
-[ItemDef 09967]
-//venus flytrap
-[ItemDef 09968]
-//venus flytrap
-
-[ItemDef 0996a]
-//japanese maple
-[ItemDef 0996b]
-//japanese maple
-
 
 [ItemDef 075bf]
 // NoName // orc

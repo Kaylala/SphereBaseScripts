@@ -172,16 +172,6 @@ Subsection=Containers
 Descripton=15th Anniversary Gift Bag
 
 
-[ItemDef i16thAnniversaryGiftBag]
-ID=iBag
-Name=16th Anniversary Gift Bag
-NameLoc=1154356
-
-Category=Provisions
-Subsection=Containers
-Descripton=16th Anniversary Gift Bag
-
-
 [ItemDef i17thAnniversaryGiftBag]
 ID=iBag
 Name=17th Anniversary Gift Bag

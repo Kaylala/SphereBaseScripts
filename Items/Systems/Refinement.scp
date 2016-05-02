@@ -1,0 +1,29 @@
+[TypeDef tArmorRefinement]
+
+
+[TypeDef tAmalgamator]
+
+//1154351;Target the refinement you wish to combine.
+//1154352;You've completed the amalgamation and received an upgraded version of your refinement.
+//1154353;You can't upgrade this refinement.
+//1154354;This refinement does not match the type currently being combined.
+//1154360;You place the refinement into the amalgamator.
+//1154456;You must first select a refinement to combine. 
+//1154457;This is not a refinement.
+
+[ItemDef 09966]
+DefName=iRefinementAmalgamator
+Name=Refinement Amalgamator
+NameLoc=1154340	// Refinement Amalgamator
+Type=tAmalgamator
+Weight=10
+
+Category=Systems
+Subsection=Refinement
+Description=Refinement Amalgamator
+
+On=@Create
+Color=0480
+
+
+[EOF]

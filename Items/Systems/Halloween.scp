@@ -1,0 +1,248 @@
+[Comment CliLocs for Pumpkins]
+1154350;Carved By ~1_NAME~
+1154339;*You carefully carve the pumpkin*
+
+
+[ItemDef 09955]
+DefName=iHeadOnASpike1
+Name=Head on a Spike
+NameLoc=
+Type=tSignGump
+TData2=0773A
+Weight=1
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Head on a Spike 1
+
+On=@Create
+Tag.Name=
+Name=<Tag.Name>'s Head on a Spike
+
+On=@ClientTooltip
+Src.AddCliLoc 1154355,<Tag0.Name>	// ~1_NAME~'s Head on a Spike
+WeightCliLoc
+Return 1
+
+
+[ItemDef 09956]
+DefName=iHeadOnASpike2
+Name=Head on a Spike
+NameLoc=
+Type=tSignGump
+TData2=0773B
+Weight=1
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Head on a Spike 2
+
+On=@Create
+Tag.Name=
+Name=<Tag.Name>'s Head on a Spike
+
+On=@ClientTooltip
+Src.AddCliLoc 1154355,<Tag0.Name>	// ~1_NAME~'s Head on a Spike
+WeightCliLoc
+Return 1
+
+
+[ItemDef 09957]
+DefName=iHeadOnASpike3
+Name=Head on a Spike
+NameLoc=
+Type=tSignGump
+TData2=0773C
+Weight=1
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Head on a Spike 3
+
+On=@Create
+Tag.Name=
+Name=<Tag.Name>'s Head on a Spike
+
+On=@ClientTooltip
+Src.AddCliLoc 1154355,<Tag0.Name>	// ~1_NAME~'s Head on a Spike
+WeightCliLoc
+Return 1
+
+
+[ItemDef 09958]
+DefName=iHeadOnASpike4
+Name=Head on a Spike
+NameLoc=
+Type=tSignGump
+TData2=0773D
+Weight=1
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Head on a Spike 4
+
+On=@Create
+Tag.Name=
+Name=<Tag.Name>'s Head on a Spike
+
+On=@ClientTooltip
+Src.AddCliLoc 1154355,<Tag0.Name>	// ~1_NAME~'s Head on a Spike
+WeightCliLoc
+Return 1
+
+
+[ItemDef 09959]
+DefName=iHeadOnASpike5
+Name=Head on a Spike
+NameLoc=
+Type=tSignGump
+TData2=0773E
+Weight=1
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Head on a Spike 5
+
+On=@Create
+Tag.Name=
+Name=<Tag.Name>'s Head on a Spike
+
+On=@ClientTooltip
+Src.AddCliLoc 1154355,<Tag0.Name>	// ~1_NAME~'s Head on a Spike
+WeightCliLoc
+Return 1
+
+
+[ItemDef 0995a]
+DefName=iHeadOnASpike6
+Name=Head on a Spike
+NameLoc=
+Type=tSignGump
+TData2=0773F
+Weight=1
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Head on a Spike 6
+
+On=@Create
+Tag.Name=
+Name=<Tag.Name>'s Head on a Spike
+
+On=@ClientTooltip
+Src.AddCliLoc 1154355,<Tag0.Name>	// ~1_NAME~'s Head on a Spike
+WeightCliLoc
+Return 1
+
+
+[ItemDef 0995b]
+DefName=iHeadOnASpike7
+Name=Head on a Spike
+NameLoc=
+Type=tSignGump
+TData2=07740
+Weight=1
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Head on a Spike 7
+
+On=@Create
+Tag.Name=
+Name=<Tag.Name>'s Head on a Spike
+
+On=@ClientTooltip
+Src.AddCliLoc 1154355,<Tag0.Name>	// ~1_NAME~'s Head on a Spike
+WeightCliLoc
+Return 1
+
+
+[ItemDef 0995c]
+DefName=iHeadOnASpike8
+Name=Head on a Spike
+NameLoc=
+Type=tSignGump
+TData2=07741
+Weight=1
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Head on a Spike 8
+
+On=@Create
+Tag.Name=
+Name=<Tag.Name>'s Head on a Spike
+
+On=@ClientTooltip
+Src.AddCliLoc 1154355,<Tag0.Name>	// ~1_NAME~'s Head on a Spike
+WeightCliLoc
+Return 1
+
+
+[ItemDef 0995d]
+DefName=iHeadOnASpike9
+Name=Head on a Spike
+NameLoc=
+Type=tSignGump
+TData2=07742
+Weight=1
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Head on a Spike 9
+
+On=@Create
+Tag.Name=
+Name=<Tag.Name>'s Head on a Spike
+
+On=@ClientTooltip
+Src.AddCliLoc 1154355,<Tag0.Name>	// ~1_NAME~'s Head on a Spike
+WeightCliLoc
+Return 1
+
+
+[ItemDef 0995e]
+DefName=iHeadOnASpike10
+Name=Head on a Spike
+NameLoc=
+Type=tSignGump
+TData2=07743
+Weight=1
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Head on a Spike 10
+
+On=@Create
+Tag.Name=
+Name=<Tag.Name>'s Head on a Spike
+
+On=@ClientTooltip
+Src.AddCliLoc 1154355,<Tag0.Name>	// ~1_NAME~'s Head on a Spike
+WeightCliLoc
+Return 1
+
+
+[ItemDef 0995f]
+DefName=iHeadOnASpike11
+Name=Head on a Spike
+NameLoc=
+Type=tSignGump
+TData2=07743
+Weight=1
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Head on a Spike 11
+
+On=@Create
+Tag.Name=
+Name=<Tag.Name>'s Head on a Spike
+
+On=@ClientTooltip
+Src.AddCliLoc 1154355,<Tag0.Name>	// ~1_NAME~'s Head on a Spike
+WeightCliLoc
+Return 1
+
+
+[EOF]
