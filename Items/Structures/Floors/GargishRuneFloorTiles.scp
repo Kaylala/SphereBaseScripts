@@ -1,0 +1,109 @@
+[ItemDef 040a3]
+DefName=iGargishRuneFloor
+Name=gargish rune
+NameLoc=1095419
+Type=tFloor
+DupeList=040a4,040a5,040a6,040a7,040a8,040a9,040aa,040ab,040ac,040ad,040ae,040af,040b0,040b1,040b2,040b3,040b4,040b5,040b6,040b7,040b8,040b9,040ba,040bb
+
+Category=Structures
+Subsection=Floors
+Description=Gargish Rune 1
+
+[ItemDef 040a4]
+NameLoc=1095420
+DupeItem=040a3
+
+[ItemDef 040a5]
+NameLoc=1095421
+DupeItem=040a3
+
+[ItemDef 040a6]
+NameLoc=1095422
+DupeItem=040a3
+
+[ItemDef 040a7]
+NameLoc=1095423
+DupeItem=040a3
+
+[ItemDef 040a8]
+NameLoc=1095424
+DupeItem=040a3
+
+[ItemDef 040a9]
+NameLoc=1095425
+DupeItem=040a3
+
+[ItemDef 040aa]
+NameLoc=1095426
+DupeItem=040a3
+
+[ItemDef 040ab]
+NameLoc=1095427
+DupeItem=040a3
+
+[ItemDef 040ac]
+NameLoc=1095428
+DupeItem=040a3
+
+[ItemDef 040ad]
+NameLoc=1095429
+DupeItem=040a3
+
+[ItemDef 040ae]
+NameLoc=1095430
+DupeItem=040a3
+
+[ItemDef 040af]
+NameLoc=1095431
+DupeItem=040a3
+
+[ItemDef 040b0]
+NameLoc=1095432
+DupeItem=040a3
+
+[ItemDef 040b1]
+NameLoc=1095433
+DupeItem=040a3
+
+[ItemDef 040b2]
+NameLoc=1095434
+DupeItem=040a3
+
+[ItemDef 040b3]
+NameLoc=1095435
+DupeItem=040a3
+
+[ItemDef 040b4]
+NameLoc=1095436
+DupeItem=040a3
+
+[ItemDef 040b5]
+NameLoc=1095437
+DupeItem=040a3
+
+[ItemDef 040b6]
+NameLoc=1095438
+DupeItem=040a3
+
+[ItemDef 040b7]
+NameLoc=1095439
+DupeItem=040a3
+
+[ItemDef 040b8]
+NameLoc=1095440
+DupeItem=040a3
+
+[ItemDef 040b9]
+NameLoc=1095441
+DupeItem=040a3
+
+[ItemDef 040ba]
+NameLoc=1095442
+DupeItem=040a3
+
+[ItemDef 040bb]
+NameLoc=1095443
+DupeItem=040a3
+
+
+[EOF]

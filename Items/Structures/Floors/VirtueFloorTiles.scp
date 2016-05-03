@@ -1,0 +1,1492 @@
+[ItemDef 0514a]
+DefName=iVirtueFloor2
+NameLoc=1099682
+Type=tFloor
+DupeList=0514b,0514c,0514d,0514e,0514f,05150,05151,05152,05153,05154,05155,05156,05157,05158,05159,0515a,0515b,0515c,0515d,0515e,0515f,05160,05161,05162,05163,05164,05165,05166,05167,05168,05169,0516a,0516b,0516c,0516d,0516e,05174,05175,05176,05177,05178,05179,0517a,0517b,0517c,0517d,0517e,0517f,05180,05181,05182,05183,05187,05188,05189,0518a,0518b,0518c,0518d,0518e,0518f,05190,05191,05192,05193,05194,05195,05196,05197,05198,0519a,0519b,0519c,0519d,0519e,0519f,051a0,051a1,051a2,051a3,051a4,051a5,051a6,051a7,051a8,051a9,051aa,051ab,051ac,051ad,051ae,051af,051b0,051b1,051b2,051b3,051b4,051b5,051b6,051b7,051b8,051b9,051ba,051bb,051bc,051bd,051be,051bf,051c0,051c1,051c2,051c3,051c4,051c5,051c6,051c7,051c8,051c9,051ca,051cb,051cc,051cd,051ce,051cf,051d0,051d1,051d2,051d3,051d4,051d5,051d6,051d7,051d8,051d9,051da,051db,051dc,051dd,051de,051df,051e0,051e1,051e2,051e3,051e4,051e5,051e6,051e7,051e8,051e9,051ea,051eb,051ec,051ed,051ee,051ef,051f0,051f1,051f2,051f3,051f4,051f5,051f6,051f7,051f8,051f9,051fa,051fb,051fc,051fd,051fe,051ff,05200,05201,05202,05203,05204,05205,05206,05207,05208,05209,0520a,0520b,0520c,0520d,0520e,0520f,05210,05211,05212,05213,05214,05215,05216,05217,05218,05219,0521a,0521b,0521c,0521d,0521e,0521f,05220,05221,05222,05223,05224,05225,05226,05227,05228,05229,0522a,0522b,0522c,0522d,0522e,0522f,05230,05231,05232,05233,05234,05235,05236,05237,05238,05239,0523a,0523b,0523c,0523d,0523e,0523f,05240,05241,05242,05243,05244,05245,05246,05247,05248,05249,0524a,0524b,0524c,0524d,0524e,0524f,05250,05251,05252,05253,05254,05255,05256,05257,05258,05259,0525a,0525b,0525c,0525d,0525e,0525f,05260,05261,05262,05263,05264,05265,05266,05267,05268,05269,0526a,0526b,0526c,0526d,0526e,0526f,05270,05271,05272,05273,05274,05275,05276,05277,05278,05279,0527a,0527b,0527c,0527d,0527e,0527f,05280,05281,05282,05283,05284,05285,05286,05287,05288,05289,0528b,0528c,0528d,0528e,0528f,05290,05291,05292,05293,05294,05295,05296,05297,05298,05299,0529a,0529b,0529c,052a0,052a1,052a2,052a3,052a4,052a5,052a6,052a7,052a8,052a9,052aa,052ab,052ac,052ad,052ae,052af,052b5,052b6,052b7,052b8,052b9,052ba,052bb,052bc,052bd,052be,052bf,052c0,052c1,052c2,052ca,052cb,052cc,052cd,052ce,052cf,052d0,052d1,052d2,052d3,052d4,052d5
+
+Category=Structures
+Subsection=Floors
+Description=Virtue Floor 2
+
+[ItemDef 0514b]
+NameLoc=1099683
+DupeItem=0514a
+
+[ItemDef 0514c]
+NameLoc=1099684
+DupeItem=0514a
+
+[ItemDef 0514d]
+NameLoc=1099685
+DupeItem=0514a
+
+[ItemDef 0514e]
+NameLoc=1099686
+DupeItem=0514a
+
+[ItemDef 0514f]
+NameLoc=1099687
+DupeItem=0514a
+
+[ItemDef 05150]
+NameLoc=1099688
+DupeItem=0514a
+
+[ItemDef 05151]
+NameLoc=1099689
+DupeItem=0514a
+
+[ItemDef 05152]
+NameLoc=1099690
+DupeItem=0514a
+
+[ItemDef 05153]
+NameLoc=1099691
+DupeItem=0514a
+
+[ItemDef 05154]
+NameLoc=1099692
+DupeItem=0514a
+
+[ItemDef 05155]
+NameLoc=1099693
+DupeItem=0514a
+
+[ItemDef 05156]
+NameLoc=1099694
+DupeItem=0514a
+
+[ItemDef 05157]
+NameLoc=1099695
+DupeItem=0514a
+
+[ItemDef 05158]
+NameLoc=1099696
+DupeItem=0514a
+
+[ItemDef 05159]
+NameLoc=1099697
+DupeItem=0514a
+
+[ItemDef 0515a]
+NameLoc=1099698
+DupeItem=0514a
+
+[ItemDef 0515b]
+NameLoc=1099699
+DupeItem=0514a
+
+[ItemDef 0515c]
+NameLoc=1099700
+DupeItem=0514a
+
+[ItemDef 0515d]
+NameLoc=1099701
+DupeItem=0514a
+
+[ItemDef 0515e]
+NameLoc=1099702
+DupeItem=0514a
+
+[ItemDef 0515f]
+NameLoc=1099703
+DupeItem=0514a
+
+[ItemDef 05160]
+NameLoc=1099704
+DupeItem=0514a
+
+[ItemDef 05161]
+NameLoc=1099705
+DupeItem=0514a
+
+[ItemDef 05162]
+NameLoc=1099706
+DupeItem=0514a
+
+[ItemDef 05163]
+NameLoc=1099707
+DupeItem=0514a
+
+[ItemDef 05164]
+NameLoc=1099708
+DupeItem=0514a
+
+[ItemDef 05165]
+NameLoc=1099709
+DupeItem=0514a
+
+[ItemDef 05166]
+NameLoc=1099710
+DupeItem=0514a
+
+[ItemDef 05167]
+NameLoc=1099711
+DupeItem=0514a
+
+[ItemDef 05168]
+NameLoc=1099712
+DupeItem=0514a
+
+[ItemDef 05169]
+NameLoc=1099713
+DupeItem=0514a
+
+[ItemDef 0516a]
+NameLoc=1099714
+DupeItem=0514a
+
+[ItemDef 0516b]
+NameLoc=1099715
+DupeItem=0514a
+
+[ItemDef 0516c]
+NameLoc=1099716
+DupeItem=0514a
+
+[ItemDef 0516d]
+NameLoc=1099717
+DupeItem=0514a
+
+[ItemDef 0516e]
+NameLoc=1099718
+DupeItem=0514a
+
+[ItemDef 05174]
+NameLoc=1099719
+DupeItem=0514a
+
+[ItemDef 05175]
+NameLoc=1099720
+DupeItem=0514a
+
+[ItemDef 05176]
+NameLoc=1099721
+DupeItem=0514a
+
+[ItemDef 05177]
+NameLoc=1099722
+DupeItem=0514a
+
+[ItemDef 05178]
+NameLoc=1099723
+DupeItem=0514a
+
+[ItemDef 05179]
+NameLoc=1099724
+DupeItem=0514a
+
+[ItemDef 0517a]
+NameLoc=1099725
+DupeItem=0514a
+
+[ItemDef 0517b]
+NameLoc=1099726
+DupeItem=0514a
+
+[ItemDef 0517c]
+NameLoc=1099727
+DupeItem=0514a
+
+[ItemDef 0517d]
+NameLoc=1099728
+DupeItem=0514a
+
+[ItemDef 0517e]
+NameLoc=1099729
+DupeItem=0514a
+
+[ItemDef 0517f]
+NameLoc=1099730
+DupeItem=0514a
+
+[ItemDef 05180]
+NameLoc=1099731
+DupeItem=0514a
+
+[ItemDef 05181]
+NameLoc=1099732
+DupeItem=0514a
+
+[ItemDef 05182]
+NameLoc=1099733
+DupeItem=0514a
+
+[ItemDef 05183]
+NameLoc=1099734
+DupeItem=0514a
+
+[ItemDef 05187]
+NameLoc=1099735
+DupeItem=0514a
+
+[ItemDef 05188]
+NameLoc=1099736
+DupeItem=0514a
+
+[ItemDef 05189]
+NameLoc=1099737
+DupeItem=0514a
+
+[ItemDef 0518a]
+NameLoc=1099738
+DupeItem=0514a
+
+[ItemDef 0518b]
+NameLoc=1099739
+DupeItem=0514a
+
+[ItemDef 0518c]
+NameLoc=1099740
+DupeItem=0514a
+
+[ItemDef 0518d]
+NameLoc=1099741
+DupeItem=0514a
+
+[ItemDef 0518e]
+NameLoc=1099742
+DupeItem=0514a
+
+[ItemDef 0518f]
+NameLoc=1099743
+DupeItem=0514a
+
+[ItemDef 05190]
+NameLoc=1099744
+DupeItem=0514a
+
+[ItemDef 05191]
+NameLoc=1099745
+DupeItem=0514a
+
+[ItemDef 05192]
+NameLoc=1099746
+DupeItem=0514a
+
+[ItemDef 05193]
+NameLoc=1099747
+DupeItem=0514a
+
+[ItemDef 05194]
+NameLoc=1099748
+DupeItem=0514a
+
+[ItemDef 05195]
+NameLoc=1099749
+DupeItem=0514a
+
+[ItemDef 05196]
+NameLoc=1099750
+DupeItem=0514a
+
+[ItemDef 05197]
+NameLoc=1099751
+DupeItem=0514a
+
+[ItemDef 05198]
+NameLoc=1099752
+DupeItem=0514a
+
+[ItemDef 0519a]
+NameLoc=1099753
+DupeItem=0514a
+
+[ItemDef 0519b]
+NameLoc=1099754
+DupeItem=0514a
+
+[ItemDef 0519c]
+NameLoc=1099755
+DupeItem=0514a
+
+[ItemDef 0519d]
+NameLoc=1099756
+DupeItem=0514a
+
+[ItemDef 0519e]
+NameLoc=1099757
+DupeItem=0514a
+
+[ItemDef 0519f]
+NameLoc=1099758
+DupeItem=0514a
+
+[ItemDef 051a0]
+NameLoc=1099759
+DupeItem=0514a
+
+[ItemDef 051a1]
+NameLoc=1099760
+DupeItem=0514a
+
+[ItemDef 051a2]
+NameLoc=1099761
+DupeItem=0514a
+
+[ItemDef 051a3]
+NameLoc=1099762
+DupeItem=0514a
+
+[ItemDef 051a4]
+NameLoc=1099763
+DupeItem=0514a
+
+[ItemDef 051a5]
+NameLoc=1099764
+DupeItem=0514a
+
+[ItemDef 051a6]
+NameLoc=1099765
+DupeItem=0514a
+
+[ItemDef 051a7]
+NameLoc=1099766
+DupeItem=0514a
+
+[ItemDef 051a8]
+NameLoc=1099767
+DupeItem=0514a
+
+[ItemDef 051a9]
+NameLoc=1099768
+DupeItem=0514a
+
+[ItemDef 051aa]
+NameLoc=1099769
+DupeItem=0514a
+
+[ItemDef 051ab]
+NameLoc=1099770
+DupeItem=0514a
+
+[ItemDef 051ac]
+NameLoc=1099771
+DupeItem=0514a
+
+[ItemDef 051ad]
+NameLoc=1099772
+DupeItem=0514a
+
+[ItemDef 051ae]
+NameLoc=1099773
+DupeItem=0514a
+
+[ItemDef 051af]
+NameLoc=1099774
+DupeItem=0514a
+
+[ItemDef 051b0]
+NameLoc=1099775
+DupeItem=0514a
+
+[ItemDef 051b1]
+NameLoc=1099776
+DupeItem=0514a
+
+[ItemDef 051b2]
+NameLoc=1099777
+DupeItem=0514a
+
+[ItemDef 051b3]
+NameLoc=1099778
+DupeItem=0514a
+
+[ItemDef 051b4]
+NameLoc=1099779
+DupeItem=0514a
+
+[ItemDef 051b5]
+NameLoc=1099780
+DupeItem=0514a
+
+[ItemDef 051b6]
+NameLoc=1099781
+DupeItem=0514a
+
+[ItemDef 051b7]
+NameLoc=1099782
+DupeItem=0514a
+
+[ItemDef 051b8]
+NameLoc=1099783
+DupeItem=0514a
+
+[ItemDef 051b9]
+NameLoc=1099784
+DupeItem=0514a
+
+[ItemDef 051ba]
+NameLoc=1099785
+DupeItem=0514a
+
+[ItemDef 051bb]
+NameLoc=1099786
+DupeItem=0514a
+
+[ItemDef 051bc]
+NameLoc=1099787
+DupeItem=0514a
+
+[ItemDef 051bd]
+NameLoc=1099788
+DupeItem=0514a
+
+[ItemDef 051be]
+NameLoc=1099789
+DupeItem=0514a
+
+[ItemDef 051bf]
+NameLoc=1099790
+DupeItem=0514a
+
+[ItemDef 051c0]
+NameLoc=1099791
+DupeItem=0514a
+
+[ItemDef 051c1]
+NameLoc=1099792
+DupeItem=0514a
+
+[ItemDef 051c2]
+NameLoc=1099793
+DupeItem=0514a
+
+[ItemDef 051c3]
+NameLoc=1099794
+DupeItem=0514a
+
+[ItemDef 051c4]
+NameLoc=1099795
+DupeItem=0514a
+
+[ItemDef 051c5]
+NameLoc=1099796
+DupeItem=0514a
+
+[ItemDef 051c6]
+NameLoc=1099797
+DupeItem=0514a
+
+[ItemDef 051c7]
+NameLoc=1099798
+DupeItem=0514a
+
+[ItemDef 051c8]
+NameLoc=1099799
+DupeItem=0514a
+
+[ItemDef 051c9]
+NameLoc=1099800
+DupeItem=0514a
+
+[ItemDef 051ca]
+NameLoc=1099801
+DupeItem=0514a
+
+[ItemDef 051cb]
+NameLoc=1099802
+DupeItem=0514a
+
+[ItemDef 051cc]
+NameLoc=1099803
+DupeItem=0514a
+
+[ItemDef 051cd]
+NameLoc=1099804
+DupeItem=0514a
+
+[ItemDef 051ce]
+NameLoc=1099805
+DupeItem=0514a
+
+[ItemDef 051cf]
+NameLoc=1099806
+DupeItem=0514a
+
+[ItemDef 051d0]
+NameLoc=1099807
+DupeItem=0514a
+
+[ItemDef 051d1]
+NameLoc=1099808
+DupeItem=0514a
+
+[ItemDef 051d2]
+NameLoc=1099809
+DupeItem=0514a
+
+[ItemDef 051d3]
+NameLoc=1099810
+DupeItem=0514a
+
+[ItemDef 051d4]
+NameLoc=1099811
+DupeItem=0514a
+
+[ItemDef 051d5]
+NameLoc=1099812
+DupeItem=0514a
+
+[ItemDef 051d6]
+NameLoc=1099813
+DupeItem=0514a
+
+[ItemDef 051d7]
+NameLoc=1099814
+DupeItem=0514a
+
+[ItemDef 051d8]
+NameLoc=1099815
+DupeItem=0514a
+
+[ItemDef 051d9]
+NameLoc=1099816
+DupeItem=0514a
+
+[ItemDef 051da]
+NameLoc=1099817
+DupeItem=0514a
+
+[ItemDef 051db]
+NameLoc=1099818
+DupeItem=0514a
+
+[ItemDef 051dc]
+NameLoc=1099819
+DupeItem=0514a
+
+[ItemDef 051dd]
+NameLoc=1099820
+DupeItem=0514a
+
+[ItemDef 051de]
+NameLoc=1099821
+DupeItem=0514a
+
+[ItemDef 051df]
+NameLoc=1099822
+DupeItem=0514a
+
+[ItemDef 051e0]
+NameLoc=1099823
+DupeItem=0514a
+
+[ItemDef 051e1]
+NameLoc=1099824
+DupeItem=0514a
+
+[ItemDef 051e2]
+NameLoc=1099825
+DupeItem=0514a
+
+[ItemDef 051e3]
+NameLoc=1099826
+DupeItem=0514a
+
+[ItemDef 051e4]
+NameLoc=1099827
+DupeItem=0514a
+
+[ItemDef 051e5]
+NameLoc=1099828
+DupeItem=0514a
+
+[ItemDef 051e6]
+NameLoc=1099829
+DupeItem=0514a
+
+[ItemDef 051e7]
+NameLoc=1099830
+DupeItem=0514a
+
+[ItemDef 051e8]
+NameLoc=1099831
+DupeItem=0514a
+
+[ItemDef 051e9]
+NameLoc=1099832
+DupeItem=0514a
+
+[ItemDef 051ea]
+NameLoc=1099833
+DupeItem=0514a
+
+[ItemDef 051eb]
+NameLoc=1099834
+DupeItem=0514a
+
+[ItemDef 051ec]
+NameLoc=1099835
+DupeItem=0514a
+
+[ItemDef 051ed]
+NameLoc=1099836
+DupeItem=0514a
+
+[ItemDef 051ee]
+NameLoc=1099837
+DupeItem=0514a
+
+[ItemDef 051ef]
+NameLoc=1099838
+DupeItem=0514a
+
+[ItemDef 051f0]
+NameLoc=1099839
+DupeItem=0514a
+
+[ItemDef 051f1]
+NameLoc=1099840
+DupeItem=0514a
+
+[ItemDef 051f2]
+NameLoc=1099841
+DupeItem=0514a
+
+[ItemDef 051f3]
+NameLoc=1099842
+DupeItem=0514a
+
+[ItemDef 051f4]
+NameLoc=1099843
+DupeItem=0514a
+
+[ItemDef 051f5]
+NameLoc=1099844
+DupeItem=0514a
+
+[ItemDef 051f6]
+NameLoc=1099845
+DupeItem=0514a
+
+[ItemDef 051f7]
+NameLoc=1099846
+DupeItem=0514a
+
+[ItemDef 051f8]
+NameLoc=1099847
+DupeItem=0514a
+
+[ItemDef 051f9]
+NameLoc=1099848
+DupeItem=0514a
+
+[ItemDef 051fa]
+NameLoc=1099849
+DupeItem=0514a
+
+[ItemDef 051fb]
+NameLoc=1099850
+DupeItem=0514a
+
+[ItemDef 051fc]
+NameLoc=1099851
+DupeItem=0514a
+
+[ItemDef 051fd]
+NameLoc=1099852
+DupeItem=0514a
+
+[ItemDef 051fe]
+NameLoc=1099853
+DupeItem=0514a
+
+[ItemDef 051ff]
+NameLoc=1099854
+DupeItem=0514a
+
+[ItemDef 05200]
+NameLoc=1099855
+DupeItem=0514a
+
+[ItemDef 05201]
+NameLoc=1099856
+DupeItem=0514a
+
+[ItemDef 05202]
+NameLoc=1099857
+DupeItem=0514a
+
+[ItemDef 05203]
+NameLoc=1099858
+DupeItem=0514a
+
+[ItemDef 05204]
+NameLoc=1099859
+DupeItem=0514a
+
+[ItemDef 05205]
+NameLoc=1099860
+DupeItem=0514a
+
+[ItemDef 05206]
+NameLoc=1099861
+DupeItem=0514a
+
+[ItemDef 05207]
+NameLoc=1099862
+DupeItem=0514a
+
+[ItemDef 05208]
+NameLoc=1099863
+DupeItem=0514a
+
+[ItemDef 05209]
+NameLoc=1099864
+DupeItem=0514a
+
+[ItemDef 0520a]
+NameLoc=1099865
+DupeItem=0514a
+
+[ItemDef 0520b]
+NameLoc=1099866
+DupeItem=0514a
+
+[ItemDef 0520c]
+NameLoc=1099867
+DupeItem=0514a
+
+[ItemDef 0520d]
+NameLoc=1099868
+DupeItem=0514a
+
+[ItemDef 0520e]
+NameLoc=1099869
+DupeItem=0514a
+
+[ItemDef 0520f]
+NameLoc=1099870
+DupeItem=0514a
+
+[ItemDef 05210]
+NameLoc=1099871
+DupeItem=0514a
+
+[ItemDef 05211]
+NameLoc=1099872
+DupeItem=0514a
+
+[ItemDef 05212]
+NameLoc=1099873
+DupeItem=0514a
+
+[ItemDef 05213]
+NameLoc=1099874
+DupeItem=0514a
+
+[ItemDef 05214]
+NameLoc=1099875
+DupeItem=0514a
+
+[ItemDef 05215]
+NameLoc=1099876
+DupeItem=0514a
+
+[ItemDef 05216]
+NameLoc=1099877
+DupeItem=0514a
+
+[ItemDef 05217]
+NameLoc=1099878
+DupeItem=0514a
+
+[ItemDef 05218]
+NameLoc=1099879
+DupeItem=0514a
+
+[ItemDef 05219]
+NameLoc=1099880
+DupeItem=0514a
+
+[ItemDef 0521a]
+NameLoc=1099881
+DupeItem=0514a
+
+[ItemDef 0521b]
+NameLoc=1099882
+DupeItem=0514a
+
+[ItemDef 0521c]
+NameLoc=1099883
+DupeItem=0514a
+
+[ItemDef 0521d]
+NameLoc=1099884
+DupeItem=0514a
+
+[ItemDef 0521e]
+NameLoc=1099885
+DupeItem=0514a
+
+[ItemDef 0521f]
+NameLoc=1099886
+DupeItem=0514a
+
+[ItemDef 05220]
+NameLoc=1099887
+DupeItem=0514a
+
+[ItemDef 05221]
+NameLoc=1099888
+DupeItem=0514a
+
+[ItemDef 05222]
+NameLoc=1099889
+DupeItem=0514a
+
+[ItemDef 05223]
+NameLoc=1099890
+DupeItem=0514a
+
+[ItemDef 05224]
+NameLoc=1099891
+DupeItem=0514a
+
+[ItemDef 05225]
+NameLoc=1099892
+DupeItem=0514a
+
+[ItemDef 05226]
+NameLoc=1099893
+DupeItem=0514a
+
+[ItemDef 05227]
+NameLoc=1099894
+DupeItem=0514a
+
+[ItemDef 05228]
+NameLoc=1099895
+DupeItem=0514a
+
+[ItemDef 05229]
+NameLoc=1099896
+DupeItem=0514a
+
+[ItemDef 0522a]
+NameLoc=1099897
+DupeItem=0514a
+
+[ItemDef 0522b]
+NameLoc=1099898
+DupeItem=0514a
+
+[ItemDef 0522c]
+NameLoc=1099899
+DupeItem=0514a
+
+[ItemDef 0522d]
+NameLoc=1099900
+DupeItem=0514a
+
+[ItemDef 0522e]
+NameLoc=1099901
+DupeItem=0514a
+
+[ItemDef 0522f]
+NameLoc=1099902
+DupeItem=0514a
+
+[ItemDef 05230]
+NameLoc=1099903
+DupeItem=0514a
+
+[ItemDef 05231]
+NameLoc=1099904
+DupeItem=0514a
+
+[ItemDef 05232]
+NameLoc=1099905
+DupeItem=0514a
+
+[ItemDef 05233]
+NameLoc=1099906
+DupeItem=0514a
+
+[ItemDef 05234]
+NameLoc=1099907
+DupeItem=0514a
+
+[ItemDef 05235]
+NameLoc=1099908
+DupeItem=0514a
+
+[ItemDef 05236]
+NameLoc=1099909
+DupeItem=0514a
+
+[ItemDef 05237]
+NameLoc=1099910
+DupeItem=0514a
+
+[ItemDef 05238]
+NameLoc=1099911
+DupeItem=0514a
+
+[ItemDef 05239]
+NameLoc=1099912
+DupeItem=0514a
+
+[ItemDef 0523a]
+NameLoc=1099913
+DupeItem=0514a
+
+[ItemDef 0523b]
+NameLoc=1099914
+DupeItem=0514a
+
+[ItemDef 0523c]
+NameLoc=1099915
+DupeItem=0514a
+
+[ItemDef 0523d]
+NameLoc=1099916
+DupeItem=0514a
+
+[ItemDef 0523e]
+NameLoc=1099917
+DupeItem=0514a
+
+[ItemDef 0523f]
+NameLoc=1099918
+DupeItem=0514a
+
+[ItemDef 05240]
+NameLoc=1099919
+DupeItem=0514a
+
+[ItemDef 05241]
+NameLoc=1099920
+DupeItem=0514a
+
+[ItemDef 05242]
+NameLoc=1099921
+DupeItem=0514a
+
+[ItemDef 05243]
+NameLoc=1099922
+DupeItem=0514a
+
+[ItemDef 05244]
+NameLoc=1099923
+DupeItem=0514a
+
+[ItemDef 05245]
+NameLoc=1099924
+DupeItem=0514a
+
+[ItemDef 05246]
+NameLoc=1099925
+DupeItem=0514a
+
+[ItemDef 05247]
+NameLoc=1099926
+DupeItem=0514a
+
+[ItemDef 05248]
+NameLoc=1099927
+DupeItem=0514a
+
+[ItemDef 05249]
+NameLoc=1099928
+DupeItem=0514a
+
+[ItemDef 0524a]
+NameLoc=1099929
+DupeItem=0514a
+
+[ItemDef 0524b]
+NameLoc=1099930
+DupeItem=0514a
+
+[ItemDef 0524c]
+NameLoc=1099931
+DupeItem=0514a
+
+[ItemDef 0524d]
+NameLoc=1099932
+DupeItem=0514a
+
+[ItemDef 0524e]
+NameLoc=1099933
+DupeItem=0514a
+
+[ItemDef 0524f]
+NameLoc=1099934
+DupeItem=0514a
+
+[ItemDef 05250]
+NameLoc=1099935
+DupeItem=0514a
+
+[ItemDef 05251]
+NameLoc=1099936
+DupeItem=0514a
+
+[ItemDef 05252]
+NameLoc=1099937
+DupeItem=0514a
+
+[ItemDef 05253]
+NameLoc=1099938
+DupeItem=0514a
+
+[ItemDef 05254]
+NameLoc=1099939
+DupeItem=0514a
+
+[ItemDef 05255]
+NameLoc=1099940
+DupeItem=0514a
+
+[ItemDef 05256]
+NameLoc=1099941
+DupeItem=0514a
+
+[ItemDef 05257]
+NameLoc=1099942
+DupeItem=0514a
+
+[ItemDef 05258]
+NameLoc=1099943
+DupeItem=0514a
+
+[ItemDef 05259]
+NameLoc=1099944
+DupeItem=0514a
+
+[ItemDef 0525a]
+NameLoc=1099945
+DupeItem=0514a
+
+[ItemDef 0525b]
+NameLoc=1099946
+DupeItem=0514a
+
+[ItemDef 0525c]
+NameLoc=1099947
+DupeItem=0514a
+
+[ItemDef 0525d]
+NameLoc=1099948
+DupeItem=0514a
+
+[ItemDef 0525e]
+NameLoc=1099949
+DupeItem=0514a
+
+[ItemDef 0525f]
+NameLoc=1099950
+DupeItem=0514a
+
+[ItemDef 05260]
+NameLoc=1099951
+DupeItem=0514a
+
+[ItemDef 05261]
+NameLoc=1099952
+DupeItem=0514a
+
+[ItemDef 05262]
+NameLoc=1099953
+DupeItem=0514a
+
+[ItemDef 05263]
+NameLoc=1099954
+DupeItem=0514a
+
+[ItemDef 05264]
+NameLoc=1099955
+DupeItem=0514a
+
+[ItemDef 05265]
+NameLoc=1099956
+DupeItem=0514a
+
+[ItemDef 05266]
+NameLoc=1099957
+DupeItem=0514a
+
+[ItemDef 05267]
+NameLoc=1099958
+DupeItem=0514a
+
+[ItemDef 05268]
+NameLoc=1099959
+DupeItem=0514a
+
+[ItemDef 05269]
+NameLoc=1099960
+DupeItem=0514a
+
+[ItemDef 0526a]
+NameLoc=1099961
+DupeItem=0514a
+
+[ItemDef 0526b]
+NameLoc=1099962
+DupeItem=0514a
+
+[ItemDef 0526c]
+NameLoc=1099963
+DupeItem=0514a
+
+[ItemDef 0526d]
+NameLoc=1099964
+DupeItem=0514a
+
+[ItemDef 0526e]
+NameLoc=1099965
+DupeItem=0514a
+
+[ItemDef 0526f]
+NameLoc=1099966
+DupeItem=0514a
+
+[ItemDef 05270]
+NameLoc=1099967
+DupeItem=0514a
+
+[ItemDef 05271]
+NameLoc=1099968
+DupeItem=0514a
+
+[ItemDef 05272]
+NameLoc=1099969
+DupeItem=0514a
+
+[ItemDef 05273]
+NameLoc=1099970
+DupeItem=0514a
+
+[ItemDef 05274]
+NameLoc=1099971
+DupeItem=0514a
+
+[ItemDef 05275]
+NameLoc=1099972
+DupeItem=0514a
+
+[ItemDef 05276]
+NameLoc=1099973
+DupeItem=0514a
+
+[ItemDef 05277]
+NameLoc=1099974
+DupeItem=0514a
+
+[ItemDef 05278]
+NameLoc=1099975
+DupeItem=0514a
+
+[ItemDef 05279]
+NameLoc=1099976
+DupeItem=0514a
+
+[ItemDef 0527a]
+NameLoc=1099977
+DupeItem=0514a
+
+[ItemDef 0527b]
+NameLoc=1099978
+DupeItem=0514a
+
+[ItemDef 0527c]
+NameLoc=1099979
+DupeItem=0514a
+
+[ItemDef 0527d]
+NameLoc=1099980
+DupeItem=0514a
+
+[ItemDef 0527e]
+NameLoc=1099981
+DupeItem=0514a
+
+[ItemDef 0527f]
+NameLoc=1099982
+DupeItem=0514a
+
+[ItemDef 05280]
+NameLoc=1099983
+DupeItem=0514a
+
+[ItemDef 05281]
+NameLoc=1099984
+DupeItem=0514a
+
+[ItemDef 05282]
+NameLoc=1099985
+DupeItem=0514a
+
+[ItemDef 05283]
+NameLoc=1099986
+DupeItem=0514a
+
+[ItemDef 05284]
+NameLoc=1099987
+DupeItem=0514a
+
+[ItemDef 05285]
+NameLoc=1099988
+DupeItem=0514a
+
+[ItemDef 05286]
+NameLoc=1099989
+DupeItem=0514a
+
+[ItemDef 05287]
+NameLoc=1099990
+DupeItem=0514a
+
+[ItemDef 05288]
+NameLoc=1099991
+DupeItem=0514a
+
+[ItemDef 05289]
+NameLoc=1099992
+DupeItem=0514a
+
+[ItemDef 0528b]
+NameLoc=1099993
+DupeItem=0514a
+
+[ItemDef 0528c]
+NameLoc=1099994
+DupeItem=0514a
+
+[ItemDef 0528d]
+NameLoc=1099995
+DupeItem=0514a
+
+[ItemDef 0528e]
+NameLoc=1099996
+DupeItem=0514a
+
+[ItemDef 0528f]
+NameLoc=1099997
+DupeItem=0514a
+
+[ItemDef 05290]
+NameLoc=1099998
+DupeItem=0514a
+
+[ItemDef 05291]
+NameLoc=1099999
+DupeItem=0514a
+
+[ItemDef 05292]
+NameLoc=1100000
+DupeItem=0514a
+
+[ItemDef 05293]
+NameLoc=1100001
+DupeItem=0514a
+
+[ItemDef 05294]
+NameLoc=1100002
+DupeItem=0514a
+
+[ItemDef 05295]
+NameLoc=1100003
+DupeItem=0514a
+
+[ItemDef 05296]
+NameLoc=1100004
+DupeItem=0514a
+
+[ItemDef 05297]
+NameLoc=1100005
+DupeItem=0514a
+
+[ItemDef 05298]
+NameLoc=1100006
+DupeItem=0514a
+
+[ItemDef 05299]
+NameLoc=1100007
+DupeItem=0514a
+
+[ItemDef 0529a]
+NameLoc=1100008
+DupeItem=0514a
+
+[ItemDef 0529b]
+NameLoc=1100009
+DupeItem=0514a
+
+[ItemDef 0529c]
+NameLoc=1100010
+DupeItem=0514a
+
+[ItemDef 052a0]
+NameLoc=1100011
+DupeItem=0514a
+
+[ItemDef 052a1]
+NameLoc=1100012
+DupeItem=0514a
+
+[ItemDef 052a2]
+NameLoc=1100013
+DupeItem=0514a
+
+[ItemDef 052a3]
+NameLoc=1100014
+DupeItem=0514a
+
+[ItemDef 052a4]
+NameLoc=1100015
+DupeItem=0514a
+
+[ItemDef 052a5]
+NameLoc=1100016
+DupeItem=0514a
+
+[ItemDef 052a6]
+NameLoc=1100017
+DupeItem=0514a
+
+[ItemDef 052a7]
+NameLoc=1100018
+DupeItem=0514a
+
+[ItemDef 052a8]
+NameLoc=1100019
+DupeItem=0514a
+
+[ItemDef 052a9]
+NameLoc=1100020
+DupeItem=0514a
+
+[ItemDef 052aa]
+NameLoc=1100021
+DupeItem=0514a
+
+[ItemDef 052ab]
+NameLoc=1100022
+DupeItem=0514a
+
+[ItemDef 052ac]
+NameLoc=1100023
+DupeItem=0514a
+
+[ItemDef 052ad]
+NameLoc=1100024
+DupeItem=0514a
+
+[ItemDef 052ae]
+NameLoc=1100025
+DupeItem=0514a
+
+[ItemDef 052af]
+NameLoc=1100026
+DupeItem=0514a
+
+[ItemDef 052b5]
+NameLoc=1100027
+DupeItem=0514a
+
+[ItemDef 052b6]
+NameLoc=1100028
+DupeItem=0514a
+
+[ItemDef 052b7]
+NameLoc=1100029
+DupeItem=0514a
+
+[ItemDef 052b8]
+NameLoc=1100030
+DupeItem=0514a
+
+[ItemDef 052b9]
+NameLoc=1100031
+DupeItem=0514a
+
+[ItemDef 052ba]
+NameLoc=1100032
+DupeItem=0514a
+
+[ItemDef 052bb]
+NameLoc=1100033
+DupeItem=0514a
+
+[ItemDef 052bc]
+NameLoc=1100034
+DupeItem=0514a
+
+[ItemDef 052bd]
+NameLoc=1100035
+DupeItem=0514a
+
+[ItemDef 052be]
+NameLoc=1100036
+DupeItem=0514a
+
+[ItemDef 052bf]
+NameLoc=1100037
+DupeItem=0514a
+
+[ItemDef 052c0]
+NameLoc=1100038
+DupeItem=0514a
+
+[ItemDef 052c1]
+NameLoc=1100039
+DupeItem=0514a
+
+[ItemDef 052c2]
+NameLoc=1100040
+DupeItem=0514a
+
+[ItemDef 052ca]
+NameLoc=1100041
+DupeItem=0514a
+
+[ItemDef 052cb]
+NameLoc=1100042
+DupeItem=0514a
+
+[ItemDef 052cc]
+NameLoc=1100043
+DupeItem=0514a
+
+[ItemDef 052cd]
+NameLoc=1100044
+DupeItem=0514a
+
+[ItemDef 052ce]
+NameLoc=1100045
+DupeItem=0514a
+
+[ItemDef 052cf]
+NameLoc=1100046
+DupeItem=0514a
+
+[ItemDef 052d0]
+NameLoc=1100047
+DupeItem=0514a
+
+[ItemDef 052d1]
+NameLoc=1100048
+DupeItem=0514a
+
+[ItemDef 052d2]
+NameLoc=1100049
+DupeItem=0514a
+
+[ItemDef 052d3]
+NameLoc=1100050
+DupeItem=0514a
+
+[ItemDef 052d4]
+NameLoc=1100051
+DupeItem=0514a
+
+[ItemDef 052d5]
+NameLoc=1100052
+DupeItem=0514a
+
+
+[EOF]

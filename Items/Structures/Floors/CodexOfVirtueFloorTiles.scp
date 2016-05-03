@@ -1,0 +1,154 @@
+[ItemDef 040da]
+DefName=iCodexOfVirtueFloor
+Name=Codex Of Virtue
+NameLoc=1095474
+Type=tFloor
+Weight=255
+DupeList=040db,040dc,040dd,040de,040df,040e0,040e1,040e2,040e3,040e4,040e5,040e6,040e7,040e8,040e9,040ea,040eb,040ec,040ed,040ee,040ef,040f0,040f1,040f2,040f3,040f4,040f5,040f6,040f7,040f8,040f9,040fa,040fb,040fc,040fd
+
+Category=Structures
+Subsection=Floors
+Description=Codex of Virtue 1
+
+[ItemDef 040db]
+NameLoc=1095475
+DupeItem=040da
+
+[ItemDef 040dc]
+NameLoc=1095476
+DupeItem=040da
+
+[ItemDef 040dd]
+NameLoc=1095477
+DupeItem=040da
+
+[ItemDef 040de]
+NameLoc=1095478
+DupeItem=040da
+
+[ItemDef 040df]
+NameLoc=1095479
+DupeItem=040da
+
+[ItemDef 040e0]
+NameLoc=1095480
+DupeItem=040da
+
+[ItemDef 040e1]
+NameLoc=1095481
+DupeItem=040da
+
+[ItemDef 040e2]
+NameLoc=1095482
+DupeItem=040da
+
+[ItemDef 040e3]
+NameLoc=1095483
+DupeItem=040da
+
+[ItemDef 040e4]
+NameLoc=1095484
+DupeItem=040da
+
+[ItemDef 040e5]
+NameLoc=1095485
+DupeItem=040da
+
+[ItemDef 040e6]
+NameLoc=1095486
+DupeItem=040da
+
+[ItemDef 040e7]
+NameLoc=1095487
+DupeItem=040da
+
+[ItemDef 040e8]
+NameLoc=1095488
+DupeItem=040da
+
+[ItemDef 040e9]
+NameLoc=1095489
+DupeItem=040da
+
+[ItemDef 040ea]
+NameLoc=1095490
+DupeItem=040da
+
+[ItemDef 040eb]
+NameLoc=1095491
+DupeItem=040da
+
+[ItemDef 040ec]
+NameLoc=1095492
+DupeItem=040da
+
+[ItemDef 040ed]
+NameLoc=1095493
+DupeItem=040da
+
+[ItemDef 040ee]
+NameLoc=1095494
+DupeItem=040da
+
+[ItemDef 040ef]
+NameLoc=1095495
+DupeItem=040da
+
+[ItemDef 040f0]
+NameLoc=1095496
+DupeItem=040da
+
+[ItemDef 040f1]
+NameLoc=1095497
+DupeItem=040da
+
+[ItemDef 040f2]
+NameLoc=1095498
+DupeItem=040da
+
+[ItemDef 040f3]
+NameLoc=1095499
+DupeItem=040da
+
+[ItemDef 040f4]
+NameLoc=1095500
+DupeItem=040da
+
+[ItemDef 040f5]
+NameLoc=1095501
+DupeItem=040da
+
+[ItemDef 040f6]
+NameLoc=1095502
+DupeItem=040da
+
+[ItemDef 040f7]
+NameLoc=1095503
+DupeItem=040da
+
+[ItemDef 040f8]
+NameLoc=1095504
+DupeItem=040da
+
+[ItemDef 040f9]
+NameLoc=1095505
+DupeItem=040da
+
+[ItemDef 040fa]
+NameLoc=1095506
+DupeItem=040da
+
+[ItemDef 040fb]
+NameLoc=1095507
+DupeItem=040da
+
+[ItemDef 040fc]
+NameLoc=1095508
+DupeItem=040da
+
+[ItemDef 040fd]
+NameLoc=1095509
+DupeItem=040da
+
+
+[EOF]

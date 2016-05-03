@@ -1,0 +1,119 @@
+[ItemDef 050de]
+DefName=iMarbleFloor7
+NameLoc=1099574
+Type=tFloor
+DupeList=050df,050e0,050e1,050e2,050e3,050e4,050e5,050e6,050e7,050e8,050e9,050ea,050eb,050ec,050ed,050ee
+
+Category=Structures
+Subsection=Floors
+Description=Marble Floor 7
+
+[ItemDef 050df]
+NameLoc=1099575
+DupeItem=050de
+
+[ItemDef 050e0]
+NameLoc=1099576
+DupeItem=050de
+
+[ItemDef 050e1]
+NameLoc=1099577
+DupeItem=050de
+
+[ItemDef 050e2]
+NameLoc=1099578
+DupeItem=050de
+
+[ItemDef 050e3]
+NameLoc=1099579
+DupeItem=050de
+
+[ItemDef 050e4]
+NameLoc=1099580
+DupeItem=050de
+
+[ItemDef 050e5]
+NameLoc=1099581
+DupeItem=050de
+
+[ItemDef 050e6]
+NameLoc=1099582
+DupeItem=050de
+
+[ItemDef 050e7]
+NameLoc=1099583
+DupeItem=050de
+
+[ItemDef 050e8]
+NameLoc=1099584
+DupeItem=050de
+
+[ItemDef 050e9]
+NameLoc=1099585
+DupeItem=050de
+
+[ItemDef 050ea]
+NameLoc=1099586
+DupeItem=050de
+
+[ItemDef 050eb]
+NameLoc=1099587
+DupeItem=050de
+
+[ItemDef 050ec]
+NameLoc=1099588
+DupeItem=050de
+
+[ItemDef 050ed]
+NameLoc=1099589
+DupeItem=050de
+
+[ItemDef 050ee]
+NameLoc=1099590
+DupeItem=050de
+
+
+[ItemDef 050ef]
+DefName=iMarbleFloor8
+NameLoc=1099591
+Type=tFloor
+DupeList=050f0,050f1,050f2,050f3,050f4,050f5,050f6,050f7
+
+Category=Structures
+Subsection=Floors
+Description=Marble Floor 8
+
+[ItemDef 050f0]
+NameLoc=1099592
+DupeItem=050ef
+
+[ItemDef 050f1]
+NameLoc=1099593
+DupeItem=050ef
+
+[ItemDef 050f2]
+NameLoc=1099594
+DupeItem=050ef
+
+[ItemDef 050f3]
+NameLoc=1099595
+DupeItem=050ef
+
+[ItemDef 050f4]
+NameLoc=1099596
+DupeItem=050ef
+
+[ItemDef 050f5]
+NameLoc=1099597
+DupeItem=050ef
+
+[ItemDef 050f6]
+NameLoc=1099598
+DupeItem=050ef
+
+[ItemDef 050f7]
+NameLoc=1099599
+DupeItem=050ef
+
+
+[EOF]

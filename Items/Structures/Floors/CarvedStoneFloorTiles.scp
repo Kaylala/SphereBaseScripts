@@ -1,0 +1,109 @@
+[ItemDef 040c1]
+DefName=iCarvedStoneFloor
+Name=carved stone floor
+NameLoc=1095449
+Type=tFloor
+DupeList=040c2,040c3,040c4,040c5,040c6,040c7,040c8,040c9,040ca,040cb,040cc,040cd,040ce,040cf,040d0,040d1,040d2,040d3,040d4,040d5,040d6,040d7,040d8,040d9
+
+Category=Structures
+Subsection=Floors
+Description=Carved Stone Floor 1
+
+[ItemDef 040c2]
+NameLoc=1095450
+DupeItem=040c1
+
+[ItemDef 040c3]
+NameLoc=1095451
+DupeItem=040c1
+
+[ItemDef 040c4]
+NameLoc=1095452
+DupeItem=040c1
+
+[ItemDef 040c5]
+NameLoc=1095453
+DupeItem=040c1
+
+[ItemDef 040c6]
+NameLoc=1095454
+DupeItem=040c1
+
+[ItemDef 040c7]
+NameLoc=1095455
+DupeItem=040c1
+
+[ItemDef 040c8]
+NameLoc=1095456
+DupeItem=040c1
+
+[ItemDef 040c9]
+NameLoc=1095457
+DupeItem=040c1
+
+[ItemDef 040ca]
+NameLoc=1095458
+DupeItem=040c1
+
+[ItemDef 040cb]
+NameLoc=1095459
+DupeItem=040c1
+
+[ItemDef 040cc]
+NameLoc=1095460
+DupeItem=040c1
+
+[ItemDef 040cd]
+NameLoc=1095461
+DupeItem=040c1
+
+[ItemDef 040ce]
+NameLoc=1095462
+DupeItem=040c1
+
+[ItemDef 040cf]
+NameLoc=1095463
+DupeItem=040c1
+
+[ItemDef 040d0]
+NameLoc=1095464
+upeItem=040c1
+
+[ItemDef 040d1]
+NameLoc=1095465
+DupeItem=040c1
+
+[ItemDef 040d2]
+NameLoc=1095466
+DupeItem=040c1
+
+[ItemDef 040d3]
+NameLoc=1095467
+DupeItem=040c1
+
+[ItemDef 040d4]
+NameLoc=1095468
+DupeItem=040c1
+
+[ItemDef 040d5]
+NameLoc=1095469
+DupeItem=040c1
+
+[ItemDef 040d6]
+NameLoc=1095470
+DupeItem=040c1
+
+[ItemDef 040d7]
+NameLoc=1095471
+DupeItem=040c1
+
+[ItemDef 040d8]
+NameLoc=1095472
+DupeItem=040c1
+
+[ItemDef 040d9]
+NameLoc=1095473
+DupeItem=040c1
+
+
+[EOF]
