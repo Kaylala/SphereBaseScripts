@@ -153,6 +153,22 @@ NameLoc=1095580
 DupeItem=04142
 
 
+[ItemDef iCodexOfVirtueDeed]
+ID=iDeed
+Name=Codex of Virtue Deed
+NameLoc=1113919	// a Codex of Virtue Deed
+Type=tDeed
+Weight=1
+
+Category=Systems
+Subsection=Anniversary Gifts: 12th
+Description=Codex of Virtue Deed
+
+On=@Create
+Attr=AttrNewbie|AttrBlessed
+More1=mCodexOfVirtueMulti
+
+
 //////////////////////
 // 16th Anniversary //
 //////////////////////

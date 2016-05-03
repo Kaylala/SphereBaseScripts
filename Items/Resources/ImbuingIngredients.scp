@@ -1,0 +1,348 @@
+[Comment ImbuingCliLocs]
+1113324;essence of balance
+1113325;essence of achievement
+1113326;essence of passion
+1113327;essence of precision
+1113328;essence of direction
+1113329;spider carapace
+1113330;daemon claw
+1113331;vial of vitriol
+1113332;fey wings
+1113333;vile tentacles
+1113338;essence of diligence
+1113339;essence of feeling
+1113340;essence of control
+1113341;essence of singularity
+1113342;essence of order
+1113343;essence of persistence
+1113350;abyssal cloth
+
+
+[ItemDef 05728]
+DefName=iVoidCore
+Name=void core
+NameLoc=1113333
+Type=tIngredient
+Can=CanIStack
+Weight=1
+
+Category=Resources
+Subsection=Imbuing
+Description=Void Core
+
+[ItemDef 05729]
+NameLoc=1113333
+
+[ItemDef 0572a]
+NameLoc=1113333
+
+[ItemDef 0572b]
+NameLoc=1113333
+
+
+[ItemDef 0572c]
+DefName=iGoblinBlood
+Name=goblin blood
+NameLoc=1113334
+Type=tIngredient
+Can=CanIStack
+Weight=1
+
+Category=Resources
+Subsection=Imbuing
+Description=Goblin Blood
+
+
+[ItemDef 0572d]
+DefName=iLavaSerpentCrust
+Name=lava serpent crust
+NameLoc=1113336
+Type=tIngredient
+Can=CanIStack
+Weight=1
+
+Category=Resources
+Subsection=Imbuing
+Description=Lava Serpent Crust
+
+[ItemDef 0572e]
+NameLoc=1113336
+//Lava Serpent Crust (animation frame)
+
+[ItemDef 0572f]
+NameLoc=1113336
+//Lava Serpent Crust (animation frame)
+
+[ItemDef 05730]
+NameLoc=1113336
+//Lava Serpent Crust (animation frame)
+
+
+[ItemDef 05731]
+DefName=iUndyingFlesh
+Name=undying flesh
+NameLoc=1113337
+Type=tIngredient
+Can=CanIStack
+Weight=1
+
+Category=Resources
+Subsection=Imbuing
+Description=Undying Flesh
+
+
+[ItemDef 05732]
+DefName=iCrystallineBlackrock
+Name=crystalline blackrock
+NameLoc=1113344
+Type=tIngredient
+Can=CanIStack
+Weight=1
+
+Category=Resources
+Subsection=Imbuing
+Description=Crystalline Blackrock
+
+[ItemDef 05733]
+NameLoc=1113344
+//Crystalline Blackrock (animation frame)
+
+[ItemDef 05734]
+NameLoc=1113344
+//Crystalline Blackrock (animation frame)
+
+[ItemDef 05735]
+NameLoc=1113344
+//Crystalline Blackrock (animation frame)
+
+
+[ItemDef 05736]
+DefName=iSeedOfRenewal
+Name=seed of renewal
+NameLoc=1113345
+Type=tIngredient
+Can=CanIStack
+Weight=1
+
+Category=Resources
+Subsection=Imbuing
+Description=Seed of Renewal
+
+
+[ItemDef 05737]
+DefName=iElvenFletching
+Name=elven fletching
+NameLoc=1113346
+Type=tIngredient
+Can=CanIStack
+Weight=1
+
+Category=Resources
+Subsection=Imbuing
+Description=Elven Fletching
+
+
+[ItemDef 05738]
+DefName=iCrystalShards
+Name=crystal shards
+NameLoc=1113347
+Type=tIngredient
+Can=CanIStack
+Weight=1
+
+Category=Resources
+Subsection=Imbuing
+Description=Crystal Shards
+
+
+[ItemDef 05739]
+DefName=iLodestone
+Name=lodestone
+NameLoc=1113348
+Type=tIngredient
+Can=CanIStack
+Weight=1
+
+Category=Resources
+Subsection=Imbuing
+Description=Lodestone
+
+
+[ItemDef 0573a]
+DefName=iDelicateScales
+Name=delicate scales
+NameLoc=1113349
+Type=tIngredient
+Can=CanIStack
+Weight=1
+
+Category=Resources
+Subsection=Imbuing
+Description=Delicate Scales
+
+
+[ItemDef 0573b]
+DefName=iCrushedGlass
+Name=crushed glass
+NameLoc=1113351
+Type=tIngredient
+Can=CanIStack
+Weight=1
+
+Category=Resources
+Subsection=Imbuing
+Description=Crushed Glass
+
+
+[ItemDef 0573c]
+DefName=iArcanicRuneStone
+Name=arcanic rune stone
+NameLoc=1113352
+Type=tIngredient
+Can=CanIStack
+Weight=1
+
+Category=Resources
+Subsection=Imbuing
+Description=Arcanic Rune Stone
+
+
+[ItemDef 0573d]
+DefName=iPowderedIron
+Name=powdered iron
+NameLoc=1113353
+Type=tIngredient
+Can=CanIStack
+Weight=1
+
+Category=Resources
+Subsection=Imbuing
+Description=Powdered Iron
+
+
+[ItemDef 0573E]
+DefName=iVoidOrb
+Name=void orb
+NameLoc=1113354
+Type=tIngredient
+Can=CanIStack
+Weight=1
+
+Category=Resources
+Subsection=Imbuing
+Description=Void Orb
+
+[ItemDef 0573f]
+NameLoc=1113354
+//Void Orb (animation frame)
+
+[ItemDef 05740]
+NameLoc=1113354
+//Void Orb (animation frame)
+
+[ItemDef 05741]
+NameLoc=1113354
+//Void Orb (animation frame)
+
+
+[ItemDef 05742]
+DefName=iBouraPelt
+Name=boura pelt
+NameLoc=1113355
+Type=tIngredient
+Weight=5
+
+Category=Resources
+Subsection=Animal
+Description=Boura Pelt
+
+
+[ItemDef 05743]
+DefName=iChagaMushroom
+Name=chaga mushroom
+NameLoc=1113356
+Type=tIngredient
+Can=CanIStack
+Weight=1
+
+Category=Resources
+Subsection=Imbuing
+Description=Chaga Mushroom
+
+
+[ItemDef 05744]
+DefName=iSilverSnakeSkin
+Name=silver snake skin
+NameLoc=1113357
+Type=tIngredient
+Can=CanIStack
+Weight=1
+
+Category=Resources
+Subsection=Imbuing
+Description=Silver Snake Skin
+
+
+[ItemDef 05745]
+DefName=iFaeryDust
+Name=faery dust
+NameLoc=1113358
+Type=tIngredient
+Can=CanIStack
+Weight=1
+
+Category=Resources
+Subsection=Imbuing
+Description=Faery Dust
+
+
+[ItemDef 05746]
+DefName=iSlithTongue
+Name=slith tongue
+NameLoc=1113359
+Type=tIngredient
+Can=CanIStack
+Weight=1
+
+Category=Resources
+Subsection=Imbuing
+Description=Slith Tongue
+
+
+[ItemDef 05747]
+DefName=iRaptorTooth
+Name=raptor tooth
+NameLoc=1113360
+Type=tIngredient
+Can=CanIStack
+Weight=1
+
+Category=Resources
+Subsection=Imbuing
+Description=Raptor Tooth
+
+
+[ItemDef 05748]
+DefName=iBottleOfIchor
+Name=bottle of ichor
+NameLoc=1113361
+Type=tIngredient
+Can=CanIStack
+Weight=1
+
+Category=Resources
+Subsection=Imbuing
+Description=Bottle of Ichor
+
+
+[ItemDef 05749]
+DefName=iReflectiveWolfEye
+Name=reflective wolf eye
+NameLoc=1113362
+Type=tIngredient
+Can=CanIStack
+Weight=1
+
+Category=Resources
+Subsection=Imbuing
+Description=Reflective Wolf Eye

@@ -1,12 +1,25 @@
-[ItemDef 0423b]
+[ItemDef 02db0]
 DefName=iSoulforge1
+Name=Soulforge
+NameLoc=1031696
+Type=tSoulforge
+Can=CanIBlock
+Weight=255
+
+Category=Structures
+Subsection=Soulforges
+Description=Soulforge 1
+
+
+[ItemDef 0423b]
+DefName=iSoulforge2
 Name=soulforge
 Type=tSoulforge
 Weight=255
 
 Category=Structures
 Subsection=Soulforges
-Description=Soulforge
+Description=Soulforge 2
 DupeList=0423c,0423d,0423e,0423f,04240,04241,04242,04243
 
 [ItemDef 0423c]
@@ -35,7 +48,7 @@ DupeItem=0423b
 
 
 [ItemDef 0424b]
-DefName=iSoulForge2
+DefName=iSoulForge3
 Name=soulforge
 Type=tRoof
 Weight=255
@@ -43,7 +56,7 @@ DupeList=0424c,0424d,0424e,0424f,04250,04251,04252,04253
 
 Category=Structures
 Subsection=Soulforges
-Description=Soulforge (Roof)
+Description=Soulforge 3 (Roof)
 
 [ItemDef 0424c]
 DupeItem=0424b
@@ -71,14 +84,14 @@ DupeItem=0424b
 
 
 [ItemDef 04254]
-DefName=iSoulForge3
+DefName=iSoulForge4
 Type=tAnvil
 Weight=255
 DupeList=04255,04256,04257
 
 Category=Structures
 Subsection=Soulforges
-Description=Soulforge (Anvil)
+Description=Soulforge 4 (Anvil)
 
 [ItemDef 04255]
 DupeItem=04254
@@ -91,7 +104,7 @@ DupeItem=04254
 
 
 [ItemDef 04263]
-DefName=iSoulforge4
+DefName=iSoulforge5
 Name=soulforge
 Type=tSoulforge
 Weight=255
@@ -99,7 +112,7 @@ DupeList=04264,04265,04266,04267,04268,04269,0426a,0426b,0426c,0426d,0426e,0426f
 
 Category=Structures
 Subsection=Soulforges
-Description=Soulforge (Queen's)
+Description=Soulforge 5 (Queen's)
 
 [ItemDef 04264]
 DupeItem=04263

@@ -53,26 +53,45 @@ SlayerHitRatio		100	// chance to hit with a Slayer 100 always hits. Anything les
 // Adds Slayer flag info from an item to char.
 [Events eSlayersPChars]
 On=@ItemEquip
-If (<Hval <Act.SlayerLesser>>)
- SlayerLesser <Hval <SlayerLesser>|<Act.SlayerLesser>>
+If (<HVal <Act.SlayerLesser>>)
+ SlayerLesser <HVal <SlayerLesser>|<Act.SlayerLesser>>
 EndIf
-If (<Hval <Act.SlayerSuper>>)
- SlayerSuper <Hval <SlayerSuper>|<Act.SlayerSuper>>
+If (<HVal <Act.SlayerSuper>>)
+ SlayerSuper <HVal <SlayerSuper>|<Act.SlayerSuper>>
 EndIf
 Return 0
 
 // Removes Slayer flag info char based on item.
 On=@ItemUnequip
-If (<Hval <Act.SlayerLesser>>)
- SlayerLesser <Hval <SlayerLesser>&~<Act.SlayerLesser>>
+If (<HVal <Act.SlayerLesser>>)
+ SlayerLesser <HVal <SlayerLesser> &~<Act.SlayerLesser>>
 EndIf
-If (<Hval <Act.SlayerSuper>>)
- SlayerSuper <Hval <SlayerSuper>&~<Act.SlayerSuper>>
+If (<HVal <Act.SlayerSuper>>)
+ SlayerSuper <HVal <SlayerSuper> &~<Act.SlayerSuper>>
 EndIf
 Return 0
 
 // Attach to your NPCs
 [Events eSlayersNPCs]
+On=@SpellEffect
+If !(<Local.DamageType> &SpellFDamage|SpellFHarm)
+ Return 0
+EndIf
+
+If (!<Def0.SlayerHitRatio>)
+ Return 0
+EndIf
+If (<Def0.SlayerHitRatio> != 100)
+ If (<R1,100> <= <Def0.SlayerHitRatio>)
+  Call SlayerAlignedType
+  Call SlayerSpellDamage
+  Return 0
+ EndIf
+EndIf
+Call SlayerAlignedType
+Call SlayerSpellDamage
+Return 0
+
 On=@GetHit
 If (!<Def0.SlayerHitRatio>)
  Return 0
@@ -107,6 +126,12 @@ Return 0
 //
 // FUNCTIONS
 //
+
+[Function SlayerSpellDamage]
+If (<Local.SlayerDam> > 3)
+ Local.SlayerDam=3
+EndIf
+ArgN2 *= <Local.SlayerDam>
 
 // Slayer Damage Parsing Function
 [Function SlayerDamage]

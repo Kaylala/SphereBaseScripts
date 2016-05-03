@@ -3,6 +3,53 @@ Need to apply color to some of these.
 Does this need more than 1 item to do so? Never tried.
 
 
+[MultiDef mCodexOfVirtueMulti]
+Name=Codex of Virtue
+Type=tMulti
+
+Category=Multis
+Subsection=House Add-Ons
+Description=Codex of Virtue
+
+MultiRegion=0,0,0,0
+Component=040da,-3,-3,0
+Component=040db,-2,-3,0
+Component=040dc,-1,-3,0
+Component=040dd,0,-3,0
+Component=040de,1,-3,0
+Component=040df,2,-3,0
+Component=040e0,-3,-2,0
+Component=040e1,-2,-2,0
+Component=040e2,-1,-2,0
+Component=040e3,0,-2,0
+Component=040e4,1,-2,0
+Component=040e5,2,-2,0
+Component=040e6,-3,-1,0
+Component=040e7,-2,-1,0
+Component=040e8,-1,-1,0
+Component=040e9,0,-1,0
+Component=040ea,1,-1,0
+Component=040eb,2,-1,0
+Component=040ec,-3,0,0
+Component=040ed,-2,0,0
+Component=040ee,-1,0,0
+Component=040ef,0,0,0
+Component=040f0,1,0,0
+Component=040f1,2,0,0
+Component=040f2,-3,1,0
+Component=040f3,-2,1,0
+Component=040f4,-1,1,0
+Component=040f5,0,1,0
+Component=040f6,1,1,0
+Component=040f7,2,1,0
+Component=040f8,-3,2,0
+Component=040f9,-2,2,0
+Component=040fa,-1,2,0
+Component=040fb,0,2,0
+Component=040fc,1,2,0
+Component=040fd,2,2,0
+
+
 [MultiDef mHarpsichordS]
 Name=harpsichord
 Type=tMulti

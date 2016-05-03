@@ -1,0 +1,71 @@
+[ItemDef 02db4]
+DefName=iStygianDragonHead
+Name=Stygian Dragon Head
+NameLoc=1031700
+Type=tNormal
+Can=CanIStack
+Weight=1
+Value=100
+
+Category=Miscellaneous
+Subsection=Boss Drops
+Description=Stygian Dragon Head
+
+
+[ItemDef 02db5]
+DefName=iPrimevalLichDust
+Name=Primeval Lich Dust
+NameLoc=1031701
+Type=tNormal
+Can=CanIStack
+Weight=1
+Value=100
+
+Category=Miscellaneous
+Subsection=Boss Drops
+Description=Primeval Lich Dust
+
+
+[ItemDef 02db6]
+DefName=iMedusaBlood
+Name=Medusa Blood
+NameLoc=1031702
+Type=tNormal
+Can=CanIStack
+Weight=1
+Value=100
+
+Category=Miscellaneous
+Subsection=Boss Drops
+Description=Medusa Blood
+
+
+[ItemDef 02db7]
+DefName=iHornOfAbyssalInfernal
+Name=Horn of Abyssal Infernal
+NameLoc=1031703
+Type=tNormal
+Can=CanIStack
+Weight=1
+Value=100
+
+Category=Miscellaneous
+Subsection=Boss Drops
+Description=Horn of Abyssal Infernal
+
+
+[ItemDef 02db8]
+DefName=iClawSlasherOfVeils
+Name=Claw of Slasher of Veils
+NameLoc=1031704
+Type=tNormal
+Can=CanIStack
+Weight=1
+Value=100
+
+Category=Miscellaneous
+Subsection=Boss Drops
+Description=Claw of Slasher of Veils
+
+
+[EOF]
