@@ -37,22 +37,27 @@ EndIf
 If (<Attr> &AttrNewbie|AttrBlessed)
  Src.AddCliLoc 1038021
 ElIf (<Attr> &AttrNewbie)
- Src.AddCliLoc 
+ Src.AddCliLoc 1042971,Newbie
 ElIf (<Attr> &AttrInsured)
- Src.AddCliLoc 
+ Src.AddCliLoc 1114311	// Insured
 ElIf (<Attr> &AttrCursed)
- Src.AddCliLoc 
+ Src.AddCliLoc 1049643	// cursed
 EndIf
 If (<CraftedBy>)
  Src.AddCliLoc 1050043,<CraftedBy>	// Crafted by ~1_Name~
 EndIf
 If (<Attr> &AttrExceptional)
- Src.AddCliLoc 1018303
+ Src.AddCliLoc 1018303	// Exceptional
 EndIf
 If (<Attr> &AttrStolen)
- Src.AddCliLoc 1072948
+ Src.AddCliLoc 1072948	// Stolen
 EndIf
-
+If (<Attr> &AttrAccountBound)
+ Src.AddCliLoc 1155526	// Account Bound
+EndIf
+If (<Attr> &AttrShardBound)
+ Src.AddCliLoc 1155536	// Shard Bound
+EndIf
 
 [Function CanUseCliLoc]
 If (<CanUse> &CanUGargoyle) && !(<CanUSe> &CanUElf|CanUHuman)

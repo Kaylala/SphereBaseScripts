@@ -29,6 +29,8 @@ AttrReforged			02000000	// Is Runic Reforged.
 AttrOpened				04000000	// Is Door Opened (only used when DOOROPENID is set on the door)
 AttrLockedDown			08000000
 AttrSecure				010000000
+AttrShardBound			020000000	// Shard Bound item (Cannot be transferred)
+AttrAccountBound		040000000	// Account Bound Item
 
 
 [EOF]
