@@ -87,4 +87,1228 @@ If (<ArgO.Type> == tEtherealStatuette)
 EndIf
 
 
+////////////////////////////
+// Shard Transfer Shields //
+////////////////////////////
+
+[ItemDef 06380]
+DefName=iLegendsShardTransferShield
+Name=Legends Shard Transfer Shield
+NameLoc=1104344
+Type=tNormal
+Weight=1
+DupeList=0639B
+
+Category=Systems
+Subsection=Veteran Rewards
+Description=Legends Shard Transfer Shield
+
+[ItemDef 0639b]
+NameLoc=1104371
+DupeItem=06380
+
+
+[ItemDef 06381]
+DefName=iArirangShardTransferShield
+Name=Arirang Shard Transfer Shield
+NameLoc=1104345
+Type=tNormal
+Weight=1
+DupeList=0639C
+
+Category=Systems
+Subsection=Veteran Rewards
+Description=Arirang Shard Transfer Shield
+
+[ItemDef 0639C]
+NameLoc=1104372
+DupeItem=06381
+
+
+[ItemDef 06382]
+DefName=iAsukaShardTransferShield
+Name=Asuka Shard Transfer Shield
+NameLoc=1104346
+Type=tNormal
+Weight=1
+DupeList=0639D
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Asuka Shard Transfer Shield
+
+[ItemDef 0639D]
+NameLoc=1104373
+DupeItem=06382
+
+
+[ItemDef 06383]
+DefName=iAtlanticShardTransferShield
+Name=Atlantic Shard Transfer Shield
+NameLoc=1104347
+Type=tNormal
+Weight=1
+DupeList=0639E
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Atlantic Shard Transfer Shield
+
+[ItemDef 0639E]
+NameLoc=1104374
+DupeItem=06383
+
+
+[ItemDef 06384]
+DefName=iBajaShardTransferShield
+Name=Baja Shard Transfer Shield
+NameLoc=1104348
+Type=tNormal
+Weight=1
+DupeList=0639F
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Baja Shard Transfer Shield
+
+[ItemDef 0639F]
+NameLoc=1104375
+DupeItem=06384
+
+
+[ItemDef 06385]
+DefName=iBalhaeShardTransferShield
+Name=Balhae Shard Transfer Shield
+NameLoc=1104349
+Type=tNormal
+Weight=1
+DupeList=063A0
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Balhae Shard Transfer Shield
+
+[ItemDef 063A0]
+NameLoc=1104376
+DupeItem=06385
+
+
+[ItemDef 06386]
+DefName=iCatskillsShardTransferShield
+Name=Catskills Shard Transfer Shield
+NameLoc=1104350
+Type=tNormal
+Weight=1
+DupeList=063A1
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Catskills Shard Transfer Shield
+
+[ItemDef 063A1]
+NameLoc=1104377
+DupeItem=06386
+
+
+[ItemDef 06387]
+DefName=iChesapeakeShardTransferShield
+Name=Chesapeake Shard Transfer Shield
+NameLoc=1104351
+Type=tNormal
+Weight=1
+DupeList=063A2
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Chesapeake Shard Transfer Shield
+
+[ItemDef 063A2]
+NameLoc=1104378
+DupeItem=06387
+
+
+[ItemDef 06388]
+DefName=iDrachenfelsShardTransferShield
+Name=Drachenfels Shard Transfer Shield
+NameLoc=1104352
+Type=tNormal
+Weight=1
+DupeList=063A3
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Drachenfels Shard Transfer Shield
+
+[ItemDef 063A3]
+NameLoc=1104379
+DupeItem=06388
+
+
+[ItemDef 06389]
+DefName=iEuropaShardTransferShield
+Name=Europa Shard Transfer Shield
+NameLoc=1104353
+Type=tNormal
+Weight=1
+DupeList=063A4
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Europa Shard Transfer Shield
+
+[ItemDef 063A4]
+NameLoc=1104380
+DupeItem=06389
+
+
+[ItemDef 0638a]
+DefName=iFormosaShardTransferShield
+Name=Formosa Shard Transfer Shield
+NameLoc=1104354
+Type=tNormal
+Weight=1
+DupeList=063A5
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Formosa Shard Transfer Shield
+
+[ItemDef 063A5]
+NameLoc=1104381
+DupeItem=0638A
+
+
+[ItemDef 0638b]
+DefName=iGreatLakesShardTransferShield
+Name=Great Lakes Shard Transfer Shield
+NameLoc=1104355
+Type=tNormal
+Weight=1
+DupeList=063A6
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Great Lakes Shard Transfer Shield
+
+[ItemDef 063A6]
+NameLoc=1104382
+DupeItem=0638B
+
+
+[ItemDef 0638c]
+DefName=iHokutoShardTransferShield
+Name=Hokuto Shard Transfer Shield
+NameLoc=1104356
+Type=tNormal
+Weight=1
+DupeList=063A7
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Hokuto Shard Transfer Shield
+
+[ItemDef 063A7]
+NameLoc=1104383
+DupeItem=0638C
+
+
+[ItemDef 0638d]
+DefName=iIzumoShardTransferShield
+Name=Izumo Shard Transfer Shield
+NameLoc=1104357
+Type=tNormal
+Weight=1
+DupeList=063A8
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Izumo Shard Transfer Shield
+
+[ItemDef 063A8]
+NameLoc=1104384
+DupeItem=0638D
+
+
+[ItemDef 0638E]
+DefName=iLakeAustinShardTransferShield
+Name=Lake Austin Shard Transfer Shield
+NameLoc=1104358
+Type=tNormal
+Weight=1
+DupeList=063A9
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Lake Austin Shard Transfer Shield
+
+[ItemDef 063A9]
+NameLoc=1104385
+DupeItem=0638E
+
+
+[ItemDef 0638f]
+DefName=iLakeSuperiorShardTransferShield
+Name=Lake Superior Shard Transfer Shield
+NameLoc=1104359
+Type=tNormal
+Weight=1
+DupeList=063AA
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Lake Superior Shard Transfer Shield
+
+[ItemDef 063AA]
+NameLoc=1104386
+DupeItem=0638F
+
+
+[ItemDef 06390]
+DefName=iMizuhoShardTransferShield
+Name=Mizuho Shard Transfer Shield
+NameLoc=1104360
+Type=tNormal
+Weight=1
+DupeList=063AB
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Mizuho Shard Transfer Shield
+
+[ItemDef 063AB]
+NameLoc=1104387
+DupeItem=06390
+
+
+[ItemDef 06391]
+DefName=iMugenShardSymbol
+Name=Mugen Shard Symbol
+NameLoc=1104361
+Type=tNormal
+Weight=1
+DupeList=063AC
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Mugen Shard Symbol
+
+[ItemDef 063AC]
+NameLoc=1104388
+DupeItem=06391
+
+
+[ItemDef 06392]
+DefName=iNapaValleyShardTransferShield
+Name=Napa Valley Shard Transfer Shield
+NameLoc=1104362
+Type=tNormal
+Weight=1
+DupeList=063AD
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Napa Valley Shard Transfer Shield
+
+[ItemDef 063AD]
+NameLoc=1104389
+DupeItem=06392
+
+
+[ItemDef 06393]
+DefName=iOceaniaShardTransferShield
+Name=Oceania Shard Transfer Shield
+NameLoc=1104363
+Type=tNormal
+Weight=1
+DupeList=063AE
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Oceania Shard Transfer Shield
+
+[ItemDef 063AE]
+NameLoc=1104390
+DupeItem=06393
+
+
+[ItemDef 06394]
+DefName=iOriginShardTransferShield
+Name=Origin Shard Transfer Shield
+NameLoc=1104364
+Type=tNormal
+Weight=1
+DupeList=063AF
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Origin Shard Transfer Shield
+
+[ItemDef 063AF]
+NameLoc=1104391
+DupeItem=06394
+
+
+[ItemDef 06395]
+DefName=iPacificShardTransferShield
+Name=Pacific Shard Transfer Shield
+NameLoc=1104365
+Type=tNormal
+Weight=1
+DupeList=063B0
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Pacific Shard Transfer Shield
+
+[ItemDef 063B0]
+NameLoc=1104392
+DupeItem=06395
+
+
+[ItemDef 06396]
+DefName=iSakuraShardTransferShield
+Name=Sakura Shard Transfer Shield
+NameLoc=1104366
+Type=tNormal
+Weight=1
+DupeList=063B1
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Sakura Shard Transfer Shield
+
+[ItemDef 063B1]
+NameLoc=1104393
+DupeItem=06396
+
+
+[ItemDef 06397]
+DefName=iSiegePerilousShardSymbol
+Name=Siege Perilous Shard Symbol
+NameLoc=1104367
+Type=tNormal
+Weight=1
+DupeList=063B2
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Siege Perilous Shard Symbol
+
+[ItemDef 063B2]
+NameLoc=1104394
+DupeItem=06397
+
+
+[ItemDef 06398]
+DefName=iSonomaShardTransferShield
+Name=Sonoma Shard Transfer Shield
+NameLoc=1104368
+Type=tNormal
+Weight=1
+DupeList=063B3
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Sonoma Shard Transfer Shield
+
+[ItemDef 063B3]
+NameLoc=1104395
+DupeItem=06398
+
+
+[ItemDef 06399]
+DefName=iWakokuShardTransferShield
+Name=Wakoku Shard Transfer Shield
+NameLoc=1104369
+Type=tNormal
+Weight=1
+DupeList=063B4
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Wakoku Shard Transfer Shield
+
+[ItemDef 063B4]
+NameLoc=1104396
+DupeItem=06399
+
+
+[ItemDef 0639a]
+DefName=iYamatoShardTransferShield
+Name=Yamato Shard Transfer Shield
+NameLoc=1104370
+Type=tNormal
+Weight=1
+DupeList=063B5
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Yamato Shard Transfer Shield
+
+[ItemDef 063B5]
+NameLoc=1104397
+DupeItem=0639A
+
+
+/////////////////////////////////
+// Shard Transfer Shield Deeds //
+/////////////////////////////////
+
+[ItemDef iLegendsTransferShieldDeed]
+ID=iDeed
+Name=Legends Transfer Shield Deed
+NameLoc=1151853
+Type=tDeed
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Legends Transfer Shield Deed
+
+On=@Create
+Attr=AttrBlessed|AttrNewbie|AttrAccountBound
+More1=iLegendsShardTransferShield
+
+
+[ItemDef iArirangTransferShieldDeed]
+ID=iDeed
+Name=Arirang Transfer Shield Deed
+NameLoc=1151854
+Type=tDeed
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Arirang Transfer Shield Deed
+
+On=@Create
+Attr=AttrBlessed|AttrNewbie|AttrAccountBound
+More1=iArirangShardTransferShield
+
+
+[ItemDef iAsukaTransferShieldDeed]
+ID=iDeed
+Name=Asuka Transfer Shield Deed
+NameLoc=1151855
+Type=tDeed
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Asuka Transfer Shield Deed
+
+On=@Create
+Attr=AttrBlessed|AttrNewbie|AttrAccountBound
+More1=iAsukaShardTransferShield
+
+
+[ItemDef iAtlanticTransferShieldDeed]
+ID=iDeed
+Name=Atlantic Transfer Shield Deed
+NameLoc=1151856
+Type=tDeed
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Atlantic Transfer Shield Deed
+
+On=@Create
+Attr=AttrBlessed|AttrNewbie|AttrAccountBound
+More1=iAtlanticShardTransferShield
+
+
+[ItemDef iBajaTransferShieldDeed]
+ID=iDeed
+Name=Baja Transfer Shield Deed
+NameLoc=1151857
+Type=tDeed
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Baja Transfer Shield Deed
+
+On=@Create
+Attr=AttrBlessed|AttrNewbie|AttrAccountBound
+More1=iBajaShardTransferShield
+
+
+[ItemDef iBalhaeTransferShieldDeed]
+ID=iDeed
+Name=Balhae Transfer Shield Deed
+NameLoc=1151858
+Type=tDeed
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Balhae Transfer Shield Deed
+
+On=@Create
+Attr=AttrBlessed|AttrNewbie|AttrAccountBound
+More1=iBalhaeShardTransferShield
+
+
+[ItemDef iCatskillsTransferShieldDeed]
+ID=iDeed
+Name=Catskills Transfer Shield Deed
+NameLoc=1151859
+Type=tDeed
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Catskills Transfer Shield Deed
+
+On=@Create
+Attr=AttrBlessed|AttrNewbie|AttrAccountBound
+More1=iCatskillsShardTransferShield
+
+
+[ItemDef iChesapeakeTransferShieldDeed]
+ID=iDeed
+Name=Chesapeake Transfer Shield Deed
+NameLoc=1151860
+Type=tDeed
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Chesapeake Transfer Shield Deed
+
+On=@Create
+Attr=AttrBlessed|AttrNewbie|AttrAccountBound
+More1=iChesapeakeShardTransferShield
+
+
+[ItemDef iDrachenfelsTransferShieldDeed]
+ID=iDeed
+Name=Drachenfels Transfer Shield Deed
+NameLoc=1151861
+Type=tDeed
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Drachenfels Transfer Shield Deed
+
+On=@Create
+Attr=AttrBlessed|AttrNewbie|AttrAccountBound
+More1=iDrachenfelsShardTransferShield
+
+
+[ItemDef iEuropaTransferShieldDeed]
+ID=iDeed
+Name=Europa Transfer Shield Deed
+NameLoc=1151862
+Type=tDeed
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Europa Transfer Shield Deed
+
+On=@Create
+Attr=AttrBlessed|AttrNewbie|AttrAccountBound
+More1=iEuropaShardTransferShield
+
+
+[ItemDef iFormosaTransferShieldDeed]
+ID=iDeed
+Name=Formosa Transfer Shield Deed
+NameLoc=1151863
+Type=tDeed
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Formosa Transfer Shield Deed
+
+On=@Create
+Attr=AttrBlessed|AttrNewbie|AttrAccountBound
+More1=iFormosaShardTransferShield
+
+
+[ItemDef iGreatLakesTransferShieldDeed]
+ID=iDeed
+Name=Great Lakes Transfer Shield Deed
+NameLoc=1151864
+Type=tDeed
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Great Lakes Transfer Shield Deed
+
+On=@Create
+Attr=AttrBlessed|AttrNewbie|AttrAccountBound
+More1=iGreatLakesShardTransferShield
+
+
+[ItemDef iHokutoTransferShieldDeed]
+ID=iDeed
+Name=Hokuto Transfer Shield Deed
+NameLoc=1151865
+Type=tDeed
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Hokuto Transfer Shield Deed
+
+On=@Create
+Attr=AttrBlessed|AttrNewbie|AttrAccountBound
+More1=iHokutoShardTransferShield
+
+
+[ItemDef iIzumoTransferShieldDeed]
+ID=iDeed
+Name=Izumo Transfer Shield Deed
+NameLoc=1151866
+Type=tDeed
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Izumo Transfer Shield Deed
+
+On=@Create
+Attr=AttrBlessed|AttrNewbie|AttrAccountBound
+More1=iIzumoShardTransferShield
+
+
+[ItemDef iLakeAustinTransferShieldDeed]
+ID=iDeed
+Name=Lake Austin Transfer Shield Deed
+NameLoc=1151867
+Type=tDeed
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Lake Austin Transfer Shield Deed
+
+On=@Create
+Attr=AttrBlessed|AttrNewbie|AttrAccountBound
+More1=iLakeAustinShardTransferShield
+
+
+[ItemDef iLakeSuperiorTransferShieldDeed]
+ID=iDeed
+Name=Lake Superior Transfer Shield Deed
+NameLoc=1151868
+Type=tDeed
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Lake Superior Transfer Shield Deed
+
+On=@Create
+Attr=AttrBlessed|AttrNewbie|AttrAccountBound
+More1=iLakeSuperiorShardTransferShield
+
+
+[ItemDef iMizuhoTransferShieldDeed]
+ID=iDeed
+Name=Mizuho Transfer Shield Deed
+NameLoc=1151869
+Type=tDeed
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Mizuho Transfer Shield Deed
+
+On=@Create
+Attr=AttrBlessed|AttrNewbie|AttrAccountBound
+More1=iMizuhoShardTransferShield
+
+
+[ItemDef iNapaValleyTransferShieldDeed]
+ID=iDeed
+Name=Napa Valley Transfer Shield Deed
+NameLoc=1151870
+Type=tDeed
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Napa Valley Transfer Shield Deed
+
+On=@Create
+Attr=AttrBlessed|AttrNewbie|AttrAccountBound
+More1=iNapaValleyShardTransferShield
+
+
+[ItemDef iOceaniaTransferShieldDeed]
+ID=iDeed
+Name=Oceania Transfer Shield Deed
+NameLoc=1151871
+Type=tDeed
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Oceania Transfer Shield Deed
+
+On=@Create
+Attr=AttrBlessed|AttrNewbie|AttrAccountBound
+More1=iOceaniaShardTransferShield
+
+
+[ItemDef iOriginTransferShieldDeed]
+ID=iDeed
+Name=Origin Transfer Shield Deed
+NameLoc=1151872
+Type=tDeed
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Origin Transfer Shield Deed
+
+On=@Create
+Attr=AttrBlessed|AttrNewbie|AttrAccountBound
+More1=iOriginShardTransferShield
+
+
+[ItemDef iPacificTransferShieldDeed]
+ID=iDeed
+Name=Pacific Transfer Shield Deed
+NameLoc=1151873
+Type=tDeed
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Pacific Transfer Shield Deed
+
+On=@Create
+Attr=AttrBlessed|AttrNewbie|AttrAccountBound
+More1=iPacificShardTransferShield
+
+
+[ItemDef iSakuraTransferShieldDeed]
+ID=iDeed
+Name=Sakura Transfer Shield Deed
+NameLoc=1151874
+Type=tDeed
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Sakura Transfer Shield Deed
+
+On=@Create
+Attr=AttrBlessed|AttrNewbie|AttrAccountBound
+More1=iSakuraShardTransferShield
+
+
+[ItemDef iSonomaTransferShieldDeed]
+ID=iDeed
+Name=Sonoma Transfer Shield Deed
+NameLoc=1151875
+Type=tDeed
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Sonoma Transfer Shield Deed
+
+On=@Create
+Attr=AttrBlessed|AttrNewbie|AttrAccountBound
+More1=iSonomaShardTransferShield
+
+
+[ItemDef iWakokuTransferShieldDeed]
+ID=iDeed
+Name=Wakoku Transfer Shield Deed
+NameLoc=1151876
+Type=tDeed
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Wakoku Transfer Shield Deed
+
+On=@Create
+Attr=AttrBlessed|AttrNewbie|AttrAccountBound
+More1=iWakokuShardTransferShield
+
+
+[ItemDef iYamatoTransferShieldDeed]
+ID=iDeed
+Name=Yamato Transfer Shield Deed
+NameLoc=1151877
+Type=tDeed
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Yamato Transfer Shield Deed
+
+On=@Create
+Attr=AttrBlessed|AttrNewbie|AttrAccountBound
+More1=iYamatoShardTransferShield
+
+
+[ItemDef iSiegePerilousShardSymbolDeed]
+ID=iDeed
+Name=Siege Perilous Shard Symbol Deed
+Type=tDeed
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Siege Perilous Shard Symbol Deed
+
+On=@Create
+Attr=AttrBlessed|AttrNewbie|AttrAccountBound
+More1=iSiegePerilousShardSymbol
+
+
+[ItemDef iMugenShardSymbolDeed]
+ID=iDeed
+Name=Mugen Shard Symbol Deed
+Type=tDeed
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Mugen Shard Symbol Deed
+
+On=@Create
+Attr=AttrBlessed|AttrNewbie|AttrAccountBound
+More1=iMugenShardSymbol
+
+
+//////////////////////////////////
+// Shard Transfer Shield Tokens //
+//////////////////////////////////
+
+[ItemDef iLegendsTransferShieldToken]
+ID=iToken1
+Name=Legends Transfer Shield Token
+NameLoc=1151881
+Type=tNormal
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Legends Tansfer Shield Token
+
+On=@Create
+Attr=AttrBlessed|AttrNewbie|AttrAccountBound
+
+
+[ItemDef iArirangTransferShieldToken]
+ID=iToken1
+Name=Arirang Transfer Shield Token
+NameLoc=1151882
+Type=tNormal
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Arirang Tansfer Shield Token
+
+On=@Create
+Attr=AttrBlessed|AttrNewbie|AttrAccountBound
+
+
+[ItemDef iAsukaTransferShieldToken]
+ID=iToken1
+Name=Asuka Transfer Shield Token
+NameLoc=1151883
+Type=tNormal
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Asuka Tansfer Shield Token
+
+On=@Create
+Attr=AttrBlessed|AttrNewbie|AttrAccountBound
+
+
+[ItemDef iAtlanticTransferShieldToken]
+ID=iToken1
+Name=Atlantic Transfer Shield Token
+NameLoc=1151884
+Type=tNormal
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Atlantic Tansfer Shield Token
+
+On=@Create
+Attr=AttrBlessed|AttrNewbie|AttrAccountBound
+
+
+[ItemDef iBajaTransferShieldToken]
+ID=iToken1
+Name=Baja Transfer Shield Token
+NameLoc=1151885
+Type=tNormal
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Baja Tansfer Shield Token
+
+On=@Create
+Attr=AttrBlessed|AttrNewbie|AttrAccountBound
+
+
+[ItemDef iBalhaeTransferShieldToken]
+ID=iToken1
+Name=Balhae Transfer Shield Token
+NameLoc=1151886
+Type=tNormal
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Balhae Tansfer Shield Token
+
+On=@Create
+Attr=AttrBlessed|AttrNewbie|AttrAccountBound
+
+
+[ItemDef iCatskillsTransferShieldToken]
+ID=iToken1
+Name=Catskills Transfer Shield Token
+NameLoc=1151887
+Type=tNormal
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Catskills Tansfer Shield Token
+
+On=@Create
+Attr=AttrBlessed|AttrNewbie|AttrAccountBound
+
+
+[ItemDef iChesapeakeTransferShieldToken]
+ID=iToken1
+Name=Chesapeake Transfer Shield Token
+NameLoc=1151888
+Type=tNormal
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Chesapeake Tansfer Shield Token
+
+On=@Create
+Attr=AttrBlessed|AttrNewbie|AttrAccountBound
+
+
+[ItemDef iDrachenfelsTransferShieldToken]
+ID=iToken1
+Name=Drachenfels Transfer Shield Token
+NameLoc=1151889
+Type=tNormal
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Drachenfels Tansfer Shield Token
+
+On=@Create
+Attr=AttrBlessed|AttrNewbie|AttrAccountBound
+
+
+[ItemDef iEuropaTransferShieldToken]
+ID=iToken1
+Name=Europa Transfer Shield Token
+NameLoc=1151890
+Type=tNormal
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Europa Tansfer Shield Token
+
+On=@Create
+Attr=AttrBlessed|AttrNewbie|AttrAccountBound
+
+
+[ItemDef iFormosaTransferShieldToken]
+ID=iToken1
+Name=Formosa Transfer Shield Token
+NameLoc=1151891
+Type=tNormal
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Formosa Tansfer Shield Token
+
+On=@Create
+Attr=AttrBlessed|AttrNewbie|AttrAccountBound
+
+
+[ItemDef iGreatLakesTransferShieldToken]
+ID=iToken1
+Name=Great Lakes Transfer Shield Token
+NameLoc=1151892
+Type=tNormal
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Great Lakes Tansfer Shield Token
+
+On=@Create
+Attr=AttrBlessed|AttrNewbie|AttrAccountBound
+
+
+[ItemDef iHokutoTransferShieldToken]
+ID=iToken1
+Name=Hokuto Transfer Shield Token
+NameLoc=1151893
+Type=tNormal
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Hokuto Tansfer Shield Token
+
+On=@Create
+Attr=AttrBlessed|AttrNewbie|AttrAccountBound
+
+
+[ItemDef iIzumoTransferShieldToken]
+ID=iToken1
+Name=Izumo Transfer Shield Token
+NameLoc=1151894
+Type=tNormal
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Izumo Tansfer Shield Token
+
+On=@Create
+Attr=AttrBlessed|AttrNewbie|AttrAccountBound
+
+
+[ItemDef iLakeAustinTransferShieldToken]
+ID=iToken1
+Name=Lake Austin Transfer Shield Token
+NameLoc=1151895
+Type=tNormal
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Lake Austin Tansfer Shield Token
+
+On=@Create
+Attr=AttrBlessed|AttrNewbie|AttrAccountBound
+
+
+[ItemDef iLakeSuperiorTransferShieldToken]
+ID=iToken1
+Name=Lake Superior Transfer Shield Token
+NameLoc=1151896
+Type=tNormal
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Lake Superior Tansfer Shield Token
+
+On=@Create
+Attr=AttrBlessed|AttrNewbie|AttrAccountBound
+
+
+[ItemDef iMizuhoTransferShieldToken]
+ID=iToken1
+Name=Mizuho Transfer Shield Token
+NameLoc=1151897
+Type=tNormal
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Mizuho Tansfer Shield Token
+
+On=@Create
+Attr=AttrBlessed|AttrNewbie|AttrAccountBound
+
+
+[ItemDef iNapaValleyTransferShieldToken]
+ID=iToken1
+Name=Napa Valley Transfer Shield Token
+NameLoc=1151898
+Type=tNormal
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Napa Valley Tansfer Shield Token
+
+On=@Create
+Attr=AttrBlessed|AttrNewbie|AttrAccountBound
+
+
+[ItemDef iOceaniaTransferShieldToken]
+ID=iToken1
+Name=Oceania Transfer Shield Token
+NameLoc=1151899
+Type=tNormal
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Oceania Tansfer Shield Token
+
+On=@Create
+Attr=AttrBlessed|AttrNewbie|AttrAccountBound
+
+
+[ItemDef iOriginTransferShieldToken]
+ID=iToken1
+Name=Origin Transfer Shield Token
+NameLoc=1151900
+Type=tNormal
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Origin Tansfer Shield Token
+
+On=@Create
+Attr=AttrBlessed|AttrNewbie|AttrAccountBound
+
+
+[ItemDef iPacificTransferShieldToken]
+ID=iToken1
+Name=Pacific Transfer Shield Token
+NameLoc=1151901
+Type=tNormal
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Pacific Tansfer Shield Token
+
+On=@Create
+Attr=AttrBlessed|AttrNewbie|AttrAccountBound
+
+
+[ItemDef iSakuraTransferShieldToken]
+ID=iToken1
+Name=Sakura Transfer Shield Token
+NameLoc=1151902
+Type=tNormal
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Sakura Tansfer Shield Token
+
+On=@Create
+Attr=AttrBlessed|AttrNewbie|AttrAccountBound
+
+
+[ItemDef iSonomaTransferShieldToken]
+ID=iToken1
+Name=Sonoma Transfer Shield Token
+NameLoc=1151903
+Type=tNormal
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Sonoma Tansfer Shield Token
+
+On=@Create
+Attr=AttrBlessed|AttrNewbie|AttrAccountBound
+
+
+[ItemDef iWakokuTransferShieldToken]
+ID=iToken1
+Name=Wakoku Transfer Shield Token
+NameLoc=1151904
+Type=tNormal
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Wakoku Tansfer Shield Token
+
+On=@Create
+Attr=AttrBlessed|AttrNewbie|AttrAccountBound
+
+
+[ItemDef iYamatoTransferShieldToken]
+ID=iToken1
+Name=Yamato Transfer Shield Token
+NameLoc=1151905
+Type=tNormal
+
+Category=Systems
+Subsection=Veteran Rewards: 14th Year
+Description=Yamato Tansfer Shield Token
+
+On=@Create
+Attr=AttrBlessed|AttrNewbie|AttrAccountBound
+
+
 [EOF]

@@ -1,0 +1,329 @@
+[Comment ShardDecorativeShields]
+These use CliLocs for what is presumably the reward choices.
+Since most servers do not run several servers, these were made in addition to the server transfer shields. This gives people something to rename and restructure for their own usage.
+
+
+[ItemDef iLegendsDecorativeShield]
+ID=iLegendsShardTransferShield
+Name=Legends Decorative Shield
+NameLoc=1153696
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Decorative Shields
+Description=Legends Decorative Shield
+
+
+[ItemDef iArirangDecorativeShield]
+ID=iArirangShardTransferShield
+Name=Arirang Decorative Shield
+NameLoc=1153697
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Decorative Shields
+Description=Arirang Decorative Shield
+
+
+[ItemDef iAsukaDecorativeShield]
+ID=iAsukaShardTransferShield
+Name=Asuka Decorative Shield
+NameLoc=1153698
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Decorative Shields
+Description=Asuka Decorative Shield
+
+
+[ItemDef iAtlanticDecorativeShield]
+ID=iAtlanticShardTransferShield
+Name=Atlantic Decorative Shield
+NameLoc=1153699
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Decorative Shields
+Description=Atlantic Decorative Shield
+
+
+[ItemDef iBajaDecorativeShield]
+ID=iBajaShardTransferShield
+Name=Baja Decorative Shield
+NameLoc=1153700
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Decorative Shields
+Description=Baja Decorative Shield
+
+
+[ItemDef iBalhaeDecorativeShield]
+ID=iBalhaeShardTransferShield
+Name=Balhae Decorative Shield
+NameLoc=1153701
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Decorative Shields
+Description=Balhae Decorative Shield
+
+
+[ItemDef iCatskillsDecorativeShield]
+ID=iCatskillsShardTransferShield
+Name=Catskills Decorative Shield
+NameLoc=1153702
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Decorative Shields
+Description=Catskills Decorative Shield
+
+
+[ItemDef iChesapeakeDecorativeShield]
+ID=iChesapeakeShardTransferShield
+Name=Chesapeake Decorative Shield
+NameLoc=1153703
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Decorative Shields
+Description=Chesapeake Decorative Shield
+
+
+[ItemDef iDrachenfelsDecorativeShield]
+ID=iDrachenfelsShardTransferShield
+Name=Drachenfels Decorative Shield
+NameLoc=1153704
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Decorative Shields
+Description=Drachenfels Decorative Shield
+
+
+[ItemDef iEuropaDecorativeShield]
+ID=iEuropaShardTransferShield
+Name=Europa Decorative Shield
+NameLoc=1153705
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Decorative Shields
+Description=Europa Decorative Shield
+
+
+[ItemDef iFormosaDecorativeShield]
+ID=iFormosaShardTransferShield
+Name=Formosa Decorative Shield
+NameLoc=1153706
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Decorative Shields
+Description=Formosa Decorative Shield
+
+
+[ItemDef iGreatLakesDecorativeShield]
+ID=iGreatLakesShardTransferShield
+Name=Great Lakes Decorative Shield
+NameLoc=1153707
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Decorative Shields
+Description=Great Lakes Decorative Shield
+
+
+[ItemDef iHokutoDecorativeShield]
+ID=iHokutoShardTransferShield
+Name=Hokuto Decorative Shield
+NameLoc=1153708
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Decorative Shields
+Description=Hokuto Decorative Shield
+
+
+[ItemDef iIzumoDecorativeShield]
+ID=iIzumoShardTransferShield
+Name=Izumo Decorative Shield
+NameLoc=1153709
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Decorative Shields
+Description=Izumo Decorative Shield
+
+
+[ItemDef iLakeAustinDecorativeShield]
+ID=iLakeAustinShardTransferShield
+Name=Lake Austin Decorative Shield
+NameLoc=1153710
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Decorative Shields
+Description=Lake Austin Decorative Shield
+
+
+[ItemDef iLakeSuperiorDecorativeShield]
+ID=iLakeSuperiorShardTransferShield
+Name=Lake Superior Decorative Shield
+NameLoc=1153711
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Decorative Shields
+Description=Lake Superior Decorative Shield
+
+
+[ItemDef iMizuhoDecorativeShield]
+ID=iMizuhoShardTransferShield
+Name=Mizuho Decorative Shield
+NameLoc=1153712
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Decorative Shields
+Description=Mizuho Decorative Shield
+
+
+[ItemDef iMugenDecorativeShield]
+ID=iMugenShardTransferShield
+Name=Mugen Decorative Shield
+NameLoc=1153721
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Decorative Shields
+Description=Mugen Decorative Shield
+
+
+[ItemDef iNapaValleyDecorativeShield]
+ID=iNapaValleyShardTransferShield
+Name=Napa Valley Decorative Shield
+NameLoc=1153713
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Decorative Shields
+Description=Napa Valley Decorative Shield
+
+
+[ItemDef iOceaniaDecorativeShield]
+ID=iOceaniaShardTransferShield
+Name=Oceania Decorative Shield
+NameLoc=1153714
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Decorative Shields
+Description=Oceania Decorative Shield
+
+
+[ItemDef iOriginDecorativeShield]
+ID=iOriginShardTransferShield
+Name=Origin Decorative Shield
+NameLoc=1153715
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Decorative Shields
+Description=Origin Decorative Shield
+
+
+[ItemDef iPacificDecorativeShield]
+ID=iPacificShardTransferShield
+Name=Pacific Decorative Shield
+NameLoc=1153716
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Decorative Shields
+Description=Pacific Decorative Shield
+
+
+[ItemDef iSakuraDecorativeShield]
+ID=iSakuraShardTransferShield
+Name=Sakura Decorative Shield
+NameLoc=1153717
+Type=tNormal
+Weight=1
+DupeList=063B1
+
+Category=Decorations
+Subsection=Decorative Shields
+Description=Sakura Decorative Shield
+
+
+[ItemDef iSiegePerilousDecorativeShield]
+ID=iSiegePerilousShardTransferShield
+Name=Siege Perilous Decorative Shield
+NameLoc=1153722
+Type=tNormal
+Weight=1
+DupeList=063B2
+
+Category=Decorations
+Subsection=Decorative Shields
+Description=Siege Perilous Decorative Shield
+
+
+[ItemDef iSonomaDecorativeShield]
+ID=iSonomaShardTransferShield
+Name=Sonoma Decorative Shield
+NameLoc=1153718
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Decorative Shields
+Description=Sonoma Decorative Shield
+
+
+[ItemDef iWakokuDecorativeShield]
+ID=iWakokuShardTransferShield
+Name=Wakoku Decorative Shield
+NameLoc=1153719
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Decorative Shields
+Description=Wakoku Decorative Shield
+
+
+[ItemDef iYamatoDecorativeShield]
+ID=iYamatoShardShardTransferShield
+Name=Yamato Decorative Shield
+NameLoc=1153720
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Decorative Shields
+Description=Yamato Decorative Shield

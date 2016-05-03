@@ -5278,9 +5278,9 @@ Description=Arcanic Runestone
 
 
 [ItemDef 0573d]
-//Is an imbuing ingredient used to imbue the durability property onto items.
 DefName=iPowderedIron
 Name=powdered iron
+NameLoc=
 Type=tIngredient
 Can=CanIStack
 Weight=1
@@ -5290,10 +5290,10 @@ Subsection=Imbuing
 Description=Powdered Iron
 
 
-[ItemDef 0573e]
-//Is an imbuing ingredient used to imbue Hit Life Leech, Hit Stamina Leech and Hit Mana Leech properties onto items.
+[ItemDef 0573E]
 DefName=iVoidOrb
 Name=void orb
+NameLoc=
 Type=tIngredient
 Can=CanIStack
 Weight=1
@@ -5313,33 +5313,37 @@ Description=Void Orb
 
 
 [ItemDef 05742]
-// Is an imbuing ingredient used to imbue high intensities of Physical Fire, Cold, Poison, and Energy Resist onto items.
 DefName=iBouraPelt
-Type=tFur
-Value=100
-Weight=5.0
+Name=boura pelt
+NameLoc=
+Type=tIngredient
+Weight=5
+
 Category=Resources
 Subsection=Animal
 Description=Boura Pelt
 
 [ItemDef iBouraSkin]
-ID=iFurLight
+ID=iBouraSkin
 Name=boura skin
+NameLoc=
 Type=tHide
 Can=CanIFlip
 Value=5
-Weight=5.0
+Weight=5
+
 Category=Quest
 Subsection=Stygian
 Description=Boura Skin
-ON=@Create
-COLOR=758
+
+On=@Create
+Color=758
 
 
 [ItemDef 05743]
-// Is an imbuing ingredient used to imbue high intensities of Luck onto items.
 DefName=iChagaMushroom
 Name=chaga mushroom
+NameLoc=
 Type=tIngredient
 Can=CanIStack
 Weight=1
@@ -5350,9 +5354,9 @@ Description=Chaga Mushroom
 
 
 [ItemDef 05744]
-// Is an imbuing ingredient used to imbue the Spell Channeling property onto items.
 DefName=iSilverSnakeSkin
 Name=silver snake skin
+NameLoc=
 Type=tIngredient
 Can=CanIStack
 Weight=1
@@ -5363,9 +5367,9 @@ Description=Silver Snake Skin
 
 
 [ItemDef 05745]
-// Is an imbuing ingredient used to imbue high intensities of Lower Reagent Cost onto items.
 DefName=iFairyDust
 Name=fairy dust
+NameLoc=
 Type=tIngredient
 Can=CanIStack
 Weight=1
@@ -5376,9 +5380,9 @@ Description=Fairy Dust
 
 
 [ItemDef 05746]
-// Is an imbuing ingredient used to imbue Hit Dispel property onto items.
 DefName=iSlithTongue
 Name=slith tongue
+NameLoc=
 Type=tIngredient
 Can=CanIStack
 Weight=1
@@ -5389,11 +5393,9 @@ Description=Slith Tongue
 
 
 [ItemDef 05747]
-// Is an Imbuing ingredient used to imbue one of the Hit Physical Area,
-// Hit Fire Area, Hit Cold Area, Hit Poison Area and Hit Energy Area
-// properties onto items.
 DefName=iRaptorTooth
 Name=raptor tooth
+NameLoc=
 Type=tIngredient
 Can=CanIStack
 Weight=1
@@ -5406,6 +5408,7 @@ Description=Raptor Tooth
 [ItemDef 05748]
 DefName=iBottleOfIchor
 Name=bottle of ichor
+NameLoc=
 Type=tIngredient
 Can=CanIStack
 Weight=1
@@ -5419,6 +5422,7 @@ Description=Bottle of Ichor
 // Is an Imbuing ingredient used to imbue Reflect Physical Damage property onto items.
 DefName=iReflectiveWolfEye
 Name=reflective wolf eye
+NameLoc=
 Type=tIngredient
 Can=CanIStack
 Weight=1
@@ -5428,61 +5432,6 @@ Subsection=Imbuing
 Description=Reflective Wolf Eye
 
 
-[ItemDef 06380]
-//AOL Legends Shield
-[ItemDef 06381]
-[ItemDef 06382]
-[ItemDef 06383]
-[ItemDef 06384]
-[ItemDef 06385]
-[ItemDef 06386]
-[ItemDef 06387]
-[ItemDef 06388]
-[ItemDef 06389]
-[ItemDef 0638a]
-[ItemDef 0638b]
-[ItemDef 0638c]
-[ItemDef 0638d]
-[ItemDef 0638e]
-[ItemDef 0638f]
-[ItemDef 06390]
-[ItemDef 06391]
-[ItemDef 06392]
-[ItemDef 06393]
-[ItemDef 06394]
-[ItemDef 06395]
-[ItemDef 06396]
-[ItemDef 06397]
-[ItemDef 06398]
-[ItemDef 06399]
-[ItemDef 0639a]
-[ItemDef 0639b]
-[ItemDef 0639c]
-[ItemDef 0639d]
-[ItemDef 0639e]
-[ItemDef 0639f]
-[ItemDef 063a0]
-[ItemDef 063a1]
-[ItemDef 063a2]
-[ItemDef 063a3]
-[ItemDef 063a4]
-[ItemDef 063a5]
-[ItemDef 063a6]
-[ItemDef 063a7]
-[ItemDef 063a8]
-[ItemDef 063a9]
-[ItemDef 063aa]
-[ItemDef 063ab]
-[ItemDef 063ac]
-[ItemDef 063ad]
-[ItemDef 063ae]
-[ItemDef 063af]
-[ItemDef 063b0]
-[ItemDef 063b1]
-[ItemDef 063b2]
-[ItemDef 063b3]
-[ItemDef 063b4]
-[ItemDef 063b5]
 
 [ItemDef 063b6]
 [ItemDef 063b7]
