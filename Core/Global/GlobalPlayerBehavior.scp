@@ -1,9 +1,24 @@
+[DefName GlobalPlayerControls]
+PreAoSDamage			0	// 1 is on 0 is off.
+
+
 [Events eGlobalPlayerBehavior]
-on=@DClick
+On=@DClick
 CheckExpansion
 
-on=@EquipTest
+On=@EquipTest
 CheckExpansion
+
+On=@Hit
+If (<dDef.PreAoSDamage>)
+ If (<Src.FindLayer.LayerHand1.IsWeapon>)
+  Ref1=<Src.FindLayer.LayerHand1.UID>
+  ArgN1=<R<EVal <Ref1.Dam.Min>/2>,<EVal <Ref1.Dam.Max>*2>>
+ Else
+  ArgN1=<R1,8>
+ EndIf
+ Return 0
+EndIf
 
 On=@Mount
 // GM's Can mount anything; unless the GM is a gargoyle.
