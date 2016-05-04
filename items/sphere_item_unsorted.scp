@@ -3017,40 +3017,6 @@ Subsection=Classes
 Description=Tamer
 
 
-[ItemDef 02ac0]
-DefName=iFountainLife
-Name=Fountain of Life
-Type=tWater
-Category=Provisions - Miscellaneous
-Subsection=8th Age Items
-Description=Fountain of Life
-DupeList=02ac1,02ac2,02ac3,02ac4,02ac5
-
-[ItemDef 02ac1]
-//fountain of life
-DupeItem=02ac0
-
-[ItemDef 02ac2]
-//fountain of life
-DupeItem=02ac0
-
-[ItemDef 02ac3]
-//fountain of life
-Category=Provisions - Miscellaneous
-Subsection=8th Age Items
-Description=Fountain of Life
-DupeItem=02ac0
-
-[ItemDef 02ac4]
-//fountain of life
-DupeItem=02ac0
-
-[ItemDef 02ac5]
-//fountain of life
-DupeItem=02ac0
-
-
-
 [ItemDef 02af8]
 //shopkeeper contain
 DefName=iVendorbox

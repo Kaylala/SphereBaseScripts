@@ -64,7 +64,7 @@ NameLoc=1153661	//a gift card
 Type=tNormal
 
 Category=Systems
-Subsection=Anniversary
+Subsection=Anniversary Gifts: Base
 Description=Gift Card
 
 
@@ -74,12 +74,79 @@ Name=anniversary gift ticket
 Type=tNormal
 
 Category=Systems
-Subsection=Anniversary
+Subsection=Anniversary Gifts: Base
 Description=Anniversary Gift Ticket
 
 On=@Create
 Attr=AttrNewbie|AttrBlessed
 Color=0B8C
+
+
+/////////////////////
+// 8th Anniversary //
+/////////////////////
+
+[ItemDef 02AC0]
+DefName=iFountainOfLife
+Name=Fountain of Life
+NameLoc=1075197
+Type=tContainer
+TData2=0484
+Can=CanIFlip
+DupeList=02ac3
+
+Category=Systems
+Subsection=Anniversary: 8th
+Description=Fountain of Life
+
+On=@Create
+UsesCur=10
+
+On=@DropOn_Self
+If (<ArgO.Type> != tBandage)
+ Return 1
+EndIf
+
+If (<ArgO.BaseID> == iEnhancedBandage)
+ Return 0
+EndIf
+
+If (<UsesCur>)
+ Serv.NewItem=iEnhancedBandage
+ New.Amount=<UsesCur>
+ New.Cont=<I>
+ UsesCur -= <New.Amount>
+EndIf
+
+If (<Timer> == -1)
+ Timer=24*60*60
+EndIf
+
+On=@Timer
+UsesCur=10
+Timer=-1
+Return 1
+
+On=@ClientTooltip
+NameCliLoc
+ChargesCliLoc
+ContentCliLoc
+Return 1
+
+
+[ItemDef 02ac1]
+
+[ItemDef 02ac2]
+
+[ItemDef 02ac3]
+NameLoc=1075197
+DupeItem=02ac0
+
+[ItemDef 02ac4]
+
+[ItemDef 02ac5]
+
+
 
 
 //////////////////////
