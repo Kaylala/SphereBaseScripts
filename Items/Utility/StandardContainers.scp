@@ -123,21 +123,25 @@ Description=Basket
 
 
 [ItemDef 09B2]
+DefName=iBankBox
+Name=Bank Box
+LAYER=LayerBankBox
+Type=tEqBankBox
+TDATA2=04a
+
+
+[ItemDef 0E75]
 DefName=iBackpack
 Name=backpack
-NameLoc=1022482
+NameLoc=1023701
+Type=tContainer
 TData2=03C
-Can=CanIDye|CanIFlip
+Can=CanIDye
 Weight=3
-DupeList=0E75
 
 Category=Utility
 Subsection=Containers
 Description=Backpack
-
-[ItemDef 0E75]
-NameLoc=1023701
-DupeItem=09B2
 
 
 [ItemDef 0E3C]
