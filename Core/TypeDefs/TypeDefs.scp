@@ -176,6 +176,7 @@ Description=Pilot memory
 [TypeDef tNormal]
 On=@ClientTooltip
 NameCliLoc
+AttrCliLoc
 WeightCliLoc
 Return 1
 
@@ -183,6 +184,7 @@ Return 1
 [TypeDef tIngot]
 On=@ClientTooltip
 NameCliLoc
+AttrCliLoc
 WeightCliLoc
 Return 1
 
@@ -190,6 +192,7 @@ Return 1
 [TypeDef tOre]
 On=@ClientTooltip
 NameCliLoc
+AttrCliLoc
 WeightCliLoc
 Return 1
 

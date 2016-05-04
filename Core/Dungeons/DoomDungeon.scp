@@ -1,15 +1,61 @@
-// ****************************************************************************
-// SPHERE by : Menasoft 1997-2005
-// www.sphereserver.com
-// All SPHERE script files and formats are copyright Menasoft & Partners.
-// This file may be freely edited for personal use, but may not be distributed
-// in whole or in part, in any format without express written permission from
-// Menasoft & Partners.  All donations and contributions
-// become the property of Menasoft & Partners.
-// ****************************************************************************
-// FILE LAST UPDATED: Monday, Sept 26, 2005
-// by ClouD_BR
+// Author: ClouD_BR
 VERSION=0.56b
+
+[Comment DoomCliLocs]
+1050000;The locks on the door click loudly and you begin to hear a faint hissing near the walls.
+1050001;It is becoming more difficult for you to breathe as the poisons in the room become more concentrated.
+1050002;You have trouble breathing...
+1050003;You begin to panic as the poison clouds thicken.
+1050004;The circle is the key, the key is incomplete and so the gate remains closed.
+1050005;The weight of the boulder pins you to the ground!
+1050006;A flying rock smashes against your head!
+1050007;~1_NUM~ soul has turned the key correctly, but the rest have forsaken the circle...
+1050008;~1_NUM~ souls have turned the key correctly, but the rest have forsaken the circle...
+1050009;The circle of souls has failed to turn the key.  The gate remains closed...
+1050010;The ferry man has already been summoned.  There is no need to ring for him again.
+1050011;How dare you summon me?!?
+1050012;Only the dead may cross!
+1050013;You have summoned me in vain ~1_NAME~!  Only the dead may cross!
+1050014;Why have you disturbed me, mortal?!?
+1050015;Feel the wrath of my legions!!!
+1050016;Very well mortal, I shall grant thee passage.
+1050017;The ferryman has recently been summoned already.  You decide against ringing the bell again so soon.
+1050018;bell of the dead
+1050019;Number of bones collected:
+1050020;<I>Victoria turns to you and smiles...</I><BR><BR>Chyloth, eh?  He is the ferry man of lake <I>Mortis</I>, beyond which lies the nest of the <I>The Dark Father</I> - the fountainhead of all the evil that you see around you here.<BR><BR>800 and some years ago, my sisters and I persuaded the ferry man Chyloth to take us across the lake to battle the <I>The Dark Father</I>.  My party was utterly destroyed, except for me.  For my insolence, I was cursed by the <I>The Dark Father</I> to wander these halls for eternity, unable to die - unable to leave.<BR><BR>Chyloth usually only crosses over the souls of the undead, but he can be persuaded otherwise...with a token of gold, in the form of a human skull.  Such a gem can be found only in the belly of the hellspawn known as <I>the devourer</I>.<BR><BR>I can help you summon the beast from the depths of the abyss, but I require 1000 Daemon bones to do so.  If you accept my help, I will store the Daemon bones for you until you have collected all 1000 of them.  Once the bones are collected in full, I will summon the beast for you, which you must slay to claim your prize.<BR><BR>Do you accept?
+1050021;Well done brave soul.   I shall summon the beast to the circle of stones just South-East of here.  Take great care - the beast takes many forms.  Now hurry...
+1050022;For your valor in combating the devourer, you have been awarded a golden skull.
+1050023;You find a golden skull, but your backpack is too full to carry it.
+1050024;You pick up the golden skull and quickly place it in your backpack.  Hand the skull to Chyloth the ferry man, and he will cross you over lake Mortis.
+1050025;The Summoning
+1050026;Find 1000 Daemon bones and hand them to Victoria as you find them.
+1050027;You have accepted Victoria's help.  She requires 1000 Daemon bones to summon the devourer.<BR><BR>You may hand Victoria the bones as you collect them and she will keep count of how many you have brought her.<BR><BR>Daemon bones can be collected via various means throughout Dungeon Doom.<BR><BR>Once you have given Victoria 1000 Daemon bones, she will not return them to you if you log out or leave the dungeon.<BR>Good luck.<BR>
+1050028;Victoria has accepted the Daemon bones, but the requirement is not yet met.
+1050029;<I>Victoria smiles weakly at you, and begins to speak...</I><BR><BR>Well done adventurer.  You have collected all the Daemon bones necessary for me to summon <I>the devourer</I>.  I will summon him to the circle just South-East of here.  If you manage to fell the beast, you reward will be the golden skull token that you seek.<BR><BR>May luck be on your side - you shall need it.
+1050030;The Daemon bones that you have thus far given to Victoria have been returned to you.
+1050031;I summon forth the forces of evil from the depth of the abyss!
+1050032;I COMMAND thee to appear!
+1050033;The devourer lies dead, unfortunately so do you.  You cannot claim your reward while dead.  You will need to face him again.
+1050034;The devourer lies dead.  Unfortunately you did not sufficiently prove your worth in combating the devourer.  Victoria shall summon another incarnation of the devourer to the circle of stones.  Try again noble adventurer.
+1050035;The devourer lies dead.  Search his corpse to claim your prize!
+1050036;The devourer has been summoned near the circle of stones just South-East of here.  Help slay him for your prize!
+1050037;Go forth and vanquish the devourer that has been summoned!
+1050038;You have already given me all the Daemon bones necessary to weave the spell.  Keep these for a later time.
+
+1050046;Very well, ~1_NAME~, I accept your token. You may cross.
+1050047;Another player has paid Chyloth for your passage across lake Mortis:
+1050048;Do you wish to accept their invitation at this time?
+1050049;No thanks, I'd rather stay here.
+1050050;Yes, let's go!
+1050051;The invitation has been revoked.
+1050052;You have declined their invitation.
+1050053;~1_NAME~ has declined your invitation to cross lake Mortis.
+1050054;~1_NAME~ has accepted your invitation to cross lake Mortis.
+1050055;You hear the doors unlocking and the hissing stops.
+1050056;Terror grips your spirit as you realize you may never leave this room alive.
+1050057;The end is near. You feel hopeless and desolate.  The poison is beginning to stiffen your muscles.
+
+1070694;You have deserted your quest for the golden skull of Chyloth.
 
 [COMMENT DOOM_STEALING]
 Add these lines to your stealing skill:
@@ -218,17 +264,19 @@ SERV.LOG Doom generated
 VAR.GENERATEDDOOM=1
 ENDIF
 
-[CHARDEF c_sylvana_sorceress]
-ID=c_woman
-NAME=Victoria, the sorceress
-DEFNAME=c_sylvana_sorceress
-CAN=MT_NONMOVER
+[CharDef c_sylvana_sorceress]
+ID=cHumanFemale
+Name=Victoria
+Title="the Sorceress"
+Can=CanNonMover|CanFemale|CanUseHands|CanEquip
+Desires=iDaemonBone
+BloodColor=-1
+
 CATEGORY=Addon
 SUBSECTION=Doom
 DESCRIPTION=Sylvana
-DESIRES=i_reag_daemon_bone
 
-on=@create
+On=@create
 FLAGS |= statf_invul
 title=the sorceress
 str=100

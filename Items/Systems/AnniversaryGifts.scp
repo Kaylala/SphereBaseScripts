@@ -68,9 +68,52 @@ Subsection=Anniversary
 Description=Gift Card
 
 
+[ItemDef iAnniversaryGiftTicket]
+ID=iDeed
+Name=anniversary gift ticket
+Type=tNormal
+
+Category=Systems
+Subsection=Anniversary
+Description=Anniversary Gift Ticket
+
+On=@Create
+Attr=AttrNewbie|AttrBlessed
+Color=0B8C
+
+
 //////////////////////
 // 12th Anniversary //
 //////////////////////
+
+[Comment 12thAnniversary]
+Gift Ticket allows option to receive one of the following:
+Codex of Virtue
+Silver Sapling Replica
+Ultima Banner
+Mailbox
+
+Upon selecting a gift item, a special hued bag named "12th Anniversary Gift Bag" will be placed in the character's main backpack. Inside will be the selected gift as well as a 12th Anniversary Cake and an Anniversary Card.
+
+There were 16 different colored cakes. The white cake was the rarest to obtain. The white/green colored card was the rarer hue for this year.
+
+
+[ItemDef i12thAnniversaryGiftTicket]
+ID=iDeed
+Name=12th Anniversary Gift Ticket
+NameLoc=1113928
+Type=tNormal
+
+Category=Systems
+Subsection=Anniversary
+Description=12th Anniversary Gift Ticket
+
+On=@Create
+Attr=AttrNewbie|AttrBlessed
+Color=0B8C
+
+On=@DClick
+
 
 [ItemDef iSilverSaplingDeed]
 

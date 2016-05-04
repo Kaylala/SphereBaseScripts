@@ -1,3 +1,31 @@
+[Comment Extreme]
+If this doesn't work. Don't change anything right away. Let me know. Bank takes a layer as a variable. 
+We can just redo the Say commands and open the new container we defined on a new layer if need be and
+modify BankBalance and such. Will test it more later, but if there is no bank box being equipped,
+this should do it.
+
+Attempt this if you are having issues.
+
+On=@Login
+If !(<Src.FindLayer.LayerBankBox.UID>)
+ Serv.NewItem=iBankBox
+ Cont=<I>
+ Return 0
+EndIf
+
+[ItemDef iBankBox]
+ID=iMetalChest
+Name=bank box
+Type=tEqBankBox
+TData2=04A
+Layer=LayerBankbox
+Weight=0
+
+Category=Utility
+Subsection=Containers
+Description=Bank Box
+
+
 [ItemDef 0990]
 DefName=iBasket1
 Name=basket
@@ -123,25 +151,22 @@ Description=Basket
 
 
 [ItemDef 09B2]
-DefName=iBankBox
-Name=Bank Box
-LAYER=LayerBankBox
-Type=tEqBankBox
-TDATA2=04a
-
-
-[ItemDef 0E75]
 DefName=iBackpack
-Name=backpack
-NameLoc=1023701
+Name=Bank Box
+NameLoc=1022482
 Type=tContainer
 TData2=03C
-Can=CanIDye
+Can=CanIDye|CanIFlip
 Weight=3
+DupeList=0E75
 
 Category=Utility
 Subsection=Containers
 Description=Backpack
+
+[ItemDef 0E75]
+NameLoc=1023701
+DupeItem=09B2
 
 
 [ItemDef 0E3C]
