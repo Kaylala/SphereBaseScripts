@@ -11,6 +11,14 @@ ResEnergy += <ArgN>
 Update
 
 
+[Function CanReach]
+If (<ArgN>)
+ Return <QVal (<Distance> <= <ArgN>)> ? 1 : 0>
+Else
+ Return <QVal (<Distance> <= 3)> ? 1 : 0>
+EndIf
+
+
 // WandID
 // Spell
 // Spell Str

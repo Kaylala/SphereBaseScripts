@@ -20,7 +20,7 @@ VERSION=0.56b
 1050015;Feel the wrath of my legions!!!
 1050016;Very well mortal, I shall grant thee passage.
 1050017;The ferryman has recently been summoned already.  You decide against ringing the bell again so soon.
-1050018;bell of the dead
+
 1050019;Number of bones collected:
 1050020;<I>Victoria turns to you and smiles...</I><BR><BR>Chyloth, eh?  He is the ferry man of lake <I>Mortis</I>, beyond which lies the nest of the <I>The Dark Father</I> - the fountainhead of all the evil that you see around you here.<BR><BR>800 and some years ago, my sisters and I persuaded the ferry man Chyloth to take us across the lake to battle the <I>The Dark Father</I>.  My party was utterly destroyed, except for me.  For my insolence, I was cursed by the <I>The Dark Father</I> to wander these halls for eternity, unable to die - unable to leave.<BR><BR>Chyloth usually only crosses over the souls of the undead, but he can be persuaded otherwise...with a token of gold, in the form of a human skull.  Such a gem can be found only in the belly of the hellspawn known as <I>the devourer</I>.<BR><BR>I can help you summon the beast from the depths of the abyss, but I require 1000 Daemon bones to do so.  If you accept my help, I will store the Daemon bones for you until you have collected all 1000 of them.  Once the bones are collected in full, I will summon the beast for you, which you must slay to claim your prize.<BR><BR>Do you accept?
 1050021;Well done brave soul.   I shall summon the beast to the circle of stones just South-East of here.  Take great care - the beast takes many forms.  Now hurry...
@@ -339,8 +339,9 @@ dhtmlgump 60 40 280 120 1 1 <DEF.BFONT_DGREEN>Long time ago I fought a being nam
 ON=0
 SRC.EVENTS +e_emdoom
 
-[EVENTS e_emdoom]
-ON=@Kill
+// Pretty sure Daemon Bone is found without quest.
+[Comment Events e_emdoom]
+On=@Kill
 IF (<ARGO.NPC>)
 IF (STRMATCH(*Doom*,<ARGO.REGION.NAME>))
 SERV.NEWITEM i_reag_daemon_bone,<eval (<ARGO.maxhits>+<ARGO.dex>+<ARGO.int>)/10>
@@ -354,20 +355,31 @@ ENDIF
 ENDIF
 ENDIF
 
-[ITEMDEF i_golden_skull]
+
+[ItemDef i_golden_skull]
 ID=i_bone_skull
-NAME=golden skull
-TYPE=T_NORMAL
-TAG.NOVENDOR=1
+Name=golden skull
+NameLoc=1061619		// a golden skull
+Type=tNormal
 
-ON=@Create
-COLOR=084d
+Category=
+Subsection=
+Description=Golden Skull
 
-[ITEMDEF i_bell_doom]
+On=@Create
+Color=084D
+
+
+[ItemDef iBellOfTheDead]
 ID=i_beehive
-TYPE=T_NORMAL
-NAME=Dead Bell
-TAG.NOVENDOR=1
+Name=bell of the dead
+NameLoc=1050018	//bell of the dead
+Type=tNormal
+Weight=255
+
+Category=
+Subsection=
+Description=Bell of the Dead
 
 ON=@Dclick
 IF !(<SRC.FINDID.i_golden_skull>)
@@ -389,21 +401,25 @@ NEW.REMOVETIMER=20
 ENDIF
 RETURN 1
 
-[CHARDEF C_CHYLOTH]
-ID=C_MAN
-CAN=MT_NONMOVER|MT_EQUIP|MT_USEHANDS
-NAME=Chyloth
-CATEGORY=Doom
-SUBSECTION=Chyloth
-DESCRIPTION=Chyloth
+[CHARDEF cHMChyloth]
+ID=cHumanMale
+Name=Chyloth
+Can=CanNonMover|CanMale|CanEquip|CanUseHands
 
-ON=@Create
-STR=1
-INT=1
-STR=1
-COLOR=01
-ITEMNEWBIE=i_deathshroud
-COLOR=36
+Category=Doom
+Subsection=Chyloth
+Description=Chyloth
+
+On=@Create
+Color=01
+
+OStr=100
+ODex=100
+OInt=100
+
+ItemNewbie=iShroudOfShadows
+Color=36
+ItemNewbie=iLanternOfSouls
 
 [DIALOG D_CHYLOTH_BELL]
 200,180

@@ -1,3 +1,15 @@
+///////////////////
+// Miscellaneous //
+///////////////////
+
+[Events AIDoomDaemonBone]
+On=@DeathCorpse
+If (<Region> == aDoom)
+ Serv.NewItem=iDaemonBone,<R <EVal (<Karma>/2000)>,<EVal (<Karma>/1000)>>
+ New.Cont=<I>
+EndIf
+
+
 //////////////
 // Solen AI //
 //////////////
