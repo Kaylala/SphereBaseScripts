@@ -5,7 +5,7 @@ If (<Can> &CanIStack)
  ElIf (<Name>)
   Src.AddCliLoc 1050039,<Amount>,<Name>
  Else
-  If (<DispID> <= 16381)
+  If (<DispIDDec> <= 16381)
    Src.AddCliLoc 1050039,<Amount>,<Eval (1020000 + <DispIDDec>)>
   Else
    Src.AddCliLoc 1050039,<Amount>,<Eval (1078872 + <DispIDDec>)>
@@ -17,7 +17,7 @@ Else
  ElIf (<Name>)
   Src.AddCliLoc 1042971,<Name>
  Else
-  If (<DispID> <= 16381)
+  If (<DispIDDec> <= 16381)
    Src.AddCliLoc <Eval (1020000 + <DispIDDec>)>
   Else
    Src.AddCliLoc <Eval (1078872 + <DispIDDec>)>

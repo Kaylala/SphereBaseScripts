@@ -169,6 +169,11 @@ If (<ArgN2> == 7)	// Ninja
  Src.Stealth=300
 EndIf
 
+If !(<Src.FindLayer.LayerBankBox.UID>)
+ Serv.NewItem iBankBox
+ New.Cont=<Src>
+EndIf
+
 //IF (<ARGN3>==2)	//Uncomment this code to disable the racial bonus of MaxMana +20 for Elfs
 // MaxMana
 //ENDIF

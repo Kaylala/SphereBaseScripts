@@ -270,58 +270,54 @@ Name=Victoria
 Title="the Sorceress"
 Can=CanNonMover|CanFemale|CanUseHands|CanEquip
 Desires=iDaemonBone
+Events=AINonCombatant
 BloodColor=-1
 
-CATEGORY=Addon
-SUBSECTION=Doom
-DESCRIPTION=Sylvana
+Category=Quest Mobiles
+Subsection=Doom
+Description=Victoria the Sorceress
 
 On=@create
-FLAGS |= statf_invul
-title=the sorceress
-str=100
-dex=100
-int=100
-color=00
-ITEMNEWBIE=i_robe
-COLOR=01
-ITEMNEWBIE=i_hair_long
+Color=SkinHues
+Title=the Sorceress
 
-on=@gethit
-return 1
+OStr=100
+ODex=100
+OInt=100
 
-on=@spelleffect
-return 1
+ItemNewbie=iRobe
+Color=ShadowIronHue
+ItemNewbie=iLongHair
 
 ON=@ReceiveItem
-IF (<LEVEL>)
-SAY @55 Wait, cause there's already someone fighting the daemon.
-ELIF !(<TAG0.<SRC>> >= 10000)
-TRY TAG.<SRC>=<EVAL <TAG0.<SRC>>+<ARGO.AMOUNT>>
-TRY UID.<ARGO.UID>.REMOVE
+If (<Level>)
+ Say @55 Wait, cause there's already someone fighting the daemon.
+ElIf !(<TAG0.<Src>> >= 10000)
+ Try Tag.<Src>=<EVal <Tag0.<Src>>+<ArgO.Amount>>
+ Try UID.<ArgO.UID>.Remove
 ENDIF
-IF (<TAG0.<SRC>> >= 10000)
-ANIM 16
-SAY @33 Ah Kum Nah Tur
-ADD_TIMER_ACT 3,SAY @33 The daemon is right there in that stone circle.
-SERV.NEWNPC C_BONE_DAEMON
-NEW.P=442,204,-3,3
-NEW.HOME=442,204,-3,3
-NEW.HOMEDIST=4
-NEW.EXP=<UID>
-NEW.EVENTS +e_questsylvana_daemon
-LEVEL=<SRC>
-NEW.REMOVETIMER=<EVAL 60*5>
-SRC.SYSMESSAGE @55 You have 5 minutes to kill the daemon.
-TRY TAG.<SRC>
-ENDIF
-RETURN 1
+If (<TAG0.<Src>> >= 10000)
+ Anim 16
+ Say @33 Ah Kum Nah Tur
+ ADD_TIMER_ACT 3,SAY @33 The daemon is right there in that stone circle.
+ Serv.NewNPC cBoneDaemon
+ New.P=442,204,-3,3
+ New.Home=442,204,-3,3
+ New.HomeDist=4
+ New.Exp=<UID>
+ New.Events +e_questsylvana_daemon
+ Level=<Src>
+ New.RemoveTimer=<EVal (60*5)>
+ Src.SMsg @55 You have 5 minutes to kill the daemon.
+ Try Tag.<Src>
+ EndIf
+Return 1
 
-ON=@NpcLooKAtChar
+ON=@NpcLookAtChar
 IF (<SRC.ISPLAYER>)
-IF !(<SRC.FINDID.i_golden_skull>)
-SDIALOG D_DOOM_SYLVANA
-ENDIF
+ IF !(<SRC.FINDID.i_golden_skull>)
+  SDIALOG D_DOOM_SYLVANA
+ ENDIF
 ENDIF
 
 [EVENTS e_questsylvana_daemon]

@@ -1,18 +1,3 @@
-[Comment Extreme]
-If this doesn't work. Don't change anything right away. Let me know. Bank takes a layer as a variable. 
-We can just redo the Say commands and open the new container we defined on a new layer if need be and
-modify BankBalance and such. Will test it more later, but if there is no bank box being equipped,
-this should do it.
-
-Attempt this if you are having issues.
-
-On=@Login
-If !(<Src.FindLayer.LayerBankBox.UID>)
- Serv.NewItem=iBankBox
- Cont=<I>
- Return 0
-EndIf
-
 [ItemDef iBankBox]
 ID=iMetalChest
 Name=bank box
