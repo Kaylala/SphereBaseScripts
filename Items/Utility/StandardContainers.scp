@@ -1,5 +1,5 @@
-[ItemDef iBankBox]
-ID=iMetalChest
+[ItemDef 09B2]
+DefName=iBankBox
 Name=bank box
 Type=tEqBankBox
 TData2=04A
@@ -135,9 +135,9 @@ Subsection=Containers
 Description=Basket
 
 
-[ItemDef 09B2]
-DefName=iBackpack
-Name=Bank Box
+[ItemDef iBackpack]
+ID=09B2
+Name=backpack
 NameLoc=1022482
 Type=tContainer
 TData2=03C
@@ -148,6 +148,7 @@ DupeList=0E75
 Category=Utility
 Subsection=Containers
 Description=Backpack
+
 
 [ItemDef 0E75]
 NameLoc=1023701

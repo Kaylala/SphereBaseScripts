@@ -2666,37 +2666,6 @@ ON=@DClick
 SRC.SOUND snd_special_windchimes3
 RETURN 1
 
-
-[ItemDef 02842]
-DefName=iSwordDisplayEmpty
-Type=tNormal
-Can=CanIFlip
-Weight=20.0
-Resources=10 iLog
-Category=Decoration - Weapons
-Subsection=Sword Display
-Description=Empty Sword Display
-DupeList=02843
-
-[ItemDef 02843]
-//empty sword display
-DupeItem=02842
-
-[ItemDef 02844]
-DefName=iSwordDisplayEmpty2
-Type=tNormal
-Can=CanIFlip
-Weight=20.0
-Resources=10 iLog
-Category=Decoration - Weapons
-Subsection=Sword Display
-Description=Empty Sword Display 2
-DupeList=02845
-
-[ItemDef 02845]
-//empty sword display 2
-DupeItem=02844
-
 [ItemDef 0284a]
 DefName=iFlowerArrangement
 Value=20
@@ -2704,52 +2673,6 @@ Weight=2.0
 Category=Decoration - Miscellaneous
 Subsection=Japanese
 Description=Flowers
-
-
-[ItemDef 02851]
-DefName=iDisplaySwordsRed
-Type=tNormal
-Can=CanIFlip
-Weight=38.0
-Resources=10 iLog,1 iDaisho
-Category=Decoration - Weapons
-Subsection=Sword Display
-Description=Red Sword Display
-DupeList=02852
-
-[ItemDef 02852]
-//red sword display
-DupeItem=02851
-
-[ItemDef 02853]
-DefName=iDisplaySwordsBlack
-Type=tNormal
-Can=CanIFlip
-Weight=38.0
-Resources=10 iLog,1 iDaisho
-Category=Decoration - Weapons
-Subsection=Sword Display
-Description=Black Sword Display
-DupeList=02854
-
-[ItemDef 02854]
-//black sword display
-DupeItem=02853
-
-[ItemDef 02855]
-DefName=iDisplaySwordsWhite
-Type=tNormal
-Can=CanIFlip
-Weight=41.0
-Resources=10 iLog,1 iNoDachi
-Category=Decoration - Weapons
-Subsection=Sword Display
-Description=White Sword Display
-DupeList=02856
-
-[ItemDef 02856]
-//white sword display
-DupeItem=02855
 
 
 [ItemDef 028dc]
@@ -2825,104 +2748,16 @@ Subsection=Bonsai
 Description=Bonsai Tree 8
 
 
-[ItemDef 0291c]
-DefName=iDisplaySwordsBlue
-Type=tNormal
-Can=CanIFlip
-Weight=38.0
-Resources=10 iLog,1 iDaisho
-Category=Decoration - Weapons
-Subsection=Sword Display
-Description=Blue Sword Display
-DupeList=0291d
-
-[ItemDef 0291d]
-//blue sword display
-DupeItem=0291c
-
-[ItemDef 0291e]
-DefName=iDisplaySwordsYellow
-Type=tNormal
-Can=CanIFlip
-Weight=38.0
-Resources=10 iLog,1 iDaisho
-Category=Decoration - Weapons
-Subsection=Sword Display
-Description=Yellow Sword Display
-DupeList=0291f
-
-[ItemDef 0291f]
-//yellow sword display
-DupeItem=0291e
-
-
 [ItemDef 02a2a]
-DefName=iSwordDisplayRed2
-Name=sword display
+DefName=iSwordDisplayIcon
+Name=sword display icon		// Blank
+NameLoc=1030794
 Type=tNormal
-Weight=38.0
-Resources=10 iLog,1 iDaisho
-Category=Decoration - Weapons
-Subsection=Sword Display
-Description=Red Sword Display 2
+Weight=0
 
-
-[ItemDef 02a45]
-Type=tNormal
-Can=CanIFlip
-Weight=38.0
-Resources=10 iLog,1 iDaisho
-Category=Decoration - Weapons
-Subsection=Sword Display
-Description=Red Sword Display
-DupeList=02a46
-
-[ItemDef 02a46]
-//Red Sword Display
-DupeItem=02a45
-
-[ItemDef 02a47]
-Type=tNormal
-Can=CanIFlip
-Weight=38.0
-Resources=10 iLog,1 iDaisho
-Category=Decoration - Weapons
-Subsection=Sword Display
-Description=Black Sword Display
-DupeList=02a48
-
-[ItemDef 02a48]
-//Black Sword Display
-DupeItem=02a47
-
-[ItemDef 02a49]
-Type=tNormal
-Can=CanIFlip
-Weight=38.0
-Resources=10 iLog,1 iDaisho
-Category=Decoration - Weapons
-Subsection=Sword Display
-Description=Purple Sword Display
-DupeList=02a4a
-
-[ItemDef 02a4a]
-//Purple Sword Display
-DupeItem=02a49
-
-[ItemDef 02a4b]
-Type=tNormal
-Can=CanIFlip
-Weight=38.0
-Resources=10 iLog,1 iDaisho
-Category=Decoration - Weapons
-Subsection=Sword Display
-Description=Green Sword Display
-DupeList=02a4c
-
-[ItemDef 02a4c]
-//Green Sword Display
-DupeItem=02a4b
-
+Category=System
+Subsection=Icons
+Description=Sword Display Icon
 
 
 [ItemDef 02aab]

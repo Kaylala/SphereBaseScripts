@@ -1,0 +1,199 @@
+[ItemDef 02842]
+DefName=iSwordDisplay1
+Name=sword display
+NameLoc=1030306
+Type=tNormal
+Can=CanIFlip
+Weight=7
+DupeList=02843
+
+Category=Decorations
+Subsection=Sword Displays
+Description=Sword Display 1
+
+[ItemDef 02843]
+NameLoc=1030307
+DupeItem=02842
+
+
+[ItemDef 02844]
+DefName=iSwordDisplay2
+Name=sword display
+NameLoc=1030308
+Type=tNormal
+Can=CanIFlip
+Weight=7
+DupeList=02845
+
+Category=Decorations
+Subsection=Sword Displays
+Description=Sword Display 2
+
+[ItemDef 02845]
+NameLoc=1030309
+DupeItem=02844
+
+
+[ItemDef 02851]
+DefName=iSwordDisplay3
+Name=sword display
+NameLoc=1030321
+Type=tNormal
+Can=CanIFlip
+Weight=15
+DupeList=02852
+
+Category=Decorations
+Subsection=Sword Displays
+Description=Sword Display 3
+
+[ItemDef 02852]
+NameLoc=1030322
+DupeItem=02851
+
+
+[ItemDef 02853]
+DefName=iSwordDisplay4
+Name=sword display
+NameLoc=1030323
+Type=tNormal
+Can=CanIFlip
+Weight=15
+DupeList=02854
+
+Category=Decorations
+Subsection=Sword Displays
+Description=Sword Display 4
+
+[ItemDef 02B54]
+NameLoc=1030324
+DupeItem=02B53
+
+
+[ItemDef 02855]
+DefName=iSwordDisplay5
+Name=sword display
+NameLoc=1030325
+Type=tNormal
+Can=CanIFlip
+Weight=7
+DupeList=02856
+
+Category=Decorations
+Subsection=Sword Displays
+Description=Sword Display 5
+
+[ItemDef 02856]
+NameLoc=1030326
+DupeItem=02855
+
+
+[ItemDef 0291c]
+DefName=iSwordDisplay6
+Name=sword display
+NameLoc=1030524
+Type=tNormal
+Can=CanIFlip
+Weight=10
+DupeList=0291D
+
+Category=Decorations
+Subsection=Sword Displays
+Description=Sword Display 6
+
+[ItemDef 0291d]
+NameLoc=1030525
+DupeItem=0291c
+
+
+[ItemDef 0291E]
+DefName=iSwordDisplay7
+Name=sword display
+NameLoc=1030526
+Type=tNormal
+Can=CanIFlip
+Weight=10
+DupeList=0291F
+
+Category=Decorations
+Subsection=Sword Displays
+Description=Sword Display 7
+
+[ItemDef 0291f]
+NameLoc=1030527
+DupeItem=0291e
+
+
+[ItemDef 02A45]
+DefName=iSwordDisplay8
+Name=sword display
+NameLoc=1030821
+Type=tNormal
+Can=CanIFlip
+Weight=10
+DupeList=02A46
+
+Category=Decorations
+Subsection=Sword Displays
+Description=Sword Display 8
+
+[ItemDef 02A46]
+NameLoc=1030822
+DupeItem=02A45
+
+
+[ItemDef 02a47]
+DefName=iSwordDisplay9
+Name=sword display
+NameLoc=1030823
+Type=tNormal
+Can=CanIFlip
+Weight=10
+DupeList=02a48
+
+Category=Decorations
+Subsection=Sword Displays
+Description=Sword Display 9
+
+[ItemDef 02a48]
+NameLoc=1030824
+DupeItem=02a47
+
+
+[ItemDef 02a49]
+DefName=iSwordDisplay10
+Name=sword display
+NameLoc=1030825
+Type=tNormal
+Can=CanIFlip
+Weight=10
+DupeList=02a4a
+
+Category=Decorations
+Subsection=Sword Displays
+Description=Sword Display 10
+
+[ItemDef 02a4a]
+NameLoc=1030826
+DupeItem=02a49
+
+
+[ItemDef 02a4b]
+DefName=iSwordDisplay11
+Name=sword display
+NameLoc=1030827
+Type=tNormal
+Can=CanIFlip
+Weight=10
+DupeList=02A4C
+
+Category=Decorations
+Subsection=Sword Displays
+Description=Sword Display 11
+
+[ItemDef 02a4c]
+NameLoc=1030828
+DupeItem=02a4b
+
+
+[EOF]
