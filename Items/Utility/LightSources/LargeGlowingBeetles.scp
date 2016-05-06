@@ -1,0 +1,91 @@
+[ItemDef 02CFD]
+DefName=ilargeGlowingBeetle1
+Name=large glowing beetle
+NameLoc=1031517
+Type=tUnlitLight
+TData3=iLargeGlowingBeetleLit1
+Weight=255
+DupeList=02CFF
+
+Category=Utility
+Subsection=Light Sources: Large Glowing Beetles
+Description=Large Glowing Beetle 1 (Unlit)
+
+
+[ItemDef 02CFE]
+DefName=ilargeGlowingBeetleLit1
+Name=large glowing beetle
+NameLoc=1031518
+Type=tLitLight
+TData3=iLargeGlowingBeetle1
+Weight=255
+DupeList=02D00
+
+Category=Utility
+Subsection=Light Sources: Large Glowing Beetles
+Description=Large Glowing Beetle 1 (Lit)
+
+On=@Create
+MoreZ=29
+
+
+[ItemDef 02CFF]
+DupeItem=02CFD
+NameLoc=1031519
+Type=tUnlitLight
+TData3=02D00
+
+
+[ItemDef 02D00]
+DupeItem=02CFE
+NameLoc=1031520
+Type=tLitLight
+TData3=02CFF
+
+
+[ItemDef 02D01]
+DefName=ilargeGlowingBeetle2
+Name=large glowing beetle
+NameLoc=1031521
+Type=tUnlitLight
+TData3=iLargeGlowingBeetleLit2
+Weight=255
+DupeList=02D03
+
+Category=Utility
+Subsection=Light Sources: Large Glowing Beetles
+Description=Large Glowing Beetle 2 (Unlit)
+
+
+[ItemDef 02D02]
+DefName=ilargeGlowingBeetleLit2
+Name=large glowing beetle
+NameLoc=1031522
+Type=tLitLight
+TData3=iLargeGlowingBeetle2
+Weight=255
+DupeList=02D04
+
+Category=Utility
+Subsection=Light Sources: Large Glowing Beetles
+Description=Large Glowing Beetle 2 (Lit)
+
+On=@Create
+MoreZ=29
+
+
+[ItemDef 02D03]
+DupeItem=02D01
+NameLoc=1031523
+Type=tUnlitLight
+TData3=02D04
+
+
+[ItemDef 02D04]
+DupeItem=02D02
+NameLoc=1031524
+Type=tLitLight
+TData3=02D03
+
+
+[EOF]

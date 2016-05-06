@@ -1,0 +1,179 @@
+[ItemDef 0A05]
+DefName=iWallTorch1
+Name=wall torch
+NameLoc=1022565
+Type=tUnlitLight
+TData3=iWallTorchLit1
+Can=CanIFlip
+Weight=255
+DupeList=0A0A
+
+Category=Utility
+Subsection=Light Sources: Wall Torches
+Description=Wall Torch 1 (Unlit)
+
+
+[ItemDef 0A06]
+DefName=iTorchHolder
+Name=torch holder
+NameLoc=1022566
+Can=CanIFlip
+Weight=255
+DupeList=0a0b
+
+Category=Utility
+Subsection=Light Sources: Wall Torches
+Description=Wall Torch Holder (Empty)
+
+[ItemDef 0a07]
+DefName=iWallTorchLit1
+Name=wall torch
+NameLoc=1022567
+Type=tLitLight
+Can=CanIFlip
+TData3=iWallTorch1
+Weight=255
+DupeList=0A0C
+
+Category=Utility
+Subsection=Light Sources: Wall Torches
+Description=Wall Torch 1 (Lit)
+
+On=@Create
+MoreZ=8
+
+[ItemDef 0a08]
+NameLoc=1022568
+DupeItem=0a07
+
+Category=Utility
+Subsection=Light Sources: Wall Torches
+Description=Wall Torch 1 (Lit) (Anim Frame)
+
+[ItemDef 0a09]
+NameLoc=1022569
+DupeItem=0a07
+
+Category=Utility
+Subsection=Light Sources: Wall Torches
+Description=Wall Torch 1 (Lit) (Anim Frame)
+
+
+[ItemDef 0A0A]
+DupeItem=0a05
+NameLoc=1022570
+Type=tUnlitLight
+TData3=0A0C
+
+
+[ItemDef 0a0b]
+DupeItem=0a06
+NameLoc=1022571
+
+
+[ItemDef 0a0c]
+DupeItem=0a07
+NameLoc=1022572
+Type=tlitLight
+TData3=0A0A
+
+On=@Create
+MoreZ=5
+
+[ItemDef 0a0d]
+NameLoc=1022573
+DupeItem=0a07
+
+Category=Utility
+Subsection=Light Sources: Wall Torches
+Description=Wall Torch 1 (Lit) (Anim Frame)
+
+[ItemDef 0a0e]
+NameLoc=1022574
+DupeItem=0a07
+
+Category=Utility
+Subsection=Light Sources: Wall Torches
+Description=Wall Torch 1 (Lit) (Anim Frame)
+
+
+[ItemDef 03D94]
+DefName=iWallTorchLit2
+Name=wall torch
+NameLoc=1022567
+Type=tLitLight
+TData3=iWallTorch2
+Can=CanIFlip
+Weight=255
+DupeList=03D98
+
+Category=Utility
+Subsection=Light Sources: Wall Torches
+Description=Wall Torch 2 (Lit)
+
+On=@Create
+MoreZ=5
+
+[ItemDef 03D95]
+NameLoc=1022568
+
+Category=Utility
+Subsection=Light Sources: Wall Torches
+Description=Wall Torch 2 (Lit) (Anim Frame)
+
+[ItemDef 03D96]
+NameLoc=1022569
+
+Category=Utility
+Subsection=Light Sources: Wall Torches
+Description=Wall Torch 2 (Lit) (Anim Frame)
+
+
+[ItemDef 03D97]
+DefName=iWallTorch2
+Name=wall torch
+NameLoc=1022565
+Type=tUnlitLight
+TData3=iWallTorchLit2
+Can=CanIFlip
+Weight=255
+DupeList=03D9B
+
+Category=Utility
+Subsection=Light Sources: Wall Torches
+Description=Wall Torch 2 (Unlit)
+
+
+[ItemDef 03D98]
+DupeItem=03D94
+NameLoc=1022567
+Type=tLitLight
+TData3=03D9B
+
+On=@Create
+MoreZ=8
+
+[ItemDef 03D99]
+NameLoc=1022568
+
+Category=Utility
+Subsection=Light Sources: Wall Torches
+Description=Wall Torch 2 (Lit) (Anim Frame)
+
+[ItemDef 03D9A]
+NameLoc=1022569
+
+Category=Utility
+Subsection=Light Sources: Wall Torches
+Description=Wall Torch 2 (Lit) (Anim Frame)
+
+
+[ItemDef 03D9B]
+DupeItem=03D97
+NameLoc=1022565
+Type=tUnlitLight
+TData3=03D98
+
+
+
+[EOF]

@@ -1,0 +1,344 @@
+[ItemDef 0a0f]
+DefName=iCandleLit1
+Name=candle
+NameLoc=1022575
+Type=tLitLight
+TData3=iCandle1
+Layer=LayerHand2
+Weight=2
+
+Category=Utility
+Subsection=Light Sources: Candles
+Description=Candle 1 (Lit)
+
+On=@Create
+BaseWeight=1
+MoreZ=2
+
+ON=@Equip
+Src.FindLayer.2.Amount=1
+Return 0
+
+ON=@UnEquip
+If (<Src.FindLayer.2.Amount> > 1)
+ Src.FindLayer.2.Amount=1
+EndIf
+Return 0
+
+[ItemDef 0a10]
+NameLoc=1022576
+
+Category=Utility
+Subsection=Light Sources: Candles
+Description=Candle 1 (Lit) (Anim Frame)
+
+[ItemDef 0a11]
+NameLoc=1022577
+
+Category=Utility
+Subsection=Light Sources: Candles
+Description=Candle 1 (Lit) (Anim Frame)
+
+
+[ItemDef 0A28]
+DefName=iCandle1
+Name=candle%s
+NameLoc=1022600
+Type=tUnlitLight
+TData3=iCandleLit1
+Can=CanIStack
+Layer=LayerHand2
+Weight=2
+
+Category=Utility
+Subsection=Light Sources: Candles
+Description=Candle 1 (UnLit)
+
+On=@Create
+BaseWeight=1
+
+ON=@Equip
+Src.FindLayer.2.Amount=1
+Return 0
+
+ON=@UnEquip
+If (<Src.FindLayer.2.Amount> > 1)
+ Src.FindLayer.2.Amount=1
+EndIf
+Return 0
+
+
+[ItemDef 0B1A]
+DefName=iCandleLit2
+Name=candle
+NameLoc=1022842
+Type=tLitLight
+TData3=iCandle2
+Layer=LayerHand2
+Weight=2
+
+Category=Utility
+Subsection=Light Sources: Candles
+Description=Candle 2 (Lit)
+
+On=@Create
+MoreZ=2
+
+ON=@Equip
+Src.FindLayer.2.Amount=1
+Return 0
+
+ON=@UnEquip
+If (<Src.FindLayer.2.Amount> > 1)
+ Src.FindLayer.2.Amount=1
+EndIf
+Return 0
+
+[ItemDef 0B1B]
+NameLoc=1022843
+
+Category=Utility
+Subsection=Light Sources: Candles
+Description=Candle 2 (Lit) (Anim Frame)
+
+[ItemDef 0B1C]
+NameLoc=1022844
+
+Category=Utility
+Subsection=Light Sources: Candles
+Description=Candle 2 (Lit) (Anim Frame)
+
+
+[ItemDef 0A26]
+DefName=iCandle2
+Name=candle%s
+NameLoc=1022598
+Type=tUnlitLight
+TData3=iCandleLit2
+Can=CanIStack
+Layer=LayerHand2
+Weight=2
+
+Category=Utility
+Subsection=Light Sources: Candles
+Description=Candle 2 (UnLit)
+
+ON=@Equip
+Src.FindLayer.2.Amount=1
+Return 0
+
+ON=@UnEquip
+If (<Src.FindLayer.2.Amount> > 1)
+ Src.FindLayer.2.Amount=1
+EndIf
+Return 0
+
+
+[ItemDef 0142C]
+DefName=iCandleLit3
+Name=candle
+NameLoc=1025164
+Type=tLitLight
+TData3=iCandle3
+Weight=1
+
+Category=Utility
+Subsection=Light Sources: Candles
+Description=Candle 3 (Lit)
+
+On=@Create
+MoreZ=2
+
+[ItemDef 0142D]
+NameLoc=1025165
+
+Category=Utility
+Subsection=Light Sources: Candles
+Description=Candle 3 (Lit) (Anim Frame)
+
+[ItemDef 0142E]
+NameLoc=1025166
+
+Category=Utility
+Subsection=Light Sources: Candles
+Description=Candle 3 (Lit) (Anim Frame)
+
+
+[ItemDef 0142F]
+DefName=iCandle3
+Name=candle%s
+NameLoc=1025167
+Type=tUnlitLight
+TData3=iCandleLit3
+Can=CanIStack
+Weight=1
+
+Category=Utility
+Subsection=Light Sources: Candles
+Description=Candle 3 (Unlit)
+
+
+[ItemDef 01430]
+DefName=iCandleLit4
+Name=candle
+NameLoc=1025168
+Type=tLitLight
+TData3=iCandle4
+Weight=1
+
+Category=Utility
+Subsection=Light Sources: Candles
+Description=Candle 4 (Lit)
+
+On=@Create
+MoreZ=2
+
+[ItemDef 01431]
+NameLoc=1025169
+
+Category=Utility
+Subsection=Light Sources: Candles
+Description=Candle 4 (Lit) (Anim Frame)
+
+[ItemDef 01432]
+NameLoc=1025170
+
+Category=Utility
+Subsection=Light Sources: Candles
+Description=Candle 4 (Lit) (Anim Frame)
+
+
+[ItemDef 01433]
+DefName=iCandle4
+Name=candle%s
+NameLoc=1025171
+Type=tUnlitLight
+TData3=iCandleLit4
+Can=CanIStack
+Weight=1
+
+Category=Utility
+Subsection=Light Sources: Candles
+Description=Candle 4 (Unlit)
+
+
+[ItemDef 01434]
+DefName=iCandleLit5
+Name=candle
+NameLoc=1025171
+Type=tLitLight
+TData3=iCandle5
+Weight=1
+
+Category=Utility
+Subsection=Light Sources: Candles
+Description=Candle 5 (Lit)
+
+On=@Create
+MoreZ=2
+
+[ItemDef 01435]
+NameLoc=1025172
+
+Category=Utility
+Subsection=Light Sources: Candles
+Description=Candle 5 (Lit) (Anim Frame)
+
+[ItemDef 01436]
+NameLoc=1025173
+
+Category=Utility
+Subsection=Light Sources: Candles
+Description=Candle 5 (Lit) (Anim Frame)
+
+
+[ItemDef 01437]
+DefName=iCandle5
+Name=candle%s
+NameLoc=1025174
+Type=tUnlitLight
+TData3=iCandleLit5
+Can=CanIStack
+Weight=1
+
+Category=Utility
+Subsection=Light Sources: Candles
+Description=Candle 5 (Unlit)
+
+
+[ItemDef 01853]
+DefName=iSkullWithCandle
+Name=skull with candle
+NameLoc=1026227
+Type=tUnlitLight
+TData3=iSkullWithCandleLit
+Can=CanIFlip
+Weight=2
+DupeList=01857
+
+Category=Utility
+Subsection=Light Sources: Candles
+Description=Skull With Candle (Unlit)
+
+
+[ItemDef 01854]
+DefName=iSkullWithCandleLit
+Name=skull with candle
+NameLoc=1026228
+Type=tLitLight
+TData3=iSkullWithCandle
+Can=CanIFlip
+Weight=2
+DupeList=01858
+
+Category=Utility
+Subsection=Light Sources: Candles
+Description=Skull With Candle (Lit)
+
+On=@Create
+MoreZ=2
+
+[ItemDef 01855]
+NameLoc=1026229
+
+Category=Utility
+Subsection=Light Sources: Candles
+Description=Skull With Candle (Lit) (Anim Frame)
+
+[ItemDef 01856]
+NameLoc=1026230
+
+Category=Utility
+Subsection=Light Sources: Candles
+Description=Skull With Candle (Lit) (Anim Frame)
+
+
+[ItemDef 01857]
+NameLoc=1026231
+DupeItem=01853
+Type=tUnlitLight
+TData3=01858
+
+
+[ItemDef 01858]
+NameLoc=1026232
+DupeItem=01854
+Type=tLitLight
+TData3=01857
+
+[ItemDef 01859]
+NameLoc=1026233
+
+Category=Utility
+Subsection=Light Sources: Candles
+Description=Skull With Candle (Lit) (Anim Frame)
+
+[ItemDef 0185A]
+NameLoc=1026234
+
+Category=Utility
+Subsection=Light Sources: Candles
+Description=Skull With Candle (Lit) (Anim Frame)
+
+
+[EOF]

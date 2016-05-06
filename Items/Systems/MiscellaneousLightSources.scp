@@ -1,0 +1,159 @@
+[ItemDef 02F60]
+DefName=iWispsOfLight
+Name=wisps of light
+NameLoc=1032128
+Type=tLitLight
+
+Category=Utility
+Subsection=Light Sources: Miscellaneous
+Description=Wisps of Light
+
+On=@Create
+MoreZ=29
+
+
+[ItemDef iCandleBlessedByLove]
+ID=iCandle1
+Name=Candle Blessed by Love for [Name]
+NameLoc=1078033		// A Candle Blessed by Love for ~1_player~
+
+Category=Utility
+Subsection=Light Sources: Miscellaneous
+Description=Candle Blessed by Love
+
+On=@Create
+Attr=AttrNewbie|AttrBlessed
+Color=0481
+Tag.pCharName=0
+
+SpellChanneling=1
+
+On=@DClick
+If !(<Tag0.pCharName>)
+ Tag.pCharName=<Src.Name>
+ Name=Candle Blessed by Love for <Tag.pCharName>
+EndIf
+
+On=@ClientTooltip
+Src.AddCliloc <NameLoc>,<Tag.pCharName>
+AttrCliLoc
+WeightCliLoc
+Src.AddCliLoc 1060482
+Return 1
+
+
+[ItemDef iPurifiedCandle]
+ID=iCandle1
+Name=Purified Candle
+NameLoc=1077975		// A Purified Candle
+Weight=1
+
+Category=Utility
+Subsection=Light Sources: Miscellaneous
+Description=Purified Candle
+
+On=@Create
+Attr=AttrNewbie|AttrBlessed|AttrNoTrade|AttrNoDrop|AttrQuestItem
+Color=0481
+
+SpellChanneling=1
+
+
+[ItemDef iCandelabraOfSouls]
+ID=iCandelabra2
+Name=Candelabra of Souls
+NameLoc=1063478
+Weight=2
+
+Category=Utility
+Subsection=Light Sources: Miscellaneous
+Description=Candelabra of Souls
+
+
+[ItemDef iCandlewoodTorch]
+ID=iTorch
+Name=Candlewood Torch
+NameLoc=1094957
+
+Category=Utility
+Subsection=Light Sources: Miscellaneous
+Description=Candlewood Torch
+
+On=@Create
+Attr=AttrNewbie|AttrBlessed
+
+SpellChanneling=1
+FasterCasting=-1
+
+
+[ItemDef iLampOfSpirituality]
+ID=iLantern1
+Name=lamp of spirituality
+NameLoc=1115323		// lamp of spirituality
+
+Category=Utility
+Subsection=Light Sources: Miscellaneous
+Description=Lamp of Spirituality
+
+On=@Create
+Attr=AttrNewbie|AttrBlessed
+
+SpellChanneling=1
+
+
+[ItemDef iLampOfSingularity]
+ID=iLantern1
+Name=lamp of singularity
+NameLoc=1115399		// lamp of singularity
+
+Category=Utility
+Subsection=Light Sources: Miscellaneous
+Description=Lamp of Singularity
+
+On=@Create
+Attr=AttrNewbie|AttrBlessed
+
+SpellChanneling=1
+
+
+[ItemDef iIlshensLantern]
+ID=iLantern1
+Name=Ilshen's Lantern
+NameLoc=1063470		// Ilshen's Lantern
+
+Category=Utility
+Subsection=Light Sources: Miscellaneous
+Description=Ilshen's Lantern
+
+
+[ItemDef iLanternOfUmbra]
+ID=iLantern1
+Name=Lantern of Umbra
+NameLoc=1071352		// Lantern of Umbra
+
+Category=Utility
+Subsection=Light Sources: Miscellaneous
+Description=Lantern of Umbra
+
+
+[ItemDef iSmugglersLantern]
+ID=iLantern1
+Name=Smuggler's Lantern
+NameLoc=1071521		// Smuggler's Lantern
+
+Category=Utility
+Subsection=Light Sources: Miscellaneous
+Description=Smuggler's Lantern
+
+
+[ItemDef iLanternOfCounselor]
+ID=iLantern1
+Name=Lantern of Counselor (Legend)
+NameLoc=1071561		// Lantern of Counselor (Legend)
+
+Category=Utility
+Subsection=Light Sources: Miscellaneous
+Description=Lantern of Counselor (Legend)
+
+
+[EOF]

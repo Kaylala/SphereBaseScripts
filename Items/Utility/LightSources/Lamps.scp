@@ -1,0 +1,405 @@
+[ItemDef 0B20]
+DefName=iLampPostLit1
+Name=lamp post
+NameLoc=1022848
+Type=tLitLight
+TData3=iLampPost1
+Weight=255
+
+Category=Utility
+Subsection=Light Sources
+Description=Lamp Post 1 (Lit)
+
+On=@Create
+MoreZ=29
+
+
+[ItemDef 0B21]
+DefName=iLampPost1
+Name=lamp post
+NameLoc=1022849
+Type=tUnlitLight
+TData3=iLampPostLit1
+Weight=255
+
+Category=Utility
+Subsection=Light Sources
+Description=Lamp Post 1 (Unlit)
+
+
+[ItemDef 0B22]
+DefName=iLampPostLit2
+Name=lamp post
+NameLoc=1022850
+Type=tLitLight
+TData3=iLampPost2
+Weight=255
+
+Category=Utility
+Subsection=Light Sources
+Description=Lamp Post 2 (Lit)
+
+On=@Create
+MoreZ=29
+
+
+[ItemDef 0B23]
+DefName=iLampPost2
+Name=lamp post
+NameLoc=1022851
+Type=tUnlitLight
+TData3=iLampPostLit2
+Weight=255
+
+Category=Utility
+Subsection=Light Sources
+Description=Lamp Post 2 (Unlit)
+
+
+[ItemDef 0B24]
+DefName=iLampPostLit3
+Name=lamp post
+NameLoc=1022852
+Type=tLitLight
+TData3=iLampPost3
+Weight=255
+
+Category=Utility
+Subsection=Light Sources
+Description=Lamp Post 3 (Lit)
+
+On=@Create
+MoreZ=29
+
+
+[ItemDef 0B25]
+DefName=iLampPost3
+Name=lamp post
+NameLoc=1022853
+Type=tUnlitLight
+TData3=iLampPostLit3
+Weight=255
+
+Category=Utility
+Subsection=Light Sources
+Description=Lamp Post 3 (Unlit)
+
+
+[ItemDef 04C44]
+DefName=iBirdLamp
+Name=bird lamp
+NameLoc=1098396
+Type=tUnlitLight
+TData3=iBirdLampLit
+Can=CanIFlip
+Weight=255
+DupeList=04C46
+
+Category=Utility
+Subsection=Light Sources
+Description=Bird Lamp (Unlit)
+
+
+[ItemDef 04C45]
+DefName=iBirdLampLit
+Name=bird lamp
+NameLoc=1098397
+Type=tLitLight
+TData3=iBirdLamp1
+Can=CanIFlip
+Weight=255
+DupeList=04C47
+
+Category=Utility
+Subsection=Light Sources
+Description=Bird Lamp (Lit)
+
+On=@Create
+MoreZ=1
+
+
+[ItemDef 04C46]
+DupeItem=04C44
+NameLoc=1098398
+Type=tUnlitLight
+TData3=04C47
+
+
+[ItemDef 04C47]
+DupeItem=04C45
+NameLoc=1098399
+Type=tlitLight
+TData3=04C46
+
+On=@Create
+MoreZ=1
+
+
+[ItemDef 04C48]
+DefName=iKoiLamp
+Name=koi lamp
+NameLoc=1098400
+Type=tUnlitLight
+TData3=iKoiLampLit
+Can=CanIFlip
+Weight=255
+DupeList=04C4A
+
+Category=Utility
+Subsection=Light Sources
+Description=Koi Lamp (UnLit)
+
+
+[ItemDef 04C49]
+DefName=iKoiLampLit
+Name=koi lamp
+NameLoc=1098401
+Type=tLitLight
+TData3=iKoiLamp
+Can=CanIFlip
+Weight=255
+DupeList=04C4B
+
+Category=Utility
+Subsection=Light Sources
+Description=Koi Lamp (Lit)
+
+On=@Create
+MoreZ=1
+
+
+[ItemDef 04C4A]
+DupeItem=04C48
+NameLoc=1098402
+Type=tUnlitLight
+TData3=04C4B
+
+
+[ItemDef 04C4B]
+DupeItem=04C48
+NameLoc=1098403
+Type=tlitLight
+TData3=04C4A
+
+On=@Create
+MoreZ=1
+
+
+[ItemDef 04C4C]
+DefName=iDragonLamp
+Name=dragon lamp
+NameLoc=1098404
+Type=tUnlitLight
+TData3=iDragonLampLit
+Can=CanIFlip
+Weight=1
+DupeList=04C4E
+
+Category=Utility
+Subsection=Light Sources
+Description=Dragon Lamp (UnLit)
+
+
+[ItemDef 04C4D]
+DefName=iDragonLampLit
+Name=dragon lamp
+NameLoc=1098405
+Type=tLitLight
+TData3=iDragonLamp
+Can=CanIFlip
+Weight=255
+DupeList=04C4F
+
+Category=Utility
+Subsection=Light Sources
+Description=Dragon Lamp (Lit)
+
+On=@Create
+MoreZ=1
+
+
+[ItemDef 04C4E]
+DupeItem=04C4C
+NameLoc=1098406
+Type=tUnlitLight
+TData3=04C4F
+
+
+[ItemDef 04C4F]
+DupeItem=04C4D
+NameLoc=1098407
+Type=tlitLight
+TData3=04C4F
+
+On=@Create
+MoreZ=1
+
+
+[ItemDef 04C50]
+DefName=iStainedGlassLamp
+Name=stained glass lamp
+NameLoc=1098408
+Type=tUnlitLight
+TData3=iStainedGlassLampLit
+Can=CanIFlip
+Weight=1
+
+Category=Utility
+Subsection=Light Sources
+Description=Stained Glass Lamp (UnLit)
+
+
+[ItemDef 04C51]
+DefName=iStainedGlassLampLit
+Name=stained glass lamp
+NameLoc=1098409
+Type=tLitLight
+TData3=iStainedGlassLamp
+Can=CanIFlip
+Weight=1
+
+Category=Utility
+Subsection=Light Sources
+Description=Stained Glass Lamp (Lit)
+
+On=@Create
+MoreZ=1
+
+
+[ItemDef 04C52]
+DefName=iTallLamp
+Name=tall lamp
+NameLoc=1098410
+Type=tUnlitLight
+TData3=iTallLampLit
+Can=CanIFlip
+Weight=1
+DupeList=04C54
+
+Category=Utility
+Subsection=Light Sources
+Description=Tall Lamp (UnLit)
+
+
+[ItemDef 04C53]
+DefName=iTallLampLit
+Name=tall lamp
+NameLoc=1098411
+Type=tLitLight
+TData3=iTallLamp
+Can=CanIFlip
+Weight=255
+DupeList=04C55
+
+Category=Utility
+Subsection=Light Sources
+Description=Tall Lamp (Lit)
+
+On=@Create
+MoreZ=29
+
+
+[ItemDef 04C54]
+DupeItem=04C52
+NameLoc=1098412
+Type=tUnlitLight
+TData3=04C55
+
+
+[ItemDef 04C55]
+DupeItem=04C53
+NameLoc=1098413
+Type=tlitLight
+TData3=04C54
+
+On=@Create
+MoreZ=29
+
+
+[ItemDef 04C56]
+DefName=iTallDoubleLamp
+Name=tall double lamp
+NameLoc=1098414
+Type=tUnlitLight
+TData3=iTallDoubleLampLit
+Can=CanIFlip
+Weight=1
+DupeList=04C58
+
+Category=Utility
+Subsection=Light Sources
+Description=Tall Double Lamp (UnLit)
+
+
+[ItemDef 04C57]
+DefName=iTallDoubleLampLit
+Name=tall double lamp
+NameLoc=1098415
+Type=tLitLight
+TData3=iTallDoubleLamp
+Can=CanIFlip
+Weight=255
+DupeList=04C59
+
+Category=Utility
+Subsection=Light Sources
+Description=Tall Double Lamp (Lit)
+
+On=@Create
+MoreZ=29
+
+
+[ItemDef 04C58]
+DupeItem=04C56
+NameLoc=1098416
+Type=tUnlitLight
+TData3=04C59
+
+
+[ItemDef 04C59]
+DupeItem=04C57
+NameLoc=1098417
+Type=tlitLight
+TData3=04C58
+
+On=@Create
+MoreZ=29
+
+
+// Original Blank CliLocs for these items.
+//1097753;
+//1097754;
+[ItemDef 049C1]
+DefName=iTableLampLit
+Name=table lamp
+NameLoc=1151220		// table lamp
+Type=tLitLight
+TData3=iTableLamp
+Weight=3
+
+Category=Utility
+Subsection=Light Sources: Lamps
+Description=Table Lamp (Lit)
+
+On=@Create
+BaseWeight=1		// Clean Up Britannia 2011 Reward Option weight
+
+
+[ItemDef 049C2]
+DefName=iTableLamp
+Name=table lamp
+NameLoc=1151220		// table lamp
+Type=tUnlitLight
+TData3=iTableLamp
+Weight=3
+
+Category=Utility
+Subsection=Light Sources: Lamps
+Description=Table Lamp (Unlit)
+
+On=@Create
+MoreZ=2
+BaseWeight=1		// Clean Up Britannia 2011 Reward Option weight
+
+
+[EOF]

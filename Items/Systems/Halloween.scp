@@ -1,6 +1,634 @@
 [Comment CliLocs for Pumpkins]
-1154350;Carved By ~1_NAME~
-1154339;*You carefully carve the pumpkin*
+Possible Pumpkin Names that there were no Localization assets for.
+Jack O' Lantern
+Jack-O-Lantern
+
+1113989;soul harvester
+1113990;murky morph potion
+
+
+[ItemDef 0992D]
+DefName=iCarvingKit
+Name=carving kit
+NameLoc=1123237
+Type=tNormal
+Can=CanIFlip
+Weight=1
+DupeList=0992E
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Carving Kit
+
+[ItemDef 0992E]
+NameLoc=1123238
+DupeItem=0992D
+
+
+[ItemDef iJackOLanternCarvingKit]
+ID=iCarvingKit
+Name=Jack O' Lantern Carving Kit
+NameLoc=1154271		// Jack O' Lantern Carving Kit
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Jack O' Lantern Carving Kit
+
+On=@DClick
+Src.SMsgLoc -1,1154273	// What do you wish to carve?
+Target
+Return 1
+
+On=@TargOn_Item
+If (<ArgO.TopObj> != <Src.UID>)
+ Return 1
+EndIf
+
+If (<ArgO.DispIDDec> == 0992F)
+ Src.SMsgLoc -1,1154339		// *You carefully carve the pumpkin*
+ If !(<R99>)
+  Serv.NewItem=iCarvedPumpkin12
+ Else
+  Serv.NewItem={iCarvedPumpkin3 1 iCarvedPumpkin4 1 iCarvedPumpkin5 1 iCarvedPumpkin6 1 iCarvedPumpkin7 1 iCarvedPumpkin8 1 iCarvedPumpkin9 1 iCarvedPumpkin10 1 iCarvedPumpkin11 1}
+ EndIf
+ New.BaseWeight=<ArgO.BaseWeight>
+ New.Tag.pCharName=<Src.Name>
+ New.Cont=<Src>
+ Consume <ArgO>
+Else
+ Src.SMsgLoc -1,1154272		// That is not suitable for carving.
+EndIf
+Return 1
+
+
+[ItemDef 0992F]
+DefName=iCarvablePumpkin
+Name=Carvable Pumpkin
+NameLoc=1123239		// Carvable Pumpkin
+Type=tNormal
+Weight=1
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Carvable Pumpkin
+
+On=@Create
+BaseWeight={15 25}
+
+
+[ItemDef 09930]
+DefName=iRottenPumpkin
+Name=Rotten Pumpkin
+NameLoc=1123240		// Rotten Pumpkin
+Type=tNormal
+Weight=1
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Rotten Pumpkin
+
+On=@Create
+BaseWeight={15 25}
+
+
+[ItemDef 04691]
+DefName=iCarvedPumpkinLit1
+Name=carved pumpkin
+NameLoc=1096937
+Type=tLitLight
+TData3=iCarvedPumpkin1
+Weight=1
+TEvents=tLitPumpkin
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Carved Pumpkin 1 (Lit)
+
+On=@Create
+MoreZ=2
+
+[ItemDef 04692]
+NameLoc=1096938
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Carved Pumpkin 1 (Lit) (Anim Frame)
+
+[ItemDef 04693]
+NameLoc=1096939
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Carved Pumpkin 1 (Lit) (Anim Frame)
+
+
+[ItemDef 04694]
+DefName=iCarvedPumpkin1
+Name=carved pumpkin
+NameLoc=1096940
+Type=tUnlitLight
+TData3=iCarvedPumpkinLit1
+Weight=1
+TEvents=tUnlitPumpkin
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Carved Pumpkin 1 (Unlit)
+
+
+[ItemDef 04695]
+DefName=iCarvedPumpkinLit2
+Name=carved pumpkin
+NameLoc=1096941
+Type=tLitLight
+TData3=iCarvedPumpkin2
+Weight=1
+TEvents=tLitPumpkin
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Carved Pumpkin 2 (Lit)
+
+On=@Create
+MoreZ=2
+
+[ItemDef 04696]
+NameLoc=1096942
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Carved Pumpkin 2 (Lit) (Anim Frame)
+
+[ItemDef 04697]
+NameLoc=1096943
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Carved Pumpkin 2 (Lit) (Anim Frame)
+
+
+[ItemDef 04698]
+DefName=iCarvedPumpkin2
+Name=carved pumpkin
+NameLoc=1096944
+Type=tUnlitLight
+TData3=iCarvedPumpkinLit2
+Weight=1
+TEvents=tUnlitPumpkin
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Carved Pumpkin 2 (Unlit)
+
+
+[ItemDef 09931]
+DefName=iCarvedPumpkinLit3
+Name=carved pumpkin
+NameLoc=1096937
+Type=tLitLight
+TData3=iCarvedPumpkin3
+Weight=1
+TEvents=tLitPumpkin
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Carved Pumpkin 3 (Lit)
+
+On=@Create
+MoreZ=1
+
+[ItemDef 09932]
+NameLoc=1096937
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Carved Pumpkin 3 (Lit) (Anim Frame)
+
+[ItemDef 09933]
+NameLoc=1096937
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Carved Pumpkin 3 (Lit) (Anim Frame)
+
+
+[ItemDef 09934]
+DefName=iCarvedPumpkin3
+Name=carved pumpkin
+NameLoc=1096937
+Type=tUnlitLight
+TData3=iCarvedPumpkinLit3
+Weight=1
+TEvents=tUnlitPumpkin
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Carved Pumpkin 3 (Unlit)
+
+
+[ItemDef 09935]
+DefName=iCarvedPumpkin4
+Name=carved pumpkin
+NameLoc=1096937
+Type=tUnlitLight
+TData3=iCarvedPumpkinLit4
+Weight=1
+TEvents=tUnlitPumpkin
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Carved Pumpkin 4 (Unlit)
+
+
+[ItemDef 09936]
+DefName=iCarvedPumpkinLit4
+Name=carved pumpkin
+NameLoc=1096937
+Type=tUnlitLight
+TData3=iCarvedPumpkin4
+Weight=1
+TEvents=tLitPumpkin
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Carved Pumpkin 4 (Lit)
+
+On=@Create
+MoreZ=1
+
+[ItemDef 09937]
+NameLoc=1096937
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Carved Pumpkin 4 (Lit) (Anim Frame)
+
+[ItemDef 09938]
+NameLoc=1096937
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Carved Pumpkin 4 (Lit) (Anim Frame)
+
+
+[ItemDef 09939]
+DefName=iCarvedPumpkin5
+Name=carved pumpkin
+NameLoc=1096937
+Type=tUnlitLight
+TData3=iCarvedPumpkinLit5
+Weight=1
+TEvents=tUnlitPumpkin
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Carved Pumpkin 5 (Unlit)
+
+
+[ItemDef 0993A]
+DefName=iCarvedPumpkinLit5
+Name=carved pumpkin
+NameLoc=1096937
+Type=tUnlitLight
+TData3=iCarvedPumpkin5
+Weight=1
+TEvents=tLitPumpkin
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Carved Pumpkin 5 (Lit)
+
+On=@Create
+MoreZ=1
+
+[ItemDef 0993B]
+NameLoc=1096937
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Carved Pumpkin 5 (Lit) (Anim Frame)
+
+[ItemDef 0993C]
+NameLoc=1096937
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Carved Pumpkin 5 (Lit) (Anim Frame)
+
+
+[ItemDef 0993D]
+DefName=iCarvedPumpkin6
+Name=carved pumpkin
+NameLoc=1096937
+Type=tUnlitLight
+TData3=iCarvedPumpkinLit6
+Weight=1
+TEvents=tUnlitPumpkin
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Carved Pumpkin 6 (Unlit)
+
+
+[ItemDef 0993E]
+DefName=iCarvedPumpkinLit6
+Name=carved pumpkin
+NameLoc=1096937
+Type=tUnlitLight
+TData3=iCarvedPumpkin6
+Weight=1
+TEvents=tLitPumpkin
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Carved Pumpkin 6 (Lit)
+
+On=@Create
+MoreZ=1
+
+[ItemDef 0993F]
+NameLoc=1096937
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Carved Pumpkin 6 (Lit) (Anim Frame)
+
+[ItemDef 09940]
+NameLoc=1096937
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Carved Pumpkin 6 (Lit) (Anim Frame)
+
+
+[ItemDef 09941]
+DefName=iCarvedPumpkin7
+Name=carved pumpkin
+NameLoc=1096937
+Type=tUnlitLight
+TData3=iCarvedPumpkinLit7
+Weight=1
+TEvents=tUnlitPumpkin
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Carved Pumpkin 7 (Unlit)
+
+
+[ItemDef 09942]
+DefName=iCarvedPumpkinLit7
+Name=carved pumpkin
+NameLoc=1096937
+Type=tUnlitLight
+TData3=iCarvedPumpkin7
+Weight=1
+TEvents=tLitPumpkin
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Carved Pumpkin 7 (Lit)
+
+On=@Create
+MoreZ=1
+
+[ItemDef 09943]
+NameLoc=1096937
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Carved Pumpkin 7 (Lit) (Anim Frame)
+
+[ItemDef 09944]
+NameLoc=1096937
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Carved Pumpkin 7 (Lit) (Anim Frame)
+
+
+[ItemDef 09945]
+DefName=iCarvedPumpkin8
+Name=carved pumpkin
+NameLoc=1096937
+Type=tUnlitLight
+TData3=iCarvedPumpkinLit8
+Weight=1
+TEvents=tUnlitPumpkin
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Carved Pumpkin 8 (Unlit)
+
+
+[ItemDef 09946]
+DefName=iCarvedPumpkinLit8
+Name=carved pumpkin
+NameLoc=1096937
+Type=tUnlitLight
+TData3=iCarvedPumpkin8
+Weight=1
+TEvents=tLitPumpkin
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Carved Pumpkin 8 (Lit)
+
+On=@Create
+MoreZ=1
+
+[ItemDef 09947]
+NameLoc=1096937
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Carved Pumpkin 8 (Lit) (Anim Frame)
+
+[ItemDef 09948]
+NameLoc=1096937
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Carved Pumpkin 8 (Lit) (Anim Frame)
+
+
+[ItemDef 09949]
+DefName=iCarvedPumpkin9
+Name=carved pumpkin
+NameLoc=1096937
+Type=tUnlitLight
+TData3=iCarvedPumpkinLit9
+Weight=1
+TEvents=tUnlitPumpkin
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Carved Pumpkin 9 (Unlit)
+
+
+[ItemDef 0994A]
+DefName=iCarvedPumpkinLit9
+Name=carved pumpkin
+NameLoc=1096937
+Type=tUnlitLight
+TData3=iCarvedPumpkin9
+Weight=1
+TEvents=tLitPumpkin
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Carved Pumpkin 9 (Lit)
+
+On=@Create
+MoreZ=1
+
+[ItemDef 0994B]
+NameLoc=1096937
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Carved Pumpkin 9 (Lit) (Anim Frame)
+
+[ItemDef 0994C]
+NameLoc=1096937
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Carved Pumpkin 9 (Lit) (Anim Frame)
+
+
+[ItemDef 0994D]
+DefName=iCarvedPumpkin10
+Name=carved pumpkin
+NameLoc=1096937
+Type=tUnlitLight
+TData3=iCarvedPumpkinLit10
+Weight=1
+TEvents=tUnlitPumpkin
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Carved Pumpkin 10 (Unlit)
+
+
+[ItemDef 0994E]
+DefName=iCarvedPumpkinLit10
+Name=carved pumpkin
+NameLoc=1096937
+Type=tUnlitLight
+TData3=iCarvedPumpkin10
+Weight=1
+TEvents=tLitPumpkin
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Carved Pumpkin 10 (Lit)
+
+On=@Create
+MoreZ=1
+
+[ItemDef 0994f]
+NameLoc=1096937
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Carved Pumpkin 10 (Lit) (Anim Frame)
+
+[ItemDef 09950]
+NameLoc=1096937
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Carved Pumpkin 10 (Lit) (Anim Frame)
+
+
+[ItemDef 09951]
+DefName=iCarvedPumpkin11
+Name=carved pumpkin
+NameLoc=1096937
+Type=tUnlitLight
+TData3=iCarvedPumpkinLit11
+Weight=1
+TEvents=tUnlitPumpkin
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Carved Pumpkin 11 (Unlit)
+
+
+[ItemDef 09952]
+DefName=iCarvedPumpkinLit11
+Name=carved pumpkin
+NameLoc=1096937
+Type=tUnlitLight
+TData3=iCarvedPumpkin11
+Weight=1
+TEvents=tLitPumpkin
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Carved Pumpkin 11 (Lit)
+
+On=@Create
+MoreZ=1
+
+[ItemDef 09953]
+NameLoc=1096937
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Carved Pumpkin 11 (Lit) (Anim Frame)
+
+[ItemDef 09954]
+NameLoc=1096937
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Carved Pumpkin 11 (Lit) (Anim Frame)
+
+
+[ItemDef 09BD5]
+DefName=iCarvedPumpkin12
+Name=carved pumpkin
+NameLoc=1096937
+Type=tUnlitLight
+TData3=iCarvedPumpkinLit12
+Weight=1
+TEvents=tUnlitPumpkin
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Carved Pumpkin 12 (Unlit)
+
+
+[ItemDef 09BD6]
+DefName=iCarvedPumpkinLit12
+Name=carved pumpkin
+NameLoc=1096937
+Type=tUnlitLight
+TData3=iCarvedPumpkin12
+Weight=1
+TEvents=tLitPumpkin
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Carved Pumpkin 12 (Lit)
+
+On=@Create
+MoreZ=1
+
+[ItemDef 09BD7]
+NameLoc=1096937
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Carved Pumpkin 12 (Lit) (Anim Frame)
+
+[ItemDef 09BD8]
+NameLoc=1096937
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Carved Pumpkin 12 (Lit) (Anim Frame)
 
 
 [ItemDef 09955]

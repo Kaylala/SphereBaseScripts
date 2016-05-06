@@ -12,6 +12,7 @@ EndIf
 If (<FasterCasting>)
  Src.AddCliLoc 1060413,<FasterCasting>
 EndIf
+Src.AddCliLoc 1113985		// Lit
 Return 1
 
 
@@ -26,6 +27,35 @@ EndIf
 If (<FasterCasting>)
  Src.AddCliLoc 1060413,<FasterCasting>
 EndIf
+Src.AddCliLoc 1113986		// not Lit
+Return 1
+
+
+[TypeDef tLitPumpkin]
+On=@DClick
+Src.AddCliLoc 1113988		// You extinguish the Jack-O-Lantern
+Return 0
+
+On=@ClientTooltip
+NameCliLoc
+Src.AddCliLoc 1154350,<Tag0.pCharName>
+AttrCliLoc
+WeightCliLoc
+Src.AddCliLoc 1113985		// Lit
+Return 1
+
+
+[TypeDef tUnlitPumpkin]
+On=@DClick
+Src.AddCliLoc 1113987		// You light the Jack-O-Lantern
+Return 0
+
+On=@ClientTooltip
+NameCliLoc
+Src.AddCliLoc 1154350,<Tag0.pCharName>
+AttrCliLoc
+WeightCliLoc
+Src.AddCliLoc 1113986		// Unlit
 Return 1
 
 

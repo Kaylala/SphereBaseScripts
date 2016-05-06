@@ -1,0 +1,608 @@
+[ItemDef 0A1F]
+DefName=iLanternPost
+Name=lantern post
+NameLoc=1022591
+Type=tNormal
+Weight=255
+DupeList=0A20
+
+Category=Utility
+Subsection=Light Sources: Lanterns
+Description=Lantern Post
+
+[ItemDef 0A20]
+NameLoc=1022591
+DupeItem=0A1f
+
+
+[ItemDef 0A15]
+DefName=iLanternLit1
+Name=lantern
+NameLoc=1022581
+Type=tLitLight
+TData3=iLantern1
+Weight=2
+
+Category=Utility
+Subsection=Light Sources: Lanterns
+Description=Lantern 1 (Lit)
+
+On=@Create
+MoreZ=2
+
+[ItemDef 0A16]
+NameLoc=1022582
+
+Category=Utility
+Subsection=Light Sources: Lanterns
+Description=Lantern 1 (Anim Frames)
+
+[ItemDef 0A17]
+NameLoc=1022583
+
+Category=Utility
+Subsection=Light Sources: Lanterns
+Description=Lantern 1 (Anim Frames)
+
+
+[ItemDef 0A18]
+DefName=iLantern1
+Name=lantern
+NameLoc=1022584
+Type=tUnlitLight
+TData3=iLanternLit1
+Weight=2
+
+Category=Utility
+Subsection=Light Sources: Lanterns
+Description=Lantern 1 (Unlit)
+
+
+[ItemDef 0A22]
+DefName=iLanternLit2
+Name=lantern
+NameLoc=1022594
+Type=tLitLight
+TData3=iLantern2
+Weight=2
+
+Category=Utility
+Subsection=Light Sources: Lanterns
+Description=Lantern 2 (Lit)
+
+On=@Create
+MoreZ=2
+
+[ItemDef 0A23]
+NameLoc=1022595
+
+Category=Utility
+Subsection=Light Sources: Lanterns
+Description=Lantern 2 (Anim Frames)
+
+[ItemDef 0A24]
+NameLoc=1022596
+
+Category=Utility
+Subsection=Light Sources: Lanterns
+Description=Lantern 2 (Anim Frames)
+
+
+[ItemDef 0A25]
+DefName=iLantern2
+Name=lantern
+NameLoc=1022597
+Type=tUnlitLight
+TData3=iLanternLit2
+Weight=2
+
+Category=Utility
+Subsection=Light Sources: Lanterns
+Description=Lantern 2 (Unlit)
+
+
+[ItemDef 040FE]
+DefName=iLanternLit3
+Name=lantern
+Type=tLitLight
+Weight=2
+
+Category=Utility
+Subsection=Light Sources
+Description=Lantern 3 (Red) (Lit)
+
+On=@Create
+MoreZ=2
+
+On=@DClick
+If (<Type> == tLitLight)
+ Type=tUnlitLight
+ Update
+Else
+ Type=tlitLight
+ Update
+EndIf
+
+
+[ItemDef 040FF]
+DefName=iLanternLit4
+Name=lantern
+Type=tLitLight
+Weight=2
+
+Category=Utility
+Subsection=Light Sources: Lanterns
+Description=Lantern 4 (Blue) (Lit)
+
+On=@Create
+MoreZ=2
+
+On=@DClick
+If (<Type> == tLitLight)
+ Type=tUnlitLight
+ Update
+Else
+ Type=tlitLight
+ Update
+EndIf
+
+
+[ItemDef 04100]
+DefName=iLanternLit5
+Name=lantern
+Type=tLitLight
+Weight=2
+
+Category=Utility
+Subsection=Light Sources: Lanterns
+Description=Lantern 5 (Green) (Lit)
+
+On=@Create
+MoreZ=2
+
+On=@DClick
+If (<Type> == tLitLight)
+ Type=tUnlitLight
+ Update
+Else
+ Type=tlitLight
+ Update
+EndIf
+
+
+[ItemDef 04101]
+DefName=iLanternLit6
+Name=lantern
+Type=tLitLight
+Weight=2
+
+Category=Utility
+Subsection=Light Sources: Lanterns
+Description=Lantern 6 (Purple) (Lit)
+
+On=@Create
+MoreZ=2
+
+On=@DClick
+If (<Type> == tLitLight)
+ Type=tUnlitLight
+ Update
+Else
+ Type=tlitLight
+ Update
+EndIf
+
+
+[ItemDef 0A1A]
+DefName=iHangingLanternLit
+Name=hanging lantern
+NameLoc=1022586
+Type=tLitLight
+TData3=iHangingLantern
+Weight=255
+
+Category=Utility
+Subsection=Light Sources: Lanterns
+Description=Hanging Lantern (Lit)
+
+On=@Create
+MoreZ=2
+
+[ItemDef 0a1b]
+NameLoc=1022587
+
+Category=Utility
+Subsection=Light Sources: Lanterns
+Description=Hanging Lantern (Anim Frames)
+
+[ItemDef 0a1c]
+NameLoc=1022588
+
+Category=Utility
+Subsection=Light Sources: Lanterns
+Description=Hanging Lantern (Anim Frames)
+
+
+[ItemDef 0A1D]
+DefName=iHangingLantern
+Name=hanging lantern
+NameLoc=1022589
+Type=tUnlitLight
+TData3=iLanternLit
+Weight=255
+
+Category=Utility
+Subsection=Light Sources: Lanterns
+Description=Hanging Lantern (Unlit)
+
+
+[ItemDef 024BB]
+DefName=iShojiLanternLit
+Name=shoji lantern
+NameLoc=1029403
+Type=tLitLight
+TData3=iShojiLantern
+Weight=1
+
+Category=Utility
+Subsection=Light Sources: Lanterns
+Description=Shoji Lantern (Lit)
+
+On=@Create
+MoreZ=2
+
+
+[ItemDef 024BC]
+DefName=iShojiLantern
+Name=shoji lantern
+NameLoc=1029404
+Type=tUnlitLight
+TData3=iShojiLanternLit
+Weight=1
+
+Category=Utility
+Subsection=Light Sources: Lanterns
+Description=Shoji Lantern (Unlit)
+
+
+[ItemDef 024BD]
+DefName=iPaperLanternLit
+Name=paper lantern
+NameLoc=1029405
+Type=tLitLight
+TData3=iPaperLantern
+Weight=1
+
+Category=Utility
+Subsection=Light Sources: Lanterns
+Description=Paper Lantern (Lit)
+
+On=@Create
+MoreZ=2
+
+
+[ItemDef 024BE]
+DefName=iPaperLantern
+Name=paper lantern
+NameLoc=1029406
+Type=tUnlitLight
+TData3=iPaperLanternLit
+Weight=1
+
+Category=Utility
+Subsection=Light Sources: Lanterns
+Description=Paper Lantern (Unlit)
+
+
+[ItemDef 024BF]
+DefName=iTowerLanternLit
+Name=tower lantern
+NameLoc=1029407
+Type=tLitLight
+TData3=iTowerLantern
+Weight=1
+
+Category=Utility
+Subsection=Light Sources: Lanterns
+Description=Tower Lantern (Lit)
+
+On=@Create
+MoreZ=1
+
+
+[ItemDef 024C0]
+DefName=iTowerLantern
+Name=tower lantern
+NameLoc=1029408
+Type=tUnlitLight
+TData3=iTowerLanternLit
+Weight=1
+
+Category=Utility
+Subsection=Light Sources: Lanterns
+Description=Tower Lantern (Unlit)
+
+
+[ItemDef 024C1]
+DefName=iRedHangingLanternLit
+Name=red hanging lantern
+NameLoc=1029409
+Type=tLitLight
+TData3=iRedHangingLantern
+Can=CanIFlip
+Weight=1
+DupeList=024C3
+
+Category=Utility
+Subsection=Light Sources: Lanterns
+Description=Red Hanging Lantern (Lit)
+
+On=@Create
+MoreZ=1
+
+
+[ItemDef 024c2]
+DefName=iRedHangingLantern
+Name=red hanging lantern
+NameLoc=1029410
+Type=tUnlitLight
+TData3=iRedHangingLanternLit
+Weight=1
+DupeList=024C4
+
+Category=Utility
+Subsection=Light Sources: Lanterns
+Description=Red Hanging Lantern (Unlit)
+
+
+[ItemDef 024C3]
+DupeItem=024C1
+NameLoc=1029411
+Type=tLitLight
+TData3=024C4
+
+On=@Create
+MoreZ=1
+
+
+[ItemDef 024C4]
+DupeItem=024C2
+NameLoc=1029412
+Type=tUnlitLight
+TData3=024C3
+
+
+[ItemDef 024C5]
+DefName=iWhiteHangingLanternLit1
+Name=red hanging lantern
+NameLoc=1029413
+Type=tLitLight
+TData3=iWhiteHangingLantern1
+Can=CanIFlip
+Weight=1
+DupeList=024C7
+
+Category=Utility
+Subsection=Light Sources: Lanterns
+Description=White Hanging Lantern (Lit)
+
+On=@Create
+MoreZ=1
+
+
+[ItemDef 024C6]
+DefName=iWhiteHangingLantern
+Name=white hanging lantern
+NameLoc=1029414
+Type=tUnlitLight
+TData3=iWhiteHangingLanternLit
+Weight=1
+DupeList=024C8
+
+Category=Utility
+Subsection=Light Sources: Lanterns
+Description=White Hanging Lantern (Unlit)
+
+
+[ItemDef 024C7]
+DupeItem=024C5
+NameLoc=1029415
+Type=tLitLight
+TData3=024C8
+
+On=@Create
+MoreZ=1
+
+
+[ItemDef 024C8]
+DupeItem=024C6
+NameLoc=1029416
+Type=tLitUnlitLight
+TData3=024C7
+
+
+[ItemDef 024C9]
+DefName=iRoundPaperLanternLit
+Name=round paper lantern
+NameLoc=1029417
+Type=tLitLight
+TData3=iRoundPaperLantern
+Weight=1
+
+Category=Utility
+Subsection=Light Sources: Lanterns
+Description=Round Paper Lantern (Lit)
+
+On=@Create
+MoreZ=2
+
+
+[ItemDef 024ca]
+DefName=iRoundPaperLantern
+Name=round paper lantern
+NameLoc=1029418
+Type=tUnlitLight
+TData3=iRoundPaperLanternLit
+Weight=1
+
+Category=Utility
+Subsection=Light Sources: Lanterns
+Description=Round Paper Lantern (Unlit)
+
+
+[ItemDef 04C40]
+DefName=iDragonLantern
+Name=dragon lantern
+NameLoc=1098392
+Type=tUnlitLight
+TData3=iDragonLanternLit
+Can=CanIFlip
+Weight=255
+DupeList=04C42
+
+Category=Utility
+Subsection=Light Sources: Lanterns
+Description=Dragon Lantern (Unlit)
+
+
+[ItemDef 04C41]
+DefName=iDragonLanternLit
+Name=dragon lantern
+NameLoc=1098393
+Type=tLitLight
+TData3=iDragonLantern
+Can=CanIFlip
+Weight=255
+DupeList=04C43
+
+Category=Utility
+Subsection=Light Sources: Lanterns
+Description=Dragon Lantern (Lit)
+
+On=@Create
+MoreZ=1
+
+On=@ContextMenuRequest
+If (<DispIDDec> == 04C41)
+ Src.AddContextEntry 500,1011262	// on
+Else
+ Src.AddContextEntry 500,1011262,01	// on
+EndIf
+If (<DispIDDec> != 04C41)
+ Src.AddContextEntry 501,1011263	// off
+Else
+ Src.AddContextEntry 501,1011263,01	// off
+EndIf
+Return 1
+
+On=@ContextMenuSelect
+If (<ArgN1> == 500)
+ DispID=04CDE
+ Update
+EndIf
+If (<ArgN1> == 501)
+ DispID=04C41
+ Update
+EndIf
+
+
+// Animation Begin for 04C40
+[ItemDef 04CDE]
+Name=dragon lantern
+NameLoc=1098550
+TypeDef=tLitLight
+TData3=04C40
+Can=CanIFlip
+Weight=255
+DupeList=04CDF,04CE0,04CE1
+
+Category=Utility
+Subsection=Light Sources: Lanterns
+Description=Dragon Lantern (Anim Frames)
+
+On=@Create
+MoreZ=1
+
+[ItemDef 04CDF]
+NameLoc=1098551
+DupeItem=04CDE
+
+[ItemDef 04CE0]
+NameLoc=1098552
+DupeItem=04CDE
+
+[ItemDef 04CE1]
+NameLoc=1098553
+DupeItem=04CDE
+
+
+[ItemDef 04C42]
+DupeItem=04C40
+NameLoc=1098394
+Type=tUnlitLight
+TData3=04C43
+
+
+[ItemDef 04C43]
+DupeItem=04C41
+NameLoc=1098395
+Type=tLitLight
+TData3=04C42
+
+On=@Create
+MoreZ=1
+
+On=@ContextMenuRequest
+If (<DispIDDec> == 04C43)
+ Src.AddContextEntry 500,1011262	// on
+Else
+ Src.AddContextEntry 500,1011262,01	// on
+EndIf
+If (<DispIDDec> != 04C43)
+ Src.AddContextEntry 501,1011263	// off
+Else
+ Src.AddContextEntry 501,1011263,01	// off
+EndIf
+Return 1
+
+On=@ContextMenuSelect
+If (<ArgN1> == 500)
+ DispID=04CE2
+ Update
+EndIf
+If (<ArgN1> == 501)
+ DispID=04C43
+ Update
+EndIf
+
+
+// Animation Begin for 04C43
+[ItemDef 04CE2]
+Name=dragon lantern
+NameLoc=1098554
+TypeDef=tLitLight
+TData3=04C42
+Weight=255
+DupeList=04CE3,04CE4,04CE5
+
+Category=Utility
+Subsection=Light Sources: Lanterns
+Description=Dragon Lantern (Anim Frames)
+
+On=@Create
+MoreZ=1
+
+[ItemDef 04CE3]
+NameLoc=1098555
+DupeItem=04CE2
+
+[ItemDef 04CE4]
+NameLoc=1098556
+DupeItem=04CE2
+
+[ItemDef 04CE5]
+NameLoc=1098557
+DupeItem=04CE2
+
+
+[EOF]

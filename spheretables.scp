@@ -59,6 +59,7 @@ Scripts/Items/Structures/Doors/
 Scripts/Items/Structures/Floors/
 Scripts/Items/Systems/
 Scripts/Items/Utility/
+Scripts/Items/Utility/LightSources/
 // Mobiles
 Scripts/Mobiles/
 Scripts/Mobiles/Animals/

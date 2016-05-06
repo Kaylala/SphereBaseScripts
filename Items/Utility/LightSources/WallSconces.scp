@@ -1,0 +1,97 @@
+[ItemDef 09FB]
+DefName=iWallSconce
+Name=wall sconce
+NameLoc=1022555
+Type=tUnlitLight
+TData3=iWallSconceLit
+Can=CanIFlip
+Weight=255
+DupeList=0A00
+
+Category=Utility
+Subsection=Light Sources: Wall Sconces
+Description=Wall Sconce (Unlit)
+
+
+[ItemDef 09fc]
+DefName=iWallSconceEmpty
+Name=wall sconce
+NameLoc=1022556
+Type=tNormal
+Can=CanIFlip
+Weight=255
+DupeList=0A01
+
+Category=Utility
+Subsection=Light Sources: Wall Sconces
+Description=Wall Sconce (Empty)
+
+
+[ItemDef 09fd]
+DefName=iWallSconceLit
+Name=wall sconce
+NameLoc=1022557
+Type=tLitLight
+Can=CanIFlip
+TData3=iWallSconce
+Weight=255
+DupeList=0A02
+
+Category=Utility
+Subsection=Light Sources: Wall Sconces
+Description=Wall Sconce (Lit)
+
+On=@Create
+MoreZ=19
+
+[ItemDef 09fe]
+NameLoc=1022558
+
+Category=Utility
+Subsection=Light Sources: Wall Sconces
+Description=Wall Sconce (Lit) (Anim Frame)
+
+[ItemDef 09ff]
+NameLoc=1022559
+
+Category=Utility
+Subsection=Light Sources: Wall Sconces
+Description=Wall Sconce (Lit) (Anim Frame)
+
+[ItemDef 0a00]
+DupeItem=09FB
+NameLoc=1022560
+Type=tUnlitLight
+TData3=0A02
+
+
+[ItemDef 0a01]
+DupeItem=09FC
+NameLoc=1022561
+
+
+[ItemDef 0A02]
+DupeItem=09FD
+NameLoc=1022562
+Type=tLitLight
+TData3=0A00
+
+On=@Create
+MoreZ=16
+
+[ItemDef 0a03]
+NameLoc=1022563
+
+Category=Utility
+Subsection=Light Sources: Wall Sconces
+Description=Wall Sconce (Lit) (Anim Frame)
+
+[ItemDef 0a04]
+NameLoc=1022564
+
+Category=Utility
+Subsection=Light Sources: Wall Sconces
+Description=Wall Sconce (Lit) (Anim Frame)
+
+
+[EOF]

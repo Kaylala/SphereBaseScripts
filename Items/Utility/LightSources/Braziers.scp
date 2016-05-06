@@ -1,0 +1,68 @@
+[ItemDef 0E31]
+DefName=iBrazier1
+Name=brazier
+NameLoc=1023633
+Type=tLitLight
+Weight=255
+
+Category=Utility
+Subsection=Light Sources: Braziers
+Description=Brazier 1
+
+On=@Create
+MoreZ=2
+//BaseWeight=10		// Player Version weight
+
+[ItemDef 0E32]
+NameLoc=1023634
+
+[ItemDef 0E33]
+NameLoc=1023635
+
+
+[ItemDef 019AA]
+DefName=iBrazier2
+Name=brazier
+NameLoc=1026570
+Type=tLitLight
+Weight=255
+
+Category=Utility
+Subsection=Light Sources: Braziers
+Description=Brazier 2
+
+On=@Create
+MoreZ=1
+
+
+[ItemDef 019BB]
+DefName=iBrazier3
+Name=brazier
+NameLoc=1026587
+Type=tLitLight
+Weight=5
+
+Category=Utility
+Subsection=Light Sources: Braziers
+Description=Brazier 3
+
+On=@Create
+MoreZ=1
+
+
+[ItemDef 01F2B]
+DefName=iBrazier4
+Name=brazier
+NameLoc=1027979
+Type=tLitLight
+Weight=5	// Estimable
+
+Category=Utility
+Subsection=Light Sources: Braziers
+Description=Brazier 4
+
+On=@Create
+MoreZ=1		// Estimable
+
+
+[EOF]

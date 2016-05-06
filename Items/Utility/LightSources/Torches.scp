@@ -1,0 +1,96 @@
+[ItemDef 088c]
+DefName=iTikiTorch
+Name=tiki torch
+//NameLoc=1022188	// blank
+Type=tLitLight
+Weight=255
+
+Category=Utility
+Subsection=Light Sources: Torches
+Description=Tiki Torch
+
+On=@Create
+MoreZ=29
+
+On=@DClick
+If (<Type> == tLitLight)
+ Type=tUnlitLight
+Else
+ Type=tLitLight
+EndIf
+
+
+[ItemDef 0a12]
+DefName=iTorchLit
+Name=torch%es
+NameLoc=1022578
+Type=tLitLight
+TData3=iTorch
+Weight=3
+
+Category=Utility
+Subsection=Light Sources: Torches
+Description=Torch (Lit)
+
+On=@Create
+BaseWeight=1
+MoreZ=2
+
+ON=@Equip
+Src.FindLayer.2.Amount=1
+Return 0
+
+ON=@UnEquip
+If (<Src.FindLayer.2.Amount> > 1)
+ Src.FindLayer.2.Amount=1
+EndIf
+Return 0
+
+[ItemDef 0a13]
+NameLoc=1022578
+DupeItem=0a12
+
+Category=Utility
+Subsection=Light Sources: Torches
+Description=Torch (Lit) (Anim Frame)
+
+[ItemDef 0a14]
+NameLoc=1022578
+DupeItem=0a12
+
+Category=Utility
+Subsection=Light Sources: Torches
+Description=Torch (Lit) (Anim Frame)
+
+
+[ItemDef 0f64]
+DefName=iTorch
+Name=torch%es
+NameLoc=1023940
+Type=tUnlitLight
+TData3=iTorchLit
+Can=CanIFlip|CanIStack
+Layer=LayerHand2
+Weight=1
+DupeList=0f6b
+
+Category=Utility
+Subsection=Light Sources: Torches
+Description=Torch (Unlit)
+
+ON=@Equip
+Src.FindLayer.2.Amount=1
+Return 0
+
+ON=@UnEquip
+If (<Src.FindLayer.2.Amount> > 1)
+ Src.FindLayer.2.Amount=1
+EndIf
+Return 0
+
+[ItemDef 0f6b]
+NameLoc=1023947
+DupeItem=0f64
+
+
+[EOF]

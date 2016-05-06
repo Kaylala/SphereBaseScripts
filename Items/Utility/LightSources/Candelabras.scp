@@ -1,0 +1,137 @@
+[ItemDef 0A27]
+DefName=iCandelabra1
+Name=candelabra
+NameLoc=1022599
+Type=tUnlitLight
+TData3=iCandelabraLit1
+Weight=3
+SkillMake=Tinkering 550
+Resources=4 iIronIngot
+Material=tIngot
+
+Category=Utility
+Subsection=Light Sources: Candles
+Description=Candelabra 1 (UnLit)
+
+
+[ItemDef 0B1D]
+DefName=iCandelabraLit1
+Name=candelabra
+NameLoc=1022845
+Type=tLitLight
+TData3=iCandelabra1
+Weight=10
+
+Category=Utility
+Subsection=Light Sources: Candles
+Description=Candelabra 1 (Lit)
+
+On=@Create
+MoreZ=1
+BaseWeight=3
+
+[ItemDef 0b1e]
+NameLoc=1022846
+
+Category=Utility
+Subsection=Light Sources: Candles
+Description=Candelabra 1 (Lit) (Anim Frame)
+
+[ItemDef 0b1f]
+NameLoc=1022847
+
+Category=Utility
+Subsection=Light Sources: Candles
+Description=Candelabra 1 (Lit) (Anim Frame)
+
+
+[ItemDef 0A29]
+DefName=iCandelabra2
+Name=candelabra
+NameLoc=1022601
+Type=tUnlitLight
+TData3=iCandelabraLit2
+Weight=255
+
+Category=Utility
+Subsection=Light Sources: Candles
+Description=Candelabra 2 (UnLit)
+
+
+[ItemDef 0B26]
+DefName=iCandelabraLit2
+Name=candelabra
+NameLoc=1022854
+Type=tLitLight
+TData3=iCandelabra2
+Weight=10
+
+Category=Utility
+Subsection=Light Sources: Candles
+Description=Candelabra 2 (Lit)
+
+On=@Create
+MoreZ=29
+
+[ItemDef 0B27]
+NameLoc=1022855
+
+Category=Utility
+Subsection=Light Sources: Candles
+Description=Candelabra 2 (Lit) (Anim Frame)
+
+[ItemDef 0B28]
+NameLoc=1022856
+
+Category=Utility
+Subsection=Light Sources: Candles
+Description=Candelabra 2 (Lit) (Anim Frame)
+
+
+[ItemDef 04039]
+DefName=iTerMurStyleCandelabra
+Name=Ter-Mur style candelabra
+NameLoc=1095313
+Type=tUnlitLight
+TData3=iTerMurStyleCandelabraLit
+Weight=10
+SkillMake=Tinkering 550
+Resources=4 iIronIngot
+Material=tIngot
+
+Category=Utility
+Subsection=Light Sources
+Description=Ter-Mur Style Candelabra (Unlit)
+
+
+[ItemDef 040BE]
+DefName=iTerMurStyleCandelabraLit
+Name=Ter-Mur style candelabra
+NameLoc=1095313
+Type=tLitLight
+TData3=iTerMurStyleCandelabra
+Weight=10
+
+Category=Utility
+Subsection=Light Sources
+Description=Ter-Mur Style Candelabra (Lit)
+
+On=@Create
+MoreZ=29
+
+[ItemDef 040bf]
+NameLoc=1095313
+
+Category=Utility
+Subsection=Light Sources
+Description=Ter-Mur Style Candelabra (Lit) (Anim Frame)
+
+[ItemDef 040c0]
+NameLoc=1095313
+
+Category=Utility
+Subsection=Light Sources
+Description=Ter-Mur Style Candelabra (Lit) (Anim Frame)
+
+
+[EOF]

@@ -4803,10 +4803,6 @@ DupeList=09707
 //Combination Chest
 DupeItem=09706
 
-[ItemDef 0992d]
-//Pumpkin Carving Kit
-[ItemDef 0992e]
-//Pumpkin Carving Kit
 
 
 [ItemDef 075bf]
