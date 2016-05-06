@@ -179,7 +179,7 @@ WeightCliLoc
 Return 1
 
 
-[ItemDef 0995d]
+[ItemDef 0995D]
 DefName=iHeadOnASpike9
 Name=Head on a Spike
 NameLoc=
@@ -201,7 +201,7 @@ WeightCliLoc
 Return 1
 
 
-[ItemDef 0995e]
+[ItemDef 0995E]
 DefName=iHeadOnASpike10
 Name=Head on a Spike
 NameLoc=
@@ -223,7 +223,7 @@ WeightCliLoc
 Return 1
 
 
-[ItemDef 0995f]
+[ItemDef 0995F]
 DefName=iHeadOnASpike11
 Name=Head on a Spike
 NameLoc=
@@ -243,6 +243,53 @@ On=@ClientTooltip
 Src.AddCliLoc 1154355,<Tag0.Name>	// ~1_NAME~'s Head on a Spike
 WeightCliLoc
 Return 1
+
+
+[ItemDef iLanternOfSouls]
+ID=iShojiLantern
+Name=Lantern of Souls
+NameLoc=1061618		// Lantern of Souls
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Lantern of Souls
+
+On=@Create
+Color=
+
+
+[ItemDef iTwilightLantern]
+ID=iLantern1
+Name=Twilight Lantern
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Twilight Lantern
+
+On=@Create
+Attr=AttrMagic
+Color=
+
+SpellChanneling=1
+
+
+[ItemDef iLanternOfLight]
+ID=iLantern1
+Name=Lantern of Light
+NameLoc=1155598		// [Your Character Name]'s Lantern of Light
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Lantern of Light
+
+On=@Create
+Tag.pCharName=0
+
+On=@DropOn_Item
+If !(<Tag0.pCharName>)
+ Tag.pCharName=<ArgO.TopObj.Name>
+ NameLoc=1155597		// ~1_NAME~'s Lantern of Light
+EndIf
 
 
 [EOF]

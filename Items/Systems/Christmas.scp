@@ -1,0 +1,43 @@
+[ItemDef 02332]
+DefName=iFireflies1
+Name=fireflies
+NameLoc=1029010
+Type=tLitLight
+Weight=255
+
+Category=Systems
+Subsection=Holidays: Christmas
+Description=Fireflies 1
+
+[ItemDef 02333]
+NameLoc=1029011
+
+[ItemDef 02334]
+NameLoc=1029012
+
+[ItemDef 02335]
+NameLoc=1029013
+
+
+[ItemDef 02336]
+DefName=iFireflies2
+Name=fireflies
+NameLoc=1029014
+Type=tLitLight
+Weight=255
+
+Category=Systems
+Subsection=Holidays: Christmas
+Description=Fireflies 2
+
+[ItemDef 02337]
+NameLoc=1029015
+
+[ItemDef 02338]
+NameLoc=1029016
+
+[ItemDef 02339]
+NameLoc=1029017
+
+
+[EOF]
