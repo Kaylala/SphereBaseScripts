@@ -1,0 +1,77 @@
+[ItemDef 0423A]
+DefName=iBlackPowder
+Name=black powder
+NameLoc=1095826
+Type=tNormal
+Can=CanIStack
+Weight=1
+SkillMake=Alchemy 650
+Resources=6 iSaltpeter,1 iCharcoal,1 iSulfurousAsh
+Value=100
+
+Category=Utility
+Subsection=Cannon Supplies
+Description=Black Powder
+
+On=@Create
+Color=0455
+
+
+[ItemDef iPotash]
+ID=iBlackPowder
+Name=saltpeter
+NameLoc=1116319
+Type=tNormal
+Can=CanIStack
+Weight=1
+SkillMake=Alchemy 0
+Resources=1 iBoard,1 iPitcherOfWater
+Value=10
+
+Category=Utility
+Subsection=Cannon Supplies
+Description=Potash
+
+On=@Create
+Color=0963
+
+
+[ItemDef iMatchCord]
+ID=iRollOfString
+Name=match cord
+NameLoc=1116304
+Type=tNormal
+Can=CanIStack
+Weight=1
+SkillMake=Alchemy 250
+Resources=1 iBallOfYarn,1 iPitcherOfWater,1 iSaltpeter,1 iPotash
+Value=10
+
+Category=Utility
+Subsection=Cannon Supplies
+Description=Match Cord
+
+On=@Create
+Color=0963
+
+
+[ItemDef iFuseCord]
+ID=iRollOfString
+Name=fuse cord
+NameLoc=1116305
+Type=tNormal
+Can=CanIStack
+Weight=1
+SkillMake=Alchemy 550
+Resources=1 iBallOfYarn,1 iPitcherOfWater,1 iBlackPowder,1 iPotash
+Value=10
+
+Category=Utility
+Subsection=Cannon Supplies
+Description=Fuse Cord
+
+On=@Create
+Color=0591
+
+
+[EOF]
