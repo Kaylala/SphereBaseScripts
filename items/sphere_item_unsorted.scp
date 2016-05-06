@@ -2666,86 +2666,6 @@ ON=@DClick
 SRC.SOUND snd_special_windchimes3
 RETURN 1
 
-[ItemDef 0284a]
-DefName=iFlowerArrangement
-Value=20
-Weight=2.0
-Category=Decoration - Miscellaneous
-Subsection=Japanese
-Description=Flowers
-
-
-[ItemDef 028dc]
-DefName=iBonsai1
-Type=tNormal
-Weight=4.0
-Resources=1 iLog,1 iDirt,1 iTreeSapling
-Category=Decoration - Miscellaneous
-Subsection=Bonsai
-Description=Bonsai Tree 1
-
-[ItemDef 028dd]
-DefName=iBonsai2
-Type=tNormal
-Weight=4.0
-Resources=1 iLog,1 iDirt,1 iTreeSapling
-Category=Decoration - Miscellaneous
-Subsection=Bonsai
-Description=Bonsai Tree 2
-
-[ItemDef 028de]
-DefName=iBonsai3
-Type=tNormal
-Weight=4.0
-Resources=1 iLog,1 iDirt,1 iTreeSapling
-Category=Decoration - Miscellaneous
-Subsection=Bonsai
-Description=Bonsai Tree 3
-
-[ItemDef 028df]
-DefName=iBonsai4
-Type=tNormal
-Weight=4.0
-Resources=1 iLog,1 iDirt,1 iTreeSapling
-Category=Decoration - Miscellaneous
-Subsection=Bonsai
-Description=Bonsai Tree 4
-
-[ItemDef 028e0]
-DefName=iBonsai5
-Type=tNormal
-Weight=4.0
-Resources=1 iLog,1 iDirt,1 iTreeSapling
-Category=Decoration - Miscellaneous
-Subsection=Bonsai
-Description=Bonsai Tree 5
-
-[ItemDef 028e1]
-DefName=iBonsai6
-Type=tNormal
-Weight=4.0
-Resources=1 iLog,1 iDirt,1 iTreeSapling
-Category=Decoration - Miscellaneous
-Subsection=Bonsai
-Description=Bonsai Tree 6
-
-[ItemDef 028e2]
-DefName=iBonsai7
-Type=tNormal
-Weight=4.0
-Resources=1 iLog,1 iDirt,1 iTreeSapling
-Category=Decoration - Miscellaneous
-Subsection=Bonsai
-Description=Bonsai Tree 7
-
-[ItemDef 028e3]
-DefName=iBonsai8
-Type=tNormal
-Weight=4.0
-Resources=1 iLog,1 iDirt,1 iTreeSapling
-Category=Decoration - Miscellaneous
-Subsection=Bonsai
-Description=Bonsai Tree 8
 
 
 [ItemDef 02a2a]
@@ -3069,14 +2989,6 @@ Weight=0.1
 Category=Resources
 Subsection=Plant
 Description=Switch
-
-[ItemDef 02f60]
-DefName=iLightWisps
-Name=wisps of light
-Type=tNormal
-Category=Quest
-Subsection=Unknown
-Description=Wisps of Light
 
 [ItemDef 02f61]
 DefName=iSwitchRuned
@@ -4553,14 +4465,8 @@ Description=Sea Sponge (5)
 [ItemDef 04cdb]
 [ItemDef 04cdc]
 [ItemDef 04cdd]
-[ItemDef 04cde]
-[ItemDef 04cdf]
-[ItemDef 04ce0]
-[ItemDef 04ce1]
-[ItemDef 04ce2]
-[ItemDef 04ce3]
-[ItemDef 04ce4]
-[ItemDef 04ce5]
+
+
 [ItemDef 04ce6]
 [ItemDef 04ce7]
 [ItemDef 04ce8]

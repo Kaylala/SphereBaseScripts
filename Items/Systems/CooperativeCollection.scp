@@ -1,0 +1,12 @@
+// Has 5 colors
+[ItemDef iFriendsOfTheLibraryReadingLantern]
+ID=iLantern1
+Name=Friends of the Library Reading Lantern
+NameLoc=1073339		// Friends of the Library Reading Lantern
+
+Category=Systems
+Subsection=Cooperative Collection
+Description=Friends of the Library Reading Lantern
+
+
+[EOF]
