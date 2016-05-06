@@ -1,6 +1,34 @@
 [TypeDef tChickenCoop]
 
 
+[TypeDef tLitLight]
+On=@ClientTooltip
+NameCliLoc
+AttrCliLoc
+WeightCliLoc
+If (<SpellChanneling>)
+ Src.AddCliLoc 1060482	// Spell Channeling
+EndIf
+If (<FasterCasting>)
+ Src.AddCliLoc 1060413,<FasterCasting>
+EndIf
+Return 1
+
+
+[TypeDef tUnlitLight]
+On=@ClientTooltip
+NameCliLoc
+AttrCliLoc
+WeightCliLoc
+If (<SpellChanneling>)
+ Src.AddCliLoc 1060482	// Spell Channeling
+EndIf
+If (<FasterCasting>)
+ Src.AddCliLoc 1060413,<FasterCasting>
+EndIf
+Return 1
+
+
 [Comment tSendingContainer]
 1054104;a bag of sending
 

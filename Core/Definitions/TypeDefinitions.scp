@@ -228,13 +228,15 @@ tThrowingWeapon				194 // Throwing Weapon
 tCartographyTool			195 // cartography tool  (Item: iMapmakersPen)
 tCookingTool				196 // cooking tool
 tPilot						197 // tPilot (PacketWheelBoatMove)
-tRope						198 // almost as ship plank, not lockable by default.
+tMooringLine				198 // almost as ship plank, not lockable by default.
 tHealingStone				199
+tSpellStone					200
 
 // Add the Following
-tSpecialMovesSpellbook		200 // The special move book.
-tReservedSpellbook1			201 // Reserved
-tReservedSpellbook2			202 // Reserved for any new Spellbook coming
+tSpecialMovesSpellbook		201 // The special move book.
+tReservedSpellbook1			202 // Reserved
+tReservedSpellbook2			203 // Reserved for any new Spellbook coming
+
 // New resources
 tGranite					210 // Granite Resource for masonry
 tWood						211 // Catch all (tBoard, tLog)

@@ -1,36 +1,37 @@
 [DefName Attr_flags]
 // apply to items
-AttrIdentified			00001   // this is the identified name. ???
-AttrDecay				00002   // timer currently set to decay.
-AttrNewbie				00004   // not lost on death or sellable ?
-AttrAlwaysMove			00008   // always movable (else default as stored in client) (even if mul says not movable) never decays !
-AttrNeverMove			00010   	// never movable (else default as stored in client) never decays !
-AttrMagic				00020   	// don't set this while worn! this item is magic as apposed to marked or markable.
-AttrOwned				00040   	// this is owned by the town. you need to steal it. never decays !
-AttrInvisible			00080   	// gray hidden item (to gm's or owners?)
-AttrCursed				00100
-AttrDamned				00200   	// cursed damned unholy
-AttrBlessed				00400
-AttrSacred				00800   	// blessed sacred holy
-AttrForSale				01000   	// for sale on a vendor.
-AttrStolen				02000   	// the item is hot. m_uidlink = previous owner.
-AttrCanDecay			04000   	// Item can decay. but it would seem that it wont (AttrNeverMove etc)
-AttrStatic				08000   	// worldforge merge marker. (not used)
-AttrExceptional			010000		// is exceptional
-AttrEnhanced			020000		// is enchanted
-AttrImbued				040000		// is imbued
-AttrQuestItem			080000		// is quest item
-AttrInsured				0100000		// Is insured
-AttrNoDropTrade			0200000		// no-drop/trade
-AttrArtifact			0400000		// artifact
-AttrLockedDown			0800000		// locked down
-AttrSecure				01000000	// secured
-AttrReforged			02000000	// Is Runic Reforged.
-AttrOpened				04000000	// Is Door Opened (only used when DOOROPENID is set on the door)
-AttrLockedDown			08000000
-AttrSecure				010000000
-AttrShardBound			020000000	// Shard Bound item (Cannot be transferred)
-AttrAccountBound		040000000	// Account Bound Item
+AttrIdentified			000000001	// this is the identified name. ???
+AttrDecay				000000002	// timer currently set to decay.
+AttrNewbie				000000004	// not lost on death or sellable ?
+AttrAlwaysMove			000000008	// always movable (else default as stored in client) (even if mul says not movable) never decays !
+AttrNeverMove			000000010  	// never movable (else default as stored in client) never decays !
+AttrMagic				000000020  	// don't set this while worn! this item is magic as apposed to marked or markable.
+AttrOwned				000000040  	// this is owned by the town. you need to steal it. never decays !
+AttrInvisible			000000080  	// gray hidden item (to gm's or owners?)
+AttrCursed				000000100
+AttrDamned				000000200  	// cursed damned unholy
+AttrBlessed				000000400
+AttrSacred				000000800  	// blessed sacred holy
+AttrForSale				000001000  	// for sale on a vendor.
+AttrStolen				000002000  	// the item is hot. m_uidlink = previous owner.
+AttrCanDecay			000004000  	// Item can decay. but it would seem that it wont (AttrNeverMove etc)
+AttrStatic				000008000  	// worldforge merge marker. (not used)
+AttrExceptional			000010000	// is exceptional
+AttrEnhanced			000020000	// is enchanted
+AttrImbued				000040000	// is imbued
+AttrQuestItem			000080000	// is quest item
+AttrInsured				000100000	// Is insured
+AttrNoDrop				000200000	// no-drop
+AttrNoTrade				000400000	// no-trade
+AttrArtifact			000800000	// artifact
+AttrLockedDown			001000000	// locked down
+AttrSecured				002000000	// secured
+AttrReforged			004000000	// Is Runic Reforged.
+AttrLockedDown			008000000	// Locked Down House Item
+AttrShardBound			010000000	// Shard Bound item (Cannot be transferred)
+AttrAccountBound		020000000	// Account Bound Item
+AttrCharacterBound		040000000	// Character Bound Item
+AttrEnchanted			AttrEnhanced
 
 
 [EOF]
