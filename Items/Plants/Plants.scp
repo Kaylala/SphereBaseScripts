@@ -5,8 +5,8 @@ NameLoc=1095953
 Type=tNormal
 Weight=5
 
-Category=Decorations
-Subsection=Plants
+Category=Plants
+Subsection=Dying Plants
 Description=Large Dying Plant
 
 
@@ -17,8 +17,8 @@ NameLoc=1095954
 Type=tNormal
 Weight=5
 
-Category=Decorations
-Subsection=Plants
+Category=Plants
+Subsection=Dying Plants
 Description=Dying Plant
 
 

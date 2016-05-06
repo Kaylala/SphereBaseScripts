@@ -1,0 +1,90 @@
+[ItemDef 028dc]
+DefName=iBonsaiTree1
+Name=bonsai tree
+NameLoc=1030460
+Type=tNormal
+Weight=1
+
+Category=Plants
+Subsection=Bonsai Trees
+Description=Bonsai Tree 1
+
+[ItemDef 028dd]
+DefName=iBonsaiTree2
+Name=bonsai tree
+NameLoc=1030461
+Type=tNormal
+Weight=1
+
+Category=Plants
+Subsection=Bonsai Trees
+Description=Bonsai Tree 2
+
+[ItemDef 028de]
+DefName=iBonsaiTree3
+Name=bonsai tree
+NameLoc=1030462
+Type=tNormal
+Weight=1
+
+Category=Plants
+Subsection=Bonsai Trees
+Description=Bonsai Tree 3
+
+[ItemDef 028df]
+DefName=iBonsaiTree4
+Name=bonsai tree
+NameLoc=1030463
+Type=tNormal
+Weight=1
+
+Category=Plants
+Subsection=Bonsai Trees
+Description=Bonsai Tree 4
+
+[ItemDef 028e0]
+DefName=iBonsaiTree5
+Name=bonsai tree
+NameLoc=1030464
+Type=tNormal
+Weight=1
+
+Category=Plants
+Subsection=Bonsai Trees
+Description=Bonsai Tree 5
+
+[ItemDef 028e1]
+DefName=iBonsaiTree6
+Name=bonsai tree
+NameLoc=1030465
+Type=tNormal
+Weight=1
+
+Category=Plants
+Subsection=Bonsai Trees
+Description=Bonsai Tree 6
+
+[ItemDef 028e2]
+DefName=iBonsaiTree7
+Name=bonsai tree
+NameLoc=1030466
+Type=tNormal
+Weight=1
+
+Category=Plants
+Subsection=Bonsai Trees
+Description=Bonsai Tree 7
+
+[ItemDef 028e3]
+DefName=iBonsaiTree8
+Name=bonsai tree
+NameLoc=1030467
+Type=tNormal
+Weight=1
+
+Category=Plants
+Subsection=Bonsai Trees
+Description=Bonsai Tree 8
+
+
+[EOF]
