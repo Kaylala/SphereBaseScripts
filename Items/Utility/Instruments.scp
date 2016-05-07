@@ -1,0 +1,305 @@
+[ItemDef 0E9C]
+DefName=iDrum1
+Name=drum
+NameLoc=1023740
+Type=tInstrument
+TData1=038	//sound when played well
+TData2=039	//sound when played poorly
+Weight=4
+SkillMake=Carpentry 578,Musicianship 450
+Resources=20 iBoard,10 iCloth
+Material=tCloth,tWood
+
+Category=Utility
+Subsection=Instruments
+Description=Drum 1
+
+On=@Create
+UsesCur={200 400}
+
+
+[ItemDef 04580]
+DefName=iDrum2
+Name=drum
+NameLoc=1023740
+Type=tInstrument
+TData1=038	//sound when played well
+TData2=039	//sound when played poorly
+Weight=4
+Can=CanIFlip
+SkillMake=Carpentry 578,Musicianship 450
+Resources=20 iBoard,10 iCloth
+Material=tCloth,tWood
+DupeList=04581
+
+Category=Utility
+Subsection=Instruments
+Description=Drum 2
+
+On=@Create
+UsesCur={200 400}
+
+[ItemDef 04581]
+NameLoc=1023740
+DupeItem=04580
+
+
+[ItemDef 0E9D]
+DefName=iTambourine1
+Name=tambourine
+NameLoc=1023741
+Type=tInstrument
+TData1=052
+TData2=053
+Weight=1
+SkillMake=Carpentry 578,Musicianship 450
+Resources=15 iBoard,10 iCloth
+Material=tCloth,tWood
+
+Category=Utility
+Subsection=Instruments
+Description=Tambourine 1
+
+On=@Create
+UsesCur={200 400}
+
+
+[ItemDef 0E9E]
+DefName=iTambourine2
+Name=tambourine
+NameLoc=1023742
+Type=tInstrument
+TData1=052
+TData2=053
+Weight=1
+SkillMake=Carpentry 578,Musicianship 450
+Resources=15 iBoard,15 iCloth
+Material=tCloth,tWood
+
+Category=Utility
+Subsection=Instruments
+Description=Tambourine 2
+
+On=@Create
+UsesCur={200 400}
+
+
+[ItemDef 0EB1]
+DefName=iStandingHarp
+Name=standing harp
+NameLoc=1023761
+Type=tInstrument
+TData1=045
+TData2=046
+Weight=35
+SkillMake=Carpentry 789,Musicianship 450
+Resources=35 iBoard,15 iCloth
+Material=tCloth,tWood
+
+Category=Utility
+Subsection=Instruments
+Description=Standing Harp
+
+On=@Create
+UsesCur={200 400}
+
+
+[ItemDef 0EB2]
+DefName=iLapHarp1
+NameLoc=1023762
+Type=tInstrument
+TData1=045
+TData2=046
+Weight=10
+SkillMake=Carpentry 631,Musicianship 450
+Resources=20 iBoard,10 iCloth
+Material=tCloth,tWood
+
+Category=Utility
+Subsection=Instruments
+Description=Lap Harp 1
+
+On=@Create
+UsesCur={200 400}
+
+
+[ItemDef 041FC]
+DefName=iLapHarp2
+NameLoc=1023762
+Type=tInstrument
+TData1=045
+TData2=046
+Can=CanIFlip
+Weight=10
+SkillMake=Carpentry 631,Musicianship 450
+Resources=20 iBoard,10 iCloth
+Material=tCloth,tWood
+DupeList=041FD
+
+Category=Utility
+Subsection=Instruments
+Description=Lap Harp 2
+
+On=@Create
+UsesCur={200 400}
+
+[ItemDef 041FD]
+NameLoc=1023762
+DupeItem=041FC
+
+
+[ItemDef 0EB3]
+DefName=iLute1
+Name=Lute
+NameLoc=1023763
+Type=tInstrument
+TData1=04C
+TData2=04D
+Can=CanIFlip
+Weight=5
+SkillMake=Carpentry 684,Musicianship 450
+Resources=25 iBoard,10 iCloth
+Material=tCloth,tWood
+DupeList=0EB4
+
+Category=Utility
+Subsection=Instruments
+Description=Lute 1
+
+On=@Create
+UsesCur={200 400}
+
+[ItemDef 0EB4]
+NameLoc=1023764
+DupeItem=0EB3
+
+
+[ItemDef 0420C]
+DefName=iLute2
+Name=Lute
+NameLoc=1023763
+Type=tInstrument
+TData1=04C
+TData2=04D
+Can=CanIFlip
+Weight=5
+SkillMake=Carpentry 684,Musicianship 450
+Resources=25 iBoard,10 iCloth
+Material=tCloth,tWood
+DupeList=0420D
+
+Category=Utility
+Subsection=Instruments
+Description=Lute 2
+
+On=@Create
+UsesCur={200 400}
+
+[ItemDef 0420D]
+NameLoc=1023763
+DupeItem=0420C
+
+
+[ItemDef 02805]
+DefName=iBambooFlute1
+Name=bamboo flute
+NameLoc=1030245
+Type=tInstrument
+TData1=058B
+TData2=058C
+Can=CanIFlip
+Weight=2
+SkillMake=Carpentry 800,Musicianship 450
+Resources=15 iBoard
+Material=tWood
+DupeList=02807
+
+Category=Utility
+Subsection=Instruments
+Description=Bamboo Flute 1
+
+On=@Create
+UsesCur={200 400}
+
+[ItemDef 02807]
+NameLoc=1030247
+DupeItem=02805
+
+
+[ItemDef 045A6]
+DefName=iBambooFlute2
+Name=bamboo flute
+NameLoc=1030245
+Type=tInstrument
+TData1=058B
+TData2=058C
+Can=CanIFlip
+Weight=2
+SkillMake=Carpentry 800,Musicianship 450
+Resources=15 iBoard
+Material=tWood
+DupeList=045A7
+
+Category=Utility
+Subsection=Instruments
+Description=Bamboo Flute 2
+
+On=@Create
+UsesCur={200 400}
+
+[ItemDef 045A7]
+NameLoc=1030245
+DupeItem=045A6
+
+
+[ItemDef 0403B]
+DefName=iAudChar
+Name=aud-char
+NameLoc=1095315
+Type=tInstrument
+TData1=05D1
+TData2=046
+Can=CanIFlip
+Weight=10
+SkillMake=Carpentry 789,Musicianship 450
+Resources=35 iBoard,15 iHighQualityGranite
+Material=tGranite,tWood
+DupeList=0403C
+
+Category=Utility
+Subsection=Instruments
+Description=Aud-Char
+
+On=@Create
+UsesCur={200 400}
+
+[ItemDef 0403C]
+NameLoc=1095316
+DupeItem=0403B
+
+
+// Imrpovised naming
+[ItemDef 04244]
+DefName=iLapAudChar
+Name=lap aud-char
+Type=tInstrument
+TData1=05D1
+TData2=04D
+Can=CanIFlip
+Weight=5
+Resources=6 iLog,1 iWireIron
+SkillMake=Tinkering 52.0,Musicianship 65.0,tTinkerTools
+Category= Professions
+Subsection=Musician
+Description=Musical Instrument
+DupeList=04245
+
+On=@Create
+UsesCur={200 400}
+
+[ItemDef 04245]
+//Musical Instrument
+DupeItem=04244
+
+
+[EOF]

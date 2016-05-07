@@ -53,6 +53,9 @@ Category=Systems
 Subsection=Holidays: Christmas
 Description=Santa Statue (Unlit)
 
+On=@Create
+Attr=AttrBlessed|AttrNewbie
+
 [ItemDef 04A99]
 DupeItem=iSantaStatue
 NameLoc=1097969
@@ -74,6 +77,7 @@ Subsection=Holidays: Christmas
 Description=Santa Statue (Lit)
 
 On=@Create
+Attr=AttrBlessed|AttrNewbie
 MoreZ=29
 
 [ItemDef 04A9B]

@@ -1,0 +1,41 @@
+[ItemDef 0EBD]
+DefName=iSheetMusic1
+Name=sheet music
+NameLoc=1023773
+Type=tNormal
+Can=CanIFlip
+Weight=1
+DupeList=0EBE
+
+Category=Decorations
+Subsection=Musician: Sheet Music
+Description=Sheet Music 1
+
+[ItemDef 0EBE]
+NameLoc=1023774
+DupeItem=0EBD
+
+
+[ItemDef 0EBF]
+DefName=iSheetMusic2
+Name=sheet music
+NameLoc=1023775
+Type=tNormal
+Can=CanIFlip
+Weight=1
+DupeList=0EC0
+
+Category=Decorations
+Subsection=Musician: Sheet Music
+Description=Sheet Music 2
+
+[ItemDef 0EC0]
+NameLoc=1023776
+DupeItem=0EBF
+
+[ItemDef 0ee9]
+//clean bandages
+DupeItem=0e21
+
+
+[EOF]

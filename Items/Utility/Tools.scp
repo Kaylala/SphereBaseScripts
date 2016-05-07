@@ -7,8 +7,286 @@ Type=tAlchemyTool
 Weight=1
 
 Category=Utility
-Subsection=Tools
+Subsection=Tools: Alchemy
 Description=Mortar and Pestle
+
+On=@Create
+UseCur={50 100}
+
+
+[ItemDef 01028]
+DefName=iDovetailSaw
+Name=dovetail saw
+NameLoc=1024136
+Type=tCarpentry
+Can=CanIFlip
+Weight=2
+SkillMake=Tinkering 300
+Resources=4 iIronIngot
+Material=tIngot
+Value=12
+DupeList=01029
+
+Category=Utility
+Subsection=Tools: Carpentry
+Description=Dovetail Saw
+
+On=@Create
+UsesCur={50 100}
+
+[ItemDef 01029]
+NameLoc=1024137
+DupeItem=01028
+
+
+[ItemDef 0102A]
+DefName=iHammer
+Name=hammer
+NameLoc=1024138
+Type=tCarpentry
+Can=CanIFlip
+Weight=2
+SkillMake=Tinkering 300
+Resources=1 iIronIngot
+Material=tIngot
+Value=12
+DupeList=0102B
+
+Category=Utility
+Subsection=Tools: Carpentry
+Description=Hammer
+
+On=@Create
+UsesCur={50 100}
+
+[ItemDef 0102B]
+NameLoc=1024139
+DupeItem=0102A
+
+
+[ItemDef 0102C]
+DefName=iMouldingPlanes
+Name=moulding planes
+NameLoc=1024140
+Type=tCarpentryTool
+Can=CanIFlip
+Weight=2
+SkillMake=Tinkering 0
+Resources=4 iBoard
+Material=tWood
+Value=11
+DupeList=0102D
+
+Category=Utility
+Subsection=Tools: Carpentry
+Description=Moulding Planes
+
+On=@Create
+UsesCur={50 100}
+
+[ItemDef 0102D]
+NameLoc=1024141
+DupeItem=0102C
+
+
+[ItemDef 0102E]
+DefName=iNails
+Name=nails
+NameLoc=1024142
+Type=tCarpentryTool
+Can=CanIFlip
+Weight=2
+Value=3
+DupeList=0102F
+
+Category=Utility
+Subsection=Tools: Carpentry
+Description=Nails
+
+On=@Create
+UsesCur={50 100}
+
+[ItemDef 0102F]
+NameLoc=1024143
+DupeItem=0102E
+
+
+[ItemDef 01030]
+DefName=iJointingPlane
+Name=jointing plane
+NameLoc=1024144
+Type=tCarpentryTool
+Can=CanIFlip
+Weight=2
+SkillMake=Tinkering 0
+Resources=4 iBoard
+Material=tWood
+Value=11
+DupeList=01031
+
+Category=Utility
+Subsection=Tools: Carpentry
+Description=Jointing Plane
+
+On=@Create
+UsesCur={50 100}
+
+[ItemDef 01031]
+NameLoc=1024145
+DupeItem=01030
+
+
+[ItemDef 01032]
+DefName=iSmoothingPlane
+Name=smoothing plane
+NameLoc=1024146
+Type=tCarpentryTool
+Can=CanIFlip
+Weight=1
+SkillMake=Tinkering 0
+Resources=4 iBoard
+Material=tWood
+Value=10
+DupeList=01033
+
+Category=Utility
+Subsection=Tools: Carpentry
+Description=Smoothing Plane
+
+On=@Create
+UsesCur={50 100}
+
+[ItemDef 01033]
+NameLoc=1024147
+DupeItem=01032
+
+
+[ItemDef 01034]
+DefName=iSaw
+Name=saw
+NameLoc=1024148
+Type=tCarpentryTool
+Can=CanIFlip
+Weight=2
+SkillMake=Tinkering 300
+Resources=4 iIronIngot
+Material=tIngot
+Value=15
+DupeList=01035
+
+Category=Utility
+Subsection=Tools: Carpentry
+Description=Saw
+
+On=@Create
+UsesCur={50 100}
+
+[ItemDef 01035]
+NameLoc=1024149
+DupeItem=01034
+
+
+[ItemDef 010E4]
+DefName=iDrawKnife
+Name=draw knife
+NameLoc=1024324
+Type=tCarpentryTool
+Weight=1
+SkillMake=Tinkering 300
+Resources=2 iIronIngot
+Material=tIngot
+Value=10
+
+Category=Utility
+Subsection=Tools: Carpentry
+Description=Draw Knife
+
+On=@Create
+UsesCur={50 100}
+
+
+[ItemDef 010E5]
+DefName=iFroe
+Name=froe
+NameLoc=1024325
+Type=tCarpentryTool
+Weight=1
+SkillMake=Tinkering 300
+Resources=2 iIronIngot
+Material=tIngot
+Value=10
+
+Category=Utility
+Subsection=Tools: Carpentry
+Description=Froe
+
+On=@Create
+UsesCur={50 100}
+
+
+[ItemDef 010E6]
+DefName=iInshave
+Name=inshave
+NameLoc=1024326
+Type=tCarpentryTool
+Weight=1
+SkillMake=Tinkering 300
+Resources=2 iIronIngot
+Material=tIngot
+Value=10
+
+Category=Utility
+Subsection=Tools: Carpentry
+Description=Inshave
+
+On=@Create
+UsesCur={50 100}
+
+
+[ItemDef 010E7]
+DefName=iScorp
+Name=scorp
+NameLoc=1024327
+Type=tCarpentryTool
+Weight=1
+SkillMake=Tinkering 300
+Resources=2 iIronIngot
+Material=tIngot
+
+Category=Utility
+Subsection=Tools: Carpentry
+Description=Scorp
+
+On=@Create
+UseCur={50 100}
+
+
+[ItemDef 012B3]
+DefName=iMalletAndChisel
+Type=tMasonryTool
+Weight=1
+Value=3
+
+Category=Utility
+Subsection=Tools: Masonry
+Description=Mallet and Chisel
+
+On=@Create
+UseCur={50 100}
+
+
+[ItemDef iFletchersTools]
+ID=iArrowFletching
+Name=fletcher's tools
+NameLoc=1044166
+Type=tBowcraftingTool
+
+Category=Utility
+Subsection=Tools: Bowcrafting
+Description=Fletcher's Tools
+
+On=@Create
+UseCur={50 100}
 
 
 [EOF]

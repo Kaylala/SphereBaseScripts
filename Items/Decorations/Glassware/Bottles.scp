@@ -1,0 +1,173 @@
+[ItemDef 0E25]
+DefName=iBottle1
+Name=bottle
+NameLoc=1023621
+Type=tNormal
+Can=CanIFlip
+Weight=1
+DupeList=0EFD
+
+Category=Decorations
+Subsection=Glassware: Bottles
+Description=Bottle 1
+
+[ItemDef 0EFD]
+DupeItem=0E25
+
+
+[ItemDef 0E26]
+DefName=iBottle2
+Name=bottle
+NameLoc=1023622
+Type=tNormal
+Can=CanIFlip
+Weight=1
+DupeList=0EFE
+
+Category=Decorations
+Subsection=Glassware: Bottles
+Description=Bottle 2
+
+[ItemDef 0EFE]
+DupeItem=0E26
+
+
+[ItemDef 0E27]
+DefName=iBottle3
+Name=bottle
+NameLoc=1023623
+Type=tNormal
+Can=CanIFlip
+Weight=1
+DupeList=0EFF
+
+Category=Decorations
+Subsection=Glassware: Bottles
+Description=Bottle 3
+
+[ItemDef 0EFF]
+DupeItem=0E27
+
+
+[ItemDef 0E28]
+DefName=iBottle4
+Name=bottle
+NameLoc=1023624
+Type=tNormal
+Can=CanIFlip
+Weight=1
+DupeList=0F00
+
+Category=Decorations
+Subsection=Glassware: Bottles
+Description=Bottle 4
+
+[ItemDef 0F00]
+DupeItem=0E28
+
+
+[ItemDef 0E29]
+DefName=iBottle5
+Name=bottle
+NameLoc=1023625
+Type=tNormal
+Can=CanIFlip
+Weight=1
+DupeList=0F01
+
+Category=Decorations
+Subsection=Glassware: Bottles
+Description=Bottle 5
+
+[ItemDef 0F01]
+DupeItem=0E29
+
+
+[ItemDef 0E2A]
+DefName=iBottle6
+Name=bottle
+NameLoc=1023626
+Type=tNormal
+Can=CanIFlip
+Weight=1
+DupeList=0F02
+
+Category=Decorations
+Subsection=Glassware: Bottles
+Description=Bottle 6
+
+[ItemDef 0F02]
+DupeItem=0E2A
+
+
+[ItemDef 0E2B]
+DefName=iBottle7
+Name=bottle
+NameLoc=1023627
+Type=tNormal
+Can=CanIFlip
+Weight=1
+DupeList=0F03
+
+Category=Decorations
+Subsection=Glassware: Bottles
+Description=Bottle 7
+
+[ItemDef 0F03]
+DupeItem=0E2B
+
+
+[ItemDef 0E2C]
+DefName=iBottle8
+Name=bottle
+NameLoc=1023628
+Type=tNormal
+Can=CanIFlip
+Weight=1
+DupeList=0F04
+
+Category=Decorations
+Subsection=Glassware: Bottles
+Description=Bottle 8
+
+[ItemDef 0F04]
+DupeItem=0E2C
+
+
+[ItemDef 0EFB]
+DefName=iBottle9
+Name=bottle
+NameLoc=1023835
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Glassware: Bottles
+Description=Bottle 9
+
+
+[ItemDef 0EFC]
+DefName=iBottle10
+Name=bottle
+NameLoc=1023836
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Glassware: Bottles
+Description=Bottle 10
+
+
+[ItemDef 042B4]
+DefName=iGargishBottle
+Name=gargish bottle
+NameLoc=1095948
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Glassware: Bottles
+Description=Gargish Bottle
+
+
+[EOF]

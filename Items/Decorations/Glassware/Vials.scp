@@ -1,0 +1,50 @@
+[ItemDef 0E24]
+DefName=iEmptyVial
+Name=empty vial%s
+NameLoc=1023620
+Type=tNormal
+Can=CanIStack
+Weight=1
+
+Category=Decorations
+Subsection=Glassware: Vials
+Description=Empty Vial
+
+
+[ItemDef 0185B]
+DefName=iEmptyVials
+Name=empty vials
+NameLoc=1026235
+Type=tNormal
+Can=CanIFlip
+Weight=1
+DupeList=0185C
+
+Category=Decorations
+Subsection=Glassware: Vials
+Description=Empty Vials
+
+[ItemDef 0185C]
+NameLoc=1026236
+DupeItem=0185B
+
+
+[ItemDef 0185D]
+DefName=iFullVials
+Name=full vials
+NameLoc=1026237
+Type=tNormal
+Can=CanIFlip
+Weight=1
+DupeList=0185E
+
+Category=Decorations
+Subsection=Glassware: Vials
+Description=Full Vials
+
+[ItemDef 0185E]
+NameLoc=1026238
+DupeItem=0185D
+
+
+[EOF]

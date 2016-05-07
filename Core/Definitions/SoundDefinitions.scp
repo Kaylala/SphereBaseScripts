@@ -1,473 +1,1051 @@
-[DefName sounds]
-sndWind1					21
-sndWind2					22
-sndCrickets					23
-sndCraftAnvil				42
+[Comment OMFG]
+OMFG Most of the duplicates, triplicates, etc; I know are for different monsters than they are listed for. This is going to need heavy testing and probably EA comparisons. Good thing is, most seem to be LBR and AoS repetitions. So narrowing down the areas to fight in to get the sound lists won't be too hard. Still a few of the extra sounds that aren't Mobiles need testing in comparison to items and spells.
 
-sndAlligator1				90
-sndAlligator2				91
-sndAlligator3				92
-sndAlligator4				93
-sndAlligator5				94
-sndBear1					95
-sndBear2					96
-sndBear3					97
-sndBear4					98
-sndBear5					99
-sndBull1					100
-sndBull2					101
-sndBull3					102
-sndBull4					103
-sndBull5					104
-sndCat1						105
-sndCat2						106
-sndCat3						107
-sndCat4						108
-sndCat5						109
-sndChicken1					110
-sndChicken2					111
-sndChicken3					112
-sndChicken4					113
-sndChicken5					114
-sndCougar1					115
-sndCougar2					116
-sndCougar3					117
-sndCougar4					118
-sndCougar5					119
-sndCow1						120
-sndCow2						121
-sndCow3						122
-sndCow4						123
-sndCow5						124
-sndCrow1					125
-sndDeer3					130
-sndDeer4					131
-sndDeer5					132
-sndDog1						133
-sndDolphin1					138
-sndEagle1					143
-sndForestBird1				148
-sndGoat1					153
-sndGorilla1					158
-sndGrizzlyBear1				163
-sndHorse1					168
-sndJungleBird1				173
-sndLion1					178
-sndLlama3					183
-sndLlama4					184
-sndLlama5					185
-sndPanther1					186
-sndParrot1					191
-sndPig1						196
-sndPig2						197
-sndRabbit3					201
-sndRabbit4					202
-sndRabbit5					203
-sndRat1						204
-sndRaven1					209
-sndSheep1					214
-sndSnake1					219
-sndWalrus1					224
-sndWolf1					229
-sndSpellEffect1				254
-sndAirElemental1			263
-sndAirElemental2			264
-sndAirElemental3			265
-sndAirElemental4			266
-sndAirElemental5			267
-sndEarthElemental1			268
-sndEarthElemental2			269
-sndEarthElemental3			270
-sndEarthElemental4			271
-sndEarthElemental5			272
-sndFireElemental1			273
-sndFireElemental2			274
-sndFireElemental3			275
-sndFireElemental4			276
-sndFireElemental5			277
-sndWaterElemental1			278
-sndWaterElemental2			279
-sndWaterElemental3			280
-sndWaterElemental4			281
-sndWaterElemental5			282
+[DefName Sounds]
+sndForestDay1				01	// Forest (Day)
+sndForestDay2				02	// Forest (Day)
+sndForestDay3				03	// Forest (Day)
+sndJungleDay1_1				04	// Jungle (Day)
+sndJungleDay1_2				05	// Jungle (Day)
+sndJungleDay1_3				06	// Jungle (Day)
+sndSwampDay1_1				07	// Swamp (Day)
+sndSwampDay1_2				08	// Swamp (Day)
+sndForestNight1				09
+sndForestNight2				0A
+sndGenericNight1			0B
+sndGenericNight2			0C
+sndJungleNight1				0D
+sndJungleNight2				0E
+sndSwampNight1				0F
+sndSwampNight2				010
+sndWater1					011
+sndWater2					012
+sndWave1					013
+sndWave2					014
+sndWind1					015
+sndWind2					016
+sndWind3					017
+sndCrickets					sndWind3
+sndBirds1					018
+sndBirds2					019
+sndBirds3					01A
+sndBirds4					01B
+sndBirds5					01C
+sndBirds6					01D
+sndBirds7					01E
+sndBirds8					01F
+sndBirds9					020
+sndBubble1					021
+sndBubble2					022
+sndDrip1					023
+sndDrip2					024
+sndDrip3					025
+sndSplash1					026
+sndSplash2					027
+sndSplash3					028
+sndThunder1					029
+sndThunder2					02A
+sndAnvil					02B
+sndBellows					02C
+sndChestClosing				02D
+sndCloseChest				02D
+sndChestOpening				02E
+sndOpenChest				02E
+sndDrawerClosing			02F
+sndCloseDrawer				02F
+sndDrawerOpening			030
+sndOpenDrawer				030
+sndDrink1					031
+sndDrink2					032
+sndGemDropping1				033
+sndDropGem1					033
+sndGemDropping2				034
+sndDropGem2					034
+sndGemDropping3				035
+sndDropGem3					035
+sndMoneyDropping1			036
+sndDropMoney1				036
+sndMoneyDropping2			037
+sndDropMoney2				037
+sndMoneyDropping3			038
+sndDropMoney3				038
+sndDrum1					039
+sndDrum2					03A
+sndEat1						03B
+sndEat2						03C
+sndEat3						03D
+sndFlute1					03E
+sndGlassBreaking1			03F
+sndGlassBreak1				sndGlassBreaking1
+sndGlassBreaking2			040
+sndGlassBreak2				sndGlassBreaking2
+sndGlassBreaking3			041
+sndGlassBreak3				sndGlassBreaking3
+sndGlassBreaking4			042
+sndGlassBreak4				sndGlassBreaking4
+sndHammer					043
+sndStandingHarp1			044	// Lap or Standing Harp?
+sndStandingHarp2			045	// Lap or Standing Harp?
+sndLapHarp1					046	// Lap or Standing Harp?
+sndLapHarp2					047	// Lap or Standing Harp?
+sndIgniteTorch				048
+sndLeather					049	// ?
+sndLever1					04A
+sndLever2					04B
+sndLever3					04C
+sndLute1					04D
+sndLute2					04E
+sndPouring					04F
+sndRustle					050
+sndSwallow1					051
+sndSwitch					052
+sndTambourine1				053
+sndTambourine2				054
+sndTorch					055
+sndTurnPage					056
+sndUnsheath					057
+sndUseCloth					058
+sndUseLeather1				059
+sndUseLeather2				05A	// 100
 
-snd_Hits_Hit1				309
-snd_Hits_Hit2				310
-snd_Hits_Hit3				311
-snd_Hits_Hit4				312
-snd_Hits_Hit5				313
-snd_Hits_Hit6				314
-snd_Hits_Hit7				315
-snd_Hits_Hit8				316
-snd_Hits_Hit9				317
-snd_Hits_Hit10				318
-snd_Hits_Hit11				319
-snd_Hits_Hit12				320
-snd_Hits_Hit13				321
-snd_Hits_Hit14				322
-snd_Hits_Hit15				323
-snd_Hits_Hit16				324
-snd_Hits_Hit17				325
-snd_Hits_Hit18				326
-snd_Hits_Hit19				327
-snd_Hits_Hit20				328
-snd_Hits_Hit21				329
-snd_Hits_Hit22				330
+sndAlligator1				05B
+sndAlligator2				05C
+sndAlligator3				05D
+sndAlligator4				05E
+sndAlligator5				05F
+sndBear1					060
+sndBear2					061
+sndBear3					062
+sndBear4					063
+sndBear5					064
+sndBull1					065
+sndBull2					066
+sndBull3					067
+sndBull4					068
+sndBull5					069
+sndCat1						06A
+sndCat2						06B
+sndCat3						06C
+sndCat4						06D
+sndCat5						06E
+sndChicken1					06F
+sndChicken2					070
+sndChicken3					071
+sndChicken4					072
+sndChicken5					073
+sndCougar1					074
+sndCougar2					075
+sndCougar3					076
+sndCougar4					077
+sndCougar5					078
+sndCow1						079
+sndCow2						07A
+sndCow3						07B
+sndCow4						07C
+sndCow5						07D
+sndCrow1					07E
+sndCrow2					07F
+sndCrow3					080
+sndCrow4					081
+sndCrow5					082
+sndDeer3					083
+sndDeer4					084
+sndDeer5					085
+sndDog1						086
+sndDog2						087
+sndDog3						088
+sndDog4						089
+sndDog5						08A
+sndDolphin1					08B
+sndDolphin2					08C
+sndDolphin3					08D
+sndDolphin4					08E
+sndDolphin5					08F
+sndEagle1					090
+sndEagle2					091
+sndEagle3					092
+sndEagle4					093
+sndEagle5					094
+sndForestBird1				095
+sndForestBird2				096
+sndForestBird3				097
+sndForestBird4				098
+sndForestBird5				099
+sndGoat1					09A
+sndGoat2					09B
+sndGoat3					09C
+sndGoat4					09D
+sndGoat5					09E
+sndGorilla1					09F
+sndGorilla2					0A0
+sndGorilla3					0A1
+sndGorilla4					0A2
+sndGorilla5					0A3
+sndGrizzlyBear1				0A4
+sndGrizzlyBear2				0A5
+sndGrizzlyBear3				0A6
+sndGrizzlyBear4				0A7
+sndGrizzlyBear5				0A8
+sndHorse1					0A9
+sndHorse2					0AA
+sndHorse3					0AB
+sndHorse4					0AC
+sndHorse5					0AD
+sndJungleBird1				0AE
+sndJungleBird2				0AF
+sndJungleBird3				0B0
+sndJungleBird4				0B1
+sndJungleBird5				0B2
+sndLion1					0B3
+sndLion2					0B4
+sndLion3					0B5
+sndLion4					0B6
+sndLion5					0B7
+sndLlama3					0B8
+sndLlama4					0B9
+sndLlama5					0BA
+sndPanther1					0BB
+sndPanther2					0BC
+sndPanther3					0BD
+sndPanther4					0BE
+sndPanther5					0BF
+sndParrot1					0C0
+sndParrot2					0C1
+sndParrot3					0C2
+sndParrot4					0C3
+sndParrot5					0C4
+sndPig1						0C5
+sndPig2						0C6
+sndPig3						0C7
+sndPig4						0C8
+sndPig5						0C9
+sndRabbit3					0CA
+sndRabbit4					0CB
+sndRabbit5					0CC
+sndRat1						0CD
+sndRat2						0CE
+sndRat3						0CF
+sndRat4						0D0
+sndRat5						0D1
+sndRaven1					0D2
+sndRaven2					0D3
+sndRaven3					0D4
+sndRaven4					0D5
+sndRaven5					0D6
+sndSheep1					0D7
+sndSheep2					0D8
+sndSheep3					0D9
+sndSheep4					0DA
+sndSheep5					0DB
+sndSnake1					0DC
+sndSnake2					0DD
+sndSnake3					0DE
+sndSnake4					0DF
+sndSnake5					0E0
+sndWalrus1					0E1
+sndWalrus2					0E2
+sndWalrus3					0E3
+sndWalrus4					0E4
+sndWalrus5					0E5
+sndWolf1					0E6
+sndWolf2					0E7
+sndWolf3					0E8
+sndWolf4					0E9
+sndWolf5					0EA	// 244
 
-sndHFOomph1		  			331
-sndHFOomph2		  			332
-sndHFOomph3		  			333
-sndHFOomph4 	 			334
-sndHFOomph5					335
-sndHFDie1					336
-sndHFDie2					337
-sndHFDie3					338
-sndHFDie4					339
-sndHMOomph1					340
-sndHMOomph2					341
-sndHMOomph3					342
-sndHMOomph4					343
-sndHMOomph5					344
-sndHMOomph6					345
-sndHMDie1					346
-sndHMDie2					347
-sndHMDie3					348
-sndHMDie4					349
-sndCorpser1					353
-sndCorpser3					354
-sndCorpser4					355
-sndCorpser5					356
-sndDaemon1					357
-sndDaemon2					358
-sndDaemon3					359
-sndDaemon4					360
-sndDaemon5					361
-sndDragon1					362
-sndDragon2					363
-sndDragon3					364
-sndDragon4					365
-sndDragon5					366
-sndEttin1					367
-sndEttin2					368
-sndEttin3					369
-sndEttin4					370
-sndEttin5					371
-sndGargoyle1				372
-sndGargoyle2				373
-sndGargoyle3				374
-sndGargoyle4				375
-sndGargoyle5				376
-sndGazer1					377
-sndGhost1					382
-sndGiantSpider1				387
-sndGiantRat1				392
-sndGiantScorpion1			397
-sndHarpy1					402
-sndHeadless1				407
-sndLich1					412
-sndLizardman1				417
-sndMongbat1					422
-sndOgre1					427
-sndOgre2					428
-sndOgre3					429
-sndOgre4					430
-sndOgre5					431
-sndOrc1						432
-sndOrc2						433
-sndOrc3						434
-sndOrc4						435
-sndOrc5						436
-sndRatman1					437
-sndReaper1					442
-sndSeaSerpent1				447
-sndSeaSerpent3				448
-sndSeaSerpent4				449
-sndSeaSerpent5				450
-sndSkeleton1				451
-sndSlime1					456
-sndTroll1					461
-sndWisp1					466
-sndZombie1					471
-snd_weapons_axe01			562
-snd_weapons_blunt01			563
-snd_weapons_crossbow		564
-snd_weapons_gilotin1		565
-snd_weapons_hvyswrd1		566
-snd_weapons_hvyswrd4		567
-snd_weapons_swish01			568
-snd_weapons_swish02			569
-snd_weapons_swish03			570
-snd_weapons_sword1			571
-snd_weapons_sword7			572
-sndCarpentry				573
-sndDye						574
-sndFishSplash				575
-sndLiquid					576
-sndLockpick					577
-sndMortarGrinding			578
-sndMystery1					579
-sndMystery2					580
-sndMystery3					581
-sndPoison					582
-sndPowder					583
-sndScissors					584
-sndScribe					585
-sndSpiritSpeak				586
-sndTerathanWarrior1			589
-sndTerathanDrone1			594
-sndTerathanMatriarch1		599
-sndCyclops1					604
-sndTitan1					609
-sndGiantToad1				614
-sndBullfrog1				619
-sndDesertOstard1			624
-sndDesertOstard2			625
-sndDesertOstard3			626
-sndDesertOstard4			627
-sndDesertOstard5			628
-sndFrenziedOstard1			629
-sndOphidian_warrior1		634
-sndOphidian_mage1			639
-sndOphidian_queen1			644
-sndLavaLizard1				649
+sndOpenDoor1				0EB
+sndOpenDoor2				0EC
+sndOpenDoor3				0ED
+sndOpenDoor4				0EE
+sndClosePortculis			0EF
+sndOpenPortculis1			0F0
+sndOpenPortculis2			0F1
+sndShutDoor1				0F2
+sndShutDoor2				0F3
+sndShutDoor3				0F4
+sndShutDoor4				0F5
+sndSFX1						0F6
+sndSFX2						0F7
+sndSFX3						0F8
+sndSFX4						0F9
+sndSFX5						0FA
+sndSFX6						0FB
+sndSFX7						0FC
+sndSFX8						0FD
+sndSFX9						0FE
+sndSFX10					0FF
+sndSFX11					0100
+sndSFX12					0101
+sndSFX13					0102
+sndSFX14					0103
+sndSFX15					0104
+sndSFX16					0105
+sndSFX17					0106
+sndSFX18					0107
 
-sndAgilitySpecial			654
-sndAirSpecial1				655
-sndAirSpecial2				656
-sndAirSpecial3				657
-sndAirSpecial4				658
-sndAirSpecial5				659
-sndLizard1					660
-sndLizard2					661
-sndLizard3					662
-sndLizard4					663
-sndLizard5					664
-sndArchCureSpecial			665
-sndCentaur					679
-sndCentaur2					680
+sndAirElemental1			0108
+sndAirElemental2			0109
+sndAirElemental3			010A
+sndAirElemental4			010B
+sndAirElemental5			010C
+sndEarthElemental1			010D
+sndEarthElemental2			010E
+sndEarthElemental3			010F
+sndEarthElemental4			0110
+sndEarthElemental5			0111
+sndFireElemental1			0112
+sndFireElemental2			0113
+sndFireElemental3			0114
+sndFireElemental4			0115
+sndFireElemental5			0116
+sndWaterElemental1			0117
+sndWaterElemental2			0118
+sndWaterElemental3			0119
+sndWaterElemental4			011A
+sndWaterElemental5			011B
 
-sndExodus1					769
-sndExodus2					770
-sndSerpentineDragon1		649
-sndElec_1					756
-sndElec_1a					757
-sndElec_2					477
-sndFire_1					837
-sndFire_1a					838
-sndEfreet1					880
+sndExplosion1				011C
+sndExplosion2				011D
+sndExplosion3				011E
+sndExplosion4				011F
 
-sndSolen1					959
-sndSolen2					960
-sndSolen3					961
-sndSolen4					962
-sndSolen5					963
-sndKiRin1					965
-sndKiRin2					966
-sndLonghorn1				1016
-sndLonghorn2				1017
-sndLonghorn3				1018
-sndLonghorn4				1019
-sndLonghorn5				1020
-sndPixie1					1139
-sndPixie2					1140
-sndPixie3					1141
-sndPixie4					1143
-sndPixie5					1143
-sndSeahorse1				1144
-sndSeahorse2				1145
-sndSeahorse3				1146
-sndSeahorse4				1147
-sndSeahorse5				1148
-sndShadowlord				1149
-sndSkeletonDragon			1160
-sndSuccubus1				1200
-sndSuccubus2				1201
-sndSuccubus3				1202
-sndSuccubus4				1203
-sndSuccubus5				1204
-sndUnicorn1					1212
-sndCrane					1240
-sndCrane1					1241
-sndOni1						1250
-sndOni2						1251
-sndRuneBeetle1				1255
-sndRuneBeetle2				1256
-sndYomotsu					1261
-sndYamandon					1262
-sndDeathwatchBeetle1		1264
-sndDeathwatchBeetle2		1265
-sndDeathwatchBeetle3		1266
-sndDeathwatchBeetle4		1267
-sndDeathwatchBeetle5		1268
-sndGaman1					1271
-sndGaman2					1272
-sndHiryu2					1276
-sndHiryu					1277
-sndOrigami1					1280
-sndOrigami2					1281
-sndOrigami3					1282
-sndWindchimes1				1285
-sndWindchimes2				1286
-sndWindchimes3				1287
-sndKappa					1290
-sndKappa1					1291
-sndRevenantLion				1303
-sndRevenantLion2			1304
-sndTsukiWolf				1324
-sndTsukiWolf2				1343
-sndBakeKitsune				1345
-sndChangling				1386
-sndCorporealBrume			1386
-sndFetidEssence				1388
-sndHydra					1389
-sndParoxysmus				1394
-sndCuSidhe					1397
-sndDryad					1405
-sndInterredGrizzle1			1410
-sndSatyr1					1416
-sndShimmeringEffusion1		1428
-sndMinotaur1				1433
-sndTroglodyte				1440
+sndBigFoot1					0120
+sndBigFoot2					0121
+sndFeet1					0122
+sndFeet2					0123
+sndFeet3					0124
+sndFeet4					0125
+sndFeet5					0126
+sndFeet6					0127
+sndFeet7					0128
+sndFeet8					0129
+sndFeet9					012A
+sndFeet10					012B
+sndFeet11					012C
+sndFeet12					012D
+sndFeet13					012E
+sndFeet14					012F
+sndFeet15					0130
+sndFeet16					0131
+sndFeet17					0132
+sndFeet18					0133
+sndFeet19					0134
+sndFeet20					0135
 
-sndAbyssalInfernal1			1493
-sndAbyssalInfernal2			1494
-sndAbyssalInfernal3			1495
-sndAbyssalInfernal4			1496
-sndAcidSlug1				1497
-sndAcidSlug2				1498
-sndAcidSlug3				1499
-sndAcidSlug4				1500
-sndBloodworm1				1501
-sndBoura1					1505
-sndChickenLizard1			1509
-sndDragonFaerie1			1513
-sndDragonWolf1				1517
-sndDreamWraith1				1521
-sndGargoyleFemale1			1525
-sndGargoyleMale1			1529
-sndGoblin1					1534
-sndGrayGoblin1				1536
-sndTarantula1				1538
-sndHomunculous1				1542
-sndKepetch1					1543
-sndLavaElemental1			1547
-sndMaddeningHorror1			1551
-sndMedusa1					1555
-sndMimic1					1559
-sndNavreyNightEyes1			1563
-sndPrimevalLich1			1567
-sndRaptor1					1571
-sndRisingColossus1			1575
-sndRotworm1	  				1579
-sndSkree1					1583
-sndSlasherOfVeils1			1587
-sndSlasherOfVeils2			1588
-sndSlasherOfVeils3			1589
-sndSlasherOfVeils4			1590
-sndSlith1					1591
-sndSlith2					1592
-sndSlith3					1593
-sndSlith4					1594
-sndStoneform1				1595
-sndStygianDragon1			1599
-sndStygianDragon2			1600
-sndStygianDragon3			1601
-sndStygianDragon4			1602
-sndTrapdoorSpider1			1603
-sndTrapdoorSpider2			1604
-sndTrapdoorSpider3			1605
-sndTrapdoorSpider4			1606
-sndUndeadGargoyle1			1607
-sndUndeadGargoyle2			1608
-sndUndeadGargoyle3			1609
-sndUndeadGargoyle4			1610
+sndHit1						0136
+sndHit2						0137
+sndHit3						0138
+sndHit4						0139
+sndHit5						013A
+sndHit6						013B
+sndHit7						013C
+sndHit8						013D
+sndHit9						013E
+sndHit10					013F
+sndHit11					0140
+sndHit12					0141
+sndHit13					0142
+sndHit14					0143
+sndHit15					0144
+sndHit16					0145
+sndHit17					0146
+sndHit18					0147
+sndHit19					0148
+sndHit20					0149
+sndHit21					014A
+sndHit22					014B
+sndHFOomph1		  			014C
+sndHFOomph2		  			014D
+sndHFOomph3		  			014E
+sndHFOomph4 	 			014F
+sndHFOomph5					0150
+sndHFDie1					0151
+sndHFDie2					0152
+sndHFDie3					0153
+sndHFDie4					0154
+sndHMOomph1					0155
+sndHMOomph2					0156
+sndHMOomph3					0157
+sndHMOomph4					0158
+sndHMOomph5					0159
+sndHMOomph6					015A
+sndHMDie1					015B
+sndHMDie2					015C
+sndHMDie3					015D
+sndHMDie4					015E
+sndFireball1				015F
+sndFireball2				0160
+sndFireball3				0161
 
-snd_spell_lightning			41
-snd_spell_chain_lightning	41
-snd_spell_harm		     	252
-snd_spell_fireball		 	350
-snd_spell_fire_bolt			351
-snd_spell_meteor_swarm		352
-snd_spell_clumsy			479
-snd_spell_cure				480
-snd_spell_archcure			480
-snd_spell_curse				481
-snd_spell_create_food		482
-snd_spell_night_sight		483
-snd_spell_light				483
-snd_spell_feeblemind		484
-snd_spell_magic_arrow		485
-snd_spell_weaken			486
-snd_spell_Agility			487
+sndCorpser1					0162
+sndCorpser3					0163
+sndCorpser4					0164
+sndCorpser5					0165
+sndDaemon1					0166
+sndDaemon2					0167
+sndDaemon3					0168
+sndDaemon4					0169
+sndDaemon5					016A
+sndDragon1					016B
+sndDragon2					016C
+sndDragon3					016D
+sndDragon4					016E
+sndDragon5					016F
+sndEttin1					0170
+sndEttin2					0171
+sndEttin3					0172
+sndEttin4					0173
+sndEttin5					0174
+sndGargoyle1				0175
+sndGargoyle2				0176
+sndGargoyle3				0177
+sndGargoyle4				0178
+sndGargoyle5				0179
+sndGazer1					017A
+sndGazer2					017B
+sndGazer3					017C
+sndGazer4					017D
+sndGazer5					017E
+sndGhost1					017F
+sndGhost2					0180
+sndGhost3					0181
+sndGhost4					0182
+sndGhost5					0183
+sndGiantSpider1				0184
+sndGiantSpider2				0185
+sndGiantSpider3				0186
+sndGiantSpider4				0187
+sndGiantSpider5				0188
+sndGiantRat1				0189
+sndGiantRat2				018A
+sndGiantRat3				018B
+sndGiantRat4				018C
+sndGiantRat5				018D
+sndGiantScorpion1			018E
+sndGiantScorpion2			018F
+sndGiantScorpion3			0190
+sndGiantScorpion4			0191
+sndGiantScorpion5			0192
+sndHarpy1					0193
+sndHarpy2					0194
+sndHarpy3					0195
+sndHarpy4					0196
+sndHarpy5					0197
+sndHeadless1				0198
+sndHeadless2				0199
+sndHeadless3				019A
+sndHeadless4				019B
+sndHeadless5				019C
+sndLich1					019D
+sndLich2					019E
+sndLich3					019F
+sndLich4					01A0
+sndLich5					01A1
+sndLizardman1				01A2
+sndLizardman2				01A3
+sndLizardman3				01A4
+sndLizardman4				01A5
+sndLizardman5				01A6
+sndMongbat1					01A7
+sndMongbat2					01A8
+sndMongbat3					01A9
+sndMongbat4					01AA
+sndMongbat5					01AB
+sndOgre1					01AC
+sndOgre2					01AD
+sndOgre3					01AE
+sndOgre4					01AF
+sndOgre5					01B0
+sndOrc1						01B1
+sndOrc2						01B2
+sndOrc3						01B3
+sndOrc4						01B4
+sndOrc5						01B5
+sndRatman1					01B6
+sndRatman2					01B7
+sndRatman3					01B8
+sndRatman4					01B9
+sndRatman5					01BA
+sndReaper1					01BB
+sndReaper2					01BC
+sndReaper3					01BD
+sndReaper4					01BE
+sndReaper5					01BF
+sndSeaSerpent1				01C0
+sndSeaSerpent3				01C1
+sndSeaSerpent4				01C2
+sndSeaSerpent5				01C3
+sndSkeleton1				01C4
+sndSkeleton2				01C5
+sndSkeleton3				01C6
+sndSkeleton4				01C7
+sndSkeleton5				01C8
+sndSlime1					01C9
+sndSlime2					01CA
+sndSlime3					01CB
+sndSlime4					01CC
+sndSlime5					01CD
+sndTroll1					01CE
+sndTroll2					01CF
+sndTroll3					01D0
+sndTroll4					01D1
+sndTroll5					01D2
+sndWisp1					01D3
+sndWisp2					01D4
+sndWisp3					01D5
+sndWisp4					01D6
+sndWisp5					01D7
+sndZombie1					01D8
+sndZombie2					01D9
+sndZombie3					01DA
+sndZombie4					01DB
+sndZombie5					01DC
+
+sndElectricity1				01DD
+sndFire1					01DE
+sndHiss1					01DF
+
+sndClumsySpell				01E0
+sndCureSpell				01E1
+sndCurseSpell				01E2
+sndCreateFoodSpell			01E3
+sndLightSpell				01E4
+sndNightsightSpell			sndLight
+sndFeeblemindSpell			01E5
+sndMagicArrowSpell			01E6
+sndWeakenSpell				01E7
+sndAgilitySpell				01E8
+sndArchCureSpell			01E9
+sndBirdseyeSpell			01EA
+sndBlessSpell				01EB
+sndCunningSpell				01EC
+sndIdentifySpell			01ED
+sndProtectionSpell			01EE
+sndStrengthSpell			01EF
+sndMagicTrapSpell			01F0
+sndMagicUntrapSpell			01F1
+sndHarmSpell				01F2
+sndHealSpell				01F3
+sndFireballSpell			01F4
+sndMagicLockSpell			01F5
+sndTelekinesisSpell			01F6
+sndWallOfStoneSpell			01F7
+sndArchProtectionSpell		01F8
+sndManaDrainSpell			01F9
+sndManaVampireSpell			01FA
+sndMarkSpell				01FB
+sndMassCurseSpell			01FC
+sndRecallSpell				01FD
+sndRevealSpell				01FE
+sndTeleportSpell			01FF
+sndUnlockSpell				0200
+sndBladeSpiritsSpell		0201
+sndDispelFieldSpell			0202
+sndGreaterHealSpell			0203
+sndInvisibilitySpell		0204
+sndParalyzeSpell			0205
+sndPoisonSpell				0206
+sndThunderSpell				0207	// Lightning/Chain Lightning?
+sndExplosionSpell			0208
+sndFlamestrikeSpell			0209
+sndMassDispelSpell		    020A
+sndEnergyBoltSpell			020B
+sndParalyzeFieldSpell		020C
+sndPoisonFieldSpell			020D
+sndEarthquakeSpell			020E
+sndGateTravelSpell			020F
+sndPolymorphSpell			0210
+sndEnergyFieldSpell			0211
+sndEnergyVortexSpell		0212	// Energy Wind initial naming
+sndDeathVortexSpell			0213
+sndMindBlastSpell			0214	// 531
+sndResurrectionSpell		0215
+sndSummonCreatureSpell		0216
+sndSummonDaemonSpell		0217
+sndSummonElementalSpell		0218
+
+sndDispelSpell				513		// Dispel Field?
+sndFireFieldSpell			524	// Poison Field?
+sndLightningSpell			41		// 
+sndChainLightningSpell		41		// 
+sndIncognitoSpell			957
+sndMeteorSwarmSpell			352		// 
+sndReactiveArmorSpell		489
+sndMagicReflectionSpell		489		// 01EA
+
+sndFireBoltSpell			351		// 
 snd_spell_AnimateDead		488
-snd_spell_ReactiveArmor		489
-snd_spell_MagicReflection	489
-snd_spell_bless				490
-snd_spell_cunning			491
-snd_spell_protection		493
-snd_spell_strength			494
-snd_spell_magic_trap		495
-snd_spell_magic_untrap	   496
-snd_spell_heal		     498
-snd_spell_telekinesis	    501
-snd_spell_wall_of_stone	  502
-snd_spell_archprotection	 503
-snd_spell_mana_drain	     504
-snd_spell_mana_vampire	   505
-snd_spell_mark		     506
-snd_spell_magic_lock	     506
-snd_spell_mass_curse	     507
-snd_spell_recall		   508
-snd_spell_reveal		   509
-snd_spell_teleport		 510
-snd_spell_unlock		   511
-snd_spell_dispel_field	   513
-snd_spell_dispel		   513
-snd_spell_mass_dispel	    513
-snd_spell_greater_heal	   514
-snd_spell_paralyze		 516
-snd_spell_poison		   517
-snd_spell_flamestrike	    520
-snd_spell_energy_bolt	    522
-snd_spell_energy_field	   523
-snd_spell_paralyze_field	 523
-snd_spell_poison_field	   523
-snd_spell_fire_field	     524
-snd_spell_gate_travel	    526
-snd_spell_polymorph		527
-snd_spell_blade_spirits	  530
-snd_spell_energy_vortex	  530
-snd_spell_mind_blast	     531
-snd_spell_resurrection	   532
-snd_spell_summon_creature	533
-snd_spell_summon_daemon	  534
-snd_spell_summon_elem_air	535
-snd_spell_summon_elem_earth    535
-snd_spell_summon_elem_fire     535
-snd_spell_summon_elem_water    535
-snd_spell_earthquake	     544
 snd_spell_bone_armor	     577
 snd_spell_summon_undead	  586
-snd_spell_explosion		775
-snd_spell_incognito		957
-snd_spell_invisibility	   964
 
-snd_ninjitsu_deathstrike_f     1293
-snd_ninjitsu_deathstrike_m     1294
-snd_ninjitsu_focus_attack	1295
-snd_ninjitsu_ki_attack	   1296
-snd_ninjitsu_mirror_image	1297
-snd_ninjitsu_shadowjump	  1298
-snd_ninjitsu_suprise_attack_f  1299
-snd_ninjitsu_suprise_attack_m  1300
+
+// Trap Sounds
+sndBlade1					0219
+sndBlade2					021A
+sndBlade3					021B
+sndBlade4					021C
+sndBlade5					021D
+sndBoulder1					021E
+sndBoulder2					021F
+sndCrumble1					0220
+sndCrumble2					0221
+sndCrumble3					0222
+sndCrumble4					0223
+sndDart1					0224
+sndDart2					0225
+sndFlame1					0226
+sndFlame2					0227
+sndFlame3					0228
+sndMushroom1				0229
+sndMushroom2				022A
+sndMushroom3				022B
+sndSpike1					022C
+sndSpike2					022D
+sndSpike3					022E
+sndSpike4					022F
+sndVapor1					0230
+sndVapor2					0231
+sndVapor3					0232
+
+sndAxe						0233
+sndBlunt					0234
+sndCrossbow					0235
+sndGuillotine				0236
+sndHeavySword1				0237
+sndHeavySword2				0238
+sndSwish1					0239
+sndSwish2					023A
+sndSwish3					023B
+sndSword1					023C
+sndSword2					023D
+sndCarpentry				023E
+sndDye						023F
+sndFishSplash				0240
+sndLiquid					0241
+sndLockpick					0242
+sndMortar					0243
+sndMystery1					0244
+sndMystery2					0245
+sndMystery3					0246
+sndPoison					0247
+sndPowder					0248
+sndScissors					0249
+sndScribe					024A
+sndSpiritSpeak				024B
+sndHorseFeet1				024C
+sndHorseFeet2				024D
+
+
+sndTerathanWarrior1			024E
+sndTerathanWarrior2			024F
+sndTerathanWarrior3			0250
+sndTerathanWarrior4			0251
+sndTerathanWarrior5			0252
+sndTerathanDrone1			0253
+sndTerathanDrone2			0254
+sndTerathanDrone3			0255
+sndTerathanDrone4			0256
+sndTerathanDrone5			0257
+sndTerathanMatriarch1		0258
+sndTerathanMatriarch2		0259
+sndTerathanMatriarch3		025A
+sndTerathanMatriarch4		025B
+sndTerathanMatriarch5		025C
+sndCyclops1					025D
+sndCyclops2					025E
+sndCyclops3					025F
+sndCyclops4					0260
+sndCyclops5					0261
+sndTitan1					0262
+sndTitan2					0263
+sndTitan3					0264
+sndTitan4					0265
+sndTitan5					0266
+sndGiantToad1				0267
+sndGiantToad2				0268
+sndGiantToad3				0269
+sndGiantToad4				026A
+sndGiantToad5				026B
+sndBullfrog1				026C
+sndBullfrog2				026D
+sndBullfrog3				026E
+sndBullfrog4				026F
+sndBullfrog5				0270
+sndDesertOstard1			0271
+sndDesertOstard2			0272
+sndDesertOstard3			0273
+sndDesertOstard4			0274
+sndDesertOstard5			0275
+sndFrenziedOstard1			0276
+sndFrenziedOstard2			0277
+sndFrenziedOstard3			0278
+sndFrenziedOstard4			0279
+sndFrenziedOstard5			027A
+sndOphidianWarrior1			027B
+sndOphidianWarrior2			027C
+sndOphidianWarrior3			027D
+sndOphidianWarrior4			027E
+sndOphidianWarrior5			027F
+sndOphidianMage1			0280
+sndOphidianMage2			0281
+sndOphidianMage3			0282
+sndOphidianMage4			0283
+sndOphidianMage5			0284
+sndOphidianQueen1			0285
+sndOphidianQueen2			0286
+sndOphidianQueen3			0287
+sndOphidianQueen4			0288
+sndOphidianQueen5			0289
+sndLavaLizard1				028A
+sndLavaLizard2				028B
+sndLavaLizard3				028C
+sndLavaLizard4				028D
+sndLavaLizard5				028E
+
+sndAgility					028F
+sndAir1						0290
+sndAir2						0291
+sndAir3						0292
+sndAir4						0293
+sndAir5						0294
+sndLizard1					0295	// Second set of Alligator (Small?)
+sndLizard2					0296
+sndLizard3					0297
+sndLizard4					0298
+sndLizard5					0299
+sndArchCure					029A	// ???
+
+sndBear						029B
+sndBird1_5					029C
+sndBird2_1					029D
+sndBird2_2					029E
+sndBird2_3					029F
+sndBird2_4					02A0
+sndBird2_5					02A1
+sndBladeSpirits				02A2
+sndCat2_1					02A3
+sndCat2_2					02A4
+sndCat2_3					02A5
+sndCat2_4					02A6
+sndCat2_5					02A7
+
+sndCentaur1					02A8
+sndCentaur2					02A9
+sndCentaur3					02AA
+sndCentaur4					02AB
+sndCentaur5					02AC
+sndCorpser2_1				02AD	// Assuming Quagmire, Bog Thing, Bogling
+sndCorpser2_2				02AE
+sndCorpser2_3				02AF
+sndCorpser2_4				02B0
+sndCorpser2_5				02B1
+
+sndCrossbow2				02B2
+sndCrossbowAlt				02B3
+
+sndJungleDay2_1				02B4
+sndJungleDay2_2				02B5
+sndJungleDay2_3				02B6
+sndSwampDay2_1				02B7
+sndSwampDay2_2				02B8
+
+sndDaemon2_1				02B9
+sndDaemon2_2				02BA
+sndDaemon2_3				02BB
+sndDaemon2_4				02BC
+sndDaemon2_5				02BD
+sndDeer2_3					02BE
+sndDeer2_4					02BF
+sndDeer2_5					02C0
+sndSerpentineDragon1		02C1	// atk
+sndSerpentineDragon2		02C2	// die
+sndSerpentineDragon3		02C3	// fight
+sndSerpentineDragon4		02C4	// gethit
+sndSerpentineDragon5		02C5	// idle
+sndSerpentineDragon6		02C6	// run
+sndSerpentineDragon7		02C7	// walk
+sndRedDragon1				02C8	// Attack 1
+sndRedDragon2				02C9	// Attack 2
+sndRedDragon3				02CA	// Attack 3
+sndRedDragon4				02CB	// Attack 3 A
+sndRedDragon5				02CC	// Attack 3 B
+sndRedDragon6				02CD	// Die
+sndRedDragon7				02CE	// Die in Air
+sndRedDragon8				02CF	// Fight 1
+sndRedDragon9				02D0	// Fight 2
+sndRedDragon10				02D1	// Fly
+sndRedDragon11				02D2	// Get Hit
+sndRedDragon12				02D3	// Idle
+sndRedDragon13				02D4	// Run
+sndRedDragon14				02D5	// Stand tof?
+sndRedDragon15				02D6	// Walk
+
+sndDrink3					02D7
+sndDrip2_1					02D8
+sndDrip2_2					02D9
+sndDrip2_3					02DA
+sndDrip2_4					02DB
+sndDrip2_5					02DC
+sndDrip2_6					02DD
+sndDrip2_7					02DE
+sndDrip2_8					02DF
+sndDrip2_9					02E0
+sndDrip2_10					02E1
+sndDropGem2_1				02E2
+sndDropGem2_2				02E3
+sndDropGem2_3				02E4
+sndDropMoney2_1				02E5
+sndDropMoney2_2				02E6
+sndDropMoney2_3				02E7
+sndDrumBattle				02E8
+sndDrumDrama				02E9
+sndDrumPeace				02EA
+sndDrum2_1					02EB
+sndDrum2_1B					02EC
+sndDrum2_2					02ED
+sndDrum2_3					02EE
+sndEagle2_1					02EF
+sndEagle2_2					02F0
+sndEagle2_3					02F1
+sndEagle2_4					02F2
+sndEagle2_5					02F3
+sndEarthquakeSpell			02F4
+sndElectricity2_1			02F5
+sndEtherealWarrior1			02F6	// Attack 1
+sndEtherealWarrior2			02F7	// Attack 2
+sndEtherealWarrior3			02F8	// Die
+sndEtherealWarrior4			02F9	// Fight
+sndEtherealWarrior5			02FA	// Get hit
+sndEtherealWarrior6			02FB	// Walk
+sndEttin2_1					02FC
+sndEttin2_2					02FD
+sndEttin2_3					02FE
+sndEttin2_4					02FF
+sndEttin2_5					0300
+sndExodus1					0301
+sndExodus2					0302
+sndExodus3					0303
+sndExodus4					0304
+sndExodus5					0305
+sndExplosion2_1				0306
+sndExplosion2_2				0307
+sndExplosion2_3				0308
+sndExplosion2_4				0309
+sndExplosion2_5				030A
+sndHFAh						030B
+sndHFAhHa					030C
+sndHFApplaud				030D
+sndHFBlowNose				030E
+sndHFBurp					030F
+sndHFCheer					0310
+sndHFClearThroat			0311
+sndHFCough					0312
+sndHFCoughBS				0313
+sndHFCry					0314
+sndHFDeath1					0315
+sndHFDeath2					0316
+sndHFDeath3					0317
+sndHFDeath4					0318
+sndHFFart					0319
+sndHFGasp					031A
+sndHFGiggle					031B
+sndHFGroan					031C
+sndHFGrowl					031D
+sndHFHey					031E
+sndHFHiccup					031F
+sndHFHuh					0320
+sndHFKiss					0321
+sndHFLaugh					0322
+sndHFNo						0323
+sndHFOh						0324
+sndHFOomph2_1				0325
+sndHFOomph2_2				0326
+sndHFOomph2_3				0327
+sndHFOomph2_4				0328
+sndHFOomph2_5				0329
+sndHFOomph2_6				032A
+sndHFOomph2_7				032B
+sndHFOooh					032C
+sndHFOops					032D
+sndHFPuke					032E
+sndHFScream					032F
+sndHFShush					0330
+sndHFSigh					0331
+sndHFSneeze					0332
+sndHFSniff					0333
+sndHFSnore					0334
+sndHFSpit					0335
+sndHFWhistle				0336
+sndHFYawn					0337
+sndHFYeah					0338
+sndHFYell					0339
+sndFeetGrass1				033A
+sndFeetGrass2				033B
+sndFeetGravel1				033C
+sndFeetGravel2				033D
+sndFeetPavement1			033E
+sndFeetPavement2			033F
+sndFeetSand1				0340
+sndFeetSand2				0341
+sndFeetSnow1				0342
+sndFeetSnow2				0343
+sndFeetWood1				0344
+sndFeetWood2				0345
+sndFire2_1					0346
+sndFire2_2					0347
+sndFire2_3					0348
+sndFire2_4					0349
+sndFire2_5					034A
+sndFire2_6					034B
+
+sndFlailCorsper1			034C	// Die
+sndFlailCorsper2			034D	// Fight 1
+sndFlailCorsper3			034E	// Fight 2
+sndFlailCorsper4			034F	// Idle
+sndFlailCorsper5			0350	// Run
+sndFlailCorsper6			0351	// Walk
+sndFlailKraken1				0352	// Attack
+sndFlailKraken2				0353	// Die
+sndFlailKraken3				0354	// Fight
+sndFlailKraken4				0355	// Get Hit
+sndFlailKraken5				0356	// Walk
+
+sndFlame2_1					0357
+sndFlame2_2					0358
+sndFlame2_3					0359
+sndFlame2_4					035A
+
+sndFrog1_1					035B
+sndFrog1_2					035C
+sndFrog1_3					035D
+sndFrog1_4					035E
+sndFrog1_5					035F
+sndFrog2_1					0360
+sndFrog2_2					0361
+sndFrog2_3					0362
+sndFrog2_4					0363
+sndFrog2_5					0364
+sndFishSplash2				0365
+sndGallopGrass				0366
+sndGallopGravel				0367
+sndGallopPavement			0368
+sndGallopSand				0369
+sndGallopSnow				036A
+sndGallopWood				036B
+sndGazer2_1					036C	// Gazer Larva?
+sndGazer2_2					036D
+sndGazer2_3					036E
+sndGazer2_4					036F
+sndGazer2_5					0370
+sndGenie1					0371
+sndGenie1_A					0372
+sndGenie1_B					0373
+sndGenie2					0374
+sndGenie3					0375
+sndGenie4					0376
+sndGenie5					0377
+sndGenie5_A					0378
+sndGenie5_B					0379
+sndGhost2_1					037A
+sndGhost2_2					037B
+sndGhost2_2_1				037C
+sndGhost2_2_2				037D
+sndGhost2_2_3				037E
+sndGhost2_2_4				037F
+sndGhost2_3					0380
+sndGhost2_4					0381
+sndGhost2_5					0382
+sndGiantSnail1				0383
+sndGiantSnail2				0384
+sndGiantSnail3				0385
+sndGiantSnail4				0386
+sndGiantSnail5				0387
+sndGuillotine2				0388
+sndGiantSpider2_1			0389
+sndGiantSpider2_2			038A
+sndGiantSpider2_3			038B
+sndGiantSpider2_4			038C
+sndGiantSpider2_5			038D
+sndGlassBreak2_1			038E
+sndGlassBreak2_2			038F
+sndGlassBreak2_3			0390
+sndGlassBreak2_4			0391
+sndHarpBattle				0392
+sndHarpDrama				0393
+sndHarpPeace				0394
+sndHarpy2_1					0395	// attack
+sndHarpy2_2					0396	// die
+sndHarpy2_3					0397	// fight
+sndHarpy2_4					0398	// get hit
+sndHarpy2_5					0399	// walk
+sndHarpy3_1					039A	// die
+sndHarpy3_2					039B	// fidget
+sndHarpy3_3					039C	// get hit
+sndHarpy3_4					039D	// walk
+sndHeadless2_1				039E
+sndHeadless2_2				039F
+sndHeadless2_3				03A0
+sndHeadless2_4				03A1
+sndHeadless2_5				03A2
+sndHit2_1					03A3
+sndHit2_2					03A4
+sndHit2_3					03A5
+sndHit2_4					03A6
+sndHit2_5					03A7
+sndHit2_6					03A8
+sndHit2_7					03A9
+sndHit2_8					03AA
+sndHit2_9					03AB
+sndHit2_10					03AC
+sndHit2_11					03AD
+sndHit2_12					03AE
+sndHit2_13					03AF
+sndHit2_14					03B0
+sndHit2_15					03B1
+sndHit2_16					03B2
+sndHit2_17					03B3
+sndHit2_18					03B4
+sndHit2_19					03B5
+sndHit2_20					03B6
+sndHit2_21					03B7
+sndHit2_22					03B8
+sndHeavySword2_1			03B9
+sndHeavySword2_2			03BA
+sndHeavySword2_3			03BB
+sndHeavySword2_4			03BC
+sndHeavySword2_5			03BD
+sndIdentify					03BE
+sndIgniteTorch2				03BF
+sndSolen1					03C0
+sndSolen2					03C1
+sndSolen3					03C2
+sndSolen4					03C3
+sndSolen5					03C4
+sndInvisible				03C5
+sndKiRin1					03C6
+sndKiRin2					03C7
+sndKiRin3					03C8
+sndKiRin4					03C9
+sndKiRin5					03CA
+
+// Ninjitsu
+sndDeathStrikeSpell			050E	// Female
+sndDeathStrikeSpell			050F	// Male
+sndFocusAttackSpell			0510
+sndKiAttackSpell			0511
+sndMirrorImageSpell			0512
+sndShadowJumpSpell			0513
+sndSupriseAttackSpell2		0514	// Female
+sndSupriseAttackSpell2		0515	// Male
 //snd_ninjitsu_animal_form
 //snd_ninjitsu_backstab
 
-snd_bushido_confidence		 1306
-snd_bushido_evasion		    1307
-snd_bushido_honorable_execution    1308
-snd_bushido_lightning_strike	 1309
-snd_bushido_momentum_strike	  1310
+// Bushido
+sndConfidenceSpell			051B
+sndEvasionSpell				051C
+sndHonorableExecutionSpell	051D
+sndLightningStrikeSpell		051E
+sndMomentumStrikeSpell		051F
 //snd_bushido_counter_attack
 
 //snd_combat_armor_ignore
@@ -486,55 +1064,299 @@ snd_bushido_momentum_strike	  1310
 //snd_combat_nerve_strike
 //snd_combat_talon_strike
 //sndCombatArmorPierce
-sndCombatWhirlwindAttack	1311
-sndCombatBlock				1312
-sndCombatDefenseMastery		1313
-sndCombatDoubleShot			1314
-sndCombatDoubleShot2		1315
-sndCombatDualWield			1316
-sndCombatFeint				1317
-sndCombatFrenziedWhirlwind	1318
-sndCombatBladeweave			1468
-sndCombatForcearrow			1469
-sndCombatForceOfNature		1470
-sndCombatLightningArrow		1471
+
+sndWhirlwindAttackSpell		0520
+sndBlockSpell				0521
+sndDefenseMasterySpell		0522
+sndDoubleShotSpell			0523
+sndDoubleShot2Spell			0524	// miss maybe?! Need to test.
+sndDualWieldSpell			0525
+sndFeintSpell				0526
+sndFrenziedWhirlwindSpell	0527
+sndForceArrow			1469
+//sndLightningArrow		1471
 //snd_combat_psychic_attack
 //snd_combat_serpent_arrow
 
-sndFukiya					1327
-sndShurikenHit				1328
-sndShurikenMiss				1329
-sndSmokeBomb				1330
+sndChangeling6				056B
+sndCorporealBrume5			056C
+sndFetidEssence5			056D
+sndHydra6					056E	// Special
+sndMatraEffervescence5		056F	// get hit
+sndParoxysmus1				0570	// die
+sndParoxysmus2				0571	// hit
+sndParoxysmus3				0572	// idle
+sndParoxysmus4				0573	// notice
+sndParoxysmus5				0574	// get hit
+sndParoxysmus6				0575	// Special
+sndCuSidhe1					0576	// die
+sndCuSidhe2					0577	// hit
+sndCuSidhe3					0578	// idle
+sndCuSidhe4					0579	// notice
+sndCuSidhe5					057A	// get hit
+sndDryad1					057B	// die
+sndDryad2					057C	// hit
+sndDryad3					057D	// idle
+sndDryad4					057E	// notice
+sndDryad5					057F	// get hit
+sndInterredGrizzle1			0580	// die
+sndInterredGrizzle2			0581	// hit
+sndInterredGrizzle3			0582	// idle
+sndInterredGrizzle4			0583	// notice
+sndInterredGrizzle5			0584	// get hit
+sndInterredGrizzle6			0585	// special 1
+sndSatyr1					0586	// die
+sndSatyr2					0587	// hit
+sndSatyr3					0588	// idle
+sndSatyr4					0589	// notice
+sndSatyr5					058A	// get hit
+sndSatyr6					058B	// special 1
+sndSatyr7					058C	// special 2
+sndSatyr8					058D	// special 3
+sndShimmeringEffusion1		058E	// die
+sndShimmeringEffusion2		058F	// hit 1
+sndShimmeringEffusion3		0590	// hit 2
+sndShimmeringEffusion4		0591	// hit 3
+sndShimmeringEffusion5		0592	// hit 4
+sndShimmeringEffusion6		0593	// hit 5
+sndShimmeringEffusion7		0594	// idle
+sndShimmeringEffusion8		0595	// notice
+sndShimmeringEffusion9		0596	// get hit
+// Tormented Minotaur (Minotaur as well I guess)
+sndMinotaur1				0597	// die
+sndMinotaur2				0598	// hit
+sndMinotaur3				0599	// idle
+sndMinotaur4				059A	// notice
+sndMinotaur5				059B	// get hit
+sndMinotaur6				059C	// special 1
+sndMinotaur7				059D	// special 2
+sndTroglodyte1				059E
+sndTroglodyte2				059F
+sndTroglodyte3				05A0
+sndTroglodyte4				05A1
+sndTroglodyte5				05A2
 
-sndAquariumDeadFish			1442
-sndAquariumRewards			1443
-sndAquariumUse				1444
+sndAquariumDeadFish			05A3
+sndAquariumRewards			05A4
+sndAquariumUse				05A5
 
-snd_collection_negative		1445	// I think these are actually the Quest sounds
-snd_collection_positive		1446
-snd_collection_reward		1447
+sndCollectionNegative		05A6
+sndCollectionPositive		05A7
+sndCollectionReward			05A8
 
-snd_spellweave_arcane_circle	    1472
-snd_spellweave_arcane_empowerment     1473
-snd_spellweave_arcane_empowerment_end 1474
-snd_spellweave_attunement		 1475
-snd_spellweave_dryad_allure	     1476
-snd_spellweave_dryad_allure_fail	1477
-snd_spellweave_essence_of_wind	  1478
-snd_spellweave_essence_of_wind_cold   1479
-snd_spellweave_ethereal_voyage	  1480
-snd_spellweave_gift_of_renewal	  1481
-snd_spellweave_immolating_weapon	1482
-snd_spellweave_natures_fury	     1483
-snd_spellweave_natures_fury_attack    1484
-snd_spellweave_natures_fury_idle	1485
-snd_spellweave_thunderstorm	     1486
-snd_spellweave_wildfire		   1487
-//snd_spellweave_summon_fey
-//snd_spellweave_summon_fiend
-//snd_spellweave_reaper_form
-//snd_spellweave_word_of_death
-//snd_spellweave_gift_of_life
+sndCraftingEffect1			05A9
+sndCraftingEffect2			05AA
+sndCraftingEffect3			05AB
+sndCraftingEffect4			05AC
+sndCraftingEffect5			05AD
+sndCraftingEffect6			05AE
+sndCraftingEffect7			05AF
+sndCraftingEffect8			05B0
+sndFiddle1					05B1
+sndFiddle2					05B2
+sndParrotUse				05B3
+
+sndQuestAbandon				05B4
+sndQuestAccept				05B5			
+sndQuestComplete			05B6		
+sndQuestUpdate				05B7
+
+sndSatyrPipe1				05B8	// poorly
+sndSatyrPipe2				05B9	// well
+sndVirtueCards				05BA
+sndVirtueCardsWrong			05BB
+sndVirtueCardsRighr			05BC
+
+sndBladeweaveSpell			05BD
+sndForceOfNatureSpell		05BF
+
+sndArcaneCircleSpell		05C1
+sndArcaneEmpowermentSpell	05C2
+sndArcaneEmpowermentEnd		05C3
+sndAttunementSpell			05C4
+sndDryadAllureSpell			05C5
+sndDryadAllureFailure		05C6
+sndEssenceOfWindSpell		05C7
+sndEssenceOfWind_Cold		05C8
+sndEtherealVoyageSpell		05C9
+sndGiftOfRenewalSpell		05CA
+sndImmolatingWeaponSpell	05CB
+sndNaturesFurySpell			05CC
+sndNaturesFuryAttack		05CD
+sndNaturesFuryIdle			05CE
+sndThunderstormSpell		05CF
+sndWildfireSpell			05D0
+//sndSummonFeySpell
+//sndSummonFiendSpell
+//sndReaperFormSpell
+//sndWordOfDeathSpell
+//sndGiftOfLifeSpell
+
+sndAudChar					05D1
+sndImbue					05D2
+sndThrowHit					05D3
+sndThrowMiss				05D4
+sndAbyssmalInfernal1		05D5	// A
+sndAbyssmalInfernal2		05D6	// D
+sndAbyssmalInfernal3		05D7	// H
+sndAbyssmalInfernal4		05D8	// N
+sndAcidSlug1				05D9
+sndAcidSlug2				05DA
+sndAcidSlug3				05DB
+sndAcidSlug4				05DC
+sndBloodworm1				05DD
+sndBloodworm2				05DE
+sndBloodworm3				05DF
+sndBloodworm4				05E0
+sndBoura1					05E1
+sndBoura2					05E2
+sndBoura3					05E3
+sndBoura4					05E4
+sndChickenLizard1			05E5
+sndChickenLizard2			05E6
+sndChickenLizard3			05E7
+sndChickenLizard4			05E8
+sndDragonFaerie1			05E9
+sndDragonFaerie2			05EA
+sndDragonFaerie3			05EB
+sndDragonFaerie4			05EC
+sndDragonWolf1				05ED
+sndDragonWolf2				05EE
+sndDragonWolf3				05EF
+sndDragonWolf4				05F0
+sndDreamWraith1				05F1
+sndDreamWraith2				05F2
+sndDreamWraith3				05F3
+sndDreamWraith4				05F4
+sndFemaleGargoyle1			05F5
+sndFemaleGargoyle2			05F6
+sndFemaleGargoyle3			05F7
+sndFemaleGargoyle4			05F8
+sndMaleGargoyle1			05F9
+sndMaleGargoyle2			05FA
+sndMaleGargoyle3			05FB
+sndMaleGargoyle4			05FC
+sndWingsFlapping			05FD
+sndGoblin1					05FE
+sndGoblin2					05FF
+sndGoblin3					0600
+sndGoblin4					0601
+sndTarantula1				0602
+sndTarantula2				0603
+sndTarantula3				0604
+sndTarantula4				0605
+sndHumonculous1				0606
+sndKepetch1					0607
+sndKepetch2					0608
+sndKepetch3					0609
+sndKepetch4					060A
+sndLavaElemental1			060B
+sndLavaElemental2			060C
+sndLavaElemental3			060D
+sndLavaElemental4			060E
+sndMaddeningHorror1			060F
+sndMaddeningHorror2			0610
+sndMaddeningHorror3			0611
+sndMaddeningHorror4			0612
+sndMedusa1					0613
+sndMedusa2					0614
+sndMedusa3					0615
+sndMedusa4					0616
+SndMimic1					0617
+SndMimic2					0618
+SndMimic3					0619
+SndMimic4					061A
+sndNavreyNightEyes1			061B
+sndNavreyNightEyes2			061C
+sndNavreyNightEyes3			061D
+sndNavreyNightEyes4			061E
+sndPrimevalLich1			061F
+sndPrimevalLich2			0620
+sndPrimevalLich3			0621
+sndPrimevalLich4			0622
+sndRaptor1					0623
+sndRaptor2					0624
+sndRaptor3					0625
+sndRaptor4					0626
+sndRisingColossus1			0627
+sndRisingColossus2			0628
+sndRisingColossus3			0629
+sndRisingColossus4			062A
+sndRotworm1					062B
+sndRotworm2					062C
+sndRotworm3					062D
+sndRotworm4					062E
+sndSkree1					062F
+sndSkree2					0630
+sndSkree3					0631
+sndSkree4					0632
+sndSlasherOfVeils1			0633
+sndSlasherOfVeils2			0634
+sndSlasherOfVeils3			0635
+sndSlasherOfVeils4			0636
+sndSlith1					0637
+sndSlith2					0638
+sndSlith3					0639
+sndSlith4					063A
+sndStoneForm1				063B
+sndStoneForm2				063C
+sndStoneForm3				063D
+sndStoneForm4				063E
+sndStygianDragon1			063F
+sndStygianDragon2			0640
+sndStygianDragon3			0641
+sndStygianDragon4			0642
+sndTrapdoorSpider1			0643
+sndTrapdoorSpider2			0644
+sndTrapdoorSpider3			0645
+sndTrapdoorSpider4			0646
+sndUndeadGargoyle1			0647
+sndUndeadGargoyle2			0648
+sndUndeadGargoyle3			0649
+sndUndeadGargoyle4			064A
+
+// Mysticism Spells
+sndAnimatedWeaponSpell		064B
+sndBombardSpell				064C
+sndCleansingWindsSpell		064D
+sndEagleStrikeSpell			064E
+sndEnchantSpell				064F
+sndHailStormSpell			0640
+sndHealingStoneSpell		0651
+sndMassSleepSpell			0652
+sndMysticism				0653	// ???
+sndNetherBoltSpell			0654
+sndNetherCycloneSpell		0655
+sndPurgeMagicSpell			0656
+sndRisingColossusSpell		0657
+sndSleepSpell				0658
+sndSpellPlagueSpell			0659
+sndSpellTriggerSpell		065A		
+sndStoneFormSpell			065B
+
+sndMine						065C	// a mob?
+
+sndClockPlay				0663	// Grandfather Clock
+sndClockRing				0664	// Grandfather Clock
+sndCannonShot				0665
+sndElectricCrackle			0666
+sndCannonFuse				0667
+sndCavernRoar				0668
+sndWaterRoar				0669
+sndSanta					066A
+sndTurkey1					066B
+sndTurkey2					066C
+sndBell						066D
+sndCello					066E
+sndCowbell					066F
+snfTrumpet					0670
+sndTiger1					0671	// Angry: Roar
+sndTiger2					0672	// Hit: Roar
+sndTiger3					0673	// Attack: Roar
+sndTiger4					0674	// Idle: Purr
+sndPuppySnore1				0675
+sndPuppySnore2				0676
+sndKittenSnore				0677
 
 
 [EOF]

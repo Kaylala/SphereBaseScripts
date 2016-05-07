@@ -1,0 +1,53 @@
+[ItemDef 0EB5]
+DefName=iMusicStand1
+Name=music stand
+NameLoc=1023765
+Type=tNormal
+Can=CanIFlip
+Weight=10
+DupeList=0EB6,0EB7,0EB8
+
+Category=Decorations
+Subsection=Musician: Music Stands
+Description=Music Stand 1
+
+[ItemDef 0EB6]
+NameLoc=1023766
+DupeItem=0EB5
+
+[ItemDef 0EB7]
+NameLoc=1023767
+DupeItem=0EB5
+
+[ItemDef 0EB8]
+NameLoc=1023768
+DupeItem=0EB5
+
+
+[ItemDef 0EB9]
+DefName=iMusicStand2
+Name=music stand
+NameLoc=1023769
+Type=tNormal
+Can=CanIFlip
+Weight=10
+DupeList=0EBA,0EBB,0EBC
+
+Category=Decorations
+Subsection=Musician: Music Stands
+Description=Music Stand 2
+
+[ItemDef 0EBA]
+NameLoc=1023770
+DupeList=0EB9
+
+[ItemDef 0ebb]
+NameLoc=1023771
+DupeList=0EB9
+
+[ItemDef 0EBC]
+NameLoc=1023772
+DupeList=0EB9
+
+
+[EOF]

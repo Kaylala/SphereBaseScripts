@@ -1,3 +1,43 @@
+[ItemDef 04246]
+DefName=iRamrod
+Name=ramrod
+NameLoc=1095838
+Type=tNormal
+Can=CanIFlip|CanIExceptional|CanIMakersMark
+Weight=1
+SkillMake=Tinkering 0
+Resources=8 iBoard
+DupeList=04247
+
+Category=Utility
+Subsection=Cannon Supplies
+Description=Ramrod
+
+[ItemDef 04247]
+NameLoc=1095839
+DupeItem=04246
+
+
+[ItemDef 04248]
+DefName=iSwab
+Name=swab
+NameLoc=1095840
+Type=tNormal
+Can=CanIFlip|CanIExceptional|CanIMakersMark
+Weight=1
+SkillMake=Tinkering 0
+Resources=4 iBoard,4 iCloth
+DupeList=04249
+
+Category=Utility
+Subsection=Cannon Supplies
+Description=Ramrod
+
+[ItemDef 04249]
+NameLoc=1095841
+DupeItem=04248
+
+
 [ItemDef 0423A]
 DefName=iBlackPowder
 Name=black powder

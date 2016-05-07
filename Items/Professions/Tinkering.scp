@@ -218,85 +218,80 @@ DupeItem=0105D
 
 
 [ItemDef 01849]
-DefName=iHeatingStandS
+DefName=iHeatingStand
 Name=flask
 NameLoc=1026217
 Type=tUnlitLight
 TData3=iHeatingStandLitS
 SkillMake=Tinkering 600
 Resources=4 iIronIngot
+DupeList=0184B
 Weight=1
 
 Category=Professions
 Subsection=Alchemist: Miscellaneous
-Description=Heating Stand (South)
+Description=Heating Stand (Unlit)
 
 
 [ItemDef 0184A]
-DefName=iHeatingStandLitS
+DefName=iHeatingStandLit
 Name=heating stand
 NameLoc=1026218
 Type=tlitLight
 TData3=iHeatingStandS
 Weight=1
-DupeList=0184B,0184C
+DupeList=0184D
 TEvents=tFire
 
 Category=Professions
 Subsection=Alchemist: Miscellaneous
-Description=Heating Stand (South) (Lit)
+Description=Heating Stand (Lit)
 
 On=@Create
 MoreZ=2
 
 [ItemDef 0184B]
 NameLoc=1026219
-DupeItem=0184A
+
+Category=Professions
+Subsection=Alchemist: Miscellaneous
+Description=Heating Stand (Lit) (Anim Frame)
 
 [ItemDef 0184C]
 NameLoc=1026220
-DupeItem=0184A
+
+Category=Professions
+Subsection=Alchemist: Miscellaneous
+Description=Heating Stand (Lit) (Anim Frame)
 
 
 [ItemDef 0184D]
-DefName=iHeatingStandE
-Name=heating stand
+DupeItem=01849
 NameLoc=1026221
 Type=tUnlitLight
-TData3=iHeatingStandLitE
-SkillMake=Tinkering 600
-Resources=4 iIronIngot
-Weight=1
-
-Category=Professions
-Subsection=Alchemist: Miscellaneous
-Description=Heating Stand (East)
+TData3=0184E
 
 
 [ItemDef 0184E]
-DefName=iHeatingStandLitE
-Name=heating stand
+DupeItem=0184A
 NameLoc=1026222
 Type=tlitLight
-TData3=iHeatingStandE
-Weight=1
-DupeList=0184F,01850
+TData3=0184D
 TEvents=tFire
-
-Category=Professions
-Subsection=Alchemist: Miscellaneous
-Description=Heating Stand (East) (Lit)
-
-On=@Create
-MoreZ=2
 
 [ItemDef 0184F]
 NameLoc=1026223
-DupeItem=0184E
+
+Category=Professions
+Subsection=Alchemist: Miscellaneous
+Description=Heating Stand (Lit) (Anim Frame)
 
 [ItemDef 01850]
 NameLoc=1026224
-DupeItem=0184E
+
+Category=Professions
+Subsection=Alchemist: Miscellaneous
+Description=Heating Stand (Lit) (Anim Frame)
 
 
 [ItemDef 01851]
@@ -317,46 +312,6 @@ Description=Scales
 [ItemDef 01852]
 NameLoc=1026226
 DupeItem=01851
-
-
-[ItemDef 04246]
-DefName=iRamrod
-Name=ramrod
-NameLoc=1095838
-Type=tNormal
-Can=CanIFlip|CanIExceptional|CanIMakersMark
-Weight=1
-SkillMake=Tinkering 0
-Resources=8 iBoard
-DupeList=04247
-
-Category=Professions
-Subsection=Tinkering
-Description=Ramrod
-
-[ItemDef 04247]
-NameLoc=1095839
-DupeItem=04246
-
-
-[ItemDef 04248]
-DefName=iSwab
-Name=swab
-NameLoc=1095840
-Type=tNormal
-Can=CanIFlip|CanIExceptional|CanIMakersMark
-Weight=1
-SkillMake=Tinkering 0
-Resources=4 iBoard,4 iCloth
-DupeList=04249
-
-Category=Professions
-Subsection=Tinkering
-Description=Ramrod
-
-[ItemDef 04249]
-NameLoc=1095841
-DupeItem=04248
 
 
 [EOF]

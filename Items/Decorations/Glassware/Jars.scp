@@ -1,0 +1,162 @@
+[ItemDef 0E44]
+DefName=iEmptyJars1
+Name=empty jars
+NameLoc=1023652
+Type=tNormal
+Can=CanIFlip
+Weight=1
+DupeList=0E45
+
+Category=Decorations
+Subsection=Glassware: Jars
+Description=Empty Jars 1
+
+
+[ItemDef 0E45]
+NameLoc=1023653
+DupeList=0E44
+
+
+[ItemDef 0E46]
+DefName=iEmptyJars2
+Name=empty jars
+NameLoc=1023654
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Glassware: Jars
+Description=Empty Jars 2
+
+
+[ItemDef 0E47]
+DefName=iEmptyJars3
+Name=empty jars
+NameLoc=1023655
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Glassware: Jars
+Description=Empty Jars 3
+
+
+[ItemDef 0E48]
+DefName=iFullJars1
+Name=full jars
+NameLoc=1023656
+Type=tNormal
+Can=CanIFlip
+Weight=1
+
+Category=Decorations
+Subsection=Glassware: Jars
+Description=Full Jars 1
+
+[ItemDef 0E49]
+NameLoc=1023657
+DupeItem=0E48
+
+
+[ItemDef 0E4A]
+DefName=iFullJars2
+Name=full jars
+NameLoc=1023658
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Glassware: Jars
+Description=Full Jars 2
+
+
+[ItemDef 0E4B]
+DefName=iFullJars3
+Name=full jars
+NameLoc=1023659
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Glassware: Jars
+Description=Full Jars 3
+
+
+[ItemDef 0E4C]
+DefName=iJars1
+Name=jars
+NameLoc=1023660
+Type=tNormal
+Can=CanIFlip
+Weight=1
+
+Category=Decorations
+Subsection=Glassware: Jars
+Description=Jars 1
+
+[ItemDef 0E4D]
+NameLoc=1023661
+DupeItem=0E4C
+
+
+[ItemDef 0E4E]
+DefName=iJars2
+Name=jars
+NameLoc=1023662
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Glassware: Jars
+Description=Jars 2
+
+
+[ItemDef 0E4F]
+DefName=iJars3
+Name=jars
+NameLoc=1023663
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Glassware: Jars
+Description=Jars 3
+
+
+[ItemDef 01005]
+DefName=iEmptyJar
+Name=empty jar
+NameLoc=1024101
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Glassware: Jars
+Description=Empty Jar
+
+
+[ItemDef 01006]
+DefName=iFullJar
+Name=full jar
+NameLoc=1024102
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Glassware: Jars
+Description=Full Jar
+
+
+[ItemDef 01007]
+DefName=iHalfEmptyJar
+Name=half empty jar
+NameLoc=1024103
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Glassware: Jars
+Description=Half Empty Jar
+
+
+[EOF]
