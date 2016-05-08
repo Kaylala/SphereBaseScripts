@@ -1,0 +1,281 @@
+[Comment WallCarvingAdditionCliLocs]
+1080408;a deed for a wall carving decoration
+1080414;Where would you like to place this wall carving?
+
+
+[ItemDef 0121D]
+DefName=iWallCarving1
+Name=wall carving
+NameLoc=1024637
+Type=tNormal
+Can=CanIFlip
+Can=CanIFlip
+Weight=255
+DupeList=0121E,0121F
+
+Category=Decorations
+Subsection=Wall Carvings
+Description=Wall Carving 1
+
+[ItemDef 0121E]
+NameLoc=1024638
+DupeItem=0121D
+
+[ItemDef 0121F]
+NameLoc=1024639
+DupeItem=0121D
+
+[ItemDef 01220]
+DefName=iWallCarving2
+Name=wall carving
+NameLoc=1024640
+Type=tNormal
+Can=CanIFlip
+Can=CanIFlip
+Weight=255
+DupeList=01221,01222
+
+Category=Decorations
+Subsection=Wall Carvings
+Description=Wall Carving 2
+
+[ItemDef 01221]
+NameLoc=1024641
+DupeItem=01220
+
+[ItemDef 01222]
+NameLoc=1024642
+DupeItem=01220
+
+
+[ItemDef 01231]
+DefName=iWallCarving3
+Name=wall carving
+NameLoc=1024657
+Type=tNormal
+Can=CanIFlip
+Weight=255
+DupeList=01232,01233
+
+Category=Decorations
+Subsection=Wall Carvings
+Description=Wall Carving 3
+
+[ItemDef 01232]
+NameLoc=1024658
+DupeItem=01231
+
+[ItemDef 01233]
+NameLoc=1024659
+DupeItem=01231
+
+
+[ItemDef 01234]
+DefName=iWallCarving4
+Name=wall carving
+NameLoc=1024660
+Type=tNormal
+Can=CanIFlip
+Weight=255
+DupeList=01235
+
+Category=Decorations
+Subsection=Wall Carvings
+Description=Wall Carving 4
+
+[ItemDef 01235]
+NameLoc=1024661
+DupeItem=01234
+
+
+[ItemDef 01237]
+DefName=iWallCarving5
+Name=wall carving
+NameLoc=1024663
+Type=tNormal
+Can=CanIFlip
+Weight=255
+DupeList=01238,01239
+
+Category=Decorations
+Subsection=Wall Carvings
+Description=Wall Carving 5
+
+[ItemDef 01238]
+NameLoc=1024664
+DupeItem=01237
+
+[ItemDef 01239]
+NameLoc=1024665
+DupeItem=01237
+
+
+[ItemDef 0123A]
+DefName=iWallCarving6
+Name=wall carving
+NameLoc=1024666
+Type=tNormal
+Can=CanIFlip
+Weight=255
+DupeList=0123B,0123C
+
+Category=Decorations
+Subsection=Wall Carvings
+Description=Wall Carving 6
+
+[ItemDef 0123B]
+NameLoc=1024667
+DupeItem=0123A
+
+[ItemDef 0123C]
+NameLoc=1024668
+DupeItem=0123A
+
+
+[ItemDef 0123D]
+DefName=iWallCarving7
+Name=wall carving
+NameLoc=1024669
+Type=tNormal
+Can=CanIFlip
+Weight=255
+DupeList=0123E
+
+Category=Decorations
+Subsection=Wall Carvings
+Description=Wall Carving 7
+
+[ItemDef 0123E]
+NameLoc=1024670
+DupeItem=0123D
+
+
+[ItemDef 01240]
+DefName=iWallCarving8
+Name=wall carving
+NameLoc=1024672
+Type=tNormal
+Can=CanIFlip
+Weight=255
+DupeList=01241,01242
+
+Category=Decorations
+Subsection=Wall Carvings
+Description=Wall Carving 8
+
+[ItemDef 01241]
+NameLoc=1024673
+DupeItem=01240
+
+[ItemDef 01242]
+NameLoc=1024674
+DupeItem=01240
+
+
+[ItemDef 01243]
+DefName=iWallCarving9
+Name=wall carving
+NameLoc=1024675
+Type=tNormal
+Can=CanIFlip
+Weight=255
+DupeList=01244
+
+Category=Decorations
+Subsection=Wall Carvings
+Description=Wall Carving 9
+
+[ItemDef 01244]
+NameLoc=1024676
+DupeItem=01243
+
+
+[ItemDef 01260]
+DefName=iWallCarving10
+Name=wall carving
+NameLoc=1024709
+Type=tNormal
+Can=CanIFlip
+Weight=255
+DupeList=01261,01262
+
+Category=Decorations
+Subsection=Wall Carvings
+Description=Wall Carving 10
+
+[ItemDef 01261]
+NameLoc=1024710
+DupeItem=01260
+
+[ItemDef 01262]
+NameLoc=1024711
+DupeItem=01260
+
+
+[ItemDef 012CC]
+DefName=iWallCarving11
+Name=wall carving
+NameLoc=1024812
+Type=tNormal
+Can=CanIFlip
+Weight=255
+DupeList=012CD,012CE
+
+Category=Decorations
+Subsection=Wall Carvings
+Description=Wall Carving 11
+
+[ItemDef 012CD]
+NameLoc=1024813
+DupeItem=012CC
+
+[ItemDef 012CE]
+NameLoc=1024814
+DupeItem=012CC
+
+
+[ItemDef 012CF]
+DefName=iWallCarving12
+Name=wall carving
+NameLoc=1024815
+Type=tNormal
+Can=CanIFlip
+Weight=255
+DupeList=012D0
+
+Category=Decorations
+Subsection=Wall Carvings
+Description=Wall Carving 12
+
+[ItemDef 012D0]
+NameLoc=1024816
+DupeItem=012CF
+
+
+[ItemDef 012D1]
+DefName=iWallCarving13
+Name=wall carving
+NameLoc=1024817
+Type=tNormal
+Can=CanIFlip
+Weight=255
+DupeList=012D2,012D3,012D4
+
+Category=Decorations
+Subsection=Wall Carvings
+Description=Wall Carving 13
+
+[ItemDef 012D2]
+NameLoc=1024818
+DupeItem=012D1
+
+[ItemDef 012D3]
+NameLoc=1024819
+DupeItem=012D1
+
+[ItemDef 012D4]
+NameLoc=1024820
+DupeItem=012D1
+
+
+[EOF]
