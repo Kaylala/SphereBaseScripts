@@ -715,7 +715,7 @@ sndLizard4					0298
 sndLizard5					0299
 sndArchCure					029A	// ???
 
-sndBear						029B
+sndBear2_1					029B
 sndBird1_5					029C
 sndBird2_1					029D
 sndBird2_2					029E
@@ -739,16 +739,13 @@ sndCorpser2_2				02AE
 sndCorpser2_3				02AF
 sndCorpser2_4				02B0
 sndCorpser2_5				02B1
-
 sndCrossbow2				02B2
 sndCrossbowAlt				02B3
-
 sndJungleDay2_1				02B4
 sndJungleDay2_2				02B5
 sndJungleDay2_3				02B6
 sndSwampDay2_1				02B7
 sndSwampDay2_2				02B8
-
 sndDaemon2_1				02B9
 sndDaemon2_2				02BA
 sndDaemon2_3				02BB
@@ -897,7 +894,6 @@ sndFire2_3					0348
 sndFire2_4					0349
 sndFire2_5					034A
 sndFire2_6					034B
-
 sndFlailCorsper1			034C	// Die
 sndFlailCorsper2			034D	// Fight 1
 sndFlailCorsper3			034E	// Fight 2
@@ -909,12 +905,10 @@ sndFlailKraken2				0353	// Die
 sndFlailKraken3				0354	// Fight
 sndFlailKraken4				0355	// Get Hit
 sndFlailKraken5				0356	// Walk
-
 sndFlame2_1					0357
 sndFlame2_2					0358
 sndFlame2_3					0359
 sndFlame2_4					035A
-
 sndFrog1_1					035B
 sndFrog1_2					035C
 sndFrog1_3					035D
@@ -982,11 +976,11 @@ sndHarpy3_1					039A	// die
 sndHarpy3_2					039B	// fidget
 sndHarpy3_3					039C	// get hit
 sndHarpy3_4					039D	// walk
-sndHeadless2_1				039E
-sndHeadless2_2				039F
-sndHeadless2_3				03A0
-sndHeadless2_4				03A1
-sndHeadless2_5				03A2
+sndHeadless2_1				039E	// Die
+sndHeadless2_2				039F	// Hit
+sndHeadless2_3				03A0	// Idle
+sndHeadless2_4				03A1	// Notice
+sndHeadless2_5				03A2	// Was hit
 sndHit2_1					03A3
 sndHit2_2					03A4
 sndHit2_3					03A5
@@ -1016,175 +1010,171 @@ sndHeavySword2_4			03BC
 sndHeavySword2_5			03BD
 sndIdentify					03BE
 sndIgniteTorch2				03BF
-
 sndSolen1					03C0
 sndSolen2					03C1
 sndSolen3					03C2
 sndSolen4					03C3
 sndSolen5					03C4
-
 sndInvisible				03C5
-
-snd1			0	// die
-snd2			0	// hit
-snd3			0	// idle
-snd4			0	// notice
-snd5			0	// Was hit
-
 sndKiRin1					03C6
 sndKiRin2					03C7
 sndKiRin3					03C8
 sndKiRin4					03C9
 sndKiRin5					03CA
 
-sndLich2_1				03EA	// die	(Not really for lich I dont think. Arcane Daemon?)
-sndLich2_2				03EB	// hit
-sndLich2_3				03EC	// idle
-sndLich2_4				03ED	// notice
-sndLich2_5				03EE	// Was hit
-sndLion2_1				03EF	// die (Need to fight on EA to find out what creature this is for.)
-sndLion2_2				03F0	// hit
-sndLion2_3				03F1	// idle
-sndLion2_4				03F2	// notice
-sndLion2_5				03F3	// Was hit
-sndLlama2_1				03F4	// die (Need to fight on EA to find out what creature this is for.)
-sndLlama2_2				03F5	// hit
-sndLlama2_3				03F6	// idle
-sndLlama2_4				03F7	// notice
-sndLlama2_5				03F8	// Was hit
-sndLonghorn1			03F9	// die (Need to fight on EA to find out what creature this is for.)
-sndLonghorn2			03FA	// hit
-sndLonghorn3			03FB	// idle
-sndLonghorn4			03FC	// notice
-sndLonghorn5			03FD	// Was hit
+// Ugh. Think the die, hit, idle, notice, was hit is out of order. Will fix when possible
+sndLich2_1					03EA	// die	(Not really for lich I dont think. Arcane Daemon?)
+sndLich2_2					03EB	// hit
+sndLich2_3					03EC	// idle
+sndLich2_4					03ED	// notice
+sndLich2_5					03EE	// Was hit
+sndLion2_1					03EF	// die (Need to fight on EA to find out what creature this is for.)
+sndLion2_2					03F0	// hit
+sndLion2_3					03F1	// idle
+sndLion2_4					03F2	// notice
+sndLion2_5					03F3	// Was hit
+sndLlama2_1					03F4	// die (Need to fight on EA to find out what creature this is for.)
+sndLlama2_2					03F5	// hit
+sndLlama2_3					03F6	// idle
+sndLlama2_4					03F7	// notice
+sndLlama2_5					03F8	// Was hit
+sndLonghorn1				03F9	// die (Need to fight on EA to find out what creature this is for.)
+sndLonghorn2				03FA	// hit
+sndLonghorn3				03FB	// idle
+sndLonghorn4				03FC	// notice
+sndLonghorn5				03FD	// Was hit
 
-sndDoppleganger1		044D	// die (Mimic in files)
-sndDoppleganger2		044E	// hit
-sndDoppleganger3		044F	// idle
-sndDoppleganger4		0450	// notice
-sndDoppleganger5		0451	// Was hit
-sndBogThing1			0452	// die (Mushroom men in files) (This seems right)
-sndBogThing2			0453	// hit
-sndBogThing3			0454	// idle
-sndBogThing4			0455	// notice
-sndBogThing5			0456	// Was hit
+sndDoppleganger1			044D	// die (Mimic in files)
+sndDoppleganger2			044E	// hit
+sndDoppleganger3			044F	// idle
+sndDoppleganger4			0450	// notice
+sndDoppleganger5			0451	// Was hit
+sndBogThing1				0452	// die (Mushroom men in files) (This seems right) Might be wrong.
+sndBogThing2				0453	// hit
+sndBogThing3				0454	// idle
+sndBogThing4				0455	// notice
+sndBogThing5				0456	// Was hit
+sndEnergyField				0457
+sndEnergyWind				0458
+sndOrc2_1					0459	// Die
+sndOrc2_2					045A	// hit
+sndOrc2_2_1					045B	// hit
+sndOrc2_2_2					045C	// hit
+sndOrc2_2_3					045D	// hit
+sndOrc2_2_4					045E	// hit
+sndOrc2_2_5					045F	// hit
+sndOrc2_3					0460	// idle
+sndOrc2_4					0461	// notice
+sndOrc2_5					0462	// Was hit
+sndPanther2_1				0463	// die
+sndPanther2_2				0464	// hit
+sndPanther2_3				0465	// idle
+sndPanther2_4				0466	// notice
+sndPanther2_5				0467	// Was hit
+sndPixie1					0468	// Attack/hit
+sndPixie2					0469	// Cast
+sndPixie3					046A	// Die
+sndPixie4					046B	// Fight/Notice
+sndPixie5					046C	// Was hit
+sndPixie6					046D	// Walk
+sndSylvania1				046E	// Attack/Hit
+sndSylvania2				046F	// Cast
+sndSylvania3				0470	// Die
+sndSylvania4				0471	// Fight/Notice
+sndSylvania5				0472	// Was hit
+sndSylvania6				0473	// Walk/Fly 1
+sndSylvania7				0474	// Walk/Fly 2
 
-sndOrc2_1				0459	// Die
-sndOrc2_2				045A	// hit
-sndOrc2_2_1				045B	// hit
-sndOrc2_2_2				045C	// hit
-sndOrc2_2_3				045D	// hit
-sndOrc2_2_4				045E	// hit
-sndOrc2_2_5				045F	// hit
-sndOrc2_3				0460	// idle
-sndOrc2_4				0461	// notice
-sndOrc2_5				0462	// Was hit
-sndPanther2_1			0463	// die
-sndPanther2_2			0464	// hit
-sndPanther2_3			0465	// idle
-sndPanther2_4			0466	// notice
-sndPanther2_5			0467	// Was hit
-sndPixie1				0468	// Attack/hit
-sndPixie2				0469	// Cast
-sndPixie3				046A	// Die
-sndPixie4				046B	// Fight/Notice
-sndPixie5				046C	// Was hit
-sndPixie6				046D	// Walk
-sndSylvania1			046E	// Attack/Hit
-sndSylvania2			046F	// Cast
-sndSylvania3			0470	// Die
-sndSylvania4			0471	// Fight/Notice
-sndSylvania5			0472	// Was hit
-sndSylvania6			0473	// Walk/Fly 1
-sndSylvania7			0474	// Walk/Fly 2
 
+sndSeaHorse1				0479	// die
+sndSeaHorse2				047A	// hit
+sndSeaHorse3				047B	// idle
+sndSeaHorse4				047C	// notice
+sndSeaHorse5				047D	// Was hit
+sndShadowLord1				047E	// die
+sndShadowLord2				047F	// hit
+sndShadowLord3				0480	// idle
+sndShadowLord4				0481	// notice
+sndShadowLord5				0482	// Was hit
+sndShadow1					0483	// die
+sndShadow2					0484	// hit
+sndShadow3					0485	// idle
+sndShadow4					0486	// notice
+sndShadow5					0487	// Was hit
+sndSheep3_2					0488	// Idle
+sndSkeletalDragon1			0489	// die
+sndSkeletalDragon2			048A	// hit
+sndSkeletalDragon3			048B	// idle
+sndSkeletalDragon4			048C	// notice
+sndSkeletalDragon5			048D	// Was hit
+sndSkeleton2_1				048E	// die
+sndSkeleton2_2				048F	// hit
+sndSkeleton2_3				0490	// idle
+sndSkeleton2_4				0491	// notice
+sndSkeleton2_5				0492	// Was hit
+sndDreadSpider1				0493	// die
+sndDreadSpider2				0494	// hit
+sndDreadSpider3				0495	// idle
+sndDreadSpider4				0496	// notice
+sndDreadSpider5				0497	// Was hit
 
-sndSeaHorse1			0479	// die
-sndSeaHorse2			047A	// hit
-sndSeaHorse3			047B	// idle
-sndSeaHorse4			047C	// notice
-sndSeaHorse5			047D	// Was hit
-sndShadowLord1			047E	// die
-sndShadowLord2			047F	// hit
-sndShadowLord3			0480	// idle
-sndShadowLord4			0481	// notice
-sndShadowLord5			0482	// Was hit
-sndShadow1				0483	// die
-sndShadow2				0484	// hit
-sndShadow3				0485	// idle
-sndShadow4				0486	// notice
-sndShadow5				0487	// Was hit
-sndSheep3_2				0488	// Idle
-sndSkeletalDragon1		0489	// die
-sndSkeletalDragon2		048A	// hit
-sndSkeletalDragon3		048B	// idle
-sndSkeletalDragon4		048C	// notice
-sndSkeletalDragon5		048D	// Was hit
-sndSkeleton2_1			048E	// die
-sndSkeleton2_2			048F	// hit
-sndSkeleton2_3			0490	// idle
-sndSkeleton2_4			0491	// notice
-sndSkeleton2_5			0492	// Was hit
-sndDreadSpider1			0493	// die
-sndDreadSpider2			0494	// hit
-sndDreadSpider3			0495	// idle
-sndDreadSpider4			0496	// notice
-sndDreadSpider5			0497	// Was hit
+sndSuccubus1				04B1	// die
+sndSuccubus2				04B2	// hit
+sndSuccubus3				04B3	// idle
+sndSuccubus4				04B4	// notice
+sndSuccubus5				04B5	// Was hit
+sndTambourineBattle			04B6
+sndTambourineDrama			04B7
+sndTambourinePeace			04B8
 
-sndSuccubus1			04B1	// die
-sndSuccubus2			04B2	// hit
-sndSuccubus3			04B3	// idle
-sndSuccubus4			04B4	// notice
-sndSuccubus5			04B5	// Was hit
+sndUnicorn1					04BD	// die
+sndUnicorn2					04BE	// hit
+sndUnicorn3					04BF	// idle
+sndUnicorn4					04C0	// notice
+sndUnicorn5					04C1	// Get hit
+sndWalrus2_5				04C2	// Get hit
 
-sndUnicorn1				04BD	// die
-sndUnicorn2				04BE	// hit
-sndUnicorn3				04BF	// idle
-sndUnicorn4				04C0	// notice
-sndUnicorn5				04C1	// Get hit
-sndWalrus2_5			04C2	// Get hit
-
-sndCrane1				04D7	// die
-sndCrane2				04D8	// hit
-sndCrane3				04D9	// idle
-sndCrane4				04DA	// notice
-sndCrane5				04DB	// Was hit
-sndBakeKitsune1			04DC	// die
-sndBakeKitsune2			04DD	// hit
-sndBakeKitsune3			04DE	// idle
-sndBakeKitsune4			04DF	// notice
-sndBakeKitsune5			04E0	// Was hit
-sndOni1					04E1	// die
-sndOni2					04E2	// hit
-sndOni3					04E3	// idle
-sndOni4					04E4	// notice
-sndOni5					04E5	// Was hit
-sndRuneBeetle1			04E6	// die
-sndRuneBeetle2			04E7	// hit
-sndRuneBeetle3			04E8	// idle
-sndRuneBeetle4			04E9	// notice
-sndRuneBeetle5			04EA	// Was hit
-sndYamandon1			04EB	// die
-sndYamandon1_2			04EC	// die 2
-sndYamandon2			04ED	// hit
-sndYamandon3			04EE	// idle
-sndYamandon4			04EF	// notice
-sndYamandon5			04F0	// Was hit
-sndDeathwatchBeetle1	04F1	// die
-sndDeathwatchBeetle2	04F2	// hit
-sndDeathwatchBeetle3	04F3	// idle
-sndDeathwatchBeetle4	04F4	// notice
-sndDeathwatchBeetle5	04F5	// Was hit
-sndGaman1				04F6	// die
-sndGaman2				04F7	// hit
-sndGaman3				04F8	// idle
-sndGaman4				04F9	// notice
-sndGaman5				04FA	// Was hit
-sndHiryu1				04FB	// die
-sndHiryu2				04FC	// hit
-sndHiryu3				04FD	// idle
-sndHiryu4				04FE	// notice
-sndHiryu5				04FF	// Was hit
+sndCrane1					04D7	// die
+sndCrane2					04D8	// hit
+sndCrane3					04D9	// idle
+sndCrane4					04DA	// notice
+sndCrane5					04DB	// Was hit
+sndBakeKitsune1				04DC	// die
+sndBakeKitsune2				04DD	// hit
+sndBakeKitsune3				04DE	// idle
+sndBakeKitsune4				04DF	// notice
+sndBakeKitsune5				04E0	// Was hit
+sndOni1						04E1	// die
+sndOni2						04E2	// hit
+sndOni3						04E3	// idle
+sndOni4						04E4	// notice
+sndOni5						04E5	// Was hit
+sndRuneBeetle1				04E6	// die
+sndRuneBeetle2				04E7	// hit
+sndRuneBeetle3				04E8	// idle
+sndRuneBeetle4				04E9	// notice
+sndRuneBeetle5				04EA	// Was hit
+sndYamandon1				04EB	// die
+sndYamandon1_2				04EC	// die 2
+sndYamandon2				04ED	// hit
+sndYamandon3				04EE	// idle
+sndYamandon4				04EF	// notice
+sndYamandon5				04F0	// Was hit
+sndDeathwatchBeetle1		04F1	// die
+sndDeathwatchBeetle2		04F2	// hit
+sndDeathwatchBeetle3		04F3	// idle
+sndDeathwatchBeetle4		04F4	// notice
+sndDeathwatchBeetle5		04F5	// Was hit
+sndGaman1					04F6	// die
+sndGaman2					04F7	// hit
+sndGaman3					04F8	// idle
+sndGaman4					04F9	// notice
+sndGaman5					04FA	// Was hit
+sndHiryu1					04FB	// die
+sndHiryu2					04FC	// hit
+sndHiryu3					04FD	// idle
+sndHiryu4					04FE	// notice
+sndHiryu5					04FF	// Was hit
 
 sndKappa1					0509	// Die
 sndKappa2					050A	// hit
@@ -1207,8 +1197,8 @@ sndMirrorImageSpell			0512
 sndShadowJumpSpell			0513
 sndSupriseAttackSpell2		0514	// Female
 sndSupriseAttackSpell2		0515	// Male
-//snd_ninjitsu_animal_form
-//snd_ninjitsu_backstab
+//sndSnimalFormSpell
+//sndBackStabSpell
 
 // Bushido
 sndConfidenceSpell			051B
@@ -1216,23 +1206,23 @@ sndEvasionSpell				051C
 sndHonorableExecutionSpell	051D
 sndLightningStrikeSpell		051E
 sndMomentumStrikeSpell		051F
-//snd_bushido_counter_attack
+//sndCounterAttackSpell
 
-//snd_combat_armor_ignore
-//snd_combat_bleed_attack
-//snd_combat_concussion_blow
-//snd_combat_crushing_blow
-//snd_combat_disarm
-//snd_combat_disMount
-//snd_combat_doublestrike
-//snd_combat_infecting
-//snd_combat_mortal_strike
-//snd_combat_moving_shot
-//snd_combat_paralyzing_blow
-//snd_combat_shadow_strike
-//snd_combat_riding_swipe
-//snd_combat_nerve_strike
-//snd_combat_talon_strike
+//sndArmorIgnoreSpell
+//sndBleedAttackSpell
+//sndConcussionBlowSpell
+//sndCrushingBlowSpell
+//sndDisarmSpell
+//sndDismountSpell
+//sndDoubleStrikeSpell
+//sndInfectiousStrikeSpell
+//sndMortalStrikeSpell
+//sndMovingShotSpell
+//sndParalyzingBlowSpell
+//sndShadowStrikeSpell
+//sndRidingSwipeSpell
+//sndNerveStrikeSpell
+//sndTalonStrikeSpell
 //sndCombatArmorPierce
 
 sndWhirlwindAttackSpell		0520
@@ -1245,8 +1235,8 @@ sndFeintSpell				0526
 sndFrenziedWhirlwindSpell	0527
 sndForceArrow			1469
 //sndLightningArrow		1471
-//snd_combat_psychic_attack
-//snd_combat_serpent_arrow
+//sndPsychicAttackSpell
+//sndSerpentArrowSpell
 
 sndYomotsu3_1				0528	// Idle
 sndYomotsu3_2				0529	// Idle
