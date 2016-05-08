@@ -48,19 +48,25 @@ EndIf
 
 On=@ItemPickUp_Ground
 If (<Act.Amount> == 1) && (<Act.Weight> == 255)
- Return 1
+ If !(<Act.BaseWeight>) ||  (<Act.BaseWeight> == 255)
+  Return 1
+ EndIf
 EndIf
 
 
 On=@ItemPickUp_Self
 If (<ArgO.Amount> == 1) && (<ArgO.Weight> == 255)
- Return 1
+ If !(<ArgO.BaseWeight>) ||  (<ArgO.BaseWeight> == 255)
+  Return 1
+ EndIf
 EndIf
 
 
 On=@ItemPickUp_Pack
 If (<Act.Amount> == 1) && (<Act.Weight> == 255)
- Return 1
+ If !(<Act.BaseWeight>) ||  (<Act.BaseWeight> == 255)
+  Return 1
+ EndIf
 EndIf
 
 

@@ -1,6 +1,6 @@
 [comment EADamagesystem]
 Author: Khaos
-Version: 3.4.0.0
+Version: 3.5.0.0
 NPC Side controlled Slayer Damage to consume less resources in combat with Slayer Damage.
 
 Script checks to make sure players have Slayer flags equipped in their Slayer/Super Slayer/misc Slayer variables and check against the enemies variables.
@@ -36,6 +36,10 @@ Extreme Updates:
 - Fixed some typos
 - Add Hval checks to prevent errors on console (ONE still happening because Slayer# is being considered as String, giving error on console.)
 
+Xun
+- Reverted back to some of the old code.
+- Added SlayerAlignedType
+
 
 Variables used on items and chars:
 SlayerLesser
@@ -53,21 +57,21 @@ SlayerHitRatio		100	// chance to hit with a Slayer 100 always hits. Anything les
 // Adds Slayer flag info from an item to char.
 [Events eSlayersPChars]
 On=@ItemEquip
-If (<HVal <Act.SlayerLesser>>)
- SlayerLesser <HVal <SlayerLesser>|<Act.SlayerLesser>>
+If (<Act.SlayerLesser>)
+ SlayerLesser |= <Act.SlayerLesser>
 EndIf
-If (<HVal <Act.SlayerSuper>>)
- SlayerSuper <HVal <SlayerSuper>|<Act.SlayerSuper>>
+If (<Act.SlayerSuper>)
+ SlayerSuper |= <Act.SlayerSuper>
 EndIf
 Return 0
 
 // Removes Slayer flag info char based on item.
 On=@ItemUnequip
-If (<HVal <Act.SlayerLesser>>)
- SlayerLesser <HVal <SlayerLesser> &~<Act.SlayerLesser>>
+If (<Act.SlayerLesser>)
+ SlayerLesser &= ~<Act.SlayerLesser>
 EndIf
-If (<HVal <Act.SlayerSuper>>)
- SlayerSuper <HVal <SlayerSuper> &~<Act.SlayerSuper>>
+If (<Act.SlayerSuper>)
+ SlayerSuper &= ~<Act.SlayerSuper>
 EndIf
 Return 0
 
@@ -82,45 +86,37 @@ If (!<Def0.SlayerHitRatio>)
  Return 0
 EndIf
 If (<Def0.SlayerHitRatio> != 100)
- If (<R1,100> <= <Def0.SlayerHitRatio>)
-  Call SlayerAlignedType
-  Call SlayerSpellDamage
+ If (<R1,100> > <Def0.SlayerHitRatio>)
   Return 0
  EndIf
 EndIf
-Call SlayerAlignedType
-Call SlayerSpellDamage
-Return 0
+ArgN2 *= <SlayerAlignedType>
 
 On=@GetHit
 If (!<Def0.SlayerHitRatio>)
  Return 0
 EndIf
 If (<Def0.SlayerHitRatio> != 100)
- If (<R1,100> <= <Def0.SlayerHitRatio>)
-  Call SlayerAlignedType
-  Call SlayerDamage
+ If (<R1,100> > <Def0.SlayerHitRatio>)
   Return 0
  EndIf
 EndIf
-Call SlayerAlignedType
-Call SlayerDamage
-Return 0
+local.SlayerDam=<SlayerAlignedType>
+if (<local.SlayerDam>)
+ say argn1=<dargn1> * <dlocal.slayerdam>
+ ArgN1 *= <local.SlayerDam>
+ENDIF
 
 On=@Hit
 If (!<Def0.SlayerHitRatio>)
  Return 0
 EndIf
 If (<Def0.SlayerHitRatio> != 100)
- If (<R1,100> <= <Def0.SlayerHitRatio>)
-  Call SlayerOppositeType
-  Call SlayerDamage
+ If (<R1,100> > <Def0.SlayerHitRatio>)
   Return 0
  EndIf
 EndIf
-Call SlayerOppositeType
-Call SlayerDamage
-Return 0
+ArgN1 *= <SlayerOppositeType>
 
 
 //
@@ -142,120 +138,31 @@ ArgN1 *= <Local.SlayerDam>
 
 // Aligned Slayer Damage PvM
 [Function SlayerAlignedType]
-If (<Hval <SlayerLesser>>) && (<Hval <Src.SlayerLesser>>)
- Call CheckLesserSlayer
+If (<SlayerLesser>) && (<Src.SlayerLesser>)
+ return <CheckLesserSlayer>
+ElIf (<SlayerSuper>) && (<Src.SlayerSuper>)
+ return <CheckSuperSlayer>
 EndIf
-If (<Hval <SlayerSuper>>) && (<Hval <Src.SlayerSuper>>)
- Call CheckSuperSlayer
-EndIf
+return 0
 
 // Opposite Aligned Slayer Damage MvP
 [Function SlayerOppositeType]
 If (<SlayerLesser>) || (<SlayerSuper>)
  If (<SlayerSuper> &AbyssSlayer) || (<SlayerLesser> &GargoyleSlayer) && (<Src.SlayerSuper> &FeySlayer|ElementalSlayer) || (<Src.SlayerLesser> &AirElementalSlayer) || (<Src.SlayerLesser> &BloodElementalSlayer) || (<Src.SlayerLesser> &EarthElementalSlayer) || (<Src.SlayerLesser> &FireElementalSlayer) || (<Src.SlayerLesser> &PoisonElementalSlayer) || (<Src.SlayerLesser> &SnowElementalSlayer) || (<Src.SlayerLesser> &WaterElementalSlayer)
-  Local.SlayerDam += <Def0.SlayerDamO>
+  return <dDef0.SlayerDamO>
  ElIf (<SlayerSuper> &ElementalSlayer) || (<Src.SlayerLesser> &AirElementalSlayer) BloodElementalSlayer) || (<Src.SlayerLesser> &EarthElementalSlayer) || (<Src.SlayerLesser> &FireElementalSlayer) || (<Src.SlayerLesser> &PoisonElementalSlayer) || (<Src.SlayerLesser> &SnowElementalSlayer) || (<Src.SlayerLesser> &WaterElementalSlayer) && (<Src.SlayerSuper> &AbyssSlayer) || (<Src.SlayerLesser> &GargoyleSlayer)
-  Local.SlayerDam += <Def0.SlayerDamO>
+  return <dDef0.SlayerDamO>
  ElIf (<SlayerSuper> &FeySlayer) && (<Src.SlayerSuper> &AbyssSlayer) || (<Src.SlayerLesser> &GargoyleSlayer)
-  Local.SlayerDam += <Def0.SlayerDamO>
+  return <dDef0.SlayerDamO>
  ElIf (<SlayerSuper> &ArachnidSlayer) || (<Src.SlayerLesser> &ScorpionSlayer) || (<Src.SlayerLesser> &SpiderSlayer) || (<Src.SlayerLesser> &TerathanSlayer) && (<Src.SlayerSuper> &ReptileSlayer) || (<Src.SlayerLesser> &DragonSlayer) || (<Src.SlayerLesser> &LizardmanSlayer) || (<Src.SlayerLesser> &OphidianSlayer) || (<Src.SlayerLesser> &SnakeSlayer)
-  Local.SlayerDam += <Def0.SlayerDamO>
+  return <dDef0.SlayerDamO>
  ElIf (<SlayerSuper> &ReptileSlayer)  || (<Src.SlayerLesser> &DragonSlayer) || (<Src.SlayerLesser> &LizardmanSlayer) || (<Src.SlayerLesser> &OphidianSlayer) || (<Src.SlayerLesser> &SnakeSlayer) && (<Src.SlayerSuper> &ArachnidSlayer) || (<Src.SlayerLesser> &ScorpionSlayer) || (<Src.SlayerLesser> &SpiderSlayer) || (<Src.SlayerLesser> &TerathanSlayer)
-  Local.SlayerDam += <Def0.SlayerDamO>
+  return <dDef0.SlayerDamO>
  ElIf (<SlayerSuper> &RepondSlayer) || (<Src.SlayerLesser> &GoblinSlayer) || (<Src.SlayerLesser> &OrcSlayer) || (<Src.SlayerLesser> &OgreSlayer) || (<Src.SlayerLesser> &TrollSlayer) && (<Src.SlayerSuper> &UndeadSlayer)
-  Local.SlayerDam += <Def0.SlayerDamO>
+  return <dDef0.SlayerDamO>
  ElIf (<SlayerSuper> &UndeadSlayer) && (<Src.SlayerSuper> &RepondSlayer) || (<Src.SlayerLesserSlayer> &GoblinSlayer) || (<Src.SlayerLesser> &OrcSlayer) || (<Src.SlayerLesser> &OgreSlayer) || (<Src.SlayerLesser> &TrollSlayer)
-  Local.SlayerDam += <Def0.SlayerDamO>
+  return <dDef0.SlayerDamO>
  EndIf
-EndIf
-
-
-// Lesser Slayer Flag Checks
-[Function CheckLesserSlayer]
-If (<SlayerLesser> &GargoyleSlayer) && (<Src.SlayerLesser> &GargoyleSlayer)
- Local.SlayerDam += <Def0.SlayerDamL>
-ElIf (<SlayerLesser> &AirElementalSlayer) && (<Src.SlayerLesser> &AirElementalSlayer)
- Local.SlayerDam += <Def0.SlayerDamL>
-ElIf (<SlayerLesser> &BloodElementalSlayer) && (<Src.SlayerLesser> &BloodElementalSlayer)
- Local.SlayerDam += <Def0.SlayerDamL>
-ElIf (<SlayerLesser> &EarthElementalSlayer) && (<Src.SlayerLesser> &EarthElementalSlayer)
- Local.SlayerDam += <Def0.SlayerDamL>
-ElIf (<SlayerLesser> &FireElementalSlayer) && (<Src.SlayerLesser> &FireElementalSlayer)
- Local.SlayerDam += <Def0.SlayerDamL>
-ElIf (<SlayerLesser>&PoisonElementalSlayer) && (<Src.SlayerLesser>&PoisonElementalSlayer)
- Local.SlayerDam += <Def0.SlayerDamL>
-ElIf (<SlayerLesser> &SnowElementalSlayer) && (<Src.SlayerLesser> &SnowElementalSlayer)
- Local.SlayerDam += <Def0.SlayerDamL>
-ElIf (<SlayerLesser> &WaterElementalSlayer) && (<Src.SlayerLesser> &WaterElementalSlayer)
- Local.SlayerDam += <Def0.SlayerDamL>
-ElIf (<SlayerLesser> &ScorpionSlayer) && (<Src.SlayerLesser> &ScorpionSlayer)
- Local.SlayerDam += <Def0.SlayerDamL>
-ElIf (<SlayerLesser> &SpiderSlayer) && (<Src.SlayerLesser> &SpiderSlayer)
- Local.SlayerDam += <Def0.SlayerDamL>
-ElIf (<SlayerLesser> &TerathanSlayer) && (<Src.SlayerLesser> &TerathanSlayer)
- Local.SlayerDam += <Def0.SlayerDamL>
-ElIf (<SlayerLesser> &DragonSlayer) && (<Src.SlayerLesser> &DragonSlayer)
- Local.SlayerDam += <Def0.SlayerDamL>
-ElIf (<SlayerLesser> &LizardmanSlayer) && (<Src.SlayerLesser> &LizardmanSlayer)
- Local.SlayerDam += <Def0.SlayerDamL>
-ElIf (<SlayerLesser> &OphidianSlayer) && (<Src.SlayerLesser> &OphidianSlayer)
- Local.SlayerDam += <Def0.SlayerDamL>
-ElIf (<SlayerLesser> &SnakeSlayer) && (<Src.SlayerLesser> &SnakeSlayer)
- Local.SlayerDam += <Def0.SlayerDamL>
-ElIf (<SlayerLesser> &GoblinSlayer) && (<Src.SlayerLesser> &GoblinSlayer)
- Local.SlayerDam += <Def0.SlayerDamL>
-ElIf (<SlayerLesser> &OrcSlayer) && (<Src.SlayerLesser> &OrcSlayer)
- Local.SlayerDam += <Def0.SlayerDamL>
-ElIf (<SlayerLesser> &OgreSlayer) && (<Src.SlayerLesser> &OgreSlayer)
- Local.SlayerDam += <Def0.SlayerDamL>
-ElIf (<SlayerLesser> &TrollSlayer) && (<Src.SlayerLesser> &TrollSlayer)
- Local.SlayerDam += <Def0.SlayerDamL>
-ElIf (<SlayerLesser> &DinosaurSlayer) && (<Src.SlayerLesser> &DinosaurSlayer)
- Local.SlayerDam += <Def0.SlayerDamL>
-ElIf (<SlayerLesser> &MyrmidexSlayer) && (<Src.SlayerLesser> &MyrmidexSlayer)
- Local.SlayerDam += <Def0.SlayerDamL>
-ElIf (<SlayerLesser> &EodonTribesmanSlayer) && (<Src.SlayerLesser> &EodonTribesmanSlayer)
- Local.SlayerDam += <Def0.SlayerDamL>
-EndIf
-
-// Super Slayer Flag Checks
-[Function CheckSuperSlayer]
-If (<SlayerSuper> &AbyssSlayer) && (<Src.SlayerSuper> &AbyssSlayer)
- Local.SlayerDam += <Def0.SlayerDamS>
-ElIf (<SlayerSuper> &ElementalSlayer) && (<Src.SlayerSuper> &ElementalSlayer)
- Local.SlayerDam += <Def0.SlayerDamS>
-ElIf (<SlayerSuper> &FeySlayer) && (<Src.SlayerSuper> &FeySlayer)
- Local.SlayerDam += <Def0.SlayerDamS>
-ElIf (<SlayerSuper> &ReptileSlayer) && (<Src.SlayerSuper> &ReptileSlayer)
- Local.SlayerDam += <Def0.SlayerDamS>
-ElIf (<SlayerSuper> &ArachnidSlayer) && (<Src.SlayerSuper> &ArachnidSlayer)
- Local.SlayerDam += <Def0.SlayerDamS>
-ElIf (<SlayerSuper> &RepondSlayer) && (<Src.SlayerSuper> &RepondSlayer)
- Local.SlayerDam += <Def0.SlayerDamS>
-ElIf (<SlayerSuper> &UndeadSlayer) && (<Src.SlayerSuper> &UndeadSlayer)
- Local.SlayerDam += <Def0.SlayerDamS>
-ElIf (<SlayerSuper> &VerminSlayer) && (<Src.SlayerSuper> &VerminSlayer)
- Local.SlayerDam += <Def0.SlayerDamS>
-ElIf (<SlayerSuper> &EodonSlayer) && (<Src.SlayerSuper> &EodonSlayer)
- Local.SlayerDam += <Def0.SlayerDamS>
-ElIf (<SlayerSuper> &BatSlayer) && (<Src.SlayerSuper> &BatSlayer)
- Local.SlayerDam += <Def0.SlayerDamS>
-ElIf (<SlayerSuper> &BearSlayer) && (<Src.SlayerSuper> &BearSlayer)
- Local.SlayerDam += <Def0.SlayerDamS>
-ElIf (<SlayerSuper> &BeetleSlayer) && (<Src.SlayerSuper> &BeetleSlayer)
- Local.SlayerDam += <Def0.SlayerDamS>
-ElIf (<SlayerSuper> &BirdSlayer) && (<Src.SlayerSuper> &BirdSlayer)
- Local.SlayerDam += <Def0.SlayerDamS>
-ElIf (<SlayerSuper> &BovineSlayer) && (<Src.SlayerSuper> &BovineSlayer)
- Local.SlayerDam += <Def0.SlayerDamS>
-ElIf (<SlayerSuper> &FlameSlayer) && (<Src.SlayerSuper> &FlameSlayer)
- Local.SlayerDam += <Def0.SlayerDamS>
-ElIf (<SlayerSuper> &IceSlayer) && (<Src.SlayerSuper> &IceSlayer)
- Local.SlayerDam += <Def0.SlayerDamS>
-ElIf (<SlayerSuper> &MageSlayer) && (<Src.SlayerSuper> &MageSlayer)
- Local.SlayerDam += <Def0.SlayerDamS>
-ElIf (<SlayerSuper> &WolfSlayer) && (<Src.SlayerSuper> &WolfSlayer)
- Local.SlayerDam += <Def0.SlayerDamS>
 EndIf
 
 [Function IsSlayerLesser]

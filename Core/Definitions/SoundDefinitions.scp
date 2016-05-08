@@ -563,9 +563,9 @@ sndResurrectionSpell		0215
 sndSummonCreatureSpell		0216
 sndSummonDaemonSpell		0217
 sndSummonElementalSpell		0218
+sndFireFieldSpell			sndFire1
+sndDispelSpell				sndMassDispelSpell
 
-sndDispelSpell				513		// Dispel Field?
-sndFireFieldSpell			524	// Poison Field?
 sndLightningSpell			41		// 
 sndChainLightningSpell		41		// 
 sndIncognitoSpell			957
@@ -574,9 +574,9 @@ sndReactiveArmorSpell		489
 sndMagicReflectionSpell		489		// 01EA
 
 sndFireBoltSpell			351		// 
-snd_spell_AnimateDead		488
-snd_spell_bone_armor	     577
-snd_spell_summon_undead	  586
+sndAnimateDeadSpell			488
+sndBoneArmorSpell			577
+sndSummonUndeadSpell		586
 
 
 // Trap Sounds
@@ -1016,17 +1016,187 @@ sndHeavySword2_4			03BC
 sndHeavySword2_5			03BD
 sndIdentify					03BE
 sndIgniteTorch2				03BF
+
 sndSolen1					03C0
 sndSolen2					03C1
 sndSolen3					03C2
 sndSolen4					03C3
 sndSolen5					03C4
+
 sndInvisible				03C5
+
+snd1			0	// die
+snd2			0	// hit
+snd3			0	// idle
+snd4			0	// notice
+snd5			0	// Was hit
+
 sndKiRin1					03C6
 sndKiRin2					03C7
 sndKiRin3					03C8
 sndKiRin4					03C9
 sndKiRin5					03CA
+
+sndLich2_1				03EA	// die	(Not really for lich I dont think. Arcane Daemon?)
+sndLich2_2				03EB	// hit
+sndLich2_3				03EC	// idle
+sndLich2_4				03ED	// notice
+sndLich2_5				03EE	// Was hit
+sndLion2_1				03EF	// die (Need to fight on EA to find out what creature this is for.)
+sndLion2_2				03F0	// hit
+sndLion2_3				03F1	// idle
+sndLion2_4				03F2	// notice
+sndLion2_5				03F3	// Was hit
+sndLlama2_1				03F4	// die (Need to fight on EA to find out what creature this is for.)
+sndLlama2_2				03F5	// hit
+sndLlama2_3				03F6	// idle
+sndLlama2_4				03F7	// notice
+sndLlama2_5				03F8	// Was hit
+sndLonghorn1			03F9	// die (Need to fight on EA to find out what creature this is for.)
+sndLonghorn2			03FA	// hit
+sndLonghorn3			03FB	// idle
+sndLonghorn4			03FC	// notice
+sndLonghorn5			03FD	// Was hit
+
+sndDoppleganger1		044D	// die (Mimic in files)
+sndDoppleganger2		044E	// hit
+sndDoppleganger3		044F	// idle
+sndDoppleganger4		0450	// notice
+sndDoppleganger5		0451	// Was hit
+sndBogThing1			0452	// die (Mushroom men in files) (This seems right)
+sndBogThing2			0453	// hit
+sndBogThing3			0454	// idle
+sndBogThing4			0455	// notice
+sndBogThing5			0456	// Was hit
+
+sndOrc2_1				0459	// Die
+sndOrc2_2				045A	// hit
+sndOrc2_2_1				045B	// hit
+sndOrc2_2_2				045C	// hit
+sndOrc2_2_3				045D	// hit
+sndOrc2_2_4				045E	// hit
+sndOrc2_2_5				045F	// hit
+sndOrc2_3				0460	// idle
+sndOrc2_4				0461	// notice
+sndOrc2_5				0462	// Was hit
+sndPanther2_1			0463	// die
+sndPanther2_2			0464	// hit
+sndPanther2_3			0465	// idle
+sndPanther2_4			0466	// notice
+sndPanther2_5			0467	// Was hit
+sndPixie1				0468	// Attack/hit
+sndPixie2				0469	// Cast
+sndPixie3				046A	// Die
+sndPixie4				046B	// Fight/Notice
+sndPixie5				046C	// Was hit
+sndPixie6				046D	// Walk
+sndSylvania1			046E	// Attack/Hit
+sndSylvania2			046F	// Cast
+sndSylvania3			0470	// Die
+sndSylvania4			0471	// Fight/Notice
+sndSylvania5			0472	// Was hit
+sndSylvania6			0473	// Walk/Fly 1
+sndSylvania7			0474	// Walk/Fly 2
+
+
+sndSeaHorse1			0479	// die
+sndSeaHorse2			047A	// hit
+sndSeaHorse3			047B	// idle
+sndSeaHorse4			047C	// notice
+sndSeaHorse5			047D	// Was hit
+sndShadowLord1			047E	// die
+sndShadowLord2			047F	// hit
+sndShadowLord3			0480	// idle
+sndShadowLord4			0481	// notice
+sndShadowLord5			0482	// Was hit
+sndShadow1				0483	// die
+sndShadow2				0484	// hit
+sndShadow3				0485	// idle
+sndShadow4				0486	// notice
+sndShadow5				0487	// Was hit
+sndSheep3_2				0488	// Idle
+sndSkeletalDragon1		0489	// die
+sndSkeletalDragon2		048A	// hit
+sndSkeletalDragon3		048B	// idle
+sndSkeletalDragon4		048C	// notice
+sndSkeletalDragon5		048D	// Was hit
+sndSkeleton2_1			048E	// die
+sndSkeleton2_2			048F	// hit
+sndSkeleton2_3			0490	// idle
+sndSkeleton2_4			0491	// notice
+sndSkeleton2_5			0492	// Was hit
+sndDreadSpider1			0493	// die
+sndDreadSpider2			0494	// hit
+sndDreadSpider3			0495	// idle
+sndDreadSpider4			0496	// notice
+sndDreadSpider5			0497	// Was hit
+
+sndSuccubus1			04B1	// die
+sndSuccubus2			04B2	// hit
+sndSuccubus3			04B3	// idle
+sndSuccubus4			04B4	// notice
+sndSuccubus5			04B5	// Was hit
+
+sndUnicorn1				04BD	// die
+sndUnicorn2				04BE	// hit
+sndUnicorn3				04BF	// idle
+sndUnicorn4				04C0	// notice
+sndUnicorn5				04C1	// Get hit
+sndWalrus2_5			04C2	// Get hit
+
+sndCrane1				04D7	// die
+sndCrane2				04D8	// hit
+sndCrane3				04D9	// idle
+sndCrane4				04DA	// notice
+sndCrane5				04DB	// Was hit
+sndBakeKitsune1			04DC	// die
+sndBakeKitsune2			04DD	// hit
+sndBakeKitsune3			04DE	// idle
+sndBakeKitsune4			04DF	// notice
+sndBakeKitsune5			04E0	// Was hit
+sndOni1					04E1	// die
+sndOni2					04E2	// hit
+sndOni3					04E3	// idle
+sndOni4					04E4	// notice
+sndOni5					04E5	// Was hit
+sndRuneBeetle1			04E6	// die
+sndRuneBeetle2			04E7	// hit
+sndRuneBeetle3			04E8	// idle
+sndRuneBeetle4			04E9	// notice
+sndRuneBeetle5			04EA	// Was hit
+sndYamandon1			04EB	// die
+sndYamandon1_2			04EC	// die 2
+sndYamandon2			04ED	// hit
+sndYamandon3			04EE	// idle
+sndYamandon4			04EF	// notice
+sndYamandon5			04F0	// Was hit
+sndDeathwatchBeetle1	04F1	// die
+sndDeathwatchBeetle2	04F2	// hit
+sndDeathwatchBeetle3	04F3	// idle
+sndDeathwatchBeetle4	04F4	// notice
+sndDeathwatchBeetle5	04F5	// Was hit
+sndGaman1				04F6	// die
+sndGaman2				04F7	// hit
+sndGaman3				04F8	// idle
+sndGaman4				04F9	// notice
+sndGaman5				04FA	// Was hit
+sndHiryu1				04FB	// die
+sndHiryu2				04FC	// hit
+sndHiryu3				04FD	// idle
+sndHiryu4				04FE	// notice
+sndHiryu5				04FF	// Was hit
+
+sndKappa1					0509	// Die
+sndKappa2					050A	// hit
+sndKappa3					050B	// idle
+sndKappa4					050C	// notice
+sndKappa5					050D	// was hit
+
+sndRevenantLion1			0516	// Die
+sndRevenantLion2			0517	// hit
+sndRevenantLion3			0518	// idle
+sndRevenantLion4			0519	// notice
+sndRevenantLion5			051A	// was hit
 
 // Ninjitsu
 sndDeathStrikeSpell			050E	// Female
@@ -1078,9 +1248,18 @@ sndForceArrow			1469
 //snd_combat_psychic_attack
 //snd_combat_serpent_arrow
 
-sndChangeling6				056B
-sndCorporealBrume5			056C
-sndFetidEssence5			056D
+sndYomotsu3_1				0528	// Idle
+sndYomotsu3_2				0529	// Idle
+sndYomotsu3_3				052A	// Idle
+andTsukiWolf1				052B	// Die
+andTsukiWolf2				052C	// Hit
+andTsukiWolf3				052D	// Idle
+andTsukiWolf4				052E	// Notice
+andTsukiWolf5				052F	// Was hit
+
+sndChangeling6				056B	// Special 1
+sndCorporealBrume5			056C	// Get hit
+sndFetidEssence5			056D	// Get Hit
 sndHydra6					056E	// Special
 sndMatraEffervescence5		056F	// get hit
 sndParoxysmus1				0570	// die
