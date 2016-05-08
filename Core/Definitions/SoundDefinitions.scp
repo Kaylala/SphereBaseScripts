@@ -1365,10 +1365,10 @@ sndAudChar					05D1
 sndImbue					05D2
 sndThrowHit					05D3
 sndThrowMiss				05D4
-sndAbyssmalInfernal1		05D5	// A
-sndAbyssmalInfernal2		05D6	// D
-sndAbyssmalInfernal3		05D7	// H
-sndAbyssmalInfernal4		05D8	// N
+sndAbyssmalInfernal1		05D5	// A	(Attack?) Which is Get Hit as well?
+sndAbyssmalInfernal2		05D6	// D	(Death?)
+sndAbyssmalInfernal3		05D7	// H	(Hit?)
+sndAbyssmalInfernal4		05D8	// N	(Notice?)
 sndAcidSlug1				05D9
 sndAcidSlug2				05DA
 sndAcidSlug3				05DB
