@@ -1,5 +1,9 @@
 [Events eGlobalNPCBehavior]
-
+On=@BardingEffect
+// ArgO = Character affected.
+// Src = Player using the bard skill.
+// ArgN1 = The skill being used. 1 is Discordance. 2 is Peacemaking. 3 is Provocation.
+Return 0
 
 
 [EOF]

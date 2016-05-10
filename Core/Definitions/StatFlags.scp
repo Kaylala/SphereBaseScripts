@@ -32,6 +32,9 @@ StatFSaveParity				020000000   // has this char been saved or not ?
 StatFRidden					040000000   // this is the horse. (don't display me) i am being ridden
 StatFOnMount				080000000   // Mounted on horseback.
 StatFDrunk					0100000000	// Drunk/Inebriated
+StatFDiscorded				0200000000	// has been discorded
+StatFPeaced					0400000000	// Has been peaced
+StatFProvoked				0800000000	// Has been provoked
 
 
 [EOF]

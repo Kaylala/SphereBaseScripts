@@ -1,3 +1,13 @@
+// Is Multi
+[Function IsMulti]
+Return <QVal (<Type> == tMulti) || (<Type> == tCustomMulti) ? 1 : 0>
+
+
+// Is Food
+[Function IsFood]
+Return <QVal (<Type> == tFruit) || (<Type> == tVegetable) || (<Type> == tMeat) || (<Type> == tRawMeat) || (<Type> == tRawFood) || (<Type> == tFood) || (<Type> == tGrain) ? 1 : 0>
+
+
 // Checks <ArgN> radius for Player's Corpse.
 [Function IsNearMyCorpse]
 ForItems <ArgN>

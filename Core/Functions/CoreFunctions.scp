@@ -2,6 +2,30 @@
 Return <Eval (<Weight> - <Serv.ItemDef.<BaseID>.Weight>)>
 
 
+[Function rTime.Year]
+Return <Serv.rTime.Format %Y>
+
+
+[Function rTime.Month]
+Return <Serv.rTime.Format %m>
+
+
+[Function rTime.Day]
+Return <Serv.rTime.Format %d>
+
+
+[Function rTime.Hour]
+Return <Serv.rTime.Format %H>
+
+
+[Function rTime.Minute]
+Return <Serv.rTime.Format %M>
+
+
+[Function rTime.Second]
+Return <Serv.rTime.Format %S>
+
+
 [Function AllResistances]
 ResPhysical += <ArgN>
 ResFire += <ArgN>

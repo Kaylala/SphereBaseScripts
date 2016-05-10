@@ -12,6 +12,34 @@
 VERSION=0.56c
 
 
+// Tips, Books and scrolls.
+[Scroll Scroll_MoTD] // normal entry
+Welcome to <Serv.ServName>!
+
+[Scroll Scroll_Guest]
+Welcome Guest Traveller you have entered <SERV.SERVNAME>!
+A Guest account has been opened for you
+Your life in this world is transient at best.
+Consult with <SERV.ADMINEMAIL> for a permenant account.
+
+[Scroll Scroll_Newbie]
+Welcome Traveller you have entered <SERV.SERVNAME>! Our guardian
+watches over and protects us all. Please try to remain in the cities
+during your stay. It is dangerous in the wilds. Be careful!
+
+[Comment Tip 1]
+Did you know that GMs can use the .ALLMOVE command to make all
+dynamic items movable for them? To turn this off again, simply use
+the .ALLMOVE command again.
+
+[Comment Tip 2]
+As a GM use .XMOVABLE 1 to make item movable by everyone or .XMOVABLE 2
+to make it movable by no one except GMs.
+
+[Comment Tip 3]
+War is unhealthy for children and other living things.
+
+
 [BOOK b_sphere]
 PAGES=3
 TITLE=First Book of Sphere

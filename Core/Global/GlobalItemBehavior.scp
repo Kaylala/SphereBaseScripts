@@ -27,4 +27,22 @@ ElIf (<Src.IsFemale>) && !(<CanUse> &CanUfemale)
 EndIf
 
 
+On=@LockDownItem
+// Src = Player Locking down Item.
+// ArgO = Item being locked down.
+Return 0
+
+
+On=@SecureItem
+// Src = Player Locking down Item.
+// ArgO = Item being locked down.
+Return 0
+
+
+On=@ReleaseItem
+// Src = Player Locking down Item.
+// ArgO = Item being locked down.
+Return 0
+
+
 [EOF]
