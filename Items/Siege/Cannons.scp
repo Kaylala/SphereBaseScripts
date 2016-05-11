@@ -1,0 +1,381 @@
+[ItemDef 0E6B]
+DefName=iCannon1E
+Name=cannon
+NameLoc=1023691
+Type=tNormal
+Can=CanIFlip
+Weight=255
+DupeList=0E6C
+
+Category=Siege
+Subsection=Cannons
+Description=Cannon 1 (East)
+
+[ItemDef 0E6C]
+NameLoc=1023692
+DupeItem=0E6B
+
+
+[ItemDef 0E6D]
+DefName=iCannon1S
+Name=cannon
+NameLoc=1023693
+Type=tNormal
+Can=CanIFlip
+Weight=255
+DupeList=0E6E
+
+Category=Siege
+Subsection=Cannons
+Description=Cannon 1 (South)
+
+[ItemDef 0E6E]
+NameLoc=1023694
+DupeItem=0E6D
+
+
+[ItemDef 0E6F]
+DefName=iCannon1N
+Name=cannon
+NameLoc=1023695
+Type=tNormal
+Can=CanIFlip
+Weight=255
+DupeList=0E70
+
+Category=Siege
+Subsection=Cannons
+Description=Cannon 1 (North)
+
+[ItemDef 0E70]
+NameLoc=1023696
+DupeItem=0E6F
+
+
+[ItemDef 0E71]
+DefName=iCannon1W
+Name=cannon
+NameLoc=1023697
+Type=tNormal
+Can=CanIFlip
+Weight=255
+DupeList=0E72
+
+Category=Siege
+Subsection=Cannons
+Description=Cannon 1 (West)
+
+[ItemDef 0E72]
+NameLoc=1023698
+DupeItem=0E71
+
+
+[ItemDef 0E8B]
+DefName=iCannon2N
+Name=cannon
+NameLoc=1023723
+Can=CanIFlip
+Weight=255
+DupeList=0E8C,0E8D
+
+Category=Siege
+Subsection=Cannons
+Description=Cannon 2 (North)
+
+[ItemDef 0E8C]
+NameLoc=1023724
+DupeItem=0E8B
+
+[ItemDef 0E8D]
+NameLoc=1023725
+DupeItem=0E8B
+
+
+[ItemDef 0E8E]
+DefName=iCannon2W
+Name=cannon
+NameLoc=1023726
+Can=CanIFlip
+Weight=255
+DupeList=0E8F,0E90
+
+Category=Siege
+Subsection=Cannons
+Description=Cannon 2 (West)
+
+[ItemDef 0E8F]
+NameLoc=1023727
+DupeItem=0E8E
+
+[ItemDef 0E90]
+NameLoc=1023728
+DupeItem=0E8E
+
+
+[ItemDef 0E91]
+DefName=iCannon2S
+Name=cannon
+NameLoc=1023729
+Can=CanIFlip
+Weight=255
+DupeList=0E91,0E92
+
+Category=Siege
+Subsection=Cannons
+Description=Cannon 2 (West)
+
+[ItemDef 0E92]
+NameLoc=1023730
+DupeItem=0E91
+
+[ItemDef 0E93]
+NameLoc=1023731
+DupeItem=0E91
+
+
+[ItemDef 0E94]
+DefName=iCannon2E
+Name=cannon
+NameLoc=1023732
+Can=CanIFlip
+Weight=255
+DupeList=0E95,0E96
+
+Category=Siege
+Subsection=Cannons
+Description=Cannon 2 (West)
+
+[ItemDef 0E95]
+NameLoc=1023733
+DupeItem=0E94
+
+[ItemDef 0E96]
+NameLoc=1023734
+DupeItem=0E94
+
+
+[ItemDef 04216]
+DefName=iLightShipCannonS
+Name=light ship cannon
+NameLoc=1095790
+Type=tCannon
+Weight=255
+SkillMake=Blacksmithing 650,Carpentry 650
+Resources=900 iIronIngot,50 iBoard
+Material=tIngot,tWood
+
+Category=Siege
+Subsection=Cannons
+Description=Light Ship Cannon (South)
+
+
+[ItemDef 04217]
+DefName=iLightShipCannonW
+Name=light ship cannon
+NameLoc=1095791
+Type=tCannon
+Weight=255
+SkillMake=Blacksmithing 650,Carpentry 650
+Resources=900 iIronIngot,50 iBoard
+Material=tIngot,tWood
+
+Category=Siege
+Subsection=Cannons
+Description=Light Ship Cannon (West)
+
+
+[ItemDef 04218]
+DefName=iLightShipCannonN
+Name=light ship cannon
+NameLoc=1095792
+Type=tCannon
+Weight=255
+SkillMake=Blacksmithing 650,Carpentry 650
+Resources=900 iIronIngot,50 iBoard
+Material=tIngot,tWood
+
+Category=Siege
+Subsection=Cannons
+Description=Light Ship Cannon (North)
+
+
+[ItemDef 04219]
+DefName=iLightShipCannonE
+Name=light ship cannon
+NameLoc=1095793
+Type=tCannon
+Weight=255
+SkillMake=Blacksmithing 650,Carpentry 650
+Resources=900 iIronIngot,50 iBoard
+Material=tIngot,tWood
+
+Category=Siege
+Subsection=Cannons
+Description=Light Ship Cannon (East)
+
+
+[ItemDef 0421A]
+DefName=iHeavyShipCannonS
+Name=heavy ship cannon
+NameLoc=1095794
+Type=tCannon
+Weight=255
+SkillMake=Blacksmithing 700,Carpentry 700
+Resources=1800 iIronIngot,75 iBoard
+Material=tIngot,tWood
+
+Category=Siege
+Subsection=Cannons
+Description=Heavy Ship Cannon (South)
+
+
+[ItemDef 0421B]
+DefName=iHeavyShipCannonW
+Name=heavy ship cannon
+NameLoc=1095795
+Type=tCannon
+Weight=255
+SkillMake=Blacksmithing 700,Carpentry 700
+Resources=1800 iIronIngot,75 iBoard
+Material=tIngot,tWood
+
+Category=Siege
+Subsection=Cannons
+Description=Heavy Ship Cannon (West)
+
+
+[ItemDef 0421D]
+DefName=iHeavyShipCannonN
+Name=heavy ship cannon
+NameLoc=1095796
+Type=tCannon
+Weight=255
+SkillMake=Blacksmithing 700,Carpentry 700
+Resources=1800 iIronIngot,75 iBoard
+Material=tIngot,tWood
+
+Category=Siege
+Subsection=Cannons
+Description=Heavy Ship Cannon (North)
+
+
+[ItemDef 0421D]
+DefName=iHeavyShipCannonE
+Name=heavy ship cannon
+NameLoc=1095797
+Type=tCannon
+Weight=255
+SkillMake=Blacksmithing 700,Carpentry 700
+Resources=1800 iIronIngot,75 iBoard
+Material=tIngot,tWood
+
+Category=Siege
+Subsection=Cannons
+Description=Heavy Ship Cannon (East)
+
+
+[ItemDef 04220]
+DefName=iLargeShipCannonS
+Name=large ship cannon
+NameLoc=1095800
+Can=CanIFlip
+Type=tCannon
+Weight=255
+SkillMake=Blacksmithing 850,Carpentry 850
+Resources=2700 iIronIngot,100 iBoard
+Material=tMaterial,tWood
+DupeList=04221,04223
+
+Category=Siege
+Subsection=Cannons
+Description=Large Ship Cannon (South)
+
+[ItemDef 04221]
+NameLoc=1095801
+DupeItem=04220
+
+[ItemDef 04222]
+NameLoc=1095802
+DupeItem=04220
+Type=tCannonMuzzle
+
+
+[ItemDef 0418F]
+DefName=iLargeShipCannonW
+Name=large ship cannon
+NameLoc=1095803		// large ship cannon
+Can=CanIFlip
+Type=tCannonMuzzle
+Weight=255
+SkillMake=Blacksmithing 850,Carpentry 850
+Resources=2700 iIronIngot,100 iBoard
+Material=tMaterial,tWood
+DupeList=0418F,0424A
+
+Category=Siege
+Subsection=Cannons
+Description=Large Ship Cannon (West)
+
+[ItemDef 04423]
+NameLoc=1095802		// large ship cannon
+DupeItem=0418F
+Type=tCannon
+
+[ItemDef 0424A]
+NameLoc=1095801		// large ship cannon
+DupeItem=0418F
+Type=tCannon
+
+
+[ItemDef 044F3]
+DefName=iLargeShipCannonN
+Name=large ship cannon
+NameLoc=1095803		// large ship cannon
+Can=CanIFlip
+Type=tCannon
+Weight=255
+SkillMake=Blacksmithing 850,Carpentry 850
+Resources=2700 iIronIngot,100 iBoard
+Material=tMaterial,tWood
+DupeList=044F4,044F5
+
+Category=Siege
+Subsection=Cannons
+Description=Large Ship Cannon (North)
+
+[ItemDef 044F4]
+DupeItem=044F3
+
+[ItemDef 044F5]
+Type=tCannonMuzzle
+DupeItem=044F3
+
+
+[ItemDef 044F6]
+DefName=iLargeShipCannonE
+Name=large ship cannon
+NameLoc=1095803		// large ship cannon
+Can=CanIFlip
+Type=tCannonMuzzle
+Weight=255
+SkillMake=Blacksmithing 850,Carpentry 850
+Resources=2700 iIronIngot,100 iBoard
+Material=tMaterial,tWood
+DupeList=044F7,044F8
+
+Category=Siege
+Subsection=Cannons
+Description=Large Ship Cannon (East)
+
+[ItemDef 044f7]
+NameLoc=1095803		// large ship cannon
+DupeItem=044F6
+Type=tCannon
+
+[ItemDef 044f8]
+NameLoc=1095803		// large ship cannon
+DupeItem=044F6
+Type=tCannon
+
+
+[EOF]

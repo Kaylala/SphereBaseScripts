@@ -1,3 +1,286 @@
+[ItemDef iCannonBall1]
+ID=iBolaBall
+Name=cannon ball
+Type=tCannonBall
+Can=CanIStack
+Weight=10
+
+Category=Utility
+Subsection=Cannon Supplies
+Description=Cannon Ball 1 (Weight: 10)
+
+
+[ItemDef 0E74]
+DefName=iCannonBalls1
+Name=cannon balls
+NameLoc=1023700	// cannon balls
+Type=tCannonBall
+Weight=50
+
+Category=Utility
+Subsection=Cannon Supplies
+Description=Cannon Balls 1 (Weight: 50)
+
+
+[ItemDef 04224]
+DefName=iCannonball2
+Name=cannonball
+NameLoc=1095804
+Type=tCannonBall
+Can=CanIStack
+Weight=4
+
+Category=Utility
+Subsection=Cannon Supplies
+Description=Cannonball (Base)
+
+
+[ItemDef iLightCannonball]
+ID=iCannonball2
+Name=light cannonballs
+NameLoc=1116266
+Type=tCannonBall
+Can=CanIStack
+SkillMake=Blacksmithing 0
+Resources=6 iIronIngot
+Material=tIngot
+
+Category=Utility
+Subsection=Cannon Supplies
+Description=Light Cannonball
+
+
+[ItemDef iHeavyCannonball]
+ID=iCannonball2
+Name=light cannonballs
+NameLoc=1116267
+Type=tCannonBall
+Can=CanIStack
+SkillMake=Blacksmithing 100
+Resources=12 iIronIngot
+Material=tIngot
+
+Category=Utility
+Subsection=Cannon Supplies
+Description=Heavy Cannonball
+
+
+[ItemDef iLargeCannonball]
+ID=iCannonball2
+Name=large cannonballs
+NameLoc=1116268
+Type=tCannonBall
+Can=CanIStack
+SkillMake=Blacksmithing 100
+Resources=12 iIronIngot
+Material=tIngot
+
+Category=Utility
+Subsection=Cannon Supplies
+Description=Large Cannonball
+
+
+[ItemDef 04225]
+DefName=iCannonballs2
+Name=cannonballs
+NameLoc=1095805
+Type=tCannonBall
+Weight=255
+
+Category=Utility
+Subsection=Cannon Supplies
+Description=Cannonballs (Base)
+
+
+[ItemDef 0422B]
+DefName=iIsaEngravedCannonball
+Name=isa-engraved cannonball
+NameLoc=1095811		// isa-engraved cannonball
+Type=tCannonBall
+Weight=4
+
+Category=Utility
+Subsection=Cannon Supplies
+Description=Ise-Engraved Cannonball (Base)
+
+
+[ItemDef 04231]
+DefName=iIsaEngravedCannonballs
+Name=isa-engraved cannonballs
+NameLoc=1095817		// isa-engraved cannonballs
+Type=tCannonBall
+Weight=255
+
+Category=Utility
+Subsection=Cannon Supplies
+Description=Ise-Engraved Cannonballs (Base)
+
+
+[ItemDef iLightFrostCannonball]
+ID=iIsaEngravedCannonball
+Name=light frost cannonball
+NameLoc=1116762
+Type=tCannonBall
+Weight=4
+
+Category=Utility
+Subsection=Cannon Supplies
+Description=Light Frost Cannonball
+
+
+[ItemDef iHeavyFrostCannonball]
+ID=iIsaEngravedCannonball
+Name=heavy frost cannonball
+NameLoc=1116763
+Type=tCannonBall
+Weight=4
+
+Category=Utility
+Subsection=Cannon Supplies
+Description=Heavy Frost Cannonball
+
+
+[ItemDef iLargeFrostCannonball]
+ID=iIsaEngravedCannonball
+Name=large frost cannonball
+NameLoc=1116764
+Type=tCannonBall
+Weight=4
+
+Category=Utility
+Subsection=Cannon Supplies
+Description=Large Frost Cannonball
+
+
+[ItemDef 044c1]
+DefName=iThorEngravedCannonball
+Name=thor-engraved cannonball
+NameLoc=1096473		// thor-engraved cannonball
+Type=tCannonBall
+Weight=4
+
+Category=Utility
+Subsection=Cannon Supplies
+Description=Thor-Engraved Cannonball (Base)
+
+
+[ItemDef 044c2]
+DefName=iThorEngravedCannonballs
+Name=thor-engraved cannonballs
+NameLoc=1096474		// thor-engraved cannonballs
+Type=tCannonBall
+Weight=255
+
+Category=Utility
+Subsection=Cannon Supplies
+Description=Thor-Engraved Cannonballs (Base)
+
+
+[ItemDef iLightFlameCannonball]
+ID=iThorEngravedCannonball
+Name=light flame cannonball
+NameLoc=1116759
+Type=tCannonBall
+Weight=4
+
+Category=Utility
+Subsection=Cannon Supplies
+Description=Light Flame Cannonball
+
+
+[ItemDef iHeavyFlameCannonball]
+ID=iThorEngravedCannonball
+Name=heavy flame cannonball
+NameLoc=1116760
+Type=tCannonBall
+Weight=4
+
+Category=Utility
+Subsection=Cannon Supplies
+Description=Heavy Flame Cannonball
+
+
+[ItemDef iLargeFlameCannonball]
+ID=iThorEngravedCannonball
+Name=large flame cannonball
+NameLoc=1116761
+Type=tCannonBall
+Weight=4
+
+Category=Utility
+Subsection=Cannon Supplies
+Description=Large Flame Cannonball
+
+
+[ItemDef 041a2]
+DefName=iLightChainshot
+Name=light chainshot
+NameLoc=1095674
+Type=tNormal
+Weight=4
+
+Category=Utility
+Subsection=Cannon Supplies
+Description=Light Chainshot (Effect Object)
+
+
+[ItemDef 041E5]
+DefName=iGrapeshot
+Name=grapeshot
+NameLoc=1095741
+Type=tCannonBall
+Weight=4
+
+Category=Utility
+Subsection=Cannon Supplies
+Description=Grapeshot (Base Item)
+
+
+[ItemDef iLightGrapeshot]
+ID=iGrapeshot
+Name=light grapeshot
+NameLoc=1116030
+Type=tCannonBall
+Weight=4
+SkillMake=Blacksmithing 0
+Resources=1 iCloth,6 iIronIngot
+Material=tCloth,tIngot
+
+Category=Utility
+Subsection=Cannon Supplies
+Description=Light Grapeshot
+
+
+[ItemDef iHeavyGrapeshot]
+ID=iGrapeshot
+Name=heavy grapeshot
+NameLoc=1116166
+Type=tCannonBall
+Weight=4
+SkillMake=Blacksmithing 150
+Resources=2 iCloth,12 iIronIngot
+Material=tCloth,tIngot
+
+Category=Utility
+Subsection=Cannon Supplies
+Description=Heavy Grapeshot
+
+
+[ItemDef iLargeGrapeshot]
+ID=iGrapeshot
+Name=large grapeshot
+NameLoc=1116167
+Type=tCannonBall
+Weight=4
+SkillMake=Blacksmithing 300
+Resources=3 iCloth,18 iIronIngot
+Material=tCloth,tIngot
+
+Category=Utility
+Subsection=Cannon Supplies
+Description=Large Grapeshot
+
+
 [ItemDef 04246]
 DefName=iRamrod
 Name=ramrod
@@ -76,6 +359,27 @@ On=@Create
 Color=0963
 
 
+[ItemDef 04570]
+DefName=iMatch
+Name=match
+NameLoc=1096648
+Type=tNormal
+Can=CanIStack
+Weight=1
+SkillMake=Alchemy 250
+Resources=1 iBallOfYarn,1 iPitcherOfWater,1 iSaltpeter,1 iPotash
+Value=10
+DupeList=04571
+
+Category=Utility
+Subsection=Cannon Supplies
+Description=Match (Unused)
+
+[ItemDef 04571]
+NameLoc=1096649
+DupeItem=04570
+
+
 [ItemDef iMatchCord]
 ID=iRollOfString
 Name=match cord
@@ -93,6 +397,22 @@ Description=Match Cord
 
 On=@Create
 Color=0963
+
+
+[ItemDef 04628]
+DefName=iFuse
+Name=fuse
+NameLoc=1096832
+Type=tNormal
+Can=CanIStack
+Weight=1
+SkillMake=Alchemy 550
+Resources=1 iBallOfYarn,1 iPitcherOfWater,1 iBlackPowder,1 iPotash
+Value=10
+
+Category=Utility
+Subsection=Cannon Supplies
+Description=Fuse (Unused)
 
 
 [ItemDef iFuseCord]

@@ -1,0 +1,83 @@
+[Speech spkJasperTheInspector]
+Random=If you wish to assist in this investigation, gather what clues you can from the journal on the table, or speak to me!
+
+On=Assist
+Say=Much appreciated! This is in fact a double investigation: the death of Leoric Gathenwale and the unholy beings invading us.
+
+On=Leoric
+Say=From what we've gathered of his journal on the table, the silly man went on a foolish quest which eventually caused his demise.
+
+On=Journal
+Say=We believe the unholy presence in our graveyards are somehow linked to Leoric and the journal seems to provide at least some clues.
+
+On=Graveyards
+Say=Moonglow, Cove, Britain, Vesper, Jhelom and Yew are all being invaded.
+
+On=Demise
+Say=He disappeared for a few days and returned about a week ago, completely changed, acting crazy.
+
+On=Changed
+Say=His neighbors had become quite frightened of him. Then last night, he barricaded himself inside his house then set it on fire.
+
+On=Frightened
+Say=They would find him wandering, ragged, covered in blood and mud. At times his voice and his features would change.
+
+On=Barricaded
+Say=He boarded the doors and windows, shut as if to prevent something from getting out, then he set the house on fire.
+
+On=Fire
+Say=It completely ravaged the house. This journal is all that we managed to salvage.
+
+On=Unholy
+Say=Skeletal Liches, Spectral Armors and Cursed Souls are now plaguing us, it cannot be a coincidence.
+
+On=Coincidence
+Say=These creatures are only known to dwell in Khaldun, yet they started appearing throughout the land just after he reopened the Tomb?
+
+On=Khaldun
+Say=A most foul place. It lies in the Lost Lands, west of Minoc Cave.
+
+
+[Speech spkDarkGuardianTheKeeperOfKnowledge]
+On=Guardian
+Say=I am the keeper of knowledge of the Keepers of the Seven Death.
+
+On=Keepers
+Say=The servants of Khal Ankur in whose glory this tomb was erected.
+
+On=Leoric
+Say=He was a fool to think he could take back the souls belonging to Khal Ankur.
+
+On=Khal Ankur
+Say=Our most fearsome leader who taught us the beauty of death and sacrifice.
+
+On=Souls
+Say=The only soul he took with him was also the source of his downfall.
+
+On=Downfall
+Say=Blood is thicker than death. I guess Lysander wanted to be better acquainted with his grandson.
+
+On=Lysander
+Say=A most devious resident of the Tomb. He's had a rather busy week. *chuckles*
+
+On=Devious
+On=Busy
+Say=He's behind the Skull Totems that have appeared in your graveyards.
+
+On=Totems
+Say=Until they are destroyed, they will continue to raise cursed creatures.
+
+On=Destroyed
+Say=Only a very powerful substance in large quantities could destroy them.
+
+On=Substance
+Say=The creature that yields it has gone into hiding.
+
+On=Hiding
+Say=Search what's left of Leoric's house and with luck you might detect some hidden clues within the rubble.
+
+On=House
+Say=What's left of it can be found on the outskirts of Jhelom.
+
+
+[EOF]

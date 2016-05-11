@@ -1,0 +1,88 @@
+//1040013;You begin to swing the bola
+//1040014;With 4 of these and 3 strips of leather a good tinker could make a working bola.
+//1040015;Your hands must be free to use this
+//1040016;You cannot use this while riding a mount
+//1040017;You can't throw this at yourself
+//1040018;You have no reason to throw a bola at that
+//1040019;The bola must be in your pack to use it.
+//1040020;You must wait a few moments before you can throw another bola
+//1040021;That is already being used.
+//1040022;You fail to knock the rider from their mount.
+//1040023;You have been knocked off of your mount!
+//1040024;You are still too dazed from being knocked off your mount to ride!
+//1040025;You make the bola and place it in your pack.
+//1040026;You do not have enough bola balls to make this.
+//1040027;You do not have enough leather to make this.
+//1040028;You fail to make the bola and ruin the leather in the process.
+//1042045;With 4 of these and 3 strips of leather a good tinker could make a working bola...
+//1042046;You have been knocked off your mount!
+//1042047;You fail to knock the rider from its mount.
+//1042048;This bola is already being used
+//1042049;You must wait a few moments before you can use another bola!
+//1042050;The bola must be in your pack to use it.
+//1042051;Your hands must be free to use a bola!
+//1042052;Your hands must be free to use a bola!
+//1042053;You can't use this while on a mount!
+//1042054;You can't use this while on a mount!
+//1042055;You begin to swing a bola...
+//1042056;The bola must be in your pack to use it.
+//1042057;You have no reason to throw a bola at that.
+//1042058;You cannot throw a bola at that.
+//1042059;You have no reason to throw a bola at that.
+//1042060;You cannot see that target!
+//1042613;You don't have enough bola balls to make that.
+//1042614;You don't have enough leather to make that.
+//1042615;You make the bola and place it in your pack.
+//1042616;You fail to make the bola and ruin the leather in the process.
+//1049623;You have been knocked off of your mount by ~1_NAME~!
+//1049624;You have to wait a few moments before you can use another bola!
+//1049625;The bola must be in your pack to use it.
+//1049626;Your hands must be free to use a bola!
+//1049627;You can't use this while on a mount!
+//1049628;You have no reason to throw a bola at that.
+//1049629;You cannot throw a bola at that.
+//1049630;You cannot see that target!
+//1049631;This bola is already being used.
+//1049632;* You begin to swing the bola...*
+//1049633;~1_NAME~ begins to menacingly swing a bola...
+//1049634;a bola ball
+//1062910;You cannot mount while recovering from a bola throw.
+
+
+[ItemDef 0E74]
+DefName=iBolaBall
+Name=bola ball
+NameLoc=1040012
+//1023699;bola balls
+//1040012;bola ball
+//1046440;Bola Balls
+Type=tNormal
+Can=CanIStack
+Weight=10
+SkillMake=Tinkering 450
+Resources=10 iIronIngot
+Material=tIngot
+
+Category=Utility
+Subsection=Bola
+Description=Bola Ball
+
+
+[ItemDef 026AC]
+DefName=iBola
+Name=bola
+NameLoc=1040011
+//1029900;bolas
+//1040011;a bola
+//1046441;bola
+//1049622;a bola
+Type=tNormal
+Can=CanIStack
+Weight=4
+SkillMake=Tinkering 600
+Resources=4 iBolaBall,3 iCutLeather
+Material=tIngot,tLeather
+
+Category=Utility
+Subsection=Bola
+Description=Bola Ball
