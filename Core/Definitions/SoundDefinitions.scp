@@ -635,7 +635,6 @@ sndSpiritSpeak				024B
 sndHorseFeet1				024C
 sndHorseFeet2				024D
 
-
 sndTerathanWarrior1			024E
 sndTerathanWarrior2			024F
 sndTerathanWarrior3			0250
@@ -1385,10 +1384,10 @@ sndChickenLizard1			05E5
 sndChickenLizard2			05E6
 sndChickenLizard3			05E7
 sndChickenLizard4			05E8
-sndDragonFaerie1			05E9
-sndDragonFaerie2			05EA
-sndDragonFaerie3			05EB
-sndDragonFaerie4			05EC
+sndDragonFairy1				05E9
+sndDragonFairy2				05EA
+sndDragonFairy3				05EB
+sndDragonFairy4				05EC
 sndDragonWolf1				05ED
 sndDragonWolf2				05EE
 sndDragonWolf3				05EF

@@ -1,21 +1,29 @@
 [Comment Notes]
 Normally this file is left empty. This pack will include the EA structures for housing, along with the EA housing system.
 
+Still needs clilocs for Release, Secure, and unsecure
+
 
 [Speech spkHouseCommands]
 //All house commands goes here. Empty by default.
 On=*I wish to lock this down*
-Message @,,2 502097	// Lock what down?
-Target
-
-On=@TargOn_Item
 If (<Region> != rHouse)
- Src.SMsgL -1,501731	// You can only lock down an object in a house!
+ SMsgL -1,501731	// You can only lock down an object in a house!
  Return 1
 EndIf
 
+If (<Region> == rHouse) && (<Region.Tag.HomeOwner> == <Src.UID>)
+ Message @,,2 502097	// Lock what down?
+ TargetF LockDownItem
+EndIf
+
+[Function LockDownItem]
 If (<ArgO.Type> == tCorpse)
  Src.SMsgL -1,501738	// You cannot lock down a corpse
+ Return 1
+EndIf
+
+If (<ArgO.Attr> &AttrCursed)
  Return 1
 EndIf
 
@@ -24,11 +32,16 @@ If (<ArgO.Attr> &AttrNeverMove)
  Return 1
 EndIf
 
-If (<Argo.BaseID> == iChickenCoop)
+If (<ArgO.BaseID> == iChickenCoop)
  If (<Region.Tag0.ChickenCoop> == 1)
   Src.SMsgL -1,1112696	// "You already have a chicken coop in your house!"
   Return 1
  EndIf
+EndIf
+
+Local.Return=<ArgO.Trigger @LockDownItem>
+If (<Local.Return>)
+ Return 1
 EndIf
 
 ForItems 1
@@ -38,7 +51,7 @@ ForItems 1
  ElIf (<Type> == tStairs) // This needs a height check just so it only doesn't block going up or down them.
   Src.SMsgL -1,501741	// You cannot lock down an item near stairs or steps.
   Return 1
- ElIf (<Type> == tDoor) || (<Type> == tOpenDoor) // This needs a height check just so it doesn't block the door.
+ ElIf (<Type> == tClosedDoor) || (<Type> == tOpenDoor) // This needs a height check just so it doesn't block the door.
   Src.SMsgL -1,501740	// You cannot lock this down near a door.
   Return 1
  EndIf
@@ -46,21 +59,53 @@ EndFor
 
 // Locking down an unsecured container; lock down everything in it.
 If (<ArgO.Type> == tContainer)
- ArgO.Attr |= AttrNeverMove
+ ArgO.Attr |= AttrNeverMove|AttrStatic|AttrLockedDown
  ForCont <ArgO.UID> 125
-  Attr |= AttrNeverMove
+  Attr |= AttrNeverMove|AttrStatic|AttrLockedDown
  EndFor
+Else
+ ArgO.Attr |= AttrNeverMove|AttrStatic|AttrLockedDown
 EndIf
 
 
 On=*I wish to release this*
-Message @,,2 502100	// Choose the item you wish to release.
+If (<Region> == rHouse) && (<Region.Tag.HomeOwner> == <Src.UID>)
+ Message @,,2 502100	// Choose the item you wish to release.
+ TargetF ReleaseItem
+EndIf
 Target
+
+[Function ReleaseItem]
+If (<ArgO.Attr> &AttrSecured)
+ Local.Return=<ArgO.Trigger @ReleaseItem>
+ ArgO.Attr &= ~AttrSecured|AttrStatic|AttrNeverMove
+EndIf
+If (<ArgO.Attr> &AttrLockedDown)
+ Local.Return=<ArgO.Trigger @ReleaseItem>
+ If (<Local.Return>)
+  Return 1
+ EndIf
+ ArgO.Attr |= AttrNeverMove|AttrStatic|AttrLockedDown
+EndIf
+
 
 
 On=*I wish to secure this*
-Message @,,2 502103	// Choose the item you wish to secure.
-Target
+If (<Region> == rHouse) && (<Region.Tag.HomeOwner> == <Src.UID>)
+ Message @,,2 502103	// Choose the item you wish to secure.
+ TargetF SecureItem
+EndIf
+
+
+[Function SecureItem]
+If (<ArgO.Attr> &AttrCursed)
+ Return 1
+EndIf
+Local.Return=<ArgO.Trigger @SecureItem>
+If (<Local.Return>)
+ Return 1
+EndIf
+ArgO.Attr |= AttrNeverMove|AttrStatic|AttrSecured
 
 
 On=*I wish to unsecure this*
@@ -74,8 +119,8 @@ If (<Region.Tag0.TrashBarrel>)
  Return 1
 EndIf
 
-ForItems 0
- If (<Type> == tHouseSign) || (<Type> == tDoor) || (<Type> == tOpenDoor) || (<Type> == tStairs)
+ForItems 1
+ If (<Type> == tHouseSign) || (<Type> == tClosedDoor) || (<Type> == tOpenDoor) || (<Type> == tStairs)
   Src.SMsgL -1,502118	// You cannot place a trash barrel there.
   Return 1
  EndIf
