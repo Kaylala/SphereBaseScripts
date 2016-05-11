@@ -33,10 +33,7 @@ Karma=-4500
 Alignment=Evil
 
 DamPhysical=20
-DamFire=0
 DamCold=40
-DamPoison=0
-DamEnergy=40
 
 ResPhysical=35,45
 ResFire=15,25
@@ -67,21 +64,12 @@ NewTMap=1
 NewItem={RandomLowMageryScroll 1 RandomLowNecromancyScroll 1 RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1},1
 NewItem={RandomLowMageryScroll 1 RandomLowNecromancyScroll 1 RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1},1
 
+
 // Air Elemental (Shame)
 [CharDef cAirElementalShame]
 ID=cAirElemental
 Name=air elemental
-Can=CanWalk|CanUseHands|CanFly
-MoveRate=100
 Dam=15,17
-Icon=iAirElementalIcon
-Sound=sndAirElemental1
-Resources=0
-FoodType=tMagic
-MaxFood=35
-Aversions=rCivilization
-Desires=tMagic
-BloodColor=-1
 
 Category=Monsters
 Subsection=Elementals
@@ -99,9 +87,7 @@ Karma=-6000
 Alignment=Evil
 
 DamPhysical=20
-DamFire=0
 DamCold=40
-DamPoison=0
 DamEnergy=40
 
 ResPhysical=80,90
@@ -133,21 +119,12 @@ NewItem={RandomLowMageryScroll 1 RandomLowNecromancyScroll 1 RandomMediumMageryS
 NewItem={RandomLowMageryScroll 1 RandomLowNecromancyScroll 1 RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1}
 NewItem=iShameDungeonCrystal,1
 
+
 // Wind Elemental
 [CharDef cWindElemental]
 ID=cAirElemental
 Name=wind elemental
-Can=CanWalk|CanUseHands|CanFly
-MoveRate=100
 Dam=15,17
-Icon=iAirElementalIcon
-Sound=sndAirElemental1
-Resources=0
-FoodType=tMagic
-MaxFood=35
-Aversions=rCivilization
-Desires=tMagic
-BloodColor=-1
 
 Category=Monsters
 Subsection=Elementals
@@ -164,9 +141,7 @@ Karma=-6000
 Alignment=Evil
 
 DamPhysical=20
-DamFire=0
 DamCold=40
-DamPoison=0
 DamEnergy=40
 
 ResPhysical=65,75
@@ -201,21 +176,12 @@ NewItem={RandomLowMageryScroll 1 RandomLowNecromancyScroll 1 RandomMediumMageryS
 NewItem={RandomLowMageryScroll 1 RandomLowNecromancyScroll 1 RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1}
 NewItem=iShameDungeonCrystal,1
 
+
 // Wind Elemental (Shame Guardian)
 [CharDef cWindElementalGuardian]
 ID=cAirElemental
 Name=wind elemental
-Can=CanWalk|CanUseHands|CanFly
-MoveRate=100
 Dam=20,22
-Icon=iAirElementalIcon
-Sound=sndAirElemental1
-Resources=0
-FoodType=0
-MaxFood=35
-Aversions=rCivilization
-Desires=tMagic
-BloodColor=-1
 
 Category=Monsters
 Subsection=Elementals: Shame Guardians
@@ -234,9 +200,7 @@ Karma=-6000
 Alignment=Evil
 
 DamPhysical=20
-DamFire=0
 DamCold=40
-DamPoison=0
 DamEnergy=40
 
 ResPhysical=65,75
@@ -271,21 +235,12 @@ NewItem={RandomLowMageryScroll 1 RandomLowNecromancyScroll 1 RandomMediumMageryS
 NewItem={RandomLowMageryScroll 1 RandomLowNecromancyScroll 1 RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1}
 NewItem=iCursedOil
 
+
 // Crystal Vortex
 [CharDef cCrystalVortex]
 ID=cAirElemental
 Name=crystal vortex
-Can=CanWalk|CanUseHands|CanFly
-MoveRate=100
 Dam=20,30
-Icon=iAirElementalIcon
-Sound=sndAirElemental1
-Resources=0
-FoodType=tMagic
-MaxFood=35
-Aversions=rCivilization
-Desires=tMagic
-BloodColor=-1
 
 Category=Monsters
 Subsection=Elementals
@@ -301,9 +256,7 @@ Karma=-7000
 Alignment=Evil
 
 DamPhysical=20
-DamFire=0
 DamCold=40
-DamPoison=0
 DamEnergy=40
 
 ResPhysical=60,70
@@ -331,21 +284,12 @@ On=@DeathCorpse
 NewItem={RandomLowMageryScroll 1 RandomLowNecromancyScroll 1 RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1},{1 2)
 NewItem={RandomLowMageryScroll 1 RandomLowNecromancyScroll 1 RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1},{1 2}
 
+
 // Chaos Vortex
 [CharDef cChaosVortex]
 ID=cAirElemental
 Name=chaos vortex
-Can=CanWalk|CanUseHands|CanFly
-MoveRate=100
 Dam=20,21
-Icon=iAirElementalIcon
-Sound=sndAirElemental1
-Resources=0
-FoodType=0
-MaxFood=35
-Aversions=rCivilization
-Desires=tMagic
-BloodColor=0
 TEvents=eAIVortex
 
 Category=Monsters
@@ -395,21 +339,12 @@ NewItem=iUndyingFlesh,{1 3}
 NewItem=iFaeryDust,{1 2}
 NewItem=iShameDungeonCrystal,4
 
+
 // Unbound Energy Vortex
 [CharDef cUnboundEnergyVortex]
 ID=cAirElemental
 Name=unbound energy vortex
-Can=CanWalk|CanUseHands|CanFly
-MoveRate=100
 Dam=21,23
-Icon=iAirElementalIcon
-Sound=sndAirElemental1
-Resources=0
-FoodType=0
-MaxFood=35
-Aversions=rCivilization
-Desires=tMagic
-BloodColor=0
 TEvents=eAIVortex
 
 Category=Monsters
@@ -426,10 +361,6 @@ Fame=22500
 Karma=-22500
 Alignment=Evil
 
-DamPhysical=0
-DamFire=0
-DamCold=0
-DamPoison=0
 DamEnergy=100
 
 ResPhysical=60,70
@@ -458,21 +389,12 @@ NewItem=RandomImbuingIngredient,1
 NewItem=iVoidCore,4
 NewItem=iShameDungeonCrystal,5
 
+
 // Nether Vortex
 [CharDef cNetherVortex]
 ID=cAirElemental
 Name=nether vortex
-Can=CanWalk|CanUseHands|CanFly
-MoveRate=100
 Dam=20
-Icon=iAirElementalIcon
-Sound=sndAirElemental1
-Resources=0
-FoodType=0
-MaxFood=35
-Aversions=rCivilization
-Desires=tMagic
-BloodColor=-1
 
 Category=Monsters
 Subsection=Elementals
@@ -527,11 +449,12 @@ On=@DeathCorpse
 NewItem={RandomLowMageryScroll 1 RandomLowNecromancyScroll 1 RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1}
 NewItem={RandomLowMageryScroll 1 RandomLowNecromancyScroll 1 RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1}
 
+
 // Earth Elemental
 [CharDef 0E]
 DefName=cEarthElemental
 Name=earth elemental
-Can=CanWalk
+Can=CanWalk|CanUseHands
 MoveRate=100
 Dam=9,16
 Icon=iEarthElementalIcon
@@ -557,10 +480,6 @@ Karma=-3500
 Alignment=Evil
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=30,35
 ResFire=10,20
@@ -588,21 +507,12 @@ NewItem=iMandrakeRoot,1
 NewItem=RandomCommonGem,{1 2}
 NewItem=iIronOre,5	// Small
 
+
 // Earth Elemental (Shame)
 [CharDef cEarthElementalShame]
 ID=cEarthElemental
 Name=earth elemental
-Can=CanWalk
-MoveRate=100
 Dam=11,13
-Icon=iEarthElementalIcon
-Sound=sndEarthElemental1
-Resources=
-FoodType=tOre,tIngot,tGem,tRock,tDirt
-MaxFood=35
-Aversions=rCivilization
-Desires=tMagic
-BloodColor=BrownHues
 
 Category=Monsters
 Subsection=Elementals
@@ -618,10 +528,6 @@ Karma=-3500
 Alignment=Evil
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=30,35
 ResFire=25,30
@@ -650,21 +556,12 @@ NewItem=RandomCommonGem,1
 NewItem=iIronOre,5	// Small
 NewItem=iShameDungeonCrystal,1
 
+
 // Greater Earth Elemental
 [CharDef cGreaterEarthElemental]
 ID=cEarthElemental
 Name=greater earth elemental
-Can=CanWalk
-MoveRate=100
 Dam=9,16
-Icon=iEarthElementalIcon
-Sound=sndEarthElemental1
-Resources=
-FoodType=tOre,tIngot,tGem,tRock,tDirt
-MaxFood=35
-Aversions=rCivilization
-Desires=tMagic
-BloodColor=BrownHues
 
 Category=Monsters
 Subsection=Elementals
@@ -683,10 +580,6 @@ Alignment=Evil
 Ability1=FrenziedRage	// 35% life. Deal 5sec "stunning force" hits
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=50,65
 ResFire=35,45
@@ -714,21 +607,12 @@ NewItem=RandomCommonGem,1
 NewItem=RandomOre,{3 7}
 NewItem=iShameDungeonCrystal,1
 
+
 // Molten Earth Elemental
 [CharDef cMoltenEarthElemental]
 ID=cEarthElemental
 Name=molten earth elemental
-Can=CanWalk
-MoveRate=100
 Dam=17,19
-Icon=iEarthElementalIcon
-Sound=sndEarthElemental1
-Resources=
-FoodType=tOre,tIngot,tGem,tRock,tDirt
-MaxFood=35
-Aversions=rCivilization
-Desires=tMagic,tFire,tLava
-BloodColor=BrownHues
 
 Category=Monsters
 Subsection=Elementals
@@ -753,9 +637,6 @@ Ability1=FrenziedRage	// 35% life. Deal 5sec "stunning force" hits
 
 DamPhysical=50
 DamFire=50
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=50,65
 ResFire=50,60
@@ -784,21 +665,12 @@ NewItem=RandomCommonGem,{1 3}
 NewItem=RandomOre,{6 8}
 NewItem=iShameDungeonCrystal,2
 
+
 // Mud Elemental
 [CharDef cMudElemental]
 ID=cEarthElemental
 Name=mud elemental
-Can=CanWalk
-MoveRate=100
 Dam=17,19
-Icon=iEarthElementalIcon
-Sound=sndEarthElemental1
-Resources=
-FoodType=tOre,tIngot,tGem,tRock,tDirt
-MaxFood=35
-Aversions=rCivilization
-Desires=tMagic
-BloodColor=BrownHues
 
 Category=Monsters
 Subsection=Elementals
@@ -816,9 +688,6 @@ Alignment=Evil
 
 DamPhysical=50
 DamFire=50
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=50,65
 ResFire=55,65
@@ -847,21 +716,12 @@ NewItem=RandomNecromancyReagent,{5 8}
 NewItem=RandomNecromancyReagent,{5 8}
 NewItem=iShameDungeonCrystal,1
 
+
 // Stone Elemental
 [CharDef cStoneElemental]
 ID=cEarthElemental
 Name=stone elemental
-Can=CanWalk
-MoveRate=100
 Dam=15,17
-Icon=iEarthElementalIcon
-Sound=sndEarthElemental1
-Resources=
-FoodType=tOre,tIngot,tGem,tRock,tDirt
-MaxFood=35
-Aversions=rCivilization
-Desires=tMagic
-BloodColor=0
 
 Category=Monsters
 Subsection=Elementals
@@ -880,10 +740,6 @@ Alignment=Evil
 Ability1=FrenziedRage	// 35% life. Deal 5sec "stunning force" hits
 
 DamPhysical=100
-DamFire=00
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=50,65
 ResFire=55,65
@@ -910,21 +766,12 @@ NewItem=RandomCommonGem,{1 3}
 NewItem=iHighQualityGranite,{3 7}
 NewItem=iShameDungeonCrystal,1
 
+
 // Quartz Elemental (Shame Guardian Level 1)
 [CharDef cQuartzElementalGuardian]
 ID=cEarthElemental
 Name=quartz elemental
-Can=CanWalk
-MoveRate=100
 Dam=14,21
-Icon=iEarthElementalIcon
-Sound=sndEarthElemental1
-Resources=
-FoodType=tOre,tIngot,tGem,tRock,tDirt
-MaxFood=35
-Aversions=rCivilization
-Desires=tMagic
-BloodColor=0
 
 Category=Monsters
 Subsection=Elementals: Shame Guardians
@@ -944,9 +791,6 @@ Alignment=Evil
 Ability1=FrenziedRage	// 35% life. Deal 5sec "stunning force" hits
 
 DamPhysical=60
-DamFire=0
-DamCold=0
-DamPoison=0
 DamEnergy=40
 
 ResPhysical=30,35
@@ -973,21 +817,12 @@ NewItem=RandomCommonGem,2
 NewItem=RandomOre,{5 8}
 NewItem=iQuartzGrit,1
 
+
 // Enraged Earth Elemental
 [CharDef cEnragedEarthElemental]
 ID=cEarthElemental
 Name=enraged earth elemental
-Can=CanWalk
-MoveRate=100
 Dam=9,16
-Icon=iEarthElementalIcon
-Sound=sndEarthElemental1
-Resources=
-FoodType=tOre,tIngot,tGem,tRock,tDirt
-MaxFood=35
-Aversions=rCivilization
-Desires=tMagic
-BloodColor=0
 
 Category=Monsters
 Subsection=Elementals
@@ -1006,10 +841,6 @@ Alignment=Evil
 Ability1=FrenziedRage	// 35% life. Deal 5sec "stunning force" hits
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=55,65
 ResFire=20,30
@@ -1046,20 +877,12 @@ NewItem=iMandrakeRoot,2
 NewItem=RandomCommonGem,2
 NewItem=RandomOre,{5 8}
 
+
 // Blackrock Elemental
 [CharDef cBlackrockElemental]
 ID=cEarthElemental
 Name=blackrock elemental
-Can=CanWalk
-MoveRate=100
 Dam=28
-Icon=iEarthElementalIcon
-Sound=sndEarthElemental1
-Resources=
-FoodType=tOre,tIngot,tGem,tRock,tDirt
-MaxFood=35
-Aversions=rCivilization
-Desires=tMagic
 BloodColor=BlackrockHue
 
 Category=Monsters
@@ -1083,7 +906,6 @@ HitPointRegeneration=50
 DamPhysical=25
 DamFire=25
 DamCold=25
-DamPoison=0
 DamEnergy=25
 
 ResPhysical=65,75
@@ -1116,6 +938,7 @@ If (<Hits> > <MaxHits>)
  Hits=<MaxHits>
 EndIf
 
+
 // Fire Elemental
 [CharDef 0F]
 DefName=cFireElemental
@@ -1147,9 +970,6 @@ Alignment=Evil
 
 DamPhysical=25
 DamFire=75
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=35,45
 ResFire=60,80
@@ -1180,21 +1000,12 @@ NewTMap=2
 NewItem=RandomCommonGem
 NewItem=iSulfurousAsh,3
 
+
 // Flame Elemental
 [CharDef cFlameElemental]
 ID=cFireElemental
 Name=flame elemental
-Can=CanWalk|CanUseHands
-MoveRate=100
 Dam=13,15
-Icon=iFireElementalIcon
-Sound=sndFireElemental1
-Resources=0
-FoodType=tMagic
-MaxFood=35
-Aversions=rCivilization
-Desires=cFireElemental,tMagic
-BloodColor=0
 
 Category=Monsters
 Subsection=Elementals
@@ -1220,9 +1031,6 @@ Ability2=FireAura
 
 DamPhysical=25
 DamFire=75
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=45,55
 ResFire=100
@@ -1255,21 +1063,12 @@ NewItem=RandomCommonGem,{1 2}
 NewItem=iSulfurousAsh,3
 NewItem=iShameDungeonCrystal,1
 
+
 // Flame Elemental (Shame Guardian Level 2)
 [CharDef cFlameElementalGuardian]
 ID=cFireElemental
 Name=flame elemental
-Can=CanWalk|CanUseHands
-MoveRate=100
 Dam=13,15
-Icon=iFireElementalIcon
-Sound=sndFireElemental1
-Resources=0
-FoodType=tMagic
-MaxFood=35
-Aversions=rCivilization
-Desires=cFireElemental,tMagic
-BloodColor=0
 
 Category=Monsters
 Subsection=Elementals: Shame Guardians
@@ -1295,9 +1094,6 @@ Ability2=FireAura
 
 DamPhysical=25
 DamFire=75
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=45,55
 ResFire=100
@@ -1330,6 +1126,7 @@ NewItem=RandomCommonGem,{1 2}
 NewItem=iSulfurousAsh,3
 NewItem=iCorrosiveAsh,1
 
+
 // Water Elemental
 [CharDef 010]
 DefName=cWaterElemental
@@ -1360,10 +1157,6 @@ Karma=-4500
 Alignment=Evil
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=35,45
 ResFire=15,25
@@ -1395,21 +1188,12 @@ NewItem=RandomPotion
 NewItem={RandomLowMageryScroll 1 RandomLowNecromancyScroll 1}
 NewItem=iAncientPotteryFragments,1,R19
 
+
 // Water Elemental (Shame)
 [CharDef cWaterElementalShame]
 ID=cWaterElemental
 Name=water elemental
-Can=CanWalk|CanUseHands|CanSwim
-MoveRate=100
 Dam=14,16
-Icon=iWaterElementalIcon
-Sound=sndWaterElemental1
-Resources=0
-FoodType=tMagic
-MaxFood=35
-Aversions=rCivilization
-Desires=cWaterElemental,tMagic
-BloodColor=BlueHues
 
 Category=Monsters
 Subsection=Elementals
@@ -1426,10 +1210,6 @@ Karma=-4500
 Alignment=Evil
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=35,45
 ResFire=15,25
@@ -1462,21 +1242,12 @@ NewItem=RandomPotion
 NewItem=iBlackPearl,3
 NewItem={RandomLowMageryScroll 1 RandomLowNecromancyScroll 1}
 
+
 // Void Manifestation
 [CharDef cVoidManifestation]
 ID=cWaterElemental
 Name=void manifestation
-Can=CanWalk|CanUseHands|CanSwim
-MoveRate=100
 Dam=19,22
-Icon=iWaterElementalIcon
-Sound=sndWaterElemental1
-Resources=0
-FoodType=tMagic
-MaxFood=35
-Aversions=rCivilization
-Desires=tMagic
-BloodColor=0
 
 Category=Monsters
 Subsection=Elementals
@@ -1535,6 +1306,7 @@ NewItem={RandomLowMageryScroll 1 RandomLowNecromancyScroll 1}
 NewItem=iAncientPotteryFragments,1,R19
 NewItem={iVoidCrystalOfCorruptedArcaneEssence 1 iVoidCrystalOfCorruptedMysticalEssence 1 iVoidCrystalOfCorruptedSpiritualEssence 1},1,R19
 
+
 // Acid Elemental
 [CharDef 09E]
 DefName=cAcidElemental
@@ -1566,8 +1338,6 @@ Alignment=Evil
 
 DamPhysical=25
 DamFire=50
-DamCold=0
-DamPoison=0
 DamEnergy=25
 
 ResPhysical=45,55
@@ -1598,6 +1368,7 @@ On=@DeathCorpse
 NewTMap=2
 NewItem=RandomPotion
 
+
 // Blood Elemental
 [CharDef 09F]
 DefName=cBloodElemental1
@@ -1627,9 +1398,6 @@ Fame=12500
 Karma=-12500
 Alignment=Evil
 
-DamPhysical=0
-DamFire=0
-DamCold=0
 DamPoison=50
 DamEnergy=50
 
@@ -1668,6 +1436,7 @@ NewItem={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1},1
 NewItem={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1},1
 NewItem={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1},1,R1
 NewItem={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1},1,R1
+
 
 // Blood Elemental (Old Hued Variant)
 [CharDef 0A0]
@@ -1698,9 +1467,6 @@ Fame=12500
 Karma=-12500
 Alignment=Evil
 
-DamPhysical=0
-DamFire=0
-DamCold=0
 DamPoison=50
 DamEnergy=50
 
@@ -1740,21 +1506,12 @@ NewItem={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1}
 NewItem={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1 0 2}
 NewItem={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1 0 2}
 
+
 // Blood Elemental  (Shame)
 [CharDef cBloodElementalShame]
 ID=cBloodElemental
 Name=blood elemental1
-Can=CanWalk|CanUseHands
-MoveRate=100
 Dam=17,27
-Icon=iBloodElementalIcon
-Sound=sndWaterElemental1
-Resources=0
-FoodType=tMagic
-MaxFood=35
-Aversions=rCivilization
-Desires=cBloodElemental,tMagic
-BloodColor=0
 
 Category=Monsters
 Subsection=Elementals
@@ -1769,9 +1526,6 @@ Fame=12500
 Karma=-12500
 Alignment=Evil
 
-DamPhysical=0
-DamFire=0
-DamCold=0
 DamPoison=50
 DamEnergy=50
 
@@ -1811,23 +1565,14 @@ NewItem={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1}
 NewItem={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1}
 NewItem={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1 0 2}
 NewItem={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1 0 2}
-NewItem=iShameDungeonCrystal
+NewItem=iShameDungeonCrystal,1
+
 
 // Diseased Blood Elemental
 [CharDef cDiseasedBloodElemental]
 ID=cBloodElemental1
 Name=diseased blood elemental
-Can=CanWalk|CanUseHands
-MoveRate=100
 Dam=19,27
-Icon=iBloodElementalIcon
-Sound=sndWaterElemental1
-Resources=0
-FoodType=tMagic
-MaxFood=35
-Aversions=rCivilization
-Desires=cBloodElemental,tMagic
-BloodColor=0
 
 Category=Monsters
 Subsection=Elementals
@@ -1844,9 +1589,6 @@ Fame=8500
 Karma=-8500
 Alignment=Evil
 
-DamPhysical=0
-DamFire=0
-DamCold=0
 DamPoison=50
 DamEnergy=50
 
@@ -1889,21 +1631,12 @@ NewItem={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1 0 2}
 NewItem={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1 0 2}
 NewItem=iShameDungeonCrystal,1
 
+
 // Purifying Blood Elemental
 [CharDef cPurifyingBloodElemental]
 ID=cBloodElemental1
 Name=purifying blood elemental
-Can=CanWalk|CanUseHands
-MoveRate=100
 Dam=17,27
-Icon=iBloodElementalIcon
-Sound=sndWaterElemental1
-Resources=0
-FoodType=tMagic
-MaxFood=35
-Aversions=rCivilization
-Desires=cBloodElemental,tMagic
-BloodColor=0
 
 Category=Monsters
 Subsection=Elementals
@@ -1920,10 +1653,8 @@ Karma=-12500
 Alignment=Evil
 
 DamPhysical=50
-DamFire=0
 DamCold=30
 DamPoison=20
-DamEnergy=0
 
 ResPhysical=50,70
 ResFire=20,30
@@ -1963,6 +1694,7 @@ NewItem={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1 0 2}
 NewItem={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1 0 2}
 NewItem=iSamplesOfPurifiedBlood
 
+
 // Ice Elemental
 [CharDef 0A1]
 DefName=cIceElemental
@@ -1995,10 +1727,7 @@ Alignment=Evil
 Ability1=IceAura	// 2 tiles
 
 DamPhysical=25
-DamFire=0
 DamCold=75
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=35,45
 ResFire=5,10
@@ -2029,6 +1758,7 @@ NewItem=RandomCommonGem,{1 2}
 NewItem=RandomCommonGem,{1 2}
 NewItem=RandomMageryReagent,{4 8}
 NewItem=RandomMageryReagent,{4 8}
+
 
 // Poison Elemental
 [CharDef 0A2]
@@ -2061,10 +1791,7 @@ Karma=-12500
 Alignment=Evil
 
 DamPhysical=10
-DamFire=0
-DamCold=0
 DamPoison=90
-DamEnergy=0
 
 ResPhysical=60,70
 ResFire=20,30
@@ -2103,21 +1830,12 @@ If !(<R9>)
  Src.SpellEffect s_Poison,<Poisoning>,<UID>
 EndIf
 
+
 // Poison Elemental (Shame)
 [CharDef cPoisonElementalShame]
 ID=cPoisonElemental
 Name=poison elemental
-Can=CanWalk|CanUseHands
-MoveRate=100
 Dam=16,19
-Icon=iPoisonElementalIcon
-Sound=sndAirElemental1
-Resources=0
-FoodType=tMagic
-MaxFood=35
-Aversions=rCivilization
-Desires=tMagic
-BloodColor=0
 
 Category=Monsters
 Subsection=Elementals
@@ -2135,10 +1853,7 @@ Karma=-12500
 Alignment=Evil
 
 DamPhysical=10
-DamFire=0
-DamCold=0
 DamPoison=90
-DamEnergy=0
 
 ResPhysical=60,70
 ResFire=50,60
@@ -2177,21 +1892,12 @@ If !(<R9>)
  Src.SpellEffect s_Poison,<Poisoning>,<UID>
 EndIf
 
+
 // Greater Poison Elemental
 [CharDef cGreaterPoisonElemental]
 ID=cPoisonElemental
 Name=poison elemental
-Can=CanWalk|CanUseHands
-MoveRate=100
 Dam=12,18
-Icon=iPoisonElementalIcon
-Sound=sndAirElemental1
-Resources=0
-FoodType=tMagic
-MaxFood=35
-Aversions=rCivilization
-Desires=tMagic
-BloodColor=0
 
 Category=Monsters
 Subsection=Elementals
@@ -2209,10 +1915,7 @@ Karma=-12500
 Alignment=Evil
 
 DamPhysical=10
-DamFire=0
-DamCold=0
 DamPoison=90
-DamEnergy=0
 
 ResPhysical=60,70
 ResFire=20,30
@@ -2254,6 +1957,7 @@ If !(<R9>)
  Src.SpellEffect s_Poison,<Poisoning>,<UID>
 EndIf
 
+
 // Snow Elemental
 [CharDef 0A3]
 DefName=cSnowElemental
@@ -2286,10 +1990,7 @@ Alignment=Evil
 Ability1=FrostAura
 
 DamPhysical=20
-DamFire=0
 DamCold=80
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=45,55
 ResFire=10,15
@@ -2314,6 +2015,7 @@ On=@DeathCorpse
 NewTMap=2
 NewItem=iIronOre,3	// Medium
 NewItem=iBlackPearl,3
+
 
 // Efreet
 [CharDef 083]
@@ -2343,10 +2045,7 @@ Fame=10000
 Karma=-10000
 Alignment=Evil
 
-DamPhysical=0
 DamFire=50
-DamCold=0
-DamPoison=0
 DamEnergy=50
 
 ResPhysical=50,60
@@ -2376,6 +2075,7 @@ NewGold={400 500}
 On=@DeathCorpse
 NewTMap=4
 NewItem=RandomDaemonBoneArmor,1,R99
+
 
 // Sand Vortex
 [CharDef 0316]
@@ -2410,9 +2110,6 @@ Alignment=Evil
 
 DamPhysical=90
 DamFire=10
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=80,90
 ResFire=60,70
@@ -2437,6 +2134,7 @@ On=@DeathCorpse
 NewTMap=4
 NewItem=RandomBone,1
 NewItem=RandomBone,1
+
 
 // Crystal Elemental
 [CharDef 012C]
@@ -2466,12 +2164,9 @@ Fame=6500
 Karma=-6500
 Alignment=Evil
 
-Ability1=s_Bleed_Attack
+Ability1=sBleedAttackSpell
 
 DamPhysical=80
-DamFire=0
-DamCold=0
-DamPoison=0
 DamEnergy=20
 
 ResPhysical=50,60
@@ -2502,6 +2197,7 @@ NewGold={400 500}
 On=@DeathCorpse
 NewItem=RandomCommonGem,2
 NewItem=RandomCommonGem,2
+
 
 // Lava Elemental
 [CharDef 02D0]
@@ -2534,9 +2230,6 @@ Alignment=Evil
 
 DamPhysical=10
 DamFire=90
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=60,70
 ResFire=20,30
@@ -2575,6 +2268,7 @@ NewItem={iEssenceOfPrecision 1 iEssenceOfOrder 1 iEssenceOfPower 1},1,R19
 NewItem=iAncientPotteryFragments,1,R19
 NewItem=iTatteredRemnantsOfAnAncientScroll,1,R19
 
+
 // Kaze Kemono
 [CharDef 0C4]
 DefName=cKazeKemono
@@ -2583,7 +2277,7 @@ Can=CanWalk|CanUseHands|CanFly
 MoveRate=100
 Dam=15,20	//11,16 tweak down?
 Icon=iKazeKemonoIcon
-Sound=sndKazeKemono1
+Sound=sndEarthElemental1
 Resources=0
 FoodType=tMagic
 MaxFood=35
@@ -2610,7 +2304,6 @@ DamPhysical=70
 DamFire=10
 DamCold=10
 DamPoison=10
-DamEnergy=0
 
 ResPhysical=50,70
 ResFire=30,60
@@ -2639,6 +2332,7 @@ NewGold={550 650}
 On=@DeathCorpse
 NewItem=RandomCommonGem,2
 
+
 // Rai-Ju
 [CharDef 0C7]
 DefName=cRaiJu
@@ -2647,7 +2341,7 @@ Can=CanWalk|CanUseHands|CanFly
 MoveRate=100
 Dam=12,15
 Icon=iRaiJuIcon
-Sound=sndRaiJu1
+Sound=sndAirElemental1
 Resources=0
 FoodType=tMagic
 MaxFood=35
@@ -2698,6 +2392,7 @@ NewGold={550 650}
 On=@DeathCorpse
 NewItem=RandomCommonGem,2
 
+
 // Dull Copper Elemental
 [CharDef 06E]
 DefName=cDullCopperElemental
@@ -2730,10 +2425,6 @@ Karma=-3500
 Alignment=Evil
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=30,40
 ResFire=30,40
@@ -2759,6 +2450,7 @@ NewTMap=1
 NewItem=iDullCopperOre,25	// Large
 Item=RandomCommonGem,2
 Item=iCrystallineBlackrock,1,R19
+
 
 // Shadow Iron Elemental
 [CharDef 06F]
@@ -2792,10 +2484,6 @@ Karma=-4500
 Alignment=Evil
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=30,40
 ResFire=30,40
@@ -2821,6 +2509,7 @@ NewTMap=1
 NewItem=iShadowIronOre,25	// Large
 Item=RandomCommonGem,2
 Item=iCrystallineBlackrock,1,R19
+
 
 // Copper Elemental
 [CharDef 06D]
@@ -2854,10 +2543,6 @@ Karma=-3500
 Alignment=Evil
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=30,40
 ResFire=30,40
@@ -2883,6 +2568,7 @@ NewTMap=1
 NewItem=iCopperOre,25	// Large
 Item=RandomCommonGem,2
 Item=iCrystallineBlackrock,1,R19
+
 
 // Bronze Elemental
 [CharDef 06C]
@@ -2917,9 +2603,6 @@ Alignment=Evil
 
 DamPhysical=30
 DamFire=70
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=30,40
 ResFire=30,40
@@ -2945,6 +2628,7 @@ NewTMap=1
 NewItem=iBronzeOre,25	// Large
 Item=RandomCommonGem,2
 Item=iCrystallineBlackrock,1,R19
+
 
 // Golden Elemental
 [CharDef 0A6]
@@ -2977,10 +2661,6 @@ Karma=-3500
 Alignment=Evil
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=60,75
 ResFire=10,20
@@ -3038,10 +2718,6 @@ Karma=-3500
 Alignment=Evil
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=30,40
 ResFire=40,50
@@ -3100,10 +2776,6 @@ Karma=-3500
 Alignment=Evil
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=30,40
 ResFire=10,20
@@ -3129,6 +2801,7 @@ NewTMap=1
 NewItem=iVeriteOre,25	// Large
 Item=RandomCommonGem,2
 Item=iCrystallineBlackrock,1,R19
+
 
 // Valorite Elemental
 [CharDef 070]
@@ -3162,10 +2835,6 @@ Karma=-3500
 Alignment=Evil
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=65,75
 ResFire=50,60
@@ -3192,23 +2861,14 @@ NewItem=iValoriteOre,25	// Large
 Item=RandomCommonGem,2
 Item=iCrystallineBlackrock,1,R19
 
+
 // Infernus
 // Champion Spawn (Water Elemental in appearance, just hued)
 // Sphere: Rai Ju?
 [CharDef cInfernus]
 ID=cWaterElemental
 Name=infernus
-Can=CanWalk|CanUseHands
-MoveRate=100
 Dam=11,14
-Icon=iInfernusIcon
-Sound=sndWaterElemental1
-Resources=0
-FoodType=tMeat
-MaxFood=35
-Aversions=tWater,rCivilization
-Desires=rlava,rJungle,tlava,tfire
-BloodColor=0
 
 Category=Monsters
 SubsectiOn=Elementals: Fire
@@ -3225,11 +2885,7 @@ Alignment=Evil
 
 Ability1=
 
-DamPhysical=0
 DamFire=100
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=45,55
 ResFire=80,90
@@ -3249,5 +2905,6 @@ Parrying={550 700}
 
 On=@NPCRestock
 NewGold={500 600}
+
 
 [EOF]

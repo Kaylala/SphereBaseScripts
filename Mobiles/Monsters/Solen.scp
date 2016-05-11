@@ -26,10 +26,6 @@ Karma=-1500
 Alignment=Evil	// Could have sworn they were neutral.
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=25,30
 ResFire=20,30
@@ -79,10 +75,7 @@ Karma=-3000
 Alignment=Evil
 
 DamPhysical=80
-DamFire=0
-DamCold=0
 DamPoison=20
-DamEnergy=0
 
 ResPhysical=20,35
 ResFire=20,35
@@ -132,10 +125,7 @@ Karma=-4500
 Alignment=Evil
 
 DamPhysical=70
-DamFire=0
-DamCold=0
 DamPoison=30
-DamEnergy=0
 
 ResPhysical=30,40
 ResFire=30,35
@@ -185,10 +175,7 @@ Karma=-4500
 Alignment=Evil
 
 DamPhysical=70
-DamFire=0
-DamCold=0
 DamPoison=30
-DamEnergy=0
 
 ResPhysical=30,40
 ResFire=30,35
@@ -213,17 +200,7 @@ NewGold={400 500}
 [CharDef cRedSolenInfiltratorWarrior]
 ID=cRedSolenWarrior
 Name=red solen infiltrator warrior
-Can=CanNonHum|CanWalk
-MoveRate=100
 Dam=5,15
-Icon=iSolenWarriorIcon
-Sound=sndSolen1
-Resources=0
-FoodType=tRawMeat
-MaxFood=35
-Aversions=rCivilization
-Desires=tRawMeat,rSolenHive
-BloodColor=0
 TEvents=AISolenInfiltratorWarrior
 
 Category=Animals
@@ -238,10 +215,7 @@ Karma=-3000
 Alignment=Evil
 
 DamPhysical=80
-DamFire=0
-DamCold=0
 DamPoison=20
-DamEnergy=0
 
 ResPhysical=20,35
 ResFire=20,35
@@ -266,17 +240,7 @@ NewGold={200 225}
 [CharDef cRedSolenInfiltratorQueen]
 ID=cRedSolenQueen
 Name=red solen infiltrator queen
-Can=CanNonHum|CanWalk
-MoveRate=100
 Dam=10,15
-Icon=iSolenQueenIcon
-Sound=sndSolen1
-Resources=0
-FoodType=tRawMeat
-MaxFood=35
-Aversions=rCivilization
-Desires=tRawMeat,rSolenHive
-BloodColor=0
 TEvents=AISolenInfiltratorQueen
 
 Category=Animals
@@ -291,10 +255,7 @@ Karma=-6500
 Alignment=Evil
 
 DamPhysical=70
-DamFire=0
-DamCold=0
 DamPoison=30
-DamEnergy=0
 
 ResPhysical=30,40
 ResFire=30,35
@@ -319,17 +280,7 @@ NewGold={250 300}
 [CharDef cAmbitiousRedSolenQueen]
 ID=cRedSolenQueen
 Name=ambitious red solen queen
-Can=CanNonHum|CanWalk
-MoveRate=100
 Dam=10,15
-Icon=iSolenQueenIcon
-Sound=sndSolen1
-Resources=0
-FoodType=tRawMeat
-MaxFood=35
-Aversions=rCivilization
-Desires=tRawMeat,rSolenHive
-BloodColor=0
 TEvents=AISolenQueen
 
 Category=Animals
@@ -344,10 +295,7 @@ Karma=-4500
 Alignment=Evil
 
 DamPhysical=70
-DamFire=0
-DamCold=0
 DamPoison=30
-DamEnergy=0
 
 ResPhysical=30,40
 ResFire=30,35
@@ -398,10 +346,6 @@ Karma=-1500
 Alignment=Evil	// Could have sworn they were neutral.
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=25,30
 ResFire=20,30
@@ -452,10 +396,7 @@ Karma=-3000
 Alignment=Evil
 
 DamPhysical=80
-DamFire=0
-DamCold=0
 DamPoison=20
-DamEnergy=0
 
 ResPhysical=20,35
 ResFire=20,35
@@ -506,10 +447,7 @@ Karma=-4500
 Alignment=Evil
 
 DamPhysical=70
-DamFire=0
-DamCold=0
 DamPoison=30
-DamEnergy=0
 
 ResPhysical=30,40
 ResFire=30,35
@@ -588,17 +526,7 @@ NewGold={400 500}
 [CharDef cBlackSolenInfiltratorWarrior]
 ID=cBlackSolenWarrior
 Name=black solen infiltrator warrior
-Can=CanNonHum|CanWalk
-MoveRate=100
 Dam=5,15
-Icon=iSolenWarriorIcon
-Sound=sndSolen1
-Resources=0
-FoodType=tRawMeat
-MaxFood=35
-Aversions=rCivilization
-Desires=tRawMeat,rSolenHive
-BloodColor=0
 TEvents=AISolenInfiltratorWarrior
 
 Category=Animals
@@ -614,10 +542,7 @@ Karma=-3000
 Alignment=Evil
 
 DamPhysical=80
-DamFire=0
-DamCold=0
 DamPoison=20
-DamEnergy=0
 
 ResPhysical=20,35
 ResFire=20,35
@@ -642,17 +567,7 @@ NewGold={200 225}
 [CharDef cBlackSolenInfiltratorQueen]
 ID=cBlackSolenQueen
 Name=black solen infiltrator queen
-Can=CanNonHum|CanWalk
-MoveRate=100
 Dam=10,15
-Icon=iSolenQueenIcon
-Sound=sndSolen1
-Resources=0
-FoodType=tRawMeat
-MaxFood=35
-Aversions=rCivilization
-Desires=tRawMeat,rSolenHive
-BloodColor=0
 TEvents=AISolenInfiltratorQueen
 
 Category=Animals
@@ -668,10 +583,7 @@ Karma=-6500
 Alignment=Evil
 
 DamPhysical=70
-DamFire=0
-DamCold=0
 DamPoison=30
-DamEnergy=0
 
 ResPhysical=30,40
 ResFire=30,35
@@ -696,17 +608,7 @@ NewGold={250 300}
 [CharDef cAmbitiousBlackSolenQueen]
 ID=cBlackSolenQueen
 Name=ambitious black solen queen
-Can=CanNonHum|CanWalk
-MoveRate=100
 Dam=10,15
-Icon=iSolenQueenIcon
-Sound=sndSolen1
-Resources=0
-FoodType=tRawMeat
-MaxFood=35
-Aversions=rCivilization
-Desires=tRawMeat,rSolenHive
-BloodColor=0
 TEvents=AISolenQueen
 
 Category=Animals
@@ -722,10 +624,7 @@ Karma=-4500
 Alignment=Evil
 
 DamPhysical=70
-DamFire=0
-DamCold=0
 DamPoison=30
-DamEnergy=0
 
 ResPhysical=30,40
 ResFire=30,35

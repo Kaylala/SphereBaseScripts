@@ -5,7 +5,7 @@ Can=CanWalk|CanUseHands|CanNonHuman|CanFly|CanHover
 MoveRate=100
 Dam=5,10
 Icon=iGazerIcon
-Sound=
+Sound=sndGazer1
 Resources=1 iCutOfRawRibs
 FoodType=tRawMeat,tMeat
 MaxFood=35
@@ -26,10 +26,6 @@ Karma=-3500
 Alignment=Evil
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=35,40
 ResFire=40,50
@@ -63,7 +59,7 @@ Can=CanWalk|CanUseHands|CanNonHuman|CanFly|CanHover
 MoveRate=100
 Dam=8,19
 Icon=iGazerIcon
-Sound=
+Sound=sndGazer1
 Resources=1 iCutOfRawRibs
 FoodType=tRawMeat,tMeat
 MaxFood=35
@@ -84,9 +80,6 @@ Karma=-12500
 Alignment=Evil
 
 DamPhysical=50
-DamFire=0
-DamCold=0
-DamPoison=0
 DamEnergy=50
 
 ResPhysical=45,55
@@ -122,7 +115,7 @@ Can=CanWalk|CanUseHands|CanNonHuman|CanFly|CanHover
 MoveRate=100
 Dam=8,19
 Icon=iGazerIcon
-Sound=
+Sound=sndGazer1
 Resources=1 iCutOfRawRibs
 FoodType=tRawMeat,tMeat
 MaxFood=35
@@ -143,9 +136,6 @@ Karma=-12500
 Alignment=Evil
 
 DamPhysical=50
-DamFire=0
-DamCold=0
-DamPoison=0
 DamEnergy=50
 
 ResPhysical=45,55
@@ -181,7 +171,7 @@ Can=CanWalk|CanUseHands|CanNonHuman|CanFly|CanHover
 MoveRate=100
 Dam=2,9
 Icon=iGazerLarvaIcon
-Sound=
+Sound=sndGazer1
 Resources=1 iCutOfRawRibs
 FoodType=tRawMeat,tMeat
 MaxFood=35
@@ -202,10 +192,6 @@ Karma=-900
 Alignment=Evil
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=15,25
 ResFire=0
@@ -234,7 +220,7 @@ Can=CanWalk|CanUseHands
 MoveRate=100
 Dam=5,10	// 6,12 UOS
 Icon=iHeadlessIcon
-Sound=
+Sound=sndHeadless1
 Resources=1 iCutOfRawRibs
 FoodType=tRawMeat,tMeat
 MaxFood=35
@@ -255,10 +241,6 @@ Karma=-450
 Alignment=Evil
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=15,20
 ResFire=0

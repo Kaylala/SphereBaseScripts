@@ -5,7 +5,7 @@ Can=CanWalk|CanUseHands|CanMale
 MoveRate=100
 Dam=9,11
 Icon=iOgreIcon
-Sound=
+Sound=sndOgre1
 Resources=2 iCutOfRawRibs
 FoodType=tRawMeat,tMeat
 MaxFood=35
@@ -28,10 +28,6 @@ Karma=-3000
 Alignment=Evil
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=30,35
 ResFire=15,25
@@ -61,7 +57,7 @@ Can=CanWalk|CanUseHands|CanMale
 MoveRate=100
 Dam=20,25
 Icon=iOgreLordIcon
-Sound=
+Sound=sndOgre1
 Resources=2 iCutOfRawRibs
 FoodType=tRawMeat,tMeat
 MaxFood=35
@@ -84,10 +80,6 @@ Karma=-15000
 Alignment=Evil
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=45,55
 ResFire=30,40
@@ -116,7 +108,7 @@ Can=CanWalk|CanUseHands|CanMale
 MoveRate=100
 Dam=20,25
 Icon=iOgreLordIcon
-Sound=
+Sound=sndOgre1
 Resources=2 iCutOfRawRibs
 FoodType=tRawMeat,tMeat
 MaxFood=35
@@ -139,10 +131,6 @@ Karma=-15000
 Alignment=Evil
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=45,55
 ResFire=30,40
@@ -171,7 +159,7 @@ Can=CanWalk|CanUseHands|CanMale
 MoveRate=100
 Dam=20,25
 Icon=iOgreLordIcon
-Sound=
+Sound=sndOgre1
 Resources=2 iCutOfRawRibs
 FoodType=tRawMeat,tMeat
 MaxFood=35
@@ -194,10 +182,7 @@ Karma=-15000
 Alignment=Evil
 
 DamPhysical=30
-DamFire=0
 DamCold=70
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=45,55
 ResFire=-10,0
@@ -226,7 +211,7 @@ Can=CanWalk|CanUseHands|CanMale
 MoveRate=100
 Dam=7,17
 Icon=iEttinIcon
-Sound=
+Sound=sndEttin1
 Resources=4 iCutOfRawRibs
 FoodType=tRawMeat,tMeat
 MaxFood=35
@@ -248,10 +233,6 @@ Karma=-3000
 Alignment=Evil
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=35,40
 ResFire=15,25
@@ -280,7 +261,7 @@ Can=CanWalk|CanUseHands|CanMale
 MoveRate=100
 Dam=7,17
 Icon=iEttinIcon
-Sound=
+Sound=sndEttin1
 Resources=4 iCutOfRawRibs
 FoodType=tRawMeat,tMeat
 MaxFood=35
@@ -302,10 +283,6 @@ Karma=-3000
 Alignment=Evil
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=35,40
 ResFire=15,25
@@ -334,7 +311,7 @@ Can=CanWalk|CanUseHands|CanMale
 MoveRate=100
 Dam=8,14
 Icon=iTrollIcon
-Sound=
+Sound=sndTroll1
 Resources=2 iCutOfRawRibs
 FoodType=tRawMeat,tMeat
 MaxFood=35
@@ -357,10 +334,6 @@ Karma=-3500
 Alignment=Evil
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=35,45
 ResFire=25,35
@@ -389,7 +362,7 @@ Can=CanWalk|CanUseHands|CanMale
 MoveRate=100
 Dam=8,14
 Icon=iTrollIcon
-Sound=
+Sound=sndTroll1
 Resources=2 iCutOfRawRibs
 FoodType=tRawMeat,tMeat
 MaxFood=35
@@ -412,10 +385,6 @@ Karma=-3500
 Alignment=Evil
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=35,45
 ResFire=25,35
@@ -444,7 +413,7 @@ Can=CanWalk|CanUseHands|CanMale
 MoveRate=100
 Dam=14,20
 Icon=iTrollIcon
-Sound=
+Sound=sndTroll1
 Resources=2 iCutOfRawRibs
 FoodType=tRawMeat,tMeat
 MaxFood=35
@@ -467,10 +436,7 @@ Karma=-4000
 Alignment=Evil
 
 DamPhysical=75
-DamFire=0
 DamCold=25
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=45,55
 ResFire=0
@@ -499,7 +465,7 @@ Can=CanWalk|CanUseHands|CanMale
 MoveRate=100
 Dam=7,23
 Icon=iCyclopeanWarriorIcon
-Sound=
+Sound=sndCyclops1
 Resources=4 iCutOfRawRibs
 FoodType=tRawMeat,tMeat
 MaxFood=35
@@ -521,10 +487,6 @@ Karma=-4500
 Alignment=Evil
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=45,50
 ResFire=30,40
@@ -553,7 +515,7 @@ Can=CanWalk|CanUseHands|CanMale
 MoveRate=100
 Dam=13,16
 Icon=iTitanIcon
-Sound=
+Sound=sndTitan1
 Resources=4 iCutOfRawRibs
 FoodType=tRawMeat,tMeat
 MaxFood=35
@@ -575,10 +537,6 @@ Karma=-11500
 Alignment=Evil
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=35,45
 ResFire=30,40

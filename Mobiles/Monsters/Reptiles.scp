@@ -5,7 +5,7 @@ Can=CanWalk|CanNonHuman
 MoveRate=100
 Dam=6,24
 Icon=iLavaLizardIcon
-Sound=
+Sound=sndLavaLizard1
 Resources=12 iPilesOfSpinedHides,1 iCutOfRawRibs
 FoodType=tIngot,tOre,tMetal
 MaxFood=35
@@ -28,10 +28,6 @@ Karma=-3000
 Alignment=Evil
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=35,45
 ResFire=30,45
@@ -62,7 +58,7 @@ Can=CanWalk|CanNonHuman
 MoveRate=100
 Dam=6,24
 Icon=iKomodoDragonIcon
-Sound=
+Sound=sndLavaLizard1
 Resources=12 iPilesOfSpinedHides,1 iCutOfRawRibs
 FoodType=tRawMeat,tMeat
 MaxFood=35
@@ -85,10 +81,6 @@ Karma=-3000
 Alignment=Evil
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=35,45
 ResFire=30,45
@@ -119,7 +111,7 @@ Can=CanWalk|CanNonHuman
 MoveRate=100
 Dam=7,17
 Icon=iKepetchIcon
-Sound=
+Sound=sndKepetch1
 Resources=14 iPilesOfHides,5 iCutOfRawRibs,6 iDragonsBlood2, 15 iFur
 FoodType=tMeat,tRawMeat
 MaxFood=35
@@ -142,10 +134,6 @@ Karma=-6000
 Alignment=Evil
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=55,65
 ResFire=40,45
@@ -175,7 +163,7 @@ Can=CanWalk|CanNonHuman
 MoveRate=100
 Dam=7,17
 Icon=iKepetchIcon
-Sound=
+Sound=sndKepetch1
 Resources=14 iPilesOfHides,5 iCutOfRawRibs,6 iDragonsBlood2, 15 iFur
 FoodType=tMeat,tRawMeat
 MaxFood=35
@@ -198,10 +186,6 @@ Karma=-6000
 Alignment=Evil
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=55,65
 ResFire=40,45
@@ -227,17 +211,8 @@ NewGold={100 200}
 [CharDef cKepetchAmbusher]
 ID=cKepetch1
 Name=kepetch ambusher
-Can=CanWalk|CanNonHuman
-MoveRate=100
 Dam=7,17
-Icon=iKepetchIcon
-Sound=
 Resources=14 iPilesOfHornedHides,5 iCutOfRawRibs,6 iDragonsBlood2, 15 iFur
-FoodType=tMeat,tRawMeat
-MaxFood=35
-Aversions=tTrap
-Desires=rJungle
-BloodColor=0
 TEvents=AIKepetchAmbusher
 
 Category=Monsters
@@ -254,10 +229,7 @@ Karma=-2500
 Alignment=Evil
 
 DamPhysical=80
-DamFire=0
-DamCold=0
 DamPoison=20
-DamEnergy=0
 
 ResPhysical=60,75
 ResFire=50,60
@@ -289,7 +261,7 @@ Can=CanWalk|CanNonHuman
 MoveRate=100
 Dam=6,24
 Icon=iSlithIcon
-Sound=
+Sound=sndSlith1
 Resources=12 iPilesOfHides,6 iCutOfRawRibs,6 iDragonsBlood2
 FoodType=tMetal,tOre,tIngot
 MaxFood=35
@@ -313,10 +285,6 @@ Karma=-3000
 Alignment=Evil
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=35,45
 ResFire=30,45
@@ -343,17 +311,10 @@ NewGold={100 200}
 [CharDef cStoneSlith]
 ID=cSlith
 Name=stone slith
-Can=CanWalk|CanNonHuman
-MoveRate=100
 Dam=6,24
-Icon=iSlithIcon
-Sound=
 Resources=12 iPilesOfSpinedHides,6 iCutOfRawRibs,6 iDragonsBlood2
 FoodType=tMetal,tOre,tIngot
 MaxFood=35
-Aversions=tTrap
-Desires=rJungle
-BloodColor=0
 TEvents=AIStoneSlith
 
 Category=Monsters
@@ -372,10 +333,6 @@ Karma=-4000
 Alignment=Evil
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=50,55
 ResFire=20,30
@@ -401,17 +358,8 @@ NewGold={200 300}
 [CharDef cToxicSlith]
 ID=cSlith
 Name=toxic slith
-Can=CanWalk|CanNonHuman
-MoveRate=100
 Dam=6,24
-Icon=iSlithIcon
-Sound=
 Resources=12 iPilesOfHornedHides,6 iCutOfRawRibs,6 iDragonsBlood2
-FoodType=tMetal,tOre,tIngot
-MaxFood=35
-Aversions=tTrap
-Desires=rJungle
-BloodColor=0
 TEvents=AIToxicSlith
 
 Category=Monsters
@@ -429,10 +377,6 @@ Karma=-7000
 Alignment=Evil
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=35,45
 ResFire=0,10

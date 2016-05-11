@@ -26,10 +26,6 @@ Karma=-2500
 Alignment=Evil
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=65,75
 ResFire=50,60
@@ -83,10 +79,7 @@ Karma=-11000
 Alignment=Evil
 
 DamPhysical=70
-DamFire=0
 DamCold=30
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=45,55
 ResFire=30,40
@@ -139,10 +132,6 @@ Karma=-6000
 Alignment=Evil
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=30,40
 ResFire=70,80
@@ -194,10 +183,6 @@ Karma=-6000
 Alignment=Evil
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=25,35
 ResFire=50,60
@@ -250,9 +235,7 @@ Karma=-7500
 Alignment=Evil
 
 DamPhysical=10
-DamFire=0
 DamCold=45
-DamPoison=0
 DamEnergy=45
 
 ResPhysical=50,70
@@ -417,10 +400,7 @@ Karma=-20000
 Alignment=Evil
 
 DamPhysical=70
-DamFire=0
 DamCold=30
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=55,65
 ResFire=45,55

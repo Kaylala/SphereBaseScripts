@@ -4,8 +4,8 @@ Name=harpy
 Can=CanNonHum|CanWalk|CanFly
 MoveRate=100
 Dam=5,7
-Icon=HarpyIcon
-Sound=
+Icon=iHarpyIcon
+Sound=sndHarpy1
 Resources=50 iFeather,4 iRawBird
 FoodType=tRawMeat
 MaxFood=35
@@ -26,10 +26,6 @@ Karma=-2500
 Alignment=Evil
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=25,30
 ResFire=10,20
@@ -42,10 +38,10 @@ ODex={86 110}
 OInt={51 75}
 MaxHits={58 72}
 
-Wrestling={601 900}
-Tactics={701 1000}
-MagicResistance={501 650}
-Parrying={701 1000}
+Wrestling={600 900}
+Tactics={700 1000}
+MagicResistance={500 650}
+Parrying={700 1000}
 
 On=@NPCRestock
 NewGold={100 150}
@@ -57,8 +53,8 @@ Name=stone harpy
 Can=CanNonHum|CanWalk|CanFly
 MoveRate=100
 Dam=8,16
-Icon=StoneHarpyIcon
-Sound=
+Icon=iStoneHarpyIcon
+Sound=sndHarpy1
 Resources=50 iFeather,4 iRawBird
 FoodType=tRawMeat
 MaxFood=35
@@ -79,10 +75,6 @@ Karma=-4500
 Alignment=Evil
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=45,55
 ResFire=20,30
@@ -135,9 +127,6 @@ Alignment=Evil
 
 DamPhysical=50
 DamFire=50
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=45,55
 ResFire=60,70
@@ -197,9 +186,6 @@ Alignment=Evil
 
 DamPhysical=40
 DamFire=60
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=45,55
 ResFire=70,80

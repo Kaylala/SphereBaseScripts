@@ -32,10 +32,6 @@ Karma=-3500
 Alignment=Evil
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=35,55
 ResFire=100
@@ -60,7 +56,7 @@ Name=exodus overseer
 Can=CanWalk|CanUseHands|CanNonHuman
 MoveRate=100
 Dam=13,19
-Icon=
+Icon=iExodusOversserIcon
 Sound=
 FoodType=0
 FoodMax=0
@@ -82,9 +78,6 @@ Karma=-10000
 Alignment=Evil
 
 DamPhysical=50
-DamFire=0
-DamCold=0
-DamPoison=0
 DamEnergy=50
 
 ResPhysical=45,55
@@ -113,7 +106,7 @@ Name=exodus minion
 Can=CanWalk|CanUseHands|CanNonHuman
 MoveRate=100
 Dam=16,22
-Icon=
+Icon=iExodusMinionIcon
 Sound=
 FoodType=0
 FoodMax=0
@@ -135,10 +128,6 @@ Karma=-18000
 Alignment=Evil
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=60,70
 ResFire=40,50
@@ -166,7 +155,7 @@ Name=exodus minion lord
 Can=CanWalk|CanUseHands|CanNonHuman
 MoveRate=100
 Dam=19,25
-Icon=
+Icon=iExodusMinionIcon
 Sound=
 FoodType=0
 FoodMax=0
@@ -188,9 +177,6 @@ Karma=-22000
 Alignment=Evil
 
 DamPhysical=60
-DamFire=0
-DamCold=0
-DamPoison=0
 DamEnergy=40
 
 ResPhysical=65,80
@@ -219,17 +205,7 @@ NewLoot=RandomExodusEncounterKey,1,R19
 [CharDef cExodusDrone]
 ID=cExodusOverseer
 Name=exodus drone
-Can=CanWalk|CanUseHands|CanNonHuman
-MoveRate=100
 Dam=13,19
-Icon=
-Sound=
-FoodType=0
-FoodMax=0
-Resources=0
-Aversions=tTrap
-Desires=tMagic,tMetal,tGem
-BloodColor=-1
 TEvents=AIExodusOverseer
 
 Category=Monsters
@@ -245,9 +221,6 @@ Karma=-10000
 Alignment=Evil
 
 DamPhysical=50
-DamFire=0
-DamCold=0
-DamPoison=0
 DamEnergy=50
 
 ResPhysical=45,55
@@ -276,17 +249,7 @@ NewLoot=RandomExodusEncounterKey,1,R19
 [CharDef cExodusSentinel]
 ID=cExodusMinion
 Name=exodus sentinel
-Can=CanWalk|CanUseHands|CanNonHuman
-MoveRate=100
 Dam=16,22
-Icon=
-Sound=
-FoodType=0
-FoodMax=0
-Resources=0
-Aversions=tTrap
-Desires=tMagic,tMetal,tGem
-BloodColor=-1
 TEvents=AIExodusMinion
 
 Category=Monsters
@@ -302,10 +265,6 @@ Karma=-18000
 Alignment=Evil
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=60,70
 ResFire=40,50
@@ -333,18 +292,7 @@ NewLoot=RandomExodusEncounterKey,1,R19
 [CharDef cExodusJuggernaut]
 ID=cGolem
 Name=exodus juggernaut
-Can=CanWalk|CanUseHands
-MoveRate=100
 Dam=19,25
-Armor=60,80
-Icon=iGolemIcon
-Sound=
-FoodType=0
-MaxFood=0
-Resources=0
-Aversions=tTrap
-Desires=tIngot
-BloodColor=-1
 TEvents=AIGolem
 
 Category=Monsters
@@ -360,9 +308,6 @@ Karma=-10000
 Alignment=Evil
 
 DamPhysical=60
-DamFire=0
-DamCold=0
-DamPoison=0
 DamEnergy=40
 
 ResPhysical=60,80
@@ -414,10 +359,6 @@ Karma=-15000
 Alignment=Evil
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=60,70
 ResFire=60,70
@@ -475,8 +416,6 @@ Alignment=Evil
 
 DamPhysical=50
 DamFire=25
-DamCold=0
-DamPoison=0
 DamEnergy=25
 
 ResPhysical=65,75
@@ -529,10 +468,7 @@ Karma=-2000
 Alignment=Evil
 
 DamPhysical=60
-DamFire=0
-DamCold=0
 DamPoison=40
-DamEnergy=0
 
 ResPhysical=75,85
 ResFire=25,35
@@ -586,10 +522,6 @@ Karma=-4500
 Alignment=Neutral
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=40,50
 ResFire=15,30
@@ -602,10 +534,10 @@ ODex={100 130}
 OInt={20 40}
 MaxHits={180 360}
 
-Wrestling={501 900}
-Tactics={501 900}
-MagicResistance={501 900}
-Parrying={501 900}
+Wrestling={500 900}
+Tactics={500 900}
+MagicResistance={500 900}
+Parrying={500 900}
 
 On=@NPCRestock
 NewGold={150 250}
@@ -642,8 +574,6 @@ Alignment=Neutral
 
 DamPhysical=40
 DamFire=40
-DamCold=0
-DamPoison=0
 DamEnergy=20
 
 ResPhysical=55,65
@@ -657,12 +587,12 @@ ODex={86 125}
 OInt={86 125}
 MaxHits={298 315}
 
-Wrestling={806 925}
-Tactics={976 1000}
-MagicResistance={851 1000}
-Parrying={976 1000}
-Magery={101 500}
-EvaluatingIntel={101 500}
+Wrestling={805 925}
+Tactics={975 1000}
+MagicResistance={850 1000}
+Parrying={975 1000}
+Magery={100 500}
+EvaluatingIntel={100 500}
 
 On=@NPCRestock
 NewGold={400 500}

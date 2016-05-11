@@ -30,10 +30,6 @@ Karma=-12000
 Alignment=Evil,Grey
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=65,85
 ResFire=30,50
@@ -90,6 +86,7 @@ NewItem=iExecutionersAxe,1
 NewItem=RandomProvision,1
 NewItem=RandomBonsaiSeed,1,R9
 
+
 [CharDef 253]
 DefName=cYomotsuPriest
 Name=yomotsu priest
@@ -120,10 +117,6 @@ Karma=-9000
 Alignment=Evil,Grey
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=65,85
 ResFire=30,50
@@ -176,6 +169,7 @@ NewItem=iExecutionersAxe,1
 NewItem=RandomProvision,1
 NewItem=RandomBonsaiSeed,1,<R9>
 
+
 [CharDef 245]
 DefName=cYomotsuwarrior
 Name=yomotsu warrior
@@ -206,10 +200,6 @@ Karma=-4200
 Alignment=Evil,Grey
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=65,85
 ResFire=30,50
@@ -265,3 +255,6 @@ NewItem=RandomGem,2
 NewItem=iExecutionersAxe,1
 NewItem=RandomProvision,1
 NewItem=RandomBonsaiSeed,1,<R9>
+
+
+[EOF]
