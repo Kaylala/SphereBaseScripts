@@ -1,0 +1,756 @@
+[ItemDef 01663]
+Category=Siege
+Subsection=Catapults
+Description=Catapult 01 (arm)
+Weight=41.2
+DupeList=01664,01665,01666
+ON=@DClick
+DISPID=01664
+UPDATE
+TIMERD=0.2
+RETURN 1
+ON=@Timer
+IF (<DISPIDDEC> < 01666)
+DISPID=<DISPIDDEC>+1
+TIMERD=0.2
+ELSE
+DISPID=01663
+SFX 43
+ENDIF
+UPDATE
+RETURN 1
+
+[ItemDef 01664]
+//catapult 01 (arm)
+DupeItem=01663
+
+[ItemDef 01665]
+//catapult 01 (arm)
+DupeItem=01663
+
+[ItemDef 01666]
+//catapult 01 (arm)
+DupeItem=01663
+
+
+[ItemDef 0168d]
+Category=Siege
+Subsection=Catapults
+Description=Catapult 02 (arm)
+Weight=41.2
+DupeList=0168e,0168f,01690
+ON=@DClick
+DISPID=0168e
+UPDATE
+TIMERD=1.5
+RETURN 1
+ON=@Timer
+DISPID=0168d
+UPDATE
+SFX 43
+RETURN 1
+
+[ItemDef 0168e]
+//catapult 02 swinging (self animated)
+DupeItem=0168d
+
+[ItemDef 0168f]
+//catapult 02 (arm)
+DupeItem=0168d
+
+[ItemDef 01690]
+//catapult 02 (arm)
+DupeItem=0168d
+
+
+[ItemDef 016b1]
+Category=Siege
+Subsection=Catapults
+Description=Catapult 03 (arm)
+Weight=41.2
+DupeList=016b2,016b3
+ON=@DClick
+DISPID=016b2
+UPDATE
+TIMERD=0.2
+RETURN 1
+ON=@Timer
+IF (<DISPIDDEC> < 016b3)
+DISPID=<DISPIDDEC>+1
+TIMERD=0.2
+ELSE
+DISPID=016b1
+SFX 43
+ENDIF
+UPDATE
+RETURN 1
+
+[ItemDef 016b2]
+//catapult 03 (arm)
+DupeItem=016b1
+
+[ItemDef 016b3]
+//catapult 03 (arm)
+DupeItem=016b1
+
+
+[ItemDef 016d6]
+Category=Siege
+Subsection=Catapults
+Description=Catapult 04 (arm)
+Weight=41.2
+DupeList=016d7,016d8
+ON=@DClick
+DISPID=016d7
+UPDATE
+TIMERD=0.2
+RETURN 1
+ON=@Timer
+IF (<DISPIDDEC> < 016d8)
+DISPID=<DISPIDDEC>+1
+TIMERD=0.2
+ELSE
+DISPID=016d6
+SFX 43
+ENDIF
+UPDATE
+RETURN 1
+
+[ItemDef 016d7]
+//catapult 04 (arm)
+DupeItem=016d6
+
+[ItemDef 016d8]
+//catapult 04 (arm)
+DupeItem=016d6
+
+
+[ItemDef 01648]
+DefName=iCatapult1
+RESOURCES=28 iBoard,5 iLog,2 iNails,1 i_ingotIron,2 i_rope
+Weight=40
+Category=Siege
+Subsection=Catapults
+Description=Catapult 01
+DupeList=01649,0164a,0164b,0164c,0164d,0164e,0164f,01650,01651,01652,01653,01654,01655,01656,01657,01658,01659,0165a,0165b,0165c,0165d,0165e,0165f,01660,01661,01662
+
+[ItemDef 01649]
+//catapult
+DupeItem=01648
+
+[ItemDef 0164a]
+//catapult
+DupeItem=01648
+
+[ItemDef 0164b]
+//catapult
+DupeItem=01648
+
+[ItemDef 0164c]
+//catapult
+DupeItem=01648
+
+[ItemDef 0164d]
+//catapult
+DupeItem=01648
+
+[ItemDef 0164e]
+//catapult
+DupeItem=01648
+
+[ItemDef 0164f]
+//catapult
+DupeItem=01648
+
+[ItemDef 01650]
+//catapult
+DupeItem=01648
+
+[ItemDef 01651]
+//catapult
+DupeItem=01648
+
+[ItemDef 01652]
+//catapult
+DupeItem=01648
+
+[ItemDef 01653]
+//catapult
+DupeItem=01648
+
+[ItemDef 01654]
+//catapult
+DupeItem=01648
+
+[ItemDef 01655]
+//catapult
+DupeItem=01648
+
+[ItemDef 01656]
+//catapult
+DupeItem=01648
+
+[ItemDef 01657]
+//catapult
+DupeItem=01648
+
+[ItemDef 01658]
+//catapult
+DupeItem=01648
+
+[ItemDef 01659]
+//catapult
+DupeItem=01648
+
+[ItemDef 0165a]
+//catapult
+DupeItem=01648
+
+[ItemDef 0165b]
+//catapult
+DupeItem=01648
+
+[ItemDef 0165c]
+//catapult
+DupeItem=01648
+
+[ItemDef 0165d]
+//catapult
+DupeItem=01648
+
+[ItemDef 0165e]
+//catapult
+DupeItem=01648
+
+[ItemDef 0165f]
+//catapult
+DupeItem=01648
+
+[ItemDef 01660]
+//catapult
+DupeItem=01648
+
+[ItemDef 01661]
+//catapult
+DupeItem=01648
+
+[ItemDef 01662]
+//catapult
+DupeItem=01648
+
+[ItemDef 01672]
+DefName=iCatapult2
+RESOURCES=28 iBoard,5 iLog,2 iNails,1 i_ingotIron,2 i_rope
+Weight=40
+Category=Siege
+Subsection=Catapults
+Description=Catapult 02
+DupeList=01673,01674,01675,01676,01677,01678,01679,0167a,0167b,0167c,0167d,0167e,0167f,01680,01681,01682,01683,01684,01685,01686,01687,01688,01689,0168a,0168b,0168c
+
+[ItemDef 01673]
+//catapult
+DupeItem=01672
+
+[ItemDef 01674]
+//catapult
+DupeItem=01672
+
+[ItemDef 01675]
+//catapult
+DupeItem=01672
+
+[ItemDef 01676]
+//catapult
+DupeItem=01672
+
+[ItemDef 01677]
+//catapult
+DupeItem=01672
+
+[ItemDef 01678]
+//catapult
+DupeItem=01672
+
+[ItemDef 01679]
+//catapult
+DupeItem=01672
+
+[ItemDef 0167a]
+//catapult
+DupeItem=01672
+
+[ItemDef 0167b]
+//catapult
+DupeItem=01672
+
+[ItemDef 0167c]
+//catapult
+DupeItem=01672
+
+[ItemDef 0167d]
+//catapult
+DupeItem=01672
+
+[ItemDef 0167e]
+//catapult
+DupeItem=01672
+
+[ItemDef 0167f]
+//catapult
+DupeItem=01672
+
+[ItemDef 01680]
+//catapult
+DupeItem=01672
+
+[ItemDef 01681]
+//catapult
+DupeItem=01672
+
+[ItemDef 01682]
+//catapult
+DupeItem=01672
+
+[ItemDef 01683]
+//catapult
+DupeItem=01672
+
+[ItemDef 01684]
+//catapult
+DupeItem=01672
+
+[ItemDef 01685]
+//catapult
+DupeItem=01672
+
+[ItemDef 01686]
+//catapult
+DupeItem=01672
+
+[ItemDef 01687]
+//catapult
+DupeItem=01672
+
+[ItemDef 01688]
+//catapult
+DupeItem=01672
+
+[ItemDef 01689]
+//catapult
+DupeItem=01672
+
+[ItemDef 0168a]
+//catapult
+DupeItem=01672
+
+[ItemDef 0168b]
+//catapult
+DupeItem=01672
+
+[ItemDef 0168c]
+//catapult
+DupeItem=01672
+
+[ItemDef 01694]
+DefName=iCatapult3
+RESOURCES=28 iBoard,5 iLog,2 iNails,1 i_ingotIron,2 i_rope
+Weight=40
+Category=Siege
+Subsection=Catapults
+Description=Catapult 03
+DupeList=01695,01696,01697,01698,01699,0169a,0169b,0169c,0169d,0169e,0169f,016a0,016a1,016a2,016a3,016a4,016a5,016a6,016a7,016a8,016a9,016aa,016ab,016ac,016ad,016ae,016af,016b0,016b4
+
+[ItemDef 01695]
+//catapult
+DupeItem=01694
+
+[ItemDef 01696]
+//catapult
+DupeItem=01694
+
+[ItemDef 01697]
+//catapult
+DupeItem=01694
+
+[ItemDef 01698]
+//catapult
+DupeItem=01694
+
+[ItemDef 01699]
+//catapult
+DupeItem=01694
+
+[ItemDef 0169a]
+//catapult
+DupeItem=01694
+
+[ItemDef 0169b]
+//catapult
+DupeItem=01694
+
+[ItemDef 0169c]
+//catapult
+DupeItem=01694
+
+[ItemDef 0169d]
+//catapult
+DupeItem=01694
+
+[ItemDef 0169e]
+//catapult
+DupeItem=01694
+
+[ItemDef 0169f]
+//catapult
+DupeItem=01694
+
+[ItemDef 016a0]
+//catapult
+DupeItem=01694
+
+[ItemDef 016a1]
+//catapult
+DupeItem=01694
+
+[ItemDef 016a2]
+//catapult
+DupeItem=01694
+
+[ItemDef 016a3]
+//catapult
+DupeItem=01694
+
+[ItemDef 016a4]
+//catapult
+DupeItem=01694
+
+[ItemDef 016a5]
+//catapult
+DupeItem=01694
+
+[ItemDef 016a6]
+//catapult
+DupeItem=01694
+
+[ItemDef 016a7]
+//catapult
+DupeItem=01694
+
+[ItemDef 016a8]
+//catapult
+DupeItem=01694
+
+[ItemDef 016a9]
+//catapult
+DupeItem=01694
+
+[ItemDef 016aa]
+//catapult
+DupeItem=01694
+
+[ItemDef 016ab]
+//catapult
+DupeItem=01694
+
+[ItemDef 016ac]
+//catapult
+DupeItem=01694
+
+[ItemDef 016ad]
+//catapult
+DupeItem=01694
+
+[ItemDef 016ae]
+//catapult
+DupeItem=01694
+
+[ItemDef 016af]
+//catapult
+DupeItem=01694
+
+[ItemDef 016b0]
+//catapult
+DupeItem=01694
+
+[ItemDef 016b4]
+//catapult
+DupeItem=01694
+
+[ItemDef 016b9]
+DefName=iCatapult4
+RESOURCES=28 iBoard,5 iLog,2 iNails,1 i_ingotIron,2 i_rope
+Weight=40
+Category=Siege
+Subsection=Catapults
+Description=Catapult 04
+DupeList=016ba,016bb,016bc,016bd,016be,016bf,016c0,016c1,016c2,016c3,016c4,016c5,016c6,016c7,016c8,016c9,016ca,016cb,016cc,016cd,016ce,016cf,016d0,016d1,016d2,016d3,016d4,016d5,016d9
+
+[ItemDef 016ba]
+//catapult
+DupeItem=016b9
+
+[ItemDef 016bb]
+//catapult
+DupeItem=016b9
+
+[ItemDef 016bc]
+//catapult
+DupeItem=016b9
+
+[ItemDef 016bd]
+//catapult
+DupeItem=016b9
+
+[ItemDef 016be]
+//catapult
+DupeItem=016b9
+
+[ItemDef 016bf]
+//catapult
+DupeItem=016b9
+
+[ItemDef 016c0]
+//catapult
+DupeItem=016b9
+
+[ItemDef 016c1]
+//catapult
+DupeItem=016b9
+
+[ItemDef 016c2]
+//catapult
+DupeItem=016b9
+
+[ItemDef 016c3]
+//catapult
+DupeItem=016b9
+
+[ItemDef 016c4]
+//catapult
+DupeItem=016b9
+
+[ItemDef 016c5]
+//catapult
+DupeItem=016b9
+
+[ItemDef 016c6]
+//catapult
+DupeItem=016b9
+
+[ItemDef 016c7]
+//catapult
+DupeItem=016b9
+
+[ItemDef 016c8]
+//catapult
+DupeItem=016b9
+
+[ItemDef 016c9]
+//catapult
+DupeItem=016b9
+
+[ItemDef 016ca]
+//catapult
+DupeItem=016b9
+
+[ItemDef 016cb]
+//catapult
+DupeItem=016b9
+
+[ItemDef 016cc]
+//catapult
+DupeItem=016b9
+
+[ItemDef 016cd]
+//catapult
+DupeItem=016b9
+
+[ItemDef 016ce]
+//catapult
+DupeItem=016b9
+
+[ItemDef 016cf]
+//catapult
+DupeItem=016b9
+
+[ItemDef 016d0]
+//catapult
+DupeItem=016b9
+
+[ItemDef 016d1]
+//catapult
+DupeItem=016b9
+
+[ItemDef 016d2]
+//catapult
+DupeItem=016b9
+
+[ItemDef 016d3]
+//catapult
+DupeItem=016b9
+
+[ItemDef 016d4]
+//catapult
+DupeItem=016b9
+
+[ItemDef 016d5]
+//catapult
+DupeItem=016b9
+
+[ItemDef 016d9]
+//catapult
+DupeItem=016b9
+
+
+[ItemDef 018f0]
+Category=Siege
+Subsection=Catapults
+Description=Animated Catapult Parts
+
+[ItemDef 018f1]
+Category=Siege
+Subsection=Catapults
+Description=Animated Catapult Parts
+
+[ItemDef 018f2]
+Category=Siege
+Subsection=Catapults
+Description=Animated Catapult Parts
+
+[ItemDef 018f3]
+Category=Siege
+Subsection=Catapults
+Description=Animated Catapult Parts
+
+[ItemDef 018f4]
+Category=Siege
+Subsection=Catapults
+Description=Animated Catapult Parts
+
+[ItemDef 018f5]
+Category=Siege
+Subsection=Catapults
+Description=Animated Catapult Parts
+
+[ItemDef 018f6]
+Category=Siege
+Subsection=Catapults
+Description=Animated Catapult Parts
+
+[ItemDef 018f7]
+Category=Siege
+Subsection=Catapults
+Description=Animated Catapult Parts
+
+[ItemDef 018f8]
+Category=Siege
+Subsection=Catapults
+Description=Animated Catapult Parts
+
+[ItemDef 018f9]
+Category=Siege
+Subsection=Catapults
+Description=Animated Catapult Parts
+
+[ItemDef 018fa]
+Category=Siege
+Subsection=Catapults
+Description=Animated Catapult Parts
+
+[ItemDef 018fb]
+Category=Siege
+Subsection=Catapults
+Description=Animated Catapult Parts
+
+[ItemDef 018fc]
+Category=Siege
+Subsection=Catapults
+Description=Animated Catapult Parts
+
+[ItemDef 018fd]
+Category=Siege
+Subsection=Catapults
+Description=Animated Catapult Parts
+
+[ItemDef 018fe]
+Category=Siege
+Subsection=Catapults
+Description=Animated Catapult Parts
+
+[ItemDef 018ff]
+Category=Siege
+Subsection=Catapults
+Description=Animated Catapult Parts
+
+[ItemDef 01900]
+Category=Siege
+Subsection=Catapults
+Description=Animated Catapult Parts
+
+[ItemDef 01901]
+Category=Siege
+Subsection=Catapults
+Description=Animated Catapult Parts
+
+[ItemDef 01902]
+Category=Siege
+Subsection=Catapults
+Description=Animated Catapult Parts
+
+[ItemDef 01903]
+Category=Siege
+Subsection=Catapults
+Description=Animated Catapult Parts
+
+[ItemDef 01904]
+Category=Siege
+Subsection=Catapults
+Description=Animated Catapult Parts
+
+[ItemDef 01905]
+Category=Siege
+Subsection=Catapults
+Description=Animated Catapult Parts
+
+[ItemDef 01906]
+Category=Siege
+Subsection=Catapults
+Description=Animated Catapult Parts
+
+[ItemDef 01907]
+Category=Siege
+Subsection=Catapults
+Description=Animated Catapult Parts
+
+[ItemDef 01908]
+Category=Siege
+Subsection=Catapults
+Description=Animated Catapult Parts
+
+[ItemDef 01909]
+Category=Siege
+Subsection=Catapults
+Description=Animated Catapult Parts
+
+[ItemDef 0190a]
+Category=Siege
+Subsection=Catapults
+Description=Animated Catapult Parts
+
+[ItemDef 0190b]
+Category=Siege
+Subsection=Catapults
+Description=Animated Catapult Parts
+
+[ItemDef 0190c]
+Category=Siege
+Subsection=Catapults
+Description=Animated Catapult Parts
+
+[ItemDef 0190d]
+Category=Siege
+Subsection=Catapults
+Description=Animated Catapult Parts
+
+
+[EOF]

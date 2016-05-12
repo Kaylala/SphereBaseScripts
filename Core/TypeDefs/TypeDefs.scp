@@ -1,6 +1,33 @@
 [TypeDef tChickenCoop]
 
 
+[TypeDef tPitcher]
+On=@TargOn_Item
+If (<BaseID> == iPitcherOfWater)
+ If (<ArgO.DispIDDec> == 099CA)
+  ArgO.DispID=09A14
+  Consume <I>
+  Serv.NewItem=iEmptyPitcher,1,<Src>
+  Return 1
+ ElIf (<ArgO.DispIDDec> == 099CB)
+  ArgO.DispID=09A15
+  Consume <I>
+  Serv.NewItem=iEmptyPitcher,1,<Src>
+  Return 1
+ ElIf (<ArgO.DispIDDec> == 09A16)
+  ArgO.DispID=09A18
+  Consume <I>
+  Serv.NewItem=iEmptyPitcher,1,<Src>
+  Return 1
+ ElIf (<ArgO.DispIDDec> == 09A17)
+  ArgO.DispID=09A19
+  Consume <I>
+  Serv.NewItem=iEmptyPitcher,1,<Src>
+  Return 1
+ EndIf
+EndIf
+
+
 [TypeDef tLitLight]
 On=@ClientTooltip
 NameCliLoc
@@ -33,7 +60,7 @@ Return 1
 
 [TypeDef tLitPumpkin]
 On=@DClick
-Src.AddCliLoc 1113988		// You extinguish the Jack-O-Lantern
+Src.SMsg @,,2 1113988		// You extinguish the Jack-O-Lantern
 Return 0
 
 On=@ClientTooltip
@@ -356,10 +383,9 @@ EndIf
 
 Local.Hair=<Cont.FindLayer.LayerHair.UID>
 If (<TData4>)
- Serv.NewItem <TData4>,1
+ Serv.NewItem <TData4>,1,<Cont.UID>,1
  New.More=1
  New.Color=<Cont.FindLayer.LayerHair.Color>
- New.Equip <Cont.UID>
  Remove <Local.Hair>
 ElIf !(<TData4>)
  Remove <Local.Hair>
@@ -385,10 +411,9 @@ EndIf
 
 Local.Hair=<Cont.FindLayer.LayerFacial.UID>
 If (<TData4>)
- Serv.NewItem <TData4>,1
+ Serv.NewItem <TData4>,1,<Cont.UID>,1
  New.More=1
  New.Color=<Cont.FindLayer.LayerFacial.Color>
- New.Equip <Cont.UID>
  Remove <Local.Hair>
 ElIf !(<TData4>)
  Remove <Local.Hair>

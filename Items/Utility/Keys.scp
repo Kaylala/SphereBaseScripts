@@ -1,0 +1,119 @@
+[Comment KeyRing]
+Poorly coded. One, they are not truly a container and don't even have a gump image.
+Second they are just not done properly. Will be looking into scripting a better version soon.
+
+
+[ItemDef 0100e]
+DefName=iCopperKey
+Name=copper key
+NameLoc=1024110
+Type=tKey
+Weight=1
+SkillMake=Tinkering 200
+Resources=3 iIngotIron
+
+Category=Utility
+Subsection=Keys
+Description=Copper Key
+
+
+[ItemDef 0100f]
+DefName=iGoldKey
+Name=gold key
+NameLoc=1024111
+Type=tKey
+Weight=1
+SkillMake=Tinkering 200
+Resources=3 iIngotIron
+
+Category=Utility
+Subsection=Keys
+Description=Gold Key
+
+
+[ItemDef 01010]
+DefName=iIronKey
+Name=iron key
+NameLoc=1024112
+Type=tKey
+Weight=1
+SkillMake=Tinkering 200
+Resources=3 iIronIngot
+Material=tIngot
+
+Category=Utility
+Subsection=Keys
+Description=Iron Key
+
+
+[ItemDef 01011]
+DefName=iKeyRing
+Name=key ring
+NameLoc=1024113
+Type=tKeyRing
+Can=CanIExceptional|CanIMakersMark|CanIRetainColor
+TData2=1
+Weight=1
+SkillMake=Tinkering 100
+Resources=2 iIronIngot
+Material=tIngot
+
+Category=Utility
+Subsection=Keys
+Description=Key Ring
+
+On=@Create
+Attr=AttrNewbie
+
+On=@DClick
+Src.Msg Drop keys on an empty key ring
+
+[ItemDef 01769]
+NameLoc=1025993
+
+Category=Utility
+Subsection=Keys
+Description=Key Ring
+
+[ItemDef 0176a]
+NameLoc=1025994
+
+Category=Utility
+Subsection=Keys
+Description=Key Ring
+
+[ItemDef 0176b]
+NameLoc=1025995
+
+Category=Utility
+Subsection=Keys
+Description=Key Ring
+
+
+[ItemDef 01012]
+DefName=iMagicKey
+Name=magic key
+NameLoc=1024114
+Type=tKey
+Weight=1
+
+Category=Utility
+Subsection=Keys
+Description=Magic Key
+
+ON=@Create
+ATTR=AttrMagic|AttrNewbie
+
+
+[ItemDef 01013]
+DefName=iRustyIronKey
+Name=rusty iron key
+NameLoc=1024115
+Type=tKey
+Weight=1
+
+Category=Utility
+Subsection=Keys
+Description=Rusty Iron Key
+
+

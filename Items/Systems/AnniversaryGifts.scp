@@ -489,4 +489,83 @@ NameLoc=1154459
 DupeItem=0996A
 
 
+//////////////////////
+// 17th Anniversary //
+//////////////////////
+
+
+[ItemDef 099C8]
+DefName=iMarbleBar1
+Name=marble bar
+NameLoc=1123392
+Type=tNormal
+Weight=5
+
+Category=Systems
+Subsection=Anniversary Gifts: 17th
+Description=Marble Bar 1
+
+
+[ItemDef 099C9]
+DefName=iMarbleBar2
+NameLoc=1123393
+Type=tContainer
+TData2=0104
+Weight=5
+
+Category=Systems
+Subsection=Anniversary Gifts: 17th
+Description=Marble Bar 2
+
+
+[ItemDef 099CA]
+DefName=iMarbleBar3
+Name=marble bar
+NameLoc=1123394
+Type=tNormal
+Weight=5
+DupeList=099CB,09A16,09A17
+
+Category=Systems
+Subsection=Anniversary Gifts: 17th
+Description=Marble Bar 3 (Empty)
+
+[ItemDef 099CB]
+NameLoc=1123395
+DupeItem=099CA
+
+[ItemDef 09A16]
+NameLoc=1123470
+DupeItem=099CA
+
+[ItemDef 09A17]
+NameLoc=1123471
+DupeItem=099CA
+
+
+[ItemDef 09A14]
+DefName=iMarbleBar4
+Name=marble bar
+NameLoc=1123468
+Type=tNormal
+Weight=5
+DupeList=09A15,09A18,09A19
+
+Category=Systems
+Subsection=Anniversary Gifts: 17th
+Description=Marble Bar 4 (Filled)
+
+[ItemDef 09A15]
+NameLoc=1123469
+DupeItem=09A14
+
+[ItemDef 09A18]
+NameLoc=1123472
+DupeItem=09A14
+
+[ItemDef 09A19]
+NameLoc=1123473
+DupeItem=09A14
+
+
 [EOF]

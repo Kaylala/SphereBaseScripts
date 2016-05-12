@@ -75,8 +75,7 @@ On=@DClick
 [TypeDef tVendingMachine]
 On=@DClick
 If (<Src.ResTest 10 i_Gold>)
- Serv.NewItem={ i_ham 1 i_fruit_apple 1 i_bread_loaf 1 i_bacon_slice 1 i_ribs_cooked 1 i_sausages 1 }
- New.Bounce   // put it in your pack.
+ Serv.NewItem={iHam 1 iApple 1 iBreadLoaf 1 iBaconSlice 1 iCutOfRibs 1 iSausages 1},1,<Src>
  Src.Consume=10 i_Gold
  Src.Msg That will be 10 Gold Thank Thee.
  Sound 0F7

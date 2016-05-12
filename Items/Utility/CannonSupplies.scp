@@ -310,6 +310,7 @@ Can=CanIFlip|CanIExceptional|CanIMakersMark
 Weight=1
 SkillMake=Tinkering 0
 Resources=4 iBoard,4 iCloth
+Material=tWood,tCloth
 DupeList=04249
 
 Category=Utility
@@ -360,24 +361,39 @@ Color=0963
 
 
 [ItemDef 04570]
-DefName=iMatch
+DefName=iMatch1
 Name=match
 NameLoc=1096648
 Type=tNormal
-Can=CanIStack
+Can=CanIStack|CanIStack|CanIMakersMark
 Weight=1
-SkillMake=Alchemy 250
-Resources=1 iBallOfYarn,1 iPitcherOfWater,1 iSaltpeter,1 iPotash
+SkillMake=Tinkering 150
+Resources=10 iMatchCord,4 iBoard
 Value=10
 DupeList=04571
 
 Category=Utility
 Subsection=Cannon Supplies
-Description=Match (Unused)
+Description=Match 1 (Unused)
 
 [ItemDef 04571]
 NameLoc=1096649
 DupeItem=04570
+
+
+[ItemDef iMatch2]
+ID=iTorch
+Name=match
+NameLoc=
+Type=tNormal
+Can=CanIStack|CanIStack|CanIMakersMark
+SkillMake=Tinkering 150
+Resources=10 iMatchCord,4 iBoard
+Value=10
+
+Category=Utility
+Subsection=Cannon Supplies
+Description=Match 2
 
 
 [ItemDef iMatchCord]
