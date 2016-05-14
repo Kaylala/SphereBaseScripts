@@ -1,4 +1,7 @@
 [Events eGlobalNPCBehavior]
+On=@Create
+BardingDifficulty
+
 On=@BardingEffect
 // ArgO = Character affected.
 // Src = Player using the bard skill.

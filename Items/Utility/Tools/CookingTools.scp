@@ -1,0 +1,47 @@
+[ItemDef 09A96]
+DefName=iSteamPoweredBeverageMaker
+Name=steam powered beverage maker
+NameLoc=1123598
+Type=tNormal
+Weight=1
+Value=100
+
+Category=Utility
+Subsection=Tools: Cooking
+Description=Steam Powered Beverage Maker
+
+
+[ItemDef 09A97]
+DefName=iGrinder
+Name=grinder
+NameLoc=1123599
+Type=tNormal
+Can=CanIFlip
+Weight=1
+Value=10
+DupeList=09A98
+
+Category=Utility
+Subsection=Tools: Cooking
+Description=Grinder
+
+On=@DClick
+Src.SMsgLoc -1,1155730	// What do you wish to grind?
+Target
+Return 1
+
+On=@TargOn_Item
+If (<ArgO.BaseID> != iCoffeePod1) || (<ArgO.BaseID> != iCoffeePod2)
+ Src.SMsgLoc -1,1155729	// That is not something that can be ground.
+Else
+ Serv.NewItem=iCoffeeGrounds,<ArgO.Amount>,<Src>
+ ArgO.Consume <ArgO.Amount>
+EndIf
+Return 1
+
+[ItemDef 09A98]
+NameLoc=1123600
+DupeItem=09A97
+
+
+[EOF]

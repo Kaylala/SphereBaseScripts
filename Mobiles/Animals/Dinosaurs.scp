@@ -5,23 +5,23 @@ Can=CanWalk|CanNonHuman
 MoveRate=100
 Dam=11,17
 Icon=iRaptorIcon
-Sound=0
+Sound=sndRaptor1
 Resources=10 iPilesOfHornedHides,7 iCutOfRawRibs,8 iDragonsBlood2
 FoodType=tFish
-MaxFood=35
 Aversions=rCivilization
 Desires=rJungle,tFish
 BloodColor=0
 TEvents=AIRaptor
 
 Category=Animals
-SubsectiOn=Dinosaurs
-DescriptiOn=Raptor
+Subsection=Dinosaurs
+Description=Raptor
 
 On=@Create
 NPC=BrainAnimal
 Loyalty=20
 FollowerSlots=2
+MaxFood=35
 Instincts=RaptorInstincts
 SlayerSuper=ReptileSlayer
 SlayerLesser=DinosaurSlayer
@@ -31,10 +31,6 @@ Karma=-7500
 Alignment=Evil
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=45,50
 ResFire=50,60
@@ -66,7 +62,7 @@ Can=CanWalk|CanNonHuman
 MoveRate=100
 Dam=18,21
 Icon=iDimetrosaurIcon
-Sound=0
+Sound=sndDragon1
 Resources=11 iPilesOfSpinedHides,1 iCutOfRawRibs
 FoodType=tFruit,tVegetable
 MaxFood=35
@@ -75,8 +71,8 @@ Desires=rJungle,tFruit,tVegetable
 BloodColor=0
 
 Category=Animals
-SubsectiOn=Dinosaurs
-DescriptiOn=Dimetrosaur
+Subsection=Dinosaurs
+Description=Dimetrosaur
 
 On=@Create
 NPC=BrainAnimal
@@ -87,14 +83,11 @@ Fame=17000
 Karma=-17000
 Alignment=Evil
 
-Ability1=s_Dismount
-Ability2=s_Mortal_Strike
+Ability1=sDismountSpell
+Ability2=sMortalStrikeSpell
 
 DamPhysical=90
-DamFire=0
-DamCold=0
 DamPoison=10
-DamEnergy=0
 
 ResPhysical=80,90
 ResFire=60,70
@@ -116,29 +109,22 @@ Parrying={1000 1200}
 On=@NPCRestock
 NewGold={1200 1400}
 
+
 // Dimetrosaur
 // Champion Spawn
 [CharDef cDimetrosaur1]
 ID=cDimetrosaur
 Name=dimetrosaur
-Can=CanWalk|CanNonHuman
-MoveRate=100
 Dam=18,21
-Icon=iDimetrosaurIcon
-Sound=0
-Resources=11 iPilesOfSpinedHides,1 iCutOfRawRibs
-FoodType=tFruit,tVegetable
-MaxFood=35
 Aversions=rCivilization
-Desires=tFruit,tVegetable,rJungle
-BloodColor=0
 
 Category=Animals
-SubsectiOn=Dinosaurs
-DescriptiOn=Dimetrosaur (Champion Spawn)
+Subsection=Dinosaurs
+Description=Dimetrosaur (Champion Spawn)
 
 On=@Create
 NPC=BrainAnimal
+MaxFood=35
 SlayerSuper=SlayerEodon
 SlayerLesser=SlayerDinosaur
 
@@ -146,14 +132,11 @@ Fame=8000
 Karma=-8000
 Alignment=Evil
 
-Ability1=s_Dismount
-Ability2=s_Mortal_Strike
+Ability1=sDismountSpell
+Ability2=sMortalStrikeSpell
 
 DamPhysical=90
-DamFire=0
-DamCold=0
 DamPoison=10
-DamEnergy=0
 
 ResPhysical=80,90
 ResFire=60,70
@@ -175,12 +158,13 @@ Parrying={1000 1200}
 On=@NPCRestock
 NewGold={600 700}
 
+
 // Dragon Turtle Hatchling
 // Dragon Turtle Egg
 [CharDef 050E]
 DefName=cDragonTurtleHatchling
 Name=dragon turtle hatchling
-Can=CanWalk|CanNonHuman
+Can=CanWalk|CanUseHands|CanNonHuman
 MoveRate=100
 Dam=24,33
 Icon=iDragonTurtleHatchlingIcon
@@ -192,28 +176,25 @@ Desires=tFish,rJungle
 BloodColor=0
 
 Category=Animals
-SubsectiOn=Dinosaurs: Herbivores
-DescriptiOn=Dragon Turtle Hatchling (Needs updating)
+Subsection=Dinosaurs: Herbivores
+Description=Dragon Turtle Hatchling (Needs updating)
 
 On=@Create
 NPC=BrainDragon
+FollowerSlots=5
+MaxFood=35
 SlayerSuper=EodonSlayer
 SlayerLesser=DinosaurSlayer
 BreathAnim=iFXExplode
 BreathType=3
-FollowerSlots=5
 
 Fame=22000
 Karma=-22000
 Alignment=Neutral
 
-Ability1=s_dismount
+Ability1=sDismountSpell
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=60,85
 ResFire=65,90
@@ -237,6 +218,7 @@ Taming=1047
 ItemNewbie=iSpellbook
 AddCircle=7,1
 
+
 // Allosaurus
 // Valley of Eodon
 [CharDef 050A]
@@ -249,17 +231,17 @@ Icon=iAllosaurusIcon
 Sound=sndDragon1
 Resources=0
 FoodType=tMeat
-MaxFood=35
 Aversions=rCivilization
 Desires=tMeat,rJungle
 BloodColor=0
 
 Category=Animals
-SubsectiOn=Dinosaurs
-DescriptiOn=Allosaurus
+Subsection=Dinosaurs
+Description=Allosaurus
 
 On=@Create
 NPC=BrainAnimal
+MaxFood=35
 SlayerSuper=EodonSlayer
 SlayerLesser=DinosaurSlayer
 
@@ -267,14 +249,11 @@ Fame=21000
 Karma=-21000
 Alignment=Evil
 
-Ability1=s_Disarm
-Ability2=s_ArmorPierce
+Ability1=sDisarmSpell
+Ability2=sArmorPierceSpell
 
 DamPhysical=50
-DamFire=0
-DamCold=0
 DamPoison=50
-DamEnergy=0
 
 ResPhysical=65,75
 ResFire=55,65
@@ -296,6 +275,7 @@ Parrying={1200 1500}
 On=@NPCRestock
 NewGold={1500 1800}
 
+
 // Allosaurus
 // Dragon Turtle Champion Spawn
 [CharDef cAllosaurus1]
@@ -307,18 +287,18 @@ Dam=21,23
 Icon=iAllosaurusIcon
 Sound=sndDragon1
 Resources=0
-FoodType=tMeat
-MaxFood=35
+FoodType=tMeat,tRawMeat
 Aversions=rCivilization
 Desires=tMeat,rJungle
 BloodColor=0
 
 Category=Animals
-SubsectiOn=Dinosaurs
-DescriptiOn=Allosaurus (Champion Spawn)
+Subsection=Dinosaurs
+Description=Allosaurus (Champion Spawn)
 
 On=@Create
 NPC=BrainAnimal
+MaxFood=35
 SlayerSuper=EodonSlayer
 SlayerLesser=DinosaurSlayer
 
@@ -326,14 +306,11 @@ Fame=10000
 Karma=-10000
 Alignment=Evil
 
-Ability1=s_Disarm
-Ability2=s_ArmorPierce
+Ability1=sDisarmSpell
+Ability2=sArmorPierceSpell
 
 DamPhysical=50
-DamFire=0
-DamCold=0
 DamPoison=50
-DamEnergy=0
 
 ResPhysical=65,75
 ResFire=55,65
@@ -355,6 +332,7 @@ Parrying={1200 1500}
 On=@NPCRestock
 NewGold={800 1000}
 
+
 // Gallusaurus
 // Northern Valley of Eodon
 [CharDef 0506]
@@ -367,30 +345,26 @@ Icon=iGallusaurusIcon
 Sound=sndDragon1
 Resources=3 iCutOfRawRibs
 FoodType=tMeat
-MaxFood=35
 Aversions=rCivilization
 Desires=tMeat,rJungle
 BloodColor=0
 
 Category=Animals
-SubsectiOn=Dinosaurs
-DescriptiOn=Gallusaurus
+Subsection=Dinosaurs
+Description=Gallusaurus
 
 On=@Create
 NPC=BrainAnimal
+MaxFood=35
 SlayerSuper=EodonSlayer
 SlayerLesser=DinosaurSlayer
 
 Fame=8100
 Karma=-8100
 
-Ability1=s_Grasping_Claw
+Ability1=sGraspingClawSpell
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=0,10
 ResFire=0,10
@@ -411,6 +385,7 @@ Parrying={800 1000}
 On=@NPCRestock
 NewGold={600 800}
 
+
 // Archaeosaurus
 // Northern Valley of Eodon
 [CharDef 0507]
@@ -423,17 +398,17 @@ Icon=iArchaeosarusIcon
 Sound=sndDragon1
 Resources=7 iPilesOfHides,1 iCutOfRawRibs
 FoodType=tMeat
-MaxFood=35
 Aversions=rCivilization
 Desires=tMeat,rJungle
 BloodColor=0
 
 Category=Animals
-SubsectiOn=Dinosaurs
-DescriptiOn=Arcahaeosaurus
+Subsection=Dinosaurs
+Description=Arcahaeosaurus
 
 On=@Create
 NPC=BrainAnimal
+MaxFood=35
 SlayerSuper=EodonSlayer
 SlayerLesser=DinosaurSlayer
 
@@ -441,14 +416,11 @@ Fame=8100
 Karma=-8100
 Alignment=Evil
 
-Ability1=s_talon_strike
-Ability2=s_bleed_attack
+Ability1=sTalonStrikeSpell
+Ability2=sBleedAttackSpell
 
-DamPhysical=0
 DamFire=50
-DamCold=0
 DamPoison=50
-DamEnergy=0
 
 ResPhysical=0,10
 ResFire=0,10
@@ -480,18 +452,18 @@ Dam=13,24
 Icon=iNajasaurusIcon
 Sound=sndGiantSerpent1
 Resources=0
-FoodType=tMeat
-MaxFood=35
+FoodType=tMeat,tRawMeat
 Aversions=rCivilization
 Desires=tMeat,rJungle
 BloodColor=0
 
 Category=Animals
-SubsectiOn=Dinosaurs
-DescriptiOn=Najasaurus
+Subsection=Dinosaurs
+Description=Najasaurus
 
 On=@Create
 NPC=BrainAnimal
+MaxFood=35
 SlayerSuper=EodonSlayer
 SlayerLesser=DinosaurSlayer
 
@@ -500,10 +472,7 @@ Karma=-10000
 Alignment=Evil
 
 DamPhysical=50
-DamFire=0
-DamCold=0
 DamPoison=50
-DamEnergy=0
 
 ResPhysical=45,55
 ResFire=50,60
@@ -525,6 +494,7 @@ Parrying={800 1000}
 On=@NPCRestock
 NewGold={600 800}
 
+
 // Saurosaurus
 // Northern Valley of Eodon
 [CharDef 050B]
@@ -536,18 +506,18 @@ Dam=21,28
 Icon=iSaurosaurusIcon
 Sound=sndDragon1
 Resources=11 iPilesOfHides,5 iCutOfRawRibs,8 iDragonsBlood2
-FoodType=tMeat
-MaxFood=35
+FoodType=tMeat,tRawMeat
 Aversions=rCivilization
-Desires=tMeat,rJungle
+Desires=tMeat,tRawMeat,rJungle
 BloodColor=0
 
 Category=Animals
-SubsectiOn=Dinosaurs
-DescriptiOn=Saurosaurus
+Subsection=Dinosaurs
+Description=Saurosaurus
 
 On=@Create
 NPC=BrainAnimal
+MaxFood=35
 SlayerSuper=EodonSlayer
 SlayerLesser=DinosaurSlayer
 
@@ -555,13 +525,9 @@ Fame=11000
 Karma=-11000
 Alignment=Evil
 
-Ability1=s_Mind_Blast
+Ability1=sMindBlastSpell
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=75,85
 ResFire=80,90
@@ -583,6 +549,7 @@ Parrying={1100 1300}
 On=@NPCRestock
 NewGold={600 800}
 
+
 // Anchisaur
 // Northern Valley of Eodon
 [CharDef 050C]
@@ -594,17 +561,18 @@ Dam=16,19
 Icon=iAnchisaurIcon
 Sound=sndDragon1
 Resources=11 iPilesOfHides,6 iCutOfRawRibs, 6 iDragonsBlood2
-FoodType=tMeat
+FoodType=tMeat,tRawMeat
 Aversions=rCivilization
-Desires=tMeat,rJungle
+Desires=tMeat,tRawMeat,rJungle
 BloodColor=0
 
 Category=Monsters
-SubsectiOn=Dinosaurs
-DescriptiOn=Anchisaurus
+Subsection=Dinosaurs
+Description=Anchisaurus
 
 On=@Create
 NPC=BrainAnimal
+MaxFood=35
 SlayerSuper=EodonSlayer
 SlayerLesser=DinosaurSlayer
 
@@ -613,10 +581,6 @@ Karma=-8000
 Alignment=Evil
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=0,10
 ResFire=0,10
@@ -638,6 +602,7 @@ Parrying={950 1250}
 On=@NPCRestock
 NewGold={600 700}
 
+
 // Tyrannosaurus Rex
 [CharDef 051E]
 DefName=cTyrannosaurusRex
@@ -649,17 +614,17 @@ Icon=iAllosaurusIcon
 Sound=sndDragon1
 Resources=4 iCutOfRawRibs,20 iPilesOfHornedHides
 FoodType=tMeat
-MaxFood=35
 Aversions=rCivilization
 Desires=tMeat,rJungle
 BloodColor=0
 
 Category=Monsters
-SubsectiOn=Dinosaurs
-DescriptiOn=Tyrannosaurus Rex
+Subsection=Dinosaurs
+Description=Tyrannosaurus Rex
 
 On=@Create
 NPC=BrainAnimal
+MaxFood=35
 SlayerSuper=EodonSlayer
 SlayerLesser=DinosaurSlayer
 
@@ -667,14 +632,10 @@ Fame=24000
 Karma=-24000
 Alignment=Evil
 
-Ability1=s_ArmorPierce
-Ability2=s_Crushing_Blow
+Ability1=sArmorPierceSpell
+Ability2=sCrushingBlowSpell
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=65,75
 ResFire=55,65

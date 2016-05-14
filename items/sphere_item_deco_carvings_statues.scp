@@ -1,14 +1,3 @@
-[ItemDef 01223]
-DefName=iPedestalMarble
-Name=large marble pedestal
-VALUE=75
-Weight=150.0
-RESOURCES=15 iRockMarble
-SKILLMAKE=Carpentry 10.0,tMasonryTool
-Category=Decoration - Wall Carvings & Statues
-Subsection=Statues
-Description=Large Pedestal
-
 [ItemDef 01224]
 DefName=iStatue1
 Name=statue
@@ -234,16 +223,7 @@ Category=Decoration - Wall Carvings & Statues
 Subsection=Statues
 Description=Multifaced Bust
 
-[ItemDef 01f2a]
-DefName=iPedestal
-Name=small marble pedestal
-VALUE=55
-Weight=100.0
-RESOURCES=10 iRockMarble
-SKILLMAKE=Carpentry 10.0,tMasonryTool
-Category=Decoration - Wall Carvings & Statues
-Subsection=Pedestals
-Description=Small Pedestal
+
 
 
 [ItemDef 0207c]
@@ -403,22 +383,6 @@ Subsection=Statues
 Description=Decorative Acorn
 
 
-[ItemDef 02fd4]
-DefName=iPedestalCrystal
-Weight=130.0
-RESOURCES=1 iCrystal5,1 iPedestalCrystalEmpty
-Category=Decoration - Wall Carvings & Statues
-Subsection=Statues
-Description=Pedestal 2 (Crystal)
-
-[ItemDef 02fd5]
-DefName=iPedestalCrystalEmpty
-Weight=120.0
-RESOURCES=12 iRockPlain
-Category=Decoration - Wall Carvings & Statues
-Subsection=Statues
-Description=Pedestal 2
-
 
 [ItemDef 02ff6]
 DefName=iStatueStoneContribution
@@ -536,18 +500,6 @@ RESOURCES=25 iRockPlain
 Category=Decoration - Wall Carvings & Statues
 Subsection=Unfinished
 Description=Statue Block
-
-
-[ItemDef 032f2]
-DefName=iStatuePlinth
-Name=statue plinth
-VALUE=75
-Weight=150.0
-RESOURCES=15 iRockPlain
-SKILLMAKE=Carpentry 10.0,tMasonryTool
-Category=Decoration - Wall Carvings & Statues
-Subsection=Pedestals
-Description=Statue Plinth
 
 
 [ItemDef 035e9]

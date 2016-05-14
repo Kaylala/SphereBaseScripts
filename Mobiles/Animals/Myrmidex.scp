@@ -4,17 +4,9 @@
 [CharDef cMyrmidexDrone]
 ID=cTerathanDrone
 Name=myrmidex drone
-Can=CanWalk
-MoveRate=100
 Dam=6,12
-Icon=iTerathanDroneIcon
-Sound=sndTerathanDrone1
 Resources=4 iCutOfRawRibs
-FoodType=tRawMeat
-MaxFood=35
 Aversions=rCivilization
-Desires=tRawMeat,rJungle
-BloodColor=0
 
 Category=Animals
 SubsectiOn=Myrmidex
@@ -23,6 +15,7 @@ DescriptiOn=Myrmidex Drone (Needs Hue/Fame/Karma)
 On=@Create
 NPC=BrainAnimal
 Color=0
+MaxFood=35
 SlayerSuper=EodonSlayer
 SlayerLesser=MyrmidexSlayer
 
@@ -30,13 +23,8 @@ Fame=
 Karma=
 Alignment=Evil
 
-Ability1=
-
 DamPhysical=50
-DamFire=0
-DamCold=0
 DamPoison=50
-DamEnergy=0
 
 ResPhysical=0,10
 ResFire=0,10
@@ -72,7 +60,6 @@ Icon=iMyrmidexLarvaeIcon
 Sound=sndAcidSlug1
 Resources=0
 FoodType=tRawMeat
-MaxFood=35
 Aversions=0
 Desires=0
 BloodColor=0
@@ -84,6 +71,7 @@ DescriptiOn=Myrmidex Larvae (Needs Hue/Fame/Karma)
 
 On=@Create
 NPC=BrainAnimal
+MaxFood=35
 SlayerSuper=EodonSlayer
 SlayerLesser=MyrmidexSlayer
 
@@ -94,16 +82,10 @@ Alignment=Evil
 Ability1=
 
 DamPhysical=50
-DamFire=0
-DamCold=0
 DamPoison=50
-DamEnergy=0
 
 ResPhysical=0,10
-ResFire=0
-ResCold=0
 ResPoison=50
-ResEnergy=0
 
 OStr={75 100}
 ODex={80 95}

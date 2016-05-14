@@ -1,3 +1,16 @@
+// Recharge=<Val>,<Time>
+// Value of 1 is only 1 recharge per call. Value of 2 is a total recharge on call.
+[Function Recharge]
+If (<Recharge.ArgV0> == 1)
+ UsesCur ++
+Else
+ UseCur=<UsesMax>
+EndIf
+If (<UsesCur> != <UsesMax>)
+ TimerF <Recharge.ArgV1>,Recharge
+EndIf
+
+
 // For new CanIRegen* flags (CanIRegenHits, CanIRegenStam, CanIRegenMana)
 [Function IsMedable]
 Return <Qval ((<Can> &CanIRegenMana) || (<Medable>)) ? 1 : 0>

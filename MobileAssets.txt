@@ -1,9 +1,9 @@
 Diabolical Seaweed
 Djin
-Ice Wyrm
+#Ice Wyrm
 Master Instructor
 Mercutio
-Obsidian Wyvern
+#Obsidian Wyvern
 Orciish Engineer
 Paralithode
 Rock Mite
@@ -18,8 +18,8 @@ Acid Slug
 #Agapite Elemental
 #Air Elemental
 #Air Elemental (Shame)
-#Ancient Lich
-Ancient Wyrm
+Ancient Lich
+#Ancient Wyrm
 Angered Spirit
 Anlorlem
 Anlorvaglem
@@ -85,18 +85,18 @@ Clan Ribbon Plague Rat
 Clan Ribbon Supplicant
 Clay Golem
 #Clockwork Scorpion
-Cold Drake
+#Cold Drake
 Controller
 #Copper Elemental
 Corporeal Brume
 Corpser
 Corrosive Slime
 Corrupted Mage
-Corrupted Wyvern
+#Corrupted Wyvern
 Covetous Revenant
-Covetous Wyrm
+#Covetous Wyrm
 Crazed
-Crimson Dragon
+#Crimson Dragon
 Crystal Daemon
 #Crystal Elemental
 #Crystal Hydra
@@ -124,8 +124,8 @@ Diseased Lich
 Divine Guardian
 Doppleganger
 Doppleganger (Covetous)
-Dragon
-Drake
+#Dragon
+#Drake
 Dread Spider
 Dread War Horse
 #Dream Wraith
@@ -163,7 +163,7 @@ Executioner
 #Exodus Sentinel
 Exodus Zealot
 Fairy
-Fairy Dragon
+#Fairy Dragon
 Fan Dancer
 Feral Treefellow
 Fetid Essence
@@ -180,7 +180,7 @@ Fire Steed
 #Flesh Golem
 Forest Nymph
 Forgotten Servant
-Frost Dragon
+#Frost Dragon
 Frost Ooze
 Frost Spider
 #Frost Troll
@@ -207,7 +207,7 @@ Grave Robber
 Gray Goblin
 Gray Goblin Keeper
 Gray Goblin Mage
-Greater Dragon
+#Greater Dragon
 #Greater Earth Elemental
 Greater Mongbat
 #Greater Poison Elemental
@@ -224,7 +224,7 @@ Hellcat (Large)
 Hellcat (Small)
 Hellion
 #Hellsteed
-Hiryu
+#Hiryu
 Horde Minion
 Hungry Ogre
 #Hydra
@@ -245,12 +245,12 @@ Korpre
 Ki-Rin
 Knight
 #Kraken
-Lady of the Snow
+#Lady of the Snow
 #Lava Elemental
 #Lava Lizard
 Lava Serpent
 #Leather Wolf
-Lesser Hiryu
+#Lesser Hiryu
 Lesser Oni
 #Leviathan
 #Lich
@@ -356,13 +356,13 @@ Scorpion
 #Sea Serpent
 Searing Elemental
 Seeker of Adventure
-Serpentine Dragon
+#Serpentine Dragon
 #Shade
 Shadow Dweller
 Shadow Fiend
 #Shadow Iron Elemental
 Shadow Wisp
-Shadow Wyrm
+#Shadow Wyrm
 Silenii
 Silver Serpent
 #Skeletal Dragon
@@ -431,7 +431,7 @@ Vanguard Controller
 Vasanord
 Venom Elemental
 #Verite Elemental
-Vicious Drake
+#Vicious Drake
 Vile Cadaver
 #Vollem
 Void Daemon
@@ -445,14 +445,14 @@ Water Elemental (Covetous)
 #Water Elemental (Shame)
 #Water Elemental (Summoned)
 Whipping Vine
-White Wyrm
+#White Wyrm
 #Wight
 #Wind Elemental
 #Wind Elemental Guardian
 Wisp
 Wolf Spider
 #Wraith
-Wyvern
+#Wyvern
 Yamandon
 #Yomotsu Elder
 #Yomotsu Priest

@@ -1,82 +1,258 @@
 [DefName Def_HTML]	// useful with htmlgumps
-L1					<
-R1					>
+L1								<
+R1								>
 
-B					<b>
-BE					</b>
-BIG					<big>
-BIGE				</big>
-SMALL				<small>
-SMALLE				</small>
-EM					<em>
-EME					</em>
-U					<u>
-UE					</u>
-I					<i>
-IE					</i>
-H1					<h1>
-H1E					</h1>
-H2					<h2>
-H2E					</h2>
-H3					<h3>
-H3E					</h3>
-H4					<h4>
-H4E					</h4>
-H5					<h5>
-H5E					</h5>
-H6					<h6>
-H6E					</h6>
-A					<a
-AE					</a>
-BR					<br>
-CENTER				<center>
-CENTERE				</center>
-DIV_LEFT			<div align="left">
-DIV_RIGHT			<div align="right">
-DIV_END				</div>
-// Test these two in Classic Client
-iFrame				<iFrame Scrolling="Yes">
-iFrameE				</iFrame>
+B								<b>
+BE								</b>
+Big								<big>
+BigE							</big>
+Small							<small>
+SmallE							</small>
+Strong							<strong>
+StrongE							</strong>
+Em								<em>
+EmE								</em>
+U								<u>
+UE								</u>
+I								<i>
+IE								</i>
+H1								<h1>
+H1E								</h1>
+H2								<h2>
+H2E								</h2>
+H3								<h3>
+H3E								</h3>
+H4								<h4>
+H4E								</h4>
+H5								<h5>
+H5E								</h5>
+H6								<h6>
+H6E								</h6>
+A								<a
+AE								</a>
+Br								<br>
+Center							<center>
+CenterE							</center>
+Div_Left						<div align="left">
+Div_Right						<div align="right">
+Div_End							</div>
 
-BFONT				<basefont
-BFONTE				</basefont>
-BFONT_SIZE1			<basefont size="1">
-BFONT_SIZE2			<basefont size="2">
-BFONT_SIZE3			<basefont size="3">
-BFONT_SIZE4			<basefont size="4">
-BFONT_SIZE5			<basefont size="5">
-BFONT_SIZE7			<basefont size="7">
+// Test these
+iFrame							<iframe Scrolling="Yes">
+iFrameE							</iframe>
+Div_Scroll						<div style="overflow:scroll"
+P								<p>
+PE								</p>
+HR								<hr>
 
-BFONT_BLACK			<basefont Color="#000008">
-BFONT_WHITE			<basefont Color="#ffffff">
-BFONT_LIME			<basefont Color="#00ff00">
-BFONT_LRED			<basefont Color="#ffcccc">
-BFONT_RED			<basefont Color="#ff0000">
-BFONT_DRED			<basefont Color="#8b0000">
-BFONT_LYELLOW		<basefont Color="#ffffc8">
-BFONT_YELLOW		<basefont Color="#ffff00">
-BFONT_DYELLOW		<basefont Color="#8b8b00">
-BFONT_LCYAN			<basefont Color="#e0ffff">
-BFONT_CYAN			<basefont Color="#00ffff">
-BFONT_DCYAN			<basefont Color="#008b8b">
-BFONT_LGRAY			<basefont Color="#d3d3d3">
-BFONT_GRAY			<basefont Color="#808080">
-BFONT_DGRAY			<basefont Color="#a9a9a9">
-BFONT_LGREEN		<basefont Color="#90ee90">
-BFONT_GREEN			<basefont Color="#008000">
-BFONT_DGREEN		<basefont Color="#006400">
-BFONT_LORANGE		<basefont Color="#ffc600">
-BFONT_ORANGE		<basefont Color="#ffa500">
-BFONT_DORANGE		<basefont Color="#ff8c00">
-BFONT_LBLUE			<basefont Color="#add8e6">
-BFONT_BLUE			<basefont Color="#0000ff">
-BFONT_DBLUE			<basefont Color="#00008b">
-BFONT_LSLATEBLUE	<basefont Color="#ceceff">
-BFONT_SLATEBLUE		<basefont Color="#8484ff">
-BFONT_DSLATEBLUE	<basefont Color="#483d8b">
-BFONT_LPURPLE		<basefont Color="#8968cd">
-BFONT_PURPLE		<basefont Color="#800080">
-BFONT_DPURPLE		<basefont Color="#551a8b">
+// Font code
+BFont							<basefont
+BFontE							</basefont>
+BFont_Size1						<basefont Size="1">
+BFont_Size2						<basefont Size="2">
+BFont_Size3						<basefont Size="3">
+BFont_Size4						<basefont Size="4">
+BFont_Size5						<basefont Size="5">
+BFont_Size6						<basefont Size="6">
+BFont_Size7						<basefont Size="7">
+
+BFont_Black						<basefont color="#000008">
+BFont_White						<basefont color="#ffffff">
+BFont_Lime						<basefont color="#00ff00">
+BFont_LRed						<basefont color="#ffcccc">
+BFont_Red						<basefont color="#ff0000">
+BFont_DRed						<basefont color="#8b0000">
+BFont_LYellow					<basefont color="#ffffc8">
+BFont_Yellow					<basefont color="#ffff00">
+BFont_DYellow					<basefont color="#8b8b00">
+BFont_LCyan						<basefont color="#e0ffff">
+BFont_Cyan						<basefont color="#00ffff">
+BFont_DCyan						<basefont color="#008b8b">
+BFont_LGray						<basefont color="#d3d3d3">
+BFont_Gray						<basefont color="#808080">
+BFont_DGray						<basefont color="#a9a9a9">
+BFont_LGreen					<basefont color="#90ee90">
+BFont_Green						<basefont color="#008000">
+BFont_DGreen					<basefont color="#006400">
+BFont_LOrange					<basefont color="#ffc600">
+BFont_Orange					<basefont color="#ffa500">
+BFont_DOrange					<basefont color="#ff8c00">
+BFont_LBlue						<basefont color="#add8e6">
+BFont_Blue						<basefont color="#0000ff">
+BFont_DBlue						<basefont color="#00008b">
+BFont_LSlateBlue				<basefont color="#ceceff">
+BFont_SlateBlue					<basefont color="#8484ff">
+BFont_DSlateBlue				<basefont color="#483d8b">
+BFont_LPurple					<basefont color="#8968cd">
+BFont_Purple					<basefont color="#800080">
+BFont_DPurple					<basefont color="#551a8b">
+
+// CSS Color Names (Web Compliant) 140 colors sorted by color grouping.
+//(W3_ W3 (www) naming so we don't overwrite the old sphere names.)
+// BFont_W3_Black Might and might not work. Depends on EA if they use the #000000 for black or translucent
+
+// Pink Colors
+BFont_W3_Pink					<basefont color="#FFC0CB">
+BFont_W3_LightPink				<basefont color="#FFB6C1">
+BFont_W3_HotPink				<basefont color="#FF69B4">
+BFont_W3_DeepPink				<basefont color="#FF1493">
+BFont_W3_PaleVioletRed			<basefont color="#DB7093">
+BFont_W3_MediumVioletRed		<basefont color="#C71585">
+
+//Purple Colors
+BFont_W3_Lavender				<basefont color="#E6E6FA">
+BFont_W3_Thistle				<basefont color="#D8BFD8">
+BFont_W3_Plum					<basefont color="#DDA0DD">
+BFont_W3_Orchid					<basefont color="#DA70D6">
+BFont_W3_Violet					<basefont color="#EE82EE">
+BFont_W3_Fuchsia				<basefont color="#FF00FF">
+BFont_W3_Magenta				<basefont color="#FF00FF">
+BFont_W3_MediumOrchid			<basefont color="#BA55D3">
+BFont_W3_DarkOrchid				<basefont color="#9932CC">
+BFont_W3_DarkViolet				<basefont color="#9400D3">
+BFont_W3_BlueViolet				<basefont color="#8A2BE2">
+BFont_W3_DarkMagenta			<basefont color="#8B008B">
+BFont_W3_Purple					<basefont color="#800080">
+BFont_W3_MediumPurple			<basefont color="#9370DB">
+BFont_W3_MediumSlateBlue		<basefont color="#7B68EE">
+BFont_W3_SlateBlue				<basefont color="#6A5ACD">
+BFont_W3_DarkSlateBlue			<basefont color="#483D8B">
+BFont_W3_RebeccaPurple			<basefont color="#663399">
+BFont_W3_Indigo 				<basefont color="#4B0082">
+
+// Red Colors
+BFont_W3_LightSalmon			<basefont color="#FFA07A">
+BFont_W3_Salmon					<basefont color="#FA8072">
+BFont_W3_DarkSalmon				<basefont color="#E9967A">
+BFont_W3_LightCoral				<basefont color="#F08080">
+BFont_W3_IndianRed 				<basefont color="#CD5C5C">
+BFont_W3_Crimson				<basefont color="#DC143C">
+BFont_W3_Red					<basefont color="#FF0000">
+BFont_W3_FireBrick				<basefont color="#B22222">
+BFont_W3_DarkRed				<basefont color="#8B0000">
+
+// Orange Colors
+BFont_W3_Orange					<basefont color="#FFA500">
+BFont_W3_DarkOrange				<basefont color="#FF8C00">
+BFont_W3_Coral					<basefont color="#FF7F50">
+BFont_W3_Tomato					<basefont color="#FF6347">
+BFont_W3_OrangeRed				<basefont color="#FF4500">
+
+// Yellow Colors
+BFont_W3_Gold					<basefont color="#FFD700">
+BFont_W3_Yellow					<basefont color="#FFFF00">
+BFont_W3_LightYellow			<basefont color="#FFFFE0">
+BFont_W3_LemonChiffon			<basefont color="#FFFACD">
+BFont_W3_LightGoldenRodYellow	<basefont color="#FAFAD2">
+BFont_W3_PapayaWhip				<basefont color="#FFEFD5">
+BFont_W3_Moccasin				<basefont color="#FFE4B5">
+BFont_W3_PeachPuff				<basefont color="#FFDAB9">
+BFont_W3_PaleGoldenRod			<basefont color="#EEE8AA">
+BFont_W3_Khaki					<basefont color="#F0E68C">
+BFont_W3_DarkKhaki				<basefont color="#BDB76B">
+
+// Green Colors
+BFont_W3_GreenYellow			<basefont color="#ADFF2F">
+BFont_W3_Chartreuse				<basefont color="#7FFF00">
+BFont_W3_LawnGreen				<basefont color="#7CFC00">
+BFont_W3_Lime					<basefont color="#00FF00">
+BFont_W3_LimeGreen				<basefont color="#32CD32">
+BFont_W3_PaleGreen				<basefont color="#98FB98">
+BFont_W3_LightGreen				<basefont color="#90EE90">
+BFont_W3_MediumSpringGreen		<basefont color="#00FA9A">
+BFont_W3_SpringGreen			<basefont color="#00FF7F">
+BFont_W3_MediumSeaGreen			<basefont color="#3CB371">
+BFont_W3_SeaGreen				<basefont color="#2E8B57">
+BFont_W3_ForestGreen			<basefont color="#228B22">
+BFont_W3_Green					<basefont color="#008000">
+BFont_W3_DarkGreen				<basefont color="#006400">
+BFont_W3_YellowGreen			<basefont color="#9ACD32">
+BFont_W3_OliveDrab				<basefont color="#6B8E23">
+BFont_W3_DarkOliveGreen			<basefont color="#556B2F">
+BFont_W3_MediumAquaMarine		<basefont color="#66CDAA">
+BFont_W3_DarkSeaGreen			<basefont color="#8FBC8F">
+BFont_W3_LightSeaGreen			<basefont color="#20B2AA">
+BFont_W3_DarkCyan				<basefont color="#008B8B">
+BFont_W3_Teal					<basefont color="#008080">
+
+// Cyan Colors
+BFont_W3_Aqua					<basefont color="#00FFFF">
+BFont_W3_Cyan					<basefont color="#00FFFF">
+BFont_W3_LightCyan				<basefont color="#E0FFFF">
+BFont_W3_PaleTurquoise			<basefont color="#AFEEEE">
+BFont_W3_Aquamarine				<basefont color="#7FFFD4">
+BFont_W3_Turquoise				<basefont color="#40E0D0">
+BFont_W3_MediumTurquoise		<basefont color="#48D1CC">
+BFont_W3_DarkTurquoise			<basefont color="#00CED1">
+
+// Blue Colors
+BFont_W3_CadetBlue				<basefont color="#5F9EA0">
+BFont_W3_SteelBlue				<basefont color="#4682B4">
+BFont_W3_LightSteelBlue			<basefont color="#B0C4DE">
+BFont_W3_LightBlue				<basefont color="#ADD8E6">
+BFont_W3_PowderBlue				<basefont color="#B0E0E6">
+BFont_W3_LightSkyBlue			<basefont color="#87CEFA">
+BFont_W3_SkyBlue				<basefont color="#87CEEB">
+BFont_W3_CornflowerBlue			<basefont color="#6495ED">
+BFont_W3_DeepSkyBlue			<basefont color="#00BFFF">
+BFont_W3_DodgerBlue				<basefont color="#1E90FF">
+BFont_W3_RoyalBlue				<basefont color="#4169E1">
+BFont_W3_Blue					<basefont color="#0000FF">
+BFont_W3_MediumBlue				<basefont color="#0000CD">
+BFont_W3_DarkBlue				<basefont color="#00008B">
+BFont_W3_Navy					<basefont color="#000080">
+BFont_W3_MidnightBlue			<basefont color="#191970">
+
+// Brown Colors
+BFont_W3_Cornsilk				<basefont color="#FFF8DC">
+BFont_W3_BlanchedAlmond			<basefont color="#FFEBCD">
+BFont_W3_Bisque					<basefont color="#FFE4C4">
+BFont_W3_NavajoWhite			<basefont color="#FFDEAD">
+BFont_W3_Wheat					<basefont color="#F5DEB3">
+BFont_W3_BurlyWood				<basefont color="#DEB887">
+BFont_W3_Tan					<basefont color="#D2B48C">
+BFont_W3_RosyBrown				<basefont color="#BC8F8F">
+BFont_W3_SandyBrown				<basefont color="#F4A460">
+BFont_W3_GoldenRod				<basefont color="#DAA520">
+BFont_W3_DarkGoldenRod			<basefont color="#B8860B">
+BFont_W3_Peru					<basefont color="#CD853F">
+BFont_W3_Chocolate				<basefont color="#D2691E">
+BFont_W3_Olive					<basefont color="#808000">
+BFont_W3_SaddleBrown			<basefont color="#8B4513">
+BFont_W3_Sienna					<basefont color="#A0522D">
+BFont_W3_Brown					<basefont color="#A52A2A">
+BFont_W3_Maroon					<basefont color="#800000">
+
+// White Colors
+BFont_W3_White					<basefont color="#FFFFFF">
+BFont_W3_Snow					<basefont color="#FFFAFA">
+BFont_W3_HoneyDew				<basefont color="#F0FFF0">
+BFont_W3_MintCream				<basefont color="#F5FFFA">
+BFont_W3_Azure					<basefont color="#F0FFFF">
+BFont_W3_AliceBlue				<basefont color="#F0F8FF">
+BFont_W3_GhostWhite				<basefont color="#F8F8FF">
+BFont_W3_WhiteSmoke				<basefont color="#F5F5F5">
+BFont_W3_SeaShell				<basefont color="#FFF5EE">
+BFont_W3_Beige					<basefont color="#F5F5DC">
+BFont_W3_OldLace				<basefont color="#FDF5E6">
+BFont_W3_FloralWhite			<basefont color="#FFFAF0">
+BFont_W3_Ivory					<basefont color="#FFFFF0">
+BFont_W3_AntiqueWhite			<basefont color="#FAEBD7">
+BFont_W3_BFont_W3_Linen			<basefont color="#FAF0E6">
+BFont_W3_LavenderBlush			<basefont color="#FFF0F5">
+BFont_W3_MistyRose				<basefont color="#FFE4E1">
+
+// Grey Colors
+BFont_W3_Gainsboro				<basefont color="#DCDCDC">
+BFont_W3_LightGray				<basefont color="#D3D3D3">
+BFont_W3_Silver					<basefont color="#C0C0C0">
+BFont_W3_DarkGray				<basefont color="#A9A9A9">
+BFont_W3_DimGray				<basefont color="#696969">
+BFont_W3_Gray					<basefont color="#808080">
+BFont_W3_LightSlateGray			<basefont color="#778899">
+BFont_W3_SlateGray				<basefont color="#708090">
+BFont_W3_DarkSlateGray			<basefont color="#2F4F4F">
+BFont_W3_Black					<basefont color="#000000">
 
 
 [EOF]

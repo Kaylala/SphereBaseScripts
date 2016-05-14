@@ -3,16 +3,9 @@
 [CharDef cSilverbackGorilla]
 ID=cGorilla
 Name=silverback gorilla
-Can=CanWalk|CanUseHands
-MoveRate=100
 Dam=5,10
-Icon=iSilverbackGorillaIcon
-Sound=0
 Resources=1 iCutOfRawRibs,7 iPileOfHides
-FoodType=tFruit,tVegetable
 Aversions=0
-Desires=0
-BloodColor=0
 
 Category=Animals
 SubsectiOn=Primates
@@ -20,6 +13,7 @@ DescriptiOn=Silverback Gorilla
 
 On=@Create
 NPC=BrainAnimal
+MaxFood=35
 SlayerSuper=EodonSlayer
 ThrowObj=iBanana
 ThrowRange=12
@@ -30,10 +24,6 @@ Karma=-450
 Alignment=Evil
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=20,25
 ResFire=10,15
@@ -71,7 +61,6 @@ Icon=iWildTigerIcon
 Sound=sndLion1
 Resources=4 iTigerPelt,2 iCutOfRawRibs
 FoodType=tRawMeat
-MaxFood=35
 Aversions=rCivilization
 Desires=rJungle,tRawMeat,tWater
 BloodColor=0
@@ -83,6 +72,7 @@ DescriptiOn=Wild Tiger
 On=@Create
 NPC=BrainAnimal
 FollowerSlots=2
+MaxFood=35
 SlayerSuper=EodonSlayer|FelineSlayer
 
 Fame=16000
@@ -92,10 +82,6 @@ Alignment=Evil
 Ability1=sBleedAttack
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=55,75
 ResFire=20,40
@@ -124,19 +110,11 @@ NewItem=RandomRareSeed5,1,R9
 // Wild White Tiger
 // Valley of Eodon, Dragon Turtle Spawn
 [CharDef cWildWhiteTiger]
-ID=cwild_tiger
+ID=cWildTiger
 Name=wild white tiger
-Can=CanWalk
-MoveRate=100
 Dam=18,24
-Icon=iWildTigerIcon
-Sound=sndLion1
 Resources=4 iWhiteTigerPelt,2 iCutOfRawRibs
-FoodType=tRawMeat
-MaxFood=35
 Aversions=rCivilization
-Desires=rJungle,tRawMeat,tWater
-BloodColor=0
 
 Category=Animals
 SubsectiOn=Felines: Tigers
@@ -146,6 +124,8 @@ On=@Create
 NPC=BrainAnimal
 Color=WhiteHue
 FollowerSlots=2
+MaxFood=35
+MaxFood=35
 SlayerSuper=EodonSlayer|FelineSlayer
 
 Fame=16000
@@ -155,10 +135,6 @@ Alignment=Evil
 Ability1=sBleedAttack
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=55,75
 ResFire=20,40
@@ -189,17 +165,9 @@ NewItem=RandomRareSeed5,1,R9
 [CharDef cWildBlackTiger]
 ID=cWildTiger
 Name=wild black tiger
-Can=CanWalk
-MoveRate=100
 Dam=18,24
-Icon=iWildTigerIcon
-Sound=sndLion1
-Resources=4 iWhiteTigerPelt,2 iCutOfRawRibs
-FoodType=tRawMeat
-MaxFood=35
+Resources=4 iBlackTigerPelt,2 iCutOfRawRibs
 Aversions=rCivilization
-Desires=rJungle,tRawMeat,tWater
-BloodColor=0
 
 Category=Animals
 SubsectiOn=Felines: Tigers
@@ -209,6 +177,7 @@ On=@Create
 NPC=BrainAnimal
 Color=ShadowIronHue
 FollowerSlots=2
+MaxFood=35
 SlayerSuper=EodonSlayer|FelineSlayer
 
 Fame=16000
@@ -218,10 +187,6 @@ Alignment=Evil
 Ability1=sBleedAttack
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=55,75
 ResFire=20,40
@@ -279,10 +244,6 @@ Alignment=Neutral
 Ability1=sBleedAttack
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=45,65
 ResFire=10,30

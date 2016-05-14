@@ -5,10 +5,9 @@ Can=CanWalk
 MoveRate=100
 Dam=5,17
 Icon=iGiantToadIcon
-Sound=
+Sound=sndGiantToad1
 Resources=12 iPilesOfSpinedHides,1 iCutOfRawRibs
 FoodType=tFish
-MaxFood=35
 Aversions=0
 Desires=tFish,rSwamp
 BloodColor=0
@@ -21,21 +20,16 @@ Description=Giant Toad
 On=@Create
 NPC=BrainAnimal
 FollowerSlots=1
+MaxFood=35
 
 Fame=750
 Karma=-750
 Alignment=Evil
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=20,25
 ResFire=5,10
-ResCold=0
-ResPoison=0
 ResEnergy=5,10
 
 OStr={76 100}
@@ -61,7 +55,7 @@ Can=CanWalk
 MoveRate=100
 Dam=1,2
 Icon=iBullfrogIcon
-Sound=
+Sound=sndBullfrog1
 Resources=4 iPilesOfHides,1 iCutOfRawRibs
 FoodType=tFish
 MaxFood=35
@@ -83,16 +77,8 @@ Karma=-350
 Alignment=Evil
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=5,10
-ResFire=0
-ResCold=0
-ResPoison=0
-ResEnergy=0
 
 OStr={46 70}
 ODex={6 25}
@@ -108,3 +94,6 @@ Taming=231
 
 On=@NPCRestock
 NewGold={25 50}
+
+
+[EOF]

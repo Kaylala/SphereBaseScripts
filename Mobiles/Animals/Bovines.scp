@@ -4,11 +4,10 @@ Name=cow
 Can=CanWalk
 MoveRate=100
 Dam=1,4
-Icon=CowIcon
-Sound=
+Icon=iCowIcon
+Sound=sndCow1
 Resources=12 iPileOfHides,8 iCutOfRawRibs
 FoodType=tFruit,tVegetable
-MaxFood=35
 Aversions=rDungeon
 Desires=tFruit,tVegetable,rFarm
 BloodColor=0
@@ -16,11 +15,12 @@ TEvents=AICow
 
 Category=Animals
 Subsection=Bovines
-Description=Cow
+Description=Cow 1
 
 On=@Create
 NPC=BrainAnimal
 FollowerSlots=1
+MaxFood=35
 SlayerSuper=BovineSlayer
 
 Fame=300
@@ -28,16 +28,8 @@ Karma=0
 Alignment=Neutral
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=5,15
-ResFire=0
-ResCold=0
-ResPoison=0
-ResEnergy=0
 
 OStr=30
 ODex=15
@@ -58,8 +50,8 @@ Name=cow
 Can=CanWalk
 MoveRate=100
 Dam=1,4
-Icon=CowIcon
-Sound=
+Icon=iCowIcon
+Sound=sndCow1
 Resources=12 iPileOfHides,8 iCutOfRawRibs
 FoodType=tFruit,tVegetable
 MaxFood=35
@@ -70,7 +62,7 @@ TEvents=AICow
 
 Category=Animals
 Subsection=Bovines
-Description=Cow
+Description=Cow 2
 
 On=@Create
 NPC=BrainAnimal
@@ -82,16 +74,8 @@ Karma=0
 Alignment=Neutral
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=5,15
-ResFire=0
-ResCold=0
-ResPoison=0
-ResEnergy=0
 
 OStr=30
 ODex=15
@@ -112,11 +96,10 @@ Name=bull
 Can=CanWalk
 MoveRate=100
 Dam=7,17
-Icon=BullIcon
-Sound=
+Icon=iBullIcon
+Sound=sndBull1
 Resources=15 iPileOfHides,10 iCutOfRawRibs
 FoodType=tGrain,tHay
-MaxFood=35
 Aversions=
 Desires=tGrain,tHay,rFarm
 BloodColor=0
@@ -129,6 +112,7 @@ Description=Bull
 On=@Create
 NPC=BrainAnimal
 FollowerSlots=1
+MaxFood=35
 SlayerSuper=BovineSlayer
 
 Fame=600
@@ -136,16 +120,9 @@ Karma=0
 Alignment=Neutral
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=25,35
-ResFire=0
 ResCold=10,15
-ResPoison=0
-ResEnergy=0
 
 OStr={77 111}
 ODex={56 75}
@@ -166,8 +143,8 @@ Name=bull
 Can=CanWalk
 MoveRate=100
 Dam=7,17
-Icon=BullIcon
-Sound=
+Icon=iBullIcon
+Sound=sndBull1
 Resources=15 iPileOfHides,10 iCutOfRawRibs
 FoodType=tGrain,tHay
 MaxFood=35
@@ -190,16 +167,9 @@ Karma=0
 Alignment=Neutral
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=25,35
-ResFire=0
 ResCold=10,15
-ResPoison=0
-ResEnergy=0
 
 OStr={77 111}
 ODex={56 75}
@@ -220,11 +190,10 @@ Name=gaman
 Can=CanWalk
 MoveRate=100
 Dam=13,23
-Icon=GamanIcon
-Sound=
+Icon=iGamanIcon
+Sound=sndGaman1
 Resources=15 iPileOfHides,10 iCutOfRawRibs
 FoodType=tGrain,tHay
-MaxFood=35
 Aversions=
 Desires=tGrain,tHay
 BloodColor=0
@@ -237,6 +206,7 @@ Description=Gaman
 On=@Create
 NPC=BrainAnimal
 FollowerSlots=1
+MaxFood=35
 SlayerSuper=BovineSlayer
 
 Fame=2000
@@ -244,10 +214,6 @@ Karma=-2000
 Alignment=Neutral
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=50,70
 ResFire=30,50

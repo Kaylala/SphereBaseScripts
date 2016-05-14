@@ -1,0 +1,60 @@
+[ItemDef 01223]
+DefName=iPedestal1
+Name=pedestal
+NameLoc=1024643		// pedestal
+Type=tNormal
+Weight=255
+
+Category=Decorations
+Subsection=Pedestals
+Description=Pedestal 1
+
+
+[ItemDef 01F2A]
+DefName=iPedestal2
+Name=pedestal
+NameLoc=1027978		// pedestal
+Weight=255
+
+Category=Decorations
+Subsection=Pedestals
+Description=Pedestal 2
+
+
+[ItemDef 02FD4]
+DefName=iPedestalWithCrystal1
+Name=pedestal with crystal
+NameLoc=1032244		// pedestal with crystal
+Type=tNormal
+Weight=255
+
+Category=Decorations
+Subsection=Pedestals
+Description=Pedestal with Crystal
+
+
+[ItemDef 02FD5]
+DefName=iPedestalWithCrystal2
+Name=pedestal with crystal
+NameLoc=1032245		// pedestal with crystal
+Type=tNormal
+Weight=255
+
+Category=Decorations
+Subsection=Pedestals
+Description=Pedestal with Crystal (Empty)
+
+
+[ItemDef 032f2]
+DefName=iPedestal3
+Name=pedestal
+NameLoc=1033042		// pedestal
+Type=tNormal
+Weight=255
+
+Category=Decorations
+Subsection=Pedestals
+Description=Pedestal 3
+
+
+[EOF]

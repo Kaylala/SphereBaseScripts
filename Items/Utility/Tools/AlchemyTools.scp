@@ -1,0 +1,17 @@
+// Alchemy Tool
+[ItemDef 0E9B]
+DefName=iMortarAndPestle
+Name=mortar and pestle
+NameLoc=1023739
+Type=tAlchemyTool
+Weight=1
+
+Category=Utility
+Subsection=Tools: Alchemy
+Description=Mortar and Pestle
+
+On=@Create
+UseCur={50 100}
+
+
+[EOF]

@@ -1,36 +1,57 @@
 [DefName Attr_flags]
 // apply to items
-AttrIdentified			000000001	// this is the identified name. ???
-AttrDecay				000000002	// timer currently set to decay.
-AttrNewbie				000000004	// not lost on death or sellable ?
-AttrAlwaysMove			000000008	// always movable (else default as stored in client) (even if mul says not movable) never decays !
-AttrNeverMove			000000010  	// never movable (else default as stored in client) never decays !
-AttrMagic				000000020  	// don't set this while worn! this item is magic as apposed to marked or markable.
-AttrOwned				000000040  	// this is owned by the town. you need to steal it. never decays !
-AttrInvisible			000000080  	// gray hidden item (to gm's or owners?)
-AttrCursed				000000100
-AttrDamned				000000200  	// cursed damned unholy
-AttrBlessed				000000400
-AttrSacred				000000800  	// blessed sacred holy
-AttrForSale				000001000  	// for sale on a vendor.
-AttrStolen				000002000  	// the item is hot. m_uidlink = previous owner.
-AttrCanDecay			000004000  	// Item can decay. but it would seem that it wont (AttrNeverMove etc)
-AttrStatic				000008000  	// worldforge merge marker. (not used)
-AttrExceptional			000010000	// is exceptional
-AttrEnhanced			000020000	// is enchanted
-AttrImbued				000040000	// is imbued
-AttrQuestItem			000080000	// is quest item
-AttrInsured				000100000	// Is insured
-AttrNoDrop				000200000	// no-drop
-AttrNoTrade				000400000	// no-trade
-AttrArtifact			000800000	// artifact
-AttrLockedDown			001000000	// locked down
-AttrSecured				002000000	// secured
-AttrReforged			004000000	// Is Runic Reforged.
-AttrLockedDown			008000000	// Locked Down House Item
-AttrShardBound			010000000	// Shard Bound item (Cannot be transferred)
-AttrAccountBound		020000000	// Account Bound Item
-AttrCharacterBound		040000000	// Character Bound Item
+AttrIdentified			01				// this is the identified name. ???
+AttrDecay				02				// timer currently set to decay.
+AttrNewbie				04				// not lost on death or sellable ?
+AttrAlwaysMove			08				// always movable (client default without) never decays and overridews mul
+AttrNeverMove			010  			// never movable (else default as stored in client) never decays !
+AttrMagic				020  			// don't set this while worn! Item is magic as apposed to marked/markable.
+AttrOwned				040  			// this is owned by the town. you need to steal it. never decays !
+AttrInvisible			080  			// gray hidden item (to gm's or owners?)
+AttrCursed				0100
+AttrDamned				0200  			// cursed damned unholy
+AttrBlessed				0400
+AttrSacred				0800  			// blessed sacred holy
+AttrForSale				01000  			// for sale on a vendor.
+AttrStolen				02000  			// the item is hot. m_uidlink = previous owner.
+AttrCanDecay			04000  			// Item can decay. but it would seem that it wont (AttrNeverMove etc)
+AttrStatic				08000  			// worldforge merge marker. (not used)
+AttrExceptional			010000			// is exceptional
+AttrEnhanced			020000			// is enchanted
+AttrImbued				040000			// is imbued
+AttrQuestItem			080000			// is quest item
+AttrInsured				0100000			// Is insured
+AttrNoDrop				0200000			// no-drop
+AttrNoTrade				0400000			// no-trade
+AttrArtifact			0800000			// artifact
+AttrLockedDown			01000000		// locked down
+AttrSecured				02000000		// secured
+AttrReforged			04000000		// Is Runic Reforged.
+AttrLockedDown			08000000		// Locked Down House Item
+AttrShardBound			010000000		// Shard Bound item (Cannot be transferred)
+AttrAccountBound		020000000		// Account Bound Item
+AttrCharacterBound		040000000		// Character Bound Item (for use with Owned by, or without)
+
+// Magic Property Attributes
+AttrBalanced			080000000		// Balanced iProp
+AttrBrittle				0100000000		// Brittle iProp
+AttrUseBestWeaponSkill	0200000000		// UBWS iProp
+AttrMageArmor			0400000000		// Mage Armor iProp
+AttrSpellChanneling		0800000000		// Spell Channeling iProp
+AttrBane				01000000000		// Bane iProp
+AttrBloodDrinker		02000000000		// Blood drinker iProp
+AttrBattleLust			04000000000		// Battle Lust iProp
+AttrManaPhasing			08000000000		// Mana Phasing
+AttrSearingWeapon		010000000000	// Searing iProp
+
+// Fishing Attributes.
+AttrLavaInfused			020000000000	// Lava infused
+AttrBarnacleCovered		040000000000	// Barnacle covered
+AttrShipwreckItem		080000000000	// Recovered from shipwreck
+
+// Faction
+AttrFactionItem			0100000000000	// Faction Item (Has cliloc)
+
 AttrEnchanted			AttrEnhanced
 
 

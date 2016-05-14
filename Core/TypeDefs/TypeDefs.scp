@@ -1,6 +1,18 @@
 [TypeDef tChickenCoop]
 
 
+[TypeDef tScroll]
+On=@ClientTooltip
+If (<Amount> > 1)
+ Src.AddCliloc 1060845,<NameLoc>	// ~1_val~ scrolls
+Else
+ Src.AddCliloc 1060844,<NameLoc>	// ~1_val~ scroll
+EndIf
+Src.AddCliloc 1116466,<Amount>		// amount: ~1_val~
+WeightCliloc
+Return 1
+
+
 [TypeDef tPitcher]
 On=@TargOn_Item
 If (<BaseID> == iPitcherOfWater)

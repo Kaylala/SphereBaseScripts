@@ -568,4 +568,77 @@ NameLoc=1123473
 DupeItem=09A14
 
 
+[ItemDef 09A0C]
+DefName=iBarSign
+Name=Bar
+NameLoc=1123460
+Type=tNormal
+Weight=1
+DupeList=09A10
+
+Category=Systems
+Subsection=Anniversary Gifts: 17th
+Description=Bar Sign
+
+On=@DClick
+If (<DispIDDec> == <BaseID>)
+ DispID=09A0C
+Else
+ DispID=<BaseID>
+EndIf
+
+[ItemDef 09A10]
+NameLoc=1123464
+DupeItem=09A0C
+
+On=@DClick
+If (<DispIDDec> == <BaseID>)
+ DispID=09A0C
+Else
+ DispID=<BaseID>
+EndIf
+
+[ItemDef 09A0D]
+NameLoc=1123461
+
+Category=Systems
+Subsection=Anniversary Gifts: 17th
+Description=Bar Sign (Anim Frame)
+
+[ItemDef 09A0E]
+NameLoc=1123462
+
+Category=Systems
+Subsection=Anniversary Gifts: 17th
+Description=Bar Sign (Anim Frame)
+
+[ItemDef 09A0F]
+NameLoc=1123463
+
+Category=Systems
+Subsection=Anniversary Gifts: 17th
+Description=Bar Sign (Anim Frame)
+
+[ItemDef 09A11]
+NameLoc=1123465
+
+Category=Systems
+Subsection=Anniversary Gifts: 17th
+Description=Bar Sign (Anim Frame)
+
+[ItemDef 09A12]
+NameLoc=1123466
+
+Category=Systems
+Subsection=Anniversary Gifts: 17th
+Description=Bar Sign (Anim Frame)
+
+[ItemDef 09A13]
+NameLoc=1123467
+
+Category=Systems
+Subsection=Anniversary Gifts: 17th
+Description=Bar Sign (Anim Frame)
+
+
 [EOF]

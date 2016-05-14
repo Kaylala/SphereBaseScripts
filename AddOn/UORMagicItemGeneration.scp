@@ -1,0 +1,327 @@
+[Function GenerateUORMagicItem]
+Local.1=<R<EVal ((<Karma>/2000) - 2)>,<EVal ((<Karma>/2000) + 2)>>	// amount
+If (<Local.1> <= 0)
+ Return 1
+EndIf
+For 1 <Local.1>
+ Serv.NewItem=<ArgS>
+ New.Attr |= AttrMagic
+ If (<New.IsWeapon>)	// weapon prop amount generation
+  If (<Fame> <= 6000)
+   Local.2={1 75 2 24 3 1}	// prop amount
+  ElIf (<Fame> <= 12000)
+   Local.2={1 69 2 29 3 2}	// prop amount
+  ElIf (<Fame> <= 18000)
+   Local.2={1 63 2 34 3 3}	// prop amount
+  ElIf (<Fame> <= 24000)
+   Local.2={1 57 2 39 3 4}	// prop amount
+  ElIf (<Fame> > 24000)
+   Local.2={1 51 2 44 3 5}	// prop amount
+  EndIf
+ ElIf (<New.IsArmor>)
+  If (<Fame> <= 6000)
+   Local.2={1 90 2 10}	// prop amount
+  ElIf (<Fame> <= 12000)
+   Local.2={1 85 2 15}	// prop amount
+  ElIf (<Fame> <= 18000)
+   Local.2={1 80 2 20}	// prop amount
+  ElIf (<Fame> <= 24000)
+   Local.2={1 75 2 25}	// prop amount
+  ElIf (<Fame> > 24000)
+   Local.2={1 70 2 30}	// prop amount
+  EndIf
+ EndIf
+ // Begin Setting props.
+
+ If (<New.IsWeapon>)	// weapon prop amount generation
+  If (<Fame> <= 6000)
+   If (<Local.2> == 1)
+    DoRand 3
+	 New.MagicAttr |= {MAttrRuin 65 MAttrMight 25 MAttrForce 7 MAttrPower 2 MAttrVanquishing 1}
+	 New.MagicAttr |= {MAttrDurable 65 MAttrSubstantial 25 MAttrMassive 7 MAttrFortified 2 MAttrIndestructible 1}
+	 New.MagicAttr |= MAttrAccurate 65 MAttrSurpassinglyAccurate 25 MAttrEminentlyAccurate 25 MAttrExceedinglyAccurate 2 MAttrSupremelyAccurate 1}
+	EndDo
+   ElIf (<Local.2> == 2)
+    DoRand 3
+	 Begin
+	  New.MagicAttr |= {MAttrRuin 65 MAttrMight 25 MAttrForce 7 MAttrPower 2 MAttrVanquishing 1}
+	  New.MagicAttr |= {MAttrDurable 65 MAttrSubstantial 25 MAttrMassive 7 MAttrFortified 2 MAttrIndestructible 1}
+	 End
+	 Begin
+	  New.MagicAttr |= {MAttrRuin 65 MAttrMight 25 MAttrForce 7 MAttrPower 2 MAttrVanquishing 1}
+	  New.MagicAttr |= MAttrAccurate 65 MAttrSurpassinglyAccurate 25 MAttrEminentlyAccurate 7 MAttrExceedinglyAccurate 2 MAttrSupremelyAccurate 1}
+	 End
+	 Begin
+	  New.MagicAttr |= {MAttrDurable 65 MAttrSubstantial 25 MAttrMassive 7 MAttrFortified 2 MAttrIndestructible 1}
+	  New.MagicAttr |= MAttrAccurate 65 MAttrSurpassinglyAccurate 25 MAttrEminentlyAccurate 7 MAttrExceedinglyAccurate 2 MAttrSupremelyAccurate 1}
+	 End
+	EndDo
+   ElIf (<Local.2> == 3)
+	New.MagicAttr |= {MAttrRuin 65 MAttrMight 25 MAttrForce 7 MAttrPower 2 MAttrVanquishing 1}
+	New.MagicAttr |= {MAttrDurable 65 MAttrSubstantial 25 MAttrMassive 7 MAttrFortified 2 MAttrIndestructible 1}
+	New.MagicAttr |= MAttrAccurate 65 MAttrSurpassinglyAccurate 25 MAttrEminentlyAccurate 7 MAttrExceedinglyAccurate 2 MAttrSupremelyAccurate 1}
+   EndIf
+  ElIf (<Fame> <= 12000)
+   If (<Local.2> == 1)
+    DoRand 3
+	 New.MagicAttr |= {MAttrRuin 51 MAttrMight 30 MAttrForce 11 MAttrPower 5 MAttrVanquishing 3}
+	 New.MagicAttr |= {MAttrDurable 51 MAttrSubstantial 30 MAttrMassive 11 MAttrFortified 5 MAttrIndestructible 3}
+	 New.MagicAttr |= MAttrAccurate 51 MAttrSurpassinglyAccurate 30 MAttrEminentlyAccurate 11 MAttrExceedinglyAccurate 5 MAttrSupremelyAccurate 3}
+	EndDo
+   ElIf (<Local.2> == 2)
+    DoRand 3
+	 Begin
+	  New.MagicAttr |= {MAttrRuin 51 MAttrMight 30 MAttrForce 11 MAttrPower 5 MAttrVanquishing 3}
+	  New.MagicAttr |= {MAttrDurable 51 MAttrSubstantial 30 MAttrMassive 11 MAttrFortified 5 MAttrIndestructible 3}
+	 End
+	 Begin
+	  New.MagicAttr |= {MAttrRuin 51 MAttrMight 30 MAttrForce 11 MAttrPower 5 MAttrVanquishing 3}
+	  New.MagicAttr |= MAttrAccurate 51 MAttrSurpassinglyAccurate 30 MAttrEminentlyAccurate 11 MAttrExceedinglyAccurate 5 MAttrSupremelyAccurate 3}
+	 End
+	 Begin
+	  New.MagicAttr |= {MAttrDurable 51 MAttrSubstantial 30 MAttrMassive 11 MAttrFortified 5 MAttrIndestructible 3}
+	  New.MagicAttr |= MAttrAccurate 51 MAttrSurpassinglyAccurate 30 MAttrEminentlyAccurate 11 MAttrExceedinglyAccurate 5 MAttrSupremelyAccurate 3}
+	 End
+	EndDo
+   ElIf (<Local.2> == 3)
+	New.MagicAttr |= {MAttrRuin 51 MAttrMight 30 MAttrForce 11 MAttrPower 5 MAttrVanquishing 3}
+	New.MagicAttr |= {MAttrDurable 51 MAttrSubstantial 30 MAttrMassive 11 MAttrFortified 5 MAttrIndestructible 3}
+	New.MagicAttr |= MAttrAccurate 51 MAttrSurpassinglyAccurate 30 MAttrEminentlyAccurate 11 MAttrExceedinglyAccurate 5 MAttrSupremelyAccurate 3}
+   EndIf
+  ElIf (<Fame> <= 18000)
+   If (<Local.2> == 1)
+    DoRand 3
+	 New.MagicAttr |= {MAttrRuin 37 MAttrMight 35 MAttrForce 15 MAttrPower 8 MAttrVanquishing 5}
+	 New.MagicAttr |= {MAttrDurable 37 MAttrSubstantial 35 MAttrMassive 15 MAttrFortified 8 MAttrIndestructible 5}
+	 New.MagicAttr |= MAttrAccurate 37 MAttrSurpassinglyAccurate 35 MAttrEminentlyAccurate 15 MAttrExceedinglyAccurate 8 MAttrSupremelyAccurate 5}
+	EndDo
+   ElIf (<Local.2> == 2)
+    DoRand 3
+	 Begin
+	  New.MagicAttr |= {MAttrRuin 37 MAttrMight 35 MAttrForce 15 MAttrPower 8 MAttrVanquishing 5}
+	  New.MagicAttr |= {MAttrDurable 37 MAttrSubstantial 35 MAttrMassive 15 MAttrFortified 8 MAttrIndestructible 5}
+	 End
+	 Begin
+	  New.MagicAttr |= {MAttrRuin 37 MAttrMight 35 MAttrForce 15 MAttrPower 8 MAttrVanquishing 5}
+	  New.MagicAttr |= MAttrAccurate 37 MAttrSurpassinglyAccurate 35 MAttrEminentlyAccurate 15 MAttrExceedinglyAccurate 8 MAttrSupremelyAccurate 5}
+	 End
+	 Begin
+	  New.MagicAttr |= {MAttrDurable 37 MAttrSubstantial 35 MAttrMassive 15 MAttrFortified 8 MAttrIndestructible 5}
+	  New.MagicAttr |= MAttrAccurate 37 MAttrSurpassinglyAccurate 35 MAttrEminentlyAccurate 15 MAttrExceedinglyAccurate 8 MAttrSupremelyAccurate 5}
+	 End
+	EndDo
+   ElIf (<Local.2> == 3)
+	New.MagicAttr |= {MAttrRuin 37 MAttrMight 35 MAttrForce 15 MAttrPower 8 MAttrVanquishing 5}
+	New.MagicAttr |= {MAttrDurable 37 MAttrSubstantial 35 MAttrMassive 15 MAttrFortified 8 MAttrIndestructible 5}
+	New.MagicAttr |= MAttrAccurate 37 MAttrSurpassinglyAccurate 35 MAttrEminentlyAccurate 15 MAttrExceedinglyAccurate 8 MAttrSupremelyAccurate 5}
+   EndIf
+  ElIf (<Fame> <= 24000)
+   If (<Local.2> == 1)
+    DoRand 3
+	 New.MagicAttr |= {MAttrRuin 23 MAttrMight 40 MAttrForce 19 MAttrPower 11 MAttrVanquishing 7}
+	 New.MagicAttr |= {MAttrDurable 23 MAttrSubstantial 40 MAttrMassive 19 MAttrFortified 11 MAttrIndestructible 7}
+	 New.MagicAttr |= MAttrAccurate 23 MAttrSurpassinglyAccurate 40 MAttrEminentlyAccurate 19 MAttrExceedinglyAccurate 11 MAttrSupremelyAccurate 7}
+	EndDo
+   ElIf (<Local.2> == 2)
+    DoRand 3
+	 Begin
+	  New.MagicAttr |= {MAttrRuin 23 MAttrMight 40 MAttrForce 19 MAttrPower 11 MAttrVanquishing 7}
+	  New.MagicAttr |= {MAttrDurable 23 MAttrSubstantial 40 MAttrMassive 19 MAttrFortified 11 MAttrIndestructible 7}
+	 End
+	 Begin
+	  New.MagicAttr |= {MAttrRuin 23 MAttrMight 40 MAttrForce 19 MAttrPower 11 MAttrVanquishing 7}
+	  New.MagicAttr |= MAttrAccurate 23 MAttrSurpassinglyAccurate 40 MAttrEminentlyAccurate 19 MAttrExceedinglyAccurate 11 MAttrSupremelyAccurate 7}
+	 End
+	 Begin
+	  New.MagicAttr |= {MAttrDurable 23 MAttrSubstantial 40 MAttrMassive 19 MAttrFortified 11 MAttrIndestructible 7}
+	  New.MagicAttr |= MAttrAccurate 23 MAttrSurpassinglyAccurate 40 MAttrEminentlyAccurate 19 MAttrExceedinglyAccurate 11 MAttrSupremelyAccurate 7}
+	 End
+	EndDo
+   ElIf (<Local.2> == 3)
+	New.MagicAttr |= {MAttrRuin 23 MAttrMight 40 MAttrForce 19 MAttrPower 11 MAttrVanquishing 7}
+	New.MagicAttr |= {MAttrDurable 23 MAttrSubstantial 40 MAttrMassive 19 MAttrFortified 11 MAttrIndestructible 7}
+	New.MagicAttr |= MAttrAccurate 23 MAttrSurpassinglyAccurate 40 MAttrEminentlyAccurate 19 MAttrExceedinglyAccurate 11 MAttrSupremelyAccurate 7}
+   EndIf
+  ElIf (<Fame> > 24000)
+   If (<Local.2> == 1)
+    DoRand 3
+	 New.MagicAttr |= {MAttrRuin 9 MAttrMight 45 MAttrForce 23 MAttrPower 14 MAttrVanquishing 9}
+	 New.MagicAttr |= {MAttrDurable 9 MAttrSubstantial 45 MAttrMassive 23 MAttrFortified 14 MAttrIndestructible 9}
+	 New.MagicAttr |= MAttrAccurate 9 MAttrSurpassinglyAccurate 45 MAttrEminentlyAccurate 23 MAttrExceedinglyAccurate 14 MAttrSupremelyAccurate 9}
+	EndDo
+   ElIf (<Local.2> == 2)
+    DoRand 3
+	 Begin
+	  New.MagicAttr |= {MAttrRuin 9 MAttrMight 45 MAttrForce 23 MAttrPower 14 MAttrVanquishing 9}
+	  New.MagicAttr |= {MAttrDurable 9 MAttrSubstantial 45 MAttrMassive 23 MAttrFortified 14 MAttrIndestructible 9}
+	 End
+	 Begin
+	  New.MagicAttr |= {MAttrRuin 9 MAttrMight 45 MAttrForce 23 MAttrPower 14 MAttrVanquishing 9}
+	  New.MagicAttr |= MAttrAccurate 9 MAttrSurpassinglyAccurate 45 MAttrEminentlyAccurate 23 MAttrExceedinglyAccurate 14 MAttrSupremelyAccurate 9}
+	 End
+	 Begin
+	  New.MagicAttr |= {MAttrDurable 9 MAttrSubstantial 45 MAttrMassive 23 MAttrFortified 14 MAttrIndestructible 9}
+	  New.MagicAttr |= MAttrAccurate 9 MAttrSurpassinglyAccurate 45 MAttrEminentlyAccurate 23 MAttrExceedinglyAccurate 14 MAttrSupremelyAccurate 9}
+	 End
+	EndDo
+   ElIf (<Local.2> == 3)
+	 New.MagicAttr |= {MAttrRuin 9 MAttrMight 45 MAttrForce 23 MAttrPower 14 MAttrVanquishing 9}
+	 New.MagicAttr |= {MAttrDurable 9 MAttrSubstantial 45 MAttrMassive 23 MAttrFortified 14 MAttrIndestructible 9}
+	 New.MagicAttr |= MAttrAccurate 9 MAttrSurpassinglyAccurate 45 MAttrEminentlyAccurate 23 MAttrExceedinglyAccurate 14 MAttrSupremelyAccurate 9}
+   EndIf
+  EndIf
+ ElIf (<New.IsArmor>)
+  If (<Fame> <= 6000)
+   If (<Local.2> == 1)
+    DoRand 2
+	 New.MagicAttr |= {MAttrDefense 65 MAttrGuarding 25 MAttrHardening 7 MAttrFortification 2 MAttrInvulnerability 1}
+	 New.MagicAttr |= {MAttrDurable 65 MAttrSubstantial 25 MAttrMassive 7 MAttrFortified 2 MAttrIndestructible 1}
+	EndDo
+   ElIf (<Local.2> == 2)
+	New.MagicAttr |= {MAttrDefense 65 MAttrGuarding 25 MAttrHardening 7 MAttrFortification 2 MAttrInvulnerability 1}
+	New.MagicAttr |= {MAttrDurable 65 MAttrSubstantial 25 MAttrMassive 7 MAttrFortified 2 MAttrIndestructible 1}
+   EndIf
+  ElIf (<Fame> <= 12000)
+   If (<Local.2> == 1)
+    DoRand 2
+	 New.MagicAttr |= {MAttrDefense 51 MAttrGuarding 30 MAttrHardening 11 MAttrFortification 5 MAttrInvulnerability 3}
+	 New.MagicAttr |= {MAttrDurable 51 MAttrSubstantial 30 MAttrMassive 11 MAttrFortified 5 MAttrIndestructible 3}
+	EndDo
+   ElIf (<Local.2> == 2)
+	New.MagicAttr |= {MAttrDefense 51 MAttrGuarding 30 MAttrHardening 11 MAttrFortification 5 MAttrInvulnerability 3}
+	New.MagicAttr |= {MAttrDurable 51 MAttrSubstantial 30 MAttrMassive 11 MAttrFortified 5 MAttrIndestructible 3}
+   EndIf
+  ElIf (<Fame> <= 18000)
+   If (<Local.2> == 1)
+    DoRand 2
+	 New.MagicAttr |= {MAttrDefense 37 MAttrGuarding 35 MAttrHardening 15 MAttrFortification 8 MAttrInvulnerability 5}
+	 New.MagicAttr |= {MAttrDurable 37 MAttrSubstantial 35 MAttrMassive 15 MAttrFortified 8 MAttrIndestructible 5}
+	EndDo
+   ElIf (<Local.2> == 2)
+	New.MagicAttr |= {MAttrDefense 37 MAttrGuarding 35 MAttrHardening 15 MAttrFortification 8 MAttrInvulnerability 5}
+	New.MagicAttr |= {MAttrDurable 37 MAttrSubstantial 35 MAttrMassive 15 MAttrFortified 8 MAttrIndestructible 5}
+   EndIf
+  ElIf (<Fame> <= 24000)
+   If (<Local.2> == 1)
+    DoRand 2
+	 New.MagicAttr |= {MAttrDefense 23 MAttrGuarding 40 MAttrHardening 19 MAttrFortification 11 MAttrInvulnerability 7}
+	 New.MagicAttr |= {MAttrDurable 23 MAttrSubstantial 40 MAttrMassive 19 MAttrFortified 11 MAttrIndestructible 7}
+	EndDo
+   ElIf (<Local.2> == 2)
+	New.MagicAttr |= {MAttrDefense 23 MAttrGuarding 40 MAttrHardening 19 MAttrFortification 11 MAttrInvulnerability 7}
+	New.MagicAttr |= {MAttrDurable 23 MAttrSubstantial 40 MAttrMassive 19 MAttrFortified 11 MAttrIndestructible 7}
+   EndIf
+  ElIf (<Fame> > 24000)
+   If (<Local.2> == 1)
+    DoRand 2
+	 New.MagicAttr |= {MAttrDefense 9 MAttrGuarding 45 MAttrHardening 23 MAttrFortification 14 MAttrInvulnerability 9}
+	 New.MagicAttr |= {MAttrDurable 9 MAttrSubstantial 45 MAttrMassive 23 MAttrFortified 14 MAttrIndestructible 9}
+	EndDo
+   ElIf (<Local.2> == 2)
+	New.MagicAttr |= {MAttrDefense 9 MAttrGuarding 45 MAttrHardening 23 MAttrFortification 14 MAttrInvulnerability 9}
+	New.MagicAttr |= {MAttrDurable 9 MAttrSubstantial 45 MAttrMassive 23 MAttrFortified 14 MAttrIndestructible 9}
+   EndIf
+  EndIf
+ EndIf
+ New.AssignUORProps
+EndFor
+
+[Function MagicAttr]
+If !(<ArgS>)
+ Return <Tag0.MagicAttr>
+Else
+ Tag.MagicAttr=<HVal <ArgS>>
+EndIf
+
+[Function AssignUORProps]
+If !(<MagicAttr>)
+ Return 1
+EndIf
+
+If (<IsArmor>)
+ If (<MagicAttr> &MAttrDefense)
+  ModAr += 5
+ ElIf (<MagicAttr> &MAttrGuarding)
+  ModAr += 10
+ ElIf (<MagicAttr> &MAttrHardening)
+  ModAr += 15
+ ElIf (<MagicAttr> &MAttrFortification)
+  ModAr += 20
+ ElIf (<MagicAttr> &MAttrInvulnerability)
+  ModAr += 25
+ EndIf
+
+ If (<MagicAttr> &MAttrDurable)
+  Hitpoints += 5
+ ElIf (<MagicAttr> &MAttrSubstantial)
+  Hitpoints += 10
+ ElIf (<MagicAttr> &MAttrMassive)
+  Hitpoints += 15
+ ElIf (<MagicAttr> &MAttrFortified)
+  Hitpoints += 20
+ ElIf (<MagicAttr> &MAttrIndestructible)
+  Hitpoints += 25
+ EndIf
+ElIf (<IsWeapon>)
+ If (<MagicAttr> &MAttrDurable)
+  Hitpoints += 10
+ ElIf (<MagicAttr> &MAttrSubstantial)
+  Hitpoints += 20
+ ElIf (<MagicAttr> &MAttrMassive)
+  Hitpoints += 30
+ ElIf (<MagicAttr> &MAttrFortified)
+  Hitpoints += 40
+ ElIf (<MagicAttr> &MAttrIndestructible)
+  Hitpoints += 50
+ EndIf
+
+ If (<MagicAttr> &MAttrAccurate)
+  SkillBonus1=<Skill>,5
+ ElIf (<MagicAttr> &MAttrSurpassinglyAccurate)
+  SkillBonus1=<Skill>,10
+ ElIf (<MagicAttr> &MAttrEminentlyAccurate)
+  SkillBonus1=<Skill>,15
+ ElIf (<MagicAttr> &MAttrExceedinglyAccurate)
+  SkillBonus1=<Skill>,20
+ ElIf (<MagicAttr> &MAttrSupremelyAccurate)
+  SkillBonus1=<Skill>,25
+ EndIf
+
+ If (<MagicAttr> &MAttrRuin)
+  ModAr += 1
+ ElIf (<MagicAttr> &MAttrMight)
+  ModAr += 3
+ ElIf (<MagicAttr> &MAttrForce)
+  ModAr += 5
+ ElIf (<MagicAttr> &MAttrPower)
+  ModAr += 7
+ ElIf (<MagicAttr> &MAttrVanquishing)
+  ModAr += 9
+ EndIf
+EndIf
+
+[DefName UORMagicWeaponFlags]
+// Armor
+MAttrDefense				01		// +5 AR
+MAttrGuarding				02		// +10 AR
+MAttrHardening				04		// +15 AR
+MAttrFortification			08		// +20 AR
+MAttrInvulnerability		010		// +25 AR
+// Shared
+MAttrDurable				020		// +10 Weapon HP / +5 Armor HP
+MAttrSubstantial			040		// +20 Weapon HP / +10 Armor HP
+MAttrMassive				080		// +30 Weapon HP / +15 Armor HP
+MAttrFortified				0100	// +40 Weapon HP / +20 Armor HP
+MAttrIndestructible			0200	// +50 Weapon HP / +25 Armor HP
+// Weapon
+MAttrAccurate				0400	// +5 Weapon Skill
+MAttrSurpassinglyAccurate	0800	// +10 Weapon Skill
+MAttrEminentlyAccurate		01000	// +15 Weapon Skill
+MAttrExceedinglyAccurate	02000	// +20 Weapon Skill
+MAttrSupremelyAccurate		04000	// +25 Weapon Skill
+MAttrRuin					08000	// +1 Damage
+MAttrMight					010000	// +3 Damage
+MAttrForce					020000	// +5 Damage
+MAttrPower					040000	// +7 Damage
+MAttrVanquishing			080000	// +9 Damage
+MAttrMystic					0100000	// Used in AoS with some legacy weapons, was used to hit certain creatures.

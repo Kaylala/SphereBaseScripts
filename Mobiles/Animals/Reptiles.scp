@@ -5,10 +5,9 @@ Can=CanWalk|CanSwim
 MoveRate=100
 Dam=5,15	// 7,24 UOG
 Icon=iAlligatorIcon
-Sound=
+Sound=sndAlligator1
 Resources=12 iPilesOfSpinedHides,1 iCutOfRawRibs
 FoodType=tFish
-MaxFood=35
 Aversions=0
 Desires=tFish,tRawMeat,tMeat,rSwamp,rJungle
 BloodColor=0
@@ -21,6 +20,7 @@ Description=Alligator
 On=@Create
 NPC=BrainAnimal
 FollowerSlots=1
+MaxFood=35
 SlayerSuper=ReptileSlayer
 
 Fame=600
@@ -28,16 +28,10 @@ Karma=-600
 Alignment=Evil
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=25,35
 ResFire=5,10
-ResCold=0
 ResPoison=5,10
-ResEnergy=0
 
 OStr={76 100}
 ODex={6 25}
@@ -60,10 +54,9 @@ Can=CanWalk|CanSwim
 MoveRate=100
 Dam=5,12
 Icon=iAlligatorIcon
-Sound=
+Sound=sndAlligator1
 Resources=8 iPilesOfSpinedHides,1 iCutOfRawRibs
 FoodType=tFish
-MaxFood=35
 Aversions=0
 Desires=tFish,tRawMeat,tMeat,rSwamp,rJungle
 BloodColor=0
@@ -76,6 +69,7 @@ Description=Alligator (Small)
 On=@Create
 NPC=BrainAnimal
 FollowerSlots=1
+MaxFood=35
 SlayerSuper=ReptileSlayer
 
 Fame=400
@@ -83,16 +77,10 @@ Karma=-400
 Alignment=Evil
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=15,25
 ResFire=5,10
-ResCold=0
 ResPoison=5,10
-ResEnergy=0
 
 OStr={50 80}
 ODex={6 25}

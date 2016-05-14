@@ -1,0 +1,15 @@
+[ItemDef iFletchersTools]
+ID=iArrowFletching
+Name=fletcher's tools
+NameLoc=1044166
+Type=tBowcraftingTool
+
+Category=Utility
+Subsection=Tools: Bowcrafting
+Description=Fletcher's Tools
+
+On=@Create
+UseCur={50 100}
+
+
+[EOF]

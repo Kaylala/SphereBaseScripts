@@ -1,0 +1,83 @@
+[Comment BardingDifficulty]
+Needs testing. I don't do 160 even. I use 1600 with my calculations. IE 160.0
+
+An approximate barding difficulty can be calculated by using the following method:
+
+1. Use the Animal Lore skill on the creature
+2. Add up the following attributes:
+* Max Hit Points * 1.6
+* Max Stamina
+* Max Mana
+* all Skills 
+3. Add another 100 points for each of the following abilities:
+* Spell Casting
+* Fire Breath
+* Radiation or Aura Damage (Heat, Cold etc.)
+* Resistance to Poison
+* Lifeforce Draining 
+4. Add another 20 points for each level of poison attack the creature can do. This ranges from 20 for a level 1 poison attack to 100 for a level 5 poison attack
+5. If the creature's stats and skills total is 700 or less, continue with step 7
+6. If the creature's stats and skills total is greater than 700, subtract 700 from the end result of step 4, then multiply the result with 0.275, and finally add 700 to that result.
+7. Drop the numbers after the decimal point and then divide by 10. The result is the creature's barding difficulty. 
+
+If the result of the difficulty calculation is higher than 160, then the creatures barding difficulty is lowered to 160.
+
+
+[Function BardingDifficulty]
+If !(<Tag0.BardingDifficulty>)
+ Call CalcBardingDifficulty
+ Tag.BardingDifficulty=<ArgN>
+Else
+ Return <Tag0.BardingDifficulty>
+EndIf
+
+
+[Function CalcBardingDifficulty]
+Local.Points=<EVal (<MaxHits> * 1.6)>
+Local.Points += <MaxStam>
+Local.Points += <MaxMana>
+For X 56
+ If (<Serv.Skill.<Local.X>>)
+  Local.Points += <EVal (<Serv.Skill.<Local.X>>/10)>
+ EndIf
+EndFor
+Local.Check=<Local.Points>
+If (<Magery>) || (<Necromancy>) || (<Spellweaving>) || (<Mysticism>)
+ Local.Points += 100
+EndIf
+If (<NPC> == BrainDragon)
+ Local.Points += 100
+EndIf
+If (<Aura>)
+ Local.Points += 100
+EndIf
+If (<ResPoison>)
+ Local.Points += 100
+EndIf
+If (<HitLifeLeech>)
+ Local.Points += 100
+EndIf
+If (<Poisoning> <= 200)
+ Local.Points += 20
+ElIf (<Poisoning> <= 400)
+ Local.Points += 40
+ElIf (<Poisoning> <= 600)
+ Local.Points += 60
+ElIf (<Poisoning> <= 800)
+ Local.Points += 80
+ElIf (<Poisoning> > 800)
+ Local.Points += 100
+EndIf
+If (<Local.Points> <= 700)
+ Local.Result=<Eval (<Local.Points> / 10)>
+Else
+ Local.Points2=<Eval (((<Local.Points> - 700) * 0.275) + 700)>
+ Local.Result=<Eval (<Local.Points2> / 10)>
+EndIf
+If (<Local.Result> > 1600)
+ Local.Result=1600
+EndIf
+Return <Local.Result>
+
+
+[EOF]

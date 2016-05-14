@@ -4,8 +4,8 @@ Name=eagle
 Can=CanNonHum|CanWalk|CanFly
 MoveRate=100
 Dam=6,13
-Icon=EagleIcon
-Sound=
+Icon=iEagleIcon
+Sound=sndEagle1
 Resources=36 iFeather,1 iRawBird
 FoodType=tFish
 MaxFood=35
@@ -28,10 +28,6 @@ Karma=-300
 Alignment=Neutral
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=20,25
 ResFire=10,15
@@ -60,8 +56,8 @@ Name=#ForestBirdNames
 Can=CanNonHum|CanWalk|CanFly
 MoveRate=100
 Dam=1
-Icon=BirdIcon
-Sound=
+Icon=iBirdIcon
+Sound=sndForestBird1
 Resources=25 iFeather,1 iRawBird
 FoodType=tFruit,tVegetable
 MaxFood=35
@@ -85,16 +81,6 @@ Karma=0
 Alignment=Neutral
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
-
-ResPhysical=0
-ResFire=0
-ResCold=0
-ResPoison=0
-ResEnergy=0
 
 OStr={1 4}
 ODex=25
@@ -116,8 +102,8 @@ Name=#TropicalBirdNames
 Can=CanNonHum|CanWalk|CanFly
 MoveRate=100
 Dam=1
-Icon=BirdIcon
-Sound=
+Icon=iBirdIcon
+Sound=sndTropicalBird1
 Resources=25 iFeather,1 iRawBird
 FoodType=tFruit,tVegetable
 MaxFood=35
@@ -141,16 +127,6 @@ Karma=0
 Alignment=Neutral
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
-
-ResPhysical=0
-ResFire=0
-ResCold=0
-ResPoison=0
-ResEnergy=0
 
 OStr={1 4}
 ODex=25
@@ -172,11 +148,10 @@ Name=chicken
 Can=CanNonHum|CanWalk
 MoveRate=100
 Dam=1
-Icon=ChickenIcon
-Sound=
+Icon=iChickenIcon
+Sound=sndChicken1
 Resources=25 iFeather,1 iRawBird
 FoodType=tGrain,tHay
-MaxFood=35
 Aversions=tTrap
 Desires=tGrain,tHay,rFarm,rForest
 BloodColor=0
@@ -189,6 +164,7 @@ Description=Chicken
 On=@Create
 NPC=BrainAnimal
 FollowerSlots=1
+MaxFood=35
 SlayerSuper=BirdSlayer
 
 Fame=150
@@ -196,16 +172,8 @@ Karma=0
 Alignment=Neutral
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=1,5
-ResFire=0
-ResCold=0
-ResPoison=0
-ResEnergy=0
 
 OStr=5
 ODex=15
@@ -227,8 +195,8 @@ Name=greater chicken
 Can=CanNonHum|CanWalk
 MoveRate=100
 Dam=1
-Icon=ChickenIcon
-Sound=
+Icon=iChickenIcon
+Sound=sndChicken1
 Resources=25 iFeather,1 iRawBird
 FoodType=tGrain,tHay
 MaxFood=35
@@ -251,16 +219,8 @@ Karma=0
 Alignment=Neutral
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=1,10
-ResFire=0
-ResCold=0
-ResPoison=0
-ResEnergy=0
 
 OStr={5 10}
 ODex=15
@@ -283,8 +243,8 @@ Name=turkey
 Can=CanNonHum|CanWalk
 MoveRate=100
 Dam=2,3
-Icon=TurkeyIcon
-Sound=
+Icon=iBirdIcon
+Sound=sndTurkey1
 Resources=75 iFeather,2 iRawBird
 FoodType=tGrain,tHay
 MaxFood=35
@@ -307,10 +267,6 @@ Karma=0
 Alignment=Neutral
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=5,10
 ResFire=5,10
@@ -337,11 +293,10 @@ Name=crane
 Can=CanNonHum|CanWalk
 MoveRate=100
 Dam=1
-Icon=TurkeyIcon
-Sound=
+Icon=iCraneIcon
+Sound=sndCrane1
 Resources=25 iFeather,2 iRawBird
 FoodType=tGrain,tHay
-MaxFood=35
 Aversions=rCivilization
 Desires=tGrain,tHay
 BloodColor=0
@@ -353,6 +308,7 @@ Description=Crane
 
 On=@Create
 NPC=BrainAnimal
+MaxFood=35
 SlayerSuper=BirdSlayer
 
 Fame=1000
@@ -360,16 +316,8 @@ Karma=1000
 Alignment=Neutral
 
 DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
 
 ResPhysical=5
-ResFire=0
-ResCold=0
-ResPoison=0
-ResEnergy=0
 
 OStr={25 35}
 ODex={15 25}
