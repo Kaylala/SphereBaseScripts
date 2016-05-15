@@ -1,0 +1,74 @@
+[ItemDef 03001]
+DefName=iTotem
+Name=totem
+NameLoc=1032289		// totem
+Type=tWall
+Weight=255
+
+Category=Decorations
+Subsection=Sculptures: Totems
+Description=Totem
+
+
+[ItemDef iSkullTotem]
+ID=iTotem
+Name=Skull Totem
+NameLoc=1094838		// A Skull Totem
+
+Category=Decorations
+Subsection=Sculptures: Totems
+Description=Skull Totem
+
+On=@Create
+Color=0481
+
+
+[ItemDef 042BB]
+DefName=iGargishProtectiveTotem
+Name=gargish protective totem
+NameLoc=1095955
+Type=tNormal
+Weight=3
+
+Category=Decorations
+Subsection=Sculptures: Totems
+Description=Gargish Protective Totem
+
+
+[ItemDef 042BC]
+DefName=iGargishVigilanceTotem
+Name=gargish vigilance totem
+NameLoc=1095956
+Type=tNormal
+Weight=255
+
+Category=Decorations
+Subsection=Sculptures: Totems
+Description=Gargish Vigilance Totem
+
+
+[ItemDef 042C0]
+DefName=iGargishLLuckTotem
+Name=gargish luck totem
+NameLoc=1095960
+Type=tNormal
+Weight=3
+
+Category=Decorations
+Subsection=Sculptures: Totems
+Description=Gargish Luck Totem
+
+
+[ItemDef 042C1]
+DefName=iGargishKnowledgeTotem
+Name=gargish knowledge totem
+NameLoc=1095961
+Type=tNormal
+Weight=3
+
+Category=Decorations
+Subsection=Sculptures: Totems
+Description=Gargish Knowledge Totem
+
+
+[EOF]

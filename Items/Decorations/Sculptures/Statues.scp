@@ -1,0 +1,582 @@
+[ItemDef 01224]
+DefName=iStatue1
+Name=statue
+NameLoc=1024644
+Type=tNormal
+Can=CanIFlip
+Weight=255
+DupeList=0139A
+
+Category=Decorations
+Subsection=Sculptures: Statues
+Description=Statue 1
+
+[ItemDef 0139A]	// 5018
+NameLoc=1025018
+DupeItem=01224
+
+
+[ItemDef 01225]
+DefName=iStatue2
+Name=statue
+NameLoc=1024645
+Type=tNormal
+Weight=255
+
+Category=Decorations
+Subsection=Sculptures: Statues
+Description=Statue 2
+
+
+[ItemDef 01226]
+DefName=iStatue3
+Name=statue
+NameLoc=1024646
+Type=tNormal
+Can=CanIFlip
+Weight=255
+DupeList=0139B
+
+Category=Decorations
+Subsection=Sculptures: Statues
+Description=Statue 3
+
+[ItemDef 0139B]
+NameLoc=1025019
+DupeItem=01226
+
+
+[ItemDef 01227]
+DefName=iStatue4
+Name=statue
+NameLoc=1024647
+Type=tNormal
+Can=CanIFlip
+Weight=255
+DupeList=0139C
+
+Category=Decorations
+Subsection=Sculptures: Statues
+Description=Statue 4
+
+[ItemDef 0139C]
+NameLoc=1025020
+DupeItem=01227
+
+
+[ItemDef 01228]
+DefName=iStatue5
+Name=statue
+NameLoc=1024648
+Type=tNormal
+Can=CanIFlip
+Weight=255
+DupeList=0139d
+
+Category=Decorations
+Subsection=Sculptures: Statues
+Description=Statue 5
+
+
+[ItemDef 0129F]
+DefName=iStatue6
+Name=statue
+NameLoc=1024767
+Type=tNormal
+Can=CanIFlip
+Weight=255
+DupeList=012A0,012A1
+
+Category=Decorations
+Subsection=Sculptures: Statues
+Description=Large Statue 6
+
+[ItemDef 012A0]
+NameLoc=1024768
+DupeItem=0129F
+
+[ItemDef 012A1]
+NameLoc=1024769
+DupeItem=0129F
+
+
+[ItemDef 0139E]
+DefName=iStatue7
+Name=statue
+NameLoc=1025022
+Type=tNormal
+Can=CanIFlip
+Weight=255
+DupeList=0139F,013A0
+
+Category=Decorations
+Subsection=Sculptures: Statues
+Description=Large Statue 7
+
+[ItemDef 0139F]
+NameLoc=1025023
+DupeItem=0139E
+
+[ItemDef 013A0]
+NameLoc=1025024
+DupeItem=0139E
+
+
+[ItemDef 012A2]
+DefName=iStatue8
+Name=statue
+NameLoc=1024770
+Type=tNormal
+Can=CanIFlip
+Weight=255
+DupeList=012A3,012A4
+
+Category=Decorations
+Subsection=Sculptures: Statues
+Description=Statue 8
+
+[ItemDef 012A3]
+NameLoc=1024771
+DupeItem=012A2
+
+[ItemDef 012A4]
+NameLoc=1024772
+DupeItem=012A2
+
+
+[ItemDef 013A1]
+DefName=iStatue9
+Name=statue
+NameLoc=1025025
+Type=tNormal
+Can=CanIFlip
+Weight=255
+DupeList=013A2,013A3
+
+Category=Decorations
+Subsection=Sculptures: Statues
+Description=Large Statue 9
+
+[ItemDef 013A2]
+NameLoc=1025026
+DupeItem=013A1
+
+[ItemDef 013A3]
+NameLoc=1025027
+DupeItem=013A1
+
+
+[ItemDef 012AE]
+DefName=iStatue10
+Name=statue
+NameLoc=1024782
+Type=tNormal
+Can=CanIFlip
+Weight=255
+DupeList=012AF,012B0
+
+Category=Decorations
+Subsection=Sculptures: Statues
+Description=Statue 10
+
+[ItemDef 012AF]
+NameLoc=1024783
+DupeItem=012AE
+
+[ItemDef 012B0]
+NameLoc=1024784
+DupeItem=012AE
+
+
+[ItemDef 012D5]
+DefName=iStatue11
+Name=statue
+NameLoc=1024821
+Type=tNormal
+Can=CanIFlip
+Weight=255
+DupeList=012D6,012D7
+
+Category=Decorations
+Subsection=Sculptures: Statues
+Description=Statue 11
+
+[ItemDef 012D6]
+NameLoc=1024822
+DupeItem=012D5
+
+[ItemDef 012D7]
+NameLoc=1024823
+DupeItem=012D5
+
+
+[ItemDef 012D8]
+DefName=iStatue12
+Name=statue
+NameLoc=1024824
+Type=tNormal
+Can=CanIFlip
+Weight=255
+DupeList=012D9
+
+Category=Decorations
+Subsection=Sculptures: Statues
+Description=Statue 12
+
+[ItemDef 012D9]
+NameLoc=1024825
+DupeItem=012D8
+
+
+[ItemDef 01F18]
+DefName=iStatue13
+Name=statue
+NameLoc=1027960
+Type=tNormal
+//Weight=255
+
+Category=Decorations
+Subsection=Sculptures: Statues
+Description=Statue 13
+
+
+[ItemDef 0207C]
+DefName=iStatueOfTheFaie
+Name=statue of the faie
+NameLoc=1028316		// statue of the faie
+Type=tNormal
+Weight=255
+
+Category=Decorations
+Subsection=Sculptures: Statues
+Description=Statue of the Faie
+
+
+[ItemDef 02A9E]
+DefName=iStatue14
+Name=statue
+NameLoc=1030910
+Type=tNormal
+Can=CanIFlip
+Weight=255
+DupeList=
+
+Category=Decorations
+Subsection=Sculptures: Statues
+Description=Statue 14
+
+[ItemDef 02A9F]
+NameLoc=1030911
+DupeItem=02A9E
+
+[ItemDef 02AA0]
+NameLoc=1030912
+DupeItem=02A9E
+
+
+[ItemDef 02D0E]
+DefName=iArcanistStatue
+Name=arcanist statue
+NameLoc=1031534
+Can=CanIFlip
+Weight=255
+SkillMake=Carpentry 0
+Resources=250 iBoard
+Material=tWood
+DupeList=02D0F
+
+Category=Decorations
+Subsection=Sculptures: Statues
+Description=Arcanist Statue
+
+[ItemDef 02D0F]
+NameLoc=1031535
+DupeItem=02D0E
+
+
+[ItemDef 02D10]
+DefName=iSquirrelStatue
+Name=squirrel statue
+NameLoc=1031536
+Can=CanIFlip
+Weight=255
+SkillMake=Carpentry 0
+Resources=250 iBoard
+Material=tWood
+DupeList=02D11
+
+Category=Decorations
+Subsection=Sculptures: Statues
+Description=Squirrel Statue
+
+[ItemDef 02D11]
+NameLoc=1031537
+DupeItem=02D10
+
+
+[ItemDef 02D12]
+DefName=iWarriorStatue
+Name=warrior statue
+NameLoc=1031538
+Can=CanIFlip
+Weight=255
+SkillMake=Carpentry 0
+Resources=250 iBoard
+Material=tWood
+DupeList=02D13
+
+Category=Decorations
+Subsection=Sculptures: Statues
+Description=Warrior Statue
+
+[ItemDef 02D13]
+NameLoc=1031539
+DupeItem=02D12
+
+
+[ItemDef 02D4A]
+DefName=iGiantReplicaAcorn
+Name=giant replica acorn
+NameLoc=1031594		// giant replica acorn
+Type=tNormal
+Can=CanIMakersMark|CanIExceptional|CanIRetainColor
+Weight=1
+SkillMake=Carpentry 800
+Resources=35 iBoard
+
+Category=Decorations
+Subsection=Sculptures: Statues
+Description=Giant Acorn Acorn
+
+
+[ItemDef 02FF6]
+DefName=iContributionStatue
+Name=contribution statue
+NameLoc=1032278		// contribution statue
+Type=tNormal
+Weight=10
+
+Category=Decorations
+Subsection=Sculptures: Statues
+Description=Contribution Statue
+
+
+[ItemDef 0305A]
+DefName=iHorseStatue1
+Name=horse statue
+NameLoc=1032378		// horse statue
+Type=tNormal
+Can=CanIFlip
+Weight=255
+DupeList=0305B,0305C
+
+Category=Decorations
+Subsection=Sculptures: Statues
+Description=Horse Statue 1
+
+[ItemDef 0305B]
+NameLoc=1032379
+DupeItem=0305A
+
+[ItemDef 0305C]
+NameLoc=1032380
+DupeItem=0305A
+
+
+[ItemDef 0305D]
+DefName=iHorseStatue1
+Name=horse statue
+NameLoc=1032381
+Type=tNormal
+Can=CanIFlip
+Weight=255
+DupeList=0305E,0305F
+
+Category=Decorations
+Subsection=Sculptures: Statues
+Description=Horse Statue 2
+
+[ItemDef 0305E]
+NameLoc=1032382
+DupeItem=0305D
+
+[ItemDef 0305F]
+NameLoc=1032383
+DupeItem=0305D
+
+
+[ItemDef 0306C]
+DefName=iMinotaurStatue1
+Name=minotaur statue
+NameLoc=1032396
+Type=tNormal
+Can=CanIFlip
+Weight=255
+DupeList=0306D,0306E
+
+Category=Decorations
+Subsection=Sculptures: Statues
+Description=Minotaur Statue 1
+
+[ItemDef 0306D]
+NameLoc=1032397
+DupeItem=0306C
+
+[ItemDef 0306E]
+NameLoc=1032398
+DupeItem=0306C
+
+
+[ItemDef 0306F]
+DefName=iMinotaurStatue2
+Name=minotaur statue
+NameLoc=1032399
+Type=tNormal
+Can=CanIFlip
+Weight=255
+DupeList=03070,03071
+
+Category=Decorations
+Subsection=Sculptures: Statues
+Description=Minotaur Statue 2
+
+[ItemDef 03070]
+NameLoc=1032400
+DupeItem=0306F
+
+[ItemDef 03071]
+NameLoc=1032401
+DupeItem=0306F
+
+
+[ItemDef 03072]
+DefName=iMinotaurStatue3
+Name=minotaur statue
+NameLoc=1032402
+Type=tNormal
+Can=CanIFlip
+Weight=255
+DupeList=03073
+
+Category=Decorations
+Subsection=Sculptures: Statues
+Description=Minotaur Statue 3 (Incomplete)
+
+[ItemDef 03073]
+NameLoc=1032403
+DupeItem=03072
+
+
+[ItemDef 03074]
+DefName=iMinotaurStatue4
+Name=minotaur statue
+NameLoc=1032404
+Type=tNormal
+Can=CanIFlip
+Weight=255
+DupeList=03075,03076
+
+Category=Decorations
+Subsection=Sculptures: Statues
+Description=Minotaur Statue 4
+
+[ItemDef 03075]
+NameLoc=1032405
+DupeItem=0306c
+
+[ItemDef 03076]
+NameLoc=1032406
+DupeItem=0306c
+
+
+[ItemDef 042C2]
+DefName=iGargishWarriorStatue
+Name=gargish warrior statue
+NameLoc=1095962
+Type=tNormal
+Weight=10
+
+Category=Decorations
+Subsection=Sculptures: Statues
+Description=Gargish Warrior Statue
+
+
+[ItemDef 042C3]
+DefName=iGargishMemorialStatue
+Name=gargish memorial statue
+NameLoc=1095963
+Type=tNormal
+Weight=10
+
+Category=Decorations
+Subsection=Sculptures: Statues
+Description=Gargish Memorial Statue
+
+
+[ItemDef 042C5]
+DefName=iGargoyleStatue1
+Name=gargoyle statue
+NameLoc=1095965
+Type=tNormal
+Weight=10
+
+Category=Decorations
+Subsection=Sculptures: Statues
+Description=Gargoyle Statue 1
+
+
+[ItemDef 04688]
+DefName=iBlackCatStatue
+Name=black cat statue
+NameLoc=1096928
+Type=tNormal
+Can=CanIFlip
+Weight=1
+DupeList=04689
+
+Category=Decoration - Wall Carvings & Statues
+Subsection=Sculptures: Statues
+Description=Black Cat
+
+[ItemDef 04689]
+NameLoc=1096929
+DupeItem=04688
+
+
+[ItemDef 0493B]
+DefName=iGryphonStatue
+Name=gryphon statue
+NameLoc=1097619
+Type=tNormal
+Can=CanIFlip
+Weight=1
+DupeList=0493C
+
+Category=Decorations
+Subsection=Sculptures: Statues
+Description=Gargoyle Gryphon
+
+[ItemDef 0493C]
+NameLoc=1097620
+DupeItem=0493B
+
+
+[ItemDef 0494D]
+DefName=iGargoyleStatue2
+Name=gargoyle statue
+NameLoc=1097637
+Type=tNormal
+Can=CanIFlip
+Weight=1
+DupeList=0494E
+
+Category=Decorations
+Subsection=Sculptures: Statues
+Description=Gargoyle Statue 2
+
+[ItemDef 0494E]
+NameLoc=1097638
+DupeItem=0494D
+
+
+[EOF]

@@ -1,0 +1,388 @@
+//////////
+// Axes //
+//////////
+
+// Axe
+[ItemDef 0F49]
+DefName=iAxe
+Name=axe
+Type=tAxeWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=4
+Dam=14,17
+//Speed=44
+Tag.Override.Speed=30
+ReqStr=35
+TwoHands=1
+Skill=Swordsmanship
+SkillMake=Blacksmithing 342
+Resources=14 iIronIngot
+Material=tIngot
+AlterItem=iGargishAxe
+DupeList=0F4A
+
+AbilityPrimary=sCrushingBlow
+AbilitySecondary=sDismount
+
+Category=Equipment
+Subsection=Weapons: Axes (Swordsmanship)
+Description=Axe
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 0F4A]
+DupeItem=0F49
+
+// Battle Axe
+[ItemDef 0F47]
+DefName=iBattleAxe
+Name=battle axe
+Type=tAxeWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=4
+Dam=16,19
+//Speed=38
+Tag.Override.Speed=35
+ReqStr=35
+TwoHands=1
+Skill=Swordsmanship
+SkillMake=Blacksmithing 305
+Resources=14 iIronIngot
+Material=tIngot
+AlterItem=iGargishBattleAxe
+DupeList=0F48
+
+AbilityPrimary=sBleedAttack
+AbilitySecondary=sConcussionBlow
+
+Category=Equipment
+Subsection=Weapons: Axes (Swordsmanship)
+Description=Battle Axe
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 0F48]
+DupeItem=0F47
+
+// Double Axe
+[ItemDef 0F4B]
+DefName=iDoubleAxe
+Name=double axe
+Type=tAxeWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=8
+Dam=15,18
+//Speed=41
+Tag.Override.Speed=32
+ReqStr=45
+TwoHands=1
+Skill=Swordsmanship
+SkillMake=Blacksmithing 293
+Resources=12 iIronIngot
+Material=tIngot
+AlterItem=iDualShortAxes
+DupeList=0F4C
+
+AbilityPrimary=sDoubleStrike
+AbilitySecondary=sWhirlwindAttack
+
+Category=Equipment
+Subsection=Weapons: Axes (Swordsmanship)
+Description=Double Axe
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 0F4C]
+DupeItem=0F4B
+
+// Dual Short Axes
+[ItemDef 08FD]
+DefName=iDualShortAxes
+Name=dual short axes
+Type=tAxeWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=4
+Dam=14,17
+//Speed=30
+Tag.Override.Speed=30
+ReqStr=35
+TwoHands=1
+Skill=Swordsmanship
+SkillMake=Blacksmithing 750
+Resources=24 iIronIngot
+Material=tIngot
+DupeList=04068
+
+AbilityPrimary=sDoubleStrike
+AbilitySecondary=sInfectiousStrike
+
+Category=Equipment
+Subsection=Weapons: Axes (Swordsmanship)
+Description=Dual Short Axes
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 04068]
+DupeItem=08FD
+
+// Executioner's Axe
+[ItemDef 0F45]
+DefName=iExecutionersAxe
+Name=executioner's axe
+Type=tAxeWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=8
+Dam=15,18
+//Speed=41
+Tag.Override.Speed=32
+ReqStr=40
+TwoHands=1
+Skill=Swordsmanship
+SkillMake=Blacksmithing 342
+Resources=14 iIronIngot
+Material=tIngot
+AlterItem=iDualShortAxes
+DupeList=0F46
+
+AbilityPrimary=sBleedAttack
+AbilitySecondary=sMortalStrike
+
+Category=Equipment
+Subsection=Weapons: Axes (Swordsmanship)
+Description=Executioner's Axe
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 0F46]
+DupeItem=0F45
+
+// Gargish Axe
+[ItemDef 048B2]
+DefName=iGargishAxe
+Name=gargish axe
+Type=tAxeWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUGargoyle
+Weight=4
+Dam=14,17
+//Speed=44
+Tag.Override.Speed=30
+ReqStr=35
+TwoHands=1
+Skill=Swordsmanship
+SkillMake=Blacksmithing 342
+Resources=14 iIronIngot
+Material=tIngot
+DupeList=048B3
+
+AbilityPrimary=sCrushingBlow
+AbilitySecondary=sDisarm
+
+Category=Equipment
+Subsection=Weapons: Axes (Swordsmanship)
+Description=Gargish Axe
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 048B3]
+DupeItem=048B2
+
+// Gargish Battle Axe
+[ItemDef 048B0]
+DefName=iGargishBattleAxe
+Name=gargish battle axe
+Type=tAxeWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUGargoyle
+Weight=4
+Dam=16,19
+//Speed=38
+Tag.Override.Speed=35
+ReqStr=35
+TwoHands=1
+Skill=Swordsmanship
+SkillMake=Blacksmithing 305
+Resources=14 iIronIngot
+Material=tIngot
+DupeList=048B1
+
+AbilityPrimary=sBleedAttack
+AbilitySecondary=sConcussionBlow
+
+Category=Equipment
+Subsection=Weapons: Axes (Swordsmanship)
+Description=Gargish Battle Axe
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 048B1]
+DupeItem=048B0
+
+// Hatchet
+[ItemDef 0F43]
+DefName=iHatchet
+Name=hatchet
+Type=tAxeWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIImbue
+CanUse=CanUHuman|CanUElf
+Weight=4
+Dam=13,16
+//Speed=47
+Tag.Override.Speed=27
+ReqStr=20
+TwoHands=1
+Skill=Swordsmanship
+SkillMake=Tinkering 300
+Resources=4 iIronIngot
+Material=tIngot
+AlterItem=0
+DupeList=0F44
+
+AbilityPrimary=sArmorIgnore
+AbilitySecondary=sDisarm
+
+Category=Equipment
+Subsection=Weapons: Axes (Swordsmanship)
+Description=Hatchet
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 0F44]
+DupeItem=0F43
+
+// Large Battle Axe
+[ItemDef 013FA]
+DefName=iLargeBattleAxe
+Name=large battle axe
+Type=tAxeWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=6
+Dam=17,20
+//Speed=35
+Tag.Override.Speed=37
+ReqStr=80
+TwoHands=1
+Skill=Swordsmanship
+SkillMake=Blacksmithing 280
+Resources=12 iIronIngot
+Material=tIngot
+AlterItem=iDualShortAxes
+DupeList=013FB
+
+AbilityPrimary=sWhirlwindAttack
+AbilitySecondary=sBleedAttack
+
+Category=Equipment
+Subsection=Weapons: Axes (Swordsmanship)
+Description=Large Battle Axe
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 013FB]
+DupeItem=013FA
+
+// Ornate Axe
+[ItemDef 02D28]
+DefName=iOrnateAxe
+Name=ornate axe
+Type=tAxeWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=12
+Dam=17,20
+//Speed=38
+Tag.Override.Speed=37
+ReqStr=45
+TwoHands=1
+Skill=Swordsmanship
+SkillMake=Blacksmithing 700
+Resources=18 iIronIngot
+Material=tIngot
+AlterItem=iDualShortAxes
+DupeList=02D34
+
+AbilityPrimary=sDisarm
+AbilitySecondary=sCrushingBlow
+
+Category=Equipment
+Subsection=Weapons: Axes (Swordsmanship)
+Description=Ornate Axe
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 02D34]
+DupeItem=02D28
+
+// Two-Handed Axe
+[ItemDef 01442]
+DefName=iTwoHandedAxe
+Name=two-handed axe
+Type=tAxeWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=8
+Dam=16,19
+//Speed=38
+Tag.Override.Speed=35
+ReqStr=40
+TwoHands=1
+Skill=Swordsmanship
+SkillMake=Blacksmithing 330
+Resources=16 iIronIngot
+Material=tIngot
+AlterItem=iDualShortAxes
+DupeList=01443
+
+AbilityPrimary=sDoubleStrike
+AbilitySecondary=sShadowStrike
+
+Category=Equipment
+Subsection=Weapons: Axes (Swordsmanship)
+Description=Two-Handed Axe
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 01443]
+DupeItem=01442
+
+
+[EOF]

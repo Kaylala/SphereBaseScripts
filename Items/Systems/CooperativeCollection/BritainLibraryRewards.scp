@@ -1,0 +1,25 @@
+// 800,000 points Library
+[ItemDef iPoisonedReadingGlasses]
+ID=iElvenGlasses
+Name=Poisoned Reading Glasses
+NameLoc=1073376	// Poisoned Reading Glasses
+
+Category=Systems
+Subsection=Cooperative Collection: Library
+Description=Poisoned Reading Glasses
+
+On=Create
+Attr=AttrMagic
+Color=055C
+//Expansion=ExpansionML
+
+StaminaIncrease=3
+StaminaRegeneration=4
+ResPhysical=10
+ResFire=10
+ResCold=10
+ResPoison=30
+ResEnergy=10
+
+
+[EOF]

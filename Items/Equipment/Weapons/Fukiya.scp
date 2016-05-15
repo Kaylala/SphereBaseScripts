@@ -1,0 +1,38 @@
+[ItemDef 027AA]
+//FIXME: load and unload,
+//cliloc... doubleclick to fire a dart equip message
+//requires at least 50 ninjitsu to use
+//one-handed when used by GM ninja
+//no movement when shooting penalty
+//cliloc 3006224 Load Fukiya
+//cliloc 3006225 Unload Fukiya
+//cliloc 3006226 Fukia Dart
+//Sounds:
+// snd_combat_fukiya
+DefName=iFukiya
+Name=fukiya
+Type=tBowWeapon
+TData3=iFukiyaDart
+TData4=iFxFukiyaDart
+Can=CanIFlip|CanIExceptional|CanIMakersMark|CanIRetainColor
+CanUse=0
+Weight=4
+Dam=14,16
+Speed=12
+Range=10
+TwoHands=0
+Skill=Ninjitsu
+SkillMake=Carpentry 600
+Resources=8 iBoard
+Material=tWood
+DupeList=027F5
+
+Category=Equipment
+Subsection=Weapons: Miscellaneous
+Description=Fukiya
+
+[ItemDef 027F5]
+DupeItem=027AA
+
+
+[EOF]

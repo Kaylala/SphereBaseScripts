@@ -1,3 +1,20 @@
+[ItemDef 03BB3]
+DefName=i10thAnniversarySculpture
+Name=10th Anniversary Sculpture
+NameLoc=1079532		// 10th Anniversary Sculpture
+Type=tNormal
+Weight=1
+Can=CanIFlip
+DupeList=03BB4
+
+Category=Artifacts
+Subsection=Virtue
+Description=10th Anniversary Sculpture
+
+[ItemDef 03BB4]
+DupeItem=03BB3
+
+
 [ItemDef 02B04]
 DefName=iCloakOfHumility
 Name=Cloak of Humility

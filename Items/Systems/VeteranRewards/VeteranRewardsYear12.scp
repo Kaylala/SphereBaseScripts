@@ -1,0 +1,37 @@
+[ItemDef 042CB]
+DefName=iChaosBanner
+Name=chaos banner
+NameLoc=1095971
+Type=tNormal
+Can=CanIFlip
+Weight=2
+DupeList=042CC
+
+Category=Systems
+Subsection=Veteran Rewards: 12th Year
+Description=Chaos Banner
+
+[ItemDef 042CC]
+NameLoc=1095972
+DupeItem=042CB
+
+
+[ItemDef 042CD]
+DefName=iOrderBanner
+Name=order banner
+NameLoc=1095973
+Type=tNormal
+Can=CanIFlip
+Weight=2
+DupeList=042CE
+
+Category=Systems
+Subsection=Veteran Rewards: 12th Year
+Description=Order Banner
+
+[ItemDef 042CE]
+NameLoc=1095974
+DupeItem=042CD
+
+
+[EOF]

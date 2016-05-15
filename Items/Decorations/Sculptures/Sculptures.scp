@@ -1,0 +1,114 @@
+[ItemDef 02419]
+DefName=iSculpture1
+Name=sculpture
+NameLoc=1029241
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Sculptures: Sculptures
+Description=Sculpture 1
+
+
+[ItemDef 0241A]
+DefName=iTowerSculpture
+Name=sculpture
+NameLoc=1029242
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Sculptures: Sculptures
+Description=Tower Sculpture
+
+
+[ItemDef 0241B]
+DefName=iSculpture2
+Name=sculpture
+NameLoc=1029243
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Sculptures: Sculptures
+Description=Sculpture 2
+
+
+[ItemDef 02846]
+DefName=iSculpture3
+Name=sculpture
+NameLoc=1030310
+Type=tNormal
+Can=CanIFlip
+Weight=3
+DupeList=02847
+
+Category=Decorations
+Subsection=Sculptures: Sculptures
+Description=Sculpture 3
+
+[ItemDef 02847]
+NameLoc=1030311
+DupeItem=02846
+
+
+[ItemDef 02848]
+DefName=iSculpture4
+Name=sculpture
+NameLoc=1030312
+Type=tNormal
+Can=CanIFlip
+Weight=3
+DupeList=02849
+
+Category=Decorations
+Subsection=Sculptures: Sculptures
+Description=Sculpture 4
+
+[ItemDef 02849]
+NameLoc=1030313
+DupeItem=02848
+
+
+[ItemDef 040BC]
+DefName=iMedusa
+Name=medusa
+NameLoc=1095444
+Type=tNormal
+Weight=10
+
+Category=Decorations
+Subsection=Sculptures: Sculptures
+Description=Medusa
+
+
+[ItemDef 040BD]
+DefName=iPushmePullyu
+Name=pushme pullyu
+NameLoc=1095445
+Type=tNormal
+Weight=5
+
+Category=Decorations
+Subsection=Sculptures: Sculptures
+Description=Pushme Pullyu
+
+
+[ItemDef 0403F]
+DefName=iGargoyleSculpture
+Name=gargoyle sculpture
+NameLoc=	// Left it out. Blank.
+Type=tNormal
+Can=CanIFlip
+Weight=255
+DupeList=04040
+
+Category=Decorations
+Subsection=Sculptures: Sculptures
+Description=Gargoyle Sculpture
+
+[ItemDef 04040]
+DupeItem=0403F
+
+
+[EOF]

@@ -4232,21 +4232,4 @@ SUBSECTION=Goblin Trap
 DESCRIPTION=Goblin Trap
 
 
-[ITEMDEF 042bd]
-DEFNAME=iSkullSpineRibs
-NAME=skull, spine and ribs
-TYPE=tBone
-FLIP=1
-VALUE=1
-WEIGHT=2.0
-CATEGORY=Decoration - Dungeons and The Dead
-SUBSECTION=Skeletons
-DESCRIPTION=Skull, Spine, and Ribs
-DUPELIST=04687
-
-[ITEMDEF 04687]
-//Skull, Spine, and Ribs
-DUPEITEM=042bd
-
-
 [EOF]

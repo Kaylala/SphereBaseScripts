@@ -1,0 +1,1320 @@
+///////////////////
+// Swordsmanship //
+///////////////////
+
+// Bardiche
+[ItemDef 0F4D]
+DefName=iBardiche
+Name=bardiche
+Type=tSwordWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=
+Dam=17,20
+//Speed=35
+Tag.Override.Speed=37
+ReqStr=45
+TwoHands=1
+Skill=Swordsmanship
+SkillMake=Blacksmithing 317
+Resources=18 iIronIngot
+Material=tIngot
+AlterItem=iGargishBardiche
+DupeList=0F4E
+
+AbilityPrimary=sParalyzingBlow
+AbilitySecondary=sDismount
+
+Category=Equipment
+Subsection=Weapons: Swordsmanship
+Description=Bardiche
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 0F4E]
+DupeItem=0F4D
+
+// Bladed Staff
+[ItemDef 026BD]
+DefName=iBladedStaff
+Name=bladed staff
+Type=tSwordWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=4
+Dam=14,17
+//Speed=44
+Tag.Override.Speed=30
+ReqStr=40
+TwoHands=1
+Skill=Swordsmanship
+SkillMake=Blacksmithing 400
+Resources=12 iIronIngot
+Material=tIngot
+AlterItem=iDualPointedSpear
+DupeList=026C7
+
+AbilityPrimary=sArmorIgnore
+AbilitySecondary=sDismount
+
+Category=Equipment
+Subsection=Weapons: Swordsmanship
+Description=Bladed Staff
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 026C7]
+DupeItem=026BD
+
+// Bokuto
+[ItemDef 027A8]
+DefName=iBokuto
+Name=bokuto
+Type=tSwordWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=7
+Dam=10,12
+//Speed=56
+Tag.Override.Speed=20
+ReqStr=20
+TwoHands=0
+Skill=Swordsmanship
+SkillMake=Carpentry 700
+Resources=6 iBoard
+Material=tWood
+AlterItem=0
+DupeList=027F3
+
+AbilityPrimary=sFeint
+AbilitySecondary=sNerveStrike
+
+Category=Equipment
+Subsection=Weapons: Swordsmanship
+Description=Bokuto
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 027F3]
+DupeItem=027A8
+
+// Bone Harvester
+[ItemDef 026BB]
+DefName=iBoneHarvester
+Name=bone harvester
+Type=tSwordWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=3
+Dam=12,16
+//Speed=47
+Tag.Override.Speed=30
+ReqStr=25
+TwoHands=0
+Skill=Swordsmanship
+SkillMake=Blacksmithing 330
+Resources=10 iIronIngot
+Material=tIngot
+AlterItem=iGargishBoneHarvester
+DupeList=026C5
+
+AbilityPrimary=sParalyzingBlow
+AbilitySecondary=sMortalStrike
+
+Category=Equipment
+Subsection=Weapons: Swordsmanship
+Description=Bone Harvester
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 026C5]
+DupeItem=026BB
+
+// Bone Machete
+[ItemDef 020E]
+DefName=iBoneMachete
+Name=bone machete
+Type=tSwordWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=6
+Dam=11,15
+//Speed=47
+Tag.Override.Speed=27
+ReqStr=20
+TwoHands=0
+Skill=Swordsmanship
+SkillMake=Blacksmithing 450
+Resources=6 iIronIngot,20 iBone
+Material=tIngot,iBone
+AlterItem=0
+
+AbilityPrimary=sDefenseMastery
+AbilitySecondary=sBladeweave
+
+Category=Equipment
+Subsection=Weapons: Miscellaneous
+Description=Bone Machete (Blighted Grove)
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+// Broadsword
+[ItemDef 0F5E]
+DefName=iBroadsword
+Name=broadsword
+Type=tSwordWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=6
+Dam=13,17
+//Speed=35
+Tag.Override.Speed=32
+ReqStr=30
+TwoHands=0
+Skill=Swordsmanship
+SkillMake=Blacksmithing 354
+Resources=10 iIronIngot
+Material=tIngot
+AlterItem=iDreadSword
+DupeList=0F5F
+
+AbilityPrimary=sCrushingBlow
+AbilitySecondary=sArmorIgnore
+
+Category=Equipment
+Subsection=Weapons: Swordsmanship
+Description=Broadsword
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 0F5F]
+DupeItem=0F5E
+
+// Butcher Knife
+[ItemDef 013F6]
+DefName=iButherKnife
+Name=butcher knife
+Type=tSwordWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIImbue
+CanUse=CanUHuman|CanUElf
+Weight=1
+Dam=10,13
+//Speed=53
+Tag.Override.Speed=22
+ReqStr=5
+TwoHands=0
+Skill=Swordsmanship
+SkillMake=Tinkering 250
+Resources=2 iIronIngot
+Material=tIngot
+AlterItem=iGargishButcherKnife
+DupeList=013F7
+
+AbilityPrimary=sInfectiousStrike
+AbilitySecondary=sDisarm
+
+Category=Equipment
+Subsection=Weapons: Swordsmanship
+Description=Butcher Knife
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 013F7]
+DupeItem=013F6
+
+// Cleaver
+[ItemDef 0EC2]
+DefName=iCleaver
+Name=cleaver
+Type=tSwordWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIImbue
+CanUse=CanUHuman|CanUElf
+Weight=2
+Dam=10,14
+//Speed=50
+Tag.Override.Speed=25
+ReqStr=10
+TwoHands=0
+Skill=Swordsmanship
+SkillMake=Tinkering 200
+Resources=3 iIronIngot
+Material=tIngot
+AlterItem=iGargishCleaver
+DupeList=0EC3
+
+AbilityPrimary=sBleedAttack
+AbilitySecondary=sInfectiousStrike
+
+Category=Equipment
+Subsection=Weapons: Swordsmanship
+Description=Cleaver
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 0EC3]
+DupeItem=0EC2
+
+// Crescent Blade
+[ItemDef 026C1]
+DefName=iCrescentBlade
+Name=crescent blade
+Type=tSwordWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=1
+Dam=12,15
+//Speed=50
+Tag.Override.Speed=22
+ReqStr=55
+TwoHands=1
+Skill=Swordsmanship
+SkillMake=Blacksmithing 450
+Resources=14 iIronIngot
+Material=tIngot
+AlterItem=iGargishTalwar
+DupeList=026CB
+
+AbilityPrimary=sDoubleStrike
+AbilitySecondary=sMortalStrike
+
+Category=Equipment
+Subsection=Weapons: Swordsmanship
+Description=Crescent Blade
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 026CB]
+DupeItem=026C1
+
+// Cutlass
+[ItemDef 01440]
+DefName=iCutlass
+Name=cutlass
+Type=tSwordWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=8
+Dam=10,14
+//Speed=50
+Tag.Override.Speed=25
+ReqStr=25
+TwoHands=0
+Skill=Swordsmanship
+SkillMake=Blacksmithing 243
+Resources=8 iIronIngot
+Material=tIngot
+AlterItem=0
+DupeList=01441
+
+AbilityPrimary=sBleedAttack
+AbilitySecondary=sShadowStrike
+
+Category=Equipment
+Subsection=Weapons: Swordsmanship
+Description=Cutlass
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 01441]
+DupeItem=01440
+
+// Daisho
+[ItemDef 027A9]
+DefName=iDaisho
+Name=daisho
+Type=tSwordWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=8
+Dam=13,16
+//Speed=47
+Tag.Override.Speed=27
+ReqStr=40
+TwoHands=1
+Skill=Swordsmanship
+SkillMake=Blacksmithing 600
+Resources=15 iIronIngot
+Material=tIngot
+AlterItem=iGargishDaisho
+DupeList=027F4
+
+AbilityPrimary=sFeint
+AbilitySecondary=sDoubleStrike
+
+Category=Equipment
+Subsection=Weapons: Swordsmanship
+Description=Daisho
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 027F4]
+DupeItem=027A9
+
+// Dread Sword
+[ItemDef 090B]
+DefName=iDreadSword
+Name=dread sword
+Type=tSwordWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUGargoyle
+Weight=7
+Dam=14,18
+//Speed=38
+Tag.Override.Speed=35
+ReqStr=35
+TwoHands=0
+Skill=Swordsmanship
+SkillMake=Blacksmithing 750
+Resources=14 iIronIngot
+Material=tIngot
+DupeList=04074
+
+AbilityPrimary=sCrushingBlow
+AbilitySecondary=sConcussionBlow
+
+Category=Equipment
+Subsection=Weapons: Swordsmanship
+Description=Dread Sword
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 04074]
+DupeItem=090B
+
+// Elven Machete
+[ItemDef 02D29]
+DefName=iElvenMachete
+Name=elven machete
+Type=tSwordWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=6
+Dam=11,15
+//Speed=47
+Tag.Override.Speed=27
+ReqStr=20
+TwoHands=0
+Skill=Swordsmanship
+SkillMake=Blacksmithing 700
+Resources=14 iIronIngot
+Material=tIngot
+AlterItem=0
+DupeList=02D35
+
+AbilityPrimary=sDefenseMastery
+AbilitySecondary=sBladeweave
+
+Category=Equipment
+Subsection=Weapons: Swordsmanship
+Description=Elven Machete
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 02D35]
+DupeItem=02D29
+
+// Gargish Bardiche
+[ItemDef 048B4]
+DefName=iGargishBardiche
+Name=gargish bardiche
+Type=tSwordWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUGargoyle
+Weight=7
+Dam=17,20
+//Speed=35
+Tag.Override.Speed=37
+ReqStr=45
+TwoHands=1
+Skill=Swordsmanship
+SkillMake=Blacksmithing 317
+Resources=18 iIronIngot
+Material=tIngot
+DupeList=048B5
+
+AbilityPrimary=sParalyzingBlow
+AbilitySecondary=sDismount
+
+Category=Equipment
+Subsection=Weapons: Swordsmanship
+Description=Gargish Bardiche
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 048B5]
+DupeItem=048B4
+
+// Gargish Bone Harvester
+[ItemDef 048C6]
+DefName=iGargishBoneHarvester
+Name=gargish bone harvester
+Type=tSwordWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUGargoyle
+Weight=3
+Dam=12,16
+//Speed=44
+Tag.Override.Speed=30
+ReqStr=25
+TwoHands=0
+Skill=Swordsmanship
+SkillMake=Blacksmithing 330
+Resources=10 iIronIngot
+Material=tIngot
+DupeList=048C7
+
+AbilityPrimary=sParalyzingBlow
+AbilitySecondary=sMortalStrike
+
+Category=Equipment
+Subsection=Weapons: Swordsmanship
+Description=Gargish Bone Harvester
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 048C7]
+DupeItem=048C6
+
+// Gargish Butcher Knife
+[ItemDef 048B6]
+DefName=iGargishButchersKnife
+Name=gargish butcher's knife
+Type=tSwordWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIImbue
+CanUse=CanUGargoyle
+Weight=1
+Dam=10,13
+//Speed=53
+Tag.Override.Speed=22
+ReqStr=5
+TwoHands=0
+Skill=Swordsmanship
+SkillMake=Tinkering 250
+Resources=2 iIronIngot
+Material=tIngot
+DupeList=048B7
+
+AbilityPrimary=sInfectousStrike
+AbilitySecondary=sDisarm
+
+Category=Equipment
+Subsection=Weapons: Swordsmanship
+Description=Gargish Butcher's Knife
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 048B7]
+DupeItem=048B6
+
+// Gargish Cleaver
+[ItemDef 048AE]
+DefName=iGargishCleaver
+Name=gargish cleaver
+Type=tSwordWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIImbue
+CanUse=CanUGargoyle
+Weight=2
+Dam=10,14
+//Speed=50
+Tag.Override.Speed=25
+ReqStr=10
+TwoHands=0
+Skill=Swordsmanship
+SkillMake=Tinkering 200
+Resources=3 iIronIngot
+Material=tIngot
+DupeList=048AF
+
+AbilityPrimary=sBleedAttack
+AbilitySecondary=sInfectiousStrike
+
+Category=Equipment
+Subsection=Weapons: Swordsmanship
+Description=Gargish Cleaver
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 048AF]
+DupeItem=048AE
+
+// Gargish Daisho
+[ItemDef 048D0]
+DefName=iGargishDaisho
+Name=gargish daisho
+Type=tSwordWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUGargoyle
+Weight=8
+Dam=13,16
+//Speed=47
+Tag.Override.Speed=27
+ReqStr=40
+TwoHands=1
+Skill=Swordsmanship
+SkillMake=Blacksmithing 600
+Resources=15 iIronIngot
+Material=tIngot
+DupeList=048D1
+
+AbilityPrimary=sFeint
+AbilitySecondary=sDoubleStrike
+
+Category=Equipment
+Subsection=Weapons: Swordsmanship
+Description=Gargish Daisho
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 048D1]
+DupeItem=048D0
+
+// Gargish Katana
+[ItemDef 048BA]
+DefName=iGargishKatana
+Name=gargish katana
+Type=tSwordWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUGargoyle
+Weight=8
+Dam=10,14
+//Speed=50
+Tag.Override.Speed=25
+ReqStr=25
+TwoHands=0
+Skill=Swordsmanship
+SkillMake=Blacksmithing 441
+Resources=8 iIronIngot
+Material=tIngot
+DupeList=048BB
+
+AbilityPrimary=sDoubleStrike
+AbilitySecondary=sArmorIgnore
+
+Category=Equipment
+Subsection=Weapons: Swordsmanship
+Description=Gargish Katana
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 048BB]
+DupeItem=048BA
+
+// Gargish Scythe
+[ItemDef 048C4]
+DefName=iGargishScythe
+Name=gargish scythe
+Type=tSwordWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUGargoyle
+Weight=5
+Dam=16,19
+//Speed=38
+Tag.Override.Speed=35
+ReqStr=45
+TwoHands=1
+Skill=Swordsmanship
+SkillMake=Blacksmithing 390
+Resources=14 iIronIngot
+Material=tIngot
+DupeList=048C5
+
+AbilityPrimary=sBleedAttack
+AbilitySecondary=sParalyzingBlow
+
+Category=Equipment
+Subsection=Weapons: Swordsmanship
+Description=Gargish Scythe
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 048C5]
+DupeItem=048C4
+
+// Gargish Talwar
+[ItemDef 0908]
+DefName=iGargishTalwar
+Name=gargish talwar
+Type=tSwordWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUGargoyle
+Weight=4
+Dam=16,19
+//Speed=38
+Tag.Override.Speed=35
+ReqStr=40
+TwoHands=1
+Skill=Swordsmanship
+SkillMake=Blacksmithing 750
+Resources=18 iIronIngot
+Material=tIngot
+DupeList=04075
+
+AbilityPrimary=sWhirlwindAttack
+AbilitySecondary=sDismount
+
+Category=Equipment
+Subsection=Weapons: Swordsmanship
+Description=Gargish Talwar
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 04075]
+DupeItem=0908
+
+// Glass Sword
+[ItemDef 090C]
+DefName=iGlassSword
+Name=glass sword
+Type=tSwordWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUGargoyle
+Weight=6
+Dam=11,15
+//Speed=47
+Tag.Override.Speed=27
+ReqStr=20
+TwoHands=0
+Skill=Swordsmanship
+SkillMake=Alchemy 550
+Resources=14 iSand
+Material=tSand
+//Resources=14 iGlass
+//Material=tGlass
+DupeList=04073
+
+AbilityPrimary=sBleedAttack
+AbilitySecondary=sMortalStrike
+
+Category=Equipment
+Subsection=Weapons: Swordsmanship
+Description=Glass Sword
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 04073]
+DupeItem=090C
+
+// Halberd
+[ItemDef 0143E]
+DefName=iHalberd
+Name=halberd
+Type=tSwordWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=16
+Dam=18,21
+//Speed=29
+Tag.Override.Speed=40
+ReqStr=95
+TwoHands=1
+Skill=Swordsmanship
+SkillMake=Blacksmithing 391
+Resources=20 iIronIngot
+Material=tIngot
+AlterItem=iGargishTalwar
+DupeList=0143F
+
+AbilityPrimary=sWhirlwindAttack
+AbilitySecondary=sConcussionBlow
+
+Category=Equipment
+Subsection=Weapons: Swordsmanship
+Description=Halberd
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 0143F]
+DupeItem=0143E
+
+// Katana
+[ItemDef 013FE]
+DefName=iKatana
+Name=katana
+Type=tSwordWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=
+Dam=10,14
+//Speed=50
+Tag.Override.Speed=25
+ReqStr=25
+TwoHands=0
+Skill=Swordsmanship
+SkillMake=Blacksmithing 441
+Resources=8 iIronIngot
+Material=tIngot
+AlterItem=iGargishKatana
+DupeList=013FF
+
+AbilityPrimary=sDoubleStrike
+AbilitySecondary=sArmorIgnore
+
+Category=Equipment
+Subsection=Weapons: Swordsmanship
+Description=Katana
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 013FF]
+DupeItem=013FE
+
+// Longsword
+[ItemDef 0F60]
+DefName=iLongsword1
+Name=longsword
+Type=tSwordWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=7
+Dam=14,18
+//Speed=35
+Tag.Override.Speed=35
+ReqStr=38
+TwoHands=0
+Skill=Swordsmanship
+SkillMake=Blacksmithing 280
+Resources=12 iIronIngot
+Material=tIngot
+AlterItem=iDreadSword
+DupeList=0F61
+
+AbilityPrimary=sArmorIgnore
+AbilitySecondary=sConcussionBlow
+
+Category=Equipment
+Subsection=Weapons: Swordsmanship
+Description=Longsword
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 0F61]
+DupeItem=0F60
+
+// Longsword (Thin)
+[ItemDef 013B7]
+DefName=iLongsword2
+Name=longsword
+Type=tSwordWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=7
+Dam=14,18
+//Speed=35
+Tag.Override.Speed=35
+ReqStr=38
+TwoHands=0
+Skill=Swordsmanship
+SkillMake=Blacksmithing 280
+Resources=12 iIronIngot
+Material=tIngot
+AlterItem=iDreadSword
+DupeList=013B8
+
+AbilityPrimary=sArmorIgnore
+AbilitySecondary=sConcussionBlow
+
+Category=Equipment
+Subsection=Weapons: Swordsmanship
+Description=Longsword (Thin)
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 013B8]
+DupeItem=013B7
+
+// No-Dachi
+[ItemDef 027A2]
+DefName=iNoDachi
+Name=no-dachi
+Type=tSwordWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=10
+Dam=16,19
+//Speed=35
+Tag.Override.Speed=35
+ReqStr=40
+TwoHands=1
+Skill=Swordsmanship
+SkillMake=Blacksmithing 750
+Resources=18 iIronIngot
+Material=tIngot
+AlterItem=iGargishTalwar
+DupeList=027ED
+
+AbilityPrimary=sCrushingBlow
+AbilitySecondary=sRidingSwipe
+
+Category=Equipment
+Subsection=Weapons: Swordsmanship
+Description=No-Dachi
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 027ED]
+DupeItem=027A2
+
+// Pickaxe
+// Useable by all.
+[ItemDef 0E85]
+DefName=iPickaxe
+Name=pickaxe
+Type=tSwordWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIImbue
+CanUse=0
+Weight=11
+Dam=12,16
+//Speed=44
+Tag.Override.Speed=30
+ReqStr=50
+TwoHands=0
+Skill=Swordsmanship
+SkillMake=Tinkering 400
+Resources=4 iIronIngot
+Material=tIngot
+AlterItem=0
+DupeList=0E86
+
+AbilityPrimary=sDoubleStrike
+AbilitySecondary=sDisarm
+
+Category=Equipment
+Subsection=Weapons: Swordsmanship
+Description=Pickaxe
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 0E86]
+DupeItem=0E85
+
+// Radiant Scimitar
+[ItemDef 02D27]
+DefName=iRadiantScimitar
+Name=radiant scimitar
+Type=tSwordWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=9
+Dam=12,14
+//Speed=50
+Tag.Override.Speed=25
+ReqStr=20
+TwoHands=0
+Skill=Swordsmanship
+SkillMake=Blacksmithing 750
+Resources=15 iIronIngot
+Material=tIngot
+AlterItem=0
+DupeList=02D33
+
+AbilityPrimary=sWhirlwindAttack
+AbilitySecondary=sBladeweave
+
+Category=Equipment
+Subsection=Weapons: Swordsmanship
+Description=Radiant Scimitar
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 02D33]
+DupeItem=02D27
+
+// Rune Blade
+[ItemDef 02D26]
+DefName=iRuneBlade
+Name=rune blade
+Type=tSwordWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=7
+Dam=14,17
+//Speed=44
+Tag.Override.Speed=30
+ReqStr=30
+TwoHands=1
+Skill=Swordsmanship
+SkillMake=Blacksmithing 700
+Resources=15 iIronIngot
+Material=tIngot
+AlterItem=iGargishTalwar
+DupeList=02D32
+
+AbilityPrimary=sDisarm
+AbilitySecondary=sBladeweave
+
+Category=Equipment
+Subsection=Weapons: Swordsmanship
+Description=Rune Blade
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 02D32]
+DupeItem=02D26
+
+// Scimitar
+[ItemDef 013B5]
+DefName=iScimitar
+Name=scimitar
+Type=tSwordWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=5
+Dam=12,16
+//Speed=44
+Tag.Override.Speed=30
+ReqStr=25
+TwoHands=0
+Skill=Swordsmanship
+SkillMake=Blacksmithing 317
+Resources=10 iIronIngot
+Material=tIngot
+AlterItem=0
+DupeList=013B6
+
+AbilityPrimary=sDoubleStrike
+AbilitySecondary=sParalyzingBlow
+
+Category=Equipment
+Subsection=Weapons: Swordsmanship
+Description=Scimitar
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 013B6]
+DupeItem=013B5
+
+// Scythe
+[ItemDef 026BA]
+DefName=iScythe
+Name=scythe
+Type=tSwordWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=5
+Dam=16,19
+//Speed=38
+Tag.Override.Speed=35
+ReqStr=45
+TwoHands=1
+Skill=Swordsmanship
+SkillMake=Blacksmithing 390
+Resources=14 iIronIngot
+Material=tIngot
+AlterItem=iGargishScythe
+DupeList=026C4
+
+AbilityPrimary=sBleedAttack
+AbilitySecondary=sParalyzingBlow
+
+Category=Equipment
+Subsection=Weapons: Swordsmanship
+Description=Scythe
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 026C4]
+DupeItem=026BA
+
+// Skinning Knife
+[ItemDef 0EC4]
+DefName=iSkinningKnife
+Name=skinning knife
+Type=tSwordWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIImbue
+CanUse=0
+Weight=1
+Dam=10,13
+//Speed=53
+Tag.Override.Speed=22
+ReqStr=5
+TwoHands=0
+Skill=Swordsmanship
+SkillMake=Tinkering 250
+Resources=2 iIronIngot
+Material=tIngot
+AlterItem=0
+DupeList=0EC5
+
+AbilityPrimary=sShadowStrike
+AbilitySecondary=sBleedAttack
+
+Category=Equipment
+Subsection=Weapons: Swordsmanship
+Description=Skinning Knife
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 0EC5]
+DupeItem=0EC4
+
+// Stone War Sword
+[ItemDef 0900]
+DefName=iStoneWarSword
+Name=stone war sword
+Type=tSwordWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUGargoyle
+Weight=6
+Dam=15,19
+//Speed=35
+Tag.Override.Speed=37
+ReqStr=40
+TwoHands=0
+Skill=Swordsmanship
+SkillMake=Carpentry 550
+Resources=18 iHighQualityGranite
+Material=tGranite
+DupeList=04071
+
+AbilityPrimary=sArmorIgnore
+AbilitySecondary=sParalyzingBlow
+
+Category=Equipment
+Subsection=Weapons: Swordsmanship
+Description=Stone War Sword
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 04071]
+DupeItem=0900
+
+// Paladin Sword
+[ItemDef 026CE]
+DefName=iPaladinSword
+Name=paladin sword
+Type=tSwordWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=
+Dam=20,24
+//Speed=35
+Tag.Override.Speed=50
+ReqStr=85
+TwoHands=0
+Skill=Swordsmanship
+//SkillMake=Blacksmithing
+//Resources=iIronIngot
+//Material=tIngot
+AlterItem=0
+DupeList=026CF
+
+AbilityPrimary=sDisarm
+AbilitySecondary=sParalyzingBlow
+
+Category=Equipment
+Subsection=Weapons: Swordsmanship
+Description=Paladin Sword
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 026CF]
+DupeItem=026CE
+
+// The Redeemer
+[ItemDef iTheRedeemer]
+ID=iPaladinSword
+Name=The Redeemer
+Type=tSwordWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=
+Dam=20,24
+//Speed=50
+Tag.Override.Speed=50
+ReqStr=85
+TwoHands=0
+Skill=Swordsmanship
+//SkillMake=Blacksmithing
+//Resources=iIronIngot
+//Material=tIngot
+AlterItem=0
+
+AbilityPrimary=sDisarm
+AbilitySecondary=sParalyzingBlow
+
+Category=Equipment
+Subsection=Weapons: Swordsmanship
+Description=The Redeemer
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+// Viking Sword
+[ItemDef 013B9]
+DefName=iVikingSword
+Name=viking sword
+Type=tSwordWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=6
+Dam=15,19
+//Speed=35
+Tag.Override.Speed=37
+ReqStr=40
+TwoHands=0
+Skill=Swordsmanship
+SkillMake=Blacksmithing 243
+Resources=14 iIronIngot
+Material=tIngot
+AlterItem=iStoneWarSword
+DupeList=013BA
+
+AbilityPrimary=sCrushingblow
+AbilitySecondary=sParalyzingBlow
+
+Category=Equipment
+Subsection=Weapons: Swordsmanship
+Description=Viking Sword
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 013BA]
+DupeItem=013B9
+
+// Wakizashi
+[ItemDef 027A4]
+DefName=iWakizashi
+Name=wakizashi
+Type=tSwordWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=5
+Dam=10,14
+//Speed=50
+Tag.Override.Speed=25
+ReqStr=20
+TwoHands=0
+Skill=Swordsmanship
+SkillMake=Blacksmithing 500
+Resources=8 iIronIngot
+Material=tIngot
+AlterItem=0
+DupeList=027EF
+
+Category=Equipment
+Subsection=Weapons: Swordsmanship
+Description=Wakizashi
+
+AbilityPrimary=sDisarm
+AbilitySecondary=sParalyzingBlow
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 027EF]
+DupeItem=027A4
+
+
+[EOF]

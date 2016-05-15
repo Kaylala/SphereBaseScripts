@@ -245,18 +245,4 @@ On=@Create
 UseCur={50 100}
 
 
-[ItemDef 012B3]
-DefName=iMalletAndChisel
-Type=tMasonryTool
-Weight=1
-Value=3
-
-Category=Utility
-Subsection=Tools: Masonry
-Description=Mallet and Chisel
-
-On=@Create
-UseCur={50 100}
-
-
 [EOF]

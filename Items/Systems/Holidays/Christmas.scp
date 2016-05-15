@@ -1,0 +1,197 @@
+[ItemDef 02332]
+DefName=iFireflies1
+Name=fireflies
+NameLoc=1029010
+Type=tLitLight
+Weight=255
+
+Category=Systems
+Subsection=Holidays: Christmas
+Description=Fireflies 1
+
+[ItemDef 02333]
+NameLoc=1029011
+
+[ItemDef 02334]
+NameLoc=1029012
+
+[ItemDef 02335]
+NameLoc=1029013
+
+
+[ItemDef 02336]
+DefName=iFireflies2
+Name=fireflies
+NameLoc=1029014
+Type=tLitLight
+Weight=255
+
+Category=Systems
+Subsection=Holidays: Christmas
+Description=Fireflies 2
+
+[ItemDef 02337]
+NameLoc=1029015
+
+[ItemDef 02338]
+NameLoc=1029016
+
+[ItemDef 02339]
+NameLoc=1029017
+
+
+[ItemDef iGingerbreadHouseDeed]
+ID=iDeed
+Name=Gingerbread House Deed
+NameLoc=1077394		// a Gingerbread House Deed
+Type=tDeed
+Weight=1
+
+Category=Systems
+Subsection=Holidays: Christmas
+Description=Gingerbread House Deed (Needs multi still)
+
+On=@Create
+//More1=mGingerbreadHouseMulti
+
+
+[ItemDef 02BE5]
+DefName=iGingerbreadHouse
+Name=Gingerbread House
+NameLoc=1077395
+Type=tNormal
+Can=CanIFlip
+Weight=255
+DupeList=02BE6,02BE7
+
+Category=Systems
+Subsection=Holidays: Christmas
+Description=Gingerbread House
+
+[ItemDef 02BE6]
+DupeItem=02BE5
+
+[ItemDef 02BE7]
+DupeItem=02BE5
+
+
+[ItemDef 04A98]
+DefName=iSantaStatue
+Name=santa statue
+NameLoc=1097968
+Type=tUnlitLight
+TData3=iSantaStatueLit
+Can=CanIFlip
+Weight=10
+
+Category=Systems
+Subsection=Holidays: Christmas
+Description=Santa Statue (Unlit)
+
+On=@Create
+Attr=AttrBlessed|AttrNewbie
+
+[ItemDef 04A99]
+DupeItem=iSantaStatue
+NameLoc=1097969
+Type=tUnlitLight
+TData3=04A9B
+
+
+[ItemDef 04A9A]
+DefName=iSantaStatueLit
+Name=santa statue
+NameLoc=1097970
+Type=tLitLight
+TData3=iSantaStatue
+Can=CanIFlip
+Weight=10
+
+Category=Systems
+Subsection=Holidays: Christmas
+Description=Santa Statue (Lit)
+
+On=@Create
+Attr=AttrBlessed|AttrNewbie
+MoreZ=29
+
+[ItemDef 04A9B]
+DupeItem=04A9A
+NameLoc=1097971
+Type=tLitLight
+TData3=04A99
+
+
+[ItemDef 0456E]
+DefName=iSnowSculpture1
+NameLoc=1096646		// snow statue
+Name=snow sculpture
+Type=tNormal
+Can=CanIFlip
+Weight=5
+DupeList=0456F
+
+Category=Systems
+Subsection=Holidays: Christmas
+Description=Snow Statue 1
+
+[ItemDef 0456F]
+NameLoc=1096647
+DupeItem=0456E
+
+
+[ItemDef 04578]
+DefName=iSnowStatue2
+Name=snow statue
+NameLoc=1096656
+Type=tNormal
+Can=CanIFlip
+Weight=5
+DupeList=04579
+
+Category=Systems
+Subsection=Holidays: Christmas
+Description=Snow Statue 2
+
+[ItemDef 04579]
+NameLoc=1096657
+DupeItem=04578
+
+
+[ItemDef 0457A]
+DefName=iSnowStatue3
+Name=snow statue
+NameLoc=1096658
+Type=tNormal
+Can=CanIFlip
+Weight=5
+DupeList=0457B
+
+Category=Systems
+Subsection=Holidays: Christmas
+Description=Snow Statue 3
+
+[ItemDef 0457B]
+NameLoc=1096659
+DupeItem=0457A
+
+
+[ItemDef 0457C]
+DefName=iSnowStatue4
+Name=snow statue
+NameLoc=1096660
+Type=tNormal
+Can=CanIFlip
+Weight=5
+DupeList=0457D
+
+Category=Systems
+Subsection=Holidays: Christmas
+Description=Snow Statue 4
+
+[ItemDef 0457D]
+NameLoc=1096660
+DupeItem=0457C
+
+
+[EOF]

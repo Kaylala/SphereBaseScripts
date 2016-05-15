@@ -1,0 +1,907 @@
+/////////////
+// Fencing //
+/////////////
+
+// Assassin Spike
+[ItemDef 02D21]
+DefName=iAssassinSpike
+Name=assassin spike
+Type=tFencingWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=4
+Dam=10,12
+//Speed=56
+Tag.Override.Speed=20
+ReqStr=15
+TwoHands=0
+Skill=Fencing
+SkillMake=Blacksmithing 700
+Resources=9 iIronIngot
+Material=tIngot
+AlterItem=iShortblade
+DupeList=02D2D
+
+AbilityPrimary=sInfectiousStrike
+AbilitySecondary=sShadowStrike
+
+Category=Equipment
+Subsection=Weapons: Fencing
+Description=Assassin Spike
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 02D2D]
+DupeItem=02D21
+
+// Bloodblade
+[ItemDef 08FE]
+DefName=iBloodblade
+Name=bloodblade
+Type=tFencingWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUGargoyle
+Weight=4
+Dam=10,12
+//Speed=56
+Tag.Override.Speed=20
+ReqStr=10
+TwoHands=0
+Skill=Fencing
+SkillMake=Blacksmithing 441
+Resources=8 iIronIngot
+Material=tIngot
+DupeList=04072
+
+AbilityPrimary=sBleedAttack
+AbilitySecondary=sParalyzingBlow
+
+Category=Equipment
+Subsection=Weapons: Fencing
+Description=Bloodblade
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 04072]
+DupeItem=08FE
+
+// Dagger
+[ItemDef 0F51]
+DefName=iDagger
+Name=dagger
+Type=tFencingWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=1
+Dam=10,12
+//Speed=56
+Tag.Override.Speed=20
+ReqStr=10
+TwoHands=0
+Skill=Fencing
+SkillMake=Blacksmithing 0
+Resources=3 iIronIngot
+Material=tIngot
+AlterItem=iGargishDagger
+DupeList=0F52
+
+AbilityPrimary=sShadowStrike
+AbilitySecondary=sInfectiousStrike
+
+Category=Equipment
+Subsection=Weapons: Fencing
+Description=Dagger
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 0F52]
+DupeItem=0F51
+
+// Double Bladed Staff
+[ItemDef 026BF]
+DefName=iDoubleBladedStaff
+Name=double bladed staff
+Type=tFencingWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=2
+Dam=11,14
+//Speed=53
+Tag.Override.Speed=22
+ReqStr=50
+TwoHands=1
+Skill=Fencing
+SkillMake=Blacksmithing 450
+Resources=16 iIronIngot
+Material=tIngot
+AlterItem=iDualPointedSpear
+DupeList=026C9
+
+AbilityPrimary=sDoubleStrike
+AbilitySecondary=sInfectiousStrike
+
+Category=Equipment
+Subsection=Weapons: Fencing
+Description=Double Bladed Staff
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 026C9]
+DupeItem=026BF
+
+// Dual Pointed Spear
+[ItemDef 0904]
+DefName=iDualPointedSpear
+Name=dual pointed spear
+Type=tFencingWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUGargoyle
+Weight=2
+Dam=11,14
+//Speed=53
+Tag.Override.Speed=22
+ReqStr=40
+TwoHands=1
+Skill=Fencing
+SkillMake=Blacksmithing 470
+Resources=12 iIronIngot
+Material=tIngot
+DupeList=0406D
+
+AbilityPrimary=sDoubleStrike
+AbilitySecondary=sDisarm
+
+Category=Equipment
+Subsection=Weapons: Fencing
+Description=Dual Pointed Spear
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 0406D]
+DupeItem=0904
+
+// Elven Spellblade
+[ItemDef 02D20]
+DefName=iElvenSpellblade
+Name=elven spellblade
+Type=tFencingWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=5
+Dam=12,15
+//Speed=50
+Tag.Override.Speed=25
+ReqStr=35
+TwoHands=1
+Skill=Fencing
+SkillMake=Blacksmithing 700
+Resources=14 iIronIngot
+Material=tIngot
+AlterItem=iDualPointedSpear
+DupeList=02D2C
+
+AbilityPrimary=sPsychicAttack
+AbilitySecondary=sBleedAttack
+
+Category=Equipment
+Subsection=Weapons: Fencing
+Description=Elven Spellblade
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 02D2C]
+DupeItem=02D20
+
+// Gargish Dagger
+[ItemDef 0902]
+DefName=iGargishDagger
+Name=gargish dagger
+Type=tFencingWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUGargoyle
+Weight=1
+Dam=10,12
+//Speed=56
+Tag.Override.Speed=20
+ReqStr=10
+TwoHands=0
+Skill=Fencing
+SkillMake=Blacksmithing 0
+Resources=3 iIronIngot
+Material=tIngot
+DupeList=0406A
+
+AbilityPrimary=sShadowStrike
+AbilitySecondary=sInfectiousStrike
+
+Category=Equipment
+Subsection=Weapons: Fencing
+Description=Gargish Dagger
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 0406A]
+DupeItem=0902
+
+// Gargish Kryss
+[ItemDef 048BC]
+DefName=iGargishKryss
+Name=gargish kryss
+Type=tFencingWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUGargoyle
+Weight=2
+Dam=10,12
+//Speed=56
+Tag.Override.Speed=20
+ReqStr=10
+TwoHands=0
+Skill=Fencing
+SkillMake=Blacksmithing 367
+Resources=8 iIronIngot
+Material=tIngot
+DupeList=048BD
+
+AbilityPrimary=sArmorIgnore
+AbilitySecondary=sInfectiousStrike
+
+Category=Equipment
+Subsection=Weapons: Fencing
+Description=Gargish Kryss
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 048BD]
+DupeItem=049BC
+
+// Gargish Lance
+[ItemDef 048CA]
+DefName=iGargishLance
+Name=gargish lance
+Type=tFencingWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUGargoyle
+Weight=12
+Dam=18,22
+//Speed=26
+Tag.Override.Speed=42
+ReqStr=95
+TwoHands=0
+Skill=Fencing
+SkillMake=Blacksmithing 480
+Resources=20 iIronIngot
+Material=tIngot
+DupeList=048CB
+
+AbilityPrimary=sDismount
+AbilitySecondary=sConcussionBlow
+
+Category=Equipment
+Subsection=Weapons: Fencing
+Description=Gargish Lance
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 048CB]
+DupeItem=048CA
+
+// Gargish Pike
+[ItemDef 048C8]
+DefName=iGargishPike
+Name=gargish pike
+Type=tFencingWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUGargoyle
+Weight=8
+Dam=14,17
+//Speed=44
+Tag.Override.Speed=30
+ReqStr=50
+TwoHands=1
+Skill=Fencing
+SkillMake=Blacksmithing 470
+Resources=12 iIronIngot
+Material=tIngot
+DupeList=048C9
+
+AbilityPrimary=sParalyzingBlow
+AbilitySecondary=sInfectiousStrike
+
+Category=Equipment
+Subsection=Weapons: Fencing
+Description=Gargish Pike
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 048C9]
+DupeItem=048C8
+
+// Gargish Tekagi
+[ItemDef 048CE]
+DefName=iGargishTekagi
+Name=gargish tekagi
+Type=tFencingWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUGargoyle
+Weight=5
+Dam=10,13
+//Speed=56
+Tag.Override.Speed=20
+ReqStr=10
+TwoHands=1
+Skill=Fencing
+SkillMake=Blacksmithing 550
+Resources=12 iIronIngot
+Material=tIngot
+DupeList=048CF
+
+AbilityPrimary=sDualWield
+AbilitySecondary=sTalonStrike
+
+Category=Equipment
+Subsection=Weapons: Fencing
+Description=Gargish Tekagi
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 048CF]
+DupeItem=048CE
+
+// Gargish War Fork
+[ItemDef 048BE]
+DefName=iGargishWarFork
+Name=gargish war fork
+Type=tFencingWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUGargoyle
+Weight=9
+Dam=10,14
+//Speed=50
+Tag.Override.Speed=25
+ReqStr=45
+TwoHands=0
+Skill=Fencing
+SkillMake=Blacksmithing 429
+Resources=12 iIronIngot
+Material=tIngot
+DupeList=048BF
+
+AbilityPrimary=sBleedAttack
+AbilitySecondary=sDisarm
+
+Category=Equipment
+Subsection=Weapons: Fencing
+Description=Gargish War Fork
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 048BF]
+DupeItem=048BE
+
+// Kama
+[ItemDef 027AD]
+DefName=iKama
+Name=kama
+Type=tFencingWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=7
+Dam=10,13
+//Speed=56
+Tag.Override.Speed=20
+ReqStr=15
+TwoHands=1
+Skill=Fencing
+SkillMake=Blacksmithing 400
+Resources=14 iIronIngot
+Material=tIngot
+AlterItem=iDualPointedSpear
+DupeList=027F8
+
+AbilityPrimary=sWhirlwindAttack
+AbilitySecondary=sDefenseMastery
+
+Category=Equipment
+Subsection=Weapons: Fencing
+Description=Kama
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 027F8]
+DupeItem=027AD
+
+// Kryss
+[ItemDef 01400]
+DefName=iKryss
+Name=kryss
+Type=tFencingWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=2
+Dam=10,12
+//Speed=56
+Tag.Override.Speed=20
+ReqStr=10
+TwoHands=0
+Skill=Fencing
+SkillMake=Blacksmithing 367
+Resources=8 iIronIngot
+Material=tIngot
+AlterItem=iGargishKryss
+DupeList=01401
+
+AbilityPrimary=sArmorIgnore
+AbilitySecondary=sInfectiousStrike
+
+Category=Equipment
+Subsection=Weapons: Fencing
+Description=Kryss
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 01401]
+DupeItem=01400
+
+// Lajatang
+[ItemDef 027A7]
+DefName=iLajatang
+Name=lajatang
+Type=tFencingWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=12
+Dam=16,19
+//Speed=38
+Tag.Override.Speed=35
+ReqStr=65
+TwoHands=1
+Skill=Fencing
+SkillMake=Blacksmithing 800
+Resources=25 iIronIngot
+Material=tIngot
+AlterItem=iDualPointedSpear
+DupeList=027F2
+
+AbilityPrimary=sDefenseMastery
+AbilitySecondary=sFrenziedWhirlwind
+
+Category=Equipment
+Subsection=Weapons: Fencing
+Description=Lajatang
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 027F2]
+DupeItem=027A7
+
+// Lance
+[ItemDef 026C0]
+DefName=iLance
+Name=lance
+Type=tFencingWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=12
+Dam=18,22
+//Speed=26
+Tag.Override.Speed=42
+ReqStr=95
+TwoHands=0
+Skill=Fencing
+SkillMake=Blacksmithing 480
+Resources=20 iIronIngot
+Material=tIngot
+AlterItem=iGargishLance
+DupeList=026CA
+
+AbilityPrimary=sDismount
+AbilitySecondary=sConcussionBlow
+
+Category=Equipment
+Subsection=Weapons: Fencing
+Description=Lance
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 026CA]
+DupeItem=026C0
+
+// Leafblade
+[ItemDef 02D22]
+DefName=iLeafblade
+Name=leafblade
+Type=tFencingWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=8
+Dam=11,15
+//Speed=47
+Tag.Override.Speed=27
+ReqStr=20
+TwoHands=0
+Skill=Fencing
+SkillMake=Blacksmithing 700
+Resources=12 iIronIngot
+Material=tIngot
+AlterItem=iBloodblade
+DupeList=02D2E
+
+AbilityPrimary=sFeint
+AbilitySecondary=sArmorIgnore
+
+Category=Equipment
+Subsection=Weapons: Fencing
+Description=Leafblade
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 02D22]
+DupeItem=02D2E
+
+// Pike
+[ItemDef 026BE]
+DefName=iPike
+Name=pike
+Type=tFencingWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=8
+Dam=14,17
+//Speed=44
+Tag.Override.Speed=30
+ReqStr=50
+TwoHands=1
+Skill=Fencing
+SkillMake=Blacksmithing 470
+Resources=12 iIronIngot
+Material=tIngot
+AlterItem=iGargishPike
+DupeList=026C8
+
+AbilityPrimary=sParalyzingBlow
+AbilitySecondary=sInfectiousStrike
+
+Category=Equipment
+Subsection=Weapons: Fencing
+Description=Pike
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 026C8]
+DupeItem=026BE
+
+// Pitchfork
+[ItemDef 0E87]
+DefName=iPitchfork
+Name=pitchfork
+Type=tFencingWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIImbue
+CanUse=CanUHuman|CanUElf
+Weight=11
+Dam=12,15
+//Speed=50
+Tag.Override.Speed=25
+ReqStr=50
+TwoHands=1
+Skill=Fencing
+SkillMake=Tinkering 0
+Resources=8 iIronIngot
+Material=tIngot
+AlterItem=0
+DupeList=0E88
+
+AbilityPrimary=sBleedAttack
+AbilitySecondary=sDismount
+
+Category=Equipment
+Subsection=Weapons: Fencing
+Description=Pitchfork
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 0E88]
+DupeItem=0E87
+
+// Sai
+[ItemDef 027AF]
+DefName=iSai
+Name=sai
+Type=tFencingWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=7
+Dam=10,13
+//Speed=56
+Tag.Override.Speed=20
+ReqStr=15
+TwoHands=1
+Skill=Fencing
+SkillMake=Blacksmithing 500
+Resources=12 iIronIngot
+Material=tIngot
+AlterItem=iDualPointedSpear
+DupeList=027FA
+
+AbilityPrimary=sDualWield
+AbilitySecondary=sArmorPierce
+
+Category=Equipment
+Subsection=Weapons: Fencing
+Description=Sai
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 027FA]
+DupeItem=027AF
+
+// Short Spear
+[ItemDef 01402]
+DefName=iShortSpear
+Name=short spear
+Type=tFencingWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=4
+Dam=10,13
+//Speed=56
+Tag.Override.Speed=20
+ReqStr=40
+TwoHands=1
+Skill=Fencing
+SkillMake=Blacksmithing 453
+Resources=6 iIronIngot
+Material=tIngot
+AlterItem=iDualPointedSpear
+DupeList=01403
+
+AbilityPrimary=sShadowStrike
+AbilitySecondary=sMortalStrike
+
+Category=Equipment
+Subsection=Weapons: Fencing
+Description=Short Spear
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 01403]
+DupeItem=01402
+
+// Shortblade
+[ItemDef 0907]
+DefName=iShortblade
+Name=shortblade
+Type=tFencingWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUGargoyle
+Weight=4
+Dam=10,13
+//Speed=56
+Tag.Override.Speed=22
+ReqStr=10
+TwoHands=0
+Skill=Fencing
+SkillMake=Blacksmithing 280
+Resources=10 iIronIngot
+Material=tIngot
+DupeList=04076
+
+AbilityPrimary=sArmorIgnore
+AbilitySecondary=sMortalStrike
+
+Category=Equipment
+Subsection=Weapons: Fencing
+Description=Shortblade
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 04076]
+DupeItem=0907
+
+// Spear
+[ItemDef 0F62]
+DefName=iSpear
+Name=spear
+Type=tFencingWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=7
+Dam=13,16
+//Speed=47
+Tag.Override.Speed=27
+ReqStr=50
+TwoHands=1
+Skill=Fencing
+SkillMake=Blacksmithing 490
+Resources=12 iIronIngot
+Material=tIngot
+AlterItem=iDualPointedSpear
+DupeList=0F63
+
+AbilityPrimary=sArmorIgnore
+AbilitySecondary=sParalyzingBlow
+
+Category=Equipment
+Subsection=Weapons: Fencing
+Description=Spear
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 0F63]
+DupeItem=0F62
+
+// Tekagi
+[ItemDef 027AB]
+DefName=iTekagi
+Name=tekagi
+Type=tFencingWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=5
+Dam=10,13
+//Speed=56
+Tag.Override.Speed=20
+ReqStr=10
+TwoHands=1
+Skill=Fencing
+SkillMake=Blacksmithing 550
+Resources=12 iIronIngot
+Material=tIngot
+AlterItem=iGargishTekagi
+DupeList=027F6
+
+AbilityPrimary=sDualWield
+AbilitySecondary=sTalonStrike
+
+Category=Equipment
+Subsection=Weapons: Fencing
+Description=Tekagi
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 027F6]
+DupeItem=027AB
+
+// War Cleaver
+[ItemDef 02D23]
+DefName=iWarCleaver
+Name=war cleaver
+Type=tFencingWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=5
+Dam=10,13
+//Speed=56
+Tag.Override.Speed=22
+ReqStr=15
+TwoHands=0
+Skill=Fencing
+SkillMake=Blacksmithing 800
+Resources=18 iIronIngot
+Material=tIngot
+AlterItem=iShortblade
+DupeList=02D2F
+
+AbilityPrimary=sDisarm
+AbilitySecondary=sBladeweave
+
+Category=Equipment
+Subsection=Weapons: Fencing
+Description=War Cleaver
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 02D2F]
+DupeItem=02D23
+
+// War Fork
+[ItemDef 01404]
+DefName=iWarFork
+Name=war fork
+Type=tFencingWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=9
+Dam=10,14
+//Speed=50
+Tag.Override.Speed=25
+ReqStr=45
+TwoHands=0
+Skill=Fencing
+SkillMake=Blacksmithing 429
+Resources=12 iIronIngot
+Material=tIngot
+AlterItem=iGargishWarFork
+DupeList=01405
+
+AbilityPrimary=sBleedAttack
+AbilitySecondary=sDisarm
+
+Category=Equipment
+Subsection=Weapons: Fencing
+Description=War Fork
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 01405]
+DupeItem=01404
+
+
+[EOF]

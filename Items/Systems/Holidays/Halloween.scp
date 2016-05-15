@@ -920,4 +920,22 @@ If !(<Tag0.pCharName>)
 EndIf
 
 
+[ItemDef 042BD]
+DefName=iGrimWarning
+Name=grim warning
+NameLoc=1095957
+Type=tNormal
+//Weight=5	// Original asset had this. Maybe it is used else where as well besides holiday?
+Weight=1
+DupeList=04687
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=Grim Warning
+
+[ItemDef 04687]
+NameLoc=1096927
+DupeItem=042BD
+
+
 [EOF]

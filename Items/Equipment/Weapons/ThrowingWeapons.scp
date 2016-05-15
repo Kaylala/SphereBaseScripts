@@ -1,0 +1,114 @@
+//////////////
+// Throwing //
+//////////////
+
+// Boomerang
+[ItemDef 08FF]
+DefName=iBoomerang
+Name=boomerang
+Type=tThrowingWeapon
+TData4=iFxBoomerang
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUGargoyle
+Weight=4
+Dam=11,15
+//Speed=56
+Tag.Override.Speed=27
+Range=7
+ReqStr=25
+TwoHands=0
+Skill=Throwing
+SkillMake=Blacksmithing 750
+Resources=5 iIronIngot
+Material=tIngot
+DupeList=04067
+
+AbilityPrimary=sMysticArc
+AbilitySecondary=sConcussionBlow
+
+Category=Equipment
+Subsection=Weapons: Throwing
+Description=Boomerang
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 08FF]
+DupeItem=04067
+
+// Cyclone
+[ItemDef 0901]
+DefName=iCyclone
+Name=cyclone
+Type=tThrowingWeapon
+TData4=iFxCyclone
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUGargoyle
+Weight=6
+Dam=13,17
+//Speed=44
+Tag.Override.Speed=32
+Range=9
+ReqStr=40
+TwoHands=0
+Skill=Throwing
+SkillMake=Blacksmithing 750
+Resources=9 iIronIngot
+Material=tIngot
+DupeList=0406C
+
+AbilityPrimary=sMovingShot
+AbilitySecondary=sInfusedThrow
+
+Category=Equipment
+Subsection=Weapons: Throwing
+Description=Cyclone
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 0406C]
+DupeItem=0901
+
+// Soul Glaive
+[ItemDef 090A]
+DefName=iSoulGlaive
+Name=soul glaive
+Type=tThrowingWeapon
+TData4=iFxSoulGaive
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUGargoyle
+Weight=8
+Dam=16,20
+//Speed=40
+Tag.Override.Speed=40
+Range=11
+ReqStr=60
+TwoHands=0
+Skill=Throwing
+SkillMake=Blacksmithing 750
+Resources=9 iIronIngot
+Material=tIngot
+DupeList=0406B
+
+AbilityPrimary=sArmorIgnore
+AbilitySecondary=sMortalStrike
+
+Category=Equipment
+Subsection=Weapons: Throwing
+Description=Soul Glaive
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 0406B]
+DupeItem=090A
+
+
+[EOF]

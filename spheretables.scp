@@ -24,6 +24,7 @@ Scripts/Core/Global/				// Global Events (Ini Events)
 Scripts/Core/Combat/				// Combat Events
 Scripts/Core/Functions/				// Core Functions
 Scripts/Core/Compatibility.scp		// We should process this after types and defs just in case.
+Scripts/Core/StartingItems.scp
 Scripts/Core/						// Core Files (Misc loaded after above.)
 Scripts/Core/Factions/
 Scripts/Core/ChampionSpawns/
@@ -37,15 +38,20 @@ Scripts/Items/
 Scripts/Items/Artifacts/
 Scripts/Items/Decorations/
 Scripts/Items/Decorations/Furniture/
+Scripts/Items/Decorations/Glassware/
+Scripts/Items/Decorations/Miniatures/
+Scripts/Items/Decorations/Sculptures/
 Scripts/Items/Effects/
 Scripts/Items/Equipment/
 Scripts/Items/Equipment/Armor/
 Scripts/Items/Equipment/Clothing/
 Scripts/Items/Equipment/ColoredArmor/
+Scripts/Items/Equipment/Weapons/
 Scripts/Items/Geology/
 Scripts/Items/Magic/
 Scripts/Items/Miscellaneous/
 Scripts/Items/Multis/
+Scripts/Items/Plants/
 Scripts/Items/Professions/
 Scripts/Items/Resources/
 Scripts/Items/Resources/Fishing/
@@ -58,8 +64,14 @@ Scripts/Items/Structures/
 Scripts/Items/Structures/Doors/
 Scripts/Items/Structures/Floors/
 Scripts/Items/Systems/
+Scripts/Items/Systems/AnniversaryGifts/
+Scripts/Items/Systems/CooperativeCollection/
+Scripts/Items/Systems/Holidays/
+Scripts/Items/Systems/QuestItems/
+Scripts/Items/Systems/VeteranRewards/
 Scripts/Items/Utility/
 Scripts/Items/Utility/LightSources/
+Scripts/Items/Utility/Tools/
 // Mobiles
 Scripts/Mobiles/
 Scripts/Mobiles/Animals/

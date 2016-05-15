@@ -1,0 +1,412 @@
+[ItemDef 022C4]
+DefName=iMiniStoneAndPlasterHouse
+Name=Stone and plaster house
+NameLoc=1011303=
+Type=tNormal
+Weight=255
+
+Category=Decorations
+Subsection=Miniatures: Mini-Houses
+Description=Stone and Plaster House
+
+
+[ItemDef 022C9]
+DefName=iMiniWoodenHouse
+Name=Wooden house
+NameLoc=1011306
+Type=tNormal
+Weight=255
+
+Category=Decorations
+Subsection=Miniatures: Mini-Houses
+Description=Wooden House
+
+
+[ItemDef 022CA]
+DefName=iMiniBrickHouse
+Name=Brick house
+NameLoc=1011309
+Type=tNormal
+Weight=255
+DupeList=022CB,022CC,022CD
+
+Category=Decorations
+Subsection=Miniatures: Mini-Houses
+Description=Brick House
+
+[ItemDef 022CB]
+NameLoc=1011309
+DupeItem=022C4
+
+[ItemDef 022CC]
+NameLoc=1011309
+DupeItem=022CA
+
+[ItemDef 022CD]
+NameLoc=1011309
+DupeItem=022CA
+
+
+[ItemDef 022CE]
+DefName=iMiniCastle
+Name=Castle
+NameLoc=1011314
+Type=tNormal
+Weight=255
+DupeList=022CF,022D0,022D1,022D2,022D3,022D4,022D5,022D6,022D7,022D8,022D9,022DA,022DB,022DC,022DD
+
+Category=Decorations
+Subsection=Miniatures: Mini-Houses
+Description=Castle
+
+[ItemDef 022CF]
+NameLoc=1011314
+DupeItem=022CE
+
+[ItemDef 022D0]
+NameLoc=1011314
+DupeItem=022CE
+
+[ItemDef 022D1]
+NameLoc=1011314
+DupeItem=022CE
+
+[ItemDef 022D2]
+NameLoc=1011314
+DupeItem=022CE
+
+[ItemDef 022D3]
+NameLoc=1011314
+DupeItem=022CE
+
+[ItemDef 022D4]
+NameLoc=1011314
+DupeItem=022CE
+
+[ItemDef 022D5]
+NameLoc=1011314
+DupeItem=022CE
+
+[ItemDef 022D6]
+NameLoc=1011314
+DupeItem=022CE
+
+[ItemDef 022D7]
+NameLoc=1011314
+DupeItem=022CE
+
+[ItemDef 022D8]
+NameLoc=1011314
+DupeItem=022CE
+
+[ItemDef 022D9]
+NameLoc=1011314
+DupeItem=022CE
+
+[ItemDef 022DA]
+NameLoc=1011314
+DupeItem=022CE
+
+[ItemDef 022DB]
+NameLoc=1011314
+DupeItem=022CE
+
+[ItemDef 022DC]
+NameLoc=1011314
+DupeItem=022CE
+
+[ItemDef 022DD]
+NameLoc=1011314
+DupeItem=022CE
+
+
+[ItemDef 022DE]
+DefName=iMiniFieldStoneHouse
+Name=Field stone house
+NameLoc=1011304
+Type=tNormal
+Weight=255
+
+Category=Decorations
+Subsection=Miniatures: Mini-Houses
+Description=Field Stone House
+
+
+[ItemDef 022DF]
+DefName=iMiniSmallBrickHouse
+Name=Small brick house
+NameLoc=1011305
+Type=tNormal
+Weight=255
+
+Category=Decorations
+Subsection=Miniatures: Mini-Houses
+Description=Small brick House
+
+
+[ItemDef 022E0]
+DefName=iMiniWoodAndPlasterHouse
+Name=Wood and plaster house
+NameLoc=1011307
+Type=tNormal
+Weight=255
+
+Category=Decorations
+Subsection=Miniatures: Mini-Houses
+Description=Wood and plaster House
+
+
+[ItemDef 022E1]
+DefName=iMiniThatchedRoofCottage
+Name=Thatched-roof cottage
+NameLoc=1011308
+Type=tNormal
+Weight=255
+
+Category=Decorations
+Subsection=Miniatures: Mini-Houses
+Description=Thatched-Roof Cottage
+
+
+[ItemDef 022E2]
+DefName=iMiniLargeHouseWithPatio
+Name=Large house with patio
+NameLoc=1011315
+Type=tNormal
+Weight=255
+DupeList=022E3,022E4,022E5
+
+Category=Decorations
+Subsection=Miniatures: Mini-Houses
+Description=Large House with Patio
+
+[ItemDef 022E3]
+NameLoc=1011315
+DupeItem=022E2
+
+[ItemDef 022E4]
+NameLoc=1011315
+DupeItem=022E2
+
+[ItemDef 022E5]
+NameLoc=1011315
+DupeItem=022E2
+
+
+[ItemDef 022E6]
+DefName=iMiniSmallStoneKeep
+Name=Small stone keep
+NameLoc=1011313
+Type=tNormal
+Weight=255
+DupeList=022E7,022E8,022E9,022EA,022EB,022EC,022ED,022EE
+
+Category=Decorations
+Subsection=Miniatures: Mini-Houses
+Description=Small Stone Keep
+
+[ItemDef 022E7]
+NameLoc=1011313
+DupeItem=022E6
+
+[ItemDef 022E8]
+NameLoc=1011313
+DupeItem=022E6
+
+[ItemDef 022E9]
+NameLoc=1011313
+DupeItem=022E6
+
+[ItemDef 022EA]
+NameLoc=1011313
+DupeItem=022E6
+
+[ItemDef 022EB]
+NameLoc=1011313
+DupeItem=022E6
+
+[ItemDef 022EC]
+NameLoc=1011313
+DupeItem=022E6
+
+[ItemDef 022ED]
+NameLoc=1011313
+DupeItem=022E6
+
+[ItemDef 022EE]
+NameLoc=1011313
+DupeItem=022E6
+
+
+[ItemDef 022EF]
+DefName=iMiniMarbleHouseWithPatio
+Name=Marble house with patio
+NameLoc=1011316
+Type=tNormal
+Weight=255
+DupeList=022F0,022F1,022F2
+
+Category=Decorations
+Subsection=Miniatures: Mini-Houses
+Description=Marble House with Patio
+
+[ItemDef 022F0]
+NameLoc=1011316
+DupeItem=022F1
+
+[ItemDef 022f1]
+NameLoc=1011316
+DupeItem=022F1
+
+[ItemDef 022f2]
+NameLoc=1011316
+DupeItem=022F1
+
+
+[ItemDef 022F3]
+DefName=iMiniSandstoneHouseWithPatio
+Name=Sandstone house with patio
+NameLoc=1011320
+Type=tNormal
+Weight=255
+
+Category=Decorations
+Subsection=Miniatures: Mini-Houses
+Description=Sandstone House with Patio
+
+[ItemDef 022F4]
+DefName=iMiniSmallMarbleWorkshop
+Name=Small marble workshop
+NameLoc=1011322
+Type=tNormal
+Weight=255
+
+Category=Decorations
+Subsection=Miniatures: Mini-Houses
+Description=Small Marble Workshop
+
+
+[ItemDef 022F5]
+DefName=iMiniSmallTower
+Name=Small tower
+NameLoc=1011317
+Type=tNormal
+Weight=255
+
+Category=Decorations
+Subsection=Miniatures: Mini-Houses
+Description=Small Tower
+
+
+[ItemDef 022F6]
+DefName=iMiniSmallStoneWorkshop
+Name=Small stone workshop
+NameLoc=1011321
+Type=tNormal
+Weight=255
+
+Category=Decorations
+Subsection=Miniatures: Mini-Houses
+Description=Small Stone Workshop
+
+
+[ItemDef 022F7]
+DefName=iMiniTower
+Name=Tower
+NameLoc=1011312
+Type=tNormal
+Weight=255
+
+Category=Decorations
+Subsection=Miniatures: Mini-Houses
+Description=Tower
+
+[ItemDef 022F8]
+NameLoc=1011312
+DupeItem=022F7
+
+[ItemDef 022F9]
+NameLoc=1011312
+DupeItem=022F7
+
+[ItemDef 022FA]
+NameLoc=1011312
+DupeItem=022F7
+
+
+[ItemDef 022FB]
+DefName=iMiniTwoStoryLogCabin
+Name=Two-story log cabin
+NameLoc=1011318
+Type=tNormal
+Weight=255
+
+Category=Decorations
+Subsection=Miniatures: Mini-Houses
+Description=Two-Story Log Cabin
+
+
+[ItemDef 022FC]
+DefName=iMiniTwoStoryStoneAndPlasterHouse
+Name=Two-story stone and plaster house
+NameLoc=1011311
+Type=tNormal
+Weight=255
+DupeList=022FC,022FD,022FE
+
+Category=Decorations
+Subsection=Miniatures: Mini-Houses
+Description=Two-Story Stone and Plaster House
+
+[ItemDef 022FC]
+NameLoc=1011311
+DupeItem=022FB
+
+[ItemDef 022FE]
+NameLoc=1011311
+DupeItem=022FB
+
+[ItemDef 022FF]
+NameLoc=1011311
+DupeItem=022FB
+
+
+[ItemDef 02300]
+DefName=iMiniTwoStoryVilla
+Name=Two-story villa
+NameLoc=1011319
+Type=tNormal
+Weight=255
+DupeList=02301,02302,02303
+
+Category=Decorations
+Subsection=Miniatures: Mini-Houses
+Description=Two-Story Villa
+
+
+[ItemDef 02301]
+DefName=iMiniTwoStoryWoodAndPlasterHouse
+Name=Two-story wood and plaster house
+NameLoc=1011310
+Type=tNormal
+Weight=255
+DupeList=02302,02303,2303
+
+Category=Decorations
+Subsection=Miniatures: Mini-Houses
+Description=Two-Story Wood and Plaster House
+
+[ItemDef 02302]
+NameLoc=1011310
+DupeItem=02301
+
+[ItemDef 02303]
+NameLoc=1011310
+DupeItem=02301
+
+[ItemDef 02304]
+NameLoc=1011310
+DupeItem=02301
+
+
+[EOF]

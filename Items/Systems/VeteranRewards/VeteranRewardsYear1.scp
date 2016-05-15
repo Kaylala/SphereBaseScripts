@@ -1,0 +1,64 @@
+[ItemDef iCommodityDeedBox]
+ID=iWoodenBox
+Name=Commodity Deed Box
+NameLoc=1080523
+
+Category=Systems
+Subsection=Veteran Rewards: 1st Year
+Description=Commodity Deed Box
+
+On=@Create
+Color=
+
+// 1080525;The commodity deed box must be secured before you can use it.
+// 1080526;That must be in your bank box or commodity deed box to use it.
+
+
+[ItemDef 02313]
+DefName=iMiniContestWinningHouse
+Name=Mini Contest Winning House
+NameLoc=1062692
+Type=tNormal
+Weight=255
+DupeList=02314,02315,2316
+
+Category=Systems
+Subsection=Veteran Rewards: 1st Year
+Description=Mini Contest Winning House
+
+[ItemDef 02314]
+NameLoc=1062692
+DupeItem=02313
+
+[ItemDef 02315]
+NameLoc=1062692
+DupeItem=02313
+
+[ItemDef 02316]
+NameLoc=1062692
+DupeItem=02313
+
+
+[ItemDef 02317]
+DefName=iMiniContest2004WinningHouse
+Name=Mini Contest 2004 Winning House
+NameLoc=1072216
+//NameLoc=1072214		// Church at Night
+Type=tNormal
+Weight=255
+DupeList=02318,02319
+
+Category=Systems
+Subsection=Veteran Rewards: 1st Year
+Description=Mini Contest 2004 Winning House
+
+[ItemDef 02318]
+NameLoc=1072216
+DupeItem=02217
+
+[ItemDef 02319]
+NameLoc=1072216
+DupeItem=02217
+
+
+[EOF]

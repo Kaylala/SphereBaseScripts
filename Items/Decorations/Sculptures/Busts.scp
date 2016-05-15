@@ -1,0 +1,19 @@
+[ItemDef 012CA]
+DefName=iBust
+Name=bust
+NameLoc=1024810
+Type=tNormal
+Can=CanIFlip
+Weight=255
+DupeList=012cb
+
+Category=Decorations
+Subsection=Sculptures: Statues
+Description=Bust
+
+[ItemDef 012CB]
+NameLoc=1024811
+DupeItem=012CA
+
+
+[EOF]

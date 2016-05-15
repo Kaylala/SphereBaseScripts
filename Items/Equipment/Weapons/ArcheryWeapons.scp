@@ -1,0 +1,300 @@
+/////////////
+// Archery //
+/////////////
+
+// Bow
+[ItemDef 013B1]
+DefName=iBow
+Name=bow
+Type=tBowWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=6
+Dam=17,21
+//Speed=29
+Tag.Override.Speed=42
+Range=10
+ReqStr=30
+TwoHands=1
+Skill=Archery
+SkillMake=Bowcrafting 300
+Resources=7 iBoard
+Material=tWood
+DupeList=013B2
+
+AbilityPrimary=sParalyzingBlow
+AbilitySecondary=sMortalStrike
+
+Category=Equipment
+Subsection=Weapons: Archery
+Description=Bow
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 013B2]
+DupeItem=013B1
+
+// Composite Bow
+[ItemDef 026C2]
+DefName=iCompositeBow
+Name=composite bow
+Type=tBowWeapon
+TData3=iArrow
+TData4=iFxArrow
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=5
+Dam=16,20
+//Speed=32
+Tag.Override.Speed=40
+Range=10
+ReqStr=30
+TwoHands=1
+Skill=Archery
+SkillMake=Bowcrafting 700
+Resources=7 iBoard
+Material=tWood
+DupeList=026CC
+
+AbilityPrimary=sArmorIgnore
+AbilitySecondary=sMovingShot
+
+Category=Equipment
+Subsection=Weapons: Archery
+Description=Composite Bow
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 026CC]
+DupeItem=026C2
+
+// Crossbow
+[ItemDef 0F4F]
+DefName=iCrossbow
+Name=crossbow
+Type=tWeaponXBow
+TData3=iBolt
+TData4=iFxBolt
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=7
+Dam=18,22
+//Speed=26
+Tag.Override.Speed=45
+Range=8
+ReqStr=35
+TwoHands=1
+Skill=Archery
+SkillMake=Bowcrafting 600
+Resources=7 iBoard
+Material=tWood
+DupeList=0F50
+
+AbilityPrimary=sConcussionBlow
+AbilitySecondary=sMortalStrike
+
+Category=Equipment
+Subsection=Weapons: Archery
+Description=Crossbow
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 0F50]
+DupeItem=0F4F
+
+// Elven Composite Longbow
+[ItemDef 02D21]
+DefName=iElvenCompositeLongbow
+Name=elven compostite longbow
+Type=tBowWeapon
+TData3=iArrow
+TData4=iFxArrow
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=8
+Dam=15,19
+//Speed=32
+Tag.Override.Speed=37
+Range=10
+ReqStr=45
+TwoHands=1
+Skill=Archery
+SkillMake=Bowcrafting 950
+Resources=20 iBoard
+Material=tWood
+DupeList=02D2A
+
+AbilityPrimary=sForceArrow
+AbilitySecondary=sSerpentArrow
+
+Category=Equipment
+Subsection=Weapons: Archery
+Description=Elven Composite Longbow
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 02D2A]
+DupeItem=02D21
+
+// Heavy Crossbow
+[ItemDef 013FC]
+DefName=iHeavyCrossbow
+Name=heavy crossbow
+Type=tWeaponXBow
+TData3=iBolt
+TData4=iFxBolt
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=9
+Dam=20,24
+//Speed=20
+Tag.Override.Speed=50
+Range=8
+ReqStr=80
+TwoHands=1
+Skill=Archery
+SkillMake=Bowcrafting 800
+Resources=10 iBoard
+Material=tWood
+DupeList=013FD
+
+AbilityPrimary=sMovingShot
+AbilitySecondary=sDismount
+
+Category=Equipment
+Subsection=Weapons: Archery
+Description=Heavy Crossbow
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 013FD]
+DupeItem=013FC
+
+// Magical Shortbow
+[ItemDef 02D1F]
+DefName=iMagicalShortbow
+Name=magical shortbow
+Type=tBowWeapon
+TData3=iArrow
+TData4=iFxArrow
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=6
+Dam=12,16
+//Speed=44
+Tag.Override.Speed=30
+Range=10
+ReqStr=45
+TwoHands=1
+Skill=Archery
+SkillMake=Bowcrafting 850
+Resources=15 iBoard
+Material=tWood
+DupeList=02D2B
+
+AbilityPrimary=sLightningArrow
+AbilitySecondary=sPsychicAttack
+
+Category=Equipment
+Subsection=Weapons: Archery
+Description=Magical Shortbow
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 02D2B]
+DupeItem=02D1F
+
+// Repeating Crossbow
+[ItemDef 026C3]
+DefName=iRepeatingCrossbow
+Name=repeating crossbow
+Type=tWeaponXBow
+TData3=iBolt
+TData4=iFxBolt
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=6
+Dam=11,15
+//Speed=47
+Tag.Override.Speed=27
+Range=7
+ReqStr=30
+TwoHands=1
+Skill=Archery
+SkillMake=Bowcrafting 900
+Resources=10 iBoard
+Material=tWood
+DupeList=026CD
+
+AbilityPrimary=sDoubleStrike
+AbilitySecondary=sMovingShot
+
+Category=Equipment
+Subsection=Weapons: Archery
+Description=Repeating Crossbow
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 026CD]
+DupeItem=026C3
+
+// Yumi
+[ItemDef 027A5]
+DefName=iYumi
+Name=yumi
+Type=tBowWeapon
+TData3=iArrow
+TData4=iFxArrow
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=8
+Dam=13,17
+//Speed=26
+Tag.Override.Speed=32
+Range=10
+ReqStr=35
+TwoHands=1
+Skill=Archery
+SkillMake=Bowcraftinging 900
+Resources=10 iBoard
+Material=tWood
+DupeList=027F0
+
+AbilityPrimary=sArmorPierce
+AbilitySecondary=sDoubleShot
+
+Category=Equipment
+Subsection=Weapons: Archery
+Description=Yumi
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 027F0]
+DupeItem=027A5
+
+
+[EOF]

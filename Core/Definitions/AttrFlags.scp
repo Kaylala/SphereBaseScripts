@@ -51,6 +51,7 @@ AttrShipwreckItem		080000000000	// Recovered from shipwreck
 
 // Faction
 AttrFactionItem			0100000000000	// Faction Item (Has cliloc)
+AttrVvVItem				0200000000000	// VvV Item (Has CliLoc)
 
 AttrEnchanted			AttrEnhanced
 

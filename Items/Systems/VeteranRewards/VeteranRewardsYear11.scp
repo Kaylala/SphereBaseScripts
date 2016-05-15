@@ -1,0 +1,38 @@
+[ItemDef 042C6]
+DefName=iRetouchingTool
+Name=retouching tool
+NameLoc=1095966
+Type=tNormal
+Weight=1
+
+Category=Systems
+Subsection=Veteran Awards: 11th Year
+Description=Retouching Tool
+
+//1113814;retouching tool
+//1113818;Mount Hue: ~1_val~
+//1152952;Normal
+//1078520;Transparent
+
+On=@DClick
+Src.SMsgL -1,1113815	// Target the ethereal mount you wish to retouch.
+Target
+Return 1
+
+On=@TargOn_Item
+If (<ArgO.Type> == tEtherealStatuette)
+ If (<ArgO.Tag0.Hue> == Normal)
+  ArgO.Tag.Hue=Transparent
+  Src.SMsgL -1,1113817	// Your ethereal mount's transparency has been restored.
+  ArgO.Update
+  Return 1
+ Else
+  ArgO.Tag.Hue=Normal
+  Src.SMsgL -1,1113816	// Your ethereal mount's body has been solidified.
+  ArgO.Update
+  Return 1
+ EndIf
+EndIf
+
+
+[EOF]

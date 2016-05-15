@@ -1,0 +1,21 @@
+[Comment notes]
+* Tools: Sledge Hammer and Smith's Hammer can be imbued or retain color?!
+* Tessen: retains color from ingot or cloth? (Assuming ingot)
+* Wands: Can these be enhanced or imbued?
+* 'Can' Notes:
+* Tinkering/Bowcrafting/Alchemy/Carpentry Items: don't have CanIRecycle.
+* 'Tessen': weapons also lack recycle due to their 'Cloth' component.
+* Tinkering/Alchemy: CanIEnhance|CanIReforge has been removed. Runic kits don't exist for tinkering.
+* Wands: Have nothing on them at the moment; albeit CanIRepair
+* Not sure if Tinkering/Alchemy/Wand items can be imbued. CanIImbue is on Tinkering/Alchemy items.
+* Speed: Just copied Base pack speeds for Old Formulations. Not sure on their accuracy.
+* AlterItem: i<ItemName> is the item this Human/Elf equipment component can be altered into for Gargoyle usage.
+* Material: t<MaterialTypeDef>; this will be called for in the hard code soon.
+* Fukiya: This will be getting support soon.
+
+[DefName WeaponCompatibility]
+iLongsword=iLongsword1
+iShepherdsCrook=iShepherdsCrook1
+
+
+[EOF]

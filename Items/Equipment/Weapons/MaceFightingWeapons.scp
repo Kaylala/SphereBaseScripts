@@ -1,0 +1,1101 @@
+///////////////////
+// Mace Fighting //
+///////////////////
+
+
+// Black Staff
+[ItemDef 0DF0]
+DefName=iBlackStaff
+Name=black staff
+Type=tStaffWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=6
+Dam=13,16
+//Speed=32
+Tag.Override.Speed=27
+ReqStr=35
+TwoHands=1
+Skill=MaceFighting
+SkillMake=Carpentry 815
+Resources=9 iBoard
+Material=tWood
+AlterItem=0
+DupeList=0DF1
+
+AbilityPrimary=sWhirlwindAttack
+AbilitySecondary=sParalyzingBlow
+
+Category=Equipment
+Subsection=Weapons: Mace Fighting
+Description=Black Staff
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 0DF1]
+DupeItem=0DF0
+
+
+// Club
+[ItemDef 013B3]
+DefName=iClub
+Name=club
+Type=tStaffWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=9
+Dam=10,14
+//Speed=29
+Tag.Override.Speed=25
+ReqStr=40
+TwoHands=0
+Skill=MaceFighting
+SkillMake=Carpentry 650
+Resources=10 iBoard
+Material=tWood
+AlterItem=0
+DupeList=013B4
+
+AbilityPrimary=sShadowStrike
+AbilitySecondary=sDismount
+
+Category=Equipment
+Subsection=Weapons: Mace Fighting
+Description=Club
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 013B4]
+DupeItem=013B3
+
+
+// Diamond Mace
+[ItemDef 02D24]
+DefName=iDiamondMace
+Name=diamond mace
+Type=tStaffWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=10
+Dam=13,17
+//Speed=44
+Tag.Override.Speed=32
+ReqStr=35
+TwoHands=0
+Skill=MaceFighting
+SkillMake=Blacksmithing 700
+Resources=20 iIronIngot
+Material=tIngot
+AlterItem=iDiscMace
+DupeList=02D30
+
+AbilityPrimary=sConcussionBlow
+AbilitySecondary=sCrushingBlow
+
+Category=Equipment
+Subsection=Weapons: Mace Fighting
+Description=Diamond Mace
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 02D30]
+DupeItem=02D24
+
+
+// Disc Mace
+[ItemDef 0903]
+DefName=iDiscMace
+Name=disc mace
+Type=tStaffWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUGargoyle
+Weight=14
+Dam=11,15
+//Speed=47
+Tag.Override.Speed=27
+ReqStr=45
+TwoHands=0
+Skill=MaceFighting
+SkillMake=Blacksmithing 700
+Resources=20 iIronIngot
+Material=tIngot
+DupeList=0406E
+
+AbilityPrimary=sArmorIgnore
+AbilitySecondary=sDisarm
+
+Category=Equipment
+Subsection=Weapons: Mace Fighting
+Description=Disc Mace
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 0406E]
+DupeItem=0903
+
+
+// Gargish Gnarled Staff
+[ItemDef 048B8]
+DefName=iGargishGnarledStaff
+Name=gargish gnarled staff
+Type=tStaffWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUGargoyle
+Weight=3
+Dam=15,18
+//Speed=41
+Tag.Override.Speed=32
+ReqStr=20
+TwoHands=1
+Skill=MaceFighting
+SkillMake=Carpentry 789
+Resources=7 iBoard
+Material=tWood
+DupeList=048B9
+
+AbilityPrimary=sConcussionBlow
+AbilitySecondary=sParalyzingBlow
+
+Category=Equipment
+Subsection=Weapons: Mace Fighting
+Description=Gargish Gnarled Staff
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 048B9]
+DupeItem=048B8
+
+
+// Gargish Maul
+[ItemDef 048C2]
+DefName=iGargishMaul
+Name=gargish maul
+Type=tStaffWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUGargoyle
+Weight=10
+Dam=14,18
+//Speed=38
+Tag.Override.Speed=35
+ReqStr=45
+TwoHands=0
+Skill=MaceFighting
+SkillMake=Blacksmithing 194
+Resources=10 iIronIngot
+Material=tIngot
+DupeList=048C3
+
+AbilityPrimary=sDoubleStrike
+AbilitySecondary=sConcussionBlow
+
+Category=Equipment
+Subsection=Weapons: Mace Fighting
+Description=Gargish Maul
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 048C3]
+DupeItem=048C2
+
+
+// Gargish Tessen
+[ItemDef 048CC]
+DefName=iGargishTessen
+Name=gargish tessen
+Type=tStaffWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUGargoyle
+Weight=6
+Dam=10,13
+//Speed=56
+Tag.Override.Speed=20
+ReqStr=35
+TwoHands=1
+Skill=MaceFighting
+SkillMake=Blacksmithing 850,Tailoring 500
+Resources=16 iIronIngot,10 iCloth
+Material=tIngot,tCloth
+DupeList=048CD
+
+AbilityPrimary=sFeint
+AbilitySecondary=sDualWield
+
+Category=Equipment
+Subsection=Weapons: Mace Fighting
+Description=Gargish Tessen
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 048CD]
+DupeItem=048CC
+
+
+// Gargish War Hammer
+[ItemDef 048C0]
+DefName=iGargishWarHammer
+Name=gargish war hammer
+Type=tStaffWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUGargoyle
+Weight=10
+Dam=17,20
+//Speed=35
+Tag.Override.Speed=37
+ReqStr=95
+TwoHands=1
+Skill=MaceFighting
+SkillMake=Blacksmithing 342
+Resources=16 iIronIngot
+Material=tIngot
+DupeList=048C1
+
+AbilityPrimary=sWhirlwindAttack
+AbilitySecondary=sCrushingBlow
+
+Category=Equipment
+Subsection=Weapons: Mace Fighting
+Description=Gargish War Hammer
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 048C0]
+DupeItem=048C1
+
+
+// Glass Staff
+[ItemDef 0905]
+DefName=iGlassStaff
+Name=glass staff
+Type=tStaffWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIImbue
+CanUse=CanUGargoyle
+Weight=4
+Dam=11,14
+//Speed=53
+Tag.Override.Speed=25
+ReqStr=20
+TwoHands=1
+Skill=MaceFighting
+SkillMake=Alchemy 536
+Resources=10 iSand
+Material=tSand
+//Resources=10 iGlass
+//Material=tGlass
+DupeList=04070
+
+AbilityPrimary=sDoubleStrike
+AbilitySecondary=sMortalStrike
+
+Category=Equipment
+Subsection=Weapons: Mace Fighting
+Description=Glass Staff
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 04070]
+DupeItem=0905
+
+
+// Gnarled Staff
+[ItemDef 013F8]
+DefName=iGnarledStaff
+Name=gnarled staff
+Type=tStaffWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=3
+Dam=15,18
+//Speed=41
+Tag.Override.Speed=32
+ReqStr=20
+TwoHands=1
+Skill=MaceFighting
+SkillMake=Carpentry 789
+Resources=7 iBoard
+Material=tWood
+AlterItem=iGargishGnarledStaff
+DupeList=013F9
+
+AbilityPrimary=sConcussionBlow
+AbilitySecondary=sParalyzingBlow
+
+Category=Equipment
+Subsection=Weapons: Mace Fighting
+Description=Gnarled Staff
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 0]
+DupeItem=0
+
+
+// Hammer Pick
+[ItemDef 0143C]
+DefName=iHammerPick
+Name=hammer pick
+Type=tHammerPickWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=9
+Dam=13,17
+//Speed=35
+Tag.Override.Speed=32
+ReqStr=45
+TwoHands=0
+Skill=MaceFighting
+SkillMake=Blacksmithing 342
+Resources=16 iIronIngot
+Material=tIngot
+AlterItem=iDiscMace
+DupeList=0143D
+
+AbilityPrimary=sArmorIgnore
+AbilitySecondary=sMortalStrike
+
+Category=Equipment
+Subsection=Weapons: Mace Fighting
+Description=Hammer Pick
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 0143D]
+DupeItem=0143C
+
+
+// Mace
+[ItemDef 0F5C]
+DefName=iMace
+Name=mace
+Type=tStaffWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=14
+Dam=11,15
+//Speed=47
+Tag.Override.Speed=27
+ReqStr=45
+TwoHands=0
+Skill=MaceFighting
+SkillMake=Blacksmithing 145
+Resources=6 iIronIngot
+Material=tIngot
+AlterItem=iDiscMace
+DupeList=0F5D
+
+AbilityPrimary=sConcussionBlow
+AbilitySecondary=sDisarm
+
+Category=Equipment
+Subsection=Weapons: Mace Fighting
+Description=Mace
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 0F5C]
+DupeItem=0F5D
+
+
+// Maul
+[ItemDef 0143A]
+DefName=iMaul
+Name=maul
+Type=tStaffWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=10
+Dam=14,18
+//Speed=38
+Tag.Override.Speed=35
+ReqStr=45
+TwoHands=0
+Skill=MaceFighting
+SkillMake=Blacksmithing 194
+Resources=10 iIronIngot
+Material=tIngot
+AlterItem=iGargishMaul
+DupeList=0143B
+
+AbilityPrimary=sDoubleStrike
+AbilitySecondary=sConcussionBlow
+
+Category=Equipment
+Subsection=Weapons: Mace Fighting
+Description=Maul
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 0143B]
+DupeItem=0143A
+
+
+// Nunchaku
+[ItemDef 027AE]
+DefName=iNunchaku
+Name=nunchaku
+Type=tStaffWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIImbue
+CanUse=CanUHuman|CanUElf
+Weight=5
+Dam=12,15
+//Speed=50
+Tag.Override.Speed=25
+ReqStr=15
+TwoHands=0
+Skill=MaceFighting
+SkillMake=Tinkering 700
+Resources=3 iIronIngot,8 iBoard
+Material=tIngot,tWood
+AlterItem=0
+DupeList=027F9
+
+AbilityPrimary=sBlock
+AbilitySecondary=sDoubleStrike
+
+Category=Equipment
+Subsection=Weapons: Mace Fighting
+Description=Nunchaku
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 027F9]
+DupeItem=027AE
+
+
+// Quarter Staff
+[ItemDef 0E89]
+DefName=iQuarterStaff
+Name=quarter staff
+Type=tStaffWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=3
+Dam=11,14
+//Speed=53
+Tag.Override.Speed=22
+ReqStr=30
+TwoHands=1
+Skill=MaceFighting
+SkillMake=Carpentry 736
+Resources=6 iBoard
+Material=tWood
+AlterItem=0
+DupeList=0E8A
+
+AbilityPrimary=sDoubleStrike
+AbilitySecondary=sConcussionBlow
+
+Category=Equipment
+Subsection=Weapons: Mace Fighting
+Description=Quarter Staff
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 0E8A]
+DupeItem=0E89
+
+
+// Scepter
+[ItemDef 026BC]
+DefName=iScepter
+Name=scepter
+Type=tStaffWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=8
+Dam=14,18
+//Speed=38
+Tag.Override.Speed=35
+ReqStr=40
+TwoHands=0
+Skill=MaceFighting
+SkillMake=Blacksmithing 214
+Resources=10 iIronIngot
+Material=tIngot
+AlterItem=iDiscMace
+DupeList=026C6
+
+AbilityPrimary=sConcussionBlow
+AbilitySecondary=sMortalStrike
+
+Category=Equipment
+Subsection=Weapons: Mace Fighting
+Description=Scepter
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 026C6]
+DupeItem=026BC
+
+
+// Serpentstone Staff
+[ItemDef 0906]
+DefName=iSerpentstoneStaff
+Name=serpentstone staff
+Type=tStaffWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUGargoyle
+Weight=3
+Dam=16,19
+//Speed=41
+Tag.Override.Speed=35
+ReqStr=35
+TwoHands=1
+Skill=MaceFighting
+SkillMake=Carpentry 638
+Resources=16 iBoard,1 iEcruCitrine
+Material=tWood,tGem
+DupeList=0406F
+
+AbilityPrimary=sConcussionBlow
+AbilitySecondary=sDismount
+
+Category=Equipment
+Subsection=Weapons: Mace Fighting
+Description=Serpentstone Staff
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 0406F]
+DupeItem=0906
+
+
+// Shepherd's Crook
+// Used by all
+[ItemDef 013F4]
+DefName=iShepherdsCrook1
+Name=shepherd's crook
+Type=tCrookWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIImbue|CanIEnhance|CanIReforge
+CanUse=0
+Weight=4
+Dam=13,16
+//Speed=47
+Tag.Override.Speed=27
+ReqStr=20
+TwoHands=1
+Skill=MaceFighting
+SkillMake=Carpentry 789
+Resources=7 iBoard
+Material=tWood
+DupeList=013F5
+
+AbilityPrimary=sConcussionBlow
+AbilitySecondary=sDisarm
+
+Category=Equipment
+Subsection=Weapons: Mace Fighting
+Description=Shepherd's Crook
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 013F5]
+DupeItem=013F4
+
+
+// Shepherd's Crook (Thin)
+// Used by all
+[ItemDef 0E81]
+DefName=iShepherdsCrook2
+Name=shepherd's crook
+Type=tCrookWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIImbue|CanIEnhance|CanIReforge
+CanUse=0
+Weight=4
+Dam=13,16
+//Speed=47
+Tag.Override.Speed=27
+ReqStr=20
+TwoHands=1
+Skill=MaceFighting
+SkillMake=Carpentry 789
+Resources=7 iBoard
+Material=tWood
+DupeList=0E82
+
+AbilityPrimary=sConcussionBlow
+AbilitySecondary=sDisarm
+
+Category=Equipment
+Subsection=Weapons: Mace Fighting
+Description=Shepherd's Crook (Thin)
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 0E82]
+DupeItem=0E81
+
+
+// Sledge Hammer
+[ItemDef 0FB4]
+DefName=iSledgeHammer
+Name=sledge hammer
+Type=tHammerWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIImbue
+CanUse=0
+Weight=10
+Dam=13,17
+//Speed=41
+Tag.Override.Speed=32
+ReqStr=40
+TwoHands=0
+Skill=MaceFighting
+SkillMake=Tinkering 400
+Resources=4 iIronIngot
+Material=tIngot
+AlterItem=0
+DupeList=0FB5
+
+AbilityPrimary=sConcussionBlow
+AbilitySecondary=sShadowStrike
+
+Category=Equipment
+Subsection=Weapons: Mace Fighting
+Description=Sledge Hammer
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 0FB5]
+DupeItem=0FB4
+
+
+// Smith's Hammer
+[ItemDef 013E3]
+DefName=iSmithsHammer
+Name=smith's hammer
+Type=tHammerWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIImbue
+CanUse=0
+Weight=8
+Dam=13,17
+//Speed=41
+Tag.Override.Speed=32
+ReqStr=40
+TwoHands=0
+Skill=MaceFighting
+SkillMake=Tinkering 400
+Resources=4 iIronIngot
+Material=tIngot
+AlterItem=0
+DupeList=013E4
+
+AbilityPrimary=sConcussionBlow
+AbilitySecondary=sShadowStrike
+
+Category=Equipment
+Subsection=Weapons: Mace Fighting
+Description=Smith's Hammer
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 013E4]
+DupeItem=013E3
+
+
+// Tessen
+[ItemDef 027A3]
+DefName=iTessen
+Name=tessen
+Type=tStaffWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=6
+Dam=10,13
+//Speed=56
+Tag.Override.Speed=20
+ReqStr=35
+TwoHands=1
+Skill=MaceFighting
+SkillMake=Blacksmithing 850,Tailoring 500
+Resources=16 iIronIngot,10 iCloth
+Material=tIngot,tCloth
+AlterItem=iGargishTessen
+DupeList=027EE
+
+AbilityPrimary=sFeint
+AbilitySecondary=sDualWield
+
+Category=Equipment
+Subsection=Weapons: Mace Fighting
+Description=Tessen
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 027EE]
+DupeItem=027A3
+
+
+// Tetsubo
+[ItemDef 027A6]
+DefName=iTetsubo
+Name=tetsubo
+Type=tStaffWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=8
+Dam=12,15
+//Speed=50
+Tag.Override.Speed=25
+ReqStr=35
+TwoHands=1
+Skill=MaceFighting
+SkillMake=Carpentry 800
+Resources=10 iBoard
+Material=tWood
+AlterItem=0
+DupeList=027F1
+
+AbilityPrimary=sFrenziedWhirlwind
+AbilitySecondary=sCrushingBlow
+
+Category=Equipment
+Subsection=Weapons: Mace Fighting
+Description=Tetsubo
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 027F1]
+DupeItem=027A6
+
+
+// Wand
+[ItemDef 0DF2]
+DefName=iWand1
+Name=wand
+Type=tWand
+Can=CanIRepair
+CanUse=0
+Weight=1
+Dam=11,15
+//Speed=47
+Tag.Override.Speed=27
+ReqStr=5
+TwoHands=0
+Skill=MaceFighting
+//SkillMake=Blacksmithing
+//Resources=iIronIngot
+//Material=tIngot
+AlterItem=0
+
+AbilityPrimary=sDismount
+AbilitySecondary=sDisarm
+
+Category=Equipment
+Subsection=Weapons: Mace Fighting
+Description=Wand
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+
+// Wand
+[ItemDef 0DF3]
+DefName=iWand2
+Name=wand
+Type=tWand
+Can=CanIRepair
+CanUse=0
+Weight=1
+Dam=11,15
+//Speed=47
+Tag.Override.Speed=27
+ReqStr=5
+TwoHands=0
+Skill=MaceFighting
+//SkillMake=Blacksmithing
+//Resources=iIronIngot
+//Material=tIngot
+AlterItem=0
+
+AbilityPrimary=sDismount
+AbilitySecondary=sDisarm
+
+Category=Equipment
+Subsection=Weapons: Mace Fighting
+Description=Wand
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+
+// Wand
+[ItemDef 0DF4]
+DefName=iWand3
+Name=wand
+Type=tWand
+Can=CanIRepair
+CanUse=0
+Weight=1
+Dam=11,15
+//Speed=47
+Tag.Override.Speed=27
+ReqStr=5
+TwoHands=0
+Skill=MaceFighting
+//SkillMake=Blacksmithing
+//Resources=iIronIngot
+//Material=tIngot
+AlterItem=0
+
+AbilityPrimary=sDismount
+AbilitySecondary=sDisarm
+
+Category=Equipment
+Subsection=Weapons: Mace Fighting
+Description=Wand
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+
+// Wand
+[ItemDef 0DF5]
+DefName=iWand4
+Name=wand
+Type=tWand
+Can=CanIRepair
+CanUse=0
+Weight=1
+Dam=11,15
+//Speed=47
+Tag.Override.Speed=27
+ReqStr=5
+TwoHands=0
+Skill=MaceFighting
+//SkillMake=Blacksmithing
+//Resources=iIronIngot
+//Material=tIngot
+AlterItem=0
+
+AbilityPrimary=sDismount
+AbilitySecondary=sDisarm
+
+Category=Equipment
+Subsection=Weapons: Mace Fighting
+Description=Wand
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+
+// War Axe
+[ItemDef 013AF]
+DefName=iWarAxe
+Name=war axe
+Type=tWeaponMaceAxe
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=8
+Dam=12,16
+//Speed=41
+Tag.Override.Speed=30
+ReqStr=35
+TwoHands=0
+Skill=MaceFighting
+SkillMake=Blacksmithing 391
+Resources=16 iIronIngot
+Material=tIngot
+AlterItem=iDiscMace
+DupeList=013B0
+
+AbilityPrimary=sArmorIgnore
+AbilitySecondary=sBleedAttack
+
+Category=Equipment
+Subsection=Weapons: Mace Fighting
+Description=War Axe
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 013B0]
+DupeItem=013AF
+
+
+// War Hammer
+[ItemDef 01438]
+DefName=iWarHammer
+Name=war hammer
+Type=tStaffWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=10
+Dam=17,20
+//Speed=35
+Tag.Override.Speed=37
+ReqStr=95
+TwoHands=1
+Skill=MaceFighting
+SkillMake=Blacksmithing 342
+Resources=16 iIronIngot
+Material=tIngot
+AlterItem=iGargishWarHammer
+DupeList=01439
+
+AbilityPrimary=sWhirlwindAttack
+AbilitySecondary=sCrushingBlow
+
+Category=Equipment
+Subsection=Weapons: Mace Fighting
+Description=War Hammer
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 01439]
+DupeItem=01438
+
+
+// War Mace
+[ItemDef 01406]
+DefName=iWarMace
+Name=war mace
+Type=tStaffWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIRecycle|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=14
+Dam=15,19
+//Speed=32
+Tag.Override.Speed=37
+ReqStr=80
+TwoHands=0
+Skill=MaceFighting
+SkillMake=Blacksmithing 700
+Resources=20 iIronIngot
+Material=tIngot
+AlterItem=iDiscMace
+DupeList=01407
+
+AbilityPrimary=sCrushingBlow
+AbilitySecondary=sMortalStrike
+
+Category=Equipment
+Subsection=Weapons: Mace Fighting
+Description=War Mace
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 01407]
+DupeItem=01406
+
+
+// Wild Staff
+[ItemDef 02D25]
+DefName=iWildStaff
+Name=wild staff
+Type=tStaffWeapon
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersMark|CanIRetainColor|CanIImbue|CanIEnhance|CanIReforge
+CanUse=CanUHuman|CanUElf
+Weight=9
+Dam=10,13
+//Speed=50
+Tag.Override.Speed=22
+ReqStr=15
+TwoHands=0
+Skill=MaceFighting
+SkillMake=Carpentry 638
+Resources=16 iBoard
+Material=tWood
+AlterItem=0
+DupeList=02D31
+
+AbilityPrimary=sBlock
+AbilitySecondary=sForceofNature
+
+Category=Equipment
+Subsection=Weapons: Mace Fighting
+Description=Wild Staff
+
+On=@Create
+HitPoints={36 48}
+
+DamPhysical=100
+
+[ItemDef 02D31]
+DupeItem=02D25
+
+
+[EOF]
