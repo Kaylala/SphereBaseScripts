@@ -1,3 +1,15 @@
+[ItemDef 021FE]
+DefName=iVial
+Name=vial
+NameLoc=1028702		// vial
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Glassware: Vials
+Description=Vial
+
+
 [ItemDef 0E24]
 DefName=iEmptyVial
 Name=empty vial%s

@@ -1,0 +1,37 @@
+[ItemDef 0241C]
+DefName=iSmallUrn
+Name=small urn
+NameLoc=1029244
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Pottery: Urns
+Description=Small Urn
+
+
+[ItemDef 0241D]
+DefName=iUrn1
+Name=urn
+NameLoc=1029245
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Pottery: Urns
+Description=Urn 1
+
+
+[ItemDef 0241E]
+DefName=iUrn2
+Name=urn
+NameLoc=1029246
+Type=tNormal
+Weight=1
+
+Category=Decorations
+Subsection=Pottery: Urns
+Description=Urn 2
+
+
+[EOF]

@@ -1,0 +1,29 @@
+[ItemDef 0204E]
+DefName=iDeathShroud
+Name=death shroud
+NameLoc=1028270		// death shroud
+Type=tClothing
+
+Category=GM Items
+Subsection=Death Shroud
+Description=Death Shroud
+
+On=@Equip
+If (!<Src.FindLayer.11>)	// (0<SRC.FindLayer.11>)
+ Src.Tag.HairID=<Src.FindLayer.11.ID>
+ Src.Tag.HairColor=<Src.FindLayer.11.Color>
+ Src.FindLayer.11.Remove
+Else
+ Src.Tag.HairID=0
+EndIf
+
+On=@Unequip
+IF !(<SRC.TAG0.HaarID> == 0)
+ Serv.NewItem=<Src.Tag0.HairID>,1,<Src>,1
+ Src.FindLayer.11.Color=<Src.Tag.HairCOlor>
+ Src.Tag.HairColor=
+ Src.Tag.HairID=
+EndIf
+
+
+[EOF]

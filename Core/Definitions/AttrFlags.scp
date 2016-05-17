@@ -34,24 +34,31 @@ AttrCharacterBound		040000000		// Character Bound Item (for use with Owned by, o
 
 // Magic Property Attributes
 AttrBalanced			080000000		// Balanced iProp
-AttrBrittle				0100000000		// Brittle iProp
-AttrUseBestWeaponSkill	0200000000		// UBWS iProp
-AttrMageArmor			0400000000		// Mage Armor iProp
-AttrSpellChanneling		0800000000		// Spell Channeling iProp
-AttrBane				01000000000		// Bane iProp
-AttrBloodDrinker		02000000000		// Blood drinker iProp
-AttrBattleLust			04000000000		// Battle Lust iProp
-AttrManaPhasing			08000000000		// Mana Phasing
-AttrSearingWeapon		010000000000	// Searing iProp
+AttrUseBestWeaponSkill	0100000000		// UBWS iProp
+AttrMageArmor			0200000000		// Mage Armor iProp
+AttrSpellChanneling		0400000000		// Spell Channeling iProp
+AttrBane				0800000000		// Bane iProp
+AttrBloodDrinker		01000000000		// Blood drinker iProp
+AttrBattleLust			02000000000		// Battle Lust iProp
+AttrManaPhase			04000000000		// Mana Phase
+AttrSearingWeapon		08000000000		// Searing iProp
+AttrAntique				010000000000	//  Increased durability loss, powderable 3x. Powder reduces max durability to 250/200/150. Can be repaired
+AttrBrittle				020000000000	// Can't be powdered. Defaulty 255 durability
+AttrCannotRepair		040000000000	// No repair, no fortify
+AttrMassive				080000000000	// Increased str requirement
+AttrPrized				0100000000000	// Increase Item insurance, cannot be blessed
+AttrUnlucky				0200000000000	// -100 lucky (cant have lucky property)
+AttrUnwieldy			0400000000000	// Increased weight
+AttrEphemeral			0800000000000	// Cannot powder or repair. Loses 1 durability every 6 minutes of actual fighting. 250 durability.
 
 // Fishing Attributes.
-AttrLavaInfused			020000000000	// Lava infused
-AttrBarnacleCovered		040000000000	// Barnacle covered
-AttrShipwreckItem		080000000000	// Recovered from shipwreck
+AttrLavaInfused			01000000000000	// Lava infused
+AttrBarnacleCovered		02000000000000	// Barnacle covered
+AttrShipwreckItem		04000000000000	// Recovered from shipwreck
 
 // Faction
-AttrFactionItem			0100000000000	// Faction Item (Has cliloc)
-AttrVvVItem				0200000000000	// VvV Item (Has CliLoc)
+AttrFactionItem			08000000000000	// Faction Item (Has cliloc)
+AttrVvVItem				010000000000000	// VvV Item (Has CliLoc)
 
 AttrEnchanted			AttrEnhanced
 

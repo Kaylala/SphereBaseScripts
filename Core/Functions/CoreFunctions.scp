@@ -1,3 +1,11 @@
+[Function DyeType]
+If (!<ArgN>)
+ Return <Tag0.DyeType>
+Else
+ Tag.DyeType=<ArgN>
+EndIf
+
+
 [Function ContentWeight]
 Return <Eval (<Weight> - <Serv.ItemDef.<BaseID>.Weight>)>
 

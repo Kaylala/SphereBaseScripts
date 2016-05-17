@@ -1,0 +1,99 @@
+[Comment BigFishCliLocs]
+1042635;Your fishing pole bends as you pull a big fish from the depths!
+1070857;Caught by ~1_fisherman~
+1070858;~1_weight~ stones
+
+
+[ItemDef iBigFish1]
+ID=iFish1
+Name=big fish
+NameLoc=1041112		// a big fish
+Can=0
+
+Category=Resources
+Subsection=Fishing
+Description=Big Fish 1
+
+On=@Create
+BaseWeight={1 250}
+Tag.CaughtBy=<Cont.Name>	// This needs to be tested.
+
+On=@ClientTooltip
+NameCliLoc
+If (<Tag0.CaughtBy>)
+ Src.AddCliLoc 1070857,<Tag0.CaughtBy>
+EndIf
+WeightCliLoc
+Return 1
+
+
+[ItemDef iBigFish2]
+ID=iFish2
+Name=big fish
+NameLoc=1041112		// a big fish
+Can=0
+
+Category=Resources
+Subsection=Fishing
+Description=Big Fish 2
+
+On=@Create
+BaseWeight={1 250}
+Tag.CaughtBy=<Cont.Name>	// This needs to be tested.
+
+On=@ClientTooltip
+NameCliLoc
+If (<Tag0.CaughtBy>)
+ Src.AddCliLoc 1070857,<Tag0.CaughtBy>
+EndIf
+WeightCliLoc
+Return 1
+
+
+[ItemDef iBigFish3]
+ID=iFish3
+Name=big fish
+NameLoc=1041112		// a big fish
+Can=0
+
+Category=Resources
+Subsection=Fishing
+Description=Big Fish 3
+
+On=@Create
+BaseWeight={1 250}
+Tag.CaughtBy=<Cont.Name>	// This needs to be tested.
+
+On=@ClientTooltip
+NameCliLoc
+If (<Tag0.CaughtBy>)
+ Src.AddCliLoc 1070857,<Tag0.CaughtBy>
+EndIf
+WeightCliLoc
+Return 1
+
+
+[ItemDef iBigFish4]
+ID=iFish4
+Name=big fish
+NameLoc=1041112		// a big fish
+Can=0
+
+Category=Resources
+Subsection=Fishing
+Description=Big Fish 4
+
+On=@Create
+BaseWeight={1 250}
+Tag.CaughtBy=<Cont.Name>	// This needs to be tested.
+
+On=@ClientTooltip
+NameCliLoc
+If (<Tag0.CaughtBy>)
+ Src.AddCliLoc 1070857,<Tag0.CaughtBy>
+EndIf
+WeightCliLoc
+Return 1
+
+
+[EOF]

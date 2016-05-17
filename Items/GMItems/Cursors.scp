@@ -1,0 +1,232 @@
+[ItemDef 02053]
+DefName=iCursor1
+Name=cursor
+NameLoc=1028275		// cursor
+Type=tNormal
+DupeList=02054,02055,02056,02057,02058,02059,0205A
+
+Category=GM Items
+Subsection=Cursors
+Description=Cursor 1 (Red)
+
+[ItemDef 02054]
+NameLoc=1028276
+DupeItem=02053
+
+[ItemDef 02055]
+NameLoc=1028277
+DupeItem=02053
+
+[ItemDef 02056]
+NameLoc=1028278
+DupeItem=02053
+
+[ItemDef 02057]
+NameLoc=1028279
+DupeItem=02053
+
+[ItemDef 02058]
+NameLoc=1028280
+DupeItem=02053
+
+[ItemDef 02059]
+NameLoc=1028281
+DupeItem=02053
+
+[ItemDef 0205A]
+NameLoc=1028282
+DupeItem=02053
+
+
+[ItemDef 0205B]
+DefName=iCursor2
+Name=cursor
+NameLoc=1028283
+Type=tNormal
+DupeList=0205C
+
+Category=GM Items
+Subsection=Cursors
+Description=Cursor 2 (Red)
+
+[ItemDef 0205C]
+NameLoc=1028284
+DupeItem=0205B
+
+
+[ItemDef 0205D]
+DefName=iCursor3
+Name=cursor
+NameLoc=1028285
+Type=tNormal
+DupeList=0205E
+
+Category=GM Items
+Subsection=Cursors
+Description=Cursor 3 (Red)
+
+[ItemDef 0205E]
+NameLoc=1028286
+DupeItem=0205D
+
+
+[ItemDef 0205f]
+DefName=iCursor4
+Name=cursor
+NameLoc=1028287
+Type=tNormal
+
+Category=GM Items
+Subsection=Cursors
+Description=Cursor 4 (Red)
+
+
+[ItemDef 02060]
+DefName=iCursor5
+Name=cursor
+NameLoc=1028288
+Type=tNormal
+
+Category=GM Items
+Subsection=Cursors
+Description=Cursor 5 (Red)
+
+
+[ItemDef 02061]
+DefName=iCursor6
+Name=cursor
+NameLoc=1028289
+Type=tNormal
+
+Category=GM Items
+Subsection=Cursors
+Description=Cursor 6 (Red)
+
+[ItemDef 02062]
+DefName=iCursor7
+Name=cursor
+NameLoc=1028290
+Type=tNormal
+
+Category=GM Items
+Subsection=Cursors
+Description=Cursor 7 (Red)
+
+
+[ItemDef 0206A]
+DefName=iCursor8
+Name=cursor
+NameLoc=1028298
+Type=tNormal
+DupeList=0206b,0206c,0206d,0206e,0206f,02070,02071
+
+Category=GM Items
+Subsection=Cursors
+Description=Cursor 8 (White)
+
+[ItemDef 0206b]
+NameLoc=1028299
+DupeItem=0206A
+
+[ItemDef 0206c]
+NameLoc=1028300
+DupeItem=0206A
+
+[ItemDef 0206d]
+NameLoc=1028301
+DupeItem=0206A
+
+[ItemDef 0206e]
+NameLoc=1028302
+DupeItem=0206A
+
+[ItemDef 0206f]
+NameLoc=1028303
+DupeItem=0206A
+
+[ItemDef 02070]
+NameLoc=1028304
+DupeItem=0206A
+
+[ItemDef 02071]
+NameLoc=1028305
+DupeItem=0206A
+
+
+[ItemDef 02072]
+DefName=iCursor9
+Name=cursor
+NameLoc=1028306
+Type=tNormal
+DupeList=02073
+
+Category=GM Items
+Subsection=Cursors
+Description=Cursor 9 (White)
+
+[ItemDef 02073]
+NameLoc=1028307
+DupeItem=02072
+
+
+[ItemDef 02074]
+DefName=iCursor10
+Name=cursor
+NameLoc=1028308
+Type=tNormal
+DupeList=02075
+
+Category=GM Items
+Subsection=Cursors
+Description=Cursor 10 (White)
+
+[ItemDef 02075]
+NameLoc=1028309
+DupeItem=02074
+
+
+[ItemDef 02076]
+DefName=iCursor11
+Name=cursor
+NameLoc=1028310
+Type=tNormal
+
+Category=GM Items
+Subsection=Cursors
+Description=Cursor 11 (White)
+
+
+[ItemDef 02077]
+DefName=iCursor12
+Name=cursor
+NameLoc=1028311
+Type=tNormal
+
+Category=GM Items
+Subsection=Cursors
+Description=Cursor 12 (White)
+
+
+[ItemDef 02078]
+DefName=iCursor13
+Name=cursor
+NameLoc=1028312
+Type=tNormal
+
+Category=GM Items
+Subsection=Cursors
+Description=Cursor 13 (White)
+
+
+[ItemDef 02079]
+DefName=iCursor14
+Name=cursor
+NameLoc=1028313
+Type=tNormal
+
+Category=GM Items
+Subsection=Cursors
+Description=Cursor 14 (White)
+
+
+[EOF]

@@ -1,0 +1,122 @@
+[ItemDef 02042]
+// Lord British Armor
+DefName=iLordBritishCostume
+Type=tArmor
+
+Category=GM Items
+Subsection=Outfits
+Description=Lord British Costume
+
+On=@Create
+HitPoints=150
+
+On=@Equip
+If (!<Src.FindLayer.11>)	// (0<SRC.FindLayer.11>)
+ Src.Tag.HairID=<Src.FindLayer.11.ID>
+ Src.Tag.HairColor=<Src.FindLayer.11.Color>
+ Src.FindLayer.11.Remove
+Else
+ Src.Tag.HairID=0
+EndIf
+
+On=@Unequip
+IF !(<SRC.TAG0.HaarID> == 0)
+ Serv.NewItem=<Src.Tag0.HairID>,1,<Src>,1
+ Src.FindLayer.11.Color=<Src.Tag.HairCOlor>
+ Src.Tag.HairColor=
+ Src.Tag.HairID=
+EndIf
+
+
+[ItemDef 02043]
+// Blackthorne Robe
+DefName=iPersonBlackThorne
+Type=tArmor
+
+Category=GM Items
+Subsection=Outfits
+Description=Blackthorne Robe
+
+On=@Create
+HitPoints=150
+
+On=@Equip
+If (!<Src.FindLayer.11>)	// (0<SRC.FindLayer.11>)
+ Src.Tag.HairID=<Src.FindLayer.11.ID>
+ Src.Tag.HairColor=<Src.FindLayer.11.Color>
+ Src.FindLayer.11.Remove
+Else
+ Src.Tag.HairID=0
+EndIf
+
+On=@Unequip
+IF !(<SRC.TAG0.HaarID> == 0)
+ Serv.NewItem=<Src.Tag0.HairID>,1,<Src>,1
+ Src.FindLayer.11.Color=<Src.Tag.HairCOlor>
+ Src.Tag.HairColor=
+ Src.Tag.HairID=
+EndIf
+
+
+[ItemDef 02050]
+DefName=iDupreCostume
+Type=tArmor
+
+Category=GM Items
+Subsection=Outfits
+Description=Dupre Costume
+
+On=@Create
+HitPoints=150
+
+On=@Equip
+If (!<Src.FindLayer.11>)	// (0<SRC.FindLayer.11>)
+ Src.Tag.HairID=<Src.FindLayer.11.ID>
+ Src.Tag.HairColor=<Src.FindLayer.11.Color>
+ Src.FindLayer.11.Remove
+Else
+ Src.Tag.HairID=0
+EndIf
+
+On=@Unequip
+IF !(<SRC.TAG0.HaarID> == 0)
+ Serv.NewItem=<Src.Tag0.HairID>,1,<Src>,1
+ Src.FindLayer.11.Color=<Src.Tag.HairCOlor>
+ Src.Tag.HairColor=
+ Src.Tag.HairID=
+EndIf
+
+
+[ItemDef 0204F]
+DefName=iGMRobe
+Name=GM Robe
+NameLoc=1028271
+Type=tClothing
+Can=CanIDye
+
+Description=GM Items
+Subsection=GM Outfits
+Category=GM Robe
+
+On=@Create
+HitPoints=150
+
+On=@Equip
+If (!<Src.FindLayer.11>)	// (0<SRC.FindLayer.11>)
+ Src.Tag.HairID=<Src.FindLayer.11.ID>
+ Src.Tag.HairColor=<Src.FindLayer.11.Color>
+ Src.FindLayer.11.Remove
+Else
+ Src.Tag.HairID=0
+EndIf
+
+On=@Unequip
+IF !(<SRC.TAG0.HaarID> == 0)
+ Serv.NewItem=<Src.Tag0.HairID>,1,<Src>,1
+ Src.FindLayer.11.Color=<Src.Tag.HairCOlor>
+ Src.Tag.HairColor=
+ Src.Tag.HairID=
+EndIf
+
+
+[EOF]

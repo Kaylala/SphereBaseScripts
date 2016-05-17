@@ -1,0 +1,13 @@
+[ItemDef 0EB0]
+DefName=iRoseInAVase
+Name=rose in a vase
+NameLoc=1023760		// A Rose in a Vase
+Type=tNormal
+Weight=1
+
+Category=Systems
+Subsection=Holidays: Saint Valentine's Day
+Description=Rose in a Vase
+
+
+[EOF]

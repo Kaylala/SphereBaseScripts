@@ -81,7 +81,11 @@ Return <QVal ((<Type> == tSwordWeapon) || (<Type> == tPickaxeWeapon) || (<Type> 
 //
 
 // IsArmor will be updated in Hard Code. We are adding Armor Categories now. Better control over each type.
-[Function IsTypeArmor]
+[Function IsArmorType]
+Return <Qval ((<Type> == tLeatherArmor) || (<Type> == tStuddedArmor) || (<Type> == tLeafArmor) || (<Type> == tHideArmor) || (<Type> == tClothArmor) || (<Type> == tChainmailArmor) || (<Type> == tRingmailArmor) || (<Type> == tPlatemailArmor) || (<Type> == tDragonArmor) || (<Type> == tStoneArmor) || (<Type> == tWoodlandArmor) || (<Type> == tBoneArmor) || (<Type> == tVirtueArmor))? 1 : 0>
+
+
+[Function IsNewArmor]
 Return <Qval ((<Type> == tLeatherArmor) || (<Type> == tStuddedArmor) || (<Type> == tLeafArmor) || (<Type> == tHideArmor) || (<Type> == tClothArmor) || (<Type> == tChainmailArmor) || (<Type> == tRingmailArmor) || (<Type> == tPlatemailArmor) || (<Type> == tDragonArmor) || (<Type> == tStoneArmor) || (<Type> == tWoodlandArmor) || (<Type> == tBoneArmor) || (<Type> == tVirtueArmor))? 1 : 0>
 
 

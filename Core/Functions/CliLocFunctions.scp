@@ -35,40 +35,47 @@ EndIf
 // Since insured, blessed, newbie, or insured can be in together, we will process them through one function.
 [Function AttrCliLoc]
 If (<Attr> &AttrNewbie|AttrBlessed)
- Src.AddCliLoc 1038021
+ Src.AddCliLoc 1038021		// Blessed
 ElIf (<Attr> &AttrNewbie)
  Src.AddCliLoc 1042971,Newbie
-ElIf (<Attr> &AttrInsured)
- Src.AddCliLoc 1114311	// Insured
 ElIf (<Attr> &AttrCursed)
  Src.AddCliLoc 1049643	// cursed
+ElIf (<Attr> &AttrInsured)
+ Src.AddCliLoc 1114311	// Insured
 EndIf
+
 If (<CraftedBy>)
  Src.AddCliLoc 1050043,<CraftedBy>	// Crafted by ~1_Name~
 EndIf
+
 If (<Attr> &AttrExceptional)
  Src.AddCliLoc 1018303	// Exceptional
 EndIf
+
 If (<Attr> &AttrStolen)
  Src.AddCliLoc 1072948	// Stolen
 EndIf
+
 If (<Attr> &AttrAccountBound)
  Src.AddCliLoc 1155526	// Account Bound
 EndIf
+
 If (<Attr> &AttrShardBound)
  Src.AddCliLoc 1155536	// Shard Bound
 EndIf
 
 [Function CanUseCliLoc]
 If (<CanUse> &CanUGargoyle) && !(<CanUSe> &CanUElf|CanUHuman)
- Src.AddCliLoc 1111709
+ Src.AddCliLoc 1111709	// Gargoyles Only
 ElIf (<CanUse> &CanUElf) && !(<CanUSe> &CanUGargoyle|CanUHuman)
- Src.AddCliLoc 1075086
+ Src.AddCliLoc 1075086	// Elves Only
 EndIf
 
 
 [Function WeightCliLoc]
-If (<Amount> > 1) && (<Weight> != 255) 
+If (<Amount> > 1) && (<BaseWeight> != 255) && (<BaseWeight>)
+ Src.AddCliLoc <QVal (<BaseWeight> > 1) ? 1072789 : 1072788>,<FVal <BaseWeight>>
+ElIf (<Amount> > 1) && (<Weight> != 255) && (<Weight>)
  Src.AddCliLoc <QVal (<Weight> > 1) ? 1072789 : 1072788>,<FVal <Weight>>
 EndIf
 

@@ -1,0 +1,25 @@
+[ItemDef 011c6]
+DefName=iFlowerPot1
+Name=flower pot
+NameLoc=1024550
+Type=tNormal
+Weight=2
+
+Category=Decorations
+Subsection=Pottery: Flower Pots
+Description=Flower Pot 1
+
+
+[ItemDef 011C7]
+DefName=iFlowerPot2
+Name=flower pot
+NameLoc=1024551
+Type=tNormal
+Weight=4
+
+Category=Decorations
+Subsection=Pottery: Flower Pots
+Description=Flower Pot 2
+
+
+[EOF]

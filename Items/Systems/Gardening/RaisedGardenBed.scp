@@ -1,0 +1,39 @@
+[ItemDef 04b22]
+DefName=iRaisedGardenBed
+Name=raised garden bed
+NameLoc=1150359		// Raised Garden Bed
+Type=tNormal
+Can=CanIFlip
+Weight=255
+DupeList=04b23,04b24,04b25,04b26,04b27,04b28,04b29,04b2a
+
+Category=Systems
+Subsection=Gardening
+Description=Raised Garden Bed
+
+[ItemDef 04b23]
+DupeItem=04b22
+
+[ItemDef 04b24]
+DupeItem=04b22
+
+[ItemDef 04b25]
+DupeItem=04b22
+
+[ItemDef 04b26]
+DupeItem=04b22
+
+[ItemDef 04b27]
+DupeItem=04b22
+
+[ItemDef 04b28]
+DupeItem=04b22
+
+[ItemDef 04b29]
+DupeItem=04b22
+
+[ItemDef 04b2a]
+DupeItem=04b22
+
+
+[EOF]

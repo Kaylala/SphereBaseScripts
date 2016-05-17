@@ -1,6 +1,7 @@
 [ItemDef 01bdd]
 DefName=iLog
 Name=log%s
+NameLoc=1027133		// log
 Type=tLog
 Can=CanIStack|CanIFlip
 Weight=2
@@ -13,12 +14,14 @@ Subsection=Wood: Logs
 Description=Log
 
 [ItemDef 01be0]
+NameLoc=1027136		// log
 DupeItem=01bdd
 
 
 [ItemDef iOakLog]
 ID=iLog
 Name=oak log%s
+NameLoc=1075063		// oak logs
 Type=tLog
 Can=CanIStack|CanIFlip
 Weight=2
@@ -36,6 +39,7 @@ Color=OakHue
 [ItemDef iAshLog]
 ID=iLog
 Name=ash log%s
+NameLoc=1075064		// ash logs
 Type=tLog
 Can=CanIStack|CanIFlip
 Weight=2
@@ -53,6 +57,7 @@ Color=AshHue
 [ItemDef iYewLog]
 ID=iLog
 Name=yew log%s
+NameLoc=1075065		// yew logs
 Type=tLog
 Can=CanIStack|CanIFlip
 Weight=2
@@ -70,6 +75,7 @@ Color=YewHue
 [ItemDef iBloodwoodLog]
 ID=iLog
 Name=bloodwood log%s
+NameLoc=1075067		// bloodwood logs
 Type=tLog
 Can=CanIStack|CanIFlip
 Weight=2
@@ -87,6 +93,7 @@ Color=BloodwoodHue
 [ItemDef iHeartwoodLog]
 ID=iLog
 Name=heartwood log%s
+NameLoc=1075066		// heartwood logs
 Type=tLog
 Can=CanIStack|CanIFlip
 Weight=2
@@ -104,6 +111,7 @@ Color=HeartwoodHue
 [ItemDef iFrostwoodLog]
 ID=iLog
 Name=frostwood log%s
+NameLoc=1075068		// frostwood logs
 Type=tLog
 Can=CanIStack|CanIFlip
 Weight=2

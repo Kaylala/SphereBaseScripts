@@ -1,0 +1,49 @@
+[ItemDef 0B45]
+DefName=iLargeVase1
+Name=large vase
+NameLoc=1022885
+Type=tNormal
+Weight=15
+
+Category=Decorations
+Subsection=Pottery: Vases
+Description=Large Vase 1
+
+
+[ItemDef 0B46]
+DefName=iVase1
+Name=vase
+NameLoc=1022886
+Type=tNormal
+Weight=5
+
+Category=Decorations
+Subsection=Pottery: Vases
+Description=Vase 1
+
+
+[ItemDef 0B47]
+DefName=iLargeVase2
+Name=large vase
+NameLoc=1022887
+Type=tNormal
+Weight=15
+
+Category=Decorations
+Subsection=Pottery: Vases
+Description=Large Vase 2
+
+
+[ItemDef 0b48]
+DefName=iVase2
+Name=vase
+NameLoc=1022888
+Type=tNormal
+Weight=5
+
+Category=Decorations
+Subsection=Pottery: Vases
+Description=Vase 2
+
+
+[EOF]

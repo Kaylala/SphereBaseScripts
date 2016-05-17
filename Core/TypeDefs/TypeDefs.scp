@@ -1,6 +1,34 @@
 [TypeDef tChickenCoop]
 
 
+[TypeDef tFurniture]
+On=@Dye
+If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &FurnitureDye)
+ Return 1
+EndIf
+
+
+[TypeDef tChair]
+On=@Dye
+If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &FurnitureDye)
+ Return 1
+EndIf
+
+
+[TypeDef tTable]
+On=@Dye
+If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &FurnitureDye)
+ Return 1
+EndIf
+
+
+[TypeDef tBed]
+On=@Dye
+If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &FurnitureDye)
+ Return 1
+EndIf
+
+
 [TypeDef tScroll]
 On=@ClientTooltip
 If (<Amount> > 1)
@@ -17,22 +45,22 @@ Return 1
 On=@TargOn_Item
 If (<BaseID> == iPitcherOfWater)
  If (<ArgO.DispIDDec> == 099CA)
-  ArgO.DispID=09A14
+  ArgO.DispID=09A14		// Bar Sink
   Consume <I>
   Serv.NewItem=iEmptyPitcher,1,<Src>
   Return 1
  ElIf (<ArgO.DispIDDec> == 099CB)
-  ArgO.DispID=09A15
+  ArgO.DispID=09A15		// Bar Sink
   Consume <I>
   Serv.NewItem=iEmptyPitcher,1,<Src>
   Return 1
  ElIf (<ArgO.DispIDDec> == 09A16)
-  ArgO.DispID=09A18
+  ArgO.DispID=09A18		// Bar Sink
   Consume <I>
   Serv.NewItem=iEmptyPitcher,1,<Src>
   Return 1
  ElIf (<ArgO.DispIDDec> == 09A17)
-  ArgO.DispID=09A19
+  ArgO.DispID=09A19		// Bar Sink
   Consume <I>
   Serv.NewItem=iEmptyPitcher,1,<Src>
   Return 1
@@ -313,22 +341,27 @@ If !(<Src.Tinkering>)
  Src.SMsgL -1,1071940	// You are not quite sure how to use this.
  Return 1
 EndIf
+
 If (<Src.Tinkering> < 700)
  Src.SMsgL -1,1071943	// You must be a journeyman or higher tinker to construct a golem.
  Return 1
 EndIf
+
 If (<Src.Tag0.GolemDelay>)
  Src.SMsgL -1,1071942	// You are too drained to make another golem. You must wait approximately one day to construct another.
  Return 1
 EndIf
+
 If (<TopObj> != <Src.UID>)
  Src.SMsgL -1,1071944	// The clockwork assembly must be in your backpack to construct a golem.
  Return 1
 EndIf
+
 If <Src.CurFollower> > <Eval (<MaxFollowers> - 3)>
  Src.SMsgL -1,1049607	// You have too many followers to control that creature.
  Return 1
 EndIf
+
 If !(<Src.Restest 1 iPowerCrystal>)
  Src.SMsgL -1,1071945	// You need a power crystal to construct a golem.
  Return 1
@@ -342,6 +375,7 @@ ElIf !(<Src.Restest 50 iIronIngot>)
  Src.SMsgL -1,1071948	// You need more iron ingots to construct a golem.
  Return 1
 EndIf
+
 If (<R1,1000> > <Eval ((<Src.Tinkering> - 700) * 2)>)
  Src.SMsgL -1,1071941	// You failed to make the golem.
  Return 1
@@ -453,14 +487,14 @@ EndIf
 [TypeDef tCoin]
 On=DropOn_Item
 If (<ArgO.BaseID> == <BaseID>)
-Argo.BaseWeight=<Eval ((<Amount> + <ArgO.Amount>) / 150)>
+ Argo.BaseWeight=<Eval ((<Amount> + <ArgO.Amount>) / 150)>
 If !(<ArgO.BaseWeight>)
  ArgO.BaseWeight=1
 EndIf
 
 On=DropOn_Self
 If (<ArgO.BaseID> == <BaseID>)
-Argo.BaseWeight=<Eval ((<Amount> + <ArgO.Amount>) / 150)>
+ Argo.BaseWeight=<Eval ((<Amount> + <ArgO.Amount>) / 150)>
 If !(<ArgO.BaseWeight>)
  ArgO.BaseWeight=1
 EndIf
@@ -473,10 +507,9 @@ If (<Src.Flags> &StatFHidden) || (<Src.Flags> &StatFInvisible)
  Src.SMsg You are already hidden.
  Return 1
 EndIf
-Sound=sndSmokeBomb
-Src.Action=-1
-Src.Action=Skill_Hiding
-Src.ActDiff=1
+//Sound=
+//Effect=
+Src.Trigger @Success,TAT_As_ArgN,<Serv.Key.Skill_Hiding>
 Consume 1 <I>
 
 

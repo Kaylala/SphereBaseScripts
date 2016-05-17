@@ -7,9 +7,66 @@
 We decided for more customization that new Armor types, based on their respective categorization, was more ideal. With this we created these new TypeDefs (And one old) to reflect more customization and handling.
 
 
+[TypeDef tArmor]
+On=@Dye
+If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
+ If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye) || (!<ArgO.DyeType> &MetallicDye)
+  Return 1
+ EndIf
+Else
+ If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &MetallicDye)
+  Return 1
+ EndIf
+EndIf
+
+
+[TypeDef tTalisman]
+On=@DClick
+If (<Src.FindLayer.LayerTalisman.UID.Attr> &AttrManaPhase>)
+ If (!<Src.FindID.iManaPhaseMemory>)
+  Serv.NewItem iManaPhaseMemeory,1,<Src>,1
+ EndIf
+EndIf
+
+On=@Dye
+If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
+ If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye)
+  Return 1
+ EndIf
+Else
+ If (!<ArgO.DyeType> &UniversalDye)
+  Return 1
+ EndIf
+EndIf
+
+
+[TypeDef tQuiver]
+On=@Dye
+If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
+ If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye)
+  Return 1
+ EndIf
+Else
+ If (!<ArgO.DyeType> &UniversalDye)
+  Return 1
+ EndIf
+EndIf
+
+
 [TypeDef tLeatherArmor]
 On=@Create
 Can |= CanIRegenMana|CanIRegenHits|CanIRegenStam
+
+On=@Dye
+If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
+ If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye) || (!<ArgO.DyeType> &LeatherDye)
+  Return 1
+ EndIf
+Else
+ If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &LeatherDye)
+  Return 1
+ EndIf
+EndIf
 
 On=ClientTooltip
 If !(<Attr> &AttrMagic) || !(<Attr> &AttrArtifact)
@@ -26,48 +83,201 @@ If !(<Attr> &AttrMagic) || !(<Attr> &AttrArtifact)
 EndIf
 
 
+[TypeDef tShield]
+On=@Dye
+If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
+ If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye) || (!<ArgO.DyeType> &MetallicDye)
+  Return 1
+ EndIf
+Else
+ If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &MetallicDye)
+  Return 1
+ EndIf
+EndIf
+
+
 [TypeDef tStuddedArmor]
+On=@Dye
+If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
+ If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye) || (!<ArgO.DyeType> &LeatherDye)
+  Return 1
+ EndIf
+Else
+ If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &LeatherDye)
+  Return 1
+ EndIf
+EndIf
 
 
 [TypeDef tClothArmor]
+On=@Dye
+If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
+ If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye) || (!<ArgO.DyeType> &ClothDye)
+  Return 1
+ EndIf
+Else
+ If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &ClothDye)
+  Return 1
+ EndIf
+EndIf
 
 
 [TypeDef tBoneArmor]
-
+On=@Dye
+If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
+ If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye) || (!<ArgO.DyeType> &LeatherDye)
+  Return 1
+ EndIf
+Else
+ If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &LeatherDye)
+  Return 1
+ EndIf
+EndIf
 
 [TypeDef tPlatemailArmor]
+On=@Dye
+If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
+ If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye) || (!<ArgO.DyeType> &MetallicDye)
+  Return 1
+ EndIf
+Else
+ If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &MetallicDye)
+  Return 1
+ EndIf
+EndIf
 
 
 [TypeDef tRingmailArmor]
+On=@Dye
+If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
+ If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye) || (!<ArgO.DyeType> &MetallicDye)
+  Return 1
+ EndIf
+Else
+ If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &MetallicDye)
+  Return 1
+ EndIf
+EndIf
 
 
 [TypeDef tChainmailArmor]
+On=@Dye
+If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
+ If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye) || (!<ArgO.DyeType> &MetallicDye)
+  Return 1
+ EndIf
+Else
+ If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &MetallicDye)
+  Return 1
+ EndIf
+EndIf
 
 
 [TypeDef tLeafArmor]
+On=@Dye
+If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
+ If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye) || (!<ArgO.DyeType> &LeatherDye)
+  Return 1
+ EndIf
+Else
+ If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &LeatherDye)
+  Return 1
+ EndIf
+EndIf
 
 
 [TypeDef tHideArmor]
+On=@Dye
+If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
+ If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye) || (!<ArgO.DyeType> &LeatherDye)
+  Return 1
+ EndIf
+Else
+ If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &LeatherDye)
+  Return 1
+ EndIf
+EndIf
 
 
 [TypeDef tWoodlandArmor]
+On=@Dye
+If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
+ If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye)
+  Return 1
+ EndIf
+Else
+ If (!<ArgO.DyeType> &UniversalDye)
+  Return 1
+ EndIf
+EndIf
 
 
 [TypeDef tDragonArmor]
+On=@Dye
+If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
+ If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye)
+  Return 1
+ EndIf
+Else
+ If (!<ArgO.DyeType> &UniversalDye)
+  Return 1
+ EndIf
+EndIf
 
 
 [TypeDef tStoneArmor]
+On=@Dye
+If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
+ If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye)
+  Return 1
+ EndIf
+Else
+ If (!<ArgO.DyeType> &UniversalDye)
+  Return 1
+ EndIf
+EndIf
 
 
 [TypeDef tFurArmor]
+On=@Dye
+If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
+ If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye) || (!<ArgO.DyeType> &LeatherDye)
+  Return 1
+ EndIf
+Else
+ If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &LeatherDye)
+  Return 1
+ EndIf
+EndIf
 
 
 [TypeDef tScuteArmor]
+On=@Dye
+If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
+ If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye) || (!<ArgO.DyeType> &LeatherDye)
+  Return 1
+ EndIf
+Else
+ If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &LeatherDye)
+  Return 1
+ EndIf
+EndIf
 
 
 [TypeDef tVirtueArmor]
 On=@Create
 Can |= CanIRegenMana|CanIRegenHits|CanIRegenStam
+
+On=@Dye
+If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
+ If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye)
+  Return 1
+ EndIf
+Else
+ If (!<ArgO.DyeType> &UniversalDye)
+  Return 1
+ EndIf
+EndIf
 
 
 [TypeDef tChaosShield]

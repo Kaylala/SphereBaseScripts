@@ -1,0 +1,169 @@
+[ItemDef 011C8]
+DefName=iPottedTree1
+Name=potted tree
+NameLoc=1024552
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Potted Plants
+Description=Potted Tree 1
+
+
+[ItemDef 011C9]
+DefName=iPottedTree2
+Name=potted tree
+NameLoc=1024553
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Potted Plants
+Description=Potted Tree 2
+
+
+[ItemDef 011CA]
+DefName=iFlowerpot1
+Name=flowerpot
+NameLoc=1024554
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Potted Plants
+Description=Flowerpot 1
+
+
+[ItemDef 011cb]
+DefName=iFlowerpot2
+Name=flowerpot
+NameLoc=1024555
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Potted Plants
+Description=Flowerpot 2
+
+
+[ItemDef 011cc]
+DefName=iFlowerpot3
+Name=flowerpot
+NameLoc=1024556
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Potted Plants
+Description=Flowerpot 3
+
+
+[ItemDef 01e0f]
+DefName=iPottedCactus1
+Name=potted cactus
+NameLoc=1027695
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Potted Plants
+Description=Potted Cactus 1
+
+
+[ItemDef 01e10]
+DefName=iPottedCactus2
+Name=potted cactus
+NameLoc=1027696
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Potted Plants
+Description=Potted Cactus 2
+
+
+[ItemDef 01e11]
+DefName=iPottedCactus3
+Name=potted cactus
+NameLoc=1027697
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Potted Plants
+Description=Potted Cactus 3
+
+
+[ItemDef 01e12]
+DefName=iPottedCactus4
+Name=potted cactus
+NameLoc=1027698
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Potted Plants
+Description=Potted Cactus 4
+
+
+[ItemDef 01e13]
+DefName=iPottedCactus5
+Name=potted cactus
+NameLoc=1027699
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Potted Plants
+Description=Potted Cactus 5
+
+
+[ItemDef 01e14]
+DefName=iPottedCactus6
+Name=potted cactus
+NameLoc=1027700
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Potted Plants
+Description=Potted Cactus 6
+
+
+[ItemDef 0284a]
+DefName=iFlowers1
+Name=flowers
+NameLoc=1030314
+Type=tNormal
+Weight=3
+
+Category=Plants
+Subsection=Potted Plants
+Description=Flowers 1
+
+
+[ItemDef 042B9]
+DefName=iLargeDyingPlant
+Name=large dying plant
+NameLoc=1095953
+Type=tNormal
+Weight=5
+
+Category=Plants
+Subsection=Potted Plants
+Description=Large Dying Plant
+
+
+[ItemDef 042BA]
+DefName=iDyingPlant
+Name=dying plant
+NameLoc=1095954
+Type=tNormal
+Weight=5
+
+Category=Plants
+Subsection=Potted Plants
+Description=Dying Plant
+
+
+[EOF]

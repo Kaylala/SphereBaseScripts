@@ -1,3 +1,220 @@
+[ItemDef 0236E]
+DefName=iHolidayCandle
+Name=holiday candle
+NameLoc=1029070		// holiday candle
+Type=tUnlitLight
+Can=CanIFlip|CanIDye
+Weight=1
+DupeList=02371
+
+Category=Systems
+Subsection=Holidays: Christmas
+Description=Holiday Candle
+
+On=@Create
+MoreZ=2
+
+On=@DClick
+If (<Type> == tUnlitLight)
+ Type=tLitLight
+ Update
+Else
+ Type=tUnlitLight
+ Update
+EndIf
+
+[ItemDef 0236F]
+NameLoc=1029071
+
+Category=Systems
+Subsection=Holidays: Christmas
+Description=Holiday Candle (Anim Frame)
+
+[ItemDef 02370]
+NameLoc=1029072
+
+Category=Systems
+Subsection=Holidays: Christmas
+Description=Holiday Candle (Anim Frame)
+
+
+[ItemDef 02371]
+NameLoc=1029073
+DupeItem=0236E
+
+[ItemDef 02372]
+NameLoc=1029074
+
+Category=Systems
+Subsection=Holidays: Christmas
+Description=Holiday Candle (Anim Frame)
+
+[ItemDef 02373]
+NameLoc=1029075
+
+Category=Systems
+Subsection=Holidays: Christmas
+Description=Holiday Candle (Anim Frame)
+
+
+[ItemDef iMistletoeDeed]
+ID=iDeed
+Name=Mistletoe Deed
+NameLoc=1070882
+Type=tNormal
+
+Category=Systems
+Subsection=Holidays: Christmas
+Description=Mistletoe Deed (Needs dialog or placement)
+
+On=@Create
+Attr=AttrNewbie|AttrBlessed
+
+On=@DClick
+// Still needs dialog scripted
+
+
+[ItemDef 02374]
+DefName=iMistletoe
+Name=mistletoe
+NameLoc=1029076
+Type=tNormal
+Can=CanIFlip|CanIDye
+Weight=1
+DupeList=02375
+
+Category=Systems
+Subsection=Holidays: Christmas
+Description=Mistletoe
+
+[ItemDef 02375]
+NameLoc=1029077
+DupeItem=02374
+
+
+[ItemDef 02376]
+DefName=iFestiveCactus
+Name=festive cactus
+NameLoc=1029078
+Type=tNormal
+Weight=1
+
+Category=Systems
+Subsection=Holidays: Christmas
+Description=Festive Cactus
+
+
+[ItemDef 02377]
+DefName=iSnowyTree
+Name=snowy tree
+NameLoc=1029079
+Type=tNormal
+Weight=1
+
+Category=Systems
+Subsection=Holidays: Christmas
+Description=Snowy Tree
+
+
+[ItemDef 02378]
+DefName=iDecorativeTopiary
+Name=decorative topiary
+NameLoc=1029080
+Type=tNormal
+Weight=1
+
+Category=Systems
+Subsection=Holidays: Christmas
+Description=Decorative Topiary
+
+
+[ItemDef 02328]
+DefName=iSnowman
+Name=snowman
+NameLoc=1029000
+Can=CanIFlip|CanIDye
+Weight=10
+DupeList=02329
+
+Category=Systems
+Subsection=Holidays: Christmas
+Description=Snowman
+
+On=@Create
+Color=AllHues
+
+[ItemDef 02329]
+NameLoc=1029001
+DupeItem=02328
+
+
+[ItemDef 0232C]
+DefName=iWreath
+Name=wreath
+NameLoc=1029004
+Can=CanIFlip|CanIDye
+DupeList=0232D
+
+Category=Systems
+Subsection=Holidays: Christmas
+Description=Wreath
+
+On=@Create
+Color=AllHues
+
+[ItemDef 0232D]
+NameLoc=1029005
+DupeItem=0232C
+
+
+[ItemDef 0232e]
+DefName=iSnowflake1
+Name=snowflake
+NameLoc=1029006
+Type=tNormal
+Weight=1
+
+Category=Systems
+Subsection=Holidays: Christmas
+Description=Snowflake 1
+
+
+[ItemDef 0232f]
+DefName=iSnowflake2
+Name=snowflake
+NameLoc=1029007
+Type=tNormal
+Weight=1
+
+Category=Systems
+Subsection=Holidays: Christmas
+Description=Snowflake 2
+
+
+[ItemDef 02330]
+DefName=iPoinsettia1
+Name=poinsettia
+NameLoc=1029008
+Type=tNormal
+Weight=1
+
+Category=Systems
+Subsection=Holidays: Christmas
+Description=Poinsettia 1
+
+
+[ItemDef 02331]
+DefName=iPoinsettia2
+Name=poinsettia
+NameLoc=1029009
+Type=tNormal
+Weight=1
+
+Category=Systems
+Subsection=Holidays: Christmas
+Description=Poinsettia 2
+
+
 [ItemDef 02332]
 DefName=iFireflies1
 Name=fireflies

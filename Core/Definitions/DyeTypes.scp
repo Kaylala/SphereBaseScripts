@@ -1,0 +1,15 @@
+// Set on Dyeing Item and Items that are to be dyed.
+[DefName DyeTypes]
+CannotDye					0
+UniversalDye				01
+ClothDye					02
+LeatherDye					04
+MetallicDye					08
+FurnitureDye				010
+RunebookDye					020
+StatuetteDye				040
+PigmentDye					080		// Haochi's and Tokuno (Pigments)
+PetDye						0100
+
+
+[EOF]

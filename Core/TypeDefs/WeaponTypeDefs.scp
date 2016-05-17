@@ -1,0 +1,162 @@
+/////////////////////
+// Weapon TypeDefs //
+/////////////////////
+
+
+[TypeDef tHammerWeapon]
+On=@Dye
+If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
+ If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye)
+  Return 1
+ EndIf
+Else
+ If (!<ArgO.DyeType> &UniversalDye)
+  Return 1
+ EndIf
+EndIf
+
+
+[TypeDef tWarAxeWeapon]
+On=@Dye
+If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
+ If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye)
+  Return 1
+ EndIf
+Else
+ If (!<ArgO.DyeType> &UniversalDye)
+  Return 1
+ EndIf
+EndIf
+
+
+[TypeDef tSwordWeapon]
+On=@Dye
+If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
+ If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye)
+  Return 1
+ EndIf
+Else
+ If (!<ArgO.DyeType> &UniversalDye)
+  Return 1
+ EndIf
+EndIf
+
+
+[TypeDef tFencingWeapon]
+On=@Dye
+If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
+ If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye)
+  Return 1
+ EndIf
+Else
+ If (!<ArgO.DyeType> &UniversalDye)
+  Return 1
+ EndIf
+EndIf
+
+
+[TypeDef tBowWeapon]
+On=@Dye
+If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
+ If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye)
+  Return 1
+ EndIf
+Else
+ If (!<ArgO.DyeType> &UniversalDye)
+  Return 1
+ EndIf
+EndIf
+
+
+[TypeDef tWand]
+On=@Dye
+If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
+ If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye)
+  Return 1
+ EndIf
+Else
+ If (!<ArgO.DyeType> &UniversalDye)
+  Return 1
+ EndIf
+EndIf
+
+
+[TypeDef tStaffWeapon]
+On=@Dye
+If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
+ If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye)
+  Return 1
+ EndIf
+Else
+ If (!<ArgO.DyeType> &UniversalDye)
+  Return 1
+ EndIf
+EndIf
+
+
+[TypeDef tCrookWeapon]
+On=@Dye
+If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
+ If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye)
+  Return 1
+ EndIf
+Else
+ If (!<ArgO.DyeType> &UniversalDye)
+  Return 1
+ EndIf
+EndIf
+
+
+[TypeDef tPickaxeWeapon]
+On=@Dye
+If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
+ If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye)
+  Return 1
+ EndIf
+Else
+ If (!<ArgO.DyeType> &UniversalDye)
+  Return 1
+ EndIf
+EndIf
+
+
+[TypeDef tAxeWeapon]
+On=@Dye
+If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
+ If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye)
+  Return 1
+ EndIf
+Else
+ If (!<ArgO.DyeType> &UniversalDye)
+  Return 1
+ EndIf
+EndIf
+
+
+[TypeDef tCrossbowWeapon]
+On=@Dye
+If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
+ If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye)
+  Return 1
+ EndIf
+Else
+ If (!<ArgO.DyeType> &UniversalDye)
+  Return 1
+ EndIf
+EndIf
+
+
+[TypeDef tThrowingWeapon]
+On=@Dye
+If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
+ If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye)
+  Return 1
+ EndIf
+Else
+ If (!<ArgO.DyeType> &UniversalDye)
+  Return 1
+ EndIf
+EndIf
+
+
+[EOF]

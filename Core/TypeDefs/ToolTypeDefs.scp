@@ -70,4 +70,30 @@ On=@DClick
 SkillMenu sm
 
 
+[TypeDef tFishingPole]
+On=@Dye
+If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
+ If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye)
+  Return 1
+ EndIf
+Else
+ If (!<ArgO.DyeType> &UniversalDye)
+  Return 1
+ EndIf
+EndIf
+
+
+[TypeDef tShovel]
+On=@Dye
+If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
+ If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye)
+  Return 1
+ EndIf
+Else
+ If (!<ArgO.DyeType> &UniversalDye)
+  Return 1
+ EndIf
+EndIf
+
+
 [EOF]

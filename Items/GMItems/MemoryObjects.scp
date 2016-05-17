@@ -1,0 +1,18 @@
+[ItemDef iManaPhaseMemory]
+ID=iMemory
+Name=Mana Phase Memory
+
+Category=Gm Items
+Subsection=Memory Objects
+Description=Mana Phase Memory
+
+On=@Create
+Timer=-1
+More1=0
+
+On=@Timer
+Remove
+Return 1
+
+
+[EOF]

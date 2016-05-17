@@ -46,6 +46,7 @@ ElIf (<Src.IsFemale>) && !(<CanUse> &CanUFemale)
 EndIf
 
 
+// Item Triggers
 On=@ItemPickUp_Ground
 If (<Act.Amount> == 1) && (<Act.Weight> == 255)
  If !(<Act.BaseWeight>) ||  (<Act.BaseWeight> == 255)
@@ -66,6 +67,26 @@ On=@ItemPickUp_Pack
 If (<Act.Amount> == 1) && (<Act.Weight> == 255)
  If !(<Act.BaseWeight>) ||  (<Act.BaseWeight> == 255)
   Return 1
+ EndIf
+EndIf
+
+
+// Spell Triggers
+On=@SpellSelect
+// Mana Phase Checks (No mana use on non-harmful spells)
+// Check For Mana Phase Memory
+If (<FindID.iManaPhaseMemory>)
+ Ref1=<FindID.iManaPhaseMemory.UID>
+ If (<Ref1.More1> < 2)
+  If (!<Serv.Spell.<ArgN1>.Flags> &SpellFHarm|SpellFDamage)
+   ArgN2=0
+   Ref1.More1 ++
+   If (<Ref1.More1> == 2)	// Damaging spells set to 2 instantly
+    Ref1.Timer=30
+   EndIf
+  Else
+   Re1.More1=2
+  EndIf
  EndIf
 EndIf
 

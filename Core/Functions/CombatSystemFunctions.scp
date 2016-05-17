@@ -1,0 +1,10 @@
+[Function Velocity]
+If (<R1,100> <= <Velocity>)
+ Local.Dmg=<EVal (<Src.Distance> * 3)>	// Damage
+ If (<Local.Dmg> > 30)
+  Local.1=30
+ EndIf
+ Trigger @Hit,TAT_As_ArgN,<Local.Dmg>,DamPhysical
+EndIf
+
+[EOF]

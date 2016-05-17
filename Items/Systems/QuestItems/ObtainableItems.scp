@@ -1,0 +1,133 @@
+[ItemDef 021C]
+DefName=iDryadsBlessing
+Name=dryad's blessing
+NameLoc=1020540		// dryad's blessing
+Type=tNormal
+Weight=1
+
+Category=Systems
+Subsection=Quest Items: Obtainable
+Description=Dryad's Blessing
+
+
+[ItemDef 023A]
+DefName=iSpeckledPoisonSac
+Name=speckled poisoned sac
+NameLoc=1020570
+Type=tNormal
+Weight=1
+
+Category=Systems
+Subsection=Quest Items: Obtainable
+Description=Speckled Poison Sac
+
+
+[ItemDef 023B]
+DefName=iAriellesBauble
+Name=Arielle's bauble
+NameLoc=1020571		// arielle's bauble
+Type=tNormal
+Weight=1
+
+Category=Systems
+Subsection=Quest Items: Obtainable
+Description=Arielle's Bauble (The Joys of Life)
+
+
+[ItemDef 023C]
+DefName=iSerpentFangBadge
+Name=serpent fang badge
+NameLoc=1020572		// serpent fang badge
+Type=tNormal
+Weight=1
+
+Category=Systems
+Subsection=Quest Items: Obtainable
+Description=Serpent Fang Badge (Citadel)
+
+
+[ItemDef 023D]
+DefName=iTigerClawBadge
+Name=tiger claw badge
+NameLoc=1020573
+Type=tNormal
+Weight=1
+
+Category=Systems
+Subsection=Quest Items: Obtainable
+Description=Tiger Claw Badge (Citadel)
+
+
+[ItemDef 023E]
+DefName=iDragonFlameBadge
+Name=dragon flame badge
+NameLoc=1020574
+Type=tNormal
+Weight=1
+
+Category=Systems
+Subsection=Quest Items: Obtainable
+Description=Dragon Flame Badge (Citadel)
+
+
+[ItemDef 023f]
+DefName=iProtectorEssence
+Name=Protector's essence
+NameLoc=1020575		// protector's essence
+Type=tNormal
+Weight=1
+
+Category=Systems
+Subsection=Quest Items: Obtainable
+Description=Protector's Essence (Prism of Light?)
+
+
+[ItemDef 0240]
+DefName=iCrystalShards
+Name=crystal shards
+NameLoc=1020576
+Type=tNormal
+Weight=1
+
+Category=Systems
+Subsection=Quest Items: Obtainable
+Description=Crystal Shards
+
+
+[ItemDef 024B]
+DefName=iIcyHeart
+Name=icy heart
+NameLoc=1020587		// icy heart
+Type=tNormal
+Weight=1
+
+Category=Systems
+Subsection=Quest Items: Obtainable
+Description=Icy Heart
+
+
+[ItemDef 0227A]
+DefName=iScrollOfCalling
+Name=scroll of calling
+NameLoc=1028826
+Type=tNormal
+Weight=1
+
+Category=Systems
+Subsection=Quest Items: Obtainable
+Description=Scroll of Calling
+
+
+[ItemDef 0227b]
+DefName=iScrollOfAbraxus
+Name=scroll of Abraxus
+NameLoc=1028827
+Type=tNormal
+Weight=1
+
+Category=Systems
+Subsection=Quest Items: Obtainable
+Description=Scroll of Abraxus
+
+
+[EOF]

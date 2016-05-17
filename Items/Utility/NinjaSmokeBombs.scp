@@ -1,0 +1,28 @@
+[ItemDef 02808]
+//This weapon is not equiped, it is thrown
+DefName=iSmokeBomb
+Name=smoke bomb
+Type=tSmokeBomb
+Weight=1
+SkillMake=Alchemy 900
+Resources=3 iGinseng,1 iEggs
+
+Category=Provisions
+Subsection=Miscellaneous
+Description=Smoke Bomb
+
+
+[ItemDef 02809]
+DefName=iEggBomb
+Name=egg bomb
+Type=tSmokeBomb
+Weight=1
+SkillMake=Cooking 900
+Resources=3 iSackOfFlour,1 iEggs
+
+Category=Provisions
+Subsection=Miscellaneous
+Description=Egg Bomb
+
+
+[EOF]

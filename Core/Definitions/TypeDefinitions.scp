@@ -193,6 +193,8 @@ tBoard						162 // logs are plained into decent lumber
 tPitcher					163
 tEmptyPitcher				164
 tDyeVat						165
+tDyeTub						tDyeVat
+tPigment					tDyeVat
 tDye						166
 tEmptyBottle				167 // empty bottle.
 tEmptyPotion				tEmptyBottle

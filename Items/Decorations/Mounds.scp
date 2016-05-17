@@ -1,0 +1,25 @@
+[ItemDef 02232]
+DefName=iAntHill
+Name=ant hill
+NameLoc=1028754
+Type=tNormal
+Weight=255
+
+Category=Decorations
+Subsection=Mounds
+Description=Ant Hill
+
+
+[ItemDef 02233]
+DefName=iGopherMound
+Name=gopher mound
+NameLoc=1028755
+Type=tNormal
+Weight=255
+
+Category=Decorations
+Subsection=Mounds
+Description=Gopher Mound
+
+
+[EOF]

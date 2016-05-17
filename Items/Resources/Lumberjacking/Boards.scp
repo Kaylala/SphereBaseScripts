@@ -1,6 +1,7 @@
 [ItemDef 01bd7]
 DefName=iBoard
 Name=board%s
+NameLoc=1027127		// board
 Type=tBoard
 Can=CanIReplicate|CanIStack|CanIFlip
 Weight=1
@@ -15,12 +16,14 @@ Subsection=Wood: Boards
 Description=Board
 
 [ItemDef 01bda]
+NameLoc=1027130		// board
 DupeItem=01bd7
 
 
 [ItemDef iOakBoard]
 ID=iBoard
 Name=oak board%s
+NameLoc=1075052		// Oak Boards
 Type=tBoard
 Can=CanIReplicate|CanIStack|CanIFlip
 Weight=1
@@ -40,6 +43,7 @@ Color=OakHue
 [ItemDef iAshBoard]
 ID=iBoard
 Name=ash board%s
+NameLoc=1075053		// Ash Boards
 Type=tBoard
 Can=CanIReplicate|CanIStack|CanIFlip
 Weight=1
@@ -59,6 +63,7 @@ Color=AshHue
 [ItemDef iYewBoard]
 ID=iBoard
 Name=yew board%s
+NameLoc=1075054		// Yew Boards
 Type=tBoard
 Can=CanIReplicate|CanIStack|CanIFlip
 Weight=1
@@ -78,6 +83,7 @@ Color=YewHue
 [ItemDef iBloodwoodBoard]
 ID=iBoard
 Name=bloodwood board%s
+NameLoc=1075055		// Bloodwood Boards
 Type=tBoard
 Can=CanIReplicate|CanIStack|CanIFlip
 Weight=1
@@ -97,6 +103,7 @@ Color=BloodwoodHue
 [ItemDef iHeartwoodBoard]
 ID=iBoard
 Name=heartwood board%s
+NameLoc=1075062		// Heartwood Boards
 Type=tBoard
 Can=CanIReplicate|CanIStack|CanIFlip
 Weight=1
@@ -116,6 +123,7 @@ Color=HeartwoodHue
 [ItemDef iFrostwoodBoard]
 ID=iBoard
 Name=frostwood board%s
+NameLoc=1075056		// Frostwood Boards
 Type=tBoard
 Can=CanIReplicate|CanIStack|CanIFlip
 Weight=1
