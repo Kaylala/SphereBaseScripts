@@ -94,7 +94,7 @@ DefName=iGiftBox7
 Name=Gift Box
 NameLoc=1123594
 Type=tContainer
-TData2=011B
+TData2=0777A
 Weight=1
 
 Category=Utility
@@ -107,7 +107,7 @@ DefName=iGiftBox8
 Name=Gift Box
 NameLoc=1123595
 Type=tContainer
-TData2=011B
+TData2=0777A
 Weight=1
 
 Category=Systems
@@ -120,7 +120,7 @@ DefName=iGiftBox9
 Name=Gift Box
 NameLoc=1123596
 Type=tContainer
-TData2=011B
+TData2=0777A
 Weight=1
 
 Category=Systems

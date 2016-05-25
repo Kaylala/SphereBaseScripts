@@ -1,0 +1,60 @@
+[ItemDef 0c4f]
+DefName=iCotton1
+Name=cotton
+NameLoc=1023151
+Type=tNormal
+Weight=255
+DupeList=0c50
+
+Category=Decorations
+Subsection=Crops: Cotton
+Description=Cotton 1 (Decorative/Non-Harvest)
+
+[ItemDef 0c50]
+NameLoc=1023152
+DupeItem=0c4f
+
+
+// Only 2 stages to cotton.
+// Stage 1
+[ItemDef 0C51]
+DefName=iCotton2
+Name=cotton
+NameLoc=1023153
+Type=tCrops
+TData1=iCropCotton2
+TData2=iCropCotton3
+Weight=255
+DupeList=0c52
+
+Category=Plants
+Subsection=Crops: Cotton
+Description=Cotton 2 (Stage 1)
+
+[ItemDef 0c52]
+NameLoc=1023154
+DupeItem=0c51
+
+
+// Stage 2
+[ItemDef 0c53]
+DefName=iCotton3
+Name=cotton
+NameLoc=1023155
+Type=tCrops
+TData1=iCropCotton2
+TData2=0
+TData3=iBaleOfCotton
+Weight=255
+DupeList=0C54
+
+Category=Plants
+Subsection=Crops: Cotton
+Description=Cotton 3 (Stage 2)
+
+[ItemDef 0c54]
+NameLoc=1023156
+DupeItem=0c53
+
+
+[EOF]

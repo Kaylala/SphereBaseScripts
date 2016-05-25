@@ -1,0 +1,69 @@
+[Function IsVelocity]
+Return <QVal <Velocity> ? 1 : 0>
+
+
+[Function IsResPhysical]
+Return <QVal <ResPhys> ? 1 : 0>
+
+
+[Function IsResPhys]
+Return <QVal <ResPhys> ? 1 : 0>
+
+
+[Function IsResFire]
+Return <QVal <ResPhysical> ? 1 : 0>
+
+
+[Function IsResFire]
+Return <QVal <ResFire> ? 1 : 0>
+
+
+[Function IsResCold]
+Return <QVal <ResCold> ? 1 : 0>
+
+
+[Function IsResPoison]
+Return <QVal <ResEnergy> ? 1 : 0>
+
+
+[Function IsResEnergy]
+Return <QVal <ResEnergy> ? 1 : 0>
+
+
+[Function IsDamPhysical]
+Return <QVal <DamPhys> ? 1 : 0>
+
+
+[Function IsDamPhys]
+Return <QVal <DamPhys> ? 1 : 0>
+
+
+[Function IsDamFire]
+Return <QVal <DamPhysical> ? 1 : 0>
+
+
+[Function IsDamFire]
+Return <QVal <DamFire> ? 1 : 0>
+
+
+[Function IsDamCold]
+Return <QVal <DamCold> ? 1 : 0>
+
+
+[Function IsDamPoison]
+Return <QVal <DamEnergy> ? 1 : 0>
+
+
+[Function IsDamEnergy]
+Return <QVal <DamEnergy> ? 1 : 0>
+
+
+[Function IsDamChaos]
+Return <QVal <DamChaos> ? 1 : 0>
+
+
+[Function IsDamDirect]
+Return <QVal <DamDirect> ? 1 : 0>
+
+
+[EOF]

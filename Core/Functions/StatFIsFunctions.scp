@@ -1,0 +1,94 @@
+// Player IsDead
+[Function IsDead]
+Return <Qval (<Flags> &StatFDead) ? 1 : 0 >
+
+
+[Function IsInvul]
+Return <Qval (<Flags> &StatFInvulnerable) ? 1 : 0 >
+
+
+[Function IsInvulnerable]
+Return <Qval (<Flags> &StatFInvulnerable) ? 1 : 0 >
+
+
+[Function IsSleeping]
+Return <Qval (<Flags> &StatFSleeping) ? 1 : 0 >
+
+
+[Function IsInvisible]
+Return <Qval (<Flags> &StatFInvisible) ? 1 : 0 >
+
+
+[Function IsHidden]
+Return <Qval (<Flags> &StatFHidden) ? 1 : 0 >
+
+
+[Function IsHovering]
+Return <Qval (<Flags> &StatFHovering) ? 1 : 0 >
+
+
+[Function IsRunning]
+Return <Qval (<Flags> &StatFFlying) ? 1 : 0 >
+
+
+[Function IsFlying]
+Return <Qval (<Flags> &StatFFlying|StatFHovering) ? 1 : 0 >
+
+
+[Function IsConjured]
+Return <Qval (<Flags> &StatFConjured) ? 1 : 0 >
+
+
+[Function IsPetrified]
+Return <Qval (<Flags> &StatFPetrified) ? 1 : 0 >
+
+
+[Function IsParalyzed]
+Return <Qval (<Flags> &StatFParalyzed) ? 1 : 0 >
+
+
+[Function IsHallucinating]
+Return <Qval (<Flags> &StatFHallucinating) ? 1 : 0 >
+
+
+[Function IsIncognito]
+Return <Qval (<Flags> &StatFIncognito) ? 1 : 0 >
+
+
+[Function IsPoisoned]
+Return <Qval (<Flags> &StatFPoisoned) ? 1 : 0 >
+
+
+[Function IsPolymorphed]
+Return <Qval (<Flags> &StatFPolymorph) ? 1 : 0 >
+
+
+[Function IsMounted]
+Return <Qval (<Flags> &StatFOnMount) ? 1 : 0 >
+
+
+[Function IsRidden]
+Return <Qval (<Flags> &StatFRidden) ? 1 : 0 >
+
+
+[Function IsDrunk]
+Return <Qval (<Flags> &StatFDrunk) ? 1 : 0 >
+
+
+[Function IsReactive]
+Return <Qval (<Flags> &StatFReactive) ? 1 : 0 >
+
+
+[Function IsMagicReflection]
+Return <Qval (<Flags> &StatFReflection) ? 1 : 0 >
+
+
+[Function IsNightsight]
+Return <Qval (<Flags> &StatFNightsight) ? 1 : 0 >
+
+
+[Function IsInsubstantial]
+Return <Qval (<Flags> &StatFInsubstantial) ? 1 : 0 >
+
+
+[EOF]

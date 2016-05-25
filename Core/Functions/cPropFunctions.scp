@@ -40,11 +40,10 @@ Good			3	// Attacks red playersand mobiles on sight
 
 // Mobile Alignment
 [Function Alignment]
-If !(<ArgN>)
- Tag.Alignment=<dDef.ArgN>
-Else
+If (<ArgN>)
  Tag.Alignment=<ArgN>
 EndIf
+Return <Tag0.Alignment>
 
 
 [Function MakeMyPet]
@@ -59,7 +58,7 @@ If !(<Serv.CharDef.<ArgS>>)
  Serv.Log UID:<UID> Name:<UID.Name> Mount:<ArgS> -  failed. Invalid CharDef.
  Return
 EndIf
-Serv.NewNpc=<ArgS>
+Serv.NewNPC=<ArgS>
 New.P=<P>
 Mount=<New>
 Ref1=<New>
@@ -73,5 +72,6 @@ EndIf
 [Events eRemoveMountOnDismount]
 On=@Dismount
 ArgO.Remove
+
 
 [EOF]

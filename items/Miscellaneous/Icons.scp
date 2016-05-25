@@ -3713,12 +3713,14 @@ Description=Ancient Hellhound
 [ItemDef 04C06]
 DefName=iVirtuebaneIcon
 Name=Virtuebane
+NameLoc=1098334
 Type=tFigurine
-TData3=cCirtuebane
+TData3=cVirtuebane
 
 category=Miscellaneous
 subsection=Icons: Bosses
 description=Virtuebane
+
 
 [ItemDef 0210E]
 DefName=iAbyssalInfernalIcon
@@ -3803,6 +3805,7 @@ Description=Navrey Night-Eyes
 [ItemDef 04C07]
 DefName=iNavreyNightEyesIcon3
 Name=Navrey Night-Eyes
+NameLoc=1098335
 Type=tFigurine
 TData3=cNavreyNightEyes
 
@@ -3812,13 +3815,14 @@ description=Navrey Night-Eyes
 
 [ItemDef 04C08]
 DefName=iClockworkExodusIcon
-Name=Clockwork Exodus
+Name=Exodus
+NameLoc=1098336
 Type=tFigurine
 TData3=cClockworkExodus
 
 Category=Miscellaneous
 Subsection=Icons: Bosses
-Description=Clockwork Exodus
+Description=Exodus (Clockwork)
 
 [ItemDef 09848]
 DefName=iDragonTurtleIcon

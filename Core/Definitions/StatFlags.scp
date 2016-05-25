@@ -20,7 +20,7 @@ StatFHasShield				000010000   // using a shield
 StatFArcherCanMove			000020000   // can move with archery
 StatFPetrified				000040000   // turned to stone.
 StatFHovering				000080000   // hovering (gargoyle flight)
-StatFFly					000100000   // flying or running ? (anim)
+StatFFlying					000100000   // flying or running ? (anim)
 StatFHallucinating			000400000   // eat 'shrooms or bad food.
 StatFHidden					000800000   // hidden (non-magical)
 StatFIndoors				001000000   // we are covered from the rain.
@@ -35,6 +35,8 @@ StatFDrunk					0100000000	// Drunk/Inebriated
 StatFDiscorded				0200000000	// has been discorded
 StatFPeaced					0400000000	// Has been peaced
 StatFProvoked				0800000000	// Has been provoked
+StatFMagicReflection		StatfReflection
+StatFFly					StatFFlying
 
 
 [EOF]

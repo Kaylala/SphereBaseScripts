@@ -1,0 +1,50 @@
+[Function ManaRegeneration]
+If (!<ArgN>)
+ Return <RegenMana>
+EndIf
+RegenMana=<ArgN>
+
+
+[Function StaminaRegeneration]
+If (!<ArgN>)
+ Return <RegenStam>
+EndIf
+RegenStam=<ArgN>
+
+
+[Function HitPointRegeneration]
+If (!<ArgN>)
+ Return <RegenHits>
+EndIf
+RegenHits=<ArgN>
+
+
+[Function DamageIncrease]
+If (!<ArgN>)
+ Return <IncreaseDam>
+EndIf
+IncreaseDam=<ArgN>
+
+
+[Function HitChanceIncrease]
+If (!<ArgN>)
+ Return <IncreaseHitChance>
+EndIf
+IncreaseHitChance=<ArgN>
+
+
+[Function DefenseChanceIncrease]
+If (!<ArgN>)
+ Return <IncreaseDefChance>
+EndIf
+IncreaseDefChance=<ArgN>
+
+
+[Function SwingSpeedIncrease]
+If (!<ArgN>)
+ Return <IncreaseSwingSpeed>
+EndIf
+IncreaseSwingSpeed=<ArgN>
+
+
+[EOF]

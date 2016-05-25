@@ -1,0 +1,25 @@
+[ItemDef 0cb7]
+DefName=iCattails1
+Name=cattails
+NameLoc=1023255
+Type=tGrass
+Weight=255
+
+Category=Plants
+Subsection=Plants
+Description=Cattails 1
+
+
+[ItemDef 0cb8]
+DefName=iCattails2
+Name=cattails
+NameLoc=1023256
+Type=tGrass
+Weight=255
+
+Category=Plants
+Subsection=Plants
+Description=Cattails 2
+
+
+[EOF]

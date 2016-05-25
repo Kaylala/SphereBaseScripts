@@ -1,0 +1,12 @@
+[ItemDef 0234B]
+DefName=iRoseOfTrinsic1
+Name=Rose of Trinsic
+NameLoc=1029035
+Weight=1
+
+Category=Systems
+Subsection=Rose of Trinsic
+Description=Rose of Trinsic
+
+
+[EOF]

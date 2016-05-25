@@ -1,6 +1,24 @@
 [TypeDef tChickenCoop]
 
 
+[TypeDef tRawReagent]
+On=@DClick
+If (<TopObj> != <Src>)
+ Src.SMsg The item must be in your backpack to use.
+ Return 1
+EndIf
+
+Src.SMsg Please target the grinder you wish to use.
+Target
+Return 1
+
+On=@TargOn_Item
+If (<ArgO.BaseID> == iGrinder)
+ Serv.NewItem=<TData3>,<Amount>,<Src>
+ Remove <Amount>
+EndIf
+
+
 [TypeDef tFurniture]
 On=@Dye
 If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &FurnitureDye)

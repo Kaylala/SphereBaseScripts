@@ -163,4 +163,33 @@ NameLoc=1027948
 DupeItem=01f0b
 
 
+[ItemDef 0236C]
+DefName=iKabuto
+Name=kabuto
+NameLoc=1029068
+Type=tArmor
+Can=CanIFlip|CanIRepair|CanIExceptional|CanIMakersmark|CanIRetaincolor|CanIImbue|CanIEnhance|CanIReforge|CanIRecycle|CanIRegenStam|CanIRegenHits
+CanUse=CanUHuman|CanUElf
+Weight=5
+ReqStr=80
+DupeList=0236D
+
+ResPhysical=5
+ResFire=3
+ResCold=3
+ResPoison=2
+ResEnergy=2
+
+Category=Equipment
+Subsection=Helmets
+Description=Kabuto
+
+On=@Create
+HitPoints={36 48}
+
+[ItemDef 0236D]
+NameLoc=1029069
+DupeItem=0236C
+
+
 [EOF]

@@ -130,18 +130,6 @@ Subsection=Potted Plants
 Description=Potted Cactus 6
 
 
-[ItemDef 0284a]
-DefName=iFlowers1
-Name=flowers
-NameLoc=1030314
-Type=tNormal
-Weight=3
-
-Category=Plants
-Subsection=Potted Plants
-Description=Flowers 1
-
-
 [ItemDef 042B9]
 DefName=iLargeDyingPlant
 Name=large dying plant

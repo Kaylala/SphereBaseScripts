@@ -1,0 +1,130 @@
+// Is it BlessRune or Blessed? Need to double check later.
+[Function IsBlessed]
+If (<IsChar>)
+ Return <QVal (<FindLayer.LayerSpecial.BaseID> == iBlessRune) ? 1 : 0>
+ElIf (<IsItem>)
+ Return <QVal (<Attr> &AttrBlessed) ? 1 : 0>
+EndIf
+
+
+[Function IsCursed]
+If (<IsChar>)
+ Return <QVal (<FindLayer.LayerSpecial.BaseID> == iCurseRune) || (<FindLayer.LayerSpecial.BaseID> == iMassCurseRune) ? 1 : 0>
+ElIf (<IsItem>)
+ Return <QVal (<Attr> &AttrCursed) ? 1 : 0>
+EndIf
+
+
+[Function IsManaPhase]
+Return <QVal (<Attr> &AttrManaPhase) ? 1 : 0>
+
+
+[Function IsBattleLust]
+Return <QVal (<Attr> &AttrBattleLust) ? 1 : 0>
+
+
+[Function IsBloodDrinker]
+Return <QVal (<Attr> &AttrBloodDrinker) ? 1 : 0>
+
+
+[Function IsBane]
+Return <QVal (<Attr> &AttrBane) ? 1 : 0>
+
+
+[Function IsSpellChanneling]
+Return <QVal (<Attr> &AttrSpellChanneling) ? 1 : 0>
+
+
+[Function IsMageArmor]
+Return <QVal (<Attr> &AttrMageArmor) ? 1 : 0>
+
+
+[Function IsBalanced]
+Return <QVal (<Attr> &AttrBalanced) ? 1 : 0>
+
+
+[Function IsUseBestWeaponSkill]
+Return <QVal (<Attr> &AttrUseBestWeaponSkill) ? 1 : 0>
+
+
+[Function IsUBWS]
+Return <QVal (<Attr> &AttrUseBestWeaponSkill) ? 1 : 0>
+
+
+[Function IsBrittle]
+Return <QVal (<Attr> &AttrBrittle) ? 1 : 0>
+
+
+[Function IsPrized]
+Return <QVal (<Attr> &AttrPrized) ? 1 : 0>
+
+
+[Function IsUnwieldy]
+Return <QVal (<Attr> &AttrUnwieldy) ? 1 : 0>
+
+
+[Function IsEphemeral]
+Return <QVal (<Attr> &AttrEphemeral) ? 1 : 0>
+
+
+[Function IsMassive]
+Return <QVal (<Attr> &AttrMassive) ? 1 : 0>
+
+
+[Function IsAntique]
+Return <QVal (<Attr> &AttrAntique) ? 1 : 0>
+
+
+[Function IsUnlucky]
+Return <QVal (<Attr> &AttrUnlucky) ? 1 : 0>
+
+
+[Function IsCannotRepair]
+Return <QVal (<Attr> &AttrCannotRepair) ? 1 : 0>
+
+
+[Function IsSearing]
+Return <QVal (<Attr> &AttrSearing) ? 1 : 0>
+
+
+[Function IsLavaInfused]
+Return <QVal (<Attr> &AttrLavaInfused) ? 1 : 0>
+
+
+[Function IsBarnacleCovered]
+Return <QVal (<Attr> &AttrBarnacleCovered) ? 1 : 0>
+
+
+[Function IsShipwreckItem]
+Return <QVal (<Attr> &AttrShipwreckItem) ? 1 : 0>
+
+
+[Function IsFactionItem]
+Return <QVal (<Attr> &AttrFactionItem) ? 1 : 0>
+
+
+[Function IsVvVItem]
+Return <QVal (<Attr> &AttrVvVItem) ? 1 : 0>
+
+
+[Function IsShardBound]
+Return <QVal (<Attr> &AttrShardBound) ? 1 : 0>
+
+
+[Function IsAccountBound]
+Return <QVal (<Attr> &AttrAccountBound) ? 1 : 0>
+
+
+[Function IsCharacterBound]
+Return <QVal (<Attr> &AttrCharacterBound) ? 1 : 0>
+
+
+[Function IsSecured]
+Return <QVal (<Attr> &AttrSecured) ? 1 : 0>
+
+
+[Function IsLockedDown]
+Return <QVal (<Attr> &AttrLockedDown) ? 1 : 0>
+
+
+[EOF]

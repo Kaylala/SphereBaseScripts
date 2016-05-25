@@ -1,0 +1,206 @@
+{Comment 16th Anniversary}
+
+
+
+[Events e16thAnniversaryEvent]
+On=@Login
+If (<Tag0.AnniversaryGift>)
+ Return 0
+EndIf
+
+Ref1=<FindLayer.BackpackLayer.UID>
+Ref2=<FindLayer.BankBoxLayer.UID>
+If (<Ref1.FCount> < 125) && (<Ref1.Weight> <= (<Eval <Tag.Override.MaxWeight> - 4)>)
+ Serv.NewItem=i16thAnniversaryGiftBag,1,<Ref1>
+ Ref3=<New.UID>
+ Serv.NewItem=i16thAnniversaryGiftCard,1,<Ref3>
+ New.Tag.PlayerName=<Name>
+ New.GenerateSphereContributer
+ Serv.NewItem=i16thAnniversaryPlantDeed,1,<Ref3>
+ Serv.NewItem=i16thAnniversarySilverServingTray,1,<Ref3>
+ Serv.NewItem=i16thAnniversaryPonyStatuette,1,<Ref3>
+ SMsgL -1,1154357	// Happy 16th Anniversary! We have placed a gift for you in your backpack.
+ Tag.AnniversaryGift=1
+ Return 0
+ElIf (<Ref2.FCount> < 125) && (<Ref2.Weight> <= (<Eval <Tag.Override.MaxWeight> - 4)>)
+ Serv.NewItem=i16thAnniversaryGiftBag,1,<Ref1>
+ Ref3=<New.UID>
+ Serv.NewItem=i16thAnniversaryGiftCard,1,<Ref3>
+ Serv.NewItem=i16thAnniversaryPlantDeed,1,<Ref3>
+ Serv.NewItem=i16thAnniversarySilverServingTray,1,<Ref3>
+ Serv.NewItem=i16thAnniversaryPonyStatuette,1,<Ref3>
+ SMsgL -1,1154358	// Happy 16th Anniversary! We have placed a gift for you in your bank box. 
+ Tag.AnniversaryGift=1
+ Return 0
+Else
+ SMsgL -1,1154359	// Happy 16th Anniversary! To get your gift, please remove some items from your backpack or bank and log back in.
+ Return 0
+EndIf
+
+
+// Comment: Gift card
+[ItemDef i16thAnniversaryGiftCard]
+ID=iGiftCard
+Name=16th Anniversary Gift Card
+NameLoc=1154423	// A handwritten note from ~1_name~ personally addressed to ~2_name~
+
+On=@Create
+Color=
+
+On=@ClientTooltip
+Src.AddCliLoc <NameLoc>,<Tag0.DevName>,<Tag0.PlayerName>
+Src.AddCliLoc 1154442	// In Commemoration Of Sixteen Wonderful Years! Thank You And Happy Anniversary!
+WeightCliLoc
+Return 1
+
+
+// Horse Statuette Name
+[ItemDef i16thAnniversaryPonyStatuette]
+ID=iHorseIcon2
+NameLoc=1154336	// Happy Sixteenth Anniversary
+Type=tNormal
+Weight=1
+
+Category=Systems
+Subsection=Anniversary Gifts: 16th
+Descripton=16th Anniversary Pony Statuette
+
+On=@Create
+Color=
+
+On=@DClick
+Serv.NewNPC=cHorse2
+New.Name="Happy 16th Anniversary"
+New.Color=<Color>
+New.MakeMyPet
+Consume <I>
+Return 1
+
+
+[ItemDef i16thAnniversaryGiftBag]
+ID=iBag
+Name=16th Anniversary Gift Bag
+NameLoc=1154356
+
+Category=Systems
+Subsection=Anniversary Gifts: 16th
+Descripton=16th Anniversary Gift Bag
+
+On=@Create
+Color=
+
+
+[ItemDef 09960]
+DefName=i16thAnniversarySilverServingTray
+Name=16th Anniversary Silver Serving Tray
+NameLoc=1154422
+Type=tNormal
+Can=CanIFlip
+Weight=1
+DupeList=09961
+
+Category=Systems
+Subsection=Anniversary Gifts: 16th
+Description=16th Anniversary Silver Serving Tray
+
+[ItemDef 09961]
+NameLoc=1154422
+DupeItem=09960
+
+
+[ItemDef i16thAnniversaryPlantDeed]
+ID=iDeed
+Name=16th Anniversary Plant Deed
+NameLoc=1154424	// 16th Anniversary Plant Deed
+Type=tNormal
+Weight=1
+
+Category=Systems
+Subsection=Anniversary Gifts: 16th
+Description=16th Anniversary Plant Deed
+
+On=@Create
+Attr=AttrNewbie|AttrBlessed
+Color=
+
+On=@DClick
+// Does this get a dialog? Random for now I guess.
+Serv.NewItem={iElephantEarDieffenbachia 1 iStaghornFern 1 iJapaneseMaple 1 iEnormousVenusFlytrap 1}
+New.Cont=<Src>
+Consume <I>
+Return 1
+
+
+[ItemDef 09962]
+DefName=iElephantEarDieffenbachia
+Name=Elephant Ear Dieffenbachia
+NameLoc=1154458
+Type=tNormal
+Can=CanIFlip
+Weight=1
+DupeList=09963
+
+Category=Systems
+Subsection=Anniversary Gifts: 16th
+Description=Elephant Ear Dieffenbachia
+
+[ItemDef 09963]
+NameLoc=1154458
+DupeItem=09962
+
+
+[ItemDef 09964]
+DefName=iStaghornFern
+Name=Staghorn Fern
+NameLoc=1154460
+Type=tNormal
+Can=CanIFlip
+Weight=1
+DupeList=09965
+
+Category=Systems
+Subsection=Anniversary Gifts: 16th
+Description=Staghorn Fern
+
+[ItemDef 09965]
+NameLoc=1154460
+DupeItem=09964
+
+
+[ItemDef 09967]
+DefName=iEnormousVenusFlytrap
+Name=Enormous Venus Flytrap
+NameLoc=1154462
+Type=tTrashBarrel
+Can=CanIFlip
+Weight=1
+DupeList=09968
+
+Category=Systems
+Subsection=Anniversary Gifts: 16th
+Description=Enormous Venus Flytrap
+
+[ItemDef 09968]
+NameLoc=1154462
+DupeItem=09967
+
+
+[ItemDef 0996A]
+DefName=iJapaneseMaple
+Name=Japanese Maple
+NameLoc=1154459
+Type=tNormal
+Can=CanIFlip
+Weight=1
+DupeList=0996B
+
+Category=Systems
+Subsection=Anniversary Gifts: 16th
+Description=Japanese Maple
+
+[ItemDef 0996b]
+NameLoc=1154459
+DupeItem=0996A
+
+
+[EOF]

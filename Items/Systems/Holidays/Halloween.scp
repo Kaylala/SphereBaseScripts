@@ -7,6 +7,25 @@ Jack-O-Lantern
 1113990;murky morph potion
 
 
+[ItemDef iGrimReapersScythe]
+ID=iScythe
+Name=The Grim Reaper's Scythe
+NameLoc=1076760		// The Grim Reaper's Scythe
+
+Rarity=11
+HitLifeLeech=100
+HitHarm=25
+SpellDamageIncrease=5
+DamageIncrease=50
+
+Category=Systems
+Subsection=Holidays: Halloween
+Description=The Grim Reaper's Scythe
+
+On=@Create
+Attr=AttrMagic|AttrArtifact|AttrIdentified
+
+
 [ItemDef 0992D]
 DefName=iCarvingKit
 Name=carving kit

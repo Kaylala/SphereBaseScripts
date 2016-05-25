@@ -1,0 +1,73 @@
+[ItemDef 0ca1]
+DefName=iLargeFern
+Name=large fern
+NameLoc=1023233
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Ferns
+Description=Large Fern
+
+
+[ItemDef 0c9f]
+DefName=iFern1
+Name=fern
+NameLoc=1023231
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Ferns
+Description=Fern 1
+
+
+[ItemDef 0ca0]
+DefName=iFern2
+Name=fern
+NameLoc=1023232
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Ferns
+Description=Fern 2
+
+
+[ItemDef 0ca2]
+DefName=iFern3
+Name=fern
+NameLoc=1023234
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Ferns
+Description=Fern 3
+
+
+[ItemDef 0ca3]
+DefName=iFern4
+Name=fern
+NameLoc=1023235
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Ferns
+Description=Fern 4
+
+
+[ItemDef 0ca4]
+DefName=iFern5
+Name=fern
+NameLoc=1023236
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Ferns
+Description=Fern 5
+
+
+[EOF]

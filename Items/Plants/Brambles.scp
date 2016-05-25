@@ -1,0 +1,87 @@
+// Damaging
+[ItemDef 0d3f]
+DefName=iBrambles1
+Name=brambles
+NameLoc=1023391
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Brambles
+Description=Brambles 1
+
+
+// Damaging
+[ItemDef 0d40]
+DefName=iBrambles2
+Name=brambles
+NameLoc=1023392
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Brambles
+Description=Brambles 2
+
+
+[ItemDef 03020]
+DefName=iBrambles3
+Name=brambles
+NameLoc=1032320
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Brambles
+Description=Brambles 3
+
+
+[ItemDef 03021]
+DefName=iBrambles4
+Name=brambles
+NameLoc=1032321
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Brambles
+Description=Brambles 4
+
+
+[ItemDef 03022]
+DefName=iBrambles5
+Name=brambles
+NameLoc=1032322
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Brambles
+Description=Brambles 5
+
+
+[ItemDef 03023]
+DefName=iBrambles6
+Name=brambles
+NameLoc=1032323
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Brambles
+Description=Brambles 6
+
+
+[ItemDef 03024]
+DefName=iBrambles7
+Name=brambles
+NameLoc=1032324
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Brambles
+Description=Brambles 7
+
+
+[EOF]

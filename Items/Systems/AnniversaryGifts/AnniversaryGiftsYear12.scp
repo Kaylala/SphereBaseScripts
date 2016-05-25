@@ -1,0 +1,132 @@
+//////////////////////
+// 12th Anniversary //
+//////////////////////
+
+[Comment 12thAnniversary]
+Gift Ticket allows option to receive one of the following:
+Codex of Virtue
+Silver Sapling Replica
+Ultima Banner
+Mailbox
+
+Upon selecting a gift item, a special hued bag named "12th Anniversary Gift Bag" will be placed in the character's main backpack. Inside will be the selected gift as well as a 12th Anniversary Cake and an Anniversary Card.
+
+There were 16 different colored cakes. The white cake was the rarest to obtain. The white/green colored card was the rarer hue for this year.
+
+
+[ItemDef i12thAnniversaryGiftTicket]
+ID=iDeed
+Name=12th Anniversary Gift Ticket
+NameLoc=1113928
+Type=tNormal
+
+Category=Systems
+Subsection=Anniversary
+Description=12th Anniversary Gift Ticket
+
+On=@Create
+Attr=AttrNewbie|AttrBlessed
+Color=0B8C
+
+On=@DClick
+
+
+[ItemDef iSilverSaplingDeed]
+
+
+[ItemDef 042C7]
+DefName=iSilverSaplingReplica
+Name=silver sapling replica
+NameLoc=1095967
+Type=tNormal
+Weight=1
+
+Category=Systems
+Subsection=Anniversary Gifts: 12th
+Description=Silver Sapling Replica
+
+
+[ItemDef 042C8]
+DefName=iPottedSilverSaplingReplica
+Name=potted silver sapling replica
+NameLoc=1095968
+Type=tNormal
+Weight=1
+
+Category=Systems
+Subsection=Anniversary Gifts: 12th
+Description=Potted Silver Sapling Replica
+
+
+[ItemDef 042C9]
+DefName=iUtimaBanner
+Name=Ultima Banner
+NameLoc=1095969
+Type=tNormal
+Can=CanIFlip
+Weight=2
+DupeList=042CA
+
+Category=Systems
+Subsection=Anniversary Gifts: 12th
+Description=Ultima Banner
+
+[ItemDef 042CA]
+NameLoc=1095970
+DupeItem=042C9
+
+
+[ItemDef 04141]
+DefName=iMailbox2
+Name=mailbox
+NameLoc=1095577
+Type=tContainer
+TData2=011a
+Weight=5
+TEvents=tMailbox
+DupeList=04143
+
+Category=Systems
+Subsection=Anniversary Gifts: 12th
+Description=Mailbox
+
+[ItemDef 04143]
+NameLoc=1095579
+DupeItem=04141
+
+[ItemDef 04142]
+DefName=iMailbox1
+Name=mailbox
+NameLoc=1095578
+Type=tContainer
+TData2=011a
+Weight=5
+TEvents=tMailbox
+DupeList=04144
+
+Category=Systems
+Subsection=Anniversary Gifts: 12th
+Description=Mailbox (Empty)
+
+[ItemDef 04144]
+NameLoc=1095580
+DupeItem=04142
+
+
+[ItemDef iCodexOfVirtueDeed]
+ID=iDeed
+Name=Codex of Virtue Deed
+NameLoc=1113919	// a Codex of Virtue Deed
+Type=tDeed
+Weight=1
+
+Category=Systems
+Subsection=Anniversary Gifts: 12th
+Description=Codex of Virtue Deed
+
+On=@Create
+Attr=AttrNewbie|AttrBlessed
+More1=mCodexOfVirtueMulti
+
+
+[EOF]

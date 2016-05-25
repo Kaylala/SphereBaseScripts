@@ -1,0 +1,33 @@
+[ItemDef 04128]
+DefName=iTowerVines1
+//Name=tower vines
+Type=tNormal
+Can=CanIFlip
+Weight=255
+DupeList=0412A
+
+Category=Plants
+Subsection=Vines: Tower Vines
+Description=Tower Vines 1
+
+[ItemDef 0412A]
+DupeItem=04128
+
+
+[ItemDef 04129]
+DefName=iTowerVines2
+//Name=tower vines
+Type=tNormal
+Can=CanIFlip
+Weight=255
+DupeList=0412B
+
+Category=Plants
+Subsection=Vines: Tower Vines
+Description=Tower Vines 2
+
+[ItemDef 0412B]
+DupeItem=04129
+
+
+[EOF]

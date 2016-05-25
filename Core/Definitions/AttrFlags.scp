@@ -1,64 +1,70 @@
 [DefName Attr_flags]
 // apply to items
-AttrIdentified			01				// this is the identified name. ???
-AttrDecay				02				// timer currently set to decay.
-AttrNewbie				04				// not lost on death or sellable ?
-AttrAlwaysMove			08				// always movable (client default without) never decays and overridews mul
-AttrNeverMove			010  			// never movable (else default as stored in client) never decays !
-AttrMagic				020  			// don't set this while worn! Item is magic as apposed to marked/markable.
-AttrOwned				040  			// this is owned by the town. you need to steal it. never decays !
-AttrInvisible			080  			// gray hidden item (to gm's or owners?)
+AttrIdentified			01					// this is the identified name. ???
+AttrDecay				02					// timer currently set to decay.
+AttrNewbie				04					// not lost on death or sellable ?
+AttrAlwaysMove			08					// always movable (client default without) never decays and overridews mul
+AttrNeverMove			010  				// never movable (else default as stored in client) never decays !
+AttrMagic				020  				// don't set this while worn! Item is magic as apposed to marked/markable.
+AttrOwned				040  				// this is owned by the town. you need to steal it. never decays !
+AttrInvisible			080 	 			// gray hidden item (to gm's or owners?)
 AttrCursed				0100
-AttrDamned				0200  			// cursed damned unholy
+AttrUnholy				0200	  			// cursed damned unholy
 AttrBlessed				0400
-AttrSacred				0800  			// blessed sacred holy
-AttrForSale				01000  			// for sale on a vendor.
-AttrStolen				02000  			// the item is hot. m_uidlink = previous owner.
-AttrCanDecay			04000  			// Item can decay. but it would seem that it wont (AttrNeverMove etc)
-AttrStatic				08000  			// worldforge merge marker. (not used)
-AttrExceptional			010000			// is exceptional
-AttrEnhanced			020000			// is enchanted
-AttrImbued				040000			// is imbued
-AttrQuestItem			080000			// is quest item
-AttrInsured				0100000			// Is insured
-AttrNoDrop				0200000			// no-drop
-AttrNoTrade				0400000			// no-trade
-AttrArtifact			0800000			// artifact
-AttrLockedDown			01000000		// locked down
-AttrSecured				02000000		// secured
-AttrReforged			04000000		// Is Runic Reforged.
-AttrLockedDown			08000000		// Locked Down House Item
-AttrShardBound			010000000		// Shard Bound item (Cannot be transferred)
-AttrAccountBound		020000000		// Account Bound Item
-AttrCharacterBound		040000000		// Character Bound Item (for use with Owned by, or without)
+AttrSacred				0800  				// blessed sacred holy
+AttrForSale				01000  				// for sale on a vendor.
+AttrStolen				02000  				// the item is hot. m_uidlink = previous owner.
+AttrCanDecay			04000  				// Item can decay. but it would seem that it wont (AttrNeverMove etc)
+AttrStatic				08000  				// worldforge merge marker. (not used)
+AttrExceptional			010000				// is exceptional
+AttrEnhanced			020000				// is enchanted
+AttrImbued				040000				// is imbued
+AttrQuestItem			080000				// is quest item
+AttrInsured				0100000				// Is insured
+AttrNoDrop				0200000				// no-drop
+AttrNoTrade				0400000				// no-trade
+AttrArtifact			0800000				// artifact
+AttrLockedDown			01000000			// locked down
+AttrSecured				02000000			// secured
+AttrReforged			04000000			// Is Runic Reforged.
+AttrLockedDown			08000000			// Locked Down House Item
+AttrShardBound			010000000			// Shard Bound item (Cannot be transferred)
+AttrAccountBound		020000000			// Account Bound Item
+AttrCharacterBound		040000000			// Character Bound Item (for use with Owned by, or without)
 
 // Magic Property Attributes
-AttrBalanced			080000000		// Balanced iProp
-AttrUseBestWeaponSkill	0100000000		// UBWS iProp
-AttrMageArmor			0200000000		// Mage Armor iProp
-AttrSpellChanneling		0400000000		// Spell Channeling iProp
-AttrBane				0800000000		// Bane iProp
-AttrBloodDrinker		01000000000		// Blood drinker iProp
-AttrBattleLust			02000000000		// Battle Lust iProp
-AttrManaPhase			04000000000		// Mana Phase
-AttrSearingWeapon		08000000000		// Searing iProp
-AttrAntique				010000000000	//  Increased durability loss, powderable 3x. Powder reduces max durability to 250/200/150. Can be repaired
-AttrBrittle				020000000000	// Can't be powdered. Defaulty 255 durability
-AttrCannotRepair		040000000000	// No repair, no fortify
-AttrMassive				080000000000	// Increased str requirement
-AttrPrized				0100000000000	// Increase Item insurance, cannot be blessed
-AttrUnlucky				0200000000000	// -100 lucky (cant have lucky property)
-AttrUnwieldy			0400000000000	// Increased weight
-AttrEphemeral			0800000000000	// Cannot powder or repair. Loses 1 durability every 6 minutes of actual fighting. 250 durability.
+AttrBalanced			080000000			// Balanced iProp
+AttrUseBestWeaponSkill	0100000000			// UBWS iProp
+AttrMageArmor			0200000000			// Mage Armor iProp
+AttrSpellChanneling		0400000000			// Spell Channeling iProp
+AttrBane				0800000000			// Bane iProp
+AttrBloodDrinker		01000000000			// Blood drinker iProp
+AttrBattleLust			02000000000			// Battle Lust iProp
+AttrManaPhase			04000000000			// Mana Phase
+AttrSearingWeapon		08000000000			// Searing iProp
+AttrReactiveParalyze	010000000000		// 
+AttrSpellFocusing		020000000000		// Still needs prop on char
+AttrCastingFocus		040000000000		// Still needs prop on char
+AttrRageFocus			080000000000		// Still needs prop on char
+
+// Deficiencies
+AttrAntique				0100000000000		//  Increased durability loss, powderable 3x. Powder reduces max durability to 250/200/150. Can be repaired
+AttrBrittle				0200000000000		// Can't be powdered. Defaulty 255 durability
+AttrCannotRepair		0400000000000		// No repair, no fortify
+AttrMassive				0800000000000		// Increased str requirement
+AttrPrized				01000000000000		// Increase Item insurance, cannot be blessed
+AttrUnlucky				02000000000000		// -100 lucky (cant have lucky property)
+AttrUnwieldy			04000000000000		// Increased weight
+AttrEphemeral			08000000000000		// Cannot powder or repair. Loses 1 durability every 6 minutes of actual fighting. 250 durability.
 
 // Fishing Attributes.
-AttrLavaInfused			01000000000000	// Lava infused
-AttrBarnacleCovered		02000000000000	// Barnacle covered
-AttrShipwreckItem		04000000000000	// Recovered from shipwreck
+AttrLavaInfused			010000000000000		// Lava infused
+AttrBarnacleCovered		020000000000000		// Barnacle covered
+AttrShipwreckItem		040000000000000		// Recovered from shipwreck
 
 // Faction
-AttrFactionItem			08000000000000	// Faction Item (Has cliloc)
-AttrVvVItem				010000000000000	// VvV Item (Has CliLoc)
+AttrFactionItem			080000000000000		// Faction Item (Has cliloc)
+AttrVvVItem				0100000000000000	// VvV Item (Has CliLoc)
 
 AttrEnchanted			AttrEnhanced
 

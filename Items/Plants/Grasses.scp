@@ -1,0 +1,217 @@
+[ItemDef 0cac]
+DefName=iGrasses1
+Name=grasses
+NameLoc=1023244
+Type=tGrass
+Weight=255
+
+Category=Plants
+Subsection=Plants
+Description=Grasses 1
+
+
+[ItemDef 0cad]
+DefName=iGrasses2
+Name=grasses
+NameLoc=1023245
+Type=tGrass
+Weight=255
+
+Category=Plants
+Subsection=Plants
+Description=Grasses 2
+
+
+[ItemDef 0cae]
+DefName=iGrasses3
+Name=grasses
+NameLoc=1023246
+Type=tGrass
+Weight=255
+
+Category=Plants
+Subsection=Plants
+Description=Grasses 3
+
+
+[ItemDef 0caf]
+DefName=iGrasses4
+Name=grasses
+NameLoc=1023247
+Type=tGrass
+Weight=255
+
+Category=Plants
+Subsection=Plants
+Description=Grasses 4
+
+
+[ItemDef 0cb0]
+DefName=iGrasses5
+Name=grasses
+NameLoc=1023248
+Type=tGrass
+Weight=255
+
+Category=Plants
+Subsection=Plants
+Description=Grasses 5
+
+
+[ItemDef 0cb1]
+DefName=iGrasses6
+Name=grasses
+NameLoc=1023249
+Type=tGrass
+Weight=255
+
+Category=Plants
+Subsection=Plants
+Description=Grasses 6
+
+
+[ItemDef 0cb2]
+DefName=iGrasses7
+Name=grasses
+NameLoc=1023250
+Type=tGrass
+Weight=255
+
+Category=Plants
+Subsection=Plants
+Description=Grasses 7
+
+
+[ItemDef 0cb3]
+DefName=iGrasses8
+Name=grasses
+NameLoc=1023251
+Type=tGrass
+Weight=255
+
+Category=Plants
+Subsection=Plants
+Description=Grasses 8
+
+
+[ItemDef 0cb4]
+DefName=iGrasses9
+Name=grasses
+NameLoc=1023252
+Type=tGrass
+Weight=255
+
+Category=Plants
+Subsection=Plants
+Description=Grasses 9
+
+
+[ItemDef 0cb5]
+DefName=iGrasses10
+Name=grasses
+NameLoc=1023253
+Type=tGrass
+Weight=255
+
+Category=Plants
+Subsection=Plants
+Description=Grasses 10
+
+
+[ItemDef 0cb6]
+DefName=iGrasses11
+Name=grasses
+NameLoc=1023254
+Type=tGrass
+Weight=255
+
+Category=Plants
+Subsection=Plants
+Description=Grasses 11
+
+
+[ItemDef 0cb9]
+DefName=iGrasses12
+Name=grasses
+NameLoc=1023257
+Type=tGrass
+Weight=255
+
+Category=Plants
+Subsection=Plants
+Description=Grasses 12
+
+
+[ItemDef 0cba]
+DefName=iGrasses13
+Name=grasses
+NameLoc=1023258
+Type=tGrass
+Weight=255
+
+Category=Plants
+Subsection=Plants
+Description=Grasses 13
+
+
+[ItemDef 0cbb]
+DefName=iGrasses14
+Name=grasses
+NameLoc=1023259
+Type=tGrass
+Weight=255
+
+Category=Plants
+Subsection=Plants
+Description=Grasses 14
+
+
+[ItemDef 0cbc]
+DefName=iGrasses15
+Name=grasses
+NameLoc=1023260
+Type=tGrass
+Weight=255
+
+Category=Plants
+Subsection=Plants
+Description=Grasses 15
+
+
+[ItemDef 0cbd]
+DefName=iGrasses16
+Name=grasses
+NameLoc=1023261
+Type=tGrass
+Weight=255
+
+Category=Plants
+Subsection=Plants
+Description=Grasses 16
+
+
+[ItemDef 0cc5]
+DefName=iGrasses16
+Name=grasses
+NameLoc=1023269
+Type=tGrass
+Weight=255
+
+Category=Plants
+Subsection=Plants
+Description=Grasses 16
+
+
+[ItemDef 0cc6]
+DefName=iGrasses17
+Name=grasses
+NameLoc=1023270
+Type=tGrass
+Weight=255
+
+Category=Plants
+Subsection=Plants
+Description=Grasses 17
+
+
+[EOF]

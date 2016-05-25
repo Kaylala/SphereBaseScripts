@@ -1,0 +1,66 @@
+[ItemDef 0246C]
+DefName=iBamboo1
+Name=bamboo
+NameLoc=1029324
+Type=tTree
+Can=CanIBlock
+Weight=255
+
+Category=Plants
+Subsection=Trees
+Description=Bamboo 1
+
+
+[ItemDef 0246D]
+DefName=iBamboo2
+Name=bamboo
+NameLoc=1029325
+Type=tTree
+Can=CanIBlock
+Weight=255
+
+Category=Plants
+Subsection=Trees
+Description=Bamboo 2
+
+
+[ItemDef 0246E]
+DefName=iBamboo3
+Name=bamboo
+NameLoc=1029326
+Type=tTree
+Can=CanIBlock
+Weight=255
+
+Category=Plants
+Subsection=Trees
+Description=Bamboo 3
+
+
+[ItemDef 0246f]
+DefName=iBamboo4
+Name=bamboo
+NameLoc=1029327
+Type=tTree
+Can=CanIBlock
+Weight=255
+
+Category=Plants
+Subsection=Trees
+Description=Bamboo 4
+
+
+[ItemDef 02470]
+DefName=iBamboo5
+Name=bamboo
+NameLoc=1029328
+Type=tTree
+Can=CanIBlock
+Weight=255
+
+Category=Plants
+Subsection=Trees
+Description=Bamboo 5
+
+
+[EOF]

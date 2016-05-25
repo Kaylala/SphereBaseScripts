@@ -14,18 +14,18 @@ Material=tLeather,iBone
 AlterItem=0
 DupeList=01456
 
+ResPhysical=3
+ResFire=3
+ResCold=4
+ResPoison=2
+ResEnergy=4
+
 Category=Equipment
 Subsection=Armor: Bone Armor
 Description=Bone Helmet
 
 On=@Create
 HitPoints={36 48}
-
-ResPhysical=3
-ResFire=3
-ResCold=4
-ResPoison=2
-ResEnergy=4
 
 [ItemDef 01456]
 DupeItem=01451
@@ -47,18 +47,18 @@ Material=tLeather,iBone
 AlterItem=0
 DupeList=01455
 
+ResPhysical=3
+ResFire=3
+ResCold=4
+ResPoison=2
+ResEnergy=4
+
 Category=Equipment
 Subsection=Armor: Bone Armor
 Description=Bone Gloves
 
 On=@Create
 HitPoints={36 48}
-
-ResPhysical=3
-ResFire=3
-ResCold=4
-ResPoison=2
-ResEnergy=4
 
 [ItemDef 01455]
 DupeItem=01450
@@ -80,18 +80,18 @@ Material=tLeather,iBone
 AlterItem=0
 DupeList=01453
 
+ResPhysical=3
+ResFire=3
+ResCold=4
+ResPoison=2
+ResEnergy=4
+
 Category=Equipment
 Subsection=Armor: Bone Armor
 Description=Bone Arms
 
 On=@Create
 HitPoints={36 48}
-
-ResPhysical=3
-ResFire=3
-ResCold=4
-ResPoison=2
-ResEnergy=4
 
 [ItemDef 01453]
 DupeItem=0144E
@@ -113,18 +113,18 @@ Material=tLeather,iBone
 AlterItem=0
 DupeList=01457
 
+ResPhysical=3
+ResFire=3
+ResCold=4
+ResPoison=2
+ResEnergy=4
+
 Category=Equipment
 Subsection=Armor: Bone Armor
 Description=Bone Leggings
 
 On=@Create
 HitPoints={36 48}
-
-ResPhysical=3
-ResFire=3
-ResCold=4
-ResPoison=2
-ResEnergy=4
 
 [ItemDef 01457]
 DupeItem=01452
@@ -145,18 +145,18 @@ Material=tLeather,iBone
 AlterItem=0
 DupeList=01454
 
+ResPhysical=3
+ResFire=3
+ResCold=4
+ResPoison=2
+ResEnergy=4
+
 Category=Equipment
 Subsection=Armor: Bone Armor
 Description=Bone Armor
 
 On=@Create
 HitPoints={36 48}
-
-ResPhysical=3
-ResFire=3
-ResCold=4
-ResPoison=2
-ResEnergy=4
 
 [ItemDef 01454]
 DupeItem=0144F

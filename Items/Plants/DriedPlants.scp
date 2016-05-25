@@ -1,0 +1,69 @@
+[ItemDef 0c3b]
+DefName=iDriedFlowers1
+Name=dried flowers
+NameLoc=1023131
+Type=tNormal
+//Resources=1 iCropFlower
+DupeList=0c3c
+
+Category=Plants
+Subsection=Dried Plants
+Description=Dried Flowers
+
+[ItemDef 0c3c]
+NameLoc=1023132
+DupeItem=0c3b
+
+
+[ItemDef 0c3d]
+DefName=iDriedFlowers2
+Name=dried flowers
+NameLoc=1023133
+Type=tNormal
+//Resources=1 iCropFlower
+DupeList=0c3e
+
+Category=Plants
+Subsection=Dried Plants
+Description=Dried Flowers
+
+[ItemDef 0c3e]
+NameLoc=1023134
+DupeItem=0c3d
+
+
+[ItemDef 0c3f]
+DefName=iDriedOnions
+Name=dried onions
+NameLoc=1023135
+Type=tNormal
+//Resources=1 iCropOnion
+DupeList=0c40
+
+Category=Plants
+Subsection=Dried Plants
+Description=Dried Onions
+
+[ItemDef 0c40]
+NameLoc=1023136
+DupeItem=0c3f
+
+
+[ItemDef 0c41]
+DefName=iDriedHerbs
+Name=dried herbs
+NameLoc=1023137
+Type=tNormal
+//Resources=1 i_crop_herb
+DupeList=0c42
+
+Category=Vegetation
+Subsection=Dried Vegetation
+Description=Dried Herbs
+
+[ItemDef 0c42]
+NameLoc=1023138
+DupeItem=0c41
+
+
+[EOF]

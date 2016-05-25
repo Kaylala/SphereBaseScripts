@@ -1,6 +1,6 @@
 [DefName Region_Flags]
 RegionAntiMagicAll				00001   // all magic banned here.
-RegionAntiMagicRecallIn			00002   // teleport,recall in to this, and mark
+RegionAntiMagicRecallIn			00002   // Recall in to this, and mark
 RegionAntiMagicRecallOut		00004   // can't recall out of here.
 RegionAntiMagicGate				00008
 RegionAntiMagicTeleport			00010   // can't teleport into here.

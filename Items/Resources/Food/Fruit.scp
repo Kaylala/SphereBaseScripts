@@ -1,0 +1,470 @@
+[Comment tFruit_Notes]
+TData1 = The ID of a t_crop item that this fruit comes from (If not set, this fruit may not have a seed, use zero to be certain)
+MoreM = Is the amount (0 to 127) of "food units" that will be gained when the item is used (eaten)
+MoreZ = Is the poison level of the fruit
+
+
+[ItemDef 0994]
+DefName=iPear
+Name=pear%s
+NameLoc=1022452
+Type=tFruit
+Can=CanIFlip|CanIStack
+Weight=1
+DupeList=0172D
+
+Category=Resources
+Subsection=Food: Fruit
+Description=Pear
+
+On=@Create
+MoreM=1
+
+[ItemDef 0172D]
+NameLoc=1025933
+DupeItem=0994
+
+
+[ItemDef 09D0]
+DefName=iApple
+Name=apple%s
+NameLoc=1022512
+Type=tFruit
+Can=CanIStack
+Weight=1
+
+Category=Resources
+Subsection=Food: Fruit
+Description=Apple
+
+On=@Create
+MoreM=1
+
+
+[ItemDef 09D1]
+DefName=iGrapeBunch
+Name=grape bunch%es
+NameLoc=1022513
+Type=tFruit
+Can=CanIFlip|CanIStack
+Weight=1
+DupeList=0D1A
+
+Category=Resources
+Subsection=Food: Fruit
+Description=Grape Bunch
+
+On=@Create
+MoreM=1
+
+[ItemDef 0D1A]
+NameLoc=1023354
+DupeItem=09D1
+
+
+[ItemDef 09D2]
+DefName=iPeach
+Name=peach%es
+NameLoc=1022514
+Type=tFruit
+Can=CanIFlip|CanIStack
+Weight=1
+DupeList=0172C
+
+Category=Resources
+Subsection=Food: Fruit
+Description=Peach
+
+On=@Create
+MoreM=1
+
+[ItemDef 0172C]
+NameLoc=1025932
+DupeItem=09D2
+
+
+[ItemDef 0C5C]
+DefName=iWatermelon
+Name=watermelon%s
+NameLoc=1023164
+Type=tFruit
+//TData1=iCropVines1
+Can=CanIFlip|CanIStack
+Weight=5
+DupeList=0C5D
+
+Category=Resources
+Subsection=Food: Fruit
+Description=Watermelon
+
+On=@Create
+MoreM=1
+
+[ItemDef 0C5D]
+NameLoc=1023165
+DupeItem=0C5C
+
+
+[ItemDef 0C64]
+DefName=iGourd1
+Name=gourd%s
+NameLoc=1023172
+Type=tFruit
+//TData1=iCropVines1
+Can=CanIFlip|CanIStack
+Weight=1
+DupeList=0c65
+
+Category=Resources
+Subsection=Food: Fruit
+Description=Gourd 1 (Yellow)
+
+On=@Create
+MoreM=1
+
+[ItemDef 0c65]
+NameLoc=1023173
+DupeItem=0c64
+
+
+[ItemDef 0c66]
+DefName=iGourd2
+Name=gourd%s
+NameLoc=1023174
+Type=tFruit
+//TData1=iCropVines1
+Can=CanIFlip|CanIStack
+Weight=1
+DupeList=0c67
+
+Category=Resources
+Subsection=Food: Fruit
+Description=Gourd 2 (Green)
+
+On=@Create
+MoreM=1
+
+[ItemDef 0c67]
+NameLoc=1023175
+DupeItem=0c66
+
+
+[ItemDef 0C6A]
+DefName=iPumpkin1
+Name=pumpkin
+NameLoc=1023178
+Type=tFruit
+//TData1=iCropVines1
+Can=CanIFlip|CanIStack
+Weight=1
+DupeList=0C6B
+
+Category=Resources
+Subsection=Food: Fruit
+Description=Pumpkin 1
+
+On=@Create
+MoreM=1
+
+[ItemDef 0C6B]
+NameLoc=1023179
+DupeItem=0C6A
+
+
+[ItemDef 0C6C]
+DefName=iPumpkin2
+Name=pumpkin%s
+NameLoc=1023180
+Type=tFruit
+//TData1=iCropVines1
+Can=CanIFlip|CanIStack
+Weight=1
+
+Category=Resources
+Subsection=Food: Fruit
+Description=Pumpkin 2
+
+On=@Create
+MoreM=1
+
+
+[ItemDef 0C72]
+DefName=iSquash
+Name=squash
+NameLoc=1023186
+Type=tFruit
+TData1=iCropVines1
+Can=CanIFlip|CanIStack
+Weight=1
+DupeList=0c73
+
+Category=Resources
+Subsection=Food: Fruit
+Description=Squash
+
+On=@Create
+MoreM=1
+
+[ItemDef 0c73]
+NameLoc=1023187
+DupeItem=0c72
+
+
+[ItemDef 0c74]
+DefName=iHoneydewMelon
+Name=honeydew melon%s
+NameLoc=1023188
+Type=tFruit
+TData1=iCropVines1
+Can=CanIFlip|CanIStack
+Weight=1
+DupeList=0c75
+
+Category=Resources
+Subsection=Food: Fruit
+Description=Honeydew Melon
+
+On=@Create
+MoreM=1
+
+[ItemDef 0c75]
+NameLoc=1023189
+DupeItem=0c74
+
+
+[ItemDef 0c79]
+DefName=iCanteloupe
+Name=canteloupe%s
+NameLoc=1023193
+Type=tFruit
+//TData1=iCropVines1
+Can=CanIFlip|CanIStack
+Weight=1
+DupeList=0c7a
+
+Category=Resources
+Subsection=Food: Fruit
+Description=Cantaloupe
+
+On=@Create
+MoreM=1
+
+[ItemDef 0c7a]
+NameLoc=1023194
+DupeItem=0c79
+
+
+[ItemDef 0171d]
+DefName=iBanana1
+Name=banana
+NameLoc=1025917
+Type=tFruit
+//TData1=i_tree_banana
+Can=CanIFlip
+Weight=1
+//Resources=1 iBanana2
+DupeList=0171e
+
+Category=Resources
+Subsection=Food: Fruit
+Description=Banana 1 (Half Peeled)
+
+On=@Create
+MoreM=1
+
+[ItemDef 0171e]
+NameLoc=1025918
+DupeItem=0171d
+
+
+[ItemDef 0171f]
+DefName=iBanana2
+Name=banana
+NameLoc=1025919
+Type=tFruit
+//TData1=i_tree_banana
+Can=CanIFlip|CanIStack
+Weight=1
+DupeList=01720
+
+Category=Resources
+Subsection=Food: Fruit
+Description=Banana 2
+
+On=@Create
+MoreM=1
+
+[ItemDef 01720]
+NameLoc=1025920
+DupeItem=0171f
+
+
+[ItemDef 01721]
+DefName=iBananas
+Name=bananas
+NameLoc=1025921
+Type=tFruit
+//TData1=i_tree_banana
+Can=CanIFlip
+Weight=3
+//Resources=4 iBananaUnpeeled
+DupeList=01722
+
+Category=Resources
+Subsection=Food: Fruit
+Description=Bananas
+
+On=@Create
+MoreM=1
+
+[ItemDef 01722]
+NameLoc=1025922
+DupeItem=01721
+
+
+[ItemDef 01723]
+DefName=iCoconut1
+Name=coconut%s
+NameLoc=1025923
+Type=tFruit
+//TData1=i_tree_coconutpalm
+Can=CanIFlip|CanIStack
+Weight=1
+//Resources=1 iCoconut1
+DupeList=01724
+
+Category=Resources
+Subsection=Food: Fruit
+Description=Coconut 1
+
+On=@Create
+MoreM=1
+
+[ItemDef 01724]
+NameLoc=1025924
+DupeItem=01723
+
+
+[ItemDef 01725]
+DefName=iCoconut2
+Name=coconut%s
+NameLoc=1025925
+Type=tFruit
+//TData1=i_tree_coconutpalm
+Can=CanIStack
+Weight=1
+//Resources=1 iCoconut1
+
+Category=Resources
+Subsection=Food: Fruit
+Description=Coconut 2 (Halved)
+
+On=@Create
+MoreM=1
+
+
+[ItemDef 01726]
+DefName=iCoconut3
+Name=coconut
+NameLoc=1025926
+Type=tFruit
+//TData1=i_tree_coconutpalm
+Can=CanIStack
+Weight=1
+
+Category=Resources
+Subsection=Food: Fruit
+Description=Coconut 3
+
+On=@Create
+MoreM=1
+
+
+[ItemDef 01727]
+DefName=iBunchOfDates
+Name=bunch of dates
+NameLoc=1025927
+Type=tFruit
+//TData1=i_tree_datepalm
+Can=CanIStack
+Weight=1
+
+Category=Resources
+Subsection=Food: Fruit
+Description=Bunch of Dates
+
+On=@Create
+MoreM=1
+
+
+[ItemDef 01728]
+DefName=iLemon
+Name=lemon%s
+NameLoc=1025928
+Type=tFruit
+//TData1=i_tree_lemon
+Can=CanIStack
+Weight=1
+//Resources=1 iLemon
+
+Category=Resources
+Subsection=Food: Fruit
+Description=Lemon
+
+On=@Create
+MoreM=1
+
+
+[ItemDef 01729]
+DefName=iLemons
+Name=lemons
+NameLoc=1025929
+Type=tFruit
+//TData1=i_tree_lemon
+Weight=1
+//Resources=1 iLemon
+
+Category=Resources
+Subsection=Food: Fruit
+Description=Lemons
+
+On=@Create
+MoreM=1
+
+
+[ItemDef 0172a]
+DefName=iLime
+Name=lime%s
+NameLoc=1025930
+Type=tFruit
+//TData1=i_tree_lime
+Can=CanIStack
+Weight=1
+//Resources=1 iFruitLime
+
+Category=Resources
+Subsection=Food: Fruit
+Description=Lime
+
+On=@Create
+MoreM=1
+
+
+[ItemDef 0172b]
+DefName=iLimes
+Name=limes
+NameLoc=1025931
+Type=tFruit
+Can=CanIStack
+Weight=1
+Resources=1 iFruitLime
+
+Category=Resources
+Subsection=Food: Fruit
+Description=Limes (Halved)
+
+On=@Create
+MoreM=1
+
+
+[EOF]

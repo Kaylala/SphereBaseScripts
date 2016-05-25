@@ -17,6 +17,9 @@ down in the file to properly define partially overlapping regions.
 
 WARNING: NEVER edit a map file on a running server!
 
+[Comment Tag.Music]
+This has no instrinsic function in sphere. There is nothing calling it. Script your own code for it please.
+
 
 ////////////////////////////////////////
 // Facet
@@ -333,6 +336,13 @@ Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
 Tag.GuardOwner=the town
 Tag.Music=MidiWind
 
+On=@Enter
+If (<Src.Magery> < 720) && (<Src.Int> < 20)
+ Src.SMsgL -1,503382	// You are not worthy of entrance to the city of Wind!
+ Return 1
+EndIf
+
+
 [AreaDef aFeluccaWindEntrance]
 Name=Wind Entrance
 Group=Felucca: Wind
@@ -342,6 +352,7 @@ Rect=1375,847,1431,881,0
 Rect=1456,979,1466,1000,0
 Flags=RegionFlagNoBuilding
 Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
 
 [AreaDef aFeluccaWindTunnels]
 Name=Wind Tunnels
@@ -357,6 +368,7 @@ Rect=5291,138,5316,156,0
 Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
 Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
 
+
 [AreaDef aFeluccaWindCourtyard]
 Name=Wind Courtyard
 Group=Felucca: Wind
@@ -366,8 +378,8 @@ Rect=5213,56,5278,99,0
 Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
 Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
 
-//Yew
 
+//Yew
 [AreaDef aFeluccaYewTerritory]
 Name=Yew Territory
 Group=Felucca: Yew

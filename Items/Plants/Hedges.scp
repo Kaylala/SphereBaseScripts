@@ -1,0 +1,58 @@
+[ItemDef 0c8f]
+DefName=iHedge1
+Name=hedge
+NameLoc=1023215
+Type=tNormal
+Can=CanIFlip
+Weight=255
+DupeList=0C90
+
+Category=Plants
+Subsection=Hedges
+Description=Hedge 1
+
+
+[ItemDef 0c90]
+NameLoc=1023216
+DupeItem=0C8F
+
+
+[ItemDef 0C91]
+DefName=iUntrimmedHedge1
+Name=untrimmed hedge
+NameLoc=1023217
+Type=tNormal
+Can=CanIFlip
+Weight=255
+DupeList=0C92
+
+Category=Plants
+Subsection=Hedges
+Description=Untrimmed Hedge 1
+
+
+[ItemDef 0C92]
+NameLoc=1023218
+DupeItem=0C91
+
+
+[ItemDef 0DB8]
+DefName=iHedge2
+Name=hedge
+NameLoc=1023512
+Type=tNormal
+Can=CanIFlip
+Weight=255
+DupeList=0DB9
+
+Category=Plants
+Subsection=Hedges
+Description=Hedge 2
+
+
+[ItemDef 0DB9]
+NameLoc=1023216
+DupeItem=0DB8
+
+
+[EOF]

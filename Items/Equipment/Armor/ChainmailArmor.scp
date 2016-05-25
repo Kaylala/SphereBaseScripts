@@ -13,18 +13,18 @@ Material=tIngot
 AlterItem=0
 DupeList=013C0
 
+ResPhysical=4
+ResFire=4
+ResCold=4
+ResPoison=1
+ResEnergy=2
+
 Category=Equipment
 Subsection=Armor: Chainmail Armor
 Description=Chainmail Coif
 
 On=@Create
 HitPoints={36 48}
-
-ResPhysical=4
-ResFire=4
-ResCold=4
-ResPoison=1
-ResEnergy=2
 
 [ItemDef 013C0]
 DupeItem=013BB
@@ -45,18 +45,18 @@ Material=tIngot
 AlterItem=0
 DupeList=013C1
 
+ResPhysical=4
+ResFire=4
+ResCold=4
+ResPoison=1
+ResEnergy=2
+
 Category=Equipment
 Subsection=Armor: Chainmail Armor
 Description=Chainmail Leggings (Decoration)
 
 On=@Create
 HitPoints={36 48}
-
-ResPhysical=4
-ResFire=4
-ResCold=4
-ResPoison=1
-ResEnergy=2
 
 [ItemDef 013C1]
 DupeItem=013BC
@@ -76,18 +76,18 @@ Resources=18 iIronIngot
 AlterItem=0
 DupeList=013C3
 
+ResPhysical=4
+ResFire=4
+ResCold=4
+ResPoison=1
+ResEnergy=2
+
 Category=Equipment
 Subsection=Armor: Chainmail Armor
 Description=Chainmail Leggings
 
 On=@Create
 HitPoints={36 48}
-
-ResPhysical=4
-ResFire=4
-ResCold=4
-ResPoison=1
-ResEnergy=2
 
 [ItemDef 013C3]
 DupeItem=013BE
@@ -108,18 +108,18 @@ Material=tIngot
 AlterItem=0
 DupeList=013C2
 
+ResPhysical=4
+ResFire=4
+ResCold=4
+ResPoison=1
+ResEnergy=2
+
 Category=Equipment
 Subsection=Armor: Chainmail Armor
 Description=Chainmail Tunic (Decoration)
 
 On=@Create
 HitPoints={36 48}
-
-ResPhysical=4
-ResFire=4
-ResCold=4
-ResPoison=1
-ResEnergy=2
 
 [ItemDef 013C2]
 DupeItem=013BD
@@ -140,18 +140,18 @@ Material=tIngot
 AlterItem=0
 DupeList=013C4
 
+ResPhysical=4
+ResFire=4
+ResCold=4
+ResPoison=1
+ResEnergy=2
+
 Category=Equipment
 Subsection=Armor: Chainmail Armor
 Description=Chainmail Tunic
 
 On=@Create
 HitPoints={36 48}
-
-ResPhysical=4
-ResFire=4
-ResCold=4
-ResPoison=1
-ResEnergy=2
 
 [ItemDef 013C4]
 DupeItem=013BF

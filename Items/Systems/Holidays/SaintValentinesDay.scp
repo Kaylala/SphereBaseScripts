@@ -10,4 +10,54 @@ Subsection=Holidays: Saint Valentine's Day
 Description=Rose in a Vase
 
 
+[ItemDef 04F7A]
+DefName=iCupidsArrow
+Name=cupid's arrow
+NameLoc=1099218
+Type=tArrow
+Can=CanIStack
+Weight=1
+DupeList=04F7B,04F7E,04F7F
+
+Category=Systems
+Subsection=Holidays: Saint Valentine's Day
+Description=Cupid's Arrow
+
+On=@Create
+Attr=AttrNewbie|AttrBlessed
+
+[ItemDef 04F7B]
+NameLoc=1099219
+DupeItem=04F7A
+
+[ItemDef 04F7E]
+NameLoc=1099222
+DupeItem=04F7A
+
+[ItemDef 04F7F]
+NameLoc=1099223
+DupeItem=04F7A
+
+
+[ItemDef 04F7C]
+DefName=iCupidStatue
+Name=cupid statue
+NameLoc=1099220
+Type=tNormal
+Can=CanIFlip
+Weight=1
+DupeList=04F7D
+
+Category=Systems
+Subsection=Holidays: Saint Valentine's Day
+Description=Cupid Statue
+
+On=@Create
+Attr=AttrNewbie|AttrBlessed
+
+[ItemDef 04F7D]
+NameLoc=1099221
+DupeItem=04F7C
+
+
 [EOF]

@@ -1,0 +1,46 @@
+[ItemDef 01A99]
+DefName=iFlax1
+Name=flax
+NameLoc=1026809
+Type=tCrops
+TData1=iFlax1
+TData2=iFlax3
+Weight=255
+
+Category=Plants
+Subsection=Crops: Flax
+Description=Flax 1
+
+
+[ItemDef 01A9A]
+DefName=iFlax2
+Name=flax
+NameLoc=1026810
+Type=tCrops
+TData1=iFlax2
+TData2=iFlax3
+Weight=255
+
+Category=Plants
+Subsection=Crops: Flax
+Description=Flax 2
+
+
+[ItemDef 01A9B]
+DefName=iFlax3
+Name=flax
+NameLoc=1026811
+Type=tCrops
+TData1=iFlax1
+TData2=0
+Weight=255
+
+Category=Plants
+Subsection=Crops: Flax
+Description=Flax 3
+
+On=@Create
+Fruit=iFlaxBundle
+
+
+[EOF]

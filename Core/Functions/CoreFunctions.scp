@@ -1,9 +1,8 @@
 [Function DyeType]
 If (!<ArgN>)
- Return <Tag0.DyeType>
-Else
- Tag.DyeType=<ArgN>
+ Return <dTag0.DyeType>
 EndIf
+Tag.DyeType=<ArgN>
 
 
 [Function ContentWeight]
@@ -46,9 +45,8 @@ Update
 [Function CanReach]
 If (<ArgN>)
  Return <QVal (<Distance> <= <ArgN>)> ? 1 : 0>
-Else
- Return <QVal (<Distance> <= 3)> ? 1 : 0>
 EndIf
+Return <QVal (<Distance> < 4)> ? 1 : 0>
 
 
 // WandID
@@ -67,7 +65,7 @@ EndIf
 If !(<ArgV0>)
  Serv.NewItem={iWand1 1 iWand2 1 iWand3 1 iWand4 1}
 Else
- Serv.NewItem=<ArgV0>
+ Serv.NewItem=<ArgV0>,1,<Src>
 EndIf
 If !(<ArgV1>)
  New.MoreX={1 64}
@@ -84,7 +82,6 @@ If !(<ArgV3>)
 Else
  New.More2=<ArgV3>
 EndIf
-New.Bounce <Src>
 Return
 
 
@@ -125,7 +122,7 @@ Return <ArgS>
 
 
 [Function CalcLuck]
-Return <Qval (<Luck> > 0) ? <Eval (((<Luck>/9)*5)/20)> : 0>
+Return <Qval (<Luck>) ? <Eval (((<Luck>/9)*5)/20)> : 0>
 
 
 [Function AllStats]
@@ -138,46 +135,46 @@ OInt=<ArgN>
 If !(ArgN)
  Return <Tag0.ModMaxHits>
 EndIf
-Tag.ModMaxHits=<Eval (<Tag0.ModMaxHits> + <ArgN>)>
+Tag.ModMaxHits=<EVal (<Tag0.ModMaxHits> + <ArgN>)>
 
 
 [Function ModMaxStam]
 If !(ArgN)
  Return <Tag0.ModMaxStam>
 EndIf
-Tag.ModMaxStam=<Eval (<Tag0.ModMaxStam> + <ArgN>)>
+Tag.ModMaxStam=<EVal (<Tag0.ModMaxStam> + <ArgN>)>
 
 
 [Function ModMaxMana]
 If !(ArgN)
  Return <Tag0.ModMaxMana>
 EndIf
-Tag.ModMaxMana=<Eval (<Tag0.ModMaxMana> + <ArgN>)>
+Tag.ModMaxMana=<EVal (<Tag0.ModMaxMana> + <ArgN>)>
 
 
 [Function CheckExpansion]
-If (<Expansion> &Expansion_T2A) && !(<Src.Expansion> &Expansion_T2A)
+If (<Expansion> &ExpansionT2A) && !(<Src.Expansion> &ExpansionT2A)
  Return 1
 EndIf
-If (<Expansion> &Expansion_LBR) && !(<Src.Expansion> &Expansion_LBR)
+If (<Expansion> &ExpansionLBR) && !(<Src.Expansion> &ExpansionLBR)
  Return 1
 EndIf
-If (<Expansion> &Expansion_AOS) && !(<Src.Expansion> &Expansion_AOS)
+If (<Expansion> &ExpansionAOS) && !(<Src.Expansion> &ExpansionAOS)
  Return 1
 EndIf
-If (<Expansion> &Expansion_SE) && !(<Src.Expansion> &Expansion_SE)
+If (<Expansion> &ExpansionSE) && !(<Src.Expansion> &ExpansionSE)
  Return 1
 EndIf
-If (<Expansion> &Expansion_ML) && !(<Src.Expansion> &Expansion_ML)
+If (<Expansion> &ExpansionML) && !(<Src.Expansion> &ExpansionML)
  Return 1
 EndIf
-If (<Expansion> &Expansion_SA) && !(<Src.Expansion> &Expansion_SA)
+If (<Expansion> &ExpansionSA) && !(<Src.Expansion> &ExpansionSA)
  Return 1
 EndIf
-If (<Expansion> &Expansion_HS) && !(<Src.Expansion> &Expansion_HS)
+If (<Expansion> &ExpansionHS) && !(<Src.Expansion> &ExpansionHS)
  Return 1
 EndIf
-If (<Expansion> &Expansion_TOL) && !(<Src.Expansion> &Expansion_TOL)
+If (<Expansion> &ExpansionTOL) && !(<Src.Expansion> &ExpansionTOL)
  Return 1
 EndIf
 If (<Expansion> &CrystalTheme) && !(<Src.Expansion> &CrystalTheme)
@@ -195,7 +192,6 @@ EndIf
 If (<Expansion> &KingsCollectionTheme) && !(<Src.Expansion> &KingsCollectionTheme)
  Return 1
 EndIf
-
 
 
 [EOF]

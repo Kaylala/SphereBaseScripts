@@ -1,0 +1,161 @@
+[Function SelfRepairDamage]
+If (<SelfRepair>)
+ If (<IsTimerF.SelfRepairDelay>)
+  TimerF 60,SelfRepairDelay
+  More1L += <SelfRepair>
+  If (<More1L> > <More1H>)
+   More1L=<More1H>
+  EndIf
+ EndIf
+EndIf
+
+
+[Function SelfRepair]
+If (!<ArgN>)
+ Return <SelfRepair>
+EndIf
+SelfRepair=<ArgN>
+
+
+[Function SelfRepairDelay]
+// This is empty and needs no code. It is a simple timer to stop self repair.
+
+
+// Recharge=<Val>,<Time>
+// Value of 1 is only 1 recharge per call. Value of 2 is a total recharge on call.
+[Function AutoRecharge]
+If (<Recharge.ArgV0> == 1)
+ UsesCur ++
+Else
+ UseCur=<UsesMax>
+EndIf
+If (<UsesCur> != <UsesMax>)
+ TimerF <Recharge.ArgV1>,Recharge
+EndIf
+
+
+// For new CanIRegen* flags (CanIRegenHits, CanIRegenStam, CanIRegenMana)
+[Function IsMedable]
+Return <Qval ((<Can> &CanIRegenMana) || (<Medable>)) ? 1 : 0>
+
+
+// Being added for better crafting structures.
+[Function Material]
+If !(<ArgS>)
+ Return <Material>
+EndIf
+Material=<ArgS>
+
+
+[Function OColor]
+If !(<ArgN>)
+ Return <OColor>
+EndIf
+OColor=<ArgN>
+
+
+// Being used on items that are Human/Elf to modify into Gargoyle.
+[Function AlterItem]
+If !(<ArgS>)
+ Return <Tag0.AlterItem>
+EndIf
+Tag.AlterItem=<ArgS>
+
+
+// For use with Random Magic Item Generator
+// Minor, Lesser, Greater, Major Magic Item.
+// Lesser, Greater, Major, Legendary Artifact
+[Function MagicItemPower]
+If !(<ArgS>)
+ Return <Tag0.MagicItemPower>
+EndIf
+Tag.MagicItemPower=<ArgS>
+
+
+// ArgV0 = Skill
+// ArgV1 = Amount
+[Function SkillBonus1]
+If (!<ArgS>)
+ Return <BonusSkill1>
+EndIf
+BonusSkill1=<ArgV0>,<ArgV1>
+
+
+[Function SkillBonus2]
+If (!<ArgS>)
+ Return <BonusSkill2>
+EndIf
+BonusSkill2=<ArgV0>,<ArgV1>
+
+
+[Function SkillBonus3]
+If (!<ArgS>)
+ Return <BonusSkill3>
+EndIf
+BonusSkill3=<ArgV0>,<ArgV1>
+
+
+[Function SkillBonus4]
+If (!<ArgS>)
+ Return <BonusSkill4>
+EndIf
+BonusSkill4=<ArgV0>,<ArgV1>
+
+
+[Function SkillBonus5]
+If (!<ArgS>)
+ Return <BonusSkill5>
+EndIf
+BonusSkill5=<ArgV0>,<ArgV1>
+
+
+[Function StrengthBonus]
+If (!<ArgN>)
+ Return <BonusStr>
+EndIf
+BonusStr=<ArgN>
+
+
+[Function DexterityBonus]
+If (!<ArgN>)
+ Return <BonusDex>
+EndIf
+BonusDex=<ArgN>
+
+
+[Function IntelligenceBonus]
+If (!<ArgN>)
+ Return <BonusInt>
+EndIf
+BonusInt=<ArgN>
+
+
+[Function HitPointIncrease]
+If (!<ArgN>)
+ Return <BonusHits>
+EndIf
+BonusHits=<ArgN>
+
+
+[Function StaminaIncrease]
+If (!<ArgN>)
+ Return <BonusStam>
+EndIf
+BonusStam=<ArgN>
+
+
+[Function ManaIncrease]
+If (!<ArgN>)
+ Return <BonusMana>
+EndIf
+BonusMana=<ArgN>
+
+
+[Function Velocity]
+If (!<ArgN>)
+ Return <Velocity>
+EndIf
+Velocity=<ArgN>
+
+
+[EOF]

@@ -1,0 +1,474 @@
+[ItemDef 0234E]
+DefName=iTapestryOfSosaria
+Name=The Tapestry of Sosaria
+NameLoc=1029038
+Type=tSignGump
+TData2=02C95
+Weight=1
+DupeList=0234F
+
+Category=Systems
+Subsection=Anniversary: 7th
+Description=The Tapestry of Sosaria
+
+On=@Create
+Attr=AttrNewbie|AttrBlessed
+
+[ItemDef 0234F]
+NameLoc=1029039
+DupeItem=0234E
+
+
+[ItemDef iRoyalLeggingsOfEmbers]
+ID=iPlatemailLegs
+Name=Royal Leggings of Embers
+NameLoc=1078147
+Can=CanIFlip|CanIRepair|CanIRegenHits|CanIRegenStam|CanIRegenMana
+
+SelfRepair=10
+ResPhysical=15
+ResFire=25
+ResCold=0
+ResPoison=15
+ResEnergy=15
+// Mage Armor is applied via Attr
+LowerRequirements=100
+
+Category=Systems
+Subsection=Anniversary: 7th
+Description=Royal Leggings of Embers
+
+On=@Create
+Attr=AttrMagic|AttrIdentified|AttrMageArmor|AttrNewbie|AttrBlessed
+HitPoints=255
+Color=02C
+
+
+[ItemDef iAncientSamuraiHelm]
+ID=iKabuto
+Name=Ancient Samurai Helm
+NameLoc=1062923
+Can=CanIFlip|CanIRepair|CanIRegenHits|CanIRegenStam|CanIRegenMana
+
+SelfRepair=10
+DefenseChanceIncrease=15
+ResPhysical=15
+ResFire=10
+ResCold=10
+ResPoison=15
+ResEnergy=10
+// Mage Armor is applied via Attr
+LowerRequirements=100
+
+Category=Systems
+Subsection=Anniversary: 7th
+Description=Ancient Samurai Helm
+
+On=@Create
+Attr=AttrMagic|AttrIdentified|AttrMageArmor|AttrNewbie|AttrBlessed
+HitPoints=255
+
+
+[ItemDef iHolySword]
+ID=iLongsword1
+Name=The Holy Sword
+NameLoc=1062921
+Can=CanIFlip|CanIRepair
+
+SlayerSuper=UndeadSlayer
+SelfRepair=10
+DamageIncrease=40
+// UBWS
+LowerRequirements=100
+
+Category=Systems
+Subsection=Anniversary: 7th
+Description=The Holy Sword
+
+On=@Create
+Attr=AttrMagic|AttrIdentified|AttrNewbie|AttrBlessed
+HitPoints=255
+Color=0482
+
+
+[ItemDef iShaminosBestCrossbow]
+ID=iRepeatingCrossbow
+Name=Shamino's Best Crossbow
+NameLoc=1062915
+Can=CanIFlip|CanIRepair
+
+SelfRepair=10
+HitChanceIncrease=15
+LowerRequirements=100
+
+Category=Systems
+Subsection=Anniversary: 7th
+Description=Shamino's Best Crossbow
+
+On=@Create
+Attr=AttrMagic|AttrIdentified|AttrNewbie|AttrBlessed
+HitPoints=255
+Color=0504
+
+
+[ItemDef 0234C]
+DefName=iRoseOfTrinsic2
+Name=Rose of Trinsic
+NameLoc=1029036
+Type=tNormal
+Weight=1
+DupeList=0234D
+
+Category=Systems
+Subsection=Anniversary: 7th
+Description=Rose of Trinsic
+
+On=@Create
+TimerF 240,RoseOfTrinsicDelay
+More1=0
+
+On=@DClick
+If (<More1>)
+ Serv.NewItem=iPetalOfTheRoseOfTrinsic,1,<Src>
+ More1 --
+EndIf
+
+On=@ClientTooltip
+NameCliLoc
+AttrCliLoc
+WeightCliLoc
+Src.AddCliLoc 1062925,<More1>	// Petals:  ~1_COUNT~
+Return 1
+
+[ItemDef 0234D]
+NameLoc=1029037
+DupeItem=0234C
+
+[Function RoseOfTrinsicDelay]
+If (<More1> < 10)
+ More1 ++
+EndIf
+RoseOfTrinsicDelay
+
+
+[ItemDef iPetalOfTheRoseOfTrinsic]
+ID=iFeathers
+Name=Petal of the Rose of Trinsic
+NameLoc=1062926		// Petal of the Rose of Trinsic
+Type=tNormal
+Can=CanIStack
+Weight=1
+
+Category=Systems
+Subsection=Anniversary: 7th
+Description=Petal of the Rose of Trinsic
+
+On=@Create
+Color=0E
+
+On=@DClick
+If <Src.IsTimerF.RoseOfTrinsicPetalDelay>
+ Src.SMsgL -1,1062927	// You have eaten one of these recently and eating another would provide no benefit.
+ Return 1
+EndIf
+
+Src.TimerF 300,RoseOfTrinsicPetalDelay
+Src.AddBuff 075FD,1062926,,300
+Src.ModStr += 5
+//1154169;Buff Type: ~1_TYPE~
+
+[Function RoseOfTrinsicPetalDelay]
+Src.RemoveBuff 075FD
+Src.ModStr -= 5
+Src.SMsg The effects of the Petals have worn off.
+
+
+[ItemDef iHearthOfTheHomeFireDeed]
+ID=iDeed
+Name=Hearth of the Home Fire
+NameLoc=1029040
+Type=tNormal
+
+Category=Systems
+Subsection=Anniversary: 7th
+Description=Hearth Of The Home Fire Deed
+
+
+// Hearth of the Home Fire
+[ItemDef 02350]
+DefName=iHearthOfTheHomeFire1
+Name=Hearth Of The Home Fire
+NameLoc=1029040
+Type=tUnlitLight
+TData3=iLitHearthOfTheHomeFire1
+Weight=255
+TEvents=tFire
+
+Category=Systems
+Subsection=Anniversary: 7th
+Description=Hearth Of The Home Fire 1 (East)
+
+On=DClick
+ForItems 1
+ If (<BaseID> == iHearthOfTheHomeFire2)
+  DClick
+ EndIf
+EndFor
+
+
+[ItemDef 02351]
+DefName=iHearthOfTheHomeFire2
+Name=Hearth Of The Home Fire
+NameLoc=1029041
+Type=tUnlitLight
+TData3=iLitHearthOfTheHomeFire2
+Weight=255
+TEvents=tFire
+
+Category=Systems
+Subsection=Anniversary: 7th
+Description=Hearth Of The Home Fire 2 (East)
+
+On=DClick
+ForItems 1
+ If (<BaseID> == iHearthOfTheHomeFire1)
+  DClick
+ EndIf
+EndFor
+
+
+[ItemDef 02352]
+DefName=iLitHearthOfTheHomeFire1
+Name=Hearth Of The Home Fire
+NameLoc=1029042
+Type=tLitLight
+TData3=iHearthOfTheHomeFire1
+Weight=255
+TEvents=tFire
+
+Category=Systems
+Subsection=Anniversary: 7th
+Description=Hearth Of The Home Fire 1 (East) (Lit)
+
+On=@Create
+MoreZ=2
+
+On=DClick
+ForItems 1
+ If (<BaseID> == iLitHearthOfTheHomeFire2)
+  DClick
+ EndIf
+EndFor
+
+
+[ItemDef 02353]
+NameLoc=1029043
+DupeList=02354,02355,02356,02357
+
+Category=Systems
+Subsection=Anniversary: 7th
+Description=Hearth Of The Home Fire 1 (East) (Anim Frame)
+
+[ItemDef 02354]
+NameLoc=1029044
+DupeItem=02353
+
+[ItemDef 02355]
+NameLoc=1029045
+DupeItem=02353
+
+[ItemDef 02356]
+NameLoc=1029046
+DupeItem=02353
+
+[ItemDef 02357]
+NameLoc=1029047
+DupeItem=02353
+
+
+[ItemDef 02358]
+DefName=iLitHearthOfTheHomeFire2
+Name=Hearth Of The Home Fire
+NameLoc=1029048
+Type=tLitLight
+TData3=iHearthOfTheHomeFire2
+Weight=255
+TEvents=tFire
+
+Category=Systems
+Subsection=Anniversary: 7th
+Description=Hearth Of The Home Fire 2 (East) (Lit)
+
+On=@Create
+MoreZ=2
+
+On=DClick
+ForItems 1
+ If (<BaseID> == iLitHearthOfTheHomeFire1)
+  DClick
+ EndIf
+EndFor
+
+[ItemDef 02359]
+NameLoc=1029049
+DupeList=0235A,0235B,0235C,0235D
+
+Category=Systems
+Subsection=Anniversary: 7th
+Description=Hearth Of The Home Fire 2 (East) (Anim Frame)
+
+[ItemDef 0235A]
+NameLoc=1029050
+DupeItem=02359
+
+[ItemDef 0235B]
+NameLoc=1029051
+DupeItem=02359
+
+[ItemDef 0235C]
+NameLoc=1029052
+DupeItem=02359
+
+[ItemDef 0235D]
+NameLoc=1029053
+DupeItem=02359
+
+[ItemDef 0235E]
+DefName=iHearthOfTheHomeFire3
+Name=Hearth Of The Home Fire
+NameLoc=1029054
+Type=tUnlitLight
+TData3=iLitHearthOfTheHomeFire3
+Weight=255
+TEvents=tFire
+
+Category=Systems
+Subsection=Anniversary: 7th
+Description=Hearth Of The Home Fire 3 (South)
+
+On=DClick
+ForItems 1
+ If (<BaseID> == iHearthOfTheHomeFire4)
+  DClick
+ EndIf
+EndFor
+
+
+[ItemDef 0235F]
+DefName=iHearthOfTheHomeFire4
+Name=Hearth Of The Home Fire
+NameLoc=1029055
+Type=tUnlitLight
+TData3=iLitHearthOfTheHomeFire4
+Weight=255
+TEvents=tFire
+
+Category=Systems
+Subsection=Anniversary: 7th
+Description=Hearth Of The Home Fire 4 (South)
+
+On=DClick
+ForItems 1
+ If (<BaseID> == iHearthOfTheHomeFire3)
+  DClick
+ EndIf
+EndFor
+
+
+[ItemDef 02360]
+DefName=iLitHearthOfTheHomeFire3
+Name=Hearth Of The Home Fire
+NameLoc=1029056
+Type=tLitLight
+TData3=iHearthOfTheHomeFire3
+Weight=255
+TEvents=tFire
+
+Category=Systems
+Subsection=Anniversary: 7th
+Description=Hearth Of The Home Fire 3 (South) (Lit)
+
+On=@Create
+MoreZ=2
+
+On=DClick
+ForItems 1
+ If (<BaseID> == iLitHearthOfTheHomeFire4)
+  DClick
+ EndIf
+EndFor
+
+[ItemDef 02361]
+NameLoc=1029057
+DupeList=02362,02363,02364,02365
+
+Category=Systems
+Subsection=Anniversary: 7th
+Description=Hearth Of The Home Fire 3 (South) (Anim Frame)
+
+[ItemDef 02362]
+NameLoc=1029058
+DupeItem=02361
+
+[ItemDef 02363]
+NameLoc=1029059
+DupeItem=02361
+
+[ItemDef 02364]
+NameLoc=1029060
+DupeItem=02361
+
+[ItemDef 02365]
+NameLoc=1029061
+DupeItem=02361
+
+
+[ItemDef 02366]
+DefName=iLitHearthOfTheHomeFire4
+Name=Hearth Of The Home Fire
+NameLoc=1029062
+Type=tLitLight
+TData3=iHearthOfTheHomeFire4
+Weight=255
+TEvents=tFire
+
+Category=Systems
+Subsection=Anniversary: 7th
+Description=Hearth Of The Home Fire 4 (South) (Lit)
+
+On=@Create
+MoreZ=2
+
+On=DClick
+ForItems 1
+ If (<BaseID> == iLitHearthOfTheHomeFire3)
+  DClick
+ EndIf
+EndFor
+
+[ItemDef 02367]
+NameLoc=1029063
+DupeList=02368,02369,0236A,0236B
+
+Category=Systems
+Subsection=Anniversary: 7th
+Description=Hearth Of The Home Fire 4 (South) (Anim Frame)
+
+[ItemDef 02368]
+NameLoc=1029064
+DupeItem=02367
+
+[ItemDef 02369]
+NameLoc=1029065
+DupeItem=02367
+
+[ItemDef 0236A]
+NameLoc=1029066
+DupeItem=02367
+
+[ItemDef 0236B]
+NameLoc=1029067
+DupeItem=02367
+
+
+[EOF]

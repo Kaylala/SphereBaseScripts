@@ -1,0 +1,61 @@
+[ItemDef 04960]
+DefName=iGoblinTopiary2
+Type=tNormal
+Can=CanIFlip
+Weight=255
+DupeList=04966
+
+Category=Plants
+Subsection=Topiaries
+Description=Goblin Topiary 2
+
+[ItemDef 04966]
+DupeItem=04960
+
+
+[ItemDef 0497d]
+DefName=iOstardTopiary
+Type=tNormal
+Can=CanIFlip
+Weight=12.0
+DupeList=0497e
+
+Category=Plants
+Subsection=Topiaries
+Description=Ostard Topiary
+
+[ItemDef 0497e]
+DupeItem=0497d
+
+
+[ItemDef 04919]
+DefName=iGoblinTopiary1
+Type=tNormal
+Can=CanIFlip
+Weight=255
+DupeList=0491a
+
+Category=Plants
+Subsection=Topiaries
+Description=Goblin Topiary 1
+
+[ItemDef 0491a]
+DupeItem=04919
+
+
+[ItemDef 0491b]
+DefName=iLlamaTopiary
+Type=tNormal
+Can=CanIFlip
+Weight=255
+DupeList=04930
+
+Category=Plants
+Subsection=Topiaries
+Description=Llama Topiary
+
+[ItemDef 04930]
+DupeItem=0491b
+
+
+[EOF]

@@ -1,4384 +1,3165 @@
-//****************************************************************************
-// SPHERE by : Menasoft ©1997-2014
-// www.sphereserver.net
-// All SPHERE script files and formats are copyright Menasoft & Partners.
-// This file may be freely edited for personal use, but may not be distributed
-// in whole or in part, in any format without express written permission from
-// Menasoft & Partners. All donations and contributions
-// become the property of Menasoft & Partners.
-//****************************************************************************
-// FILE LAST UPDATED: Tuesday, October 7, 2014
-//
-VERSION=0.56c
+[Comment tCrops_notes]
+This type is used to grow plants that likely bear Fruit. Double clicking a t_crop item will harvest the Fruit if it is ripe. It leverages the following properties:
+MORE1 = Time in seconds before this item will grow to the next stage (this overrides the default server defined number)
+TDATA1 = Is the ID of the first stage of the crop (the sprout), it is the ID that the crop will be reset to regrow from (0=nothing, which means this plant will not regrow once harvested)
+TDATA2 = Is the ID of the next stage of the crop (or zero if this is the final mature crop which will bear the Fruit)
+TDATA3 = Is the ID of the Fruit that this plant will grow and should only be set on the ripe plant (0 means the plant is not mature)
+Note This type has unusual TIMER behavior in that regardless of the ATTR flags, the timer will restart when it reaches zero.
 
 
-[ITEMDEF 0994]
-DEFNAME=iFruitPear
-TYPE=tFruit
-FLIP=1
-VALUE=1
-WEIGHT=0.1
-CATEGORY=Vegetation
-SUBSECTION=Fruits and Vegetables
-DESCRIPTION=Pear
-DUPELIST=0172d
-ON=@Create
-MOREM=1
+[Comment tFoliage_Notes]
+This type is very similar to t_crops, the difference being the foliage does not disappear when the Fruit is harvested. It leverages the following properties:
+MORE1 = Time in seconds before this item will grow to the next stage (this overrides the default server defined number)
+TDATA1 = Is the ID of the first stage of the crop (the sprout)
+TDATA2 = Is the ID of the next stage of the crop (or zero if this is the final mature crop which will bear the Fruit)
+TDATA3 = Is the ID of the Fruit that this plant will grow and should only be set on the ripe plant
+Note This type has unusual TIMER behavior in that regardless of the ATTR flags, the timer will restart when it reaches zero.
 
 
-[ITEMDEF 09d0]
-DEFNAME=iFruitApple
-NAME=apple%s
-TYPE=tFruit
-VALUE=1
-WEIGHT=0.1
-CATEGORY=Vegetation
-SUBSECTION=Fruits and Vegetables
-DESCRIPTION=Apple
-ON=@Create
-MOREM=1
-
-[ITEMDEF 09d1]
-DEFNAME=iFruitGrapes
-TYPE=tFruit
-FLIP=1
-VALUE=1
-WEIGHT=0.1
-CATEGORY=Vegetation
-SUBSECTION=Fruits and Vegetables
-DESCRIPTION=Grape Bunch
-DUPELIST=0d1a
-ON=@Create
-MOREM=1
-
-[ITEMDEF 09d2]
-DEFNAME=iFruitPeach
-TYPE=tFruit
-FLIP=1
-VALUE=1
-WEIGHT=0.1
-CATEGORY=Vegetation
-SUBSECTION=Fruits and Vegetables
-DESCRIPTION=Peach
-DUPELIST=0172c
-ON=@Create
-MOREM=1
 
 
-[ITEMDEF 0c37]
-//flowers
-DEFNAME=iCropFlower
+
+[ItemDef 0c55]
+//wheat
+DefName=iCropWheat3
+Name=wheat
+NameLoc=1023157
+Type=tCrops
+TData1=iCropWheat1
+TData2=iCropWheat4
+DupeList=0c56
+
+Category=Vegetation
+Subsection=Plants and Flowers
+Description=Wheat
+
+[ItemDef 0c56]
+NameLoc=1023158
+DupeItem=0c55
+
+
+[ItemDef 0c57]
+//wheat
+DefName=iCropWheat4
+Name=wheat
+NameLoc=1023159
+Type=tCrops
+TData1=iCropWheat1
+TData2=iCropWheat
 VALUE=2
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Flowers
+Category=Vegetation
+Subsection=Plants and Flowers
+Description=Wheat
+DupeList=0c59
 
-[ITEMDEF 0c38]
-//flowers
-DEFNAME=iCropFlower2
-VALUE=2
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Flowers
+[ItemDef 0c58]
+NameLoc=1023160
+DupeItem=0c5a
 
-[ITEMDEF 0c3b]
-DEFNAME=iDriedFlowers
-RESOURCES=1 iCropFlower
-CATEGORY=Vegetation
-SUBSECTION=Dried Vegetation
-DESCRIPTION=Dried Flowers
-DUPELIST=0c3c
+[ItemDef 0c59]
+NameLoc=1023161
+DupeItem=0c57
 
-[ITEMDEF 0c3c]
-DUPEITEM=0c3b
 
-[ITEMDEF 0c3d]
-//dried flowers
-DEFNAME=iDriedFlowers3
-RESOURCES=1 iCropFlower
-CATEGORY=Vegetation
-SUBSECTION=Dried Vegetation
-DESCRIPTION=Dried Flowers
-DUPELIST=0c3e
+[ItemDef 0c5a]
+DefName=iWheat
+Name=wheat
+NameLoc=1023162
+Type=tCrops
+TData1=iCropWheat1
+TData2=0
+TData3=iWheatSheaf
+Category=Vegetation
+Subsection=Plants and Flowers
+Description=Wheat
+DupeList=0c58,0c5b
 
-[ITEMDEF 0c3e]
-//dried flowers
-DUPEITEM=0c3d
+[ItemDef 0c5b]
+NameLoc=1023163
+DupeItem=0c5a
 
-[ITEMDEF 0c3f]
-//dried onions
-DEFNAME=iDriedOnions
-RESOURCES=1 iCropOnion
-CATEGORY=Vegetation
-SUBSECTION=Dried Vegetation
-DESCRIPTION=Dried Onions
-DUPELIST=0c40
 
-[ITEMDEF 0c40]
-//dried onions
-DUPEITEM=0c3f
-
-[ITEMDEF 0c41]
-DEFNAME=iDriedHerbs
-//RESOURCES=1 i_crop_herb
-CATEGORY=Vegetation
-SUBSECTION=Dried Vegetation
-DESCRIPTION=Dried Herbs
-DUPELIST=0c42
-
-[ITEMDEF 0c42]
-//dried herbs
-DUPEITEM=0c41
-
-[ITEMDEF 0c45]
-//flowers
-DEFNAME=iCropFlower3
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Flowers
-DUPELIST=0c46,0c47,0c48,0c49,0c4a,0c4b,0c4c,0c4d,0c4e
-
-[ITEMDEF 0c46]
-//flowers
-DUPEITEM=0c45
-
-[ITEMDEF 0c47]
-//flowers
-DUPEITEM=0c45
-
-[ITEMDEF 0c48]
-//flowers
-DUPEITEM=0c45
-
-[ITEMDEF 0c49]
-//flowers
-DUPEITEM=0c45
-
-[ITEMDEF 0c4a]
-//flowers
-DUPEITEM=0c45
-
-[ITEMDEF 0c4b]
-//flowers
-DUPEITEM=0c45
-
-[ITEMDEF 0c4c]
-//flowers
-DUPEITEM=0c45
-
-[ITEMDEF 0c4d]
-//flowers
-DUPEITEM=0c45
-
-[ITEMDEF 0c4e]
-//flowers
-DUPEITEM=0c45
-
-[ITEMDEF 0c4f]
-//cotton plant - mature
-DEFNAME=iCropCotton
-TYPE=tCrops
-TDATA1=iCropCotton1
-TDATA2=0
-TDATA3=iCotton
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Cotton Plant
-DUPELIST=0c50
-
-[ITEMDEF 0c50]
-//cotton (adult)
-DUPEITEM=0c4f
-
-[ITEMDEF 0c51]
-//cotton plant (immature)
-DEFNAME=iCropCotton1
-TYPE=tCrops
-TDATA1=iCropCotton1
-TDATA2=iCropCotton2
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Cotton Plant Uprooted
-DUPELIST=0c52
-
-[ITEMDEF 0c52]
-DUPEITEM=0c51
-
-[ITEMDEF 0c53]
-//cotton plant (mid age)
-DEFNAME=iCropCotton2
-TYPE=tCrops
-TDATA1=iCropCotton1
-TDATA2=iCropCotton
-DUPELIST=0c54
-
-[ITEMDEF 0c54]
-//cotton plant (mid age)
-DUPEITEM=0c53
-
-[ITEMDEF 0c55]
+[ItemDef 0dae]
 //wheat
-DEFNAME=iCropWheat3
-TYPE=tCrops
-TDATA1=iCropWheat1
-TDATA2=iCropWheat4
-DUPELIST=0c56
+DefName=iCropWheat2
+Name=wheat
+NameLoc=1023502
+Type=tCrops
+TData1=iCropWheat1
+TData2=iCropWheat3
+DupeList=0daf
+Category=Vegetation
+Subsection=Plants and Flowers
+Description=Wheat
 
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Wheat
-
-[ITEMDEF 0c56]
-//wheat
-DUPEITEM=0c55
-
-[ITEMDEF 0c57]
-//wheat
-DEFNAME=iCropWheat4
-TYPE=tCrops
-TDATA1=iCropWheat1
-TDATA2=iCropWheat
-VALUE=2
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Wheat
-DUPELIST=0c59
-
-[ITEMDEF 0c58]
-//wheat
-DUPEITEM=0c5a
-
-[ITEMDEF 0c59]
-//wheat
-DUPEITEM=0c57
-
-[ITEMDEF 0c5a]
-//wheat
-DEFNAME=iCropWheat
-TYPE=tCrops
-TDATA1=iCropWheat1
-TDATA2=0
-TDATA3=iWheatSheaf
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Wheat
-DUPELIST=0c58,0c5b
-
-[ITEMDEF 0c5b]
-//wheat
-DUPEITEM=0c5a
+[ItemDef 0daf]
+NameLoc=1023503
+DupeItem=0dae
 
 
-[ITEMDEF 0c5c]
-DEFNAME=iFruitWatermelon
-TYPE=tFruit
-TDATA1=iCropVines1
-FLIP=1
-VALUE=2
-WEIGHT=2.0
-CATEGORY=Vegetation
-SUBSECTION=Fruits and Vegetables
-DESCRIPTION=Watermelon
-DUPELIST=0c5d
-ON=@Create
-MOREM=3
+[ItemDef 01ebe]
+DefName=iWheatSprouts
+Name=wheat sprouts
+NameLoc=1027870
+Type=tCrops
+TData1=iCropWheat1
+TData2=iCropWheat2
+Category=Vegetation
+Subsection=Plants and Flowers
+Description=Wheat Sprouts
+DupeList=01ebf
 
-[ITEMDEF 0c5d]
-//watermelon
-DUPEITEM=0c5c
+[ItemDef 01ebf]
+NameLoc=1027872
+DupeItem=01ebe
 
 
-[ITEMDEF 0c5e]
-//vines (ground)
-DEFNAME=iCropVines1
-TYPE=tCrops
-TDATA1=iCropVines1
-TDATA2=iCropVines2
-VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Vines
-ON=@Create
-FRUIT={ iFruitWatermelon, iFruitPumpkin, iFruitPumpkin2, i_fruitPumpkin3, i_fruitPumpkinTall, i_fruitGourdYellow, i_fruit_gourd_green, i_fruit_cantaloupe, i_fruit_honeydewmelon, i_fruit_squash }
 
-[ITEMDEF 0c5f]
+[ItemDef 0C5E]
+DefName=iVines1
+Name=vines
+NameLoc=1023166
+Type=tCrops
+TData1=iVines1
+TData2=iVines2
+Weight=255
+
+Category=Plants
+Subsection=Crops: Vines
+Description=Vines 1
+
+On=@Create
+Fruit={ iFruitWatermelon, iFruitPumpkin, iFruitPumpkin2, i_FruitPumpkin3, i_FruitPumpkinTall, i_FruitGourdYellow, i_Fruit_gourd_green, i_Fruit_cantaloupe, i_Fruit_honeydewmelon, i_Fruit_squash }
+
+
+[ItemDef 0c5f]
+DefName=iCropVines
+Type=tCrops
+TData1=iCropVines1
+TData2=-1 // pops out a Fruit.
+TData3=0 // can be many Fruits
+
+Category=Vegetation
+Subsection=Plants and Flowers
+Description=Vines
+
+On=@Create
+Fruit={ iFruitWatermelon, iFruitPumpkin, iFruitPumpkin2, i_FruitPumpkin3, i_FruitPumpkinTall, i_FruitGourdYellow, i_Fruit_gourd_green, i_Fruit_cantaloupe, i_Fruit_honeydewmelon, i_Fruit_squash }
+
+[ItemDef 0c60]
 //vines
-DEFNAME=iCropVines
-TYPE=tCrops
-TDATA1=iCropVines1
-TDATA2=-1 // pops out a fruit.
-TDATA3=0 // can be many fruits
+DefName=iCropVines2
+Type=tCrops
+TData1=iCropVines1
+TData2=iCropVines
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Vines
-ON=@Create
-FRUIT={ iFruitWatermelon, iFruitPumpkin, iFruitPumpkin2, i_fruitPumpkin3, i_fruitPumpkinTall, i_fruitGourdYellow, i_fruit_gourd_green, i_fruit_cantaloupe, i_fruit_honeydewmelon, i_fruit_squash }
+Category=Vegetation
+Subsection=Plants and Flowers
+Description=Vines
+On=@Create
+Fruit={ iFruitWatermelon, iFruitPumpkin, iFruitPumpkin2, i_FruitPumpkin3, i_FruitPumpkinTall, i_FruitGourdYellow, i_Fruit_gourd_green, i_Fruit_cantaloupe, i_Fruit_honeydewmelon, i_Fruit_squash }
 
-[ITEMDEF 0c60]
-//vines
-DEFNAME=iCropVines2
-TYPE=tCrops
-TDATA1=iCropVines1
-TDATA2=iCropVines
-VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Vines
-ON=@Create
-FRUIT={ iFruitWatermelon, iFruitPumpkin, iFruitPumpkin2, i_fruitPumpkin3, i_fruitPumpkinTall, i_fruitGourdYellow, i_fruit_gourd_green, i_fruit_cantaloupe, i_fruit_honeydewmelon, i_fruit_squash }
-
-[ITEMDEF 0c61]
-DEFNAME=iCropTurnip1
-TYPE=tCrops
-TDATA1=iCropTurnip1
-TDATA2=iCropTurnip
+[ItemDef 0c61]
+DefName=iCropTurnip1
+Type=tCrops
+TData1=iCropTurnip1
+TData2=iCropTurnip
 VALUE=2
-CATEGORY=Vegetation
-SUBSECTION=Fruits and Vegetables
-DESCRIPTION=Turnip
+Category=Vegetation
+Subsection=Fruits and Vegetables
+Description=Turnip
 
-[ITEMDEF 0c62]
+[ItemDef 0c62]
 //turnip
-DEFNAME=iCropTurnip
-TYPE=tCrops
-TDATA1=iCropTurnip1
-TDATA2=0
-TDATA3=iFruitTurnip
+DefName=iCropTurnip
+Type=tCrops
+TData1=iCropTurnip1
+TData2=0
+TData3=iFruitTurnip
 VALUE=2
-WEIGHT=0.1
-DUPELIST=0c63
+Weight=0.1
+DupeList=0c63
 
-[ITEMDEF 0c63]
+[ItemDef 0c63]
 //turnip
-DUPEITEM=0c62
+DupeItem=0c62
 
 
-[ITEMDEF 0c64]
-DEFNAME=iFruitGourdYellow
-TYPE=tFruit
-TDATA1=iCropVines1
-FLIP=1
-VALUE=2
-WEIGHT=0.1
-CATEGORY=Vegetation
-SUBSECTION=Fruits and Vegetables
-DESCRIPTION=Gourd (Yellow)
-DUPELIST=0c65
-ON=@Create
-MOREM=2
-
-[ITEMDEF 0c65]
-//gourd (yellow)
-DUPEITEM=0c64
-
-[ITEMDEF 0c66]
-DEFNAME=iFruitGourdGreen
-TYPE=tFruit
-TDATA1=iCropVines1
-FLIP=1
-VALUE=2
-WEIGHT=0.1
-CATEGORY=Vegetation
-SUBSECTION=Fruits and Vegetables
-DESCRIPTION=Gourd (Green)
-DUPELIST=0c67
-ON=@Create
-MOREM=2
-
-[ITEMDEF 0c67]
-//gourd (green)
-DUPEITEM=0c66
-
-
-[ITEMDEF 0c68]
+[ItemDef 0c68]
 //sprouts - no idea what they sprout into ?
-DEFNAME=iCropSprouts1
-TYPE=tCrops
-TDATA1=iCropSprouts1
-TDATA2=iCropSprouts2
+DefName=iCropSprouts1
+Type=tCrops
+TData1=iCropSprouts1
+TData2=iCropSprouts2
 VALUE=2
-CATEGORY=Vegetation
-SUBSECTION=Fruits and Vegetables
-DESCRIPTION=Sprouts
+Category=Vegetation
+Subsection=Fruits and Vegetables
+Description=Sprouts
 
-[ITEMDEF 0c69]
+[ItemDef 0c69]
 //sprouts
-DEFNAME=iCropSprouts2
-TYPE=tCrops
-TDATA1=iCropSprouts1
-TDATA2=0 // not sure what this turns into.
-TDATA3=0 // not sure what this turns into.
+DefName=iCropSprouts2
+Type=tCrops
+TData1=iCropSprouts1
+TData2=0 // not sure what this turns into.
+TData3=0 // not sure what this turns into.
 
-CATEGORY=Vegetation
-SUBSECTION=Fruits and Vegetables
-DESCRIPTION=Sprouts
+Category=Vegetation
+Subsection=Fruits and Vegetables
+Description=Sprouts
 
-ON=@Create
-FRUIT=0 // not sure what this turns into ?
-
-
-[ITEMDEF 0c6a]
-DEFNAME=iFruitPumpkin
-TYPE=tFruit
-TDATA1=iCropVines1
-FLIP=1
-VALUE=2
-WEIGHT=1.0
-CATEGORY=Vegetation
-SUBSECTION=Fruits and Vegetables
-DESCRIPTION=Pumpkin
-ON=@Create
-MOREM=3
-
-[ITEMDEF 0c6b]
-DEFNAME=iFruitPumpkin2
-TYPE=tFruit
-TDATA1=iCropVines1
-FLIP=1
-VALUE=2
-WEIGHT=1.0
-CATEGORY=Vegetation
-SUBSECTION=Fruits and Vegetables
-DESCRIPTION=Pumpkin 2
-ON=@Create
-MOREM=3
-
-[ITEMDEF 0c6c]
-DEFNAME=iFruitPumpkin3
-TYPE=tFruit
-TDATA1=iCropVines1
-FLIP=1
-VALUE=2
-WEIGHT=1.0
-CATEGORY=Vegetation
-SUBSECTION=Fruits and Vegetables
-DESCRIPTION=Pumpkin (smaller)
-ON=@Create
-MOREM=2
-
-[ITEMDEF 0c6d]
-DEFNAME=iFruitOnion
-TYPE=tFruit
-TDATA1=iCropOnion
-FLIP=1
-VALUE=2
-WEIGHT=0.1
-RESOURCES=1 iCropOnion
-CATEGORY=Vegetation
-SUBSECTION=Fruits and Vegetables
-DESCRIPTION=Onion
-DUPELIST=0c6e
-ON=@Create
-MOREM=1
-
-[ITEMDEF 0c6e]
-//onion
-DUPEITEM=0c6d
+On=@Create
+Fruit=0 // not sure what this turns into ?
 
 
-[ITEMDEF 0c6f]
+[ItemDef 0c6f]
 //onions
-DEFNAME=iCropOnion
-TYPE=tCrops
-TDATA1=iCropOnion
-TDATA2=0
-TDATA3=iFruitOnion
+DefName=iCropOnion
+Type=tCrops
+TData1=iCropOnion
+TData2=0
+TData3=iFruitOnion
 VALUE=2
-CATEGORY=Vegetation
-SUBSECTION=Fruits and Vegetables
-DESCRIPTION=Onions
+Category=Vegetation
+Subsection=Fruits and Vegetables
+Description=Onions
 
 
-[ITEMDEF 0c70]
-DEFNAME=iFruitLettuce
-TYPE=tFruit
-//TDATA1=i_crop_lettuce
-FLIP=1
-VALUE=2
-WEIGHT=0.1
-CATEGORY=Vegetation
-SUBSECTION=Fruits and Vegetables
-DESCRIPTION=Lettuce
-DUPELIST=0c71
-ON=@Create
-MOREM=1
-
-[ITEMDEF 0c71]
-//lettuce
-DUPEITEM=0c70
-
-[ITEMDEF 0c72]
-DEFNAME=iFruitSquash
-TYPE=tFruit
-TDATA1=iCropVines1
-FLIP=1
-VALUE=2
-WEIGHT=0.5
-CATEGORY=Vegetation
-SUBSECTION=Fruits and Vegetables
-DESCRIPTION=Squash
-DUPELIST=0c73
-ON=@Create
-MOREM=2
-
-[ITEMDEF 0c73]
-//squash
-DUPEITEM=0c72
-
-[ITEMDEF 0c74]
-DEFNAME=iFruitHoneydewmelon
-TYPE=tFruit
-TDATA1=iCropVines1
-FLIP=1
-VALUE=2
-WEIGHT=0.3
-CATEGORY=Vegetation
-SUBSECTION=Fruits and Vegetables
-DESCRIPTION=Honeydew Melon
-DUPELIST=0c75
-ON=@Create
-MOREM=2
-
-[ITEMDEF 0c75]
-//honeydew melon
-DUPEITEM=0c74
-
-
-[ITEMDEF 0c76]
+[ItemDef 0c76]
 //carrots
-DEFNAME=iCropCarrot
-TYPE=tCrops
-TDATA1=iCropCarrot
-TDATA2=0
-TDATA3=iFruitCarrot
+DefName=iCropCarrot
+Type=tCrops
+TData1=iCropCarrot
+TData2=0
+TData3=iFruitCarrot
 VALUE=2
-CATEGORY=Vegetation
-SUBSECTION=Fruits and Vegetables
-DESCRIPTION=Carrots
+Category=Vegetation
+Subsection=Fruits and Vegetables
+Description=Carrots
 
 
-[ITEMDEF 0c77]
-DEFNAME=iFruitCarrot
-TYPE=tFruit
-TDATA1=iCropCarrot
-FLIP=1
-VALUE=2
-WEIGHT=0.1
-RESOURCES=1 iCropCarrot
-CATEGORY=Vegetation
-SUBSECTION=Fruits and Vegetables
-DESCRIPTION=Carrot
-DUPELIST=0c78
-ON=@Create
-MOREM=1
-
-[ITEMDEF 0c78]
-//carrot
-DUPEITEM=0c77
-
-[ITEMDEF 0c79]
-DEFNAME=iFruitCantaloupe
-TYPE=tFruit
-TDATA1=iCropVines1
-FLIP=1
-VALUE=2
-WEIGHT=0.2
-CATEGORY=Vegetation
-SUBSECTION=Fruits and Vegetables
-DESCRIPTION=Cantaloupe
-DUPELIST=0c7a
-ON=@Create
-MOREM=2
-
-[ITEMDEF 0c7a]
-//cantaloupe
-DUPEITEM=0c79
-
-[ITEMDEF 0c7b]
-DEFNAME=iFruitCabbage
-TYPE=tFruit
-//TDATA1=i_crop_cabbage
-FLIP=1
-VALUE=2
-WEIGHT=0.3
-CATEGORY=Vegetation
-SUBSECTION=Fruits and Vegetables
-DESCRIPTION=Cabbage
-DUPELIST=0c7c
-ON=@Create
-MOREM=1
-
-[ITEMDEF 0c7c]
-//Head of Cabbage
-DUPEITEM=0c7b
 
 
-[ITEMDEF 0c7d]
+
+[ItemDef 0c7d]
 //corn stalk
-DEFNAME=iCropCorn
-TYPE=tCrops
-TDATA1=iCropCorn1
-TDATA2=0
-TDATA3=iFruitCorn
+DefName=iCropCorn
+Type=tCrops
+TData1=iCropCorn1
+TData2=0
+TData3=iFruitCorn
 VALUE=2
-CATEGORY=Vegetation
-SUBSECTION=Fruits and Vegetables
-DESCRIPTION=Corn Stalk
+Category=Vegetation
+Subsection=Fruits and Vegetables
+Description=Corn Stalk
 
-ON=@Create
-FRUIT=iFruitCorn
+On=@Create
+Fruit=iFruitCorn
 
-[ITEMDEF 0c7e]
+[ItemDef 0c7e]
 //corn stalk
-DEFNAME=iCropCorn1
-TYPE=tCrops
-TDATA1=iCropCorn1
-TDATA2=iCropCorn
+DefName=iCropCorn1
+Type=tCrops
+TData1=iCropCorn1
+TData2=iCropCorn
 VALUE=2
-CATEGORY=Vegetation
-SUBSECTION=Fruits and Vegetables
-DESCRIPTION=Corn Stalk
-
-ON=@Create
-FRUIT=iFruitCorn
-
-
-[ITEMDEF 0c7f]
-DEFNAME=iFruitCorn
-TYPE=tFruit
-TDATA1=iCropCorn
-FLIP=1
-VALUE=2
-WEIGHT=0.1
-CATEGORY=Vegetation
-SUBSECTION=Fruits and Vegetables
-DESCRIPTION=Ear of Corn
-DUPELIST=0c80,0c81,0c82
-ON=@Create
-MOREM=1
-
-[ITEMDEF 0c80]
-//ear of corn
-DUPEITEM=0c7f
-
-[ITEMDEF 0c81]
-//ear of corn
-DUPEITEM=0c7f
-
-[ITEMDEF 0c82]
-//ear of corn
-DUPEITEM=0c7f
-
-
-[ITEMDEF 0c83]
-//campion flowers
-DEFNAME=iFlowerCampion
-VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Campion Flowers
-
-[ITEMDEF 0c84]
-//foxglove flowers
-DEFNAME=iFlowerFoxglove
-VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Foxglove Flowers
-
-[ITEMDEF 0c85]
-//orfluer flowers
-DEFNAME=iFlowerOrfluer
-VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Orfluer Flowers
-
-[ITEMDEF 0c86]
-//red poppies
-DEFNAME=iFlowerRedpoppies
-VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Red Poppies
-
-[ITEMDEF 0c87]
-//campion flowers
-DEFNAME=iFlowerCampion2
-VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=campion Flowers
-
-[ITEMDEF 0c88]
-//snowdrops
-DEFNAME=iFlowerSnowdrops
-VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Snowdrops
-
-[ITEMDEF 0c89]
-//campion flowers
-DEFNAME=iFlowerCampion3
-VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Campion Flowers
-
-[ITEMDEF 0c8a]
-//foxglove flowers
-DEFNAME=iFlowerFoxglove2
-VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Foxglove Flowers
-
-[ITEMDEF 0c8b]
-//white flowers
-DEFNAME=iFlowerWhite
-VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=White Flowers
-
-[ITEMDEF 0c8c]
-//white flowers
-DEFNAME=iFlowerWhite2
-VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=White Flowers
-
-[ITEMDEF 0c8d]
-//white poppies
-DEFNAME=iFlowerWhitepoppies3
-VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=White Poppies
-
-[ITEMDEF 0c8e]
-//snowdrops
-DEFNAME=iFlowerSnowdrops2
-VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Snowdrops
-
-[ITEMDEF 0c8f]
-//hedge
-DEFNAME=iPlantHedge1
-VALUE=2
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Hedge
-
-[ITEMDEF 0c90]
-//hedge
-DEFNAME=iPlantHedge2
-VALUE=2
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Hedge
-
-[ITEMDEF 0c91]
-//untrimmed hedge
-DEFNAME=iPlantHedge3
-VALUE=2
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Untrimmed Hedge
-
-[ITEMDEF 0c92]
-//untrimmed hedge
-DEFNAME=iPlantHedge4
-VALUE=2
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Untrimmed Hedge
-
-[ITEMDEF 0c93]
-//blade plant
-DEFNAME=iPlantBlade
-VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Blade plant
-
-[ITEMDEF 0c94]
-//bulrushes
-DEFNAME=iPlantBulrushes
-VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Bulrushes
-
-[ITEMDEF 0c95]
-//coconut palm
-DEFNAME=iTreeCoconutpalm
-VALUE=2
-// TYPE=t_tree
-TYPE=tFoliage
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Coconut Palm
-
-ON=@Create
-FRUIT=iFruitCoconut
-
-[ITEMDEF 0c96]
-//date palm
-DEFNAME=iTreeDatepalm
-// TYPE=t_tree
-TYPE=tFoliage
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Date Palm
-
-ON=@Create
-FRUIT=iFruitDates
-
-[ITEMDEF 0c97]
-//elephant ear plant
-DEFNAME=iPlantElephantear
-VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Elephant Ear Plant
-
-[ITEMDEF 0c98]
-//fan plant
-DEFNAME=iPlantFan
-VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Fan Plant
-
-[ITEMDEF 0c99]
-//small palm
-DEFNAME=iPlantSmallpalm
-VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Small Palm
-
-[ITEMDEF 0c9a]
-//small palm
-DEFNAME=iPlantSmallpalm2
-VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Small Palm
-
-[ITEMDEF 0c9b]
-//small palm
-DEFNAME=iPlantSmallpalm3
-VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Small Palm
-
-[ITEMDEF 0c9c]
-//small palm
-DEFNAME=iPlantSmallpalm4
-VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Small Palm
-
-[ITEMDEF 0c9d]
-//small palm
-DEFNAME=iPlantSmallpalm5
-VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Small Palm
-
-[ITEMDEF 0c9e]
-//tree
-DEFNAME=iTreeOhii
-VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Tree
-
-[ITEMDEF 0c9f]
-//fern
-DEFNAME=iPlantFern
-VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION= Fern
-
-[ITEMDEF 0ca0]
-//fern
-DEFNAME=iPlantFern2
-VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Fern
-
-[ITEMDEF 0ca1]
-//large fern
-DEFNAME=iPlantFern3
-VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Large Fern
-
-[ITEMDEF 0ca2]
-//fern
-DEFNAME=iPlantFern4
-VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Fern
-
-[ITEMDEF 0ca3]
-//fern
-DEFNAME=iPlantFern5
-VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Fern
-
-[ITEMDEF 0ca4]
-//fern
-DEFNAME=iPlantFern6
-VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Fern
-
-[ITEMDEF 0ca5]
-//pampas grass
-DEFNAME=iPlantPampasgrass
-VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Pampas Grass
-
-[ITEMDEF 0ca6]
-//ponytail palm (too small for wood)
-DEFNAME=iPlantPampasgrass2
-VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Ponytail Palm
-
-[ITEMDEF 0ca7]
-//rushes
-DEFNAME=iPlantRushes
-VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Rushes
-
-[ITEMDEF 0ca8]
-//small banana tree (too small for wood)
-DEFNAME=iFoliageBananaSmall
-VALUE=1
-TYPE=tFoliage
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Banana Tree (Small)
-
-[ITEMDEF 0ca9]
-//snake plant
-DEFNAME=iPlantSnake
-VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Snake Plant
-
-[ITEMDEF 0caa]
-//banana tree
-DEFNAME=iTreeBanana
-VALUE=2
-TYPE=tFoliage
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Banana Tree
-
-ON=@Create
-FRUIT=iFruitBanana
-
-[ITEMDEF 0cab]
-//banana tree
-DEFNAME=iTreeBanana2
-VALUE=2
-TYPE=tFoliage
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Banana Tree
-
-ON=@Create
-FRUIT=iFruitBanana
-
-[ITEMDEF 0cac]
-//grasses
-DEFNAME=iPlantGrasses
-VALUE=1
-TYPE=tGrass
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Grasses
-DUPELIST=0cad,0cae,0caf,0cb0,0cb1,0cb2,0cb3,0cb4,0cb5,0cb6,0cb9,0cba,0cbb,0cbc,0cbd
-
-[ITEMDEF 0cad]
-//grasses
-DUPEITEM=0cac
-
-[ITEMDEF 0cae]
-//grasses
-DUPEITEM=0cac
-
-[ITEMDEF 0caf]
-//grasses
-DUPEITEM=0cac
-
-[ITEMDEF 0cb0]
-//grasses
-DUPEITEM=0cac
-
-[ITEMDEF 0cb1]
-//grasses
-DUPEITEM=0cac
-
-[ITEMDEF 0cb2]
-//grasses
-DUPEITEM=0cac
-
-[ITEMDEF 0cb3]
-//grasses
-DUPEITEM=0cac
-
-[ITEMDEF 0cb4]
-//grasses
-DUPEITEM=0cac
-
-[ITEMDEF 0cb5]
-//grasses
-DUPEITEM=0cac
-
-[ITEMDEF 0cb6]
-//grasses
-DUPEITEM=0cac
-
-[ITEMDEF 0cb7]
-//cattails
-DEFNAME=iPlantCattails
-VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Cattails
-TYPE=tGrass
-DUPELIST=0cb8
-
-[ITEMDEF 0cb8]
-//cattails
-DUPEITEM=0cb7
-
-[ITEMDEF 0cb9]
-//grasses
-DUPEITEM=0cac
-
-[ITEMDEF 0cba]
-//grasses
-DUPEITEM=0cac
-
-[ITEMDEF 0cbb]
-//grasses
-DUPEITEM=0cac
-
-[ITEMDEF 0cbc]
-//grasses
-DUPEITEM=0cac
-
-[ITEMDEF 0cbd]
-//grasses
-DUPEITEM=0cac
-
-[ITEMDEF 0cbe]
-//poppies
-DEFNAME=iPlantPoppies
-VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Poppies
-
-[ITEMDEF 0cbf]
-//poppies
-DEFNAME=iPlantPoppies2
-VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Poppies
-
-[ITEMDEF 0cc0]
-//orfluer flowers
-DEFNAME=iFlowerOrfluer2
-VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Orfluer Flowers
-
-[ITEMDEF 0cc1]
-//orfluer flowers
-DEFNAME=iFlowerOrfluer3
-VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Orfluer Flowers
-
-[ITEMDEF 0cc3]
-//muck
-DEFNAME=iFlowerMuck
-VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Muck
-TYPE=tTrapActive
-
-[ITEMDEF 0cc4]
-//pampas grass
-DEFNAME=iPlantPampasgrass3
-VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Pampas Grass
-
-[ITEMDEF 0cc5]
-//grasses
-DEFNAME=iPlantGrasses2
-VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Grasses
-TYPE=tGrass
-
-[ITEMDEF 0cc6]
-//grasses
-DEFNAME=iPlantGrasses3
-VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Grasses
-TYPE=tGrass
-
-[ITEMDEF 0cc7]
-//weed
-DEFNAME=iPlantWeed
-VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Weed
-
-[ITEMDEF 0cc8]
-//juniper bush
-DEFNAME=iPlantJuniper
-VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Juniper Bush
-
-[ITEMDEF 0cc9]
-//spider tree too small for wood yield
-DEFNAME=iPlantSpider
-VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Spider Tree
-
-[ITEMDEF 0cca]
+Category=Vegetation
+Subsection=Fruits and Vegetables
+Description=Corn Stalk
+
+On=@Create
+Fruit=iFruitCorn
+
+
+[ItemDef 0C83]
+DefName=iCampionFlowers1
+Name=campion flowers
+NameLoc=1023203
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Flowers
+Description=Campion Flowers 1
+
+
+[ItemDef 0c84]
+DefName=iFoxgloveFlowers1
+Name=foxglove flowers
+NameLoc=1023204
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Flowers
+Description=Foxglove Flowers 1
+
+
+[ItemDef 0c85]
+DefName=iOrfluerFlowers1
+Name=orfluer flowers
+NameLoc=1023205
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Flowers
+Description=Orfluer Flowers 1
+
+[ItemDef 0c86]
+DefName=iPoppies1
+Name=poppies
+NameLoc=1023206
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Flowers
+Description=Poppies 1
+
+
+[ItemDef 0c87]
+DefName=iCampionFlowers2
+Name=campion flowers
+NameLoc=1023207
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Flowers
+Description=Campion Flowers 2
+
+
+[ItemDef 0c88]
+DefName=iSnowdrops1
+NameLoc=1023208
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Flowers
+Description=Snowdrops 1
+
+
+[ItemDef 0c89]
+DefName=iCampionFlowers3
+NameLoc=1023209
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Flowers
+Description=Campion Flowers 3
+
+
+[ItemDef 0c8a]
+DefName=iFoxgloveFlowers2
+NameLoc=1023210
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Flowers
+Description=Foxglove Flowers 2
+
+
+[ItemDef 0c8b]
+DefName=iLillies
+NameLoc=1023211
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Flowers
+Description=Lillies
+
+
+[ItemDef 0c8c]
+DefName=iWhiteFlowers
+NameLoc=1023212
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Flowers
+Description=White Flowers
+
+
+[ItemDef 0c8d]
+DefName=iWhitePoppies
+NameLoc=1023213
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Flowers
+Description=White Poppies
+
+
+[ItemDef 0c8e]
+DefName=iSnowdrops2
+NameLoc=1023214
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Flowers
+Description=Snowdrops 2
+
+
+[ItemDef 0C93]
+DefName=iBladePlant
+NameLoc=1023219
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Flowers
+Description=Blade Plant
+
+
+[ItemDef 0C94]
+DefName=iBulrushes
+NameLoc=1023220
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Flowers
+Description=Bulrushes
+
+
+[ItemDef 0C97]
+DefName=iElephantEarPlant
+NameLoc=1023223
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Flowers
+Description=Elephant Ear Plant
+
+
+[ItemDef 0C98]
+DefName=iFanPlant
+NameLoc=1023224
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Flowers
+Description=Fan Plant
+
+
+
+
+
+[ItemDef 0ca5]
+DefName=iPampasGrass1
+Name=pampas grass
+NameLoc=1023237
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Flowers
+Description=Pampas Grass 1
+
+
+[ItemDef 0ca7]
+DefName=iRushes
+Name=rushes
+NameLoc=1023239
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Plants
+Description=Rushes
+
+
+[ItemDef 0ca9]
+DefName=iSnakePlant
+Name=snake plant
+NameLoc=1023241
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Plants
+Description=Snake Plant
+
+
+[ItemDef 0cbe]
+DefName=iPoppies2
+Name=poppies
+NameLoc=1023262
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Plants
+Description=Poppies 2
+
+
+[ItemDef 0cbf]
+DefName=iPoppies3
+Name=poppies
+NameLoc=1023263
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Plants
+Description=Poppies 3
+
+
+[ItemDef 0cc0]
+DefName=iOrfluerFlowers2
+Name=orfluer flowers
+NameLoc=1023264
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Plants
+Description=Orfluer Flowers 2
+
+
+[ItemDef 0cc1]
+DefName=iOrfluerFlowers3
+Name=orfluer flowers
+NameLoc=1023265
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Plants
+Description=Orfluer Flowers 3
+
+
+[ItemDef 0cc3]
+DefName=iMuck
+Name=muck
+NameLoc=1023267
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Plants
+Description=Muck
+
+
+[ItemDef 0cc4]
+DefName=iPampasGrass3
+Name=pampas grass
+NameLoc=1023268
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Plants
+Description=Pampas Grass 3
+
+
+[ItemDef 0cc7]
+DefName=iWeed
+Name=weed
+NameLoc=1023271
+Type=tGrass
+Weight=255
+
+Category=Plants
+Subsection=Plants
+Description=Weed
+
+
+[ItemDef 0cc8]
+DefName=iJuniperBush
+Name=juniper bush
+NameLoc=1023272
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Plants
+Description=Juniper Bush
+
+
+
+
+
+[ItemDef 0cca]
 //tree small black branches, no foliage
-DEFNAME=iTreeTrunk
+DefName=iTreeTrunk
 VALUE=1
-TYPE=tTree
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Tree (Brown) (No Foliage)
+Type=tTree
+Category=Vegetation
+Subsection=Trees
+Description=Tree (Brown) (No Foliage)
 
-[ITEMDEF 0ccb]
+[ItemDef 0ccb]
 //tree gray (dead?) no foliage
-DEFNAME=iTreeTrunk2
+DefName=iTreeTrunk2
 VALUE=1
-TYPE=tTree
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Tree (Dark Brown) (No Foliage)
+Type=tTree
+Category=Vegetation
+Subsection=Trees
+Description=Tree (Dark Brown) (No Foliage)
 
-[ITEMDEF 0ccc]
+[ItemDef 0ccc]
 //tree brown, no foliage
-DEFNAME=iTreeTrunk3
+DefName=iTreeTrunk3
 VALUE=1
-TYPE=tTree
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Tree (Light Brown) (No Foliage)
+Type=tTree
+Category=Vegetation
+Subsection=Trees
+Description=Tree (Light Brown) (No Foliage)
 
-[ITEMDEF 0ccd]
+[ItemDef 0ccd]
 //tree
-DEFNAME=iTree4
-TYPE=tTree
+DefName=iTree4
+Type=tTree
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Tree (Gray) (No Foliage)
+Category=Vegetation
+Subsection=Trees
+Description=Tree (Gray) (No Foliage)
 
-[ITEMDEF 0cce]
+[ItemDef 0cce]
 //leaves
-DEFNAME=iFoliage4
-TYPE=tFoliage
+DefName=iFoliage4
+Type=tFoliage
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Leaves
+Category=Vegetation
+Subsection=Trees
+Description=Leaves
 
-[ITEMDEF 0ccf]
+[ItemDef 0ccf]
 //leaves
-DEFNAME=iFoliage4fall
-TYPE=tFoliage
+DefName=iFoliage4fall
+Type=tFoliage
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Leaves
+Category=Vegetation
+Subsection=Trees
+Description=Leaves
 
-[ITEMDEF 0cd0]
+[ItemDef 0cd0]
 //tree warm brown, no foliage
-DEFNAME=iTree3
-TYPE=tTree
+DefName=iTree3
+Type=tTree
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Tree - (Warm Brown)
+Category=Vegetation
+Subsection=Trees
+Description=Tree - (Warm Brown)
 
-[ITEMDEF 0cd1]
+[ItemDef 0cd1]
 //leaves
-DEFNAME=iFoliage3
-TYPE=tFoliage
+DefName=iFoliage3
+Type=tFoliage
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Leaves
+Category=Vegetation
+Subsection=Trees
+Description=Leaves
 
-[ITEMDEF 0cd2]
+[ItemDef 0cd2]
 //leaves
-DEFNAME=iFoliage3Fall
-TYPE=tFoliage
+DefName=iFoliage3Fall
+Type=tFoliage
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Leaves
+Category=Vegetation
+Subsection=Trees
+Description=Leaves
 
-[ITEMDEF 0cd3]
+[ItemDef 0cd3]
 //tree
-DEFNAME=iTree5
+DefName=iTree5
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Tree
-TYPE=tTree
+Category=Vegetation
+Subsection=Trees
+Description=Tree
+Type=tTree
 
-[ITEMDEF 0cd4]
+[ItemDef 0cd4]
 //leaves
-DEFNAME=iFoliage5
-TYPE=tFoliage
+DefName=iFoliage5
+Type=tFoliage
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Leaves
+Category=Vegetation
+Subsection=Trees
+Description=Leaves
 
-[ITEMDEF 0cd5]
+[ItemDef 0cd5]
 //leaves
-DEFNAME=iFoliage5Fall
-TYPE=tFoliage
+DefName=iFoliage5Fall
+Type=tFoliage
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Leaves
+Category=Vegetation
+Subsection=Trees
+Description=Leaves
 
-[ITEMDEF 0cd6]
+[ItemDef 0cd6]
 //cedar tree
-DEFNAME=iTreeCedar
-TYPE=tTree
+DefName=iTreeCedar
+Type=tTree
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Cedar Tree
+Category=Vegetation
+Subsection=Trees
+Description=Cedar Tree
 
-[ITEMDEF 0cd7]
+[ItemDef 0cd7]
 //cedar needles
-DEFNAME=iFoliageCedar
+DefName=iFoliageCedar
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Cedar Needles
+Category=Vegetation
+Subsection=Trees
+Description=Cedar Needles
 
-[ITEMDEF 0cd8]
+[ItemDef 0cd8]
 //cedar tree
-DEFNAME=iTreeCedar2
-TYPE=tTree
+DefName=iTreeCedar2
+Type=tTree
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Cedar Tree
+Category=Vegetation
+Subsection=Trees
+Description=Cedar Tree
 
-[ITEMDEF 0cd9]
+[ItemDef 0cd9]
 //cedar needles
-DEFNAME=iFoliageCedar2
+DefName=iFoliageCedar2
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Cedar Needles
-TYPE=tTree
+Category=Vegetation
+Subsection=Trees
+Description=Cedar Needles
+Type=tTree
 
-[ITEMDEF 0cda]
+[ItemDef 0cda]
 //oak tree
-DEFNAME=iTreeOak
+DefName=iTreeOak
 VALUE=1
-TYPE=tTree
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Oak Tree
+Type=tTree
+Category=Vegetation
+Subsection=Trees
+Description=Oak Tree
 
-[ITEMDEF 0cdb]
+[ItemDef 0cdb]
 //oak leaves
-DEFNAME=iFoliageOak
-TYPE=tFoliage
+DefName=iFoliageOak
+Type=tFoliage
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Oak Leaves
-TYPE=tTree
+Category=Vegetation
+Subsection=Trees
+Description=Oak Leaves
+Type=tTree
 
-[ITEMDEF 0cdc]
+[ItemDef 0cdc]
 //oak leaves
-DEFNAME=iFoliageOakFall
-TYPE=tFoliage
+DefName=iFoliageOakFall
+Type=tFoliage
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Oak Leaves
-TYPE=tTree
+Category=Vegetation
+Subsection=Trees
+Description=Oak Leaves
+Type=tTree
 
-[ITEMDEF 0cdd]
+[ItemDef 0cdd]
 //oak tree
-DEFNAME=iTreeOak2
+DefName=iTreeOak2
 VALUE=1
-TYPE=tTree
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Oak Tree
+Type=tTree
+Category=Vegetation
+Subsection=Trees
+Description=Oak Tree
 
-[ITEMDEF 0cde]
+[ItemDef 0cde]
 //oak leaves
-DEFNAME=iFoliageOak2
-TYPE=tFoliage
+DefName=iFoliageOak2
+Type=tFoliage
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Oak Leaves
-TYPE=tTree
+Category=Vegetation
+Subsection=Trees
+Description=Oak Leaves
+Type=tTree
 
-[ITEMDEF 0cdf]
+[ItemDef 0cdf]
 //oak leaves
-DEFNAME=iFoliageOak2Fall
-TYPE=tFoliage
+DefName=iFoliageOak2Fall
+Type=tFoliage
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Oak Leaves
-TYPE=tTree
+Category=Vegetation
+Subsection=Trees
+Description=Oak Leaves
+Type=tTree
 
-[ITEMDEF 0ce0]
+[ItemDef 0ce0]
 //walnut tree
-DEFNAME=iTreeWalnut
+DefName=iTreeWalnut
 VALUE=1
-TYPE=tTree
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Walnut Tree
+Type=tTree
+Category=Vegetation
+Subsection=Trees
+Description=Walnut Tree
 
-[ITEMDEF 0ce1]
+[ItemDef 0ce1]
 //walnut leaves
-DEFNAME=iFoliageWalnut
-TYPE=tFoliage
+DefName=iFoliageWalnut
+Type=tFoliage
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Walnut Leaves
+Category=Vegetation
+Subsection=Trees
+Description=Walnut Leaves
 
-[ITEMDEF 0ce2]
+[ItemDef 0ce2]
 //walnut leaves
-DEFNAME=iFoliageWalnutFall
-TYPE=tFoliage
+DefName=iFoliageWalnutFall
+Type=tFoliage
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Walnut Leaves
+Category=Vegetation
+Subsection=Trees
+Description=Walnut Leaves
 
-[ITEMDEF 0ce3]
+[ItemDef 0ce3]
 //walnut tree
-DEFNAME=iTreeWalnut2
-TYPE=tTree
+DefName=iTreeWalnut2
+Type=tTree
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Walnut Tree
+Category=Vegetation
+Subsection=Trees
+Description=Walnut Tree
 
-[ITEMDEF 0ce4]
+[ItemDef 0ce4]
 //walnut leaves
-DEFNAME=iFoliageWalnut2
-TYPE=tFoliage
+DefName=iFoliageWalnut2
+Type=tFoliage
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Walnut Leaves
+Category=Vegetation
+Subsection=Trees
+Description=Walnut Leaves
 
-[ITEMDEF 0ce5]
+[ItemDef 0ce5]
 //walnut leaves
-DEFNAME=iFoliageWalnut2Fall
-TYPE=tFoliage
+DefName=iFoliageWalnut2Fall
+Type=tFoliage
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Walnut Leaves
+Category=Vegetation
+Subsection=Trees
+Description=Walnut Leaves
 
-[ITEMDEF 0ce6]
+[ItemDef 0ce6]
 //willow tree
-DEFNAME=iTreeTrunkWillow
+DefName=iTreeTrunkWillow
 VALUE=1
-TYPE=tTree
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Willow Tree
+Type=tTree
+Category=Vegetation
+Subsection=Trees
+Description=Willow Tree
 
-[ITEMDEF 0ce7]
+[ItemDef 0ce7]
 //willow leaves
-DEFNAME=iTreeLeavesWillow
-TYPE=tFoliage
+DefName=iTreeLeavesWillow
+Type=tFoliage
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Willow Leaves
+Category=Vegetation
+Subsection=Trees
+Description=Willow Leaves
 
-[ITEMDEF 0ce8]
+[ItemDef 0ce8]
 //willow leaves
-DEFNAME=iTreeLeavesWillow2
-TYPE=tFoliage
+DefName=iTreeLeavesWillow2
+Type=tFoliage
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Willow Leaves
+Category=Vegetation
+Subsection=Trees
+Description=Willow Leaves
 
-[ITEMDEF 0ce9]
+[ItemDef 0ce9]
 //sapling too small for wood yield
-DEFNAME=iTreeSapling
+DefName=iTreeSapling
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Sapling
+Category=Vegetation
+Subsection=Trees
+Description=Sapling
 
-[ITEMDEF 0cea]
+[ItemDef 0cea]
 //sapling
-DEFNAME=iTreeSapling2
+DefName=iTreeSapling2
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Sapling
+Category=Vegetation
+Subsection=Trees
+Description=Sapling
 
-[ITEMDEF 0ceb]
+[ItemDef 0ceb]
 //vines
-DEFNAME=iCropVines4
+DefName=iCropVines4
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Vines
+Category=Vegetation
+Subsection=Plants and Flowers
+Description=Vines
 
-[ITEMDEF 0cec]
+[ItemDef 0cec]
 //vines
-DUPEITEM=0ceb
+DupeItem=0ceb
 
-[ITEMDEF 0ced]
+[ItemDef 0ced]
 //vines
-DUPEITEM=0ceb
+DupeItem=0ceb
 
-[ITEMDEF 0cee]
+[ItemDef 0cee]
 //vines
-DUPEITEM=0ceb
+DupeItem=0ceb
 
-[ITEMDEF 0cef]
+[ItemDef 0cef]
 //vines
-DUPEITEM=0ceb
+DupeItem=0ceb
 
-[ITEMDEF 0cf0]
+[ItemDef 0cf0]
 //vines
-DUPEITEM=0ceb
+DupeItem=0ceb
 
-[ITEMDEF 0cf1]
+[ItemDef 0cf1]
 //vines
-DUPEITEM=0ceb
+DupeItem=0ceb
 
-[ITEMDEF 0cf2]
+[ItemDef 0cf2]
 //vines
-DUPEITEM=0ceb
+DupeItem=0ceb
 
-[ITEMDEF 0cf3]
+[ItemDef 0cf3]
 //fallen log
-DEFNAME=iLogFallen
+DefName=iLogFallen
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Fallen Log
+Category=Vegetation
+Subsection=Trees
+Description=Fallen Log
 
-[ITEMDEF 0cf4]
+[ItemDef 0cf4]
 //fallen log
-DUPEITEM=0cf3
+DupeItem=0cf3
 
-[ITEMDEF 0cf5]
+[ItemDef 0cf5]
 //fallen log
-DUPEITEM=0cf3
+DupeItem=0cf3
 
-[ITEMDEF 0cf6]
+[ItemDef 0cf6]
 //fallen log
-DUPEITEM=0cf3
+DupeItem=0cf3
 
-[ITEMDEF 0cf7]
+[ItemDef 0cf7]
 //fallen log
-DUPEITEM=0cf3
+DupeItem=0cf3
 
-[ITEMDEF 0cf8]
+[ItemDef 0cf8]
 //cypress tree
-DEFNAME=iTreeCyprus
-TYPE=tTree
+DefName=iTreeCyprus
+Type=tTree
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Cyprus Tree
+Category=Vegetation
+Subsection=Trees
+Description=Cyprus Tree
 
-[ITEMDEF 0cf9]
+[ItemDef 0cf9]
 //cypress leaves
-DEFNAME=iFoliageCyprus
-TYPE=tFoliage
+DefName=iFoliageCyprus
+Type=tFoliage
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Cyprus Leaves
+Category=Vegetation
+Subsection=Trees
+Description=Cyprus Leaves
 
-[ITEMDEF 0cfa]
+[ItemDef 0cfa]
 //cypress leaves
-DEFNAME=iFoliageCyprusFall
-TYPE=tFoliage
+DefName=iFoliageCyprusFall
+Type=tFoliage
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Cypress Leaves
+Category=Vegetation
+Subsection=Trees
+Description=Cypress Leaves
 
-[ITEMDEF 0cfb]
+[ItemDef 0cfb]
 //cypress tree
-DEFNAME=iTreeCyprus2
-TYPE=tTree
+DefName=iTreeCyprus2
+Type=tTree
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Cypress Tree
+Category=Vegetation
+Subsection=Trees
+Description=Cypress Tree
 
-[ITEMDEF 0cfc]
+[ItemDef 0cfc]
 //cypress leaves
-DEFNAME=iFoliageCyprus2
-TYPE=tFoliage
+DefName=iFoliageCyprus2
+Type=tFoliage
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Cypress Leaves
+Category=Vegetation
+Subsection=Trees
+Description=Cypress Leaves
 
-[ITEMDEF 0cfd]
+[ItemDef 0cfd]
 //cypress leaves
-DEFNAME=iFoliageCyprus2Fall
-TYPE=tFoliage
+DefName=iFoliageCyprus2Fall
+Type=tFoliage
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Cypress Leaves
+Category=Vegetation
+Subsection=Trees
+Description=Cypress Leaves
 
-[ITEMDEF 0cfe]
+[ItemDef 0cfe]
 //cypress tree
-DEFNAME=iTreeCyprus3
-TYPE=tTree
+DefName=iTreeCyprus3
+Type=tTree
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Cypress Tree
+Category=Vegetation
+Subsection=Trees
+Description=Cypress Tree
 
-[ITEMDEF 0cff]
+[ItemDef 0cff]
 //cypress leaves
-DEFNAME=iFoliageCyprus3
-TYPE=tFoliage
+DefName=iFoliageCyprus3
+Type=tFoliage
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Cypress Leaves
+Category=Vegetation
+Subsection=Trees
+Description=Cypress Leaves
 
-[ITEMDEF 0d00]
+[ItemDef 0d00]
 //cypress leaves
-DEFNAME=iFoliageCyprus3Fall
-TYPE=tFoliage
+DefName=iFoliageCyprus3Fall
+Type=tFoliage
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Cypress Leaves
+Category=Vegetation
+Subsection=Trees
+Description=Cypress Leaves
 
-[ITEMDEF 0d01]
+[ItemDef 0d01]
 //cypress tree
-DEFNAME=iTreeCyprus4
-TYPE=tTree
+DefName=iTreeCyprus4
+Type=tTree
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Cypress Tree
+Category=Vegetation
+Subsection=Trees
+Description=Cypress Tree
 
-[ITEMDEF 0d02]
+[ItemDef 0d02]
 //cypress leaves
-DEFNAME=iFoliageCyprus4
-TYPE=tFoliage
+DefName=iFoliageCyprus4
+Type=tFoliage
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Cypress Leaves
+Category=Vegetation
+Subsection=Trees
+Description=Cypress Leaves
 
-[ITEMDEF 0d03]
+[ItemDef 0d03]
 //cypress leaves
-DEFNAME=iFoliageCyprus4Fall
-TYPE=tFoliage
+DefName=iFoliageCyprus4Fall
+Type=tFoliage
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Cypress Leaves
+Category=Vegetation
+Subsection=Trees
+Description=Cypress Leaves
 
-[ITEMDEF 0d04]
+[ItemDef 0d04]
 //water plants
-DEFNAME=iPlantWater
+DefName=iPlantWater
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Water Plants
+Category=Vegetation
+Subsection=Plants and Flowers
+Description=Water Plants
 
-[ITEMDEF 0d05]
+[ItemDef 0d05]
 //reeds
-DEFNAME=iPlantReed
+DefName=iPlantReed
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Reeds
+Category=Vegetation
+Subsection=Plants and Flowers
+Description=Reeds
 
-[ITEMDEF 0d06]
+[ItemDef 0d06]
 //lilypad
-DEFNAME=iPlantLilypad
+DefName=iPlantLilypad
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Lilypad
+Category=Vegetation
+Subsection=Plants and Flowers
+Description=Lilypad
 
-[ITEMDEF 0d07]
+[ItemDef 0d07]
 //lilypad
-DEFNAME=iPlantLilypad2
+DefName=iPlantLilypad2
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Lilypad
+Category=Vegetation
+Subsection=Plants and Flowers
+Description=Lilypad
 
-[ITEMDEF 0d08]
+[ItemDef 0d08]
 //lilypad
-DEFNAME=iPlantLilypad3
+DefName=iPlantLilypad3
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Lilypad
+Category=Vegetation
+Subsection=Plants and Flowers
+Description=Lilypad
 
-[ITEMDEF 0d09]
+[ItemDef 0d09]
 //lilypad
-DEFNAME=iPlantLilypad4
+DefName=iPlantLilypad4
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Lilypad
+Category=Vegetation
+Subsection=Plants and Flowers
+Description=Lilypad
 
-[ITEMDEF 0d0a]
+[ItemDef 0d0a]
 //lilypad
-DEFNAME=iPlantLilypad5
+DefName=iPlantLilypad5
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Lilypad
+Category=Vegetation
+Subsection=Plants and Flowers
+Description=Lilypad
 
-[ITEMDEF 0d0b]
+[ItemDef 0d0b]
 //lilypads
-DEFNAME=iPlantLilypad6
+DefName=iPlantLilypad6
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Lilypads
+Category=Vegetation
+Subsection=Plants and Flowers
+Description=Lilypads
 
-[ITEMDEF 0d0c]
+[ItemDef 0d0c]
 //mushrooms
-DEFNAME=iCropMushroom
+DefName=iCropMushroom
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Mushrooms
-DESCRIPTION=@
-DUPELIST=0d0d,0d0e,0d0f,0d10,0d11,0d12,0d13,0d14,0d15,0d16,0d17,0d18,0d19
+Category=Vegetation
+Subsection=Mushrooms
+DescriptiOn=@
+DupeList=0d0d,0d0e,0d0f,0d10,0d11,0d12,0d13,0d14,0d15,0d16,0d17,0d18,0d19
 
-[ITEMDEF 0d0d]
+[ItemDef 0d0d]
 //mushrooms
-DUPEITEM=0d0c
+DupeItem=0d0c
 
-[ITEMDEF 0d0e]
+[ItemDef 0d0e]
 //mushrooms
-DUPEITEM=0d0c
+DupeItem=0d0c
 
-[ITEMDEF 0d0f]
+[ItemDef 0d0f]
 //mushrooms
-DUPEITEM=0d0c
+DupeItem=0d0c
 
-[ITEMDEF 0d10]
+[ItemDef 0d10]
 //mushrooms
-DUPEITEM=0d0c
+DupeItem=0d0c
 
-[ITEMDEF 0d11]
+[ItemDef 0d11]
 //mushrooms
-DUPEITEM=0d0c
+DupeItem=0d0c
 
-[ITEMDEF 0d12]
+[ItemDef 0d12]
 //mushrooms
-DUPEITEM=0d0c
+DupeItem=0d0c
 
-[ITEMDEF 0d13]
+[ItemDef 0d13]
 //mushrooms
-DUPEITEM=0d0c
+DupeItem=0d0c
 
-[ITEMDEF 0d14]
+[ItemDef 0d14]
 //mushrooms
-DUPEITEM=0d0c
+DupeItem=0d0c
 
-[ITEMDEF 0d15]
+[ItemDef 0d15]
 //mushrooms
-DUPEITEM=0d0c
+DupeItem=0d0c
 
-[ITEMDEF 0d16]
+[ItemDef 0d16]
 //mushroom
-DUPEITEM=0d0c
+DupeItem=0d0c
 
-[ITEMDEF 0d17]
+[ItemDef 0d17]
 //mushroom
-DUPEITEM=0d0c
+DupeItem=0d0c
 
-[ITEMDEF 0d18]
+[ItemDef 0d18]
 //mushroom
-DUPEITEM=0d0c
+DupeItem=0d0c
 
-[ITEMDEF 0d19]
+[ItemDef 0d19]
 //mushroom
-DUPEITEM=0d0c
+DupeItem=0d0c
 
-[ITEMDEF 0d1a]
-//grapes
-DUPEITEM=09d1
-
-[ITEMDEF 0d1b]
+[ItemDef 0d1b]
 //grapevines
-DEFNAME=iCropGrapevine
-TYPE=tCrops
-TDATA1=iCropGrapevine
-TDATA2=0
-TDATA3=iFruitGrapes
-CATEGORY=Vegetation
-SUBSECTION=Fruits and Vegetables
-DESCRIPTION=Grapevines
-DUPELIST=0d1c,0d1d,0d1e,0d1f,0d20,0d21,0d22,0d23,0d24
+DefName=iCropGrapevine
+Type=tCrops
+TData1=iCropGrapevine
+TData2=0
+TData3=iFruitGrapes
+Category=Vegetation
+Subsection=Fruits and Vegetables
+Description=Grapevines
+DupeList=0d1c,0d1d,0d1e,0d1f,0d20,0d21,0d22,0d23,0d24
 
-[ITEMDEF 0d1c]
+[ItemDef 0d1c]
 //grapevines
-DUPEITEM=0d1b
+DupeItem=0d1b
 
-[ITEMDEF 0d1d]
+[ItemDef 0d1d]
 //grapevines
-DUPEITEM=0d1b
+DupeItem=0d1b
 
-[ITEMDEF 0d1e]
+[ItemDef 0d1e]
 //grapevines
-DUPEITEM=0d1b
+DupeItem=0d1b
 
-[ITEMDEF 0d1f]
+[ItemDef 0d1f]
 //grapevines
-DUPEITEM=0d1b
+DupeItem=0d1b
 
-[ITEMDEF 0d20]
+[ItemDef 0d20]
 //grapevines
-DUPEITEM=0d1b
+DupeItem=0d1b
 
-[ITEMDEF 0d21]
+[ItemDef 0d21]
 //grapevines
-DUPEITEM=0d1b
+DupeItem=0d1b
 
-[ITEMDEF 0d22]
+[ItemDef 0d22]
 //grapevines
-DUPEITEM=0d1b
+DupeItem=0d1b
 
-[ITEMDEF 0d23]
+[ItemDef 0d23]
 //grapevines
-DUPEITEM=0d1b
+DupeItem=0d1b
 
-[ITEMDEF 0d24]
+[ItemDef 0d24]
 //grapevines
-DUPEITEM=0d1b
+DupeItem=0d1b
 
-[ITEMDEF 0d25]
+[ItemDef 0d25]
 //cactus
-DEFNAME=iPlantCactus
+DefName=iPlantCactus
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Cactus 1
+Category=Vegetation
+Subsection=Plants and Flowers
+Description=Cactus 1
 
-[ITEMDEF 0d26]
+[ItemDef 0d26]
 //cactus
-DEFNAME=iPlantCactus2
+DefName=iPlantCactus2
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Cactus 2
+Category=Vegetation
+Subsection=Plants and Flowers
+Description=Cactus 2
 
-[ITEMDEF 0d27]
+[ItemDef 0d27]
 //cactus
-DEFNAME=iPlantCactus3
+DefName=iPlantCactus3
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Cactus 3
+Category=Vegetation
+Subsection=Plants and Flowers
+Description=Cactus 3
 
-[ITEMDEF 0d28]
+[ItemDef 0d28]
 //cactus
-DEFNAME=iPlantCactus4
+DefName=iPlantCactus4
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Cactus 4
-TYPE=tTrapActive
+Category=Vegetation
+Subsection=Plants and Flowers
+Description=Cactus 4
+Type=tTrapActive
 
-[ITEMDEF 0d29]
+[ItemDef 0d29]
 //flowers
-DEFNAME=iCropFlower4
+DefName=iCropFlower4
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Cactus 4 (Flowers)
+Category=Vegetation
+Subsection=Plants and Flowers
+Description=Cactus 4 (Flowers)
 
-[ITEMDEF 0d2a]
+[ItemDef 0d2a]
 //cactus
-DEFNAME=iPlantCactus5
-TYPE=tTrapActive
+DefName=iPlantCactus5
+Type=tTrapActive
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Cactus 5
+Category=Vegetation
+Subsection=Plants and Flowers
+Description=Cactus 5
 
-[ITEMDEF 0d2b]
+[ItemDef 0d2b]
 //flowers
-DEFNAME=iCropFlower5
+DefName=iCropFlower5
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Cactus 5 (Flowers)
+Category=Vegetation
+Subsection=Plants and Flowers
+Description=Cactus 5 (Flowers)
 
-[ITEMDEF 0d2c]
+[ItemDef 0d2c]
 //cactus
-DEFNAME=iPlantCactus6
+DefName=iPlantCactus6
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Cactus 6
+Category=Vegetation
+Subsection=Plants and Flowers
+Description=Cactus 6
 
-[ITEMDEF 0d2d]
+[ItemDef 0d2d]
 //flowers
-DEFNAME=iCropFlower6
+DefName=iCropFlower6
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Cactus 6 (Flowers)
+Category=Vegetation
+Subsection=Plants and Flowers
+Description=Cactus 6 (Flowers)
 
-[ITEMDEF 0d2e]
+[ItemDef 0d2e]
 //cactus
-DEFNAME=iPlantCactus7
+DefName=iPlantCactus7
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Cactus 7
+Category=Vegetation
+Subsection=Plants and Flowers
+Description=Cactus 7
 
-[ITEMDEF 0d2f]
+[ItemDef 0d2f]
 //flowers
-DEFNAME=iCropFlower7
+DefName=iCropFlower7
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Cactus 7 (Flowers)
+Category=Vegetation
+Subsection=Plants and Flowers
+Description=Cactus 7 (Flowers)
 
-[ITEMDEF 0d30]
+[ItemDef 0d30]
 //century plant
-DEFNAME=iPlantCentury
+DefName=iPlantCentury
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Century Plant
+Category=Vegetation
+Subsection=Plants and Flowers
+Description=Century Plant
 
-[ITEMDEF 0d31]
+[ItemDef 0d31]
 //century plant
-DEFNAME=iPlantCentury2
+DefName=iPlantCentury2
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Century Plant
+Category=Vegetation
+Subsection=Plants and Flowers
+Description=Century Plant
 
-[ITEMDEF 0d32]
+[ItemDef 0d32]
 //grasses
-DEFNAME=iPlantGrass
+DefName=iPlantGrass
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Grasses
-TYPE=tGrass
+Category=Vegetation
+Subsection=Plants and Flowers
+Description=Grasses
+Type=tGrass
 
-[ITEMDEF 0d33]
+[ItemDef 0d33]
 //grasses
-DEFNAME=iPlantGrass2
+DefName=iPlantGrass2
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Grasses
-TYPE=tGrass
+Category=Vegetation
+Subsection=Plants and Flowers
+Description=Grasses
+Type=tGrass
 
-[ITEMDEF 0d34]
+[ItemDef 0d34]
 //morning glories
-DEFNAME=iFlowerMorningglory
+DefName=iFlowerMorningglory
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Morning Glories
+Category=Vegetation
+Subsection=Plants and Flowers
+Description=Morning Glories
 
-[ITEMDEF 0d35]
+[ItemDef 0d35]
 //pipe cactus
-DEFNAME=iPlantCactus8
+DefName=iPlantCactus8
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Pipe Cactus
+Category=Vegetation
+Subsection=Plants and Flowers
+Description=Pipe Cactus
 
-[ITEMDEF 0d36]
+[ItemDef 0d36]
 //flowers
-DEFNAME=iCropFlower8
+DefName=iCropFlower8
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Flowers
+Category=Vegetation
+Subsection=Plants and Flowers
+Description=Flowers
 
-[ITEMDEF 0d37]
+[ItemDef 0d37]
 //yucca
-DEFNAME=iPlantYucca
+DefName=iPlantYucca
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Yucca
-DUPELIST=0d38
+Category=Vegetation
+Subsection=Trees
+Description=Yucca
+DupeList=0d38
 
-[ITEMDEF 0d38]
+[ItemDef 0d38]
 //yucca
-DUPEITEM=0d37
+DupeItem=0d37
 
 
-[ITEMDEF 0d39]
-DEFNAME=iFruitTurnip
-TYPE=tFruit
-TDATA1=iCropTurnip1
-FLIP=1
+[ItemDef 0d39]
+DefName=iTurnip
+Name=turnip
+Type=tVegetable
+TData1=iCropTurnip1
+Can=CanIFlip
 VALUE=1
-WEIGHT=0.1
-CATEGORY=Vegetation
-SUBSECTION=Fruits and Vegetables
-DESCRIPTION=Turnip
-DUPELIST=0d3a
-ON=@Create
-MOREM=1
+Weight=0.1
+Category=Vegetation
+Subsection=Fruits and Vegetables
+Description=Turnip
+DupeList=0d3a
+On=@Create
+MoreM=1
 
-[ITEMDEF 0d3a]
+[ItemDef 0d3a]
 //turnip
-DUPEITEM=0d39
+DupeItem=0d39
 
 
-[ITEMDEF 0d3b]
-DEFNAME=iBranchFallen
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Fallen Branch
-DUPELIST=0d3c
 
-[ITEMDEF 0d3c]
-//fallen branch
-DUPEITEM=0d3b
 
-[ITEMDEF 0d3d]
-DEFNAME=iBranchFallen2
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Fallen Branch 2
 
-[ITEMDEF 0d3f]
-//brambles
-DEFNAME=iPlantBramble
-VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Brambles
-DUPELIST=0d40
-
-[ITEMDEF 0d41]
+[ItemDef 0d41]
 //tree
-DEFNAME=iTreeTrunkPart1
+DefName=iTreeTrunkPart1
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Tree 01 (1/4)
-TYPE=tTree
+Category=Vegetation
+Subsection=Trees
+Description=Tree 01 (1/4)
+Type=tTree
 
-[ITEMDEF 0d42]
+[ItemDef 0d42]
 //tree
-DEFNAME=iTreeTrunkPart2
+DefName=iTreeTrunkPart2
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Tree 01 (2/4)
-TYPE=tTree
+Category=Vegetation
+Subsection=Trees
+Description=Tree 01 (2/4)
+Type=tTree
 
-[ITEMDEF 0d43]
+[ItemDef 0d43]
 //tree
-DEFNAME=iTreeTrunkPart3
+DefName=iTreeTrunkPart3
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Tree 01 (3/4)
-TYPE=tTree
+Category=Vegetation
+Subsection=Trees
+Description=Tree 01 (3/4)
+Type=tTree
 
-[ITEMDEF 0d44]
+[ItemDef 0d44]
 //tree
-DEFNAME=iTreeTrunkPart4
+DefName=iTreeTrunkPart4
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Tree 01 (4/4)
-TYPE=tTree
+Category=Vegetation
+Subsection=Trees
+Description=Tree 01 (4/4)
+Type=tTree
 
-[ITEMDEF 0d45]
+[ItemDef 0d45]
 //leaves
-DEFNAME=iTreeLeavesPart1
+DefName=iTreeLeavesPart1
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Leaves 01 (01/15)
+Category=Vegetation
+Subsection=Trees
+Description=Leaves 01 (01/15)
 
-[ITEMDEF 0d46]
+[ItemDef 0d46]
 //leaves
-DEFNAME=iTreeLeavesPart2
+DefName=iTreeLeavesPart2
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Leaves 01 (02/15)
+Category=Vegetation
+Subsection=Trees
+Description=Leaves 01 (02/15)
 
-[ITEMDEF 0d47]
+[ItemDef 0d47]
 //leaves
-DEFNAME=iTreeLeavesPart3
+DefName=iTreeLeavesPart3
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Leaves 01 (03/15)
+Category=Vegetation
+Subsection=Trees
+Description=Leaves 01 (03/15)
 
-[ITEMDEF 0d48]
+[ItemDef 0d48]
 //leaves
-DEFNAME=iTreeLeavesPart4
+DefName=iTreeLeavesPart4
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Leaves 01 (04/15)
+Category=Vegetation
+Subsection=Trees
+Description=Leaves 01 (04/15)
 
-[ITEMDEF 0d49]
+[ItemDef 0d49]
 //leaves
-DEFNAME=iTreeLeavesPart5
+DefName=iTreeLeavesPart5
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Leaves 01 (05/15)
+Category=Vegetation
+Subsection=Trees
+Description=Leaves 01 (05/15)
 
-[ITEMDEF 0d4a]
+[ItemDef 0d4a]
 //leaves
-DEFNAME=iTreeLeavesPart6
+DefName=iTreeLeavesPart6
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Leaves 01 (06/15)
+Category=Vegetation
+Subsection=Trees
+Description=Leaves 01 (06/15)
 
-[ITEMDEF 0d4b]
+[ItemDef 0d4b]
 //leaves
-DEFNAME=iTreeLeavesPart7
+DefName=iTreeLeavesPart7
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Leaves 01 (07/15)
+Category=Vegetation
+Subsection=Trees
+Description=Leaves 01 (07/15)
 
-[ITEMDEF 0d4c]
+[ItemDef 0d4c]
 //leaves
-DEFNAME=iTreeLeavesPart8
+DefName=iTreeLeavesPart8
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Leaves 01 (08/15)
+Category=Vegetation
+Subsection=Trees
+Description=Leaves 01 (08/15)
 
-[ITEMDEF 0d4d]
+[ItemDef 0d4d]
 //leaves
-DEFNAME=iTreeLeavesPart9
+DefName=iTreeLeavesPart9
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Leaves 01 (09/15)
+Category=Vegetation
+Subsection=Trees
+Description=Leaves 01 (09/15)
 
-[ITEMDEF 0d4e]
+[ItemDef 0d4e]
 //leaves
-DEFNAME=iTreeLeavesPart10
+DefName=iTreeLeavesPart10
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Leaves 01 (10/15)
+Category=Vegetation
+Subsection=Trees
+Description=Leaves 01 (10/15)
 
-[ITEMDEF 0d4f]
+[ItemDef 0d4f]
 //leaves
-DEFNAME=iTreeLeavesPart11
+DefName=iTreeLeavesPart11
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Leaves 01 (11/15)
+Category=Vegetation
+Subsection=Trees
+Description=Leaves 01 (11/15)
 
-[ITEMDEF 0d50]
+[ItemDef 0d50]
 //leaves
-DEFNAME=iTreeLeavesPart12
+DefName=iTreeLeavesPart12
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Leaves 01 (12/15)
+Category=Vegetation
+Subsection=Trees
+Description=Leaves 01 (12/15)
 
-[ITEMDEF 0d51]
+[ItemDef 0d51]
 //leaves
-DEFNAME=iTreeLeavesPart13
+DefName=iTreeLeavesPart13
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Leaves 01 (13/15)
+Category=Vegetation
+Subsection=Trees
+Description=Leaves 01 (13/15)
 
-[ITEMDEF 0d52]
+[ItemDef 0d52]
 //leaves
-DEFNAME=iTreeLeavesPart14
+DefName=iTreeLeavesPart14
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Leaves 01 (14/15)
+Category=Vegetation
+Subsection=Trees
+Description=Leaves 01 (14/15)
 
-[ITEMDEF 0d53]
+[ItemDef 0d53]
 //leaves
-DEFNAME=iTreeLeavesPart15
+DefName=iTreeLeavesPart15
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Leaves 01 (15/15)
+Category=Vegetation
+Subsection=Trees
+Description=Leaves 01 (15/15)
 
-[ITEMDEF 0d54]
+[ItemDef 0d54]
 //vines
-DEFNAME=iVinesPart1
+DefName=iVinesPart1
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Vines 01 (01/03)
+Category=Vegetation
+Subsection=Trees
+Description=Vines 01 (01/03)
 
-[ITEMDEF 0d55]
+[ItemDef 0d55]
 //vines
-DEFNAME=iVinesPart2
+DefName=iVinesPart2
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Vines 01 (02/03)
+Category=Vegetation
+Subsection=Trees
+Description=Vines 01 (02/03)
 
-[ITEMDEF 0d56]
+[ItemDef 0d56]
 //vines
-DEFNAME=iVinesPart3
+DefName=iVinesPart3
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Vines 01 (03/03)
+Category=Vegetation
+Subsection=Trees
+Description=Vines 01 (03/03)
 
-[ITEMDEF 0d57]
+[ItemDef 0d57]
 //tree pieces
-DEFNAME=iTreeTrunk2Part1
+DefName=iTreeTrunk2Part1
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Tree Pieces 01 (01/05)
-TYPE=tTree
+Category=Vegetation
+Subsection=Trees
+Description=Tree Pieces 01 (01/05)
+Type=tTree
 
-[ITEMDEF 0d58]
+[ItemDef 0d58]
 //tree pieces
-DEFNAME=iTreeTrunk2Part2
+DefName=iTreeTrunk2Part2
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Tree Pieces 01 (02/05)
-TYPE=tTree
+Category=Vegetation
+Subsection=Trees
+Description=Tree Pieces 01 (02/05)
+Type=tTree
 
-[ITEMDEF 0d59]
+[ItemDef 0d59]
 //tree pieces
-DEFNAME=iTreeTrunk2Part3
+DefName=iTreeTrunk2Part3
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Tree Pieces 01 (03/05)
-TYPE=tTree
+Category=Vegetation
+Subsection=Trees
+Description=Tree Pieces 01 (03/05)
+Type=tTree
 
-[ITEMDEF 0d5a]
+[ItemDef 0d5a]
 //tree pieces
-DEFNAME=iTreeTrunk2Part4
+DefName=iTreeTrunk2Part4
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Tree Pieces 01 (04/05)
-TYPE=tTree
+Category=Vegetation
+Subsection=Trees
+Description=Tree Pieces 01 (04/05)
+Type=tTree
 
-[ITEMDEF 0d5b]
+[ItemDef 0d5b]
 //tree pieces
-DEFNAME=iTreeTrunk2Part5
+DefName=iTreeTrunk2Part5
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Tree Pieces 01 (05/05)
-TYPE=tTree
+Category=Vegetation
+Subsection=Trees
+Description=Tree Pieces 01 (05/05)
+Type=tTree
 
-[ITEMDEF 0d5c]
+[ItemDef 0d5c]
 //leaves
-DEFNAME=iTreeLeaves2Part1
+DefName=iTreeLeaves2Part1
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Leaves 02 (01/14)
+Category=Vegetation
+Subsection=Trees
+Description=Leaves 02 (01/14)
 
-[ITEMDEF 0d5d]
+[ItemDef 0d5d]
 //leaves
-DEFNAME=iTreeLeaves2Part2
+DefName=iTreeLeaves2Part2
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Leaves 02 (02/14)
+Category=Vegetation
+Subsection=Trees
+Description=Leaves 02 (02/14)
 
-[ITEMDEF 0d5e]
+[ItemDef 0d5e]
 //leaves
-DEFNAME=iTreeLeaves2Part3
+DefName=iTreeLeaves2Part3
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Leaves 02 (03/14)
+Category=Vegetation
+Subsection=Trees
+Description=Leaves 02 (03/14)
 
-[ITEMDEF 0d5f]
+[ItemDef 0d5f]
 //leaves
-DEFNAME=iTreeLeaves2Part4
+DefName=iTreeLeaves2Part4
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Leaves 02 (04/14)
+Category=Vegetation
+Subsection=Trees
+Description=Leaves 02 (04/14)
 
-[ITEMDEF 0d60]
+[ItemDef 0d60]
 //leaves
-DEFNAME=iTreeLeaves2Part5
+DefName=iTreeLeaves2Part5
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Leaves 02 (05/14)
+Category=Vegetation
+Subsection=Trees
+Description=Leaves 02 (05/14)
 
-[ITEMDEF 0d61]
+[ItemDef 0d61]
 //leaves
-DEFNAME=iTreeLeaves2Part6
+DefName=iTreeLeaves2Part6
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Leaves 02 (06/14)
+Category=Vegetation
+Subsection=Trees
+Description=Leaves 02 (06/14)
 
-[ITEMDEF 0d62]
+[ItemDef 0d62]
 //leaves
-DEFNAME=iTreeLeaves2Part7
+DefName=iTreeLeaves2Part7
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Leaves 02 (07/14)
+Category=Vegetation
+Subsection=Trees
+Description=Leaves 02 (07/14)
 
-[ITEMDEF 0d63]
+[ItemDef 0d63]
 //leaves
-DEFNAME=iTreeLeaves2Part8
+DefName=iTreeLeaves2Part8
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Leaves 02 (08/14)
+Category=Vegetation
+Subsection=Trees
+Description=Leaves 02 (08/14)
 
-[ITEMDEF 0d64]
+[ItemDef 0d64]
 //leaves
-DEFNAME=iTreeLeaves2Part9
+DefName=iTreeLeaves2Part9
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Leaves 02 (09/14)
+Category=Vegetation
+Subsection=Trees
+Description=Leaves 02 (09/14)
 
-[ITEMDEF 0d65]
+[ItemDef 0d65]
 //leaves
-DEFNAME=iTreeLeaves2Part10
+DefName=iTreeLeaves2Part10
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Leaves 02 (10/14)
+Category=Vegetation
+Subsection=Trees
+Description=Leaves 02 (10/14)
 
-[ITEMDEF 0d66]
+[ItemDef 0d66]
 //leaves
-DEFNAME=iTreeLeaves2Part11
+DefName=iTreeLeaves2Part11
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Leaves 02 (11/14)
+Category=Vegetation
+Subsection=Trees
+Description=Leaves 02 (11/14)
 
-[ITEMDEF 0d67]
+[ItemDef 0d67]
 //leaves
-DEFNAME=iTreeLeaves2Part12
+DefName=iTreeLeaves2Part12
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Leaves 02 (12/14)
+Category=Vegetation
+Subsection=Trees
+Description=Leaves 02 (12/14)
 
-[ITEMDEF 0d68]
+[ItemDef 0d68]
 //leaves
-DEFNAME=iTreeLeaves2Part13
+DefName=iTreeLeaves2Part13
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Leaves 02 (13/14)
+Category=Vegetation
+Subsection=Trees
+Description=Leaves 02 (13/14)
 
-[ITEMDEF 0d69]
+[ItemDef 0d69]
 //leaves
-DEFNAME=iTreeLeaves2Part14
+DefName=iTreeLeaves2Part14
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Leaves 02 (14/14)
+Category=Vegetation
+Subsection=Trees
+Description=Leaves 02 (14/14)
 
-[ITEMDEF 0d6a]
+[ItemDef 0d6a]
 //vines
-DEFNAME=iVines2Part1
+DefName=iVines2Part1
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Vines 02 (01/04)
+Category=Vegetation
+Subsection=Trees
+Description=Vines 02 (01/04)
 
-[ITEMDEF 0d6b]
+[ItemDef 0d6b]
 //vines
-DEFNAME=iVines2Part2
+DefName=iVines2Part2
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Vines 02 (02/04)
+Category=Vegetation
+Subsection=Trees
+Description=Vines 02 (02/04)
 
-[ITEMDEF 0d6c]
+[ItemDef 0d6c]
 //vines
-DEFNAME=iVines2Part3
+DefName=iVines2Part3
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Vines 02 (03/04)
+Category=Vegetation
+Subsection=Trees
+Description=Vines 02 (03/04)
 
-[ITEMDEF 0d6d]
+[ItemDef 0d6d]
 //vines
-DEFNAME=iVines2Part4
+DefName=iVines2Part4
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Vines 02 (04/04)
+Category=Vegetation
+Subsection=Trees
+Description=Vines 02 (04/04)
 
-[ITEMDEF 0d6e]
+[ItemDef 0d6e]
 //tree pieces
-DEFNAME=iTreeTrunk3Part1
+DefName=iTreeTrunk3Part1
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Tree Pieces 02 (01/05)
-TYPE=tTree
+Category=Vegetation
+Subsection=Trees
+Description=Tree Pieces 02 (01/05)
+Type=tTree
 
-[ITEMDEF 0d6f]
+[ItemDef 0d6f]
 //tree pieces
-DEFNAME=iTreeTrunk3Part2
+DefName=iTreeTrunk3Part2
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Tree Pieces 02 (02/05)
-TYPE=tTree
+Category=Vegetation
+Subsection=Trees
+Description=Tree Pieces 02 (02/05)
+Type=tTree
 
-[ITEMDEF 0d70]
+[ItemDef 0d70]
 //tree pieces
-DEFNAME=iTreeTrunk3Part3
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Tree Pieces 02 (03/05)
-TYPE=tTree
+DefName=iTreeTrunk3Part3
+Category=Vegetation
+Subsection=Trees
+Description=Tree Pieces 02 (03/05)
+Type=tTree
 
-[ITEMDEF 0d71]
+[ItemDef 0d71]
 //tree pieces
-DEFNAME=iTreeTrunk3Part4
+DefName=iTreeTrunk3Part4
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Tree Pieces 02 (04/05)
-TYPE=tTree
+Category=Vegetation
+Subsection=Trees
+Description=Tree Pieces 02 (04/05)
+Type=tTree
 
-[ITEMDEF 0d72]
+[ItemDef 0d72]
 //tree pieces
-DEFNAME=iTreeTrunk3Part5
+DefName=iTreeTrunk3Part5
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Tree Pieces 02 (05/05)
-TYPE=tTree
+Category=Vegetation
+Subsection=Trees
+Description=Tree Pieces 02 (05/05)
+Type=tTree
 
-[ITEMDEF 0d73]
+[ItemDef 0d73]
 //leaves
-DEFNAME=iTreeLeaves3Part1
+DefName=iTreeLeaves3Part1
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Leaves 03 (01/13)
+Category=Vegetation
+Subsection=Trees
+Description=Leaves 03 (01/13)
 
-[ITEMDEF 0d74]
+[ItemDef 0d74]
 //leaves
-DEFNAME=iTreeLeaves3Part2
+DefName=iTreeLeaves3Part2
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Leaves 03 (02/13)
+Category=Vegetation
+Subsection=Trees
+Description=Leaves 03 (02/13)
 
-[ITEMDEF 0d75]
+[ItemDef 0d75]
 //leaves
-DEFNAME=iTreeLeaves3Part3
+DefName=iTreeLeaves3Part3
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Leaves 03 (03/13)
+Category=Vegetation
+Subsection=Trees
+Description=Leaves 03 (03/13)
 
-[ITEMDEF 0d76]
+[ItemDef 0d76]
 //leaves
-DEFNAME=iTreeLeaves3Part4
+DefName=iTreeLeaves3Part4
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Leaves 03 (04/13)
+Category=Vegetation
+Subsection=Trees
+Description=Leaves 03 (04/13)
 
-[ITEMDEF 0d77]
+[ItemDef 0d77]
 //leaves
-DEFNAME=iTreeLeaves3Part5
+DefName=iTreeLeaves3Part5
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Leaves 03 (05/13)
+Category=Vegetation
+Subsection=Trees
+Description=Leaves 03 (05/13)
 
-[ITEMDEF 0d78]
+[ItemDef 0d78]
 //leaves
-DEFNAME=iTreeLeaves3Part6
+DefName=iTreeLeaves3Part6
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Leaves 03 (06/13)
+Category=Vegetation
+Subsection=Trees
+Description=Leaves 03 (06/13)
 
-[ITEMDEF 0d79]
+[ItemDef 0d79]
 //leaves
-DEFNAME=iTreeLeaves3Part7
+DefName=iTreeLeaves3Part7
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Leaves 03 (07/13)
+Category=Vegetation
+Subsection=Trees
+Description=Leaves 03 (07/13)
 
-[ITEMDEF 0d7a]
+[ItemDef 0d7a]
 //leaves
-DEFNAME=iTreeLeaves3Part8
+DefName=iTreeLeaves3Part8
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Leaves 03 (08/13)
+Category=Vegetation
+Subsection=Trees
+Description=Leaves 03 (08/13)
 
-[ITEMDEF 0d7b]
+[ItemDef 0d7b]
 //leaves
-DEFNAME=iTreeLeaves3Part9
+DefName=iTreeLeaves3Part9
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Leaves 03 (09/13)
+Category=Vegetation
+Subsection=Trees
+Description=Leaves 03 (09/13)
 
-[ITEMDEF 0d7c]
+[ItemDef 0d7c]
 //leaves
-DEFNAME=iTreeLeaves3Part10
+DefName=iTreeLeaves3Part10
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Leaves 03 (10/13)
+Category=Vegetation
+Subsection=Trees
+Description=Leaves 03 (10/13)
 
-[ITEMDEF 0d7d]
+[ItemDef 0d7d]
 //leaves
-DEFNAME=iTreeLeaves3Part11
+DefName=iTreeLeaves3Part11
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Leaves 03 (11/13)
+Category=Vegetation
+Subsection=Trees
+Description=Leaves 03 (11/13)
 
-[ITEMDEF 0d7e]
+[ItemDef 0d7e]
 //leaves
-DEFNAME=iTreeLeaves3Part12
+DefName=iTreeLeaves3Part12
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Leaves 03 (12/13)
+Category=Vegetation
+Subsection=Trees
+Description=Leaves 03 (12/13)
 
-[ITEMDEF 0d7f]
+[ItemDef 0d7f]
 //leaves
-DEFNAME=iTreeLeaves3Part13
+DefName=iTreeLeaves3Part13
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Leaves 03 (13/13)
+Category=Vegetation
+Subsection=Trees
+Description=Leaves 03 (13/13)
 
-[ITEMDEF 0d80]
+[ItemDef 0d80]
 //vines
-DEFNAME=iVines3Part1
+DefName=iVines3Part1
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Vines 03 (01/04)
+Category=Vegetation
+Subsection=Trees
+Description=Vines 03 (01/04)
 
-[ITEMDEF 0d81]
+[ItemDef 0d81]
 //vines
-DEFNAME=iVines3Part2
+DefName=iVines3Part2
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Vines 03 (02/04)
+Category=Vegetation
+Subsection=Trees
+Description=Vines 03 (02/04)
 
-[ITEMDEF 0d82]
+[ItemDef 0d82]
 //vines
-DEFNAME=iVines3Part3
+DefName=iVines3Part3
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Vines 03 (03/04)
+Category=Vegetation
+Subsection=Trees
+Description=Vines 03 (03/04)
 
-[ITEMDEF 0d83]
+[ItemDef 0d83]
 //vines
-DEFNAME=iVines3Part4
+DefName=iVines3Part4
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Vines 03 (04/04)
+Category=Vegetation
+Subsection=Trees
+Description=Vines 03 (04/04)
 
-[ITEMDEF 0d84]
+[ItemDef 0d84]
 //tree
-DEFNAME=iTreeTrunk4Part1
+DefName=iTreeTrunk4Part1
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Tree 02 (01/03)
-TYPE=tTree
+Category=Vegetation
+Subsection=Trees
+Description=Tree 02 (01/03)
+Type=tTree
 
-[ITEMDEF 0d85]
+[ItemDef 0d85]
 //tree
-DEFNAME=iTreeTrunk4Part2
+DefName=iTreeTrunk4Part2
 VALUE=1
-TYPE=tTree
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Tree 02 (02/03)
+Type=tTree
+Category=Vegetation
+Subsection=Trees
+Description=Tree 02 (02/03)
 
-[ITEMDEF 0d86]
+[ItemDef 0d86]
 //tree
-DEFNAME=iTreeTrunk4Part3
+DefName=iTreeTrunk4Part3
 VALUE=1
-TYPE=tTree
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Tree 02 (03/03)
+Type=tTree
+Category=Vegetation
+Subsection=Trees
+Description=Tree 02 (03/03)
 
-[ITEMDEF 0d87]
+[ItemDef 0d87]
 //leaves
-DEFNAME=iTreeLeaves4Part1
+DefName=iTreeLeaves4Part1
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Leaves 04 (01/10)
+Category=Vegetation
+Subsection=Trees
+Description=Leaves 04 (01/10)
 
-[ITEMDEF 0d88]
+[ItemDef 0d88]
 //leaves
-DEFNAME=iTreeLeaves4Part2
+DefName=iTreeLeaves4Part2
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Leaves 04 (02/10)
+Category=Vegetation
+Subsection=Trees
+Description=Leaves 04 (02/10)
 
-[ITEMDEF 0d89]
+[ItemDef 0d89]
 //leaves
-DEFNAME=iTreeLeaves4Part3
+DefName=iTreeLeaves4Part3
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Leaves 04 (03/10)
+Category=Vegetation
+Subsection=Trees
+Description=Leaves 04 (03/10)
 
-[ITEMDEF 0d8a]
+[ItemDef 0d8a]
 //leaves
-DEFNAME=iTreeLeaves4Part4
+DefName=iTreeLeaves4Part4
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Leaves 04 (04/10)
+Category=Vegetation
+Subsection=Trees
+Description=Leaves 04 (04/10)
 
-[ITEMDEF 0d8b]
+[ItemDef 0d8b]
 //leaves
-DEFNAME=iTreeLeaves4Part5
+DefName=iTreeLeaves4Part5
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Leaves 04 (05/10)
+Category=Vegetation
+Subsection=Trees
+Description=Leaves 04 (05/10)
 
-[ITEMDEF 0d8c]
+[ItemDef 0d8c]
 //leaves
-DEFNAME=iTreeLeaves4Part6
+DefName=iTreeLeaves4Part6
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Leaves 04 (06/10)
+Category=Vegetation
+Subsection=Trees
+Description=Leaves 04 (06/10)
 
-[ITEMDEF 0d8d]
+[ItemDef 0d8d]
 //leaves
-DEFNAME=iTreeLeaves4Part7
+DefName=iTreeLeaves4Part7
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Leaves 04 (07/10)
+Category=Vegetation
+Subsection=Trees
+Description=Leaves 04 (07/10)
 
-[ITEMDEF 0d8e]
+[ItemDef 0d8e]
 //leaves
-DEFNAME=iTreeLeaves4Part8
+DefName=iTreeLeaves4Part8
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Leaves 04 (08/10)
+Category=Vegetation
+Subsection=Trees
+Description=Leaves 04 (08/10)
 
-[ITEMDEF 0d8f]
+[ItemDef 0d8f]
 //leaves
-DEFNAME=iTreeLeaves4Part9
+DefName=iTreeLeaves4Part9
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Leaves 04 (09/10)
+Category=Vegetation
+Subsection=Trees
+Description=Leaves 04 (09/10)
 
-[ITEMDEF 0d90]
+[ItemDef 0d90]
 //leaves
-DEFNAME=iTreeLeaves4Part10
+DefName=iTreeLeaves4Part10
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Leaves 04 (10/10)
+Category=Vegetation
+Subsection=Trees
+Description=Leaves 04 (10/10)
 
-[ITEMDEF 0d91]
+[ItemDef 0d91]
 //vines
-DEFNAME=iVines4Part1
+DefName=iVines4Part1
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Vines 04 (01/03)
+Category=Vegetation
+Subsection=Trees
+Description=Vines 04 (01/03)
 
-[ITEMDEF 0d92]
+[ItemDef 0d92]
 //vines
-DEFNAME=iVines4Part2
+DefName=iVines4Part2
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Vines 04 (02/03)
+Category=Vegetation
+Subsection=Trees
+Description=Vines 04 (02/03)
 
-[ITEMDEF 0d93]
+[ItemDef 0d93]
 //vines
-DEFNAME=iVines4Part3
+DefName=iVines4Part3
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Vines 04 (03/03)
+Category=Vegetation
+Subsection=Trees
+Description=Vines 04 (03/03)
 
-[ITEMDEF 0d94]
+[ItemDef 0d94]
 //apple tree
-DEFNAME=iTreeTrunkApple11
+DefName=iTreeTrunkApple11
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Apple Tree
+Category=Vegetation
+Subsection=Trees
+Description=Apple Tree
 
-[ITEMDEF 0d95]
+[ItemDef 0d95]
 //leaves
-DEFNAME=iTreeLeavesApple11
+DefName=iTreeLeavesApple11
 VALUE=1
-TYPE=tFoliage
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Apple Tree Foliage
+Type=tFoliage
+Category=Vegetation
+Subsection=Trees
+Description=Apple Tree Foliage
 
-[ITEMDEF 0d96]
+[ItemDef 0d96]
 //apple tree foliage
-DEFNAME=iTreeLeavesApple12
+DefName=iTreeLeavesApple12
 VALUE=1
-TYPE=tFoliage
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Apple Tree Foliage
+Type=tFoliage
+Category=Vegetation
+Subsection=Trees
+Description=Apple Tree Foliage
 
-ON=@Create
-FRUIT=iFruitApple
+On=@Create
+Fruit=iFruitApple
 
-[ITEMDEF 0d97]
+[ItemDef 0d97]
 //fall leaves
-DEFNAME=iTreeLeavesApple13
+DefName=iTreeLeavesApple13
 VALUE=2
-TYPE=tFoliage
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Apple Tree Foliage
+Type=tFoliage
+Category=Vegetation
+Subsection=Trees
+Description=Apple Tree Foliage
 
-ON=@Create
-FRUIT=iFruitApple
+On=@Create
+Fruit=iFruitApple
 
-[ITEMDEF 0d98]
+[ItemDef 0d98]
 //apple tree foliage
-DEFNAME=iTreeTrunkApple14
+DefName=iTreeTrunkApple14
 VALUE=2
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Apple Tree Foliage
+Category=Vegetation
+Subsection=Trees
+Description=Apple Tree Foliage
 
-[ITEMDEF 0d99]
+[ItemDef 0d99]
 //leaves
-DEFNAME=iTreeLeavesApple21
+DefName=iTreeLeavesApple21
 VALUE=2
-TYPE=tFoliage
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Apple Tree Foliage
+Type=tFoliage
+Category=Vegetation
+Subsection=Trees
+Description=Apple Tree Foliage
 
-ON=@Create
-FRUIT=iFruitApple
+On=@Create
+Fruit=iFruitApple
 
-[ITEMDEF 0d9a]
+[ItemDef 0d9a]
 //apple tree foliage
-DEFNAME=iTreeLeavesApple22
+DefName=iTreeLeavesApple22
 VALUE=2
-TYPE=tFoliage
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Apple Tree Foliage
+Type=tFoliage
+Category=Vegetation
+Subsection=Trees
+Description=Apple Tree Foliage
 
-ON=@Create
-FRUIT=iFruitApple
+On=@Create
+Fruit=iFruitApple
 
-[ITEMDEF 0d9b]
+[ItemDef 0d9b]
 //fall leaves
-DEFNAME=iTreeLeavesApple23
+DefName=iTreeLeavesApple23
 VALUE=2
-TYPE=tFoliage
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Apple Tree Foliage
+Type=tFoliage
+Category=Vegetation
+Subsection=Trees
+Description=Apple Tree Foliage
 
-ON=@Create
-FRUIT=iFruitApple
+On=@Create
+Fruit=iFruitApple
 
-[ITEMDEF 0d9c]
+[ItemDef 0d9c]
 //peach tree
-DEFNAME=iTreeTrunkPeach11
+DefName=iTreeTrunkPeach11
 VALUE=2
-TYPE=tFoliage
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Peach Tree
+Type=tFoliage
+Category=Vegetation
+Subsection=Trees
+Description=Peach Tree
 
-ON=@Create
-FRUIT=iFruitPeach
+On=@Create
+Fruit=iFruitPeach
 
-[ITEMDEF 0d9d]
+[ItemDef 0d9d]
 //leaves
-DEFNAME=iTreeLeavesPeach11
+DefName=iTreeLeavesPeach11
 VALUE=2
-TYPE=tFoliage
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Peach Tree Leaves
+Type=tFoliage
+Category=Vegetation
+Subsection=Trees
+Description=Peach Tree Leaves
 
-ON=@Create
-FRUIT=iFruitPeach
+On=@Create
+Fruit=iFruitPeach
 
-[ITEMDEF 0d9e]
+[ItemDef 0d9e]
 //peach tree foliage
-DEFNAME=iTreeLeavesPeach12
+DefName=iTreeLeavesPeach12
 VALUE=2
-TYPE=tFoliage
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Peach Tree Leaves
+Type=tFoliage
+Category=Vegetation
+Subsection=Trees
+Description=Peach Tree Leaves
 
-ON=@Create
-FRUIT=iFruitPeach
+On=@Create
+Fruit=iFruitPeach
 
-[ITEMDEF 0d9f]
+[ItemDef 0d9f]
 //fall leaves
-DEFNAME=iTreeLeavesPeach13
+DefName=iTreeLeavesPeach13
 VALUE=2
-TYPE=tFoliage
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Peach Tree Leaves
+Type=tFoliage
+Category=Vegetation
+Subsection=Trees
+Description=Peach Tree Leaves
 
-ON=@Create
-FRUIT=iFruitPeach
+On=@Create
+Fruit=iFruitPeach
 
-[ITEMDEF 0da0]
+[ItemDef 0da0]
 //peach tree foliage
-DEFNAME=iTreeTrunkPeach21
+DefName=iTreeTrunkPeach21
 VALUE=2
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Peach Tree Leaves
+Category=Vegetation
+Subsection=Trees
+Description=Peach Tree Leaves
 
-[ITEMDEF 0da1]
+[ItemDef 0da1]
 //leaves
-DEFNAME=iTreeLeavesPeach21
+DefName=iTreeLeavesPeach21
 VALUE=2
-TYPE=tFoliage
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Peach Tree Leaves
+Type=tFoliage
+Category=Vegetation
+Subsection=Trees
+Description=Peach Tree Leaves
 
-ON=@Create
-FRUIT=iFruitPeach
+On=@Create
+Fruit=iFruitPeach
 
-[ITEMDEF 0da2]
+[ItemDef 0da2]
 //peach tree foliage
-DEFNAME=iTreeLeavesPeach22
+DefName=iTreeLeavesPeach22
 VALUE=2
-TYPE=tFoliage
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Peach Tree Leaves
+Type=tFoliage
+Category=Vegetation
+Subsection=Trees
+Description=Peach Tree Leaves
 
-ON=@Create
-FRUIT=iFruitPeach
+On=@Create
+Fruit=iFruitPeach
 
-[ITEMDEF 0da3]
+[ItemDef 0da3]
 //fall leaves
-DEFNAME=iTreeLeavesPeach23
+DefName=iTreeLeavesPeach23
 VALUE=2
-TYPE=tFoliage
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Peach Tree Leaves
+Type=tFoliage
+Category=Vegetation
+Subsection=Trees
+Description=Peach Tree Leaves
 
-ON=@Create
-FRUIT=iFruitPeach
+On=@Create
+Fruit=iFruitPeach
 
-[ITEMDEF 0da4]
+[ItemDef 0da4]
 //pear tree too small to yield wood
-DEFNAME=iTreeTrunkPear11
+DefName=iTreeTrunkPear11
 VALUE=2
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Pear Tree
+Category=Vegetation
+Subsection=Trees
+Description=Pear Tree
 
-[ITEMDEF 0da5]
+[ItemDef 0da5]
 //leaves
-DEFNAME=iTreeLeavesPear11
+DefName=iTreeLeavesPear11
 VALUE=2
-TYPE=tFoliage
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Pear Tree Foliage
+Type=tFoliage
+Category=Vegetation
+Subsection=Trees
+Description=Pear Tree Foliage
 
-ON=@Create
-FRUIT=iFruitPeach
+On=@Create
+Fruit=iFruitPeach
 
-[ITEMDEF 0da6]
+[ItemDef 0da6]
 //pear tree foliage
-DEFNAME=iTreeLeavesPear12
+DefName=iTreeLeavesPear12
 VALUE=2
-TYPE=tFoliage
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Pear Tree Foliage
+Type=tFoliage
+Category=Vegetation
+Subsection=Trees
+Description=Pear Tree Foliage
 
-ON=@Create
-FRUIT=iFruitPeach
+On=@Create
+Fruit=iFruitPeach
 
-[ITEMDEF 0da7]
+[ItemDef 0da7]
 //fall leaves
-DEFNAME=iTreeLeavesPear13
+DefName=iTreeLeavesPear13
 VALUE=2
-TYPE=tFoliage
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Pear Tree Foliage
+Type=tFoliage
+Category=Vegetation
+Subsection=Trees
+Description=Pear Tree Foliage
 
-ON=@Create
-FRUIT=iFruitPeach
+On=@Create
+Fruit=iFruitPeach
 
-[ITEMDEF 0da8]
+[ItemDef 0da8]
 //pear tree foliage
-DEFNAME=iTreeTrunkPear21
+DefName=iTreeTrunkPear21
 VALUE=2
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Pear Tree Foliage
+Category=Vegetation
+Subsection=Trees
+Description=Pear Tree Foliage
 
-[ITEMDEF 0da9]
+[ItemDef 0da9]
 //leaves
-DEFNAME=iTreeLeavesPear21
+DefName=iTreeLeavesPear21
 VALUE=2
-TYPE=tFoliage
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Pear Tree Foliage
+Type=tFoliage
+Category=Vegetation
+Subsection=Trees
+Description=Pear Tree Foliage
 
-ON=@Create
-FRUIT=iFruitPeach
+On=@Create
+Fruit=iFruitPeach
 
-[ITEMDEF 0daa]
+[ItemDef 0daa]
 //pear tree foliage
-DEFNAME=iTreeLeavesPear22
+DefName=iTreeLeavesPear22
 VALUE=2
-TYPE=tFoliage
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Pear Tree Foliage
+Type=tFoliage
+Category=Vegetation
+Subsection=Trees
+Description=Pear Tree Foliage
 
-ON=@Create
-FRUIT=iFruitPeach
+On=@Create
+Fruit=iFruitPeach
 
-[ITEMDEF 0dab]
+[ItemDef 0dab]
 //fall leaves
-DEFNAME=iTreeLeavesPear23
+DefName=iTreeLeavesPear23
 VALUE=2
-TYPE=tFoliage
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Pear Tree Foliage
+Type=tFoliage
+Category=Vegetation
+Subsection=Trees
+Description=Pear Tree Foliage
 
-ON=@Create
-FRUIT=iFruitPeach
+On=@Create
+Fruit=iFruitPeach
 
-[ITEMDEF 0dac]
+[ItemDef 0dac]
 //tree stump
-DEFNAME=iTreeStump
+DefName=iTreeStump
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Tree Stump
+Category=Vegetation
+Subsection=Trees
+Description=Tree Stump
 
-[ITEMDEF 0dad]
+[ItemDef 0dad]
 //tree stump
-DEFNAME=iTreeStump2
+DefName=iTreeStump2
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Tree Stump
+Category=Vegetation
+Subsection=Trees
+Description=Tree Stump
 
-[ITEMDEF 0db7]
-DEFNAME=iTreeSilverFoliage
-NAME=silver sapling
-TYPE=tFoliage
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Silver Sapling (foliage)
+[ItemDef 0db7]
+DefName=iTreeSilverFoliage
+Name=silver sapling
+Type=tFoliage
+Category=Vegetation
+Subsection=Trees
+Description=Silver Sapling (foliage)
 
-[ITEMDEF 0db8]
-//hedge
-DEFNAME=iPlantHedge
-VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Hedge
 
-[ITEMDEF 0db9]
-//hedge
-DEFNAME=iPlantHedge5
-VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Hedge
 
-[ITEMDEF 0dba]
+[ItemDef 0dba]
 //seaweed
-DEFNAME=iPlantSeaweed
+DefName=iPlantSeaweed
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Seaweed
+Category=Vegetation
+Subsection=Plants and Flowers
+Description=Seaweed
 
-[ITEMDEF 0dbb]
+[ItemDef 0dbb]
 //seaweed
-DEFNAME=iPlantSeaweed2
+DefName=iPlantSeaweed2
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Seaweed
+Category=Vegetation
+Subsection=Plants and Flowers
+Description=Seaweed
 
-[ITEMDEF 0dbc]
+[ItemDef 0dbc]
 //lilly pad
-DEFNAME=iPlantLilypad7
+DefName=iPlantLilypad7
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Lily Pad
+Category=Vegetation
+Subsection=Plants and Flowers
+Description=Lily Pad
 
-[ITEMDEF 0dbd]
+[ItemDef 0dbd]
 //lilly pad
-DEFNAME=iPlantLilypad8
+DefName=iPlantLilypad8
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Lily Pad
+Category=Vegetation
+Subsection=Plants and Flowers
+Description=Lily Pad
 
-[ITEMDEF 0dbe]
+[ItemDef 0dbe]
 //lilly pads
-DEFNAME=iPlantLilypad9
+DefName=iPlantLilypad9
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Lily Pads
+Category=Vegetation
+Subsection=Plants and Flowers
+Description=Lily Pads
 
-[ITEMDEF 0dc1]
+[ItemDef 0dc1]
 //water lilly
-DEFNAME=iPlantLilypad10
+DefName=iPlantLilypad10
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Water Lily
+Category=Vegetation
+Subsection=Plants and Flowers
+Description=Water Lily
 
-[ITEMDEF 0dc2]
+[ItemDef 0dc2]
 //water lilly
-DEFNAME=iPlantLilypad11
+DefName=iPlantLilypad11
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Water Lily
+Category=Vegetation
+Subsection=Plants and Flowers
+Description=Water Lily
 
-[ITEMDEF 0dc3]
+[ItemDef 0dc3]
 //water lilly
-DEFNAME=iPlantLilypad12
+DefName=iPlantLilypad12
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Water Lily
+Category=Vegetation
+Subsection=Plants and Flowers
+Description=Water Lily
 
-[ITEMDEF 0dc4]
-DEFNAME=iPlantRound
-NAME=round bush
-FLIP=1
+[ItemDef 0dc4]
+DefName=iPlantRound
+Name=round bush
+Can=CanIFlip
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Round Plant
-DUPELIST=0dc5
+Category=Vegetation
+Subsection=Plants and Flowers
+Description=Round Plant
+DupeList=0dc5
 
-[ITEMDEF 0dc5]
+[ItemDef 0dc5]
 //round bush
-DUPEITEM=0dc4
+DupeItem=0dc4
 
-[ITEMDEF 0d40]
-//brambles
-DUPEITEM=0d3f
 
-[ITEMDEF 0dae]
-//wheat
-DEFNAME=iCropWheat2
-TYPE=tCrops
-TDATA1=iCropWheat1
-TDATA2=iCropWheat3
-DUPELIST=0daf
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Wheat
-
-[ITEMDEF 0daf]
-//wheat
-DUPEITEM=0dae
-
-[ITEMDEF 0deb]
-DEFNAME=iCropTomato1
-NAME=tomato
-TYPE=tCrops
-//TDATA1=i_crop_tomato1
-TDATA2=iCropTomato2
-//TDATA3=0
+[ItemDef 0deb]
+DefName=iCropTomato1
+Name=tomato
+Type=tCrops
+//TData1=i_crop_tomato1
+TData2=iCropTomato2
+//TData3=0
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Fruits and Vegetables
-DESCRIPTION=Tomato Crop (sprout)
+Category=Vegetation
+Subsection=Fruits and Vegetables
+Description=Tomato Crop (sprout)
 
-[ITEMDEF 0dec]
-DEFNAME=iCropTomato2
-NAME=tomato
-TYPE=tCrops
-//TDATA1=i_crop_tomato1
-TDATA2=iCropTomato3
-//TDATA3=0
+[ItemDef 0dec]
+DefName=iCropTomato2
+Name=tomato
+Type=tCrops
+//TData1=i_crop_tomato1
+TData2=iCropTomato3
+//TData3=0
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Fruits and Vegetables
-DESCRIPTION=Tomato Crop (small)
+Category=Vegetation
+Subsection=Fruits and Vegetables
+Description=Tomato Crop (small)
 
-[ITEMDEF 0ded]
-DEFNAME=iCropTomato3
-NAME=tomato
-TYPE=tCrops
-//TDATA1=i_crop_tomato1
-TDATA2=iCropTomato
-//TDATA3=0
+[ItemDef 0ded]
+DefName=iCropTomato3
+Name=tomato
+Type=tCrops
+//TData1=i_crop_tomato1
+TData2=iCropTomato
+//TData3=0
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Fruits and Vegetables
-DESCRIPTION=Tomato Crop (large)
+Category=Vegetation
+Subsection=Fruits and Vegetables
+Description=Tomato Crop (large)
 
-[ITEMDEF 0dee]
-DEFNAME=iCropTomato
-NAME=tomato
-TYPE=tCrops
-TDATA1=iCropTomato1
-TDATA2=0
-TDATA3=iDriedHerbs
+[ItemDef 0dee]
+DefName=iCropTomato
+Name=tomato
+Type=tCrops
+TData1=iCropTomato1
+TData2=0
+TData3=iDriedHerbs
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Fruits and Vegetables
-DESCRIPTION=Tomato Crop (mature)
+Category=Vegetation
+Subsection=Fruits and Vegetables
+Description=Tomato Crop (mature)
 
-[ITEMDEF 0def]
+[ItemDef 0def]
 //raw cotton, pile of
-DUPEITEM=0df9
+DupeItem=0df9
 
 
-[ITEMDEF 0df9]
-DEFNAME=iCotton
+[ItemDef 0df9]
+DefName=iCotton
 VALUE=3
-//RESOURCES=16 i_crop_COTTON
-TYPE=tCotton
-CATEGORY=Items by Professions
-SUBSECTION=Tailor
-DESCRIPTION=BAILS OF COTTON
-DUPELIST=0def
-WEIGHT=4
+//Resources=16 i_crop_COTTON
+Type=tCotton
+Category=Items by Professions
+Subsection=Tailor
+Description=BAILS OF COTTON
+DupeList=0def
+Weight=4
 DYE=1
 
-[ITEMDEF 0e56]
-DEFNAME=iTreeStumpAxe
-RESOURCES=1 iStump,1 iAxe
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Stump
-DUPELIST=0e58
+[ItemDef 0e56]
+DefName=iTreeStumpAxe
+Resources=1 iStump,1 iAxe
+Category=Vegetation
+Subsection=Trees
+Description=Stump
+DupeList=0e58
 
-[ITEMDEF 0e57]
-DEFNAME=iStump
+[ItemDef 0e57]
+DefName=iStump
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Stump
-DUPELIST=0e59
+Category=Vegetation
+Subsection=Trees
+Description=Stump
+DupeList=0e59
 
-[ITEMDEF 0e58]
+[ItemDef 0e58]
 //stump
-DUPEITEM=0e56
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Stump
+DupeItem=0e56
+Category=Vegetation
+Subsection=Trees
+Description=Stump
 
-[ITEMDEF 0e59]
+[ItemDef 0e59]
 //stump
-DUPEITEM=0e57
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Stump
+DupeItem=0e57
+Category=Vegetation
+Subsection=Trees
+Description=Stump
 
-[ITEMDEF 0f31]
-DEFNAME=iTwig
-WEIGHT=0.1
-CATEGORY=Vegetation
-SUBSECTION=Sticks and Wood
-DESCRIPTION=Twig
-DUPELIST=0f32
+[ItemDef 0f31]
+DefName=iTwig
+Weight=0.1
+Category=Vegetation
+Subsection=Sticks and Wood
+Description=Twig
+DupeList=0f32
 
-[ITEMDEF 0f32]
+[ItemDef 0f32]
 //twig
-DUPEITEM=0f31
+DupeItem=0f31
 
 
-[ITEMDEF 012b5]
+[ItemDef 012b5]
 //Yew Tree - not used
 //Duplicate of 012b6
 
 
-[ITEMDEF 012b6]
-DEFNAME=iTreeYew1
-WEIGHT=10
-CATEGORY=Vegetation
-SUBSECTION=Yew Tree
-DESCRIPTION=Yew Tree (01/08)
-DUPELIST=012b7,012b8,012b9,012ba,012bb,012bc,012bd,012be,012bf,012c0,012c1,012c2,012c3,012c4,012c5,012c6,012c7
+[ItemDef 012b6]
+DefName=iTreeYew1
+Weight=10
+Category=Vegetation
+Subsection=Yew Tree
+Description=Yew Tree (01/08)
+DupeList=012b7,012b8,012b9,012ba,012bb,012bc,012bd,012be,012bf,012c0,012c1,012c2,012c3,012c4,012c5,012c6,012c7
 
-[ITEMDEF 012b7]
+[ItemDef 012b7]
 //YEW_TREE_1_2
-DUPEITEM=012B6
-CATEGORY=Vegetation
-SUBSECTION=Yew Tree
-DESCRIPTION=Yew Tree (02/08)
+DupeItem=012B6
+Category=Vegetation
+Subsection=Yew Tree
+Description=Yew Tree (02/08)
 
-[ITEMDEF 012b8]
+[ItemDef 012b8]
 //YEW_TREE_1_3
-DUPEITEM=012B6
-CATEGORY=Vegetation
-SUBSECTION=Yew Tree
-DESCRIPTION=Yew Tree (03/08)
+DupeItem=012B6
+Category=Vegetation
+Subsection=Yew Tree
+Description=Yew Tree (03/08)
 
-[ITEMDEF 012b9]
+[ItemDef 012b9]
 //YEW_TREE_1_4
-DUPEITEM=012B6
-CATEGORY=Vegetation
-SUBSECTION=Yew Tree
-DESCRIPTION=Yew Tree (04/08)
+DupeItem=012B6
+Category=Vegetation
+Subsection=Yew Tree
+Description=Yew Tree (04/08)
 
-[ITEMDEF 012ba]
+[ItemDef 012ba]
 //YEW_TREE_1_5
-DUPEITEM=012B6
-CATEGORY=Vegetation
-SUBSECTION=Yew Tree
-DESCRIPTION=Yew Tree (05/08)
+DupeItem=012B6
+Category=Vegetation
+Subsection=Yew Tree
+Description=Yew Tree (05/08)
 
-[ITEMDEF 012bb]
+[ItemDef 012bb]
 //YEW_TREE_1_6
-DUPEITEM=012B6
-CATEGORY=Vegetation
-SUBSECTION=Yew Tree
-DESCRIPTION=Yew Tree (06/08)
+DupeItem=012B6
+Category=Vegetation
+Subsection=Yew Tree
+Description=Yew Tree (06/08)
 
-[ITEMDEF 012bc]
+[ItemDef 012bc]
 //YEW_TREE_1_7
-DUPEITEM=012B6
-CATEGORY=Vegetation
-SUBSECTION=Yew Tree
-DESCRIPTION=Yew Tree (07/08)
+DupeItem=012B6
+Category=Vegetation
+Subsection=Yew Tree
+Description=Yew Tree (07/08)
 
-[ITEMDEF 012bd]
+[ItemDef 012bd]
 //YEW_TREE_1_8
-DUPEITEM=012B6
-CATEGORY=Vegetation
-SUBSECTION=Yew Tree
-DESCRIPTION=Yew Tree (08/08)
+DupeItem=012B6
+Category=Vegetation
+Subsection=Yew Tree
+Description=Yew Tree (08/08)
 
-[ITEMDEF 012be]
+[ItemDef 012be]
 //YEW_TREE_1_9
-DUPEITEM=012B6
-CATEGORY=Vegetation
-SUBSECTION=Yew Tree
-DESCRIPTION=Leaves (Yew Tree) (01/10)
+DupeItem=012B6
+Category=Vegetation
+Subsection=Yew Tree
+Description=Leaves (Yew Tree) (01/10)
 
-[ITEMDEF 012bf]
+[ItemDef 012bf]
 //YEW_TREE_1_10
-DUPEITEM=012B6
-CATEGORY=Vegetation
-SUBSECTION=Yew Tree
-DESCRIPTION=Leaves (Yew Tree) (02/10)
+DupeItem=012B6
+Category=Vegetation
+Subsection=Yew Tree
+Description=Leaves (Yew Tree) (02/10)
 
-[ITEMDEF 012c0]
+[ItemDef 012c0]
 //YEW_TREE_1_11
-DUPEITEM=012B6
-CATEGORY=Vegetation
-SUBSECTION=Yew Tree
-DESCRIPTION=Leaves (Yew Tree) (03/10)
+DupeItem=012B6
+Category=Vegetation
+Subsection=Yew Tree
+Description=Leaves (Yew Tree) (03/10)
 
-[ITEMDEF 012c1]
+[ItemDef 012c1]
 //YEW_TREE_1_12
-DUPEITEM=012B6
-CATEGORY=Vegetation
-SUBSECTION=Yew Tree
-DESCRIPTION=Leaves (Yew Tree) (04/10)
+DupeItem=012B6
+Category=Vegetation
+Subsection=Yew Tree
+Description=Leaves (Yew Tree) (04/10)
 
-[ITEMDEF 012c2]
+[ItemDef 012c2]
 //YEW_TREE_1_13
-DUPEITEM=012B6
-CATEGORY=Vegetation
-SUBSECTION=Yew Tree
-DESCRIPTION=Leaves (Yew Tree) (05/10)
+DupeItem=012B6
+Category=Vegetation
+Subsection=Yew Tree
+Description=Leaves (Yew Tree) (05/10)
 
-[ITEMDEF 012c3]
+[ItemDef 012c3]
 //YEW_TREE_1_14
-DUPEITEM=012B6
-CATEGORY=Vegetation
-SUBSECTION=Yew Tree
-DESCRIPTION=Leaves (Yew Tree) (06/10)
+DupeItem=012B6
+Category=Vegetation
+Subsection=Yew Tree
+Description=Leaves (Yew Tree) (06/10)
 
-[ITEMDEF 012c4]
+[ItemDef 012c4]
 //YEW_TREE_1_15
-DUPEITEM=012B6
-CATEGORY=Vegetation
-SUBSECTION=Yew Tree
-DESCRIPTION=Leaves (Yew Tree) (07/10)
+DupeItem=012B6
+Category=Vegetation
+Subsection=Yew Tree
+Description=Leaves (Yew Tree) (07/10)
 
-[ITEMDEF 012c5]
+[ItemDef 012c5]
 //YEW_TREE_1_16
-DUPEITEM=012B6
-CATEGORY=Vegetation
-SUBSECTION=Yew Tree
-DESCRIPTION=Leaves (Yew Tree) (08/10)
+DupeItem=012B6
+Category=Vegetation
+Subsection=Yew Tree
+Description=Leaves (Yew Tree) (08/10)
 
-[ITEMDEF 012c6]
+[ItemDef 012c6]
 //YEW_TREE_1_17
-DUPEITEM=012B6
-CATEGORY=Vegetation
-SUBSECTION=Yew Tree
-DESCRIPTION=Leaves (Yew Tree) (09/10)
+DupeItem=012B6
+Category=Vegetation
+Subsection=Yew Tree
+Description=Leaves (Yew Tree) (09/10)
 
-[ITEMDEF 012c7]
+[ItemDef 012c7]
 //YEW_TREE_1_18
-DUPEITEM=012B6
-CATEGORY=Vegetation
-SUBSECTION=Yew Tree
-DESCRIPTION=Leaves (Yew Tree) (10/10)
+DupeItem=012B6
+Category=Vegetation
+Subsection=Yew Tree
+Description=Leaves (Yew Tree) (10/10)
 
 
-[ITEMDEF 0171d]
-DEFNAME=iBananaUnpeeled
-TYPE=tFruit
-//TDATA1=i_tree_banana
-FLIP=1
-WEIGHT=0.1
-RESOURCES=1 iFruitBanana
-CATEGORY=Vegetation
-SUBSECTION=Fruits and Vegetables
-DESCRIPTION=Banana (half peeled)
-DUPELIST=0171e
-ON=@Create
-MOREM=1
 
-[ITEMDEF 0171e]
-//banana half peeled
-DUPEITEM=0171d
+[ItemDef 018D9]
+DefName=iRose
+Name=rose
+NameLoc=1062303
+Type=tNormal
+Can=CanIFlip
+Weight=1
+DupeList=018da
 
-[ITEMDEF 0171f]
-DEFNAME=iFruitBanana
-TYPE=tFruit
-//TDATA1=i_tree_banana
-FLIP=1
-VALUE=2
-WEIGHT=0.1
-CATEGORY=Vegetation
-SUBSECTION=Fruits and Vegetables
-DESCRIPTION=Banana
-DUPELIST=01720
-ON=@Create
-MOREM=1
+Category=Systems
+Subsection=Holidays: Saint Valentines Day
+Description=Rose
 
-[ITEMDEF 01720]
-//banana
-DUPEITEM=0171f
+[ItemDef 018da]
+NameLoc=1062303
+DupeItem=018d9
 
-[ITEMDEF 01721]
-DEFNAME=iBananaBunch
-TYPE=tFruit
-//TDATA1=i_tree_banana
-FLIP=1
-WEIGHT=1.0
-RESOURCES=4 iBananaUnpeeled
-CATEGORY=Vegetation
-SUBSECTION=Fruits and Vegetables
-DESCRIPTION=Bananas (many)
-DUPELIST=01722
-ON=@Create
-MOREM=1
 
-[ITEMDEF 01722]
-//banana (many)
-DUPEITEM=01721
 
-[ITEMDEF 01723]
-DEFNAME=iCoconutOpen
-TYPE=tFruit
-//TDATA1=i_tree_coconutpalm
-FLIP=1
-WEIGHT=1.0
-RESOURCES=1 iFruitCoconut
-CATEGORY=Vegetation
-SUBSECTION=Fruits and Vegetables
-DESCRIPTION=Coconut
-DUPELIST=01724
-ON=@Create
-MOREM=1
 
-[ITEMDEF 01724]
-//coconut opened
-DUPEITEM=01723
 
-[ITEMDEF 01725]
-DEFNAME=iCoconutHalved
-TYPE=tFruit
-//TDATA1=i_tree_coconutpalm
-WEIGHT=1.0
-RESOURCES=1 iFruitCoconut
-CATEGORY=Vegetation
-SUBSECTION=Fruits and Vegetables
-DESCRIPTION=Coconut (Halved)
-ON=@Create
-MOREM=1
-
-[ITEMDEF 01726]
-DEFNAME=iFruitCoconut
-TYPE=tFruit
-//TDATA1=i_tree_coconutpalm
-VALUE=2
-WEIGHT=1.0
-CATEGORY=Vegetation
-SUBSECTION=Fruits and Vegetables
-DESCRIPTION=Coconut
-ON=@Create
-MOREM=1
-
-[ITEMDEF 01727]
-DEFNAME=iFruitDates
-TYPE=tFruit
-//TDATA1=i_tree_datepalm
-VALUE=2
-WEIGHT=0.1
-CATEGORY=Vegetation
-SUBSECTION=Fruits and Vegetables
-DESCRIPTION=Dates
-ON=@Create
-MOREM=1
-
-[ITEMDEF 01728]
-DEFNAME=iFruitLemon
-TYPE=tFruit
-//TDATA1=i_tree_lemon
+[ItemDef 01a92]
+DefName=iCropHay
+Type=tCrops
+TData1=iCropHay1
+TData2=0
+TData3=iHaySheaf
 VALUE=1
-WEIGHT=0.1
-RESOURCES=1 iFruitLemon
-CATEGORY=Vegetation
-SUBSECTION=Fruits and Vegetables
-DESCRIPTION=Lemon
-ON=@Create
-MOREM=1
+Category=Vegetation
+Subsection=Plants and Flowers
+Description=Hay
 
-[ITEMDEF 01729]
-DEFNAME=iLemonHalved
-TYPE=tFruit
-//TDATA1=i_tree_lemon
+[ItemDef 01a93]
+DefName=iCropHay2
+Type=tCrops
+TData1=iCropHay1
+TData2=iCropHay
+TData3=0
 VALUE=1
-WEIGHT=0.1
-RESOURCES=1 iFruitLemon
-CATEGORY=Provisions - Food
-SUBSECTION=Fruits and Vegetables
-DESCRIPTION=Lemons (halved)
-ON=@Create
-MOREM=1
+Category=Vegetation
+Subsection=Plants and Flowers
+Description=Hay
+DupeList=01a94
 
-[ITEMDEF 0172a]
-DEFNAME=iFruitLime
-TYPE=tFruit
-//TDATA1=i_tree_lime
-VALUE=1
-WEIGHT=0.1
-RESOURCES=1 iFruitLime
-CATEGORY=Vegetation
-SUBSECTION=Fruits and Vegetables
-DESCRIPTION=Lime
-ON=@Create
-MOREM=1
-
-[ITEMDEF 0172b]
-DEFNAME=iLimeHalved
-TYPE=tFruit
-VALUE=1
-WEIGHT=0.1
-RESOURCES=1 iFruitLime
-CATEGORY=Provisions - Food
-SUBSECTION=Fruits and Vegetables
-DESCRIPTION=Limes (halved)
-ON=@Create
-MOREM=1
-
-[ITEMDEF 0172c]
-//peach
-DUPEITEM=09d2
-
-[ITEMDEF 0172d]
-//Pear
-DUPEITEM=0994
-
-
-
-[ITEMDEF 018d9]
-DEFNAME=iFlowerRoseWhite
-NAME=white trinsic rose
-FLIP=1
-VALUE=10
-CATEGORY=Vegetation
-SUBSECTION=Picked
-DESCRIPTION=Trinsic Rose (white)
-DUPELIST=018da
-
-[ITEMDEF 018da]
-//Trinsic Rose (white)
-DUPEITEM=018d9
-
-
-[ITEMDEF 018dd]
-//sprouting mandrake root (like the plant was pulled from the ground)
-DEFNAME=iFruitMandrake
-TYPE=tReagentRaw
-TDATA1=iCropMandrake
-VALUE=1
-CATEGORY=Items by Professions
-SUBSECTION=Alchemist
-DESCRIPTION=Mandrake Root (Plant Form)
-DUPELIST=018de
-ON=@DClick
-SERV.NEWITEM=iReagMandrakeRoot
-NEW.BOUNCE
-REMOVE
-RETURN 1
-
-[ITEMDEF 018de]
-//sprouting mandrake root (like the plant was pulled from the ground)
-DUPEITEM=018dd
-
-[ITEMDEF 018df]
-//mandrake plant (the plant sprout or flower, not root or reagent)
-DEFNAME=iCropMandrake
-TYPE=tCrops
-TDATA1=iCropMandrake
-TDATA2=0
-TDATA3=iFruitMandrake
-VALUE=1
-FLIP=1
-CATEGORY=Items by Professions
-SUBSECTION=Alchemist
-DESCRIPTION=Mandrake Root (Plant Form)
-DUPELIST=018e0
-
-[ITEMDEF 018e0]
-//mandrake plant (the plant sprout or flower, not root or reagent)
-DUPEITEM=018df
-
-[ITEMDEF 018e1]
-//garlic plant (looks like grass)
-DEFNAME=iCropGarlic
-TYPE=tCrops
-TDATA1=iCropGarlic
-TDATA2=0
-TDATA3=iFruitGarlic
-VALUE=1
-CATEGORY=Items by Professions
-SUBSECTION=Alchemist
-DESCRIPTION=Garlic (Plant Form)
-DUPELIST=018e2
-
-[ITEMDEF 018e2]
-//garlic plant (looks like grass)
-DUPEITEM=018e1
-
-
-[ITEMDEF 018e3]
-//garlic bulb with sprout (as if just pulled from the ground)
-DEFNAME=iFruitGarlic
-TYPE=tFruit //t_reagent_raw
-TDATA1=iCropGarlic
-VALUE=1
-WEIGHT=0.1
-CATEGORY=Vegetation
-SUBSECTION=Fruits and Vegetables
-DESCRIPTION=Garlic Bulb
-DUPELIST=018e4
-ON=@DClick
-SERV.NEWITEM=iReagGarlic
-NEW.BOUNCE
-REMOVE
-RETURN 1
-
-[ITEMDEF 018e4]
-//garlic bulb with sprout (as if just pulled from the ground)
-DUPEITEM=018e3
-
-
-[ITEMDEF 018e5]
-//nightshade flowers
-DEFNAME=iCropNightshade
-TYPE=tCrops
-TDATA1=iCropNightshade
-TDATA2=0
-TDATA2=iFruitNightshade
-VALUE=1
-CATEGORY=Items by Professions
-SUBSECTION=Alchemist
-DESCRIPTION=Nightshade (Plant Form)
-DUPELIST=018e6
-
-[ITEMDEF 018e6]
-//nightshade flowers
-DUPEITEM=018e5
-
-[ITEMDEF 018e7]
-DEFNAME=iFruitNightshade
-TYPE=tFruit //t_reagent_raw
-TDATA1=iCropNightshade
-VALUE=1
-WEIGHT=0.1
-CATEGORY=Vegetation
-SUBSECTION=Fruits and Vegetables
-DESCRIPTION=Nightshade
-DUPELIST=018e8
-ON=@DClick
-SERV.NEWITEM=iReagNightshade
-NEW.BOUNCE
-REMOVE
-RETURN 1
-
-[ITEMDEF 018e8]
-//nightshade flower and root (as if just pulled from the ground)
-DUPEITEM=018e7
-
-
-[ITEMDEF 018e9]
-//ginseng flower
-DEFNAME=iCropGinseng
-TYPE=tCrops
-TDATA1=iCropGinseng
-TDATA2=0
-TDATA3=iFruitGinseng
-VALUE=1
-CATEGORY=Items by Professions
-SUBSECTION=Alchemist
-DESCRIPTION=Ginseng (Plant Form)
-DUPELIST=018ea
-
-[ITEMDEF 018ea]
-//ginseng flower
-DUPEITEM=018e9
-
-
-[ITEMDEF 018eb]
-//ginseng flower and root (as if just pulled from the ground)
-DEFNAME=iFruitGinseng
-TYPE=tFruit //t_reagent_raw
-TDATA1=iCropGinseng
-VALUE=1
-WEIGHT=0.1
-CATEGORY=Vegetation
-SUBSECTION=Fruits and Vegetables
-DESCRIPTION=Ginseng (Plant Form)
-DUPELIST=018ec
-ON=@DClick
-SERV.NEWITEM=iReagGinseng
-NEW.BOUNCE
-REMOVE
-RETURN 1
-
-[ITEMDEF 018ec]
-//ginseng flower and root (as if just pulled from the ground)
-DUPEITEM=018eb
-
-
-[ITEMDEF 01a92]
-DEFNAME=iCropHay
-TYPE=tCrops
-TDATA1=iCropHay1
-TDATA2=0
-TDATA3=iHaySheaf
-VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Hay
-
-[ITEMDEF 01a93]
-DEFNAME=iCropHay2
-TYPE=tCrops
-TDATA1=iCropHay1
-TDATA2=iCropHay
-TDATA3=0
-VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Hay
-DUPELIST=01a94
-
-[ITEMDEF 01a94]
+[ItemDef 01a94]
 //hay
-DUPEITEM=01a93
+DupeItem=01a93
 
-[ITEMDEF 01a95]
-DEFNAME=iCropHay1
-TYPE=tCrops
-TDATA1=iCropHay1
-TDATA2=iCropHay2
-TDATA3=0
+[ItemDef 01a95]
+DefName=iCropHay1
+Type=tCrops
+TData1=iCropHay1
+TData2=iCropHay2
+TData3=0
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Hay
-DUPELIST=01a96
+Category=Vegetation
+Subsection=Plants and Flowers
+Description=Hay
+DupeList=01a96
 
-[ITEMDEF 01a96]
+[ItemDef 01a96]
 //hay
-DUPEITEM=01a95
+DupeItem=01a95
 
 
-[ITEMDEF 01a99]
-DEFNAME=iCropFlax1
-TYPE=tCrops
-TDATA1=iCropFlax1
-TDATA2=iCropFlax
-VALUE=1
-WEIGHT=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Flax
-DUPELIST=01a9a
-
-[ITEMDEF 01a9a]
-DUPEITEM=01a99
-
-[ITEMDEF 01a9b]
-DEFNAME=iCropFlax
-TYPE=tCrops
-TDATA1=iCropFlax1
-TDATA2=0
-TDATA3=iFlaxBundle
-WEIGHT=2
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Flax
-
-[ITEMDEF 01a9c]
-//Flax Bundle (retted flax)
-//DEFNAME=i_RETTED_FLAX
-DEFNAME=iFlaxBundle
+[ItemDef 01b1f]
+DefName=iLeaves
 VALUE=2
-WEIGHT=2
-DUPELIST=01a9d
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Flax
+Weight=.1
+Category=Vegetation
+Subsection=Trees
+Description=Leaves
+DupeList=01b20,01b21,01b22,01b23,01b24,01b25,01b26
 
-[ITEMDEF 01a9d]
-//retted flax
-DUPEITEM=01a9c
-
-[ITEMDEF 01a9e]
-DEFNAME=iCropHops
-TYPE=tCrops
-TDATA1=iCropHops1
-TDATA2=0
-TDATA3=iFruitHops
-WEIGHT=4
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Hops
-DUPELIST=01aa0
-
-[ITEMDEF 01a9f]
-DEFNAME=iCropHops1
-TYPE=tCrops
-TDATA1=iCropHops1
-TDATA2=iCropHops
-WEIGHT=4
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Hops
-DUPELIST=01aa1
-
-[ITEMDEF 01aa0]
-DUPEITEM=01a9e
-
-[ITEMDEF 01aa1]
-DUPEITEM=01a9f
-
-[ITEMDEF 01aa2]
-//DEFNAME2=i_HOPES_CONES
-DEFNAME=iFruitHops
-VALUE=1
-WEIGHT=2
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Hops Cones
-
-[ITEMDEF 01b1f]
-DEFNAME=iLeaves
+[ItemDef 01b9b]
+DefName=iSticks
 VALUE=2
-WEIGHT=.1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Leaves
-DUPELIST=01b20,01b21,01b22,01b23,01b24,01b25,01b26
+Weight=3
+Category=Vegetation
+Subsection=Sticks and Wood
+Description=Sticks
+DupeList=01b9c,01b9d,01b9e
 
-[ITEMDEF 01b9b]
-DEFNAME=iSticks
-VALUE=2
-WEIGHT=3
-CATEGORY=Vegetation
-SUBSECTION=Sticks and Wood
-DESCRIPTION=Sticks
-DUPELIST=01b9c,01b9d,01b9e
 
-[ITEMDEF 01b7e]
-DEFNAME=iTuscanyPine
-WEIGHT=10
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Tuscany Pine
-
-[ITEMDEF 01b81]
-DEFNAME=iWoodPile
+[ItemDef 01b81]
+DefName=iWoodPile
 //wood small pile of sticks
-WEIGHT=8
+Weight=8
 VALUE=5
-CATEGORY=Vegetation
-SUBSECTION=Sticks and Wood
-DESCRIPTION=Wood Pile
-DUPELIST=01b82,01b83,01b84,01b85,01b86,01b87,01b88,01b89,01b8a,01b8b,01b8c,01b8d,01b8e,01b8f,01b90,01b91,01b92,01b93,01b97,01b98,01b99,01b9a
+Category=Vegetation
+Subsection=Sticks and Wood
+Description=Wood Pile
+DupeList=01b82,01b83,01b84,01b85,01b86,01b87,01b88,01b89,01b8a,01b8b,01b8c,01b8d,01b8e,01b8f,01b90,01b91,01b92,01b93,01b97,01b98,01b99,01b9a
 
-[ITEMDEF 01b82]
+[ItemDef 01b82]
 //wood partial large pile of sticks
-DUPEITEM=01b81
-CATEGORY=Vegetation
-SUBSECTION=Sticks and Wood
-DESCRIPTION=Wood Pile
+DupeItem=01b81
+Category=Vegetation
+Subsection=Sticks and Wood
+Description=Wood Pile
 
-[ITEMDEF 01b83]
+[ItemDef 01b83]
 //wood partial large pile of sticks
-DUPEITEM=01b81
-CATEGORY=Vegetation
-SUBSECTION=Sticks and Wood
-DESCRIPTION=Wood Pile
+DupeItem=01b81
+Category=Vegetation
+Subsection=Sticks and Wood
+Description=Wood Pile
 
-[ITEMDEF 01b84]
+[ItemDef 01b84]
 //wood small pile of sticks
-DUPEITEM=01b81
-CATEGORY=Vegetation
-SUBSECTION=Sticks and Wood
-DESCRIPTION=Wood Pile
+DupeItem=01b81
+Category=Vegetation
+Subsection=Sticks and Wood
+Description=Wood Pile
 
-[ITEMDEF 01b85]
+[ItemDef 01b85]
 //wood
-DUPEITEM=01b81
-CATEGORY=Vegetation
-SUBSECTION=Sticks and Wood
-DESCRIPTION=Wood Pile
+DupeItem=01b81
+Category=Vegetation
+Subsection=Sticks and Wood
+Description=Wood Pile
 
-[ITEMDEF 01b86]
+[ItemDef 01b86]
 //wood
-DUPEITEM=01b81
-CATEGORY=Vegetation
-SUBSECTION=Sticks and Wood
-DESCRIPTION=Wood Pile
+DupeItem=01b81
+Category=Vegetation
+Subsection=Sticks and Wood
+Description=Wood Pile
 
-[ITEMDEF 01b87]
+[ItemDef 01b87]
 //wood
-DUPEITEM=01b81
-CATEGORY=Vegetation
-SUBSECTION=Sticks and Wood
-DESCRIPTION=Wood Pile
+DupeItem=01b81
+Category=Vegetation
+Subsection=Sticks and Wood
+Description=Wood Pile
 
-[ITEMDEF 01b88]
+[ItemDef 01b88]
 //wood
-DUPEITEM=01b81
+DupeItem=01b81
 
-[ITEMDEF 01b89]
+[ItemDef 01b89]
 //wood
-DUPEITEM=01b81
+DupeItem=01b81
 
-[ITEMDEF 01b8a]
+[ItemDef 01b8a]
 //wood
-DUPEITEM=01b81
+DupeItem=01b81
 
-[ITEMDEF 01b8b]
+[ItemDef 01b8b]
 //wood
-DUPEITEM=01b81
+DupeItem=01b81
 
-[ITEMDEF 01b8c]
+[ItemDef 01b8c]
 //wood
-DUPEITEM=01b81
+DupeItem=01b81
 
-[ITEMDEF 01b8d]
+[ItemDef 01b8d]
 //wood
-DUPEITEM=01b81
+DupeItem=01b81
 
-[ITEMDEF 01b8e]
+[ItemDef 01b8e]
 //wood
-DUPEITEM=01b81
+DupeItem=01b81
 
-[ITEMDEF 01b8f]
+[ItemDef 01b8f]
 //wood
-DUPEITEM=01b81
+DupeItem=01b81
 
-[ITEMDEF 01b90]
+[ItemDef 01b90]
 //wood
-DUPEITEM=01b81
+DupeItem=01b81
 
-[ITEMDEF 01b91]
+[ItemDef 01b91]
 //wood
-DUPEITEM=01b81
+DupeItem=01b81
 
-[ITEMDEF 01b92]
+[ItemDef 01b92]
 //wood
-DUPEITEM=01b81
+DupeItem=01b81
 
-[ITEMDEF 01b93]
+[ItemDef 01b93]
 //wood
-DUPEITEM=01b81
+DupeItem=01b81
 
-[ITEMDEF 01b97]
+[ItemDef 01b97]
 //wood
-DUPEITEM=01b81
+DupeItem=01b81
 
-[ITEMDEF 01b98]
+[ItemDef 01b98]
 //wood
-DUPEITEM=01b81
+DupeItem=01b81
 
-[ITEMDEF 01b99]
+[ItemDef 01b99]
 //wood
-DUPEITEM=01b81
+DupeItem=01b81
 
-[ITEMDEF 01b9a]
+[ItemDef 01b9a]
 //wood
-DUPEITEM=01b81
+DupeItem=01b81
 
-[ITEMDEF 01b9c]
+[ItemDef 01b9c]
 //twigs
-DUPEITEM=01b9b
-CATEGORY=Vegetation
-SUBSECTION=Sticks and Wood
-DESCRIPTION=Twigs
+DupeItem=01b9b
+Category=Vegetation
+Subsection=Sticks and Wood
+Description=Twigs
 
-[ITEMDEF 01b9d]
+[ItemDef 01b9d]
 //twigs
-DUPEITEM=01b9b
-CATEGORY=Vegetation
-SUBSECTION=Sticks and Wood
-DESCRIPTION=Twigs
+DupeItem=01b9b
+Category=Vegetation
+Subsection=Sticks and Wood
+Description=Twigs
 
-[ITEMDEF 01b9e]
+[ItemDef 01b9e]
 //twigs
-DUPEITEM=01b9b
-CATEGORY=Vegetation
-SUBSECTION=Sticks and Wood
-DESCRIPTION=Twigs
+DupeItem=01b9b
+Category=Vegetation
+Subsection=Sticks and Wood
+Description=Twigs
 
-[ITEMDEF 01b20]
+[ItemDef 01b20]
 //leaves
-DUPEITEM=01b1f
+DupeItem=01b1f
 
-[ITEMDEF 01b21]
+[ItemDef 01b21]
 //leaves
-DUPEITEM=01b1f
+DupeItem=01b1f
 
-[ITEMDEF 01b22]
+[ItemDef 01b22]
 //leaves
-DUPEITEM=01b1f
+DupeItem=01b1f
 
-[ITEMDEF 01b23]
+[ItemDef 01b23]
 //leaves
-DUPEITEM=01b1f
+DupeItem=01b1f
 
-[ITEMDEF 01b24]
+[ItemDef 01b24]
 //leaves
-DUPEITEM=01b1f
+DupeItem=01b1f
 
-[ITEMDEF 01b25]
+[ItemDef 01b25]
 //leaves
-DUPEITEM=01b1f
+DupeItem=01b1f
 
-[ITEMDEF 01b26]
+[ItemDef 01b26]
 //leaves
-DUPEITEM=01b1f
+DupeItem=01b1f
 
-[ITEMDEF 01ebe]
-DEFNAME=iCropWheat1
-TYPE=tCrops
-TDATA1=iCropWheat1
-TDATA2=iCropWheat2
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Wheat Sprouts
-DUPELIST=01ebf
+[ItemDef 01f0d]
+Category=Vegetation
+Subsection=Plants and Flowers
+Description=Morning Glory
+DupeList=01f0e,01f0f,01f10,01f11,01f12
 
-[ITEMDEF 01ebf]
-DUPEITEM=01ebe
-
-[ITEMDEF 01f0d]
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Morning Glory
-DUPELIST=01f0e,01f0f,01f10,01f11,01f12
-
-[ITEMDEF 01f0e]
+[ItemDef 01f0e]
 //morning glory
-DUPEITEM=01f0d
+DupeItem=01f0d
 
-[ITEMDEF 01f0f]
+[ItemDef 01f0f]
 //morning glory
-DUPEITEM=01f0d
+DupeItem=01f0d
 
-[ITEMDEF 01f10]
+[ItemDef 01f10]
 //morning glory
-DUPEITEM=01f0d
+DupeItem=01f0d
 
-[ITEMDEF 01f11]
+[ItemDef 01f11]
 //morning glory
-DUPEITEM=01f0d
+DupeItem=01f0d
 
-[ITEMDEF 01f12]
+[ItemDef 01f12]
 //morning glory
-DUPEITEM=01f0d
+DupeItem=01f0d
 
 
-[ITEMDEF 0222e]
-DEFNAME=iGiantMushroom
-NAME=giant mushroom
-TYPE=tNormal
-CATEGORY=Vegetation
-SUBSECTION=Mushrooms
-DESCRIPTION=Giant Mushroom
-DUPELIST=0222f,02230,2231
+[ItemDef 0222e]
+DefName=iGiantMushroom
+Name=giant mushroom
+Type=tNormal
+Category=Vegetation
+Subsection=Mushrooms
+Description=Giant Mushroom
+DupeList=0222f,02230,2231
 
-[ITEMDEF 0222f]
+[ItemDef 0222f]
 //giant mushroom
-DUPEITEM=0222e
+DupeItem=0222e
 
-[ITEMDEF 02230]
+[ItemDef 02230]
 //giant mushroom
-DUPEITEM=0222e
+DupeItem=0222e
 
-[ITEMDEF 02231]
+[ItemDef 02231]
 //giant mushroom
-DUPEITEM=0222e
+DupeItem=0222e
 
 
-[ITEMDEF 0224a]
-DEFNAME=iTreeWillow2Trunk
-TYPE=tTree
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Willow Tree 2 (trunk)
+[ItemDef 0224a]
+DefName=iTreeWillow2Trunk
+Type=tTree
+Category=Vegetation
+Subsection=Trees
+Description=Willow Tree 2 (trunk)
 
-[ITEMDEF 0224b]
-DEFNAME=iTreeWillow3Trunk
-TYPE=tTree
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Willow Tree 3 (trunk)
+[ItemDef 0224b]
+DefName=iTreeWillow3Trunk
+Type=tTree
+Category=Vegetation
+Subsection=Trees
+Description=Willow Tree 3 (trunk)
 
-[ITEMDEF 0224c]
-DEFNAME=iTreeOak3Trunk
-TYPE=tTree
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Oak Tree 3 (trunk)
+[ItemDef 0224c]
+DefName=iTreeOak3Trunk
+Type=tTree
+Category=Vegetation
+Subsection=Trees
+Description=Oak Tree 3 (trunk)
 
-[ITEMDEF 0224d]
-DEFNAME=iTreeOak4Trunk
-TYPE=tTree
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Oak Tree 4 (trunk)
+[ItemDef 0224d]
+DefName=iTreeOak4Trunk
+Type=tTree
+Category=Vegetation
+Subsection=Trees
+Description=Oak Tree 4 (trunk)
 
 
-[ITEMDEF 0234b]
-DEFNAME=iFlowerRoseTrinsic
+
+
+
+
+
+
+[ItemDef 026b9]
+DefName=iBowlPlant
+Type=tNormal //Type=t_planter
 VALUE=10
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Trinsic Rose
+Weight=2.0
+Resources=2 iClay
+Category=Quest
+Subsection=Unknown
+Description=Plant Bowl
 
-[ITEMDEF 0234c]
-DEFNAME=iCropTrinsicRose
-TYPE=tCrops
-TDATA1=iCropTrinsicRose
-TDATA2=1
-TDATA3=iFlowerRoseTrinsic
-FLIP=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Trinsic Rose Bush
-DUPELIST=0234d
-ON=@Create
-MORE1=10000
-MORE2={ iFlowerRoseWhite 1 iFlowerRoseTrinsic 99 }
-MOREX=1
-
-[ITEMDEF 0234d]
-//trinsic rose plant
-DUPEITEM=0234c
-
-
-[ITEMDEF 0246c]
-DEFNAME=iTreeBamboo
-TYPE=tTree
+[ItemDef 026ed]
+DefName=iTreeTrunkPlum
+Type=tTree
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Bamboo
-DUPELIST=0246d,0246e,0246f,02470
+Category=Vegetation
+Subsection=Trees
+Description=Plum Tree
+DupeList=026ee
 
-[ITEMDEF 0246d]
-//bamboo
-DUPEITEM=0246c
-
-[ITEMDEF 0246e]
-//bamboo
-DUPEITEM=0246c
-
-[ITEMDEF 0246f]
-//bamboo
-DUPEITEM=0246c
-
-[ITEMDEF 02470]
-//bamboo
-DUPEITEM=0246c
-
-[ITEMDEF 02471]
-DEFNAME=iFoliageCherry
-TYPE=tFoliage
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Cherry Blossoms
-DUPELIST=02472,02473,02474,02475
-
-[ITEMDEF 02472]
-//cherry blossoms
-DUPEITEM=02471
-
-[ITEMDEF 02473]
-//cherry blossoms
-DUPEITEM=02471
-
-[ITEMDEF 02474]
-//cherry blossoms
-DUPEITEM=02471
-
-[ITEMDEF 02475]
-//cherry blossoms
-DUPEITEM=02471
-
-[ITEMDEF 02476]
-DEFNAME=iTreeTrunkCherry
-TYPE=tTree
-VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Cherry Tree
-DUPELIST=02477
-
-[ITEMDEF 02477]
-//cherry tree trunk
-DUPEITEM=02476
-
-[ITEMDEF 02478]
-DEFNAME=iFoliageMaple
-TYPE=tFoliage
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Maple Foliage
-DUPELIST=02479,0247a,0247b,0247c
-
-[ITEMDEF 02479]
-//maple foliage
-DUPEITEM=02478
-
-[ITEMDEF 0247a]
-//maple foliage
-DUPEITEM=02478
-
-[ITEMDEF 0247b]
-//maple foliage
-DUPEITEM=02478
-
-[ITEMDEF 0247c]
-//maple foliage
-DUPEITEM=02478
-
-[ITEMDEF 0247d]
-DEFNAME=iTreeTrunkMaple
-TYPE=tTree
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Maple Tree
-DUPELIST=0247e
-
-[ITEMDEF 0247e]
-//maple tree trunk
-DUPEITEM=0247d
-
-[ITEMDEF 026b9]
-DEFNAME=iBowlPlant
-TYPE=tNormal //type=t_planter
-VALUE=10
-WEIGHT=2.0
-RESOURCES=2 iClay
-CATEGORY=Quest
-SUBSECTION=Unknown
-DESCRIPTION=Plant Bowl
-
-[ITEMDEF 026ed]
-DEFNAME=iTreeTrunkPlum
-TYPE=tTree
-VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Plum Tree
-DUPELIST=026ee
-
-[ITEMDEF 026ee]
+[ItemDef 026ee]
 //plum tree trunk
-DUPEITEM=026ed
+DupeItem=026ed
 
-[ITEMDEF 026ef]
-DEFNAME=iFoliagePlum
-TYPE=tFoliage
+[ItemDef 026ef]
+DefName=iFoliagePlum
+Type=tFoliage
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=plum Blossoms
-DUPELIST=026f0,026f1,026f2,026f3
+Category=Vegetation
+Subsection=Trees
+Description=plum Blossoms
+DupeList=026f0,026f1,026f2,026f3
 
-[ITEMDEF 026f0]
+[ItemDef 026f0]
 //plum blossoms
-DUPEITEM=026ef
+DupeItem=026ef
 
-[ITEMDEF 026f1]
+[ItemDef 026f1]
 //plum blossoms
-DUPEITEM=026ef
+DupeItem=026ef
 
-[ITEMDEF 026f2]
+[ItemDef 026f2]
 //plum blossoms
-DUPEITEM=026ef
+DupeItem=026ef
 
-[ITEMDEF 026f3]
+[ItemDef 026f3]
 //plum blossoms
-DUPEITEM=026ef
+DupeItem=026ef
 
-[ITEMDEF 02cf9]
-DEFNAME=iDecorativeVines
-NAME=decorative vines
-FLIP=1
-CATEGORY=Vegetation
-SUBSECTION=Decorative
-DESCRIPTION=Decorative Vines
-DUPELIST=02cfa,02cfb,02cfc
+[ItemDef 02cf9]
+DefName=iDecorativeVines
+Name=decorative vines
+Can=CanIFlip
+Category=Vegetation
+Subsection=Decorative
+Description=Decorative Vines
+DupeList=02cfa,02cfb,02cfc
 
-[ITEMDEF 02cfa]
+[ItemDef 02cfa]
 //decorative vines
-DUPEITEM=02cf9
+DupeItem=02cf9
 
-[ITEMDEF 02cfb]
+[ItemDef 02cfb]
 //decorative vines
-DUPEITEM=02cf9
+DupeItem=02cf9
 
-[ITEMDEF 02cfc]
+[ItemDef 02cfc]
 //decorative vines
-DUPEITEM=02cf9
+DupeItem=02cf9
 
-[ITEMDEF 03020]
-DEFNAME=iPlantBrambles
-FLIP=1
-VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Brambles 2
-DUPELIST=03021,03022,03023,03024
 
-[ITEMDEF 03021]
-//brambles
-DUPEITEM=03020
 
-[ITEMDEF 03022]
-//brambles
-DUPEITEM=03020
 
-[ITEMDEF 03023]
-//brambles
-DUPEITEM=03020
+[ItemDef 0309c]
+DefName=iTreeTrunkTallPine
+Type=tTree
+Category=Vegetation
+Subsection=Trees
+Description=Tall Pine Tree Trunk
+DupeList=0309d,0309e,0309f,030a0,030a1,030a2,030a3,030a4,030a5
 
-[ITEMDEF 03024]
-//brambles
-DUPEITEM=03020
-
-[ITEMDEF 0309c]
-DEFNAME=iTreeTrunkTallPine
-TYPE=tTree
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Tall Pine Tree Trunk
-DUPELIST=0309d,0309e,0309f,030a0,030a1,030a2,030a3,030a4,030a5
-
-[ITEMDEF 0309d]
+[ItemDef 0309d]
 //Tall Pine Tree Trunk
-DUPEITEM=0309c
+DupeItem=0309c
 
-[ITEMDEF 0309e]
+[ItemDef 0309e]
 //Tall Pine Tree Trunk
-DUPEITEM=0309c
+DupeItem=0309c
 
-[ITEMDEF 0309f]
+[ItemDef 0309f]
 //Tall Pine Tree Trunk
-DUPEITEM=0309c
+DupeItem=0309c
 
-[ITEMDEF 030a0]
+[ItemDef 030a0]
 //Tall Pine Tree Trunk
-DUPEITEM=0309c
+DupeItem=0309c
 
-[ITEMDEF 030a1]
+[ItemDef 030a1]
 //Tall Pine Tree Trunk
-DUPEITEM=0309c
+DupeItem=0309c
 
-[ITEMDEF 030a2]
+[ItemDef 030a2]
 //Tall Pine Tree Trunk
-DUPEITEM=0309c
+DupeItem=0309c
 
-[ITEMDEF 030a3]
+[ItemDef 030a3]
 //Tall Pine Tree Trunk
-DUPEITEM=0309c
+DupeItem=0309c
 
-[ITEMDEF 030a4]
+[ItemDef 030a4]
 //Tall Pine Tree Trunk
-DUPEITEM=0309c
+DupeItem=0309c
 
-[ITEMDEF 030a5]
+[ItemDef 030a5]
 //Tall Pine Tree Trunk
-DUPEITEM=0309c
+DupeItem=0309c
 
-[ITEMDEF iMultiTreeTallPineTrunk]
-NAME=tall pine trunk
-TYPE=tMulti
-CATEGORY=Multis
-SUBSECTION=Nature
-DESCRIPTION=Tall Pine Trunk
+[ItemDef iMultiTreeTallPineTrunk]
+Name=tall pine trunk
+Type=tMulti
+Category=Multis
+Subsection=Nature
+Description=Tall Pine Trunk
 MULTIREGION=0,0,0,0
 COMPONENT=0309c,0,0,0
 COMPONENT=0309d,-1,0,0
@@ -4391,52 +3172,52 @@ COMPONENT=030a3,0,-3,0
 COMPONENT=030a4,0,-4,0
 COMPONENT=030a5,0,-5,0
 
-[ITEMDEF 030a6]
-DEFNAME=iFoliageTallPine
-TYPE=tFoliage
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Tall Pine Tree Foliage
-DUPELIST=030a7,030a8,030a9,030aa,030ab,030ac,030ad,030ae
+[ItemDef 030a6]
+DefName=iFoliageTallPine
+Type=tFoliage
+Category=Vegetation
+Subsection=Trees
+Description=Tall Pine Tree Foliage
+DupeList=030a7,030a8,030a9,030aa,030ab,030ac,030ad,030ae
 
-[ITEMDEF 030a7]
+[ItemDef 030a7]
 //Tall Pine Tree Foliage
-DUPEITEM=030a6
+DupeItem=030a6
 
-[ITEMDEF 030a8]
+[ItemDef 030a8]
 //Tall Pine Tree Foliage
-DUPEITEM=030a6
+DupeItem=030a6
 
-[ITEMDEF 030a9]
+[ItemDef 030a9]
 //Tall Pine Tree Foliage
-DUPEITEM=030a6
+DupeItem=030a6
 
-[ITEMDEF 030aa]
+[ItemDef 030aa]
 //Tall Pine Tree Foliage
-DUPEITEM=030a6
+DupeItem=030a6
 
-[ITEMDEF 030ab]
+[ItemDef 030ab]
 //Tall Pine Tree Foliage
-DUPEITEM=030a6
+DupeItem=030a6
 
-[ITEMDEF 030ac]
+[ItemDef 030ac]
 //Tall Pine Tree Foliage
-DUPEITEM=030a6
+DupeItem=030a6
 
-[ITEMDEF 030ad]
+[ItemDef 030ad]
 //Tall Pine Tree Foliage
-DUPEITEM=030a6
+DupeItem=030a6
 
-[ITEMDEF 030ae]
+[ItemDef 030ae]
 //Tall Pine Tree Foliage
-DUPEITEM=030a6
+DupeItem=030a6
 
-[ITEMDEF iMultiTreeTallPineFoliage]
-NAME=tall pine foliage
-TYPE=tMulti
-CATEGORY=Multis
-SUBSECTION=Nature
-DESCRIPTION=Tall Pine Foliage
+[ItemDef iMultiTreeTallPineFoliage]
+Name=tall pine foliage
+Type=tMulti
+Category=Multis
+Subsection=Nature
+Description=Tall Pine Foliage
 MULTIREGION=0,0,0,0
 COMPONENT=030a6,0,0,0
 COMPONENT=030a7,-1,0,0
@@ -4448,48 +3229,48 @@ COMPONENT=030ac,0,-3,0
 COMPONENT=030ad,0,-4,0
 COMPONENT=030ae,0,-5,0
 
-[ITEMDEF 030af]
-DEFNAME=iFoliageWide1
-TYPE=tFoliage
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Wide Tree 1 Foliage
-DUPELIST=030b0,030b1,030b2,030b3,030b4,030b5,030b6
+[ItemDef 030af]
+DefName=iFoliageWide1
+Type=tFoliage
+Category=Vegetation
+Subsection=Trees
+Description=Wide Tree 1 Foliage
+DupeList=030b0,030b1,030b2,030b3,030b4,030b5,030b6
 
-[ITEMDEF 030b0]
+[ItemDef 030b0]
 //Wide Tree 1 Foliage
-DUPEITEM=030af
+DupeItem=030af
 
-[ITEMDEF 030b1]
+[ItemDef 030b1]
 //Wide Tree 1 Foliage
-DUPEITEM=030af
+DupeItem=030af
 
-[ITEMDEF 030b2]
+[ItemDef 030b2]
 //Wide Tree 1 Foliage
-DUPEITEM=030af
+DupeItem=030af
 
-[ITEMDEF 030b3]
+[ItemDef 030b3]
 //Wide Tree 1 Foliage
-DUPEITEM=030af
+DupeItem=030af
 
-[ITEMDEF 030b4]
+[ItemDef 030b4]
 //Wide Tree 1 Foliage
-DUPEITEM=030af
+DupeItem=030af
 
-[ITEMDEF 030b5]
+[ItemDef 030b5]
 //Wide Tree 1 Foliage
-DUPEITEM=030af
+DupeItem=030af
 
-[ITEMDEF 030b6]
+[ItemDef 030b6]
 //Wide Tree 1 Foliage
-DUPEITEM=030af
+DupeItem=030af
 
-[ITEMDEF iMultiWideTree1Foliage]
-NAME=leaves
-TYPE=tMulti
-CATEGORY=Multis
-SUBSECTION=Nature
-DESCRIPTION=Wide Tree 1 Foliage
+[ItemDef iMultiWideTree1Foliage]
+Name=leaves
+Type=tMulti
+Category=Multis
+Subsection=Nature
+Description=Wide Tree 1 Foliage
 MULTIREGION=0,0,0,0
 COMPONENT=030af,0,0,0
 COMPONENT=030b0,-1,0,0
@@ -4499,40 +3280,40 @@ COMPONENT=030b3,0,-1,0
 COMPONENT=030b4,0,-2,0
 COMPONENT=030b5,0,-3,0
 
-[ITEMDEF 030b7]
-DEFNAME=iFoliageWide2
-TYPE=tFoliage
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Wide Tree 2 Foliage
-DUPELIST=030b8,030b9,030ba,030bb,030bc
+[ItemDef 030b7]
+DefName=iFoliageWide2
+Type=tFoliage
+Category=Vegetation
+Subsection=Trees
+Description=Wide Tree 2 Foliage
+DupeList=030b8,030b9,030ba,030bb,030bc
 
-[ITEMDEF 030b8]
+[ItemDef 030b8]
 //Wide Tree 2 Foliage
-DUPEITEM=030b7
+DupeItem=030b7
 
-[ITEMDEF 030b9]
+[ItemDef 030b9]
 //Wide Tree 2 Foliage
-DUPEITEM=030b7
+DupeItem=030b7
 
-[ITEMDEF 030ba]
+[ItemDef 030ba]
 //Wide Tree 2 Foliage
-DUPEITEM=030b7
+DupeItem=030b7
 
-[ITEMDEF 030bb]
+[ItemDef 030bb]
 //Wide Tree 2 Foliage
-DUPEITEM=030b7
+DupeItem=030b7
 
-[ITEMDEF 030bc]
+[ItemDef 030bc]
 //Wide Tree 2 Foliage
-DUPEITEM=030b7
+DupeItem=030b7
 
-[ITEMDEF iMultiWideTree2Foliage]
-NAME=leaves
-TYPE=tMulti
-CATEGORY=Multis
-SUBSECTION=Nature
-DESCRIPTION=Wide Tree 2 Foliage
+[ItemDef iMultiWideTree2Foliage]
+Name=leaves
+Type=tMulti
+Category=Multis
+Subsection=Nature
+Description=Wide Tree 2 Foliage
 MULTIREGION=0,0,0,0
 COMPONENT=030b7,0,0,0
 COMPONENT=030b8,-1,0,0
@@ -4541,40 +3322,40 @@ COMPONENT=030ba,-3,0,0
 COMPONENT=030bb,-4,0,0
 COMPONENT=030bc,1,-1,0
 
-[ITEMDEF 030bd]
-DEFNAME=iTreeTrunkWide1
-TYPE=tTree
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Wide Tree 1 Trunk
-DUPELIST=030be,030bf,030c0,030c1,030c2
+[ItemDef 030bd]
+DefName=iTreeTrunkWide1
+Type=tTree
+Category=Vegetation
+Subsection=Trees
+Description=Wide Tree 1 Trunk
+DupeList=030be,030bf,030c0,030c1,030c2
 
-[ITEMDEF 030be]
+[ItemDef 030be]
 //Wide Tree 1 Trunk
-DUPEITEM=030bd
+DupeItem=030bd
 
-[ITEMDEF 030bf]
+[ItemDef 030bf]
 //Wide Tree 1 Trunk
-DUPEITEM=030bd
+DupeItem=030bd
 
-[ITEMDEF 030c0]
+[ItemDef 030c0]
 //Wide Tree 1 Trunk
-DUPEITEM=030bd
+DupeItem=030bd
 
-[ITEMDEF 030c1]
+[ItemDef 030c1]
 //Wide Tree 1 Trunk
-DUPEITEM=030bd
+DupeItem=030bd
 
-[ITEMDEF 030c2]
+[ItemDef 030c2]
 //Wide Tree 1 Trunk
-DUPEITEM=030bd
+DupeItem=030bd
 
-[ITEMDEF iMultiWideTree1Trunk]
-NAME=tree trunk
-TYPE=tMulti
-CATEGORY=Multis
-SUBSECTION=Nature
-DESCRIPTION=Wide Tree 1 Trunk
+[ItemDef iMultiWideTree1Trunk]
+Name=tree trunk
+Type=tMulti
+Category=Multis
+Subsection=Nature
+Description=Wide Tree 1 Trunk
 MULTIREGION=0,0,0,0
 COMPONENT=030bd,0,0,0
 COMPONENT=030be,-1,0,0
@@ -4583,37 +3364,37 @@ COMPONENT=030c0,-3,0,0
 COMPONENT=030c1,0,-1,0
 COMPONENT=030c2,0,-2,0
 
-[ITEMDEF 030c3]
-DEFNAME=iTreeTrunkWide2
-TYPE=tTree
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Wide Tree 2 Trunk
-DUPELIST=030c4,030c5,030c6,030c7
+[ItemDef 030c3]
+DefName=iTreeTrunkWide2
+Type=tTree
+Category=Vegetation
+Subsection=Trees
+Description=Wide Tree 2 Trunk
+DupeList=030c4,030c5,030c6,030c7
 
-[ITEMDEF 030c4]
+[ItemDef 030c4]
 //Wide Tree 2 Trunk
-DUPEITEM=030c3
+DupeItem=030c3
 
-[ITEMDEF 030c5]
+[ItemDef 030c5]
 //Wide Tree 2 Trunk
-DUPEITEM=030c3
+DupeItem=030c3
 
-[ITEMDEF 030c6]
+[ItemDef 030c6]
 //Wide Tree 2 Trunk
-DUPEITEM=030c3
+DupeItem=030c3
 
-[ITEMDEF 030c7]
+[ItemDef 030c7]
 //Wide Tree 2 Trunk
-DUPEITEM=030c3
+DupeItem=030c3
 
-[ITEMDEF iMultiWideTree2Trunk]
+[ItemDef iMultiWideTree2Trunk]
 //FIXME: part 030c5 doesnt fit
-NAME=tree trunk
-TYPE=tMulti
-CATEGORY=Multis
-SUBSECTION=Nature
-DESCRIPTION=Wide Tree 2 Trunk
+Name=tree trunk
+Type=tMulti
+Category=Multis
+Subsection=Nature
+Description=Wide Tree 2 Trunk
 MULTIREGION=0,0,0,0
 COMPONENT=030c3,0,0,0
 COMPONENT=030c4,-1,0,0
@@ -4621,921 +3402,764 @@ COMPONENT=030c5,-2,0,0
 COMPONENT=030c6,0,-1,0
 COMPONENT=030c7,0,-2,0
 
-[ITEMDEF 030c8]
-DEFNAME=iTreeWide3Foliage
-TYPE=tTree
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Wide Tree 3 Foliage
-DUPELIST=030c9,030ca,030cb,030cc,030cd,030ce
+[ItemDef 030c8]
+DefName=iTreeWide3Foliage
+Type=tTree
+Category=Vegetation
+Subsection=Trees
+Description=Wide Tree 3 Foliage
+DupeList=030c9,030ca,030cb,030cc,030cd,030ce
 
-[ITEMDEF 030c9]
+[ItemDef 030c9]
 //Wide Tree 3 Foliage
-DUPEITEM=030c8
+DupeItem=030c8
 
-[ITEMDEF 030ca]
+[ItemDef 030ca]
 //Wide Tree 3 Foliage
-DUPEITEM=030c8
+DupeItem=030c8
 
-[ITEMDEF 030cb]
+[ItemDef 030cb]
 //Wide Tree 3 Foliage
-DUPEITEM=030c8
+DupeItem=030c8
 
-[ITEMDEF 030cc]
+[ItemDef 030cc]
 //Wide Tree 3 Foliage
-DUPEITEM=030c8
+DupeItem=030c8
 
-[ITEMDEF 030cd]
+[ItemDef 030cd]
 //Wide Tree 3 Foliage
-DUPEITEM=030c8
+DupeItem=030c8
 
-[ITEMDEF 030ce]
+[ItemDef 030ce]
 //Wide Tree 3 Foliage
-DUPEITEM=030c8
+DupeItem=030c8
 
-[ITEMDEF 030cf]
-DEFNAME=iTreeWide4Foliage
-TYPE=tTree
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Wide Tree 4 Foliage
-DUPELIST=030d0,030d1,030d2,030d3
+[ItemDef 030cf]
+DefName=iTreeWide4Foliage
+Type=tTree
+Category=Vegetation
+Subsection=Trees
+Description=Wide Tree 4 Foliage
+DupeList=030d0,030d1,030d2,030d3
 
-[ITEMDEF 030d0]
+[ItemDef 030d0]
 //Wide Tree 4 Foliage
-DUPEITEM=030cf
+DupeItem=030cf
 
-[ITEMDEF 030d1]
+[ItemDef 030d1]
 //Wide Tree 4 Foliage
-DUPEITEM=030cf
+DupeItem=030cf
 
-[ITEMDEF 030d2]
+[ItemDef 030d2]
 //Wide Tree 4 Foliage
-DUPEITEM=030cf
+DupeItem=030cf
 
-[ITEMDEF 030d3]
+[ItemDef 030d3]
 //Wide Tree 4 Foliage
-DUPEITEM=030cf
+DupeItem=030cf
 
-[ITEMDEF 030d4]
-DEFNAME=iTreeWide3Trunk
-TYPE=tTree
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Wide Tree 3 Trunk
-DUPELIST=030d5,030d6,030d7,030d8,030d9
+[ItemDef 030d4]
+DefName=iTreeWide3Trunk
+Type=tTree
+Category=Vegetation
+Subsection=Trees
+Description=Wide Tree 3 Trunk
+DupeList=030d5,030d6,030d7,030d8,030d9
 
-[ITEMDEF 030d5]
+[ItemDef 030d5]
 //Wide Tree 3 Trunk
-DUPEITEM=030d4
+DupeItem=030d4
 
-[ITEMDEF 030d6]
+[ItemDef 030d6]
 //Wide Tree 3 Trunk
-DUPEITEM=030d4
+DupeItem=030d4
 
-[ITEMDEF 030d7]
+[ItemDef 030d7]
 //Wide Tree 3 Trunk
-DUPEITEM=030d4
+DupeItem=030d4
 
-[ITEMDEF 030d8]
+[ItemDef 030d8]
 //Wide Tree 3 Trunk
-DUPEITEM=030d4
+DupeItem=030d4
 
-[ITEMDEF 030d9]
+[ItemDef 030d9]
 //Wide Tree 3 Trunk
-DUPEITEM=030d4
+DupeItem=030d4
 
-[ITEMDEF 030da]
-DEFNAME=iTreeWide4Trunk
-TYPE=tTree
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Wide Tree 4 Trunk
-DUPELIST=030db,030dc,030dd,030de
+[ItemDef 030da]
+DefName=iTreeWide4Trunk
+Type=tTree
+Category=Vegetation
+Subsection=Trees
+Description=Wide Tree 4 Trunk
+DupeList=030db,030dc,030dd,030de
 
-[ITEMDEF 030db]
+[ItemDef 030db]
 //Wide Tree 4 Trunk
-DUPEITEM=030da
+DupeItem=030da
 
-[ITEMDEF 030dc]
+[ItemDef 030dc]
 //Wide Tree 4 Trunk
-DUPEITEM=030da
+DupeItem=030da
 
-[ITEMDEF 030dd]
+[ItemDef 030dd]
 //Wide Tree 4 Trunk
-DUPEITEM=030da
+DupeItem=030da
 
-[ITEMDEF 030de]
+[ItemDef 030de]
 //Wide Tree 4 Trunk
-DUPEITEM=030da
+DupeItem=030da
 
-[ITEMDEF 03122]
+[ItemDef 03122]
 //FIXME: duplicate of something?
-TYPE=tFoliage
+Type=tFoliage
 
-[ITEMDEF 03123]
+[ItemDef 03123]
 //Duplicate of peach leaves item 0d9e
-TYPE=tFoliage
+Type=tFoliage
 
-[ITEMDEF 03124]
+[ItemDef 03124]
 //Duplicate of apple leaves item 0d9a
-TYPE=tFoliage
+Type=tFoliage
 
-[ITEMDEF 03128]
+[ItemDef 03128]
 //FIXME: not certain what this is
-CATEGORY=Miniature
-SUBSECTION=Nature
-DESCRIPTION=Tree?
+Category=Miniature
+Subsection=Nature
+Description=Tree?
 
-[ITEMDEF 03129]
+[ItemDef 03129]
 //FIXME: not certain what this is
-CATEGORY=Miniature
-SUBSECTION=Nature
-DESCRIPTION=Oak Tree Trunk?
+Category=Miniature
+Subsection=Nature
+Description=Oak Tree Trunk?
 
-[ITEMDEF 0312a]
+[ItemDef 0312a]
 //FIXME: not certain what this is
-CATEGORY=Miniature
-SUBSECTION=Nature
-DESCRIPTION=Walnut Tree Trunk?
+Category=Miniature
+Subsection=Nature
+Description=Walnut Tree Trunk?
 
 
-[ITEMDEF 036a0]
+[ItemDef 036a0]
 //Duplicate of peach leaves item 0d9d
-TYPE=tFoliage
+Type=tFoliage
 
-[ITEMDEF 036a1]
+[ItemDef 036a1]
 //Duplicate of maple leaves item 0247c
-TYPE=tFoliage
+Type=tFoliage
 
 
-[ITEMDEF 039a3]
-DEFNAME=iFoliageGiantOak
-NAME=giant oak foliage
-TYPE=tFoliage
-CATEGORY=Vegetation
-SUBSECTION=Trees
-DESCRIPTION=Giant Oak Foliage
-DUPELIST=039a4,039a5,039a6,039a7,039a8,039a9,039aa,039ab,039ac,039ad,039ae,039af,039b1,039b2,039b3,039b4,039b5,039b6,039b7,039b8,039b9,039ba,039bb,039bc,039c3,039c4,039c5,039c6,039c7,039c8,039c9,039ca,039cb,039cc,039cd,039ce,039cf,039d0,039d1,039d2,039d3,03a09,03a0a,03a0b,03a0c,03a0d,03a0e,03a0f,03a10,03a11,03a12,03a13,03a14,03a15,03a16,03a17,03a18,03a19,03a1a,03a1b,03a1c,03a1d,03a1e,03a33,03a34,03a35,03a36,03a37,03a38,03a39,03a3a,03a3b,03a3c,03a3d,03a3e,03a3f,03a40,03a41,03a42,03a43,03a44
+[ItemDef 039a3]
+DefName=iFoliageGiantOak
+Name=giant oak foliage
+Type=tFoliage
+Category=Vegetation
+Subsection=Trees
+Description=Giant Oak Foliage
+DupeList=039a4,039a5,039a6,039a7,039a8,039a9,039aa,039ab,039ac,039ad,039ae,039af,039b1,039b2,039b3,039b4,039b5,039b6,039b7,039b8,039b9,039ba,039bb,039bc,039c3,039c4,039c5,039c6,039c7,039c8,039c9,039ca,039cb,039cc,039cd,039ce,039cf,039d0,039d1,039d2,039d3,03a09,03a0a,03a0b,03a0c,03a0d,03a0e,03a0f,03a10,03a11,03a12,03a13,03a14,03a15,03a16,03a17,03a18,03a19,03a1a,03a1b,03a1c,03a1d,03a1e,03a33,03a34,03a35,03a36,03a37,03a38,03a39,03a3a,03a3b,03a3c,03a3d,03a3e,03a3f,03a40,03a41,03a42,03a43,03a44
 
-[ITEMDEF 039a4]
+[ItemDef 039a4]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 039a5]
+[ItemDef 039a5]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 039a6]
+[ItemDef 039a6]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 039a7]
+[ItemDef 039a7]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 039a8]
+[ItemDef 039a8]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 039a9]
+[ItemDef 039a9]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 039aa]
+[ItemDef 039aa]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 039ab]
+[ItemDef 039ab]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 039ac]
+[ItemDef 039ac]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 039ad]
+[ItemDef 039ad]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 039ae]
+[ItemDef 039ae]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 039af]
+[ItemDef 039af]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 039b0]
-CATEGORY=Miscellaneous
-SUBSECTION=Bad Tiles
-DESCRIPTION=Unused Tile 039b0
+[ItemDef 039b0]
+Category=Miscellaneous
+Subsection=Bad Tiles
+Description=Unused Tile 039b0
 
-[ITEMDEF 039b1]
+[ItemDef 039b1]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 039b2]
+[ItemDef 039b2]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 039b3]
+[ItemDef 039b3]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 039b4]
+[ItemDef 039b4]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 039b5]
+[ItemDef 039b5]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 039b6]
+[ItemDef 039b6]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 039b7]
+[ItemDef 039b7]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 039b8]
+[ItemDef 039b8]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 039b9]
+[ItemDef 039b9]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 039ba]
+[ItemDef 039ba]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 039bb]
+[ItemDef 039bb]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 039bc]
+[ItemDef 039bc]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 039bd]
-CATEGORY=Miscellaneous
-SUBSECTION=Bad Tiles
-DESCRIPTION=Tree Tile 039bd
+[ItemDef 039bd]
+Category=Miscellaneous
+Subsection=Bad Tiles
+Description=Tree Tile 039bd
 
-[ITEMDEF 039be]
-CATEGORY=Miscellaneous
-SUBSECTION=Bad Tiles
-DESCRIPTION=Tree Tile 039be
+[ItemDef 039be]
+Category=Miscellaneous
+Subsection=Bad Tiles
+Description=Tree Tile 039be
 
-[ITEMDEF 039bf]
-CATEGORY=Miscellaneous
-SUBSECTION=Bad Tiles
-DESCRIPTION=Tree Tile 039bf
+[ItemDef 039bf]
+Category=Miscellaneous
+Subsection=Bad Tiles
+Description=Tree Tile 039bf
 
-[ITEMDEF 039c0]
-CATEGORY=Miscellaneous
-SUBSECTION=Bad Tiles
-DESCRIPTION=Tree Tile 039c0
+[ItemDef 039c0]
+Category=Miscellaneous
+Subsection=Bad Tiles
+Description=Tree Tile 039c0
 
-[ITEMDEF 039c1]
-CATEGORY=Miscellaneous
-SUBSECTION=Bad Tiles
-DESCRIPTION=Tree Tile 039c1
+[ItemDef 039c1]
+Category=Miscellaneous
+Subsection=Bad Tiles
+Description=Tree Tile 039c1
 
-[ITEMDEF 039c2]
-CATEGORY=Miscellaneous
-SUBSECTION=Bad Tiles
-DESCRIPTION=Tree Tile 039c2
+[ItemDef 039c2]
+Category=Miscellaneous
+Subsection=Bad Tiles
+Description=Tree Tile 039c2
 
-[ITEMDEF 039c3]
+[ItemDef 039c3]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 039c4]
+[ItemDef 039c4]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 039c5]
+[ItemDef 039c5]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 039c6]
+[ItemDef 039c6]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 039c7]
+[ItemDef 039c7]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 039c8]
+[ItemDef 039c8]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 039c9]
+[ItemDef 039c9]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 039ca]
+[ItemDef 039ca]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 039cb]
+[ItemDef 039cb]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 039cc]
+[ItemDef 039cc]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 039cd]
+[ItemDef 039cd]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 039ce]
+[ItemDef 039ce]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 039cf]
+[ItemDef 039cf]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 039d0]
+[ItemDef 039d0]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 039d1]
+[ItemDef 039d1]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 039d2]
+[ItemDef 039d2]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 039d3]
+[ItemDef 039d3]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 03a09]
+[ItemDef 03a09]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 03a0a]
+[ItemDef 03a0a]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 03a0b]
+[ItemDef 03a0b]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 03a0c]
+[ItemDef 03a0c]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 03a0d]
+[ItemDef 03a0d]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 03a0e]
+[ItemDef 03a0e]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 03a0f]
+[ItemDef 03a0f]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 03a10]
+[ItemDef 03a10]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 03a11]
+[ItemDef 03a11]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 03a12]
+[ItemDef 03a12]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 03a13]
+[ItemDef 03a13]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 03a14]
+[ItemDef 03a14]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 03a15]
+[ItemDef 03a15]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 03a16]
+[ItemDef 03a16]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 03a17]
+[ItemDef 03a17]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 03a18]
+[ItemDef 03a18]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 03a19]
+[ItemDef 03a19]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 03a1a]
+[ItemDef 03a1a]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 03a1b]
+[ItemDef 03a1b]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 03a1c]
+[ItemDef 03a1c]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 03a1d]
+[ItemDef 03a1d]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 03a1e]
+[ItemDef 03a1e]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 03a33]
+[ItemDef 03a33]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 03a34]
+[ItemDef 03a34]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 03a35]
+[ItemDef 03a35]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 03a36]
+[ItemDef 03a36]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 03a37]
+[ItemDef 03a37]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 03a38]
+[ItemDef 03a38]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 03a39]
+[ItemDef 03a39]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 03a3a]
+[ItemDef 03a3a]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 03a3b]
+[ItemDef 03a3b]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 03a3c]
+[ItemDef 03a3c]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 03a3d]
+[ItemDef 03a3d]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 03a3e]
+[ItemDef 03a3e]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 03a3f]
+[ItemDef 03a3f]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 03a40]
+[ItemDef 03a40]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 03a41]
+[ItemDef 03a41]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 03a42]
+[ItemDef 03a42]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 03a43]
+[ItemDef 03a43]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
-[ITEMDEF 03a44]
+[ItemDef 03a44]
 //Giant Oak Foliage
-DUPEITEM=039a3
+DupeItem=039a3
 
 
 
-[ITEMDEF 03a9c]
-[ITEMDEF 03a9d]
-[ITEMDEF 03a9e]
-[ITEMDEF 03a9f]
-[ITEMDEF 03aa0]
-[ITEMDEF 03aa1]
-[ITEMDEF 03aa2]
-[ITEMDEF 03aa3]
-[ITEMDEF 03aa4]
-[ITEMDEF 03aa5]
-[ITEMDEF 03aa6]
-[ITEMDEF 03aa7]
-[ITEMDEF 03aa8]
-[ITEMDEF 03aa9]
-[ITEMDEF 03aaa]
-[ITEMDEF 03aab]
-[ITEMDEF 03aac]
-[ITEMDEF 03aad]
-[ITEMDEF 03aae]
-[ITEMDEF 03aaf]
-[ITEMDEF 03ab0]
-[ITEMDEF 03ab1]
-[ITEMDEF 03ab2]
-[ITEMDEF 03ab3]
-[ITEMDEF 03ab4]
-[ITEMDEF 03ab5]
-[ITEMDEF 03ab6]
-[ITEMDEF 03ab7]
-[ITEMDEF 03ab8]
-[ITEMDEF 03ab9]
-[ITEMDEF 03aba]
-[ITEMDEF 03abb]
-[ITEMDEF 03abc]
-[ITEMDEF 03abd]
-[ITEMDEF 03abe]
-[ITEMDEF 03abf]
-[ITEMDEF 03ac0]
-[ITEMDEF 03ac1]
-[ITEMDEF 03ac2]
-[ITEMDEF 03ac3]
-[ITEMDEF 03ac4]
-[ITEMDEF 03ac5]
-[ITEMDEF 03ac6]
-[ITEMDEF 03ac7]
-[ITEMDEF 03ac8]
-[ITEMDEF 03ac9]
-[ITEMDEF 03aca]
-[ITEMDEF 03acb]
-[ITEMDEF 03acc]
-[ITEMDEF 03acd]
-[ITEMDEF 03ace]
-[ITEMDEF 03acf]
-[ITEMDEF 03ad0]
-[ITEMDEF 03ad1]
-[ITEMDEF 03ad2]
-[ITEMDEF 03ad3]
-[ITEMDEF 03ad4]
-[ITEMDEF 03ad5]
-[ITEMDEF 03ad6]
-[ITEMDEF 03ad7]
-[ITEMDEF 03ad8]
-[ITEMDEF 03ad9]
-[ITEMDEF 03ada]
-[ITEMDEF 03adb]
-[ITEMDEF 03adc]
-[ITEMDEF 03add]
-[ITEMDEF 03ade]
-[ITEMDEF 03adf]
-[ITEMDEF 03ae0]
-[ITEMDEF 03ae1]
-[ITEMDEF 03ae2]
-[ITEMDEF 03ae3]
-[ITEMDEF 03ae4]
-[ITEMDEF 03ae5]
-[ITEMDEF 03ae6]
-[ITEMDEF 03ae7]
-[ITEMDEF 03ae8]
-[ITEMDEF 03ae9]
-[ITEMDEF 03aea]
-[ITEMDEF 03aeb]
-[ITEMDEF 03aec]
-[ITEMDEF 03aed]
-[ITEMDEF 03aee]
-[ITEMDEF 03aef]
-NAME=tree
+[ItemDef 03a9c]
+[ItemDef 03a9d]
+[ItemDef 03a9e]
+[ItemDef 03a9f]
+[ItemDef 03aa0]
+[ItemDef 03aa1]
+[ItemDef 03aa2]
+[ItemDef 03aa3]
+[ItemDef 03aa4]
+[ItemDef 03aa5]
+[ItemDef 03aa6]
+[ItemDef 03aa7]
+[ItemDef 03aa8]
+[ItemDef 03aa9]
+[ItemDef 03aaa]
+[ItemDef 03aab]
+[ItemDef 03aac]
+[ItemDef 03aad]
+[ItemDef 03aae]
+[ItemDef 03aaf]
+[ItemDef 03ab0]
+[ItemDef 03ab1]
+[ItemDef 03ab2]
+[ItemDef 03ab3]
+[ItemDef 03ab4]
+[ItemDef 03ab5]
+[ItemDef 03ab6]
+[ItemDef 03ab7]
+[ItemDef 03ab8]
+[ItemDef 03ab9]
+[ItemDef 03aba]
+[ItemDef 03abb]
+[ItemDef 03abc]
+[ItemDef 03abd]
+[ItemDef 03abe]
+[ItemDef 03abf]
+[ItemDef 03ac0]
+[ItemDef 03ac1]
+[ItemDef 03ac2]
+[ItemDef 03ac3]
+[ItemDef 03ac4]
+[ItemDef 03ac5]
+[ItemDef 03ac6]
+[ItemDef 03ac7]
+[ItemDef 03ac8]
+[ItemDef 03ac9]
+[ItemDef 03aca]
+[ItemDef 03acb]
+[ItemDef 03acc]
+[ItemDef 03acd]
+[ItemDef 03ace]
+[ItemDef 03acf]
+[ItemDef 03ad0]
+[ItemDef 03ad1]
+[ItemDef 03ad2]
+[ItemDef 03ad3]
+[ItemDef 03ad4]
+[ItemDef 03ad5]
+[ItemDef 03ad6]
+[ItemDef 03ad7]
+[ItemDef 03ad8]
+[ItemDef 03ad9]
+[ItemDef 03ada]
+[ItemDef 03adb]
+[ItemDef 03adc]
+[ItemDef 03add]
+[ItemDef 03ade]
+[ItemDef 03adf]
+[ItemDef 03ae0]
+[ItemDef 03ae1]
+[ItemDef 03ae2]
+[ItemDef 03ae3]
+[ItemDef 03ae4]
+[ItemDef 03ae5]
+[ItemDef 03ae6]
+[ItemDef 03ae7]
+[ItemDef 03ae8]
+[ItemDef 03ae9]
+[ItemDef 03aea]
+[ItemDef 03aeb]
+[ItemDef 03aec]
+[ItemDef 03aed]
+[ItemDef 03aee]
+[ItemDef 03aef]
+Name=tree
 
-[ITEMDEF 03d12]
+[ItemDef 03d12]
 //grapevines
 //duplicate of 0d21
 
-[ITEMDEF 03d17]
+[ItemDef 03d17]
 //corn crop
 //duplicate of 0c7e
 
-[ITEMDEF 03d18]
+[ItemDef 03d18]
 //corn crop
 //shorter duplicate of 0c7d
 
-[ITEMDEF 03d19]
-//corn (fruit)
+[ItemDef 03d19]
+//corn (Fruit)
 //duplicate of 0c7f
 
-[ITEMDEF 03d1a]
-//corn (fruit)
+[ItemDef 03d1a]
+//corn (Fruit)
 //duplicate of 0c80
 
-[ITEMDEF 03d1b]
-//corn (fruit)
+[ItemDef 03d1b]
+//corn (Fruit)
 //duplicate of 0c81
 
-[ITEMDEF 03d1c]
-//corn (fruit)
+[ItemDef 03d1c]
+//corn (Fruit)
 //duplicate of 0c82
 
-[ITEMDEF 04128]
-DEFNAME=iGargoyleTowerVines
-NAME=gargoyle tower vines
-FLIP=1
-CATEGORY=Vegetation
-SUBSECTION=Decorative
-DESCRIPTION=Gargoyle Tower Vines
-DUPELIST=04129,0412a,0412b
-
-[ITEMDEF 04129]
-//Gargoyle Tower Vines
-DUPEITEM=04128
-
-[ITEMDEF 0412a]
-//Gargoyle Tower Vines
-DUPEITEM=04128
-
-[ITEMDEF 0412b]
-//Gargoyle Tower Vines
-DUPEITEM=04128
 
 
-[ITEMDEF 042b9]
-DEFNAME=iPottedTree
-TYPE=tNormal
-WEIGHT=18.0
-RESOURCES=1 iPotFlowerLarge,1 iDirt
-CATEGORY=Decoration - Potted Plants & Vases
-SUBSECTION=Potted Trees
-DESCRIPTION=Potted Tree 1
-
-[ITEMDEF 042ba]
-DEFNAME=iPottedTree2
-TYPE=tNormal
-WEIGHT=18.0
-RESOURCES=1 iPotFlowerLarge,1 iDirt
-CATEGORY=Decoration - Potted Plants & Vases
-SUBSECTION=Potted Trees
-DESCRIPTION=Potted Tree 2
 
 
-[ITEMDEF 042c7]
-DEFNAME=iTreeSilverSapling
-NAME=silver sapling
-WEIGHT=40.0
-CATEGORY=Decoration - Potted Plants & Vases
-SUBSECTION=Potted Trees
-DESCRIPTION=Silver Sapling (unpotted)
 
-[ITEMDEF 042c8]
-DEFNAME=iTreeSilverSaplingPotted
-NAME=potted silver sapling
-WEIGHT=40.0
-CATEGORY=Decoration - Potted Plants & Vases
-SUBSECTION=Potted Trees
-DESCRIPTION=Silver Sapling (potted)
-
-
-[ITEMDEF 04792]
-DEFNAME=iCropRuinplant
-NAME=ruin plant
-TYPE=tCrops
-//TDATA1=0
-TDATA2=iCropRuinplantFlowering
-//TDATA3=0
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Ruin Plant (mature)
-
-[ITEMDEF 04793]
-DEFNAME=iCropRuinplantFlowering
-NAME=flowering ruin plant
-TYPE=tCrops
-//TDATA1=0
-TDATA2=iCropRuinplant
-//TDATA3=0
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Ruin Plant (flowering)
-
-[ITEMDEF 04794]
-DEFNAME=iCropRuinplantN
-NAME=ruin plant
-TYPE=tCrops
-//TDATA1=0
-TDATA2=iCropRuinplantNFlowering
-//TDATA3=0
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Ruin Plant North (mature)
-
-[ITEMDEF 04795]
-DEFNAME=iCropRuinplantNFlowering
-NAME=flowering ruin plant
-TYPE=tCrops
-//TDATA1=0
-TDATA2=iCropRuinplantN
-//TDATA3=0
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Ruin Plant North (flowering)
-
-
-[ITEMDEF 04b8a]
-DEFNAME=iCropVanilla1
-NAME=vanilla plant
-TYPE=tCrops
-//TDATA1=i_crop_vanilla1
-TDATA2=iCropVanilla2
-//TDATA3=0
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Vanilla Plant (sprout)
-
-[ITEMDEF 04b8b]
-DEFNAME=iCropVanilla2
-NAME=vanilla plant
-TYPE=tCrops
-//TDATA1=i_crop_vanilla1
-TDATA2=iCropVanilla
-//TDATA3=0
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Vanilla Plant (immature)
-
-[ITEMDEF 04b8c]
-DEFNAME=iCropVanilla
-NAME=vanilla plant
-TYPE=tCrops
-TDATA1=iCropVanilla1
-TDATA2=0
-TDATA3=0//i_vanilla_bean
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Vanilla Plant (mature)
-
-
-[ITEMDEF 0992f]
-DEFNAME=iFruitPumpkinTall
-NAME=pumpkin
-TYPE=tFruit
-TDATA1=iCropVines1
-VALUE=2
-WEIGHT=1.0
-CATEGORY=Vegetation
-SUBSECTION=Fruits and Vegetables
-DESCRIPTION=Pumpkin (tall)
-ON=@Create
-MOREM=4
-
-[ITEMDEF 09930]
-DEFNAME=iFruitPumpkinRotten
-NAME=rotten pumpkin
-TYPE=tFood
-TDATA1=iCropVines1
-VALUE=2
-WEIGHT=0.1
-CATEGORY=Vegetation
-SUBSECTION=Fruits and Vegetables
-DESCRIPTION=Pumpkin (rotten)
-ON=@Create
-MOREM=1
 
 //////////////////
 // Custom Items //
 //////////////////
 
 
-[ITEMDEF iFruitPotato]
+[ItemDef iFruitPotato]
 ID=0f7f
-NAME=potato%es
-TYPE=tFruit
-TDATA1=iCropPotato1
+Name=potato%es
+Type=tFruit
+TData1=iCropPotato1
 PILE=1
 VALUE=1
-WEIGHT=0.1
-CATEGORY=Vegetation
-SUBSECTION=Fruits and Vegetables
-DESCRIPTION=Potato
-ON=@Create
+Weight=0.1
+Category=Vegetation
+Subsection=Fruits and Vegetables
+Description=Potato
+On=@Create
 COLOR=083c
-MOREM=1
+MoreM=1
 
-[ITEMDEF iFruitTomato]
+[ItemDef iFruitTomato]
 ID=09d0
-NAME=tomato
-TYPE=tFruit
-TDATA1=iCropTomato1
+Name=tomato
+Type=tFruit
+TData1=iCropTomato1
 PILE=1
 VALUE=1
-WEIGHT=0.1
-CATEGORY=Vegetation
-SUBSECTION=Fruits and Vegetables
-DESCRIPTION=Tomato
-ON=@Create
+Weight=0.1
+Category=Vegetation
+Subsection=Fruits and Vegetables
+Description=Tomato
+On=@Create
 COLOR=020
-MOREM=1
+MoreM=1
 
-[ITEMDEF iFruitPeas]
+[ItemDef iFruitPeas]
 ID=0105e
-NAME=peas
-TYPE=tFruit
-TDATA1=iCropPeas1
+Name=peas
+Type=tFruit
+TData1=iCropPeas1
 PILE=1
 VALUE=1
-WEIGHT=0.1
-CATEGORY=Vegetation
-SUBSECTION=Fruits and Vegetables
-DESCRIPTION=Peas
-ON=@Create
+Weight=0.1
+Category=Vegetation
+Subsection=Fruits and Vegetables
+Description=Peas
+On=@Create
 COLOR=044
-MOREM=1
+MoreM=1
 
-[ITEMDEF iFruitBarley]
+[ItemDef iFruitBarley]
 ID=iHaySheaf
-NAME=barley
-TYPE=tGrain
+Name=barley
+Type=tGrain
 VALUE=1
-WEIGHT=0.5
-CATEGORY=Vegetation
-SUBSECTION=Grains
-DESCRIPTION=Barley
-ON=@Create
+Weight=0.5
+Category=Vegetation
+Subsection=Grains
+Description=Barley
+On=@Create
 COLOR=colors_brown
 
-[ITEMDEF iTreeSaplingPlanted]
+[ItemDef iTreeSaplingPlanted]
 ID=iPlantWeed
-NAME=Planted Tree Sapling
-WEIGHT=4
-CATEGORY=Vegetation
-SUBSECTION=Planted
-DESCRIPTION=Planted Tree Sapling
+Name=Planted Tree Sapling
+Weight=4
+Category=Vegetation
+Subsection=Planted
+Description=Planted Tree Sapling
 
-[ITEMDEF iCropPeas1]
+[ItemDef iCropPeas1]
 ID=01a99
-NAME=peas
-TYPE=tCrops
-TDATA1=iCropPeas1
-TDATA2=iCropPeas
-TDATA3=0
+Name=peas
+Type=tCrops
+TData1=iCropPeas1
+TData2=iCropPeas
+TData3=0
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Peas (young)
-ON=@Create
+Category=Vegetation
+Subsection=Plants and Flowers
+Description=Peas (young)
+On=@Create
 COLOR=029b
 
-[ITEMDEF iCropPeas]
+[ItemDef iCropPeas]
 ID=01a9b
-NAME=peas
-TYPE=tCrops
-TDATA1=iCropPeas1
-TDATA2=0
-TDATA3=iFruitPeas
+Name=peas
+Type=tCrops
+TData1=iCropPeas1
+TData2=0
+TData3=iFruitPeas
 VALUE=1
-CATEGORY=Vegetation
-SUBSECTION=Plants and Flowers
-DESCRIPTION=Peas (mature)
-ON=@Create
+Category=Vegetation
+Subsection=Plants and Flowers
+Description=Peas (mature)
+On=@Create
 COLOR=029b
 
-[ITEMDEF iCropPotato1]
+[ItemDef iCropPotato1]
 ID=0c61
-NAME=potato plant
-TYPE=tCrops
-TDATA1=iCropPotato1
-TDATA2=iCropPotato
-TDATA3=0
+Name=potato plant
+Type=tCrops
+TData1=iCropPotato1
+TData2=iCropPotato
+TData3=0
 VALUE=2
-CATEGORY=Vegetation
-SUBSECTION=Fruits and Vegetables
-DESCRIPTION=Potato Crop
+Category=Vegetation
+Subsection=Fruits and Vegetables
+Description=Potato Crop
 
-[ITEMDEF iCropPotato]
+[ItemDef iCropPotato]
 ID=0c62
-NAME=potato plant
-TYPE=tCrops
-TDATA1=iCropPotato1
-TDATA2=0
-TDATA3=iFruitPotato
+Name=potato plant
+Type=tCrops
+TData1=iCropPotato1
+TData2=0
+TData3=iFruitPotato
 VALUE=2
-CATEGORY=Vegetation
-SUBSECTION=Fruits and Vegetables
-DESCRIPTION=Potato Crop (mature)
+Category=Vegetation
+Subsection=Fruits and Vegetables
+Description=Potato Crop (mature)
 
 [EOF]

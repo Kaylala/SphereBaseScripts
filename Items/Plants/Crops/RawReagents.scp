@@ -1,0 +1,168 @@
+[ItemDef 018dd]
+DefName=iMandrakeRoot1
+Name=mandrake root
+NameLoc=1026365
+Type=tRawReagent
+TData1=iMandrake
+TData2=iSeed1
+TData3=iMandrakeRoot
+Can=CanIFlip|CanIStack
+DupeList=018de
+
+Category=Plants
+Subsection=Crops: Raw Reagents
+Description=Mandrake Root (Harvested)
+
+[ItemDef 018de]
+NameLoc=1026366
+DupeItem=018dd
+
+
+[ItemDef 018df]
+DefName=iMandrake
+Name=mandrake
+NameLoc=1026367
+Type=tCrops
+TData1=iMandrake
+TData2=0
+TData3=iMandrakeRoot1
+Can=CanIFlip
+DupeList=018e0
+
+Category=Plants
+Subsection=Crops: Raw Reagents
+Description=Mandrake (Stage 1)
+
+[ItemDef 018e0]
+NameLoc=1026368
+DupeItem=018df
+
+
+[ItemDef 018e1]
+DefName=iGarlic1
+Name=garlic
+NameLoc=1026369
+Type=tCrops
+TData1=iGarlic1
+TData2=0
+TData3=iGarlicBulb
+Can=CanIFlip
+Weight=1
+DupeList=018e2
+
+Category=Plants
+Subsection=Crops: Raw Reagents
+Description=Garlic (Stage 1)
+
+[ItemDef 018e2]
+NameLoc=1026370
+DupeItem=018e1
+
+
+[ItemDef 018e3]
+//garlic bulb with sprout (as if just pulled from the ground)
+DefName=iGarlicBulb
+Name=garlic bulb
+NameLoc=1026371
+Type=tRawReagent
+TData1=iGarlic1
+TData2=iSeed1
+TData3=iGarlic
+Can=CanIFlip|CanIStack
+Weight=1
+DupeList=018E4
+
+Category=Plants
+Subsection=Crops: Raw Reagents
+Description=Garlic Bulb (Harvested)
+
+[ItemDef 018E4]
+NameLoc=1026372
+DupeItem=018E3
+
+
+[ItemDef 018E5]
+DefName=iNightshade1
+Name=nightshade
+NameLoc=1026373
+Type=tCrops
+TData1=iNightshade1
+TData2=0
+TData2=iNightshade2
+Can=CanIFlip
+Weight=1
+DupeList=018E6
+
+Category=Plants
+Subsection=Crops: Raw Reagents
+Description=Nightshade (Stage 1)
+
+[ItemDef 018E6]
+NameLoc=1026374
+DupeItem=018E5
+
+
+[ItemDef 018e7]
+DefName=iNightshade2
+Name=nightshade
+NameLoc=1026375
+Type=tRawReagent
+TData1=iNightshade1
+TData2=iSeed1
+TData3=iNightshade
+Can=CanIFlip|CanIStack
+Weight=1
+DupeList=018e8
+
+Category=Plants
+Subsection=Crops: Raw Reagents
+Description=Nightshade (Harvested)
+
+[ItemDef 018e8]
+NameLoc=1026376
+DupeItem=018e7
+
+
+[ItemDef 018E9]
+DefName=iGinseng1
+Name=ginseng
+NameLoc=1026377
+Type=tCrops
+TData1=iGinseng1
+TData2=0
+TData3=iGinsengRoot
+Can=CanIFlip
+Weight=1
+DupeList=018EA
+
+Category=Plants
+Subsection=Crops: Raw Reagents
+Description=Ginseng (Stage 1)
+
+[ItemDef 018EA]
+NameLoc=1026378
+DupeItem=018E9
+
+
+[ItemDef 018eb]
+DefName=iGinsengRoot
+Name=ginseng root
+NameLoc=1026379
+Type=tRawReagent
+TData1=iGinseng1
+TData2=iSeed1
+TData3=iGinseng		// Item to make
+Can=CanIFlip|CanIStack
+Weight=1
+DupeList=018EC
+
+Category=Plants
+Subsection=Crops: Raw Reagents
+Description=Ginseng Root (Harvested)
+
+[ItemDef 018ec]
+NameLoc=1026380
+DupeItem=018eb
+
+
+[EOF]

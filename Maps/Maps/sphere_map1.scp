@@ -389,6 +389,13 @@ Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
 Tag.GuardOwner=the town
 Tag.Music=MidiWind
 
+On=@Enter
+If (<Src.Magery> < 720) && (<Src.Int> < 20)
+ Src.SMsgL -1,503382	// You are not worthy of entrance to the city of Wind!
+ Return 1
+EndIf
+
+
 [AreaDef aTrammelWindEntrance]
 Name=Wind Entrance
 Group=Trammel: Wind
@@ -398,6 +405,7 @@ Rect=1375,847,1431,881,1
 Rect=1456,979,1466,1000,1
 Flags=RegionFlagNoBuilding
 Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
 
 [AreaDef aTrammelWindTunnels]
 Name=Wind Tunnels
@@ -413,6 +421,7 @@ Rect=5291,138,5316,156,1
 Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
 Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
 
+
 [AreaDef aTrammelWindCourtyard]
 Name=Wind Courtyard
 Group=Trammel: Wind
@@ -421,6 +430,7 @@ Rect=5201,8,5286,58,1
 Rect=5213,56,5278,99,1
 Flags=RegionFlagNoBuilding|RegionFlagUnderground|RegionAntiMagicRecallIn
 Events=rDefault,rDefaultRock,rDefaultWater,rDefaultTree,rDefaultGrass
+
 
 //Yew
 

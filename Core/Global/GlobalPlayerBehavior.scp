@@ -1,5 +1,5 @@
 [DefName GlobalPlayerControls]
-PreAoSDamage			0	// 1 is on 0 is off.
+PreAoSDamage					0	// 1 is on 0 is off.
 
 
 [Events eGlobalPlayerBehavior]
@@ -9,20 +9,25 @@ CheckExpansion
 On=@EquipTest
 CheckExpansion
 
+
 On=@Hit
-If (<dDef.PreAoSDamage>)
+If (<dDef0.PreAoSDamage>)
  If (<Src.FindLayer.LayerHand1.IsWeapon>)
   Ref1=<Src.FindLayer.LayerHand1.UID>
-  ArgN1=<R<EVal <Ref1.Dam.Min>/2>,<EVal <Ref1.Dam.Max>*2>>
+  ArgN1=<R<EVal <Ref1.Dam.Lo>/2>,<EVal <Ref1.Dam.Hi>*2>>
  Else
   ArgN1=<R1,8>
  EndIf
- Return 0
 EndIf
+
+If <ArgO.Velocity>
+ VelocityAttack
+EndIf
+
 
 On=@Mount
 // GM's Can mount anything; unless the GM is a gargoyle.
-If (<Src.IsGm>) && !(<Src.IsGargoyle>)
+If (<Src.IsGM>) && !(<Src.IsGargoyle>)
  Return 0
 EndIf
 
@@ -48,24 +53,24 @@ EndIf
 
 // Item Triggers
 On=@ItemPickUp_Ground
-If (<Act.Amount> == 1) && (<Act.Weight> == 255)
- If !(<Act.BaseWeight>) ||  (<Act.BaseWeight> == 255)
+If (<Act.Amount> == 1) && (<Act.Weight> > 254)
+ If !(<Act.BaseWeight>) ||  (<Act.BaseWeight> > 254)
   Return 1
  EndIf
 EndIf
 
 
 On=@ItemPickUp_Self
-If (<ArgO.Amount> == 1) && (<ArgO.Weight> == 255)
- If !(<ArgO.BaseWeight>) ||  (<ArgO.BaseWeight> == 255)
+If (<ArgO.Amount> == 1) && (<ArgO.Weight> > 254)
+ If !(<ArgO.BaseWeight>) ||  (<ArgO.BaseWeight> > 254)
   Return 1
  EndIf
 EndIf
 
 
 On=@ItemPickUp_Pack
-If (<Act.Amount> == 1) && (<Act.Weight> == 255)
- If !(<Act.BaseWeight>) ||  (<Act.BaseWeight> == 255)
+If (<Act.Amount> == 1) && (<Act.Weight> > 254)
+ If !(<Act.BaseWeight>) ||  (<Act.BaseWeight> > 254)
   Return 1
  EndIf
 EndIf
@@ -73,13 +78,29 @@ EndIf
 
 // Spell Triggers
 On=@SpellSelect
+// This check wont apply to chivalry
+// ManaUse fix to match EA and not have use on select or fail.
+If (!<ArgN1> >= 201) && (!<ArgN1> <= 210)
+ If (<Serv.Spell.<ArgN1>.SkillReq.Key> < <Serv.Spell.<ArgN1>.SkillReq.Val>)
+  Return 1
+ EndIf
+ If (<Mana> < <Serv.Spell.<ArgN1>.ManaUse>)
+  Return 1
+ EndIf
+ CTag.ManaUse=<ArgN2>
+ ArgN2=0
+EndIf
+Return 6
+
+
+On=@SpellSuccess
 // Mana Phase Checks (No mana use on non-harmful spells)
 // Check For Mana Phase Memory
 If (<FindID.iManaPhaseMemory>)
  Ref1=<FindID.iManaPhaseMemory.UID>
  If (<Ref1.More1> < 2)
   If (!<Serv.Spell.<ArgN1>.Flags> &SpellFHarm|SpellFDamage)
-   ArgN2=0
+   CTag.ManaUse=0
    Ref1.More1 ++
    If (<Ref1.More1> == 2)	// Damaging spells set to 2 instantly
     Ref1.Timer=30
@@ -89,6 +110,10 @@ If (<FindID.iManaPhaseMemory>)
   EndIf
  EndIf
 EndIf
+
+// Mana Loss correctly done.
+Mana -= <CTag0.ManaUse>
+CTag.ManaUse=
 
 
 [EOF]

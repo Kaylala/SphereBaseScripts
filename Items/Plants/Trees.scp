@@ -1,0 +1,353 @@
+[ItemDef 0C95]
+DefName=iCoconutPalm
+NameLoc=1023221
+Type=tTree
+Weight=255
+
+Category=Plants
+Subsection=Trees
+Description=Coconut Palm
+
+On=@Create
+Fruit=iCoconut2
+
+
+[ItemDef 0c96]
+DefName=iDatePalm
+Name=date palm
+NameLoc=1023222
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Trees
+Description=Date Palm
+
+On=@Create
+Fruit=iBunchOfDates
+
+
+[ItemDef 0C99]
+DefName=iSmallPalm1
+Name=small palm
+NameLoc=1023225
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Trees
+Description=Small Palm 1
+
+
+[ItemDef 0c9a]
+DefName=iSmallPalm2
+Name=small palm
+NameLoc=1023226
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Trees
+Description=Small Palm 2
+
+
+[ItemDef 0c9b]
+DefName=iSmallPalm3
+Name=small palm
+NameLoc=1023227
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Trees
+Description=Small Palm 3
+
+
+[ItemDef 0c9c]
+DefName=iSmallPalm4
+Name=small palm
+NameLoc=1023228
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Trees
+Description=Small Palm 4
+
+
+[ItemDef 0c9d]
+DefName=iSmallPalm5
+Name=small palm
+NameLoc=1023229
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Trees
+Description=Small Palm 5
+
+
+[ItemDef 0c9e]
+DefName=iOhiiTree
+Name=o'hii tree
+NameLoc=1023230
+Type=tTree
+Weight=255
+
+Category=Plants
+Subsection=Trees
+Description=O'hii Tree
+
+
+[ItemDef 0cc9]
+DefName=iSpider Tree
+Name=spider tree
+NameLoc=1023273
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Plants
+Description=Spider Tree
+
+
+[ItemDef 0ca6]
+DefName=iPonytailPalm
+Name=ponytail palm
+NameLoc=1023238
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Trees
+Description=Ponytail Palm
+
+
+[ItemDef 0ca8]
+DefName=iSmallBananaTree
+Name=small banana tree
+NameLoc=1023240
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Plants
+Description=Small Banana Tree
+
+
+[ItemDef 0caa]
+DefName=iBananaTree1
+Name=banana tree
+NameLoc=1023242
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Plants
+Description=Banana Tree 1
+
+On=@Create
+Fruit=iBanana2
+
+
+[ItemDef 0cab]
+DefName=iBananaTree2
+Name=banana tree
+NameLoc=1023243
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Plants
+Description=Banana Tree 2
+
+On=@Create
+Fruit=iBanana2
+
+
+// Tuscany Pine (Christmas Tree)
+[ItemDef 01b7e]
+DefName=iTuscanyPine
+Name=tuscany pine
+NameLoc=1027038
+Type=tTree
+Weight=255
+
+Category=Plants
+Subsection=Trees
+Description=Tuscany Pine
+
+
+// Cherry Blossoms
+[ItemDef 02471]
+DefName=iCherryBlossoms1
+Name=cherry blossoms
+NameLoc=1029329
+Type=tFoliage
+Weight=255
+
+Category=Plants
+Subsection=Trees
+Description=Cherry Blossoms 1
+
+
+[ItemDef 02472]
+DefName=iCherryBlossoms2
+Name=cherry blossoms
+NameLoc=1029330
+Type=tFoliage
+Weight=255
+
+Category=Plants
+Subsection=Trees
+Description=Cherry Blossoms 2
+
+
+[ItemDef 02473]
+DefName=iCherryBlossoms3
+Name=cherry blossoms
+NameLoc=1029331
+Type=tFoliage
+Weight=255
+
+Category=Plants
+Subsection=Trees
+Description=Cherry Blossoms 3
+
+
+[ItemDef 02474]
+DefName=iCherryBlossoms4
+Name=cherry blossoms
+NameLoc=1029332
+Type=tFoliage
+Weight=255
+
+Category=Plants
+Subsection=Trees
+Description=Cherry Blossoms 4
+
+
+[ItemDef 02475]
+DefName=iCherryBlossoms5
+Name=cherry blossoms
+NameLoc=1029333
+Type=tFoliage
+Weight=255
+
+Category=Plants
+Subsection=Trees
+Description=Cherry Blossoms 5
+
+
+// Cherry Tree
+[ItemDef 02476]
+DefName=iCherryTree1
+Name=cherry tree
+NameLoc=1029334
+Type=tTree
+Can=CanIBlock
+Weight=255
+
+Category=Plants
+Subsection=Trees
+Description=Cherry Tree 1
+
+
+[ItemDef 02477]
+DefName=iCherryTree2
+Name=cherry tree
+NameLoc=1029335
+Type=tTree
+Can=CanIBlock
+Weight=255
+
+Category=Plants
+Subsection=Trees
+Description=Cherry Tree 2
+
+
+[ItemDef 02478]
+DefName=iMapleTree1
+Name=maple tree
+NameLoc=1029336
+Type=tFoliage
+Weight=255
+
+Category=Plants
+Subsection=Trees
+Description=Maple Tree 1 (Foliage)
+
+
+[ItemDef 02479]
+DefName=iMapleTree2
+Name=maple tree
+NameLoc=1029337
+Type=tFoliage
+Weight=255
+
+Category=Plants
+Subsection=Trees
+Description=Maple Tree 2 (Foliage)
+
+
+[ItemDef 0247a]
+DefName=iMapleTree3
+Name=maple tree
+NameLoc=1029338
+Type=tFoliage
+Weight=255
+
+Category=Plants
+Subsection=Trees
+Description=Maple Tree 3 (Foliage)
+
+
+[ItemDef 0247b]
+DefName=iMapleTree4
+Name=maple tree
+NameLoc=1029339
+Type=tFoliage
+Weight=255
+
+Category=Plants
+Subsection=Trees
+Description=Maple Tree 4 (Foliage)
+
+
+[ItemDef 0247c]
+DefName=iMapleTree5
+Name=maple tree
+NameLoc=1029340
+Type=tFoliage
+Weight=255
+
+Category=Plants
+Subsection=Trees
+Description=Maple Tree 5 (Foliage)
+
+
+[ItemDef 0247d]
+DefName=iMapleTree6
+Name=maple tree
+NameLoc=1029341
+Type=tTree
+Weight=255
+
+Category=Plants
+Subsection=Trees
+Description=Maple Tree 6 (Tree)
+
+
+[ItemDef 0247e]
+DefName=iMapleTree7
+Name=maple tree
+NameLoc=1029342
+Type=tTree
+Weight=255
+
+Category=Plants
+Subsection=Trees
+Description=Maple Tree 7 (Tree)
+
+
+[EOF]

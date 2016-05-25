@@ -1,0 +1,154 @@
+[ItemDef 0C37]
+DefName=iFlowers1
+Name=flowers
+NameLoc=1023127
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Flowers
+Description=Flowers 1
+
+
+[ItemDef 0C38]
+DefName=iFlowers2
+Name=flowers
+NameLoc=1023128
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Flowers
+Description=Flowers 2
+
+
+[ItemDef 0c45]
+DefName=iFlowers3
+Name=flowers
+NameLoc=1023141
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Flowers
+Description=Flowers 3
+
+
+[ItemDef 0c46]
+DefName=iFlowers4
+Name=flowers
+NameLoc=1023142
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Flowers
+Description=Flowers 4
+
+
+[ItemDef 0c47]
+DefName=iFlowers5
+Name=flowers
+NameLoc=1023143
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Flowers
+Description=Flowers 5
+
+
+[ItemDef 0c48]
+DefName=iFlowers6
+Name=flowers
+NameLoc=1023144
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Flowers
+Description=Flowers 6
+
+
+[ItemDef 0c49]
+DefName=iFlowers7
+Name=flowers
+NameLoc=1023145
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Flowers
+Description=Flowers 7
+
+
+[ItemDef 0c4a]
+DefName=iFlowers8
+Name=flowers
+NameLoc=1023146
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Flowers
+Description=Flowers 8
+
+
+[ItemDef 0c4b]
+DefName=iFlowers9
+Name=flowers
+NameLoc=1023147
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Flowers
+Description=Flowers 9
+
+
+[ItemDef 0c4c]
+DefName=iFlowers10
+Name=flowers
+NameLoc=1023148
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Flowers
+Description=Flowers 10
+
+
+[ItemDef 0c4d]
+DefName=iFlowers11
+Name=flowers
+NameLoc=1023149
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Flowers
+Description=Flowers 11
+
+
+[ItemDef 0c4e]
+DefName=iFlowers12
+Name=flowers
+NameLoc=1023150
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Flowers
+Description=Flowers 12
+
+
+[ItemDef 0284a]
+DefName=iFlowers13
+Name=flowers
+NameLoc=1030314
+Type=tNormal
+Weight=3
+
+Category=Plants
+Subsection=Flowers
+Description=Flowers 13 (Potted Flowers)

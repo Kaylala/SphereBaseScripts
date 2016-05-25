@@ -1,0 +1,19 @@
+[ItemDef 01a9c]
+DefName=iFlaxBundle
+Name=flax bundle%s
+NameLoc=1026812
+Type=tCotton
+Can=CanIFlip|CanIStack
+Weight=1
+DupeList=01A9D
+
+Category=Resources
+Subsection=Tailoring: Flax Bundle
+Description=Flax Bundle
+
+[ItemDef 01A9D]
+NameLoc=1026813
+DupeItem=01A9C
+
+
+[EOF]

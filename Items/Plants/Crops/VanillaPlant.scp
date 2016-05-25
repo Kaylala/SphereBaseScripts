@@ -1,0 +1,43 @@
+[ItemDef 04b8a]
+DefName=iVanilla1
+Name=vanilla
+NameLoc=1098212	// Vanilla
+Type=tCrops
+TData1=ivanilla1
+TData2=iVanilla2
+TData3=0
+
+Category=Plants
+Subsection=Crops: Vanilla
+Description=Vanilla Plant (Stage 1)
+
+
+[ItemDef 04b8b]
+DefName=iVanilla2
+Name=vanilla
+NameLoc=1098212	// Vanilla
+Type=tCrops
+TData1=ivanilla1
+TData2=iVanilla3
+TData3=0
+
+Category=Plants
+Subsection=Crops: Vanilla
+Description=Vanilla Plant (Stage 2)
+
+
+[ItemDef 04b8c]
+DefName=iVanilla3
+Name=vanilla
+NameLoc=1098212	// Vanilla
+Type=tCrops
+TData1=ivanilla1
+TData2=0
+TData3=iVanilla
+
+Category=Plants
+Subsection=Crops: Vanilla
+Description=Vanilla Plant (Stage 3)
+
+
+[EOF]

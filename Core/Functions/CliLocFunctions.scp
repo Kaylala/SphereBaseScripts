@@ -1,3 +1,30 @@
+[Function ArmorCliLocs]
+NameCliLoc
+AttrCliLoc
+WeightCliLoc
+ResistanceCliLoc
+ReqStrCliLoc
+DurabilityCliLoc
+
+
+[Function WeaponCliLocs]
+NameCliLoc
+AttrCliLoc
+WeightCliLoc
+DamageCliLoc
+SpeedCliLoc
+ReqStrCliLoc
+TwoHandsCliLoc
+SkillCliLoc
+DurabilityCliLoc
+
+
+[Function TalismanCliLocs]
+NameCliLoc
+AttrCliLoc
+WeightCliLoc
+
+
 [Function NameCliLoc]
 If (<Can> &CanIStack)
  If (<NameLoc>)
@@ -123,8 +150,11 @@ EndIf
 If (<DamChaos>)
  Src.AddCliLoc 1072846,<DamChaos>
 EndIf
-Src.AddCliLoc 1061168,<Dam.Min>,<Dam.Max>
-If Src.AddCliLoc 1061167,<QVal (<Tag0.Override.Speed>) ? <Tag.Override.Speed> : <Speed>>
+Src.AddCliLoc 1061168,<Dam.Lo>,<Dam.Hi>
+
+
+[Function SpeedCliLoc]
+Src.AddCliLoc 1061167,<QVal (<Tag0.Override.Speed>) ? <Tag.Override.Speed> : <Speed>>
 
 
 [Function TwoHandsCliLoc]

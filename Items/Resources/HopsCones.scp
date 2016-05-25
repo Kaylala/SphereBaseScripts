@@ -1,0 +1,14 @@
+[ItemDef 01AA2]
+DefName=iHopsCones
+Name=hops cones
+NameLoc=1026818
+Type=tNormal
+Can=CanIStack
+Weight=1
+
+Category=Resources
+Subsection=Hops Cones
+Description=Hops Cones
+
+
+[EOF]

@@ -1,0 +1,129 @@
+[Comment tVegetable_Notes]
+Need to still code this all in!
+
+TData1 = The ID of a t_crop item that this fruit comes from (If not set, this fruit may not have a seed, use zero to be certain)
+MoreM = Is the amount (0 to 127) of "food units" that will be gained when the item is used (eaten)
+MoreZ = Is the poison level of the fruit
+
+
+[ItemDef 0C6D]
+DefName=iOnion
+Name=onion%s
+NameLoc=1023181
+Type=tVegetable
+//TData1=iCropOnion
+Can=CanIFlip|CanISTack
+Weight=1
+//Resoueces=1 iCropOnion
+DupeList=0C6E
+
+Category=Resources
+Subsection=Food: Vegetables
+Description=Onion
+
+On=@Create
+MoreM=1
+
+[ItemDef 0C6E]
+NameLoc=1023182
+DupeItem=0C6D
+
+
+[ItemDef 0c70]
+DefName=iHeadOfLettuce
+Name=head of lettuce
+NameLoc=1023184
+Type=tVegetable
+//TData1=i_crop_lettuce
+Can=CanIFlip|CanIStack
+Weight=1
+DupeList=0c71
+
+Category=Resources
+Subsection=Food: Vegetables
+Description=Head of Lettuce
+
+On=@Create
+MoreM=1
+
+[ItemDef 0c71]
+NameLoc=1023185
+DupeItem=0c70
+
+
+[ItemDef 0C77]
+DefName=iCarrot
+Name=carrot%s
+NameLoc=1023191
+Type=tVegetable
+//TData1=iCropCarrot
+Can=CanIFlip|CanIStack
+Weight=1
+//Resources=1 iCropCarrot
+DupeList=0c78
+
+Category=Resources
+Subsection=Food: Vegetables
+Description=Carrot
+
+On=@Create
+MoreM=1
+
+[ItemDef 0C78]
+NameLoc=1023192
+DupeItem=0C77
+
+
+[ItemDef 0c7b]
+DefName=iHeadOfCabbage
+Name=head of cabbage
+NameLoc=1023195
+Type=tVegetable
+//TData1=i_crop_cabbage
+Can=CanIFlip|CanIStack
+Weight=1
+DupeList=0c7c
+
+Category=Resources
+Subsection=Food: Vegetables
+Description=Cabbage
+
+On=@Create
+MoreM=1
+
+[ItemDef 0c7c]
+NameLoc=1023196
+DupeItem=0c7b
+
+
+[ItemDef 0c7f]
+DefName=iEarOfCorn
+Name=ear of corn
+NameLoc=1023199
+Type=tVegetable
+//TData1=iCropCorn
+Can=CanIFlip|CanIStack
+Weight=1
+DupeList=0c80,0c81,0c82
+
+Category=Resources
+Subsection=Food: Vegetables
+Description=Ear of Corn
+
+On=@Create
+MoreM=1
+
+[ItemDef 0c80]
+NameLoc=1023200
+DupeItem=0c7f
+
+[ItemDef 0c81]
+NameLoc=1023201
+DupeItem=0c7f
+
+[ItemDef 0c82]
+NameLoc=1023202
+DupeItem=0c7f
+
+
+[EOF]

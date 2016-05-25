@@ -1,0 +1,33 @@
+[ItemDef 04792]
+DefName=iRuinFlower
+//Name=ruin flower
+Type=tNormal
+Can=CanIFlip
+Weight=255
+DupeList=04794
+
+Category=Plants
+Subsection=Vines: Ruin
+Description=Ruin Flower
+
+[ItemDef 04794]
+DupeItem=04792
+
+
+[ItemDef 04793]
+DefName=iRuinPlant
+//Name=ruin plant
+Type=tNormal
+Can=CanIFlip
+Weight=255
+DupeList=04795
+
+Category=Vegetation
+Subsection=Vines: Ruin
+Description=Ruin Plant (Flowering)
+
+[ItemDef 04795]
+DupeItem=04793
+
+
+[EOF]

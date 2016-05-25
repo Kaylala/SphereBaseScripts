@@ -5,8 +5,8 @@ NameLoc=1033040		// Blank
 Type=tNormal
 Weight=5
 
-Category=Decoration - Wall Carvings & Statues
-Subsection=Sculptures: Unfinished
+Category=Decorations
+Subsection=Sculptures: Statue Block
 Description=Statue Block
 
 
@@ -232,79 +232,3 @@ DupeItem=0365a
 
 
 
-[ItemDef 04960]
-DefName=iTopiaryGoblin2
-Name=topiary goblin
-Can=CanIFlip
-Type=tNormal
-Weight=12.0
-Category=Decoration - Wall Carvings & Statues
-Subsection=Sculptures: Topiary
-Description=Topiary Goblin 2
-DupeList=04966
-
-[ItemDef 04966]
-//Topiary Goblin 2
-DupeItem=04960
-
-[ItemDef 0497d]
-DefName=iTopiaryOstard
-Name=topiary ostard
-Can=CanIFlip
-Type=tNormal
-Weight=12.0
-Category=Decoration - Wall Carvings & Statues
-Subsection=Sculptures: Topiary
-Description=Topiary Ostard
-DupeList=0497e
-
-[ItemDef 0497e]
-//Topiary Ostard
-DupeItem=0497d
-
-[ItemDef 04919]
-DefName=iTopiaryGoblin
-Name=topiary goblin
-Can=CanIFlip
-Type=tNormal
-Weight=12.0
-Category=Decoration - Wall Carvings & Statues
-Subsection=Sculptures: Topiary
-Description=Topiary Goblin
-DupeList=0491a
-
-[ItemDef 0491a]
-//Topiary Goblin
-DupeItem=04919
-
-[ItemDef 0491b]
-DefName=iTopiaryLlama
-Name=topiary llama
-Can=CanIFlip
-Type=tNormal
-Weight=12.0
-Category=Decoration - Wall Carvings & Statues
-Subsection=Sculptures: Topiary
-Description=Topiary Llama
-DupeList=04930
-
-[ItemDef 04930]
-//Topiary Llama
-DupeItem=0491b
-
-
-[ItemDef 04f7a]
-//Arrow (cupid)
-[ItemDef 04f7b]
-//Arrow (cupid)
-[ItemDef 04f7c]
-//Cupid Statue
-[ItemDef 04f7d]
-//Cupid Statue
-[ItemDef 04f7e]
-//Arrow (cupid)
-[ItemDef 04f7f]
-//Arrow (cupid)
-
-
-[EOF]

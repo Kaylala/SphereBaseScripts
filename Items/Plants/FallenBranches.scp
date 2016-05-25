@@ -1,0 +1,37 @@
+[ItemDef 0d3b]
+DefName=iFallenBranch1
+Name=fallen branch
+NameLoc=1023387
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Fallen Branches
+Description=Fallen Branch 1
+
+
+[ItemDef 0d3c]
+DefName=iFallenBranch2
+Name=fallen branch
+NameLoc=1023388
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Fallen Branches
+Description=Fallen Branch 2
+
+
+[ItemDef 0d3d]
+DefName=iFallenBranch3
+Name=fallen branch
+NameLoc=1023389
+Type=tNormal
+Weight=255
+
+Category=Plants
+Subsection=Fallen Branches
+Description=Fallen Branch 3
+
+
+[EOF]

@@ -94,7 +94,7 @@ tLockedPortculis			68 // this portcullis must be triggered.
 tLockedPort					tLockedPortculis
 tSpawnItem					69 // spawn other items.
 tTelescope					70 // big telescope pic.
-tBed						71 // bed.
+tBed						71 // bed. (Has no real code)
 tGold						72 // gold coin
 tMap						73 // map object with pins.
 tEqMemoryObj				74 // char has memory link to some obj. (i am fighting with someone. this records the fight.)
@@ -110,7 +110,7 @@ tCannonBall					82 //
 tLeatherArmor				83 // non metallic armor (t_clothing) (Was t_Armor_Leather)
 tSeed						84 // fruit to seed
 tJunk						85 // never used (Note: What's the difference between this and tGarbage?)
-tCrystalBall				86 // (Note: What does this do?)
+tCrystalBall				86 // (Note: This really does nothing according to source)
 tSwamp						87 // swamp (smelly)
 tMessage					88 // user written message item. (for bboard usually)
 tRawReagent					89 // freshly grown reagents...not processed yet.
@@ -125,6 +125,8 @@ tGrass						97 // Can be eaten by grazing animals
 tBoulder					98 // Throwable boulder (Note: was tARock)
 tTracker					99 // Points to a linked object.
 tSound						100 // this is a sound source.
+tMusicBox					tSound
+tHarpsichord				tSound
 tTownStone					101 // town stones. everyone free to join.
 tCrookWeapon				102 // Herding (Note: Was t_Weapon_Mace_Crook)
 tPickaxeWeapon				103 // (Note: Was t_Weapon_Mace_Pick)

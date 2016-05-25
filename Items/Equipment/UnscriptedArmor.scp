@@ -4,35 +4,6 @@ Subsection=Bad Tiles
 Description=Unused Tile 030f
 
 
-
-[ItemDef 0236c]
-DefName=iHelmKabuto
-Type=tArmor
-FLIP=1
-//Armor=25
-VALUE=65
-Weight=10.0
-Resources=10 iIronIngot
-SkillMake=Blacksmithing 63.0,Armslore 25.0
-Category=Equipment
-Subsection=Platemail Armor
-Description=Kabuto
-ReqStr=80
-CanUse=CanUHuman|CanUElf
-DupeList=0236d
-On=@Create
-HitPoints={36 48}
-ResCold=3
-ResEnergy=2
-ResFire=3
-ResPhysical=5
-ResPoison=2
-
-[ItemDef 0236d]
-//Kabuto
-DupeItem=0236c
-
-
 [ItemDef 025e4]
 DefName=iArmorFemaleShortsSpiked
 //Name=spiked shorts

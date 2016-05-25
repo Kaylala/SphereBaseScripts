@@ -1,0 +1,153 @@
+//////////////////////
+// 17th Anniversary //
+//////////////////////
+
+
+[ItemDef 099C8]
+DefName=iMarbleBar1
+Name=marble bar
+NameLoc=1123392
+Type=tNormal
+Weight=5
+
+Category=Systems
+Subsection=Anniversary Gifts: 17th
+Description=Marble Bar 1
+
+
+[ItemDef 099C9]
+DefName=iMarbleBar2
+NameLoc=1123393
+Type=tContainer
+TData2=0104
+Weight=5
+
+Category=Systems
+Subsection=Anniversary Gifts: 17th
+Description=Marble Bar 2
+
+
+[ItemDef 099CA]
+DefName=iMarbleBar3
+Name=marble bar
+NameLoc=1123394
+Type=tNormal
+Weight=5
+DupeList=099CB,09A16,09A17
+
+Category=Systems
+Subsection=Anniversary Gifts: 17th
+Description=Marble Bar 3 (Empty)
+
+[ItemDef 099CB]
+NameLoc=1123395
+DupeItem=099CA
+
+[ItemDef 09A16]
+NameLoc=1123470
+DupeItem=099CA
+
+[ItemDef 09A17]
+NameLoc=1123471
+DupeItem=099CA
+
+
+[ItemDef 09A14]
+DefName=iMarbleBar4
+Name=marble bar
+NameLoc=1123468
+Type=tNormal
+Weight=5
+DupeList=09A15,09A18,09A19
+
+Category=Systems
+Subsection=Anniversary Gifts: 17th
+Description=Marble Bar 4 (Filled)
+
+[ItemDef 09A15]
+NameLoc=1123469
+DupeItem=09A14
+
+[ItemDef 09A18]
+NameLoc=1123472
+DupeItem=09A14
+
+[ItemDef 09A19]
+NameLoc=1123473
+DupeItem=09A14
+
+
+[ItemDef 09A0C]
+DefName=iBarSign
+Name=Bar
+NameLoc=1123460
+Type=tNormal
+Weight=1
+DupeList=09A10
+
+Category=Systems
+Subsection=Anniversary Gifts: 17th
+Description=Bar Sign
+
+On=@DClick
+If (<DispIDDec> == <BaseID>)
+ DispID=09A0C
+Else
+ DispID=<BaseID>
+EndIf
+
+[ItemDef 09A10]
+NameLoc=1123464
+DupeItem=09A0C
+
+On=@DClick
+If (<DispIDDec> == <BaseID>)
+ DispID=09A0C
+Else
+ DispID=<BaseID>
+EndIf
+
+[ItemDef 09A0D]
+NameLoc=1123461
+
+Category=Systems
+Subsection=Anniversary Gifts: 17th
+Description=Bar Sign (Anim Frame)
+
+[ItemDef 09A0E]
+NameLoc=1123462
+
+Category=Systems
+Subsection=Anniversary Gifts: 17th
+Description=Bar Sign (Anim Frame)
+
+[ItemDef 09A0F]
+NameLoc=1123463
+
+Category=Systems
+Subsection=Anniversary Gifts: 17th
+Description=Bar Sign (Anim Frame)
+
+[ItemDef 09A11]
+NameLoc=1123465
+
+Category=Systems
+Subsection=Anniversary Gifts: 17th
+Description=Bar Sign (Anim Frame)
+
+[ItemDef 09A12]
+NameLoc=1123466
+
+Category=Systems
+Subsection=Anniversary Gifts: 17th
+Description=Bar Sign (Anim Frame)
+
+[ItemDef 09A13]
+NameLoc=1123467
+
+Category=Systems
+Subsection=Anniversary Gifts: 17th
+Description=Bar Sign (Anim Frame)
+
+
+[EOF]
