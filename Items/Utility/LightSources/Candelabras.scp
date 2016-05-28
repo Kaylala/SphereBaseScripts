@@ -4,6 +4,7 @@ Name=candelabra
 NameLoc=1022599
 Type=tUnlitLight
 TData3=iCandelabraLit1
+Can=CanILight
 Weight=3
 SkillMake=Tinkering 550
 Resources=4 iIronIngot
@@ -20,6 +21,7 @@ Name=candelabra
 NameLoc=1022845
 Type=tLitLight
 TData3=iCandelabra1
+Can=CanILight
 Weight=10
 
 Category=Utility
@@ -51,6 +53,7 @@ Name=candelabra
 NameLoc=1022601
 Type=tUnlitLight
 TData3=iCandelabraLit2
+Can=CanILight
 Weight=255
 
 Category=Utility
@@ -64,6 +67,7 @@ Name=candelabra
 NameLoc=1022854
 Type=tLitLight
 TData3=iCandelabra2
+Can=CanILight
 Weight=10
 
 Category=Utility
@@ -94,6 +98,7 @@ Name=Ter-Mur style candelabra
 NameLoc=1095313
 Type=tUnlitLight
 TData3=iTerMurStyleCandelabraLit
+Can=CanILight
 Weight=10
 SkillMake=Tinkering 550
 Resources=4 iIronIngot
@@ -110,6 +115,7 @@ Name=Ter-Mur style candelabra
 NameLoc=1095313
 Type=tLitLight
 TData3=iTerMurStyleCandelabra
+Can=CanILight
 Weight=10
 
 Category=Utility

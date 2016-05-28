@@ -40,6 +40,7 @@ Scripts/Items/Decorations/
 Scripts/Items/Decorations/Furniture/
 Scripts/Items/Decorations/Glassware/
 Scripts/Items/Decorations/Miniatures/
+Scripts/Items/Decorations/Pottery/
 Scripts/Items/Decorations/Sculptures/
 Scripts/Items/Effects/
 Scripts/Items/Equipment/
@@ -48,24 +49,31 @@ Scripts/Items/Equipment/Clothing/
 Scripts/Items/Equipment/ColoredArmor/
 Scripts/Items/Equipment/Weapons/
 Scripts/Items/Geology/
+Scripts/Items/GMItems/
 Scripts/Items/Magic/
 Scripts/Items/Miscellaneous/
 Scripts/Items/Multis/
 Scripts/Items/Plants/
+Scripts/Items/Plants/Crops/
+Scripts/Items/Plants/Vines/
 Scripts/Items/Professions/
 Scripts/Items/Resources/
 Scripts/Items/Resources/Fishing/
+Scripts/Items/Resources/Food/
 Scripts/Items/Resources/Lumberjacking/
 Scripts/Items/Resources/Mining/
 Scripts/Items/Resources/PeerlessIngredients/
 Scripts/Items/Resources/Skinning/
+Scripts/Items/Resources/Tailoring/
 Scripts/Items/ShipParts/
+Scripts/Items/Siege/
 Scripts/Items/Structures/
 Scripts/Items/Structures/Doors/
 Scripts/Items/Structures/Floors/
 Scripts/Items/Systems/
 Scripts/Items/Systems/AnniversaryGifts/
 Scripts/Items/Systems/CooperativeCollection/
+Scripts/Items/Systems/Gardening/
 Scripts/Items/Systems/Holidays/
 Scripts/Items/Systems/QuestItems/
 Scripts/Items/Systems/VeteranRewards/
@@ -77,8 +85,8 @@ Scripts/Mobiles/
 Scripts/Mobiles/Animals/
 Scripts/Mobiles/Bosses/
 Scripts/Mobiles/Civilized/
-Scripts/Mobiles/Monsters/
 Scripts/Mobiles/Custom/				// Sphere's custom non-sense.
+Scripts/Mobiles/Monsters/
 
 
 // Maps //

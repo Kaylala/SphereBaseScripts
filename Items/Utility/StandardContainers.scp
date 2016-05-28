@@ -135,24 +135,20 @@ Subsection=Containers
 Description=Basket
 
 
-[ItemDef iBackpack]
-ID=09B2
+[ItemDef 0E75]
+DefName=iBackpack
 Name=backpack
-NameLoc=1022482
+NameLoc=1023701
+//NameLoc=1022482
 Type=tContainer
 TData2=03C
 Can=CanIDye|CanIFlip
 Weight=3
-DupeList=0E75
+DupeList=09B2
 
 Category=Utility
 Subsection=Containers
 Description=Backpack
-
-
-[ItemDef 0E75]
-NameLoc=1023701
-DupeItem=09B2
 
 
 [ItemDef 0E3C]

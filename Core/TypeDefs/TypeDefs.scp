@@ -1,3 +1,115 @@
+[TypeDef tSpellbook]
+On=@Create
+If (!<Tag0.SpellsCount>)
+ Tag0.SpellsCount <SpellsCount>
+EndIf
+
+On=@ClientTooltip
+SpellbookCliLocs
+Return 1
+
+On=@DropOn_Self
+If (<ArgO.Type> == tScroll)
+ Tag0.SpellsCount <SpellsCount>
+EndIf
+
+
+[TypeDef tSpellweavingSpellbook]
+On=@Create
+If (!<Tag0.SpellsCount>)
+ Tag0.SpellsCount <SpellsCount>
+EndIf
+
+On=@ClientTooltip
+SpellbookCliLocs
+Return 1
+
+On=@DropOn_Self
+If (<ArgO.Type> == tScroll)
+ Tag0.SpellsCount <SpellsCount>
+EndIf
+
+
+[TypeDef tNinjitsuSpellbook]
+On=@Create
+If (!<Tag0.SpellsCount>)
+ Tag0.SpellsCount <SpellsCount>
+EndIf
+
+On=@ClientTooltip
+SpellbookCliLocs
+Return 1
+
+On=@DropOn_Self
+If (<ArgO.Type> == tScroll)
+ Tag0.SpellsCount <SpellsCount>
+EndIf
+
+
+[TypeDef tBushidoSpellbook]
+On=@Create
+If (!<Tag0.SpellsCount>)
+ Tag0.SpellsCount <SpellsCount>
+EndIf
+
+On=@ClientTooltip
+SpellbookCliLocs
+Return 1
+
+On=@DropOn_Self
+If (<ArgO.Type> == tScroll)
+ Tag0.SpellsCount <SpellsCount>
+EndIf
+
+
+[TypeDef tChivalrySpellbook]
+On=@Create
+If (!<Tag0.SpellsCount>)
+ Tag0.SpellsCount <SpellsCount>
+EndIf
+
+On=@ClientTooltip
+SpellbookCliLocs
+Return 1
+
+On=@DropOn_Self
+If (<ArgO.Type> == tScroll)
+ Tag0.SpellsCount <SpellsCount>
+EndIf
+
+
+[TypeDef tMysticismSpellbook]
+On=@Create
+If (!<Tag0.SpellsCount>)
+ Tag0.SpellsCount <SpellsCount>
+EndIf
+
+On=@ClientTooltip
+SpellbookCliLocs
+Return 1
+
+On=@DropOn_Self
+If (<ArgO.Type> == tScroll)
+ Tag0.SpellsCount <SpellsCount>
+EndIf
+
+
+[TypeDef tNecromancySpellbook]
+On=@Create
+If (!<Tag0.SpellsCount>)
+ Tag0.SpellsCount <SpellsCount>
+EndIf
+
+On=@ClientTooltip
+SpellbookCliLocs
+Return 1
+
+On=@DropOn_Self
+If (<ArgO.Type> == tScroll)
+ Tag0.SpellsCount <SpellsCount>
+EndIf
+
+
 [TypeDef tChickenCoop]
 
 
@@ -50,9 +162,9 @@ EndIf
 [TypeDef tScroll]
 On=@ClientTooltip
 If (<Amount> > 1)
- Src.AddCliloc 1060845,<NameLoc>	// ~1_val~ scrolls
+ Src.AddCliloc 1060845,#<EVal <NameLoc>>	// ~1_val~ scrolls
 Else
- Src.AddCliloc 1060844,<NameLoc>	// ~1_val~ scroll
+ Src.AddCliloc 1060844,#<EVal <NameLoc>>	// ~1_val~ scroll
 EndIf
 Src.AddCliloc 1116466,<Amount>		// amount: ~1_val~
 WeightCliloc

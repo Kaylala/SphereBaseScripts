@@ -17,7 +17,7 @@ AttrStolen				02000  				// the item is hot. m_uidlink = previous owner.
 AttrCanDecay			04000  				// Item can decay. but it would seem that it wont (AttrNeverMove etc)
 AttrStatic				08000  				// worldforge merge marker. (not used)
 AttrExceptional			010000				// is exceptional
-AttrEnhanced			020000				// is enchanted
+AttrEnchanted			020000				// is enchanted
 AttrImbued				040000				// is imbued
 AttrQuestItem			080000				// is quest item
 AttrInsured				0100000				// Is insured
@@ -27,7 +27,7 @@ AttrArtifact			0800000				// artifact
 AttrLockedDown			01000000			// locked down
 AttrSecured				02000000			// secured
 AttrReforged			04000000			// Is Runic Reforged.
-AttrLockedDown			08000000			// Locked Down House Item
+AttrOpened				08000000			// Opened
 AttrShardBound			010000000			// Shard Bound item (Cannot be transferred)
 AttrAccountBound		020000000			// Account Bound Item
 AttrCharacterBound		040000000			// Character Bound Item (for use with Owned by, or without)
@@ -66,7 +66,9 @@ AttrShipwreckItem		040000000000000		// Recovered from shipwreck
 AttrFactionItem			080000000000000		// Faction Item (Has cliloc)
 AttrVvVItem				0100000000000000	// VvV Item (Has CliLoc)
 
-AttrEnchanted			AttrEnhanced
+AttrEnhanced			AttrEnchanted
+AttrUBWS				AttrUseBestWeaponSkill
+AttrNoDropTrade			AttrNoDrop|AttrNoTrade
 
 
 [EOF]

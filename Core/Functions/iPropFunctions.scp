@@ -30,7 +30,7 @@ Else
  UseCur=<UsesMax>
 EndIf
 If (<UsesCur> != <UsesMax>)
- TimerF <Recharge.ArgV1>,Recharge
+ TimerF <Recharge.ArgV1>,AutoRecharge
 EndIf
 
 
@@ -149,6 +149,13 @@ If (!<ArgN>)
  Return <BonusMana>
 EndIf
 BonusMana=<ArgN>
+
+
+[Function SpellDamageIncrease]
+If (!<ArgN>)
+ Return <IncreaseSpellDam>
+EndIf
+IncreaseSpellDam=<ArgN>
 
 
 [Function Velocity]

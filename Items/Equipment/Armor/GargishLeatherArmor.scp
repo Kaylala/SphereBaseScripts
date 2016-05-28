@@ -11,7 +11,14 @@ ReqStr=25
 SkillMake=Tailoring 539
 Resources=8 iPlainLeather
 Material=tLeather
+AlterItem=iGargishLeatherArms2
 DupeList=04047
+
+ResPhysical=5
+ResFire=6
+ResCold=7
+ResPoison=6
+ResEnergy=6
 
 Category=Equipment
 Subsection=Armor: Gargish Leather Armor
@@ -20,13 +27,7 @@ Description=Gargish Leather Arms
 On=@Create
 HitPoints={36 48}
 
-ResPhysical=5
-ResFire=6
-ResCold=7
-ResPoison=6
-ResEnergy=6
-
-{ItemDef 04047}
+[ItemDef 04047]
 NameLoc=1095327
 DupeItem=0301
 
@@ -44,7 +45,14 @@ ReqStr=25
 SkillMake=Tailoring 539
 Resources=8 iPlainLeather
 Material=tLeather
+AlterItem=iGargishLeatherArms1
 DupeList=04048
+
+ResPhysical=5
+ResFire=6
+ResCold=7
+ResPoison=6
+ResEnergy=6
 
 Category=Equipment
 Subsection=Armor: Gargish Leather Armor
@@ -52,12 +60,6 @@ Description=Gargish Leather Arms (Variant 2)
 
 On=@Create
 HitPoints={36 48}
-
-ResPhysical=5
-ResFire=6
-ResCold=7
-ResPoison=6
-ResEnergy=6
 
 [ItemDef 04048]
 NameLoc=1095328
@@ -77,7 +79,14 @@ ReqStr=25
 SkillMake=Tailoring 705
 Resources=8 iPlainLeather
 Material=tLeather
+AlterItem=iGargishLeatherChest2
 DupeList=04049
+
+ResPhysical=5
+ResFire=6
+ResCold=7
+ResPoison=6
+ResEnergy=6
 
 Category=Equipment
 Subsection=Armor: Gargish Leather Armor
@@ -85,12 +94,6 @@ Description=Gargish Leather Chest (Variant 1)
 
 On=@Create
 HitPoints={36 48}
-
-ResPhysical=5
-ResFire=6
-ResCold=7
-ResPoison=6
-ResEnergy=6
 
 [ItemDef 04049]
 NameLoc=1095329
@@ -110,7 +113,14 @@ ReqStr=25
 SkillMake=Tailoring 705
 Resources=8 iPlainLeather
 Material=tLeather
+AlterItem=iGargishLeatherChest1
 DupeList=0404A
+
+ResPhysical=5
+ResFire=6
+ResCold=7
+ResPoison=6
+ResEnergy=6
 
 Category=Equipment
 Subsection=Armor: Gargish Leather Armor
@@ -118,12 +128,6 @@ Description=Gargish Leather Chest (Variant 2)
 
 On=@Create
 HitPoints={36 48}
-
-ResPhysical=5
-ResFire=6
-ResCold=7
-ResPoison=6
-ResEnergy=6
 
 [ItemDef 0404A]
 NameLoc=1095330
@@ -143,7 +147,14 @@ ReqStr=20
 SkillMake=Tailoring 663
 Resources=10 iPlainLeather
 Material=tLeather
+AlterItem=iGargishLeatherLeggings2
 DupeList=0404D
+
+ResPhysical=5
+ResFire=6
+ResCold=7
+ResPoison=6
+ResEnergy=6
 
 Category=Equipment
 Subsection=Armor: Gargish Leather Armor
@@ -151,12 +162,6 @@ Description=Gargish Leather Leggings (Variant 1)
 
 On=@Create
 HitPoints={36 48}
-
-ResPhysical=5
-ResFire=6
-ResCold=7
-ResPoison=6
-ResEnergy=6
 
 [ItemDef 0404D]
 NameLoc=1095333
@@ -176,7 +181,14 @@ ReqStr=20
 SkillMake=Tailoring 663
 Resources=10 iPlainLeather
 Material=tLeather
+AlterItem=iGargishLeatherLeggings1
 DupeList=0404E
+
+ResPhysical=5
+ResFire=6
+ResCold=7
+ResPoison=6
+ResEnergy=6
 
 Category=Equipment
 Subsection=Armor: Gargish Leather Armor
@@ -184,12 +196,6 @@ Description=Gargish Leather Leggings (Variant 2)
 
 On=@Create
 HitPoints={36 48}
-
-ResPhysical=5
-ResFire=6
-ResCold=7
-ResPoison=6
-ResEnergy=6
 
 [ItemDef 0404E]
 NameLoc=1095334
@@ -209,7 +215,14 @@ ReqStr=25
 SkillMake=Tailoring 580
 Resources=6 iPlainLeather
 Material=tLeather
+AlterItem=iGargishLeatherKilt2
 DupeList=0404B
+
+ResPhysical=5
+ResFire=6
+ResCold=7
+ResPoison=6
+ResEnergy=6
 
 Category=Equipment
 Subsection=Armor: Gargish Leather Armor
@@ -217,12 +230,6 @@ Description=Gargish Leather Kilt (Variant 1)
 
 On=@Create
 HitPoints={36 48}
-
-ResPhysical=5
-ResFire=6
-ResCold=7
-ResPoison=6
-ResEnergy=6
 
 [ItemDef 0404B]
 NameLoc=1095331
@@ -242,7 +249,14 @@ ReqStr=25
 SkillMake=Tailoring 580
 Resources=6 iPlainLeather
 Material=tLeather
+AlterItem=iGargishLeatherKilt1
 DupeList=0404C
+
+ResPhysical=5
+ResFire=6
+ResCold=7
+ResPoison=6
+ResEnergy=6
 
 Category=Equipment
 Subsection=Armor: Gargish Leather Armor
@@ -250,12 +264,6 @@ Description=Gargish Leather Kilt (Variant 2)
 
 On=@Create
 HitPoints={36 48}
-
-ResPhysical=5
-ResFire=6
-ResCold=7
-ResPoison=6
-ResEnergy=6
 
 [ItemDef 0404C]
 NameLoc=1095332

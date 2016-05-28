@@ -13,18 +13,18 @@ Material=tDragonScales
 AlterItem=0
 DupeList=02644
 
+ResPhysical=3
+ResFire=3
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
 Category=Equipment
 Subsection=Armor: Dragon Armor
 Description=Dragon Gloves
 
 On=@Create
 HitPoints={36 48}
-
-ResPhysical=3
-ResFire=3
-ResCold=3
-ResPoison=3
-ResEnergy=3
 
 [ItemDef 02644]
 DupeItem=02643
@@ -45,18 +45,18 @@ Material=tDragonScales
 AlterItem=0
 DupeList=02646
 
+ResPhysical=3
+ResFire=3
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
 Category=Equipment
 Subsection=Armor: Dragon Armor
 Description=Dragon Helm
 
 On=@Create
 HitPoints={36 48}
-
-ResPhysical=3
-ResFire=3
-ResCold=3
-ResPoison=3
-ResEnergy=3
 
 [ItemDef 02646]
 DupeItem=02645
@@ -77,18 +77,18 @@ Material=tDragonScales
 AlterItem=0
 DupeList=02648
 
+ResPhysical=3
+ResFire=3
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
 Category=Equipment
 Subsection=Armor: Dragon Armor
 Description=Dragon Leggings
 
 On=@Create
 HitPoints={36 48}
-
-ResPhysical=3
-ResFire=3
-ResCold=3
-ResPoison=3
-ResEnergy=3
 
 [ItemDef 02648]
 DupeItem=02647
@@ -113,14 +113,14 @@ Category=Equipment
 Subsection=Armor: Dragon Armor
 Description=Dragon Sleeves
 
-On=@Create
-HitPoints={36 48}
-
 ResPhysical=3
 ResFire=3
 ResCold=3
 ResPoison=3
 ResEnergy=3
+
+On=@Create
+HitPoints={36 48}
 
 [ItemDef 02658]
 DupeItem=02657
@@ -141,18 +141,18 @@ Material=tDragonScales
 AlterItem=0
 DupeList=02642
 
+ResPhysical=3
+ResFire=3
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
 Category=Equipment
 Subsection=Armor: Dragon Armor
 Description=Dragon Breastplate
 
 On=@Create
 HitPoints={36 48}
-
-ResPhysical=3
-ResFire=3
-ResCold=3
-ResPoison=3
-ResEnergy=3
 
 [ItemDef 02642]
 DupeItem=02641

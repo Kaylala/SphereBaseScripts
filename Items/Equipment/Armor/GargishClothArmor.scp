@@ -10,7 +10,14 @@ ReqStr=20
 SkillMake=Tailoring 871
 Resources=8 iCloth
 Material=tCloth
+AlterItem=iGargishClothArms2
 DupeList=0405F
+
+ResPhysical=5
+ResFire=7
+ResCold=6
+ResPoison=6
+ResEnergy=6
 
 Category=Equipment
 Subsection=Armor: Gargish Cloth Armor
@@ -18,12 +25,6 @@ Description=Gargish Cloth Arms (Variant 1)
 
 On=@Create
 HitPoints={36 48}
-
-ResPhysical=5
-ResFire=7
-ResCold=6
-ResPoison=6
-ResEnergy=6
 
 [ItemDef 0405F]
 DupeItem=0403
@@ -41,7 +42,14 @@ ReqStr=20
 SkillMake=Tailoring 871
 Resources=8 iCloth
 Material=tCloth
+AlterItem=iGargishClothArms1
 DupeList=04060
+
+ResPhysical=5
+ResFire=7
+ResCold=6
+ResPoison=6
+ResEnergy=6
 
 Category=Equipment
 Subsection=Armor: Gargish Cloth Armor
@@ -49,12 +57,6 @@ Description=Gargish Cloth Arms (Variant 2)
 
 On=@Create
 HitPoints={36 48}
-
-ResPhysical=5
-ResFire=7
-ResCold=6
-ResPoison=6
-ResEnergy=6
 
 [ItemDef 04060]
 DupeItem=0404
@@ -72,7 +74,14 @@ ReqStr=25
 SkillMake=Tailoring 940
 Resources=12 iCloth
 Material=tCloth
+AlterItem=iGargishClothChest2
 DupeList=04061
+
+ResPhysical=5
+ResFire=7
+ResCold=6
+ResPoison=6
+ResEnergy=6
 
 Category=Equipment
 Subsection=Armor: Gargish Cloth Armor
@@ -80,12 +89,6 @@ Description=Gargish Cloth Chest (Variant 1)
 
 On=@Create
 HitPoints={36 48}
-
-ResPhysical=5
-ResFire=7
-ResCold=6
-ResPoison=6
-ResEnergy=6
 
 [ItemDef 04061]
 DupeItem=0405
@@ -103,7 +106,14 @@ ReqStr=25
 SkillMake=Tailoring 940
 Resources=12 iCloth
 Material=tCloth
+AlterItem=iGargishClothChest1
 DupeList=04062
+
+ResPhysical=5
+ResFire=7
+ResCold=6
+ResPoison=6
+ResEnergy=6
 
 Category=Equipment
 Subsection=Armor: Gargish Cloth Armor
@@ -111,12 +121,6 @@ Description=Gargish Cloth Chest (Variant 2)
 
 On=@Create
 HitPoints={36 48}
-
-ResPhysical=5
-ResFire=7
-ResCold=6
-ResPoison=6
-ResEnergy=6
 
 [ItemDef 04062]
 DupeItem=0406
@@ -134,7 +138,14 @@ ReqStr=20
 SkillMake=Tailoring 912
 Resources=10 iCloth
 Material=tCloth
+AlterItem=iGargishClothLeggings2
 DupeList=04065
+
+ResPhysical=5
+ResFire=7
+ResCold=6
+ResPoison=6
+ResEnergy=6
 
 Category=Equipment
 Subsection=Armor: Gargish Cloth Armor
@@ -142,12 +153,6 @@ Description=Gargish Cloth Leggings
 
 On=@Create
 HitPoints={36 48}
-
-ResPhysical=5
-ResFire=7
-ResCold=6
-ResPoison=6
-ResEnergy=6
 
 [ItemDef 04065]
 DupeItem=0409
@@ -165,7 +170,14 @@ ReqStr=20
 SkillMake=Tailoring 912
 Resources=10 iCloth
 Material=tCloth
+AlterItem=iGargishClothLeggings1
 DupeList=04066
+
+ResPhysical=5
+ResFire=7
+ResCold=6
+ResPoison=6
+ResEnergy=6
 
 Category=Equipment
 Subsection=Armor: Gargish Cloth Armor
@@ -173,12 +185,6 @@ Description=Gargish Cloth Leggings (Variant 2)
 
 On=@Create
 HitPoints={36 48}
-
-ResPhysical=5
-ResFire=7
-ResCold=6
-ResPoison=6
-ResEnergy=6
 
 [ItemDef 04066]
 DupeItem=040A
@@ -196,7 +202,14 @@ ReqStr=20
 SkillMake=Tailoring 829
 Resources=6 iCloth
 Material=tCloth
+AlterItem=iGargishClothKilt2
 DupeList=04063
+
+ResPhysical=5
+ResFire=7
+ResCold=6
+ResPoison=6
+ResEnergy=6
 
 Category=Equipment
 Subsection=Armor: Gargish Cloth Armor
@@ -204,12 +217,6 @@ Description=Gargish Cloth Kilt (Variant 1)
 
 On=@Create
 HitPoints={36 48}
-
-ResPhysical=5
-ResFire=7
-ResCold=6
-ResPoison=6
-ResEnergy=6
 
 [ItemDef 04063]
 DupeItem=0407
@@ -227,7 +234,14 @@ ReqStr=20
 SkillMake=Tailoring 829
 Resources=6 iCloth
 Material=tCloth
+AlterItem=iGargishClothKilt1
 DupeList=04064
+
+ResPhysical=5
+ResFire=7
+ResCold=6
+ResPoison=6
+ResEnergy=6
 
 Category=Equipment
 Subsection=Armor: Gargish Cloth Armor
@@ -235,12 +249,6 @@ Description=Gargish Cloth Kilt (Variant 2)
 
 On=@Create
 HitPoints={36 48}
-
-ResPhysical=5
-ResFire=7
-ResCold=6
-ResPoison=6
-ResEnergy=6
 
 [ItemDef 04064]
 DupeItem=0408

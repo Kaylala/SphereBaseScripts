@@ -3,6 +3,7 @@ DefName=iBrazier1
 Name=brazier
 NameLoc=1023633
 Type=tLitLight
+Can=CanILight
 Weight=255
 
 Category=Utility
@@ -25,6 +26,7 @@ DefName=iBrazier2
 Name=brazier
 NameLoc=1026570
 Type=tLitLight
+Can=CanILight
 Weight=255
 
 Category=Utility
@@ -40,6 +42,7 @@ DefName=iBrazier3
 Name=brazier
 NameLoc=1026587
 Type=tLitLight
+Can=CanILight
 Weight=5
 
 Category=Utility
@@ -55,6 +58,7 @@ DefName=iBrazier4
 Name=brazier
 NameLoc=1027979
 Type=tLitLight
+Can=CanILight
 Weight=5	// Estimable
 
 Category=Utility

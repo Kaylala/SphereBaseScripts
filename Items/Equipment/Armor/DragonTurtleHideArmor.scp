@@ -12,18 +12,18 @@ Resources=8 iPlainLeather,4 iDragonTurtleScute
 Material=tLeather,tScute
 AlterItem={iGargishLeatherChest1 1 iGargishLeatherChest2 1}
 
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
 Category=Equipment
 Subsection=Armor: Dragon Turtle Hide Armor
 Description=Dragon Turtle Hide Chest
 
 On=@Create
 HitPoints={36 48}
-
-ResPhysical=2
-ResFire=4
-ResCold=3
-ResPoison=3
-ResEnergy=3
 
 
 [ItemDef 0782B]
@@ -39,6 +39,12 @@ SkillMake=Tailoring 1015
 Resources=6 iPlainLeather,3 iDragonTurtleScute
 Material=tLeather,tScute
 AlterItem={iGargishLeatherChest1 1 iGargishLeatherChest2 1}
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
 
 Category=Equipment
 Subsection=Armor: Dragon Turtle Hide Armor
@@ -62,18 +68,18 @@ Resources=8 iPlainLeather,4 iDragonTurtleScute
 Material=tLeather,tScute
 AlterItem={iGargishLeatherLeggings1 1 iGargishLeatherLeggings2 1}
 
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
 Category=Equipment
 Subsection=Armor: Dragon Turtle Hide Armor
 Description=Dragon Turtle Hide Leggings
 
 On=@Create
 HitPoints={36 48}
-
-ResPhysical=2
-ResFire=4
-ResCold=3
-ResPoison=3
-ResEnergy=3
 
 
 [ItemDef 0782D]
@@ -90,18 +96,18 @@ Resources=2 iPlainLeather,1 iDragonTurtleScute
 Material=tLeather,tScute
 AlterItem=0
 
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
 Category=Equipment
 Subsection=Armor: Dragon Turtle Hide Armor
 Description=Dragon Turtle Hide Helm
 
 On=@Create
 HitPoints={36 48}
-
-ResPhysical=2
-ResFire=4
-ResCold=3
-ResPoison=3
-ResEnergy=3
 
 
 [ItemDef 0782E]
@@ -118,18 +124,18 @@ Resources=4 iPlainLeather,2 iDragonTurtleScute
 Material=tLeather,tScute
 AlterItem={iGargishLeatherArms1 1 iGargishLeatherArms2 1}
 
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
 Category=Equipment
 Subsection=Armor: Dragon Turtle Hide Armor
 Description=Dragon Turtle Hide Arms
 
 On=@Create
 HitPoints={36 48}
-
-ResPhysical=2
-ResFire=4
-ResCold=3
-ResPoison=3
-ResEnergy=3
 
 
 [EOF]
