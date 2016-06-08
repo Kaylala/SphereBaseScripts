@@ -2,9 +2,11 @@
 [ItemDef 0403]
 DefName=iGargishClothArms1
 Name=gargish cloth arms
+NameLoc=1021027		// gargish cloth arms
 Type=tClothArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
 CanUse=CanUGargoyle
+Height=1
 Weight=2
 ReqStr=20
 SkillMake=Tailoring 871
@@ -27,6 +29,7 @@ On=@Create
 HitPoints={36 48}
 
 [ItemDef 0405F]
+NameLoc=1095351		// gargish cloth arms
 DupeItem=0403
 
 
@@ -34,9 +37,11 @@ DupeItem=0403
 [ItemDef 0404]
 DefName=iGargishClothArms2
 Name=gargish cloth arms
+NameLoc=1021028		// gargish cloth arms
 Type=tClothArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
 CanUse=CanUGargoyle
+Height=1
 Weight=2
 ReqStr=20
 SkillMake=Tailoring 871
@@ -59,6 +64,7 @@ On=@Create
 HitPoints={36 48}
 
 [ItemDef 04060]
+NameLoc=1095352		// gargish cloth arms
 DupeItem=0404
 
 
@@ -66,9 +72,11 @@ DupeItem=0404
 [ItemDef 0405]
 DefName=iGargishClothChest1
 Name=gargish cloth chest
+NameLoc=1021029		// gargish cloth chest
 Type=tClothArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
 CanUse=CanUGargoyle
+Height=1
 Weight=6
 ReqStr=25
 SkillMake=Tailoring 940
@@ -91,6 +99,7 @@ On=@Create
 HitPoints={36 48}
 
 [ItemDef 04061]
+NameLoc=1095353		// gargish cloth chest
 DupeItem=0405
 
 
@@ -98,9 +107,11 @@ DupeItem=0405
 [ItemDef 0406]
 DefName=iGargishClothChest2
 Name=gargish cloth chest
+NameLoc=1021030		// gargish cloth chest
 Type=tClothArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
 CanUse=CanUGargoyle
+Height=1
 Weight=6
 ReqStr=25
 SkillMake=Tailoring 940
@@ -123,6 +134,7 @@ On=@Create
 HitPoints={36 48}
 
 [ItemDef 04062]
+NameLoc=1095354		// gargish cloth chest
 DupeItem=0406
 
 
@@ -130,9 +142,11 @@ DupeItem=0406
 [ItemDef 0409]
 DefName=iGargishClothLeggings1
 Name=gargish cloth leggings
+NameLoc=1021033		// gargish cloth leggings
 Type=tClothArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
 CanUse=CanUGargoyle
+Height=1
 Weight=4
 ReqStr=20
 SkillMake=Tailoring 912
@@ -155,6 +169,7 @@ On=@Create
 HitPoints={36 48}
 
 [ItemDef 04065]
+NameLoc=1095357		// gargish cloth leggings
 DupeItem=0409
 
 
@@ -162,9 +177,11 @@ DupeItem=0409
 [ItemDef 040A]
 DefName=iGargishClothLeggings2
 Name=gargish cloth leggings
+NameLoc=1021034		// gargish cloth leggings
 Type=tClothArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
 CanUse=CanUGargoyle
+Height=1
 Weight=4
 ReqStr=20
 SkillMake=Tailoring 912
@@ -187,6 +204,7 @@ On=@Create
 HitPoints={36 48}
 
 [ItemDef 04066]
+NameLoc=1095358		// gargish cloth leggings
 DupeItem=040A
 
 
@@ -194,9 +212,11 @@ DupeItem=040A
 [ItemDef 0407]
 DefName=iGargishClothKilt1
 Name=gargish cloth kilt
+NameLoc=1021031		// gargish cloth kilt
 Type=tClothArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
 CanUse=CanUGargoyle
+Height=1
 Weight=2
 ReqStr=20
 SkillMake=Tailoring 829
@@ -219,6 +239,7 @@ On=@Create
 HitPoints={36 48}
 
 [ItemDef 04063]
+NameLoc=1095355		// gargish cloth kilt
 DupeItem=0407
 
 
@@ -226,9 +247,11 @@ DupeItem=0407
 [ItemDef 0408]
 DefName=iGargishClothKilt2
 Name=gargish cloth kilt
+NameLoc=1021032		// gargish cloth kilt
 Type=tClothArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
 CanUse=CanUGargoyle
+Height=1
 Weight=2
 ReqStr=20
 SkillMake=Tailoring 829
@@ -251,6 +274,7 @@ On=@Create
 HitPoints={36 48}
 
 [ItemDef 04064]
+NameLoc=1095356		// gargish cloth kilt
 DupeItem=0408
 
 
@@ -258,9 +282,11 @@ DupeItem=0408
 [ItemDef 045A4]
 DefName=iGargishClothWingArmor
 Name=gargish cloth wing armor
+NameLoc=1096700		// Gargish Cloth Wing Armor
 Type=tClothArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
 CanUse=CanUGargoyle
+Height=1
 Weight=2
 ReqStr=10
 SkillMake=Tailoring 650
@@ -273,6 +299,7 @@ Subsection=Armor: Gargish Cloth Armor
 Description=Gargish Cloth Wing Armor
 
 [ItemDef 045A5]
+NameLoc=1096701		// Gargish Cloth Wing Armor
 DupeItem=045A4
 
 

@@ -1,0 +1,262 @@
+// Savage Warrior (Male)
+[CharDef cSMWarrior]
+ID=cSavageMale1
+Name=#SavageMaleNames
+Can=CanMale|CanWalk|CanRun|CanUseHands|CanEquip|CanMount
+MoveRate=100
+Dam=1,8
+DamPhysical=100
+Icon=iHumanMaleIcon
+Sound=sndHMOomph1
+Resources=1 iCutOfRawRibs
+FoodType=tFood,tFruit,tVegetable,tMeat,tGrain,tDrink
+Aversions=tTrap
+Desires=rForest,tGold,tGem,tJewelry,tFish
+BloodColor=0
+Events=AISavageWarrior
+
+AbilityPrimary=sDisarm
+AbilitySecondary=sParalyzingBlow
+
+Category=Humans
+Subsection=Tribal: Savages
+Description=Savage Warrior (Male)
+
+On=@Create
+NPC=BrainHuman
+MaxFood=35
+SlayerSuper=RepondSlayer
+
+Fame=1000
+Karma=-1000
+Alignment=Neutral
+
+OStr={95 115}
+ODex={85 105}
+OInt={50 65}
+
+Wrestling={600 825}
+Tactics={600 825}
+MagicResistance={575 800}
+Parrying={600 825}
+Healing={600 825}
+Fencing={600 825}
+
+On=@NPCRestock
+Item=iBoneLeggings,1,<I>,1
+Item=iBoneArms,1,<I>,1
+If (!<R3>)
+ NewItem=iTribalMask1,1,<I>,1
+ Color={{0835 0852} 9 0 1}		// 2101 - 2130
+EndIf
+Item=iTribalSpear,1,<I>,1
+Item=iBandage,{1 15}
+Item=iBola,{1 2}
+NewGold={50 100}
+
+On=@DeathCorpse
+NewItem=iBolaBall
+NewItem=iTribalBerry,R9
+NewItem=iMaskOfOrcishKin,R9
+
+
+// Savage Warrior (Female)
+[CharDef cSFWarrior]
+ID=cSavageFemale1
+Name=#SavageFemaleNames
+Can=CanFemale|CanWalk|CanRun|CanUseHands|CanEquip|CanMount
+MoveRate=100
+Dam=1,8
+DamPhysical=100
+Icon=iHumanFemaleIcon
+Sound=sndHFOomph1
+Resources=1 iCutOfRawRibs
+FoodType=tFood,tFruit,tVegetable,tMeat,tGrain,tDrink
+Aversions=tTrap
+Desires=rForest,tGold,tGem,tJewelry,tFish
+BloodColor=0
+Events=AISavageWarrior
+
+AbilityPrimary=sDisarm
+AbilitySecondary=sParalyzingBlow
+
+Category=Humans
+Subsection=Tribal: Savages
+Description=Savage Warrior (Female)
+
+On=@Create
+NPC=BrainHuman
+MaxFood=35
+SlayerSuper=RepondSlayer
+
+Fame=1000
+Karma=-1000
+Alignment=Neutral
+
+OStr={95 115}
+ODex={85 105}
+OInt={50 65}
+
+Wrestling={600 825}
+Tactics={600 825}
+MagicResistance={575 800}
+Parrying={600 825}
+Healing={600 825}
+Fencing={600 825}
+
+On=@NPCRestock
+Item=iBoneLeggings,1,<I>,1
+Item=iBoneArms,1,<I>,1
+If (!<R3>)
+ NewItem=iTribalMask1,1,<I>,1
+ Color={{0835 0852} 9 0 1}		// 2101 - 2130
+EndIf
+Item=iTribalSpear,1,<I>,1
+Item=iBandage,{1 15}
+Item=iBola,{1 2}
+NewGold={50 100}
+
+On=@DeathCorpse
+NewItem=iBolaBall
+NewItem=iTribalBerry,R9
+NewItem=iMaskOfOrcishKin,R9
+
+
+// Savage Rider (Male)
+[CharDef cSMRider]
+ID=cSavageMale2
+Name=#SavageMaleNames
+Can=CanMale|CanWalk|CanRun|CanUseHands|CanEquip|CanMount
+MoveRate=100
+Dam=1,8
+DamPhysical=100
+Icon=iHumanMaleIcon
+Sound=sndHMOomph1
+Resources=1 iCutOfRawRibs
+FoodType=tFood,tFruit,tVegetable,tMeat,tGrain,tDrink
+Aversions=tTrap
+Desires=rForest,tGold,tGem,tJewelry,tFish
+BloodColor=0
+Events=AISavageWarrior
+
+AbilityPrimary=sDisarm
+AbilitySecondary=sParalyzingBlow
+
+Category=Humans
+Subsection=Tribal: Savages
+Description=Savage Rider (Male)
+
+On=@Create
+NPC=BrainHuman
+MaxFood=35
+SlayerSuper=RepondSlayer
+
+Fame=1000
+Karma=-1000
+Alignment=Neutral
+
+OStr={150 170}
+ODex={90 130}
+OInt={50 65}
+
+Wrestling={725 950}
+Tactics={725 950}
+MagicResistance={725 950}
+Parrying={725 950}
+Healing={725 950}
+Fencing={725 950}
+
+Serv.NewNpc=cSavageRidgeback
+New.Owner=<I>
+New.P=<P>
+New.Home=<Home>
+New.HomeDist=<HomeDist>
+Ref1=<New>
+Mount=<Ref1>
+
+On=@NPCRestock
+Item=iBoneLeggings,1,<I>,1
+Item=iBoneArms,1,<I>,1
+Item=iBearMask,1,<I>,1
+Item=iTribalSpear,1,<I>,1
+Item=iBandage,{1 15}
+Item=iBola,{1 2}
+NewGold={125 175}
+
+On=@DeathCorpse
+NewItem=iTribalBerry,R4
+NewItem=iBolaBall
+
+
+// Savage Shaman (Female)
+[CharDef cSFShaman]
+ID=cSavageFemale2
+Name=#SavageFemaleNames
+Can=CanFemale|CanWalk|CanRun|CanUseHands|CanEquip|CanMount
+MoveRate=100
+Dam=4,10
+DamPhysical=100
+Icon=iHumanFemaleIcon
+Sound=sndHFOomph1
+Resources=1 iCutOfRawRibs
+FoodType=tFood,tFruit,tVegetable,tMeat,tGrain,tDrink
+Aversions=tTrap
+Desires=rForest,tGold,tGem,tJewelry,tFish
+BloodColor=0
+
+AbilityPrimary=sDisarm
+AbilitySecondary=sParalyzingBlow
+
+Category=Humans
+Subsection=Tribal: Savages
+Description=Savage Shaman (Female)
+
+On=@Create
+NPC=BrainHuman
+MaxFood=35
+SlayerSuper=RepondSlayer
+
+Fame=1000
+Karma=-1000
+Alignment=Neutral
+
+ResPhysical={30 40}
+ResFire={20 30}
+ResCold={20 30}
+ResPoison={20 30}
+ResEnergy={40 50}
+
+OStr={125 145}
+ODex={90 110}
+OInt={160 185}
+
+Wrestling={625 850}
+Tactics={625 850}
+MagicResistance={775 1000}
+Parrying={625 850}
+Magery={725 950}
+EvaluatingIntel={775 1000}
+Meditation={775 1000}
+
+Item=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+Item=iBoneLeggings,1,<I>,1
+Item=iBoneArms,1,<I>,1
+Item=iDeerMask,1,<I>,1
+NewGold={125 175}
+
+On=@DeathCorpse
+NewItem=iTribalBerry
+NewItem=iBolaBall
+NewItem=RandomReagent,{10 15}
+
+
+[Spawn SavagePeasantSpawn]
+Category=Humans
+Subsection=Tribal: Savages
+Description=Savage Warriors
+
+
+[EOF]

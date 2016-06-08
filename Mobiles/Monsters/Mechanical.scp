@@ -9,10 +9,10 @@ Can=CanWalk|CanRun|CanUseHands
 MoveRate=100
 Dam=13,24
 Armor=35,55
+DamPhysical=100
 Icon=iGolemIcon
 Sound=
 FoodType=0
-MaxFood=0
 Resources=0
 Aversions=tTrap
 Desires=tIngot
@@ -25,13 +25,12 @@ Description=Golem
 
 On=@Create
 NPC=BrainMonster
+MaxFood=0
 FollowerSlots=3		// Two conflicting informative sites. One says 4 UOS and one says 3 UOG.
 
 Fame=3500
 Karma=-3500
-Alignment=Evil
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=35,55
 ResFire=100
@@ -56,10 +55,11 @@ Name=exodus overseer
 Can=CanWalk|CanUseHands|CanNonHuman
 MoveRate=100
 Dam=13,19
+DamPhysical=50
+DamEnergy=50
 Icon=iExodusOversserIcon
 Sound=
 FoodType=0
-FoodMax=0
 Resources=0
 Aversions=tTrap
 Desires=tMagic,tMetal,tGem
@@ -72,13 +72,11 @@ Description=Exodus Overseer
 
 On=@Create
 NPC=BrainMonster
+FoodMax=0
 
 Fame=10000
 Karma=-10000
-Alignment=Evil
-
-DamPhysical=50
-DamEnergy=50
+FightMode=Evil
 
 ResPhysical=45,55
 ResFire=40,60
@@ -106,10 +104,10 @@ Name=exodus minion
 Can=CanWalk|CanUseHands|CanNonHuman
 MoveRate=100
 Dam=16,22
+DamPhysical=100
 Icon=iExodusMinionIcon
 Sound=
 FoodType=0
-FoodMax=0
 Resources=0
 Aversions=tTrap
 Desires=tMagic,tMetal,tGem
@@ -122,12 +120,11 @@ Description=Exodus Minion
 
 On=@Create
 NPC=BrainMonster
+FoodMax=0
 
 Fame=18000
 Karma=-18000
-Alignment=Evil
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=60,70
 ResFire=40,50
@@ -155,10 +152,11 @@ Name=exodus minion lord
 Can=CanWalk|CanUseHands|CanNonHuman
 MoveRate=100
 Dam=19,25
+DamPhysical=60
+DamEnergy=40
 Icon=iExodusMinionIcon
 Sound=
 FoodType=0
-FoodMax=0
 Resources=0
 Aversions=tTrap
 Desires=tMagic,tMetal,tGem
@@ -171,13 +169,11 @@ Description=Exodus Minion Lord
 
 On=@Create
 NPC=BrainMonster
+FoodMax=0
 
 Fame=22000
 Karma=-22000
-Alignment=Evil
-
-DamPhysical=60
-DamEnergy=40
+FightMode=Evil
 
 ResPhysical=65,80
 ResFire=65,80
@@ -206,6 +202,8 @@ NewLoot=RandomExodusEncounterKey,1,R19
 ID=cExodusOverseer
 Name=exodus drone
 Dam=13,19
+DamPhysical=50
+DamEnergy=50
 TEvents=AIExodusOverseer
 
 Category=Monsters
@@ -214,14 +212,12 @@ Description=Exodus Drone
 
 On=@Create
 NPC=BrainMonster
+FoodMax=0
 Color=02F4
 
 Fame=10000
 Karma=-10000
-Alignment=Evil
-
-DamPhysical=50
-DamEnergy=50
+FightMode=Evil
 
 ResPhysical=45,55
 ResFire=40,60
@@ -250,6 +246,7 @@ NewLoot=RandomExodusEncounterKey,1,R19
 ID=cExodusMinion
 Name=exodus sentinel
 Dam=16,22
+DamPhysical=100
 TEvents=AIExodusMinion
 
 Category=Monsters
@@ -259,12 +256,11 @@ Description=Exodus Sentinel
 On=@Create
 NPC=BrainMonster
 Color=02F4
+FoodMax=0
 
 Fame=18000
 Karma=-18000
-Alignment=Evil
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=60,70
 ResFire=40,50
@@ -293,6 +289,8 @@ NewLoot=RandomExodusEncounterKey,1,R19
 ID=cGolem
 Name=exodus juggernaut
 Dam=19,25
+DamPhysical=60
+DamEnergy=40
 TEvents=AIGolem
 
 Category=Monsters
@@ -302,13 +300,11 @@ Description=Exodus Juggernaut
 On=@Create
 NPC=BrainMonster
 Color=02F4
+FoodMax=0
 
 Fame=10000
 Karma=-10000
-Alignment=Evil
-
-DamPhysical=60
-DamEnergy=40
+FightMode=Evil
 
 ResPhysical=60,80
 ResFire=60,80
@@ -336,11 +332,11 @@ Name=betrayer
 Can=CanMale|CanWalk|CanUseHands
 MoveRate=100
 Dam=16,22
+DamPhysical=100
 Armor=60,70
 Icon=iBetrayerIcon
 Sound=
 FoodType=0
-MaxFood=0
 Resources=1 iCutOfRawRibs
 Aversions=tTrap
 Desires=tGold,tCoin,tScroll
@@ -353,12 +349,11 @@ Description=Betrayer
 
 On=@Create
 NPC=BrainMonster
+MaxFood=0
 
 Fame=15000
 Karma=-15000
-Alignment=Evil
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=60,70
 ResFire=60,70
@@ -392,11 +387,13 @@ Name=blackthorn juggernaut
 Can=CanMale|CanWalk|CanUseHands
 MoveRate=100
 Dam=12,19
+DamPhysical=50
+DamFire=25
+DamEnergy=25
 Armor=65,75
 Icon=iBlackthornJuggernautIcon
 Sound=
 FoodType=0
-MaxFood=0
 Resources=1 iCutOfRawRibs
 Aversions=tTrap
 Desires=tGold,tCoin
@@ -409,14 +406,11 @@ Description=Blackthorn Juggernaut
 
 On=@Create
 NPC=BrainMonster
+MaxFood=0
 
 Fame=12000
 Karma=-12000
-Alignment=Evil
-
-DamPhysical=50
-DamFire=25
-DamEnergy=25
+FightMode=Evil
 
 ResPhysical=65,75
 ResFire=35,45
@@ -445,11 +439,12 @@ Name=clockwork scorpion
 Can=CanWalk|CanRun|CanUseHands|CanNonHuman
 MoveRate=100
 Dam=5,10
+DamPhysical=60
+DamPoison=40
 Armor=75,85
 Icon=iClockworkScorpionIcon
 Sound=
 FoodType=0
-MaxFood=0
 Resources=1 iCutOfRawRibs
 Aversions=tTrap
 Desires=tGold,tCoin
@@ -462,13 +457,11 @@ Description=Clockwork Scorpion
 
 On=@Create
 NPC=BrainMonster
+MaxFood=0
 
 Fame=2000
 Karma=-2000
-Alignment=Evil
-
-DamPhysical=60
-DamPoison=40
+FightMode=Evil
 
 ResPhysical=75,85
 ResFire=25,35
@@ -497,11 +490,11 @@ Name=leather wolf
 Can=CanWalk|CanRun|CanUseHands|CanNonHuman
 MoveRate=100
 Dam=5,10
+DamPhysical=100
 Armor=40,50
 Icon=iLeatherWolfIcon
 Sound=
 FoodType=0
-MaxFood=0
 Resources=1 iCutOfRawRibs,7 iHides
 Aversions=tTrap
 Desires=tGold,tCoin
@@ -514,14 +507,13 @@ Description=Leather Wolf
 
 On=@Create
 NPC=BrainMonster
-PackInstincts=CanineInstincts
+MaxFood=0
 FollowerSlots=1
+PackInstincts=CanineInstincts
 
 Fame=4500
 Karma=-4500
-Alignment=Neutral
-
-DamPhysical=100
+FightMode=Neutral
 
 ResPhysical=40,50
 ResFire=15,30
@@ -549,11 +541,13 @@ Name=vollem
 Can=CanWalk|CanRun|CanUseHands|CanNonHuman
 MoveRate=100
 Dam=16,22
+DamPhysical=40
+DamFire=40
+DamEnergy=20
 Armor=55,65
 Icon=iVollemIcon
 Sound=
 FoodType=0
-MaxFood=0
 Resources=5 iCutOfRawRibs,10 iBarbedHides
 Aversions=tTrap
 Desires=tGold,tCoin
@@ -566,15 +560,12 @@ Description=Vollem
 
 On=@Create
 NPC=BrainDragon
+MaxFood=0
 FollowerSlots=2
 
 Fame=14000
 Karma=-14000
-Alignment=Neutral
-
-DamPhysical=40
-DamFire=40
-DamEnergy=20
+FightMode=Neutral
 
 ResPhysical=55,65
 ResFire=30,40

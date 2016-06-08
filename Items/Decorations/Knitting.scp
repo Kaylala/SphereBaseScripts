@@ -1,0 +1,19 @@
+[ItemDef 0DF6]
+DefName=iKnitting
+Name=knitting
+NameLoc=1023574
+Can=CanIFlip
+Height=1
+Weight=1
+DupeList=0DF7
+
+Category=Decorations
+Subsection=Tailor
+Description=Knitting Items
+
+[ItemDef 0DF7]
+NameLoc=1023575
+DupeItem=0DF6
+
+
+[EOF]

@@ -1,0 +1,15 @@
+[DefName Def_Races]
+RaceHuman					01
+RaceElf						02
+RaceGargoyle				04
+RaceSavage					08
+RaceOrc						010
+RaceGoblin					020
+RaceOphidian				040
+RaceTerathan				080
+RaceDaemon					0100
+RaceUndead					0200
+RaceVampire					0400
+RaceWerewolf				0800
+
+[EOF]

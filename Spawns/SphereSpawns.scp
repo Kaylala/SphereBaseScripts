@@ -1,22 +1,26 @@
-//****************************************************************************
-// SPHERE by : Menasoft ©1997-2014
-// www.sphereserver.net
-// All SPHERE script files and formats are copyright Menasoft & Partners.
-// This file may be freely edited for personal use, but may not be distributed
-// in whole or in part, in any format without express written permission from
-// Menasoft & Partners.  All donations and contributions
-// become the property of Menasoft & Partners.
-//****************************************************************************
-// FILE LAST UPDATED: Thursday, May 1, 2014
-//
-VERSION=0.56c
+[Spawn SavageWarriorsSpawn]
+Category=Humans
+Subsection=Tribal: Savages
+Description=Savage Warriors
+ID=cSMWarrior
+ID=cSFWarrior
+
+
+[Spawn SavagesSpawn]
+Category=Humans
+Subsection=Tribal: Savages
+Description=Savages
+ID=cSMWarrior,35
+ID=cSFWarrior,35
+ID=cSMRider,20
+ID=cSFShaman,10
 
 
 ///////////////////
 // Animal Spawns //
 ///////////////////
 
-[SPAWN spawn_Animals]
+[SPAWN AnimalsSpawn]
 CATEGORY=Spawn Groups
 SUBSECTION=Animals
 DESCRIPTION=All Animals
@@ -2575,25 +2579,37 @@ ID=c_crystal_lattice_seeker  1
 [SPAWN spawn_Solen_Hive]
 CATEGORY=Spawn Groups
 SUBSECTION=Dungeons
-DESCRIPTION=Solen Hive
-ID=c_solen_worker            7
-ID=c_solen_warrior           5
-ID=c_solen_queen             3
+DESCRIPTION=Red Solen Hive
+ID=cRedSolenWorker            7
+ID=cRedSolenWarrior           5
+ID=cRedSolenQueen             3
 
 [SPAWN spawn_TwistedWeald]
 CATEGORY=Spawn Groups
 SUBSECTION=Dungeons
 DESCRIPTION=Twisted Weald Monsters
-ID=c_wolf_dire              11
-ID=c_changeling             10
-ID=c_quagmire                9
-ID=c_corpser                 8
-ID=c_dryad                   7
-ID=c_pixie                   6
-ID=c_wisp_dark               5
-ID=c_satyr                   4
-ID=c_spider_dread            3
-ID=c_cu_sidhe
-ID=c_spider_lord             1
+ID=cChangeling
+ID=cCorpser
+ID=cCuSidhe
+ID=cDireWolf
+ID=cDreadHorn
+ID=cDreadSpider1
+ID=cDryad
+ID=cGiantBlackWidow
+ID=cGnaw
+ID=cGuile
+ID=cIrk
+ID=cLadyLissith
+ID=cLadySabrix
+ID=cMalefic
+ID=cPixie
+ID=cQuagmire
+ID=cSatyr
+ID=cShadowWisp
+ID=cSilk
+ID=cSpite
+ID=cSwoop
+ID=cVirulent
+ID=cWhipping Vine
 
 [EOF]

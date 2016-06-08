@@ -4,9 +4,10 @@ Name=giant toad
 Can=CanWalk
 MoveRate=100
 Dam=5,17
+DamPhysical=100
 Icon=iGiantToadIcon
 Sound=sndGiantToad1
-Resources=12 iPilesOfSpinedHides,1 iCutOfRawRibs
+Resources=12 iPileOfSpinedHides,1 iCutOfRawRibs
 FoodType=tFish
 Aversions=0
 Desires=tFish,rSwamp
@@ -19,14 +20,12 @@ Description=Giant Toad
 
 On=@Create
 NPC=BrainAnimal
-FollowerSlots=1
 MaxFood=35
+FollowerSlots=1
 
 Fame=750
 Karma=-750
-Alignment=Evil
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=20,25
 ResFire=5,10
@@ -54,11 +53,11 @@ Name=bullfrog
 Can=CanWalk
 MoveRate=100
 Dam=1,2
+DamPhysical=100
 Icon=iBullfrogIcon
 Sound=sndBullfrog1
-Resources=4 iPilesOfHides,1 iCutOfRawRibs
+Resources=4 iPileOfHides,1 iCutOfRawRibs
 FoodType=tFish
-MaxFood=35
 Aversions=0
 Desires=tFish,rSwamp
 BloodColor=0
@@ -70,13 +69,12 @@ Description=Bullfrog
 
 On=@Create
 NPC=BrainAnimal
+MaxFood=35
 FollowerSlots=1
 
 Fame=350
 Karma=-350
-Alignment=Evil
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=5,10
 

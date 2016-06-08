@@ -4,11 +4,11 @@ Name=lava lizard
 Can=CanWalk|CanNonHuman
 MoveRate=100
 Dam=6,24
+DamPhysical=100
 Icon=iLavaLizardIcon
 Sound=sndLavaLizard1
-Resources=12 iPilesOfSpinedHides,1 iCutOfRawRibs
+Resources=12 iPileOfSpinedHides,1 iCutOfRawRibs
 FoodType=tIngot,tOre,tMetal
-MaxFood=35
 Aversions=rWater,tWater
 Desires=tLava,rFireDungeon,tFire,rVolcano,tIngot,tOre,tMetal
 BloodColor=0
@@ -21,17 +21,15 @@ Description=Lava Lizard
 On=@Create
 NPC=BrainDragon
 Color=033
+MaxFood=35
 FollowerSlots=1
 
 Fame=3000
 Karma=-3000
-Alignment=Evil
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=35,45
 ResFire=30,45
-ResCold=0
 ResPoison=25,35
 ResEnergy=25,35
 
@@ -57,11 +55,11 @@ Name=komodo dragon
 Can=CanWalk|CanNonHuman
 MoveRate=100
 Dam=6,24
+DamPhysical=100
 Icon=iKomodoDragonIcon
 Sound=sndLavaLizard1
-Resources=12 iPilesOfSpinedHides,1 iCutOfRawRibs
+Resources=12 iPileOfSpinedHides,1 iCutOfRawRibs
 FoodType=tRawMeat,tMeat
-MaxFood=35
 Aversions=tTrap
 Desires=rJungle
 BloodColor=0
@@ -74,13 +72,12 @@ Description=Komodo Dragon
 On=@Create
 NPC=BrainAnimal
 Color=SlimeHues
+MaxFood=35
 FollowerSlots=1
 
 Fame=3000
 Karma=-3000
-Alignment=Evil
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=35,45
 ResFire=30,45
@@ -110,11 +107,11 @@ Name=kepetch
 Can=CanWalk|CanNonHuman
 MoveRate=100
 Dam=7,17
+DamPhysical=100
 Icon=iKepetchIcon
 Sound=sndKepetch1
-Resources=14 iPilesOfHides,5 iCutOfRawRibs,6 iDragonsBlood2, 15 iFur
+Resources=14 iPileOfHides,5 iCutOfRawRibs,6 iDragonsBlood2, 15 iFur
 FoodType=tMeat,tRawMeat
-MaxFood=35
 Aversions=tTrap
 Desires=rJungle
 BloodColor=0
@@ -127,13 +124,12 @@ Description=Kepetch
 On=@Create
 NPC=BrainMonster
 Loyalty=10
+MaxFood=35
 SlayerSuper=ReptileSlayer
 
 Fame=6000
 Karma=-6000
-Alignment=Evil
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=55,65
 ResFire=40,45
@@ -162,11 +158,11 @@ Name=kepetch
 Can=CanWalk|CanNonHuman
 MoveRate=100
 Dam=7,17
+DamPhysical=100
 Icon=iKepetchIcon
 Sound=sndKepetch1
-Resources=14 iPilesOfHides,5 iCutOfRawRibs,6 iDragonsBlood2, 15 iFur
+Resources=14 iPileOfHides,5 iCutOfRawRibs,6 iDragonsBlood2, 15 iFur
 FoodType=tMeat,tRawMeat
-MaxFood=35
 Aversions=tTrap
 Desires=rJungle
 BloodColor=0
@@ -179,13 +175,12 @@ Description=Kepetch (Shorn)
 On=@Create
 NPC=BrainMonster
 Loyalty=10
+MaxFood=35
 SlayerSuper=ReptileSlayer
 
 Fame=6000
 Karma=-6000
-Alignment=Evil
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=55,65
 ResFire=40,45
@@ -212,8 +207,10 @@ NewGold={100 200}
 ID=cKepetch1
 Name=kepetch ambusher
 Dam=7,17
-Resources=14 iPilesOfHornedHides,5 iCutOfRawRibs,6 iDragonsBlood2, 15 iFur
-TEvents=AIKepetchAmbusher
+DamPhysical=80
+DamPoison=20
+Resources=14 iPileOfHornedHides,5 iCutOfRawRibs,6 iDragonsBlood2, 15 iFur
+Events=AIKepetchAmbusher
 
 Category=Monsters
 Subsection=Reptiles
@@ -222,14 +219,12 @@ Description=Kepetch Ambusher
 On=@Create
 NPC=BrainMonster
 Loyalty=25
+MaxFood=35
 SlayerSuper=ReptileSlayer
 
 Fame=2500
 Karma=-2500
-Alignment=Evil
-
-DamPhysical=80
-DamPoison=20
+FightMode=Evil
 
 ResPhysical=60,75
 ResFire=50,60
@@ -260,11 +255,11 @@ Name=slith
 Can=CanWalk|CanNonHuman
 MoveRate=100
 Dam=6,24
+DamPhysical=100
 Icon=iSlithIcon
 Sound=sndSlith1
-Resources=12 iPilesOfHides,6 iCutOfRawRibs,6 iDragonsBlood2
+Resources=12 iPileOfHides,6 iCutOfRawRibs,6 iDragonsBlood2
 FoodType=tMetal,tOre,tIngot
-MaxFood=35
 Aversions=tTrap
 Desires=rJungle
 BloodColor=0
@@ -277,14 +272,13 @@ Description=Slith
 On=@Create
 NPC=BrainDragon
 Loyalty=10
+MaxFood=35
 FollowerSlots=1
 SlayerSuper=ReptileSlayer
 
 Fame=3000
 Karma=-3000
-Alignment=Evil
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=35,45
 ResFire=30,45
@@ -312,10 +306,10 @@ NewGold={100 200}
 ID=cSlith
 Name=stone slith
 Dam=6,24
-Resources=12 iPilesOfSpinedHides,6 iCutOfRawRibs,6 iDragonsBlood2
+DamPhysical=100
+Resources=12 iPileOfSpinedHides,6 iCutOfRawRibs,6 iDragonsBlood2
 FoodType=tMetal,tOre,tIngot
-MaxFood=35
-TEvents=AIStoneSlith
+Events=AIStoneSlith
 
 Category=Monsters
 Subsection=Reptiles
@@ -325,14 +319,13 @@ On=@Create
 NPC=BrainMonster
 Color=
 Loyalty=15
+MaxFood=35
 FollowerSlots=2
 SlayerSuper=ReptileSlayer
 
 Fame=4000
 Karma=-4000
-Alignment=Evil
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=50,55
 ResFire=20,30
@@ -359,8 +352,9 @@ NewGold={200 300}
 ID=cSlith
 Name=toxic slith
 Dam=6,24
-Resources=12 iPilesOfHornedHides,6 iCutOfRawRibs,6 iDragonsBlood2
-TEvents=AIToxicSlith
+DamPhysical=100
+Resources=12 iPileOfHornedHides,6 iCutOfRawRibs,6 iDragonsBlood2
+Events=AIToxicSlith
 
 Category=Monsters
 Subsection=Reptiles
@@ -369,14 +363,13 @@ Description=Toxic Slith
 On=@Create
 NPC=BrainMonster
 Loyalty=20
+MaxFood=35
 Color=
 SlayerSuper=ReptileSlayer
 
 Fame=7000
 Karma=-7000
-Alignment=Evil
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=35,45
 ResFire=0,10

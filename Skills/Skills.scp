@@ -1024,33 +1024,45 @@ Bonus_Stats=20
 Adv_Rate=2.5,50.0,200.0
 VALUES=1,10,50
 
-ON=@PreStart
-	IF (<SRC.WEAPON.USESCUR>< 1)
-		Src.SMsg The tool is out of charges.
-		return 1
-	ENDIF
+On=@PreStart
+If (<Src.Weapon.UsesCur> == 0)
+ Src.SMsg The tool is out of charges.
+ return 1
+EndIf
+
+On=@Start
+If (<Src.Weapon.Type> == tSwordWeapon)
+ SMsg <DefMsg_Lumberjacking_5>
+ Serv.NewItem=iKindling
+ Return 1
+EndIf
 
 ON=@Success
-	SRC.WEAPON.USESCUR --
-	IF (<SRC.WEAPON.USESCUR>==0)
-		SRC.WEAPON.DESTROY 1
-	ENDIF
-
+Src.Weapon.UsesCur --
+If (!<Src.Weapon.Recharge>)
+ If (<Src.Weapon.UsesCur> == 0)
+  Src.Weapon.Destroy 1
+ EndIf
+EndIf
 	
 ON=@Fail
-	Src.SMsg You hack at the tree for a while, but fail to produce any useable wood.
+ Src.SMsg You hack at the tree for a while, but fail to produce any useable wood.
 
 ON=@Abort
-	Src.SMsg You decide not to chop wood for now.
+ Src.SMsg You decide not to chop wood for now.
 
-ON=@Stroke
-	IF ( <SERV.EXPERIMENTAL>&00002000)		// EF_DamageTools
-		IF (<SRC.WEAPON.HITS> > 0)
-			SRC.WEAPON.DAMAGE <eval <maxhits>*2>,DAM_PHYSICAL,<SRC>
-		ELSE
-			SRC.WEAPON.DESTROY 1
-		ENDIF
-	ENDIF
+On=@Stroke
+If (<Serv.Experimental> &00002000)		// EF_DamageTools
+ If (<Src.Weapon.More1L>)
+  Src.Weapon.More1L --
+ EndIf
+ If (<Src.Weapon.More1H>)
+  Src.Weapon.More1L --
+  If (!<More1H>)
+   Src.Weapon.Destroy 1
+  EndIf
+ EndIf
+EndIf
 
 [Skill 45]
 DefName=Skill_MINING

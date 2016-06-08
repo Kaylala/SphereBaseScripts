@@ -10,6 +10,7 @@ RunebookDye					020
 StatuetteDye				040
 PigmentDye					080		// Haochi's and Tokuno (Pigments)
 PetDye						0100
+BoatDye						0200
 
 
 [EOF]

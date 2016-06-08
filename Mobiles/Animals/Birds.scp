@@ -1,14 +1,14 @@
 [Chardef 05]
 DefName=cEagle
 Name=eagle
-Can=CanNonHum|CanWalk|CanFly
+Can=CanNonHuman|CanWalk|CanFly
 MoveRate=100
 Dam=6,13
+DamPhysical=100
 Icon=iEagleIcon
 Sound=sndEagle1
 Resources=36 iFeather,1 iRawBird
 FoodType=tFish
-MaxFood=35
 Aversions=rCivilization
 Desires=tFish
 BloodColor=0
@@ -20,14 +20,13 @@ Description=Eagle
 
 On=@Create
 NPC=BrainAnimal
+MaxFood=35
 FollowerSlots=1
 SlayerSuper=BirdSlayer
 
 Fame=300
 Karma=-300
-Alignment=Neutral
-
-DamPhysical=100
+FightMode=Neutral
 
 ResPhysical=20,25
 ResFire=10,15
@@ -53,14 +52,14 @@ NewGold={50 100}
 [Chardef 06]
 DefName=cBird
 Name=#ForestBirdNames
-Can=CanNonHum|CanWalk|CanFly
+Can=CanNonHuman|CanWalk|CanFly
 MoveRate=100
 Dam=1
+DamPhysical=100
 Icon=iBirdIcon
 Sound=sndForestBird1
 Resources=25 iFeather,1 iRawBird
 FoodType=tFruit,tVegetable
-MaxFood=35
 Aversions=rCivilization
 Desires=tFruit,tVegetable
 BloodColor=0
@@ -73,14 +72,13 @@ Description=Forest Bird
 On=@Create
 NPC=BrainAnimal
 Color=BirdHues
+MaxFood=35
 FollowerSlots=1
 SlayerSuper=BirdSlayer
 
 Fame=150
 Karma=0
-Alignment=Neutral
-
-DamPhysical=100
+FightMode=Neutral
 
 OStr={1 4}
 ODex=25
@@ -99,14 +97,14 @@ TamingReal=-6.9
 [Chardef cTropicalBird]
 ID=cBird
 Name=#TropicalBirdNames
-Can=CanNonHum|CanWalk|CanFly
+Can=CanNonHuman|CanWalk|CanFly
 MoveRate=100
 Dam=1
+DamPhysical=100
 Icon=iBirdIcon
 Sound=sndTropicalBird1
 Resources=25 iFeather,1 iRawBird
 FoodType=tFruit,tVegetable
-MaxFood=35
 Aversions=rCivilization
 Desires=tFruit,tVegetable
 BloodColor=0
@@ -119,14 +117,13 @@ Description=Tropical Bird
 On=@Create
 NPC=BrainAnimal
 Color=BirdHues
+MaxFood=35
 FollowerSlots=1
 SlayerSuper=BirdSlayer
 
 Fame=150
 Karma=0
-Alignment=Neutral
-
-DamPhysical=100
+FightMode=Neutral
 
 OStr={1 4}
 ODex=25
@@ -145,9 +142,10 @@ TamingReal=-69
 [Chardef 0D0]
 DefName=cChicken
 Name=chicken
-Can=CanNonHum|CanWalk
+Can=CanNonHuman|CanWalk
 MoveRate=100
 Dam=1
+DamPhysical=100
 Icon=iChickenIcon
 Sound=sndChicken1
 Resources=25 iFeather,1 iRawBird
@@ -169,9 +167,7 @@ SlayerSuper=BirdSlayer
 
 Fame=150
 Karma=0
-Alignment=Neutral
-
-DamPhysical=100
+FightMode=Neutral
 
 ResPhysical=1,5
 
@@ -192,18 +188,17 @@ TamingReal=-9
 [Chardef cGreaterChicken]
 ID=cChicken
 Name=greater chicken
-Can=CanNonHum|CanWalk
+Can=CanNonHuman|CanWalk
 MoveRate=100
 Dam=1
+DamPhysical=100
 Icon=iChickenIcon
 Sound=sndChicken1
 Resources=25 iFeather,1 iRawBird
 FoodType=tGrain,tHay
-MaxFood=35
 Aversions=tTrap
 Desires=tGrain,tHay,rFarm,rForest
 BloodColor=0
-TEvents=AIChicken
 
 Category=Animals
 Subsection=Birds
@@ -211,14 +206,13 @@ Description=Greater Chicken
 
 On=@Create
 NPC=BrainAnimal
+MaxFood=35
 FollowerSlots=1
 SlayerSuper=BirdSlayer
 
 Fame=250
 Karma=0
-Alignment=Neutral
-
-DamPhysical=100
+FightMode=Neutral
 
 ResPhysical=1,10
 
@@ -240,14 +234,14 @@ TamingReal=-9
 [Chardef 05F]
 DefName=cTurkey
 Name=turkey
-Can=CanNonHum|CanWalk
+Can=CanNonHuman|CanWalk
 MoveRate=100
 Dam=2,3
+DamPhysical=100
 Icon=iBirdIcon
 Sound=sndTurkey1
 Resources=75 iFeather,2 iRawBird
 FoodType=tGrain,tHay
-MaxFood=35
 Aversions=rCivilization
 Desires=tGrain,tHay
 BloodColor=0
@@ -259,14 +253,13 @@ Description=Turkey
 
 On=@Create
 NPC=BrainAnimal
+MaxFood=35
 FollowerSlots=1
 SlayerSuper=BirdSlayer
 
 Fame=300
 Karma=0
-Alignment=Neutral
-
-DamPhysical=100
+FightMode=Neutral
 
 ResPhysical=5,10
 ResFire=5,10
@@ -290,9 +283,10 @@ Taming=1	// really 0
 [Chardef 0FE]
 DefName=cCrane
 Name=crane
-Can=CanNonHum|CanWalk
+Can=CanNonHuman|CanWalk
 MoveRate=100
 Dam=1
+DamPhysical=100
 Icon=iCraneIcon
 Sound=sndCrane1
 Resources=25 iFeather,2 iRawBird
@@ -313,9 +307,7 @@ SlayerSuper=BirdSlayer
 
 Fame=1000
 Karma=1000
-Alignment=Neutral
-
-DamPhysical=100
+FightMode=Neutral
 
 ResPhysical=5
 

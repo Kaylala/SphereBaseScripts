@@ -2,15 +2,22 @@
 [ItemDef 013D6]
 DefName=iStuddedGorget
 Name=studded gorget
+NameLoc=1025078		// studded gorget
 Type=tStuddedArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
 CanUse=CanUHuman|CanUElf
 Weight=1
 ReqStr=25
 SkillMake=Tailoring 788
-Resources=6 iPlainLeather
+Resources=6 iCutLeather
 Material=tLeather
 AlterItem=0
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=4
 
 Category=Equipment
 Subsection=Armor: Studded Armor
@@ -19,27 +26,28 @@ Description=Studded Gorget
 On=@Create
 HitPoints={36 48}
 
-ResPhysical=2
-ResFire=4
-ResCold=3
-ResPoison=3
-ResEnergy=4
-
 
 // Studded Gloves
 [ItemDef 013D5]
 DefName=iStuddedGloves
 Name=studded gloves
+NameLoc=1025077		// studded gloves
 Type=tStuddedArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
 CanUse=CanUHuman|CanUElf
 Weight=1
 ReqStr=25
 SkillMake=Tailoring 829
-Resources=8 iPlainLeather
+Resources=8 iCutLeather
 Material=tLeather
 AlterItem=0
 DupeList=013DD
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=4
 
 Category=Equipment
 Subsection=Armor: Studded Armor
@@ -48,13 +56,8 @@ Description=Studded Gloves
 On=@Create
 HitPoints={36 48}
 
-ResPhysical=2
-ResFire=4
-ResCold=3
-ResPoison=3
-ResEnergy=4
-
 [ItemDef 013DD]
+NameLoc=1025085		// studded gloves
 DupeItem=013D5
 
 
@@ -62,16 +65,23 @@ DupeItem=013D5
 [ItemDef 013D4]
 DefName=iStuddedSleeves1
 Name=studded sleeves
+NameLoc=1025076		// studded sleeves
 Type=tStuddedArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
 CanUse=CanUHuman|CanUElf
 Weight=4
 ReqStr=25
 SkillMake=Tailoring 871
-Resources=10 iPlainLeather
+Resources=10 iCutLeather
 Material=tLeather
 AlterItem=0
 DupeList=013DC
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=4
 
 Category=Equipment
 Subsection=Armor: Studded Armor
@@ -80,13 +90,8 @@ Description=Studded Sleeves
 On=@Create
 HitPoints={36 48}
 
-ResPhysical=2
-ResFire=4
-ResCold=3
-ResPoison=3
-ResEnergy=4
-
 [ItemDef 013DC]
+NameLoc=1025084		// studded sleeves
 DupeItem=013D4
 
 
@@ -94,16 +99,23 @@ DupeItem=013D4
 [ItemDef 013D7]
 DefName=iStuddedSleeves2
 Name=studded sleeves
+NameLoc=1025079		// studded sleeves
 Type=tStuddedArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
 CanUse=CanUHuman|CanUElf
 Weight=4
 ReqStr=25
 SkillMake=Tailoring 871
-Resources=10 iPlainLeather
+Resources=10 iCutLeather
 Material=tLeather
 AlterItem=0
 DupeList=013DE
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=4
 
 Category=Equipment
 Subsection=Armor: Studded Armor
@@ -112,13 +124,8 @@ Description=Studded Sleeves (Decoration)
 On=@Create
 HitPoints={36 48}
 
-ResPhysical=2
-ResFire=4
-ResCold=3
-ResPoison=3
-ResEnergy=4
-
 [ItemDef 013DE]
+NameLoc=1025086		// studded sleeves
 DupeItem=013D7
 
 
@@ -126,16 +133,23 @@ DupeItem=013D7
 [ItemDef 013DA]
 DefName=iStuddedLeggings1
 Name=studded leggings
+NameLoc=1025080		// studded leggings
 Type=tStuddedArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
 CanUse=CanUHuman|CanUElf
 Weight=5
 ReqStr=30
 SkillMake=Tailoring 912
-Resources=12 iPlainLeather
+Resources=12 iCutLeather
 Material=tLeather
 AlterItem=0
 DupeList=013E1
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=4
 
 Category=Equipment
 Subsection=Armor: Studded Armor
@@ -144,13 +158,8 @@ Description=Studded Leggings
 On=@Create
 HitPoints={36 48}
 
-ResPhysical=2
-ResFire=4
-ResCold=3
-ResPoison=3
-ResEnergy=4
-
 [ItemDef 013E1]
+NameLoc=1025087		// studded leggings
 DupeItem=013DA
 
 
@@ -158,16 +167,23 @@ DupeItem=013DA
 [ItemDef 013D8]
 DefName=iStuddedLeggings2
 Name=studded leggings
+NameLoc=1025082		// studded leggings
 Type=tStuddedArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
 CanUse=CanUHuman|CanUElf
 Weight=5
 ReqStr=30
 SkillMake=Tailoring 912
-Resources=12 iPlainLeather
+Resources=12 iCutLeather
 Material=tLeather
 AlterItem=0
 DupeList=013DF
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=4
 
 Category=Equipment
 Subsection=Armor: Studded Armor
@@ -176,13 +192,8 @@ Description=Studded Leggings (Decoration)
 On=@Create
 HitPoints={36 48}
 
-ResPhysical=2
-ResFire=4
-ResCold=3
-ResPoison=3
-ResEnergy=4
-
 [ItemDef 013DF]
+NameLoc=1025089		// studded leggings
 DupeItem=013D8
 
 
@@ -190,16 +201,23 @@ DupeItem=013D8
 [ItemDef 013DB]
 DefName=iStuddedTunic1
 Name=studded tunic
+NameLoc=1025081		// studded tunic
 Type=tStuddedArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
 CanUse=CanUHuman|CanUElf
 Weight=8
 ReqStr=35
 SkillMake=Tailoring 940
-Resources=14 iPlainLeather
+Resources=14 iCutLeather
 Material=tLeather
 AlterItem=0
 DupeList=013E2
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=4
 
 Category=Equipment
 Subsection=Armor: Studded Armor
@@ -208,13 +226,8 @@ Description=Studded Tunic
 On=@Create
 HitPoints={36 48}
 
-ResPhysical=2
-ResFire=4
-ResCold=3
-ResPoison=3
-ResEnergy=4
-
 [ItemDef 013E2]
+NameLoc=1025088		// studded tunic
 DupeItem=013DB
 
 
@@ -222,16 +235,23 @@ DupeItem=013DB
 [ItemDef 013D9]
 DefName=iStuddedTunic2
 Name=studded tunic
+NameLoc=1025083		// studded tunic
 Type=tStuddedArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
 CanUse=CanUHuman|CanUElf
 Weight=8
 ReqStr=35
 SkillMake=Tailoring 940
-Resources=14 iPlainLeather
+Resources=14 iCutLeather
 Material=tLeather
 AlterItem=0
 DupeList=013E0
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=4
 
 Category=Equipment
 Subsection=Armor: Studded Armor
@@ -240,13 +260,8 @@ Description=Studded Tunic (Decoration)
 On=@Create
 HitPoints={36 48}
 
-ResPhysical=2
-ResFire=4
-ResCold=3
-ResPoison=3
-ResEnergy=4
-
 [ItemDef 013E0]
+NameLoc=1025090		// studded tunic
 DupeItem=013D9
 
 
@@ -256,16 +271,23 @@ DupeItem=013D9
 [ItemDef 01C0C]
 DefName=iStuddedBustier
 Name=studded bustier
+NameLoc=1027180		// studded bustier
 Type=tStuddedArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
 CanUse=CanUHuman|CanUElf|CanUFemale
 Weight=1
 ReqStr=35
 SkillMake=Tailoring 829
-Resources=8 iPlainLeather
+Resources=8 iCutLeather
 Material=tLeather
 AlterItem=0
 DupeList=01C0D
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=4
 
 Category=Equipment
 Subsection=Armor: Studded Armor
@@ -274,13 +296,8 @@ Description=Studded Bustier
 On=@Create
 HitPoints={36 48}
 
-ResPhysical=2
-ResFire=4
-ResCold=3
-ResPoison=3
-ResEnergy=4
-
 [ItemDef 01C0D]
+NameLoc=1027181		// studded bustier
 DupeItem=01C0C
 
 
@@ -288,16 +305,23 @@ DupeItem=01C0C
 [ItemDef 01C02]
 DefName=iStuddedArmor
 Name=studded armor
+NameLoc=1027170		// studded armor
 Type=tStuddedArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
 CanUse=CanUHuman|CanUElf|CanUFemale
 Weight=6
 ReqStr=35
 SkillMake=Tailoring 871
-Resources=10 iPlainLeather
+Resources=10 iCutLeather
 Material=tLeather
 AlterItem=0
 DupeList=01C03
+
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=4
 
 Category=Equipment
 Subsection=Armor: Studded Armor
@@ -306,13 +330,8 @@ Description=Studded Armor
 On=@Create
 HitPoints={36 48}
 
-ResPhysical=2
-ResFire=4
-ResCold=3
-ResPoison=3
-ResEnergy=4
-
 [ItemDef 01C03]
+NameLoc=1027171		// studded armor
 DupeItem=01C02
 
 

@@ -1,12 +1,13 @@
 [CharDef 0CA]
 DefName=cAlligator1
 Name=alligator
-Can=CanWalk|CanSwim
+Can=CanWalk|CanSwim|CanNonHuman
 MoveRate=100
 Dam=5,15	// 7,24 UOG
+DamPhysical=100
 Icon=iAlligatorIcon
 Sound=sndAlligator1
-Resources=12 iPilesOfSpinedHides,1 iCutOfRawRibs
+Resources=12 iPileOfSpinedHides,1 iCutOfRawRibs
 FoodType=tFish
 Aversions=0
 Desires=tFish,tRawMeat,tMeat,rSwamp,rJungle
@@ -25,9 +26,7 @@ SlayerSuper=ReptileSlayer
 
 Fame=600
 Karma=-600
-Alignment=Evil
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=25,35
 ResFire=5,10
@@ -50,12 +49,13 @@ Taming=471
 [CharDef 085]
 DefName=cAlligator2
 Name=alligator
-Can=CanWalk|CanSwim
+Can=CanWalk|CanSwim|CanNonHuman
 MoveRate=100
 Dam=5,12
+DamPhysical=100
 Icon=iAlligatorIcon
 Sound=sndAlligator1
-Resources=8 iPilesOfSpinedHides,1 iCutOfRawRibs
+Resources=8 iPileOfSpinedHides,1 iCutOfRawRibs
 FoodType=tFish
 Aversions=0
 Desires=tFish,tRawMeat,tMeat,rSwamp,rJungle
@@ -74,9 +74,7 @@ SlayerSuper=ReptileSlayer
 
 Fame=400
 Karma=-400
-Alignment=Evil
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=15,25
 ResFire=5,10

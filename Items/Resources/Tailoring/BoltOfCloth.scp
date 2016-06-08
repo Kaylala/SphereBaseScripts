@@ -1,0 +1,85 @@
+[ItemDef 0F95]
+DefName=iBoltOfCloth1
+Name=bolt%s of cloth
+NameLoc=1023989
+Type=tClothBolt
+Can=CanIDye|CanIFlip|CanIStack
+height=1
+Weight=5
+Resources=50 iCloth
+SkillMake=Tailoring 0
+DupeList=0F96
+
+Category=Resources
+Subsection=Tailoring
+Description=Bolt of Cloth 1
+
+[ItemDef 0F96]
+NameLoc=1023990
+DupeItem=0F95
+
+
+[ItemDef 0F97]
+DefName=iBoltOfCloth2
+Name=bolt%s of cloth
+NameLoc=1023991
+Type=tClothBolt
+Can=CanIDye|CanIFlip|CanIStack
+height=1
+Weight=5
+Resources=50 iCloth
+SkillMake=Tailoring 0
+DupeList=0F98
+
+Category=Resources
+Subsection=Tailoring
+Description=Bolt of Cloth 2
+
+[ItemDef 0F98]
+NameLoc=1023992
+DupeItem=0F97
+
+
+[ItemDef 0F99]
+DefName=iBoltOfCloth3
+Name=bolt%s of cloth
+NameLoc=1023993
+Type=tClothBolt
+Can=CanIDye|CanIFlip|CanIStack
+height=1
+Weight=5
+Resources=50 iCloth
+SkillMake=Tailoring 0
+DupeList=0F9C
+
+Category=Resources
+Subsection=Tailoring
+Description=Bolt of Cloth 3
+
+[ItemDef 0F9C]
+NameLoc=1023996
+DupeItem=0F99
+
+
+[ItemDef 0F9A]
+DefName=iBoltOfCloth4
+Name=bolt%s of cloth
+NameLoc=1023994
+Type=tClothBolt
+Can=CanIDye|CanIFlip|CanIStack
+height=1
+Weight=5
+Resources=50 iCloth
+SkillMake=Tailoring 0
+DupeList=0F9B
+
+Category=Resources
+Subsection=Tailoring
+Description=Bolt of Cloth 4
+
+[ItemDef 0F9B]
+NameLoc=1023995
+DupeItem=0F9A
+
+
+[EOF]

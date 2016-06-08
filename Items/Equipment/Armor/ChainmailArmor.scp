@@ -2,6 +2,7 @@
 [ItemDef 13BB]
 DefName=iChainmailCoif
 Name=chainmail coif
+NameLoc=1025051
 Type=tChainmailArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
 CanUse=CanUHuman|CanUElf
@@ -27,6 +28,7 @@ On=@Create
 HitPoints={36 48}
 
 [ItemDef 013C0]
+NameLoc=1025056
 DupeItem=013BB
 
 
@@ -34,6 +36,7 @@ DupeItem=013BB
 [ItemDef 013BC]
 DefName=iChainmailLeggings2
 Name=chainmail leggings
+NameLoc=1025052
 Type=tChainmailArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
 CanUse=CanUHuman|CanUElf
@@ -59,6 +62,7 @@ On=@Create
 HitPoints={36 48}
 
 [ItemDef 013C1]
+NameLoc=1025057
 DupeItem=013BC
 
 
@@ -66,6 +70,7 @@ DupeItem=013BC
 [ItemDef 013BE]
 DefName=iChainmailLeggings1
 Name=chainmail leggings
+NameLoc=1025054
 Type=tChainmailArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
 CanUse=CanUHuman|CanUElf
@@ -90,6 +95,7 @@ On=@Create
 HitPoints={36 48}
 
 [ItemDef 013C3]
+NameLoc=1025059
 DupeItem=013BE
 
 
@@ -97,6 +103,7 @@ DupeItem=013BE
 [ItemDef 013BD]
 DefName=iChainmailTunic2
 Name=chainmail tunic
+NameLoc=1025053
 Type=tChainmailArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
 CanUse=CanUHuman|CanUElf
@@ -122,6 +129,7 @@ On=@Create
 HitPoints={36 48}
 
 [ItemDef 013C2]
+NameLoc=1025058
 DupeItem=013BD
 
 
@@ -129,6 +137,7 @@ DupeItem=013BD
 [ItemDef 013BF]
 DefName=iChainmailTunic1
 Name=chainmail tunic
+NameLoc=1025055
 Type=tChainmailArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
 CanUse=CanUHuman|CanUElf
@@ -154,6 +163,7 @@ On=@Create
 HitPoints={36 48}
 
 [ItemDef 013C4]
+NameLoc=1025060
 DupeItem=013BF
 
 

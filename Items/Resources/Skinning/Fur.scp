@@ -1,0 +1,186 @@
+[ItemDef 011F4]
+DefName=iFur1
+Name=fur
+NameLoc=1024596
+Type=tFur
+Can=CanIFlip
+Height=1
+Weight=10
+DupeList=011F8
+
+Category=Resources
+Subsection=Skinning
+Description=Fur 1
+
+[ItemDef 011F8]
+NameLoc=1024600
+DupeItem=011F4
+
+
+[ItemDef 011F5]
+DefName=iFur2
+Name=fur
+NameLoc=1024597
+Type=tFur
+Can=CanIFlip
+Height=1
+Weight=10
+DupeList=011F9
+
+Category=Resources
+Subsection=Skinning
+Description=Fur 2
+
+[ItemDef 011F9]
+NameLoc=1024601
+DupeItem=011F5
+
+
+[ItemDef 011F6]
+DefName=iFur3
+Name=fur
+NameLoc=1024598
+Type=tFur
+Can=CanIFlip
+Height=1
+Weight=10
+DupeList=011FA
+
+Category=Resources
+Subsection=Skinning
+Description=Fur 3
+
+[ItemDef 011FA]
+NameLoc=1024602
+DupeItem=011F6
+
+
+[ItemDef 011F7]
+DefName=iFur4
+Name=fur
+NameLoc=1024599
+Type=tFur
+Can=CanIFlip
+Height=1
+Weight=10
+DupeList=011FB
+
+Category=Resources
+Subsection=Skinning
+Description=Fur 4
+
+[ItemDef 011FB]
+NameLoc=1024603
+DupeItem=011F7
+
+
+[ItemDef 01875]
+DefName=iFur5
+Name=fur
+NameLoc=1026261
+Type=tFur
+Can=0
+Height=1
+Weight=255
+
+Category=Resources
+Subsection=Skinning
+Description=Fur 5
+
+
+[ItemDef 01F73]
+DefName=iFur6
+Name=fur
+NameLoc=1028051
+Type=tFur
+Can=CanIFlip
+Height=1
+Weight=255	// 0
+DupeList=01F74
+
+Category=Resources
+Subsection=Skinning
+Description=Fur 6
+
+[ItemDef 01F74]
+NameLoc=1028052
+DupeItem=01F73
+
+
+[ItemDef 01F75]
+DefName=iFur7
+Name=fur
+NameLoc=1028053
+Type=tFur
+Can=CanIFlip
+Height=1
+Weight=255	// 0
+DupeList=01F76
+
+Category=Resources
+Subsection=Skinning
+Description=Fur 7
+
+[ItemDef 01F76]
+NameLoc=1028054
+DupeItem=01F75
+
+[ItemDef 01F77]
+DefName=iFur8
+Name=fur
+NameLoc=1028055
+Type=tFur
+Can=CanIFlip
+Height=1
+Weight=255	// 0
+DupeList=01F78
+
+Category=Resources
+Subsection=Skinning
+Description=Fur 8
+
+[ItemDef 01F78]
+NameLoc=1028056
+DupeItem=01F77
+
+
+[ItemDef 01F79]
+DefName=iFur9
+Name=fur
+NameLoc=1028057
+Type=tFur
+Can=CanIFlip
+Height=1
+Weight=255	// 0
+DupeList=01F7A
+
+Category=Resources
+Subsection=Skinning
+Description=Fur 9
+
+[ItemDef 01F7A]
+NameLoc=1028058
+DupeItem=01F77
+
+
+// Tiger Pelt
+// Partial Hued (For dyeing the various tiger colors?)
+[ItemDef 09BCC]
+DefName=iTigerPelt
+Name=tiger pelt
+NameLoc=1123908
+Type=t_Fur
+Can=CanIStack|CanIFlip
+Weight=2
+DupeList=09BCD
+
+Category=Resources
+Subsection=Skinning
+Description=Tiger Pelt
+
+[ItemDef 09BCD]
+NameLoc=1123909
+DupeItem=09BCC
+
+
+[EOF]

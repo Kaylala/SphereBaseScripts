@@ -66,6 +66,10 @@ AttrShipwreckItem		040000000000000		// Recovered from shipwreck
 AttrFactionItem			080000000000000		// Faction Item (Has cliloc)
 AttrVvVItem				0100000000000000	// VvV Item (Has CliLoc)
 
+AttrSplinteringWeapon	0200000000000000	// Splintering weapon
+
+AttrParagonChest		0400000000000000
+
 AttrEnhanced			AttrEnchanted
 AttrUBWS				AttrUseBestWeaponSkill
 AttrNoDropTrade			AttrNoDrop|AttrNoTrade

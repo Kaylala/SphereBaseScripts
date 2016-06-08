@@ -2,9 +2,11 @@
 [ItemDef 02643]
 DefName=iDragonGloves
 Name=dragon gloves
+NameLoc=1029795		// dragon gloves
 Type=tDragonArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
 CanUse=CanUHuman|CanUElf
+Height=1
 Weight=2
 ReqStr=75
 SkillMake=Blacksmithing 689
@@ -27,6 +29,7 @@ On=@Create
 HitPoints={36 48}
 
 [ItemDef 02644]
+NameLoc=1029796		// dragon gloves
 DupeItem=02643
 
 
@@ -34,9 +37,11 @@ DupeItem=02643
 [ItemDef 02645]
 DefName=iDragonHelm
 Name=dragon helm
+NameLoc=1029797		// dragon helm
 Type=tDragonArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
 CanUse=CanUHuman|CanUElf
+Height=1
 Weight=5
 ReqStr=75
 SkillMake=Blacksmithing 726
@@ -59,6 +64,7 @@ On=@Create
 HitPoints={36 48}
 
 [ItemDef 02646]
+NameLoc=1029798		// dragon helm
 DupeItem=02645
 
 
@@ -66,9 +72,11 @@ DupeItem=02645
 [ItemDef 02647]
 DefName=iDragonLeggings
 Name=dragon leggings
+NameLoc=1029799		// dragon leggings
 Type=tDragonArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
 CanUse=CanUHuman|CanUElf
+Height=1
 Weight=6
 ReqStr=75
 SkillMake=Blacksmithing 788
@@ -91,6 +99,7 @@ On=@Create
 HitPoints={36 48}
 
 [ItemDef 02648]
+NameLoc=1029800		// dragon leggings
 DupeItem=02647
 
 
@@ -98,9 +107,11 @@ DupeItem=02647
 [ItemDef 02657]
 DefName=iDragonSleeves
 Name=dragon sleeves
+NameLoc=1029815		// dragon sleeves
 Type=tDragonArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
 CanUse=CanUHuman|CanUElf
+Height=1
 Weight=2
 ReqStr=75
 SkillMake=Blacksmithing 763
@@ -123,6 +134,7 @@ On=@Create
 HitPoints={36 48}
 
 [ItemDef 02658]
+NameLoc=1029816		// dragon sleeves
 DupeItem=02657
 
 
@@ -130,9 +142,11 @@ DupeItem=02657
 [ItemDef 02641]
 DefName=iDragonBreastplate
 Name=dragon breastplate
+NameLoc=1029793		// dragon breastplate
 Type=tDragonArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
 CanUse=CanUHuman|CanUElf
+Height=1
 Weight=10
 ReqStr=75
 SkillMake=Blacksmithing 850
@@ -155,6 +169,7 @@ On=@Create
 HitPoints={36 48}
 
 [ItemDef 02642]
+NameLoc=1029794		// dragon breastplate
 DupeItem=02641
 
 

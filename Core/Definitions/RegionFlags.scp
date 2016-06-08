@@ -1,21 +1,30 @@
 [DefName Region_Flags]
-RegionAntiMagicAll				00001   // all magic banned here.
-RegionAntiMagicRecallIn			00002   // Recall in to this, and mark
-RegionAntiMagicRecallOut		00004   // can't recall out of here.
+RegionAntiMagicAll				00001		// all magic banned here.
+RegionAntiMagicRecallIn			00002		// Recall in to this, and mark
+RegionAntiMagicRecallOut		00004		// can't recall out of here.
 RegionAntiMagicGate				00008
-RegionAntiMagicTeleport			00010   // can't teleport into here.
-RegionAntiMagicDamage			00020   // just no bad magic here
-RegionFlagShip					00040   // this is a ship region. ship commands
-RegionFlagNoBuilding			00080   // no building in this area
-//RegionFlagGlobalName			00100   // No longer in use
-RegionFlagAnnounce				00200   // announce to all who enter.
-RegionFlagInstaLogout			00400   // instant log out is allowed here. (hotel)
-RegionFlagUnderground			00800   // dungeon type area. (no weather)
-RegionFlagNoDecay				01000   // things on the ground don't decay here.
-RegionFlagSafe					02000   // this region is safe from all harm.
-RegionFlagGuarded				04000   // try tag.guardowner
-RegionFlagNoPVP					08000   // players cannot directly harm each other here.
-RegionFlagArena					010000	// pvp is allowed, no murder or criminal acts are taken in count.
+RegionAntiMagicTeleport			00010		// can't teleport into here.
+RegionAntiMagicDamage			00020		// just no bad magic here
+RegionFlagShip					00040		// this is a ship region. ship commands
+RegionFlagNoBuilding			00080		// no building in this area
+//RegionFlagGlobalName			00100		// No longer in use
+RegionFlagAnnounce				00200		// announce to all who enter.
+RegionFlagInstaLogout			00400		// instant log out is allowed here. (hotel)
+RegionFlagUnderground			00800		// dungeon type area. (no weather)
+RegionFlagNoDecay				01000		// things on the ground don't decay here.
+RegionFlagSafe					02000		// this region is safe from all harm.
+RegionFlagGuarded				04000		// try tag.guardowner
+RegionFlagNoPVP					08000		// players cannot directly harm each other here.
+RegionFlagArena					010000		// pvp is allowed, no murder or criminal acts are taken in count.
+
+RegionFlagNoLogin				020000		// No Login (We should teleport them to their 'home')
+RegionFlagNoMounts				040000		// No mounts allowed
+RegionFlagNoPotions				080000		// No potion use
+RegionFlagNoPets				0100000		// No pets allowed
+RegionFlagNoSpeech				0200000		// No Speech
+RegionFlagNoSpells				0400000		// No casting of any kind here.
+RegionFlagNoCombat				0800000		// No hand to hand here.
+RegionAntiMagicMark				01000000	// No Mark
 
 
 [EOF]

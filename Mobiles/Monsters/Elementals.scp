@@ -9,11 +9,12 @@ Name=air elemental
 Can=CanWalk|CanUseHands|CanFly
 MoveRate=100
 Dam=8,10
+DamPhysical=20
+DamCold=40
 Icon=iAirElementalIcon
 Sound=sndAirElemental1
 Resources=0
 FoodType=tMagic
-MaxFood=35
 Aversions=rCivilization
 Desires=tMagic
 BloodColor=-1
@@ -24,16 +25,14 @@ Description=Air Elemental
 
 On=@Create
 NPC=BrainMonster
-Color={0 1 04FFF 1}
+Color={0 1 04001 1}
+MaxFood=35
 SlayerSuper=ElementalSlayer
 SlayerLesser=AirElementalSlayer
 
 Fame=4500
 Karma=-4500
-Alignment=Evil
-
-DamPhysical=20
-DamCold=40
+FightMode=Evil
 
 ResPhysical=35,45
 ResFire=15,25
@@ -70,6 +69,10 @@ NewItem={RandomLowMageryScroll 1 RandomLowNecromancyScroll 1 RandomMediumMageryS
 ID=cAirElemental
 Name=air elemental
 Dam=15,17
+DamPhysical=20
+DamCold=40
+DamEnergy=40
+// auto dispel
 
 Category=Monsters
 Subsection=Elementals
@@ -77,18 +80,14 @@ Description=Air Elemental (Shame)
 
 On=@Create
 NPC=BrainMonster
-Color={0 1 04FFF 1}
-CanDefend=Can_D_Dispel
+Color={0 1 04001 1}
+MaxFood=35
 SlayerSuper=ElementalSlayer
 SlayerLesser=AirElementalSlayer
 
 Fame=6000
 Karma=-6000
-Alignment=Evil
-
-DamPhysical=20
-DamCold=40
-DamEnergy=40
+FightMode=Evil
 
 ResPhysical=80,90
 ResFire=55,65
@@ -125,6 +124,9 @@ NewItem=iShameDungeonCrystal,1
 ID=cAirElemental
 Name=wind elemental
 Dam=15,17
+DamPhysical=20
+DamCold=40
+DamEnergy=40
 
 Category=Monsters
 Subsection=Elementals
@@ -132,17 +134,14 @@ Description=Wind Elemental
 
 On=@Create
 NPC=BrainMonster
-Color=04FFF
+Color=04001
+MaxFood=35
 SlayerSuper=ElementalSlayer
 SlayerLesser=AirElementalSlayer
 
 Fame=6000
 Karma=-6000
-Alignment=Evil
-
-DamPhysical=20
-DamCold=40
-DamEnergy=40
+FightMode=Evil
 
 ResPhysical=65,75
 ResFire=55,65
@@ -182,6 +181,10 @@ NewItem=iShameDungeonCrystal,1
 ID=cAirElemental
 Name=wind elemental
 Dam=20,22
+DamPhysical=20
+DamCold=40
+DamEnergy=40
+// Auto dispel
 
 Category=Monsters
 Subsection=Elementals: Shame Guardians
@@ -190,18 +193,14 @@ Description=Wind Elemental (Level 3)
 On=@Create
 NPC=BrainMonster
 Color=0451
-CanDefend=Can_D_Dispel
 Tag.Name.Suffix=" the Guardian"
+MaxFood=35
 SlayerSuper=ElementalSlayer
 SlayerLesser=AirElementalSlayer
 
 Fame=6000
 Karma=-6000
-Alignment=Evil
-
-DamPhysical=20
-DamCold=40
-DamEnergy=40
+FightMode=Evil
 
 ResPhysical=65,75
 ResFire=55,65
@@ -241,6 +240,9 @@ NewItem=iCursedOil
 ID=cAirElemental
 Name=crystal vortex
 Dam=20,30
+DamPhysical=20
+DamCold=40
+DamEnergy=40
 
 Category=Monsters
 Subsection=Elementals
@@ -248,16 +250,13 @@ Description=Crystal Vortex
 
 On=@Create
 NPC=BrainMonster
+MaxFood=35
 SlayerSuper=ElementalSlayer
 SlayerLesser=AirElementalSlayer
 
 Fame=7000
 Karma=-7000
-Alignment=Evil
-
-DamPhysical=20
-DamCold=40
-DamEnergy=40
+FightMode=Evil
 
 ResPhysical=60,70
 ResFire=0,10
@@ -290,7 +289,12 @@ NewItem={RandomLowMageryScroll 1 RandomLowNecromancyScroll 1 RandomMediumMageryS
 ID=cAirElemental
 Name=chaos vortex
 Dam=20,21
-TEvents=eAIVortex
+DamPhysical=20
+DamFire=20
+DamCold=20
+DamPoison=20
+DamEnergy=20
+Events=AIVortex
 
 Category=Monsters
 Subsection=Elementals
@@ -299,18 +303,13 @@ Description=Chaos Vortex
 On=@Create
 NPC=BrainMonster
 Color=0850
+MaxFood=35
 SlayerSuper=ElementalSlayer
 SlayerLesser=AirElementalSlayer
 
 Fame=18000
 Karma=-18000
-Alignment=Evil
-
-DamPhysical=20
-DamFire=20
-DamCold=20
-DamPoison=20
-DamEnergy=20
+FightMode=Evil
 
 ResPhysical=65,75
 ResFire=65,75
@@ -345,7 +344,8 @@ NewItem=iShameDungeonCrystal,4
 ID=cAirElemental
 Name=unbound energy vortex
 Dam=21,23
-TEvents=eAIVortex
+DamEnergy=100
+TEvents=AIVortex
 
 Category=Monsters
 Subsection=Elementals
@@ -354,14 +354,13 @@ Description=Unbound Energy Vortex
 On=@Create
 NPC=BrainMonster
 Color=EnergyVortexHue
+MaxFood=35
 SlayerSuper=ElementalSlayer
 SlayerLesser=AirElementalSlayer
 
 Fame=22500
 Karma=-22500
-Alignment=Evil
-
-DamEnergy=100
+FightMode=Evil
 
 ResPhysical=60,70
 ResFire=65,75
@@ -395,6 +394,15 @@ NewItem=iShameDungeonCrystal,5
 ID=cAirElemental
 Name=nether vortex
 Dam=20
+DamPhysical=10
+DamFire=25
+DamCold=25
+DamPoison=10
+DamEnergy=30
+//AuraEnergyDamage
+//AuraLifeDrain
+//ReflectPhysicDamage=50
+//HitPointRegeneration=50
 
 Category=Monsters
 Subsection=Elementals
@@ -403,22 +411,12 @@ Description=Nether Vortex
 On=@Create
 NPC=BrainMonster
 Color=BlackrockHue
+MaxFood=35
 SlayerSuper=ElementalSlayer
 
 Fame=18000
 Karma=-18000
-Alignment=Evil
-
-Ability1=AuraEnergyDamage
-Ability2=AuraLifeDrain
-ReflectPhysicDamage=50
-HitPointRegeneration=50
-
-DamPhysical=10
-DamFire=25
-DamCold=25
-DamPoison=10
-DamEnergy=30
+FightMode=Evil
 
 ResPhysical=65,75
 ResFire=55,65
@@ -457,11 +455,11 @@ Name=earth elemental
 Can=CanWalk|CanUseHands
 MoveRate=100
 Dam=9,16
+DamPhysical=100
 Icon=iEarthElementalIcon
 Sound=sndEarthElemental1
 Resources=
 FoodType=tOre,tIngot,tGem,tRock,tDirt
-MaxFood=35
 Aversions=rCivilization
 Desires=tMagic
 BloodColor=BrownHues
@@ -472,14 +470,13 @@ Description=Earth Elemental
 
 On=@Create
 NPC=BrainMonster
+MaxFood=35
 SlayerSuper=ElementalSlayer
 SlayerLesser=EarthElementalSlayer
 
 Fame=3500
 Karma=-3500
-Alignment=Evil
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=30,35
 ResFire=10,20
@@ -513,6 +510,7 @@ NewItem=iIronOre,5	// Small
 ID=cEarthElemental
 Name=earth elemental
 Dam=11,13
+DamPhysical=100
 
 Category=Monsters
 Subsection=Elementals
@@ -520,14 +518,13 @@ Description=Earth Elemental (Shame)
 
 On=@Create
 NPC=BrainMonster
+MaxFood=35
 SlayerSuper=ElementalSlayer
 SlayerLesser=EarthElementalSlayer
 
 Fame=3500
 Karma=-3500
-Alignment=Evil
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=30,35
 ResFire=25,30
@@ -562,6 +559,8 @@ NewItem=iShameDungeonCrystal,1
 ID=cEarthElemental
 Name=greater earth elemental
 Dam=9,16
+DamPhysical=100
+//FrenziedRage	// 35% life. Deal 5sec "stunning force" hits
 
 Category=Monsters
 Subsection=Elementals
@@ -570,16 +569,13 @@ Description=Greater Earth Elemental
 On=@Create
 NPC=BrainMonster
 Color=0475
+MaxFood=35
 SlayerSuper=ElementalSlayer
 SlayerLesser=EarthElementalSlayer
 
 Fame=3500
 Karma=-3500
-Alignment=Evil
-
-Ability1=FrenziedRage	// 35% life. Deal 5sec "stunning force" hits
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=50,65
 ResFire=35,45
@@ -613,6 +609,10 @@ NewItem=iShameDungeonCrystal,1
 ID=cEarthElemental
 Name=molten earth elemental
 Dam=17,19
+DamPhysical=50
+DamFire=50
+// auto dispel
+// FrenziedRage	// 35% life. Deal 5sec "stunning force" hits
 
 Category=Monsters
 Subsection=Elementals
@@ -621,22 +621,13 @@ Description=Molten Earth Elemental
 On=@Create
 NPC=BrainDragon
 Color=05E5
-CanDefend=Can_D_Dispel
+MaxFood=35
 SlayerSuper=ElementalSlayer
 SlayerLesser=EarthElementalSlayer
-Breath.Dam=
-Breath.Type=
-Breath.Anim=
-Brath.Hue=
 
 Fame=6000
 Karma=-6000
-Alignment=Evil
-
-Ability1=FrenziedRage	// 35% life. Deal 5sec "stunning force" hits
-
-DamPhysical=50
-DamFire=50
+FightMode=Evil
 
 ResPhysical=50,65
 ResFire=50,60
@@ -671,6 +662,8 @@ NewItem=iShameDungeonCrystal,2
 ID=cEarthElemental
 Name=mud elemental
 Dam=17,19
+DamPhysical=50
+DamFire=50
 
 Category=Monsters
 Subsection=Elementals
@@ -679,15 +672,13 @@ Description=Mud Elemental
 On=@Create
 NPC=BrainMonster
 Color=0475
+MaxFood=35
 SlayerSuper=ElementalSlayer
 SlayerLesser=EarthElementalSlayer
 
 Fame=7000
 Karma=-7000
-Alignment=Evil
-
-DamPhysical=50
-DamFire=50
+FightMode=Evil
 
 ResPhysical=50,65
 ResFire=55,65
@@ -722,6 +713,8 @@ NewItem=iShameDungeonCrystal,1
 ID=cEarthElemental
 Name=stone elemental
 Dam=15,17
+DamPhysical=100
+//FrenziedRage	// 35% life. Deal 5sec "stunning force" hits
 
 Category=Monsters
 Subsection=Elementals
@@ -730,16 +723,13 @@ Description=Stone Elemental
 On=@Create
 NPC=BrainMonster
 Color=0835
+MaxFood=35
 SlayerSuper=ElementalSlayer
 SlayerLesser=EarthElementalSlayer
 
 Fame=4000
 Karma=-4000
-Alignment=Evil
-
-Ability1=FrenziedRage	// 35% life. Deal 5sec "stunning force" hits
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=50,65
 ResFire=55,65
@@ -772,6 +762,9 @@ NewItem=iShameDungeonCrystal,1
 ID=cEarthElemental
 Name=quartz elemental
 Dam=14,21
+DamPhysical=60
+DamEnergy=40
+//FrenziedRage	// 35% life. Deal 5sec "stunning force" hits
 
 Category=Monsters
 Subsection=Elementals: Shame Guardians
@@ -781,17 +774,13 @@ On=@Create
 NPC=BrainMonster
 Color=0495
 Tag.Name.Suffix=" the Guardian"
+MaxFood=35
 SlayerSuper=ElementalSlayer
 SlayerLesser=EarthElementalSlayer
 
 Fame=4000
 Karma=-4000
-Alignment=Evil
-
-Ability1=FrenziedRage	// 35% life. Deal 5sec "stunning force" hits
-
-DamPhysical=60
-DamEnergy=40
+FightMode=Evil
 
 ResPhysical=30,35
 ResFire=20,30
@@ -823,6 +812,8 @@ NewItem=iQuartzGrit,1
 ID=cEarthElemental
 Name=enraged earth elemental
 Dam=9,16
+DamPhysical=100
+//FrenziedRage	// 35% life. Deal 5sec "stunning force" hits
 
 Category=Monsters
 Subsection=Elementals
@@ -831,16 +822,13 @@ Description=Enraged Earth Elemental
 On=@Create
 NPC=BrainMonster
 Color=0468
+MaxFood=35
 SlayerSuper=ElementalSlayer
 SlayerLesser=EarthElementalSlayer
 
 Fame=20000
 Karma=-20000
-Alignment=Evil
-
-Ability1=FrenziedRage	// 35% life. Deal 5sec "stunning force" hits
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=55,65
 ResFire=20,30
@@ -883,6 +871,14 @@ NewItem=RandomOre,{5 8}
 ID=cEarthElemental
 Name=blackrock elemental
 Dam=28
+DamPhysical=25
+DamFire=25
+DamCold=25
+DamEnergy=25
+//AuraEnergyDamage
+//AuraLifeDrain
+//ReflectPhysicDamage=50
+//HitPointRegeneration=50
 BloodColor=BlackrockHue
 
 Category=Monsters
@@ -892,21 +888,12 @@ Description=Blackrock Elemental
 On=@Create
 NPC=BrainMonster
 Color=BlackrockHue
+MaxFood=35
 SlayerSuper=ElementalSlayer
 
 Fame=20000
 Karma=-20000
-Alignment=Evil
-
-Ability1=AuraEnergyDamage
-Ability2=AuraLifeDrain
-ReflectPhysicDamage=50
-HitPointRegeneration=50
-
-DamPhysical=25
-DamFire=25
-DamCold=25
-DamEnergy=25
+FightMode=Evil
 
 ResPhysical=65,75
 ResFire=45,55
@@ -946,11 +933,12 @@ Name=fire elemental
 Can=CanWalk|CanUseHands
 MoveRate=100
 Dam=7,9
+DamPhysical=25
+DamFire=75
 Icon=iFireElementalIcon
 Sound=sndFireElemental1
 Resources=0
 FoodType=tMagic
-MaxFood=35
 Aversions=rCivilization
 Desires=cFireElemental,tMagic
 BloodColor=0
@@ -961,15 +949,13 @@ Description=Fire Elemental
 
 On=@Create
 NPC=BrainMonster
+MaxFood=35
 SlayerSuper=ElementalSlayer|FlameSlayer
 SlayerLesser=FireElementalSlayer
 
 Fame=4500
 Karma=-4500
-Alignment=Evil
-
-DamPhysical=25
-DamFire=75
+FightMode=Evil
 
 ResPhysical=35,45
 ResFire=60,80
@@ -1006,6 +992,10 @@ NewItem=iSulfurousAsh,3
 ID=cFireElemental
 Name=flame elemental
 Dam=13,15
+DamPhysical=25
+DamFire=75
+//AutoDispel
+//FireAura
 
 Category=Monsters
 Subsection=Elementals
@@ -1013,24 +1003,14 @@ Description=Flame Elemental (Check Hue)
 
 On=@Create
 NPC=BrainDragon
-Color=FireSteedHue	// Not sure.
-CanDefend=Can_D_Dispel
+Color=0489
+MaxFood=35
 SlayerSuper=ElementalSlayer|FlameSlayer
 SlayerLesser=FireElementalSlayer
-Breath.Type=
-Breath.Anim=
-Breath.Dam=
-Breath.Color=
 
 Fame=4500
 Karma=-4500
-Alignment=Evil
-
-Ability1=AutoDispel
-Ability2=FireAura
-
-DamPhysical=25
-DamFire=75
+FightMode=Evil
 
 ResPhysical=45,55
 ResFire=100
@@ -1069,6 +1049,10 @@ NewItem=iShameDungeonCrystal,1
 ID=cFireElemental
 Name=flame elemental
 Dam=13,15
+DamPhysical=25
+DamFire=75
+//AutoDispel
+//FireAura
 
 Category=Monsters
 Subsection=Elementals: Shame Guardians
@@ -1076,24 +1060,14 @@ Description=Flame Elemental (Check Hue) (Level 2)
 
 On=@Create
 NPC=BrainDragon
-Color=FireSteedHue
-CanDefend=Can_D_Dispel
+Color=0489
+MaxFood=35
 SlayerSuper=ElementalSlayer|FlameSlayer
 SlayerLesser=FireElementalSlayer
-Breath.Type=
-Breath.Anim=
-Breath.Dam=
-Breath.Color=
 
 Fame=4500
 Karma=-4500
-Alignment=Evil
-
-Ability1=AutoDispel
-Ability2=FireAura
-
-DamPhysical=25
-DamFire=75
+FightMode=Evil
 
 ResPhysical=45,55
 ResFire=100
@@ -1134,11 +1108,11 @@ Name=water elemental
 Can=CanWalk|CanUseHands|CanSwim
 MoveRate=100
 Dam=7,9
+DamPhysical=100
 Icon=iWaterElementalIcon
 Sound=sndWaterElemental1
 Resources=0
 FoodType=tMagic
-MaxFood=35
 Aversions=rCivilization
 Desires=cWaterElemental,tMagic
 BloodColor=BlueHues
@@ -1149,14 +1123,13 @@ Description=Water Elemental
 
 On=@Create
 NPC=BrainMonster
+MaxFood=35
 SlayerSuper=ElementalSlayer
 SlayerLesser=WaterElementalSlayer
 
 Fame=4500
 Karma=-4500
-Alignment=Evil
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=35,45
 ResFire=15,25
@@ -1194,6 +1167,8 @@ NewItem=iAncientPotteryFragments,1,R19
 ID=cWaterElemental
 Name=water elemental
 Dam=14,16
+DamPhysical=100
+// Auto dispel
 
 Category=Monsters
 Subsection=Elementals
@@ -1201,15 +1176,13 @@ Description=Water Elemental (Shame)
 
 On=@Create
 NPC=BrainMonster
-CanDefend=Can_D_Dispel
+MaxFood=35
 SlayerSuper=ElementalSlayer
 SlayerLesser=WaterElementalSlayer
 
 Fame=4500
 Karma=-4500
-Alignment=Evil
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=35,45
 ResFire=15,25
@@ -1248,6 +1221,11 @@ NewItem={RandomLowMageryScroll 1 RandomLowNecromancyScroll 1}
 ID=cWaterElemental
 Name=void manifestation
 Dam=19,22
+DamPhysical=20
+DamFire=20
+DamCold=20
+DamPoison=20
+DamEnergy=20
 
 Category=Monsters
 Subsection=Elementals
@@ -1256,18 +1234,13 @@ Description=Void Manifestation (Needs hue)
 On=@Create
 NPC=BrainMonster
 Color=
+MaxFood=35
 SlayerSuper=ElementalSlayer
 //SlayerLesser=WaterElementalSlayer
 
 Fame=16000
 Karma=-16000
-Alignment=Evil
-
-DamPhysical=20
-DamFire=20
-DamCold=20
-DamPoison=20
-DamEnergy=20
+FightMode=Evil
 
 ResPhysical=65,75
 ResFire=60,70
@@ -1314,15 +1287,17 @@ Name=acid elemental
 Can=CanWalk|CanUseHands|CanSwim
 MoveRate=100
 Dam=9,15
+DamPhysical=25
+DamFire=50
+DamEnergy=25
 Icon=iAcidElementalIcon
 Sound=sndWaterElemental1
 Resources=0
 FoodType=tMagic
-MaxFood=35
 Aversions=rCivilization
 Desires=cAcidElemental,tMagic
 BloodColor=GreenHues
-TEvents=eAIAcidElemental
+TEvents=AIAcidElemental
 
 Category=Monsters
 Subsection=Elementals
@@ -1330,15 +1305,12 @@ Description=Acid Elemental
 
 On=@Create
 NPC=BrainMonster
+MaxFood=35
 SlayerSuper=ElementalSlayer
 
 Fame=10000
 Karma=-10000
-Alignment=Evil
-
-DamPhysical=25
-DamFire=50
-DamEnergy=25
+FightMode=Evil
 
 ResPhysical=45,55
 ResFire=40,50
@@ -1376,11 +1348,12 @@ Name=blood elemental
 Can=CanWalk|CanUseHands
 MoveRate=100
 Dam=9,15
+DamPoison=50
+DamEnergy=50
 Icon=iBloodElementalIcon
 Sound=sndWaterElemental1
 Resources=0
 FoodType=tMagic
-MaxFood=35
 Aversions=rCivilization
 Desires=cBloodElemental,tMagic
 BloodColor=0
@@ -1391,15 +1364,13 @@ Description=Blood Elemental
 
 On=@Create
 NPC=BrainMonster
+MaxFood=35
 SlayerSuper=ElementalSlayer
 SlayerLesser=BloodElementalSlayer
 
 Fame=12500
 Karma=-12500
-Alignment=Evil
-
-DamPoison=50
-DamEnergy=50
+FightMode=Evil
 
 ResPhysical=55,65
 ResFire=20,30
@@ -1445,11 +1416,12 @@ Name=blood elemental
 Can=CanWalk|CanUseHands
 MoveRate=100
 Dam=9,15
+DamPoison=50
+DamEnergy=50
 Icon=iBloodElementalIcon
 Sound=sndWaterElemental1
 Resources=0
 FoodType=tMagic
-MaxFood=35
 Aversions=rCivilization
 Desires=cBloodElemental,tMagic
 BloodColor=0
@@ -1460,15 +1432,13 @@ Description=Blood Elemental
 
 On=@Create
 NPC=BrainMonster
+MaxFood=35
 SlayerSuper=ElementalSlayer
 SlayerLesser=BloodElementalSlayer
 
 Fame=12500
 Karma=-12500
-Alignment=Evil
-
-DamPoison=50
-DamEnergy=50
+FightMode=Evil
 
 ResPhysical=55,65
 ResFire=20,30
@@ -1512,6 +1482,8 @@ NewItem={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1 0 2}
 ID=cBloodElemental
 Name=blood elemental1
 Dam=17,27
+DamPoison=50
+DamEnergy=50
 
 Category=Monsters
 Subsection=Elementals
@@ -1519,15 +1491,13 @@ Description=Blood Elemental (Shame)
 
 On=@Create
 NPC=BrainMonster
+MaxFood=35
 SlayerSuper=ElementalSlayer
 SlayerLesser=BloodElementalSlayer
 
 Fame=12500
 Karma=-12500
-Alignment=Evil
-
-DamPoison=50
-DamEnergy=50
+FightMode=Evil
 
 ResPhysical=55,65
 ResFire=40,50
@@ -1553,7 +1523,7 @@ ItemNewbie=iSpellbook
 AddCircle=7,1
 
 On=@NPCRestock
-NewGold={6	00 800}
+NewGold={600 800}
 
 On=@DeathCorpse
 NewTMap=5
@@ -1573,6 +1543,9 @@ NewItem=iShameDungeonCrystal,1
 ID=cBloodElemental1
 Name=diseased blood elemental
 Dam=19,27
+DamPoison=50
+DamEnergy=50
+// auto dispel
 
 Category=Monsters
 Subsection=Elementals
@@ -1581,16 +1554,13 @@ Description=Diseased Blood Elemental
 On=@Create
 NPC=BrainMonster
 Color=Red1Hue
-CanDefend=Can_D_Dispel
+MaxFood=35
 SlayerSuper=ElementalSlayer
 SlayerLesser=BloodElementalSlayer
 
 Fame=8500
 Karma=-8500
-Alignment=Evil
-
-DamPoison=50
-DamEnergy=50
+FightMode=Evil
 
 ResPhysical=65,75
 ResFire=55,65
@@ -1637,6 +1607,9 @@ NewItem=iShameDungeonCrystal,1
 ID=cBloodElemental1
 Name=purifying blood elemental
 Dam=17,27
+DamPhysical=50
+DamCold=30
+DamPoison=20
 
 Category=Monsters
 Subsection=Elementals
@@ -1645,16 +1618,13 @@ Description=Purifying Blood Elemental
 On=@Create
 NPC=BrainMonster
 Color=054E
+MaxFood=35
 SlayerSuper=ElementalSlayer
 SlayerLesser=BloodElementalSlayer
 
 Fame=12500
 Karma=-12500
-Alignment=Evil
-
-DamPhysical=50
-DamCold=30
-DamPoison=20
+FightMode=Evil
 
 ResPhysical=50,70
 ResFire=20,30
@@ -1702,14 +1672,16 @@ Name=ice elemental
 Can=CanWalk|CanUseHands
 MoveRate=100
 Dam=10,21
+DamPhysical=25
+DamCold=75
 Icon=iIceElementalIcon
 Sound=sndEarthElemental1
 Resources=0
 FoodType=tMagic
-MaxFood=35
 Aversions=rCivilization
 Desires=tMagic
 BloodColor=0
+//IceAura	// 2 tiles
 
 Category=Monsters
 Subsection=Elementals
@@ -1717,17 +1689,13 @@ Description=Ice Elemental
 
 On=@Create
 NPC=BrainMonster
+MaxFood=35
 SlayerSuper=ElementalSlayer|IceSlayer
 SlayerLesser=SnowElementalSlayer
 
 Fame=4000
 Karma=-4000
-Alignment=Evil
-
-Ability1=IceAura	// 2 tiles
-
-DamPhysical=25
-DamCold=75
+FightMode=Evil
 
 ResPhysical=35,45
 ResFire=5,10
@@ -1767,14 +1735,16 @@ Name=poison elemental
 Can=CanWalk|CanUseHands
 MoveRate=100
 Dam=12,18
+DamPhysical=10
+DamPoison=90
 Icon=iPoisonElementalIcon
 Sound=sndAirElemental1
 Resources=0
 FoodType=tMagic
-MaxFood=35
 Aversions=rCivilization
 Desires=tMagic
 BloodColor=0
+// Poison immune level 5
 
 Category=Monsters
 Subsection=Elementals
@@ -1782,16 +1752,13 @@ Description=Poison Elemental
 
 On=@Create
 NPC=BrainMonster
-CanDefend=01F
+MaxFood=35
 SlayerSuper=ElementalSlayer
 SlayerLesser=PoisonElementalSlayer
 
 Fame=12500
 Karma=-12500
-Alignment=Evil
-
-DamPhysical=10
-DamPoison=90
+FightMode=Evil
 
 ResPhysical=60,70
 ResFire=20,30
@@ -1827,7 +1794,7 @@ NewItem=iLesserPoisonPotion,1
 
 On=@Hit
 If !(<R9>)
- Src.SpellEffect s_Poison,<Poisoning>,<UID>
+ Src.SpellEffect sPoison,<Poisoning>,<UID>
 EndIf
 
 
@@ -1836,6 +1803,9 @@ EndIf
 ID=cPoisonElemental
 Name=poison elemental
 Dam=16,19
+DamPhysical=10
+DamPoison=90
+// poison immune level 5
 
 Category=Monsters
 Subsection=Elementals
@@ -1844,16 +1814,13 @@ Description=Poison Elemental (Shame)
 On=@Create
 NPC=BrainMonster
 Color=07C8
-CanDefend=01F
+MaxFood=35
 SlayerSuper=ElementalSlayer
 SlayerLesser=PoisonElementalSlayer
 
 Fame=12500
 Karma=-12500
-Alignment=Evil
-
-DamPhysical=10
-DamPoison=90
+FightMode=Evil
 
 ResPhysical=60,70
 ResFire=50,60
@@ -1889,7 +1856,7 @@ NewItem=iLesserPoisonPotion
 
 On=@Hit
 If !(<R9>)
- Src.SpellEffect s_Poison,<Poisoning>,<UID>
+ Src.SpellEffect sPoison,<Poisoning>,<UID>
 EndIf
 
 
@@ -1898,6 +1865,10 @@ EndIf
 ID=cPoisonElemental
 Name=poison elemental
 Dam=12,18
+DamPhysical=10
+DamPoison=90
+// poison immune level 5
+// auto dispel
 
 Category=Monsters
 Subsection=Elementals
@@ -1906,16 +1877,13 @@ Description=Greater Poison Elemental
 On=@Create
 NPC=BrainMonster
 Color=0591
-CanDefend=01F|CanDDispel
+MaxFood=35
 SlayerSuper=ElementalSlayer
 SlayerLesser=PoisonElementalSlayer
 
 Fame=12500
 Karma=-12500
-Alignment=Evil
-
-DamPhysical=10
-DamPoison=90
+FightMode=Evil
 
 ResPhysical=60,70
 ResFire=20,30
@@ -1953,8 +1921,8 @@ NewItem=iAncientPotteryFragments,1,R19
 NewItem=iTatteredRemnantOfAnAncientScroll,1,R19
 
 On=@Hit
-If !(<R9>)
- Src.SpellEffect s_Poison,<Poisoning>,<UID>
+If (!<R9>)
+ Src.SpellEffect sPoison,<Poisoning>,<UID>
 EndIf
 
 
@@ -1965,11 +1933,13 @@ Name=snow elemental
 Can=CanWalk|CanUseHands
 MoveRate=100
 Dam=11,17
+DamPhysical=20
+DamCold=80
+//FrostAura
 Icon=iSnowElementalIcon
 Sound=sndAirElemental1
 Resources=0
 FoodType=0
-MaxFood=35
 Aversions=rCivilization
 Desires=tMagic
 BloodColor=-1
@@ -1980,17 +1950,14 @@ Description=Snow Elemental
 
 On=@Create
 NPC=BrainMonster
+MaxFood=35
 SlayerSuper=ElementalSlayer
 SlayerLesser=SnowElementalSlayer
 
 Fame=5000
 Karma=-5000
-Alignment=Evil
+FightMode=Evil
 
-Ability1=FrostAura
-
-DamPhysical=20
-DamCold=80
 
 ResPhysical=45,55
 ResFire=10,15
@@ -2024,11 +1991,12 @@ Name=efreet
 Can=CanWalk|CanUseHands|CanFly
 MoveRate=100
 Dam=11,13
+DamFire=50
+DamEnergy=50
 Icon=iEfreetIcon
 Sound=sndAirElemental1
 Resources=0
 FoodType=0
-MaxFood=35
 Aversions=rCivilization
 Desires=cAirElemental,tMagic
 BloodColor=0
@@ -2039,18 +2007,15 @@ Description=Efreet
 
 On=@Create
 NPC=BrainMonster
+MaxFood=35
 SlayerSuper=ElementalSlayer
 
 Fame=10000
 Karma=-10000
-Alignment=Evil
-
-DamFire=50
-DamEnergy=50
+FightMode=Evil
 
 ResPhysical=50,60
 ResFire=60,70
-ResCold=0
 ResPoison=30,40
 ResEnergy=40,50
 
@@ -2084,11 +2049,12 @@ Name=sand vortex
 Can=CanWalk|CanUseHands|CanFly
 MoveRate=100
 Dam=3,16
+DamPhysical=90
+DamFire=10
 Icon=iSandVortexIcon
 Sound=sndAirElemental1
 Resources=0
 FoodType=tMagic
-MaxFood=35
 Aversions=rCivilization
 Desires=tMagic
 BloodColor=YellowHues
@@ -2100,16 +2066,14 @@ Description=Sand Vortex
 On=@Create
 NPC=BrainMonster
 SlayerSuper=ElementalSlayer
+MaxFood=35
 Throw.Obj=
 Throw.Anim=
-Throw.Dam=<Dam.Min>,<Dam.Max>
+Throw.Dam=<Dam.Lo>,<Dam.Hi>
 
 Fame=4500
 Karma=-4500
-Alignment=Evil
-
-DamPhysical=90
-DamFire=10
+FightMode=Evil
 
 ResPhysical=80,90
 ResFire=60,70
@@ -2143,14 +2107,16 @@ Name=crystal elemental
 Can=CanWalk|CanUseHands
 MoveRate=100
 Dam=10,15
+DamPhysical=80
+DamEnergy=20
 Icon=iCrystalElementalIcon
 Sound=sndCrystalElemental1
 Resources=0
 FoodType=tMagic
-MaxFood=35
 Aversions=rCivilization
 Desires=tMagic
 BloodColor=YellowHues
+//sBleedAttackSpell
 
 Category=Monsters
 Subsection=Elementals
@@ -2158,16 +2124,12 @@ Description=Crystal Elemental
 
 On=@Create
 NPC=BrainMonster
+MaxFood=35
 SlayerSuper=ElementalSlayer
 
 Fame=6500
 Karma=-6500
-Alignment=Evil
-
-Ability1=sBleedAttackSpell
-
-DamPhysical=80
-DamEnergy=20
+FightMode=Evil
 
 ResPhysical=50,60
 ResFire=40,50
@@ -2206,11 +2168,12 @@ Name=lava elemental
 Can=CanWalk|CanUseHands
 MoveRate=100
 Dam=12,18
+DamPhysical=10
+DamFire=90
 Icon=iLavaElementalIcon
 Sound=sndLavaElemental1
 Resources=0
 FoodType=tMagic
-MaxFood=35
 Aversions=rCivilization
 Desires=tMagic
 BloodColor=0
@@ -2222,14 +2185,12 @@ Description=Lava Elemental
 On=@Create
 NPC=BrainMonster
 Loyalty=20
+MaxFood=35
 SlayerSuper=ElementalSlayer|FlamerSlayer
 
 Fame=12500
 Karma=-12500
-Alignment=Evil
-
-DamPhysical=10
-DamFire=90
+FightMode=Evil
 
 ResPhysical=60,70
 ResFire=20,30
@@ -2276,14 +2237,19 @@ Name=kaze kemono
 Can=CanWalk|CanUseHands|CanFly
 MoveRate=100
 Dam=15,20	//11,16 tweak down?
+DamPhysical=70
+DamFire=10
+DamCold=10
+DamPoison=10
 Icon=iKazeKemonoIcon
 Sound=sndEarthElemental1
 Resources=0
 FoodType=tMagic
-MaxFood=35
 Aversions=rCivilization
 Desires=tMagic
 BloodColor=0
+//FlurryOfTwigs; -15% ResPhysical for 5 seconds
+//ChlorophylBlast; -50% ResEnergy for 10 seconds
 
 Category=Monsters
 Subsection=Elementals
@@ -2291,19 +2257,12 @@ Description=Kaze Kemono
 
 On=@Create
 NPC=BrainMonster
+MaxFood=35
 SlayerSuper=ElementalSlayer
 
 Fame=8000
 Karma=-8000
-Alignment=Evil
-
-Ability1=FlurryOfTwigs; -15% ResPhysical for 5 seconds
-Ability2=ChlorophylBlast; -50% ResEnergy for 10 seconds
-
-DamPhysical=70
-DamFire=10
-DamCold=10
-DamPoison=10
+FightMode=Evil
 
 ResPhysical=50,70
 ResFire=30,60
@@ -2340,14 +2299,19 @@ Name=rai-ju
 Can=CanWalk|CanUseHands|CanFly
 MoveRate=100
 Dam=12,15
+DamPhysical=10
+DamFire=60
+DamCold=10
+DamPoison=10
+DamEnergy=10
 Icon=iRaiJuIcon
 Sound=sndAirElemental1
 Resources=0
 FoodType=tMagic
-MaxFood=35
 Aversions=rCivilization
 Desires=tMagic
 BloodColor=0
+//LightningFist;35-65dam;100%EnergyDam,4s Stun
 
 Category=Monsters
 Subsection=Elementals
@@ -2355,19 +2319,12 @@ Description=Rai-ju
 
 On=@Create
 NPC=BrainMonster
+MaxFood=35
 SlayerSuper=ElementalSlayer
 
 Fame=8000
 Karma=-8000
-Alignment=Evil
-
-Ability1=LightningFist;35-65dam;100%EnergyDam,4s Stun
-
-DamPhysical=10
-DamFire=60
-DamCold=10
-DamPoison=10
-DamEnergy=10
+FightMode=Evil
 
 ResPhysical=45,65
 ResFire=70,85
@@ -2400,15 +2357,16 @@ Name=dull copper elemental
 Can=CanWalk|CanUseHands
 MoveRate=100
 Dam=9,16
+DamPhysical=100
 Icon=iDullCopperElementalIcon
 Sound=sndEarthElemental1
 Resources=0
 FoodType=tMagic
-MaxFood=35
 Aversions=rCivilization
 Desires=tMagic
 BloodColor=0
-TEvents=eAIDullCopperElemental
+TEvents=AIDullCopperElemental
+// poison immune level 4
 
 Category=Monsters
 Subsection=Elementals: Ore Elementals
@@ -2416,15 +2374,13 @@ Description=Dull Copper Elemental
 
 On=@Create
 NPC=BrainMonster
-CanDefend=0F
+MaxFood=35
 SlayerSuper=ElementalSlayer
 SlayerLesser=EarthElementalSlayer
 
 Fame=3500
 Karma=-3500
-Alignment=Evil
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=30,40
 ResFire=30,40
@@ -2459,15 +2415,16 @@ Name=shadow iron elemental
 Can=CanWalk|CanUseHands
 MoveRate=100
 Dam=9,16
+DamPhysical=100
 Icon=iShadowIronElementalIcon
 Sound=sndEarthElemental1
 Resources=0
 FoodType=tMagic
-MaxFood=35
 Aversions=rCivilization
 Desires=tMagic
 BloodColor=0
-TEvents=eAIShadowIronElemental
+TEvents=AIShadowIronElemental
+// poison immune level 4
 
 Category=Monsters
 Subsection=Elementals: Ore Elementals
@@ -2475,15 +2432,13 @@ Description=Shadow Iron Elemental
 
 On=@Create
 NPC=BrainMonster
-CanDefend=0F
+MaxFood=35
 SlayerSuper=ElementalSlayer
 SlayerLesser=EarthElementalSlayer
 
 Fame=4500
 Karma=-4500
-Alignment=Evil
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=30,40
 ResFire=30,40
@@ -2518,15 +2473,16 @@ Name=copper elemental
 Can=CanWalk|CanUseHands
 MoveRate=100
 Dam=9,16
+DamPhysical=100
 Icon=iCopperElementalIcon
 Sound=sndEarthElemental1
 Resources=0
 FoodType=tMagic
-MaxFood=35
 Aversions=rCivilization
 Desires=tMagic
 BloodColor=0
-TEvents=eAICopperElemental
+TEvents=AICopperElemental
+// poison immune level 4
 
 Category=Monsters
 Subsection=Elementals: Ore Elementals
@@ -2534,15 +2490,13 @@ Description=Copper Elemental
 
 On=@Create
 NPC=BrainMonster
-CanDefend=0F
+MaxFood=35
 SlayerSuper=ElementalSlayer
 SlayerLesser=EarthElementalSlayer
 
 Fame=3500
 Karma=-3500
-Alignment=Evil
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=30,40
 ResFire=30,40
@@ -2577,15 +2531,17 @@ Name=bronze elemental
 Can=CanWalk|CanUseHands
 MoveRate=100
 Dam=9,16
+DamPhysical=30
+DamFire=70
 Icon=iBronzeElementalIcon
 Sound=sndEarthElemental1
 Resources=0
 FoodType=tMagic
-MaxFood=35
 Aversions=rCivilization
 Desires=tMagic
 BloodColor=0
-TEvents=eAIBronzeElemental
+TEvents=AIBronzeElemental
+// poison immune level 4
 
 Category=Monsters
 Subsection=Elementals: Ore Elementals
@@ -2593,16 +2549,13 @@ Description=Bronze Elemental
 
 On=@Create
 NPC=BrainMonster
-CanDefend=0F
+MaxFood=35
 SlayerSuper=ElementalSlayer
 SlayerLesser=EarthElementalSlayer
 
 Fame=5000
 Karma=-5000
-Alignment=Evil
-
-DamPhysical=30
-DamFire=70
+FightMode=Evil
 
 ResPhysical=30,40
 ResFire=30,40
@@ -2637,14 +2590,15 @@ Name=golden elemental
 Can=CanWalk|CanUseHands
 MoveRate=100
 Dam=9,16
+DamPhysical=100
 Icon=iGoldenElementalIcon
 Sound=sndEarthElemental1
 Resources=0
 FoodType=tMagic
-MaxFood=35
 Aversions=rCivilization
 Desires=tMagic
 BloodColor=0
+// poison immune 4
 
 Category=Monsters
 Subsection=Elementals: Ore Elementals
@@ -2652,15 +2606,13 @@ Description=Golden Elemental
 
 On=@Create
 NPC=BrainMonster
-CanDefend=0F
+MaxFood=35
 SlayerSuper=ElementalSlayer
 SlayerLesser=EarthElementalSlayer
 
 Fame=3500
 Karma=-3500
-Alignment=Evil
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=60,75
 ResFire=10,20
@@ -2687,6 +2639,7 @@ NewItem=iGoldOre,25	// Large
 Item=RandomCommonGem,2
 Item=iCrystallineBlackrock,1,R19
 
+
 // Agapite Elemental
 [CharDef 06B]
 DefName=cAgapiteElemental
@@ -2694,14 +2647,15 @@ Name=agapite elemental
 Can=CanWalk|CanUseHands
 MoveRate=100
 Dam=28
+DamPhysical=100
 Icon=iAgapiteElementalIcon
 Sound=sndEarthElemental1
 Resources=0
 FoodType=tMagic
-MaxFood=35
 Aversions=rCivilization
 Desires=tMagic
 BloodColor=0
+// poison immune level 4
 
 Category=Monsters
 Subsection=Elementals: Ore Elementals
@@ -2709,15 +2663,13 @@ Description=Agapite Elemental
 
 On=@Create
 NPC=BrainMonster
-CanDefend=0F
+MaxFood=35
 SlayerSuper=ElementalSlayer
 SlayerLesser=EarthElementalSlayer
 
 Fame=3500
 Karma=-3500
-Alignment=Evil
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=30,40
 ResFire=40,50
@@ -2751,15 +2703,16 @@ Name=verite elemental
 Can=CanWalk|CanUseHands
 MoveRate=100
 Dam=9,16
+DamPhysical=100
 Icon=iVeriteElementalIcon
 Sound=sndEarthElemental1
 Resources=0
 FoodType=tMagic
-MaxFood=35
 Aversions=rCivilization
 Desires=tMagic
 BloodColor=0
-TEvents=eAIVeriteElemental
+TEvents=AIVeriteElemental
+// poison immune level 4
 
 Category=Monsters
 Subsection=Elementals: Ore Elementals
@@ -2767,15 +2720,13 @@ Description=Verite Elemental
 
 On=@Create
 NPC=BrainMonster
-CanDefend=0F
+MaxFood=35
 SlayerSuper=ElementalSlayer
 SlayerLesser=EarthElementalSlayer
 
 Fame=3500
 Karma=-3500
-Alignment=Evil
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=30,40
 ResFire=10,20
@@ -2810,15 +2761,16 @@ Name=valorite elemental
 Can=CanWalk|CanUseHands
 MoveRate=100
 Dam=28
+DamPhysical=100
 Icon=iValoriteElementalIcon
 Sound=sndEarthElemental1
 Resources=0
 FoodType=tMagic
-MaxFood=35
 Aversions=rCivilization
 Desires=tMagic
 BloodColor=0
-TEvents=eAIValoriteElemental
+TEvents=AIValoriteElemental
+// poison immune level 4
 
 Category=Monsters
 Subsection=Elementals: Ore Elementals
@@ -2826,15 +2778,13 @@ Description=Valorite Elemental
 
 On=@Create
 NPC=BrainMonster
-CanDefend=0F
+MaxFood=35
 SlayerSuper=ElementalSlayer
 SlayerLesser=EarthElementalSlayer
 
 Fame=3500
 Karma=-3500
-Alignment=Evil
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=65,75
 ResFire=50,60
@@ -2869,6 +2819,7 @@ Item=iCrystallineBlackrock,1,R19
 ID=cWaterElemental
 Name=infernus
 Dam=11,14
+DamFire=100
 
 Category=Monsters
 SubsectiOn=Elementals: Fire
@@ -2876,16 +2827,13 @@ DescriptiOn=Infernus (Needs hue)
 
 On=@Create
 NPC=BrainMonster
+MaxFood=35
 SlayerSuper=ElementalSlayer|EodonSlayer|FlameSlayer
 SlayerLesser=FireElementalSlayer        // ??? Might be water
 
 Fame=10000
 Karma=-10000
-Alignment=Evil
-
-Ability1=
-
-DamFire=100
+FightMode=Evil
 
 ResPhysical=45,55
 ResFire=80,90

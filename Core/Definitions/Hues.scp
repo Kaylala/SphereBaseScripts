@@ -7,7 +7,8 @@ CyanHue						88
 DarkGreyHue					802
 DarkGrayHue					DarkGreyHue
 EnergyVortexHue				118
-LightGrayHue				904
+LightGreyHue				904
+LightGrayHue				LightGreyHue
 DyeHighHue					1000   // highest dyeable hue = 1001
 IceHue						1152
 SnowHue						1153

@@ -995,6 +995,34 @@ Item=iWyrmsHeart,{75 100}
 /////////////
 
 
+[Template RandomSpellScroll]
+Category=Templates: Generic
+Subsection=Magic: Scrolls
+Description=Scroll (Random)
+Item={RandomMageryScroll 1 RandomNecromancyScroll 1 RandomSpellweavingScroll 1 RandomMysticismScroll 1}
+
+
+[Template RandomLowLevelSpellScroll]
+Category=Templates: Generic
+Subsection=Magic: Scrolls
+Description=Low Level Spell Scroll (Random)
+Item={RandomLowLevelMageryScroll 1 RandomLowLevelNecromancyScroll 1 RandomLowLevelSpellweavingScroll 1 RandomLowLevelMysticismScroll 1}
+
+
+[Template RandomMediumLevelSpellScroll]
+Category=Templates: Generic
+Subsection=Magic: Scrolls
+Description=Medium Level Spell Scroll (Random)
+Item={RandomMediumLevelMageryScroll 1 RandomMediumLevelNecromancyScroll 1 RandomMediumLevelSpellweavingScroll 1 RandomMediumLevelMysticismScroll 1}
+
+
+[Template RandomHighLevelSpellScroll]
+Category=Templates: Generic
+Subsection=Magic: Scrolls
+Description=High Level Spell Scroll (Random)
+Item={RandomHighLevelMageryScroll 1 RandomHighLevelNecromancyScroll 1 RandomHighLevelSpellweavingScroll 1 RandomHighLevelMysticismScroll 1}
+
+
 [Template RandomMageryScroll]
 Category=Templates: Generic
 Subsection=Magic: Scrolls
@@ -1133,6 +1161,13 @@ Category=Templates: Generic
 Subsection=Magic: Scrolls
 Description=High Level Spellweaving Scroll (Random)
 Item=iWordOfDeathScroll
+
+
+[Template RandomLowLevelMysticismScroll]
+Category=Templates: Generic
+Subsection=Magic: Scrolls
+Description=Low Level Mysticism Scroll (Random)
+Item={RandomLowLevelMysticismScroll 1 RandomMediumLevelMysticismScroll 1 RandomHighLevelMysticismScroll 1}
 
 
 [Template RandomLowLevelMysticismScroll]

@@ -1,0 +1,20 @@
+[ItemDef 0DF8]
+DefName=iPileOfWool
+Name=pile%s of wool
+NameLoc=1023576
+Type=tWool
+Can=CanIDye|CanIStack
+Height=1
+Weight=4
+DupeList=0101F
+
+Category=Resources
+Subsection=Tailoring
+Description=Pile of Wool
+
+[ItemDef 0101F]
+NameLoc=1024127
+DupeItem=0DF8
+
+
+[EOF]

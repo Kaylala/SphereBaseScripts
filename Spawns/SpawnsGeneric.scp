@@ -1,4 +1,4 @@
-[Spawn SpawnGenericSkeletons]
+[Spawn GenericSkeletonsSpawn]
 Categpry=Spawns: Generic
 Subsection=Monsters: Undead
 Description=Generic Skeletons
@@ -6,59 +6,59 @@ ID=cSkeleton
 ID=cSkeletonWAxe
 ID=cSkeletonWSword
 
-[Spawn SpawnMalasSkeletons]
+[Spawn MalasSkeletonsSpawn]
 Categpry=Spawns: Generic
 Subsection=Monsters: Undead
 Description=Malas Skeletons
 ID=cPatchworkSkeleton
 
-[Spawn SpawnBritanniaSkeletons]
+[Spawn BritanniaSkeletonsSpawn]
 Categpry=Spawns: Generic
 Subsection=Monsters: Undead
 Description=Britannia Skeletona
-ID=cSkeleton
-ID=cSkeletonWAxe
-ID=cSkeletonWSword
+ID=cSkeleton1
+ID=cSkeleton2
+ID=cSkeleton3
 ID=cSkeletalKnight
 ID=cBoneKnight
 ID=cSkeletalMage
 ID=cBoneMage
 
-[Spawn SpawnSkeletonKnights]
+[Spawn SkeletonKnightsSpawn]
 Categpry=Spawns: Generic
 Subsection=Monsters: Undead
 Description=Skeleton Knights
 ID=cSkeletalKnight
 ID=cBoneKnight
 
-[Spawn SpawnSkeletonMages]
+[Spawn SkeletonMagesSpawn]
 Categpry=Spawns: Generic
 Subsection=Monsters: Undead
 Description=Skeleton Mages
 ID=cSkeletalMage
 ID=cBoneMage
 
-[Spawn SpawnSkeletons]
+[Spawn SkeletonsSpawn]
 Categpry=Spawns: Generic
 Subsection=Monsters: Undead
 Description=Skeletons
-ID=cSkeleton
-ID=cSkeletonWAxe
-ID=cSkeletonWSword
+ID=cSkeleton1
+ID=cSkeleton2
+ID=cSkeleton3
 ID=cSkeletalKnight
 ID=cBoneKnight
 ID=cSkeletalMage
 ID=cBoneMage
 ID=cPatchworkSkeleton
 
-[Spawn SpawnGhouls]
+[Spawn GhoulsSpawn]
 Categpry=Spawns: Generic
 Subsection=Monsters: Undead
 Description=Ghouls
 ID=cGhoul
 ID=cBogle
 
-[Spawn SpawnShades]
+[Spawn ShadesSpawn]
 Categpry=Spawns: Generic
 Subsection=Monsters: Undead
 Description=Shades
@@ -66,14 +66,14 @@ ID=cShade
 ID=cSpectre
 ID=cWraith
 
-[Spawn SpawnLiches]
+[Spawn LichesSpawn]
 Categpry=Spawns: Generic
 Subsection=Monsters: Undead
 Description=Liches
 ID=cLich
 ID=cLichLord
 
-[Spawn SpawnLiches1]
+[Spawn AllLichesSpawn]
 Categpry=Spawns: Generic
 Subsection=Monsters: Undead
 Description=Liches: All
@@ -82,7 +82,7 @@ ID=cLichLord
 ID=cAncientLich
 ID=cDarkGuardian
 
-[Spawn SpawnMummies]
+[Spawn MummiesSpawn]
 Categpry=Spawns: Generic
 Subsection=Monsters: Undead
 Description=Mummies

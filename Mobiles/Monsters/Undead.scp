@@ -9,11 +9,11 @@ Name=zombie
 Can=CanWalk|CanUseHands
 MoveRate=100
 Dam=3,7
+DamPhysical=100
 Icon=iZombieIcon
 Sound=sndZombie1
 Resources=1 RandomBone
 FoodType=tRawMeat
-MaxFood=35
 Aversions=rCivilization
 Desires=rGraveyard,rDungeon
 BloodColor=0
@@ -25,14 +25,12 @@ Description=Zombie
 
 On=@Create
 NPC=BrainMonster
-CanDefend=03
+MaxFood=35
 SlayerSuper=UndeadSlayer
 
 Fame=600
 Karma=-600
-Alignment=Evil
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=15,20
 ResFire=0
@@ -56,8 +54,6 @@ NewGold={50 100}
 On=@DeathCorpse
 NewItem={RandomBone 1 RandomBodyPart 1}
 NewItem={RandomBone 1 RandomBodyPart 1}
-NewItem={RandomBone 1 RandomBodyPart 1}
-NewItem={RandomBone 1 RandomBodyPart 1}
 
 
 // Rotting Corpse
@@ -67,15 +63,17 @@ Name=rotting corpse
 Can=CanWalk|CanUseHands
 MoveRate=100
 Dam=8,10
+DamCold=50
+DamPoison=50
 Icon=iRottingCorpseIcon
 Sound=sndZombie1
 Resources=1 RandomBone
 FoodType=tRawMeat
-MaxFood=35
 Aversions=rCivilization
 Desires=rGraveyard,rDungeon
 BloodColor=0
 TEvents=eAIUndead
+// Immune to lethal poison
 
 Category=Monsters
 Subsection=Undead
@@ -83,15 +81,12 @@ Description=Rotting Corpse
 
 On=@Create
 NPC=BrainMonster
-CanDefend=01F
+MaxFood=35
 SlayerSuper=UndeadSlayer
 
 Fame=12500
 Karma=-12500
-Alignment=Evil
-
-DamCold=50
-DamPoison=50
+FightMode=Evil
 
 ResPhysical=35,45
 ResFire=20,30
@@ -113,8 +108,8 @@ Parrying=1000
 Poisoning=1200
 
 On=@Hit
-If !(<R4>)
- Src.SpellEffect sPoison,<Poisoning>,<Src>
+If (!<R4>)
+ Src.SpellEffect sPoison,<Poisoning>,<UID>
 EndIf
 
 On=@NPCRestock
@@ -131,11 +126,11 @@ Name=ghoul
 Can=CanWalk|CanUseHands
 MoveRate=100
 Dam=7,9
+DamPhysical=100
 Icon=iGhoulIcon
 Sound=sndGhoul1
 Resources=1 RandomBone,1 RandomBodyPart
 FoodType=tRawMeat
-MaxFood=35
 Aversions=rCivilization
 Desires=rGraveyard
 BloodColor=0
@@ -147,17 +142,14 @@ Description=Ghoul
 
 On=@Create
 NPC=BrainMonster
-CanDefend=03
+MaxFood=35
 SlayerSuper=UndeadSlayer
 
 Fame=2500
 Karma=-2500
-Alignment=Evil
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=25,30
-ResFire=0
 ResCold=20,30
 ResPoison=5,10
 ResEnergy=10,20
@@ -182,7 +174,7 @@ NewGold={50 100}
 ID=cGhoul
 Name=bogle
 Dam=7,9
-TEvents=eAIUndead
+DamPhysical=100
 
 Category=Monsters
 Subsection=Undead
@@ -190,17 +182,14 @@ Description=Bogle
 
 On=@Create
 NPC=BrainMonster
-CanDefend=03
+MaxFood=35
 SlayerSuper=UndeadSlayer
 
 Fame=2500
 Karma=-2500
-Alignment=Evil
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=25,30
-ResFire=0
 ResCold=20,30
 ResPoison=5,10
 ResEnergy=10,20
@@ -227,11 +216,12 @@ Name=spectre
 Can=CanWalk|CanUseHands
 MoveRate=100
 Dam=7,11
+DamPhysical=50
+DamCold=50
 Icon=iSpectreIcon
 Sound=sndGhost1
 Resources=0
 FoodType=tRawMeat
-MaxFood=35
 Aversions=rCivilization
 Desires=rGraveyard
 BloodColor=0
@@ -244,22 +234,17 @@ Description=Spectre
 On=@Create
 NPC=BrainMonster
 Color=SpectralHue
-CanDefend=0
+MaxFood=35
 SlayerSuper=UndeadSlayer
 DispID=02EC
 
 Fame=4000
 Karma=-4000
-Alignment=Evil
-
-DamPhysical=50
-DamCold=50
+FightMode=Evil
 
 ResPhysical=25,35
-ResFire=0
 ResCold=15,25
 ResPoison=10,20
-ResEnergy=0
 
 OStr={76 100}
 ODex={76 95}
@@ -290,6 +275,8 @@ Name=spectre
 Can=CanWalk|CanUseHands
 MoveRate=100
 Dam=7,11
+DamPhysical=50
+DamCold=50
 Icon=iSpectreIcon
 Sound=sndGhost1
 Resources=0
@@ -307,23 +294,16 @@ Description=Spectre
 On=@Create
 NPC=BrainMonster
 Color=SpectralHue
+MaxFood=35
 SlayerSuper=UndeadSlayer
 
 Fame=4000
 Karma=-4000
-Alignment=Evil
-
-DamPhysical=50
-DamFire=0
-DamCold=50
-DamPoison=0
-DamEnergy=0
+FightMode=Evil
 
 ResPhysical=25,35
-ResFire=0
 ResCold=15,25
 ResPoison=10,20
-ResEnergy=0
 
 OStr={76 100}
 ODex={76 95}
@@ -351,7 +331,8 @@ NewItem=RandomMageryReagent,10
 ID=cSpectre1
 Name=shade
 Dam=7,11
-TEvents=eAIUndead
+DamPhysical=50
+DamCold=50
 
 Category=Monsters
 Subsection=Undead
@@ -360,22 +341,17 @@ Description=Shade
 On=@Create
 NPC=BrainMonster
 Color=SpectralHue
-CanDefend=0
+MaxFood=35
 SlayerSuper=UndeadSlayer
 DispID=02EC
 
 Fame=4000
 Karma=-4000
-Alignment=Evil
-
-DamPhysical=50
-DamCold=50
+FightMode=Evil
 
 ResPhysical=25,35
-ResFire=0
 ResCold=15,25
 ResPoison=10,20
-ResEnergy=0
 
 OStr={76 100}
 ODex={76 95}
@@ -403,7 +379,8 @@ NewItem=RandomMageryReagent,10
 ID=cSpectre1
 Name=wraith
 Dam=7,11
-TEvents=eAIUndead
+DamPhysical=50
+DamCold=50
 
 Category=Monsters
 Subsection=Undead
@@ -412,22 +389,17 @@ Description=Wraith
 On=@Create
 NPC=BrainMonster
 Color=SpectralHue
-CanDefend=0
+MaxFood=35
 SlayerSuper=UndeadSlayer
 DispID=02EC
 
 Fame=4000
 Karma=-4000
-Alignment=Evil
-
-DamPhysical=50
-DamCold=50
+FightMode=Evil
 
 ResPhysical=25,35
-ResFire=0
 ResCold=15,25
 ResPoison=10,20
-ResEnergy=0
 
 OStr={76 100}
 ODex={76 95}
@@ -455,7 +427,8 @@ NewItem=RandomMageryReagent,10
 ID=cSpectre1
 Name=spectral spellbinder
 Dam=3,6
-TEvents=eAIUndead
+DamPhysical=50
+DamCold=50
 
 Category=Monsters
 Subsection=Undead
@@ -463,21 +436,16 @@ Description=Spectral Spellbinder
 
 On=@Create
 NPC=BrainMonster
-CanDefend=0
+MaxFood=35
 SlayerSuper=UndeadSlayer
 
 Fame=2000
 Karma=-2000
-Alignment=Neutral
-
-DamPhysical=50
-DamCold=50
+FightMode=Neutral
 
 ResPhysical=25,30
-ResFire=0
 ResCold=15,25
 ResPoison=10,20
-ResEnergy=0
 
 OStr={46 70}
 ODex={46 65}
@@ -503,40 +471,39 @@ NewGold={50 100}
 
 On=@DeathCorpse
 NewItem=RandomMageryReagent,10
-NewItem={iFirehorn 1 0 19}
+NewItem=iFirehorn,1,R19
 
 
 // Skeleton
 [CharDef 032]
-DefName=cSkeleton
+DefName=cSkeleton1
 Name=skeleton
 Can=CanWalk|CanUseHands
 MoveRate=100
 Dam=3,7
+DamPhysical=100
 Icon=iSkeletonIcon
 Sound=sndSkeleton1
 Resources=1 RandomBone
 FoodType=tRawMeat
-MaxFood=35
 Aversions=rCivilization
 Desires=rGraveyard
 BloodColor=0
 TEvents=eAIUndead
+// Immune to poison level 1
 
 Category=Monsters
 Subsection=Undead
-Description=Skeleton
+Description=Skeleton 1
 
 On=@Create
 NPC=BrainMonster
-CanDefend=01
+MaxFood=35
 SlayerSuper=UndeadSlayer
 
 Fame=450
 Karma=-450
-Alignment=Evil
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=15,20
 ResFire=5,10
@@ -560,35 +527,34 @@ NewGold={25 50}
 
 // Skeleton (w/ Axe)
 [CharDef 038]
-DefName=cSkeletonWAxe
+DefName=cSkeleton2
 Name=skeleton
 Can=CanWalk|CanUseHands
 MoveRate=100
 Dam=3,7
+DamPhysical=100
 Icon=iSkeletonIcon
 Sound=sndSkeleton1
 Resources=1 RandomBone
 FoodType=tRawMeat
-MaxFood=35
 Aversions=rCivilization
 Desires=rGraveyard
 BloodColor=0
 TEvents=eAIUndead
+// Immune to poison level 1
 
 Category=Monsters
 Subsection=Undead
-Description=Skeleton (w/ Axe)
+Description=Skeleton 2 (Axe)
 
 On=@Create
 NPC=BrainMonster
-CanDefend=01
+MaxFood=35
 SlayerSuper=UndeadSlayer
 
 Fame=450
 Karma=-450
-Alignment=Evil
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=15,20
 ResFire=5,10
@@ -615,35 +581,34 @@ NewItem=RandomWeapon
 
 // Skeleton (w/ Sword)
 [CharDef 039]
-DefName=cSkeletonWSword
+DefName=cSkeleton3
 Name=skeleton
 Can=CanWalk|CanUseHands
 MoveRate=100
 Dam=3,7
+DamPhysical=100
 Icon=iSkeletonIcon
 Sound=sndSkeleton1
 Resources=1 RandomBone
 FoodType=tRawMeat
-MaxFood=35
 Aversions=rCivilization
 Desires=rGraveyard
 BloodColor=0
 TEvents=eAIUndead
+// Immune to poison level 1
 
 Category=Monsters
 Subsection=Undead
-Description=Skeleton (w/ Axe)
+Description=Skeleton 3 (Sword and Shield)
 
 On=@Create
 NPC=BrainMonster
-CanDefend=01
+MaxFood=35
 SlayerSuper=UndeadSlayer
 
 Fame=450
 Karma=-450
-Alignment=Evil
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=15,20
 ResFire=5,10
@@ -675,6 +640,8 @@ Name=bone knight
 Can=CanWalk|CanUseHands
 MoveRate=100
 Dam=8,18
+DamPhysical=40
+DamCold=60
 Icon=iBoneKnightIcon
 Sound=sndSkeleton1
 Resources=1 RandomBone
@@ -696,10 +663,7 @@ SlayerSuper=UndeadSlayer
 
 Fame=3000
 Karma=-3000
-Alignment=Evil
-
-DamPhysical=40
-DamCold=60
+FightMode=Evil
 
 ResPhysical=35,45
 ResFire=20,30
@@ -731,7 +695,8 @@ DefName=cSkeletonKnight
 ID=cBoneKnight
 Name=skeletal knight
 Dam=8,18
-TEvents=eAIUndead
+DamPhysical=40
+DamCold=60
 
 Category=Monsters
 Subsection=Undead
@@ -739,15 +704,12 @@ Description=Skeletal Knight
 
 On=@Create
 NPC=BrainMonster
-CanDefend=0
+MaxFood=35
 SlayerSuper=UndeadSlayer
 
 Fame=3000
 Karma=-3000
-Alignment=Evil
-
-DamPhysical=40
-DamCold=60
+FightMode=Evil
 
 ResPhysical=35,45
 ResFire=20,30
@@ -781,15 +743,16 @@ Name=bone mage
 Can=CanWalk|CanUseHands
 MoveRate=100
 Dam=3,7
+DamPhysical=100
 Icon=iBoneMageIcon
 Sound=sndSkeleton1
 Resources=1 RandomBone
 FoodType=tRawMeat
-MaxFood=35
 Aversions=rCivilization
 Desires=rGraveyard
 BloodColor=0
 TEvents=eAIUndead
+// poison immune level 2
 
 Category=Monsters
 Subsection=Undead
@@ -797,14 +760,12 @@ Description=Bone Mage
 
 On=@Create
 NPC=BrainMonster
-CanDefend=03
+MaxFood=35
 SlayerSuper=UndeadSlayer|MageSlayer
 
 Fame=3000
 Karma=-3000
-Alignment=Evil
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=35,40
 ResFire=20,30
@@ -844,7 +805,8 @@ DefName=cSkeletonMage
 ID=cBoneMage
 Name=skeletal mage
 Dam=3,7
-TEvents=eAIUndead
+DamPhysical=100
+// poison immune level 2
 
 Category=Monsters
 Subsection=Undead
@@ -852,14 +814,12 @@ Description=Skeletal Mage
 
 On=@Create
 NPC=BrainMonster
-CanDefend=03
+MaxFood=35
 SlayerSuper=UndeadSlayer|MageSlayer
 
 Fame=3000
 Karma=-3000
-Alignment=Evil
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=35,40
 ResFire=20,30
@@ -900,6 +860,9 @@ Name=lich
 Can=CanWalk|CanUseHands
 MoveRate=100
 Dam=24,26
+DamPhysical=10
+DamCold=40
+DamEnergy=50
 Icon=iLichIcon
 Sound=sndLich1
 Resources=1 RandomBone
@@ -909,6 +872,7 @@ Aversions=rCivilization
 Desires=rGraveyard
 BloodColor=0
 TEvents=eAIUndead
+// poison immune level 5
 
 Category=Monsters
 Subsection=Undead
@@ -916,15 +880,12 @@ Description=Lich
 
 On=@Create
 NPC=BrainMonster
-CanDefend=01F
+MaxFood=35
 SlayerSuper=UndeadSlayer|MageSlayer
 
 Fame=8000
 Karma=-8000
-Alignment=Evil
-
-DamPhysical=10
-DamCold=40
+FightMode=Evil
 
 ResPhysical=40,60
 ResFire=20,30
@@ -968,6 +929,8 @@ Name=lich lord
 Can=CanWalk|CanUseHands
 MoveRate=100
 Dam=24,26	// 11,13?
+DamCold=60
+DamEnergy=40
 Icon=iLichIcon
 Sound=sndLich1
 Resources=0
@@ -977,6 +940,7 @@ Aversions=rCivilization
 Desires=rGraveyard
 BloodColor=0
 TEvents=eAIUndead
+// Immune to level 5 poison
 
 Category=Monsters
 Subsection=Undead
@@ -984,15 +948,12 @@ Description=Lich Lord
 
 On=@Create
 NPC=BrainMonster
-CanDefend=01F
+MaxFood=35
 SlayerSuper=UndeadSlayer|MageSlayer
 
 Fame=18000
 Karma=-18000
-Alignment=Evil
-
-DamCold=60
-DamEnergy=40
+FightMode=Evil
 
 ResPhysical=40,50
 ResFire=30,40
@@ -1040,15 +1001,19 @@ Name=ancient lich
 Can=CanWalk|CanUseHands
 MoveRate=100
 Dam=15,27
+DamPhysical=20
+DamCold=40
+DamEnergy=40
 Icon=iLichIcon
 Sound=sndLich1
 Resources=0
 FoodType=tRawMeat
-MaxFood=35
 Aversions=rCivilization
 Desires=rGraveyard
 BloodColor=0
 TEvents=eAIUndead
+// immune to level 5 poison
+// Spawns lesser creatures and takes their form
 
 Category=Monsters
 Subsection=Undead
@@ -1056,7 +1021,7 @@ Description=Ancient Lich
 
 On=@Create
 NPC=BrainMonster
-CanDefend=03F
+MaxFood=35
 SlayerSuper=UndeadSlayer|MageSlayer
 
 DoRand 5
@@ -1086,11 +1051,7 @@ Tag.Name.Suffix=" <Title>"
 
 Fame=23000
 Karma=-23000
-Alignment=Evil
-
-DamPhysical=20
-DamCold=40
-DamEnergy=40
+FightMode=Evil
 
 ResPhysical=55,65
 ResFire=25,30
@@ -1136,6 +1097,11 @@ NewItem=RandomNecromancyReagent,{15 20}
 NewItem={RandomBone 1 RandomBodyPart 1}
 NewItem={RandomBone 1 RandomBodyPart 1}
 
+On=@BardEffect
+If (<ArgN1> == 3)	// provocation (first target immunity)
+ Return 1
+EndIf
+
 
 // Dark Guardian
 [CharDef 052]
@@ -1144,15 +1110,19 @@ Name=dark guardian
 Can=CanWalk|CanUseHands
 MoveRate=100
 Dam=24,26
+DamPhysical=10
+DamCold=40
+DamEnergy=50
 Icon=iLichIcon
 Sound=sndLich1
 Resources=0
 FoodType=tRawMeat
-MaxFood=35
 Aversions=rCivilization
 Desires=rGraveyard
 BloodColor=0
 TEvents=eAIUndead
+// immune to level 5 poison
+// Spawns lesser Creatures and turns into one of them.
 
 Category=Monsters
 Subsection=Undead
@@ -1161,16 +1131,12 @@ Description=Dark Guardian
 On=@Create
 NPC=BrainMonster
 Color=2101
-CanDefend=03F
+MaxFood=35
 SlayerSuper=UndeadSlayer|MageSlayer
 
 Fame=8000
 Karma=-8000
-Alignment=Evil
-
-DamPhysical=10
-DamCold=40
-DamEnergy=50
+FightMode=Evil
 
 ResPhysical=40,50
 ResFire=20,45
@@ -1202,6 +1168,11 @@ DoRand 2
  NewGold={600 700}
 EndDo
 
+On=@BardEffect
+If (<ArgN1> == 3)	// immune first provoke
+ Return 1
+EndIf
+
 On=@DeathCorpse
 NewTMap={1 3}
 NewItem={RandomMediumMageryScroll 1 RandomMediumNecromancyScroll 1}
@@ -1219,6 +1190,7 @@ Name=flesh golem
 Can=CanWalk|CanUseHands
 MoveRate=100
 Dam=18,22
+DamPhysical=100
 Icon=iFleshGolemIcon
 Sound=sndZombie1
 Resources=0
@@ -1228,6 +1200,7 @@ Aversions=rCivilization
 Desires=rGraveyard
 BloodColor=0
 TEvents=eAIUndead
+// Bleed Attack
 
 Category=Monsters
 Subsection=Undead
@@ -1235,16 +1208,12 @@ Description=Flesh Golem
 
 On=@Create
 NPC=BrainMonster
-CanDefend=0
+MaxFood=35
 SlayerSuper=UndeadSlayer
 
 Fame=1800
 Karma=-1800
-Alignment=Evil
-
-Ability1=s_BleedAttack
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=50,60
 ResFire=25,35
@@ -1287,11 +1256,12 @@ Name=gore fiend
 Can=CanWalk|CanUseHands
 MoveRate=100
 Dam=15,21
+DamPhysical=85
+DamPoison=15
 Icon=iGoreFiendIcon
 Sound=sndZombie1
 Resources=0
 FoodType=tRawMeat
-MaxFood=35
 Aversions=rCivilization
 Desires=rGraveyard
 BloodColor=0
@@ -1303,15 +1273,12 @@ Description=Gore Fiend
 
 On=@Create
 NPC=BrainMonster
-CanDefend=0
+MaxFood=35
 SlayerSuper=UndeadSlayer
 
 Fame=1500
 Karma=-1500
-Alignment=Evil
-
-DamPhysical=85
-DamPoison=15
+FightMode=Evil
 
 ResPhysical=35,45
 ResFire=25,35
@@ -1347,11 +1314,12 @@ Name=patchwork skeleton
 Can=CanWalk|CanUseHands
 MoveRate=100
 Dam=18,22
+DamPhysical=85
+DamCold=15
 Icon=iPatchworkSkeletonIcon
 Sound=sndSkeleton1
 Resources=1 RandomBone
 FoodType=tRawMeat
-MaxFood=35
 Aversions=rCivilization
 Desires=rGraveyard
 BloodColor=0
@@ -1363,17 +1331,14 @@ Description=Patchwork Skeleton
 
 On=@Create
 NPC=BrainMonster
-CanDefend=0
+MaxFood=35
 SlayerSuper=UndeadSlayer
 
 Fame=500
 Karma=-500
-Alignment=Evil
+FightMode=Evil
 
-Ability1=s_Dismount
-
-DamPhysical=85
-DamCold=15
+Ability1=sDismount
 
 ResPhysical=55,65
 ResFire=50,60
@@ -1409,15 +1374,17 @@ Name=mummy
 Can=CanWalk|CanUseHands
 MoveRate=100
 Dam=13,23
+DamPhysical=40
+DamCold=60
 Icon=iMummyIcon
 Sound=sndZombie1
 Resources=1 RandomBone
 FoodType=tRawMeat
-MaxFood=35
 Aversions=rCivilization
 Desires=rGraveyard
 BloodColor=0
 TEvents=eAIUndead
+// Poison immune level 1
 
 Category=Monsters
 Subsection=Undead
@@ -1425,15 +1392,12 @@ Description=Mummy
 
 On=@Create
 NPC=BrainMonster
-CanDefend=01
+MaxFood=35
 SlayerSuper=UndeadSlayer
 
 Fame=4000
 Karma=-4000
-Alignment=Evil
-
-DamPhysical=40
-DamCold=60
+FightMode=Evil
 
 ResPhysical=45,55
 ResFire=10,20
@@ -1470,7 +1434,10 @@ NewItem={RandomBone 1 RandomBodyPart 1}
 ID=cMummy
 Name=pestilent bandage
 Dam=13,23
-TEvents=eAIUndead
+DamPhysical=40
+DamCold=20
+DamPoison=40
+// Poison immune level 1
 
 Category=Monsters
 Subsection=Undead
@@ -1479,16 +1446,12 @@ Description=Pestilent Bandage
 On=@Create
 NPC=BrainMonster
 Color=0482
-CanDefend=01
+MaxFood=35
 SlayerSuper=UndeadSlayer
 
 Fame=4000
 Karma=-4000
-Alignment=Evil
-
-DamPhysical=40
-DamCold=20
-DamPoison=40
+FightMode=Evil
 
 ResPhysical=45,55
 ResFire=10,20
@@ -1523,7 +1486,9 @@ NewItem={RandomBone 1 RandomBodyPart 1}
 ID=cMummy
 Name=unfrozen mummy
 Dam=16,20
-TEvents=eAIUndead
+DamCold=50
+DamEnergy=50
+// Poison immune level 1
 
 Category=Monsters
 Subsection=Undead
@@ -1532,15 +1497,12 @@ Description=Unfrozen Mummy
 On=@Create
 NPC=BrainMonster
 Color=0480
-CanDefend=01
+MaxFood=35
 SlayerSuper=UndeadSlayer|IceSlayer
 
 Fame=12500
 Karma=-12500
-Alignment=Evil
-
-DamCold=50
-DamEnergy=50
+FightMode=Evil
 
 ResPhysical=45,45
 ResFire=20,30
@@ -1585,6 +1547,8 @@ Name=Lady of the Snow
 Can=CanWalk|CanUseHands
 MoveRate=100
 Dam=13,20
+DamPhysical=20
+DamCold=80
 Icon=iLadyoftheSnow
 Sound=sndGhoul1
 Resources=1 RandomBone
@@ -1594,6 +1558,9 @@ Aversions=rCivilization
 Desires=rGraveyard
 BloodColor=0
 TEvents=eAIUndead
+//s_SummonRevenant
+//s_IcyWind
+//sSnowballRangedDefense
 
 Category=Monsters
 Subsection=Undead
@@ -1601,19 +1568,12 @@ Description=Lady of the Snow
 
 On=@Create
 NPC=BrainMonster
-CanDefend=0
+MaxFood=35
 SlayerSuper=UndeadSlayer
 
 Fame=15000
 Karma=-15000
-Alignment=Evil
-
-Ability1=s_SummonRevenant
-Ability2=s_IcyWind
-Ability3=sSnowballRangedDefense
-
-DamPhysical=20
-DamCold=80
+FightMode=Evil
 
 ResPhysical=45,55
 ResFire=40,55
@@ -1651,7 +1611,11 @@ NewItem={RandomBone 1 RandomBodyPart 1}
 ID=cLadyoftheSnow
 Name=wight
 Dam=13,20
-TEvents=eAIUndead
+DamPhysical=20
+DamCold=80
+//s_SummonRevenant
+//s_IcyWind
+//sSnowballRangedDefense
 
 Category=Monsters
 Subsection=Undead
@@ -1660,19 +1624,12 @@ Description=Wight
 On=@Create
 NPC=BrainMonster
 Color=0482
-CanDefend=0
+MaxFood=0
 SlayerSuper=UndeadSlayer
 
 Fame=15000
 Karma=-15000
-Alignment=Evil
-
-Ability1=s_SummonRevenant
-Ability2=s_IcyWind
-Ability3=sSnowballRangedDefense
-
-DamPhysical=20
-DamCold=80
+FightMode=Evil
 
 ResPhysical=35,45
 ResFire=30,40
@@ -1711,6 +1668,10 @@ Name=Revenant Lion
 Can=CanWalk|CanUseHands
 MoveRate=100
 Dam=18,24
+DamPhysical=30
+DamCold=30
+DamPoison=10
+DamEnergy=30
 Icon=iRevenantLionIcon
 Sound=sndRevenantLion1
 Resources=1 RandomBone
@@ -1720,6 +1681,7 @@ Aversions=rCivilization
 Desires=rGraveyard
 BloodColor=0
 TEvents=eAIUndead
+//s_BleedAttack
 
 Category=Monsters
 Subsection=Undead
@@ -1727,19 +1689,11 @@ Description=Revenant Lion
 
 On=@Create
 NPC=BrainMonster
-CanDefend=0
 SlayerSuper=UndeadSlayer
 
 Fame=4000
 Karma=-4000
-Alignment=Evil
-
-Ability1=s_BleedAttack
-
-DamPhysical=30
-DamCold=30
-DamPoison=10
-DamEnergy=30
+FightMode=Evil
 
 ResPhysical=40,60
 ResFire=20,30
@@ -1783,6 +1737,8 @@ Name=revenant
 Can=CanWalk|CanRun|CanGhost|CanUseHands
 MoveRate=100
 Dam=20,30
+DamPhysical=50
+DamCold=50
 Icon=iHumanMaleIcon
 Sound=sndGhost1
 Resources=0
@@ -1792,25 +1748,22 @@ Aversions=rCivilization
 Desires=rGraveyard
 BloodColor=0
 TEvents=eAIUndead
+//s_Teleport
+//immune to level 5 poison
 
 Category=Monsters
 Subsection=Undead
-Description=Revenant (Needs complete bard immunity)
+Description=Revenant
 
 On=@Create
 NPC=BrainMonster
-Color=fSpectralHue
-CanDefend=01F
+Color=04001
+MaxFood=35
 SlayerSuper=UndeadSlayer
 
 Fame=0
 Karma=0
-Alignment=Evil
-
-Ability1=s_Teleport
-
-DamPhysical=50
-DamCold=50
+FightMode=Evil
 
 ResPhysical=55,65
 ResFire=30,40
@@ -1831,7 +1784,12 @@ Parrying={901 1000}
 Swordsmanship={901 1000}
 
 ItemNewbie=iHalberd
-Color=SpectralHue
+Color=04001
+
+On=@BardEffect
+If (<ArgN> > 0)	// Immune to all
+ Return 1
+EndIf
 
 
 // Dream Wraith
@@ -1841,6 +1799,9 @@ Name=dream wraith
 Can=CanWalk|CanUseHands
 MoveRate=100
 Dam=18,25
+DamPhysical=10
+DamCold=45
+DamEnergy=45
 Icon=iDreamWraithIcon
 Sound=sndGhoul1
 Resources=0
@@ -1850,6 +1811,7 @@ Aversions=rCivilization
 Desires=rGraveyard
 BloodColor=0
 TEvents=eAIUndead
+// immune to level 5 poison
 
 Category=Monsters
 Subsection=Undead
@@ -1857,16 +1819,12 @@ Description=Dream Wraith (Immune to all bardic abilities)
 
 On=@Create
 NPC=BrainMonster
-CanDefend=01F
+MaxFood=35
 SlayerSuper=UndeadSlayer
 
 Fame=18000
 Karma=-18000
-Alignment=Evil
-
-DamPhysical=10
-DamCold=45
-DamEnergy=45
+FightMode=Evil
 
 ResPhysical=45,60
 ResFire=40,50
@@ -1894,41 +1852,48 @@ AddCircle=7,1
 On=@NPCRestock
 NewGold={1000 1200}
 
+On=@BardEffect
+If (<ArgN> > 0)	// Immune to all
+ Return 1
+EndIf
+
 
 // Skeletal Dragon
 [CharDef 068]
 DefName=cSkeletalDragon
 Name=skeletal dragon
-Can=CanNonHum|CanWalk|CanFly|CanUseHands
+Can=CanNonHuman|CanWalk|CanFly|CanUseHands
 MoveRate=100
 Dam=29,35
+DamPhysical=75
+DamFire=25	// Should this not be set to cold?
 Icon=iSkeletalDragonIcon
 Sound=sndDragon1
 Resources=20 iBarbedHides,19 iCutOfRawRibs
 FoodType=tRawMeat
-MaxFood=35
 Aversions=rCivilization
 Desires=rGraveyard
 BloodColor=0
 TEvents=eAIUndead
+// IncreasePetDam=300
+// Used to turn pets on master
+// used to summon undead
+// immune to poison level 5
+// immune to provocation skill
+// ice breath
 
 Category=Monsters
 Subsection=Undead
-Description=Skeletal Dragon (Add in 3x damage to pets)
+Description=Skeletal Dragon
 
 On=@Create
 NPC=BrainDragon
-CanDefend=07F
+MaxFood=35
 SlayerSuper=UndeadSlayer|DragonSlayer|ReptileSlayer
-Breath.Anim=
-Breath.Dam=
 
 Fame=22500
 Karma=-22500
-Alignment=Evil
-
-DamPhysical=75
-DamFire=25	// Should this not be set to cold?
+FightMode=Evil
 
 ResPhysical=75,80
 ResFire=40,60
@@ -1954,6 +1919,11 @@ AddCircle=7,1
 On=@NPCRestock
 NewGold={1600 1800}
 
+On=@BardEffect
+If (<ArgN1> == 3)	// Complete immunity
+ Return 1
+EndIf
+
 On=@DeathCorpse
 NewTMap=5
 NewItem=RandomCommonGem,5
@@ -1966,7 +1936,14 @@ NewItem={RandomBone 1 RandomBodyPart 1}
 ID=cSkeletalDragon
 Name=skeletal drake
 Dam=29,35
-TEvents=eAIUndead
+DamPhysical=75
+DamFire=25	// Should this not be set to cold?
+// IncreasePetDam=300
+// Used to turn pets on master
+// used to summon undead
+// immune to poison level 5
+// immune to provocation skill
+// Ice breath
 
 Category=Monsters
 Subsection=Undead
@@ -1975,17 +1952,12 @@ Description=Skeletal Drake (Add in 3x damage to pets, Needs hue)
 On=@Create
 NPC=BrainDragon
 Color=
-CanDefend=07F
+MaxFood=35
 SlayerSuper=UndeadSlayer|DragonSlayer
-Breath.Anim=
-Breath.Dam=
 
 Fame=22500
 Karma=-22500
-Alignment=Evil
-
-DamPhysical=75
-DamFire=25	// Should this not be set to cold?
+FightMode=Evil
 
 ResPhysical=70,80
 ResFire=50,60
@@ -2011,6 +1983,11 @@ AddCircle=7,1
 On=@NPCRestock
 NewGold={1600 1800}
 
+On=@BardEffect
+If (<ArgN1> == 3)	// Complete immunity
+ Return 1
+EndIf
+
 On=@DeathCorpse
 NewItem=RandomCommonGem,5
 NewItem={RandomBone 1 RandomBodyPart 1}
@@ -2021,18 +1998,22 @@ NewItem={RandomBone 1 RandomBodyPart 1}
 [CharDef 0319]
 DefName=cSkeletalSteed
 Name=skeletal steed
-Can=CanNonHum|CanWalk|CanRun
+Can=CanNonHuman|CanWalk|CanRun
 MoveRate=100
 Dam=5,12
+DamPhysical=50
+DamCold=50
 Icon=iSkeletalSteedIcon
 Sound=sndHorse1
 Resources=0
 FoodType=tRawMeat
-MaxFood=35
 Aversions=rCivilization
 Desires=rGraveyard
 BloodColor=0
 TEvents=eAIUndead
+// Immune to level 5 poison
+// Cant be first target of provoke
+// loses hp over time
 
 Category=Monsters
 Subsection=Undead
@@ -2041,18 +2022,14 @@ Description=Skeletal Steed
 On=@Create
 NPC=BrainMonster
 FollowerSlots=1
-CanDefend=03F
+MaxFood=35
 SlayerSuper=UndeadSlayer
 
 Fame=0
 Karma=0
-Alignment=Neutral
-
-DamPhysical=50
-DamCold=50
+FightMode=Neutral
 
 ResPhysical=50,60
-ResFire=0
 ResCold=90,95
 ResPoison=100
 ResEnergy=10,15
@@ -2067,13 +2044,23 @@ Tactics=500
 MagicResistance={951 1000}
 Parrying=500
 
+On=@BardEffect
+If (<ArgN1> == 3)	// cant be first target
+ Return 1
+EndIf
+
 
 // Hellsteed
 [CharDef cHellsteed]
 ID=cSkeletalSteed
 Name=hellsteed
 Dam=20,24
-TEvents=eAIUndead
+DamPhysical=50
+DamCold=50
+// Immune to level 5 poison
+// Cant be first target of provoke
+// chaos breath
+// loses hp over time
 
 Category=Monsters
 Subsection=Undead
@@ -2081,25 +2068,18 @@ Description=Hellsteed
 
 On=@Create
 NPC=BrainDragon
+MaxFood=35
 FollowerSlots=2
-CanDefend=03F
 SlayerSuper=UndeadSlayer
-Breath.Type=
-Breath.Anim=
-Breath.Dam=
+Breath.Type=0
 
 Fame=0
 Karma=0
-Alignment=Neutral
-
-DamPhysical=50
-DamCold=50
+FightMode=Neutral
 
 ResPhysical=60,70
 ResFire=90
-ResCold=0
 ResPoison=100
-ResEnergy=0
 
 OStr={201 210}
 ODex={101 110}
@@ -2111,13 +2091,23 @@ Tactics=500
 MagicResistance={901 1100}
 Parrying=500
 
+On=@BardEffect
+If (<ArgN1> == 3)	// cant be first target
+ Return 1
+EndIf
+
 
 // Grizzled Mare
 [CharDef cGrizzledMare]
 ID=cSkeletalSteed
 Name=grizzled mare
 Dam=20,24
-TEvents=eAIUndead
+DamPhysical=50
+DamCold=50
+// Immune to level 5 poison
+// Cant be first target of provoke
+// chaos breath
+// loses hp over time
 
 Category=Monsters
 Subsection=Undead
@@ -2126,7 +2116,6 @@ Description=Grizzled Mare
 On=@Create
 NPC=BrainDragon
 FollowerSlots=2
-CanDefend=03F
 SlayerSuper=UndeadSlayer
 Breath.Type=
 Breath.Anim=
@@ -2134,10 +2123,7 @@ Breath.Dam=
 
 Fame=0
 Karma=0
-Alignment=Neutral
-
-DamPhysical=50
-DamCold=50
+FightMode=Neutral
 
 ResPhysical=60,70
 ResFire=90
@@ -2154,6 +2140,11 @@ Wrestling={901 1100}
 Tactics=500
 MagicResistance={901 1100}
 Parrying=500
+
+On=@BardEffect
+If (<ArgN1> == 3)	// cant be first target
+ Return 1
+EndIf
 
 
 // Wailing Banshee
@@ -2163,15 +2154,19 @@ Name=wailing banshee
 Can=CanWalk|CanUseHands
 MoveRate=100
 Dam=10,14
+DamPhysical=20
+DamCold=60
+DamPoison=20
 Icon=iHowlingBasheeIcon
 Sound=sndGhoul1
 Resources=0
 FoodType=tRawMeat
-MaxFood=35
 Aversions=rCivilization
 Desires=rGraveyard
 BloodColor=0
 TEvents=eAIUndead
+//s_MortalStrike
+//s_LifeLeech
 
 Category=Monsters
 Subsection=Undead
@@ -2179,19 +2174,12 @@ Description=Wailing Banshee
 
 On=@Create
 NPC=BrainMonster
-CanDefend=0
+MaxFood=35
 SlayerSuper=UndeadSlayer
 
 Fame=1500
 Karma=-1500
-Alignment=Evil
-
-Ability1=s_MortalStrike
-Ability2=s_LifeLeech
-
-DamPhysical=20
-DamCold=60
-DamPoison=20
+FightMode=Evil
 
 ResPhysical=50,60
 ResFire=25,30
@@ -2220,6 +2208,9 @@ Name=wailing banshee
 Can=CanWalk|CanUseHands
 MoveRate=100
 Dam=10,14
+DamPhysical=20
+DamCold=60
+DamPoison=20
 Icon=iHowlingBasheeIcon
 Sound=sndGhoul1
 Resources=0
@@ -2229,6 +2220,8 @@ Aversions=rCivilization
 Desires=rGraveyard
 BloodColor=0
 TEvents=eAIUndead
+//s_MortalStrike
+//s_LifeLeech
 
 Category=Monsters
 Subsection=Undead
@@ -2236,19 +2229,12 @@ Description=Wailing Banshee
 
 On=@Create
 NPC=BrainMonster
-CanDefend=0
+MaxFood=35
 SlayerSuper=UndeadSlayer
 
 Fame=1500
 Karma=-1500
-Alignment=Evil
-
-Ability1=s_MortalStrike
-Ability2=s_LifeLeech
-
-DamPhysical=20
-DamCold=60
-DamPoison=20
+FightMode=Evil
 
 ResPhysical=50,60
 ResFire=25,30
@@ -2277,11 +2263,12 @@ Name=undead gargoyle
 Can=CanWalk|CanUseHands
 MoveRate=100
 Dam=15,27
+DamCold=60
+DamEnergy=40
 Icon=iUndeadGargoyleIcon
 Sound=sndUndeadGargoyle1
 Resources=1 iCutOfRawRibs
 FoodType=tRawMeat
-MaxFood=35
 Aversions=rCivilization
 Desires=rGraveyard
 BloodColor=0
@@ -2293,15 +2280,12 @@ Description=Undead Gargoyle
 
 On=@Create
 NPC=BrainMonster
-CanDefend=0
+MaxFood=35
 SlayerSuper=UndeadSlayer|GargoyleSlayer
 
 Fame=18000
 Karma=-18000
-Alignment=Evil
-
-DamCold=60
-DamEnergy=40
+FightMode=Evil
 
 ResPhysical=40,50
 ResFire=30,40
@@ -2348,7 +2332,8 @@ NewItem={RandomBone 1 RandomBodyPart 1}
 ID=cUndeadGargoyle
 Name=undead gargoyle
 Dam=15,27
-TEvents=eAIUndead
+DamCold=60
+DamEnergy=40
 
 Category=Monsters
 Subsection=Undead
@@ -2356,15 +2341,12 @@ Description=Undead Gargoyle (Medusa's Lair)
 
 On=@Create
 NPC=BrainMonster
-CanDefend=0
+MaxFood=35
 SlayerSuper=UndeadSlayer|GargoyleSlayer
 
 Fame=18000
 Karma=-18000
-Alignment=Evil
-
-DamCold=60
-DamEnergy=40
+FightMode=Evil
 
 ResPhysical=40,50
 ResFire=30,40
@@ -2413,7 +2395,7 @@ NewItem={iUndamagedUndeadGargoyleHorns 1 0 9}
 ID=cUndeadGargoyle
 Name=effete undead gargoyle
 Dam=3,7
-TEvents=eAIUndead
+DamPhysical=100
 
 Category=Monsters
 Subsection=Undead
@@ -2421,14 +2403,12 @@ Description=Effete Undead Gargoyle
 
 On=@Create
 NPC=BrainMonster
-CanDefend=0
+MaxFood=35
 SlayerSuper=UndeadSlayer|GargoyleSlayer
 
 Fame=500
 Karma=-500
-Alignment=Evil
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=15,20
 ResFire=5,10
@@ -2462,7 +2442,9 @@ NewItem={iUndyingFlesh 1 0 9}
 ID=cUndeadGargoyle
 Name=undead gargoyle
 Dam=21,30
-TEvents=eAIUndead
+DamPhysical=20
+DamCold=40
+DamEnergy=40
 
 Category=Monsters
 Subsection=Undead
@@ -2471,16 +2453,12 @@ Description=Putrid Undead Gargoyle
 On=@Create
 NPC=BrainMonster
 Color=0485
-CanDefend=0
+MaxFood=35
 SlayerSuper=UndeadSlayer|GargoyleSlayer
 
 Fame=23000
 Karma=-23000
-Alignment=Evil
-
-DamPhysical=20
-DamCold=40
-DamEnergy=40
+FightMode=Evil
 
 ResPhysical=55,65
 ResFire=30,40
@@ -2526,7 +2504,8 @@ NewItem={iInfusedGlassStaff 1 0 9}
 ID=cGargoyle
 Name=effete putrid gargoyle
 Dam=8,18
-TEvents=eAIUndead
+DamPhysical=40
+DamCold=60
 
 Category=Monsters
 Subsection=Undead
@@ -2534,21 +2513,18 @@ Description=Effete Putrid Gargoyle
 
 On=@Create
 NPC=BrainMonster
-CanDefend=0
+MaxFood=35
 SlayerSuper=UndeadSlayer|GargoyleSlayer
 
 Fame=3000
 Karma=-3000
-Alignment=Evil
+FightMode=Evil
 
-DamPhysical=40
-DamCold=60
-
-ResPhysical=42
-ResFire=22
-ResCold=59
-ResPoison=21
-ResEnergy=32
+ResPhysical=40,50
+ResFire=20,30
+ResCold=50,60
+ResPoison=20,30
+ResEnergy=30,40
 
 OStr={210 260}
 ODex={90 95}
@@ -2580,7 +2556,8 @@ NewItem={iUndyingFlesh 1 0 9}
 ID=cUndeadGargoyle
 Name=undead guardian
 Dam=8,18
-TEvents=eAIUndead
+DamCold=60
+DamEnergy=40
 
 Category=Monsters
 Subsection=Undead
@@ -2588,15 +2565,12 @@ Description=Undead Guardian
 
 On=@Create
 NPC=BrainMonster
-CanDefend=0
+MaxFood=35
 SlayerSuper=UndeadSlayer|GargoyleSlayer
 
 Fame=3000
 Karma=-3000
-Alignment=Evil
-
-DamCold=60
-DamEnergy=40
+FightMode=Evil
 
 ResPhysical=35,45
 ResFire=20,30
@@ -2639,7 +2613,7 @@ NewColor=BlueHues
 ID=cUndeadGargoyle
 Name=putrid undead guardian
 Dam=3,7
-TEvents=eAIUndead
+DamPhysical=100
 
 Category=Monsters
 Subsection=Undead
@@ -2647,14 +2621,12 @@ Description=Putrid Undead Guardian
 
 On=@Create
 NPC=BrainMonster
-CanDefend=0
+MaxFood=35
 SlayerSuper=UndeadSlayer|GargoyleSlayer
 
 Fame=3000
 Karma=-3000
-Alignment=Evil
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=35,40
 ResFire=20,30
@@ -2693,7 +2665,7 @@ NewItem={iUndyingFlesh 1 0 9}
 ID=cGargoyle
 Name=gargoyle shade
 Dam=7,14
-TEvents=eAIUndead
+DamPhysical=100
 
 Category=Monsters
 Subsection=Undead
@@ -2701,15 +2673,13 @@ Description=Gargoyle Shade
 
 On=@Create
 NPC=BrainMonster
-Color=SpectralHue
-CanDefend=0
+Color=04001
+MaxFood=35
 SlayerSuper=UndeadSlayer|GargoyleSlayer
 
 Fame=2500
 Karma=-2500
-Alignment=Evil
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=40,55
 ResFire=35,45
@@ -2747,26 +2717,24 @@ NewItem={RandomBone 1 RandomBodyPart 1}
 ID=cBoneDaemon
 Name=skeletal lich
 Dam=7,14
-TEvents=eAIUndead
+DamPhysical=50
+DamCold=50
+//s_TeleportTarget
+// Poison immune level 5
 
 Category=Monsters
 Subsection=Undead
-Description=Skeletal Lich (Add in barding immunity)
+Description=Skeletal Lich
 
 On=@Create
 NPC=BrainMonster
 Color=0455
-CanDefend=01F
+MaxFood=35
 SlayerSuper=UndeadSlayer|DaemonSlayer
 
 Fame=15000
 Karma=-15000
-Alignment=Evil
-
-Ability1=s_TeleportTarget
-
-DamPhysical=50
-DamCold=50
+FightMode=Evil
 
 ResPhysical=40,50
 ResFire=25,35
@@ -2795,6 +2763,11 @@ AddCircle=7,1
 On=@NPCRestock
 NewGold={1800 2000}
 
+On=@BardEffect
+If (<ArgN1> > 0)
+ Return 1
+EndIf
+
 On=@DeathCorpse
 NewItem=RandomMageryReagent,{10 15}
 NewItem=RandomMageryReagent,{10 15}
@@ -2818,11 +2791,12 @@ Name=interred grizzle
 Can=CanWalk|CanUseHands
 MoveRate=100
 Dam=16,19
+DamPhysical=30
+DamFire=70
 Icon=iInterredGrizzleIcon
 Sound=sndInterredGrizzle1
 Resources=0
 FoodType=tRawMeat
-MaxFood=35
 Aversions=rCivilization
 Desires=rGraveyard,rDungeon
 BloodColor=0
@@ -2834,14 +2808,12 @@ Description=Interred Grizzle
 
 On=@Create
 NPC=BrainMonster
+MaxFood=35
 SlayerSuper=UndeadSlayer
 
 Fame=11000
 Karma=-11000
-Alignment=Evil
-
-DamPhysical=30
-DamFire=70
+FightMode=Evil
 
 ResPhysical=35,45
 ResFire=20,30

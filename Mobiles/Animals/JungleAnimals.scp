@@ -4,12 +4,13 @@
 ID=cGorilla
 Name=silverback gorilla
 Dam=5,10
+DamPhysical=100
 Resources=1 iCutOfRawRibs,7 iPileOfHides
 Aversions=0
 
 Category=Animals
-SubsectiOn=Primates
-DescriptiOn=Silverback Gorilla
+Subsection=Primates
+Description=Silverback Gorilla
 
 On=@Create
 NPC=BrainAnimal
@@ -21,9 +22,7 @@ ThrowDam=<DamMin>,<DamMax>
 
 Fame=450
 Karma=-450
-Alignment=Evil
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=20,25
 ResFire=10,15
@@ -54,9 +53,10 @@ Item=iBanana,{10 20}
 [CharDef 04E6]
 DefName=cWildTiger
 Name=wild tiger
-Can=CanWalk
+Can=CanWalk|CanNonHuman
 MoveRate=100
 Dam=18,24
+DamPhysical=100
 Icon=iWildTigerIcon
 Sound=sndLion1
 Resources=4 iTigerPelt,2 iCutOfRawRibs
@@ -64,10 +64,11 @@ FoodType=tRawMeat
 Aversions=rCivilization
 Desires=rJungle,tRawMeat,tWater
 BloodColor=0
+//sBleedAttack
 
 Category=Animals
-SubsectiOn=Felines: Tigers
-DescriptiOn=Wild Tiger
+Subsection=Felines: Tigers
+Description=Wild Tiger
 
 On=@Create
 NPC=BrainAnimal
@@ -77,11 +78,7 @@ SlayerSuper=EodonSlayer|FelineSlayer
 
 Fame=16000
 Karma=-16000
-Alignment=Evil
-
-Ability1=sBleedAttack
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=55,75
 ResFire=20,40
@@ -113,28 +110,25 @@ NewItem=RandomRareSeed5,1,R9
 ID=cWildTiger
 Name=wild white tiger
 Dam=18,24
+DamPhysical=100
 Resources=4 iWhiteTigerPelt,2 iCutOfRawRibs
 Aversions=rCivilization
+//sBleedAttack
 
 Category=Animals
-SubsectiOn=Felines: Tigers
-DescriptiOn=Wild White Tiger
+Subsection=Felines: Tigers
+Description=Wild White Tiger
 
 On=@Create
 NPC=BrainAnimal
 Color=WhiteHue
 FollowerSlots=2
 MaxFood=35
-MaxFood=35
 SlayerSuper=EodonSlayer|FelineSlayer
 
 Fame=16000
 Karma=-16000
-Alignment=Evil
-
-Ability1=sBleedAttack
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=55,75
 ResFire=20,40
@@ -166,12 +160,14 @@ NewItem=RandomRareSeed5,1,R9
 ID=cWildTiger
 Name=wild black tiger
 Dam=18,24
+DamPhysical=100
 Resources=4 iBlackTigerPelt,2 iCutOfRawRibs
 Aversions=rCivilization
+//sBleedAttack
 
 Category=Animals
-SubsectiOn=Felines: Tigers
-DescriptiOn=Wild Black Tiger
+Subsection=Felines: Tigers
+Description=Wild Black Tiger
 
 On=@Create
 NPC=BrainAnimal
@@ -182,11 +178,7 @@ SlayerSuper=EodonSlayer|FelineSlayer
 
 Fame=16000
 Karma=-16000
-Alignment=Evil
-
-Ability1=sBleedAttack
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=55,75
 ResFire=20,40
@@ -216,34 +208,32 @@ NewItem=RandomRareSeed5,1,R9
 [CharDef 051D]
 ID=cTigerCub
 Name=tiger cub
-Can=CanWalk|CanNonHum
+Can=CanWalk|CanNonHuman
 MoveRate=100
 Dam=18,24
+DamPhysical=100
 Icon=iTigerCubIcon
 Sound=sndLion1
 Resources=4 iTigerPelt,2 iCutOfRawRibs
 FoodType=tRawMeat
-MaxFood=35
 Aversions=rCivilization
 Desires=rJungle,tRawMeat,tWater
 BloodColor=0
+//sBleedAttack
 
 Category=Animals
-SubsectiOn=Felines: Tigers
-DescriptiOn=Tiger Cub
+Subsection=Felines: Tigers
+Description=Tiger Cub
 
 On=@Create
 NPC=BrainAnimal
+MaxFood=35
 FollowerSlots=1
 SlayerSuper=EodonSlayer|FelineSlayer
 
 Fame=10000
 Karma=-10000
-Alignment=Neutral
-
-Ability1=sBleedAttack
-
-DamPhysical=100
+FightMode=Neutral
 
 ResPhysical=45,65
 ResFire=10,30

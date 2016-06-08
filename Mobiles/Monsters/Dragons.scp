@@ -1,0 +1,1882 @@
+[CharDef 0C]
+DefName=cDragon1
+Name=dragon
+Can=CanWalk|CanFly|CanNonHuman|CanUseHands
+MoveRate=100
+Dam=16,22
+DamPhysical=100
+Icon=iDragonIcon
+Sound=sndDragon1
+Resources=7 {iRedDragonScales 1 iYellowDragonScales 1},20 iPileOfBarbedHides,19 iCutOfRawRibs
+FoodType=tMeat,tRawMeat
+Aversions=rCivilization
+Desires=tRawMeat,tMeat,tGold,tGem
+BloodColor=0
+TEvents=AIDragon
+
+Category=Monsters
+Subsection=Dragonkin
+Description=Dragon (Brown)
+
+On=@Create
+NPC=BrainDragon
+MaxFood=35
+FollowerSlots=3
+SlayerSuper=ReptileSlayer
+SlayerLesser=DragonSlayer
+
+Fame=15000
+Karma=-15000
+FightMode=Evil
+
+ResPhysical=55,65
+ResFire=60,70
+ResCold=30,40
+ResPoison=25,35
+ResEnergy=35,45
+
+OStr={796 825}
+ODex={86 105}
+OInt={436 475}
+MaxHits={478 495}
+
+Wrestling={900 925}
+Tactics={975 1000}
+MagicResistance={990 1000}
+Parrying={975 1000}
+Magery={300 400}
+EvaluatingIntel={300 400}
+Taming=939
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={1000 1200}
+
+On=@DeathCorpse
+NewTMap=4
+NewItem=RandomCommonGem,{2 4}
+NewItem=RandomCommonGem,{2 4}
+NewItem=RandomCommonGem,{2 4}
+NewItem=RandomCommonGem,{2 4}
+
+
+[CharDef 03B]
+DefName=cDragon2
+Name=dragon
+Can=CanWalk|CanFly|CanNonHuman|CanUseHands
+MoveRate=100
+Dam=16,22
+DamPhysical=100
+Icon=iDragonIcon
+Sound=sndDragon1
+Resources=7 {iRedDragonScales 1 iYellowDragonScales 1},20 iPileOfBarbedHides,19 iCutOfRawRibs
+FoodType=tMeat,tRawMeat
+Aversions=rCivilization
+Desires=tRawMeat,tMeat,tGold,tGem
+BloodColor=0
+TEvents=AIDragon
+
+Category=Monsters
+Subsection=Dragonkin
+Description=Dragon (Red)
+
+On=@Create
+NPC=BrainDragon
+MaxFood=35
+FollowerSlots=3
+SlayerSuper=ReptileSlayer
+SlayerLesser=DragonSlayer
+
+Fame=15000
+Karma=-15000
+FightMode=Evil
+
+ResPhysical=55,65
+ResFire=60,70
+ResCold=30,40
+ResPoison=25,35
+ResEnergy=35,45
+
+OStr={796 825}
+ODex={86 105}
+OInt={436 475}
+MaxHits={478 495}
+
+Wrestling={900 925}
+Tactics={975 1000}
+MagicResistance={990 1000}
+Parrying={975 1000}
+Magery={300 400}
+EvaluatingIntel={300 400}
+Taming=939
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={1000 1200}
+
+On=@DeathCorpse
+NewTMap=4
+NewItem=RandomCommonGem,{2 4}
+
+
+[CharDef cGreaterDragon1]
+ID=cDragon1
+Name=dragon
+Dam=24,33
+DamPhysical=100
+Resources=7 {iRedDragonScales 1 iYellowDragonScales 1},20 iPileOfBarbedHides,19 iCutOfRawRibs
+
+Category=Monsters
+Subsection=Dragonkin
+Description=Greater Dragon (Brown)
+
+On=@Create
+NPC=BrainDragon
+MaxFood=35
+FollowerSlots=5
+SlayerSuper=ReptileSlayer
+SlayerLesser=DragonSlayer
+
+Fame=22000
+Karma=-22000
+FightMode=Evil
+
+ResPhysical=60,85
+ResFire=65,90
+ResCold=40,55
+ResPoison=40,60
+ResEnergy=50,75
+
+OStr={1025 1425}
+ODex={81 148}
+OInt={475 675}
+MaxHits={1000 2000}
+
+Wrestling={1150 1450}
+Tactics={1100 1400}
+MagicResistance={1100 1400}
+Parrying={1100 1400}
+Magery={1100 1400}
+EvaluatingIntel={900 1000}
+Taming=1047
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={1500 2000}
+
+On=@DeathCorpse
+NewTMap=5
+NewItem=RandomCommonGem,{2 4}
+NewItem=RandomCommonGem,{2 4}
+NewItem=RandomCommonGem,{2 4}
+NewItem=RandomCommonGem,{2 4}
+
+
+[CharDef cGreaterDragon2]
+ID=cDragon2
+Name=dragon
+Dam=24,33
+DamPhysical=100
+Resources=7 {iRedDragonScales 1 iYellowDragonScales 1},20 iPileOfBarbedHides,19 iCutOfRawRibs
+
+Category=Monsters
+Subsection=Dragonkin
+Description=Greater Dragon (Red)
+
+On=@Create
+NPC=BrainDragon
+MaxFood=35
+FollowerSlots=5
+SlayerSuper=ReptileSlayer
+SlayerLesser=DragonSlayer
+
+Fame=22000
+Karma=-22000
+FightMode=Evil
+
+ResPhysical=60,85
+ResFire=65,90
+ResCold=40,55
+ResPoison=40,60
+ResEnergy=50,75
+
+OStr={1025 1425}
+ODex={81 148}
+OInt={475 675}
+MaxHits={1000 2000}
+
+Wrestling={1150 1450}
+Tactics={1100 1400}
+MagicResistance={1100 1400}
+Parrying={1100 1400}
+Magery={1100 1400}
+EvaluatingIntel={900 1000}
+Taming=1047
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={1500 2000}
+
+On=@DeathCorpse
+NewTMap=5
+NewItem=RandomCommonGem,{2 4}
+NewItem=RandomCommonGem,{2 4}
+NewItem=RandomCommonGem,{2 4}
+NewItem=RandomCommonGem,{2 4}
+
+
+[CharDef cFrostDragon]
+ID=cDragon2
+Name=dragon
+Dam=25,35
+DamPhysical=50
+DamCold=50
+Resources=7 {iBlueDragonScales 1 iWhiteDragonScales 1},33 iPileOfHides,19 iCutOfRawRibs,8 iDragonsBlood2
+Events=ColdAuraAbility
+
+Category=Monsters
+Subsection=Dragonkin
+Description=Frost Dragon
+
+On=@Create
+NPC=BrainDragon
+Color=BlueHues
+MaxFood=35
+SlayerSuper=ReptileSlayer
+SlayerLesser=DragonSlayer
+
+Fame=22000
+Karma=-22000
+FightMode=Evil
+
+ResPhysical=70,95
+ResFire=55,70
+ResCold=85,95
+ResPoison=65,70
+ResEnergy=55,75
+
+OStr={1210 1455}
+ODex={95 130}
+OInt={590 760}
+MaxHits={1810 2400}
+
+Wrestling={1200 1400}
+Tactics={1200 1350}
+MagicResistance={1150 1350}
+Parrying={1200 1350}
+Magery={1150 1300}
+EvaluatingIntel={450 600}
+Meditation={0 500}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={1500 2000}
+
+On=@DeathCorpse
+NewTMap=4
+NewItem=RandomCommonGem,{2 4}
+
+
+[CharDef 02E]
+DefName=cAncientWyrm1
+Name=ancient wyrm
+Can=CanWalk|CanFly|CanNonHuman|CanUseHands
+MoveRate=100
+Dam=29,35
+DamPhysical=75
+DamFire=25
+Icon=iDragonIcon
+Sound=sndDragon1
+Resources=12 {iBlackDragonScales 1 iGreenDragonScales 1 iRedDragonScales 1 iYellowDragonScales 1 iWhiteDragonScales 1},40 iPileOfBarbedHides,19 iCutOfRawRibs
+FoodType=tMeat,tRawMeat
+Aversions=rCivilization
+Desires=tRawMeat,tMeat,tGold,tGem
+BloodColor=0
+TEvents=AIDragon
+
+Category=Monsters
+Subsection=Dragonkin
+Description=Ancient Wyrm 1
+
+On=@Create
+NPC=BrainDragon
+MaxFood=35
+SlayerSuper=ReptileSlayer
+SlayerLesser=DragonSlayer
+
+Fame=22500
+Karma=-22500
+FightMode=Evil
+
+ResPhysical=65,75
+ResFire=80,90
+ResCold=70,80
+ResPoison=60,70
+ResEnergy=60,70
+
+OStr={1095 1185}
+ODex={85 175}
+OInt={685 775}
+MaxHits={655 715} // {1316 1422}
+
+Wrestling={950 1000}
+Tactics={950 1000}
+MagicResistance={1000 1500}
+Parrying={950 1000}
+Magery={800 1000}
+EvaluatingIntel={800 1000}
+Meditation={500 750}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={1600 1800}
+
+On=@DeathCorpse
+NewTMap=5
+NewItem=RandomCommonGem,{2 4}
+NewItem=RandomCommonGem,{2 4}
+
+
+[CharDef 069]
+DefName=cAncientWyrm2
+Name=ancient wyrm
+Can=CanWalk|CanFly|CanNonHuman|CanUseHands
+MoveRate=100
+Dam=29,35
+DamPhysical=75
+DamFire=25
+Icon=iDragonIcon
+Sound=sndDragon1
+Resources=12 {iBlackDragonScales 1 iGreenDragonScales 1 iRedDragonScales 1 iYellowDragonScales 1 iWhiteDragonScales 1},40 iPileOfBarbedHides,19 iCutOfRawRibs
+FoodType=tMeat,tRawMeat
+Aversions=rCivilization
+Desires=tRawMeat,tMeat,tGold,tGem
+BloodColor=0
+TEvents=AIDragon
+
+Category=Monsters
+Subsection=Dragonkin
+Description=Ancient Wyrm 2
+
+On=@Create
+NPC=BrainDragon
+MaxFood=35
+SlayerSuper=ReptileSlayer
+SlayerLesser=DragonSlayer
+
+Fame=22500
+Karma=-22500
+FightMode=Evil
+
+ResPhysical=65,75
+ResFire=80,90
+ResCold=70,80
+ResPoison=60,70
+ResEnergy=60,70
+
+OStr={1095 1185}
+ODex={85 175}
+OInt={685 775}
+MaxHits={655 715} // {1316 1422}
+
+Wrestling={950 1000}
+Tactics={950 1000}
+MagicResistance={1000 1500}
+Parrying={950 1000}
+Magery={800 1000}
+EvaluatingIntel={800 1000}
+Meditation={500 750}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={1600 1800}
+
+On=@DeathCorpse
+NewTMap=5
+NewItem=RandomCommonGem,{2 4}
+NewItem=RandomCommonGem,{2 4}
+
+
+[CharDef 031E]
+DefName=cAncientWyrm3
+Name=ancient wyrm
+Can=CanWalk|CanFly|CanNonHuman|CanUseHands
+MoveRate=100
+Dam=29,35
+DamPhysical=75
+DamFire=25
+Icon=iDragonIcon
+Sound=sndDragon1
+Resources=12 {iBlackDragonScales 1 iGreenDragonScales 1 iRedDragonScales 1 iYellowDragonScales 1 iWhiteDragonScales 1},40 iPileOfBarbedHides,19 iCutOfRawRibs
+FoodType=tMeat,tRawMeat
+Aversions=rCivilization
+Desires=tRawMeat,tMeat,tGold,tGem
+BloodColor=0
+TEvents=AIDragon
+
+Category=Monsters
+Subsection=Dragonkin
+Description=Ancient Wyrm 3
+
+On=@Create
+NPC=BrainDragon
+MaxFood=35
+SlayerSuper=ReptileSlayer
+SlayerLesser=DragonSlayer
+
+Fame=22500
+Karma=-22500
+FightMode=Evil
+
+ResPhysical=65,75
+ResFire=80,90
+ResCold=70,80
+ResPoison=60,70
+ResEnergy=60,70
+
+OStr={1095 1185}
+ODex={85 175}
+OInt={685 775}
+MaxHits={655 715} // {1316 1422}
+
+Wrestling={950 1000}
+Tactics={950 1000}
+MagicResistance={1000 1500}
+Parrying={950 1000}
+Magery={800 1000}
+EvaluatingIntel={800 1000}
+Meditation={500 750}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={1600 1800}
+
+On=@DeathCorpse
+NewTMap=5
+NewItem=RandomCommonGem,{2 4}
+NewItem=RandomCommonGem,{2 4}
+
+
+[CharDef cCovetousWyrm]
+ID=cAncientWyrm2
+Name=covetous wyrm
+Dam=5,15
+DamPhysical=100
+Resources=12 {iBlackDragonScales 1 iGreenDragonScales 1 iRedDragonScales 1 iYellowDragonScales 1 iWhiteDragonScales 1},40 iPileOfBarbedHides,19 iCutOfRawRibs
+
+Category=Monsters
+Subsection=Dragonkin
+Description=Covetous Wyrm
+
+On=@Create
+NPC=BrainDragon
+MaxFood=35
+SlayerSuper=ReptileSlayer
+SlayerLesser=DragonSlayer
+
+Fame=22500
+Karma=-22500
+FightMode=Evil
+
+ResPhysical=55,95
+ResFire=40,100
+ResCold=60,95
+ResPoison=30,95
+ResEnergy=45,100
+
+OStr={225 1320}
+ODex={115 1010}
+OInt={180 1440}
+MaxHits={435 6700}
+
+Wrestling={1200 1600}
+Tactics={1250 1600}
+MagicResistance={1200 1600}
+Anatomy={1250 1600}
+Parrying={1250 1600}
+Magery={1200 1600}
+EvaluatingIntel={1200 1600}
+Meditation={1200 1600}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={1600 1800}
+
+On=@DeathCorpse
+NewTMap=5
+NewItem=RandomCommonGem,{2 4}
+
+
+[CharDef 031]
+DefName=cWhiteWyrm1
+Name=white wyrm
+Can=CanWalk|CanFly|CanNonHuman|CanUseHands
+MoveRate=100
+Dam=15,25
+DamPhysical=50
+DamCold=50
+Icon=iDragonIcon
+Sound=sndDragon1
+Resources=10 iWhiteDragonScales,20 iPileOfBarbedHides,19 iCutOfRawRibs
+FoodType=tMeat,tRawMeat
+Aversions=rCivilization
+Desires=tRawMeat,tMeat,tGold,tGem
+BloodColor=0
+TEvents=AIDragon
+
+Category=Monsters
+Subsection=Dragonkin
+Description=White Wyrm 1
+
+On=@Create
+NPC=BrainDragon
+FollowerSlots=3
+MaxFood=35
+SlayerSuper=ReptileSlayer
+SlayerLesser=DragonSlayer
+
+Fame=18000
+Karma=-18000
+FightMode=Evil
+
+ResPhysical=55,70
+ResFire=15,25
+ResCold=80,90
+ResPoison=40,50
+ResEnergy=40,50
+
+OStr={720 760}
+ODex={100 130}
+OInt={380 425}
+MaxHits={430 460}
+
+Wrestling={900 1000}
+Tactics={950 1000}
+MagicResistance={990 1000}
+Parrying={950 1000}
+Magery={990 1000}
+EvaluatingIntel={990 1000}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={1200 1400}
+
+On=@DeathCorpse
+NewTMap=4
+NewItem=RandomCommonGem,{2 4}
+
+
+[CharDef 0B4]
+DefName=cWhiteWyrm2
+Name=white wyrm
+Can=CanWalk|CanFly|CanNonHuman|CanUseHands
+MoveRate=100
+Dam=15,25
+DamPhysical=50
+DamCold=50
+Icon=iDragonIcon
+Sound=sndDragon1
+Resources=10 iWhiteDragonScales,20 iPileOfBarbedHides,19 iCutOfRawRibs
+FoodType=tMeat,tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=tRawMeat,tMeat,tGold,tGem
+BloodColor=0
+TEvents=AIDragon
+
+Category=Monsters
+Subsection=Dragonkin
+Description=White Wyrm 2
+
+On=@Create
+NPC=BrainDragon
+FollowerSlots=3
+MaxFood=35
+SlayerSuper=ReptileSlayer
+SlayerLesser=DragonSlayer
+
+Fame=18000
+Karma=-18000
+FightMode=Evil
+
+ResPhysical=55,70
+ResFire=15,25
+ResCold=80,90
+ResPoison=40,50
+ResEnergy=40,50
+
+OStr={720 760}
+ODex={100 130}
+OInt={380 425}
+MaxHits={430 460}
+
+Wrestling={900 1000}
+Tactics={950 1000}
+MagicResistance={990 1000}
+Parrying={950 1000}
+Magery={990 1000}
+EvaluatingIntel={990 1000}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={1200 1400}
+
+On=@DeathCorpse
+NewTMap=4
+NewItem=RandomCommonGem,{2 4}
+
+
+[CharDef cIceWyrm]
+ID=cWhiteWyrm1
+Name=ice wyrm
+Dam=15,25
+DamPhysical=50
+DamCold=50
+Resources=10 iWhiteDragonScales,20 iPileOfBarbedHides,19 iCutOfRawRibs
+// Summons frost oozes when low on health
+
+Category=Monsters
+Subsection=Dragonkin
+Description=Ice Wyrm
+
+On=@Create
+NPC=BrainDragon
+Color=0480
+MaxFood=35
+SlayerSuper=ReptileSlayer
+SlayerLesser=DragonSlayer
+
+Fame=18000
+Karma=-18000
+FightMode=Evil
+
+ResPhysical=60,70
+ResFire=20,30
+ResCold=100
+ResPoison=40,50
+ResEnergy=50,60
+
+OStr=720
+ODex=125
+OInt=413
+MaxHits=445
+
+Wrestling=92
+Tactics=97
+MagicResistance=99
+Anatomy=4
+Parrying=97
+Magery=99
+EvaluatingIntel=99
+Meditation=25
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={1200 1400}
+
+On=@DeathCorpse
+//NewTMap=4
+NewItem=RandomCommonGem,{2 4}
+
+
+[CharDef 03C]
+DefName=cDrake1
+Name=drake
+Can=CanWalk|CanFly|CanNonHuman|CanUseHands
+MoveRate=100
+Dam=11,17
+DamPhysical=80
+DamFire=20
+Icon=iDragonIcon
+Sound=sndDragon1
+Resources=2 {iRedDragonScales 1 iYellowDragonScales 1},20 iPileOfHornedHides,10 iCutOfRawRibs,8 iDragonsBlood2
+FoodType=tMeat,tRawMeat
+Aversions=rCivilization
+Desires=tRawMeat,tMeat,tGold,tGem
+BloodColor=0
+TEvents=AIDragon
+
+Category=Monsters
+Subsection=Dragonkin
+Description=Drake (Brown)
+
+On=@Create
+NPC=BrainDragon
+MaxFood=35
+FollowerSlots=2
+SlayerSuper=ReptileSlayer
+SlayerLesser=DragonSlayer
+
+Fame=5500
+Karma=-5500
+FightMode=Evil
+
+ResPhysical=45,50
+ResFire=50,60
+ResCold=40,50
+ResPoison=20,30
+ResEnergy=30,40
+
+OStr={400 430}
+ODex={130 150}
+OInt={100 140}
+MaxHits={240 260}
+
+Wrestling={650 800}
+Tactics={650 900}
+MagicResistance={650 800}
+Parrying={650 900}
+Taming=843
+
+On=@NPCRestock
+NewGold={275 325}
+
+On=@DeathCorpse
+NewTMap=2
+NewItem=RandomCommonGem,{2 4}
+
+
+[CharDef 03D]
+DefName=cDrake2
+Name=drake
+Can=CanWalk|CanFly|CanNonHuman|CanUseHands
+MoveRate=100
+Dam=11,17
+DamPhysical=80
+DamFire=20
+Icon=iDragonIcon
+Sound=sndDragon1
+Resources=2 {iRedDragonScales 1 iYellowDragonScales 1},20 iPileOfHornedHides,10 iCutOfRawRibs,8 iDragonsBlood2
+FoodType=tMeat,tRawMeat
+Aversions=rCivilization
+Desires=tRawMeat,tMeat,tGold,tGem
+BloodColor=0
+TEvents=AIDragon
+
+Category=Monsters
+Subsection=Dragonkin
+Description=Drake (Red)
+
+On=@Create
+NPC=BrainDragon
+MaxFood=35
+FollowerSlots=2
+SlayerSuper=ReptileSlayer
+SlayerLesser=DragonSlayer
+
+Fame=5500
+Karma=-5500
+FightMode=Evil
+
+ResPhysical=45,50
+ResFire=50,60
+ResCold=40,50
+ResPoison=20,30
+ResEnergy=30,40
+
+OStr={400 430}
+ODex={130 150}
+OInt={100 140}
+MaxHits={240 260}
+
+Wrestling={650 800}
+Tactics={650 900}
+MagicResistance={650 800}
+Parrying={650 900}
+Taming=843
+
+On=@NPCRestock
+NewGold={275 325}
+
+On=@DeathCorpse
+NewTMap=2
+NewItem=RandomCommonGem,{2 4}
+
+
+[CharDef cColdDrake]
+DefName=cDrake2
+Name=cold drake
+Dam=17,20
+DamPhysical=50
+DamCold=50
+Resources=2 iWhiteDragonScales,20 iPileOfHornedHides,10 iCutOfRawRibs,8 iDragonsBlood2
+Events=ColdAuraAbility
+
+Category=Monsters
+Subsection=Dragonkin
+Description=Cold Drake (Needs Hue)
+
+On=@Create
+NPC=BrainDragon
+MaxFood=35
+SlayerSuper=ReptileSlayer
+SlayerLesser=DragonSlayer
+
+Fame=5500
+Karma=-5500
+FightMode=Evil
+
+ResPhysical=55,65
+ResFire=30,40
+ResCold=75,90
+ResPoison=45,60
+ResEnergy=40,50
+
+OStr={615 670}
+ODex={135 155}
+OInt={150 190}
+MaxHits={460 495}
+
+Wrestling={1150 1250}
+Tactics={1150 1400}
+MagicResistance={950 1100}
+Anatomy={0 100}
+Parrying={1150 1400}
+
+On=@NPCRestock
+NewGold={500 600}
+
+On=@DeathCorpse
+NewTMap=2
+NewItem=RandomCommonGem,{2 4}
+
+
+[CharDef cViciousDrake]
+ID=cDrake1
+Name=vicious drake
+Dam=5,15
+DamPhysical=100
+Resources=2 {iRedDragonScales 1 iYellowDragonScales 1},20 iPileOfHornedHides,10 iCutOfRawRibs,8 iDragonsBlood2
+
+Category=Monsters
+Subsection=Dragonkin
+Description=Vicious Drake
+
+On=@Create
+NPC=BrainDragon
+MaxFood=35
+SlayerSuper=ReptileSlayer
+SlayerLesser=DragonSlayer
+
+Fame=5500
+Karma=-5500
+FightMode=Evil
+
+ResPhysical=70,95
+ResFire=45,95
+ResCold=80,95
+ResPoison=30,95
+ResEnergy=65,100
+
+OStr={150 700}
+ODex={130 810}
+OInt={200 860}
+MaxHits={250 3570}
+
+Wrestling={1400 1600}
+Tactics={1400 1600}
+MagicResistance={1250 1600}
+Anatomy={1400 1600}
+Parrying={1400 1600}
+
+On=@NPCRestock
+NewGold={500 600}
+
+On=@DeathCorpse
+NewTMap=2
+NewItem=RandomCommonGem,{2 4}
+
+
+[CharDef 03E]
+DefName=cWyvern
+Name=wyvern
+Can=CanWalk|CanFly|CanNonHuman|CanUseHands
+MoveRate=100
+Dam=8,20
+DamPhysical=50
+DamPoison=50
+Icon=iDragonIcon
+Sound=sndDragon1
+Resources=20 iPileOfHornedHides,10 iCutOfRawRibs
+FoodType=tMeat,tRawMeat
+Aversions=rCivilization
+Desires=tRawMeat,tMeat,tGold,tGem
+BloodColor=0
+
+Category=Monsters
+Subsection=Dragonkin
+Description=Wyvern
+
+On=@Create
+NPC=BrainDragon
+MaxFood=35
+SlayerSuper=ReptileSlayer
+SlayerLesser=DragonSlayer
+
+Fame=4000
+Karma=-4000
+FightMode=Evil
+
+ResPhysical=35,45
+ResFire=30,40
+ResCold=20,30
+ResPoison=90,100
+ResEnergy=30,40
+
+OStr={200 240}
+ODex={150 170}
+OInt={50 90}
+MaxHits={125 140}
+
+Wrestling={650 800}
+Tactics={650 900}
+MagicResistance={650 800}
+Parrying={650 900}
+
+On=@NPCRestock
+NewGold={175 225}
+
+On=@DeathCorpse
+NewTMap=2
+NewItem=RandomCommonGem,{2 4}
+
+
+[CharDef cObsidianWyvern]
+ID=cAncientWyrm1
+Name=obsidian wyvern
+Dam=29,35
+DamPhysical=75
+DamFire=25
+Resources=20 iPileOfHornedHides,10 iCutOfRawRibs
+
+Category=Monsters
+Subsection=Dragonkin
+Description=Obsidian Wyvern (Might be an ancient wyrm)
+
+On=@Create
+NPC=BrainDragon
+MaxFood=35
+SlayerSuper=ReptileSlayer
+SlayerLesser=DragonSlayer
+
+Fame=10000
+Karma=-10000
+FightMode=Evil
+
+ResPhysical=60,70
+ResFire=75,85
+ResCold=65,75
+ResPoison=60,70
+ResEnergy=60,70
+
+OStr=1380
+ODex=125
+OInt=780
+MaxHits=1225
+
+Wrestling=1100
+Tactics=1200
+MagicResistance=1300
+Anatomy=9
+Parrying=1200
+Magery=1100
+EvaluatingIntel=1150
+Meditation=900
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={175 225}
+
+On=@DeathCorpse
+NewTMap=2
+NewItem=RandomCommonGem,{2 4}
+
+
+[CharDef cCorruptedWyvern]
+ID=cWyvern
+Name=corrupted wyvern
+Dam=5,15
+DamPhysical=100
+Resources=20 iPileOfHornedHides,10 iCutOfRawRibs
+
+Category=Monsters
+Subsection=Dragonkin
+Description=Corrupted Wyvern
+
+On=@Create
+NPC=BrainMonster
+MaxFood=35
+SlayerSuper=ReptileSlayer
+SlayerLesser=DragonSlayer
+
+Fame=8000
+Karma=-8000
+FightMode=Evil
+
+ResPhysical=65,95
+ResFire=45,99
+ResCold=80,95
+ResPoison=30,95
+ResEnergy=65,99
+
+OStr={75 350}
+ODex={200 1215}
+OInt={95 380}
+MaxHits={125 1780}
+
+Wrestling={1400 1600}
+Tactics={1400 1600}
+MagicResistance={1250 1600}
+Anatomy={1400 1600}
+Parrying={1400 1600}
+
+On=@NPCRestock
+NewGold={175 225}
+
+On=@DeathCorpse
+NewTMap=2
+NewItem=RandomCommonGem,{2 4}
+
+
+[CharDef 067]
+DefName=cSerpentineDragon
+Name=serpentine dragon
+Can=CanWalk|CanFly|CanNonHuman|CanUseHands
+MoveRate=100
+Dam=5,12
+DamPhysical=75
+DamPoison=25
+Icon=iDragonIcon
+Sound=sndDragon1
+Resources=6 {iBlackDragonScales 1 iWhiteDragonScales 1},20 iPileOfBarbedHides,19 iCutOfRawRibs
+FoodType=tMeat,tRawMeat
+Aversions=rCivilization
+Desires=tRawMeat,tMeat,tGold,tGem
+BloodColor=0
+TEvents=AIDragon
+
+Category=Monsters
+Subsection=Dragonkin
+Description=Serpentine Dragon
+
+On=@Create
+NPC=BrainDragon
+MaxFood=35
+SlayerSuper=ReptileSlayer
+SlayerLesser=DragonSlayer
+
+Fame=15000
+Karma=15000
+FightMode=Neutral
+
+ResPhysical=35,40
+ResFire=25,35
+ResCold=25,35
+ResPoison=25,35
+ResEnergy=25,35
+
+OStr={110 140}
+ODex={200 220}
+OInt={1000 1040}
+MaxHits=480
+
+Wrestling={300 1000}
+Tactics={500 600}
+MagicResistance=1000
+Parrying={500 600}
+Magery={1100 1200
+EvaluatingIntel={1000 1100}
+Meditation=1000
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={900 1100}
+
+On=@DeathCorpse
+NewTMap=4
+NewItem=RandomCommonGem,{2 4}
+
+
+[CharDef 06A]
+DefName=cShadowWyrm
+Name=shadow wyrm
+Can=CanWalk|CanFly|CanNonHuman|CanUseHands
+MoveRate=100
+Dam=25,35
+DamPhysical=75
+DamCold=25
+Icon=iDragonIcon
+Sound=sndDragon1
+Resources=10 {iBlackDragonScales 1},20 iPileOfBarbedHides,19 iCutOfRawRibs
+FoodType=tMeat,tRawMeat
+Aversions=rCivilization
+Desires=tRawMeat,tMeat,tGold,tGem
+BloodColor=0
+TEvents=AIDragon
+
+Category=Monsters
+Subsection=Dragonkin
+Description=Shadow Wyrm
+
+On=@Create
+NPC=BrainDragon
+MaxFood=35
+SlayerSuper=ReptileSlayer
+SlayerLesser=DragonSlayer
+
+Fame=22500
+Karma=-22500
+FightMode=Evil
+
+ResPhysical=65,75
+ResFire=50,60
+ResCold=45,55
+ResPoison=20,50
+ResEnergy=50,60
+
+OStr={900 1030}
+ODex={70 200}
+OInt={490 620}
+MaxHits={560 600}
+
+Wrestling={970 1000}
+Tactics={970 1000}
+MagicResistance={1000 1300}
+Parrying={970 1000}
+Magery={800 1000}
+EvaluatingIntel={800 1000}
+Meditation={500 750}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={1550 1800}
+
+On=@DeathCorpse
+NewTMap=5
+NewItem=RandomCommonGem,{2 4}
+
+
+[CharDef 031A]
+DefName=cSwampDragon
+Name=swamp dragon
+Can=CanWalk|CanFly|CanNonHuman|CanUseHands
+MoveRate=100
+Dam=7,9		// was 3,4
+DamPhysical=75
+DamPoison=25
+Icon=iSwampDragonIcon
+Sound=sndDragon1
+Resources=5 iGreenDragonScales,20 iPileOfHides,19 iCutOfRawRibs
+FoodType=tMeat,tRawMeat
+Aversions=rCivilization
+Desires=tRawMeat,tMeat,tGold,tGem
+BloodColor=0
+TEvents=AIDragon
+// Does a ground stomp and fire attack. Loses this once tamed
+
+Category=Monsters
+Subsection=Dragonkin
+Description=Swamp Dragon
+
+On=@Create
+NPC=BrainDragon
+Color=084F
+FollowerSlots=1
+MaxFood=35
+SlayerSuper=ReptileSlayer
+SlayerLesser=DragonSlayer
+
+Fame=2000
+Karma=-2000
+FightMode=Evil
+
+ResPhysical=35,40
+ResFire=20,30
+ResCold=20,40
+ResPoison=20,30
+ResEnergy=30,40
+
+OStr={200 300}
+ODex={65 85}
+OInt={60 100}
+MaxHits={120 180}
+
+Wrestling={450 550}
+Tactics={450 550}
+MagicResistance={450 550}
+Anatomy={450 550}
+Parrying={450 550}
+Taming=940
+
+On=@NPCRestock
+NewGold={200 300}
+
+
+[CharDef cBaneDragon]
+ID=cSwampDragon
+Name=bane dragon
+Dam=20,26
+DamPhysical=50
+DamCold=25
+DamPoison=25
+FoodType=iBowlOfBlackrockStew
+Resources=5 iCutOfRawRibs
+// First 2 tiles on breath is level 5 or 4. 3 and 4 tiles, 4 or 3. 5 to 6 tiles. 3 to 2. Etc.
+// Breath is a poison breath.
+// Cant use dragon barding.
+
+Category=Monsters
+Subsection=Dragonkin
+Description=Bane Dragon
+
+On=@Create
+NPC=BrainDragon
+Color=ShadowDancerBlackHue
+MaxFood=35
+FollowerSlots=3
+SlayerSuper=ReptileSlayer
+SlayerLesser=DragonSlayer
+
+Fame=18000
+Karma=-18000
+FightMode=Evil
+
+ResPhysical=60,70
+ResFire=40,50
+ResCold=30,45
+ResPoison=50,60
+ResEnergy=20,40
+
+OStr={500 555}
+ODex={85 125}
+OInt={100 165}
+MaxHits={550 650}
+
+Wrestling={900 1000}
+Tactics={1000 1200}
+MagicResistance={800 1000}
+Anatomy={100 500}
+Parrying={1000 1200}
+Magery={400 500}
+EvaluatingIntel={300 400}
+Meditation={300 400}
+Taming=1071
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={400 500}
+
+On=@DeathCorpse
+NewItem=RandomCommonGem,{2 4}
+NewItem=iCrystallineBlackrock,1		// ?
+
+
+[CharDef 031F]
+DefName=cArmoredSwampDragon
+Name=armored swamp dragon
+Can=CanWalk|CanFly|CanNonHuman|CanUseHands
+MoveRate=100
+Dam=7,9		// was 3,4
+DamPhysical=75
+DamPoison=25
+Icon=iSwampDragonIcon
+Sound=sndDragon1
+Resources=5 iGreenDragonScales,20 iPileOfHides,19 iCutOfRawRibs
+FoodType=tMeat,tRawMeat
+Aversions=rCivilization
+Desires=tRawMeat,tMeat,tGold,tGem
+BloodColor=0
+TEvents=AIDragon
+
+Category=Monsters
+Subsection=Dragonkin
+Description=Armored Swamp Dragon
+
+On=@Create
+NPC=BrainDragon
+Color=084F
+FollowerSlots=1
+MaxFood=35
+SlayerSuper=ReptileSlayer
+SlayerLesser=DragonSlayer
+
+Fame=2000
+Karma=-2000
+FightMode=Evil
+
+ResPhysical=35,40
+ResFire=20,30
+ResCold=20,40
+ResPoison=20,30
+ResEnergy=30,40
+
+OStr={200 300}
+ODex={65 85}
+OInt={60 100}
+MaxHits={120 180}
+
+Wrestling={450 550}
+Tactics={450 550}
+MagicResistance={450 550}
+Anatomy={450 550}
+Parrying={450 550}
+Taming=940
+
+On=@NPCRestock
+NewGold={200 300}
+
+
+[CharDef CParoxysmusSwampDragon]
+ID=cArmoredSwampDragon
+Name=armored swamp dragon
+Dam=7,9		// was 3,4
+DamPhysical=75
+DamPoison=25
+Resources=5 iGreenDragonScales,20 iPileOfHides,19 iCutOfRawRibs
+
+Category=Monsters
+Subsection=Dragonkin
+Description=Paroxysmus' Swamp Dragon
+
+On=@Create
+NPC=BrainDragon
+Color=0851
+FollowerSlots=1
+MaxFood=35
+SlayerSuper=ReptileSlayer
+SlayerLesser=DragonSlayer
+IncreaseDefChance=12
+
+Fame=2000
+Karma=-2000
+FightMode=Evil
+
+ResPhysical=35,40
+ResFire=20,30
+ResCold=20,40
+ResPoison=20,30
+ResEnergy=30,40
+
+OStr={200 300}
+ODex={65 85}
+OInt={60 100}
+MaxHits={120 180}
+
+Wrestling={450 550}
+Tactics={450 550}
+MagicResistance={450 550}
+Anatomy={450 550}
+Parrying={450 550}
+Taming=940
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={200 300}
+
+
+[CharDef 0F3]
+DefName=cHiryu
+Name=hiryu
+Can=CanWalk|CanFly|CanNonHuman|CanUseHands
+MoveRate=100
+Dam=20,30
+DamPhysical=100
+Icon=iHiryuIcon
+Sound=sndHiryu1
+Resources=60 iPileOfHides,16 iCutOfRawRibs
+FoodType=tMeat,tRawMeat
+Aversions=rCivilization
+Desires=tRawMeat,tMeat,tGold,tGem
+BloodColor=0
+// Dismount attack, lower physical resistance, dismount attack
+// Stats drop when tamed
+
+Category=Monsters
+Subsection=Dragonkin
+Description=Hiryu
+
+On=@Create
+NPC=BrainMonster
+Color={0 1000 0847F 10 0848D 10 08495 10 08899 10 08032 10 08487 8 08482 5 08123 3 08295 5 08037 2 08030 2 08490 1 0855C 1}
+FollowerSlots=4
+MaxFood=35
+SlayerSuper=ReptileSlayer
+SlayerLesser=DragonSlayer
+
+Fame=18000
+Karma=-18000
+FightMode=Evil
+
+ResPhysical=55,70
+ResFire=70,90
+ResCold=15,25
+ResPoison=40,50
+ResEnergy=40,50
+
+OStr=1200,1410
+ODex=170,270
+OInt=300,325
+MaxHits=900,1100
+
+Wrestling=1000,1200
+Tactics=1000,1100
+MagicResistance=850,1000
+Anatomy=750,800
+Parrying=1000,1100
+Taming=987
+
+On=@NPCRestock
+NewGold={1500 1800}
+
+On=@DeathCorpse
+NewItem=RandomCommonGem,{2 4}
+NewItem=RandomCommonGem,{2 4}
+//NewItem=Bonsai seed, peculiar seed, fragrant seed
+
+
+[CharDef cLesserHiryu]
+ID=cHiryu
+Name=lesser hiryu
+Dam=18,23
+DamPhysical=100
+Resources=60 iPileOfHides,16 iCutOfRawRibs
+// Dismount attack, lower physical resistance, dismount attack
+// Stats drop when tamed
+
+Category=Monsters
+Subsection=Dragonkin
+Description=Lesser Hiryu
+
+On=@Create
+NPC=BrainMonster
+Color={0 500 08295 10 08163 10 08704 5 088AB 1 08258 1}
+FollowerSlots=3
+MaxFood=35
+SlayerSuper=ReptileSlayer
+SlayerLesser=DragonSlayer
+
+Fame=10000
+Karma=-10000
+FightMode=Evil
+
+ResPhysical=45,70
+ResFire=60,80
+ResCold=5,15
+ResPoison=30,40
+ResEnergy=30,40
+
+OStr={300 410}
+ODex={170 270}
+OInt={300 325}
+MaxHits={400 600}
+
+Wrestling={1000 1200}
+Tactics={1000 1100}
+MagicResistance={850 1000}
+Anatomy={750 800}
+Parrying={1000 1100}
+Taming=987
+
+On=@NPCRestock
+NewGold={1000 1200}
+
+On=@DeathCorpse
+NewTMap=3
+NewItem=RandomCommonGem,{2 4}
+NewItem=RandomCommonGem,{2 4}
+//NewItem=Bonsai seed, peculiar seed, fragrant seed
+
+
+[CharDef 0114]
+DefName=cReptalon
+Name=reptalon
+Can=CanWalk|CanFly|CanNonHuman|CanUseHands
+MoveRate=100
+Dam=21,28
+DamPoison=25
+DamEnergy=75
+Icon=iReptalonIcon
+Sound=sndDragon1
+Resources=11 iPileOfHides,5 iCutOfRawRibs
+FoodType=tMeat,tRawMeat
+Aversions=rCivilization
+Desires=tRawMeat,tMeat,tGold,tGem
+BloodColor=0
+TEvents=AIDragon
+// Stats drop when tamed
+// Paralyzing blow
+
+Category=Monsters
+Subsection=Dragonkin
+Description=Reptalon
+
+On=@Create
+NPC=BrainDragon
+MaxFood=35
+FollowerSlots=4
+SlayerSuper=ReptileSlayer
+SlayerLesser=DragonSlayer
+
+Fame=20000
+Karma=-20000
+FightMode=Evil
+
+ResPhysical=50,65
+ResFire=35,45
+ResCold=35,45
+ResPoison=50,65
+ResEnergy=70,85
+
+OStr={1000 1025}
+ODex={150 170}
+OInt={250 290}
+MaxHits={800 1000}
+
+Wrestling={1000 1200}
+Tactics={1000 1100}
+MagicResistance={750 900}
+Anatomy={500 600}
+Parrying={1000 1100}
+Taming=1011
+
+On=@NPCRestock
+NewGold={1500 1650}
+
+On=@DeathCorpse
+// Spell weaving
+
+
+[CharDef 0C5]
+DefName=cPlatinumDragon
+Name=platinum dragon
+Can=CanWalk|CanFly|CanNonHuman|CanUseHands
+MoveRate=100
+Dam=8,10
+DamPhysical=50
+DamFire=50
+Icon=iPlatinumDragonIcon
+Sound=sndDragon1
+Resources=40 iPileOfHides,19 iCutOfRawRibs
+FoodType=tMeat,tRawMeat
+Aversions=rCivilization
+Desires=tRawMeat,tMeat,tGold,tGem
+BloodColor=0
+TEvents=AIDragon
+
+Category=Monsters
+Subsection=Dragonkin
+Description=Platinum Dragon
+
+On=@Create
+NPC=BrainDragon
+MaxFood=35
+SlayerSuper=ReptileSlayer
+SlayerLesser=DragonSlayer
+
+Fame=32000
+Karma=32000
+FightMode=Evil
+
+ResPhysical=80,85
+ResFire=100
+ResCold=50,60
+ResPoison=80,85
+ResEnergy=80,85
+
+OStr={2000 2200}
+ODex={250 300}
+OInt={1000 1200}
+MaxHits=150000
+
+Wrestling={1200 1400}
+Tactics={1200 1400}
+MagicResistance={1000 1200}
+Anatomy={1000 1200}
+Parrying={1200 1400}
+Magery=1200
+EvaluatingIntel={1000 1200}
+Meditation=1200
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={2000 4000}
+
+
+[CharDef 0C6]
+DefName=cCrimsonDragon
+Name=crimson dragon
+Can=CanWalk|CanFly|CanNonHuman|CanUseHands
+MoveRate=100
+Dam=8,10
+DamPhysical=50
+DamFire=50
+Icon=iCrimsonDragonIcon
+Sound=sndDragon1
+Resources=40 iPileOfHides,19 iCutOfRawRibs
+FoodType=tMeat,tRawMeat
+Aversions=rCivilization
+Desires=tRawMeat,tMeat,tGold,tGem
+BloodColor=0
+TEvents=AIDragon
+
+Category=Monsters
+Subsection=Dragonkin
+Description=Crimson Dragon
+
+On=@Create
+NPC=BrainDragon
+MaxFood=35
+SlayerSuper=ReptileSlayer
+SlayerLesser=DragonSlayer
+
+Fame=32000
+Karma=-32000
+FightMode=Evil
+
+ResPhysical=80,85
+ResFire=100
+ResCold=50,60
+ResPoison=80,85
+ResEnergy=80,85
+
+OStr={2000 2200}
+ODex={250 300}
+OInt={1000 1200}
+MaxHits=150000
+
+Wrestling={1200 1400}
+Tactics={1200 1400}
+MagicResistance={1000 1200}
+Anatomy={1000 1200}
+Parrying={1200 1400}
+Magery=1200
+EvaluatingIntel={1000 1200}
+Meditation=1200
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={2000 4000}
+
+
+[CharDef 02CE]
+DefName=cFairyDragon
+Name=fairy dragon
+Can=CanWalk|CanFly|CanNonHuman|CanUseHands
+MoveRate=100
+Dam=15,20
+DamFire=25
+DamCold=25
+DamPoison=25
+DamEnergy=25
+Icon=iFairyDragonIcon
+Sound=sndFairyDragon1
+Resources=7 iPileOfBarbedHides,4 iDragonsBlood2, 1 iRawBird
+FoodType=tMeat,tRawMeat
+Aversions=rCivilization
+Desires=tRawMeat,tMeat,tGold,tGem
+BloodColor=0
+TEvents=AIDragon
+
+Category=Monsters
+Subsection=Dragonkin
+Description=Fairy Dragon
+
+On=@Create
+NPC=BrainDragon
+MaxFood=35
+SlayerSuper=ReptileSlayer
+SlayerLesser=DragonSlayer
+
+Fame=15000
+Karma=15000
+FightMode=Good
+
+ResPhysical=15,30
+ResFire=40,50
+ResCold=50,60
+ResPoison=80,85
+ResEnergy=80,85
+
+OStr={500 580}
+ODex={90 120}
+OInt={400 580}
+MaxHits={390 410}
+
+Wrestling={800 900}
+Tactics={900 1000}
+MagicResistance={1200 1250}
+Anatomy={650 800}
+Parrying={900 1000}
+Mysticism={900 1100}
+EvaluatingIntel={900 1100}
+Meditation={900 1100}
+
+ItemNewbie=iMysticismSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={1500 1750}
+
+On=@DeathCorpse
+NewTMap=3
+NewItem=Bandages,{10 20}
+NewItem=iLesserDraconicOrb
+NewItem=iEssenceOfDiligence
+NewItem=iFeyWings
+NewItem=iFairyDragonWing
+NewItem=iFaeryDust
+NewItem=iUntranslatedAncientTome
+
+
+[CharDef 02CF]
+DefName=cDragonWolf
+Name=dragon wolf
+Can=CanWalk|CanFly|CanNonHuman|CanUseHands
+MoveRate=100
+Dam=5,7
+DamPhysical=100
+Icon=iDragonWolfIcon
+Sound=sndDragonWolf1
+Resources=6 iPileOfHides, 3 iRawBird
+FoodType=tMeat,tRawMeat
+Aversions=rCivilization
+Desires=tRawMeat,tMeat,tGold,tGem
+BloodColor=0
+TEvents=AIDragon
+
+Category=Monsters
+Subsection=Dragonkin
+Description=Dragon Wolf
+
+On=@Create
+NPC=BrainDragon
+MaxFood=35
+SlayerSuper=ReptileSlayer
+SlayerLesser=DragonSlayer
+
+Fame=8000
+Karma=-8000
+FightMode=Evil
+
+ResPhysical=55,65
+ResFire=45,55
+ResCold=25,40
+ResPoison=55,65
+ResEnergy=25,40
+
+OStr={300 345}
+ODex={100 130}
+OInt={100 130}
+MaxHits={205 315}
+
+Wrestling={600 800}
+Tactics={600 800}
+MagicResistance={750 850}
+Parrying={600 800}
+
+On=@NPCRestock
+NewGold={400 500}
+
+
+[CharDef 02DD]
+DefName=cSkree
+Name=skree
+Can=CanWalk|CanFly|CanNonHuman|CanUseHands
+MoveRate=100
+Dam=5,7
+DamPhysical=100
+Icon=iSkreeIcon
+Sound=sndSkree1
+Resources=6 iPileOfHides, 3 iRawBird
+FoodType=tMeat,tRawMeat
+MaxFood=35
+Aversions=rCivilization
+Desires=tRawMeat,tMeat,tGold,tGem
+BloodColor=0
+TEvents=AIDragon
+
+Category=Monsters
+Subsection=Dragonkin
+Description=Skree
+
+On=@Create
+NPC=BrainDragon
+MaxFood=35
+FollowerSlots=4
+SlayerSuper=ReptileSlayer
+SlayerLesser=DragonSlayer
+
+Fame=2000
+Karma=-2000
+FightMode=Evil
+
+ResPhysical=55,65
+ResFire=45,55
+ResCold=25,40
+ResPoison=55,65
+ResEnergy=25,40
+
+OStr={290 350}
+ODex={90 130}
+OInt={180 260}
+MaxHits={205 320}
+
+Wrestling={200 350}
+Tactics={200 250}
+MagicResistance={750 830}
+Parrying={200 250}
+Mysticism={1000 1150}
+EvaluatingIntel={900 1000}
+Meditation={650 750}
+Taming=950
+
+ItemNewbie=iMysticismSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={50 100}
+
+On=@DeathCorpse
+// Mysticism scrolls
+// Mysticism reagents 5
+
+
+[EOF]

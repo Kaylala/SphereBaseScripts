@@ -1,36 +1,36 @@
 [DefName tile_flags]
-tilef_background		000000001	// Background art. Not meant to be traversed.
-tilef_weapon			000000002	// Weapon
-tilef_transparent		000000004	// See-through
-tilef_translucent		000000008	// Semi-Transparent (There is a difference)
-tilef_wall				000000010
-tilef_damaging	    	000000020	// Lava, Fire, Acid.
-tilef_impassable		000000040	// Impassible terrain.
-tilef_wet				000000080	// Liquid (Water)
-tilef_unknown	    	000000100
-tilef_surface	    	000000200	// Tables, Bar, etc. Objects can be placed on it.
-tilef_bridge			000000400	// Stops weather underneath.
-tilef_stackable			000000800	// Can be stacked
-tilef_window			000001000	// Flagged for lighting I think, possible shooting
-tilef_noshoot	    	000002000	// ? We can't shoot out or something? So, like a glass window maybe?
-tilef_prefixA	    	000004000	// A card
-tilef_prefixAn	    	000008000	// An apple
-tilef_internal	    	000010000	// hair, beards, etc
-tilef_foliage	    	000020000
-tilef_partialHue		000040000	// Color=04000|<Value> Colors the grey scale
-tilef_unknown_1			000080000
-tilef_map				000100000
-tilef_container			000200000
-tilef_wearable			000400000
-tilef_lightSource		000800000
-tilef_animated			001000000	// Animated Object
-tilef_hoverover			002000000	// Can be hovered over
-tilef_unknown_2			004000000	// I really hope some of these unknowns are n/w/s/e facing flags.
-tilef_armor				008000000
-tilef_roof				010000000	// Possibly walkable, used for Indoor checks.
-tilef_door				020000000
-tilef_stairBack			040000000
-tilef_stairRight		080000000
+TFlagBackground			000000001	// Background art. Not meant to be traversed.
+TFlagWeapon				000000002	// Weapon
+TFlagTransparent		000000004	// See-through
+TFlagTranslucent		000000008	// Semi-Transparent (There is a difference)
+TFlagWall				000000010
+TFlagDamaging	    	000000020	// Lava, Fire, Acid.
+TFlagImpassable			000000040	// Impassible terrain.
+TFlagWet				000000080	// Liquid (Water)
+TFlagUnknown1	    	000000100
+TFlagSurface	    	000000200	// Tables, Bar, etc. Objects can be placed on it.
+TFlagBridge				000000400	// Stops weather underneath.
+TFlagStackable			000000800	// Can be stacked
+TFlagWindow				000001000	// Flagged for lighting I think, possible shooting
+TFlagNoShoot	    	000002000	// ? We can't shoot out or something? So, like a glass window maybe?
+TFlagPrefixA	    	000004000	// A card
+TFlagPrefixAn	    	000008000	// An apple
+TFlagInternal	    	000010000	// hair, beards, etc
+TFlagFoliage	    	000020000
+TFlagPartialHue			000040000	// Color=04000|<Value> Colors the grey scale
+TFlagUnknown2			000080000
+TFlagMap				000100000
+TFlagContainer			000200000
+TFlagWearable			000400000
+TFlagLightSource		000800000
+TFlagAnimated			001000000	// Animated Object
+TFlagHoverOver			002000000	// Can be hovered over
+TFlagUnknown3			004000000	// I really hope some of these unknowns are n/w/s/e facing flags.
+TFlagArmor				008000000
+TFlagRoof				010000000	// Possibly walkable, used for Indoor checks.
+TFlagDoor				020000000
+TFlagStairBack			040000000
+TFlagStairRight			080000000
 
 
 [EOF]

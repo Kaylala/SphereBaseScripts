@@ -1,4 +1,20 @@
 [Events eGlobalItemBehavior]
+On=@Create
+// Dragging over Tag.Override.Speed.
+If (<BaseID> != <DispID>)
+ If <Serv.ItemDef.<DispID>.Tag0.Override.Speed>
+  Tag.Override.Speed=<Serv.ItemDef.<DispID>.Tag.Override.Speed>
+ EndIf
+EndIf
+
+On=@DClick
+If (<IsWeapon>)
+ If (!<FindLayer.LayerHand1.UID>)
+  Src.SMsgL -1,1116250		// That must be equipped before you can use it.
+  Return 1
+ EndIf
+EndIf
+
 On=@EquipTest
 // GMs Can equip anything
 // Gargoyle GMs still Cant use human/elf items and vice versa.

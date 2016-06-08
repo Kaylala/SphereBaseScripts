@@ -27,5 +27,8 @@ CanIForceDC				01000000	// Items with this flag won't perform checks before @DCl
 CanIRegenHits			02000000	// Can Regen Hits
 CanIRegenStam			04000000	// Can Regen Stam.
 CanIRegenMana			08000000	// Can Regen Mana.
-CanIPowder				010000000	// Can be powdered (iFortificationPowder)
+CanIFortify				010000000	// Can be Fortified (iFortificationPowder)
+CanIDeedable			020000000	// Item is a house add-on and can be re-deeded.
+CanICommodity			040000000	// Item is a Commodity (allowing a commodity deed to be used on it)
+CanIPowder				CanIFortify
 

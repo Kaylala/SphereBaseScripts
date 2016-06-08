@@ -1,23 +1,15 @@
-//****************************************************************************
-// SPHERE by : Menasoft �1997-2007
-// www.sphereserver.net
-// All SPHERE script files and formats are copyright Menasoft & Partners.
-// This file may be freely edited for personal use, but may not be distributed
-// in whole or in part, in any format without express written permission from
-// Menasoft & Partners.  All donations and contributions
-// become the property of Menasoft & Partners.
-//****************************************************************************
-// FILE LAST UPDATED: Thursday, October 24, 2013
-//
-VERSION=0.56c
+[Comment NPC_Events_Index]
+eUndead
+eCarnivore
+eTerathan		// Attacks Ophidians.
+eOphidian		// Attacks Terathans.
+eHorse
+eNotoriety
+eOstard
+eMinotaur
 
 
-
-////////////
-// Events //
-////////////
-
-[EVENTS eUndead]
+[Events eUndead]
 ON=@EnvironChange
    Return 0
    // Enter "//" before Return 0, if you want to make script working
@@ -58,18 +50,18 @@ ON=@EnvironChange
    fame=10
    return 0
 
-[EVENTS e_polymorphed_lich]
+[Events e_polymorphed_lich]
 ON=@SPELLEFFECT
 // Dispel spells will return a polymorphed lich into lich.
 IF ((<SERV.SPELL.<ARGN1>.DEFNAME> == s_dispel) || (<SERV.SPELL.<ARGN1>.DEFNAME> == s_mass_dispel))
    TRYSRC <I.UID> SRC.EFFECT 2,i_fx_smoke_small,16,10,0
    I.BODY = c_lich
-   I.EVENTS -e_polymorphed_lich
+   I.Events -e_polymorphed_lich
    TIMERF <I.TAG.BEHAVIOURDELAY>,I.f_lich_polymorph
 ENDIF
 RETURN 0
 
-[EVENTS e_lich_death]
+[Events e_lich_death]
 // Check for summoned skeletons to remove him.
 ON=@DEATH
 FOR 0 <EVAL <TAGCOUNT> - 1>
@@ -83,7 +75,7 @@ FOR 0 <EVAL <TAGCOUNT> - 1>
 ENDFOR
 RETURN 0
 
-[EVENTS e_skeleton_summoned_by_lich]
+[Events e_skeleton_summoned_by_lich]
 ON=@SPELLEFFECT
 // Dispell spells will remove summoned skeletons.
 IF ((<SERV.SPELL.<ARGN1>.DEFNAME> == s_dispel) || (<SERV.SPELL.<ARGN1>.DEFNAME> == s_mass_dispel))
@@ -106,28 +98,137 @@ REF1.TAG.SLOT_<I.UID> =
 REF1.CURFOLLOWER = <EVAL <REF1.CURFOLLOWER> - <I.FOLLOWERSLOTS>>
 RETURN 0
 
-[EVENTS e_Carnivores]
-// weak carnivores.
 
-[EVENTS e_Carnivores2]
-// normal carnivores.
+[Events eCarnivore]
+On=@NPCLookAtChar
+If (<Serv.MonsterFight>)
+ // Check for other carnivore.
+ If (<Src.IsCarnivore>)
+  If (<MulDiv (<Src.Str> + <Src.Dex>),150,100> > <EVal (<Str> + <Dex>)>) // Run from other carnivores 1.5 * our stats.
+   Flee {4 8}
+   Return
+  EndIf
+ EndIf
+ // We're hungry. Let's hunt.
+ If (<Food> < <EVal <MaxFood>/2>)
+  If (<Src.IsUndead>) && (<Src.IsDaemon>) && (<Src.IsDragon>)	// We won't attack these types.
+   Return
+  Else
+   If (<1,100> >= <EVal (<Food> * 3)>)	// Do we attack?
+    Attack <Src>
+	Return
+   Else
+    Follow
+	Tag.Hunted=<Src>
+	TimerF 10,CarnivoreHuntTimer
+	Return
+   EndIf
+  EndIf
+ EndIf
+EndIf
 
-[EVENTS e_Carnivores3]
-// strong carnivores.
+On=NPCActFollow
+If (<IsTimerF.CarnivoreHuntTimer>)
+ ArgN1=0
+ ArgN2={4 6}
+ ArgN3=1
+EndIf
 
-[EVENTS e_Terathan]
 
-[EVENTS e_Ophidian]
+[Function CarnivoreHuntTimer]
+If (<CanSee <Tag.Hunted>>)
+ If (<1,100> >= <EVal (<Food> * 3)>)	// Do we attack?
+  Attack <Src>
+  Return
+ Else
+  Follow
+  TimerF 10,CarnivoreHuntTimer
+  Return
+ EndIf
+EndIf
 
-[EVENTS e_Horses]
 
-[EVENTS e_Notoriety]
+[Function IsCarnivore]
+return <QVal ((<IsEvent.eCarnivore>) || (<IsEvent.eCarnivore>)) ? 1 : 0>
 
-[EVENTS e_Ostards]
 
-[EVENTS e_Minotaurs]
+[Function Follow]
+Action=NPCAct_Follow
 
-[EVENTS e_poisonbite]
+
+[Events eTerathan]
+On=@NPCLookAtChar
+// Attack Ophidians on Sight.
+If (<Serv.MonsterFight>)
+ If (<Src.IsEvent.eOphidian>) || (<Src.IsTEvent.eOphidian>)
+  Attack <Src>
+ EndIf
+EndIf
+
+
+[Events eOphidian]
+On=@NPCLookAtChar
+// Attack Terathans on Sight.
+If (<Serv.MonsterFight>)
+ If (<Src.IsEvent.eTerathan>) || (<Src.IsTEvent.eTerathan>)
+  Attack <Src>
+ EndIf
+EndIf
+
+
+[Events eHorse]
+On=@Hit
+// Pack Instincts.
+Local.Pack=0
+If (<IsPet>)
+ For <EVal (<Src.Attacker> - 1)>
+  Ref500=<UID.<Attacker.<Local._For>.UID>
+  If (<Ref500.IsEvent.eHorse>) || (<Ref500.IsTEvent.eHorse>)
+   Local.Pack ++
+  EndIf
+ EndFor
+ Local.Pack *= 25
+ If (<Local.Pack> > 100)
+  Local.Pack=100
+ EndIf
+ ArgN1=<EVal (<ArgN1> + <MulDiv <ArgN1>,<Local.Pack>,100>)>
+EndIf
+
+
+[Events eNotoriety]
+
+
+[Events eOstard]
+On=@NPCLookAtChar
+// Frenzied Ostards attack pets and players on sight. (Just move this to Alignment=Evil code for aggression)
+If (<BaseID> == cFrenziedOstard>)
+ If (<Src.IsPet>) || (<Src.IsPlayer>)
+  Attack <Src>
+ EndIf
+EndIf
+
+On=@Hit
+// Pack Instincts.
+Local.Pack=0
+If (<IsPet>)
+ For <EVal (<Src.Attacker> - 1)>
+  Ref500=<UID.<Attacker.<Local._For>.UID>
+  If (<Ref500.IsEvent.eOstard>) || (<Ref500.IsTEvent.eOstard>)
+   Local.Pack ++
+  EndIf
+ EndFor
+ Local.Pack *= 25
+ If (<Local.Pack> > 100)
+  Local.Pack=100
+ EndIf
+ ArgN1=<EVal (<ArgN1> + <MulDiv <ArgN1>,<Local.Pack>,100>)>
+EndIf
+
+
+[Events eMinotaur]
+
+
+[Events e_poisonbite]
 //Poison bite attack
 ON=@Hit
    IF !(<SRC.FLAGS> & statf_poisoned)
@@ -136,7 +237,7 @@ ON=@Hit
 //      SRC.SOUND snd_spell_poison
    ENDIF
 
-[EVENTS eSpitPoison]
+[Events eSpitPoison]
 //Poisoned Spit Defense
 ON=@GetHit
    REF1=<SRC> // Source of damage
@@ -150,7 +251,7 @@ ON=@GetHit
       REF1.SYSMESSAGELOC color_text,1070821,<NAME>//"~ spits a poisonous substance at you!"
    ENDIF
 
-[EVENTS eAcidSpit]
+[Events eAcidSpit]
 //Acidic Spit Defense
 ON=@GetHit
    REF1=<SRC>
@@ -185,7 +286,7 @@ ON=@Step
       //FIXME: Damage a random equipped item...
    ENDIF
 
-[EVENTS e_bleed_attack]
+[Events e_bleed_attack]
 ON=@Hit
    //Bleed attack
    IF (<MANA> >= 25)&&(RAND(10)==1)
@@ -274,7 +375,7 @@ ON=@Timer
    CONT.REMOVE
    RETURN 1
 
-[EVENTS eTrainer]
+[Events eTrainer]
 ON=@ContextMenuRequest
    IF (<NPC> < 2) || (<NPC> == 4) || (<NPC> > 9)
       // Not all brain types can train
@@ -372,6 +473,6 @@ ON=@Timer
    ENDIF
    RETURN 1
 
-[EVENTS e_angry_fire]
+[Events e_angry_fire]
 
 [EOF]

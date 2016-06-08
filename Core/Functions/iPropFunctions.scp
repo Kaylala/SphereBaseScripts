@@ -17,6 +17,33 @@ EndIf
 SelfRepair=<ArgN>
 
 
+[Function CarryResTypes]
+If (<DispID> != <BaseID>)
+ ResPhysical=<Serv.ItemDef.<DispID>.ResPhysical>
+ ResFire=<Serv.ItemDef.<DispID>.ResFire>
+ ResCold=<Serv.ItemDef.<DispID>.ResCold>
+ ResPoison=<Serv.ItemDef.<DispID>.ResPoison>
+ ResEnergy=<Serv.ItemDef.<DispID>.ResEnergy>
+EndIf
+
+
+[Function CarryDamTypes]
+If (<DispID> != <BaseID>)
+ DamPhysical=<Serv.ItemDef.<DispID>.DamPhysical>
+ DamFire=<Serv.ItemDef.<DispID>.DamFire>
+ DamCold=<Serv.ItemDef.<DispID>.DamCold>
+ DamPoison=<Serv.ItemDef.<DispID>.DamPoison>
+ DamEnergy=<Serv.ItemDef.<DispID>.DamEnergy>
+EndIf
+
+
+[Function CarryAbilities]
+If (<DispID> != <BaseID>)
+ AbilityPrimary=<Serv.ItemDef.<DispID>.AbilityPrimary>
+ AbilitySecondary=<Serv.ItemDef.<DispID>.AbilitySecondary>
+EndIf
+
+
 [Function SelfRepairDelay]
 // This is empty and needs no code. It is a simple timer to stop self repair.
 
@@ -41,14 +68,14 @@ Return <Qval ((<Can> &CanIRegenMana) || (<Medable>)) ? 1 : 0>
 
 // Being added for better crafting structures.
 [Function Material]
-If !(<ArgS>)
+If (!<ArgS>)
  Return <Material>
 EndIf
 Material=<ArgS>
 
 
 [Function OColor]
-If !(<ArgN>)
+If (!<ArgN>)
  Return <OColor>
 EndIf
 OColor=<ArgN>
@@ -56,10 +83,10 @@ OColor=<ArgN>
 
 // Being used on items that are Human/Elf to modify into Gargoyle.
 [Function AlterItem]
-If !(<ArgS>)
- Return <Tag0.AlterItem>
+If (!<ArgS>)
+ Return <AlterItem>
 EndIf
-Tag.AlterItem=<ArgS>
+AlterItem=<ArgS>
 
 
 // For use with Random Magic Item Generator

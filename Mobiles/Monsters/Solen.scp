@@ -4,11 +4,11 @@ Name=red solen worker
 Can=CanNonHum|CanWalk
 MoveRate=100
 Dam=5,7
+DamPhysical=100
 Icon=iSolenWorkerIcon
 Sound=sndSolen1
 Resources=0
 FoodType=tRawMeat
-MaxFood=35
 Aversions=rCivilization
 Desires=tRawMeat,rSolenHive
 BloodColor=0
@@ -20,12 +20,11 @@ Description=Red Solen Worker
 
 On=@Create
 NPC=BrainMonster
+MaxFood=35
 
 Fame=1500
 Karma=-1500
-Alignment=Evil	// Could have sworn they were neutral.
-
-DamPhysical=100
+FightMode=Evil	// Could have sworn they were neutral.
 
 ResPhysical=25,30
 ResFire=20,30
@@ -53,11 +52,12 @@ Name=red solen warrior
 Can=CanNonHum|CanWalk
 MoveRate=100
 Dam=5,15
+DamPhysical=80
+DamPoison=20
 Icon=iSolenWarriorIcon
 Sound=sndSolen1
 Resources=0
 FoodType=tRawMeat
-MaxFood=35
 Aversions=rCivilization
 Desires=tRawMeat,rSolenHive
 BloodColor=0
@@ -69,13 +69,11 @@ Description=Red Solen Warrior
 
 On=@Create
 NPC=BrainMonster
+MaxFood=35
 
 Fame=3000
 Karma=-3000
-Alignment=Evil
-
-DamPhysical=80
-DamPoison=20
+FightMode=Evil
 
 ResPhysical=20,35
 ResFire=20,35
@@ -103,11 +101,12 @@ Name=red solen queen
 Can=CanNonHum|CanWalk
 MoveRate=100
 Dam=10,15
+DamPhysical=70
+DamPoison=30
 Icon=iSolenQueenIcon
 Sound=sndSolen1
 Resources=0
 FoodType=tRawMeat
-MaxFood=35
 Aversions=rCivilization
 Desires=tRawMeat,rSolenHive
 BloodColor=0
@@ -119,13 +118,11 @@ Description=Red Solen Queen
 
 On=@Create
 NPC=BrainMonster
+MaxFood=35
 
 Fame=4500
 Karma=-4500
-Alignment=Evil
-
-DamPhysical=70
-DamPoison=30
+FightMode=Evil
 
 ResPhysical=30,40
 ResFire=30,35
@@ -153,11 +150,12 @@ Name=red solen matriarch
 Can=CanNonHum|CanWalk
 MoveRate=100
 Dam=10,15
+DamPhysical=70
+DamPoison=30
 Icon=iSolenQueenIcon
 Sound=sndSolen1
 Resources=0
 FoodType=tRawMeat
-MaxFood=35
 Aversions=rCivilization
 Desires=tRawMeat,rSolenHive
 BloodColor=0
@@ -169,13 +167,11 @@ Description=Red Solen Matriarch
 
 On=@Create
 NPC=BrainMonster
+MaxFood=35
 
 Fame=4500
 Karma=-4500
-Alignment=Evil
-
-DamPhysical=70
-DamPoison=30
+FightMode=Evil
 
 ResPhysical=30,40
 ResFire=30,35
@@ -201,7 +197,9 @@ NewGold={400 500}
 ID=cRedSolenWarrior
 Name=red solen infiltrator warrior
 Dam=5,15
-TEvents=AISolenInfiltratorWarrior
+DamPhysical=80
+DamPoison=20
+Events=AISolenInfiltratorWarrior
 
 Category=Animals
 Subsection=Solen: Red
@@ -209,13 +207,11 @@ Description=Red Solen Infiltrator Warrior
 
 On=@Create
 NPC=BrainMonster
+MaxFood=35
 
 Fame=3000
 Karma=-3000
-Alignment=Evil
-
-DamPhysical=80
-DamPoison=20
+FightMode=Evil
 
 ResPhysical=20,35
 ResFire=20,35
@@ -241,7 +237,9 @@ NewGold={200 225}
 ID=cRedSolenQueen
 Name=red solen infiltrator queen
 Dam=10,15
-TEvents=AISolenInfiltratorQueen
+DamPhysical=70
+DamPoison=30
+Events=AISolenInfiltratorQueen
 
 Category=Animals
 Subsection=Solen: Red
@@ -249,13 +247,11 @@ Description=Red Solen Infiltrator Queen
 
 On=@Create
 NPC=BrainMonster
+MaxFood=35
 
 Fame=6500
 Karma=-6500
-Alignment=Evil
-
-DamPhysical=70
-DamPoison=30
+FightMode=Evil
 
 ResPhysical=30,40
 ResFire=30,35
@@ -281,7 +277,9 @@ NewGold={250 300}
 ID=cRedSolenQueen
 Name=ambitious red solen queen
 Dam=10,15
-TEvents=AISolenQueen
+DamPhysical=70
+DamPoison=30
+Events=AISolenQueen
 
 Category=Animals
 Subsection=Solen: Red
@@ -289,13 +287,11 @@ Description=Ambitious Red Solen Queen
 
 On=@Create
 NPC=BrainMonster
+MaxFood=35
 
 Fame=4500
 Karma=-4500
-Alignment=Evil
-
-DamPhysical=70
-DamPoison=30
+FightMode=Evil
 
 ResPhysical=30,40
 ResFire=30,35
@@ -323,11 +319,11 @@ Name=black solen worker
 Can=CanNonHum|CanWalk
 MoveRate=100
 Dam=5,7
+DamPhysical=100
 Icon=iSolenWorkerIcon
 Sound=sndSolen1
 Resources=0
 FoodType=tRawMeat
-MaxFood=35
 Aversions=rCivilization
 Desires=tRawMeat,rSolenHive
 BloodColor=0
@@ -340,12 +336,11 @@ Description=Black Solen Worker
 On=@Create
 NPC=BrainMonster
 Color=0835
+MaxFood=35
 
 Fame=1500
 Karma=-1500
-Alignment=Evil	// Could have sworn they were neutral.
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=25,30
 ResFire=20,30
@@ -373,11 +368,12 @@ Name=black solen warrior
 Can=CanNonHum|CanWalk
 MoveRate=100
 Dam=5,15
+DamPhysical=80
+DamPoison=20
 Icon=iSolenWarriorIcon
 Sound=sndSolen1
 Resources=0
 FoodType=tRawMeat
-MaxFood=35
 Aversions=rCivilization
 Desires=tRawMeat,rSolenHive
 BloodColor=0
@@ -390,13 +386,11 @@ Description=Black Solen Warrior
 On=@Create
 NPC=BrainMonster
 Color=0835
+MaxFood=35
 
 Fame=3000
 Karma=-3000
-Alignment=Evil
-
-DamPhysical=80
-DamPoison=20
+FightMode=Evil
 
 ResPhysical=20,35
 ResFire=20,35
@@ -424,11 +418,12 @@ Name=black solen queen
 Can=CanNonHum|CanWalk
 MoveRate=100
 Dam=10,15
+DamPhysical=70
+DamPoison=30
 Icon=iSolenQueenIcon
 Sound=sndSolen1
 Resources=0
 FoodType=tRawMeat
-MaxFood=35
 Aversions=rCivilization
 Desires=tRawMeat,rSolenHive
 BloodColor=0
@@ -441,13 +436,11 @@ Description=Black Solen Queen
 On=@Create
 NPC=BrainMonster
 Color=0835
+MaxFood=35
 
 Fame=4500
 Karma=-4500
-Alignment=Evil
-
-DamPhysical=70
-DamPoison=30
+FightMode=Evil
 
 ResPhysical=30,40
 ResFire=30,35
@@ -475,11 +468,12 @@ Name=black solen matriarch
 Can=CanNonHum|CanWalk
 MoveRate=100
 Dam=10,15
+DamPhysical=70
+DamPoison=30
 Icon=iSolenQueenIcon
 Sound=sndSolen1
 Resources=0
 FoodType=tRawMeat
-MaxFood=35
 Aversions=rCivilization
 Desires=tRawMeat,rSolenHive
 BloodColor=0
@@ -492,16 +486,11 @@ Description=Black Solen Matriarch
 On=@Create
 NPC=BrainMonster
 Color=0835
+MaxFood=35
 
 Fame=4500
 Karma=-4500
-Alignment=Evil
-
-DamPhysical=70
-DamFire=0
-DamCold=0
-DamPoison=30
-DamEnergy=0
+FightMode=Evil
 
 ResPhysical=30,40
 ResFire=30,35
@@ -527,7 +516,9 @@ NewGold={400 500}
 ID=cBlackSolenWarrior
 Name=black solen infiltrator warrior
 Dam=5,15
-TEvents=AISolenInfiltratorWarrior
+DamPhysical=80
+DamPoison=20
+Events=AISolenInfiltratorWarrior
 
 Category=Animals
 Subsection=Solen: Black
@@ -536,13 +527,11 @@ Description=Black Solen Infiltrator Warrior
 On=@Create
 NPC=BrainMonster
 Color=0835
+MaxFood=35
 
 Fame=3000
 Karma=-3000
-Alignment=Evil
-
-DamPhysical=80
-DamPoison=20
+FightMode=Evil
 
 ResPhysical=20,35
 ResFire=20,35
@@ -568,7 +557,9 @@ NewGold={200 225}
 ID=cBlackSolenQueen
 Name=black solen infiltrator queen
 Dam=10,15
-TEvents=AISolenInfiltratorQueen
+DamPhysical=70
+DamPoison=30
+Events=AISolenInfiltratorQueen
 
 Category=Animals
 Subsection=Solen: Black
@@ -577,13 +568,11 @@ Description=Black Solen Infiltrator Queen
 On=@Create
 NPC=BrainMonster
 Color=0835
+MaxFood=35
 
 Fame=6500
 Karma=-6500
-Alignment=Evil
-
-DamPhysical=70
-DamPoison=30
+FightMode=Evil
 
 ResPhysical=30,40
 ResFire=30,35
@@ -609,7 +598,9 @@ NewGold={250 300}
 ID=cBlackSolenQueen
 Name=ambitious black solen queen
 Dam=10,15
-TEvents=AISolenQueen
+DamPhysical=70
+DamPoison=30
+Events=AISolenQueen
 
 Category=Animals
 Subsection=Solen: Black
@@ -618,13 +609,11 @@ Description=Ambitious Black Solen Queen
 On=@Create
 NPC=BrainMonster
 Color=0835
+MaxFood=35
 
 Fame=4500
 Karma=-4500
-Alignment=Evil
-
-DamPhysical=70
-DamPoison=30
+FightMode=Evil
 
 ResPhysical=30,40
 ResFire=30,35

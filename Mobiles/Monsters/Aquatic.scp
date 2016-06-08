@@ -4,11 +4,11 @@ Name=paralithode
 Can=CanWalk|CanRun|CanSwim|CanNonHuman
 MoveRate=100
 Dam=20,24
+DamPhysical=100
 //Icon=iParalithodeIcon
 Sound=
 Resources=9 iCutOfRawRibs,20 iHornedHides
 FoodType=tFruit,tVegetable
-MaxFood=35
 Aversions=rCivilization
 Desires=tWater,rWater
 BloodColor=0
@@ -20,12 +20,11 @@ Description=Paralithode
 
 On=@Create
 NPC=BrainMonster
+MaxFood=35
 
 Fame=2500
 Karma=-2500
-Alignment=Evil
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=65,75
 ResFire=50,60
@@ -57,11 +56,12 @@ Name=kraken
 Can=CanWalk|CanSwim|CanNonHuman
 MoveRate=100
 Dam=19,33
+DamPhysical=70
+DamCold=30
 Icon=iKrakenIcon
 Sound=
 Resources=0
 FoodType=tFish,tRawMeat
-MaxFood=35
 Aversions=rCivilization
 Desires=tWater,rWater
 BloodColor=0
@@ -73,13 +73,11 @@ Description=Kraken
 
 On=@Create
 NPC=BrainDragon
+MaxFood=35
 
 Fame=11000
 Karma=-11000
-Alignment=Evil
-
-DamPhysical=70
-DamCold=30
+FightMode=Evil
 
 ResPhysical=45,55
 ResFire=30,40
@@ -108,11 +106,11 @@ Name=deep sea serpent
 Can=CanWalk|CanSwim|CanNonHuman
 MoveRate=100
 Dam=6,14
+DamPhysical=100
 Icon=iSeaSerpentIcon
 Sound=
 Resources=10 iHornedHides,10 iCutOfRawRibs,8 iBlueSeaSerpentScales
 FoodType=tFish,tRawMeat
-MaxFood=35
 Aversions=rCivilization
 Desires=tWater,rWater
 BloodColor=0
@@ -124,14 +122,13 @@ Description=Deep Sea Serpent
 
 On=@Create
 NPC=BrainDragon
+MaxFood=35
 SlayerSuper=ReptileSlayer
 SlayerLesser=SnakeSlayer
 
 Fame=6000
 Karma=-6000
-Alignment=Evil
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=30,40
 ResFire=70,80
@@ -159,11 +156,11 @@ Name=sea serpent
 Can=CanWalk|CanSwim|CanNonHuman
 MoveRate=100
 Dam=7,13
+DamPhysical=100
 Icon=iSeaSerpentIcon
 Sound=
 Resources=10 iHornedHides,1 iRawFishSteak,8 iBlueSeaSerpentScales
 FoodType=tFish,tRawMeat
-MaxFood=35
 Aversions=rCivilization
 Desires=tWater,rWater
 BloodColor=0
@@ -175,14 +172,13 @@ Description=Sea Serpent
 
 On=@Create
 NPC=BrainDragon
+MaxFood=35
 SlayerSuper=ReptileSlayer
 SlayerLesser=SnakeSlayer
 
 Fame=6000
 Karma=-6000
-Alignment=Evil
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=25,35
 ResFire=50,60
@@ -206,18 +202,12 @@ NewGold={50 100}
 
 [Chardef cCrystalSeaSerpent]
 ID=cSeaSerpent
-Name=sea serpent
-Can=CanWalk|CanSwim|CanNonHuman
-MoveRate=100
+Name=crystal sea serpent
 Dam=10,18
-Icon=iSeaSerpentIcon
-Sound=
+DamPhysical=10
+DamCold=45
+DamEnergy=45
 Resources=11 iHornedHides,10 iCutOfRawRibs,8 iBlueSeaSerpentScales
-FoodType=tFish,tRawMeat
-MaxFood=35
-Aversions=rCivilization
-Desires=tWater,rWater
-BloodColor=0
 Events=AICrystalSeaSerpent
 
 Category=Monsters
@@ -227,19 +217,15 @@ Description=Crystal Sea Serpent
 On=@Create
 NPC=BrainDragon
 Color=047F
+MaxFood=35
 SlayerSuper=ReptileSlayer
 SlayerLesser=SnakeSlayer
 
 Fame=7500
 Karma=-7500
-Alignment=Evil
-
-DamPhysical=10
-DamCold=45
-DamEnergy=45
+FightMode=Evil
 
 ResPhysical=50,70
-ResFire=0
 ResCold=70,90
 ResPoison=20,30
 ResEnergy=70,90
@@ -264,11 +250,15 @@ Name=hydra
 Can=CanWalk|CanSwim|CanNonHuman
 MoveRate=100
 Dam=21,26
+DamPhysical=60
+DamFire=10
+DamCold=10
+DamPoison=10
+DamEnergy=10
 Icon=iHydraIcon
 Sound=
 Resources=40 iHides,17 iCutOfRawRibs,8 iDragonsBlood2
 FoodType=tFish,tRawMeat
-MaxFood=35
 Aversions=rCivilization
 Desires=tWater,rWater
 BloodColor=0
@@ -280,18 +270,13 @@ Description=Hydra
 
 On=@Create
 NPC=BrainDragon
+MaxFood=35
 SlayerSuper=ReptileSlayer
 SlayerLesser=DragonSlayer
 
 Fame=22000
 Karma=-22000
-Alignment=Evil
-
-DamPhysical=60
-DamFire=10
-DamCold=10
-DamPoison=10
-DamEnergy=10
+FightMode=Evil
 
 ResPhysical=65,75
 ResFire=70,85
@@ -317,17 +302,13 @@ NewGold={1600 1800}
 [CharDef cCrystalHydra]
 ID=cHydra
 Name=crystal hydra
-Can=CanWalk|CanSwim|CanNonHuman
-MoveRate=100
 Dam=21,26
-Icon=iHydraIcon
-Sound=
+DamPhysical=5
+DamFire=5
+DamCold=80
+DamPoison=5
+DamEnergy=5
 Resources=40 iHides,17 iCutOfRawRibs,8 iDragonsBlood2
-FoodType=tFish,tRawMeat
-MaxFood=35
-Aversions=rCivilization
-Desires=tWater,rWater
-BloodColor=0
 Events=AICrystalHydra
 
 Category=Monsters
@@ -337,18 +318,13 @@ Description=Crystal Hydra
 On=@Create
 NPC=BrainDragon
 Color=0481
+MaxFood=35
 SlayerSuper=ReptileSlayer
 SlayerLesser=DragonSlayer
 
 Fame=24000
 Karma=-24000
-Alignment=Evil
-
-DamPhysical=5
-DamFire=5
-DamCold=80
-DamPoison=5
-DamEnergy=5
+FightMode=Evil
 
 ResPhysical=65,75
 ResFire=20,30
@@ -374,17 +350,9 @@ NewGold={1600 1800}
 [CharDef cLeviathan]
 ID=cKraken
 Name=kraken
-Can=CanWalk|CanSwim|CanNonHuman
-MoveRate=100
 Dam=19,33
-Icon=iKrakenIcon
-Sound=
-Resources=0
-FoodType=tFish,tRawMeat
-MaxFood=35
-Aversions=rCivilization
-Desires=tWater,rWater
-BloodColor=0
+DamPhysical=70
+DamCold=30
 TEvents=AILeviathan
 
 Category=Monsters
@@ -394,13 +362,11 @@ Description=Leviathan
 On=@Create
 NPC=BrainDragon
 Color=0481
+MaxFood=35
 
 Fame=20000
 Karma=-20000
-Alignment=Evil
-
-DamPhysical=70
-DamCold=30
+FightMode=Evil
 
 ResPhysical=55,65
 ResFire=45,55

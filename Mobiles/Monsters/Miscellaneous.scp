@@ -4,11 +4,11 @@ Name=gazer
 Can=CanWalk|CanUseHands|CanNonHuman|CanFly|CanHover
 MoveRate=100
 Dam=5,10
+DamPhysical=100
 Icon=iGazerIcon
 Sound=sndGazer1
 Resources=1 iCutOfRawRibs
 FoodType=tRawMeat,tMeat
-MaxFood=35
 Aversions=rCivilization
 Desires=tGold,tCoin,tGem,tRawMeat,tMeat
 BloodColor=0
@@ -20,12 +20,11 @@ Description=Gazer
 
 On=@Create
 NPC=BrainMonster
+MaxFood=35
 
 Fame=3500
 Karma=-3500
-Alignment=Evil
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=35,40
 ResFire=40,50
@@ -58,11 +57,12 @@ Name=elder gazer
 Can=CanWalk|CanUseHands|CanNonHuman|CanFly|CanHover
 MoveRate=100
 Dam=8,19
+DamPhysical=50
+DamEnergy=50
 Icon=iGazerIcon
 Sound=sndGazer1
 Resources=1 iCutOfRawRibs
 FoodType=tRawMeat,tMeat
-MaxFood=35
 Aversions=rCivilization
 Desires=tGold,tCoin,tGem,tRawMeat,tMeat
 BloodColor=0
@@ -74,13 +74,11 @@ Description=Elder Gazer
 
 On=@Create
 NPC=BrainMonster
+MaxFood=35
 
 Fame=12500
 Karma=-12500
-Alignment=Evil
-
-DamPhysical=50
-DamEnergy=50
+FightMode=Evil
 
 ResPhysical=45,55
 ResFire=60,70
@@ -114,11 +112,12 @@ Name=elder gazer
 Can=CanWalk|CanUseHands|CanNonHuman|CanFly|CanHover
 MoveRate=100
 Dam=8,19
+DamPhysical=50
+DamEnergy=50
 Icon=iGazerIcon
 Sound=sndGazer1
 Resources=1 iCutOfRawRibs
 FoodType=tRawMeat,tMeat
-MaxFood=35
 Aversions=rCivilization
 Desires=tGold,tCoin,tGem,tRawMeat,tMeat
 BloodColor=0
@@ -130,13 +129,11 @@ Description=Elder Gazer
 
 On=@Create
 NPC=BrainMonster
+MaxFood=35
 
 Fame=12500
 Karma=-12500
-Alignment=Evil
-
-DamPhysical=50
-DamEnergy=50
+FightMode=Evil
 
 ResPhysical=45,55
 ResFire=60,70
@@ -170,11 +167,11 @@ Name=gazer larva
 Can=CanWalk|CanUseHands|CanNonHuman|CanFly|CanHover
 MoveRate=100
 Dam=2,9
+DamPhysical=100
 Icon=iGazerLarvaIcon
 Sound=sndGazer1
 Resources=1 iCutOfRawRibs
 FoodType=tRawMeat,tMeat
-MaxFood=35
 Aversions=rCivilization
 Desires=tGold,tCoin,tGem,tRawMeat,tMeat
 BloodColor=0
@@ -186,18 +183,13 @@ Description=Gazer Larva
 
 On=@Create
 NPC=BrainMonster
+MaxFood=35
 
 Fame=900
 Karma=-900
-Alignment=Evil
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=15,25
-ResFire=0
-ResCold=0
-ResPoison=0
-ResEnergy=0
 
 OStr={76 100}
 ODex={51 75}
@@ -219,11 +211,11 @@ Name=headless
 Can=CanWalk|CanUseHands
 MoveRate=100
 Dam=5,10	// 6,12 UOS
+DamPhysical=100
 Icon=iHeadlessIcon
 Sound=sndHeadless1
 Resources=1 iCutOfRawRibs
 FoodType=tRawMeat,tMeat
-MaxFood=35
 Aversions=rCivilization
 Desires=tGold,tCoin,tGem,tRawMeat,tMeat
 BloodColor=0
@@ -235,18 +227,13 @@ Description=Headless
 
 On=@Create
 NPC=BrainMonster
+MaxFood=35
 
 Fame=450
 Karma=-450
-Alignment=Evil
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=15,20
-ResFire=0
-ResCold=0
-ResPoison=0
-ResEnergy=0
 
 OStr={26 50}
 ODex={36 55}

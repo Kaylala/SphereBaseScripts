@@ -1,0 +1,80 @@
+// Cu Sidhe
+[CharDef 0115]
+ID=cCuSidhe
+Name=Cu Sidhe
+Can=CanWalk|CanRun|CanUseHands
+MoveRate=100
+Dam=21,28
+DamCold=50
+DamEnergy=50
+Icon=iCuSidheIcon
+Sound=sndCuSidhe1
+Resources=3 iCutOfRawRibs,10 iPileOfHides
+FoodType=tFruit,tVegetable
+Aversions=tTrap
+Desires=rForest,tGold,tGem,tJewelry,tFish
+BloodColor=0
+Events=AIWarrior
+
+Category=Animals
+Subsection=Wolves
+Description=Cu Sidhe
+
+On=@Create
+NPC=BrainAnimal
+Color={08AA 20000 0978 500 097A 500 0901 500 08AC 500 05A7 500 0527 500 0481 50 0482 50 0674 50 04B1 50 0515 50 0455 50 0489 1}
+MaxFood=35
+FollowerSlots=4
+SlayerSuper=FeySlayer|WolfSlayer
+
+Fame=20000
+Karma=20000
+Alignment=Neutral
+
+ResPhysical=50,65
+ResFire=25,45
+ResCold=70,85
+ResPoison=30,50
+ResEnergy=70,85
+
+OStr={1200 1225}
+ODex={150 170}
+OInt={250 285}
+MaxHits={1000 1275}
+
+Wrestling={900 1000}
+Tactics={900 1000}
+MagicResistance={750 900}
+Parrying={900 1000}
+Anatomy={650 700}
+Healing={700 1000}
+Taming=1011
+
+On=@NPCRestock
+NewGold={500 800}
+ItemNewbie=iBandage,{50 100}
+
+On=@DClick
+// Avoiding @Mount when possible for small checks like this.
+If (<IsMyPet>)
+ If (<Src.IsElf>)
+  Mount <I>
+ Else
+  If (<Src.FindLayer.LayerShoes.BaseID> == iPadsOfTheCuSidhe) && (!<IsGargoyle>)
+   Src.SMsgL -1,1071981		// Your boots allow you to mount the Cu Sidhe.
+   Src.Mount <I>
+  Else
+   Src.SMsgL -1,1072203		// Only Elves may use this.
+   Return 1
+  EndIf
+ EndIf
+EndIf
+
+On=@DeathCorpse
+NewTMap=5
+NewItem=RandomSpellweavingScroll,{1 2}
+NewItem=iBandage,{15 30}
+NewItem=iParrotPet
+
+
+[EOF]

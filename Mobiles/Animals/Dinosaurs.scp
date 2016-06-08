@@ -4,9 +4,10 @@ Name=raptor
 Can=CanWalk|CanNonHuman
 MoveRate=100
 Dam=11,17
+DamPhysical=100
 Icon=iRaptorIcon
 Sound=sndRaptor1
-Resources=10 iPilesOfHornedHides,7 iCutOfRawRibs,8 iDragonsBlood2
+Resources=10 iPileOfHornedHides,7 iCutOfRawRibs,8 iDragonsBlood2
 FoodType=tFish
 Aversions=rCivilization
 Desires=rJungle,tFish
@@ -28,9 +29,7 @@ SlayerLesser=DinosaurSlayer
 
 Fame=7500
 Karma=-7500
-Alignment=Evil
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=45,50
 ResFire=50,60
@@ -61,14 +60,18 @@ Name=dimetrosaur
 Can=CanWalk|CanNonHuman
 MoveRate=100
 Dam=18,21
+DamPhysical=90
+DamPoison=10
 Icon=iDimetrosaurIcon
 Sound=sndDragon1
-Resources=11 iPilesOfSpinedHides,1 iCutOfRawRibs
+Resources=11 iPileOfSpinedHides,1 iCutOfRawRibs
 FoodType=tFruit,tVegetable
-MaxFood=35
 Aversions=rCivilization
 Desires=rJungle,tFruit,tVegetable
 BloodColor=0
+//sDismount
+//sMortalStrike
+
 
 Category=Animals
 Subsection=Dinosaurs
@@ -76,18 +79,13 @@ Description=Dimetrosaur
 
 On=@Create
 NPC=BrainAnimal
+MaxFood=35
 SlayerSuper=EodonSlayer
 SlayerLesser=DinosaurSlayer
 
 Fame=17000
 Karma=-17000
-Alignment=Evil
-
-Ability1=sDismountSpell
-Ability2=sMortalStrikeSpell
-
-DamPhysical=90
-DamPoison=10
+FightMode=Evil
 
 ResPhysical=80,90
 ResFire=60,70
@@ -116,7 +114,11 @@ NewGold={1200 1400}
 ID=cDimetrosaur
 Name=dimetrosaur
 Dam=18,21
+DamPhysical=90
+DamPoison=10
 Aversions=rCivilization
+//sDismount
+//sMortalStrike
 
 Category=Animals
 Subsection=Dinosaurs
@@ -130,13 +132,7 @@ SlayerLesser=SlayerDinosaur
 
 Fame=8000
 Karma=-8000
-Alignment=Evil
-
-Ability1=sDismountSpell
-Ability2=sMortalStrikeSpell
-
-DamPhysical=90
-DamPoison=10
+FightMode=Evil
 
 ResPhysical=80,90
 ResFire=60,70
@@ -167,6 +163,7 @@ Name=dragon turtle hatchling
 Can=CanWalk|CanUseHands|CanNonHuman
 MoveRate=100
 Dam=24,33
+DamPhysical=100
 Icon=iDragonTurtleHatchlingIcon
 Sound=sndDragon1
 Resources=0
@@ -174,6 +171,7 @@ FoodType=tFish
 Aversions=rCivilization
 Desires=tFish,rJungle
 BloodColor=0
+//sDismount
 
 Category=Animals
 Subsection=Dinosaurs: Herbivores
@@ -190,11 +188,7 @@ BreathType=3
 
 Fame=22000
 Karma=-22000
-Alignment=Neutral
-
-Ability1=sDismountSpell
-
-DamPhysical=100
+FightMode=Neutral
 
 ResPhysical=60,85
 ResFire=65,90
@@ -227,6 +221,8 @@ Name=allosaurus
 Can=CanWalk|CanNonHuman
 MoveRate=100
 Dam=21,23
+DamPhysical=50
+DamPoison=50
 Icon=iAllosaurusIcon
 Sound=sndDragon1
 Resources=0
@@ -234,6 +230,8 @@ FoodType=tMeat
 Aversions=rCivilization
 Desires=tMeat,rJungle
 BloodColor=0
+//sDisarm
+//sArmorPierce
 
 Category=Animals
 Subsection=Dinosaurs
@@ -247,13 +245,7 @@ SlayerLesser=DinosaurSlayer
 
 Fame=21000
 Karma=-21000
-Alignment=Evil
-
-Ability1=sDisarmSpell
-Ability2=sArmorPierceSpell
-
-DamPhysical=50
-DamPoison=50
+FightMode=Evil
 
 ResPhysical=65,75
 ResFire=55,65
@@ -284,6 +276,8 @@ Name=allosaurus
 Can=CanWalk|CanNonHuman
 MoveRate=100
 Dam=21,23
+DamPhysical=50
+DamPoison=50
 Icon=iAllosaurusIcon
 Sound=sndDragon1
 Resources=0
@@ -291,6 +285,8 @@ FoodType=tMeat,tRawMeat
 Aversions=rCivilization
 Desires=tMeat,rJungle
 BloodColor=0
+//sDisarm
+//sArmorPierce
 
 Category=Animals
 Subsection=Dinosaurs
@@ -304,13 +300,7 @@ SlayerLesser=DinosaurSlayer
 
 Fame=10000
 Karma=-10000
-Alignment=Evil
-
-Ability1=sDisarmSpell
-Ability2=sArmorPierceSpell
-
-DamPhysical=50
-DamPoison=50
+FightMode=Evil
 
 ResPhysical=65,75
 ResFire=55,65
@@ -341,6 +331,7 @@ Name=gallusaurus
 Can=CanWalk|CanNonHuman
 MoveRate=100
 Dam=11,17
+DamPhysical=100
 Icon=iGallusaurusIcon
 Sound=sndDragon1
 Resources=3 iCutOfRawRibs
@@ -348,6 +339,7 @@ FoodType=tMeat
 Aversions=rCivilization
 Desires=tMeat,rJungle
 BloodColor=0
+//sGraspingClaw
 
 Category=Animals
 Subsection=Dinosaurs
@@ -361,10 +353,6 @@ SlayerLesser=DinosaurSlayer
 
 Fame=8100
 Karma=-8100
-
-Ability1=sGraspingClawSpell
-
-DamPhysical=100
 
 ResPhysical=0,10
 ResFire=0,10
@@ -394,13 +382,17 @@ Name=arcahaeosaurus
 Can=CanWalk|CanNonHuman
 MoveRate=100
 Dam=14,16
+DamFire=50
+DamPoison=50
 Icon=iArchaeosarusIcon
 Sound=sndDragon1
-Resources=7 iPilesOfHides,1 iCutOfRawRibs
+Resources=7 iPileOfHides,1 iCutOfRawRibs
 FoodType=tMeat
 Aversions=rCivilization
 Desires=tMeat,rJungle
 BloodColor=0
+//sTalonStrike
+//sBleedAttack
 
 Category=Animals
 Subsection=Dinosaurs
@@ -414,13 +406,7 @@ SlayerLesser=DinosaurSlayer
 
 Fame=8100
 Karma=-8100
-Alignment=Evil
-
-Ability1=sTalonStrikeSpell
-Ability2=sBleedAttackSpell
-
-DamFire=50
-DamPoison=50
+FightMode=Evil
 
 ResPhysical=0,10
 ResFire=0,10
@@ -441,6 +427,7 @@ Parrying={900 1100}
 On=@NPCRestock
 NewGold={600 800}
 
+
 // Najasaurus
 // Northern Valley of Eodon
 [CharDef 0509]
@@ -449,6 +436,8 @@ Name=najasaurus
 Can=CanWalk|CanNonHuman
 MoveRate=100
 Dam=13,24
+DamPhysical=50
+DamPoison=50
 Icon=iNajasaurusIcon
 Sound=sndGiantSerpent1
 Resources=0
@@ -469,10 +458,7 @@ SlayerLesser=DinosaurSlayer
 
 Fame=10000
 Karma=-10000
-Alignment=Evil
-
-DamPhysical=50
-DamPoison=50
+FightMode=Evil
 
 ResPhysical=45,55
 ResFire=50,60
@@ -503,13 +489,15 @@ Name=saurosaurus
 Can=CanWalk|CanNonHuman
 MoveRate=100
 Dam=21,28
+DamPhysical=100
 Icon=iSaurosaurusIcon
 Sound=sndDragon1
-Resources=11 iPilesOfHides,5 iCutOfRawRibs,8 iDragonsBlood2
+Resources=11 iPileOfHides,5 iCutOfRawRibs,8 iDragonsBlood2
 FoodType=tMeat,tRawMeat
 Aversions=rCivilization
 Desires=tMeat,tRawMeat,rJungle
 BloodColor=0
+//sMindBlastSpell
 
 Category=Animals
 Subsection=Dinosaurs
@@ -523,11 +511,7 @@ SlayerLesser=DinosaurSlayer
 
 Fame=11000
 Karma=-11000
-Alignment=Evil
-
-Ability1=sMindBlastSpell
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=75,85
 ResFire=80,90
@@ -558,9 +542,10 @@ Name=anchisaur
 Can=CanWalk|CanNonHuman
 MoveRate=100
 Dam=16,19
+DamPhysical=100
 Icon=iAnchisaurIcon
 Sound=sndDragon1
-Resources=11 iPilesOfHides,6 iCutOfRawRibs, 6 iDragonsBlood2
+Resources=11 iPileOfHides,6 iCutOfRawRibs, 6 iDragonsBlood2
 FoodType=tMeat,tRawMeat
 Aversions=rCivilization
 Desires=tMeat,tRawMeat,rJungle
@@ -578,9 +563,7 @@ SlayerLesser=DinosaurSlayer
 
 Fame=8000
 Karma=-8000
-Alignment=Evil
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=0,10
 ResFire=0,10
@@ -610,13 +593,16 @@ Name=Tyrannosaurus Rex
 Can=CanWalk|CanNonHuman
 MoveRate=100
 Dam=21,23
+DamPhysical=100
 Icon=iAllosaurusIcon
 Sound=sndDragon1
-Resources=4 iCutOfRawRibs,20 iPilesOfHornedHides
+Resources=4 iCutOfRawRibs,20 iPileOfHornedHides
 FoodType=tMeat
 Aversions=rCivilization
 Desires=tMeat,rJungle
 BloodColor=0
+//sArmorPierce
+//sCrushingBlow
 
 Category=Monsters
 Subsection=Dinosaurs
@@ -630,12 +616,7 @@ SlayerLesser=DinosaurSlayer
 
 Fame=24000
 Karma=-24000
-Alignment=Evil
-
-Ability1=sArmorPierceSpell
-Ability2=sCrushingBlowSpell
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=65,75
 ResFire=55,65

@@ -2,9 +2,11 @@
 [ItemDef 0277A]
 DefName=iLeatherMempo
 Name=leather mempo
+NameLoc=1030106		// leather mempo
 Type=tLeatherArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
 CanUse=CanUHuman|CanUElf
+Height=1
 Weight=2
 ReqStr=30
 SkillMake=Tailoring 800
@@ -13,6 +15,12 @@ Material=tLeather
 AlterItem=0
 DupeList=027C5
 
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
 Category=Equipment
 Subsection=Armor: Leather Samurai Armor
 Description=Leather Mempo
@@ -20,13 +28,8 @@ Description=Leather Mempo
 On=@Create
 HitPoints={36 48}
 
-ResPhysical=2
-ResFire=4
-ResCold=3
-ResPoison=3
-ResEnergy=3
-
 [ItemDef 027C5]
+NameLoc=1030181		// leather mempo
 DupeItem=0277A
 
 
@@ -34,9 +37,11 @@ DupeItem=0277A
 [ItemDef 0277B]
 DefName=iLeatherDo
 Name=leather do
+NameLoc=1030107		// leather do
 Type=tLeatherArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
 CanUse=CanUHuman|CanUElf
+Height=1
 Weight=6
 ReqStr=40
 SkillMake=Tailoring 750
@@ -45,6 +50,12 @@ Material=tLeather
 AlterItem={iGargishLeatherChest1 1 iGargishLeatherChest2 1}
 DupeList=027C6
 
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
 Category=Equipment
 Subsection=Armor: Leather Samurai Armor
 Description=Leather Do
@@ -52,13 +63,8 @@ Description=Leather Do
 On=@Create
 HitPoints={36 48}
 
-ResPhysical=2
-ResFire=4
-ResCold=3
-ResPoison=3
-ResEnergy=3
-
 [ItemDef 027C6]
+NameLoc=1030182		// leather do
 DupeItem=0277B
 
 
@@ -66,9 +72,11 @@ DupeItem=0277B
 [ItemDef 0277E]
 DefName=iLeatherHiroSode
 Name=leather hiro sode
+NameLoc=1030110		// leather hiro sode
 Type=tLeatherArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
 CanUse=CanUHuman|CanUElf
+Height=1
 Weight=1
 ReqStr=25
 SkillMake=Tailoring 550
@@ -77,6 +85,12 @@ Material=tLeather
 AlterItem={iGargishLeatherArms1 1 iGargishLeatherArms2 1}
 DupeList=027C9
 
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
 Category=Equipment
 Subsection=Armor: Leather Samurai Armor
 Description=Leather Hiro Sode
@@ -84,13 +98,8 @@ Description=Leather Hiro Sode
 On=@Create
 HitPoints={36 48}
 
-ResPhysical=2
-ResFire=4
-ResCold=3
-ResPoison=3
-ResEnergy=3
-
 [ItemDef 027C9]
+NameLoc=1030185		// leather hiro sode
 DupeItem=027EE
 
 
@@ -98,9 +107,11 @@ DupeItem=027EE
 [ItemDef 02786]
 DefName=iLeatherSuneate
 Name=leather suneate
+NameLoc=1030118		// leather suneate
 Type=tLeatherArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
 CanUse=CanUHuman|CanUElf
+Height=1
 Weight=4
 ReqStr=20
 SkillMake=Tailoring 680
@@ -109,6 +120,12 @@ Material=tLeather
 AlterItem={iGargishLeatherLeggings1 1 iGargishLeatherLeggings2 1}
 DupeList=027D1
 
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
 Category=Equipment
 Subsection=Armor: Leather Samurai Armor
 Description=Leather Suneate
@@ -116,13 +133,8 @@ Description=Leather Suneate
 On=@Create
 HitPoints={36 48}
 
-ResPhysical=2
-ResFire=4
-ResCold=3
-ResPoison=3
-ResEnergy=3
-
 [ItemDef 027D1]
+NameLoc=1030193		// leather suneate
 DupeItem=02786
 
 
@@ -130,9 +142,11 @@ DupeItem=02786
 [ItemDef 0278A]
 DefName=iLeatherHaidate
 Name=leather haidate
+NameLoc=1030122		// leather haidate
 Type=tLeatherArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
 CanUse=CanUHuman|CanUElf
+Height=1
 Weight=4
 ReqStr=20
 SkillMake=Tailoring 680
@@ -141,6 +155,12 @@ Material=tLeather
 AlterItem={iGargishLeatherLeggings1 1 iGargishLeatherLeggings2 1}
 DupeList=027D5
 
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
 Category=Equipment
 Subsection=Armor: Leather Samurai Armor
 Description=Leather Haidate
@@ -148,13 +168,8 @@ Description=Leather Haidate
 On=@Create
 HitPoints={36 48}
 
-ResPhysical=2
-ResFire=4
-ResCold=3
-ResPoison=3
-ResEnergy=3
-
 [ItemDef 027D5]
+NameLoc=1030197		// leather haidate
 DupeItem=0278A
 
 

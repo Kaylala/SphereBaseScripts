@@ -3,13 +3,16 @@ We decided for more customization that new Armor types, based on their respectiv
 
 
 [TypeDef tArmor]
+On=@Create
+CarryResTypes
+
 On=@Dye
 If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
- If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye) || (!<ArgO.DyeType> &MetallicDye)
+ If (!<ArgO.DyeType> &UniversalDye) && (!<ArgO.DyeType> &PigmentDye) && (!<ArgO.DyeType> &MetallicDye)
   Return 1
  EndIf
 Else
- If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &MetallicDye)
+ If (!<ArgO.DyeType> &UniversalDye) && (!<ArgO.DyeType> &MetallicDye)
   Return 1
  EndIf
 EndIf
@@ -19,6 +22,9 @@ SelfRepairDamage
 
 
 [TypeDef tTalisman]
+On=@Create
+CarryResTypes
+
 On=@DClick
 If (<Src.FindLayer.LayerTalisman.UID.Attr> &AttrManaPhase>)
  If (!<Src.FindID.iManaPhaseMemory>)
@@ -28,7 +34,7 @@ EndIf
 
 On=@Dye
 If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
- If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye)
+ If (!<ArgO.DyeType> &UniversalDye) && (!<ArgO.DyeType> &PigmentDye)
   Return 1
  EndIf
 Else
@@ -39,9 +45,12 @@ EndIf
 
 
 [TypeDef tQuiver]
+On=@Create
+CarryResTypes
+
 On=@Dye
 If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
- If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye)
+ If (!<ArgO.DyeType> &UniversalDye) && (!<ArgO.DyeType> &PigmentDye)
   Return 1
  EndIf
 Else
@@ -53,15 +62,18 @@ EndIf
 
 [TypeDef tLeatherArmor]
 On=@Create
+CarryResTypes
+
+On=@Create
 Can |= CanIRegenMana|CanIRegenHits|CanIRegenStam
 
 On=@Dye
 If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
- If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye) || (!<ArgO.DyeType> &LeatherDye)
+ If (!<ArgO.DyeType> &UniversalDye) && (!<ArgO.DyeType> &PigmentDye) && (!<ArgO.DyeType> &LeatherDye)
   Return 1
  EndIf
 Else
- If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &LeatherDye)
+ If (!<ArgO.DyeType> &UniversalDye) && (!<ArgO.DyeType> &LeatherDye)
   Return 1
  EndIf
 EndIf
@@ -77,13 +89,16 @@ EndIf
 
 
 [TypeDef tShield]
+On=@Create
+CarryResTypes
+
 On=@Dye
 If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
- If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye) || (!<ArgO.DyeType> &MetallicDye)
+ If (!<ArgO.DyeType> &UniversalDye) && (!<ArgO.DyeType> &PigmentDye) && (!<ArgO.DyeType> &MetallicDye)
   Return 1
  EndIf
 Else
- If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &MetallicDye)
+ If (!<ArgO.DyeType> &UniversalDye) && (!<ArgO.DyeType> &MetallicDye)
   Return 1
  EndIf
 EndIf
@@ -99,13 +114,16 @@ EndIf
 
 
 [TypeDef tStuddedArmor]
+On=@Create
+CarryResTypes
+
 On=@Dye
 If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
- If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye) || (!<ArgO.DyeType> &LeatherDye)
+ If (!<ArgO.DyeType> &UniversalDye) && (!<ArgO.DyeType> &PigmentDye) && (!<ArgO.DyeType> &LeatherDye)
   Return 1
  EndIf
 Else
- If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &LeatherDye)
+ If (!<ArgO.DyeType> &UniversalDye) && (!<ArgO.DyeType> &LeatherDye)
   Return 1
  EndIf
 EndIf
@@ -121,13 +139,16 @@ EndIf
 
 
 [TypeDef tClothArmor]
+On=@Create
+CarryResTypes
+
 On=@Dye
 If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
- If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye) || (!<ArgO.DyeType> &ClothDye)
+ If (!<ArgO.DyeType> &UniversalDye) && (!<ArgO.DyeType> &PigmentDye) && (!<ArgO.DyeType> &ClothDye)
   Return 1
  EndIf
 Else
- If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &ClothDye)
+ If (!<ArgO.DyeType> &UniversalDye) && (!<ArgO.DyeType> &ClothDye)
   Return 1
  EndIf
 EndIf
@@ -143,13 +164,16 @@ EndIf
 
 
 [TypeDef tBoneArmor]
+On=@Create
+CarryResTypes
+
 On=@Dye
 If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
- If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye) || (!<ArgO.DyeType> &LeatherDye)
+ If (!<ArgO.DyeType> &UniversalDye) && (!<ArgO.DyeType> &PigmentDye) && (!<ArgO.DyeType> &LeatherDye)
   Return 1
  EndIf
 Else
- If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &LeatherDye)
+ If (!<ArgO.DyeType> &UniversalDye) && (!<ArgO.DyeType> &LeatherDye)
   Return 1
  EndIf
 EndIf
@@ -165,13 +189,16 @@ EndIf
 
 
 [TypeDef tPlatemailArmor]
+On=@Create
+CarryResTypes
+
 On=@Dye
 If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
- If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye) || (!<ArgO.DyeType> &MetallicDye)
+ If (!<ArgO.DyeType> &UniversalDye) && (!<ArgO.DyeType> &PigmentDye) && (!<ArgO.DyeType> &MetallicDye)
   Return 1
  EndIf
 Else
- If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &MetallicDye)
+ If (!<ArgO.DyeType> &UniversalDye) && (!<ArgO.DyeType> &MetallicDye)
   Return 1
  EndIf
 EndIf
@@ -187,13 +214,16 @@ EndIf
 
 
 [TypeDef tRingmailArmor]
+On=@Create
+CarryResTypes
+
 On=@Dye
 If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
- If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye) || (!<ArgO.DyeType> &MetallicDye)
+ If (!<ArgO.DyeType> &UniversalDye) && (!<ArgO.DyeType> &PigmentDye) && (!<ArgO.DyeType> &MetallicDye)
   Return 1
  EndIf
 Else
- If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &MetallicDye)
+ If (!<ArgO.DyeType> &UniversalDye) && (!<ArgO.DyeType> &MetallicDye)
   Return 1
  EndIf
 EndIf
@@ -209,13 +239,16 @@ EndIf
 
 
 [TypeDef tChainmailArmor]
+On=@Create
+CarryResTypes
+
 On=@Dye
 If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
- If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye) || (!<ArgO.DyeType> &MetallicDye)
+ If (!<ArgO.DyeType> &UniversalDye) && (!<ArgO.DyeType> &PigmentDye) && (!<ArgO.DyeType> &MetallicDye)
   Return 1
  EndIf
 Else
- If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &MetallicDye)
+ If (!<ArgO.DyeType> &UniversalDye) && (!<ArgO.DyeType> &MetallicDye)
   Return 1
  EndIf
 EndIf
@@ -231,13 +264,16 @@ EndIf
 
 
 [TypeDef tLeafArmor]
+On=@Create
+CarryResTypes
+
 On=@Dye
 If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
- If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye) || (!<ArgO.DyeType> &LeatherDye)
+ If (!<ArgO.DyeType> &UniversalDye) && (!<ArgO.DyeType> &PigmentDye) && (!<ArgO.DyeType> &LeatherDye)
   Return 1
  EndIf
 Else
- If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &LeatherDye)
+ If (!<ArgO.DyeType> &UniversalDye) && (!<ArgO.DyeType> &LeatherDye)
   Return 1
  EndIf
 EndIf
@@ -253,13 +289,16 @@ EndIf
 
 
 [TypeDef tHideArmor]
+On=@Create
+CarryResTypes
+
 On=@Dye
 If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
- If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye) || (!<ArgO.DyeType> &LeatherDye)
+ If (!<ArgO.DyeType> &UniversalDye) && (!<ArgO.DyeType> &PigmentDye) && (!<ArgO.DyeType> &LeatherDye)
   Return 1
  EndIf
 Else
- If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &LeatherDye)
+ If (!<ArgO.DyeType> &UniversalDye) && (!<ArgO.DyeType> &LeatherDye)
   Return 1
  EndIf
 EndIf
@@ -275,9 +314,12 @@ EndIf
 
 
 [TypeDef tWoodlandArmor]
+On=@Create
+CarryResTypes
+
 On=@Dye
 If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
- If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye)
+ If (!<ArgO.DyeType> &UniversalDye) && (!<ArgO.DyeType> &PigmentDye)
   Return 1
  EndIf
 Else
@@ -297,9 +339,12 @@ EndIf
 
 
 [TypeDef tDragonArmor]
+On=@Create
+CarryResTypes
+
 On=@Dye
 If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
- If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye)
+ If (!<ArgO.DyeType> &UniversalDye) && (!<ArgO.DyeType> &PigmentDye)
   Return 1
  EndIf
 Else
@@ -319,9 +364,12 @@ EndIf
 
 
 [TypeDef tStoneArmor]
+On=@Create
+CarryResTypes
+
 On=@Dye
 If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
- If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye)
+ If (!<ArgO.DyeType> &UniversalDye) && (!<ArgO.DyeType> &PigmentDye)
   Return 1
  EndIf
 Else
@@ -341,13 +389,16 @@ EndIf
 
 
 [TypeDef tFurArmor]
+On=@Create
+CarryResTypes
+
 On=@Dye
 If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
- If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye) || (!<ArgO.DyeType> &LeatherDye)
+ If (!<ArgO.DyeType> &UniversalDye) && (!<ArgO.DyeType> &PigmentDye) && (!<ArgO.DyeType> &LeatherDye)
   Return 1
  EndIf
 Else
- If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &LeatherDye)
+ If (!<ArgO.DyeType> &UniversalDye) && (!<ArgO.DyeType> &LeatherDye)
   Return 1
  EndIf
 EndIf
@@ -363,13 +414,16 @@ EndIf
 
 
 [TypeDef tScuteArmor]
+On=@Create
+CarryResTypes
+
 On=@Dye
 If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
- If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye) || (!<ArgO.DyeType> &LeatherDye)
+ If (!<ArgO.DyeType> &UniversalDye) && (!<ArgO.DyeType> &PigmentDye) && (!<ArgO.DyeType> &LeatherDye)
   Return 1
  EndIf
 Else
- If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &LeatherDye)
+ If (!<ArgO.DyeType> &UniversalDye) && (!<ArgO.DyeType> &LeatherDye)
   Return 1
  EndIf
 EndIf
@@ -386,11 +440,11 @@ EndIf
 
 [TypeDef tVirtueArmor]
 On=@Create
-Can |= CanIRegenMana|CanIRegenHits|CanIRegenStam
+CarryResTypes
 
 On=@Dye
 If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
- If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye)
+ If (!<ArgO.DyeType> &UniversalDye) && (!<ArgO.DyeType> &PigmentDye)
   Return 1
  EndIf
 Else

@@ -1,0 +1,78 @@
+[ItemDef 0175D]
+DefName=iFoldedCloth1
+Name=folded cloth
+NameLoc=1025981
+Type=tCloth
+Can=CanIDye|CanIFlip|CanIStack
+Height=1
+Weight=0.1
+DupeList=01761
+
+Category=Resources
+Subsection=Tailoring
+Description=Folded Cloth 1
+
+[ItemDef 01761]
+NameLoc=1025985
+DupeItem=0175D
+
+
+[ItemDef 0175E]
+DefName=iFoldedCloth2
+Name=folded cloth
+NameLoc=1025982
+Type=tCloth
+Can=CanIDye|CanIFlip|CanIStack
+Height=1
+Weight=0.1
+DupeList=01762
+
+Category=Resources
+Subsection=Tailoring
+Description=Folded Cloth 2
+
+[ItemDef 01762]
+NameLoc=1025986
+DupeItem=0175E
+
+
+[ItemDef 0175F]
+DefName=iFoldedCloth3
+Name=folded cloth
+NameLoc=1025983
+Type=tCloth
+Can=CanIDye|CanIFlip|CanIStack
+Height=1
+Weight=0.1
+DupeList=01763
+
+Category=Resources
+Subsection=Tailoring
+Description=Folded Cloth 3
+
+[ItemDef 01763]
+NameLoc=1025987
+DupeItem=0175F
+
+
+[ItemDef 01760]
+DefName=iFoldedCloth4
+Name=folded cloth
+NameLoc=1025984
+Type=tCloth
+Can=CanIDye|CanIFlip|CanIStack
+Height=1
+Weight=0.1
+DupeList=01764
+
+Category=Resources
+Subsection=Tailoring
+Description=Folded Cloth 4
+
+[ItemDef 01764]
+NameLoc=1025988
+DupeItem=01760
+
+
+
+[EOF]

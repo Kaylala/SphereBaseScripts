@@ -2,15 +2,23 @@
 [ItemDef 0283]
 DefName=iGargishStoneArms1
 Name=gargish stone arms
+NameLoc=1020643		// gargish stone arms
 Type=tStoneArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
 CanUse=CanUGargoyle
+Height=1
 Weight=10
 ReqStr=40
 SkillMake=Carpentry 563
 Resources=8 iHighQualityGranite
 Material=tGranite
 DupeList=04057
+
+ResPhysical=6
+ResFire=6
+ResCold=4
+ResPoison=8
+ResEnergy=6
 
 Category=Equipment
 Subsection=Armor: Gargish Stone Armor
@@ -19,13 +27,8 @@ Description=Gargish Stone Arms (Variant 1)
 On=@Create
 HitPoints={36 48}
 
-ResPhysical=6
-ResFire=6
-ResCold=4
-ResPoison=8
-ResEnergy=6
-
 [ItemDef 04057]
+NameLoc=1095343		// gargish stone arms
 DupeItem=0283
 
 
@@ -33,15 +36,23 @@ DupeItem=0283
 [ItemDef 0284]
 DefName=iGargishStoneArms2
 Name=gargish stone arms
+NameLoc=1020644		// gargish stone arms
 Type=tStoneArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
 CanUse=CanUGargoyle
+Height=1
 Weight=10
 ReqStr=40
 SkillMake=Carpentry 563
 Resources=8 iHighQualityGranite
 Material=tGranite
 DupeList=04058
+
+ResPhysical=6
+ResFire=6
+ResCold=4
+ResPoison=8
+ResEnergy=6
 
 Category=Equipment
 Subsection=Armor: Gargish Stone Armor
@@ -50,13 +61,8 @@ Description=Gargish Stone Arms (Variant 2)
 On=@Create
 HitPoints={36 48}
 
-ResPhysical=6
-ResFire=6
-ResCold=4
-ResPoison=8
-ResEnergy=6
-
 [ItemDef 04058]
+NameLoc=1095344		// gargish stone arms
 DupeItem=284
 
 
@@ -64,15 +70,23 @@ DupeItem=284
 [ItemDef 0285]
 DefName=iGargishStoneChest1
 Name=gargish stone chest
+NameLoc=1020645		// gargish stone chest
 Type=tStoneArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
 CanUse=CanUGargoyle
+Height=1
 Weight=15
 ReqStr=40
 SkillMake=Carpentry 650	// use 550 for base 50%
 Resources=12 iHighQualityGranite
 Material=tGranite
 DupeList=04059
+
+ResPhysical=6
+ResFire=6
+ResCold=4
+ResPoison=8
+ResEnergy=6
 
 Category=Equipment
 Subsection=Armor: Gargish Stone Armor
@@ -81,13 +95,8 @@ Description=Gargish Stone Chest (Variant 1)
 On=@Create
 HitPoints={36 48}
 
-ResPhysical=6
-ResFire=6
-ResCold=4
-ResPoison=8
-ResEnergy=6
-
 [ItemDef 04059]
+NameLoc=1095345		// gargish stone chest
 DupeItem=0285
 
 
@@ -95,15 +104,23 @@ DupeItem=0285
 [ItemDef 0286]
 DefName=iGargishStoneChest2
 Name=gargish stone chest
+NameLoc=1020646		// gargish stone chest
 Type=tStoneArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
 CanUse=CanUGargoyle
+Height=1
 Weight=15
 ReqStr=40
 SkillMake=Carpentry 650	// use 550 for base 50%
 Resources=12 iHighQualityGranite
 Material=tGranite
 DupeList=0405A
+
+ResPhysical=6
+ResFire=6
+ResCold=4
+ResPoison=8
+ResEnergy=6
 
 Category=Equipment
 Subsection=Armor: Gargish Stone Armor
@@ -112,13 +129,8 @@ Description=Gargish Stone Chest (Variant 2)
 On=@Create
 HitPoints={36 48}
 
-ResPhysical=6
-ResFire=6
-ResCold=4
-ResPoison=8
-ResEnergy=6
-
 [ItemDef 0286]
+NameLoc=1095346		// gargish stone chest
 DupeItem=0405A
 
 
@@ -126,15 +138,23 @@ DupeItem=0405A
 [ItemDef 0289]
 DefName=iGargishStoneLeggings1
 Name=gargish stone leggings
+NameLoc=1020649		// gargish stone leggings
 Type=tStoneArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
 CanUse=CanUGargoyle
+Height=1
 Weight=15
 ReqStr=40
 SkillMake=Carpentry 588
 Resources=10 iHighQualityGranite
 Material=tGranite
 DupeList=0405D
+
+ResPhysical=6
+ResFire=6
+ResCold=4
+ResPoison=8
+ResEnergy=6
 
 Category=Equipment
 Subsection=Armor: Gargish Stone Armor
@@ -143,13 +163,8 @@ Description=Gargish Stone Leggings (Variant 1)
 On=@Create
 HitPoints={36 48}
 
-ResPhysical=6
-ResFire=6
-ResCold=4
-ResPoison=8
-ResEnergy=6
-
 [ItemDef 0405D]
+NameLoc=1095349		// gargish stone leggings
 DupeItem=0289
 
 
@@ -157,15 +172,23 @@ DupeItem=0289
 [ItemDef 028A]
 DefName=iGargishStoneLeggings2
 Name=gargish stone leggings
+NameLoc=1020650		// gargish stone leggings
 Type=tStoneArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
 CanUse=CanUGargoyle
+Height=1
 Weight=15
 ReqStr=40
 SkillMake=Carpentry 588
 Resources=10 iHighQualityGranite
 Material=tGranite
 DupeList=0405E
+
+ResPhysical=6
+ResFire=6
+ResCold=4
+ResPoison=8
+ResEnergy=6
 
 Category=Equipment
 Subsection=Armor: Gargish Stone Armor
@@ -174,13 +197,8 @@ Description=Gargish Stone Leggings (Variant 2)
 On=@Create
 HitPoints={36 48}
 
-ResPhysical=6
-ResFire=6
-ResCold=4
-ResPoison=8
-ResEnergy=6
-
 [ItemDef 0405E]
+NameLoc=1095350		// gargish stone leggings
 DupeItem=028A
 
 
@@ -188,15 +206,23 @@ DupeItem=028A
 [ItemDef 0287]
 DefName=iGargishStoneKilt1
 Name=gargish stone kilt
+NameLoc=1020647		// gargish stone kilt
 Type=tStoneArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
 CanUse=CanUGargoyle
+Height=1
 Weight=10
 ReqStr=40
 SkillMake=Carpentry 489
 Resources=6 iHighQualityGranite
 Material=tGranite
 DupeList=0405B
+
+ResPhysical=6
+ResFire=6
+ResCold=4
+ResPoison=8
+ResEnergy=6
 
 Category=Equipment
 Subsection=Armor: Gargish Stone Armor
@@ -205,13 +231,8 @@ Description=Gargish Stone Kilt (Variant 1)
 On=@Create
 HitPoints={36 48}
 
-ResPhysical=6
-ResFire=6
-ResCold=4
-ResPoison=8
-ResEnergy=6
-
 [ItemDef 0405B]
+NameLoc=1095347		// gargish stone kilt
 DupeItem=0287
 
 
@@ -219,15 +240,23 @@ DupeItem=0287
 [ItemDef 0288]
 DefName=iGargishStoneKilt2
 Name=gargish stone kilt
+NameLoc=1020648		// gargish stone kilt
 Type=tStoneArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
 CanUse=CanUGargoyle
+Height=1
 Weight=10
 ReqStr=40
 SkillMake=Carpentry 489
 Resources=6 iHighQualityGranite
 Material=tGranite
 DupeList=0405C
+
+ResPhysical=6
+ResFire=6
+ResCold=4
+ResPoison=8
+ResEnergy=6
 
 Category=Equipment
 Subsection=Armor: Gargish Stone Armor
@@ -236,13 +265,8 @@ Description=Gargish Stone Kilt (Variant 2)
 On=@Create
 HitPoints={36 48}
 
-ResPhysical=6
-ResFire=6
-ResCold=4
-ResPoison=8
-ResEnergy=6
-
 [ItemDef 0405C]
+NameLoc=1095348		// gargish stone kilt
 DupeItem=0288
 
 

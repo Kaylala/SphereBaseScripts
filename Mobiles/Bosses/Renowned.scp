@@ -6,13 +6,15 @@ Name=acid elemental
 Can=CanWalk|CanUseHands|CanSwim
 MoveRate=100
 Dam=9,15
+DamPhysical=25
+DamFire=50
+DamEnergy=25
 Icon=iAcidElementalIcon
 Sound=sndWaterElemental1
 Resources=0
-FoodType=t_Magic
-MaxFood=35
-Aversions=r_Civilization
-Desires=cAcidElemental,t_Magic
+FoodType=tMagic
+Aversions=rCivilization
+Desires=cAcidElemental,tMagic
 BloodColor=ColorsGreen
 TEvents=eAIAcidElemental
 
@@ -24,17 +26,12 @@ On=@Create
 NPC=Brain_Monster
 Color=029F
 Tag.Name.Suffix=" [Renowned]"
+MaxFood=35
 SlayerSuper=ElementalSlayer
 
 Fame=10000
 Karma=-10000
-Alignment=Evil
-
-DamPhysical=25
-DamFire=50
-DamCold=0
-DamPoison=0
-DamEnergy=25
+FightMode=Evil
 
 ResPhysical=45,55
 ResFire=40,50
@@ -67,6 +64,7 @@ NewItem=RandomPotion
 NewItem=RandomRareGem,1,R19
 NewItem={{RandomCostume 1 iBreastplateOfTheBerserker 1 iMysticsGarb 1} 30 0 70}
 
+
 // Fire Elemental
 [CharDef iFireElementalRenowned]
 ID=cFireElemental
@@ -74,13 +72,14 @@ Name=fire elemental
 Can=CanWalk|CanUseHands
 MoveRate=100
 Dam=7,9
+DamPhysical=25
+DamFire=75
 Icon=iFireElementalIcon
 Sound=sndFireElemental1
 Resources=0
-FoodType=t_Magic
-MaxFood=35
-Aversions=r_Civilization
-Desires=cFireElemental,t_Magic
+FoodType=tMagic
+Aversions=rCivilization
+Desires=cFireElemental,tMagic
 BloodColor=0
 
 Category=Bosses
@@ -91,18 +90,13 @@ On=@Create
 NPC=Brain_Monster
 Color=04EC
 Tag.Name.Suffix=" [Renowned]"
+MaxFood=35
 SlayerSuper=ElementalSlayer|FlameSlayer
 SlayerLesser=FireElementalSlayer
 
 Fame=4500
 Karma=-4500
-Alignment=Evil
-
-DamPhysical=25
-DamFire=75
-DamCold=0
-DamPoison=0
-DamEnergy=0
+FightMode=Evil
 
 ResPhysical=45,55
 ResFire=60,80
@@ -134,3 +128,6 @@ NewItem=RandomCommonGem
 NewItem=iSulfurousAsh,3
 NewItem=RandomRareGem,1,R19
 NewItem={{iJadeWarAxe 1 iTokenOfHolyFavor 1 iSwordOfShatteredHopes 1} 30 0 70}
+
+
+[EOF]

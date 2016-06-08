@@ -4,11 +4,11 @@ Name=#DaemonNames
 Can=CanWalk|CanFly|CanUseHands
 MoveRate=100
 Dam=7,14
+DamPhysical=100
 Icon=iDaemonIcon
 Sound=sndDaemon1
 Resources=1 iCutOfRawRibs
 FoodType=tRawMeat,tMeat
-MaxFood=35
 Aversions=tTrap
 Desires=tGold,tGem,tMagic
 BloodColor=0
@@ -20,13 +20,12 @@ Description=Daemon
 
 On=@Create
 NPC=BrainMonster
+MaxFood=35
 SuperSlayer=DaemonSlayer
 
 Fame=15000
 Karma=-15000
-Alignment=Evil
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=45,60
 ResFire=50,60
@@ -59,11 +58,11 @@ Name=#DaemonNames
 Can=CanWalk|CanFly|CanUseHands
 MoveRate=100
 Dam=7,14
+DamPhysical=100
 Icon=iDaemonIcon
 Sound=sndDaemon1
 Resources=1 iCutOfRawRibs
 FoodType=tRawMeat,tMeat
-MaxFood=35
 Aversions=tTrap
 Desires=tGold,tGem,tMagic
 BloodColor=0
@@ -75,13 +74,12 @@ Description=Daemon
 
 On=@Create
 NPC=BrainMonster
+MaxFood=35
 SuperSlayer=DaemonSlayer
 
 Fame=15000
 Karma=-15000
-Alignment=Evil
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=45,60
 ResFire=50,60
@@ -114,11 +112,13 @@ Name=black gate daemon
 Can=CanWalk|CanFly|CanUseHands
 MoveRate=100
 Dam=22,29
+DamPhysical=50
+DamFire=25
+DamEnergy=25
 Icon=iBlackGateDaemonIcon
 Sound=sndDaemon1
 Resources=1 iCutOfRawRibs
 FoodType=tRawMeat,tMeat
-MaxFood=35
 Aversions=tTrap
 Desires=tGold,tGem,tMagic
 BloodColor=0
@@ -130,17 +130,12 @@ Description=Black Gate Daemon
 
 On=@Create
 NPC=BrainMonster
+MaxFood=35
 SuperSlayer=DaemonSlayer
 
 Fame=24000
 Karma=-24000
-Alignment=Evil
-
-DamPhysical=50
-DamFire=25
-DamCold=0
-DamPoison=0
-DamEnergy=25
+FightMode=Evil
 
 ResPhysical=65,80
 ResFire=60,80
@@ -175,11 +170,13 @@ Name=#BalronNames
 Can=CanWalk|CanFly|CanUseHands
 MoveRate=100
 Dam=22,29
+DamPhysical=50
+DamFire=25
+DamEnergy=25
 Icon=iBalronIcon
 Sound=sndDaemon1
 Resources=1 iCutOfRawRibs
 FoodType=tRawMeat,tMeat
-MaxFood=35
 Aversions=tTrap
 Desires=tGold,tGem,tMagic
 BloodColor=0
@@ -191,15 +188,12 @@ Description=Balron
 
 On=@Create
 NPC=BrainMonster
+MaxFood=35
 SuperSlayer=DaemonSlayer
 
 Fame=24000
 Karma=-24000
-Alignment=Evil
-
-DamPhysical=50
-DamFire=25
-DamEnergy=25
+FightMode=Evil
 
 ResPhysical=65,80
 ResFire=60,80
@@ -234,11 +228,12 @@ Name=ice fiend
 Can=CanWalk|CanFly|CanUseHands
 MoveRate=100
 Dam=8,19
+DamPhysical=20
+DamCold=80
 Icon=iIceFiendIcon
 Sound=sndDaemon1
 Resources=1 iCutOfRawRibs
 FoodType=tRawMeat,tMeat
-MaxFood=35
 Aversions=tTrap
 Desires=tGold,tGem,tMagic
 BloodColor=0
@@ -250,14 +245,12 @@ Description=Ice Fiend
 
 On=@Create
 NPC=BrainMonster
+MaxFood=35
 SuperSlayer=DaemonSlayer|IceSlayer
 
 Fame=18000
 Karma=-18000
-Alignment=Evil
-
-DamPhysical=20
-DamCold=80
+FightMode=Evil
 
 ResPhysical=55,65
 ResFire=10,20
@@ -290,11 +283,13 @@ Name=oni
 Can=CanWalk|CanUseHands
 MoveRate=100
 Dam=14,20
+DamPhysical=70
+DamFire=10
+DamEnergy=20
 Icon=iOniIcon
 Sound=sndOni1
 Resources=1 iCutOfRawRibs
 FoodType=tRawMeat,tMeat
-MaxFood=35
 Aversions=tTrap
 Desires=tGold,tGem,tMagic
 BloodColor=0
@@ -306,15 +301,12 @@ Description=Oni
 
 On=@Create
 NPC=BrainMonster
+MaxFood=35
 SuperSlayer=DaemonSlayer
 
 Fame=15000
 Karma=-15000
-Alignment=Evil
-
-DamPhysical=70
-DamFire=10
-DamEnergy=20
+FightMode=Evil
 
 ResPhysical=65,80
 ResFire=50,70
@@ -349,11 +341,12 @@ Name=arcane daemon
 Can=CanWalk|CanUseHands
 MoveRate=100
 Dam=12,16
+DamPhysical=80
+DamFire=20
 Icon=iArcaneDaemonIcon
 Sound=sndDaemon1
 Resources=1 iCutOfRawRibs
 FoodType=tRawMeat,tMeat
-MaxFood=35
 Aversions=tTrap
 Desires=tGold,tGem,tMagic
 BloodColor=0
@@ -365,14 +358,12 @@ Description=Arcane Daemon
 
 On=@Create
 NPC=BrainMonster
+MaxFood=35
 SuperSlayer=DaemonSlayer
 
 Fame=10000
 Karma=-10000
-Alignment=Evil
-
-DamPhysical=80
-DamFire=20
+FightMode=Evil
 
 ResPhysical=50,60
 ResFire=70,80
@@ -406,11 +397,11 @@ Name=moloch
 Can=CanWalk|CanUseHands
 MoveRate=100
 Dam=15,23
+DamPhysical=100
 Icon=iMolochIcon
 Sound=sndDaemon1
 Resources=1 iCutOfRawRibs
 FoodType=tRawMeat,tMeat
-MaxFood=35
 Aversions=tTrap
 Desires=tGold,tGem,tMagic
 BloodColor=0
@@ -422,13 +413,12 @@ Description=Moloch
 
 On=@Create
 NPC=BrainMonster
+MaxFood=35
 SuperSlayer=DaemonSlayer
 
 Fame=7500
 Karma=-7500
-Alignment=Evil
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=60,70
 ResFire=60,70
@@ -456,11 +446,12 @@ Name=chaos daemon
 Can=CanWalk|CanUseHands
 MoveRate=100
 Dam=12,17
+DamPhysical=85
+DamFire=15
 Icon=ChaosDaemonIcon
 Sound=sndDaemon1
 Resources=1 iCutOfRawRibs
 FoodType=tRawMeat,tMeat
-MaxFood=35
 Aversions=tTrap
 Desires=tGold,tGem,tMagic
 BloodColor=0
@@ -472,14 +463,12 @@ Description=Chaos Daemon
 
 On=@Create
 NPC=BrainMonster
+MaxFood=35
 SuperSlayer=DaemonSlayer
 
 Fame=3000
 Karma=-3000
-Alignment=Evil
-
-DamPhysical=85
-DamFire=15
+FightMode=Evil
 
 ResPhysical=50,60
 ResFire=60,70
@@ -499,6 +488,167 @@ Parrying={700 800}
 
 On=@NPCRestock
 NewGold={175 225}
+
+
+[Chardef cLightDaemon]
+ID=cChaosDaemon
+Name=light daemon
+Dam=5,10
+DamPhysical=10
+DamCold=50
+DamEnergy=40
+Resources=1 iCutOfRawRibs
+// Crushing Blow
+
+Category=Monsters
+Subsection=Daemonkin
+Description=Light Daemon
+
+On=@Create
+NPC=BrainMonster
+Color=0481
+MaxFood=35
+SuperSlayer=DaemonSlayer
+
+Fame=6000
+Karma=-6000
+FightMode=Evil
+
+ResPhysical=10,20
+ResFire=90,100
+ResCold=10,20
+ResPoison=10,20
+ResEnergy=50,60
+
+OStr={300 450}	// {30 45}? UO:G
+ODex={100 240}	// {10 24}? UO:G
+OInt={300 330}
+MaxHits={2000 2200}
+
+Wrestling={150 200}
+Tactics={100 200}
+MagicResistance={950 1050}
+Parrying={100 200}
+Anatomy={0 50}
+Magery={900 1200}
+Meditation={0 650}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={1750 2250}
+
+
+[Chardef cVoidDaemon]
+ID=cChaosDaemon
+Name=void daemon
+Dam=30,35
+DamPhysical=50
+DamCold=25
+DamEnergy=25
+
+Category=Monsters
+Subsection=Daemonkin
+Description=Void Daemon
+
+On=@Create
+NPC=BrainMonster
+Color=0497
+MaxFood=35
+SuperSlayer=DaemonSlayer
+
+Fame=6000
+Karma=-6000
+FightMode=Evil
+
+ResPhysical=50,60
+ResFire=20,30
+ResCold=90,100
+ResPoison=70,80
+ResEnergy=40,50
+
+OStr={200 230}
+ODex={170 200}
+OInt={50 80}
+MaxHits={1000 1200}
+
+Wrestling={950 1000}
+Tactics={1100 1200}
+MagicResistance={950 1100}
+Parrying={1100 1200}
+
+ItemNewbie=iSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={1750 2250}
+
+
+// Pub 83
+// Appears when a certain quest is active.
+// Summons Efreet when low on health.
+[CharDef cDjin]
+ID=cChaosDaemon
+Name=Djin
+Dam=11,13
+DamFire=50
+DamEnergy=50
+
+Category=Monstes
+Subsection=Daemons
+Description=Djin (Is this the right ID to use?)
+
+on=@Create
+NPC=BrainMonster
+Color=07
+SlayerSuper=AbyssSlayer
+
+Fame=10000
+Karma=-10000
+FightMode=Evil
+
+ResPhysical=50,60
+ResFire=60,70
+ResCold=30,40
+ResPoison=30,40
+ResEnergy=80,90
+
+OStr={300 350}
+ODex={250 300}
+OInt={600 650}
+MaxHits={2000 2200}
+
+Wrestling={600 800}
+Tactics={600 800}
+MagicResistance={600 800}
+Anatomy={0 200}
+Magery={1000 1200}
+EvaluatingIntel={700 900}
+Meditation={200 400}
+
+ItemNewbie=iMonsterSpellbook
+AddCircle=7,1
+
+On=@NPCRestock
+NewGold={1200 1400}	// I guess
+
+On=@GetHit
+If (<EVal <Hits>/<MaxHits>> < 20)
+ If (!<R9>) && (<CurFollower> < <MaxFollowe>)
+  For <EVal ((<MaxFollower> - <CurFollower>) -1)>
+   Serv.NewNPC=cEfreet
+   New.P=<P>
+   New.MoveNear=<P>,4
+   New.Flags |= StatFSummoned
+   CurFollower ++
+  EndFor
+ EndIf
+EndIf
+
+On=@DeathCorpse
+NewLoot=DjinLoot
+GenerateWand
 
 
 [EOF]

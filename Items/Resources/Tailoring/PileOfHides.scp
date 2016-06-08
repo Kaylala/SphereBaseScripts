@@ -1,0 +1,80 @@
+[Comment Hides_CliLocs]
+1062322;spined ~1_val~
+1062323;exceptional spined ~1_val~
+1062324;horned ~1_val~
+1062325;exceptional horned ~1_val~
+1062326;barbed ~1_val~
+1062327;exceptional barbed ~1_val~
+
+1115653;spined ~1_item~
+1115654;horned ~1_item~
+1115655;barbed ~1_item~
+
+
+[ItemDef 01078]
+DefName=iPileOfHides
+Name=pile%s of hides
+NameLoc=1024216		// Pile of Hides
+//NameLoc=1074924		// Hides
+Type=tHide
+TData1=iCutLeather1
+Can=CanIFlip|CanIStack
+Height=1
+Weight=5
+DupeList=01079
+
+Category=Resources
+Subsection=Tailoring
+Description=Pile of Hides
+
+[ItemDef 01079]
+NameLoc=1024217
+DupeItem=01078
+
+
+[ItemDef iPileOfSpinedHides]
+ID=iPileOfHides
+Name=spined leather hide%s
+NameLoc=1049687		// piles of spined hides
+//NameLoc=1074925		// Spined Leather Hides
+TData1=iCutSpinedLeather
+
+Category=Resources
+Subsection=Tailor
+Description=Pile of Spined Hides
+
+On=@Create
+Color=SpinedHue
+
+
+[ItemDef iPileOfHornedHides]
+ID=iPileOfHides
+Name=horned leather hide%s
+NameLoc=1049688		// piles of horned hides
+//NameLoc=1074926		// Horned Leather Hides
+TData1=iCutHornedLeather
+
+Category=Resources
+Subsection=Tailor
+Description=Pile of Horned Hides
+
+On=@Create
+Color=HornedHue
+
+
+[ItemDef iPileOfBarbedHides]
+ID=iPileOfHides
+Name=barbed leather hide%s
+NameLoc=1049689		// piles of barbed hides
+//NameLoc=1074927		// Barbed Leather Hides
+TData1=iCutBarbedLeather
+
+Category=Resources
+Subsection=Tailor
+Description=Pile of Barbed Hides
+
+On=@Create
+Color=BarbedHue
+
+
+[EOF]

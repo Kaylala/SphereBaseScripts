@@ -1,0 +1,238 @@
+[Comment Bears]
+Brown Bear
+Black Bear
+Grizzly Bear
+Raging Grizzly Bear
+Polar Bear
+
+
+[CharDef 0A7]
+DefName=cBrownBear
+Name=brown bear
+Can=CanWalk|CanNonHuman 
+MoveRate=100
+Dam=9,19
+DamPhysical=100
+Icon=iBrownBearIcon
+Sound=
+Resources=1 iCutOfRawRibs,12 iPileOfHides
+FoodType=tFish
+Aversions=tTrap,tFire
+Desires=tFish
+BloodColor=0
+
+Category=Animals
+Subsection=Bears
+Description=Brown Bear
+
+On=@Create
+NPC=BrainAnimal
+MaxFood=35
+FollowerSlots=1
+PackInstincts=BearInstincts
+SlayerSuper=BearSlayer
+
+Fame=450
+Karma=0
+FightMode=Neutral
+
+ResPhysical=20,30
+ResCold=15,20
+ResPoison=10,15
+
+OStr={75 100}
+ODex={25 50}
+OInt={25 50}
+MaxHits={45 60}
+MaxMana=0
+
+Wrestling={400 600}
+Tactics={400 600}
+MagicResistance={250 350}
+Taming=411
+
+
+[CharDef 0D3]
+DefName=cBlackBear
+Name=black bear
+Can=CanWalk|CanNonHuman
+MoveRate=100
+Dam=6,16
+DamPhysical=100
+Icon=iBlackBearIcon
+Sound=
+Resources=1 iCutOfRawRibs,12 iPileOfHides
+FoodType=tFish
+Aversions=tTrap,tFire
+Desires=tFish
+BloodColor=0
+
+Category=Animals
+Subsection=Bears
+Description=Black Bear
+
+On=@Create
+NPC=BrainAnimal
+MaxFood=35
+FollowerSlots=1
+PackInstincts=BearInstincts
+SlayerSuper=BearSlayer
+
+Fame=450
+Karma=0
+FightMode=Neutral
+
+ResPhysical=20,25
+ResCold=10,15
+ResPoison=5,10
+
+OStr={75 100}
+ODex={55 75}
+OInt={10 15}
+MaxHits={46 60}
+MaxMana=0
+
+Wrestling={400 600}
+Tactics={400 600}
+MagicResistance={200 400}
+Taming=351
+
+
+[CharDef 0D4]
+DefName=cGrizzlyBear
+Name=grizzly bear
+Can=CanWalk|CanNonHuman
+MoveRate=100
+Dam=16,26
+DamPhysical=100
+Icon=iGrizzlyBearIcon
+Sound=
+Resources=2 iCutOfRawRibs,16 iPileOfHides
+FoodType=tFish
+Aversions=tTrap,tFire
+Desires=tFish
+BloodColor=0
+
+Category=Animals
+Subsection=Bears
+Description=Grizzly Bear
+
+On=@Create
+NPC=BrainAnimal
+MaxFood=35
+FollowerSlots=1
+PackInstincts=BearInstincts
+SlayerSuper=BearSlayer
+
+Fame=1000
+Karma=0
+FightMode=Neutral
+
+ResPhysical=25,35
+ResCold=15,25
+ResPoison=5,10
+ResEnergy=5,10
+
+OStr={125 155}
+ODex={80 105}
+OInt={15 40}
+MaxHits={75 95}
+MaxMana=0
+
+Wrestling={450 700}
+Tactics={700 1000}
+MagicResistance={250 400}
+Taming=591
+
+
+[CharDef cRagingGrizzlyBear]
+ID=cGrizzlyBear
+Name=raging grizzly bear
+Dam=18,23
+DamPhysical=100
+Resources=4 iCutOfRawRibs,32 iPileOfHides
+
+Category=Animals
+Subsection=Bears
+Description=Raging Grizzly Bear
+
+On=@Create
+NPC=BrainAnimal
+MaxFood=35
+SlayerSuper=BearSlayer
+
+Fame=10000
+Karma=-10000
+FightMode=Evil
+
+ResPhysical=50,70
+ResCold=40,50
+ResPoison=10,20
+ResEnergy=10,20
+
+OStr={1250 1550}
+ODex={80 1050}
+OInt={150 400}
+MaxHits={750 950}
+MaxMana=0
+
+Wrestling={700 1000}
+Tactics={700 1200}
+MagicResistance={300 550}
+
+
+[CharDef 0D5]
+DefName=cPolarBear
+Name=polar bear
+Can=CanWalk|CanNonHuman
+MoveRate=100
+Dam=13,23
+DamPhysical=100
+Icon=iPolarBearIcon
+Sound=sndPolarBear1
+Resources=2 iCutOfRawRibs,16 iPileOfHides
+FoodType=tFish
+Aversions=tTrap,tFire
+Desires=tFish
+BloodColor=0
+
+Category=Animals
+Subsection=Bears
+Description=Polar Bear
+
+On=@Create
+NPC=BrainAnimal
+MaxFood=35
+FollowerSlots=1
+PackInstincts=BearInstincts
+SlayerSuper=BearSlayer
+
+Fame=1500
+Karma=0
+FightMode=Neutral
+
+ResPhysical=25,35
+ResCold=60,80
+ResPoison=15,25
+ResEnergy=10,15
+
+OStr={115 140}
+ODex={80 105}
+OInt={25 50}
+MaxHits={70 84}
+MaxMana=0
+
+Wrestling={450 700}
+Tactics={600 900}
+MagicResistance={450 600}
+Taming=351
+
+
+[Events eNonMountable]
+On=@Mount
+Src.SMsg "The <Name> cannot be mounted."
+Return 1
+
+
+
+[eof]

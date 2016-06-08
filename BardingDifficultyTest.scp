@@ -23,6 +23,10 @@ An approximate barding difficulty can be calculated by using the following metho
 If the result of the difficulty calculation is higher than 160, then the creatures barding difficulty is lowered to 160.
 
 
+[Comment BDModification]
+We are multiplying final value by 10 to work with a decimal value form for difficulty checks.
+
+
 [Function BardingDifficulty]
 If !(<Tag0.BardingDifficulty>)
  Call CalcBardingDifficulty
@@ -74,10 +78,10 @@ Else
  Local.Points2=<Eval (((<Local.Points> - 700) * 0.275) + 700)>
  Local.Result=<Eval (<Local.Points2> / 10)>
 EndIf
-If (<Local.Result> > 1600)
- Local.Result=1600
+If (<Local.Result> > 160)
+ Local.Result=160
 EndIf
-Return <Local.Result>
+Return <EVal (<Local.Result> * 10)>		// Would normally return in the hundreds, but we are using thousands place with decimal.
 
 
 [EOF]

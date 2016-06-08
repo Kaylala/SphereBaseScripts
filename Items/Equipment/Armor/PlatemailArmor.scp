@@ -14,18 +14,18 @@ Material=tIngot
 AlterItem=0
 DupeList=01419
 
+ResPhysical=5
+ResFire=3
+ResCold=2
+ResPoison=3
+ResEnergy=2
+
 Category=Equipment
 Subsection=Armor: Platemail Armor
 Description=Plate Helm
 
 On=@Create
 HitPoints={36 48}
-
-ResPhysical=5
-ResFire=3
-ResCold=2
-ResPoison=3
-ResEnergy=2
 
 [ItemDef 01412]
 NameLoc=1025145
@@ -36,6 +36,7 @@ DupeItem=01419
 [ItemDef 01410]
 DefName=iPlatemailArms
 Name=platemail arms
+NameLoc=1025136		// platemail arms
 Type=tPlatemailArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
 CanUse=CanUHuman|CanUElf
@@ -47,6 +48,12 @@ Material=tIngot
 AlterItem={iGargishPlatemailArms1 1 iGargishPlatemailArms2 1}
 DupeList=01417
 
+ResPhysical=5
+ResFire=3
+ResCold=2
+ResPoison=3
+ResEnergy=2
+
 Category=Equipment
 Subsection=Armor: Platemail Armor
 Description=Platemail Arms
@@ -54,13 +61,8 @@ Description=Platemail Arms
 On=@Create
 HitPoints={36 48}
 
-ResPhysical=5
-ResFire=3
-ResCold=2
-ResPoison=3
-ResEnergy=2
-
 [ItemDef 01417]
+NameLoc=1025143		// platemail arms
 DupeItem=01410
 
 
@@ -68,6 +70,7 @@ DupeItem=01410
 [ItemDef 01414]
 DefName=iPlatemailGloves
 Name=platemail gloves
+NameLoc=1025140		// platemail gloves
 Type=tPlatemailArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
 CanUse=CanUHuman|CanUElf
@@ -79,6 +82,12 @@ Material=tIngot
 AlterItem={iGargishPlatemailKilt1 1 iGargishPlatemailKilt2 1}
 DupeList=01418
 
+ResPhysical=5
+ResFire=3
+ResCold=2
+ResPoison=3
+ResEnergy=2
+
 Category=Equipment
 Subsection=Armor: Platemail Armor
 Description=Platemail Gloves
@@ -86,13 +95,8 @@ Description=Platemail Gloves
 On=@Create
 HitPoints={36 48}
 
-ResPhysical=5
-ResFire=3
-ResCold=2
-ResPoison=3
-ResEnergy=2
-
 [ItemDef 01418]
+NameLoc=1025144		// platemail gloves
 DupeItem=01414
 
 
@@ -100,6 +104,7 @@ DupeItem=01414
 [ItemDef 01413]
 DefName=iPlatemailGorget
 Name=platemail gorget
+NameLoc=1025139		// platemail gorget
 Type=tPlatemailArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
 CanUse=CanUHuman|CanUElf
@@ -110,6 +115,12 @@ Resources=10 iIronIngot
 Material=tIngot
 AlterItem=0
 
+ResPhysical=5
+ResFire=3
+ResCold=2
+ResPoison=3
+ResEnergy=2
+
 Category=Equipment
 Subsection=Armor: Platemail Armor
 Description=Platemail Gorget
@@ -117,17 +128,12 @@ Description=Platemail Gorget
 On=@Create
 HitPoints={36 48}
 
-ResPhysical=5
-ResFire=3
-ResCold=2
-ResPoison=3
-ResEnergy=2
-
 
 // Platemail Legs
 [ItemDef 01411]
 DefName=iPlatemailLegs
 Name=platemail legs
+NameLoc=1025137		// platemail legs
 Type=tPlatemailArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
 CanUse=CanUHuman|CanUElf
@@ -139,6 +145,12 @@ Material=tIngot
 AlterItem={iGargishPlatemailLeggings1 1 iGargishPlatemailLeggings2 1}
 DupeList=0141A
 
+ResPhysical=5
+ResFire=3
+ResCold=2
+ResPoison=3
+ResEnergy=2
+
 Category=Equipment
 Subsection=Armor: Platemail Armor
 Description=Platemail Legs
@@ -146,13 +158,8 @@ Description=Platemail Legs
 On=@Create
 HitPoints={36 48}
 
-ResPhysical=5
-ResFire=3
-ResCold=2
-ResPoison=3
-ResEnergy=2
-
 [ItemDef 0141A]
+NameLoc=1025146		// platemail legs
 DupeItem=01411
 
 
@@ -160,6 +167,7 @@ DupeItem=01411
 [ItemDef 01415]
 DefName=iPlatemailTunic
 Name=platemail tunic
+NameLoc=1025141		// platemail tunic
 Type=tPlatemailArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
 CanUse=CanUHuman|CanUElf
@@ -171,6 +179,12 @@ Material=tIngot
 AlterItem={iGargishPlatemailChest1 1 iGargishPlatemailChest2 1}
 DupeList=01416
 
+ResPhysical=5
+ResFire=3
+ResCold=2
+ResPoison=3
+ResEnergy=2
+
 Category=Equipment
 Subsection=Armor: Platemail Armor
 Description=Platemail Tunic
@@ -178,19 +192,15 @@ Description=Platemail Tunic
 On=@Create
 HitPoints={36 48}
 
-ResPhysical=5
-ResFire=3
-ResCold=2
-ResPoison=3
-ResEnergy=2
-
 [ItemDef 01416]
+NameLoc=1025142		// platemail tunic
 DupeItem=01415
 
 
 // Female Plate
 [ItemDef 01C04]
 DefName=iFemalePlate
+NameLoc=1027172		// female plate
 Name=female plate
 Type=tPlatemailArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
@@ -217,6 +227,7 @@ ResPoison=3
 ResEnergy=2
 
 [ItemDef 01C05]
+NameLoc=1027173		// female plate
 DupeItem=01C04
 
 

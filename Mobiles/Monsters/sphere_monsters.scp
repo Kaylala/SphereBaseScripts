@@ -25,12 +25,6 @@ NAME=dread spider
 ICON=i_pet_spider_dread
 
 
-[CHARDEF 0c]
-DEFNAME=c_dragon
-NAME=dragon
-ICON=i_pet_dragon
-
-
 [CHARDEF 011]
 DEFNAME=c_orc
 NAME=orc
@@ -157,21 +151,6 @@ NAME=ratman
 ICON=i_pet_ratman
 
 
-[CHARDEF 02e]
-//rust dragon
-//"The Ancient Wyrm can be very sneaky at times, and polymorph into a
-// different shape, confusing its attackers.
-// Together with Balrons, Ancient Wyrms are the toughest creatures in the
-// Britannian world and give *huge* amounts of Fame and Karma, even to
-// Glorious Lords.
-//
-// The scales found on an Ancient Wyrm can be of any color except blue."
-DEFNAME=c_wyrm_ancient
-NAME=ancient wyrm
-ICON=i_pet_dragon
-SOUND=snd_monster_dragon1
-
-
 [CHARDEF 02f]
 DEFNAME=c_reaper
 NAME=reaper
@@ -182,17 +161,6 @@ ICON=i_pet_reaper
 DEFNAME=c_scorpion_giant
 NAME=scorpion
 ICON=i_pet_scorpion
-
-
-[CHARDEF 031]
-//FIXME: half stats when tamed
-//FIXME: can polymorph into human form
-DEFNAME=c_wyrm_white
-NAME=white wyrm
-ICON=i_pet_dragon
-SOUND=snd_monster_dragon1
-
-
 
 
 [CHARDEF 033]
@@ -213,31 +181,6 @@ DEFNAME=c_wisp
 NAME=wisp
 ICON=i_pet_wisp
 
-
-[CHARDEF 03b]
-DEFNAME=c_dragon_red
-NAME=red dragon
-ICON=i_pet_dragon
-
-
-[CHARDEF 03c]
-//FIXME: damage is health dependant
-DEFNAME=c_drake
-NAME=drake
-ICON=i_pet_dragon
-
-
-[CHARDEF 03d]
-//FIXME: damage is health dependant
-DEFNAME=c_drake_red
-NAME=red drake
-ICON=i_pet_dragon
-
-
-[CHARDEF 03e]
-DEFNAME=c_dragon_wyvern
-NAME=wyvern
-ICON=i_pet_wyvern
 
 
 [CHARDEF 03f]
@@ -433,28 +376,6 @@ DEFNAME=c_demon_exodus
 NAME=exodus demon
 ICON=i_pet_demon
 
-
-[CHARDEF 067]
-DEFNAME=c_serpentine_dragon
-NAME=serpentine dragon
-ICON=i_pet_dragon
-SOUND=snd_dragon_serpentine1
-
-
-[CHARDEF 069]
-//FIXME: Incomplete Stratics data
-//FIXME: Bleed attack
-DEFNAME=c_dragon_greater
-NAME=greater dragon
-ICON=i_pet_dragon
-SOUND=snd_monster_dragon1
-CAN=MT_WALK|MT_FLY|MT_NONHUM
-
-
-[CHARDEF 06a]
-DEFNAME=c_wyrm_shadow
-NAME=shadow wyrm
-ICON=i_pet_dragon
 
 
 [CHARDEF 072]
@@ -767,11 +688,6 @@ NAME=dark wisp
 ICON=i_pet_wisp
 
 
-[CHARDEF 0a7]
-DEFNAME=c_bear_brown
-NAME=brown bear
-ICON=i_pet_bear_black
-
 
 [CHARDEF 0a8]
 //FIXME: attracted by hidden players and will reveal them when they are close enough.
@@ -884,43 +800,6 @@ NAME=orc bomber
 ICON=i_pet_orc
 
 
-[CHARDEF 0b7]
-//FIXME: Bola attack vs mounted opponents
-DEFNAME=c_savage_warrior_male
-NAME=savage warrior
-ICON=i_pet_man_naked
-
-
-[CHARDEF 0b8]
-//FIXME: Heals using bandages
-DEFNAME=c_savage_warrior_female
-NAME=savage warrior
-ICON=i_pet_woman_naked
-//SOUND=snd_human_fmoomph01//This sound is annoying, find a better one
-
-
-[CHARDEF 0b9]
-//FIXME: Heals himself with bandages.
-DEFNAME=c_savage_rider
-NAME=savage rider
-ICON=i_pet_man_naked
-
-
-[CHARDEF 0ba]
-//FIXME: Tribal dance attack
-//"Each time a Savage Shaman is hit, she has a chance to initiate a
-// tribal dance (best viewed in 3D). If she initiates the dance, she searches
-// the area for other Savage Shamans. If she finds three or more Savage
-// Shamans within a certain radius, the Shaman and all those near her begin
-// to dance. When they finish the dance, the Savages cast a powerful group
-// spell that can cause harm to players or even heal all savages near the
-// casters (Chain lightning, Mass Poison or Mass Greater Heal)."
-DEFNAME=c_savage_shaman
-NAME=savage shaman
-ICON=i_pet_woman_naked
-//SOUND=snd_human_fmoomph01//This sound is annoying, find a better one
-CAN=MT_WALK|MT_RUN|MT_USEHANDS|MT_EQUIP|MT_FEMALE|MT_MOUNT
-
 
 [CHARDEF 0bb]
 DEFNAME=c_ridgeback
@@ -991,20 +870,6 @@ NAME=ethereal giant beetle
 ICON=i_pet_beetle_giant
 
 
-[CHARDEF 0c5]
-//FIXME: No Stratics data
-DEFNAME=c_dragon_stygian_red
-NAME=crimson dragon
-ICON=i_pet_dragon_stygian_red
-
-
-[CHARDEF 0c6]
-//FIXME: No Stratics data
-DEFNAME=c_dragon_stygian_blue
-NAME=platinum dragon
-ICON=i_pet_dragon_stygian_blue
-
-
 
 [CHARDEF 0c8]
 DEFNAME=c_horse_tan
@@ -1042,12 +907,6 @@ CAN=MT_WALK|MT_RUN|MT_NONHUM
 DAM=4,6
 ARMOR=15
 
-
-[CHARDEF 0cd]
-DEFNAME=c_rabbit
-NAME=rabbit
-ICON=i_pet_rabbit_2
-SOUND=snd_animals_rabbit3
 
 
 [CHARDEF 0ce]
@@ -1145,40 +1004,12 @@ ON=@Create
    RESPOISON={10 15}
 
 
-[CHARDEF 0d3]
-DEFNAME=c_bear_black
-NAME=black bear
-ICON=i_pet_bear_black
-SOUND=snd_animals_bear1
-
-
-[CHARDEF 0d4]
-DEFNAME=c_bear_grizzly
-NAME=grizzly bear
-ICON=i_pet_grizzly
-SOUND=snd_animals_grizzly1
-CAN=MT_WALK|MT_RUN|MT_NONHUM
-
-
-[CHARDEF 0d5]
-DEFNAME=c_bear_polar
-NAME=polar bear
-ICON=i_pet_bear_polar
-
-
 [CHARDEF 0d6]
 DEFNAME=c_panther
 NAME=panther
 ICON=i_pet_panther
 SOUND=snd_animals_panther1
 CAN=MT_WALK|MT_RUN|MT_NONHUM
-
-
-[CHARDEF 0d7]
-DEFNAME=c_rat_giant
-NAME=giant rat
-ICON=i_pet_rat_2
-SOUND=snd_monster_grat1
 
 
 [CHARDEF 0d9]
@@ -1300,12 +1131,6 @@ FOODTYPE=t_fruit,t_grain,t_grass
 MAXFOOD=25
 
 
-[CHARDEF 0ee]
-DEFNAME=c_rat
-NAME=rat
-ICON=i_pet_rat
-
-
 [CHARDEF 0f0]
 DEFNAME=c_kappa
 NAME=kappa
@@ -1318,17 +1143,6 @@ DEFNAME=c_deathwatch_beetle
 NAME=deathwatch beetle
 ICON=i_pet_deathwatch_beetle
 SOUND=snd_death_beetle1
-CAN=MT_WALK|MT_RUN|MT_NONHUM
-
-
-[CHARDEF 0f3]
-//FIXME: Attack will lower physical resistance
-//FIXME: stats are halved when tamed
-//FIXME: a master of the art of Bushido will be able to ride it
-DEFNAME=c_hiryu
-NAME=hiryu
-ICON=i_pet_hiryu
-SOUND=snd_animal_hiryu
 CAN=MT_WALK|MT_RUN|MT_NONHUM
 
 
@@ -2334,15 +2148,6 @@ ON=@NpcRestock
    ITEM=random_jewel,{1 4}
    ITEM=i_gold,{180 230}
 
-[CHARDEF 0112]
-////No animation - dont use
-NAME=0122
-CAN=MT_NONMOVER|MT_NONHUM
-
-[CHARDEF 0113]
-////No animation - dont use
-NAME=0113
-CAN=MT_NONMOVER|MT_NONHUM
 
 [CHARDEF 0114]
 //FIXME: "half stats when tamed."
@@ -2489,87 +2294,6 @@ ON=@DClick
    RETURN 1
 
 
-[CHARDEF 0116]
-//FIXME: No Stratics data
-DEFNAME=c_squirrel
-NAME=squirrel
-ICON=i_pet_squirrel
-CAN=MT_WALK|MT_RUN|MT_NONHUM
-DAM=2,5
-ARMOR=5
-DESIRES=r_forests
-AVERSIONS=e_carnivores,e_carnivores2,e_carnivores3
-FOODTYPE=t_fruit,t_grain
-MAXFOOD=10
-RESOURCES=1 i_ribs_raw
-BLOODCOLOR=colors_blood
-MOVERATE=100
-TAG.Barding.Diff=29.0
-TAG.SlayerGroup=VERMIN
-FollowerSlots=1
-CATEGORY=Animals
-SUBSECTION=Wild
-DESCRIPTION=Squirrel
-RESLEVEL=5
-RESDISPDNID=c_rabbit
-RESDISPDNHUE=33
-ON=@Create
-   NPC=brain_animal
-   FAME=150
-   KARMA=0
-   STR={10 20}
-   MAXHITS={10 20}
-   DEX={10 20}
-   MAXSTAM={10 20}
-   INT={10 20}
-   MAXMANA={10 20}
-   TAMING={10.0 15.0}
-   MODAR={0 5}
-   RESCOLD={1 5}
-   RESENERGY=0
-   RESFIRE=0
-   RESPOISON=0
-
-[CHARDEF 0117]
-//FIXME: No Stratics data
-NAME=ferret
-DEFNAME=c_ferret
-ICON=i_pet_ferret
-CAN=MT_WALK|MT_RUN|MT_NONHUM
-DAM=2,3
-ARMOR=10
-DESIRES=r_jungle,r_plains
-AVERSIONS=e_carnivores,e_carnivores2,e_carnivores3
-FOODTYPE=t_fruit,t_grain
-MAXFOOD=10
-RESOURCES=1 i_ribs_raw
-BLOODCOLOR=colors_blood
-MOVERATE=100
-TAG.Barding.Diff=29.0
-TAG.SlayerGroup=VERMIN
-FollowerSlots=1
-CATEGORY=Animals
-SUBSECTION=Wild
-DESCRIPTION=Ferret
-RESLEVEL=5
-RESDISPDNID=c_rabbit
-RESDISPDNHUE=33
-ON=@Create
-   NPC=brain_animal
-   FAME=150
-   KARMA=0
-   STR={10 20}
-   MAXHITS={10 20}
-   DEX={50 70}
-   MAXSTAM={50 70}
-   INT={30 50}
-   MAXMANA={30 50}
-   TAMING={10.0 15.0}
-   MODAR={0 5}
-   RESCOLD={1 5}
-   RESENERGY=0
-   RESFIRE=0
-   RESPOISON=0
 
 [CHARDEF 0118]
 DEFNAME=c_minotaur_captain
@@ -2870,10 +2594,6 @@ ON=@NpcRestock
    ITEM=random_jewel,{1 4}
    ITEM=i_gold,{280 330}
 
-[CHARDEF 011e]
-////No animation - dont use
-NAME=011e
-CAN=MT_NONMOVER|MT_NONHUM
 
 [CHARDEF 011f]
 //"FIXME: drains blood from corpses to heal itself, and sometimes its attack
@@ -2921,16 +2641,6 @@ ON=@Create
    RESPOISON={65 75}
 ON=@NPCRestock
    ITEM=i_gold,{250 300}
-
-[CHARDEF 0120]
-////No animation - dont use
-NAME=0120
-CAN=MT_NONMOVER|MT_NONHUM
-
-[CHARDEF 0121]
-////No animation - dont use
-NAME=0121
-CAN=MT_NONMOVER|MT_NONHUM
 
 [CHARDEF 0122]
 DEFNAME=c_pig_big
@@ -3056,34 +2766,11 @@ ON=@Create
    RESPOISON={5 10}
 
 
-[CHARDEF 0126]
-////No animation - dont use
-NAME=0126
-CAN=MT_NONMOVER|MT_NONHUM
-
 [CHARDEF 0127]
 ////Partial animation - Dolphin - no corpse - dont use
 NAME=Dolphin 0127
 CAN=MT_NONMOVER|MT_NONHUM
 
-[CHARDEF 0128]
-////No animation - dont use
-NAME=0128
-CAN=MT_NONMOVER|MT_NONHUM
-
-[CHARDEF 0129]
-////No animation - dont use
-NAME=0129
-CAN=MT_NONMOVER|MT_NONHUM
-
-[CHARDEF 012a]
-////No animation - dont use
-NAME=012a
-CAN=MT_NONMOVER|MT_NONHUM
-
-[CHARDEF 012b]
-////No animation - dont use
-NAME=012b
 
 CAN=MT_NONMOVER|MT_NONHUM
 \[CHARDEF 012d]
@@ -4345,6 +4032,7 @@ ON=@NPCRestock
    ITEM=i_boura_pelt,{1 3},R5
 
 
+
 [CHARDEF 023d]
 //"Not visible with some clients, if so, set BODY=c_elemental_air
 // in the ON=@Create trigger."
@@ -4792,114 +4480,6 @@ ON=@Death
       SERV.NEWITEM=i_egg_small,1,<UID>
       NEW.MORE2=c_chicken_lizard
    ENDIF
-
-[CHARDEF 02ce]
-//"Diminutive guardian of the Stygian Dragons Lair, these are the first
-// level of the mini-champ at the entrance and source of the Draconian
-// Orbs, keys to enter the dragons lair.  These creatures have no magery,
-// however they do have mysticism.  Loot includes the imbuing ingredient
-// fairy dust and the quest item fairy dragon wings."
-//FIXME: Draconian Orb (Peerless Key)
-DEFNAME=c_dragon_fairy
-NAME=fairy dragon
-ICON=i_pet_dragon_fairy
-SOUND=snd_monster_dragon_faerie
-CAN=MT_WALK|MT_FLY|MT_NONHUM
-DAM=15,20
-ARMOR=15
-DESIRES=r_dungeon_abyss,t_coin,t_gold,t_gem,t_wand,t_potion,t_scroll,t_reagent
-AVERSIONS=r_civilization
-FOODTYPE=t_meat_raw
-MAXFOOD=15
-RESOURCES=1 i_fairy_dragon_wings
-BLOODCOLOR=colors_blood
-MOVERATE=100
-TAG.Barding.Diff=104.0
-DamCold=25
-DamEnergy=25
-DamFire=25
-DamPoison=25
-TAG.SlayerGroup=DRAGON,REPTILE
-TEVENTS=e_carnivores3
-CATEGORY=Monsters
-SUBSECTION=Dragonkind
-DESCRIPTION=Fairy Dragon
-ON=@Create
-   NPC=brain_animal
-   FAME={4000 4499}
-   KARMA={-4000 -4499}
-   STR={510 560}
-   MAXHITS={395 405}
-   DEX={95 105}
-   MAXSTAM={95 105}
-   INT={455 505}
-   MAXMANA={455 505}
-   ANATOMY={40.0 60.0}
-   EVALUATINGINTEL={40.0 60.0}
-   MAGICRESISTANCE={40.0 60.0}
-   MEDITATION={65.0 75.0}
-   MYSTICISM={75.0 95.0}
-   TACTICS={60.0 75.0}
-   WRESTLING={50.0 65.0}
-   MODAR={0 15}
-   RESCOLD={40 50}
-   RESENERGY={45 50}
-   RESFIRE={40 45}
-   RESPOISON={40 50}
-ON=@NPCRestock
-   ITEM=i_fairy_dust,{1 3},R5
-   ITEM=i_gold,{1500 1600}
-   //ITEM=i_map_treasure,1,R40
-   ITEM=i_fey_wings,R20
-   ITEM=random_essence_virtue,{2 3},R5
-   ITEM=monster_regbag_mysticism
-
-[CHARDEF 02cf]
-//FIXME: No Stratics data yet
-DEFNAME=c_dragon_wolf
-NAME=dragon wolf
-ICON=i_pet_dragon_wolf
-SOUND=snd_monster_dragon_wolf
-CAN=MT_WALK|MT_RUN|MT_USEHANDS|MT_EQUIP
-DAM=20,32
-ARMOR=30
-DESIRES=r_jungle,r_forests,t_coin,t_gold,t_gem,t_potion
-AVERSIONS=r_civilization
-FOODTYPE=t_meat_raw
-MAXFOOD=35
-RESOURCES=1 i_ribs_raw,2 i_fur_dark
-BLOODCOLOR=colors_blood
-MOVERATE=100
-TAG.Barding.Diff=95.1
-DamFire=20
-TAG.SlayerGroup=DRAGON,WOLF
-TEVENTS=e_carnivores2
-CATEGORY=Monsters
-SUBSECTION=Dragonkind
-DESCRIPTION=Dragon Wolf
-ON=@Create
-   NPC=brain_dragon
-   FAME={3000 3499}
-   KARMA={-3000 -3499}
-   STR={390 420}
-   MAXHITS={250 300}
-   DEX={90 110}
-   MAXSTAM={140 175}
-   INT={100 140}
-   MAXMANA={100 140}
-   MAGICRESISTANCE={75.0 85.0}
-   TACTICS={75.0 90.0}
-   WRESTLING={65.0 80.0}
-   MODAR={0 10}
-   RESCOLD={40 50}
-   RESENERGY={30 40}
-   RESFIRE={50 60}
-   RESPOISON={20 30}
-   //BREATH.ANIM=i_fx_explode		//explosion id
-   //BREATH.TYPE=3				// Follow target
-ON=@NPCRestock
-   ITEM=i_reflective_wolf_eye,{2 3},R5
-   ITEM=loot_drake
 
 [CHARDEF 02d1]
 //FIXME: Incomplete Stratics data
@@ -5540,11 +5120,6 @@ ON=@Death
       ENDIF
    ENDIF
 
-[CHARDEF 02db]
-//No animation - dont use
-NAME=02db
-CAN=MT_NONMOVER|MT_NONHUM
-
 [CHARDEF 02dc]
 //FIXME: Incomplete Stratics data
 DEFNAME=c_rotworm
@@ -5586,60 +5161,6 @@ ON=@Create
    RESPOISON={65 75}
 ON=@NPCRestock
    ITEM=i_gold,{25 50}
-
-[CHARDEF 02dd]
-//FIXME: Incomplete Stratics data
-DEFNAME=c_skree
-NAME=Skree
-ICON=i_pet_skree
-SOUND=snd_monster_skree
-CAN=MT_WALK|MT_FLY|MT_NONHUM
-DAM=5,7
-ARMOR=55
-DESIRES=r_mountains,r_dungeon,t_coin,t_gold,t_gem,t_wand,t_potion,t_scroll,t_reagent
-AVERSIONS=t_trap,r_civilization
-FOODTYPE=t_meat_raw
-MAXFOOD=20
-RESOURCES=3 i_ribs_raw,6 i_hide
-BLOODCOLOR=colors_blood
-MOVERATE=150
-TAG.Barding.Diff=91.5
-FollowerSlots=4
-TAG.SlayerGroup=REPTILE
-TEVENTS=e_carnivores2
-CATEGORY=Monsters
-SUBSECTION=Reptiles
-DESCRIPTION=Skree
-ON=@Create
-   NPC=brain_monster
-   FAME={2500 2999}
-   KARMA={-3000 -3499}
-   STR={295 330}
-   MAXHITS={205 310}
-   DEX={95 125}
-   MAXSTAM={95 125}
-   INT={190 260}
-   MAXMANA={190 260}
-   EVALUATINGINTEL={90.0 100.0}
-   MAGICRESISTANCE={75.0 85.0}
-   MAGERY={100.0 115.0}
-   MEDITATION={65.0 75.0}
-   MYSTICISM={100.0 115.0}
-   TACTICS={20.0 25.0}
-   TAMING={95.0 100.0}
-   WRESTLING={20.0 35.0}
-   MODAR={0 10}
-   RESCOLD={25 40}
-   RESENERGY={25 40}
-   RESFIRE={45 55}
-   RESPOISON={55 65}
-ON=@NPCRestock
-   ITEM=i_gold,{50 100}
-   ITEM=random_reagent_mystic,{5 9}
-   ITEM=random_reagent_mystic,{5 9},R3
-   ITEM=random_scroll_mystic,{1 2}
-   ITEM=random_scroll_mystic,{1 2},R3
-   ITEM=monster_regbag_mysticism
 
 [CHARDEF 02de]
 DEFNAME=c_slith
@@ -6255,6 +5776,7 @@ ICON=i_pet_bogthing
 NAME=Old Chariot
 CAN=MT_NONMOVER|MT_NONHUM
 
+
 [CHARDEF 0313]
 // The Ant Lion has the ability to "tunnel" under the ground and burst
 // up underneath its attackers, thereby doing a substantial amount of
@@ -6352,12 +5874,6 @@ SOUND=snd_monster_rune_beetle
 
 
 
-[CHARDEF 031a]
-DEFNAME=c_swamp_dragon
-NAME=swamp dragon
-ICON=i_pet_dragon_swamp
-
-
 //[CHARDEF 031b]
 ////Equipment animation - dont use
 //DEFNAME=c_demon_horde_medium
@@ -6379,107 +5895,6 @@ DEFNAME=c_reptile_lord
 NAME=reptile lord
 ICON=i_pet_dragon
 
-
-[CHARDEF 031e]
-//DEFNAME=
-NAME=unknown ancient wyrm
-ICON=i_pet_dragon
-SOUND=snd_monster_dragon1
-CAN=MT_WALK|MT_RUN|MT_NONHUM
-DAM=146,182
-ARMOR=85
-DESIRES=r_dungeon,t_coin,t_gold,t_gem,t_wand,t_potion,t_scroll,t_reagent
-AVERSIONS=t_trap,r_civilization
-FOODTYPE=t_meat_raw
-MAXFOOD=80
-RESOURCES=19 i_ribs_raw,40 i_hide,6 i_reag_dragon_blood
-BLOODCOLOR=colors_blood
-MOVERATE=100
-TAG.Barding.Diff=160.0
-DamEnergy=20
-DamFire=20
-TAG.SlayerGroup=DRAGON,REPTILE
-TEVENTS=e_carnivores3
-CATEGORY=Monsters
-SUBSECTION=Duplicates
-DESCRIPTION=Unknown Wyrm (ancient)
-ON=@Create
-   NPC=brain_monster
-   FAME={8500 8999}
-   KARMA={-8500 -8999}
-   STR={1096 1185}
-   MAXHITS={658 711}
-   DEX={86 175}
-   MAXSTAM={86 175}
-   INT={686 775}
-   MAXMANA={686 775}
-   ANATOMY={75.0 100.0}
-   EVALUATINGINTEL={80.0 100.0}
-   MAGERY={80.0 100.0}
-   MAGICRESISTANCE={100.0 150.0}
-   MEDITATION={52.0 75.0}
-   TACTICS={98.0 100.0}
-   WRESTLING={98.0 100.0}
-   MODAR={0 5}
-   RESCOLD={70 80}
-   RESENERGY={60 70}
-   RESFIRE={80 90}
-   RESPOISON={60 70}
-   //BREATH.ANIM=i_fx_explode	//explosion id
-   //BREATH.TYPE=3				// Follow target
-ON=@NpcRestock
-   ITEM=loot_wyrm_ancient
-
-[CHARDEF 031f]
-//FIXME: Should be possible to remove the armor
-DEFNAME=c_armored_swamp_dragon
-NAME=armored swamp dragon
-ICON=i_pet_dragon_swamp
-SOUND=snd_monster_dragon1
-CAN=MT_WALK|MT_RUN|MT_NONHUM
-DAM=7,9
-ARMOR=40
-DESIRES=r_swamp,t_coin,t_gold,t_gem
-AVERSIONS=r_civilization,e_carnivores3
-FOODTYPE=t_meat_raw
-MAXFOOD=55
-RESOURCES=19 i_ribs_raw,20 i_hide,5 i_dragonscale_green
-BLOODCOLOR=colors_blood
-MOVERATE=100
-TAG.Barding.Diff=59.0
-FollowerSlots=1
-DamPoison=25
-TAG.SlayerGroup=DRAGON,REPTILE
-TEVENTS=e_horses
-TEVENTS=e_carnivores
-CATEGORY=Mounts
-SUBSECTION=Tame
-DESCRIPTION=Swamp Dragon (armored)
-RESLEVEL=2
-RESDISPDNID=c_horse_gray
-RESDISPDNHUE=38
-ON=@Create
-   COLOR={0 20 colors_green 1}
-   NPC=brain_animal
-   FAME={2000 2499}
-   KARMA={-2000 -2499}
-   STR={201 300}
-   MAXHITS={121 180}
-   DEX={66 85}
-   MAXSTAM={66 85}
-   INT={61 100}
-   MAXMANA={61 100}
-   ANATOMY={45.0 55.0}
-   MAGICRESISTANCE={45.0 55.0}
-   //POISONING={45.0 55.0}
-   TACTICS={45.0 55.0}
-   TAMING={90.0 95.0}
-   WRESTLING={45.0 55.0}
-   MODAR={0 5}
-   RESCOLD={25 45}
-   RESENERGY={35 45}
-   RESFIRE={25 35}
-   RESPOISON={25 35}
 
 
 [CHARDEF 033a]

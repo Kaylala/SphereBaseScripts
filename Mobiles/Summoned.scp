@@ -3,17 +3,10 @@
 [CharDef cAirElementalSummoned]
 ID=cAirElemental
 Name=air elemental
-Can=mtWalk|mtUseHands|mtFly
-MoveRate=100
+Can=CanWalk|CanRun|CanUseHands|CanFly
 Dam=5,7
-Icon=iAirElementalIcon
-Sound=sndAirElemental1
-Resources=0
-FoodType=0
-MaxFood=35
-Aversions=rCivilization
-Desires=tMagic
-BloodColor=-1
+DamPhysical=50
+DamEnergy=50
 
 Category=Summoned
 Subsection=Magery
@@ -21,22 +14,16 @@ Description=Air Elemental
 
 On=@Create
 NPC=BrainMonster
-Color={0 1 04FFF 1}
+Color={0 1 04001 1}
+MaxFood=35
 FollowerSlots=2
 DeathFlags=DeathNoCorpse|DeathNoLoot
-CanDefend=0
 SlayerSuper=ElementalSlayer
 SlayerLesser=AirElementalSlayer
 
 Fame=0
 Karma=0
-Alignment=Neutral
-
-DamPhysical=50
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=50
+FightMode=Neutral
 
 ResPhysical=40,50
 ResFire=30,40
@@ -61,21 +48,15 @@ Meditation=900
 ItemNewbie=iSpellbook
 AddCircle=7,1
 
+
 // Earth Elemental
 [CharDef cEarthElementalSummoned]
 ID=cEarthElemental
 Name=earth elemental
-Can=mtWalk
-MoveRate=100
+Can=CanWalk|CanRun|CanUseHands
 Dam=11,17
-Icon=iEarthElementalIcon
-Sound=sndEarthElemental1
-Resources=
-FoodType=tOre,tIngot,tGem,tARock
-MaxFood=35
-Aversions=rCivilization
-Desires=cEarthElemental,tMagic
-BloodColor=ColorsBrown
+DamPhysical=100
+BloodColor=BrownHues
 
 Category=Summoned
 Subsection=Magery
@@ -83,6 +64,7 @@ Description=Earth Elemental
 
 On=@Create
 NPC=BrainMonster
+MaxFood=35
 FollowerSlots=2
 DeathFlags=DeathNoCorpse|DeathNoLoot
 SlayerSuper=ElementalSlayer
@@ -90,13 +72,7 @@ SlayerLesser=EarthElementalSlayer
 
 Fame=0
 Karma=0
-Alignment=Neutral
-
-DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
+FightMode=Neutral
 
 ResPhysical=65,75
 ResFire=70,80
@@ -114,21 +90,15 @@ Tactics=1000
 MagicResistance=650
 Parrying=1000
 
+
 // Fire Elemental
 [CharDef cFireElementalSummoned]
 ID=cFireElemental
 Name=fire elemental
-Can=mtWalk|mtUseHands
-MoveRate=100
+Can=CanWalk|CanRun|CanUseHands|CanFireImmune
 Dam=7,11
-Icon=iFireElementalIcon
-Sound=sndFireElemental1
-Resources=0
-FoodType=tMagic
-MaxFood=35
+DamFire=100
 Aversions=rCivilization
-Desires=cFireElemental,tMagic
-BloodColor=0
 
 Category=Summoned
 Subsection=Magery
@@ -136,6 +106,7 @@ Description=Fire Elemental
 
 On=@Create
 NPC=BrainMonster
+MaxFood=35
 FollowerSlots=4
 DeathFlags=DeathNoCorpse|DeathNoLoot
 SlayerSuper=ElementalSlayer|FlameSlayer
@@ -143,13 +114,7 @@ SlayerLesser=FireElementalSlayer
 
 Fame=0
 Karma=0
-Alignment=Neutral
-
-DamPhysical=0
-DamFire=100
-DamCold=0
-DamPoison=0
-DamEnergy=0
+FightMode=Neutral
 
 ResPhysical=50,60
 ResFire=70,80
@@ -169,23 +134,16 @@ Magery=900
 EvaluatingIntel=900
 
 ItemNewbie=iSpellbook
-AddSpell=7,1
+AddCircle=7,1
+
 
 // Water Elemental
 [CharDef cWaterElementalSummoned]
 ID=cWaterElemental
 Name=water elemental
-Can=mtWalk|mtUseHands|mtSwim
-MoveRate=100
+Can=CanWalk|CanRun|CanUseHands|CanSwim
 Dam=11,15
-Icon=iWaterElementalIcon
-Sound=sndWaterElemental1
-Resources=0
-FoodType=tMagic
-MaxFood=35
-Aversions=rCivilization
-Desires=cWaterElemental,tMagic
-BloodColor=ColorsBlue
+DamCold=100
 
 Category=Summoned
 Subsection=Magery
@@ -193,6 +151,7 @@ Description=Water Elemental
 
 On=@Create
 NPC=BrainMonster
+MaxFood=35
 FollowerSlots=3
 DeathFlags=DeathNoCorpse|DeathNoLoot
 SlayerSuper=ElementalSlayer
@@ -200,13 +159,7 @@ SlayerLesser=WaterElementalSlayer
 
 Fame=0
 Karma=0
-Alignment=Neutral
-
-DamPhysical=0
-DamFire=0
-DamCold=100
-DamPoison=0
-DamEnergy=0
+FightMode=Neutral
 
 ResPhysical=50,60
 ResFire=20,30
@@ -230,18 +183,19 @@ Meditation=900
 ItemNewbie=iSpellbook
 AddCircle=7,1
 
+
 // Energy Vortex
 [CharDef 0A4]
 DefName=cEnergyVortex
 Name=energy vortex
-Can=mtWalk|mtUseHands|mtFly
+Can=CanWalk|CanRun|CanUseHands|CanFly
 MoveRate=100
 Dam=13,17
+DamEnergy=100
 Icon=iWaterElementalIcon
 Sound=sndWaterElemental1
 Resources=0
 FoodType=tMagic
-MaxFood=35
 Aversions=rCivilization
 Desires=tMagic
 BloodColor=ColorsPurple
@@ -252,18 +206,13 @@ Description=Energy Vortex
 
 On=@Create
 NPC=BrainMonster
+MaxFood=35
 FollowerSlots=2
 DeathFlags=DeathNoCorpse|DeathNoLoot
 
 Fame=0
 Karma=0
-Alignment=Neutral
-
-DamPhysical=0
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=100
+FightMode=Neutral
 
 ResPhysical=60,70
 ResFire=40,50
@@ -284,21 +233,24 @@ Parrying=1000
 // Energy Llama code.
 If !(<R999>)
  Body=cLlama
- Color=ColorsPurple
+ Color=PurpleHues
 EndIf
+
 
 // Blade Spirit
 [CharDef 023E]
 DefName=cBladeSpirit
 Name=blade spirit
-Can=mtWalk|mtUseHands|mtFly
+Can=CanWalk|CanRun|CanUseHands|CanFly
 MoveRate=100
 Dam=10,14
+DamPhysical=60
+DamPoison=20
+DamEnergy=20
 Icon=0
 Sound=sndSword1
 Resources=0
 FoodType=tMagic
-MaxFood=35
 Aversions=rCivilization
 Desires=tMagic
 BloodColor=-1
@@ -309,17 +261,12 @@ Description=Blade Spirit
 
 On=@Create
 NPC=BrainMonster
+MaxFood=35
 FollowerSlots=2
 
 Fame=0
 Karma=0
-Alignment=Neutral
-
-DamPhysical=60
-DamFire=0
-DamCold=0
-DamPoison=20
-DamEnergy=20
+FightMode=Neutral
 
 ResPhysical=30,40
 ResFire=40,50
@@ -338,5 +285,6 @@ Wrestling=900
 Tactics=1000
 MagicResistance=700
 Parrying=1000
+
 
 [EOF]

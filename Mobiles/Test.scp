@@ -1,0 +1,53 @@
+// Sakkhra! CliLocs shows Sakkrhan
+[CharDef cSakkhranBirdOfPrey]
+ID=cHiryu
+Name=sakkhra
+
+Category=Monsters
+Subsection=Dragonkin
+Description=Sakkhran Bird of Prey
+
+On=@Create
+NPC=BrainDragon
+Color=
+
+OStr=1
+ODex=1
+OInt=1
+
+
+[CharDef 0579]	// ANIMAL		10000	# Turanchula_Mount
+DefName=cTuranchula
+Name=turanchula
+Can=CanWalk|CanNonHuman
+
+Category=Test
+Subsection=Arachnids
+Description=Turanchula (Not showing up currently)
+
+On=@Create
+NPC=BrainAnimal
+
+OStr=1
+ODex=1
+OInt=1
+
+
+[CharDef 057D]
+DefName=cDrSpector
+Name=Dr. Spector
+Can=CanWalk|CanMale|CanUseHands|CanEquip
+
+Category=Test
+Subsection=Miscellaneous
+Description=Dr. Spector
+
+On=@Create
+NPC=BrainHuman
+
+OStr=1
+ODex=1
+OInt=1
+
+
+[EOF]

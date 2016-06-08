@@ -1,6 +1,7 @@
-[Function PetHatred]
-If <Src.IsPet>
- ArgN1 *= 3
+// set as a percentange increase (To fit EA system handling)
+[Function IncreasePetDamage]
+If (<Src.IsPet>) && (<ArgN>)
+ ArgN1=<MulDiv <ArgN1>,<ArgN>,100>
 EndIf
 
 

@@ -1,0 +1,21 @@
+[ItemDef 0FA0]
+DefName=iSpoolOfThread
+Name=spool%s of thread
+NameLoc=1024000
+Type=tThread
+Can=CanIFlip|CanIDye|CanIStack
+Height=1
+Weight=1
+Resources=1 iBaleOfCotton
+DupeList=0fA1
+
+Category=Resources
+Subsection=Tailoring
+Description=Spool of Thread
+
+[ItemDef 0FA1]
+NameLoc=1024001
+DupeItem=0FA0
+
+
+[EOF]

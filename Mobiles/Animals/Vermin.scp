@@ -1,0 +1,549 @@
+// Rat
+// Fishermans Reach, Kepetch Waste
+[CharDef 0EE]
+DefName=cRat
+Name=rat
+Can=CanWalk
+MoveRate=100
+Dam=1,2
+DamPhysical=100
+Resources=1 iCutOfRawRibs
+FoodType=tFish
+Icon=iRatIcon
+Sound=sndRat1
+Aversions=
+Desires=
+BloodColor=0
+
+Category=Animals
+Subsection=Vermin
+Description=Rat
+
+On=@Create
+NPC=BrainAnimal
+FollowerSlots=1
+MaxFood=35
+
+Fame=150
+Karma=-150
+FightMode=Neutral
+
+ResPhysical=5,10
+ResPoison=5,10
+
+OStr=9
+ODex=35
+OInt=5
+MaxHits=6
+MaxMana=0
+
+Wrestling=40
+Tactics=40
+MagicResistance=40
+Taming=9		// -
+
+On=@NPCRestock
+NewGold={25 50}
+
+
+// Sewer Rat
+// Bog of Desolation, Britain Sewers, Central Ilshenar Swamp, Destard Swamps
+// Hoppers Bog, Lavapit PyramID, Nox Tereg, Yew Swamp
+[CharDef cSewerRat]
+ID=cRat
+Name=sewer rat
+Dam=1,2
+DamPhysical=100
+Resources=1 iCutOfRawRibs
+FoodType=tFish
+
+Category=Animals
+Subsection=Vermin
+Description=Sewer Rat
+
+On=@Create
+NPC=BrainAnimal
+FollowerSlots=1
+MaxFood=35
+
+Fame=300
+Karma=-300
+FightMode=Neutral
+
+ResPhysical=5,10
+ResPoison=15,25
+ResEnergy=5,10
+
+OStr=9
+ODex=25
+OInt={6 10}
+MaxHits=6
+MaxMana=0
+
+Wrestling=50
+Tactics=50
+MagicResistance=50
+Taming=9		// -
+
+On=@NPCRestock
+NewGold={25 50}
+
+
+// Prison Rat
+// Wrong Level 2
+[CharDef cPrisonRat]
+ID=cRat
+Name=prison rat
+Dam=5,8
+DamPhysical=100
+
+Category=Animals
+Subsection=Vermin
+Description=Prison Rat
+
+On=@Create
+NPC=BrainAnimal
+MaxFood=35
+
+Fame=150
+Karma=-150
+FightMode=Neutral
+
+// credits=1
+
+ResPhysical=5,15
+ResPoison=15,25
+ResEnergy=5,15
+
+OStr=9
+ODex=25
+OInt=7
+MaxHits=50
+MaxMana=0
+
+Wrestling={100 200}
+Tactics={100 200}
+MagicResistance={100 200}
+
+On=@NPCRestock
+NewGold={25 50}
+
+
+// Giant Rat
+// Vermin Horde Champion Spawn, Central Ilshenar Swamp, Crane Marsh, Destard Swamps
+// Fens of the Dead, Fire Level 1, Forgotten PyramID, Grimswind Ruins, Hoppers Bog
+// Orc Cave Level 2, Painted Caves, Valor FoRest, Waterfall POInt
+[CharDef 0D7]
+DefName=cGiantRat
+Name=giant rat
+Can=CanWalk
+MoveRate=100
+Dam=4,8
+DamPhysical=100
+Resources=1 iCutOfRawRibs, 6 iPilesOfHides
+FoodType=tFish
+Icon=iGiantRatIcon
+Sound=sndGiantRat1
+Aversions=
+Desires=
+BloodColor=0
+
+Category=Animals
+Subsection=Vermin
+Description=Giant Rat
+
+On=@Create
+NPC=BrainAnimal
+FollowerSlots=1
+MaxFood=35
+
+Fame=300
+Karma=-300
+FightMode=Neutral
+
+ResPhysical=15,20
+ResFire=5,10
+ResPoison=25,35
+
+OStr={32 74}
+ODex={46 65}
+OInt={16 30}
+MaxHits={26 39}
+MaxMana=0
+
+Wrestling={293 440}
+Tactics={293 440}
+MagicResistance={251 300}
+Taming=291		// -
+
+On=@NPCRestock
+NewGold={25 50}
+
+
+// Squirrel
+// Labyrinth
+[CharDef 0116]
+DefName=cSquirrel
+Name=squirrel
+Can=CanWalk|CanNonHuman
+MoveRate=100
+Dam=1,2
+DamPhysical=100
+Resources=1 iCutOfRawRibs
+FoodType=tFish
+Icon=iSquirrelIcon
+Sound=sndSquirrel1
+Aversions=
+Desires=
+BloodColor=0
+
+Category=Animals
+Subsection=Vermin
+Description=Squirrel
+
+On=@Create
+NPC=BrainAnimal
+FollowerSlots=1
+MaxFood=35
+
+Fame=150
+Karma=-150
+FightMode=Neutral
+
+ResPhysical=5,10
+ResPoison=5,10
+
+OStr=9
+ODex=35
+OInt=5
+MaxHits=6
+MaxMana=0
+
+Wrestling=40
+Tactics=40
+MagicResistance=40
+Taming=9		// -
+
+On=@NPCRestock
+NewGold={25 50}
+
+
+// Albino Squirrel
+// Peerless Reward
+// Auto Bonds
+[CharDef cAlbinoSquirrel]
+ID=cSquirrel
+Name=albino squirrel
+Dam=1,2
+DamPhysical=100
+Resources=1 iCutOfRawRibs
+
+Category=Animals
+Subsection=Vermin
+Description=Albino Squirrel
+
+On=@Create
+NPC=BrainAnimal
+Color=0481
+FollowerSlots=1
+MaxFood=35
+
+Fame=150
+Karma=-150
+FightMode=Neutral
+
+ResPhysical=5,10
+ResPoison=5,10
+
+OStr=9
+ODex=35
+OInt=5
+MaxHits=6
+MaxMana=0
+
+Wrestling=40
+Tactics=40
+MagicResistance=40
+Taming=-09
+
+On=@NPCRestock
+NewGold={25 50}
+
+
+// Ferret
+// Prism of Light
+[CharDef 0117]
+DefName=cFerret
+Name=ferret
+Can=CanWalk
+MoveRate=100
+Dam=7,9
+DamPhysical=100
+Resources=1 iCutOfRawRibs
+FoodType=tFish
+Icon=iFerretIcon
+Sound=sndFerret1
+Aversions=
+Desires=
+BloodColor=0
+
+Category=Animals
+Subsection=Vermin
+Description=Ferret
+
+On=@Create
+NPC=BrainAnimal
+FollowerSlots=1
+MaxFood=35
+
+Fame=150
+Karma=-150
+FightMode=Neutral
+
+ResPhysical=45,50
+ResFire=10,15
+ResCold=35,40
+ResPoison=20,25
+ResEnergy=20,25
+
+OStr={40 50}
+ODex=55
+OInt=75
+
+Wrestling={36 40}
+Tactics={36 40}
+MagicResistance={36 40}
+Taming=291
+// Taming=-0.9
+
+On=SeeNewChar
+ForXhars 5
+ If (<BaseID> == cFerret)
+  DoRand 2
+   Say @,,2 1114425		// dook
+   Say @,,2 1114426		// dook dook
+   Say @,,2 1114427		// dook dook dook!
+  EndDo
+ EndIf
+EndFor
+
+On=@NPCRestock
+NewGold={25 50}
+
+
+// Rabbit
+// City ResIDential, Farms, FoRests, Lavapit PyramID, Northern Steppes, 
+// Royal Park, SpIDers Guarde
+[CharDef 0CD]
+DefName=cRabbit
+Name=rabbit
+Can=CanWalk|CanNonHuman
+MoveRate=100
+Dam=1,1
+DamPhysical=100
+Resources=1 iCutOfRawRibs,1 iPilesOfHides
+FoodType=tFruit,tVegetable
+Icon=iRabbitIcon
+Sound=sndRabbit1
+Aversions=
+Desires=
+BloodColor=0
+
+Category=Animals
+Subsection=Vermin
+Description=Rabbit
+
+On=@Create
+NPC=BrainAnimal
+FollowerSlots=1
+MaxFood=35
+
+Fame=150
+Karma=-150
+FightMode=Neutral
+
+ResPhysical=5,10
+
+OStr={6 10}
+ODex={26 38}
+OInt={6 14}
+MaxHits={4 6}
+MaxMana=0
+
+Wrestling=50
+Tactics=50
+MagicResistance=50
+Taming=189		// -
+
+
+// Jack Rabbit
+// City ResIDential, Farms, FoRests, Royal Park
+[CharDef cJackRabbit]
+ID=cRabbit
+Name=jack rabbit
+Dam=1,2
+DamPhysical=100
+
+Category=Animals
+Subsection=Vermin
+Description=Jack Rabbit
+
+On=@Create
+NPC=BrainAnimal
+FollowerSlots=1
+MaxFood=35
+
+Fame=150
+Karma=-150
+FightMode=Neutral
+
+ResPhysical=2,5
+
+OStr=15
+ODex=25
+OInt=5
+MaxHits=9
+MaxMana=0
+
+Wrestling=50
+Tactics=50
+MagicResistance=50
+Taming=-189
+
+
+// Fire Rabbit
+// Mount Sho
+[CharDef cFireRabbit]
+ID=cRabbit
+Name=fire rabbit
+Dam=10,15
+DamFire=100
+// burrows into a mysterious hole after a bit or low health
+//  Fire aura
+
+Category=Animals
+Subsection=Vermin
+Description=Fire Rabbit
+
+On=@Create
+NPC=BrainAnimal
+Color=FireHue
+MaxFood=35
+
+Fame=1000
+Karma=1000
+FightMode=Neutral
+
+ResPhysical=45,50
+ResFire=100
+ResCold=40
+ResPoison=45,50
+ResEnergy=45,50
+
+OStr=130
+ODex=4500
+OInt=2500
+MaxHits=2500
+MaxStam=1500
+MaxMana=1500
+
+Wrestling=800
+Tactics=0
+MagicResistance=2000
+
+On=@NPCRestock
+NewGold={800 900}	// 740 - 975 (UOGuIDe)
+
+On=@DeathCorpse
+NewItem=iCarrot
+NewItem=iAnimalPheremone
+// MagicItems
+
+On=@BardEffect
+If (<ArgN> > 1)
+ Return 1
+EndIf
+
+On=@Hit
+If (<Src.Flags> &StatFConjured)
+ If (<R1,100> < 30)
+  Src.SpellEffect sDispel,1000
+ EndIf
+EndIf
+
+On=@GetHit
+If (<Src.Flags> &StatFConjured)
+ If (<R1,100> < 30)
+  Src.SpellEffect sDispel,1000
+ EndIf
+EndIf
+
+
+// Vorpal Bunny
+// comes up from a field when a green thorn is planted
+[CharDef cVorpalBunny]
+ID=cRabbit
+Name=vorpal bnny
+Dam=1,1
+DamPhysical=100
+tevents=// burrows into a mysterious hole after a bit or low health
+// Cannot provoke, Cannot be peaced
+
+Category=Animals
+Subsection=Vermin
+Description=Vorpal Bunny
+
+On=@Create
+NPC=BrainAnimal
+Color=0480
+MaxFood=35
+
+Fame=1000
+Karma=1000
+FightMode=Neutral
+
+ResPhysical=0
+ResFire=0
+ResCold=0
+ResPoison=0
+ResEnergy=0
+
+OStr=15
+ODex=2000
+OInt=1000
+MaxHits=2000
+MaxStam=500
+MaxMana=0
+
+Wrestling=50
+Tactics=50
+MagicResistance=2000
+
+On=@NPCRestock
+NewGold={1100 1250}	// 740 - 975 (UOGuIDe)
+//NewItem=magic items
+NewItem=iCarrot,{5 10}
+NewItem=RandomStatue,1
+NewItem=RandomColoredEggs,1
+
+On=@BardEffect
+If (<ArgN1> > 1)
+ Return 1
+EndIf
+
+On=@Hit
+If (<Src.Flags> &StatFConjured)
+ If (<R1,100> < 30)
+  Src.SpellEffect sDispel,1000
+ EndIf
+EndIf
+
+On=@GetHit
+If (<Src.Flags> &StatFConjured)
+ If (<R1,100> < 30)
+  Src.SpellEffect sDispel,1000
+ EndIf
+EndIf
+
+
+[EOF]

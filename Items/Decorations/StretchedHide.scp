@@ -1,0 +1,136 @@
+[ItemDef 01069]
+DefName=iStretchedHide1
+Name=stretched hide
+NameLoc=1024201
+Type=tNormal
+Can=CanIFlip
+Height=12
+Weight=255
+DupeList=0107A
+
+Category=Decorations
+Subsection=Tailoring
+Description=Stretched Hide 1
+
+[ItemDef 0107A]
+NameLoc=1024218
+DupeItem=01069
+
+
+[ItemDef 0106A]
+DefName=iStretchedHide2
+Name=stretched hide
+NameLoc=1024202
+Type=tNormal
+Can=CanIFlip
+Height=12
+Weight=255
+DupeList=0107B
+
+Category=Decorations
+Subsection=Tailoring
+Description=Stretched Hide 2
+
+[ItemDef 0107B]
+NameLoc=1024219
+DupeItem=0106A
+
+
+[ItemDef 0106B]
+DefName=iStretchedHide3
+Name=stretched hide
+NameLoc=1024203
+Type=tNormal
+Can=CanIFlip
+Height=12
+Weight=255
+DupeList=0107C
+
+Category=Decorations
+Subsection=Tailoring
+Description=Stretched Hide 3
+
+[ItemDef 0107C]
+NameLoc=1024220
+DupeItem=0106B
+
+
+[ItemDef 0106C]
+DefName=iStretchedHide4E
+Name=stretched hide
+NameLoc=1024204
+Type=tNormal
+Can=CanIFlip
+Height=12
+Weight=255
+DupeItem=0106D
+
+Category=Decorations
+Subsection=Tailoring
+Description=Stretched Hide 4 (East)
+
+[ItemDef 0106D]
+NameLoc=1024205
+DupeItem=0106C
+
+
+[ItemDef 0107D]
+DefName=iStretchedHide4S
+Name=stretched hide
+NameLoc=1024221
+Type=tNormal
+Can=CanIFlip
+Height=12
+Weight=255
+DupeItem=0107E
+
+Category=Decorations
+Subsection=Tailoring
+Description=Stretched Hide 4 (South)
+
+[ItemDef 0107E]
+NameLoc=1024222
+DupeItem=0107D
+
+
+
+[ItemDef 0106E]
+DefName=iStretchedHide5E
+Name=stretched hide
+NameLoc=1024206
+Type=tNormal
+Can=CanIFlip
+Height=12
+Weight=255
+DupeItem=0106F
+
+Category=Decorations
+Subsection=Tailoring
+Description=Stretched Hide 5 (East)
+
+[ItemDef 0106F]
+NameLoc=1024207
+DupeItem=0106E
+
+
+[ItemDef 0107F]
+DefName=iStretchedHide5S
+Name=stretched hide
+NameLoc=1024223
+Type=tNormal
+Can=CanIFlip
+Height=12
+Weight=255
+DupeItem=01080
+
+Category=Decorations
+Subsection=Tailoring
+Description=Stretched Hide 5 (South)
+
+[ItemDef 01080]
+NameLoc=1024224
+DupeItem=0107F
+
+
+
+[EOF]

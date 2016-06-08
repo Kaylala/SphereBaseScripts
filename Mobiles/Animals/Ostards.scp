@@ -4,7 +4,8 @@ Name=desert ostard
 Can=CanWalk|CanNonHuman
 MoveRate=100
 Dam=5,11	// 8,18 UOG
-Icon=DesertOstardIcon
+DamPhysical=100
+Icon=iDesertOstardIcon
 Sound=sndDesertOstard1
 Resources=3 iCutOfRawRibs
 FoodType=tFruit,tVegetable
@@ -24,9 +25,7 @@ MaxFood=35
 
 Fame=450
 Karma=0
-Alignment=Neutral
-
-DamPhysical=100
+FightMode=Neutral
 
 ResPhysical=15,20
 ResFire=5,15
@@ -50,7 +49,8 @@ Name=forest ostard
 Can=CanWalk|CanNonHuman
 MoveRate=100
 Dam=8,14
-Icon=ForestOstardIcon
+DamPhysical=100
+Icon=iForestOstardIcon
 Sound=sndFrenziedOstard1
 Resources=3 iCutOfRawRibs
 FoodType=tFruit,tVegetable
@@ -71,9 +71,7 @@ MaxFood=35
 
 Fame=450
 Karma=0
-Alignment=Neutral
-
-DamPhysical=100
+FightMode=Neutral
 
 ResPhysical=15,20
 
@@ -96,7 +94,8 @@ Name=frenzied ostard
 Can=CanWalk|CanNonHuman
 MoveRate=100
 Dam=11,17
-Icon=FrenziedOstardIcon
+DamPhysical=100
+Icon=iFrenziedOstardIcon
 Sound=sndFrenziedOstard1
 Resources=3 iCutOfRawRibs
 FoodType=tRawMeat,tMeat
@@ -117,9 +116,7 @@ MaxFood=35
 
 Fame=1500
 Karma=-1500
-Alignment=Evil
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=25,30
 ResFire=10,15

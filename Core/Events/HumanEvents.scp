@@ -1,28 +1,17 @@
-//****************************************************************************
-// SPHERE by : Menasoft ©1997-2007
-// www.sphereserver.net
-// All SPHERE script files and formats are copyright Menasoft & Partners.
-// This file may be freely edited for personal use, but may not be distributed
-// in whole or in part, in any format without express written permission from
-// Menasoft & Partners.  All donations and contributions
-// become the property of Menasoft & Partners.
-//****************************************************************************
-// FILE LAST UPDATED: Sunday, October 6, 2013
-//
 VERSION=0.56c
 
 [Comment Notes]
-eHumanEnvironmentChange -> Was HumanEnviron
-eHumanHearGreeting -> Was HumanGreet
-eHumanHearUnknown -> Was HumanHearUnk
-eHumanInitializeConversation -> Was HumanConvInit
-eHumanAcceptItem -> Was HumanNeeds
-eHumanPersonalSpace -> Was HumanSpace
-eHumanRefuseItem -> Was Refuse
-eHumanSeeWantItem -> Was Scavenge
+eEnvironmentChange -> Was HumanEnviron
+eHearGreeting -> Was HumanGreet
+eHearUnknown -> Was HumanHearUnk
+eInitializeConversation -> Was HumanConvInit
+eAcceptItem -> Was HumanNeeds
+ePersonalSpace -> Was HumanSpace
+eRefuseItem -> Was Refuse
+eSeeWantItem -> Was Scavenge
 
 
-[EVENTS eHumanEnvironmentChange]
+[EVENTS eEnvironmentChange]
 ON=@EnvironChange
 	if <flags>&statf_war 
 		return 0
@@ -48,7 +37,7 @@ ON=@EnvironChange
 	endif
 	return 0
 
-[EVENTS eHumanHearGreeting]
+[EVENTS eHearGreeting]
 ON=@NPCHearGreeting
 	// They just spoke to me for the first time.
 	IF ( <SRC.FAME.INFAMOUS> || <SRC.FAME.OUTLAW> )
@@ -229,7 +218,7 @@ ON=@NPCHearGreeting
 		endif
 	endif
 
-[EVENTS eHumanHearUnknown]
+[EVENTS eHearUnknown]
 
 ON=@NPCHearUnknown
 	// Sorry I don't understand.
@@ -747,7 +736,7 @@ ON=@NPCHearUnknown
 	endif
 	//SAY=Uhhh, sorry I have not a clue what you mean.
 
-[EVENTS eHumanInitializeConversation]
+[EVENTS eInitializeConversation]
 
 ON=@NPCSeeNewPlayer
 	// When a new person comes into range do something (attack them?)
@@ -852,7 +841,7 @@ ON=@NPCSeeNewPlayer
 	endif
 	RETURN 0	// don't come here again.
 
-[EVENTS eHumanPersonalSpace]
+[EVENTS ePersonalSpace]
 
 ON=@PersonalSpace
 	// Someone is standing on me.
@@ -1017,7 +1006,7 @@ ON=@PersonalSpace
 		endif
 	endif
 
-[EVENTS eHumanAcceptItem]
+[EVENTS eAcceptItem]
 // Notes:  This is called whenever an item is given to an NPC
 
 ON=@NPCAcceptItem
@@ -1154,7 +1143,7 @@ ON=@NPCAcceptItem
 		endif
 	endif
 
-[EVENTS eHumanSeeWantItem]
+[EVENTS eSeeWantItem]
 
 ON=@npcSeeWantItem
 	IF ((<KARMA.WICKED>) || (<KARMA.BELLIGERANT>))
@@ -1243,7 +1232,7 @@ ON=@npcSeeWantItem
 	endif
 	return 1
 
-[EVENTS eHumanRefuseItem]
+[EVENTS eRefuseItem]
 ON=@NPCRefuseItem
 	// I got something I don't want.
 	SAY Thou art giving me <argo.name>?

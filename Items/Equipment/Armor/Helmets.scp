@@ -13,18 +13,18 @@ Resources=15 iIronIngot
 Material=tIngot
 DupeList=01409
 
+ResPhysical=3
+ResFire=3
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
 Category=Equipment
 Subsection=Armor: Helmets
 Description=Close Helmet
 
 On=@Create
 HitPoints={36 48}
-
-ResPhysical=3
-ResFire=3
-ResCold=3
-ResPoison=3
-ResEnergy=3
 
 [ItemDef 01409]
 NameLoc=1025129
@@ -46,18 +46,18 @@ Resources=15 iIronIngot
 Material=tIngot
 DupeList=0140b
 
+ResPhysical=2
+ResFire=4
+ResCold=4
+ResPoison=3
+ResEnergy=2
+
 Category=Equipment
 Subsection=Armor: Helmets
 Description=Helmet
 
 On=@Create
 HitPoints={36 48}
-
-ResPhysical=2
-ResFire=4
-ResCold=4
-ResPoison=3
-ResEnergy=2
 
 [ItemDef 0140b]
 NameLoc=1025131
@@ -79,18 +79,18 @@ Resources=15 iIronIngot
 Material=tIngot
 DupeList=0140d
 
+ResPhysical=2
+ResFire=2
+ResCold=2
+ResPoison=2
+ResEnergy=2
+
 Category=Equipment
 Subsection=Armor: Helmets
 Description=Bascinet
 
 On=@Create
 HitPoints={36 48}
-
-ResPhysical=2
-ResFire=2
-ResCold=2
-ResPoison=2
-ResEnergy=2
 
 [ItemDef 0140d]
 NameLoc=1025133
@@ -112,18 +112,18 @@ Resources=15 iIronIngot
 Material=tIngot
 DupeList=0140f
 
+ResPhysical=4
+ResFire=1
+ResCold=4
+ResPoison=4
+ResEnergy=2
+
 Category=Equipment
 Subsection=Armor: Helmets
 Description=Norse Helm
 
 On=@Create
 HitPoints={36 48}
-
-ResPhysical=4
-ResFire=1
-ResCold=4
-ResPoison=4
-ResEnergy=2
 
 [ItemDef 0140f]
 NameLoc=1025135
@@ -145,18 +145,18 @@ Resources=6 iPlainLeather,4 iBone
 Material=tLeather,iBone
 DupeList=01f0c
 
+ResPhysical=3
+ResFire=1
+ResCold=3
+ResPoison=3
+ResEnergy=5
+
 Category=Equipment
 Subsection=Armor: Helmets
 Description=Orc Helm
 
 On=@Create
 HitPoints={36 48}
-
-ResPhysical=3
-ResFire=1
-ResCold=3
-ResPoison=3
-ResEnergy=5
 
 [ItemDef 01f0c]
 NameLoc=1027948

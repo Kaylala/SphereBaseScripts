@@ -1,0 +1,27 @@
+[ItemDef 0e1d]
+DefName=iBallOfYarn1
+Name=ball of yarn
+NameLoc=1023613
+Type=tYarn
+Can=CanIDye|CanIStack
+Height=1
+Weight=1
+Resources=1 iPileOfWool
+DupeList=0e1e,0e1f
+
+Category=Resources
+Subsection=Tailoring
+Description=Ball of Yarn
+
+[ItemDef 0e1e]
+DefName=iBallOfYarn2
+NameLoc=1023614
+DupeItem=0e1d
+
+[ItemDef 0e1f]
+DefName=iBallOfYarn3
+NameLoc=1023615
+DupeItem=0e1d
+
+
+[EOF]

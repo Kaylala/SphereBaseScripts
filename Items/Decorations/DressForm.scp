@@ -1,0 +1,19 @@
+[ItemDef 0EC6]
+DefName=iDressForm
+Name=dress form
+NameLoc=1023782
+Can=CanIFlip
+Height=6
+Weight=10
+DupeList=0EC7
+
+Category=Decorations
+Subsection=Tailoring
+Description=Dress Form
+
+[ItemDef 0EC7]
+NameLoc=1023783
+DupeItem=0EC6
+
+
+[EOF]

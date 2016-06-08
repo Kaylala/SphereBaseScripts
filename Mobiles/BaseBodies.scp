@@ -5,12 +5,11 @@ Name=#HumanMaleNames
 Can=CanMale|CanWalk|CanRun|CanUseHands|CanEquip|CanMount
 MoveRate=100
 Dam=1,4
-Tag.Override.Speed=20
+DamPhysical=100
 Icon=iHumanMaleIcon
 Sound=sndHMOomph1
 Resources=1 iCutOfRawRibs
 FoodType=tFood,tFruit,tVegetable,tMeat,tGrain,tDrink
-MaxFood=35
 Aversions=tTrap,tActivatedTrap,rDungeon
 Desires=rCivilization,rFarm,tGem,tGold,tJewelry
 BloodColor=0
@@ -25,27 +24,17 @@ Description=Human Male
 On=@Create
 NPC=BrainHuman
 Color=HumanSkinHues
-MaxFollowers=5
+MaxFood=35
+MaxFollower=5
 
 Fame=0
 Karma=0
-Alignment=Neutral
+FightMode=Neutral
 
-DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
-
-ResPhysical=0
 ResPhysicalMax=70
-ResFire=0
 ResFireMax=70
-ResCold=0
 ResColdMax=70
-ResPoison=0
 ResPoisonMax=70
-ResEnergy=0
 ResEnergyMax=70
 
 OStr=10
@@ -70,12 +59,11 @@ Name=#HumanFemaleNames
 Can=CanFemale|CanWalk|CanRun|CanUseHands|CanEquip|CanMount
 MoveRate=100
 Dam=1,4
-Tag.Override.Speed=20
+DamPhysical=100
 Icon=iHumanFemaleIcon
 Sound=sndHFOomph1
 Resources=1 iCutOfRawRibs
 FoodType=tFood,tFruit,tVegetable,tMeat,tGrain,tDrink
-MaxFood=35
 Aversions=tTrap,tActivatedTrap,rDungeon
 Desires=rCivilization,rFarm,tGem,tGold,tJewelry
 BloodColor=0
@@ -90,27 +78,17 @@ Description=Human Female
 On=@Create
 NPC=BrainHuman
 Color=HumanSkinHues
-MaxFollowers=5
+MaxFood=35
+MaxFollower=5
 
 Fame=0
 Karma=0
-Alignment=Neutral
+FightMode=Neutral
 
-DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
-
-ResPhysical=0
 ResPhysicalMax=70
-ResFire=0
 ResFireMax=70
-ResCold=0
 ResColdMax=70
-ResPoison=0
 ResPoisonMax=70
-ResEnergy=0
 ResEnergyMax=70
 
 OStr=10
@@ -128,12 +106,11 @@ Name=ghost
 Can=CanMale|CanWalk|CanRun|CanUseHands|CanEquip|CanGhost
 MoveRate=100
 Dam=1,4
-Tag.Override.Speed=20
+DamPhysical=100
 Icon=iSpectreIcon
 Sound=sndSpectre1
 Resources=1 iCutOfRawRibs
 FoodType=tFood,tFruit,tVegetable,tMeat,tGrain,tDrink
-MaxFood=35
 Aversions=tDungeon,rGraveyard,tEerieStuff
 Desires=tShrine
 BloodColor=-1
@@ -156,12 +133,11 @@ Name=ghost
 Can=CanFemale|CanWalk|CanRun|CanUseHands|CanEquip|CanGhost
 MoveRate=100
 Dam=1,4
-Tag.Override.Speed=20
+DamPhysical=100
 Icon=iSpectreIcon
 Sound=sndSpectre1
 Resources=1 iCutOfRawRibs
 FoodType=tFood,tFruit,tVegetable,tMeat,tGrain,tDrink
-MaxFood=35
 Aversions=tDungeon,rGraveyard,tEerieStuff
 Desires=tShrine
 BloodColor=-1
@@ -184,12 +160,11 @@ Name=#ElfMaleNames
 Can=CanMale|CanWalk|CanRun|CanUseHands|CanEquip|CanMount
 MoveRate=100
 Dam=1,4
-Tag.Override.Speed=20
+DamPhysical=100
 Icon=iHumanMaleIcon
 Sound=sndHMOomph1
 Resources=1 iCutOfRawRibs
 FoodType=tFood,tFruit,tVegetable,tMeat,tGrain,tDrink
-MaxFood=35
 Aversions=tTrap,tActivatedTrap,rDungeon
 Desires=rCivilization,rFarm,tGem,tGold,tJewelry
 BloodColor=0
@@ -204,27 +179,17 @@ Description=Elf Male
 On=@Create
 NPC=BrainHuman
 Color=ElfSkinHues
-MaxFollowers=5
+MaxFood=35
+MaxFollower=5
 
 Fame=0
 Karma=0
-Alignment=Neutral
+FightMode=Neutral
 
-DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
-
-ResPhysical=0
 ResPhysicalMax=70
-ResFire=0
 ResFireMax=70
-ResCold=0
 ResColdMax=70
-ResPoison=0
 ResPoisonMax=70
-ResEnergy=0
 ResEnergyMax=75
 
 OStr=10
@@ -242,12 +207,11 @@ Name=#ElfFemaleNames
 Can=CanFemale|CanWalk|CanRun|CanUseHands|CanEquip|CanMount
 MoveRate=100
 Dam=1,4
-Tag.Override.Speed=20
+DamPhysical=100
 Icon=iHumanFemaleIcon
 Sound=sndHFOomph1
 Resources=1 iCutOfRawRibs
 FoodType=tFood,tFruit,tVegetable,tMeat,tGrain,tDrink
-MaxFood=35
 Aversions=tTrap,tActivatedTrap,rDungeon
 Desires=rCivilization,rFarm,tGem,tGold,tJewelry
 BloodColor=0
@@ -262,27 +226,17 @@ Description=Elf Female
 On=@Create
 NPC=BrainHuman
 Color=ElfSkinHues
-MaxFollowers=5
+MaxFood-35
+MaxFollower=5
 
 Fame=0
 Karma=0
-Alignment=Neutral
+FightMode=Neutral
 
-DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
-
-ResPhysical=0
 ResPhysicalMax=70
-ResFire=0
 ResFireMax=70
-ResCold=0
 ResColdMax=70
-ResPoison=0
 ResPoisonMax=70
-ResEnergy=0
 ResEnergyMax=75
 
 OStr=10
@@ -300,12 +254,11 @@ Name=ghost
 Can=CanMale|CanWalk|CanRun|CanUseHands|CanEquip|CanGhost
 MoveRate=100
 Dam=1,4
-Tag.Override.Speed=20
+DamPhysical=100
 Icon=iSpectreIcon
 Sound=sndSpectre1
 Resources=1 iCutOfRawRibs
 FoodType=tFood,tFruit,tVegetable,tMeat,tGrain,tDrink
-MaxFood=35
 Aversions=tDungeon,rGraveyard,tEerieStuff
 Desires=tShrine
 BloodColor=-1
@@ -328,12 +281,11 @@ Name=ghost
 Can=CanFemale|CanWalk|CanRun|CanUseHands|CanEquip|CanGhost
 MoveRate=100
 Dam=1,4
-Tag.Override.Speed=20
+DamPhysical=100
 Icon=iSpectreIcon
 Sound=sndSpectre1
 Resources=1 iCutOfRawRibs
 FoodType=tFood,tFruit,tVegetable,tMeat,tGrain,tDrink
-MaxFood=35
 Aversions=tDungeon,rGraveyard,tEerieStuff
 Desires=tShrine
 BloodColor=-1
@@ -356,12 +308,11 @@ Name=#GargoyleMaleNames
 Can=CanMale|CanWalk|CanRun|CanUseHands|CanEquip|CanFly|CanHover
 MoveRate=100
 Dam=1,4
-Tag.Override.Speed=20
+DamPhysical=100
 Icon=iGargoyleMaleIcon
 Sound=sndHMOomph1
 Resources=1 iCutOfRawRibs
 FoodType=tFood,tFruit,tVegetable,tMeat,tGrain,tDrink
-MaxFood=35
 Aversions=tTrap,tActivatedTrap,rDungeon
 Desires=rCivilization,rFarm,tGem,tGold,tJewelry
 BloodColor=0
@@ -376,27 +327,17 @@ Description=Gargoyle Male
 On=@Create
 NPC=BrainHuman
 Color=GargoyleSkinHues
-MaxFollowers=5
+MaxFood=35
+MaxFollower=5
 
 Fame=0
 Karma=0
-Alignment=Neutral
+FightMode=Neutral
 
-DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
-
-ResPhysical=0
 ResPhysicalMax=70
-ResFire=0
 ResFireMax=70
-ResCold=0
 ResColdMax=70
-ResPoison=0
 ResPoisonMax=70
-ResEnergy=0
 ResEnergyMax=70
 
 OStr=10
@@ -419,12 +360,11 @@ Name=#GargoyleFemaleNames
 Can=CanFemale|CanWalk|CanRun|CanUseHands|CanEquip|CanFly|CanHover
 MoveRate=100
 Dam=1,4
-Tag.Override.Speed=20
+DamPhysical=100
 Icon=iGargoyleFemaleIcon
 Sound=sndHFOomph1
 Resources=1 iCutOfRawRibs
 FoodType=tFood,tFruit,tVegetable,tMeat,tGrain,tDrink
-MaxFood=35
 Aversions=tTrap,tActivatedTrap,rDungeon
 Desires=rCivilization,rFarm,tGem,tGold,tJewelry
 BloodColor=0
@@ -439,27 +379,17 @@ Description=Gargoyle Female
 On=@Create
 NPC=BrainHuman
 Color=GargoyleSkinHues
-MaxFollowers=5
+MaxFood=35
+MaxFollower=5
 
 Fame=0
 Karma=0
-Alignment=Neutral
+FightMode=Neutral
 
-DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
-
-ResPhysical=0
 ResPhysicalMax=70
-ResFire=0
 ResFireMax=70
-ResCold=0
 ResColdMax=70
-ResPoison=0
 ResPoisonMax=70
-ResEnergy=0
 ResEnergyMax=70
 
 OStr=10
@@ -482,12 +412,11 @@ Name=ghost
 Can=CanMale|CanWalk|CanRun|CanUseHands|CanEquip|CanGhost|CanFly|CanHover
 MoveRate=100
 Dam=1,4
-Tag.Override.Speed=20
+DamPhysical=100
 Icon=iSpectreIcon
 Sound=sndSpectre1
 Resources=1 iCutOfRawRibs
 FoodType=tFood,tFruit,tVegetable,tMeat,tGrain,tDrink
-MaxFood=35
 Aversions=tDungeon,rGraveyard,tEerieStuff
 Desires=tShrine
 BloodColor=-1
@@ -510,12 +439,11 @@ Name=ghost
 Can=CanFemale|CanWalk|CanRun|CanUseHands|CanEquip|CanGhost|CanFly|CanHover
 MoveRate=100
 Dam=1,4
-Tag.Override.Speed=20
+DamPhysical=100
 Icon=iSpectreIcon
 Sound=sndSpectre1
 Resources=1 iCutOfRawRibs
 FoodType=tFood,tFruit,tVegetable,tMeat,tGrain,tDrink
-MaxFood=35
 Aversions=tDungeon,rGraveyard,tEerieStuff
 Desires=tShrine
 BloodColor=-1
@@ -529,5 +457,199 @@ Description=Gargoyle Female Ghost
 
 On=@Create
 NPC=BrainHuman
+
+
+// Savage Male 1
+[CharDef 0B7]
+DefName=cSavageMale1
+Name=#SavageMaleNames
+Can=CanMale|CanWalk|CanRun|CanUseHands|CanEquip|CanMount
+MoveRate=100
+Dam=1,8
+DamPhysical=100
+Icon=iHumanMaleIcon
+Sound=sndHMOomph1
+Resources=1 iCutOfRawRibs
+FoodType=tFood,tFruit,tVegetable,tMeat,tGrain,tDrink
+Aversions=tTrap
+Desires=rForest,tGold,tGem,tJewelry,tFish
+BloodColor=0
+
+AbilityPrimary=sDisarm
+AbilitySecondary=sParalyzingBlow
+
+Category=Server
+Subsection=Base Bodies
+Description=Savage Male 1
+
+On=@Create
+NPC=BrainHuman
+MaxFood=35
+MaxFollower=5
+
+Fame=0
+Karma=0
+FightMode=Neutral
+
+ResPhysicalMax=70
+ResFireMax=70
+ResColdMax=70
+ResPoisonMax=70
+ResEnergyMax=70
+
+OStr=10
+ODex=10
+OInt=10
+
+Wrestling=100
+Tactics=100
+MagicResistance=100
+Parrying=100
+
+
+// Savage Female 1
+[CharDef 0B8]
+DefName=cSavageFemale1
+Name=#SavageFemaleNames
+Can=CanFemale|CanWalk|CanRun|CanUseHands|CanEquip|CanMount
+MoveRate=100
+Dam=1,8
+DamPhysical=100
+Icon=iHumanFemaleIcon
+Sound=sndHFOomph1
+Resources=1 iCutOfRawRibs
+FoodType=tFood,tFruit,tVegetable,tMeat,tGrain,tDrink
+Aversions=tTrap
+Desires=rForest,tGold,tGem,tJewelry,tFish
+BloodColor=0
+
+AbilityPrimary=sDisarm
+AbilitySecondary=sParalyzingBlow
+
+Category=Server
+Subsection=Base Bodies
+Description=Savage Female 1
+
+On=@Create
+NPC=BrainHuman
+MaxFood=35
+MaxFollower=5
+
+Fame=0
+Karma=0
+FightMode=Neutral
+
+ResPhysicalMax=70
+ResFireMax=70
+ResColdMax=70
+ResPoisonMax=70
+ResEnergyMax=70
+
+OStr=10
+ODex=10
+OInt=10
+
+Wrestling=100
+Tactics=100
+MagicResistance=100
+Parrying=100
+
+
+// Savage Male 2
+[CharDef 0B9]
+DefName=cSavageMale2
+Name=#SavageMaleNames
+Can=CanMale|CanWalk|CanRun|CanUseHands|CanEquip|CanMount
+MoveRate=100
+Dam=1,8
+DamPhysical=100
+Icon=iHumanMaleIcon
+Sound=sndHMOomph1
+Resources=1 iCutOfRawRibs
+FoodType=tFood,tFruit,tVegetable,tMeat,tGrain,tDrink
+Aversions=tTrap
+Desires=rForest,tGold,tGem,tJewelry,tFish
+BloodColor=0
+Events=AISavageWarrior
+
+AbilityPrimary=sDisarm
+AbilitySecondary=sParalyzingBlow
+
+Category=Server
+Subsection=Base Bodies
+Description=Savage Male 2
+
+On=@Create
+NPC=BrainHuman
+MaxFood=35
+MaxFollower=5
+
+Fame=0
+Karma=0
+FightMode=Neutral
+
+ResPhysicalMax=70
+ResFireMax=70
+ResColdMax=70
+ResPoisonMax=70
+ResEnergyMax=70
+
+OStr=10
+ODex=10
+OInt=10
+
+Wrestling=100
+Tactics=100
+MagicResistance=100
+Parrying=100
+
+
+// Savage Female 2
+[CharDef 0BA]
+DefName=cSavageFemale2
+Name=#SavageFemaleNames
+Can=CanFemale|CanWalk|CanRun|CanUseHands|CanEquip|CanMount
+MoveRate=100
+Dam=1,8
+DamPhysical=100
+Icon=iHumanFemaleIcon
+Sound=sndHFOomph1
+Resources=1 iCutOfRawRibs
+FoodType=tFood,tFruit,tVegetable,tMeat,tGrain,tDrink
+Aversions=tTrap
+Desires=rForest,tGold,tGem,tJewelry,tFish
+BloodColor=0
+
+AbilityPrimary=sDisarm
+AbilitySecondary=sParalyzingBlow
+
+Category=Server
+Subsection=Base Bodies
+Description=Savage Female 2
+
+On=@Create
+NPC=BrainHuman
+MaxFood=35
+MaxFollower=5
+
+Fame=0
+Karma=0
+FightMode=Neutral
+
+ResPhysicalMax=70
+ResFireMax=70
+ResColdMax=70
+ResPoisonMax=70
+ResEnergyMax=70
+
+OStr=10
+ODex=10
+OInt=10
+
+Wrestling=100
+Tactics=100
+MagicResistance=100
+Parrying=100
+
 
 [EOF]

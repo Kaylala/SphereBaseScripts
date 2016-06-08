@@ -4,11 +4,11 @@ Name=harpy
 Can=CanNonHum|CanWalk|CanFly
 MoveRate=100
 Dam=5,7
+DamPhysical=100
 Icon=iHarpyIcon
 Sound=sndHarpy1
 Resources=50 iFeather,4 iRawBird
 FoodType=tRawMeat
-MaxFood=35
 Aversions=tTrap,rCivilization
 Desires=tGold,tGem
 BloodColor=0
@@ -20,12 +20,11 @@ Description=Harpy
 
 On=@Create
 NPC=BrainMonster
+MaxFood=35
 
 Fame=2500
 Karma=-2500
-Alignment=Evil
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=25,30
 ResFire=10,20
@@ -53,11 +52,11 @@ Name=stone harpy
 Can=CanNonHum|CanWalk|CanFly
 MoveRate=100
 Dam=8,16
+DamPhysical=100
 Icon=iStoneHarpyIcon
 Sound=sndHarpy1
 Resources=50 iFeather,4 iRawBird
 FoodType=tRawMeat
-MaxFood=35
 Aversions=tTrap,rCivilization
 Desires=tGold,tGem
 BloodColor=0
@@ -69,12 +68,11 @@ Description=Stone Harpy
 
 On=@Create
 NPC=BrainMonster
+MaxFood=35
 
 Fame=4500
 Karma=-4500
-Alignment=Evil
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=45,55
 ResFire=20,30
@@ -103,11 +101,12 @@ Name=phoenix
 Can=CanNonHum|CanWalk|CanFly|CanUseHands
 MoveRate=100
 Dam=25
+DamPhysical=50
+DamFire=50
 Icon=iPhoenixIcon
 Sound=sndEagle1
 Resources=36 iFeather,1 iRawBird
 FoodType=tRawMeat
-MaxFood=35
 Aversions=rCivilization
 Desires=tMeat
 BloodColor=0
@@ -119,14 +118,12 @@ DescriptiOn=Phoenix
 
 On=@Create
 NPC=BrainMonster
+MaxFood=35
 SlayerSuper=BirdSlayer|FlameSlayer
 
 Fame=15000
 Karma=-15000
-Alignment=Evil
-
-DamPhysical=50
-DamFire=50
+FightMode=Evil
 
 ResPhysical=45,55
 ResFire=60,70
@@ -160,17 +157,11 @@ NewGold={800 900}
 [CharDef cGreaterPhoenix]
 ID=cPhoenix
 Name=greater phoenix
-Can=CanNonHum|CanWalk|CanFly|CanUseHands
-MoveRate=100
 Dam=11,14
+DamPhysical=40
+DamFire=60
 Icon=iGreaterPhoenixIcon
-Sound=sndEagle1
 Resources=36 iFeather,1 iRawBird
-FoodType=tRawMeat
-MaxFood=35
-Aversions=rCivilization
-Desires=tRawMeat
-BloodColor=0
 
 Category=Monsters
 SubsectiOn=Avians
@@ -178,14 +169,12 @@ DescriptiOn=Greater Phoenix
 
 On=@Create
 NPC=BrainMonster
+MaxFood=35
 SlayerSuper=EodonSlayer|BirdSlayer|FlameSlayer
 
 Fame=10000
 Karma=-10000
-Alignment=Evil
-
-DamPhysical=40
-DamFire=60
+FightMode=Evil
 
 ResPhysical=45,55
 ResFire=70,80

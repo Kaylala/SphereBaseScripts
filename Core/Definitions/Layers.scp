@@ -62,13 +62,13 @@ layer_flag_bandage				53   // bandages go here for healing
 layerAuction					54   // layer for script purposes to equip container on character (like auction system)
 
 //Necromancy
-LAYER_SPELL_Blood_Oath		55
-LAYER_SPELL_Curse_Weapon	56
-LAYER_SPELL_Corpse_Skin		57
-LAYER_SPELL_Evil_Omen		58
-LAYER_SPELL_Pain_Spike		59
-LAYER_SPELL_Mind_Rot		60
-LAYER_SPELL_Strangle		61
+LAYER_SPELL_Blood_Oath			55
+LAYER_SPELL_Curse_Weapon		56
+LAYER_SPELL_Corpse_Skin			57
+LAYER_SPELL_Evil_Omen			58
+LAYER_SPELL_Pain_Spike			59
+LAYER_SPELL_Mind_Rot			60
+LAYER_SPELL_Strangle			61
 
 //Chivalry
 LAYER_SPELL_Consecrate_Weapon	62
@@ -78,23 +78,28 @@ LAYER_SPELL_Enemy_Of_One		64
 //SpellWeaving
 LAYER_SPELL_Attunement			65
 LAYER_SPELL_Gift_Of_Renewal		66
-LAYER_SPELL_Immolating_Weapon		67
+LAYER_SPELL_Immolating_Weapon	67
 LAYER_SPELL_Thunderstorm		68
-LAYER_SPELL_Arcane_Empowerment		69
+LAYER_SPELL_Arcane_Empowerment	69
 LAYER_SPELL_Ethereal_Voyage		70
 LAYER_SPELL_Gift_Of_Life		71
 LAYER_SPELL_Dryad_Allure		72
 LAYER_SPELL_Essence_Of_Wind		73
 
 //Mysticism
-LAYER_SPELL_Sleep			74
-LAYER_SPELL_Bombard			75
+LAYER_SPELL_Sleep				74
+LAYER_SPELL_Bombard				75
 LAYER_SPELL_Spell_Plague		76
 LAYER_SPELL_Nether_Cyclone		77
 
-LayerMovingCrate		118 // Housing: Moving Crate Layer.
-LayerBossLoot			119 // Boss Loot Layer (DClick on Corpse gives you a split loot, cycled back after 2 minutes of looting time for all to grab).
-LayerWallSafe			120 // Wall Safe Layer.
+//Ninjitsu
+LayerSpellAnimalForm			78
+
+LayerFlagDisguise
+LayerDeathPack					117
+LayerMovingCrate				118 // Housing: Moving Crate Layer.
+LayerBossLoot					119 // Boss Loot Layer (DClick on Corpse gives you a split loot, cycled back after 2 minutes of looting time for all to grab).
+LayerWallSafe					120 // Wall Safe Layer.
 
 
 [EOF]

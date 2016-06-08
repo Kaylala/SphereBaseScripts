@@ -2,6 +2,7 @@
 [ItemDef 01451]
 DefName=iBoneHelmet
 Name=bone helmet
+NameLoc=1025201		// bone helmet
 Type=tBoneArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
 CanUse=CanUHuman|CanUElf
@@ -28,6 +29,7 @@ On=@Create
 HitPoints={36 48}
 
 [ItemDef 01456]
+NameLoc=1025206		// bone helmet
 DupeItem=01451
 
 
@@ -35,6 +37,7 @@ DupeItem=01451
 [ItemDef 01450]
 DefName=iBoneGloves
 Name=bone gloves
+NameLoc=1025200		// bone gloves
 Type=tBoneArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
 CanUse=CanUHuman|CanUElf
@@ -61,6 +64,7 @@ On=@Create
 HitPoints={36 48}
 
 [ItemDef 01455]
+NameLoc=1025205		// bone gloves
 DupeItem=01450
 
 
@@ -68,6 +72,7 @@ DupeItem=01450
 [ItemDef 0144E]
 DefName=iBoneArms
 Name=bone arms
+NameLoc=1025198		// bone arms
 Type=tBoneArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
 CanUse=CanUHuman|CanUElf
@@ -94,6 +99,7 @@ On=@Create
 HitPoints={36 48}
 
 [ItemDef 01453]
+NameLoc=1025203		// bone arms
 DupeItem=0144E
 
 
@@ -101,6 +107,7 @@ DupeItem=0144E
 [ItemDef 01452]
 DefName=iBoneLeggings
 Name=bone leggings
+NameLoc=1025202		// bone leggings
 Type=tBoneArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
 CanUse=CanUHuman|CanUElf
@@ -127,12 +134,15 @@ On=@Create
 HitPoints={36 48}
 
 [ItemDef 01457]
+NameLoc=1025207		// bone leggings
 DupeItem=01452
+
 
 // Bone Armor
 [ItemDef 0144F]
 DefName=iBoneArmor
 Name=bone armor
+NameLoc=1025199		// bone armor
 Type=tBoneArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
 CanUse=CanUHuman|CanUElf
@@ -159,6 +169,7 @@ On=@Create
 HitPoints={36 48}
 
 [ItemDef 01454]
+NameLoc=1025204		// bone armor
 DupeItem=0144F
 
 

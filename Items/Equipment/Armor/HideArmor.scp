@@ -2,9 +2,11 @@
 [ItemDef 02B74]
 DefName=iHideTunic1
 Name=hide tunic
+NameLoc=1031124		// hide tunic
 Type=tHideArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
 CanUse=CanUElf
+Height=1
 Weight=6
 ReqStr=25
 SkillMake=Tailoring 850
@@ -13,18 +15,18 @@ Material=tLeather
 AlterItem=0
 DupeList=0316B
 
+ResPhysical=3
+ResFire=3
+ResCold=4
+ResPoison=3
+ResEnergy=2
+
 Category=Equipment
 Subsection=Armor: Hide Armor
 Description=Hide Tunic
 
 On=@Create
 HitPoints={36 48}
-
-ResPhysical=3
-ResFire=3
-ResCold=4
-ResPoison=3
-ResEnergy=2
 
 [ItemDef 0316B]
 DupeItem=02B74
@@ -34,9 +36,12 @@ DupeItem=02B74
 [ItemDef 02B79]
 DefName=iHideTunic2
 Name=hide tunic
+NameLoc=1031124		// hide tunic
+//NameLoc=1031129		// Female Hide Chest Armor
 Type=tHideArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
 CanUse=CanUElf|CanUFemale
+Height=1
 Weight=6
 ReqStr=25
 SkillMake=Tailoring 850
@@ -45,18 +50,18 @@ Material=tLeather
 AlterItem=0
 DupeList=03170
 
+ResPhysical=3
+ResFire=3
+ResCold=4
+ResPoison=3
+ResEnergy=2
+
 Category=Equipment
 Subsection=Armor: Hide Armor
 Description=Hide Tunic (Female)
 
 On=@Create
 HitPoints={36 48}
-
-ResPhysical=3
-ResFire=3
-ResCold=4
-ResPoison=3
-ResEnergy=2
 
 [ItemDef 03170]
 DupeItem=02B79
@@ -66,9 +71,11 @@ DupeItem=02B79
 [ItemDef 02B77]
 DefName=iHidePauldrons
 Name=hide pauldrons
+NameLoc=1031127		// hide pauldrons
 Type=tHideArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
 CanUse=CanUElf
+Height=1
 Weight=4
 ReqStr=20
 SkillMake=Tailoring 750
@@ -77,18 +84,18 @@ Material=tLeather
 AlterItem=0
 DupeList=0316E
 
+ResPhysical=3
+ResFire=3
+ResCold=4
+ResPoison=3
+ResEnergy=2
+
 Category=Equipment
 Subsection=Armor: Hide Armor
 Description=Hide Pauldrons
 
 On=@Create
 HitPoints={36 48}
-
-ResPhysical=3
-ResFire=3
-ResCold=4
-ResPoison=3
-ResEnergy=2
 
 [ItemDef 0316E]
 DupeItem=02B77
@@ -98,9 +105,11 @@ DupeItem=02B77
 [ItemDef 02B75]
 DefName=iHideGloves
 Name=hide gloves
+NameLoc=1031125		// hide gloves
 Type=tHideArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
 CanUse=CanUElf
+Height=1
 Weight=2
 ReqStr=15
 SkillMake=Tailoring 750
@@ -109,18 +118,18 @@ Material=tLeather
 AlterItem=0
 DupeList=0316C
 
+ResPhysical=3
+ResFire=3
+ResCold=4
+ResPoison=3
+ResEnergy=2
+
 Category=Equipment
 Subsection=Armor: Hide Armor
 Description=Hide Gloves
 
 On=@Create
 HitPoints={36 48}
-
-ResPhysical=3
-ResFire=3
-ResCold=4
-ResPoison=3
-ResEnergy=2
 
 [ItemDef 0316C]
 DupeItem=02B75
@@ -130,9 +139,11 @@ DupeItem=02B75
 [ItemDef 02B78]
 DefName=iHidePants
 Name=hide pants
+NameLoc=1031128		// hide pants
 Type=tHideArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
 CanUse=CanUElf
+Height=1
 Weight=5
 ReqStr=25
 SkillMake=Tailoring 920
@@ -141,18 +152,18 @@ Material=tLeather
 AlterItem=0
 DupeList=0316F
 
+ResPhysical=3
+ResFire=3
+ResCold=4
+ResPoison=3
+ResEnergy=2
+
 Category=Equipment
 Subsection=Armor: Hide Armor
 Description=Hide Pants
 
 On=@Create
 HitPoints={36 48}
-
-ResPhysical=3
-ResFire=3
-ResCold=4
-ResPoison=3
-ResEnergy=2
 
 [ItemDef 0316F]
 DupeItem=02B78
@@ -162,9 +173,11 @@ DupeItem=02B78
 [ItemDef 02B76]
 DefName=iHideGorget
 Name=hide gorget
+NameLoc=1031126		// hide gorget
 Type=tHideArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
 CanUse=CanUElf
+Height=1
 Weight=3
 ReqStr=15
 SkillMake=Tailoring 900
@@ -173,18 +186,18 @@ Material=tLeather
 AlterItem=0
 DupeList=0316D
 
+ResPhysical=3
+ResFire=3
+ResCold=4
+ResPoison=3
+ResEnergy=2
+
 Category=Equipment
 Subsection=Armor: Hide Armor
 Description=Hide Gorget
 
 On=@Create
 HitPoints={36 48}
-
-ResPhysical=3
-ResFire=3
-ResCold=4
-ResPoison=3
-ResEnergy=2
 
 [ItemDef 0316D]
 DupeItem=02B76

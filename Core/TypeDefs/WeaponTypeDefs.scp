@@ -5,15 +5,13 @@
 
 [TypeDef tHammerWeapon]
 On=@Create
-If (<DispID> != <BaseID>)
- AbilityPrimary=<Serv.ItemDef.<DispID>.AbilityPrimary>
- AbilitySecondary=<Serv.ItemDef.<DispID>.AbilitySecondary>
-EndIf
+CarryAbilities
+CarryDamTypes
 
 
 On=@Dye
 If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
- If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye)
+ If (!<ArgO.DyeType> &UniversalDye) && (!<ArgO.DyeType> &PigmentDye)
   Return 1
  EndIf
 Else
@@ -25,15 +23,13 @@ EndIf
 
 [TypeDef tWarAxeWeapon]
 On=@Create
-If (<DispID> != <BaseID>)
- AbilityPrimary=<Serv.ItemDef.<DispID>.AbilityPrimary>
- AbilitySecondary=<Serv.ItemDef.<DispID>.AbilitySecondary>
-EndIf
+CarryAbilities
+CarryDamTypes
 
 
 On=@Dye
 If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
- If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye)
+ If (!<ArgO.DyeType> &UniversalDye) && (!<ArgO.DyeType> &PigmentDye)
   Return 1
  EndIf
 Else
@@ -45,15 +41,13 @@ EndIf
 
 [TypeDef tSwordWeapon]
 On=@Create
-If (<DispID> != <BaseID>)
- AbilityPrimary=<Serv.ItemDef.<DispID>.AbilityPrimary>
- AbilitySecondary=<Serv.ItemDef.<DispID>.AbilitySecondary>
-EndIf
+CarryAbilities
+CarryDamTypes
 
 
 On=@Dye
 If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
- If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye)
+ If (!<ArgO.DyeType> &UniversalDye) && (!<ArgO.DyeType> &PigmentDye)
   Return 1
  EndIf
 Else
@@ -65,15 +59,13 @@ EndIf
 
 [TypeDef tFencingWeapon]
 On=@Create
-If (<DispID> != <BaseID>)
- AbilityPrimary=<Serv.ItemDef.<DispID>.AbilityPrimary>
- AbilitySecondary=<Serv.ItemDef.<DispID>.AbilitySecondary>
-EndIf
+CarryAbilities
+CarryDamTypes
 
 
 On=@Dye
 If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
- If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye)
+ If (!<ArgO.DyeType> &UniversalDye) && (!<ArgO.DyeType> &PigmentDye)
   Return 1
  EndIf
 Else
@@ -85,15 +77,13 @@ EndIf
 
 [TypeDef tBowWeapon]
 On=@Create
-If (<DispID> != <BaseID>)
- AbilityPrimary=<Serv.ItemDef.<DispID>.AbilityPrimary>
- AbilitySecondary=<Serv.ItemDef.<DispID>.AbilitySecondary>
-EndIf
+CarryAbilities
+CarryDamTypes
 
 
 On=@Dye
 If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
- If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye)
+ If (!<ArgO.DyeType> &UniversalDye) && (!<ArgO.DyeType> &PigmentDye)
   Return 1
  EndIf
 Else
@@ -105,15 +95,13 @@ EndIf
 
 [TypeDef tWand]
 On=@Create
-If (<DispID> != <BaseID>)
- AbilityPrimary=<Serv.ItemDef.<DispID>.AbilityPrimary>
- AbilitySecondary=<Serv.ItemDef.<DispID>.AbilitySecondary>
-EndIf
+CarryAbilities
+CarryDamTypes
 
 
 On=@Dye
 If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
- If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye)
+ If (!<ArgO.DyeType> &UniversalDye) && (!<ArgO.DyeType> &PigmentDye)
   Return 1
  EndIf
 Else
@@ -125,15 +113,13 @@ EndIf
 
 [TypeDef tStaffWeapon]
 On=@Create
-If (<DispID> != <BaseID>)
- AbilityPrimary=<Serv.ItemDef.<DispID>.AbilityPrimary>
- AbilitySecondary=<Serv.ItemDef.<DispID>.AbilitySecondary>
-EndIf
+CarryAbilities
+CarryDamTypes
 
 
 On=@Dye
 If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
- If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye)
+ If (!<ArgO.DyeType> &UniversalDye) && (!<ArgO.DyeType> &PigmentDye)
   Return 1
  EndIf
 Else
@@ -145,15 +131,13 @@ EndIf
 
 [TypeDef tCrookWeapon]
 On=@Create
-If (<DispID> != <BaseID>)
- AbilityPrimary=<Serv.ItemDef.<DispID>.AbilityPrimary>
- AbilitySecondary=<Serv.ItemDef.<DispID>.AbilitySecondary>
-EndIf
+CarryAbilities
+CarryDamTypes
 
 
 On=@Dye
 If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
- If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye)
+ If (!<ArgO.DyeType> &UniversalDye) && (!<ArgO.DyeType> &PigmentDye)
   Return 1
  EndIf
 Else
@@ -165,15 +149,13 @@ EndIf
 
 [TypeDef tPickaxeWeapon]
 On=@Create
-If (<DispID> != <BaseID>)
- AbilityPrimary=<Serv.ItemDef.<DispID>.AbilityPrimary>
- AbilitySecondary=<Serv.ItemDef.<DispID>.AbilitySecondary>
-EndIf
+CarryAbilities
+CarryDamTypes
 
 
 On=@Dye
 If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
- If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye)
+ If (!<ArgO.DyeType> &UniversalDye) && (!<ArgO.DyeType> &PigmentDye)
   Return 1
  EndIf
 Else
@@ -185,15 +167,13 @@ EndIf
 
 [TypeDef tAxeWeapon]
 On=@Create
-If (<DispID> != <BaseID>)
- AbilityPrimary=<Serv.ItemDef.<DispID>.AbilityPrimary>
- AbilitySecondary=<Serv.ItemDef.<DispID>.AbilitySecondary>
-EndIf
+CarryAbilities
+CarryDamTypes
 
 
 On=@Dye
 If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
- If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye)
+ If (!<ArgO.DyeType> &UniversalDye) && (!<ArgO.DyeType> &PigmentDye)
   Return 1
  EndIf
 Else
@@ -205,15 +185,13 @@ EndIf
 
 [TypeDef tCrossbowWeapon]
 On=@Create
-If (<DispID> != <BaseID>)
- AbilityPrimary=<Serv.ItemDef.<DispID>.AbilityPrimary>
- AbilitySecondary=<Serv.ItemDef.<DispID>.AbilitySecondary>
-EndIf
+CarryAbilities
+CarryDamTypes
 
 
 On=@Dye
 If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
- If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye)
+ If (!<ArgO.DyeType> &UniversalDye) && (!<ArgO.DyeType> &PigmentDye)
   Return 1
  EndIf
 Else
@@ -225,15 +203,13 @@ EndIf
 
 [TypeDef tThrowingWeapon]
 On=@Create
-If (<DispID> != <BaseID>)
- AbilityPrimary=<Serv.ItemDef.<DispID>.AbilityPrimary>
- AbilitySecondary=<Serv.ItemDef.<DispID>.AbilitySecondary>
-EndIf
+CarryAbilities
+CarryDamTypes
 
 
 On=@Dye
 If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
- If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye)
+ If (!<ArgO.DyeType> &UniversalDye) && (!<ArgO.DyeType> &PigmentDye)
   Return 1
  EndIf
 Else

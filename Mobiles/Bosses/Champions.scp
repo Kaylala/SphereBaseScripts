@@ -7,6 +7,8 @@ Name=Dragon Turtle
 Can=CanWalk|CanUseHands
 MoveRate=100
 Dam=25,37
+DamPhysical=50
+DamPoison=50
 Icon=iDragonTurtleIcon
 Sound=sndDragon1
 Resources=18 iDragonTurtleScute,33 iPlainHides,1 iCutOfRawRibs
@@ -14,28 +16,21 @@ FoodType=tFruit,tVegetable
 Aversions=rCivilization
 Desires=tFruit,tVegetable,rJungle,tWater,rwater
 BloodColor=0
+//sDismount
 
 Category=Bosses
-SubsectiOn=Champions
-DescriptiOn=Dragon Turtle
+Subsection=Champions
+Description=Dragon Turtle
 
 On=@Create
 NPC=BrainDragon
 SlayerSuper=EodonSlayer|Dinosaur
-BreathAnim=iFXExplode
-BreathType=3
+Breath.Anim=iFXExplode
+Breath.Type=3
 
 Fame=40000
 Karma=-40000
-Alignment=Evil
-
-Ability1=s_dismount
-
-DamPhysical=50
-DamFire=0
-DamCold=0
-DamPoison=50
-DamEnergy=0
+FightMode=Evil
 
 ResPhysical=75,80
 ResFire=65,75
@@ -59,5 +54,6 @@ NewGold={8000 10000}
 
 On=@DeathCorpse
 //NewItem=iDragonTurtleEgg    // 1 randomly dropped per kill
+
 
 [EOF]

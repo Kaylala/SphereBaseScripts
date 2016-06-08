@@ -1,0 +1,322 @@
+[ItemDef 0f9d]
+DefName=iSewingKit
+Name=sewing kit
+NameLoc=1023997
+Type=tSewingKit
+Height=1
+Weight=2
+SkillMake=Tinkering 100
+Resources=2 iIronIngot
+Material=tIngot
+
+Category=Utility
+Subsection=Tools: Tailoring
+Description=Sewing Kit
+
+On=@Create
+UsesCur={50 100}
+
+
+[ItemDef 0f9e]
+DefName=iScissors
+Name=scissors
+NameLoc=1023998
+Type=tScissors
+Can=CanIFlip
+Height=1
+Weight=1
+SkillMake=Tinkering 50
+Resources=2 iIronIngot
+Material=tIngot
+DupeList=0f9f
+
+Category=Utility
+Subsection=Tools: Tailoring
+Description=Scissors
+
+[ItemDef 0f9f]
+NameLoc=1023999
+DupeItem=0f9e
+
+
+[ItemDef 0fa9]
+DefName=iDyes
+Name=dyes
+NameLoc=1024009
+Type=tDye
+Height=1
+Weight=3
+
+Category=Utility
+Subsection=Tools: Tailoring
+Description=Dyes
+
+
+[ItemDef 0FAB]
+DefName=iDyeingTub
+Name=dyeing tub
+NameLoc=1024011
+Type=tDyeVat
+Height=1
+Weight=10
+
+Category=Utility
+Subsection=Tools: Tailoring
+Description=Dying Tub
+
+
+[ItemDef 01015]
+DefName=iSpinningWheel1
+Name=spinning wheel
+NameLoc=1024117
+Type=tSpinningWheel
+Height=4
+Weight=255
+SkillMake=Carpentry 736,Tailoring 650
+Resources=25 iCloth,17 iBoard
+Material=tCloth,tWood
+
+Category=Utility
+Subsection=Tools: Tailoring
+Description=Spinning Wheel 1 (South)
+
+[ItemDef 01016]
+NameLoc=1024118
+DupeList=01017
+
+Category=Utility
+Subsection=Tools: Tailoring
+Description=Spinning Wheel 1 (South) (Anim Frame)
+
+[ItemDef 01017]
+NameLoc=1024119
+DupeItem=01016
+
+
+[ItemDef 01019]
+DefName=iSpinningWheel2
+Name=spinning wheel
+NameLoc=1024121
+Type=tSpinningWheel
+Height=4
+Weight=255
+SkillMake=Carpentry 736,Tailoring 650
+Resources=25 iCloth,17 iBoard
+Material=tCloth,tWood
+
+Category=Utility
+Subsection=Tools: Tailoring
+Description=Spinning Wheel 2 (East)
+
+[ItemDef 0101A]
+NameLoc=1024122
+DupeItem=0101B
+
+Category=Utility
+Subsection=Tools: Tailoring
+Description=Spinning Wheel 2 (East) (Anim Frame)
+
+[ItemDef 0101B]
+NameLoc=1024123
+DupeItem=0101A
+
+
+[ItemDef 0101c]
+DefName=iSpinningWheel3
+Name=spinning wheel
+NameLoc=1024124
+Type=tSpinningWheel
+Height=4
+Weight=255
+
+Category=Utility
+Subsection=Tools: Tailoring
+Description=Spinning Wheel 3 (North)
+
+[ItemDef 0101D]
+NameLoc=1024125
+DupeList=0101E
+
+Category=Utility
+Subsection=Tools: Tailoring
+Description=Spinning Wheel 3 (North) (Anim Frame)
+
+[ItemDef 0101E]
+NameLoc=1024126
+DupeItem=0101D
+
+
+[ItemDef 010A4]
+DefName=iSpinningWheel4
+Name=spinning wheel
+NameLoc=1024260
+Type=tSpinningWheel
+Height=4
+Weight=255
+
+Category=Utility
+Subsection=Tools: Tailoring
+Description=Spinning Wheel 4 (West)
+
+[ItemDef 010A5]
+NameLoc=1024261
+DupeList=010A6
+
+Category=Utility
+Subsection=Tools: Tailoring
+Description=Spinning Wheel 4 (West) (Anim Frame)
+
+[ItemDef 010A6]
+NameLoc=1024262
+DupeItem=010A5
+
+
+[ItemDef 01049]
+DefName=iLoomBench
+Name=loom bench
+NameLoc=1024169
+Type=tChair
+TFlags=TFlagPrefixA
+Can=CanIFlip
+Height=3
+Weight=5
+DupeList=0104A
+
+Category=Utility
+Subsection=Tools: Tailoring
+Description=Loom Bench
+
+[ItemDef 0104A]
+NameLoc=1024170
+DupeItem=01049
+
+
+[ItemDef 0105F]
+DefName=iUprightLoom1
+Name=upright loom
+NameLoc=1024191
+Type=tLoom
+Can=CanIFlip
+Height=8
+Weight=255
+DupeList=01060
+SkillMake=Carpentry 842,Tailoring 650
+Resources=25 iCloth,85 iBoard
+Material=tCloth,tWood
+
+Category=Utility
+Subsection=Tools: Tailoring
+Description=Upright Loom 1 (East)
+
+[ItemDef 01060]
+NameLoc=1024192
+DupeItem=0105F
+
+
+[ItemDef 01061]
+DefName=iUprightLoom2
+Name=upright loom
+NameLoc=1024193
+Type=tLoom
+Can=CanIFlip
+Height=8
+Weight=255
+DupeList=01062
+
+Category=Utility
+Subsection=Tools: Tailoring
+Description=Upright Loom 2 (South)
+
+[ItemDef 01062]
+NameLoc=1024194
+DupeItem=01061
+
+
+[ItemDef 01063]
+DefName=iUprightLoom3
+Name=upright loom
+NameLoc=1024195
+Type=tLoom
+Can=CanIFlip
+Height=8
+Weight=255
+DupeList=01064
+
+Category=Utility
+Subsection=Tools: Tailoring
+Description=Upright Loom 3 (West)
+
+[ItemDef 01064]
+NameLoc=1024196
+DupeItem=01063
+
+
+[ItemDef 01065]
+DefName=iUprightLoom4
+Name=upright loom
+NameLoc=1024197
+Type=tLoom
+Can=CanIFlip
+Height=8
+Weight=255
+DupeList=01066
+
+Category=Utility
+Subsection=Tools: Tailoring
+Description=Upright Loom 4 (North)
+
+[ItemDef 01066]
+NameLoc=1024197
+DupeItem=01065
+
+
+[ItemDef 02DD9]
+DefName=iElvenSpinningWheel
+Name=elven spinning wheel
+NameLoc=1031737
+Type=tSpinningWheel
+Can=CanIFlip|CanIRetainColor
+Height=5
+Weight=255
+SkillMake=Carpentry 750,Tailoring 650
+Resources=40 iCloth,60 iBoard
+Material=tCloth,tWood
+DupeList=02DDA
+
+Category=Utility
+Subsection=Tailoring
+Description=Elven Spinning Wheel
+
+[ItemDef 02DDA]
+NameLoc=1031738
+DupeItem=02DD9
+
+
+[ItemDef 02E3C]
+NameLoc=1031836
+DupeList=02E3D
+
+Category=Utility
+Subsection=Tailoring
+Description=Elven Spinning Wheel (East) (Anim Frame)
+
+[ItemDef 02E3D]
+NameLoc=1031837
+DupeItem=02E3C
+
+
+[ItemDef 02E3E]
+NameLoc=1031838
+DupeList=02E3F
+
+Category=Utility
+Subsection=Tailoring
+Description=Elven Spinning Wheel (South) (Anim Frame)
+
+[ItemDef 02E3F]
+NameLoc=1031839
+DupeItem=02E3E
+
+
+
+[EOF]

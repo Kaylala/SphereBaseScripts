@@ -73,7 +73,7 @@ SkillMenu sm
 [TypeDef tFishingPole]
 On=@Dye
 If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
- If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye)
+ If (!<ArgO.DyeType> &UniversalDye) && (!<ArgO.DyeType> &PigmentDye)
   Return 1
  EndIf
 Else
@@ -86,7 +86,7 @@ EndIf
 [TypeDef tShovel]
 On=@Dye
 If (<Attr> &AttrMagic) || (<Attr> &AttrArtifact)
- If (!<ArgO.DyeType> &UniversalDye) || (!<ArgO.DyeType> &PigmentDye)
+ If (!<ArgO.DyeType> &UniversalDye) && (!<ArgO.DyeType> &PigmentDye)
   Return 1
  EndIf
 Else

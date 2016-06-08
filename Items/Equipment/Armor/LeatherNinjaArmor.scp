@@ -2,9 +2,11 @@
 [ItemDef 02791]
 DefName=iLeatherNinjaPants
 Name=leather ninja pants
+NameLoc=1030129		// leather ninja pants
 Type=tLeatherArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
 CanUse=CanUHuman|CanUElf
+Height=1
 Weight=3
 ReqStr=10
 SkillMake=Tailoring 800
@@ -13,6 +15,12 @@ Material=tLeather
 AlterItem={iGargishLeatherLeggings1 1 iGargishLeatherLeggings2 1}
 DupeList=027DC
 
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
 Category=Equipment
 Subsection=Armor: Leather Ninja Armor
 Description=Leather Ninja Pants
@@ -20,13 +28,8 @@ Description=Leather Ninja Pants
 On=@Create
 HitPoints={36 48}
 
-ResPhysical=2
-ResFire=4
-ResCold=3
-ResPoison=3
-ResEnergy=3
-
 [ItemDef 027DC]
+NameLoc=1030204		// leather ninja pants
 DupeItem=02791
 
 
@@ -34,9 +37,11 @@ DupeItem=02791
 [ItemDef 02793]
 DefName=iLeatherNinjaJacket
 Name=leather ninja jacket
+NameLoc=1030131		// leather ninja jacket
 Type=tLeatherArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
 CanUse=CanUHuman|CanUElf
+Height=1
 Weight=5
 ReqStr=10
 SkillMake=Tailoring 850
@@ -45,6 +50,12 @@ Material=tLeather
 AlterItem={iGargishLeatherChest1 1 iGargishLeatherChest2 1}
 DupeList=027DE
 
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
 Category=Equipment
 Subsection=Armor: Leather Ninja Armor
 Description=Leather Ninja Jacket
@@ -52,13 +63,8 @@ Description=Leather Ninja Jacket
 On=@Create
 HitPoints={36 48}
 
-ResPhysical=2
-ResFire=4
-ResCold=3
-ResPoison=3
-ResEnergy=3
-
 [ItemDef 027DE]
+NameLoc=1030206		// leather ninja jacket
 DupeItem=02793
 
 
@@ -66,9 +72,11 @@ DupeItem=02793
 [ItemDef 02792]
 DefName=iLeatherNinjaMitts
 Name=leather ninja mitts
+NameLoc=1030130		// leather ninja mitts
 Type=tLeatherArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
 CanUse=CanUHuman|CanUElf
+Height=1
 Weight=2
 ReqStr=10
 SkillMake=Tailoring 650
@@ -77,6 +85,12 @@ Material=tLeather
 AlterItem={iGargishLeatherKilt1 1 iGargishLeatherKilt2 1}
 DupeList=027DD
 
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
 Category=Equipment
 Subsection=Armor: Leather Ninja Armor
 Description=Leather Ninja Mitts
@@ -84,13 +98,8 @@ Description=Leather Ninja Mitts
 On=@Create
 HitPoints={36 48}
 
-ResPhysical=2
-ResFire=4
-ResCold=3
-ResPoison=3
-ResEnergy=3
-
 [ItemDef 027DD]
+NameLoc=1030205		// leather ninja mitts
 DupeItem=02792
 
 
@@ -98,9 +107,11 @@ DupeItem=02792
 [ItemDef 0278E]
 DefName=iLeatherNinjaHood
 Name=leather ninja hood
+NameLoc=1030126		// leather ninja hood
 Type=tLeatherArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenMana|CanIRegenHits|CanIRegenStam
 CanUse=CanUHuman|CanUElf
+Height=1
 Weight=2
 ReqStr=10
 SkillMake=Tailoring 900
@@ -109,6 +120,12 @@ Material=tLeather
 AlterItem=0
 DupeList=027D9
 
+ResPhysical=2
+ResFire=4
+ResCold=3
+ResPoison=3
+ResEnergy=3
+
 Category=Equipment
 Subsection=Armor: Leather Ninja Armor
 Description=Leather Ninja Hood
@@ -116,13 +133,8 @@ Description=Leather Ninja Hood
 On=@Create
 HitPoints={36 48}
 
-ResPhysical=2
-ResFire=4
-ResCold=3
-ResPoison=3
-ResEnergy=3
-
 [ItemDef 027D9]
+NameLoc=1030201		// leather ninja hood
 DupeItem=0278E
 
 

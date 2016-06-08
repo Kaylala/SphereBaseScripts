@@ -1,14 +1,29 @@
+[Comment GiantKin]
+Ogre
+OgreLord1
+OgreLord2
+ArcticOgreLord
+Ettin1
+Ettin2
+Troll1
+Troll2
+FrostTroll
+CyclopeanWarrior
+Titan
+
+
+
 [CharDef 01]
 DefName=cOgre
 Name=ogre
 Can=CanWalk|CanUseHands|CanMale
 MoveRate=100
 Dam=9,11
+DamPhysical=100
 Icon=iOgreIcon
 Sound=sndOgre1
 Resources=2 iCutOfRawRibs
 FoodType=tRawMeat,tMeat
-MaxFood=35
 Aversions=rCivilization
 Desires=tGold,tCoin,tGem,tRawMeat,tMeat
 BloodColor=0
@@ -20,14 +35,13 @@ Description=Ogre
 
 On=@Create
 NPC=BrainMonster
+MaxFood=35
 SlayerSuper=RepondSlayer
 SlayerLesser=OgreSlayer
 
 Fame=3000
 Karma=-3000
-Alignment=Evil
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=30,35
 ResFire=15,25
@@ -56,11 +70,11 @@ Name=ogre lord
 Can=CanWalk|CanUseHands|CanMale
 MoveRate=100
 Dam=20,25
+DamPhysical=100
 Icon=iOgreLordIcon
 Sound=sndOgre1
 Resources=2 iCutOfRawRibs
 FoodType=tRawMeat,tMeat
-MaxFood=35
 Aversions=rCivilization
 Desires=tGold,tCoin,tGem,tRawMeat,tMeat
 BloodColor=0
@@ -72,14 +86,13 @@ Description=Ogre Lord
 
 On=@Create
 NPC=BrainMonster
+MaxFood=35
 SlayerSuper=RepondSlayer
 SlayerLesser=OgreSlayer
 
 Fame=15000
 Karma=-15000
-Alignment=Evil
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=45,55
 ResFire=30,40
@@ -107,11 +120,11 @@ Name=ogre lord
 Can=CanWalk|CanUseHands|CanMale
 MoveRate=100
 Dam=20,25
+DamPhysical=100
 Icon=iOgreLordIcon
 Sound=sndOgre1
 Resources=2 iCutOfRawRibs
 FoodType=tRawMeat,tMeat
-MaxFood=35
 Aversions=rCivilization
 Desires=tGold,tCoin,tGem,tRawMeat,tMeat
 BloodColor=0
@@ -123,14 +136,13 @@ Description=Ogre Lord
 
 On=@Create
 NPC=BrainMonster
+MaxFood=35
 SlayerSuper=RepondSlayer
 SlayerLesser=OgreSlayer
 
 Fame=15000
 Karma=-15000
-Alignment=Evil
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=45,55
 ResFire=30,40
@@ -158,11 +170,12 @@ Name=arctic ogre lord
 Can=CanWalk|CanUseHands|CanMale
 MoveRate=100
 Dam=20,25
+DamPhysical=30
+DamCold=70
 Icon=iOgreLordIcon
 Sound=sndOgre1
 Resources=2 iCutOfRawRibs
 FoodType=tRawMeat,tMeat
-MaxFood=35
 Aversions=rCivilization
 Desires=tGold,tCoin,tGem,tRawMeat,tMeat
 BloodColor=0
@@ -174,15 +187,13 @@ Description=Arctic Ogre Lord
 
 On=@Create
 NPC=BrainMonster
+MaxFood=35
 SlayerSuper=RepondSlayer|IceSlayer
 SlayerLesser=OgreSlayer
 
 Fame=15000
 Karma=-15000
-Alignment=Evil
-
-DamPhysical=30
-DamCold=70
+FightMode=Evil
 
 ResPhysical=45,55
 ResFire=-10,0
@@ -210,11 +221,11 @@ Name=ettin
 Can=CanWalk|CanUseHands|CanMale
 MoveRate=100
 Dam=7,17
+DamPhysical=100
 Icon=iEttinIcon
 Sound=sndEttin1
 Resources=4 iCutOfRawRibs
 FoodType=tRawMeat,tMeat
-MaxFood=35
 Aversions=rCivilization
 Desires=tGold,tCoin,tGem,tRawMeat,tMeat
 BloodColor=0
@@ -226,13 +237,12 @@ Description=Ettin
 
 On=@Create
 NPC=BrainMonster
+MaxFood=35
 SlayerSuper=RepondSlayer
 
 Fame=3000
 Karma=-3000
-Alignment=Evil
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=35,40
 ResFire=15,25
@@ -260,11 +270,11 @@ Name=ettin
 Can=CanWalk|CanUseHands|CanMale
 MoveRate=100
 Dam=7,17
+DamPhysical=100
 Icon=iEttinIcon
 Sound=sndEttin1
 Resources=4 iCutOfRawRibs
 FoodType=tRawMeat,tMeat
-MaxFood=35
 Aversions=rCivilization
 Desires=tGold,tCoin,tGem,tRawMeat,tMeat
 BloodColor=0
@@ -276,13 +286,12 @@ Description=Ettin
 
 On=@Create
 NPC=BrainMonster
+MaxFood=35
 SlayerSuper=RepondSlayer
 
 Fame=3000
 Karma=-3000
-Alignment=Evil
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=35,40
 ResFire=15,25
@@ -310,11 +319,11 @@ Name=troll
 Can=CanWalk|CanUseHands|CanMale
 MoveRate=100
 Dam=8,14
+DamPhysical=100
 Icon=iTrollIcon
 Sound=sndTroll1
 Resources=2 iCutOfRawRibs
 FoodType=tRawMeat,tMeat
-MaxFood=35
 Aversions=rCivilization
 Desires=tGold,tCoin,tGem,tRawMeat,tMeat
 BloodColor=0
@@ -326,14 +335,13 @@ Description=Troll
 
 On=@Create
 NPC=BrainMonster
+MaxFood=35
 SlayerSuper=RepondSlayer
 SlayerLesser=TrollSlayer
 
 Fame=3500
 Karma=-3500
-Alignment=Evil
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=35,45
 ResFire=25,35
@@ -361,11 +369,11 @@ Name=troll
 Can=CanWalk|CanUseHands|CanMale
 MoveRate=100
 Dam=8,14
+DamPhysical=100
 Icon=iTrollIcon
 Sound=sndTroll1
 Resources=2 iCutOfRawRibs
 FoodType=tRawMeat,tMeat
-MaxFood=35
 Aversions=rCivilization
 Desires=tGold,tCoin,tGem,tRawMeat,tMeat
 BloodColor=0
@@ -377,14 +385,13 @@ Description=Troll
 
 On=@Create
 NPC=BrainMonster
+MaxFood=35
 SlayerSuper=RepondSlayer
 SlayerLesser=TrollSlayer
 
 Fame=3500
 Karma=-3500
-Alignment=Evil
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=35,45
 ResFire=25,35
@@ -412,11 +419,12 @@ Name=frost troll
 Can=CanWalk|CanUseHands|CanMale
 MoveRate=100
 Dam=14,20
+DamPhysical=75
+DamCold=25
 Icon=iTrollIcon
 Sound=sndTroll1
 Resources=2 iCutOfRawRibs
 FoodType=tRawMeat,tMeat
-MaxFood=35
 Aversions=rCivilization
 Desires=tGold,tCoin,tGem,tRawMeat,tMeat
 BloodColor=0
@@ -428,15 +436,13 @@ Description=Frost Troll
 
 On=@Create
 NPC=BrainMonster
+MaxFood=35
 SlayerSuper=RepondSlayer|IceSlayer
 SlayerLesser=TrollSlayer
 
 Fame=4000
 Karma=-4000
-Alignment=Evil
-
-DamPhysical=75
-DamCold=25
+FightMode=Evil
 
 ResPhysical=45,55
 ResFire=0
@@ -464,11 +470,11 @@ Name=cyclopean warrior
 Can=CanWalk|CanUseHands|CanMale
 MoveRate=100
 Dam=7,23
+DamPhysical=100
 Icon=iCyclopeanWarriorIcon
 Sound=sndCyclops1
 Resources=4 iCutOfRawRibs
 FoodType=tRawMeat,tMeat
-MaxFood=35
 Aversions=rCivilization
 Desires=tGold,tCoin,tGem,tRawMeat,tMeat
 BloodColor=0
@@ -480,13 +486,12 @@ Description=CyclopeanWarrior
 
 On=@Create
 NPC=BrainMonster
+MaxFood=35
 SlayerSuper=RepondSlayer
 
 Fame=4500
 Karma=-4500
-Alignment=Evil
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=45,50
 ResFire=30,40
@@ -514,11 +519,11 @@ Name=titan
 Can=CanWalk|CanUseHands|CanMale
 MoveRate=100
 Dam=13,16
+DamPhysical=100
 Icon=iTitanIcon
 Sound=sndTitan1
 Resources=4 iCutOfRawRibs
 FoodType=tRawMeat,tMeat
-MaxFood=35
 Aversions=rCivilization
 Desires=tGold,tCoin,tGem,tRawMeat,tMeat
 BloodColor=0
@@ -530,13 +535,12 @@ Description=Titan
 
 On=@Create
 NPC=BrainMonster
+MaxFood=35
 SlayerSuper=RepondSlayer
 
 Fame=11500
 Karma=-11500
-Alignment=Evil
-
-DamPhysical=100
+FightMode=Evil
 
 ResPhysical=35,45
 ResFire=30,40

@@ -1,0 +1,99 @@
+[Comment Cut_Leather_CliLocs]
+1049684;pieces of spined leather
+1049685;pieces of horned leather
+1049686;pieces of barbed leather
+
+1074929;Pieces of Leather
+1074930;Pieces of Spined Leather
+1074931;Pieces of Horned Leather
+1074932;Pieces of Barbed Leather
+
+
+[ItemDef 01081]
+DefName=iCutLeather1
+Name=cut leather
+NameLoc=1024225
+Type=tLeather
+Can=CanIFlip|CanIStack
+Height=1
+Weight=1
+Resources=1 iPileOfHides
+DupeList=01082
+
+Category=Resources
+Subsection=Tailoring
+Description=Cut Leather 1
+
+[ItemDef 01082]
+NameLoc=1024226
+DupeItem=01081
+
+
+[ItemDef 01067]
+DefName=iCutLeather2
+Name=cut leather
+NameLoc=1024199
+Type=tLeather
+Can=CanIFlip|CanIStack
+Height=1
+Weight=11
+Resources=1 iPileOfHides
+DupeList=01068,01081,01082
+
+Category=Resources
+Subsection=Tailoring
+Description=Cut Leather 2 (Weight 11)
+
+On=@DClick
+If (<More2>)
+ Name=cut <Serv.CharDef.<More2>.Name> leather
+EndIf
+
+[ItemDef 01068]
+NameLoc=1024200
+DupeItem=01067
+
+
+[ItemDef iCutSpinedLeather]
+ID=iCutLeather1
+Name=pieces of spined leather
+NameLoc=1049684
+Resources=1 iPileOfSpinedHides
+
+Category=Resources
+Subsection=Tailoring
+Description=Cut Spined Leather
+
+On=@Create
+Color=SpinedHue
+
+
+[ItemDef iCutHornedLeather]
+ID=iCutLeather1
+Name=pieces of horned leather
+NameLoc=1049685
+Resources=1 iPileOfHornedHides
+
+Category=Resources
+Subsection=Tailoring
+Description=Cut Horned Leather
+
+On=@Create
+Color=HornedHue
+
+
+[ItemDef iCutBarbedLeather]
+ID=iCutLeather1
+Name=pieces of barbed leather
+NameLoc=1049686
+Resources=1 iPileOfBarbedHides
+
+Category=Resources
+Subsection=Tailoring
+Description=Cut Barbed Leather
+
+On=@Create
+Color=BarbedHue
+
+
+[EOF]

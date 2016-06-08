@@ -32,7 +32,6 @@ tSlashingWeapon				tSwordWeapon
 tFencingWeapon				14 // can't be used to chop trees. (make kindling)
 tPiercingWeapon				tFencingWeapon
 tBowWeapon					15 // bow (or xbow)
-tArcheryWeapon				tBowWeapon
 tWand						16 // a magic storage item
 tTelepad					17 // walk on teleport
 tSwitch						18 // this is a switch, affects some other object in the world.
@@ -190,6 +189,7 @@ tPickpocketDip				157
 tBedroll					158
 tInscriptionTool			159 // Inscription Tool (Item: iScribesPen)
 tHides						160 // Cut into leather. (plural like EA (Pile of Hides); was tHide)
+tHide						tHides
 tClothBolt					161
 tBoard						162 // logs are plained into decent lumber
 tPitcher					163

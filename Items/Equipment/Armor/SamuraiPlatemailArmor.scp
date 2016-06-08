@@ -2,6 +2,7 @@
 [ItemDef 02779]
 DefName=iPlatemailMempo
 Name=platemail mempo
+NameLoc=1030105		// platemail mempo
 Type=tPlatemailArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
 CanUse=CanUHuman|CanUElf
@@ -13,6 +14,12 @@ Material=tIngot
 AlterItem=0
 DupeList=027C4
 
+ResPhysical=5
+ResFire=3
+ResCold=2
+ResPoison=3
+ResEnergy=2
+
 Category=Equipment
 Subsection=Armor: Platemail Armor
 Description=Platemail Mempo
@@ -20,13 +27,8 @@ Description=Platemail Mempo
 On=@Create
 HitPoints={36 48}
 
-ResPhysical=5
-ResFire=3
-ResCold=2
-ResPoison=3
-ResEnergy=2
-
 [ItemDef 027C4]
+NameLoc=1030180		// platemail mempo
 DupeItem=02779
 
 
@@ -34,6 +36,7 @@ DupeItem=02779
 [ItemDef 0277D]
 DefName=iPlatemailDo
 Name=platemail do
+NameLoc=1030109		// platemail do
 Type=tPlatemailArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
 CanUse=CanUHuman|CanUElf
@@ -45,6 +48,12 @@ Material=tIngot
 AlterItem={iGargishPlatemailChest1 1 iGargishPlatemailChest2 1}
 DupeList=027C8
 
+ResPhysical=5
+ResFire=3
+ResCold=2
+ResPoison=3
+ResEnergy=2
+
 Category=Equipment
 Subsection=Armor: Platemail Armor
 Description=Platemail Do
@@ -52,13 +61,8 @@ Description=Platemail Do
 On=@Create
 HitPoints={36 48}
 
-ResPhysical=5
-ResFire=3
-ResCold=2
-ResPoison=3
-ResEnergy=2
-
 [ItemDef 027C8]
+NameLoc=1030184		// platemail do
 DupeItem=0277D
 
 
@@ -66,6 +70,7 @@ DupeItem=0277D
 [ItemDef 02780]
 DefName=iPlatemailHiroSode
 Name=platemail hiro sode
+NameLoc=1030112		// platemail hiro sode
 Type=tPlatemailArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
 CanUse=CanUHuman|CanUElf
@@ -77,6 +82,12 @@ Material=tIngot
 AlterItem={iGargishPlatemailArms1 1 iGargishPlatemailArms2 1}
 DupeList=027CB
 
+ResPhysical=5
+ResFire=3
+ResCold=2
+ResPoison=3
+ResEnergy=2
+
 Category=Equipment
 Subsection=Armor: Platemail Armor
 Description=Platemail Hiro Sode
@@ -84,13 +95,8 @@ Description=Platemail Hiro Sode
 On=@Create
 HitPoints={36 48}
 
-ResPhysical=5
-ResFire=3
-ResCold=2
-ResPoison=3
-ResEnergy=2
-
 [ItemDef 027CB]
+NameLoc=1030187		// platemail hiro sode
 DupeItem=02780
 
 
@@ -98,6 +104,7 @@ DupeItem=02780
 [ItemDef 02788]
 DefName=iPlatemailSuneate
 Name=platemail suneate
+NameLoc=1030120		// platemail suneate
 Type=tPlatemailArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
 CanUse=CanUHuman|CanUElf
@@ -109,6 +116,12 @@ Material=tIngot
 AlterItem={iGargishPlatemailLeggings1 1 iGargishPlatemailLeggings2 1}
 DupeList=027D3
 
+ResPhysical=5
+ResFire=3
+ResCold=2
+ResPoison=3
+ResEnergy=2
+
 Category=Equipment
 Subsection=Armor: Platemail Armor
 Description=Platemail Suneate
@@ -116,13 +129,8 @@ Description=Platemail Suneate
 On=@Create
 HitPoints={36 48}
 
-ResPhysical=5
-ResFire=3
-ResCold=2
-ResPoison=3
-ResEnergy=2
-
 [ItemDef 027D3]
+NameLoc=1030195		// platemail suneate
 DupeItem=02788
 
 
@@ -130,6 +138,7 @@ DupeItem=02788
 [ItemDef 0278D]
 DefName=iPlatemailHaidate
 Name=platemail haidate
+NameLoc=1030125		// platemail haidate
 Type=tPlatemailArmor
 Can=CanIFlip|CanIRepair|CanIRecycle|CanIExceptional|CanIRetainColor|CanIMakersMark|CanIImbue|CanIEnhance|CanIImbue|CanIReforge|CanIRegenHits|CanIRegenStam
 CanUse=CanUHuman|CanUElf
@@ -141,6 +150,12 @@ Material=tIngot
 AlterItem={iGargishPlatemailLeggings 1 iGargishPlatemailLeggings1 1}
 DupeList=027D8
 
+ResPhysical=5
+ResFire=3
+ResCold=2
+ResPoison=3
+ResEnergy=2
+
 Category=Equipment
 Subsection=Armor: Platemail Armor
 Description=Platemail Haidate
@@ -148,13 +163,8 @@ Description=Platemail Haidate
 On=@Create
 HitPoints={36 48}
 
-ResPhysical=5
-ResFire=3
-ResCold=2
-ResPoison=3
-ResEnergy=2
-
 [ItemDef 027D8]
+NameLoc=1030200		// platemail haidate
 DupeItem=0278D
 
 

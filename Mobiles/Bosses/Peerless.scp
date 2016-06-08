@@ -4,13 +4,13 @@ Name=Great Ape
 Can=CanWalk|CanUseHands
 MoveRate=100
 Dam=14,21
-Icon=iGorilla
+DamPhysical=100
+Icon=iGorillaIcon
 Sound=sndGorilla1
 Resources=2 iCutOfRawRibs
 FoodType=tFruit
-MaxFood=35
 Aversions=rCivilization
-Desires=ibanana,tFruit
+Desires=iBanana,tFruit,iBarrel1
 BloodColor=0
 
 Category=Bosses
@@ -19,23 +19,16 @@ DescriptiOn=Great Ape
 
 On=@Create
 NPC=BrainAnimal
-SoundSet=
 Loyalty=0
-CanDefend=0
 SlayerSuper=SlayerEodon
-ThrowObj=iBanana
+ThrowObj=iBarrel1
 ThrowRange=12
-ThrowDam=<DamMin>,<DamMax>
+ThrowDam=<Dam.Lo>,<Dam.Hi>
+MaxFood=35
 
 Fame=16000
 Karma=-16000
-Alignment=Evil
-
-DamPhysical=100
-DamFire=0
-DamCold=0
-DamPoison=0
-DamEnergy=0
+FightMode=Evil
 
 ResPhysical=50,60
 ResFire=30,40
@@ -59,5 +52,6 @@ NewGold={1600 2000}
 
 On=@DeathCorpse
 NewItem=iBanana,{10 20}
+
 
 [EOF]

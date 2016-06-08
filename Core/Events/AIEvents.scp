@@ -1,3 +1,17 @@
+[Events AISavageWarrior]
+On=@NPCLookAtChar
+If (<Src.IsEvent.eSavageKin>)
+ Return 0
+EndIf
+
+If (<Src.Race> == RaceOrc) || (<Src.IsOrc>)
+ Attack <Src>
+EndIf
+
+On=@Hit
+IncreasePetDamage 300	// 200 maybe?
+
+
 ///////////////////
 // Miscellaneous //
 ///////////////////
@@ -5,7 +19,7 @@
 [Events AIDoomDaemonBone]
 On=@DeathCorpse
 If (<Region> == aDoom)
- Serv.NewItem=iDaemonBone,<R <EVal (<Karma>/2000)>,<EVal (<Karma>/1000)>>
+ Serv.NewItem=iDaemonBone,<R<EVal (<Karma>/2000)>,<EVal (<Karma>/1000)>>
  New.Cont=<I>
 EndIf
 
@@ -150,7 +164,7 @@ If (<Src.Action> == Skill_Archery) || (<Src.Action> == Skill_Throwing)
 EndIf
 
 On=@Hit
-PetHatred
+IncreasePetDamage 300
 
 On=@DeathCorpse
 NewLoot=ExodusMinionLoot
@@ -172,7 +186,7 @@ If (<Src.Action> == Skill_Archery) || (<Src.Action> == Skill_Throwing)
 EndIf
 
 On=@Hit
-PetHatred
+IncreasePetDamage 300
 
 On=@DeathCorpse
 NewLoot=ExodusMinionLordLoot
@@ -730,6 +744,14 @@ EndIf
 On=@DeathCorpse
 NewTMap=3
 NewLoot=RaptorLoot
+
+
+[Events AIGoat]
+On=@ReceiveItem
+If (<DispID> == cGoat) || (<DispID> == cMountainGoat)
+ Consume <ArgO>
+ Return 0
+EndIf
 
 
 [EOF]

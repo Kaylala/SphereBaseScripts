@@ -25,11 +25,309 @@ AttrCliLoc
 WeightCliLoc
 
 
+[Function SpellbookCliLocs]
+NameCliLoc
+AttrCliLoc
+ExpansionReqCliLoc
+ArtifactCliLoc
+SkillBonusCliLoc
+SlayerCliLoc
+IntelligenceBonusCliLoc
+ManaIncreaseCliLoc
+ManaRegenerationCliLoc
+FasterCastingCliLoc
+DefenseChanceIncreaseCliLoc
+FasterCastingCliLoc
+SpellDamageIncreaseCliLoc
+LuckCliLoc
+LowerCostCliLoc
+IncreasedKarmaLossCliLoc
+SpellsCountCliLoc
+
+
+[Function IncreasedKarmaLossCliLoc]
+If (<IncreasedKarmaLoss>)
+ Src.AddCliLoc 1075210,<IncreasedKarmaLoss>
+EndIf
+
+
+[Function SpellsCountCliLoc]
+Src.AddCliLoc 1042886,<dTag0.SpellsCount>
+
+
+[Function SpellsCount]
+Local.Spell 1
+For 1 32
+ If (<More1>&<Local.Spell>)
+  Local.Count +=1
+ EndIf
+ If (<More2>&<Local.Spell>)
+  Local.Count +=1
+ EndIf
+ Local.Spell += <Local.Spell>
+EndFor
+Return <dLocal.Count>
+
+
+[Function SkillBonusCliLoc]
+If (!<IsEmpty <SkillBonus1>>)
+ ArgS <SkillBonus1>
+ Src.AddCliLoc 1060451,<ArgV0>,<ArgV1>
+EndIf
+If (!<IsEmpty <SkillBonus2>>)
+ ArgS <SkillBonus2>
+ Src.AddCliLoc 1060452,<ArgV0>,<ArgV1>
+EndIf
+If (!<IsEmpty <SkillBonus3>>)
+ ArgS <SkillBonus3>
+ Src.AddCliLoc 1060453,<ArgV0>,<ArgV1>
+EndIf
+If (!<IsEmpty <SkillBonus4>>)
+ ArgS <SkillBonus4>
+ Src.AddCliLoc 1060454,<ArgV0>,<ArgV1>
+EndIf
+If (!<IsEmpty <SkillBonus5>>)
+ ArgS <SkillBonus5>
+ Src.AddCliLoc 1060455,<ArgV0>,<ArgV1>
+EndIf
+
+
+[Function HitChanceIncreaseCliLoc]
+If (<HitChanceIncrease>)
+ Src.AddCliLoc 1060415,<HitChanceIncrease>
+EndIf
+
+
+[Function DefenseChanceIncreaseCliLoc]
+If (<DefenseChanceIncrease>)
+ Src.AddCliLoc 1060408,<DefenseChanceIncrease>
+EndIf
+
+
+[Function LowerCostCliLoc]
+If (<LowerManaCost>)
+ Src.AddCliLoc 1060433,<LowerManaCost>
+EndIf
+
+
+[Function LowerCostCliLoc]
+If (<LowerManaCost>)
+ Src.AddCliLoc 1060433,<LowerManaCost>
+EndIf
+If (<LowerReagentCost>)
+ Src.AddCliLoc 1060434,<LowerReagentCost>
+EndIf
+
+
+[Function StatBonusCliLoc]
+If (<StrengthBonus>)
+ Src.AddCliLoc 1060485,<StrengthBonus>
+EndIf
+If (<DexterityBonus>)
+ Src.AddCliLoc 1060409,<DexterityBonus>
+EndIf
+If (<IntelligenceBonus>)
+ Src.AddCliLoc 1060432,<IntelligenceBonus>
+EndIf
+
+
+[Function StatModifierCliLoc]
+HitPointIncreaseCliLoc
+StaminaIncreaseCliLoc
+ManaIncreaseCliLoc
+
+
+[Function HitPointIncreaseCliLoc]
+If (<HitPointIncrease>)
+ Src.AddCliLoc 1060431,<HitPointIncrease>
+EndIf
+[Function StaminaIncreaseCliLoc]
+If (<StaminaIncrease>)
+ Src.AddCliLoc 1060484,<StaminaIncrease>
+EndIf
+[Function ManaIncreaseCliLoc]
+If (<ManaIncrease>)
+ Src.AddCliLoc 1060439,<ManaIncrease>
+EndIf
+
+
+[Function StatsRegenerationCliLoc]
+HitPointRegenerationCliLoc
+StaminaRegenerationCliLoc
+ManaRegenerationCliLoc
+
+
+[Function HitPointRegenerationCliLoc]
+If (<HitPointRegeneration>)
+ Src.AddCliLoc 1060444,<HitPointRegeneration>
+EndIf
+
+
+[Function ManaRegenerationCliLoc]
+If (<ManaRegeneration>)
+ Src.AddCliLoc 1060440,<ManaRegeneration>
+EndIf
+
+
+[Function StaminaRegenerationCliLoc]
+If (<StaminaRegeneration>)
+ Src.AddCliLoc 1060443,<StaminaRegeneration>
+EndIf
+
+
+[Function SpellDamageIncreaseCliLoc]
+If (<SpellDamageIncrease>)
+ Src.AddCliLoc 1060483,<SpellDamageIncrease>
+EndIf
+
+
+[Function FasterCastingCliLoc]
+If (<FasterCasting>)
+ Src.AddCliLoc 1060413,<FasterCasting>
+EndIf
+If (<FasterCastRecovery>)
+ Src.AddCliLoc 1060412,<FasterCastRecovery>
+EndIf
+
+
+[Function LuckCliLoc]
+If (<Luck>)
+ Src.AddCliLoc 1060436,<Luck>
+EndIf
+
+
+[Function SlayerCliLoc]
+If (!<IsEmpty <SlayerSuper>>)		// Super Slayers
+ If (<SlayerSuper> &AbyssSlayer) || (<SlayerSuper> &DemonSlayer) || (<SlayerSuper> &DaemonSlayer)
+  Src.AddCliLoc 1060460
+ EndIf
+ If (<SlayerSuper> &ElementalSlayer)
+  Src.AddCliLoc 1060464
+ EndIf
+ If (<SlayerSuper> &FeySlayer)
+  Src.AddCliLoc 1070855
+ EndIf
+ If (<SlayerSuper> &ArachnidSlayer)
+  Src.AddCliLoc 1060458
+ EndIf
+ If (<SlayerSuper> &ReptileSlayer)
+  Src.AddCliLoc 1060473
+ EndIf
+ If (<SlayerSuper> &RepondSlayer)
+  Src.AddCliLoc 1060472
+ EndIf
+ If (<SlayerSuper> &UndeadSlayer)
+  Src.AddCliLoc 1060479
+ EndIf
+ If (<SlayerSuper> &VerminSlayer)
+  Src.AddCliLoc 1072505
+ EndIf
+ If (<SlayerSuper> &EodonSlayer)
+  Src.AddCliLoc 1156126
+ EndIf
+ If (<SlayerSuper> &BatSlayer)
+  Src.AddCliLoc 1072506
+ EndIf
+ If (<SlayerSuper> &BearSlayer)
+  Src.AddCliLoc 1072504
+ EndIf
+ If (<SlayerSuper> &BeetleSlayer)
+  Src.AddCliLoc 1072508
+ EndIf
+ If (<SlayerSuper> &BirdSlayer)
+  Src.AddCliLoc 1072509
+ EndIf
+ If (<SlayerSuper> &BovineSlayer)
+  Src.AddCliLoc 1072512
+ EndIf
+ If (<SlayerSuper> &FlameSlayer)
+  Src.AddCliLoc 1072511
+ EndIf
+ If (<SlayerSuper> &IceSlayer)
+  Src.AddCliLoc 1072510
+ EndIf
+ If (<SlayerSuper> &MageSlayer)
+  Src.AddCliLoc 1072507
+ EndIf
+ If (<SlayerSuper> &WolfSlayer)
+  Src.AddCliLoc 1075462
+ EndIf
+EndIf
+If (!<IsEmpty <SlayerLesser>>)		// Lesser Slayers
+ If (<SlayerLesser> &GargoyleSlayer)
+  Src.AddCliLoc 1060466
+ EndIf
+ If (<SlayerLesser> &AirElementalSlayer)
+  Src.AddCliLoc 1060457
+ EndIf
+ If (<SlayerLesser> &BloodElementalSlayer)
+  Src.AddCliLoc 1060459
+ EndIf
+ If (<SlayerLesser> &EarthElementalSlayer)
+  Src.AddCliLoc 1060463
+ EndIf
+ If (<SlayerLesser> &FireElementalSlayer)
+  Src.AddCliLoc 1060465
+ EndIf
+ If (<SlayerLesser> &PoisonElementalSlayer)
+  Src.AddCliLoc 1060471
+ EndIf
+ If (<SlayerLesser> &SnowElementalSlayer)
+  Src.AddCliLoc 1060476
+ EndIf
+ If (<SlayerLesser> &WaterElementalSlayer)
+  Src.AddCliLoc 1060481
+ EndIf
+ If (<SlayerLesser> &ScorpionSlayer)
+  Src.AddCliLoc 1060474
+ EndIf
+ If (<SlayerLesser> &SpiderSlayer)
+  Src.AddCliLoc 1060477
+ EndIf
+ If (<SlayerLesser> &TerathanSlayer)
+  Src.AddCliLoc 1060478
+ EndIf
+ If (<SlayerLesser> &DragonSlayer)
+  Src.AddCliLoc 1060462
+ EndIf
+ If (<SlayerLesser> &LizardmanSlayer)
+  Src.AddCliLoc 1060467
+ EndIf
+ If (<SlayerLesser> &OphidianSlayer)
+  Src.AddCliLoc 1060469
+ EndIf
+ If (<SlayerLesser> &SnakeSlayer)
+  Src.AddCliLoc 1060475
+ EndIf
+ If (<SlayerLesser> &GoblinSlayer)
+  Src.AddCliLoc 1095010
+ EndIf
+ If (<SlayerLesser> &OrcSlayer)
+  Src.AddCliLoc 1060470
+ EndIf
+ If (<SlayerLesser> &OgreSlayer)
+  Src.AddCliLoc 1060468
+ EndIf
+ If (<SlayerLesser> &TrollSlayer)
+  Src.AddCliLoc 1060480
+ EndIf
+ If (<SlayerLesser> &DinosaurSlayer)
+  Src.AddCliLoc 1156240
+ EndIf
+ If (<SlayerLesser> &MyrmidexSlayer)
+  Src.AddCliLoc 1156241
+ EndIf
+ If (<SlayerLesser> &EodonTribesmanSlayer)
+  Src.AddCliLoc 1156347
+ EndIf
+EndIf
+
+
 [Function NameCliLoc]
 If (<Can> &CanIStack)
- If (<NameLoc>)
+ If (!<IsEmpty <NameLoc>>)
   Src.AddCliLoc 1050039,<Amount>,<NameLoc>
- ElIf (<Name>)
+ ElIf (!<IsEmpty <Name>>)
   Src.AddCliLoc 1050039,<Amount>,<Name>
  Else
   If (<DispIDDec> <= 16381)
@@ -39,9 +337,9 @@ If (<Can> &CanIStack)
   EndIf
  EndIf
 Else
- If (<NameLoc>)
+ If (!<IsEmpty <NameLoc>>)
   Src.AddCliLoc <NameLoc>
- ElIf (<Name>)
+ ElIf (!<IsEmpty <Name>>)
   Src.AddCliLoc 1042971,<Name>
  Else
   If (<DispIDDec> <= 16381)
@@ -71,7 +369,7 @@ ElIf (<Attr> &AttrInsured)
  Src.AddCliLoc 1114311	// Insured
 EndIf
 
-If (<CraftedBy>)
+If (!<IsEmpty <CraftedBy>>)
  Src.AddCliLoc 1050043,<CraftedBy>	// Crafted by ~1_Name~
 EndIf
 

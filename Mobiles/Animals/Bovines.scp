@@ -4,6 +4,7 @@ Name=cow
 Can=CanWalk
 MoveRate=100
 Dam=1,4
+DamPhysical=100
 Icon=iCowIcon
 Sound=sndCow1
 Resources=12 iPileOfHides,8 iCutOfRawRibs
@@ -25,9 +26,7 @@ SlayerSuper=BovineSlayer
 
 Fame=300
 Karma=0
-Alignment=Neutral
-
-DamPhysical=100
+FightMode=Neutral
 
 ResPhysical=5,15
 
@@ -50,11 +49,11 @@ Name=cow
 Can=CanWalk
 MoveRate=100
 Dam=1,4
+DamPhysical=100
 Icon=iCowIcon
 Sound=sndCow1
 Resources=12 iPileOfHides,8 iCutOfRawRibs
 FoodType=tFruit,tVegetable
-MaxFood=35
 Aversions=rDungeon
 Desires=tFruit,tVegetable,rFarm
 BloodColor=0
@@ -66,14 +65,13 @@ Description=Cow 2
 
 On=@Create
 NPC=BrainAnimal
+MaxFood=35
 FollowerSlots=1
 SlayerSuper=BovineSlayer
 
 Fame=300
 Karma=0
-Alignment=Neutral
-
-DamPhysical=100
+FightMode=Neutral
 
 ResPhysical=5,15
 
@@ -96,6 +94,7 @@ Name=bull
 Can=CanWalk
 MoveRate=100
 Dam=7,17
+DamPhysical=100
 Icon=iBullIcon
 Sound=sndBull1
 Resources=15 iPileOfHides,10 iCutOfRawRibs
@@ -117,9 +116,7 @@ SlayerSuper=BovineSlayer
 
 Fame=600
 Karma=0
-Alignment=Neutral
-
-DamPhysical=100
+FightMode=Neutral
 
 ResPhysical=25,35
 ResCold=10,15
@@ -143,11 +140,11 @@ Name=bull
 Can=CanWalk
 MoveRate=100
 Dam=7,17
+DamPhysical=100
 Icon=iBullIcon
 Sound=sndBull1
 Resources=15 iPileOfHides,10 iCutOfRawRibs
 FoodType=tGrain,tHay
-MaxFood=35
 Aversions=
 Desires=tGrain,tHay,rFarm
 BloodColor=0
@@ -159,14 +156,13 @@ Description=Bull
 
 On=@Create
 NPC=BrainAnimal
+MaxFood=35
 FollowerSlots=1
 SlayerSuper=BovineSlayer
 
 Fame=600
 Karma=0
-Alignment=Neutral
-
-DamPhysical=100
+FightMode=Neutral
 
 ResPhysical=25,35
 ResCold=10,15
@@ -190,6 +186,7 @@ Name=gaman
 Can=CanWalk
 MoveRate=100
 Dam=13,23
+DamPhysical=100
 Icon=iGamanIcon
 Sound=sndGaman1
 Resources=15 iPileOfHides,10 iCutOfRawRibs
@@ -211,9 +208,7 @@ SlayerSuper=BovineSlayer
 
 Fame=2000
 Karma=-2000
-Alignment=Neutral
-
-DamPhysical=100
+FightMode=Neutral
 
 ResPhysical=50,70
 ResFire=30,50

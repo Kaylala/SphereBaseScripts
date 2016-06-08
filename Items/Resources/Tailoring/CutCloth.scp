@@ -1,0 +1,21 @@
+[ItemDef 01766]
+DefName=iCutCloth
+Name=cut cloth
+NameLoc=1025990
+Type=tCloth
+Can=CanIDye|CanIFlip|CanIStack
+Height=1
+Weight=0.1
+DupeList=01768
+
+Category=Resources
+Subsection=Tailoring
+Description=Cut Cloth
+
+[ItemDef 01768]
+NameLoc=1025992
+DupeItem=01766
+
+
+
+[EOF]

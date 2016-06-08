@@ -9,16 +9,68 @@ CheckExpansion
 On=@EquipTest
 CheckExpansion
 
+// Check to see if CanUse is more than 0
+If (<CanUse>)
+// Race checks first
+ If (<CanUse> &CanUHuman|CanUElf|CanUGargoyle)
+  If (<Src.IsGargoyle>) && (!<CanUse> &CanUGargoyle)
+   Return 1
+  ELIf (<Src.IsElf>) && (!<CanUse> &CanUElf)
+   Return 1
+  ELIf (<Src.IsHuman>) && (!<CanUse> &CanUHuman)
+   Return 1
+  EndIf
+ EndIf
+// Gender checks next.
+ If (!<CanUse> &CanUMale|CanUFemale)
+  If (<Src.IsMale>) && (!<CanUse> &CanUMale)
+   Return 1
+  ElIf (<Src.IsFemale>) && (!<CanUse> &CanUFemale)
+   Return 1
+  EndIf
+ EndIf
+EndIf
+
+
+On=@HitTry
+// Default punching speed.
+If (!<ArgO.Weapon>)
+ If (<Tag.Override.Speed>)
+  ArgN1=<Tag.Override.Speed>
+ Else
+  ArgN1=20
+ EndIf
+EndIf
+
 
 On=@Hit
+// Pre-AOS Damage
 If (<dDef0.PreAoSDamage>)
- If (<Src.FindLayer.LayerHand1.IsWeapon>)
-  Ref1=<Src.FindLayer.LayerHand1.UID>
-  ArgN1=<R<EVal <Ref1.Dam.Lo>/2>,<EVal <Ref1.Dam.Hi>*2>>
+ If (<Src.Weapon>)
+  ArgN1=<R<EVal <Weapon.Dam.Lo>/2>,<EVal <Weapon.Dam.Hi>*2>>
  Else
   ArgN1=<R1,8>
  EndIf
 EndIf
+
+If (<ArgO.Attr> &AttrMagic) || (<ArgO.Attr> &AttrArtifact)
+ // Searing Weapon
+ If (<ArgO.Attr> &AttrSearingWeapon)
+  If (<ArgO.IsRangedWeapon>)
+   If (<R1,100> <= 10)
+    Src.Damage <R10,20>,DamFire,<I>
+    Damage 4,DamDirect,<I>
+    Mana --
+    Src.TimerF 4,RemoveSearingDebuff
+    If (<Src.Brain>)
+     Src.HitPointRegeneration -= 60
+    Else
+     Src.HitPointRegeneration -= 20
+    EndIf
+  EndIf
+ EndIf
+EndIf
+
 
 If <ArgO.Velocity>
  VelocityAttack
@@ -27,31 +79,34 @@ EndIf
 
 On=@Mount
 // GM's Can mount anything; unless the GM is a gargoyle.
-If (<Src.IsGM>) && !(<Src.IsGargoyle>)
+If (<Src.IsGM>) && (!<Src.IsGargoyle>)
  Return 0
 EndIf
 
 CheckExpansion	// Lets be sure we have the expansion first.
 
 // Gargoyles Cannot mount creatures.
-If <Src.IsGargoyle>
+If (<Src.IsGargoyle>)
  Return 1
 EndIf
 
 If (<CanUse> &CanUNone)
  Return 1
-ElIf (<Src.IsHuman>) && !(<CanUse> &CanUHuman)
+ElIf (<Src.IsHuman>) && (!<CanUse> &CanUHuman)
  Return 1
-ElIf (<Src.IsElf>) && !(<CanUse> &CanUElf)
+ElIf (<Src.IsElf>) && (!<CanUse> &CanUElf)
  Return 1
-ElIf (<Src.IsMale>) && !(<CanUse> &CanUMale)
+ElIf (<Src.IsMale>) && (!<CanUse> &CanUMale)
  Return 1
-ElIf (<Src.IsFemale>) && !(<CanUse> &CanUFemale)
+ElIf (<Src.IsFemale>) && (!<CanUse> &CanUFemale)
  Return 1
 EndIf
 
 
-// Item Triggers
+///////////////////
+// Item Triggers //
+///////////////////
+
 On=@ItemPickUp_Ground
 If (<Act.Amount> == 1) && (<Act.Weight> > 254)
  If !(<Act.BaseWeight>) ||  (<Act.BaseWeight> > 254)
@@ -76,7 +131,10 @@ If (<Act.Amount> == 1) && (<Act.Weight> > 254)
 EndIf
 
 
-// Spell Triggers
+////////////////////
+// Spell Triggers //
+////////////////////
+
 On=@SpellSelect
 // This check wont apply to chivalry
 // ManaUse fix to match EA and not have use on select or fail.
@@ -114,6 +172,17 @@ EndIf
 // Mana Loss correctly done.
 Mana -= <CTag0.ManaUse>
 CTag.ManaUse=
+
+
+// Functions only for global player event.
+[Function RemoveSearingDebuff]
+// Anything non-player
+If (!<Src.IsPlayer>)
+ Src.HitPointRegeneration += 60
+ Return
+EndIf
+// Players
+Src.HitPointRegeneration += 20
 
 
 [EOF]

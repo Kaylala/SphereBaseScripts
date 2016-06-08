@@ -2,7 +2,68 @@
 On=@Create
 BardingDifficulty
 
-On=@BardingEffect
+If (!<MaxFood>)
+ MaxFood=35
+EndIf
+
+
+On=@EquipTest
+// Check to see if CanUse is more than 0
+If (<CanUse>)
+// Race checks first
+ If (<CanUse> &CanUHuman|CanUElf|CanUGargoyle)
+  If (<Src.IsGargoyle>) && (!<CanUse> &CanUGargoyle)
+   Return 1
+  ELIf (<Src.IsElf>) && (!<CanUse> &CanUElf)
+   Return 1
+  ELIf (<Src.IsHuman>) && (!<CanUse> &CanUHuman)
+   Return 1
+  EndIf
+ EndIf
+// Gender checks next.
+ If (!<CanUse> &CanUMale|CanUFemale)
+  If (<Src.IsMale>) && (!<CanUse> &CanUMale)
+   Return 1
+  ElIf (<Src.IsFemale>) && (!<CanUse> &CanUFemale)
+   Return 1
+  EndIf
+ EndIf
+EndIf
+
+
+On=@HitTry
+If (!<ArgO.Weapon>)
+ If (<Tag.Override.Speed>)
+  ArgN1=<Tag.Override.Speed>
+ Else
+  ArgN1=20
+ EndIf
+EndIf
+
+
+On=@Hit
+// Pre-AOS Damage
+If (<dDef0.PreAoSDamage>)
+ If (<Src.Weapon>)
+  ArgN1=<R<EVal <Weapon.Dam.Lo>/2>,<EVal <Weapon.Dam.Hi>*2>>
+ EndIf
+EndIf
+
+
+On=@ReceiveItem
+// We shouldn't have more than 10 food resources.
+For 10
+ If (<ArgO> == <FoodType.<Local._For>.Key>)
+  If (<Food> == <MaxFood>)
+   Return 1
+  Else
+   UseItem <ArgO>
+  EndIf
+ EndIf
+EndFor
+
+
+On=@BardEffect
 // ArgO = Character affected.
 // Src = Player using the bard skill.
 // ArgN1 = The skill being used. 1 is Discordance. 2 is Peacemaking. 3 is Provocation.
